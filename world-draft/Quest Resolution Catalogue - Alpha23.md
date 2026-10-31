@@ -1,0 +1,124 @@
+# Quest Resolution Catalogue — Alpha23
+
+All 112 quest identities, authored outcomes and fixed money/experience rewards are retained. This table records completion ownership, not player instructions.
+
+## Native outcome completion
+
+- The Line Behind You
+- The Prize in the Flask
+- A Demonstration of Terrible Importance
+- Perfect on the Blackboard
+- Polish Versus Proof
+- An Answer Nobody Asked For
+- The Relic That Refused to Pose
+- The Shortcut Has Teeth
+- The Archon Has Left the Building
+- A Costume with Opinions
+- A Very Dignified Relay
+- The Last Sweet on the Table
+- The Blade That Passed: Under the Finish
+- The Blade That Passed: A Load It Cannot Hide
+- The Blade That Passed: Her Name on the Work
+- Three Banners: A Shared Road
+- Three Banners: The Buried Turn
+- Three Banners: Who Brought Them Home
+- First Ascent: A Light for the Cairns
+- First Ascent: The Shelter Above
+- First Ascent: What the Fire Remembers
+- The Premiere Was Yesterday
+- The Cinder Pit Rematch
+- A Stone for a Working Hand
+- Room for One More Bench
+- A Table After the Steam
+- Tracks Beside the Fold
+- First Bloom, Last Rehearsal
+- A Voice Below the Roots
+- What the Manta Leaves
+- The Room Below the Ring
+- An Impossible Shade of Green
+- Two Teams, One Clean Sample
+- A Formula Worth Selling
+- One Standard, Two Students
+- The Shield's Late Return
+- What the Scent Becomes
+- The Wrong Kind of Light
+- A Crate Without a Signature
+- Water Owed Downstream
+- A Fair Measure
+- Margins in Two Hands
+- Before the First Bell
+- The Keep's Last Survey
+- A Seat That Attended Class
+- Odds Nobody Agreed To
+- Two Tags, Two Households
+- A Shift Behind the Sea Wall
+- A Date in the Ledger
+- Fast Enough to Stop
+- Explain It to the Fist
+- The Staff Has a Better Social Life
+- An Explosion of Appropriate Size
+- A Hunter's Pace
+- Cuts Among the Pollen
+- Grounded Thunder
+- Where the Water Lies
+- The Borrowed Shape
+- A Quiet Instrument
+- Pressure Beneath the Crown
+
+## One guild settlement check
+
+- Guild: Boars at the Watercourse
+- Guild: The Courier at the Wrong Turn
+- Guild: A Cart Full of Glass
+- Guild: After the Harbor Squall
+- Guild: Bitter Roots, Sharp Teeth
+- Guild: A Door That Keeps Its Promise
+- Guild: Keep the Fair Moving
+- Guild: Beneath the Broken Dial
+
+## Explicit staged progression
+
+- Beyond Glowhaven: An Authorized Expedition
+- Enrollment at Phoenix Wing
+- Enrollment at Gryffin Tail
+- Enrollment at Dragon Hoard
+- Enrollment at Hydra Head
+- The First Regional Field Examination
+- Silver Threads Below
+- A Measure of Polish
+- You Could Have Asked
+- Guild: Adventurer Licensure
+- Guild: A Parcel for the Bazaar
+- Guild: Westwood Trail Notes
+- Guild: Broken Halo Recovery
+- Guild: Redvein Safety Survey
+- Guild: Inverted Crown Instruments
+- Phoenix Wing: A Spell of Your Own
+- Phoenix Wing: The Familiar Examination
+- Phoenix Wing: One Question Worth Answering
+- Gryffin Tail: A Spell of Your Own
+- Gryffin Tail: The Familiar Examination
+- Gryffin Tail: One Question Worth Answering
+- Dragon Hoard: A Spell of Your Own
+- Dragon Hoard: The Familiar Examination
+- Dragon Hoard: One Question Worth Answering
+- Hydra Head: A Spell of Your Own
+- Hydra Head: The Familiar Examination
+- Hydra Head: One Question Worth Answering
+- Four Academies, One Festival
+- What We Bring to the Next Morning
+- Salvage: What the Tide Left
+- Salvage: A Claim Still Breathing
+- Salvage: The Last Dry Hold
+- The Road: An Empty Harness
+- The Road: Someone Behind the Reeds
+- The Road: Clear Before Nightfall
+- Separate Pay: The Same Commission
+- Separate Pay: One Camp Too Small
+- Separate Pay: Who Earned the Fee
+- A Road Made of Air: The Far End
+- A Road Made of Air: Cargo in the Weather
+- A Road Made of Air: A Route People Can Use
+- The Hunt That Looks Back: A Shape in the Wake
+- The Hunt That Looks Back: The Wrong Echo
+- The Hunt That Looks Back: An End to the Chase

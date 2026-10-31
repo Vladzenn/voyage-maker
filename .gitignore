@@ -1,0 +1,49 @@
+# Only project content is shared. Desktop state, chats and credentials stay local.
+/*
+!/AGENTS.md
+!/AGENTS.override.md
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/.github/
+!/docs/
+!/tools/
+!/research/
+!/sources/
+!/world-draft/
+
+# Current world, readable notes and plans; Git replaces duplicate export archives.
+/world-draft/*
+!/world-draft/WorldAlpha - *.json
+!/world-draft/*.md
+!/world-draft/*.csv
+!/world-draft/authoring/
+/world-draft/authoring/*
+!/world-draft/authoring/plans/
+!/world-draft/authoring/validation/
+
+# Existing large media stays local and is represented by docs/asset-index.json.
+# tools/project.py publish force-adds only new or changed media, never all originals.
+/world-draft/npc portraits/
+/world-draft/location images/
+/world-draft/maps/
+/world-draft/map-variations/
+
+**/__pycache__/
+*.pyc
+node_modules/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.zip
+*.7z
+*.gz
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+.DS_Store
+Thumbs.db

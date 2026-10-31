@@ -1,0 +1,100 @@
+{
+  "ourWorldSHA256": "251b27f06704dbe6782e22bfe050af98d280456744c9a03ef5811fe46a7fe400",
+  "referenceSHA256": "cf32e15c4100bbdffacf90b3e516d98b9753dfc5fc89d8f6c723e6b4be813baf",
+  "counts": {
+    "ours": {
+      "npcs": 210,
+      "locations": 173,
+      "regions": 9,
+      "realms": 5,
+      "worldLore": 161,
+      "storyStarts": 17,
+      "itemTypes": 60,
+      "abilities": 480,
+      "skills": 45,
+      "traits": 418,
+      "npcTypes": 96,
+      "factions": 26,
+      "triggerDefinitions": 309,
+      "aiInstructions": 18,
+      "areas": 710,
+      "quests": 119,
+      "questTriggers": 0,
+      "musicFamilies": 17,
+      "musicVariants": 38,
+      "rootRulesWithSemanticCondition": 266,
+      "mechanicalGateHistogram": {
+        "1": 14,
+        "2": 65,
+        "3": 126,
+        "4": 61
+      }
+    },
+    "referenceBase": {
+      "npcs": 372,
+      "locations": 279,
+      "regions": 28,
+      "realms": 2,
+      "worldLore": 294,
+      "storyStarts": 100,
+      "itemTypes": 814,
+      "abilities": 1500,
+      "skills": 102,
+      "traits": 2051,
+      "npcTypes": 147,
+      "factions": 36,
+      "triggerDefinitions": 863,
+      "aiInstructions": 18,
+      "areas": 1603,
+      "quests": 380,
+      "questTriggers": 380,
+      "musicFamilies": 21,
+      "musicVariants": 176,
+      "rootRulesWithSemanticCondition": 411,
+      "mechanicalGateHistogram": {
+        "0": 5,
+        "1": 178,
+        "2": 129,
+        "3": 87,
+        "4": 12
+      }
+    }
+  },
+  "olderReferenceChangedRootKeys": [
+    "mods"
+  ],
+  "olderReferenceMods": [
+    {
+      "shortId": "nK9E8qi2UNik",
+      "version": 2
+    },
+    {
+      "shortId": "-hHKpJT95NUH",
+      "version": 2
+    },
+    {
+      "shortId": "G6w21MEkYhdY",
+      "version": 247
+    }
+  ],
+  "referenceMods": [
+    {
+      "shortId": "nK9E8qi2UNik",
+      "version": 2
+    },
+    {
+      "shortId": "-hHKpJT95NUH",
+      "version": 2
+    },
+    {
+      "shortId": "G6w21MEkYhdY",
+      "version": 248
+    }
+  ],
+  "notes": [
+    "Counts describe raw supplied JSON; referenced mod payloads not resolved.",
+    "Semantic root rules have a declared story or action condition. Literal story-text/action-text are mechanical.",
+    "Mechanical gate counts are static; a vacuous tick gate or broad location gate is not proof of low live cost.",
+    "No runtime tests performed. No active world edits made."
+  ]
+}

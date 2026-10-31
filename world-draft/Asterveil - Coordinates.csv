@@ -1,0 +1,29 @@
+name,region,regionX,regionY,x,y,wholeMapPercentX,wholeMapPercentY,minLevel,maxLevel,initialKnown
+Cloudbloom Landing,Cloudbloom Reaches,0,1,37,-6,43.5,28.0,5,20,True
+Asterveil Canopy,Cloudbloom Reaches,0,1,42,-3,46.0,26.5,5,20,True
+Bellwind Conservatory,Cloudbloom Reaches,0,1,7,27,28.5,11.5,10,22,True
+Mythwing Meadows,Cloudbloom Reaches,0,1,-20,30,15.0,10.0,12,25,True
+Sunspill Woodland,Cloudbloom Reaches,0,1,-6,12,22.0,19.0,12,25,True
+Petalwash Terraces,Cloudbloom Reaches,0,1,1,4,25.5,23.0,10,24,True
+Tetherroot Chain,Cloudbloom Reaches,0,1,19,-31,34.5,40.5,18,28,True
+Dewglass Hollows,Cloudbloom Reaches,0,1,-30,-8,10.0,29.0,20,28,False
+Rimeglass Refuge,Rimeglass Heights,1,1,-13,-6,68.5,28.0,12,25,True
+Frostbell Pines,Rimeglass Heights,1,1,-6,5,72.0,22.5,20,35,True
+Rimeglass Crown,Rimeglass Heights,1,1,4,35,77.0,7.5,28,38,True
+Broken Halo Ruins,Rimeglass Heights,1,1,27,9,88.5,20.5,25,38,False
+Thunderwake Crags,Rimeglass Heights,1,1,36,14,93.0,18.0,30,40,True
+Hollow Snow Vault,Rimeglass Heights,1,1,22,3,86.0,23.5,32,40,False
+Reedglass Anchorage,Mirrorwater Marches,0,0,27,28,38.5,61.0,18,30,True
+Mirrorwater Basin,Mirrorwater Marches,0,0,-2,20,24.0,65.0,30,43,True
+Glassreed Labyrinth,Mirrorwater Marches,0,0,8,-4,29.0,77.0,32,45,True
+Spillway Steps,Mirrorwater Marches,0,0,-24,10,13.0,70.0,30,44,True
+Lanternmire Islets,Mirrorwater Marches,0,0,-36,-20,7.0,85.0,34,46,True
+Drowned Orrery,Mirrorwater Marches,0,0,-9,-18,20.5,84.0,38,48,False
+Undertow Hollows,Mirrorwater Marches,0,0,16,-16,33.0,83.0,42,50,False
+Heatherwatch Shelf,Amethyst Crown,1,0,-26,30,62.0,60.0,25,38,True
+Mauvewind Steppe,Amethyst Crown,1,0,2,4,76.0,73.0,40,52,True
+Singing Stone Spines,Amethyst Crown,1,0,14,36,82.0,57.0,42,54,True
+Prismbloom Basin,Amethyst Crown,1,0,34,-13,92.0,81.5,44,55,True
+Crownfall Chasm,Amethyst Crown,1,0,23,-13,86.5,81.5,46,56,True
+Stillstar Sanctum,Amethyst Crown,1,0,1,-15,75.5,82.5,48,57,False
+The Inverted Crown,Amethyst Crown,1,0,27,22,88.5,64.0,55,60,False

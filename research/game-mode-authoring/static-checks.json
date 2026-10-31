@@ -1,0 +1,118 @@
+{
+  "modes": 12,
+  "compact_characters": 62204,
+  "section_limit": 100000,
+  "metrics": [
+    {
+      "mode": "Balanced",
+      "difficulty": "medium",
+      "name": 8,
+      "description": 200,
+      "instructions": 2937,
+      "npcIntentInstructions": 1292,
+      "askTheNarratorPrompt": 337
+    },
+    {
+      "mode": "Academy",
+      "difficulty": "medium",
+      "name": 7,
+      "description": 180,
+      "instructions": 3348,
+      "npcIntentInstructions": 1305,
+      "askTheNarratorPrompt": 327
+    },
+    {
+      "mode": "Comedy",
+      "difficulty": "medium",
+      "name": 6,
+      "description": 212,
+      "instructions": 3191,
+      "npcIntentInstructions": 1244,
+      "askTheNarratorPrompt": 267
+    },
+    {
+      "mode": "Action",
+      "difficulty": "medium",
+      "name": 6,
+      "description": 195,
+      "instructions": 3227,
+      "npcIntentInstructions": 1326,
+      "askTheNarratorPrompt": 278
+    },
+    {
+      "mode": "Drama",
+      "difficulty": "medium",
+      "name": 5,
+      "description": 195,
+      "instructions": 3290,
+      "npcIntentInstructions": 1234,
+      "askTheNarratorPrompt": 278
+    },
+    {
+      "mode": "Slice of Life",
+      "difficulty": "easy",
+      "name": 13,
+      "description": 189,
+      "instructions": 3202,
+      "npcIntentInstructions": 1214,
+      "askTheNarratorPrompt": 258
+    },
+    {
+      "mode": "Romance",
+      "difficulty": "medium",
+      "name": 7,
+      "description": 209,
+      "instructions": 3291,
+      "npcIntentInstructions": 1224,
+      "askTheNarratorPrompt": 261
+    },
+    {
+      "mode": "Mystery",
+      "difficulty": "medium",
+      "name": 7,
+      "description": 221,
+      "instructions": 3340,
+      "npcIntentInstructions": 1220,
+      "askTheNarratorPrompt": 304
+    },
+    {
+      "mode": "Exploration",
+      "difficulty": "medium",
+      "name": 11,
+      "description": 187,
+      "instructions": 3243,
+      "npcIntentInstructions": 1286,
+      "askTheNarratorPrompt": 284
+    },
+    {
+      "mode": "Contracts & Adventure",
+      "difficulty": "medium",
+      "name": 21,
+      "description": 195,
+      "instructions": 3280,
+      "npcIntentInstructions": 1291,
+      "askTheNarratorPrompt": 261
+    },
+    {
+      "mode": "Power Fantasy",
+      "difficulty": "easy",
+      "name": 13,
+      "description": 201,
+      "instructions": 3335,
+      "npcIntentInstructions": 1240,
+      "askTheNarratorPrompt": 298
+    },
+    {
+      "mode": "Hard Mode",
+      "difficulty": "hard",
+      "name": 9,
+      "description": 198,
+      "instructions": 3366,
+      "npcIntentInstructions": 1385,
+      "askTheNarratorPrompt": 308
+    }
+  ],
+  "full_world_and_sources_unchanged": true,
+  "studio_imported": false,
+  "runtime_playtested": false
+}

@@ -1,0 +1,579 @@
+{
+  "scrolls": [
+    {
+      "item": "Teaching Scroll: The Seventh Counterstroke",
+      "ability": "The Seventh Counterstroke",
+      "trait": "Formula: The Seventh Counterstroke",
+      "skill": "Arcane Magic",
+      "study": "advanced",
+      "Mana": 24,
+      "trigger": "item31_study_01",
+      "castingRequirements": [
+        {
+          "type": "trait",
+          "variable": "Formula: The Seventh Counterstroke",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "item": "Teaching Scroll: Foxfire Procession",
+      "ability": "Foxfire Procession",
+      "trait": "Formula: Foxfire Procession",
+      "skill": "Fire Magic",
+      "study": "trained",
+      "Mana": 10,
+      "trigger": "item31_study_02",
+      "castingRequirements": [
+        {
+          "type": "trait",
+          "variable": "Formula: Foxfire Procession",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "item": "Teaching Scroll: The River Wears Your Face",
+      "ability": "The River Wears Your Face",
+      "trait": "Formula: The River Wears Your Face",
+      "skill": "Water Magic",
+      "study": "advanced",
+      "Mana": 22,
+      "trigger": "item31_study_03",
+      "castingRequirements": [
+        {
+          "type": "trait",
+          "variable": "Formula: The River Wears Your Face",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "item": "Teaching Scroll: The Mason's Last Word",
+      "ability": "The Mason's Last Word",
+      "trait": "Formula: The Mason's Last Word",
+      "skill": "Earth Magic",
+      "study": "advanced",
+      "Mana": 28,
+      "trigger": "item31_study_04",
+      "castingRequirements": [
+        {
+          "type": "trait",
+          "variable": "Formula: The Mason's Last Word",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "item": "Teaching Scroll: The Hundredth Feather",
+      "ability": "The Hundredth Feather",
+      "trait": "Formula: The Hundredth Feather",
+      "skill": "Wind Magic",
+      "study": "trained",
+      "Mana": 14,
+      "trigger": "item31_study_05",
+      "castingRequirements": [
+        {
+          "type": "trait",
+          "variable": "Formula: The Hundredth Feather",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "item": "Teaching Scroll: Thunder's Second Name",
+      "ability": "Thunder's Second Name",
+      "trait": "Formula: Thunder's Second Name",
+      "skill": "Lightning Magic",
+      "study": "advanced",
+      "Mana": 30,
+      "trigger": "item31_study_06",
+      "castingRequirements": [
+        {
+          "type": "trait",
+          "variable": "Formula: Thunder's Second Name",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "item": "Teaching Scroll: Winter's Borrowed Crown",
+      "ability": "Winter's Borrowed Crown",
+      "trait": "Formula: Winter's Borrowed Crown",
+      "skill": "Ice Magic",
+      "study": "advanced",
+      "Mana": 24,
+      "trigger": "item31_study_07",
+      "castingRequirements": [
+        {
+          "type": "trait",
+          "variable": "Formula: Winter's Borrowed Crown",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "item": "Teaching Scroll: Noon Behind Closed Eyes",
+      "ability": "Noon Behind Closed Eyes",
+      "trait": "Formula: Noon Behind Closed Eyes",
+      "skill": "Light Magic",
+      "study": "trained",
+      "Mana": 12,
+      "trigger": "item31_study_08",
+      "castingRequirements": [
+        {
+          "type": "trait",
+          "variable": "Formula: Noon Behind Closed Eyes",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "item": "Teaching Scroll: The Blacksmith's White Lie",
+      "ability": "The Blacksmith's White Lie",
+      "trait": "Formula: The Blacksmith's White Lie",
+      "skill": "Metal Magic",
+      "study": "advanced",
+      "Mana": 20,
+      "trigger": "item31_study_09",
+      "castingRequirements": [
+        {
+          "type": "trait",
+          "variable": "Formula: The Blacksmith's White Lie",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "item": "Teaching Scroll: A Garden Between Heartbeats",
+      "ability": "A Garden Between Heartbeats",
+      "trait": "Formula: A Garden Between Heartbeats",
+      "skill": "Nature Magic",
+      "study": "advanced",
+      "Mana": 26,
+      "trigger": "item31_study_10",
+      "castingRequirements": [
+        {
+          "type": "trait",
+          "variable": "Formula: A Garden Between Heartbeats",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "item": "Teaching Scroll: The Bell That Answers Nothing",
+      "ability": "The Bell That Answers Nothing",
+      "trait": "Formula: The Bell That Answers Nothing",
+      "skill": "Sound Magic",
+      "study": "advanced",
+      "Mana": 22,
+      "trigger": "item31_study_11",
+      "castingRequirements": [
+        {
+          "type": "trait",
+          "variable": "Formula: The Bell That Answers Nothing",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "item": "Teaching Scroll: Crownfall Waltz",
+      "ability": "Crownfall Waltz",
+      "trait": "Formula: Crownfall Waltz",
+      "skill": "Gravity Magic",
+      "study": "advanced",
+      "Mana": 30,
+      "trigger": "item31_study_12",
+      "castingRequirements": [
+        {
+          "type": "trait",
+          "variable": "Formula: Crownfall Waltz",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "item": "Teaching Scroll: The Seam That Holds",
+      "ability": "The Seam That Holds",
+      "trait": "Formula: The Seam That Holds",
+      "skill": "Enchantment Magic",
+      "study": "trained",
+      "Mana": 12,
+      "trigger": "item31_study_13",
+      "castingRequirements": [
+        {
+          "type": "trait",
+          "variable": "Formula: The Seam That Holds",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "item": "Teaching Scroll: Mercy's Last Stitch",
+      "ability": "Mercy's Last Stitch",
+      "trait": "Formula: Mercy's Last Stitch",
+      "skill": "Healing Magic",
+      "study": "advanced",
+      "Mana": 30,
+      "trigger": "item31_study_14",
+      "castingRequirements": [
+        {
+          "type": "trait",
+          "variable": "Formula: Mercy's Last Stitch",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "item": "Teaching Scroll: A Guest Made of Rain",
+      "ability": "A Guest Made of Rain",
+      "trait": "Formula: A Guest Made of Rain",
+      "skill": "Summoning Magic",
+      "study": "advanced",
+      "Mana": 28,
+      "trigger": "item31_study_15",
+      "castingRequirements": [
+        {
+          "type": "trait",
+          "variable": "Formula: A Guest Made of Rain",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "item": "Teaching Scroll: The Applause Behind You",
+      "ability": "The Applause Behind You",
+      "trait": "Formula: The Applause Behind You",
+      "skill": "Illusion Magic",
+      "study": "trained",
+      "Mana": 12,
+      "trigger": "item31_study_16",
+      "castingRequirements": [
+        {
+          "type": "trait",
+          "variable": "Formula: The Applause Behind You",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "item": "Teaching Scroll: Footprint of the Unchosen Road",
+      "ability": "Footprint of the Unchosen Road",
+      "trait": "Formula: Footprint of the Unchosen Road",
+      "skill": "Divination Magic",
+      "study": "advanced",
+      "Mana": 24,
+      "trigger": "item31_study_17",
+      "castingRequirements": [
+        {
+          "type": "trait",
+          "variable": "Formula: Footprint of the Unchosen Road",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "item": "Teaching Scroll: The Hole in the Chorus",
+      "ability": "The Hole in the Chorus",
+      "trait": "Formula: The Hole in the Chorus",
+      "skill": "Void Magic",
+      "study": "advanced",
+      "Mana": 28,
+      "trigger": "item31_study_18",
+      "castingRequirements": [
+        {
+          "type": "trait",
+          "variable": "Formula: The Hole in the Chorus",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "item": "Teaching Scroll: The Door Within Reach",
+      "ability": "The Door Within Reach",
+      "trait": "Formula: The Door Within Reach",
+      "skill": "Space Magic",
+      "study": "advanced",
+      "Mana": 26,
+      "trigger": "item31_study_19",
+      "castingRequirements": [
+        {
+          "type": "trait",
+          "variable": "Formula: The Door Within Reach",
+          "amount": 1
+        },
+        {
+          "type": "skill",
+          "variable": "Gravity Magic",
+          "amount": 25
+        }
+      ]
+    },
+    {
+      "item": "Teaching Scroll: The Ferryman's Small Courtesy",
+      "ability": "The Ferryman's Small Courtesy",
+      "trait": "Formula: The Ferryman's Small Courtesy",
+      "skill": "Soul Magic",
+      "study": "trained",
+      "Mana": 16,
+      "trigger": "item31_study_20",
+      "castingRequirements": [
+        {
+          "type": "trait",
+          "variable": "Formula: The Ferryman's Small Courtesy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "item": "Teaching Scroll: Paper Moon Phalanx",
+      "ability": "Paper Moon Phalanx",
+      "trait": "Formula: Paper Moon Phalanx",
+      "skill": "Arcane Magic",
+      "study": "master",
+      "Mana": 42,
+      "trigger": "item31_study_21",
+      "castingRequirements": [
+        {
+          "type": "trait",
+          "variable": "Formula: Paper Moon Phalanx",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "item": "Teaching Scroll: Cathedral of Cinders",
+      "ability": "Cathedral of Cinders",
+      "trait": "Formula: Cathedral of Cinders",
+      "skill": "Fire Magic",
+      "study": "master",
+      "Mana": 55,
+      "trigger": "item31_study_22",
+      "castingRequirements": [
+        {
+          "type": "trait",
+          "variable": "Formula: Cathedral of Cinders",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "item": "Teaching Scroll: Hollow-Lake Reversal",
+      "ability": "Hollow-Lake Reversal",
+      "trait": "Formula: Hollow-Lake Reversal",
+      "skill": "Water Magic",
+      "study": "master",
+      "Mana": 48,
+      "trigger": "item31_study_23",
+      "castingRequirements": [
+        {
+          "type": "trait",
+          "variable": "Formula: Hollow-Lake Reversal",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "item": "Teaching Scroll: Sleeping Dune Coffin",
+      "ability": "Sleeping Dune Coffin",
+      "trait": "Formula: Sleeping Dune Coffin",
+      "skill": "Earth Magic",
+      "study": "advanced",
+      "Mana": 30,
+      "trigger": "item31_study_24",
+      "castingRequirements": [
+        {
+          "type": "trait",
+          "variable": "Formula: Sleeping Dune Coffin",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "item": "Teaching Scroll: The Uninvited Gale",
+      "ability": "The Uninvited Gale",
+      "trait": "Formula: The Uninvited Gale",
+      "skill": "Wind Magic",
+      "study": "advanced",
+      "Mana": 26,
+      "trigger": "item31_study_25",
+      "castingRequirements": [
+        {
+          "type": "trait",
+          "variable": "Formula: The Uninvited Gale",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "item": "Teaching Scroll: Lighthouse in Your Hand",
+      "ability": "Lighthouse in Your Hand",
+      "trait": "Formula: Lighthouse in Your Hand",
+      "skill": "Light Magic",
+      "study": "advanced",
+      "Mana": 25,
+      "trigger": "item31_study_26",
+      "castingRequirements": [
+        {
+          "type": "trait",
+          "variable": "Formula: Lighthouse in Your Hand",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "item": "Teaching Scroll: Borrowed Breath",
+      "ability": "Borrowed Breath",
+      "trait": "Formula: Borrowed Breath",
+      "skill": "Healing Magic",
+      "study": "advanced",
+      "Mana": 28,
+      "trigger": "item31_study_27",
+      "castingRequirements": [
+        {
+          "type": "trait",
+          "variable": "Formula: Borrowed Breath",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "item": "Teaching Scroll: One More Chore",
+      "ability": "One More Chore",
+      "trait": "Formula: One More Chore",
+      "skill": "Soul Magic",
+      "study": "advanced",
+      "Mana": 24,
+      "trigger": "item31_study_28",
+      "castingRequirements": [
+        {
+          "type": "trait",
+          "variable": "Formula: One More Chore",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "item": "Teaching Scroll: The Coppersmith's Pet Dragon",
+      "ability": "The Coppersmith's Pet Dragon",
+      "trait": "Formula: The Coppersmith's Pet Dragon",
+      "skill": "Metal Magic",
+      "study": "advanced",
+      "Mana": 24,
+      "trigger": "item31_study_29",
+      "castingRequirements": [
+        {
+          "type": "trait",
+          "variable": "Formula: The Coppersmith's Pet Dragon",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "item": "Teaching Scroll: Invitation to an Empty Room",
+      "ability": "Invitation to an Empty Room",
+      "trait": "Formula: Invitation to an Empty Room",
+      "skill": "Illusion Magic",
+      "study": "advanced",
+      "Mana": 24,
+      "trigger": "item31_study_30",
+      "castingRequirements": [
+        {
+          "type": "trait",
+          "variable": "Formula: Invitation to an Empty Room",
+          "amount": 1
+        }
+      ]
+    }
+  ],
+  "fixedDoses": [
+    {
+      "item": "Field Healing Tonic",
+      "trigger": "item31_consume_01",
+      "resources": {
+        "Health": 15
+      }
+    },
+    {
+      "item": "Greater Healing Draught",
+      "trigger": "item31_consume_02",
+      "resources": {
+        "Health": 60
+      }
+    },
+    {
+      "item": "Surgical Recovery Draught",
+      "trigger": "item31_consume_03",
+      "resources": {
+        "Health": 100
+      }
+    },
+    {
+      "item": "Stable Mana Infusion",
+      "trigger": "item31_consume_04",
+      "resources": {
+        "Mana": 20
+      }
+    },
+    {
+      "item": "Deep Mana Infusion",
+      "trigger": "item31_consume_05",
+      "resources": {
+        "Mana": 45
+      }
+    },
+    {
+      "item": "Azure Reserve Dose",
+      "trigger": "item31_consume_06",
+      "resources": {
+        "Mana": 70
+      }
+    },
+    {
+      "item": "Bitter Stamina Tonic",
+      "trigger": "item31_consume_07",
+      "resources": {
+        "Stamina": 12
+      }
+    },
+    {
+      "item": "Trail Vigor Draught",
+      "trigger": "item31_consume_08",
+      "resources": {
+        "Stamina": 24
+      }
+    },
+    {
+      "item": "Last-Push Dose",
+      "trigger": "item31_consume_09",
+      "resources": {
+        "Stamina": 40,
+        "Health": -8
+      }
+    },
+    {
+      "item": "Balanced Restoration Vial",
+      "trigger": "item31_consume_10",
+      "resources": {
+        "Health": 20,
+        "Mana": 12
+      }
+    },
+    {
+      "item": "Amber Recovery Gel",
+      "trigger": "item31_consume_11",
+      "resources": {
+        "Health": 15,
+        "Stamina": 10
+      }
+    },
+    {
+      "item": "Redline Tincture",
+      "trigger": "item31_consume_12",
+      "resources": {
+        "Mana": 35,
+        "Health": -15
+      }
+    }
+  ]
+}

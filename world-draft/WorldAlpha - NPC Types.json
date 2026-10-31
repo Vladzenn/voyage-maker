@@ -1,0 +1,948 @@
+{
+  "Archon": {
+    "name": "Archon",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "An Archon publicly represents one of Glowhaven City's academies and serves on the Conclave of Archons. Archons are exceptionally capable, but are not automatically hostile; each has an individual personality and agenda."
+  },
+  "Headmaster": {
+    "name": "Headmaster",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "A headmaster runs an academy's school system and day-to-day operations. This institutional role does not determine personality or combat ability."
+  },
+  "Teacher": {
+    "name": "Teacher",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "A teacher works at one of Glowhaven City's academies and has an individual area of expertise. Instructors vary in temperament, experience, and combat capability."
+  },
+  "Student": {
+    "name": "Student",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "A student studies at one of Glowhaven City's academies. Students are individuals with different experience and abilities; being a student does not make someone helpless or define their personality."
+  },
+  "Resident": {
+    "name": "Resident",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "A named resident, professional, officer, or visitor outside the academy role categories. Actual job, training, abilities, level, and temperament come from the individual's record; this type grants no shared powers or personality."
+  },
+  "Great Sage": {
+    "name": "Great Sage",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "The elected ruler and steward of Glowhaven's Evertree weave. The incumbent's actual abilities, age, knowledge, and condition remain individual authored facts rather than universal type bonuses."
+  },
+  "Wild Beast": {
+    "name": "Wild Beast",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "An animal or local wild creature. Use actual size, behavior, abilities, and danger rather than human motives. A moss-backed boar can charge and retreat; it has no automatic spells, speech, or magical immunity."
+  },
+  "Mana Beast": {
+    "name": "Mana Beast",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "A soul-bearing magical creature. Actual abilities and behavior belong to the individual; the category grants no universal spell, speech, or immunity."
+  },
+  "Academy Staff": {
+    "name": "Academy Staff",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "Employees who make an academy function: attendants, kitchen workers, groundskeepers, technicians and caretakers. Give each an actual job and ordinary responsibilities. They know their workplace and its practical problems, not every private faculty decision. Some are trained mages or fighters; others depend on tools, procedures and colleagues. Helpful, resentful and self-interested individuals all belong to this type. Employment does not grant unrestricted records, court authority or a desire to accompany the player."
+  },
+  "Court Official": {
+    "name": "Court Official",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "Clerks, appointed officers and civil administrators working within a particular court remit. They can explain the process they actually handle, ask for relevant information and issue only what their office is authorized to issue. They have personal priorities and differing loyalties. An official might be kind, pompous, harried or corrupt without being omniscient. Their position supplies neither automatic combat mastery nor immunity from scrutiny. Use existing named office holders before inventing another one."
+  },
+  "City Guard": {
+    "name": "City Guard",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "Trained personnel responsible for public safety, patrols and ordinary law enforcement. They recognize immediate threats, call for support and use proportionate force when possible. A patrol can give directions, receive a complaint, separate combatants or make an evidence-based arrest; it cannot pronounce every sentence on the spot. Individual experience and temperament vary. They are capable adults with learned magic and practical training, not disposable obstacles scaled to flatter a new student."
+  },
+  "Elite Operative": {
+    "name": "Elite Operative",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "Experienced members of the Great Sage's exceptional service, selected for difficult protective, military, investigative or diplomatic work. Define the individual's assignment and methods: an envoy need not perform like an assault specialist. They act on actual orders and information, protect sensitive matters and can negotiate or withdraw. Their competence merits serious respect, but a service badge does not make them omniscient, universally loved or above all law."
+  },
+  "Prison Officer": {
+    "name": "Prison Officer",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "Custody, security and authorized transport personnel at Wraith Island Prison. Their actual post determines keys, access and responsibility. They maintain counts, searches, escorts and emergency procedures; an individual can be decent, brutal, diligent or negligent. Prison employment is distinct from being an inmate, visitor, contractor or sentenced worker. Combat ability, access and susceptibility to bribery belong to the individual. They do not confiscate or restore property merely because a narration mentions a search."
+  },
+  "Merchant": {
+    "name": "Merchant",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "People earning a living by buying and selling goods. Give a merchant a real stock, market, supplier relationship and reason for their prices. They may bargain, offer samples, seek repairs or refuse bad credit; they are neither universal quest dispensers nor automatic frauds. A quoted price is not a completed sale. Their knowledge follows their trade and contacts. Ownership, payment and delivery need actual agreement and supported state changes."
+  },
+  "Artisan": {
+    "name": "Artisan",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "Makers and repairers with a particular craft, workshop and trained method. Some enchant by hand; others use conventional tools or integrated magitech. Their competence follows experience, materials and the job, not a promise to repair everything instantly. Good scene pressures include a difficult commission, missing part, awkward customer or contested credit. They can discuss a fault before accepting work. Tools, samples and customers' property remain with their actual owners."
+  },
+  "Healer": {
+    "name": "Healer",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "Practitioners of healing, medical care or both, with individual training, supplies and limits. They assess an actual condition rather than promising a perfect reset. Treatment can involve rest, mundane care and paid materials as well as magic. An experienced healer is not necessarily a frontline fighter. Healing does not automatically reverse old age, lasting damage or every unusual curse. Preserve the world's resource and medicine rules, informed choices and actual fees."
+  },
+  "Researcher": {
+    "name": "Researcher",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "Scholars and investigators pursuing a particular question through study, observation and experiment. A researcher can be generous, possessive, reckless, meticulous or mistaken. Their expertise is specific; one scientific field does not reveal all magic, secret history and institutions. Evidence can change their conclusions. Give their work practical materials, an observable test and something they have not solved. Most research remains ordinary work, not a guaranteed catastrophe or a shortcut to forbidden mastery."
+  },
+  "Field Guide": {
+    "name": "Field Guide",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "Travelers, scouts and expedition workers who know particular routes, weather, creatures or communities. They can warn about signs of danger, negotiate passage, assess equipment and choose a safer pace. They do not know every hidden site or guarantee the safety of an unfamiliar route. Their fee covers an agreed service rather than permanent party membership. Distinguish an experienced local guide from an enthusiastic beginner and retain each person's actual capabilities."
+  },
+  "Noble": {
+    "name": "Noble",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "People belonging to recognized houses or holding granted titles. Wealth, education, connections and obligations vary; noble status is not an elemental power or personality. They may be generous patrons, anxious heirs, pompous rivals or practical estate managers. Political influence has a scope and a cost. A title alone grants neither court-issued portal keys nor possession of someone else's property. Class prejudice is an individual attitude, not a statement of objective worth."
+  },
+  "Performer": {
+    "name": "Performer",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "Musicians, dancers, actors, illusion entertainers and other working performers. Give them a real audience, craft and livelihood. Their onstage manner can differ from private behavior without concealing a conspiracy. Magical effects used in a show remain limited by actual skill and preparation; applause does not create combat power or intimacy. Scenes can involve rehearsal, a commission, a rivalry, a failed prop or simply an enjoyable evening."
+  },
+  "Bandit": {
+    "name": "Bandit",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "Robbers or extortionists operating through a particular opportunity and group. Some rely on intimidation and escape, others on preparation or violence. They can bargain, be deceived, lose nerve, surrender or flee when the risk changes. Give warning signs and a practical motive; do not make every road contain an ambush. This is a role rather than a species or damage profile. Captured or reformed individuals remain persistent people, not a renewable reward supply."
+  },
+  "Fae": {
+    "name": "Fae",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "An exceptionally varied people, especially common in Asterveil. Most are short adults with mature proportions; some are human-sized and a few reach seven or eight feet. Most ears are pointed, some rounded. Individual animal features may include moth, butterfly, dragonfly or bird wings; satyr horns and hooves; antlers; feathered parts; or patches of barklike wooden scales. The common winged humanoid form is not universal. Choose a coherent individual body and state its actual height, mature adult face and proportions, ears, hair, eyes, wings and other features in basicInfo and visualDescription. Preserve those details thereafter. Wings do not prove unlimited flight, a passenger-carrying ability or size-changing. Lifespan and talents depend on the authored individual. No compulsory personality or shared damage modifiers apply."
+  },
+  "Dragonkin": {
+    "name": "Dragonkin",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "Dragonkin are mostly humanoid people of roughly human height, with human faces, dragonlike horns, scales along the sides of their faces and vertical slit pupils. The backs of their hands and arms are scaly, while their palms retain a human appearance. They have thick dragon tails. Individual colors and the amount of visible scaling vary. Scale color is hereditary but carries no inherent magical affinity, rank, personality or moral significance.\n\nDragonkin can live up to about two hundred years. Drakenspire's populations and the desert populations of Nahlah Qamar's homeland belong to the same species, with regional differences in appearance, ancestry and culture. For visual direction, Drakenspire's populations have broadly European-inspired human features and the established desert populations broadly Middle Eastern-inspired human features; neither is a rigid template for every individual. Regional ancestry does not assign intelligence, temperament or abilities. Dragonkin are people, not lesser dragons or wyverns. Universal wings, breath weapons and elemental resistance are not supplied by this species definition.\n\nActual learned abilities determine breath, resistance or flight; this broad people category grants none by itself. Their personalities, careers and competence are individual. Do not use the NPC type as a loot-bearing monster template."
+  },
+  "Beastfolk": {
+    "name": "Beastfolk",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "People with animal-associated features whose appearance and physiology depend on the individual lineage. A ram beastfolk, rabbit beastkin and cat-featured person are not interchangeable. Do not infer temperament, intelligence, occupation or attraction from a trait such as horns or ears. Society, learned magic, personal training and relationships matter. This general type supplies no damage modifier or automatic natural weapon; use each actual record."
+  },
+  "Domestic Animal": {
+    "name": "Domestic Animal",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "Ordinary cats, dogs and other household animals. Their needs include food, shelter, curiosity, comfort and familiar company. They communicate through behavior unless an actual spell changes that. They may be trained, frightened, stubborn or affectionate without understanding court politics. Ordinary animals do not deliberately cast magic, become collectible loot or join a traveling group merely because someone feeds them. Ownership and established bonds persist."
+  },
+  "Livestock": {
+    "name": "Livestock",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "Ordinary farm and working-yard animals: cattle, sheep, goats, pigs and similar stock. They shape rural work, fences, feeding, trade and daily noise. A distressed animal may need patience, handling or medical attention rather than combat. They have no deliberate spellcasting. Size can make accidental injury dangerous, but no automatic hostility or elemental resistance follows. Establish who owns the animal before any sale, removal or slaughter."
+  },
+  "Pack Animal": {
+    "name": "Pack Animal",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "Ordinary mounts and burden animals trained for hauling or travel. Terrain, loads, rest and handling affect what is practical. A nervous beast can balk at a portal, narrow ledge or unfamiliar smell; that is an interaction, not proof of possession. They do not understand route permits or cast their way out of danger. A hired animal remains subject to its actual loan terms and owner."
+  },
+  "Wild Predator": {
+    "name": "Wild Predator",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "Ordinary wolves, big cats and similar predators. Hunger, territory, cubs, injury and experience with people influence their choices. Most avoid a costly fight when they can. Tracks, calls, scent and disturbed prey can warn of their presence. They do not possess deliberate spellcasting or pursue a retreating party forever. Observation, distance, deterrence and a changed route can solve the encounter."
+  },
+  "Wild Herbivore": {
+    "name": "Wild Herbivore",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "Ordinary deer, hares and other nonpredatory wildlife. They may flee, freeze, hide or defend young. A cornered large animal can be dangerous without being malicious. Use them for ecology, observation, hunting where lawful or an ordinary pleasant sight. They have no automatic affinity or conversational knowledge. Finding wildlife is not necessarily an encounter that needs a quest or a fight."
+  },
+  "Giant Spider": {
+    "name": "Giant Spider",
+    "vulnerabilities": [
+      "fire"
+    ],
+    "resistances": [],
+    "immunities": [],
+    "description": "Large mana-bearing spiders whose hunting methods depend on species and surroundings. Web lines, abandoned prey and vibration responses can reveal a territory before contact. They may trap, ambush, guard eggs or withdraw; they do not all obey a matron or share a mind. Some use venom or trained-looking magical reflexes, but an individual needs those actual capabilities. Fire threatens exposed silk and body alike. Routes can be studied, cut or bypassed instead of charging into a nest."
+  },
+  "Moltback Silkguard": {
+    "name": "Moltback Silkguard",
+    "vulnerabilities": [
+      "fire"
+    ],
+    "resistances": [
+      "slashing",
+      "piercing"
+    ],
+    "immunities": [],
+    "description": "A broad, hairless spider mana beast with layered rust-brown chitin, dull green eyes and pale webbing around its forelegs. It plants its weight over territory and anchors silk before lunging or pulling at an intruder's footing. Heavy plates resist cuts and punctures; fire threatens vulnerable joints and silk. Taut lines, shed plates and a braced posture telegraph its position. It cannot cover every approach at once. Study anchors, change elevation, disrupt its stance or find a bypass. This is a reusable creature type, not one named individual or an endlessly respawning guard. Set an actual encounter's level, tier, abilities and persistent outcome separately."
+  },
+  "Slime": {
+    "name": "Slime",
+    "vulnerabilities": [
+      "ice"
+    ],
+    "resistances": [
+      "bludgeoning"
+    ],
+    "immunities": [],
+    "description": "Mobile masses of mana-bearing gel that gather around food, moisture or particular residues. Size and composition determine their danger. Their soft bodies disperse blunt impact, while cold can stiffen the gel. A slime can engulf scraps, obstruct a drain or threaten an unwary animal without plotting against anyone. Notice trails and feeding before touching it. Specialized corrosive, intelligent or elemental variants require an actual individual record; this type does not dissolve every possession on contact."
+  },
+  "Dire Wolf": {
+    "name": "Dire Wolf",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "Mana-adapted pack hunters, larger and more coordinated than ordinary wolves. They use cover, scent and group pressure rather than waiting in a line to be fought. Howling, tracks and a sudden absence of prey can warn travelers. Individuals protect territory and packmates; injury and an unfavorable position can make them disengage. They have no blanket resistance or automatic elemental spell repertoire. Negotiation needs a real way to communicate, not ordinary human speech assumed to work."
+  },
+  "Stonehide Boar": {
+    "name": "Stonehide Boar",
+    "vulnerabilities": [],
+    "resistances": [
+      "bludgeoning"
+    ],
+    "immunities": [],
+    "description": "A heavy forest or foothill mana beast with mineralized hide along its shoulders. It drives forward with alarming force but needs room to turn and recover after a committed charge. Plowed ground, broken saplings and scraped stone mark its route. Water-softened footing and redirected movement offer practical counters; the hide is particularly good at dispersing blunt impacts. It may be defending a feeding ground, not hunting people. A barricade or a quieter approach can be more sensible than a duel."
+  },
+  "Great Bear": {
+    "name": "Great Bear",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "A large mana-bearing bear adapted to remote woodland or mountain territory. Its weight, reach and endurance make careless close combat dangerous. It can stand, bluff, swat or charge, with clearer intentions than a speaking villain. Tracks, torn bark and food caches offer warning. Cubs, hunger and injury shape its aggression. Individual magical techniques are authored separately; being a great bear does not grant every Nature spell or require a fight to the death."
+  },
+  "Griffin": {
+    "name": "Griffin",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "Powerful winged mana beasts with an eaglelike forebody and leonine hindquarters. They use height, dives and territorial displays; a grounded griffin still has dangerous reach. Wind conditions, wing room and a nest's position matter. They can be trained through a real history of care but are not automatically mounts. Aerie signs should precede a nest encounter. Avoid clipping wings or awarding flight merely because the creature's type is known."
+  },
+  "Roc": {
+    "name": "Roc",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "Enormous mountain or sky-island birds whose size turns a landing, wingbeat or carried load into a serious local event. Their nesting ranges are large, not an excuse to spawn one above every bridge. Broken branches, vast shadows, calls and disturbed herds can announce them. They favor space and altitude; enclosed terrain restricts them. A roc follows animal needs rather than theatrical cruelty. Protecting food or young may be resolved by distance, diversion or a negotiated route through knowledgeable locals."
+  },
+  "Sky Serpent": {
+    "name": "Sky Serpent",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "Long-bodied flying mana beasts seen among high currents and isolated islands. They coil through open air, using terrain and wind to approach or evade. A resting serpent can resemble a ribbon along a cliff until it moves. Their exact affinity and temperament vary; flight is not universal control of the weather. Young, wounded or territorial individuals behave differently. A careful crossing can avoid their hunting path, and a warning display need not become an attack."
+  },
+  "Drake": {
+    "name": "Drake",
+    "vulnerabilities": [],
+    "resistances": [
+      "slashing"
+    ],
+    "immunities": [],
+    "description": "Wingless or limited-flight draconic mana beasts, distinct from dragonkin people and fully developed dragons. Their scales resist light cuts, while bludgeoning force can reach through the armor. A drake's territory, diet and individual element determine an encounter; the category alone grants no breath weapon or fire immunity. Shed scales, claw marks and feeding remains give warning. They can be cunning without speaking or submitting to a claimant with a noble title."
+  },
+  "Wyvern": {
+    "name": "Wyvern",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "Two-legged winged draconic predators, much smaller than true dragons, with territorial shrieks and a preference for height and a clear escape. Circling shadows, scored perches and displaced wildlife can warn of their presence. They dive, seize prey and defend occupied nesting ledges; narrow interiors restrict their wings. Venom and breath belong only to individuals explicitly possessing them. They are distinct from dragonkin people and sacred dragons, not automatically willing mounts, and their nests are not unowned treasure stores."
+  },
+  "Dragon": {
+    "name": "Dragon",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "Rare, formidable draconic beings whose age, intelligence, element and relationships must be established individually. Some may speak and negotiate; others behave as territorial beasts. Do not generate one casually to raise the stakes of an ordinary errand. A dragon's presence changes how settlements travel and prepare, with visible evidence before direct contact. This broad type gives no blanket elemental immunity, universal spell mastery, rebirth or permission to ignore resolved outcomes."
+  },
+  "Phoenix": {
+    "name": "Phoenix",
+    "vulnerabilities": [
+      "water"
+    ],
+    "resistances": [],
+    "immunities": [
+      "fire"
+    ],
+    "description": "Rare fire-bearing winged mana beasts associated with sustained heat and brilliant plumage. They seek suitable nesting grounds and react to actual threats rather than functioning as academy mascots that anyone can summon. Fire cannot harm their burning bodies; water can break their concentration and chill the flame. Rebirth, healing tears and transferable immortality are not guaranteed properties of this category. Establish such exceptional powers in the particular individual, with real limits."
+  },
+  "Hydra": {
+    "name": "Hydra",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "Large many-headed aquatic or marshland mana beasts. Multiple heads can watch different approaches and coordinate bites, but they still share one body, space and capacity to maneuver. Their wake, tracks and feeding sites should warn of danger. Regeneration is not an infinite extra-life mechanic: any actual regrowth requires an explicit ability and its limitations. This type grants no resistance by default. Observation, terrain and leaving a nesting area can matter as much as damage."
+  },
+  "Crystal Moth": {
+    "name": "Crystal Moth",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "Delicate mana-bearing moths with translucent mineral scales. They gather near particular currents and light sources, making their movement useful to attentive field researchers. Crowds can obscure vision or settle on exposed equipment, usually without hostile intent. Handling them roughly damages their wings; careful observation or a changed light source may redirect them. They do not provide effortless Divination, unlimited crystal materials or a new portal whenever they gather."
+  },
+  "Thorn Creeper": {
+    "name": "Thorn Creeper",
+    "vulnerabilities": [
+      "fire"
+    ],
+    "resistances": [
+      "bludgeoning"
+    ],
+    "immunities": [],
+    "description": "A mobile mass of thorned roots and stems animated by its own accumulated mana. It probes toward vibration and accessible nutrients, rooting itself to pull or restrain prey. Dry fibers burn easily, while the springing structure disperses blunt blows. Fresh scratches, displaced roots and a patch of disturbed soil can telegraph it. Severing an anchor or moving outside its reach can break a hold. It is not automatically a person, a druid's familiar or a hive mind."
+  },
+  "Mimic": {
+    "name": "Mimic",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "A shape-assuming mana beast that imitates a particular kind of object to ambush prey. Its disguise has physical limits: seams, weight, residue or a suspicious position can betray it. Give an established mimic a consistent body and feeding method rather than turning every examined chest into one after the fact. Detection and careful handling can prevent a fight. Defeating it does not automatically create the valuable object it appeared to be."
+  },
+  "Stone Golem": {
+    "name": "Stone Golem",
+    "vulnerabilities": [
+      "bludgeoning"
+    ],
+    "resistances": [
+      "slashing",
+      "piercing"
+    ],
+    "immunities": [
+      "poisoning"
+    ],
+    "description": "A deliberately animated stone body built for a task such as hauling, guarding or holding a dangerous structure. Its joints, core and instructions provide specific points to investigate. Stone resists cuts and punctures, while concentrated blunt force can break its body. It has no living circulation for poison. A simple golem follows an actual command system, not conversational persuasion; a sentient exception needs an individual record. Disabling a control or fulfilling an instruction can be more useful than smashing it."
+  },
+  "Metal Automaton": {
+    "name": "Metal Automaton",
+    "vulnerabilities": [
+      "lightning"
+    ],
+    "resistances": [
+      "slashing",
+      "piercing"
+    ],
+    "immunities": [
+      "poisoning"
+    ],
+    "description": "An articulated metal construct with an identifiable power and control system. It may be an enchanted worker, a guard or a true magitech device; establish which rather than treating all machinery as the same. Its casing resists cuts and punctures, but lightning can disrupt exposed channels. Poison does not affect its nonliving body. Maintenance faults, control access and limited orders create practical interaction. A disabled machine is not repaired by flattery or automatically claimed as salvage."
+  },
+  "Animated Armor": {
+    "name": "Animated Armor",
+    "vulnerabilities": [
+      "bludgeoning"
+    ],
+    "resistances": [
+      "slashing",
+      "piercing"
+    ],
+    "immunities": [
+      "poisoning"
+    ],
+    "description": "An empty suit moved by an actual enchantment. It can guard a threshold, perform rehearsed work or respond to a command, with movement limited by the suit's construction. Blunt force can deform joints; blades have difficulty finding flesh that is not present. Poison has no biological target. Decide how its order can be recognized, suspended or fulfilled. It does not acquire the remembered personality of every person who once wore the armor."
+  },
+  "Rune Sentinel": {
+    "name": "Rune Sentinel",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [
+      "poisoning"
+    ],
+    "description": "An anchored constructed watcher tied to a defined ward and detection method. It reacts to what its sensors and instructions can actually perceive, not hidden character sheets or all criminal intent. Marks, lenses, a charged surface or a warning tone can reveal its coverage. It has no living body to poison. Bypassing a sensor, presenting valid authority or disabling the real power channel can change its response. It cannot pursue beyond its physical reach without an actual mobile form."
+  },
+  "Clockwork Beast": {
+    "name": "Clockwork Beast",
+    "vulnerabilities": [
+      "lightning"
+    ],
+    "resistances": [],
+    "immunities": [
+      "poisoning"
+    ],
+    "description": "An animal-shaped mechanism used for transport, workshop work, demonstration or security. Its design governs speed, load and attacks; resemblance to a beast supplies no natural instincts or inherited spells. Exposed workings are vulnerable to grit, damage and poorly controlled lightning. It has no living metabolism for poison. True integrated magitech is distinct from a simple enchanted toy. Skilled repair requires the real fault, suitable tools and materials, not a generic instant fix."
+  },
+  "Skeleton": {
+    "name": "Skeleton",
+    "vulnerabilities": [
+      "bludgeoning",
+      "light"
+    ],
+    "resistances": [
+      "piercing"
+    ],
+    "immunities": [
+      "poisoning"
+    ],
+    "description": "Reanimated bones held together by a particular necromantic force. They may follow a command, guard a site or retain fragments of a former person only when the individual record supports it. Blunt force breaks the frame effectively, and light disrupts its animating pattern. Piercing attacks find little soft tissue; poison has no living circulation to affect. Who animated it and whether it can be released are investigation questions, not knowledge every passerby possesses."
+  },
+  "Restless Corpse": {
+    "name": "Restless Corpse",
+    "vulnerabilities": [
+      "fire",
+      "light"
+    ],
+    "resistances": [],
+    "immunities": [
+      "poisoning"
+    ],
+    "description": "A dead body animated by an actual spell, binding or localized supernatural condition. Movement and awareness depend on that cause. Fire and light can damage the body and animating pattern; poison has no ordinary living metabolism to exploit. It is not automatically infectious or proof that a nearby living necromancer is guilty. Give a site credible signs and a way to investigate or avoid it. Returned remains are still somebody's remains, not routine trade loot."
+  },
+  "Ghost": {
+    "name": "Ghost",
+    "vulnerabilities": [
+      "light"
+    ],
+    "resistances": [
+      "slashing",
+      "piercing",
+      "bludgeoning"
+    ],
+    "immunities": [
+      "poisoning"
+    ],
+    "description": "An incorporeal presence with a particular origin, awareness and attachment. Some can communicate; others repeat a limited pattern. Light can disrupt the manifestation, while ordinary physical blows pass through much of it. Poison cannot harm a body that is absent. These damage rules do not imply immunity to compassion, deception or evidence. Discover what it actually perceives and wants before assuming it must be destroyed. Knowledge and memories remain as limited as its history allows."
+  },
+  "Wraith": {
+    "name": "Wraith",
+    "vulnerabilities": [
+      "light"
+    ],
+    "resistances": [
+      "slashing",
+      "piercing",
+      "bludgeoning"
+    ],
+    "immunities": [
+      "poisoning"
+    ],
+    "description": "A dangerous disembodied remnant sustained by a specific supernatural cause. Its chill, sound or effect on nearby life can warn of a manifestation. It may stalk, guard, hunger or pursue a binding; it is not automatically an intelligent schemer. Light threatens its form, ordinary physical blows are less effective, and poison has no biological target. Injuries it causes follow the actual attack and treatment rules rather than an invented unavoidable permanent curse. Wraith Island's name does not establish that these creatures patrol its prison."
+  },
+  "Fire Elemental": {
+    "name": "Fire Elemental",
+    "vulnerabilities": [
+      "water"
+    ],
+    "resistances": [],
+    "immunities": [
+      "fire",
+      "poisoning"
+    ],
+    "description": "Living flame gathered around a sustaining mana pattern. Heat shimmer, scorched surfaces and an appetite for fuel make its presence observable. It can flow around an obstacle but needs a real route; an extinguished manifestation does not automatically respawn. Its heat is dangerous to nearby people and possessions according to actual contact, not limitless ambient damage. Establish its origin, persistence, awareness and individual abilities when encountered. Its type supplies the listed damage profile, not a free spell list, a guaranteed reward or automatic hostility."
+  },
+  "Water Elemental": {
+    "name": "Water Elemental",
+    "vulnerabilities": [
+      "lightning"
+    ],
+    "resistances": [],
+    "immunities": [
+      "water",
+      "poisoning"
+    ],
+    "description": "A coherent moving volume of water held by a sustaining mana pattern. It uses flow, weight and its available surroundings. A basin, channel or dry interior changes its options. It does not have infinite water or automatic control of every liquid inside a person. Ripples moving against the current can signal its presence. Establish its origin, persistence, awareness and individual abilities when encountered. Its type supplies the listed damage profile, not a free spell list, a guaranteed reward or automatic hostility."
+  },
+  "Earth Elemental": {
+    "name": "Earth Elemental",
+    "vulnerabilities": [
+      "water"
+    ],
+    "resistances": [],
+    "immunities": [
+      "earth",
+      "poisoning"
+    ],
+    "description": "A mana-bound body of soil and mineral. It uses mass, footing and available ground, with limited reach through actual material. Water can loosen its cohesion; this is a damage vulnerability, not an instant automatic victory. Crumbling edges and shifting ground can announce its movement. Tunnels, buildings and bystanders remain real constraints. Establish its origin, persistence, awareness and individual abilities when encountered. Its type supplies the listed damage profile, not a free spell list, a guaranteed reward or automatic hostility."
+  },
+  "Wind Elemental": {
+    "name": "Wind Elemental",
+    "vulnerabilities": [
+      "earth"
+    ],
+    "resistances": [],
+    "immunities": [
+      "wind",
+      "poisoning"
+    ],
+    "description": "A sustained circulating body of air. Dust, moving cloth and pressure changes can reveal it. It can buffet or obstruct but does not suffocate everyone nearby by existing. Confined geometry and rooted barriers affect its movement; earth magic is particularly effective at breaking its circulation. A harmless current is not automatically this creature. Establish its origin, persistence, awareness and individual abilities when encountered. Its type supplies the listed damage profile, not a free spell list, a guaranteed reward or automatic hostility."
+  },
+  "Ice Elemental": {
+    "name": "Ice Elemental",
+    "vulnerabilities": [
+      "fire"
+    ],
+    "resistances": [],
+    "immunities": [
+      "ice",
+      "poisoning"
+    ],
+    "description": "An articulated manifestation of frost and ice around a mana pattern. Cracking surfaces, spreading rime and disturbed meltwater reveal its movement. It can brace, break or reshape within its actual abilities, without freezing a whole settlement on arrival. Heat threatens its coherence. Destroyed fragments do not each become a new enemy. Establish its origin, persistence, awareness and individual abilities when encountered. Its type supplies the listed damage profile, not a free spell list, a guaranteed reward or automatic hostility."
+  },
+  "Lightning Elemental": {
+    "name": "Lightning Elemental",
+    "vulnerabilities": [
+      "earth"
+    ],
+    "resistances": [],
+    "immunities": [
+      "lightning",
+      "poisoning"
+    ],
+    "description": "A bounded electrical manifestation with a sustaining pattern. Charge noise, lifted hairs and light along conductive paths warn of it. It can exploit real conductors but does not teleport through any named metal object anywhere. Grounding and earth magic can disrupt it. A laboratory spark or routine storm is not proof that one exists. Establish its origin, persistence, awareness and individual abilities when encountered. Its type supplies the listed damage profile, not a free spell list, a guaranteed reward or automatic hostility."
+  },
+  "Arachne": {
+    "name": "Arachne",
+    "description": "Sapient beings with a humanoid upper body and a large spiderlike lower body. Silk, climbing and natural reach depend on the individual's anatomy and trained abilities. They have their own names, motives and relationships; they are not all members of one brood or automatically hostile. A particular matron's territorial cruelty is her own character. Establish awareness, casting and combat capability in the real individual record. This type supplies no automatic resistance, spell mastery, social immunity or party membership.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Giant": {
+    "name": "Giant",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "Very large humanoid beings whose particular intelligence, speech, social behavior and abilities must be established individually. Mountain signs may include huge tracks, displaced boulders and shelters at a different scale. Size makes ordinary movement dangerous to smaller people without making every giant malicious or mindless. Show evidence and actual motives before direct contact. The category does not assign a fixed boss level, universal resistance, guaranteed treasure or automatic hostility. The isolated yeti Orrum is a separately authored individual using this broad body type. Reuse his NPC record when its rare encounter actually occurs; do not produce generic yeti packs or duplicate his identity."
+  },
+  "Threadwing Grazer": {
+    "name": "Threadwing Grazer",
+    "vulnerabilities": [
+      "ice"
+    ],
+    "resistances": [
+      "nature"
+    ],
+    "immunities": [],
+    "description": "APPEARANCE: A rabbit-sized six-legged insect with a rounded moss-green body and four long translucent ribbon wings. Fine combs replace biting jaws; a small ring of amber eye spots sits around its blunt head. At rest the wings hang like loose silk, without a humanoid face.\nECOLOGY AND BEHAVIOR: Cloudbloom meadow colonies eat pollen and mineral fibers. Usually level 10–20 at appropriate sites; a cornered group can whip abrasive wing edges or raise a blinding pollen cloud. They migrate between bloom patches and are not universally hostile.\nCOUNTERPLAY: Observe the feeding rhythm, cover exposed eyes, interrupt the wing space or leave the colony room to move. Fire also destroys the crop a collector may be trying to protect.\nFIELD VALUE: Naturally shed wing scales and properly gathered fibers support filter cloth and fragrance research.\nGENERATION: Use the actual location band and establish this individual’s level, tier, disposition and bounded abilities. This type does not spawn itself or rescale an existing creature. Copy its diagnostic anatomy into the generated record and visual description; do not replace it with a generic humanoid or a familiar monster with the same color. Reuse a previously encountered individual. Recovered material requires actual acquisition; no guaranteed loot, instant crafting bonus, tame companion or universal consumable effect is granted."
+  },
+  "Twigback Browser": {
+    "name": "Twigback Browser",
+    "vulnerabilities": [
+      "fire"
+    ],
+    "resistances": [
+      "bludgeoning"
+    ],
+    "immunities": [],
+    "description": "APPEARANCE: A deer-sized four-legged herbivore with a barrel chest, dark felt skin and branching flat paddles growing along its back instead of antlers on its head. Its head is broad and blunt with two sideways amber eyes. The back paddles carry living moss.\nECOLOGY AND BEHAVIOR: Browses Cloudbloom woodland and sleeps beneath branches. Slow and wary until crowded, when it shoves or charges. Its resting silhouette resembles a small fallen tree; this is camouflage rather than illusion magic.\nCOUNTERPLAY: Read hoof marks and breathing before collecting from a supposed log. Give young animals room; cover interrupts its straight charge.\nFIELD VALUE: Discarded paddle tips and rubbed-off moss can be useful under an agreed collection limit.\nGENERATION: Use the actual location band and establish this individual’s level, tier, disposition and bounded abilities. This type does not spawn itself or rescale an existing creature. Copy its diagnostic anatomy into the generated record and visual description; do not replace it with a generic humanoid or a familiar monster with the same color. Reuse a previously encountered individual. Recovered material requires actual acquisition; no guaranteed loot, instant crafting bonus, tame companion or universal consumable effect is granted."
+  },
+  "Ribbonjaw Prowler": {
+    "name": "Ribbonjaw Prowler",
+    "vulnerabilities": [
+      "sound"
+    ],
+    "resistances": [
+      "nature"
+    ],
+    "immunities": [],
+    "description": "APPEARANCE: A lean wolf-sized ambush animal with six short hooked legs, smooth bark-brown hide and two long flexible jaw membranes running down its neck. Its real mouth is small; the membranes unfold sideways into a ribbed capture basket. Four forward-facing black eyes catch tiny highlights.\nECOLOGY AND BEHAVIOR: Stalks Sunspill’s hanging bark lanes. It grips prey briefly, then retreats to cover; it does not swallow a person whole or teleport between shadows.\nCOUNTERPLAY: Watch both flanks, use open ground and strike the extended membrane during its committed rush. A severed membrane is a real injury, not a free endless whip attack.\nFIELD VALUE: Recovered membrane can suit flexible bindings, but only actual suitable remains or shed tissue exist.\nGENERATION: Use the actual location band and establish this individual’s level, tier, disposition and bounded abilities. This type does not spawn itself or rescale an existing creature. Copy its diagnostic anatomy into the generated record and visual description; do not replace it with a generic humanoid or a familiar monster with the same color. Reuse a previously encountered individual. Recovered material requires actual acquisition; no guaranteed loot, instant crafting bonus, tame companion or universal consumable effect is granted."
+  },
+  "Petalglass Snail": {
+    "name": "Petalglass Snail",
+    "vulnerabilities": [
+      "bludgeoning"
+    ],
+    "resistances": [
+      "water"
+    ],
+    "immunities": [],
+    "description": "APPEARANCE: A knee-high snail with a broad pearly foot, four short feelers and a fan of overlapping transparent petal-shaped shell plates. Mineral colors show through the shell; it has no floral human head or separate limbs.\nECOLOGY AND BEHAVIOR: Grazes films from spring pools and Prismbloom margins. Mostly peaceful, but a hard blow can release razorlike shell fragments as it contracts. A living population contributes to filtration without making all nearby water safe.\nCOUNTERPLAY: Move it gently with an actual method, avoid crushing its fragile plates and collect cast-off shell rather than treating a grazer as a required kill.\nFIELD VALUE: Loose shell fragments are optical and filter research materials, not restorative crystals.\nGENERATION: Use the actual location band and establish this individual’s level, tier, disposition and bounded abilities. This type does not spawn itself or rescale an existing creature. Copy its diagnostic anatomy into the generated record and visual description; do not replace it with a generic humanoid or a familiar monster with the same color. Reuse a previously encountered individual. Recovered material requires actual acquisition; no guaranteed loot, instant crafting bonus, tame companion or universal consumable effect is granted."
+  },
+  "Sailfin Skipper": {
+    "name": "Sailfin Skipper",
+    "vulnerabilities": [
+      "ice"
+    ],
+    "resistances": [
+      "wind"
+    ],
+    "immunities": [],
+    "description": "APPEARANCE: A cat-sized flattened animal with two gripping forelegs, a long rudder tail and a translucent fan stretched along each flank. Its narrow toothless beak scrapes salt; round dark eyes sit on short fixed stalks. It glides with body fins and has no feathered wings.\nECOLOGY AND BEHAVIOR: Rests under Tetherroot ledges and scrapes salts from rope fittings. Territorial rushes can cut cloth, damage sails or knock unsecured equipment aside.\nCOUNTERPLAY: Secure gear, avoid a leap after it into open air and obstruct the space it needs to spread its fins. A grounded specimen loses much of its maneuvering room.\nFIELD VALUE: Discarded fin film can be studied for lightweight membranes.\nGENERATION: Use the actual location band and establish this individual’s level, tier, disposition and bounded abilities. This type does not spawn itself or rescale an existing creature. Copy its diagnostic anatomy into the generated record and visual description; do not replace it with a generic humanoid or a familiar monster with the same color. Reuse a previously encountered individual. Recovered material requires actual acquisition; no guaranteed loot, instant crafting bonus, tame companion or universal consumable effect is granted."
+  },
+  "Bellows Mite": {
+    "name": "Bellows Mite",
+    "vulnerabilities": [
+      "ice"
+    ],
+    "resistances": [
+      "wind"
+    ],
+    "immunities": [],
+    "description": "APPEARANCE: A fist-sized six-legged arthropod with an inflated translucent abdomen, three dark horizontal ribs and a short inward-folding nozzle. Rows of beadlike eyes run along the front rim. Colonies look like pulsing mineral nodules on a cave wall.\nECOLOGY AND BEHAVIOR: Clings around damp air vents. Exhaling individuals produce short pressure bursts; groups respond to blocked airflow and vibration. Their blasts are bounded local actions, not permanent weather control.\nCOUNTERPLAY: Cover the nozzle’s line, change the immediate airflow or clear a safe vent. Sealing the entire chamber can worsen pressure.\nFIELD VALUE: Shed rib casings can inform valves and air filters.\nGENERATION: Use the actual location band and establish this individual’s level, tier, disposition and bounded abilities. This type does not spawn itself or rescale an existing creature. Copy its diagnostic anatomy into the generated record and visual description; do not replace it with a generic humanoid or a familiar monster with the same color. Reuse a previously encountered individual. Recovered material requires actual acquisition; no guaranteed loot, instant crafting bonus, tame companion or universal consumable effect is granted."
+  },
+  "Rimehorn Hare": {
+    "name": "Rimehorn Hare",
+    "vulnerabilities": [
+      "fire"
+    ],
+    "resistances": [
+      "ice"
+    ],
+    "immunities": [],
+    "description": "APPEARANCE: A large hare with dense slate-blue fur, powerful hindlegs and two short backward-curving translucent horns above its brows. Its breath frosts around the horns before a burst; it remains a four-legged animal with normal paws.\nECOLOGY AND BEHAVIOR: Inhabits the lower Rimeglass forest. It feeds on bark and roots, then uses abrupt icy leaps to escape or defend a burrow. Small appearance does not make it a harmless familiar.\nCOUNTERPLAY: Anticipate the landing direction, avoid surrounding its burrow and use cover. Its visible frosting warns of an imminent burst.\nFIELD VALUE: Naturally shed horn layers can be sampled without trapping a whole colony.\nGENERATION: Use the actual location band and establish this individual’s level, tier, disposition and bounded abilities. This type does not spawn itself or rescale an existing creature. Copy its diagnostic anatomy into the generated record and visual description; do not replace it with a generic humanoid or a familiar monster with the same color. Reuse a previously encountered individual. Recovered material requires actual acquisition; no guaranteed loot, instant crafting bonus, tame companion or universal consumable effect is granted."
+  },
+  "Frostmantle Lynx": {
+    "name": "Frostmantle Lynx",
+    "vulnerabilities": [
+      "fire"
+    ],
+    "resistances": [
+      "ice"
+    ],
+    "immunities": [],
+    "description": "APPEARANCE: A broad-pawed feline with pale gray fur, black ear tufts and loose translucent frost scales hanging over its shoulders like a broken mantle. Its eyes are copper and its long whiskers carry ice beads; it has no wings.\nECOLOGY AND BEHAVIOR: Stalks cold tarns and conifer margins. It breaks its outline against ice and snow, with short pounces and a territorial freezing spray. It does not become invisible or ignore tracks.\nCOUNTERPLAY: Use reflected movement, exposed breath, protected flanks and warm cover. Outside snowy terrain its mantle is easier to see.\nFIELD VALUE: Moulted mantle scales support cold-weather material testing.\nGENERATION: Use the actual location band and establish this individual’s level, tier, disposition and bounded abilities. This type does not spawn itself or rescale an existing creature. Copy its diagnostic anatomy into the generated record and visual description; do not replace it with a generic humanoid or a familiar monster with the same color. Reuse a previously encountered individual. Recovered material requires actual acquisition; no guaranteed loot, instant crafting bonus, tame companion or universal consumable effect is granted."
+  },
+  "Knapcap Colony": {
+    "name": "Knapcap Colony",
+    "vulnerabilities": [
+      "fire"
+    ],
+    "resistances": [
+      "nature"
+    ],
+    "immunities": [],
+    "description": "APPEARANCE: A low colony of jointed fungal bodies: dinner-plate caps ride on three pale tendonlike root legs, with porous undersides and no faces. Dark cords link nearby bodies while they feed. Colors vary from ochre to blue-gray.\nECOLOGY AND BEHAVIOR: Lives in wet fallen wood. Disturbed caps leap, vent spores or pull toward a sheltered root knot. A colony is not a society of tiny mushroom people or an automatic mind-reading network.\nCOUNTERPLAY: Ventilate, identify the cord routes and avoid standing over a disturbed cap. Breaking one visible fruiting body need not destroy the entire colony.\nFIELD VALUE: A permitted contained culture can be useful for decomposition studies; wild spores are not automatically medicine.\nGENERATION: Use the actual location band and establish this individual’s level, tier, disposition and bounded abilities. This type does not spawn itself or rescale an existing creature. Copy its diagnostic anatomy into the generated record and visual description; do not replace it with a generic humanoid or a familiar monster with the same color. Reuse a previously encountered individual. Recovered material requires actual acquisition; no guaranteed loot, instant crafting bonus, tame companion or universal consumable effect is granted."
+  },
+  "Glacier Manta": {
+    "name": "Glacier Manta",
+    "vulnerabilities": [
+      "lightning"
+    ],
+    "resistances": [
+      "ice",
+      "wind"
+    ],
+    "immunities": [],
+    "description": "APPEARANCE: A wagon-wide aerial filter feeder with a broad diamond-shaped body, six short underside paddles, icy blue dorsal ridges and a long split tail. Pale comb plates line the underside around a central mouth. It has no fishlike gills on a humanoid torso.\nECOLOGY AND BEHAVIOR: Rides the lee of Rimeglass peaks and collects ice-laden mana dust. Defends a feeding lane with a sweep or compressed icy wake. It is a real animal, not a flying island.\nCOUNTERPLAY: Observe prevailing currents, use overhangs and leave the turn space. Heavy icing or damaged fins makes a turn slower.\nFIELD VALUE: Shed comb fragments can be studied for filters and cold-environment craft.\nGENERATION: Use the actual location band and establish this individual’s level, tier, disposition and bounded abilities. This type does not spawn itself or rescale an existing creature. Copy its diagnostic anatomy into the generated record and visual description; do not replace it with a generic humanoid or a familiar monster with the same color. Reuse a previously encountered individual. Recovered material requires actual acquisition; no guaranteed loot, instant crafting bonus, tame companion or universal consumable effect is granted."
+  },
+  "Hushbell Carapace": {
+    "name": "Hushbell Carapace",
+    "vulnerabilities": [
+      "lightning"
+    ],
+    "resistances": [
+      "sound"
+    ],
+    "immunities": [],
+    "description": "APPEARANCE: A waist-high arthropod walking on four narrow legs beneath an oval charcoal shell. Three hollow bell cups hang from its back on flexible stems. Its low head has two white eye bars; its cups face the ground when stalking.\nECOLOGY AND BEHAVIOR: Inhabits sheltered ruins and quiet stone passages. Its cups damp nearby sound while it approaches, then release a short stored pulse. Silence has a local range and duration, not a permanent ban on all casting.\nCOUNTERPLAY: Use sight, reflected light and floor vibrations. Obstructing a cup or changing the room’s resonance reduces its advantage.\nFIELD VALUE: Recovered empty cups may suit acoustic research after safe handling.\nGENERATION: Use the actual location band and establish this individual’s level, tier, disposition and bounded abilities. This type does not spawn itself or rescale an existing creature. Copy its diagnostic anatomy into the generated record and visual description; do not replace it with a generic humanoid or a familiar monster with the same color. Reuse a previously encountered individual. Recovered material requires actual acquisition; no guaranteed loot, instant crafting bonus, tame companion or universal consumable effect is granted."
+  },
+  "Stormglass Kite": {
+    "name": "Stormglass Kite",
+    "vulnerabilities": [
+      "bludgeoning"
+    ],
+    "resistances": [
+      "lightning"
+    ],
+    "immunities": [],
+    "description": "APPEARANCE: A shield-sized angular organism with a translucent rhomboid central plate, four jointed blade fins and dangling hair-fine conductive tendrils. Its eyes form three small black beads along one leading edge; it has no bird head or feathers.\nECOLOGY AND BEHAVIOR: Flocks around charged mineral seams. It gathers electrical charge and discharges along a short tendril reach. Linked flock movement can threaten an exposed route, but every animal does not gain the entire flock’s output.\nCOUNTERPLAY: Break line and spacing, use rock cover and wait for a real discharge before collecting a shed plate. Metal equipment does not make its owner universally doomed.\nFIELD VALUE: Spent plates can be used in bounded insulation and charge-storage experiments.\nGENERATION: Use the actual location band and establish this individual’s level, tier, disposition and bounded abilities. This type does not spawn itself or rescale an existing creature. Copy its diagnostic anatomy into the generated record and visual description; do not replace it with a generic humanoid or a familiar monster with the same color. Reuse a previously encountered individual. Recovered material requires actual acquisition; no guaranteed loot, instant crafting bonus, tame companion or universal consumable effect is granted."
+  },
+  "Mantlefin Drifter": {
+    "name": "Mantlefin Drifter",
+    "vulnerabilities": [
+      "lightning"
+    ],
+    "resistances": [
+      "water"
+    ],
+    "immunities": [],
+    "description": "APPEARANCE: A small-boat-sized freshwater animal with a broad soft mantle, eight short flexible edge fins and a dark central underside keel. Its mouth opens below the keel; two pale eyes sit above it. It has neither human features nor a tentacled octopus head.\nECOLOGY AND BEHAVIOR: Feeds in Mirrorwater’s open lakes and rises slowly through reeds. Adults shove boats, defend calves and stir opaque silt rather than automatically hunt people. Young remain smaller individuals within the site’s level band.\nCOUNTERPLAY: Give turning room, mark shallow banks and watch the pale fin edges. Dry shelves interrupt pursuit.\nFIELD VALUE: Naturally shed keel film can be studied for waterproof layers.\nGENERATION: Use the actual location band and establish this individual’s level, tier, disposition and bounded abilities. This type does not spawn itself or rescale an existing creature. Copy its diagnostic anatomy into the generated record and visual description; do not replace it with a generic humanoid or a familiar monster with the same color. Reuse a previously encountered individual. Recovered material requires actual acquisition; no guaranteed loot, instant crafting bonus, tame companion or universal consumable effect is granted."
+  },
+  "Glassreed Sifter": {
+    "name": "Glassreed Sifter",
+    "vulnerabilities": [
+      "bludgeoning"
+    ],
+    "resistances": [
+      "slashing"
+    ],
+    "immunities": [],
+    "description": "APPEARANCE: A torso-sized marsh animal with six narrow jointed legs, a low green-gray body and a hinged cage of clipped glassy reeds around its back. Two brushlike feeding arms sweep water in front of a blunt head with paired gold eyes.\nECOLOGY AND BEHAVIOR: Builds feeding cages in shallow channels. The cage deflects slashes while brush arms catch small prey; threatened animals jab or churn reeds into confusing moving screens.\nCOUNTERPLAY: Read the moving joints, interrupt its feeding current and avoid pushing bare hands through the cage. A changed route can spare both colony and sample bed.\nFIELD VALUE: Loose mature reed stems and abandoned cages provide usable research samples.\nGENERATION: Use the actual location band and establish this individual’s level, tier, disposition and bounded abilities. This type does not spawn itself or rescale an existing creature. Copy its diagnostic anatomy into the generated record and visual description; do not replace it with a generic humanoid or a familiar monster with the same color. Reuse a previously encountered individual. Recovered material requires actual acquisition; no guaranteed loot, instant crafting bonus, tame companion or universal consumable effect is granted."
+  },
+  "Lantern Leech Swarm": {
+    "name": "Lantern Leech Swarm",
+    "vulnerabilities": [
+      "fire"
+    ],
+    "resistances": [
+      "water"
+    ],
+    "immunities": [],
+    "description": "APPEARANCE: A group of finger-length translucent ribbon organisms, each with a dark central gut and two glowing dots near a circular sucker. They swim or make short membrane-assisted hops between wet surfaces; they are not ghost lights.\nECOLOGY AND BEHAVIOR: Attracted to bright disturbance in Mirrorwater marshes. A swarm drains and irritates exposed tissue through real contact. It does not consume a numerical Mana pool from a distance or create an unconfigured disease automatically.\nCOUNTERPLAY: Shield exposed skin, control light and separate from wet vegetation. Appropriate treatment uses actual supported effects.\nFIELD VALUE: Contained specimens support studies of lure chemistry, not a universal mana-draining item.\nGENERATION: Use the actual location band and establish this individual’s level, tier, disposition and bounded abilities. This type does not spawn itself or rescale an existing creature. Copy its diagnostic anatomy into the generated record and visual description; do not replace it with a generic humanoid or a familiar monster with the same color. Reuse a previously encountered individual. Recovered material requires actual acquisition; no guaranteed loot, instant crafting bonus, tame companion or universal consumable effect is granted."
+  },
+  "Spillback Crab": {
+    "name": "Spillback Crab",
+    "vulnerabilities": [
+      "lightning"
+    ],
+    "resistances": [
+      "water",
+      "slashing"
+    ],
+    "immunities": [],
+    "description": "APPEARANCE: A barrel-sized crustacean with six walking legs, two short grasping limbs and a pair of hinged stone-white backplates. A central siphon between the plates directs a water jet; amber eye stalks stay low beside the front rim.\nECOLOGY AND BEHAVIOR: Braces in Spillway pools. It aligns its backplates visibly before a narrow jet, then needs time to refill. A real opening exists between volleys; it does not fire an endless beam.\nCOUNTERPLAY: Break its alignment, move to broken dry rock or interrupt the local flow. Avoid sending a loose ally toward the spill edge.\nFIELD VALUE: Intact discarded backplates can be inspected for pump housings.\nGENERATION: Use the actual location band and establish this individual’s level, tier, disposition and bounded abilities. This type does not spawn itself or rescale an existing creature. Copy its diagnostic anatomy into the generated record and visual description; do not replace it with a generic humanoid or a familiar monster with the same color. Reuse a previously encountered individual. Recovered material requires actual acquisition; no guaranteed loot, instant crafting bonus, tame companion or universal consumable effect is granted."
+  },
+  "Mire Lantern": {
+    "name": "Mire Lantern",
+    "vulnerabilities": [
+      "ice"
+    ],
+    "resistances": [
+      "water"
+    ],
+    "immunities": [],
+    "description": "APPEARANCE: A low four-legged amphibious predator with a broad dark body and a curved stalk above its shoulders ending in a pale luminous sac. Its true eyes are tiny and close to the waterline; its mouth opens across the flat front of its body.\nECOLOGY AND BEHAVIOR: Hunts insects and small animals among luminous marsh plants. It can mislead a traveler following its light, then snap from shallow water. Its lure is visible behavior, not compulsory magical obedience.\nCOUNTERPLAY: Compare light movement with fixed plants, keep a shore bearing and use an elevated line of sight.\nFIELD VALUE: A safely obtained shed lure lining has optical value, without becoming a mind-control device.\nGENERATION: Use the actual location band and establish this individual’s level, tier, disposition and bounded abilities. This type does not spawn itself or rescale an existing creature. Copy its diagnostic anatomy into the generated record and visual description; do not replace it with a generic humanoid or a familiar monster with the same color. Reuse a previously encountered individual. Recovered material requires actual acquisition; no guaranteed loot, instant crafting bonus, tame companion or universal consumable effect is granted."
+  },
+  "Lensback Eel": {
+    "name": "Lensback Eel",
+    "vulnerabilities": [
+      "lightning"
+    ],
+    "resistances": [
+      "light"
+    ],
+    "immunities": [],
+    "description": "APPEARANCE: A long dark eel with four broad transparent discs running down each flank, a blunt circular mouth and two small silver eyes. It coils through old machinery; the flank discs bend light while the body remains physically present.\nECOLOGY AND BEHAVIOR: Lives in deep Mirrorwater hollows and the Drowned Orrery. It produces shifting reflections and strikes across a short water channel. A projected image is not a second creature or an attack from every reflection.\nCOUNTERPLAY: Cloud a sightline, vary the viewing angle and watch the actual wake. Reflection control does not stop physical barriers.\nFIELD VALUE: A loose flank disc may be copied or recovered under the real commission terms.\nGENERATION: Use the actual location band and establish this individual’s level, tier, disposition and bounded abilities. This type does not spawn itself or rescale an existing creature. Copy its diagnostic anatomy into the generated record and visual description; do not replace it with a generic humanoid or a familiar monster with the same color. Reuse a previously encountered individual. Recovered material requires actual acquisition; no guaranteed loot, instant crafting bonus, tame companion or universal consumable effect is granted."
+  },
+  "Bramblehorn": {
+    "name": "Bramblehorn",
+    "vulnerabilities": [
+      "fire"
+    ],
+    "resistances": [
+      "bludgeoning"
+    ],
+    "immunities": [],
+    "description": "APPEARANCE: An ox-sized six-legged herbivore with a low armored brow, two forward thorn-shaped horns and dense violet-gray fur. A row of soft brush fans grows along its spine. It has broad cloven feet and two ordinary lateral eyes.\nECOLOGY AND BEHAVIOR: Grazes Mauvewind heath and defends herd spacing. Charges are strong but committed; juveniles and feeding animals are not inherently enemies. It is distinct from a sapient ram beastfolk person.\nCOUNTERPLAY: Respect warning displays, break a straight charge line and use gullies or solid cover. Do not stand between a parent and its young.\nFIELD VALUE: Rubbed horn flakes and shed brush fibers can be collected without slaughtering the herd.\nGENERATION: Use the actual location band and establish this individual’s level, tier, disposition and bounded abilities. This type does not spawn itself or rescale an existing creature. Copy its diagnostic anatomy into the generated record and visual description; do not replace it with a generic humanoid or a familiar monster with the same color. Reuse a previously encountered individual. Recovered material requires actual acquisition; no guaranteed loot, instant crafting bonus, tame companion or universal consumable effect is granted."
+  },
+  "Glassmane Courser": {
+    "name": "Glassmane Courser",
+    "vulnerabilities": [
+      "sound"
+    ],
+    "resistances": [
+      "light"
+    ],
+    "immunities": [],
+    "description": "APPEARANCE: A tall narrow-bodied quadruped with long springy legs, a low reptilian head and a segmented translucent mane that rises from neck to rump. Its forward violet eyes and hooked foreclaws betray the predator beneath its grazing-animal silhouette.\nECOLOGY AND BEHAVIOR: Waits near pale heath ridges and hunts in small loose groups. The mane scatters its outline while still, then folds during a rush. It is not an enchanted horse or a mount awaiting ownership.\nCOUNTERPLAY: Identify eye placement and deliberate stillness, watch the flank and disrupt its run with terrain.\nFIELD VALUE: Discarded mane segments can be studied for camouflage materials.\nGENERATION: Use the actual location band and establish this individual’s level, tier, disposition and bounded abilities. This type does not spawn itself or rescale an existing creature. Copy its diagnostic anatomy into the generated record and visual description; do not replace it with a generic humanoid or a familiar monster with the same color. Reuse a previously encountered individual. Recovered material requires actual acquisition; no guaranteed loot, instant crafting bonus, tame companion or universal consumable effect is granted."
+  },
+  "Chimeback Strider": {
+    "name": "Chimeback Strider",
+    "vulnerabilities": [
+      "lightning"
+    ],
+    "resistances": [
+      "sound"
+    ],
+    "immunities": [],
+    "description": "APPEARANCE: A tall tripod animal with three jointed legs around a rounded torso, one low head on a flexible neck and a broad hinged resonance plate above its back. Bands of pale mineral cross its violet hide. Its three eyes are clustered on the head, not painted on the plate.\nECOLOGY AND BEHAVIOR: Moves through Singing Stone passages. It raises its backplate before a directional resonant pulse and braces its legs to fire. Pulses have real targets and cover; ordinary stone everywhere does not become its weapon.\nCOUNTERPLAY: Break the lane, interfere with resonance or exploit the visible bracing interval. A Sound affinity is helpful knowledge, not automatic immunity.\nFIELD VALUE: Naturally dropped plate shards support acoustic calibration research.\nGENERATION: Use the actual location band and establish this individual’s level, tier, disposition and bounded abilities. This type does not spawn itself or rescale an existing creature. Copy its diagnostic anatomy into the generated record and visual description; do not replace it with a generic humanoid or a familiar monster with the same color. Reuse a previously encountered individual. Recovered material requires actual acquisition; no guaranteed loot, instant crafting bonus, tame companion or universal consumable effect is granted."
+  },
+  "Prismfold Fan": {
+    "name": "Prismfold Fan",
+    "vulnerabilities": [
+      "sound"
+    ],
+    "resistances": [
+      "light"
+    ],
+    "immunities": [],
+    "description": "APPEARANCE: A low segmented animal with four short legs and three pairs of broad translucent membranes folding upward from its back. Pink and turquoise vein lines mark each membrane. Its tiny dark head and paired gold eyes remain below the luminous fan.\nECOLOGY AND BEHAVIOR: Basks by Prismbloom mineral pools. Refraction obscures its exact position while it snaps membranes outward or retreats. It cannot rewrite reality, turn into a person or create independent copies.\nCOUNTERPLAY: Use shadows, alternate angles, reflected water movement and shade. A real physical outline remains available.\nFIELD VALUE: Cast-off membrane plates have optical research value; taking one does not grant Illusion mastery.\nGENERATION: Use the actual location band and establish this individual’s level, tier, disposition and bounded abilities. This type does not spawn itself or rescale an existing creature. Copy its diagnostic anatomy into the generated record and visual description; do not replace it with a generic humanoid or a familiar monster with the same color. Reuse a previously encountered individual. Recovered material requires actual acquisition; no guaranteed loot, instant crafting bonus, tame companion or universal consumable effect is granted."
+  },
+  "Veilhook Ray": {
+    "name": "Veilhook Ray",
+    "vulnerabilities": [
+      "ice"
+    ],
+    "resistances": [
+      "wind"
+    ],
+    "immunities": [],
+    "description": "APPEARANCE: A lean aerial ray with a slate-violet diamond body, two short hornlike snouts and six retractile hooks along its belly. Its narrow tail ends in a broad rudder membrane. Paired amber eyes face forward; it has no humanoid upper body.\nECOLOGY AND BEHAVIOR: Rides chasm updrafts and catches cliff growth, small prey and loose equipment. A flock can create a dangerous crossing without being a coordinated sapient army. A snagged bag remains a physical object that can be recovered.\nCOUNTERPLAY: Secure loads, use overhangs and predict the current. Its hooks need contact and a committed pass.\nFIELD VALUE: Dropped hook sheaths can be studied for climbing equipment.\nGENERATION: Use the actual location band and establish this individual’s level, tier, disposition and bounded abilities. This type does not spawn itself or rescale an existing creature. Copy its diagnostic anatomy into the generated record and visual description; do not replace it with a generic humanoid or a familiar monster with the same color. Reuse a previously encountered individual. Recovered material requires actual acquisition; no guaranteed loot, instant crafting bonus, tame companion or universal consumable effect is granted."
+  },
+  "Palimpsest Warden": {
+    "name": "Palimpsest Warden",
+    "vulnerabilities": [
+      "lightning"
+    ],
+    "resistances": [
+      "slashing",
+      "piercing"
+    ],
+    "immunities": [
+      "poisoning"
+    ],
+    "description": "APPEARANCE: A person-height old construct made of nested pale ceramic plates marked with fine dark calibration lines. Four asymmetric arms fold around a lenslike central aperture above three short stone legs. There is no human face, robe or living torso beneath the plates.\nECOLOGY AND BEHAVIOR: Survives in old survey workrooms. Repeated flashes and movement near protected apparatus trigger bounded protective responses. It has no omniscient knowledge, universal speech or authority over living fae.\nCOUNTERPLAY: Learn its actual trigger pattern, occlude the aperture and interrupt a joint or power link. Permission records matter only if this real machine can read them.\nFIELD VALUE: An intact calibration component may be salvaged under actual permission; breaking it destroys some research value.\nGENERATION: Use the actual location band and establish this individual’s level, tier, disposition and bounded abilities. This type does not spawn itself or rescale an existing creature. Copy its diagnostic anatomy into the generated record and visual description; do not replace it with a generic humanoid or a familiar monster with the same color. Reuse a previously encountered individual. Recovered material requires actual acquisition; no guaranteed loot, instant crafting bonus, tame companion or universal consumable effect is granted."
+  },
+  "Choirglass Colossus": {
+    "name": "Choirglass Colossus",
+    "vulnerabilities": [
+      "lightning"
+    ],
+    "resistances": [
+      "sound",
+      "slashing"
+    ],
+    "immunities": [],
+    "description": "APPEARANCE: A large six-legged animal, roughly two wagons long, with pale layered mineral armor over a dark flexible body. Three sail-like resonance vanes rise from its spine, framing a blunt head with a horizontal band of small violet eyes. Its underside shows breathing seams; it is neither a crystal human nor a dragon.\nECOLOGY AND BEHAVIOR: A rare mature individual occupies the Inverted Crown bowl at level 55–60. Its resonance can drive nearby wildlife outward, and its low stomps and directed pulses threaten prepared teams. Its abilities remain local and finite; it is a midgame apex animal, not a deity or an endgame boss.\nCOUNTERPLAY: Observe which vane charges, use the bowl’s solid cover, interrupt exposed seams and act between pulses. Damaged vanes change its tactics rather than immediately killing it. Retreat, a real diversion or habitat solution can be valid.\nFIELD VALUE: Shed plates and actual resolved remains have research value. No guaranteed legendary equipment, unlimited energy source or repeated replacement boss.\nGENERATION: Use the actual location band and establish this individual’s level, tier, disposition and bounded abilities. This type does not spawn itself or rescale an existing creature. Copy its diagnostic anatomy into the generated record and visual description; do not replace it with a generic humanoid or a familiar monster with the same color. Reuse a previously encountered individual. Recovered material requires actual acquisition; no guaranteed loot, instant crafting bonus, tame companion or universal consumable effect is granted."
+  },
+  "Thunderbird": {
+    "name": "Thunderbird",
+    "vulnerabilities": [
+      "ice"
+    ],
+    "resistances": [
+      "lightning"
+    ],
+    "immunities": [],
+    "description": "APPEARANCE: A large dark-feathered bird with a hooked silver beak, gold eyes and pale conductive feather shafts that flicker before a discharge.\nECOLOGY AND BEHAVIOR: A territorial hunter of charged northeastern crags. Its warning calls and occupied perches precede a dive or a bounded lightning attack. It is not a sacred dragon or a guaranteed storm deity.\nCOUNTERPLAY: Use grounded cover, disrupt the dive space and respect the interval after a discharge.\nFIELD VALUE: Genuinely shed stable feathers can support electrical studies.\nGENERATION: Use the actual location band and establish this individual’s level, tier, disposition and bounded abilities. This type does not spawn itself or rescale an existing creature. Copy its diagnostic anatomy into the generated record and visual description; do not replace it with a generic humanoid or a familiar monster with the same color. Reuse a previously encountered individual. Recovered material requires actual acquisition; no guaranteed loot, instant crafting bonus, tame companion or universal consumable effect is granted."
+  },
+  "Cockatrice": {
+    "name": "Cockatrice",
+    "vulnerabilities": [
+      "lightning"
+    ],
+    "resistances": [
+      "earth"
+    ],
+    "immunities": [],
+    "description": "APPEARANCE: A knee-high two-legged bird-reptile with mottled feathers, a scaled tail and a red bony facial comb. Amber eyes brighten before its short-range mineralizing attack.\nECOLOGY AND BEHAVIOR: A defensive animal at dry meadow edges. Its gaze or bite can cause a bounded hardening condition only through actual resolved abilities; a glance does not automatically permanently petrify an entire party.\nCOUNTERPLAY: Break eye contact and line of sight, use indirect observation and respond to the visible windup.\nFIELD VALUE: Shed comb fragments can support safe hardening research, not instant cure-all potions.\nGENERATION: Use the actual location band and establish this individual’s level, tier, disposition and bounded abilities. This type does not spawn itself or rescale an existing creature. Copy its diagnostic anatomy into the generated record and visual description; do not replace it with a generic humanoid or a familiar monster with the same color. Reuse a previously encountered individual. Recovered material requires actual acquisition; no guaranteed loot, instant crafting bonus, tame companion or universal consumable effect is granted."
+  },
+  "Basilisk": {
+    "name": "Basilisk",
+    "vulnerabilities": [
+      "lightning"
+    ],
+    "resistances": [
+      "slashing"
+    ],
+    "immunities": [],
+    "description": "APPEARANCE: A heavy eight-legged scaled reptile with low mineral ridges, a wedge-shaped head and large reflective eyes.\nECOLOGY AND BEHAVIOR: A patient predator of dry ruin passages or rocky heath. Its established mineralizing ability needs a real target, range and outcome. It cannot petrify everyone through walls or ignore its site’s level band.\nCOUNTERPLAY: Use cover, indirect viewing and movement that exploits its slow turn.\nFIELD VALUE: Actual recovered scales may suit a materials study; they do not grant universal petrification immunity.\nGENERATION: Use the actual location band and establish this individual’s level, tier, disposition and bounded abilities. This type does not spawn itself or rescale an existing creature. Copy its diagnostic anatomy into the generated record and visual description; do not replace it with a generic humanoid or a familiar monster with the same color. Reuse a previously encountered individual. Recovered material requires actual acquisition; no guaranteed loot, instant crafting bonus, tame companion or universal consumable effect is granted."
+  },
+  "Harpy": {
+    "name": "Harpy",
+    "vulnerabilities": [
+      "ice"
+    ],
+    "resistances": [
+      "wind"
+    ],
+    "immunities": [],
+    "description": "APPEARANCE: A sapient winged humanoid with feathered arms, raptor legs, a humanlike face and an individual’s distinct plumage and hair.\nECOLOGY AND BEHAVIOR: Cliff communities may trade, defend perches or raid according to their actual group. Some use trained song or sound magic. Species alone is no proof of evil, seductive intent or permission to kill.\nCOUNTERPLAY: Establish motives, language and boundaries. In a fight, terrain, interrupted song and actual wing space matter.\nFIELD VALUE: Trade and agreements can obtain lawful goods. A sapient body is not a loot table.\nGENERATION: Use the actual location band and establish this individual’s level, tier, disposition and bounded abilities. This type does not spawn itself or rescale an existing creature. Copy its diagnostic anatomy into the generated record and visual description; do not replace it with a generic humanoid or a familiar monster with the same color. Reuse a previously encountered individual. Recovered material requires actual acquisition; no guaranteed loot, instant crafting bonus, tame companion or universal consumable effect is granted."
+  },
+  "Chimera": {
+    "name": "Chimera",
+    "vulnerabilities": [
+      "ice"
+    ],
+    "resistances": [
+      "slashing"
+    ],
+    "immunities": [],
+    "description": "APPEARANCE: A large four-legged beast with a lionlike body, a separate goat head beside the main feline head and a scaled serpent tail ending in a small biting head.\nECOLOGY AND BEHAVIOR: A rare dangerous predator of remote highland or violet frontier territory. Each head’s actual senses and attacks matter, but it remains one bounded creature rather than three free full turns or a replacement for every expedition boss.\nCOUNTERPLAY: Exploit divided attention, turning space and actual attack recovery; use the site’s terrain.\nFIELD VALUE: Recovered remains require a real resolution and appropriate handling; valuable material is not a guaranteed complete enchanted item.\nGENERATION: Use the actual location band and establish this individual’s level, tier, disposition and bounded abilities. This type does not spawn itself or rescale an existing creature. Copy its diagnostic anatomy into the generated record and visual description; do not replace it with a generic humanoid or a familiar monster with the same color. Reuse a previously encountered individual. Recovered material requires actual acquisition; no guaranteed loot, instant crafting bonus, tame companion or universal consumable effect is granted."
+  },
+  "Cinder Carapace Spider": {
+    "name": "Cinder Carapace Spider",
+    "description": "A large spider mana beast with ember-brown sensory bristles, amber eyes and a dark slag-ridged shell. Limited natural Fire magic produces short heat bursts. It resists fire and is vulnerable to ice; no immunity, free healing or universal command of spiders is implied. Individual native health and casting outcomes remain authoritative.",
+    "vulnerabilities": [
+      "ice"
+    ],
+    "resistances": [
+      "fire"
+    ],
+    "immunities": []
+  },
+  "Guild Staff": {
+    "name": "Guild Staff",
+    "description": "Adult staff of an actual guild: reception, records, assessment or material handling. Use the individual’s actual training and remit. The role grants no universal appraisal, lie detection, police authority or portal permission.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Adventurer": {
+    "name": "Adventurer",
+    "description": "A registered freelance adventurer with an actual badge, background and chosen fighting or occupational method. Martial, magical and mixed approaches are all valid. Rank is a professional credential, not a species, personality, fixed build or automatic portal permit.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Young Stonehide Boar": {
+    "name": "Young Stonehide Boar",
+    "description": "A small, not fully grown Stonehide Boar with soft mineral patches rather than a mature armored shoulder. It stamps and makes a short, committed charge, then needs to turn. Its undeveloped hide has no inherited damage resistance. It is a beginner territorial obstacle, not a disguised adult champion.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "successBonus": -25
+  },
+  "Puddle Slime": {
+    "name": "Puddle Slime",
+    "description": "A small translucent slime feeding on harmless drain and riverbank residue. Ripples and a damp trail reveal it. It makes one simple shove or splash and has neither strong corrosive venom nor a universal resistance to ordinary weapons. It can be lured away from its food.",
+    "vulnerabilities": [
+      "ice"
+    ],
+    "resistances": [],
+    "immunities": [],
+    "successBonus": -25
+  },
+  "Stray Forest Hound": {
+    "name": "Stray Forest Hound",
+    "description": "A hungry, ordinary hound encountered near a maintained route. It barks, circles and may make a single clumsy bite before reassessing. It is not a Dire Wolf, pack leader or spellcasting predator. Food, distance and a firm barrier can change its behavior.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "successBonus": -25
+  },
+  "Underbrush Spider": {
+    "name": "Underbrush Spider",
+    "description": "A small forest mana spider with pale-brown legs and thin ankle-height trip silk. Its feeble venom is a short local irritation, not recurring lethal damage. A disturbed web and scattered husks warn of its hiding place. It has one simple lunge and can flee.",
+    "vulnerabilities": [
+      "fire"
+    ],
+    "resistances": [],
+    "immunities": [],
+    "successBonus": -25
+  }
+}

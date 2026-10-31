@@ -1,0 +1,1675 @@
+{
+  "description": "Legacy original media retained locally; missing files in cloud are not deletions. Hosted URLs remain in the world. New or changed media is shared by tools/project.py publish.",
+  "assets": {
+    "world-draft/npc portraits/Adoha Aonuma.png": {
+      "size": 2810265,
+      "sha256": "7d74089ea39e4b445c2a8176462c253ccc4832bea74c63648ea3a29c1b7e6e27",
+      "mtimeNs": 1793447017224324300
+    },
+    "world-draft/npc portraits/Akemi Fushida.png": {
+      "size": 2551183,
+      "sha256": "c6e049887f9d11fba41b249a8cd38e8eb96d7e00e4ef977ea923557b4f987fd8",
+      "mtimeNs": 1793214520916942300
+    },
+    "world-draft/npc portraits/Akito Kazamori.png": {
+      "size": 3062553,
+      "sha256": "49f4522e06b083aa54129805c1b55f26b412cacbab188dc758cf0788cb65a996",
+      "mtimeNs": 1793237463957196100
+    },
+    "world-draft/npc portraits/Akitsu Arashimine.png": {
+      "size": 2535310,
+      "sha256": "7c43ae7c55bafff57e2e3abafe8a11d16bc052b1a19ff4df8332cc62c29775e9",
+      "mtimeNs": 1793212850659869400
+    },
+    "world-draft/npc portraits/Atsuko Ōhira.png": {
+      "size": 2744970,
+      "sha256": "2916424bc8a9a1fc7494660e2406919dbf4ce4b1f6c34c574dc0d9dd8976c6d8",
+      "mtimeNs": 1793214804588925700
+    },
+    "world-draft/npc portraits/Aya Tsukino.png": {
+      "size": 2283757,
+      "sha256": "94e8472d2ecb3db9b1528b4e7c74d09b1ff4b10fb7df379987443cc35d9d8617",
+      "mtimeNs": 1793215242958779700
+    },
+    "world-draft/npc portraits/Ayame Kazehara.png": {
+      "size": 2745080,
+      "sha256": "d0d7d1e768fbfd4327be1c917aa870c2bb3213529f2b6146448418f29e150e4e",
+      "mtimeNs": 1793196244357701500
+    },
+    "world-draft/npc portraits/Benjirō Kanemori.png": {
+      "size": 2803282,
+      "sha256": "c0aecf01b3db081f0182f03b5df8775561a293132f552cf146db2f821b3744ea",
+      "mtimeNs": 1793213569986330600
+    },
+    "world-draft/npc portraits/Chisato Higuruma.png": {
+      "size": 2556031,
+      "sha256": "45ba5c29125ad47e423b1171ea4b4b1fd7d9d101bd300042ebe813201f40008b",
+      "mtimeNs": 1793214277738040400
+    },
+    "world-draft/npc portraits/Chisato Kurebayashi.png": {
+      "size": 2498285,
+      "sha256": "c9f6e83776bd0a43694ff8f3aa536c496b2f3a17c356fbb1db1f205554933cd5",
+      "mtimeNs": 1793444947162868600
+    },
+    "world-draft/npc portraits/Daigo Numata.png": {
+      "size": 2606635,
+      "sha256": "47dfb647a211242a2368409ee53a014f56364920be2a43cf259c8307bf4c1b02",
+      "mtimeNs": 1793214217979608700
+    },
+    "world-draft/npc portraits/Daisuke Toyama.png": {
+      "size": 2612224,
+      "sha256": "c0b59cd6a9d5e09b20a961dcf6876d853dbd9ad90062ce20dca229268086b6a9",
+      "mtimeNs": 1793216147093338400
+    },
+    "world-draft/npc portraits/Daizen Iwatsugu.png": {
+      "size": 2661893,
+      "sha256": "c104ac66a56e76a8ff3b2f6c438db705680a3569b63cf66234204473171475b2",
+      "mtimeNs": 1793211638495867900
+    },
+    "world-draft/npc portraits/Eitarō Handa.png": {
+      "size": 2885073,
+      "sha256": "c0426c61da09bb46fc13630b4a893cbaf75c6452ef469084c718dd652ddf02b6",
+      "mtimeNs": 1793215198524287500
+    },
+    "world-draft/npc portraits/Ena Minamori.png": {
+      "size": 2532055,
+      "sha256": "5e789e6f52a36ab2a80ef0f8874a215ad0857dfedbd3e6126b90cf4b3ded8eb3",
+      "mtimeNs": 1793444989217779900
+    },
+    "world-draft/npc portraits/Fuyumi Kirihara.png": {
+      "size": 2683100,
+      "sha256": "e0dc2ef27116923902890b154a4bfb75460856a53552a00b12736b04834fb89b",
+      "mtimeNs": 1793214186474023200
+    },
+    "world-draft/npc portraits/Gentarō Bando.png": {
+      "size": 2289087,
+      "sha256": "8d19afd4db8c261f31f513df864d618999d69f1e8d21578fdc6033445e88983a",
+      "mtimeNs": 1793216346743507700
+    },
+    "world-draft/npc portraits/Gōki Shishido.png": {
+      "size": 2779086,
+      "sha256": "57a6d41fc814c8cbadf74c9cb93c7ec6a6a614c28a10e12e3133808794b5c751",
+      "mtimeNs": 1793213389319120000
+    },
+    "world-draft/npc portraits/Gōtarō Iwamine.png": {
+      "size": 2977329,
+      "sha256": "6d4d41f92cddb0bacfc794656639f1334aef20ea997a60fee8579b3df0afdb58",
+      "mtimeNs": 1793196339139085500
+    },
+    "world-draft/npc portraits/Haruto Aonuma.png": {
+      "size": 2998810,
+      "sha256": "ae000588d3392fd8d3443be205c6d8a0c8c9b546ff891ae1d0e3c48a6b71efb4",
+      "mtimeNs": 1793216627080335500
+    },
+    "world-draft/npc portraits/Hayate Mizusawa.png": {
+      "size": 2781596,
+      "sha256": "0945f9f95b8af3270dd1afb6835553a6301c97e1bac0a763a32440acb9a942e8",
+      "mtimeNs": 1793214904918521000
+    },
+    "world-draft/npc portraits/Hibiki Takanashi.png": {
+      "size": 2666704,
+      "sha256": "4df5bf4bc9ee0545b9ac64209626fff44ddb3eb9c82392745418998769cdc373",
+      "mtimeNs": 1793215545445458800
+    },
+    "world-draft/npc portraits/Honoka Hazukawa.png": {
+      "size": 2667123,
+      "sha256": "9c22822f1b7a1ada5e9eaab4f0c10f1379a7e1c83bc686cc5163cac8bcbd5cc3",
+      "mtimeNs": 1793237083340666600
+    },
+    "world-draft/npc portraits/Hotaru Kise.png": {
+      "size": 2659317,
+      "sha256": "ab8242d17c7dbc6e4e3d7f881cac76d4ab7914bf3d1e057e0d6aabc9d28df61e",
+      "mtimeNs": 1793215874070449200
+    },
+    "world-draft/npc portraits/Hotone Mizuhane.png": {
+      "size": 2659166,
+      "sha256": "6e60a3cb9d5e97a1fcb9665c78e940acb5e3b272e096cf91b87213859ba0b9f4",
+      "mtimeNs": 1793237251933367000
+    },
+    "world-draft/npc portraits/Iori Yukinose.png": {
+      "size": 2759595,
+      "sha256": "b45b1ac0e402e61f26b55a2f670f51743db5517628dfb5bd2627043b63405bec",
+      "mtimeNs": 1793212091123186200
+    },
+    "world-draft/npc portraits/Iroha Sagiri.png": {
+      "size": 2470349,
+      "sha256": "9590c702f2bcce71c170e10a68c3fe80272c3779dc7de98415991c0681347445",
+      "mtimeNs": 1793216091971169200
+    },
+    "world-draft/npc portraits/Isamu Murakoshi.png": {
+      "size": 2553419,
+      "sha256": "10bf24eef71ff1196e9f1bb42bf33d67e18858b2563e9f34b2e40e7327a21e40",
+      "mtimeNs": 1793214850708456200
+    },
+    "world-draft/npc portraits/Jianyu Wen.png": {
+      "size": 2863798,
+      "sha256": "50668a624c89d3b05567c634ae5323da7dc9f2b8536f5593d4285632bc785e73",
+      "mtimeNs": 1793236937429841100
+    },
+    "world-draft/npc portraits/Karia Morino.png": {
+      "size": 2609815,
+      "sha256": "dcf5e28d5e920d12e6ca1de7e0843b68806f4562de98f81a5cc19729c953328f",
+      "mtimeNs": 1793447289131891400
+    },
+    "world-draft/npc portraits/Keishin Tōdō.png": {
+      "size": 2871524,
+      "sha256": "9af6a869ed8266cc185a292e1b60acb5b38523704516913fdca1f79648c0c836",
+      "mtimeNs": 1793213453543667200
+    },
+    "world-draft/npc portraits/Kensaku Honjō.png": {
+      "size": 2696806,
+      "sha256": "1286c5004e2a9f0e1d8a811c92e7d32d5965b19dc0aec4a4641f40ff153e8c2c",
+      "mtimeNs": 1793215446457626200
+    },
+    "world-draft/npc portraits/Kharvess.png": {
+      "size": 3037778,
+      "sha256": "2ea4c02a63cff658b2ab764a76fefec5e64be9c04ee1e0202485959f5c5087a4",
+      "mtimeNs": 1793200899403162900
+    },
+    "world-draft/npc portraits/Kohane Kazahana.png": {
+      "size": 2909663,
+      "sha256": "c34151ede2bd92f233366f6222b788a26fb46e7f855e1221a788a2ddb3e529d8",
+      "mtimeNs": 1793236832645794300
+    },
+    "world-draft/npc portraits/Koharu Yukinose.png": {
+      "size": 3183564,
+      "sha256": "0805b9e1baede95fae12c401096031d21ef4b7d5886020565e6c8b3afb4696af",
+      "mtimeNs": 1793228776077415600
+    },
+    "world-draft/npc portraits/Komugi Hanabishi.png": {
+      "size": 2388236,
+      "sha256": "cc065456109b215a70bedcbb17c4a20137f5c31fe8adc204547fd6d9e25636f5",
+      "mtimeNs": 1793191661941535900
+    },
+    "world-draft/npc portraits/Kotoha Umezaki.png": {
+      "size": 2616792,
+      "sha256": "1ac1b7ae6922d982d2d10897452e510358c646f62734a8447f874ba07448bdf3",
+      "mtimeNs": 1793214944441504400
+    },
+    "world-draft/npc portraits/Kureha Kazahana.png": {
+      "size": 2917060,
+      "sha256": "5b6bded74a4599992eeb615c8c147dfed9fb2a371600d4321d56515b87bd9b5e",
+      "mtimeNs": 1793236880652026300
+    },
+    "world-draft/npc portraits/Madara Senzaki.png": {
+      "size": 2853224,
+      "sha256": "b7b681be89b5e63794a19ff76da1ebb9213f8acb37c38e8dab9dc9f99680c6b4",
+      "mtimeNs": 1793215132534987600
+    },
+    "world-draft/npc portraits/Masatsugu Yukinose.png": {
+      "size": 2491651,
+      "sha256": "2a0ddd3c80d611235a575ad049eb4c0a7d590ed73949d3a59e8837fbfb34621d",
+      "mtimeNs": 1793211097334563700
+    },
+    "world-draft/npc portraits/Michiru Aonuma.png": {
+      "size": 2534713,
+      "sha256": "ee645739f945e57f4a4c1f0e76b5a8abc81601be793baf6bc3a5dda8b92c1deb",
+      "mtimeNs": 1793216567916941200
+    },
+    "world-draft/npc portraits/Miharu Sakuraba.png": {
+      "size": 2524417,
+      "sha256": "45004f98f07e5c545496c74055f6da6e5e66f436a2880158c7b9784b07f78c3a",
+      "mtimeNs": 1793214587819226600
+    },
+    "world-draft/npc portraits/Mio Sasahara.png": {
+      "size": 2742517,
+      "sha256": "fd299cc5b3211b2575526addeabbcb4f64b6ee4b1a73f6f6b0f6d616b62fcb33",
+      "mtimeNs": 1793237417130580200
+    },
+    "world-draft/npc portraits/Mizue Akeboshi.png": {
+      "size": 2561838,
+      "sha256": "ea2ceaf8f92ac5ade49778360e604c254732db694f6e46dbbf3d70daddf976c9",
+      "mtimeNs": 1793445012616705200
+    },
+    "world-draft/npc portraits/Natsume Hibari.png": {
+      "size": 2788701,
+      "sha256": "aac0b417af417d649a141415500f0d9917e45d350b3651a34731415374ceda70",
+      "mtimeNs": 1793213877538727600
+    },
+    "world-draft/npc portraits/Noboru Ōhira.png": {
+      "size": 2323395,
+      "sha256": "5a11cd440abe32d1916b063c3df680205e0709fee6944c76aec7b762b8e4cdd4",
+      "mtimeNs": 1793214670995536400
+    },
+    "world-draft/npc portraits/Orivelle.png": {
+      "size": 3258059,
+      "sha256": "4ecff86e167481d3bde8019a99f8bfa010c92a60ca46be4a22c5d208dba3aec1",
+      "mtimeNs": 1793237487570996900
+    },
+    "world-draft/npc portraits/Orrhask.png": {
+      "size": 3223717,
+      "sha256": "77446bef630a5e28c702366c770f6fc36b97c73143b60d343c8da3b5ebf8eb22",
+      "mtimeNs": 1793201292736229500
+    },
+    "world-draft/npc portraits/Orrum.png": {
+      "size": 3185446,
+      "sha256": "9877fda22a8622530572a1119937839d5dccd3dd53e02c7fc34b71003944b4b6",
+      "mtimeNs": 1793213937074276100
+    },
+    "world-draft/npc portraits/Phoenix Wright.png": {
+      "size": 2229639,
+      "sha256": "87ac68a89f86026049aed0f41ea0ad82b231c19a36dc8bdc17ccef28d5f6c2ce",
+      "mtimeNs": 1793196064588365400
+    },
+    "world-draft/npc portraits/Ragnar Leonhart.png": {
+      "size": 3522155,
+      "sha256": "1258860f47f0229397e7af59a3e4fa87e4b91f25a9d40e1a81ee3df9c56d0a78",
+      "mtimeNs": 1793446872995151900
+    },
+    "world-draft/npc portraits/Reina Tachibana.png": {
+      "size": 2748975,
+      "sha256": "9991798e6caa8dcda1ee3078173915520150e96a5b8e31027eb2632ad7324057",
+      "mtimeNs": 1793213499850162000
+    },
+    "world-draft/npc portraits/Rento Tobari.png": {
+      "size": 2853988,
+      "sha256": "c29e1593ec794417c03ecb1e9b62cc81b3bea92ca7ce40b2f32004c7b2aaca13",
+      "mtimeNs": 1793237208050534400
+    },
+    "world-draft/npc portraits/Rovakthuun.png": {
+      "size": 3134093,
+      "sha256": "9b45673051caff39eb643a6659e617c2b4e59e766cc665cbf90517d213864bde",
+      "mtimeNs": 1793213905739865500
+    },
+    "world-draft/npc portraits/Ryōichi Naruse.png": {
+      "size": 2458425,
+      "sha256": "64d5ab461d64911e80fe52335474cc3dd02e4d119624c89c1ae4c8029c72c9a8",
+      "mtimeNs": 1793231229704382300
+    },
+    "world-draft/npc portraits/Ryōma Arashimine.png": {
+      "size": 2864050,
+      "sha256": "e3e3de638ccf2402f6b0a55d002f1ebcf5f2ad0670024bd270ee7fbc7bd6b1a8",
+      "mtimeNs": 1793212809689443800
+    },
+    "world-draft/npc portraits/Ryūka Marufuji.png": {
+      "size": 2476911,
+      "sha256": "9b6a69af96f5f60ad9d16154aadd66ff576899a00604c56b90f1da63d432581f",
+      "mtimeNs": 1793174587001931400
+    },
+    "world-draft/npc portraits/Sachie Handa.png": {
+      "size": 2732681,
+      "sha256": "e0a757e7c9f463d1e6d8cd4b86b3635e8b9203b057bb9e02b80087c52f8c5e11",
+      "mtimeNs": 1793215164390059600
+    },
+    "world-draft/npc portraits/Sae Takasago.png": {
+      "size": 2305090,
+      "sha256": "db7a35a9c32b5b3a73702a8e8dbf86ee300fd706d776f836b63fefa4e07a9834",
+      "mtimeNs": 1793195302698095400
+    },
+    "world-draft/npc portraits/Saeha Kogetsu.png": {
+      "size": 2746281,
+      "sha256": "e64ee7e1288159c0a88b120c6a4fe0ec3300d7182de4d1c5abffb78ed2cb735b",
+      "mtimeNs": 1793213829834303200
+    },
+    "world-draft/npc portraits/Sakuya Tomonari.png": {
+      "size": 2630863,
+      "sha256": "56776c40d8a13818ba639a8baf268195e29cb558df8e1dc9e949aad1acd62318",
+      "mtimeNs": 1793237128256804300
+    },
+    "world-draft/npc portraits/Seika Amatsune.png": {
+      "size": 2530754,
+      "sha256": "427d95a2b1ef1b5bf1771f777cefc162db733510e5f10c76d5a4c8e5f22028d8",
+      "mtimeNs": 1793212882551444100
+    },
+    "world-draft/npc portraits/Seiran Yukitsugu.png": {
+      "size": 2756937,
+      "sha256": "2433eb0586276c5743f9cde2f0ccd03aaaf56473500593fa18f0400d757eafdf",
+      "mtimeNs": 1793196542468216600
+    },
+    "world-draft/npc portraits/Setsuna Takigawa.png": {
+      "size": 2428084,
+      "sha256": "728f7f395a0f37addb7a5e5507e88471a58e69a5c6c5a11c2e8541c7ad19b159",
+      "mtimeNs": 1793215500489594700
+    },
+    "world-draft/npc portraits/Shigemori Abe.png": {
+      "size": 2649495,
+      "sha256": "07964f2e0f6fd61a75a1cf88cfb82653063b7652a7f42e6e02e195e0779e7086",
+      "mtimeNs": 1793216439850406800
+    },
+    "world-draft/npc portraits/Shino Kazamaki.png": {
+      "size": 3035576,
+      "sha256": "fe252f2491880a69c1eb48637a899ac76c1a8676f1469e94b9d334cd6c62acec",
+      "mtimeNs": 1793215576960637100
+    },
+    "world-draft/npc portraits/Shion Kurobane.png": {
+      "size": 2521889,
+      "sha256": "8708197422e100444f489939fffcaef4d9d456ce68cbe8a3c788ddbabb1f0df7",
+      "mtimeNs": 1793196446630176700
+    },
+    "world-draft/npc portraits/Shūgo Katase.png": {
+      "size": 2845309,
+      "sha256": "a44175454a89311633901598e55148d6a6f01c4a53aa43937582289924081a25",
+      "mtimeNs": 1793444914525382500
+    },
+    "world-draft/npc portraits/Shūgo Shibane.png": {
+      "size": 2897983,
+      "sha256": "26281c2188c01c14a333ad68ae3413a781cca76cbcbf563c1289704eb9efd7c0",
+      "mtimeNs": 1793237372840787000
+    },
+    "world-draft/npc portraits/Shūhei Iwatsugu.png": {
+      "size": 2724663,
+      "sha256": "2f96bbd3b71e39e5c9e3ffa120fc1c949883b09e93363bfe01fce65611f70943",
+      "mtimeNs": 1793211035825996200
+    },
+    "world-draft/npc portraits/Suzune Hanekawa.png": {
+      "size": 2418884,
+      "sha256": "01e97f121f6134ce597d80e2b3eba1a130f98459348c8e1de5d2a1b747e6ae6d",
+      "mtimeNs": 1793216246166435800
+    },
+    "world-draft/npc portraits/Tadashi Morishige.png": {
+      "size": 2753247,
+      "sha256": "797e9f0251942203ee1bf98664858b59d89a1057145f0938d706c9a978802a78",
+      "mtimeNs": 1793195512394695900
+    },
+    "world-draft/npc portraits/Takumi Hasebe.png": {
+      "size": 2520195,
+      "sha256": "b4bc26f8aa91f44c31f135483a07849adb5b45b3a0a102e99d9f98eb85878721",
+      "mtimeNs": 1793215839715111300
+    },
+    "world-draft/npc portraits/Tamaki Naruse.png": {
+      "size": 2410718,
+      "sha256": "8f54f05c86366e36f51b740cfcd721cdc5c47d54d6e0dc98f1e366736ac9fa9c",
+      "mtimeNs": 1793216394250510400
+    },
+    "world-draft/npc portraits/Tetsuya Samejima.png": {
+      "size": 2603461,
+      "sha256": "3fc3d9d31b6d19931d03bc180a9f2cbaaac07876b6d7d6af7dafa62dd26dc5cb",
+      "mtimeNs": 1793214325733343900
+    },
+    "world-draft/npc portraits/Tobio Hanekawa.png": {
+      "size": 2470741,
+      "sha256": "f538bbb7642edecd10ce6418eddeb237047058b18b7536d9cc4f224a1c0266ac",
+      "mtimeNs": 1793445046797372200
+    },
+    "world-draft/npc portraits/Toki Toyama.png": {
+      "size": 2680442,
+      "sha256": "4348c4bc20dee63d5497b9cfee7a167e88ecca7c40616ec6ababe1c7a1a5849a",
+      "mtimeNs": 1793231206955042700
+    },
+    "world-draft/npc portraits/Tomoe Arashimine.png": {
+      "size": 2578797,
+      "sha256": "708304836a662f264ecaf46497d7b7decdc38411ea3f82e30104ca06e170f796",
+      "mtimeNs": 1793212156151636300
+    },
+    "world-draft/npc portraits/Tomoe Hoshizaki.png": {
+      "size": 2357517,
+      "sha256": "d9b824121266932cdf05e13091de4ae7f99eae71063236e0bb07963c4ad1b9a5",
+      "mtimeNs": 1793196008867999500
+    },
+    "world-draft/npc portraits/Tsubaki Iwatsugu.png": {
+      "size": 2589501,
+      "sha256": "703cb9916d38c1bbaed578d0408dd202729dbab0f1a3071f0c07ce45bbd01e5d",
+      "mtimeNs": 1793210988545628800
+    },
+    "world-draft/npc portraits/Tsugumi Arata.png": {
+      "size": 2803083,
+      "sha256": "f153d59d1dcbc268776995ddd4cd19adc602d16123e089acf2458a1320cf7d76",
+      "mtimeNs": 1793215953595262400
+    },
+    "world-draft/npc portraits/Uta Fumizawa.png": {
+      "size": 2845798,
+      "sha256": "a02318f0b4a5b5811fc52115390b153286fab588e9bcdb2e9f9d0c6c39c4770a",
+      "mtimeNs": 1793216466442403300
+    },
+    "world-draft/npc portraits/Yoriko Tsumura.png": {
+      "size": 2604487,
+      "sha256": "e7f1afdf7604452586c3f47b619b8dcda3f16ab8dc4633838e4a7d9611d9433a",
+      "mtimeNs": 1793215911666680900
+    },
+    "world-draft/npc portraits/Yuzuri Takase.png": {
+      "size": 2747995,
+      "sha256": "297dba6e3be58b2d9da45075125b0e63223823676c29eb749bffa65c0f287752",
+      "mtimeNs": 1793237002192829900
+    },
+    "world-draft/npc portraits/Yūsuke Ebina.png": {
+      "size": 2667896,
+      "sha256": "2747dcedbf4565ff295526ae4fe03dbf894343a5cde136b0073912496a086a07",
+      "mtimeNs": 1793214554095217400
+    },
+    "world-draft/location images/Adventurer's Guild - Glowhaven Branch.png": {
+      "size": 2709750,
+      "sha256": "9177fc05c5be09999f20376e44573b556847b92a01255001e2d1cc913ac3a07a",
+      "mtimeNs": 1793192250916640700
+    },
+    "world-draft/location images/Asterveil 2026-10-29/01-cloudbloom-landing.png": {
+      "size": 3213300,
+      "sha256": "5b32104d5337e7bc18e68712bd29d10587f5360de49a7e9eafa99b3812820cb8",
+      "mtimeNs": 1793250698827889700
+    },
+    "world-draft/location images/Asterveil 2026-10-29/02-asterveil-canopy.png": {
+      "size": 3688955,
+      "sha256": "1b5996771ebc53e274387a74fb9fa60d1c5b68e61f55755b1824fd268c181e77",
+      "mtimeNs": 1793250753186844900
+    },
+    "world-draft/location images/Asterveil 2026-10-29/03-bellwind-conservatory-v2.png": {
+      "size": 3516415,
+      "sha256": "f0859e7777d14fc1c640f7ce4bf791dba43f7269310cadc8a3751fd7fa1b620d",
+      "mtimeNs": 1793252464948026500
+    },
+    "world-draft/location images/Asterveil 2026-10-29/04-mythwing-meadows.png": {
+      "size": 3596124,
+      "sha256": "26cc466eb7f1855029ea7c0f3b6789135c50571d02076d5ff51785f659d186e5",
+      "mtimeNs": 1793250883547857000
+    },
+    "world-draft/location images/Asterveil 2026-10-29/05-broken-halo-ruins.png": {
+      "size": 3543198,
+      "sha256": "cee44ce4e7bf834a4fdb0f2e72b49bd26e83bac3c27e03c677613feb962d02c2",
+      "mtimeNs": 1793251027947081700
+    },
+    "world-draft/location images/Asterveil 2026-10-29/06-sunspill-woodland.png": {
+      "size": 3584830,
+      "sha256": "eaf83ea1969e525e1ea2f21e8ccafcdb29469307a0390058314e9160c5f965f9",
+      "mtimeNs": 1793251050644817100
+    },
+    "world-draft/location images/Asterveil 2026-10-29/07-petalwash-terraces.png": {
+      "size": 3818420,
+      "sha256": "57549c7ff1954a2b52327c6dcf7201f553d3d2042c4b59c48441b9e5789e5e3d",
+      "mtimeNs": 1793251081594262500
+    },
+    "world-draft/location images/Asterveil 2026-10-29/08-tetherroot-chain.png": {
+      "size": 3232893,
+      "sha256": "30d008079d417e39fb7522063ec108db05c60b4273ea602e4e30524b89a6f7b5",
+      "mtimeNs": 1793251112774372700
+    },
+    "world-draft/location images/Asterveil 2026-10-29/09-dewglass-hollows.png": {
+      "size": 3633283,
+      "sha256": "860684dc1bae20349092d738514e43f96bc4012b816f24b323952e37d82fc410",
+      "mtimeNs": 1793251225177852700
+    },
+    "world-draft/location images/Asterveil 2026-10-29/10-rimeglass-refuge.png": {
+      "size": 3367599,
+      "sha256": "37830ba243e185a9d215d8b324365f26c63521367ea16168b7ca69f4e64fe7cd",
+      "mtimeNs": 1793251277058343500
+    },
+    "world-draft/location images/Asterveil 2026-10-29/11-frostbell-pines.png": {
+      "size": 3647552,
+      "sha256": "79e8485f213799d2bff509bb66e6802bacb5eb41834409a2a1d6dc9af6bd2169",
+      "mtimeNs": 1793251300768649000
+    },
+    "world-draft/location images/Asterveil 2026-10-29/12-rimeglass-crown.png": {
+      "size": 3254577,
+      "sha256": "83d783e7250de3a0365d4f6ff2a8e642da1a3e8714407a65b681e60255a9ca28",
+      "mtimeNs": 1793251330228748000
+    },
+    "world-draft/location images/Asterveil 2026-10-29/13-thunderwake-crags.png": {
+      "size": 3135103,
+      "sha256": "a0399fe6c5fc42ed5f2eb1aab4f92769c0cfbfe77de17a4b874d426899b824a8",
+      "mtimeNs": 1793251436695661600
+    },
+    "world-draft/location images/Asterveil 2026-10-29/14-hollow-snow-vault.png": {
+      "size": 3109145,
+      "sha256": "dab8f242774c7551021b8613fceb361f4e7b03cf60bb9e5d88f1c87f7353c7bc",
+      "mtimeNs": 1793251476174384100
+    },
+    "world-draft/location images/Asterveil 2026-10-29/15-reedglass-anchorage.png": {
+      "size": 3538886,
+      "sha256": "8c681c227dae9881a1e1699de5ef5402c1b20db6c31184263dd7fa173abc9a73",
+      "mtimeNs": 1793251517789618600
+    },
+    "world-draft/location images/Asterveil 2026-10-29/16-mirrorwater-basin.png": {
+      "size": 3539519,
+      "sha256": "502424fa943318274790ea0e8ff0a1263b4edbf90d6823f49b25451b8cf1dbc2",
+      "mtimeNs": 1793251545250546800
+    },
+    "world-draft/location images/Asterveil 2026-10-29/17-glassreed-labyrinth.png": {
+      "size": 3535628,
+      "sha256": "45d6529bc81855feb40c0dfb462cece00650cb2d3978d3fa759fe982512a5113",
+      "mtimeNs": 1793251663214463000
+    },
+    "world-draft/location images/Asterveil 2026-10-29/18-spillway-steps.png": {
+      "size": 3477979,
+      "sha256": "bd14df39e5c2ed053d82a1326c67b111530b90823583dfcea60ee9cc3658d4d3",
+      "mtimeNs": 1793251687126000200
+    },
+    "world-draft/location images/Asterveil 2026-10-29/19-lanternmire-islets.png": {
+      "size": 3247964,
+      "sha256": "ac42d8d9dac61fee49806e54b26dd52ffb4423f6c3d10aaa60d412e1d78b8f63",
+      "mtimeNs": 1793251717473516000
+    },
+    "world-draft/location images/Asterveil 2026-10-29/20-drowned-orrery.png": {
+      "size": 3495785,
+      "sha256": "41814491efeda7cc61ebcbf6a5787f6a6f9148bb7071502a19e252eda3d105d7",
+      "mtimeNs": 1793251749309525100
+    },
+    "world-draft/location images/Asterveil 2026-10-29/21-undertow-hollows.png": {
+      "size": 3448755,
+      "sha256": "5e5cb0de8f6bd09c03614ce9460cbe054db5bc7ceec911b616279695fa301f3f",
+      "mtimeNs": 1793251900269196000
+    },
+    "world-draft/location images/Asterveil 2026-10-29/22-heatherwatch-shelf.png": {
+      "size": 3370371,
+      "sha256": "d916a69cdb68cd632010932a8259ea372f9eeb5432d7dcc274e44d5194af94ec",
+      "mtimeNs": 1793251974492844600
+    },
+    "world-draft/location images/Asterveil 2026-10-29/23-mauvewind-steppe.png": {
+      "size": 3797511,
+      "sha256": "12dbd107fc368a0e075fe731e48ae20f9e359d2851964b0bf9c205b496f9a14a",
+      "mtimeNs": 1793251997047762700
+    },
+    "world-draft/location images/Asterveil 2026-10-29/24-singing-stone-spines.png": {
+      "size": 3662602,
+      "sha256": "c51defa28dab8cffc5ca2480a1971abe03bef2eac43b186e3eb55aaa8424dd41",
+      "mtimeNs": 1793252024912937800
+    },
+    "world-draft/location images/Asterveil 2026-10-29/25-prismbloom-basin.png": {
+      "size": 3713871,
+      "sha256": "74d4b126438a6e3e07320f3621e100a7d98e94084fa3ed4bc1ac2883af875e40",
+      "mtimeNs": 1793252132297999400
+    },
+    "world-draft/location images/Asterveil 2026-10-29/26-crownfall-chasm.png": {
+      "size": 3431377,
+      "sha256": "7005a0cf463cf697add89c079cf4678818947ef77a4ecf70bc8f815c590f74e1",
+      "mtimeNs": 1793252161821062000
+    },
+    "world-draft/location images/Asterveil 2026-10-29/27-stillstar-sanctum-v2.png": {
+      "size": 3151552,
+      "sha256": "81e7b02d219f2d4bb4c6b841b3140c7290f0c2a1ea0da68f69652fc39623708e",
+      "mtimeNs": 1793252538457479900
+    },
+    "world-draft/location images/Asterveil 2026-10-29/28-the-inverted-crown-v2.png": {
+      "size": 2907007,
+      "sha256": "c3eba647294d217951dcf72022437572582f22457c48a3bf8fa68d6e5115f74f",
+      "mtimeNs": 1793252570260971000
+    },
+    "world-draft/location images/Blackstone Smithy/blackstone-smithy-location-pilot.png": {
+      "size": 2521906,
+      "sha256": "7202158b65df8587a38b5f7bfddebda847f4067f54ff0f775e4280ec36845c3f",
+      "mtimeNs": 1793031676714543800
+    },
+    "world-draft/location images/Bramble & Bottle/bramble-and-bottle-location-pilot.png": {
+      "size": 2935440,
+      "sha256": "bf71d72ece5d97e80a7842686e8f4d8f6c0812f446389ab15425f383679abc42",
+      "mtimeNs": 1793031628668413300
+    },
+    "world-draft/location images/Briarcrest Manor/briarcrest-manor-location.png": {
+      "size": 3512994,
+      "sha256": "fcb1bc9d877a9b0e506ac6dd3a2758598fdc81de90b66ae2be4fbad97e02e2fc",
+      "mtimeNs": 1793035465705007900
+    },
+    "world-draft/location images/Cloud District/cloud-district-location-v2.png": {
+      "size": 3022978,
+      "sha256": "c8e0c270a413e25b8649e9e383902e448bba5fc0c10941b89ef181ba96ae3ab7",
+      "mtimeNs": 1793035114753481000
+    },
+    "world-draft/location images/Cloud District/cloud-district-location.png": {
+      "size": 3203983,
+      "sha256": "04b5c53dc3b00f33d0c12e5964daf656ea083ea253ac0793e26ebf785c4986d0",
+      "mtimeNs": 1793034709258711800
+    },
+    "world-draft/location images/Crooked Tankard/crooked-tankard-location.png": {
+      "size": 2873005,
+      "sha256": "df3f0d7cedde3d74e9aee438bd27ffd2b795024e70375044f8ca466d52a5cb21",
+      "mtimeNs": 1793034031302235200
+    },
+    "world-draft/location images/Dragon Hoard Academy/dragon-hoard-academy-arrival-gallery-v2.png": {
+      "size": 2978908,
+      "sha256": "4ee1d7afe5334c39e9cc7c76dd6da055a0b406ad67ec82688ca54926dbda27c8",
+      "mtimeNs": 1793013453840145400
+    },
+    "world-draft/location images/Dragon Hoard Academy/dragon-hoard-academy-discovery-labs-v2.png": {
+      "size": 2787609,
+      "sha256": "cd78979f8781fb94845136858d1feadbff06c242d00b98b52a584249cbfc3b16",
+      "mtimeNs": 1793013899038289400
+    },
+    "world-draft/location images/Dragon Hoard Academy/dragon-hoard-academy-exhibition-hall-v2.png": {
+      "size": 2785871,
+      "sha256": "5fdd1713ad1e4c57d8c6297cf0d6ee9067f7d83a4f898a6986f2338dc7f4e847",
+      "mtimeNs": 1793013572476869800
+    },
+    "world-draft/location images/Dragon Hoard Academy/dragon-hoard-academy-lecture-studio-v2.png": {
+      "size": 2365034,
+      "sha256": "c4245c4e8ce41504dc2049107e03723f171802f6ce2207cb328b1a3879101c80",
+      "mtimeNs": 1793014016836591000
+    },
+    "world-draft/location images/Dragon Hoard Academy/dragon-hoard-academy-location-v2.png": {
+      "size": 3460731,
+      "sha256": "ec5c5cfa128669d71e3df86d44a675b4e4c7a821a1f1c54ecf934380bc0bc8c2",
+      "mtimeNs": 1793013746843448700
+    },
+    "world-draft/location images/Dragon Hoard Academy/dragon-hoard-academy-observatory-v2.png": {
+      "size": 2827986,
+      "sha256": "5f48575cba48abd7d3eecc5754ddbfa496dfb1c16a9902b8959c2f048e979812",
+      "mtimeNs": 1793013977012919800
+    },
+    "world-draft/location images/Dragon Hoard Academy/dragon-hoard-academy-quiet-gallery-v2.png": {
+      "size": 2597075,
+      "sha256": "00d8cb225a85ef2fa24e9a89dd92e2cf1615ff6cb1064f40abdfaaf47fcbf7d2",
+      "mtimeNs": 1793014123996997100
+    },
+    "world-draft/location images/Dragon Hoard Academy/dragon-hoard-academy-student-commons-v2.png": {
+      "size": 2600172,
+      "sha256": "f0f489a83c8323462ad879a4b6077505ca310a6422954ee940db9f9f021010f9",
+      "mtimeNs": 1793014239612317300
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/01-drakenspire-portals.png": {
+      "size": 3221866,
+      "sha256": "d774e9944c6c6b7ddc9f7f83efd1d3b871b74e4a7ed723d08822cdac3965a9bf",
+      "mtimeNs": 1793232297224983100
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/02-embersteel-foundries.png": {
+      "size": 3177822,
+      "sha256": "b326a53215c1c3b92becca9b50caa7d5d2e8a17586717c4891e7190d78a3749b",
+      "mtimeNs": 1793232391600249100
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/03-stonefang-training-grounds.png": {
+      "size": 3081909,
+      "sha256": "0d6991a9492d2790c4f8b43de5d529db6da465522fcb458ba57ba8910e49f73a",
+      "mtimeNs": 1793232341288776200
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/04-whitepass-caravan-lodge.png": {
+      "size": 2941774,
+      "sha256": "a9388e6ddad080987f3c50ac4d9420ab5a1175a425166088fee6dfc5406a807a",
+      "mtimeNs": 1793232555191598300
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/05-rimecrest-trail-v2.png": {
+      "size": 3088637,
+      "sha256": "de917c2dd9f15710c11917172439918d9923ffacba5a54d38576c4144777abc2",
+      "mtimeNs": 1793232854638795200
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/06-crescent-crown-fortress-v2.png": {
+      "size": 3556258,
+      "sha256": "cf94b92fff483b0bd6219ead243df4c9bd7618c72465d5c8e5a4872e38c6dc91",
+      "mtimeNs": 1793232897436174000
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/07-the-ancestors-crescent.png": {
+      "size": 3768033,
+      "sha256": "92cd378d4d0fbb824ed9c65169143581c03656224d1b372bd18a63292e276e39",
+      "mtimeNs": 1793233075962215300
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/08-the-jarls-hall.png": {
+      "size": 2898703,
+      "sha256": "579461a478a6cd0c39870bf9bd33493361567e02904ef6f3766a1b5f36973efe",
+      "mtimeNs": 1793233033275117300
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/09-clans-assembly-house.png": {
+      "size": 2801504,
+      "sha256": "ef042e84f7212bbfe1dd519b2f948c8d3ba35c87ce9194c54997f0ce6aa28e2f",
+      "mtimeNs": 1793233103815460500
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/10-crescent-sanctuary.png": {
+      "size": 2789051,
+      "sha256": "497dcca3f7402a5c8477ba64244514db9180438b55dbc160bb595c458c037010",
+      "mtimeNs": 1793233287398432100
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/11-ancestor-cairn-terrace.png": {
+      "size": 3239799,
+      "sha256": "cd2bc42b5a88e2f90fb534b7248f62e659b556061d7f85f535fac10b100e44f2",
+      "mtimeNs": 1793233333532189100
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/12-high-rampart-gate.png": {
+      "size": 3399225,
+      "sha256": "1f03174aa207effbff1e29b0f7f820c99660bf2ee2636065d92f3ccd9718e75e",
+      "mtimeNs": 1793233383861116800
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/13-oathward-barracks.png": {
+      "size": 3210685,
+      "sha256": "5dd85858715569df9909da87fdc014e93174a364cd01329d3ba8789aabe98e53",
+      "mtimeNs": 1793233764136083900
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/14-dragonwatch-balcony.png": {
+      "size": 3152652,
+      "sha256": "67d079e13865b2fcf2a5e938f4cacf08bcef466d54914e1acfd045a33d2636c0",
+      "mtimeNs": 1793233848514344100
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/15-founders-processional-way.png": {
+      "size": 3291990,
+      "sha256": "e739ba3ae01450388cb274dcbc4e2c2e02d4c4b7ee9bf9ae060228e1b06a75f0",
+      "mtimeNs": 1793233895839749200
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/16-hearthmarket-square-v2-v2.png": {
+      "size": 3175682,
+      "sha256": "02beaf92b4607f78db0344213baa51bc5f67030702b51ed695cd8780af32ade3",
+      "mtimeNs": 1793237816787617200
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/17-snowmelt-residential-steps.png": {
+      "size": 3521053,
+      "sha256": "ae0148c614bb266dee69f8d793f1b70378e514da4c66b45567ee58c9afc4594a",
+      "mtimeNs": 1793234167417059100
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/18-cinderstone-schoolhouse.png": {
+      "size": 2846471,
+      "sha256": "1ad92374ffc50cbbc9872ea9f1234f18d8d34ebabd0a100ca4b22564c8cffe1d",
+      "mtimeNs": 1793234247062911800
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/19-lower-hold-gate.png": {
+      "size": 3490327,
+      "sha256": "202ea68c63079c02323cc8d2038d92d5b0038107696f5c0c79d9c7a58b92b333",
+      "mtimeNs": 1793234287585860600
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/20-iwatsugu-clanhold.png": {
+      "size": 3470711,
+      "sha256": "59038deffb6b9ee437b7bd18a4ea41005836aed17a20579a1ff68c7a9846ed5c",
+      "mtimeNs": 1793234350570908400
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/21-yukinose-clanhold.png": {
+      "size": 3079959,
+      "sha256": "017bd55be3c24994fe05f7d6027bdb3b43353c1ea2f1d2300e54ccd4b05f74f6",
+      "mtimeNs": 1793234565223730800
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/22-arashimine-clanhold.png": {
+      "size": 3204807,
+      "sha256": "1d70e991027db540ea42ad5f4893f0d94c7272e975403bd67a2201fca86d4c5b",
+      "mtimeNs": 1793234630855500600
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/23-the-holds-judgment-house.png": {
+      "size": 2789187,
+      "sha256": "3edcf0848bac12d034fd09509a8a86d9bf8396326acf22a6796f0823fe37b525",
+      "mtimeNs": 1793234677989552800
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/24-the-tempered-fang.png": {
+      "size": 2995766,
+      "sha256": "78e6c48cfdd9e15fb6ff1ecb7ae6578aecc0cb6b48afdd3c01f024f05db97c22",
+      "mtimeNs": 1793234729028295300
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/25-rivet-and-rime-armory.png": {
+      "size": 3136449,
+      "sha256": "1f43d7c1fee7f54d98aef5ad94cf8cd06b990134b9dd2992c821406a75e9a5e2",
+      "mtimeNs": 1793234946006572700
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/26-the-woolen-wyvern-v2-v2.png": {
+      "size": 2953094,
+      "sha256": "2e1f6aca64337125aa36774c1220577ae7ce0748594fd38fded946cfeb6d53c3",
+      "mtimeNs": 1793237775866999600
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/27-coppercrest-exchange-v2-v2.png": {
+      "size": 2786085,
+      "sha256": "9e4deef57158e24ae7768dbae4fb24fb9ca1e34a1b9f465ec35da8f719f3ad7b",
+      "mtimeNs": 1793237858866213300
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/28-amberglass-assay-house.png": {
+      "size": 3028730,
+      "sha256": "de75e08f1d048ee5aa28a1d75b4c40d2725c084428d0063e30d5425804b9ce4f",
+      "mtimeNs": 1793235148068643900
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/29-crystalcutters-court.png": {
+      "size": 3197799,
+      "sha256": "6fa8afe20e9db7ff21abfd828539dbda04878c61e73edd5a182851b1224dc8d6",
+      "mtimeNs": 1793235372184892200
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/30-resin-and-root-apothecary.png": {
+      "size": 3142760,
+      "sha256": "19133386e7acc8695a93434d9f0a2db4e7bdd03c2b618b6bfe87057042e22de4",
+      "mtimeNs": 1793235431092220000
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/31-snowchain-freight-yard.png": {
+      "size": 3468065,
+      "sha256": "4dfac86362d7c580b200716fc25462911cde8238d142d994f2fb05be4de8e0a5",
+      "mtimeNs": 1793235475464232900
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/32-the-copper-ram.png": {
+      "size": 2790535,
+      "sha256": "4c3053b9c7f9076a168e930af4a34e045c8f6a20d95b33eb70e8cd97b480f7d0",
+      "mtimeNs": 1793235563201613400
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/33-hearthpot-stew-house.png": {
+      "size": 2976198,
+      "sha256": "2804dccab224e5db41cf055eeb41ab689aba34d71496b3959358bb155a2d42c3",
+      "mtimeNs": 1793235758424758700
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/34-stonewake-onsen.png": {
+      "size": 3320286,
+      "sha256": "6eeb16b880debbfdc689890ea975300aefcea8ba18d2d14f3506fd46e97965cc",
+      "mtimeNs": 1793235800301048800
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/35-snowbell-playhouse.png": {
+      "size": 2889478,
+      "sha256": "27fe2152dc3681134f565d0b9811fc41942a2be4f2661377b2b7aa5ac22e34ed",
+      "mtimeNs": 1793235829128807800
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/36-the-cinder-pit.png": {
+      "size": 3066642,
+      "sha256": "6e43511e76e4b88987e0f3dc63d3421238297ebb456f5359b05e6c025c39362a",
+      "mtimeNs": 1793235887888282500
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/37-deepwell-waterworks.png": {
+      "size": 3094242,
+      "sha256": "2c1cb3ac427a7ad434aeba75101e9376adb07e29048b200e6dbeb5c4473ad440",
+      "mtimeNs": 1793236100463425200
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/38-hoofstep-pens.png": {
+      "size": 3362491,
+      "sha256": "341bdc1b3b37f39e7aa6cc1a36eb84af841b54352777227c297214c411a4b82c",
+      "mtimeNs": 1793236142518507300
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/39-woolridge-pastures.png": {
+      "size": 3607124,
+      "sha256": "b059ad9f818f2fdc3f033ebf00b323533096eaa00a2aa05ecc84b991aa56a3ac",
+      "mtimeNs": 1793236189507748500
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/40-winter-stores.png": {
+      "size": 3395198,
+      "sha256": "b32987d2ac8fa368f424b7eecfe1b9ac2e02ddf7c6be39a95bee7d84adb6a55f",
+      "mtimeNs": 1793236251590700900
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/41-whitepass-watchpost.png": {
+      "size": 3216093,
+      "sha256": "be88653d667742a3e4f10c89904d0b5834d94fa6539cc8dc6c3fabe6172838a6",
+      "mtimeNs": 1793236394658911000
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/42-goatstep-hamlet-v2-v2.png": {
+      "size": 3178835,
+      "sha256": "02be9c55ce7522f3f5cb2fe4b0389059a033b49c579a993657237e32a8dd8896",
+      "mtimeNs": 1793237896941407400
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/43-pinefold-hollow.png": {
+      "size": 3620601,
+      "sha256": "785cb04837681c442563753f4887edbdc28d1dec21c69f122c3ad328e49d032e",
+      "mtimeNs": 1793236568690932500
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/44-glassmere-basin.png": {
+      "size": 3381961,
+      "sha256": "5ff72d6e39674cc751216bf07c17dd132742e382d67bd6499468072043036f77",
+      "mtimeNs": 1793236544652977700
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/45-redvein-mine.png": {
+      "size": 3656678,
+      "sha256": "dc3b1de16fc066358de72fec930538adcfe8813432636a56a6e76ef2fd74837f",
+      "mtimeNs": 1793236978183029300
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/46-lanternamber-caverns.png": {
+      "size": 3325982,
+      "sha256": "61c4961ce03174a30e3525c011f8c4dbddd75e46a8d41610bc50c8eb3803814a",
+      "mtimeNs": 1793237028720395000
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/47-the-abandoned-chainworks-v2.png": {
+      "size": 3249075,
+      "sha256": "d2ac552ed0b143ab5ef2f813bd131d5c096b7523ad8572daef56506c8113c2ac",
+      "mtimeNs": 1793237969076133100
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/48-old-hearthfall.png": {
+      "size": 3765587,
+      "sha256": "72776e7fd34ae204ad30f8ced86356f602893cc546706b8e440cb5317c74ae9d",
+      "mtimeNs": 1793237171919389500
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/49-frostback-mountain.png": {
+      "size": 3067975,
+      "sha256": "9997eecc1d59610b9ae021b7fca8b62758d6d53d9bb9f98bc7d4ea5d0128c977",
+      "mtimeNs": 1793237191247356200
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/50-the-buried-switchback.png": {
+      "size": 3128026,
+      "sha256": "03bea0529427b3eb063e22ed7656e5ab5a2949aa425274f7a5f7fcca761b5db3",
+      "mtimeNs": 1793237219220286600
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/51-skreek-crags.png": {
+      "size": 3244310,
+      "sha256": "f1eb0594054a4868ec4f731a038959c05f513d4be75c07f8e1cd35c878645f51",
+      "mtimeNs": 1793237282935056000
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/52-giants-hollow.png": {
+      "size": 3399223,
+      "sha256": "ddcadc753a392fa62433a6d87d235340c92624f89e07945ba934e39b4c5b26b3",
+      "mtimeNs": 1793237307402363600
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/53-the-white-silence.png": {
+      "size": 2751895,
+      "sha256": "fff45ae561056a1bd8679a7ca48027f2a07497908bdee3b3d9dcc5b53e59410b",
+      "mtimeNs": 1793237339859258000
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/54-stormscar-observatory.png": {
+      "size": 3134108,
+      "sha256": "72e534c06d7b9d3075e4144f51ac6fdb0d6dd7d437f2647803d54066ef621904",
+      "mtimeNs": 1793237425744630900
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/55-first-shelter-ruins-v2.png": {
+      "size": 3172441,
+      "sha256": "6f4a129eadbddafdcb164fbf0861d6f5d71f60be0bc49109e0c1ca45d07b6017",
+      "mtimeNs": 1793238008893952100
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/56-the-old-offering-steps-v2.png": {
+      "size": 3233679,
+      "sha256": "4d2b2c50fd8915fc3de1ded8bb11597c82bd919bedd53ca4a0c6bc4d9a854ca0",
+      "mtimeNs": 1793238051498041100
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/57-coldglass-galleries.png": {
+      "size": 3366927,
+      "sha256": "1afc9c35114ffc6c782234e894ac3596b7a942ac3074554e43092d5cabdb7488",
+      "mtimeNs": 1793237579806169600
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/58-the-fallen-pass-shrine-v2.png": {
+      "size": 3125540,
+      "sha256": "57fb371a7cc6e170a527a9029d28f4e8f854c09a472b59c384d6535daf01ec9e",
+      "mtimeNs": 1793238103339856600
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/59-rimefang-ravine.png": {
+      "size": 3314613,
+      "sha256": "5ba014f3915fe9c409b3edeaaafae8cb1abd181b1564a28fe4e37e7d3408b49e",
+      "mtimeNs": 1793237637320797900
+    },
+    "world-draft/location images/East Greyfield/east-greyfield-location.png": {
+      "size": 2907828,
+      "sha256": "bb3b7f2afe7fd5a8142a2755e2e2ea36b5449dcc0cacc31acc704863691d766d",
+      "mtimeNs": 1793034768783768300
+    },
+    "world-draft/location images/Eastbloom Residences/eastbloom-residences-location.png": {
+      "size": 3207035,
+      "sha256": "521fcf4a2eb634f8ea3afabfc08500a772200dcb6facafa719c742b4da5ee5c2",
+      "mtimeNs": 1793035220483195700
+    },
+    "world-draft/location images/Evertree Base/evertree-base-location.png": {
+      "size": 3540778,
+      "sha256": "6a9fc238859e8062ad2f382bb93eaa688aeab702f424c72c620847a5881bc474",
+      "mtimeNs": 1793037010170937300
+    },
+    "world-draft/location images/Four Sages Bazaar/four-sages-bazaar-four-sages-fountain-pilot-v1.png": {
+      "size": 3226285,
+      "sha256": "8b68a2c38ec07e5450838dadbc2822efc61b59910fcf058b3617be351ab8f0d8",
+      "mtimeNs": 1793028581951569700
+    },
+    "world-draft/location images/Four Sages Bazaar/four-sages-bazaar-four-sages-fountain-pilot-v2.png": {
+      "size": 3039210,
+      "sha256": "9bbd6a22e3ec2c451f74f9c8626addcdab0598fc026ca38759e66e3cc5b22742",
+      "mtimeNs": 1793028860923142500
+    },
+    "world-draft/location images/Four Sages Bazaar/four-sages-bazaar-four-sages-fountain-pilot-v3.png": {
+      "size": 3419435,
+      "sha256": "b4d42b92337df3d09d45afd6adac2c2cc0db0ee3aa51a263943e56b04c7e7c32",
+      "mtimeNs": 1793029300535554100
+    },
+    "world-draft/location images/Four Sages Bazaar/four-sages-bazaar-location-pilot-v1.png": {
+      "size": 3432980,
+      "sha256": "6ac15a27dbfb0a3a8c17b03e244fffa804ce8135a4d50cb62ac90f1cff9653e4",
+      "mtimeNs": 1793028547154096100
+    },
+    "world-draft/location images/Four Sages Bazaar/four-sages-bazaar-north-arcade-pilot-v1.png": {
+      "size": 2795738,
+      "sha256": "ef96c365315af06844ceeff614e5b5cf9ac4955ad0f2ea350f5255275cfa73f7",
+      "mtimeNs": 1793028665203990400
+    },
+    "world-draft/location images/Gryffin Tail Academy/gryffin-tail-academy-arrival-steps-pilot.png": {
+      "size": 2770557,
+      "sha256": "52c7272244724b8c8c0a97e76e127528027a533fe2fa116591c181b7441189ac",
+      "mtimeNs": 1793008042353562900
+    },
+    "world-draft/location images/Gryffin Tail Academy/gryffin-tail-academy-arrival-steps-v2.png": {
+      "size": 2976539,
+      "sha256": "48645fcf66266fa7f14261d445b910836bebd661c940109ff880f248699526e8",
+      "mtimeNs": 1793010480415661400
+    },
+    "world-draft/location images/Gryffin Tail Academy/gryffin-tail-academy-lecture-hall-pilot.png": {
+      "size": 2267238,
+      "sha256": "fefc5458b9da2e2ae0ade6224b900360965de497c634086ef981118902e5c03c",
+      "mtimeNs": 1793008509290240800
+    },
+    "world-draft/location images/Gryffin Tail Academy/gryffin-tail-academy-lecture-hall-v2.png": {
+      "size": 2756247,
+      "sha256": "b3a45f1d4ee2b4e6398e03b2c3a377560e9718fdefcc8301142e4e482cc5dc28",
+      "mtimeNs": 1793010866645905200
+    },
+    "world-draft/location images/Gryffin Tail Academy/gryffin-tail-academy-lecture-wing-pilot.png": {
+      "size": 2322024,
+      "sha256": "fd1bbbd59240ef94ecee1a84f7a8cdba9e7549fadbef77efadf05e650bf4433a",
+      "mtimeNs": 1793007944278174300
+    },
+    "world-draft/location images/Gryffin Tail Academy/gryffin-tail-academy-lecture-wing-v2.png": {
+      "size": 2760364,
+      "sha256": "823e9081175f690cc99ecdda1cec5cc3bbb9bac73a501253790c5af717123107",
+      "mtimeNs": 1793010536595650700
+    },
+    "world-draft/location images/Gryffin Tail Academy/gryffin-tail-academy-location-pilot.png": {
+      "size": 3058743,
+      "sha256": "d35fd7a548e206c689a948a91e7e079250e4efe2ce5b074dad7fea8d45c9ada7",
+      "mtimeNs": 1793007839464849400
+    },
+    "world-draft/location images/Gryffin Tail Academy/gryffin-tail-academy-location-v2.png": {
+      "size": 3472532,
+      "sha256": "cb96fe8dcb95052389cb5c8c76fe64bb02ca62f420c8e8d4b6882e884fb4d4d6",
+      "mtimeNs": 1793010760722277800
+    },
+    "world-draft/location images/Gryffin Tail Academy/gryffin-tail-academy-reading-garden-pilot.png": {
+      "size": 3027493,
+      "sha256": "c4313913fce20f05cfb8a96c04f5bf1e0293badf616de8d7e1683e0e8baed5c0",
+      "mtimeNs": 1793008353663266100
+    },
+    "world-draft/location images/Gryffin Tail Academy/gryffin-tail-academy-reading-garden-v2.png": {
+      "size": 3223204,
+      "sha256": "bbfc553bfce3a17f6bf2bb670dd5e81bdb3afe286edb60c5517d6d4de1bc50ce",
+      "mtimeNs": 1793011045047431700
+    },
+    "world-draft/location images/Gryffin Tail Academy/gryffin-tail-academy-research-rooms-pilot.png": {
+      "size": 2453633,
+      "sha256": "5ec99cc21b8b3366a0aba7eb3788e68ebf4a082befd78a4b726079866be22abb",
+      "mtimeNs": 1793008236198868500
+    },
+    "world-draft/location images/Gryffin Tail Academy/gryffin-tail-academy-research-rooms-v2.png": {
+      "size": 2725342,
+      "sha256": "f349fd6b799558a305011c1b4bc585ee13d42a1d3ef123cdc17be931c3247fa9",
+      "mtimeNs": 1793010982035387100
+    },
+    "world-draft/location images/Gryffin Tail Academy/gryffin-tail-academy-seminar-room-pilot.png": {
+      "size": 2356045,
+      "sha256": "b0965b185912f301e01a7e2842e8d66cc1af822231ec1778461c8cf7ef3a3755",
+      "mtimeNs": 1793008608480519600
+    },
+    "world-draft/location images/Gryffin Tail Academy/gryffin-tail-academy-seminar-room-v2.png": {
+      "size": 2517011,
+      "sha256": "4d060071067a76f9d6c8194c344d1ba6a0fd5b8d3f0acecd0b2c41ecdad60b58",
+      "mtimeNs": 1793010925716910900
+    },
+    "world-draft/location images/Hermit's hut/hermits-hut-location.png": {
+      "size": 3386572,
+      "sha256": "04c279f37f91d8ace53bf35ec2517a6d52e10689a8aa73fde7a34ae539b63efa",
+      "mtimeNs": 1793036923903338600
+    },
+    "world-draft/location images/Hide & Hammer/hide-and-hammer-location.png": {
+      "size": 2910714,
+      "sha256": "8584aecdd71ab48031ebe9696805e79a80906901e4a146000362ad22a3713e0a",
+      "mtimeNs": 1793033203477797600
+    },
+    "world-draft/location images/House Goldbarrow Estate/house-goldbarrow-estate-location.png": {
+      "size": 3378201,
+      "sha256": "15c8587310a9379eeb0a46c7b25e881df1e3a759b45fa46ae1db8d5c6f4b98f1",
+      "mtimeNs": 1793035392886416700
+    },
+    "world-draft/location images/Hydra Head Academy/hydra-head-academy-arrival-court-v2.png": {
+      "size": 3256659,
+      "sha256": "f86981820512bc8bc35af49daac2bbcc1bcd65b10d3bccc9265ce56b665bc540",
+      "mtimeNs": 1793011631263098100
+    },
+    "world-draft/location images/Hydra Head Academy/hydra-head-academy-confluence-hall-v2.png": {
+      "size": 2835861,
+      "sha256": "898199ceeb558be3991e552a6da6e9011032495585ed274d1fe8570761ce8051",
+      "mtimeNs": 1793011736222916800
+    },
+    "world-draft/location images/Hydra Head Academy/hydra-head-academy-garden-walk-v2.png": {
+      "size": 3138646,
+      "sha256": "08ba1c86dba4f8d2366f063aa363d6ba705586b1599c37c4653d1317b9561d42",
+      "mtimeNs": 1793012175470918000
+    },
+    "world-draft/location images/Hydra Head Academy/hydra-head-academy-location-v2.png": {
+      "size": 3480321,
+      "sha256": "5cd10425341ea0d37f022313cd12f68c12c38e1f4d2c8305982ee6dba0fd73b6",
+      "mtimeNs": 1793011853915407200
+    },
+    "world-draft/location images/Hydra Head Academy/hydra-head-academy-practice-hall-v2.png": {
+      "size": 2839772,
+      "sha256": "936c71200f64efbacfc0c94e9b083bdbf7d24c56987f4eb788eb8ba01ef6e99a",
+      "mtimeNs": 1793012061145716100
+    },
+    "world-draft/location images/Hydra Head Academy/hydra-head-academy-seminar-room-v2.png": {
+      "size": 2573619,
+      "sha256": "d06f9a5b26ab00de48bdfb92474e90d5747a14817f89bf49fa20546c6705d1e8",
+      "mtimeNs": 1793012000730714000
+    },
+    "world-draft/location images/Hydra Head Academy/hydra-head-academy-student-commons-v2.png": {
+      "size": 2903669,
+      "sha256": "49e03e9bcfe05abf50fa06a94b2aec9488d603eb60f4971bbb3b840f1f93d54c",
+      "mtimeNs": 1793012288754878300
+    },
+    "world-draft/location images/Main City Gate/main-city-gate-gate-square-pilot-v1.png": {
+      "size": 3033478,
+      "sha256": "28f63be0abe3d3ecd3e7ce9d90b36f2c2a240f80186d528227afdceaeec717a4",
+      "mtimeNs": 1793028324313058200
+    },
+    "world-draft/location images/Main City Gate/main-city-gate-location-pilot-v1.png": {
+      "size": 3299517,
+      "sha256": "9cc306b071a7fba6ee469334365df1f4a3bb25335862e194655da16663e5f81c",
+      "mtimeNs": 1793027932796798800
+    },
+    "world-draft/location images/Main City Gate/main-city-gate-south-arch-pilot-v1.png": {
+      "size": 2980173,
+      "sha256": "70bb4cd0b9fdf7d1bbc98009bba4914bd4c606d38ccc4bbb3b1f4ecd3e9798d6",
+      "mtimeNs": 1793028010191317600
+    },
+    "world-draft/location images/Missing Location Images 2026-10-27/01-dragon-hoard-academy.png": {
+      "size": 3742761,
+      "sha256": "c434c6c8d7b764cc66ee12f7935baba11b0ad47563e3420ab7cf7238f97a61dc",
+      "mtimeNs": 1793100991375947100
+    },
+    "world-draft/location images/Missing Location Images 2026-10-27/02-the-grand-sages-court.png": {
+      "size": 3730405,
+      "sha256": "d7f7c69850c574cfdc822fb9aca65b7250d84264cc9df065050b47efd5b72abc",
+      "mtimeNs": 1793101165923373800
+    },
+    "world-draft/location images/Missing Location Images 2026-10-27/03-merchants-row.png": {
+      "size": 3385617,
+      "sha256": "b047f7289058318987c306cdc39840c02999a9645731a03d078e5c4499e725c5",
+      "mtimeNs": 1793101232364694600
+    },
+    "world-draft/location images/Missing Location Images 2026-10-27/04-caravan-outpost.png": {
+      "size": 3304196,
+      "sha256": "7a1029f5625cf5d62019e04e9c5195ae283f05b22555d0662b7ddacf984fce78",
+      "mtimeNs": 1793101284643030100
+    },
+    "world-draft/location images/Missing Location Images 2026-10-27/05-the-emberfox-hot-spring.png": {
+      "size": 3731117,
+      "sha256": "f4fc37b57b8c7940c198d77a04daf2b424b50dc967629982092bdaf647b83955",
+      "mtimeNs": 1793101404702968700
+    },
+    "world-draft/location images/Missing Location Images 2026-10-27/06-greywatch-keep.png": {
+      "size": 3638676,
+      "sha256": "4ec449488badabae0850dd4c409cb3820d39e2e15535cca7e86e2bc1b6360789",
+      "mtimeNs": 1793101438952471900
+    },
+    "world-draft/location images/Missing Location Images 2026-10-27/07-saltmere.png": {
+      "size": 3354031,
+      "sha256": "adae9b4985abe04d765e8f45abcfaede3c7f2d9f9b6cc819deeb78cabc8301ea",
+      "mtimeNs": 1793101470221826600
+    },
+    "world-draft/location images/Missing Location Images 2026-10-27/08-the-everlight-public-library.png": {
+      "size": 2978102,
+      "sha256": "d6730069212002c18d44f245f5ecb037019b2dca9401c0b63d0f0ffc8d861403",
+      "mtimeNs": 1793101598890620900
+    },
+    "world-draft/location images/Missing Location Images 2026-10-27/09-brookmeadow.png": {
+      "size": 3545961,
+      "sha256": "a9adf66d4652b60dc77529f64fddd7932de8ad574f3b1304625872a7246457e2",
+      "mtimeNs": 1793101641989552300
+    },
+    "world-draft/location images/Missing Location Images 2026-10-27/10-the-eternal-crucible.png": {
+      "size": 3102040,
+      "sha256": "c99c85f7bbfa32060fdefea0a608bc1bdf147f9cb6ddf5bab9b8717252fe0184",
+      "mtimeNs": 1793101675687093500
+    },
+    "world-draft/location images/Missing Location Images 2026-10-27/11-whitecrest-harbor.png": {
+      "size": 3278395,
+      "sha256": "dc699e10d7af37aff4b91e286bdd8b695bdd15ca7c970baa744108c9a508ccf3",
+      "mtimeNs": 1793101787572188900
+    },
+    "world-draft/location images/Missing Location Images 2026-10-27/12-the-grand-approach.png": {
+      "size": 3757247,
+      "sha256": "7e735881b268cf4932849cb31b3b983c8e2e24fbd90ab381a6ab82b2e5887d2d",
+      "mtimeNs": 1793101915715437900
+    },
+    "world-draft/location images/Missing Location Images 2026-10-27/13-city-guard-headquarters.png": {
+      "size": 2949811,
+      "sha256": "2d1b73fda6f98ffda2913a10069aa4c29f1138b8f26e8ab3ed56510edbcfd328",
+      "mtimeNs": 1793101963376042100
+    },
+    "world-draft/location images/Missing Location Images 2026-10-27/14-the-grand-ascent.png": {
+      "size": 3550932,
+      "sha256": "5f06731e48012c292a51bda3308e5f8a460b48214c71dc403f47b3b9791fcea4",
+      "mtimeNs": 1793102049839222300
+    },
+    "world-draft/location images/Missing Location Images 2026-10-27/15-driftstone-isle.png": {
+      "size": 3835859,
+      "sha256": "a12eb232cc6f6d17aab6c1182be5dcbe916b681f4282b2a1f6d23c0eaba666c5",
+      "mtimeNs": 1793102182465974000
+    },
+    "world-draft/location images/Missing Location Images 2026-10-27/16-pinewake-coast.png": {
+      "size": 3681788,
+      "sha256": "b9c1006b039b711990e0e45802e7e4aa151f8bea6014f88780f46c0ee9d2313f",
+      "mtimeNs": 1793102206509369900
+    },
+    "world-draft/location images/Missing Location Images 2026-10-27/17-clovermead.png": {
+      "size": 3398660,
+      "sha256": "a2cfb653b2dcc21066a2edd85f6b00b2010fd460f4c50ed1bdd4de66cdb454cb",
+      "mtimeNs": 1793102234012760400
+    },
+    "world-draft/location images/Missing Location Images 2026-10-27/18-pebblewick.png": {
+      "size": 3405093,
+      "sha256": "b8b1ee8c37150c8c713841e97cb5c3d1f53ff5db1c5f5b9f2bebf011eef58163",
+      "mtimeNs": 1793102345383299800
+    },
+    "world-draft/location images/Missing Location Images 2026-10-27/19-crescent-shores.png": {
+      "size": 3418775,
+      "sha256": "8ad5bd4bca4aa90e1355f04f62fd2f528a66d4eb3fc658d8a6cd10f4a3d28ba0",
+      "mtimeNs": 1793102434211850600
+    },
+    "world-draft/location images/Missing Location Images 2026-10-27/20-glowhaven-farmlands.png": {
+      "size": 3586932,
+      "sha256": "b5fae8514fad78f7c73ea7431cb0f02619aafc4a3db018a6e9ea1893d1bee444",
+      "mtimeNs": 1793102480994084000
+    },
+    "world-draft/location images/Missing Location Images 2026-10-27/21-pinewater-river.png": {
+      "size": 3763912,
+      "sha256": "5b5fd456be38126e24250a987060685c753594f409743ae48b1829bbe4c80cd6",
+      "mtimeNs": 1793102513946635200
+    },
+    "world-draft/location images/Missing Location Images 2026-10-27/22-west-glowhaven-woods.png": {
+      "size": 3538630,
+      "sha256": "31157ae80c91037a12003c198f3e8a5af85234f293a00dabe4723bf3ece5d52f",
+      "mtimeNs": 1793102538974000500
+    },
+    "world-draft/location images/Missing Location Images 2026-10-27/23-pebbletown.png": {
+      "size": 3259035,
+      "sha256": "27a3e578221bd81bdd9fd52f077c036b9689988a0821cc993b61268d3f4430d4",
+      "mtimeNs": 1793102698487012800
+    },
+    "world-draft/location images/Missing Location Images 2026-10-27/24-sages-spire-v2.png": {
+      "size": 2591163,
+      "sha256": "6d9ac6ca13db5dce87628f41920cd3f6dde1d59a5f122dc386cf31699390f896",
+      "mtimeNs": 1793103243023573100
+    },
+    "world-draft/location images/Missing Location Images 2026-10-27/25-the-farmers-exchange.png": {
+      "size": 3375965,
+      "sha256": "7bac7d602ab2fdc650556015b306be5097eda889abfe533730728302b29642f8",
+      "mtimeNs": 1793102831555662000
+    },
+    "world-draft/location images/Missing Location Images 2026-10-27/26-pinewater-woods.png": {
+      "size": 3838277,
+      "sha256": "9c872b1c660a8cccf885d47f32ed8bb276bca511fedab20660914ad0b1204bb0",
+      "mtimeNs": 1793103000338821700
+    },
+    "world-draft/location images/Missing Location Images 2026-10-27/27-the-winding-lowlands.png": {
+      "size": 3581272,
+      "sha256": "9033de8b31f2097ad596e929eb32d2ade0e26529600166bb417cd628c2f4d7bc",
+      "mtimeNs": 1793103033999026000
+    },
+    "world-draft/location images/Missing Location Images 2026-10-27/28-the-magistrates-hall.png": {
+      "size": 2752768,
+      "sha256": "79d67146faf7077f3b5641f6cf696a3b31023b495cee7dfdb69d6259438f45f2",
+      "mtimeNs": 1793103080110258700
+    },
+    "world-draft/location images/Moonwhisker Emporium/moonwhisker-emporium-location-v2.png": {
+      "size": 2945388,
+      "sha256": "11c44bd889ef55a71b956647b8d9234937dc18c039395776130c81400a11025b",
+      "mtimeNs": 1793033611137823700
+    },
+    "world-draft/location images/Moonwhisker Emporium/moonwhisker-emporium-location.png": {
+      "size": 3100949,
+      "sha256": "57d5452cbcf4e22526d27371daa040e70896665ccd2785627d014fc77ada3a40",
+      "mtimeNs": 1793032980411839100
+    },
+    "world-draft/location images/Phoenix Wing Academy/phoenix-wing-academy-arrival-court-pilot.png": {
+      "size": 2673659,
+      "sha256": "9f394bede6cf8fdd731d481257e9dc104108a2146b481fd353964119992e0466",
+      "mtimeNs": 1793006774644224200
+    },
+    "world-draft/location images/Phoenix Wing Academy/phoenix-wing-academy-arrival-court-v2.png": {
+      "size": 3022451,
+      "sha256": "e93b86d6c6093785265c486a7e826595a2e9c5f09ee8f395321fb4c2fe3176a6",
+      "mtimeNs": 1793009799136393400
+    },
+    "world-draft/location images/Phoenix Wing Academy/phoenix-wing-academy-lecture-hall-pilot.png": {
+      "size": 2257963,
+      "sha256": "448c04cd47503e4549433e2cb26c151c838836fcf0c433aadfdcbecba9281a59",
+      "mtimeNs": 1793006075290538700
+    },
+    "world-draft/location images/Phoenix Wing Academy/phoenix-wing-academy-lecture-hall-v2.png": {
+      "size": 2529951,
+      "sha256": "c0b96708c6075688e6deb57a53dda14e3dd345a5af4d20d3a5b332071c03757a",
+      "mtimeNs": 1793009968706703900
+    },
+    "world-draft/location images/Phoenix Wing Academy/phoenix-wing-academy-location-pilot.png": {
+      "size": 3041224,
+      "sha256": "fc3a046e878cf8acd78620f39f92248489b179520c337f17eddc422fe26d3578",
+      "mtimeNs": 1793005996361453800
+    },
+    "world-draft/location images/Phoenix Wing Academy/phoenix-wing-academy-location-v2-sample.png": {
+      "size": 3329600,
+      "sha256": "40c55e1c8c80060ba470d6dc55bdeadfec83ecad5bd52d755ccbe06c8b707765",
+      "mtimeNs": 1793009657555297200
+    },
+    "world-draft/location images/Phoenix Wing Academy/phoenix-wing-academy-main-hall-pilot.png": {
+      "size": 2367648,
+      "sha256": "55ab8b3be35977d077b6681068de757a8e1228c605d982d25160a569ce9edaaa",
+      "mtimeNs": 1793007249947168800
+    },
+    "world-draft/location images/Phoenix Wing Academy/phoenix-wing-academy-main-hall-v2.png": {
+      "size": 2693976,
+      "sha256": "d5becbdf55c98a562a13bef214277b8cbeedc9354f4d828536a81e168038e4a2",
+      "mtimeNs": 1793009892031541700
+    },
+    "world-draft/location images/Phoenix Wing Academy/phoenix-wing-academy-practice-arena-pilot.png": {
+      "size": 2628395,
+      "sha256": "f4a75b2641dba850ad0df1fa43dc3e615092dcb4a88f3436b807cffd19cc7b31",
+      "mtimeNs": 1793007392270328300
+    },
+    "world-draft/location images/Phoenix Wing Academy/phoenix-wing-academy-practice-arena-v2.png": {
+      "size": 2931149,
+      "sha256": "d39d7a2dfc457e07c212342a138c5af9e28e43fc9726b4cad046c035cf73ff13",
+      "mtimeNs": 1793010108734553500
+    },
+    "world-draft/location images/Phoenix Wing Academy/phoenix-wing-academy-student-commons-pilot.png": {
+      "size": 2385655,
+      "sha256": "c463d3b682d8eb9742f336c2385976aebdaee1dc2e8ceffa51e20397867a4e25",
+      "mtimeNs": 1793007118514304300
+    },
+    "world-draft/location images/Phoenix Wing Academy/phoenix-wing-academy-student-commons-v2.png": {
+      "size": 2639938,
+      "sha256": "cbe67cc6dad35bbd450eead00938720e3dd0b6c17af7a262cd893fdf611e104d",
+      "mtimeNs": 1793010138743250000
+    },
+    "world-draft/location images/Phoenix Wing Academy/phoenix-wing-academy-training-yard-pilot.png": {
+      "size": 2564636,
+      "sha256": "4fcc8e19f760d9a60e14968128bc001e822f48bf50c9f6c94796c729edfe05bb",
+      "mtimeNs": 1793006041768361700
+    },
+    "world-draft/location images/Phoenix Wing Academy/phoenix-wing-academy-training-yard-v2.png": {
+      "size": 2938794,
+      "sha256": "d91781b76d3fe629bcd435e207b6723c46b03161ca9c77b664c15dba7885969b",
+      "mtimeNs": 1793010058038215800
+    },
+    "world-draft/location images/Roseberry Inn/roseberry-inn-location.png": {
+      "size": 2584908,
+      "sha256": "56e96d88ee68ff7c4159bf96ce4583d7d844814f5554f68bd6586cb016c2a46f",
+      "mtimeNs": 1793034077404831300
+    },
+    "world-draft/location images/Rosetimber Suburbs/rosetimber-suburbs-location.png": {
+      "size": 3480754,
+      "sha256": "93dc353e04d781a7cfadcb6c80cb219334c98f658a38c091b8400bb1fe08fa53",
+      "mtimeNs": 1793035249752765300
+    },
+    "world-draft/location images/Rune and Raven's/rune-and-ravens-location.png": {
+      "size": 2848218,
+      "sha256": "ca91cca952f0cc458f918f0414273f943052cde3f26db79bc42e97bda522ad2e",
+      "mtimeNs": 1793032942353449700
+    },
+    "world-draft/location images/Seabreeze Inn/seabreeze-inn-location.png": {
+      "size": 2690414,
+      "sha256": "6fbb09c0756b696fdb998238b96c4d95ac9e5cd7c5cb531cf4f94aecb88c70e1",
+      "mtimeNs": 1793034120203429100
+    },
+    "world-draft/location images/Shadowspire/shadowspire-location.png": {
+      "size": 3473258,
+      "sha256": "c18ef74df1eb0cac522e2c492ccc97e0c127a90e5a5f6ddc07e169dfd577ef8b",
+      "mtimeNs": 1793037046285571200
+    },
+    "world-draft/location images/Stargarden Manor/stargarden-manor-location-v2-morning.png": {
+      "size": 3604725,
+      "sha256": "0285a4deb01653d46bf235c8bcadfb0ef414089bb0dbafcb8617179f3773feac",
+      "mtimeNs": 1793036142005474900
+    },
+    "world-draft/location images/Stargarden Manor/stargarden-manor-location-v3-grand-morning.png": {
+      "size": 3656507,
+      "sha256": "c1ddfe7b7ac8176b6c4fa742c8fee28aaa94fab818cb49dd95fbd735d5872924",
+      "mtimeNs": 1793036328542848600
+    },
+    "world-draft/location images/Stargarden Manor/stargarden-manor-location.png": {
+      "size": 3189192,
+      "sha256": "ba6986d74d8bf76c4761b40d090bea6be4e5bdf5e873bccb8748abf68142aa70",
+      "mtimeNs": 1793035347002863200
+    },
+    "world-draft/location images/The Arcane Emporium/arcane-emporium-location.png": {
+      "size": 3502219,
+      "sha256": "e1bcb835b59f61a268513557a9a7d4de0ff22a1341d2fbdd9ea9600324344e01",
+      "mtimeNs": 1793032727743271400
+    },
+    "world-draft/location images/The Carpenter's Measure/carpenters-measure-location.png": {
+      "size": 2927823,
+      "sha256": "36bbd5a2f901d995420953b8fbb9c6373e2ebb492debc13b4b1c03bfe59637d5",
+      "mtimeNs": 1793033133362086400
+    },
+    "world-draft/location images/The Compassmaker/compassmaker-location.png": {
+      "size": 2856934,
+      "sha256": "4d338ccfaf2e01836b5b6c22bedf971a43a7b5764a2d2802b6384915b39c9989",
+      "mtimeNs": 1793033279291681800
+    },
+    "world-draft/location images/The Gilded Griffin/gilded-griffin-location-v2.png": {
+      "size": 2651170,
+      "sha256": "5d6e14b37563e579a4857c2ae79d189aa74d179b526071a241d2e17070c7cab3",
+      "mtimeNs": 1793033487458096600
+    },
+    "world-draft/location images/The Gilded Griffin/gilded-griffin-location.png": {
+      "size": 2856245,
+      "sha256": "273345a295f85bb601fe8b1628ae8aa05e4989d813834a55e5d37a06a81172e0",
+      "mtimeNs": 1793032579045119100
+    },
+    "world-draft/location images/The Golden Ladle/golden-ladle-location.png": {
+      "size": 2870321,
+      "sha256": "cac1699b64715ea091f192da138878c921630a45ca0437e6dd7e0b7c72e20360",
+      "mtimeNs": 1793033989454414000
+    },
+    "world-draft/location images/The Jade Cup Teahouse/jade-cup-teahouse-location.png": {
+      "size": 2825090,
+      "sha256": "7a69ce1263cb42abfd80c2360688707e6c5dd3b8563a62ab2523a4fafe911b33",
+      "mtimeNs": 1793033943563393300
+    },
+    "world-draft/location images/The Perfumed Rose/perfumed-rose-location.png": {
+      "size": 2867486,
+      "sha256": "30e2c4b7be7e242bf25e122ade1d5a5314c1dca1dcaaf7be564b46a5e565934a",
+      "mtimeNs": 1793032891015372600
+    },
+    "world-draft/location images/The Silver Anvil/silver-anvil-location.png": {
+      "size": 2845507,
+      "sha256": "58cb2ad251a2b27b50d2141382182792854e5ba6e6fdab2656a49ffd0b0c0a58",
+      "mtimeNs": 1793033016915604500
+    },
+    "world-draft/location images/The Wandering Quill/the-wandering-quill-location-pilot.png": {
+      "size": 2842370,
+      "sha256": "cdfc5e9ac2680e95f75e1d1d56b5f1f8e9c968c7c5e1e54a028bdfbf3d2daf74",
+      "mtimeNs": 1793031559255871100
+    },
+    "world-draft/location images/Violet Thread/violet-thread-location.png": {
+      "size": 3213915,
+      "sha256": "56ce28258fe8d6d5e390d553bdf7a52c5eeb93afd008a29def86de630a7b2281",
+      "mtimeNs": 1793032774683824200
+    },
+    "world-draft/location images/Wayfarer's Goods/wayfarers-goods-location-v2.png": {
+      "size": 2869432,
+      "sha256": "2174d2093df3e571bea59f10d087c268723ba2604d0eaf7a404a55a5921e61b4",
+      "mtimeNs": 1793033544575590400
+    },
+    "world-draft/location images/Wayfarer's Goods/wayfarers-goods-location.png": {
+      "size": 3100028,
+      "sha256": "64bebc45b94aa987d76947b832877a437cc5301f9e721196a3eacda61460b06b",
+      "mtimeNs": 1793032674726624300
+    },
+    "world-draft/location images/West Greyfield/west-greyfield-location.png": {
+      "size": 3439205,
+      "sha256": "be82a122e0a8a1b2c295ebecce900ded93b3540d4461d22a972e7d000565c4c9",
+      "mtimeNs": 1793035188360221700
+    },
+    "world-draft/location images/Willowbend Residential District/willowbend-residential-district-location.png": {
+      "size": 3099809,
+      "sha256": "12d76f1507883416a5d3aa4048411377f0a94dae75ba51551574c359e4280e8f",
+      "mtimeNs": 1793034800618286700
+    },
+    "world-draft/location images/Wraith Island/wraith-island-location.png": {
+      "size": 3076563,
+      "sha256": "d1465d6c76518d203aab0529876be245761eddd82bfdc6d1840745257e0ac4dd",
+      "mtimeNs": 1793036765109874200
+    },
+    "world-draft/location images/Wraith Island Prison/wraith-island-prison-location.png": {
+      "size": 3407058,
+      "sha256": "3691516bb18174e433a979511fffcfc4d393ec6f1ad9432f731a03f24e26e95a",
+      "mtimeNs": 1793036794158535900
+    },
+    "world-draft/location images/Wraith Island Prison 2026-10-31/01-prison-landing.png": {
+      "size": 3428125,
+      "sha256": "2f812ca6bfb6d1fdd8316ed69cc0b00d8010f2cbad65efb513ab74b6e8cd6694",
+      "mtimeNs": 1793445831206976800
+    },
+    "world-draft/location images/Wraith Island Prison 2026-10-31/02-intake-and-property-office.png": {
+      "size": 2738793,
+      "sha256": "e6136d5ae7e82b636d062d07b963084e7c3118648a2ff3dc23d5768f3364851b",
+      "mtimeNs": 1793445880174612600
+    },
+    "world-draft/location images/Wraith Island Prison 2026-10-31/03-prison-records-office.png": {
+      "size": 2655511,
+      "sha256": "8bad83c77ad82eec6831875d6d5ef7dd19755e84e3ebd0dd4ef2f53be09abcd6",
+      "mtimeNs": 1793445925730131600
+    },
+    "world-draft/location images/Wraith Island Prison 2026-10-31/04-holding-cells.png": {
+      "size": 2821179,
+      "sha256": "5dbf6fb5d0721705d62b8218c736a7ece10ae3e940dcc7c003a415ce82e6409f",
+      "mtimeNs": 1793445975130751100
+    },
+    "world-draft/location images/Wraith Island Prison 2026-10-31/05-high-security-cellblock.png": {
+      "size": 2889759,
+      "sha256": "c66ad3cae4d5d2e9715e09a33bc1aa574189d1d15d6812b18c35a506cba01582",
+      "mtimeNs": 1793446161945096400
+    },
+    "world-draft/location images/Wraith Island Prison 2026-10-31/06-prison-work-yard.png": {
+      "size": 3589651,
+      "sha256": "e1084d33ea97cf67687a108db921f59e847345629d5ec3257c5b3b959e712ac3",
+      "mtimeNs": 1793446275306810500
+    },
+    "world-draft/location images/Wraith Island Prison 2026-10-31/07-prison-stores.png": {
+      "size": 2821583,
+      "sha256": "2ff4268da7f1bf0079fe64fe56851b6f7fb6042e87653d9c0ed32fcff206dfa0",
+      "mtimeNs": 1793446354967857200
+    },
+    "world-draft/location images/Wraith Island Prison 2026-10-31/08-prison-infirmary.png": {
+      "size": 2882480,
+      "sha256": "a194d04993b2455fbcccf025703dc3324a861688e77c23ca259645948a79917e",
+      "mtimeNs": 1793446409194926900
+    },
+    "world-draft/location images/Wraith Island Prison 2026-10-31/09-prison-visiting-hall.png": {
+      "size": 2787715,
+      "sha256": "7cfd0a28f51526a548f28595f18d929f8248369fc9472d20e59af8ba4abcc2f0",
+      "mtimeNs": 1793446623214582200
+    },
+    "world-draft/location images/Wraith Island Prison 2026-10-31/10-prison-mess-hall.png": {
+      "size": 2798123,
+      "sha256": "648ed275cea4218f9ef1f03aafdc4462618752add8a51d65c59a53f714bffb79",
+      "mtimeNs": 1793446674382997300
+    },
+    "world-draft/location images/Wraith Island Prison 2026-10-31/11-prison-exercise-yard.png": {
+      "size": 3253310,
+      "sha256": "08c106b4422aa18f4915a5e38ce5a12a99fc3862c6d2b6b2128b717ad344726c",
+      "mtimeNs": 1793446732270032000
+    },
+    "world-draft/location images/Wraith Island Prison 2026-10-31/12-prison-security-headquarters.png": {
+      "size": 2873535,
+      "sha256": "629c6b2f4b93ef2209359d6b20f6bad37195d45770e31a11ae0812ce5f08aa61",
+      "mtimeNs": 1793446794865173200
+    },
+    "world-draft/location images/Wraith Island Prison 2026-10-31/13-prison-watchtowers.png": {
+      "size": 3111523,
+      "sha256": "fe5feae6b96904b6689bbb6147cd6b1eea5d3316c7e19e94cdaeb73f7cf45e2c",
+      "mtimeNs": 1793446990065842000
+    },
+    "world-draft/location images/Wraith Island Prison 2026-10-31/14-prison-sea-wall.png": {
+      "size": 3405305,
+      "sha256": "26c5973622fbb351c8dc3db89955e69432a8c38998aabed24f1b5a454831bb3e",
+      "mtimeNs": 1793447037517271900
+    },
+    "world-draft/location images/Asterveil 2026-10-29/superseded/03-bellwind-conservatory.png": {
+      "size": 3792265,
+      "sha256": "508f4f8a829a4ce7bd88b6a907b5013f643ac1cfed28008c1795f0b684e424c2",
+      "mtimeNs": 1793250821587025200
+    },
+    "world-draft/location images/Asterveil 2026-10-29/superseded/27-stillstar-sanctum.png": {
+      "size": 3488020,
+      "sha256": "9a519cc4a41583ef1e211b3c6e9e94b2c955ca4ce3bf455e9493208d7b46895a",
+      "mtimeNs": 1793252193509167300
+    },
+    "world-draft/location images/Asterveil 2026-10-29/superseded/28-the-inverted-crown.png": {
+      "size": 3027050,
+      "sha256": "065545cec8e60f451df8f62cf030a5e34b9716da071221449249f5630c98a1da",
+      "mtimeNs": 1793252242710673400
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/superseded/05-rimecrest-trail.png": {
+      "size": 3250265,
+      "sha256": "7d408b4dd6b28213da168275cd912de95186ef8371a6276f9dedc6dd3e0c3481",
+      "mtimeNs": 1793232591628797400
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/superseded/06-crescent-crown-fortress.png": {
+      "size": 3606203,
+      "sha256": "a16b903adf167c9e98913677530ac8d52031eac43eebc6ad1a555254c3208fa6",
+      "mtimeNs": 1793232641551069200
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/superseded/16-hearthmarket-square-v2.png": {
+      "size": 3175682,
+      "sha256": "02beaf92b4607f78db0344213baa51bc5f67030702b51ed695cd8780af32ade3",
+      "mtimeNs": 1793237816787617200
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/superseded/16-hearthmarket-square.png": {
+      "size": 3414155,
+      "sha256": "c030c33f3dd027199767e67958e0322658410315597d25eec478291b45e3e38f",
+      "mtimeNs": 1793233946905289600
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/superseded/26-the-woolen-wyvern-v2.png": {
+      "size": 2953094,
+      "sha256": "2e1f6aca64337125aa36774c1220577ae7ce0748594fd38fded946cfeb6d53c3",
+      "mtimeNs": 1793237775866999600
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/superseded/26-the-woolen-wyvern.png": {
+      "size": 3158644,
+      "sha256": "f7336f9f4ea419269a1284d3dfa9751e064a00527cf8a183b5dbda0722f51fe6",
+      "mtimeNs": 1793235030211943800
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/superseded/27-coppercrest-exchange-v2.png": {
+      "size": 2786085,
+      "sha256": "9e4deef57158e24ae7768dbae4fb24fb9ca1e34a1b9f465ec35da8f719f3ad7b",
+      "mtimeNs": 1793237858866213300
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/superseded/27-coppercrest-exchange.png": {
+      "size": 3017643,
+      "sha256": "4d1f634a6890063b5350b3f5bbb7acb929718d745ef24296828cbd3e2c812d57",
+      "mtimeNs": 1793235098140945700
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/superseded/42-goatstep-hamlet-v2.png": {
+      "size": 3178835,
+      "sha256": "02be9c55ce7522f3f5cb2fe4b0389059a033b49c579a993657237e32a8dd8896",
+      "mtimeNs": 1793237896941407400
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/superseded/42-goatstep-hamlet.png": {
+      "size": 3367547,
+      "sha256": "951c98d8d94bf08b9fba5ca4a56e4c38669c7db2bae106d556ea1a0bc1d2f87c",
+      "mtimeNs": 1793236465694942300
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/superseded/47-the-abandoned-chainworks.png": {
+      "size": 3476263,
+      "sha256": "5e947294e297109bedfe25c280042278dfad9a3b21fcd0634a19dd7231aecafa",
+      "mtimeNs": 1793237076188186800
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/superseded/55-first-shelter-ruins.png": {
+      "size": 3483988,
+      "sha256": "2e2b740dd7860ea275b99140dd03abbc5bc11eaf0a226f728df4f6ce94a61ceb",
+      "mtimeNs": 1793237448260339600
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/superseded/56-the-old-offering-steps.png": {
+      "size": 3499643,
+      "sha256": "c829f4d96ac197efeb9f8455c730e09432fc5682dd76d2ae421967dc1b81383a",
+      "mtimeNs": 1793237499294288100
+    },
+    "world-draft/location images/Drakenspire 2026-10-29/superseded/58-the-fallen-pass-shrine.png": {
+      "size": 3429824,
+      "sha256": "5e969c1bab206e41c5c70f1a9487847a0b55bd35b1cc62eb513a98e06dacaf19",
+      "mtimeNs": 1793237608816506500
+    },
+    "world-draft/location images/Missing Location Images 2026-10-27/superseded/24-sages-spire-original.png": {
+      "size": 2758693,
+      "sha256": "381d288155bf4584baf19356a0dd8fb14155c85efcb0b77c657fb91ffc27bdac",
+      "mtimeNs": 1793102740672753200
+    },
+    "world-draft/maps/Silken Descent Alpha13/Silken Descent - Full 627x1254.png": {
+      "size": 2358505,
+      "sha256": "8af4dc1e4b1fe4249a53505532ec25a1f392b1bd4c4d64305fed001466049c89",
+      "mtimeNs": 1793180321429600000
+    },
+    "world-draft/maps/Silken Descent Alpha13/Silken Descent - Lower.png": {
+      "size": 1172584,
+      "sha256": "bc27cb5df642c12fbddea3df493240c4cb09e93250537edbec8181376707fb4d",
+      "mtimeNs": 1793180321534320300
+    },
+    "world-draft/maps/Silken Descent Alpha13/Silken Descent - Upper.png": {
+      "size": 1185953,
+      "sha256": "ef888aa5d0180a72a7579f4055d1ace632805b098628df7557f978fe75081400",
+      "mtimeNs": 1793180321482457900
+    },
+    "world-draft/map-variations/Asterveil/Asterveil - Full Map.png": {
+      "size": 3126680,
+      "sha256": "0082a4b5031638e0d942020046cb6615c7a5b786e4099371365598e8505fef49",
+      "mtimeNs": 1793173087095654200
+    },
+    "world-draft/map-variations/Asterveil/Asterveil 01 - Central Island.png": {
+      "size": 3160757,
+      "sha256": "e425acd181492c2ba0b017aad8cdcaf778ad4c0226ecdcd66acc7b0a728bb692",
+      "mtimeNs": 1793169597275654300
+    },
+    "world-draft/map-variations/Asterveil/Asterveil 02 - Sweeping Island Arc.png": {
+      "size": 2961360,
+      "sha256": "9a08a86d8ff15905a6acea9368150157d7ff8c8432312513a401cd43fab08526",
+      "mtimeNs": 1793169660923923700
+    },
+    "world-draft/map-variations/Asterveil/Asterveil 03 - Separated Island Clusters.png": {
+      "size": 3338216,
+      "sha256": "84067a7f22271b910e8f24f17ba326a80b0f63a6b41fa8b69acb2c0be39e5e5f",
+      "mtimeNs": 1793169780239478500
+    },
+    "world-draft/map-variations/Asterveil/Selected Layout Reference.png": {
+      "size": 3338216,
+      "sha256": "84067a7f22271b910e8f24f17ba326a80b0f63a6b41fa8b69acb2c0be39e5e5f",
+      "mtimeNs": 1793169804594256600
+    },
+    "world-draft/map-variations/Drakenspire/Drakenspire - Variation 01 - Sheltered Shelf.png": {
+      "size": 4246708,
+      "sha256": "c220d9d17d3e9fd482b06eb28e6b9b2696b116dbcb94833cf5bb3918e4658e74",
+      "mtimeNs": 1793160820926971600
+    },
+    "world-draft/map-variations/Drakenspire/Drakenspire - Variation 02 - Ridge Terraces.png": {
+      "size": 4224852,
+      "sha256": "05502357f0f521041d1ef5800a1aeeb4f301a5b55e86151169b50405d271fd98",
+      "mtimeNs": 1793161142883807200
+    },
+    "world-draft/map-variations/Drakenspire/Drakenspire - Variation 03 - Expedition Highlands.png": {
+      "size": 4214875,
+      "sha256": "1e644f75e40dc42110eff11a679ece6b79911353b6586384c6e814b4453bff9c",
+      "mtimeNs": 1793161345935686100
+    }
+  }
+}

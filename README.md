@@ -1,0 +1,37 @@
+# Voyage Maker — The Schools of Magic, Arise!
+
+Private shared workspace for authoring a Voyage world from Codex desktop and Codex web/cloud.
+
+## Current project
+
+- **Canonical world:** [world-draft/WorldAlpha - World.json](world-draft/WorldAlpha%20-%20World.json)
+- **Current state and next work:** [docs/CURRENT_STATE.md](docs/CURRENT_STATE.md)
+- **Approved decisions:** [docs/DECISIONS.md](docs/DECISIONS.md)
+- **Adventurers update plan:** [planning brief](world-draft/authoring/plans/Adventurers%20of%20Glowhaven%20-%20Planning%20Brief.md)
+- **Shared workflow:** [docs/DESKTOP_AND_CLOUD.md](docs/DESKTOP_AND_CLOUD.md)
+
+Read AGENTS.override.md before editing. The original AGENTS.md and sources/ are preserved references.
+
+## Commands
+
+Python 3.10+ and Node.js 20+ are sufficient. No package install or API key is needed.
+
+```sh
+python tools/project.py start
+python tools/project.py sync
+python tools/project.py validate
+node tools/test_item_mechanics.cjs
+python tools/project.py publish -m "Describe the completed change"
+```
+
+Use `python3` on a system where `python` is unavailable. `start` fetches and fast-forwards only a clean checkout. `publish` validates and pushes completed changes; it does not watch half-written files or silently resolve conflicts. A cloud task without push credentials can still commit its work and use Codex's native review/PR workflow.
+
+GitHub Actions repeats the portable checks on pushes and pull requests. Local checks verify structure and selected mechanics; important outcomes still need a Voyage playtest.
+
+## Working from either surface
+
+The private GitHub repository is the common project history. Desktop work pushes when complete; cloud work uses the latest repository revision and publishes its branch or pull request. Merge cloud work before continuing the same files locally. Chat context is carried through the state and decision documents, not an assumed shared memory between independent chats.
+
+This repo contains the active world, current section exports, writing guides, plans, reference JSON and portable tools. Roughly a gigabyte of existing original media and large duplicate archives remain on the desktop; their hosted URLs and asset index preserve discoverability. New or changed generated media is shared selectively by the publish command. No local file was deleted during setup.
+
+To import the world into Voyage, use the canonical full JSON. Section files are supplied for deliberate section replacement and are synchronized from the full world.

@@ -1,0 +1,27 @@
+{
+  "Wraith Island Prison": {
+    "name": "Wraith Island Prison",
+    "basicInfo": "Glowhaven's secured offshore prison campus. Its landing, intake offices, cellblocks, work facilities, medical and visiting buildings, security headquarters, watchtowers, and sea wall are distinct locations. Entry follows an actual island crossing and legal role; this is physical space represented by a separate map, not a magical dimension.",
+    "initialKnown": false
+  },
+  "Drakenspire Mountains": {
+    "name": "Drakenspire Mountains",
+    "basicInfo": "Drakenspire is an independent dragonkin-majority nation and the name of its snowy mountain capital. The city occupies two nearby elevations: a bustling inhabited shelf below, and Crescent Crown Fortress on a higher northeastern shelf. An enormous sacred dragon skeleton curves around the fortress in a crescent, joining stone walls and ancient bones into the country's defining landmark. The remains commemorate the dragon that protected the endangered founders; they do not power the city's heat or magic.\n\nPractical alpine stone buildings, steep cobbled lanes, heavy shutters and wool-bright interiors characterize the lower city. The fortress government is sturdy rather than extravagant, while a few wealthy commercial buildings advertise private prosperity. Markets, homes, workshops, inns, a modest schoolhouse, festival streets, a small fight pit and one onsen support ordinary life. Dragon and ancestor worship shapes public customs without making every resident equally devout or every dragonkin a warrior.\n\nA Jarl elected through the clan chiefs governs within a decentralized clan-and-chief order. Clans retain substantial influence, alongside merchants and military leaders. Drakenspire and Glowhaven are friendly sovereign partners: this country supplies excellent metallurgy and valuable magical raw materials, while Glowhaven provides enchanted goods, specialist education and other trade. The enclosed Drakenspire - Portal Room receives authorized travelers and connects to Evertree Base - Portal Room under the existing key rules.\n\nBeyond the inhabited shelves lie lower pastures, sparse pine hollows, mines, abandoned workings, neighboring peaks and dangerous snowbound country. Some routes suit prepared fieldwork; others reach wyvern perches, giant territory or rarely visited basins. Sacred dragons discourage many threats from approaching the capital without constantly fighting on its streets. A vast gray, lightning-breathing guardian sometimes appears far overhead. His lair, the number of dragons and the full history of their generations remain unknown to the people.",
+    "initialKnown": false
+  },
+  "Asterveil Sky Archipelago": {
+    "name": "Asterveil Sky Archipelago",
+    "basicInfo": "Asterveil is a broad archipelago of floating islands in the same physical world as Glowhaven. Four mapped regions surround a small fae settlement: Cloudbloom Reaches in the northwest, Rimeglass Heights in the northeast, Mirrorwater Marches in the southwest and Amethyst Crown in the southeast. The realm is predominantly wilderness, with scattered field shelters rather than four towns. Cloudbloom Landing receives the authorized Evertree portal route; Asterveil Canopy is the settlement near it.\n\nFae live alongside a smaller number of other residents. Flower terraces, craft, fragrance cultivation, weather study and crossing work support daily life, while expeditions investigate plants, creatures, materials and the remains of earlier survey work. Residents are people with varied goals, not universal guides, miniature mascots or custodians of every secret. Some individuals can change size; their actual record determines their forms.\n\nThis is a midgame expedition realm. Normal regional bands progress through 10–25, 20–35, 30–45 and 40–55. Safe hubs have lower local bands. The Inverted Crown is an exceptional level-55–60 field site, not an endgame zone. These danger bands describe typical encounters, not physical barriers to travel. Experienced visitors retain their own capabilities, and local signs help travelers judge a route’s risks.",
+    "initialKnown": false
+  },
+  "The Silken Descent": {
+    "name": "The Silken Descent",
+    "basicInfo": "A compact subterranean descent of four connected chambers: a ruined portal threshold, cold web galleries, flooded broodworks and the matron’s heated crucible. Two map regions show the upper and lower halves of one close cutaway, not two distant countries. Silver tension lines descend toward Vhalessra’s experimental web-anchor. The entrance home arch remains usable; exploring below it is optional.",
+    "initialKnown": false
+  },
+  "Glowhaven": {
+    "name": "Glowhaven",
+    "basicInfo": "Glowhaven and its surrounding farms, settlements, coast, and magical institutions, centered on the Evertree. Daily commerce and study coexist with civic politics, tournaments, and dangers that have actual causes. This regional map includes the city and its familiar surrounding country. Travel to its farms, woods, nearby settlements or offshore Wraith Island remains within Glowhaven. Evertree Base houses the controlled Portal Room linking distant lands through established routes.",
+    "initialKnown": true
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "proposalDate": "2026-10-29",
+  "worldSHA256": "cede20139311ce091486c4ad99f0760950daca91747368aacdbc0fa91511a57b",
+  "worldUnchanged": true,
+  "quests": 42,
+  "worldTriggers": 175,
+  "questTriggers": 21,
+  "nativeArcs": 0,
+  "narrativeEvents": 0,
+  "NPCs": 193,
+  "references": {
+    "LuxcelliaUpdated": {
+      "path": "C:\\Users\\VladCodes\\Downloads\\LuxcelliaUpdated.json",
+      "sha256": "d08d2f8b91a9d24d0343984bd3d40ec2cf54815258e7b105c3dc7506469dc643",
+      "quests": 380,
+      "worldTriggers": 863,
+      "questTriggers": 380
+    },
+    "ChikaraOld": {
+      "path": "C:\\Users\\VladCodes\\.codex\\.chatgpt-projects\\g-p-6add53a86cc0819188fd43556c22336b\\sources\\ChikaraOld.json",
+      "sha256": "d8bb7f6f4c488214bbd5fa2b22eed82d73fce9bd2143f378e684b99b9e948359",
+      "quests": 655,
+      "worldTriggers": 672,
+      "questTriggers": 1
+    },
+    "Konosuba": {
+      "path": "C:\\Users\\VladCodes\\.codex\\.chatgpt-projects\\g-p-6add53a86cc0819188fd43556c22336b\\sources\\Konosuba.json",
+      "sha256": "4c53d7ed3f72c137d797a33b83ebcfe72ac7f5fdd37aac772564e82643f575d8",
+      "quests": 89,
+      "worldTriggers": 191,
+      "questTriggers": 37
+    },
+    "Larion": {
+      "path": "C:\\Users\\VladCodes\\.codex\\.chatgpt-projects\\g-p-6add53a86cc0819188fd43556c22336b\\sources\\Larion.json",
+      "sha256": "8889df2f7305f6bff100b50af6d8138292c23cc02575febe1dae20a5bcaf5dc1",
+      "quests": 167,
+      "worldTriggers": 2321,
+      "questTriggers": 0
+    }
+  },
+  "scope": "Research and proposal only; no gameplay changes, implementation or live playtest.",
+  "userClarification": "Thesis is once per playthrough, including academy transfer; practical capstone with a brief demonstration, without recurring paperwork."
+}

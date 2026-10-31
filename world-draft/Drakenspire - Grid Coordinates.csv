@@ -1,0 +1,61 @@
+﻿Location,Intended district,Grid row,Grid column,x,y,Radius,Initially known,Area count
+Drakenspire,Portalward,1,1,-35,35,2,True,5
+Crescent Crown Fortress,High Fortress,1,2,-25,35,2,True,6
+The Ancestor's Crescent,Sacred Precinct,1,3,-15,35,2,True,6
+The Jarl's Hall,High Fortress,1,4,-5,35,2,True,4
+Clans' Assembly House,High Fortress,1,5,5,35,2,True,4
+Crescent Sanctuary,Sacred Precinct,1,6,15,35,2,True,5
+Ancestor Cairn Terrace,Sacred Precinct,1,7,25,35,2,True,4
+High Rampart Gate,High Fortress,1,8,35,35,2,True,4
+Oathward Barracks,High Fortress,2,1,-35,25,2,True,4
+Dragonwatch Balcony,High Fortress,2,2,-25,25,2,True,4
+Founders' Processional Way,Lower City,2,3,-15,25,2,True,4
+Hearthmarket Square,Lower City,2,4,-5,25,2,True,5
+Snowmelt Residential Steps,Lower City,2,5,5,25,2,True,4
+Cinderstone Schoolhouse,Lower City,2,6,15,25,2,True,4
+Lower Hold Gate,Lower City,2,7,25,25,2,True,4
+Iwatsugu Clanhold,Clan Quarter,2,8,35,25,2,True,4
+Yukinose Clanhold,Clan Quarter,3,1,-35,15,2,True,4
+Arashimine Clanhold,Clan Quarter,3,2,-25,15,2,True,4
+The Hold's Judgment House,Lower City,3,3,-15,15,2,True,4
+Embersteel Foundries,Forge District,3,4,-5,15,2,True,5
+The Tempered Fang,Forge District,3,5,5,15,2,True,4
+Rivet & Rime Armory,Forge District,3,6,15,15,2,True,4
+The Woolen Wyvern,Lower City,3,7,25,15,2,True,4
+Coppercrest Exchange,Trade District,3,8,35,15,2,True,5
+Amberglass Assay House,Trade District,4,1,-35,5,2,True,4
+Crystalcutters' Court,Forge District,4,2,-25,5,2,True,4
+Resin & Root Apothecary,Lower City,4,3,-15,5,2,True,4
+Snowchain Freight Yard,Trade District,4,4,-5,5,2,True,4
+Whitepass Caravan Lodge,Lower Approach,4,5,5,5,2,True,5
+The Copper Ram,Lower City,4,6,15,5,2,True,4
+Hearthpot Stew House,Lower City,4,7,25,5,2,True,4
+Stonewake Onsen,Lower City,4,8,35,5,2,True,5
+Dusklamp Quarter,Lower City,5,1,-35,-5,2,True,4
+Snowbell Playhouse,Lower City,5,2,-25,-5,2,True,4
+The Cinder Pit,Lower City,5,3,-15,-5,2,True,5
+Stonefang Training Grounds,Training Quarter,5,4,-5,-5,2,True,5
+Deepwell Waterworks,Lower Works,5,5,5,-5,2,True,4
+Hoofstep Pens,Lower Works,5,6,15,-5,2,True,4
+Woolridge Pastures,Lower Slopes,5,7,25,-5,2,True,4
+Winter Stores,Lower Works,5,8,35,-5,2,True,4
+Rimecrest Trail,Near Wilderness,6,1,-35,-15,2,True,4
+Whitepass Watchpost,Near Wilderness,6,2,-25,-15,2,True,4
+Goatstep Hamlet,Lower Slopes,6,3,-15,-15,2,True,4
+Pinefold Hollow,Near Wilderness,6,4,-5,-15,2,True,4
+Glassmere Basin,Near Wilderness,6,5,5,-15,2,True,4
+Redvein Mine,Working Mountains,6,6,15,-15,2,True,4
+Lanternamber Caverns,Working Mountains,6,7,25,-15,2,True,4
+The Abandoned Chainworks,Old Workings,6,8,35,-15,2,True,4
+Old Hearthfall,Old Workings,7,1,-35,-25,2,True,4
+Frostback Mountain,High Wilderness,7,2,-25,-25,2,True,4
+The Buried Switchback,High Wilderness,7,3,-15,-25,2,True,4
+Skreek Crags,Wyvern Country,7,4,-5,-25,2,True,4
+Giant's Hollow,Giant Country,7,5,5,-25,2,True,4
+The White Silence,Remote Wilderness,7,6,15,-25,2,False,4
+Stormscar Observatory,Old High Works,7,7,25,-25,2,True,4
+First Shelter Ruins,Founding Heritage,7,8,35,-25,2,False,4
+The Old Offering Steps,Sacred Mountains,8,1,-35,-35,2,True,4
+Coldglass Galleries,Deep Caverns,8,2,-25,-35,2,False,4
+The Fallen Pass Shrine,Old High Works,8,3,-15,-35,2,False,4
+Rimefang Ravine,High Wilderness,8,4,-5,-35,2,True,4

@@ -1,0 +1,25 @@
+# name|tier|marks|resources on actual self-use|description|availability
+Field Healing Tonic|mundane|18|Health:15|A small bottle of sharp-tasting red tonic. Drinking one dose restores 15 Health; the empty bottle retains an unmistakable smell of bitter berries.|Apothecaries; expedition supplies
+Greater Healing Draught|artisan|130|Health:60|A carefully sealed deep-red preparation. Drinking one dose restores 60 Health. Its label recommends actual treatment for the cause of a serious injury.|Healer suppliers; better expedition stock
+Surgical Recovery Draught|artisan|360|Health:100|A strong restorative medicine in a thick amber bottle. Drinking one dose restores 100 Health, without reversing a lasting condition or bringing back the dead.|Licensed healer suppliers
+Stable Mana Infusion|artisan|150|Mana:20|A regulated blue medicine with a mineral aftertaste. Drinking one dose restores 20 Mana. Its narrow-necked bottle is sized for a single measured serving.|Licensed apothecaries
+Deep Mana Infusion|artisan|420|Mana:45|A concentrated, regulated mana medicine with pale sediment at its base. Drinking one carefully mixed dose restores 45 Mana.|Specialist apothecaries
+Azure Reserve Dose|special|1150|Mana:70|An expensive mana preparation held in a dark protective vial. Drinking one dose restores 70 Mana; the lingering taste is aggressively metallic.|Specialist licensed medicine stock
+Bitter Stamina Tonic|mundane|55|Stamina:12|A squat bottle of brown tonic that tastes worse than it smells. Drinking one dose restores 12 Stamina.|Apothecaries; guild outfitters
+Trail Vigor Draught|artisan|170|Stamina:24|A mint-scented preparation sold in a padded traveling bottle. Drinking one dose restores 24 Stamina.|Expedition suppliers
+Last-Push Dose|special|750|Stamina:40,Health:-8|A harsh stimulant with a bright warning stripe. Drinking one dose restores 40 Stamina but costs 8 Health; it leaves the throat raw and the hands uncomfortably warm.|Restricted expedition medicine stock
+Balanced Restoration Vial|artisan|220|Health:20,Mana:12|A small violet preparation that separates into two clear layers. Shaken and drunk as one dose, it restores 20 Health and 12 Mana.|Licensed healer suppliers
+Amber Recovery Gel|artisan|125|Health:15,Stamina:10|A measured edible gel in a waxed sachet. Eating one serving restores 15 Health and 10 Stamina. It tastes insistently of honey and medicinal roots.|Expedition medicine stock
+Redline Tincture|special|650|Mana:35,Health:-15|A dangerous crimson mana stimulant sold with an unmistakable warning. Drinking one dose restores 35 Mana but costs 15 Health.|Restricted alchemical stock; dangerous salvage
+Smoke Pearl|mundane|22|-|A brittle little sphere that releases a small cloud of dense gray smoke when crushed. The smoke spreads with the actual air and makes breathing near it unpleasant.|Alchemy and expedition shops
+Squealing Pepper Salt|mundane|12|-|A packet of coarse pink seasoning that whistles faintly on hot food. A carelessly thrown pinch can make a nearby nose regret the experiment.|Culinary and curiosity stalls
+Weatherproofing Wax Tin|mundane|16|-|A small tin of practical wax for leather and treated cloth. One careful application covers a pair of boots or a similar small article.|Travel outfitters
+Lantern-Moss Pellet|mundane|18|-|A pressed pellet of prepared luminous moss. Dampening it produces a gentle green light until the little mass dries and exhausts its stored glow.|Botanical and travel shops
+Footprint Dust Packet|artisan|75|-|A pouch of very fine pale powder that catches on fresh damp traces. It is most useful on a surface the user can actually reach and inspect.|Investigation suppliers
+Clinging Resin Bottle|artisan|85|-|A tightly stoppered bottle of fast-setting adhesive. Its thick stream grips well against clean, suitable surfaces and poorly against loose dirt.|Alchemy suppliers
+Frostbloom Powder|artisan|110|-|A sealed paper twist of cold-reactive powder. Scattered on a wet patch, it produces a short-lived crust of slick frost.|Alchemy and expedition shops
+Stinkfrog Vial|mundane|28|-|A little green vial with a cork tied firmly in place. Opening it releases an appalling swamp smell that clings to porous cloth.|Questionable market stalls; alchemy shops
+Self-Warming Bun|mundane|6|-|A soft spiced bun wrapped in heat-holding paper. Breaking its crust releases a pleasant little puff of warmth and the smell of cinnamon.|Bakeries; festival stalls
+Honest Blue Candy|mundane|4|-|A little wrapped sweet that colors the eater's tongue an impressive blue for a while. The wrapper indignantly insists that this is the intended effect.|Sweet shops; common markets
+Pocket Celebration|mundane|20|-|A paper cone of harmless colored sparks, loose streamers and a startling pop. The little fuse burns long enough for a sensible person to hold it away from their face.|Festival and curiosity stalls
+Resin Mending Patch|artisan|65|-|A sealed repair patch that softens when kneaded and hardens over a clean split. It is useful for a modest emergency repair to a compatible rigid object.|Workshop and expedition shops

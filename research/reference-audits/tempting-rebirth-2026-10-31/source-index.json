@@ -1,0 +1,478 @@
+{
+  "referenceSHA256": "cf32e15c4100bbdffacf90b3e516d98b9753dfc5fc89d8f6c723e6b4be813baf",
+  "ourSHA256": "251b27f06704dbe6782e22bfe050af98d280456744c9a03ef5811fe46a7fe400",
+  "patchTitles": [
+    {
+      "line": 7,
+      "title": "Heard and Mended: Update"
+    },
+    {
+      "line": 84,
+      "title": "🎴 Patch Notes: The Card Is the Truth"
+    },
+    {
+      "line": 171,
+      "title": "🧵 Patch Notes: Every Thread Tied"
+    },
+    {
+      "line": 248,
+      "title": "💞 Patch Notes, part 2: Earned, Ranked and Housed"
+    },
+    {
+      "line": 335,
+      "title": "🎴 Patch Notes, part 3: One Scale for Every Item"
+    },
+    {
+      "line": 377,
+      "title": "Hotfix: Lore & Some Naming Filters"
+    },
+    {
+      "line": 454,
+      "title": "🍙 Patch Notes: Take No for an Answer (1/4)"
+    },
+    {
+      "line": 531,
+      "title": "🗺️ Patch Notes: Right Where It Is (2/4)"
+    },
+    {
+      "line": 589,
+      "title": "💰 Patch Notes: Priced in Mon (3/4)"
+    },
+    {
+      "line": 672,
+      "title": "🌿 Patch Notes: Lives of Their Own (4/4)"
+    },
+    {
+      "line": 771,
+      "title": "🗺️ Patch Notes: Every Room Has an Address (an experiment)"
+    },
+    {
+      "line": 814,
+      "title": "🔔 Patch Notes: Back to the Bells"
+    },
+    {
+      "line": 906,
+      "title": "🧭 Patch Notes: Only Where You Go"
+    },
+    {
+      "line": 958,
+      "title": "🌀 Patch Notes: Waystep + Magic Interactions w/ Time Tracking"
+    },
+    {
+      "line": 1026,
+      "title": "🕰️ Hotfix: The Clock Slows Down"
+    },
+    {
+      "line": 1071,
+      "title": "🕰️ Patch Notes: Clockwork"
+    },
+    {
+      "line": 1194,
+      "title": "🏡 Patch Notes: Lived In"
+    },
+    {
+      "line": 1284,
+      "title": "🏡 Patch Notes: Where Everyone Belongs (1 of 2)"
+    },
+    {
+      "line": 1379,
+      "title": "🏡 Patch Notes: Where Everyone Belongs (2 of 2)"
+    },
+    {
+      "line": 1448,
+      "title": "🛡️ Hotfix: Your Allies Are on Your Side"
+    },
+    {
+      "line": 1477,
+      "title": "📚 Hotfix: Learning New Skills"
+    },
+    {
+      "line": 1499,
+      "title": "🎲 Hotfix: Every Roll Counts"
+    },
+    {
+      "line": 1518,
+      "title": "🩹 Hotfix: Critical Heals"
+    },
+    {
+      "line": 1541,
+      "title": "🗝️ Patch Notes: Fight or Flight"
+    },
+    {
+      "line": 1612,
+      "title": "🗝️ Patch Notes: Every Door Open + More"
+    },
+    {
+      "line": 1707,
+      "title": "Everything in Its Place · October 2026 · part 1 of 2"
+    },
+    {
+      "line": 1788,
+      "title": "Everything in Its Place · October 2026 · part 2 of 2"
+    },
+    {
+      "line": 1872,
+      "title": "At Your Own Pace · October 2026 · part 1 of 2"
+    },
+    {
+      "line": 1971,
+      "title": "At Your Own Pace · October 2026 · part 2 of 2"
+    },
+    {
+      "line": 2070,
+      "title": "🌙 The World After My Rebirth Is Far Too Tempting — Patch Notes"
+    },
+    {
+      "line": 2193,
+      "title": "🌙 The World After My Rebirth Is Far Too Tempting — Patch Notes"
+    },
+    {
+      "line": 2295,
+      "title": "🌙 The World After My Rebirth Is Far Too Tempting — Patch Notes (1 of 2)"
+    },
+    {
+      "line": 2382,
+      "title": "🌙 The World After My Rebirth Is Far Too Tempting — Patch Notes (2 of 2)"
+    },
+    {
+      "line": 2484,
+      "title": "Major Patch/Update (1/2)"
+    },
+    {
+      "line": 2569,
+      "title": "Major Patch/Update (2/2)"
+    },
+    {
+      "line": 2674,
+      "title": "🌙 The World After My Rebirth Is Far Too Tempting — Patch Notes"
+    },
+    {
+      "line": 2731,
+      "title": "🌙 The World After My Rebirth Is Far Too Tempting — Patch Notes"
+    },
+    {
+      "line": 2853,
+      "title": "🌙 The World After My Rebirth Is Far Too Tempting — Patch Notes"
+    },
+    {
+      "line": 2900,
+      "title": "🌙 The World After My Rebirth Is Far Too Tempting — Patch Notes"
+    },
+    {
+      "line": 2974,
+      "title": "🌙 The World After My Rebirth Is Far Too Tempting — Patch Notes"
+    },
+    {
+      "line": 3029,
+      "title": "# 🌙 The World After My Rebirth Is Far Too Tempting — Patch Notes"
+    },
+    {
+      "line": 3080,
+      "title": "The lift runs straight, a bar of chitin is a material, and the Riftmaw has no favorites."
+    },
+    {
+      "line": 3124,
+      "title": "Hotfix from User Feedback"
+    },
+    {
+      "line": 3165,
+      "title": "LARGE RIFTMAW UPDATE - A Map of its Own!"
+    },
+    {
+      "line": 3249,
+      "title": "Riftmaw Location Fix"
+    },
+    {
+      "line": 3283,
+      "title": "*The Riftmaw stops throwing you back up the stairs.*"
+    },
+    {
+      "line": 3316,
+      "title": "Dungeons stop helping. If you want something from the dark, you pay for it."
+    },
+    {
+      "line": 3355,
+      "title": "Monsters fight like they mean it, your defense always gets its roll, and rivals stop repeating one line."
+    },
+    {
+      "line": 3404,
+      "title": "Riftmaw Remake + MUCH MORE! (1/2)"
+    },
+    {
+      "line": 3488,
+      "title": "Riftmaw Remake + MUCH MORE! (2/2)"
+    },
+    {
+      "line": 3553,
+      "title": "Rolls that make sense, failures that mean something, rewards you can point to, and a new race."
+    },
+    {
+      "line": 3630,
+      "title": "A deep start that finally lets you climb, and a top-to-bottom quality pass on the whole world."
+    },
+    {
+      "line": 3711,
+      "title": "Your rank on paper, two races at once, and a stack of fixes from your reports."
+    },
+    {
+      "line": 3774,
+      "title": "The map pins now sit on the places the map draws."
+    },
+    {
+      "line": 3804,
+      "title": "Relationship Updates + Pets + THANKS FOR 2 MILLION TURNS!"
+    },
+    {
+      "line": 3864,
+      "title": "🌙 The World After My Rebirth Is Far Too Tempting — Patch Notes"
+    },
+    {
+      "line": 3912,
+      "title": "🌙 The World After My Rebirth Is Far Too Tempting — Patch Notes"
+    },
+    {
+      "line": 3974,
+      "title": "Luxcellia will still feed you. It will stop insisting."
+    },
+    {
+      "line": 4008,
+      "title": "Somewhere to swim, the wilds where they belong, and three rookies who were told wrong."
+    },
+    {
+      "line": 4071,
+      "title": "Tools you can use, places nobody lives, and honest pay for honest work."
+    },
+    {
+      "line": 4148,
+      "title": "🌙 The World After My Rebirth Is Far Too Tempting — Patch Notes"
+    },
+    {
+      "line": 4183,
+      "title": "🌙 The World After My Rebirth Is Far Too Tempting — Patch Notes"
+    },
+    {
+      "line": 4227,
+      "title": "🌙 The World After My Rebirth Is Far Too Tempting — Patch Notes"
+    },
+    {
+      "line": 4303,
+      "title": "# 🌙 The World After My Rebirth Is Far Too Tempting — Patch Notes"
+    },
+    {
+      "line": 4382,
+      "title": "Two Reborn Bodies that were one, and a Codex in new ink."
+    },
+    {
+      "line": 4432,
+      "title": "⚔️ How Combat Works"
+    },
+    {
+      "line": 4470,
+      "title": "🌙 The World After My Rebirth Is Far Too Tempting — Patch Notes"
+    },
+    {
+      "line": 4557,
+      "title": "🌙 The World After My Rebirth Is Far Too Tempting — Patch Notes"
+    },
+    {
+      "line": 4651,
+      "title": "New Codex/Website Party Builder Page - User Request"
+    },
+    {
+      "line": 4672,
+      "title": "🌙 The World After My Rebirth Is Far Too Tempting — Patch Notes"
+    },
+    {
+      "line": 4770,
+      "title": "New Codex/Website Page for Community Appreciation!"
+    },
+    {
+      "line": 4791,
+      "title": "🌙 The World After My Rebirth Is Far Too Tempting — Patch Notes (1/3)"
+    },
+    {
+      "line": 4893,
+      "title": "🌙 The World After My Rebirth Is Far Too Tempting — Patch Notes (2/3)"
+    },
+    {
+      "line": 4980,
+      "title": "🌙 The World After My Rebirth Is Far Too Tempting — Patch Notes (3/3)"
+    },
+    {
+      "line": 5073,
+      "title": "Patch Notes (1/3)"
+    },
+    {
+      "line": 5154,
+      "title": "Patch Notes (2/3)"
+    },
+    {
+      "line": 5235,
+      "title": "Patch Notes (3/3)"
+    },
+    {
+      "line": 5339,
+      "title": "Small Update Audit For NPC Health (Authored NPCs)"
+    },
+    {
+      "line": 5375,
+      "title": "🌙 The World After My Rebirth Is Far Too Tempting — Patch Notes"
+    },
+    {
+      "line": 5494,
+      "title": "🌙 The World After My Rebirth Is Far Too Tempting — Patch Notes"
+    },
+    {
+      "line": 5547,
+      "title": "# 📖 Codex Luxcellia — Website Patch Notes"
+    },
+    {
+      "line": 5637,
+      "title": "Companies Major Update + More | NEW WORLD LAUNCH ALSO"
+    },
+    {
+      "line": 5734,
+      "title": "🌙 The World After My Rebirth Is Far Too Tempting — Patch Notes"
+    },
+    {
+      "line": 5789,
+      "title": "🌙 The World After My Rebirth Is Far Too Tempting — Patch Notes"
+    },
+    {
+      "line": 5822,
+      "title": "🌙 The World After My Rebirth Is Far Too Tempting — Patch Notes"
+    },
+    {
+      "line": 5857,
+      "title": "🌙 The World After My Rebirth Is Far Too Tempting — Patch Notes"
+    },
+    {
+      "line": 5959,
+      "title": "🌙 The World After My Rebirth Is Far Too Tempting — Patch Notes"
+    },
+    {
+      "line": 5999,
+      "title": "🌙 The World After My Rebirth Is Far Too Tempting — Patch Notes"
+    },
+    {
+      "line": 6049,
+      "title": "📖 Story Start Refresh"
+    },
+    {
+      "line": 6068,
+      "title": "New Game Mode: The Unwelcome Reborn"
+    },
+    {
+      "line": 6092,
+      "title": "Quest Completion Fixes"
+    },
+    {
+      "line": 6114,
+      "title": "Capes, Cloaks & a New Back Slot"
+    },
+    {
+      "line": 6136,
+      "title": "🥀 Courts of Desire - BRAND NEW WORLD LAUNCH"
+    },
+    {
+      "line": 6173,
+      "title": "Quest & Divinity Fixes"
+    },
+    {
+      "line": 6195,
+      "title": "📱 A Little Signal from Another World"
+    },
+    {
+      "line": 6232,
+      "title": "🎶 More Ways to Play a Bard + Fixes"
+    },
+    {
+      "line": 6272,
+      "title": "🎶 Three New Main Themes for Luxcellia"
+    },
+    {
+      "line": 6303,
+      "title": "🌙 The World After My Rebirth Is Far Too Tempting — Patch Notes"
+    },
+    {
+      "line": 6337,
+      "title": "🌙 The World After My Rebirth Is Far Too Tempting — Patch Notes"
+    },
+    {
+      "line": 6380,
+      "title": "The Right Place Update · September 2026"
+    },
+    {
+      "line": 6431,
+      "title": "The World After My Rebirth Is Far Too Tempting — Patch Notes"
+    },
+    {
+      "line": 6479,
+      "title": "🌙 The World After My Rebirth Is Far Too Tempting — Patch Notes"
+    },
+    {
+      "line": 6513,
+      "title": "🌙 The World After My Rebirth Is Far Too Tempting — Patch Notes"
+    },
+    {
+      "line": 6541,
+      "title": "🌙 The World After My Rebirth Is Far Too Tempting — Patch Notes"
+    },
+    {
+      "line": 6582,
+      "title": "World Codex Update - September 11th, 2026."
+    },
+    {
+      "line": 6609,
+      "title": "The Questline Update · September 2026"
+    },
+    {
+      "line": 6653,
+      "title": "Luxcellia Codex - Fully Up To Date + New Features!"
+    },
+    {
+      "line": 6678,
+      "title": "Ability Descriptions 💫"
+    },
+    {
+      "line": 6709,
+      "title": "Aventyria - Brand New World Launch!"
+    },
+    {
+      "line": 6752,
+      "title": "Instruction Changes + Fort Dawnsward Relocation + More"
+    },
+    {
+      "line": 6785,
+      "title": "Grounded Mode + NPC Changes"
+    },
+    {
+      "line": 6819,
+      "title": "Cut From the Hero's Party - Addition"
+    },
+    {
+      "line": 6848,
+      "title": "Character Creation Tune-Up / Whips + Chains - Daggers + Knives / New Blessings"
+    },
+    {
+      "line": 6888,
+      "title": "Travel Update"
+    },
+    {
+      "line": 6934,
+      "title": "40+ new weapons, brand new map + remapped locations and more"
+    },
+    {
+      "line": 6988,
+      "title": "New Locations + Story Starts + Gunslinger Weapons!"
+    },
+    {
+      "line": 7038,
+      "title": "External image URLs (NPC/Location/Region) All Hosted Internally"
+    },
+    {
+      "line": 7068,
+      "title": "System Game Mode Changes + Visual Mode on by Default"
+    }
+  ]
+}

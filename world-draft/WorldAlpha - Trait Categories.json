@@ -1,0 +1,523 @@
+{
+  "Species & Ancestry": {
+    "name": "Species & Ancestry",
+    "maxSelections": 1,
+    "traits": [
+      "Human",
+      "Elf",
+      "Dwarf",
+      "Dragonkin",
+      "Fae",
+      "Beastfolk",
+      "Oni",
+      "Mixed Ancestry"
+    ],
+    "description": "Choose one ancestry and describe your individual adult appearance. Each grants the listed modest +1 skill and its actual anatomy. Culture, occupation, morality and magical affinity remain individual."
+  },
+  "Beastfolk Form": {
+    "name": "Beastfolk Form",
+    "description": "Optional — for Beastfolk or a mixed-ancestry character with beastfolk heritage. Choose one mostly human form or skip and describe your own. Rare more animal-like bodies require explicit direction.",
+    "maxSelections": 1,
+    "traits": [
+      "Beastfolk Form — Cat",
+      "Beastfolk Form — Dog",
+      "Beastfolk Form — Wolf",
+      "Beastfolk Form — Fox",
+      "Beastfolk Form — Rabbit",
+      "Beastfolk Form — Ram",
+      "Beastfolk Form — Deer",
+      "Beastfolk Form — Bear",
+      "Beastfolk Form — Rat",
+      "Beastfolk Form — Bird",
+      "Beastfolk Form — Reptile"
+    ]
+  },
+  "Fae Form": {
+    "name": "Fae Form",
+    "description": "Optional — for Fae or a mixed-ancestry character with fae heritage. Choose one starting body plan or skip and describe a coherent individual blend. These are appearance examples, not rigid subraces.",
+    "maxSelections": 1,
+    "traits": [
+      "Fae Form — Butterfly-winged",
+      "Fae Form — Moth-winged",
+      "Fae Form — Dragonfly-winged",
+      "Fae Form — Feather-winged",
+      "Fae Form — Satyr",
+      "Fae Form — Antlered",
+      "Fae Form — Bark-scaled",
+      "Fae Form — Wingless"
+    ]
+  },
+  "Fae Stature": {
+    "name": "Fae Stature",
+    "description": "Optional — select a fae adult height or skip. Short fae keep adult faces and proportions. Height grants no power or age change.",
+    "maxSelections": 1,
+    "traits": [
+      "Fae Stature — Very short adult",
+      "Fae Stature — Short adult",
+      "Fae Stature — Human height",
+      "Fae Stature — Towering adult"
+    ]
+  },
+  "Origin & Upbringing": {
+    "name": "Origin & Upbringing",
+    "maxSelections": 1,
+    "traits": [
+      "Glowhaven City Local",
+      "Brookmeadow Villager",
+      "Crescent Coast Resident",
+      "Drakenspire Highlander",
+      "Asterveil Sky-Islander",
+      "Merchant Household",
+      "Workshop Household",
+      "Academic Household",
+      "Guild Household",
+      "Traveling Family",
+      "Foreign Newcomer",
+      "Civic District Upbringing"
+    ],
+    "description": "Choose one formative background: where your life began or what work surrounded you. +1 relevant utility skill, but no automatic personal connections, property, legal status or quest completion."
+  },
+  "Primary Aptitude": {
+    "name": "Primary Aptitude",
+    "maxSelections": 1,
+    "traits": [
+      "Primary Force",
+      "Primary Finesse",
+      "Primary Logic",
+      "Primary Passion",
+      "Primary Empathy",
+      "Primary Intuition"
+    ],
+    "description": "Choose your strongest aptitude: +5, normally 15 from base 10. Force covers physical power, resilience, and guarded fighting; Finesse covers coordination, precision, and timing. Logic, Passion, Empathy, and Intuition support the listed magical disciplines. This is capability, not a personality or class. The choice also supplies common foundational skills at level 0."
+  },
+  "Secondary Aptitude": {
+    "name": "Secondary Aptitude",
+    "maxSelections": 1,
+    "traits": [
+      "Secondary Force",
+      "Secondary Finesse",
+      "Secondary Logic",
+      "Secondary Passion",
+      "Secondary Empathy",
+      "Secondary Intuition"
+    ],
+    "description": "Choose a different supporting aptitude: +3, normally 13. A spellblade can pair a physical and magical aptitude; a dedicated caster can pair two magical aptitudes. Other attributes remain 10. A matching primary is excluded. No attribute is required for the basic Health, Mana or Stamina pool."
+  },
+  "Natural Magical Affinity": {
+    "name": "Natural Magical Affinity",
+    "maxSelections": 3,
+    "traits": [
+      "Arcane Affinity",
+      "Metal Affinity",
+      "Gravity Affinity",
+      "Enchantment Affinity",
+      "Fire Affinity",
+      "Lightning Affinity",
+      "Earth Affinity",
+      "Wind Affinity",
+      "Water Affinity",
+      "Healing Affinity",
+      "Nature Affinity",
+      "Light Affinity",
+      "Summoning Affinity",
+      "Soul Affinity",
+      "Divination Affinity",
+      "Void Affinity",
+      "Illusion Affinity",
+      "Ice Affinity",
+      "Sound Affinity"
+    ],
+    "description": "Choose 1–3 natural affinities: disciplines you find easier to learn. Affinities are separate from Starting Magical Study and grant no skills or spells by themselves. Other magic can be learned through practice, study or mentorship. Space and Time are not starting choices."
+  },
+  "Starting Magical Study": {
+    "name": "Starting Magical Study",
+    "maxSelections": 2,
+    "traits": [
+      "Arcane Studies",
+      "Metal Studies",
+      "Gravity Studies",
+      "Enchantment Studies",
+      "Fire Studies",
+      "Lightning Studies",
+      "Earth Studies",
+      "Wind Studies",
+      "Water Studies",
+      "Healing Studies",
+      "Nature Studies",
+      "Light Studies",
+      "Summoning Studies",
+      "Divination Studies",
+      "Void Studies",
+      "Illusion Studies",
+      "Ice Studies",
+      "Sound Studies",
+      "Soul Studies"
+    ],
+    "description": "Choose up to two disciplines you have studied. Each starts at skill level 3 with two introductory techniques. Studies may differ from your affinities. Choose none for an untrained or martial background. Space and Time are unavailable at creation; advanced Space study requires Gravity preparation. Shared Spellcraft knowledge does not mean you can cast every discipline."
+  },
+  "Practical Training": {
+    "name": "Practical Training",
+    "maxSelections": 2,
+    "traits": [
+      "Force Training",
+      "Finesse Training",
+      "Guarded Training",
+      "Scholarly Practice"
+    ],
+    "description": "Choose one or two distinct practiced approaches. Force, Finesse, and Guarded Training each grant the matching combat skill at level 3; Scholarly Practice grants spellcraft 2 and investigation 1. Each option represents separate prior practice. Weapon and unarmed methods follow actual training and equipment, not one forced attribute for every sword. These choices grant no attribute points or automatic advanced abilities."
+  },
+  "Profession & Useful Skills": {
+    "name": "Profession & Useful Skills",
+    "maxSelections": 1,
+    "traits": [
+      "Merchant Apprentice",
+      "Research Assistant",
+      "Medical Assistant",
+      "Alchemist Apprentice",
+      "Magitech Technician",
+      "Field Scout",
+      "Cook",
+      "Perfumery Apprentice",
+      "Animal Caretaker",
+      "Performer",
+      "Courier",
+      "Community Coordinator"
+    ],
+    "description": "Choose one useful prior profession or practical training. Grants +2 in an existing utility skill. This is experience, not an automatically accepted job or official license."
+  },
+  "Starting Equipment": {
+    "name": "Starting Equipment",
+    "maxSelections": 1,
+    "traits": [
+      "Wand Kit",
+      "Staff Kit",
+      "Grimoire Kit",
+      "Blade Kit",
+      "Shield Kit",
+      "Handwrap Kit",
+      "Hand-Casting Practice",
+      "Field Survey Kit",
+      "Workshop Starter Kit",
+      "First Aid Kit",
+      "Technical Inspection Kit"
+    ],
+    "description": "Choose one basic casting, martial or practical kit, or Hand-Casting Practice for no extra item. It is independent of your training style. Ordinary tools, clothing and remembered techniques stay distinct; a kit grants only its listed items once."
+  },
+  "Temperament": {
+    "name": "Temperament",
+    "maxSelections": 2,
+    "traits": [
+      "Reserved",
+      "Outgoing",
+      "Blunt",
+      "Curious",
+      "Competitive",
+      "Patient",
+      "Restless",
+      "Ambitious",
+      "Idealistic",
+      "Pragmatic",
+      "Playful",
+      "Disciplined",
+      "Rebellious",
+      "Warm",
+      "Sarcastic",
+      "Cautious",
+      "Expressive",
+      "Observant",
+      "Proud",
+      "Independent"
+    ],
+    "description": "Optional — choose up to two tendencies, or skip. These are narrative preferences with no skill bonus or penalty; your actual words and decisions remain yours."
+  },
+  "First Impression": {
+    "name": "First Impression",
+    "maxSelections": 1,
+    "traits": [
+      "Easy to Approach",
+      "Quiet Presence",
+      "Severe Expression",
+      "Cheerful Presence",
+      "Well-Mannered",
+      "Unconventional Style",
+      "Nervous Newcomer",
+      "Confident Bearing",
+      "Hard to Read"
+    ],
+    "description": "Optional — skip this category if you prefer: how a stranger might initially read your visible presentation. Purely narrative. Actual circumstances and individual NPC judgment always matter."
+  },
+  "Personal Motivation": {
+    "name": "Personal Motivation",
+    "maxSelections": 1,
+    "traits": [
+      "Seeking Mastery",
+      "Financial Independence",
+      "Seeing the Wider World",
+      "Making Connections",
+      "Family Expectations",
+      "Finding a Place to Belong",
+      "Creative Ambition",
+      "Quiet Ordinary Life",
+      "Recognition and Fame",
+      "Civic Contribution",
+      "A Personal Mystery",
+      "Protecting Someone"
+    ],
+    "description": "Optional — skip this category if you prefer: what the character may be seeking. This creates motivation, not a mandatory quest, background tragedy, debt, relationship, status, or obligation."
+  },
+  "Personal Complication": {
+    "name": "Personal Complication",
+    "maxSelections": 1,
+    "traits": [
+      "Perfectionism",
+      "Overconfidence",
+      "Slow to Trust",
+      "Fear of Failure",
+      "Poor Sense of Direction",
+      "Impulsiveness",
+      "Procrastination",
+      "Easily Embarrassed",
+      "Overcommitted",
+      "Difficulty Asking for Help"
+    ],
+    "description": "Optional — skip this category if you prefer: one realistic personal difficulty for stories and relationships. Narrative only: no mandatory penalty, trauma, or automatic player action."
+  },
+  "Appearance Builder": {
+    "name": "Appearance Builder",
+    "description": "Optional — choose up to one detail in each group, or skip any or all and write your own appearance. Hair, eyes, skin, build and outfit are visual choices. Portrait style, framing, camera and backdrop have their own optional sections below. Written appearance takes precedence. Styling does not grant equipment or membership.",
+    "maxSelections": 6,
+    "traits": [],
+    "subcategories": [
+      {
+        "name": "Hair Color — choose up to one",
+        "traits": [
+          "Hair Color — Black",
+          "Hair Color — Dark brown",
+          "Hair Color — Chestnut",
+          "Hair Color — Honey-blond",
+          "Hair Color — Platinum blond",
+          "Hair Color — Copper",
+          "Hair Color — Crimson",
+          "Hair Color — Silver",
+          "Hair Color — White",
+          "Hair Color — Violet",
+          "Hair Color — Rose pink",
+          "Hair Color — Cobalt blue",
+          "Hair Color — Teal",
+          "Hair Color — Mint green",
+          "Hair Color - Ash Brown",
+          "Hair Color - Ash gray",
+          "Hair Color - Auburn",
+          "Hair Color - Burgundy",
+          "Hair Color - Coral",
+          "Hair Color - Emerald Green",
+          "Hair Color - Ginger",
+          "Hair Color - Golden Blond",
+          "Hair Color - Jet Black",
+          "Hair Color - Lavender",
+          "Hair Color - Midnight Blue",
+          "Hair Color - Rose Gold",
+          "Hair Color - Sunset Orange"
+        ]
+      },
+      {
+        "name": "Hair Style — choose up to one",
+        "traits": [
+          "Hair Style — Short and straight",
+          "Hair Style — Short and wavy",
+          "Hair Style — Short and curly",
+          "Hair Style — Medium and straight",
+          "Hair Style — Medium and wavy",
+          "Hair Style — Medium and curly",
+          "Hair Style — Long and straight",
+          "Hair Style — Long and wavy",
+          "Hair Style — Long and curly",
+          "Hair Style — Cropped",
+          "Hair Style — Tousled",
+          "Hair Style — Bob",
+          "Hair Style — Shoulder-length",
+          "Hair Style — Pixie cut",
+          "Hair Style — Buzz cut",
+          "Hair Style — Layered",
+          "Hair Style — Messy",
+          "Hair Style — Bun",
+          "Hair Style — Messy bun",
+          "Hair Style — Half-up, half-down",
+          "Hair Style — Side-parted",
+          "Hair Style — Middle-parted",
+          "Hair Style — Slicked back",
+          "Hair Style — Bangs",
+          "Hair Style — Side-swept bangs",
+          "Hair Style — Curtain bangs",
+          "Hair Style — Ponytail",
+          "Hair Style — High ponytail",
+          "Hair Style — Low ponytail",
+          "Hair Style — Side ponytail",
+          "Hair Style — Braid",
+          "Hair Style — Side braid",
+          "Hair Style — French braid",
+          "Hair Style — Double braids",
+          "Hair Style — Double buns",
+          "Hair Style — Wolf cut",
+          "Hair Style — Hime cut",
+          "Hair Style — Hime bob",
+          "Hair Style — Shag cut",
+          "Hair Style — Mullet",
+          "Hair Style — Undercut",
+          "Hair Style — Fade",
+          "Hair Style — Pompadour",
+          "Hair Style — Twintails",
+          "Hair Style — Drill twintails",
+          "Hair Style — Pinned up",
+          "Hair Style — Shaved",
+          "Hair Style — Afro",
+          "Hair Style — Dreadlocks",
+          "Hair Style — Cornrows",
+          "Hair Style — Box braids",
+          "Hair Style — Mohawk"
+        ]
+      },
+      {
+        "name": "Eye Color — choose up to one",
+        "traits": [
+          "Eye Color — Brown",
+          "Eye Color — Hazel",
+          "Eye Color — Amber",
+          "Eye Color — Gold",
+          "Eye Color — Gray",
+          "Eye Color — Blue",
+          "Eye Color — Green",
+          "Eye Color — Violet",
+          "Eye Color — Red",
+          "Eye Color — Pink",
+          "Eye Color — Turquoise",
+          "Eye Color — Silver"
+        ]
+      },
+      {
+        "name": "Skin Tone — choose up to one",
+        "traits": [
+          "Skin Tone — Porcelain",
+          "Skin Tone — Fair",
+          "Skin Tone — Warm beige",
+          "Skin Tone — Olive",
+          "Skin Tone — Golden tan",
+          "Skin Tone — Bronze",
+          "Skin Tone — Deep brown",
+          "Skin Tone — Ebony",
+          "Skin Tone — Charcoal",
+          "Skin Tone — Ash violet"
+        ]
+      },
+      {
+        "name": "Build — choose up to one",
+        "traits": [
+          "Build — Slender",
+          "Build — Lean athletic",
+          "Build — Broad and muscular",
+          "Build — Sturdy",
+          "Build — Soft and rounded",
+          "Build — Curvy",
+          "Build — Compact"
+        ]
+      },
+      {
+        "name": "Outfit — choose up to one",
+        "traits": [
+          "Outfit — Academy student",
+          "Outfit — Academy faculty",
+          "Outfit — Traveling layers",
+          "Outfit — Mage robes",
+          "Outfit — Field coat",
+          "Outfit — Formal tailoring",
+          "Outfit — Everyday clothes",
+          "Outfit — Work clothes",
+          "Outfit — Spellblade layers",
+          "Outfit — Adventurer leathers",
+          "Outfit — Knightly plate",
+          "Outfit — Light duelist",
+          "Outfit — Martial attire",
+          "Outfit — Scholar robes",
+          "Outfit — Alchemist coat",
+          "Outfit — Artisan apron",
+          "Outfit — Clerical tailoring",
+          "Outfit — Elegant dress",
+          "Outfit — Noble finery",
+          "Outfit — Festival kimono",
+          "Outfit — Shrine-inspired",
+          "Outfit — Street fashion",
+          "Outfit — Gothic layers",
+          "Outfit — Winter wool and fur",
+          "Outfit — Sky-traveler",
+          "Outfit — Simple country clothes"
+        ]
+      }
+    ]
+  },
+  "Portrait Style": {
+    "name": "Portrait Style",
+    "description": "Optional — skip for the default crisp, colorful 2D fantasy-anime style. All choices remain hand-drawn anime; none changes abilities or equipment.",
+    "maxSelections": 1,
+    "traits": [
+      "Portrait Style — Crisp fantasy anime",
+      "Portrait Style — Dramatic gacha illustration",
+      "Portrait Style — Shonen action",
+      "Portrait Style — Romcom warmth",
+      "Portrait Style — Elegant linework",
+      "Portrait Style — Dark fantasy anime",
+      "Portrait Style — Watercolor accents"
+    ]
+  },
+  "Portrait Framing": {
+    "name": "Portrait Framing",
+    "description": "Optional — waist-up or hip-up. Skip for a fitting hip-up or waist-up composition, full head in frame, without a fixed headroom percentage.",
+    "maxSelections": 1,
+    "traits": [
+      "Portrait Frame — Waist-up",
+      "Portrait Frame — Hip-up"
+    ]
+  },
+  "Portrait Camera": {
+    "name": "Portrait Camera",
+    "description": "Optional — choose a viewpoint, or leave it to the illustration. The default is a readable natural eye-level or three-quarter view.",
+    "maxSelections": 1,
+    "traits": [
+      "Portrait Camera — Natural eye level",
+      "Portrait Camera — Three-quarter",
+      "Portrait Camera — Slight low angle",
+      "Portrait Camera — Slight high angle",
+      "Portrait Camera — Gentle Dutch angle"
+    ]
+  },
+  "Portrait Background": {
+    "name": "Portrait Background",
+    "description": "Optional — choose a picture backdrop or skip for a fitting setting from your opening. A background styles the portrait and does not move your character.",
+    "maxSelections": 1,
+    "traits": [
+      "Portrait Background — At the opening",
+      "Portrait Background — Academy corridor",
+      "Portrait Background — Academy garden",
+      "Portrait Background — Library",
+      "Portrait Background — Workshop",
+      "Portrait Background — City street",
+      "Portrait Background — Wilderness overlook",
+      "Portrait Background — Warm interior",
+      "Portrait Background — Evertree plaza",
+      "Portrait Background — Four Sages Bazaar",
+      "Portrait Background — Harbor quay",
+      "Portrait Background — Guild hall",
+      "Portrait Background — Alchemy bench",
+      "Portrait Background — Training courtyard",
+      "Portrait Background — Spell circle",
+      "Portrait Background — Quiet dormitory",
+      "Portrait Background — Tea garden",
+      "Portrait Background — Moonlit balcony",
+      "Portrait Background — Rainy street",
+      "Portrait Background — Snowbound Drakenspire",
+      "Portrait Background — Asterveil terrace",
+      "Portrait Background — Pine overlook",
+      "Portrait Background — Graphic color field",
+      "Portrait Background — Soft floral illustration"
+    ]
+  }
+}

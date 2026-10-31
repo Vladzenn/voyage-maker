@@ -1,0 +1,16 @@
+# Alpha20 — Live Playtest Notes
+
+Local tests have passed; these checks require the actual Voyage engine and story model.
+
+1. Start at each academy. Confirm the appropriate theory teacher and a small actual class appear; the first personal design uses Spellcraft and its discipline. A failed design gives feedback. A delayed learned-ability card must not create an invented ability or strand a genuinely completed lesson.
+2. Spend ordinary campus time between major events. Confirm fresh lessons/social episodes count once, short chat does not, and announcements remain spaced. Check a direct request to move ahead. No event may pass itself or advance the calendar four years.
+3. Attend the joint familiar practical and release a temporary summon without a permanent bond. Check actual supervision, normal learning and a viable pass without a rare affinity or free pet.
+4. Visit the public festival as a nonstudent. Choose one route and conclude it without all attractions, forced romance, academic credit or party recruitment.
+5. Test a normal authorized expedition, a level-20 anomalous crossing and the optional spider investigation separately. Check the existing Evertree return destination and key rules. A canceled field test cannot complete the expedition milestone.
+6. Finish a practical thesis, then change schools or revisit an adviser. The capstone must remain concluded. The ceremony should acknowledge actual work without graduating a first-year or starting another job by force. Ordinary learning continues afterward.
+7. Browse guild work at each rank and unlicensed. Check only eligible playable offers, explicit acceptance, the full quoted fee and one service credit for the actual eligible participants. Check a lost badge and an actual reissue rather than invented authorization.
+8. Complete each recurring pattern, try immediate repetition, then request a fresh instance after the gap. Prior proof cannot complete the new run; real new work pays exactly once. Refusal and abandonment must remain choices.
+9. Play the three Drakenspire chapter sequences through different remedies and conduct. Source NPCs retain their actual knowledge, flaws and work; clan politics do not demand a dragon/yeti appointment.
+10. Follow Asterveil crossings and the quarry across actual terrain. Creatures must register and actively oppose committed intrusion where appropriate. Preserve a genuine early defeat; later chapters must not resurrect or replace the quarry. Test retreat and real alternative solutions.
+11. Ask for several procedurally generated jobs in each context. Inspect their actual quest records for supported payment/credit effects and test real settlement, missing effects and double-payment resistance. Check variety beyond reports, collection and combat. Generated content depends on the model and is not guaranteed by local script fixtures.
+12. In a mixed-school or mixed-badge multiplayer session, check actual participants and recipients. Native quest progress is party-level and is not proof every individual passed or participated. Check a missing teacher and a genuinely authorized competent substitute without resurrecting anyone. Reload after a chapter and revisit a resolved place.

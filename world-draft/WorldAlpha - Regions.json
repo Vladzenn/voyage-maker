@@ -1,0 +1,231 @@
+{
+  "Glowhaven": {
+    "name": "Glowhaven",
+    "basicInfo": "Glowhaven City and its neighboring settlements, farms, woods, rivers, islands and coast form the Glowhaven region. A trip beyond the city walls remains local travel; academy field expeditions go beyond the whole region.",
+    "x": -3,
+    "y": 0,
+    "hiddenInfo": "",
+    "realm": "Glowhaven",
+    "initialKnown": true,
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/a08106bd-7739-4b4d-b57a-36e80900cbb8.png"
+      }
+    },
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    }
+  },
+  "Drakenspire Highlands": {
+    "name": "Drakenspire Highlands",
+    "basicInfo": "Drakenspire Highlands covers the capital's two snowy shelves and its surrounding mountain country across the mountain basin. The higher northeastern fortress and crescent of ancestral dragon bones dominate the skyline; the lower shelf holds the busy city. Near slopes support livestock, water infrastructure and maintained approaches. Farther routes reach sparse pines, a frozen basin, working mines, old settlements, caves, Frostback Mountain and isolated creature territories. Places within the fortress precinct are separate playable sites in one coherent complex, not detached castles. The region's existing boundaries contain these expeditions; travel within it does not invent additional regions. The enclosed portalward quarter remains the arrival point from Glowhaven.",
+    "x": 0,
+    "y": 0,
+    "realm": "Drakenspire Mountains",
+    "initialKnown": false,
+    "npcLevelRange": {
+      "min": 5,
+      "max": 40
+    },
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/e230c553-6ec3-4750-8ee3-c5749abe2f8e.png"
+      }
+    }
+  },
+  "Silken Chasm": {
+    "name": "Silken Chasm",
+    "x": 0,
+    "y": 1,
+    "realm": "The Silken Descent",
+    "initialKnown": false,
+    "npcLevelRange": {
+      "min": 18,
+      "max": 22
+    },
+    "basicInfo": "The upper half of the Silken Descent: a ruined portal chamber above limestone galleries hung with pearl-silver webbing. Cool blue fungi light split stairs, an exposed tension bridge and dry molting alcoves. A main passage curls down the right wall and continues into the Silken Depths at the bottom edge of this map. The portal floor is a refuge; territorial giant spiders occupy the first chamber. This is a close cutaway diagram of a small dungeon, not an overland distance map.",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/5a3be7c6-056e-4f49-a7df-69e9689512b7.png"
+      }
+    }
+  },
+  "Silken Depths": {
+    "name": "Silken Depths",
+    "x": 0,
+    "y": 0,
+    "realm": "The Silken Descent",
+    "initialKnown": false,
+    "npcLevelRange": {
+      "min": 22,
+      "max": 32
+    },
+    "basicInfo": "The lower half of the same descending cave. The passage enters at the upper edge, widens into turquoise pools and bronze winding gear, then bends down behind a lattice gate toward a circular ember-lit crucible. Silver strands converge on the matron’s apparatus. Arachne defenders use the flooded machinery; Vhalessra holds the lowest chamber. The connecting stairs remain the route back to the upper galleries. Map scale is a close chamber diagram.",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/092e5fa0-6b50-4d55-9edd-36474e2a5ce1.png"
+      }
+    }
+  },
+  "Wraith Island Custody District": {
+    "name": "Wraith Island Custody District",
+    "basicInfo": "The controlled prison campus: supervised circulation connects the landing, administrative offices, detention blocks, work and daily-life facilities, and security perimeter. Each facility is a separate location. Legal role, recorded permissions, escort, and actual security determine access.",
+    "x": 0,
+    "y": 0,
+    "realm": "Wraith Island Prison",
+    "initialKnown": false,
+    "npcLevelRange": {
+      "min": 10,
+      "max": 55
+    },
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/84147718-9f23-48e5-b58b-ffd1b1c3f7a1.png"
+      }
+    }
+  },
+  "Cloudbloom Reaches": {
+    "name": "Cloudbloom Reaches",
+    "basicInfo": "Northwestern broadleaf islands: sunny forest terraces, meadow bowls, hanging roots and pools. Cloudbloom Landing and the small Asterveil Canopy settlement occupy a sheltered satellite near the southeastern edge; most land is woodland and field habitat. Flowering branches shelter maintained walks, while rough outer islands retain predators and dangerous gaps.",
+    "x": 0,
+    "y": 1,
+    "realm": "Asterveil Sky Archipelago",
+    "initialKnown": true,
+    "npcLevelRange": {
+      "min": 8,
+      "max": 20
+    },
+    "factions": [
+      "Asterveil"
+    ],
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/de6a7721-218a-4be0-8fc2-4039bc9b6139.png"
+      }
+    }
+  },
+  "Rimeglass Heights": {
+    "name": "Rimeglass Heights",
+    "basicInfo": "Northeastern conifer plateaus rise toward snow-lined peaks and blue tarns. Frost forms on exposed ledges even while lower forest folds remain green. Lightning-scarred cliffs and wind-scoured ruins interrupt the pine belt. There is one expedition refuge rather than a second town; marked approaches give way to hunting territories, ice shelves and underground snowmelt channels.",
+    "x": 1,
+    "y": 1,
+    "realm": "Asterveil Sky Archipelago",
+    "initialKnown": true,
+    "npcLevelRange": {
+      "min": 15,
+      "max": 30
+    },
+    "factions": [
+      "Asterveil"
+    ],
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/6b416221-7997-4c52-956d-c66824e021c8.png"
+      }
+    }
+  },
+  "Mirrorwater Marches": {
+    "name": "Mirrorwater Marches",
+    "basicInfo": "Southwestern islands carry interconnected lakes, reed beds, wet forests and waterfalls spilling into the cloud sea. Broad shallow basins alternate with suspended limestone shelves and flooded hollows. The apparent smooth surface conceals channels and rooted mats that cannot bear a traveler. A small anchorage serves survey boats; the surrounding wetlands are largely wild.",
+    "x": 0,
+    "y": 0,
+    "realm": "Asterveil Sky Archipelago",
+    "initialKnown": true,
+    "npcLevelRange": {
+      "min": 25,
+      "max": 40
+    },
+    "factions": [
+      "Asterveil"
+    ],
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/9f328fe0-58d1-4782-98d1-f2e0f7d16846.png"
+      }
+    }
+  },
+  "Amethyst Crown": {
+    "name": "Amethyst Crown",
+    "basicInfo": "Southeastern pale-rock islands support violet flowering heath, angular ridges, mineral pools and narrow grassy shelves. Singing stone formations carry wind across the open plateaus. There is no city: a weather shelter marks the practical approach to the frontier. Wildlife here uses sound, concealment and broken sightlines; the innermost crown is an exceptional level-48–55 expedition site, still within the midgame range.",
+    "x": 1,
+    "y": 0,
+    "realm": "Asterveil Sky Archipelago",
+    "initialKnown": true,
+    "npcLevelRange": {
+      "min": 35,
+      "max": 50
+    },
+    "factions": [
+      "Asterveil"
+    ],
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/afd21bc8-cd1c-4cb5-83ad-0e419a8b2498.png"
+      }
+    }
+  }
+}

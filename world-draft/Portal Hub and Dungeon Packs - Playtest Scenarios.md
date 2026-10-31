@@ -1,0 +1,14 @@
+# Alpha 14 — Focused Live Checks
+
+Use the complete Alpha 14 world in a fresh game. Preserve your Alpha 13 region-map assignments; the artwork and pins are unchanged. Local fixtures simulate typed effects and supply semantic judgments.
+
+1. From **Silken Portal Room - Arrival Floor**, use “I enter” and separately “I enter the portal.” Both should produce an actual arrival at **Evertree Base - Portal Room** that turn, without a second city-landing choice. Compare narration, structured location/area and the map.
+2. Repeat an explicit return from Drakenspire and Asterveil staging areas, with and without return keys. Each external return leads to the same hub. Requesting another destination through that return arch must not create another Glowhaven portal. At a market doorway, a contextless “I enter” must not teleport home.
+3. Inside Evertree's hub, a bare “I enter” with no selected outward route should not choose a destination. Named outward travel retains the court-key requirement, one-time anomaly and whole-party behavior. A later walk out of the hub must not be undone by the arrival backstop.
+4. Enter the gallery's Upper Walk, bridge and molting detour. Confirm actual groups of 2, 3 and 2 with individual health and the fixed level bands. Let them take real hostile actions. Clear or bypass one group and revisit: no replacement pack or free healing should appear from its discovery hook.
+5. In the broodworks, test the three arachne span defenders, three winch spiders and two gatekeepers. The rest ledge offers a different approach; it should not silently delete the other groups. Only relevant alerted defenders join a fight. The whole dungeon should not attack simultaneously.
+6. Reach the earned boss entry. Confirm the real **Vhalessra Veyrath at level 45**, **Khessik Threadwarden at 30**, and **Orruk Cindershell at 28**, each with its own record and native health/actions. A previously killed retainer must not revive. Observe the fire/ice profile and the available retreat route.
+7. Test first with an ordinary level-20 solo character, then a prepared party of normal level-20-to-25 characters. Retreat when appropriate. Record difficulty, party builds, enemy HP, successful control, damage per turn and survival—not only win/loss. The developer's enormous stats do not calibrate this encounter.
+8. Resolve a genuine queen defeat or achieved surrender. Verify the exact **Matron's Anchor Sigil +1** once, one matron-objective update, preserved living/dead outcome and no mandatory minion cleanup kill. Return freely, report separately and verify Ryūka Marufuji's existing later bazaar confrontation.
+
+If a route fails, retain the action, Travel Update, current location/area, tick and transit ledger/logs. For a group failure, retain the actual native NPC identities and health rather than only the narrative paragraph. Balance recommendations remain provisional until these normal-stat tests are run.

@@ -1,0 +1,317 @@
+{
+  "acrobatics": {
+    "name": "acrobatics",
+    "type": "utility",
+    "attribute": "finesse",
+    "description": "Balance, tumbling, controlled landings, slipping a hold, and agile movement through tight spaces. Athletics covers sustained running, lifting, and swimming. A basic success clears the immediate obstacle; stronger success improves position or avoids exposure. Agility alone grants neither flight nor a magical burst.",
+    "startingItems": []
+  },
+  "athletics": {
+    "name": "athletics",
+    "type": "utility",
+    "attribute": "force",
+    "description": "Running, climbing, swimming, lifting, hauling, and feats of bodily strength use Force. Use Force Combat for a committed physical strike, overpowering, or a grapple against an active opponent; use Finesse Combat for a timed or agile fighting maneuver. A successful athletic task achieves its actual goal within the load and terrain. It does not grant a second combat hit or magical enhancement.",
+    "startingItems": []
+  },
+  "intimidation": {
+    "name": "intimidation",
+    "type": "utility",
+    "attribute": "passion",
+    "description": "Credible threats, commanding presence, and deliberate pressure. Judge the target's interests, available help, and actual leverage. Success can secure a specific concession or make someone hesitate; it grants neither control of their mind nor permanent obedience. A threat can worsen a relationship or attract witnesses.",
+    "startingItems": []
+  },
+  "investigation": {
+    "name": "investigation",
+    "type": "utility",
+    "attribute": "logic",
+    "description": "Examining evidence, comparing records, reconstructing events, and reasoning about a fault or discrepancy. Perception locates an overlooked detail; spellcraft interprets magical principles. A success answers the accessible question, not every secret in the building. Conclusions follow evidence and can remain incomplete.",
+    "startingItems": []
+  },
+  "performance": {
+    "name": "performance",
+    "type": "utility",
+    "attribute": "passion",
+    "description": "Acting, music, dance, presentation, and entertaining an audience. A success communicates the intended impression or gives a convincing performance; stronger success earns attention or an appropriate opportunity. Applause does not establish private affection, magical hypnosis, or an automatic commercial contract.",
+    "startingItems": []
+  },
+  "persuasion": {
+    "name": "persuasion",
+    "type": "utility",
+    "attribute": "empathy",
+    "description": "Negotiating, explaining, requesting, and making a sincere argument. Use for a consequential uncertain appeal, not every spoken sentence. Success changes what the listener is reasonably willing to offer or consider given the actual case. It does not compel romance, confession, recruitment, or abandonment of core interests.",
+    "startingItems": []
+  },
+  "survival": {
+    "name": "survival",
+    "type": "utility",
+    "attribute": "intuition",
+    "description": "Tracking, finding shelter, navigation, foraging, reading monster signs, and judging wilderness hazards. A success identifies or handles the current practical problem. Stronger results can conserve supplies or reveal a safer approach. It does not supply nonexistent equipment, safe food everywhere, or knowledge of every monster.",
+    "startingItems": []
+  },
+  "spellcraft": {
+    "name": "spellcraft",
+    "type": "utility",
+    "attribute": "logic",
+    "description": "Spellcraft is the shared craft of understanding and designing spell blueprints. It covers magical theory, reading mana traces, diagnosing a working, and inventing or substantially modifying a spell. Every player begins with this foundational skill; possessing it does not make someone a trained caster.\n\nA new spell design MUST use an actual spellcraft check. First establish the intended effect, discipline, scope and available knowledge. A simple familiar-scale experiment can be attempted in one scene; a difficult design needs appropriate research, testing, tools or instruction. A real result can produce a reproducible blueprint or a useful correction. Naming a spell is not making it.\n\nCasting an already learned spell uses its discipline, not a compulsory second Spellcraft check. Learning a teacher’s existing blueprint is distinct from inventing one. Ordinary physical techniques require their own training, not Spellcraft. Knowledge from another discipline is not granted by a successful design roll. Personalized notation, body casting and optional words or gestures are ordinary; successful invention is not automatically rare real-time Freeform casting.",
+    "startingItems": []
+  },
+  "Arcane Magic": {
+    "name": "Arcane Magic",
+    "type": "combat",
+    "attribute": "logic",
+    "description": "Raw mana shaped into force. Usually the first magical discipline a mage studies, it provides a practical introduction to controlling release, shape and stability.\n\nScope: Bolts, force impacts, barriers, tethers, platforms, geometric tools and arcane constructs. A construct can have a prepared simple behavior; a separately called familiar or autonomous elemental belongs to Summoning.\n\nPractice and mastery: A novice projects a brief force pulse or supports a small shape. Trained work combines stable surfaces, restraints and precise releases. Advanced work maintains articulated constructs or several coordinated shapes. Mastery can improve deliberate ambient mana uptake by a small amount; it does not create a self-funding spell or an instant full refill.\n\nBoundaries: Arcane is not universal access to every discipline. General invention and theory use Spellcraft. Active regeneration must have its own reviewed technique and cost; the existing passive uptake is not awarded a second time.\n\nApproach: Logic. This describes magical execution, not a required personality or morality. An affinity eases study; it does not grant spells or mastery. Casting a learned spell uses this discipline. Designing a new spell or substantially changing its blueprint uses spellcraft.",
+    "startingItems": []
+  },
+  "Fire Magic": {
+    "name": "Fire Magic",
+    "type": "combat",
+    "attribute": "passion",
+    "description": "Creation and manipulation of flame and heat, including combustion, controlled explosive release and advanced thermal work.\n\nScope: Ignition, fire streams, shaped flame, heat transfer, thermal gradients and heating actual objects. Heat manipulation can move heat away as well as concentrate it; shaping a lasting ice structure is Ice work.\n\nPractice and mastery: A novice lights and steers a small flame. Trained work produces useful jets, screens and deliberate bursts. Advanced work controls heat through materials and shapes dangerous releases around chosen routes. Mastery can govern a large thermal field or a major explosive working with the corresponding preparation and Mana.\n\nBoundaries: A dramatic flame is not automatically a hit. Fuel, nearby people and the fate of transferred heat matter. Fire does not conjure a permanent supply of fuel or replace Ice proficiency.\n\nApproach: Passion. This describes magical execution, not a required personality or morality. An affinity eases study; it does not grant spells or mastery. Casting a learned spell uses this discipline. Designing a new spell or substantially changing its blueprint uses spellcraft.",
+    "startingItems": []
+  },
+  "Water Magic": {
+    "name": "Water Magic",
+    "type": "combat",
+    "attribute": "passion",
+    "description": "The creation, movement and shaping of liquid water: flow, pressure, currents and wet terrain.\n\nScope: Jets, lashes, water screens, carried streams, buoyancy assistance, pumping and directing an existing body of water. Conjured water supports a temporary working.\n\nPractice and mastery: A novice gathers or shifts a small quantity. Trained work directs pressure and changes a local flow. Advanced work divides currents, supports moving barriers or controls a larger watercourse. Mastery can sustain major hydraulic works with an actual source, scale and burden.\n\nBoundaries: Water does not include Ice, blood control or extracting bodily fluids. Neither a water motif nor cleaning a wound supplies Healing. Temporary conjuration does not become permanent drinking supplies.\n\nApproach: Passion. This describes magical execution, not a required personality or morality. An affinity eases study; it does not grant spells or mastery. Casting a learned spell uses this discipline. Designing a new spell or substantially changing its blueprint uses spellcraft.",
+    "startingItems": []
+  },
+  "Earth Magic": {
+    "name": "Earth Magic",
+    "type": "combat",
+    "attribute": "passion",
+    "description": "The shaping and movement of earth, stone, soil, clay and sand.\n\nScope: Raised cover, trenches, shaped footing, moving sand, compacted structures, stone projectiles and the controlled alteration of actual terrain.\n\nPractice and mastery: A novice shifts loose earth or shapes a small surface. Trained work raises useful cover and disrupts footing. Advanced work handles layers, supporting structures and moving granular fields. Mastery can undertake large earthworks without making their weight, stability or surroundings irrelevant.\n\nBoundaries: Earth includes sand, but precise metal control belongs to Metal. Altering real terrain can persist; conjured stone is temporary spell matter, not free permanent construction stock.\n\nApproach: Passion. This describes magical execution, not a required personality or morality. An affinity eases study; it does not grant spells or mastery. Casting a learned spell uses this discipline. Designing a new spell or substantially changing its blueprint uses spellcraft.",
+    "startingItems": []
+  },
+  "Wind Magic": {
+    "name": "Wind Magic",
+    "type": "combat",
+    "attribute": "passion",
+    "description": "The shaping of air, pressure and currents, from delicate ventilation to violent directed flow.\n\nScope: Gusts, pressure strikes, redirected air, ventilation, assisted movement and work on clouds and local weather where the conditions support it.\n\nPractice and mastery: A novice stirs or guides a small current. Trained work creates coherent gusts and useful pressure changes. Advanced work manages sustained moving flows and limited cloud or weather intervention. Master-level techniques can support controlled flight; basic wind assistance is not sustained flight.\n\nBoundaries: Weather depends on an actual atmosphere, scale and developing conditions. Sound is a distinct vibration discipline, and Lightning is not granted by pointing at a cloud.\n\nApproach: Passion. This describes magical execution, not a required personality or morality. An affinity eases study; it does not grant spells or mastery. Casting a learned spell uses this discipline. Designing a new spell or substantially changing its blueprint uses spellcraft.",
+    "startingItems": []
+  },
+  "Lightning Magic": {
+    "name": "Lightning Magic",
+    "type": "combat",
+    "attribute": "passion",
+    "description": "The generation and direction of electrical discharge and the control of useful electrical effects.\n\nScope: Arcs, charged contact, directed bolts, electrical conduction and disciplined storm-related discharge. Electrical effects on a device still require understanding the device.\n\nPractice and mastery: A novice produces a controlled spark. Trained work directs a reliable discharge or timed contact release. Advanced work shapes branching paths, charged zones or storm-fed attacks. Mastery can handle great electrical power with exact paths and real collateral risks.\n\nBoundaries: Conductivity and insulation influence the attempt. Lightning does not automatically paralyze every target, confer Wind weather control or give bodily super-speed; deliberate bodily enhancement is Enchantment.\n\nApproach: Passion. This describes magical execution, not a required personality or morality. An affinity eases study; it does not grant spells or mastery. Casting a learned spell uses this discipline. Designing a new spell or substantially changing its blueprint uses spellcraft.",
+    "startingItems": []
+  },
+  "Ice Magic": {
+    "name": "Ice Magic",
+    "type": "combat",
+    "attribute": "intuition",
+    "description": "A discipline historically derived from Water, now studied independently. It governs freezing, frost, ice structures and precise low-temperature work.\n\nScope: Ice weapons, barriers, frozen surfaces, cold transfer, preservation and the thermal conditions around a freezing working.\n\nPractice and mastery: A novice lays frost or forms a small piece. Trained work makes coherent ice tools and controlled slippery terrain. Advanced work builds strong structures or manages a field of cold. Mastery can sustain intricate frozen architecture or a large cold working.\n\nBoundaries: Water study is not a prerequisite. Fire also studies heat transfer, but does not thereby shape ice. Freezing a resisting creature is a contested attack. Conjured ice fades with its working; genuinely frozen existing water follows ordinary thawing afterward.\n\nApproach: Intuition. This describes magical execution, not a required personality or morality. An affinity eases study; it does not grant spells or mastery. Casting a learned spell uses this discipline. Designing a new spell or substantially changing its blueprint uses spellcraft.",
+    "startingItems": []
+  },
+  "Light Magic": {
+    "name": "Light Magic",
+    "type": "combat",
+    "attribute": "empathy",
+    "description": "The creation and direction of illumination and concentrated light, including starlight techniques and tightly focused beams.\n\nScope: Lighting, signals, glare, reflected or refracted paths, luminous screens, star-like projectiles and laser-like attacks.\n\nPractice and mastery: A novice illuminates or signals. Trained work directs a beam, creates a sharp flash or controls useful reflected light. Advanced work coordinates several rays or sustained optical effects. Mastery supports spectacular starlight fields and highly concentrated beams.\n\nBoundaries: Light is not Healing and does not automatically purify a soul, reveal every secret or punish undead. Starlight is an expression of this discipline, not permission to move stars, manipulate gravity or predict the future.\n\nApproach: Empathy. This describes magical execution, not a required personality or morality. An affinity eases study; it does not grant spells or mastery. Casting a learned spell uses this discipline. Designing a new spell or substantially changing its blueprint uses spellcraft.",
+    "startingItems": []
+  },
+  "Metal Magic": {
+    "name": "Metal Magic",
+    "type": "combat",
+    "attribute": "logic",
+    "description": "A discipline historically derived from Earth, now studied independently. It governs metallic matter, from bending existing metal to sophisticated mineral and structural work.\n\nScope: Bending, reshaping, reinforcing, joining and moving metal. Advanced-to-master work includes difficult transmutation of metallic minerals and the conjuration of solid metallic spell matter.\n\nPractice and mastery: A novice flexes a small suitable piece. Trained work shapes functional edges, catches or reinforcement. Advanced work manages articulated metal and controlled mineral conversion. Mastery can undertake demanding metallic transmutation or maintain large, precise conjured structures.\n\nBoundaries: Earth is not a prerequisite. Existing material altered or processed can remain changed. Conjured metal is temporary and cannot be sold as enduring bullion or substituted for permanent crafting components. Transmutation is not unrestricted conversion of living flesh into gold.\n\nApproach: Logic. This describes magical execution, not a required personality or morality. An affinity eases study; it does not grant spells or mastery. Casting a learned spell uses this discipline. Designing a new spell or substantially changing its blueprint uses spellcraft.",
+    "startingItems": []
+  },
+  "Nature Magic": {
+    "name": "Nature Magic",
+    "type": "combat",
+    "attribute": "empathy",
+    "description": "Magic of plants and botanical life, including the creation of temporary plant matter and the growth or repair of actual plants.\n\nScope: Roots, vines, thorns, seeds, leaves, botanical structures and plant health. It can coax real growth where the plant and conditions permit.\n\nPractice and mastery: A novice encourages a small growth or shapes a simple botanical effect. Trained work makes controlled tangles, thorn weapons and living cover. Advanced work coordinates larger growths or repairs damaged vegetation. Mastery can manage elaborate botanical terrain and difficult plant recovery.\n\nBoundaries: Nature cannot heal non-plant creatures or command every animal. Conjured thorns or plant matter fade; real growth still needs viable matter and conditions and is not an unlimited instant food factory.\n\nApproach: Empathy. This describes magical execution, not a required personality or morality. An affinity eases study; it does not grant spells or mastery. Casting a learned spell uses this discipline. Designing a new spell or substantially changing its blueprint uses spellcraft.",
+    "startingItems": []
+  },
+  "Sound Magic": {
+    "name": "Sound Magic",
+    "type": "combat",
+    "attribute": "intuition",
+    "description": "A demanding, niche discipline historically derived from Wind, now studied independently. It concerns vibration, resonance and the transmission or suppression of sound.\n\nScope: Tuned pressure pulses, resonant impacts, dampening, projected voices, vibration sensing and the study of how structures respond to frequency.\n\nPractice and mastery: A novice shapes a tone or hushes a small noise. Trained work projects a precise pulse or useful local silence. Advanced work finds and exploits a particular resonance. Mastery can coordinate a complex vibration field or an exceptionally focused sonic release.\n\nBoundaries: Wind is not a prerequisite. Sound is often less convenient than a direct elemental spell and rewards technical precision. Silence is not universal anti-magic: many prepared blueprints use no spoken incantation.\n\nApproach: Intuition. This describes magical execution, not a required personality or morality. An affinity eases study; it does not grant spells or mastery. Casting a learned spell uses this discipline. Designing a new spell or substantially changing its blueprint uses spellcraft.",
+    "startingItems": []
+  },
+  "Gravity Magic": {
+    "name": "Gravity Magic",
+    "type": "combat",
+    "attribute": "logic",
+    "description": "The alteration of local pull, effective weight and the direction in which a burden falls.\n\nScope: Levitation, load assistance, weighted zones, pulls, assisted leaps, controlled descent and pressure against a resisting target.\n\nPractice and mastery: A novice lightens a small burden. Trained work lifts objects or changes a limited vector. Advanced work coordinates moving loads and contested local fields. Mastery can sustain strong, broad or highly selective gravitational effects.\n\nBoundaries: A resisted field is not an automatic crush. Gravity does not itself fold distance or change time. It is the foundational study required before Space.\n\nApproach: Logic. This describes magical execution, not a required personality or morality. An affinity eases study; it does not grant spells or mastery. Casting a learned spell uses this discipline. Designing a new spell or substantially changing its blueprint uses spellcraft.",
+    "startingItems": []
+  },
+  "Void Magic": {
+    "name": "Void Magic",
+    "type": "combat",
+    "attribute": "intuition",
+    "description": "Magic of absence, shadows, suppression and disruption: a difficult counterpart to making an effect present.\n\nScope: Local darkness, shadow shaping, gaps in an active working, counterspell attempts, suppression and trained destructive void techniques.\n\nPractice and mastery: A novice makes a small shadow or interference. Trained work disrupts a specific weak point in a spell or projects a bounded void attack. Advanced work suppresses a defined active effect or shapes a selective absence. Mastery can contest formidable magic with equivalent knowledge, timing and commitment.\n\nBoundaries: Void is not universal cancellation, automatic erasure or ordinary Space teleportation. It does not extract another humanoid’s protected internal mana. Targets and opposing spells resist; a rare affinity does not supply the missing technique.\n\nApproach: Intuition. This describes magical execution, not a required personality or morality. An affinity eases study; it does not grant spells or mastery. Casting a learned spell uses this discipline. Designing a new spell or substantially changing its blueprint uses spellcraft.",
+    "startingItems": []
+  },
+  "Healing Magic": {
+    "name": "Healing Magic",
+    "type": "magic",
+    "attribute": "empathy",
+    "description": "Restorative magic for living creatures: treating injury, supporting repair and addressing conditions within the caster’s actual medical knowledge.\n\nScope: Closing fresh wounds, stabilizing injury, supporting recovery and more demanding treatment where the specific working and condition permit it.\n\nPractice and mastery: A novice assists a small fresh injury. Trained work handles useful acute restoration. Advanced work can manage difficult wounds or particular conditions with appropriate knowledge. Mastery supports extraordinary restoration without making every permanent injury, disease or consequence trivially reversible.\n\nBoundaries: Healing is not Light, Nature plant-work or Soul spirit-work. It does not automatically reverse age, resurrect the dead, refill Mana or Stamina, or remove established soul shock. Apply the actual treatment once and follow the existing restoration bands when no more specific result exists.\n\nApproach: Empathy. This describes magical execution, not a required personality or morality. An affinity eases study; it does not grant spells or mastery. Casting a learned spell uses this discipline. Designing a new spell or substantially changing its blueprint uses spellcraft.",
+    "startingItems": []
+  },
+  "Enchantment Magic": {
+    "name": "Enchantment Magic",
+    "type": "magic",
+    "attribute": "logic",
+    "description": "The deliberate magical alteration of objects or bodies, including learned strength, speed, resilience and other functional enhancements.\n\nScope: Temporary imbuements, tuned properties, conditional effects and trained bodily augmentation. Durable work can need suitable materials and a prepared installation.\n\nPractice and mastery: A novice sustains one modest alteration. Trained work gives a purposeful, repeatable enhancement. Advanced work handles demanding bodily techniques or complex prepared properties. Mastery can achieve extremely powerful enhancement through actual training, expense and control.\n\nBoundaries: Circulating mana alone is not automatic augmentation. Enchantment does not compel love, repair every injury or design an integrated machine by itself. Magitech handles magical-mechanical construction; the relevant physical skill still delivers an enhanced strike.\n\nApproach: Logic. This describes magical execution, not a required personality or morality. An affinity eases study; it does not grant spells or mastery. Casting a learned spell uses this discipline. Designing a new spell or substantially changing its blueprint uses spellcraft.",
+    "startingItems": []
+  },
+  "Summoning Magic": {
+    "name": "Summoning Magic",
+    "type": "magic",
+    "attribute": "empathy",
+    "description": "Calling, forming and directing familiars, summoned constructs, elementals and other specific entities through learned bonds or prepared methods.\n\nScope: Temporary helpers, called companions, prepared elemental bodies and coordinated summoned assistance. Different techniques establish different identities, autonomy, duration and costs.\n\nPractice and mastery: A novice forms or calls a small helper. Trained work maintains one useful familiar or temporary entity. Advanced work coordinates specialized entities or several bounded roles. Mastery can sustain impressive summons without turning one cast into unlimited independent actions.\n\nBoundaries: Arcane can shape directed force constructs; Summoning develops the entity, bond and behavior. A summoned ally or pet is distinct from an independent person and joins a traveling group only by an actual arrangement. An actual summoned attacker needs its own supported identity and resolved action; no duplicate automatic hit accompanies the summoning.\n\nApproach: Empathy. This describes magical execution, not a required personality or morality. An affinity eases study; it does not grant spells or mastery. Casting a learned spell uses this discipline. Designing a new spell or substantially changing its blueprint uses spellcraft.",
+    "startingItems": []
+  },
+  "Illusion Magic": {
+    "name": "Illusion Magic",
+    "type": "magic",
+    "attribute": "intuition",
+    "description": "The construction of misleading sensory appearances, impressions and decoys.\n\nScope: Visual and other learned sensory effects, disguising an appearance, false routes, projected doubles and perceptual misdirection.\n\nPractice and mastery: A novice changes a simple appearance. Trained work maintains a useful convincing decoy. Advanced work coordinates several senses or makes an illusion respond within its design. Mastery can stage elaborate, coherent sensory scenes.\n\nBoundaries: An illusion has no physical substance unless another working supplies it. It changes appearances, not recorded grades, ownership or the underlying place. Attentive observation, contradictory evidence and the actual observer matter.\n\nApproach: Intuition. This describes magical execution, not a required personality or morality. An affinity eases study; it does not grant spells or mastery. Casting a learned spell uses this discipline. Designing a new spell or substantially changing its blueprint uses spellcraft.",
+    "startingItems": []
+  },
+  "Divination Magic": {
+    "name": "Divination Magic",
+    "type": "magic",
+    "attribute": "intuition",
+    "description": "The oracle’s discipline: perceiving signs, distant or hidden impressions, traces of the past and possible futures.\n\nScope: Focused questions, readings, omens, magical investigation, retrospective impressions and prospective warnings.\n\nPractice and mastery: A novice finds a relevant impression in an accessible sign. Trained work answers a bounded question with useful evidence or uncertainty. Advanced work reads a more difficult trace or a branching possibility. Mastery can perceive profound past or future patterns while distinguishing them from guaranteed outcomes.\n\nBoundaries: Divination observes rather than outwardly manipulates time. Oracles receive no Time affinity or automatic Time proficiency. Readings do not establish universal omniscience, another person’s consent or legal proof without evidence.\n\nApproach: Intuition. This describes magical execution, not a required personality or morality. An affinity eases study; it does not grant spells or mastery. Casting a learned spell uses this discipline. Designing a new spell or substantially changing its blueprint uses spellcraft.",
+    "startingItems": []
+  },
+  "Stealth": {
+    "name": "Stealth",
+    "type": "utility",
+    "attribute": "finesse",
+    "description": "Hiding, moving quietly, and avoiding notice using actual cover, timing, and sight lines. Success keeps the character unnoticed by the relevant observer under the current conditions. It does not erase old evidence, conceal loud magic, or bypass every guard by declaration.",
+    "startingItems": []
+  },
+  "Perception": {
+    "name": "Perception",
+    "type": "utility",
+    "attribute": "intuition",
+    "description": "Noticing visible, audible, or otherwise accessible details, movement, and immediate hazards. Use investigation to deduce what evidence means. Success finds the relevant available clue; it does not read thoughts, see through all walls, or reveal hiddenInfo merely because a character was observed.",
+    "startingItems": []
+  },
+  "Insight": {
+    "name": "Insight",
+    "type": "utility",
+    "attribute": "empathy",
+    "description": "Reading behavior, conversational evasions, conflicting priorities, and social context. Success supports a plausible interpretation or identifies an inconsistency. It is not mind reading or an infallible lie detector; evidence is still required to establish a hidden fact.",
+    "startingItems": []
+  },
+  "Deception": {
+    "name": "Deception",
+    "type": "utility",
+    "attribute": "intuition",
+    "description": "Lying, bluffing, misleading presentation, and maintaining a cover story. Plausibility, evidence, and the listener's knowledge matter. Success shapes the immediate belief or response; it does not rewrite records, grant consent, or make a contradiction permanently unnoticeable.",
+    "startingItems": []
+  },
+  "Etiquette": {
+    "name": "Etiquette",
+    "type": "utility",
+    "attribute": "empathy",
+    "description": "Reading local ceremony, formal introductions, academy protocol, and noble social expectations. Success avoids a relevant faux pas or finds an appropriate way to make a request. Rank and manners remain separate from sincerity, magical talent, and moral worth.",
+    "startingItems": []
+  },
+  "Animal Handling": {
+    "name": "Animal Handling",
+    "type": "utility",
+    "attribute": "empathy",
+    "description": "Reading, calming, training, and caring for ordinary animals or established animal familiars. Success earns cooperation appropriate to training and temperament; it does not dominate a creature or establish a magical bond. Summoning Magic governs actually calling a familiar.",
+    "startingItems": []
+  },
+  "Medicine": {
+    "name": "Medicine",
+    "type": "utility",
+    "attribute": "empathy",
+    "description": "First aid, diagnosis, practical treatment, and recognizing when a trained healer is needed. Success handles the bounded medical task with actual supplies and time. Use Healing Magic for magical restoration. Treating the same injury does not repeatedly award Health, and clean bandages follow their item effect.",
+    "startingItems": []
+  },
+  "Alchemy": {
+    "name": "Alchemy",
+    "type": "utility",
+    "attribute": "logic",
+    "description": "Preparing, identifying, and safely testing potions and compounds. Success achieves a defined batch or finding using actual ingredients, method, and workspace. A good roll cannot establish an untested mixture as universally safe. Research, sale, dosing, and consumption are separate decisions.",
+    "startingItems": []
+  },
+  "Magitech": {
+    "name": "Magitech",
+    "type": "utility",
+    "attribute": "logic",
+    "description": "Designing, building, fitting, inspecting, maintaining and repairing magical equipment and integrated magical-mechanical systems. This single skill combines the former Artifice scope with mana circuits, power routing, regulators, mechanisms, device safety, practical foci and engineered tools.\n\nA novice inspects a simple fitting or circuit. Trained work assembles or repairs reliable equipment from a suitable design and parts. Advanced work diagnoses linked systems, develops controlled devices and reverse-engineers unfamiliar machinery with real investigation. Mastery supports complex original machines and demanding field repairs.\n\nA mundane mechanism needs no new spell. A newly invented spell powering a device also requires Spellcraft; applying an existing spell to equipment can involve the relevant learned discipline. Use one primary check for the actual stage rather than automatically rolling every related skill. Magitech supplies neither materials nor an external mana battery by default. A prepared device fires through its actual operating method; engineering knowledge is not universal weapon proficiency. A customer’s item remains theirs.",
+    "startingItems": []
+  },
+  "Cooking": {
+    "name": "Cooking",
+    "type": "utility",
+    "attribute": "intuition",
+    "description": "Preparing, seasoning, timing, and safely serving food with actual ingredients and equipment. Success produces the intended meal; stronger results improve its quality or consistency. Magical heat can help, while food safety, time, and ingredient cost still matter.",
+    "startingItems": []
+  },
+  "Perfumery": {
+    "name": "Perfumery",
+    "type": "utility",
+    "attribute": "empathy",
+    "description": "Selecting botanical materials, extracting and blending fragrance, comparing batches, and preparing stable scents. Success achieves the particular formula or diagnostic finding within the materials and method. A perfume does not compel attraction or override anyone's choices.",
+    "startingItems": []
+  },
+  "Trade": {
+    "name": "Trade",
+    "type": "utility",
+    "attribute": "logic",
+    "description": "Appraising ordinary goods, comparing quotes, calculating costs, and understanding practical trade terms. Success gives a useful valuation or identifies a relevant discrepancy. Persuasion handles an uncertain negotiation; appraising is not buying, selling, or receiving payment.",
+    "startingItems": []
+  },
+  "Tactics": {
+    "name": "Tactics",
+    "type": "utility",
+    "attribute": "logic",
+    "description": "Assessing terrain, threats, escape routes, and coordination in a conflict. Success identifies an actionable advantage or communicates a feasible plan. Allies retain their personalities and actual orders; planning does not guarantee execution, invent troop support, or replace combat results.",
+    "startingItems": []
+  },
+  "Force Combat": {
+    "name": "Force Combat",
+    "attribute": "force",
+    "type": "combat",
+    "description": "Physical power, leverage, committed strikes, grapples, heavy cuts, and forceful use of a trained weapon or the body. Use for a physically delivered attack whose success hinges on overpowering or force. Magical infusions require actual learned magic and Mana but do not add another accuracy roll or automatic hit. Training with one method does not confer mastery of every weapon. This skill does not aim a detached spell or substitute for remote magical control.",
+    "startingItems": []
+  },
+  "Finesse Combat": {
+    "name": "Finesse Combat",
+    "attribute": "finesse",
+    "type": "combat",
+    "description": "Precision, timing, footwork, accurate weapon attacks, agile unarmed techniques, and physical ranged attacks. Use for a physically delivered action whose success hinges on placement or timing. Evasion needs an actual opportunity and cannot undo a supplied combat result. A learned magical infusion can accompany a strike with its stated cost; it adds no automatic second hit. Finesse alone does not grant extra turns, attacks, teleportation, or mastery of an unfamiliar weapon.",
+    "startingItems": []
+  },
+  "Guarded Combat": {
+    "name": "Guarded Combat",
+    "attribute": "force",
+    "type": "combat",
+    "description": "A trained guarded fighting approach: braced contact, shield positioning, holding a contested line, sustained pressure, and controlled counters. Use only for an actual deliberate fighting action whose outcome hinges on maintaining position and resilience. Equipment, reach, and the current threat matter. Force grants no passive invulnerability, universal damage reduction, or free counterattack; supplied combat results stay authoritative. A magical reinforcement requires the actual learned discipline and Mana.",
+    "startingItems": []
+  },
+  "Space Magic": {
+    "name": "Space Magic",
+    "type": "combat",
+    "attribute": "logic",
+    "description": "A difficult advanced development of Gravity that bends spatial relationships. Serious study requires established Gravity proficiency rather than merely a Space affinity.\n\nScope: Short spatial displacements, geometric distortion, tears, bounded spatial barriers and prepared portals or teleportation. Later mastery can bridge long distances.\n\nPractice and mastery: The initial study benchmark is Gravity Magic 25. Early Space work handles tiny distortions and very short moves to clearly perceived safe points. Trained and advanced techniques extend precision, carried mass and tactical reach. Master-level travel can reach a genuinely learned distant destination with the necessary preparation, Mana and actual route resolution.\n\nBoundaries: Private teleportation is possible; court keys regulate the public portal network, not ownership of all spatial knowledge. A journey requires an actual successful passage and a safe arrival at its intended destination. A map label is not proof of a learned destination. Space does not create new realms or grant every dungeon route, move or carry unwilling targets without resistance, or alter time.\n\nApproach: Logic. This describes magical execution, not a required personality or morality. An affinity eases study; it does not grant spells or mastery. Casting a learned spell uses this discipline. Designing a new spell or substantially changing its blueprint uses spellcraft.",
+    "startingItems": []
+  },
+  "Soul Magic": {
+    "name": "Soul Magic",
+    "type": "combat",
+    "attribute": "empathy",
+    "description": "Magic concerning spirits and the boundary between life and death, including exorcism, possession, spiritual wards, necromancy and raising undead.\n\nScope: Spirit perception, contact, protection, contested binding or release, spiritual injury and specific necromantic animations. The actual spell must distinguish a corpse animated by magic from a working involving a conscious spirit.\n\nPractice and mastery: A novice perceives a limited spiritual sign or attempts a simple ward. Trained work can settle or repel a minor presence and learn a bounded animation. Advanced work handles difficult exorcism, particular undead or a demanding spiritual bond. Mastery can confront great spiritual forces through a defined working.\n\nBoundaries: Necromancy is decided spell by spell: identify the remains, whether a conscious soul is involved, its agency or resistance, control burden and duration. Undead do not universally contain a person’s soul. Raising remains is not resurrection of the original living person. Ordinary Soul study does not establish fatal humanoid mana extraction, guaranteed possession or routine resurrection.\n\nApproach: Empathy. This describes magical execution, not a required personality or morality. An affinity eases study; it does not grant spells or mastery. Casting a learned spell uses this discipline. Designing a new spell or substantially changing its blueprint uses spellcraft.",
+    "startingItems": []
+  },
+  "Time Magic": {
+    "name": "Time Magic",
+    "type": "magic",
+    "attribute": "logic",
+    "description": "An exceptionally difficult development of Space concerned with temporal relationships rather than an oracle’s observation. This discipline is reserved knowledge, not an ordinary curriculum or affinity.\n\nScope: Theoretical local acceleration, delay, temporal anchoring and other tightly defined chronal workings only after exceptional instruction has actually been established.\n\nPractice and mastery: The initial research benchmark is Space Magic 75 and Spellcraft 80, plus a genuine exceptional teaching source or breakthrough established in the story. These numbers alone do not teach Time. Ordinary curricula, public spellbooks and readily available teachers do not offer instruction in it.\n\nBoundaries: No character receives a Time affinity, including oracles. Omit Time from character creation, random affinities. Familiarity with clocks, Divination, asking for a Time spell or rolling well on an unrelated action is not access. Temporal fiction cannot silently reverse authoritative quests, deaths, inventory or map state; such a working would need an explicitly supported design.\n\nApproach: Logic. This describes magical execution, not a required personality or morality. Casting a learned spell uses this discipline. Designing a new spell or substantially changing its blueprint uses spellcraft.",
+    "startingItems": []
+  }
+}

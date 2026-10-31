@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cd "$(dirname "$0")/.."
+python3 --version
+node --version
+python3 tools/project.py validate
+python3 tools/project.py sync --check
+node tools/test_item_mechanics.cjs

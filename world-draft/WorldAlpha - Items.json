@@ -1,0 +1,5063 @@
+{
+  "Mark": {
+    "name": "Mark",
+    "category": "Currency",
+    "description": "One unit of Glowhaven currency. Quotes, wages, and debts use marks. An item payout and a displayed money total describe the same holdings, never two separate payments.",
+    "bonuses": []
+  },
+  "Packed Lunch": {
+    "name": "Packed Lunch",
+    "category": "Consumable",
+    "description": "A practical wrapped meal, commonly 3 marks. Food rather than a universal healing effect.",
+    "bonuses": []
+  },
+  "Clean Bandages": {
+    "name": "Clean Bandages",
+    "category": "Consumable",
+    "description": "Clean dressings, commonly 5 marks. Applying them to an appropriate minor injury restores 8 health once; they do not revive the dead or repair lasting damage.",
+    "bonuses": []
+  },
+  "Standard Healing Draught": {
+    "name": "Standard Healing Draught",
+    "category": "Consumable",
+    "description": "A labeled common healing preparation, normally 25 marks. Drinking one restores 25 health once. It does not reverse aging, restore all lasting injuries, or replace treatment of a severe condition.",
+    "bonuses": []
+  },
+  "Calibration Chalk": {
+    "name": "Calibration Chalk",
+    "category": "Tool",
+    "description": "Nonconductive marking chalk for supervised focus tests. A small packet costs 6 marks. A marked diagram does not automatically cast its intended spell.",
+    "bonuses": []
+  },
+  "Replacement Conduit Collar": {
+    "name": "Replacement Conduit Collar",
+    "category": "Tool",
+    "description": "A fitted conducting collar for an appropriate household focus, commonly 18 marks. Its size and compatibility must match the device.",
+    "bonuses": []
+  },
+  "Insulated Test Lead": {
+    "name": "Insulated Test Lead",
+    "category": "Tool",
+    "description": "A reusable insulated test lead for low-output supervised diagnostics, commonly 12 marks. It does not make an unsafe experiment harmless.",
+    "bonuses": []
+  },
+  "Simple Casting Wand": {
+    "name": "Simple Casting Wand",
+    "category": "Tool",
+    "description": "A reliable ordinary control catalyst made with mana-bearing material, commonly 60 marks in Glowhaven. It helps the user feel and direct mana for spells actually learned; no external reserve, new affinity or free mastery is included.",
+    "bonuses": [],
+    "slot": "tool"
+  },
+  "Household Enchanted Lamp": {
+    "name": "Household Enchanted Lamp",
+    "category": "Tool",
+    "description": "A dependable low-output lamp, commonly 80 marks. It supplies ordinary illumination when correctly maintained, not combat Light magic.",
+    "bonuses": []
+  },
+  "Fragrance Sample": {
+    "name": "Fragrance Sample",
+    "category": "Consumable",
+    "description": "A labeled small scent sample, normally 8 marks. Intended for testing scent and compatibility, with no mind-reading or compelled attraction.",
+    "bonuses": []
+  },
+  "Workshop Gloves": {
+    "name": "Workshop Gloves",
+    "category": "Tool",
+    "description": "Practical work gloves, commonly 8 marks. Useful for suitable tasks but not proof against fire, blades, or unknown reagents.",
+    "bonuses": []
+  },
+  "Survey Rope": {
+    "name": "Survey Rope",
+    "category": "Tool",
+    "description": "A sound general-purpose rope, commonly 12 marks. A safe anchor and actual load assessment are still necessary.",
+    "bonuses": []
+  },
+  "Specimen Case": {
+    "name": "Specimen Case",
+    "category": "Tool",
+    "description": "A small labeled protective case, commonly 10 marks. Ownership and safe collection still matter.",
+    "bonuses": []
+  },
+  "Repair Receipt": {
+    "name": "Repair Receipt",
+    "category": "Tool",
+    "description": "A receipt recording an actual customer's item, agreed scope, price, deposit, and status. Blank possession proves no ownership or paid debt.",
+    "bonuses": []
+  },
+  "Case Record Copy": {
+    "name": "Case Record Copy",
+    "category": "Tool",
+    "description": "An authorized copy of an actually identified case entry. A copy normally costs 2 marks and cannot create a verdict or discharge by itself.",
+    "bonuses": []
+  },
+  "Custody Property Receipt": {
+    "name": "Custody Property Receipt",
+    "category": "Tool",
+    "description": "An intake receipt listing belongings actually deposited and their custody location. It preserves the right to claim those belongings; it is not a key.",
+    "bonuses": []
+  },
+  "Prison Work Order": {
+    "name": "Prison Work Order",
+    "category": "Tool",
+    "description": "A genuine work order naming its holder, duties, access limits, supervision, and pay or credit. It grants only the actual authorized assignment.",
+    "bonuses": []
+  },
+  "Discharge Warrant": {
+    "name": "Discharge Warrant",
+    "category": "Tool",
+    "description": "An authenticated release authority tied to a specific person and actual case. Finding a blank or another person's document does not release the holder.",
+    "bonuses": []
+  },
+  "Plain Casting Staff": {
+    "name": "Plain Casting Staff",
+    "category": "Tool",
+    "description": "A plain wooden staff prepared from mana-bearing material as a control catalyst. It assists actual learned spells without an external mana reserve. Physical staff work still depends on training; it grants neither new magic nor automatic combat mastery.",
+    "bonuses": [],
+    "slot": "tool"
+  },
+  "Student Grimoire": {
+    "name": "Student Grimoire",
+    "category": "Tool",
+    "description": "A bound record of the owner's introductory spell blueprints, with a prepared mana-bearing binding usable as a familiar catalyst. Its notes can assist memory, but no new discipline is learned merely by owning it. The binding supplies no external reserve.",
+    "bonuses": [],
+    "slot": "tool"
+  },
+  "Practice Blade": {
+    "name": "Practice Blade",
+    "category": "Weapon",
+    "description": "A plain blunted steel training blade in a simple scabbard. Suitable for supervised practice and basic trained blade work, with no enchantment or numerical bonus. Actual Force, Finesse, or Guarded technique governs its use; it is not a lethal sharp weapon merely because the owner calls it one.",
+    "bonuses": [],
+    "slot": "weapon"
+  },
+  "Training Shield": {
+    "name": "Training Shield",
+    "category": "Weapon",
+    "description": "A plain reinforced wooden training shield with a fitted grip. It supports actual guarded fighting, cover, and trained shield contact. It does not automatically absorb spells, return energy, grant a passive damage reduction, or supply a free counterattack.",
+    "bonuses": [],
+    "slot": "weapon"
+  },
+  "Padded Handwraps": {
+    "name": "Padded Handwraps",
+    "category": "Tool",
+    "description": "Ordinary padded wraps for trained punches, grappling practice, and protection from minor abrasion. They contain no enchantment and add no automatic damage, armor bonus, mana, or knowledge. Hand casting still requires actual learned control.",
+    "bonuses": []
+  },
+  "Admission Packet - Phoenix Wing": {
+    "name": "Admission Packet - Phoenix Wing",
+    "category": "Document",
+    "description": "An acceptance packet confirming admission to Phoenix Wing Academy. It includes the route to the registrar's timetable desk and the first-year welcome. It is not an application awaiting another approval.",
+    "bonuses": []
+  },
+  "Appointment Letter - Phoenix Wing": {
+    "name": "Appointment Letter - Phoenix Wing",
+    "category": "Document",
+    "description": "An accepted instructor's appointment at Phoenix Wing Academy. The headmaster's induction supplies the teaching subject, assigned room and first-bell start on the following morning. It confirms employment, not command over colleagues or permission to enter restricted facilities.",
+    "bonuses": []
+  },
+  "Admission Packet - Gryffin Tail": {
+    "name": "Admission Packet - Gryffin Tail",
+    "category": "Document",
+    "description": "An acceptance packet confirming admission to Gryffin Tail Academy. It includes the route to the registrar's timetable desk and the first-year welcome. It is not an application awaiting another approval.",
+    "bonuses": []
+  },
+  "Appointment Letter - Gryffin Tail": {
+    "name": "Appointment Letter - Gryffin Tail",
+    "category": "Document",
+    "description": "An accepted instructor's appointment at Gryffin Tail Academy. The headmaster's induction supplies the teaching subject, assigned room and first-bell start on the following morning. It confirms employment, not command over colleagues or permission to enter restricted facilities.",
+    "bonuses": []
+  },
+  "Admission Packet - Dragon Hoard": {
+    "name": "Admission Packet - Dragon Hoard",
+    "category": "Document",
+    "description": "An acceptance packet confirming admission to Dragon Hoard Academy. It includes the route to the registrar's timetable desk and the first-year welcome. It is not an application awaiting another approval.",
+    "bonuses": []
+  },
+  "Appointment Letter - Dragon Hoard": {
+    "name": "Appointment Letter - Dragon Hoard",
+    "category": "Document",
+    "description": "An accepted instructor's appointment at Dragon Hoard Academy. The headmaster's induction supplies the teaching subject, assigned room and first-bell start on the following morning. It confirms employment, not command over colleagues or permission to enter restricted facilities.",
+    "bonuses": []
+  },
+  "Admission Packet - Hydra Head": {
+    "name": "Admission Packet - Hydra Head",
+    "category": "Document",
+    "description": "An acceptance packet confirming admission to Hydra Head Academy. It includes the route to the registrar's timetable desk and the first-year welcome. It is not an application awaiting another approval.",
+    "bonuses": []
+  },
+  "Appointment Letter - Hydra Head": {
+    "name": "Appointment Letter - Hydra Head",
+    "category": "Document",
+    "description": "An accepted instructor's appointment at Hydra Head Academy. The headmaster's induction supplies the teaching subject, assigned room and first-bell start on the following morning. It confirms employment, not command over colleagues or permission to enter restricted facilities.",
+    "bonuses": []
+  },
+  "Drakenspire Portal Key": {
+    "name": "Drakenspire Portal Key",
+    "category": "Key",
+    "description": "A reusable transit key for the active Evertree route to Drakenspire Mountains. Use it in Evertree Base's Portal Room to open the route to Drakenspire's Portal Room. It records an issued passage; carrying it does not grant access to other palace rooms or private places at the destination. Issued only by the court or its explicit delegate for an approved reason such as enrolled study, authorized trade, court duty or credible noble sponsorship. Ownership claims, social status and a friendly unofficial handover do not create court permission.",
+    "bonuses": []
+  },
+  "Asterveil Portal Key": {
+    "name": "Asterveil Portal Key",
+    "category": "Key",
+    "description": "A reusable transit key for the active Evertree route to Asterveil Sky Archipelago. Use it in Evertree Base's Portal Room to open the route to Cloudbloom Landing's Portal Room. It records an issued passage; passengers do not need to cast the portal. Issued only by the court or its explicit delegate for an approved reason such as enrolled study, authorized trade, court duty or credible noble sponsorship. Ownership claims, social status and a friendly unofficial handover do not create court permission.",
+    "bonuses": []
+  },
+  "Silver Web Portal Key": {
+    "name": "Silver Web Portal Key",
+    "category": "Key",
+    "description": "A reusable silver-threaded key that mysteriously condenses on the first arrival inside the Silken Descent's ruined portal room. It records the discovered passage and its stable home connection. At Evertree Base - Portal Room, use it to open the matching arch back to the Silken Portal Room. The discovered return arch leads home freely even without the key. The key is retained after use and does not prove descent, matron defeat or expedition credit.",
+    "bonuses": []
+  },
+  "Glowhaven Portal Key": {
+    "name": "Glowhaven Portal Key",
+    "category": "Key",
+    "description": "A reusable court-issued return key provided under the traveler's approved Evertree passage. At Drakenspire - Portal Room or Cloudbloom Landing - Portal Room, use it to return directly to Evertree Base - Portal Room in Glowhaven. It can also identify the home connection at a return arch already discovered in actual play. It is retained after use, costs no passenger mana and does not open a portal elsewhere. Fixed return arches also work without it. The key grants no private palace access or new outbound authorization.",
+    "bonuses": []
+  },
+  "Asterveil Field Atlas": {
+    "name": "Asterveil Field Atlas",
+    "category": "Document",
+    "description": "A working atlas of Cloudbloom Reaches, Rimeglass Heights, Mirrorwater Marches and Amethyst Crown. It identifies public approaches, landing points and progressively more dangerous country. It does not reveal hidden inner sites, prove a route is currently safe or grant travel permission. Commonly sold for 20 marks.",
+    "bonuses": []
+  },
+  "Asterveil Survey Kit": {
+    "name": "Asterveil Survey Kit",
+    "category": "Tool",
+    "description": "A practical kit of marked cord, folding sight, sample labels, sealed jars and a compact weather notebook. It supports actual observation and careful collection. It grants no universal skill, success bonus, flight or protection. Commonly 120 marks; actual purchase or loan is required.",
+    "bonuses": []
+  },
+  "Discharged Stormglass Plate": {
+    "name": "Discharged Stormglass Plate",
+    "category": "Tool",
+    "description": "A real spent plate from a Stormglass Kite or an agreed local collection. The discharged condition matters for safe handling. It is a research/crafting component, not a charged weapon, permanent equipment bonus or mana potion.",
+    "bonuses": []
+  },
+  "Mature Glassreed Bundle": {
+    "name": "Mature Glassreed Bundle",
+    "category": "Tool",
+    "description": "A small bundle of properly selected mature glassreed for filters, fine tubing or research. A permitted harvest and safe storage preserve its useful structure. Its hollow stems are easily spoiled by careless cutting or damp storage.",
+    "bonuses": []
+  },
+  "Prismfold Membrane": {
+    "name": "Prismfold Membrane",
+    "category": "Tool",
+    "description": "An intact cast-off membrane from a Prismfold Fan, kept flat for optical comparison. Its refractive structure can inform real research. It grants no free Illusion ability, invisibility or infinite material copies.",
+    "bonuses": []
+  },
+  "Stillstar Calibration Component": {
+    "name": "Stillstar Calibration Component",
+    "category": "Tool",
+    "description": "A bounded old measuring component from Stillstar Sanctum. Its condition and whether it has actually been removed must be established. It can be studied or recovered under the commission’s terms; naming it does not grant power over Asterveil buoyancy.",
+    "bonuses": []
+  },
+  "Matron's Anchor Sigil": {
+    "name": "Matron's Anchor Sigil",
+    "category": "Document",
+    "description": "A palm-sized fragment of silver-black metal threaded with hardened silk. Its broken lattice still holds a faint warmth from the arachne matron’s shattered web-anchor—an unsettling keepsake of the Silken Descent.",
+    "bonuses": []
+  },
+  "Guild Badge: Bronze": {
+    "name": "Guild Badge: Bronze",
+    "category": "Document",
+    "bonuses": [],
+    "description": "A personal Adventurer’s Guild badge bearing the Bronze rank and the branch’s registration seal. Its holder is licensed to accept Bronze contracts and requests of lower rank."
+  },
+  "Guild Badge: Silver": {
+    "name": "Guild Badge: Silver",
+    "category": "Document",
+    "bonuses": [],
+    "description": "A personal Adventurer’s Guild badge bearing the Silver rank and the branch’s registration seal. Its holder is licensed to accept Silver contracts and requests of lower rank."
+  },
+  "Guild Badge: Gold": {
+    "name": "Guild Badge: Gold",
+    "category": "Document",
+    "bonuses": [],
+    "description": "A personal Adventurer’s Guild badge bearing the Gold rank and the branch’s registration seal. Its holder is licensed to accept Gold contracts and requests of lower rank."
+  },
+  "Guild Badge: Platinum": {
+    "name": "Guild Badge: Platinum",
+    "category": "Document",
+    "bonuses": [],
+    "description": "A personal Adventurer’s Guild badge bearing the Platinum rank and the branch’s registration seal. Its holder is licensed to accept Platinum contracts and requests of lower rank."
+  },
+  "Guild Exam Docket": {
+    "name": "Guild Exam Docket",
+    "category": "Document",
+    "bonuses": [],
+    "description": "A folded licensure application bearing the Glowhaven branch’s seal, with spaces for the judgment review and practical assessment results."
+  },
+  "Guild Judgment Pass": {
+    "name": "Guild Judgment Pass",
+    "category": "Document",
+    "bonuses": [],
+    "description": "A signed assessment slip certifying a satisfactory judgment review: reading a request, recognizing danger and knowing when to withdraw."
+  },
+  "Guild Practical Pass": {
+    "name": "Guild Practical Pass",
+    "category": "Document",
+    "bonuses": [],
+    "description": "A signed assessment slip certifying a satisfactory practical demonstration of the applicant’s adventuring skills."
+  },
+  "Guild Service Credit": {
+    "name": "Guild Service Credit",
+    "category": "Document",
+    "bonuses": [],
+    "description": "A stamped entry from the guild’s service ledger, recording one completed commission. Entries are collected and filed when an adventurer’s promotion is approved."
+  },
+  "Guild Proof: Courier": {
+    "name": "Guild Proof: Courier",
+    "category": "Document",
+    "bonuses": [],
+    "description": "A field record and supporting receipt for “A Parcel for the Bazaar”, ready to be checked and filed at the guild counter."
+  },
+  "Guild Proof: Survey": {
+    "name": "Guild Proof: Survey",
+    "category": "Document",
+    "bonuses": [],
+    "description": "A field record and supporting receipt for “Westwood Trail Notes”, ready to be checked and filed at the guild counter."
+  },
+  "Guild Proof: Recovery": {
+    "name": "Guild Proof: Recovery",
+    "category": "Document",
+    "bonuses": [],
+    "description": "A field record and supporting receipt for “Broken Halo Recovery”, ready to be checked and filed at the guild counter."
+  },
+  "Guild Proof: Mine": {
+    "name": "Guild Proof: Mine",
+    "category": "Document",
+    "bonuses": [],
+    "description": "A field record and supporting receipt for “Redvein Safety Survey”, ready to be checked and filed at the guild counter."
+  },
+  "Guild Proof: Crown": {
+    "name": "Guild Proof: Crown",
+    "category": "Document",
+    "bonuses": [],
+    "description": "A field record and supporting receipt for “Inverted Crown Instruments”, ready to be checked and filed at the guild counter."
+  },
+  "First-Year Timetable - Phoenix Wing": {
+    "name": "First-Year Timetable - Phoenix Wing",
+    "category": "Document",
+    "description": "A folded first-year timetable for Phoenix Wing Academy, handed out at its registrar's desk on opening morning. Required lessons run from the first bell to midday; the listed core subjects are Magic Theory — Haruki Saitō; Magical Combat — Ritsu Kurogane; Potions & Alchemy — Ranka Kagari. The opening day's first lesson after the welcome is Magic Theory in the Lecture Hall. Afternoons are normally free unless a specific supervised activity has been announced.",
+    "bonuses": []
+  },
+  "First-Year Timetable - Gryffin Tail": {
+    "name": "First-Year Timetable - Gryffin Tail",
+    "category": "Document",
+    "description": "A folded first-year timetable for Gryffin Tail Academy, handed out at its registrar's desk on opening morning. Required lessons run from the first bell to midday; the listed core subjects are Magic Theory — Kei Aoki; Magical Engineering — Sōichirō Takamine; Magical Arts — Ririka Kujō. The opening day's first lesson after the welcome is Magic Theory in the Lecture Hall. Afternoons are normally free unless a specific supervised activity has been announced.",
+    "bonuses": []
+  },
+  "First-Year Timetable - Dragon Hoard": {
+    "name": "First-Year Timetable - Dragon Hoard",
+    "category": "Document",
+    "description": "A folded first-year timetable for Dragon Hoard Academy, handed out at its registrar's desk on opening morning. Required lessons run from the first bell to midday; the listed core subjects are Magic Theory — Noriaki Takatsuki; Spellcraft — Madoka Narukami; Magical Creatures — Genzō Iwakura. The opening day's first lesson after the welcome is Magic Theory in the Lecture Hall. Afternoons are normally free unless a specific supervised activity has been announced.",
+    "bonuses": []
+  },
+  "First-Year Timetable - Hydra Head": {
+    "name": "First-Year Timetable - Hydra Head",
+    "category": "Document",
+    "description": "A folded first-year timetable for Hydra Head Academy, handed out at its registrar's desk on opening morning. Required lessons run from the first bell to midday; the listed core subjects are Magic Theory — Kana Fujimoto; Enchantment — Reon Fujisaki; Herbology — Kaoruko Hanazono. The opening day's first lesson after the welcome is Magic Theory in the Lecture Hall. Afternoons are normally free unless a specific supervised activity has been announced.",
+    "bonuses": []
+  },
+  "Wanted Poster": {
+    "name": "Wanted Poster",
+    "category": "Document",
+    "description": "A wanted poster with your face on it.",
+    "bonuses": []
+  },
+  "Roadwarden's Sword": {
+    "name": "Roadwarden's Sword",
+    "category": "Weapon",
+    "description": "A plain, sharp steel sword with a brown leather grip and a scabbard patched at the throat. Made for years of ordinary road work.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 1
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 65,
+    "slot": "weapon"
+  },
+  "Riveted Basket Sword": {
+    "name": "Riveted Basket Sword",
+    "category": "Weapon",
+    "description": "A straight sword with a protective basket of crossed steel strips. Its balance rewards a controlled hand rather than a broad swing.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "value": 2
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 145,
+    "slot": "weapon"
+  },
+  "Whitepass Arming Sword": {
+    "name": "Whitepass Arming Sword",
+    "category": "Weapon",
+    "description": "A mountain-made sword with a short, sturdy guard and a grip that remains secure through winter gloves. The fuller bears a small maker's goat.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 2
+      },
+      {
+        "type": "skill",
+        "variable": "Guarded Combat",
+        "value": 2
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 320,
+    "slot": "weapon"
+  },
+  "Lanternedge": {
+    "name": "Lanternedge",
+    "category": "Weapon",
+    "description": "A pale sword whose narrow fuller shines like a covered lantern when its pommel is turned. A sliding brass shutter dims the light for travel.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 2
+      },
+      {
+        "type": "skill",
+        "variable": "Light Magic",
+        "value": 4
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 1250,
+    "slot": "weapon"
+  },
+  "Common Cavalry Saber": {
+    "name": "Common Cavalry Saber",
+    "category": "Weapon",
+    "description": "A slightly curved steel saber with a simple knucklebow. The scabbard carries the dents of practical manufacture rather than a distinguished campaign.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 1
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 75,
+    "slot": "weapon"
+  },
+  "Copperleaf Cutlass": {
+    "name": "Copperleaf Cutlass",
+    "category": "Weapon",
+    "description": "A broad cutlass with copper leaves embossed on its guard. Sailors favor its short reach on crowded decks and its easy-to-clean fittings.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "value": 2
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 170,
+    "slot": "weapon"
+  },
+  "Snowchain Saber": {
+    "name": "Snowchain Saber",
+    "category": "Weapon",
+    "description": "A robust saber with a cord loop at the grip and a fur-lined scabbard mouth. Freight escorts use it on exposed mountain routes.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 2
+      },
+      {
+        "type": "skill",
+        "variable": "survival",
+        "value": 2
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 370,
+    "slot": "weapon"
+  },
+  "Emberglass Smile": {
+    "name": "Emberglass Smile",
+    "category": "Weapon",
+    "description": "A dark saber threaded with amber-red glass. After a flame working, tiny sparks travel along the enclosed channels like insects returning to a hive.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 3
+      },
+      {
+        "type": "skill",
+        "variable": "Fire Magic",
+        "value": 3
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 1700,
+    "slot": "weapon"
+  },
+  "Plain Dueling Rapier": {
+    "name": "Plain Dueling Rapier",
+    "category": "Weapon",
+    "description": "A slender steel rapier with a modest swept hilt. Its tip is sharp, its finish plain, and its maker has spent the money on the temper.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "value": 1
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 90,
+    "slot": "weapon"
+  },
+  "Blue-Ribbon Rapier": {
+    "name": "Blue-Ribbon Rapier",
+    "category": "Weapon",
+    "description": "A lively rapier with a narrow cyan ribbon tied beneath the guard. The ribbon can be replaced; the careful balance is the reason to buy it.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "value": 3
+      },
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 1
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 220,
+    "slot": "weapon"
+  },
+  "Three-Ring Estoc": {
+    "name": "Three-Ring Estoc",
+    "category": "Weapon",
+    "description": "A stiff thrusting sword with three steel rings protecting the hand. Its maker has left a neat mark inside the guard where only its owner sees it.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 2
+      },
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "value": 2
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 420,
+    "slot": "weapon"
+  },
+  "Last Word at Supper": {
+    "name": "Last Word at Supper",
+    "category": "Weapon",
+    "description": "A silver-finished rapier that gives one delicate dinner-bell note when drawn. The blade is quite real despite its owner's opportunity for an entrance.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 2
+      },
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "value": 5
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 1900,
+    "slot": "weapon"
+  },
+  "Traveler's Greatsword": {
+    "name": "Traveler's Greatsword",
+    "category": "Weapon",
+    "description": "A long, sharp sword meant for two hands, with plain fittings and a broad cloth shoulder sling. It is workmanlike rather than ceremonial.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 1
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 100,
+    "slot": "weapon"
+  },
+  "Hearthforged Greatsword": {
+    "name": "Hearthforged Greatsword",
+    "category": "Weapon",
+    "description": "A broad two-handed sword with a dark central ridge and a heat-colored guard. Its weight sits close enough to the hands for deliberate recovery.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 2
+      },
+      {
+        "type": "skill",
+        "variable": "Force Combat",
+        "value": 2
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 280,
+    "slot": "weapon"
+  },
+  "Avalanche Cleaver": {
+    "name": "Avalanche Cleaver",
+    "category": "Weapon",
+    "description": "A thick-backed greatsword with a squared tip and a deeply textured grip. Mountain mercenaries use its weight without pretending it is light.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 2
+      },
+      {
+        "type": "skill",
+        "variable": "athletics",
+        "value": 3
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 490,
+    "slot": "weapon"
+  },
+  "The Red Horizon": {
+    "name": "The Red Horizon",
+    "category": "Weapon",
+    "description": "A colossal two-handed sword of dark red steel, its blade marked with a thin gold line from heel to tip. It appears in old descriptions of a battle whose victor was never recorded.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 4
+      },
+      {
+        "type": "skill",
+        "variable": "Force Combat",
+        "value": 6
+      },
+      {
+        "type": "resource",
+        "variable": "Health",
+        "value": 20
+      }
+    ],
+    "tier": "legendary",
+    "estimatedValue": 8200,
+    "slot": "weapon"
+  },
+  "Working Dagger": {
+    "name": "Working Dagger",
+    "category": "Weapon",
+    "description": "A sturdy pointed dagger in a plain belt sheath. The rough spine offers a thumb purchase for careful work.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "value": 1
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 20,
+    "slot": "weapon"
+  },
+  "Sleeveguard Dirk": {
+    "name": "Sleeveguard Dirk",
+    "category": "Weapon",
+    "description": "A long dagger with a secure hand guard and a narrow sheath. Duelists carry it for the space a larger weapon cannot comfortably cover.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Guarded Combat",
+        "value": 2
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 110,
+    "slot": "weapon"
+  },
+  "Black Thread Stiletto": {
+    "name": "Black Thread Stiletto",
+    "category": "Weapon",
+    "description": "A slim triangular dagger with matte fittings and a tightly retained sheath. It draws without the clatter of loose metal.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Stealth",
+        "value": 3
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 240,
+    "slot": "weapon"
+  },
+  "The Apologetic Knife": {
+    "name": "The Apologetic Knife",
+    "category": "Weapon",
+    "description": "A black dagger that murmurs a little bell-like apology whenever its point clears the sheath. Nobody has found a quieter way to draw it.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 2
+      },
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "value": 3
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 850,
+    "slot": "weapon"
+  },
+  "Matched Street Blades": {
+    "name": "Matched Street Blades",
+    "category": "Weapon",
+    "description": "Two short steel blades in a paired belt rig, fitted to be used together. The simple guards leave room for a close, mobile fighting style.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "value": 1
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 85,
+    "slot": "weapon"
+  },
+  "Copperfin Pair": {
+    "name": "Copperfin Pair",
+    "category": "Weapon",
+    "description": "A matched pair of short curved swords with fish-tail pommels. Their scabbards nest together without rattling.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "value": 3
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 210,
+    "slot": "weapon"
+  },
+  "Rimehook Twins": {
+    "name": "Rimehook Twins",
+    "category": "Weapon",
+    "description": "Two hooked short blades with heavy guards and winter-wrapped grips. They favor close control over long lunges.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 2
+      },
+      {
+        "type": "skill",
+        "variable": "Guarded Combat",
+        "value": 2
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 430,
+    "slot": "weapon"
+  },
+  "Quarrelsome Sisters": {
+    "name": "Quarrelsome Sisters",
+    "category": "Weapon",
+    "description": "A pair of dark swords, one etched with a sun and the other with rain. Touching their pommels produces two different, distinctly argumentative notes.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 2
+      },
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "value": 5
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 2100,
+    "slot": "weapon"
+  },
+  "Ashwood Spear": {
+    "name": "Ashwood Spear",
+    "category": "Weapon",
+    "description": "A straight ash shaft carrying a leaf-shaped steel head. A leather sleeve marks the point where its balance rests.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Force Combat",
+        "value": 1
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 40,
+    "slot": "weapon"
+  },
+  "Ferrywatch Spear": {
+    "name": "Ferrywatch Spear",
+    "category": "Weapon",
+    "description": "A ferryman's long spear with a short crossbar below its point. The butt is capped for purchase on slippery boards.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Guarded Combat",
+        "value": 3
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 125,
+    "slot": "weapon"
+  },
+  "Goatstep Boar Spear": {
+    "name": "Goatstep Boar Spear",
+    "category": "Weapon",
+    "description": "A broad hunting spear with a reinforced shaft and stout lugs. Its fittings are easy to replace far from a forge.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 2
+      },
+      {
+        "type": "skill",
+        "variable": "survival",
+        "value": 2
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 260,
+    "slot": "weapon"
+  },
+  "Rootwake Lance": {
+    "name": "Rootwake Lance",
+    "category": "Weapon",
+    "description": "A long spear with living-looking root patterns under a smooth amber finish. Its shaft gives a soft green glimmer when resting against healthy soil.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 2
+      },
+      {
+        "type": "skill",
+        "variable": "Nature Magic",
+        "value": 4
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 1450,
+    "slot": "weapon"
+  },
+  "Gatekeeper's Halberd": {
+    "name": "Gatekeeper's Halberd",
+    "category": "Weapon",
+    "description": "A steel axe blade, hook and spear point mounted on a long square-cut shaft. Its reach makes it awkward company in a narrow room.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Guarded Combat",
+        "value": 1
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 95,
+    "slot": "weapon"
+  },
+  "Freightyard Billhook": {
+    "name": "Freightyard Billhook",
+    "category": "Weapon",
+    "description": "A sturdy hooked polearm built for controlling a close approach. The head is secured with two long reinforcing strips.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Force Combat",
+        "value": 3
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 160,
+    "slot": "weapon"
+  },
+  "Silverstep Glaive": {
+    "name": "Silverstep Glaive",
+    "category": "Weapon",
+    "description": "A long curved blade carried on a carefully tapered shaft. Silver wire at the grip records its balance points.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 2
+      },
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "value": 2
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 380,
+    "slot": "weapon"
+  },
+  "Windward Procession": {
+    "name": "Windward Procession",
+    "category": "Weapon",
+    "description": "A sweeping glaive with fine holes through its blade. Moving it in a practiced arc produces a low, clean chord and stirs the loose ribbons at its heel.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 2
+      },
+      {
+        "type": "skill",
+        "variable": "Wind Magic",
+        "value": 5
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 2400,
+    "slot": "weapon"
+  },
+  "Woodcutter's Fighting Axe": {
+    "name": "Woodcutter's Fighting Axe",
+    "category": "Weapon",
+    "description": "A short, sharp axe with a reliable hickory haft and a head light enough for fighting. Its edge still handles ordinary camp work.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 1
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 45,
+    "slot": "weapon"
+  },
+  "Notched Caravan Axe": {
+    "name": "Notched Caravan Axe",
+    "category": "Weapon",
+    "description": "A compact broad axe with a protective steel strip down the front of its haft. A small notch in the heel fits its travel cover.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Force Combat",
+        "value": 2
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 140,
+    "slot": "weapon"
+  },
+  "Cairn-Splitter Axe": {
+    "name": "Cairn-Splitter Axe",
+    "category": "Weapon",
+    "description": "A heavy single-bit axe with a flared edge and a rough black haft. It is built for hard, committed blows.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 2
+      },
+      {
+        "type": "skill",
+        "variable": "athletics",
+        "value": 2
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 310,
+    "slot": "weapon"
+  },
+  "Widow's Promise": {
+    "name": "Widow's Promise",
+    "category": "Weapon",
+    "description": "A beautiful black axe with a white silk grip. Old repairs hold their shape poorly around it, and healers tend to move it away before beginning work.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 3
+      },
+      {
+        "type": "skill",
+        "variable": "Healing Magic",
+        "value": -4
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 1800,
+    "slot": "weapon"
+  },
+  "Ironheaded Maul": {
+    "name": "Ironheaded Maul",
+    "category": "Weapon",
+    "description": "A two-handed wooden haft carrying a plain iron head. The leather grip is thick enough to replace after a wet season.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 1
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 70,
+    "slot": "weapon"
+  },
+  "Quarryman's Hammer": {
+    "name": "Quarryman's Hammer",
+    "category": "Weapon",
+    "description": "A compact war hammer with a reinforced haft and a narrow back spike. Its maker began as a quarry toolwright.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Force Combat",
+        "value": 3
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 190,
+    "slot": "weapon"
+  },
+  "Thunderhead Sledge": {
+    "name": "Thunderhead Sledge",
+    "category": "Weapon",
+    "description": "A broad two-handed hammer with a dark steel face and a cord-wrapped lower grip. Every fitting is oversized and reassuringly plain.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 2
+      },
+      {
+        "type": "skill",
+        "variable": "Force Combat",
+        "value": 3
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 460,
+    "slot": "weapon"
+  },
+  "The Uninvited Knock": {
+    "name": "The Uninvited Knock",
+    "category": "Weapon",
+    "description": "A war maul with a polished brass striking face shaped like an expressionless door knocker. Its impact makes a deep, resonant report even against soft timber.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 3
+      },
+      {
+        "type": "skill",
+        "variable": "intimidation",
+        "value": 3
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 2300,
+    "slot": "weapon"
+  },
+  "Plain Flanged Mace": {
+    "name": "Plain Flanged Mace",
+    "category": "Weapon",
+    "description": "A short steel mace with six blunt flanges and a leather wrist loop. The head has no decorative sharp edges to catch in its cover.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 1
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 55,
+    "slot": "weapon"
+  },
+  "Whitepass Morningstar": {
+    "name": "Whitepass Morningstar",
+    "category": "Weapon",
+    "description": "A compact spiked mace with a strong winter grip. A fitted wooden cap protects everything else in the owner's pack.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Guarded Combat",
+        "value": 3
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 180,
+    "slot": "weapon"
+  },
+  "Pilgrim's Iron Cudgel": {
+    "name": "Pilgrim's Iron Cudgel",
+    "category": "Weapon",
+    "description": "An iron-shod hardwood club with a carved grip worn smooth by years of use. Its ornamental cord carries several repaired knots.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 2
+      },
+      {
+        "type": "skill",
+        "variable": "Force Combat",
+        "value": 2
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 340,
+    "slot": "weapon"
+  },
+  "Bellringer's Courtesy": {
+    "name": "Bellringer's Courtesy",
+    "category": "Weapon",
+    "description": "A hollow-headed mace whose internal tongue can be secured for travel. Unfastened, it lends a clear toll to a deliberately placed strike.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 2
+      },
+      {
+        "type": "skill",
+        "variable": "Sound Magic",
+        "value": 4
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 1600,
+    "slot": "weapon"
+  },
+  "Yew Hunting Bow": {
+    "name": "Yew Hunting Bow",
+    "category": "Weapon",
+    "description": "A straightforward wooden bow with a waxed string and a simple leather grip. Arrows are carried separately.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "value": 1
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 80,
+    "slot": "weapon"
+  },
+  "Horn-Backed Recurve": {
+    "name": "Horn-Backed Recurve",
+    "category": "Weapon",
+    "description": "A short recurve strengthened with horn and sinew. Its padded travel cover matters as much as its handsome finish.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "value": 3
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 240,
+    "slot": "weapon"
+  },
+  "Pinefold Longbow": {
+    "name": "Pinefold Longbow",
+    "category": "Weapon",
+    "description": "A tall, patient bow made from seasoned mountain wood. The pale grip bears tiny marks used to check its string alignment.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 2
+      },
+      {
+        "type": "skill",
+        "variable": "Perception",
+        "value": 2
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 440,
+    "slot": "weapon"
+  },
+  "The Far Green Silence": {
+    "name": "The Far Green Silence",
+    "category": "Weapon",
+    "description": "A longbow of translucent green wood with no visible maker's seam. A drawn string leaves the surrounding air peculiarly still until released.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 3
+      },
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "value": 6
+      },
+      {
+        "type": "skill",
+        "variable": "Perception",
+        "value": 4
+      }
+    ],
+    "tier": "legendary",
+    "estimatedValue": 7600,
+    "slot": "weapon"
+  },
+  "Stockman's Crossbow": {
+    "name": "Stockman's Crossbow",
+    "category": "Weapon",
+    "description": "A plain wooden crossbow with an iron prod and a sturdy loading stirrup. Bolts are bought and carried separately.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "value": 1
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 95,
+    "slot": "weapon"
+  },
+  "Compact Lever Crossbow": {
+    "name": "Compact Lever Crossbow",
+    "category": "Weapon",
+    "description": "A short crossbow with a folding lever for deliberate reloading. Its mechanism is accessible beneath a latched side plate.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "value": 2
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 260,
+    "slot": "weapon"
+  },
+  "Watchtower Arbalest": {
+    "name": "Watchtower Arbalest",
+    "category": "Weapon",
+    "description": "A heavy crossbow with a deeply braced stock and a slow, positive winding mechanism. It rewards choosing a position before the fight starts.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 2
+      },
+      {
+        "type": "skill",
+        "variable": "Guarded Combat",
+        "value": 2
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 480,
+    "slot": "weapon"
+  },
+  "Clockwork Sparrow": {
+    "name": "Clockwork Sparrow",
+    "category": "Weapon",
+    "description": "A brass-trimmed crossbow whose little mechanical bird clicks when its ordinary bolt track is seated correctly. It is exacting about maintenance.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 2
+      },
+      {
+        "type": "skill",
+        "variable": "Magitech",
+        "value": 4
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 2200,
+    "slot": "weapon"
+  },
+  "Ironshod Quarterstaff": {
+    "name": "Ironshod Quarterstaff",
+    "category": "Weapon",
+    "description": "A tough wooden fighting staff with iron caps and a plain central grip. Its strength comes from wood and sound construction.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Guarded Combat",
+        "value": 1
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 35,
+    "slot": "weapon"
+  },
+  "Weighted Traveling Staff": {
+    "name": "Weighted Traveling Staff",
+    "category": "Weapon",
+    "description": "A staff whose concealed internal weights give its ends a firm, predictable swing. A threaded cap allows repairs.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Force Combat",
+        "value": 2
+      },
+      {
+        "type": "skill",
+        "variable": "Guarded Combat",
+        "value": 1
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 120,
+    "slot": "weapon"
+  },
+  "Ambercore Battlestaff": {
+    "name": "Ambercore Battlestaff",
+    "category": "Weapon",
+    "description": "A durable fighting staff with a thin mana-bearing amber core. Its reinforced ends are intended for actual staff work.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Arcane Magic",
+        "value": 3
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 390,
+    "slot": "weapon"
+  },
+  "The Rain-Hating Staff": {
+    "name": "The Rain-Hating Staff",
+    "category": "Weapon",
+    "description": "A pale battlestaff whose upper cap unfolds into a broad waxed canopy. It drips collected rain with an indignant ticking sound.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Guarded Combat",
+        "value": 3
+      },
+      {
+        "type": "skill",
+        "variable": "Water Magic",
+        "value": 4
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 1300,
+    "slot": "weapon"
+  },
+  "Short Iron Chain": {
+    "name": "Short Iron Chain",
+    "category": "Weapon",
+    "description": "A short length of well-linked chain with reinforced hand loops. Using it carelessly is an excellent way to strike one's own knuckles.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Force Combat",
+        "value": 1
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 30,
+    "slot": "weapon"
+  },
+  "Weighted Chainblade": {
+    "name": "Weighted Chainblade",
+    "category": "Weapon",
+    "description": "A short blade joined to a balanced weight by a measured chain. Each end has a fitted travel restraint.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "value": 2
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 200,
+    "slot": "weapon"
+  },
+  "Twin-Hook Chain": {
+    "name": "Twin-Hook Chain",
+    "category": "Weapon",
+    "description": "A paired set of hooked blades joined by a robust chain, intended for a practiced two-handed method. A padded case keeps it civilized in transit.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 2
+      },
+      {
+        "type": "skill",
+        "variable": "Guarded Combat",
+        "value": 2
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 410,
+    "slot": "weapon"
+  },
+  "Firefly Catenary": {
+    "name": "Firefly Catenary",
+    "category": "Weapon",
+    "description": "A dark chain weapon whose insulated grips frame fine yellow sparks beneath the link enamel. The sparks gather along its length during lightning workings.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 2
+      },
+      {
+        "type": "skill",
+        "variable": "Lightning Magic",
+        "value": 4
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 2000,
+    "slot": "weapon"
+  },
+  "Braided Fighting Whip": {
+    "name": "Braided Fighting Whip",
+    "category": "Weapon",
+    "description": "A weighted braided whip with a reinforced handle and a replaceable end. Its coiled cover is plain, thick leather.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "value": 1
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 40,
+    "slot": "weapon"
+  },
+  "Ribbonsteel Lash": {
+    "name": "Ribbonsteel Lash",
+    "category": "Weapon",
+    "description": "A flexible lash reinforced with thin steel segments. It takes careful maintenance to keep the joints moving smoothly.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "value": 3
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 170,
+    "slot": "weapon"
+  },
+  "Barbed Silk Whip": {
+    "name": "Barbed Silk Whip",
+    "category": "Weapon",
+    "description": "A dark braided whip with short, deliberately spaced metal barbs. Its owner's gloves should be sturdier than its elegant handle suggests.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "value": 3
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 360,
+    "slot": "weapon"
+  },
+  "Violet Reprimand": {
+    "name": "Violet Reprimand",
+    "category": "Weapon",
+    "description": "A violet lash with silver stitching and a faint scent of cold flowers. The stitching brightens under a deliberately channeled enchantment.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 2
+      },
+      {
+        "type": "skill",
+        "variable": "Enchantment Magic",
+        "value": 4
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 1750,
+    "slot": "weapon"
+  },
+  "Balanced Twinblade": {
+    "name": "Balanced Twinblade",
+    "category": "Weapon",
+    "description": "Two short blades share a central grip wrapped for both hands. Its long travel case is as conspicuous as the weapon.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "value": 1
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 100,
+    "slot": "weapon"
+  },
+  "Brassguard Twinblade": {
+    "name": "Brassguard Twinblade",
+    "category": "Weapon",
+    "description": "A double-ended weapon with protective flared guards near its central grip. Brass grip bands make alignment easy to feel.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Guarded Combat",
+        "value": 2
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 250,
+    "slot": "weapon"
+  },
+  "Snowwheel Twinblade": {
+    "name": "Snowwheel Twinblade",
+    "category": "Weapon",
+    "description": "A compact twinblade with narrow blades and winterproof grip wrapping. A broad scabbard encloses both ends together.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 2
+      },
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "value": 2
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 470,
+    "slot": "weapon"
+  },
+  "The Blue Hour's Argument": {
+    "name": "The Blue Hour's Argument",
+    "category": "Weapon",
+    "description": "A double-ended silver weapon whose opposing blades carry different blue reflections under the same light. Its grip bears an inscription worn beyond legibility.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 3
+      },
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "value": 6
+      },
+      {
+        "type": "skill",
+        "variable": "Enchantment Magic",
+        "value": 4
+      }
+    ],
+    "tier": "legendary",
+    "estimatedValue": 9000,
+    "slot": "weapon"
+  },
+  "Reinforced Fighting Gloves": {
+    "name": "Reinforced Fighting Gloves",
+    "category": "Weapon",
+    "description": "Thick leather gloves with rigid knuckle plates and reinforced seams. They are meant for trained punches rather than delicate repairs.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Force Combat",
+        "value": 1
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 35,
+    "slot": "weapon"
+  },
+  "Brassknuckle Wraps": {
+    "name": "Brassknuckle Wraps",
+    "category": "Weapon",
+    "description": "A fitted pair of fighting wraps built around small brass knuckle guards. The palm remains flexible for grappling.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Force Combat",
+        "value": 2
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 115,
+    "slot": "weapon"
+  },
+  "Stonebrace Gauntlets": {
+    "name": "Stonebrace Gauntlets",
+    "category": "Weapon",
+    "description": "Heavy articulated gauntlets with broad wrist supports. Small gaps at the joints keep a tightly closed fist from pinching.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Guarded Combat",
+        "value": 3
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 330,
+    "slot": "weapon"
+  },
+  "Laughing Giant's Gloves": {
+    "name": "Laughing Giant's Gloves",
+    "category": "Weapon",
+    "description": "Oversized fighting gloves of enchanted hide. Their palms are surprisingly dexterous, but the weight is very noticeable during a nimble scramble.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 2
+      },
+      {
+        "type": "skill",
+        "variable": "Force Combat",
+        "value": 4
+      },
+      {
+        "type": "skill",
+        "variable": "acrobatics",
+        "value": -2
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 1500,
+    "slot": "weapon"
+  },
+  "Ironbound Round Shield": {
+    "name": "Ironbound Round Shield",
+    "category": "Weapon",
+    "description": "A wooden round shield with an iron rim and boss. A padded inner strap keeps the edge from battering the forearm.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 12
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 60,
+    "slot": "weapon"
+  },
+  "Caravan Kite Shield": {
+    "name": "Caravan Kite Shield",
+    "category": "Weapon",
+    "description": "A long shield with a reinforced lower point and a faded trade-road pattern. Its repair-friendly construction suits repeated travel.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 22
+      },
+      {
+        "type": "skill",
+        "variable": "Guarded Combat",
+        "value": 2
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 190,
+    "slot": "weapon"
+  },
+  "Riveted Tower Shield": {
+    "name": "Riveted Tower Shield",
+    "category": "Weapon",
+    "description": "A broad shield with a padded shoulder rest and a deep viewing notch. Its owner pays for the protection in carried weight.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 32
+      },
+      {
+        "type": "skill",
+        "variable": "athletics",
+        "value": -1
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 450,
+    "slot": "weapon"
+  },
+  "The Door That Refused": {
+    "name": "The Door That Refused",
+    "category": "Weapon",
+    "description": "An immense shield paneled like an old painted door, complete with a useless little brass knocker. Its hinges are ornamental; its weight is not.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 45
+      },
+      {
+        "type": "skill",
+        "variable": "Guarded Combat",
+        "value": 4
+      },
+      {
+        "type": "skill",
+        "variable": "acrobatics",
+        "value": -2
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 2400,
+    "slot": "weapon"
+  },
+  "Steel-Ribbed War Fan": {
+    "name": "Steel-Ribbed War Fan",
+    "category": "Weapon",
+    "description": "A folding fan with blunt steel ribs and a secure central pin. Closed, it is a compact striking tool; open, it is unmistakably a weapon.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "value": 1
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 70,
+    "slot": "weapon"
+  },
+  "Painted Crane Fans": {
+    "name": "Painted Crane Fans",
+    "category": "Weapon",
+    "description": "A matched pair of reinforced fans painted with red cranes. Their weighted ribs suit practiced turns as well as formal performance.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "value": 2
+      },
+      {
+        "type": "skill",
+        "variable": "performance",
+        "value": 2
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 180,
+    "slot": "weapon"
+  },
+  "Mirrorleaf Battle Fan": {
+    "name": "Mirrorleaf Battle Fan",
+    "category": "Weapon",
+    "description": "A broad fan with polished metal leaves and a reinforced thumb rest. A cloth sheath protects the reflective finish.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Guarded Combat",
+        "value": 3
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 350,
+    "slot": "weapon"
+  },
+  "Curtain Call in Gold": {
+    "name": "Curtain Call in Gold",
+    "category": "Weapon",
+    "description": "A gold-leafed war fan whose painted audience changes expressions as its folds move. The tiny figures never leave the painted stage.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "value": 3
+      },
+      {
+        "type": "skill",
+        "variable": "Illusion Magic",
+        "value": 4
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 1600,
+    "slot": "weapon"
+  },
+  "Long-Haft War Scythe": {
+    "name": "Long-Haft War Scythe",
+    "category": "Weapon",
+    "description": "A purpose-made fighting scythe with a straighter blade mounting than a farm tool. Its long haft demands two hands and room to turn.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Force Combat",
+        "value": 1
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 90,
+    "slot": "weapon"
+  },
+  "Hooked Harvest Glaive": {
+    "name": "Hooked Harvest Glaive",
+    "category": "Weapon",
+    "description": "A long curved blade with an inward hook, fitted on a steel-braced wooden haft. Its removable cover is very carefully labeled.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "value": 2
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 210,
+    "slot": "weapon"
+  },
+  "Blackfield Reaper": {
+    "name": "Blackfield Reaper",
+    "category": "Weapon",
+    "description": "A dark two-handed scythe with a stiff haft and a narrow crescent blade. Its maker has favored fighting balance over ornament.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 2
+      },
+      {
+        "type": "skill",
+        "variable": "Force Combat",
+        "value": 2
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 440,
+    "slot": "weapon"
+  },
+  "The Undertaker's Compliment": {
+    "name": "The Undertaker's Compliment",
+    "category": "Weapon",
+    "description": "A silver-gray war scythe with small bone-colored ceramic beads hanging beneath its blade. The beads give a low chord near an active spiritual working.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 2
+      },
+      {
+        "type": "skill",
+        "variable": "Soul Magic",
+        "value": 5
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 2500,
+    "slot": "weapon"
+  },
+  "Padded Traveling Cap": {
+    "name": "Padded Traveling Cap",
+    "category": "Armor",
+    "description": "A close-fitting quilted cap with ear flaps that tie beneath the chin. It packs flat and dries beside a modest fire.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 6
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 12,
+    "slot": "head"
+  },
+  "Plain Steel Helm": {
+    "name": "Plain Steel Helm",
+    "category": "Armor",
+    "description": "An open-faced steel helmet with a replaceable padded liner. The brow is deliberately free of decorative projections.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 14
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 65,
+    "slot": "head"
+  },
+  "Caravan Sallet": {
+    "name": "Caravan Sallet",
+    "category": "Armor",
+    "description": "A low steel helmet with a broad, carefully placed viewing opening. Its long rear protects the neck without a cumbersome collar.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 22
+      },
+      {
+        "type": "skill",
+        "variable": "Perception",
+        "value": 1
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 150,
+    "slot": "head"
+  },
+  "Glassworker's Hood": {
+    "name": "Glassworker's Hood",
+    "category": "Armor",
+    "description": "A thick hood with a clear hinged face screen and a soft internal band. Soot wipes easily from its smooth surface.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 10
+      },
+      {
+        "type": "skill",
+        "variable": "Magitech",
+        "value": 2
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 110,
+    "slot": "head"
+  },
+  "Pinefold Hunting Hood": {
+    "name": "Pinefold Hunting Hood",
+    "category": "Armor",
+    "description": "A lined green hood with a weathered outer surface and discreet loops for local foliage. Its heavy hem stays down in a crosswind.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "survival",
+        "value": 3
+      },
+      {
+        "type": "skill",
+        "variable": "Stealth",
+        "value": 1
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 130,
+    "slot": "head"
+  },
+  "Star-Pinned Scholar's Hat": {
+    "name": "Star-Pinned Scholar's Hat",
+    "category": "Armor",
+    "description": "A soft pointed hat whose small silver star is actually a neatly caged mana crystal. Its brim can be buttoned out of the wearer's eyes.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Arcane Magic",
+        "value": 4
+      },
+      {
+        "type": "resource",
+        "variable": "Mana",
+        "value": 12
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 520,
+    "slot": "head"
+  },
+  "Stormreader's Goggles": {
+    "name": "Stormreader's Goggles",
+    "category": "Armor",
+    "description": "Brass goggles with adjustable blue lenses that make fine electrical traces easier to distinguish. Old scratches remain visible in the left lens.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Perception",
+        "value": 4
+      },
+      {
+        "type": "skill",
+        "variable": "Lightning Magic",
+        "value": 3
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 850,
+    "slot": "head"
+  },
+  "Ashen Diadem": {
+    "name": "Ashen Diadem",
+    "category": "Armor",
+    "description": "A black metal circlet warm at the temples. Its red stones brighten around flames while medicinal enchantments feel unusually stubborn nearby.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Fire Magic",
+        "value": 7
+      },
+      {
+        "type": "skill",
+        "variable": "Healing Magic",
+        "value": -4
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 1700,
+    "slot": "head"
+  },
+  "The Crown of Small Complaints": {
+    "name": "The Crown of Small Complaints",
+    "category": "Armor",
+    "description": "A thin silver crown ornamented with tiny closed mouths. In quiet rooms its wearer hears indistinct muttering, usually about matters of astonishing triviality.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Divination Magic",
+        "value": 7
+      },
+      {
+        "type": "skill",
+        "variable": "Insight",
+        "value": 4
+      },
+      {
+        "type": "skill",
+        "variable": "performance",
+        "value": -3
+      }
+    ],
+    "tier": "legendary",
+    "estimatedValue": 4300,
+    "slot": "head"
+  },
+  "Quilted Field Coat": {
+    "name": "Quilted Field Coat",
+    "category": "Armor",
+    "description": "A tough padded coat with a slit hem and broad inner pockets. The stitching is plain, close and easy to repair.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 12
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 45,
+    "slot": "body"
+  },
+  "Leather Brigandine": {
+    "name": "Leather Brigandine",
+    "category": "Armor",
+    "description": "A leather outer coat carrying small steel plates beneath its lining. Its buckles can be worked with cold fingers.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 18
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 95,
+    "slot": "body"
+  },
+  "Plain Mail Shirt": {
+    "name": "Plain Mail Shirt",
+    "category": "Armor",
+    "description": "A long steel mail shirt with leather bindings at the neck and sleeves. A padded underlayer makes its weight much more agreeable.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 26
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 190,
+    "slot": "body"
+  },
+  "Rivet-and-Rime Cuirass": {
+    "name": "Rivet-and-Rime Cuirass",
+    "category": "Armor",
+    "description": "A carefully fitted steel breastplate with fur-backed straps and brass rivets. Mountain armorers leave room for a practical winter layer.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 32
+      },
+      {
+        "type": "skill",
+        "variable": "Guarded Combat",
+        "value": 2
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 380,
+    "slot": "body"
+  },
+  "Surveyor's Long Vest": {
+    "name": "Surveyor's Long Vest",
+    "category": "Armor",
+    "description": "A sturdy sleeveless field vest with numbered specimen pockets and a narrow waterproof notebook sleeve. Its shoulders are reinforced for carrying straps.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "investigation",
+        "value": 3
+      },
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 10
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 140,
+    "slot": "body"
+  },
+  "Rainleaf Caster's Coat": {
+    "name": "Rainleaf Caster's Coat",
+    "category": "Armor",
+    "description": "A dark green coat whose treated cloth beads rain into tidy lines. Fine blue stitching follows the cuffs and shoulder seams.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 18
+      },
+      {
+        "type": "skill",
+        "variable": "Water Magic",
+        "value": 4
+      },
+      {
+        "type": "resource",
+        "variable": "Mana",
+        "value": 15
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 950,
+    "slot": "body"
+  },
+  "Mirror-Sewn Robe": {
+    "name": "Mirror-Sewn Robe",
+    "category": "Armor",
+    "description": "A flowing robe with tiny polished discs hidden in its hems. As its wearer moves, the cloth catches slightly misplaced glints of light.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Illusion Magic",
+        "value": 5
+      },
+      {
+        "type": "skill",
+        "variable": "Deception",
+        "value": 2
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 1200,
+    "slot": "body"
+  },
+  "Glassheart Cuirass": {
+    "name": "Glassheart Cuirass",
+    "category": "Armor",
+    "description": "A clear crystal breastplate fitted around a milky central stone. Its cool pressure makes the wearer feel strangely fragile beneath the formidable shell.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 60
+      },
+      {
+        "type": "resource",
+        "variable": "Health",
+        "value": -25
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 2200,
+    "slot": "body"
+  },
+  "Emberrest Mantle-Coat": {
+    "name": "Emberrest Mantle-Coat",
+    "category": "Armor",
+    "description": "A thick red traveling coat with charcoal-black seams. Its lining keeps a comfortable warmth long after the wearer leaves the hearth.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 35
+      },
+      {
+        "type": "skill",
+        "variable": "Fire Magic",
+        "value": 4
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 1800,
+    "slot": "body"
+  },
+  "The Quiet Citadel": {
+    "name": "The Quiet Citadel",
+    "category": "Armor",
+    "description": "A dark cuirass made from interlocking plates finer than ordinary smiths can reliably reproduce. Its tiny joints close with a sound like a distant latch.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 65
+      },
+      {
+        "type": "skill",
+        "variable": "Guarded Combat",
+        "value": 6
+      },
+      {
+        "type": "skill",
+        "variable": "acrobatics",
+        "value": -3
+      }
+    ],
+    "tier": "legendary",
+    "estimatedValue": 8800,
+    "slot": "body"
+  },
+  "Hardwearing Field Trousers": {
+    "name": "Hardwearing Field Trousers",
+    "category": "Armor",
+    "description": "Stout trousers with patched knees and a gusseted seat. Their owner can kneel on rough ground without immediately regretting it.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 5
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 18,
+    "slot": "legs"
+  },
+  "Leather Greaves": {
+    "name": "Leather Greaves",
+    "category": "Armor",
+    "description": "Boiled-leather leg guards lined with felt. The straps are broad enough to distribute pressure during a long walk.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 10
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 40,
+    "slot": "legs"
+  },
+  "Articulated Steel Greaves": {
+    "name": "Articulated Steel Greaves",
+    "category": "Armor",
+    "description": "Steel knee and shin guards with overlapping joints. A small maker's mark identifies the left piece when they are laid out for cleaning.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 22
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 160,
+    "slot": "legs"
+  },
+  "Climber's Split Skirt": {
+    "name": "Climber's Split Skirt",
+    "category": "Armor",
+    "description": "A reinforced divided overskirt with secure ties and a narrow inner pocket. The hem stays out of a climber's knee bend.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "acrobatics",
+        "value": 3
+      },
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 7
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 140,
+    "slot": "legs"
+  },
+  "Woolridge Winter Leggings": {
+    "name": "Woolridge Winter Leggings",
+    "category": "Armor",
+    "description": "Heavy wool leggings with a close windproof outer weave. Replaceable straps keep them from riding above a winter boot.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "survival",
+        "value": 3
+      },
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 6
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 120,
+    "slot": "legs"
+  },
+  "Duelist's Silver Seams": {
+    "name": "Duelist's Silver Seams",
+    "category": "Armor",
+    "description": "Close-fitting dark trousers traced with flexible silver stitching at the knees and hips. They are much less delicate than their formal appearance suggests.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "value": 4
+      },
+      {
+        "type": "skill",
+        "variable": "acrobatics",
+        "value": 2
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 640,
+    "slot": "legs"
+  },
+  "Rootbound Chausses": {
+    "name": "Rootbound Chausses",
+    "category": "Armor",
+    "description": "Soft mail leggings whose green fastenings resemble tightly closed buds. Soil caught in the weave falls free with a firm shake.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 25
+      },
+      {
+        "type": "skill",
+        "variable": "Nature Magic",
+        "value": 3
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 1000,
+    "slot": "legs"
+  },
+  "The Heavy Road": {
+    "name": "The Heavy Road",
+    "category": "Armor",
+    "description": "Dark traveling leggings with strangely dense hems. Their wearer can sustain a burden for longer but quickly notices the weight when trying to leap.",
+    "bonuses": [
+      {
+        "type": "resource",
+        "variable": "Stamina",
+        "value": 18
+      },
+      {
+        "type": "skill",
+        "variable": "acrobatics",
+        "value": -4
+      },
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 20
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 1300,
+    "slot": "legs"
+  },
+  "Leather Road Boots": {
+    "name": "Leather Road Boots",
+    "category": "Armor",
+    "description": "High leather boots with replaceable laces and sound soles. Their appearance improves considerably after a brush and a little oil.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "survival",
+        "value": 1
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 25,
+    "slot": "feet"
+  },
+  "Hobnailed Working Boots": {
+    "name": "Hobnailed Working Boots",
+    "category": "Armor",
+    "description": "Thick boots with iron hobnails and reinforced toes. On polished floors they announce their owner well before the conversation starts.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 8
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 32,
+    "slot": "feet"
+  },
+  "Whitepass Snow Boots": {
+    "name": "Whitepass Snow Boots",
+    "category": "Armor",
+    "description": "Fur-lined boots with deep tread and leather covers over the lacing. The removable felt liners dry overnight near a hearth.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "survival",
+        "value": 3
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 115,
+    "slot": "feet"
+  },
+  "Quietstep Soft Boots": {
+    "name": "Quietstep Soft Boots",
+    "category": "Armor",
+    "description": "Soft-soled boots with carefully padded seams and no loose fittings. The leather is dull rather than artificially black.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Stealth",
+        "value": 3
+      },
+      {
+        "type": "skill",
+        "variable": "acrobatics",
+        "value": 1
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 160,
+    "slot": "feet"
+  },
+  "Iron-Toed Duel Boots": {
+    "name": "Iron-Toed Duel Boots",
+    "category": "Armor",
+    "description": "Balanced leather boots with small steel toe caps and close ankle supports. Their soles turn predictably on a clean practice floor.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 16
+      },
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "value": 2
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 220,
+    "slot": "feet"
+  },
+  "Ladderkeeper's Boots": {
+    "name": "Ladderkeeper's Boots",
+    "category": "Armor",
+    "description": "Work boots with firm arches and a squared heel that rests securely on a rung. The maker has reinforced every point touched by a climbing strap.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "athletics",
+        "value": 3
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 145,
+    "slot": "feet"
+  },
+  "Cloudtread Slippers": {
+    "name": "Cloudtread Slippers",
+    "category": "Armor",
+    "description": "Pale slippers woven with soft sky-fiber. Their soles briefly display tiny cloud shapes after each step on a cold surface.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "acrobatics",
+        "value": 5
+      },
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 5
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 900,
+    "slot": "feet"
+  },
+  "Moss-Mannered Boots": {
+    "name": "Moss-Mannered Boots",
+    "category": "Armor",
+    "description": "Brown boots with living-looking moss tucked beneath their laces. The little green fronds curl inward when the boots are polished.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Stealth",
+        "value": 4
+      },
+      {
+        "type": "skill",
+        "variable": "Nature Magic",
+        "value": 2
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 780,
+    "slot": "feet"
+  },
+  "The Impatient Heels": {
+    "name": "The Impatient Heels",
+    "category": "Armor",
+    "description": "Elegant boots whose heels tap a brisk rhythm when their wearer stands still. Performers argue whether the habit is charming or infuriating.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "performance",
+        "value": 4
+      },
+      {
+        "type": "skill",
+        "variable": "acrobatics",
+        "value": 3
+      },
+      {
+        "type": "skill",
+        "variable": "Stealth",
+        "value": -3
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 1100,
+    "slot": "feet"
+  },
+  "Gravelfall Sabatons": {
+    "name": "Gravelfall Sabatons",
+    "category": "Armor",
+    "description": "Steel foot guards with dark violet stones set inside the ankle joints. Their weight seems to settle evenly over whatever surface bears them.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 28
+      },
+      {
+        "type": "skill",
+        "variable": "Gravity Magic",
+        "value": 4
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 1650,
+    "slot": "feet"
+  },
+  "Plain Work Gloves": {
+    "name": "Plain Work Gloves",
+    "category": "Armor",
+    "description": "A practical pair of thick leather gloves with replaceable palms. Fine needlework is possible, but not pleasant.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 3
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 10,
+    "slot": "hands"
+  },
+  "Supple Archery Gloves": {
+    "name": "Supple Archery Gloves",
+    "category": "Armor",
+    "description": "Close-fitting gloves with smooth fingers and a reinforced drawing hand. Their seams are kept away from a bowstring.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "value": 1
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 22,
+    "slot": "hands"
+  },
+  "Riveted Winter Gauntlets": {
+    "name": "Riveted Winter Gauntlets",
+    "category": "Armor",
+    "description": "Articulated gauntlets with warm liners and oversized strap ends. A mitten cover can be pulled over them between fights.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 20
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 170,
+    "slot": "hands"
+  },
+  "Alchemist's Waxed Gloves": {
+    "name": "Alchemist's Waxed Gloves",
+    "category": "Armor",
+    "description": "Close gloves with a treated outer surface and long cuffs. Their stitching is easy to inspect for the damage a careless experiment leaves behind.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Alchemy",
+        "value": 3
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 100,
+    "slot": "hands"
+  },
+  "Fine Mechanist's Gloves": {
+    "name": "Fine Mechanist's Gloves",
+    "category": "Armor",
+    "description": "Thin work gloves with grippy fingertips and small removable steel bracers. Their owner can feel a loose screw through the palm.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Magitech",
+        "value": 4
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 180,
+    "slot": "hands"
+  },
+  "Mercywork Gloves": {
+    "name": "Mercywork Gloves",
+    "category": "Armor",
+    "description": "Cream-colored gloves stitched with delicate red thread. The fingers retain their sensitivity even after repeated washing.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Healing Magic",
+        "value": 4
+      },
+      {
+        "type": "skill",
+        "variable": "Medicine",
+        "value": 3
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 720,
+    "slot": "hands"
+  },
+  "Touch of the Distant Forge": {
+    "name": "Touch of the Distant Forge",
+    "category": "Armor",
+    "description": "Black gloves with copper seams that glow faintly while metal is being worked. Their fingertips smell of warm iron even after cleaning.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Metal Magic",
+        "value": 5
+      },
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 12
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 1300,
+    "slot": "hands"
+  },
+  "Thorn-Bitten Gloves": {
+    "name": "Thorn-Bitten Gloves",
+    "category": "Armor",
+    "description": "Green gloves whose fine seams occasionally press like tiny thorns. A dry rose is embroidered across each palm.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Nature Magic",
+        "value": 5
+      },
+      {
+        "type": "resource",
+        "variable": "Health",
+        "value": -10
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 850,
+    "slot": "hands"
+  },
+  "Plain Wool Cloak": {
+    "name": "Plain Wool Cloak",
+    "category": "Armor",
+    "description": "A heavy wool cloak with a reliable wooden clasp. It does what a traveler expects and makes no claims beyond that.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "survival",
+        "value": 1
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 20,
+    "slot": "Back"
+  },
+  "Waxed Rain Cape": {
+    "name": "Waxed Rain Cape",
+    "category": "Armor",
+    "description": "A broad cape of waxed cloth with a deep hood. Rain gathers in its folded hem if the wearer forgets to shake it out.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "survival",
+        "value": 1
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 35,
+    "slot": "Back"
+  },
+  "Snowchain Freight Cloak": {
+    "name": "Snowchain Freight Cloak",
+    "category": "Armor",
+    "description": "A thick cloak cut short enough to clear pack straps and haul lines. A red lining makes it visible in bad mountain weather.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "survival",
+        "value": 3
+      },
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 6
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 120,
+    "slot": "Back"
+  },
+  "Greenblind Shoulder Cape": {
+    "name": "Greenblind Shoulder Cape",
+    "category": "Armor",
+    "description": "A mottled shoulder cape with a hood that breaks up the outline of the face. Its colors suit woodland rather than every conceivable background.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Stealth",
+        "value": 3
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 160,
+    "slot": "Back"
+  },
+  "Keeper's Tool Mantle": {
+    "name": "Keeper's Tool Mantle",
+    "category": "Armor",
+    "description": "A reinforced mantle with narrow loops for a few carefully fastened tools. Its weight lies across the shoulders instead of pulling at the neck.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Magitech",
+        "value": 2
+      },
+      {
+        "type": "skill",
+        "variable": "athletics",
+        "value": 2
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 210,
+    "slot": "Back"
+  },
+  "Night-Lantern Cloak": {
+    "name": "Night-Lantern Cloak",
+    "category": "Armor",
+    "description": "A dark cloak dotted with small luminous threads inside the hood. The wearer can cover or expose them by turning its edge.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Perception",
+        "value": 3
+      },
+      {
+        "type": "skill",
+        "variable": "Light Magic",
+        "value": 3
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 700,
+    "slot": "Back"
+  },
+  "Borrowed Breeze Cape": {
+    "name": "Borrowed Breeze Cape",
+    "category": "Armor",
+    "description": "A light cape whose corners seem perpetually interested in the nearest breeze. Its clasp is a tiny pair of folded brass wings.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Wind Magic",
+        "value": 5
+      },
+      {
+        "type": "skill",
+        "variable": "acrobatics",
+        "value": 2
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 1050,
+    "slot": "Back"
+  },
+  "The Cloak That Sulks": {
+    "name": "The Cloak That Sulks",
+    "category": "Armor",
+    "description": "A charcoal cloak that draws itself into unflattering folds when displayed for admiration. In a quiet corner it hangs perfectly.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Stealth",
+        "value": 4
+      },
+      {
+        "type": "skill",
+        "variable": "performance",
+        "value": -3
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 950,
+    "slot": "Back"
+  },
+  "Hearth Away From Home": {
+    "name": "Hearth Away From Home",
+    "category": "Armor",
+    "description": "A heavy red travel cloak with a soft amber lining. Even in an unfamiliar shelter, it carries a faint scent of dry wood and clean wool.",
+    "bonuses": [
+      {
+        "type": "resource",
+        "variable": "Stamina",
+        "value": 15
+      },
+      {
+        "type": "resource",
+        "variable": "Health",
+        "value": 15
+      },
+      {
+        "type": "skill",
+        "variable": "survival",
+        "value": 3
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 1500,
+    "slot": "Back"
+  },
+  "Copper Grip Ring": {
+    "name": "Copper Grip Ring",
+    "category": "Armor",
+    "description": "A thick copper ring with a rough inner ridge. Porters turn the ridge toward the palm before taking a difficult grip.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "athletics",
+        "value": 1
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 18,
+    "slot": "Accessories"
+  },
+  "Brass Scholar's Ring": {
+    "name": "Brass Scholar's Ring",
+    "category": "Armor",
+    "description": "A plain brass ring carrying a tiny hinged lens. The lens folds out neatly over a page or small fitting.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "investigation",
+        "value": 2
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 90,
+    "slot": "Accessories"
+  },
+  "Amber Spark Ring": {
+    "name": "Amber Spark Ring",
+    "category": "Armor",
+    "description": "A warm amber chip sits in a copper band. A narrow gold seam makes the stone look as though it contains one small ember.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Fire Magic",
+        "value": 3
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 160,
+    "slot": "Accessories"
+  },
+  "Rainmark Ring": {
+    "name": "Rainmark Ring",
+    "category": "Armor",
+    "description": "A silver band carrying a blue stone with a persistent waterline across its middle. The line shifts when the ring is turned.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Water Magic",
+        "value": 3
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 150,
+    "slot": "Accessories"
+  },
+  "Pebble-Crowned Ring": {
+    "name": "Pebble-Crowned Ring",
+    "category": "Armor",
+    "description": "A simple iron ring set with an unpolished gray pebble. Fine pale veins circle it like miniature strata.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Earth Magic",
+        "value": 3
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 140,
+    "slot": "Accessories"
+  },
+  "Tumbling Feather Ring": {
+    "name": "Tumbling Feather Ring",
+    "category": "Armor",
+    "description": "A small feather is suspended within a clear setting. It turns lazily whenever a fresh breeze reaches the ring.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Wind Magic",
+        "value": 3
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 170,
+    "slot": "Accessories"
+  },
+  "Storm-Nail Ring": {
+    "name": "Storm-Nail Ring",
+    "category": "Armor",
+    "description": "A dark steel ring with a single yellow inclusion. When rubbed clean, its surface briefly smells of a summer storm.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Lightning Magic",
+        "value": 5
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 640,
+    "slot": "Accessories"
+  },
+  "Thawglass Ring": {
+    "name": "Thawglass Ring",
+    "category": "Armor",
+    "description": "A clear blue ring cold enough to mist in warm air. Its interior looks cracked, though the smooth stone has no loose edge.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Ice Magic",
+        "value": 5
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 620,
+    "slot": "Accessories"
+  },
+  "Sunpin Ring": {
+    "name": "Sunpin Ring",
+    "category": "Armor",
+    "description": "A gold setting frames a tiny pale crystal. The crystal holds the last color of daylight for several minutes after sunset.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Light Magic",
+        "value": 5
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 720,
+    "slot": "Accessories"
+  },
+  "The Crooked Halo": {
+    "name": "The Crooked Halo",
+    "category": "Armor",
+    "description": "A slightly tilted golden ring that looks straight only from an unflattering angle. Its pale radiance makes a practiced innocent expression difficult to sustain.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Light Magic",
+        "value": 6
+      },
+      {
+        "type": "skill",
+        "variable": "Deception",
+        "value": -3
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 1200,
+    "slot": "Accessories"
+  },
+  "The Ring That Applauds": {
+    "name": "The Ring That Applauds",
+    "category": "Armor",
+    "description": "A silver ring etched with tiny hands. When tapped twice against a hard surface it answers with a brief, rather enthusiastic patter.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "performance",
+        "value": 5
+      },
+      {
+        "type": "skill",
+        "variable": "Stealth",
+        "value": -3
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 850,
+    "slot": "Accessories"
+  },
+  "The Patient Orbit": {
+    "name": "The Patient Orbit",
+    "category": "Armor",
+    "description": "A violet stone moves slowly around this open ring without touching its metal. Its orbit remains stubbornly unchanged by the wearer's attempts to hurry it.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Gravity Magic",
+        "value": 7
+      },
+      {
+        "type": "resource",
+        "variable": "Mana",
+        "value": 20
+      }
+    ],
+    "tier": "legendary",
+    "estimatedValue": 5200,
+    "slot": "Accessories"
+  },
+  "Wooden Road Pendant": {
+    "name": "Wooden Road Pendant",
+    "category": "Armor",
+    "description": "A small carved road marker on a sturdy cord. The back is flat enough to write a name and an address.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "survival",
+        "value": 1
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 12,
+    "slot": "Accessories"
+  },
+  "Iron Needle Pendant": {
+    "name": "Iron Needle Pendant",
+    "category": "Armor",
+    "description": "A short iron needle hangs inside an open silver frame. It takes a controlled metallic working to turn it precisely without contact.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Metal Magic",
+        "value": 3
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 180,
+    "slot": "Accessories"
+  },
+  "Greenhouse Heart": {
+    "name": "Greenhouse Heart",
+    "category": "Armor",
+    "description": "A clear pendant holding a tiny living sprig. It needs an occasional drop of clean water and resents being left in a hot drawer.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Nature Magic",
+        "value": 3
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 190,
+    "slot": "Accessories"
+  },
+  "Bronze Listener": {
+    "name": "Bronze Listener",
+    "category": "Armor",
+    "description": "A hollow bronze bead hangs on a short chain. Humming near it produces a warm vibration under the fingers.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Sound Magic",
+        "value": 3
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 200,
+    "slot": "Accessories"
+  },
+  "Mercyseed Locket": {
+    "name": "Mercyseed Locket",
+    "category": "Armor",
+    "description": "A white ceramic locket with space for a small pressed leaf or personal note. Its polished surface warms in a healer's hand.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Healing Magic",
+        "value": 4
+      },
+      {
+        "type": "skill",
+        "variable": "Medicine",
+        "value": 2
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 700,
+    "slot": "Accessories"
+  },
+  "Open-Circle Medallion": {
+    "name": "Open-Circle Medallion",
+    "category": "Armor",
+    "description": "A silver circle interrupted by one deliberate gap. Tiny ceramic figures have been worked into the edge, all facing outward.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Summoning Magic",
+        "value": 5
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 850,
+    "slot": "Accessories"
+  },
+  "Glass Moth Pendant": {
+    "name": "Glass Moth Pendant",
+    "category": "Armor",
+    "description": "A blue glass moth with thin silver antennae. Its wing patterns appear different in a reflection, though the glass itself never moves.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Illusion Magic",
+        "value": 5
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 760,
+    "slot": "Accessories"
+  },
+  "Three-Question Amulet": {
+    "name": "Three-Question Amulet",
+    "category": "Armor",
+    "description": "Three small colored stones are set beneath a hinged cover. Old diviners polish one stone before each difficult question.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Divination Magic",
+        "value": 5
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 900,
+    "slot": "Accessories"
+  },
+  "Black-Salt Charm": {
+    "name": "Black-Salt Charm",
+    "category": "Armor",
+    "description": "A black crystal sealed in a narrow silver cage. Loose dust gathers around its frame in sharp, orderly lines.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Void Magic",
+        "value": 5
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 920,
+    "slot": "Accessories"
+  },
+  "Ferryman's Copper": {
+    "name": "Ferryman's Copper",
+    "category": "Armor",
+    "description": "A weathered copper disc on a dark cord, stamped with an empty little boat. Its surface gives a faint note when brushed during a spiritual working.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Soul Magic",
+        "value": 5
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 1100,
+    "slot": "Accessories"
+  },
+  "Glutton's Clasp": {
+    "name": "Glutton's Clasp",
+    "category": "Armor",
+    "description": "A heavy pendant shaped like a smiling open mouth. Its wearer feels brimming with magical capacity and unreasonably tired after climbing stairs.",
+    "bonuses": [
+      {
+        "type": "resource",
+        "variable": "Mana",
+        "value": 35
+      },
+      {
+        "type": "resource",
+        "variable": "Stamina",
+        "value": -10
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 1500,
+    "slot": "Accessories"
+  },
+  "The Smallest North": {
+    "name": "The Smallest North",
+    "category": "Armor",
+    "description": "A silver compass pendant whose needle circles a point just outside its case. Its maker's diagram is engraved so finely that magnification is needed to read it.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Space Magic",
+        "value": 6
+      },
+      {
+        "type": "skill",
+        "variable": "Gravity Magic",
+        "value": 3
+      }
+    ],
+    "tier": "legendary",
+    "estimatedValue": 4700,
+    "slot": "Accessories"
+  },
+  "First-Shift Brooch": {
+    "name": "First-Shift Brooch",
+    "category": "Armor",
+    "description": "A little brass shopfront pin with a replaceable name strip. The clasp is stronger than its cheerful appearance suggests.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Trade",
+        "value": 1
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 15,
+    "slot": "Accessories"
+  },
+  "Quiet Courtesy Pin": {
+    "name": "Quiet Courtesy Pin",
+    "category": "Armor",
+    "description": "A small silver pin finished so smoothly that it never catches a formal sleeve. Its shape resembles a carefully folded greeting card.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Etiquette",
+        "value": 2
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 80,
+    "slot": "Accessories"
+  },
+  "Tailor's Little Moon": {
+    "name": "Tailor's Little Moon",
+    "category": "Armor",
+    "description": "A crescent-shaped brooch engraved with tiny stitch marks. Its curved backing rests flat against a lined collar.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Enchantment Magic",
+        "value": 3
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 140,
+    "slot": "Accessories"
+  },
+  "Ruby Field Pin": {
+    "name": "Ruby Field Pin",
+    "category": "Armor",
+    "description": "A practical ruby-red marker pin with a strong double clasp. Mapmakers use its shape as a reference when sketching a position.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Tactics",
+        "value": 3
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 170,
+    "slot": "Accessories"
+  },
+  "The Modest Peacock": {
+    "name": "The Modest Peacock",
+    "category": "Armor",
+    "description": "A splendid peacock brooch whose metal feathers fold inward when someone tries to spread them. It looks most dignified when left alone.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "persuasion",
+        "value": 4
+      },
+      {
+        "type": "skill",
+        "variable": "performance",
+        "value": 2
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 620,
+    "slot": "Accessories"
+  },
+  "Jester's Honest Face": {
+    "name": "Jester's Honest Face",
+    "category": "Armor",
+    "description": "A tiny enamel mask changes from a grin to an embarrassed frown when turned upside down. Its owner tends to become a little too expressive.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "performance",
+        "value": 5
+      },
+      {
+        "type": "skill",
+        "variable": "Deception",
+        "value": -4
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 800,
+    "slot": "Accessories"
+  },
+  "Pressed-Fern Brooch": {
+    "name": "Pressed-Fern Brooch",
+    "category": "Armor",
+    "description": "A real fern has been sealed between two clear plates. Small scratches in the silver frame suggest long use in a working conservatory.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Nature Magic",
+        "value": 4
+      },
+      {
+        "type": "skill",
+        "variable": "Perception",
+        "value": 2
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 750,
+    "slot": "Accessories"
+  },
+  "The Listening Widow": {
+    "name": "The Listening Widow",
+    "category": "Armor",
+    "description": "A silver spider brooch whose slender legs vibrate with nearby sound. It makes surrounding details easy to notice and remarkably difficult to disregard.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Perception",
+        "value": 6
+      },
+      {
+        "type": "skill",
+        "variable": "Insight",
+        "value": -3
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 1250,
+    "slot": "Accessories"
+  },
+  "Kitchen Laureate's Pin": {
+    "name": "Kitchen Laureate's Pin",
+    "category": "Armor",
+    "description": "A small golden spoon crossed with a flowering sprig. The stem smells faintly of warm citrus after it is polished.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Cooking",
+        "value": 5
+      },
+      {
+        "type": "skill",
+        "variable": "Perfumery",
+        "value": 2
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 550,
+    "slot": "Accessories"
+  },
+  "The Empty Audience": {
+    "name": "The Empty Audience",
+    "category": "Armor",
+    "description": "A black enamel theater pin with seats too tiny to count easily. When warmed in the hand, it carries the distant hush just before a performance begins.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "performance",
+        "value": 7
+      },
+      {
+        "type": "skill",
+        "variable": "Sound Magic",
+        "value": 5
+      },
+      {
+        "type": "skill",
+        "variable": "Stealth",
+        "value": -4
+      }
+    ],
+    "tier": "legendary",
+    "estimatedValue": 5900,
+    "slot": "Accessories"
+  },
+  "Plain Load Belt": {
+    "name": "Plain Load Belt",
+    "category": "Armor",
+    "description": "A broad leather belt with a dependable brass buckle. Its back is padded where a heavy strap tends to rub.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "athletics",
+        "value": 1
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 16,
+    "slot": "Accessories"
+  },
+  "Climber's Waist Strap": {
+    "name": "Climber's Waist Strap",
+    "category": "Armor",
+    "description": "A stout belt with reinforced attachment loops and a buckle that can be checked by touch. It suits careful use with actual climbing equipment.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "athletics",
+        "value": 3
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 90,
+    "slot": "Accessories"
+  },
+  "Quick-Pocket Belt": {
+    "name": "Quick-Pocket Belt",
+    "category": "Armor",
+    "description": "A close-fitting belt with shallow secured pockets. Its owner can kneel or roll without loose contents banging together.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "acrobatics",
+        "value": 2
+      },
+      {
+        "type": "skill",
+        "variable": "Stealth",
+        "value": 1
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 120,
+    "slot": "Accessories"
+  },
+  "Field Medic's Belt": {
+    "name": "Field Medic's Belt",
+    "category": "Armor",
+    "description": "A cleanable belt with labeled loops for actual medical supplies. Its empty pouches are conspicuous after a busy day's work.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Medicine",
+        "value": 3
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 160,
+    "slot": "Accessories"
+  },
+  "Seven-Notch Gunmetal Belt": {
+    "name": "Seven-Notch Gunmetal Belt",
+    "category": "Armor",
+    "description": "A gray belt with a heavy reinforced buckle and broad waist support. Seven small scratches mark an old adjustment point.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Guarded Combat",
+        "value": 4
+      },
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 10
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 640,
+    "slot": "Accessories"
+  },
+  "The Breath Between Hills": {
+    "name": "The Breath Between Hills",
+    "category": "Armor",
+    "description": "A supple green belt that smells of rain on grass. Its buckle is carved as a traveler resting against a milestone.",
+    "bonuses": [
+      {
+        "type": "resource",
+        "variable": "Stamina",
+        "value": 15
+      },
+      {
+        "type": "skill",
+        "variable": "survival",
+        "value": 2
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 900,
+    "slot": "Accessories"
+  },
+  "Pilgrim's Comfortable Burden": {
+    "name": "Pilgrim's Comfortable Burden",
+    "category": "Armor",
+    "description": "A broad belt with two small polished stones sealed inside its lining. The stones pull at the waist during a jump but settle pleasantly during a long walk.",
+    "bonuses": [
+      {
+        "type": "resource",
+        "variable": "Stamina",
+        "value": 20
+      },
+      {
+        "type": "skill",
+        "variable": "acrobatics",
+        "value": -3
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 1100,
+    "slot": "Accessories"
+  },
+  "Coincounter's Belt": {
+    "name": "Coincounter's Belt",
+    "category": "Armor",
+    "description": "A leather belt with a small mechanical counting wheel beside its purse loop. The wheel clicks to zero when the buckle is opened.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Trade",
+        "value": 5
+      },
+      {
+        "type": "skill",
+        "variable": "Perception",
+        "value": 2
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 780,
+    "slot": "Accessories"
+  },
+  "Lucky Button Cord": {
+    "name": "Lucky Button Cord",
+    "category": "Armor",
+    "description": "A bright assortment of buttons on a braided cord. Someone has sewn a smiling face onto the least valuable one.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "performance",
+        "value": 1
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 8,
+    "slot": "Accessories"
+  },
+  "Surveyor's Marker Charm": {
+    "name": "Surveyor's Marker Charm",
+    "category": "Armor",
+    "description": "A flat enamel marker with a numbered rotating disc. The back has a narrow groove for a pencil rubbing.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "investigation",
+        "value": 3
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 95,
+    "slot": "Accessories"
+  },
+  "Rosewater Knot": {
+    "name": "Rosewater Knot",
+    "category": "Armor",
+    "description": "A neatly tied ribbon charm around a tiny reusable scent bead. Its little stopper is secured by a very fine chain.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Perfumery",
+        "value": 3
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 130,
+    "slot": "Accessories"
+  },
+  "Companion's Paw Token": {
+    "name": "Companion's Paw Token",
+    "category": "Armor",
+    "description": "A smooth wooden token shaped like a resting paw. Chew marks suggest that an earlier owner tested its durability thoroughly.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Animal Handling",
+        "value": 3
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 170,
+    "slot": "Accessories"
+  },
+  "The Patient Pawn": {
+    "name": "The Patient Pawn",
+    "category": "Armor",
+    "description": "A small weighted chess pawn on a short chain. Its base is broad enough to stand on a map without falling over.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Tactics",
+        "value": 3
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 180,
+    "slot": "Accessories"
+  },
+  "Root-and-Rivet Token": {
+    "name": "Root-and-Rivet Token",
+    "category": "Armor",
+    "description": "A wooden charm held together with visible brass rivets. A tiny shoot follows the joining seam without splitting the wood.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Magitech",
+        "value": 4
+      },
+      {
+        "type": "skill",
+        "variable": "Nature Magic",
+        "value": 2
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 650,
+    "slot": "Accessories"
+  },
+  "Moonlit Mortar Charm": {
+    "name": "Moonlit Mortar Charm",
+    "category": "Armor",
+    "description": "A pale stone charm shaped like a miniature mortar. Its bowl darkens when stained and lightens again after a careful cleaning.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Alchemy",
+        "value": 5
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 720,
+    "slot": "Accessories"
+  },
+  "Second Thought Talisman": {
+    "name": "Second Thought Talisman",
+    "category": "Armor",
+    "description": "A blue stone carved into a small open hand. It is soothing to hold and lends a decidedly hesitant air to a dramatic threat.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Insight",
+        "value": 5
+      },
+      {
+        "type": "skill",
+        "variable": "intimidation",
+        "value": -3
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 1000,
+    "slot": "Accessories"
+  },
+  "The Unfinished Equation": {
+    "name": "The Unfinished Equation",
+    "category": "Armor",
+    "description": "A metal tag engraved with a geometric proof that stops just before its final line. Its blank lower edge is polished by worried thumbs.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Arcane Magic",
+        "value": 4
+      },
+      {
+        "type": "skill",
+        "variable": "spellcraft",
+        "value": 4
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 1400,
+    "slot": "Accessories"
+  },
+  "Bellwind Promise Cord": {
+    "name": "Bellwind Promise Cord",
+    "category": "Armor",
+    "description": "A braided cord carrying a soft wooden bell. Its tongue can be tied still before approaching a nervous creature.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Enchantment Magic",
+        "value": 4
+      },
+      {
+        "type": "skill",
+        "variable": "Animal Handling",
+        "value": 3
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 980,
+    "slot": "Accessories"
+  },
+  "The Unpaid Tab": {
+    "name": "The Unpaid Tab",
+    "category": "Armor",
+    "description": "A bronze tavern token whose tally lines rearrange whenever it is polished. Bartenders often take an immediate dislike to it.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Deception",
+        "value": 4
+      },
+      {
+        "type": "skill",
+        "variable": "Trade",
+        "value": -3
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 820,
+    "slot": "Accessories"
+  },
+  "Grave-Courtesy Beads": {
+    "name": "Grave-Courtesy Beads",
+    "category": "Armor",
+    "description": "A strand of gray ceramic beads with one empty place in the sequence. Their soft clicking is often used to keep a spiritual working measured.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Soul Magic",
+        "value": 4
+      },
+      {
+        "type": "skill",
+        "variable": "Divination Magic",
+        "value": 3
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 1500,
+    "slot": "Accessories"
+  },
+  "Birch Practice Wand": {
+    "name": "Birch Practice Wand",
+    "category": "Tool",
+    "description": "A short mana-bearing birch wand with a plain linen grip. Its light weight suits careful introductory control.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Arcane Magic",
+        "value": 1
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 45,
+    "slot": "tool"
+  },
+  "Amber-Nib Wand": {
+    "name": "Amber-Nib Wand",
+    "category": "Tool",
+    "description": "A slender wand ending in a protected amber nib. Its owner can trace a familiar pattern with very little pressure.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Enchantment Magic",
+        "value": 3
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 180,
+    "slot": "tool"
+  },
+  "Bronze Conductor's Baton": {
+    "name": "Bronze Conductor's Baton",
+    "category": "Tool",
+    "description": "A polished baton weighted at the heel, with a bronze ring around its tip. Its hollow handle gives a clear reference note.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Sound Magic",
+        "value": 3
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 160,
+    "slot": "tool"
+  },
+  "Rootglass Casting Wand": {
+    "name": "Rootglass Casting Wand",
+    "category": "Tool",
+    "description": "A green glass wand enclosing a fine branching root. The root is visible from every angle and has never grown beyond its original outline.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Nature Magic",
+        "value": 4
+      },
+      {
+        "type": "skill",
+        "variable": "Healing Magic",
+        "value": 2
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 650,
+    "slot": "tool"
+  },
+  "Folded-Lecture Grimoire": {
+    "name": "Folded-Lecture Grimoire",
+    "category": "Tool",
+    "description": "A compact grimoire with foldout geometric plates and a tough mana-bearing binding. Blank leaves remain for its owner's corrections.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Arcane Magic",
+        "value": 3
+      },
+      {
+        "type": "skill",
+        "variable": "spellcraft",
+        "value": 1
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 220,
+    "slot": "tool"
+  },
+  "Cloudfield Observation Atlas": {
+    "name": "Cloudfield Observation Atlas",
+    "category": "Tool",
+    "description": "A waterproof field atlas with ruled pages for cloud forms, distances and weather signs. Its maps cover established routes rather than every island.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Perception",
+        "value": 3
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 130,
+    "slot": "tool"
+  },
+  "Bone-Handled Medical Lancet": {
+    "name": "Bone-Handled Medical Lancet",
+    "category": "Tool",
+    "description": "A small, carefully sharpened medical instrument in a lined case. The bone handle has enough texture to grip with wet fingers.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Medicine",
+        "value": 3
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 120,
+    "slot": "tool"
+  },
+  "Coppercoil Focus": {
+    "name": "Coppercoil Focus",
+    "category": "Tool",
+    "description": "An insulated hand focus containing a neatly wound copper coil. Small inspection windows expose the state of its fittings.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Lightning Magic",
+        "value": 4
+      },
+      {
+        "type": "skill",
+        "variable": "Magitech",
+        "value": 2
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 700,
+    "slot": "tool"
+  },
+  "Portable Mana Gauge": {
+    "name": "Portable Mana Gauge",
+    "category": "Tool",
+    "description": "A sturdy dial instrument for comparing local magical activity. Its reading needs interpretation and a checked reference point.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Magitech",
+        "value": 3
+      },
+      {
+        "type": "skill",
+        "variable": "investigation",
+        "value": 1
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 260,
+    "slot": "tool"
+  },
+  "Folding Brass Astrolabe": {
+    "name": "Folding Brass Astrolabe",
+    "category": "Tool",
+    "description": "A small astrolabe with nested rings and an unusually clear horizon scale. Its leather case is covered in old alignment marks.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Divination Magic",
+        "value": 4
+      },
+      {
+        "type": "skill",
+        "variable": "investigation",
+        "value": 2
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 850,
+    "slot": "tool"
+  },
+  "Surveyor's North Compass": {
+    "name": "Surveyor's North Compass",
+    "category": "Tool",
+    "description": "A dependable magnetic compass with a simple sighting notch. Nearby metal can make its useful little needle thoroughly unhelpful.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "survival",
+        "value": 1
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 35,
+    "slot": "tool"
+  },
+  "Folding Map Board": {
+    "name": "Folding Map Board",
+    "category": "Tool",
+    "description": "A light wooden board with brass clamps and a foldout rule. It provides a flat writing surface on a very uncooperative rock.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "investigation",
+        "value": 3
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 95,
+    "slot": "tool"
+  },
+  "Reusable Field Snare Set": {
+    "name": "Reusable Field Snare Set",
+    "category": "Tool",
+    "description": "A small set of wire snares, pegs and careful illustrated knots. The wires need resetting and inspection after actual use.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "survival",
+        "value": 1
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 30,
+    "slot": "tool"
+  },
+  "Covered Camping Brazier": {
+    "name": "Covered Camping Brazier",
+    "category": "Tool",
+    "description": "A compact charcoal brazier with a wind cover and a stable folding stand. Its soot tray slides out for cleaning.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Cooking",
+        "value": 3
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 110,
+    "slot": "tool"
+  },
+  "Cook's Traveling Roll": {
+    "name": "Cook's Traveling Roll",
+    "category": "Tool",
+    "description": "A cloth roll holding a small knife, spoon, flat scraper and nested measure. The little tools show years of sensible refinement.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Cooking",
+        "value": 3
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 90,
+    "slot": "tool"
+  },
+  "Labeled Reagent Satchel": {
+    "name": "Labeled Reagent Satchel",
+    "category": "Tool",
+    "description": "A padded satchel with snug compartments and replaceable specimen labels. Several pockets are clearly marked for empty containers.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Alchemy",
+        "value": 3
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 150,
+    "slot": "tool"
+  },
+  "Portable Copper Still": {
+    "name": "Portable Copper Still",
+    "category": "Tool",
+    "description": "A compact still with well-fitted tubes and a stable stand. Its little pressure vent deserves attention rather than admiration.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Alchemy",
+        "value": 4
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 380,
+    "slot": "tool"
+  },
+  "Mechanist's Repair Roll": {
+    "name": "Mechanist's Repair Roll",
+    "category": "Tool",
+    "description": "A complete roll of fine drivers, probes and gripping tools. Every recess has a small outline showing where the missing tool belongs.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Magitech",
+        "value": 3
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 230,
+    "slot": "tool"
+  },
+  "Spring-Grip Casting Tongs": {
+    "name": "Spring-Grip Casting Tongs",
+    "category": "Tool",
+    "description": "Long tongs with a positive spring catch and insulated handles. The jaws hold a small piece steady during a controlled working.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Metal Magic",
+        "value": 3
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 180,
+    "slot": "tool"
+  },
+  "Perfumer's Traveling Case": {
+    "name": "Perfumer's Traveling Case",
+    "category": "Tool",
+    "description": "A padded case of clean sample bottles, testing strips and small measures. Its lid carries a carefully made folding work surface.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Perfumery",
+        "value": 4
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 270,
+    "slot": "tool"
+  },
+  "Waterproof Courier Tube": {
+    "name": "Waterproof Courier Tube",
+    "category": "Tool",
+    "description": "A stout document tube with a screw cap and an inner waxed sleeve. Its shoulder cord has been tested with more weight than paper.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Trade",
+        "value": 1
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 28,
+    "slot": "tool"
+  },
+  "Silver Reservoir Pen": {
+    "name": "Silver Reservoir Pen",
+    "category": "Tool",
+    "description": "A long silver pen with a fine mana-bearing tip and an ordinary refillable ink reservoir. A small window shows when the ink is running low.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Enchantment Magic",
+        "value": 4
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 720,
+    "slot": "tool"
+  },
+  "Living-Specimen Wardbox": {
+    "name": "Living-Specimen Wardbox",
+    "category": "Tool",
+    "description": "A ventilated carrying box with adjustable padded partitions and a gentle temperature charm. Its little latch can be opened from outside only.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Nature Magic",
+        "value": 4
+      },
+      {
+        "type": "skill",
+        "variable": "Animal Handling",
+        "value": 2
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 950,
+    "slot": "tool"
+  },
+  "Three-Note Handler's Whistle": {
+    "name": "Three-Note Handler's Whistle",
+    "category": "Tool",
+    "description": "A brass whistle with three plainly marked stops. Its notes are consistent enough for a patiently trained animal to distinguish.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Animal Handling",
+        "value": 3
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 100,
+    "slot": "tool"
+  },
+  "Magitech Voice Trumpet": {
+    "name": "Magitech Voice Trumpet",
+    "category": "Tool",
+    "description": "A compact black voice amplifier with a silver grille and a comfortable hand strap. A small mana-fed resonator projects the speaker's actual voice.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "performance",
+        "value": 3
+      },
+      {
+        "type": "skill",
+        "variable": "Sound Magic",
+        "value": 3
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 850,
+    "slot": "tool"
+  },
+  "Stitchkeeper's Focus Spool": {
+    "name": "Stitchkeeper's Focus Spool",
+    "category": "Tool",
+    "description": "A metal spool framing a thin mana-bearing thread. The spool turns smoothly enough to follow a measured casting gesture.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Enchantment Magic",
+        "value": 4
+      },
+      {
+        "type": "skill",
+        "variable": "Magitech",
+        "value": 1
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 680,
+    "slot": "tool"
+  },
+  "Long-Reach Reading Lens": {
+    "name": "Long-Reach Reading Lens",
+    "category": "Tool",
+    "description": "A clear lens on a hinged arm that clamps to a table or board. Its broad focus is kind to tired eyes.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "investigation",
+        "value": 3
+      }
+    ],
+    "tier": "artisan",
+    "estimatedValue": 145,
+    "slot": "tool"
+  },
+  "Nurse's Hooded Lamp": {
+    "name": "Nurse's Hooded Lamp",
+    "category": "Tool",
+    "description": "A carefully shaded lamp that throws a steady, warm pool of light without shining into the patient's eyes. Its handle stays cool.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Medicine",
+        "value": 3
+      },
+      {
+        "type": "skill",
+        "variable": "Healing Magic",
+        "value": 3
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 750,
+    "slot": "tool"
+  },
+  "Glassfish Lantern": {
+    "name": "Glassfish Lantern",
+    "category": "Tool",
+    "description": "A clear fish-shaped lantern with a little luminous bead drifting inside. The bead settles into its tail when the shutter is closed.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Light Magic",
+        "value": 4
+      }
+    ],
+    "tier": "special",
+    "estimatedValue": 620,
+    "slot": "tool"
+  },
+  "The Mapmaker's Unfolding Frame": {
+    "name": "The Mapmaker's Unfolding Frame",
+    "category": "Tool",
+    "description": "A brass plotting frame with more hinged sections than fit comfortably inside its case. Every exposed scale remains perfectly aligned. It is a tool for interpreting real observations, not a map of unknown countries.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "investigation",
+        "value": 6
+      },
+      {
+        "type": "skill",
+        "variable": "Divination Magic",
+        "value": 5
+      },
+      {
+        "type": "skill",
+        "variable": "Magitech",
+        "value": 3
+      }
+    ],
+    "tier": "legendary",
+    "estimatedValue": 6100,
+    "slot": "tool"
+  },
+  "Mana Crystal Chips": {
+    "name": "Mana Crystal Chips",
+    "category": "Tool",
+    "description": "A small paper packet of sorted mana-bearing crystal chips. The pieces are useful in modest fittings, repairs and experiments.",
+    "bonuses": [],
+    "tier": "mundane",
+    "estimatedValue": 35
+  },
+  "Clean Amber Sliver": {
+    "name": "Clean Amber Sliver",
+    "category": "Tool",
+    "description": "A clear amber sliver wrapped in soft cloth. Its long unbroken grain makes it useful for a carefully sized magical component.",
+    "bonuses": [],
+    "tier": "artisan",
+    "estimatedValue": 110
+  },
+  "Coldglass Shard": {
+    "name": "Coldglass Shard",
+    "category": "Tool",
+    "description": "A pale, translucent mineral shard whose surface stays cool after being held. Small flaws need checking before it is cut for a focus.",
+    "bonuses": [],
+    "tier": "artisan",
+    "estimatedValue": 180
+  },
+  "Prepared Wyvern Tendon": {
+    "name": "Prepared Wyvern Tendon",
+    "category": "Tool",
+    "description": "A treated length of tough wyvern tendon, cleaned and stretched for craft work. The wrapping records the batch and preparation date.",
+    "bonuses": [],
+    "tier": "artisan",
+    "estimatedValue": 160
+  },
+  "Old Dragon Scale": {
+    "name": "Old Dragon Scale",
+    "category": "Tool",
+    "description": "A weathered fragment of naturally shed dragon scale mounted in a respectful padded case. Its surface retains a deep mineral sheen, and its provenance matters to Drakenspire buyers.",
+    "bonuses": [],
+    "tier": "legendary",
+    "estimatedValue": 6500
+  },
+  "Sky-Silk Thread Bundle": {
+    "name": "Sky-Silk Thread Bundle",
+    "category": "Tool",
+    "description": "A small bundle of strong, pale thread collected and prepared through established Asterveil trade. It takes dye surprisingly well.",
+    "bonuses": [],
+    "tier": "artisan",
+    "estimatedValue": 150
+  },
+  "Singing Basalt Core": {
+    "name": "Singing Basalt Core",
+    "category": "Tool",
+    "description": "A fist-sized dark stone with a narrow resonant seam. A light tap produces a clean note that fades before the next breath.",
+    "bonuses": [],
+    "tier": "artisan",
+    "estimatedValue": 190
+  },
+  "Crystal Moth Wing": {
+    "name": "Crystal Moth Wing",
+    "category": "Tool",
+    "description": "A carefully preserved moth wing with fine crystalline veins. Its fragile surface scatters light into small, sharply separated bands.",
+    "bonuses": [],
+    "tier": "special",
+    "estimatedValue": 550
+  },
+  "Dewglass Resin Cake": {
+    "name": "Dewglass Resin Cake",
+    "category": "Tool",
+    "description": "A small cake of clear, mature resin cut into a lined tin. When gently warmed, its internal haze separates into fine sparkling strands.",
+    "bonuses": [],
+    "tier": "special",
+    "estimatedValue": 460
+  },
+  "Grave-Salt Packet": {
+    "name": "Grave-Salt Packet",
+    "category": "Tool",
+    "description": "A sealed packet of dry mineral salts prepared for particular spiritual workings. Its printed label lists the batch rather than promising a cure for every haunting.",
+    "bonuses": [],
+    "tier": "mundane",
+    "estimatedValue": 30
+  },
+  "Sealed Storm Residue": {
+    "name": "Sealed Storm Residue",
+    "category": "Tool",
+    "description": "A little insulated vessel containing volatile stormglass residue. Blue flickers crawl beneath the cap when it is disturbed; its brittle seal deserves careful handling.",
+    "bonuses": [],
+    "tier": "special",
+    "estimatedValue": 900
+  },
+  "Dried Mooncap Slices": {
+    "name": "Dried Mooncap Slices",
+    "category": "Tool",
+    "description": "A small jar of properly dried pale mushroom slices. The faint violet gills remain visible through the glass.",
+    "bonuses": [],
+    "tier": "artisan",
+    "estimatedValue": 65
+  },
+  "Key Without Teeth": {
+    "name": "Key Without Teeth",
+    "category": "Relic",
+    "description": "A beautifully made brass key with a perfectly smooth blade. Its bow is worn as though someone once used it every day.",
+    "bonuses": [],
+    "tier": "artisan",
+    "estimatedValue": 95,
+    "mediaContent": "The maker's mark beneath the bow resembles three nested houses. The blade shows wear despite having no visible teeth."
+  },
+  "Bottle of Unfinished Rain": {
+    "name": "Bottle of Unfinished Rain",
+    "category": "Relic",
+    "description": "A stoppered bottle in which a tiny rain cloud hangs above a shallow pool. The drops stop just short of the water and begin again when the bottle is turned.",
+    "bonuses": [],
+    "tier": "special",
+    "estimatedValue": 650,
+    "mediaContent": "A faded label reads: KEEP UPRIGHT UNTIL THE WEATHER MAKES UP ITS MIND."
+  },
+  "The Tin King of Mice": {
+    "name": "The Tin King of Mice",
+    "category": "Relic",
+    "description": "A palm-sized clockwork mouse wearing a crooked tin crown. Winding its key makes it march a short, determined circle.",
+    "bonuses": [],
+    "tier": "artisan",
+    "estimatedValue": 160,
+    "mediaContent": "A small brass plate identifies it as His Very Temporary Majesty, ruler of the space beneath the nearest cupboard."
+  },
+  "Unsigned Winter Letter": {
+    "name": "Unsigned Winter Letter",
+    "category": "Relic",
+    "description": "A folded letter sealed in pale blue wax, its recipient's name rubbed away by handling. The paper carries a faint scent of pine smoke.",
+    "bonuses": [],
+    "tier": "artisan",
+    "estimatedValue": 120,
+    "mediaContent": "I waited by the warm stair until the lamps were lit. If the route opens, leave a white thread at the place we agreed. I have kept the small thing you asked me to return."
+  },
+  "Pocket of Quiet Shell": {
+    "name": "Pocket of Quiet Shell",
+    "category": "Relic",
+    "description": "A closed white shell wrapped in soft leather. Held to the ear, it carries the gentle sounds of a shore quite unlike the nearby room.",
+    "bonuses": [],
+    "tier": "special",
+    "estimatedValue": 740,
+    "mediaContent": "A scratched inscription inside the leather cover reads: For the days when the harbor is too far away."
+  },
+  "The Button That Never Matches": {
+    "name": "The Button That Never Matches",
+    "category": "Relic",
+    "description": "A handsome coat button that always seems a slightly different shade from the cloth beside it. It has an entirely ordinary sewing loop.",
+    "bonuses": [],
+    "tier": "mundane",
+    "estimatedValue": 20,
+    "mediaContent": "Several tiny repair marks suggest a long sequence of owners trying it on a different coat."
+  },
+  "Wax Seal of the Empty House": {
+    "name": "Wax Seal of the Empty House",
+    "category": "Relic",
+    "description": "An old bronze seal bearing a house with no doors. Its impressions remain crisp even when the metal feels oddly cold.",
+    "bonuses": [],
+    "tier": "special",
+    "estimatedValue": 800,
+    "mediaContent": "The underside of the handle carries a worn inventory number and the words RETURN AFTER VIEWING."
+  },
+  "The Patient Paper Bird": {
+    "name": "The Patient Paper Bird",
+    "category": "Relic",
+    "description": "A folded paper bird reinforced with fine thread. Its head bows once when placed on a warm palm, then waits without attempting to fly.",
+    "bonuses": [],
+    "tier": "artisan",
+    "estimatedValue": 110,
+    "mediaContent": "A tiny handwritten note beneath one wing says: You need not answer immediately."
+  },
+  "Pebble of Polite Disagreement": {
+    "name": "Pebble of Polite Disagreement",
+    "category": "Relic",
+    "description": "A smooth gray pebble that gives a soft, disapproving click when placed on another person's desk. It becomes completely silent inside a pocket.",
+    "bonuses": [],
+    "tier": "special",
+    "estimatedValue": 490,
+    "mediaContent": "A previous owner has written PLEASE DO NOT USE DURING MEETINGS on its little felt pouch."
+  },
+  "The Last Unlit Lantern": {
+    "name": "The Last Unlit Lantern",
+    "category": "Relic",
+    "description": "An ornate lantern whose wick has never accepted flame. Its interior glass carries a different pattern of fine scratches on each side, as though a very patient hand once worked from within.",
+    "bonuses": [],
+    "tier": "legendary",
+    "estimatedValue": 4200,
+    "mediaContent": "The maker's plate is blank. A careful examination finds no hidden hinge, spare fuel chamber or broken lighting mechanism."
+  },
+  "Whalebone Dice Pair": {
+    "name": "Whalebone Dice Pair",
+    "category": "Relic",
+    "description": "Two old dice with tiny carved waves in place of dots. Their edges have been rounded by use, and one carries a repaired crack.",
+    "bonuses": [],
+    "tier": "artisan",
+    "estimatedValue": 140,
+    "mediaContent": "The inside of the box lists several games in different hands. The final line reads: Do not blame the sea for your arithmetic."
+  },
+  "Mirror of the Absent Frame": {
+    "name": "Mirror of the Absent Frame",
+    "category": "Relic",
+    "description": "A small hand mirror whose reflected frame has a missing corner, although the real silver frame is complete. Turning it produces no other apparent change.",
+    "bonuses": [],
+    "tier": "special",
+    "estimatedValue": 950,
+    "mediaContent": "The back bears a neat repair record for a corner that does not seem to have been damaged."
+  },
+  "Field Healing Tonic": {
+    "name": "Field Healing Tonic",
+    "category": "Consumable",
+    "description": "A small bottle of sharp-tasting red tonic. Drinking one dose restores 15 Health; the empty bottle retains an unmistakable smell of bitter berries.",
+    "bonuses": [],
+    "tier": "mundane",
+    "estimatedValue": 18
+  },
+  "Greater Healing Draught": {
+    "name": "Greater Healing Draught",
+    "category": "Consumable",
+    "description": "A carefully sealed deep-red preparation. Drinking one dose restores 60 Health. Its label recommends actual treatment for the cause of a serious injury.",
+    "bonuses": [],
+    "tier": "artisan",
+    "estimatedValue": 130
+  },
+  "Surgical Recovery Draught": {
+    "name": "Surgical Recovery Draught",
+    "category": "Consumable",
+    "description": "A strong restorative medicine in a thick amber bottle. Drinking one dose restores 100 Health, without reversing a lasting condition or bringing back the dead.",
+    "bonuses": [],
+    "tier": "artisan",
+    "estimatedValue": 360
+  },
+  "Stable Mana Infusion": {
+    "name": "Stable Mana Infusion",
+    "category": "Consumable",
+    "description": "A regulated blue medicine with a mineral aftertaste. Drinking one dose restores 20 Mana. Its narrow-necked bottle is sized for a single measured serving.",
+    "bonuses": [],
+    "tier": "artisan",
+    "estimatedValue": 150
+  },
+  "Deep Mana Infusion": {
+    "name": "Deep Mana Infusion",
+    "category": "Consumable",
+    "description": "A concentrated, regulated mana medicine with pale sediment at its base. Drinking one carefully mixed dose restores 45 Mana.",
+    "bonuses": [],
+    "tier": "artisan",
+    "estimatedValue": 420
+  },
+  "Azure Reserve Dose": {
+    "name": "Azure Reserve Dose",
+    "category": "Consumable",
+    "description": "An expensive mana preparation held in a dark protective vial. Drinking one dose restores 70 Mana; the lingering taste is aggressively metallic.",
+    "bonuses": [],
+    "tier": "special",
+    "estimatedValue": 1150
+  },
+  "Bitter Stamina Tonic": {
+    "name": "Bitter Stamina Tonic",
+    "category": "Consumable",
+    "description": "A squat bottle of brown tonic that tastes worse than it smells. Drinking one dose restores 12 Stamina.",
+    "bonuses": [],
+    "tier": "mundane",
+    "estimatedValue": 55
+  },
+  "Trail Vigor Draught": {
+    "name": "Trail Vigor Draught",
+    "category": "Consumable",
+    "description": "A mint-scented preparation sold in a padded traveling bottle. Drinking one dose restores 24 Stamina.",
+    "bonuses": [],
+    "tier": "artisan",
+    "estimatedValue": 170
+  },
+  "Last-Push Dose": {
+    "name": "Last-Push Dose",
+    "category": "Consumable",
+    "description": "A harsh stimulant with a bright warning stripe. Drinking one dose restores 40 Stamina but costs 8 Health; it leaves the throat raw and the hands uncomfortably warm.",
+    "bonuses": [],
+    "tier": "special",
+    "estimatedValue": 750
+  },
+  "Balanced Restoration Vial": {
+    "name": "Balanced Restoration Vial",
+    "category": "Consumable",
+    "description": "A small violet preparation that separates into two clear layers. Shaken and drunk as one dose, it restores 20 Health and 12 Mana.",
+    "bonuses": [],
+    "tier": "artisan",
+    "estimatedValue": 220
+  },
+  "Amber Recovery Gel": {
+    "name": "Amber Recovery Gel",
+    "category": "Consumable",
+    "description": "A measured edible gel in a waxed sachet. Eating one serving restores 15 Health and 10 Stamina. It tastes insistently of honey and medicinal roots.",
+    "bonuses": [],
+    "tier": "artisan",
+    "estimatedValue": 125
+  },
+  "Redline Tincture": {
+    "name": "Redline Tincture",
+    "category": "Consumable",
+    "description": "A dangerous crimson mana stimulant sold with an unmistakable warning. Drinking one dose restores 35 Mana but costs 15 Health.",
+    "bonuses": [],
+    "tier": "special",
+    "estimatedValue": 650
+  },
+  "Smoke Pearl": {
+    "name": "Smoke Pearl",
+    "category": "Consumable",
+    "description": "A brittle little sphere that releases a small cloud of dense gray smoke when crushed. The smoke spreads with the actual air and makes breathing near it unpleasant.",
+    "bonuses": [],
+    "tier": "mundane",
+    "estimatedValue": 22
+  },
+  "Squealing Pepper Salt": {
+    "name": "Squealing Pepper Salt",
+    "category": "Consumable",
+    "description": "A packet of coarse pink seasoning that whistles faintly on hot food. A carelessly thrown pinch can make a nearby nose regret the experiment.",
+    "bonuses": [],
+    "tier": "mundane",
+    "estimatedValue": 12
+  },
+  "Weatherproofing Wax Tin": {
+    "name": "Weatherproofing Wax Tin",
+    "category": "Consumable",
+    "description": "A small tin of practical wax for leather and treated cloth. One careful application covers a pair of boots or a similar small article.",
+    "bonuses": [],
+    "tier": "mundane",
+    "estimatedValue": 16
+  },
+  "Lantern-Moss Pellet": {
+    "name": "Lantern-Moss Pellet",
+    "category": "Consumable",
+    "description": "A pressed pellet of prepared luminous moss. Dampening it produces a gentle green light until the little mass dries and exhausts its stored glow.",
+    "bonuses": [],
+    "tier": "mundane",
+    "estimatedValue": 18
+  },
+  "Footprint Dust Packet": {
+    "name": "Footprint Dust Packet",
+    "category": "Consumable",
+    "description": "A pouch of very fine pale powder that catches on fresh damp traces. It is most useful on a surface the user can actually reach and inspect.",
+    "bonuses": [],
+    "tier": "artisan",
+    "estimatedValue": 75
+  },
+  "Clinging Resin Bottle": {
+    "name": "Clinging Resin Bottle",
+    "category": "Consumable",
+    "description": "A tightly stoppered bottle of fast-setting adhesive. Its thick stream grips well against clean, suitable surfaces and poorly against loose dirt.",
+    "bonuses": [],
+    "tier": "artisan",
+    "estimatedValue": 85
+  },
+  "Frostbloom Powder": {
+    "name": "Frostbloom Powder",
+    "category": "Consumable",
+    "description": "A sealed paper twist of cold-reactive powder. Scattered on a wet patch, it produces a short-lived crust of slick frost.",
+    "bonuses": [],
+    "tier": "artisan",
+    "estimatedValue": 110
+  },
+  "Stinkfrog Vial": {
+    "name": "Stinkfrog Vial",
+    "category": "Consumable",
+    "description": "A little green vial with a cork tied firmly in place. Opening it releases an appalling swamp smell that clings to porous cloth.",
+    "bonuses": [],
+    "tier": "mundane",
+    "estimatedValue": 28
+  },
+  "Self-Warming Bun": {
+    "name": "Self-Warming Bun",
+    "category": "Consumable",
+    "description": "A soft spiced bun wrapped in heat-holding paper. Breaking its crust releases a pleasant little puff of warmth and the smell of cinnamon.",
+    "bonuses": [],
+    "tier": "mundane",
+    "estimatedValue": 6
+  },
+  "Honest Blue Candy": {
+    "name": "Honest Blue Candy",
+    "category": "Consumable",
+    "description": "A little wrapped sweet that colors the eater's tongue an impressive blue for a while. The wrapper indignantly insists that this is the intended effect.",
+    "bonuses": [],
+    "tier": "mundane",
+    "estimatedValue": 4
+  },
+  "Pocket Celebration": {
+    "name": "Pocket Celebration",
+    "category": "Consumable",
+    "description": "A paper cone of harmless colored sparks, loose streamers and a startling pop. The little fuse burns long enough for a sensible person to hold it away from their face.",
+    "bonuses": [],
+    "tier": "mundane",
+    "estimatedValue": 20
+  },
+  "Resin Mending Patch": {
+    "name": "Resin Mending Patch",
+    "category": "Consumable",
+    "description": "A sealed repair patch that softens when kneaded and hardens over a clean split. It is useful for a modest emergency repair to a compatible rigid object.",
+    "bonuses": [],
+    "tier": "artisan",
+    "estimatedValue": 65
+  },
+  "Teaching Scroll: The Seventh Counterstroke": {
+    "name": "Teaching Scroll: The Seventh Counterstroke",
+    "category": "Document",
+    "description": "Seven narrow silver diagrams overlap on smoke-gray vellum. The seventh line appears only when the sheet is flattened completely. It preserves the Arcane Magic formula The Seventh Counterstroke. The advanced script fades away only when a reader has truly mastered its instructions.",
+    "bonuses": [],
+    "tier": "special",
+    "estimatedValue": 1700,
+    "mediaContent": "The Seventh Counterstroke\n\nSeven narrow silver diagrams overlap on smoke-gray vellum. The seventh line appears only when the sheet is flattened completely.\n\nShape a tight plane of raw mana at an incoming physical projectile and strike it off its line\n\nDiscipline: Arcane Magic. Working cost: 24 Mana.\n\nThe annotations distinguish the shape of the working from the strength needed to perform it. Trace the relationships, find the part you do not yet understand, and test it carefully. The completed formula leaves the page as its understanding settles into the reader; an unsuccessful attempt leaves the script intact."
+  },
+  "Teaching Scroll: Foxfire Procession": {
+    "name": "Teaching Scroll: Foxfire Procession",
+    "category": "Document",
+    "description": "Red paper carries neat black fox tracks between tiny flame diagrams. Its edges remain pleasantly warm. It preserves the Fire Magic formula Foxfire Procession. The trained script fades away only when a reader has truly mastered its instructions.",
+    "bonuses": [],
+    "tier": "special",
+    "estimatedValue": 650,
+    "mediaContent": "Foxfire Procession\n\nRed paper carries neat black fox tracks between tiny flame diagrams. Its edges remain pleasantly warm.\n\nGuide a small procession of floating flames along a visible route for light, a distraction or a controlled ignition. Direct each flame deliberately; they are not intelligent familiars, and scattered flames do not become several free attacks.\n\nDiscipline: Fire Magic. Working cost: 10 Mana.\n\nThe annotations distinguish the shape of the working from the strength needed to perform it. Trace the relationships, find the part you do not yet understand, and test it carefully. The completed formula leaves the page as its understanding settles into the reader; an unsuccessful attempt leaves the script intact."
+  },
+  "Teaching Scroll: The River Wears Your Face": {
+    "name": "Teaching Scroll: The River Wears Your Face",
+    "category": "Document",
+    "description": "Blue-black ink forms a face that becomes recognizably human only at a shallow angle. It preserves the Water Magic formula The River Wears Your Face. The advanced script fades away only when a reader has truly mastered its instructions.",
+    "bonuses": [],
+    "tier": "special",
+    "estimatedValue": 1500,
+    "mediaContent": "The River Wears Your Face\n\nBlue-black ink forms a face that becomes recognizably human only at a shallow angle.\n\nDraw nearby water into a roughly person-shaped moving decoy under direct control. Its wavering surface can confuse a brief observation, obstruct a path or absorb an impact; it has no mind, spells or independent turns.\n\nDiscipline: Water Magic. Working cost: 22 Mana.\n\nThe annotations distinguish the shape of the working from the strength needed to perform it. Trace the relationships, find the part you do not yet understand, and test it carefully. The completed formula leaves the page as its understanding settles into the reader; an unsuccessful attempt leaves the script intact."
+  },
+  "Teaching Scroll: The Mason's Last Word": {
+    "name": "Teaching Scroll: The Mason's Last Word",
+    "category": "Document",
+    "description": "The parchment is creased like a folded stone wall. A mason's neat corrections run down the margin. It preserves the Earth Magic formula The Mason's Last Word. The advanced script fades away only when a reader has truly mastered its instructions.",
+    "bonuses": [],
+    "tier": "special",
+    "estimatedValue": 1900,
+    "mediaContent": "The Mason's Last Word\n\nThe parchment is creased like a folded stone wall. A mason's neat corrections run down the margin.\n\nRaise a short, heavy barrier from suitable real earth or stone at a visible point. Its size and thickness must fit the available material and the actual result; it does not grow inside a body or seal every possible escape.\n\nDiscipline: Earth Magic. Working cost: 28 Mana.\n\nThe annotations distinguish the shape of the working from the strength needed to perform it. Trace the relationships, find the part you do not yet understand, and test it carefully. The completed formula leaves the page as its understanding settles into the reader; an unsuccessful attempt leaves the script intact."
+  },
+  "Teaching Scroll: The Hundredth Feather": {
+    "name": "Teaching Scroll: The Hundredth Feather",
+    "category": "Document",
+    "description": "A pale feather is stitched to the top edge. Ninety-nine little marks precede a final empty box. It preserves the Wind Magic formula The Hundredth Feather. The trained script fades away only when a reader has truly mastered its instructions.",
+    "bonuses": [],
+    "tier": "special",
+    "estimatedValue": 900,
+    "mediaContent": "The Hundredth Feather\n\nA pale feather is stitched to the top edge. Ninety-nine little marks precede a final empty box.\n\nSpread a cushioning updraft beneath up to three nearby falling people for a brief descent. It slows an actual fall according to control, weight and available space; it provides neither sustained flight nor an extra action.\n\nDiscipline: Wind Magic. Working cost: 14 Mana.\n\nThe annotations distinguish the shape of the working from the strength needed to perform it. Trace the relationships, find the part you do not yet understand, and test it carefully. The completed formula leaves the page as its understanding settles into the reader; an unsuccessful attempt leaves the script intact."
+  },
+  "Teaching Scroll: Thunder's Second Name": {
+    "name": "Teaching Scroll: Thunder's Second Name",
+    "category": "Document",
+    "description": "Yellow lines split and reunite across dark paper. The written incantation includes an unusual, carefully annotated pause. It preserves the Lightning Magic formula Thunder's Second Name. The advanced script fades away only when a reader has truly mastered its instructions.",
+    "bonuses": [],
+    "tier": "special",
+    "estimatedValue": 2100,
+    "mediaContent": "Thunder's Second Name\n\nYellow lines split and reunite across dark paper. The written incantation includes an unusual, carefully annotated pause.\n\nSend a deliberately forked discharge toward at most two close, clearly perceived targets\n\nDiscipline: Lightning Magic. Working cost: 30 Mana.\n\nThe annotations distinguish the shape of the working from the strength needed to perform it. Trace the relationships, find the part you do not yet understand, and test it carefully. The completed formula leaves the page as its understanding settles into the reader; an unsuccessful attempt leaves the script intact."
+  },
+  "Teaching Scroll: Winter's Borrowed Crown": {
+    "name": "Teaching Scroll: Winter's Borrowed Crown",
+    "category": "Document",
+    "description": "The rolled sheet bears a white wax crown. Fine blue diagrams describe where each plate should break. It preserves the Ice Magic formula Winter's Borrowed Crown. The advanced script fades away only when a reader has truly mastered its instructions.",
+    "bonuses": [],
+    "tier": "special",
+    "estimatedValue": 1750,
+    "mediaContent": "Winter's Borrowed Crown\n\nThe rolled sheet bears a white wax crown. Fine blue diagrams describe where each plate should break.\n\nForm a curved crown of temporary ice plates around a nearby threatened position. Use one Ice Magic defense; the brittle plates can absorb or redirect a suitable impact before shattering, without surrounding the caster in absolute protection.\n\nDiscipline: Ice Magic. Working cost: 24 Mana.\n\nThe annotations distinguish the shape of the working from the strength needed to perform it. Trace the relationships, find the part you do not yet understand, and test it carefully. The completed formula leaves the page as its understanding settles into the reader; an unsuccessful attempt leaves the script intact."
+  },
+  "Teaching Scroll: Noon Behind Closed Eyes": {
+    "name": "Teaching Scroll: Noon Behind Closed Eyes",
+    "category": "Document",
+    "description": "Gold ink marks a half-closed eye above a fan of straight rays. The outside wrapper warns the reader not to test it at a dinner table. It preserves the Light Magic formula Noon Behind Closed Eyes. The trained script fades away only when a reader has truly mastered its instructions.",
+    "bonuses": [],
+    "tier": "special",
+    "estimatedValue": 780,
+    "mediaContent": "Noon Behind Closed Eyes\n\nGold ink marks a half-closed eye above a fan of straight rays. The outside wrapper warns the reader not to test it at a dinner table.\n\nRelease a tightly directed brilliant flash toward a visible approach. It can spoil aim or briefly overwhelm exposed vision when the contest succeeds. Closed eyes, cover and actual protection matter; the flash is not healing or a guaranteed stun.\n\nDiscipline: Light Magic. Working cost: 12 Mana.\n\nThe annotations distinguish the shape of the working from the strength needed to perform it. Trace the relationships, find the part you do not yet understand, and test it carefully. The completed formula leaves the page as its understanding settles into the reader; an unsuccessful attempt leaves the script intact."
+  },
+  "Teaching Scroll: The Blacksmith's White Lie": {
+    "name": "Teaching Scroll: The Blacksmith's White Lie",
+    "category": "Document",
+    "description": "A narrow iron clasp holds the scroll shut. Hammer marks replace several punctuation marks in the instructions. It preserves the Metal Magic formula The Blacksmith's White Lie. The advanced script fades away only when a reader has truly mastered its instructions.",
+    "bonuses": [],
+    "tier": "special",
+    "estimatedValue": 1450,
+    "mediaContent": "The Blacksmith's White Lie\n\nA narrow iron clasp holds the scroll shut. Hammer marks replace several punctuation marks in the instructions.\n\nTemporarily soften and reshape one small, accessible piece of real metal under controlled touch. It can bend a fitting or ease a jam with an appropriate result; complex locks, reinforced alloys and hostile resistance still need real work.\n\nDiscipline: Metal Magic. Working cost: 20 Mana.\n\nThe annotations distinguish the shape of the working from the strength needed to perform it. Trace the relationships, find the part you do not yet understand, and test it carefully. The completed formula leaves the page as its understanding settles into the reader; an unsuccessful attempt leaves the script intact."
+  },
+  "Teaching Scroll: A Garden Between Heartbeats": {
+    "name": "Teaching Scroll: A Garden Between Heartbeats",
+    "category": "Document",
+    "description": "Green vellum carries tiny botanical plates. One flower has been drawn in six different stages of opening. It preserves the Nature Magic formula A Garden Between Heartbeats. The advanced script fades away only when a reader has truly mastered its instructions.",
+    "bonuses": [],
+    "tier": "special",
+    "estimatedValue": 1850,
+    "mediaContent": "A Garden Between Heartbeats\n\nGreen vellum carries tiny botanical plates. One flower has been drawn in six different stages of opening.\n\nRaise a brief thicket of temporary stems and thorns across a small suitable patch of ground. Use its real reach to obstruct, contain or threaten; targets can resist or force another route. It creates neither lasting food nor healing for animals or people.\n\nDiscipline: Nature Magic. Working cost: 26 Mana.\n\nThe annotations distinguish the shape of the working from the strength needed to perform it. Trace the relationships, find the part you do not yet understand, and test it carefully. The completed formula leaves the page as its understanding settles into the reader; an unsuccessful attempt leaves the script intact."
+  },
+  "Teaching Scroll: The Bell That Answers Nothing": {
+    "name": "Teaching Scroll: The Bell That Answers Nothing",
+    "category": "Document",
+    "description": "The center of the sheet is deliberately blank. Notes around it describe the sound of a bell just after its last vibration. It preserves the Sound Magic formula The Bell That Answers Nothing. The advanced script fades away only when a reader has truly mastered its instructions.",
+    "bonuses": [],
+    "tier": "special",
+    "estimatedValue": 1800,
+    "mediaContent": "The Bell That Answers Nothing\n\nThe center of the sheet is deliberately blank. Notes around it describe the sound of a bell just after its last vibration.\n\nDampen a small area around a visible point for a short interval, making ordinary sound difficult to carry. The effect can conceal a noise or hinder audible coordination, but does not automatically cancel silent casting or every form of magic.\n\nDiscipline: Sound Magic. Working cost: 22 Mana.\n\nThe annotations distinguish the shape of the working from the strength needed to perform it. Trace the relationships, find the part you do not yet understand, and test it carefully. The completed formula leaves the page as its understanding settles into the reader; an unsuccessful attempt leaves the script intact."
+  },
+  "Teaching Scroll: Crownfall Waltz": {
+    "name": "Teaching Scroll: Crownfall Waltz",
+    "category": "Document",
+    "description": "Purple lines form a dance diagram whose arrows point toward different edges of the paper. It preserves the Gravity Magic formula Crownfall Waltz. The advanced script fades away only when a reader has truly mastered its instructions.",
+    "bonuses": [],
+    "tier": "special",
+    "estimatedValue": 2300,
+    "mediaContent": "Crownfall Waltz\n\nPurple lines form a dance diagram whose arrows point toward different edges of the paper.\n\nTilt the local pull across a small visible patch to disrupt footing or draw loose objects toward an edge\n\nDiscipline: Gravity Magic. Working cost: 30 Mana.\n\nThe annotations distinguish the shape of the working from the strength needed to perform it. Trace the relationships, find the part you do not yet understand, and test it carefully. The completed formula leaves the page as its understanding settles into the reader; an unsuccessful attempt leaves the script intact."
+  },
+  "Teaching Scroll: The Seam That Holds": {
+    "name": "Teaching Scroll: The Seam That Holds",
+    "category": "Document",
+    "description": "A real silver thread passes through the page along the path the reader is meant to follow. It preserves the Enchantment Magic formula The Seam That Holds. The trained script fades away only when a reader has truly mastered its instructions.",
+    "bonuses": [],
+    "tier": "special",
+    "estimatedValue": 850,
+    "mediaContent": "The Seam That Holds\n\nA real silver thread passes through the page along the path the reader is meant to follow.\n\nTemporarily reinforce the actual seams and fastenings of one worn garment or light piece of equipment. It supports an appropriate defense or prevents a stressed join from giving way. It is not a permanent item upgrade or an added inventory bonus.\n\nDiscipline: Enchantment Magic. Working cost: 12 Mana.\n\nThe annotations distinguish the shape of the working from the strength needed to perform it. Trace the relationships, find the part you do not yet understand, and test it carefully. The completed formula leaves the page as its understanding settles into the reader; an unsuccessful attempt leaves the script intact."
+  },
+  "Teaching Scroll: Mercy's Last Stitch": {
+    "name": "Teaching Scroll: Mercy's Last Stitch",
+    "category": "Document",
+    "description": "Cream parchment bears red anatomical lines and unusually patient notes about when to stop. It preserves the Healing Magic formula Mercy's Last Stitch. The advanced script fades away only when a reader has truly mastered its instructions.",
+    "bonuses": [],
+    "tier": "special",
+    "estimatedValue": 2200,
+    "mediaContent": "Mercy's Last Stitch\n\nCream parchment bears red anatomical lines and unusually patient notes about when to stop.\n\nAttempt a concentrated repair of appropriate fresh bodily injury in one reachable living target, restoring about 35 percent of its actual maximum Health on a full suitable success, capped by the real injury. Failed or partial work follows the result. It does not reverse aging, resurrect or cure an unrelated lasting condition.\n\nDiscipline: Healing Magic. Working cost: 30 Mana.\n\nThe annotations distinguish the shape of the working from the strength needed to perform it. Trace the relationships, find the part you do not yet understand, and test it carefully. The completed formula leaves the page as its understanding settles into the reader; an unsuccessful attempt leaves the script intact."
+  },
+  "Teaching Scroll: A Guest Made of Rain": {
+    "name": "Teaching Scroll: A Guest Made of Rain",
+    "category": "Document",
+    "description": "The scroll smells faintly of rain. A little empty chair is drawn beside a circle of droplets. It preserves the Summoning Magic formula A Guest Made of Rain. The advanced script fades away only when a reader has truly mastered its instructions.",
+    "bonuses": [],
+    "tier": "special",
+    "estimatedValue": 2000,
+    "mediaContent": "A Guest Made of Rain\n\nThe scroll smells faintly of rain. A little empty chair is drawn beside a circle of droplets.\n\nCall one small temporary water elemental with a simple agreed task. Its actual body, presence and actions must be established as a summon; it has no automatic attack on arrival, independent spell repertoire or permanent place in the party. Sustaining and directing it uses real attention.\n\nDiscipline: Summoning Magic. Working cost: 28 Mana.\n\nThe annotations distinguish the shape of the working from the strength needed to perform it. Trace the relationships, find the part you do not yet understand, and test it carefully. The completed formula leaves the page as its understanding settles into the reader; an unsuccessful attempt leaves the script intact."
+  },
+  "Teaching Scroll: The Applause Behind You": {
+    "name": "Teaching Scroll: The Applause Behind You",
+    "category": "Document",
+    "description": "The bottom edge shows rows of tiny hands. A previous reader has crossed out the word thunderous and written tasteful. It preserves the Illusion Magic formula The Applause Behind You. The trained script fades away only when a reader has truly mastered its instructions.",
+    "bonuses": [],
+    "tier": "special",
+    "estimatedValue": 800,
+    "mediaContent": "The Applause Behind You\n\nThe bottom edge shows rows of tiny hands. A previous reader has crossed out the word thunderous and written tasteful.\n\nProject a brief, localized illusion of applause and movement at a visible nearby point. It can draw attention or support a feint when believed, without compelling a target's action or creating real spectators.\n\nDiscipline: Illusion Magic. Working cost: 12 Mana.\n\nThe annotations distinguish the shape of the working from the strength needed to perform it. Trace the relationships, find the part you do not yet understand, and test it carefully. The completed formula leaves the page as its understanding settles into the reader; an unsuccessful attempt leaves the script intact."
+  },
+  "Teaching Scroll: Footprint of the Unchosen Road": {
+    "name": "Teaching Scroll: Footprint of the Unchosen Road",
+    "category": "Document",
+    "description": "Two ink paths diverge across the sheet. Only one carries a faint impression of a footprint. It preserves the Divination Magic formula Footprint of the Unchosen Road. The advanced script fades away only when a reader has truly mastered its instructions.",
+    "bonuses": [],
+    "tier": "special",
+    "estimatedValue": 1900,
+    "mediaContent": "Footprint of the Unchosen Road\n\nTwo ink paths diverge across the sheet. Only one carries a faint impression of a footprint.\n\nSeek a brief, uncertain impression of one immediate hazard or consequence along a route actually under consideration. Interpret the actual vision and evidence; it is not a map of every danger, verified testimony or control over time.\n\nDiscipline: Divination Magic. Working cost: 24 Mana.\n\nThe annotations distinguish the shape of the working from the strength needed to perform it. Trace the relationships, find the part you do not yet understand, and test it carefully. The completed formula leaves the page as its understanding settles into the reader; an unsuccessful attempt leaves the script intact."
+  },
+  "Teaching Scroll: The Hole in the Chorus": {
+    "name": "Teaching Scroll: The Hole in the Chorus",
+    "category": "Document",
+    "description": "A black line seems to end just before it reaches the center of the page. The missing stroke is described with extreme precision. It preserves the Void Magic formula The Hole in the Chorus. The advanced script fades away only when a reader has truly mastered its instructions.",
+    "bonuses": [],
+    "tier": "special",
+    "estimatedValue": 2400,
+    "mediaContent": "The Hole in the Chorus\n\nA black line seems to end just before it reaches the center of the page. The missing stroke is described with extreme precision.\n\nDirect a narrow disruptive absence into one exposed, ongoing magical effect. Contest the real working; scope and resistance govern interruption. It cannot erase every spell, a permanent artifact or the public portal network by declaration.\n\nDiscipline: Void Magic. Working cost: 28 Mana.\n\nThe annotations distinguish the shape of the working from the strength needed to perform it. Trace the relationships, find the part you do not yet understand, and test it carefully. The completed formula leaves the page as its understanding settles into the reader; an unsuccessful attempt leaves the script intact."
+  },
+  "Teaching Scroll: The Door Within Reach": {
+    "name": "Teaching Scroll: The Door Within Reach",
+    "category": "Document",
+    "description": "A tiny door is drawn inside a much larger geometric frame. The margin begins with a detailed warning about untested destinations. It preserves the Space Magic formula The Door Within Reach. The advanced script fades away only when a reader has truly mastered its instructions.",
+    "bonuses": [],
+    "tier": "special",
+    "estimatedValue": 2800,
+    "mediaContent": "The Door Within Reach\n\nA tiny door is drawn inside a much larger geometric frame. The margin begins with a detailed warning about untested destinations.\n\nAttempt a displacement of no more than three meters to a clearly perceived safe point within the same immediate place. It needs the established Gravity foundation and actual Space control\n\nDiscipline: Space Magic. Working cost: 26 Mana.\n\nThe annotations distinguish the shape of the working from the strength needed to perform it. Trace the relationships, find the part you do not yet understand, and test it carefully. The completed formula leaves the page as its understanding settles into the reader; an unsuccessful attempt leaves the script intact."
+  },
+  "Teaching Scroll: The Ferryman's Small Courtesy": {
+    "name": "Teaching Scroll: The Ferryman's Small Courtesy",
+    "category": "Document",
+    "description": "A copper-colored boat floats above a single written question. Several respectful forms of address are supplied beneath it. It preserves the Soul Magic formula The Ferryman's Small Courtesy. The trained script fades away only when a reader has truly mastered its instructions.",
+    "bonuses": [],
+    "tier": "special",
+    "estimatedValue": 1100,
+    "mediaContent": "The Ferryman's Small Courtesy\n\nA copper-colored boat floats above a single written question. Several respectful forms of address are supplied beneath it.\n\nOffer a respectful channel through which one actually present minor spirit can answer a short question or signal a preference. Its knowledge, agency and willingness remain its own. A response is not compelled truth, resurrection or contact with every dead person.\n\nDiscipline: Soul Magic. Working cost: 16 Mana.\n\nThe annotations distinguish the shape of the working from the strength needed to perform it. Trace the relationships, find the part you do not yet understand, and test it carefully. The completed formula leaves the page as its understanding settles into the reader; an unsuccessful attempt leaves the script intact."
+  },
+  "Teaching Scroll: Paper Moon Phalanx": {
+    "name": "Teaching Scroll: Paper Moon Phalanx",
+    "category": "Document",
+    "description": "Three pale circles move between the folds of black paper when the reader opens it to the full diagram. It preserves the Arcane Magic formula Paper Moon Phalanx. The master script fades away only when a reader has truly mastered its instructions.",
+    "bonuses": [],
+    "tier": "legendary",
+    "estimatedValue": 5100,
+    "mediaContent": "Paper Moon Phalanx\n\nThree pale circles move between the folds of black paper when the reader opens it to the full diagram.\n\nArrange three connected planes of temporary raw-mana geometry into a moving defensive screen. They form one controlled working with real limits and openings, not three autonomous combatants. It requires sustained attention and an actual Arcane Magic defense.\n\nDiscipline: Arcane Magic. Working cost: 42 Mana.\n\nThe annotations distinguish the shape of the working from the strength needed to perform it. Trace the relationships, find the part you do not yet understand, and test it carefully. The completed formula leaves the page as its understanding settles into the reader; an unsuccessful attempt leaves the script intact."
+  },
+  "Teaching Scroll: Cathedral of Cinders": {
+    "name": "Teaching Scroll: Cathedral of Cinders",
+    "category": "Document",
+    "description": "Heavy red vellum is ruled like the plan of an impossible chapel. A complete page is devoted to the direction in which the heat must escape. It preserves the Fire Magic formula Cathedral of Cinders. The master script fades away only when a reader has truly mastered its instructions.",
+    "bonuses": [],
+    "tier": "legendary",
+    "estimatedValue": 6800,
+    "mediaContent": "Cathedral of Cinders\n\nHeavy red vellum is ruled like the plan of an impossible chapel. A complete page is devoted to the direction in which the heat must escape.\n\nRaise a ring of intense fire around a visible position, no more than five meters across. Control its real heat and direction through an extreme Fire Magic working; maintaining it takes attention. It does not strike everyone automatically, spare allies by assumption or create free extra turns.\n\nDiscipline: Fire Magic. Working cost: 55 Mana.\n\nThe annotations distinguish the shape of the working from the strength needed to perform it. Trace the relationships, find the part you do not yet understand, and test it carefully. The completed formula leaves the page as its understanding settles into the reader; an unsuccessful attempt leaves the script intact."
+  },
+  "Teaching Scroll: Hollow-Lake Reversal": {
+    "name": "Teaching Scroll: Hollow-Lake Reversal",
+    "category": "Document",
+    "description": "A broad blue scroll depicts a lake from below. Its final annotation corrects an old claim about limitless water. It preserves the Water Magic formula Hollow-Lake Reversal. The master script fades away only when a reader has truly mastered its instructions.",
+    "bonuses": [],
+    "tier": "legendary",
+    "estimatedValue": 5900,
+    "mediaContent": "Hollow-Lake Reversal\n\nA broad blue scroll depicts a lake from below. Its final annotation corrects an old claim about limitless water.\n\nGather a substantial nearby body of existing water into one controlled surge and turn it along a chosen visible course. Mass, footing, structures and resistance constrain the result. The water moves now; no event, injury or moment is rewound.\n\nDiscipline: Water Magic. Working cost: 48 Mana.\n\nThe annotations distinguish the shape of the working from the strength needed to perform it. Trace the relationships, find the part you do not yet understand, and test it carefully. The completed formula leaves the page as its understanding settles into the reader; an unsuccessful attempt leaves the script intact."
+  },
+  "Teaching Scroll: Sleeping Dune Coffin": {
+    "name": "Teaching Scroll: Sleeping Dune Coffin",
+    "category": "Document",
+    "description": "Sand-colored paper carries a sequence of increasingly careful sketches around the same pair of footprints. It preserves the Earth Magic formula Sleeping Dune Coffin. The advanced script fades away only when a reader has truly mastered its instructions.",
+    "bonuses": [],
+    "tier": "special",
+    "estimatedValue": 2300,
+    "mediaContent": "Sleeping Dune Coffin\n\nSand-colored paper carries a sequence of increasingly careful sketches around the same pair of footprints.\n\nDrive existing loose earth or sand upward around one target's lower body to restrain movement. Resistance, footing and escape attempts matter; entombment is dangerous and is not an automatic captured or dead result.\n\nDiscipline: Earth Magic. Working cost: 30 Mana.\n\nThe annotations distinguish the shape of the working from the strength needed to perform it. Trace the relationships, find the part you do not yet understand, and test it carefully. The completed formula leaves the page as its understanding settles into the reader; an unsuccessful attempt leaves the script intact."
+  },
+  "Teaching Scroll: The Uninvited Gale": {
+    "name": "Teaching Scroll: The Uninvited Gale",
+    "category": "Document",
+    "description": "A ribbon attached to the scroll keeps trying to point toward an open window. It preserves the Wind Magic formula The Uninvited Gale. The advanced script fades away only when a reader has truly mastered its instructions.",
+    "bonuses": [],
+    "tier": "special",
+    "estimatedValue": 1750,
+    "mediaContent": "The Uninvited Gale\n\nA ribbon attached to the scroll keeps trying to point toward an open window.\n\nDrive a sharp, shaped gust across a short visible approach, scattering unsecured objects and contesting the footing of those in its path. Its actual size and force follow the working, without automatically throwing every target or extending through solid walls.\n\nDiscipline: Wind Magic. Working cost: 26 Mana.\n\nThe annotations distinguish the shape of the working from the strength needed to perform it. Trace the relationships, find the part you do not yet understand, and test it carefully. The completed formula leaves the page as its understanding settles into the reader; an unsuccessful attempt leaves the script intact."
+  },
+  "Teaching Scroll: Lighthouse in Your Hand": {
+    "name": "Teaching Scroll: Lighthouse in Your Hand",
+    "category": "Document",
+    "description": "A little black lighthouse stands at the base of a page filled with long, carefully separated rays. It preserves the Light Magic formula Lighthouse in Your Hand. The advanced script fades away only when a reader has truly mastered its instructions.",
+    "bonuses": [],
+    "tier": "special",
+    "estimatedValue": 1800,
+    "mediaContent": "Lighthouse in Your Hand\n\nA little black lighthouse stands at the base of a page filled with long, carefully separated rays.\n\nConcentrate a bright steady beam from a held point for illumination, signaling or a deliberately focused attack\n\nDiscipline: Light Magic. Working cost: 25 Mana.\n\nThe annotations distinguish the shape of the working from the strength needed to perform it. Trace the relationships, find the part you do not yet understand, and test it carefully. The completed formula leaves the page as its understanding settles into the reader; an unsuccessful attempt leaves the script intact."
+  },
+  "Teaching Scroll: Borrowed Breath": {
+    "name": "Teaching Scroll: Borrowed Breath",
+    "category": "Document",
+    "description": "The paper is thin enough to stir with a gentle breath. Its notes are unusually direct and free of ceremonial language. It preserves the Healing Magic formula Borrowed Breath. The advanced script fades away only when a reader has truly mastered its instructions.",
+    "bonuses": [],
+    "tier": "special",
+    "estimatedValue": 2100,
+    "mediaContent": "Borrowed Breath\n\nThe paper is thin enough to stir with a gentle breath. Its notes are unusually direct and free of ceremonial language.\n\nAttempt urgent stabilization of a reachable living patient who can still be saved, supporting breathing and the immediate failing condition. An appropriate success restores up to 20 Health once and addresses that actual emergency. It is not resurrection, invulnerability or a cure for every poison.\n\nDiscipline: Healing Magic. Working cost: 28 Mana.\n\nThe annotations distinguish the shape of the working from the strength needed to perform it. Trace the relationships, find the part you do not yet understand, and test it carefully. The completed formula leaves the page as its understanding settles into the reader; an unsuccessful attempt leaves the script intact."
+  },
+  "Teaching Scroll: One More Chore": {
+    "name": "Teaching Scroll: One More Chore",
+    "category": "Document",
+    "description": "A careful skeleton carries a bucket in the margin. The writer has underlined the importance of counting the bones before beginning. It preserves the Soul Magic formula One More Chore. The advanced script fades away only when a reader has truly mastered its instructions.",
+    "bonuses": [],
+    "tier": "special",
+    "estimatedValue": 1650,
+    "mediaContent": "One More Chore\n\nA careful skeleton carries a bucket in the margin. The writer has underlined the importance of counting the bones before beginning.\n\nAnimate one small set of actual animal remains for a brief simple physical task. This working moves remains without calling their former conscious soul. The resulting servant needs actual placement and limited actions, and its animation ends when the task or sustaining control ends.\n\nDiscipline: Soul Magic. Working cost: 24 Mana.\n\nThe annotations distinguish the shape of the working from the strength needed to perform it. Trace the relationships, find the part you do not yet understand, and test it carefully. The completed formula leaves the page as its understanding settles into the reader; an unsuccessful attempt leaves the script intact."
+  },
+  "Teaching Scroll: The Coppersmith's Pet Dragon": {
+    "name": "Teaching Scroll: The Coppersmith's Pet Dragon",
+    "category": "Document",
+    "description": "A small wire dragon is pressed flat between the pages. Several notes complain about its tail catching on the original diagram. It preserves the Metal Magic formula The Coppersmith's Pet Dragon. The advanced script fades away only when a reader has truly mastered its instructions.",
+    "bonuses": [],
+    "tier": "special",
+    "estimatedValue": 1850,
+    "mediaContent": "The Coppersmith's Pet Dragon\n\nA small wire dragon is pressed flat between the pages. Several notes complain about its tail catching on the original diagram.\n\nShape and directly guide a small length of real wire as a jointed dragonlike tool for reaching, gripping or a precise feint. Its metal, reach and force remain finite. It has no mind, breath weapon, free independent attack or permanent familiar bond.\n\nDiscipline: Metal Magic. Working cost: 24 Mana.\n\nThe annotations distinguish the shape of the working from the strength needed to perform it. Trace the relationships, find the part you do not yet understand, and test it carefully. The completed formula leaves the page as its understanding settles into the reader; an unsuccessful attempt leaves the script intact."
+  },
+  "Teaching Scroll: Invitation to an Empty Room": {
+    "name": "Teaching Scroll: Invitation to an Empty Room",
+    "category": "Document",
+    "description": "A painted door opens onto a perfectly ordinary room. The invitation inside has been left politely unsigned. It preserves the Illusion Magic formula Invitation to an Empty Room. The advanced script fades away only when a reader has truly mastered its instructions.",
+    "bonuses": [],
+    "tier": "special",
+    "estimatedValue": 1950,
+    "mediaContent": "Invitation to an Empty Room\n\nA painted door opens onto a perfectly ordinary room. The invitation inside has been left politely unsigned.\n\nLay a convincing visual and audible impression over one visible doorway or opening, suggesting an empty interior from a limited approach. Observation, touch, movement and contrary evidence can expose it. The illusion does not alter the actual room or transport anyone.\n\nDiscipline: Illusion Magic. Working cost: 24 Mana.\n\nThe annotations distinguish the shape of the working from the strength needed to perform it. Trace the relationships, find the part you do not yet understand, and test it carefully. The completed formula leaves the page as its understanding settles into the reader; an unsuccessful attempt leaves the script intact."
+  }
+}

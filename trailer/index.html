@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Schools of Magic, Arise! — Make the images move</title><style>
+:root{color-scheme:dark;--bg:#101722;--panel:#192331;--ink:#ede9dd;--muted:#b8c5d0;--gold:#e9cb7e}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,sans-serif}
+.wrap{max-width:1520px;margin:auto;padding:32px}header{max-width:1000px;padding:24px 0 28px}
+.eyebrow,.meta{color:var(--muted);font-size:13px;letter-spacing:.08em}h1{font:clamp(36px,5vw,66px)/1.08 Georgia,serif;color:var(--gold);margin:16px 0}
+h2{font-size:22px;line-height:1.25;margin:12px 0}p{margin:12px 0}a{color:var(--gold)}
+.steps{border-left:3px solid var(--gold);padding:8px 20px;margin:22px 0;background:#192331}ol{padding-left:22px}
+.toolbar{padding:14px 0 24px;color:var(--muted)}main{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,430px),1fr));gap:24px}
+article{background:var(--panel);padding:20px;border-top:2px solid #b2955e;border-radius:6px;scroll-margin-top:20px}
+article.ready{border-top-color:#8fc9a7}.shot-image{display:block;width:100%;aspect-ratio:16/9;object-fit:contain;background:#080d14;border-radius:3px}
+.file{display:block;overflow-wrap:anywhere;font:12px/1.5 ui-monospace,monospace;color:var(--muted);margin:9px 0}
+.timing{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}.pill{font-size:13px;background:#263346;border-radius:16px;padding:4px 11px}
+.prompt{white-space:pre-wrap;background:#101722;padding:16px;border-radius:4px;margin:12px 0;line-height:1.65;user-select:text}
+.actions{display:flex;align-items:center;flex-wrap:wrap;gap:12px}button,.download{font:inherit;font-size:14px;border:1px solid #7d704e;border-radius:4px;padding:7px 12px;cursor:pointer;background:#293346;color:var(--gold);text-decoration:none}
+button:hover,.download:hover{background:#34445a}button:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+label{display:flex;align-items:center;gap:7px;font-size:14px;color:var(--muted)}input{accent-color:#8fc9a7}
+details{margin-top:18px;color:var(--muted);font-size:14px}summary{cursor:pointer;color:var(--gold)}.status{font-size:13px;color:#9ed8b7;min-height:20px}
+footer{padding:35px 0;color:var(--muted);font-size:14px}.fallback{position:fixed;left:0;top:0;width:1px;height:1px;opacity:0}
+@media(max-width:600px){.wrap{padding:18px}article{padding:15px}.steps{padding:6px 14px}}
+</style></head>
+<body><div class="wrap"><header><div class="eyebrow">16 IMAGES → SHORT CLIPS → YOUR EDIT</div>
+<h1>The Schools of Magic,<br>Arise!</h1>
+<p>Attach an image, tell the AI what should move, then stitch the clips together. The image already supplies the characters, costumes and setting — you do not need to describe them all over again.</p>
+<div class="steps"><ol><li>Save the shot’s PNG and attach it to your image-to-video generator.</li>
+<li>Use the short motion prompt below, or simply say <b>“Make this image move.”</b></li>
+<li>Choose a 5- or 10-second generation. Trim the result in your editor and place clips in numbered order.</li></ol>
+<p>Keep titles, transitions and the final music track in the editor. Each AI clip should stay in its own scene.</p></div>
+<p>The optional 90-second guide uses 16 clips. For a 4-second edit beat, generate 5 seconds; for a 6–8-second beat, generate 10 seconds and trim. If your tool offers the exact duration, use that instead. These are suggestions, not restrictions on your cut.</p>
+<p><a href="review/contact-sheet.jpg">View all 16 images</a> · <a href="STORYBOARD.md">Original detailed storyboard</a></p>
+</header><div class="toolbar"><strong id="progress">0 / 16 clips marked ready</strong> · Checkmarks stay in this browser when local storage is available.</div>
+<main><article id="shot-01">
+<div class="meta">SHOT 01 · EDIT GUIDE 00–06s</div>
+<h2>The city that teaches you to feel</h2>
+<a href="images/01-the-city-that-teaches-you-to-feel.png" target="_blank" rel="noopener" aria-label="Open full-size shot 01"><img class="shot-image" src="images/01-the-city-that-teaches-you-to-feel.png" alt="Shot 01: the city that teaches you to feel" loading="lazy"></a>
+<span class="file">01-the-city-that-teaches-you-to-feel.png</span>
+<div class="timing"><span class="pill">Generate 10s</span><span class="pill">Use about 6s in the edit</span></div>
+<div class="prompt" id="prompt-01">Make this image move: glide slowly past the foreground leaf to reveal the city. Let the dew tremble, leaves sway and chimney smoke drift. Keep the buildings and tree trunk still. Keep the same characters and 2D anime style. One continuous shot, no text.</div>
+<div class="actions"><button type="button" data-copy="prompt-01">Copy motion prompt</button><a class="download" href="images/01-the-city-that-teaches-you-to-feel.png" download="01-the-city-that-teaches-you-to-feel.png">Save image</a><label><input type="checkbox" data-ready="01">Clip ready</label></div>
+<p class="status" role="status" aria-live="polite"></p>
+<details><summary>Optional editor notes &amp; original brief</summary><p>Open on the leaf and city. Cut the dew highlight to the wand crystal.</p><p><b>Music idea:</b> Bars 1–3. Exposed piano/chime motif, breath of flute, no percussion until the last beat.</p><p><b>Purpose:</b> Begin with wonder, then reveal the ordinary city worth protecting.</p><p><a href="prompts/01-the-city-that-teaches-you-to-feel.md">Original detailed shot brief</a></p></details>
+</article><article id="shot-02">
+<div class="meta">SHOT 02 · EDIT GUIDE 06–10s</div>
+<h2>A perfectly unnecessary polish</h2>
+<a href="images/02-a-perfectly-unnecessary-polish.png" target="_blank" rel="noopener" aria-label="Open full-size shot 02"><img class="shot-image" src="images/02-a-perfectly-unnecessary-polish.png" alt="Shot 02: a perfectly unnecessary polish" loading="lazy"></a>
+<span class="file">02-a-perfectly-unnecessary-polish.png</span>
+<div class="timing"><span class="pill">Generate 5s</span><span class="pill">Use about 4s in the edit</span></div>
+<div class="prompt" id="prompt-02">Make this image move: she gives her wand one last careful polish, then raises an eyebrow at it. Her fringe and sleeve move slightly. Gently push the camera closer. Keep the same characters and 2D anime style. One continuous shot, no text.</div>
+<div class="actions"><button type="button" data-copy="prompt-02">Copy motion prompt</button><a class="download" href="images/02-a-perfectly-unnecessary-polish.png" download="02-a-perfectly-unnecessary-polish.png">Save image</a><label><input type="checkbox" data-ready="02">Clip ready</label></div>
+<p class="status" role="status" aria-live="polite"></p>
+<details><summary>Optional editor notes &amp; original brief</summary><p>Cut her sleeve movement to the red mantle in the next shot.</p><p><b>Music idea:</b> Bars 4–5. Bass and light rim clicks enter; cloth snap lands on beat 4.</p><p><b>Purpose:</b> Give a proud student a tiny, human ritual before the grand adventure.</p><p><a href="prompts/02-a-perfectly-unnecessary-polish.md">Original detailed shot brief</a></p></details>
+</article><article id="shot-03">
+<div class="meta">SHOT 03 · EDIT GUIDE 10–16s</div>
+<h2>Red means someone stands beside you</h2>
+<a href="images/03-red-means-someone-stands-beside-you.png" target="_blank" rel="noopener" aria-label="Open full-size shot 03"><img class="shot-image" src="images/03-red-means-someone-stands-beside-you.png" alt="Shot 03: red means someone stands beside you" loading="lazy"></a>
+<span class="file">03-red-means-someone-stands-beside-you.png</span>
+<div class="timing"><span class="pill">Generate 10s</span><span class="pill">Use about 6s in the edit</span></div>
+<div class="prompt" id="prompt-03">Make this image move: the padded training arm presses against her glowing shield, which pulses once. She braces her stance as her braid and red mantle swing, then settle. Slowly track sideways. Keep the same characters and 2D anime style. One continuous shot, no text.</div>
+<div class="actions"><button type="button" data-copy="prompt-03">Copy motion prompt</button><a class="download" href="images/03-red-means-someone-stands-beside-you.png" download="03-red-means-someone-stands-beside-you.png">Save image</a><label><input type="checkbox" data-ready="03">Clip ready</label></div>
+<p class="status" role="status" aria-live="polite"></p>
+<details><summary>Optional editor notes &amp; original brief</summary><p>Match the shield glint to the research lens.</p><p><b>Music idea:</b> Bars 6–8. First full groove; snare at ward contact. A tiny breath follows the impact.</p><p><b>Purpose:</b> Make Phoenix Wing about responsible protection, not a generic fire house.</p><p><a href="prompts/03-red-means-someone-stands-beside-you.md">Original detailed shot brief</a></p></details>
+</article><article id="shot-04">
+<div class="meta">SHOT 04 · EDIT GUIDE 16–20s</div>
+<h2>Cyan a question in motion</h2>
+<a href="images/04-cyan-a-question-in-motion.png" target="_blank" rel="noopener" aria-label="Open full-size shot 04"><img class="shot-image" src="images/04-cyan-a-question-in-motion.png" alt="Shot 04: cyan a question in motion" loading="lazy"></a>
+<span class="file">04-cyan-a-question-in-motion.png</span>
+<div class="timing"><span class="pill">Generate 5s</span><span class="pill">Use about 4s in the edit</span></div>
+<div class="prompt" id="prompt-04">Make this image move: he turns the tiny adjustment screw, the brass ring rotates a little and the cyan light steadies. He gives a pleased smile. Move the camera gently around the workbench. Keep the same characters and 2D anime style. One continuous shot, no text.</div>
+<div class="actions"><button type="button" data-copy="prompt-04">Copy motion prompt</button><a class="download" href="images/04-cyan-a-question-in-motion.png" download="04-cyan-a-question-in-motion.png">Save image</a><label><input type="checkbox" data-ready="04">Clip ready</label></div>
+<p class="status" role="status" aria-live="polite"></p>
+<details><summary>Optional editor notes &amp; original brief</summary><p>Match the cyan curve to the green-white spell curve.</p><p><b>Music idea:</b> Bars 9–10. Woodwind answers piano; mechanism click joins the hi-hat pattern.</p><p><b>Purpose:</b> Show actual mechanical-magical research and curiosity.</p><p><a href="prompts/04-cyan-a-question-in-motion.md">Original detailed shot brief</a></p></details>
+</article><article id="shot-05">
+<div class="meta">SHOT 05 · EDIT GUIDE 20–26s</div>
+<h2>Gold the small discovery</h2>
+<a href="images/05-gold-the-small-discovery.png" target="_blank" rel="noopener" aria-label="Open full-size shot 05"><img class="shot-image" src="images/05-gold-the-small-discovery.png" alt="Shot 05: gold the small discovery" loading="lazy"></a>
+<span class="file">05-gold-the-small-discovery.png</span>
+<div class="timing"><span class="pill">Generate 10s</span><span class="pill">Use about 6s in the edit</span></div>
+<div class="prompt" id="prompt-05">Make this image move: she makes a tiny wand movement. The floating stone slowly turns, then settles onto its padded tray. Her hair drifts in the window breeze. Gently push the camera closer. Keep the same characters and 2D anime style. One continuous shot, no text.</div>
+<div class="actions"><button type="button" data-copy="prompt-05">Copy motion prompt</button><a class="download" href="images/05-gold-the-small-discovery.png" download="05-gold-the-small-discovery.png">Save image</a><label><input type="checkbox" data-ready="05">Clip ready</label></div>
+<p class="status" role="status" aria-live="polite"></p>
+<details><summary>Optional editor notes &amp; original brief</summary><p>Cut the pale notebook page to the cream work surface.</p><p><b>Music idea:</b> Bars 11–13. Strings add upward momentum; stone landing is a soft woodblock, not an explosion.</p><p><b>Purpose:</b> Let precision and genuine interest show through Ryūka’s performance of superiority.</p><p><a href="prompts/05-gold-the-small-discovery.md">Original detailed shot brief</a></p></details>
+</article><article id="shot-06">
+<div class="meta">SHOT 06 · EDIT GUIDE 26–32s</div>
+<h2>Violet making it work together</h2>
+<a href="images/06-violet-making-it-work-together.png" target="_blank" rel="noopener" aria-label="Open full-size shot 06"><img class="shot-image" src="images/06-violet-making-it-work-together.png" alt="Shot 06: violet making it work together" loading="lazy"></a>
+<span class="file">06-violet-making-it-work-together.png</span>
+<div class="timing"><span class="pill">Generate 10s</span><span class="pill">Use about 6s in the edit</span></div>
+<div class="prompt" id="prompt-06">Make this image move: they finish tightening the planter support together, then exchange a satisfied glance. Let the herb leaves and violet awning stir in the breeze. Slowly slide the camera along the table. Keep the same characters and 2D anime style. One continuous shot, no text.</div>
+<div class="actions"><button type="button" data-copy="prompt-06">Copy motion prompt</button><a class="download" href="images/06-violet-making-it-work-together.png" download="06-violet-making-it-work-together.png">Save image</a><label><input type="checkbox" data-ready="06">Clip ready</label></div>
+<p class="status" role="status" aria-live="polite"></p>
+<details><summary>Optional editor notes &amp; original brief</summary><p>Match the planter rim to the round sweets tin.</p><p><b>Music idea:</b> Bars 14–16. Harmony warms; brushes and a playful bass pickup soften the academic montage.</p><p><b>Purpose:</b> Show practical cooperation, patience and useful magic.</p><p><a href="prompts/06-violet-making-it-work-together.md">Original detailed shot brief</a></p></details>
+</article><article id="shot-07">
+<div class="meta">SHOT 07 · EDIT GUIDE 32–36s</div>
+<h2>Almost competent company</h2>
+<a href="images/07-almost-competent-company.png" target="_blank" rel="noopener" aria-label="Open full-size shot 07"><img class="shot-image" src="images/07-almost-competent-company.png" alt="Shot 07: almost competent company" loading="lazy"></a>
+<span class="file">07-almost-competent-company.png</span>
+<div class="timing"><span class="pill">Generate 5s</span><span class="pill">Use about 4s in the edit</span></div>
+<div class="prompt" id="prompt-07">Make this image move: the red-haired woman takes one sweet from the blonde woman’s tin. The others smile; the blonde looks away with an embarrassed little huff. Keep the fountain flowing and the camera nearly still. Keep the same characters and 2D anime style. One continuous shot, no text.</div>
+<div class="actions"><button type="button" data-copy="prompt-07">Copy motion prompt</button><a class="download" href="images/07-almost-competent-company.png" download="07-almost-competent-company.png">Save image</a><label><input type="checkbox" data-ready="07">Clip ready</label></div>
+<p class="status" role="status" aria-live="polite"></p>
+<details><summary>Optional editor notes &amp; original brief</summary><p>A small comic breath before the singer enters.</p><p><b>Music idea:</b> Bars 17–18. Half-bar drum dropout for the exchange; upbeat pickup launches the vocal entrance.</p><p><b>Purpose:</b> Earn affection through awkward ordinary company before raising the stakes.</p><p><a href="prompts/07-almost-competent-company.md">Original detailed shot brief</a></p></details>
+</article><article id="shot-08">
+<div class="meta">SHOT 08 · EDIT GUIDE 36–42s</div>
+<h2>A city finds its voice</h2>
+<a href="images/08-a-city-finds-its-voice.png" target="_blank" rel="noopener" aria-label="Open full-size shot 08"><img class="shot-image" src="images/08-a-city-finds-its-voice.png" alt="Shot 08: a city finds its voice" loading="lazy"></a>
+<span class="file">08-a-city-finds-its-voice.png</span>
+<div class="timing"><span class="pill">Generate 10s</span><span class="pill">Use about 6s in the edit</span></div>
+<div class="prompt" id="prompt-08">Make this image move: she sings passionately into the handheld amplifier, making one expressive gesture with her free hand. Her long blue hair streams in the breeze and the fountain sparkles. Slowly orbit toward her face. Keep the same characters and 2D anime style. One continuous shot, no text.</div>
+<div class="actions"><button type="button" data-copy="prompt-08">Copy motion prompt</button><a class="download" href="images/08-a-city-finds-its-voice.png" download="08-a-city-finds-its-voice.png">Save image</a><label><input type="checkbox" data-ready="08">Clip ready</label></div>
+<p class="status" role="status" aria-live="polite"></p>
+<details><summary>Optional editor notes &amp; original brief</summary><p>Bring in your chosen vocal track here. Exact lip sync is optional.</p><p><b>Music idea:</b> Bars 19–21. Original vocal refrain begins over double-time-feeling drums. Performance is an editorial musical bridge, not mind-control magic.</p><p><b>Purpose:</b> Turn the social world into the emotional voice of the opening.</p><p><a href="prompts/08-a-city-finds-its-voice.md">Original detailed shot brief</a></p></details>
+</article><article id="shot-09">
+<div class="meta">SHOT 09 · EDIT GUIDE 42–48s</div>
+<h2>Permission to go further</h2>
+<a href="images/09-permission-to-go-further.png" target="_blank" rel="noopener" aria-label="Open full-size shot 09"><img class="shot-image" src="images/09-permission-to-go-further.png" alt="Shot 09: permission to go further" loading="lazy"></a>
+<span class="file">09-permission-to-go-further.png</span>
+<div class="timing"><span class="pill">Generate 10s</span><span class="pill">Use about 6s in the edit</span></div>
+<div class="prompt" id="prompt-09">Make this image move: the four students take two slow steps toward the dark receiving hall as the attendant checks the key and papers. Follow gently from behind. Both halls stay enclosed; do not change the destination into an outdoor landscape. Keep the same characters and 2D anime style. One continuous shot, no text.</div>
+<div class="actions"><button type="button" data-copy="prompt-09">Copy motion prompt</button><a class="download" href="images/09-permission-to-go-further.png" download="09-permission-to-go-further.png">Save image</a><label><input type="checkbox" data-ready="09">Clip ready</label></div>
+<p class="status" role="status" aria-live="polite"></p>
+<details><summary>Optional editor notes &amp; original brief</summary><p>Cut from the enclosed hall to Drakenspire’s exterior; skip the walk outside.</p><p><b>Music idea:</b> Bars 22–24. Pre-chorus rising bass and bowed cymbal, final half-beat vacuum before the landscape drop.</p><p><b>Purpose:</b> Make departure deliberate and shared, through the actual sole city hub.</p><p><a href="prompts/09-permission-to-go-further.md">Original detailed shot brief</a></p></details>
+</article><article id="shot-10">
+<div class="meta">SHOT 10 · EDIT GUIDE 48–56s</div>
+<h2>Stone snow and an ancestors shelter</h2>
+<a href="images/10-stone-snow-and-an-ancestors-shelter.png" target="_blank" rel="noopener" aria-label="Open full-size shot 10"><img class="shot-image" src="images/10-stone-snow-and-an-ancestors-shelter.png" alt="Shot 10: stone snow and an ancestors shelter" loading="lazy"></a>
+<span class="file">10-stone-snow-and-an-ancestors-shelter.png</span>
+<div class="timing"><span class="pill">Generate 10s</span><span class="pill">Use about 8s in the edit</span></div>
+<div class="prompt" id="prompt-10">Make this image move: slowly crane over the snowy rooftops to reveal the fortress. Let snow drift and chimney smoke rise. The ancient dragon skeleton and all buildings remain completely motionless and physically supported. Keep the same characters and 2D anime style. One continuous shot, no text.</div>
+<div class="actions"><button type="button" data-copy="prompt-10">Copy motion prompt</button><a class="download" href="images/10-stone-snow-and-an-ancestors-shelter.png" download="10-stone-snow-and-an-ancestors-shelter.png">Save image</a><label><input type="checkbox" data-ready="10">Clip ready</label></div>
+<p class="status" role="status" aria-live="polite"></p>
+<details><summary>Optional editor notes &amp; original brief</summary><p>Give the reveal room to breathe. Match a warm window to the onsen lantern.</p><p><b>Music idea:</b> Bars 25–28. Chorus opens: broad strings, guitar octaves and full drums; give the reveal two bars before adding melody ornaments.</p><p><b>Purpose:</b> First full chorus payoff: a nation with history, scale and inhabited warmth.</p><p><a href="prompts/10-stone-snow-and-an-ancestors-shelter.md">Original detailed shot brief</a></p></details>
+</article><article id="shot-11">
+<div class="meta">SHOT 11 · EDIT GUIDE 56–62s</div>
+<h2>Warmth is work too</h2>
+<a href="images/11-warmth-is-work-too.png" target="_blank" rel="noopener" aria-label="Open full-size shot 11"><img class="shot-image" src="images/11-warmth-is-work-too.png" alt="Shot 11: warmth is work too" loading="lazy"></a>
+<span class="file">11-warmth-is-work-too.png</span>
+<div class="timing"><span class="pill">Generate 10s</span><span class="pill">Use about 6s in the edit</span></div>
+<div class="prompt" id="prompt-11">Make this image move: she offers the folded towels to the guest and lifts one eyebrow with a warm, amused smile. Her tail sways slightly and faint steam drifts behind her. Gently push the camera closer. Keep the same characters and 2D anime style. One continuous shot, no text.</div>
+<div class="actions"><button type="button" data-copy="prompt-11">Copy motion prompt</button><a class="download" href="images/11-warmth-is-work-too.png" download="11-warmth-is-work-too.png">Save image</a><label><input type="checkbox" data-ready="11">Clip ready</label></div>
+<p class="status" role="status" aria-live="polite"></p>
+<details><summary>Optional editor notes &amp; original brief</summary><p>Match steam to cloud for the jump to Asterveil. This is a montage cut, not a direct portal route.</p><p><b>Music idea:</b> Bars 29–31. Chorus stays buoyant but strips the lead guitar; woodwind and a light rim accent carry her tiny joke.</p><p><b>Purpose:</b> A warm comic breath inside the spectacle; show dragonkin as ordinary people.</p><p><a href="prompts/11-warmth-is-work-too.md">Original detailed shot brief</a></p></details>
+</article><article id="shot-12">
+<div class="meta">SHOT 12 · EDIT GUIDE 62–66s</div>
+<h2>The distance between islands</h2>
+<a href="images/12-the-distance-between-islands.png" target="_blank" rel="noopener" aria-label="Open full-size shot 12"><img class="shot-image" src="images/12-the-distance-between-islands.png" alt="Shot 12: the distance between islands" loading="lazy"></a>
+<span class="file">12-the-distance-between-islands.png</span>
+<div class="timing"><span class="pill">Generate 5s</span><span class="pill">Use about 4s in the edit</span></div>
+<div class="prompt" id="prompt-12">Make this image move: the attended carrier glides slowly past the floating islands. The students watch the view, with hair and clothes fluttering in the breeze. Track alongside the rail; keep everyone safely aboard and the islands unchanged. Keep the same characters and 2D anime style. One continuous shot, no text.</div>
+<div class="actions"><button type="button" data-copy="prompt-12">Copy motion prompt</button><a class="download" href="images/12-the-distance-between-islands.png" download="12-the-distance-between-islands.png">Save image</a><label><input type="checkbox" data-ready="12">Clip ready</label></div>
+<p class="status" role="status" aria-live="polite"></p>
+<details><summary>Optional editor notes &amp; original brief</summary><p>Cut drifting seed or cloud to the still dust inside the ruins.</p><p><b>Music idea:</b> Bars 32–33. Vocal reaches upward, cymbal wash, then sharply remove high frequencies on the next cut.</p><p><b>Purpose:</b> A second realm expands the visual vocabulary without inventing flight powers.</p><p><a href="prompts/12-the-distance-between-islands.md">Original detailed shot brief</a></p></details>
+</article><article id="shot-13">
+<div class="meta">SHOT 13 · EDIT GUIDE 66–72s</div>
+<h2>When the noise goes missing</h2>
+<a href="images/13-when-the-noise-goes-missing.png" target="_blank" rel="noopener" aria-label="Open full-size shot 13"><img class="shot-image" src="images/13-when-the-noise-goes-missing.png" alt="Shot 13: when the noise goes missing" loading="lazy"></a>
+<span class="file">13-when-the-noise-goes-missing.png</span>
+<div class="timing"><span class="pill">Generate 10s</span><span class="pill">Use about 6s in the edit</span></div>
+<div class="prompt" id="prompt-13">Make this image move: the creature takes one slow, silent step; its three bell cups tilt toward the floor. Dust trembles and the blonde woman notices it. Creep the camera forward. Preserve exactly four legs and three bell cups. Keep the same characters and 2D anime style. One continuous shot, no text.</div>
+<div class="actions"><button type="button" data-copy="prompt-13">Copy motion prompt</button><a class="download" href="images/13-when-the-noise-goes-missing.png" download="13-when-the-noise-goes-missing.png">Save image</a><label><input type="checkbox" data-ready="13">Clip ready</label></div>
+<p class="status" role="status" aria-live="polite"></p>
+<details><summary>Optional editor notes &amp; original brief</summary><p>Dip nearby sound for the creature’s silence, then cut to the defensive beat.</p><p><b>Music idea:</b> Bars 34–36. Sound-design dip for local creature silence; piano heartbeat and dry bass remain editorially audible. No claim all magic is disabled.</p><p><b>Purpose:</b> Introduce a specific, bounded threat through silence instead of generic evil.</p><p><a href="prompts/13-when-the-noise-goes-missing.md">Original detailed shot brief</a></p></details>
+</article><article id="shot-14">
+<div class="meta">SHOT 14 · EDIT GUIDE 72–78s</div>
+<h2>A small ward is enough to begin</h2>
+<a href="images/14-a-small-ward-is-enough-to-begin.png" target="_blank" rel="noopener" aria-label="Open full-size shot 14"><img class="shot-image" src="images/14-a-small-ward-is-enough-to-begin.png" alt="Shot 14: a small ward is enough to begin" loading="lazy"></a>
+<span class="file">14-a-small-ward-is-enough-to-begin.png</span>
+<div class="timing"><span class="pill">Generate 10s</span><span class="pill">Use about 6s in the edit</span></div>
+<div class="prompt" id="prompt-14">Make this image move: her small green shield catches one glancing impact and briefly flashes. She takes one controlled step backward while the red-haired woman guards the retreat. Hair and dust follow their movement. Track sideways; no spinning or new attacks. Keep the same characters and 2D anime style. One continuous shot, no text.</div>
+<div class="actions"><button type="button" data-copy="prompt-14">Copy motion prompt</button><a class="download" href="images/14-a-small-ward-is-enough-to-begin.png" download="14-a-small-ward-is-enough-to-begin.png">Save image</a><label><input type="checkbox" data-ready="14">Clip ready</label></div>
+<p class="status" role="status" aria-live="polite"></p>
+<details><summary>Optional editor notes &amp; original brief</summary><p>Cut on the shield glint to the sweets tin. No victory or killing blow is needed.</p><p><b>Music idea:</b> Bars 37–39. Final chorus returns with impact on the snare; brief harmonic lift as they choose one another over a trophy.</p><p><b>Purpose:</b> Pay off learning and companionship through a limited defensive retreat, not sudden godhood.</p><p><a href="prompts/14-a-small-ward-is-enough-to-begin.md">Original detailed shot brief</a></p></details>
+</article><article id="shot-15">
+<div class="meta">SHOT 15 · EDIT GUIDE 78–84s</div>
+<h2>The invitation without a speech</h2>
+<a href="images/15-the-invitation-without-a-speech.png" target="_blank" rel="noopener" aria-label="Open full-size shot 15"><img class="shot-image" src="images/15-the-invitation-without-a-speech.png" alt="Shot 15: the invitation without a speech" loading="lazy"></a>
+<span class="file">15-the-invitation-without-a-speech.png</span>
+<div class="timing"><span class="pill">Generate 10s</span><span class="pill">Use about 6s in the edit</span></div>
+<div class="prompt" id="prompt-15">Make this image move: the blonde woman offers the sweet tin and meets her companion’s eyes with a small, reluctant smile. The red-haired woman smiles back. Let their hair stir and the fountain ripple. Keep the camera almost still. Keep the same characters and 2D anime style. One continuous shot, no text.</div>
+<div class="actions"><button type="button" data-copy="prompt-15">Copy motion prompt</button><a class="download" href="images/15-the-invitation-without-a-speech.png" download="15-the-invitation-without-a-speech.png">Save image</a><label><input type="checkbox" data-ready="15">Clip ready</label></div>
+<p class="status" role="status" aria-live="polite"></p>
+<details><summary>Optional editor notes &amp; original brief</summary><p>Hold the shared look, then cut to the ensemble beneath the Evertree.</p><p><b>Music idea:</b> Bars 40–42. Vocal falls to an intimate phrase over piano and bass, then strings build into the title cadence.</p><p><b>Purpose:</b> Resolve the emotional arc in a tiny change, leaving adventure open.</p><p><a href="prompts/15-the-invitation-without-a-speech.md">Original detailed shot brief</a></p></details>
+</article><article id="shot-16">
+<div class="meta">SHOT 16 · EDIT GUIDE 84–90s</div>
+<h2>Arise</h2>
+<a href="images/16-arise.png" target="_blank" rel="noopener" aria-label="Open full-size shot 16"><img class="shot-image" src="images/16-arise.png" alt="Shot 16: arise" loading="lazy"></a>
+<span class="file">16-arise.png</span>
+<div class="timing"><span class="pill">Generate 10s</span><span class="pill">Use about 6s in the edit</span></div>
+<div class="prompt" id="prompt-16">Make this image move: slowly pull back and tilt up toward the Evertree. The blonde woman glances over her shoulder as a leaf drifts past the camera. Keep the other students mostly still, with gentle hair and clothing movement. Keep the same characters and 2D anime style. One continuous shot, no text.</div>
+<div class="actions"><button type="button" data-copy="prompt-16">Copy motion prompt</button><a class="download" href="images/16-arise.png" download="16-arise.png">Save image</a><label><input type="checkbox" data-ready="16">Clip ready</label></div>
+<p class="status" role="status" aria-live="polite"></p>
+<details><summary>Optional editor notes &amp; original brief</summary><p>Add “The Schools of Magic, Arise!” yourself in the left sky during the last 3.5 seconds. Hold the title through the ending.</p><p><b>Music idea:</b> Bars 43–45. Full original refrain and a rising final chord; chime signature on the title settle, ringing to the exact 90s end.</p><p><b>Purpose:</b> Return to the first image changed by companionship; leave the world inviting.</p><p><a href="prompts/16-arise.md">Original detailed shot brief</a></p></details>
+</article></main><footer>Open this file beside its original <code>images/</code> folder. No internet connection is needed for the gallery. Prompts describe intended movement; no animated clips are included. Original world data and all PNGs are unchanged.</footer>
+</div><script>
+const checks = [...document.querySelectorAll('[data-ready]')];
+function updateProgress(){document.getElementById('progress').textContent = checks.filter(c=>c.checked).length + ' / 16 clips marked ready';}
+for(const c of checks){
+  try{c.checked=localStorage.getItem('voyage-opening-ready-'+c.dataset.ready)==='yes';}catch(e){}
+  c.closest('article').classList.toggle('ready',c.checked);
+  c.addEventListener('change',()=>{try{localStorage.setItem('voyage-opening-ready-'+c.dataset.ready,c.checked?'yes':'no');}catch(e){}
+    c.closest('article').classList.toggle('ready',c.checked);updateProgress();});
+}
+updateProgress();
+for(const b of document.querySelectorAll('[data-copy]')){
+  b.addEventListener('click',async()=>{
+    const source=document.getElementById(b.dataset.copy), text=source.textContent;
+    const status=b.closest('article').querySelector('.status');
+    try{
+      if(navigator.clipboard && window.isSecureContext){await navigator.clipboard.writeText(text);}
+      else{const t=document.createElement('textarea');t.value=text;t.className='fallback';document.body.appendChild(t);t.select();
+        const ok=document.execCommand('copy');t.remove();if(!ok)throw new Error('manual');}
+      status.textContent='Copied. Attach this shot’s PNG and paste the prompt.';
+    }catch(e){const r=document.createRange();r.selectNodeContents(source);const sel=window.getSelection();sel.removeAllRanges();sel.addRange(r);
+      status.textContent='Prompt selected — press Ctrl+C or Command+C to copy.';}
+  });
+}
+</script></body></html>

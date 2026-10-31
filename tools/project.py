@@ -4,7 +4,6 @@ import argparse
 import hashlib
 import json
 import pathlib
-import shutil
 import subprocess
 import sys
 

@@ -2,6 +2,8 @@
 
 Private shared workspace for authoring a Voyage world from Codex desktop and Codex web/cloud.
 
+Repository: [Vladzenn/voyage-maker](https://github.com/Vladzenn/voyage-maker) (private).
+
 ## Current project
 
 - **Canonical world:** [world-draft/WorldAlpha - World.json](world-draft/WorldAlpha%20-%20World.json)
@@ -27,6 +29,8 @@ python tools/project.py publish -m "Describe the completed change"
 Use `python3` on a system where `python` is unavailable. `start` fetches and fast-forwards only a clean checkout. `publish` validates and pushes completed changes; it does not watch half-written files or silently resolve conflicts. A cloud task without push credentials can still commit its work and use Codex's native review/PR workflow.
 
 GitHub Actions repeats the portable checks on pushes and pull requests. Local checks verify structure and selected mechanics; important outcomes still need a Voyage playtest.
+
+Setup status and the one-time Cloud connection: [docs/SETUP_STATUS.md](docs/SETUP_STATUS.md).
 
 ## Working from either surface
 

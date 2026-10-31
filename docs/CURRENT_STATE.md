@@ -32,4 +32,4 @@ Other discussed features—public rumor delivery, property, full equipment refin
 
 Do not claim the world is flawless or all quests work. Review recognition, reward recipients, consumption, travel placement and multiplayer in Voyage. Existing adventures may retain already-generated enemies and old data; fresh runs are the clearest balance comparison.
 
-The repository and cloud environment status must be verified at the end of setup. Never equate a prepared Git repo with a completed Cloud environment.
+The private repository is https://github.com/Vladzenn/voyage-maker. Its first GitHub Actions run passed. See docs/SETUP_STATUS.md for the verified setup and outstanding account-side Cloud connection. Never equate the completed GitHub upload with a published Cloud environment.

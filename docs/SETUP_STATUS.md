@@ -11,11 +11,11 @@ Verified 1 November 2026:
 - 334 existing original media assets are indexed and retained locally. Hosted image and music URLs remain in the shared world. New and changed media is shared by the publish helper.
 - No local files or conversations were deleted.
 
-## One-time account connection
+## Cloud environment
 
-The repository is ready. Codex Cloud has not yet been verified: the environment-list tool returned no saved environments. The local browser automation could not start because of a Windows sandbox initialization error. Account-side setup therefore needs the user to select the repository in Codex web.
+The user confirmed that the **voyage-maker** Cloud environment is published. The app's environment inventory lists it as ready, linked to this repository's main branch. Its environment ID is `52c7fff2-2a6e-4724-953d-c3b4d72f426f~asenvcfg_79b9e521a58c8191be964042a46f74d9`. No cloud editing task was created by this setup chat; the actual Cloud runtime still needs its first task-level check. The inventory's legacy task-launch flag was false when first observed, so use the published environment through the web UI rather than assuming the desktop chat-launch tool supports it.
 
-Open https://chatgpt.com/codex, select Cloud, create an environment, and select Vladzenn/voyage-maker. Connect GitHub if requested, granting access to this private repository. Let Codex inspect the project, review setup, and publish the environment.
+Open https://chatgpt.com/codex and select the published **voyage-maker** environment to work remotely. The original connection steps, if setup must ever be repeated, are Cloud → Create environment → Vladzenn/voyage-maker → review setup → Publish.
 
 Use Python 3.12+ and Node.js 22+. The repo needs no third-party packages, project secrets or API keys. Its optional setup/check script is:
 

@@ -1,0 +1,97 @@
+{
+  "worldSHA256": "f149fc434b8468de31cd3182fdf6f8d049c5e5949ae464cb1c86987891f488c8",
+  "scope": "Diagnostic executions of emitted scripts using the existing harness and supplied semantic answers; not live Voyage or proof of language recognition.",
+  "rows": [
+    {
+      "id": "unstarted_opponent_incapacity",
+      "before": {
+        "phase": "review",
+        "startedTick": null
+      },
+      "after": {
+        "phase": "between",
+        "winner": "@",
+        "reason": "confirmed opponent incapacity on review"
+      },
+      "reproduced": true
+    },
+    {
+      "id": "double_knockout_review",
+      "stopped": {
+        "phase": "review",
+        "winner": null,
+        "pendingCare": 0
+      },
+      "explicitWithdrawalPhase": "closed",
+      "reproduced": true
+    },
+    {
+      "id": "return_during_grace",
+      "phases": [
+        "away",
+        "away",
+        "closed"
+      ],
+      "outcome": "withdrawn",
+      "reproduced": true
+    },
+    {
+      "id": "incapacitated_player_starts",
+      "phase": "live",
+      "recordedStartingHealth": 0,
+      "reproduced": true
+    },
+    {
+      "id": "unfit_offscreen_champion",
+      "champion": "Natsume Aiba",
+      "championHealth": 0,
+      "invalidWins": [
+        {
+          "match": "R1M1",
+          "winner": "Haruto Otsuki"
+        },
+        {
+          "match": "R1M2",
+          "winner": "Natsume Aiba"
+        },
+        {
+          "match": "R1M3",
+          "winner": "Kenta Ishizaki"
+        },
+        {
+          "match": "R2M0",
+          "winner": "Haruto Otsuki"
+        },
+        {
+          "match": "R2M1",
+          "winner": "Natsume Aiba"
+        },
+        {
+          "match": "R3M0",
+          "winner": "Natsume Aiba"
+        }
+      ],
+      "reproduced": true
+    },
+    {
+      "id": "benches_before_call",
+      "phase": "ready",
+      "sameMatch": true,
+      "location": "The Eternal Crucible",
+      "area": "The Eternal Crucible - Grand Stands",
+      "nativeMovementPreservesEntry": true,
+      "semanticScope": "Withdrawal/readiness answers supplied false; this does not test the model understanding leave."
+    },
+    {
+      "id": "benches_between_bouts",
+      "phase": "between",
+      "sameMatch": true,
+      "nativeMovementPreservesEntry": true
+    },
+    {
+      "id": "benches_during_live_bout",
+      "phase": "live",
+      "scope": "Current mechanical observer watches venue exit, not ring boundaries; a referee/ring-out ruling remains semantic."
+    }
+  ]
+}

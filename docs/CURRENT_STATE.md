@@ -39,6 +39,8 @@ Important manual checks: native arc surfacing and chapter assignment; winter com
 
 ## Workflow and remaining plans
 
+Before the next implementation, read [NEXT_PATCH.md](NEXT_PATCH.md). It records the user's observed duplicate Bronze badge and missing runtime item artwork, plus Studio edits to preserve (badge-only catalogue art, Permadeath naming and the three-level attribute-award interval). These are pending investigations/merge reminders; no fixes or those Studio edits have been applied to the canonical world.
+
 The private repository is https://github.com/Vladzenn/voyage-maker. Desktop completed work is published with `tools/project.py publish`; cloud work must be committed and merged before the next desktop fast-forward. Preserve `sources/` and the original AGENTS.md. The user confirmed the **voyage-maker** Codex Cloud environment is published; no task in that runtime has been verified by this chat.
 
 Other expansion titles in `world-draft/Upcoming Updates.md` remain plans: Crucible expansion, Oni country/spirit gate, Vladimir Kujo's Shadowspire, the Eternal Chained Dragon and Citadel of Dreams. Do not implement them merely because their blueprint exists. The narrow Crime and Prison system is already shipped; broader prison simulation remains outside this release.

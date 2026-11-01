@@ -1,0 +1,62 @@
+{
+  "sourceNPCSHA256": "dd8f0ea032cd591109e231c225de32982f334a410ea7e0eaa086e480bd0310c5",
+  "beforeWorldSHA256": "fb0131d760d6700686cf1272706489f6388f6ba65b11a8c8200ed1a07bf3fd88",
+  "npcCount": 272,
+  "npcTextChanges": {
+    "Kanna Tsuruno": [
+      "visualDescription",
+      "basicInfo"
+    ],
+    "Shōgo Mizutani": [
+      "basicInfo",
+      "abilities"
+    ],
+    "Nozomi Hayase": [
+      "basicInfo",
+      "abilities"
+    ],
+    "Gorō Azuma": [
+      "basicInfo",
+      "abilities"
+    ],
+    "Hina Wakabayashi": [
+      "basicInfo",
+      "abilities"
+    ],
+    "Mika Koshimizu": [
+      "basicInfo",
+      "abilities"
+    ],
+    "Renjirō Suda": [
+      "basicInfo",
+      "abilities"
+    ],
+    "Momo Shiratori": [
+      "basicInfo",
+      "abilities"
+    ],
+    "Shiori Takase": [
+      "visualDescription",
+      "basicInfo",
+      "abilities"
+    ],
+    "Genta Shishido": [
+      "visualDescription",
+      "basicInfo",
+      "abilities"
+    ],
+    "Koharu Mikazuki": [
+      "visualDescription",
+      "basicInfo",
+      "abilities"
+    ]
+  },
+  "allOtherNPCFieldsExact": true,
+  "portraitsExact": true,
+  "allOtherWorldSectionsExact": true,
+  "triggerChanged": "cc1_grove_discover",
+  "onlyTriggerChange": "effects[8].instruction",
+  "discoveryConditionsAndScriptExact": true,
+  "oldDiscoveryText": "A new pale arch wakes between the Evertree roots, its branches traced with bronze nameplates and white leaves. It opens onto the Sepulchral Portal House. Reveal the route and its visible expedition risk, roughly levels 35–50; do not cross for the player or replay the silver-web anomaly.",
+  "newDiscoveryText": "A new pale arch opens between the Evertree roots, its branches traced with bronze nameplates and white leaves. It leads to the Sepulchral Portal House. The championship trophy and Silver Web Portal Key are internal progression checks only, not the cause of this opening. Do not make them react, combine, provide power, require presentation or be consumed. Narrate the newly available passage without exposing inventory checks or inventing a ritual. Reveal its visible expedition risk, roughly levels 35–50; do not cross for the player or replay the silver-web anomaly."
+}

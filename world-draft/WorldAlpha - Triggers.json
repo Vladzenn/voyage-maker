@@ -15581,7 +15581,7 @@
       },
       {
         "type": "story",
-        "instruction": "A new pale arch wakes between the Evertree roots, its branches traced with bronze nameplates and white leaves. It opens onto the Sepulchral Portal House. Reveal the route and its visible expedition risk, roughly levels 35–50; do not cross for the player or replay the silver-web anomaly."
+        "instruction": "A new pale arch opens between the Evertree roots, its branches traced with bronze nameplates and white leaves. It leads to the Sepulchral Portal House. The championship trophy and Silver Web Portal Key are internal progression checks only, not the cause of this opening. Do not make them react, combine, provide power, require presentation or be consumed. Narrate the newly available passage without exposing inventory checks or inventing a ritual. Reveal its visible expedition risk, roughly levels 35–50; do not cross for the player or replay the silver-web anomaly."
       }
     ],
     "recurring": true,

@@ -34,7 +34,7 @@ Meet **43 new characters**, including competitors, arena staff, shady contacts a
 
 A new midgame dungeon waits beyond the familiar routes: a ruined sanctuary of cracked glasshouses, pale timber bodies and white-leaved memorial trees. Something still tends its gardens, and some of the things growing there remember their names.
 
-*Rumor has it that a champion's prize, paired with a certain key from a silken descent, can awaken a new passage beneath the Evertree.*
+*After a Crucible championship and a journey into the Silken Descent, return to the Evertree Portal Room. Another passage may be waiting.*
 
 - Explore two guarded tending wings, irrigation walks, a quiet garden and the records left behind by the sanctuary's keepers.
 - Face plant-bodied undead and unfamiliar guardians as you work toward the protected heart of the conservatory.

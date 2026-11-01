@@ -8360,8 +8360,8 @@
     "currentArea": "The Eternal Crucible - Practice Gallery",
     "gender": "female",
     "detailType": "detailed",
-    "visualDescription": "An adult dragonkin woman with storm-blue hair, in a thick braid, and yellow with vertical slit pupils eyes. A tall build and an easy, slightly cocky posture. A human face, blue scales on the cheekbones and backs of the arms, swept horns, human palms and a thick dragon tail. Her practical competition clothes use violet and white, with a distinct well-kept travel coat or fitted training jacket.",
-    "basicInfo": "Kanna Tsuruno comes from Drakenspire, appraises spearheads and loves hot springs and aggressively spicy stew. She competes at the Crucible alongside her ordinary work.\n\nAn adult dragonkin woman with storm-blue hair, in a thick braid, and yellow with vertical slit pupils eyes. A tall build and an easy, slightly cocky posture. A human face, blue scales on the cheekbones and backs of the arms, swept horns, human palms and a thick dragon tail. Her practical competition clothes use violet and white, with a distinct well-kept travel coat or fitted training jacket.\n\n**Equipment:** She normally carries a long steel-tipped spear, a small purse and a compact work kit.\n\n- **Gender:** Female\n- **Age:** 47\n- **Species:** Dragonkin\n- **Role in faction:** independent Crucible competitor\n- **Magic affinity:** Lightning",
+    "visualDescription": "An adult dragonkin woman with storm-blue hair, in a thick braid, and yellow eyes with vertical slit pupils. A tall build and an easy, slightly cocky posture. A human face, blue scales on the cheekbones and backs of the arms, swept horns, human palms and a thick dragon tail. Her practical competition clothes use violet and white, with a distinct well-kept travel coat or fitted training jacket.",
+    "basicInfo": "Kanna Tsuruno comes from Drakenspire, appraises spearheads and loves hot springs and aggressively spicy stew. She competes at the Crucible alongside her ordinary work.\n\nAn adult dragonkin woman with storm-blue hair, in a thick braid, and yellow eyes with vertical slit pupils. A tall build and an easy, slightly cocky posture. A human face, blue scales on the cheekbones and backs of the arms, swept horns, human palms and a thick dragon tail. Her practical competition clothes use violet and white, with a distinct well-kept travel coat or fitted training jacket.\n\n**Equipment:** She normally carries a long steel-tipped spear, a small purse and a compact work kit.\n\n- **Gender:** Female\n- **Age:** 47\n- **Species:** Dragonkin\n- **Role in faction:** independent Crucible competitor\n- **Magic affinity:** Lightning",
     "hiddenInfo": "**Private motive:** Wants to win abroad before returning home to manage a workshop she is not certain she wants.\n\n**What they conceal:** She has encouraged an unfounded equipment rumor about a fighter who beat her. She wants the doubt to stick even though she cannot prove it.\n\n**Concealment and knowledge:** She admits only fragments of this in ordinary conversation. People directly involved know their own part; a familiar face does not know the whole story.\n\n**Pressure point:** Having to retract an accusation in front of the people who heard it.\n\n**Relationships:** She has regular dealings with the people connected to her everyday work, but keeps much of her private life separate from the arena.\n\n**How it surfaces:** She lashes her thick blue tail once, then pointedly stills it. A conversation about her actual work or the consequences of a recent choice can reveal more than a direct request for a confession.",
     "personality": [
       "**Core:** Wants to win abroad before returning home to manage a workshop she is not certain she wants.",
@@ -8516,7 +8516,7 @@
     "gender": "male",
     "detailType": "detailed",
     "visualDescription": "An adult human man with dark brown hair, close-cropped, and gray eyes. A curvy build, an alert smile and a handsome practical traveling jacket.",
-    "basicInfo": "Shōgo Mizutani is a former safety inspector who keeps bees, makes excellent jam and enjoys long, uneventful walks. He works as is a former safety inspector who keeps bees, makes excellent jam and enjoys long, uneventful walks.\n\nAn adult human man with dark brown hair, close-cropped, and gray eyes. A curvy build, an alert smile and a handsome practical traveling jacket.\n\n**Equipment:** He normally carries a blunt signal baton, a small purse and the tools needed for the day’s work.\n\n- **Gender:** Male\n- **Age:** 49\n- **Species:** Human\n- **Role in faction:** referee\n- **Magic affinity:** Nature",
+    "basicInfo": "Shōgo Mizutani is a former safety inspector who keeps bees, makes excellent jam and enjoys long, uneventful walks. He works as a referee.\n\nAn adult human man with dark brown hair, close-cropped, and gray eyes. A curvy build, an alert smile and a handsome practical traveling jacket.\n\n**Equipment:** He normally carries a blunt signal baton, a small purse and the tools needed for the day’s work.\n\n- **Gender:** Male\n- **Age:** 49\n- **Species:** Human\n- **Role in faction:** referee\n- **Magic affinity:** Nature",
     "hiddenInfo": "**Private motive:** Wants competitors to trust his decisions without needing to like him.\n\n**What they conceal:** He remembers a safety inspection he rushed years ago and dislikes admitting when fatigue is clouding a new decision.\n\n**Concealment and knowledge:** He admits only fragments of this in ordinary conversation. People directly involved know their own part; a familiar face does not know the whole story.\n\n**Pressure point:** An official being encouraged to hide uncertainty to preserve authority.\n\n**Relationships:** He has regular dealings with customers and coworkers, but keeps much of his private life separate from the arena.\n\n**How it surfaces:** He turns the baton once in his palm before giving a ruling. A conversation about his actual work or the consequences of a recent choice can reveal more than a direct request for a confession.",
     "personality": [
       "**Core:** Wants competitors to trust his decisions without needing to like him.",
@@ -8528,7 +8528,7 @@
       "**Routine or Quirk:** Turns the baton once in his palm before giving a ruling."
     ],
     "abilities": [
-      "**Preferred Method:** Uses a blunt signal baton with practiced control. his nature workings serve his actual work; they defend an escape route and seek help rather than pretending his occupation grants overwhelming combat power.",
+      "**Preferred Method:** Uses a blunt signal baton with practiced control. His nature workings serve his actual work; he defends an escape route and seeks help when outmatched.",
       "**Nature Practice:** He uses learned nature workings suited to his actual work and training.",
       "**Fighting Style:** He uses the available technique to protect a route, escape or call for help; prolonged combat is not the aim."
     ],
@@ -8547,7 +8547,7 @@
     "gender": "female",
     "detailType": "detailed",
     "visualDescription": "An adult half-elf woman with warm brown hair, in a loose braid, and green eyes. A sturdy build, expressive brows and a practical layered coat.",
-    "basicInfo": "Nozomi Hayase keeps rescue dogs with her partner and has a dry, infectious sense of humor. She works as keeps rescue dogs with her partner and has a dry, infectious sense of humor.\n\nAn adult half-elf woman with warm brown hair, in a loose braid, and green eyes. A sturdy build, expressive brows and a practical layered coat.\n\n**Equipment:** She normally carries a small healing staff, a small purse and the tools needed for the day’s work.\n\n- **Gender:** Female\n- **Age:** 41\n- **Species:** Half-elf\n- **Role in faction:** arena medic\n- **Magic affinity:** Healing, Void",
+    "basicInfo": "Nozomi Hayase keeps rescue dogs with her partner and has a dry, infectious sense of humor. She works as an arena medic.\n\nAn adult half-elf woman with warm brown hair, in a loose braid, and green eyes. A sturdy build, expressive brows and a practical layered coat.\n\n**Equipment:** She normally carries a small healing staff, a small purse and the tools needed for the day’s work.\n\n- **Gender:** Female\n- **Age:** 41\n- **Species:** Half-elf\n- **Role in faction:** arena medic\n- **Magic affinity:** Healing, Void",
     "hiddenInfo": "**Private motive:** Wants enough staff to stop treating exhaustion as a personal failure.\n\n**What they conceal:** She has begun resenting extra shifts and is ashamed of how quickly that resentment can reach an innocent patient.\n\n**Concealment and knowledge:** She admits only fragments of this in ordinary conversation. People directly involved know their own part; a familiar face does not know the whole story.\n\n**Pressure point:** Her willingness to help being taken as permanent agreement to cover another vacancy.\n\n**Relationships:** She lives with her partner and their rescue dogs. The arena physician is a valued colleague, though extra shifts still strain the infirmary.\n\n**How it surfaces:** She offers a chair before asking an intrusive medical question. A conversation about her actual work or the consequences of a recent choice can reveal more than a direct request for a confession.",
     "personality": [
       "**Core:** Wants enough staff to stop treating exhaustion as a personal failure.",
@@ -8559,7 +8559,7 @@
       "**Routine or Quirk:** Offers a chair before asking an intrusive medical question."
     ],
     "abilities": [
-      "**Preferred Method:** Uses a small healing staff with practiced control. her healing workings serve her actual work; they defend an escape route and seek help rather than pretending her occupation grants overwhelming combat power.",
+      "**Preferred Method:** Uses a small healing staff with practiced control. Her healing workings serve her actual work; she defends an escape route and seeks help when outmatched.",
       "**Healing Practice:** She uses learned healing workings suited to her actual work and training.",
       "**Fighting Style:** She uses the available technique to protect a route, escape or call for help; prolonged combat is not the aim."
     ],
@@ -8578,7 +8578,7 @@
     "gender": "male",
     "detailType": "detailed",
     "visualDescription": "An adult human man with iron-gray hair, combed back, and amber eyes. A lean build, a thoughtful face and a neat fitted waistcoat.",
-    "basicInfo": "Gorō Azuma plays difficult board games, collects miniature ships and is surprisingly vain about his handwriting. He works as plays difficult board games, collects miniature ships and is surprisingly vain about his handwriting.\n\nAn adult human man with iron-gray hair, combed back, and amber eyes. A lean build, a thoughtful face and a neat fitted waistcoat.\n\n**Equipment:** He normally carries a compact treatment grimoire, a small purse and the tools needed for the day’s work.\n\n- **Gender:** Male\n- **Age:** 56\n- **Species:** Human\n- **Role in faction:** arena physician\n- **Magic affinity:** Healing",
+    "basicInfo": "Gorō Azuma plays difficult board games, collects miniature ships and is surprisingly vain about his handwriting. He works as an arena physician.\n\nAn adult human man with iron-gray hair, combed back, and amber eyes. A lean build, a thoughtful face and a neat fitted waistcoat.\n\n**Equipment:** He normally carries a compact treatment grimoire, a small purse and the tools needed for the day’s work.\n\n- **Gender:** Male\n- **Age:** 56\n- **Species:** Human\n- **Role in faction:** arena physician\n- **Magic affinity:** Healing",
     "hiddenInfo": "**Private motive:** Wants to train a successor before his careful routines become the whole of his life.\n\n**What they conceal:** He fears that training a successor will show how much of his identity depends on being needed.\n\n**Concealment and knowledge:** He admits only fragments of this in ordinary conversation. People directly involved know their own part; a familiar face does not know the whole story.\n\n**Pressure point:** A younger colleague changing a routine for a sound reason he had not considered.\n\n**Relationships:** He has regular dealings with customers and coworkers, but keeps much of his private life separate from the arena.\n\n**How it surfaces:** He sets his spectacles on a folded cloth rather than a bare table. A conversation about his actual work or the consequences of a recent choice can reveal more than a direct request for a confession.",
     "personality": [
       "**Core:** Wants to train a successor before his careful routines become the whole of his life.",
@@ -8590,7 +8590,7 @@
       "**Routine or Quirk:** Sets his spectacles on a folded cloth rather than a bare table."
     ],
     "abilities": [
-      "**Preferred Method:** Uses a compact treatment grimoire with practiced control. his healing workings serve his actual work; they defend an escape route and seek help rather than pretending his occupation grants overwhelming combat power.",
+      "**Preferred Method:** Uses a compact treatment grimoire with practiced control. His healing workings serve his actual work; he defends an escape route and seeks help when outmatched.",
       "**Healing Practice:** He uses learned healing workings suited to his actual work and training.",
       "**Fighting Style:** He uses the available technique to protect a route, escape or call for help; prolonged combat is not the aim."
     ],
@@ -8609,7 +8609,7 @@
     "gender": "female",
     "detailType": "detailed",
     "visualDescription": "An adult human woman with bright orange hair, in a short curled bob, and turquoise eyes. A curvy build, an alert smile and a handsome practical traveling jacket.",
-    "basicInfo": "Hina Wakabayashi sings in a little choir and keeps a notebook of overheard jokes. She works as sings in a little choir and keeps a notebook of overheard jokes.\n\nAn adult human woman with bright orange hair, in a short curled bob, and turquoise eyes. A curvy build, an alert smile and a handsome practical traveling jacket.\n\n**Equipment:** She normally carries a magitech voice amplifier, a small purse and the tools needed for the day’s work.\n\n- **Gender:** Female\n- **Age:** 33\n- **Species:** Human\n- **Role in faction:** announcer and registration clerk\n- **Magic affinity:** Sound",
+    "basicInfo": "Hina Wakabayashi sings in a little choir and keeps a notebook of overheard jokes. She works as an announcer and registration clerk.\n\nAn adult human woman with bright orange hair, in a short curled bob, and turquoise eyes. A curvy build, an alert smile and a handsome practical traveling jacket.\n\n**Equipment:** She normally carries a magitech voice amplifier, a small purse and the tools needed for the day’s work.\n\n- **Gender:** Female\n- **Age:** 33\n- **Species:** Human\n- **Role in faction:** announcer and registration clerk\n- **Magic affinity:** Sound",
     "hiddenInfo": "**Private motive:** Wants to become a performer without abandoning the steady work she enjoys.\n\n**What they conceal:** She once exaggerated a competitor’s humiliation for the crowd and still finds an exciting story tempting when a plainer account would be fairer.\n\n**Concealment and knowledge:** She admits only fragments of this in ordinary conversation. People directly involved know their own part; a familiar face does not know the whole story.\n\n**Pressure point:** The person in an entertaining anecdote asking her to tell it accurately.\n\n**Relationships:** She has regular dealings with customers and coworkers, but keeps much of her private life separate from the arena.\n\n**How it surfaces:** She tries a quiet announcement into her palm before a difficult name. A conversation about her actual work or the consequences of a recent choice can reveal more than a direct request for a confession.",
     "personality": [
       "**Core:** Wants to become a performer without abandoning the steady work she enjoys.",
@@ -8621,7 +8621,7 @@
       "**Routine or Quirk:** Tries a quiet announcement into her palm before a difficult name."
     ],
     "abilities": [
-      "**Preferred Method:** Uses a magitech voice amplifier with practiced control. her sound workings serve her actual work; they defend an escape route and seek help rather than pretending her occupation grants overwhelming combat power.",
+      "**Preferred Method:** Uses a magitech voice amplifier with practiced control. Her sound workings serve her actual work; she defends an escape route and seeks help when outmatched.",
       "**Sound Practice:** She uses learned sound workings suited to her actual work and training.",
       "**Fighting Style:** She uses the available technique to protect a route, escape or call for help; prolonged combat is not the aim."
     ],
@@ -8640,7 +8640,7 @@
     "gender": "female",
     "detailType": "detailed",
     "visualDescription": "An adult human woman with black hair, in a messy bob, and violet eyes. A sturdy build, expressive brows and a practical layered coat.",
-    "basicInfo": "Mika Koshimizu repairs household tools at a cramped counter and loves miniature gardens. She works as repairs household tools at a cramped counter and loves miniature gardens.\n\nAn adult human woman with black hair, in a messy bob, and violet eyes. A sturdy build, expressive brows and a practical layered coat.\n\n**Equipment:** She normally carries a narrow work wand, a small purse and the tools needed for the day’s work.\n\n- **Gender:** Female\n- **Age:** 38\n- **Species:** Human\n- **Role in faction:** independent enchantment repairer\n- **Magic affinity:** Enchantment, Divination",
+    "basicInfo": "Mika Koshimizu repairs household tools at a cramped counter and loves miniature gardens. She works as an independent enchantment repairer.\n\nAn adult human woman with black hair, in a messy bob, and violet eyes. A sturdy build, expressive brows and a practical layered coat.\n\n**Equipment:** She normally carries a narrow work wand, a small purse and the tools needed for the day’s work.\n\n- **Gender:** Female\n- **Age:** 38\n- **Species:** Human\n- **Role in faction:** independent enchantment repairer\n- **Magic affinity:** Enchantment, Divination",
     "hiddenInfo": "**Private motive:** Wants a respected shop while avoiding the debts and scrutiny a license would expose.\n\n**What they conceal:** She has sold repaired tools without disclosing that a cheaper substitute part could fail under heavy use.\n\n**Concealment and knowledge:** She admits very little of this to customers. People directly involved know their own part; a familiar face does not know the whole story.\n\n**Pressure point:** A customer bringing the failed part back with somebody who understands the specification.\n\n**Relationships:** Renjirō Suda brings private repair referrals; she dislikes his evasive provenance stories but has accepted the work.\n\n**How it surfaces:** She tests a repair with the expression of someone daring it to disappoint her. A conversation about her actual work or the consequences of a recent choice can reveal more than a direct request for a confession.",
     "personality": [
       "**Core:** Wants a respected shop while avoiding the debts and scrutiny a license would expose.",
@@ -8652,7 +8652,7 @@
       "**Routine or Quirk:** Tests a repair with the expression of someone daring it to disappoint her."
     ],
     "abilities": [
-      "**Preferred Method:** Uses a narrow work wand with practiced control. her enchantment workings serve her actual work; they defend an escape route and seek help rather than pretending her occupation grants overwhelming combat power.",
+      "**Preferred Method:** Uses a narrow work wand with practiced control. Her enchantment workings serve her actual work; she defends an escape route and seeks help when outmatched.",
       "**Enchantment Practice:** She uses learned enchantment workings suited to her actual work and training.",
       "**Fighting Style:** She uses the available technique to protect a route, escape or call for help; prolonged combat is not the aim."
     ],
@@ -8671,7 +8671,7 @@
     "gender": "male",
     "detailType": "detailed",
     "visualDescription": "An adult human man with brown hair, thinning at the crown, and gray eyes. A lean build, a thoughtful face and a neat fitted waistcoat.",
-    "basicInfo": "Renjirō Suda moves parcels through the city, plays bowls and cooks for his elderly mother. He works as moves parcels through the city, plays bowls and cooks for his elderly mother.\n\nAn adult human man with brown hair, thinning at the crown, and gray eyes. A lean build, a thoughtful face and a neat fitted waistcoat.\n\n**Equipment:** He normally carries a short iron baton, a small purse and the tools needed for the day’s work.\n\n- **Gender:** Male\n- **Age:** 44\n- **Species:** Human\n- **Role in faction:** courier and private broker\n- **Magic affinity:** Arcane",
+    "basicInfo": "Renjirō Suda moves parcels through the city, plays bowls and cooks for his elderly mother. He works as a courier and private broker.\n\nAn adult human man with brown hair, thinning at the crown, and gray eyes. A lean build, a thoughtful face and a neat fitted waistcoat.\n\n**Equipment:** He normally carries a short iron baton, a small purse and the tools needed for the day’s work.\n\n- **Gender:** Male\n- **Age:** 44\n- **Species:** Human\n- **Role in faction:** courier and private broker\n- **Magic affinity:** Arcane",
     "hiddenInfo": "**Private motive:** Wants money and discretion more than a reputation for being good.\n\n**What they conceal:** He knowingly carries stolen parcels and sells information about vulnerable clients. Caring for his mother does not change those choices.\n\n**Concealment and knowledge:** He admits very little of this to customers. People directly involved know their own part; a familiar face does not know the whole story.\n\n**Pressure point:** A client keeping the original receipt and comparing it with the terms he now claims were agreed.\n\n**Relationships:** Mika Koshimizu accepts some of his private repair referrals. He knows that her fear of an inspection makes her easier to pressure.\n\n**How it surfaces:** He folds a receipt into a tiny square while haggling. A conversation about his actual work or the consequences of a recent choice can reveal more than a direct request for a confession.",
     "personality": [
       "**Core:** Wants money and discretion more than a reputation for being good.",
@@ -8683,7 +8683,7 @@
       "**Routine or Quirk:** Folds a receipt into a tiny square while haggling."
     ],
     "abilities": [
-      "**Preferred Method:** Uses a short iron baton with practiced control. his arcane workings serve his actual work; they defend an escape route and seek help rather than pretending his occupation grants overwhelming combat power.",
+      "**Preferred Method:** Uses a short iron baton with practiced control. His arcane workings serve his actual work; he defends an escape route and seeks help when outmatched.",
       "**Arcane Practice:** He uses learned arcane workings suited to his actual work and training.",
       "**Fighting Style:** He uses the available technique to protect a route, escape or call for help; prolonged combat is not the aim."
     ],
@@ -8702,7 +8702,7 @@
     "gender": "female",
     "detailType": "detailed",
     "visualDescription": "An adult human woman with candy pink hair, in a curled side ponytail, and blue eyes. A curvy build, an alert smile and a handsome practical traveling jacket.",
-    "basicInfo": "Momo Shiratori follows arena gossip, adores ugly souvenir mugs and dances badly with tremendous confidence. She works as follows arena gossip, adores ugly souvenir mugs and dances badly with tremendous confidence.\n\nAn adult human woman with candy pink hair, in a curled side ponytail, and blue eyes. A curvy build, an alert smile and a handsome practical traveling jacket.\n\n**Equipment:** She normally carries a short folding fan with a mana-bearing spine, a small purse and the tools needed for the day’s work.\n\n- **Gender:** Female\n- **Age:** 27\n- **Species:** Human\n- **Role in faction:** bookmaker and card player\n- **Magic affinity:** Illusion, Water, Arcane",
+    "basicInfo": "Momo Shiratori follows arena gossip, adores ugly souvenir mugs and dances badly with tremendous confidence. She works as a bookmaker and card player.\n\nAn adult human woman with candy pink hair, in a curled side ponytail, and blue eyes. A curvy build, an alert smile and a handsome practical traveling jacket.\n\n**Equipment:** She normally carries a short folding fan with a mana-bearing spine, a small purse and the tools needed for the day’s work.\n\n- **Gender:** Female\n- **Age:** 27\n- **Species:** Human\n- **Role in faction:** bookmaker and card player\n- **Magic affinity:** Illusion, Water, Arcane",
     "hiddenInfo": "**Private motive:** Wants a permanent betting room with respectable customers and very few questions.\n\n**What they conceal:** She manipulates small wagers and has pressured a debtor into throwing a friendly match. She enjoys the control as much as the money.\n\n**Concealment and knowledge:** She admits very little of this to customers. People directly involved know their own part; a familiar face does not know the whole story.\n\n**Pressure point:** A bettor calmly asking to see the board as it stood before she changed the odds.\n\n**Relationships:** She has regular dealings with customers and coworkers, but keeps much of her private life separate from the arena.\n\n**How it surfaces:** She turns a coin over her knuckles without looking down. A conversation about her actual work or the consequences of a recent choice can reveal more than a direct request for a confession.",
     "personality": [
       "**Core:** Wants a permanent betting room with respectable customers and very few questions.",
@@ -8714,7 +8714,7 @@
       "**Routine or Quirk:** Turns a coin over her knuckles without looking down."
     ],
     "abilities": [
-      "**Preferred Method:** Uses a short folding fan with a mana-bearing spine with practiced control. her illusion workings serve her actual work; they defend an escape route and seek help rather than pretending her occupation grants overwhelming combat power.",
+      "**Preferred Method:** Uses a short folding fan with a mana-bearing spine with practiced control. Her illusion workings serve her actual work; she defends an escape route and seeks help when outmatched.",
       "**Illusion Practice:** She uses learned illusion workings suited to her actual work and training.",
       "**Fighting Style:** She uses the available technique to protect a route, escape or call for help; prolonged combat is not the aim."
     ],
@@ -8732,8 +8732,8 @@
     "currentArea": "Coppercrest Exchange - Trading Floor",
     "gender": "female",
     "detailType": "detailed",
-    "visualDescription": "An adult dragonkin woman with white hair, in a high braided knot, and blue with vertical slit pupils eyes. A sturdy build, expressive brows and a practical layered coat. A human face, swept or curled horns, scaled cheekbones and backs of the arms, human palms and a thick tail.",
-    "basicInfo": "Shiori Takase has slate-blue scales, curled horns and a thick tail, and enjoys elaborate stews and inexpensive theater. She works as has slate-blue scales, curled horns and a thick tail, and enjoys elaborate stews and inexpensive theater.\n\nAn adult dragonkin woman with white hair, in a high braided knot, and blue with vertical slit pupils eyes. A sturdy build, expressive brows and a practical layered coat. A human face, swept or curled horns, scaled cheekbones and backs of the arms, human palms and a thick tail.\n\n**Equipment:** She normally carries a hooked short sword, a small purse and the tools needed for the day’s work.\n\n- **Gender:** Female\n- **Age:** 72\n- **Species:** Dragonkin\n- **Role in faction:** Drakenspire curio dealer\n- **Magic affinity:** Water",
+    "visualDescription": "An adult dragonkin woman with white hair, in a high braided knot, and blue eyes with vertical slit pupils. A sturdy build, expressive brows and a practical layered coat. A human face, swept or curled horns, scaled cheekbones and backs of the arms, human palms and a thick tail.",
+    "basicInfo": "Shiori Takase has slate-blue scales, curled horns and a thick tail, and enjoys elaborate stews and inexpensive theater. She works as a Drakenspire curio dealer.\n\nAn adult dragonkin woman with white hair, in a high braided knot, and blue eyes with vertical slit pupils. A sturdy build, expressive brows and a practical layered coat. A human face, swept or curled horns, scaled cheekbones and backs of the arms, human palms and a thick tail.\n\n**Equipment:** She normally carries a hooked short sword, a small purse and the tools needed for the day’s work.\n\n- **Gender:** Female\n- **Age:** 72\n- **Species:** Dragonkin\n- **Role in faction:** Drakenspire curio dealer\n- **Magic affinity:** Water",
     "hiddenInfo": "**Private motive:** Wants to stop depending on clan suppliers who can ruin a month with one refusal.\n\n**What they conceal:** She buys suspect memorial goods when the margin is good and deliberately avoids questions that might make a profitable trade difficult.\n\n**Concealment and knowledge:** She admits very little of this to customers. People directly involved know their own part; a familiar face does not know the whole story.\n\n**Pressure point:** A seller identifying a family mark on something she has called an anonymous curio.\n\n**Relationships:** Koharu Mikazuki handles occasional discreet deliveries. They cooperate for profit and each checks the other’s count.\n\n**How it surfaces:** She taps a scale against a tooth before naming a price. A conversation about her actual work or the consequences of a recent choice can reveal more than a direct request for a confession.",
     "personality": [
       "**Core:** Wants to stop depending on clan suppliers who can ruin a month with one refusal.",
@@ -8745,7 +8745,7 @@
       "**Routine or Quirk:** Taps a scale against a tooth before naming a price."
     ],
     "abilities": [
-      "**Preferred Method:** Uses a hooked short sword with practiced control. her water workings serve her actual work; they defend an escape route and seek help rather than pretending her occupation grants overwhelming combat power.",
+      "**Preferred Method:** Uses a hooked short sword with practiced control. Her water workings serve her actual work; she defends an escape route and seeks help when outmatched.",
       "**Water Practice:** She uses learned water workings suited to her actual work and training.",
       "**Fighting Style:** She uses the available technique to protect a route, escape or call for help; prolonged combat is not the aim."
     ],
@@ -8763,8 +8763,8 @@
     "currentArea": "Redvein Mine - Surface Office",
     "gender": "male",
     "detailType": "detailed",
-    "visualDescription": "An adult dragonkin man with iron-gray hair, in a cropped crest, and green with vertical slit pupils eyes. A lean build, a thoughtful face and a neat fitted waistcoat. A human face, swept horns, russet-scaled cheekbones and backs of the arms, human palms and a thick tail.",
-    "basicInfo": "Genta Shishido has russet scales, swept horns and a thick tail, and raises stubborn goats with his spouse. He works as has russet scales, swept horns and a thick tail, and raises stubborn goats with his spouse.\n\nAn adult dragonkin man with iron-gray hair, in a cropped crest, and green with vertical slit pupils eyes. A lean build, a thoughtful face and a neat fitted waistcoat. A human face, swept horns, russet-scaled cheekbones and backs of the arms, human palms and a thick tail.\n\n**Equipment:** He normally carries a heavy climbing pick, a small purse and the tools needed for the day’s work.\n\n- **Gender:** Male\n- **Age:** 91\n- **Species:** Dragonkin\n- **Role in faction:** mine tally clerk\n- **Magic affinity:** Earth",
+    "visualDescription": "An adult dragonkin man with iron-gray hair, in a cropped crest, and green eyes with vertical slit pupils. A lean build, a thoughtful face and a neat fitted waistcoat. A human face, swept horns, russet-scaled cheekbones and backs of the arms, human palms and a thick tail.",
+    "basicInfo": "Genta Shishido has russet scales, swept horns and a thick tail, and raises stubborn goats with his spouse. He works as a mine tally clerk.\n\nAn adult dragonkin man with iron-gray hair, in a cropped crest, and green eyes with vertical slit pupils. A lean build, a thoughtful face and a neat fitted waistcoat. A human face, swept horns, russet-scaled cheekbones and backs of the arms, human palms and a thick tail.\n\n**Equipment:** He normally carries a heavy climbing pick, a small purse and the tools needed for the day’s work.\n\n- **Gender:** Male\n- **Age:** 91\n- **Species:** Dragonkin\n- **Role in faction:** mine tally clerk\n- **Magic affinity:** Earth",
     "hiddenInfo": "**Private motive:** Wants enough money to leave the mine office without his household discovering the missing stock.\n\n**What they conceal:** He has diverted mine stock and altered tallies, and is prepared to accuse a junior laborer if the shortage is traced.\n\n**Concealment and knowledge:** He admits very little of this to customers. People directly involved know their own part; a familiar face does not know the whole story.\n\n**Pressure point:** An independent physical count conducted while the junior workers are allowed to speak freely.\n\n**Relationships:** His spouse shares the goat-keeping; junior mine workers have learned how quickly his courtesy disappears when a tally is challenged.\n\n**How it surfaces:** He counts a column twice when he knows someone is watching. A conversation about his actual work or the consequences of a recent choice can reveal more than a direct request for a confession.",
     "personality": [
       "**Core:** Wants enough money to leave the mine office without his household discovering the missing stock.",
@@ -8776,7 +8776,7 @@
       "**Routine or Quirk:** Counts a column twice when he knows someone is watching."
     ],
     "abilities": [
-      "**Preferred Method:** Uses a heavy climbing pick with practiced control. his earth workings serve his actual work; they defend an escape route and seek help rather than pretending his occupation grants overwhelming combat power.",
+      "**Preferred Method:** Uses a heavy climbing pick with practiced control. His earth workings serve his actual work; he defends an escape route and seeks help when outmatched.",
       "**Earth Practice:** He uses learned earth workings suited to his actual work and training.",
       "**Fighting Style:** He uses the available technique to protect a route, escape or call for help; prolonged combat is not the aim."
     ],
@@ -8794,8 +8794,8 @@
     "currentArea": "Hearthmarket Square - Covered Arcade",
     "gender": "female",
     "detailType": "detailed",
-    "visualDescription": "An adult dragonkin woman with auburn hair, in a short practical braid, and gold with vertical slit pupils eyes. A curvy build, an alert smile and a handsome practical traveling jacket. A human face, swept or curled horns, scaled cheekbones and backs of the arms, human palms and a thick tail.",
-    "basicInfo": "Koharu Mikazuki has bronze scales, short swept horns and a thick tail, and loves racing, sewing and expensive boots. She works as has bronze scales, short swept horns and a thick tail, and loves racing, sewing and expensive boots.\n\nAn adult dragonkin woman with auburn hair, in a short practical braid, and gold with vertical slit pupils eyes. A curvy build, an alert smile and a handsome practical traveling jacket. A human face, swept or curled horns, scaled cheekbones and backs of the arms, human palms and a thick tail.\n\n**Equipment:** She normally carries a pair of short cutting blades, a small purse and the tools needed for the day’s work.\n\n- **Gender:** Female\n- **Age:** 58\n- **Species:** Dragonkin\n- **Role in faction:** courier and discreet fence\n- **Magic affinity:** Wind",
+    "visualDescription": "An adult dragonkin woman with auburn hair, in a short practical braid, and gold eyes with vertical slit pupils. A curvy build, an alert smile and a handsome practical traveling jacket. A human face, swept or curled horns, scaled cheekbones and backs of the arms, human palms and a thick tail.",
+    "basicInfo": "Koharu Mikazuki has bronze scales, short swept horns and a thick tail, and loves racing, sewing and expensive boots. She works as a courier.\n\nAn adult dragonkin woman with auburn hair, in a short practical braid, and gold eyes with vertical slit pupils. A curvy build, an alert smile and a handsome practical traveling jacket. A human face, swept or curled horns, scaled cheekbones and backs of the arms, human palms and a thick tail.\n\n**Equipment:** She normally carries a pair of short cutting blades, a small purse and the tools needed for the day’s work.\n\n- **Gender:** Female\n- **Age:** 58\n- **Species:** Dragonkin\n- **Role in faction:** courier and discreet fence\n- **Magic affinity:** Wind",
     "hiddenInfo": "**Private motive:** Wants to own a caravan rather than spend her life repairing someone else's mistakes.\n\n**What they conceal:** She has arranged for a defaulter’s cargo to be stolen and kept part of it as punishment beyond the debt.\n\n**Concealment and knowledge:** She admits very little of this to customers. People directly involved know their own part; a familiar face does not know the whole story.\n\n**Pressure point:** A courier producing proof that the supposedly independent thieves were following her directions.\n\n**Relationships:** Shiori Takase buys some discreet consignments. Their trust ends at the agreed goods, price and delivery.\n\n**How it surfaces:** She checks the stitching on a glove during an uncomfortable negotiation. A conversation about her actual work or the consequences of a recent choice can reveal more than a direct request for a confession.",
     "personality": [
       "**Core:** Wants to own a caravan rather than spend her life repairing someone else's mistakes.",
@@ -8807,7 +8807,7 @@
       "**Routine or Quirk:** Checks the stitching on a glove during an uncomfortable negotiation."
     ],
     "abilities": [
-      "**Preferred Method:** Uses a pair of short cutting blades with practiced control. her wind workings serve her actual work; they defend an escape route and seek help rather than pretending her occupation grants overwhelming combat power.",
+      "**Preferred Method:** Uses a pair of short cutting blades with practiced control. Her wind workings serve her actual work; she defends an escape route and seeks help when outmatched.",
       "**Wind Practice:** She uses learned wind workings suited to her actual work and training.",
       "**Fighting Style:** She uses the available technique to protect a route, escape or call for help; prolonged combat is not the aim."
     ],

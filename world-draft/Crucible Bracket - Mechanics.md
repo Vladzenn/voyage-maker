@@ -8,6 +8,8 @@ At the Eternal Crucible, explicitly register for an announced individual champio
 
 The initial draw is stored once. Repeating the request cannot reroll it. Other competitors eliminate one another, so later opponents emerge from the bracket rather than a preselected list of people who all fight the player. An entry closes on a genuine loss, explicit forfeit, championship victory or an administrative cancellation. The next title edition waits 100 completed engine ticks. Exhibitions remain separate and do not award title prizes or change this cooldown.
 
+The Conservatory discovery trigger uses possession of a championship trophy and Silver Web Portal Key at the Evertree Portal Room as internal progression evidence. Those objects do not combine, react or power the new arch in the fiction, and discovery consumes neither. The route becomes available as its own event. Its conditions and travel mechanics are unchanged; only the discovery narration and public hint were clarified.
+
 Conversation, spectating, resting and movement remain ordinary play. They do not automatically start a fight or withdraw an entry. Explicit readiness opens only the currently called bout. The fighter must actually be conscious and assessed, but need not have full resource bars. An unavailable opponent is replaced by a suitable unused competitor and announced before another readiness decision. If no replacement exists, the edition closes without inventing a fight or a trophy.
 
 ## What is exact and what is semantic

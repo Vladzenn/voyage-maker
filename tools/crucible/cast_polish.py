@@ -59,6 +59,21 @@ PAIRS = [
  ('Takeshi Onizuka','Reina Hazakura','They know one another from older competition circuits and occasionally share an orchard meal. She has heard his evasive version of the quarrel with his former traveling partner and does not mistake it for the full truth.'),
 ]
 
+def repair_public_prose(npcs):
+ """Repair the supporting-card template without rewriting character data."""
+ before=copy.deepcopy(npcs)
+ for row in SUPPORT:
+  name,role,life=row[0],row[8],row[9];n=npcs[name]
+  female=n['gender']=='female';sub='She' if female else 'He';poss='her' if female else 'his'
+  public_role='courier' if name=='Koharu Mikazuki' else role
+  article='an' if public_role[0].lower() in 'aeiou' else 'a'
+  n['basicInfo']=n['basicInfo'].replace(f'{sub} works as {life}.',f'{sub} works as {article} {public_role}.')
+  n['abilities']=[s.replace('. '+poss+' ','. '+poss.capitalize()+' ').replace('; they defend an escape route and seek help rather than pretending '+poss+' occupation grants overwhelming combat power.','; '+sub.lower()+' defends an escape route and seeks help when outmatched.') for s in n['abilities']]
+ for n in npcs.values():
+  for field in ['basicInfo','visualDescription']:
+   if field in n:n[field]=re.sub(r'\b([a-z-]+) with vertical slit pupils eyes\b',r'\1 eyes with vertical slit pupils',n[field])
+ return {name:[f for f in n if n[f]!=before[name].get(f)] for name,n in npcs.items() if n!=before[name]}
+
 def apply(world,incoming):
  before=copy.deepcopy(world['npcs']);world['npcs']=copy.deepcopy(incoming)
  assert set(before)==set(incoming),'Roster membership changed; review the merge first.'
@@ -79,7 +94,9 @@ def apply(world,incoming):
   if name=='Genta Shishido':visual=visual.replace('swept or curled horns','swept horns').replace('scaled cheekbones','russet-scaled cheekbones')
   n['visualDescription']=visual
   profile=n['basicInfo'].split('\n- **Gender:**',1)[-1]
-  n['basicInfo']=f'{name} {life}. '+(f'{sub} competes at the Crucible alongside {poss} ordinary work.' if i<32 else f'{sub} works as {row[9]}.')+'\n\n'+visual+f'\n\n**Equipment:** {sub} normally carries {weapon}, a small purse and '+('a compact work kit.' if i<32 else 'the tools needed for the day’s work.')+'\n\n- **Gender:**'+profile
+  public_role='courier' if name=='Koharu Mikazuki' else (role if i>=32 else '')
+  article='an' if public_role[:1].lower() in ['a','e','i','o','u'] else 'a'
+  n['basicInfo']=f'{name} {life}. '+(f'{sub} competes at the Crucible alongside {poss} ordinary work.' if i<32 else f'{sub} works as {article} {public_role}.')+'\n\n'+visual+f'\n\n**Equipment:** {sub} normally carries {weapon}, a small purse and '+('a compact work kit.' if i<32 else 'the tools needed for the day’s work.')+'\n\n- **Gender:**'+profile
   unnameds={
    'Kōta Mibu':'His aunt relies on his help at the tile counter; he has not explained how seriously he is considering an apprenticeship elsewhere.',
    'Daisuke Kariya':'He visits his father for weekly cards and has an uncomfortable unfinished apology to a newer dockworker.',
@@ -97,6 +114,7 @@ def apply(world,incoming):
   n['hiddenInfo']=f'**Private motive:** {motive.capitalize()}.\n\n**What they conceal:** {secret}\n\n**Concealment and knowledge:** {knowledge}\n\n**Pressure point:** {point}\n\n**Relationships:** {relationship}\n\n**How it surfaces:** {sub} {quirk}. A conversation about {poss} actual work or the consequences of a recent choice can reveal more than a direct request for a confession.'
   n['personality']=[f'**Core:** {motive.capitalize()}.',f'**Default behavior:** {sub} {life}. {sub} {flaw}.',f'**Under Pressure:** {pressure}',f'**Speaking Style:** {voice}',f'**Courtship Style:** {courtship}',f'**Jealousy Style:** {jealousy}',f'**Routine or Quirk:** {quirk.capitalize()}.']
   n['abilities']=[f'**Preferred Method:** {method[0].upper()+method[1:].rstrip(".")}.',f'**{primary} Practice:** {sub} uses learned {primary.lower()} workings suited to '+('the range and openings of this fighting method.' if i<32 else poss+' actual work and training.'),f'**Fighting Style:** '+(f'{sub} {method[0].lower()+method[1:].rstrip(".")}. In regulated bouts, the stopping signal ends the exchange.' if i<32 else f'{sub} uses the available technique to protect a route, escape or call for help; prolonged combat is not the aim.')]
+ repair_public_prose(world['npcs'])
  # Preserve every user portrait, stat, address, type, identity and affinity exactly.
  for name,n in world['npcs'].items():
   old=incoming[name]

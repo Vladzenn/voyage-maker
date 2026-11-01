@@ -1,6 +1,6 @@
 # Champions of the Crucible — design and implementation plan
 
-Planning edition 1.0 · 1 November 2026 · **Not implemented in the playable world.**
+Planning edition 1.1 · 1 November 2026 · **Not implemented in the playable world.**
 
 The aim is a repeatable sporting activity with memorable people and reliable endings. Its machinery must distinguish a real result from an attractive sentence about winning. This document supersedes the provisional Crucible chapter in the older seven-update blueprint. Names, cast concepts, counts beyond the approved fighter pool, and balance values below remain proposals.
 
@@ -75,7 +75,8 @@ storage.cc1 = {
   entrant, roster[], matches[], currentMatchId,
   registeredTick, closedTick, nextEligibleTick,
   champion, participantOutcome, payoutStatus,
-  recoveryForMatch, originalPlacements[], history[]
+  recoveryForMatch, originalPlacements[], history[],
+  settlementsByEdition{}, treatmentByAttempt{}
 }
 
 match = {
@@ -180,7 +181,8 @@ RECONCILE_CURRENT_MATCH(observation):
     if required actor data is missing: enter REVIEW; return
 
     # Current native evidence outranks narrator celebration.
-    if both contestants actually incapacitated: enter MEDICAL_REVIEW; return
+    if both contestants actually incapacitated: enter REVIEW with medical reason; return
+    if terminal observations conflict or their ordering is unknown: enter REVIEW; return
     if entrant actually incapacitated: outcome := OPPONENT_WIN
     else if current opponent actually incapacitated: outcome := ENTRANT_WIN
     else if verified entrant surrender/forfeit: outcome := OPPONENT_WIN
@@ -221,6 +223,8 @@ PREPARE_NEXT_MATCH:
 Do not let a native defeat check and a semantic surrender check settle the same match separately. Both feed the same guarded settlement operation. The serial and result marker prevent a scene from replaying that operation; tests must also cover duplicate observations in one tick. A review is a held current match, not another final appended to the bracket.
 
 An authorized replay gets a new attempt serial while preserving the stopped attempt's reason. It does not erase a verified defeat. A replay's medical entitlement and any fee adjustment explicitly refer to that new attempt, preventing an old treatment marker from blocking legitimate care or being reused for unlimited healing.
+
+Unclaimed prizes and medical entitlements survive closure in `settlementsByEdition` and `treatmentByAttempt`, keyed by edition and attempt respectively. Starting another edition replaces only the active competition record, not those obligations. A loser still receives ordinary knockout care even though their title run has closed. Evidence sufficient to confirm one award must not be inferred from an unrelated later trophy in inventory.
 
 ### Nonlethal prototype: the main release risk
 
@@ -418,3 +422,38 @@ Run local fixtures against the actual emitted scripts, then manually repeat crit
 A fresh ordinary character can voluntarily enter, understand the field, complete or leave an edition, receive the correct outcome and return later without a stale final. Named people remain recognizable after losing. The new dungeon opens through the requested carried objects, offers an actual independent adventure and returns to the Evertree hub. The remaining bundles improve choice without weakening those guarantees.
 
 No claim of “flawless” implementation follows from this plan. The specific unresolved risks are native-Permadeath nonlethal behavior, same-turn defeat ordering, precise resource filling and individual targeting in multiplayer. Resolve them in the prototype or state the supported release scope honestly.
+
+## Pre-implementation failure audit — 1 November 2026
+
+**Verdict:** ready to implement the competition prototype and then the package; not yet verified for release. This is a design audit, not an executed Crucible test suite. No tournament controller or new fighters have been added to the canonical world.
+
+The review corrected three planning gaps: terminal observations must be reconciled before selecting a winner; double incapacity uses the already defined `review` phase rather than a phantom `MEDICAL_REVIEW` phase; and unclaimed prizes/treatment must survive edition replacement. The original plan already required review and durable awards in prose, but the proposed data shape and pseudocode did not express them adequately.
+
+### Additional edge rules to implement
+
+- **Same-turn win and departure:** if the result was already committed before departure, keep it. If observation ordering is uncertain, review the current attempt; never choose victory just because the opponent's Health check was evaluated first. Voluntary withdrawal, forced relocation and a routine area change need their real causes distinguished.
+- **No stuck review:** a referee checks the available evidence. A verified result settles; genuinely insufficient evidence produces an explicit no-contest and a proposed replay, or cancellation if a legal replay is impossible. No automatic player win. A replay still needs consent and readiness; unresolved review must not silently append a second final.
+- **Defeat recovery outside the venue:** normal knockout recovery may move the player before the competition sees the zero-Health state. Capture the result in the appropriate phase, or reconcile the actual latest defeat scene. Do not mistake recovery placement for voluntary withdrawal, lose the medical entitlement, or award a win from subsequently restored Health.
+- **Wrong-fight evidence:** lounge brawls, a summon falling, another contestant's offscreen match and a spectator's wounds cannot settle the registered entrant's bout. Every observation must match the current participants and attempt.
+- **Growth after registration:** gaining a level or changing equipment does not regenerate the seeded bracket. Published equipment rules still apply; original opponent levels remain fixed. A party member joining or leaving cannot silently replace the registered entrant.
+- **Opponent becomes unavailable:** recheck eligibility before the bell. A living busy opponent can withdraw officially; a missing record cannot be treated as defeated. Death or a real crisis can require cancellation or an official walkover under announced rules, never resurrection for the schedule.
+- **Actor reservations:** touring and normal schedules must honor a real tournament commitment. Release that reservation after the edition; do not blindly teleport someone back to a stale original placement, remove their independent party membership, or try to move a downed actor.
+- **Crash/resume:** duplicate observations cannot repeat advancement, payment or treatment. Uncertain payout dispatch goes to review rather than automatic re-payment. No unsupported transaction guarantee is claimed.
+- **Existing saves:** initialize the new namespace only if absent; retain versioned active editions and outstanding obligations after reload. The eventual implementation needs an explicit migration/cancellation rule for a save made during an older controller version, not an unconditional reset on room entry.
+- **Finite summons and interference:** the entrant's own legal technique cannot be misclassified as outside help. Conversely, a companion becoming a registered summon in prose does not grant a new legal actor or extra actions. Actual intervention requires a referee decision and can interrupt the bout.
+- **Portal discovery:** allow a calm reveal to wait until transit/combat interruption has cleared. Revealing never crosses the portal, consumes the trophy/key, or modifies the existing Spider Realm. The same-player possession check is a multiplayer test requirement, not an assumption.
+
+### Evidence required before release
+
+| Check | Present status | Required evidence |
+|---|---|---|
+| Result/withdrawal/review logic | Specified; not implemented | Fixtures against emitted scripts, including conflicting observations and repeat callbacks |
+| Bracket closure, eliminated roster and cooldown | Specified; not implemented | Win/loss/withdrawal paths, +99/+100 tick boundaries, no new final after closure |
+| Outstanding prizes and medical care | Data shape corrected; not implemented | Next edition and reload preserve old unpaid/untreated obligations without duplicating them |
+| Regulated nonlethal combat | Intended; not proven | Live normal and native-Permadeath bouts, including a high-damage finishing exchange |
+| Full resource recovery | Intended; precise fill behavior unverified | Live character with level and trait modifiers; no cap increase or repeated grant |
+| Individual multiplayer targeting | Intended; not proven | Spectator damage, recipient checks, simultaneous registration and split inventories |
+| New portal and old anomaly coexistence | Designed; no new route implemented | Real discovery/crossing/return; unchanged Spider Realm fingerprints |
+| NPC count and opponent variety | Approved scope; not generated | Candidate-coverage audit before selecting four/eight entrants |
+
+The first implementation slice should therefore establish result capture, nonlethal behavior and full recovery with a small fixed card. Building all thirty-two portraits first would not resolve these mechanical uncertainties. The final output may still be one complete merged update; the build and verification should proceed in stages.

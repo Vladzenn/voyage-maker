@@ -3,7 +3,8 @@
     "name": "Mark",
     "category": "Currency",
     "description": "One unit of Glowhaven currency. Quotes, wages, and debts use marks. An item payout and a displayed money total describe the same holdings, never two separate payments.",
-    "bonuses": []
+    "bonuses": [],
+    "needsMediaGeneration": false
   },
   "Packed Lunch": {
     "name": "Packed Lunch",
@@ -457,7 +458,7 @@
     "tier": "mundane",
     "estimatedValue": 75,
     "slot": "weapon",
-    "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/generated_content/0/images/item_images/d6d42357-e45f-41d3-806a-950c52149ad5.png"
+    "imageUrl": ""
   },
   "Copperleaf Cutlass": {
     "name": "Copperleaf Cutlass",
@@ -553,7 +554,7 @@
     "tier": "artisan",
     "estimatedValue": 220,
     "slot": "weapon",
-    "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/generated_content/0/images/item_images/99264ced-b875-4862-8756-5fa4cb2d1935.png"
+    "imageUrl": ""
   },
   "Three-Ring Estoc": {
     "name": "Three-Ring Estoc",
@@ -649,7 +650,7 @@
     "tier": "artisan",
     "estimatedValue": 490,
     "slot": "weapon",
-    "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/generated_content/0/images/item_images/67eb76eb-ef02-478b-b815-5a5f3f35171b.png"
+    "imageUrl": ""
   },
   "The Red Horizon": {
     "name": "The Red Horizon",
@@ -730,7 +731,7 @@
     "tier": "artisan",
     "estimatedValue": 240,
     "slot": "weapon",
-    "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/generated_content/0/images/item_images/4df2b4e5-d1d9-463d-8907-b681ff8cf4ee.png"
+    "imageUrl": ""
   },
   "The Apologetic Knife": {
     "name": "The Apologetic Knife",
@@ -841,7 +842,7 @@
     "tier": "mundane",
     "estimatedValue": 40,
     "slot": "weapon",
-    "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/generated_content/0/images/item_images/068592f9-117f-40f6-a883-3423aedf5823.png"
+    "imageUrl": ""
   },
   "Ferrywatch Spear": {
     "name": "Ferrywatch Spear",
@@ -1022,7 +1023,7 @@
     "tier": "artisan",
     "estimatedValue": 310,
     "slot": "weapon",
-    "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/generated_content/0/images/item_images/96810c27-7307-4a23-988f-54ace54fd2e7.png"
+    "imageUrl": ""
   },
   "Widow's Promise": {
     "name": "Widow's Promise",
@@ -1193,7 +1194,7 @@
     "tier": "special",
     "estimatedValue": 1600,
     "slot": "weapon",
-    "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/generated_content/0/images/item_images/68e8fa2d-0e20-4a16-a0c7-08add6baa1a2.png"
+    "imageUrl": ""
   },
   "Yew Hunting Bow": {
     "name": "Yew Hunting Bow",
@@ -1404,7 +1405,7 @@
     "tier": "artisan",
     "estimatedValue": 390,
     "slot": "weapon",
-    "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/generated_content/0/images/item_images/c3dcda2f-3029-4b22-9b7c-d3f5e7b10915.png"
+    "imageUrl": ""
   },
   "The Rain-Hating Staff": {
     "name": "The Rain-Hating Staff",
@@ -1515,7 +1516,7 @@
     "tier": "mundane",
     "estimatedValue": 40,
     "slot": "weapon",
-    "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/generated_content/0/images/item_images/46c3548a-c056-4352-99ab-7fc747927414.png"
+    "imageUrl": ""
   },
   "Ribbonsteel Lash": {
     "name": "Ribbonsteel Lash",
@@ -1551,7 +1552,7 @@
     "tier": "artisan",
     "estimatedValue": 360,
     "slot": "weapon",
-    "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/generated_content/0/images/item_images/37c57096-58fa-4d04-8d9e-233fa081a40d.png"
+    "imageUrl": ""
   },
   "Violet Reprimand": {
     "name": "Violet Reprimand",
@@ -1587,7 +1588,7 @@
     "tier": "mundane",
     "estimatedValue": 100,
     "slot": "weapon",
-    "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/generated_content/0/images/item_images/ea21f119-27d2-4248-87d4-f71c29ef4202.png"
+    "imageUrl": ""
   },
   "Brassguard Twinblade": {
     "name": "Brassguard Twinblade",
@@ -1608,7 +1609,7 @@
     "tier": "artisan",
     "estimatedValue": 250,
     "slot": "weapon",
-    "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/generated_content/0/images/item_images/5c6cfe81-f0c2-41c5-81d9-7afee6675e33.png"
+    "imageUrl": ""
   },
   "Snowwheel Twinblade": {
     "name": "Snowwheel Twinblade",
@@ -1689,7 +1690,7 @@
     "tier": "artisan",
     "estimatedValue": 115,
     "slot": "weapon",
-    "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/generated_content/0/images/item_images/d4046321-b51c-4ebc-9408-61ad68f3ed54.png"
+    "imageUrl": ""
   },
   "Stonebrace Gauntlets": {
     "name": "Stonebrace Gauntlets",
@@ -1770,7 +1771,7 @@
     "tier": "artisan",
     "estimatedValue": 190,
     "slot": "weapon",
-    "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/generated_content/0/images/item_images/4d929d67-5bc3-46cf-aafc-ea6aba2dcf43.png"
+    "imageUrl": ""
   },
   "Riveted Tower Shield": {
     "name": "Riveted Tower Shield",
@@ -1946,7 +1947,7 @@
     "tier": "artisan",
     "estimatedValue": 440,
     "slot": "weapon",
-    "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/generated_content/0/images/item_images/4c630e4d-ff79-4675-8b2d-19fed27c613a.png"
+    "imageUrl": ""
   },
   "The Undertaker's Compliment": {
     "name": "The Undertaker's Compliment",
@@ -5134,5 +5135,563 @@
     "tier": "special",
     "estimatedValue": 900,
     "bonuses": []
+  },
+  "Iron-Ring Slingshot": {
+    "name": "Iron-Ring Slingshot",
+    "description": "A forked hardwood frame with a stout elastic band and a small pouch of smooth stones. Its fittings are easy to replace.",
+    "category": "Weapon",
+    "tier": "mundane",
+    "estimatedValue": 25,
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "value": 1
+      }
+    ],
+    "slot": "weapon"
+  },
+  "Shepherd's Sling": {
+    "name": "Shepherd's Sling",
+    "description": "A woven sling with a broad leather cradle, rolled beside a little bag of rounded shot.",
+    "category": "Weapon",
+    "tier": "mundane",
+    "estimatedValue": 18,
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "value": 1
+      }
+    ],
+    "slot": "weapon"
+  },
+  "Plain Throwing Javelins": {
+    "name": "Plain Throwing Javelins",
+    "description": "Three light ash javelins carried in a narrow leather quiver. Each has a simple pointed steel head.",
+    "category": "Weapon",
+    "tier": "mundane",
+    "estimatedValue": 55,
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Force Combat",
+        "value": 1
+      }
+    ],
+    "slot": "weapon"
+  },
+  "Courier's Throwing Knives": {
+    "name": "Courier's Throwing Knives",
+    "description": "A fitted roll of four balanced throwing knives with plain cord-wrapped grips.",
+    "category": "Weapon",
+    "tier": "mundane",
+    "estimatedValue": 55,
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "value": 1
+      }
+    ],
+    "slot": "weapon"
+  },
+  "Steel Throwing Ring": {
+    "name": "Steel Throwing Ring",
+    "description": "A flat steel throwing ring with a wrapped section for a safe grip and a sharpened outer edge.",
+    "category": "Weapon",
+    "tier": "mundane",
+    "estimatedValue": 50,
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "value": 1
+      }
+    ],
+    "slot": "weapon"
+  },
+  "Carved Returning Club": {
+    "name": "Carved Returning Club",
+    "description": "A curved hardwood throwing club fitted to a practiced returning throw. A struck target, poor release or obstruction can interrupt its return.",
+    "category": "Weapon",
+    "tier": "mundane",
+    "estimatedValue": 35,
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "value": 1
+      }
+    ],
+    "slot": "weapon"
+  },
+  "Reed Blowpipe": {
+    "name": "Reed Blowpipe",
+    "description": "A polished reed blowpipe and a small capped dart case. The darts are unpoisoned.",
+    "category": "Weapon",
+    "tier": "mundane",
+    "estimatedValue": 35,
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "value": 1
+      }
+    ],
+    "slot": "weapon"
+  },
+  "Ironwood Tonfa Pair": {
+    "name": "Ironwood Tonfa Pair",
+    "description": "Two ironwood side-handled batons with reinforced ends and smooth turning grips.",
+    "category": "Weapon",
+    "tier": "mundane",
+    "estimatedValue": 65,
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Guarded Combat",
+        "value": 1
+      }
+    ],
+    "slot": "weapon"
+  },
+  "Blunt Practice Nunchaku": {
+    "name": "Blunt Practice Nunchaku",
+    "description": "Two short hardwood batons joined by a sturdy cord, with padded practice sleeves stored beside them.",
+    "category": "Weapon",
+    "tier": "mundane",
+    "estimatedValue": 35,
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "value": 1
+      }
+    ],
+    "slot": "weapon"
+  },
+  "Three-Section Ironwood Staff": {
+    "name": "Three-Section Ironwood Staff",
+    "description": "Three ironwood lengths joined by short chains. Small inset steel collars protect the joints.",
+    "category": "Weapon",
+    "tier": "artisan",
+    "estimatedValue": 190,
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "value": 2
+      }
+    ],
+    "slot": "weapon"
+  },
+  "Plain Kusarigama": {
+    "name": "Plain Kusarigama",
+    "description": "A short curved sickle joined to a weighted chain. The wooden grip has a plain leather wrist loop.",
+    "category": "Weapon",
+    "tier": "mundane",
+    "estimatedValue": 85,
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "value": 1
+      }
+    ],
+    "slot": "weapon"
+  },
+  "Crossguard Sai Pair": {
+    "name": "Crossguard Sai Pair",
+    "description": "Two unsharpened steel sai with broad side prongs and tightly wrapped grips.",
+    "category": "Weapon",
+    "tier": "mundane",
+    "estimatedValue": 70,
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Guarded Combat",
+        "value": 1
+      }
+    ],
+    "slot": "weapon"
+  },
+  "Iron Hook Sword Pair": {
+    "name": "Iron Hook Sword Pair",
+    "description": "Two short hooked swords with crescent guards and fitted traveling covers for the exposed hooks.",
+    "category": "Weapon",
+    "tier": "artisan",
+    "estimatedValue": 210,
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "value": 2
+      }
+    ],
+    "slot": "weapon"
+  },
+  "Stonebreaker War Pick": {
+    "name": "Stonebreaker War Pick",
+    "description": "A compact steel war pick with a blunt hammer face opposite the point and a heavy ash handle.",
+    "category": "Weapon",
+    "tier": "mundane",
+    "estimatedValue": 75,
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Force Combat",
+        "value": 1
+      }
+    ],
+    "slot": "weapon"
+  },
+  "Dockside Trident": {
+    "name": "Dockside Trident",
+    "description": "A stout ash pole carrying three narrow steel tines. A cord wrapping gives its long grip a reliable purchase.",
+    "category": "Weapon",
+    "tier": "mundane",
+    "estimatedValue": 70,
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Force Combat",
+        "value": 1
+      }
+    ],
+    "slot": "weapon"
+  },
+  "Marching Pike": {
+    "name": "Marching Pike",
+    "description": "A long straight pike whose narrow steel point is protected by a plain traveling cap. It is cumbersome in a crowded room.",
+    "category": "Weapon",
+    "tier": "mundane",
+    "estimatedValue": 65,
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Force Combat",
+        "value": 1
+      }
+    ],
+    "slot": "weapon"
+  },
+  "Broadleaf Partisan": {
+    "name": "Broadleaf Partisan",
+    "description": "A broad spear point with short side lugs mounted on a reinforced wooden shaft.",
+    "category": "Weapon",
+    "tier": "mundane",
+    "estimatedValue": 90,
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Guarded Combat",
+        "value": 1
+      }
+    ],
+    "slot": "weapon"
+  },
+  "Long-Haft Bardiche": {
+    "name": "Long-Haft Bardiche",
+    "description": "A long curved axe blade fixed to an ash shaft at two points, with a leather sleeve below its balance.",
+    "category": "Weapon",
+    "tier": "artisan",
+    "estimatedValue": 180,
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Force Combat",
+        "value": 2
+      }
+    ],
+    "slot": "weapon"
+  },
+  "Splitguard Swordstaff": {
+    "name": "Splitguard Swordstaff",
+    "description": "A short straight blade set at the end of a long ironwood grip, with a crosspiece protecting the leading hand.",
+    "category": "Weapon",
+    "tier": "artisan",
+    "estimatedValue": 160,
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Force Combat",
+        "value": 2
+      }
+    ],
+    "slot": "weapon"
+  },
+  "Patrol Catchpole": {
+    "name": "Patrol Catchpole",
+    "description": "A stout pole ending in a springless hooked restraint head with blunt inner edges.",
+    "category": "Weapon",
+    "tier": "mundane",
+    "estimatedValue": 80,
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Guarded Combat",
+        "value": 1
+      }
+    ],
+    "slot": "weapon"
+  },
+  "Reinforced Parrying Cape": {
+    "name": "Reinforced Parrying Cape",
+    "description": "A weighted cloth cape with a reinforced edge and a secure hand strap for practiced parries.",
+    "category": "Weapon",
+    "tier": "mundane",
+    "estimatedValue": 45,
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Guarded Combat",
+        "value": 1
+      }
+    ],
+    "slot": "weapon"
+  },
+  "Lantern Buckler": {
+    "name": "Lantern Buckler",
+    "description": "A small riveted buckler with a shuttered lantern bracket. The ordinary oil lamp can be detached for maintenance.",
+    "category": "Weapon",
+    "tier": "artisan",
+    "estimatedValue": 145,
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 15
+      }
+    ],
+    "slot": "weapon"
+  },
+  "Ironspine Fighting Umbrella": {
+    "name": "Ironspine Fighting Umbrella",
+    "description": "A sturdy umbrella with an ironwood shaft, reinforced ribs and a blunt steel ferrule. Its fabric still keeps off ordinary rain.",
+    "category": "Weapon",
+    "tier": "mundane",
+    "estimatedValue": 95,
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Guarded Combat",
+        "value": 1
+      }
+    ],
+    "slot": "weapon"
+  },
+  "Banner-Head Spear": {
+    "name": "Banner-Head Spear",
+    "description": "A balanced steel-tipped spear with a narrow removable cloth pennant beneath its socket. The pennant bears no institutional claim.",
+    "category": "Weapon",
+    "tier": "mundane",
+    "estimatedValue": 90,
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Force Combat",
+        "value": 1
+      }
+    ],
+    "slot": "weapon"
+  },
+  "Silver-Nib Casting Pen": {
+    "name": "Silver-Nib Casting Pen",
+    "description": "A durable silver-nib pen with a mana-bearing core and an ordinary refillable ink reservoir.",
+    "category": "Tool",
+    "tier": "artisan",
+    "estimatedValue": 140,
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "spellcraft",
+        "value": 1
+      }
+    ],
+    "slot": "tool"
+  },
+  "Amber Counting Abacus": {
+    "name": "Amber Counting Abacus",
+    "description": "A compact abacus whose mana-bearing amber beads move on polished brass wires.",
+    "category": "Tool",
+    "tier": "artisan",
+    "estimatedValue": 170,
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "spellcraft",
+        "value": 1
+      }
+    ],
+    "slot": "tool"
+  },
+  "Hollowbone Casting Flute": {
+    "name": "Hollowbone Casting Flute",
+    "description": "A small carefully tuned flute with a mana-bearing bone body and a plain traveling case.",
+    "category": "Tool",
+    "tier": "artisan",
+    "estimatedValue": 135,
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Sound Magic",
+        "value": 1
+      }
+    ],
+    "slot": "tool"
+  },
+  "Knotted Focus Cord": {
+    "name": "Knotted Focus Cord",
+    "description": "A braided mana-bearing cord with distinct knots that can support a practiced casting sequence.",
+    "category": "Tool",
+    "tier": "mundane",
+    "estimatedValue": 50,
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "spellcraft",
+        "value": 1
+      }
+    ],
+    "slot": "tool"
+  },
+  "Pressed-Leaf Grimoire": {
+    "name": "Pressed-Leaf Grimoire",
+    "description": "A compact teaching grimoire bound in green cloth, its stiff pages holding carefully preserved pressed leaves.",
+    "category": "Tool",
+    "tier": "mundane",
+    "estimatedValue": 85,
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "spellcraft",
+        "value": 1
+      }
+    ],
+    "slot": "tool"
+  },
+  "Palm-Sized Crystal Focus": {
+    "name": "Palm-Sized Crystal Focus",
+    "description": "A clear mana-bearing crystal resting in a simple protective wire cradle. A cloth pouch protects its facets.",
+    "category": "Tool",
+    "tier": "mundane",
+    "estimatedValue": 90,
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "spellcraft",
+        "value": 1
+      }
+    ],
+    "slot": "tool"
+  },
+  "Copper Tuning Chime": {
+    "name": "Copper Tuning Chime",
+    "description": "A small tuned copper chime with a mana-bearing suspension bead and a soft wooden striker.",
+    "category": "Tool",
+    "tier": "mundane",
+    "estimatedValue": 65,
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Sound Magic",
+        "value": 1
+      }
+    ],
+    "slot": "tool"
+  },
+  "Painted Casting Cards": {
+    "name": "Painted Casting Cards",
+    "description": "A fitted deck of reinforced mana-bearing cards with abstract colored patterns and plain ivory backs.",
+    "category": "Tool",
+    "tier": "mundane",
+    "estimatedValue": 75,
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "spellcraft",
+        "value": 1
+      }
+    ],
+    "slot": "tool"
+  },
+  "Waxed Field Notebook": {
+    "name": "Waxed Field Notebook",
+    "description": "A slim notebook with waxed outer covers and a fold-over flap to protect fresh notes from rain.",
+    "category": "Tool",
+    "tier": "mundane",
+    "estimatedValue": 15,
+    "bonuses": [],
+    "slot": "tool"
+  },
+  "Pocket Tea Strainer": {
+    "name": "Pocket Tea Strainer",
+    "description": "A small metal tea strainer that folds into a fitted traveling cup.",
+    "category": "Tool",
+    "tier": "mundane",
+    "estimatedValue": 12,
+    "bonuses": [],
+    "slot": "tool"
+  },
+  "Quick-Release Rope Harness": {
+    "name": "Quick-Release Rope Harness",
+    "description": "A practical rope harness with clear locking buckles, inspected stitching and an ordinary release tab.",
+    "category": "Tool",
+    "tier": "mundane",
+    "estimatedValue": 40,
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "athletics",
+        "value": 1
+      }
+    ],
+    "slot": "tool"
+  },
+  "Foldflat Specimen Basket": {
+    "name": "Foldflat Specimen Basket",
+    "description": "A lightweight specimen basket that folds flat when its wooden braces are released.",
+    "category": "Tool",
+    "tier": "mundane",
+    "estimatedValue": 25,
+    "bonuses": [],
+    "slot": "tool"
+  },
+  "Rain-Counting Brooch": {
+    "name": "Rain-Counting Brooch",
+    "description": "A small cloud-shaped brooch that darkens when ordinary rain is near and fades as the air dries.",
+    "category": "Armor",
+    "tier": "special",
+    "estimatedValue": 260,
+    "bonuses": [],
+    "slot": "Accessories"
+  },
+  "Polite Kettle Bell": {
+    "name": "Polite Kettle Bell",
+    "description": "A tiny enchanted bell that gives a discreet chime when the nearby kettle reaches a boil.",
+    "category": "Tool",
+    "tier": "special",
+    "estimatedValue": 180,
+    "bonuses": [],
+    "slot": "tool"
+  },
+  "Sleepless Lantern Moth": {
+    "name": "Sleepless Lantern Moth",
+    "description": "A brass lantern shaped like a moth. Its enchanted wings open slowly as the lamp warms, casting patterned shadows.",
+    "category": "Tool",
+    "tier": "special",
+    "estimatedValue": 320,
+    "bonuses": [],
+    "slot": "tool"
+  },
+  "The Unhelpful Compass": {
+    "name": "The Unhelpful Compass",
+    "description": "A fine brass compass whose enchanted needle persistently points toward the nearest large concentration of sugar.",
+    "category": "Tool",
+    "tier": "special",
+    "estimatedValue": 350,
+    "bonuses": [],
+    "slot": "tool"
   }
 }

@@ -33,13 +33,16 @@ for name,npc in cards.items():
 with (DRAFT/'Adventurers of Glowhaven - Cast Rebalance.csv').open('w',encoding='utf-8-sig',newline='') as handle:
     writer=csv.DictWriter(handle,fieldnames=['name','old','new','tier']);writer.writeheader();writer.writerows(m['levelChanges'])
 native=copy.deepcopy(w)
+mode=next((name for name in ['💀 Permadeath Mode','💀 Ironman Mode'] if name in native['gameModes']),None)
+assert mode, 'Expected the current solo permanent-death mode'
 native['death']['permadeath']=True
 native['death']['instructions']='This separate solo Ironman world uses native permanent death. After the sole player actually dies, give a brief final epilogue grounded in established people and choices. No routine resurrection, knockout return or invented final words. Ordinary nonlethal practice and actual capture remain their real outcomes rather than an invented death. Never invoke death for empty Mana or Stamina.'
-native['gameModes']={'💀 Ironman Mode':native['gameModes']['💀 Ironman Mode']}
-native['gameModes']['💀 Ironman Mode']['description']='Native permanent death. Start this separate world solo: one life, with no ordinary return after a genuine lethal defeat. All other Adventurers of Glowhaven content is included.'
-write(OUT/'Adventurers of Glowhaven - Native Ironman - Solo.json',native)
+native['gameModes']={mode:native['gameModes'][mode]}
+native['gameModes'][mode]['description']='Native permanent death. Start this separate world solo: one life, with no ordinary return after a genuine lethal defeat. All other current world content is included.'
+native_path=OUT/('Adventurers of Glowhaven - Native Permadeath - Solo.json' if 'Permadeath' in mode else 'Adventurers of Glowhaven - Native Ironman - Solo.json')
+write(native_path,native)
 with zipfile.ZipFile(OUT/'Adventurers of Glowhaven - Portraits.zip','w',compression=zipfile.ZIP_DEFLATED,compresslevel=5) as bundle:
     for name in m['npcs']:bundle.write(DRAFT/'npc portraits'/(name+'.png'),arcname=name+'.png')
 shutil.copyfile(DRAFT/'Adventurers of Glowhaven - Patch Notes.md',OUT/'Patch Notes.md')
-print(json.dumps({'world':str(release),'nativeIronman':str(OUT/'Adventurers of Glowhaven - Native Ironman - Solo.json'),
+print(json.dumps({'world':str(release),'nativePermadeath':str(native_path),
                  'portraits':str(OUT/'Adventurers of Glowhaven - Portraits.zip'),'newCards':str(OUT/'New Character Cards.json')},ensure_ascii=False))

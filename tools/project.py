@@ -71,7 +71,7 @@ def validate():
         if not ok:
             errors.append(label)
 
-    for section in ['npcs', 'itemTypes', 'abilities', 'traits', 'triggerDefinitions', 'storyStarts']:
+    for section in ['npcs', 'itemTypes', 'abilities', 'traits', 'triggerDefinitions', 'storyStarts', 'gameModes', 'traitCategories']:
         for key, value in w[section].items():
             ck(key == value.get('name'), f'{section}/{key}: key/name mismatch')
         ck(len({key.casefold().strip() for key in w[section]}) == len(w[section]),
@@ -89,6 +89,28 @@ def validate():
 
     refs = {'resource': w['resourceSettings'], 'skill': w['skills'],
             'attribute': w['attributeSettings']['attributeNames'], 'stat': ['damage', 'armor']}
+    ck(units(compact(w['traits'])) <= 1750000, 'Trait collection exceeds 1,750,000 characters')
+    ck(units(compact(w['traitCategories'])) <= 100000, 'Trait categories exceed 100,000 characters')
+    for name, trait in w['traits'].items():
+        ck(units(trait.get('description', '') + trait.get('traitNarrativeEffects', '')) <= 6000,
+           f'Trait text cap: {name}')
+        ck(len(trait.get('requirements', [])) <= 10, f'Trait requirement count: {name}')
+        for field in ['attributes', 'skills', 'resources', 'startingItems', 'abilities', 'unlockedBy', 'excludedBy', 'requirements']:
+            ck(isinstance(trait.get(field), list), f'Trait required array: {name}/{field}')
+        for field, target, key in [('attributes', refs['attribute'], 'attribute'), ('skills', w['skills'], 'skill'), ('resources', w['resourceSettings'], 'resource'), ('startingItems', w['itemTypes'], 'item')]:
+            for entry in trait.get(field, []):
+                ck(entry.get(key) in target, f'Trait reference: {name}/{field}/{entry.get(key)}')
+        for ability in trait.get('abilities', []):
+            ck(ability in w['abilities'], f'Trait ability reference: {name}/{ability}')
+        for field in ['unlockedBy', 'excludedBy']:
+            for key in trait.get(field, []):
+                ck(key in w['traits'] or key in w['storyStarts'], f'Trait gate reference: {name}/{key}')
+    for name, category in w['traitCategories'].items():
+        ck(0 <= category.get('maxSelections', -1) <= 40, f'Creation selection limit: {name}')
+        ck(isinstance(category.get('traits'), list), f'Category required traits: {name}')
+        for group in [category] + category.get('subcategories', []):
+            for key in group.get('traits', []):
+                ck(key in w['traits'], f'Category trait reference: {name}/{key}')
     for key, item in w['itemTypes'].items():
         ck(item['category'] in w['itemSettings']['itemCategories'], f'Item category: {key}')
         ck(units(item['description']) <= 4000, f'Item description cap: {key}')
@@ -212,6 +234,8 @@ def publish(message):
     subprocess.run(['node', str(ROOT / 'tools/test_item_mechanics.cjs')], cwd=ROOT, check=True)
     if (ROOT / 'tools/test_adventurers.cjs').exists():
         subprocess.run(['node', str(ROOT / 'tools/test_adventurers.cjs')], cwd=ROOT, check=True)
+    if (ROOT / 'tools/test_creation.cjs').exists():
+        subprocess.run(['node', str(ROOT / 'tools/test_creation.cjs')], cwd=ROOT, check=True)
     changed, index = asset_changes()
     if changed:
         write_json(INDEX, index)

@@ -8,6 +8,8 @@ Aim for about 150–250 words for a major update and 60–130 for a small patch.
 
 State what actually shipped. Include the main feature, useful creation/start changes and visible fixes. Mention an important scope restriction plainly, such as solo-only automatic custody. Preserve mystery rather than publishing an encounter's hidden condition or the easiest exploit.
 
+Honor any explicit “don't mention” instructions for a release. Record those implemented details in private development notes instead. Do not imply that a deferred engine investigation is a shipped fix merely because it was bundled into the work request.
+
 Do not include trigger IDs, storage keys, counters, schema limits, JSON paths, fixture counts, source hashes, internal drafting history, or speculative future features. Do not say “flawless,” “fully tested,” “fixed all bugs,” or claim live testing that did not happen. Do not repeat prior soundtrack or balance changes merely because the newest source contains them.
 
 Keep bullets parallel and readable. Emojis identify groups rather than decorate every sentence. Avoid a full NPC roster, exact menu inventory, legal code or exhaustive list of edge cases. Public patch notes are an invitation to play, not the implementation manual.

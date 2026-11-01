@@ -3,6 +3,8 @@ const fs=require('fs'),path=require('path'),vm=require('vm'),assert=require('ass
 const root=path.resolve(__dirname,'..');
 const world=JSON.parse(fs.readFileSync(process.argv[2]||path.join(root,'world-draft','WorldAlpha - World.json'),'utf8'));
 const manifest=JSON.parse(fs.readFileSync(path.join(__dirname,'adventurers','manifest.json'),'utf8'));
+// The user renamed this existing event in Studio; preserve the new identity.
+manifest.triggers=manifest.triggers.map(k=>k==='ad34_ironman_final_outcome'&&world.triggerDefinitions.ad34_permadeath_final_outcome?'ad34_permadeath_final_outcome':k);
 let checks=0;
 function ck(ok,msg){checks++;assert.ok(ok,msg)}
 function compare(a,op,b){return ({equals:a===b,notEquals:a!==b,greaterThan:a>b,lessThan:a<b,greaterThanOrEqual:a>=b,lessThanOrEqual:a<=b,contains:Array.isArray(a)?a.includes(b):String(a).includes(b),notContains:Array.isArray(a)?!a.includes(b):!String(a).includes(b),regex:new RegExp(String(b)).test(String(a))})[op]}

@@ -61,3 +61,17 @@ The user approved an honor-based `quest done: Exact Quest Name` repair action fo
 Ironman is optional and solo. The main world's native death flag remains false for ordinary modes; Ironman's instructions and an ending trigger reinforce final lethal outcomes. For native permanent death use the separate full-world Solo Ironman export, where the global flag is true. Do not claim a game-mode record can override that flag, or that AI instructions are a guaranteed native toggle.
 
 Touring routines move existing Ragnar Leonhart, Adoha Aonuma and Karia Morino through actual addresses and pause for presence, party travel, combat, incapacitation and real commitments. Adoha's Asterveil visits remain in the settlement. Personal travel authorization does not confer portal permissions on the player. Orivelle's existing circuit is preserved.
+
+## Character creation minor patch — 1 November 2026
+
+Player affinities are optional: zero to three. No affinity is a valid choice, distinct from a learned discipline. Physical Foundations supplies +1 Force and +1 Finesse among the starting-study choices. The existing weighted affinity-count rule for newly authored NPCs is unchanged.
+
+Ancestry and optional temperament have actual modest attribute/skill/resource benefits without forcing behavior. Starting attribute ceiling is 20 so selected bonuses have room; normal attribute awards remain two points every three levels, as supplied by the user. Do not reinstate the rejected slower five-level proposal or infer a newly approved normal spending ceiling.
+
+Special Talent is optional with one choice. The user approved stronger gifts having trade-offs. Their actual modifiers, vulnerabilities and granted techniques own effects; they do not grant unlisted affinities, automatic success, unlimited recovery, chosen-god status or Space/Time access. Added cosmetic outfit/accessory/portrait choices do not grant equipment or stats. Waist/hip-up remains the default, with explicitly selected alternate player framing respected.
+
+The accompanying instruction sets starting/base maximum Stamina to 100; the export's 80% rest fraction is preserved. Marika Hoshino stays at the user's level 30. No blanket NPC nerf was authorized for this patch. Ordinary working adventurer generation is generally 20–30; authored exceptional people retain their actual levels.
+
+Preserve all supplied hosted images, voices, coordinates and music. The user removed non-badge item artwork; do not restore it from older exports. Artwork backfill for existing catalogue items remains unverified. The ambiguous needsMediaGeneration toggle is not permission to bulk-enable it.
+
+The public announcement must not disclose this release's Stamina adjustment, alternate framing/camera additions, Default grouping or emoji compatibility work. Those belong in private development notes. Mention Bald, broader creation choices, talents, equipment and minor balance changes as requested.

@@ -6970,7 +6970,7 @@
     "faction": "Bellwether Company",
     "initialKnown": false,
     "initialRelationship": 0,
-    "portraitUrl": ""
+    "portraitUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/e94c6ce3-42c8-4153-b537-9cd46faca601.png"
   },
   "Chisato Akamine": {
     "name": "Chisato Akamine",
@@ -7006,7 +7006,7 @@
     "faction": "Bellwether Company",
     "initialKnown": false,
     "initialRelationship": 0,
-    "portraitUrl": ""
+    "portraitUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/4f07a954-10ff-4ecf-b204-8391948a24dd.png"
   },
   "Tomoe Inukai": {
     "name": "Tomoe Inukai",
@@ -7042,7 +7042,7 @@
     "faction": "Bellwether Company",
     "initialKnown": false,
     "initialRelationship": 0,
-    "portraitUrl": ""
+    "portraitUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/7de85735-f73f-4aa9-9169-9635e48bd07c.png"
   },
   "Gaku Shindō": {
     "name": "Gaku Shindō",
@@ -7078,7 +7078,7 @@
     "faction": "Bellwether Company",
     "initialKnown": false,
     "initialRelationship": 0,
-    "portraitUrl": ""
+    "portraitUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/2478b222-1b58-40c0-9b75-ed39b0bc7a9b.png"
   },
   "Ysolenne": {
     "name": "Ysolenne",
@@ -7115,7 +7115,7 @@
     "faction": "",
     "initialKnown": false,
     "initialRelationship": 0,
-    "portraitUrl": ""
+    "portraitUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/bc9e9bad-51dc-4ae4-a638-a3fc5480cb6b.png"
   },
   "Suzuha Midorise": {
     "name": "Suzuha Midorise",
@@ -7152,7 +7152,7 @@
     "faction": "Hydra Head Academy",
     "initialKnown": false,
     "initialRelationship": 0,
-    "portraitUrl": ""
+    "portraitUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/f303f588-9f14-468d-9445-a0dbe4744bd6.png"
   },
   "Jōta Kamezaki": {
     "name": "Jōta Kamezaki",
@@ -7188,7 +7188,7 @@
     "faction": "Copper Laurels",
     "initialKnown": false,
     "initialRelationship": 0,
-    "portraitUrl": ""
+    "portraitUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/3cfb27c4-2050-4e34-9ffb-f2b98cd9db7b.png"
   },
   "Beni Tsunoda": {
     "name": "Beni Tsunoda",
@@ -7224,7 +7224,7 @@
     "faction": "Copper Laurels",
     "initialKnown": false,
     "initialRelationship": 0,
-    "portraitUrl": ""
+    "portraitUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/984bf618-ce14-45a7-a110-115ff205c519.png"
   },
   "Riko Kanehara": {
     "name": "Riko Kanehara",
@@ -7260,7 +7260,7 @@
     "faction": "Copper Laurels",
     "initialKnown": false,
     "initialRelationship": 0,
-    "portraitUrl": ""
+    "portraitUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/4d31aa35-2bda-4733-8818-d190cf1ec20f.png"
   },
   "Sōta Tobisawa": {
     "name": "Sōta Tobisawa",
@@ -7296,7 +7296,7 @@
     "faction": "Copper Laurels",
     "initialKnown": false,
     "initialRelationship": 0,
-    "portraitUrl": ""
+    "portraitUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/6e305f48-8535-454b-b19d-6d2cd2b043eb.png"
   },
   "Marika Hoshino": {
     "name": "Marika Hoshino",
@@ -7325,7 +7325,7 @@
       "Candle Gleam: Creates a modest nearby light for inspection or finding a dropped object.",
       "Fighting Style: A forward shield-and-answer stance, mace close to the hip and weight balanced for a short advance. She can hold a line and provide limited healing, choosing actual priorities rather than endlessly refilling everybody."
     ],
-    "level": 40,
+    "level": 30,
     "healthMultiplier": 1,
     "successBonus": 0,
     "damageModifier": 0,
@@ -7333,7 +7333,7 @@
     "faction": "Adventurer's Guild",
     "initialKnown": false,
     "initialRelationship": 0,
-    "portraitUrl": ""
+    "portraitUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/6515c54a-c795-4266-aad1-a469376e40d3.png"
   },
   "Tetsuya Kanamori": {
     "name": "Tetsuya Kanamori",
@@ -7369,7 +7369,7 @@
     "faction": "Glowhaven Artisans' Guild",
     "initialKnown": false,
     "initialRelationship": 0,
-    "portraitUrl": ""
+    "portraitUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/c987fcf8-4602-487b-82fb-af9ac86b4a87.png"
   },
   "Nae Komorida": {
     "name": "Nae Komorida",
@@ -7405,7 +7405,7 @@
     "faction": "Glowhaven",
     "initialKnown": false,
     "initialRelationship": 0,
-    "portraitUrl": ""
+    "portraitUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/c14f0b6c-744e-4bbf-a8f9-5a87b68b9fbb.png"
   },
   "Renpei Sugita": {
     "name": "Renpei Sugita",
@@ -7442,7 +7442,7 @@
     "faction": "Adventurer's Guild",
     "initialKnown": false,
     "initialRelationship": 0,
-    "portraitUrl": ""
+    "portraitUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/941bb35b-0297-4501-aa09-411d9f2896e3.png"
   },
   "Iona Hayashida": {
     "name": "Iona Hayashida",
@@ -7478,7 +7478,7 @@
     "faction": "Adventurer's Guild",
     "initialKnown": false,
     "initialRelationship": 0,
-    "portraitUrl": ""
+    "portraitUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/6a92aea9-eb6c-4f08-b47d-d5137fd2dd58.png"
   },
   "Masaru Hasebe": {
     "name": "Masaru Hasebe",
@@ -7514,6 +7514,6 @@
     "faction": "Glowhaven",
     "initialKnown": false,
     "initialRelationship": 0,
-    "portraitUrl": ""
+    "portraitUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/170f1747-8d76-44ea-b195-24f6b1b917e3.png"
   }
 }

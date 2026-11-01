@@ -12,7 +12,7 @@
       "Oni",
       "Mixed Ancestry"
     ],
-    "description": "Choose one ancestry and describe your individual adult appearance. Each grants the listed modest +1 skill and its actual anatomy. Culture, occupation, morality and magical affinity remain individual."
+    "description": "Choose one ancestry, with the listed attributes, skills and resource capacity. Individual anatomy and culture still matter. Profession, personality and magical affinity remain separate choices."
   },
   "Beastfolk Form": {
     "name": "Beastfolk Form",
@@ -127,12 +127,13 @@
       "Ice Affinity",
       "Sound Affinity"
     ],
-    "description": "Choose 1–3 natural affinities: disciplines you find easier to learn. Affinities are separate from Starting Magical Study and grant no skills or spells by themselves. Other magic can be learned through practice, study or mentorship. Space and Time are not starting choices."
+    "description": "Optional — choose zero to three natural affinities, or leave this section empty for no innate affinity. Affinity eases learning; it grants no discipline or spell. Starting Magical Study is separate, and other disciplines can be learned through study or mentorship. Space and Time are unavailable at creation."
   },
   "Starting Magical Study": {
     "name": "Starting Magical Study",
     "maxSelections": 2,
     "traits": [
+      "Physical Foundations",
       "Arcane Studies",
       "Metal Studies",
       "Gravity Studies",
@@ -153,7 +154,7 @@
       "Sound Studies",
       "Soul Studies"
     ],
-    "description": "Choose up to two disciplines you have studied. Each starts at skill level 3 with two introductory techniques. Studies may differ from your affinities. Choose none for an untrained or martial background. Space and Time are unavailable at creation; advanced Space study requires Gravity preparation. Shared Spellcraft knowledge does not mean you can cast every discipline."
+    "description": "Optional — choose up to two entries, or skip. Physical Foundations grants +1 Force and +1 Finesse without magic. Each magical study starts its discipline at skill level 3 and grants its two listed introductory techniques. Studies need not match affinities. Space and Time are unavailable at creation."
   },
   "Practical Training": {
     "name": "Practical Training",
@@ -181,9 +182,240 @@
       "Animal Caretaker",
       "Performer",
       "Courier",
-      "Community Coordinator"
+      "Community Coordinator",
+      "Blacksmith Apprentice",
+      "Armorer",
+      "Carpenter",
+      "Mason",
+      "Tailor",
+      "Jeweler",
+      "Glassblower",
+      "Bookbinder",
+      "Scribe",
+      "Archivist",
+      "Interpreter",
+      "Tutor",
+      "Accountant",
+      "Appraiser",
+      "Innkeeper",
+      "Tavern Worker",
+      "Baker",
+      "Tea Blender",
+      "Farmer",
+      "Herbalist",
+      "Gardener",
+      "Fisher",
+      "Shepherd",
+      "Stablehand",
+      "Monster Hunter Apprentice",
+      "Miner",
+      "Prospector",
+      "Caravan Hand",
+      "Sailor",
+      "Cartographer",
+      "Lamplighter",
+      "Watch Recruit",
+      "Private Investigator",
+      "Stage Magician",
+      "Dancer",
+      "Musician"
     ],
-    "description": "Choose one useful prior profession or practical training. Grants +2 in an existing utility skill. This is experience, not an automatically accepted job or official license."
+    "description": "Optional — choose one prior profession or practical background. Each grants +2 in its main skill and +1 in a supporting skill. These are starting experiences, not current employment, official licences, owned workplaces or free professional equipment.",
+    "subcategories": [
+      {
+        "name": "Craft and Workshop",
+        "traits": [
+          "Magitech Technician",
+          "Blacksmith Apprentice",
+          "Armorer",
+          "Carpenter",
+          "Mason",
+          "Tailor",
+          "Jeweler",
+          "Glassblower",
+          "Bookbinder"
+        ]
+      },
+      {
+        "name": "Study, Care and Records",
+        "traits": [
+          "Research Assistant",
+          "Medical Assistant",
+          "Alchemist Apprentice",
+          "Perfumery Apprentice",
+          "Scribe",
+          "Archivist",
+          "Interpreter",
+          "Tutor",
+          "Herbalist"
+        ]
+      },
+      {
+        "name": "Trade, Hospitality and Performance",
+        "traits": [
+          "Merchant Apprentice",
+          "Cook",
+          "Performer",
+          "Accountant",
+          "Appraiser",
+          "Innkeeper",
+          "Tavern Worker",
+          "Baker",
+          "Tea Blender",
+          "Stage Magician",
+          "Dancer",
+          "Musician"
+        ]
+      },
+      {
+        "name": "Fieldwork and Public Service",
+        "traits": [
+          "Field Scout",
+          "Animal Caretaker",
+          "Courier",
+          "Community Coordinator",
+          "Farmer",
+          "Gardener",
+          "Fisher",
+          "Shepherd",
+          "Stablehand",
+          "Monster Hunter Apprentice",
+          "Miner",
+          "Prospector",
+          "Caravan Hand",
+          "Sailor",
+          "Cartographer",
+          "Lamplighter",
+          "Watch Recruit",
+          "Private Investigator"
+        ]
+      }
+    ]
+  },
+  "Special Talent": {
+    "name": "Special Talent",
+    "maxSelections": 1,
+    "traits": [
+      "Living Index",
+      "Trouble in the Air",
+      "Silver-Tongued Improviser",
+      "Price of Everything",
+      "Practical Savant",
+      "The Patient Hand",
+      "Roadwise",
+      "Beastward Manner",
+      "Perfect Pitch, Imperfect Manners",
+      "Hearth-Blessed Palate",
+      "Unflappable Reader",
+      "Small Miracles of Order",
+      "First Bell Reflex",
+      "Unmoved Heel",
+      "Duelist's Needle",
+      "Giant's Grip",
+      "Wrestler's Sense",
+      "Longshot Patience",
+      "Chain-Dancer",
+      "Shield-Side Companion",
+      "Breath of the Long Road",
+      "Merciful Finisher",
+      "Pursuer's Rhythm",
+      "Scar-Taught Resolve",
+      "Blueprint Intuition",
+      "Deep Reservoir",
+      "Cinder Familiarity",
+      "Water Threader",
+      "Listening Stone",
+      "Wind-Written Gesture",
+      "Storm Nerve",
+      "Glasswinter Touch",
+      "Gentle Radiance",
+      "Green-Fingered Wonder",
+      "Veilworker",
+      "Quiet Between Spells",
+      "Blessing of the Last Lantern",
+      "Blessing of Steady Hands",
+      "Ashen Patronage",
+      "Frostbound Favor",
+      "Storm-Bound Spark",
+      "Iron Lotus Constitution",
+      "Paper Lantern Body",
+      "Red Thread Covenant",
+      "Covenant of the Small Guest",
+      "Soul-Lantern Keeper",
+      "Golden Burden",
+      "Hundred-Tool Instinct"
+    ],
+    "description": "Optional — choose one unusual gift, blessing or exceptional aptitude, or skip. Benefits are substantial but bounded; stronger gifts have the listed trade-offs. A granted discipline or technique is learned as stated without adding an affinity. No Space, Time, automatic authority or compulsory deity relationship is included.",
+    "subcategories": [
+      {
+        "name": "Instinct and Ingenuity",
+        "traits": [
+          "Living Index",
+          "Trouble in the Air",
+          "Silver-Tongued Improviser",
+          "Price of Everything",
+          "Practical Savant",
+          "The Patient Hand",
+          "Roadwise",
+          "Beastward Manner",
+          "Perfect Pitch, Imperfect Manners",
+          "Hearth-Blessed Palate",
+          "Unflappable Reader",
+          "Small Miracles of Order"
+        ]
+      },
+      {
+        "name": "Martial Gifts",
+        "traits": [
+          "First Bell Reflex",
+          "Unmoved Heel",
+          "Duelist's Needle",
+          "Giant's Grip",
+          "Wrestler's Sense",
+          "Longshot Patience",
+          "Chain-Dancer",
+          "Shield-Side Companion",
+          "Breath of the Long Road",
+          "Merciful Finisher",
+          "Pursuer's Rhythm",
+          "Scar-Taught Resolve"
+        ]
+      },
+      {
+        "name": "Arcane Peculiarities",
+        "traits": [
+          "Blueprint Intuition",
+          "Deep Reservoir",
+          "Cinder Familiarity",
+          "Water Threader",
+          "Listening Stone",
+          "Wind-Written Gesture",
+          "Storm Nerve",
+          "Glasswinter Touch",
+          "Gentle Radiance",
+          "Green-Fingered Wonder",
+          "Veilworker",
+          "Quiet Between Spells"
+        ]
+      },
+      {
+        "name": "Blessings and Burdens",
+        "traits": [
+          "Blessing of the Last Lantern",
+          "Blessing of Steady Hands",
+          "Ashen Patronage",
+          "Frostbound Favor",
+          "Storm-Bound Spark",
+          "Iron Lotus Constitution",
+          "Paper Lantern Body",
+          "Red Thread Covenant",
+          "Covenant of the Small Guest",
+          "Soul-Lantern Keeper",
+          "Golden Burden",
+          "Hundred-Tool Instinct"
+        ]
+      }
+    ]
   },
   "Starting Equipment": {
     "name": "Starting Equipment",
@@ -211,9 +443,81 @@
       "Flexible Weapon Kit",
       "War Fan Starter Kit",
       "Scythe Starter Kit",
-      "Paired Blades Starter Kit"
+      "Paired Blades Starter Kit",
+      "Sling Starter Kit",
+      "Throwing Javelin Kit",
+      "Throwing Knife Kit",
+      "Throwing Ring Kit",
+      "Tonfa Starter Kit",
+      "Nunchaku Starter Kit",
+      "Kusarigama Starter Kit",
+      "Sai Starter Kit",
+      "War Pick Starter Kit",
+      "Trident Starter Kit",
+      "Pike Starter Kit",
+      "Partisan Starter Kit",
+      "Fighting Umbrella Kit",
+      "Focus Cord Kit",
+      "Crystal Focus Kit",
+      "Casting Card Kit"
     ],
-    "description": "Choose one basic casting, martial or practical kit, or Hand-Casting Practice for no extra item. It is independent of your training style. Ordinary tools, clothing and remembered techniques stay distinct; a kit grants only its listed items once."
+    "description": "Choose one basic casting, martial or practical kit, or Hand-Casting Practice for no extra item. It is independent of your training style. Ordinary tools, clothing and remembered techniques stay distinct; a kit grants only its listed items once.",
+    "subcategories": [
+      {
+        "name": "Casting Implements",
+        "traits": [
+          "Wand Kit",
+          "Staff Kit",
+          "Grimoire Kit",
+          "Hand-Casting Practice",
+          "Focus Cord Kit",
+          "Crystal Focus Kit",
+          "Casting Card Kit"
+        ]
+      },
+      {
+        "name": "Martial Equipment",
+        "traits": [
+          "Blade Kit",
+          "Shield Kit",
+          "Handwrap Kit",
+          "Spear and Rope Kit",
+          "Bow Starter Kit",
+          "Crossbow Starter Kit",
+          "Greatsword Starter Kit",
+          "Axe Starter Kit",
+          "Mace and Buckler Kit",
+          "Polearm Starter Kit",
+          "Twinblade Starter Kit",
+          "Flexible Weapon Kit",
+          "War Fan Starter Kit",
+          "Scythe Starter Kit",
+          "Paired Blades Starter Kit",
+          "Sling Starter Kit",
+          "Throwing Javelin Kit",
+          "Throwing Knife Kit",
+          "Throwing Ring Kit",
+          "Tonfa Starter Kit",
+          "Nunchaku Starter Kit",
+          "Kusarigama Starter Kit",
+          "Sai Starter Kit",
+          "War Pick Starter Kit",
+          "Trident Starter Kit",
+          "Pike Starter Kit",
+          "Partisan Starter Kit",
+          "Fighting Umbrella Kit"
+        ]
+      },
+      {
+        "name": "Practical Work",
+        "traits": [
+          "Field Survey Kit",
+          "Workshop Starter Kit",
+          "First Aid Kit",
+          "Technical Inspection Kit"
+        ]
+      }
+    ]
   },
   "Temperament": {
     "name": "Temperament",
@@ -240,7 +544,7 @@
       "Proud",
       "Independent"
     ],
-    "description": "Optional — choose up to two tendencies, or skip. These are narrative preferences with no skill bonus or penalty; your actual words and decisions remain yours."
+    "description": "Optional — choose up to two tendencies or skip. Each grants its listed small attribute and skill benefit. Actual speech, feelings and decisions remain yours."
   },
   "First Impression": {
     "name": "First Impression",
@@ -335,6 +639,7 @@
       {
         "name": "Hair Style — choose up to one",
         "traits": [
+          "Hair Style — Bald",
           "Hair Style — Short and straight",
           "Hair Style — Short and wavy",
           "Hair Style — Short and curly",
@@ -461,10 +766,135 @@
           "Outfit — Gothic layers",
           "Outfit — Winter wool and fur",
           "Outfit — Sky-traveler",
-          "Outfit — Simple country clothes"
+          "Outfit — Simple country clothes",
+          "Outfit — Rolled-sleeve shirt and suspenders",
+          "Outfit — Traveling swordsman",
+          "Outfit — Sleeveless training clothes",
+          "Outfit — Heavy field armor",
+          "Outfit — Ceremonial armor",
+          "Outfit — Ranger layers",
+          "Outfit — Sailor workwear",
+          "Outfit — Merchant silks",
+          "Outfit — Bard performance clothes",
+          "Outfit — Ballroom eveningwear",
+          "Outfit — Tailored waistcoat",
+          "Outfit — Long fitted dress",
+          "Outfit — Layered skirt and blouse",
+          "Outfit — Practical overalls",
+          "Outfit — Forge workwear",
+          "Outfit — Healer uniform",
+          "Outfit — Perfumer ensemble",
+          "Outfit — Shrine attendant clothes",
+          "Outfit — Monastic travel clothes",
+          "Outfit — Hakama and short jacket",
+          "Outfit — Festival yukata",
+          "Outfit — Gothic formalwear",
+          "Outfit — Punk streetwear",
+          "Outfit — Sporty citywear",
+          "Outfit — Cozy knitwear",
+          "Outfit — Mountain hunting clothes",
+          "Outfit — Fae woodland clothing",
+          "Outfit — Fae court fashion",
+          "Outfit — Desert traveler clothes",
+          "Outfit — Rain-ready clothing",
+          "Outfit — Scholarly eccentric",
+          "Outfit — Simple homewear"
         ]
       }
     ]
+  },
+  "Accessories & Outer Layers": {
+    "name": "Accessories & Outer Layers",
+    "maxSelections": 4,
+    "traits": [
+      "Accessory — Travel cloak",
+      "Accessory — Short cape",
+      "Accessory — Long mantle",
+      "Accessory — Fur-lined shoulder wrap",
+      "Accessory — Hooded capelet",
+      "Accessory — Haori",
+      "Accessory — Draped coat",
+      "Accessory — Long scarf",
+      "Accessory — Pointed wizard hat",
+      "Accessory — Wide-brimmed hat",
+      "Accessory — Beret",
+      "Accessory — Newsboy cap",
+      "Accessory — Feathered hat",
+      "Accessory — Flower hairpiece",
+      "Accessory — Hair ribbon",
+      "Accessory — Metal hairpin",
+      "Accessory — Round glasses",
+      "Accessory — Angular glasses",
+      "Accessory — Monocle",
+      "Accessory — Eyepatch",
+      "Accessory — Neck pendant",
+      "Accessory — Choker",
+      "Accessory — Silk necktie",
+      "Accessory — Ear cuffs",
+      "Accessory — Fingerless gloves",
+      "Accessory — Long gloves",
+      "Accessory — Decorative sash",
+      "Accessory — Brooch",
+      "Accessory — Bracelets",
+      "Accessory — Pocket watch chain",
+      "Accessory — Shoulder satchel",
+      "Accessory — Waist pouch"
+    ],
+    "subcategories": [
+      {
+        "name": "Outer Layers",
+        "traits": [
+          "Accessory — Travel cloak",
+          "Accessory — Short cape",
+          "Accessory — Long mantle",
+          "Accessory — Fur-lined shoulder wrap",
+          "Accessory — Hooded capelet",
+          "Accessory — Haori",
+          "Accessory — Draped coat",
+          "Accessory — Long scarf"
+        ]
+      },
+      {
+        "name": "Hats and Hair Accessories",
+        "traits": [
+          "Accessory — Pointed wizard hat",
+          "Accessory — Wide-brimmed hat",
+          "Accessory — Beret",
+          "Accessory — Newsboy cap",
+          "Accessory — Feathered hat",
+          "Accessory — Flower hairpiece",
+          "Accessory — Hair ribbon",
+          "Accessory — Metal hairpin"
+        ]
+      },
+      {
+        "name": "Face and Neck Details",
+        "traits": [
+          "Accessory — Round glasses",
+          "Accessory — Angular glasses",
+          "Accessory — Monocle",
+          "Accessory — Eyepatch",
+          "Accessory — Neck pendant",
+          "Accessory — Choker",
+          "Accessory — Silk necktie",
+          "Accessory — Ear cuffs"
+        ]
+      },
+      {
+        "name": "Finishing Details",
+        "traits": [
+          "Accessory — Fingerless gloves",
+          "Accessory — Long gloves",
+          "Accessory — Decorative sash",
+          "Accessory — Brooch",
+          "Accessory — Bracelets",
+          "Accessory — Pocket watch chain",
+          "Accessory — Shoulder satchel",
+          "Accessory — Waist pouch"
+        ]
+      }
+    ],
+    "description": "Optional — add up to four compatible visual details over your selected outfit, or skip. Hats, outer layers, glasses and jewelry are appearance choices. They grant no equipment bonuses, possessions, official insignia or magical powers. Avoid incompatible duplicate hats or layers unless explicitly intended."
   },
   "Portrait Style": {
     "name": "Portrait Style",
@@ -478,27 +908,109 @@
       "Portrait Style — Elegant linework",
       "Portrait Style — Dark fantasy anime",
       "Portrait Style — Watercolor accents"
+    ],
+    "subcategories": [
+      {
+        "name": "Default",
+        "traits": [
+          "Portrait Style — Crisp fantasy anime"
+        ]
+      },
+      {
+        "name": "Alternate Illustration Styles",
+        "traits": [
+          "Portrait Style — Dramatic gacha illustration",
+          "Portrait Style — Shonen action",
+          "Portrait Style — Romcom warmth",
+          "Portrait Style — Elegant linework",
+          "Portrait Style — Dark fantasy anime",
+          "Portrait Style — Watercolor accents"
+        ]
+      }
     ]
   },
   "Portrait Framing": {
     "name": "Portrait Framing",
-    "description": "Optional — waist-up or hip-up. Skip for a fitting hip-up or waist-up composition, full head in frame, without a fixed headroom percentage.",
+    "description": "Optional — skip for a fitting waist-up or hip-up portrait. Default contains our usual framing. Eccentric Choices offers deliberately different crops and poses; an explicit selection takes priority over the default.",
     "maxSelections": 1,
     "traits": [
       "Portrait Frame — Waist-up",
-      "Portrait Frame — Hip-up"
+      "Portrait Frame — Hip-up",
+      "Portrait Frame — Bust portrait",
+      "Portrait Frame — Face close-up",
+      "Portrait Frame — Three-quarter body",
+      "Portrait Frame — Full-body illustration",
+      "Portrait Frame — Seated portrait",
+      "Portrait Frame — Wide action portrait"
+    ],
+    "subcategories": [
+      {
+        "name": "Default",
+        "traits": [
+          "Portrait Frame — Waist-up",
+          "Portrait Frame — Hip-up"
+        ]
+      },
+      {
+        "name": "Eccentric Choices",
+        "traits": [
+          "Portrait Frame — Bust portrait",
+          "Portrait Frame — Face close-up",
+          "Portrait Frame — Three-quarter body",
+          "Portrait Frame — Full-body illustration",
+          "Portrait Frame — Seated portrait",
+          "Portrait Frame — Wide action portrait"
+        ]
+      }
     ]
   },
   "Portrait Camera": {
     "name": "Portrait Camera",
-    "description": "Optional — choose a viewpoint, or leave it to the illustration. The default is a readable natural eye-level or three-quarter view.",
+    "description": "Optional — choose a viewpoint or skip. Default uses a natural eye-level or three-quarter view. Eccentric Choices offers dramatic and unusual perspectives; keep the actual face and anatomy coherent.",
     "maxSelections": 1,
     "traits": [
       "Portrait Camera — Natural eye level",
       "Portrait Camera — Three-quarter",
       "Portrait Camera — Slight low angle",
       "Portrait Camera — Slight high angle",
-      "Portrait Camera — Gentle Dutch angle"
+      "Portrait Camera — Gentle Dutch angle",
+      "Portrait Camera — Dramatic low angle",
+      "Portrait Camera — Dramatic high angle",
+      "Portrait Camera — Bird's-eye view",
+      "Portrait Camera — Ground-level view",
+      "Portrait Camera — Strong Dutch angle",
+      "Portrait Camera — Side profile",
+      "Portrait Camera — Over-the-shoulder",
+      "Portrait Camera — Foreshortened gesture",
+      "Portrait Camera — Distant observer",
+      "Portrait Camera — Intimate eye line"
+    ],
+    "subcategories": [
+      {
+        "name": "Default",
+        "traits": [
+          "Portrait Camera — Natural eye level",
+          "Portrait Camera — Three-quarter"
+        ]
+      },
+      {
+        "name": "Eccentric Choices",
+        "traits": [
+          "Portrait Camera — Slight low angle",
+          "Portrait Camera — Slight high angle",
+          "Portrait Camera — Gentle Dutch angle",
+          "Portrait Camera — Dramatic low angle",
+          "Portrait Camera — Dramatic high angle",
+          "Portrait Camera — Bird's-eye view",
+          "Portrait Camera — Ground-level view",
+          "Portrait Camera — Strong Dutch angle",
+          "Portrait Camera — Side profile",
+          "Portrait Camera — Over-the-shoulder",
+          "Portrait Camera — Foreshortened gesture",
+          "Portrait Camera — Distant observer",
+          "Portrait Camera — Intimate eye line"
+        ]
+      }
     ]
   },
   "Portrait Background": {
@@ -529,7 +1041,99 @@
       "Portrait Background — Asterveil terrace",
       "Portrait Background — Pine overlook",
       "Portrait Background — Graphic color field",
-      "Portrait Background — Soft floral illustration"
+      "Portrait Background — Soft floral illustration",
+      "Portrait Background — Sunlit classroom",
+      "Portrait Background — Empty lecture theatre",
+      "Portrait Background — Rain-streaked window",
+      "Portrait Background — Candlelit study",
+      "Portrait Background — Forge interior",
+      "Portrait Background — Glasshouse",
+      "Portrait Background — Baking kitchen",
+      "Portrait Background — Tea shop",
+      "Portrait Background — Tailor studio",
+      "Portrait Background — Backstage",
+      "Portrait Background — Festival lanterns",
+      "Portrait Background — Dusk rooftop",
+      "Portrait Background — Sunset bridge",
+      "Portrait Background — Orchard",
+      "Portrait Background — Meadow breeze",
+      "Portrait Background — Forest stream",
+      "Portrait Background — Misty forest",
+      "Portrait Background — Waterfall ledge",
+      "Portrait Background — Coastal morning",
+      "Portrait Background — Mountain lodge",
+      "Portrait Background — Geothermal springs",
+      "Portrait Background — Crystal cavern",
+      "Portrait Background — Old ruins",
+      "Portrait Background — Storm-lit balcony",
+      "Portrait Background — Night sky",
+      "Portrait Background — Floating islands",
+      "Portrait Background — Botanical illustration",
+      "Portrait Background — Bold graphic shapes"
+    ],
+    "subcategories": [
+      {
+        "name": "Default",
+        "traits": [
+          "Portrait Background — At the opening"
+        ]
+      },
+      {
+        "name": "Places and Atmosphere",
+        "traits": [
+          "Portrait Background — Academy corridor",
+          "Portrait Background — Academy garden",
+          "Portrait Background — Library",
+          "Portrait Background — Workshop",
+          "Portrait Background — City street",
+          "Portrait Background — Wilderness overlook",
+          "Portrait Background — Warm interior",
+          "Portrait Background — Evertree plaza",
+          "Portrait Background — Four Sages Bazaar",
+          "Portrait Background — Harbor quay",
+          "Portrait Background — Guild hall",
+          "Portrait Background — Alchemy bench",
+          "Portrait Background — Training courtyard",
+          "Portrait Background — Spell circle",
+          "Portrait Background — Quiet dormitory",
+          "Portrait Background — Tea garden",
+          "Portrait Background — Moonlit balcony",
+          "Portrait Background — Rainy street",
+          "Portrait Background — Snowbound Drakenspire",
+          "Portrait Background — Asterveil terrace",
+          "Portrait Background — Pine overlook",
+          "Portrait Background — Graphic color field",
+          "Portrait Background — Soft floral illustration",
+          "Portrait Background — Sunlit classroom",
+          "Portrait Background — Empty lecture theatre",
+          "Portrait Background — Rain-streaked window",
+          "Portrait Background — Candlelit study",
+          "Portrait Background — Forge interior",
+          "Portrait Background — Glasshouse",
+          "Portrait Background — Baking kitchen",
+          "Portrait Background — Tea shop",
+          "Portrait Background — Tailor studio",
+          "Portrait Background — Backstage",
+          "Portrait Background — Festival lanterns",
+          "Portrait Background — Dusk rooftop",
+          "Portrait Background — Sunset bridge",
+          "Portrait Background — Orchard",
+          "Portrait Background — Meadow breeze",
+          "Portrait Background — Forest stream",
+          "Portrait Background — Misty forest",
+          "Portrait Background — Waterfall ledge",
+          "Portrait Background — Coastal morning",
+          "Portrait Background — Mountain lodge",
+          "Portrait Background — Geothermal springs",
+          "Portrait Background — Crystal cavern",
+          "Portrait Background — Old ruins",
+          "Portrait Background — Storm-lit balcony",
+          "Portrait Background — Night sky",
+          "Portrait Background — Floating islands",
+          "Portrait Background — Botanical illustration",
+          "Portrait Background — Bold graphic shapes"
+        ]
+      }
     ]
   }
 }

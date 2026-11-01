@@ -5249,7 +5249,19 @@
     "factions": [
       "Asterveil",
       "Asterveil Crossing Cooperative"
-    ]
+    ],
+    "images": {
+      "establishingShot": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/bb40deb2-9ecf-45cc-a624-29855826c1c8.png"
+      }
+    }
   },
   "Asterveil Canopy": {
     "name": "Asterveil Canopy",
@@ -5336,7 +5348,19 @@
     "factions": [
       "Asterveil",
       "Bellwind Field Circle"
-    ]
+    ],
+    "images": {
+      "establishingShot": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/8289d58d-cdba-470f-b47a-f61d67f1a0df.png"
+      }
+    }
   },
   "Bellwind Conservatory": {
     "name": "Bellwind Conservatory",
@@ -5402,7 +5426,19 @@
     "factions": [
       "Asterveil",
       "Bellwind Field Circle"
-    ]
+    ],
+    "images": {
+      "establishingShot": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/58d13840-6455-4664-b03a-6c0028862e5f.png"
+      }
+    }
   },
   "Mythwing Meadows": {
     "name": "Mythwing Meadows",
@@ -5465,7 +5501,19 @@
       "min": 8,
       "max": 18
     },
-    "factions": []
+    "factions": [],
+    "images": {
+      "establishingShot": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/8e8436c3-d34c-49cc-b7d4-457725eacee7.png"
+      }
+    }
   },
   "Broken Halo Ruins": {
     "name": "Broken Halo Ruins",
@@ -5521,7 +5569,19 @@
       "min": 20,
       "max": 32
     },
-    "factions": []
+    "factions": [],
+    "images": {
+      "establishingShot": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/c437e548-9223-4819-a252-601d2f3ee4cc.png"
+      }
+    }
   },
   "Silken Portal Room": {
     "name": "Silken Portal Room",
@@ -5560,7 +5620,19 @@
       "min": 18,
       "max": 20
     },
-    "factions": []
+    "factions": [],
+    "images": {
+      "establishingShot": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/1331bf55-8052-4164-b6d9-c62165ca50bd.png"
+      }
+    }
   },
   "Threadfall Galleries": {
     "name": "Threadfall Galleries",
@@ -5619,7 +5691,19 @@
     },
     "factions": [
       "The Silken Brood"
-    ]
+    ],
+    "images": {
+      "establishingShot": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/096ae8cd-38ec-4110-b1fc-ed1dddaedab0.png"
+      }
+    }
   },
   "Sunken Broodworks": {
     "name": "Sunken Broodworks",
@@ -5683,7 +5767,19 @@
     },
     "factions": [
       "The Silken Brood"
-    ]
+    ],
+    "images": {
+      "establishingShot": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/efbc75f2-61c6-4615-a84d-153a1afb6834.png"
+      }
+    }
   },
   "Widow's Crucible": {
     "name": "Widow's Crucible",
@@ -5726,7 +5822,19 @@
     },
     "factions": [
       "The Silken Brood"
-    ]
+    ],
+    "images": {
+      "establishingShot": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/27e4456d-723e-43ef-8e22-e9c78f72da70.png"
+      }
+    }
   },
   "Crescent Crown Fortress": {
     "name": "Crescent Crown Fortress",
@@ -9069,7 +9177,19 @@
         ]
       }
     },
-    "factions": []
+    "factions": [],
+    "images": {
+      "establishingShot": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/c2a02f7a-fbdb-4a89-ac9f-ca1551eebca5.png"
+      }
+    }
   },
   "Petalwash Terraces": {
     "name": "Petalwash Terraces",
@@ -9116,7 +9236,19 @@
         ]
       }
     },
-    "factions": []
+    "factions": [],
+    "images": {
+      "establishingShot": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/a3314a78-be44-4000-bd62-d56a77c1e267.png"
+      }
+    }
   },
   "Tetherroot Chain": {
     "name": "Tetherroot Chain",
@@ -9166,7 +9298,19 @@
     "factions": [
       "Asterveil",
       "Asterveil Crossing Cooperative"
-    ]
+    ],
+    "images": {
+      "establishingShot": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/1342bc26-b96b-46b3-b896-a76fdcc4223d.png"
+      }
+    }
   },
   "Dewglass Hollows": {
     "name": "Dewglass Hollows",
@@ -9213,7 +9357,19 @@
         ]
       }
     },
-    "factions": []
+    "factions": [],
+    "images": {
+      "establishingShot": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/0a2f1b2f-56bd-4f63-b439-c18c51262278.png"
+      }
+    }
   },
   "Rimeglass Refuge": {
     "name": "Rimeglass Refuge",
@@ -9263,7 +9419,19 @@
     "factions": [
       "Asterveil",
       "Asterveil Crossing Cooperative"
-    ]
+    ],
+    "images": {
+      "establishingShot": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/60a669cb-f499-4fda-b8e3-4468c34e2a59.png"
+      }
+    }
   },
   "Frostbell Pines": {
     "name": "Frostbell Pines",
@@ -9310,7 +9478,19 @@
         ]
       }
     },
-    "factions": []
+    "factions": [],
+    "images": {
+      "establishingShot": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/f7ed9983-5943-4ee4-a973-24b09e7a661d.png"
+      }
+    }
   },
   "Rimeglass Crown": {
     "name": "Rimeglass Crown",
@@ -9357,7 +9537,19 @@
         ]
       }
     },
-    "factions": []
+    "factions": [],
+    "images": {
+      "establishingShot": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/2497977e-85a2-4750-8a3a-e782a55849a9.png"
+      }
+    }
   },
   "Thunderwake Crags": {
     "name": "Thunderwake Crags",
@@ -9404,7 +9596,19 @@
         ]
       }
     },
-    "factions": []
+    "factions": [],
+    "images": {
+      "establishingShot": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/a1817bfe-46f4-4519-b5bc-26a467af3f22.png"
+      }
+    }
   },
   "Hollow Snow Vault": {
     "name": "Hollow Snow Vault",
@@ -9451,7 +9655,19 @@
         ]
       }
     },
-    "factions": []
+    "factions": [],
+    "images": {
+      "establishingShot": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/e4c43b0b-926e-4bce-8c27-db50003e2146.png"
+      }
+    }
   },
   "Reedglass Anchorage": {
     "name": "Reedglass Anchorage",
@@ -9501,7 +9717,19 @@
     "factions": [
       "Asterveil",
       "Asterveil Crossing Cooperative"
-    ]
+    ],
+    "images": {
+      "establishingShot": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/60141c30-6801-4aaf-bdb0-01f576b9c103.png"
+      }
+    }
   },
   "Mirrorwater Basin": {
     "name": "Mirrorwater Basin",
@@ -9548,7 +9776,19 @@
         ]
       }
     },
-    "factions": []
+    "factions": [],
+    "images": {
+      "establishingShot": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/6d832b24-a1bd-41ee-a564-e46c74e3bf9a.png"
+      }
+    }
   },
   "Glassreed Labyrinth": {
     "name": "Glassreed Labyrinth",
@@ -9595,7 +9835,19 @@
         ]
       }
     },
-    "factions": []
+    "factions": [],
+    "images": {
+      "establishingShot": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/0b679745-328e-4e59-8eab-49c4d487c7db.png"
+      }
+    }
   },
   "Spillway Steps": {
     "name": "Spillway Steps",
@@ -9642,7 +9894,19 @@
         ]
       }
     },
-    "factions": []
+    "factions": [],
+    "images": {
+      "establishingShot": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/1d1e5c84-f708-44b0-a114-4018e12645e5.png"
+      }
+    }
   },
   "Lanternmire Islets": {
     "name": "Lanternmire Islets",
@@ -9689,7 +9953,19 @@
         ]
       }
     },
-    "factions": []
+    "factions": [],
+    "images": {
+      "establishingShot": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/d7f6bd88-99a8-47e1-a223-e330305f2852.png"
+      }
+    }
   },
   "Drowned Orrery": {
     "name": "Drowned Orrery",
@@ -9736,7 +10012,19 @@
         ]
       }
     },
-    "factions": []
+    "factions": [],
+    "images": {
+      "establishingShot": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/0974ca61-df43-4da0-85a0-f84454507022.png"
+      }
+    }
   },
   "Undertow Hollows": {
     "name": "Undertow Hollows",
@@ -9783,7 +10071,19 @@
         ]
       }
     },
-    "factions": []
+    "factions": [],
+    "images": {
+      "establishingShot": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/c3b69c21-4acd-4496-ba8d-e0591c3e8b50.png"
+      }
+    }
   },
   "Heatherwatch Shelf": {
     "name": "Heatherwatch Shelf",
@@ -9833,7 +10133,19 @@
     "factions": [
       "Asterveil",
       "Asterveil Crossing Cooperative"
-    ]
+    ],
+    "images": {
+      "establishingShot": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/97ba7859-361e-4b82-9cec-9840d0498c71.png"
+      }
+    }
   },
   "Mauvewind Steppe": {
     "name": "Mauvewind Steppe",
@@ -9880,7 +10192,19 @@
         ]
       }
     },
-    "factions": []
+    "factions": [],
+    "images": {
+      "establishingShot": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/a59e8c05-f760-4c32-866d-2674bd854dbc.png"
+      }
+    }
   },
   "Singing Stone Spines": {
     "name": "Singing Stone Spines",
@@ -9927,7 +10251,19 @@
         ]
       }
     },
-    "factions": []
+    "factions": [],
+    "images": {
+      "establishingShot": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/00135842-db4a-4244-8d2c-7dc7ea9ff160.png"
+      }
+    }
   },
   "Prismbloom Basin": {
     "name": "Prismbloom Basin",
@@ -9974,7 +10310,19 @@
         ]
       }
     },
-    "factions": []
+    "factions": [],
+    "images": {
+      "establishingShot": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/c6f43f5f-db5b-4ec9-84b6-cdda902ee27e.png"
+      }
+    }
   },
   "Crownfall Chasm": {
     "name": "Crownfall Chasm",
@@ -10021,7 +10369,19 @@
         ]
       }
     },
-    "factions": []
+    "factions": [],
+    "images": {
+      "establishingShot": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/315f97ec-95ef-4e61-ad59-1b4b224f417a.png"
+      }
+    }
   },
   "Stillstar Sanctum": {
     "name": "Stillstar Sanctum",
@@ -10068,7 +10428,19 @@
         ]
       }
     },
-    "factions": []
+    "factions": [],
+    "images": {
+      "establishingShot": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/751e78c6-6225-4406-96b3-f858a13bfad1.png"
+      }
+    }
   },
   "The Inverted Crown": {
     "name": "The Inverted Crown",
@@ -10115,7 +10487,19 @@
         ]
       }
     },
-    "factions": []
+    "factions": [],
+    "images": {
+      "establishingShot": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/1256f154-1d8c-4a29-8ca0-cfaa3aba78e6.png"
+      }
+    }
   },
   "Adventurer's Guild - Glowhaven Branch": {
     "name": "Adventurer's Guild - Glowhaven Branch",
@@ -10191,6 +10575,18 @@
           "Adventurer's Guild - Glowhaven Branch - Appraisal Bench",
           "Adventurer's Guild - Glowhaven Branch - Training Yard"
         ]
+      }
+    },
+    "images": {
+      "establishingShot": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/98af63d9-7ecb-4639-9e54-72e37a59d977.png"
       }
     }
   }

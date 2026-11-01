@@ -4069,7 +4069,7 @@
       },
       {
         "type": "story",
-        "instruction": "Issue this newly licensed adventurer’s exact Guild Badge: Bronze. The typed item is already granted. Bronze-qualified jobs can now be accepted; no portal key, free weapon, fee deduction or automatic promotion accompanies it."
+        "instruction": "Describe the clerk completing the actual licensure and handing over the already-granted Document Guild Badge: Bronze. The typed grant is the sole inventory award; no item-generation task should add a badge, redefine it as a Relic or create an alias. Bronze work is now available by its actual rules. No portal key, weapon, extra payment or automatic promotion accompanies the ceremony."
       }
     ]
   },
@@ -12066,7 +12066,7 @@
       {
         "type": "story-start",
         "operator": "equals",
-        "value": "🪶 Gryffin Tail: First Day"
+        "value": "📘 Gryffin Tail: First Day"
       }
     ],
     "effects": [
@@ -12142,7 +12142,7 @@
       {
         "type": "story-start",
         "operator": "equals",
-        "value": "🪻 Hydra Head: First Day"
+        "value": "💜 Hydra Head: First Day"
       }
     ],
     "effects": [
@@ -15222,8 +15222,8 @@
     "recurring": true,
     "scope": "player"
   },
-  "ad34_ironman_final_outcome": {
-    "name": "ad34_ironman_final_outcome",
+  "ad34_permadeath_final_outcome": {
+    "name": "ad34_permadeath_final_outcome",
     "conditions": [
       {
         "type": "read-boolean",
@@ -15239,7 +15239,7 @@
       },
       {
         "type": "story",
-        "query": "The current solo run is explicitly using Ironman Mode and its player has actually suffered a genuinely lethal defeat now. An ordinary nonlethal spar, training knockout, sleep, capture, empty Mana or Stamina, a hypothetical threat or another mode is false."
+        "query": "The current solo run is explicitly using Permadeath Mode and its player has actually suffered a genuinely lethal defeat now. An ordinary nonlethal spar, training knockout, sleep, capture, empty Mana or Stamina, a hypothetical threat or another mode is false."
       }
     ],
     "effects": [
@@ -15249,7 +15249,7 @@
       },
       {
         "type": "story",
-        "instruction": "Give this solo Ironman character a meaningful final epilogue grounded in their actual choices. Do not revive them, invent final words, award a victory or erase other people's existing lives."
+        "instruction": "Give this solo Permadeath character a meaningful final epilogue grounded in their actual choices. Do not revive them, invent final words, award a victory or erase other people's existing lives."
       }
     ],
     "recurring": false,

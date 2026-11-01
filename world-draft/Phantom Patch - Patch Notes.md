@@ -1,4 +1,4 @@
-## ✨ Minor Patch — Character Creation & Polish
+## 🐙 Minor Patch 3
 
 More ways to make your character feel like yours!
 

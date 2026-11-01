@@ -77,3 +77,5 @@ Preserve all supplied hosted images, voices, coordinates and music. The user rem
 The public announcement must not disclose this release's Stamina adjustment, alternate framing/camera additions, Default grouping or emoji compatibility work. Those belong in private development notes. Mention Bald, broader creation choices, talents, equipment and minor balance changes as requested.
 
 Studio's 1 November rejection confirms that ability trait requirements still require a numeric `amount`, even though the engine ignores that value for a trait check. Author `amount: 1`. Estimated item prices must be nonnegative whole numbers inside their configured tier range. Portable validation and regression tests now enforce these constraints; do not lower tier boundaries to accommodate an incorrectly priced item.
+
+Minor patch titles use a randomly chosen, unrelated animal emoji plus `Minor Patch n`. No descriptive subtitle in the title; thematic headings may appear in the body. The latest published minor release is **🐙 Minor Patch 3**, so the next new minor release is **Minor Patch 4**. An import hotfix to the same release is not automatically a new numbered patch.

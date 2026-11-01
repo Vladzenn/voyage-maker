@@ -6,6 +6,8 @@ Use this guide for every future world update. Keep the release post in a standal
 
 Aim for about 150–250 words for a major update and 60–130 for a small patch. Use an emoji and clear update title, a short welcoming introduction, and two to four grouped lists. Prefer concrete player benefits over implementation detail. A final friendly line is optional.
 
+For minor patches, the title is exactly **an unrelated animal emoji + Minor Patch n**, for example `## 🐙 Minor Patch 3`. Choose the animal independently of the content; do not use a feature-themed icon or append a descriptive subtitle to the title. Continue the existing minor-patch sequence across major releases. The author's confirmed published sequence is Minor Patch 1, Minor Patch 2 and Minor Patch 3; the next new minor release is **Minor Patch 4**. An import correction within the same release does not automatically increment that number. Thematic feature names and suitable emojis belong in the body as optional subheadings. An introduction is optional when the grouped bullets already read naturally.
+
 State what actually shipped. Include the main feature, useful creation/start changes and visible fixes. Mention an important scope restriction plainly, such as solo-only automatic custody. Preserve mystery rather than publishing an encounter's hidden condition or the easiest exploit.
 
 Honor any explicit “don't mention” instructions for a release. Record those implemented details in private development notes instead. Do not imply that a deferred engine investigation is a shipped fix merely because it was bundled into the work request.
@@ -23,6 +25,18 @@ Record the source export and hash, actual changed sections, retained user edits,
 Keep the downloadable world, canonical world and standalone section replacements synchronized. Provide the full export first when several sections depend on one another. Preserve the incoming source as a rollback reference without creating redundant media archives.
 
 ## Suggested public structure
+
+Minor patch title:
+
+```markdown
+## 🦦 Minor Patch 4
+
+### 🌟 [Feature group]
+
+- [Concrete addition or player-visible improvement.]
+```
+
+Major update structure:
 
 ```markdown
 ## [emoji] [Update title]

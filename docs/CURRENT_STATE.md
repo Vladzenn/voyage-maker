@@ -2,6 +2,8 @@
 
 Updated 1 November 2026 after the **Character Creation & Polish** minor patch.
 
+Public release numbering: Character Creation & Polish was published as **🐙 Minor Patch 3**. Minor titles use an unrelated animal emoji followed by `Minor Patch n`; feature names belong in body subheadings. The next new minor release is **Minor Patch 4**. This title-convention clarification changes documentation only.
+
 Studio import hotfix: the reported rejection exposed twenty-four missing `amount` fields on talent ability requirements and two Special-tier item prices below the configured minimum. All twenty-four trait requirements now include numeric `amount: 1`; Rain-Counting Brooch and Polite Kettle Bell are priced at 300 marks, inside their existing tier. The builder and portable validator are corrected, with regression tests reconstructing all twenty-six reported errors. No other world content, media, maps or Spider Realm mechanics change. Reimport the refreshed full patch file; local checks do not replace a fresh Studio import.
 
 ## Active world

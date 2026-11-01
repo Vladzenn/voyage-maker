@@ -6,6 +6,8 @@ Public release numbering: Character Creation & Polish was published as **🐙 Mi
 
 Public announcement style: minor patches stay compact; major releases use fuller, more descriptive thematic sections, short paragraphs and selected bullets. The Crucible announcement has been expanded accordingly, including the author's requested short Conservatory unlock explanation (championship trophy and Silver Web Portal Key at the Evertree Portal Room). `research/Patch Note Creation Guide.md` records the distinction and allows explicit author-requested unlock guidance. This follow-up changes documentation only; the playable world is unchanged.
 
+2 November announcement revision: incorporated the author's copy edits, added the broad fighter-roster bullet, softened the Conservatory unlock into a rumor about a champion's prize and a key from a silken descent, and made the Oni section explicitly prepare for the next major update. The author's removal of the closing solo/team-format paragraph is retained in public copy only; actual tournament support and its technical documentation remain unchanged.
+
 Studio import hotfix: the reported rejection exposed twenty-four missing `amount` fields on talent ability requirements and two Special-tier item prices below the configured minimum. All twenty-four trait requirements now include numeric `amount: 1`; Rain-Counting Brooch and Polite Kettle Bell are priced at 300 marks, inside their existing tier. The builder and portable validator are corrected, with regression tests reconstructing all twenty-six reported errors. No other world content, media, maps or Spider Realm mechanics change. Reimport the refreshed full patch file; local checks do not replace a fresh Studio import.
 
 ## Active world

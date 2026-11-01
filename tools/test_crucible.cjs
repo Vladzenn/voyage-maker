@@ -63,12 +63,14 @@ function harness(level=20){
  const c=()=>s.storage.cc1;
  const clock=()=>run('cc1_initialize');
  const enter=()=>{clock();run('cc1_register');};
- const win=()=>{s.action=['I am ready to begin my called bout.'];run('cc1_ready');const m=c().v===2?c().card[c().index]:c().matches.find(x=>x.id===c().match),op=c().v===2?m.opponent:m.players.find(x=>x!=='@');s.tick++;s.npcs[op].hp=0;run('cc1_observe');return op};
+ const win=()=>{s.action=['I am ready to begin my called bout.'];run('cc1_ready');const m=c().v>=2?c().card[c().index]:c().matches.find(x=>x.id===c().match),op=c().v>=2?m.opponent:m.players.find(x=>x!=='@');s.tick++;s.npcs[op].hp=0;run('cc1_observe');return op};
  return {s,run,c,clock,enter,win};
 }
 
 // VERSION DISPATCH: retain v1 fixtures as historical diagnostics; current code uses the card suite.
-if(w.triggerDefinitions.cc1_initialize.script.includes('v:2')){
+if(w.triggerDefinitions.cc1_initialize.script.includes('v:3')){
+ require('./test_crucible_v3.cjs')({w,manifest,harness,ck,getChecks:()=>checks});
+}else if(w.triggerDefinitions.cc1_initialize.script.includes('v:2')){
  require('./test_crucible_v2.cjs')({w,manifest,harness,ck,getChecks:()=>checks});
 }else{
 for(const name of manifest.triggers){const t=w.triggerDefinitions[name];ck(t.conditions.length<=5&&t.effects.length<=10,'Native trigger caps '+name);if(t.script)new vm.Script(t.script)}

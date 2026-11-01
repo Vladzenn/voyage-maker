@@ -1,0 +1,446 @@
+{
+  "apiBase": "https://api-alpha.aidungeon.com/creator/v1",
+  "worldShortId": "0kL8UR7rgsu2",
+  "contractSHA256": "20ab7bff23135a5598177376121e467051af168591edbea350a1fe3f6584d72e",
+  "remoteValidation": {
+    "data": {
+      "errors": [],
+      "stage": "draft",
+      "valid": true,
+      "warnings": []
+    },
+    "requestId": "727302bb-08e0-45ec-8a9a-ff3a218fa197"
+  },
+  "portraits": [
+    {
+      "path": [
+        "npcs",
+        "Akito Senzaki",
+        "portraitUrl"
+      ],
+      "before": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/d9af52a5-b024-4753-87d3-1ca3a62a3536.png",
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/12c54f4f-f120-4b2e-95f2-7ac85eda80cf.png",
+      "fileSHA256": "1d06bd667e3ad5653ed113f05235906ec7a8ae74d30aa1c425c69bb7477d9140"
+    },
+    {
+      "path": [
+        "npcs",
+        "Ayato Nikaidō",
+        "portraitUrl"
+      ],
+      "before": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/eb8b33c3-a59c-4866-99a2-2babe9ef18fd.png",
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/a3de5e4b-3055-43fd-a389-d315bd4f0a02.png",
+      "fileSHA256": "84b0c7788adfb3c2b9a052f16a71089ae7a9949eb2b32ea187278b897e70a2b0"
+    },
+    {
+      "path": [
+        "npcs",
+        "Chika Umemori",
+        "portraitUrl"
+      ],
+      "before": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/ccae8a14-faf6-4b21-a8af-c7ee7a8cf52e.png",
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/e08ac5bd-fc59-4692-8f05-9c638c8197de.png",
+      "fileSHA256": "90b4d46a57fc1a26cd812989ff5a5f0e38a2ebcca7a1dbea32c9e9574f9edba2"
+    },
+    {
+      "path": [
+        "npcs",
+        "Daichi Kawanobe",
+        "portraitUrl"
+      ],
+      "before": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/04b4c660-99f2-4320-922a-5aaf6548da1f.png",
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/c2c2e098-8811-4c07-9a94-f074ecbe196a.png",
+      "fileSHA256": "5c014e38dbd5e2388a37b17fa1267897e9a1e2ccaa12af4630ade6164385d948"
+    },
+    {
+      "path": [
+        "npcs",
+        "Daisuke Kariya",
+        "portraitUrl"
+      ],
+      "before": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/2928d882-e918-47a4-bb57-4872bc38d054.png",
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/08fcf65a-66b4-44f1-8a87-1165a54e75b9.png",
+      "fileSHA256": "ffd3fbe180701d2674c884d64ec8d3de610662f68bb674d3e0158b0f94ccdaab"
+    },
+    {
+      "path": [
+        "npcs",
+        "Eita Kuroda",
+        "portraitUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/294273fb-7547-426b-9c0a-c6d0c05a74a6.png",
+      "fileSHA256": "50aa716bf63305979509ab1cb8a2a1c4451d7171886e10f31610b5b695a8bb44"
+    },
+    {
+      "path": [
+        "npcs",
+        "Ema Tsukishiro",
+        "portraitUrl"
+      ],
+      "before": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/25f67b99-a2f5-4f8d-b076-7a97a8e57af0.png",
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/c057d010-37f4-4e0f-a7a5-a154197b723b.png",
+      "fileSHA256": "88e1963cdf725f0c05091356074406cfc58d4937cd98470467653f26bcbb90d5"
+    },
+    {
+      "path": [
+        "npcs",
+        "Fuyumi Hase",
+        "portraitUrl"
+      ],
+      "before": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/f61ce76f-df1e-41b9-b139-ee0fc077ae12.png",
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/433984d2-d0a1-47fe-9e07-761c534cc96f.png",
+      "fileSHA256": "9f697de63de36b49007966347abface27ac60edb63448efaaf894e44508e8e10"
+    },
+    {
+      "path": [
+        "npcs",
+        "Genta Shishido",
+        "portraitUrl"
+      ],
+      "before": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/7c0dcce8-319d-40fc-94f5-33d6fbfdf97b.png",
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/bf30eecc-5b6b-4e61-876e-15b2c5f857ca.png",
+      "fileSHA256": "2ae02b2c6613bf60978cee9eadcf0bbff829691514078be9f3e94c07997e7eb5"
+    },
+    {
+      "path": [
+        "npcs",
+        "Gorō Azuma",
+        "portraitUrl"
+      ],
+      "before": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/8607d7ee-9bcd-407f-aec2-e2a807199817.png",
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/745383cf-3d7b-424d-b089-e9298c9fd1cc.png",
+      "fileSHA256": "344a643a21bd091ede9cbc488350a248eb8174efe90cbe647dad2923fc6b1c76"
+    },
+    {
+      "path": [
+        "npcs",
+        "Haruna Yashima",
+        "portraitUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/7c47ba91-c4e4-40bb-9a50-a5554107789b.png",
+      "fileSHA256": "fec6a3d0df0c113081add1f1d9e930c5068df3def0f1c469a708e42e46c783c6"
+    },
+    {
+      "path": [
+        "npcs",
+        "Haruto Otsuki",
+        "portraitUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/34baefe9-5afe-4a65-95f7-5c4ee56d5fb6.png",
+      "fileSHA256": "90c3308aedd1920f6c6936b994254ff567c9cca066f1936efd124fbfe69224a6"
+    },
+    {
+      "path": [
+        "npcs",
+        "Hina Wakabayashi",
+        "portraitUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/29636473-8738-44ac-8ff4-63668e43182d.png",
+      "fileSHA256": "ccfec7e2202cea114e7b1f9d1370c89694acb757ae9bc5ae85ce1a9103316487"
+    },
+    {
+      "path": [
+        "npcs",
+        "Junpei Haneda",
+        "portraitUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/07721328-d24e-469b-be10-42befb67ec91.png",
+      "fileSHA256": "2896d815407ca17950a681ada03959222758bd282866d7ec8840a9769d47404a"
+    },
+    {
+      "path": [
+        "npcs",
+        "Kanna Tsuruno",
+        "portraitUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/ebbda8a2-d87f-4982-a1d5-f7a0ea724e8f.png",
+      "fileSHA256": "b1663d1a06e743d3b0e3ed908908d55ad6a040efeb0b29e98c125dadf19fb3d2"
+    },
+    {
+      "path": [
+        "npcs",
+        "Kenta Ishizaki",
+        "portraitUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/121b2727-ac75-4e2d-a343-ba3e8d6905e3.png",
+      "fileSHA256": "466474329bef165b83c90d724540153f72f21e2aea97a1e30b5d8e063ab75306"
+    },
+    {
+      "path": [
+        "npcs",
+        "Koharu Mikazuki",
+        "portraitUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/ba89b620-86a1-41d7-a2c5-a70eb2e34757.png",
+      "fileSHA256": "97132b497e2bf253574aa322e9bdd47c7e718e81e81843738749496759fb443a"
+    },
+    {
+      "path": [
+        "npcs",
+        "Kojirō Tsunematsu",
+        "portraitUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/4ea9550f-334a-45fc-bf9d-6fddcf622b07.png",
+      "fileSHA256": "81e1140235052307870b2437f1f66c9fad32b6c3348d40e4650e8b588524f60d"
+    },
+    {
+      "path": [
+        "npcs",
+        "Kōta Mibu",
+        "portraitUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/28ac8f80-171f-4dab-8ba8-fbbfe831cbff.png",
+      "fileSHA256": "065d8e0d1dfd50684c83a377bcfea75db8ca1e5d95ecf448af9570ec84e0f16a"
+    },
+    {
+      "path": [
+        "npcs",
+        "Masato Oda",
+        "portraitUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/12ca5cf3-e15a-462c-a8f9-332ed0b7baa3.png",
+      "fileSHA256": "a9103d3d63c8048964220fff87c0126797ffc3b6739f6d1d405bfcd5e2afd80b"
+    },
+    {
+      "path": [
+        "npcs",
+        "Mayu Kido",
+        "portraitUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/1e7aa647-ecb5-4157-89ee-227ac3b35e63.png",
+      "fileSHA256": "638536e17ae6bcb54feceb63638108b3e86d21e7800b5ae2f999f5427a82c6a4"
+    },
+    {
+      "path": [
+        "npcs",
+        "Midori Hozumi",
+        "portraitUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/5ff6f7aa-a957-4940-bf1f-7067770387c6.png",
+      "fileSHA256": "d307fef5719f63930225862b1112979868c10aebf60079e6b26e56a287954159"
+    },
+    {
+      "path": [
+        "npcs",
+        "Mihana Shiraishi",
+        "portraitUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/d3f038ee-4fd4-4f66-a589-adfd6984619b.png",
+      "fileSHA256": "1c2a5de199914d2f73fea944d3067c1feaac6176f29e576dae9bd17d6cb32e4e"
+    },
+    {
+      "path": [
+        "npcs",
+        "Mika Koshimizu",
+        "portraitUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/fde355a8-d7cb-4b5d-9c8c-65346ec26722.png",
+      "fileSHA256": "35f52a528260c180aec21d7465035dc0b0a52d032ee070944d4864bdae3eb948"
+    },
+    {
+      "path": [
+        "npcs",
+        "Mizuki Kaneshiro",
+        "portraitUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/f375675a-0d48-4fd5-b208-bb7f43f14e68.png",
+      "fileSHA256": "898abfd86a5c27938f6cf6ba6b410ca59d4935db83938d467dcfa0786e5d109c"
+    },
+    {
+      "path": [
+        "npcs",
+        "Momo Shiratori",
+        "portraitUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/f022178d-cc7c-47e7-ad28-a761fafa11b1.png",
+      "fileSHA256": "f85ca108a50eac0cd5e4abbea4d72ddecb608b2a77839b962fd6d6dc6e7ef85b"
+    },
+    {
+      "path": [
+        "npcs",
+        "Natsume Aiba",
+        "portraitUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/73ed63d1-5a41-4d6f-a948-b70bfec2cd3a.png",
+      "fileSHA256": "c9347da1b5e3ef1fc90fde86d98d1533803b34521fe0d4439556dce6bd287724"
+    },
+    {
+      "path": [
+        "npcs",
+        "Nene Inui",
+        "portraitUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/1c857f89-aa27-4a42-90b5-840e2c3434b6.png",
+      "fileSHA256": "9fb563cdf9282a77150b12cee32229e7aca39aaca957025eb8ae9a79abde0d58"
+    },
+    {
+      "path": [
+        "npcs",
+        "Nozomi Hayase",
+        "portraitUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/fb2e3af7-ae92-4696-abb4-726eff99798b.png",
+      "fileSHA256": "d2ac7e04201748de538f164033372ca7c0937fe3ba5b4d7509387f426924f016"
+    },
+    {
+      "path": [
+        "npcs",
+        "Ranmaru Tōdō",
+        "portraitUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/54900dbe-a056-43a1-af0e-1e1c881b8c23.png",
+      "fileSHA256": "605f296ea7ab3fa8996483b4a50731bd141e37dbffea022e09193ddc6c4fba1e"
+    },
+    {
+      "path": [
+        "npcs",
+        "Reina Hazakura",
+        "portraitUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/28219baf-5204-4c07-8718-884fe8098a2e.png",
+      "fileSHA256": "4b2365a7a8d5544296e057af7ca186d2b14cfb94e7200f2e40a34a38f0fa0422"
+    },
+    {
+      "path": [
+        "npcs",
+        "Rena Kogetsu",
+        "portraitUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/5e27fee1-1391-4d7b-9d60-60285d9e669e.png",
+      "fileSHA256": "643e66890013c37ef9977e50e72bf4e04e215009cfa78f16b8655c6f9e002164"
+    },
+    {
+      "path": [
+        "npcs",
+        "Renjirō Suda",
+        "portraitUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/c67fedcf-94de-4cef-b8c1-f8020283d417.png",
+      "fileSHA256": "81a791237c6b0ff8a117b59ac1154a8ad935ce6681ab28a3610146139f3dca84"
+    },
+    {
+      "path": [
+        "npcs",
+        "Riko Narumi",
+        "portraitUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/c355e275-fb0b-4069-a11f-22005cea2812.png",
+      "fileSHA256": "8d1c9ef97fe658ea5f9cd59d315c5d180f54e814ad240f0ddcc2a901f52d74ed"
+    },
+    {
+      "path": [
+        "npcs",
+        "Sayo Kirihara",
+        "portraitUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/b9533f68-877d-4825-9bd1-6af3cf6f29f8.png",
+      "fileSHA256": "8d5ebeec0017e21c3dd73c14eb8ce91c3742a92a3cc3f074ad82953a27a2278c"
+    },
+    {
+      "path": [
+        "npcs",
+        "Seiji Makabe",
+        "portraitUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/5893f388-8d58-474d-8a9c-ce4face847d6.png",
+      "fileSHA256": "a5f3e7bd72bccd71ab0458f94c099437440349975f957b2df7a65dcbd39a0683"
+    },
+    {
+      "path": [
+        "npcs",
+        "Shiori Takase",
+        "portraitUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/f2026e89-78b7-4c36-967d-5c51711bf351.png",
+      "fileSHA256": "c01dd5db0dd426bc92f9f1b96106c8e7322312d520af2d2f8c1d7a4a64f29a30"
+    },
+    {
+      "path": [
+        "npcs",
+        "Shun Kurebayashi",
+        "portraitUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/c349c71b-a0b2-4949-a0ff-f43df37bf5da.png",
+      "fileSHA256": "a1b69a6fd43a5301379eef59f5b7229346d15ec7643acb98ad759b36d9af1b4d"
+    },
+    {
+      "path": [
+        "npcs",
+        "Shōgo Mizutani",
+        "portraitUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/83a216cb-4152-4cc3-a84e-a704b4648541.png",
+      "fileSHA256": "0f604f38f6fe8e2189f4c7c66c06dcdaf5b1c9867ee23dadf11ccb5e59f6aec6"
+    },
+    {
+      "path": [
+        "npcs",
+        "Takeshi Onizuka",
+        "portraitUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/b76bd20a-2926-4af3-a16a-194a27016688.png",
+      "fileSHA256": "8813c77c18d45886422aed954a0ebdd3e684f4edf08adaf2f587fcb75475b272"
+    },
+    {
+      "path": [
+        "npcs",
+        "Threnvoss",
+        "portraitUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/76b9055c-05dd-4eaa-9623-54701a2b1440.png",
+      "fileSHA256": "902694976aadd38ecb84b3ba907fb0f90fb0777045c66d65746bea413fc12e40"
+    },
+    {
+      "path": [
+        "npcs",
+        "Tsubasa Maki",
+        "portraitUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/f6913452-b219-4a81-beb7-fa15d2947dfd.png",
+      "fileSHA256": "37e769107ada43d9baacca79a66afd42cedccea699c27e12911930c8d2494a56"
+    },
+    {
+      "path": [
+        "npcs",
+        "Yae Mitsuhara",
+        "portraitUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/5bfee5fe-946f-418d-ad81-79efed9482a0.png",
+      "fileSHA256": "685d730ecd22ea858aa684097623c208f1f71302e5f17e03b2433288049d480f"
+    }
+  ]
+}

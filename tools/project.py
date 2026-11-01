@@ -263,6 +263,8 @@ def publish(message):
     sync()
     validate()
     subprocess.run([sys.executable, str(ROOT / 'tools/test_validation.py')], cwd=ROOT, check=True)
+    if (ROOT / 'tools/test_voyage_portraits.py').exists():
+        subprocess.run([sys.executable, str(ROOT / 'tools/test_voyage_portraits.py')], cwd=ROOT, check=True)
     subprocess.run(['node', str(ROOT / 'tools/test_item_mechanics.cjs')], cwd=ROOT, check=True)
     if (ROOT / 'tools/test_adventurers.cjs').exists():
         subprocess.run(['node', str(ROOT / 'tools/test_adventurers.cjs')], cwd=ROOT, check=True)

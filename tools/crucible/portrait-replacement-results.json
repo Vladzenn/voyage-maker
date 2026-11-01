@@ -1,0 +1,217 @@
+[
+  {
+    "name": "Daichi Kawanobe",
+    "file": "world-draft/npc portraits/Daichi Kawanobe.png",
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-95818eeb-3413-4c78-9000-2182c518f9af.png"
+  },
+  {
+    "name": "Daisuke Kariya",
+    "file": "world-draft/npc portraits/Daisuke Kariya.png",
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-8cc8a1d4-5c94-4b5a-b7db-ad8db837edbf.png"
+  },
+  {
+    "name": "Eita Kuroda",
+    "file": "world-draft/npc portraits/Eita Kuroda.png",
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-a0b7905a-5c64-4e40-853e-7bc87df5263f.png"
+  },
+  {
+    "name": "Genta Shishido",
+    "file": "world-draft/npc portraits/Genta Shishido.png",
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-ef75a44c-b5ec-4287-9a3d-ece37303ee00.png"
+  },
+  {
+    "name": "Haruna Yashima",
+    "file": "world-draft/npc portraits/Haruna Yashima.png",
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-156d44b7-c375-4292-a601-1091624643a8.png"
+  },
+  {
+    "name": "Kenta Ishizaki",
+    "file": "world-draft/npc portraits/Kenta Ishizaki.png",
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-edec6d8a-4e47-41a9-90e1-061ccd5fb4cb.png"
+  },
+  {
+    "name": "Kōta Mibu",
+    "file": "world-draft/npc portraits/Kōta Mibu.png",
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-d1a1f505-734d-4f14-aa19-1f1676d16389.png"
+  },
+  {
+    "name": "Masato Oda",
+    "file": "world-draft/npc portraits/Masato Oda.png",
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-dec04953-dcfe-4ecc-bd7b-3c8c16042d0e.png"
+  },
+  {
+    "name": "Ranmaru Tōdō",
+    "file": "world-draft/npc portraits/Ranmaru Tōdō.png",
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-b6a7cbdf-231d-4532-b70f-12f11fe69f8a.png"
+  },
+  {
+    "name": "Seiji Makabe",
+    "file": "world-draft/npc portraits/Seiji Makabe.png",
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-72411aa4-e8d2-4653-a738-3108459f3144.png"
+  },
+  {
+    "name": "Nene Inui",
+    "file": "world-draft/npc portraits/Nene Inui.png",
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-028971f4-77e1-4fac-a711-36f110a581fe.png"
+  },
+  {
+    "name": "Chika Umemori",
+    "file": "world-draft/npc portraits/Chika Umemori.png",
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-40103484-53ac-4bf1-9cac-12e02d6f050f.png"
+  },
+  {
+    "name": "Shun Kurebayashi",
+    "file": "world-draft/npc portraits/Shun Kurebayashi.png",
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-5ff05d28-c4fa-4abb-80b8-224090aaacde.png"
+  },
+  {
+    "name": "Rena Kogetsu",
+    "file": "world-draft/npc portraits/Rena Kogetsu.png",
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-e277755f-636a-4d31-8e14-7ab6e0b796ca.png"
+  },
+  {
+    "name": "Fuyumi Hase",
+    "file": "world-draft/npc portraits/Fuyumi Hase.png",
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-c6400e84-0045-4ab1-9049-6dc82259b20a.png"
+  },
+  {
+    "name": "Tsubasa Maki",
+    "file": "world-draft/npc portraits/Tsubasa Maki.png",
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-26fcddeb-f638-4be6-98f5-d1a5e7b6b66b.png"
+  },
+  {
+    "name": "Yae Mitsuhara",
+    "file": "world-draft/npc portraits/Yae Mitsuhara.png",
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-79ec6377-0903-41a4-bf7f-cdc4a8681cfb.png"
+  },
+  {
+    "name": "Mayu Kido",
+    "file": "world-draft/npc portraits/Mayu Kido.png",
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-c4c1accb-f9d2-4425-9217-023d758f1782.png"
+  },
+  {
+    "name": "Akito Senzaki",
+    "file": "world-draft/npc portraits/Akito Senzaki.png",
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-716919c2-8069-4f37-9420-77f67d396272.png"
+  },
+  {
+    "name": "Mihana Shiraishi",
+    "file": "world-draft/npc portraits/Mihana Shiraishi.png",
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-50e5c36b-ec9e-42c3-9c3a-dd58bde8c218.png"
+  },
+  {
+    "name": "Junpei Haneda",
+    "file": "world-draft/npc portraits/Junpei Haneda.png",
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-fd0f7b71-05c7-471b-a83e-f66e151e538c.png"
+  },
+  {
+    "name": "Riko Narumi",
+    "file": "world-draft/npc portraits/Riko Narumi.png",
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-5341925f-03cf-4908-b04c-da83e9e5308d.png"
+  },
+  {
+    "name": "Sayo Kirihara",
+    "file": "world-draft/npc portraits/Sayo Kirihara.png",
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-86845f4d-d6ba-48fa-be1d-0c06486b91a1.png"
+  },
+  {
+    "name": "Haruto Otsuki",
+    "file": "world-draft/npc portraits/Haruto Otsuki.png",
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-353c3d81-b945-46b3-a21b-8446dfbbe841.png"
+  },
+  {
+    "name": "Natsume Aiba",
+    "file": "world-draft/npc portraits/Natsume Aiba.png",
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-a2e4b474-2a7d-4682-b798-8f6a2bb6ec12.png"
+  },
+  {
+    "name": "Midori Hozumi",
+    "file": "world-draft/npc portraits/Midori Hozumi.png",
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-05a43982-f77a-4647-95c6-ccf6a944c75b.png"
+  },
+  {
+    "name": "Kojirō Tsunematsu",
+    "file": "world-draft/npc portraits/Kojirō Tsunematsu.png",
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-9fd1a344-b2e3-4f2b-97bb-f71b423c8bc0.png"
+  },
+  {
+    "name": "Ema Tsukishiro",
+    "file": "world-draft/npc portraits/Ema Tsukishiro.png",
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-ec590df3-7d78-4089-86a1-eae312cf872a.png"
+  },
+  {
+    "name": "Ayato Nikaidō",
+    "file": "world-draft/npc portraits/Ayato Nikaidō.png",
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-aba8c8c9-aa9f-49cb-aaec-f59ae6e1d5af.png"
+  },
+  {
+    "name": "Kanna Tsuruno",
+    "file": "world-draft/npc portraits/Kanna Tsuruno.png",
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-1d01db68-3a35-4f8a-9ed9-e9652e33508f.png"
+  },
+  {
+    "name": "Mizuki Kaneshiro",
+    "file": "world-draft/npc portraits/Mizuki Kaneshiro.png",
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-63548181-2dbc-4b59-aabe-9f7ec4f0853d.png"
+  },
+  {
+    "name": "Takeshi Onizuka",
+    "file": "world-draft/npc portraits/Takeshi Onizuka.png",
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-6a6c09a8-1842-44c6-949d-931bcb64644a.png"
+  },
+  {
+    "name": "Reina Hazakura",
+    "file": "world-draft/npc portraits/Reina Hazakura.png",
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-5fa33024-68f8-4884-bd74-3bc2c31c31e1.png"
+  },
+  {
+    "name": "Shōgo Mizutani",
+    "file": "world-draft/npc portraits/Shōgo Mizutani.png",
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-4d1e3258-fd90-4aa9-8957-b2b4f8f565f1.png"
+  },
+  {
+    "name": "Nozomi Hayase",
+    "file": "world-draft/npc portraits/Nozomi Hayase.png",
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-99d5c98c-6a53-473b-ae10-0f7da940f68b.png"
+  },
+  {
+    "name": "Gorō Azuma",
+    "file": "world-draft/npc portraits/Gorō Azuma.png",
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-2adf3636-3ae7-4db3-9914-9892b7ce416e.png"
+  },
+  {
+    "name": "Hina Wakabayashi",
+    "file": "world-draft/npc portraits/Hina Wakabayashi.png",
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-108cee86-b17f-451e-9556-40de9655e79d.png"
+  },
+  {
+    "name": "Mika Koshimizu",
+    "file": "world-draft/npc portraits/Mika Koshimizu.png",
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-6ae35613-60ff-4813-a646-d8955b8c445a.png"
+  },
+  {
+    "name": "Renjirō Suda",
+    "file": "world-draft/npc portraits/Renjirō Suda.png",
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-89954392-a74d-4205-8f0b-b3c2324153a6.png"
+  },
+  {
+    "name": "Momo Shiratori",
+    "file": "world-draft/npc portraits/Momo Shiratori.png",
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-c0d74736-0b6d-434e-a3a6-33d6642e1a33.png"
+  },
+  {
+    "name": "Shiori Takase",
+    "file": "world-draft/npc portraits/Shiori Takase.png",
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-88ed666f-7e17-4c3e-8b6b-a427200d59c9.png"
+  },
+  {
+    "name": "Koharu Mikazuki",
+    "file": "world-draft/npc portraits/Koharu Mikazuki.png",
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-0533ac5c-f853-4b83-add0-9fb4d5fa1869.png"
+  },
+  {
+    "name": "Threnvoss",
+    "file": "world-draft/npc portraits/Threnvoss.png",
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-8768c879-b975-40a8-bdd6-139bfa7e1006.png"
+  }
+]

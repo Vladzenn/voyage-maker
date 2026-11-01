@@ -116,6 +116,8 @@ Do not add a **Faction** field to the NPC authoring note; keep **Role in faction
 
 **Relationships:** [Important ties to other characters, classes, academies, or factions.]
 
+Named relationships are selective. Give the cast a few specific connections where they create useful scenes; do not pair every new NPC with another roster member or repeat the same friendship across the cast. Family, coworkers or ordinary acquaintances can remain unnamed when no authored individual is needed. Keep this existing field proportionate to what is actually established.
+
 **How it surfaces:** [Behavior, clues, or earned circumstances through which the player can discover the information.]
 
 ### Personality

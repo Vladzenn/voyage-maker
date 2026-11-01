@@ -1,3 +1,5 @@
+> Historical controller document. The approved current implementation is [Crucible Bracket - Mechanics](Crucible%20Bracket%20-%20Mechanics.md).
+
 # Crucible championship card — current mechanics
 
 Controller v2 · 2 November 2026. This supersedes the full-bracket/review design in the original Crucible guide. It is implemented in the canonical world; live Studio and combat behavior still require testing.

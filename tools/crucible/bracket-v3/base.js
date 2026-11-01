@@ -1,0 +1,14 @@
+const tick=check({type:'game-tick'}),venue='The Eternal Crucible';
+const levels=check({type:'player-level'})||{},names=Object.keys(levels),solo=names.length===1,here=check({type:'party-location'})===venue;
+const c=storage.cc1=storage.cc1||{v:3,phase:'idle',edition:0,nextTick:0,history:[],prizes:{},care:{},card:[],index:0};
+const roster=ROSTER.map(([name,level])=>({name,level})),rings=RINGS;
+const say=instruction=>effects.push({type:'story',instruction});
+const current=()=>c.card?.[c.index||0];
+const health=n=>check({type:'npc-health',npc:n});
+const playerHealth=()=>((check({type:'player-resource',resource:'Health'})||{})[c.entrant]);
+const active=()=>['waiting','live'].includes(c.phase);
+const mirror=()=>{storage.cc1_phase=c.phase;storage.cc1_live=c.phase==='live';storage.cc1_active=active();storage.cc1_due=Object.keys(c.prizes||{}).length>0;storage.cc1_care=Object.keys(c.care||{}).length>0;};
+const rnd=()=>{c.seed=((c.seed||1931)*1664525+1013904223)>>>0;return c.seed/4294967296;};
+const available=x=>x.name!==c.entrant&&check({type:'npc-location',npc:x.name})===venue&&check({type:'npc-in-party',npc:x.name})!==true&&check({type:'npc-in-combat',npc:x.name})!==true&&!(typeof health(x.name)==='number'&&health(x.name)<=0);
+const inRing=m=>here&&m&&check({type:'party-area'})===m.arena&&check({type:'npc-location',npc:m.opponent})===venue&&check({type:'npc-area',npc:m.opponent})===m.arena;
+const callNext=()=>{const m=current();if(!m)return;if(available({name:m.opponent}))effects.push({type:'known-entity',entity:m.opponent,operator:'set',value:true},{type:'npc-placement',npc:m.opponent,operation:'moveTo',location:venue,area:venue+' - Competitor Lounge'});say('Called bout: '+m.label+', '+c.entrant+' versus '+m.opponent+' at '+m.arena+'. Wait for explicit readiness. Watching, talking, resting or moving does not start or forfeit the entry.');};

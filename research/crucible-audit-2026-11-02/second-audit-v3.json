@@ -1,0 +1,24 @@
+{
+  "controller": "3",
+  "scope": "Actual emitted scripts in isolated fixture; semantic answers supplied, not live Voyage.",
+  "results": [
+    {
+      "case": "Incapacity outside arena: opponent",
+      "phase": "live",
+      "outcome": "competing",
+      "result": null
+    },
+    {
+      "case": "Incapacity outside arena: player",
+      "phase": "live",
+      "outcome": "competing",
+      "result": null
+    },
+    {
+      "case": "A second human joins",
+      "phase": "waiting",
+      "outcome": "competing",
+      "entrant": "Player"
+    }
+  ]
+}

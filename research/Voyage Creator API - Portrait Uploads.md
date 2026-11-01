@@ -1,0 +1,11 @@
+# Creator API portrait upload verification
+
+Verified 2 November 2026 against the official Alpha contract supplied by the author: `https://api-alpha.aidungeon.com/creator/v1/openapi.json` and its `agent-guide.md`. The public Studio documentation page returned HTTP 403 to direct requests; the API contract itself was accessible. The author explicitly selected Alpha. No browser automation was used.
+
+The current direct upload flow is authenticated `POST /uploads`, raw unauthenticated `PUT` to the returned signed URL, then authenticated `POST /worlds/{shortId}/uploads/{uploadId}/moderate`. Both POST requests require distinct persistent `Idempotency-Key` values. Moderation returns `data.success=true` and `data.imageUrl`. It does **not** save the world. Current rules allow PNG/JPEG/WebP, at most 5 MiB, and at least 600 by 600 pixels for gameplay targets; NPC 750 by 1000 is a recommendation, not a required ratio. The shipped uploader accepts PNG/JPEG and reads dimensions from bytes.
+
+The current World Puppeteer `upload-image.mjs` was fetched directly and read, not installed or executed. It confirms the same three-stage flow. A search-engine cached copy still contained an older Catbox implementation, illustrating why it was not used as authority. Source: [reference uploader](https://github.com/nikolaj-lat/World-Puppeteer/blob/main/.claude/skills/image-gen/scripts/upload-image.mjs).
+
+Our implementation adds exact canonical-name matching, explicit overwrite selection, duplicate/missing-file reports, source-file hashes, resumable idempotent stages, bounded retries, strict authentication separation, source-drift checks, local validation and official draft validation. The key is process-only and not saved to disk. A proposed plaintext credential file was rejected by approval review and was not created.
+
+Live result: 43 requested portraits were uploaded, successfully moderated and assigned to 43 distinct hosted URLs in a separate local candidate. A resume pass reused all receipts without uploading again. Every filename/hash/character mapping was checked. Official draft validation returned `valid: true`, no errors and no warnings. Studio was not replaced or published. Current location and map URLs were preserved.

@@ -1,0 +1,32 @@
+{
+  "controller": "2",
+  "scope": "Actual emitted scripts in isolated fixture; semantic answers supplied, not live Voyage.",
+  "results": [
+    {
+      "case": "Incapacity outside arena: opponent",
+      "phase": "waiting",
+      "outcome": "competing",
+      "result": {
+        "winner": "player",
+        "reason": "actual opponent incapacity",
+        "tick": 2
+      }
+    },
+    {
+      "case": "Incapacity outside arena: player",
+      "phase": "closed",
+      "outcome": "eliminated",
+      "result": {
+        "winner": "opponent",
+        "reason": "actual player incapacity",
+        "tick": 2
+      }
+    },
+    {
+      "case": "A second human joins",
+      "phase": "closed",
+      "outcome": "cancelled",
+      "entrant": "Player"
+    }
+  ]
+}

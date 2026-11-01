@@ -1,3 +1,5 @@
+> Historical controller document. The approved current implementation is [Crucible Bracket - Mechanics](Crucible%20Bracket%20-%20Mechanics.md).
+
 # Champions of the Crucible — mechanics and playtest guide
 
 **Historical v1 design.** The 2 November revision replaces the full bracket, away/review states and replay handling. Read [Crucible Championship Card — current mechanics](Crucible%20Championship%20Card%20-%20Mechanics.md) for actual v2 behavior, preserved Studio changes and remaining live tests. The older detail below is retained for audit context and must not be treated as current implementation.

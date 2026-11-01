@@ -10,7 +10,7 @@ This update also reaches beyond the stands, with a haunted sanctuary to explore,
 
 Join optional individual championships with changing fields, named cups and opponents selected around your experience. Familiar competitors retain their own strengths, so learning how someone fights can matter when you meet them again.
 
-- Work your way through your scheduled bouts toward the final, with prizes and a championship trophy waiting for the winner.
+- Work through an elimination bracket toward the final, with prizes and a championship trophy waiting for the winner. Other competitors have results of their own, and the championship can produce a winner even if your run ends early.
 - Compete under regulated, nonlethal rules. Surrender, referee stoppages and defeat are part of a sporting career, and losing ends that championship run.
 - Return for later editions after a proper break, or arrange a willing opponent for an ordinary friendly match between championships.
 
@@ -22,9 +22,10 @@ Use the layout to find an opening, protect your approach or reconsider a techniq
 
 ### 🤝 Meet the People Behind the Matches
 
-A new cast of competitors and arena staff brings rivalries, nerves, pride and ordinary lives into the Crucible. Some fighters are friendly company. Others are much easier to appreciate from the opposite end of the lounge.
+Meet **43 new characters**, including competitors, arena staff, shady contacts and a new dungeon boss. Rivalries, nerves, pride and ordinary lives bring more to the Crucible than fighting alone. Some fighters are friendly company. Others are petty, exploitative or much easier to appreciate from the opposite end of the lounge.
 
 - Face a broad roster of fighters with different weapons, magical disciplines and fighting styles.
+- New portraits bring brighter magic, more distinctive combat effects and a colorful cast to meet.
 - Talk with opponents before and between bouts, learn about their interests and get a sense of who you are about to face.
 - Meet officials and medical staff who help keep the venue running.
 - Spend time practicing or discussing techniques when you aren't chasing a title. The Crucible remains open between championships.

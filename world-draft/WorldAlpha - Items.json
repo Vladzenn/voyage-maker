@@ -260,25 +260,29 @@
     "name": "Guild Badge: Bronze",
     "category": "Document",
     "bonuses": [],
-    "description": "A personal Adventurer’s Guild badge bearing the Bronze rank and the branch’s registration seal. Its holder is licensed to accept Bronze contracts and requests of lower rank."
+    "description": "A personal Adventurer’s Guild badge bearing the Bronze rank and the branch’s registration seal. Its holder is licensed to accept Bronze contracts and requests of lower rank.",
+    "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/generated_content/0/images/item_images/6188afba-ec9e-4569-a341-06e55b50835b.png"
   },
   "Guild Badge: Silver": {
     "name": "Guild Badge: Silver",
     "category": "Document",
     "bonuses": [],
-    "description": "A personal Adventurer’s Guild badge bearing the Silver rank and the branch’s registration seal. Its holder is licensed to accept Silver contracts and requests of lower rank."
+    "description": "A personal Adventurer’s Guild badge bearing the Silver rank and the branch’s registration seal. Its holder is licensed to accept Silver contracts and requests of lower rank.",
+    "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/generated_content/0/images/item_images/f73b7f44-db7f-4d97-bb30-d6cdb3282662.png"
   },
   "Guild Badge: Gold": {
     "name": "Guild Badge: Gold",
     "category": "Document",
     "bonuses": [],
-    "description": "A personal Adventurer’s Guild badge bearing the Gold rank and the branch’s registration seal. Its holder is licensed to accept Gold contracts and requests of lower rank."
+    "description": "A personal Adventurer’s Guild badge bearing the Gold rank and the branch’s registration seal. Its holder is licensed to accept Gold contracts and requests of lower rank.",
+    "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/generated_content/0/images/item_images/9223aaa5-8d31-4a08-9794-12d1be5d49a3.png"
   },
   "Guild Badge: Platinum": {
     "name": "Guild Badge: Platinum",
     "category": "Document",
     "bonuses": [],
-    "description": "A personal Adventurer’s Guild badge bearing the Platinum rank and the branch’s registration seal. Its holder is licensed to accept Platinum contracts and requests of lower rank."
+    "description": "A personal Adventurer’s Guild badge bearing the Platinum rank and the branch’s registration seal. Its holder is licensed to accept Platinum contracts and requests of lower rank.",
+    "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/generated_content/0/images/item_images/ff21234a-3920-4563-87d9-fd958b293788.png"
   },
   "Guild Exam Docket": {
     "name": "Guild Exam Docket",
@@ -452,7 +456,8 @@
     ],
     "tier": "mundane",
     "estimatedValue": 75,
-    "slot": "weapon"
+    "slot": "weapon",
+    "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/generated_content/0/images/item_images/d6d42357-e45f-41d3-806a-950c52149ad5.png"
   },
   "Copperleaf Cutlass": {
     "name": "Copperleaf Cutlass",
@@ -547,7 +552,8 @@
     ],
     "tier": "artisan",
     "estimatedValue": 220,
-    "slot": "weapon"
+    "slot": "weapon",
+    "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/generated_content/0/images/item_images/99264ced-b875-4862-8756-5fa4cb2d1935.png"
   },
   "Three-Ring Estoc": {
     "name": "Three-Ring Estoc",
@@ -642,7 +648,8 @@
     ],
     "tier": "artisan",
     "estimatedValue": 490,
-    "slot": "weapon"
+    "slot": "weapon",
+    "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/generated_content/0/images/item_images/67eb76eb-ef02-478b-b815-5a5f3f35171b.png"
   },
   "The Red Horizon": {
     "name": "The Red Horizon",
@@ -722,7 +729,8 @@
     ],
     "tier": "artisan",
     "estimatedValue": 240,
-    "slot": "weapon"
+    "slot": "weapon",
+    "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/generated_content/0/images/item_images/4df2b4e5-d1d9-463d-8907-b681ff8cf4ee.png"
   },
   "The Apologetic Knife": {
     "name": "The Apologetic Knife",
@@ -832,7 +840,8 @@
     ],
     "tier": "mundane",
     "estimatedValue": 40,
-    "slot": "weapon"
+    "slot": "weapon",
+    "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/generated_content/0/images/item_images/068592f9-117f-40f6-a883-3423aedf5823.png"
   },
   "Ferrywatch Spear": {
     "name": "Ferrywatch Spear",
@@ -1012,7 +1021,8 @@
     ],
     "tier": "artisan",
     "estimatedValue": 310,
-    "slot": "weapon"
+    "slot": "weapon",
+    "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/generated_content/0/images/item_images/96810c27-7307-4a23-988f-54ace54fd2e7.png"
   },
   "Widow's Promise": {
     "name": "Widow's Promise",
@@ -1182,7 +1192,8 @@
     ],
     "tier": "special",
     "estimatedValue": 1600,
-    "slot": "weapon"
+    "slot": "weapon",
+    "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/generated_content/0/images/item_images/68e8fa2d-0e20-4a16-a0c7-08add6baa1a2.png"
   },
   "Yew Hunting Bow": {
     "name": "Yew Hunting Bow",
@@ -1392,7 +1403,8 @@
     ],
     "tier": "artisan",
     "estimatedValue": 390,
-    "slot": "weapon"
+    "slot": "weapon",
+    "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/generated_content/0/images/item_images/c3dcda2f-3029-4b22-9b7c-d3f5e7b10915.png"
   },
   "The Rain-Hating Staff": {
     "name": "The Rain-Hating Staff",
@@ -1502,7 +1514,8 @@
     ],
     "tier": "mundane",
     "estimatedValue": 40,
-    "slot": "weapon"
+    "slot": "weapon",
+    "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/generated_content/0/images/item_images/46c3548a-c056-4352-99ab-7fc747927414.png"
   },
   "Ribbonsteel Lash": {
     "name": "Ribbonsteel Lash",
@@ -1537,7 +1550,8 @@
     ],
     "tier": "artisan",
     "estimatedValue": 360,
-    "slot": "weapon"
+    "slot": "weapon",
+    "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/generated_content/0/images/item_images/37c57096-58fa-4d04-8d9e-233fa081a40d.png"
   },
   "Violet Reprimand": {
     "name": "Violet Reprimand",
@@ -1572,7 +1586,8 @@
     ],
     "tier": "mundane",
     "estimatedValue": 100,
-    "slot": "weapon"
+    "slot": "weapon",
+    "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/generated_content/0/images/item_images/ea21f119-27d2-4248-87d4-f71c29ef4202.png"
   },
   "Brassguard Twinblade": {
     "name": "Brassguard Twinblade",
@@ -1592,7 +1607,8 @@
     ],
     "tier": "artisan",
     "estimatedValue": 250,
-    "slot": "weapon"
+    "slot": "weapon",
+    "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/generated_content/0/images/item_images/5c6cfe81-f0c2-41c5-81d9-7afee6675e33.png"
   },
   "Snowwheel Twinblade": {
     "name": "Snowwheel Twinblade",
@@ -1672,7 +1688,8 @@
     ],
     "tier": "artisan",
     "estimatedValue": 115,
-    "slot": "weapon"
+    "slot": "weapon",
+    "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/generated_content/0/images/item_images/d4046321-b51c-4ebc-9408-61ad68f3ed54.png"
   },
   "Stonebrace Gauntlets": {
     "name": "Stonebrace Gauntlets",
@@ -1752,7 +1769,8 @@
     ],
     "tier": "artisan",
     "estimatedValue": 190,
-    "slot": "weapon"
+    "slot": "weapon",
+    "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/generated_content/0/images/item_images/4d929d67-5bc3-46cf-aafc-ea6aba2dcf43.png"
   },
   "Riveted Tower Shield": {
     "name": "Riveted Tower Shield",
@@ -1927,7 +1945,8 @@
     ],
     "tier": "artisan",
     "estimatedValue": 440,
-    "slot": "weapon"
+    "slot": "weapon",
+    "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/generated_content/0/images/item_images/4c630e4d-ff79-4675-8b2d-19fed27c613a.png"
   },
   "The Undertaker's Compliment": {
     "name": "The Undertaker's Compliment",
@@ -5059,5 +5078,61 @@
     "tier": "special",
     "estimatedValue": 1950,
     "mediaContent": "Invitation to an Empty Room\n\nA painted door opens onto a perfectly ordinary room. The invitation inside has been left politely unsigned.\n\nLay a convincing visual and audible impression over one visible doorway or opening, suggesting an empty interior from a limited approach. Observation, touch, movement and contrary evidence can expose it. The illusion does not alter the actual room or transport anyone.\n\nDiscipline: Illusion Magic. Working cost: 24 Mana.\n\nThe annotations distinguish the shape of the working from the strength needed to perform it. Trace the relationships, find the part you do not yet understand, and test it carefully. The completed formula leaves the page as its understanding settles into the reader; an unsuccessful attempt leaves the script intact."
+  },
+  "Roseberry Attic Room Key": {
+    "name": "Roseberry Attic Room Key",
+    "category": "Key",
+    "description": "A brass key to the private attic guest room at Roseberry Inn, hired for the agreed paid stay. Its little tag bears the guest's name and the arrangement made at the desk. The room contains a bed, washstand, locking chest and writing table; the other rooms remain other guests' property.",
+    "tier": "mundane",
+    "estimatedValue": 1,
+    "bonuses": []
+  },
+  "Whitepass Drying-Loft Key": {
+    "name": "Whitepass Drying-Loft Key",
+    "category": "Key",
+    "description": "A broad iron key to the hired private room above Whitepass Caravan Lodge's drying loft. Akemi Fushida's tag records the lodger and paid stay. It opens a warm room with a sturdy bed, gear hooks and a shuttered mountain window; it is not a key to the lodge's stores or other guests' rooms.",
+    "tier": "mundane",
+    "estimatedValue": 1,
+    "bonuses": []
+  },
+  "Canopy Guest Bough Key": {
+    "name": "Canopy Guest Bough Key",
+    "category": "Key",
+    "description": "A small carved key to a private hired guest bough in Asterveil Canopy. A knotted tag records the visitor and agreed stay. The room has an adjustable sleeping nook, a sheltered work shelf and space for ordinary luggage; the surrounding household's private branches remain private.",
+    "tier": "mundane",
+    "estimatedValue": 1,
+    "bonuses": []
+  },
+  "Willowbend Cottage Key and Deed": {
+    "name": "Willowbend Cottage Key and Deed",
+    "category": "Document",
+    "description": "The iron front-door key and folded deed to the purchased Willowbend courtyard cottage. The papers name the buyer and describe a small private home with a kitchen, sleeping room, storage loft and narrow garden. It is a modest permanent home, with the responsibilities of maintaining it.",
+    "tier": "mundane",
+    "estimatedValue": 1,
+    "bonuses": []
+  },
+  "Bench Workshop Key and Deed": {
+    "name": "Bench Workshop Key and Deed",
+    "category": "Document",
+    "description": "A square brass key tied to the purchase papers for the small bench workshop on Merchant's Row. The buyer is named beside a plan of the workroom, counter and lockable materials cupboard. The building supplies ordinary workspace; specialized tools, rare materials and customers must be acquired separately.",
+    "tier": "mundane",
+    "estimatedValue": 1,
+    "bonuses": []
+  },
+  "Snowmelt Landing Key and Deed": {
+    "name": "Snowmelt Landing Key and Deed",
+    "category": "Document",
+    "description": "A heavy iron key and purchase deed for a compact flat off Snowmelt Residential Steps. The papers name its buyer. Inside are a sleeping alcove, a tiny hearth kitchen, a work table and a sheltered gear cupboard. Ownership of this flat grants no clan membership or authority over the shared stair.",
+    "tier": "mundane",
+    "estimatedValue": 1,
+    "bonuses": []
+  },
+  "Stillwind Pearl": {
+    "name": "Stillwind Pearl",
+    "category": "Relic",
+    "description": "A pale, hollow-luster pearl formed within a sky nautilus's current-sensing chamber. Fine bands in its surface briefly repeat the air-and-mana pattern of the place where it formed. A fresh specimen loses that clear pattern over a few hours, leaving a beautiful and scientifically interesting shell-like bead. It supplies no endless power.",
+    "tier": "special",
+    "estimatedValue": 900,
+    "bonuses": []
   }
 }

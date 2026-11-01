@@ -178,8 +178,8 @@
     },
     "hiddenInfo": "Ranka Kagari has a promising recovery formula and inconsistent dosage sheets. She wants profits without inconvenient oversight; a serious adverse reaction could cost her teaching post. Haruki Saitō noticed the incompatible sheets but has not established the cause. Evidence could support corrected trials, a delayed sale, a private bargain, or a complaint to Kōhei Sanada. Preserve Ranka Kagari's selfishness and irritation. The dueling club independently needs partners, scorekeepers, and controlled drills. Surface one relevant opportunity when approached; resolved incidents stay resolved.\n\nUse only relevant unresolved situations. Introduce evidence through observation or people who know it. Preserve actual resolutions and player choices; these possibilities are not events that automatically occur on every visit. Ritsu Kurogane can also offer a voluntary stopping-control drill with Takeru Akabane and Yūma Kurobane. Treat Yūma Kurobane's grand claims as role-play, never secret power.\n\nLocal authored opportunities, only when their actual premises and relevant contacts fit: Phoenix Wing: A Spell of Your Own; Phoenix Wing: One Question Worth Answering; The Line Behind You; The Prize in the Flask; A Demonstration of Terrible Importance. Invitations are optional; do not insert all of them into one arrival, disclose private motives, invent missing people or accept for the player.\nIf the player actually seeks a small personal spell experiment, Your First Spell is an optional existing goal. Use real available teaching/help and actual learned disciplines; do not force this on ordinary visitors or interrupt the selected opening lesson.",
     "npcLevelRange": {
-      "min": 10,
-      "max": 55
+      "min": 12,
+      "max": 32
     }
   },
   "Hydra Head Academy": {
@@ -363,8 +363,8 @@
     },
     "hiddenInfo": "A fragrance batch prepared with Kaoruko Hanazono changes on warm cloth after its carrier separates. Reika Saionji wants a viable collaboration without inconsistent goods. Céline Desrosiers at The Perfumed Rose can compare samples if consulted. A player can reblend, propose a smaller honest release, or delay the sale while protecting the buyer's private brief. No scent reads minds or compels attraction. Kana Fujimoto separately suspects an attentive classmate was an illusion left by Tōma Utsugi; these incidents need not happen together.\n\nUse only relevant unresolved situations. Introduce evidence through observation or people who know it. Preserve actual resolutions and player choices; these possibilities are not events that automatically occur on every visit. Homura Hibino may seek a more spectacular demonstration than Kana Fujimoto permits. A clever low-yield design, approved practice time, or an honest refusal can resolve it; actual broken limits have consequences.\n\nLocal authored opportunities, only when their actual premises and relevant contacts fit: Hydra Head: A Spell of Your Own; Hydra Head: One Question Worth Answering; A Costume with Opinions; A Very Dignified Relay; The Last Sweet on the Table. Invitations are optional; do not insert all of them into one arrival, disclose private motives, invent missing people or accept for the player.\nIf the player actually seeks a small personal spell experiment, Your First Spell is an optional existing goal. Use real available teaching/help and actual learned disciplines; do not force this on ordinary visitors or interrupt the selected opening lesson.",
     "npcLevelRange": {
-      "min": 10,
-      "max": 55
+      "min": 12,
+      "max": 32
     }
   },
   "Gryffin Tail Academy": {
@@ -544,8 +544,8 @@
     },
     "hiddenInfo": "Two equivalent practical submissions have received different reassessment requirements. Norio Shibata will correct a factual record but hesitates to challenge policy; Gen'ichirō Mizuhara disguises selective obstruction as academic rigor. Sōichirō Takamine will examine evidence if approached without volunteering private research. A player can seek an equal retest, document unfairness, bargain privately, or exploit it. The outcome need not redeem anyone. Satoru Kanda's observed casting, Renji Hanabusa's reputation management, and Maki Ogasawara's exam anxiety create separate opportunities, not one compulsory group project.\n\nUse only relevant unresolved situations. Introduce evidence through observation or people who know it. Preserve actual resolutions and player choices; these possibilities are not events that automatically occur on every visit. Maki Ogasawara needs a practical explanation for an approaching assessment; Satoru Kanda and Fumito Sakurai can help if they actually agree. Preserve her genuine academic weakness instead of inventing hidden brilliance.\n\nLocal authored opportunities, only when their actual premises and relevant contacts fit: Gryffin Tail: A Spell of Your Own; Gryffin Tail: One Question Worth Answering; Perfect on the Blackboard; Polish Versus Proof; An Answer Nobody Asked For. Invitations are optional; do not insert all of them into one arrival, disclose private motives, invent missing people or accept for the player.\nIf the player actually seeks a small personal spell experiment, Your First Spell is an optional existing goal. Use real available teaching/help and actual learned disciplines; do not force this on ordinary visitors or interrupt the selected opening lesson.",
     "npcLevelRange": {
-      "min": 10,
-      "max": 55
+      "min": 12,
+      "max": 32
     }
   },
   "Dragon Hoard Academy": {
@@ -717,8 +717,8 @@
     "initialKnown": true,
     "hiddenInfo": "Mai Kajiwara has been asked to inspect Suzune Mikazuki's shield after a delayed discharge. Expensive equipment and conflicting recollections make blame easier than diagnosis. An incompatible replacement collar actually interrupts the return flow. Mai Kajiwara wants paid, bounded work rather than a free repair queue. Testing requires permission, a safe target, and a supervisor. Diagnosis can lead to a repair, a supplier claim, or cancellation. Nanami Tokuda's betting board and Kōsuke Shishido's missing staff remain lighter independent situations.\n\nUse only relevant unresolved situations. Introduce evidence through observation or people who know it. Preserve actual resolutions and player choices; these possibilities are not events that automatically occur on every visit. Kōsuke Shishido's staff was left behind a display after a familiar visit; Shunpei Makino and Ema Tsunoda saw different parts of its harmless journey. Genzō Iwakura also has a report of damaged fencing near West Glowhaven Woods. Supervised fieldwork can investigate a territorial moss-backed boar; he remains powerful while his injured leg complicates pursuit.\n\nLocal authored opportunities, only when their actual premises and relevant contacts fit: Phoenix Wing: The Familiar Examination; Gryffin Tail: The Familiar Examination; Dragon Hoard: A Spell of Your Own; Dragon Hoard: The Familiar Examination; Dragon Hoard: One Question Worth Answering; Hydra Head: The Familiar Examination; The Relic That Refused to Pose; The Shortcut Has Teeth; The Archon Has Left the Building. Invitations are optional; do not insert all of them into one arrival, disclose private motives, invent missing people or accept for the player.\nIf the player actually seeks a small personal spell experiment, Your First Spell is an optional existing goal. Use real available teaching/help and actual learned disciplines; do not force this on ordinary visitors or interrupt the selected opening lesson.",
     "npcLevelRange": {
-      "min": 10,
-      "max": 55
+      "min": 12,
+      "max": 32
     },
     "images": {
       "establishingShot": {
@@ -858,7 +858,7 @@
   },
   "Merchant's Row": {
     "name": "Merchant's Row",
-    "basicInfo": "A commercial row east of Four Sages Bazaar, lined with shops and busy pedestrian approaches.",
+    "basicInfo": "A commercial row east of Four Sages Bazaar, lined with shops and busy pedestrian approaches.\n\nMerchant's Row Bench Workshop is available by agreement: 850 marks for the property purchase. Ask Nae Komorida to inspect it and confirm the actual terms before paying.",
     "x": 8,
     "y": -2,
     "radius": 2,
@@ -877,13 +877,20 @@
         "description": "An awning-covered stretch provides shade and shelter between shops.",
         "paths": [
           "Merchant's Row - East Shopfronts",
-          "Merchant's Row - Crossing Lane"
+          "Merchant's Row - Crossing Lane",
+          "Merchant's Row - Merchant's Row Bench Workshop"
         ]
       },
       "Merchant's Row - Crossing Lane": {
         "description": "The row's side lane joins nearby city streets and service entrances.",
         "paths": [
           "Merchant's Row - East Shopfronts",
+          "Merchant's Row - Covered Walk"
+        ]
+      },
+      "Merchant's Row - Merchant's Row Bench Workshop": {
+        "description": "A modest bench workshop with a workroom, front counter and lockable materials cupboard. Specialist tools and materials are separate property.",
+        "paths": [
           "Merchant's Row - Covered Walk"
         ]
       }
@@ -905,7 +912,8 @@
         },
         "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/91e4feac-3142-4dbc-997b-2f4d201cd9e7.png"
       }
-    }
+    },
+    "hiddenInfo": "\n\nPROPERTY TERMS: Merchant's Row Bench Workshop has a fixed opening quote of 850 marks. Its native transaction supplies the key/deed and removes that price once when the owner agrees and the player explicitly commits. Do not also charge or grant it through item generation. A quote, viewing or gift of a key does not silently transfer ownership. Rentals cover the agreed stay, have no background rent drain and need a fresh agreement for an extension; purchases are permanent modest property with no automatic income or free specialist stock. Unavailable sold property is not offered to a second unrelated buyer. Ordinary room access stays local."
   },
   "East City Gate": {
     "name": "East City Gate",
@@ -1066,7 +1074,7 @@
       "min": 1,
       "max": 6
     },
-    "hiddenInfo": "\n\nENTRY ROUTE: Fresh incidental wildlife on maintained approaches uses the beginner variants and weak tier. Use one visible opponent for a novice contract; the first Bronze survey and delivery do not require a fight. Telegraph a deeper hazard before commitment. Existing authored residents and established threats retain their actual records; this band does not rewrite them."
+    "hiddenInfo": "\n\nENTRY ROUTE: Fresh incidental wildlife on maintained approaches uses the beginner variants and weak tier. Use one visible opponent for a novice contract; the first Bronze survey and delivery do not require a fight. Telegraph a deeper hazard before commitment. Existing authored residents and established threats retain their actual records; this band does not rewrite them.\n\nAdditional local creature possibility: Vaultjaw Marten. Use an actual appropriate individual only in a fitting occupied habitat or current problem. Safe services remain safe; this is not a mandatory spawn. Follow this location's level band and the least experienced human's ordinary-work risk, with warning before a deliberate harder undertaking."
   },
   "The Emberfox Hot Spring": {
     "name": "The Emberfox Hot Spring",
@@ -1828,7 +1836,7 @@
   },
   "Willowbend Residential District": {
     "name": "Willowbend Residential District",
-    "basicInfo": "A middle-class and working-class housing district within the city. Everyday services and shared lanes keep it active beyond the workday.",
+    "basicInfo": "A middle-class and working-class housing district within the city. Everyday services and shared lanes keep it active beyond the workday.\n\nWillowbend Courtyard Cottage is available by agreement: 1200 marks for the property purchase. Ask Nae Komorida to inspect it and confirm the actual terms before paying.",
     "x": 7,
     "y": -7,
     "radius": 2,
@@ -1847,13 +1855,20 @@
         "description": "Several shared courtyards sit behind the street-facing homes.",
         "paths": [
           "Willowbend Residential District - Willowbend Lane",
-          "Willowbend Residential District - Neighborhood Green"
+          "Willowbend Residential District - Neighborhood Green",
+          "Willowbend Residential District - Willowbend Courtyard Cottage"
         ]
       },
       "Willowbend Residential District - Neighborhood Green": {
         "description": "A small public green offers a place to rest and meet neighbors.",
         "paths": [
           "Willowbend Residential District - Willowbend Lane",
+          "Willowbend Residential District - Courtyard Row"
+        ]
+      },
+      "Willowbend Residential District - Willowbend Courtyard Cottage": {
+        "description": "A small courtyard cottage containing a kitchen, sleeping room, storage loft and narrow garden.",
+        "paths": [
           "Willowbend Residential District - Courtyard Row"
         ]
       }
@@ -1874,7 +1889,8 @@
     "npcLevelRange": {
       "min": 1,
       "max": 25
-    }
+    },
+    "hiddenInfo": "\n\nPROPERTY TERMS: Willowbend Courtyard Cottage has a fixed opening quote of 1200 marks. Its native transaction supplies the key/deed and removes that price once when the owner agrees and the player explicitly commits. Do not also charge or grant it through item generation. A quote, viewing or gift of a key does not silently transfer ownership. Rentals cover the agreed stay, have no background rent drain and need a fresh agreement for an extension; purchases are permanent modest property with no automatic income or free specialist stock. Unavailable sold property is not offered to a second unrelated buyer. Ordinary room access stays local.\n\nAuthored contact: Nae Komorida is initially based at Willowbend Residential District - Courtyard Row. Use that existing individual when their role is relevant; introduce manageable groups and preserve actual subsequent travel or absence."
   },
   "City Guard Headquarters": {
     "name": "City Guard Headquarters",
@@ -2263,7 +2279,8 @@
         },
         "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/f17d3091-8937-483f-9dfb-983bea8675fc.png"
       }
-    }
+    },
+    "hiddenInfo": "\n\nAuthored contact: Iona Hayashida is initially based at Wayfarer's Goods - Packing Counter. Use that existing individual when their role is relevant; introduce manageable groups and preserve actual subsequent travel or absence."
   },
   "Crooked Tankard": {
     "name": "Crooked Tankard",
@@ -2327,7 +2344,7 @@
   },
   "Roseberry Inn": {
     "name": "Roseberry Inn",
-    "basicInfo": "Supper reaches the common room before its plates do. Noriko Hanesawa offers beds, meals, directions, and limited introductions to people who use her inn. A shared bunk costs 6 marks and a plain private room 12 per night. Noriko Hanesawa can arrange paid afternoon room turnover and common-room work around a student timetable.",
+    "basicInfo": "Supper reaches the common room before its plates do. Noriko Hanesawa offers beds, meals, directions, and limited introductions to people who use her inn. A shared bunk costs 6 marks and a plain private room 12 per night. Noriko Hanesawa can arrange paid afternoon room turnover and common-room work around a student timetable.\n\nRoseberry Attic Room is available by agreement: 30 marks for the quoted paid stay. Ask the Roseberry Inn proprietor to inspect it and confirm the actual terms before paying.",
     "x": -11,
     "y": -2,
     "radius": 2,
@@ -2364,13 +2381,20 @@
         "paths": [
           "Roseberry Inn - Front Desk",
           "Roseberry Inn - Dining Room",
-          "Roseberry Inn - Kitchen Passage"
+          "Roseberry Inn - Kitchen Passage",
+          "Roseberry Inn - Roseberry Attic Room"
         ]
       },
       "Roseberry Inn - Kitchen Passage": {
         "description": "A service corridor links the dining room with the inn's working spaces.",
         "paths": [
           "Roseberry Inn - Front Desk",
+          "Roseberry Inn - Guest Stair"
+        ]
+      },
+      "Roseberry Inn - Roseberry Attic Room": {
+        "description": "A compact private attic room with a bed, washstand, locking chest and writing table under the eaves.",
+        "paths": [
           "Roseberry Inn - Guest Stair"
         ]
       }
@@ -2388,7 +2412,7 @@
         "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/c74baa28-5013-4b57-8f50-6764cc324d04.png"
       }
     },
-    "hiddenInfo": "An arriving guest and a returning guest have been promised the same room after a damaged entry was copied incorrectly. Noriko Hanesawa wants both agreements honored without exposing private business. An original receipt, a voluntary exchange, or alternative lodging can help. Wanting privacy does not make either guest a fugitive.\n\nUse only relevant unresolved situations. Introduce evidence through observation or people who know it. Preserve actual resolutions and player choices; these possibilities are not events that automatically occur on every visit.\r\n\r\nStudent work: Noriko Hanesawa can arrange paid afternoon room turnover and common-room work around a student timetable. Agree duties, hours, pay and a first shift before treating the player as employed. Ordinary half-day help pays 8-12 marks for a completed agreed shift; specialist work is separately quoted. Do not skip time, pay for an interview, or treat every visit as a completed shift.",
+    "hiddenInfo": "An arriving guest and a returning guest have been promised the same room after a damaged entry was copied incorrectly. Noriko Hanesawa wants both agreements honored without exposing private business. An original receipt, a voluntary exchange, or alternative lodging can help. Wanting privacy does not make either guest a fugitive.\n\nUse only relevant unresolved situations. Introduce evidence through observation or people who know it. Preserve actual resolutions and player choices; these possibilities are not events that automatically occur on every visit.\r\n\r\nStudent work: Noriko Hanesawa can arrange paid afternoon room turnover and common-room work around a student timetable. Agree duties, hours, pay and a first shift before treating the player as employed. Ordinary half-day help pays 8-12 marks for a completed agreed shift; specialist work is separately quoted. Do not skip time, pay for an interview, or treat every visit as a completed shift.\n\nPROPERTY TERMS: Roseberry Attic Room has a fixed opening quote of 30 marks. Its native transaction supplies the key/deed and removes that price once when the owner agrees and the player explicitly commits. Do not also charge or grant it through item generation. A quote, viewing or gift of a key does not silently transfer ownership. Rentals cover the agreed stay, have no background rent drain and need a fresh agreement for an extension; purchases are permanent modest property with no automatic income or free specialist stock. Unavailable sold property is not offered to a second unrelated buyer. Ordinary room access stays local.",
     "npcLevelRange": {
       "min": 1,
       "max": 25
@@ -4413,7 +4437,7 @@
     "complexityType": "complex",
     "detailType": "detailed",
     "initialKnown": true,
-    "hiddenInfo": "Workers need a real assignment. A contractor's wage differs from an inmate's work credit, and neither automatically clears custody. Tools and materials are counted back at the end; a work order covers only its actual task. Movement between facilities must respect the actual authorized route, escorts, locked access, and current security. Knowing a facility's name does not permit entry.",
+    "hiddenInfo": "Workers need a real assignment. A contractor's wage differs from an inmate's work credit, and neither automatically clears custody. Tools and materials are counted back at the end; a work order covers only its actual task. Movement between facilities must respect the actual authorized route, escorts, locked access, and current security. Knowing a facility's name does not permit entry.\n\nAuthored contact: Masaru Hasebe is initially based at Prison Work Yard - Workshop. Use that existing individual when their role is relevant; introduce manageable groups and preserve actual subsequent travel or absence.",
     "areas": {
       "Prison Work Yard - Muster Point": {
         "description": "Assignments, supervision, and tool lists are confirmed before work begins.",
@@ -5036,8 +5060,8 @@
   },
   "Whitepass Caravan Lodge": {
     "name": "Whitepass Caravan Lodge",
-    "basicInfo": "A substantial lodge near the overland approach accommodates carriers, expedition parties and visitors who need more than a quick meal. Its common hearth, route desk and covered yard connect lodging with practical travel preparation. Rooms are sturdy and warm rather than luxurious, and staff understand drying gear, early departures and delayed companions. The lodge is a useful base for mountain work without making every guest a guide or every rumor a contract. Returning safely can be reason enough for an uneventful evening here.\n\nPeople associated with this place include: Natsume Hibari — Licensed mountain adventurer and expedition guide; Akemi Fushida — Proprietor of Whitepass Caravan Lodge.",
-    "hiddenInfo": "A late caravan is not automatically destroyed; check weather and actual reports. Staff can recommend services without guaranteeing a guide's availability. Paid rooms and stored belongings remain distinct from party recruitment, permanent residence or unrestricted access to another guest's luggage.",
+    "basicInfo": "A substantial lodge near the overland approach accommodates carriers, expedition parties and visitors who need more than a quick meal. Its common hearth, route desk and covered yard connect lodging with practical travel preparation. Rooms are sturdy and warm rather than luxurious, and staff understand drying gear, early departures and delayed companions. The lodge is a useful base for mountain work without making every guest a guide or every rumor a contract. Returning safely can be reason enough for an uneventful evening here.\n\nPeople associated with this place include: Natsume Hibari — Licensed mountain adventurer and expedition guide; Akemi Fushida — Proprietor of Whitepass Caravan Lodge.\n\nWhitepass Drying-Loft Room is available by agreement: 28 marks for the quoted paid stay. Ask Akemi Fushida to inspect it and confirm the actual terms before paying.",
+    "hiddenInfo": "A late caravan is not automatically destroyed; check weather and actual reports. Staff can recommend services without guaranteeing a guide's availability. Paid rooms and stored belongings remain distinct from party recruitment, permanent residence or unrestricted access to another guest's luggage.\n\nPROPERTY TERMS: Whitepass Drying-Loft Room has a fixed opening quote of 28 marks. Its native transaction supplies the key/deed and removes that price once when the owner agrees and the player explicitly commits. Do not also charge or grant it through item generation. A quote, viewing or gift of a key does not silently transfer ownership. Rentals cover the agreed stay, have no background rent drain and need a fresh agreement for an extension; purchases are permanent modest property with no automatic income or free specialist stock. Unavailable sold property is not offered to a second unrelated buyer. Ordinary room access stays local.\n\nAuthored contact: Daigo Kisaragi is initially based at Whitepass Caravan Lodge - Common Hearth. Use that existing individual when their role is relevant; introduce manageable groups and preserve actual subsequent travel or absence.\n\nAuthored contact: Chisato Akamine is initially based at Whitepass Caravan Lodge - Covered Yard. Use that existing individual when their role is relevant; introduce manageable groups and preserve actual subsequent travel or absence.\n\nAuthored contact: Tomoe Inukai is initially based at Whitepass Caravan Lodge - Route Desk. Use that existing individual when their role is relevant; introduce manageable groups and preserve actual subsequent travel or absence.\n\nAuthored contact: Gaku Shindō is initially based at Whitepass Caravan Lodge - Common Hearth. Use that existing individual when their role is relevant; introduce manageable groups and preserve actual subsequent travel or absence.",
     "x": 4,
     "y": 4,
     "radius": 2,
@@ -5069,13 +5093,20 @@
       "Whitepass Caravan Lodge - Guest Landing": {
         "description": "Simple private rooms open from a warm upper corridor. Quiet hours and paid arrangements keep tired travelers from disturbing one another. A closed door is not an invitation to inspect someone else's belongings.",
         "paths": [
-          "Whitepass Caravan Lodge - Common Hearth"
+          "Whitepass Caravan Lodge - Common Hearth",
+          "Whitepass Caravan Lodge - Whitepass Drying-Loft Room"
         ]
       },
       "Whitepass Caravan Lodge - Drying Room": {
         "description": "Racks and controlled warmth dry boots, cloaks and ropes without scorching them. Labels prevent accidental swaps. Damaged gear can be noticed here before another journey, creating a practical reason to visit an outfitter.",
         "paths": [
           "Whitepass Caravan Lodge - Covered Yard"
+        ]
+      },
+      "Whitepass Caravan Lodge - Whitepass Drying-Loft Room": {
+        "description": "A warm private room with a sturdy bed, gear hooks and a shuttered mountain window above the lodge drying loft.",
+        "paths": [
+          "Whitepass Caravan Lodge - Guest Landing"
         ]
       }
     },
@@ -5164,7 +5195,7 @@
   "Cloudbloom Landing": {
     "name": "Cloudbloom Landing",
     "basicInfo": "The archipelago’s sheltered arrival and freight terrace occupies the settlement satellite near Asterveil Canopy. Its enclosed whitewood-and-glass Portal Room opens onto a railed quay, receiving counter and waiting space. Court-authorized visitors can return directly to Glowhaven, arrange a local crossing, check weather reports or move agreed cargo. A visitor does not need wings or a new spell to travel.\n\nROUTES: Asterveil Canopy: a short maintained walk on the settlement satellite; Bellwind Conservatory: the cooperative’s attended central-island crossing; Tetherroot Chain: a short carrier route with stops at actual moorings; Rimeglass Refuge: the attended northeastern carrier crossing. A sky gap requires the stated actual crossing; nearby map pins do not imply connected ground.",
-    "hiddenInfo": "Keep this a usable safe hub. Porters, crossing crews and officials are generated only as needed and remain the same individuals on later visits. Transit permission does not authorize wildlife capture. A damaged freight sling can delay one shipment without closing the portal or inventing a realm-wide disaster.\n\nLOCAL SPECIES: No mandatory wild encounter inside the maintained hub. Reuse these exact npcTypes when the actual encounter fits. A type is not an automatic spawn. Make a persistent individual with this location’s band, real disposition and bounded abilities; retain custom diagnostic anatomy in its actual public visual description. Cleared or avoided encounters keep their real outcome. When the player deliberately enters occupied hunting ground, resolve a real encounter rather than presenting signs indefinitely.\n\nThis location has one fixed return passage to Evertree Base - Portal Room. Entering that arch from any of its local staging areas completes the short approach and crossing; do not require the exact sub-area label. The player chooses whether to enter, not where in Glowhaven to land. No academy or second city portal exists.\n\nLOCAL SAFETY: The maintained receiving room, settlement interior or refuge is not an ambient hunting ground. Wildlife danger belongs beyond its actual boundaries. Existing conflict and consequences of deliberate hostile acts remain real; ordinary rest, service or conversation does not summon a monster.",
+    "hiddenInfo": "Keep this a usable safe hub. Porters, crossing crews and officials are generated only as needed and remain the same individuals on later visits. Transit permission does not authorize wildlife capture. A damaged freight sling can delay one shipment without closing the portal or inventing a realm-wide disaster.\n\nLOCAL SPECIES: No mandatory wild encounter inside the maintained hub. Reuse these exact npcTypes when the actual encounter fits. A type is not an automatic spawn. Make a persistent individual with this location’s band, real disposition and bounded abilities; retain custom diagnostic anatomy in its actual public visual description. Cleared or avoided encounters keep their real outcome. When the player deliberately enters occupied hunting ground, resolve a real encounter rather than presenting signs indefinitely.\n\nThis location has one fixed return passage to Evertree Base - Portal Room. Entering that arch from any of its local staging areas completes the short approach and crossing; do not require the exact sub-area label. The player chooses whether to enter, not where in Glowhaven to land. No academy or second city portal exists.\n\nLOCAL SAFETY: The maintained receiving room, settlement interior or refuge is not an ambient hunting ground. Wildlife danger belongs beyond its actual boundaries. Existing conflict and consequences of deliberate hostile acts remain real; ordinary rest, service or conversation does not summon a monster.\n\nAdditional local creature possibility: Cloudveil Nautilus. Use an actual appropriate individual only in a fitting occupied habitat or current problem. Safe services remain safe; this is not a mandatory spawn. Follow this location's level band and the least experienced human's ordinary-work risk, with warning before a deliberate harder undertaking.",
     "x": 37,
     "y": -6,
     "radius": 1.5,
@@ -5222,8 +5253,8 @@
   },
   "Asterveil Canopy": {
     "name": "Asterveil Canopy",
-    "basicInfo": "A small fae settlement curls around flowering trees on a protected satellite, precisely where the planning map marks a red X. Homes, a modest market, guest rooms and shared work terraces form one neighborhood rather than a sprawling capital. Residents cultivate food and fragrances, maintain transport and outfit expeditions. Human-scale visitors fit the main walks; smaller personal dwellings remain private.\n\nROUTES: Cloudbloom Landing: a short maintained walk on the settlement satellite. A sky gap requires the stated actual crossing; nearby map pins do not imply connected ground.",
-    "hiddenInfo": "The local assembly appoints rotating stewards for water, crossings and habitat agreements. A practical argument over damaged pollen screens can become a repair, negotiation or compensation task. Do not make every resident welcoming, coy or secretly ancient royalty. Residents have ordinary work and can refuse a bad commission.\n\nLOCAL SPECIES: No mandatory wild encounter inside the maintained hub. Reuse these exact npcTypes when the actual encounter fits. A type is not an automatic spawn. Make a persistent individual with this location’s band, real disposition and bounded abilities; retain custom diagnostic anatomy in its actual public visual description. Cleared or avoided encounters keep their real outcome. When the player deliberately enters occupied hunting ground, resolve a real encounter rather than presenting signs indefinitely.\n\nLocal authored opportunities, only when their actual premises and relevant contacts fit: A Road Made of Air: The Far End; The Hunt That Looks Back: A Shape in the Wake; First Bloom, Last Rehearsal; A Voice Below the Roots; What the Manta Leaves; The Room Below the Ring; An Impossible Shade of Green; Two Teams, One Clean Sample. Invitations are optional; do not insert all of them into one arrival, disclose private motives, invent missing people or accept for the player.\n\nLOCAL SAFETY: The maintained receiving room, settlement interior or refuge is not an ambient hunting ground. Wildlife danger belongs beyond its actual boundaries. Existing conflict and consequences of deliberate hostile acts remain real; ordinary rest, service or conversation does not summon a monster.\n\nCATALOGUE SUPPLY CONTEXT: Appropriate ordinary or specialist stock can include Sky-Silk Thread Bundle; Dewglass Resin Cake; Cloudfield Observation Atlas; Bellwind Promise Cord; Lantern-Moss Pellet; Living-Specimen Wardbox. These are exact itemTypes identities, not already granted items or guaranteed unlimited stock. Present a few relevant goods when browsing or a supply request actually happens, with real payment and ownership. Visiting does not buy anything. Rare teaching scrolls may enter a genuine specialist collection or discovery; do not place every scroll in every shop.",
+    "basicInfo": "A small fae settlement curls around flowering trees on a protected satellite. Homes, a modest market, guest rooms and shared work terraces form one neighborhood rather than a sprawling capital. Residents cultivate food and fragrances, maintain transport and outfit expeditions. Human-scale visitors fit the main walks; smaller personal dwellings remain private.\n\nROUTES: Cloudbloom Landing: a short maintained walk on the settlement satellite. A sky gap requires the stated actual crossing; nearby map pins do not imply connected ground.\n\nCanopy Guest Bough is available by agreement: 24 marks for the quoted paid stay. Ask Yuzuri Takase to inspect it and confirm the actual terms before paying.",
+    "hiddenInfo": "The local assembly appoints rotating stewards for water, crossings and habitat agreements. A practical argument over damaged pollen screens can become a repair, negotiation or compensation task. Do not make every resident welcoming, coy or secretly ancient royalty. Residents have ordinary work and can refuse a bad commission.\n\nLOCAL SPECIES: No mandatory wild encounter inside the maintained hub. Reuse these exact npcTypes when the actual encounter fits. A type is not an automatic spawn. Make a persistent individual with this location’s band, real disposition and bounded abilities; retain custom diagnostic anatomy in its actual public visual description. Cleared or avoided encounters keep their real outcome. When the player deliberately enters occupied hunting ground, resolve a real encounter rather than presenting signs indefinitely.\n\nLocal authored opportunities, only when their actual premises and relevant contacts fit: A Road Made of Air: The Far End; The Hunt That Looks Back: A Shape in the Wake; First Bloom, Last Rehearsal; A Voice Below the Roots; What the Manta Leaves; The Room Below the Ring; An Impossible Shade of Green; Two Teams, One Clean Sample. Invitations are optional; do not insert all of them into one arrival, disclose private motives, invent missing people or accept for the player.\n\nLOCAL SAFETY: The maintained receiving room, settlement interior or refuge is not an ambient hunting ground. Wildlife danger belongs beyond its actual boundaries. Existing conflict and consequences of deliberate hostile acts remain real; ordinary rest, service or conversation does not summon a monster.\n\nCATALOGUE SUPPLY CONTEXT: Appropriate ordinary or specialist stock can include Sky-Silk Thread Bundle; Dewglass Resin Cake; Cloudfield Observation Atlas; Bellwind Promise Cord; Lantern-Moss Pellet; Living-Specimen Wardbox. These are exact itemTypes identities, not already granted items or guaranteed unlimited stock. Present a few relevant goods when browsing or a supply request actually happens, with real payment and ownership. Visiting does not buy anything. Rare teaching scrolls may enter a genuine specialist collection or discovery; do not place every scroll in every shop.\n\nPROPERTY TERMS: Canopy Guest Bough has a fixed opening quote of 24 marks. Its native transaction supplies the key/deed and removes that price once when the owner agrees and the player explicitly commits. Do not also charge or grant it through item generation. A quote, viewing or gift of a key does not silently transfer ownership. Rentals cover the agreed stay, have no background rent drain and need a fresh agreement for an extension; purchases are permanent modest property with no automatic income or free specialist stock. Unavailable sold property is not offered to a second unrelated buyer. Ordinary room access stays local.\n\nAuthored contact: Suzuha Midorise is initially based at Asterveil Canopy - Field Registry. Use that existing individual when their role is relevant; introduce manageable groups and preserve actual subsequent travel or absence.",
     "x": 42,
     "y": -3,
     "radius": 1.5,
@@ -5265,7 +5296,8 @@
         "description": "A compact guesthouse offers meals, a bed, storage and a shared table after an actual quote. Rooms suit different bodies without making every fae tiny. Privacy and settled bills persist.\n\nHonoka Hazukawa keeps the rooms. Yuzuri Takase is a paying guest, with her own plans and leisure; a request for help can be accepted or refused. Introduce them individually according to the scene.",
         "paths": [
           "Asterveil Canopy - Field Registry",
-          "Asterveil Canopy - Menders Terrace"
+          "Asterveil Canopy - Menders Terrace",
+          "Asterveil Canopy - Canopy Guest Bough"
         ]
       },
       "Asterveil Canopy - Menders Terrace": {
@@ -5287,6 +5319,12 @@
         "paths": [
           "Asterveil Canopy - Stewards Hall",
           "Asterveil Canopy - Canopy Walk"
+        ]
+      },
+      "Asterveil Canopy - Canopy Guest Bough": {
+        "description": "A private guest bough with an adjustable sleeping nook, sheltered work shelf and space for ordinary luggage.",
+        "paths": [
+          "Asterveil Canopy - Guest Boughs"
         ]
       }
     },
@@ -6401,8 +6439,8 @@
   },
   "Snowmelt Residential Steps": {
     "name": "Snowmelt Residential Steps",
-    "basicInfo": "Close-set stone homes climb the lower shelf in rows broken by shared stairs and drainage runs. Shutters, wool curtains and patched roofs show households living through long winters. This is a residential neighborhood rather than a public dungeon: visitors come to meet someone, rent a room or do an agreed repair. Neighbors share snow clearance and news, with friendliness varying by person. The upper fortress is visible between roofs, but ordinary life here revolves around meals, work, children and keeping the house warm.\n\nPeople associated with this place include: Atsuko Ōhira — Neighborhood clothing mender.",
-    "hiddenInfo": "House doors and personal rooms remain private. A blocked drain or roof repair can involve several neighbors with different means, without making the neighborhood destitute. Public gossip may be mistaken; knowing where someone lives is not knowing their private life.\n\nLocal authored opportunities, only when their actual premises and relevant contacts fit: Room for One More Bench. Invitations are optional; do not insert all of them into one arrival, disclose private motives, invent missing people or accept for the player.",
+    "basicInfo": "Close-set stone homes climb the lower shelf in rows broken by shared stairs and drainage runs. Shutters, wool curtains and patched roofs show households living through long winters. This is a residential neighborhood rather than a public dungeon: visitors come to meet someone, rent a room or do an agreed repair. Neighbors share snow clearance and news, with friendliness varying by person. The upper fortress is visible between roofs, but ordinary life here revolves around meals, work, children and keeping the house warm.\n\nPeople associated with this place include: Atsuko Ōhira — Neighborhood clothing mender.\n\nSnowmelt Landing Flat is available by agreement: 1100 marks for the property purchase. Ask Atsuko Ōhira to inspect it and confirm the actual terms before paying.",
+    "hiddenInfo": "House doors and personal rooms remain private. A blocked drain or roof repair can involve several neighbors with different means, without making the neighborhood destitute. Public gossip may be mistaken; knowing where someone lives is not knowing their private life.\n\nLocal authored opportunities, only when their actual premises and relevant contacts fit: Room for One More Bench. Invitations are optional; do not insert all of them into one arrival, disclose private motives, invent missing people or accept for the player.\n\nPROPERTY TERMS: Snowmelt Landing Flat has a fixed opening quote of 1100 marks. Its native transaction supplies the key/deed and removes that price once when the owner agrees and the player explicitly commits. Do not also charge or grant it through item generation. A quote, viewing or gift of a key does not silently transfer ownership. Rentals cover the agreed stay, have no background rent drain and need a fresh agreement for an extension; purchases are permanent modest property with no automatic income or free specialist stock. Unavailable sold property is not offered to a second unrelated buyer. Ordinary room access stays local.",
     "x": -4,
     "y": -7,
     "radius": 2,
@@ -6433,7 +6471,14 @@
       "Snowmelt Residential Steps - Roofward Landing": {
         "description": "A landing above the main stair overlooks a patchwork of chimneys and roofs. Repair ladders are secured when not in use. It is a good meeting place for a resident, not a public route into every upper window.",
         "paths": [
-          "Snowmelt Residential Steps - Shared Stair"
+          "Snowmelt Residential Steps - Shared Stair",
+          "Snowmelt Residential Steps - Snowmelt Landing Flat"
+        ]
+      },
+      "Snowmelt Residential Steps - Snowmelt Landing Flat": {
+        "description": "A compact landing flat with a sleeping alcove, tiny hearth kitchen, work table and sheltered gear cupboard.",
+        "paths": [
+          "Snowmelt Residential Steps - Roofward Landing"
         ]
       }
     },
@@ -8149,7 +8194,7 @@
   "Lanternamber Caverns": {
     "name": "Lanternamber Caverns",
     "basicInfo": "Amber-bearing layers exposed in mountain caverns provide valuable raw material for careful extraction and study. Small lamps catch honey-colored seams in dark stone, while moisture and fractures complicate access. The entrance workings are managed; deeper routes are less reliable and require preparation. The amber's mana-bearing properties make it sought after, but its value depends on condition and usable material. Visitors can seek collection permission, survey a deposit or investigate a damaged shipment's source.\n\nPeople associated with this place include: Madara Senzaki — Amber surveyor and contract field researcher.",
-    "hiddenInfo": "The seams are not endlessly replenishing treasure. Removing material can undermine rock or destroy evidence useful to research. The cavern contains no guaranteed dragon egg or sacred bone; ordinary mountain resources should remain distinct from rare gifts left by living dragons.",
+    "hiddenInfo": "The seams are not endlessly replenishing treasure. Removing material can undermine rock or destroy evidence useful to research. The cavern contains no guaranteed dragon egg or sacred bone; ordinary mountain resources should remain distinct from rare gifts left by living dragons.\n\nAdditional local creature possibility: Frostglass Leech. Use an actual appropriate individual only in a fitting occupied habitat or current problem. Safe services remain safe; this is not a mandatory spawn. Follow this location's level band and the least experienced human's ordinary-work risk, with warning before a deliberate harder undertaking.",
     "x": -43,
     "y": 23,
     "radius": 2,
@@ -8804,7 +8849,7 @@
   "Coldglass Galleries": {
     "name": "Coldglass Galleries",
     "basicInfo": "A little-known branching cavern system holds pale crystal growths beneath layers of frost and mineral film. Light behaves strangely across the surfaces without making every reflection an illusion spell. The galleries offer mineral study and difficult exploration, with narrow crossings and meltwater complicating return. Discovery does not imply an established commercial claim or safe working route. A prepared expedition can bring back observations and carefully permitted samples without turning the cave into an inexhaustible crystal store. Crystal moths gather around cold mineral light; an unstable magical ice pocket can support an elemental. The split crossing and meltwater chamber remain slick and unstable even when the galleries are quiet.",
-    "hiddenInfo": "Some beautiful formations are brittle, contaminated or unsuitable for craft. Disturbing one may damage the surrounding structure. Echoes and reflections can mislead ordinary senses; do not invent a sentient labyrinth or teleportation mechanic unless an actual event establishes one.\n\nLOCAL DANGER: Crystal moths gather around cold mineral light; an unstable magical ice pocket can support an elemental. The split crossing and meltwater chamber remain slick and unstable even when the galleries are quiet. Relevant creature types: Ice Elemental; Crystal Moth. Establish actual present occupancy once the party investigates the relevant area; remember the encountered individuals, territory and outcome. A resolved defense, bypass or withdrawal changes the situation. Do not automatically refill the site or turn its safer approach into an ambush.",
+    "hiddenInfo": "Some beautiful formations are brittle, contaminated or unsuitable for craft. Disturbing one may damage the surrounding structure. Echoes and reflections can mislead ordinary senses; do not invent a sentient labyrinth or teleportation mechanic unless an actual event establishes one.\n\nLOCAL DANGER: Crystal moths gather around cold mineral light; an unstable magical ice pocket can support an elemental. The split crossing and meltwater chamber remain slick and unstable even when the galleries are quiet. Relevant creature types: Ice Elemental; Crystal Moth. Establish actual present occupancy once the party investigates the relevant area; remember the encountered individuals, territory and outcome. A resolved defense, bypass or withdrawal changes the situation. Do not automatically refill the site or turn its safer approach into an ambush.\n\nAuthored contact: Ysolenne is initially based at Coldglass Galleries - Meltwater Chamber. Use that existing individual when their role is relevant; introduce manageable groups and preserve actual subsequent travel or absence.\n\nThe Bellwether investigation and Ysolenne's cold-fed nodes belong to The Woman Beyond the Frost. Examine the Mirror Gallery, Split Crossing and Meltwater Chamber through real traversal and clues. Terrain, lesser winter manifestations and the spirit's choices create resistance. Do not auto-resolve the investigation, reveal her entire motive on arrival or relocate Orrum into the cavern for convenience.\n\nAdditional local creature possibility: Frostglass Leech. Use an actual appropriate individual only in a fitting occupied habitat or current problem. Safe services remain safe; this is not a mandatory spawn. Follow this location's level band and the least experienced human's ordinary-work risk, with warning before a deliberate harder undertaking.",
     "x": -13,
     "y": 34,
     "radius": 2,
@@ -9076,7 +9121,7 @@
   "Tetherroot Chain": {
     "name": "Tetherroot Chain",
     "basicInfo": "A chain of small root-bound islands offers the southern approach toward Mirrorwater. Close ledges can be crossed on maintained short spans or with a real assisted crossing; wider gaps require a carrier. Windbells and visible anchors make this a route worth surveying rather than a free road through the sky.\n\nROUTES: Cloudbloom Landing: a short carrier route with stops at actual moorings; Reedglass Anchorage: the attended southern carrier crossing. A sky gap requires the stated actual crossing; nearby map pins do not imply connected ground.",
-    "hiddenInfo": "Sailfin Skippers cluster around damaged ropes and can slash cloth while feeding on mineral salt. Establish which span is intact before moving cargo. A severed old anchor is an ordinary maintenance problem; it does not prove the islands are falling or all transport has collapsed.\n\nLOCAL SPECIES: Sailfin Skipper; Wind Elemental. Reuse these exact npcTypes when the actual encounter fits. A type is not an automatic spawn. Make a persistent individual with this location’s band, real disposition and bounded abilities; retain custom diagnostic anatomy in its actual public visual description. Cleared or avoided encounters keep their real outcome. When the player deliberately enters occupied hunting ground, resolve a real encounter rather than presenting signs indefinitely.\n\nLOCAL EXPLORATION: These species occupy their actual habitat, not the map journey alone. Use the current room’s terrain and the site’s existing hunting, nesting, feeding or guardian situation. Investigating an occupied threat area can bring an actual finite individual or small group into contact through ordinary NPC generation; do not spend every visit only hinting at tracks. Grazers, neutral wildlife and resting creatures need not attack. Keep known identities and resolved outcomes. At a uniquely described guardian site, use that single resident instead of adding a second boss or replacement waves. Sheltered/rest areas remain usable once immediate threats are handled.",
+    "hiddenInfo": "Sailfin Skippers cluster around damaged ropes and can slash cloth while feeding on mineral salt. Establish which span is intact before moving cargo. A severed old anchor is an ordinary maintenance problem; it does not prove the islands are falling or all transport has collapsed.\n\nLOCAL SPECIES: Sailfin Skipper; Wind Elemental. Reuse these exact npcTypes when the actual encounter fits. A type is not an automatic spawn. Make a persistent individual with this location’s band, real disposition and bounded abilities; retain custom diagnostic anatomy in its actual public visual description. Cleared or avoided encounters keep their real outcome. When the player deliberately enters occupied hunting ground, resolve a real encounter rather than presenting signs indefinitely.\n\nLOCAL EXPLORATION: These species occupy their actual habitat, not the map journey alone. Use the current room’s terrain and the site’s existing hunting, nesting, feeding or guardian situation. Investigating an occupied threat area can bring an actual finite individual or small group into contact through ordinary NPC generation; do not spend every visit only hinting at tracks. Grazers, neutral wildlife and resting creatures need not attack. Keep known identities and resolved outcomes. At a uniquely described guardian site, use that single resident instead of adding a second boss or replacement waves. Sheltered/rest areas remain usable once immediate threats are handled.\n\nAuthored contact: Jōta Kamezaki is initially based at Tetherroot Chain - Anchor Shelf. Use that existing individual when their role is relevant; introduce manageable groups and preserve actual subsequent travel or absence.\n\nAuthored contact: Beni Tsunoda is initially based at Tetherroot Chain - Short Spans. Use that existing individual when their role is relevant; introduce manageable groups and preserve actual subsequent travel or absence.\n\nAuthored contact: Riko Kanehara is initially based at Tetherroot Chain - Anchor Shelf. Use that existing individual when their role is relevant; introduce manageable groups and preserve actual subsequent travel or absence.\n\nAuthored contact: Sōta Tobisawa is initially based at Tetherroot Chain - Skipper Roost. Use that existing individual when their role is relevant; introduce manageable groups and preserve actual subsequent travel or absence.\n\nAdditional local creature possibility: Bracewing Cicada. Use an actual appropriate individual only in a fitting occupied habitat or current problem. Safe services remain safe; this is not a mandatory spawn. Follow this location's level band and the least experienced human's ordinary-work risk, with warning before a deliberate harder undertaking.",
     "x": 19,
     "y": -31,
     "radius": 2,
@@ -9461,7 +9506,7 @@
   "Mirrorwater Basin": {
     "name": "Mirrorwater Basin",
     "basicInfo": "A broad lake plateau holds sheltered bays, flooded groves and scattered grassy shelves. Reflections conceal the difference between an open channel and a cloud gap beyond the rim. The basin supports ecology surveys, salvage and controlled creature work.\n\nROUTES: Reedglass Anchorage: a marked water channel; Glassreed Labyrinth: a navigable shallow-water route; Spillway Steps: a shore-and-limestone route. A sky gap requires the stated actual crossing; nearby map pins do not imply connected ground.",
-    "hiddenInfo": "Mantlefin Drifters feed under the broad water surface and occasionally rise through reeds. Adult mouths are underneath their central keel, not on a humanoid face. Glassreed Sifters disturb the shallows. An observed migration can explain damaged survey lines without requiring a lake monster boss.\n\nLOCAL SPECIES: Mantlefin Drifter; Glassreed Sifter. Reuse these exact npcTypes when the actual encounter fits. A type is not an automatic spawn. Make a persistent individual with this location’s band, real disposition and bounded abilities; retain custom diagnostic anatomy in its actual public visual description. Cleared or avoided encounters keep their real outcome. When the player deliberately enters occupied hunting ground, resolve a real encounter rather than presenting signs indefinitely.\n\nLOCAL EXPLORATION: These species occupy their actual habitat, not the map journey alone. Use the current room’s terrain and the site’s existing hunting, nesting, feeding or guardian situation. Investigating an occupied threat area can bring an actual finite individual or small group into contact through ordinary NPC generation; do not spend every visit only hinting at tracks. Grazers, neutral wildlife and resting creatures need not attack. Keep known identities and resolved outcomes. At a uniquely described guardian site, use that single resident instead of adding a second boss or replacement waves. Sheltered/rest areas remain usable once immediate threats are handled.",
+    "hiddenInfo": "Mantlefin Drifters feed under the broad water surface and occasionally rise through reeds. Adult mouths are underneath their central keel, not on a humanoid face. Glassreed Sifters disturb the shallows. An observed migration can explain damaged survey lines without requiring a lake monster boss.\n\nLOCAL SPECIES: Mantlefin Drifter; Glassreed Sifter. Reuse these exact npcTypes when the actual encounter fits. A type is not an automatic spawn. Make a persistent individual with this location’s band, real disposition and bounded abilities; retain custom diagnostic anatomy in its actual public visual description. Cleared or avoided encounters keep their real outcome. When the player deliberately enters occupied hunting ground, resolve a real encounter rather than presenting signs indefinitely.\n\nLOCAL EXPLORATION: These species occupy their actual habitat, not the map journey alone. Use the current room’s terrain and the site’s existing hunting, nesting, feeding or guardian situation. Investigating an occupied threat area can bring an actual finite individual or small group into contact through ordinary NPC generation; do not spend every visit only hinting at tracks. Grazers, neutral wildlife and resting creatures need not attack. Keep known identities and resolved outcomes. At a uniquely described guardian site, use that single resident instead of adding a second boss or replacement waves. Sheltered/rest areas remain usable once immediate threats are handled.\n\nAdditional local creature possibility: Cloudveil Nautilus. Use an actual appropriate individual only in a fitting occupied habitat or current problem. Safe services remain safe; this is not a mandatory spawn. Follow this location's level band and the least experienced human's ordinary-work risk, with warning before a deliberate harder undertaking.",
     "x": -2,
     "y": 20,
     "radius": 2,
@@ -9508,7 +9553,7 @@
   "Glassreed Labyrinth": {
     "name": "Glassreed Labyrinth",
     "basicInfo": "Dense translucent reeds and narrow water lanes create an extensive wetland maze. Sound carries oddly through hollow stems, and the same channel can look different from the water. Material gathering here rewards marking a route and identifying mature growth.\n\nROUTES: Mirrorwater Basin: a navigable shallow-water route; Drowned Orrery: a charted lake approach; Undertow Hollows: a southern shore approach and cave entry. A sky gap requires the stated actual crossing; nearby map pins do not imply connected ground.",
-    "hiddenInfo": "Glassreed Sifters clip stems into feeding cages, while Lantern Leech swarms follow exposed light at dusk. Cut only mature loose stems under an actual permit. An expedition that records the colony’s movement may obtain the required material without provoking the entire wetland.\n\nLOCAL SPECIES: Glassreed Sifter; Lantern Leech Swarm. Reuse these exact npcTypes when the actual encounter fits. A type is not an automatic spawn. Make a persistent individual with this location’s band, real disposition and bounded abilities; retain custom diagnostic anatomy in its actual public visual description. Cleared or avoided encounters keep their real outcome. When the player deliberately enters occupied hunting ground, resolve a real encounter rather than presenting signs indefinitely.\n\nLOCAL EXPLORATION: These species occupy their actual habitat, not the map journey alone. Use the current room’s terrain and the site’s existing hunting, nesting, feeding or guardian situation. Investigating an occupied threat area can bring an actual finite individual or small group into contact through ordinary NPC generation; do not spend every visit only hinting at tracks. Grazers, neutral wildlife and resting creatures need not attack. Keep known identities and resolved outcomes. At a uniquely described guardian site, use that single resident instead of adding a second boss or replacement waves. Sheltered/rest areas remain usable once immediate threats are handled.",
+    "hiddenInfo": "Glassreed Sifters clip stems into feeding cages, while Lantern Leech swarms follow exposed light at dusk. Cut only mature loose stems under an actual permit. An expedition that records the colony’s movement may obtain the required material without provoking the entire wetland.\n\nLOCAL SPECIES: Glassreed Sifter; Lantern Leech Swarm. Reuse these exact npcTypes when the actual encounter fits. A type is not an automatic spawn. Make a persistent individual with this location’s band, real disposition and bounded abilities; retain custom diagnostic anatomy in its actual public visual description. Cleared or avoided encounters keep their real outcome. When the player deliberately enters occupied hunting ground, resolve a real encounter rather than presenting signs indefinitely.\n\nLOCAL EXPLORATION: These species occupy their actual habitat, not the map journey alone. Use the current room’s terrain and the site’s existing hunting, nesting, feeding or guardian situation. Investigating an occupied threat area can bring an actual finite individual or small group into contact through ordinary NPC generation; do not spend every visit only hinting at tracks. Grazers, neutral wildlife and resting creatures need not attack. Keep known identities and resolved outcomes. At a uniquely described guardian site, use that single resident instead of adding a second boss or replacement waves. Sheltered/rest areas remain usable once immediate threats are handled.\n\nAdditional local creature possibility: Needleback Prowler. Use an actual appropriate individual only in a fitting occupied habitat or current problem. Safe services remain safe; this is not a mandatory spawn. Follow this location's level band and the least experienced human's ordinary-work risk, with warning before a deliberate harder undertaking.",
     "x": 8,
     "y": -4,
     "radius": 2,
@@ -10090,7 +10135,7 @@
       "Adventurer's Guild"
     ],
     "basicInfo": "A welcoming timber-and-stone guild hall serves adventurers and clients in Glowhaven City. Honey-colored beams, teal-and-ochre tiles and warm geometric stained glass frame a substantial reception counter, rank-tabbed request boards and communal tables. Komugi Hanabishi handles the front desk. Side rooms support appraisals, briefings and records, with a controlled practice yard at the rear. Sword carriers, shield users and spellcasters all have reason to visit.",
-    "hiddenInfo": "This is the international Adventurer's Guild's court-permitted Glowhaven branch. Use Komugi Hanabishi at reception rather than inventing a replacement clerk. Other actual roles may be filled when needed, but she is not every assessor, healer or specialist. The hall is normally safe and does not spawn combat because it serves adventurers.\n\nUse the actual exam and badge triggers. Registration starts an application; Bronze is granted only after judgment and a resolved practical test are certified. Rank badges are personal credentials and confer no stats, political immunity or portal access. Higher badges qualify for lower-tier jobs. Promotion eligibility is a review invitation, not a compulsory duel or instant badge exchange.\n\nThe stated reward is paid in full; do not narrate or deduct a further guild commission. A completed guild contract grants one Guild Service Credit; unrelated quests do not. Reusing a completed contract does not create another payment. Accepting a foreign job never issues court portal keys.\n\nThe branch currently uses five credited jobs for a Silver review, ten further credits for Gold and twenty further credits for Platinum. Appropriate judgment, actual work at the required responsibility and an accepted assessment still matter. These are branch review thresholds, not character-level gates. Strong newcomers can request a prompt fair assessment; strength is not an offense. The recognized ranks are Bronze, Silver, Gold and Platinum.\n\nGuild work: use the actual request board for a small set of badge-appropriate offers. Short contracts and the Salvage, Road and Separate Pay adventures have separate actual terms. Browsing does not accept work; the guild board trigger handles eligible postings. Higher-rank notices can remain locked. Portal keys require the court.\n\nCATALOGUE SUPPLY CONTEXT: Appropriate ordinary or specialist stock can include Surveyor's North Compass; Folding Map Board; Mechanist's Repair Roll; Field Healing Tonic; Trail Vigor Draught; Waterproof Courier Tube. These are exact itemTypes identities, not already granted items or guaranteed unlimited stock. Present a few relevant goods when browsing or a supply request actually happens, with real payment and ownership. Visiting does not buy anything. Rare teaching scrolls may enter a genuine specialist collection or discovery; do not place every scroll in every shop.",
+    "hiddenInfo": "This is the international Adventurer's Guild's court-permitted Glowhaven branch. Use Komugi Hanabishi at reception rather than inventing a replacement clerk. Other actual roles may be filled when needed, but she is not every assessor, healer or specialist. The hall is normally safe and does not spawn combat because it serves adventurers.\n\nUse the actual exam and badge triggers. Registration starts an application; Bronze is granted only after judgment and a resolved practical test are certified. Rank badges are personal credentials and confer no stats, political immunity or portal access. Higher badges qualify for lower-tier jobs. Promotion eligibility is a review invitation, not a compulsory duel or instant badge exchange.\n\nThe stated reward is paid in full; do not narrate or deduct a further guild commission. A completed guild contract grants one Guild Service Credit; unrelated quests do not. Reusing a completed contract does not create another payment. Accepting a foreign job never issues court portal keys.\n\nThe branch currently uses five credited jobs for a Silver review, ten further credits for Gold and twenty further credits for Platinum. Appropriate judgment, actual work at the required responsibility and an accepted assessment still matter. These are branch review thresholds, not character-level gates. Strong newcomers can request a prompt fair assessment; strength is not an offense. The recognized ranks are Bronze, Silver, Gold and Platinum.\n\nGuild work: use the actual request board for a small set of badge-appropriate offers. Short contracts and the Salvage, Road and Separate Pay adventures have separate actual terms. Browsing does not accept work; the guild board trigger handles eligible postings. Higher-rank notices can remain locked. Portal keys require the court.\n\nCATALOGUE SUPPLY CONTEXT: Appropriate ordinary or specialist stock can include Surveyor's North Compass; Folding Map Board; Mechanist's Repair Roll; Field Healing Tonic; Trail Vigor Draught; Waterproof Courier Tube. These are exact itemTypes identities, not already granted items or guaranteed unlimited stock. Present a few relevant goods when browsing or a supply request actually happens, with real payment and ownership. Visiting does not buy anything. Rare teaching scrolls may enter a genuine specialist collection or discovery; do not place every scroll in every shop.\n\nAuthored contact: Marika Hoshino is initially based at Adventurer's Guild - Glowhaven Branch - Training Yard. Use that existing individual when their role is relevant; introduce manageable groups and preserve actual subsequent travel or absence.\n\nAuthored contact: Tetsuya Kanamori is initially based at Adventurer's Guild - Glowhaven Branch - Appraisal Bench. Use that existing individual when their role is relevant; introduce manageable groups and preserve actual subsequent travel or absence.\n\nAuthored contact: Renpei Sugita is initially based at Adventurer's Guild - Glowhaven Branch - Common Hall. Use that existing individual when their role is relevant; introduce manageable groups and preserve actual subsequent travel or absence.",
     "areas": {
       "Adventurer's Guild - Glowhaven Branch - Reception Counter": {
         "description": "A broad oak counter handles registration, badge records and request intake. Komugi Hanabishi keeps the active ledgers and stamp within reach. A low staff gate lets her step beside the counter to speak without towering over a seated visitor. Honey-colored light picks out teal tiles and carefully sorted paper tabs.",
@@ -10125,7 +10170,7 @@
         ]
       },
       "Adventurer's Guild - Glowhaven Branch - Briefing Room": {
-        "description": "A quieter room holds a regional chart, chalk surfaces and a table for checking routes, scope and responsibilities. Teams can agree who is doing what. This is also where exam judgment and promotion-review terms are explained before an actual practical assessment.",
+        "description": "A quieter room holds a regional chart, chalk surfaces and a table for checking routes, scope and responsibilities. Teams can agree who is doing what. This is also where exam judgment and promotion-review terms are explained before an actual practical assessment. Before an unfamiliar job, visitors can ask for practical route advice: known hazards, transport, supplies and an honest account of uncertain information. Marika Hoshino or Iona Hayashida can contribute when actually present or available by arrangement. A consultation grants no key, credential, automatic escort or mastery.",
         "paths": [
           "Adventurer's Guild - Glowhaven Branch - Request Board",
           "Adventurer's Guild - Glowhaven Branch - Common Hall",

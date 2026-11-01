@@ -48,6 +48,7 @@ def sync(check=False):
     sections['AI'] = {key: w[key] for key in ['imagePromptConfiguration', 'aiInstructions']}
     sections['Quests'] = w['parties']['']['quests']
     sections['Quest Triggers'] = w['parties']['']['questTriggers']
+    sections['Arcs'] = w['parties'][''].get('arcs', {})
     stale = []
     for name, data in sections.items():
         path = WORLD.parent / ('WorldAlpha - ' + name + '.json')
@@ -209,6 +210,8 @@ def publish(message):
     sync()
     validate()
     subprocess.run(['node', str(ROOT / 'tools/test_item_mechanics.cjs')], cwd=ROOT, check=True)
+    if (ROOT / 'tools/test_adventurers.cjs').exists():
+        subprocess.run(['node', str(ROOT / 'tools/test_adventurers.cjs')], cwd=ROOT, check=True)
     changed, index = asset_changes()
     if changed:
         write_json(INDEX, index)

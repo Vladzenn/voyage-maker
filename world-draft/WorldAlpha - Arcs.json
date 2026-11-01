@@ -1,0 +1,44 @@
+{
+  "ad34_winter_claim": {
+    "id": "ad34_winter_claim",
+    "title": "The Woman Beyond the Frost",
+    "status": "active",
+    "minQuestsForConclusion": 2,
+    "theme": "A competent martial company needs help interpreting an unnatural winter; a proud snow spirit has a real grievance and has chosen dangerous retaliation. Set consequential investigation and confrontations around Coldglass Galleries, Whitepass Caravan Lodge and the nearby mountain routes. Approximate level 30–46, with preparation, negotiation and company support. No combat with Orrum is required. A nonmage can track, protect a specialist, conduct a practical test or seek a qualified helper. Daigo Kisaragi, Chisato Akamine, Tomoe Inukai and Gaku Shindō retain their lives and disagreements. Work alongside them needs agreement, not automatic recruitment. Deliver distinct substantial developments, not repeated reports. Preserve each real discovery if a later approach fails.",
+    "surfacePremise": "Daigo Kisaragi and the Bellwether Company need help tracing the unnatural cold coming from Coldglass Galleries, where their ordinary tracking has stopped being enough",
+    "expectedConclusion": "The commissioned lower route is actually safe from Ysolenne's attacks through a carried-out agreement, defeat, banishment or disruption of her cold-fed nodes. Preserve her fate, the condition of the route, the crew's actual participation and any obligations or victims. A selfish limited settlement can work while leaving named people unhappy. Withdrawal is a valid choice but not a successful solution. No automatic duel, tame spirit, guaranteed romance, hidden second mastermind or forced battle with Orrum.",
+    "secrets": [
+      "Ysolenne chose to retaliate against lower routes after Orrum broke her barriers to preserve his passage. Her grievance does not excuse harming unrelated people.",
+      "Three cold-fed nodes in the Mirror Gallery, Split Crossing and Meltwater Chamber sustain the extended cold. They can be mapped and disrupted through real investigation and feasible work; do not award the whole answer on arrival.",
+      "A settlement must actually establish a workable passage and stop the attacks. A flattering conversation or merely promising to negotiate is insufficient. Orrum stays elusive; tracks and remembered encounters can establish his role without revealing his shelter."
+    ]
+  },
+  "ad34_stillwind_thesis": {
+    "id": "ad34_stillwind_thesis",
+    "title": "A Thesis No One Would Fund",
+    "status": "active",
+    "minQuestsForConclusion": 2,
+    "theme": "Suzuha Midorise, an adult fourth-year Hydra Head researcher, has saved for a field expedition seeking the Stillwind Pearl. Other adventurers doubt it exists. Use the Canopy, local testimony and an appropriate midgame Asterveil habitat, with a concrete field obstacle and living ecology. She is an excellent researcher and weak combatant, not a disguised archmage. Respect genuine observations and enable preparation, a willing escort, hired support or a safe staging arrangement. Do not require four regional errands or endanger her whenever the player looks away. Her hobbies, opinions and relationships remain available beyond this work.",
+    "surfacePremise": "Suzuha Midorise is looking for help finding the Stillwind Pearl in Asterveil after her guild posting attracted no volunteers because people doubted the object existed",
+    "expectedConclusion": "Real evidence establishes that the Stillwind Pearl exists and records short-lived air-and-mana patterns rather than powering permanent island levitation. Conclude the actual expedition: an intact pearl, a limited sample with sound observations, a convincing in-place study, or a consequential loss or appropriation. Suzuha Midorise decides what her corrected thesis will claim. Evidence matters more than validating every hope. No automatic graduation or completion of the player's own thesis.",
+    "secrets": [
+      "The pearl forms in a mature Cloudveil Nautilus's current-sensing chamber. An intact spent casing can sometimes be found without killing the animal; not every specimen contains one.",
+      "A pearl preserves a pattern for a few hours and is scientifically valuable, but is no infinite Mana source, flight item, portal key or permanent store of levitation.",
+      "Honoka Hazukawa knows relevant local observations, and Kureha Kazahana can help distinguish evidence from a favored theory. Neither knows everything or owes the player a solution."
+    ]
+  },
+  "ad34_copper_laurels": {
+    "id": "ad34_copper_laurels",
+    "title": "A Very Reasonable Recovery Fee",
+    "status": "active",
+    "minQuestsForConclusion": 1,
+    "theme": "The Copper Laurels are a real, quarrelsome four-person adventuring crew with an opportunistic bullying scheme in Asterveil. Jōta Kamezaki invents fees, Beni Tsunoda supplies muscle, Riko Kanehara appraises things nobody offered to sell and Sōta Tobisawa watches the exits. Make them funny without erasing actual threats, theft or responsibility. Their level 25–33 competence is fixed; they select victims and can retreat from stronger resistance. No theft is already successful merely because an NPC declares ownership. Never silently confiscate inventory or spawn copies of the crew. Preserve encounters before and after discovering the scheme.",
+    "surfacePremise": "the Copper Laurels have been demanding invented recovery fees and claiming other adventurers' loot around Asterveil's expedition routes",
+    "expectedConclusion": "Settle the actual interference through exposure, a carried-out bargain, restitution, defeat, a fractured crew or another credible outcome. Track who lost or recovered what, what the guild actually learned and which companions stayed together. Declining to oppose them is possible and is not success by default. No universal reward or faction-wide hostility for one argument; honest paid work and ordinary flaws remain part of their identities.",
+    "secrets": [
+      "Riko Kanehara keeps a private allocation ledger. Sōta Tobisawa has copies of some false invoices. Neither document appears without actual acquisition or testimony.",
+      "Beni Tsunoda is interested in better legitimate pay, not secretly morally opposed to the bullying. Jōta Kamezaki fears losing face and his remaining honest contracts.",
+      "A personal agreement can protect one party without fixing the wider problem. The conclusion should state that limited scope honestly."
+    ]
+  }
+}

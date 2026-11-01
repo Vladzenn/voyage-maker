@@ -1119,6 +1119,11 @@
     "recurring": true,
     "conditions": [
       {
+        "type": "party-location",
+        "operator": "regex",
+        "value": "^(The Eternal Crucible|.*Academy)$"
+      },
+      {
         "type": "read-boolean",
         "key": "gh_lore_tournament_active",
         "operator": "equals",
@@ -1674,6 +1679,11 @@
     "recurring": true,
     "conditions": [
       {
+        "type": "party-location",
+        "operator": "regex",
+        "value": "^(The Grand Sage's Court|Sage's Spire|Evertree Base)$"
+      },
+      {
         "type": "player-item",
         "operator": "equals",
         "value": 0,
@@ -1698,6 +1708,11 @@
     "name": "gh_portal_key_issue_asterveil",
     "recurring": true,
     "conditions": [
+      {
+        "type": "party-location",
+        "operator": "regex",
+        "value": "^(The Grand Sage's Court|Sage's Spire|Evertree Base)$"
+      },
       {
         "type": "player-item",
         "operator": "equals",
@@ -5326,7 +5341,7 @@
       }
     ],
     "effects": [],
-    "script": "const jobs=[{\"title\": \"Guild: A Parcel for the Bazaar\", \"rank\": 1, \"slug\": \"\", \"repeatable\": false, \"recommendedLevel\": 1}, {\"title\": \"Guild: Westwood Trail Notes\", \"rank\": 1, \"slug\": \"\", \"repeatable\": false, \"recommendedLevel\": 1}, {\"title\": \"Guild: Broken Halo Recovery\", \"rank\": 2, \"slug\": \"\", \"repeatable\": false, \"recommendedLevel\": 20}, {\"title\": \"Guild: Redvein Safety Survey\", \"rank\": 3, \"slug\": \"\", \"repeatable\": false, \"recommendedLevel\": 25}, {\"title\": \"Guild: Inverted Crown Instruments\", \"rank\": 4, \"slug\": \"\", \"repeatable\": false, \"recommendedLevel\": 40}, {\"title\": \"Salvage: What the Tide Left\", \"rank\": 2, \"slug\": \"salvage_1\", \"repeatable\": false, \"recommendedLevel\": 10}, {\"title\": \"The Road: An Empty Harness\", \"rank\": 1, \"slug\": \"road_1\", \"repeatable\": false, \"recommendedLevel\": 5}, {\"title\": \"Separate Pay: The Same Commission\", \"rank\": 2, \"slug\": \"camp_1\", \"repeatable\": false, \"recommendedLevel\": 10}, {\"title\": \"Guild: Boars at the Watercourse\", \"rank\": 1, \"slug\": \"contract_cull\", \"repeatable\": true, \"recommendedLevel\": 1}, {\"title\": \"Guild: The Courier at the Wrong Turn\", \"rank\": 1, \"slug\": \"contract_search\", \"repeatable\": false, \"recommendedLevel\": 3}, {\"title\": \"Guild: A Cart Full of Glass\", \"rank\": 1, \"slug\": \"contract_escort\", \"repeatable\": true, \"recommendedLevel\": 1}, {\"title\": \"Guild: After the Harbor Squall\", \"rank\": 1, \"slug\": \"contract_storm\", \"repeatable\": true, \"recommendedLevel\": 1}, {\"title\": \"Guild: Bitter Roots, Sharp Teeth\", \"rank\": 2, \"slug\": \"contract_reagent\", \"repeatable\": false, \"recommendedLevel\": 15}, {\"title\": \"Guild: A Door That Keeps Its Promise\", \"rank\": 1, \"slug\": \"contract_repair\", \"repeatable\": false, \"recommendedLevel\": 1}, {\"title\": \"Guild: Keep the Fair Moving\", \"rank\": 1, \"slug\": \"contract_steward\", \"repeatable\": true, \"recommendedLevel\": 1}, {\"title\": \"Guild: Beneath the Broken Dial\", \"rank\": 2, \"slug\": \"contract_ruin\", \"repeatable\": false, \"recommendedLevel\": 25}];\n\nconst n=Number(check({type:'game-tick'}))||0;\nlet rank=0;for(const [i,b]of ['Bronze','Silver','Gold','Platinum'].entries())if(Object.values(check({type:'player-item',item:'Guild Badge: '+b})||{}).some(v=>v>0))rank=Math.max(rank,i+1);\nif(!rank){effects.push({type:'story',instruction:'Explain the actual licensure route and Bronze starting badge if the applicant asks about taking work. No badge, payment, key or examination pass is given merely for browsing.'});}\nelse{\n const humanLevels=Object.values(check({type:'player-level'})||{}).filter(v=>typeof v==='number'&&Number.isFinite(v));\n const entryLevel=humanLevels.length?Math.min(...humanLevels):1;\n const text=String((check({type:'action-text'})||[]).join(' ')).toLocaleLowerCase();\n const qualified=jobs.filter(j=>{const s=check({type:'quest-status',questId:j.title});return rank>=j.rank&&(['hidden','planned','available','expired','abandoned','rejected'].includes(s)||(j.repeatable&&s==='completed'&&n-Number(storage['q20_'+j.slug+'_paid_tick']??n)>=20));});\n const named=qualified.find(j=>text.includes(j.title.toLocaleLowerCase()));\n const pool=qualified.filter(j=>j.recommendedLevel<=entryLevel+(entryLevel<10?2:5));\n const cursor=Number(storage.q20_board_cursor)||0;\n let picked=named?[named]:[];\n for(let i=0;i<pool.length&&picked.length<2;i++){const j=pool[(cursor+i)%pool.length];if(!picked.includes(j))picked.push(j);}\n storage.q20_board_cursor=cursor+2;\n for(const j of picked){if(j.slug){storage['q20_offered_'+j.slug]=true;storage['q20_offer_tick_'+j.slug]=n;}if(check({type:'quest-status',questId:j.title})!=='completed')effects.push({type:'quest-init',operator:'set',value:j.title});}\n effects.push({type:'story',instruction:picked.length?'Present only these eligible choices with their real short premises, scope and full posted rewards: '+picked.map(j=>j.title+' (recommended level '+j.recommendedLevel+'+)').join('; ')+'. A concluded recurring contract needs fresh terms and actual new work, never a respawned old problem. If a specifically requested job exceeds the experience of this party, explain its actual danger before any acceptance; the named request only opens the offer. Reading a notice does not accept it. Other higher-tier work may be mentioned as locked, without a playable offer. No money, credit or portal permission is granted.':'No fresh authored posting is being selected now. Preserve accepted jobs and completed outcomes. Offer at most a couple of distinct suitable generated commissions or ordinary guild company when wanted, using actual badge, permission and beginner power rules; do not substitute a high-level fight or reopen old personal crises.'});\n}\n"
+    "script": "const jobs=[{\"title\":\"Guild: A Parcel for the Bazaar\",\"rank\":1,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":1},{\"title\":\"Guild: Westwood Trail Notes\",\"rank\":1,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":1},{\"title\":\"Guild: Broken Halo Recovery\",\"rank\":2,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":20},{\"title\":\"Guild: Redvein Safety Survey\",\"rank\":3,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":25},{\"title\":\"Guild: Inverted Crown Instruments\",\"rank\":4,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":40},{\"title\":\"Salvage: What the Tide Left\",\"rank\":2,\"slug\":\"salvage_1\",\"repeatable\":false,\"recommendedLevel\":10},{\"title\":\"The Road: An Empty Harness\",\"rank\":1,\"slug\":\"road_1\",\"repeatable\":false,\"recommendedLevel\":5},{\"title\":\"Separate Pay: The Same Commission\",\"rank\":2,\"slug\":\"camp_1\",\"repeatable\":false,\"recommendedLevel\":10},{\"title\":\"Guild: Boars at the Watercourse\",\"rank\":1,\"slug\":\"contract_cull\",\"repeatable\":true,\"recommendedLevel\":1},{\"title\":\"Guild: The Courier at the Wrong Turn\",\"rank\":1,\"slug\":\"contract_search\",\"repeatable\":false,\"recommendedLevel\":3},{\"title\":\"Guild: A Cart Full of Glass\",\"rank\":1,\"slug\":\"contract_escort\",\"repeatable\":true,\"recommendedLevel\":1},{\"title\":\"Guild: After the Harbor Squall\",\"rank\":1,\"slug\":\"contract_storm\",\"repeatable\":true,\"recommendedLevel\":1},{\"title\":\"Guild: Bitter Roots, Sharp Teeth\",\"rank\":2,\"slug\":\"contract_reagent\",\"repeatable\":false,\"recommendedLevel\":15},{\"title\":\"Guild: A Door That Keeps Its Promise\",\"rank\":1,\"slug\":\"contract_repair\",\"repeatable\":false,\"recommendedLevel\":1},{\"title\":\"Guild: Keep the Fair Moving\",\"rank\":1,\"slug\":\"contract_steward\",\"repeatable\":true,\"recommendedLevel\":1},{\"title\":\"Guild: Beneath the Broken Dial\",\"rank\":2,\"slug\":\"contract_ruin\",\"repeatable\":false,\"recommendedLevel\":25},{\"title\":\"Guild: Rope Before the River\",\"rank\":1,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":3},{\"title\":\"Guild: Honey Without a Sting\",\"rank\":1,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":5},{\"title\":\"Guild: Teeth in the Spare Crate\",\"rank\":1,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":9},{\"title\":\"Guild: Five Crates, Not Four\",\"rank\":1,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":7},{\"title\":\"Guild: Warmth Beneath the Crust\",\"rank\":2,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":22},{\"title\":\"Guild: The Lanternamber Latch\",\"rank\":2,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":28},{\"title\":\"Guild: Lines Across a Gap\",\"rank\":2,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":15},{\"title\":\"Guild: Something in the Sifter\",\"rank\":2,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":28}];\n\nconst n=Number(check({type:'game-tick'}))||0;\nlet rank=0;for(const [i,b]of ['Bronze','Silver','Gold','Platinum'].entries())if(Object.values(check({type:'player-item',item:'Guild Badge: '+b})||{}).some(v=>v>0))rank=Math.max(rank,i+1);\nif(!rank){effects.push({type:'story',instruction:'Explain the actual licensure route and Bronze starting badge if the applicant asks about taking work. No badge, payment, key or examination pass is given merely for browsing.'});}\nelse{\n const humanLevels=Object.values(check({type:'player-level'})||{}).filter(v=>typeof v==='number'&&Number.isFinite(v));\n const entryLevel=humanLevels.length?Math.min(...humanLevels):1;\n const text=String((check({type:'action-text'})||[]).join(' ')).toLocaleLowerCase();\n const qualified=jobs.filter(j=>{const s=check({type:'quest-status',questId:j.title});return rank>=j.rank&&(['hidden','planned','available','expired','abandoned','rejected'].includes(s)||(j.repeatable&&s==='completed'&&n-Number(storage['q20_'+j.slug+'_paid_tick']??n)>=20));});\n const named=qualified.find(j=>text.includes(j.title.toLocaleLowerCase()));\n const pool=qualified.filter(j=>j.recommendedLevel<=entryLevel+(entryLevel<10?2:5));\n const cursor=Number(storage.q20_board_cursor)||0;\n let picked=named?[named]:[];\n for(let i=0;i<pool.length&&picked.length<2;i++){const j=pool[(cursor+i)%pool.length];if(!picked.includes(j))picked.push(j);}\n storage.q20_board_cursor=cursor+2;\n for(const j of picked){if(j.slug){storage['q20_offered_'+j.slug]=true;storage['q20_offer_tick_'+j.slug]=n;}if(check({type:'quest-status',questId:j.title})!=='completed')effects.push({type:'quest-init',operator:'set',value:j.title});}\n effects.push({type:'story',instruction:picked.length?'Present only these eligible choices with their real short premises, scope and full posted rewards: '+picked.map(j=>j.title+' (recommended level '+j.recommendedLevel+'+)').join('; ')+'. A concluded recurring contract needs fresh terms and actual new work, never a respawned old problem. If a specifically requested job exceeds the experience of this party, explain its actual danger before any acceptance; the named request only opens the offer. Reading a notice does not accept it. Other higher-tier work may be mentioned as locked, without a playable offer. No money, credit or portal permission is granted.':'No fresh authored posting is being selected now. Preserve accepted jobs and completed outcomes. Offer at most a couple of distinct suitable generated commissions or ordinary guild company when wanted, using actual badge, permission and beginner power rules; do not substitute a high-level fight or reopen old personal crises.'});\n}\n"
   },
   "gh_spellcraft_foundation": {
     "name": "gh_spellcraft_foundation",
@@ -10540,6 +10555,12 @@
         "value": "Asterveil Canopy"
       },
       {
+        "type": "read-string",
+        "operator": "equals",
+        "value": "A Road Made of Air: The Far End",
+        "key": "ad34_legacy_offer"
+      },
+      {
         "type": "action",
         "query": "This player deliberately chooses the specific current undertaking 'A Road Made of Air: The Far End' after its real premise and terms were established. A natural yes to that exact present offer counts; exact title wording is not required. General interest, browsing, accepting another job, an NPC decision or assumed consent is false. For rejected, abandoned, expired or repeat work require an explicit fresh choice now."
       }
@@ -10553,7 +10574,8 @@
     ],
     "recurring": true,
     "scope": "player",
-    "script": "if(!skip){storage[\"q20_air_1_step\"]=0;storage[\"q20_air_1_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_air_1_round\"]=Number(storage[\"q20_air_1_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"A Road Made of Air: The Far End\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking A Road Made of Air: The Far End. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}"
+    "script": "if(!skip){storage[\"q20_air_1_step\"]=0;storage[\"q20_air_1_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_air_1_round\"]=Number(storage[\"q20_air_1_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"A Road Made of Air: The Far End\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking A Road Made of Air: The Far End. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}",
+    "phase": "state"
   },
   "q20_air_1_objective_1": {
     "name": "q20_air_1_objective_1",
@@ -10948,6 +10970,12 @@
         "value": "Asterveil Canopy"
       },
       {
+        "type": "read-string",
+        "operator": "equals",
+        "value": "The Hunt That Looks Back: A Shape in the Wake",
+        "key": "ad34_legacy_offer"
+      },
+      {
         "type": "action",
         "query": "This player deliberately chooses the specific current undertaking 'The Hunt That Looks Back: A Shape in the Wake' after its real premise and terms were established. A natural yes to that exact present offer counts; exact title wording is not required. General interest, browsing, accepting another job, an NPC decision or assumed consent is false. For rejected, abandoned, expired or repeat work require an explicit fresh choice now."
       }
@@ -10961,7 +10989,8 @@
     ],
     "recurring": true,
     "scope": "player",
-    "script": "if(!skip){storage[\"q20_hunt_1_step\"]=0;storage[\"q20_hunt_1_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_hunt_1_round\"]=Number(storage[\"q20_hunt_1_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"The Hunt That Looks Back: A Shape in the Wake\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking The Hunt That Looks Back: A Shape in the Wake. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}"
+    "script": "if(!skip){storage[\"q20_hunt_1_step\"]=0;storage[\"q20_hunt_1_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_hunt_1_round\"]=Number(storage[\"q20_hunt_1_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"The Hunt That Looks Back: A Shape in the Wake\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking The Hunt That Looks Back: A Shape in the Wake. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}",
+    "phase": "state"
   },
   "q20_hunt_1_objective_1": {
     "name": "q20_hunt_1_objective_1",
@@ -11346,6 +11375,12 @@
         "value": "Asterveil Canopy"
       },
       {
+        "type": "read-string",
+        "operator": "equals",
+        "value": "First Bloom, Last Rehearsal",
+        "key": "ad34_legacy_offer"
+      },
+      {
         "type": "action",
         "query": "This player deliberately chooses the specific current undertaking 'First Bloom, Last Rehearsal' after its real premise and terms were established. A natural yes to that exact present offer counts; exact title wording is not required. General interest, browsing, accepting another job, an NPC decision or assumed consent is false. For rejected, abandoned, expired or repeat work require an explicit fresh choice now."
       }
@@ -11359,7 +11394,8 @@
     ],
     "recurring": true,
     "scope": "player",
-    "script": "if(!skip){storage[\"q20_av_bloom_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_av_bloom_round\"]=Number(storage[\"q20_av_bloom_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"First Bloom, Last Rehearsal\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking First Bloom, Last Rehearsal. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}"
+    "script": "if(!skip){storage[\"q20_av_bloom_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_av_bloom_round\"]=Number(storage[\"q20_av_bloom_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"First Bloom, Last Rehearsal\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking First Bloom, Last Rehearsal. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}",
+    "phase": "state"
   },
   "q20_av_carrier_accept": {
     "name": "q20_av_carrier_accept",
@@ -11376,6 +11412,12 @@
         "value": "Asterveil Canopy"
       },
       {
+        "type": "read-string",
+        "operator": "equals",
+        "value": "A Voice Below the Roots",
+        "key": "ad34_legacy_offer"
+      },
+      {
         "type": "action",
         "query": "This player deliberately chooses the specific current undertaking 'A Voice Below the Roots' after its real premise and terms were established. A natural yes to that exact present offer counts; exact title wording is not required. General interest, browsing, accepting another job, an NPC decision or assumed consent is false. For rejected, abandoned, expired or repeat work require an explicit fresh choice now."
       }
@@ -11389,7 +11431,8 @@
     ],
     "recurring": true,
     "scope": "player",
-    "script": "if(!skip){storage[\"q20_av_carrier_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_av_carrier_round\"]=Number(storage[\"q20_av_carrier_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"A Voice Below the Roots\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking A Voice Below the Roots. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}"
+    "script": "if(!skip){storage[\"q20_av_carrier_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_av_carrier_round\"]=Number(storage[\"q20_av_carrier_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"A Voice Below the Roots\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking A Voice Below the Roots. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}",
+    "phase": "state"
   },
   "q20_av_shed_accept": {
     "name": "q20_av_shed_accept",
@@ -11406,6 +11449,12 @@
         "value": "Asterveil Canopy"
       },
       {
+        "type": "read-string",
+        "operator": "equals",
+        "value": "What the Manta Leaves",
+        "key": "ad34_legacy_offer"
+      },
+      {
         "type": "action",
         "query": "This player deliberately chooses the specific current undertaking 'What the Manta Leaves' after its real premise and terms were established. A natural yes to that exact present offer counts; exact title wording is not required. General interest, browsing, accepting another job, an NPC decision or assumed consent is false. For rejected, abandoned, expired or repeat work require an explicit fresh choice now."
       }
@@ -11419,7 +11468,8 @@
     ],
     "recurring": true,
     "scope": "player",
-    "script": "if(!skip){storage[\"q20_av_shed_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_av_shed_round\"]=Number(storage[\"q20_av_shed_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"What the Manta Leaves\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking What the Manta Leaves. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}"
+    "script": "if(!skip){storage[\"q20_av_shed_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_av_shed_round\"]=Number(storage[\"q20_av_shed_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"What the Manta Leaves\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking What the Manta Leaves. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}",
+    "phase": "state"
   },
   "q20_av_dive_accept": {
     "name": "q20_av_dive_accept",
@@ -11436,6 +11486,12 @@
         "value": "Asterveil Canopy"
       },
       {
+        "type": "read-string",
+        "operator": "equals",
+        "value": "The Room Below the Ring",
+        "key": "ad34_legacy_offer"
+      },
+      {
         "type": "action",
         "query": "This player deliberately chooses the specific current undertaking 'The Room Below the Ring' after its real premise and terms were established. A natural yes to that exact present offer counts; exact title wording is not required. General interest, browsing, accepting another job, an NPC decision or assumed consent is false. For rejected, abandoned, expired or repeat work require an explicit fresh choice now."
       }
@@ -11449,7 +11505,8 @@
     ],
     "recurring": true,
     "scope": "player",
-    "script": "if(!skip){storage[\"q20_av_dive_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_av_dive_round\"]=Number(storage[\"q20_av_dive_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"The Room Below the Ring\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking The Room Below the Ring. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}"
+    "script": "if(!skip){storage[\"q20_av_dive_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_av_dive_round\"]=Number(storage[\"q20_av_dive_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"The Room Below the Ring\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking The Room Below the Ring. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}",
+    "phase": "state"
   },
   "q20_av_sketch_accept": {
     "name": "q20_av_sketch_accept",
@@ -11466,6 +11523,12 @@
         "value": "Asterveil Canopy"
       },
       {
+        "type": "read-string",
+        "operator": "equals",
+        "value": "An Impossible Shade of Green",
+        "key": "ad34_legacy_offer"
+      },
+      {
         "type": "action",
         "query": "This player deliberately chooses the specific current undertaking 'An Impossible Shade of Green' after its real premise and terms were established. A natural yes to that exact present offer counts; exact title wording is not required. General interest, browsing, accepting another job, an NPC decision or assumed consent is false. For rejected, abandoned, expired or repeat work require an explicit fresh choice now."
       }
@@ -11479,7 +11542,8 @@
     ],
     "recurring": true,
     "scope": "player",
-    "script": "if(!skip){storage[\"q20_av_sketch_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_av_sketch_round\"]=Number(storage[\"q20_av_sketch_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"An Impossible Shade of Green\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking An Impossible Shade of Green. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}"
+    "script": "if(!skip){storage[\"q20_av_sketch_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_av_sketch_round\"]=Number(storage[\"q20_av_sketch_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"An Impossible Shade of Green\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking An Impossible Shade of Green. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}",
+    "phase": "state"
   },
   "q20_av_rivals_accept": {
     "name": "q20_av_rivals_accept",
@@ -11496,6 +11560,12 @@
         "value": "Asterveil Canopy"
       },
       {
+        "type": "read-string",
+        "operator": "equals",
+        "value": "Two Teams, One Clean Sample",
+        "key": "ad34_legacy_offer"
+      },
+      {
         "type": "action",
         "query": "This player deliberately chooses the specific current undertaking 'Two Teams, One Clean Sample' after its real premise and terms were established. A natural yes to that exact present offer counts; exact title wording is not required. General interest, browsing, accepting another job, an NPC decision or assumed consent is false. For rejected, abandoned, expired or repeat work require an explicit fresh choice now."
       }
@@ -11509,7 +11579,8 @@
     ],
     "recurring": true,
     "scope": "player",
-    "script": "if(!skip){storage[\"q20_av_rivals_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_av_rivals_round\"]=Number(storage[\"q20_av_rivals_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"Two Teams, One Clean Sample\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking Two Teams, One Clean Sample. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}"
+    "script": "if(!skip){storage[\"q20_av_rivals_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_av_rivals_round\"]=Number(storage[\"q20_av_rivals_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"Two Teams, One Clean Sample\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking Two Teams, One Clean Sample. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}",
+    "phase": "state"
   },
   "av21_orivelle_circuit": {
     "name": "av21_orivelle_circuit",
@@ -14265,5 +14336,923 @@
         "instruction": "The actual reader has learned Invitation to an Empty Room; the script fades and one teaching scroll is consumed. The supplied effects already grant the formula and ability. Describe that discovery without a second grant or removal. No ability point, affinity, discipline rank, character level, automatic cast or extra Mana is granted. An unused duplicate stays readable but cannot teach this same formula twice."
       }
     ]
+  },
+  "ad34_property_roseberry": {
+    "name": "ad34_property_roseberry",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Roseberry Inn"
+      },
+      {
+        "type": "player-item",
+        "operator": "greaterThanOrEqual",
+        "value": 30,
+        "item": "Mark"
+      },
+      {
+        "type": "player-item",
+        "operator": "equals",
+        "value": 0,
+        "item": "Roseberry Attic Room Key"
+      },
+      {
+        "type": "action",
+        "query": "The player explicitly commits now to rent Roseberry Attic Room from the Roseberry Inn proprietor for exactly 30 marks after the owner has agreed. The room/property is actually available, the funds are the player's to spend and payment is being tendered for this transaction. Merely asking, inspecting, haggling, planning, discussing somebody else's purchase or a completed earlier transaction is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "item-remove",
+        "item": "Mark",
+        "quantity": 30,
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "item-add",
+        "item": "Roseberry Attic Room Key",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "story",
+        "instruction": "Conclude the agreed handover of Roseberry Attic Room. The proprietor passes the actual key and any purchase papers to the paying player. The tag/papers identify that person and the actual agreement. Preserve their room and property; no second payment, new companion, free stock or extra house is created."
+      }
+    ],
+    "recurring": true,
+    "scope": "player"
+  },
+  "ad34_property_whitepass": {
+    "name": "ad34_property_whitepass",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Whitepass Caravan Lodge"
+      },
+      {
+        "type": "player-item",
+        "operator": "greaterThanOrEqual",
+        "value": 28,
+        "item": "Mark"
+      },
+      {
+        "type": "player-item",
+        "operator": "equals",
+        "value": 0,
+        "item": "Whitepass Drying-Loft Key"
+      },
+      {
+        "type": "action",
+        "query": "The player explicitly commits now to rent Whitepass Drying-Loft Room from Akemi Fushida for exactly 28 marks after the owner has agreed. The room/property is actually available, the funds are the player's to spend and payment is being tendered for this transaction. Merely asking, inspecting, haggling, planning, discussing somebody else's purchase or a completed earlier transaction is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "item-remove",
+        "item": "Mark",
+        "quantity": 28,
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "item-add",
+        "item": "Whitepass Drying-Loft Key",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "story",
+        "instruction": "Conclude the agreed handover of Whitepass Drying-Loft Room. The proprietor passes the actual key and any purchase papers to the paying player. The tag/papers identify that person and the actual agreement. Preserve their room and property; no second payment, new companion, free stock or extra house is created."
+      }
+    ],
+    "recurring": true,
+    "scope": "player"
+  },
+  "ad34_property_canopy": {
+    "name": "ad34_property_canopy",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Asterveil Canopy"
+      },
+      {
+        "type": "player-item",
+        "operator": "greaterThanOrEqual",
+        "value": 24,
+        "item": "Mark"
+      },
+      {
+        "type": "player-item",
+        "operator": "equals",
+        "value": 0,
+        "item": "Canopy Guest Bough Key"
+      },
+      {
+        "type": "action",
+        "query": "The player explicitly commits now to rent Canopy Guest Bough from Yuzuri Takase for exactly 24 marks after the owner has agreed. The room/property is actually available, the funds are the player's to spend and payment is being tendered for this transaction. Merely asking, inspecting, haggling, planning, discussing somebody else's purchase or a completed earlier transaction is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "item-remove",
+        "item": "Mark",
+        "quantity": 24,
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "item-add",
+        "item": "Canopy Guest Bough Key",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "story",
+        "instruction": "Conclude the agreed handover of Canopy Guest Bough. The proprietor passes the actual key and any purchase papers to the paying player. The tag/papers identify that person and the actual agreement. Preserve their room and property; no second payment, new companion, free stock or extra house is created."
+      }
+    ],
+    "recurring": true,
+    "scope": "player"
+  },
+  "ad34_property_willowbend": {
+    "name": "ad34_property_willowbend",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Willowbend Residential District"
+      },
+      {
+        "type": "player-item",
+        "operator": "greaterThanOrEqual",
+        "value": 1200,
+        "item": "Mark"
+      },
+      {
+        "type": "player-item",
+        "operator": "equals",
+        "value": 0,
+        "item": "Willowbend Cottage Key and Deed"
+      },
+      {
+        "type": "action",
+        "query": "The player explicitly commits now to purchase Willowbend Courtyard Cottage from Nae Komorida for exactly 1200 marks after the owner has agreed. The room/property is actually available, the funds are the player's to spend and payment is being tendered for this transaction. Merely asking, inspecting, haggling, planning, discussing somebody else's purchase or a completed earlier transaction is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "item-remove",
+        "item": "Mark",
+        "quantity": 1200,
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "item-add",
+        "item": "Willowbend Cottage Key and Deed",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "story",
+        "instruction": "Conclude the agreed handover of Willowbend Courtyard Cottage. The proprietor passes the actual key and any purchase papers to the paying player. The tag/papers identify that person and the actual agreement. Preserve their room and property; no second payment, new companion, free stock or extra house is created."
+      }
+    ],
+    "recurring": false,
+    "scope": "player"
+  },
+  "ad34_property_workshop": {
+    "name": "ad34_property_workshop",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Merchant's Row"
+      },
+      {
+        "type": "player-item",
+        "operator": "greaterThanOrEqual",
+        "value": 850,
+        "item": "Mark"
+      },
+      {
+        "type": "player-item",
+        "operator": "equals",
+        "value": 0,
+        "item": "Bench Workshop Key and Deed"
+      },
+      {
+        "type": "action",
+        "query": "The player explicitly commits now to purchase Merchant's Row Bench Workshop from Nae Komorida for exactly 850 marks after the owner has agreed. The room/property is actually available, the funds are the player's to spend and payment is being tendered for this transaction. Merely asking, inspecting, haggling, planning, discussing somebody else's purchase or a completed earlier transaction is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "item-remove",
+        "item": "Mark",
+        "quantity": 850,
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "item-add",
+        "item": "Bench Workshop Key and Deed",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "story",
+        "instruction": "Conclude the agreed handover of Merchant's Row Bench Workshop. The proprietor passes the actual key and any purchase papers to the paying player. The tag/papers identify that person and the actual agreement. Preserve their room and property; no second payment, new companion, free stock or extra house is created."
+      }
+    ],
+    "recurring": false,
+    "scope": "player"
+  },
+  "ad34_property_snowmelt": {
+    "name": "ad34_property_snowmelt",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Snowmelt Residential Steps"
+      },
+      {
+        "type": "player-item",
+        "operator": "greaterThanOrEqual",
+        "value": 1100,
+        "item": "Mark"
+      },
+      {
+        "type": "player-item",
+        "operator": "equals",
+        "value": 0,
+        "item": "Snowmelt Landing Key and Deed"
+      },
+      {
+        "type": "action",
+        "query": "The player explicitly commits now to purchase Snowmelt Landing Flat from Atsuko Ōhira for exactly 1100 marks after the owner has agreed. The room/property is actually available, the funds are the player's to spend and payment is being tendered for this transaction. Merely asking, inspecting, haggling, planning, discussing somebody else's purchase or a completed earlier transaction is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "item-remove",
+        "item": "Mark",
+        "quantity": 1100,
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "item-add",
+        "item": "Snowmelt Landing Key and Deed",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "story",
+        "instruction": "Conclude the agreed handover of Snowmelt Landing Flat. The proprietor passes the actual key and any purchase papers to the paying player. The tag/papers identify that person and the actual agreement. Preserve their room and property; no second payment, new companion, free stock or extra house is created."
+      }
+    ],
+    "recurring": false,
+    "scope": "player"
+  },
+  "ad34_offer_1": {
+    "name": "ad34_offer_1",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Four Sages Bazaar"
+      },
+      {
+        "type": "read-string",
+        "operator": "equals",
+        "value": "Borrowed After the Applause",
+        "key": "ad34_offer_target"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "hidden",
+        "questId": "Borrowed After the Applause"
+      },
+      {
+        "type": "npc-in-scene",
+        "operator": "equals",
+        "value": true,
+        "npc": "Adoha Aonuma"
+      },
+      {
+        "type": "story",
+        "query": "The player has actually encountered the specific offer \"Borrowed After the Applause from Adoha Aonuma, with its real problem and scope explained, and has asked about helping or requested its terms. An overheard hint, merely arriving, an unrelated conversation or an imagined future offer is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "Borrowed After the Applause"
+      }
+    ],
+    "recurring": false
+  },
+  "ad34_offer_2": {
+    "name": "ad34_offer_2",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Whitepass Caravan Lodge"
+      },
+      {
+        "type": "read-string",
+        "operator": "equals",
+        "value": "A Stable Fit for Old Bones",
+        "key": "ad34_offer_target"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "hidden",
+        "questId": "A Stable Fit for Old Bones"
+      },
+      {
+        "type": "npc-in-scene",
+        "operator": "equals",
+        "value": true,
+        "npc": "Ragnar Leonhart"
+      },
+      {
+        "type": "story",
+        "query": "The player has actually encountered the specific offer \"A Stable Fit for Old Bones from Ragnar Leonhart, with its real problem and scope explained, and has asked about helping or requested its terms. An overheard hint, merely arriving, an unrelated conversation or an imagined future offer is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "A Stable Fit for Old Bones"
+      }
+    ],
+    "recurring": false
+  },
+  "ad34_offer_3": {
+    "name": "ad34_offer_3",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Crooked Tankard"
+      },
+      {
+        "type": "read-string",
+        "operator": "equals",
+        "value": "Three Rhymes Behind",
+        "key": "ad34_offer_target"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "hidden",
+        "questId": "Three Rhymes Behind"
+      },
+      {
+        "type": "npc-in-scene",
+        "operator": "equals",
+        "value": true,
+        "npc": "Karia Morino"
+      },
+      {
+        "type": "story",
+        "query": "The player has actually encountered the specific offer \"Three Rhymes Behind from Karia Morino, with its real problem and scope explained, and has asked about helping or requested its terms. An overheard hint, merely arriving, an unrelated conversation or an imagined future offer is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "Three Rhymes Behind"
+      }
+    ],
+    "recurring": false
+  },
+  "ad34_offer_4": {
+    "name": "ad34_offer_4",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Adventurer's Guild - Glowhaven Branch"
+      },
+      {
+        "type": "read-string",
+        "operator": "equals",
+        "value": "The Map Has Your Footprints",
+        "key": "ad34_offer_target"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "hidden",
+        "questId": "The Map Has Your Footprints"
+      },
+      {
+        "type": "npc-in-scene",
+        "operator": "equals",
+        "value": true,
+        "npc": "Renpei Sugita"
+      },
+      {
+        "type": "story",
+        "query": "The player has actually encountered the specific offer \"The Map Has Your Footprints from Renpei Sugita, with its real problem and scope explained, and has asked about helping or requested its terms. An overheard hint, merely arriving, an unrelated conversation or an imagined future offer is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Map Has Your Footprints"
+      }
+    ],
+    "recurring": false
+  },
+  "ad34_offer_5": {
+    "name": "ad34_offer_5",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Adventurer's Guild - Glowhaven Branch"
+      },
+      {
+        "type": "read-string",
+        "operator": "equals",
+        "value": "A Handle Worth Keeping",
+        "key": "ad34_offer_target"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "hidden",
+        "questId": "A Handle Worth Keeping"
+      },
+      {
+        "type": "npc-in-scene",
+        "operator": "equals",
+        "value": true,
+        "npc": "Tetsuya Kanamori"
+      },
+      {
+        "type": "story",
+        "query": "The player has actually encountered the specific offer \"A Handle Worth Keeping from Tetsuya Kanamori, with its real problem and scope explained, and has asked about helping or requested its terms. An overheard hint, merely arriving, an unrelated conversation or an imagined future offer is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "A Handle Worth Keeping"
+      }
+    ],
+    "recurring": false
+  },
+  "ad34_offer_6": {
+    "name": "ad34_offer_6",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Willowbend Residential District"
+      },
+      {
+        "type": "read-string",
+        "operator": "equals",
+        "value": "The Quiet Room",
+        "key": "ad34_offer_target"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "hidden",
+        "questId": "The Quiet Room"
+      },
+      {
+        "type": "npc-in-scene",
+        "operator": "equals",
+        "value": true,
+        "npc": "Nae Komorida"
+      },
+      {
+        "type": "story",
+        "query": "The player has actually encountered the specific offer \"The Quiet Room from Nae Komorida, with its real problem and scope explained, and has asked about helping or requested its terms. An overheard hint, merely arriving, an unrelated conversation or an imagined future offer is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Quiet Room"
+      }
+    ],
+    "recurring": false
+  },
+  "ad34_offer_7": {
+    "name": "ad34_offer_7",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Prison Work Yard"
+      },
+      {
+        "type": "read-string",
+        "operator": "equals",
+        "value": "Prison: A Dry Line Tomorrow",
+        "key": "ad34_offer_target"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "hidden",
+        "questId": "Prison: A Dry Line Tomorrow"
+      },
+      {
+        "type": "npc-in-scene",
+        "operator": "equals",
+        "value": true,
+        "npc": "Masaru Hasebe"
+      },
+      {
+        "type": "story",
+        "query": "The player has actually encountered the specific offer \"Prison: A Dry Line Tomorrow from Masaru Hasebe, with its real problem and scope explained, and has asked about helping or requested its terms. An overheard hint, merely arriving, an unrelated conversation or an imagined future offer is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "Prison: A Dry Line Tomorrow"
+      }
+    ],
+    "recurring": false
+  },
+  "ad34_offer_8": {
+    "name": "ad34_offer_8",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Prison Records Office"
+      },
+      {
+        "type": "read-string",
+        "operator": "equals",
+        "value": "Prison: The Book Returns",
+        "key": "ad34_offer_target"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "hidden",
+        "questId": "Prison: The Book Returns"
+      },
+      {
+        "type": "npc-in-scene",
+        "operator": "equals",
+        "value": true,
+        "npc": "Akira Oritsu"
+      },
+      {
+        "type": "story",
+        "query": "The player has actually encountered the specific offer \"Prison: The Book Returns from Akira Oritsu, with its real problem and scope explained, and has asked about helping or requested its terms. An overheard hint, merely arriving, an unrelated conversation or an imagined future offer is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "Prison: The Book Returns"
+      }
+    ],
+    "recurring": false
+  },
+  "ad34_scene_dispatch": {
+    "name": "ad34_scene_dispatch",
+    "conditions": [
+      {
+        "type": "game-tick",
+        "operator": "greaterThanOrEqual",
+        "value": 0
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "script": "const jobs = [{\"title\": \"Borrowed After the Applause\", \"source\": \"Adoha Aonuma\", \"location\": \"Four Sages Bazaar\", \"level\": 1}, {\"title\": \"A Stable Fit for Old Bones\", \"source\": \"Ragnar Leonhart\", \"location\": \"Whitepass Caravan Lodge\", \"level\": 1}, {\"title\": \"Three Rhymes Behind\", \"source\": \"Karia Morino\", \"location\": \"Crooked Tankard\", \"level\": 1}, {\"title\": \"The Map Has Your Footprints\", \"source\": \"Renpei Sugita\", \"location\": \"Adventurer's Guild - Glowhaven Branch\", \"level\": 6}, {\"title\": \"A Handle Worth Keeping\", \"source\": \"Tetsuya Kanamori\", \"location\": \"Adventurer's Guild - Glowhaven Branch\", \"level\": 4}, {\"title\": \"The Quiet Room\", \"source\": \"Nae Komorida\", \"location\": \"Willowbend Residential District\", \"level\": 1}, {\"title\": \"Prison: A Dry Line Tomorrow\", \"source\": \"Masaru Hasebe\", \"location\": \"Prison Work Yard\", \"level\": 1}, {\"title\": \"Prison: The Book Returns\", \"source\": \"Akira Oritsu\", \"location\": \"Prison Records Office\", \"level\": 1}];\nconst location = check({type:'party-location'});\nconst actions = check({type:'action-text'});\nconst text = (Array.isArray(actions) ? actions : [actions]).join(' ');\nconst levels = Object.values(check({type:'player-level'}) || {}).filter(x=>typeof x==='number' && x>0);\nconst minLevel = levels.length ? Math.min(...levels) : 1;\nstorage.ad34_solo = levels.length === 1;\nstorage.ad34_offer_target = '';\nconst propertyWords = /\\b(rent|lease|purchase|buy|bought|rented|own|ownership|deed|lodging|room|workshop|house|property|key)\\b/i.test(text);\nstorage.ad34_property_interest = propertyWords;\nconst candidates = jobs.filter(j => j.location === location &&\n  check({type:'quest-status',questId:j.title}) === 'hidden' &&\n  check({type:'npc-in-scene',npc:j.source}) === true &&\n  minLevel + 2 >= j.level);\nconst explicit = candidates.find(j=>text.toLowerCase().includes(j.title.toLowerCase()));\nconst addressed = candidates.find(j=>text.toLowerCase().includes(j.source.toLowerCase()) || text.toLowerCase().includes(j.source.split(' ')[0].toLowerCase()));\nconst recent = String(check({type:'story-text'}) || '');\nconst followup = /\\b(yes|sure|okay|ok|accept|agree|terms|pay|payment|do that|i will|i'll)\\b/i.test(text) &&\n  candidates.find(j=>recent.toLowerCase().includes(j.title.toLowerCase()));\nif (/\\b(job|work|help|request|commission|task|posting|offer|problem|repair)\\b/i.test(text) || explicit || followup) {\n  const choice = explicit || followup || addressed || (candidates.length === 1 ? candidates[0] : null);\n  if (choice) storage.ad34_offer_target = choice.title;\n}\n// Older Canopy offers share a venue. Expose only the current conversation's job.\nconst legacy = [{\"title\": \"A Road Made of Air: The Far End\", \"source\": \"Sakuya Tomonari\", \"words\": \"crossing|route|tether|road made\"}, {\"title\": \"The Hunt That Looks Back: A Shape in the Wake\", \"source\": \"Sakuya Tomonari\", \"words\": \"hunt|predator|shape.*wake\"}, {\"title\": \"First Bloom, Last Rehearsal\", \"source\": \"Sakuya Tomonari\", \"words\": \"bloom|rehearsal|celebration\"}, {\"title\": \"A Voice Below the Roots\", \"source\": \"Sakuya Tomonari\", \"words\": \"roots|voice|hum\"}, {\"title\": \"What the Manta Leaves\", \"source\": \"Sakuya Tomonari\", \"words\": \"manta|shed|comb\"}, {\"title\": \"The Room Below the Ring\", \"source\": \"Kureha Kazahana\", \"words\": \"orrery|drown|ring\"}, {\"title\": \"An Impossible Shade of Green\", \"source\": \"Kureha Kazahana\", \"words\": \"shade|green|pigment\"}, {\"title\": \"Two Teams, One Clean Sample\", \"source\": \"Kureha Kazahana\", \"words\": \"rival|teams|clean sample\"}];\nstorage.ad34_legacy_offer = '';\nif (location === 'Asterveil Canopy') {\n  const available = legacy.filter(j=>check({type:'npc-in-scene',npc:j.source}) === true &&\n    !['accepted','completed'].includes(check({type:'quest-status',questId:j.title})));\n  const named = available.find(j=>text.toLowerCase().includes(j.title.toLowerCase())) ||\n    available.find(j=>recent.toLowerCase().includes(j.title.toLowerCase()));\n  const relevant = available.find(j=>new RegExp(j.words,'i').test(text));\n  const chosen = named || relevant || (/\\b(job|work|help|request|offer)\\b/i.test(text) && available.length ? available[0] : null);\n  if (chosen) storage.ad34_legacy_offer = chosen.title;\n}\n",
+    "phase": "planning"
+  },
+  "ad34_quest_repair": {
+    "name": "ad34_quest_repair",
+    "conditions": [
+      {
+        "type": "game-tick",
+        "operator": "greaterThanOrEqual",
+        "value": 0
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "script": "const raw = check({type:'action-text'});\nconst inputs = Array.isArray(raw) ? raw : [raw];\nconst seen = [];\nfor (const input of inputs) {\n  // Match only the whole out-of-character command, never a quotation inside prose.\n  const match = /^\\s*quest done:\\s*([^\\r\\n]+?)\\s*$/i.exec(String(input || ''));\n  if (!match) continue;\n  const title = match[1];\n  if (seen.includes(title)) continue;\n  seen.push(title);\n  const status = check({type:'quest-status',questId:title});\n  if (status !== 'accepted') {\n    effects.push({type:'story',instruction:'Out of character only: the quest-repair command found no accepted quest with the exact supplied name. Give one short correction note without quoting internal flags. Do not change a quest, item, reward or NPC memory, and continue the current scene.'});\n  } else {\n    effects.push({type:'quest-complete',questId:title});\n    effects.push({type:'story',instruction:'The player used the out-of-character journal repair for '+title+'. Let its normal completion effects settle once. Continue the existing scene; NPCs did not hear a command and no fictional deed, forged evidence or extra payment is retroactively invented.'});\n  }\n  if (effects.length >= 8) break;\n}\nif (!effects.length) skip = true;\n",
+    "phase": "planning"
+  },
+  "ad34_hold_ragnar": {
+    "name": "ad34_hold_ragnar",
+    "conditions": [
+      {
+        "type": "npc-in-scene",
+        "operator": "equals",
+        "value": true,
+        "npc": "Ragnar Leonhart"
+      },
+      {
+        "type": "npc-health",
+        "operator": "greaterThan",
+        "value": 0,
+        "npc": "Ragnar Leonhart"
+      },
+      {
+        "type": "read-boolean",
+        "operator": "equals",
+        "value": false,
+        "key": "ad34_hold_Ragnar Leonhart"
+      },
+      {
+        "type": "story",
+        "query": "In the latest actual scene, Ragnar Leonhart has explicitly agreed to remain at the present place for a specific continuing commitment, or has actually become confined or injured so they cannot resume independent travel. Mere friendliness, a suggested invitation, ordinary rest or a hypothetical injury is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-boolean",
+        "key": "ad34_hold_Ragnar Leonhart",
+        "operator": "set",
+        "value": true
+      }
+    ],
+    "recurring": true
+  },
+  "ad34_resume_ragnar": {
+    "name": "ad34_resume_ragnar",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "operator": "equals",
+        "value": true,
+        "key": "ad34_hold_Ragnar Leonhart"
+      },
+      {
+        "type": "npc-health",
+        "operator": "greaterThan",
+        "value": 0,
+        "npc": "Ragnar Leonhart"
+      },
+      {
+        "type": "story",
+        "query": "The actual specific commitment or confinement that paused Ragnar Leonhart's independent tour has now genuinely ended, or the person has explicitly agreed to resume independent travel. A promise to release them later or an unrelated past event is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-boolean",
+        "key": "ad34_hold_Ragnar Leonhart",
+        "operator": "set",
+        "value": false
+      }
+    ],
+    "recurring": true
+  },
+  "ad34_hold_adoha": {
+    "name": "ad34_hold_adoha",
+    "conditions": [
+      {
+        "type": "npc-in-scene",
+        "operator": "equals",
+        "value": true,
+        "npc": "Adoha Aonuma"
+      },
+      {
+        "type": "npc-health",
+        "operator": "greaterThan",
+        "value": 0,
+        "npc": "Adoha Aonuma"
+      },
+      {
+        "type": "read-boolean",
+        "operator": "equals",
+        "value": false,
+        "key": "ad34_hold_Adoha Aonuma"
+      },
+      {
+        "type": "story",
+        "query": "In the latest actual scene, Adoha Aonuma has explicitly agreed to remain at the present place for a specific continuing commitment, or has actually become confined or injured so they cannot resume independent travel. Mere friendliness, a suggested invitation, ordinary rest or a hypothetical injury is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-boolean",
+        "key": "ad34_hold_Adoha Aonuma",
+        "operator": "set",
+        "value": true
+      }
+    ],
+    "recurring": true
+  },
+  "ad34_resume_adoha": {
+    "name": "ad34_resume_adoha",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "operator": "equals",
+        "value": true,
+        "key": "ad34_hold_Adoha Aonuma"
+      },
+      {
+        "type": "npc-health",
+        "operator": "greaterThan",
+        "value": 0,
+        "npc": "Adoha Aonuma"
+      },
+      {
+        "type": "story",
+        "query": "The actual specific commitment or confinement that paused Adoha Aonuma's independent tour has now genuinely ended, or the person has explicitly agreed to resume independent travel. A promise to release them later or an unrelated past event is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-boolean",
+        "key": "ad34_hold_Adoha Aonuma",
+        "operator": "set",
+        "value": false
+      }
+    ],
+    "recurring": true
+  },
+  "ad34_hold_karia": {
+    "name": "ad34_hold_karia",
+    "conditions": [
+      {
+        "type": "npc-in-scene",
+        "operator": "equals",
+        "value": true,
+        "npc": "Karia Morino"
+      },
+      {
+        "type": "npc-health",
+        "operator": "greaterThan",
+        "value": 0,
+        "npc": "Karia Morino"
+      },
+      {
+        "type": "read-boolean",
+        "operator": "equals",
+        "value": false,
+        "key": "ad34_hold_Karia Morino"
+      },
+      {
+        "type": "story",
+        "query": "In the latest actual scene, Karia Morino has explicitly agreed to remain at the present place for a specific continuing commitment, or has actually become confined or injured so they cannot resume independent travel. Mere friendliness, a suggested invitation, ordinary rest or a hypothetical injury is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-boolean",
+        "key": "ad34_hold_Karia Morino",
+        "operator": "set",
+        "value": true
+      }
+    ],
+    "recurring": true
+  },
+  "ad34_resume_karia": {
+    "name": "ad34_resume_karia",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "operator": "equals",
+        "value": true,
+        "key": "ad34_hold_Karia Morino"
+      },
+      {
+        "type": "npc-health",
+        "operator": "greaterThan",
+        "value": 0,
+        "npc": "Karia Morino"
+      },
+      {
+        "type": "story",
+        "query": "The actual specific commitment or confinement that paused Karia Morino's independent tour has now genuinely ended, or the person has explicitly agreed to resume independent travel. A promise to release them later or an unrelated past event is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-boolean",
+        "key": "ad34_hold_Karia Morino",
+        "operator": "set",
+        "value": false
+      }
+    ],
+    "recurring": true
+  },
+  "ad34_touring_cast": {
+    "name": "ad34_touring_cast",
+    "conditions": [
+      {
+        "type": "game-tick",
+        "operator": "greaterThanOrEqual",
+        "value": 0
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "script": "// The build replaces {\"Ragnar Leonhart\": [[\"The Eternal Crucible\", \"The Eternal Crucible - Arena Floor\"], [\"Crooked Tankard\", \"Crooked Tankard - Hearth Corner\"], [\"The Cinder Pit\", \"The Cinder Pit - Fighting Floor\"], [\"Whitepass Caravan Lodge\", \"Whitepass Caravan Lodge - Common Hearth\"], [\"Cloudbloom Landing\", \"Cloudbloom Landing - Crossing Quay\"], [\"Asterveil Canopy\", \"Asterveil Canopy - Guest Terrace\"], [\"The Eternal Crucible\", \"The Eternal Crucible - Competitor Passage\"], [\"Roseberry Inn\", \"Roseberry Inn - Common Room\"]], \"Adoha Aonuma\": [[\"Four Sages Bazaar\", \"Four Sages Bazaar - Four Sages Fountain\"], [\"The Jade Cup Teahouse\", \"The Jade Cup Teahouse - Tea Room\"], [\"Snowbell Playhouse\", \"Snowbell Playhouse - Stage and Wings\"], [\"The Copper Ram\", \"The Copper Ram - Musicians' Corner\"], [\"Asterveil Canopy\", \"Asterveil Canopy - Guest Terrace\"], [\"Asterveil Canopy\", \"Asterveil Canopy - Guest Boughs\"], [\"Roseberry Inn\", \"Roseberry Inn - Common Room\"], [\"Four Sages Bazaar\", \"Four Sages Bazaar - North Arcade\"]], \"Karia Morino\": [[\"Adventurer's Guild - Glowhaven Branch\", \"Adventurer's Guild - Glowhaven Branch - Training Yard\"], [\"Crooked Tankard\", \"Crooked Tankard - Taproom\"], [\"Whitepass Caravan Lodge\", \"Whitepass Caravan Lodge - Route Desk\"], [\"The Copper Ram\", \"The Copper Ram - Taproom\"], [\"Rimeglass Refuge\", \"Rimeglass Refuge - Common Shelter\"], [\"Reedglass Anchorage\", \"Reedglass Anchorage - Arrival Deck\"], [\"Heatherwatch Shelf\", \"Heatherwatch Shelf - Common Room\"], [\"Asterveil Canopy\", \"Asterveil Canopy - Guest Terrace\"]]} with exact supported location/area pairs.\nconst routes = {\"Ragnar Leonhart\": [[\"The Eternal Crucible\", \"The Eternal Crucible - Arena Floor\"], [\"Crooked Tankard\", \"Crooked Tankard - Hearth Corner\"], [\"The Cinder Pit\", \"The Cinder Pit - Fighting Floor\"], [\"Whitepass Caravan Lodge\", \"Whitepass Caravan Lodge - Common Hearth\"], [\"Cloudbloom Landing\", \"Cloudbloom Landing - Crossing Quay\"], [\"Asterveil Canopy\", \"Asterveil Canopy - Guest Terrace\"], [\"The Eternal Crucible\", \"The Eternal Crucible - Competitor Passage\"], [\"Roseberry Inn\", \"Roseberry Inn - Common Room\"]], \"Adoha Aonuma\": [[\"Four Sages Bazaar\", \"Four Sages Bazaar - Four Sages Fountain\"], [\"The Jade Cup Teahouse\", \"The Jade Cup Teahouse - Tea Room\"], [\"Snowbell Playhouse\", \"Snowbell Playhouse - Stage and Wings\"], [\"The Copper Ram\", \"The Copper Ram - Musicians' Corner\"], [\"Asterveil Canopy\", \"Asterveil Canopy - Guest Terrace\"], [\"Asterveil Canopy\", \"Asterveil Canopy - Guest Boughs\"], [\"Roseberry Inn\", \"Roseberry Inn - Common Room\"], [\"Four Sages Bazaar\", \"Four Sages Bazaar - North Arcade\"]], \"Karia Morino\": [[\"Adventurer's Guild - Glowhaven Branch\", \"Adventurer's Guild - Glowhaven Branch - Training Yard\"], [\"Crooked Tankard\", \"Crooked Tankard - Taproom\"], [\"Whitepass Caravan Lodge\", \"Whitepass Caravan Lodge - Route Desk\"], [\"The Copper Ram\", \"The Copper Ram - Taproom\"], [\"Rimeglass Refuge\", \"Rimeglass Refuge - Common Shelter\"], [\"Reedglass Anchorage\", \"Reedglass Anchorage - Arrival Deck\"], [\"Heatherwatch Shelf\", \"Heatherwatch Shelf - Common Room\"], [\"Asterveil Canopy\", \"Asterveil Canopy - Guest Terrace\"]]};\nconst dayRaw = Number(check({type:'day'}));\nconst day = Number.isFinite(dayRaw) && dayRaw >= 1 ? Math.floor(dayRaw) : 1;\nconst time = String(check({type:'time-of-day'}) || '').toLowerCase();\nconst late = /afternoon|evening|night|dusk/.test(time);\nfor (const [npc, stops] of Object.entries(routes)) {\n  const hp = check({type:'npc-health',npc});\n  if (typeof hp !== 'number' || hp <= 0 || storage['ad34_hold_'+npc] === true ||\n      check({type:'npc-in-party',npc}) === true ||\n      check({type:'npc-in-combat',npc}) === true ||\n      check({type:'npc-in-scene',npc}) === true) continue;\n  const index = ((day - 1) * 2 + (late ? 1 : 0)) % stops.length;\n  const [location,area] = stops[index];\n  if (check({type:'npc-location',npc}) === location && check({type:'npc-area',npc}) === area) continue;\n  // At most one move per traveler in a phase; never a player teleport or a new NPC.\n  effects.push({type:'npc-placement',npc,operation:'moveTo',location,area});\n}\n",
+    "phase": "planning"
+  },
+  "ad34_public_opportunities": {
+    "name": "ad34_public_opportunities",
+    "conditions": [
+      {
+        "type": "game-tick",
+        "operator": "greaterThanOrEqual",
+        "value": 3
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "script": "const entries = [{\"id\":\"q0\",\"location\":\"Phoenix Wing Academy\",\"quest\":\"A Formula Worth Selling\",\"text\":\"Ranka Kagari is trying to arrange a small recovery-formula trial; somebody at the faculty table is asking why two dosage sheets disagree.\",\"level\":1},{\"id\":\"q1\",\"location\":\"Gryffin Tail Academy\",\"quest\":\"One Standard, Two Students\",\"text\":\"Two students compare reassessment notices with different requirements for what appears to be the same exercise.\",\"level\":1},{\"id\":\"q2\",\"location\":\"Dragon Hoard Academy\",\"quest\":\"The Shield's Late Return\",\"text\":\"A student complains that a loaned shield has not come back to Mai Kajiwara's repair queue.\",\"level\":1},{\"id\":\"q3\",\"location\":\"Hydra Head Academy\",\"quest\":\"What the Scent Becomes\",\"text\":\"People near Kaoruko Hanazono's workroom are arguing about a fragrance batch that changed after leaving the bench.\",\"level\":1},{\"id\":\"q4\",\"location\":\"Rune and Raven's\",\"quest\":\"The Wrong Kind of Light\",\"text\":\"A customer asks Rui Takatori why a purchased light does not behave like the demonstration.\",\"level\":1},{\"id\":\"q5\",\"location\":\"Whitecrest Harbor\",\"quest\":\"A Crate Without a Signature\",\"text\":\"At the cargo pier, a delivery is waiting because nobody has matched it to an actual accepting party.\",\"level\":1},{\"id\":\"q6\",\"location\":\"Glowhaven Farmlands\",\"quest\":\"Water Owed Downstream\",\"text\":\"Growers downstream are comparing the water reaching their irrigation runs with what their neighbors expected.\",\"level\":1},{\"id\":\"q7\",\"location\":\"Four Sages Bazaar\",\"quest\":\"A Fair Measure\",\"text\":\"Two traders are checking the same weight on different scales, drawing a small but interested audience.\",\"level\":1},{\"id\":\"q8\",\"location\":\"The Everlight Public Library\",\"quest\":\"Margins in Two Hands\",\"text\":\"A reader has noticed two different hands making incompatible notes in a much-consulted text.\",\"level\":1},{\"id\":\"q9\",\"location\":\"The Eternal Crucible\",\"quest\":\"Before the First Bell\",\"text\":\"A practice entrant has been told to arrive early, and is trying to find out which part of the preparation actually matters.\",\"level\":1},{\"id\":\"q10\",\"location\":\"Snowbell Playhouse\",\"quest\":\"The Premiere Was Yesterday\",\"text\":\"A tired performer at Snowbell Playhouse is comparing the advertised opening date with the rehearsal everyone actually attended.\",\"level\":1},{\"id\":\"q11\",\"location\":\"The Cinder Pit\",\"quest\":\"The Cinder Pit Rematch\",\"text\":\"A previous bout is still being argued about at the booking desk, and somebody wants a properly arranged rematch.\",\"level\":1},{\"id\":\"q12\",\"location\":\"Snowmelt Residential Steps\",\"quest\":\"Room for One More Bench\",\"text\":\"Neighbors are measuring a shared landing and disagreeing about whether another bench would help or block the way.\",\"level\":1},{\"id\":\"q13\",\"location\":\"Woolridge Pastures\",\"quest\":\"Tracks Beside the Fold\",\"text\":\"A herder has marked unfamiliar tracks near the winter fold and wants a sound explanation before moving the animals.\",\"level\":1},{\"id\":\"q14\",\"location\":\"Asterveil Canopy\",\"quest\":\"First Bloom, Last Rehearsal\",\"text\":\"A celebration rehearsal and the first flowering work both need the same stretch of shared Canopy space.\",\"level\":1},{\"id\":\"q15\",\"location\":\"Rimeglass Crown\",\"quest\":\"What the Manta Leaves\",\"text\":\"Expeditioners compare a shed comb fragment with the immense filter feeders seen riding the mountain's lee currents.\",\"level\":1},{\"id\":\"q16\",\"location\":\"Bellwind Conservatory\",\"quest\":\"Cuts Among the Pollen\",\"text\":\"A conservatory worker is examining a damaged pollen screen while two colleagues disagree about how it happened.\",\"level\":1},{\"id\":\"q17\",\"location\":\"Prison Records Office\",\"quest\":\"A Date in the Ledger\",\"text\":\"An authorized records visitor asks why two dates in the same case file do not agree. This is public counter business, not access to the secure archive.\",\"level\":1},{\"id\":\"winter\",\"location\":\"Whitepass Caravan Lodge\",\"quest\":\"\",\"level\":25,\"text\":\"Daigo Kisaragi's Bellwether Company has returned with frost samples and no confident reading of them. They need help tracing the unnatural cold from Coldglass Galleries; their martial experience has stopped being enough.\"},{\"id\":\"thesis\",\"location\":\"Asterveil Canopy\",\"quest\":\"\",\"level\":25,\"text\":\"Suzuha Midorise is looking for help finding the Stillwind Pearl after her guild posting attracted no volunteers. She has measurements, stubborn hope and very little ability to defend herself in the wild.\"},{\"id\":\"laurels\",\"location\":\"Tetherroot Chain\",\"quest\":\"\",\"level\":25,\"text\":\"An expeditioner is complaining that the Copper Laurels demanded a recovery fee for a prize they never helped recover. Another traveler has heard the same boast at a different crossing.\"}];\nconst tick = Number(check({type:'game-tick'}));\nconst location = check({type:'party-location'});\nconst sceneCombat = check({type:'npc-in-combat',npc:'anySceneNPC'});\nconst fighting = sceneCombat === true || (sceneCombat && typeof sceneCombat === 'object' && Object.values(sceneCombat).some(Boolean));\nconst actions = check({type:'action-text'});\nconst input = (Array.isArray(actions) ? actions : [actions]).join(' ');\nconst arrival = storage.ad34_last_place !== location;\nstorage.ad34_last_place = location;\n// Nothing here asks the AI a question. Cooldown and cleared-job filters run in JS.\nif (fighting || tick < 3 || tick - Number(storage.ad34_last_public_tick ?? -100) < 9 ||\n    /quest done:|\\b(attack|cast|fight|sleep|rest|kiss|rent|buy|purchase|leave|portal|return home)\\b/i.test(input) ||\n    !(arrival || /\\b(look around|news|rumou?r|listen|notice|explore|anything happening|what.*do here)\\b/i.test(input))) {\n  skip = true;\n} else {\n  const levels = Object.values(check({type:'player-level'}) || {}).filter(x=>typeof x==='number' && x>0);\n  const level = levels.length ? Math.min(...levels) : 1;\n  const choices = entries.filter(e => e.location === location && !storage['ad34_public_'+e.id] &&\n    level >= (e.level || 1) && (!e.quest || check({type:'quest-status',questId:e.quest}) === 'hidden'));\n  if (!choices.length) skip = true;\n  else {\n    const e = choices[Number(storage.ad34_public_cursor || 0) % choices.length];\n    effects.push({type:'story',instruction:e.text+' Present one brief public circumstance at this actual location only if the scene has room. No acceptance, journal entry, revealed private motive or completed job follows from overhearing it. If the player ignores it, continue their chosen activity.'});\n    storage['ad34_public_'+e.id] = true;\n    storage.ad34_public_cursor = Number(storage.ad34_public_cursor || 0) + 1;\n    storage.ad34_last_public_tick = tick;\n  }\n}\n"
+  },
+  "ad34_returning_clients": {
+    "name": "ad34_returning_clients",
+    "conditions": [
+      {
+        "type": "game-tick",
+        "operator": "greaterThanOrEqual",
+        "value": 3
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "script": "\nconst contacts=[\n ['Guild: Boars at the Watercourse',\"Adventurer's Guild - Glowhaven Branch\",'Komugi Hanabishi'],\n ['The Wrong Kind of Light',\"Rune and Raven's\",'Rui Takatori'],\n ['Tracks Beside the Fold','Woolridge Pastures','Haruto Aonuma']\n];\nconst tick=Number(check({type:'game-tick'})), place=check({type:'party-location'});\nconst input=String(check({type:'action-text'})||'');\nconst combat=check({type:'npc-in-combat',npc:'anySceneNPC'});\nif(tick-Number(storage.ad34_last_public_tick ?? -100)<9 || /attack|cast|fight|rest|sleep|kiss|quest done:/i.test(input) ||\n   (combat && typeof combat==='object' && Object.values(combat).some(Boolean))) skip=true;\nelse {\n const row=contacts.find(([q,l,n])=>l===place && check({type:'quest-status',questId:q})==='completed' &&\n   check({type:'npc-in-scene',npc:n})===true && !storage['ad34_client_return_'+q]);\n if(!row)skip=true;\n else {\n  const [quest,location,npc]=row;\n  effects.push({type:'story',instruction:npc+' can give one small returning-client acknowledgment appropriate to the actual known outcome of '+quest+'. Use only established deeds and people; if the record does not establish a particular result, keep it a courteous familiar greeting. Then resume ordinary business. No new errand, repeated payment, debt, romance or automatic reputation gain.'});\n  storage['ad34_client_return_'+quest]=true;storage.ad34_last_public_tick=tick;\n }\n}\n"
+  },
+  "ad34_custom_property_key": {
+    "name": "ad34_custom_property_key",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "operator": "equals",
+        "value": true,
+        "key": "ad34_property_interest"
+      },
+      {
+        "type": "story",
+        "query": "In the latest actual scene, this player has completed a genuine rental, property purchase or grant of their own private room outside the six named fixed property offers. The owner has agreed, any actual price has been paid once, and no individualized key or deed has already been recorded for this handover. An offer, viewing, future plan, mere claim, remembered ownership or another person's purchase is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Finish the actual property handover with one clearly tagged key or the appropriate deed. Its ordinary inventory description identifies the real place, recipient, arrangement and any agreed term. Preserve the established payment and ownership; the key gives no stats, master access, new room, stock or second property. If the key was already received, do not duplicate it."
+      }
+    ],
+    "recurring": true,
+    "scope": "player"
+  },
+  "ad34_ironman_final_outcome": {
+    "name": "ad34_ironman_final_outcome",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "operator": "equals",
+        "value": true,
+        "key": "ad34_solo"
+      },
+      {
+        "type": "player-resource",
+        "operator": "lessThanOrEqual",
+        "value": 0,
+        "resource": "Health"
+      },
+      {
+        "type": "story",
+        "query": "The current solo run is explicitly using Ironman Mode and its player has actually suffered a genuinely lethal defeat now. An ordinary nonlethal spar, training knockout, sleep, capture, empty Mana or Stamina, a hypothetical threat or another mode is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "lose-game",
+        "endScope": "players"
+      },
+      {
+        "type": "story",
+        "instruction": "Give this solo Ironman character a meaningful final epilogue grounded in their actual choices. Do not revive them, invent final words, award a victory or erase other people's existing lives."
+      }
+    ],
+    "recurring": false,
+    "scope": "player"
   }
 }

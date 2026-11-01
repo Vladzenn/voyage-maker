@@ -1,0 +1,310 @@
+[
+  {
+    "name": "Daigo Kisaragi",
+    "major": true,
+    "affinity": [
+      "Earth",
+      "Wind"
+    ],
+    "affinityDraw": 0.7363359934913033,
+    "affinityCount": 2,
+    "pose": "CB05",
+    "eligiblePoses": [
+      "CB02",
+      "CB05",
+      "CB10"
+    ],
+    "location": "Whitepass Caravan Lodge",
+    "area": "Whitepass Caravan Lodge - Common Hearth",
+    "prompt": "Use case: illustration-story. Asset: one finished fantasy RPG NPC portrait, single vertical 2:3 PNG. Major character: memorable, flashy composition and vivid coherent magic, pristine dramatic 2D anime key art. Identity: A broad, sun-browned human man with unruly chestnut hair, warm amber eyes, a crooked nose and an old cleft scar at his chin. He wears a slate-blue mountain coat over a patched brigandine, a rust-red scarf and reinforced gloves. His watchful expression becomes unexpectedly boyish when something interests him. Usual equipment: He carries a steel winged spear and a compact round shield, with a rope knife secured to his belt. His map wallet also holds handwritten recipes, a dented tasting spoon and the crew's current commission. Scene: a warm alpine timber lodge with snowy mountains beyond its open yard and a few practical ropes or drying coats. Pose: Angle the actual shield outward beside the torso, holding the drawn weapon ready in the other hand; show both coherent grips and the face. Expression follows the card: Checks packs, offers food and remembers small preferences, then negotiates a little too optimistically. Visible actual trained magic: a restrained ribbon of lifted grit or steadying stones near the working hand; clear flowing wind ribbons moving loose cloth or a light line. Composition: one adult standing, centered hip-up, hips and lower outfit readable. Entire head, hair, ears and horns intact, with 12.5–15 percent canvas height of unobstructed setting above the complete head silhouette, never an empty flat band. Weapons do not enter that top band. Distinct silhouette and face, softer contextual background. Rendering: unmistakable hand-drawn 2D anime, expressive stylized eyes, clean ink contours, graphic cel-shaded planes, beautiful flat-color design and crisp fine details. No semi-realism, lifelike skin, pores, photographic anatomy, 3D rendering or plasticky edges. Exactly two coherent arms and hands, no extra limbs, correct grips, no mirrored hands or fused fingers. No other people, no text, names, lettering, interface, logos, borders, signature or watermark. No child proportions. One final portrait, not variants or a collage.",
+    "file": "world-draft/npc portraits/Daigo Kisaragi.png"
+  },
+  {
+    "name": "Chisato Akamine",
+    "major": true,
+    "affinity": [
+      "Metal"
+    ],
+    "affinityDraw": 0.059732703083438254,
+    "affinityCount": 1,
+    "pose": "CB04",
+    "eligiblePoses": [
+      "CB04",
+      "CB07",
+      "CB11"
+    ],
+    "location": "Whitepass Caravan Lodge",
+    "area": "Whitepass Caravan Lodge - Covered Yard",
+    "prompt": "Use case: illustration-story. Asset: one finished fantasy RPG NPC portrait, single vertical 2:3 PNG. Major character: memorable, flashy composition and vivid coherent magic, pristine dramatic 2D anime key art. Identity: A sturdy adult dragonkin woman with a human face, copper-brown skin, teal slit-pupilled eyes and a short ash-blond braid. Dark bronze horns sweep back from her temples; bronze scales mark her cheeks, forearms and the back of her hands, and a thick scaled tail balances her stance. She wears a practical moss coat, warm wool and a heavy leather lifting belt. Usual equipment: She carries a two-handed iron war pick with a blunt hammer face opposite its point, followed by climbing anchors, repair wire and a small carving roll. The miniature house in her pouch is unfinished and emphatically not for sale. Scene: a warm alpine timber lodge with snowy mountains beyond its open yard and a few practical ropes or drying coats. Pose: Support the actual heavy weapon with both hands across the lower torso, elbows bent and shoulders over a grounded hip line. Expression follows the card: Tests straps with both hands and gives an honest answer even when nobody wanted it. Visible actual trained magic: fine metallic glints and a small controlled iron fitting or reinforced metal edge. Composition: one adult standing, centered hip-up, hips and lower outfit readable. Entire head, hair, ears and horns intact, with 12.5–15 percent canvas height of unobstructed setting above the complete head silhouette, never an empty flat band. Weapons do not enter that top band. Distinct silhouette and face, softer contextual background. Rendering: unmistakable hand-drawn 2D anime, expressive stylized eyes, clean ink contours, graphic cel-shaded planes, beautiful flat-color design and crisp fine details. No semi-realism, lifelike skin, pores, photographic anatomy, 3D rendering or plasticky edges. Exactly two coherent arms and hands, no extra limbs, correct grips, no mirrored hands or fused fingers. No other people, no text, names, lettering, interface, logos, borders, signature or watermark. No child proportions. One final portrait, not variants or a collage.",
+    "file": "world-draft/npc portraits/Chisato Akamine.png"
+  },
+  {
+    "name": "Tomoe Inukai",
+    "major": false,
+    "affinity": [
+      "Wind"
+    ],
+    "affinityDraw": 0.05042577275077531,
+    "affinityCount": 1,
+    "pose": "CB08",
+    "eligiblePoses": [
+      "CB08",
+      "CB10",
+      "CB11"
+    ],
+    "location": "Whitepass Caravan Lodge",
+    "area": "Whitepass Caravan Lodge - Route Desk",
+    "prompt": "Use case: illustration-story. Asset: one finished fantasy RPG NPC portrait, single vertical 2:3 PNG. Supporting character: polished colorful 2D anime illustration with an individual palette and expressive crisp lines. Identity: An athletic beastfolk woman with a mostly human appearance, cream-colored dog ears, a shaggy cream tail, olive skin, dark green eyes and short auburn hair cut unevenly behind one ear. Her charcoal climbing jacket has yellow stitching and a collection of badly repaired cuffs. A silver dancing shoe hangs from her pack as a charm. Usual equipment: She carries a short recurve bow with a weatherproof quiver, then a climbing line, route chalk and a folding brush for removing grit from her boots before dancing. Scene: a warm alpine timber lodge with snowy mountains beyond its open yard and a few practical ropes or drying coats. Pose: Angle the actual bow to one side and begin a modest controlled draw, with readable string hand and face. Expression follows the card: Checks exits, makes a dry joke and quietly notices who is being left out. Visible actual trained magic: clear flowing wind ribbons moving loose cloth or a light line. Composition: one adult standing, centered hip-up, hips and lower outfit readable. Entire head, hair, ears and horns intact, with 12.5–15 percent canvas height of unobstructed setting above the complete head silhouette, never an empty flat band. Weapons do not enter that top band. Distinct silhouette and face, softer contextual background. Rendering: unmistakable hand-drawn 2D anime, expressive stylized eyes, clean ink contours, graphic cel-shaded planes, beautiful flat-color design and crisp fine details. No semi-realism, lifelike skin, pores, photographic anatomy, 3D rendering or plasticky edges. Exactly two coherent arms and hands, no extra limbs, correct grips, no mirrored hands or fused fingers. No other people, no text, names, lettering, interface, logos, borders, signature or watermark. No child proportions. One final portrait, not variants or a collage.",
+    "file": "world-draft/npc portraits/Tomoe Inukai.png"
+  },
+  {
+    "name": "Gaku Shindō",
+    "major": false,
+    "affinity": [
+      "Water"
+    ],
+    "affinityDraw": 0.27468614525608837,
+    "affinityCount": 1,
+    "pose": "CB05",
+    "eligiblePoses": [
+      "CB05",
+      "CB10",
+      "CB11"
+    ],
+    "location": "Whitepass Caravan Lodge",
+    "area": "Whitepass Caravan Lodge - Common Hearth",
+    "prompt": "Use case: illustration-story. Asset: one finished fantasy RPG NPC portrait, single vertical 2:3 PNG. Supporting character: polished colorful 2D anime illustration with an individual palette and expressive crisp lines. Identity: A thickset human man with soft brown eyes, warm tan skin and curly black hair usually flattened on one side by his sleeping roll. His navy padded coat has an orange wool collar and a carefully mended elbow. A cheerful round face and enormous hands make his patient expression unusually reassuring. Usual equipment: He carries a broad shield and a short flanged mace, then needlework supplies, a drinking flask and a tin of dumplings that he usually shares before remembering he wanted some. Scene: a warm alpine timber lodge with snowy mountains beyond its open yard and a few practical ropes or drying coats. Pose: Angle the actual shield outward beside the torso, holding the drawn weapon ready in the other hand; show both coherent grips and the face. Expression follows the card: Carries something heavy, offers food and asks what the plan means in practice. Visible actual trained magic: a small clean curl of existing water held in controlled motion. Composition: one adult standing, centered hip-up, hips and lower outfit readable. Entire head, hair, ears and horns intact, with 12.5–15 percent canvas height of unobstructed setting above the complete head silhouette, never an empty flat band. Weapons do not enter that top band. Distinct silhouette and face, softer contextual background. Rendering: unmistakable hand-drawn 2D anime, expressive stylized eyes, clean ink contours, graphic cel-shaded planes, beautiful flat-color design and crisp fine details. No semi-realism, lifelike skin, pores, photographic anatomy, 3D rendering or plasticky edges. Exactly two coherent arms and hands, no extra limbs, correct grips, no mirrored hands or fused fingers. No other people, no text, names, lettering, interface, logos, borders, signature or watermark. No child proportions. One final portrait, not variants or a collage.",
+    "file": "world-draft/npc portraits/Gaku Shindō.png"
+  },
+  {
+    "name": "Ysolenne",
+    "major": true,
+    "affinity": [
+      "Ice"
+    ],
+    "affinityDraw": 0.14206900780212872,
+    "affinityCount": 1,
+    "pose": "F04",
+    "eligiblePoses": [
+      "S01",
+      "S05",
+      "F04"
+    ],
+    "location": "Coldglass Galleries",
+    "area": "Coldglass Galleries - Meltwater Chamber",
+    "prompt": "Use case: illustration-story. Asset: one finished fantasy RPG NPC portrait, single vertical 2:3 PNG. Major character: memorable, flashy composition and vivid coherent magic, pristine dramatic 2D anime key art. Identity: A tall, adult humanoid snow spirit with luminous cool-pale skin, waist-length white hair shading to glacier blue at its ends and deep violet eyes with tiny white star-like pupils. Her face is beautiful and sharply self-possessed. A long midnight-blue robe opens into layered frost-white sleeves and silver-edged panels, while floating ice ornaments turn slowly around a narrow silver hairpin. Her feet meet the ground; she is not a drifting cloud or a small child. Usual equipment: She keeps a slender frostwood staff with a hollow silver head near her hand, together with a lacquered keepsake box and a small comb of polished bone. Her furnishings are possessions she values, not rewards promised to a visitor. Scene: an elegant natural ice cavern, deep blue glacial glass, mirrorlike frost surfaces and distant cold mineral lights. Pose: Support the actual staff at lower-chest height, other hand poised near the wrist; keep the prop below the top headroom band. Expression follows the card: Arranges objects precisely, offers restrained hospitality and waits for visitors to state what they want. Visible actual trained magic: beautiful sharp frost geometry and cold blue ice filaments. Composition: one adult standing, centered hip-up, hips and lower outfit readable. Entire head, hair, ears and horns intact, with 12.5–15 percent canvas height of unobstructed setting above the complete head silhouette, never an empty flat band. Weapons do not enter that top band. Distinct silhouette and face, softer contextual background. Rendering: unmistakable hand-drawn 2D anime, expressive stylized eyes, clean ink contours, graphic cel-shaded planes, beautiful flat-color design and crisp fine details. No semi-realism, lifelike skin, pores, photographic anatomy, 3D rendering or plasticky edges. Exactly two coherent arms and hands, no extra limbs, correct grips, no mirrored hands or fused fingers. No other people, no text, names, lettering, interface, logos, borders, signature or watermark. No child proportions. One final portrait, not variants or a collage.",
+    "file": "world-draft/npc portraits/Ysolenne.png"
+  },
+  {
+    "name": "Suzuha Midorise",
+    "major": true,
+    "affinity": [
+      "Nature",
+      "Divination"
+    ],
+    "affinityDraw": 0.8327985394048981,
+    "affinityCount": 2,
+    "pose": "T02",
+    "eligiblePoses": [
+      "T02",
+      "T04",
+      "U05"
+    ],
+    "location": "Asterveil Canopy",
+    "area": "Asterveil Canopy - Field Registry",
+    "prompt": "Use case: illustration-story. Asset: one finished fantasy RPG NPC portrait, single vertical 2:3 PNG. Major character: memorable, flashy composition and vivid coherent magic, pristine dramatic 2D anime key art. Identity: A slight adult half-elf woman with softly pointed ears, sea-green eyes behind round brass spectacles and shoulder-length mint-green hair gathered into two untidy low twists. Her violet field coat is too full of pockets and worn over a cream blouse and practical dark shorts with opaque stockings. A leaf-shaped hairclip and a dangerously overfilled specimen satchel complete her earnest, easily flustered appearance. Usual equipment: She carries a lightweight brass-tipped field staff used for support and simple defensive casting, then a sealed specimen case, hand lens, measuring ribbon and a notebook with more corrections than clean pages. Scene: a small fae settlement on floating green islands, flowering boughs, a specimen table and distant clouds. Pose: Hold an open notebook in one hand and turn a page with the other, shoulders angled toward the text and face visible. Expression follows the card: Watches small organisms, takes exact notes and forgets that another person cannot read her half-finished explanation. Visible actual trained magic: small bright living leaf or temporary plant-fiber shapes; a faint uncertain pattern in a held sample, not time travel or cosmic prophecy. Composition: one adult standing, centered hip-up, hips and lower outfit readable. Entire head, hair, ears and horns intact, with 12.5–15 percent canvas height of unobstructed setting above the complete head silhouette, never an empty flat band. Weapons do not enter that top band. Distinct silhouette and face, softer contextual background. Rendering: unmistakable hand-drawn 2D anime, expressive stylized eyes, clean ink contours, graphic cel-shaded planes, beautiful flat-color design and crisp fine details. No semi-realism, lifelike skin, pores, photographic anatomy, 3D rendering or plasticky edges. Exactly two coherent arms and hands, no extra limbs, correct grips, no mirrored hands or fused fingers. No other people, no text, names, lettering, interface, logos, borders, signature or watermark. No child proportions. One final portrait, not variants or a collage.",
+    "file": "world-draft/npc portraits/Suzuha Midorise.png"
+  },
+  {
+    "name": "Jōta Kamezaki",
+    "major": true,
+    "affinity": [
+      "Earth"
+    ],
+    "affinityDraw": 0.13630513779636455,
+    "affinityCount": 1,
+    "pose": "CB10",
+    "eligiblePoses": [
+      "CB03",
+      "CB05",
+      "CB10"
+    ],
+    "location": "Tetherroot Chain",
+    "area": "Tetherroot Chain - Anchor Shelf",
+    "prompt": "Use case: illustration-story. Asset: one finished fantasy RPG NPC portrait, single vertical 2:3 PNG. Major character: memorable, flashy composition and vivid coherent magic, pristine dramatic 2D anime key art. Identity: A lean human man with violet eyes, slick black hair carrying a vivid red forelock and a carefully cultivated pointed beard. He wears a handsome green cape with far too much gold braid, a polished but ordinary breastplate and boots he hates getting muddy. The impressive feather at his shoulder is visibly beginning to shed. Usual equipment: He carries a curved cutlass and a small steel buckler, followed by a waterproof ledger, a pocket mirror and several calling cards with grander titles than the guild recognizes. Scene: floating green sky-island ledges linked by real vine and rope spans above bright cloud gaps. Pose: Show a standing counterturn, hips angled away and shoulders returning toward the target, weapon in a compact guard; no extreme twist. Expression follows the card: Makes a theatrical introduction, tests a target's confidence and looks for a flattering interpretation. Visible actual trained magic: a restrained ribbon of lifted grit or steadying stones near the working hand. Composition: one adult standing, centered hip-up, hips and lower outfit readable. Entire head, hair, ears and horns intact, with 12.5–15 percent canvas height of unobstructed setting above the complete head silhouette, never an empty flat band. Weapons do not enter that top band. Distinct silhouette and face, softer contextual background. Rendering: unmistakable hand-drawn 2D anime, expressive stylized eyes, clean ink contours, graphic cel-shaded planes, beautiful flat-color design and crisp fine details. No semi-realism, lifelike skin, pores, photographic anatomy, 3D rendering or plasticky edges. Exactly two coherent arms and hands, no extra limbs, correct grips, no mirrored hands or fused fingers. No other people, no text, names, lettering, interface, logos, borders, signature or watermark. No child proportions. One final portrait, not variants or a collage.",
+    "file": "world-draft/npc portraits/Jōta Kamezaki.png"
+  },
+  {
+    "name": "Beni Tsunoda",
+    "major": false,
+    "affinity": [
+      "Fire"
+    ],
+    "affinityDraw": 0.0013485130188189975,
+    "affinityCount": 1,
+    "pose": "CB04",
+    "eligiblePoses": [
+      "CB04",
+      "CB07",
+      "CB11"
+    ],
+    "location": "Tetherroot Chain",
+    "area": "Tetherroot Chain - Short Spans",
+    "prompt": "Use case: illustration-story. Asset: one finished fantasy RPG NPC portrait, single vertical 2:3 PNG. Supporting character: polished colorful 2D anime illustration with an individual palette and expressive crisp lines. Identity: A tall, muscular adult oni woman with warm peach skin, one short ivory horn above each temple, copper-red eyes and thick plum-red hair in a high, crooked ponytail. A sleeveless dark travel coat hangs over a fitted orange shirt and a broad sash. She wears several cheap decorative rings and an expression that suggests standing is already an unreasonable demand. Usual equipment: She carries a heavy iron-shod club, then a snack tin, a folding fan and a small case of inexpensive scent samples. The club is real field equipment rather than a ceremonial prop. Scene: floating green sky-island ledges linked by real vine and rope spans above bright cloud gaps. Pose: Support the actual heavy weapon with both hands across the lower torso, elbows bent and shoulders over a grounded hip line. Expression follows the card: Complains, eats and tests how much a person will tolerate. Visible actual trained magic: a compact ember flare appropriate to a controlled small working. Composition: one adult standing, centered hip-up, hips and lower outfit readable. Entire head, hair, ears and horns intact, with 12.5–15 percent canvas height of unobstructed setting above the complete head silhouette, never an empty flat band. Weapons do not enter that top band. Distinct silhouette and face, softer contextual background. Rendering: unmistakable hand-drawn 2D anime, expressive stylized eyes, clean ink contours, graphic cel-shaded planes, beautiful flat-color design and crisp fine details. No semi-realism, lifelike skin, pores, photographic anatomy, 3D rendering or plasticky edges. Exactly two coherent arms and hands, no extra limbs, correct grips, no mirrored hands or fused fingers. No other people, no text, names, lettering, interface, logos, borders, signature or watermark. No child proportions. One final portrait, not variants or a collage.",
+    "file": "world-draft/npc portraits/Beni Tsunoda.png"
+  },
+  {
+    "name": "Riko Kanehara",
+    "major": false,
+    "affinity": [
+      "Enchantment"
+    ],
+    "affinityDraw": 0.4917596905528393,
+    "affinityCount": 1,
+    "pose": "CB02",
+    "eligiblePoses": [
+      "CB02",
+      "CB03",
+      "CB10"
+    ],
+    "location": "Tetherroot Chain",
+    "area": "Tetherroot Chain - Anchor Shelf",
+    "prompt": "Use case: illustration-story. Asset: one finished fantasy RPG NPC portrait, single vertical 2:3 PNG. Supporting character: polished colorful 2D anime illustration with an individual palette and expressive crisp lines. Identity: A sharp-featured human woman with a silver chin-length bob, honey-gold eyes and narrow red spectacles. Her fitted aubergine traveling jacket is fastened with mismatched brass clasps, and she wears black gloves with the fingertips cut away. Her poised smile rarely reaches her measuring gaze. Usual equipment: She carries a slender thrusting dagger and a compact iron parrying rod, followed by an appraisal lens, a repair roll and a ledger tied with three different colored ribbons. Scene: floating green sky-island ledges linked by real vine and rope spans above bright cloud gaps. Pose: Present the approved thrusting weapon on an off-center target line, with compact elbow and free hand or shield balancing near the ribs. Expression follows the card: Examines construction, asks a pointed question and makes a price sound inevitable. Visible actual trained magic: a few precise luminous reinforcement marks around an actual object. Composition: one adult standing, centered hip-up, hips and lower outfit readable. Entire head, hair, ears and horns intact, with 12.5–15 percent canvas height of unobstructed setting above the complete head silhouette, never an empty flat band. Weapons do not enter that top band. Distinct silhouette and face, softer contextual background. Rendering: unmistakable hand-drawn 2D anime, expressive stylized eyes, clean ink contours, graphic cel-shaded planes, beautiful flat-color design and crisp fine details. No semi-realism, lifelike skin, pores, photographic anatomy, 3D rendering or plasticky edges. Exactly two coherent arms and hands, no extra limbs, correct grips, no mirrored hands or fused fingers. No other people, no text, names, lettering, interface, logos, borders, signature or watermark. No child proportions. One final portrait, not variants or a collage.",
+    "file": "world-draft/npc portraits/Riko Kanehara.png"
+  },
+  {
+    "name": "Sōta Tobisawa",
+    "major": false,
+    "affinity": [
+      "Wind"
+    ],
+    "affinityDraw": 0.4959750474007737,
+    "affinityCount": 1,
+    "pose": "CB08",
+    "eligiblePoses": [
+      "CB08",
+      "CB10",
+      "CB11"
+    ],
+    "location": "Tetherroot Chain",
+    "area": "Tetherroot Chain - Skipper Roost",
+    "prompt": "Use case: illustration-story. Asset: one finished fantasy RPG NPC portrait, single vertical 2:3 PNG. Supporting character: polished colorful 2D anime illustration with an individual palette and expressive crisp lines. Identity: A wiry adult beastfolk man with a human face, light-brown skin, pale blue eyes and tousled brown hair carrying short tawny feather tufts above his ears. Small feather fans run along his forearms and a narrow tail fan sits behind his coat; he has two human arms and no separate pair of wings. His short ochre jacket is full of cords and hurriedly closed pockets. Usual equipment: He carries a short hunting bow and a prepared quiver, then a signal whistle, climbing cord and a little pouch he never includes in the crew's shared accounts. Scene: floating green sky-island ledges linked by real vine and rope spans above bright cloud gaps. Pose: Angle the actual bow to one side and begin a modest controlled draw, with readable string hand and face. Expression follows the card: Scans approaches, makes a nervous joke and looks for a profitable exit. Visible actual trained magic: clear flowing wind ribbons moving loose cloth or a light line. Composition: one adult standing, centered hip-up, hips and lower outfit readable. Entire head, hair, ears and horns intact, with 12.5–15 percent canvas height of unobstructed setting above the complete head silhouette, never an empty flat band. Weapons do not enter that top band. Distinct silhouette and face, softer contextual background. Rendering: unmistakable hand-drawn 2D anime, expressive stylized eyes, clean ink contours, graphic cel-shaded planes, beautiful flat-color design and crisp fine details. No semi-realism, lifelike skin, pores, photographic anatomy, 3D rendering or plasticky edges. Exactly two coherent arms and hands, no extra limbs, correct grips, no mirrored hands or fused fingers. No other people, no text, names, lettering, interface, logos, borders, signature or watermark. No child proportions. One final portrait, not variants or a collage.",
+    "file": "world-draft/npc portraits/Sōta Tobisawa.png"
+  },
+  {
+    "name": "Marika Hoshino",
+    "major": true,
+    "affinity": [
+      "Healing",
+      "Light"
+    ],
+    "affinityDraw": 0.6839170216278284,
+    "affinityCount": 2,
+    "pose": "CB11",
+    "eligiblePoses": [
+      "CB03",
+      "CB05",
+      "CB11"
+    ],
+    "location": "Adventurer's Guild - Glowhaven Branch",
+    "area": "Adventurer's Guild - Glowhaven Branch - Training Yard",
+    "prompt": "Use case: illustration-story. Asset: one finished fantasy RPG NPC portrait, single vertical 2:3 PNG. Major character: memorable, flashy composition and vivid coherent magic, pristine dramatic 2D anime key art. Identity: An athletic human woman with deep brown skin, copper-colored eyes and vivid cobalt hair in a high braided knot. She wears a cream-and-teal field coat over flexible dark armor, with a worn gold guild badge and a broad white sash. Her cheerful grin has the unsettling confidence of someone who has already noticed an unsafe grip. Usual equipment: She carries a short steel mace and a reinforced forearm shield, followed by a compact medical roll, assessment cards and a small tin of seeds. The medical roll is finite and her spells require Mana. Scene: the warm timber-and-stone Glowhaven guild hall, teal-and-ochre accents, a practice yard or practical appraisal workbench, and blurred stained glass. Pose: Show recovery from a controlled technique to a stable standing guard, actual weapon and fitting effects settling. Expression follows the card: Offers a useful adjustment, asks whether it helped and gets too involved in other people's plans. Visible actual trained magic: a small controlled restorative glow around the open supporting hand, distinct from a weapon strike; a small clear gold-white light that leaves the face readable. Composition: one adult standing, centered hip-up, hips and lower outfit readable. Entire head, hair, ears and horns intact, with 12.5–15 percent canvas height of unobstructed setting above the complete head silhouette, never an empty flat band. Weapons do not enter that top band. Distinct silhouette and face, softer contextual background. Rendering: unmistakable hand-drawn 2D anime, expressive stylized eyes, clean ink contours, graphic cel-shaded planes, beautiful flat-color design and crisp fine details. No semi-realism, lifelike skin, pores, photographic anatomy, 3D rendering or plasticky edges. Exactly two coherent arms and hands, no extra limbs, correct grips, no mirrored hands or fused fingers. No other people, no text, names, lettering, interface, logos, borders, signature or watermark. No child proportions. One final portrait, not variants or a collage.",
+    "file": "world-draft/npc portraits/Marika Hoshino.png"
+  },
+  {
+    "name": "Tetsuya Kanamori",
+    "major": false,
+    "affinity": [
+      "Metal"
+    ],
+    "affinityDraw": 0.33000676267512996,
+    "affinityCount": 1,
+    "pose": "T04",
+    "eligiblePoses": [
+      "T04",
+      "U01",
+      "F02"
+    ],
+    "location": "Adventurer's Guild - Glowhaven Branch",
+    "area": "Adventurer's Guild - Glowhaven Branch - Appraisal Bench",
+    "prompt": "Use case: illustration-story. Asset: one finished fantasy RPG NPC portrait, single vertical 2:3 PNG. Supporting character: polished colorful 2D anime illustration with an individual palette and expressive crisp lines. Identity: A broad, short adult dwarf with warm olive skin, steel-blue eyes, a square nose and dark-brown hair gathered behind his neck. His beard is trimmed close and threaded with two narrow silver streaks. He wears a burgundy work apron over rolled cream sleeves, and tiny brass spectacles hang from a cord against his chest. Usual equipment: He normally keeps a small smith's hammer, calipers, a folding inspection lamp and a leather tool roll close at hand. His hammer is a work tool; he does not pretend the appraisal bench is a dueling arena. Scene: the warm timber-and-stone Glowhaven guild hall, teal-and-ochre accents, a practice yard or practical appraisal workbench, and blurred stained glass. Pose: Hold the actual small specimen or work tool near the chest and turn the head toward it, elbows close and face visible. Expression follows the card: Checks the actual object before the owner's story and asks what they want it to do. Visible actual trained magic: fine metallic glints and a small controlled iron fitting or reinforced metal edge. Composition: one adult standing, centered hip-up, hips and lower outfit readable. Entire head, hair, ears and horns intact, with 12.5–15 percent canvas height of unobstructed setting above the complete head silhouette, never an empty flat band. Weapons do not enter that top band. Distinct silhouette and face, softer contextual background. Rendering: unmistakable hand-drawn 2D anime, expressive stylized eyes, clean ink contours, graphic cel-shaded planes, beautiful flat-color design and crisp fine details. No semi-realism, lifelike skin, pores, photographic anatomy, 3D rendering or plasticky edges. Exactly two coherent arms and hands, no extra limbs, correct grips, no mirrored hands or fused fingers. No other people, no text, names, lettering, interface, logos, borders, signature or watermark. No child proportions. One final portrait, not variants or a collage.",
+    "file": "world-draft/npc portraits/Tetsuya Kanamori.png"
+  },
+  {
+    "name": "Nae Komorida",
+    "major": false,
+    "affinity": [
+      "Enchantment"
+    ],
+    "affinityDraw": 0.1830194317351741,
+    "affinityCount": 1,
+    "pose": "S06",
+    "eligiblePoses": [
+      "W01",
+      "S06",
+      "P05"
+    ],
+    "location": "Willowbend Residential District",
+    "area": "Willowbend Residential District - Courtyard Row",
+    "prompt": "Use case: illustration-story. Asset: one finished fantasy RPG NPC portrait, single vertical 2:3 PNG. Supporting character: polished colorful 2D anime illustration with an individual palette and expressive crisp lines. Identity: An adult fox beastfolk woman with a mostly human face, honey-brown skin, vivid green eyes and auburn hair in a smooth side braid. Dark-tipped fox ears and one full russet tail match her hair. Her neat cream jacket has brick-red piping, and her round brass spectacles sit low on a pointed, inquisitive nose. Usual equipment: She normally carries a ring of tagged viewing keys, a measuring cord, a small property book and a folding brass lamp. Viewing keys belong to their owners; holding one is not ownership of the building. Scene: a comfortable fantasy-city residential courtyard with willow shade, tiled roofs and warm lamps. Pose: Turn into a graceful three-quarter standing introduction, one open hand extended and head turned toward the room. Expression follows the card: Asks practical questions, notices small comforts and sometimes asks one question too many. Visible actual trained magic: a few precise luminous reinforcement marks around an actual object. Composition: one adult standing, centered hip-up, hips and lower outfit readable. Entire head, hair, ears and horns intact, with 12.5–15 percent canvas height of unobstructed setting above the complete head silhouette, never an empty flat band. Weapons do not enter that top band. Distinct silhouette and face, softer contextual background. Rendering: unmistakable hand-drawn 2D anime, expressive stylized eyes, clean ink contours, graphic cel-shaded planes, beautiful flat-color design and crisp fine details. No semi-realism, lifelike skin, pores, photographic anatomy, 3D rendering or plasticky edges. Exactly two coherent arms and hands, no extra limbs, correct grips, no mirrored hands or fused fingers. No other people, no text, names, lettering, interface, logos, borders, signature or watermark. No child proportions. One final portrait, not variants or a collage.",
+    "file": "world-draft/npc portraits/Nae Komorida.png"
+  },
+  {
+    "name": "Renpei Sugita",
+    "major": false,
+    "affinity": [
+      "Light",
+      "Wind"
+    ],
+    "affinityDraw": 0.7666935550360005,
+    "affinityCount": 2,
+    "pose": "CB02",
+    "eligiblePoses": [
+      "CB02",
+      "CB07",
+      "CB11"
+    ],
+    "location": "Adventurer's Guild - Glowhaven Branch",
+    "area": "Adventurer's Guild - Glowhaven Branch - Common Hall",
+    "prompt": "Use case: illustration-story. Asset: one finished fantasy RPG NPC portrait, single vertical 2:3 PNG. Supporting character: polished colorful 2D anime illustration with an individual palette and expressive crisp lines. Identity: A lanky adult human man with cheerful hazel eyes, tan freckled skin and sandy-blond hair that will not stay combed. He wears a faded blue travel vest over a striped shirt, a bright red neckerchief and sensible but much-repaired gloves. A rolled sketch map is always escaping the straps on his pack. Usual equipment: He carries a plain ash spear, then a map tube, pencils, a folding ruler and a small shuttered lantern. His equipment is ordinary and his badge certifies a passed exam rather than field mastery. Scene: the warm timber-and-stone Glowhaven guild hall, teal-and-ochre accents, a practice yard or practical appraisal workbench, and blurred stained glass. Pose: Present the approved thrusting weapon on an off-center target line, with compact elbow and free hand or shield balancing near the ribs. Expression follows the card: Offers help, asks questions and writes more labels than will fit on a page. Visible actual trained magic: a small clear gold-white light that leaves the face readable; clear flowing wind ribbons moving loose cloth or a light line. Composition: one adult standing, centered hip-up, hips and lower outfit readable. Entire head, hair, ears and horns intact, with 12.5–15 percent canvas height of unobstructed setting above the complete head silhouette, never an empty flat band. Weapons do not enter that top band. Distinct silhouette and face, softer contextual background. Rendering: unmistakable hand-drawn 2D anime, expressive stylized eyes, clean ink contours, graphic cel-shaded planes, beautiful flat-color design and crisp fine details. No semi-realism, lifelike skin, pores, photographic anatomy, 3D rendering or plasticky edges. Exactly two coherent arms and hands, no extra limbs, correct grips, no mirrored hands or fused fingers. No other people, no text, names, lettering, interface, logos, borders, signature or watermark. No child proportions. One final portrait, not variants or a collage.",
+    "file": "world-draft/npc portraits/Renpei Sugita.png"
+  },
+  {
+    "name": "Iona Hayashida",
+    "major": false,
+    "affinity": [
+      "Water"
+    ],
+    "affinityDraw": 0.41280041856800465,
+    "affinityCount": 1,
+    "pose": "CB07",
+    "eligiblePoses": [
+      "CB05",
+      "CB07",
+      "CB11"
+    ],
+    "location": "Wayfarer's Goods",
+    "area": "Wayfarer's Goods - Packing Counter",
+    "prompt": "Use case: illustration-story. Asset: one finished fantasy RPG NPC portrait, single vertical 2:3 PNG. Supporting character: polished colorful 2D anime illustration with an individual palette and expressive crisp lines. Identity: A youthful adult half-elf woman with warm brown skin, dark violet eyes and shoulder-length black hair streaked with two silver locks. Her forest-green coat is cut for carrying loads and belted over an indigo shirt. A small crescent of freckles crosses her nose, and her expression suggests she has already counted the missing tent pegs. Usual equipment: She carries a compact poleaxe suitable for guarding a loaded cart, then a packing frame, repair twine, sample boxes and a small waterproof book of delivery agreements. Scene: a warm travel outfitter shop with rope coils, canvas packs and a packing counter. Pose: Hold the actual polearm or staff in a compact two-handed diagonal guard across the lower torso, with the shaft exiting a side or lower edge. Expression follows the card: Counts, packs and asks who will carry each part of a plan. Visible actual trained magic: a small clean curl of existing water held in controlled motion. Composition: one adult standing, centered hip-up, hips and lower outfit readable. Entire head, hair, ears and horns intact, with 12.5–15 percent canvas height of unobstructed setting above the complete head silhouette, never an empty flat band. Weapons do not enter that top band. Distinct silhouette and face, softer contextual background. Rendering: unmistakable hand-drawn 2D anime, expressive stylized eyes, clean ink contours, graphic cel-shaded planes, beautiful flat-color design and crisp fine details. No semi-realism, lifelike skin, pores, photographic anatomy, 3D rendering or plasticky edges. Exactly two coherent arms and hands, no extra limbs, correct grips, no mirrored hands or fused fingers. No other people, no text, names, lettering, interface, logos, borders, signature or watermark. No child proportions. One final portrait, not variants or a collage.",
+    "file": "world-draft/npc portraits/Iona Hayashida.png"
+  },
+  {
+    "name": "Masaru Hasebe",
+    "major": false,
+    "affinity": [
+      "Earth"
+    ],
+    "affinityDraw": 0.24878587170918764,
+    "affinityCount": 1,
+    "pose": "W06",
+    "eligiblePoses": [
+      "T04",
+      "W06",
+      "L03"
+    ],
+    "location": "Prison Work Yard",
+    "area": "Prison Work Yard - Muster Point",
+    "prompt": "Use case: illustration-story. Asset: one finished fantasy RPG NPC portrait, single vertical 2:3 PNG. Supporting character: polished colorful 2D anime illustration with an individual palette and expressive crisp lines. Identity: A stocky human man with deep-set gray eyes, warm brown skin and close-cropped iron-gray hair. An old burn puckers the back of his left hand. His plain brown work coat has careful patches, and he wears a faded yellow scarf knitted unevenly at both ends. Usual equipment: He normally carries a drain rod, a mallet, a compact tool roll and a lunch tin. Work tools remain subject to the prison's actual supervision and do not grant unrestricted access. Scene: a coastal stone prison maintenance yard with drying racks, a safe workbench and cool sea light. Pose: Present the actual work object with both hands in front of the waist, standing with inviting shoulders. Expression follows the card: Examines the actual fault, explains one useful step and gives the other person room to try. Visible actual trained magic: a restrained ribbon of lifted grit or steadying stones near the working hand. Composition: one adult standing, centered hip-up, hips and lower outfit readable. Entire head, hair, ears and horns intact, with 12.5–15 percent canvas height of unobstructed setting above the complete head silhouette, never an empty flat band. Weapons do not enter that top band. Distinct silhouette and face, softer contextual background. Rendering: unmistakable hand-drawn 2D anime, expressive stylized eyes, clean ink contours, graphic cel-shaded planes, beautiful flat-color design and crisp fine details. No semi-realism, lifelike skin, pores, photographic anatomy, 3D rendering or plasticky edges. Exactly two coherent arms and hands, no extra limbs, correct grips, no mirrored hands or fused fingers. No other people, no text, names, lettering, interface, logos, borders, signature or watermark. No child proportions. One final portrait, not variants or a collage.",
+    "file": "world-draft/npc portraits/Masaru Hasebe.png"
+  }
+]

@@ -7532,5 +7532,237 @@
     "unlockedBy": [],
     "excludedBy": [],
     "requirements": []
+  },
+  "Spear and Rope Kit": {
+    "name": "Spear and Rope Kit",
+    "description": "Begin with Ashwood Spear. Ordinary usable equipment; choosing it grants no combat skill or magical discipline.",
+    "traitNarrativeEffects": "Begin with Ashwood Spear. Ordinary usable equipment; choosing it grants no combat skill or magical discipline. Supply the listed items once at creation, with no second narrative grant, debt, employment or expert training.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [
+      {
+        "item": "Ashwood Spear",
+        "quantity": 1
+      }
+    ],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Bow Starter Kit": {
+    "name": "Bow Starter Kit",
+    "description": "Begin with Yew Hunting Bow, Supple Archery Gloves. Ordinary usable equipment; choosing it grants no combat skill or magical discipline.",
+    "traitNarrativeEffects": "Begin with Yew Hunting Bow, Supple Archery Gloves. Ordinary usable equipment; choosing it grants no combat skill or magical discipline. Supply the listed items once at creation, with no second narrative grant, debt, employment or expert training.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [
+      {
+        "item": "Yew Hunting Bow",
+        "quantity": 1
+      },
+      {
+        "item": "Supple Archery Gloves",
+        "quantity": 1
+      }
+    ],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Crossbow Starter Kit": {
+    "name": "Crossbow Starter Kit",
+    "description": "Begin with Stockman's Crossbow. Ordinary usable equipment; choosing it grants no combat skill or magical discipline.",
+    "traitNarrativeEffects": "Begin with Stockman's Crossbow. Ordinary usable equipment; choosing it grants no combat skill or magical discipline. Supply the listed items once at creation, with no second narrative grant, debt, employment or expert training.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [
+      {
+        "item": "Stockman's Crossbow",
+        "quantity": 1
+      }
+    ],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Greatsword Starter Kit": {
+    "name": "Greatsword Starter Kit",
+    "description": "Begin with Traveler's Greatsword. Ordinary usable equipment; choosing it grants no combat skill or magical discipline.",
+    "traitNarrativeEffects": "Begin with Traveler's Greatsword. Ordinary usable equipment; choosing it grants no combat skill or magical discipline. Supply the listed items once at creation, with no second narrative grant, debt, employment or expert training.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [
+      {
+        "item": "Traveler's Greatsword",
+        "quantity": 1
+      }
+    ],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Axe Starter Kit": {
+    "name": "Axe Starter Kit",
+    "description": "Begin with Woodcutter's Fighting Axe, Plain Work Gloves. Ordinary usable equipment; choosing it grants no combat skill or magical discipline.",
+    "traitNarrativeEffects": "Begin with Woodcutter's Fighting Axe, Plain Work Gloves. Ordinary usable equipment; choosing it grants no combat skill or magical discipline. Supply the listed items once at creation, with no second narrative grant, debt, employment or expert training.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [
+      {
+        "item": "Woodcutter's Fighting Axe",
+        "quantity": 1
+      },
+      {
+        "item": "Plain Work Gloves",
+        "quantity": 1
+      }
+    ],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Mace and Buckler Kit": {
+    "name": "Mace and Buckler Kit",
+    "description": "Begin with Plain Flanged Mace, Ironbound Round Shield. Ordinary usable equipment; choosing it grants no combat skill or magical discipline.",
+    "traitNarrativeEffects": "Begin with Plain Flanged Mace, Ironbound Round Shield. Ordinary usable equipment; choosing it grants no combat skill or magical discipline. Supply the listed items once at creation, with no second narrative grant, debt, employment or expert training.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [
+      {
+        "item": "Plain Flanged Mace",
+        "quantity": 1
+      },
+      {
+        "item": "Ironbound Round Shield",
+        "quantity": 1
+      }
+    ],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Polearm Starter Kit": {
+    "name": "Polearm Starter Kit",
+    "description": "Begin with Gatekeeper's Halberd. Ordinary usable equipment; choosing it grants no combat skill or magical discipline.",
+    "traitNarrativeEffects": "Begin with Gatekeeper's Halberd. Ordinary usable equipment; choosing it grants no combat skill or magical discipline. Supply the listed items once at creation, with no second narrative grant, debt, employment or expert training.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [
+      {
+        "item": "Gatekeeper's Halberd",
+        "quantity": 1
+      }
+    ],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Twinblade Starter Kit": {
+    "name": "Twinblade Starter Kit",
+    "description": "Begin with Balanced Twinblade. Ordinary usable equipment; choosing it grants no combat skill or magical discipline.",
+    "traitNarrativeEffects": "Begin with Balanced Twinblade. Ordinary usable equipment; choosing it grants no combat skill or magical discipline. Supply the listed items once at creation, with no second narrative grant, debt, employment or expert training.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [
+      {
+        "item": "Balanced Twinblade",
+        "quantity": 1
+      }
+    ],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Flexible Weapon Kit": {
+    "name": "Flexible Weapon Kit",
+    "description": "Begin with Braided Fighting Whip, Working Dagger. Ordinary usable equipment; choosing it grants no combat skill or magical discipline.",
+    "traitNarrativeEffects": "Begin with Braided Fighting Whip, Working Dagger. Ordinary usable equipment; choosing it grants no combat skill or magical discipline. Supply the listed items once at creation, with no second narrative grant, debt, employment or expert training.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [
+      {
+        "item": "Braided Fighting Whip",
+        "quantity": 1
+      },
+      {
+        "item": "Working Dagger",
+        "quantity": 1
+      }
+    ],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "War Fan Starter Kit": {
+    "name": "War Fan Starter Kit",
+    "description": "Begin with Steel-Ribbed War Fan. Ordinary usable equipment; choosing it grants no combat skill or magical discipline.",
+    "traitNarrativeEffects": "Begin with Steel-Ribbed War Fan. Ordinary usable equipment; choosing it grants no combat skill or magical discipline. Supply the listed items once at creation, with no second narrative grant, debt, employment or expert training.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [
+      {
+        "item": "Steel-Ribbed War Fan",
+        "quantity": 1
+      }
+    ],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Scythe Starter Kit": {
+    "name": "Scythe Starter Kit",
+    "description": "Begin with Long-Haft War Scythe. Ordinary usable equipment; choosing it grants no combat skill or magical discipline.",
+    "traitNarrativeEffects": "Begin with Long-Haft War Scythe. Ordinary usable equipment; choosing it grants no combat skill or magical discipline. Supply the listed items once at creation, with no second narrative grant, debt, employment or expert training.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [
+      {
+        "item": "Long-Haft War Scythe",
+        "quantity": 1
+      }
+    ],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Paired Blades Starter Kit": {
+    "name": "Paired Blades Starter Kit",
+    "description": "Begin with Matched Street Blades. Ordinary usable equipment; choosing it grants no combat skill or magical discipline.",
+    "traitNarrativeEffects": "Begin with Matched Street Blades. Ordinary usable equipment; choosing it grants no combat skill or magical discipline. Supply the listed items once at creation, with no second narrative grant, debt, employment or expert training.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [
+      {
+        "item": "Matched Street Blades",
+        "quantity": 1
+      }
+    ],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
   }
 }

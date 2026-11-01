@@ -1,6 +1,6 @@
 const fs=require('fs'),path=require('path'),vm=require('vm'),crypto=require('crypto');
 const root=path.resolve(__dirname,'..');
-const worldPath=path.join(root,'world-draft','WorldAlpha - World.json');
+const worldPath=process.argv[2] || path.join(root,'world-draft','WorldAlpha - World.json');
 const world=JSON.parse(fs.readFileSync(worldPath,'utf8'));
 const manifest=JSON.parse(fs.readFileSync(path.join(__dirname,'item-regression-manifest.json'),'utf8'));let checks=0;
 function ck(ok,label){checks++;if(!ok)throw new Error(label)}
@@ -101,6 +101,8 @@ const recommended={
  'Guild: Broken Halo Recovery':20,'Guild: Beneath the Broken Dial':25,
  'Guild: Redvein Safety Survey':25,'Guild: Inverted Crown Instruments':40
 };
+const expansionManifest=path.join(__dirname,'adventurers','manifest.json');
+if(fs.existsSync(expansionManifest))for(const job of JSON.parse(fs.readFileSync(expansionManifest,'utf8')).guildJobs||[])recommended[job.title]=job.recommendedLevel;
 for(const level of levels)for(let cursor=0;cursor<20;cursor+=2){
  const result=runBoard({level,rank:4,cursor});
  for(const e of result.effects)if(e.type==='quest-init')ck(recommended[e.value]<=level+(level<10?2:5),'Routine offer respects level '+level+'/'+e.value);

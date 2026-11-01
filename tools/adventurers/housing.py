@@ -1,0 +1,21 @@
+# Public offer terms; actual fixed-price grants live in native triggers.
+PROPERTIES = [
+ dict(id='roseberry',title='Roseberry Attic Room',location='Roseberry Inn',door='Guest Stair',price=30,rent=True,
+      key='Roseberry Attic Room Key',owner='the Roseberry Inn proprietor',
+      description='A brass key to the private attic guest room at Roseberry Inn, hired for the agreed paid stay. Its little tag bears the guest\'s name and the arrangement made at the desk. The room contains a bed, washstand, locking chest and writing table; the other rooms remain other guests\' property.'),
+ dict(id='whitepass',title='Whitepass Drying-Loft Room',location='Whitepass Caravan Lodge',door='Guest Landing',price=28,rent=True,
+      key='Whitepass Drying-Loft Key',owner='Akemi Fushida',
+      description='A broad iron key to the hired private room above Whitepass Caravan Lodge\'s drying loft. Akemi Fushida\'s tag records the lodger and paid stay. It opens a warm room with a sturdy bed, gear hooks and a shuttered mountain window; it is not a key to the lodge\'s stores or other guests\' rooms.'),
+ dict(id='canopy',title='Canopy Guest Bough',location='Asterveil Canopy',door='Guest Boughs',price=24,rent=True,
+      key='Canopy Guest Bough Key',owner='Yuzuri Takase',
+      description='A small carved key to a private hired guest bough in Asterveil Canopy. A knotted tag records the visitor and agreed stay. The room has an adjustable sleeping nook, a sheltered work shelf and space for ordinary luggage; the surrounding household\'s private branches remain private.'),
+ dict(id='willowbend',title='Willowbend Courtyard Cottage',location='Willowbend Residential District',door='Courtyard Row',price=1200,rent=False,
+      key='Willowbend Cottage Key and Deed',owner='Nae Komorida',
+      description='The iron front-door key and folded deed to the purchased Willowbend courtyard cottage. The papers name the buyer and describe a small private home with a kitchen, sleeping room, storage loft and narrow garden. It is a modest permanent home, with the responsibilities of maintaining it.'),
+ dict(id='workshop',title='Merchant\'s Row Bench Workshop',location="Merchant's Row",door='Covered Walk',price=850,rent=False,
+      key='Bench Workshop Key and Deed',owner='Nae Komorida',
+      description='A square brass key tied to the purchase papers for the small bench workshop on Merchant\'s Row. The buyer is named beside a plan of the workroom, counter and lockable materials cupboard. The building supplies ordinary workspace; specialized tools, rare materials and customers must be acquired separately.'),
+ dict(id='snowmelt',title='Snowmelt Landing Flat',location='Snowmelt Residential Steps',door='Roofward Landing',price=1100,rent=False,
+      key='Snowmelt Landing Key and Deed',owner='Atsuko Ōhira',
+      description='A heavy iron key and purchase deed for a compact flat off Snowmelt Residential Steps. The papers name its buyer. Inside are a sleeping alcove, a tiny hearth kitchen, a work table and a sheltered gear cupboard. Ownership of this flat grants no clan membership or authority over the shared stair.'),
+]

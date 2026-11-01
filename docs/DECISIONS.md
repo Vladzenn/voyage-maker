@@ -45,3 +45,19 @@ International guild with a court-permitted Glowhaven branch. Bronze, Silver, Gol
 Use native completion for simple ordinary quests; explicit stages only where evidence, permissions or real choices need them. One completion owner and one reward owner. Existing offer flags may have dynamic writers in gh_guild_board; test those rather than declaring them missing from a text search. First thesis is once per playthrough, not repeated paperwork.
 
 Inventory descriptions, locations and dialogue must read naturally. Technical flags, save instructions, authored/generation notes and hidden conditions belong in internal fields and development notes. Short public patch notes are copyable Markdown and describe player benefits; do not expose Easter-egg conditions.
+
+## Adventurers of Glowhaven — approved implementation
+
+The sixteen-person cast, three native arcs, additional finite work and all sixteen portraits are implemented. Snow-spirit conflict permits force or negotiation. The Hydra Head researcher is an adult fourth-year, talented in research and weak in combat; the Stillwind Pearl exists but does not validate her original theory. Copper Laurels are comic opportunists, not compulsory lethal enemies. The two adventuring companies are factions, not automatic player-party membership.
+
+Use the revised power anchors: academy faculty and headmasters generally 28–32, Archons 50–55, court elites 40–45 and Karia Morino 42. **Ilyra Stillglass remains level 100 and Ragnar Leonhart 67**, explicitly exempted by the user. Legendary creatures, Orrum and the Spider Realm are not subject to this ordinary cast rebalance. Level bands do not make every trained adult a famous prodigy.
+
+Rentals and modest purchases should leave natural keys/deeds in actual inventory. Six fixed arrangements have native payment/key grants; arbitrary household keys still require supported item generation. No automatic offscreen rent deductions, eviction clock or passive income is implied. Losing a key does not erase legal ownership.
+
+Public leads reveal circumstances rather than accepting quests or exposing secrets. Returning clients can acknowledge an actual outcome without becoming repeatable reward sources. Native arcs remain distinct from simple authored quests and exact event triggers; do not fabricate authored quest arcId fields.
+
+The user approved an honor-based `quest done: Exact Quest Name` repair action for an accepted journal quest that fails recognition. It may settle ordinary rewards without independent proof. It is OOC, exact-name based and not NPC dialogue.
+
+Ironman is optional and solo. The main world's native death flag remains false for ordinary modes; Ironman's instructions and an ending trigger reinforce final lethal outcomes. For native permanent death use the separate full-world Solo Ironman export, where the global flag is true. Do not claim a game-mode record can override that flag, or that AI instructions are a guaranteed native toggle.
+
+Touring routines move existing Ragnar Leonhart, Adoha Aonuma and Karia Morino through actual addresses and pause for presence, party travel, combat, incapacitation and real commitments. Adoha's Asterveil visits remain in the settlement. Personal travel authorization does not confer portal permissions on the player. Orivelle's existing circuit is preserved.

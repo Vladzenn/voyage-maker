@@ -199,7 +199,19 @@
       "Field Survey Kit",
       "Workshop Starter Kit",
       "First Aid Kit",
-      "Technical Inspection Kit"
+      "Technical Inspection Kit",
+      "Spear and Rope Kit",
+      "Bow Starter Kit",
+      "Crossbow Starter Kit",
+      "Greatsword Starter Kit",
+      "Axe Starter Kit",
+      "Mace and Buckler Kit",
+      "Polearm Starter Kit",
+      "Twinblade Starter Kit",
+      "Flexible Weapon Kit",
+      "War Fan Starter Kit",
+      "Scythe Starter Kit",
+      "Paired Blades Starter Kit"
     ],
     "description": "Choose one basic casting, martial or practical kit, or Hand-Casting Practice for no extra item. It is independent of your training style. Ordinary tools, clothing and remembered techniques stay distinct; a kit grants only its listed items once."
   },

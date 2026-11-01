@@ -9,7 +9,7 @@ Repository: [Vladzenn/voyage-maker](https://github.com/Vladzenn/voyage-maker) (p
 - **Canonical world:** [world-draft/WorldAlpha - World.json](world-draft/WorldAlpha%20-%20World.json)
 - **Current state and next work:** [docs/CURRENT_STATE.md](docs/CURRENT_STATE.md)
 - **Approved decisions:** [docs/DECISIONS.md](docs/DECISIONS.md)
-- **Adventurers update plan:** [planning brief](world-draft/authoring/plans/Adventurers%20of%20Glowhaven%20-%20Planning%20Brief.md)
+- **Adventurers update:** [release notes](world-draft/Adventurers%20of%20Glowhaven%20-%20Patch%20Notes.md) and [implementation/playtest guide](world-draft/Adventurers%20of%20Glowhaven%20-%20Development%20Notes.md)
 - **Shared workflow:** [docs/DESKTOP_AND_CLOUD.md](docs/DESKTOP_AND_CLOUD.md)
 
 Read AGENTS.override.md before editing. The original AGENTS.md and sources/ are preserved references.
@@ -23,6 +23,7 @@ python tools/project.py start
 python tools/project.py sync
 python tools/project.py validate
 node tools/test_item_mechanics.cjs
+node tools/test_adventurers.cjs
 python tools/project.py publish -m "Describe the completed change"
 ```
 

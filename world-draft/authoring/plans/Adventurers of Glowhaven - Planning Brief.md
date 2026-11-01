@@ -2,6 +2,8 @@
 
 Planning edition 1.0 · 31 October 2026. This document records confirmed scope and proposed designs. It does not implement changes in the world JSON.
 
+**Historical plan:** implemented 1 November 2026. The [release development notes](../../Adventurers%20of%20Glowhaven%20-%20Development%20Notes.md) describe the actual shipped configuration and remaining live tests; use those for current behavior. Other expansion plans remain outside this release.
+
 ## Confirmed scope
 
 - Three native narrative arcs: a Drakenspire snow-spirit investigation, a senior student's Asterveil research expedition, and Asterveil loot thieves.

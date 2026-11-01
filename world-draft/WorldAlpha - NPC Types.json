@@ -944,5 +944,75 @@
     "resistances": [],
     "immunities": [],
     "successBonus": -25
+  },
+  "Snow Spirit": {
+    "name": "Snow Spirit",
+    "vulnerabilities": [
+      "fire",
+      "light"
+    ],
+    "resistances": [
+      "ice"
+    ],
+    "immunities": [
+      "poisoning"
+    ],
+    "description": "An intelligent winter manifestation with a humanoid adult face, cold-pale skin and hair or garments formed from a coherent local legend. Has individual knowledge and motives; neither every snow spirit nor every grievance is Ysolenne. Use bounded Ice workings and local terrain, not effortless death by looking at it. Ordinary instances follow actual location level bands; Ysolenne remains the unique named individual with her own fixed power and relationships."
+  },
+  "Frostglass Leech": {
+    "name": "Frostglass Leech",
+    "vulnerabilities": [
+      "fire",
+      "bludgeoning"
+    ],
+    "resistances": [
+      "ice"
+    ],
+    "immunities": [],
+    "description": "A flattened translucent ribbon animal the length of a forearm, with six black anchoring nubs along each side and a round glassy sucker at either end. Its frozen outer film crackles when disturbed. It nests in cold damp mineral seams and seeks warmth in pulses; dry ground and steady heat can deter it. It cannot freeze a whole party at a touch. Use a few actual individuals at the site's level band, preserving their unusual anatomy in generated portraits."
+  },
+  "Cloudveil Nautilus": {
+    "name": "Cloudveil Nautilus",
+    "vulnerabilities": [
+      "piercing"
+    ],
+    "resistances": [
+      "wind"
+    ],
+    "immunities": [],
+    "description": "A floating sky mollusk with an opalescent spiral shell, a broad clear membrane sail and five short lavender fins beneath its body; paired dark eyes sit on flexible stalks, with no human face or humanoid torso. It grazes airborne mineral dust along sheltered Asterveil currents. Adults can conceal themselves in drifting mist but cannot teleport. Some mature current-sensing chambers produce a Stillwind Pearl, and an intact spent casing may preserve one. A living creature is not an automatic loot container; observation and actual safe collection matter."
+  },
+  "Bracewing Cicada": {
+    "name": "Bracewing Cicada",
+    "vulnerabilities": [
+      "sound"
+    ],
+    "resistances": [
+      "wind"
+    ],
+    "immunities": [],
+    "description": "A palm-sized emerald insect with four triangular translucent wings and hooked hind legs shaped like tiny clamps. Groups brace themselves across exposed vine cables and drink salt from woven fibers. Their resonant wingbeats can shake a light instrument or signal line; they are not a giant lethal swarm by default. Gentle vibration changes, a suitable lure or rerouting a cable can resolve interference. Keep these recognizable insects rather than generating fairy people."
+  },
+  "Vaultjaw Marten": {
+    "name": "Vaultjaw Marten",
+    "vulnerabilities": [
+      "bludgeoning"
+    ],
+    "resistances": [
+      "piercing"
+    ],
+    "immunities": [],
+    "description": "A long-bodied six-legged mammal with russet fur, small black eyes and two overlapping pale jaw plates that close like a hinged clasp around hard food. It nests in sheltered crates and steals resin, nuts and bright offcuts. A loose hinge-like clicking warns of a defensive snap. Juveniles are suitable weak low-level nuisances; mature wild individuals follow the real local band. It has no extradimensional stomach and cannot swallow an entire inventory or become an elite Mimic through a naming shortcut."
+  },
+  "Needleback Prowler": {
+    "name": "Needleback Prowler",
+    "vulnerabilities": [
+      "fire"
+    ],
+    "resistances": [
+      "nature"
+    ],
+    "immunities": [],
+    "description": "A low, broad reptilian hunter with moss-green scales, four jointed legs and a flexible comb of hollow ivory needles along its spine. Its blunt wedge head bears four small amber eyes; its tail ends in two gripping pads used to cling to reeds and cage frames. It ambushes small prey in Asterveil wet channels and lashes its needle comb only within close range. Disturbed reeds, shed needles and a blocked retreat provide counterplay. It cannot fire endless projectiles, read minds or ignore cover."
   }
 }

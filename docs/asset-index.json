@@ -1670,6 +1670,86 @@
       "size": 4214875,
       "sha256": "1e644f75e40dc42110eff11a679ece6b79911353b6586384c6e814b4453bff9c",
       "mtimeNs": 1793161345935686100
+    },
+    "world-draft/npc portraits/Beni Tsunoda.png": {
+      "size": 2686767,
+      "sha256": "b0bd62241863762189fd5163a896ae94a10e0527289326e1080b96d89385bb72",
+      "mtimeNs": 1793502448428028000
+    },
+    "world-draft/npc portraits/Chisato Akamine.png": {
+      "size": 2684250,
+      "sha256": "3f7ebde6676a3a1fa62d8c417976c4c12db1438ec0b26b355bf67d622b59de66",
+      "mtimeNs": 1793502448385144000
+    },
+    "world-draft/npc portraits/Daigo Kisaragi.png": {
+      "size": 2938982,
+      "sha256": "bf2ee8cb2fee542926c4990ee8fc616dadb48e4ff1355e11ae980f7c4d56c40d",
+      "mtimeNs": 1793502448381155200
+    },
+    "world-draft/npc portraits/Gaku Shindō.png": {
+      "size": 2662853,
+      "sha256": "0ea2aba78ea1b9f61c86ef53478aa5f9a8815314ae1893ea383d98868cd4dc89",
+      "mtimeNs": 1793502448406087600
+    },
+    "world-draft/npc portraits/Iona Hayashida.png": {
+      "size": 2533199,
+      "sha256": "16df8b399af9133c389ed07f1c9733481310f2bec044abc71254a414703b1242",
+      "mtimeNs": 1793503608768789800
+    },
+    "world-draft/npc portraits/Jōta Kamezaki.png": {
+      "size": 2998195,
+      "sha256": "d81ef4341e6d95c29a68eef402966ff8176ad45981a74b778a9fb0e9036d60b4",
+      "mtimeNs": 1793502448425036500
+    },
+    "world-draft/npc portraits/Marika Hoshino.png": {
+      "size": 2492418,
+      "sha256": "15e7b403d1b16cbe0fb3664241707f4827480ab5528eefd6b71f842b2c866dee",
+      "mtimeNs": 1793503608757300200
+    },
+    "world-draft/npc portraits/Masaru Hasebe.png": {
+      "size": 2604283,
+      "sha256": "bd21aaca1a7617b8df3fc92630282749c77ca0134b0858ed422231a223ab21cf",
+      "mtimeNs": 1793503608771770700
+    },
+    "world-draft/npc portraits/Nae Komorida.png": {
+      "size": 2601306,
+      "sha256": "cb37126db1c750e0857638fb24d7fc00129a7361bc36da6c76abbc2b2324341f",
+      "mtimeNs": 1793503608762286200
+    },
+    "world-draft/npc portraits/Renpei Sugita.png": {
+      "size": 2584059,
+      "sha256": "5e36195149773d7cc9c3dcb0f9cf281ac9590850dfb40d3645b4e824f1fe8415",
+      "mtimeNs": 1793503608766276100
+    },
+    "world-draft/npc portraits/Riko Kanehara.png": {
+      "size": 3060939,
+      "sha256": "64d405889ffe995562be268f32e02f4fc0ca20c489a572d07aec1641cb4f07bd",
+      "mtimeNs": 1793503608751315200
+    },
+    "world-draft/npc portraits/Suzuha Midorise.png": {
+      "size": 2967342,
+      "sha256": "cb42a57e6e9679207a07a35866384f14cf0b2981df265f9f3e5e465c17c52316",
+      "mtimeNs": 1793502448417059900
+    },
+    "world-draft/npc portraits/Sōta Tobisawa.png": {
+      "size": 3062584,
+      "sha256": "d513f36ffbb71cd0d39ec048a40ae6155743bfbd1fb91fb985f09610c06eb904",
+      "mtimeNs": 1793503608754307100
+    },
+    "world-draft/npc portraits/Tetsuya Kanamori.png": {
+      "size": 2366137,
+      "sha256": "9f9ee8903c6bd673b1f9cebc3a92ec32f79bd9602f0cd7c1c7318980243b93ba",
+      "mtimeNs": 1793503608759293500
+    },
+    "world-draft/npc portraits/Tomoe Inukai.png": {
+      "size": 2735792,
+      "sha256": "e38eaae56d243a9e006f5aff77665a4414adf6459d1180c9ba83a7adc76bbb75",
+      "mtimeNs": 1793502448402097500
+    },
+    "world-draft/npc portraits/Ysolenne.png": {
+      "size": 3097008,
+      "sha256": "816a65f076929b2a2c7e973692b2ec3ae6e86b2cd2c491f9f93bac7e515c8e9b",
+      "mtimeNs": 1793502448409079400
     }
   }
 }

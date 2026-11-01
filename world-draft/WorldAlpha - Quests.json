@@ -4028,5 +4028,461 @@
         "instruction": "Conclude Your First Spell with the actual invented function, chosen name and successful test. Its native completion grants the configured experience once. Preserve the personal working for the normal ability workflow; do not issue a second reward, force a thesis or invent an unearned ability."
       }
     ]
+  },
+  "Guild: Rope Before the River": {
+    "name": "Guild: Rope Before the River",
+    "questSource": "Komugi Hanabishi",
+    "questLocation": "Pinewater River",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "A delivery line at Brookmeadow Ford has loosened. A farm cooperative offers 24 marks to put it back into safe working order.",
+    "mainObjective": "Restore the delivery line at Pinewater River - Brookmeadow Ford and demonstrate that an ordinary loaded handcart can cross safely.",
+    "questDesignBrief": "A loosened anchor and a worn connection are the whole problem. Use tools, practical construction or bounded learned magic; obtain permission before moving other property. Inspection alone is not repair. A failed test needs a specific correction, not an invented monster. Have the cooperative supply normal replacement cord.\nThis is optional finite work. Establish the actual terms before commitment; hearing a public lead is not accepting. Run a relevant obstacle, show the decisive deed using its actual people, object and place, and let a finished objective stay finished. Use the native completion condition as the sole completion owner. Do not create a monitoring trigger or repeat the payout in narration. Respect ordinary difficulty for the least experienced human; NPC companions do not raise that band. The posted fee is 24 marks per participating player, settled by completion effects once; the guild takes no additional cut. Actual guild work gives one service credit. Foreign travel still needs court permission.",
+    "conclusive": true,
+    "completionCondition": {
+      "type": "story",
+      "query": "For \"Guild: Rope Before the River\", the accepted undertaking's actual events establish this final objective: Restore the delivery line at Pinewater River - Brookmeadow Ford and demonstrate that an ordinary loaded handcart can cross safely. A sincere imperfect result qualifies when its stated objective allows it. Plans, promises, another person's unrelated work or the mere offer are false. Preserve a verified outcome after travel; no extra report beyond the stated scope is required."
+    },
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 24,
+        "target": "allPlayers"
+      },
+      {
+        "type": "item-add",
+        "item": "Guild Service Credit",
+        "quantity": 1,
+        "target": "allPlayers"
+      },
+      {
+        "type": "story",
+        "instruction": "Let the actual result of Guild: Rope Before the River stand. Return entrusted property as agreed and preserve who took part, any settled payment and the actual relationships. The completed task creates no new debt or compulsory follow-up."
+      }
+    ]
+  },
+  "Guild: Honey Without a Sting": {
+    "name": "Guild: Honey Without a Sting",
+    "questSource": "Komugi Hanabishi",
+    "questLocation": "Glowhaven Farmlands",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "A farm's neglected hive stands beside a damaged water trough. The owner offers 32 marks to recover a usable honey frame and make the immediate approach workable.",
+    "mainObjective": "Recover one usable honey frame from the neglected hive at Glowhaven Farmlands and leave the trough-side approach safe for the owner.",
+    "questDesignBrief": "Use protective clothing, smoke, patient handling or suitable bounded magic. Ordinary bees are not a lethal monster swarm. The owner provides a sound frame box; do not grant a reusable magical hive. A careless approach can cause a manageable sting and delay, not an unavoidable two-round death.\nThis is optional finite work. Establish the actual terms before commitment; hearing a public lead is not accepting. Run a relevant obstacle, show the decisive deed using its actual people, object and place, and let a finished objective stay finished. Use the native completion condition as the sole completion owner. Do not create a monitoring trigger or repeat the payout in narration. Respect ordinary difficulty for the least experienced human; NPC companions do not raise that band. The posted fee is 32 marks per participating player, settled by completion effects once; the guild takes no additional cut. Actual guild work gives one service credit. Foreign travel still needs court permission.",
+    "conclusive": true,
+    "completionCondition": {
+      "type": "story",
+      "query": "For \"Guild: Honey Without a Sting\", the accepted undertaking's actual events establish this final objective: Recover one usable honey frame from the neglected hive at Glowhaven Farmlands and leave the trough-side approach safe for the owner. A sincere imperfect result qualifies when its stated objective allows it. Plans, promises, another person's unrelated work or the mere offer are false. Preserve a verified outcome after travel; no extra report beyond the stated scope is required."
+    },
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 32,
+        "target": "allPlayers"
+      },
+      {
+        "type": "item-add",
+        "item": "Guild Service Credit",
+        "quantity": 1,
+        "target": "allPlayers"
+      },
+      {
+        "type": "story",
+        "instruction": "Let the actual result of Guild: Honey Without a Sting stand. Return entrusted property as agreed and preserve who took part, any settled payment and the actual relationships. The completed task creates no new debt or compulsory follow-up."
+      }
+    ]
+  },
+  "Guild: Teeth in the Spare Crate": {
+    "name": "Guild: Teeth in the Spare Crate",
+    "questSource": "Komugi Hanabishi",
+    "questLocation": "Caravan Outpost",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "A small biting creature keeps getting into the caravan outpost's empty packing crates. The carriers offer 55 marks to identify it and stop the damage.",
+    "mainObjective": "Identify the crate-raiding creature at Caravan Outpost and stop its access to the packing stores through a real capture, removal or exclusion.",
+    "questDesignBrief": "Use one juvenile Vaultjaw Marten at level 7–9, weak tier. Its jaw plates and nesting behavior are observable. No full-strength Mimic or hidden elite ambush. A lure, repaired store barrier, careful capture or combat can work. Explain any handling risk before somebody reaches into a moving crate.\nThis is optional finite work. Establish the actual terms before commitment; hearing a public lead is not accepting. Run a relevant obstacle, show the decisive deed using its actual people, object and place, and let a finished objective stay finished. Use the native completion condition as the sole completion owner. Do not create a monitoring trigger or repeat the payout in narration. Respect ordinary difficulty for the least experienced human; NPC companions do not raise that band. The posted fee is 55 marks per participating player, settled by completion effects once; the guild takes no additional cut. Actual guild work gives one service credit. Foreign travel still needs court permission.",
+    "conclusive": true,
+    "completionCondition": {
+      "type": "story",
+      "query": "For \"Guild: Teeth in the Spare Crate\", the accepted undertaking's actual events establish this final objective: Identify the crate-raiding creature at Caravan Outpost and stop its access to the packing stores through a real capture, removal or exclusion. A sincere imperfect result qualifies when its stated objective allows it. Plans, promises, another person's unrelated work or the mere offer are false. Preserve a verified outcome after travel; no extra report beyond the stated scope is required."
+    },
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 55,
+        "target": "allPlayers"
+      },
+      {
+        "type": "item-add",
+        "item": "Guild Service Credit",
+        "quantity": 1,
+        "target": "allPlayers"
+      },
+      {
+        "type": "story",
+        "instruction": "Let the actual result of Guild: Teeth in the Spare Crate stand. Return entrusted property as agreed and preserve who took part, any settled payment and the actual relationships. The completed task creates no new debt or compulsory follow-up."
+      }
+    ]
+  },
+  "Guild: Five Crates, Not Four": {
+    "name": "Guild: Five Crates, Not Four",
+    "questSource": "Komugi Hanabishi",
+    "questLocation": "Whitecrest Harbor",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "A harbor delivery was signed for as four crates, but five were loaded. The exporter offers 40 marks to locate the missing crate and settle the mistaken handoff.",
+    "mainObjective": "Locate the fifth crate from the Whitecrest Harbor delivery and resolve its handoff with the actual recipient and exporter.",
+    "questDesignBrief": "A second crew took a genuine mislabeled crate. Check the visible marks and people who handled it. Return, exchange or obtain an agreed equivalent; do not turn an ordinary mistake into a smuggling empire. A witness can be mistaken without being evil.\nThis is optional finite work. Establish the actual terms before commitment; hearing a public lead is not accepting. Run a relevant obstacle, show the decisive deed using its actual people, object and place, and let a finished objective stay finished. Use the native completion condition as the sole completion owner. Do not create a monitoring trigger or repeat the payout in narration. Respect ordinary difficulty for the least experienced human; NPC companions do not raise that band. The posted fee is 40 marks per participating player, settled by completion effects once; the guild takes no additional cut. Actual guild work gives one service credit. Foreign travel still needs court permission.",
+    "conclusive": true,
+    "completionCondition": {
+      "type": "story",
+      "query": "For \"Guild: Five Crates, Not Four\", the accepted undertaking's actual events establish this final objective: Locate the fifth crate from the Whitecrest Harbor delivery and resolve its handoff with the actual recipient and exporter. A sincere imperfect result qualifies when its stated objective allows it. Plans, promises, another person's unrelated work or the mere offer are false. Preserve a verified outcome after travel; no extra report beyond the stated scope is required."
+    },
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 40,
+        "target": "allPlayers"
+      },
+      {
+        "type": "item-add",
+        "item": "Guild Service Credit",
+        "quantity": 1,
+        "target": "allPlayers"
+      },
+      {
+        "type": "story",
+        "instruction": "Let the actual result of Guild: Five Crates, Not Four stand. Return entrusted property as agreed and preserve who took part, any settled payment and the actual relationships. The completed task creates no new debt or compulsory follow-up."
+      }
+    ]
+  },
+  "Guild: Warmth Beneath the Crust": {
+    "name": "Guild: Warmth Beneath the Crust",
+    "questSource": "Komugi Hanabishi",
+    "questLocation": "Goatstep Hamlet",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "Goatstep Hamlet's winter shelter has developed a cold draft below its hearth. The keepers offer 150 marks for a sound diagnosis and repair.",
+    "mainObjective": "Repair the heat loss beneath Goatstep Hamlet's winter shelter and demonstrate safe warmth with the keepers present.",
+    "questDesignBrief": "A cracked flue and ground frost interact. Ordinary building work, Earth shaping, proper insulation or competent Magitech can solve it. Do not cure it by filling a room with unvented fire. The owner supplies normal local materials; the player must arrange any specialist help they lack.\nThis is optional finite work. Establish the actual terms before commitment; hearing a public lead is not accepting. Run a relevant obstacle, show the decisive deed using its actual people, object and place, and let a finished objective stay finished. Use the native completion condition as the sole completion owner. Do not create a monitoring trigger or repeat the payout in narration. Respect ordinary difficulty for the least experienced human; NPC companions do not raise that band. The posted fee is 150 marks per participating player, settled by completion effects once; the guild takes no additional cut. Actual guild work gives one service credit. Foreign travel still needs court permission.",
+    "conclusive": true,
+    "completionCondition": {
+      "type": "story",
+      "query": "For \"Guild: Warmth Beneath the Crust\", the accepted undertaking's actual events establish this final objective: Repair the heat loss beneath Goatstep Hamlet's winter shelter and demonstrate safe warmth with the keepers present. A sincere imperfect result qualifies when its stated objective allows it. Plans, promises, another person's unrelated work or the mere offer are false. Preserve a verified outcome after travel; no extra report beyond the stated scope is required."
+    },
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 150,
+        "target": "allPlayers"
+      },
+      {
+        "type": "item-add",
+        "item": "Guild Service Credit",
+        "quantity": 1,
+        "target": "allPlayers"
+      },
+      {
+        "type": "story",
+        "instruction": "Let the actual result of Guild: Warmth Beneath the Crust stand. Return entrusted property as agreed and preserve who took part, any settled payment and the actual relationships. The completed task creates no new debt or compulsory follow-up."
+      }
+    ]
+  },
+  "Guild: The Lanternamber Latch": {
+    "name": "Guild: The Lanternamber Latch",
+    "questSource": "Komugi Hanabishi",
+    "questLocation": "Lanternamber Caverns",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "An assay collector's sealed sampling box is stranded behind a damaged work latch in Lanternamber Caverns. Its owners offer 220 marks to recover it intact.",
+    "mainObjective": "Recover the sealed assay box from Lanternamber Caverns - Braced Work Niche and deliver it intact to Amberglass Assay House.",
+    "questDesignBrief": "The damaged latch matters, and Frostglass Leeches gather near the cold damp approach. Use one or two appropriate level 23–28 opponents if the party enters their occupied feeding area. Heat, a dry route, tools or combat are alternatives. Do not open the consignment as automatic salvage. Court permission is required for the actual foreign journey.\nThis is optional finite work. Establish the actual terms before commitment; hearing a public lead is not accepting. Run a relevant obstacle, show the decisive deed using its actual people, object and place, and let a finished objective stay finished. Use the native completion condition as the sole completion owner. Do not create a monitoring trigger or repeat the payout in narration. Respect ordinary difficulty for the least experienced human; NPC companions do not raise that band. The posted fee is 220 marks per participating player, settled by completion effects once; the guild takes no additional cut. Actual guild work gives one service credit. Foreign travel still needs court permission.",
+    "conclusive": true,
+    "completionCondition": {
+      "type": "story",
+      "query": "For \"Guild: The Lanternamber Latch\", the accepted undertaking's actual events establish this final objective: Recover the sealed assay box from Lanternamber Caverns - Braced Work Niche and deliver it intact to Amberglass Assay House. A sincere imperfect result qualifies when its stated objective allows it. Plans, promises, another person's unrelated work or the mere offer are false. Preserve a verified outcome after travel; no extra report beyond the stated scope is required."
+    },
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 220,
+        "target": "allPlayers"
+      },
+      {
+        "type": "item-add",
+        "item": "Guild Service Credit",
+        "quantity": 1,
+        "target": "allPlayers"
+      },
+      {
+        "type": "story",
+        "instruction": "Let the actual result of Guild: The Lanternamber Latch stand. Return entrusted property as agreed and preserve who took part, any settled payment and the actual relationships. The completed task creates no new debt or compulsory follow-up."
+      }
+    ]
+  },
+  "Guild: Lines Across a Gap": {
+    "name": "Guild: Lines Across a Gap",
+    "questSource": "Komugi Hanabishi",
+    "questLocation": "Tetherroot Chain",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "A crossing cooperative needs a new light signal line placed on a reachable span of Tetherroot Chain. The fee is 90 marks for an installed, tested line.",
+    "mainObjective": "Install the supplied light signal line across the designated Tetherroot Chain span and test it with the crossing crew.",
+    "questDesignBrief": "There is a real sky gap, wind and a reachable anchor. Arrange licensed transport, an actual safety line or a feasible trained method. Do not infer flight from affinity. Bracewing Cicadas can interfere with the work without becoming a mandatory kill quota. The client supplies the line; ownership does not pass to the player.\nThis is optional finite work. Establish the actual terms before commitment; hearing a public lead is not accepting. Run a relevant obstacle, show the decisive deed using its actual people, object and place, and let a finished objective stay finished. Use the native completion condition as the sole completion owner. Do not create a monitoring trigger or repeat the payout in narration. Respect ordinary difficulty for the least experienced human; NPC companions do not raise that band. The posted fee is 90 marks per participating player, settled by completion effects once; the guild takes no additional cut. Actual guild work gives one service credit. Foreign travel still needs court permission.",
+    "conclusive": true,
+    "completionCondition": {
+      "type": "story",
+      "query": "For \"Guild: Lines Across a Gap\", the accepted undertaking's actual events establish this final objective: Install the supplied light signal line across the designated Tetherroot Chain span and test it with the crossing crew. A sincere imperfect result qualifies when its stated objective allows it. Plans, promises, another person's unrelated work or the mere offer are false. Preserve a verified outcome after travel; no extra report beyond the stated scope is required."
+    },
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 90,
+        "target": "allPlayers"
+      },
+      {
+        "type": "item-add",
+        "item": "Guild Service Credit",
+        "quantity": 1,
+        "target": "allPlayers"
+      },
+      {
+        "type": "story",
+        "instruction": "Let the actual result of Guild: Lines Across a Gap stand. Return entrusted property as agreed and preserve who took part, any settled payment and the actual relationships. The completed task creates no new debt or compulsory follow-up."
+      }
+    ]
+  },
+  "Guild: Something in the Sifter": {
+    "name": "Guild: Something in the Sifter",
+    "questSource": "Komugi Hanabishi",
+    "questLocation": "Glassreed Labyrinth",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "A working sifter cage in Glassreed Labyrinth has begun snapping shut at irregular intervals. Its operators offer 180 marks to make the station usable.",
+    "mainObjective": "Make the affected sifter cage at Glassreed Labyrinth safe and usable, and show the operators what was actually wrong.",
+    "questDesignBrief": "A nesting Needleback Prowler has displaced a sensitive trigger cord. Observation and careful exclusion can avoid a fight; a real attack uses a level 25–28 individual and its limited anatomy. Do not silently steal the operator's collected materials or reward a diagnosis before the station is usable.\nThis is optional finite work. Establish the actual terms before commitment; hearing a public lead is not accepting. Run a relevant obstacle, show the decisive deed using its actual people, object and place, and let a finished objective stay finished. Use the native completion condition as the sole completion owner. Do not create a monitoring trigger or repeat the payout in narration. Respect ordinary difficulty for the least experienced human; NPC companions do not raise that band. The posted fee is 180 marks per participating player, settled by completion effects once; the guild takes no additional cut. Actual guild work gives one service credit. Foreign travel still needs court permission.",
+    "conclusive": true,
+    "completionCondition": {
+      "type": "story",
+      "query": "For \"Guild: Something in the Sifter\", the accepted undertaking's actual events establish this final objective: Make the affected sifter cage at Glassreed Labyrinth safe and usable, and show the operators what was actually wrong. A sincere imperfect result qualifies when its stated objective allows it. Plans, promises, another person's unrelated work or the mere offer are false. Preserve a verified outcome after travel; no extra report beyond the stated scope is required."
+    },
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 180,
+        "target": "allPlayers"
+      },
+      {
+        "type": "item-add",
+        "item": "Guild Service Credit",
+        "quantity": 1,
+        "target": "allPlayers"
+      },
+      {
+        "type": "story",
+        "instruction": "Let the actual result of Guild: Something in the Sifter stand. Return entrusted property as agreed and preserve who took part, any settled payment and the actual relationships. The completed task creates no new debt or compulsory follow-up."
+      }
+    ]
+  },
+  "Borrowed After the Applause": {
+    "name": "Borrowed After the Applause",
+    "questSource": "Adoha Aonuma",
+    "questLocation": "Four Sages Bazaar",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "Adoha Aonuma's borrowed accompaniment resonator has begun echoing the wrong phrase. She wants to return it working without ruining an ordinary evening.",
+    "mainObjective": "Help Adoha Aonuma identify and resolve the resonator's unwanted repeated phrase, then settle its return with its owner.",
+    "questDesignBrief": "The effect comes from an old rehearsal loop, not a trapped soul. A suitable technical diagnosis, a careful performance test or the actual maker can help. No free magical upgrade or automatic intimacy. The reward is agreed company and professional gratitude, with any separate repair fee established before work.\nThis is optional finite work. Establish the actual terms before commitment; hearing a public lead is not accepting. Run a relevant obstacle, show the decisive deed using its actual people, object and place, and let a finished objective stay finished. Use the native completion condition as the sole completion owner. Do not create a monitoring trigger or repeat the payout in narration. Respect ordinary difficulty for the least experienced human; NPC companions do not raise that band. This is a private undertaking, not licensed guild service. Any fixed payment below settles once; no guild credit, automatic training or unagreed gift is added.",
+    "conclusive": true,
+    "completionCondition": {
+      "type": "story",
+      "query": "For \"Borrowed After the Applause\", the accepted undertaking's actual events establish this final objective: Help Adoha Aonuma identify and resolve the resonator's unwanted repeated phrase, then settle its return with its owner. A sincere imperfect result qualifies when its stated objective allows it. Plans, promises, another person's unrelated work or the mere offer are false. Preserve a verified outcome after travel; no extra report beyond the stated scope is required."
+    },
+    "onCompleteEffects": [
+      {
+        "type": "story",
+        "instruction": "Let the actual result of Borrowed After the Applause stand. Return entrusted property as agreed and preserve who took part, any settled payment and the actual relationships. The completed task creates no new debt or compulsory follow-up."
+      }
+    ]
+  },
+  "A Stable Fit for Old Bones": {
+    "name": "A Stable Fit for Old Bones",
+    "questSource": "Ragnar Leonhart",
+    "questLocation": "Whitepass Caravan Lodge",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "Ragnar Leonhart wants his old horse housed comfortably after a hard crossing. The available stall has a badly placed rail and a thoroughly unimpressed proprietor.",
+    "mainObjective": "Arrange a safe, comfortable stall for Ragnar Leonhart's old horse at Whitepass Caravan Lodge with the proprietor's agreement.",
+    "questDesignBrief": "Listen to Akemi Fushida's practical objections and adjust the real rail, bedding or arrangement. The ordinary horse remains lore rather than a new persistent NPC. Do not turn the evening into a secret legendary mount revelation. Ragnar Leonhart can pay his own lodging; helping is no automatic party invitation or Gravity lesson.\nThis is optional finite work. Establish the actual terms before commitment; hearing a public lead is not accepting. Run a relevant obstacle, show the decisive deed using its actual people, object and place, and let a finished objective stay finished. Use the native completion condition as the sole completion owner. Do not create a monitoring trigger or repeat the payout in narration. Respect ordinary difficulty for the least experienced human; NPC companions do not raise that band. This is a private undertaking, not licensed guild service. Any fixed payment below settles once; no guild credit, automatic training or unagreed gift is added.",
+    "conclusive": true,
+    "completionCondition": {
+      "type": "story",
+      "query": "For \"A Stable Fit for Old Bones\", the accepted undertaking's actual events establish this final objective: Arrange a safe, comfortable stall for Ragnar Leonhart's old horse at Whitepass Caravan Lodge with the proprietor's agreement. A sincere imperfect result qualifies when its stated objective allows it. Plans, promises, another person's unrelated work or the mere offer are false. Preserve a verified outcome after travel; no extra report beyond the stated scope is required."
+    },
+    "onCompleteEffects": [
+      {
+        "type": "story",
+        "instruction": "Let the actual result of A Stable Fit for Old Bones stand. Return entrusted property as agreed and preserve who took part, any settled payment and the actual relationships. The completed task creates no new debt or compulsory follow-up."
+      }
+    ]
+  },
+  "Three Rhymes Behind": {
+    "name": "Three Rhymes Behind",
+    "questSource": "Karia Morino",
+    "questLocation": "Crooked Tankard",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "Karia Morino has promised a short set at the Crooked Tankard and needs a willing collaborator for a comic exchange, a rhythm or a practical stage problem. The house offers 30 marks for the shared set.",
+    "mainObjective": "Help Karia Morino deliver the agreed short set at the Crooked Tankard and finish the actual performance.",
+    "questDesignBrief": "A sincere entertaining attempt can qualify even with an imperfect performance. The player can help with rhythm, delivery, staging or equipment rather than being forced to sing. No humiliation scripted onto the player and no automatic romantic response. The job ends after the set.\nThis is optional finite work. Establish the actual terms before commitment; hearing a public lead is not accepting. Run a relevant obstacle, show the decisive deed using its actual people, object and place, and let a finished objective stay finished. Use the native completion condition as the sole completion owner. Do not create a monitoring trigger or repeat the payout in narration. Respect ordinary difficulty for the least experienced human; NPC companions do not raise that band. This is a private undertaking, not licensed guild service. Any fixed payment below settles once; no guild credit, automatic training or unagreed gift is added.",
+    "conclusive": true,
+    "completionCondition": {
+      "type": "story",
+      "query": "For \"Three Rhymes Behind\", the accepted undertaking's actual events establish this final objective: Help Karia Morino deliver the agreed short set at the Crooked Tankard and finish the actual performance. A sincere imperfect result qualifies when its stated objective allows it. Plans, promises, another person's unrelated work or the mere offer are false. Preserve a verified outcome after travel; no extra report beyond the stated scope is required."
+    },
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 30,
+        "target": "allPlayers"
+      },
+      {
+        "type": "story",
+        "instruction": "Let the actual result of Three Rhymes Behind stand. Return entrusted property as agreed and preserve who took part, any settled payment and the actual relationships. The completed task creates no new debt or compulsory follow-up."
+      }
+    ]
+  },
+  "The Map Has Your Footprints": {
+    "name": "The Map Has Your Footprints",
+    "questSource": "Renpei Sugita",
+    "questLocation": "Greywatch Keep",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "Renpei Sugita wants to correct guessed passages in a beginner's route sketch of Greywatch Keep before anyone relies on them. He offers 22 marks from his savings.",
+    "mainObjective": "Check Renpei Sugita's disputed Greywatch Keep passages and return a corrected, clearly marked route sketch.",
+    "questDesignBrief": "Use physical observation, landmarks and honest uncertainty. One actual blocked route is enough to make the task meaningful. Do not introduce a new dungeon or demand mastery from a novice; Renpei Sugita should admit what he guessed. Actual danger follows the known local band.\nThis is optional finite work. Establish the actual terms before commitment; hearing a public lead is not accepting. Run a relevant obstacle, show the decisive deed using its actual people, object and place, and let a finished objective stay finished. Use the native completion condition as the sole completion owner. Do not create a monitoring trigger or repeat the payout in narration. Respect ordinary difficulty for the least experienced human; NPC companions do not raise that band. This is a private undertaking, not licensed guild service. Any fixed payment below settles once; no guild credit, automatic training or unagreed gift is added.",
+    "conclusive": true,
+    "completionCondition": {
+      "type": "story",
+      "query": "For \"The Map Has Your Footprints\", the accepted undertaking's actual events establish this final objective: Check Renpei Sugita's disputed Greywatch Keep passages and return a corrected, clearly marked route sketch. A sincere imperfect result qualifies when its stated objective allows it. Plans, promises, another person's unrelated work or the mere offer are false. Preserve a verified outcome after travel; no extra report beyond the stated scope is required."
+    },
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 22,
+        "target": "allPlayers"
+      },
+      {
+        "type": "story",
+        "instruction": "Let the actual result of The Map Has Your Footprints stand. Return entrusted property as agreed and preserve who took part, any settled payment and the actual relationships. The completed task creates no new debt or compulsory follow-up."
+      }
+    ]
+  },
+  "A Handle Worth Keeping": {
+    "name": "A Handle Worth Keeping",
+    "questSource": "Tetsuya Kanamori",
+    "questLocation": "Adventurer's Guild - Glowhaven Branch",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "A client wants a familiar old weapon handle kept during a necessary repair. Tetsuya Kanamori offers 35 marks for practical assistance with the fitting and test.",
+    "mainObjective": "Help Tetsuya Kanamori complete and safely test the agreed repair while retaining the owner's familiar handle.",
+    "questDesignBrief": "Make the repair about an actual object, its condition and the owner's grip. Proper materials and assistance can help an inexperienced player. Inspecting is not repairing; ordinary maintenance gives no extra bonus pick, copy of the weapon or free resource refill. The client's property must be returned.\nThis is optional finite work. Establish the actual terms before commitment; hearing a public lead is not accepting. Run a relevant obstacle, show the decisive deed using its actual people, object and place, and let a finished objective stay finished. Use the native completion condition as the sole completion owner. Do not create a monitoring trigger or repeat the payout in narration. Respect ordinary difficulty for the least experienced human; NPC companions do not raise that band. This is a private undertaking, not licensed guild service. Any fixed payment below settles once; no guild credit, automatic training or unagreed gift is added.",
+    "conclusive": true,
+    "completionCondition": {
+      "type": "story",
+      "query": "For \"A Handle Worth Keeping\", the accepted undertaking's actual events establish this final objective: Help Tetsuya Kanamori complete and safely test the agreed repair while retaining the owner's familiar handle. A sincere imperfect result qualifies when its stated objective allows it. Plans, promises, another person's unrelated work or the mere offer are false. Preserve a verified outcome after travel; no extra report beyond the stated scope is required."
+    },
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 35,
+        "target": "allPlayers"
+      },
+      {
+        "type": "story",
+        "instruction": "Let the actual result of A Handle Worth Keeping stand. Return entrusted property as agreed and preserve who took part, any settled payment and the actual relationships. The completed task creates no new debt or compulsory follow-up."
+      }
+    ]
+  },
+  "The Quiet Room": {
+    "name": "The Quiet Room",
+    "questSource": "Nae Komorida",
+    "questLocation": "Willowbend Residential District",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "Nae Komorida is mediating between a lodger who needs quiet and a neighbor whose harmless work keeps rattling the partition. They offer 40 marks for a workable arrangement.",
+    "mainObjective": "Carry out a mutually understood noise arrangement or sound repair between the Willowbend lodger and neighbor, and verify that it works.",
+    "questDesignBrief": "Use a practical schedule, padding, a permitted physical alteration or suitable bounded magic. Neither neighbor is a hidden villain. The player can fail to obtain agreement without losing earlier evidence. This commission grants no property ownership or viewing key.\nThis is optional finite work. Establish the actual terms before commitment; hearing a public lead is not accepting. Run a relevant obstacle, show the decisive deed using its actual people, object and place, and let a finished objective stay finished. Use the native completion condition as the sole completion owner. Do not create a monitoring trigger or repeat the payout in narration. Respect ordinary difficulty for the least experienced human; NPC companions do not raise that band. This is a private undertaking, not licensed guild service. Any fixed payment below settles once; no guild credit, automatic training or unagreed gift is added.",
+    "conclusive": true,
+    "completionCondition": {
+      "type": "story",
+      "query": "For \"The Quiet Room\", the accepted undertaking's actual events establish this final objective: Carry out a mutually understood noise arrangement or sound repair between the Willowbend lodger and neighbor, and verify that it works. A sincere imperfect result qualifies when its stated objective allows it. Plans, promises, another person's unrelated work or the mere offer are false. Preserve a verified outcome after travel; no extra report beyond the stated scope is required."
+    },
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 40,
+        "target": "allPlayers"
+      },
+      {
+        "type": "story",
+        "instruction": "Let the actual result of The Quiet Room stand. Return entrusted property as agreed and preserve who took part, any settled payment and the actual relationships. The completed task creates no new debt or compulsory follow-up."
+      }
+    ]
+  },
+  "Prison: A Dry Line Tomorrow": {
+    "name": "Prison: A Dry Line Tomorrow",
+    "questSource": "Masaru Hasebe",
+    "questLocation": "Prison Work Yard",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "A drying line in the prison work yard is sagging over the damp floor. Masaru Hasebe needs an authorized helper for a small safe repair.",
+    "mainObjective": "With actual work permission, help Masaru Hasebe repair and test the prison drying line.",
+    "questDesignBrief": "Available to an authorized visitor, worker or actual prisoner assigned this work. Tools remain supervised. Honest work can produce a quieter shift and personal respect, not an automatic shortened sentence, pardon, escape, wage grant or release. One repair ends the undertaking.\nThis is optional finite work. Establish the actual terms before commitment; hearing a public lead is not accepting. Run a relevant obstacle, show the decisive deed using its actual people, object and place, and let a finished objective stay finished. Use the native completion condition as the sole completion owner. Do not create a monitoring trigger or repeat the payout in narration. Respect ordinary difficulty for the least experienced human; NPC companions do not raise that band. This is a private undertaking, not licensed guild service. Any fixed payment below settles once; no guild credit, automatic training or unagreed gift is added.",
+    "conclusive": true,
+    "completionCondition": {
+      "type": "story",
+      "query": "For \"Prison: A Dry Line Tomorrow\", the accepted undertaking's actual events establish this final objective: With actual work permission, help Masaru Hasebe repair and test the prison drying line. A sincere imperfect result qualifies when its stated objective allows it. Plans, promises, another person's unrelated work or the mere offer are false. Preserve a verified outcome after travel; no extra report beyond the stated scope is required."
+    },
+    "onCompleteEffects": [
+      {
+        "type": "story",
+        "instruction": "Let the actual result of Prison: A Dry Line Tomorrow stand. Return entrusted property as agreed and preserve who took part, any settled payment and the actual relationships. The completed task creates no new debt or compulsory follow-up."
+      }
+    ]
+  },
+  "Prison: The Book Returns": {
+    "name": "Prison: The Book Returns",
+    "questSource": "Akira Oritsu",
+    "questLocation": "Prison Visiting Hall",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "A harmless loaned book has been filed with the wrong visitor property. Akira Oritsu wants it traced and returned without exposing anybody's private letters.",
+    "mainObjective": "Trace the misplaced loaned book through authorized records and return it to its actual owner or agreed collection point.",
+    "questDesignBrief": "Respect the case counter, permitted property and private correspondence. The mistake is clerical and finite, not a conspiracy. A supervised prisoner can assist only within actual permission. Completing the errand does not release a prisoner, erase a warrant or recruit an officer.\nThis is optional finite work. Establish the actual terms before commitment; hearing a public lead is not accepting. Run a relevant obstacle, show the decisive deed using its actual people, object and place, and let a finished objective stay finished. Use the native completion condition as the sole completion owner. Do not create a monitoring trigger or repeat the payout in narration. Respect ordinary difficulty for the least experienced human; NPC companions do not raise that band. This is a private undertaking, not licensed guild service. Any fixed payment below settles once; no guild credit, automatic training or unagreed gift is added.",
+    "conclusive": true,
+    "completionCondition": {
+      "type": "story",
+      "query": "For \"Prison: The Book Returns\", the accepted undertaking's actual events establish this final objective: Trace the misplaced loaned book through authorized records and return it to its actual owner or agreed collection point. A sincere imperfect result qualifies when its stated objective allows it. Plans, promises, another person's unrelated work or the mere offer are false. Preserve a verified outcome after travel; no extra report beyond the stated scope is required."
+    },
+    "onCompleteEffects": [
+      {
+        "type": "story",
+        "instruction": "Let the actual result of Prison: The Book Returns stand. Return entrusted property as agreed and preserve who took part, any settled payment and the actual relationships. The completed task creates no new debt or compulsory follow-up."
+      }
+    ]
   }
 }

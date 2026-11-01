@@ -31,7 +31,13 @@
     "Portrait style, camera and backdrop choices are optional and do not change your map position or equipment.",
     "Shopping starts with a quote. Browsing or asking a price does not purchase an item.",
     "A useful piece of ordinary equipment can matter as much as a spectacular spell.",
-    "You can ask the narrator for a reminder of an agreed task, a timetable or your current options."
+    "You can ask the narrator for a reminder of an agreed task, a timetable or your current options.",
+    "An overheard problem is an opportunity, not an accepted quest. Ask for the terms or leave it alone.",
+    "A room key or deed records your actual lodging or property agreement. A viewing does not buy the building.",
+    "Ordinary repairs restore function. Refinement needs an agreed improvement, suitable materials and real work.",
+    "If a genuinely finished quest stays active, type quest done: followed by its exact journal name. This optional repair works on your honor and applies its normal rewards.",
+    "A weapon-led charge still uses your actual physical combat method. Giving an ally an order is not your own attack.",
+    "Headmasters administer schools. Their office does not automatically make them stronger than their experienced faculty."
   ],
   "tipDisplayEnabled": true,
   "tipTurnInterval": 8,

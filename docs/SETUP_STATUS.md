@@ -5,7 +5,7 @@ Verified 1 November 2026:
 - Private GitHub repository: https://github.com/Vladzenn/voyage-maker
 - Desktop checkout: the existing project folder, also accessible through R:\VoyageMaker.
 - Default branch: main. Origin uses HTTPS and the existing Git credential helper; no credential is stored in repository files.
-- Current world, 23 derived section files, guides, reference JSON, decisions and planning are committed.
+- The shared world now has 24 derived section files, including native Arcs. Guides, reference JSON, decisions and authoring tools accompany it.
 - GitHub Actions passed the initial Linux run: 6,267 structural checks, consistent section exports, 1,209 mechanics assertions and compilation of 164 trigger scripts.
 - These checks are local/CI fixtures, not a live Voyage playtest.
 - 334 existing original media assets are indexed and retained locally. Hosted image and music URLs remain in the shared world. New and changed media is shared by the publish helper.

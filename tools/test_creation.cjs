@@ -37,7 +37,7 @@ for(const name of m.talents){
  const t=w.traits[name];const p=make([name]);
  ck(!t.startingItems.length,'No undeclared gear from talent '+name);
  ck(p.resources.Health>0&&p.resources.Mana>0&&p.resources.Stamina>0,'No starting resource deficit '+name);
- for(const a of t.abilities)ck(w.abilities[a].requirements.some(r=>r.type==='trait'&&r.variable===name),'Technique is tied to the actual chosen gift');
+ for(const a of t.abilities)ck(w.abilities[a].requirements.some(r=>r.type==='trait'&&r.variable===name&&r.amount===1),'Technique has a complete requirement for the actual chosen gift');
 }
 for(const name of m.newKits){
  const t=w.traits[name];ck(t.startingItems.length>0,'Actual item kit '+name);

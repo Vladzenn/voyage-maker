@@ -35,7 +35,7 @@ for name in m['talents']:
     for s in t['skills']:ck(s['skill'] not in ['Space Magic','Time Magic'],'No reserved starting discipline '+name)
 for name in m['newAbilities']:
     a=w['abilities'][name]
-    ck(len(a['requirements'])==1 and a['requirements'][0]['type']=='trait' and a['requirements'][0]['variable'] in m['talents'],'Talent-only technique '+name)
+    ck(len(a['requirements'])==1 and a['requirements'][0]['type']=='trait' and a['requirements'][0]['variable'] in m['talents'] and a['requirements'][0].get('amount')==1,'Complete talent-only technique requirement '+name)
     ck('Costs ' in a['description'] and a['cooldown']>=4,'Finite new technique '+name)
 for old,new in m['uiRenames'].items():
     ck(new in w['storyStarts'] and w['storyStarts'][new]['name']==new,'Exact compatible menu ID '+new)

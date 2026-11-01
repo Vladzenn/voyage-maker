@@ -5663,7 +5663,7 @@
     "description": "A small cloud-shaped brooch that darkens when ordinary rain is near and fades as the air dries.",
     "category": "Armor",
     "tier": "special",
-    "estimatedValue": 260,
+    "estimatedValue": 300,
     "bonuses": [],
     "slot": "Accessories"
   },
@@ -5672,7 +5672,7 @@
     "description": "A tiny enchanted bell that gives a discreet chime when the nearby kettle reaches a boil.",
     "category": "Tool",
     "tier": "special",
-    "estimatedValue": 180,
+    "estimatedValue": 300,
     "bonuses": [],
     "slot": "tool"
   },

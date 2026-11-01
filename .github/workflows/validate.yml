@@ -14,6 +14,7 @@ jobs:
         with:
           node-version: '22'
       - run: python tools/project.py validate
+      - run: python tools/test_validation.py
       - run: python tools/project.py sync --check
       - run: node tools/test_item_mechanics.cjs
       - run: node tools/test_adventurers.cjs

@@ -75,3 +75,5 @@ The accompanying instruction sets starting/base maximum Stamina to 100; the expo
 Preserve all supplied hosted images, voices, coordinates and music. The user removed non-badge item artwork; do not restore it from older exports. Artwork backfill for existing catalogue items remains unverified. The ambiguous needsMediaGeneration toggle is not permission to bulk-enable it.
 
 The public announcement must not disclose this release's Stamina adjustment, alternate framing/camera additions, Default grouping or emoji compatibility work. Those belong in private development notes. Mention Bald, broader creation choices, talents, equipment and minor balance changes as requested.
+
+Studio's 1 November rejection confirms that ability trait requirements still require a numeric `amount`, even though the engine ignores that value for a trait check. Author `amount: 1`. Estimated item prices must be nonnegative whole numbers inside their configured tier range. Portable validation and regression tests now enforce these constraints; do not lower tier boundaries to accommodate an incorrectly priced item.

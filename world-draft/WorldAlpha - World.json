@@ -25548,7 +25548,7 @@
       "description": "A small cloud-shaped brooch that darkens when ordinary rain is near and fades as the air dries.",
       "category": "Armor",
       "tier": "special",
-      "estimatedValue": 260,
+      "estimatedValue": 300,
       "bonuses": [],
       "slot": "Accessories"
     },
@@ -25557,7 +25557,7 @@
       "description": "A tiny enchanted bell that gives a discreet chime when the nearby kettle reaches a boil.",
       "category": "Tool",
       "tier": "special",
-      "estimatedValue": 180,
+      "estimatedValue": 300,
       "bonuses": [],
       "slot": "tool"
     },
@@ -32524,7 +32524,8 @@
       "requirements": [
         {
           "type": "trait",
-          "variable": "Living Index"
+          "variable": "Living Index",
+          "amount": 1
         }
       ]
     },
@@ -32536,7 +32537,8 @@
       "requirements": [
         {
           "type": "trait",
-          "variable": "Trouble in the Air"
+          "variable": "Trouble in the Air",
+          "amount": 1
         }
       ]
     },
@@ -32548,7 +32550,8 @@
       "requirements": [
         {
           "type": "trait",
-          "variable": "First Bell Reflex"
+          "variable": "First Bell Reflex",
+          "amount": 1
         }
       ]
     },
@@ -32560,7 +32563,8 @@
       "requirements": [
         {
           "type": "trait",
-          "variable": "Unmoved Heel"
+          "variable": "Unmoved Heel",
+          "amount": 1
         }
       ]
     },
@@ -32572,7 +32576,8 @@
       "requirements": [
         {
           "type": "trait",
-          "variable": "Duelist's Needle"
+          "variable": "Duelist's Needle",
+          "amount": 1
         }
       ]
     },
@@ -32584,7 +32589,8 @@
       "requirements": [
         {
           "type": "trait",
-          "variable": "Giant's Grip"
+          "variable": "Giant's Grip",
+          "amount": 1
         }
       ]
     },
@@ -32596,7 +32602,8 @@
       "requirements": [
         {
           "type": "trait",
-          "variable": "Wrestler's Sense"
+          "variable": "Wrestler's Sense",
+          "amount": 1
         }
       ]
     },
@@ -32608,7 +32615,8 @@
       "requirements": [
         {
           "type": "trait",
-          "variable": "Longshot Patience"
+          "variable": "Longshot Patience",
+          "amount": 1
         }
       ]
     },
@@ -32620,7 +32628,8 @@
       "requirements": [
         {
           "type": "trait",
-          "variable": "Blueprint Intuition"
+          "variable": "Blueprint Intuition",
+          "amount": 1
         }
       ]
     },
@@ -32632,7 +32641,8 @@
       "requirements": [
         {
           "type": "trait",
-          "variable": "Cinder Familiarity"
+          "variable": "Cinder Familiarity",
+          "amount": 1
         }
       ]
     },
@@ -32644,7 +32654,8 @@
       "requirements": [
         {
           "type": "trait",
-          "variable": "Water Threader"
+          "variable": "Water Threader",
+          "amount": 1
         }
       ]
     },
@@ -32656,7 +32667,8 @@
       "requirements": [
         {
           "type": "trait",
-          "variable": "Listening Stone"
+          "variable": "Listening Stone",
+          "amount": 1
         }
       ]
     },
@@ -32668,7 +32680,8 @@
       "requirements": [
         {
           "type": "trait",
-          "variable": "Wind-Written Gesture"
+          "variable": "Wind-Written Gesture",
+          "amount": 1
         }
       ]
     },
@@ -32680,7 +32693,8 @@
       "requirements": [
         {
           "type": "trait",
-          "variable": "Storm Nerve"
+          "variable": "Storm Nerve",
+          "amount": 1
         }
       ]
     },
@@ -32692,7 +32706,8 @@
       "requirements": [
         {
           "type": "trait",
-          "variable": "Glasswinter Touch"
+          "variable": "Glasswinter Touch",
+          "amount": 1
         }
       ]
     },
@@ -32704,7 +32719,8 @@
       "requirements": [
         {
           "type": "trait",
-          "variable": "Gentle Radiance"
+          "variable": "Gentle Radiance",
+          "amount": 1
         }
       ]
     },
@@ -32716,7 +32732,8 @@
       "requirements": [
         {
           "type": "trait",
-          "variable": "Green-Fingered Wonder"
+          "variable": "Green-Fingered Wonder",
+          "amount": 1
         }
       ]
     },
@@ -32728,7 +32745,8 @@
       "requirements": [
         {
           "type": "trait",
-          "variable": "Veilworker"
+          "variable": "Veilworker",
+          "amount": 1
         }
       ]
     },
@@ -32740,7 +32758,8 @@
       "requirements": [
         {
           "type": "trait",
-          "variable": "Quiet Between Spells"
+          "variable": "Quiet Between Spells",
+          "amount": 1
         }
       ]
     },
@@ -32752,7 +32771,8 @@
       "requirements": [
         {
           "type": "trait",
-          "variable": "Blessing of Steady Hands"
+          "variable": "Blessing of Steady Hands",
+          "amount": 1
         }
       ]
     },
@@ -32764,7 +32784,8 @@
       "requirements": [
         {
           "type": "trait",
-          "variable": "Red Thread Covenant"
+          "variable": "Red Thread Covenant",
+          "amount": 1
         }
       ]
     },
@@ -32776,7 +32797,8 @@
       "requirements": [
         {
           "type": "trait",
-          "variable": "Covenant of the Small Guest"
+          "variable": "Covenant of the Small Guest",
+          "amount": 1
         }
       ]
     },
@@ -32788,7 +32810,8 @@
       "requirements": [
         {
           "type": "trait",
-          "variable": "Soul-Lantern Keeper"
+          "variable": "Soul-Lantern Keeper",
+          "amount": 1
         }
       ]
     },
@@ -32800,7 +32823,8 @@
       "requirements": [
         {
           "type": "trait",
-          "variable": "Hundred-Tool Instinct"
+          "variable": "Hundred-Tool Instinct",
+          "amount": 1
         }
       ]
     }

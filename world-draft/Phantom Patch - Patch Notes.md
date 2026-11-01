@@ -16,3 +16,5 @@ More ways to make your character feel like yours!
 - More weapon families, casting implements and starting equipment choices.
 - Updated location artwork and made minor balance adjustments.
 - Adjusted music selection and guild badge handling to reduce unwanted interruptions and duplicate rewards.
+
+**Hotfix:** Corrected import errors affecting new talent abilities and two item prices.

@@ -121,7 +121,7 @@ for row in definitions():
     abilities=[];ability=row['ability'];name=row['name']
     if ability:
         assert ability['name'] not in w['abilities'],ability['name']
-        record={**ability,'requirements':[dict(type='trait',variable=name)]}
+        record={**ability,'requirements':[dict(type='trait',variable=name,amount=1)]}
         w['abilities'][ability['name']]=record;abilities=[ability['name']]
         manifest['newAbilities'].append(ability['name'])
     t=trait(name,row['description'],row['attributes'],row['skills'],row['resources'],abilities,

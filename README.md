@@ -23,6 +23,7 @@ Python 3.10+ and Node.js 20+ are sufficient. No package install or API key is ne
 python tools/project.py start
 python tools/project.py sync
 python tools/project.py validate
+python tools/test_validation.py
 node tools/test_item_mechanics.cjs
 node tools/test_adventurers.cjs
 node tools/test_creation.cjs

@@ -3,6 +3,7 @@
 import argparse
 import hashlib
 import json
+import math
 import pathlib
 import subprocess
 import sys
@@ -61,8 +62,8 @@ def sync(check=False):
     print(f'Section exports: {len(sections)} checked; {len(stale)} ' + ('stale' if check else 'updated'))
 
 
-def validate():
-    w = load(WORLD)
+def validate(world=None):
+    w = load(WORLD) if world is None else world
     errors, checks = [], 0
 
     def ck(ok, label):
@@ -70,6 +71,24 @@ def validate():
         checks += 1
         if not ok:
             errors.append(label)
+
+    def number(value):
+        return type(value) in (int, float) and math.isfinite(value)
+
+    def requirement(req, trail):
+        if not isinstance(req, dict):
+            ck(False, f'Requirement object: {trail}')
+            return
+        kind = req.get('type')
+        targets = {'trait': w['traits'], 'skill': w['skills'],
+                   'attribute': w['attributeSettings']['attributeNames'],
+                   'resource': w['resourceSettings']}
+        ck(kind in [*targets, 'characterLevel'], f'Requirement type: {trail}')
+        # Studio requires amount even for trait gates, where its value is ignored.
+        ck(number(req.get('amount')), f'Requirement numeric amount: {trail}')
+        if kind in targets:
+            ck(isinstance(req.get('variable'), str) and req['variable'] in targets[kind],
+               f'Requirement reference: {trail}')
 
     for section in ['npcs', 'itemTypes', 'abilities', 'traits', 'triggerDefinitions', 'storyStarts', 'gameModes', 'traitCategories']:
         for key, value in w[section].items():
@@ -105,6 +124,8 @@ def validate():
         for field in ['unlockedBy', 'excludedBy']:
             for key in trait.get(field, []):
                 ck(key in w['traits'] or key in w['storyStarts'], f'Trait gate reference: {name}/{key}')
+        for index, req in enumerate(trait.get('requirements', [])):
+            requirement(req, f'traits/{name}/{index}')
     for name, category in w['traitCategories'].items():
         ck(0 <= category.get('maxSelections', -1) <= 40, f'Creation selection limit: {name}')
         ck(isinstance(category.get('traits'), list), f'Category required traits: {name}')
@@ -114,17 +135,27 @@ def validate():
     for key, item in w['itemTypes'].items():
         ck(item['category'] in w['itemSettings']['itemCategories'], f'Item category: {key}')
         ck(units(item['description']) <= 4000, f'Item description cap: {key}')
+        tier = item.get('tier')
+        if tier is not None:
+            ck(tier in w['itemSettings']['tiers'], f'Item tier reference: {key}/{tier}')
+        if 'estimatedValue' in item:
+            value = item['estimatedValue']
+            valid_value = number(value) and value >= 0 and value == int(value)
+            ck(valid_value, f'Item estimatedValue must be a nonnegative whole number: {key}')
+            bounds = w['itemSettings']['tiers'].get(tier, {}).get('valueRange')
+            if bounds and valid_value:
+                ck(bounds['min'] <= value <= bounds['max'],
+                   f'Item estimatedValue outside {tier} range {bounds["min"]}–{bounds["max"]}: {key} ({value})')
         for bonus in item.get('bonuses', []):
             ck(bonus.get('variable') in refs.get(bonus.get('type'), []), f'Item bonus reference: {key}')
     ck(units(compact(w['itemTypes'])) <= 250000, 'Item collection exceeds 250,000 characters')
     ck(len(w['abilities']) <= 1500, 'Ability count exceeds 1,500')
     for key, ability in w['abilities'].items():
         ck(units(ability['description']) <= 2000, f'Ability description cap: {key}')
-        for req in ability.get('requirements', []):
-            target = {'trait': w['traits'], 'skill': w['skills'],
-                      'attribute': w['attributeSettings']['attributeNames']}.get(req['type'])
-            if target is not None:
-                ck(req['variable'] in target, f'Ability requirement reference: {key}')
+        ck(isinstance(ability.get('requirements'), list), f'Ability required requirements array: {key}')
+        ck(len(ability.get('requirements', [])) <= 10, f'Ability requirement count: {key}')
+        for index, req in enumerate(ability.get('requirements', [])):
+            requirement(req, f'abilities/{key}/{index}')
 
     for name, tr in w['triggerDefinitions'].items():
         ck(len(tr.get('conditions', [])) <= 5 and len(tr.get('effects', [])) <= 10,
@@ -231,6 +262,7 @@ def publish(message):
             raise ValueError('Remote changes need review before publishing. No push or reset performed.')
     sync()
     validate()
+    subprocess.run([sys.executable, str(ROOT / 'tools/test_validation.py')], cwd=ROOT, check=True)
     subprocess.run(['node', str(ROOT / 'tools/test_item_mechanics.cjs')], cwd=ROOT, check=True)
     if (ROOT / 'tools/test_adventurers.cjs').exists():
         subprocess.run(['node', str(ROOT / 'tools/test_adventurers.cjs')], cwd=ROOT, check=True)

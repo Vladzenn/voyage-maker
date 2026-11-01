@@ -187,8 +187,8 @@ ITEMS = [
  ('Pocket Tea Strainer','A small metal tea strainer that folds into a fitted traveling cup.','Tool','tool','mundane',12,None),
  ('Quick-Release Rope Harness','A practical rope harness with clear locking buckles, inspected stitching and an ordinary release tab.','Tool','tool','mundane',40,('skill','athletics',1)),
  ('Foldflat Specimen Basket','A lightweight specimen basket that folds flat when its wooden braces are released.','Tool','tool','mundane',25,None),
- ('Rain-Counting Brooch','A small cloud-shaped brooch that darkens when ordinary rain is near and fades as the air dries.','Armor','Accessories','special',260,None),
- ('Polite Kettle Bell','A tiny enchanted bell that gives a discreet chime when the nearby kettle reaches a boil.','Tool','tool','special',180,None),
+ ('Rain-Counting Brooch','A small cloud-shaped brooch that darkens when ordinary rain is near and fades as the air dries.','Armor','Accessories','special',300,None),
+ ('Polite Kettle Bell','A tiny enchanted bell that gives a discreet chime when the nearby kettle reaches a boil.','Tool','tool','special',300,None),
  ('Sleepless Lantern Moth','A brass lantern shaped like a moth. Its enchanted wings open slowly as the lamp warms, casting patterned shadows.','Tool','tool','special',320,None),
  ('The Unhelpful Compass','A fine brass compass whose enchanted needle persistently points toward the nearest large concentration of sugar.','Tool','tool','special',350,None),
 ]

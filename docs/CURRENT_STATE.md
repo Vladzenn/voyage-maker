@@ -2,6 +2,8 @@
 
 Updated 1 November 2026 after the **Character Creation & Polish** minor patch.
 
+Studio import hotfix: the reported rejection exposed twenty-four missing `amount` fields on talent ability requirements and two Special-tier item prices below the configured minimum. All twenty-four trait requirements now include numeric `amount: 1`; Rain-Counting Brooch and Polite Kettle Bell are priced at 300 marks, inside their existing tier. The builder and portable validator are corrected, with regression tests reconstructing all twenty-six reported errors. No other world content, media, maps or Spider Realm mechanics change. Reimport the refreshed full patch file; local checks do not replace a fresh Studio import.
+
 ## Active world
 
 The canonical full world is `world-draft/WorldAlpha - World.json`. The latest user-supplied Studio export is `b44dcd0f-0fe6-49d9-9b55-34301190d203`. Its thirty-three added location images, sixteen uploaded Adventurers portraits, Marika Hoshino level 30, removed non-badge item art, Permadeath naming, three-level attribute-award interval and other user edits are preserved. Its 80% Stamina rest fraction remains; the accompanying explicit instruction set starting/base maximum Stamina to 100. Derived section files remain synchronized.

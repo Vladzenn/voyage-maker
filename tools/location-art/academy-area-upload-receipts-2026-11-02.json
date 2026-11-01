@@ -1,0 +1,1101 @@
+{
+  "apiBase": "https://api-alpha.aidungeon.com/creator/v1",
+  "worldShortId": "0kL8UR7rgsu2",
+  "contractSHA256": "9fe485dd8ba0fd99811a853cf10caa08cfa73119bf8cbdcab4c6853a8df9a548",
+  "rows": [
+    {
+      "name": "Phoenix Wing Academy - Arrival Court",
+      "kind": "area",
+      "location": "Phoenix Wing Academy",
+      "area": "Phoenix Wing Academy - Arrival Court",
+      "target": "AREA_IMAGE",
+      "replace": false,
+      "file": "R:\\Codex\\Home\\.chatgpt-projects\\g-p-6add53a86cc0819188fd43556c22336b\\world-draft\\location images\\Phoenix Wing Academy\\phoenix-wing-academy-arrival-court-v2.png",
+      "generate": false,
+      "review": "Previously generated, inspected entrance view; never linked in the incoming JSON.",
+      "sha256": "e93b86d6c6093785265c486a7e826595a2e9c5f09ee8f395321fb4c2fe3176a6",
+      "mimeType": "image/png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 3022451,
+      "status": "uploaded",
+      "newUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/a2eb6138-8fcc-4e3e-b591-d7861e3a9c2a.png"
+    },
+    {
+      "name": "Phoenix Wing Academy - Dining Hall",
+      "kind": "area",
+      "location": "Phoenix Wing Academy",
+      "area": "Phoenix Wing Academy - Dining Hall",
+      "target": "AREA_IMAGE",
+      "replace": false,
+      "file": "R:\\Codex\\Home\\.chatgpt-projects\\g-p-6add53a86cc0819188fd43556c22336b\\world-draft\\location images\\Academy and Guild Areas 2026-11-02\\Phoenix Wing Academy - Dining Hall.png",
+      "generate": true,
+      "sha256": "64575fc657de72996c349b247506ea3b01d10343bb0cfe1610b4653909b67f5e",
+      "mimeType": "image/png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 3026236,
+      "status": "uploaded",
+      "newUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/0bc23d56-fb32-449a-91ac-a4e1c2fd6913.png"
+    },
+    {
+      "name": "Phoenix Wing Academy - Faculty Offices",
+      "kind": "area",
+      "location": "Phoenix Wing Academy",
+      "area": "Phoenix Wing Academy - Faculty Offices",
+      "target": "AREA_IMAGE",
+      "replace": false,
+      "file": "R:\\Codex\\Home\\.chatgpt-projects\\g-p-6add53a86cc0819188fd43556c22336b\\world-draft\\location images\\Academy and Guild Areas 2026-11-02\\Phoenix Wing Academy - Faculty Offices.png",
+      "generate": true,
+      "sha256": "0687c66d2495565d813258247f1459dc8ad81d0476481d58a8ecafae0588feac",
+      "mimeType": "image/png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2572592,
+      "status": "uploaded",
+      "newUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/750e5e17-d39c-413b-b4ec-65e35bdad3ad.png"
+    },
+    {
+      "name": "Phoenix Wing Academy - Dormitory Wing",
+      "kind": "area",
+      "location": "Phoenix Wing Academy",
+      "area": "Phoenix Wing Academy - Dormitory Wing",
+      "target": "AREA_IMAGE",
+      "replace": false,
+      "file": "R:\\Codex\\Home\\.chatgpt-projects\\g-p-6add53a86cc0819188fd43556c22336b\\world-draft\\location images\\Academy and Guild Areas 2026-11-02\\Phoenix Wing Academy - Dormitory Wing.png",
+      "generate": true,
+      "sha256": "ef153ef01f224fc78cbe9584a2735db444c0d4b95f9aefda91212c9c2f9f70b6",
+      "mimeType": "image/png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2983270,
+      "status": "uploaded",
+      "newUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/dd860b5e-c0e3-4adf-b47a-fff240a54fb8.png"
+    },
+    {
+      "name": "Phoenix Wing Academy - Sun Terrace",
+      "kind": "area",
+      "location": "Phoenix Wing Academy",
+      "area": "Phoenix Wing Academy - Sun Terrace",
+      "target": "AREA_IMAGE",
+      "replace": false,
+      "file": "R:\\Codex\\Home\\.chatgpt-projects\\g-p-6add53a86cc0819188fd43556c22336b\\world-draft\\location images\\Academy and Guild Areas 2026-11-02\\Phoenix Wing Academy - Sun Terrace.png",
+      "generate": true,
+      "sha256": "28b0030cd80940966526a38cdddeb0a72890b432ed81dcc2f6d0d1453d0dfbda",
+      "mimeType": "image/png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 3144438,
+      "status": "uploaded",
+      "newUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/3ffa4add-e005-4ef7-8841-f7984552318b.png"
+    },
+    {
+      "name": "Phoenix Wing Academy - Music Room",
+      "kind": "area",
+      "location": "Phoenix Wing Academy",
+      "area": "Phoenix Wing Academy - Music Room",
+      "target": "AREA_IMAGE",
+      "replace": false,
+      "file": "R:\\Codex\\Home\\.chatgpt-projects\\g-p-6add53a86cc0819188fd43556c22336b\\world-draft\\location images\\Academy and Guild Areas 2026-11-02\\Phoenix Wing Academy - Music Room.png",
+      "generate": true,
+      "sha256": "47f554a9bfbf912a9263925d1e596773e049f8a1e04a40e56ae2b05dcaccf325",
+      "mimeType": "image/png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2713872,
+      "status": "uploaded",
+      "newUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/3955cd82-18bb-4a62-a5ea-fd198a6b440c.png"
+    },
+    {
+      "name": "Hydra Head Academy - Arrival Court",
+      "kind": "area",
+      "location": "Hydra Head Academy",
+      "area": "Hydra Head Academy - Arrival Court",
+      "target": "AREA_IMAGE",
+      "replace": false,
+      "file": "R:\\Codex\\Home\\.chatgpt-projects\\g-p-6add53a86cc0819188fd43556c22336b\\world-draft\\location images\\Hydra Head Academy\\hydra-head-academy-arrival-court-v2.png",
+      "generate": false,
+      "review": "Previously generated, inspected entrance view; never linked in the incoming JSON.",
+      "sha256": "f86981820512bc8bc35af49daac2bbcc1bcd65b10d3bccc9265ce56b665bc540",
+      "mimeType": "image/png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 3256659,
+      "status": "uploaded",
+      "newUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/fc8bd995-e1cc-4a5f-ba21-6932dd54a800.png"
+    },
+    {
+      "name": "Hydra Head Academy - Dining Hall",
+      "kind": "area",
+      "location": "Hydra Head Academy",
+      "area": "Hydra Head Academy - Dining Hall",
+      "target": "AREA_IMAGE",
+      "replace": false,
+      "file": "R:\\Codex\\Home\\.chatgpt-projects\\g-p-6add53a86cc0819188fd43556c22336b\\world-draft\\location images\\Academy and Guild Areas 2026-11-02\\Hydra Head Academy - Dining Hall.png",
+      "generate": true,
+      "sha256": "363f8d74280d15dc3188fe88ca4818f26b53887b928bcc0586b66974688d385f",
+      "mimeType": "image/png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 3145497,
+      "status": "uploaded",
+      "newUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/85ad153f-4ebd-415d-a744-d5971471cf45.png"
+    },
+    {
+      "name": "Hydra Head Academy - Faculty Offices",
+      "kind": "area",
+      "location": "Hydra Head Academy",
+      "area": "Hydra Head Academy - Faculty Offices",
+      "target": "AREA_IMAGE",
+      "replace": false,
+      "file": "R:\\Codex\\Home\\.chatgpt-projects\\g-p-6add53a86cc0819188fd43556c22336b\\world-draft\\location images\\Academy and Guild Areas 2026-11-02\\Hydra Head Academy - Faculty Offices.png",
+      "generate": true,
+      "sha256": "d086869ffc0b957d1dae7e1f8d389b510ac20b6c34f2a4f2cc42522e99ac5952",
+      "mimeType": "image/png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2681732,
+      "status": "uploaded",
+      "newUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/8d64851c-0cfa-44d6-84d4-9d929fb37752.png"
+    },
+    {
+      "name": "Hydra Head Academy - Dormitory Wing",
+      "kind": "area",
+      "location": "Hydra Head Academy",
+      "area": "Hydra Head Academy - Dormitory Wing",
+      "target": "AREA_IMAGE",
+      "replace": false,
+      "file": "R:\\Codex\\Home\\.chatgpt-projects\\g-p-6add53a86cc0819188fd43556c22336b\\world-draft\\location images\\Academy and Guild Areas 2026-11-02\\Hydra Head Academy - Dormitory Wing.png",
+      "generate": true,
+      "sha256": "ace0395d946266ce67dc4dbe78c02538548e576a2deec6b0c4561e3ec74f3c78",
+      "mimeType": "image/png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2968045,
+      "status": "uploaded",
+      "newUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/9fb7a5b1-d75f-40c0-b998-2e82a55f8bc6.png"
+    },
+    {
+      "name": "Hydra Head Academy - Lecture Hall",
+      "kind": "area",
+      "location": "Hydra Head Academy",
+      "area": "Hydra Head Academy - Lecture Hall",
+      "target": "AREA_IMAGE",
+      "replace": false,
+      "file": "R:\\Codex\\Home\\.chatgpt-projects\\g-p-6add53a86cc0819188fd43556c22336b\\world-draft\\location images\\Academy and Guild Areas 2026-11-02\\Hydra Head Academy - Lecture Hall.png",
+      "generate": true,
+      "sha256": "24046a7d860f4b962ec2eef6170b803bc17c6fd007229010bb9f63bcecd5ef4d",
+      "mimeType": "image/png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2876828,
+      "status": "uploaded",
+      "newUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/18d43190-0a21-4aac-8f88-670693075897.png"
+    },
+    {
+      "name": "Hydra Head Academy - Confluence Pavilion",
+      "kind": "area",
+      "location": "Hydra Head Academy",
+      "area": "Hydra Head Academy - Confluence Pavilion",
+      "target": "AREA_IMAGE",
+      "replace": false,
+      "file": "R:\\Codex\\Home\\.chatgpt-projects\\g-p-6add53a86cc0819188fd43556c22336b\\world-draft\\location images\\Academy and Guild Areas 2026-11-02\\Hydra Head Academy - Confluence Pavilion.png",
+      "generate": true,
+      "sha256": "3845aa5a4d9724e7f0bca9583a6ee2eea9cda98733256af72a630e1c86ba4654",
+      "mimeType": "image/png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 3226607,
+      "status": "uploaded",
+      "newUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/612320ed-0370-4645-b209-5e4a9b574847.png"
+    },
+    {
+      "name": "Gryffin Tail Academy - Arrival Steps",
+      "kind": "area",
+      "location": "Gryffin Tail Academy",
+      "area": "Gryffin Tail Academy - Arrival Steps",
+      "target": "AREA_IMAGE",
+      "replace": false,
+      "file": "R:\\Codex\\Home\\.chatgpt-projects\\g-p-6add53a86cc0819188fd43556c22336b\\world-draft\\location images\\Gryffin Tail Academy\\gryffin-tail-academy-arrival-steps-v2.png",
+      "generate": false,
+      "review": "Previously generated, inspected entrance view; never linked in the incoming JSON.",
+      "sha256": "48645fcf66266fa7f14261d445b910836bebd661c940109ff880f248699526e8",
+      "mimeType": "image/png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2976539,
+      "status": "uploaded",
+      "newUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/eb2e0224-0efd-4b52-93dc-54d57e70033d.png"
+    },
+    {
+      "name": "Gryffin Tail Academy - Dining Hall",
+      "kind": "area",
+      "location": "Gryffin Tail Academy",
+      "area": "Gryffin Tail Academy - Dining Hall",
+      "target": "AREA_IMAGE",
+      "replace": false,
+      "file": "R:\\Codex\\Home\\.chatgpt-projects\\g-p-6add53a86cc0819188fd43556c22336b\\world-draft\\location images\\Academy and Guild Areas 2026-11-02\\Gryffin Tail Academy - Dining Hall.png",
+      "generate": true,
+      "sha256": "d85ca722d7b2d87941e69dcef9d12d7cb9b75e4fddb203cf578c5450a97d068f",
+      "mimeType": "image/png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 3031879,
+      "status": "uploaded",
+      "newUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/40626178-fe93-4625-90f2-afd8db8fdc9e.png"
+    },
+    {
+      "name": "Gryffin Tail Academy - Faculty Offices",
+      "kind": "area",
+      "location": "Gryffin Tail Academy",
+      "area": "Gryffin Tail Academy - Faculty Offices",
+      "target": "AREA_IMAGE",
+      "replace": false,
+      "file": "R:\\Codex\\Home\\.chatgpt-projects\\g-p-6add53a86cc0819188fd43556c22336b\\world-draft\\location images\\Academy and Guild Areas 2026-11-02\\Gryffin Tail Academy - Faculty Offices.png",
+      "generate": true,
+      "sha256": "5c94f1b112dbca7c2ba5fbf9e14d96aa3370e4872c5b722113a098456723da33",
+      "mimeType": "image/png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2769227,
+      "status": "uploaded",
+      "newUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/abeefa4e-b69c-4f89-a2d4-9eb67b12b7af.png"
+    },
+    {
+      "name": "Gryffin Tail Academy - Dormitory Wing",
+      "kind": "area",
+      "location": "Gryffin Tail Academy",
+      "area": "Gryffin Tail Academy - Dormitory Wing",
+      "target": "AREA_IMAGE",
+      "replace": false,
+      "file": "R:\\Codex\\Home\\.chatgpt-projects\\g-p-6add53a86cc0819188fd43556c22336b\\world-draft\\location images\\Academy and Guild Areas 2026-11-02\\Gryffin Tail Academy - Dormitory Wing.png",
+      "generate": true,
+      "sha256": "b9d8b105512762854032778202caca72dfb8c4cbc9b9cbf8f605e4a3318b0111",
+      "mimeType": "image/png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2885850,
+      "status": "uploaded",
+      "newUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/a5f51391-9b63-46ef-aa60-4f654becdc46.png"
+    },
+    {
+      "name": "Gryffin Tail Academy - Training Court",
+      "kind": "area",
+      "location": "Gryffin Tail Academy",
+      "area": "Gryffin Tail Academy - Training Court",
+      "target": "AREA_IMAGE",
+      "replace": false,
+      "file": "R:\\Codex\\Home\\.chatgpt-projects\\g-p-6add53a86cc0819188fd43556c22336b\\world-draft\\location images\\Academy and Guild Areas 2026-11-02\\Gryffin Tail Academy - Training Court.png",
+      "generate": true,
+      "sha256": "4b45bb0612b4883ce3112c3209ab0485be951ad18241147583e17b1c63e7f8c8",
+      "mimeType": "image/png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 3137791,
+      "status": "uploaded",
+      "newUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/fc9be961-55b9-4e99-994f-b9b04b40181c.png"
+    },
+    {
+      "name": "Gryffin Tail Academy - Puzzle Parlor",
+      "kind": "area",
+      "location": "Gryffin Tail Academy",
+      "area": "Gryffin Tail Academy - Puzzle Parlor",
+      "target": "AREA_IMAGE",
+      "replace": false,
+      "file": "R:\\Codex\\Home\\.chatgpt-projects\\g-p-6add53a86cc0819188fd43556c22336b\\world-draft\\location images\\Academy and Guild Areas 2026-11-02\\Gryffin Tail Academy - Puzzle Parlor.png",
+      "generate": true,
+      "sha256": "3ba00dbdcb8b843acbb286ed58667cded3f746909d537d1b4319370e193c5446",
+      "mimeType": "image/png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2957819,
+      "status": "uploaded",
+      "newUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/88488c7d-8585-409c-9fdf-5391a2a7e74a.png"
+    },
+    {
+      "name": "Dragon Hoard Academy - Arrival Gallery",
+      "kind": "area",
+      "location": "Dragon Hoard Academy",
+      "area": "Dragon Hoard Academy - Arrival Gallery",
+      "target": "AREA_IMAGE",
+      "replace": false,
+      "file": "R:\\Codex\\Home\\.chatgpt-projects\\g-p-6add53a86cc0819188fd43556c22336b\\world-draft\\location images\\Dragon Hoard Academy\\dragon-hoard-academy-arrival-gallery-v2.png",
+      "generate": false,
+      "review": "Previously generated, inspected entrance view; never linked in the incoming JSON.",
+      "sha256": "4ee1d7afe5334c39e9cc7c76dd6da055a0b406ad67ec82688ca54926dbda27c8",
+      "mimeType": "image/png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2978908,
+      "status": "uploaded",
+      "newUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/ed867fa9-19cf-4e36-ab50-20513cedfbdb.png"
+    },
+    {
+      "name": "Dragon Hoard Academy - Dining Hall",
+      "kind": "area",
+      "location": "Dragon Hoard Academy",
+      "area": "Dragon Hoard Academy - Dining Hall",
+      "target": "AREA_IMAGE",
+      "replace": false,
+      "file": "R:\\Codex\\Home\\.chatgpt-projects\\g-p-6add53a86cc0819188fd43556c22336b\\world-draft\\location images\\Academy and Guild Areas 2026-11-02\\Dragon Hoard Academy - Dining Hall.png",
+      "generate": true,
+      "sha256": "eef827add7506c88b2aa702550a24921af576faf9bdb68150280b4d54543bed9",
+      "mimeType": "image/png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2903495,
+      "status": "uploaded",
+      "newUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/bef1d38e-e18e-439f-a1ad-b36e3aa8cefc.png"
+    },
+    {
+      "name": "Dragon Hoard Academy - Faculty Offices",
+      "kind": "area",
+      "location": "Dragon Hoard Academy",
+      "area": "Dragon Hoard Academy - Faculty Offices",
+      "target": "AREA_IMAGE",
+      "replace": false,
+      "file": "R:\\Codex\\Home\\.chatgpt-projects\\g-p-6add53a86cc0819188fd43556c22336b\\world-draft\\location images\\Academy and Guild Areas 2026-11-02\\Dragon Hoard Academy - Faculty Offices.png",
+      "generate": true,
+      "sha256": "445b78ac41fb6bcd4dff0f664445468c27dfd9a03a1d2d9d265783fdc2473126",
+      "mimeType": "image/png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2703695,
+      "status": "uploaded",
+      "newUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/e26c645a-825b-41ff-a5d3-2c828097b5f3.png"
+    },
+    {
+      "name": "Dragon Hoard Academy - Dormitory Wing",
+      "kind": "area",
+      "location": "Dragon Hoard Academy",
+      "area": "Dragon Hoard Academy - Dormitory Wing",
+      "target": "AREA_IMAGE",
+      "replace": false,
+      "file": "R:\\Codex\\Home\\.chatgpt-projects\\g-p-6add53a86cc0819188fd43556c22336b\\world-draft\\location images\\Academy and Guild Areas 2026-11-02\\Dragon Hoard Academy - Dormitory Wing.png",
+      "generate": true,
+      "sha256": "ba527321b7e92202f17dd509185256da0afea93421d78f83b1f4c2980fac2bec",
+      "mimeType": "image/png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2934134,
+      "status": "uploaded",
+      "newUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/e004e112-bf0b-400d-9034-81a19a2be037.png"
+    },
+    {
+      "name": "Dragon Hoard Academy - Training Court",
+      "kind": "area",
+      "location": "Dragon Hoard Academy",
+      "area": "Dragon Hoard Academy - Training Court",
+      "target": "AREA_IMAGE",
+      "replace": false,
+      "file": "R:\\Codex\\Home\\.chatgpt-projects\\g-p-6add53a86cc0819188fd43556c22336b\\world-draft\\location images\\Academy and Guild Areas 2026-11-02\\Dragon Hoard Academy - Training Court.png",
+      "generate": true,
+      "sha256": "b278d29a39f035ed0474de6e4d2e8b86175786766bd2fe2e469ec4309564cc5a",
+      "mimeType": "image/png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 3193248,
+      "status": "uploaded",
+      "newUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/052cef43-e20f-417d-b052-8d2fb789cd36.png"
+    },
+    {
+      "name": "Dragon Hoard Academy - Lecture Hall",
+      "kind": "area",
+      "location": "Dragon Hoard Academy",
+      "area": "Dragon Hoard Academy - Lecture Hall",
+      "target": "AREA_IMAGE",
+      "replace": false,
+      "file": "R:\\Codex\\Home\\.chatgpt-projects\\g-p-6add53a86cc0819188fd43556c22336b\\world-draft\\location images\\Academy and Guild Areas 2026-11-02\\Dragon Hoard Academy - Lecture Hall.png",
+      "generate": true,
+      "sha256": "b31419028f170f7c4382290d92f3d320e605fd65b81a035dfb4280c077be8c46",
+      "mimeType": "image/png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2871798,
+      "status": "uploaded",
+      "newUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/fc650d8a-92db-448c-b510-52d1dfc0aabc.png"
+    },
+    {
+      "name": "Adventurer's Guild - Glowhaven Branch - Reception Counter",
+      "kind": "area",
+      "location": "Adventurer's Guild - Glowhaven Branch",
+      "area": "Adventurer's Guild - Glowhaven Branch - Reception Counter",
+      "target": "AREA_IMAGE",
+      "replace": false,
+      "file": "R:\\Codex\\Home\\.chatgpt-projects\\g-p-6add53a86cc0819188fd43556c22336b\\world-draft\\location images\\Academy and Guild Areas 2026-11-02\\Adventurer's Guild - Glowhaven Branch - Reception Counter.png",
+      "generate": true,
+      "sha256": "f3f635c74dc2fca6b760a6cc30534f100dfb643a12b19ec02fc48cb570d2cac1",
+      "mimeType": "image/png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2929040,
+      "status": "uploaded",
+      "newUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/1bbdb62f-df51-4404-85cb-f26be516b996.png"
+    },
+    {
+      "name": "Adventurer's Guild - Glowhaven Branch - Request Board",
+      "kind": "area",
+      "location": "Adventurer's Guild - Glowhaven Branch",
+      "area": "Adventurer's Guild - Glowhaven Branch - Request Board",
+      "target": "AREA_IMAGE",
+      "replace": false,
+      "file": "R:\\Codex\\Home\\.chatgpt-projects\\g-p-6add53a86cc0819188fd43556c22336b\\world-draft\\location images\\Academy and Guild Areas 2026-11-02\\Adventurer's Guild - Glowhaven Branch - Request Board.png",
+      "generate": true,
+      "sha256": "20a45a49eb3557dcf360bb1a10aaddbb334f20be8589c4cf4ea5619b4d98f985",
+      "mimeType": "image/png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2876689,
+      "status": "uploaded",
+      "newUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/21264c72-4a63-4416-a70e-46b85eb2fa3c.png"
+    },
+    {
+      "name": "Adventurer's Guild - Glowhaven Branch - Common Hall",
+      "kind": "area",
+      "location": "Adventurer's Guild - Glowhaven Branch",
+      "area": "Adventurer's Guild - Glowhaven Branch - Common Hall",
+      "target": "AREA_IMAGE",
+      "replace": false,
+      "file": "R:\\Codex\\Home\\.chatgpt-projects\\g-p-6add53a86cc0819188fd43556c22336b\\world-draft\\location images\\Academy and Guild Areas 2026-11-02\\Adventurer's Guild - Glowhaven Branch - Common Hall.png",
+      "generate": true,
+      "sha256": "a9cf2c073541581a5f7aa21e5b4f7864a36382da142fc1070ba7b300ae547fd6",
+      "mimeType": "image/png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2883153,
+      "status": "uploaded",
+      "newUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/ea7a9365-5950-406d-83da-929b687b864e.png"
+    },
+    {
+      "name": "Adventurer's Guild - Glowhaven Branch - Appraisal Bench",
+      "kind": "area",
+      "location": "Adventurer's Guild - Glowhaven Branch",
+      "area": "Adventurer's Guild - Glowhaven Branch - Appraisal Bench",
+      "target": "AREA_IMAGE",
+      "replace": false,
+      "file": "R:\\Codex\\Home\\.chatgpt-projects\\g-p-6add53a86cc0819188fd43556c22336b\\world-draft\\location images\\Academy and Guild Areas 2026-11-02\\Adventurer's Guild - Glowhaven Branch - Appraisal Bench.png",
+      "generate": true,
+      "sha256": "147563e31247aedd1e737dfc567cde175bf5fc7282f91e5733d2576e5162dba6",
+      "mimeType": "image/png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2534048,
+      "status": "uploaded",
+      "newUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/13e8070e-9b1e-431d-9261-b9d1fe0681ff.png"
+    },
+    {
+      "name": "Adventurer's Guild - Glowhaven Branch - Briefing Room",
+      "kind": "area",
+      "location": "Adventurer's Guild - Glowhaven Branch",
+      "area": "Adventurer's Guild - Glowhaven Branch - Briefing Room",
+      "target": "AREA_IMAGE",
+      "replace": false,
+      "file": "R:\\Codex\\Home\\.chatgpt-projects\\g-p-6add53a86cc0819188fd43556c22336b\\world-draft\\location images\\Academy and Guild Areas 2026-11-02\\Adventurer's Guild - Glowhaven Branch - Briefing Room.png",
+      "generate": true,
+      "sha256": "0d2b5d26720c28315bcd27a6e5e57546a986b182d099946f04d4e78eb9f22a51",
+      "mimeType": "image/png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2700430,
+      "status": "uploaded",
+      "newUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/cbec7588-895f-4010-b63a-6678afbc62e1.png"
+    },
+    {
+      "name": "Adventurer's Guild - Glowhaven Branch - Training Yard",
+      "kind": "area",
+      "location": "Adventurer's Guild - Glowhaven Branch",
+      "area": "Adventurer's Guild - Glowhaven Branch - Training Yard",
+      "target": "AREA_IMAGE",
+      "replace": false,
+      "file": "R:\\Codex\\Home\\.chatgpt-projects\\g-p-6add53a86cc0819188fd43556c22336b\\world-draft\\location images\\Academy and Guild Areas 2026-11-02\\Adventurer's Guild - Glowhaven Branch - Training Yard.png",
+      "generate": true,
+      "sha256": "1d15dae66297704662ad12b14f78738b9204c9b2d1fd66a5c9f0ce7b9d1947f8",
+      "mimeType": "image/png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 3108171,
+      "status": "uploaded",
+      "newUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/c05734f3-01f3-4cc3-9368-c21ea2f037b5.png"
+    },
+    {
+      "name": "Adventurer's Guild - Glowhaven Branch - Staff Office",
+      "kind": "area",
+      "location": "Adventurer's Guild - Glowhaven Branch",
+      "area": "Adventurer's Guild - Glowhaven Branch - Staff Office",
+      "target": "AREA_IMAGE",
+      "replace": false,
+      "file": "R:\\Codex\\Home\\.chatgpt-projects\\g-p-6add53a86cc0819188fd43556c22336b\\world-draft\\location images\\Academy and Guild Areas 2026-11-02\\Adventurer's Guild - Glowhaven Branch - Staff Office.png",
+      "generate": true,
+      "sha256": "bacb00241e6796747dd8f564ed40a33ac5760af598f1d6f165e37759842e7f17",
+      "mimeType": "image/png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2646691,
+      "status": "uploaded",
+      "newUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/e9997a04-1819-41a7-af67-a52fc4888ccb.png"
+    },
+    {
+      "name": "Evertree Base - Portal Room",
+      "kind": "area",
+      "location": "Evertree Base",
+      "area": "Evertree Base - Portal Room",
+      "target": "AREA_IMAGE",
+      "replace": false,
+      "file": "R:\\Codex\\Home\\.chatgpt-projects\\g-p-6add53a86cc0819188fd43556c22336b\\world-draft\\location images\\Academy and Guild Areas 2026-11-02\\Evertree Base - Portal Room.png",
+      "generate": true,
+      "sha256": "7b92e16450e4bfe749a487c1eb28e6b3bfadb2b45920b4142e5b54d87d8e3219",
+      "mimeType": "image/png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 3202067,
+      "status": "uploaded",
+      "newUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/6e4a9b98-fc73-41fd-acc1-daa96d9f090b.png"
+    },
+    {
+      "name": "Sepulchral Portal House",
+      "kind": "location",
+      "location": "Sepulchral Portal House",
+      "target": "LOCATION_IMAGE",
+      "replace": true,
+      "generate": false,
+      "file": "R:\\Codex\\Home\\.chatgpt-projects\\g-p-6add53a86cc0819188fd43556c22336b\\world-draft\\location images\\Sepulchral Portal House.png",
+      "review": "Explicitly requested official reupload of the recent location image; preserve existing crop.",
+      "sha256": "29eed7972639e220d179a00ad12537ec59039aa6086b9fc1ba525a65008945d8",
+      "mimeType": "image/png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 3396276,
+      "status": "uploaded",
+      "newUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/b004297a-9331-4a87-8b37-bb10559ecb94.png"
+    },
+    {
+      "name": "Sepulchral Conservatory",
+      "kind": "location",
+      "location": "Sepulchral Conservatory",
+      "target": "LOCATION_IMAGE",
+      "replace": true,
+      "generate": false,
+      "file": "R:\\Codex\\Home\\.chatgpt-projects\\g-p-6add53a86cc0819188fd43556c22336b\\world-draft\\location images\\Sepulchral Conservatory.png",
+      "review": "Explicitly requested official reupload of the recent location image; preserve existing crop.",
+      "sha256": "422673a22f82519444e0619d859ff4af45ea9e54ba199fc1439837962539beb6",
+      "mimeType": "image/png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 3901120,
+      "status": "uploaded",
+      "newUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/803217b1-14dc-4a29-86ba-1c55fbe30a7c.png"
+    },
+    {
+      "name": "Mourning Garden",
+      "kind": "location",
+      "location": "Mourning Garden",
+      "target": "LOCATION_IMAGE",
+      "replace": true,
+      "generate": false,
+      "file": "R:\\Codex\\Home\\.chatgpt-projects\\g-p-6add53a86cc0819188fd43556c22336b\\world-draft\\location images\\Mourning Garden.png",
+      "review": "Explicitly requested official reupload of the recent location image; preserve existing crop.",
+      "sha256": "d2a73c277d5118188f4884162d6e9641bcc1f23a98d9f9b4e3ee54a8a1f59c76",
+      "mimeType": "image/png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 3969659,
+      "status": "uploaded",
+      "newUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/bb062461-c185-4aed-b5f4-2aa93cbb7362.png"
+    }
+  ],
+  "diff": [
+    {
+      "path": [
+        "locations",
+        "Phoenix Wing Academy",
+        "areas",
+        "Phoenix Wing Academy - Arrival Court",
+        "images",
+        "establishingShot",
+        "imageUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/a2eb6138-8fcc-4e3e-b591-d7861e3a9c2a.png",
+      "fileSHA256": "e93b86d6c6093785265c486a7e826595a2e9c5f09ee8f395321fb4c2fe3176a6"
+    },
+    {
+      "path": [
+        "locations",
+        "Phoenix Wing Academy",
+        "areas",
+        "Phoenix Wing Academy - Dining Hall",
+        "images",
+        "establishingShot",
+        "imageUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/0bc23d56-fb32-449a-91ac-a4e1c2fd6913.png",
+      "fileSHA256": "64575fc657de72996c349b247506ea3b01d10343bb0cfe1610b4653909b67f5e"
+    },
+    {
+      "path": [
+        "locations",
+        "Phoenix Wing Academy",
+        "areas",
+        "Phoenix Wing Academy - Faculty Offices",
+        "images",
+        "establishingShot",
+        "imageUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/750e5e17-d39c-413b-b4ec-65e35bdad3ad.png",
+      "fileSHA256": "0687c66d2495565d813258247f1459dc8ad81d0476481d58a8ecafae0588feac"
+    },
+    {
+      "path": [
+        "locations",
+        "Phoenix Wing Academy",
+        "areas",
+        "Phoenix Wing Academy - Dormitory Wing",
+        "images",
+        "establishingShot",
+        "imageUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/dd860b5e-c0e3-4adf-b47a-fff240a54fb8.png",
+      "fileSHA256": "ef153ef01f224fc78cbe9584a2735db444c0d4b95f9aefda91212c9c2f9f70b6"
+    },
+    {
+      "path": [
+        "locations",
+        "Phoenix Wing Academy",
+        "areas",
+        "Phoenix Wing Academy - Sun Terrace",
+        "images",
+        "establishingShot",
+        "imageUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/3ffa4add-e005-4ef7-8841-f7984552318b.png",
+      "fileSHA256": "28b0030cd80940966526a38cdddeb0a72890b432ed81dcc2f6d0d1453d0dfbda"
+    },
+    {
+      "path": [
+        "locations",
+        "Phoenix Wing Academy",
+        "areas",
+        "Phoenix Wing Academy - Music Room",
+        "images",
+        "establishingShot",
+        "imageUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/3955cd82-18bb-4a62-a5ea-fd198a6b440c.png",
+      "fileSHA256": "47f554a9bfbf912a9263925d1e596773e049f8a1e04a40e56ae2b05dcaccf325"
+    },
+    {
+      "path": [
+        "locations",
+        "Hydra Head Academy",
+        "areas",
+        "Hydra Head Academy - Arrival Court",
+        "images",
+        "establishingShot",
+        "imageUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/fc8bd995-e1cc-4a5f-ba21-6932dd54a800.png",
+      "fileSHA256": "f86981820512bc8bc35af49daac2bbcc1bcd65b10d3bccc9265ce56b665bc540"
+    },
+    {
+      "path": [
+        "locations",
+        "Hydra Head Academy",
+        "areas",
+        "Hydra Head Academy - Dining Hall",
+        "images",
+        "establishingShot",
+        "imageUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/85ad153f-4ebd-415d-a744-d5971471cf45.png",
+      "fileSHA256": "363f8d74280d15dc3188fe88ca4818f26b53887b928bcc0586b66974688d385f"
+    },
+    {
+      "path": [
+        "locations",
+        "Hydra Head Academy",
+        "areas",
+        "Hydra Head Academy - Faculty Offices",
+        "images",
+        "establishingShot",
+        "imageUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/8d64851c-0cfa-44d6-84d4-9d929fb37752.png",
+      "fileSHA256": "d086869ffc0b957d1dae7e1f8d389b510ac20b6c34f2a4f2cc42522e99ac5952"
+    },
+    {
+      "path": [
+        "locations",
+        "Hydra Head Academy",
+        "areas",
+        "Hydra Head Academy - Dormitory Wing",
+        "images",
+        "establishingShot",
+        "imageUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/9fb7a5b1-d75f-40c0-b998-2e82a55f8bc6.png",
+      "fileSHA256": "ace0395d946266ce67dc4dbe78c02538548e576a2deec6b0c4561e3ec74f3c78"
+    },
+    {
+      "path": [
+        "locations",
+        "Hydra Head Academy",
+        "areas",
+        "Hydra Head Academy - Lecture Hall",
+        "images",
+        "establishingShot",
+        "imageUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/18d43190-0a21-4aac-8f88-670693075897.png",
+      "fileSHA256": "24046a7d860f4b962ec2eef6170b803bc17c6fd007229010bb9f63bcecd5ef4d"
+    },
+    {
+      "path": [
+        "locations",
+        "Hydra Head Academy",
+        "areas",
+        "Hydra Head Academy - Confluence Pavilion",
+        "images",
+        "establishingShot",
+        "imageUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/612320ed-0370-4645-b209-5e4a9b574847.png",
+      "fileSHA256": "3845aa5a4d9724e7f0bca9583a6ee2eea9cda98733256af72a630e1c86ba4654"
+    },
+    {
+      "path": [
+        "locations",
+        "Gryffin Tail Academy",
+        "areas",
+        "Gryffin Tail Academy - Arrival Steps",
+        "images",
+        "establishingShot",
+        "imageUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/eb2e0224-0efd-4b52-93dc-54d57e70033d.png",
+      "fileSHA256": "48645fcf66266fa7f14261d445b910836bebd661c940109ff880f248699526e8"
+    },
+    {
+      "path": [
+        "locations",
+        "Gryffin Tail Academy",
+        "areas",
+        "Gryffin Tail Academy - Dining Hall",
+        "images",
+        "establishingShot",
+        "imageUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/40626178-fe93-4625-90f2-afd8db8fdc9e.png",
+      "fileSHA256": "d85ca722d7b2d87941e69dcef9d12d7cb9b75e4fddb203cf578c5450a97d068f"
+    },
+    {
+      "path": [
+        "locations",
+        "Gryffin Tail Academy",
+        "areas",
+        "Gryffin Tail Academy - Faculty Offices",
+        "images",
+        "establishingShot",
+        "imageUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/abeefa4e-b69c-4f89-a2d4-9eb67b12b7af.png",
+      "fileSHA256": "5c94f1b112dbca7c2ba5fbf9e14d96aa3370e4872c5b722113a098456723da33"
+    },
+    {
+      "path": [
+        "locations",
+        "Gryffin Tail Academy",
+        "areas",
+        "Gryffin Tail Academy - Dormitory Wing",
+        "images",
+        "establishingShot",
+        "imageUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/a5f51391-9b63-46ef-aa60-4f654becdc46.png",
+      "fileSHA256": "b9d8b105512762854032778202caca72dfb8c4cbc9b9cbf8f605e4a3318b0111"
+    },
+    {
+      "path": [
+        "locations",
+        "Gryffin Tail Academy",
+        "areas",
+        "Gryffin Tail Academy - Training Court",
+        "images",
+        "establishingShot",
+        "imageUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/fc9be961-55b9-4e99-994f-b9b04b40181c.png",
+      "fileSHA256": "4b45bb0612b4883ce3112c3209ab0485be951ad18241147583e17b1c63e7f8c8"
+    },
+    {
+      "path": [
+        "locations",
+        "Gryffin Tail Academy",
+        "areas",
+        "Gryffin Tail Academy - Puzzle Parlor",
+        "images",
+        "establishingShot",
+        "imageUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/88488c7d-8585-409c-9fdf-5391a2a7e74a.png",
+      "fileSHA256": "3ba00dbdcb8b843acbb286ed58667cded3f746909d537d1b4319370e193c5446"
+    },
+    {
+      "path": [
+        "locations",
+        "Dragon Hoard Academy",
+        "areas",
+        "Dragon Hoard Academy - Arrival Gallery",
+        "images",
+        "establishingShot",
+        "imageUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/ed867fa9-19cf-4e36-ab50-20513cedfbdb.png",
+      "fileSHA256": "4ee1d7afe5334c39e9cc7c76dd6da055a0b406ad67ec82688ca54926dbda27c8"
+    },
+    {
+      "path": [
+        "locations",
+        "Dragon Hoard Academy",
+        "areas",
+        "Dragon Hoard Academy - Dining Hall",
+        "images",
+        "establishingShot",
+        "imageUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/bef1d38e-e18e-439f-a1ad-b36e3aa8cefc.png",
+      "fileSHA256": "eef827add7506c88b2aa702550a24921af576faf9bdb68150280b4d54543bed9"
+    },
+    {
+      "path": [
+        "locations",
+        "Dragon Hoard Academy",
+        "areas",
+        "Dragon Hoard Academy - Faculty Offices",
+        "images",
+        "establishingShot",
+        "imageUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/e26c645a-825b-41ff-a5d3-2c828097b5f3.png",
+      "fileSHA256": "445b78ac41fb6bcd4dff0f664445468c27dfd9a03a1d2d9d265783fdc2473126"
+    },
+    {
+      "path": [
+        "locations",
+        "Dragon Hoard Academy",
+        "areas",
+        "Dragon Hoard Academy - Dormitory Wing",
+        "images",
+        "establishingShot",
+        "imageUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/e004e112-bf0b-400d-9034-81a19a2be037.png",
+      "fileSHA256": "ba527321b7e92202f17dd509185256da0afea93421d78f83b1f4c2980fac2bec"
+    },
+    {
+      "path": [
+        "locations",
+        "Dragon Hoard Academy",
+        "areas",
+        "Dragon Hoard Academy - Training Court",
+        "images",
+        "establishingShot",
+        "imageUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/052cef43-e20f-417d-b052-8d2fb789cd36.png",
+      "fileSHA256": "b278d29a39f035ed0474de6e4d2e8b86175786766bd2fe2e469ec4309564cc5a"
+    },
+    {
+      "path": [
+        "locations",
+        "Dragon Hoard Academy",
+        "areas",
+        "Dragon Hoard Academy - Lecture Hall",
+        "images",
+        "establishingShot",
+        "imageUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/fc650d8a-92db-448c-b510-52d1dfc0aabc.png",
+      "fileSHA256": "b31419028f170f7c4382290d92f3d320e605fd65b81a035dfb4280c077be8c46"
+    },
+    {
+      "path": [
+        "locations",
+        "Adventurer's Guild - Glowhaven Branch",
+        "areas",
+        "Adventurer's Guild - Glowhaven Branch - Reception Counter",
+        "images",
+        "establishingShot",
+        "imageUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/1bbdb62f-df51-4404-85cb-f26be516b996.png",
+      "fileSHA256": "f3f635c74dc2fca6b760a6cc30534f100dfb643a12b19ec02fc48cb570d2cac1"
+    },
+    {
+      "path": [
+        "locations",
+        "Adventurer's Guild - Glowhaven Branch",
+        "areas",
+        "Adventurer's Guild - Glowhaven Branch - Request Board",
+        "images",
+        "establishingShot",
+        "imageUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/21264c72-4a63-4416-a70e-46b85eb2fa3c.png",
+      "fileSHA256": "20a45a49eb3557dcf360bb1a10aaddbb334f20be8589c4cf4ea5619b4d98f985"
+    },
+    {
+      "path": [
+        "locations",
+        "Adventurer's Guild - Glowhaven Branch",
+        "areas",
+        "Adventurer's Guild - Glowhaven Branch - Common Hall",
+        "images",
+        "establishingShot",
+        "imageUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/ea7a9365-5950-406d-83da-929b687b864e.png",
+      "fileSHA256": "a9cf2c073541581a5f7aa21e5b4f7864a36382da142fc1070ba7b300ae547fd6"
+    },
+    {
+      "path": [
+        "locations",
+        "Adventurer's Guild - Glowhaven Branch",
+        "areas",
+        "Adventurer's Guild - Glowhaven Branch - Appraisal Bench",
+        "images",
+        "establishingShot",
+        "imageUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/13e8070e-9b1e-431d-9261-b9d1fe0681ff.png",
+      "fileSHA256": "147563e31247aedd1e737dfc567cde175bf5fc7282f91e5733d2576e5162dba6"
+    },
+    {
+      "path": [
+        "locations",
+        "Adventurer's Guild - Glowhaven Branch",
+        "areas",
+        "Adventurer's Guild - Glowhaven Branch - Briefing Room",
+        "images",
+        "establishingShot",
+        "imageUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/cbec7588-895f-4010-b63a-6678afbc62e1.png",
+      "fileSHA256": "0d2b5d26720c28315bcd27a6e5e57546a986b182d099946f04d4e78eb9f22a51"
+    },
+    {
+      "path": [
+        "locations",
+        "Adventurer's Guild - Glowhaven Branch",
+        "areas",
+        "Adventurer's Guild - Glowhaven Branch - Training Yard",
+        "images",
+        "establishingShot",
+        "imageUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/c05734f3-01f3-4cc3-9368-c21ea2f037b5.png",
+      "fileSHA256": "1d15dae66297704662ad12b14f78738b9204c9b2d1fd66a5c9f0ce7b9d1947f8"
+    },
+    {
+      "path": [
+        "locations",
+        "Adventurer's Guild - Glowhaven Branch",
+        "areas",
+        "Adventurer's Guild - Glowhaven Branch - Staff Office",
+        "images",
+        "establishingShot",
+        "imageUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/e9997a04-1819-41a7-af67-a52fc4888ccb.png",
+      "fileSHA256": "bacb00241e6796747dd8f564ed40a33ac5760af598f1d6f165e37759842e7f17"
+    },
+    {
+      "path": [
+        "locations",
+        "Evertree Base",
+        "areas",
+        "Evertree Base - Portal Room",
+        "images",
+        "establishingShot",
+        "imageUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/6e4a9b98-fc73-41fd-acc1-daa96d9f090b.png",
+      "fileSHA256": "7b92e16450e4bfe749a487c1eb28e6b3bfadb2b45920b4142e5b54d87d8e3219"
+    },
+    {
+      "path": [
+        "locations",
+        "Sepulchral Portal House",
+        "images",
+        "establishingShot",
+        "imageUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/b004297a-9331-4a87-8b37-bb10559ecb94.png",
+      "fileSHA256": "29eed7972639e220d179a00ad12537ec59039aa6086b9fc1ba525a65008945d8"
+    },
+    {
+      "path": [
+        "locations",
+        "Sepulchral Conservatory",
+        "images",
+        "establishingShot",
+        "imageUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/803217b1-14dc-4a29-86ba-1c55fbe30a7c.png",
+      "fileSHA256": "422673a22f82519444e0619d859ff4af45ea9e54ba199fc1439837962539beb6"
+    },
+    {
+      "path": [
+        "locations",
+        "Mourning Garden",
+        "images",
+        "establishingShot",
+        "imageUrl"
+      ],
+      "before": null,
+      "after": "https://images.aidungeon.com/user_content/15213280/images/uploads/bb062461-c185-4aed-b5f4-2aa93cbb7362.png",
+      "fileSHA256": "d2a73c277d5118188f4884162d6e9641bcc1f23a98d9f9b4e3ee54a8a1f59c76"
+    }
+  ],
+  "remoteValidation": {
+    "data": {
+      "errors": [],
+      "stage": "draft",
+      "valid": true,
+      "warnings": []
+    },
+    "requestId": "60c372e3-3b26-4ae7-8ecf-44ffc6da49b0"
+  }
+}

@@ -2150,6 +2150,146 @@
       "size": 4136134,
       "sha256": "752a0f2d546c228f4eb9d93e8ae86c3f8e800eb1345abb6eac69bcf2984156c9",
       "mtimeNs": 1793546868355984400
+    },
+    "world-draft/location images/Academy and Guild Areas 2026-11-02/Adventurer's Guild - Glowhaven Branch - Appraisal Bench.png": {
+      "size": 2534048,
+      "sha256": "147563e31247aedd1e737dfc567cde175bf5fc7282f91e5733d2576e5162dba6",
+      "mtimeNs": 1793561027939934300
+    },
+    "world-draft/location images/Academy and Guild Areas 2026-11-02/Adventurer's Guild - Glowhaven Branch - Briefing Room.png": {
+      "size": 2700430,
+      "sha256": "0d2b5d26720c28315bcd27a6e5e57546a986b182d099946f04d4e78eb9f22a51",
+      "mtimeNs": 1793560912821205300
+    },
+    "world-draft/location images/Academy and Guild Areas 2026-11-02/Adventurer's Guild - Glowhaven Branch - Common Hall.png": {
+      "size": 2883153,
+      "sha256": "a9cf2c073541581a5f7aa21e5b4f7864a36382da142fc1070ba7b300ae547fd6",
+      "mtimeNs": 1793560995184423100
+    },
+    "world-draft/location images/Academy and Guild Areas 2026-11-02/Adventurer's Guild - Glowhaven Branch - Reception Counter.png": {
+      "size": 2929040,
+      "sha256": "f3f635c74dc2fca6b760a6cc30534f100dfb643a12b19ec02fc48cb570d2cac1",
+      "mtimeNs": 1793560863279106100
+    },
+    "world-draft/location images/Academy and Guild Areas 2026-11-02/Adventurer's Guild - Glowhaven Branch - Request Board.png": {
+      "size": 2876689,
+      "sha256": "20a45a49eb3557dcf360bb1a10aaddbb334f20be8589c4cf4ea5619b4d98f985",
+      "mtimeNs": 1793560927313393200
+    },
+    "world-draft/location images/Academy and Guild Areas 2026-11-02/Adventurer's Guild - Glowhaven Branch - Staff Office.png": {
+      "size": 2646691,
+      "sha256": "bacb00241e6796747dd8f564ed40a33ac5760af598f1d6f165e37759842e7f17",
+      "mtimeNs": 1793561014853396100
+    },
+    "world-draft/location images/Academy and Guild Areas 2026-11-02/Adventurer's Guild - Glowhaven Branch - Training Yard.png": {
+      "size": 3108171,
+      "sha256": "1d15dae66297704662ad12b14f78738b9204c9b2d1fd66a5c9f0ce7b9d1947f8",
+      "mtimeNs": 1793560969324032200
+    },
+    "world-draft/location images/Academy and Guild Areas 2026-11-02/Dragon Hoard Academy - Dining Hall.png": {
+      "size": 2903495,
+      "sha256": "eef827add7506c88b2aa702550a24921af576faf9bdb68150280b4d54543bed9",
+      "mtimeNs": 1793560862781925900
+    },
+    "world-draft/location images/Academy and Guild Areas 2026-11-02/Dragon Hoard Academy - Dormitory Wing.png": {
+      "size": 2934134,
+      "sha256": "ba527321b7e92202f17dd509185256da0afea93421d78f83b1f4c2980fac2bec",
+      "mtimeNs": 1793560835233396700
+    },
+    "world-draft/location images/Academy and Guild Areas 2026-11-02/Dragon Hoard Academy - Faculty Offices.png": {
+      "size": 2703695,
+      "sha256": "445b78ac41fb6bcd4dff0f664445468c27dfd9a03a1d2d9d265783fdc2473126",
+      "mtimeNs": 1793560795232973500
+    },
+    "world-draft/location images/Academy and Guild Areas 2026-11-02/Dragon Hoard Academy - Lecture Hall.png": {
+      "size": 2871798,
+      "sha256": "b31419028f170f7c4382290d92f3d320e605fd65b81a035dfb4280c077be8c46",
+      "mtimeNs": 1793560952286346800
+    },
+    "world-draft/location images/Academy and Guild Areas 2026-11-02/Dragon Hoard Academy - Training Court.png": {
+      "size": 3193248,
+      "sha256": "b278d29a39f035ed0474de6e4d2e8b86175786766bd2fe2e469ec4309564cc5a",
+      "mtimeNs": 1793560909721368000
+    },
+    "world-draft/location images/Academy and Guild Areas 2026-11-02/Evertree Base - Portal Room.png": {
+      "size": 3202067,
+      "sha256": "7b92e16450e4bfe749a487c1eb28e6b3bfadb2b45920b4142e5b54d87d8e3219",
+      "mtimeNs": 1793561061779176500
+    },
+    "world-draft/location images/Academy and Guild Areas 2026-11-02/Gryffin Tail Academy - Dining Hall.png": {
+      "size": 3031879,
+      "sha256": "d85ca722d7b2d87941e69dcef9d12d7cb9b75e4fddb203cf578c5450a97d068f",
+      "mtimeNs": 1793560532938883400
+    },
+    "world-draft/location images/Academy and Guild Areas 2026-11-02/Gryffin Tail Academy - Dormitory Wing.png": {
+      "size": 2885850,
+      "sha256": "b9d8b105512762854032778202caca72dfb8c4cbc9b9cbf8f605e4a3318b0111",
+      "mtimeNs": 1793560703251170300
+    },
+    "world-draft/location images/Academy and Guild Areas 2026-11-02/Gryffin Tail Academy - Faculty Offices.png": {
+      "size": 2769227,
+      "sha256": "5c94f1b112dbca7c2ba5fbf9e14d96aa3370e4872c5b722113a098456723da33",
+      "mtimeNs": 1793560571525200100
+    },
+    "world-draft/location images/Academy and Guild Areas 2026-11-02/Gryffin Tail Academy - Puzzle Parlor.png": {
+      "size": 2957819,
+      "sha256": "3ba00dbdcb8b843acbb286ed58667cded3f746909d537d1b4319370e193c5446",
+      "mtimeNs": 1793560828891857900
+    },
+    "world-draft/location images/Academy and Guild Areas 2026-11-02/Gryffin Tail Academy - Training Court.png": {
+      "size": 3137791,
+      "sha256": "4b45bb0612b4883ce3112c3209ab0485be951ad18241147583e17b1c63e7f8c8",
+      "mtimeNs": 1793560752253092200
+    },
+    "world-draft/location images/Academy and Guild Areas 2026-11-02/Hydra Head Academy - Confluence Pavilion.png": {
+      "size": 3226607,
+      "sha256": "3845aa5a4d9724e7f0bca9583a6ee2eea9cda98733256af72a630e1c86ba4654",
+      "mtimeNs": 1793560467603834800
+    },
+    "world-draft/location images/Academy and Guild Areas 2026-11-02/Hydra Head Academy - Dining Hall.png": {
+      "size": 3145497,
+      "sha256": "363f8d74280d15dc3188fe88ca4818f26b53887b928bcc0586b66974688d385f",
+      "mtimeNs": 1793560216790176400
+    },
+    "world-draft/location images/Academy and Guild Areas 2026-11-02/Hydra Head Academy - Dormitory Wing.png": {
+      "size": 2968045,
+      "sha256": "ace0395d946266ce67dc4dbe78c02538548e576a2deec6b0c4561e3ec74f3c78",
+      "mtimeNs": 1793560310886646300
+    },
+    "world-draft/location images/Academy and Guild Areas 2026-11-02/Hydra Head Academy - Faculty Offices.png": {
+      "size": 2681732,
+      "sha256": "d086869ffc0b957d1dae7e1f8d389b510ac20b6c34f2a4f2cc42522e99ac5952",
+      "mtimeNs": 1793560264527658000
+    },
+    "world-draft/location images/Academy and Guild Areas 2026-11-02/Hydra Head Academy - Lecture Hall.png": {
+      "size": 2876828,
+      "sha256": "24046a7d860f4b962ec2eef6170b803bc17c6fd007229010bb9f63bcecd5ef4d",
+      "mtimeNs": 1793560427893363000
+    },
+    "world-draft/location images/Academy and Guild Areas 2026-11-02/Phoenix Wing Academy - Dining Hall.png": {
+      "size": 3026236,
+      "sha256": "64575fc657de72996c349b247506ea3b01d10343bb0cfe1610b4653909b67f5e",
+      "mtimeNs": 1793559900504282100
+    },
+    "world-draft/location images/Academy and Guild Areas 2026-11-02/Phoenix Wing Academy - Dormitory Wing.png": {
+      "size": 2983270,
+      "sha256": "ef153ef01f224fc78cbe9584a2735db444c0d4b95f9aefda91212c9c2f9f70b6",
+      "mtimeNs": 1793560009145472300
+    },
+    "world-draft/location images/Academy and Guild Areas 2026-11-02/Phoenix Wing Academy - Faculty Offices.png": {
+      "size": 2572592,
+      "sha256": "0687c66d2495565d813258247f1459dc8ad81d0476481d58a8ecafae0588feac",
+      "mtimeNs": 1793559967287991700
+    },
+    "world-draft/location images/Academy and Guild Areas 2026-11-02/Phoenix Wing Academy - Music Room.png": {
+      "size": 2713872,
+      "sha256": "47f554a9bfbf912a9263925d1e596773e049f8a1e04a40e56ae2b05dcaccf325",
+      "mtimeNs": 1793560148508866600
+    },
+    "world-draft/location images/Academy and Guild Areas 2026-11-02/Phoenix Wing Academy - Sun Terrace.png": {
+      "size": 3144438,
+      "sha256": "28b0030cd80940966526a38cdddeb0a72890b432ed81dcc2f6d0d1453d0dfbda",
+      "mtimeNs": 1793560045289444800
     }
   }
 }

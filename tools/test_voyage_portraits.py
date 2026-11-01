@@ -51,10 +51,61 @@ class PortraitTests(unittest.TestCase):
   with self.assertRaises(ApiError):upload(f,'world',row,s,lambda:None,self.constraints)
   key=f.calls[-1][2]['idempotency'];g=Fake();upload(g,'world',row,s,lambda:None,self.constraints)
   self.assertEqual(len(g.calls),1);self.assertEqual(g.calls[0][2]['idempotency'],key)
+ def test_area_and_location_targets_have_independent_receipts(self):
+  f=Fake();state={}
+  for target in ['NPC_PORTRAIT','AREA_IMAGE','LOCATION_IMAGE']:
+   self.constraints['targets'][target]={'minimumWidth':600,'minimumHeight':600}
+   upload(f,'world',self.row(),state,lambda:None,self.constraints,target)
+   self.assertEqual(f.calls[-3][2]['body']['target'],target)
+   self.assertEqual(f.calls[-1][2]['body']['target'],target)
+  self.assertEqual(len(state['uploads']),3)
  def test_changed_file_blocked(self):
   row=self.row();(self.root/'Kōta Mibu.png').write_bytes(self.png+b'changed')
   with self.assertRaises(ValueError):upload(Fake(),'world',row,{},lambda:None,self.constraints)
  def test_unofficial_api_rejected(self):
   with self.assertRaises(ValueError):Client('https://example.test/creator/v1','unused')
+
+class AreaImagePreservationTests(unittest.TestCase):
+ def setUp(self):
+  import copy
+  from location_area_art import ACADEMIES,GUILD,PORTAL
+  self.before={};self.jobs=[]
+  for loc in ACADEMIES+[GUILD]:
+   self.before[loc]={'name':loc,'coordinates':{'x':12,'y':34},'areas':{}}
+   for name,has_image in [(loc+' - Existing',True),(loc+' - New',False)]:
+    r={'name':name,'description':'Unchanged room.'}
+    if has_image:r['images']={'establishingShot':{'imageUrl':'https://images.aidungeon.com/existing.png','crop':{'focus':{'x':38,'y':41},'zoom':123}}}
+    else:self.jobs.append({'name':name,'kind':'area','location':loc,'area':name,'replace':False})
+    self.before[loc]['areas'][name]=r
+  self.before['Evertree Base']={'areas':{PORTAL:{'name':PORTAL}}}
+  self.jobs.append({'name':PORTAL,'kind':'area','location':'Evertree Base','area':PORTAL,'replace':False})
+  self.before['Recent Location']={'images':{'establishingShot':{'imageUrl':'https://images.aidungeon.com/old.png','crop':{'focus':{'x':40,'y':30},'zoom':115}}}}
+  self.jobs.append({'name':'Recent Location','kind':'location','location':'Recent Location','replace':True})
+  self.after=copy.deepcopy(self.before)
+  from location_area_art import record
+  for j in self.jobs:
+   shot=record(self.after,j).setdefault('images',{}).setdefault('establishingShot',{})
+   shot.setdefault('crop',{'focus':{'x':50,'y':50},'zoom':100});shot['imageUrl']='https://images.aidungeon.com/new.png'
+ def verify(self):
+  from location_area_art import verify_art_changes
+  verify_art_changes(self.before,self.after,self.jobs)
+ def test_selected_images_only(self):self.verify()
+ def test_existing_crop_cannot_change(self):
+  self.after['Recent Location']['images']['establishingShot']['crop']['zoom']=100
+  with self.assertRaises(ValueError):self.verify()
+ def test_unselected_area_image_cannot_change(self):
+  loc=next(iter(self.after));area=next(iter(self.after[loc]['areas']))
+  self.after[loc]['areas'][area]['images']['establishingShot']['imageUrl']='https://images.aidungeon.com/replaced.png'
+  with self.assertRaises(ValueError):self.verify()
+ def test_coordinates_cannot_change(self):
+  self.after[next(iter(self.after))]['coordinates']['x']=20
+  with self.assertRaises(ValueError):self.verify()
+ def test_missing_upload_rejected(self):
+  from location_area_art import record
+  del record(self.after,self.jobs[0])['images']
+  with self.assertRaises(ValueError):self.verify()
+ def test_reordered_locations_rejected(self):
+  self.after=dict(reversed(list(self.after.items())))
+  with self.assertRaises(ValueError):self.verify()
 
 if __name__=='__main__':unittest.main()

@@ -45,10 +45,10 @@
     "worldVoices": "8b69443450739cb164d80fb013be9c8579229e670ee84b018cd37a12d39e4b79"
   },
   "unchangedLocations": {
-    "Phoenix Wing Academy": "642543dfa9957675d201f04b01961437b2dd8e82385166c165dbf6eea1ed4837",
-    "Hydra Head Academy": "43dc7fd2809a3a144c0944aa9ff312f6526d95c3aed50b3c7922caeed2e277bf",
-    "Gryffin Tail Academy": "bb93b3db69d2aebad64bff60719465c7d49b6be7e24df1c23a11e195deb450bf",
-    "Dragon Hoard Academy": "66a91533898f2a252a4994a8564dcfda12e8021aa8d04e95269b5113540b96d9",
+    "Phoenix Wing Academy": "f5bfe4b3994b4bc8158a59a3ca3b193ee03fa95b343cd09714cae6bdfd9d2ca2",
+    "Hydra Head Academy": "0e677549cf1e00a48b9ef61a451e731204ed45a02ff48db0da80abac4e96dc7a",
+    "Gryffin Tail Academy": "14bd801d2f6db470be8496c24c3359f952565b90fc077b6dc92f27b362920af7",
+    "Dragon Hoard Academy": "70b7faca880d08ff9c559abc2952cfd02e87b6727d3511fce705341711869e5f",
     "The Grand Sage's Court": "be2a1240695c6d83b3c94eb69bf6794d675e1d58ccf0dd33d5236c62b451c7a0",
     "Cloud District": "a5f36a53dca78b08f750215546bf6049cb1487ef6886bf1f51719348ca048942",
     "Merchant's Row": "101a51f56d97fc0520b6dc8a67e5a1bdc054518dcc27765738c260629b59135d",
@@ -110,7 +110,7 @@
     "House Goldbarrow Estate": "bb856f1e7a4c57aed5415ba368f89c4092e477e001170e61e83f7ee5605d5b54",
     "The Magistrate's Hall": "915b3c718dbe090da7d02f2620fc1e9360fefcdb4c9bb00bed8dd747e499c72e",
     "The Arcane Emporium": "45abbd096e3f37a1b6aa64b199476f135d37b1481e068d9741861d6b710ca0e5",
-    "Evertree Base": "9de159a14076981971095fcbcbf012bf0c9aa3f4bbdd98c9acf41b298decc415",
+    "Evertree Base": "a3661cef52077536618557a5970b5ea41da0559b6b8358f012482f1cb5ae8061",
     "Wraith Island": "f5f19b175f8309082bfb74dc28e31235d7455abc5fb7e7a749b254c2cb31798f",
     "Prison Landing": "b2098ed928acaa894d1f5c506dfb5d9d37e316218014401bd7aee71d5ac97059",
     "Intake and Property Office": "ef254d385b8fdabfe1399d22fbebbb6f8e18370656731e827a426092d2ab70f4",
@@ -217,10 +217,10 @@
     "Crownfall Chasm": "63a9469107fa5bfe277528c2995c3caa10478fc43391ce7bd073046fe7b7f9f7",
     "Stillstar Sanctum": "b700dfbf9bd3f527726bdf9ca1d70a168922590c989b7dc822a75341f237a744",
     "The Inverted Crown": "ce74d2fd242e08f1fe87485ce03cb624670044ae9cea5db001cbc4f4d3c5d3c6",
-    "Adventurer's Guild - Glowhaven Branch": "3c0d0116f1b272c12436b3c051679a8bb76289194fdd0542b5f62949fbdc2a0f",
-    "Sepulchral Portal House": "78eb191bd38dff214b5351dfb1bc9ba3c26bd90e1cd81b38281285e4e4e06353",
-    "Sepulchral Conservatory": "83292b858c8f19f03d4f7bf91f62294b9ada16eaf47069cb3ad1923a76a0e811",
-    "Mourning Garden": "80ab6c30df81f1d11c7cbc9a95bdab5237e175e201664459677e3990bc79794f"
+    "Adventurer's Guild - Glowhaven Branch": "4ea91c52c1c59eedd64d1ed838336dc9684c2e9b925bb2afe5da455928928b68",
+    "Sepulchral Portal House": "55c12419f406d4c75e9299dfe6e73f1a952fe956656a2c135e02a3bd5e4f9b55",
+    "Sepulchral Conservatory": "66ef2ef90c2a131fcc47be649e414aeb47e554f683eac955af30d2cffca03017",
+    "Mourning Garden": "ba5562d47c6ce76c31c4f9afbc3a7d7cfa647eeca499c88a5ae47ccc0eb9d986"
   },
   "userMapAndCoordinatesPreserved": true,
   "newPortraitsExplicitlySelected": [
@@ -267,5 +267,20 @@
     "Genta Shishido",
     "Koharu Mikazuki",
     "Threnvoss"
-  ]
+  ],
+  "approvedAreaArtworkRefresh": {
+    "date": "2026-11-02",
+    "verification": "tools/location-art/merge-verification-2026-11-02.json",
+    "locations": [
+      "Phoenix Wing Academy",
+      "Hydra Head Academy",
+      "Gryffin Tail Academy",
+      "Dragon Hoard Academy",
+      "Evertree Base",
+      "Adventurer's Guild - Glowhaven Branch",
+      "Sepulchral Portal House",
+      "Sepulchral Conservatory",
+      "Mourning Garden"
+    ]
+  }
 }

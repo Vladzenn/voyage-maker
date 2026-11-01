@@ -92,14 +92,14 @@ def plan(world,folder,selection=None,replace_selected=False):
   for name in sorted(selection-found):rows.append({'name':name,'status':'missing_selected_file' if name in world['npcs'] else 'missing_npc'})
  return rows
 
-def upload(client,short_id,row,state,save,constraints):
+def upload(client,short_id,row,state,save,constraints,target_name='NPC_PORTRAIT'):
  b=pathlib.Path(row['file']).read_bytes()
  if hashlib.sha256(b).hexdigest()!=row['sha256']:raise ValueError('File changed after planning; refusing mismatched upload.')
  if row['bytes']>constraints['maxFileSizeBytes']:raise ValueError('Image exceeds live upload byte limit.')
- target=constraints['targets']['NPC_PORTRAIT']
- if row['width']<target['minimumWidth'] or row['height']<target['minimumHeight']:raise ValueError('Image is smaller than the live NPC portrait minimum.')
- identity='|'.join([client.base,short_id,'NPC_PORTRAIT',row['name'],row['sha256']]);rid=hashlib.sha256(identity.encode()).hexdigest()
- record=state.setdefault('uploads',{}).setdefault(rid,{'name':row['name'],'sha256':row['sha256'],'target':'NPC_PORTRAIT','allowanceKey':str(uuid.uuid4()),'moderateKey':str(uuid.uuid4()),'stage':'new'})
+ target=constraints['targets'][target_name]
+ if row['width']<target['minimumWidth'] or row['height']<target['minimumHeight']:raise ValueError('Image is smaller than the live target minimum.')
+ identity='|'.join([client.base,short_id,target_name,row['name'],row['sha256']]);rid=hashlib.sha256(identity.encode()).hexdigest()
+ record=state.setdefault('uploads',{}).setdefault(rid,{'name':row['name'],'sha256':row['sha256'],'target':target_name,'allowanceKey':str(uuid.uuid4()),'moderateKey':str(uuid.uuid4()),'stage':'new'})
  if record.get('imageUrl'):return record['imageUrl'],'resumed'
  if record.get('stage')=='rejected':raise ValueError('This exact image was rejected; correct the image before requesting another allowance.')
  if record.get('expiresAt') and record['stage']!='bytes_uploaded':
@@ -107,13 +107,13 @@ def upload(client,short_id,row,state,save,constraints):
   if expiry<=dt.datetime.now(dt.timezone.utc):record.update(stage='new',allowanceKey=str(uuid.uuid4()),moderateKey=str(uuid.uuid4()))
  save()
  if record['stage']!='bytes_uploaded':
-  allowance=client.request('POST','/uploads',body={'target':'NPC_PORTRAIT','mimeType':row['mimeType'],'width':row['width'],'height':row['height']},idempotency=record['allowanceKey'])['data']
+  allowance=client.request('POST','/uploads',body={'target':target_name,'mimeType':row['mimeType'],'width':row['width'],'height':row['height']},idempotency=record['allowanceKey'])['data']
   record.update(uploadId=allowance['uploadId'],expiresAt=allowance.get('expiresAt'),stage='allowance');save()
   # The signed URL and API key are deliberately absent from the persisted ledger/log.
   client.request('PUT',allowance['directUploadUrl'],raw=b,mime=row['mimeType'],authenticated=False)
   record['stage']='bytes_uploaded';save()
  try:
-  result=client.request('POST','/worlds/'+urllib.parse.quote(short_id,safe='')+'/uploads/'+urllib.parse.quote(record['uploadId'],safe='')+'/moderate',body={'target':'NPC_PORTRAIT'},idempotency=record['moderateKey'])['data']
+  result=client.request('POST','/worlds/'+urllib.parse.quote(short_id,safe='')+'/uploads/'+urllib.parse.quote(record['uploadId'],safe='')+'/moderate',body={'target':target_name},idempotency=record['moderateKey'])['data']
  except ApiError as e:
   if e.code=='studio_media_failed':record['stage']='rejected';save()
   raise

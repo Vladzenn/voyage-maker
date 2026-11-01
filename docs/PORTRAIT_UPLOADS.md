@@ -23,3 +23,16 @@ The uploader proves that its only world edits are the selected `npcs[name].portr
 Current receipt: [43 uploaded replacements](portrait-uploads-2026-11-02.json). Current portraits have 43 distinct official hosted URLs, each checked against its exact filename and SHA-256. Existing location/map URLs were retained; no location image was replaced by this batch.
 
 Official contract: [OpenAPI](https://api-alpha.aidungeon.com/creator/v1/openapi.json), [agent guide](https://api-alpha.aidungeon.com/creator/v1/agent-guide.md). The reviewed World Puppeteer uploader was read as reference only; our Python implementation has no third-party dependencies.
+
+## Area and location artwork
+
+The shared upload routine also accepts the live contract's `AREA_IMAGE` and `LOCATION_IMAGE` targets. These have separate receipt identities from portraits, even for an identical name and image file. The portrait CLI keeps its portrait-only default.
+
+`tools/location_area_art.py` prepares this explicitly scoped academy/guild batch from a supplied locations section. Its manifest gives each image an exact parent location and, for areas, an exact nested area key. It retains existing valid area images; only the three explicitly selected recent Conservatory location shots are replacements. Uploaded shots receive the official URL, existing crops remain intact, and newly illustrated areas receive a centered default crop.
+
+```sh
+python tools/location_area_art.py prepare --source "path/to/current-locations.json"
+python tools/location_area_art.py upload --short-id 0kL8UR7rgsu2 --api-base https://api-alpha.aidungeon.com/creator/v1
+```
+
+Generate/review the missing files listed by preparation before uploading. As with portraits, supply credentials only through the process environment. A changed canonical file aborts the merge. Successful uploads are resumable from the ignored ledger; the final report records each exact address, target, SHA-256, hosted URL and before/after diff. The helper rejects changes to other fields or existing crops, checks all required areas have images, and runs local and official draft validation before writing a separate full-world candidate and locations-only export. Installing that candidate and GitHub publication remain separate local workflow steps; no Studio save or publication occurs.

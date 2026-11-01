@@ -20,7 +20,19 @@
           "Phoenix Wing Academy - Dining Hall",
           "Phoenix Wing Academy - Dormitory Wing",
           "Phoenix Wing Academy - Sun Terrace"
-        ]
+        ],
+        "images": {
+          "establishingShot": {
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            },
+            "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/a2eb6138-8fcc-4e3e-b591-d7861e3a9c2a.png"
+          }
+        }
       },
       "Phoenix Wing Academy - Main Hall": {
         "description": "The central corridor joins classrooms, dining space, and administrative offices; class notices cover the walls. On the academic year's opening morning, this room hosts Kōhei Sanada's first-year welcome; afterward the headmaster returns to Faculty Offices and ordinary scheduled use resumes. A noticeboard points students toward paid afternoon kitchen, inn and library shifts around morning classes, beside an invitation to visit the public guild hall without registering.",
@@ -133,34 +145,94 @@
           "Phoenix Wing Academy - Arrival Court",
           "Phoenix Wing Academy - Main Hall",
           "Phoenix Wing Academy - Student Commons"
-        ]
+        ],
+        "images": {
+          "establishingShot": {
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            },
+            "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/0bc23d56-fb32-449a-91ac-a4e1c2fd6913.png"
+          }
+        }
       },
       "Phoenix Wing Academy - Faculty Offices": {
         "description": "Kōhei Sanada handles appointments, complaints, and assessment queries. Ranka Kagari's trial sheets are private documents, obtained through permission or an actual investigation rather than narrated to every visitor. Kōhei Sanada normally works here, including receiving new instructors. A teaching appointment specifies its subject, classroom and first lesson at the next morning's first bell.",
         "paths": [
           "Phoenix Wing Academy - Main Hall"
-        ]
+        ],
+        "images": {
+          "establishingShot": {
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            },
+            "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/750e5e17-d39c-413b-b4ec-65e35bdad3ad.png"
+          }
+        }
       },
       "Phoenix Wing Academy - Dormitory Wing": {
         "description": "Residential rooms line a quiet corridor around a shared lounge and noticeboard. The wing houses students who live on campus and gives them a place to rest between the academy's busy days.",
         "paths": [
           "Phoenix Wing Academy - Arrival Court",
           "Phoenix Wing Academy - Student Commons"
-        ]
+        ],
+        "images": {
+          "establishingShot": {
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            },
+            "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/dd860b5e-c0e3-4adf-b47a-fff240a54fb8.png"
+          }
+        }
       },
       "Phoenix Wing Academy - Sun Terrace": {
         "description": "A sheltered upper terrace has stone benches, planters, and a view across the campus. Students come here to cool down after practice, talk, or enjoy a little quiet outdoors.",
         "paths": [
           "Phoenix Wing Academy - Arrival Court",
           "Phoenix Wing Academy - Student Commons"
-        ]
+        ],
+        "images": {
+          "establishingShot": {
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            },
+            "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/3ffa4add-e005-4ef7-8841-f7984552318b.png"
+          }
+        }
       },
       "Phoenix Wing Academy - Music Room": {
         "description": "A comfortable room with a few instruments and space to gather supports informal practice, student-led music, and relaxed breaks away from lessons.",
         "paths": [
           "Phoenix Wing Academy - Main Hall",
           "Phoenix Wing Academy - Student Commons"
-        ]
+        ],
+        "images": {
+          "establishingShot": {
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            },
+            "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/3955cd82-18bb-4a62-a5ea-fd198a6b440c.png"
+          }
+        }
       }
     },
     "initialKnown": true,
@@ -203,7 +275,19 @@
           "Hydra Head Academy - Dining Hall",
           "Hydra Head Academy - Dormitory Wing",
           "Hydra Head Academy - Lecture Hall"
-        ]
+        ],
+        "images": {
+          "establishingShot": {
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            },
+            "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/fc8bd995-e1cc-4a5f-ba21-6932dd54a800.png"
+          }
+        }
       },
       "Hydra Head Academy - Confluence Hall": {
         "description": "The central hall opens toward seminar rooms and shared study spaces with broad group-work tables.\n\nCivic coordination and proposed field assignments can be discussed here. The actual people, requirements, supplies, and permissions make a workable plan; no court authorization or personal agreement is supplied merely by entering the hall. On the academic year's opening morning, this room hosts Kiyoko Fujinami's first-year welcome; afterward the headmaster returns to Faculty Offices and ordinary scheduled use resumes. A noticeboard points students toward paid afternoon kitchen, inn and library shifts around morning classes, beside an invitation to visit the public guild hall without registering.",
@@ -317,20 +401,56 @@
           "Hydra Head Academy - Arrival Court",
           "Hydra Head Academy - Confluence Hall",
           "Hydra Head Academy - Student Commons"
-        ]
+        ],
+        "images": {
+          "establishingShot": {
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            },
+            "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/85ad153f-4ebd-415d-a744-d5971471cf45.png"
+          }
+        }
       },
       "Hydra Head Academy - Faculty Offices": {
         "description": "Private faculty offices open from a calm corridor with a small reception desk. Students can arrange consultations or find instructors between classes. Kiyoko Fujinami normally works here, including receiving new instructors. A teaching appointment specifies its subject, classroom and first lesson at the next morning's first bell.",
         "paths": [
           "Hydra Head Academy - Confluence Hall"
-        ]
+        ],
+        "images": {
+          "establishingShot": {
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            },
+            "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/8d64851c-0cfa-44d6-84d4-9d929fb37752.png"
+          }
+        }
       },
       "Hydra Head Academy - Dormitory Wing": {
         "description": "Residential rooms are arranged around shared lounges and a common noticeboard. The wing gives on-campus students places to rest, study together, or spend time with their roommates.",
         "paths": [
           "Hydra Head Academy - Arrival Court",
           "Hydra Head Academy - Student Commons"
-        ]
+        ],
+        "images": {
+          "establishingShot": {
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            },
+            "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/9fb7a5b1-d75f-40c0-b998-2e82a55f8bc6.png"
+          }
+        }
       },
       "Hydra Head Academy - Lecture Hall": {
         "description": "Kana Fujimoto's prepared examples have clear handling instructions. Homura Hibino finds restrained demonstrations disappointing, giving the instructor an ordinary recurring teaching problem rather than an explosion every lesson. The posted teaching plan lists Magic Theory, Enchantment, Herbology. Use the actual assigned professor for a lesson; a generic classroom does not force their presence outside a real class or arrangement.",
@@ -338,14 +458,38 @@
           "Hydra Head Academy - Arrival Court",
           "Hydra Head Academy - Confluence Hall",
           "Hydra Head Academy - Seminar Room"
-        ]
+        ],
+        "images": {
+          "establishingShot": {
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            },
+            "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/18d43190-0a21-4aac-8f88-670693075897.png"
+          }
+        }
       },
       "Hydra Head Academy - Confluence Pavilion": {
         "description": "Reika Saionji and Kiyoko Fujinami sometimes share an ordinary tea break here. Conversation does not grant research access or reveal their private accounts.",
         "paths": [
           "Hydra Head Academy - Garden Walk",
           "Hydra Head Academy - Student Commons"
-        ]
+        ],
+        "images": {
+          "establishingShot": {
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            },
+            "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/612320ed-0370-4645-b209-5e4a9b574847.png"
+          }
+        }
       }
     },
     "initialKnown": true,
@@ -388,7 +532,19 @@
           "Gryffin Tail Academy - Dining Hall",
           "Gryffin Tail Academy - Dormitory Wing",
           "Gryffin Tail Academy - Training Court"
-        ]
+        ],
+        "images": {
+          "establishingShot": {
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            },
+            "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/eb2e0224-0efd-4b52-93dc-54d57e70033d.png"
+          }
+        }
       },
       "Gryffin Tail Academy - Lecture Wing": {
         "description": "A quiet corridor links lecture rooms, faculty offices, and student noticeboards. The posted teaching plan lists Magic Theory, Magical Engineering, Magical Arts. Use the actual assigned professor for a lesson; a generic classroom does not force their presence outside a real class or arrangement. A noticeboard points students toward paid afternoon kitchen, inn and library shifts around morning classes, beside an invitation to visit the public guild hall without registering.",
@@ -499,34 +655,94 @@
         "paths": [
           "Gryffin Tail Academy - Arrival Steps",
           "Gryffin Tail Academy - Lecture Wing"
-        ]
+        ],
+        "images": {
+          "establishingShot": {
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            },
+            "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/40626178-fe93-4625-90f2-afd8db8fdc9e.png"
+          }
+        }
       },
       "Gryffin Tail Academy - Faculty Offices": {
         "description": "Norio Shibata processes transcripts, reassessment copies, and access requests. Visitors may request the rule applied and the recorded reason for a decision; confidential files require permission. Norio Shibata normally works here, including receiving new instructors. A teaching appointment specifies its subject, classroom and first lesson at the next morning's first bell.",
         "paths": [
           "Gryffin Tail Academy - Lecture Wing"
-        ]
+        ],
+        "images": {
+          "establishingShot": {
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            },
+            "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/abeefa4e-b69c-4f89-a2d4-9eb67b12b7af.png"
+          }
+        }
       },
       "Gryffin Tail Academy - Dormitory Wing": {
         "description": "Residential rooms follow a quiet corridor with a shared reading nook and noticeboard. The wing houses students who live on campus and provides a calm place to rest or review the day's work.",
         "paths": [
           "Gryffin Tail Academy - Arrival Steps",
           "Gryffin Tail Academy - Lecture Wing"
-        ]
+        ],
+        "images": {
+          "establishingShot": {
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            },
+            "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/a5f51391-9b63-46ef-aa60-4f654becdc46.png"
+          }
+        }
       },
       "Gryffin Tail Academy - Training Court": {
         "description": "An open stone court has marked dueling rings, practice targets, and low spectator benches. Students use it for supervised fencing, movement drills, and controlled magical sparring.",
         "paths": [
           "Gryffin Tail Academy - Arrival Steps",
           "Gryffin Tail Academy - Lecture Hall"
-        ]
+        ],
+        "images": {
+          "establishingShot": {
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            },
+            "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/fc9be961-55b9-4e99-994f-b9b04b40181c.png"
+          }
+        }
       },
       "Gryffin Tail Academy - Puzzle Parlor": {
         "description": "A relaxed student game room has board games, logic puzzles, and comfortable seats for friendly recreation. It offers a social break from formal lessons and independent study.",
         "paths": [
           "Gryffin Tail Academy - Reading Garden",
           "Gryffin Tail Academy - Seminar Room"
-        ]
+        ],
+        "images": {
+          "establishingShot": {
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            },
+            "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/88488c7d-8585-409c-9fdf-5391a2a7e74a.png"
+          }
+        }
       }
     },
     "initialKnown": true,
@@ -571,7 +787,19 @@
           "Dragon Hoard Academy - Dormitory Wing",
           "Dragon Hoard Academy - Training Court",
           "Dragon Hoard Academy - Lecture Hall"
-        ]
+        ],
+        "images": {
+          "establishingShot": {
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            },
+            "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/ed867fa9-19cf-4e36-ab50-20513cedfbdb.png"
+          }
+        }
       },
       "Dragon Hoard Academy - Exhibition Hall": {
         "description": "An open gallery for student-made models, demonstrations, and changing academic displays.\n\nRelics, permitted study materials, and documented field discoveries can support demonstrations. Not every display is for sale or free use; an artifact's presence establishes neither ownership nor mastery of its workings. A noticeboard points students toward paid afternoon kitchen, inn and library shifts around morning classes, beside an invitation to visit the public guild hall without registering.",
@@ -682,28 +910,76 @@
           "Dragon Hoard Academy - Arrival Gallery",
           "Dragon Hoard Academy - Exhibition Hall",
           "Dragon Hoard Academy - Student Commons"
-        ]
+        ],
+        "images": {
+          "establishingShot": {
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            },
+            "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/bef1d38e-e18e-439f-a1ad-b36e3aa8cefc.png"
+          }
+        }
       },
       "Dragon Hoard Academy - Faculty Offices": {
         "description": "Faculty offices line a corridor near the Lecture Studio, with a small reception desk for student questions and appointments. Instructors can meet students here between demonstrations and classes. Miyu Asahina normally works here, including receiving new instructors. A teaching appointment specifies its subject, classroom and first lesson at the next morning's first bell.",
         "paths": [
           "Dragon Hoard Academy - Arrival Gallery",
           "Dragon Hoard Academy - Lecture Studio"
-        ]
+        ],
+        "images": {
+          "establishingShot": {
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            },
+            "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/e26c645a-825b-41ff-a5d3-2c828097b5f3.png"
+          }
+        }
       },
       "Dragon Hoard Academy - Dormitory Wing": {
         "description": "Residential rooms open onto a shared lounge and noticeboard. The wing provides on-campus students with space to rest, meet friends, and talk through ordinary student life.",
         "paths": [
           "Dragon Hoard Academy - Arrival Gallery",
           "Dragon Hoard Academy - Student Commons"
-        ]
+        ],
+        "images": {
+          "establishingShot": {
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            },
+            "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/e004e112-bf0b-400d-9034-81a19a2be037.png"
+          }
+        }
       },
       "Dragon Hoard Academy - Training Court": {
         "description": "Movable obstacles support supervised shield tests and practical drills. Genzō Iwakura checks dangerous setups. Retsu Arakida and Daigo Bando keep their existing sparring rivalry; an invitation does not guarantee cooperation.",
         "paths": [
           "Dragon Hoard Academy - Arrival Gallery",
           "Dragon Hoard Academy - Discovery Labs"
-        ]
+        ],
+        "images": {
+          "establishingShot": {
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            },
+            "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/052cef43-e20f-417d-b052-8d2fb789cd36.png"
+          }
+        }
       },
       "Dragon Hoard Academy - Lecture Hall": {
         "description": "A large tiered auditorium faces a broad presentation floor visible from every seat. It accommodates full lectures and demonstrations; the smaller Lecture Studio remains available for focused discussion. The posted teaching plan lists Magic Theory, Spellcraft, Magical Creatures. Use the actual assigned professor for a lesson; a generic classroom does not force their presence outside a real class or arrangement. On the academic year's opening morning, this room hosts Miyu Asahina's first-year welcome; afterward the headmaster returns to Faculty Offices and ordinary scheduled use resumes.",
@@ -711,7 +987,19 @@
           "Dragon Hoard Academy - Arrival Gallery",
           "Dragon Hoard Academy - Exhibition Hall",
           "Dragon Hoard Academy - Lecture Studio"
-        ]
+        ],
+        "images": {
+          "establishingShot": {
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            },
+            "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/fc650d8a-92db-448c-b510-52d1dfc0aabc.png"
+          }
+        }
       }
     },
     "initialKnown": true,
@@ -4174,7 +4462,19 @@
         "description": "A vaulted transit chamber beneath the Evertree's rootward structures, reached through the controlled entrance from Rear Palace Walk. Stone-framed arches serve the Drakenspire and Asterveil routes. An issued route key opens its matching passage; permitted passengers need not cast. The room receives return traffic from both routes. Destination keys select the two ordinary outbound arches. Fixed return arches lead directly back to this room, with no second landing request. A Glowhaven Portal Key records that same home route; it does not create another portal. This is the only portal room in Glowhaven. External returns end on its floor; another city landing is never a route choice.",
         "paths": [
           "Evertree Base - Rear Palace Walk"
-        ]
+        ],
+        "images": {
+          "establishingShot": {
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            },
+            "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/6e4a9b98-fc73-41fd-acc1-daa96d9f090b.png"
+          }
+        }
       }
     },
     "initialKnown": true,
@@ -10583,7 +10883,19 @@
           "Adventurer's Guild - Glowhaven Branch - Request Board",
           "Adventurer's Guild - Glowhaven Branch - Common Hall",
           "Adventurer's Guild - Glowhaven Branch - Staff Office"
-        ]
+        ],
+        "images": {
+          "establishingShot": {
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            },
+            "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/1bbdb62f-df51-4404-85cb-f26be516b996.png"
+          }
+        }
       },
       "Adventurer's Guild - Glowhaven Branch - Request Board": {
         "description": "Rows of posted slips are grouped by bronze, silver, gold and pale platinum tabs. The listed reward is what the adventurer receives. Visitors can inspect terms before committing; a notice is neither an accepted quest nor permission to enter its destination.",
@@ -10591,7 +10903,19 @@
           "Adventurer's Guild - Glowhaven Branch - Reception Counter",
           "Adventurer's Guild - Glowhaven Branch - Common Hall",
           "Adventurer's Guild - Glowhaven Branch - Briefing Room"
-        ]
+        ],
+        "images": {
+          "establishingShot": {
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            },
+            "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/21264c72-4a63-4416-a70e-46b85eb2fa3c.png"
+          }
+        }
       },
       "Adventurer's Guild - Glowhaven Branch - Common Hall": {
         "description": "Sturdy tables hold cups, field notes and travelers comparing equipment. Warm windows and a kettle make this a useful meeting place for martial adventurers and mages alike. Sharing a table does not recruit anyone, and the hall is not an inn with automatic lodging.",
@@ -10600,14 +10924,38 @@
           "Adventurer's Guild - Glowhaven Branch - Request Board",
           "Adventurer's Guild - Glowhaven Branch - Appraisal Bench",
           "Adventurer's Guild - Glowhaven Branch - Briefing Room"
-        ]
+        ],
+        "images": {
+          "establishingShot": {
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            },
+            "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/ea7a9365-5950-406d-83da-929b687b864e.png"
+          }
+        }
       },
       "Adventurer's Guild - Glowhaven Branch - Appraisal Bench": {
         "description": "A side workbench has scales, cloth trays and a locked cabinet for goods actually entrusted to staff. An inspection can establish condition, material or a reason to consult a specialist; it is not omniscient identification. Ownership, prices and any sale are agreed separately.",
         "paths": [
           "Adventurer's Guild - Glowhaven Branch - Common Hall",
           "Adventurer's Guild - Glowhaven Branch - Staff Office"
-        ]
+        ],
+        "images": {
+          "establishingShot": {
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            },
+            "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/13e8070e-9b1e-431d-9261-b9d1fe0681ff.png"
+          }
+        }
       },
       "Adventurer's Guild - Glowhaven Branch - Briefing Room": {
         "description": "A quieter room holds a regional chart, chalk surfaces and a table for checking routes, scope and responsibilities. Teams can agree who is doing what. This is also where exam judgment and promotion-review terms are explained before an actual practical assessment. Before an unfamiliar job, visitors can ask for practical route advice: known hazards, transport, supplies and an honest account of uncertain information. Marika Hoshino or Iona Hayashida can contribute when actually present or available by arrangement. A consultation grants no key, credential, automatic escort or mastery.",
@@ -10615,14 +10963,38 @@
           "Adventurer's Guild - Glowhaven Branch - Request Board",
           "Adventurer's Guild - Glowhaven Branch - Common Hall",
           "Adventurer's Guild - Glowhaven Branch - Training Yard"
-        ]
+        ],
+        "images": {
+          "establishingShot": {
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            },
+            "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/cbec7588-895f-4010-b63a-6678afbc62e1.png"
+          }
+        }
       },
       "Adventurer's Guild - Glowhaven Branch - Training Yard": {
         "description": "Rear doors open onto a walled practice yard with padded targets, rope work, weighted bundles and space for controlled sparring. It supports a practical licensure test through a martial, magical or appropriate mixed method. An examiner resolves the actual attempt; safety does not mean automatic success or an invented equal-stat opponent.",
         "paths": [
           "Adventurer's Guild - Glowhaven Branch - Briefing Room",
           "Adventurer's Guild - Glowhaven Branch - Staff Office"
-        ]
+        ],
+        "images": {
+          "establishingShot": {
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            },
+            "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/c05734f3-01f3-4cc3-9368-c21ea2f037b5.png"
+          }
+        }
       },
       "Adventurer's Guild - Glowhaven Branch - Staff Office": {
         "description": "A modest records office holds client files, verified completion records and unissued badges. Staff access and a genuine handover matter. Seeing a badge in a drawer does not make it yours, and forging one does not create a valid service record.",
@@ -10630,7 +11002,19 @@
           "Adventurer's Guild - Glowhaven Branch - Reception Counter",
           "Adventurer's Guild - Glowhaven Branch - Appraisal Bench",
           "Adventurer's Guild - Glowhaven Branch - Training Yard"
-        ]
+        ],
+        "images": {
+          "establishingShot": {
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            },
+            "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/e9997a04-1819-41a7-af67-a52fc4888ccb.png"
+          }
+        }
       }
     },
     "images": {
@@ -10675,6 +11059,18 @@
     "npcLevelRange": {
       "min": 1,
       "max": 8
+    },
+    "images": {
+      "establishingShot": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/b004297a-9331-4a87-8b37-bb10559ecb94.png"
+      }
     }
   },
   "Sepulchral Conservatory": {
@@ -10743,6 +11139,18 @@
     "npcLevelRange": {
       "min": 35,
       "max": 45
+    },
+    "images": {
+      "establishingShot": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/803217b1-14dc-4a29-86ba-1c55fbe30a7c.png"
+      }
     }
   },
   "Mourning Garden": {
@@ -10781,6 +11189,18 @@
     "npcLevelRange": {
       "min": 35,
       "max": 45
+    },
+    "images": {
+      "establishingShot": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/bb062461-c185-4aed-b5f4-2aa93cbb7362.png"
+      }
     }
   }
 }

@@ -1,0 +1,76 @@
+{
+  "sourceSHA256": "eb0ca8a898b11a6107538a3877ac4d1a173ad23282a631ac5e89e12b9ec5ecb6",
+  "beforeWorldSHA256": "14b7d215ed3947714993ed6daee6043dd2491b39ea3d82dac8fb779e1d921044",
+  "changedLocations": [
+    "Phoenix Wing Academy",
+    "Hydra Head Academy",
+    "Gryffin Tail Academy",
+    "Dragon Hoard Academy",
+    "Evertree Base",
+    "Adventurer's Guild - Glowhaven Branch",
+    "Sepulchral Portal House",
+    "Sepulchral Conservatory",
+    "Mourning Garden"
+  ],
+  "imageURLChanges": 35,
+  "newAreaImages": 32,
+  "generatedImages": 28,
+  "reusedEntranceImages": 4,
+  "preservedAreaImages": 20,
+  "coverage": {
+    "Phoenix Wing Academy": 11,
+    "Hydra Head Academy": 11,
+    "Gryffin Tail Academy": 11,
+    "Dragon Hoard Academy": 11,
+    "Adventurer's Guild - Glowhaven Branch": 7
+  },
+  "portalRoomIllustrated": true,
+  "otherSectionsExact": true,
+  "nonImageLocationFieldsExact": true,
+  "existingCropsExact": true,
+  "locationAndAreaOrderExact": true,
+  "updatedLocationFingerprints": {
+    "Phoenix Wing Academy": {
+      "before": "642543dfa9957675d201f04b01961437b2dd8e82385166c165dbf6eea1ed4837",
+      "after": "f5bfe4b3994b4bc8158a59a3ca3b193ee03fa95b343cd09714cae6bdfd9d2ca2"
+    },
+    "Hydra Head Academy": {
+      "before": "43dc7fd2809a3a144c0944aa9ff312f6526d95c3aed50b3c7922caeed2e277bf",
+      "after": "0e677549cf1e00a48b9ef61a451e731204ed45a02ff48db0da80abac4e96dc7a"
+    },
+    "Gryffin Tail Academy": {
+      "before": "bb93b3db69d2aebad64bff60719465c7d49b6be7e24df1c23a11e195deb450bf",
+      "after": "14bd801d2f6db470be8496c24c3359f952565b90fc077b6dc92f27b362920af7"
+    },
+    "Dragon Hoard Academy": {
+      "before": "66a91533898f2a252a4994a8564dcfda12e8021aa8d04e95269b5113540b96d9",
+      "after": "70b7faca880d08ff9c559abc2952cfd02e87b6727d3511fce705341711869e5f"
+    },
+    "Evertree Base": {
+      "before": "9de159a14076981971095fcbcbf012bf0c9aa3f4bbdd98c9acf41b298decc415",
+      "after": "a3661cef52077536618557a5970b5ea41da0559b6b8358f012482f1cb5ae8061"
+    },
+    "Adventurer's Guild - Glowhaven Branch": {
+      "before": "3c0d0116f1b272c12436b3c051679a8bb76289194fdd0542b5f62949fbdc2a0f",
+      "after": "4ea91c52c1c59eedd64d1ed838336dc9684c2e9b925bb2afe5da455928928b68"
+    },
+    "Sepulchral Portal House": {
+      "before": "78eb191bd38dff214b5351dfb1bc9ba3c26bd90e1cd81b38281285e4e4e06353",
+      "after": "55c12419f406d4c75e9299dfe6e73f1a952fe956656a2c135e02a3bd5e4f9b55"
+    },
+    "Sepulchral Conservatory": {
+      "before": "83292b858c8f19f03d4f7bf91f62294b9ada16eaf47069cb3ad1923a76a0e811",
+      "after": "66ef2ef90c2a131fcc47be649e414aeb47e554f683eac955af30d2cffca03017"
+    },
+    "Mourning Garden": {
+      "before": "80ab6c30df81f1d11c7cbc9a95bdab5237e175e201664459677e3990bc79794f",
+      "after": "ba5562d47c6ce76c31c4f9afbc3a7d7cfa647eeca499c88a5ae47ccc0eb9d986"
+    }
+  },
+  "officialValidation": {
+    "errors": [],
+    "stage": "draft",
+    "valid": true,
+    "warnings": []
+  }
+}

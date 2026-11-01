@@ -60,6 +60,8 @@ Important manual checks: native arc surfacing and chapter assignment; winter com
 
 ## Workflow and remaining plans
 
+**Current planning scope: Champions of the Crucible.** The [new implementation plan](../world-draft/authoring/plans/Champions%20of%20the%20Crucible%20-%20Implementation%20Plan.md) records the approved individual/nonlethal format, one recovery per bout, finite summons, withdrawal on venue departure, a 100-turn edition cooldown and about thirty-two new fighters. It proposes one persistent activity controller, result/reward ownership, varied actual arenas, a gated levels-35–50 Nature/Soul dungeon, ability expansion, crime jobs and Oni lore preparation. No playable world changes, portraits or new realm have been implemented in this planning session. Native-Permadeath nonlethal behavior, same-turn result ordering, resource-fill behavior and multiplayer targeting are explicit prototype gates. The Oni country expansion remains unstarted.
+
 Before the next implementation, read [NEXT_PATCH.md](NEXT_PATCH.md). It records the remaining runtime-artwork investigation and live badge check. The previously pending Studio edits are now merged; do not restore the older images, mode labels, Marika level or attribute cadence.
 
 The private repository is https://github.com/Vladzenn/voyage-maker. Desktop completed work is published with `tools/project.py publish`; cloud work must be committed and merged before the next desktop fast-forward. Preserve `sources/` and the original AGENTS.md. The user confirmed the **voyage-maker** Codex Cloud environment is published; no task in that runtime has been verified by this chat.

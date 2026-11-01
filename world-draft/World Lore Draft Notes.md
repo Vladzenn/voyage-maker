@@ -312,3 +312,13 @@ Author decision: the academic year starts with an already-enrolled first-year re
 ## 2026-10-29 — Local danger and varied NPC writing
 
 Author direction: strengthen monster/hazard-prone existing locations and reusable location archetypes, while distinguishing on-site danger from random travel encounters. Preserve ordinary settlement and refuge safety. Research and expand AuthorSeeds based on how selection actually works; keep the shared NPC instructions responsible for basic quality and preserve the established cast. Latest incoming image and coordinate edits are retained through the Alpha24/Alpha25 three-way merge.
+
+## 2026-11-01 — Crucible and Oni lore declarations for the planned update
+
+Planning only; not yet merged into runtime world lore. See [Champions of the Crucible plan](authoring/plans/Champions%20of%20the%20Crucible%20-%20Implementation%20Plan.md).
+
+The Crucible holds optional named championships with varied competitors and physically different arena layouts. Competitors can talk in a lounge before and between bouts, and the venue remains useful for consensual matches and learning when no championship is running. The approved first format is individual, regulated nonlethal fighting, with finite summons allowed and outside assistance banned. Medics fully restore Health, Mana and Stamina between bouts. Leaving the venue withdraws the entrant. The creator chose a hundred completed turns between editions instead of relying on narrated days, and approved about thirty-two new fighters.
+
+A Nature-and-Soul dungeon of plant-like undead golems is planned for roughly levels 35–50. Its route appears in the Evertree Portal Room when the qualifying player carries a Crucible championship trophy and the existing Silver Web Portal Key. This does not require defeating the spider queen. The Sepulchral Conservatory name, resurrection-sanctuary history and caretaker identity are proposals, not yet confirmed lore.
+
+Oni society has an Edo-inspired countryside, wide fields, distinct towns, samurai, shinobi and independent factions within a larger political society. The Naruto reference describes the societal mixture and settlement feel, not imported characters or canon. Preserve the previously declared Shogun and yokai wilderness. Magitech is somewhat more developed locally, chiefly through Arcane and Soul magic, but the built world remains predominantly Edo-inspired rather than a modern wired metropolis. There is no carved-face mountain monument. This release prepares lore and modest ancestry detail; the actual Oni realm, mysterious Soul torii and spirit-route quest remain part of the later Portal to Oni City expansion.

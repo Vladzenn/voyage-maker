@@ -4,7 +4,7 @@ Saved 2026-10-29. Planned update titles, in the user's listed order. Release dat
 
 - ~~Prison Life~~ — first narrow **Crime and Prison** pass implemented; see [Crime and Creation notes](Crime%20and%20Creation%20-%20Development%20Notes.md).
 - ~~Adventurers of Glowhaven~~ — implemented 1 November 2026; see [release notes](Adventurers%20of%20Glowhaven%20-%20Patch%20Notes.md) and [implementation/playtest guide](Adventurers%20of%20Glowhaven%20-%20Development%20Notes.md).
-- The Champions of the Crucible
+- The Champions of the Crucible — current planning stage; see [design and implementation plan](authoring/plans/Champions%20of%20the%20Crucible%20-%20Implementation%20Plan.md). No runtime changes yet.
 - Portal to Oni City
 - The Wizard of Shadowspire
 - The Eternal Chained Dragon

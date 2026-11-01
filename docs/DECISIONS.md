@@ -79,3 +79,11 @@ The public announcement must not disclose this release's Stamina adjustment, alt
 Studio's 1 November rejection confirms that ability trait requirements still require a numeric `amount`, even though the engine ignores that value for a trait check. Author `amount: 1`. Estimated item prices must be nonnegative whole numbers inside their configured tier range. Portable validation and regression tests now enforce these constraints; do not lower tier boundaries to accommodate an incorrectly priced item.
 
 Minor patch titles use a randomly chosen, unrelated animal emoji plus `Minor Patch n`. No descriptive subtitle in the title; thematic headings may appear in the body. The latest published minor release is **🐙 Minor Patch 3**, so the next new minor release is **Minor Patch 4**. An import hotfix to the same release is not automatically a new numbered patch.
+
+## Champions of the Crucible — planning decisions, 1 November 2026
+
+Plan before implementation. First format: individual championship bouts, regulated nonlethal even in Permadeath, full Health/Mana/Stamina treatment between bouts, finite summons allowed, no outside interference. Leaving the venue withdraws the entrant from that edition. About thirty-two new named fighters. A hundred completed game turns between editions replaces the proposed narrated-day cooldown. Opponent selection should preserve existing NPC levels rather than resize the cast.
+
+New Nature/Soul plant-undead dungeon targets approximately levels 35–50. Its discovery uses the actual Evertree Portal Room plus a championship trophy and Silver Web Portal Key; no spider-queen victory was requested. Preserve the existing Spider Realm and anomaly behavior. The Sepulchral Conservatory premise and named caretaker remain creative proposals.
+
+Oni lore direction: predominantly Edo-inspired countryside/towns, samurai, shinobi, independent factions, Shogun and yokai, with some more-developed Arcane/Soul magitech. No modern metropolis or carved-face mountain. This update prepares lore and modest ancestry details, not the Oni map/realm or spirit portal expansion. The detailed plan separates supported mechanics, observed reference configuration and live-test uncertainties.

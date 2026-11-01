@@ -2,25 +2,58 @@
 
 The Eternal Crucible is opening its gates to a new generation of challengers!
 
-### ⚔️ Enter the Arena
+Students, adventurers, veteran duelists and ambitious newcomers now have somewhere to test themselves, meet their competition and chase a championship. Whether you arrive with a carefully practiced technique or far too much confidence, there is more happening around the arena than a single afternoon's fighting.
 
-- Join optional individual championships with changing fields, named cups and opponents suited to your experience.
-- Fight through different arena layouts, from pillars and overgrown cover to frozen platforms and broken stairs.
-- Meet new competitors in the lounge: rivals, nervous newcomers, veteran fighters and people with lives beyond the ring.
-- Take a break between bouts, visit the medics or head straight into your next match. Ordinary sparring remains available between championships.
-- Win prizes and a championship trophy. Later editions become available after a proper break.
+This update also reaches beyond the stands, with a haunted sanctuary to explore, new techniques to learn and a few people offering work you probably shouldn't discuss too loudly.
 
-### 🌿 Beyond the Applause
+### ⚔️ A Championship Worth Entering
 
-- Discover a new midgame dungeon of haunted glasshouses, memorial gardens and plant-bodied undead.
-- Explore its guarded wings, uncover what its caretaker is preserving, and choose how to end the danger.
-- Added **160 abilities** across magical disciplines, martial techniques, mixed fighting styles and Magitech.
+Join optional individual championships with changing fields, named cups and opponents selected around your experience. Familiar competitors retain their own strengths, so learning how someone fights can matter when you meet them again.
+
+- Work your way through an announced bracket toward the final, with prizes and a championship trophy waiting for the winner.
+- Compete under regulated, nonlethal rules. Surrender, referee stoppages and defeat are part of a sporting career, and losing ends that championship run.
+- Return for later editions after a proper break, or arrange a willing opponent for an ordinary friendly match between championships.
+
+### 🏟️ Different Arenas, Different Problems
+
+The ground beneath your feet deserves some attention too. Championship bouts can take place among stone pillars, overgrown cover, frozen platforms, broken stairs and shallow water.
+
+Use the layout to find an opening, protect your approach or reconsider a technique that worked perfectly well on an open floor. Between bouts, visit the infirmary, take some time in the lounge or declare yourself ready to continue. An unharmed fighter doesn't need to invent a reason to see the medics.
+
+### 🤝 Meet the People Behind the Matches
+
+A new cast of competitors and arena staff brings rivalries, nerves, pride and ordinary lives into the Crucible. Some fighters are friendly company. Others are much easier to appreciate from the opposite end of the lounge.
+
+- Talk with opponents before and between bouts, learn about their interests and get a sense of who you are about to face.
+- Meet officials and medical staff who help keep the venue running.
+- Spend time practicing or discussing techniques when you aren't chasing a title. The Crucible remains open between championships.
+
+### 🌿 The Sepulchral Conservatory
+
+A new midgame dungeon waits beyond the familiar routes: a ruined sanctuary of cracked glasshouses, pale timber bodies and white-leaved memorial trees. Something still tends its gardens, and some of the things growing there remember their names.
+
+**Finding the entrance:** Bring your Crucible championship trophy and the **Silver Web Portal Key** from the Silken Descent to the **Evertree Portal Room**. A new passage may reveal itself among the roots.
+
+- Explore two guarded tending wings, irrigation walks, a quiet garden and the records left behind by the sanctuary's keepers.
+- Face plant-bodied undead and unfamiliar guardians as you work toward the protected heart of the conservatory.
+- Investigate what its caretaker is preserving and find your own way to end the danger. Preparation, practical solutions and companions can all help; retreat remains an option.
+
+### ✨ 160 New Abilities
+
+The ability catalogue has expanded across magical disciplines, martial techniques, mixed fighting styles and Magitech.
+
+There are new choices for dedicated casters, weapon users, unarmed fighters and characters who combine their training. Explore different ways to control space, defend yourself and create openings, alongside new offensive techniques. These additions expand what you can learn as your character develops.
 
 ### 🕯️ Less Honest Work
 
-- New contacts and questionable jobs in Glowhaven and Drakenspire, with room to negotiate, refuse or pursue another solution.
-- Expanded Oni lore, laying the cultural groundwork for a future journey.
+New contacts in Glowhaven and Drakenspire have proposals involving questionable paperwork, disputed goods, concealed dealings and money riding on the wrong outcome.
 
-Championship brackets currently support a solo player with NPC companions watching from outside the ring. Team tournaments are still ahead.
+Hear their terms, decide whose version you believe and choose how involved you want to become. There is room to negotiate, refuse, expose a scheme or pursue another solution. The people making these offers also have businesses, relationships and problems beyond the job they want from you.
 
-**A title is earned in the arena. What you do afterward is up to you.**
+### 👹 A Glimpse of Oni Society
+
+Expanded lore introduces more of the Oni homeland's towns and countryside, samurai and shinobi traditions, independent factions, yokai and distinctive Arcane and Soul magitech. This is cultural groundwork for a future journey; the Oni realm itself is still ahead.
+
+**Championships currently support solo play**, with NPC companions welcome outside the ring. Finite learned summons are permitted during bouts; outside interference is not. Team tournaments are still ahead.
+
+See you in the arena! 🏆

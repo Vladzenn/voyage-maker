@@ -12,6 +12,8 @@ Do not include trigger IDs, storage keys, counters, schema limits, JSON paths, f
 
 Keep bullets parallel and readable. Emojis identify groups rather than decorate every sentence. Avoid a full NPC roster, exact menu inventory, legal code or exhaustive list of edge cases. Public patch notes are an invitation to play, not the implementation manual.
 
+Use the author's release screenshots as the layout reference: an emoji title, a short conversational introduction, bold or heading-style feature groups, and concise bullets. Prefer broad descriptions over exact counts of NPCs, quests, triggers or adjustments. Reserve numbers for a headline addition whose scale matters, such as **300 new items**, or a gameplay value the player needs. A major label reflects a substantial expansion of playable experiences and systems; it does not require inflating the post with counts or claiming that all behavior has been playtested.
+
 ## Separate development notes
 
 Record the source export and hash, actual changed sections, retained user edits, mechanics and ownership, references consulted, validation performed, fresh-game versus existing-save implications, and a short manual test checklist. These notes can name IDs and counters because they are author-facing.
@@ -26,10 +28,12 @@ Keep the downloadable world, canonical world and standalone section replacements
 [One or two sentences about the experience this update adds.]
 
 ### [emoji] [Main feature]
+
 - [Concrete addition.]
 - [Player-visible benefit.]
 
 ### [emoji] [Creation, story or quality improvements]
+
 - [Grouped additions.]
 - [Visible fixes or refinements.]
 

@@ -1,15 +1,25 @@
-# 🧭 Adventurers of Glowhaven
+## 🧭 Adventurers of Glowhaven — Major Update
 
-**A major expansion of the people, work and everyday adventures beyond the academies.**
+There's more to life beyond the academy gates! Meet fellow adventurers, follow strange rumors, and find somewhere to call your own.
 
-- Meet **16 new characters**, with complete portraits, friendships, rivalries and lives beyond their commissions.
-- Discover **three new story arcs** across Drakenspire and Asterveil: an unnatural winter, a doubtful expedition and a troublesome adventuring crew.
-- Find **16 new quests**, public rumors and visible problems throughout the world. Hearing about trouble leaves the choice to you.
-- Encounter new creatures, choose from more starting equipment, and seek advice before an unfamiliar journey.
-- Rent a private room, buy a modest home or establish a workshop. Keys and deeds help keep your arrangements with you.
-- Find Ragnar Leonhart, Adoha Aonuma and Karia Morino at different stops along their travels.
-- Improved equipment refinement rules, allied combat behavior and weapon-action checks.
-- Rebalanced much of the adult cast, including faculty and headmasters. Ilyra Stillglass, Ragnar Leonhart and the Spider Realm retain their established power.
-- Added optional **Ironman Mode** and a journal-repair command for quests that fail to recognize completion.
+### ⚔️ New Faces & Adventures
 
-Returning clients remember your work, and familiar faces still have ordinary days worth sharing.
+- Added adventuring companies, guild regulars and other residents, with new portraits, friendships, rivalries and personal stories.
+- New storylines across Drakenspire and Asterveil: troubling winter disturbances, an unlikely research expedition, and an adventuring crew with some very questionable business practices.
+- Added quests throughout Glowhaven, Drakenspire, Asterveil and Wraith Island Prison.
+- Expanded the creatures you can encounter during your travels and fieldwork.
+
+### 🌍 A World on the Move
+
+- Ragnar Leonhart, Adoha Aonuma and Karia Morino now travel between familiar places. You might catch them somewhere new!
+- Discover opportunities through overheard conversations, local news and visible problems. Following up is your choice.
+- Returning clients can acknowledge your previous work.
+- Rent a private room, buy a modest home, or establish a workshop—with keys and deeds to remember your arrangements.
+
+### 🛠️ Combat, Equipment & Quality of Life
+
+- Expanded starting equipment choices for different fighting styles.
+- Improved equipment refinement guidance, weapon-action checks and allied combat behavior.
+- Rebalanced much of the existing cast, including academy faculty and headmasters.
+- Added optional solo **Ironman Mode** for one-life adventures.
+- Added a journal-repair command for accepted quests that fail to recognize completion: `quest done: Exact Quest Name`.

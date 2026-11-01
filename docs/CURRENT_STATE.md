@@ -14,6 +14,8 @@ The previous Curios, Scrolls and Gentler Adventures pass remains intact: 300 add
 
 Read `world-draft/Adventurers of Glowhaven - Development Notes.md` for mechanics, sources, limitations and the live test checklist. Short public notes are in `world-draft/Adventurers of Glowhaven - Patch Notes.md`.
 
+The public announcement was revised to the author's screenshot style: grouped features, a conversational opening and broad descriptions rather than small exact counts. This follow-up changes documentation only; the canonical world is unchanged.
+
 - Sixteen new NPCs with sixteen completed PNG portraits: the Bellwether Company, Copper Laurels, Ysolenne, Suzuha Midorise and six guild/city/prison contacts. Six major portraits receive extra flair. Native JSON cards and separate copyable blocks are supplied. New portraitUrl fields remain blank pending actual Studio uploads; no invented hosted URL is used.
 - Three native arcs: **The Woman Beyond the Frost**, **A Thesis No One Would Fund**, and **A Very Reasonable Recovery Fee**. Fighting and negotiation are genuine winter-arc outcomes; the pearl exists but the researcher's theory needs correction. The thieves are comic opportunists with independent lives.
 - Sixteen finite native quests, including eight additional guild postings and two authorized prison errands. One completion/reward owner each. No new Silken Descent quest.

@@ -1,6 +1,6 @@
 # Champions of the Crucible — design and implementation plan
 
-Planning edition 1.1 · 1 November 2026 · **Not implemented in the playable world.**
+Planning edition 1.1 · 1 November 2026 · **Historical planning record; implementation is now in the canonical world.** Read the [mechanics and live-test guide](../../Champions%20of%20the%20Crucible%20-%20Mechanics%20and%20Playtest%20Guide.md) for actual behavior and remaining limitations. The user subsequently relaxed full-bar treatment: care is appropriate and optional, an unharmed fighter needs no invented injury, and no exact resource threshold gates readiness. That supersedes stricter medical requirements below. The initial controlled tournament is solo-human only, with NPC companions outside the ring.
 
 The aim is a repeatable sporting activity with memorable people and reliable endings. Its machinery must distinguish a real result from an attractive sentence about winning. This document supersedes the provisional Crucible chapter in the older seven-update blueprint. Names, cast concepts, counts beyond the approved fighter pool, and balance values below remain proposals.
 

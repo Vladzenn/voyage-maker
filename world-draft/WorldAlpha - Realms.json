@@ -23,5 +23,10 @@
     "name": "Glowhaven",
     "basicInfo": "Glowhaven and its surrounding farms, settlements, coast, and magical institutions, centered on the Evertree. Daily commerce and study coexist with civic politics, tournaments, and dangers that have actual causes. This regional map includes the city and its familiar surrounding country. Travel to its farms, woods, nearby settlements or offshore Wraith Island remains within Glowhaven. Evertree Base houses the controlled Portal Room linking distant lands through established routes.",
     "initialKnown": true
+  },
+  "The Sepulchral Conservatory": {
+    "name": "The Sepulchral Conservatory",
+    "basicInfo": "A sealed sanctuary beyond an old Evertree connection, where gardeners tried to grow new vessels for the dead. Living timber, memorial stone and old irrigation channels surround abandoned glasshouses. Some bodies are empty animated frames; others carry identifiable spirits. Their caretaker has continued the work long after the keepers vanished. The portal threshold offers a clear way home, while the inner gardens demand preparation and courage.",
+    "initialKnown": false
   }
 }

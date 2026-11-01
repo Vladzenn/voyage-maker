@@ -8,6 +8,7 @@ Repository: [Vladzenn/voyage-maker](https://github.com/Vladzenn/voyage-maker) (p
 
 - **Canonical world:** [world-draft/WorldAlpha - World.json](world-draft/WorldAlpha%20-%20World.json)
 - **Current state and next work:** [docs/CURRENT_STATE.md](docs/CURRENT_STATE.md)
+- **Champions of the Crucible:** [public notes](world-draft/Champions%20of%20the%20Crucible%20-%20Patch%20Notes.md), [mechanics and live-test guide](world-draft/Champions%20of%20the%20Crucible%20-%20Mechanics%20and%20Playtest%20Guide.md)
 - **Latest minor patch:** [public notes](world-draft/Phantom%20Patch%20-%20Patch%20Notes.md), [creation review guide](world-draft/Phantom%20Patch%20-%20Creation%20Guide.md) and [development notes](world-draft/Phantom%20Patch%20-%20Development%20Notes.md)
 - **Approved decisions:** [docs/DECISIONS.md](docs/DECISIONS.md)
 - **Adventurers update:** [release notes](world-draft/Adventurers%20of%20Glowhaven%20-%20Patch%20Notes.md) and [implementation/playtest guide](world-draft/Adventurers%20of%20Glowhaven%20-%20Development%20Notes.md)
@@ -27,6 +28,7 @@ python tools/test_validation.py
 node tools/test_item_mechanics.cjs
 node tools/test_adventurers.cjs
 node tools/test_creation.cjs
+node tools/test_crucible.cjs
 python tools/project.py publish -m "Describe the completed change"
 ```
 

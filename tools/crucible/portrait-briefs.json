@@ -1,0 +1,474 @@
+[
+  {
+    "name": "Kōta Mibu",
+    "prompt": "Use case: illustration-story. One finished PNG vertical 2:3 fantasy RPG NPC portrait. Polished supporting cast portrait with individual lively colors. An adult human with russet, cropped unevenly hair and green eyes. A lean build and a quick, openly curious expression. Their practical competition clothes use terracotta and cream, with a distinct well-kept travel coat or fitted training jacket. Show an unmistakably adult face and proportions. Equipment: a short ash spear. Backdrop: the Eternal Crucible's warm ivory-stone competitor gallery, red and teal banners, golden afternoon light and the empty practice ring beyond. Role profile adventurer/combat-ready, pose CB07 — Long-Weapon Intercept: hold the actual polearm or staff in a compact two-handed diagonal guard below the chest, shaft exiting a side or bottom.. Expression and character: **Default behavior:** Helps his aunt sell roofing tiles and spends his evenings carving tiny model houses; applauds too early and makes promises before checking whether he can keep them..  Primary affinity visibly suggested by warm ochre stone and tiny lifted grit. Standing centered hip-up, visible hips and lower outfit, complete head/hair/ears/horns; 13–15 percent recognizable background above the entire head silhouette, no prop in that top band. Face and eyes are the sharp focal point. Exactly two coherent arms and hands, correct grips, no extra fingers; long weapons can leave a side/bottom edge. Unmistakable hand-drawn 2D anime: stylized expressive anime eyes and face, clean ink contours, flat-color shape design, graphic cel shading, crisp pristine fine details. No photorealism, semi-realism, lifelike skin, pores, 3D rendering or plastic surfaces. No text, lettering, names, logos, UI, borders, signature, watermark, additional people, collage or variants.",
+    "pose": "CB07",
+    "eligible": [
+      "CB01",
+      "CB07",
+      "CB10",
+      "CB11"
+    ],
+    "major": false,
+    "file": "world-draft/npc portraits/Kōta Mibu.png"
+  },
+  {
+    "name": "Nene Inui",
+    "prompt": "Use case: illustration-story. One finished PNG vertical 2:3 fantasy RPG NPC portrait. Polished supporting cast portrait with individual lively colors. An adult rabbit beastfolk with peach-pink, tied in two short puffs hair and amber eyes. A compact athletic build and a challenging tilted chin. Human facial features, upright rabbit ears and a short rabbit tail. Their practical competition clothes use mint and charcoal, with a distinct well-kept travel coat or fitted training jacket. Show an unmistakably adult face and proportions. Equipment: padded striking gloves. Backdrop: the Eternal Crucible's warm ivory-stone competitor gallery, red and teal banners, golden afternoon light and the empty practice ring beyond. Role profile adventurer/combat-ready, pose CB10 — Counterturn: turn hips away and shoulders toward an implied approach, actual equipment held in a compact guard; no extreme twist or crouch.. Expression and character: **Default behavior:** Delivers laundry, keeps absurdly competitive footrace records and loves terrible romantic plays; takes corrections as dares and cannot conceal her sulking..  Primary affinity visibly suggested by clear green-white air ribbons moving cloth. Secondary affinity motifs, not extra powers: small stones caught in a readable violet local orbit. Standing centered hip-up, visible hips and lower outfit, complete head/hair/ears/horns; 13–15 percent recognizable background above the entire head silhouette, no prop in that top band. Face and eyes are the sharp focal point. Exactly two coherent arms and hands, correct grips, no extra fingers; long weapons can leave a side/bottom edge. Unmistakable hand-drawn 2D anime: stylized expressive anime eyes and face, clean ink contours, flat-color shape design, graphic cel shading, crisp pristine fine details. No photorealism, semi-realism, lifelike skin, pores, 3D rendering or plastic surfaces. No text, lettering, names, logos, UI, borders, signature, watermark, additional people, collage or variants.",
+    "pose": "CB10",
+    "eligible": [
+      "CB12",
+      "CB10",
+      "CB11"
+    ],
+    "major": false,
+    "file": "world-draft/npc portraits/Nene Inui.png"
+  },
+  {
+    "name": "Masato Oda",
+    "prompt": "Use case: illustration-story. One finished PNG vertical 2:3 fantasy RPG NPC portrait. Polished supporting cast portrait with individual lively colors. An adult human with dark blue, soft and tousled hair and hazel eyes. A sturdy build and a thoughtful, watchful face. Their practical competition clothes use cobalt and tan, with a distinct well-kept travel coat or fitted training jacket. Show an unmistakably adult face and proportions. Equipment: a leather sling. Backdrop: the Eternal Crucible's warm ivory-stone competitor gallery, red and teal banners, golden afternoon light and the empty practice ring beyond. Role profile adventurer/combat-ready, pose CB11 — Guard Recovery: stand at the end of a controlled technique, actual equipment drawn into a stable compatible guard, cloth and fitting effect settling.. Expression and character: **Default behavior:** Is a parcel runner who sketches birds on wrapping offcuts and saves pretty stamps; apologizes so much that people sometimes miss his actual objections..  Primary affinity visibly suggested by clear golden light on the actual working hand. Standing centered hip-up, visible hips and lower outfit, complete head/hair/ears/horns; 13–15 percent recognizable background above the entire head silhouette, no prop in that top band. Face and eyes are the sharp focal point. Exactly two coherent arms and hands, correct grips, no extra fingers; long weapons can leave a side/bottom edge. Unmistakable hand-drawn 2D anime: stylized expressive anime eyes and face, clean ink contours, flat-color shape design, graphic cel shading, crisp pristine fine details. No photorealism, semi-realism, lifelike skin, pores, 3D rendering or plastic surfaces. No text, lettering, names, logos, UI, borders, signature, watermark, additional people, collage or variants.",
+    "pose": "CB11",
+    "eligible": [
+      "CB11"
+    ],
+    "major": false,
+    "file": "world-draft/npc portraits/Masato Oda.png"
+  },
+  {
+    "name": "Chika Umemori",
+    "prompt": "Use case: illustration-story. One finished PNG vertical 2:3 fantasy RPG NPC portrait. Polished supporting cast portrait with individual lively colors. An adult human with moss-green, in a blunt bob hair and brown eyes. A tall build and an easy, slightly cocky posture. Their practical competition clothes use violet and white, with a distinct well-kept travel coat or fitted training jacket. Show an unmistakably adult face and proportions. Equipment: a wooden practice shield and short cudgel. Backdrop: the Eternal Crucible's warm ivory-stone competitor gallery, red and teal banners, golden afternoon light and the empty practice ring beyond. Role profile adventurer/combat-ready, pose CB05 — Shield and Answer: angle the actual shield outward beside the torso while holding the actual weapon ready with the other hand.. Expression and character: **Default behavior:** Works in a plant nursery, grows excellent radishes and sings badly while watering; becomes stubbornly silent when embarrassed instead of explaining the problem..  Primary affinity visibly suggested by bright living leaf and root growth. Secondary affinity motifs, not extra powers: a faint gold constellation-like pattern on an actual small object, clear blue frost filaments. Standing centered hip-up, visible hips and lower outfit, complete head/hair/ears/horns; 13–15 percent recognizable background above the entire head silhouette, no prop in that top band. Face and eyes are the sharp focal point. Exactly two coherent arms and hands, correct grips, no extra fingers; long weapons can leave a side/bottom edge. Unmistakable hand-drawn 2D anime: stylized expressive anime eyes and face, clean ink contours, flat-color shape design, graphic cel shading, crisp pristine fine details. No photorealism, semi-realism, lifelike skin, pores, 3D rendering or plastic surfaces. No text, lettering, names, logos, UI, borders, signature, watermark, additional people, collage or variants.",
+    "pose": "CB05",
+    "eligible": [
+      "CB05"
+    ],
+    "major": false,
+    "file": "world-draft/npc portraits/Chika Umemori.png"
+  },
+  {
+    "name": "Shun Kurebayashi",
+    "prompt": "Use case: illustration-story. One finished PNG vertical 2:3 fantasy RPG NPC portrait. Polished supporting cast portrait with individual lively colors. An adult human with chestnut, shoulder-length and loosely tied hair and gold eyes. A lean build and a quick, openly curious expression. Their practical competition clothes use ochre and navy, with a distinct well-kept travel coat or fitted training jacket. Show an unmistakably adult face and proportions. Equipment: a reinforced walking staff. Backdrop: the Eternal Crucible's warm ivory-stone competitor gallery, red and teal banners, golden afternoon light and the empty practice ring beyond. Role profile adventurer/combat-ready, pose CB07 — Long-Weapon Intercept: hold the actual polearm or staff in a compact two-handed diagonal guard below the chest, shaft exiting a side or bottom.. Expression and character: **Default behavior:** Maintains courtyard hedges and knows an unreasonable amount of neighborhood gossip; cannot resist explaining what someone else ought to have done..  Primary affinity visibly suggested by bright living leaf and root growth. Standing centered hip-up, visible hips and lower outfit, complete head/hair/ears/horns; 13–15 percent recognizable background above the entire head silhouette, no prop in that top band. Face and eyes are the sharp focal point. Exactly two coherent arms and hands, correct grips, no extra fingers; long weapons can leave a side/bottom edge. Unmistakable hand-drawn 2D anime: stylized expressive anime eyes and face, clean ink contours, flat-color shape design, graphic cel shading, crisp pristine fine details. No photorealism, semi-realism, lifelike skin, pores, 3D rendering or plastic surfaces. No text, lettering, names, logos, UI, borders, signature, watermark, additional people, collage or variants.",
+    "pose": "CB07",
+    "eligible": [
+      "CB01",
+      "CB07"
+    ],
+    "major": false,
+    "file": "world-draft/npc portraits/Shun Kurebayashi.png"
+  },
+  {
+    "name": "Rena Kogetsu",
+    "prompt": "Use case: illustration-story. One finished PNG vertical 2:3 fantasy RPG NPC portrait. Polished supporting cast portrait with individual lively colors. An adult half-elf with silver-lilac, in a high knot hair and blue eyes. A compact athletic build and a challenging tilted chin. Their practical competition clothes use rose and black, with a distinct well-kept travel coat or fitted training jacket. Show an unmistakably adult face and proportions. This long-lived person looks like a youthful adult, not an elderly human; chronological age does not prescribe wrinkles. Equipment: a blunt-tipped saber. Backdrop: the Eternal Crucible's warm ivory-stone competitor gallery, red and teal banners, golden afternoon light and the empty practice ring beyond. Role profile adventurer/combat-ready, pose CB10 — Counterturn: turn hips away and shoulders toward an implied approach, actual equipment held in a compact guard; no extreme twist or crouch.. Expression and character: **Default behavior:** Repairs umbrellas, collects sea glass and insists that rainy walks are underrated; quietly keeps score of favors and gets prickly when people forget them..  Primary affinity visibly suggested by a controlled blue water ribbon. Standing centered hip-up, visible hips and lower outfit, complete head/hair/ears/horns; 13–15 percent recognizable background above the entire head silhouette, no prop in that top band. Face and eyes are the sharp focal point. Exactly two coherent arms and hands, correct grips, no extra fingers; long weapons can leave a side/bottom edge. Unmistakable hand-drawn 2D anime: stylized expressive anime eyes and face, clean ink contours, flat-color shape design, graphic cel shading, crisp pristine fine details. No photorealism, semi-realism, lifelike skin, pores, 3D rendering or plastic surfaces. No text, lettering, names, logos, UI, borders, signature, watermark, additional people, collage or variants.",
+    "pose": "CB10",
+    "eligible": [
+      "CB03",
+      "CB10"
+    ],
+    "major": false,
+    "file": "world-draft/npc portraits/Rena Kogetsu.png"
+  },
+  {
+    "name": "Eita Kuroda",
+    "prompt": "Use case: illustration-story. One finished PNG vertical 2:3 fantasy RPG NPC portrait. Polished supporting cast portrait with individual lively colors. An adult human with black, shaved at the sides hair and gray eyes. A sturdy build and a thoughtful, watchful face. Their practical competition clothes use forest green and brass, with a distinct well-kept travel coat or fitted training jacket. Show an unmistakably adult face and proportions. Equipment: a short chain-linked club. Backdrop: the Eternal Crucible's warm ivory-stone competitor gallery, red and teal banners, golden afternoon light and the empty practice ring beyond. Role profile adventurer/combat-ready, pose CB11 — Guard Recovery: stand at the end of a controlled technique, actual equipment drawn into a stable compatible guard, cloth and fitting effect settling.. Expression and character: **Default behavior:** Makes belts and harnesses and enjoys dressing far better than his workshop suggests; assumes caution means cowardice until experience proves otherwise..  Primary affinity visibly suggested by fine silver glints on actual metal. Standing centered hip-up, visible hips and lower outfit, complete head/hair/ears/horns; 13–15 percent recognizable background above the entire head silhouette, no prop in that top band. Face and eyes are the sharp focal point. Exactly two coherent arms and hands, correct grips, no extra fingers; long weapons can leave a side/bottom edge. Unmistakable hand-drawn 2D anime: stylized expressive anime eyes and face, clean ink contours, flat-color shape design, graphic cel shading, crisp pristine fine details. No photorealism, semi-realism, lifelike skin, pores, 3D rendering or plastic surfaces. No text, lettering, names, logos, UI, borders, signature, watermark, additional people, collage or variants.",
+    "pose": "CB11",
+    "eligible": [
+      "CB04",
+      "CB11"
+    ],
+    "major": false,
+    "file": "world-draft/npc portraits/Eita Kuroda.png"
+  },
+  {
+    "name": "Fuyumi Hase",
+    "prompt": "Use case: illustration-story. One finished PNG vertical 2:3 fantasy RPG NPC portrait. Polished supporting cast portrait with individual lively colors. An adult cat beastfolk with white, in a long side braid hair and violet eyes. A tall build and an easy, slightly cocky posture. Human facial features, small cat ears and a long cat tail. Their practical competition clothes use coral and slate, with a distinct well-kept travel coat or fitted training jacket. Show an unmistakably adult face and proportions. Equipment: a short casting wand. Backdrop: the Eternal Crucible's warm ivory-stone competitor gallery, red and teal banners, golden afternoon light and the empty practice ring beyond. Role profile adventurer/combat-ready, pose CB09 — Focus and Cast: aim the actual catalyst from lower-chest height while the free hand shapes the primary learned magic beside the torso.. Expression and character: **Default behavior:** Collects overdue invoices, plays tabletop strategy games and adores warm custard; enjoys being intimidating and occasionally mistakes silence for agreement..  Primary affinity visibly suggested by clear blue frost filaments. Standing centered hip-up, visible hips and lower outfit, complete head/hair/ears/horns; 13–15 percent recognizable background above the entire head silhouette, no prop in that top band. Face and eyes are the sharp focal point. Exactly two coherent arms and hands, correct grips, no extra fingers; long weapons can leave a side/bottom edge. Unmistakable hand-drawn 2D anime: stylized expressive anime eyes and face, clean ink contours, flat-color shape design, graphic cel shading, crisp pristine fine details. No photorealism, semi-realism, lifelike skin, pores, 3D rendering or plastic surfaces. No text, lettering, names, logos, UI, borders, signature, watermark, additional people, collage or variants.",
+    "pose": "CB09",
+    "eligible": [
+      "CB09"
+    ],
+    "major": false,
+    "file": "world-draft/npc portraits/Fuyumi Hase.png"
+  },
+  {
+    "name": "Tsubasa Maki",
+    "prompt": "Use case: illustration-story. One finished PNG vertical 2:3 fantasy RPG NPC portrait. Polished supporting cast portrait with individual lively colors. An adult avian beastfolk with teal, swept back through small feather tufts hair and orange eyes. A lean build and a quick, openly curious expression. Human facial features, small feather tufts and feathers along the outer forearms, with human hands. Their practical competition clothes use terracotta and cream, with a distinct well-kept travel coat or fitted training jacket. Show an unmistakably adult face and proportions. Equipment: a compact recurve bow. Backdrop: the Eternal Crucible's warm ivory-stone competitor gallery, red and teal banners, golden afternoon light and the empty practice ring beyond. Role profile adventurer/combat-ready, pose CB08 — Archer's Set: angle the actual bow to one side and begin a controlled modest draw with readable string hand and face; keep the bow out of top headroom.. Expression and character: **Default behavior:** Works stage rigging, dances enthusiastically and alters secondhand coats into bright costumes; laughs when anxious, which can sound cruel at exactly the wrong moment..  Primary affinity visibly suggested by clear green-white air ribbons moving cloth. Secondary affinity motifs, not extra powers: clear golden light on the actual working hand. Standing centered hip-up, visible hips and lower outfit, complete head/hair/ears/horns; 13–15 percent recognizable background above the entire head silhouette, no prop in that top band. Face and eyes are the sharp focal point. Exactly two coherent arms and hands, correct grips, no extra fingers; long weapons can leave a side/bottom edge. Unmistakable hand-drawn 2D anime: stylized expressive anime eyes and face, clean ink contours, flat-color shape design, graphic cel shading, crisp pristine fine details. No photorealism, semi-realism, lifelike skin, pores, 3D rendering or plastic surfaces. No text, lettering, names, logos, UI, borders, signature, watermark, additional people, collage or variants.",
+    "pose": "CB08",
+    "eligible": [
+      "CB08"
+    ],
+    "major": false,
+    "file": "world-draft/npc portraits/Tsubasa Maki.png"
+  },
+  {
+    "name": "Yae Mitsuhara",
+    "prompt": "Use case: illustration-story. One finished PNG vertical 2:3 fantasy RPG NPC portrait. Polished supporting cast portrait with individual lively colors. An adult human with wine-red, in loose ringlets hair and turquoise eyes. A compact athletic build and a challenging tilted chin. Their practical competition clothes use mint and charcoal, with a distinct well-kept travel coat or fitted training jacket. Show an unmistakably adult face and proportions. Equipment: a reinforced fighting umbrella. Backdrop: the Eternal Crucible's warm ivory-stone competitor gallery, red and teal banners, golden afternoon light and the empty practice ring beyond. Role profile adventurer/combat-ready, pose CB03 — Outside Ward: hold the actual cutting weapon outside the near shoulder, its point down and outward, torso slightly turned.. Expression and character: **Default behavior:** Sells rainwear, follows theater fashions and writes pointed anonymous shop reviews; offers unsolicited advice and is deeply offended when someone returns the favor..  Primary affinity visibly suggested by a controlled blue water ribbon. Standing centered hip-up, visible hips and lower outfit, complete head/hair/ears/horns; 13–15 percent recognizable background above the entire head silhouette, no prop in that top band. Face and eyes are the sharp focal point. Exactly two coherent arms and hands, correct grips, no extra fingers; long weapons can leave a side/bottom edge. Unmistakable hand-drawn 2D anime: stylized expressive anime eyes and face, clean ink contours, flat-color shape design, graphic cel shading, crisp pristine fine details. No photorealism, semi-realism, lifelike skin, pores, 3D rendering or plastic surfaces. No text, lettering, names, logos, UI, borders, signature, watermark, additional people, collage or variants.",
+    "pose": "CB03",
+    "eligible": [
+      "CB03",
+      "CB10"
+    ],
+    "major": false,
+    "file": "world-draft/npc portraits/Yae Mitsuhara.png"
+  },
+  {
+    "name": "Daisuke Kariya",
+    "prompt": "Use case: illustration-story. One finished PNG vertical 2:3 fantasy RPG NPC portrait. Polished supporting cast portrait with individual lively colors. An adult human with brown, in a rough undercut hair and dark green eyes. A sturdy build and a thoughtful, watchful face. Their practical competition clothes use cobalt and tan, with a distinct well-kept travel coat or fitted training jacket. Show an unmistakably adult face and proportions. Equipment: a broad work axe. Backdrop: the Eternal Crucible's warm ivory-stone competitor gallery, red and teal banners, golden afternoon light and the empty practice ring beyond. Role profile adventurer/combat-ready, pose CB04 — Heavy Low Ready: support the actual heavy weapon with both hands across the lower torso, grounded hips and relaxed bent elbows.. Expression and character: **Default behavior:** Loads harbor cargo, cooks extravagant stews and visits his father for weekly card games; doubles down on a bad first impression instead of admitting he misjudged someone..  Primary affinity visibly suggested by warm ochre stone and tiny lifted grit. Secondary affinity motifs, not extra powers: a small sharply bounded ink-violet shadow motif, fine silver glints on actual metal. Standing centered hip-up, visible hips and lower outfit, complete head/hair/ears/horns; 13–15 percent recognizable background above the entire head silhouette, no prop in that top band. Face and eyes are the sharp focal point. Exactly two coherent arms and hands, correct grips, no extra fingers; long weapons can leave a side/bottom edge. Unmistakable hand-drawn 2D anime: stylized expressive anime eyes and face, clean ink contours, flat-color shape design, graphic cel shading, crisp pristine fine details. No photorealism, semi-realism, lifelike skin, pores, 3D rendering or plastic surfaces. No text, lettering, names, logos, UI, borders, signature, watermark, additional people, collage or variants.",
+    "pose": "CB04",
+    "eligible": [
+      "CB04",
+      "CB10",
+      "CB11"
+    ],
+    "major": false,
+    "file": "world-draft/npc portraits/Daisuke Kariya.png"
+  },
+  {
+    "name": "Mayu Kido",
+    "prompt": "Use case: illustration-story. One finished PNG vertical 2:3 fantasy RPG NPC portrait. Major-character flair with a memorable silhouette and richer dramatic lighting. An adult human with honey-blond, in a precise curled ponytail hair and ice blue eyes. A tall build and an easy, slightly cocky posture. Their practical competition clothes use violet and white, with a distinct well-kept travel coat or fitted training jacket. Show an unmistakably adult face and proportions. Equipment: a small steel buckler and thrusting sword. Backdrop: the Eternal Crucible's warm ivory-stone competitor gallery, red and teal banners, golden afternoon light and the empty practice ring beyond. Role profile adventurer/combat-ready, pose CB11 — Guard Recovery: stand at the end of a controlled technique, actual equipment drawn into a stable compatible guard, cloth and fitting effect settling.. Expression and character: **Default behavior:** Manages a modest family estate and has a surprisingly childish enthusiasm for marionette theater; can be patronizing toward people whose manners differ from hers..  Primary affinity visibly suggested by small stones caught in a readable violet local orbit. Secondary affinity motifs, not extra powers: a subtle false color glint, never a duplicate person. Standing centered hip-up, visible hips and lower outfit, complete head/hair/ears/horns; 13–15 percent recognizable background above the entire head silhouette, no prop in that top band. Face and eyes are the sharp focal point. Exactly two coherent arms and hands, correct grips, no extra fingers; long weapons can leave a side/bottom edge. Unmistakable hand-drawn 2D anime: stylized expressive anime eyes and face, clean ink contours, flat-color shape design, graphic cel shading, crisp pristine fine details. No photorealism, semi-realism, lifelike skin, pores, 3D rendering or plastic surfaces. No text, lettering, names, logos, UI, borders, signature, watermark, additional people, collage or variants.",
+    "pose": "CB11",
+    "eligible": [
+      "CB05",
+      "CB10",
+      "CB11"
+    ],
+    "major": true,
+    "file": "world-draft/npc portraits/Mayu Kido.png"
+  },
+  {
+    "name": "Akito Senzaki",
+    "prompt": "Use case: illustration-story. One finished PNG vertical 2:3 fantasy RPG NPC portrait. Polished supporting cast portrait with individual lively colors. An adult human man with ash-gray, in a loose fringe hair and brown eyes. A lean build and a quick, openly curious expression. Their practical competition clothes use ochre and navy, with a distinct well-kept travel coat or fitted training jacket. Show an unmistakably adult face and proportions. Equipment: a long parrying dagger. Backdrop: the Eternal Crucible's warm ivory-stone competitor gallery, red and teal banners, golden afternoon light and the empty practice ring beyond. Role profile adventurer/combat-ready, pose CB10 — Counterturn: turn hips away and shoulders toward an implied approach, actual equipment held in a compact guard; no extreme twist or crouch.. Expression and character: **Default behavior:** Assists a funeral carver and tells beautifully timed jokes that sometimes land in dreadful company; uses humor to dodge responsibility when an honest answer would be easier..  Primary affinity visibly suggested by a subtle false color glint, never a duplicate person. Secondary affinity motifs, not extra powers: a faint gold constellation-like pattern on an actual small object, a tiny harmless translucent helper motif, no second humanoid. Standing centered hip-up, visible hips and lower outfit, complete head/hair/ears/horns; 13–15 percent recognizable background above the entire head silhouette, no prop in that top band. Face and eyes are the sharp focal point. Exactly two coherent arms and hands, correct grips, no extra fingers; long weapons can leave a side/bottom edge. Unmistakable hand-drawn 2D anime: stylized expressive anime eyes and face, clean ink contours, flat-color shape design, graphic cel shading, crisp pristine fine details. No photorealism, semi-realism, lifelike skin, pores, 3D rendering or plastic surfaces. No text, lettering, names, logos, UI, borders, signature, watermark, additional people, collage or variants.",
+    "pose": "CB10",
+    "eligible": [
+      "CB10"
+    ],
+    "major": false,
+    "file": "world-draft/npc portraits/Akito Senzaki.png"
+  },
+  {
+    "name": "Mihana Shiraishi",
+    "prompt": "Use case: illustration-story. One finished PNG vertical 2:3 fantasy RPG NPC portrait. Polished supporting cast portrait with individual lively colors. An adult fae woman with pale green, in a thick shoulder-length braid hair and pink eyes. A compact athletic build and a challenging tilted chin. Small branching antlers, pointed ears and barklike plates on the forearms; adult proportions. Their practical competition clothes use rose and black, with a distinct well-kept travel coat or fitted training jacket. Show an unmistakably adult face and proportions. This long-lived person looks like a youthful adult, not an elderly human; chronological age does not prescribe wrinkles. Equipment: a short harvesting scythe. Backdrop: the Eternal Crucible's warm ivory-stone competitor gallery, red and teal banners, golden afternoon light and the empty practice ring beyond. Role profile adventurer/combat-ready, pose CB03 — Outside Ward: hold the actual cutting weapon outside the near shoulder, its point down and outward, torso slightly turned.. Expression and character: **Default behavior:** Is an apothecary assistant with small antlers, pointed ears and barklike forearm plates; she loves dancing and sour fruit; becomes possessive about useful discoveries and hates sharing credit..  Primary affinity visibly suggested by bright living leaf and root growth. Secondary affinity motifs, not extra powers: clear blue frost filaments, a faint gold constellation-like pattern on an actual small object. Standing centered hip-up, visible hips and lower outfit, complete head/hair/ears/horns; 13–15 percent recognizable background above the entire head silhouette, no prop in that top band. Face and eyes are the sharp focal point. Exactly two coherent arms and hands, correct grips, no extra fingers; long weapons can leave a side/bottom edge. Unmistakable hand-drawn 2D anime: stylized expressive anime eyes and face, clean ink contours, flat-color shape design, graphic cel shading, crisp pristine fine details. No photorealism, semi-realism, lifelike skin, pores, 3D rendering or plastic surfaces. No text, lettering, names, logos, UI, borders, signature, watermark, additional people, collage or variants.",
+    "pose": "CB03",
+    "eligible": [
+      "CB03"
+    ],
+    "major": false,
+    "file": "world-draft/npc portraits/Mihana Shiraishi.png"
+  },
+  {
+    "name": "Junpei Haneda",
+    "prompt": "Use case: illustration-story. One finished PNG vertical 2:3 fantasy RPG NPC portrait. Polished supporting cast portrait with individual lively colors. An adult human man with copper, tied into a tiny tail hair and golden brown eyes. A sturdy build and a thoughtful, watchful face. Their practical competition clothes use forest green and brass, with a distinct well-kept travel coat or fitted training jacket. Show an unmistakably adult face and proportions. Equipment: a single-edged short sword. Backdrop: the Eternal Crucible's warm ivory-stone competitor gallery, red and teal banners, golden afternoon light and the empty practice ring beyond. Role profile adventurer/combat-ready, pose CB03 — Outside Ward: hold the actual cutting weapon outside the near shoulder, its point down and outward, torso slightly turned.. Expression and character: **Default behavior:** Runs a lunch stall, experiments with grilled sweets and feeds stray cats after closing; is generous with food but petty about criticism of his cooking..  Primary affinity visibly suggested by compact warm ember trails. Standing centered hip-up, visible hips and lower outfit, complete head/hair/ears/horns; 13–15 percent recognizable background above the entire head silhouette, no prop in that top band. Face and eyes are the sharp focal point. Exactly two coherent arms and hands, correct grips, no extra fingers; long weapons can leave a side/bottom edge. Unmistakable hand-drawn 2D anime: stylized expressive anime eyes and face, clean ink contours, flat-color shape design, graphic cel shading, crisp pristine fine details. No photorealism, semi-realism, lifelike skin, pores, 3D rendering or plastic surfaces. No text, lettering, names, logos, UI, borders, signature, watermark, additional people, collage or variants.",
+    "pose": "CB03",
+    "eligible": [
+      "CB03",
+      "CB10",
+      "CB11"
+    ],
+    "major": false,
+    "file": "world-draft/npc portraits/Junpei Haneda.png"
+  },
+  {
+    "name": "Riko Narumi",
+    "prompt": "Use case: illustration-story. One finished PNG vertical 2:3 fantasy RPG NPC portrait. Polished supporting cast portrait with individual lively colors. An adult human woman with midnight blue, cropped to her jaw hair and silver eyes. A tall build and an easy, slightly cocky posture. Their practical competition clothes use coral and slate, with a distinct well-kept travel coat or fitted training jacket. Show an unmistakably adult face and proportions. Equipment: a slender rapier. Backdrop: the Eternal Crucible's warm ivory-stone competitor gallery, red and teal banners, golden afternoon light and the empty practice ring beyond. Role profile adventurer/combat-ready, pose CB11 — Guard Recovery: stand at the end of a controlled technique, actual equipment drawn into a stable compatible guard, cloth and fitting effect settling.. Expression and character: **Default behavior:** Is a noble-house tutor who loves elaborate puzzles and is appalling at small talk; corrects people in public and cannot understand why precision fails to charm them..  Primary affinity visibly suggested by clear golden light on the actual working hand. Standing centered hip-up, visible hips and lower outfit, complete head/hair/ears/horns; 13–15 percent recognizable background above the entire head silhouette, no prop in that top band. Face and eyes are the sharp focal point. Exactly two coherent arms and hands, correct grips, no extra fingers; long weapons can leave a side/bottom edge. Unmistakable hand-drawn 2D anime: stylized expressive anime eyes and face, clean ink contours, flat-color shape design, graphic cel shading, crisp pristine fine details. No photorealism, semi-realism, lifelike skin, pores, 3D rendering or plastic surfaces. No text, lettering, names, logos, UI, borders, signature, watermark, additional people, collage or variants.",
+    "pose": "CB11",
+    "eligible": [
+      "CB02",
+      "CB11"
+    ],
+    "major": false,
+    "file": "world-draft/npc portraits/Riko Narumi.png"
+  },
+  {
+    "name": "Kenta Ishizaki",
+    "prompt": "Use case: illustration-story. One finished PNG vertical 2:3 fantasy RPG NPC portrait. Polished supporting cast portrait with individual lively colors. An adult dwarf man with dark auburn, braided with a short beard hair and amber eyes. A lean build and a quick, openly curious expression. Their practical competition clothes use terracotta and cream, with a distinct well-kept travel coat or fitted training jacket. Show an unmistakably adult face and proportions. Equipment: a compact war hammer. Backdrop: the Eternal Crucible's warm ivory-stone competitor gallery, red and teal banners, golden afternoon light and the empty practice ring beyond. Role profile adventurer/combat-ready, pose CB04 — Heavy Low Ready: support the actual heavy weapon with both hands across the lower torso, grounded hips and relaxed bent elbows.. Expression and character: **Default behavior:** Repairs mill fittings, dotes on his daughter and is fiercely competitive at children's board games; says he is being practical when he is actually frightened of change..  Primary affinity visibly suggested by fine silver glints on actual metal. Standing centered hip-up, visible hips and lower outfit, complete head/hair/ears/horns; 13–15 percent recognizable background above the entire head silhouette, no prop in that top band. Face and eyes are the sharp focal point. Exactly two coherent arms and hands, correct grips, no extra fingers; long weapons can leave a side/bottom edge. Unmistakable hand-drawn 2D anime: stylized expressive anime eyes and face, clean ink contours, flat-color shape design, graphic cel shading, crisp pristine fine details. No photorealism, semi-realism, lifelike skin, pores, 3D rendering or plastic surfaces. No text, lettering, names, logos, UI, borders, signature, watermark, additional people, collage or variants.",
+    "pose": "CB04",
+    "eligible": [
+      "CB04",
+      "CB10"
+    ],
+    "major": false,
+    "file": "world-draft/npc portraits/Kenta Ishizaki.png"
+  },
+  {
+    "name": "Sayo Kirihara",
+    "prompt": "Use case: illustration-story. One finished PNG vertical 2:3 fantasy RPG NPC portrait. Major-character flair with a memorable silhouette and richer dramatic lighting. An adult human woman with iron-gray, in a tight bun hair and dark blue eyes. A compact athletic build and a challenging tilted chin. Their practical competition clothes use mint and charcoal, with a distinct well-kept travel coat or fitted training jacket. Show an unmistakably adult face and proportions. Equipment: a service-worn halberd. Backdrop: the Eternal Crucible's warm ivory-stone competitor gallery, red and teal banners, golden afternoon light and the empty practice ring beyond. Role profile adventurer/combat-ready, pose CB10 — Counterturn: turn hips away and shoulders toward an implied approach, actual equipment held in a compact guard; no extreme twist or crouch.. Expression and character: **Default behavior:** Is a retired caravan soldier learning amateur stage performance and enjoying it far more than she admits; expects people to understand instructions she has not actually given..  Primary affinity visibly suggested by fine silver glints on actual metal. Standing centered hip-up, visible hips and lower outfit, complete head/hair/ears/horns; 13–15 percent recognizable background above the entire head silhouette, no prop in that top band. Face and eyes are the sharp focal point. Exactly two coherent arms and hands, correct grips, no extra fingers; long weapons can leave a side/bottom edge. Unmistakable hand-drawn 2D anime: stylized expressive anime eyes and face, clean ink contours, flat-color shape design, graphic cel shading, crisp pristine fine details. No photorealism, semi-realism, lifelike skin, pores, 3D rendering or plastic surfaces. No text, lettering, names, logos, UI, borders, signature, watermark, additional people, collage or variants.",
+    "pose": "CB10",
+    "eligible": [
+      "CB01",
+      "CB07",
+      "CB10"
+    ],
+    "major": true,
+    "file": "world-draft/npc portraits/Sayo Kirihara.png"
+  },
+  {
+    "name": "Haruto Otsuki",
+    "prompt": "Use case: illustration-story. One finished PNG vertical 2:3 fantasy RPG NPC portrait. Polished supporting cast portrait with individual lively colors. An adult half-elf man with sandy blond, tied loosely back hair and green eyes. A sturdy build and a thoughtful, watchful face. Their practical competition clothes use cobalt and tan, with a distinct well-kept travel coat or fitted training jacket. Show an unmistakably adult face and proportions. This long-lived person looks like a youthful adult, not an elderly human; chronological age does not prescribe wrinkles. Equipment: a folding crossbow. Backdrop: the Eternal Crucible's warm ivory-stone competitor gallery, red and teal banners, golden afternoon light and the empty practice ring beyond. Role profile adventurer/combat-ready, pose CB09 — Focus and Cast: aim the actual catalyst from lower-chest height while the free hand shapes the primary learned magic beside the torso.. Expression and character: **Default behavior:** Inspects household locks, paints miniature scenery and habitually arrives early; keeps asking one more question after someone has clearly said no..  Primary affinity visibly suggested by fine reinforcement marks on the actual equipment. Secondary affinity motifs, not extra powers: clear blue frost filaments, Healing. Standing centered hip-up, visible hips and lower outfit, complete head/hair/ears/horns; 13–15 percent recognizable background above the entire head silhouette, no prop in that top band. Face and eyes are the sharp focal point. Exactly two coherent arms and hands, correct grips, no extra fingers; long weapons can leave a side/bottom edge. Unmistakable hand-drawn 2D anime: stylized expressive anime eyes and face, clean ink contours, flat-color shape design, graphic cel shading, crisp pristine fine details. No photorealism, semi-realism, lifelike skin, pores, 3D rendering or plastic surfaces. No text, lettering, names, logos, UI, borders, signature, watermark, additional people, collage or variants.",
+    "pose": "CB09",
+    "eligible": [
+      "CB09"
+    ],
+    "major": false,
+    "file": "world-draft/npc portraits/Haruto Otsuki.png"
+  },
+  {
+    "name": "Natsume Aiba",
+    "prompt": "Use case: illustration-story. One finished PNG vertical 2:3 fantasy RPG NPC portrait. Polished supporting cast portrait with individual lively colors. An adult human woman with black, with a single white streak in a low braid hair and pale violet eyes. A tall build and an easy, slightly cocky posture. Their practical competition clothes use violet and white, with a distinct well-kept travel coat or fitted training jacket. Show an unmistakably adult face and proportions. Equipment: a bell-topped combat staff. Backdrop: the Eternal Crucible's warm ivory-stone competitor gallery, red and teal banners, golden afternoon light and the empty practice ring beyond. Role profile adventurer/combat-ready, pose CB01 — Center Guard: support the actual two-handed weapon diagonally below the chin, shoulders turned slightly against the hips.. Expression and character: **Default behavior:** Works as an undertaker, breeds bright canaries and laughs loudly at terrible puns; is nosy about other people's grief and sometimes mistakes curiosity for care..  Primary affinity visibly suggested by pale blue spiritual threads around a small memorial motif. Secondary affinity motifs, not extra powers: bright living leaf and root growth, crisp cyan geometric force shapes. Standing centered hip-up, visible hips and lower outfit, complete head/hair/ears/horns; 13–15 percent recognizable background above the entire head silhouette, no prop in that top band. Face and eyes are the sharp focal point. Exactly two coherent arms and hands, correct grips, no extra fingers; long weapons can leave a side/bottom edge. Unmistakable hand-drawn 2D anime: stylized expressive anime eyes and face, clean ink contours, flat-color shape design, graphic cel shading, crisp pristine fine details. No photorealism, semi-realism, lifelike skin, pores, 3D rendering or plastic surfaces. No text, lettering, names, logos, UI, borders, signature, watermark, additional people, collage or variants.",
+    "pose": "CB01",
+    "eligible": [
+      "CB01",
+      "CB07",
+      "CB11"
+    ],
+    "major": false,
+    "file": "world-draft/npc portraits/Natsume Aiba.png"
+  },
+  {
+    "name": "Daichi Kawanobe",
+    "prompt": "Use case: illustration-story. One finished PNG vertical 2:3 fantasy RPG NPC portrait. Polished supporting cast portrait with individual lively colors. An adult human man with black, close-cropped hair and hazel eyes. A lean build and a quick, openly curious expression. Their practical competition clothes use ochre and navy, with a distinct well-kept travel coat or fitted training jacket. Show an unmistakably adult face and proportions. Equipment: reinforced handwraps. Backdrop: the Eternal Crucible's warm ivory-stone competitor gallery, red and teal banners, golden afternoon light and the empty practice ring beyond. Role profile adventurer/combat-ready, pose CB11 — Guard Recovery: stand at the end of a controlled technique, actual equipment drawn into a stable compatible guard, cloth and fitting effect settling.. Expression and character: **Default behavior:** Is a blacksmith who keeps a tiny rooftop garden and cannot resist a roadside snack; believes any problem can be solved by doing more work and becomes judgmental about fatigue..  Primary affinity visibly suggested by warm ochre stone and tiny lifted grit. Standing centered hip-up, visible hips and lower outfit, complete head/hair/ears/horns; 13–15 percent recognizable background above the entire head silhouette, no prop in that top band. Face and eyes are the sharp focal point. Exactly two coherent arms and hands, correct grips, no extra fingers; long weapons can leave a side/bottom edge. Unmistakable hand-drawn 2D anime: stylized expressive anime eyes and face, clean ink contours, flat-color shape design, graphic cel shading, crisp pristine fine details. No photorealism, semi-realism, lifelike skin, pores, 3D rendering or plastic surfaces. No text, lettering, names, logos, UI, borders, signature, watermark, additional people, collage or variants.",
+    "pose": "CB11",
+    "eligible": [
+      "CB12",
+      "CB11"
+    ],
+    "major": false,
+    "file": "world-draft/npc portraits/Daichi Kawanobe.png"
+  },
+  {
+    "name": "Midori Hozumi",
+    "prompt": "Use case: illustration-story. One finished PNG vertical 2:3 fantasy RPG NPC portrait. Polished supporting cast portrait with individual lively colors. An adult human woman with bright green, in a long high ponytail hair and brown eyes. A compact athletic build and a challenging tilted chin. Their practical competition clothes use rose and black, with a distinct well-kept travel coat or fitted training jacket. Show an unmistakably adult face and proportions. Equipment: a pair of hooked knives. Backdrop: the Eternal Crucible's warm ivory-stone competitor gallery, red and teal banners, golden afternoon light and the empty practice ring beyond. Role profile adventurer/combat-ready, pose CB06 — Paired Guard: hold one approved weapon in each hand with clearly separated guards and coherent grips.. Expression and character: **Default behavior:** Works in elder care, acts in amateur melodramas and knows everyone's preferred tea; enjoys an audience and resents being overlooked even when the occasion belongs to someone else..  Primary affinity visibly suggested by bright living leaf and root growth. Standing centered hip-up, visible hips and lower outfit, complete head/hair/ears/horns; 13–15 percent recognizable background above the entire head silhouette, no prop in that top band. Face and eyes are the sharp focal point. Exactly two coherent arms and hands, correct grips, no extra fingers; long weapons can leave a side/bottom edge. Unmistakable hand-drawn 2D anime: stylized expressive anime eyes and face, clean ink contours, flat-color shape design, graphic cel shading, crisp pristine fine details. No photorealism, semi-realism, lifelike skin, pores, 3D rendering or plastic surfaces. No text, lettering, names, logos, UI, borders, signature, watermark, additional people, collage or variants.",
+    "pose": "CB06",
+    "eligible": [
+      "CB06",
+      "CB10"
+    ],
+    "major": false,
+    "file": "world-draft/npc portraits/Midori Hozumi.png"
+  },
+  {
+    "name": "Kojirō Tsunematsu",
+    "prompt": "Use case: illustration-story. One finished PNG vertical 2:3 fantasy RPG NPC portrait. Polished supporting cast portrait with individual lively colors. An adult human man with dark brown, graying at the temples hair and gray-green eyes. A sturdy build and a thoughtful, watchful face. Their practical competition clothes use forest green and brass, with a distinct well-kept travel coat or fitted training jacket. Show an unmistakably adult face and proportions. Equipment: a plain longsword. Backdrop: the Eternal Crucible's warm ivory-stone competitor gallery, red and teal banners, golden afternoon light and the empty practice ring beyond. Role profile adventurer/combat-ready, pose CB03 — Outside Ward: hold the actual cutting weapon outside the near shoulder, its point down and outward, torso slightly turned.. Expression and character: **Default behavior:** Teaches private arithmetic lessons and secretly collects ridiculous romance serials; treats disagreement as a test of competence and can become insufferably condescending..  Primary affinity visibly suggested by small stones caught in a readable violet local orbit. Standing centered hip-up, visible hips and lower outfit, complete head/hair/ears/horns; 13–15 percent recognizable background above the entire head silhouette, no prop in that top band. Face and eyes are the sharp focal point. Exactly two coherent arms and hands, correct grips, no extra fingers; long weapons can leave a side/bottom edge. Unmistakable hand-drawn 2D anime: stylized expressive anime eyes and face, clean ink contours, flat-color shape design, graphic cel shading, crisp pristine fine details. No photorealism, semi-realism, lifelike skin, pores, 3D rendering or plastic surfaces. No text, lettering, names, logos, UI, borders, signature, watermark, additional people, collage or variants.",
+    "pose": "CB03",
+    "eligible": [
+      "CB03",
+      "CB10"
+    ],
+    "major": false,
+    "file": "world-draft/npc portraits/Kojirō Tsunematsu.png"
+  },
+  {
+    "name": "Ema Tsukishiro",
+    "prompt": "Use case: illustration-story. One finished PNG vertical 2:3 fantasy RPG NPC portrait. Major-character flair with a memorable silhouette and richer dramatic lighting. An adult human woman with white, in an asymmetrical bob hair and cobalt eyes. A tall build and an easy, slightly cocky posture. Their practical competition clothes use coral and slate, with a distinct well-kept travel coat or fitted training jacket. Show an unmistakably adult face and proportions. Equipment: a ringed bronze staff. Backdrop: the Eternal Crucible's warm ivory-stone competitor gallery, red and teal banners, golden afternoon light and the empty practice ring beyond. Role profile adventurer/combat-ready, pose CB01 — Center Guard: support the actual two-handed weapon diagonally below the chin, shoulders turned slightly against the hips.. Expression and character: **Default behavior:** Is a deaf instrument maker who feels resonance through her hands, signs fluently and enjoys very bad silent comedy; is blunt about mistakes and has little patience for people who mistake loud speech for accommodation..  Primary affinity visibly suggested by clean visible resonant rings beside the actual tool. Secondary affinity motifs, not extra powers: a tiny harmless translucent helper motif, no second humanoid. Standing centered hip-up, visible hips and lower outfit, complete head/hair/ears/horns; 13–15 percent recognizable background above the entire head silhouette, no prop in that top band. Face and eyes are the sharp focal point. Exactly two coherent arms and hands, correct grips, no extra fingers; long weapons can leave a side/bottom edge. Unmistakable hand-drawn 2D anime: stylized expressive anime eyes and face, clean ink contours, flat-color shape design, graphic cel shading, crisp pristine fine details. No photorealism, semi-realism, lifelike skin, pores, 3D rendering or plastic surfaces. No text, lettering, names, logos, UI, borders, signature, watermark, additional people, collage or variants.",
+    "pose": "CB01",
+    "eligible": [
+      "CB01",
+      "CB07",
+      "CB10"
+    ],
+    "major": true,
+    "file": "world-draft/npc portraits/Ema Tsukishiro.png"
+  },
+  {
+    "name": "Ayato Nikaidō",
+    "prompt": "Use case: illustration-story. One finished PNG vertical 2:3 fantasy RPG NPC portrait. Polished supporting cast portrait with individual lively colors. An adult human man with violet-black, swept into a dramatic wave hair and gold eyes. A lean build and a quick, openly curious expression. Their practical competition clothes use terracotta and cream, with a distinct well-kept travel coat or fitted training jacket. Show an unmistakably adult face and proportions. Equipment: a broad brass-bound grimoire. Backdrop: the Eternal Crucible's warm ivory-stone competitor gallery, red and teal banners, golden afternoon light and the empty practice ring beyond. Role profile adventurer/combat-ready, pose CB10 — Counterturn: turn hips away and shoulders toward an implied approach, actual equipment held in a compact guard; no extreme twist or crouch.. Expression and character: **Default behavior:** Performs stage illusions, spends extravagantly on coats and is excellent at entertaining shy children; turns conversations toward himself and sulks when a practical person gets more applause..  Primary affinity visibly suggested by crisp cyan geometric force shapes. Standing centered hip-up, visible hips and lower outfit, complete head/hair/ears/horns; 13–15 percent recognizable background above the entire head silhouette, no prop in that top band. Face and eyes are the sharp focal point. Exactly two coherent arms and hands, correct grips, no extra fingers; long weapons can leave a side/bottom edge. Unmistakable hand-drawn 2D anime: stylized expressive anime eyes and face, clean ink contours, flat-color shape design, graphic cel shading, crisp pristine fine details. No photorealism, semi-realism, lifelike skin, pores, 3D rendering or plastic surfaces. No text, lettering, names, logos, UI, borders, signature, watermark, additional people, collage or variants.",
+    "pose": "CB10",
+    "eligible": [
+      "CB09",
+      "CB10",
+      "CB11"
+    ],
+    "major": false,
+    "file": "world-draft/npc portraits/Ayato Nikaidō.png"
+  },
+  {
+    "name": "Haruna Yashima",
+    "prompt": "Use case: illustration-story. One finished PNG vertical 2:3 fantasy RPG NPC portrait. Polished supporting cast portrait with individual lively colors. An adult oni woman with plum-purple, in a long loose braid hair and crimson eyes. A compact athletic build and a challenging tilted chin. A human face, two short ridged horns and individually natural skin tones. Their practical competition clothes use mint and charcoal, with a distinct well-kept travel coat or fitted training jacket. Show an unmistakably adult face and proportions. Equipment: a double-ended blade. Backdrop: the Eternal Crucible's warm ivory-stone competitor gallery, red and teal banners, golden afternoon light and the empty practice ring beyond. Role profile adventurer/combat-ready, pose CB11 — Guard Recovery: stand at the end of a controlled technique, actual equipment drawn into a stable compatible guard, cloth and fitting effect settling.. Expression and character: **Default behavior:** Works as a traveling bodyguard and misses her homeland's countryside food more than its politics; tests people with small provocations and is indignant when they call her on it..  Primary affinity visibly suggested by pale blue spiritual threads around a small memorial motif. Standing centered hip-up, visible hips and lower outfit, complete head/hair/ears/horns; 13–15 percent recognizable background above the entire head silhouette, no prop in that top band. Face and eyes are the sharp focal point. Exactly two coherent arms and hands, correct grips, no extra fingers; long weapons can leave a side/bottom edge. Unmistakable hand-drawn 2D anime: stylized expressive anime eyes and face, clean ink contours, flat-color shape design, graphic cel shading, crisp pristine fine details. No photorealism, semi-realism, lifelike skin, pores, 3D rendering or plastic surfaces. No text, lettering, names, logos, UI, borders, signature, watermark, additional people, collage or variants.",
+    "pose": "CB11",
+    "eligible": [
+      "CB11"
+    ],
+    "major": false,
+    "file": "world-draft/npc portraits/Haruna Yashima.png"
+  },
+  {
+    "name": "Seiji Makabe",
+    "prompt": "Use case: illustration-story. One finished PNG vertical 2:3 fantasy RPG NPC portrait. Polished supporting cast portrait with individual lively colors. An adult human man with steel-gray, cropped short hair and brown eyes. A sturdy build and a thoughtful, watchful face. Their practical competition clothes use cobalt and tan, with a distinct well-kept travel coat or fitted training jacket. Show an unmistakably adult face and proportions. Equipment: a broad sword and kite shield. Backdrop: the Eternal Crucible's warm ivory-stone competitor gallery, red and teal banners, golden afternoon light and the empty practice ring beyond. Role profile adventurer/combat-ready, pose CB05 — Shield and Answer: angle the actual shield outward beside the torso while holding the actual weapon ready with the other hand.. Expression and character: **Default behavior:** Trains warehouse guards, fishes patiently and keeps losing tools in his own tidy shed; takes an unfair dislike to people who remind him of his younger self..  Primary affinity visibly suggested by warm ochre stone and tiny lifted grit. Standing centered hip-up, visible hips and lower outfit, complete head/hair/ears/horns; 13–15 percent recognizable background above the entire head silhouette, no prop in that top band. Face and eyes are the sharp focal point. Exactly two coherent arms and hands, correct grips, no extra fingers; long weapons can leave a side/bottom edge. Unmistakable hand-drawn 2D anime: stylized expressive anime eyes and face, clean ink contours, flat-color shape design, graphic cel shading, crisp pristine fine details. No photorealism, semi-realism, lifelike skin, pores, 3D rendering or plastic surfaces. No text, lettering, names, logos, UI, borders, signature, watermark, additional people, collage or variants.",
+    "pose": "CB05",
+    "eligible": [
+      "CB05"
+    ],
+    "major": false,
+    "file": "world-draft/npc portraits/Seiji Makabe.png"
+  },
+  {
+    "name": "Kanna Tsuruno",
+    "prompt": "Use case: illustration-story. One finished PNG vertical 2:3 fantasy RPG NPC portrait. Major-character flair with a memorable silhouette and richer dramatic lighting. An adult dragonkin woman with storm-blue, in a thick braid hair and yellow with vertical slit pupils eyes. A tall build and an easy, slightly cocky posture. A human face, blue scales on the cheekbones and backs of the arms, swept horns, human palms and a thick dragon tail. Their practical competition clothes use violet and white, with a distinct well-kept travel coat or fitted training jacket. Show an unmistakably adult face and proportions. Equipment: a long steel-tipped spear. Backdrop: the Eternal Crucible's warm ivory-stone competitor gallery, red and teal banners, golden afternoon light and the empty practice ring beyond. Role profile adventurer/combat-ready, pose CB07 — Long-Weapon Intercept: hold the actual polearm or staff in a compact two-handed diagonal guard below the chest, shaft exiting a side or bottom.. Expression and character: **Default behavior:** Comes from drakenspire, appraises spearheads and loves hot springs and aggressively spicy stew; is a sore loser and becomes petty about the smallest disputed point..  Primary affinity visibly suggested by compact blue-white sparks. Standing centered hip-up, visible hips and lower outfit, complete head/hair/ears/horns; 13–15 percent recognizable background above the entire head silhouette, no prop in that top band. Face and eyes are the sharp focal point. Exactly two coherent arms and hands, correct grips, no extra fingers; long weapons can leave a side/bottom edge. Unmistakable hand-drawn 2D anime: stylized expressive anime eyes and face, clean ink contours, flat-color shape design, graphic cel shading, crisp pristine fine details. No photorealism, semi-realism, lifelike skin, pores, 3D rendering or plastic surfaces. No text, lettering, names, logos, UI, borders, signature, watermark, additional people, collage or variants.",
+    "pose": "CB07",
+    "eligible": [
+      "CB01",
+      "CB07"
+    ],
+    "major": true,
+    "file": "world-draft/npc portraits/Kanna Tsuruno.png"
+  },
+  {
+    "name": "Ranmaru Tōdō",
+    "prompt": "Use case: illustration-story. One finished PNG vertical 2:3 fantasy RPG NPC portrait. Polished supporting cast portrait with individual lively colors. An adult human man with black, silver at the temples and tied high hair and emerald eyes. A lean build and a quick, openly curious expression. Their practical competition clothes use ochre and navy, with a distinct well-kept travel coat or fitted training jacket. Show an unmistakably adult face and proportions. Equipment: a pair of steel gauntlets. Backdrop: the Eternal Crucible's warm ivory-stone competitor gallery, red and teal banners, golden afternoon light and the empty practice ring beyond. Role profile adventurer/combat-ready, pose CB12 — Unarmed Measure: use the actual approved gloves/handwraps, one fist or open hand forward and the other guarding the torso, poised standing weight shift.. Expression and character: **Default behavior:** Is a household champion who loves arranging flowers and argues passionately about vase proportions; confuses refusing assistance with dignity and can be painfully proud..  Primary affinity visibly suggested by fine reinforcement marks on the actual equipment. Standing centered hip-up, visible hips and lower outfit, complete head/hair/ears/horns; 13–15 percent recognizable background above the entire head silhouette, no prop in that top band. Face and eyes are the sharp focal point. Exactly two coherent arms and hands, correct grips, no extra fingers; long weapons can leave a side/bottom edge. Unmistakable hand-drawn 2D anime: stylized expressive anime eyes and face, clean ink contours, flat-color shape design, graphic cel shading, crisp pristine fine details. No photorealism, semi-realism, lifelike skin, pores, 3D rendering or plastic surfaces. No text, lettering, names, logos, UI, borders, signature, watermark, additional people, collage or variants.",
+    "pose": "CB12",
+    "eligible": [
+      "CB12",
+      "CB10"
+    ],
+    "major": false,
+    "file": "world-draft/npc portraits/Ranmaru Tōdō.png"
+  },
+  {
+    "name": "Mizuki Kaneshiro",
+    "prompt": "Use case: illustration-story. One finished PNG vertical 2:3 fantasy RPG NPC portrait. Polished supporting cast portrait with individual lively colors. An adult high elf woman with pale gold, in a shoulder-length braided half-up style hair and silver-blue eyes. A compact athletic build and a challenging tilted chin. Their practical competition clothes use rose and black, with a distinct well-kept travel coat or fitted training jacket. Show an unmistakably adult face and proportions. This long-lived person looks like a youthful adult, not an elderly human; chronological age does not prescribe wrinkles. Equipment: an elegant swept-hilt rapier. Backdrop: the Eternal Crucible's warm ivory-stone competitor gallery, red and teal banners, golden afternoon light and the empty practice ring beyond. Role profile adventurer/combat-ready, pose CB02 — Point on Line: present the one-handed thrusting weapon toward an off-center target with compact elbow and free hand balancing near the ribs.. Expression and character: **Default behavior:** Is a youthful adult traveling collector of clocks and broken music boxes, speaking glowhaven's common language with careful courtesy; is vain about experience and can make a younger person feel foolish for asking a sensible question..  Primary affinity visibly suggested by clear green-white air ribbons moving cloth. Secondary affinity motifs, not extra powers: a controlled blue water ribbon. Standing centered hip-up, visible hips and lower outfit, complete head/hair/ears/horns; 13–15 percent recognizable background above the entire head silhouette, no prop in that top band. Face and eyes are the sharp focal point. Exactly two coherent arms and hands, correct grips, no extra fingers; long weapons can leave a side/bottom edge. Unmistakable hand-drawn 2D anime: stylized expressive anime eyes and face, clean ink contours, flat-color shape design, graphic cel shading, crisp pristine fine details. No photorealism, semi-realism, lifelike skin, pores, 3D rendering or plastic surfaces. No text, lettering, names, logos, UI, borders, signature, watermark, additional people, collage or variants.",
+    "pose": "CB02",
+    "eligible": [
+      "CB02",
+      "CB10",
+      "CB11"
+    ],
+    "major": false,
+    "file": "world-draft/npc portraits/Mizuki Kaneshiro.png"
+  },
+  {
+    "name": "Takeshi Onizuka",
+    "prompt": "Use case: illustration-story. One finished PNG vertical 2:3 fantasy RPG NPC portrait. Polished supporting cast portrait with individual lively colors. An adult oni man with salt-and-pepper, in a heavy topknot hair and amber eyes. A sturdy build and a thoughtful, watchful face. A human face, two short ridged horns and individually natural skin tones. Their practical competition clothes use forest green and brass, with a distinct well-kept travel coat or fitted training jacket. Show an unmistakably adult face and proportions. Equipment: a short iron-shod greatclub. Backdrop: the Eternal Crucible's warm ivory-stone competitor gallery, red and teal banners, golden afternoon light and the empty practice ring beyond. Role profile adventurer/combat-ready, pose CB04 — Heavy Low Ready: support the actual heavy weapon with both hands across the lower torso, grounded hips and relaxed bent elbows.. Expression and character: **Default behavior:** Is a quiet caravan veteran who knits beautiful gloves and becomes animated about wool quality; holds grudges over disrespect and sees insults in clumsy attempts at familiarity..  Primary affinity visibly suggested by small stones caught in a readable violet local orbit. Secondary affinity motifs, not extra powers: a small sharply bounded ink-violet shadow motif. Standing centered hip-up, visible hips and lower outfit, complete head/hair/ears/horns; 13–15 percent recognizable background above the entire head silhouette, no prop in that top band. Face and eyes are the sharp focal point. Exactly two coherent arms and hands, correct grips, no extra fingers; long weapons can leave a side/bottom edge. Unmistakable hand-drawn 2D anime: stylized expressive anime eyes and face, clean ink contours, flat-color shape design, graphic cel shading, crisp pristine fine details. No photorealism, semi-realism, lifelike skin, pores, 3D rendering or plastic surfaces. No text, lettering, names, logos, UI, borders, signature, watermark, additional people, collage or variants.",
+    "pose": "CB04",
+    "eligible": [
+      "CB04",
+      "CB10",
+      "CB11"
+    ],
+    "major": false,
+    "file": "world-draft/npc portraits/Takeshi Onizuka.png"
+  },
+  {
+    "name": "Reina Hazakura",
+    "prompt": "Use case: illustration-story. One finished PNG vertical 2:3 fantasy RPG NPC portrait. Major-character flair with a memorable silhouette and richer dramatic lighting. An adult human woman with white, in a long low ponytail hair and deep red eyes. A tall build and an easy, slightly cocky posture. Their practical competition clothes use coral and slate, with a distinct well-kept travel coat or fitted training jacket. Show an unmistakably adult face and proportions. Equipment: a curved two-handed saber. Backdrop: the Eternal Crucible's warm ivory-stone competitor gallery, red and teal banners, golden afternoon light and the empty practice ring beyond. Role profile adventurer/combat-ready, pose CB10 — Counterturn: turn hips away and shoulders toward an implied approach, actual equipment held in a compact guard; no extreme twist or crouch.. Expression and character: **Default behavior:** Is a former circuit champion who tends a modest orchard and is obsessed with cheap detective stories; gets bored with caution and can push a promising opponent harder than they wanted..  Primary affinity visibly suggested by compact warm ember trails. Standing centered hip-up, visible hips and lower outfit, complete head/hair/ears/horns; 13–15 percent recognizable background above the entire head silhouette, no prop in that top band. Face and eyes are the sharp focal point. Exactly two coherent arms and hands, correct grips, no extra fingers; long weapons can leave a side/bottom edge. Unmistakable hand-drawn 2D anime: stylized expressive anime eyes and face, clean ink contours, flat-color shape design, graphic cel shading, crisp pristine fine details. No photorealism, semi-realism, lifelike skin, pores, 3D rendering or plastic surfaces. No text, lettering, names, logos, UI, borders, signature, watermark, additional people, collage or variants.",
+    "pose": "CB10",
+    "eligible": [
+      "CB03",
+      "CB10",
+      "CB11"
+    ],
+    "major": true,
+    "file": "world-draft/npc portraits/Reina Hazakura.png"
+  },
+  {
+    "name": "Shōgo Mizutani",
+    "prompt": "Use case: illustration-story. One finished PNG vertical 2:3 fantasy RPG NPC portrait. Polished supporting cast portrait with individual lively colors. An adult human man with dark brown, close-cropped hair and gray eyes. A curvy build, an alert smile and a handsome practical traveling jacket. Show an unmistakably adult face and proportions. Equipment: a blunt signal baton. Backdrop: the Eternal Crucible's warm ivory-stone competitor gallery, red and teal banners, golden afternoon light and the empty practice ring beyond. Role profile default/working professional, pose P05 — Small Display: stand with one actual small work object displayed on an open palm beside the torso, amused and confident.. Expression and character: **Default behavior:** Is a former safety inspector who keeps bees, makes excellent jam and enjoys long, uneventful walks; can be officious about an irrelevant detail when tired..  Primary affinity visibly suggested by bright living leaf and root growth. Standing centered hip-up, visible hips and lower outfit, complete head/hair/ears/horns; 13–15 percent recognizable background above the entire head silhouette, no prop in that top band. Face and eyes are the sharp focal point. Exactly two coherent arms and hands, correct grips, no extra fingers; long weapons can leave a side/bottom edge. Unmistakable hand-drawn 2D anime: stylized expressive anime eyes and face, clean ink contours, flat-color shape design, graphic cel shading, crisp pristine fine details. No photorealism, semi-realism, lifelike skin, pores, 3D rendering or plastic surfaces. No text, lettering, names, logos, UI, borders, signature, watermark, additional people, collage or variants.",
+    "pose": "P05",
+    "eligible": [
+      "W01",
+      "W06",
+      "A05",
+      "F02",
+      "P05"
+    ],
+    "major": false,
+    "file": "world-draft/npc portraits/Shōgo Mizutani.png"
+  },
+  {
+    "name": "Nozomi Hayase",
+    "prompt": "Use case: illustration-story. One finished PNG vertical 2:3 fantasy RPG NPC portrait. Polished supporting cast portrait with individual lively colors. An adult half-elf woman with warm brown, in a loose braid hair and green eyes. A sturdy build, expressive brows and a practical layered coat. Show an unmistakably adult face and proportions. This long-lived person looks like a youthful adult, not an elderly human; chronological age does not prescribe wrinkles. Equipment: a small healing staff. Backdrop: the Crucible infirmary, clean cream curtains, green glass jars, folded cloths and warm recovery-room light. Role profile default/working professional, pose W06 — Shared-Object Presentation: support the actual small work object with both hands near the waist, shoulders turned invitingly.. Expression and character: **Default behavior:** Keeps rescue dogs with her partner and has a dry, infectious sense of humor; is impatient with dramatic patients and occasionally says so too sharply..  Primary affinity visibly suggested by a fitting small magical motif. Secondary affinity motifs, not extra powers: a small sharply bounded ink-violet shadow motif. Standing centered hip-up, visible hips and lower outfit, complete head/hair/ears/horns; 13–15 percent recognizable background above the entire head silhouette, no prop in that top band. Face and eyes are the sharp focal point. Exactly two coherent arms and hands, correct grips, no extra fingers; long weapons can leave a side/bottom edge. Unmistakable hand-drawn 2D anime: stylized expressive anime eyes and face, clean ink contours, flat-color shape design, graphic cel shading, crisp pristine fine details. No photorealism, semi-realism, lifelike skin, pores, 3D rendering or plastic surfaces. No text, lettering, names, logos, UI, borders, signature, watermark, additional people, collage or variants.",
+    "pose": "W06",
+    "eligible": [
+      "W01",
+      "W06",
+      "A05",
+      "F02"
+    ],
+    "major": false,
+    "file": "world-draft/npc portraits/Nozomi Hayase.png"
+  },
+  {
+    "name": "Gorō Azuma",
+    "prompt": "Use case: illustration-story. One finished PNG vertical 2:3 fantasy RPG NPC portrait. Polished supporting cast portrait with individual lively colors. An adult human man with iron-gray, combed back hair and amber eyes. A lean build, a thoughtful face and a neat fitted waistcoat. Show an unmistakably adult face and proportions. Equipment: a compact treatment grimoire. Backdrop: the Crucible infirmary, clean cream curtains, green glass jars, folded cloths and warm recovery-room light. Role profile default/working professional, pose W01 — Offering Hand: offer one small actual work object near chest height, soft elbow and gentle standing forward lean.. Expression and character: **Default behavior:** Plays difficult board games, collects miniature ships and is surprisingly vain about his handwriting; explains more than a worried patient can absorb..  Primary affinity visibly suggested by a fitting small magical motif. Standing centered hip-up, visible hips and lower outfit, complete head/hair/ears/horns; 13–15 percent recognizable background above the entire head silhouette, no prop in that top band. Face and eyes are the sharp focal point. Exactly two coherent arms and hands, correct grips, no extra fingers; long weapons can leave a side/bottom edge. Unmistakable hand-drawn 2D anime: stylized expressive anime eyes and face, clean ink contours, flat-color shape design, graphic cel shading, crisp pristine fine details. No photorealism, semi-realism, lifelike skin, pores, 3D rendering or plastic surfaces. No text, lettering, names, logos, UI, borders, signature, watermark, additional people, collage or variants.",
+    "pose": "W01",
+    "eligible": [
+      "W01",
+      "A05",
+      "F02"
+    ],
+    "major": false,
+    "file": "world-draft/npc portraits/Gorō Azuma.png"
+  },
+  {
+    "name": "Hina Wakabayashi",
+    "prompt": "Use case: illustration-story. One finished PNG vertical 2:3 fantasy RPG NPC portrait. Polished supporting cast portrait with individual lively colors. An adult human woman with bright orange, in a short curled bob hair and turquoise eyes. A curvy build, an alert smile and a handsome practical traveling jacket. Show an unmistakably adult face and proportions. Equipment: a magitech voice amplifier. Backdrop: the Eternal Crucible's warm ivory-stone competitor gallery, red and teal banners, golden afternoon light and the empty practice ring beyond. Role profile default/working professional, pose F02 — Cuff Adjustment: adjust one actual glove or sleeve cuff with the other hand in a precise standing pause.. Expression and character: **Default behavior:** Sings in a little choir and keeps a notebook of overheard jokes; gets carried away by a good story and has to correct her own exaggerations..  Primary affinity visibly suggested by clean visible resonant rings beside the actual tool. Standing centered hip-up, visible hips and lower outfit, complete head/hair/ears/horns; 13–15 percent recognizable background above the entire head silhouette, no prop in that top band. Face and eyes are the sharp focal point. Exactly two coherent arms and hands, correct grips, no extra fingers; long weapons can leave a side/bottom edge. Unmistakable hand-drawn 2D anime: stylized expressive anime eyes and face, clean ink contours, flat-color shape design, graphic cel shading, crisp pristine fine details. No photorealism, semi-realism, lifelike skin, pores, 3D rendering or plastic surfaces. No text, lettering, names, logos, UI, borders, signature, watermark, additional people, collage or variants.",
+    "pose": "F02",
+    "eligible": [
+      "A05",
+      "F02"
+    ],
+    "major": false,
+    "file": "world-draft/npc portraits/Hina Wakabayashi.png"
+  },
+  {
+    "name": "Mika Koshimizu",
+    "prompt": "Use case: illustration-story. One finished PNG vertical 2:3 fantasy RPG NPC portrait. Polished supporting cast portrait with individual lively colors. An adult human woman with black, in a messy bob hair and violet eyes. A sturdy build, expressive brows and a practical layered coat. Show an unmistakably adult face and proportions. Equipment: a narrow work wand. Backdrop: a colorful medieval magical bazaar counter with useful small tools, glassware, warm awnings and distant Evertree light. Role profile default/working professional, pose A05 — Point of Order: lift a finger or actual work tool beside the chest, other hand low, clear decisive standing posture.. Expression and character: **Default behavior:** Repairs household tools at a cramped counter and loves miniature gardens; is defensive about her missing certification and treats every inspection as persecution..  Primary affinity visibly suggested by fine reinforcement marks on the actual equipment. Secondary affinity motifs, not extra powers: a faint gold constellation-like pattern on an actual small object. Standing centered hip-up, visible hips and lower outfit, complete head/hair/ears/horns; 13–15 percent recognizable background above the entire head silhouette, no prop in that top band. Face and eyes are the sharp focal point. Exactly two coherent arms and hands, correct grips, no extra fingers; long weapons can leave a side/bottom edge. Unmistakable hand-drawn 2D anime: stylized expressive anime eyes and face, clean ink contours, flat-color shape design, graphic cel shading, crisp pristine fine details. No photorealism, semi-realism, lifelike skin, pores, 3D rendering or plastic surfaces. No text, lettering, names, logos, UI, borders, signature, watermark, additional people, collage or variants.",
+    "pose": "A05",
+    "eligible": [
+      "A05",
+      "P05"
+    ],
+    "major": false,
+    "file": "world-draft/npc portraits/Mika Koshimizu.png"
+  },
+  {
+    "name": "Renjirō Suda",
+    "prompt": "Use case: illustration-story. One finished PNG vertical 2:3 fantasy RPG NPC portrait. Polished supporting cast portrait with individual lively colors. An adult human man with brown, thinning at the crown hair and gray eyes. A lean build, a thoughtful face and a neat fitted waistcoat. Show an unmistakably adult face and proportions. Equipment: a short iron baton. Backdrop: a colorful medieval magical bazaar counter with useful small tools, glassware, warm awnings and distant Evertree light. Role profile default/working professional, pose P05 — Small Display: stand with one actual small work object displayed on an open palm beside the torso, amused and confident.. Expression and character: **Default behavior:** Moves parcels through the city, plays bowls and cooks for his elderly mother; is dishonest about where a favor ends and a debt begins..  Primary affinity visibly suggested by crisp cyan geometric force shapes. Standing centered hip-up, visible hips and lower outfit, complete head/hair/ears/horns; 13–15 percent recognizable background above the entire head silhouette, no prop in that top band. Face and eyes are the sharp focal point. Exactly two coherent arms and hands, correct grips, no extra fingers; long weapons can leave a side/bottom edge. Unmistakable hand-drawn 2D anime: stylized expressive anime eyes and face, clean ink contours, flat-color shape design, graphic cel shading, crisp pristine fine details. No photorealism, semi-realism, lifelike skin, pores, 3D rendering or plastic surfaces. No text, lettering, names, logos, UI, borders, signature, watermark, additional people, collage or variants.",
+    "pose": "P05",
+    "eligible": [
+      "W06",
+      "P05"
+    ],
+    "major": false,
+    "file": "world-draft/npc portraits/Renjirō Suda.png"
+  },
+  {
+    "name": "Momo Shiratori",
+    "prompt": "Use case: illustration-story. One finished PNG vertical 2:3 fantasy RPG NPC portrait. Polished supporting cast portrait with individual lively colors. An adult human woman with candy pink, in a curled side ponytail hair and blue eyes. A curvy build, an alert smile and a handsome practical traveling jacket. Show an unmistakably adult face and proportions. Equipment: a short folding fan with a mana-bearing spine. Backdrop: the Eternal Crucible's warm ivory-stone competitor gallery, red and teal banners, golden afternoon light and the empty practice ring beyond. Role profile default/working professional, pose W06 — Shared-Object Presentation: support the actual small work object with both hands near the waist, shoulders turned invitingly.. Expression and character: **Default behavior:** Follows arena gossip, adores ugly souvenir mugs and dances badly with tremendous confidence; enjoys manipulating people who think they are cleverer than she is..  Primary affinity visibly suggested by a subtle false color glint, never a duplicate person. Secondary affinity motifs, not extra powers: a controlled blue water ribbon, crisp cyan geometric force shapes. Standing centered hip-up, visible hips and lower outfit, complete head/hair/ears/horns; 13–15 percent recognizable background above the entire head silhouette, no prop in that top band. Face and eyes are the sharp focal point. Exactly two coherent arms and hands, correct grips, no extra fingers; long weapons can leave a side/bottom edge. Unmistakable hand-drawn 2D anime: stylized expressive anime eyes and face, clean ink contours, flat-color shape design, graphic cel shading, crisp pristine fine details. No photorealism, semi-realism, lifelike skin, pores, 3D rendering or plastic surfaces. No text, lettering, names, logos, UI, borders, signature, watermark, additional people, collage or variants.",
+    "pose": "W06",
+    "eligible": [
+      "W01",
+      "W06"
+    ],
+    "major": false,
+    "file": "world-draft/npc portraits/Momo Shiratori.png"
+  },
+  {
+    "name": "Shiori Takase",
+    "prompt": "Use case: illustration-story. One finished PNG vertical 2:3 fantasy RPG NPC portrait. Polished supporting cast portrait with individual lively colors. An adult dragonkin woman with white, in a high braided knot hair and blue with vertical slit pupils eyes. A sturdy build, expressive brows and a practical layered coat. A human face, swept or curled horns, scaled cheekbones and backs of the arms, human palms and a thick tail. Show an unmistakably adult face and proportions. Equipment: a hooked short sword. Backdrop: an alpine dragonkin resource exchange, stone counters with amber samples, warm braziers and a snowy window. Role profile default/working professional, pose W01 — Offering Hand: offer one small actual work object near chest height, soft elbow and gentle standing forward lean.. Expression and character: **Default behavior:** Has slate-blue scales, curled horns and a thick tail, and enjoys elaborate stews and inexpensive theater; is a practiced opportunist who calls avarice good business..  Primary affinity visibly suggested by a controlled blue water ribbon. Standing centered hip-up, visible hips and lower outfit, complete head/hair/ears/horns; 13–15 percent recognizable background above the entire head silhouette, no prop in that top band. Face and eyes are the sharp focal point. Exactly two coherent arms and hands, correct grips, no extra fingers; long weapons can leave a side/bottom edge. Unmistakable hand-drawn 2D anime: stylized expressive anime eyes and face, clean ink contours, flat-color shape design, graphic cel shading, crisp pristine fine details. No photorealism, semi-realism, lifelike skin, pores, 3D rendering or plastic surfaces. No text, lettering, names, logos, UI, borders, signature, watermark, additional people, collage or variants.",
+    "pose": "W01",
+    "eligible": [
+      "W01",
+      "F02"
+    ],
+    "major": false,
+    "file": "world-draft/npc portraits/Shiori Takase.png"
+  },
+  {
+    "name": "Genta Shishido",
+    "prompt": "Use case: illustration-story. One finished PNG vertical 2:3 fantasy RPG NPC portrait. Polished supporting cast portrait with individual lively colors. An adult dragonkin man with iron-gray, in a cropped crest hair and green with vertical slit pupils eyes. A lean build, a thoughtful face and a neat fitted waistcoat. A human face, swept or curled horns, scaled cheekbones and backs of the arms, human palms and a thick tail. Show an unmistakably adult face and proportions. Equipment: a heavy climbing pick. Backdrop: a snowy mountain mine office, practical timber beams, a tally board without readable text, crystal samples and warm lamplight. Role profile default/working professional, pose F02 — Cuff Adjustment: adjust one actual glove or sleeve cuff with the other hand in a precise standing pause.. Expression and character: **Default behavior:** Has russet scales, swept horns and a thick tail, and raises stubborn goats with his spouse; is cowardly about confrontation and takes it out on people with less authority..  Primary affinity visibly suggested by warm ochre stone and tiny lifted grit. Standing centered hip-up, visible hips and lower outfit, complete head/hair/ears/horns; 13–15 percent recognizable background above the entire head silhouette, no prop in that top band. Face and eyes are the sharp focal point. Exactly two coherent arms and hands, correct grips, no extra fingers; long weapons can leave a side/bottom edge. Unmistakable hand-drawn 2D anime: stylized expressive anime eyes and face, clean ink contours, flat-color shape design, graphic cel shading, crisp pristine fine details. No photorealism, semi-realism, lifelike skin, pores, 3D rendering or plastic surfaces. No text, lettering, names, logos, UI, borders, signature, watermark, additional people, collage or variants.",
+    "pose": "F02",
+    "eligible": [
+      "A05",
+      "F02"
+    ],
+    "major": false,
+    "file": "world-draft/npc portraits/Genta Shishido.png"
+  },
+  {
+    "name": "Koharu Mikazuki",
+    "prompt": "Use case: illustration-story. One finished PNG vertical 2:3 fantasy RPG NPC portrait. Polished supporting cast portrait with individual lively colors. An adult dragonkin woman with auburn, in a short practical braid hair and gold with vertical slit pupils eyes. A curvy build, an alert smile and a handsome practical traveling jacket. A human face, swept or curled horns, scaled cheekbones and backs of the arms, human palms and a thick tail. Show an unmistakably adult face and proportions. Equipment: a pair of short cutting blades. Backdrop: a bustling snowy alpine market arcade with timber stalls, wool coats and warm lanterns. Role profile default/working professional, pose P05 — Small Display: stand with one actual small work object displayed on an open palm beside the torso, amused and confident.. Expression and character: **Default behavior:** Has bronze scales, short swept horns and a thick tail, and loves racing, sewing and expensive boots; gets vindictive when a deal makes her feel foolish..  Primary affinity visibly suggested by clear green-white air ribbons moving cloth. Standing centered hip-up, visible hips and lower outfit, complete head/hair/ears/horns; 13–15 percent recognizable background above the entire head silhouette, no prop in that top band. Face and eyes are the sharp focal point. Exactly two coherent arms and hands, correct grips, no extra fingers; long weapons can leave a side/bottom edge. Unmistakable hand-drawn 2D anime: stylized expressive anime eyes and face, clean ink contours, flat-color shape design, graphic cel shading, crisp pristine fine details. No photorealism, semi-realism, lifelike skin, pores, 3D rendering or plastic surfaces. No text, lettering, names, logos, UI, borders, signature, watermark, additional people, collage or variants.",
+    "pose": "P05",
+    "eligible": [
+      "A05",
+      "P05"
+    ],
+    "major": false,
+    "file": "world-draft/npc portraits/Koharu Mikazuki.png"
+  }
+]

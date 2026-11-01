@@ -1454,7 +1454,7 @@
   },
   "The Eternal Crucible": {
     "name": "The Eternal Crucible",
-    "basicInfo": "Painted boundaries divide the tournament floor beneath steep public stands. Tomoe Enokida coordinates the work behind the spectacle. Visitors can watch announced bouts, ask about entry conditions, book approved practice, or seek event work.\n\nActive tournament duels prohibit mana potions and external stored-mana assistance. Ordinary control catalysts remain permissible under that rule. Officials can stop a match for emergency medical treatment; evidence and the announced competition procedure govern an actual infringement.",
+    "basicInfo": "Painted boundaries divide the tournament floor beneath steep public stands. Tomoe Enokida coordinates the work behind the spectacle. Visitors can watch announced bouts, ask about entry conditions, book approved practice, or seek event work.\n\nActive tournament duels prohibit mana potions and external stored-mana assistance. Ordinary control catalysts remain permissible under that rule. Officials can stop a match for emergency medical treatment; evidence and the announced competition procedure govern an actual infringement.\n\nThe Competitor Lounge, Infirmary and Practice Gallery remain open between championships. Individual cups have announced fields and prizes; entry is voluntary. Shōgo Mizutani officiates, Hina Wakabayashi handles announcements, and Nozomi Hayase and Gorō Azuma offer appropriate care. An unharmed competitor can simply rest or continue.",
     "x": 10,
     "y": 4,
     "radius": 2,
@@ -1489,15 +1489,71 @@
         "description": "Posted terms identify legal equipment, stopping conditions, medical arrangements, fees, and prizes before commitment. Agreement to a match is not agreement to lethal combat.",
         "paths": [
           "The Eternal Crucible - Arena Floor",
-          "The Eternal Crucible - Concourse"
+          "The Eternal Crucible - Concourse",
+          "The Eternal Crucible - Competitor Lounge",
+          "The Eternal Crucible - Infirmary",
+          "The Eternal Crucible - Practice Gallery",
+          "The Eternal Crucible - Pillar Court",
+          "The Eternal Crucible - Verdant Ring",
+          "The Eternal Crucible - Frostglass Platform",
+          "The Eternal Crucible - Broken Stair Arena",
+          "The Eternal Crucible - Mirrorwater Garden"
+        ]
+      },
+      "The Eternal Crucible - Competitor Lounge": {
+        "description": "Wide benches, battered game boards and a tea counter overlook a narrow practice court. Competitors talk, eat, rehearse, ask advice and occasionally avoid one another. A posted bracket gives the current order without requiring everyone to gather around it.",
+        "paths": [
+          "The Eternal Crucible - Competitor Passage"
+        ]
+      },
+      "The Eternal Crucible - Infirmary": {
+        "description": "Clean screened treatment bays open around a warm rest room. Medics offer care appropriate to the patient: an unharmed fighter may need only water or a quiet seat. Nobody needs to pretend to be injured to rest here.",
+        "paths": [
+          "The Eternal Crucible - Competitor Passage"
+        ]
+      },
+      "The Eternal Crucible - Practice Gallery": {
+        "description": "A roofed practice strip holds training dummies, equipment racks and a marked sparring ring. Willing partners can arrange a friendly match when work and health permit; instruction requires actual willingness and time.",
+        "paths": [
+          "The Eternal Crucible - Competitor Passage"
+        ]
+      },
+      "The Eternal Crucible - Pillar Court": {
+        "description": "Staggered broad stone pillars interrupt long firing lanes. The paths between them are wide enough for a controlled retreat. Chipped cover remains chipped during the bout; a later announced reset prepares another match.",
+        "paths": [
+          "The Eternal Crucible - Competitor Passage"
+        ]
+      },
+      "The Eternal Crucible - Verdant Ring": {
+        "description": "Waist-high planted banks divide two shallow channels crossed by broad dry paths. Vegetation gives real concealment and can be cut or disturbed. The floor has no hidden lethal pits.",
+        "paths": [
+          "The Eternal Crucible - Competitor Passage"
+        ]
+      },
+      "The Eternal Crucible - Frostglass Platform": {
+        "description": "A low central ice platform is surrounded by broad padded side decks and marked stopping lines. Footing, approach angles and controlled displacement matter; leaving its raised center alone is not a ring-out.",
+        "paths": [
+          "The Eternal Crucible - Competitor Passage"
+        ]
+      },
+      "The Eternal Crucible - Broken Stair Arena": {
+        "description": "Three low stone elevations connect through wide shallow steps and open ramps. Elevation gives a useful angle without becoming a lethal fall. The outer marked line defines the competition boundary.",
+        "paths": [
+          "The Eternal Crucible - Competitor Passage"
+        ]
+      },
+      "The Eternal Crucible - Mirrorwater Garden": {
+        "description": "Shallow water reflects the canopy above a scattering of broad dry stepping platforms. Channels and reflections complicate movement and aim. Water conducts only according to the actual resolved effect, not an automatic room-wide shock.",
+        "paths": [
+          "The Eternal Crucible - Competitor Passage"
         ]
       }
     },
     "initialKnown": true,
-    "hiddenInfo": "A marker shifted during a heavy demonstration. Tomoe Enokida wants it inspected before the next booked match; competitors dislike delays. A repair, smaller safe ring, or honest postponement are legitimate outcomes. Kōhei Sanada can assess a legal practice setup if consulted but is not the arena's permanent manager. Do not invent brackets or prizes that were never announced.\n\nUse only relevant unresolved situations. Introduce evidence through observation or people who know it. Preserve actual resolutions and player choices; these possibilities are not events that automatically occur on every visit.\n\nLocal authored opportunities, only when their actual premises and relevant contacts fit: Four Academies, One Festival; What We Bring to the Next Morning. Invitations are optional; do not insert all of them into one arrival, disclose private motives, invent missing people or accept for the player.",
+    "hiddenInfo": "A marker shifted during a heavy demonstration. Tomoe Enokida wants it inspected before the next booked match; competitors dislike delays. A repair, smaller safe ring, or honest postponement are legitimate outcomes. Kōhei Sanada can assess a legal practice setup if consulted but is not the arena's permanent manager. Do not invent brackets or prizes that were never announced.\n\nUse only relevant unresolved situations. Introduce evidence through observation or people who know it. Preserve actual resolutions and player choices; these possibilities are not events that automatically occur on every visit.\n\nLocal authored opportunities, only when their actual premises and relevant contacts fit: Four Academies, One Festival; What We Bring to the Next Morning. Invitations are optional; do not insert all of them into one arrival, disclose private motives, invent missing people or accept for the player.\n\nCRUCIBLE ACTIVITY: Use the current announced edition and recorded result. Do not invent an extra final, resurrect an eliminated competitor or turn a friendly match into a championship. After a real bout, naturally offer relevant care, rest or a check-up once; an unharmed fighter has no fabricated injury and can immediately declare readiness. No exact resource-percentage gate. Outside companions may watch but do not attack, buff or heal during regulated competition. Finite learned summons are legal within actual actions and costs. Respect the actual nonlethal intent and official stop. A registered fighter leaving the venue withdraws; ordinary visitors can leave freely. Discussing fighting does not start a match.",
     "npcLevelRange": {
-      "min": 20,
-      "max": 70
+      "min": 1,
+      "max": 35
     },
     "images": {
       "establishingShot": {
@@ -10588,6 +10644,143 @@
         },
         "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/98af63d9-7ecb-4639-9e54-72e37a59d977.png"
       }
+    }
+  },
+  "Sepulchral Portal House": {
+    "name": "Sepulchral Portal House",
+    "basicInfo": "A dry tiled threshold stands outside the abandoned glasshouses. Its pale return arch shows the familiar roots of the Evertree. A worn inspection table and sheltered benches make it a practical place to prepare or turn back.",
+    "hiddenInfo": "Preserve the actual Nature/Soul distinction: living plant framework, spiritual binding and conscious occupant are separate. Use the authored creature types as real generated actors before resolving attacks. No instant unregistered damage. Retreat and the portal house remain usable. Cleared encounters stay cleared; do not respawn an endless army on every arrival. Exploration is optional and has a visible level 35–50 risk band. This is a refuge, not an automatic ambush. A clear committed return goes directly to Evertree Base - Portal Room without needing a key.",
+    "x": 0,
+    "y": 8,
+    "radius": 3,
+    "region": "Sepulchral Gardens",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Sepulchral Portal House - Return Arch": {
+        "description": "An intact pale arch opens toward the recognizable Evertree roots. Dry benches and an old inspection table make this threshold a usable staging refuge.",
+        "paths": [
+          "Sepulchral Portal House - Vestibule"
+        ]
+      },
+      "Sepulchral Portal House - Vestibule": {
+        "description": "Cracked green tiles lead past a gardener's coat hooks and a plan of the sanctuary carved in stone. The main conservatory is visible through the outer doors.",
+        "paths": [
+          "Sepulchral Portal House - Return Arch"
+        ]
+      }
+    },
+    "initialKnown": false,
+    "hidden": true,
+    "npcLevelRange": {
+      "min": 1,
+      "max": 8
+    }
+  },
+  "Sepulchral Conservatory": {
+    "name": "Sepulchral Conservatory",
+    "basicInfo": "Cracked green glass roofs shelter pale timber bodies, white-leaved memorial trees and slow irrigation channels. Two tending wings circle an inner bronze-latticed greenhouse. Some wooden figures carry names; others repeat only a gardener's old instructions.",
+    "hiddenInfo": "Preserve the actual Nature/Soul distinction: living plant framework, spiritual binding and conscious occupant are separate. Use the authored creature types as real generated actors before resolving attacks. No instant unregistered damage. Retreat and the portal house remain usable. Cleared encounters stay cleared; do not respawn an endless army on every arrival. Exploration is optional and has a visible level 35–50 risk band. Introduce small groups of two or three appropriate Gravewood Golems or Rootbound Pallbearers around the Rootwalk/Tending Gallery, and a Censer-Willow with one Ossuary Trellis deeper in the memorial wing. Announce visible movement, cover and ways to withdraw before attacks. These are encounter compositions, not a claim that a typed spawn effect exists. The rootwake valve in the Tending Gallery and mourning valve in the Ossuary Greenhouse must actually be released, repaired or overcome before the inner lattice opens. A nonmage can work with tools, evidence or qualified help. Threnvoss is the sole named caretaker in the Grafting Heart; no substitute boss or automatic opening hit. Two finite Grafted Sentinels can defend the heart if real generated actors exist. The Keeper Archive establishes which vessels hold conscious spirits. Defeat or a genuinely carried-out release can quiet the sanctuary.",
+    "x": 0,
+    "y": 0,
+    "radius": 3,
+    "region": "Sepulchral Gardens",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Sepulchral Conservatory - Entry Rotunda": {
+        "description": "A roof of cracked green glass shelters a dry circular platform above slow irrigation water. Two overgrown tending wings lead toward a bronze-latticed inner greenhouse.",
+        "paths": [
+          "Sepulchral Conservatory - Rootwalk",
+          "Sepulchral Conservatory - Memorial Orchard"
+        ]
+      },
+      "Sepulchral Conservatory - Rootwalk": {
+        "description": "Pale root bridges cross irrigation channels beside silent racks of unfinished wooden bodies. Broad piers offer cover from the guardians beyond.",
+        "paths": [
+          "Sepulchral Conservatory - Entry Rotunda",
+          "Sepulchral Conservatory - Tending Gallery"
+        ]
+      },
+      "Sepulchral Conservatory - Tending Gallery": {
+        "description": "Pruning tools, repaired joints and strips of binding cloth cover long workbenches. Timber guardians patrol around an exposed rootwake valve.",
+        "paths": [
+          "Sepulchral Conservatory - Rootwalk",
+          "Sepulchral Conservatory - Memorial Orchard"
+        ]
+      },
+      "Sepulchral Conservatory - Memorial Orchard": {
+        "description": "White-leaved trees carry small bronze nameplates. Some hollow trunks answer a voice; others repeat only an old work instruction.",
+        "paths": [
+          "Sepulchral Conservatory - Entry Rotunda",
+          "Sepulchral Conservatory - Tending Gallery",
+          "Sepulchral Conservatory - Ossuary Greenhouse",
+          "Sepulchral Conservatory - Keeper Archive"
+        ]
+      },
+      "Sepulchral Conservatory - Ossuary Greenhouse": {
+        "description": "Animal bones support climbing vines around a dry stone bed. A clear bell beside a mourning valve marks the second tending circuit.",
+        "paths": [
+          "Sepulchral Conservatory - Memorial Orchard",
+          "Sepulchral Conservatory - Grafting Heart"
+        ]
+      },
+      "Sepulchral Conservatory - Grafting Heart": {
+        "description": "A vast rooted cradle rises around a bronze-and-timber figure beneath the last intact glass dome. Amber veins connect it to the sanctuary's two tending circuits.",
+        "paths": [
+          "Sepulchral Conservatory - Ossuary Greenhouse"
+        ]
+      },
+      "Sepulchral Conservatory - Keeper Archive": {
+        "description": "A dry side room holds water-stained journals, diagrams of vessels and carefully labeled names. The records distinguish empty frames from conscious charges.",
+        "paths": [
+          "Sepulchral Conservatory - Memorial Orchard"
+        ]
+      }
+    },
+    "initialKnown": false,
+    "hidden": true,
+    "npcLevelRange": {
+      "min": 35,
+      "max": 45
+    }
+  },
+  "Mourning Garden": {
+    "name": "Mourning Garden",
+    "basicInfo": "A low-walled garden of white flowers and bronze memorial plaques overlooks the conservatory. Clear water covers part of the path, and a sheltered arbor offers a quiet view toward the portal house.",
+    "hiddenInfo": "Preserve the actual Nature/Soul distinction: living plant framework, spiritual binding and conscious occupant are separate. Use the authored creature types as real generated actors before resolving attacks. No instant unregistered damage. Retreat and the portal house remain usable. Cleared encounters stay cleared; do not respawn an endless army on every arrival. Exploration is optional and has a visible level 35–50 risk band. One small Hollowseed Swarm encounter may occupy the pool. The arbor and records offer a credible bypass or insight; no mandatory battle is required for a quiet visit.",
+    "x": 8,
+    "y": 3,
+    "radius": 3,
+    "region": "Sepulchral Gardens",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Mourning Garden - Quiet Gate": {
+        "description": "A broken garden wall encloses low white flowers and scattered memorial stones. The conservatory's roof rises beyond the trees.",
+        "paths": [
+          "Mourning Garden - Reed Pool"
+        ]
+      },
+      "Mourning Garden - Reed Pool": {
+        "description": "Clear water covers a collapsed path, with stepping stones still visible beneath drifting pale reeds. Small seed husks stir at the edges.",
+        "paths": [
+          "Mourning Garden - Quiet Gate",
+          "Mourning Garden - Sheltered Arbor"
+        ]
+      },
+      "Mourning Garden - Sheltered Arbor": {
+        "description": "An open-sided wooden shelter offers a dry seat, a surviving gardener's sketch and a view back toward the portal house.",
+        "paths": [
+          "Mourning Garden - Reed Pool"
+        ]
+      }
+    },
+    "initialKnown": false,
+    "hidden": true,
+    "npcLevelRange": {
+      "min": 35,
+      "max": 45
     }
   }
 }

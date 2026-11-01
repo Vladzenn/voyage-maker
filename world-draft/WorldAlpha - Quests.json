@@ -4484,5 +4484,149 @@
         "instruction": "Let the actual result of Prison: The Book Returns stand. Return entrusted property as agreed and preserve who took part, any settled payment and the actual relationships. The completed task creates no new debt or compulsory follow-up."
       }
     ]
+  },
+  "A Body for Every Name": {
+    "name": "A Body for Every Name",
+    "questSource": "The Sepulchral Conservatory",
+    "questLocation": "Sepulchral Conservatory",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "A ruined sanctuary still grows vessels for the dead. Find out what its remaining caretaker is preserving and settle the danger within.",
+    "mainObjective": "Investigate the vessels and bring the caretaker's coercive vigil to a genuine end.",
+    "questDesignBrief": "Optional finite investigation, not automatic acceptance on arrival. Establish the Nature/Soul distinction through the Keeper Archive, nameplates and encounters. The two circuits give practical work before the heart. Noncasters can use tools, evidence, allies or a hired specialist. Threnvoss is level 50; danger is visible and retreat remains real. Combat or a genuinely achieved release can conclude the vigil. The separate world-resolution event owns the Heartwood Remembrance; this quest gives no duplicate trophy or payment.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The accepted sanctuary investigation has actually established the distinction between its vessels and spiritual charges and ended Threnvoss's coercive vigil through defeat, dismantled control or an achieved release. A visit, promise, mere trophy possession or unresolved confrontation is false."
+    },
+    "onCompleteEffects": [],
+    "conclusive": true
+  },
+  "A Seal Nobody Checked": {
+    "name": "A Seal Nobody Checked",
+    "questSource": "Mika Koshimizu",
+    "questLocation": "Four Sages Bazaar",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "Mika Koshimizu has a profitable repair waiting, but the customer expects a certification she does not possess.",
+    "mainObjective": "Settle the repair commission through the agreed illicit work, a genuine certified alternative, or an actual exposure of the deception.",
+    "questDesignBrief": "The repaired household kettle is real, and the deadline is inconvenient rather than world-ending. Let the player repair without licensing, seek a qualified collaborator, expose Mika Koshimizu, or decline. Payment requires the outcome actually agreed with its payer; an exposed fraud does not pay the illicit fee automatically. This is finite optional work. Establish the payer, method and compensation before acceptance. The quoted illicit fee is 90 marks; an alternative route needs its own real agreement. The completion effects supply no automatic illicit payout, so settle only the actual negotiated compensation once through supported ordinary item updates. Do not pay again when narrating a return. Do not expose private motives through a public offer.",
+    "completionCondition": {
+      "type": "story",
+      "query": "For the accepted undertaking \"A Seal Nobody Checked\", the actual agreed objective has been achieved: Settle the repair commission through the agreed illicit work, a genuine certified alternative, or an actual exposure of the deception. The chosen method and actual affected people matter. A promise, hypothetical, unrelated deed, merely hearing the offer or a refusal without accepted follow-through is false."
+    },
+    "onCompleteEffects": [],
+    "conclusive": true
+  },
+  "The Parcel with Two Owners": {
+    "name": "The Parcel with Two Owners",
+    "questSource": "Renjirō Suda",
+    "questLocation": "Four Sages Bazaar",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "Renjirō Suda offers a discreet fee to move a sealed parcel whose ownership is more complicated than he first admits.",
+    "mainObjective": "Resolve custody of the actual disputed parcel through a completed handover, restitution or a consequential agreement.",
+    "questDesignBrief": "The parcel contains confiscated enchanted surveying fittings. Its previous owner and the official depot have different claims. Establish the physical object and what the player actually agrees to move. No item changes ownership merely because Renjirō Suda says it does. This is finite optional work. Establish the payer, method and compensation before acceptance. The quoted illicit fee is 110 marks; an alternative route needs its own real agreement. The completion effects supply no automatic illicit payout, so settle only the actual negotiated compensation once through supported ordinary item updates. Do not pay again when narrating a return. Do not expose private motives through a public offer.",
+    "completionCondition": {
+      "type": "story",
+      "query": "For the accepted undertaking \"The Parcel with Two Owners\", the actual agreed objective has been achieved: Resolve custody of the actual disputed parcel through a completed handover, restitution or a consequential agreement. The chosen method and actual affected people matter. A promise, hypothetical, unrelated deed, merely hearing the offer or a refusal without accepted follow-through is false."
+    },
+    "onCompleteEffects": [],
+    "conclusive": true
+  },
+  "A Very Profitable Defeat": {
+    "name": "A Very Profitable Defeat",
+    "questSource": "Momo Shiratori",
+    "questLocation": "The Eternal Crucible",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "Momo Shiratori has an offer for someone who can make a real arena loss look convincing.",
+    "mainObjective": "Resolve the proposed match-fixing arrangement through an actual agreed performance, exposure or refusal with consequential follow-through.",
+    "questDesignBrief": "An illicit payoff requires a genuine agreement and actual qualifying loss. Refusing an offer alone is not successful paid work. Reporting credible evidence can conclude an accepted exposure undertaking. The tournament controller owns every result: no forged victory, trophy or altered bracket is created by quest completion. This is finite optional work. Establish the payer, method and compensation before acceptance. The quoted illicit fee is 140 marks; an alternative route needs its own real agreement. The completion effects supply no automatic illicit payout, so settle only the actual negotiated compensation once through supported ordinary item updates. Do not pay again when narrating a return. Do not expose private motives through a public offer.",
+    "completionCondition": {
+      "type": "story",
+      "query": "For the accepted undertaking \"A Very Profitable Defeat\", the actual agreed objective has been achieved: Resolve the proposed match-fixing arrangement through an actual agreed performance, exposure or refusal with consequential follow-through. The chosen method and actual affected people matter. A promise, hypothetical, unrelated deed, merely hearing the offer or a refusal without accepted follow-through is false."
+    },
+    "onCompleteEffects": [],
+    "conclusive": true
+  },
+  "The Recommendation in Violet Ink": {
+    "name": "The Recommendation in Violet Ink",
+    "questSource": "Renjirō Suda",
+    "questLocation": "Four Sages Bazaar",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "A private commission requires a sponsor, and Renjirō Suda knows someone who sells unusually convenient recommendations.",
+    "mainObjective": "Actually obtain, replace or expose the proposed recommendation and settle the specific accepted commission.",
+    "questDesignBrief": "A forged letter may fool a particular clerk if a real check succeeds; it does not create a noble title, court key, guild license or universal permission. Genuine sponsorship and exposing the broker are credible alternatives with separately agreed compensation. This is finite optional work. Establish the payer, method and compensation before acceptance. The quoted illicit fee is 130 marks; an alternative route needs its own real agreement. The completion effects supply no automatic illicit payout, so settle only the actual negotiated compensation once through supported ordinary item updates. Do not pay again when narrating a return. Do not expose private motives through a public offer.",
+    "completionCondition": {
+      "type": "story",
+      "query": "For the accepted undertaking \"The Recommendation in Violet Ink\", the actual agreed objective has been achieved: Actually obtain, replace or expose the proposed recommendation and settle the specific accepted commission. The chosen method and actual affected people matter. A promise, hypothetical, unrelated deed, merely hearing the offer or a refusal without accepted follow-through is false."
+    },
+    "onCompleteEffects": [],
+    "conclusive": true
+  },
+  "Scales Before the Census": {
+    "name": "Scales Before the Census",
+    "questSource": "Shiori Takase",
+    "questLocation": "Coppercrest Exchange",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "Shiori Takase wants a parcel of sacred shed scales moved before a clan inventory inspection.",
+    "mainObjective": "Settle the scale parcel through a completed illicit delivery, authorized purchase, restitution or actual exposure.",
+    "questDesignBrief": "These are shed scales, not a living dragon to injure or a newly invented egg supply. Establish who currently owns them. Religion, ownership and a trader's profit are separate claims. No Drakenspire arrest automatically becomes a Wraith Island sentence. This is finite optional work. Establish the payer, method and compensation before acceptance. The quoted illicit fee is 180 marks; an alternative route needs its own real agreement. The completion effects supply no automatic illicit payout, so settle only the actual negotiated compensation once through supported ordinary item updates. Do not pay again when narrating a return. Do not expose private motives through a public offer.",
+    "completionCondition": {
+      "type": "story",
+      "query": "For the accepted undertaking \"Scales Before the Census\", the actual agreed objective has been achieved: Settle the scale parcel through a completed illicit delivery, authorized purchase, restitution or actual exposure. The chosen method and actual affected people matter. A promise, hypothetical, unrelated deed, merely hearing the offer or a refusal without accepted follow-through is false."
+    },
+    "onCompleteEffects": [],
+    "conclusive": true
+  },
+  "The Missing Weight": {
+    "name": "The Missing Weight",
+    "questSource": "Genta Shishido",
+    "questLocation": "Redvein Mine",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "Two crystal tallies disagree, and Genta Shishido would prefer a quiet correction to an official investigation.",
+    "mainObjective": "Resolve the actual missing-crystal discrepancy by a completed deception, restitution, verified exposure or a carried-out settlement.",
+    "questDesignBrief": "The error conceals deliberate diverted stock, but Genta Shishido is not secretly running the whole nation. Records, actual goods and testimony can establish a narrow case. Do not announce his guilt before evidence or make altering a page summon unlimited crystals. This is finite optional work. Establish the payer, method and compensation before acceptance. The quoted illicit fee is 150 marks; an alternative route needs its own real agreement. The completion effects supply no automatic illicit payout, so settle only the actual negotiated compensation once through supported ordinary item updates. Do not pay again when narrating a return. Do not expose private motives through a public offer.",
+    "completionCondition": {
+      "type": "story",
+      "query": "For the accepted undertaking \"The Missing Weight\", the actual agreed objective has been achieved: Resolve the actual missing-crystal discrepancy by a completed deception, restitution, verified exposure or a carried-out settlement. The chosen method and actual affected people matter. A promise, hypothetical, unrelated deed, merely hearing the offer or a refusal without accepted follow-through is false."
+    },
+    "onCompleteEffects": [],
+    "conclusive": true
+  },
+  "A Blade Without a Name": {
+    "name": "A Blade Without a Name",
+    "questSource": "Koharu Mikazuki",
+    "questLocation": "Hearthmarket Square",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "Koharu Mikazuki has a handsome blade to sell quickly and very little interest in its previous owner.",
+    "mainObjective": "Settle the actual stolen blade through fencing, recovery, restitution or a consequential bargain with the affected people.",
+    "questDesignBrief": "The weapon is one existing physical object established during the quest, not a new legendary reward for everyone. The owner has a recognizable repair mark, not an omniscient tracking spell. Keep who paid, retained or recovered it distinct. This is finite optional work. Establish the payer, method and compensation before acceptance. The quoted illicit fee is 210 marks; an alternative route needs its own real agreement. The completion effects supply no automatic illicit payout, so settle only the actual negotiated compensation once through supported ordinary item updates. Do not pay again when narrating a return. Do not expose private motives through a public offer.",
+    "completionCondition": {
+      "type": "story",
+      "query": "For the accepted undertaking \"A Blade Without a Name\", the actual agreed objective has been achieved: Settle the actual stolen blade through fencing, recovery, restitution or a consequential bargain with the affected people. The chosen method and actual affected people matter. A promise, hypothetical, unrelated deed, merely hearing the offer or a refusal without accepted follow-through is false."
+    },
+    "onCompleteEffects": [],
+    "conclusive": true
+  },
+  "A Delay Worth Buying": {
+    "name": "A Delay Worth Buying",
+    "questSource": "Koharu Mikazuki",
+    "questLocation": "Hearthmarket Square",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "A trader will pay to delay a rival's delivery without making the damage look deliberate.",
+    "mainObjective": "Carry out or expose the specific delivery interference, or establish a genuine alternative settlement.",
+    "questDesignBrief": "The cargo is ordinary valuable winter cloth and metal fittings. Sabotage can harm workers who were not part of the dispute. Offer warning, bargaining or refusal without turning the entire city into a chase. Torture alone, theft and fraud do not expand Glowhaven's existing automatic wanted loop. This is finite optional work. Establish the payer, method and compensation before acceptance. The quoted illicit fee is 170 marks; an alternative route needs its own real agreement. The completion effects supply no automatic illicit payout, so settle only the actual negotiated compensation once through supported ordinary item updates. Do not pay again when narrating a return. Do not expose private motives through a public offer.",
+    "completionCondition": {
+      "type": "story",
+      "query": "For the accepted undertaking \"A Delay Worth Buying\", the actual agreed objective has been achieved: Carry out or expose the specific delivery interference, or establish a genuine alternative settlement. The chosen method and actual affected people matter. A promise, hypothetical, unrelated deed, merely hearing the offer or a refusal without accepted follow-through is false."
+    },
+    "onCompleteEffects": [],
+    "conclusive": true
   }
 }

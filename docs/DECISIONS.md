@@ -87,3 +87,15 @@ Plan before implementation. First format: individual championship bouts, regulat
 New Nature/Soul plant-undead dungeon targets approximately levels 35–50. Its discovery uses the actual Evertree Portal Room plus a championship trophy and Silver Web Portal Key; no spider-queen victory was requested. Preserve the existing Spider Realm and anomaly behavior. The Sepulchral Conservatory premise and named caretaker remain creative proposals.
 
 Oni lore direction: predominantly Edo-inspired countryside/towns, samurai, shinobi, independent factions, Shogun and yokai, with some more-developed Arcane/Soul magitech. No modern metropolis or carved-face mountain. This update prepares lore and modest ancestry details, not the Oni map/realm or spirit portal expansion. The detailed plan separates supported mechanics, observed reference configuration and live-test uncertainties.
+
+## Champions of the Crucible — implementation decisions
+
+The user authorized the full package in one release. Use a persistent opt-in world activity rather than a native character-creation Game Mode. First controlled championships and exhibitions support one human; NPC companions remain outside combat. Do not silently enroll a multiplayer party. A changed human roster pauses review; prize ownership keeps the registered human name.
+
+Latest medical steering supersedes the stricter planning requirement: care/rest is appropriate and optional. Do not invent injuries when unharmed, confuse low Mana with wounds, or gate readiness on exact maximum resource values. Normal narrative/resource updates handle accepted player care; this is not a verified heal-to-max API. Results are recorded before treatment, and later recovery cannot turn a loss into victory.
+
+Semantic action/story recognition handles actual commitments and sporting decisions. The bracket's stored state owns entrant selection, eliminations, current match, result, 100-tick break and one prize dispatch. There is no championship quest, invented spawn effect or per-bout native permadeath switch. Native knockout/medical timing and semantic recognition require Voyage testing. NPC-only brackets are abstract recorded results rather than fake offscreen combat.
+
+The Sepulchral Conservatory has two tending wings in either order before its gated heart, a safe return refuge, optional investigation and finite creature-type encounter guidance. Both physical circuits must actually be settled; lost keepsake seals do not undo repairs. Threnvoss is the level-50 named caretaker. Actual defeat or genuine release shares one trophy owner. Portal discovery requires the championship trophy plus Silver Web Portal Key at Evertree, with no spider-queen-victory prerequisite and no change to the Spider Realm.
+
+Public notes are a thematic major announcement. Forty-three one-pass portraits and four dungeon environments accompany the native JSON; no unavailable hosted URL is fabricated. Preserve artwork mismatches in the review manifest and obtain a new request before re-generating under the one-pass portrait rule. Sources and the original AGENTS.md remain unchanged.

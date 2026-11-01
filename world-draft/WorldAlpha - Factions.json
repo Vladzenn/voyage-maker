@@ -194,5 +194,12 @@
     "initialKnown": false,
     "basicInfo": "Jōta Kamezaki, Beni Tsunoda, Riko Kanehara and Sōta Tobisawa travel under an extravagant copper-laurel badge. They have completed real work and are known for loud claims about their own importance. Their private company mark is not a new rank in the international Adventurer's Guild.",
     "hiddenInfo": "They have begun extorting invented recovery fees and claiming other expeditioners' loot. Keep the four actual authored individuals; never generate copies as generic bandits. Resolved theft needs an actual success and inventory change. They are selfish comic opportunists with limited courage and real relationships, not an omnipotent syndicate or innocent misunderstood heroes. Exposure, defeat, restitution, bargaining or internal fracture can change their conduct."
+  },
+  "The Rootbound Choir": {
+    "name": "The Rootbound Choir",
+    "factionType": "minor",
+    "initialKnown": false,
+    "basicInfo": "The remaining caretaker and bound garden vessels of the Sepulchral Conservatory. Some frames obey old tending instructions; others hold conscious charges whose wishes differ. They are not one uniform mind.",
+    "hiddenInfo": "Threnvoss refuses to release the charges because the last failed restoration convinced the caretaker that every departure was another death. Its fear has become coercive. Actual release, restraint or defeat can change the sanctuary; a promise alone does not."
   }
 }

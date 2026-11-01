@@ -1014,5 +1014,99 @@
     ],
     "immunities": [],
     "description": "A low, broad reptilian hunter with moss-green scales, four jointed legs and a flexible comb of hollow ivory needles along its spine. Its blunt wedge head bears four small amber eyes; its tail ends in two gripping pads used to cling to reeds and cage frames. It ambushes small prey in Asterveil wet channels and lashes its needle comb only within close range. Disturbed reeds, shed needles and a blocked retreat provide counterplay. It cannot fire endless projectiles, read minds or ignore cover."
+  },
+  "Crucible Competitor": {
+    "name": "Crucible Competitor",
+    "description": "An adult competitor with an independent livelihood and actual chosen fighting method. Entry in an arena does not imply guild registration, a badge, noble birth or a single temperament. Regulated competition follows its announced nonlethal rules; the person retains ordinary loyalties, work and the ability to decline a match.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Gravewood Golem": {
+    "name": "Gravewood Golem",
+    "description": "A broad walking frame of pale timber, riblike branches and an empty stone face-mask. Moss threads its joints and amber lights burn in the grain. Most are mindless instruction-bound vessels, not conscious dead people. Nature and Soul workings are distinct ways to affect frame and binding. Guards the rooted walks in small groups; deliberate flanking and exposed joint bindings provide counterplay.",
+    "vulnerabilities": [
+      "fire"
+    ],
+    "resistances": [
+      "piercing"
+    ],
+    "immunities": [
+      "poisoning"
+    ]
+  },
+  "Rootbound Pallbearer": {
+    "name": "Rootbound Pallbearer",
+    "description": "A four-legged bier of black roots carrying a hollow wooden torso and a little bell. It drags binding strands behind it and tries to hold an intruder for another guardian. Slow turns and the exposed rear bell are readable weaknesses. Its apparent coffin is not automatically occupied by a conscious soul.",
+    "vulnerabilities": [
+      "fire"
+    ],
+    "resistances": [],
+    "immunities": [
+      "poisoning"
+    ]
+  },
+  "Censer-Willow": {
+    "name": "Censer-Willow",
+    "description": "A narrow willow-bodied guardian with hanging seed-pod censers and a crown of long white leaves. It releases visible drifting spiritual haze to obscure an approach, then strikes with flexible branches. Air movement and distance can clear a lane. The haze is not automatic possession, hallucination or unavoidable damage.",
+    "vulnerabilities": [
+      "fire"
+    ],
+    "resistances": [
+      "nature"
+    ],
+    "immunities": [
+      "poisoning"
+    ]
+  },
+  "Hollowseed Swarm": {
+    "name": "Hollowseed Swarm",
+    "description": "A single coherent encounter of fist-sized seed husks with insectlike root legs and dim blue interiors. They skitter toward warm moving bodies and try to overwhelm one exposed position. Broad barriers, water channels and disrupting the central cluster can limit them. A swarm is not an unlimited number of independent attacks.",
+    "vulnerabilities": [
+      "fire",
+      "water"
+    ],
+    "resistances": [],
+    "immunities": [
+      "poisoning"
+    ]
+  },
+  "Ossuary Trellis": {
+    "name": "Ossuary Trellis",
+    "description": "A wall-clinging lattice of roots and old animal bones, its folded limbs opening like a garden fan. It blocks narrow routes with real hooked growth and reacts to contact or vibration. Cutting its exposed anchors or following a different physical route can avoid a direct contest.",
+    "vulnerabilities": [
+      "fire"
+    ],
+    "resistances": [
+      "piercing"
+    ],
+    "immunities": [
+      "poisoning"
+    ]
+  },
+  "Grafted Sentinel": {
+    "name": "Grafted Sentinel",
+    "description": "A tall armored tree-vessel with a polished memorial plate, a heavy root club and a visible amber binding knot behind one shoulder. These finite inner guards act with disciplined physical pressure rather than a limitless supply of spells. A real individual spirit may occupy a particular vessel only when established; otherwise it is an instruction-bound guardian.",
+    "vulnerabilities": [
+      "fire"
+    ],
+    "resistances": [
+      "piercing",
+      "nature"
+    ],
+    "immunities": [
+      "poisoning"
+    ]
+  },
+  "Rootbound Regent": {
+    "name": "Rootbound Regent",
+    "description": "An individually named intelligent caretaker built from living timber, funerary bronze and conscious spiritual bindings. It can reason, bargain, lie and defend itself. Its Nature framework and Soul stewardship do not confer universal magic immunity, instant resurrection or the authority to command every dead creature.",
+    "vulnerabilities": [],
+    "resistances": [
+      "nature"
+    ],
+    "immunities": [
+      "poisoning"
+    ]
   }
 }

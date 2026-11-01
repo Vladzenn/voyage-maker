@@ -227,5 +227,17 @@
         "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/afd21bc8-cd1c-4cb5-83ad-0e419a8b2498.png"
       }
     }
+  },
+  "Sepulchral Gardens": {
+    "name": "Sepulchral Gardens",
+    "x": 0,
+    "y": 0,
+    "realm": "The Sepulchral Conservatory",
+    "initialKnown": false,
+    "npcLevelRange": {
+      "min": 35,
+      "max": 45
+    },
+    "basicInfo": "A compact abandoned sanctuary of glasshouses, memorial trees and irrigation walks. The portal house is a staging refuge; inner gardens hold plant-bodied undead guardians and an intelligent caretaker. This is a midgame expedition with real retreat routes."
   }
 }

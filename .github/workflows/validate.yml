@@ -19,3 +19,4 @@ jobs:
       - run: node tools/test_item_mechanics.cjs
       - run: node tools/test_adventurers.cjs
       - run: node tools/test_creation.cjs
+      - run: node tools/test_crucible.cjs

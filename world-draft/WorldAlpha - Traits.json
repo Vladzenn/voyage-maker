@@ -1170,8 +1170,8 @@
   },
   "Oni": {
     "name": "Oni",
-    "description": "A humanlike adult oni with distinctive horns and individually chosen hair, eyes and complexion. The ancestry implies no demonic allegiance, compulsory behavior or invented homeland. Starting benefits: +1 force, +2 intimidation, +15 Health capacity.",
-    "traitNarrativeEffects": "A humanlike adult oni with distinctive horns and individually chosen hair, eyes and complexion. The ancestry implies no demonic allegiance, compulsory behavior or invented homeland. Starting benefits: +1 force, +2 intimidation, +15 Health capacity. These are the actual native modifiers; do not award them again in narration. Preserve the individual body. Ancestry grants no additional affinity, spell, title or compulsory disposition.",
+    "description": "A humanlike adult oni with distinctive horns and individually chosen hair, eyes and complexion. The ancestry implies no demonic allegiance, compulsory behavior or compulsory homeland loyalty. Starting benefits: +1 force, +2 intimidation, +15 Health capacity.",
+    "traitNarrativeEffects": "A humanlike adult oni with distinctive horns and individually chosen hair, eyes and complexion. The ancestry implies no demonic allegiance, compulsory behavior or compulsory homeland loyalty. Starting benefits: +1 force, +2 intimidation, +15 Health capacity. These are the actual native modifiers; do not award them again in narration. Preserve the individual body. Ancestry grants no additional affinity, spell, title or compulsory disposition. The established homeland has Edo-inspired towns, fields, samurai and shinobi traditions with selected Arcane/Soul magitech. Ancestry alone grants none of those skills or affinities.",
     "attributes": [
       {
         "attribute": "force",

@@ -1,6 +1,6 @@
 # Current state
 
-Updated 1 November 2026 after the **Character Creation & Polish** minor patch.
+Updated 1 November 2026 after **Champions of the Crucible**. The earlier Character Creation & Polish patch and its import hotfix are preserved.
 
 Public release numbering: Character Creation & Polish was published as **🐙 Minor Patch 3**. Minor titles use an unrelated animal emoji followed by `Minor Patch n`; feature names belong in body subheadings. The next new minor release is **Minor Patch 4**. This title-convention clarification changes documentation only.
 
@@ -10,7 +10,21 @@ Studio import hotfix: the reported rejection exposed twenty-four missing `amount
 
 The canonical full world is `world-draft/WorldAlpha - World.json`. The latest user-supplied Studio export is `b44dcd0f-0fe6-49d9-9b55-34301190d203`. Its thirty-three added location images, sixteen uploaded Adventurers portraits, Marika Hoshino level 30, removed non-badge item art, Permadeath naming, three-level attribute-award interval and other user edits are preserved. Its 80% Stamina rest fraction remains; the accompanying explicit instruction set starting/base maximum Stamina to 100. Derived section files remain synchronized.
 
-Current content: 229 NPCs, 173 locations, 716 areas, 5 realms, 9 regions, 135 quests, 3 native arcs, 407 items, 534 abilities, 670 traits, 106 NPC types, 28 factions and 378 root triggers. Character cap 150; skill cap 100. Resources remain Health, Mana, Stamina, Renown and Infamy.
+Current content: 272 NPCs, 176 locations, 736 areas, 6 realms, 10 regions, 144 quests, 3 native arcs, 412 items, 694 abilities, 670 traits, 114 NPC types, 29 factions and 408 root triggers. Character cap 150; skill cap 100. Resources remain Health, Mana, Stamina, Renown and Infamy.
+
+## Champions of the Crucible — implemented
+
+See [mechanics and live-test guide](../world-draft/Champions%20of%20the%20Crucible%20-%20Mechanics%20and%20Playtest%20Guide.md) and [public Markdown](../world-draft/Champions%20of%20the%20Crucible%20-%20Patch%20Notes.md). The full downloadable export is `world-draft/The Schools of Magic, Arise! Full World Update 5 - Champions of the Crucible.json`; the canonical copy above remains the shared authoring source. `tools/crucible/build.py` uses an explicit merge base; `tools/crucible/export.py` packages the current world. Do not rerun the builder on an already updated full world.
+
+- Optional persistent individual championships, not a native creation Game Mode. One human entrant, NPC companions outside the ring. Four/eight-person fields preserve actual NPC levels, results and eliminations; finals close once, prizes have one typed owner, and the next edition waits 100 engine ticks. Human roster changes pause for review rather than transferring the entry.
+- Semantic recognition handles real registration, readiness, surrender/referee outcomes, treatment and collection. Stored state preserves the bracket and rewards; native Health can override a false win. No conversation-by-conversation quest machine.
+- Latest user steering supersedes strict medical gates: appropriate optional care/rest, no invented injuries for unharmed fighters, and no exact resource-percentage requirement. Player treatment uses normal resource updates. Regulated nonlethal behavior, especially with native Permadeath, still requires live testing; no per-bout death toggle is claimed.
+- Thirty-two new competitors, four staff, six crime contacts and Threnvoss: 43 JSON cards and 43 one-pass PNG portraits. All are saved under exact names. Rena Kogetsu/Fuyumi Hase have flagged gender-presentation mismatches; Nene Inui/Threnvoss have head-silhouette crop flags. No unauthorized re-generation. Full review/upload manifest is in `output/champions-of-the-crucible/` and original prompts are in `tools/crucible/`.
+- The Sepulchral Conservatory is a compact midgame Nature/Soul dungeon: safe portal staging point, two guarded tending wings, gated heart, optional garden and archive, finite npcTypes guidance, named level-50 caretaker and combat/release outcomes. Backtracking remains available. The route needs a Championship Trophy and Silver Web Portal Key at the Evertree, not a spider-queen kill. Existing anomaly and Spider content remain unchanged.
+- One square realm-map PNG and three location images accompany the dungeon. These and the portraits require Studio uploads; no hosted URLs or unsupported local-image fields were invented.
+- 160 additional abilities, eight finite illicit jobs with negotiated compensation, one native sanctuary investigation, focused Oni culture lore and unchanged Oni ancestry modifiers. No Oni realm or other planned expansion was built.
+
+Local validation covers schema/reference/size limits and emitted-script fixtures, including low/high-level fields, repeated callbacks, knockout contradictions, departure, identity changes, cooldown, prize ownership, both circuits, early heart clicks and portal return. All preceding NPCs/items/abilities and protected Spider configuration have preservation fingerprints. The static semantic-budget probe includes the new scenes. This is not live Studio validation or a claim of flawless AI recognition.
 
 The previous Curios, Scrolls and Gentler Adventures pass remains intact: 300 additional items, thirty teaching scrolls, thirty scroll-only spells and their formula traits. This minor patch preserves every preceding item and ability exactly as supplied in the current export. Ordinary beginner safeguards remain; the Spider Realm's configuration, events, cast and surprise difficulty are protected.
 

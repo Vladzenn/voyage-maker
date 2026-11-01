@@ -1119,6 +1119,12 @@
     "recurring": true,
     "conditions": [
       {
+        "type": "read-boolean",
+        "operator": "equals",
+        "value": false,
+        "key": "cc1_active"
+      },
+      {
         "type": "party-location",
         "operator": "regex",
         "value": "^(The Eternal Crucible|.*Academy)$"
@@ -1152,6 +1158,12 @@
     "name": "gh_lore_tournament_stop",
     "recurring": true,
     "conditions": [
+      {
+        "type": "read-boolean",
+        "operator": "equals",
+        "value": false,
+        "key": "cc1_active"
+      },
       {
         "type": "read-boolean",
         "key": "gh_lore_tournament_active",
@@ -15170,7 +15182,7 @@
     ],
     "effects": [],
     "recurring": true,
-    "script": "// The build replaces {\"Ragnar Leonhart\": [[\"The Eternal Crucible\", \"The Eternal Crucible - Arena Floor\"], [\"Crooked Tankard\", \"Crooked Tankard - Hearth Corner\"], [\"The Cinder Pit\", \"The Cinder Pit - Fighting Floor\"], [\"Whitepass Caravan Lodge\", \"Whitepass Caravan Lodge - Common Hearth\"], [\"Cloudbloom Landing\", \"Cloudbloom Landing - Crossing Quay\"], [\"Asterveil Canopy\", \"Asterveil Canopy - Guest Terrace\"], [\"The Eternal Crucible\", \"The Eternal Crucible - Competitor Passage\"], [\"Roseberry Inn\", \"Roseberry Inn - Common Room\"]], \"Adoha Aonuma\": [[\"Four Sages Bazaar\", \"Four Sages Bazaar - Four Sages Fountain\"], [\"The Jade Cup Teahouse\", \"The Jade Cup Teahouse - Tea Room\"], [\"Snowbell Playhouse\", \"Snowbell Playhouse - Stage and Wings\"], [\"The Copper Ram\", \"The Copper Ram - Musicians' Corner\"], [\"Asterveil Canopy\", \"Asterveil Canopy - Guest Terrace\"], [\"Asterveil Canopy\", \"Asterveil Canopy - Guest Boughs\"], [\"Roseberry Inn\", \"Roseberry Inn - Common Room\"], [\"Four Sages Bazaar\", \"Four Sages Bazaar - North Arcade\"]], \"Karia Morino\": [[\"Adventurer's Guild - Glowhaven Branch\", \"Adventurer's Guild - Glowhaven Branch - Training Yard\"], [\"Crooked Tankard\", \"Crooked Tankard - Taproom\"], [\"Whitepass Caravan Lodge\", \"Whitepass Caravan Lodge - Route Desk\"], [\"The Copper Ram\", \"The Copper Ram - Taproom\"], [\"Rimeglass Refuge\", \"Rimeglass Refuge - Common Shelter\"], [\"Reedglass Anchorage\", \"Reedglass Anchorage - Arrival Deck\"], [\"Heatherwatch Shelf\", \"Heatherwatch Shelf - Common Room\"], [\"Asterveil Canopy\", \"Asterveil Canopy - Guest Terrace\"]]} with exact supported location/area pairs.\nconst routes = {\"Ragnar Leonhart\": [[\"The Eternal Crucible\", \"The Eternal Crucible - Arena Floor\"], [\"Crooked Tankard\", \"Crooked Tankard - Hearth Corner\"], [\"The Cinder Pit\", \"The Cinder Pit - Fighting Floor\"], [\"Whitepass Caravan Lodge\", \"Whitepass Caravan Lodge - Common Hearth\"], [\"Cloudbloom Landing\", \"Cloudbloom Landing - Crossing Quay\"], [\"Asterveil Canopy\", \"Asterveil Canopy - Guest Terrace\"], [\"The Eternal Crucible\", \"The Eternal Crucible - Competitor Passage\"], [\"Roseberry Inn\", \"Roseberry Inn - Common Room\"]], \"Adoha Aonuma\": [[\"Four Sages Bazaar\", \"Four Sages Bazaar - Four Sages Fountain\"], [\"The Jade Cup Teahouse\", \"The Jade Cup Teahouse - Tea Room\"], [\"Snowbell Playhouse\", \"Snowbell Playhouse - Stage and Wings\"], [\"The Copper Ram\", \"The Copper Ram - Musicians' Corner\"], [\"Asterveil Canopy\", \"Asterveil Canopy - Guest Terrace\"], [\"Asterveil Canopy\", \"Asterveil Canopy - Guest Boughs\"], [\"Roseberry Inn\", \"Roseberry Inn - Common Room\"], [\"Four Sages Bazaar\", \"Four Sages Bazaar - North Arcade\"]], \"Karia Morino\": [[\"Adventurer's Guild - Glowhaven Branch\", \"Adventurer's Guild - Glowhaven Branch - Training Yard\"], [\"Crooked Tankard\", \"Crooked Tankard - Taproom\"], [\"Whitepass Caravan Lodge\", \"Whitepass Caravan Lodge - Route Desk\"], [\"The Copper Ram\", \"The Copper Ram - Taproom\"], [\"Rimeglass Refuge\", \"Rimeglass Refuge - Common Shelter\"], [\"Reedglass Anchorage\", \"Reedglass Anchorage - Arrival Deck\"], [\"Heatherwatch Shelf\", \"Heatherwatch Shelf - Common Room\"], [\"Asterveil Canopy\", \"Asterveil Canopy - Guest Terrace\"]]};\nconst dayRaw = Number(check({type:'day'}));\nconst day = Number.isFinite(dayRaw) && dayRaw >= 1 ? Math.floor(dayRaw) : 1;\nconst time = String(check({type:'time-of-day'}) || '').toLowerCase();\nconst late = /afternoon|evening|night|dusk/.test(time);\nfor (const [npc, stops] of Object.entries(routes)) {\n  const hp = check({type:'npc-health',npc});\n  if (typeof hp !== 'number' || hp <= 0 || storage['ad34_hold_'+npc] === true ||\n      check({type:'npc-in-party',npc}) === true ||\n      check({type:'npc-in-combat',npc}) === true ||\n      check({type:'npc-in-scene',npc}) === true) continue;\n  const index = ((day - 1) * 2 + (late ? 1 : 0)) % stops.length;\n  const [location,area] = stops[index];\n  if (check({type:'npc-location',npc}) === location && check({type:'npc-area',npc}) === area) continue;\n  // At most one move per traveler in a phase; never a player teleport or a new NPC.\n  effects.push({type:'npc-placement',npc,operation:'moveTo',location,area});\n}\n",
+    "script": "// The build replaces {\"Ragnar Leonhart\": [[\"The Eternal Crucible\", \"The Eternal Crucible - Arena Floor\"], [\"Crooked Tankard\", \"Crooked Tankard - Hearth Corner\"], [\"The Cinder Pit\", \"The Cinder Pit - Fighting Floor\"], [\"Whitepass Caravan Lodge\", \"Whitepass Caravan Lodge - Common Hearth\"], [\"Cloudbloom Landing\", \"Cloudbloom Landing - Crossing Quay\"], [\"Asterveil Canopy\", \"Asterveil Canopy - Guest Terrace\"], [\"The Eternal Crucible\", \"The Eternal Crucible - Competitor Passage\"], [\"Roseberry Inn\", \"Roseberry Inn - Common Room\"]], \"Adoha Aonuma\": [[\"Four Sages Bazaar\", \"Four Sages Bazaar - Four Sages Fountain\"], [\"The Jade Cup Teahouse\", \"The Jade Cup Teahouse - Tea Room\"], [\"Snowbell Playhouse\", \"Snowbell Playhouse - Stage and Wings\"], [\"The Copper Ram\", \"The Copper Ram - Musicians' Corner\"], [\"Asterveil Canopy\", \"Asterveil Canopy - Guest Terrace\"], [\"Asterveil Canopy\", \"Asterveil Canopy - Guest Boughs\"], [\"Roseberry Inn\", \"Roseberry Inn - Common Room\"], [\"Four Sages Bazaar\", \"Four Sages Bazaar - North Arcade\"]], \"Karia Morino\": [[\"Adventurer's Guild - Glowhaven Branch\", \"Adventurer's Guild - Glowhaven Branch - Training Yard\"], [\"Crooked Tankard\", \"Crooked Tankard - Taproom\"], [\"Whitepass Caravan Lodge\", \"Whitepass Caravan Lodge - Route Desk\"], [\"The Copper Ram\", \"The Copper Ram - Taproom\"], [\"Rimeglass Refuge\", \"Rimeglass Refuge - Common Shelter\"], [\"Reedglass Anchorage\", \"Reedglass Anchorage - Arrival Deck\"], [\"Heatherwatch Shelf\", \"Heatherwatch Shelf - Common Room\"], [\"Asterveil Canopy\", \"Asterveil Canopy - Guest Terrace\"]]} with exact supported location/area pairs.\nconst routes = {\"Ragnar Leonhart\": [[\"The Eternal Crucible\", \"The Eternal Crucible - Arena Floor\"], [\"Crooked Tankard\", \"Crooked Tankard - Hearth Corner\"], [\"The Cinder Pit\", \"The Cinder Pit - Fighting Floor\"], [\"Whitepass Caravan Lodge\", \"Whitepass Caravan Lodge - Common Hearth\"], [\"Cloudbloom Landing\", \"Cloudbloom Landing - Crossing Quay\"], [\"Asterveil Canopy\", \"Asterveil Canopy - Guest Terrace\"], [\"The Eternal Crucible\", \"The Eternal Crucible - Competitor Passage\"], [\"Roseberry Inn\", \"Roseberry Inn - Common Room\"]], \"Adoha Aonuma\": [[\"Four Sages Bazaar\", \"Four Sages Bazaar - Four Sages Fountain\"], [\"The Jade Cup Teahouse\", \"The Jade Cup Teahouse - Tea Room\"], [\"Snowbell Playhouse\", \"Snowbell Playhouse - Stage and Wings\"], [\"The Copper Ram\", \"The Copper Ram - Musicians' Corner\"], [\"Asterveil Canopy\", \"Asterveil Canopy - Guest Terrace\"], [\"Asterveil Canopy\", \"Asterveil Canopy - Guest Boughs\"], [\"Roseberry Inn\", \"Roseberry Inn - Common Room\"], [\"Four Sages Bazaar\", \"Four Sages Bazaar - North Arcade\"]], \"Karia Morino\": [[\"Adventurer's Guild - Glowhaven Branch\", \"Adventurer's Guild - Glowhaven Branch - Training Yard\"], [\"Crooked Tankard\", \"Crooked Tankard - Taproom\"], [\"Whitepass Caravan Lodge\", \"Whitepass Caravan Lodge - Route Desk\"], [\"The Copper Ram\", \"The Copper Ram - Taproom\"], [\"Rimeglass Refuge\", \"Rimeglass Refuge - Common Shelter\"], [\"Reedglass Anchorage\", \"Reedglass Anchorage - Arrival Deck\"], [\"Heatherwatch Shelf\", \"Heatherwatch Shelf - Common Room\"], [\"Asterveil Canopy\", \"Asterveil Canopy - Guest Terrace\"]]};\nconst dayRaw = Number(check({type:'day'}));\nconst day = Number.isFinite(dayRaw) && dayRaw >= 1 ? Math.floor(dayRaw) : 1;\nconst time = String(check({type:'time-of-day'}) || '').toLowerCase();\nconst late = /afternoon|evening|night|dusk/.test(time);\nfor (const [npc, stops] of Object.entries(routes)) {\n  const hp = check({type:'npc-health',npc});\n  if ((storage.cc1_active && storage.cc1 && (storage.cc1.roster||[]).includes(npc)) || typeof hp !== 'number' || hp <= 0 || storage['ad34_hold_'+npc] === true ||\n      check({type:'npc-in-party',npc}) === true ||\n      check({type:'npc-in-combat',npc}) === true ||\n      check({type:'npc-in-scene',npc}) === true) continue;\n  const index = ((day - 1) * 2 + (late ? 1 : 0)) % stops.length;\n  const [location,area] = stops[index];\n  if (check({type:'npc-location',npc}) === location && check({type:'npc-area',npc}) === area) continue;\n  // At most one move per traveler in a phase; never a player teleport or a new NPC.\n  effects.push({type:'npc-placement',npc,operation:'moveTo',location,area});\n}\n",
     "phase": "planning"
   },
   "ad34_public_opportunities": {
@@ -15254,5 +15266,948 @@
     ],
     "recurring": false,
     "scope": "player"
+  },
+  "cc1_initialize": {
+    "name": "cc1_initialize",
+    "conditions": [
+      {
+        "type": "game-tick",
+        "operator": "greaterThan",
+        "value": 0
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "script": "const tick=check({type:'game-tick'}), venue='The Eternal Crucible';\nconst levels=check({type:'player-level'})||{}, names=Object.keys(levels), solo=names.length===1;\nconst c=storage.cc1=storage.cc1||{v:1,phase:'idle',edition:0,nextTick:0,history:[],prizes:{},care:{}};\nconst here=check({type:'party-location'})===venue;\nconst say=s=>effects.push({type:'story',instruction:s});\nconst setPhase=p=>{c.phase=p;storage.cc1_phase=p;storage.cc1_live=p==='live';storage.cc1_active=['ready','live','between','review','away'].includes(p);};\nconst roster=[{\"name\":\"Kōta Mibu\",\"level\":1},{\"name\":\"Nene Inui\",\"level\":2},{\"name\":\"Masato Oda\",\"level\":2},{\"name\":\"Chika Umemori\",\"level\":3},{\"name\":\"Shun Kurebayashi\",\"level\":4},{\"name\":\"Rena Kogetsu\",\"level\":5},{\"name\":\"Eita Kuroda\",\"level\":6},{\"name\":\"Fuyumi Hase\",\"level\":7},{\"name\":\"Tsubasa Maki\",\"level\":8},{\"name\":\"Yae Mitsuhara\",\"level\":9},{\"name\":\"Daisuke Kariya\",\"level\":10},{\"name\":\"Mayu Kido\",\"level\":12},{\"name\":\"Akito Senzaki\",\"level\":13},{\"name\":\"Mihana Shiraishi\",\"level\":15},{\"name\":\"Junpei Haneda\",\"level\":16},{\"name\":\"Riko Narumi\",\"level\":18},{\"name\":\"Kenta Ishizaki\",\"level\":20},{\"name\":\"Sayo Kirihara\",\"level\":22},{\"name\":\"Haruto Otsuki\",\"level\":24},{\"name\":\"Natsume Aiba\",\"level\":25},{\"name\":\"Daichi Kawanobe\",\"level\":27},{\"name\":\"Midori Hozumi\",\"level\":29},{\"name\":\"Kojirō Tsunematsu\",\"level\":31},{\"name\":\"Ema Tsukishiro\",\"level\":33},{\"name\":\"Ayato Nikaidō\",\"level\":35},{\"name\":\"Haruna Yashima\",\"level\":38},{\"name\":\"Seiji Makabe\",\"level\":41},{\"name\":\"Kanna Tsuruno\",\"level\":44},{\"name\":\"Ranmaru Tōdō\",\"level\":48},{\"name\":\"Mizuki Kaneshiro\",\"level\":53},{\"name\":\"Takeshi Onizuka\",\"level\":58},{\"name\":\"Reina Hazakura\",\"level\":64},{\"name\":\"Takeru Akabane\",\"level\":15,\"visitor\":true},{\"name\":\"Ruri Saegusa\",\"level\":15,\"visitor\":true},{\"name\":\"Asuka Tsurugi\",\"level\":15,\"visitor\":true},{\"name\":\"Ragnar Leonhart\",\"level\":67,\"visitor\":true}], rings=[\"The Eternal Crucible - Arena Floor\",\"The Eternal Crucible - Pillar Court\",\"The Eternal Crucible - Verdant Ring\",\"The Eternal Crucible - Frostglass Platform\",\"The Eternal Crucible - Broken Stair Arena\",\"The Eternal Crucible - Mirrorwater Garden\"];\nconst rnd=()=>{c.seed=((c.seed||1931)*1664525+1013904223)>>>0;return c.seed/4294967296;};\nconst health=n=>check({type:'npc-health',npc:n});\nconst playerHealth=()=>{const h=check({type:'player-resource',resource:'Health'})||{};return h[c.entrant]===undefined&&solo?h[names[0]]:h[c.entrant];};\nconst current=()=>c.matches&&c.matches.find(m=>m.id===c.match);\nconst opponent=m=>m&&m.players.find(n=>n!=='@');\nconst mirror=()=>{storage.cc1_phase=c.phase;storage.cc1_live=c.phase==='live';storage.cc1_active=['ready','live','between','review','away'].includes(c.phase);storage.cc1_due=Object.keys(c.prizes).length>0;storage.cc1_care=Object.keys(c.care).length>0;};\nmirror();",
+    "phase": "planning"
+  },
+  "cc1_register": {
+    "name": "cc1_register",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "The Eternal Crucible"
+      },
+      {
+        "type": "read-string",
+        "operator": "regex",
+        "value": "^(idle|closed)$",
+        "key": "cc1_phase"
+      },
+      {
+        "type": "action",
+        "query": "The player explicitly registers now for the next available Crucible individual championship after the official has explained its actual field, nonlethal rules, no entry fee and prize. A question, spectating, discussing a future tournament, somebody else registering or a friendly spar is false."
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "script": "const tick=check({type:'game-tick'}), venue='The Eternal Crucible';\nconst levels=check({type:'player-level'})||{}, names=Object.keys(levels), solo=names.length===1;\nconst c=storage.cc1=storage.cc1||{v:1,phase:'idle',edition:0,nextTick:0,history:[],prizes:{},care:{}};\nconst here=check({type:'party-location'})===venue;\nconst say=s=>effects.push({type:'story',instruction:s});\nconst setPhase=p=>{c.phase=p;storage.cc1_phase=p;storage.cc1_live=p==='live';storage.cc1_active=['ready','live','between','review','away'].includes(p);};\nconst roster=[{\"name\":\"Kōta Mibu\",\"level\":1},{\"name\":\"Nene Inui\",\"level\":2},{\"name\":\"Masato Oda\",\"level\":2},{\"name\":\"Chika Umemori\",\"level\":3},{\"name\":\"Shun Kurebayashi\",\"level\":4},{\"name\":\"Rena Kogetsu\",\"level\":5},{\"name\":\"Eita Kuroda\",\"level\":6},{\"name\":\"Fuyumi Hase\",\"level\":7},{\"name\":\"Tsubasa Maki\",\"level\":8},{\"name\":\"Yae Mitsuhara\",\"level\":9},{\"name\":\"Daisuke Kariya\",\"level\":10},{\"name\":\"Mayu Kido\",\"level\":12},{\"name\":\"Akito Senzaki\",\"level\":13},{\"name\":\"Mihana Shiraishi\",\"level\":15},{\"name\":\"Junpei Haneda\",\"level\":16},{\"name\":\"Riko Narumi\",\"level\":18},{\"name\":\"Kenta Ishizaki\",\"level\":20},{\"name\":\"Sayo Kirihara\",\"level\":22},{\"name\":\"Haruto Otsuki\",\"level\":24},{\"name\":\"Natsume Aiba\",\"level\":25},{\"name\":\"Daichi Kawanobe\",\"level\":27},{\"name\":\"Midori Hozumi\",\"level\":29},{\"name\":\"Kojirō Tsunematsu\",\"level\":31},{\"name\":\"Ema Tsukishiro\",\"level\":33},{\"name\":\"Ayato Nikaidō\",\"level\":35},{\"name\":\"Haruna Yashima\",\"level\":38},{\"name\":\"Seiji Makabe\",\"level\":41},{\"name\":\"Kanna Tsuruno\",\"level\":44},{\"name\":\"Ranmaru Tōdō\",\"level\":48},{\"name\":\"Mizuki Kaneshiro\",\"level\":53},{\"name\":\"Takeshi Onizuka\",\"level\":58},{\"name\":\"Reina Hazakura\",\"level\":64},{\"name\":\"Takeru Akabane\",\"level\":15,\"visitor\":true},{\"name\":\"Ruri Saegusa\",\"level\":15,\"visitor\":true},{\"name\":\"Asuka Tsurugi\",\"level\":15,\"visitor\":true},{\"name\":\"Ragnar Leonhart\",\"level\":67,\"visitor\":true}], rings=[\"The Eternal Crucible - Arena Floor\",\"The Eternal Crucible - Pillar Court\",\"The Eternal Crucible - Verdant Ring\",\"The Eternal Crucible - Frostglass Platform\",\"The Eternal Crucible - Broken Stair Arena\",\"The Eternal Crucible - Mirrorwater Garden\"];\nconst rnd=()=>{c.seed=((c.seed||1931)*1664525+1013904223)>>>0;return c.seed/4294967296;};\nconst health=n=>check({type:'npc-health',npc:n});\nconst playerHealth=()=>{const h=check({type:'player-resource',resource:'Health'})||{};return h[c.entrant]===undefined&&solo?h[names[0]]:h[c.entrant];};\nconst current=()=>c.matches&&c.matches.find(m=>m.id===c.match);\nconst opponent=m=>m&&m.players.find(n=>n!=='@');\nconst mirror=()=>{storage.cc1_phase=c.phase;storage.cc1_live=c.phase==='live';storage.cc1_active=['ready','live','between','review','away'].includes(c.phase);storage.cc1_due=Object.keys(c.prizes).length>0;storage.cc1_care=Object.keys(c.care).length>0;};\nif(!solo){say('Official individual championship registration currently supports one human player in this adventure, with NPC companions welcome outside the ring. In multiplayer, ordinary consensual sparring and the venue remain available; do not register or charge the entire party as one fighter.');skip=false;}\nelse if(['ready','live','between','review','away'].includes(c.phase)){skip=true;}\nelse if(tick<c.nextTick){say('The next championship is not ready yet: '+(c.nextTick-tick)+' completed turns remain before another edition. Sparring, conversation and optional instruction remain available.');}\nelse{\nconst level=levels[names[0]],gap=level<=10?2:Math.max(4,Math.ceil(level*.3));\nconst available=roster.filter(x=>(!x.visitor||check({type:'npc-location',npc:x.name})===venue)&&check({type:'npc-in-party',npc:x.name})!==true&&check({type:'npc-in-combat',npc:x.name})!==true&&!(typeof health(x.name)==='number'&&health(x.name)<=0));\nlet pool=available.filter(x=>Math.abs(x.level-level)<=gap);\nif(pool.length<3)pool=available.filter(x=>x.level<=level+gap).sort((a,b)=>Math.abs(a.level-level)-Math.abs(b.level-level)).slice(0,7);\nif(pool.length<3){say('There are not enough fit, available competitors for a fair card. Offer ordinary sparring or a later registration without charging or inventing replacements.');}\nelse{\nc.edition++;c.seed=(tick*1949+c.edition*7919+31337)>>>0;\nconst target=pool.length>=7?7:3;\nconst selected=[];while(pool.length&&selected.length<target){selected.push(pool.splice(Math.floor(rnd()*pool.length),1)[0]);}\nconst size=selected.length>=7?8:4;selected.length=size-1;\nc.title=['First Bloom Cup','Highsun Clash','Harvest Crown','Frostglass Championship'][(c.edition-1)%4]+' — Edition '+c.edition;\nc.division=level<=12?'Initiates':level<=25?'Rising':level<=45?'Veteran':'Crown';\nc.entrant=names[0];c.roster=['@',...selected.map(x=>x.name)];c.matches=[];c.exhibition=false;c.outcome='entered';c.champion=null;c.registeredTick=tick;c.purse=80+Math.min(700,Math.floor(level*10));\nlet ids=[];for(let i=0;i<size;i+=2){const id='R1M'+(i/2);ids.push(id);c.matches.push({id,players:c.roster.slice(i,i+2),arena:rings[(i/2+c.edition)%rings.length],attempt:1});}\nlet round=2;while(ids.length>1){const next=[];for(let i=0;i<ids.length;i+=2){const id='R'+round+'M'+i/2;next.push(id);c.matches.push({id,parents:ids.slice(i,i+2),players:[],arena:rings[(round+c.edition)%rings.length],attempt:1});}ids=next;round++;}\nc.match='R1M0';setPhase('ready');mirror();\nconst m=current();effects.push({type:'known-entity',entity:opponent(m),operator:'set',value:true});\neffects.push({type:'npc-placement',npc:opponent(m),operation:'moveTo',location:venue,area:'The Eternal Crucible - Competitor Lounge'});\nsay('Registration is accepted for '+c.title+', '+c.division+' division. This is a '+size+'-entrant individual bracket, '+Math.log2(size)+' player bouts to win, no entry fee, and a '+c.purse+'-mark championship purse plus trophy. Announce the actual selected field: '+selected.map(x=>x.name+' (level '+x.level+')').join(', ')+'. Preserve authored power levels. First opponent: '+opponent(m)+'; arena: '+m.arena+'. Explain nonlethal subdual, surrender, referee stops, legal finite summons, no outside assistance and no live-bout mana potions/reserve batteries. Ordinary catalysts are legal. Introduce at most two people at once; offer the lounge and wait for readiness.');\n}\n}",
+    "scope": "player"
+  },
+  "cc1_ready": {
+    "name": "cc1_ready",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "The Eternal Crucible"
+      },
+      {
+        "type": "read-string",
+        "operator": "regex",
+        "value": "^(ready|between)$",
+        "key": "cc1_phase"
+      },
+      {
+        "type": "action",
+        "query": "The registered Crucible fighter explicitly declares readiness or goes to begin their currently announced bout now. They may accept, skip or decline optional care; nobody needs to be injured or at an exact resource percentage. Merely asking about the next opponent, entering an arena as a visitor, discussing practice or watching is false."
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "script": "const tick=check({type:'game-tick'}), venue='The Eternal Crucible';\nconst levels=check({type:'player-level'})||{}, names=Object.keys(levels), solo=names.length===1;\nconst c=storage.cc1=storage.cc1||{v:1,phase:'idle',edition:0,nextTick:0,history:[],prizes:{},care:{}};\nconst here=check({type:'party-location'})===venue;\nconst say=s=>effects.push({type:'story',instruction:s});\nconst setPhase=p=>{c.phase=p;storage.cc1_phase=p;storage.cc1_live=p==='live';storage.cc1_active=['ready','live','between','review','away'].includes(p);};\nconst roster=[{\"name\":\"Kōta Mibu\",\"level\":1},{\"name\":\"Nene Inui\",\"level\":2},{\"name\":\"Masato Oda\",\"level\":2},{\"name\":\"Chika Umemori\",\"level\":3},{\"name\":\"Shun Kurebayashi\",\"level\":4},{\"name\":\"Rena Kogetsu\",\"level\":5},{\"name\":\"Eita Kuroda\",\"level\":6},{\"name\":\"Fuyumi Hase\",\"level\":7},{\"name\":\"Tsubasa Maki\",\"level\":8},{\"name\":\"Yae Mitsuhara\",\"level\":9},{\"name\":\"Daisuke Kariya\",\"level\":10},{\"name\":\"Mayu Kido\",\"level\":12},{\"name\":\"Akito Senzaki\",\"level\":13},{\"name\":\"Mihana Shiraishi\",\"level\":15},{\"name\":\"Junpei Haneda\",\"level\":16},{\"name\":\"Riko Narumi\",\"level\":18},{\"name\":\"Kenta Ishizaki\",\"level\":20},{\"name\":\"Sayo Kirihara\",\"level\":22},{\"name\":\"Haruto Otsuki\",\"level\":24},{\"name\":\"Natsume Aiba\",\"level\":25},{\"name\":\"Daichi Kawanobe\",\"level\":27},{\"name\":\"Midori Hozumi\",\"level\":29},{\"name\":\"Kojirō Tsunematsu\",\"level\":31},{\"name\":\"Ema Tsukishiro\",\"level\":33},{\"name\":\"Ayato Nikaidō\",\"level\":35},{\"name\":\"Haruna Yashima\",\"level\":38},{\"name\":\"Seiji Makabe\",\"level\":41},{\"name\":\"Kanna Tsuruno\",\"level\":44},{\"name\":\"Ranmaru Tōdō\",\"level\":48},{\"name\":\"Mizuki Kaneshiro\",\"level\":53},{\"name\":\"Takeshi Onizuka\",\"level\":58},{\"name\":\"Reina Hazakura\",\"level\":64},{\"name\":\"Takeru Akabane\",\"level\":15,\"visitor\":true},{\"name\":\"Ruri Saegusa\",\"level\":15,\"visitor\":true},{\"name\":\"Asuka Tsurugi\",\"level\":15,\"visitor\":true},{\"name\":\"Ragnar Leonhart\",\"level\":67,\"visitor\":true}], rings=[\"The Eternal Crucible - Arena Floor\",\"The Eternal Crucible - Pillar Court\",\"The Eternal Crucible - Verdant Ring\",\"The Eternal Crucible - Frostglass Platform\",\"The Eternal Crucible - Broken Stair Arena\",\"The Eternal Crucible - Mirrorwater Garden\"];\nconst rnd=()=>{c.seed=((c.seed||1931)*1664525+1013904223)>>>0;return c.seed/4294967296;};\nconst health=n=>check({type:'npc-health',npc:n});\nconst playerHealth=()=>{const h=check({type:'player-resource',resource:'Health'})||{};return h[c.entrant]===undefined&&solo?h[names[0]]:h[c.entrant];};\nconst current=()=>c.matches&&c.matches.find(m=>m.id===c.match);\nconst opponent=m=>m&&m.players.find(n=>n!=='@');\nconst mirror=()=>{storage.cc1_phase=c.phase;storage.cc1_live=c.phase==='live';storage.cc1_active=['ready','live','between','review','away'].includes(c.phase);storage.cc1_due=Object.keys(c.prizes).length>0;storage.cc1_care=Object.keys(c.care).length>0;};\nif(!solo||c.entrant!==names[0]||!here||!['ready','between'].includes(c.phase)){skip=true;}\nelse{\nconst m=current(),n=opponent(m);\nif(!m||!n||m.resultTick!==undefined){setPhase('review');say('The official pauses to reconcile the current bout order. Do not invent another final.');}\nelse if(typeof health(n)==='number'&&health(n)<=0){setPhase('review');say(n+' is not fit to begin this bout. An official must resolve the absence or schedule a no-contest; do not revive or count an unstarted match as a player victory.');}\nelse{\nm.startedTick=tick;m.startHealth=playerHealth();m.opponentStartHealth=health(n);m.seenCombat=false;c.awayTick=null;setPhase('live');storage.gh_lore_tournament_active=true;\neffects.push({type:'party-area',operator:'set',value:m.arena});\neffects.push({type:'npc-placement',npc:n,operation:'moveTo',location:venue,area:m.arena});\neffects.push({type:'known-entity',entity:n,operator:'set',value:true});\nconst stage=c.exhibition?'friendly exhibition':Number(m.id.match(/^R(\\d+)/)[1])===Math.log2(c.roster.length)?'final':Number(m.id.match(/^R(\\d+)/)[1])===Math.log2(c.roster.length)-1?'semifinal':'quarterfinal';\nsay('The official starts the current '+stage+' only: '+c.entrant+' against '+n+' at '+m.arena+'. This is actual regulated nonlethal subdual, not an invitation or a lethal duel. Resolve real combat attempts with the actual actors. Finite learned summons are legal within actual costs/action limits; outside companions stay out. No automatic opening hit. Stop on actual incapacity, surrender or an official ruling. The player may have skipped treatment deliberately; preserve actual resources without inventing wounds or silently filling bars.');mirror();\n}\n}",
+    "scope": "player"
+  },
+  "cc1_observe": {
+    "name": "cc1_observe",
+    "conditions": [
+      {
+        "type": "read-string",
+        "operator": "regex",
+        "value": "^(live|ready|between|review|away)$",
+        "key": "cc1_phase"
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "script": "const tick=check({type:'game-tick'}), venue='The Eternal Crucible';\nconst levels=check({type:'player-level'})||{}, names=Object.keys(levels), solo=names.length===1;\nconst c=storage.cc1=storage.cc1||{v:1,phase:'idle',edition:0,nextTick:0,history:[],prizes:{},care:{}};\nconst here=check({type:'party-location'})===venue;\nconst say=s=>effects.push({type:'story',instruction:s});\nconst setPhase=p=>{c.phase=p;storage.cc1_phase=p;storage.cc1_live=p==='live';storage.cc1_active=['ready','live','between','review','away'].includes(p);};\nconst roster=[{\"name\":\"Kōta Mibu\",\"level\":1},{\"name\":\"Nene Inui\",\"level\":2},{\"name\":\"Masato Oda\",\"level\":2},{\"name\":\"Chika Umemori\",\"level\":3},{\"name\":\"Shun Kurebayashi\",\"level\":4},{\"name\":\"Rena Kogetsu\",\"level\":5},{\"name\":\"Eita Kuroda\",\"level\":6},{\"name\":\"Fuyumi Hase\",\"level\":7},{\"name\":\"Tsubasa Maki\",\"level\":8},{\"name\":\"Yae Mitsuhara\",\"level\":9},{\"name\":\"Daisuke Kariya\",\"level\":10},{\"name\":\"Mayu Kido\",\"level\":12},{\"name\":\"Akito Senzaki\",\"level\":13},{\"name\":\"Mihana Shiraishi\",\"level\":15},{\"name\":\"Junpei Haneda\",\"level\":16},{\"name\":\"Riko Narumi\",\"level\":18},{\"name\":\"Kenta Ishizaki\",\"level\":20},{\"name\":\"Sayo Kirihara\",\"level\":22},{\"name\":\"Haruto Otsuki\",\"level\":24},{\"name\":\"Natsume Aiba\",\"level\":25},{\"name\":\"Daichi Kawanobe\",\"level\":27},{\"name\":\"Midori Hozumi\",\"level\":29},{\"name\":\"Kojirō Tsunematsu\",\"level\":31},{\"name\":\"Ema Tsukishiro\",\"level\":33},{\"name\":\"Ayato Nikaidō\",\"level\":35},{\"name\":\"Haruna Yashima\",\"level\":38},{\"name\":\"Seiji Makabe\",\"level\":41},{\"name\":\"Kanna Tsuruno\",\"level\":44},{\"name\":\"Ranmaru Tōdō\",\"level\":48},{\"name\":\"Mizuki Kaneshiro\",\"level\":53},{\"name\":\"Takeshi Onizuka\",\"level\":58},{\"name\":\"Reina Hazakura\",\"level\":64},{\"name\":\"Takeru Akabane\",\"level\":15,\"visitor\":true},{\"name\":\"Ruri Saegusa\",\"level\":15,\"visitor\":true},{\"name\":\"Asuka Tsurugi\",\"level\":15,\"visitor\":true},{\"name\":\"Ragnar Leonhart\",\"level\":67,\"visitor\":true}], rings=[\"The Eternal Crucible - Arena Floor\",\"The Eternal Crucible - Pillar Court\",\"The Eternal Crucible - Verdant Ring\",\"The Eternal Crucible - Frostglass Platform\",\"The Eternal Crucible - Broken Stair Arena\",\"The Eternal Crucible - Mirrorwater Garden\"];\nconst rnd=()=>{c.seed=((c.seed||1931)*1664525+1013904223)>>>0;return c.seed/4294967296;};\nconst health=n=>check({type:'npc-health',npc:n});\nconst playerHealth=()=>{const h=check({type:'player-resource',resource:'Health'})||{};return h[c.entrant]===undefined&&solo?h[names[0]]:h[c.entrant];};\nconst current=()=>c.matches&&c.matches.find(m=>m.id===c.match);\nconst opponent=m=>m&&m.players.find(n=>n!=='@');\nconst mirror=()=>{storage.cc1_phase=c.phase;storage.cc1_live=c.phase==='live';storage.cc1_active=['ready','live','between','review','away'].includes(c.phase);storage.cc1_due=Object.keys(c.prizes).length>0;storage.cc1_care=Object.keys(c.care).length>0;};\nconst fill=()=>{\nfor(const m of c.matches){\nif(m.parents&&m.players.length===0){const p=m.parents.map(id=>c.matches.find(x=>x.id===id));if(p.every(x=>x.winner))m.players=p.map(x=>x.winner);}\nif(m.players.length===2&&!m.players.includes('@')&&!m.winner){\nconst power=n=>(roster.find(x=>x.name===n)||{level:1}).level;\nconst a=power(m.players[0])*(.8+rnd()*.4),b=power(m.players[1])*(.8+rnd()*.4);\nm.winner=m.players[a>=b?0:1];m.loser=m.players[a>=b?1:0];m.reason='recorded NPC bracket result';m.resultTick=tick;\n}\n}\n};\nconst archive=()=>{\nc.closedTick=tick;c.nextTick=tick+100;\nc.history.push({edition:c.edition,title:c.title,winner:c.champion,outcome:c.outcome,closedTick:tick,matches:JSON.parse(JSON.stringify(c.matches))});\nc.history=c.history.slice(-8);storage.gh_lore_tournament_active=false;setPhase('closed');\n};\nconst finish=(winner,reason)=>{\nconst m=current();if(!m||m.resultTick!==undefined)return;\nm.winner=winner;m.loser=m.players.find(n=>n!==winner);m.reason=reason;m.resultTick=tick;\nconst n=opponent(m),h=health(n);\nif(typeof m.opponentStartHealth==='number'&&m.opponentStartHealth>0&&typeof h==='number'&&h<m.opponentStartHealth){\neffects.push({type:'npc-health',npc:n,operator:'set',value:m.opponentStartHealth});\nsay('After the official stop and recorded result, arena medics stabilize '+n+' from the actual nonlethal bout. The native health recovery does not reverse the defeat or permit another attack. The player is separately offered appropriate optional care; do not invent their injuries.');\n}\nc.care[c.edition+':'+m.id+':'+(m.attempt||1)]={owner:c.entrant,edition:c.edition};\nstorage.gh_lore_tournament_active=false;\nif(c.exhibition){c.outcome=winner==='@'?'exhibition win':'exhibition loss';setPhase('closed');say('The friendly bout is settled: '+c.outcome+'. This is not a championship and gives no championship trophy or purse. Offer appropriate optional care or rest without inventing injuries.');mirror();return;}\nfill();\nif(winner!=='@'){\nc.outcome=/withdraw|departure/.test(reason)?'withdrawn':'eliminated';for(let j=0;j<4;j++)fill();c.champion=c.matches[c.matches.length-1].winner;archive();\nsay('The registered fighter has lost this edition by '+reason+'. Preserve that result despite later healing or celebration. The remaining bracket is settled once; its champion is '+c.champion+'. No more title bouts remain for this entry. Offer optional medical care, rest or ordinary company.');\n}else{\nfill();const next=c.matches.find(x=>x.players.includes('@')&&x.resultTick===undefined);\nif(next){c.match=next.id;setPhase('between');say('The current bout is won and recorded. Offer optional care or rest appropriate to the actual condition; an unharmed fighter needs no invented injury or compulsory treatment. The next opponent is '+opponent(next)+' in '+next.arena+'. Let the player talk, rest or declare readiness; do not start the next fight automatically.');}\nelse{c.outcome='champion';c.champion=c.entrant;c.prizes[c.edition]={owner:c.entrant,title:c.title,marks:c.purse};archive();say('The championship final is settled. '+c.entrant+' is the champion of '+c.title+'. Announce the agreed '+c.purse+'-mark purse and championship trophy as available for collection, not already granted. No further final or opponent belongs to this edition. Optional care and ordinary company remain available.');}\n}\nmirror();\n};\nconst withdraw=reason=>{\nif(c.exhibition){const m=current();if(m&&m.resultTick===undefined)finish(opponent(m),reason);else setPhase('closed');return;}\nconst m=current();if(m&&m.players.includes('@')&&m.resultTick===undefined){finish(opponent(m),reason);return;}\nc.outcome='withdrawn';for(let j=0;j<4;j++)fill();c.champion=c.matches[c.matches.length-1].winner||'the remaining eligible finalist';archive();mirror();\n};\nif(!solo||c.entrant!==names[0]){if(['live','ready','between','away'].includes(c.phase)){setPhase('review');say('The registered individual bout is paused because the human-player roster or identity changed. Preserve the entrant and results; do not give another person their place, treatment or prize. Restore the original solo entrant or explicitly withdraw/review the entry.');}}\nelse if(c.phase==='live'){\nconst m=current(),n=opponent(m),p=playerHealth(),h=n?health(n):undefined;\nif(m&&tick>m.startedTick&&check({type:'npc-in-combat',npc:n})===true)m.seenCombat=true;\nconst pd=typeof p==='number'&&p<=0,nd=typeof h==='number'&&h<=0;\nif(m&&tick>m.startedTick&&(pd||nd)){\nif(pd&&nd){setPhase('review');say('Both actual competitors are down. The bout is stopped for medical care and referee review, not a player victory. Preserve the actual nonlethal outcome; offer care without continuing attacks.');}\nelse finish(pd?n:'@',pd?'actual player incapacity':'actual opponent incapacity');\n}else if(!here){c.awayTick=tick;setPhase('away');}\n}else if(['ready','between','review'].includes(c.phase)&&!here){withdraw('withdrawal from the venue');}\nelse if(c.phase==='away'&&tick>c.awayTick+1){withdraw('departure after the bout was interrupted');}\nmirror();",
+    "phase": "planning"
+  },
+  "cc1_result_loss": {
+    "name": "cc1_result_loss",
+    "conditions": [
+      {
+        "type": "read-string",
+        "operator": "regex",
+        "value": "^(live|away)$",
+        "key": "cc1_phase"
+      },
+      {
+        "type": "story",
+        "query": "The latest actual scene settles the active registered Crucible fighter's current bout as a loss: actual knockout, accepted surrender, referee medical stoppage against them, ring-out or a proven disqualification. A spectator's injury, another match, a past edition, hypothetical loss or their opponent falling is false. Preserve a genuine loss even if later treatment or narration celebrates it."
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "script": "const tick=check({type:'game-tick'}), venue='The Eternal Crucible';\nconst levels=check({type:'player-level'})||{}, names=Object.keys(levels), solo=names.length===1;\nconst c=storage.cc1=storage.cc1||{v:1,phase:'idle',edition:0,nextTick:0,history:[],prizes:{},care:{}};\nconst here=check({type:'party-location'})===venue;\nconst say=s=>effects.push({type:'story',instruction:s});\nconst setPhase=p=>{c.phase=p;storage.cc1_phase=p;storage.cc1_live=p==='live';storage.cc1_active=['ready','live','between','review','away'].includes(p);};\nconst roster=[{\"name\":\"Kōta Mibu\",\"level\":1},{\"name\":\"Nene Inui\",\"level\":2},{\"name\":\"Masato Oda\",\"level\":2},{\"name\":\"Chika Umemori\",\"level\":3},{\"name\":\"Shun Kurebayashi\",\"level\":4},{\"name\":\"Rena Kogetsu\",\"level\":5},{\"name\":\"Eita Kuroda\",\"level\":6},{\"name\":\"Fuyumi Hase\",\"level\":7},{\"name\":\"Tsubasa Maki\",\"level\":8},{\"name\":\"Yae Mitsuhara\",\"level\":9},{\"name\":\"Daisuke Kariya\",\"level\":10},{\"name\":\"Mayu Kido\",\"level\":12},{\"name\":\"Akito Senzaki\",\"level\":13},{\"name\":\"Mihana Shiraishi\",\"level\":15},{\"name\":\"Junpei Haneda\",\"level\":16},{\"name\":\"Riko Narumi\",\"level\":18},{\"name\":\"Kenta Ishizaki\",\"level\":20},{\"name\":\"Sayo Kirihara\",\"level\":22},{\"name\":\"Haruto Otsuki\",\"level\":24},{\"name\":\"Natsume Aiba\",\"level\":25},{\"name\":\"Daichi Kawanobe\",\"level\":27},{\"name\":\"Midori Hozumi\",\"level\":29},{\"name\":\"Kojirō Tsunematsu\",\"level\":31},{\"name\":\"Ema Tsukishiro\",\"level\":33},{\"name\":\"Ayato Nikaidō\",\"level\":35},{\"name\":\"Haruna Yashima\",\"level\":38},{\"name\":\"Seiji Makabe\",\"level\":41},{\"name\":\"Kanna Tsuruno\",\"level\":44},{\"name\":\"Ranmaru Tōdō\",\"level\":48},{\"name\":\"Mizuki Kaneshiro\",\"level\":53},{\"name\":\"Takeshi Onizuka\",\"level\":58},{\"name\":\"Reina Hazakura\",\"level\":64},{\"name\":\"Takeru Akabane\",\"level\":15,\"visitor\":true},{\"name\":\"Ruri Saegusa\",\"level\":15,\"visitor\":true},{\"name\":\"Asuka Tsurugi\",\"level\":15,\"visitor\":true},{\"name\":\"Ragnar Leonhart\",\"level\":67,\"visitor\":true}], rings=[\"The Eternal Crucible - Arena Floor\",\"The Eternal Crucible - Pillar Court\",\"The Eternal Crucible - Verdant Ring\",\"The Eternal Crucible - Frostglass Platform\",\"The Eternal Crucible - Broken Stair Arena\",\"The Eternal Crucible - Mirrorwater Garden\"];\nconst rnd=()=>{c.seed=((c.seed||1931)*1664525+1013904223)>>>0;return c.seed/4294967296;};\nconst health=n=>check({type:'npc-health',npc:n});\nconst playerHealth=()=>{const h=check({type:'player-resource',resource:'Health'})||{};return h[c.entrant]===undefined&&solo?h[names[0]]:h[c.entrant];};\nconst current=()=>c.matches&&c.matches.find(m=>m.id===c.match);\nconst opponent=m=>m&&m.players.find(n=>n!=='@');\nconst mirror=()=>{storage.cc1_phase=c.phase;storage.cc1_live=c.phase==='live';storage.cc1_active=['ready','live','between','review','away'].includes(c.phase);storage.cc1_due=Object.keys(c.prizes).length>0;storage.cc1_care=Object.keys(c.care).length>0;};\nconst fill=()=>{\nfor(const m of c.matches){\nif(m.parents&&m.players.length===0){const p=m.parents.map(id=>c.matches.find(x=>x.id===id));if(p.every(x=>x.winner))m.players=p.map(x=>x.winner);}\nif(m.players.length===2&&!m.players.includes('@')&&!m.winner){\nconst power=n=>(roster.find(x=>x.name===n)||{level:1}).level;\nconst a=power(m.players[0])*(.8+rnd()*.4),b=power(m.players[1])*(.8+rnd()*.4);\nm.winner=m.players[a>=b?0:1];m.loser=m.players[a>=b?1:0];m.reason='recorded NPC bracket result';m.resultTick=tick;\n}\n}\n};\nconst archive=()=>{\nc.closedTick=tick;c.nextTick=tick+100;\nc.history.push({edition:c.edition,title:c.title,winner:c.champion,outcome:c.outcome,closedTick:tick,matches:JSON.parse(JSON.stringify(c.matches))});\nc.history=c.history.slice(-8);storage.gh_lore_tournament_active=false;setPhase('closed');\n};\nconst finish=(winner,reason)=>{\nconst m=current();if(!m||m.resultTick!==undefined)return;\nm.winner=winner;m.loser=m.players.find(n=>n!==winner);m.reason=reason;m.resultTick=tick;\nconst n=opponent(m),h=health(n);\nif(typeof m.opponentStartHealth==='number'&&m.opponentStartHealth>0&&typeof h==='number'&&h<m.opponentStartHealth){\neffects.push({type:'npc-health',npc:n,operator:'set',value:m.opponentStartHealth});\nsay('After the official stop and recorded result, arena medics stabilize '+n+' from the actual nonlethal bout. The native health recovery does not reverse the defeat or permit another attack. The player is separately offered appropriate optional care; do not invent their injuries.');\n}\nc.care[c.edition+':'+m.id+':'+(m.attempt||1)]={owner:c.entrant,edition:c.edition};\nstorage.gh_lore_tournament_active=false;\nif(c.exhibition){c.outcome=winner==='@'?'exhibition win':'exhibition loss';setPhase('closed');say('The friendly bout is settled: '+c.outcome+'. This is not a championship and gives no championship trophy or purse. Offer appropriate optional care or rest without inventing injuries.');mirror();return;}\nfill();\nif(winner!=='@'){\nc.outcome=/withdraw|departure/.test(reason)?'withdrawn':'eliminated';for(let j=0;j<4;j++)fill();c.champion=c.matches[c.matches.length-1].winner;archive();\nsay('The registered fighter has lost this edition by '+reason+'. Preserve that result despite later healing or celebration. The remaining bracket is settled once; its champion is '+c.champion+'. No more title bouts remain for this entry. Offer optional medical care, rest or ordinary company.');\n}else{\nfill();const next=c.matches.find(x=>x.players.includes('@')&&x.resultTick===undefined);\nif(next){c.match=next.id;setPhase('between');say('The current bout is won and recorded. Offer optional care or rest appropriate to the actual condition; an unharmed fighter needs no invented injury or compulsory treatment. The next opponent is '+opponent(next)+' in '+next.arena+'. Let the player talk, rest or declare readiness; do not start the next fight automatically.');}\nelse{c.outcome='champion';c.champion=c.entrant;c.prizes[c.edition]={owner:c.entrant,title:c.title,marks:c.purse};archive();say('The championship final is settled. '+c.entrant+' is the champion of '+c.title+'. Announce the agreed '+c.purse+'-mark purse and championship trophy as available for collection, not already granted. No further final or opponent belongs to this edition. Optional care and ordinary company remain available.');}\n}\nmirror();\n};\nconst withdraw=reason=>{\nif(c.exhibition){const m=current();if(m&&m.resultTick===undefined)finish(opponent(m),reason);else setPhase('closed');return;}\nconst m=current();if(m&&m.players.includes('@')&&m.resultTick===undefined){finish(opponent(m),reason);return;}\nc.outcome='withdrawn';for(let j=0;j<4;j++)fill();c.champion=c.matches[c.matches.length-1].winner||'the remaining eligible finalist';archive();mirror();\n};\nif(!solo||c.entrant!==names[0]||!['live','away'].includes(c.phase)){skip=true;}\nelse{\nconst m=current(),n=opponent(m),p=playerHealth(),h=n?health(n):undefined;\nif(!m||m.resultTick!==undefined){skip=true;}\nelse if(typeof p==='number'&&p<=0&&typeof h==='number'&&h<=0){setPhase('review');say('The simultaneous fall requires a no-contest/referee review. Do not award victory or continue the fight.');}\nelse if(typeof p==='number'&&p<=0){finish(n,'actual player incapacity');}\nelse{finish(\"opponent\"==='player'?'@':n,\"official loss, surrender or incapacity\");}\nmirror();\n}",
+    "scope": "player"
+  },
+  "cc1_result_win": {
+    "name": "cc1_result_win",
+    "conditions": [
+      {
+        "type": "read-string",
+        "operator": "regex",
+        "value": "^(live|away)$",
+        "key": "cc1_phase"
+      },
+      {
+        "type": "story",
+        "query": "The latest actual scene settles the current registered Crucible bout as a win for the entrant: their exact current opponent actually yields, is knocked out, is legally stopped or loses by the announced rules. The entrant is not also down, disqualified, withdrawn or awaiting a disputed ruling. A claim of victory, another match, a dead summon, a past win or a hypothetical outcome is false."
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "script": "const tick=check({type:'game-tick'}), venue='The Eternal Crucible';\nconst levels=check({type:'player-level'})||{}, names=Object.keys(levels), solo=names.length===1;\nconst c=storage.cc1=storage.cc1||{v:1,phase:'idle',edition:0,nextTick:0,history:[],prizes:{},care:{}};\nconst here=check({type:'party-location'})===venue;\nconst say=s=>effects.push({type:'story',instruction:s});\nconst setPhase=p=>{c.phase=p;storage.cc1_phase=p;storage.cc1_live=p==='live';storage.cc1_active=['ready','live','between','review','away'].includes(p);};\nconst roster=[{\"name\":\"Kōta Mibu\",\"level\":1},{\"name\":\"Nene Inui\",\"level\":2},{\"name\":\"Masato Oda\",\"level\":2},{\"name\":\"Chika Umemori\",\"level\":3},{\"name\":\"Shun Kurebayashi\",\"level\":4},{\"name\":\"Rena Kogetsu\",\"level\":5},{\"name\":\"Eita Kuroda\",\"level\":6},{\"name\":\"Fuyumi Hase\",\"level\":7},{\"name\":\"Tsubasa Maki\",\"level\":8},{\"name\":\"Yae Mitsuhara\",\"level\":9},{\"name\":\"Daisuke Kariya\",\"level\":10},{\"name\":\"Mayu Kido\",\"level\":12},{\"name\":\"Akito Senzaki\",\"level\":13},{\"name\":\"Mihana Shiraishi\",\"level\":15},{\"name\":\"Junpei Haneda\",\"level\":16},{\"name\":\"Riko Narumi\",\"level\":18},{\"name\":\"Kenta Ishizaki\",\"level\":20},{\"name\":\"Sayo Kirihara\",\"level\":22},{\"name\":\"Haruto Otsuki\",\"level\":24},{\"name\":\"Natsume Aiba\",\"level\":25},{\"name\":\"Daichi Kawanobe\",\"level\":27},{\"name\":\"Midori Hozumi\",\"level\":29},{\"name\":\"Kojirō Tsunematsu\",\"level\":31},{\"name\":\"Ema Tsukishiro\",\"level\":33},{\"name\":\"Ayato Nikaidō\",\"level\":35},{\"name\":\"Haruna Yashima\",\"level\":38},{\"name\":\"Seiji Makabe\",\"level\":41},{\"name\":\"Kanna Tsuruno\",\"level\":44},{\"name\":\"Ranmaru Tōdō\",\"level\":48},{\"name\":\"Mizuki Kaneshiro\",\"level\":53},{\"name\":\"Takeshi Onizuka\",\"level\":58},{\"name\":\"Reina Hazakura\",\"level\":64},{\"name\":\"Takeru Akabane\",\"level\":15,\"visitor\":true},{\"name\":\"Ruri Saegusa\",\"level\":15,\"visitor\":true},{\"name\":\"Asuka Tsurugi\",\"level\":15,\"visitor\":true},{\"name\":\"Ragnar Leonhart\",\"level\":67,\"visitor\":true}], rings=[\"The Eternal Crucible - Arena Floor\",\"The Eternal Crucible - Pillar Court\",\"The Eternal Crucible - Verdant Ring\",\"The Eternal Crucible - Frostglass Platform\",\"The Eternal Crucible - Broken Stair Arena\",\"The Eternal Crucible - Mirrorwater Garden\"];\nconst rnd=()=>{c.seed=((c.seed||1931)*1664525+1013904223)>>>0;return c.seed/4294967296;};\nconst health=n=>check({type:'npc-health',npc:n});\nconst playerHealth=()=>{const h=check({type:'player-resource',resource:'Health'})||{};return h[c.entrant]===undefined&&solo?h[names[0]]:h[c.entrant];};\nconst current=()=>c.matches&&c.matches.find(m=>m.id===c.match);\nconst opponent=m=>m&&m.players.find(n=>n!=='@');\nconst mirror=()=>{storage.cc1_phase=c.phase;storage.cc1_live=c.phase==='live';storage.cc1_active=['ready','live','between','review','away'].includes(c.phase);storage.cc1_due=Object.keys(c.prizes).length>0;storage.cc1_care=Object.keys(c.care).length>0;};\nconst fill=()=>{\nfor(const m of c.matches){\nif(m.parents&&m.players.length===0){const p=m.parents.map(id=>c.matches.find(x=>x.id===id));if(p.every(x=>x.winner))m.players=p.map(x=>x.winner);}\nif(m.players.length===2&&!m.players.includes('@')&&!m.winner){\nconst power=n=>(roster.find(x=>x.name===n)||{level:1}).level;\nconst a=power(m.players[0])*(.8+rnd()*.4),b=power(m.players[1])*(.8+rnd()*.4);\nm.winner=m.players[a>=b?0:1];m.loser=m.players[a>=b?1:0];m.reason='recorded NPC bracket result';m.resultTick=tick;\n}\n}\n};\nconst archive=()=>{\nc.closedTick=tick;c.nextTick=tick+100;\nc.history.push({edition:c.edition,title:c.title,winner:c.champion,outcome:c.outcome,closedTick:tick,matches:JSON.parse(JSON.stringify(c.matches))});\nc.history=c.history.slice(-8);storage.gh_lore_tournament_active=false;setPhase('closed');\n};\nconst finish=(winner,reason)=>{\nconst m=current();if(!m||m.resultTick!==undefined)return;\nm.winner=winner;m.loser=m.players.find(n=>n!==winner);m.reason=reason;m.resultTick=tick;\nconst n=opponent(m),h=health(n);\nif(typeof m.opponentStartHealth==='number'&&m.opponentStartHealth>0&&typeof h==='number'&&h<m.opponentStartHealth){\neffects.push({type:'npc-health',npc:n,operator:'set',value:m.opponentStartHealth});\nsay('After the official stop and recorded result, arena medics stabilize '+n+' from the actual nonlethal bout. The native health recovery does not reverse the defeat or permit another attack. The player is separately offered appropriate optional care; do not invent their injuries.');\n}\nc.care[c.edition+':'+m.id+':'+(m.attempt||1)]={owner:c.entrant,edition:c.edition};\nstorage.gh_lore_tournament_active=false;\nif(c.exhibition){c.outcome=winner==='@'?'exhibition win':'exhibition loss';setPhase('closed');say('The friendly bout is settled: '+c.outcome+'. This is not a championship and gives no championship trophy or purse. Offer appropriate optional care or rest without inventing injuries.');mirror();return;}\nfill();\nif(winner!=='@'){\nc.outcome=/withdraw|departure/.test(reason)?'withdrawn':'eliminated';for(let j=0;j<4;j++)fill();c.champion=c.matches[c.matches.length-1].winner;archive();\nsay('The registered fighter has lost this edition by '+reason+'. Preserve that result despite later healing or celebration. The remaining bracket is settled once; its champion is '+c.champion+'. No more title bouts remain for this entry. Offer optional medical care, rest or ordinary company.');\n}else{\nfill();const next=c.matches.find(x=>x.players.includes('@')&&x.resultTick===undefined);\nif(next){c.match=next.id;setPhase('between');say('The current bout is won and recorded. Offer optional care or rest appropriate to the actual condition; an unharmed fighter needs no invented injury or compulsory treatment. The next opponent is '+opponent(next)+' in '+next.arena+'. Let the player talk, rest or declare readiness; do not start the next fight automatically.');}\nelse{c.outcome='champion';c.champion=c.entrant;c.prizes[c.edition]={owner:c.entrant,title:c.title,marks:c.purse};archive();say('The championship final is settled. '+c.entrant+' is the champion of '+c.title+'. Announce the agreed '+c.purse+'-mark purse and championship trophy as available for collection, not already granted. No further final or opponent belongs to this edition. Optional care and ordinary company remain available.');}\n}\nmirror();\n};\nconst withdraw=reason=>{\nif(c.exhibition){const m=current();if(m&&m.resultTick===undefined)finish(opponent(m),reason);else setPhase('closed');return;}\nconst m=current();if(m&&m.players.includes('@')&&m.resultTick===undefined){finish(opponent(m),reason);return;}\nc.outcome='withdrawn';for(let j=0;j<4;j++)fill();c.champion=c.matches[c.matches.length-1].winner||'the remaining eligible finalist';archive();mirror();\n};\nif(!solo||c.entrant!==names[0]||!['live','away'].includes(c.phase)){skip=true;}\nelse{\nconst m=current(),n=opponent(m),p=playerHealth(),h=n?health(n):undefined;\nif(!m||m.resultTick!==undefined){skip=true;}\nelse if(typeof p==='number'&&p<=0&&typeof h==='number'&&h<=0){setPhase('review');say('The simultaneous fall requires a no-contest/referee review. Do not award victory or continue the fight.');}\nelse if(typeof p==='number'&&p<=0){finish(n,'actual player incapacity');}\nelse{finish(\"player\"==='player'?'@':n,\"official opponent defeat or concession\");}\nmirror();\n}",
+    "scope": "player"
+  },
+  "cc1_withdraw": {
+    "name": "cc1_withdraw",
+    "conditions": [
+      {
+        "type": "read-string",
+        "operator": "regex",
+        "value": "^(ready|live|between|review|away)$",
+        "key": "cc1_phase"
+      },
+      {
+        "type": "action",
+        "query": "The registered Crucible fighter explicitly quits, forfeits or withdraws their current title entry or exhibition now. Leaving the actual venue also withdraws, but an ordinary move into its lounge or infirmary is not departure. Asking about withdrawal, a hypothetical or another person leaving is false."
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "script": "const tick=check({type:'game-tick'}), venue='The Eternal Crucible';\nconst levels=check({type:'player-level'})||{}, names=Object.keys(levels), solo=names.length===1;\nconst c=storage.cc1=storage.cc1||{v:1,phase:'idle',edition:0,nextTick:0,history:[],prizes:{},care:{}};\nconst here=check({type:'party-location'})===venue;\nconst say=s=>effects.push({type:'story',instruction:s});\nconst setPhase=p=>{c.phase=p;storage.cc1_phase=p;storage.cc1_live=p==='live';storage.cc1_active=['ready','live','between','review','away'].includes(p);};\nconst roster=[{\"name\":\"Kōta Mibu\",\"level\":1},{\"name\":\"Nene Inui\",\"level\":2},{\"name\":\"Masato Oda\",\"level\":2},{\"name\":\"Chika Umemori\",\"level\":3},{\"name\":\"Shun Kurebayashi\",\"level\":4},{\"name\":\"Rena Kogetsu\",\"level\":5},{\"name\":\"Eita Kuroda\",\"level\":6},{\"name\":\"Fuyumi Hase\",\"level\":7},{\"name\":\"Tsubasa Maki\",\"level\":8},{\"name\":\"Yae Mitsuhara\",\"level\":9},{\"name\":\"Daisuke Kariya\",\"level\":10},{\"name\":\"Mayu Kido\",\"level\":12},{\"name\":\"Akito Senzaki\",\"level\":13},{\"name\":\"Mihana Shiraishi\",\"level\":15},{\"name\":\"Junpei Haneda\",\"level\":16},{\"name\":\"Riko Narumi\",\"level\":18},{\"name\":\"Kenta Ishizaki\",\"level\":20},{\"name\":\"Sayo Kirihara\",\"level\":22},{\"name\":\"Haruto Otsuki\",\"level\":24},{\"name\":\"Natsume Aiba\",\"level\":25},{\"name\":\"Daichi Kawanobe\",\"level\":27},{\"name\":\"Midori Hozumi\",\"level\":29},{\"name\":\"Kojirō Tsunematsu\",\"level\":31},{\"name\":\"Ema Tsukishiro\",\"level\":33},{\"name\":\"Ayato Nikaidō\",\"level\":35},{\"name\":\"Haruna Yashima\",\"level\":38},{\"name\":\"Seiji Makabe\",\"level\":41},{\"name\":\"Kanna Tsuruno\",\"level\":44},{\"name\":\"Ranmaru Tōdō\",\"level\":48},{\"name\":\"Mizuki Kaneshiro\",\"level\":53},{\"name\":\"Takeshi Onizuka\",\"level\":58},{\"name\":\"Reina Hazakura\",\"level\":64},{\"name\":\"Takeru Akabane\",\"level\":15,\"visitor\":true},{\"name\":\"Ruri Saegusa\",\"level\":15,\"visitor\":true},{\"name\":\"Asuka Tsurugi\",\"level\":15,\"visitor\":true},{\"name\":\"Ragnar Leonhart\",\"level\":67,\"visitor\":true}], rings=[\"The Eternal Crucible - Arena Floor\",\"The Eternal Crucible - Pillar Court\",\"The Eternal Crucible - Verdant Ring\",\"The Eternal Crucible - Frostglass Platform\",\"The Eternal Crucible - Broken Stair Arena\",\"The Eternal Crucible - Mirrorwater Garden\"];\nconst rnd=()=>{c.seed=((c.seed||1931)*1664525+1013904223)>>>0;return c.seed/4294967296;};\nconst health=n=>check({type:'npc-health',npc:n});\nconst playerHealth=()=>{const h=check({type:'player-resource',resource:'Health'})||{};return h[c.entrant]===undefined&&solo?h[names[0]]:h[c.entrant];};\nconst current=()=>c.matches&&c.matches.find(m=>m.id===c.match);\nconst opponent=m=>m&&m.players.find(n=>n!=='@');\nconst mirror=()=>{storage.cc1_phase=c.phase;storage.cc1_live=c.phase==='live';storage.cc1_active=['ready','live','between','review','away'].includes(c.phase);storage.cc1_due=Object.keys(c.prizes).length>0;storage.cc1_care=Object.keys(c.care).length>0;};\nconst fill=()=>{\nfor(const m of c.matches){\nif(m.parents&&m.players.length===0){const p=m.parents.map(id=>c.matches.find(x=>x.id===id));if(p.every(x=>x.winner))m.players=p.map(x=>x.winner);}\nif(m.players.length===2&&!m.players.includes('@')&&!m.winner){\nconst power=n=>(roster.find(x=>x.name===n)||{level:1}).level;\nconst a=power(m.players[0])*(.8+rnd()*.4),b=power(m.players[1])*(.8+rnd()*.4);\nm.winner=m.players[a>=b?0:1];m.loser=m.players[a>=b?1:0];m.reason='recorded NPC bracket result';m.resultTick=tick;\n}\n}\n};\nconst archive=()=>{\nc.closedTick=tick;c.nextTick=tick+100;\nc.history.push({edition:c.edition,title:c.title,winner:c.champion,outcome:c.outcome,closedTick:tick,matches:JSON.parse(JSON.stringify(c.matches))});\nc.history=c.history.slice(-8);storage.gh_lore_tournament_active=false;setPhase('closed');\n};\nconst finish=(winner,reason)=>{\nconst m=current();if(!m||m.resultTick!==undefined)return;\nm.winner=winner;m.loser=m.players.find(n=>n!==winner);m.reason=reason;m.resultTick=tick;\nconst n=opponent(m),h=health(n);\nif(typeof m.opponentStartHealth==='number'&&m.opponentStartHealth>0&&typeof h==='number'&&h<m.opponentStartHealth){\neffects.push({type:'npc-health',npc:n,operator:'set',value:m.opponentStartHealth});\nsay('After the official stop and recorded result, arena medics stabilize '+n+' from the actual nonlethal bout. The native health recovery does not reverse the defeat or permit another attack. The player is separately offered appropriate optional care; do not invent their injuries.');\n}\nc.care[c.edition+':'+m.id+':'+(m.attempt||1)]={owner:c.entrant,edition:c.edition};\nstorage.gh_lore_tournament_active=false;\nif(c.exhibition){c.outcome=winner==='@'?'exhibition win':'exhibition loss';setPhase('closed');say('The friendly bout is settled: '+c.outcome+'. This is not a championship and gives no championship trophy or purse. Offer appropriate optional care or rest without inventing injuries.');mirror();return;}\nfill();\nif(winner!=='@'){\nc.outcome=/withdraw|departure/.test(reason)?'withdrawn':'eliminated';for(let j=0;j<4;j++)fill();c.champion=c.matches[c.matches.length-1].winner;archive();\nsay('The registered fighter has lost this edition by '+reason+'. Preserve that result despite later healing or celebration. The remaining bracket is settled once; its champion is '+c.champion+'. No more title bouts remain for this entry. Offer optional medical care, rest or ordinary company.');\n}else{\nfill();const next=c.matches.find(x=>x.players.includes('@')&&x.resultTick===undefined);\nif(next){c.match=next.id;setPhase('between');say('The current bout is won and recorded. Offer optional care or rest appropriate to the actual condition; an unharmed fighter needs no invented injury or compulsory treatment. The next opponent is '+opponent(next)+' in '+next.arena+'. Let the player talk, rest or declare readiness; do not start the next fight automatically.');}\nelse{c.outcome='champion';c.champion=c.entrant;c.prizes[c.edition]={owner:c.entrant,title:c.title,marks:c.purse};archive();say('The championship final is settled. '+c.entrant+' is the champion of '+c.title+'. Announce the agreed '+c.purse+'-mark purse and championship trophy as available for collection, not already granted. No further final or opponent belongs to this edition. Optional care and ordinary company remain available.');}\n}\nmirror();\n};\nconst withdraw=reason=>{\nif(c.exhibition){const m=current();if(m&&m.resultTick===undefined)finish(opponent(m),reason);else setPhase('closed');return;}\nconst m=current();if(m&&m.players.includes('@')&&m.resultTick===undefined){finish(opponent(m),reason);return;}\nc.outcome='withdrawn';for(let j=0;j<4;j++)fill();c.champion=c.matches[c.matches.length-1].winner||'the remaining eligible finalist';archive();mirror();\n};\nwithdraw('voluntary withdrawal');mirror();",
+    "scope": "player"
+  },
+  "cc1_care": {
+    "name": "cc1_care",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "The Eternal Crucible"
+      },
+      {
+        "type": "read-boolean",
+        "operator": "equals",
+        "value": true,
+        "key": "cc1_care"
+      },
+      {
+        "type": "story",
+        "query": "After a settled Crucible bout or stoppage, the player actually accepts and receives the offered appropriate medical care, check-up or recovery rest. The actual condition governs: an unharmed fighter may have a simple check-up or rest without a wound. An offer alone, a refusal, another person being treated or recalling old treatment is false."
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "script": "const tick=check({type:'game-tick'}), venue='The Eternal Crucible';\nconst levels=check({type:'player-level'})||{}, names=Object.keys(levels), solo=names.length===1;\nconst c=storage.cc1=storage.cc1||{v:1,phase:'idle',edition:0,nextTick:0,history:[],prizes:{},care:{}};\nconst here=check({type:'party-location'})===venue;\nconst say=s=>effects.push({type:'story',instruction:s});\nconst setPhase=p=>{c.phase=p;storage.cc1_phase=p;storage.cc1_live=p==='live';storage.cc1_active=['ready','live','between','review','away'].includes(p);};\nconst roster=[{\"name\":\"Kōta Mibu\",\"level\":1},{\"name\":\"Nene Inui\",\"level\":2},{\"name\":\"Masato Oda\",\"level\":2},{\"name\":\"Chika Umemori\",\"level\":3},{\"name\":\"Shun Kurebayashi\",\"level\":4},{\"name\":\"Rena Kogetsu\",\"level\":5},{\"name\":\"Eita Kuroda\",\"level\":6},{\"name\":\"Fuyumi Hase\",\"level\":7},{\"name\":\"Tsubasa Maki\",\"level\":8},{\"name\":\"Yae Mitsuhara\",\"level\":9},{\"name\":\"Daisuke Kariya\",\"level\":10},{\"name\":\"Mayu Kido\",\"level\":12},{\"name\":\"Akito Senzaki\",\"level\":13},{\"name\":\"Mihana Shiraishi\",\"level\":15},{\"name\":\"Junpei Haneda\",\"level\":16},{\"name\":\"Riko Narumi\",\"level\":18},{\"name\":\"Kenta Ishizaki\",\"level\":20},{\"name\":\"Sayo Kirihara\",\"level\":22},{\"name\":\"Haruto Otsuki\",\"level\":24},{\"name\":\"Natsume Aiba\",\"level\":25},{\"name\":\"Daichi Kawanobe\",\"level\":27},{\"name\":\"Midori Hozumi\",\"level\":29},{\"name\":\"Kojirō Tsunematsu\",\"level\":31},{\"name\":\"Ema Tsukishiro\",\"level\":33},{\"name\":\"Ayato Nikaidō\",\"level\":35},{\"name\":\"Haruna Yashima\",\"level\":38},{\"name\":\"Seiji Makabe\",\"level\":41},{\"name\":\"Kanna Tsuruno\",\"level\":44},{\"name\":\"Ranmaru Tōdō\",\"level\":48},{\"name\":\"Mizuki Kaneshiro\",\"level\":53},{\"name\":\"Takeshi Onizuka\",\"level\":58},{\"name\":\"Reina Hazakura\",\"level\":64},{\"name\":\"Takeru Akabane\",\"level\":15,\"visitor\":true},{\"name\":\"Ruri Saegusa\",\"level\":15,\"visitor\":true},{\"name\":\"Asuka Tsurugi\",\"level\":15,\"visitor\":true},{\"name\":\"Ragnar Leonhart\",\"level\":67,\"visitor\":true}], rings=[\"The Eternal Crucible - Arena Floor\",\"The Eternal Crucible - Pillar Court\",\"The Eternal Crucible - Verdant Ring\",\"The Eternal Crucible - Frostglass Platform\",\"The Eternal Crucible - Broken Stair Arena\",\"The Eternal Crucible - Mirrorwater Garden\"];\nconst rnd=()=>{c.seed=((c.seed||1931)*1664525+1013904223)>>>0;return c.seed/4294967296;};\nconst health=n=>check({type:'npc-health',npc:n});\nconst playerHealth=()=>{const h=check({type:'player-resource',resource:'Health'})||{};return h[c.entrant]===undefined&&solo?h[names[0]]:h[c.entrant];};\nconst current=()=>c.matches&&c.matches.find(m=>m.id===c.match);\nconst opponent=m=>m&&m.players.find(n=>n!=='@');\nconst mirror=()=>{storage.cc1_phase=c.phase;storage.cc1_live=c.phase==='live';storage.cc1_active=['ready','live','between','review','away'].includes(c.phase);storage.cc1_due=Object.keys(c.prizes).length>0;storage.cc1_care=Object.keys(c.care).length>0;};\nif(!here){skip=true;}else{\nconst due=Object.keys(c.care).find(k=>solo&&c.care[k].owner===names[0]);\nif(due){delete c.care[due];say('The accepted post-bout care/check-up/rest is complete. Use the actual condition: an unharmed person has no invented injury; depleted Mana or Stamina can be addressed through appropriate rest. Apply only recovery supported by the actual care, without duplicate item grants. Preparation may continue without an exact resource-percentage test. Let the player choose when to fight again.');}\nelse skip=true;mirror();\n}",
+    "scope": "player"
+  },
+  "cc1_claim_prize": {
+    "name": "cc1_claim_prize",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "The Eternal Crucible"
+      },
+      {
+        "type": "read-boolean",
+        "operator": "equals",
+        "value": true,
+        "key": "cc1_due"
+      },
+      {
+        "type": "action",
+        "query": "The actual recorded Crucible champion explicitly collects or accepts an owed announced championship prize now from the venue officials. This is their earned uncollected award, not a boast, a request to buy a trophy, another person's prize, a friendly win or an already paid edition."
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "script": "const tick=check({type:'game-tick'}), venue='The Eternal Crucible';\nconst levels=check({type:'player-level'})||{}, names=Object.keys(levels), solo=names.length===1;\nconst c=storage.cc1=storage.cc1||{v:1,phase:'idle',edition:0,nextTick:0,history:[],prizes:{},care:{}};\nconst here=check({type:'party-location'})===venue;\nconst say=s=>effects.push({type:'story',instruction:s});\nconst setPhase=p=>{c.phase=p;storage.cc1_phase=p;storage.cc1_live=p==='live';storage.cc1_active=['ready','live','between','review','away'].includes(p);};\nconst roster=[{\"name\":\"Kōta Mibu\",\"level\":1},{\"name\":\"Nene Inui\",\"level\":2},{\"name\":\"Masato Oda\",\"level\":2},{\"name\":\"Chika Umemori\",\"level\":3},{\"name\":\"Shun Kurebayashi\",\"level\":4},{\"name\":\"Rena Kogetsu\",\"level\":5},{\"name\":\"Eita Kuroda\",\"level\":6},{\"name\":\"Fuyumi Hase\",\"level\":7},{\"name\":\"Tsubasa Maki\",\"level\":8},{\"name\":\"Yae Mitsuhara\",\"level\":9},{\"name\":\"Daisuke Kariya\",\"level\":10},{\"name\":\"Mayu Kido\",\"level\":12},{\"name\":\"Akito Senzaki\",\"level\":13},{\"name\":\"Mihana Shiraishi\",\"level\":15},{\"name\":\"Junpei Haneda\",\"level\":16},{\"name\":\"Riko Narumi\",\"level\":18},{\"name\":\"Kenta Ishizaki\",\"level\":20},{\"name\":\"Sayo Kirihara\",\"level\":22},{\"name\":\"Haruto Otsuki\",\"level\":24},{\"name\":\"Natsume Aiba\",\"level\":25},{\"name\":\"Daichi Kawanobe\",\"level\":27},{\"name\":\"Midori Hozumi\",\"level\":29},{\"name\":\"Kojirō Tsunematsu\",\"level\":31},{\"name\":\"Ema Tsukishiro\",\"level\":33},{\"name\":\"Ayato Nikaidō\",\"level\":35},{\"name\":\"Haruna Yashima\",\"level\":38},{\"name\":\"Seiji Makabe\",\"level\":41},{\"name\":\"Kanna Tsuruno\",\"level\":44},{\"name\":\"Ranmaru Tōdō\",\"level\":48},{\"name\":\"Mizuki Kaneshiro\",\"level\":53},{\"name\":\"Takeshi Onizuka\",\"level\":58},{\"name\":\"Reina Hazakura\",\"level\":64},{\"name\":\"Takeru Akabane\",\"level\":15,\"visitor\":true},{\"name\":\"Ruri Saegusa\",\"level\":15,\"visitor\":true},{\"name\":\"Asuka Tsurugi\",\"level\":15,\"visitor\":true},{\"name\":\"Ragnar Leonhart\",\"level\":67,\"visitor\":true}], rings=[\"The Eternal Crucible - Arena Floor\",\"The Eternal Crucible - Pillar Court\",\"The Eternal Crucible - Verdant Ring\",\"The Eternal Crucible - Frostglass Platform\",\"The Eternal Crucible - Broken Stair Arena\",\"The Eternal Crucible - Mirrorwater Garden\"];\nconst rnd=()=>{c.seed=((c.seed||1931)*1664525+1013904223)>>>0;return c.seed/4294967296;};\nconst health=n=>check({type:'npc-health',npc:n});\nconst playerHealth=()=>{const h=check({type:'player-resource',resource:'Health'})||{};return h[c.entrant]===undefined&&solo?h[names[0]]:h[c.entrant];};\nconst current=()=>c.matches&&c.matches.find(m=>m.id===c.match);\nconst opponent=m=>m&&m.players.find(n=>n!=='@');\nconst mirror=()=>{storage.cc1_phase=c.phase;storage.cc1_live=c.phase==='live';storage.cc1_active=['ready','live','between','review','away'].includes(c.phase);storage.cc1_due=Object.keys(c.prizes).length>0;storage.cc1_care=Object.keys(c.care).length>0;};\nif(!here||!solo){skip=true;}else{\nconst id=Object.keys(c.prizes).filter(k=>c.prizes[k].owner===names[0]).sort((a,b)=>Number(a)-Number(b))[0],prize=c.prizes[id];\nif(!prize){skip=true;}else{\neffects.push({type:'item-add',item:'Mark',quantity:prize.marks,target:'satisfyingPlayers'});\neffects.push({type:'item-add',item:'Crucible Championship Trophy',quantity:1,target:'satisfyingPlayers'});\nc.lastPrizeDispatch={edition:Number(id),tick,marks:prize.marks,owner:prize.owner};delete c.prizes[id];mirror();\nsay('Complete the real prize handover for '+prize.title+': the typed effects award '+prize.marks+' marks and one Crucible Championship Trophy. Do not generate a second payment or substitute trophy. This does not reopen the final, enroll companions or automatically cross a portal.');\n}\n}",
+    "scope": "player"
+  },
+  "cc1_review": {
+    "name": "cc1_review",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "The Eternal Crucible"
+      },
+      {
+        "type": "read-string",
+        "operator": "equals",
+        "value": "review",
+        "key": "cc1_phase"
+      },
+      {
+        "type": "action",
+        "query": "The registered fighter actually requests the referee to review the current stopped Crucible bout, or agrees to the offered no-contest replay after the stoppage. This is not a demand to erase a verified loss or grant an unearned trophy."
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "script": "const tick=check({type:'game-tick'}), venue='The Eternal Crucible';\nconst levels=check({type:'player-level'})||{}, names=Object.keys(levels), solo=names.length===1;\nconst c=storage.cc1=storage.cc1||{v:1,phase:'idle',edition:0,nextTick:0,history:[],prizes:{},care:{}};\nconst here=check({type:'party-location'})===venue;\nconst say=s=>effects.push({type:'story',instruction:s});\nconst setPhase=p=>{c.phase=p;storage.cc1_phase=p;storage.cc1_live=p==='live';storage.cc1_active=['ready','live','between','review','away'].includes(p);};\nconst roster=[{\"name\":\"Kōta Mibu\",\"level\":1},{\"name\":\"Nene Inui\",\"level\":2},{\"name\":\"Masato Oda\",\"level\":2},{\"name\":\"Chika Umemori\",\"level\":3},{\"name\":\"Shun Kurebayashi\",\"level\":4},{\"name\":\"Rena Kogetsu\",\"level\":5},{\"name\":\"Eita Kuroda\",\"level\":6},{\"name\":\"Fuyumi Hase\",\"level\":7},{\"name\":\"Tsubasa Maki\",\"level\":8},{\"name\":\"Yae Mitsuhara\",\"level\":9},{\"name\":\"Daisuke Kariya\",\"level\":10},{\"name\":\"Mayu Kido\",\"level\":12},{\"name\":\"Akito Senzaki\",\"level\":13},{\"name\":\"Mihana Shiraishi\",\"level\":15},{\"name\":\"Junpei Haneda\",\"level\":16},{\"name\":\"Riko Narumi\",\"level\":18},{\"name\":\"Kenta Ishizaki\",\"level\":20},{\"name\":\"Sayo Kirihara\",\"level\":22},{\"name\":\"Haruto Otsuki\",\"level\":24},{\"name\":\"Natsume Aiba\",\"level\":25},{\"name\":\"Daichi Kawanobe\",\"level\":27},{\"name\":\"Midori Hozumi\",\"level\":29},{\"name\":\"Kojirō Tsunematsu\",\"level\":31},{\"name\":\"Ema Tsukishiro\",\"level\":33},{\"name\":\"Ayato Nikaidō\",\"level\":35},{\"name\":\"Haruna Yashima\",\"level\":38},{\"name\":\"Seiji Makabe\",\"level\":41},{\"name\":\"Kanna Tsuruno\",\"level\":44},{\"name\":\"Ranmaru Tōdō\",\"level\":48},{\"name\":\"Mizuki Kaneshiro\",\"level\":53},{\"name\":\"Takeshi Onizuka\",\"level\":58},{\"name\":\"Reina Hazakura\",\"level\":64},{\"name\":\"Takeru Akabane\",\"level\":15,\"visitor\":true},{\"name\":\"Ruri Saegusa\",\"level\":15,\"visitor\":true},{\"name\":\"Asuka Tsurugi\",\"level\":15,\"visitor\":true},{\"name\":\"Ragnar Leonhart\",\"level\":67,\"visitor\":true}], rings=[\"The Eternal Crucible - Arena Floor\",\"The Eternal Crucible - Pillar Court\",\"The Eternal Crucible - Verdant Ring\",\"The Eternal Crucible - Frostglass Platform\",\"The Eternal Crucible - Broken Stair Arena\",\"The Eternal Crucible - Mirrorwater Garden\"];\nconst rnd=()=>{c.seed=((c.seed||1931)*1664525+1013904223)>>>0;return c.seed/4294967296;};\nconst health=n=>check({type:'npc-health',npc:n});\nconst playerHealth=()=>{const h=check({type:'player-resource',resource:'Health'})||{};return h[c.entrant]===undefined&&solo?h[names[0]]:h[c.entrant];};\nconst current=()=>c.matches&&c.matches.find(m=>m.id===c.match);\nconst opponent=m=>m&&m.players.find(n=>n!=='@');\nconst mirror=()=>{storage.cc1_phase=c.phase;storage.cc1_live=c.phase==='live';storage.cc1_active=['ready','live','between','review','away'].includes(c.phase);storage.cc1_due=Object.keys(c.prizes).length>0;storage.cc1_care=Object.keys(c.care).length>0;};\nconst fill=()=>{\nfor(const m of c.matches){\nif(m.parents&&m.players.length===0){const p=m.parents.map(id=>c.matches.find(x=>x.id===id));if(p.every(x=>x.winner))m.players=p.map(x=>x.winner);}\nif(m.players.length===2&&!m.players.includes('@')&&!m.winner){\nconst power=n=>(roster.find(x=>x.name===n)||{level:1}).level;\nconst a=power(m.players[0])*(.8+rnd()*.4),b=power(m.players[1])*(.8+rnd()*.4);\nm.winner=m.players[a>=b?0:1];m.loser=m.players[a>=b?1:0];m.reason='recorded NPC bracket result';m.resultTick=tick;\n}\n}\n};\nconst archive=()=>{\nc.closedTick=tick;c.nextTick=tick+100;\nc.history.push({edition:c.edition,title:c.title,winner:c.champion,outcome:c.outcome,closedTick:tick,matches:JSON.parse(JSON.stringify(c.matches))});\nc.history=c.history.slice(-8);storage.gh_lore_tournament_active=false;setPhase('closed');\n};\nconst finish=(winner,reason)=>{\nconst m=current();if(!m||m.resultTick!==undefined)return;\nm.winner=winner;m.loser=m.players.find(n=>n!==winner);m.reason=reason;m.resultTick=tick;\nconst n=opponent(m),h=health(n);\nif(typeof m.opponentStartHealth==='number'&&m.opponentStartHealth>0&&typeof h==='number'&&h<m.opponentStartHealth){\neffects.push({type:'npc-health',npc:n,operator:'set',value:m.opponentStartHealth});\nsay('After the official stop and recorded result, arena medics stabilize '+n+' from the actual nonlethal bout. The native health recovery does not reverse the defeat or permit another attack. The player is separately offered appropriate optional care; do not invent their injuries.');\n}\nc.care[c.edition+':'+m.id+':'+(m.attempt||1)]={owner:c.entrant,edition:c.edition};\nstorage.gh_lore_tournament_active=false;\nif(c.exhibition){c.outcome=winner==='@'?'exhibition win':'exhibition loss';setPhase('closed');say('The friendly bout is settled: '+c.outcome+'. This is not a championship and gives no championship trophy or purse. Offer appropriate optional care or rest without inventing injuries.');mirror();return;}\nfill();\nif(winner!=='@'){\nc.outcome=/withdraw|departure/.test(reason)?'withdrawn':'eliminated';for(let j=0;j<4;j++)fill();c.champion=c.matches[c.matches.length-1].winner;archive();\nsay('The registered fighter has lost this edition by '+reason+'. Preserve that result despite later healing or celebration. The remaining bracket is settled once; its champion is '+c.champion+'. No more title bouts remain for this entry. Offer optional medical care, rest or ordinary company.');\n}else{\nfill();const next=c.matches.find(x=>x.players.includes('@')&&x.resultTick===undefined);\nif(next){c.match=next.id;setPhase('between');say('The current bout is won and recorded. Offer optional care or rest appropriate to the actual condition; an unharmed fighter needs no invented injury or compulsory treatment. The next opponent is '+opponent(next)+' in '+next.arena+'. Let the player talk, rest or declare readiness; do not start the next fight automatically.');}\nelse{c.outcome='champion';c.champion=c.entrant;c.prizes[c.edition]={owner:c.entrant,title:c.title,marks:c.purse};archive();say('The championship final is settled. '+c.entrant+' is the champion of '+c.title+'. Announce the agreed '+c.purse+'-mark purse and championship trophy as available for collection, not already granted. No further final or opponent belongs to this edition. Optional care and ordinary company remain available.');}\n}\nmirror();\n};\nconst withdraw=reason=>{\nif(c.exhibition){const m=current();if(m&&m.resultTick===undefined)finish(opponent(m),reason);else setPhase('closed');return;}\nconst m=current();if(m&&m.players.includes('@')&&m.resultTick===undefined){finish(opponent(m),reason);return;}\nc.outcome='withdrawn';for(let j=0;j<4;j++)fill();c.champion=c.matches[c.matches.length-1].winner||'the remaining eligible finalist';archive();mirror();\n};\nif(!solo||c.entrant!==names[0]||!here||c.phase!=='review'){skip=true;}else{\nconst m=current(),n=opponent(m),p=playerHealth(),h=n?health(n):undefined;\nif(typeof p==='number'&&p<=0&&!(typeof h==='number'&&h<=0)){finish(n,'confirmed incapacity on review');}\nelse if(typeof h==='number'&&h<=0&&!(typeof p==='number'&&p<=0)){finish('@','confirmed opponent incapacity on review');}\nelse if(m&&m.resultTick===undefined&&(typeof h!=='number'||h>0)&&(typeof p!=='number'||p>0)){\nm.attempts=m.attempts||[];m.attempts.push({attempt:m.attempt||1,reason:'no-contest after inconclusive stoppage',tick});m.attempt=(m.attempt||1)+1;\nif(m.attempt>2){withdraw('edition withdrawn after an unresolved repeat stoppage');say('The official closes the unresolved title entry instead of generating endless replays. No championship prize is awarded.');}\nelse{setPhase('between');say('The official records the interrupted attempt as a no-contest and offers one replay after appropriate care. The existing bracket and arena remain; no result or prize is invented. Wait for readiness.');}\n}else{say('The bout remains stopped for actual medical care. Once the fighters are fit, request a review or withdraw. Do not force a wounded actor into a rematch or declare an automatic champion.');}\nmirror();\n}",
+    "scope": "player"
+  },
+  "cc1_status": {
+    "name": "cc1_status",
+    "conditions": [
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "^[Cc]rucible status[.!]?$"
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "script": "const tick=check({type:'game-tick'}), venue='The Eternal Crucible';\nconst levels=check({type:'player-level'})||{}, names=Object.keys(levels), solo=names.length===1;\nconst c=storage.cc1=storage.cc1||{v:1,phase:'idle',edition:0,nextTick:0,history:[],prizes:{},care:{}};\nconst here=check({type:'party-location'})===venue;\nconst say=s=>effects.push({type:'story',instruction:s});\nconst setPhase=p=>{c.phase=p;storage.cc1_phase=p;storage.cc1_live=p==='live';storage.cc1_active=['ready','live','between','review','away'].includes(p);};\nconst roster=[{\"name\":\"Kōta Mibu\",\"level\":1},{\"name\":\"Nene Inui\",\"level\":2},{\"name\":\"Masato Oda\",\"level\":2},{\"name\":\"Chika Umemori\",\"level\":3},{\"name\":\"Shun Kurebayashi\",\"level\":4},{\"name\":\"Rena Kogetsu\",\"level\":5},{\"name\":\"Eita Kuroda\",\"level\":6},{\"name\":\"Fuyumi Hase\",\"level\":7},{\"name\":\"Tsubasa Maki\",\"level\":8},{\"name\":\"Yae Mitsuhara\",\"level\":9},{\"name\":\"Daisuke Kariya\",\"level\":10},{\"name\":\"Mayu Kido\",\"level\":12},{\"name\":\"Akito Senzaki\",\"level\":13},{\"name\":\"Mihana Shiraishi\",\"level\":15},{\"name\":\"Junpei Haneda\",\"level\":16},{\"name\":\"Riko Narumi\",\"level\":18},{\"name\":\"Kenta Ishizaki\",\"level\":20},{\"name\":\"Sayo Kirihara\",\"level\":22},{\"name\":\"Haruto Otsuki\",\"level\":24},{\"name\":\"Natsume Aiba\",\"level\":25},{\"name\":\"Daichi Kawanobe\",\"level\":27},{\"name\":\"Midori Hozumi\",\"level\":29},{\"name\":\"Kojirō Tsunematsu\",\"level\":31},{\"name\":\"Ema Tsukishiro\",\"level\":33},{\"name\":\"Ayato Nikaidō\",\"level\":35},{\"name\":\"Haruna Yashima\",\"level\":38},{\"name\":\"Seiji Makabe\",\"level\":41},{\"name\":\"Kanna Tsuruno\",\"level\":44},{\"name\":\"Ranmaru Tōdō\",\"level\":48},{\"name\":\"Mizuki Kaneshiro\",\"level\":53},{\"name\":\"Takeshi Onizuka\",\"level\":58},{\"name\":\"Reina Hazakura\",\"level\":64},{\"name\":\"Takeru Akabane\",\"level\":15,\"visitor\":true},{\"name\":\"Ruri Saegusa\",\"level\":15,\"visitor\":true},{\"name\":\"Asuka Tsurugi\",\"level\":15,\"visitor\":true},{\"name\":\"Ragnar Leonhart\",\"level\":67,\"visitor\":true}], rings=[\"The Eternal Crucible - Arena Floor\",\"The Eternal Crucible - Pillar Court\",\"The Eternal Crucible - Verdant Ring\",\"The Eternal Crucible - Frostglass Platform\",\"The Eternal Crucible - Broken Stair Arena\",\"The Eternal Crucible - Mirrorwater Garden\"];\nconst rnd=()=>{c.seed=((c.seed||1931)*1664525+1013904223)>>>0;return c.seed/4294967296;};\nconst health=n=>check({type:'npc-health',npc:n});\nconst playerHealth=()=>{const h=check({type:'player-resource',resource:'Health'})||{};return h[c.entrant]===undefined&&solo?h[names[0]]:h[c.entrant];};\nconst current=()=>c.matches&&c.matches.find(m=>m.id===c.match);\nconst opponent=m=>m&&m.players.find(n=>n!=='@');\nconst mirror=()=>{storage.cc1_phase=c.phase;storage.cc1_live=c.phase==='live';storage.cc1_active=['ready','live','between','review','away'].includes(c.phase);storage.cc1_due=Object.keys(c.prizes).length>0;storage.cc1_care=Object.keys(c.care).length>0;};\nconst m=current();\nsay('Give a brief out-of-character Crucible status: '+(c.title||'no entered edition')+'; state '+c.phase+'; outcome '+(c.outcome||'none')+'. '+(m?'Current pairing: '+m.players.map(n=>n==='@'?c.entrant:n).join(' versus ')+'; arena '+m.arena+'. ':'')+'Next championship eligibility in '+Math.max(0,(c.nextTick||0)-tick)+' completed turns. Uncollected prizes: '+Object.keys(c.prizes).length+'. Explain naturally; no script/storage jargon in NPC speech. Do not alter the result or award anything.');"
+  },
+  "cc1_exhibition": {
+    "name": "cc1_exhibition",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "The Eternal Crucible"
+      },
+      {
+        "type": "read-string",
+        "operator": "regex",
+        "value": "^(idle|closed)$",
+        "key": "cc1_phase"
+      },
+      {
+        "type": "action",
+        "query": "The player and an available willing fighter actually agree now to a friendly nonlethal Crucible practice match. The partner is not coerced, busy in another match, injured beyond safe participation or a visitor merely discussing a hypothetical spar. This is not championship registration."
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "script": "const tick=check({type:'game-tick'}), venue='The Eternal Crucible';\nconst levels=check({type:'player-level'})||{}, names=Object.keys(levels), solo=names.length===1;\nconst c=storage.cc1=storage.cc1||{v:1,phase:'idle',edition:0,nextTick:0,history:[],prizes:{},care:{}};\nconst here=check({type:'party-location'})===venue;\nconst say=s=>effects.push({type:'story',instruction:s});\nconst setPhase=p=>{c.phase=p;storage.cc1_phase=p;storage.cc1_live=p==='live';storage.cc1_active=['ready','live','between','review','away'].includes(p);};\nconst roster=[{\"name\":\"Kōta Mibu\",\"level\":1},{\"name\":\"Nene Inui\",\"level\":2},{\"name\":\"Masato Oda\",\"level\":2},{\"name\":\"Chika Umemori\",\"level\":3},{\"name\":\"Shun Kurebayashi\",\"level\":4},{\"name\":\"Rena Kogetsu\",\"level\":5},{\"name\":\"Eita Kuroda\",\"level\":6},{\"name\":\"Fuyumi Hase\",\"level\":7},{\"name\":\"Tsubasa Maki\",\"level\":8},{\"name\":\"Yae Mitsuhara\",\"level\":9},{\"name\":\"Daisuke Kariya\",\"level\":10},{\"name\":\"Mayu Kido\",\"level\":12},{\"name\":\"Akito Senzaki\",\"level\":13},{\"name\":\"Mihana Shiraishi\",\"level\":15},{\"name\":\"Junpei Haneda\",\"level\":16},{\"name\":\"Riko Narumi\",\"level\":18},{\"name\":\"Kenta Ishizaki\",\"level\":20},{\"name\":\"Sayo Kirihara\",\"level\":22},{\"name\":\"Haruto Otsuki\",\"level\":24},{\"name\":\"Natsume Aiba\",\"level\":25},{\"name\":\"Daichi Kawanobe\",\"level\":27},{\"name\":\"Midori Hozumi\",\"level\":29},{\"name\":\"Kojirō Tsunematsu\",\"level\":31},{\"name\":\"Ema Tsukishiro\",\"level\":33},{\"name\":\"Ayato Nikaidō\",\"level\":35},{\"name\":\"Haruna Yashima\",\"level\":38},{\"name\":\"Seiji Makabe\",\"level\":41},{\"name\":\"Kanna Tsuruno\",\"level\":44},{\"name\":\"Ranmaru Tōdō\",\"level\":48},{\"name\":\"Mizuki Kaneshiro\",\"level\":53},{\"name\":\"Takeshi Onizuka\",\"level\":58},{\"name\":\"Reina Hazakura\",\"level\":64},{\"name\":\"Takeru Akabane\",\"level\":15,\"visitor\":true},{\"name\":\"Ruri Saegusa\",\"level\":15,\"visitor\":true},{\"name\":\"Asuka Tsurugi\",\"level\":15,\"visitor\":true},{\"name\":\"Ragnar Leonhart\",\"level\":67,\"visitor\":true}], rings=[\"The Eternal Crucible - Arena Floor\",\"The Eternal Crucible - Pillar Court\",\"The Eternal Crucible - Verdant Ring\",\"The Eternal Crucible - Frostglass Platform\",\"The Eternal Crucible - Broken Stair Arena\",\"The Eternal Crucible - Mirrorwater Garden\"];\nconst rnd=()=>{c.seed=((c.seed||1931)*1664525+1013904223)>>>0;return c.seed/4294967296;};\nconst health=n=>check({type:'npc-health',npc:n});\nconst playerHealth=()=>{const h=check({type:'player-resource',resource:'Health'})||{};return h[c.entrant]===undefined&&solo?h[names[0]]:h[c.entrant];};\nconst current=()=>c.matches&&c.matches.find(m=>m.id===c.match);\nconst opponent=m=>m&&m.players.find(n=>n!=='@');\nconst mirror=()=>{storage.cc1_phase=c.phase;storage.cc1_live=c.phase==='live';storage.cc1_active=['ready','live','between','review','away'].includes(c.phase);storage.cc1_due=Object.keys(c.prizes).length>0;storage.cc1_care=Object.keys(c.care).length>0;};\nif(!solo||!here||['ready','live','between','review','away'].includes(c.phase)){skip=true;}else{\nconst raw=check({type:'action-text'}),text=(Array.isArray(raw)?raw:[raw]).join(' ').toLowerCase();\nconst pool=roster.filter(x=>(!x.visitor||check({type:'npc-location',npc:x.name})===venue)&&check({type:'npc-in-party',npc:x.name})!==true&&!(typeof health(x.name)==='number'&&health(x.name)<=0)&&check({type:'npc-in-combat',npc:x.name})!==true);\nconst mentioned=pool.filter(x=>text.includes(x.name.toLowerCase())||text.includes(x.name.split(' ')[0].toLowerCase()));\nconst recent=String(check({type:'story-text'})||'').toLowerCase();\nconst contextual=pool.filter(x=>recent.includes(x.name.toLowerCase())&&check({type:'npc-location',npc:x.name})===venue);\nconst choice=mentioned.length===1?mentioned[0]:mentioned.length===0&&contextual.length===1?contextual[0]:null;\nif(!choice){say('Confirm the full identity of the actual willing practice partner before arranging a match. Do not substitute a different fighter merely because they are close in level. Offer a clear introduction or ask which person the player means.');}\nelse{c.exhibition=true;c.entrant=names[0];c.roster=['@',choice.name];c.title='Friendly exhibition';c.outcome='practice arranged';c.matches=[{id:'EX'+tick,players:['@',choice.name],arena:rings[tick%rings.length],attempt:1}];c.match=c.matches[0].id;setPhase('ready');mirror();say('The agreed friendly match is arranged with '+choice.name+' at '+current().arena+'. It gives no championship trophy or purse and does not change championship cooldown. Keep it nonlethal; wait for the player to be ready.');}\n}",
+    "scope": "player"
+  },
+  "cc1_grove_discover": {
+    "name": "cc1_grove_discover",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Evertree Base"
+      },
+      {
+        "type": "party-area",
+        "operator": "equals",
+        "value": "Evertree Base - Portal Room"
+      },
+      {
+        "type": "player-item",
+        "operator": "greaterThan",
+        "value": 0,
+        "item": "Crucible Championship Trophy"
+      },
+      {
+        "type": "player-item",
+        "operator": "greaterThan",
+        "value": 0,
+        "item": "Silver Web Portal Key"
+      },
+      {
+        "type": "read-boolean",
+        "operator": "equals",
+        "value": false,
+        "key": "cc1_grove_open"
+      }
+    ],
+    "effects": [
+      {
+        "type": "known-entity",
+        "entity": "The Sepulchral Conservatory",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "known-entity",
+        "entity": "Sepulchral Gardens",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "known-entity",
+        "entity": "Sepulchral Portal House",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "known-entity",
+        "entity": "Sepulchral Conservatory",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "known-entity",
+        "entity": "Mourning Garden",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "location-hidden",
+        "location": "Sepulchral Portal House",
+        "operator": "set",
+        "value": false
+      },
+      {
+        "type": "location-hidden",
+        "location": "Sepulchral Conservatory",
+        "operator": "set",
+        "value": false
+      },
+      {
+        "type": "location-hidden",
+        "location": "Mourning Garden",
+        "operator": "set",
+        "value": false
+      },
+      {
+        "type": "story",
+        "instruction": "A new pale arch wakes between the Evertree roots, its branches traced with bronze nameplates and white leaves. It opens onto the Sepulchral Portal House. Reveal the route and its visible expedition risk, roughly levels 35–50; do not cross for the player or replay the silver-web anomaly."
+      }
+    ],
+    "recurring": true,
+    "script": "const t=check({type:'game-tick'});if(storage.ghPortalTransitTick===t){skip=true;}else{storage.cc1_grove_open=true;}",
+    "scope": "player"
+  },
+  "cc1_grove_enter": {
+    "name": "cc1_grove_enter",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Evertree Base"
+      },
+      {
+        "type": "party-area",
+        "operator": "equals",
+        "value": "Evertree Base - Portal Room"
+      },
+      {
+        "type": "read-boolean",
+        "operator": "equals",
+        "value": true,
+        "key": "cc1_grove_open"
+      },
+      {
+        "type": "action",
+        "query": "The player deliberately crosses the newly opened Sepulchral Conservatory portal now, or uses the Sepulchral Portal Key in the Evertree Portal Room to travel there. Inspecting, discussing, opening without crossing or mentioning another portal is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "party-location",
+        "operator": "set",
+        "value": "Sepulchral Portal House"
+      },
+      {
+        "type": "party-area",
+        "operator": "set",
+        "value": "Sepulchral Portal House - Return Arch"
+      },
+      {
+        "type": "npc-placement",
+        "npc": "allPartyNPCs",
+        "operation": "moveTo",
+        "location": "Sepulchral Portal House",
+        "area": "Sepulchral Portal House - Return Arch"
+      },
+      {
+        "type": "story",
+        "instruction": "The actual party arrives inside the Sepulchral Portal House. The return arch clearly leads straight home. Preserve possessions and stop at arrival; no investigation, battle or acceptance is automatic."
+      }
+    ],
+    "recurring": true,
+    "script": "const t=check({type:'game-tick'});if(storage.ghPortalTransitTick===t)skip=true;else storage.ghPortalTransitTick=t;"
+  },
+  "cc1_grove_return": {
+    "name": "cc1_grove_return",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Sepulchral Portal House"
+      },
+      {
+        "type": "action",
+        "query": "The player deliberately crosses the sanctuary's return arch to Glowhaven now. This is an actual return, not examining the arch, a hypothetical or crossing into the conservatory garden."
+      }
+    ],
+    "effects": [
+      {
+        "type": "party-location",
+        "operator": "set",
+        "value": "Evertree Base"
+      },
+      {
+        "type": "party-area",
+        "operator": "set",
+        "value": "Evertree Base - Portal Room"
+      },
+      {
+        "type": "npc-placement",
+        "npc": "allPartyNPCs",
+        "operation": "moveTo",
+        "location": "Evertree Base",
+        "area": "Evertree Base - Portal Room"
+      },
+      {
+        "type": "story",
+        "instruction": "The actual party returns directly to Evertree Base - Portal Room. No alternate Glowhaven landing or onward journey is chosen."
+      }
+    ],
+    "recurring": true,
+    "script": "const t=check({type:'game-tick'});if(storage.ghPortalTransitTick===t)skip=true;else storage.ghPortalTransitTick=t;"
+  },
+  "cc1_grove_key": {
+    "name": "cc1_grove_key",
+    "conditions": [
+      {
+        "type": "party-realm",
+        "operator": "equals",
+        "value": "The Sepulchral Conservatory"
+      },
+      {
+        "type": "read-boolean",
+        "operator": "equals",
+        "value": false,
+        "key": "cc1_grove_arrived"
+      }
+    ],
+    "effects": [
+      {
+        "type": "item-add",
+        "item": "Sepulchral Portal Key",
+        "quantity": 1,
+        "target": "allPlayers"
+      },
+      {
+        "type": "write-boolean",
+        "key": "cc1_grove_arrived",
+        "operator": "set",
+        "value": true
+      }
+    ],
+    "recurring": false
+  },
+  "cc1_grove_root": {
+    "name": "cc1_grove_root",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Sepulchral Conservatory"
+      },
+      {
+        "type": "party-area",
+        "operator": "equals",
+        "value": "Sepulchral Conservatory - Tending Gallery"
+      },
+      {
+        "type": "read-boolean",
+        "operator": "equals",
+        "value": false,
+        "key": "cc1_grove_root"
+      },
+      {
+        "type": "story",
+        "query": "The party has actually released, repaired or overcome the rootwake tending valve and its real guardians in the Tending Gallery, obtaining safe control of this circuit. Actual clever bypass or qualified practical work can qualify; merely seeing a valve, a promise, another wing or an unresolved live battle is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-boolean",
+        "key": "cc1_grove_root",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "item-add",
+        "item": "Rootwake Seal",
+        "quantity": 1,
+        "target": "allPlayers"
+      },
+      {
+        "type": "story",
+        "instruction": "The actual tending circuit is settled. Its seal is a keepsake of that work, not a consumable toll; losing it does not undo the physical repair. Preserve cleared guardians and the open way back."
+      }
+    ],
+    "recurring": false
+  },
+  "cc1_grove_mourning": {
+    "name": "cc1_grove_mourning",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Sepulchral Conservatory"
+      },
+      {
+        "type": "party-area",
+        "operator": "equals",
+        "value": "Sepulchral Conservatory - Ossuary Greenhouse"
+      },
+      {
+        "type": "read-boolean",
+        "operator": "equals",
+        "value": false,
+        "key": "cc1_grove_mourning"
+      },
+      {
+        "type": "story",
+        "query": "The party has actually released, repaired or overcome the mourning circuit in the Ossuary Greenhouse, distinguishing its binding from an empty frame. A physical or assisted method can work. Merely seeing the bell, promising to help or an unresolved battle is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-boolean",
+        "key": "cc1_grove_mourning",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "item-add",
+        "item": "Mourner's Seal",
+        "quantity": 1,
+        "target": "allPlayers"
+      },
+      {
+        "type": "story",
+        "instruction": "The actual tending circuit is settled. Its seal is a keepsake of that work, not a consumable toll; losing it does not undo the physical repair. Preserve cleared guardians and the open way back."
+      }
+    ],
+    "recurring": false
+  },
+  "cc1_grove_inner_gate": {
+    "name": "cc1_grove_inner_gate",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Sepulchral Conservatory"
+      },
+      {
+        "type": "party-area",
+        "operator": "equals",
+        "value": "Sepulchral Conservatory - Grafting Heart"
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "script": "if(!storage.cc1_grove_root||!storage.cc1_grove_mourning){effects.push({type:'party-area',operator:'set',value:'Sepulchral Conservatory - Ossuary Greenhouse'},{type:'npc-placement',npc:'allPartyNPCs',operation:'moveTo',location:'Sepulchral Conservatory',area:'Sepulchral Conservatory - Ossuary Greenhouse'},{type:'story',instruction:'The inner lattice remains closed because its actual tending circuits are not both released. The party remains outside it at the Ossuary Greenhouse. Show the real two circuits and available routes; no damage or new battle is automatic.'});}else if(!storage.cc1_grove_heart_seen){storage.cc1_grove_heart_seen=true;effects.push({type:'known-entity',entity:'Threnvoss',operator:'set',value:true},{type:'story',instruction:'Threnvoss, the sole Rootbound Regent, confronts the actual intruders in the Grafting Heart. Two finite Grafted Sentinel defenders may support it only after they exist as real actors. Show the visible chest knot, roots, cover and return route. It is hostile to interference, but actual evidence and a carried-out release can change the outcome. No automatic hit or instant revelation of every secret.'});}"
+  },
+  "cc1_grove_defeat": {
+    "name": "cc1_grove_defeat",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Sepulchral Conservatory"
+      },
+      {
+        "type": "read-boolean",
+        "operator": "equals",
+        "value": false,
+        "key": "cc1_grove_resolved"
+      },
+      {
+        "type": "npc-health",
+        "operator": "lessThanOrEqual",
+        "value": 0,
+        "npc": "Threnvoss"
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-boolean",
+        "key": "cc1_grove_resolved",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "item-add",
+        "item": "Heartwood Remembrance",
+        "quantity": 1,
+        "target": "allPlayers"
+      },
+      {
+        "type": "story",
+        "instruction": "The Rootbound Regent's coercive vigil is genuinely ended. Preserve the actual outcome: destroyed frame, defeated caretaker or achieved release. The typed grant supplies the single Heartwood Remembrance; do not create substitute loot or repeat it through a quest. Released conscious spirits and empty frames retain their distinct fates. The portal home remains open."
+      }
+    ],
+    "recurring": false,
+    "script": "if(storage.cc1_grove_reward_dispatched){skip=true;}else storage.cc1_grove_reward_dispatched=true;"
+  },
+  "cc1_grove_release": {
+    "name": "cc1_grove_release",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Sepulchral Conservatory"
+      },
+      {
+        "type": "read-boolean",
+        "operator": "equals",
+        "value": false,
+        "key": "cc1_grove_resolved"
+      },
+      {
+        "type": "read-boolean",
+        "operator": "equals",
+        "value": true,
+        "key": "cc1_grove_heart_seen"
+      },
+      {
+        "type": "story",
+        "query": "Threnvoss's coercive hold has actually ended through an achieved release, binding dismantlement or genuine surrendered control of the sanctuary. This follows practical action and real evidence, not flattery, a promise, visiting, simply owning a seal or an unresolved battle."
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-boolean",
+        "key": "cc1_grove_resolved",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "item-add",
+        "item": "Heartwood Remembrance",
+        "quantity": 1,
+        "target": "allPlayers"
+      },
+      {
+        "type": "story",
+        "instruction": "The Rootbound Regent's coercive vigil is genuinely ended. Preserve the actual outcome: destroyed frame, defeated caretaker or achieved release. The typed grant supplies the single Heartwood Remembrance; do not create substitute loot or repeat it through a quest. Released conscious spirits and empty frames retain their distinct fates. The portal home remains open."
+      }
+    ],
+    "recurring": false,
+    "script": "if(storage.cc1_grove_reward_dispatched){skip=true;}else storage.cc1_grove_reward_dispatched=true;if(!skip&&check({type:'npc-relationship',npc:'Threnvoss'})<0)effects.push({type:'npc-relationship',npc:'Threnvoss',operator:'set',value:0});"
+  },
+  "cc1_grove_investigation": {
+    "name": "cc1_grove_investigation",
+    "conditions": [
+      {
+        "type": "party-realm",
+        "operator": "equals",
+        "value": "The Sepulchral Conservatory"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "hidden",
+        "questId": "A Body for Every Name"
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "A Body for Every Name"
+      }
+    ],
+    "recurring": false
+  },
+  "cc1_crime_offer_1": {
+    "name": "cc1_crime_offer_1",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Four Sages Bazaar"
+      },
+      {
+        "type": "npc-in-scene",
+        "operator": "equals",
+        "value": true,
+        "npc": "Mika Koshimizu"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "hidden",
+        "questId": "A Seal Nobody Checked"
+      },
+      {
+        "type": "story",
+        "query": "The player has actually encountered the specific proposal \"A Seal Nobody Checked from Mika Koshimizu and shown interest in its real terms. The actual scope and risk are understood. An arrival, a rumor, an unrelated request or a hidden motive the player has not discovered is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "A Seal Nobody Checked"
+      }
+    ],
+    "recurring": false
+  },
+  "cc1_crime_offer_2": {
+    "name": "cc1_crime_offer_2",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Four Sages Bazaar"
+      },
+      {
+        "type": "npc-in-scene",
+        "operator": "equals",
+        "value": true,
+        "npc": "Renjirō Suda"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "hidden",
+        "questId": "The Parcel with Two Owners"
+      },
+      {
+        "type": "story",
+        "query": "The player has actually encountered the specific proposal \"The Parcel with Two Owners from Renjirō Suda and shown interest in its real terms. The actual scope and risk are understood. An arrival, a rumor, an unrelated request or a hidden motive the player has not discovered is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Parcel with Two Owners"
+      }
+    ],
+    "recurring": false
+  },
+  "cc1_crime_offer_3": {
+    "name": "cc1_crime_offer_3",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "The Eternal Crucible"
+      },
+      {
+        "type": "npc-in-scene",
+        "operator": "equals",
+        "value": true,
+        "npc": "Momo Shiratori"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "hidden",
+        "questId": "A Very Profitable Defeat"
+      },
+      {
+        "type": "story",
+        "query": "The player has actually encountered the specific proposal \"A Very Profitable Defeat from Momo Shiratori and shown interest in its real terms. The actual scope and risk are understood. An arrival, a rumor, an unrelated request or a hidden motive the player has not discovered is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "A Very Profitable Defeat"
+      }
+    ],
+    "recurring": false
+  },
+  "cc1_crime_offer_4": {
+    "name": "cc1_crime_offer_4",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Four Sages Bazaar"
+      },
+      {
+        "type": "npc-in-scene",
+        "operator": "equals",
+        "value": true,
+        "npc": "Renjirō Suda"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "hidden",
+        "questId": "The Recommendation in Violet Ink"
+      },
+      {
+        "type": "story",
+        "query": "The player has actually encountered the specific proposal \"The Recommendation in Violet Ink from Renjirō Suda and shown interest in its real terms. The actual scope and risk are understood. An arrival, a rumor, an unrelated request or a hidden motive the player has not discovered is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Recommendation in Violet Ink"
+      }
+    ],
+    "recurring": false
+  },
+  "cc1_crime_offer_5": {
+    "name": "cc1_crime_offer_5",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Coppercrest Exchange"
+      },
+      {
+        "type": "npc-in-scene",
+        "operator": "equals",
+        "value": true,
+        "npc": "Shiori Takase"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "hidden",
+        "questId": "Scales Before the Census"
+      },
+      {
+        "type": "story",
+        "query": "The player has actually encountered the specific proposal \"Scales Before the Census from Shiori Takase and shown interest in its real terms. The actual scope and risk are understood. An arrival, a rumor, an unrelated request or a hidden motive the player has not discovered is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "Scales Before the Census"
+      }
+    ],
+    "recurring": false
+  },
+  "cc1_crime_offer_6": {
+    "name": "cc1_crime_offer_6",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Redvein Mine"
+      },
+      {
+        "type": "npc-in-scene",
+        "operator": "equals",
+        "value": true,
+        "npc": "Genta Shishido"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "hidden",
+        "questId": "The Missing Weight"
+      },
+      {
+        "type": "story",
+        "query": "The player has actually encountered the specific proposal \"The Missing Weight from Genta Shishido and shown interest in its real terms. The actual scope and risk are understood. An arrival, a rumor, an unrelated request or a hidden motive the player has not discovered is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Missing Weight"
+      }
+    ],
+    "recurring": false
+  },
+  "cc1_crime_offer_7": {
+    "name": "cc1_crime_offer_7",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Hearthmarket Square"
+      },
+      {
+        "type": "npc-in-scene",
+        "operator": "equals",
+        "value": true,
+        "npc": "Koharu Mikazuki"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "hidden",
+        "questId": "A Blade Without a Name"
+      },
+      {
+        "type": "story",
+        "query": "The player has actually encountered the specific proposal \"A Blade Without a Name from Koharu Mikazuki and shown interest in its real terms. The actual scope and risk are understood. An arrival, a rumor, an unrelated request or a hidden motive the player has not discovered is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "A Blade Without a Name"
+      }
+    ],
+    "recurring": false
+  },
+  "cc1_crime_offer_8": {
+    "name": "cc1_crime_offer_8",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Hearthmarket Square"
+      },
+      {
+        "type": "npc-in-scene",
+        "operator": "equals",
+        "value": true,
+        "npc": "Koharu Mikazuki"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "hidden",
+        "questId": "A Delay Worth Buying"
+      },
+      {
+        "type": "story",
+        "query": "The player has actually encountered the specific proposal \"A Delay Worth Buying from Koharu Mikazuki and shown interest in its real terms. The actual scope and risk are understood. An arrival, a rumor, an unrelated request or a hidden motive the player has not discovered is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "A Delay Worth Buying"
+      }
+    ],
+    "recurring": false
   }
 }

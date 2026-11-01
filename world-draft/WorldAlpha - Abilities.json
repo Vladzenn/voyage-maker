@@ -7245,5 +7245,2175 @@
         "amount": 1
       }
     ]
+  },
+  "Chalkstar Needle": {
+    "name": "Chalkstar Needle",
+    "description": "Send a narrow raw-mana dart through one exposed gap; precise aim matters more than impact. Costs 4 Mana on a committed attempt, including failure. Use the actual Arcane Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Arcane Magic",
+        "amount": 3
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 0
+  },
+  "Lantern Cage": {
+    "name": "Lantern Cage",
+    "description": "Arrange three small force panes around an object to catch a falling load; the open sides remain open. Costs 5 Mana on a committed attempt, including failure. Use the actual Arcane Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Arcane Magic",
+        "amount": 12
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 0
+  },
+  "Cathedral of Lines": {
+    "name": "Cathedral of Lines",
+    "description": "Build a waist-high interlocking force lattice that divides one approach and gives allies cover; it has real breakable surfaces. Costs 9 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Arcane Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Arcane Magic",
+        "amount": 24
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 1
+  },
+  "Borrowed Orbit": {
+    "name": "Borrowed Orbit",
+    "description": "Keep one small carried tool circling within arm's reach, then send it along a chosen short path; this grants no extra attack. Costs 12 Mana on a committed attempt, including failure. Use the actual Arcane Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Arcane Magic",
+        "amount": 38
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 2
+  },
+  "Crown of Interception": {
+    "name": "Crown of Interception",
+    "description": "Prepare several bounded force facets to intercept one approaching volley; gaps, strength and the actual result still matter. Costs 20 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Arcane Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Arcane Magic",
+        "amount": 60
+      }
+    ],
+    "bonus": 7,
+    "cooldown": 3
+  },
+  "The Last Clear Equation": {
+    "name": "The Last Clear Equation",
+    "description": "Unmake one understood hostile construct by attacking a structural junction; powerful unfamiliar magic requires investigation and can resist. Costs 32 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Arcane Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Arcane Magic",
+        "amount": 85
+      }
+    ],
+    "bonus": 9,
+    "cooldown": 5
+  },
+  "Cinder March": {
+    "name": "Cinder March",
+    "description": "Move behind a brief low ember screen without treating it as solid cover or invisibility. Costs 4 Mana on a committed attempt, including failure. Use the actual Fire Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Fire Magic",
+        "amount": 3
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 0
+  },
+  "Kettlewick Touch": {
+    "name": "Kettlewick Touch",
+    "description": "Warm a small existing object to a controlled useful temperature; living tissue and dangerous materials demand caution. Costs 5 Mana on a committed attempt, including failure. Use the actual Fire Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Fire Magic",
+        "amount": 12
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 0
+  },
+  "Emberglass Fan": {
+    "name": "Emberglass Fan",
+    "description": "Send a broad short fan of sparks that threatens an exposed approach without a room-filling explosion. Costs 9 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Fire Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Fire Magic",
+        "amount": 24
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 1
+  },
+  "Heat Haze Waltz": {
+    "name": "Heat Haze Waltz",
+    "description": "Create a localized shimmer that makes a distant outline harder to judge, while leaving nearby sight intact. Costs 12 Mana on a committed attempt, including failure. Use the actual Fire Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Fire Magic",
+        "amount": 38
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 2
+  },
+  "Furnace Gate": {
+    "name": "Furnace Gate",
+    "description": "Hold a narrow stationary curtain of heat across an actual doorway; it does not block sight, air or an unrelated route. Costs 20 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Fire Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Fire Magic",
+        "amount": 60
+      }
+    ],
+    "bonus": 7,
+    "cooldown": 3
+  },
+  "Sunfall Crucible": {
+    "name": "Sunfall Crucible",
+    "description": "Concentrate a major heat release into one declared bounded area after a visible preparation; allies and combustible surroundings remain at risk. Costs 32 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Fire Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Fire Magic",
+        "amount": 85
+      }
+    ],
+    "bonus": 9,
+    "cooldown": 5
+  },
+  "Blue Ribbon Snare": {
+    "name": "Blue Ribbon Snare",
+    "description": "Loop a small quantity of water around an ankle or tool and pull against its resistance; this is not a guaranteed restraint. Costs 4 Mana on a committed attempt, including failure. Use the actual Water Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Water Magic",
+        "amount": 3
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 0
+  },
+  "Raincup Filter": {
+    "name": "Raincup Filter",
+    "description": "Separate ordinary grit from a cupful of existing water; this does not guarantee removal of poison or disease. Costs 5 Mana on a committed attempt, including failure. Use the actual Water Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Water Magic",
+        "amount": 12
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 0
+  },
+  "Dancer Beneath the Rain": {
+    "name": "Dancer Beneath the Rain",
+    "description": "Draw existing surface water beneath a short moving path to interfere with footing or help a deliberate slide. Costs 9 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Water Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Water Magic",
+        "amount": 24
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 1
+  },
+  "Riverglass Rampart": {
+    "name": "Riverglass Rampart",
+    "description": "Raise a compact moving water barrier that can divert a modest projectile; it is not solid ice. Costs 12 Mana on a committed attempt, including failure. Use the actual Water Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Water Magic",
+        "amount": 38
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 2
+  },
+  "The Turning Flood": {
+    "name": "The Turning Flood",
+    "description": "Redirect a substantial existing current around an obstacle, keeping its volume and dangerous pressure real. Costs 20 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Water Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Water Magic",
+        "amount": 60
+      }
+    ],
+    "bonus": 7,
+    "cooldown": 3
+  },
+  "Palace of Falling Rain": {
+    "name": "Palace of Falling Rain",
+    "description": "Suspend and release a large prepared mass of water in a controlled descending pattern; no ice, blood control or permanent conjured reservoir is created. Costs 32 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Water Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Water Magic",
+        "amount": 85
+      }
+    ],
+    "bonus": 9,
+    "cooldown": 5
+  },
+  "Pebble Choir": {
+    "name": "Pebble Choir",
+    "description": "Lift a handful of nearby stones and cast them in one directed burst; resolve one actual attack. Costs 4 Mana on a committed attempt, including failure. Use the actual Earth Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Earth Magic",
+        "amount": 3
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 0
+  },
+  "Earthen Thumbprint": {
+    "name": "Earthen Thumbprint",
+    "description": "Press a temporary identifying impression into accessible clay or loose soil without detecting an unseen person. Costs 5 Mana on a committed attempt, including failure. Use the actual Earth Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Earth Magic",
+        "amount": 12
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 0
+  },
+  "Rampart Step": {
+    "name": "Rampart Step",
+    "description": "Raise a broad low earthen step for a defensive angle or safer reach; ceilings and real foundations constrain it. Costs 9 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Earth Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Earth Magic",
+        "amount": 24
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 1
+  },
+  "Dunehook": {
+    "name": "Dunehook",
+    "description": "Draw loose sand into a short gripping ridge beneath a target; hard stone floors offer no convenient sand. Costs 12 Mana on a committed attempt, including failure. Use the actual Earth Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Earth Magic",
+        "amount": 38
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 2
+  },
+  "Bastion Without a Crown": {
+    "name": "Bastion Without a Crown",
+    "description": "Build several connected earthwork sections with visible gaps and finite durability rather than an invulnerable dome. Costs 20 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Earth Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Earth Magic",
+        "amount": 60
+      }
+    ],
+    "bonus": 7,
+    "cooldown": 3
+  },
+  "Faultline Testament": {
+    "name": "Faultline Testament",
+    "description": "Drive a carefully directed rupture through an understood existing rock seam; unstable structures and nearby people remain a serious consideration. Costs 32 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Earth Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Earth Magic",
+        "amount": 85
+      }
+    ],
+    "bonus": 9,
+    "cooldown": 5
+  },
+  "Tailwind Courtesy": {
+    "name": "Tailwind Courtesy",
+    "description": "Give one willing person a brief assisting breeze for a jump or recovery of balance; it grants no flight or extra action. Costs 4 Mana on a committed attempt, including failure. Use the actual Wind Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Wind Magic",
+        "amount": 3
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 0
+  },
+  "Whistling Thread": {
+    "name": "Whistling Thread",
+    "description": "Send a small tied signal along a short known open air route, unable to pass sealed barriers. Costs 5 Mana on a committed attempt, including failure. Use the actual Wind Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Wind Magic",
+        "amount": 12
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 0
+  },
+  "Crosswind Stair": {
+    "name": "Crosswind Stair",
+    "description": "Support one short controlled aerial step between nearby footholds; a failed landing still needs a real recovery route. Costs 9 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Wind Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Wind Magic",
+        "amount": 24
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 1
+  },
+  "Bannerbreaker": {
+    "name": "Bannerbreaker",
+    "description": "Push a broad sideways gust through one declared lane to disturb aim, smoke or loose material. Costs 12 Mana on a committed attempt, including failure. Use the actual Wind Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Wind Magic",
+        "amount": 38
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 2
+  },
+  "Seven Sails Ascending": {
+    "name": "Seven Sails Ascending",
+    "description": "Maintain sustained personal flight with real concentration, Mana and wind limits; passengers require separate preparation. Costs 20 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Wind Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Wind Magic",
+        "amount": 60
+      }
+    ],
+    "bonus": 7,
+    "cooldown": 3
+  },
+  "The Weather Opens": {
+    "name": "The Weather Opens",
+    "description": "Influence an existing local cloud front over time, shifting a limited patch of rain or wind rather than commanding the entire sky. Costs 32 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Wind Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Wind Magic",
+        "amount": 85
+      }
+    ],
+    "bonus": 9,
+    "cooldown": 5
+  },
+  "Bluebell Sting": {
+    "name": "Bluebell Sting",
+    "description": "Release a short directed spark toward an exposed target; it neither guarantees paralysis nor jumps freely through every bystander. Costs 4 Mana on a committed attempt, including failure. Use the actual Lightning Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Lightning Magic",
+        "amount": 3
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 0
+  },
+  "Static Petal": {
+    "name": "Static Petal",
+    "description": "Place a faint temporary charge on one touched nonliving object, useful as a visible contact signal. Costs 5 Mana on a committed attempt, including failure. Use the actual Lightning Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Lightning Magic",
+        "amount": 12
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 0
+  },
+  "Thunderclap Reversal": {
+    "name": "Thunderclap Reversal",
+    "description": "Send a brief counter-directed discharge along an actual approaching conductive line; timing and insulation matter. Costs 9 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Lightning Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Lightning Magic",
+        "amount": 24
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 1
+  },
+  "Stormwire Arc": {
+    "name": "Stormwire Arc",
+    "description": "Link two prepared conductive points with a brief controlled arc; announce the path and its danger before committing. Costs 12 Mana on a committed attempt, including failure. Use the actual Lightning Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Lightning Magic",
+        "amount": 38
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 2
+  },
+  "Spear of the Stormcourt": {
+    "name": "Spear of the Stormcourt",
+    "description": "Concentrate a powerful long-range discharge into one sighted lane, with real cover and grounding counterplay. Costs 20 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Lightning Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Lightning Magic",
+        "amount": 60
+      }
+    ],
+    "bonus": 7,
+    "cooldown": 3
+  },
+  "Heaven's Answering Bell": {
+    "name": "Heaven's Answering Bell",
+    "description": "Draw a major discharge through a prepared storm circuit; setup, weather, conductors and civilian safety constrain it. Costs 32 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Lightning Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Lightning Magic",
+        "amount": 85
+      }
+    ],
+    "bonus": 9,
+    "cooldown": 5
+  },
+  "Winter Button": {
+    "name": "Winter Button",
+    "description": "Form a small temporary ice catch around a touched fastening; force or warmth can break it. Costs 4 Mana on a committed attempt, including failure. Use the actual Ice Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Ice Magic",
+        "amount": 3
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 0
+  },
+  "Frostprint": {
+    "name": "Frostprint",
+    "description": "Chill a small exposed surface so recent warm contact may become easier to inspect; this reveals no exact identity or history. Costs 5 Mana on a committed attempt, including failure. Use the actual Ice Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Ice Magic",
+        "amount": 12
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 0
+  },
+  "Glasswinter Causeway": {
+    "name": "Glasswinter Causeway",
+    "description": "Lay a short broad ice path across a shallow obstacle, with finite load, slippery footing and actual anchoring. Costs 9 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Ice Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Ice Magic",
+        "amount": 24
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 1
+  },
+  "Blue Chapel Wall": {
+    "name": "Blue Chapel Wall",
+    "description": "Grow a segmented ice screen with narrow protected viewing gaps; it can melt or shatter. Costs 12 Mana on a committed attempt, including failure. Use the actual Ice Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Ice Magic",
+        "amount": 38
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 2
+  },
+  "Still Lake Verdict": {
+    "name": "Still Lake Verdict",
+    "description": "Remove heat from a bounded existing wet surface over several moments, threatening footing without instantly freezing living blood. Costs 20 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Ice Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Ice Magic",
+        "amount": 60
+      }
+    ],
+    "bonus": 7,
+    "cooldown": 3
+  },
+  "The White Cathedral": {
+    "name": "The White Cathedral",
+    "description": "Build a large temporary chamber of ice ribs and screens, requiring support and sustained control rather than granting an invulnerable palace. Costs 32 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Ice Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Ice Magic",
+        "amount": 85
+      }
+    ],
+    "bonus": 9,
+    "cooldown": 5
+  },
+  "Starling Glint": {
+    "name": "Starling Glint",
+    "description": "Throw a bright glint toward one sighted line to distract aim; it is not automatic blindness. Costs 4 Mana on a committed attempt, including failure. Use the actual Light Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Light Magic",
+        "amount": 3
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 0
+  },
+  "Lanternscript": {
+    "name": "Lanternscript",
+    "description": "Illuminate an existing etched pattern with a stable narrow light, making detail easier to inspect without revealing hidden truth. Costs 5 Mana on a committed attempt, including failure. Use the actual Light Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Light Magic",
+        "amount": 12
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 0
+  },
+  "Starlight Aperture": {
+    "name": "Starlight Aperture",
+    "description": "Focus a short beam through a prepared gap, trading a narrow firing line for concentration. Costs 9 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Light Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Light Magic",
+        "amount": 24
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 1
+  },
+  "Sunroom Veil": {
+    "name": "Sunroom Veil",
+    "description": "Fill a small area with even diffuse light that reduces harsh shadows; it grants no healing or protection from every illusion. Costs 12 Mana on a committed attempt, including failure. Use the actual Light Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Light Magic",
+        "amount": 38
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 2
+  },
+  "The Unbroken Beacon": {
+    "name": "The Unbroken Beacon",
+    "description": "Maintain a clear distant signal through ordinary darkness, with actual line-of-sight and atmospheric limits. Costs 20 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Light Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Light Magic",
+        "amount": 60
+      }
+    ],
+    "bonus": 7,
+    "cooldown": 3
+  },
+  "Daybreak Lance": {
+    "name": "Daybreak Lance",
+    "description": "Release a tightly focused high-energy light beam into one declared lane after visible preparation; reflective surfaces and real cover matter. Costs 32 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Light Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Light Magic",
+        "amount": 85
+      }
+    ],
+    "bonus": 9,
+    "cooldown": 5
+  },
+  "Iron Orchard Bud": {
+    "name": "Iron Orchard Bud",
+    "description": "Shape a small temporary metallic hook for a brief task; conjured metal fades and supplies no saleable ore. Costs 4 Mana on a committed attempt, including failure. Use the actual Metal Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Metal Magic",
+        "amount": 3
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 0
+  },
+  "Smith's Quiet Ear": {
+    "name": "Smith's Quiet Ear",
+    "description": "Sense a touched metal piece's strain through a controlled vibration; this is inspection, not universal appraisal. Costs 5 Mana on a committed attempt, including failure. Use the actual Metal Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Metal Magic",
+        "amount": 12
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 0
+  },
+  "Silverreed Guard": {
+    "name": "Silverreed Guard",
+    "description": "Bend accessible metal into a narrow deflecting arc without stealing distant weapons automatically. Costs 9 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Metal Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Metal Magic",
+        "amount": 24
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 1
+  },
+  "Chain of Proper Measure": {
+    "name": "Chain of Proper Measure",
+    "description": "Alter the length and shape of an existing modest chain while preserving its actual mass and material limits. Costs 12 Mana on a committed attempt, including failure. Use the actual Metal Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Metal Magic",
+        "amount": 38
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 2
+  },
+  "Iron Orchard": {
+    "name": "Iron Orchard",
+    "description": "Raise several temporary metallic spars as obstacles, leaving visible routes and finite breakable supports. Costs 20 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Metal Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Metal Magic",
+        "amount": 60
+      }
+    ],
+    "bonus": 7,
+    "cooldown": 3
+  },
+  "The Patient Transmutation": {
+    "name": "The Patient Transmutation",
+    "description": "Refine a prepared quantity of real metallic material through a difficult controlled working; conservation, tools and impurities remain real. Costs 32 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Metal Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Metal Magic",
+        "amount": 85
+      }
+    ],
+    "bonus": 9,
+    "cooldown": 5
+  },
+  "Briar Button": {
+    "name": "Briar Button",
+    "description": "Conjure a short temporary thorned fastening to catch cloth or hold a small object; strength can break it. Costs 4 Mana on a committed attempt, including failure. Use the actual Nature Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Nature Magic",
+        "amount": 3
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 0
+  },
+  "Greenhouse Courtesy": {
+    "name": "Greenhouse Courtesy",
+    "description": "Encourage a small living plant to recover from ordinary stress using suitable soil, light and water; this does not heal people. Costs 5 Mana on a committed attempt, including failure. Use the actual Nature Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Nature Magic",
+        "amount": 12
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 0
+  },
+  "Hedgeknight's Welcome": {
+    "name": "Hedgeknight's Welcome",
+    "description": "Grow a temporary branching screen along a touched support, useful for cover but vulnerable to cutting and fire. Costs 9 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Nature Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Nature Magic",
+        "amount": 24
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 1
+  },
+  "Rootwalk Covenant": {
+    "name": "Rootwalk Covenant",
+    "description": "Ask accessible existing roots to form a short stable path, requiring real plant matter and suitable footing. Costs 12 Mana on a committed attempt, including failure. Use the actual Nature Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Nature Magic",
+        "amount": 38
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 2
+  },
+  "The Orchard Takes a Stand": {
+    "name": "The Orchard Takes a Stand",
+    "description": "Shape a substantial rooted barrier with several grasping branches; it has limited reach and cannot pursue detached targets indefinitely. Costs 20 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Nature Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Nature Magic",
+        "amount": 60
+      }
+    ],
+    "bonus": 7,
+    "cooldown": 3
+  },
+  "Spring After the Ash": {
+    "name": "Spring After the Ash",
+    "description": "Restore a damaged real planting through a sustained difficult working with surviving roots and actual growing resources; it creates no instant inexhaustible harvest. Costs 32 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Nature Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Nature Magic",
+        "amount": 85
+      }
+    ],
+    "bonus": 9,
+    "cooldown": 5
+  },
+  "Copper Cricket": {
+    "name": "Copper Cricket",
+    "description": "Produce a short directional chirp from a touched object for a simple signal, not concealed telepathy. Costs 4 Mana on a committed attempt, including failure. Use the actual Sound Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Sound Magic",
+        "amount": 3
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 0
+  },
+  "Velvet Footfall": {
+    "name": "Velvet Footfall",
+    "description": "Soften a few actual footsteps by controlling their vibration; nearby observers can still see the caster. Costs 5 Mana on a committed attempt, including failure. Use the actual Sound Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Sound Magic",
+        "amount": 12
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 0
+  },
+  "Mourning Bell Release": {
+    "name": "Mourning Bell Release",
+    "description": "Send a bounded resonant pulse that can interrupt fragile concentration; resolve resistance rather than guaranteeing a canceled spell. Costs 9 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Sound Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Sound Magic",
+        "amount": 24
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 1
+  },
+  "The Split Chorus": {
+    "name": "The Split Chorus",
+    "description": "Carry two distinguishable voices along separate short acoustic lanes, without translating unknown languages. Costs 12 Mana on a committed attempt, including failure. Use the actual Sound Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Sound Magic",
+        "amount": 38
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 2
+  },
+  "Bellwall": {
+    "name": "Bellwall",
+    "description": "Set a sustained resonant boundary that disrupts an approaching vibration or sound-based working; it does not stop every physical projectile. Costs 20 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Sound Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Sound Magic",
+        "amount": 60
+      }
+    ],
+    "bonus": 7,
+    "cooldown": 3
+  },
+  "Cathedral Resonance": {
+    "name": "Cathedral Resonance",
+    "description": "Excite an understood structural frequency through a prepared major working; material knowledge and collateral risk matter, and buildings do not collapse by declaration. Costs 32 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Sound Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Sound Magic",
+        "amount": 85
+      }
+    ],
+    "bonus": 9,
+    "cooldown": 5
+  },
+  "Pocket Moon": {
+    "name": "Pocket Moon",
+    "description": "Briefly lighten one small held object, not its owner or every item in a pack. Costs 4 Mana on a committed attempt, including failure. Use the actual Gravity Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Gravity Magic",
+        "amount": 3
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 0
+  },
+  "Pendulum Courtesy": {
+    "name": "Pendulum Courtesy",
+    "description": "Apply a short gentle pull to steady a swaying load; the weight must remain within the caster's practiced scale. Costs 5 Mana on a committed attempt, including failure. Use the actual Gravity Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Gravity Magic",
+        "amount": 12
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 0
+  },
+  "The Bent Step": {
+    "name": "The Bent Step",
+    "description": "Alter local downward pull for one short movement, changing a jump or fall without granting permanent flight. Costs 9 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Gravity Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Gravity Magic",
+        "amount": 24
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 1
+  },
+  "Court of Heavy Petals": {
+    "name": "Court of Heavy Petals",
+    "description": "Increase apparent weight in a small declared patch; targets can resist, brace or leave it. Costs 12 Mana on a committed attempt, including failure. Use the actual Gravity Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Gravity Magic",
+        "amount": 38
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 2
+  },
+  "Crownless Meteor": {
+    "name": "Crownless Meteor",
+    "description": "Draw a substantial existing object into one committed descending strike; the object, travel path and possible damage remain real. Costs 20 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Gravity Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Gravity Magic",
+        "amount": 60
+      }
+    ],
+    "bonus": 7,
+    "cooldown": 3
+  },
+  "Orbit of the Unbowed": {
+    "name": "Orbit of the Unbowed",
+    "description": "Maintain several carefully bounded gravitational lanes to redirect movement, with real concentration and no infinite crushing field. Costs 32 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Gravity Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Gravity Magic",
+        "amount": 85
+      }
+    ],
+    "bonus": 9,
+    "cooldown": 5
+  },
+  "Black Margin Mark": {
+    "name": "Black Margin Mark",
+    "description": "Place a small temporary darkened edge around a touched surface, making a boundary easier to see without opening another realm. Costs 4 Mana on a committed attempt, including failure. Use the actual Void Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Void Magic",
+        "amount": 3
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 0
+  },
+  "Hollow Candle": {
+    "name": "Hollow Candle",
+    "description": "Dampen one minor nearby magical glow through a brief opposing working; ordinary flame is not automatically erased. Costs 5 Mana on a committed attempt, including failure. Use the actual Void Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Void Magic",
+        "amount": 12
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 0
+  },
+  "The Unspoken Gap": {
+    "name": "The Unspoken Gap",
+    "description": "Attack a vulnerable interval in an understood ongoing spell, requiring timing rather than canceling every caster on sight. Costs 9 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Void Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Void Magic",
+        "amount": 24
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 1
+  },
+  "Umbra Pocket": {
+    "name": "Umbra Pocket",
+    "description": "Create a small localized patch of dimness that obstructs visual detail but is neither invisibility nor a bottomless storage space. Costs 12 Mana on a committed attempt, including failure. Use the actual Void Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Void Magic",
+        "amount": 38
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 2
+  },
+  "Silence Between Stars": {
+    "name": "Silence Between Stars",
+    "description": "Suppress a bounded prepared magical effect temporarily through a sustained contest; stronger workings and physical attacks remain threats. Costs 20 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Void Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Void Magic",
+        "amount": 60
+      }
+    ],
+    "bonus": 7,
+    "cooldown": 3
+  },
+  "The Empty Throne": {
+    "name": "The Empty Throne",
+    "description": "Create a brief powerful zone of magical interference with explicit boundaries and a serious concentration cost; it does not erase people, souls or the world. Costs 32 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Void Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Void Magic",
+        "amount": 85
+      }
+    ],
+    "bonus": 9,
+    "cooldown": 5
+  },
+  "Gentle Knot": {
+    "name": "Gentle Knot",
+    "description": "Treat a modest fresh cut with contact and actual clean care; it neither restores lost limbs nor hides the cause of injury. Costs 4 Mana on a committed attempt, including failure. Use the actual Healing Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Healing Magic",
+        "amount": 3
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 0
+  },
+  "Steady Hands, Warm Breath": {
+    "name": "Steady Hands, Warm Breath",
+    "description": "Help one willing patient settle ordinary shock while assessing the real wound; comfort is not mind control. Costs 5 Mana on a committed attempt, including failure. Use the actual Healing Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Healing Magic",
+        "amount": 12
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 0
+  },
+  "The Red Thread Holds": {
+    "name": "The Red Thread Holds",
+    "description": "Stabilize a serious injury while preserving the need for proper treatment and actual recovery. Costs 9 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Healing Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Healing Magic",
+        "amount": 24
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 1
+  },
+  "Mercy Under the Shield": {
+    "name": "Mercy Under the Shield",
+    "description": "Provide a focused restorative working to one reachable ally, with no automatic attack or simultaneous group heal. Costs 12 Mana on a committed attempt, including failure. Use the actual Healing Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Healing Magic",
+        "amount": 38
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 2
+  },
+  "House of Returning Strength": {
+    "name": "House of Returning Strength",
+    "description": "Perform sustained treatment for several consenting patients in a prepared safe space; supplies, time and individual limits matter. Costs 20 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Healing Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Healing Magic",
+        "amount": 60
+      }
+    ],
+    "bonus": 7,
+    "cooldown": 3
+  },
+  "Dawn at the Sickbed": {
+    "name": "Dawn at the Sickbed",
+    "description": "Attempt difficult restoration of severe living tissue damage through a major prepared treatment; this is not resurrection or a universal cure for age. Costs 32 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Healing Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Healing Magic",
+        "amount": 85
+      }
+    ],
+    "bonus": 9,
+    "cooldown": 5
+  },
+  "Borrowed Firmness": {
+    "name": "Borrowed Firmness",
+    "description": "Briefly reinforce one touched mundane grip or fastening without making it unbreakable. Costs 4 Mana on a committed attempt, including failure. Use the actual Enchantment Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Enchantment Magic",
+        "amount": 3
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 0
+  },
+  "Needle After Rain": {
+    "name": "Needle After Rain",
+    "description": "Give a small sewing or repair tool a short-lived steadying charm; this grants no finished item or permanent craftsmanship. Costs 5 Mana on a committed attempt, including failure. Use the actual Enchantment Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Enchantment Magic",
+        "amount": 12
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 0
+  },
+  "The Returning Guard": {
+    "name": "The Returning Guard",
+    "description": "Prepare a bounded reinforcement on one shield or weapon for a difficult exchange; the item remains an actual damageable object. Costs 9 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Enchantment Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Enchantment Magic",
+        "amount": 24
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 1
+  },
+  "Courier's Long Step": {
+    "name": "Courier's Long Step",
+    "description": "Sustain a modest bodily movement enhancement with real Mana cost; it grants no unlimited attacks or inexhaustible Stamina. Costs 12 Mana on a committed attempt, including failure. Use the actual Enchantment Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Enchantment Magic",
+        "amount": 38
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 2
+  },
+  "The Unwearied Hinge": {
+    "name": "The Unwearied Hinge",
+    "description": "Place a durable limited-purpose enchantment on a prepared real mechanism through careful work and suitable materials. Costs 20 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Enchantment Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Enchantment Magic",
+        "amount": 60
+      }
+    ],
+    "bonus": 7,
+    "cooldown": 3
+  },
+  "Covenant of the Living Blade": {
+    "name": "Covenant of the Living Blade",
+    "description": "Perform a major personalized equipment enchantment with an explicit finite function and preparation; bonuses require actual supported inventory changes, not bigger prose. Costs 32 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Enchantment Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Enchantment Magic",
+        "amount": 85
+      }
+    ],
+    "bonus": 9,
+    "cooldown": 5
+  },
+  "Paperwing Errand": {
+    "name": "Paperwing Errand",
+    "description": "Call one tiny temporary paperlike helper to carry a light object along a short known route; it has no free attack. Costs 4 Mana on a committed attempt, including failure. Use the actual Summoning Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Summoning Magic",
+        "amount": 3
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 0
+  },
+  "A Guest at the Lantern": {
+    "name": "A Guest at the Lantern",
+    "description": "Call a small harmless temporary light-bearing familiar with a clear duration and task, not a permanent NPC companion. Costs 5 Mana on a committed attempt, including failure. Use the actual Summoning Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Summoning Magic",
+        "amount": 12
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 0
+  },
+  "Hearthbound Sentinel": {
+    "name": "Hearthbound Sentinel",
+    "description": "Form one short-lived defensive elemental at a prepared point; any actual action requires a registered actor or supported resolved technique. Costs 9 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Summoning Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Summoning Magic",
+        "amount": 24
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 1
+  },
+  "The Second Pair of Hands": {
+    "name": "The Second Pair of Hands",
+    "description": "Call a small bounded helper for a physical task, sharing real coordination and concentration limits. Costs 12 Mana on a committed attempt, including failure. Use the actual Summoning Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Summoning Magic",
+        "amount": 38
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 2
+  },
+  "Parliament of Small Wings": {
+    "name": "Parliament of Small Wings",
+    "description": "Coordinate several minor helpers for reconnaissance of an accessible area; they cannot reveal thoughts or unseen sealed rooms. Costs 20 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Summoning Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Summoning Magic",
+        "amount": 60
+      }
+    ],
+    "bonus": 7,
+    "cooldown": 3
+  },
+  "The Gatekeeper's Guest": {
+    "name": "The Gatekeeper's Guest",
+    "description": "Call one formidable prepared ally through a learned bounded bond, with real consent, duration and resources; no automatic recruitment or extra damage follows the arrival. Costs 32 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Summoning Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Summoning Magic",
+        "amount": 85
+      }
+    ],
+    "bonus": 9,
+    "cooldown": 5
+  },
+  "Paper Moon Feint": {
+    "name": "Paper Moon Feint",
+    "description": "Place a brief false glint on the caster's actual movement to sell one feint; it cannot strike. Costs 4 Mana on a committed attempt, including failure. Use the actual Illusion Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Illusion Magic",
+        "amount": 3
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 0
+  },
+  "Borrowed Color": {
+    "name": "Borrowed Color",
+    "description": "Alter the apparent color of one small visible object for a short time; touch and close inspection can expose the effect. Costs 5 Mana on a committed attempt, including failure. Use the actual Illusion Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Illusion Magic",
+        "amount": 12
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 0
+  },
+  "A Seat Still Warm": {
+    "name": "A Seat Still Warm",
+    "description": "Project a stationary visible likeness at an actual seat, without physical weight, independent thought or automatic deception. Costs 9 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Illusion Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Illusion Magic",
+        "amount": 24
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 1
+  },
+  "The False Doorway": {
+    "name": "The False Doorway",
+    "description": "Overlay a plausible visual passage on one existing surface; it does not open a route or alter the map. Costs 12 Mana on a committed attempt, including failure. Use the actual Illusion Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Illusion Magic",
+        "amount": 38
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 2
+  },
+  "Masquerade of Rain": {
+    "name": "Masquerade of Rain",
+    "description": "Maintain a complex bounded visual disguise for a consenting group, with sensory limitations and real concentration. Costs 20 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Illusion Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Illusion Magic",
+        "amount": 60
+      }
+    ],
+    "bonus": 7,
+    "cooldown": 3
+  },
+  "Palace of the Unsaid": {
+    "name": "Palace of the Unsaid",
+    "description": "Construct a large prepared sensory illusion with explicit boundaries; it cannot create possessions, force belief, rewrite memory or inflict unearned physical damage. Costs 32 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Illusion Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Illusion Magic",
+        "amount": 85
+      }
+    ],
+    "bonus": 9,
+    "cooldown": 5
+  },
+  "Lantern Question": {
+    "name": "Lantern Question",
+    "description": "Study one actual nearby trace for a narrow impression, which may be incomplete and requires interpretation. Costs 4 Mana on a committed attempt, including failure. Use the actual Divination Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Divination Magic",
+        "amount": 3
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 0
+  },
+  "The Unturned Card": {
+    "name": "The Unturned Card",
+    "description": "Seek an uncertain hint about a simple immediate choice; this is not guaranteed prediction or control over the result. Costs 5 Mana on a committed attempt, including failure. Use the actual Divination Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Divination Magic",
+        "amount": 12
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 0
+  },
+  "Footprints in the Quiet": {
+    "name": "Footprints in the Quiet",
+    "description": "Read lingering impressions at a touched place to guide an investigation, without inventing a complete exact historical recording. Costs 9 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Divination Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Divination Magic",
+        "amount": 24
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 1
+  },
+  "The Listening Compass": {
+    "name": "The Listening Compass",
+    "description": "Follow a prepared sympathetic trace toward a plausible local direction; unknown barriers and false leads remain possible. Costs 12 Mana on a committed attempt, including failure. Use the actual Divination Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Divination Magic",
+        "amount": 38
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 2
+  },
+  "A Window Not Yet Open": {
+    "name": "A Window Not Yet Open",
+    "description": "Examine a likely near-future consequence through a major focused reading; alternate choices can change it. Costs 20 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Divination Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Divination Magic",
+        "amount": 60
+      }
+    ],
+    "bonus": 7,
+    "cooldown": 3
+  },
+  "The Archive of Echoes": {
+    "name": "The Archive of Echoes",
+    "description": "Perform a difficult prepared reading of an old significant event through surviving evidence; uncertainty, consent where relevant and the caster's actual knowledge still matter. Costs 32 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Divination Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Divination Magic",
+        "amount": 85
+      }
+    ],
+    "bonus": 9,
+    "cooldown": 5
+  },
+  "Kindly Passing": {
+    "name": "Kindly Passing",
+    "description": "Ease a minor disturbed spiritual residue toward quiet without destroying a conscious spirit or healing living flesh. Costs 4 Mana on a committed attempt, including failure. Use the actual Soul Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Soul Magic",
+        "amount": 3
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 0
+  },
+  "Candle for the Absent": {
+    "name": "Candle for the Absent",
+    "description": "Sense whether a touched prepared object carries a spiritual trace; this reveals no automatic identity or private memory. Costs 5 Mana on a committed attempt, including failure. Use the actual Soul Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Soul Magic",
+        "amount": 12
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 0
+  },
+  "The Borrowed Marrow": {
+    "name": "The Borrowed Marrow",
+    "description": "Animate one small set of actual animal remains as a short-lived mindless helper. It contains no conscious deceased soul and creates no free attack. Costs 9 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Soul Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Soul Magic",
+        "amount": 24
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 1
+  },
+  "Mourner's Threshold": {
+    "name": "Mourner's Threshold",
+    "description": "Ward a bounded doorway against an actual possessing or intrusive spirit through a contest, not a universal species ban. Costs 12 Mana on a committed attempt, including failure. Use the actual Soul Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Soul Magic",
+        "amount": 38
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 2
+  },
+  "Court of Unfinished Names": {
+    "name": "Court of Unfinished Names",
+    "description": "Speak with a willing identifiable spirit through a prepared ritual; testimony is limited by its actual knowledge and honesty. Costs 20 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Soul Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Soul Magic",
+        "amount": 60
+      }
+    ],
+    "bonus": 7,
+    "cooldown": 3
+  },
+  "The Last Chain Opens": {
+    "name": "The Last Chain Opens",
+    "description": "Attempt a difficult exorcism or release of a conscious bound spirit through prepared evidence and a sustained contest; no casual resurrection or humanoid soul extraction is granted. Costs 32 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Soul Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Soul Magic",
+        "amount": 85
+      }
+    ],
+    "bonus": 9,
+    "cooldown": 5
+  },
+  "Seam at Arm's Length": {
+    "name": "Seam at Arm's Length",
+    "description": "Fold a very short clear interval to retrieve a small unattended object within sight; ownership, barriers and actual access still matter. Costs 10 Mana on a committed attempt, including failure. Use the actual Space Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Space Magic",
+        "amount": 15
+      },
+      {
+        "type": "skill",
+        "variable": "Gravity Magic",
+        "amount": 20
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 0
+  },
+  "Two Steps, One Shadow": {
+    "name": "Two Steps, One Shadow",
+    "description": "Make a short personal displacement between visible clear footholds; the destination must actually fit and be unblocked. Costs 12 Mana on a committed attempt, including failure. Use the actual Space Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Space Magic",
+        "amount": 22
+      },
+      {
+        "type": "skill",
+        "variable": "Gravity Magic",
+        "amount": 20
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 0
+  },
+  "The Narrow Elsewhere": {
+    "name": "The Narrow Elsewhere",
+    "description": "Open a brief arm-width passage between two nearby prepared points; it cannot cut a person in half or become infinite storage. Costs 18 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Space Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Space Magic",
+        "amount": 35
+      },
+      {
+        "type": "skill",
+        "variable": "Gravity Magic",
+        "amount": 20
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 1
+  },
+  "Measured Horizon": {
+    "name": "Measured Horizon",
+    "description": "Establish a short-lived local spatial anchor for a later prepared return; it creates no court portal permission. Costs 22 Mana on a committed attempt, including failure. Use the actual Space Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Space Magic",
+        "amount": 45
+      },
+      {
+        "type": "skill",
+        "variable": "Gravity Magic",
+        "amount": 20
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 2
+  },
+  "Bridge of the Known Shore": {
+    "name": "Bridge of the Known Shore",
+    "description": "Attempt prepared long-distance travel to a genuinely learned and suitable destination, with serious cost and barriers respected; apply supported real geography changes. Costs 35 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Space Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Space Magic",
+        "amount": 70
+      },
+      {
+        "type": "skill",
+        "variable": "Gravity Magic",
+        "amount": 40
+      }
+    ],
+    "bonus": 7,
+    "cooldown": 3
+  },
+  "The Cartographer's Door": {
+    "name": "The Cartographer's Door",
+    "description": "Open a major temporary passage between two researched anchored destinations through extensive preparation; no new realm, unknown nation or public-network authorization is invented. Costs 50 Mana on a committed attempt, including failure. Sustaining the effect beyond its immediate working requires continued concentration and proportionate Mana; temporary conjured matter fades. Use the actual Space Magic resolution; no guaranteed success or unlisted free action follows.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Space Magic",
+        "amount": 90
+      },
+      {
+        "type": "skill",
+        "variable": "Gravity Magic",
+        "amount": 40
+      }
+    ],
+    "bonus": 9,
+    "cooldown": 5
+  },
+  "Gatebreak Shoulder": {
+    "name": "Gatebreak Shoulder",
+    "description": "Commit to a close shoulder drive against an actual guard, opening space rather than guaranteeing a knockdown. Costs 3 Stamina when committed. Resolve one actual Force Combat technique; it does not add an automatic hit or extra turn.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Force Combat",
+        "amount": 3
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 0
+  },
+  "Anvil Courtesy": {
+    "name": "Anvil Courtesy",
+    "description": "Catch a weak committed line with the actual weapon or forearm guard and answer in one short forceful exchange. Costs 4 Stamina when committed. Resolve one actual Force Combat technique; it does not add an automatic hit or extra turn.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Force Combat",
+        "amount": 10
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 0
+  },
+  "Stonewheel Entry": {
+    "name": "Stonewheel Entry",
+    "description": "Step across a target's approach and use leverage to turn them; size, footing and resistance matter. Costs 5 Stamina when committed. Resolve one actual Force Combat technique; it does not add an automatic hit or extra turn.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Force Combat",
+        "amount": 18
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 0
+  },
+  "The Heavy Door Closes": {
+    "name": "The Heavy Door Closes",
+    "description": "Drive one broad weapon line across a narrow approach, threatening entry without hitting everyone automatically. Costs 6 Stamina when committed. Resolve one actual Force Combat technique; it does not add an automatic hit or extra turn.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Force Combat",
+        "amount": 28
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 1
+  },
+  "Ironhand Clinch": {
+    "name": "Ironhand Clinch",
+    "description": "Secure a close grip and use bodily leverage to restrict one opponent's movement; breaking or maintaining it is a real contest. Costs 8 Stamina when committed. Resolve one actual Force Combat technique; it does not add an automatic hit or extra turn.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Force Combat",
+        "amount": 40
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 1
+  },
+  "Mastbreaker": {
+    "name": "Mastbreaker",
+    "description": "Commit to a powerful strike against an exposed structural support after identifying it; strength does not declare a building collapse. Costs 10 Stamina when committed. Resolve one actual Force Combat technique; it does not add an automatic hit or extra turn.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Force Combat",
+        "amount": 55
+      }
+    ],
+    "bonus": 6,
+    "cooldown": 1
+  },
+  "The Mountain Answers": {
+    "name": "The Mountain Answers",
+    "description": "Absorb pressure through a prepared braced stance and deliver one decisive counter, with actual timing and footing. Costs 13 Stamina when committed. Resolve one actual Force Combat technique; it does not add an automatic hit or extra turn.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Force Combat",
+        "amount": 70
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 3
+  },
+  "Crown of the Last Stand": {
+    "name": "Crown of the Last Stand",
+    "description": "Hold one threatened close approach through a demanding sequence of controlled strikes and guards; no extra turns or invulnerability are granted. Costs 16 Stamina when committed. Resolve one actual Force Combat technique; it does not add an automatic hit or extra turn.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Force Combat",
+        "amount": 90
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 3
+  },
+  "Needle at the Cuff": {
+    "name": "Needle at the Cuff",
+    "description": "Attack an exposed weapon-hand line with precise placement, seeking disruption rather than an automatic severing injury. Costs 3 Stamina when committed. Resolve one actual Finesse Combat technique; it does not add an automatic hit or extra turn.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "amount": 3
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 0
+  },
+  "The Empty Sleeve": {
+    "name": "The Empty Sleeve",
+    "description": "Sell a small false commitment, then enter the opening with one real attack. Costs 4 Stamina when committed. Resolve one actual Finesse Combat technique; it does not add an automatic hit or extra turn.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "amount": 10
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 0
+  },
+  "Swallow Turns Home": {
+    "name": "Swallow Turns Home",
+    "description": "Pivot out of one committed line and return along a shorter angle; a genuine escape path is required. Costs 5 Stamina when committed. Resolve one actual Finesse Combat technique; it does not add an automatic hit or extra turn.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "amount": 18
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 0
+  },
+  "The Quiet Disarm": {
+    "name": "The Quiet Disarm",
+    "description": "Use a clear leverage point on a held weapon for a precise disarming attempt; grip, reach and resistance matter. Costs 6 Stamina when committed. Resolve one actual Finesse Combat technique; it does not add an automatic hit or extra turn.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "amount": 28
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 1
+  },
+  "Thread Through the Rain": {
+    "name": "Thread Through the Rain",
+    "description": "Cross a threatened short lane using actual cover and timing; projectiles do not all miss by declaration. Costs 8 Stamina when committed. Resolve one actual Finesse Combat technique; it does not add an automatic hit or extra turn.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "amount": 40
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 1
+  },
+  "Ribbon at the Throat": {
+    "name": "Ribbon at the Throat",
+    "description": "Present a controlled nonlethal threat at close reach after earning the position, allowing surrender rather than deciding it for the target. Costs 10 Stamina when committed. Resolve one actual Finesse Combat technique; it does not add an automatic hit or extra turn.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "amount": 55
+      }
+    ],
+    "bonus": 6,
+    "cooldown": 1
+  },
+  "The Ninth Petal Falls": {
+    "name": "The Ninth Petal Falls",
+    "description": "Exploit a carefully read repeated movement with one precise counter; observation does not grant omniscience. Costs 13 Stamina when committed. Resolve one actual Finesse Combat technique; it does not add an automatic hit or extra turn.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "amount": 70
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 3
+  },
+  "The Duel Without a Shadow": {
+    "name": "The Duel Without a Shadow",
+    "description": "Commit to a demanding sequence of angle changes supporting one decisive exchange; speed grants no extra independent attacks. Costs 16 Stamina when committed. Resolve one actual Finesse Combat technique; it does not add an automatic hit or extra turn.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "amount": 90
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 3
+  },
+  "Lantern Behind the Gate": {
+    "name": "Lantern Behind the Gate",
+    "description": "Put an actual shield or defensive line between a nearby ally and one approaching threat. Costs 3 Stamina when committed. Resolve one actual Guarded Combat technique; it does not add an automatic hit or extra turn.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Guarded Combat",
+        "amount": 3
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 0
+  },
+  "The Folded Wing": {
+    "name": "The Folded Wing",
+    "description": "Close a compact guard while withdrawing one short safe step; this does not escape an enclosed grapple automatically. Costs 4 Stamina when committed. Resolve one actual Guarded Combat technique; it does not add an automatic hit or extra turn.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Guarded Combat",
+        "amount": 10
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 0
+  },
+  "Patient Iron": {
+    "name": "Patient Iron",
+    "description": "Meet a committed weapon line with a supported guard and seek a short controlled response. Costs 5 Stamina when committed. Resolve one actual Guarded Combat technique; it does not add an automatic hit or extra turn.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Guarded Combat",
+        "amount": 18
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 0
+  },
+  "A Chair for the Storm": {
+    "name": "A Chair for the Storm",
+    "description": "Use stable footing and a real support to resist displacement, accepting that force can still break the position. Costs 6 Stamina when committed. Resolve one actual Guarded Combat technique; it does not add an automatic hit or extra turn.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Guarded Combat",
+        "amount": 28
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 1
+  },
+  "Circle of Returning Blades": {
+    "name": "Circle of Returning Blades",
+    "description": "Maintain a mobile defensive arc while a nearby person retreats; it protects only actual reachable lines. Costs 8 Stamina when committed. Resolve one actual Guarded Combat technique; it does not add an automatic hit or extra turn.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Guarded Combat",
+        "amount": 40
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 1
+  },
+  "The Unbroken Handrail": {
+    "name": "The Unbroken Handrail",
+    "description": "Guide an injured willing ally along a real route while defending the most immediate approach. Costs 10 Stamina when committed. Resolve one actual Guarded Combat technique; it does not add an automatic hit or extra turn.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Guarded Combat",
+        "amount": 55
+      }
+    ],
+    "bonus": 6,
+    "cooldown": 1
+  },
+  "Winter at the Gate": {
+    "name": "Winter at the Gate",
+    "description": "Use an exceptionally disciplined guard to stall a stronger close opponent, without granting immunity or canceling their successful actions. Costs 13 Stamina when committed. Resolve one actual Guarded Combat technique; it does not add an automatic hit or extra turn.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Guarded Combat",
+        "amount": 70
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 3
+  },
+  "The House Still Stands": {
+    "name": "The House Still Stands",
+    "description": "Organize one demanding defensive exchange around real cover and willing allies; each actor still receives only actual resolved actions. Costs 16 Stamina when committed. Resolve one actual Guarded Combat technique; it does not add an automatic hit or extra turn.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Guarded Combat",
+        "amount": 90
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 3
+  },
+  "Emberhook Return": {
+    "name": "Emberhook Return",
+    "description": "Use a short heated weapon hook to threaten the line opened by an actual close entry. This is one infused physical resolution using Force Combat, not a second detached spell. Costs 7 Mana and 5 Stamina on commitment. Resistance and actual positioning still apply.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Force Combat",
+        "amount": 12
+      },
+      {
+        "type": "skill",
+        "variable": "Fire Magic",
+        "amount": 5
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 1
+  },
+  "Rain on the Swordline": {
+    "name": "Rain on the Swordline",
+    "description": "Guide a small existing water ribbon along a precise cut to obscure its changing angle. This is one infused physical resolution using Finesse Combat, not a second detached spell. Costs 7 Mana and 5 Stamina on commitment. Resistance and actual positioning still apply.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "amount": 15
+      },
+      {
+        "type": "skill",
+        "variable": "Water Magic",
+        "amount": 5
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 1
+  },
+  "Thunder Behind the Buckler": {
+    "name": "Thunder Behind the Buckler",
+    "description": "Prepare a brief conducted discharge through the actual buckler during one earned close exchange. This is one infused physical resolution using Guarded Combat, not a second detached spell. Costs 8 Mana and 5 Stamina on commitment. Resistance and actual positioning still apply.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Guarded Combat",
+        "amount": 20
+      },
+      {
+        "type": "skill",
+        "variable": "Lightning Magic",
+        "amount": 10
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 1
+  },
+  "Briar at the Heel": {
+    "name": "Briar at the Heel",
+    "description": "Use a short temporary vine anchor to support a precise turning strike, with real breakable footing. This is one infused physical resolution using Finesse Combat, not a second detached spell. Costs 9 Mana and 6 Stamina on commitment. Resistance and actual positioning still apply.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "amount": 25
+      },
+      {
+        "type": "skill",
+        "variable": "Nature Magic",
+        "amount": 15
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 1
+  },
+  "The Heavy Crescent": {
+    "name": "The Heavy Crescent",
+    "description": "Alter a held weapon's apparent weight during one committed powerful arc. This is one infused physical resolution using Force Combat, not a second detached spell. Costs 9 Mana and 6 Stamina on commitment. Resistance and actual positioning still apply.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Force Combat",
+        "amount": 30
+      },
+      {
+        "type": "skill",
+        "variable": "Gravity Magic",
+        "amount": 20
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 1
+  },
+  "Star Beneath the Guard": {
+    "name": "Star Beneath the Guard",
+    "description": "Throw a narrow light feint beside the actual guard to support a measured counter. This is one infused physical resolution using Guarded Combat, not a second detached spell. Costs 10 Mana and 6 Stamina on commitment. Resistance and actual positioning still apply.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Guarded Combat",
+        "amount": 35
+      },
+      {
+        "type": "skill",
+        "variable": "Light Magic",
+        "amount": 25
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 1
+  },
+  "Winteredge Waltz": {
+    "name": "Winteredge Waltz",
+    "description": "Lay a brief frost line from the actual weapon during one controlled movement, threatening footing rather than freezing blood. This is one infused physical resolution using Finesse Combat, not a second detached spell. Costs 11 Mana and 7 Stamina on commitment. Resistance and actual positioning still apply.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "amount": 40
+      },
+      {
+        "type": "skill",
+        "variable": "Ice Magic",
+        "amount": 30
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 3
+  },
+  "The Iron Door Answers": {
+    "name": "The Iron Door Answers",
+    "description": "Reinforce an actual shield rim for a demanding catch-and-answer exchange. This is one infused physical resolution using Guarded Combat, not a second detached spell. Costs 11 Mana and 7 Stamina on commitment. Resistance and actual positioning still apply.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Guarded Combat",
+        "amount": 45
+      },
+      {
+        "type": "skill",
+        "variable": "Metal Magic",
+        "amount": 35
+      }
+    ],
+    "bonus": 6,
+    "cooldown": 3
+  },
+  "Gale at the Shoulder": {
+    "name": "Gale at the Shoulder",
+    "description": "Support a committed physical drive with a short directed gust, without doubling its resolved damage. This is one infused physical resolution using Force Combat, not a second detached spell. Costs 12 Mana and 8 Stamina on commitment. Resistance and actual positioning still apply.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Force Combat",
+        "amount": 50
+      },
+      {
+        "type": "skill",
+        "variable": "Wind Magic",
+        "amount": 40
+      }
+    ],
+    "bonus": 6,
+    "cooldown": 3
+  },
+  "The Unbound Blade": {
+    "name": "The Unbound Blade",
+    "description": "Contest one understood magical protection at the actual point of a precise weapon attempt. This is one infused physical resolution using Finesse Combat, not a second detached spell. Costs 13 Mana and 9 Stamina on commitment. Resistance and actual positioning still apply.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "amount": 60
+      },
+      {
+        "type": "skill",
+        "variable": "Void Magic",
+        "amount": 50
+      }
+    ],
+    "bonus": 7,
+    "cooldown": 3
+  },
+  "Lantern Against the Dead": {
+    "name": "Lantern Against the Dead",
+    "description": "Hold an actual defensive line against a spiritual intrusion while making one controlled physical counter. This is one infused physical resolution using Guarded Combat, not a second detached spell. Costs 14 Mana and 9 Stamina on commitment. Resistance and actual positioning still apply.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Guarded Combat",
+        "amount": 70
+      },
+      {
+        "type": "skill",
+        "variable": "Soul Magic",
+        "amount": 60
+      }
+    ],
+    "bonus": 7,
+    "cooldown": 3
+  },
+  "The Last Arc of Dawn": {
+    "name": "The Last Arc of Dawn",
+    "description": "Channel a major bounded force reinforcement through one committed actual weapon strike. This is one infused physical resolution using Force Combat, not a second detached spell. Costs 16 Mana and 11 Stamina on commitment. Resistance and actual positioning still apply.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Force Combat",
+        "amount": 85
+      },
+      {
+        "type": "skill",
+        "variable": "Arcane Magic",
+        "amount": 75
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 3
+  },
+  "Circuit Lantern": {
+    "name": "Circuit Lantern",
+    "description": "Diagnose one accessible faulty mana circuit with real tools; reading a fault does not repair it automatically. Costs 3 Stamina for the committed focused work. Powered testing also needs the device's real finite supply; no free ammunition, inventory grant or permanent upgrade is implied.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Magitech",
+        "amount": 5
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 0
+  },
+  "The Helpful Little Ratchet": {
+    "name": "The Helpful Little Ratchet",
+    "description": "Temporarily bypass one understood nonsecurity mechanical fault using actual spare parts, without generating an item. Costs 6 Stamina for the committed focused work. Powered testing also needs the device's real finite supply; no free ammunition, inventory grant or permanent upgrade is implied.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Magitech",
+        "amount": 20
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 1
+  },
+  "Pressure Valve Sonata": {
+    "name": "Pressure Valve Sonata",
+    "description": "Safely vent a prepared malfunctioning device through a controlled path; stored energy and bystanders remain real. Costs 9 Stamina for the committed focused work. Powered testing also needs the device's real finite supply; no free ammunition, inventory grant or permanent upgrade is implied.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Magitech",
+        "amount": 45
+      }
+    ],
+    "bonus": 6,
+    "cooldown": 2
+  },
+  "Heart of the Quiet Engine": {
+    "name": "Heart of the Quiet Engine",
+    "description": "Recalibrate a complex prepared mana-powered mechanism through sustained skilled work, using actual components and permissions. Costs 12 Stamina for the committed focused work. Powered testing also needs the device's real finite supply; no free ammunition, inventory grant or permanent upgrade is implied.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Magitech",
+        "amount": 75
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 4
   }
 }

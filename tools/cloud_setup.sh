@@ -8,4 +8,5 @@ python3 tools/project.py sync --check
 node tools/test_item_mechanics.cjs
 node tools/test_adventurers.cjs
 node tools/test_creation.cjs
+node tools/test_crucible.cjs
 python3 tools/test_validation.py

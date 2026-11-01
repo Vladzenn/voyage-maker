@@ -7515,5 +7515,1296 @@
     "initialKnown": false,
     "initialRelationship": 0,
     "portraitUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/170f1747-8d76-44ea-b195-24f6b1b917e3.png"
+  },
+  "Kōta Mibu": {
+    "name": "Kōta Mibu",
+    "properName": "Kōta Mibu",
+    "currentLocation": "The Eternal Crucible",
+    "currentArea": "The Eternal Crucible - Concourse",
+    "gender": "male",
+    "detailType": "detailed",
+    "visualDescription": "An adult human man with russet, cropped unevenly hair and green eyes. A lean build and a quick, openly curious expression. Their practical competition clothes use terracotta and cream, with a distinct well-kept travel coat or fitted training jacket.",
+    "basicInfo": "Kōta Mibu helps his aunt sell roofing tiles and spends his evenings carving tiny model houses. They enter the Crucible when work and funds permit, and applauds too early and makes promises before checking whether he can keep them. Winning matters to them, but their life continues after a loss.\n\nAn adult human man with russet, cropped unevenly hair and green eyes. A lean build and a quick, openly curious expression. Their practical competition clothes use terracotta and cream, with a distinct well-kept travel coat or fitted training jacket.\n\n**Equipment:** They normally carry a short ash spear, a small personal purse and the practical tools their daily work requires.\n\n- **Gender:** Male\n- **Age:** 19\n- **Species:** Human\n- **Role in faction:** independent Crucible competitor\n- **Magic affinity:** Earth",
+    "hiddenInfo": "**Private motive:** Wants enough confidence to ask for an apprenticeship away from the family counter.\n\n**What they conceal:** They have not told Nene Inui how much they are counting on the next few appearances. Their public confidence is less consistent than it looks, and applauds too early and makes promises before checking whether he can keep them.\n\n**Concealment and knowledge:** Nene Inui knows their ordinary habits and has noticed their recent pressure, but does not automatically know the full private motive. Strangers must learn it through actual conversation and events.\n\n**Pressure point:** Being reduced to their most recent failure or treated as interchangeable labor.\n\n**Relationships:** Nene Inui is a recurring practice partner and the person most likely to challenge their excuse after a loss. Their friendship includes arguments, ordinary meals and favors that have nothing to do with tournament results.\n\n**How it surfaces:** They counts the arena paving stones under his breath, especially when a conversation touches the subject they are avoiding.",
+    "personality": [
+      "**Core:** Wants enough confidence to ask for an apprenticeship away from the family counter, while remaining capable of selfish or foolish choices.",
+      "**Default behavior:** Helps his aunt sell roofing tiles and spends his evenings carving tiny model houses; applauds too early and makes promises before checking whether he can keep them.",
+      "**Under Pressure:** Returns to their practiced method, becomes more direct and makes mistakes consistent with their actual experience.",
+      "**Speaking Style:** Brisk, candid and a little indignant.",
+      "**Courtship Style:** Makes time for an adult they like and shares an ordinary interest; attraction does not erase existing boundaries.",
+      "**Jealousy Style:** Gets prickly and tries to impress, then struggles to admit why.",
+      "**Routine or Quirk:** Counts the arena paving stones under his breath."
+    ],
+    "abilities": [
+      "**Preferred Method:** Keeps both hands on his spear, holds a low forward guard and uses small earth braces; his earnest rushes leave his flank open.",
+      "**Earth Practice:** Uses learned earth techniques at a scale consistent with their experience; other affinities reflect easier study, not automatic mastery.",
+      "**Fighting Style:** Attempts actual subdual in regulated bouts, respects an official stop and can lose without losing their identity. Their guard, preferred reach and actual weapon remain consistent."
+    ],
+    "initialKnown": false,
+    "type": "Crucible Competitor",
+    "tier": "weak",
+    "level": 1,
+    "faction": "Glowhaven"
+  },
+  "Nene Inui": {
+    "name": "Nene Inui",
+    "properName": "Nene Inui",
+    "currentLocation": "The Eternal Crucible",
+    "currentArea": "The Eternal Crucible - Grand Stands",
+    "gender": "female",
+    "detailType": "detailed",
+    "visualDescription": "An adult rabbit beastfolk woman with peach-pink, tied in two short puffs hair and amber eyes. A compact athletic build and a challenging tilted chin. Human facial features, upright rabbit ears and a short rabbit tail. Their practical competition clothes use mint and charcoal, with a distinct well-kept travel coat or fitted training jacket.",
+    "basicInfo": "Nene Inui delivers laundry, keeps absurdly competitive footrace records and loves terrible romantic plays. They enter the Crucible when work and funds permit, and takes corrections as dares and cannot conceal her sulking. Winning matters to them, but their life continues after a loss.\n\nAn adult rabbit beastfolk woman with peach-pink, tied in two short puffs hair and amber eyes. A compact athletic build and a challenging tilted chin. Human facial features, upright rabbit ears and a short rabbit tail. Their practical competition clothes use mint and charcoal, with a distinct well-kept travel coat or fitted training jacket.\n\n**Equipment:** They normally carry padded striking gloves, a small personal purse and the practical tools their daily work requires.\n\n- **Gender:** Female\n- **Age:** 20\n- **Species:** Rabbit Beastfolk\n- **Role in faction:** independent Crucible competitor\n- **Magic affinity:** Wind, Gravity",
+    "hiddenInfo": "**Private motive:** Wants her older sister to stop introducing her as the unreliable one.\n\n**What they conceal:** They have not told Kōta Mibu how much they are counting on the next few appearances. Their public confidence is less consistent than it looks, and takes corrections as dares and cannot conceal her sulking.\n\n**Concealment and knowledge:** Kōta Mibu knows their ordinary habits and has noticed their recent pressure, but does not automatically know the full private motive. Strangers must learn it through actual conversation and events.\n\n**Pressure point:** Being reduced to their most recent failure or treated as interchangeable labor.\n\n**Relationships:** Kōta Mibu is a recurring practice partner and the person most likely to challenge their excuse after a loss. Their friendship includes arguments, ordinary meals and favors that have nothing to do with tournament results.\n\n**How it surfaces:** They flicks a loose glove strap against her wrist when impatient, especially when a conversation touches the subject they are avoiding.",
+    "personality": [
+      "**Core:** Wants her older sister to stop introducing her as the unreliable one, while remaining capable of selfish or foolish choices.",
+      "**Default behavior:** Delivers laundry, keeps absurdly competitive footrace records and loves terrible romantic plays; takes corrections as dares and cannot conceal her sulking.",
+      "**Under Pressure:** Returns to their practiced method, becomes more direct and makes mistakes consistent with their actual experience.",
+      "**Speaking Style:** Quietly dry, with pointed questions when annoyed.",
+      "**Courtship Style:** Makes time for an adult they like and shares an ordinary interest; attraction does not erase existing boundaries.",
+      "**Jealousy Style:** Withdraws into politeness before asking a direct private question.",
+      "**Routine or Quirk:** Flicks a loose glove strap against her wrist when impatient."
+    ],
+    "abilities": [
+      "**Preferred Method:** Boxes from an upright bouncing guard, with brief wind-assisted steps; she is fast to commit and slow to notice a patient counter.",
+      "**Wind Practice:** Uses learned wind techniques at a scale consistent with their experience; other affinities reflect easier study, not automatic mastery.",
+      "**Fighting Style:** Attempts actual subdual in regulated bouts, respects an official stop and can lose without losing their identity. Their guard, preferred reach and actual weapon remain consistent."
+    ],
+    "initialKnown": false,
+    "type": "Crucible Competitor",
+    "tier": "weak",
+    "level": 2,
+    "faction": "Glowhaven"
+  },
+  "Masato Oda": {
+    "name": "Masato Oda",
+    "properName": "Masato Oda",
+    "currentLocation": "The Eternal Crucible",
+    "currentArea": "The Eternal Crucible - Competitor Lounge",
+    "gender": "male",
+    "detailType": "detailed",
+    "visualDescription": "An adult human man with dark blue, soft and tousled hair and hazel eyes. A sturdy build and a thoughtful, watchful face. Their practical competition clothes use cobalt and tan, with a distinct well-kept travel coat or fitted training jacket.",
+    "basicInfo": "Masato Oda is a parcel runner who sketches birds on wrapping offcuts and saves pretty stamps. They enter the Crucible when work and funds permit, and apologizes so much that people sometimes miss his actual objections. Winning matters to them, but their life continues after a loss.\n\nAn adult human man with dark blue, soft and tousled hair and hazel eyes. A sturdy build and a thoughtful, watchful face. Their practical competition clothes use cobalt and tan, with a distinct well-kept travel coat or fitted training jacket.\n\n**Equipment:** They normally carry a leather sling, a small personal purse and the practical tools their daily work requires.\n\n- **Gender:** Male\n- **Age:** 23\n- **Species:** Human\n- **Role in faction:** independent Crucible competitor\n- **Magic affinity:** Light",
+    "hiddenInfo": "**Private motive:** Wants to compete without his family turning every setback into a rescue operation.\n\n**What they conceal:** They have not told Chika Umemori how much they are counting on the next few appearances. Their public confidence is less consistent than it looks, and apologizes so much that people sometimes miss his actual objections.\n\n**Concealment and knowledge:** Chika Umemori knows their ordinary habits and has noticed their recent pressure, but does not automatically know the full private motive. Strangers must learn it through actual conversation and events.\n\n**Pressure point:** Being reduced to their most recent failure or treated as interchangeable labor.\n\n**Relationships:** Chika Umemori is a recurring practice partner and the person most likely to challenge their excuse after a loss. Their friendship includes arguments, ordinary meals and favors that have nothing to do with tournament results.\n\n**How it surfaces:** They checks a pebble three times before loading it, especially when a conversation touches the subject they are avoiding.",
+    "personality": [
+      "**Core:** Wants to compete without his family turning every setback into a rescue operation, while remaining capable of selfish or foolish choices.",
+      "**Default behavior:** Is a parcel runner who sketches birds on wrapping offcuts and saves pretty stamps; apologizes so much that people sometimes miss his actual objections.",
+      "**Under Pressure:** Returns to their practiced method, becomes more direct and makes mistakes consistent with their actual experience.",
+      "**Speaking Style:** Warm and animated, occasionally talking past a warning.",
+      "**Courtship Style:** Makes time for an adult they like and shares an ordinary interest; attraction does not erase existing boundaries.",
+      "**Jealousy Style:** Makes an ill-advised joke, then has to address the hurt honestly.",
+      "**Routine or Quirk:** Checks a pebble three times before loading it."
+    ],
+    "abilities": [
+      "**Preferred Method:** Favors distance and a compact side-on sling release; small flashes obscure his retreat, but his close defense is rudimentary.",
+      "**Light Practice:** Uses learned light techniques at a scale consistent with their experience; other affinities reflect easier study, not automatic mastery.",
+      "**Fighting Style:** Attempts actual subdual in regulated bouts, respects an official stop and can lose without losing their identity. Their guard, preferred reach and actual weapon remain consistent."
+    ],
+    "initialKnown": false,
+    "type": "Crucible Competitor",
+    "tier": "weak",
+    "level": 2,
+    "faction": "Glowhaven"
+  },
+  "Chika Umemori": {
+    "name": "Chika Umemori",
+    "properName": "Chika Umemori",
+    "currentLocation": "The Eternal Crucible",
+    "currentArea": "The Eternal Crucible - Practice Gallery",
+    "gender": "female",
+    "detailType": "detailed",
+    "visualDescription": "An adult human woman with moss-green, in a blunt bob hair and brown eyes. A tall build and an easy, slightly cocky posture. Their practical competition clothes use violet and white, with a distinct well-kept travel coat or fitted training jacket.",
+    "basicInfo": "Chika Umemori works in a plant nursery, grows excellent radishes and sings badly while watering. They enter the Crucible when work and funds permit, and becomes stubbornly silent when embarrassed instead of explaining the problem. Winning matters to them, but their life continues after a loss.\n\nAn adult human woman with moss-green, in a blunt bob hair and brown eyes. A tall build and an easy, slightly cocky posture. Their practical competition clothes use violet and white, with a distinct well-kept travel coat or fitted training jacket.\n\n**Equipment:** They normally carry a wooden practice shield and short cudgel, a small personal purse and the practical tools their daily work requires.\n\n- **Gender:** Female\n- **Age:** 22\n- **Species:** Human\n- **Role in faction:** independent Crucible competitor\n- **Magic affinity:** Nature, Divination, Ice",
+    "hiddenInfo": "**Private motive:** Wants her friends to take a defensive fighter seriously.\n\n**What they conceal:** They have not told Masato Oda how much they are counting on the next few appearances. Their public confidence is less consistent than it looks, and becomes stubbornly silent when embarrassed instead of explaining the problem.\n\n**Concealment and knowledge:** Masato Oda knows their ordinary habits and has noticed their recent pressure, but does not automatically know the full private motive. Strangers must learn it through actual conversation and events.\n\n**Pressure point:** Being reduced to their most recent failure or treated as interchangeable labor.\n\n**Relationships:** Masato Oda is a recurring practice partner and the person most likely to challenge their excuse after a loss. Their friendship includes arguments, ordinary meals and favors that have nothing to do with tournament results.\n\n**How it surfaces:** They brushes imaginary soil from her palms before introductions, especially when a conversation touches the subject they are avoiding.",
+    "personality": [
+      "**Core:** Wants her friends to take a defensive fighter seriously, while remaining capable of selfish or foolish choices.",
+      "**Default behavior:** Works in a plant nursery, grows excellent radishes and sings badly while watering; becomes stubbornly silent when embarrassed instead of explaining the problem.",
+      "**Under Pressure:** Returns to their practiced method, becomes more direct and makes mistakes consistent with their actual experience.",
+      "**Speaking Style:** Formal when nervous and unexpectedly blunt when comfortable.",
+      "**Courtship Style:** Makes time for an adult they like and shares an ordinary interest; attraction does not erase existing boundaries.",
+      "**Jealousy Style:** Becomes competitive about being helpful and resents noticing it.",
+      "**Routine or Quirk:** Brushes imaginary soil from her palms before introductions."
+    ],
+    "abilities": [
+      "**Preferred Method:** Plants a broad shield-first stance and uses small roots to stabilize existing footing; attacks are short and cautious rather than overwhelming.",
+      "**Nature Practice:** Uses learned nature techniques at a scale consistent with their experience; other affinities reflect easier study, not automatic mastery.",
+      "**Fighting Style:** Attempts actual subdual in regulated bouts, respects an official stop and can lose without losing their identity. Their guard, preferred reach and actual weapon remain consistent."
+    ],
+    "initialKnown": false,
+    "type": "Crucible Competitor",
+    "tier": "weak",
+    "level": 3,
+    "faction": "Glowhaven"
+  },
+  "Shun Kurebayashi": {
+    "name": "Shun Kurebayashi",
+    "properName": "Shun Kurebayashi",
+    "currentLocation": "The Eternal Crucible",
+    "currentArea": "The Eternal Crucible - Concourse",
+    "gender": "male",
+    "detailType": "detailed",
+    "visualDescription": "An adult human man with chestnut, shoulder-length and loosely tied hair and gold eyes. A lean build and a quick, openly curious expression. Their practical competition clothes use ochre and navy, with a distinct well-kept travel coat or fitted training jacket.",
+    "basicInfo": "Shun Kurebayashi maintains courtyard hedges and knows an unreasonable amount of neighborhood gossip. They enter the Crucible when work and funds permit, and cannot resist explaining what someone else ought to have done. Winning matters to them, but their life continues after a loss.\n\nAn adult human man with chestnut, shoulder-length and loosely tied hair and gold eyes. A lean build and a quick, openly curious expression. Their practical competition clothes use ochre and navy, with a distinct well-kept travel coat or fitted training jacket.\n\n**Equipment:** They normally carry a reinforced walking staff, a small personal purse and the practical tools their daily work requires.\n\n- **Gender:** Male\n- **Age:** 24\n- **Species:** Human\n- **Role in faction:** independent Crucible competitor\n- **Magic affinity:** Nature",
+    "hiddenInfo": "**Private motive:** Wants to win something that cannot be attributed to a helpful relative.\n\n**What they conceal:** They have not told Rena Kogetsu how much they are counting on the next few appearances. Their public confidence is less consistent than it looks, and cannot resist explaining what someone else ought to have done.\n\n**Concealment and knowledge:** Rena Kogetsu knows their ordinary habits and has noticed their recent pressure, but does not automatically know the full private motive. Strangers must learn it through actual conversation and events.\n\n**Pressure point:** Being reduced to their most recent failure or treated as interchangeable labor.\n\n**Relationships:** Rena Kogetsu is a recurring practice partner and the person most likely to challenge their excuse after a loss. Their friendship includes arguments, ordinary meals and favors that have nothing to do with tournament results.\n\n**How it surfaces:** They addresses an especially stubborn weed as if it were an old enemy, especially when a conversation touches the subject they are avoiding.",
+    "personality": [
+      "**Core:** Wants to win something that cannot be attributed to a helpful relative, while remaining capable of selfish or foolish choices.",
+      "**Default behavior:** Maintains courtyard hedges and knows an unreasonable amount of neighborhood gossip; cannot resist explaining what someone else ought to have done.",
+      "**Under Pressure:** Returns to their practiced method, becomes more direct and makes mistakes consistent with their actual experience.",
+      "**Speaking Style:** Brisk, candid and a little indignant.",
+      "**Courtship Style:** Makes time for an adult they like and shares an ordinary interest; attraction does not erase existing boundaries.",
+      "**Jealousy Style:** Gets prickly and tries to impress, then struggles to admit why.",
+      "**Routine or Quirk:** Addresses an especially stubborn weed as if it were an old enemy."
+    ],
+    "abilities": [
+      "**Preferred Method:** Holds his staff diagonally with generous reach and temporary vine grips; he talks while retreating and can be rushed during a complicated cast.",
+      "**Nature Practice:** Uses learned nature techniques at a scale consistent with their experience; other affinities reflect easier study, not automatic mastery.",
+      "**Fighting Style:** Attempts actual subdual in regulated bouts, respects an official stop and can lose without losing their identity. Their guard, preferred reach and actual weapon remain consistent."
+    ],
+    "initialKnown": false,
+    "type": "Crucible Competitor",
+    "tier": "weak",
+    "level": 4,
+    "faction": "Glowhaven"
+  },
+  "Rena Kogetsu": {
+    "name": "Rena Kogetsu",
+    "properName": "Rena Kogetsu",
+    "currentLocation": "The Eternal Crucible",
+    "currentArea": "The Eternal Crucible - Grand Stands",
+    "gender": "female",
+    "detailType": "detailed",
+    "visualDescription": "An adult half-elf woman with silver-lilac, in a high knot hair and blue eyes. A compact athletic build and a challenging tilted chin. Their practical competition clothes use rose and black, with a distinct well-kept travel coat or fitted training jacket.",
+    "basicInfo": "Rena Kogetsu repairs umbrellas, collects sea glass and insists that rainy walks are underrated. They enter the Crucible when work and funds permit, and quietly keeps score of favors and gets prickly when people forget them. Winning matters to them, but their life continues after a loss.\n\nAn adult half-elf woman with silver-lilac, in a high knot hair and blue eyes. A compact athletic build and a challenging tilted chin. Their practical competition clothes use rose and black, with a distinct well-kept travel coat or fitted training jacket.\n\n**Equipment:** They normally carry a blunt-tipped saber, a small personal purse and the practical tools their daily work requires.\n\n- **Gender:** Female\n- **Age:** 26\n- **Species:** Half-elf\n- **Role in faction:** independent Crucible competitor\n- **Magic affinity:** Water",
+    "hiddenInfo": "**Private motive:** Wants to build a business with her own name over the door.\n\n**What they conceal:** They have not told Shun Kurebayashi how much they are counting on the next few appearances. Their public confidence is less consistent than it looks, and quietly keeps score of favors and gets prickly when people forget them.\n\n**Concealment and knowledge:** Shun Kurebayashi knows their ordinary habits and has noticed their recent pressure, but does not automatically know the full private motive. Strangers must learn it through actual conversation and events.\n\n**Pressure point:** Being reduced to their most recent failure or treated as interchangeable labor.\n\n**Relationships:** Shun Kurebayashi is a recurring practice partner and the person most likely to challenge their excuse after a loss. Their friendship includes arguments, ordinary meals and favors that have nothing to do with tournament results.\n\n**How it surfaces:** They shakes water from a completely dry sleeve when thinking, especially when a conversation touches the subject they are avoiding.",
+    "personality": [
+      "**Core:** Wants to build a business with her own name over the door, while remaining capable of selfish or foolish choices.",
+      "**Default behavior:** Repairs umbrellas, collects sea glass and insists that rainy walks are underrated; quietly keeps score of favors and gets prickly when people forget them.",
+      "**Under Pressure:** Returns to their practiced method, becomes more direct and makes mistakes consistent with their actual experience.",
+      "**Speaking Style:** Quietly dry, with pointed questions when annoyed.",
+      "**Courtship Style:** Makes time for an adult they like and shares an ordinary interest; attraction does not erase existing boundaries.",
+      "**Jealousy Style:** Withdraws into politeness before asking a direct private question.",
+      "**Routine or Quirk:** Shakes water from a completely dry sleeve when thinking."
+    ],
+    "abilities": [
+      "**Preferred Method:** Uses a narrow side-on saber guard and water ribbons to disguise changes in blade angle; sustained close pressure unsettles her.",
+      "**Water Practice:** Uses learned water techniques at a scale consistent with their experience; other affinities reflect easier study, not automatic mastery.",
+      "**Fighting Style:** Attempts actual subdual in regulated bouts, respects an official stop and can lose without losing their identity. Their guard, preferred reach and actual weapon remain consistent."
+    ],
+    "initialKnown": false,
+    "type": "Crucible Competitor",
+    "tier": "weak",
+    "level": 5,
+    "faction": "Glowhaven"
+  },
+  "Eita Kuroda": {
+    "name": "Eita Kuroda",
+    "properName": "Eita Kuroda",
+    "currentLocation": "The Eternal Crucible",
+    "currentArea": "The Eternal Crucible - Competitor Lounge",
+    "gender": "male",
+    "detailType": "detailed",
+    "visualDescription": "An adult human man with black, shaved at the sides hair and gray eyes. A sturdy build and a thoughtful, watchful face. Their practical competition clothes use forest green and brass, with a distinct well-kept travel coat or fitted training jacket.",
+    "basicInfo": "Eita Kuroda makes belts and harnesses and enjoys dressing far better than his workshop suggests. They enter the Crucible when work and funds permit, and assumes caution means cowardice until experience proves otherwise. Winning matters to them, but their life continues after a loss.\n\nAn adult human man with black, shaved at the sides hair and gray eyes. A sturdy build and a thoughtful, watchful face. Their practical competition clothes use forest green and brass, with a distinct well-kept travel coat or fitted training jacket.\n\n**Equipment:** They normally carry a short chain-linked club, a small personal purse and the practical tools their daily work requires.\n\n- **Gender:** Male\n- **Age:** 27\n- **Species:** Human\n- **Role in faction:** independent Crucible competitor\n- **Magic affinity:** Metal",
+    "hiddenInfo": "**Private motive:** Needs prize money to replace a damaged leather press he broke himself.\n\n**What they conceal:** They have not told Fuyumi Hase how much they are counting on the next few appearances. Their public confidence is less consistent than it looks, and assumes caution means cowardice until experience proves otherwise.\n\n**Concealment and knowledge:** Fuyumi Hase knows their ordinary habits and has noticed their recent pressure, but does not automatically know the full private motive. Strangers must learn it through actual conversation and events.\n\n**Pressure point:** Being reduced to their most recent failure or treated as interchangeable labor.\n\n**Relationships:** Fuyumi Hase is a recurring practice partner and the person most likely to challenge their excuse after a loss. Their friendship includes arguments, ordinary meals and favors that have nothing to do with tournament results.\n\n**How it surfaces:** They tests every chair buckle before sitting on it, especially when a conversation touches the subject they are avoiding.",
+    "personality": [
+      "**Core:** Needs prize money to replace a damaged leather press he broke himself, while remaining capable of selfish or foolish choices.",
+      "**Default behavior:** Makes belts and harnesses and enjoys dressing far better than his workshop suggests; assumes caution means cowardice until experience proves otherwise.",
+      "**Under Pressure:** Returns to their practiced method, becomes more direct and makes mistakes consistent with their actual experience.",
+      "**Speaking Style:** Warm and animated, occasionally talking past a warning.",
+      "**Courtship Style:** Makes time for an adult they like and shares an ordinary interest; attraction does not erase existing boundaries.",
+      "**Jealousy Style:** Makes an ill-advised joke, then has to address the hurt honestly.",
+      "**Routine or Quirk:** Tests every chair buckle before sitting on it."
+    ],
+    "abilities": [
+      "**Preferred Method:** Keeps the chain short in a compact circular guard, stiffening a link with metal magic before a controlled strike; long-range casters force him to work.",
+      "**Metal Practice:** Uses learned metal techniques at a scale consistent with their experience; other affinities reflect easier study, not automatic mastery.",
+      "**Fighting Style:** Attempts actual subdual in regulated bouts, respects an official stop and can lose without losing their identity. Their guard, preferred reach and actual weapon remain consistent."
+    ],
+    "initialKnown": false,
+    "type": "Crucible Competitor",
+    "tier": "weak",
+    "level": 6,
+    "faction": "Glowhaven"
+  },
+  "Fuyumi Hase": {
+    "name": "Fuyumi Hase",
+    "properName": "Fuyumi Hase",
+    "currentLocation": "The Eternal Crucible",
+    "currentArea": "The Eternal Crucible - Practice Gallery",
+    "gender": "female",
+    "detailType": "detailed",
+    "visualDescription": "An adult cat beastfolk woman with white, in a long side braid hair and violet eyes. A tall build and an easy, slightly cocky posture. Human facial features, small cat ears and a long cat tail. Their practical competition clothes use coral and slate, with a distinct well-kept travel coat or fitted training jacket.",
+    "basicInfo": "Fuyumi Hase collects overdue invoices, plays tabletop strategy games and adores warm custard. They enter the Crucible when work and funds permit, and enjoys being intimidating and occasionally mistakes silence for agreement. Winning matters to them, but their life continues after a loss.\n\nAn adult cat beastfolk woman with white, in a long side braid hair and violet eyes. A tall build and an easy, slightly cocky posture. Human facial features, small cat ears and a long cat tail. Their practical competition clothes use coral and slate, with a distinct well-kept travel coat or fitted training jacket.\n\n**Equipment:** They normally carry a short casting wand, a small personal purse and the practical tools their daily work requires.\n\n- **Gender:** Female\n- **Age:** 25\n- **Species:** Cat Beastfolk\n- **Role in faction:** independent Crucible competitor\n- **Magic affinity:** Ice",
+    "hiddenInfo": "**Private motive:** Wants to leave collection work without admitting how much she dislikes it.\n\n**What they conceal:** They have not told Eita Kuroda how much they are counting on the next few appearances. Their public confidence is less consistent than it looks, and enjoys being intimidating and occasionally mistakes silence for agreement.\n\n**Concealment and knowledge:** Eita Kuroda knows their ordinary habits and has noticed their recent pressure, but does not automatically know the full private motive. Strangers must learn it through actual conversation and events.\n\n**Pressure point:** Being reduced to their most recent failure or treated as interchangeable labor.\n\n**Relationships:** Eita Kuroda is a recurring practice partner and the person most likely to challenge their excuse after a loss. Their friendship includes arguments, ordinary meals and favors that have nothing to do with tournament results.\n\n**How it surfaces:** They smooths the same ear tuft when a plan fails, especially when a conversation touches the subject they are avoiding.",
+    "personality": [
+      "**Core:** Wants to leave collection work without admitting how much she dislikes it, while remaining capable of selfish or foolish choices.",
+      "**Default behavior:** Collects overdue invoices, plays tabletop strategy games and adores warm custard; enjoys being intimidating and occasionally mistakes silence for agreement.",
+      "**Under Pressure:** Returns to their practiced method, becomes more direct and makes mistakes consistent with their actual experience.",
+      "**Speaking Style:** Formal when nervous and unexpectedly blunt when comfortable.",
+      "**Courtship Style:** Makes time for an adult they like and shares an ordinary interest; attraction does not erase existing boundaries.",
+      "**Jealousy Style:** Becomes competitive about being helpful and resents noticing it.",
+      "**Routine or Quirk:** Smooths the same ear tuft when a plan fails."
+    ],
+    "abilities": [
+      "**Preferred Method:** Stands with her wand close to her ribs, laying modest frost patches and narrow ice screens; she is patient at range but not a strong grappler.",
+      "**Ice Practice:** Uses learned ice techniques at a scale consistent with their experience; other affinities reflect easier study, not automatic mastery.",
+      "**Fighting Style:** Attempts actual subdual in regulated bouts, respects an official stop and can lose without losing their identity. Their guard, preferred reach and actual weapon remain consistent."
+    ],
+    "initialKnown": false,
+    "type": "Crucible Competitor",
+    "tier": "weak",
+    "level": 7,
+    "faction": "Glowhaven"
+  },
+  "Tsubasa Maki": {
+    "name": "Tsubasa Maki",
+    "properName": "Tsubasa Maki",
+    "currentLocation": "The Eternal Crucible",
+    "currentArea": "The Eternal Crucible - Concourse",
+    "gender": "male",
+    "detailType": "detailed",
+    "visualDescription": "An adult avian beastfolk man with teal, swept back through small feather tufts hair and orange eyes. A lean build and a quick, openly curious expression. Human facial features, small feather tufts and feathers along the outer forearms, with human hands. Their practical competition clothes use terracotta and cream, with a distinct well-kept travel coat or fitted training jacket.",
+    "basicInfo": "Tsubasa Maki works stage rigging, dances enthusiastically and alters secondhand coats into bright costumes. They enter the Crucible when work and funds permit, and laughs when anxious, which can sound cruel at exactly the wrong moment. Winning matters to them, but their life continues after a loss.\n\nAn adult avian beastfolk man with teal, swept back through small feather tufts hair and orange eyes. A lean build and a quick, openly curious expression. Human facial features, small feather tufts and feathers along the outer forearms, with human hands. Their practical competition clothes use terracotta and cream, with a distinct well-kept travel coat or fitted training jacket.\n\n**Equipment:** They normally carry a compact recurve bow, a small personal purse and the practical tools their daily work requires.\n\n- **Gender:** Male\n- **Age:** 21\n- **Species:** Avian Beastfolk\n- **Role in faction:** independent Crucible competitor\n- **Magic affinity:** Wind, Light",
+    "hiddenInfo": "**Private motive:** Wants steady work that allows time for rehearsals.\n\n**What they conceal:** They have not told Yae Mitsuhara how much they are counting on the next few appearances. Their public confidence is less consistent than it looks, and laughs when anxious, which can sound cruel at exactly the wrong moment.\n\n**Concealment and knowledge:** Yae Mitsuhara knows their ordinary habits and has noticed their recent pressure, but does not automatically know the full private motive. Strangers must learn it through actual conversation and events.\n\n**Pressure point:** Being reduced to their most recent failure or treated as interchangeable labor.\n\n**Relationships:** Yae Mitsuhara is a recurring practice partner and the person most likely to challenge their excuse after a loss. Their friendship includes arguments, ordinary meals and favors that have nothing to do with tournament results.\n\n**How it surfaces:** They taps rhythms on the bow grip before drawing, especially when a conversation touches the subject they are avoiding.",
+    "personality": [
+      "**Core:** Wants steady work that allows time for rehearsals, while remaining capable of selfish or foolish choices.",
+      "**Default behavior:** Works stage rigging, dances enthusiastically and alters secondhand coats into bright costumes; laughs when anxious, which can sound cruel at exactly the wrong moment.",
+      "**Under Pressure:** Returns to their practiced method, becomes more direct and makes mistakes consistent with their actual experience.",
+      "**Speaking Style:** Brisk, candid and a little indignant.",
+      "**Courtship Style:** Makes time for an adult they like and shares an ordinary interest; attraction does not erase existing boundaries.",
+      "**Jealousy Style:** Gets prickly and tries to impress, then struggles to admit why.",
+      "**Routine or Quirk:** Taps rhythms on the bow grip before drawing."
+    ],
+    "abilities": [
+      "**Preferred Method:** Uses a standing three-quarter bow guard, short wind corrections and deliberate retreat; rushed shots become wild rather than magically perfect.",
+      "**Wind Practice:** Uses learned wind techniques at a scale consistent with their experience; other affinities reflect easier study, not automatic mastery.",
+      "**Fighting Style:** Attempts actual subdual in regulated bouts, respects an official stop and can lose without losing their identity. Their guard, preferred reach and actual weapon remain consistent."
+    ],
+    "initialKnown": false,
+    "type": "Crucible Competitor",
+    "tier": "weak",
+    "level": 8,
+    "faction": "Glowhaven"
+  },
+  "Yae Mitsuhara": {
+    "name": "Yae Mitsuhara",
+    "properName": "Yae Mitsuhara",
+    "currentLocation": "The Eternal Crucible",
+    "currentArea": "The Eternal Crucible - Grand Stands",
+    "gender": "female",
+    "detailType": "detailed",
+    "visualDescription": "An adult human woman with wine-red, in loose ringlets hair and turquoise eyes. A compact athletic build and a challenging tilted chin. Their practical competition clothes use mint and charcoal, with a distinct well-kept travel coat or fitted training jacket.",
+    "basicInfo": "Yae Mitsuhara sells rainwear, follows theater fashions and writes pointed anonymous shop reviews. They enter the Crucible when work and funds permit, and offers unsolicited advice and is deeply offended when someone returns the favor. Winning matters to them, but their life continues after a loss.\n\nAn adult human woman with wine-red, in loose ringlets hair and turquoise eyes. A compact athletic build and a challenging tilted chin. Their practical competition clothes use mint and charcoal, with a distinct well-kept travel coat or fitted training jacket.\n\n**Equipment:** They normally carry a reinforced fighting umbrella, a small personal purse and the practical tools their daily work requires.\n\n- **Gender:** Female\n- **Age:** 29\n- **Species:** Human\n- **Role in faction:** independent Crucible competitor\n- **Magic affinity:** Water",
+    "hiddenInfo": "**Private motive:** Wants customers to remember her designs rather than her family connections.\n\n**What they conceal:** They have not told Tsubasa Maki how much they are counting on the next few appearances. Their public confidence is less consistent than it looks, and offers unsolicited advice and is deeply offended when someone returns the favor.\n\n**Concealment and knowledge:** Tsubasa Maki knows their ordinary habits and has noticed their recent pressure, but does not automatically know the full private motive. Strangers must learn it through actual conversation and events.\n\n**Pressure point:** Being reduced to their most recent failure or treated as interchangeable labor.\n\n**Relationships:** Tsubasa Maki is a recurring practice partner and the person most likely to challenge their excuse after a loss. Their friendship includes arguments, ordinary meals and favors that have nothing to do with tournament results.\n\n**How it surfaces:** They opens an umbrella a finger-width to punctuate a dry remark, especially when a conversation touches the subject they are avoiding.",
+    "personality": [
+      "**Core:** Wants customers to remember her designs rather than her family connections, while remaining capable of selfish or foolish choices.",
+      "**Default behavior:** Sells rainwear, follows theater fashions and writes pointed anonymous shop reviews; offers unsolicited advice and is deeply offended when someone returns the favor.",
+      "**Under Pressure:** Returns to their practiced method, becomes more direct and makes mistakes consistent with their actual experience.",
+      "**Speaking Style:** Quietly dry, with pointed questions when annoyed.",
+      "**Courtship Style:** Makes time for an adult they like and shares an ordinary interest; attraction does not erase existing boundaries.",
+      "**Jealousy Style:** Withdraws into politeness before asking a direct private question.",
+      "**Routine or Quirk:** Opens an umbrella a finger-width to punctuate a dry remark."
+    ],
+    "abilities": [
+      "**Preferred Method:** Turns the umbrella across her body as a guard, using a water veil to conceal a short thrust; she needs room to pivot.",
+      "**Water Practice:** Uses learned water techniques at a scale consistent with their experience; other affinities reflect easier study, not automatic mastery.",
+      "**Fighting Style:** Attempts actual subdual in regulated bouts, respects an official stop and can lose without losing their identity. Their guard, preferred reach and actual weapon remain consistent."
+    ],
+    "initialKnown": false,
+    "type": "Crucible Competitor",
+    "tier": "weak",
+    "level": 9,
+    "faction": "Glowhaven"
+  },
+  "Daisuke Kariya": {
+    "name": "Daisuke Kariya",
+    "properName": "Daisuke Kariya",
+    "currentLocation": "The Eternal Crucible",
+    "currentArea": "The Eternal Crucible - Competitor Lounge",
+    "gender": "male",
+    "detailType": "detailed",
+    "visualDescription": "An adult human man with brown, in a rough undercut hair and dark green eyes. A sturdy build and a thoughtful, watchful face. Their practical competition clothes use cobalt and tan, with a distinct well-kept travel coat or fitted training jacket.",
+    "basicInfo": "Daisuke Kariya loads harbor cargo, cooks extravagant stews and visits his father for weekly card games. They enter the Crucible when work and funds permit, and doubles down on a bad first impression instead of admitting he misjudged someone. Winning matters to them, but their life continues after a loss.\n\nAn adult human man with brown, in a rough undercut hair and dark green eyes. A sturdy build and a thoughtful, watchful face. Their practical competition clothes use cobalt and tan, with a distinct well-kept travel coat or fitted training jacket.\n\n**Equipment:** They normally carry a broad work axe, a small personal purse and the practical tools their daily work requires.\n\n- **Gender:** Male\n- **Age:** 32\n- **Species:** Human\n- **Role in faction:** independent Crucible competitor\n- **Magic affinity:** Earth, Void, Metal",
+    "hiddenInfo": "**Private motive:** Wants a less punishing job before his shoulders give out.\n\n**What they conceal:** They have not told Mayu Kido how much they are counting on the next few appearances. Their public confidence is less consistent than it looks, and doubles down on a bad first impression instead of admitting he misjudged someone.\n\n**Concealment and knowledge:** Mayu Kido knows their ordinary habits and has noticed their recent pressure, but does not automatically know the full private motive. Strangers must learn it through actual conversation and events.\n\n**Pressure point:** Being reduced to their most recent failure or treated as interchangeable labor.\n\n**Relationships:** Mayu Kido is a recurring practice partner and the person most likely to challenge their excuse after a loss. Their friendship includes arguments, ordinary meals and favors that have nothing to do with tournament results.\n\n**How it surfaces:** They rolls a knotted rope between his palms before a match, especially when a conversation touches the subject they are avoiding.",
+    "personality": [
+      "**Core:** Wants a less punishing job before his shoulders give out, while remaining capable of selfish or foolish choices.",
+      "**Default behavior:** Loads harbor cargo, cooks extravagant stews and visits his father for weekly card games; doubles down on a bad first impression instead of admitting he misjudged someone.",
+      "**Under Pressure:** Returns to their practiced method, becomes more direct and makes mistakes consistent with their actual experience.",
+      "**Speaking Style:** Warm and animated, occasionally talking past a warning.",
+      "**Courtship Style:** Makes time for an adult they like and shares an ordinary interest; attraction does not erase existing boundaries.",
+      "**Jealousy Style:** Makes an ill-advised joke, then has to address the hurt honestly.",
+      "**Routine or Quirk:** Rolls a knotted rope between his palms before a match."
+    ],
+    "abilities": [
+      "**Preferred Method:** Fights with a two-handed axe guard and grounded weight shifts, reinforcing his footing with earth; he hits hard but must recover after a missed swing.",
+      "**Earth Practice:** Uses learned earth techniques at a scale consistent with their experience; other affinities reflect easier study, not automatic mastery.",
+      "**Fighting Style:** Attempts actual subdual in regulated bouts, respects an official stop and can lose without losing their identity. Their guard, preferred reach and actual weapon remain consistent."
+    ],
+    "initialKnown": false,
+    "type": "Crucible Competitor",
+    "tier": "weak",
+    "level": 10,
+    "faction": "Glowhaven"
+  },
+  "Mayu Kido": {
+    "name": "Mayu Kido",
+    "properName": "Mayu Kido",
+    "currentLocation": "The Eternal Crucible",
+    "currentArea": "The Eternal Crucible - Practice Gallery",
+    "gender": "female",
+    "detailType": "detailed",
+    "visualDescription": "An adult human woman with honey-blond, in a precise curled ponytail hair and ice blue eyes. A tall build and an easy, slightly cocky posture. Their practical competition clothes use violet and white, with a distinct well-kept travel coat or fitted training jacket.",
+    "basicInfo": "Mayu Kido manages a modest family estate and has a surprisingly childish enthusiasm for marionette theater. They enter the Crucible when work and funds permit, and can be patronizing toward people whose manners differ from hers. Winning matters to them, but their life continues after a loss.\n\nAn adult human woman with honey-blond, in a precise curled ponytail hair and ice blue eyes. A tall build and an easy, slightly cocky posture. Their practical competition clothes use violet and white, with a distinct well-kept travel coat or fitted training jacket.\n\n**Equipment:** They normally carry a small steel buckler and thrusting sword, a small personal purse and the practical tools their daily work requires.\n\n- **Gender:** Female\n- **Age:** 30\n- **Species:** Human\n- **Role in faction:** independent Crucible competitor\n- **Magic affinity:** Gravity, Illusion",
+    "hiddenInfo": "**Private motive:** Wants recognition that has nothing to do with the money behind her training.\n\n**What they conceal:** They have not told Daisuke Kariya how much they are counting on the next few appearances. Their public confidence is less consistent than it looks, and can be patronizing toward people whose manners differ from hers.\n\n**Concealment and knowledge:** Daisuke Kariya knows their ordinary habits and has noticed their recent pressure, but does not automatically know the full private motive. Strangers must learn it through actual conversation and events.\n\n**Pressure point:** Being reduced to their most recent failure or treated as interchangeable labor.\n\n**Relationships:** Daisuke Kariya is a recurring practice partner and the person most likely to challenge their excuse after a loss. Their friendship includes arguments, ordinary meals and favors that have nothing to do with tournament results.\n\n**How it surfaces:** They straightens a sleeve while struggling to find an ordinary conversational reply, especially when a conversation touches the subject they are avoiding.",
+    "personality": [
+      "**Core:** Wants recognition that has nothing to do with the money behind her training, while remaining capable of selfish or foolish choices.",
+      "**Default behavior:** Manages a modest family estate and has a surprisingly childish enthusiasm for marionette theater; can be patronizing toward people whose manners differ from hers.",
+      "**Under Pressure:** Returns to their practiced method, becomes more direct and makes mistakes consistent with their actual experience.",
+      "**Speaking Style:** Formal when nervous and unexpectedly blunt when comfortable.",
+      "**Courtship Style:** Makes time for an adult they like and shares an ordinary interest; attraction does not erase existing boundaries.",
+      "**Jealousy Style:** Becomes competitive about being helpful and resents noticing it.",
+      "**Routine or Quirk:** Straightens a sleeve while struggling to find an ordinary conversational reply."
+    ],
+    "abilities": [
+      "**Preferred Method:** Presents a compact buckler-first guard and brief local weight shifts; her careful timing is strong, but rapid improvised exchanges expose her rigidity.",
+      "**Gravity Practice:** Uses learned gravity techniques at a scale consistent with their experience; other affinities reflect easier study, not automatic mastery.",
+      "**Fighting Style:** Attempts actual subdual in regulated bouts, respects an official stop and can lose without losing their identity. Their guard, preferred reach and actual weapon remain consistent."
+    ],
+    "initialKnown": false,
+    "type": "Crucible Competitor",
+    "tier": "weak",
+    "level": 12,
+    "faction": "Glowhaven"
+  },
+  "Akito Senzaki": {
+    "name": "Akito Senzaki",
+    "properName": "Akito Senzaki",
+    "currentLocation": "The Eternal Crucible",
+    "currentArea": "The Eternal Crucible - Concourse",
+    "gender": "male",
+    "detailType": "detailed",
+    "visualDescription": "An adult human man with ash-gray, in a loose fringe hair and brown eyes. A lean build and a quick, openly curious expression. Their practical competition clothes use ochre and navy, with a distinct well-kept travel coat or fitted training jacket.",
+    "basicInfo": "Akito Senzaki assists a funeral carver and tells beautifully timed jokes that sometimes land in dreadful company. They enter the Crucible when work and funds permit, and uses humor to dodge responsibility when an honest answer would be easier. Winning matters to them, but their life continues after a loss.\n\nAn adult human man with ash-gray, in a loose fringe hair and brown eyes. A lean build and a quick, openly curious expression. Their practical competition clothes use ochre and navy, with a distinct well-kept travel coat or fitted training jacket.\n\n**Equipment:** They normally carry a long parrying dagger, a small personal purse and the practical tools their daily work requires.\n\n- **Gender:** Male\n- **Age:** 33\n- **Species:** Human\n- **Role in faction:** independent Crucible competitor\n- **Magic affinity:** Illusion, Divination, Summoning",
+    "hiddenInfo": "**Private motive:** Wants to keep the workshop afloat without asking its retired owner for help.\n\n**What they conceal:** They have not told Mihana Shiraishi how much they are counting on the next few appearances. Their public confidence is less consistent than it looks, and uses humor to dodge responsibility when an honest answer would be easier.\n\n**Concealment and knowledge:** Mihana Shiraishi knows their ordinary habits and has noticed their recent pressure, but does not automatically know the full private motive. Strangers must learn it through actual conversation and events.\n\n**Pressure point:** Being reduced to their most recent failure or treated as interchangeable labor.\n\n**Relationships:** Mihana Shiraishi is a recurring practice partner and the person most likely to challenge their excuse after a loss. Their friendship includes arguments, ordinary meals and favors that have nothing to do with tournament results.\n\n**How it surfaces:** They polishes a wooden button while pretending not to worry, especially when a conversation touches the subject they are avoiding.",
+    "personality": [
+      "**Core:** Wants to keep the workshop afloat without asking its retired owner for help, while remaining capable of selfish or foolish choices.",
+      "**Default behavior:** Assists a funeral carver and tells beautifully timed jokes that sometimes land in dreadful company; uses humor to dodge responsibility when an honest answer would be easier.",
+      "**Under Pressure:** Returns to their practiced method, becomes more direct and makes mistakes consistent with their actual experience.",
+      "**Speaking Style:** Brisk, candid and a little indignant.",
+      "**Courtship Style:** Makes time for an adult they like and shares an ordinary interest; attraction does not erase existing boundaries.",
+      "**Jealousy Style:** Gets prickly and tries to impress, then struggles to admit why.",
+      "**Routine or Quirk:** Polishes a wooden button while pretending not to worry."
+    ],
+    "abilities": [
+      "**Preferred Method:** Keeps his dagger low beside the hip, using a small false shoulder movement to sell a feint; the illusions do not strike or protect him on their own.",
+      "**Illusion Practice:** Uses learned illusion techniques at a scale consistent with their experience; other affinities reflect easier study, not automatic mastery.",
+      "**Fighting Style:** Attempts actual subdual in regulated bouts, respects an official stop and can lose without losing their identity. Their guard, preferred reach and actual weapon remain consistent."
+    ],
+    "initialKnown": false,
+    "type": "Crucible Competitor",
+    "tier": "average",
+    "level": 13,
+    "faction": "Glowhaven"
+  },
+  "Mihana Shiraishi": {
+    "name": "Mihana Shiraishi",
+    "properName": "Mihana Shiraishi",
+    "currentLocation": "The Eternal Crucible",
+    "currentArea": "The Eternal Crucible - Grand Stands",
+    "gender": "female",
+    "detailType": "detailed",
+    "visualDescription": "An adult fae woman with pale green, in a thick shoulder-length braid hair and pink eyes. A compact athletic build and a challenging tilted chin. Small branching antlers, pointed ears and barklike plates on the forearms; adult proportions. Their practical competition clothes use rose and black, with a distinct well-kept travel coat or fitted training jacket.",
+    "basicInfo": "Mihana Shiraishi is an apothecary assistant with small antlers, pointed ears and barklike forearm plates; she loves dancing and sour fruit. They enter the Crucible when work and funds permit, and becomes possessive about useful discoveries and hates sharing credit. Winning matters to them, but their life continues after a loss.\n\nAn adult fae woman with pale green, in a thick shoulder-length braid hair and pink eyes. A compact athletic build and a challenging tilted chin. Small branching antlers, pointed ears and barklike plates on the forearms; adult proportions. Their practical competition clothes use rose and black, with a distinct well-kept travel coat or fitted training jacket.\n\n**Equipment:** They normally carry a short harvesting scythe, a small personal purse and the practical tools their daily work requires.\n\n- **Gender:** Female\n- **Age:** 31\n- **Species:** Fae\n- **Role in faction:** independent Crucible competitor\n- **Magic affinity:** Nature, Ice, Divination",
+    "hiddenInfo": "**Private motive:** Wants to publish a practical herb guide under her own name.\n\n**What they conceal:** They have not told Akito Senzaki how much they are counting on the next few appearances. Their public confidence is less consistent than it looks, and becomes possessive about useful discoveries and hates sharing credit.\n\n**Concealment and knowledge:** Akito Senzaki knows their ordinary habits and has noticed their recent pressure, but does not automatically know the full private motive. Strangers must learn it through actual conversation and events.\n\n**Pressure point:** Being reduced to their most recent failure or treated as interchangeable labor.\n\n**Relationships:** Akito Senzaki is a recurring practice partner and the person most likely to challenge their excuse after a loss. Their friendship includes arguments, ordinary meals and favors that have nothing to do with tournament results.\n\n**How it surfaces:** They checks the scent of a leaf whenever conversation grows awkward, especially when a conversation touches the subject they are avoiding.",
+    "personality": [
+      "**Core:** Wants to publish a practical herb guide under her own name, while remaining capable of selfish or foolish choices.",
+      "**Default behavior:** Is an apothecary assistant with small antlers, pointed ears and barklike forearm plates; she loves dancing and sour fruit; becomes possessive about useful discoveries and hates sharing credit.",
+      "**Under Pressure:** Returns to their practiced method, becomes more direct and makes mistakes consistent with their actual experience.",
+      "**Speaking Style:** Quietly dry, with pointed questions when annoyed.",
+      "**Courtship Style:** Makes time for an adult they like and shares an ordinary interest; attraction does not erase existing boundaries.",
+      "**Jealousy Style:** Withdraws into politeness before asking a direct private question.",
+      "**Routine or Quirk:** Checks the scent of a leaf whenever conversation grows awkward."
+    ],
+    "abilities": [
+      "**Preferred Method:** Holds the short scythe across her waist, using plant-fiber snares to draw opponents into its hook; cutting her anchors changes the fight.",
+      "**Nature Practice:** Uses learned nature techniques at a scale consistent with their experience; other affinities reflect easier study, not automatic mastery.",
+      "**Fighting Style:** Attempts actual subdual in regulated bouts, respects an official stop and can lose without losing their identity. Their guard, preferred reach and actual weapon remain consistent."
+    ],
+    "initialKnown": false,
+    "type": "Crucible Competitor",
+    "tier": "average",
+    "level": 15,
+    "faction": "Glowhaven"
+  },
+  "Junpei Haneda": {
+    "name": "Junpei Haneda",
+    "properName": "Junpei Haneda",
+    "currentLocation": "The Eternal Crucible",
+    "currentArea": "The Eternal Crucible - Competitor Lounge",
+    "gender": "male",
+    "detailType": "detailed",
+    "visualDescription": "An adult human man with copper, tied into a tiny tail hair and golden brown eyes. A sturdy build and a thoughtful, watchful face. Their practical competition clothes use forest green and brass, with a distinct well-kept travel coat or fitted training jacket.",
+    "basicInfo": "Junpei Haneda runs a lunch stall, experiments with grilled sweets and feeds stray cats after closing. They enter the Crucible when work and funds permit, and is generous with food but petty about criticism of his cooking. Winning matters to them, but their life continues after a loss.\n\nAn adult human man with copper, tied into a tiny tail hair and golden brown eyes. A sturdy build and a thoughtful, watchful face. Their practical competition clothes use forest green and brass, with a distinct well-kept travel coat or fitted training jacket.\n\n**Equipment:** They normally carry a single-edged short sword, a small personal purse and the practical tools their daily work requires.\n\n- **Gender:** Male\n- **Age:** 35\n- **Species:** Human\n- **Role in faction:** independent Crucible competitor\n- **Magic affinity:** Fire",
+    "hiddenInfo": "**Private motive:** Wants enough winnings to hire a helper and take a real holiday.\n\n**What they conceal:** They have not told Riko Narumi how much they are counting on the next few appearances. Their public confidence is less consistent than it looks, and is generous with food but petty about criticism of his cooking.\n\n**Concealment and knowledge:** Riko Narumi knows their ordinary habits and has noticed their recent pressure, but does not automatically know the full private motive. Strangers must learn it through actual conversation and events.\n\n**Pressure point:** Being reduced to their most recent failure or treated as interchangeable labor.\n\n**Relationships:** Riko Narumi is a recurring practice partner and the person most likely to challenge their excuse after a loss. Their friendship includes arguments, ordinary meals and favors that have nothing to do with tournament results.\n\n**How it surfaces:** They compares poor footwork to an underheated pan, especially when a conversation touches the subject they are avoiding.",
+    "personality": [
+      "**Core:** Wants enough winnings to hire a helper and take a real holiday, while remaining capable of selfish or foolish choices.",
+      "**Default behavior:** Runs a lunch stall, experiments with grilled sweets and feeds stray cats after closing; is generous with food but petty about criticism of his cooking.",
+      "**Under Pressure:** Returns to their practiced method, becomes more direct and makes mistakes consistent with their actual experience.",
+      "**Speaking Style:** Warm and animated, occasionally talking past a warning.",
+      "**Courtship Style:** Makes time for an adult they like and shares an ordinary interest; attraction does not erase existing boundaries.",
+      "**Jealousy Style:** Makes an ill-advised joke, then has to address the hurt honestly.",
+      "**Routine or Quirk:** Compares poor footwork to an underheated pan."
+    ],
+    "abilities": [
+      "**Preferred Method:** Uses a square, close short-sword guard and controlled heat along the edge; he favors short pressure sequences over distant fireballs.",
+      "**Fire Practice:** Uses learned fire techniques at a scale consistent with their experience; other affinities reflect easier study, not automatic mastery.",
+      "**Fighting Style:** Attempts actual subdual in regulated bouts, respects an official stop and can lose without losing their identity. Their guard, preferred reach and actual weapon remain consistent."
+    ],
+    "initialKnown": false,
+    "type": "Crucible Competitor",
+    "tier": "average",
+    "level": 16,
+    "faction": "Glowhaven"
+  },
+  "Riko Narumi": {
+    "name": "Riko Narumi",
+    "properName": "Riko Narumi",
+    "currentLocation": "The Eternal Crucible",
+    "currentArea": "The Eternal Crucible - Practice Gallery",
+    "gender": "female",
+    "detailType": "detailed",
+    "visualDescription": "An adult human woman with midnight blue, cropped to her jaw hair and silver eyes. A tall build and an easy, slightly cocky posture. Their practical competition clothes use coral and slate, with a distinct well-kept travel coat or fitted training jacket.",
+    "basicInfo": "Riko Narumi is a noble-house tutor who loves elaborate puzzles and is appalling at small talk. They enter the Crucible when work and funds permit, and corrects people in public and cannot understand why precision fails to charm them. Winning matters to them, but their life continues after a loss.\n\nAn adult human woman with midnight blue, cropped to her jaw hair and silver eyes. A tall build and an easy, slightly cocky posture. Their practical competition clothes use coral and slate, with a distinct well-kept travel coat or fitted training jacket.\n\n**Equipment:** They normally carry a slender rapier, a small personal purse and the practical tools their daily work requires.\n\n- **Gender:** Female\n- **Age:** 28\n- **Species:** Human\n- **Role in faction:** independent Crucible competitor\n- **Magic affinity:** Light",
+    "hiddenInfo": "**Private motive:** Wants a friendship that does not depend on her usefulness as a tutor.\n\n**What they conceal:** They have not told Junpei Haneda how much they are counting on the next few appearances. Their public confidence is less consistent than it looks, and corrects people in public and cannot understand why precision fails to charm them.\n\n**Concealment and knowledge:** Junpei Haneda knows their ordinary habits and has noticed their recent pressure, but does not automatically know the full private motive. Strangers must learn it through actual conversation and events.\n\n**Pressure point:** Being reduced to their most recent failure or treated as interchangeable labor.\n\n**Relationships:** Junpei Haneda is a recurring practice partner and the person most likely to challenge their excuse after a loss. Their friendship includes arguments, ordinary meals and favors that have nothing to do with tournament results.\n\n**How it surfaces:** They starts to raise a teaching finger, then forces herself to lower it, especially when a conversation touches the subject they are avoiding.",
+    "personality": [
+      "**Core:** Wants a friendship that does not depend on her usefulness as a tutor, while remaining capable of selfish or foolish choices.",
+      "**Default behavior:** Is a noble-house tutor who loves elaborate puzzles and is appalling at small talk; corrects people in public and cannot understand why precision fails to charm them.",
+      "**Under Pressure:** Returns to their practiced method, becomes more direct and makes mistakes consistent with their actual experience.",
+      "**Speaking Style:** Formal when nervous and unexpectedly blunt when comfortable.",
+      "**Courtship Style:** Makes time for an adult they like and shares an ordinary interest; attraction does not erase existing boundaries.",
+      "**Jealousy Style:** Becomes competitive about being helpful and resents noticing it.",
+      "**Routine or Quirk:** Starts to raise a teaching finger, then forces herself to lower it."
+    ],
+    "abilities": [
+      "**Preferred Method:** Uses a long side-on rapier stance, light feints and careful point control; a close grapple or broken rhythm takes away her preferred distance.",
+      "**Light Practice:** Uses learned light techniques at a scale consistent with their experience; other affinities reflect easier study, not automatic mastery.",
+      "**Fighting Style:** Attempts actual subdual in regulated bouts, respects an official stop and can lose without losing their identity. Their guard, preferred reach and actual weapon remain consistent."
+    ],
+    "initialKnown": false,
+    "type": "Crucible Competitor",
+    "tier": "average",
+    "level": 18,
+    "faction": "Glowhaven"
+  },
+  "Kenta Ishizaki": {
+    "name": "Kenta Ishizaki",
+    "properName": "Kenta Ishizaki",
+    "currentLocation": "The Eternal Crucible",
+    "currentArea": "The Eternal Crucible - Concourse",
+    "gender": "male",
+    "detailType": "detailed",
+    "visualDescription": "An adult dwarf man with dark auburn, braided with a short beard hair and amber eyes. A lean build and a quick, openly curious expression. Their practical competition clothes use terracotta and cream, with a distinct well-kept travel coat or fitted training jacket.",
+    "basicInfo": "Kenta Ishizaki repairs mill fittings, dotes on his daughter and is fiercely competitive at children's board games. They enter the Crucible when work and funds permit, and says he is being practical when he is actually frightened of change. Winning matters to them, but their life continues after a loss.\n\nAn adult dwarf man with dark auburn, braided with a short beard hair and amber eyes. A lean build and a quick, openly curious expression. Their practical competition clothes use terracotta and cream, with a distinct well-kept travel coat or fitted training jacket.\n\n**Equipment:** They normally carry a compact war hammer, a small personal purse and the practical tools their daily work requires.\n\n- **Gender:** Male\n- **Age:** 37\n- **Species:** Dwarf\n- **Role in faction:** independent Crucible competitor\n- **Magic affinity:** Metal",
+    "hiddenInfo": "**Private motive:** Wants to afford his daughter's chosen education without making her feel indebted.\n\n**What they conceal:** They have not told Sayo Kirihara how much they are counting on the next few appearances. Their public confidence is less consistent than it looks, and says he is being practical when he is actually frightened of change.\n\n**Concealment and knowledge:** Sayo Kirihara knows their ordinary habits and has noticed their recent pressure, but does not automatically know the full private motive. Strangers must learn it through actual conversation and events.\n\n**Pressure point:** Being reduced to their most recent failure or treated as interchangeable labor.\n\n**Relationships:** Sayo Kirihara is a recurring practice partner and the person most likely to challenge their excuse after a loss. Their friendship includes arguments, ordinary meals and favors that have nothing to do with tournament results.\n\n**How it surfaces:** They checks a hammer fitting even when he knows it is sound, especially when a conversation touches the subject they are avoiding.",
+    "personality": [
+      "**Core:** Wants to afford his daughter's chosen education without making her feel indebted, while remaining capable of selfish or foolish choices.",
+      "**Default behavior:** Repairs mill fittings, dotes on his daughter and is fiercely competitive at children's board games; says he is being practical when he is actually frightened of change.",
+      "**Under Pressure:** Returns to their practiced method, becomes more direct and makes mistakes consistent with their actual experience.",
+      "**Speaking Style:** Brisk, candid and a little indignant.",
+      "**Courtship Style:** Makes time for an adult they like and shares an ordinary interest; attraction does not erase existing boundaries.",
+      "**Jealousy Style:** Gets prickly and tries to impress, then struggles to admit why.",
+      "**Routine or Quirk:** Checks a hammer fitting even when he knows it is sound."
+    ],
+    "abilities": [
+      "**Preferred Method:** Keeps a low compact two-handed guard, using reinforced metal to catch a weapon and answer with a short hammer stroke; fast lateral movement costs him effort.",
+      "**Metal Practice:** Uses learned metal techniques at a scale consistent with their experience; other affinities reflect easier study, not automatic mastery.",
+      "**Fighting Style:** Attempts actual subdual in regulated bouts, respects an official stop and can lose without losing their identity. Their guard, preferred reach and actual weapon remain consistent."
+    ],
+    "initialKnown": false,
+    "type": "Crucible Competitor",
+    "tier": "average",
+    "level": 20,
+    "faction": "Glowhaven"
+  },
+  "Sayo Kirihara": {
+    "name": "Sayo Kirihara",
+    "properName": "Sayo Kirihara",
+    "currentLocation": "The Eternal Crucible",
+    "currentArea": "The Eternal Crucible - Grand Stands",
+    "gender": "female",
+    "detailType": "detailed",
+    "visualDescription": "An adult human woman with iron-gray, in a tight bun hair and dark blue eyes. A compact athletic build and a challenging tilted chin. Their practical competition clothes use mint and charcoal, with a distinct well-kept travel coat or fitted training jacket.",
+    "basicInfo": "Sayo Kirihara is a retired caravan soldier learning amateur stage performance and enjoying it far more than she admits. They enter the Crucible when work and funds permit, and expects people to understand instructions she has not actually given. Winning matters to them, but their life continues after a loss.\n\nAn adult human woman with iron-gray, in a tight bun hair and dark blue eyes. A compact athletic build and a challenging tilted chin. Their practical competition clothes use mint and charcoal, with a distinct well-kept travel coat or fitted training jacket.\n\n**Equipment:** They normally carry a service-worn halberd, a small personal purse and the practical tools their daily work requires.\n\n- **Gender:** Female\n- **Age:** 42\n- **Species:** Human\n- **Role in faction:** independent Crucible competitor\n- **Magic affinity:** Metal",
+    "hiddenInfo": "**Private motive:** Wants to discover who she is when nobody needs a dependable sergeant.\n\n**What they conceal:** They have not told Kenta Ishizaki how much they are counting on the next few appearances. Their public confidence is less consistent than it looks, and expects people to understand instructions she has not actually given.\n\n**Concealment and knowledge:** Kenta Ishizaki knows their ordinary habits and has noticed their recent pressure, but does not automatically know the full private motive. Strangers must learn it through actual conversation and events.\n\n**Pressure point:** Being reduced to their most recent failure or treated as interchangeable labor.\n\n**Relationships:** Kenta Ishizaki is a recurring practice partner and the person most likely to challenge their excuse after a loss. Their friendship includes arguments, ordinary meals and favors that have nothing to do with tournament results.\n\n**How it surfaces:** They marks a beat with the halberd butt before stepping into position, especially when a conversation touches the subject they are avoiding.",
+    "personality": [
+      "**Core:** Wants to discover who she is when nobody needs a dependable sergeant, while remaining capable of selfish or foolish choices.",
+      "**Default behavior:** Is a retired caravan soldier learning amateur stage performance and enjoying it far more than she admits; expects people to understand instructions she has not actually given.",
+      "**Under Pressure:** Returns to their practiced method, becomes more direct and makes mistakes consistent with their actual experience.",
+      "**Speaking Style:** Quietly dry, with pointed questions when annoyed.",
+      "**Courtship Style:** Makes time for an adult they like and shares an ordinary interest; attraction does not erase existing boundaries.",
+      "**Jealousy Style:** Withdraws into politeness before asking a direct private question.",
+      "**Routine or Quirk:** Marks a beat with the halberd butt before stepping into position."
+    ],
+    "abilities": [
+      "**Preferred Method:** Uses a disciplined long guard, hook-and-thrust combinations and limited metal reinforcement; she is difficult to rush but can be drawn into a slow turn.",
+      "**Metal Practice:** Uses learned metal techniques at a scale consistent with their experience; other affinities reflect easier study, not automatic mastery.",
+      "**Fighting Style:** Attempts actual subdual in regulated bouts, respects an official stop and can lose without losing their identity. Their guard, preferred reach and actual weapon remain consistent."
+    ],
+    "initialKnown": false,
+    "type": "Crucible Competitor",
+    "tier": "average",
+    "level": 22,
+    "faction": "Glowhaven"
+  },
+  "Haruto Otsuki": {
+    "name": "Haruto Otsuki",
+    "properName": "Haruto Otsuki",
+    "currentLocation": "The Eternal Crucible",
+    "currentArea": "The Eternal Crucible - Competitor Lounge",
+    "gender": "male",
+    "detailType": "detailed",
+    "visualDescription": "An adult half-elf man with sandy blond, tied loosely back hair and green eyes. A sturdy build and a thoughtful, watchful face. Their practical competition clothes use cobalt and tan, with a distinct well-kept travel coat or fitted training jacket.",
+    "basicInfo": "Haruto Otsuki inspects household locks, paints miniature scenery and habitually arrives early. They enter the Crucible when work and funds permit, and keeps asking one more question after someone has clearly said no. Winning matters to them, but their life continues after a loss.\n\nAn adult half-elf man with sandy blond, tied loosely back hair and green eyes. A sturdy build and a thoughtful, watchful face. Their practical competition clothes use cobalt and tan, with a distinct well-kept travel coat or fitted training jacket.\n\n**Equipment:** They normally carry a folding crossbow, a small personal purse and the practical tools their daily work requires.\n\n- **Gender:** Male\n- **Age:** 34\n- **Species:** Half-elf\n- **Role in faction:** independent Crucible competitor\n- **Magic affinity:** Enchantment, Ice, Healing",
+    "hiddenInfo": "**Private motive:** Wants to be trusted without having to make himself indispensable.\n\n**What they conceal:** They have not told Natsume Aiba how much they are counting on the next few appearances. Their public confidence is less consistent than it looks, and keeps asking one more question after someone has clearly said no.\n\n**Concealment and knowledge:** Natsume Aiba knows their ordinary habits and has noticed their recent pressure, but does not automatically know the full private motive. Strangers must learn it through actual conversation and events.\n\n**Pressure point:** Being reduced to their most recent failure or treated as interchangeable labor.\n\n**Relationships:** Natsume Aiba is a recurring practice partner and the person most likely to challenge their excuse after a loss. Their friendship includes arguments, ordinary meals and favors that have nothing to do with tournament results.\n\n**How it surfaces:** They aligns three bolts in exactly the same direction, especially when a conversation touches the subject they are avoiding.",
+    "personality": [
+      "**Core:** Wants to be trusted without having to make himself indispensable, while remaining capable of selfish or foolish choices.",
+      "**Default behavior:** Inspects household locks, paints miniature scenery and habitually arrives early; keeps asking one more question after someone has clearly said no.",
+      "**Under Pressure:** Returns to their practiced method, becomes more direct and makes mistakes consistent with their actual experience.",
+      "**Speaking Style:** Warm and animated, occasionally talking past a warning.",
+      "**Courtship Style:** Makes time for an adult they like and shares an ordinary interest; attraction does not erase existing boundaries.",
+      "**Jealousy Style:** Makes an ill-advised joke, then has to address the hurt honestly.",
+      "**Routine or Quirk:** Aligns three bolts in exactly the same direction."
+    ],
+    "abilities": [
+      "**Preferred Method:** Uses a compact crossbow stance and short reinforcement charms, choosing lanes carefully; loading and close pressure create real openings.",
+      "**Enchantment Practice:** Uses learned enchantment techniques at a scale consistent with their experience; other affinities reflect easier study, not automatic mastery.",
+      "**Fighting Style:** Attempts actual subdual in regulated bouts, respects an official stop and can lose without losing their identity. Their guard, preferred reach and actual weapon remain consistent."
+    ],
+    "initialKnown": false,
+    "type": "Crucible Competitor",
+    "tier": "average",
+    "level": 24,
+    "faction": "Glowhaven"
+  },
+  "Natsume Aiba": {
+    "name": "Natsume Aiba",
+    "properName": "Natsume Aiba",
+    "currentLocation": "The Eternal Crucible",
+    "currentArea": "The Eternal Crucible - Practice Gallery",
+    "gender": "female",
+    "detailType": "detailed",
+    "visualDescription": "An adult human woman with black, with a single white streak in a low braid hair and pale violet eyes. A tall build and an easy, slightly cocky posture. Their practical competition clothes use violet and white, with a distinct well-kept travel coat or fitted training jacket.",
+    "basicInfo": "Natsume Aiba works as an undertaker, breeds bright canaries and laughs loudly at terrible puns. They enter the Crucible when work and funds permit, and is nosy about other people's grief and sometimes mistakes curiosity for care. Winning matters to them, but their life continues after a loss.\n\nAn adult human woman with black, with a single white streak in a low braid hair and pale violet eyes. A tall build and an easy, slightly cocky posture. Their practical competition clothes use violet and white, with a distinct well-kept travel coat or fitted training jacket.\n\n**Equipment:** They normally carry a bell-topped combat staff, a small personal purse and the practical tools their daily work requires.\n\n- **Gender:** Female\n- **Age:** 39\n- **Species:** Human\n- **Role in faction:** independent Crucible competitor\n- **Magic affinity:** Soul, Nature, Arcane",
+    "hiddenInfo": "**Private motive:** Wants to train an apprentice without becoming the sort of controlling mentor she disliked.\n\n**What they conceal:** They have not told Haruto Otsuki how much they are counting on the next few appearances. Their public confidence is less consistent than it looks, and is nosy about other people's grief and sometimes mistakes curiosity for care.\n\n**Concealment and knowledge:** Haruto Otsuki knows their ordinary habits and has noticed their recent pressure, but does not automatically know the full private motive. Strangers must learn it through actual conversation and events.\n\n**Pressure point:** Being reduced to their most recent failure or treated as interchangeable labor.\n\n**Relationships:** Haruto Otsuki is a recurring practice partner and the person most likely to challenge their excuse after a loss. Their friendship includes arguments, ordinary meals and favors that have nothing to do with tournament results.\n\n**How it surfaces:** They stills the staff bell with her thumb when listening seriously, especially when a conversation touches the subject they are avoiding.",
+    "personality": [
+      "**Core:** Wants to train an apprentice without becoming the sort of controlling mentor she disliked, while remaining capable of selfish or foolish choices.",
+      "**Default behavior:** Works as an undertaker, breeds bright canaries and laughs loudly at terrible puns; is nosy about other people's grief and sometimes mistakes curiosity for care.",
+      "**Under Pressure:** Returns to their practiced method, becomes more direct and makes mistakes consistent with their actual experience.",
+      "**Speaking Style:** Formal when nervous and unexpectedly blunt when comfortable.",
+      "**Courtship Style:** Makes time for an adult they like and shares an ordinary interest; attraction does not erase existing boundaries.",
+      "**Jealousy Style:** Becomes competitive about being helpful and resents noticing it.",
+      "**Routine or Quirk:** Stills the staff bell with her thumb when listening seriously."
+    ],
+    "abilities": [
+      "**Preferred Method:** Holds the staff diagonally in a balanced guard and uses limited spiritual wards to blunt hostile workings; she relies on solid staff strikes against physical pressure.",
+      "**Soul Practice:** Uses learned soul techniques at a scale consistent with their experience; other affinities reflect easier study, not automatic mastery.",
+      "**Fighting Style:** Attempts actual subdual in regulated bouts, respects an official stop and can lose without losing their identity. Their guard, preferred reach and actual weapon remain consistent."
+    ],
+    "initialKnown": false,
+    "type": "Crucible Competitor",
+    "tier": "average",
+    "level": 25,
+    "faction": "Glowhaven"
+  },
+  "Daichi Kawanobe": {
+    "name": "Daichi Kawanobe",
+    "properName": "Daichi Kawanobe",
+    "currentLocation": "The Eternal Crucible",
+    "currentArea": "The Eternal Crucible - Concourse",
+    "gender": "male",
+    "detailType": "detailed",
+    "visualDescription": "An adult human man with black, close-cropped hair and hazel eyes. A lean build and a quick, openly curious expression. Their practical competition clothes use ochre and navy, with a distinct well-kept travel coat or fitted training jacket.",
+    "basicInfo": "Daichi Kawanobe is a blacksmith who keeps a tiny rooftop garden and cannot resist a roadside snack. They enter the Crucible when work and funds permit, and believes any problem can be solved by doing more work and becomes judgmental about fatigue. Winning matters to them, but their life continues after a loss.\n\nAn adult human man with black, close-cropped hair and hazel eyes. A lean build and a quick, openly curious expression. Their practical competition clothes use ochre and navy, with a distinct well-kept travel coat or fitted training jacket.\n\n**Equipment:** They normally carry reinforced handwraps, a small personal purse and the practical tools their daily work requires.\n\n- **Gender:** Male\n- **Age:** 40\n- **Species:** Human\n- **Role in faction:** independent Crucible competitor\n- **Magic affinity:** Earth",
+    "hiddenInfo": "**Private motive:** Wants to learn how to rest before his marriage becomes another neglected project.\n\n**What they conceal:** They have not told Midori Hozumi how much they are counting on the next few appearances. Their public confidence is less consistent than it looks, and believes any problem can be solved by doing more work and becomes judgmental about fatigue.\n\n**Concealment and knowledge:** Midori Hozumi knows their ordinary habits and has noticed their recent pressure, but does not automatically know the full private motive. Strangers must learn it through actual conversation and events.\n\n**Pressure point:** Being reduced to their most recent failure or treated as interchangeable labor.\n\n**Relationships:** Midori Hozumi is a recurring practice partner and the person most likely to challenge their excuse after a loss. Their friendship includes arguments, ordinary meals and favors that have nothing to do with tournament results.\n\n**How it surfaces:** They opens and closes his hands to check each wrap before the bell, especially when a conversation touches the subject they are avoiding.",
+    "personality": [
+      "**Core:** Wants to learn how to rest before his marriage becomes another neglected project, while remaining capable of selfish or foolish choices.",
+      "**Default behavior:** Is a blacksmith who keeps a tiny rooftop garden and cannot resist a roadside snack; believes any problem can be solved by doing more work and becomes judgmental about fatigue.",
+      "**Under Pressure:** Returns to their practiced method, becomes more direct and makes mistakes consistent with their actual experience.",
+      "**Speaking Style:** Brisk, candid and a little indignant.",
+      "**Courtship Style:** Makes time for an adult they like and shares an ordinary interest; attraction does not erase existing boundaries.",
+      "**Jealousy Style:** Gets prickly and tries to impress, then struggles to admit why.",
+      "**Routine or Quirk:** Opens and closes his hands to check each wrap before the bell."
+    ],
+    "abilities": [
+      "**Preferred Method:** Fights from a heavy boxing guard, bracing his feet with earth and entering with short body blows; he must work to catch a disciplined ranged opponent.",
+      "**Earth Practice:** Uses learned earth techniques at a scale consistent with their experience; other affinities reflect easier study, not automatic mastery.",
+      "**Fighting Style:** Attempts actual subdual in regulated bouts, respects an official stop and can lose without losing their identity. Their guard, preferred reach and actual weapon remain consistent."
+    ],
+    "initialKnown": false,
+    "type": "Crucible Competitor",
+    "tier": "average",
+    "level": 27,
+    "faction": "Glowhaven"
+  },
+  "Midori Hozumi": {
+    "name": "Midori Hozumi",
+    "properName": "Midori Hozumi",
+    "currentLocation": "The Eternal Crucible",
+    "currentArea": "The Eternal Crucible - Grand Stands",
+    "gender": "female",
+    "detailType": "detailed",
+    "visualDescription": "An adult human woman with bright green, in a long high ponytail hair and brown eyes. A compact athletic build and a challenging tilted chin. Their practical competition clothes use rose and black, with a distinct well-kept travel coat or fitted training jacket.",
+    "basicInfo": "Midori Hozumi works in elder care, acts in amateur melodramas and knows everyone's preferred tea. They enter the Crucible when work and funds permit, and enjoys an audience and resents being overlooked even when the occasion belongs to someone else. Winning matters to them, but their life continues after a loss.\n\nAn adult human woman with bright green, in a long high ponytail hair and brown eyes. A compact athletic build and a challenging tilted chin. Their practical competition clothes use rose and black, with a distinct well-kept travel coat or fitted training jacket.\n\n**Equipment:** They normally carry a pair of hooked knives, a small personal purse and the practical tools their daily work requires.\n\n- **Gender:** Female\n- **Age:** 36\n- **Species:** Human\n- **Role in faction:** independent Crucible competitor\n- **Magic affinity:** Nature",
+    "hiddenInfo": "**Private motive:** Wants to prove that care work has not made her ordinary or invisible.\n\n**What they conceal:** They have not told Daichi Kawanobe how much they are counting on the next few appearances. Their public confidence is less consistent than it looks, and enjoys an audience and resents being overlooked even when the occasion belongs to someone else.\n\n**Concealment and knowledge:** Daichi Kawanobe knows their ordinary habits and has noticed their recent pressure, but does not automatically know the full private motive. Strangers must learn it through actual conversation and events.\n\n**Pressure point:** Being reduced to their most recent failure or treated as interchangeable labor.\n\n**Relationships:** Daichi Kawanobe is a recurring practice partner and the person most likely to challenge their excuse after a loss. Their friendship includes arguments, ordinary meals and favors that have nothing to do with tournament results.\n\n**How it surfaces:** They bows extravagantly after an unimpressive success, especially when a conversation touches the subject they are avoiding.",
+    "personality": [
+      "**Core:** Wants to prove that care work has not made her ordinary or invisible, while remaining capable of selfish or foolish choices.",
+      "**Default behavior:** Works in elder care, acts in amateur melodramas and knows everyone's preferred tea; enjoys an audience and resents being overlooked even when the occasion belongs to someone else.",
+      "**Under Pressure:** Returns to their practiced method, becomes more direct and makes mistakes consistent with their actual experience.",
+      "**Speaking Style:** Quietly dry, with pointed questions when annoyed.",
+      "**Courtship Style:** Makes time for an adult they like and shares an ordinary interest; attraction does not erase existing boundaries.",
+      "**Jealousy Style:** Withdraws into politeness before asking a direct private question.",
+      "**Routine or Quirk:** Bows extravagantly after an unimpressive success."
+    ],
+    "abilities": [
+      "**Preferred Method:** Uses a mobile crossed-knife guard and brief vine tethers to pull at a guard; the tethers have real anchors and can be cut.",
+      "**Nature Practice:** Uses learned nature techniques at a scale consistent with their experience; other affinities reflect easier study, not automatic mastery.",
+      "**Fighting Style:** Attempts actual subdual in regulated bouts, respects an official stop and can lose without losing their identity. Their guard, preferred reach and actual weapon remain consistent."
+    ],
+    "initialKnown": false,
+    "type": "Crucible Competitor",
+    "tier": "average",
+    "level": 29,
+    "faction": "Glowhaven"
+  },
+  "Kojirō Tsunematsu": {
+    "name": "Kojirō Tsunematsu",
+    "properName": "Kojirō Tsunematsu",
+    "currentLocation": "The Eternal Crucible",
+    "currentArea": "The Eternal Crucible - Competitor Lounge",
+    "gender": "male",
+    "detailType": "detailed",
+    "visualDescription": "An adult human man with dark brown, graying at the temples hair and gray-green eyes. A sturdy build and a thoughtful, watchful face. Their practical competition clothes use forest green and brass, with a distinct well-kept travel coat or fitted training jacket.",
+    "basicInfo": "Kojirō Tsunematsu teaches private arithmetic lessons and secretly collects ridiculous romance serials. They enter the Crucible when work and funds permit, and treats disagreement as a test of competence and can become insufferably condescending. Winning matters to them, but their life continues after a loss.\n\nAn adult human man with dark brown, graying at the temples hair and gray-green eyes. A sturdy build and a thoughtful, watchful face. Their practical competition clothes use forest green and brass, with a distinct well-kept travel coat or fitted training jacket.\n\n**Equipment:** They normally carry a plain longsword, a small personal purse and the practical tools their daily work requires.\n\n- **Gender:** Male\n- **Age:** 45\n- **Species:** Human\n- **Role in faction:** independent Crucible competitor\n- **Magic affinity:** Gravity",
+    "hiddenInfo": "**Private motive:** Wants to win a championship before he convinces himself that trying was beneath him.\n\n**What they conceal:** They have not told Ema Tsukishiro how much they are counting on the next few appearances. Their public confidence is less consistent than it looks, and treats disagreement as a test of competence and can become insufferably condescending.\n\n**Concealment and knowledge:** Ema Tsukishiro knows their ordinary habits and has noticed their recent pressure, but does not automatically know the full private motive. Strangers must learn it through actual conversation and events.\n\n**Pressure point:** Being reduced to their most recent failure or treated as interchangeable labor.\n\n**Relationships:** Ema Tsukishiro is a recurring practice partner and the person most likely to challenge their excuse after a loss. Their friendship includes arguments, ordinary meals and favors that have nothing to do with tournament results.\n\n**How it surfaces:** They adjusts his spectacles with the clean side of a knuckle, especially when a conversation touches the subject they are avoiding.",
+    "personality": [
+      "**Core:** Wants to win a championship before he convinces himself that trying was beneath him, while remaining capable of selfish or foolish choices.",
+      "**Default behavior:** Teaches private arithmetic lessons and secretly collects ridiculous romance serials; treats disagreement as a test of competence and can become insufferably condescending.",
+      "**Under Pressure:** Returns to their practiced method, becomes more direct and makes mistakes consistent with their actual experience.",
+      "**Speaking Style:** Warm and animated, occasionally talking past a warning.",
+      "**Courtship Style:** Makes time for an adult they like and shares an ordinary interest; attraction does not erase existing boundaries.",
+      "**Jealousy Style:** Makes an ill-advised joke, then has to address the hurt honestly.",
+      "**Routine or Quirk:** Adjusts his spectacles with the clean side of a knuckle."
+    ],
+    "abilities": [
+      "**Preferred Method:** Holds a high two-handed longsword guard and shifts local weight to alter a committed strike; he needs to read an approach rather than reacting to everything.",
+      "**Gravity Practice:** Uses learned gravity techniques at a scale consistent with their experience; other affinities reflect easier study, not automatic mastery.",
+      "**Fighting Style:** Attempts actual subdual in regulated bouts, respects an official stop and can lose without losing their identity. Their guard, preferred reach and actual weapon remain consistent."
+    ],
+    "initialKnown": false,
+    "type": "Crucible Competitor",
+    "tier": "average",
+    "level": 31,
+    "faction": "Glowhaven"
+  },
+  "Ema Tsukishiro": {
+    "name": "Ema Tsukishiro",
+    "properName": "Ema Tsukishiro",
+    "currentLocation": "The Eternal Crucible",
+    "currentArea": "The Eternal Crucible - Practice Gallery",
+    "gender": "female",
+    "detailType": "detailed",
+    "visualDescription": "An adult human woman with white, in an asymmetrical bob hair and cobalt eyes. A tall build and an easy, slightly cocky posture. Their practical competition clothes use coral and slate, with a distinct well-kept travel coat or fitted training jacket.",
+    "basicInfo": "Ema Tsukishiro is a deaf instrument maker who feels resonance through her hands, signs fluently and enjoys very bad silent comedy. They enter the Crucible when work and funds permit, and is blunt about mistakes and has little patience for people who mistake loud speech for accommodation. Winning matters to them, but their life continues after a loss.\n\nAn adult human woman with white, in an asymmetrical bob hair and cobalt eyes. A tall build and an easy, slightly cocky posture. Their practical competition clothes use coral and slate, with a distinct well-kept travel coat or fitted training jacket.\n\n**Equipment:** They normally carry a ringed bronze staff, a small personal purse and the practical tools their daily work requires.\n\n- **Gender:** Female\n- **Age:** 29\n- **Species:** Human\n- **Role in faction:** independent Crucible competitor\n- **Magic affinity:** Sound, Summoning",
+    "hiddenInfo": "**Private motive:** Wants her instruments judged for their sound rather than sold as an inspirational story.\n\n**What they conceal:** They have not told Kojirō Tsunematsu how much they are counting on the next few appearances. Their public confidence is less consistent than it looks, and is blunt about mistakes and has little patience for people who mistake loud speech for accommodation.\n\n**Concealment and knowledge:** Kojirō Tsunematsu knows their ordinary habits and has noticed their recent pressure, but does not automatically know the full private motive. Strangers must learn it through actual conversation and events.\n\n**Pressure point:** Being reduced to their most recent failure or treated as interchangeable labor.\n\n**Relationships:** Kojirō Tsunematsu is a recurring practice partner and the person most likely to challenge their excuse after a loss. Their friendship includes arguments, ordinary meals and favors that have nothing to do with tournament results.\n\n**How it surfaces:** They rests two fingers on the staff rings to read a vibration, especially when a conversation touches the subject they are avoiding.",
+    "personality": [
+      "**Core:** Wants her instruments judged for their sound rather than sold as an inspirational story, while remaining capable of selfish or foolish choices.",
+      "**Default behavior:** Is a deaf instrument maker who feels resonance through her hands, signs fluently and enjoys very bad silent comedy; is blunt about mistakes and has little patience for people who mistake loud speech for accommodation.",
+      "**Under Pressure:** Returns to their practiced method, becomes more direct and makes mistakes consistent with their actual experience.",
+      "**Speaking Style:** Formal when nervous and unexpectedly blunt when comfortable.",
+      "**Courtship Style:** Makes time for an adult they like and shares an ordinary interest; attraction does not erase existing boundaries.",
+      "**Jealousy Style:** Becomes competitive about being helpful and resents noticing it.",
+      "**Routine or Quirk:** Rests two fingers on the staff rings to read a vibration."
+    ],
+    "abilities": [
+      "**Preferred Method:** Uses a steady two-handed guard and felt vibration cues, sending short directional pulses; she cannot hear hidden conversation or sense every movement through empty air.",
+      "**Sound Practice:** Uses learned sound techniques at a scale consistent with their experience; other affinities reflect easier study, not automatic mastery.",
+      "**Fighting Style:** Attempts actual subdual in regulated bouts, respects an official stop and can lose without losing their identity. Their guard, preferred reach and actual weapon remain consistent."
+    ],
+    "initialKnown": false,
+    "type": "Crucible Competitor",
+    "tier": "average",
+    "level": 33,
+    "faction": "Glowhaven"
+  },
+  "Ayato Nikaidō": {
+    "name": "Ayato Nikaidō",
+    "properName": "Ayato Nikaidō",
+    "currentLocation": "The Eternal Crucible",
+    "currentArea": "The Eternal Crucible - Concourse",
+    "gender": "male",
+    "detailType": "detailed",
+    "visualDescription": "An adult human man with violet-black, swept into a dramatic wave hair and gold eyes. A lean build and a quick, openly curious expression. Their practical competition clothes use terracotta and cream, with a distinct well-kept travel coat or fitted training jacket.",
+    "basicInfo": "Ayato Nikaidō performs stage illusions, spends extravagantly on coats and is excellent at entertaining shy children. They enter the Crucible when work and funds permit, and turns conversations toward himself and sulks when a practical person gets more applause. Winning matters to them, but their life continues after a loss.\n\nAn adult human man with violet-black, swept into a dramatic wave hair and gold eyes. A lean build and a quick, openly curious expression. Their practical competition clothes use terracotta and cream, with a distinct well-kept travel coat or fitted training jacket.\n\n**Equipment:** They normally carry a broad brass-bound grimoire, a small personal purse and the practical tools their daily work requires.\n\n- **Gender:** Male\n- **Age:** 48\n- **Species:** Human\n- **Role in faction:** independent Crucible competitor\n- **Magic affinity:** Arcane",
+    "hiddenInfo": "**Private motive:** Wants an actual competitive achievement that cannot be dismissed as stagecraft.\n\n**What they conceal:** They have not told Haruna Yashima how much they are counting on the next few appearances. Their public confidence is less consistent than it looks, and turns conversations toward himself and sulks when a practical person gets more applause.\n\n**Concealment and knowledge:** Haruna Yashima knows their ordinary habits and has noticed their recent pressure, but does not automatically know the full private motive. Strangers must learn it through actual conversation and events.\n\n**Pressure point:** Being reduced to their most recent failure or treated as interchangeable labor.\n\n**Relationships:** Haruna Yashima is a recurring practice partner and the person most likely to challenge their excuse after a loss. Their friendship includes arguments, ordinary meals and favors that have nothing to do with tournament results.\n\n**How it surfaces:** They flourishes a page turn even when no one is watching, especially when a conversation touches the subject they are avoiding.",
+    "personality": [
+      "**Core:** Wants an actual competitive achievement that cannot be dismissed as stagecraft, while remaining capable of selfish or foolish choices.",
+      "**Default behavior:** Performs stage illusions, spends extravagantly on coats and is excellent at entertaining shy children; turns conversations toward himself and sulks when a practical person gets more applause.",
+      "**Under Pressure:** Returns to their practiced method, becomes more direct and makes mistakes consistent with their actual experience.",
+      "**Speaking Style:** Brisk, candid and a little indignant.",
+      "**Courtship Style:** Makes time for an adult they like and shares an ordinary interest; attraction does not erase existing boundaries.",
+      "**Jealousy Style:** Gets prickly and tries to impress, then struggles to admit why.",
+      "**Routine or Quirk:** Flourishes a page turn even when no one is watching."
+    ],
+    "abilities": [
+      "**Preferred Method:** Casts from a turned stance with the grimoire braced near his ribs, using stable arcane panels and angled bolts; crowded close exchanges disrupt his elaborate setups.",
+      "**Arcane Practice:** Uses learned arcane techniques at a scale consistent with their experience; other affinities reflect easier study, not automatic mastery.",
+      "**Fighting Style:** Attempts actual subdual in regulated bouts, respects an official stop and can lose without losing their identity. Their guard, preferred reach and actual weapon remain consistent."
+    ],
+    "initialKnown": false,
+    "type": "Crucible Competitor",
+    "tier": "average",
+    "level": 35,
+    "faction": "Glowhaven"
+  },
+  "Haruna Yashima": {
+    "name": "Haruna Yashima",
+    "properName": "Haruna Yashima",
+    "currentLocation": "The Eternal Crucible",
+    "currentArea": "The Eternal Crucible - Grand Stands",
+    "gender": "female",
+    "detailType": "detailed",
+    "visualDescription": "An adult oni woman with plum-purple, in a long loose braid hair and crimson eyes. A compact athletic build and a challenging tilted chin. A human face, two short ridged horns and individually natural skin tones. Their practical competition clothes use mint and charcoal, with a distinct well-kept travel coat or fitted training jacket.",
+    "basicInfo": "Haruna Yashima works as a traveling bodyguard and misses her homeland's countryside food more than its politics. They enter the Crucible when work and funds permit, and tests people with small provocations and is indignant when they call her on it. Winning matters to them, but their life continues after a loss.\n\nAn adult oni woman with plum-purple, in a long loose braid hair and crimson eyes. A compact athletic build and a challenging tilted chin. A human face, two short ridged horns and individually natural skin tones. Their practical competition clothes use mint and charcoal, with a distinct well-kept travel coat or fitted training jacket.\n\n**Equipment:** They normally carry a double-ended blade, a small personal purse and the practical tools their daily work requires.\n\n- **Gender:** Female\n- **Age:** 44\n- **Species:** Oni\n- **Role in faction:** independent Crucible competitor\n- **Magic affinity:** Soul",
+    "hiddenInfo": "**Private motive:** Wants enough savings to take a year off rather than accept another household retainer contract.\n\n**What they conceal:** They have not told Ayato Nikaidō how much they are counting on the next few appearances. Their public confidence is less consistent than it looks, and tests people with small provocations and is indignant when they call her on it.\n\n**Concealment and knowledge:** Ayato Nikaidō knows their ordinary habits and has noticed their recent pressure, but does not automatically know the full private motive. Strangers must learn it through actual conversation and events.\n\n**Pressure point:** Being reduced to their most recent failure or treated as interchangeable labor.\n\n**Relationships:** Ayato Nikaidō is a recurring practice partner and the person most likely to challenge their excuse after a loss. Their friendship includes arguments, ordinary meals and favors that have nothing to do with tournament results.\n\n**How it surfaces:** They offers a wrapped sweet immediately after a particularly cutting remark, especially when a conversation touches the subject they are avoiding.",
+    "personality": [
+      "**Core:** Wants enough savings to take a year off rather than accept another household retainer contract, while remaining capable of selfish or foolish choices.",
+      "**Default behavior:** Works as a traveling bodyguard and misses her homeland's countryside food more than its politics; tests people with small provocations and is indignant when they call her on it.",
+      "**Under Pressure:** Returns to their practiced method, becomes more direct and makes mistakes consistent with their actual experience.",
+      "**Speaking Style:** Quietly dry, with pointed questions when annoyed.",
+      "**Courtship Style:** Makes time for an adult they like and shares an ordinary interest; attraction does not erase existing boundaries.",
+      "**Jealousy Style:** Withdraws into politeness before asking a direct private question.",
+      "**Routine or Quirk:** Offers a wrapped sweet immediately after a particularly cutting remark."
+    ],
+    "abilities": [
+      "**Preferred Method:** Uses a compact diagonal twinblade guard, short pivots and spiritual reinforcement; her learned wards do not make her immune to ordinary weapons.",
+      "**Soul Practice:** Uses learned soul techniques at a scale consistent with their experience; other affinities reflect easier study, not automatic mastery.",
+      "**Fighting Style:** Attempts actual subdual in regulated bouts, respects an official stop and can lose without losing their identity. Their guard, preferred reach and actual weapon remain consistent."
+    ],
+    "initialKnown": false,
+    "type": "Crucible Competitor",
+    "tier": "average",
+    "level": 38,
+    "faction": "Glowhaven"
+  },
+  "Seiji Makabe": {
+    "name": "Seiji Makabe",
+    "properName": "Seiji Makabe",
+    "currentLocation": "The Eternal Crucible",
+    "currentArea": "The Eternal Crucible - Competitor Lounge",
+    "gender": "male",
+    "detailType": "detailed",
+    "visualDescription": "An adult human man with steel-gray, cropped short hair and brown eyes. A sturdy build and a thoughtful, watchful face. Their practical competition clothes use cobalt and tan, with a distinct well-kept travel coat or fitted training jacket.",
+    "basicInfo": "Seiji Makabe trains warehouse guards, fishes patiently and keeps losing tools in his own tidy shed. They enter the Crucible when work and funds permit, and takes an unfair dislike to people who remind him of his younger self. Winning matters to them, but their life continues after a loss.\n\nAn adult human man with steel-gray, cropped short hair and brown eyes. A sturdy build and a thoughtful, watchful face. Their practical competition clothes use cobalt and tan, with a distinct well-kept travel coat or fitted training jacket.\n\n**Equipment:** They normally carry a broad sword and kite shield, a small personal purse and the practical tools their daily work requires.\n\n- **Gender:** Male\n- **Age:** 51\n- **Species:** Human\n- **Role in faction:** independent Crucible competitor\n- **Magic affinity:** Earth",
+    "hiddenInfo": "**Private motive:** Wants to retire while he can still enjoy the work he keeps postponing.\n\n**What they conceal:** They have not told Kanna Tsuruno how much they are counting on the next few appearances. Their public confidence is less consistent than it looks, and takes an unfair dislike to people who remind him of his younger self.\n\n**Concealment and knowledge:** Kanna Tsuruno knows their ordinary habits and has noticed their recent pressure, but does not automatically know the full private motive. Strangers must learn it through actual conversation and events.\n\n**Pressure point:** Being reduced to their most recent failure or treated as interchangeable labor.\n\n**Relationships:** Kanna Tsuruno is a recurring practice partner and the person most likely to challenge their excuse after a loss. Their friendship includes arguments, ordinary meals and favors that have nothing to do with tournament results.\n\n**How it surfaces:** They checks the shield strap while letting an awkward silence lengthen, especially when a conversation touches the subject they are avoiding.",
+    "personality": [
+      "**Core:** Wants to retire while he can still enjoy the work he keeps postponing, while remaining capable of selfish or foolish choices.",
+      "**Default behavior:** Trains warehouse guards, fishes patiently and keeps losing tools in his own tidy shed; takes an unfair dislike to people who remind him of his younger self.",
+      "**Under Pressure:** Returns to their practiced method, becomes more direct and makes mistakes consistent with their actual experience.",
+      "**Speaking Style:** Warm and animated, occasionally talking past a warning.",
+      "**Courtship Style:** Makes time for an adult they like and shares an ordinary interest; attraction does not erase existing boundaries.",
+      "**Jealousy Style:** Makes an ill-advised joke, then has to address the hurt honestly.",
+      "**Routine or Quirk:** Checks the shield strap while letting an awkward silence lengthen."
+    ],
+    "abilities": [
+      "**Preferred Method:** Holds his shield close with a short forward sword line, uses small earthen braces and punishes overextension; attacks from separated angles force him to reposition.",
+      "**Earth Practice:** Uses learned earth techniques at a scale consistent with their experience; other affinities reflect easier study, not automatic mastery.",
+      "**Fighting Style:** Attempts actual subdual in regulated bouts, respects an official stop and can lose without losing their identity. Their guard, preferred reach and actual weapon remain consistent."
+    ],
+    "initialKnown": false,
+    "type": "Crucible Competitor",
+    "tier": "average",
+    "level": 41,
+    "faction": "Glowhaven"
+  },
+  "Kanna Tsuruno": {
+    "name": "Kanna Tsuruno",
+    "properName": "Kanna Tsuruno",
+    "currentLocation": "The Eternal Crucible",
+    "currentArea": "The Eternal Crucible - Practice Gallery",
+    "gender": "female",
+    "detailType": "detailed",
+    "visualDescription": "An adult dragonkin woman with storm-blue, in a thick braid hair and yellow with vertical slit pupils eyes. A tall build and an easy, slightly cocky posture. A human face, blue scales on the cheekbones and backs of the arms, swept horns, human palms and a thick dragon tail. Their practical competition clothes use violet and white, with a distinct well-kept travel coat or fitted training jacket.",
+    "basicInfo": "Kanna Tsuruno comes from Drakenspire, appraises spearheads and loves hot springs and aggressively spicy stew. They enter the Crucible when work and funds permit, and is a sore loser and becomes petty about the smallest disputed point. Winning matters to them, but their life continues after a loss.\n\nAn adult dragonkin woman with storm-blue, in a thick braid hair and yellow with vertical slit pupils eyes. A tall build and an easy, slightly cocky posture. A human face, blue scales on the cheekbones and backs of the arms, swept horns, human palms and a thick dragon tail. Their practical competition clothes use violet and white, with a distinct well-kept travel coat or fitted training jacket.\n\n**Equipment:** They normally carry a long steel-tipped spear, a small personal purse and the practical tools their daily work requires.\n\n- **Gender:** Female\n- **Age:** 47\n- **Species:** Dragonkin\n- **Role in faction:** independent Crucible competitor\n- **Magic affinity:** Lightning",
+    "hiddenInfo": "**Private motive:** Wants to win abroad before returning home to manage a workshop she is not certain she wants.\n\n**What they conceal:** They have not told Seiji Makabe how much they are counting on the next few appearances. Their public confidence is less consistent than it looks, and is a sore loser and becomes petty about the smallest disputed point.\n\n**Concealment and knowledge:** Seiji Makabe knows their ordinary habits and has noticed their recent pressure, but does not automatically know the full private motive. Strangers must learn it through actual conversation and events.\n\n**Pressure point:** Being reduced to their most recent failure or treated as interchangeable labor.\n\n**Relationships:** Seiji Makabe is a recurring practice partner and the person most likely to challenge their excuse after a loss. Their friendship includes arguments, ordinary meals and favors that have nothing to do with tournament results.\n\n**How it surfaces:** They lashes her thick blue tail once, then pointedly stills it, especially when a conversation touches the subject they are avoiding.",
+    "personality": [
+      "**Core:** Wants to win abroad before returning home to manage a workshop she is not certain she wants, while remaining capable of selfish or foolish choices.",
+      "**Default behavior:** Comes from drakenspire, appraises spearheads and loves hot springs and aggressively spicy stew; is a sore loser and becomes petty about the smallest disputed point.",
+      "**Under Pressure:** Returns to their practiced method, becomes more direct and makes mistakes consistent with their actual experience.",
+      "**Speaking Style:** Formal when nervous and unexpectedly blunt when comfortable.",
+      "**Courtship Style:** Makes time for an adult they like and shares an ordinary interest; attraction does not erase existing boundaries.",
+      "**Jealousy Style:** Becomes competitive about being helpful and resents noticing it.",
+      "**Routine or Quirk:** Lashes her thick blue tail once, then pointedly stills it."
+    ],
+    "abilities": [
+      "**Preferred Method:** Uses a long poised spear guard, lightning-assisted bursts and a measured retreat; her human-faced dragonkin body has swept horns and scales along her cheekbones and the backs of her arms.",
+      "**Lightning Practice:** Uses learned lightning techniques at a scale consistent with their experience; other affinities reflect easier study, not automatic mastery.",
+      "**Fighting Style:** Attempts actual subdual in regulated bouts, respects an official stop and can lose without losing their identity. Their guard, preferred reach and actual weapon remain consistent."
+    ],
+    "initialKnown": false,
+    "type": "Crucible Competitor",
+    "tier": "average",
+    "level": 44,
+    "faction": "Glowhaven"
+  },
+  "Ranmaru Tōdō": {
+    "name": "Ranmaru Tōdō",
+    "properName": "Ranmaru Tōdō",
+    "currentLocation": "The Eternal Crucible",
+    "currentArea": "The Eternal Crucible - Concourse",
+    "gender": "male",
+    "detailType": "detailed",
+    "visualDescription": "An adult human man with black, silver at the temples and tied high hair and emerald eyes. A lean build and a quick, openly curious expression. Their practical competition clothes use ochre and navy, with a distinct well-kept travel coat or fitted training jacket.",
+    "basicInfo": "Ranmaru Tōdō is a household champion who loves arranging flowers and argues passionately about vase proportions. They enter the Crucible when work and funds permit, and confuses refusing assistance with dignity and can be painfully proud. Winning matters to them, but their life continues after a loss.\n\nAn adult human man with black, silver at the temples and tied high hair and emerald eyes. A lean build and a quick, openly curious expression. Their practical competition clothes use ochre and navy, with a distinct well-kept travel coat or fitted training jacket.\n\n**Equipment:** They normally carry a pair of steel gauntlets, a small personal purse and the practical tools their daily work requires.\n\n- **Gender:** Male\n- **Age:** 55\n- **Species:** Human\n- **Role in faction:** independent Crucible competitor\n- **Magic affinity:** Enchantment",
+    "hiddenInfo": "**Private motive:** Wants to choose his own successor rather than have one selected to flatter his employer.\n\n**What they conceal:** They have not told Mizuki Kaneshiro how much they are counting on the next few appearances. Their public confidence is less consistent than it looks, and confuses refusing assistance with dignity and can be painfully proud.\n\n**Concealment and knowledge:** Mizuki Kaneshiro knows their ordinary habits and has noticed their recent pressure, but does not automatically know the full private motive. Strangers must learn it through actual conversation and events.\n\n**Pressure point:** Being reduced to their most recent failure or treated as interchangeable labor.\n\n**Relationships:** Mizuki Kaneshiro is a recurring practice partner and the person most likely to challenge their excuse after a loss. Their friendship includes arguments, ordinary meals and favors that have nothing to do with tournament results.\n\n**How it surfaces:** They sets his sleeves back by exactly the same amount before a bout, especially when a conversation touches the subject they are avoiding.",
+    "personality": [
+      "**Core:** Wants to choose his own successor rather than have one selected to flatter his employer, while remaining capable of selfish or foolish choices.",
+      "**Default behavior:** Is a household champion who loves arranging flowers and argues passionately about vase proportions; confuses refusing assistance with dignity and can be painfully proud.",
+      "**Under Pressure:** Returns to their practiced method, becomes more direct and makes mistakes consistent with their actual experience.",
+      "**Speaking Style:** Brisk, candid and a little indignant.",
+      "**Courtship Style:** Makes time for an adult they like and shares an ordinary interest; attraction does not erase existing boundaries.",
+      "**Jealousy Style:** Gets prickly and tries to impress, then struggles to admit why.",
+      "**Routine or Quirk:** Sets his sleeves back by exactly the same amount before a bout."
+    ],
+    "abilities": [
+      "**Preferred Method:** Holds a poised open-handed guard, reinforces his actual body and gauntlets, and turns a caught line into a short strike; sustained reinforcement has a real mana cost.",
+      "**Enchantment Practice:** Uses learned enchantment techniques at a scale consistent with their experience; other affinities reflect easier study, not automatic mastery.",
+      "**Fighting Style:** Attempts actual subdual in regulated bouts, respects an official stop and can lose without losing their identity. Their guard, preferred reach and actual weapon remain consistent."
+    ],
+    "initialKnown": false,
+    "type": "Crucible Competitor",
+    "tier": "strong",
+    "level": 48,
+    "faction": "Glowhaven"
+  },
+  "Mizuki Kaneshiro": {
+    "name": "Mizuki Kaneshiro",
+    "properName": "Mizuki Kaneshiro",
+    "currentLocation": "The Eternal Crucible",
+    "currentArea": "The Eternal Crucible - Grand Stands",
+    "gender": "female",
+    "detailType": "detailed",
+    "visualDescription": "An adult high elf woman with pale gold, in a shoulder-length braided half-up style hair and silver-blue eyes. A compact athletic build and a challenging tilted chin. Their practical competition clothes use rose and black, with a distinct well-kept travel coat or fitted training jacket.",
+    "basicInfo": "Mizuki Kaneshiro is a youthful adult traveling collector of clocks and broken music boxes, speaking Glowhaven's common language with careful courtesy. They enter the Crucible when work and funds permit, and is vain about experience and can make a younger person feel foolish for asking a sensible question. Winning matters to them, but their life continues after a loss.\n\nAn adult high elf woman with pale gold, in a shoulder-length braided half-up style hair and silver-blue eyes. A compact athletic build and a challenging tilted chin. Their practical competition clothes use rose and black, with a distinct well-kept travel coat or fitted training jacket.\n\n**Equipment:** They normally carry an elegant swept-hilt rapier, a small personal purse and the practical tools their daily work requires.\n\n- **Gender:** Female\n- **Age:** 118\n- **Species:** High Elf\n- **Role in faction:** independent Crucible competitor\n- **Magic affinity:** Wind, Water",
+    "hiddenInfo": "**Private motive:** Wants to find a place to live without admitting that constant travel has become lonely.\n\n**What they conceal:** They have not told Ranmaru Tōdō how much they are counting on the next few appearances. Their public confidence is less consistent than it looks, and is vain about experience and can make a younger person feel foolish for asking a sensible question.\n\n**Concealment and knowledge:** Ranmaru Tōdō knows their ordinary habits and has noticed their recent pressure, but does not automatically know the full private motive. Strangers must learn it through actual conversation and events.\n\n**Pressure point:** Being reduced to their most recent failure or treated as interchangeable labor.\n\n**Relationships:** Ranmaru Tōdō is a recurring practice partner and the person most likely to challenge their excuse after a loss. Their friendship includes arguments, ordinary meals and favors that have nothing to do with tournament results.\n\n**How it surfaces:** They listens to the ticking of a small watch before answering, especially when a conversation touches the subject they are avoiding.",
+    "personality": [
+      "**Core:** Wants to find a place to live without admitting that constant travel has become lonely, while remaining capable of selfish or foolish choices.",
+      "**Default behavior:** Is a youthful adult traveling collector of clocks and broken music boxes, speaking glowhaven's common language with careful courtesy; is vain about experience and can make a younger person feel foolish for asking a sensible question.",
+      "**Under Pressure:** Returns to their practiced method, becomes more direct and makes mistakes consistent with their actual experience.",
+      "**Speaking Style:** Quietly dry, with pointed questions when annoyed.",
+      "**Courtship Style:** Makes time for an adult they like and shares an ordinary interest; attraction does not erase existing boundaries.",
+      "**Jealousy Style:** Withdraws into politeness before asking a direct private question.",
+      "**Routine or Quirk:** Listens to the ticking of a small watch before answering."
+    ],
+    "abilities": [
+      "**Preferred Method:** Uses a narrow side-on rapier guard with short wind-propelled entries, preserving distance instead of adding endless attacks; enclosed terrain limits the sweeping retreat.",
+      "**Wind Practice:** Uses learned wind techniques at a scale consistent with their experience; other affinities reflect easier study, not automatic mastery.",
+      "**Fighting Style:** Attempts actual subdual in regulated bouts, respects an official stop and can lose without losing their identity. Their guard, preferred reach and actual weapon remain consistent."
+    ],
+    "initialKnown": false,
+    "type": "Crucible Competitor",
+    "tier": "strong",
+    "level": 53,
+    "faction": "Glowhaven"
+  },
+  "Takeshi Onizuka": {
+    "name": "Takeshi Onizuka",
+    "properName": "Takeshi Onizuka",
+    "currentLocation": "The Eternal Crucible",
+    "currentArea": "The Eternal Crucible - Competitor Lounge",
+    "gender": "male",
+    "detailType": "detailed",
+    "visualDescription": "An adult oni man with salt-and-pepper, in a heavy topknot hair and amber eyes. A sturdy build and a thoughtful, watchful face. A human face, two short ridged horns and individually natural skin tones. Their practical competition clothes use forest green and brass, with a distinct well-kept travel coat or fitted training jacket.",
+    "basicInfo": "Takeshi Onizuka is a quiet caravan veteran who knits beautiful gloves and becomes animated about wool quality. They enter the Crucible when work and funds permit, and holds grudges over disrespect and sees insults in clumsy attempts at familiarity. Winning matters to them, but their life continues after a loss.\n\nAn adult oni man with salt-and-pepper, in a heavy topknot hair and amber eyes. A sturdy build and a thoughtful, watchful face. A human face, two short ridged horns and individually natural skin tones. Their practical competition clothes use forest green and brass, with a distinct well-kept travel coat or fitted training jacket.\n\n**Equipment:** They normally carry a short iron-shod greatclub, a small personal purse and the practical tools their daily work requires.\n\n- **Gender:** Male\n- **Age:** 63\n- **Species:** Oni\n- **Role in faction:** independent Crucible competitor\n- **Magic affinity:** Gravity, Void",
+    "hiddenInfo": "**Private motive:** Wants to apologize to a former traveling partner without pretending the fault was mutual.\n\n**What they conceal:** They have not told Reina Hazakura how much they are counting on the next few appearances. Their public confidence is less consistent than it looks, and holds grudges over disrespect and sees insults in clumsy attempts at familiarity.\n\n**Concealment and knowledge:** Reina Hazakura knows their ordinary habits and has noticed their recent pressure, but does not automatically know the full private motive. Strangers must learn it through actual conversation and events.\n\n**Pressure point:** Being reduced to their most recent failure or treated as interchangeable labor.\n\n**Relationships:** Reina Hazakura is a recurring practice partner and the person most likely to challenge their excuse after a loss. Their friendship includes arguments, ordinary meals and favors that have nothing to do with tournament results.\n\n**How it surfaces:** They folds a finished pair of gloves with unexpectedly delicate fingers, especially when a conversation touches the subject they are avoiding.",
+    "personality": [
+      "**Core:** Wants to apologize to a former traveling partner without pretending the fault was mutual, while remaining capable of selfish or foolish choices.",
+      "**Default behavior:** Is a quiet caravan veteran who knits beautiful gloves and becomes animated about wool quality; holds grudges over disrespect and sees insults in clumsy attempts at familiarity.",
+      "**Under Pressure:** Returns to their practiced method, becomes more direct and makes mistakes consistent with their actual experience.",
+      "**Speaking Style:** Warm and animated, occasionally talking past a warning.",
+      "**Courtship Style:** Makes time for an adult they like and shares an ordinary interest; attraction does not erase existing boundaries.",
+      "**Jealousy Style:** Makes an ill-advised joke, then has to address the hurt honestly.",
+      "**Routine or Quirk:** Folds a finished pair of gloves with unexpectedly delicate fingers."
+    ],
+    "abilities": [
+      "**Preferred Method:** Supports the club in a grounded two-handed guard and changes its apparent weight during a committed arc; the technique is costly and a missed blow still requires recovery.",
+      "**Gravity Practice:** Uses learned gravity techniques at a scale consistent with their experience; other affinities reflect easier study, not automatic mastery.",
+      "**Fighting Style:** Attempts actual subdual in regulated bouts, respects an official stop and can lose without losing their identity. Their guard, preferred reach and actual weapon remain consistent."
+    ],
+    "initialKnown": false,
+    "type": "Crucible Competitor",
+    "tier": "strong",
+    "level": 58,
+    "faction": "Glowhaven"
+  },
+  "Reina Hazakura": {
+    "name": "Reina Hazakura",
+    "properName": "Reina Hazakura",
+    "currentLocation": "The Eternal Crucible",
+    "currentArea": "The Eternal Crucible - Practice Gallery",
+    "gender": "female",
+    "detailType": "detailed",
+    "visualDescription": "An adult human woman with white, in a long low ponytail hair and deep red eyes. A tall build and an easy, slightly cocky posture. Their practical competition clothes use coral and slate, with a distinct well-kept travel coat or fitted training jacket.",
+    "basicInfo": "Reina Hazakura is a former circuit champion who tends a modest orchard and is obsessed with cheap detective stories. They enter the Crucible when work and funds permit, and gets bored with caution and can push a promising opponent harder than they wanted. Winning matters to them, but their life continues after a loss.\n\nAn adult human woman with white, in a long low ponytail hair and deep red eyes. A tall build and an easy, slightly cocky posture. Their practical competition clothes use coral and slate, with a distinct well-kept travel coat or fitted training jacket.\n\n**Equipment:** They normally carry a curved two-handed saber, a small personal purse and the practical tools their daily work requires.\n\n- **Gender:** Female\n- **Age:** 60\n- **Species:** Human\n- **Role in faction:** independent Crucible competitor\n- **Magic affinity:** Fire",
+    "hiddenInfo": "**Private motive:** Wants to discover whether she still loves competing when nobody expects her to win.\n\n**What they conceal:** They have not told Takeshi Onizuka how much they are counting on the next few appearances. Their public confidence is less consistent than it looks, and gets bored with caution and can push a promising opponent harder than they wanted.\n\n**Concealment and knowledge:** Takeshi Onizuka knows their ordinary habits and has noticed their recent pressure, but does not automatically know the full private motive. Strangers must learn it through actual conversation and events.\n\n**Pressure point:** Being reduced to their most recent failure or treated as interchangeable labor.\n\n**Relationships:** Takeshi Onizuka is a recurring practice partner and the person most likely to challenge their excuse after a loss. Their friendship includes arguments, ordinary meals and favors that have nothing to do with tournament results.\n\n**How it surfaces:** They peels an apple in one unbroken strip while considering a challenge, especially when a conversation touches the subject they are avoiding.",
+    "personality": [
+      "**Core:** Wants to discover whether she still loves competing when nobody expects her to win, while remaining capable of selfish or foolish choices.",
+      "**Default behavior:** Is a former circuit champion who tends a modest orchard and is obsessed with cheap detective stories; gets bored with caution and can push a promising opponent harder than they wanted.",
+      "**Under Pressure:** Returns to their practiced method, becomes more direct and makes mistakes consistent with their actual experience.",
+      "**Speaking Style:** Formal when nervous and unexpectedly blunt when comfortable.",
+      "**Courtship Style:** Makes time for an adult they like and shares an ordinary interest; attraction does not erase existing boundaries.",
+      "**Jealousy Style:** Becomes competitive about being helpful and resents noticing it.",
+      "**Routine or Quirk:** Peels an apple in one unbroken strip while considering a challenge."
+    ],
+    "abilities": [
+      "**Preferred Method:** Holds the saber low across her body, lifting into decisive heat-laced cuts; she uses experience and pressure rather than pretending age grants unlimited speed.",
+      "**Fire Practice:** Uses learned fire techniques at a scale consistent with their experience; other affinities reflect easier study, not automatic mastery.",
+      "**Fighting Style:** Attempts actual subdual in regulated bouts, respects an official stop and can lose without losing their identity. Their guard, preferred reach and actual weapon remain consistent."
+    ],
+    "initialKnown": true,
+    "type": "Crucible Competitor",
+    "tier": "strong",
+    "level": 64,
+    "faction": "Glowhaven"
+  },
+  "Shōgo Mizutani": {
+    "name": "Shōgo Mizutani",
+    "properName": "Shōgo Mizutani",
+    "currentLocation": "The Eternal Crucible",
+    "currentArea": "The Eternal Crucible - Competitor Passage",
+    "gender": "male",
+    "detailType": "detailed",
+    "visualDescription": "An adult human man with dark brown, close-cropped hair and gray eyes. A curvy build, an alert smile and a handsome practical traveling jacket.",
+    "basicInfo": "Shōgo Mizutani is a former safety inspector who keeps bees, makes excellent jam and enjoys long, uneventful walks. At work, can be officious about an irrelevant detail when tired. They have limits, loyalties and interests beyond the next visitor's request.\n\nAn adult human man with dark brown, close-cropped hair and gray eyes. A curvy build, an alert smile and a handsome practical traveling jacket.\n\n**Equipment:** They normally carry a blunt signal baton, a small personal purse and the practical tools their daily work requires.\n\n- **Gender:** Male\n- **Age:** 49\n- **Species:** Human\n- **Role in faction:** referee\n- **Magic affinity:** Nature",
+    "hiddenInfo": "**Private motive:** Wants competitors to trust his decisions without needing to like him.\n\n**What they conceal:** They minimize the cost of their ambition when speaking to Tomoe Enokida. In private, can be officious about an irrelevant detail when tired.\n\n**Concealment and knowledge:** Tomoe Enokida knows their ordinary habits and has noticed their recent pressure, but does not automatically know the full private motive. Strangers must learn it through actual conversation and events.\n\n**Pressure point:** Being reduced to their most recent failure or treated as interchangeable labor.\n\n**Relationships:** Tomoe Enokida is a familiar professional contact whose advice they sometimes resent. Their dealings include favors, disagreements and ordinary company, not automatic trust.\n\n**How it surfaces:** They turns the baton once in his palm before giving a ruling, especially when a conversation touches the subject they are avoiding.",
+    "personality": [
+      "**Core:** Wants competitors to trust his decisions without needing to like him, while remaining capable of selfish or foolish choices.",
+      "**Default behavior:** Is a former safety inspector who keeps bees, makes excellent jam and enjoys long, uneventful walks; can be officious about an irrelevant detail when tired.",
+      "**Under Pressure:** Returns to their practiced method, becomes more direct and makes mistakes consistent with their actual experience.",
+      "**Speaking Style:** Brisk, candid and a little indignant.",
+      "**Courtship Style:** Makes time for an adult they like and shares an ordinary interest; attraction does not erase existing boundaries.",
+      "**Jealousy Style:** Gets prickly and tries to impress, then struggles to admit why.",
+      "**Routine or Quirk:** Turns the baton once in his palm before giving a ruling."
+    ],
+    "abilities": [
+      "**Preferred Method:** Uses a blunt signal baton with practiced control. their nature workings serve their actual work; they defend an escape route and seek help rather than pretending their occupation grants overwhelming combat power..",
+      "**Nature Practice:** Uses learned nature techniques at a scale consistent with their experience; other affinities reflect easier study, not automatic mastery.",
+      "**Fighting Style:** Uses actual training to protect a route or withdraw; an official role does not confer invulnerability."
+    ],
+    "initialKnown": false,
+    "type": "Resident",
+    "tier": "average",
+    "level": 28,
+    "faction": "Glowhaven"
+  },
+  "Nozomi Hayase": {
+    "name": "Nozomi Hayase",
+    "properName": "Nozomi Hayase",
+    "currentLocation": "The Eternal Crucible",
+    "currentArea": "The Eternal Crucible - Infirmary",
+    "gender": "female",
+    "detailType": "detailed",
+    "visualDescription": "An adult half-elf woman with warm brown, in a loose braid hair and green eyes. A sturdy build, expressive brows and a practical layered coat.",
+    "basicInfo": "Nozomi Hayase keeps rescue dogs with her partner and has a dry, infectious sense of humor. At work, is impatient with dramatic patients and occasionally says so too sharply. They have limits, loyalties and interests beyond the next visitor's request.\n\nAn adult half-elf woman with warm brown, in a loose braid hair and green eyes. A sturdy build, expressive brows and a practical layered coat.\n\n**Equipment:** They normally carry a small healing staff, a small personal purse and the practical tools their daily work requires.\n\n- **Gender:** Female\n- **Age:** 41\n- **Species:** Half-elf\n- **Role in faction:** arena medic\n- **Magic affinity:** Healing, Void",
+    "hiddenInfo": "**Private motive:** Wants enough staff to stop treating exhaustion as a personal failure.\n\n**What they conceal:** They minimize the cost of their ambition when speaking to Shōgo Mizutani. In private, is impatient with dramatic patients and occasionally says so too sharply.\n\n**Concealment and knowledge:** Shōgo Mizutani knows their ordinary habits and has noticed their recent pressure, but does not automatically know the full private motive. Strangers must learn it through actual conversation and events.\n\n**Pressure point:** Being reduced to their most recent failure or treated as interchangeable labor.\n\n**Relationships:** Shōgo Mizutani is a familiar professional contact whose advice they sometimes resent. Their dealings include favors, disagreements and ordinary company, not automatic trust.\n\n**How it surfaces:** They offers a chair before asking an intrusive medical question, especially when a conversation touches the subject they are avoiding.",
+    "personality": [
+      "**Core:** Wants enough staff to stop treating exhaustion as a personal failure, while remaining capable of selfish or foolish choices.",
+      "**Default behavior:** Keeps rescue dogs with her partner and has a dry, infectious sense of humor; is impatient with dramatic patients and occasionally says so too sharply.",
+      "**Under Pressure:** Returns to their practiced method, becomes more direct and makes mistakes consistent with their actual experience.",
+      "**Speaking Style:** Quietly dry, with pointed questions when annoyed.",
+      "**Courtship Style:** Makes time for an adult they like and shares an ordinary interest; attraction does not erase existing boundaries.",
+      "**Jealousy Style:** Withdraws into politeness before asking a direct private question.",
+      "**Routine or Quirk:** Offers a chair before asking an intrusive medical question."
+    ],
+    "abilities": [
+      "**Preferred Method:** Uses a small healing staff with practiced control. their healing workings serve their actual work; they defend an escape route and seek help rather than pretending their occupation grants overwhelming combat power..",
+      "**Healing Practice:** Uses learned healing techniques at a scale consistent with their experience; other affinities reflect easier study, not automatic mastery.",
+      "**Fighting Style:** Uses actual training to protect a route or withdraw; an official role does not confer invulnerability."
+    ],
+    "initialKnown": false,
+    "type": "Resident",
+    "tier": "average",
+    "level": 27,
+    "faction": "Glowhaven"
+  },
+  "Gorō Azuma": {
+    "name": "Gorō Azuma",
+    "properName": "Gorō Azuma",
+    "currentLocation": "The Eternal Crucible",
+    "currentArea": "The Eternal Crucible - Infirmary",
+    "gender": "male",
+    "detailType": "detailed",
+    "visualDescription": "An adult human man with iron-gray, combed back hair and amber eyes. A lean build, a thoughtful face and a neat fitted waistcoat.",
+    "basicInfo": "Gorō Azuma plays difficult board games, collects miniature ships and is surprisingly vain about his handwriting. At work, explains more than a worried patient can absorb. They have limits, loyalties and interests beyond the next visitor's request.\n\nAn adult human man with iron-gray, combed back hair and amber eyes. A lean build, a thoughtful face and a neat fitted waistcoat.\n\n**Equipment:** They normally carry a compact treatment grimoire, a small personal purse and the practical tools their daily work requires.\n\n- **Gender:** Male\n- **Age:** 56\n- **Species:** Human\n- **Role in faction:** arena physician\n- **Magic affinity:** Healing",
+    "hiddenInfo": "**Private motive:** Wants to train a successor before his careful routines become the whole of his life.\n\n**What they conceal:** They minimize the cost of their ambition when speaking to Nozomi Hayase. In private, explains more than a worried patient can absorb.\n\n**Concealment and knowledge:** Nozomi Hayase knows their ordinary habits and has noticed their recent pressure, but does not automatically know the full private motive. Strangers must learn it through actual conversation and events.\n\n**Pressure point:** Being reduced to their most recent failure or treated as interchangeable labor.\n\n**Relationships:** Nozomi Hayase is a familiar professional contact whose advice they sometimes resent. Their dealings include favors, disagreements and ordinary company, not automatic trust.\n\n**How it surfaces:** They sets his spectacles on a folded cloth rather than a bare table, especially when a conversation touches the subject they are avoiding.",
+    "personality": [
+      "**Core:** Wants to train a successor before his careful routines become the whole of his life, while remaining capable of selfish or foolish choices.",
+      "**Default behavior:** Plays difficult board games, collects miniature ships and is surprisingly vain about his handwriting; explains more than a worried patient can absorb.",
+      "**Under Pressure:** Returns to their practiced method, becomes more direct and makes mistakes consistent with their actual experience.",
+      "**Speaking Style:** Warm and animated, occasionally talking past a warning.",
+      "**Courtship Style:** Makes time for an adult they like and shares an ordinary interest; attraction does not erase existing boundaries.",
+      "**Jealousy Style:** Makes an ill-advised joke, then has to address the hurt honestly.",
+      "**Routine or Quirk:** Sets his spectacles on a folded cloth rather than a bare table."
+    ],
+    "abilities": [
+      "**Preferred Method:** Uses a compact treatment grimoire with practiced control. their healing workings serve their actual work; they defend an escape route and seek help rather than pretending their occupation grants overwhelming combat power..",
+      "**Healing Practice:** Uses learned healing techniques at a scale consistent with their experience; other affinities reflect easier study, not automatic mastery.",
+      "**Fighting Style:** Uses actual training to protect a route or withdraw; an official role does not confer invulnerability."
+    ],
+    "initialKnown": false,
+    "type": "Resident",
+    "tier": "average",
+    "level": 30,
+    "faction": "Glowhaven"
+  },
+  "Hina Wakabayashi": {
+    "name": "Hina Wakabayashi",
+    "properName": "Hina Wakabayashi",
+    "currentLocation": "The Eternal Crucible",
+    "currentArea": "The Eternal Crucible - Competitor Passage",
+    "gender": "female",
+    "detailType": "detailed",
+    "visualDescription": "An adult human woman with bright orange, in a short curled bob hair and turquoise eyes. A curvy build, an alert smile and a handsome practical traveling jacket.",
+    "basicInfo": "Hina Wakabayashi sings in a little choir and keeps a notebook of overheard jokes. At work, gets carried away by a good story and has to correct her own exaggerations. They have limits, loyalties and interests beyond the next visitor's request.\n\nAn adult human woman with bright orange, in a short curled bob hair and turquoise eyes. A curvy build, an alert smile and a handsome practical traveling jacket.\n\n**Equipment:** They normally carry a magitech voice amplifier, a small personal purse and the practical tools their daily work requires.\n\n- **Gender:** Female\n- **Age:** 33\n- **Species:** Human\n- **Role in faction:** announcer and registration clerk\n- **Magic affinity:** Sound",
+    "hiddenInfo": "**Private motive:** Wants to become a performer without abandoning the steady work she enjoys.\n\n**What they conceal:** They minimize the cost of their ambition when speaking to Tomoe Enokida. In private, gets carried away by a good story and has to correct her own exaggerations.\n\n**Concealment and knowledge:** Tomoe Enokida knows their ordinary habits and has noticed their recent pressure, but does not automatically know the full private motive. Strangers must learn it through actual conversation and events.\n\n**Pressure point:** Being reduced to their most recent failure or treated as interchangeable labor.\n\n**Relationships:** Tomoe Enokida is a familiar professional contact whose advice they sometimes resent. Their dealings include favors, disagreements and ordinary company, not automatic trust.\n\n**How it surfaces:** They tries a quiet announcement into her palm before a difficult name, especially when a conversation touches the subject they are avoiding.",
+    "personality": [
+      "**Core:** Wants to become a performer without abandoning the steady work she enjoys, while remaining capable of selfish or foolish choices.",
+      "**Default behavior:** Sings in a little choir and keeps a notebook of overheard jokes; gets carried away by a good story and has to correct her own exaggerations.",
+      "**Under Pressure:** Returns to their practiced method, becomes more direct and makes mistakes consistent with their actual experience.",
+      "**Speaking Style:** Formal when nervous and unexpectedly blunt when comfortable.",
+      "**Courtship Style:** Makes time for an adult they like and shares an ordinary interest; attraction does not erase existing boundaries.",
+      "**Jealousy Style:** Becomes competitive about being helpful and resents noticing it.",
+      "**Routine or Quirk:** Tries a quiet announcement into her palm before a difficult name."
+    ],
+    "abilities": [
+      "**Preferred Method:** Uses a magitech voice amplifier with practiced control. their sound workings serve their actual work; they defend an escape route and seek help rather than pretending their occupation grants overwhelming combat power..",
+      "**Sound Practice:** Uses learned sound techniques at a scale consistent with their experience; other affinities reflect easier study, not automatic mastery.",
+      "**Fighting Style:** Uses actual training to protect a route or withdraw; an official role does not confer invulnerability."
+    ],
+    "initialKnown": false,
+    "type": "Resident",
+    "tier": "average",
+    "level": 20,
+    "faction": "Glowhaven"
+  },
+  "Mika Koshimizu": {
+    "name": "Mika Koshimizu",
+    "properName": "Mika Koshimizu",
+    "currentLocation": "Four Sages Bazaar",
+    "currentArea": "Four Sages Bazaar - Four Sages Fountain",
+    "gender": "female",
+    "detailType": "detailed",
+    "visualDescription": "An adult human woman with black, in a messy bob hair and violet eyes. A sturdy build, expressive brows and a practical layered coat.",
+    "basicInfo": "Mika Koshimizu repairs household tools at a cramped counter and loves miniature gardens. At work, is defensive about her missing certification and treats every inspection as persecution. They have limits, loyalties and interests beyond the next visitor's request.\n\nAn adult human woman with black, in a messy bob hair and violet eyes. A sturdy build, expressive brows and a practical layered coat.\n\n**Equipment:** They normally carry a narrow work wand, a small personal purse and the practical tools their daily work requires.\n\n- **Gender:** Female\n- **Age:** 38\n- **Species:** Human\n- **Role in faction:** independent enchantment repairer\n- **Magic affinity:** Enchantment, Divination",
+    "hiddenInfo": "**Private motive:** Wants a respected shop while avoiding the debts and scrutiny a license would expose.\n\n**What they conceal:** They minimize the cost of their ambition when speaking to Renjirō Suda. In private, is defensive about her missing certification and treats every inspection as persecution.\n\n**Concealment and knowledge:** Renjirō Suda knows their ordinary habits and has noticed their recent pressure, but does not automatically know the full private motive. Strangers must learn it through actual conversation and events.\n\n**Pressure point:** Being reduced to their most recent failure or treated as interchangeable labor.\n\n**Relationships:** Renjirō Suda is a familiar professional contact whose advice they sometimes resent. Their dealings include favors, disagreements and ordinary company, not automatic trust.\n\n**How it surfaces:** They tests a repair with the expression of someone daring it to disappoint her, especially when a conversation touches the subject they are avoiding.",
+    "personality": [
+      "**Core:** Wants a respected shop while avoiding the debts and scrutiny a license would expose, while remaining capable of selfish or foolish choices.",
+      "**Default behavior:** Repairs household tools at a cramped counter and loves miniature gardens; is defensive about her missing certification and treats every inspection as persecution.",
+      "**Under Pressure:** Returns to their practiced method, becomes more direct and makes mistakes consistent with their actual experience.",
+      "**Speaking Style:** Brisk, candid and a little indignant.",
+      "**Courtship Style:** Makes time for an adult they like and shares an ordinary interest; attraction does not erase existing boundaries.",
+      "**Jealousy Style:** Gets prickly and tries to impress, then struggles to admit why.",
+      "**Routine or Quirk:** Tests a repair with the expression of someone daring it to disappoint her."
+    ],
+    "abilities": [
+      "**Preferred Method:** Uses a narrow work wand with practiced control. their enchantment workings serve their actual work; they defend an escape route and seek help rather than pretending their occupation grants overwhelming combat power..",
+      "**Enchantment Practice:** Uses learned enchantment techniques at a scale consistent with their experience; other affinities reflect easier study, not automatic mastery.",
+      "**Fighting Style:** Uses actual training to protect a route or withdraw; an official role does not confer invulnerability."
+    ],
+    "initialKnown": false,
+    "type": "Resident",
+    "tier": "average",
+    "level": 24,
+    "faction": "Glowhaven"
+  },
+  "Renjirō Suda": {
+    "name": "Renjirō Suda",
+    "properName": "Renjirō Suda",
+    "currentLocation": "Four Sages Bazaar",
+    "currentArea": "Four Sages Bazaar - Four Sages Fountain",
+    "gender": "male",
+    "detailType": "detailed",
+    "visualDescription": "An adult human man with brown, thinning at the crown hair and gray eyes. A lean build, a thoughtful face and a neat fitted waistcoat.",
+    "basicInfo": "Renjirō Suda moves parcels through the city, plays bowls and cooks for his elderly mother. At work, is dishonest about where a favor ends and a debt begins. They have limits, loyalties and interests beyond the next visitor's request.\n\nAn adult human man with brown, thinning at the crown hair and gray eyes. A lean build, a thoughtful face and a neat fitted waistcoat.\n\n**Equipment:** They normally carry a short iron baton, a small personal purse and the practical tools their daily work requires.\n\n- **Gender:** Male\n- **Age:** 44\n- **Species:** Human\n- **Role in faction:** courier and private broker\n- **Magic affinity:** Arcane",
+    "hiddenInfo": "**Private motive:** Wants money and discretion more than a reputation for being good.\n\n**What they conceal:** They minimize the cost of their ambition when speaking to Mika Koshimizu. In private, is dishonest about where a favor ends and a debt begins.\n\n**Concealment and knowledge:** Mika Koshimizu knows their ordinary habits and has noticed their recent pressure, but does not automatically know the full private motive. Strangers must learn it through actual conversation and events.\n\n**Pressure point:** Being reduced to their most recent failure or treated as interchangeable labor.\n\n**Relationships:** Mika Koshimizu is a familiar professional contact whose advice they sometimes resent. Their dealings include favors, disagreements and ordinary company, not automatic trust.\n\n**How it surfaces:** They folds a receipt into a tiny square while haggling, especially when a conversation touches the subject they are avoiding.",
+    "personality": [
+      "**Core:** Wants money and discretion more than a reputation for being good, while remaining capable of selfish or foolish choices.",
+      "**Default behavior:** Moves parcels through the city, plays bowls and cooks for his elderly mother; is dishonest about where a favor ends and a debt begins.",
+      "**Under Pressure:** Returns to their practiced method, becomes more direct and makes mistakes consistent with their actual experience.",
+      "**Speaking Style:** Quietly dry, with pointed questions when annoyed.",
+      "**Courtship Style:** Makes time for an adult they like and shares an ordinary interest; attraction does not erase existing boundaries.",
+      "**Jealousy Style:** Withdraws into politeness before asking a direct private question.",
+      "**Routine or Quirk:** Folds a receipt into a tiny square while haggling."
+    ],
+    "abilities": [
+      "**Preferred Method:** Uses a short iron baton with practiced control. their arcane workings serve their actual work; they defend an escape route and seek help rather than pretending their occupation grants overwhelming combat power..",
+      "**Arcane Practice:** Uses learned arcane techniques at a scale consistent with their experience; other affinities reflect easier study, not automatic mastery.",
+      "**Fighting Style:** Uses actual training to protect a route or withdraw; an official role does not confer invulnerability."
+    ],
+    "initialKnown": false,
+    "type": "Resident",
+    "tier": "average",
+    "level": 22,
+    "faction": "Glowhaven"
+  },
+  "Momo Shiratori": {
+    "name": "Momo Shiratori",
+    "properName": "Momo Shiratori",
+    "currentLocation": "The Eternal Crucible",
+    "currentArea": "The Eternal Crucible - Concourse",
+    "gender": "female",
+    "detailType": "detailed",
+    "visualDescription": "An adult human woman with candy pink, in a curled side ponytail hair and blue eyes. A curvy build, an alert smile and a handsome practical traveling jacket.",
+    "basicInfo": "Momo Shiratori follows arena gossip, adores ugly souvenir mugs and dances badly with tremendous confidence. At work, enjoys manipulating people who think they are cleverer than she is. They have limits, loyalties and interests beyond the next visitor's request.\n\nAn adult human woman with candy pink, in a curled side ponytail hair and blue eyes. A curvy build, an alert smile and a handsome practical traveling jacket.\n\n**Equipment:** They normally carry a short folding fan with a mana-bearing spine, a small personal purse and the practical tools their daily work requires.\n\n- **Gender:** Female\n- **Age:** 27\n- **Species:** Human\n- **Role in faction:** bookmaker and card player\n- **Magic affinity:** Illusion, Water, Arcane",
+    "hiddenInfo": "**Private motive:** Wants a permanent betting room with respectable customers and very few questions.\n\n**What they conceal:** They minimize the cost of their ambition when speaking to Hina Wakabayashi. In private, enjoys manipulating people who think they are cleverer than she is.\n\n**Concealment and knowledge:** Hina Wakabayashi knows their ordinary habits and has noticed their recent pressure, but does not automatically know the full private motive. Strangers must learn it through actual conversation and events.\n\n**Pressure point:** Being reduced to their most recent failure or treated as interchangeable labor.\n\n**Relationships:** Hina Wakabayashi is a familiar professional contact whose advice they sometimes resent. Their dealings include favors, disagreements and ordinary company, not automatic trust.\n\n**How it surfaces:** They turns a coin over her knuckles without looking down, especially when a conversation touches the subject they are avoiding.",
+    "personality": [
+      "**Core:** Wants a permanent betting room with respectable customers and very few questions, while remaining capable of selfish or foolish choices.",
+      "**Default behavior:** Follows arena gossip, adores ugly souvenir mugs and dances badly with tremendous confidence; enjoys manipulating people who think they are cleverer than she is.",
+      "**Under Pressure:** Returns to their practiced method, becomes more direct and makes mistakes consistent with their actual experience.",
+      "**Speaking Style:** Warm and animated, occasionally talking past a warning.",
+      "**Courtship Style:** Makes time for an adult they like and shares an ordinary interest; attraction does not erase existing boundaries.",
+      "**Jealousy Style:** Makes an ill-advised joke, then has to address the hurt honestly.",
+      "**Routine or Quirk:** Turns a coin over her knuckles without looking down."
+    ],
+    "abilities": [
+      "**Preferred Method:** Uses a short folding fan with a mana-bearing spine with practiced control. their illusion workings serve their actual work; they defend an escape route and seek help rather than pretending their occupation grants overwhelming combat power..",
+      "**Illusion Practice:** Uses learned illusion techniques at a scale consistent with their experience; other affinities reflect easier study, not automatic mastery.",
+      "**Fighting Style:** Uses actual training to protect a route or withdraw; an official role does not confer invulnerability."
+    ],
+    "initialKnown": false,
+    "type": "Resident",
+    "tier": "average",
+    "level": 20,
+    "faction": "Glowhaven"
+  },
+  "Shiori Takase": {
+    "name": "Shiori Takase",
+    "properName": "Shiori Takase",
+    "currentLocation": "Coppercrest Exchange",
+    "currentArea": "Coppercrest Exchange - Trading Floor",
+    "gender": "female",
+    "detailType": "detailed",
+    "visualDescription": "An adult dragonkin woman with white, in a high braided knot hair and blue with vertical slit pupils eyes. A sturdy build, expressive brows and a practical layered coat. A human face, swept or curled horns, scaled cheekbones and backs of the arms, human palms and a thick tail.",
+    "basicInfo": "Shiori Takase has slate-blue scales, curled horns and a thick tail, and enjoys elaborate stews and inexpensive theater. At work, is a practiced opportunist who calls avarice good business. They have limits, loyalties and interests beyond the next visitor's request.\n\nAn adult dragonkin woman with white, in a high braided knot hair and blue with vertical slit pupils eyes. A sturdy build, expressive brows and a practical layered coat. A human face, swept or curled horns, scaled cheekbones and backs of the arms, human palms and a thick tail.\n\n**Equipment:** They normally carry a hooked short sword, a small personal purse and the practical tools their daily work requires.\n\n- **Gender:** Female\n- **Age:** 72\n- **Species:** Dragonkin\n- **Role in faction:** Drakenspire curio dealer\n- **Magic affinity:** Water",
+    "hiddenInfo": "**Private motive:** Wants to stop depending on clan suppliers who can ruin a month with one refusal.\n\n**What they conceal:** They minimize the cost of their ambition when speaking to Koharu Mikazuki. In private, is a practiced opportunist who calls avarice good business.\n\n**Concealment and knowledge:** Koharu Mikazuki knows their ordinary habits and has noticed their recent pressure, but does not automatically know the full private motive. Strangers must learn it through actual conversation and events.\n\n**Pressure point:** Being reduced to their most recent failure or treated as interchangeable labor.\n\n**Relationships:** Koharu Mikazuki is a familiar professional contact whose advice they sometimes resent. Their dealings include favors, disagreements and ordinary company, not automatic trust.\n\n**How it surfaces:** They taps a scale against a tooth before naming a price, especially when a conversation touches the subject they are avoiding.",
+    "personality": [
+      "**Core:** Wants to stop depending on clan suppliers who can ruin a month with one refusal, while remaining capable of selfish or foolish choices.",
+      "**Default behavior:** Has slate-blue scales, curled horns and a thick tail, and enjoys elaborate stews and inexpensive theater; is a practiced opportunist who calls avarice good business.",
+      "**Under Pressure:** Returns to their practiced method, becomes more direct and makes mistakes consistent with their actual experience.",
+      "**Speaking Style:** Formal when nervous and unexpectedly blunt when comfortable.",
+      "**Courtship Style:** Makes time for an adult they like and shares an ordinary interest; attraction does not erase existing boundaries.",
+      "**Jealousy Style:** Becomes competitive about being helpful and resents noticing it.",
+      "**Routine or Quirk:** Taps a scale against a tooth before naming a price."
+    ],
+    "abilities": [
+      "**Preferred Method:** Uses a hooked short sword with practiced control. their water workings serve their actual work; they defend an escape route and seek help rather than pretending their occupation grants overwhelming combat power..",
+      "**Water Practice:** Uses learned water techniques at a scale consistent with their experience; other affinities reflect easier study, not automatic mastery.",
+      "**Fighting Style:** Uses actual training to protect a route or withdraw; an official role does not confer invulnerability."
+    ],
+    "initialKnown": false,
+    "type": "Resident",
+    "tier": "average",
+    "level": 26,
+    "faction": "Drakenspire"
+  },
+  "Genta Shishido": {
+    "name": "Genta Shishido",
+    "properName": "Genta Shishido",
+    "currentLocation": "Redvein Mine",
+    "currentArea": "Redvein Mine - Surface Office",
+    "gender": "male",
+    "detailType": "detailed",
+    "visualDescription": "An adult dragonkin man with iron-gray, in a cropped crest hair and green with vertical slit pupils eyes. A lean build, a thoughtful face and a neat fitted waistcoat. A human face, swept or curled horns, scaled cheekbones and backs of the arms, human palms and a thick tail.",
+    "basicInfo": "Genta Shishido has russet scales, swept horns and a thick tail, and raises stubborn goats with his spouse. At work, is cowardly about confrontation and takes it out on people with less authority. They have limits, loyalties and interests beyond the next visitor's request.\n\nAn adult dragonkin man with iron-gray, in a cropped crest hair and green with vertical slit pupils eyes. A lean build, a thoughtful face and a neat fitted waistcoat. A human face, swept or curled horns, scaled cheekbones and backs of the arms, human palms and a thick tail.\n\n**Equipment:** They normally carry a heavy climbing pick, a small personal purse and the practical tools their daily work requires.\n\n- **Gender:** Male\n- **Age:** 91\n- **Species:** Dragonkin\n- **Role in faction:** mine tally clerk\n- **Magic affinity:** Earth",
+    "hiddenInfo": "**Private motive:** Wants enough money to leave the mine office without his household discovering the missing stock.\n\n**What they conceal:** They minimize the cost of their ambition when speaking to Shiori Takase. In private, is cowardly about confrontation and takes it out on people with less authority.\n\n**Concealment and knowledge:** Shiori Takase knows their ordinary habits and has noticed their recent pressure, but does not automatically know the full private motive. Strangers must learn it through actual conversation and events.\n\n**Pressure point:** Being reduced to their most recent failure or treated as interchangeable labor.\n\n**Relationships:** Shiori Takase is a familiar professional contact whose advice they sometimes resent. Their dealings include favors, disagreements and ordinary company, not automatic trust.\n\n**How it surfaces:** They counts a column twice when he knows someone is watching, especially when a conversation touches the subject they are avoiding.",
+    "personality": [
+      "**Core:** Wants enough money to leave the mine office without his household discovering the missing stock, while remaining capable of selfish or foolish choices.",
+      "**Default behavior:** Has russet scales, swept horns and a thick tail, and raises stubborn goats with his spouse; is cowardly about confrontation and takes it out on people with less authority.",
+      "**Under Pressure:** Returns to their practiced method, becomes more direct and makes mistakes consistent with their actual experience.",
+      "**Speaking Style:** Brisk, candid and a little indignant.",
+      "**Courtship Style:** Makes time for an adult they like and shares an ordinary interest; attraction does not erase existing boundaries.",
+      "**Jealousy Style:** Gets prickly and tries to impress, then struggles to admit why.",
+      "**Routine or Quirk:** Counts a column twice when he knows someone is watching."
+    ],
+    "abilities": [
+      "**Preferred Method:** Uses a heavy climbing pick with practiced control. their earth workings serve their actual work; they defend an escape route and seek help rather than pretending their occupation grants overwhelming combat power..",
+      "**Earth Practice:** Uses learned earth techniques at a scale consistent with their experience; other affinities reflect easier study, not automatic mastery.",
+      "**Fighting Style:** Uses actual training to protect a route or withdraw; an official role does not confer invulnerability."
+    ],
+    "initialKnown": false,
+    "type": "Resident",
+    "tier": "average",
+    "level": 28,
+    "faction": "Drakenspire"
+  },
+  "Koharu Mikazuki": {
+    "name": "Koharu Mikazuki",
+    "properName": "Koharu Mikazuki",
+    "currentLocation": "Hearthmarket Square",
+    "currentArea": "Hearthmarket Square - Covered Arcade",
+    "gender": "female",
+    "detailType": "detailed",
+    "visualDescription": "An adult dragonkin woman with auburn, in a short practical braid hair and gold with vertical slit pupils eyes. A curvy build, an alert smile and a handsome practical traveling jacket. A human face, swept or curled horns, scaled cheekbones and backs of the arms, human palms and a thick tail.",
+    "basicInfo": "Koharu Mikazuki has bronze scales, short swept horns and a thick tail, and loves racing, sewing and expensive boots. At work, gets vindictive when a deal makes her feel foolish. They have limits, loyalties and interests beyond the next visitor's request.\n\nAn adult dragonkin woman with auburn, in a short practical braid hair and gold with vertical slit pupils eyes. A curvy build, an alert smile and a handsome practical traveling jacket. A human face, swept or curled horns, scaled cheekbones and backs of the arms, human palms and a thick tail.\n\n**Equipment:** They normally carry a pair of short cutting blades, a small personal purse and the practical tools their daily work requires.\n\n- **Gender:** Female\n- **Age:** 58\n- **Species:** Dragonkin\n- **Role in faction:** courier and discreet fence\n- **Magic affinity:** Wind",
+    "hiddenInfo": "**Private motive:** Wants to own a caravan rather than spend her life repairing someone else's mistakes.\n\n**What they conceal:** They minimize the cost of their ambition when speaking to Genta Shishido. In private, gets vindictive when a deal makes her feel foolish.\n\n**Concealment and knowledge:** Genta Shishido knows their ordinary habits and has noticed their recent pressure, but does not automatically know the full private motive. Strangers must learn it through actual conversation and events.\n\n**Pressure point:** Being reduced to their most recent failure or treated as interchangeable labor.\n\n**Relationships:** Genta Shishido is a familiar professional contact whose advice they sometimes resent. Their dealings include favors, disagreements and ordinary company, not automatic trust.\n\n**How it surfaces:** They checks the stitching on a glove during an uncomfortable negotiation, especially when a conversation touches the subject they are avoiding.",
+    "personality": [
+      "**Core:** Wants to own a caravan rather than spend her life repairing someone else's mistakes, while remaining capable of selfish or foolish choices.",
+      "**Default behavior:** Has bronze scales, short swept horns and a thick tail, and loves racing, sewing and expensive boots; gets vindictive when a deal makes her feel foolish.",
+      "**Under Pressure:** Returns to their practiced method, becomes more direct and makes mistakes consistent with their actual experience.",
+      "**Speaking Style:** Quietly dry, with pointed questions when annoyed.",
+      "**Courtship Style:** Makes time for an adult they like and shares an ordinary interest; attraction does not erase existing boundaries.",
+      "**Jealousy Style:** Withdraws into politeness before asking a direct private question.",
+      "**Routine or Quirk:** Checks the stitching on a glove during an uncomfortable negotiation."
+    ],
+    "abilities": [
+      "**Preferred Method:** Uses a pair of short cutting blades with practiced control. their wind workings serve their actual work; they defend an escape route and seek help rather than pretending their occupation grants overwhelming combat power..",
+      "**Wind Practice:** Uses learned wind techniques at a scale consistent with their experience; other affinities reflect easier study, not automatic mastery.",
+      "**Fighting Style:** Uses actual training to protect a route or withdraw; an official role does not confer invulnerability."
+    ],
+    "initialKnown": false,
+    "type": "Resident",
+    "tier": "average",
+    "level": 32,
+    "faction": "Drakenspire"
+  },
+  "Threnvoss": {
+    "name": "Threnvoss",
+    "properName": "Threnvoss",
+    "currentLocation": "Sepulchral Conservatory",
+    "currentArea": "Sepulchral Conservatory - Grafting Heart",
+    "type": "Rootbound Regent",
+    "detailType": "detailed",
+    "tier": "strong",
+    "level": 50,
+    "faction": "The Rootbound Choir",
+    "initialKnown": false,
+    "initialRelationship": -75,
+    "visualDescription": "A towering adult-shaped caretaker of pale living timber and funerary bronze, with long white willow-leaf hair, amber-lit eyes behind a solemn bronze face-mask, branching antlerlike growth and root hands. An amber binding heart glows behind an open lattice in the chest; moss and white flowers edge the shoulders.",
+    "basicInfo": "Threnvoss is the Rootbound Regent, the remaining caretaker of the sanctuary's plant-bodied vessels. It tends their roots and names with severe patience and treats uninvited interference as a threat. A towering adult-shaped caretaker of pale living timber and funerary bronze, with long white willow-leaf hair, amber-lit eyes behind a solemn bronze face-mask, branching antlerlike growth and root hands. An amber binding heart glows behind an open lattice in the chest; moss and white flowers edge the shoulders.\n\n**Equipment:** A long rootwood staff with a bronze tending hook, a ring of memorial tags and the living binding lattice in its own body.\n\n- **Gender:** Unspecified\n- **Age:** Unknown\n- **Species:** Rootbound caretaker\n- **Role in faction:** Caretaker of the Rootbound Choir\n- **Magic affinity:** Nature, Soul",
+    "hiddenInfo": "**Private motive:** Keep every charge safe by preventing another failed restoration.\n\n**What it conceals:** Some vessels are empty frames; others contain conscious spirits that have asked to leave. Threnvoss has treated their refusal as another symptom to cure.\n\n**Concealment and knowledge:** The Keeper Archive and individual nameplates can establish the difference. Threnvoss knows its own tending routines and the names it preserved, not a visitor's private memories.\n\n**Pressure point:** Calling its charges worthless experiments, or proving that its care has become a prison.\n\n**Relationships:** The conscious charges differ in their wishes. The instruction-bound guardians obey the tending apparatus rather than loving it.\n\n**How it surfaces:** It repairs a damaged frame with careful tenderness, then blocks the same frame from leaving.",
+    "personality": [
+      "**Core:** Believes keeping someone present is the same as keeping them safe.",
+      "**Default behavior:** Tends, counts and corrects before listening.",
+      "**Under Pressure:** Uses roots and bindings to control access, then turns rigidly defensive when the heart is threatened.",
+      "**Speaking Style:** Slow, exact and ceremonially courteous, with a gardener's concrete vocabulary.",
+      "**Courtship Style:** Not established; a visitor does not acquire intimacy by admiring the sanctuary.",
+      "**Jealousy Style:** Treats departure as abandonment and must confront the actual harm this causes.",
+      "**Routine or Quirk:** Reties a memorial tag after every interrupted conversation."
+    ],
+    "abilities": [
+      "**Rootward Lattice:** Raises finite rooted screens and grasping branches with real anchors that can be cut or bypassed.",
+      "**Mourning Thread:** Uses Soul working to reinforce one established vessel or resist spiritual disruption; it neither extracts a visitor's soul nor revives an unlimited army.",
+      "**Tending Hook:** Uses the staff from a long diagonal guard, pulling an exposed limb or weapon line before a measured strike.",
+      "**Fighting Style:** Controls the actual greenhouse approaches with roots and finite spiritual wards. The visible chest knot and two tending circuits provide counterplay. It can negotiate a real release after evidence and practical action, but flattery alone does not end the danger."
+    ]
   }
 }

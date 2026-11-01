@@ -5693,5 +5693,43 @@
     "estimatedValue": 350,
     "bonuses": [],
     "slot": "tool"
+  },
+  "Crucible Championship Trophy": {
+    "name": "Crucible Championship Trophy",
+    "category": "Relic",
+    "description": "A polished bronze-and-enamel cup bearing the Eternal Crucible's laurel and crossed-ring crest. It commemorates an officially won championship; the rim has room for the holder's name and the edition's inscription. Its weight is reassuringly real, and it grants no magical advantage.",
+    "bonuses": [],
+    "tier": "artisan",
+    "estimatedValue": 100
+  },
+  "Sepulchral Portal Key": {
+    "name": "Sepulchral Portal Key",
+    "category": "Key",
+    "description": "A pale root-shaped key carrying the scent of rain on old wood. It identifies the opened passage between the Sepulchral Portal House and the Evertree Portal Room. The return arch remains usable without it; it grants no authority over the sanctuary or its inhabitants.",
+    "bonuses": []
+  },
+  "Rootwake Seal": {
+    "name": "Rootwake Seal",
+    "category": "Relic",
+    "description": "A green-bronze tending seal taken from the released rootwake circuit. Its leaf-shaped channels are warm where living roots once gripped them.",
+    "bonuses": [],
+    "tier": "artisan",
+    "estimatedValue": 120
+  },
+  "Mourner's Seal": {
+    "name": "Mourner's Seal",
+    "category": "Relic",
+    "description": "A small pale bronze bell-seal from the sanctuary's mourning circuit. A worn name is engraved inside its hollow rim.",
+    "bonuses": [],
+    "tier": "artisan",
+    "estimatedValue": 120
+  },
+  "Heartwood Remembrance": {
+    "name": "Heartwood Remembrance",
+    "category": "Relic",
+    "description": "An amber-veined heartwood seed from the quieted Sepulchral Conservatory, its white root filaments curled around a small bronze nameplate. It commemorates the end of the Rootbound Regent's coercive vigil.",
+    "bonuses": [],
+    "tier": "special",
+    "estimatedValue": 700
   }
 }

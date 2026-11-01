@@ -8,7 +8,7 @@ Repository: [Vladzenn/voyage-maker](https://github.com/Vladzenn/voyage-maker) (p
 
 - **Canonical world:** [world-draft/WorldAlpha - World.json](world-draft/WorldAlpha%20-%20World.json)
 - **Current state and next work:** [docs/CURRENT_STATE.md](docs/CURRENT_STATE.md)
-- **Champions of the Crucible:** [public notes](world-draft/Champions%20of%20the%20Crucible%20-%20Patch%20Notes.md), [mechanics and live-test guide](world-draft/Champions%20of%20the%20Crucible%20-%20Mechanics%20and%20Playtest%20Guide.md)
+- **Champions of the Crucible:** [public notes](world-draft/Champions%20of%20the%20Crucible%20-%20Patch%20Notes.md), [current championship-card mechanics](world-draft/Crucible%20Championship%20Card%20-%20Mechanics.md)
 - **Latest minor patch:** [public notes](world-draft/Phantom%20Patch%20-%20Patch%20Notes.md), [creation review guide](world-draft/Phantom%20Patch%20-%20Creation%20Guide.md) and [development notes](world-draft/Phantom%20Patch%20-%20Development%20Notes.md)
 - **Approved decisions:** [docs/DECISIONS.md](docs/DECISIONS.md)
 - **Adventurers update:** [release notes](world-draft/Adventurers%20of%20Glowhaven%20-%20Patch%20Notes.md) and [implementation/playtest guide](world-draft/Adventurers%20of%20Glowhaven%20-%20Development%20Notes.md)

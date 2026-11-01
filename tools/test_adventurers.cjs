@@ -187,9 +187,9 @@ const budget=[];
 if(world.triggerDefinitions.cc1_register)scenarios.push(
  ['Crucible registration',{location:'The Eternal Crucible',area:'The Eternal Crucible - Competitor Lounge',scene:['Hina Wakabayashi'],storage:{cc1_phase:'idle'}}],
  ['Crucible live bout',{location:'The Eternal Crucible',area:'The Eternal Crucible - Pillar Court',scene:['Kōta Mibu','Shōgo Mizutani'],storage:{cc1_phase:'live',cc1_active:true}}],
- ['Crucible between bouts',{location:'The Eternal Crucible',area:'The Eternal Crucible - Infirmary',scene:['Nozomi Hayase'],storage:{cc1_phase:'between',cc1_active:true,cc1_care:true}}],
+ ['Crucible between bouts',{location:'The Eternal Crucible',area:'The Eternal Crucible - Infirmary',scene:['Nozomi Hayase'],storage:{cc1_phase:'waiting',cc1_active:true,cc1_care:true}}],
  ['Conservatory tending wing',{location:'Sepulchral Conservatory',area:'Sepulchral Conservatory - Tending Gallery',realm:'The Sepulchral Conservatory',region:'Sepulchral Gardens'}],
- ['Conservatory heart',{location:'Sepulchral Conservatory',area:'Sepulchral Conservatory - Grafting Heart',realm:'The Sepulchral Conservatory',region:'Sepulchral Gardens',scene:['Threnvoss'],storage:{cc1_grove_root:true,cc1_grove_mourning:true}}]
+ ['Conservatory heart',{location:'Sepulchral Conservatory',area:'Sepulchral Conservatory - Grafting Heart',realm:'The Sepulchral Conservatory',region:'Sepulchral Gardens',scene:['Threnvoss'],storage:{cc1_grove_root:true,cc1_grove_mourning:true,cc1_grove_heart_seen:true}}]
 );
 for(const [name,opts] of scenarios){
  const routed=run('ad34_scene_dispatch',opts);

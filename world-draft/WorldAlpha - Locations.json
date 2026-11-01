@@ -1550,7 +1550,7 @@
       }
     },
     "initialKnown": true,
-    "hiddenInfo": "A marker shifted during a heavy demonstration. Tomoe Enokida wants it inspected before the next booked match; competitors dislike delays. A repair, smaller safe ring, or honest postponement are legitimate outcomes. Kōhei Sanada can assess a legal practice setup if consulted but is not the arena's permanent manager. Do not invent brackets or prizes that were never announced.\n\nUse only relevant unresolved situations. Introduce evidence through observation or people who know it. Preserve actual resolutions and player choices; these possibilities are not events that automatically occur on every visit.\n\nLocal authored opportunities, only when their actual premises and relevant contacts fit: Four Academies, One Festival; What We Bring to the Next Morning. Invitations are optional; do not insert all of them into one arrival, disclose private motives, invent missing people or accept for the player.\n\nCRUCIBLE ACTIVITY: Use the current announced edition and recorded result. Do not invent an extra final, resurrect an eliminated competitor or turn a friendly match into a championship. After a real bout, naturally offer relevant care, rest or a check-up once; an unharmed fighter has no fabricated injury and can immediately declare readiness. No exact resource-percentage gate. Outside companions may watch but do not attack, buff or heal during regulated competition. Finite learned summons are legal within actual actions and costs. Respect the actual nonlethal intent and official stop. A registered fighter leaving the venue withdraws; ordinary visitors can leave freely. Discussing fighting does not start a match.",
+    "hiddenInfo": "A marker shifted during a heavy demonstration. Tomoe Enokida wants it inspected before the next booked match; competitors dislike delays. A repair, smaller safe ring, or honest postponement are legitimate outcomes. Kōhei Sanada can assess a legal practice setup if consulted but is not the arena's permanent manager. Do not invent brackets or prizes that were never announced.\n\nUse only relevant unresolved situations. Introduce evidence through observation or people who know it. Preserve actual resolutions and player choices; these possibilities are not events that automatically occur on every visit.\n\nLocal authored opportunities, only when their actual premises and relevant contacts fit: Four Academies, One Festival; What We Bring to the Next Morning. Invitations are optional; do not insert all of them into one arrival, disclose private motives, invent missing people or accept for the player.\n\nCRUCIBLE ACTIVITY: Follow the entrant's announced opponents. Start only the called bout after explicit agreement and actual capacity. A real started bout ends through knockout, surrender, ring-out or referee ruling. Both down eliminates both and brings appropriate care. An unavailable pre-start opponent is replaced or the card is cancelled, never counted as a combat win. Withdrawal means an explicit forfeit of the entry; ordinary movement and spectating do not change its status. Other matches, conversation and recovery are narrative. Care is optional and unharmed people need no invented injury or full bars. Finite summons are legal; outside attacks, buffs and healing are banned. Preserve recorded results and one prize owner. Discussing fighting does not start a match.",
     "npcLevelRange": {
       "min": 1,
       "max": 35
@@ -10651,7 +10651,7 @@
     "basicInfo": "A dry tiled threshold stands outside the abandoned glasshouses. Its pale return arch shows the familiar roots of the Evertree. A worn inspection table and sheltered benches make it a practical place to prepare or turn back.",
     "hiddenInfo": "Preserve the actual Nature/Soul distinction: living plant framework, spiritual binding and conscious occupant are separate. Use the authored creature types as real generated actors before resolving attacks. No instant unregistered damage. Retreat and the portal house remain usable. Cleared encounters stay cleared; do not respawn an endless army on every arrival. Exploration is optional and has a visible level 35–50 risk band. This is a refuge, not an automatic ambush. A clear committed return goes directly to Evertree Base - Portal Room without needing a key.",
     "x": 0,
-    "y": 8,
+    "y": 39,
     "radius": 3,
     "region": "Sepulchral Gardens",
     "complexityType": "complex",
@@ -10682,7 +10682,7 @@
     "basicInfo": "Cracked green glass roofs shelter pale timber bodies, white-leaved memorial trees and slow irrigation channels. Two tending wings circle an inner bronze-latticed greenhouse. Some wooden figures carry names; others repeat only a gardener's old instructions.",
     "hiddenInfo": "Preserve the actual Nature/Soul distinction: living plant framework, spiritual binding and conscious occupant are separate. Use the authored creature types as real generated actors before resolving attacks. No instant unregistered damage. Retreat and the portal house remain usable. Cleared encounters stay cleared; do not respawn an endless army on every arrival. Exploration is optional and has a visible level 35–50 risk band. Introduce small groups of two or three appropriate Gravewood Golems or Rootbound Pallbearers around the Rootwalk/Tending Gallery, and a Censer-Willow with one Ossuary Trellis deeper in the memorial wing. Announce visible movement, cover and ways to withdraw before attacks. These are encounter compositions, not a claim that a typed spawn effect exists. The rootwake valve in the Tending Gallery and mourning valve in the Ossuary Greenhouse must actually be released, repaired or overcome before the inner lattice opens. A nonmage can work with tools, evidence or qualified help. Threnvoss is the sole named caretaker in the Grafting Heart; no substitute boss or automatic opening hit. Two finite Grafted Sentinels can defend the heart if real generated actors exist. The Keeper Archive establishes which vessels hold conscious spirits. Defeat or a genuinely carried-out release can quiet the sanctuary.",
     "x": 0,
-    "y": 0,
+    "y": -19,
     "radius": 3,
     "region": "Sepulchral Gardens",
     "complexityType": "complex",
@@ -10749,8 +10749,8 @@
     "name": "Mourning Garden",
     "basicInfo": "A low-walled garden of white flowers and bronze memorial plaques overlooks the conservatory. Clear water covers part of the path, and a sheltered arbor offers a quiet view toward the portal house.",
     "hiddenInfo": "Preserve the actual Nature/Soul distinction: living plant framework, spiritual binding and conscious occupant are separate. Use the authored creature types as real generated actors before resolving attacks. No instant unregistered damage. Retreat and the portal house remain usable. Cleared encounters stay cleared; do not respawn an endless army on every arrival. Exploration is optional and has a visible level 35–50 risk band. One small Hollowseed Swarm encounter may occupy the pool. The arbor and records offer a credible bypass or insight; no mandatory battle is required for a quiet visit.",
-    "x": 8,
-    "y": 3,
+    "x": 0,
+    "y": 19,
     "radius": 3,
     "region": "Sepulchral Gardens",
     "complexityType": "complex",

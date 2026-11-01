@@ -1,5 +1,7 @@
 # Crucible audit, reference comparison and simplification proposal
 
+**Implementation follow-up:** the user approved the smaller card and then simplified withdrawal further: explicit forfeiting ends the entry; movement alone does not. The suggested immediate venue-exit rule below is superseded. No bench-specific parser was retained. Read [current v2 mechanics](../world-draft/Crucible%20Championship%20Card%20-%20Mechanics.md) for the implemented flow. The reproductions below remain historical evidence of v1 failures.
+
 2 November 2026. Research and reproduction only: the playable world has not been rewritten in this pass. The current tournament should be held for repair before publication. Earlier successful fixtures establish only the cases they actually exercise.
 
 ## Findings reproduced

@@ -1,8 +1,13 @@
 // Diagnostic reproduction of known v1 edge cases. This does not fix them or model live AI.
 const fs=require('fs'),path=require('path'),vm=require('vm');
 const root=path.resolve(__dirname,'..');
+const activeWorld=JSON.parse(fs.readFileSync(path.join(root,'world-draft/WorldAlpha - World.json'),'utf8'));
+if(!activeWorld.triggerDefinitions.cc1_review){
+ console.log('The canonical world now uses card controller v2. Historical v1 failures are retained in research/crucible-audit-2026-11-02/reproductions.json. Run node tools/test_crucible.cjs for current regression coverage.');
+ process.exit(0);
+}
 const source=fs.readFileSync(path.join(__dirname,'test_crucible.cjs'),'utf8');
-const boundary=source.indexOf('\nfor(const name of manifest.triggers)');
+const boundary=source.indexOf('\n// VERSION DISPATCH');
 if(boundary<0)throw Error('Harness boundary changed; inspect rather than silently testing different code.');
 const header=source.slice(0,boundary),rows=[];
 function probe(id,body){

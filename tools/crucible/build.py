@@ -1,4 +1,7 @@
 """Build Champions of the Crucible from an explicit current Studio merge base."""
+# Historical v1 seed builder. Current updates must use revise.py on the latest Studio export.
+if __name__=='__main__':
+    raise SystemExit('The v1 full-bracket seed builder is retired. Use tools/crucible/revise.py --source CURRENT_EXPORT --output CANDIDATE, then validate/export.')
 import argparse,copy,hashlib,json,pathlib,re,random
 from cast import build as cast_build
 from abilities import build as ability_build

@@ -23,7 +23,7 @@ OUT.mkdir(parents=True,exist_ok=True)
 def write(path,obj):
     path.write_text(json.dumps(obj,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
 if args.candidate:write(DRAFT/'WorldAlpha - World.json',w)
-release=DRAFT/'The Schools of Magic, Arise! Full World Update 5 - Champions of the Crucible.json'
+release=DRAFT/('The Schools of Magic, Arise! Full World Update 5 - Champions of the Crucible'+(' - Revised' if m.get('controllerVersion')==2 else '')+'.json')
 write(release,w)
 write(OUT/'New NPC Cards.json',{n:w['npcs'][n] for n in m['npcs']})
 write(OUT/'New Abilities.json',{n:w['abilities'][n] for n in m['abilities']})
@@ -56,7 +56,7 @@ native=copy.deepcopy(w);native['death']['permadeath']=True
 mode='💀 Permadeath Mode';native['gameModes']={mode:native['gameModes'][mode]}
 native['gameModes'][mode]['description']='Solo native permanent death after a genuine lethal outcome. Regulated nonlethal Crucible contests retain their sporting intent; verify stoppage behavior in Voyage before relying on tournament safety.'
 write(OUT/'The Schools of Magic, Arise! - Native Permadeath - Solo.json',native)
-for src,dest in [('Champions of the Crucible - Patch Notes.md','Patch Notes.md'),('Champions of the Crucible - Mechanics and Playtest Guide.md','Mechanics and Playtest Guide.md')]:
+for src,dest in [('Champions of the Crucible - Patch Notes.md','Patch Notes.md'),('Crucible Championship Card - Mechanics.md' if m.get('controllerVersion')==2 else 'Champions of the Crucible - Mechanics and Playtest Guide.md','Mechanics and Playtest Guide.md'),('Crucible - Consistency Refinements.md','Consistency Refinements.md')]:
     if (DRAFT/src).exists():shutil.copyfile(DRAFT/src,OUT/dest)
-write(OUT/'Release Summary.json',{'fullWorld':str(release.relative_to(ROOT)),'worldSHA256':hashlib.sha256(release.read_bytes()).hexdigest(),'newNPCs':len(m['npcs']),'newAbilities':len(m['abilities']),'newQuests':len(m['quests']),'newTriggers':len(m['triggers']),'portraits':len(done),'environmentImages':len(env),'liveStudioValidation':False})
+write(OUT/'Release Summary.json',{'fullWorld':str(release.relative_to(ROOT)),'worldSHA256':hashlib.sha256(release.read_bytes()).hexdigest(),'controllerVersion':m.get('controllerVersion',1),'mergeSourceSHA256':m.get('mergeSourceSHA256',m['sourceSHA256']),'sourceAttachment':m.get('sourceAttachment'),'newNPCs':len(m['npcs']),'newAbilities':len(m['abilities']),'newQuests':len(m['quests']),'packageTriggers':len(m['triggers']),'portraits':len(done),'environmentImages':len(env),'liveStudioValidation':False})
 print(json.dumps({'release':str(release),'portraits':str(OUT/'Crucible Portraits.zip'),'cards':str(OUT/'New NPC Cards.json'),'output':str(OUT)},ensure_ascii=False))

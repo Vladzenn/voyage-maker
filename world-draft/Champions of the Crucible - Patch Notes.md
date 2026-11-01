@@ -10,7 +10,7 @@ This update also reaches beyond the stands, with a haunted sanctuary to explore,
 
 Join optional individual championships with changing fields, named cups and opponents selected around your experience. Familiar competitors retain their own strengths, so learning how someone fights can matter when you meet them again.
 
-- Work your way through an announced bracket toward the final, with prizes and a championship trophy waiting for the winner.
+- Work your way through your scheduled bouts toward the final, with prizes and a championship trophy waiting for the winner.
 - Compete under regulated, nonlethal rules. Surrender, referee stoppages and defeat are part of a sporting career, and losing ends that championship run.
 - Return for later editions after a proper break, or arrange a willing opponent for an ordinary friendly match between championships.
 

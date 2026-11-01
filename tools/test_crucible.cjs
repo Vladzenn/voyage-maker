@@ -15,7 +15,7 @@ function harness(level=20){
   if(c.type==='player-level')return s.players;
   if(c.type==='player-resource')return Object.fromEntries(Object.keys(s.players).map(n=>[n,c.resource==='Health'?s.hp[n]:100]));
   if(c.type==='action-text')return s.action;
-  if(c.type==='story-text')return '';
+  if(c.type==='story-text')return s.story||'';
   if(c.type==='player-item')return Object.fromEntries(Object.keys(s.players).map(n=>[n,s.items[n]?.[c.item]||0]));
   if(c.type.startsWith('read-'))return s.storage[c.key]??(c.type==='read-boolean'?false:c.type==='read-string'?'':0);
   if(c.type==='npc-health')return s.npcs[c.npc]?.hp;
@@ -63,10 +63,14 @@ function harness(level=20){
  const c=()=>s.storage.cc1;
  const clock=()=>run('cc1_initialize');
  const enter=()=>{clock();run('cc1_register');};
- const win=()=>{run('cc1_ready');const m=c().matches.find(x=>x.id===c().match),op=m.players.find(x=>x!=='@');s.tick++;s.npcs[op].hp=0;run('cc1_observe');return op};
+ const win=()=>{s.action=['I am ready to begin my called bout.'];run('cc1_ready');const m=c().v===2?c().card[c().index]:c().matches.find(x=>x.id===c().match),op=c().v===2?m.opponent:m.players.find(x=>x!=='@');s.tick++;s.npcs[op].hp=0;run('cc1_observe');return op};
  return {s,run,c,clock,enter,win};
 }
 
+// VERSION DISPATCH: retain v1 fixtures as historical diagnostics; current code uses the card suite.
+if(w.triggerDefinitions.cc1_initialize.script.includes('v:2')){
+ require('./test_crucible_v2.cjs')({w,manifest,harness,ck,getChecks:()=>checks});
+}else{
 for(const name of manifest.triggers){const t=w.triggerDefinitions[name];ck(t.conditions.length<=5&&t.effects.length<=10,'Native trigger caps '+name);if(t.script)new vm.Script(t.script)}
 for(const level of [1,2,5,10,15,20,30,40,60,100,150]){
  const h=harness(level);h.enter();ck(h.c().phase==='ready','An available suitable or announced lower field can register at '+level);
@@ -174,3 +178,4 @@ for(const [name,hash] of Object.entries(manifest.preserved.originalItems))ck(dig
 for(const [name,hash] of Object.entries(manifest.preserved.originalAbilities))ck(digest(w.abilities[name])===hash,'Keep preceding ability '+name);
 for(const [section,entries] of Object.entries(manifest.preserved.spider))for(const [name,hash] of Object.entries(entries))ck(digest(w[section][name])===hash,'Protected Spider configuration '+name);
 console.log(JSON.stringify({status:'passed',checks,newNPCs:manifest.npcs.length,newAbilities:manifest.abilities.length,scope:'Actual emitted controller scripts with explicit semantic fixtures. No live Voyage, semantic recognition, native knockout or media-generation guarantee.'}));
+}

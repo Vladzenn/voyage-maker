@@ -238,6 +238,18 @@
       "min": 35,
       "max": 45
     },
-    "basicInfo": "A compact abandoned sanctuary of glasshouses, memorial trees and irrigation walks. The portal house is a staging refuge; inner gardens hold plant-bodied undead guardians and an intelligent caretaker. This is a midgame expedition with real retreat routes."
+    "basicInfo": "A compact abandoned sanctuary of glasshouses, memorial trees and irrigation walks. The portal house is a staging refuge; inner gardens hold plant-bodied undead guardians and an intelligent caretaker. This is a midgame expedition with real retreat routes.",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/d6992d67-75da-4571-b2d6-4f9098363504.png"
+      }
+    }
   }
 }

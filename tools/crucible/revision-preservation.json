@@ -4,7 +4,7 @@
     "traits": "1f30bc7cb746be9127ce31c8173c6f470f98b1deaa9848706b0bc66f329f392a",
     "storySettings": "89619ac9a882860da2d9a4ff6f71846226931abc3140fd86a8ca23f5101737bc",
     "realms": "5d55e6af68e1ac9e24f57f2c7f2679d50f471b6de4a17a4246449a78b6ca8640",
-    "progressionSettings": "2ed2eab932ec5f0ca97232095387a8e3dcc20d2be44a4da725a53532852666f7",
+    "progressionSettings": "10e4227dabd34b3405252ce04ddeb658b458038a67932ee7eef32307c81a375f",
     "heroesVersion": "7a61b53701befdae0eeeffaecc73f14e20b537bb0f8b91ad7c2936dc63562b25",
     "locationSettings": "2f834f49fa08bf8341eabb9297d41e0f88a32e936bb32e6c26c80498f2b39a5b",
     "randomNames": "5be8dfed3a2a9f4f6b47b150ae1b50c0a42799cd68bead90bd187640f160ac00",
@@ -281,6 +281,21 @@
       "Sepulchral Portal House",
       "Sepulchral Conservatory",
       "Mourning Garden"
+    ]
+  },
+  "approvedLevelingPaceRevision": {
+    "date": "2026-11-02",
+    "before": {
+      "startingCharacterLevelUpRequirement": 1000,
+      "extraRequiredXPPerCharacterLevel": 400
+    },
+    "after": {
+      "startingCharacterLevelUpRequirement": 400,
+      "extraRequiredXPPerCharacterLevel": 50
+    },
+    "onlyChangedWorldFields": [
+      "progressionSettings.startingCharacterLevelUpRequirement",
+      "progressionSettings.extraRequiredXPPerCharacterLevel"
     ]
   }
 }

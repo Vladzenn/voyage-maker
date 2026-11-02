@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-02",
+  "baseWorldSHA256": "925d3eb467e8c1e713cab78f4a7ec65fb9dc2431674b87894b8c08acd712e488",
+  "changes": [
+    {
+      "path": [
+        "progressionSettings",
+        "startingCharacterLevelUpRequirement"
+      ],
+      "before": 1000,
+      "after": 400
+    },
+    {
+      "path": [
+        "progressionSettings",
+        "extraRequiredXPPerCharacterLevel"
+      ],
+      "before": 400,
+      "after": 50
+    }
+  ],
+  "allOtherWorldFieldsExact": true,
+  "NPCsExact": true,
+  "levelRewardsExact": true,
+  "skillProgressionExact": true,
+  "combatAndQuestRewardsExact": true,
+  "existingMediaAndMapCoordinatesExact": true,
+  "triggerDefinitionsExact": true,
+  "maxCharacterLevel": 150,
+  "documentedNextLevelExamples": [
+    {
+      "fromLevel": 1,
+      "toLevel": 2,
+      "before": 1000,
+      "after": 400
+    },
+    {
+      "fromLevel": 2,
+      "toLevel": 3,
+      "before": 1400,
+      "after": 450
+    },
+    {
+      "fromLevel": 4,
+      "toLevel": 5,
+      "before": 2200,
+      "after": 550
+    },
+    {
+      "fromLevel": 9,
+      "toLevel": 10,
+      "before": 4200,
+      "after": 800
+    },
+    {
+      "fromLevel": 19,
+      "toLevel": 20,
+      "before": 8200,
+      "after": 1300
+    },
+    {
+      "fromLevel": 29,
+      "toLevel": 30,
+      "before": 12200,
+      "after": 1800
+    }
+  ],
+  "mechanicsReference": "https://wiki.unofficial.voyage/mechanics/progressionSettings",
+  "turnCountsNotPredicted": true
+}

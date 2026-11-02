@@ -67961,8 +67961,8 @@
     "newSkillGenerationEnabled": false
   },
   "progressionSettings": {
-    "startingCharacterLevelUpRequirement": 1000,
-    "extraRequiredXPPerCharacterLevel": 400,
+    "startingCharacterLevelUpRequirement": 400,
+    "extraRequiredXPPerCharacterLevel": 50,
     "maxCharacterLevel": 150,
     "abilityPointEveryLevels": 1,
     "abilityPointsPerGrant": 1,

@@ -144,3 +144,9 @@ The author requested verification and repair of the reported supporting-card err
 The author explicitly clarified that carrying the Crucible trophy and Silver Web Portal Key is a progression gate, not a literal ingredient combination, ritual or explanation of the Conservatory portal. Keep those actual trigger conditions unchanged. Put the narrative distinction only in the relevant discovery instruction; never expose progression checks in public lore or dialogue. The normal destination keys keep their established travel function. This clarification supersedes the earlier public rumor about pairing a champion's prize with a silken key to awaken the passage.
 
 Because a world trigger's instruction changes as well as NPC prose, the author requested a complete updated world file. Preserve the latest academy/guild artwork and all other world content.
+
+## 2 November — faster leveling instead of a general cast nerf
+
+The author raised a small student/adventuring-adult nerf, then preferred changing leveling instead. Implement the playtester’s proposed native curve: 400 XP for the first character level-up, with 50 additional required XP per subsequent level. The previous values were 1,000 and 400. Leave all NPC levels unchanged, including every previously protected exception. Do not compound this change with more XP awards, altered skill progression, stronger level rewards or new leveling triggers. The level cap remains 150. Only the two native progression fields change.
+
+The author also asked how Luxcellia handles long place names. The latest supplied export uses qualified area keys and local-context resolution; it is not a mandate that players type full addresses. Our movement instructions already resolve shortened area names within the current parent. This was comparison and advice, not authorization to migrate every location key. No place renames were made in this update.

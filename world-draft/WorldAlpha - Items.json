@@ -2,7 +2,7 @@
   "Mark": {
     "name": "Mark",
     "category": "Currency",
-    "description": "One unit of Glowhaven currency. Quotes, wages, and debts use marks. An item payout and a displayed money total describe the same holdings, never two separate payments.",
+    "description": "A stamped silver coin accepted in Glowhaven and abroad. One coin is one mark, also called a silver mark. Meals, wages, prices and debts are counted in this same unit.",
     "bonuses": [],
     "needsMediaGeneration": false
   },

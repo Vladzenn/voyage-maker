@@ -3323,8 +3323,8 @@
   "Pebbletown": {
     "name": "Pebbletown",
     "basicInfo": "A small town outside Glowhaven's walls to the southwest, with a modest center and nearby homes.",
-    "x": 14,
-    "y": -22,
+    "x": 13,
+    "y": -27,
     "radius": 2,
     "region": "Glowhaven",
     "complexityType": "complex",

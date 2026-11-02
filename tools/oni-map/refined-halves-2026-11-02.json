@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-02",
+  "provider": "built-in image generation",
+  "scope": "Two contextual panel refinements only; no world implementation or Voyage uploads.",
+  "master": "world-draft/map-variations/Oni Nation/Oni Nation - Master Map v1.png",
+  "masterDimensions": [
+    1447,
+    1087
+  ],
+  "sharedSourceX": [
+    627,
+    819
+  ],
+  "west": {
+    "sourceBounds": [
+      0,
+      0,
+      819,
+      1087
+    ],
+    "output": "world-draft/map-variations/Oni Nation/Refined Halves v1/Oni Nation - West Refined - With Overlap.png",
+    "dimensions": [
+      1089,
+      1445
+    ],
+    "sha256": "b439287f15e8be8c52ca07391d2dfdc20712dd842070fe6f7f6f4afa16ae1c94",
+    "prompt": "REFINE IMAGE 1, the WESTERN MAP PANEL. This is an image-to-image detail restoration and enrichment of an existing landscape, not a new composition. Image 2 is the FULL MASTER MAP for geographic context only. Return ONLY the same western panel as image 1, maintaining its portrait approximately 3:4 framing, identical outer bounds, same camera, same scale, same crop, and every principal feature in the same position. The rightmost roughly 23% is a shared overlap with the eastern panel; preserve the geography and alignment of this strip especially carefully. Keep partial features at the right edge cropped as they are; do not invent complete cities around them. Do not show the full master in the output.\n\nThe goal is visibly more DEFINED, WELL-CONSTRUCTED DETAIL throughout this already beautiful image. Render at the highest useful native detail: crisp luminous colorful 2D high-fantasy JRPG map illustration, refined painterly forms, exceptional miniature architecture and terrain, clean silhouettes, legible roof planes and walls, fine controlled edges. Keep the source's saturated emerald forest, turquoise water, gold fields, pink blossoms, dark-blue/ivory Japanese roofs and consistent warm sunlight. Retain all geographic distances and the huge national-map viewing scale. Buildings must not get larger or turn this into a close-up village. Reveal detailed shapes inside their existing footprints.\n\nARCHITECTURE: Refine the western riverside castle town at middle-left into believable tiny Japanese architecture: tiered roofs with coherent overlapping eaves, tiled roof ridges, ivory plaster and dark timber walls, stone foundations, separate courtyard walls and gates, small domestic roofs, wooden porches, bridges with supports, and narrow visible streets. Preserve the town's size, shape and location and the main bridge's endpoints. Clarify existing village clusters and lakeside hamlets into individual tiny houses and workshops with the same footprints. Minor shrines have a few clear structural parts rather than sparkling blobs. Farmstead roofs, fences, mills, little landing stages and roadside pavilions are coherent functional objects. No new castle, giant hero building, new settlement, text or symbols.\n\nLANDSCAPE: Keep the large blue freshwater lake in the left-middle, its shores, existing islands, boats, shore villages and bridges. Clarify natural rock outcrops, reedbeds, landing stages and tiny boats without moving the shoreline. Preserve every major river bend, waterfall, confluence, bridge, road, terraced field and forest edge, particularly near the right edge. Separate wheat/barley gold fields, green rice paddies and silver-white susuki into well-shaped land uses with the same boundaries. Trees become identifiable miniature crowns and clusters with readable light and shadow, keeping forest masses and clearings intact. Bamboo groves remain slender grouped bamboo. Mountains and cliffs gain clear geology, quarry benches, believable paths and retaining structures in the existing positions. Keep atmospheric clouds small and light, leave landmarks legible.\n\nKeep the original image's polished magical world-map finish; enrich clarity and form without heavy black outlines, parchment, schematic icon drawing, noisy sharpened halos, oversaturated neon, photographic terrain, modern buildings or miniature tilt-shift blur. NO labels, lettering, icons, grid, UI, inset map, frame, watermark or new foreground characters. Exactly ONE refined western panel with its existing overlap; unchanged zoom, perspective, terrain topology and outer bounds."
+  },
+  "east": {
+    "sourceBounds": [
+      627,
+      0,
+      1447,
+      1087
+    ],
+    "output": "world-draft/map-variations/Oni Nation/Refined Halves v1/Oni Nation - East Refined - With Overlap.png",
+    "dimensions": [
+      1089,
+      1444
+    ],
+    "sha256": "48affd2600145492932279041db48c09d054bf52552dd889875044307aab2967",
+    "prompt": "REFINE IMAGE 1, the EASTERN MAP PANEL. Image 1 is the EXACT COMPOSITION and extent to keep. Image 2 is the already refined WESTERN PANEL for matching its crisp miniature architectural detail, sunlight, tree forms, water colors and the shared landscape at the seam; do NOT copy its western castle or lake into the eastern panel. Image 3 is the FULL MASTER MAP for geographic context only. Return ONLY the same eastern panel as image 1, portrait approximately 3:4, identical outer bounds, unchanged camera, same scale and crop. This is detail enrichment, not a new map layout. The LEFTMOST roughly 23% is overlap with the neighboring western panel. Preserve its terrain positions, road paths, river bends, farmland patterns and clipped city-edge features so it can be joined to the neighboring image. Keep partial features along the left edge cropped; do not complete them or expand the frame. Do not show the full master.\n\nMatch image 2's beautifully DEFINED, well-constructed miniature detail: saturated colorful 2D high-fantasy JRPG map illustration, clear lit roof planes, coherent tiny buildings, crisply separated terrain shapes, controlled painterly edges, gold sunlight, vivid blue/turquoise water, emerald forest and scarlet maples. Retain all geographic distances, settlement footprints and the existing national-map viewing scale. Buildings stay the same size. The whole point is to improve forms within their existing footprints, not enlarge or rearrange landmarks.\n\nCAPITAL: preserve the city at upper-left-middle, the castle hill, its terraced retaining walls, canals, gate streets, bridges and surrounding miniature roofs. Define actual tiny Japanese architecture: tiled ridges, overlapping eaves, dark timber with ivory plaster, little gates, connected stairs, courtyards, streets, and walls with structural depth. Preserve the capital's EXACT footprint and its position relative to the sacred mountain. The smaller eastern castle town stays on the right hill among golden ginkgo trees, with its own distinct roof clusters and terraces. Add visual clarity to existing hamlets, shrines and the redleaf river town, not new settlements or castles. A clear roof here, a little veranda there, river landing stages and coherent bridge supports: refine functional construction instead of adding decorative noise.\n\nLANDSCAPE: keep the great snowy sacred mountain in the upper-left/top, the summit shrine and winding pilgrim stair, the alpine lakes and valleys across the northern part, the lower cedar forests and existing torii. Define ridges and rock strata, exposed stone cliffs, snow gullies and forested slopes, retaining the same geology and mountain silhouettes. Keep every waterfall, main river bend, road, bridge and field boundary in position. Red maple woods at lower left retain their shape around the descending river, weirs, small waterfalls, onsen and tiny town clusters. The deep ancient forest at lower right stays dark green, with existing cliffs, cave openings and small shrine roofs becoming more legible. Preserve golden ginkgo around the eastern hill town and bamboo/field fragments on the left overlap edge. Trees have distinct crowns and grouped light/shadow, not repetitive stamps or abstract glitter. Smaller roofed shrines and paths are integrated into the existing canopy.\n\nSEAM MATCH: image 2's right-hand shared band and image 1's left-hand shared band show the same central farmland, rivers, waterfalls and clipped capital approaches. Use the refined west only to harmonize rendering and connected features. Do not introduce a different season, water level, shadow direction, new road junction, extra bridge or a new river outlet. Consistent lighting across the full country. Keep existing outer forest and map-edge clipping.\n\nNO labels, letters, symbols, grid, question marks, UI, inset, frame, watermark or foreground people. No parchment, heavy dark outlines, schematic icons, noisy sharpening, neon, modern skyline, photographic terrain or tilt-shift blur. Exactly one beautifully refined EASTERN PANEL with its existing overlap, at the highest useful native detail and with the same world-map composition."
+  },
+  "review": "Architectural planes and terrain forms are clearer, while primary landmarks remain recognizable. Shared central features have shifted in position/shape; overlap is approximate, not pixel-identical. Match height and align/mask the join manually; do not butt-join. The assembled country still needs a deliberate exact 4:3 export and sufficient per-region upload resolution. No independent twelve-tile generation.",
+  "approximateSharedOutputWidth": 255,
+  "assemblyStatus": "Unstitched source panels for author review"
+}

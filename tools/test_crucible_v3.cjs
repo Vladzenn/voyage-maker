@@ -1,5 +1,7 @@
 // Actual emitted bracket scripts. Semantic decisions are supplied fixtures, not AI claims.
 const fs=require('fs'),path=require('path'),vm=require('vm'),crypto=require('crypto');
+const currencyDelta=JSON.parse(fs.readFileSync(path.join(__dirname,'currency/approved-description-delta.json'),'utf8'));
+const studioCoordinates=JSON.parse(fs.readFileSync(path.join(__dirname,'currency/approved-studio-coordinates.json'),'utf8'));
 module.exports=({w,manifest,harness,ck,getChecks})=>{
  const bout=h=>h.c().card[h.c().index],ready=h=>h.run('cc1_ready');
  const nodes=h=>h.c().rounds.flat(),title=h=>{h.enter();let limit=5;while(h.c().phase!=='closed'&&limit--)h.win();ck(h.c().outcome==='champion','Championship closes');};
@@ -82,10 +84,34 @@ module.exports=({w,manifest,harness,ck,getChecks})=>{
  for(const [k,v] of Object.entries(manifest.preserved.npcs))ck(digest(w.npcs[k])===v,'Preserve unrelated NPC '+k);
  const edited=new Set(['basicInfo','hiddenInfo','personality','abilities','visualDescription','portraitUrl']);
  for(const [k,v] of Object.entries(manifest.preserved.revisedNPCIdentity))ck(digest(Object.fromEntries(Object.entries(w.npcs[k]).filter(([f])=>!edited.has(f))))===v,'Preserve revised NPC identity/stats '+k);
- for(const s of ['originalItems','originalAbilities'])for(const [k,v] of Object.entries(manifest.preserved[s]))ck(digest(w[s==='originalItems'?'itemTypes':'abilities'][k])===v,'Preserve '+s+' '+k);
+ for(const s of ['originalItems','originalAbilities'])for(const [k,v] of Object.entries(manifest.preserved[s])){
+  let value=w[s==='originalItems'?'itemTypes':'abilities'][k];
+  const d=currencyDelta.itemTypes;
+  if(s==='originalItems'&&k===d.entry&&digest(value)!==v){
+   ck(value[d.field]===d.after,'Exact approved Mark description');
+   value={...value,[d.field]:d.before};
+  }
+  ck(digest(value)===v,'Preserve '+s+' '+k);
+ }
  for(const [s,values] of Object.entries(manifest.preserved.spider))for(const [k,v] of Object.entries(values))ck(digest(w[s][k])===v,'Preserve Spider '+k);
  const pres=JSON.parse(fs.readFileSync(path.join(__dirname,'crucible/revision-preservation.json'),'utf8'));
- for(const [k,v] of Object.entries(pres.unchangedSections))ck(digest(w[k])===v,'Preserve section '+k);
- for(const [k,v] of Object.entries(pres.unchangedLocations))ck(digest(k==='The Eternal Crucible'?Object.fromEntries(Object.entries(w.locations[k]).filter(([f])=>f!=='hiddenInfo')):w.locations[k])===v,'Preserve location '+k);
+ for(const [k,v] of Object.entries(pres.unchangedSections)){
+  let value=w[k];
+  const d=currencyDelta[k];
+  if(d&&digest(value)!==v){
+   ck(value[d.entry]?.[d.field]===d.after,'Exact approved currency field '+k);
+   value=structuredClone(value);value[d.entry][d.field]=d.before;
+  }
+  ck(digest(value)===v,'Preserve section '+k);
+ }
+ for(const [k,v] of Object.entries(pres.unchangedLocations)){
+  let value=k==='The Eternal Crucible'?Object.fromEntries(Object.entries(w.locations[k]).filter(([f])=>f!=='hiddenInfo')):w.locations[k];
+  const d=studioCoordinates[k];
+  if(d&&digest(value)!==v){
+   ck(value.x===d.after.x&&value.y===d.after.y,'Exact incoming Studio coordinates '+k);
+   value={...value,...d.before};
+  }
+  ck(digest(value)===v,'Preserve location '+k);
+ }
  console.log(JSON.stringify({status:'passed',controller:3,checks:getChecks(),scope:'Emitted bracket scripts and preservation fingerprints; semantic answers supplied, no live engine guarantee.'}));
 };

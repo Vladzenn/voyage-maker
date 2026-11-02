@@ -2,6 +2,12 @@
 
 These notes carry context between desktop and web chats. They supplement the actual JSON and creation guides; newer explicit user instructions take precedence.
 
+## 2 November 2026 — Silver marks and map halves
+
+The author requested a preventive currency phantom patch, not attribution of an anonymous report to this world. Silver marks are the sole common currency across the setting; mark/marks/silver marks are one unit backed by the existing `Mark` identity. Gold, silver, copper and platinum remain materials, colors or ranks, not new denominations. Keep barter, appraisal and agreed sales; no invented exchange table or duplicate purse. Preserve the latest Studio export and existing prices, funds and reward mechanics.
+
+The author approved refining the two supplied map halves with the built-in generator. Use the full master and overlap for continuity, retain national scale, and improve architectural/terrain definition. Two production images still support the planned 4 × 3 regions. Their generated edges are not mechanically locked; inspect and align the join before treating it as a finished atlas.
+
 ## 2 November 2026 — Oni map production pilot
 
 The author rejected the external 4K map's art treatment and close-scale composition. Use the built-in image generator for the replacement, with the actual Glowhaven map as style reference and the supplied national atlas as scale reference. A continuous country composition in the established art style takes priority over a resolution label. One 1447 × 1087 native master is saved for review; final 4:3 cropping, tile refinement and nation implementation are not approved by its existence. The author may slice the base and return a ZIP; later refinements should use original-map context and overlaps, and must be inspected at joins rather than assuming regeneration preserves exact borders. No automatic expansion to twelve generated tiles.

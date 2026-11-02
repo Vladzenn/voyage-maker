@@ -1,0 +1,73 @@
+{
+  "sourceAttachment": "5fea7ef8-f456-4593-aeca-1f19c890d924",
+  "sourceSHA256": "8b8472de77ccdd886e5787eda93fa64e7a17bc6ff6e7e9f0408d4b900e3bddc1",
+  "suppliedChangesFromPrevious": [
+    [
+      "locations",
+      "Pebbletown",
+      "x"
+    ],
+    [
+      "locations",
+      "Pebbletown",
+      "y"
+    ]
+  ],
+  "patchChangedPaths": [
+    [
+      "aiInstructions",
+      "generateStory",
+      "Work, Trade and Property"
+    ],
+    [
+      "aiInstructions",
+      "generateActionInfo",
+      "Currency"
+    ],
+    [
+      "aiInstructions",
+      "generateDialogue",
+      "Currency and Settled Prices"
+    ],
+    [
+      "aiInstructions",
+      "ItemGenerationAndUsage",
+      "Currency, Debt and Contract Integrity"
+    ],
+    [
+      "aiInstructions",
+      "summarization",
+      "State and Property Ledger"
+    ],
+    [
+      "worldLore",
+      "Glowhaven Marks and Everyday Prices",
+      "text"
+    ],
+    [
+      "itemTypes",
+      "Mark",
+      "description"
+    ]
+  ],
+  "newPromptUnits": {
+    "generateStory": 29944,
+    "generateDialogue": 7364,
+    "generateActionInfo": 19933,
+    "ItemGenerationAndUsage": 19799,
+    "summarization": 19120
+  },
+  "allNonTargetFieldsPreservedFromSource": true,
+  "pricesStartingFundsRewardsAndMechanicsUnchanged": true,
+  "spiderContentPreservedFromSource": true,
+  "nativeCurrency": "Mark",
+  "newCurrencyItems": [],
+  "livePlaytest": false,
+  "scope": "AI instructions and natural currency descriptions; no new trigger, conversion, balance change or saved-game migration.",
+  "canonicalBeforeSemanticSHA256": "be40ca968e1a6f5f0b7a06e4937451409130e0322707b08535e39326d12b0b48",
+  "suppliedOrderChangesFromPrevious": [
+    [
+      "worldLore"
+    ]
+  ]
+}

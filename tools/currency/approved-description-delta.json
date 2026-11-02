@@ -1,0 +1,14 @@
+{
+  "worldLore": {
+    "entry": "Glowhaven Marks and Everyday Prices",
+    "field": "text",
+    "before": "Glowhaven accounts in marks. One Mark is one unit of spendable currency; quotes, wages, and debts use that same unit. Barter or a favor can replace money only when both sides agree. A quote, unpaid invoice, promised reward, and payment actually received are different things.\n\nA plain meal costs about 2 marks, a substantial supper 4, a shared bunk 6, a plain private room 12 per night, and a packed lunch 3. Straightforward day labor pays about 18–25 marks and skilled work commonly 35–60. Quality, urgency, materials, access, and real risk can justify a stated difference. These anchors keep ordinary choices intelligible without requiring identical prices everywhere.",
+    "after": "Silver marks are the common money used throughout Glowhaven and the world's other nations. A mark, or silver mark, is the same single unit; prices, wages, rewards and debts are counted in marks. Gold, silver, copper and platinum are also materials and, in the Adventurer's Guild, names of ranks; they are not separate monetary denominations. Jewelry, bullion and old collectible coins can be sold for an agreed price in marks. Barter or a favor can replace money when both sides agree. An appraisal, an unpaid invoice and a promised reward are not payment received.\n\nA plain meal costs about 2 marks, a substantial supper 4, a shared bunk 6, a plain private room 12 per night, and a packed lunch 3. Straightforward day labor pays about 18–25 marks and skilled work commonly 35–60. Quality, urgency, materials, access, and real risk can justify a stated difference. These anchors keep ordinary choices intelligible without requiring identical prices everywhere."
+  },
+  "itemTypes": {
+    "entry": "Mark",
+    "field": "description",
+    "before": "One unit of Glowhaven currency. Quotes, wages, and debts use marks. An item payout and a displayed money total describe the same holdings, never two separate payments.",
+    "after": "A stamped silver coin accepted in Glowhaven and abroad. One coin is one mark, also called a silver mark. Meals, wages, prices and debts are counted in this same unit."
+  }
+}

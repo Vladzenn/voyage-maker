@@ -2295,6 +2295,16 @@
       "size": 4583794,
       "sha256": "937c465fa7ec35df0f5adfcb441c61915ea22c9ada158ef25d0216f52e3ab86e",
       "mtimeNs": 1793607486551252600
+    },
+    "world-draft/map-variations/Oni Nation/Refined Halves v1/Oni Nation - East Refined - With Overlap.png": {
+      "size": 4244793,
+      "sha256": "48affd2600145492932279041db48c09d054bf52552dd889875044307aab2967",
+      "mtimeNs": 1793608671166759200
+    },
+    "world-draft/map-variations/Oni Nation/Refined Halves v1/Oni Nation - West Refined - With Overlap.png": {
+      "size": 4238756,
+      "sha256": "b439287f15e8be8c52ca07391d2dfdc20712dd842070fe6f7f6f4afa16ae1c94",
+      "mtimeNs": 1793608474315462900
     }
   }
 }

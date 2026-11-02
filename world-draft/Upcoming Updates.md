@@ -1,11 +1,11 @@
 # Upcoming Updates
 
-Saved 2026-10-29. Planned update titles, in the user's listed order. Release dates and final implementation order remain open. The 30 October planning session defines confirmed concepts and provisional mechanics in the linked blueprint; the first narrow Crime and Prison pass is now implemented in the 31 October Crime and Creation export. Other expansion chapters remain plans.
+Planned update titles, in the user's listed order. Release dates and final implementation order remain open. The linked older blueprint is historical context; current author decisions and docs/CURRENT_STATE.md take precedence over its dates, old counts and provisional mechanics. Other expansion chapters remain plans unless explicitly marked implemented.
 
 - ~~Prison Life~~ — first narrow **Crime and Prison** pass implemented; see [Crime and Creation notes](Crime%20and%20Creation%20-%20Development%20Notes.md).
 - ~~Adventurers of Glowhaven~~ — implemented 1 November 2026; see [release notes](Adventurers%20of%20Glowhaven%20-%20Patch%20Notes.md) and [implementation/playtest guide](Adventurers%20of%20Glowhaven%20-%20Development%20Notes.md).
-- ~~The Champions of the Crucible~~ — implemented 1 November 2026; see [public notes](Champions%20of%20the%20Crucible%20-%20Patch%20Notes.md) and [mechanics/live-test guide](Champions%20of%20the%20Crucible%20-%20Mechanics%20and%20Playtest%20Guide.md). Oni culture preparation is included; the Oni realm remains a later expansion.
-- Portal to Oni City
+- **The Champions of the Crucible** — implementation complete; the author confirmed the release is still pending. See [public notes](Champions%20of%20the%20Crucible%20-%20Patch%20Notes.md) and [current bracket mechanics](Crucible%20Bracket%20-%20Mechanics.md). Oni culture preparation is included; the Oni realm is not implemented.
+- **⛩️ Portal to the Oni Nation** — active research/planning; supersedes the smaller Portal to Oni City concept. See the [4×3 map and content plan](authoring/plans/Portal%20to%20the%20Oni%20Nation%20-%20Research%20and%20Map%20Plan.md).
 - The Wizard of Shadowspire
 - The Eternal Chained Dragon
 - Citadel of Dreams

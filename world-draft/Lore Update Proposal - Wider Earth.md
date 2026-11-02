@@ -6,7 +6,7 @@ This document develops the author's decisions and our brainstorming into propose
 
 ## How to use this document
 
-Only **Proposed in-world lorebook entries** contains candidate setting prose. Everything else is author-facing context. The private primordial account must stay outside all runtime world content, including hidden NPC information, author seeds and material from which narration could reveal it. **No being in this world knows the primordial beginnings.**
+The **Proposed in-world lorebook entries** contain general setting prose. The **Private author account** may also be included in the eventual lorebook as explicitly labeled author/narrator-only background. Its presence in the lorebook does not make it information available within the setting. **No in-game character or source knows or reveals the primordial beginnings.** This includes NPCs, celestials, gods, books, research, histories, records and every other in-game source. The narrator may use this background for consistency but must never disclose it during play.
 
 The national concepts were accepted in discussion. Their detailed development below is draft connective prose, not a claim that every descriptive detail was separately approved. Ardelis, Valcéranne and Dunbrae carry forward the names from the accepted sketches; Yunhai already appears in existing lore. Borders, capitals, rulers, dates and continent names remain unassigned.
 
@@ -35,7 +35,7 @@ This is an expansion and reconciliation of the current lorebook, not a replaceme
 - The later Oni culture/society expansion remains separate. Existing homeland context can be polished here without adding its map or opening the torii route.
 - The wider world need not revolve around existing named characters. Residents, correspondence, goods and ordinary conversation can carry its context.
 
-## Private author account — never import into the world
+## Private author account — never known or revealed in-game
 
 After the Big Bang, primordial eldritch beings came into existence. Their numbers are nigh infinite. They are incomprehensible to mortal minds and do not think in human terms.
 
@@ -49,7 +49,7 @@ His act produced Earth's abundance of creatures and suffused it with lingering p
 
 **No being in this world knows these beginnings.** This includes mortals, celestials, worshipped gods, oracles and other ancient inhabitants. No exception has been approved for a secret cult, forbidden library, divine revelation, primordial memory, archaeological inscription or exceptional Divination spell.
 
-Keep this account solely in private author material. It must not become a public creation entry, narrator explanation, hidden NPC secret or discoverable answer. In-world creation stories remain beliefs and claims. Celestials claiming creation do not acquire the truth. Their exact origins and how much they believe their claims remain open.
+This account may be stored in the lorebook as private author/narrator background, explicitly identified as unknown and unavailable in-world. It must never become NPC knowledge, a book passage, research finding, historical account, inscription, revelation, direct narrator disclosure during play or any other in-game source of the truth. It is not a discoverable secret. In-world creation stories remain beliefs and claims. Celestials claiming creation do not acquire the truth. Their exact origins and how much they believe their claims remain open.
 
 This account does not explain the Evertree's founding or Asterveil's ruins. Those mysteries remain separate.
 
@@ -313,8 +313,10 @@ Canonical full-world SHA-256 before this documentation task: 51d27e00aadc9fd955f
 | Playable Peoples — Expanded Ancestries | Integrate confirmed elven longevity and appearance, without new playable peoples or ancestry mechanics. |
 | Known Routes and Distant Lands | Add Earth-scale context without mapped or reachable new destinations. |
 | Evertree Portals and Distant Regions | Add enormous expense/power and Glowhaven's sustaining role. Preserve routes, rooms, keys and returns. |
-| Magic Learning and Affinity; The Evertree; Magic, Training, and Practical Limits | Integrate context while preserving established disciplines, recovery and finite capacity. Never add primordial origins. |
+| Magic Learning and Affinity; The Evertree; Magic, Training, and Practical Limits | Integrate context while preserving established disciplines, recovery and finite capacity. Keep primordial origins in the separately labeled author/narrator-only account, never as in-world knowledge. |
 | Four existing Oni entries | Revise the focused entries instead of appending duplicate summaries. Preserve separate topics and future destination status. |
+
+The private primordial account is also candidate lorebook background. Preserve its explicit author/narrator-only status in the existing text structure; no special schema field or platform secrecy feature is assumed. Its inclusion must never grant knowledge to characters or make it discoverable through books, research, histories or any other in-game source.
 
 These headings organize a draft; they do not mandate appending every passage as a separate entry. Merge overlap, preserve unrelated lore and verify current limits. Follow the supplied native entry-name/text structure without inventing schema fields.
 

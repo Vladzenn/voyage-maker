@@ -897,7 +897,7 @@
     "untouchedSections": {
       "heroesVersion": "7a61b53701befdae0eeeffaecc73f14e20b537bb0f8b91ad7c2936dc63562b25",
       "realms": "5d55e6af68e1ac9e24f57f2c7f2679d50f471b6de4a17a4246449a78b6ca8640",
-      "regions": "5f07b62850aad6b6235dcb6b6702638e0fa4785fd76216bb1825f8338dff0a5c",
+      "regions": "a56a98fbe15d1abb583ed97a1a1ead716bf243e2ba64e197346d5a18c96a235f",
       "unassignedAreas": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
       "factions": "b1f56232b03d5632e3431d82153b22529e3f9b2dcaf7fe393f6c485a8ced2b94",
       "worldVoices": "8b69443450739cb164d80fb013be9c8579229e670ee84b018cd37a12d39e4b79",
@@ -1054,5 +1054,11 @@
       "Grafted Sentinel": "53649bf4bcde2a45f8ae4e9fd0cf1d96b4c523eb9092c9ddb46a74c77cddbe5d",
       "Rootbound Regent": "cea9bc160b7647d5bf0d199cd980633e10a4ae7eafcaeedc9fee5214fa262d35"
     }
+  },
+  "approvedGlowhavenMapRefresh": {
+    "date": "2026-11-02",
+    "proof": "tools/map-refresh-2026-11-02.json",
+    "before": "5f07b62850aad6b6235dcb6b6702638e0fa4785fd76216bb1825f8338dff0a5c",
+    "after": "a56a98fbe15d1abb583ed97a1a1ead716bf243e2ba64e197346d5a18c96a235f"
   }
 }

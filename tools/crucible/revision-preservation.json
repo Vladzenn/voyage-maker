@@ -10,7 +10,7 @@
     "randomNames": "5be8dfed3a2a9f4f6b47b150ae1b50c0a42799cd68bead90bd187640f160ac00",
     "skillSettings": "4b915954e450aaa4d9adaa941cbc43f06d9aa2540dd687b0a341a26bb79f2adc",
     "factions": "b1f56232b03d5632e3431d82153b22529e3f9b2dcaf7fe393f6c485a8ced2b94",
-    "regions": "5f07b62850aad6b6235dcb6b6702638e0fa4785fd76216bb1825f8338dff0a5c",
+    "regions": "a56a98fbe15d1abb583ed97a1a1ead716bf243e2ba64e197346d5a18c96a235f",
     "npcTypes": "c99cbc817942da7d63899c1a97c1066714e87fad59fbad31ca1fa8ee54035f47",
     "itemSettings": "d88a80a58c0cbecbfef889d8ddf4b1d3f21957fe826a4d1f8b68b7a6bd5bd420",
     "imagePromptConfiguration": "23269c833eacd3e6fea1fcc980c518e60beee1190fb66d6b404e42b2a667c38b",
@@ -315,5 +315,11 @@
       }
     },
     "scope": "18 appended types, 19 native quests, six brief-only edits plus corrected boar notice, one connected inn cellar. Existing quest checks/effects and all Spider fingerprints unchanged."
+  },
+  "approvedGlowhavenMapRefresh": {
+    "date": "2026-11-02",
+    "proof": "tools/map-refresh-2026-11-02.json",
+    "before": "5f07b62850aad6b6235dcb6b6702638e0fa4785fd76216bb1825f8338dff0a5c",
+    "after": "a56a98fbe15d1abb583ed97a1a1ead716bf243e2ba64e197346d5a18c96a235f"
   }
 }

@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-02",
+  "baselineCommit": "932f21513708c1ec229da3834dcdda3ab34989f8",
+  "changedPath": "regions.Glowhaven.images.map.imageUrl",
+  "before": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/a08106bd-7739-4b4d-b57a-36e80900cbb8.png",
+  "after": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/7255bbf8-6aa7-46d9-89a0-1d6c950df292.png",
+  "allOtherWorldValuesExact": true,
+  "regionsBefore": "5f07b62850aad6b6235dcb6b6702638e0fa4785fd76216bb1825f8338dff0a5c",
+  "regionsAfter": "a56a98fbe15d1abb583ed97a1a1ead716bf243e2ba64e197346d5a18c96a235f",
+  "publicAnnouncement": false,
+  "candidateSHA256": "35d69ee17b08325d162569ee905dc13cdd78a686d83a558e8e05382621302ecb"
+}

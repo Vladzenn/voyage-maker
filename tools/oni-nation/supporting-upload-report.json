@@ -1,0 +1,21 @@
+{
+  "apiBase": "https://api-alpha.aidungeon.com/creator/v1",
+  "worldShortId": "0kL8UR7rgsu2",
+  "contractSHA256": "20ab7bff23135a5598177376121e467051af168591edbea350a1fe3f6584d72e",
+  "rows": [
+    {
+      "name": "Misao Shingū",
+      "file": "R:\\Codex\\Home\\.chatgpt-projects\\g-p-6add53a86cc0819188fd43556c22336b\\world-draft\\npc portraits\\Akitsuhara\\Misao Shingū.png",
+      "sha256": "6bed3afd2ec1f80eb98e1dee7921d221d3f1763a6e9b74f6c28ae6f6574d1fb7",
+      "mimeType": "image/png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2566427,
+      "target": "NPC_PORTRAIT",
+      "status": "uploaded",
+      "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/e5c93dec-efa6-4e83-ad76-0b0053722b79.png"
+    }
+  ],
+  "studioSaved": false,
+  "studioPublished": false
+}

@@ -8879,7 +8879,7 @@
     ],
     "faction": "Kagetsuna Shogunate",
     "initialKnown": true,
-    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/ef84827a-fa90-4c69-9c4a-b7f6b93e340f.png"
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/06f3953f-468c-48f2-bfb0-b2190f6a1f20.png"
   },
   "Ayame Kagetsuna": {
     "name": "Ayame Kagetsuna",
@@ -8972,7 +8972,7 @@
     ],
     "faction": "House Saionoma",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/81003361-2a3b-4bd2-869f-d963ef57cb80.png"
   },
   "Kureha Tsubakiri": {
     "name": "Kureha Tsubakiri",
@@ -9039,8 +9039,8 @@
   "Hiyori Mitsuba": {
     "name": "Hiyori Mitsuba",
     "properName": "Hiyori Mitsuba",
-    "currentLocation": "Benitsuru Guildhall",
-    "currentArea": "Benitsuru Guildhall - Reception",
+    "currentLocation": "Adventurer's Guild - Benitsuru Branch",
+    "currentArea": "Adventurer's Guild - Benitsuru Branch - Reception",
     "type": "Resident",
     "detailType": "detailed",
     "tier": "average",
@@ -9256,8 +9256,8 @@
   "Tadayoshi Kurebayashi": {
     "name": "Tadayoshi Kurebayashi",
     "properName": "Tadayoshi Kurebayashi",
-    "currentLocation": "Benitsuru Guildhall",
-    "currentArea": "Benitsuru Guildhall - Reception",
+    "currentLocation": "Adventurer's Guild - Benitsuru Branch",
+    "currentArea": "Adventurer's Guild - Benitsuru Branch - Reception",
     "type": "Resident",
     "detailType": "detailed",
     "tier": "average",
@@ -9282,13 +9282,13 @@
     ],
     "faction": "Adventurer's Guild",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/ac469b66-38db-4dd4-897e-06b52a49d7da.png"
   },
   "Mika Fuyuse": {
     "name": "Mika Fuyuse",
     "properName": "Mika Fuyuse",
-    "currentLocation": "Benitsuru Guildhall",
-    "currentArea": "Benitsuru Guildhall - Reception",
+    "currentLocation": "Adventurer's Guild - Benitsuru Branch",
+    "currentArea": "Adventurer's Guild - Benitsuru Branch - Reception",
     "type": "Resident",
     "detailType": "detailed",
     "tier": "average",
@@ -9313,7 +9313,7 @@
     ],
     "faction": "Adventurer's Guild",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/b5c2f8e5-60ee-4afe-871f-26e3295f515b.png"
   },
   "Nobu Senda": {
     "name": "Nobu Senda",
@@ -9344,7 +9344,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/dd5e14e9-6ac0-43da-aece-5a88d49df161.png"
   },
   "Akane Natsukawa": {
     "name": "Akane Natsukawa",
@@ -9375,7 +9375,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/73e7ea50-1c5d-4ab6-95fc-91d485e70169.png"
   },
   "Kensuke Ayahara": {
     "name": "Kensuke Ayahara",
@@ -9406,7 +9406,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/1c5b7545-1981-4c3c-a304-f0714f944f83.png"
   },
   "Naoe Futami": {
     "name": "Naoe Futami",
@@ -9437,7 +9437,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/ba782168-d9b4-479b-8798-669d7c4b8acd.png"
   },
   "Chiyo Matsukaze": {
     "name": "Chiyo Matsukaze",
@@ -9468,7 +9468,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/d51d755f-9273-4042-a86e-6826085e880e.png"
   },
   "Tetsu Obana": {
     "name": "Tetsu Obana",
@@ -9499,7 +9499,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/96df4199-f041-4b15-96f6-2b77cb4911f2.png"
   },
   "Fūka Suzumori": {
     "name": "Fūka Suzumori",
@@ -9530,7 +9530,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/c56d5a3b-de7e-47a6-9c6c-0971b5264148.png"
   },
   "Renjirō Usami": {
     "name": "Renjirō Usami",
@@ -9561,7 +9561,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/90478b40-6019-4d62-a052-513790927c01.png"
   },
   "Maho Kanemori": {
     "name": "Maho Kanemori",
@@ -9592,7 +9592,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/0327ddb5-a228-4386-a74c-7aa5bf36ca5d.png"
   },
   "Hatsu Kanesue": {
     "name": "Hatsu Kanesue",
@@ -9623,7 +9623,7 @@
     ],
     "faction": "House Tsubakiri",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/8b0b0e56-fc54-482d-af44-1ee749945d91.png"
   },
   "Jirō Hozumi": {
     "name": "Jirō Hozumi",
@@ -9654,7 +9654,7 @@
     ],
     "faction": "Kagetsuna Shogunate",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/8a3bf26f-f378-4369-91b3-2a363063991b.png"
   },
   "Sōta Amemiya": {
     "name": "Sōta Amemiya",
@@ -9685,7 +9685,7 @@
     ],
     "faction": "Reed Veil Fellowship",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/62ee214c-22a1-4747-9b3f-7ccf4fc589c8.png"
   },
   "Iori Kagurazaka": {
     "name": "Iori Kagurazaka",
@@ -9716,7 +9716,7 @@
     ],
     "faction": "Maple Lantern Custodians",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/6e891770-cd38-41c5-b08c-8b27ce3fcf08.png"
   },
   "Chinatsu Hanegi": {
     "name": "Chinatsu Hanegi",
@@ -9747,7 +9747,7 @@
     ],
     "faction": "Morning Crane School",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/fe0e6f9c-7506-4841-88c0-d3abefc41963.png"
   },
   "Yūhei Toba": {
     "name": "Yūhei Toba",
@@ -9778,7 +9778,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/2924d649-0a6a-48a7-a251-683df03334a8.png"
   },
   "Natsuko Tsumura": {
     "name": "Natsuko Tsumura",
@@ -9809,7 +9809,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/b2aef8cc-8672-40c1-bdc3-63dbdb049604.png"
   },
   "Kōichi Aratani": {
     "name": "Kōichi Aratani",
@@ -9840,7 +9840,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/875c73d8-6b97-4dc3-a53d-7f36ca4f6f81.png"
   },
   "Yae Mizuno": {
     "name": "Yae Mizuno",
@@ -9871,7 +9871,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/757610f3-08d4-4beb-930c-efb65eadb626.png"
   },
   "Haru Tomisaka": {
     "name": "Haru Tomisaka",
@@ -9902,7 +9902,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/985c3658-d4f0-418d-842a-0878493822b2.png"
   },
   "Sachi Morisawa": {
     "name": "Sachi Morisawa",
@@ -9933,7 +9933,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/e0f7782b-09e8-4718-9fd9-416eb7fd345f.png"
   },
   "Kazuma Ebisawa": {
     "name": "Kazuma Ebisawa",
@@ -9964,7 +9964,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/bfc86f3e-4478-497a-b6eb-6e5b2c310140.png"
   },
   "Mina Kurusu": {
     "name": "Mina Kurusu",
@@ -9995,7 +9995,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/21cfcbb0-2153-4c10-a869-201d5fb488e9.png"
   },
   "Osamu Kariya": {
     "name": "Osamu Kariya",
@@ -10026,7 +10026,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/ee321b1b-d174-4b88-9820-0588b68da163.png"
   },
   "Tae Ishihama": {
     "name": "Tae Ishihama",
@@ -10057,7 +10057,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/bda15184-c0da-4bc1-81f2-d293c2ee63d5.png"
   },
   "Shunji Dobashi": {
     "name": "Shunji Dobashi",
@@ -10088,7 +10088,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/e430b59e-ccce-4883-890c-44c0e6465d81.png"
   },
   "Ruri Nabatame": {
     "name": "Ruri Nabatame",
@@ -10119,7 +10119,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/32c6fe82-78c0-4cd9-9450-12c8d095def3.png"
   },
   "Hokuto Mizusawa": {
     "name": "Hokuto Mizusawa",
@@ -10150,7 +10150,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/02637d47-454e-4aed-8410-14c03e47cf24.png"
   },
   "Shizue Amakawa": {
     "name": "Shizue Amakawa",
@@ -10181,7 +10181,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/8d43aa3a-2d09-4cfe-8909-9975e81e919d.png"
   },
   "Dōgen Hanamori": {
     "name": "Dōgen Hanamori",
@@ -10212,7 +10212,7 @@
     ],
     "faction": "Maple Lantern Custodians",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/a6b7b7a4-0c16-4b33-904a-574fd5837a83.png"
   },
   "Fusa Minase": {
     "name": "Fusa Minase",
@@ -10243,7 +10243,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/92b37aa5-31ee-4f01-8b7c-73dd34b37f91.png"
   },
   "Naohiro Umemoto": {
     "name": "Naohiro Umemoto",
@@ -10274,7 +10274,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/b394de73-b7cd-4f30-bb22-d3befc582d22.png"
   },
   "Sana Kuroiwa": {
     "name": "Sana Kuroiwa",
@@ -10305,7 +10305,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/07d7d46b-919c-43d8-9d0f-3fed245e2866.png"
   },
   "Rei Tsunemori": {
     "name": "Rei Tsunemori",
@@ -10336,7 +10336,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/89c33947-0205-412c-9759-bdd5aba0f366.png"
   },
   "Yoriko Abe": {
     "name": "Yoriko Abe",
@@ -10367,7 +10367,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/5291f308-f2e3-4658-811b-800074da79ce.png"
   },
   "Tomoe Masuda": {
     "name": "Tomoe Masuda",
@@ -10398,7 +10398,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/4856f543-7637-4368-845d-4c2e88409ea4.png"
   },
   "Kayo Yagiri": {
     "name": "Kayo Yagiri",
@@ -10429,7 +10429,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/7f98a8e1-2d10-46fd-b00e-0ca4bdf888e3.png"
   },
   "Yasuo Natori": {
     "name": "Yasuo Natori",
@@ -10460,7 +10460,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/a7d013e1-144a-4f4a-be71-ace06d0fc1be.png"
   },
   "Chika Nishihara": {
     "name": "Chika Nishihara",
@@ -10491,7 +10491,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/633ec277-3b92-4b3e-bdf5-edb9bf5f4bea.png"
   },
   "Shin Watarai": {
     "name": "Shin Watarai",
@@ -10522,7 +10522,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/4f07d47e-2e97-4d0d-bf3c-82484f1ea8cf.png"
   },
   "Mitsue Harada": {
     "name": "Mitsue Harada",
@@ -10553,7 +10553,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/ea8dccee-e604-416a-9acc-150c85a35ded.png"
   },
   "Kentarō Maeba": {
     "name": "Kentarō Maeba",
@@ -10584,7 +10584,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/458b8bc0-e95f-4a30-9d78-d89b666243d3.png"
   },
   "Suzuha Hoshikawa": {
     "name": "Suzuha Hoshikawa",
@@ -10615,7 +10615,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/d710832c-a940-4ccb-91a1-b639631d5aa4.png"
   },
   "Daichi Kurobane": {
     "name": "Daichi Kurobane",
@@ -10646,7 +10646,7 @@
     ],
     "faction": "Reed Veil Fellowship",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/ffeb1bfd-59b5-4622-9078-3e3db0d86000.png"
   },
   "Mayu Enomoto": {
     "name": "Mayu Enomoto",
@@ -10677,7 +10677,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/da2b29d3-544f-47a9-810a-c3a525abed27.png"
   },
   "Takuro Namiki": {
     "name": "Takuro Namiki",
@@ -10708,7 +10708,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/ae964bc8-2fbb-47f8-943c-5b7a09540adb.png"
   },
   "Eri Tamura": {
     "name": "Eri Tamura",
@@ -10739,7 +10739,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/e79710cb-60ba-4e48-bd1a-81c79dee6866.png"
   },
   "Seitarō Matsuoka": {
     "name": "Seitarō Matsuoka",
@@ -10770,7 +10770,7 @@
     ],
     "faction": "House Tsubakiri",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/ed25d829-a74c-4acf-a3de-9c075c81e573.png"
   },
   "Nene Moriyama": {
     "name": "Nene Moriyama",
@@ -10801,7 +10801,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/fda2dde5-89a6-45e9-bd61-6ca3da8dac45.png"
   },
   "Isao Tsuge": {
     "name": "Isao Tsuge",
@@ -10832,55 +10832,55 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/c2879875-6020-48a2-9acd-376a9daa0309.png"
   },
   "Yumi Sawatari": {
     "name": "Yumi Sawatari",
     "properName": "Yumi Sawatari",
-    "currentLocation": "Mirror-Reed Ferry",
-    "currentArea": "Mirror-Reed Ferry - Near Landing",
+    "currentLocation": "Mirror-Reed Bridge",
+    "currentArea": "Mirror-Reed Bridge - Woodland Approach",
     "type": "Resident",
     "detailType": "detailed",
     "tier": "average",
     "level": 18,
     "gender": "female",
-    "visualDescription": "An adult oni with medium brown skin, dark teal braid, silver eyes and small curved gray horns. She generally wears colorful layered local clothing fitted to ferry pilot work.",
-    "basicInfo": "Yumi Sawatari is ferry pilot in Akitsuhara. Yumi loves jokes, hates gamblers and is secretly a very good one.\n\nAn adult oni with medium brown skin, dark teal braid, silver eyes and small curved gray horns. She generally wears colorful layered local clothing fitted to ferry pilot work.\n\n**Equipment:** A boat hook, the working tools of the trade, a small purse and one useful travel or household keepsake.\n\n- **Gender:** Female\n- **Age:** 30\n- **Species:** Oni\n- **Role in faction:** ferry pilot\n- **Magic affinity:** Water",
-    "hiddenInfo": "**Private motive:** Buy her own ferry share.\n\n**What they conceal:** She places a private bet against a passenger’s boasting.\n\n**Concealment and knowledge:** People directly involved know their own part; acquaintances know the public role and observed behavior. A stranger has not been told the private motive.\n\n**Pressure point:** A choice between the stated ambition and the real cost of the habit or conduct described above.\n\n**Relationships:** Ordinary colleagues and neighbors know the public work. No additional named close relationship is established.\n\n**How it surfaces:** Spins a mooring knot before setting it. Let real work, a disagreement or earned private conversation reveal the rest.",
+    "visualDescription": "An adult oni with medium brown skin, dark teal braid, silver eyes and small curved gray horns. She generally wears colorful layered local clothing fitted to bridge keeper and trail guide work.",
+    "basicInfo": "Yumi Sawatari is bridge keeper and trail guide in Akitsuhara. Yumi loves jokes, hates gamblers and is secretly a very good one.\n\nAn adult oni with medium brown skin, dark teal braid, silver eyes and small curved gray horns. She generally wears colorful layered local clothing fitted to bridge keeper and trail guide work.\n\n**Equipment:** A hooked walking staff, the working tools of the trade, a small purse and one useful travel or household keepsake.\n\n- **Gender:** Female\n- **Age:** 30\n- **Species:** Oni\n- **Role in faction:** bridge keeper and trail guide\n- **Magic affinity:** Water",
+    "hiddenInfo": "**Private motive:** Open her own little outfitter’s lodge beside the woodland road.\n\n**What they conceal:** She places a private bet against a traveler’s boasting.\n\n**Concealment and knowledge:** People directly involved know their own part; acquaintances know the public role and observed behavior. A stranger has not been told the private motive.\n\n**Pressure point:** A choice between the stated ambition and the real cost of the habit or conduct described above.\n\n**Relationships:** Ordinary colleagues and neighbors know the public work. No additional named close relationship is established.\n\n**How it surfaces:** Reties a trail rope while listening to an implausible story. Let real work, a disagreement or earned private conversation reveal the rest.",
     "personality": [
-      "**Core:** Buy her own ferry share.",
+      "**Core:** Open her own little outfitter’s lodge beside the woodland road.",
       "**Default behavior:** Yumi loves jokes, hates gamblers and is secretly a very good one.",
-      "**Under pressure:** She places a private bet against a passenger’s boasting. Under pressure this tendency becomes more visible; the person can reconsider after a concrete consequence.",
+      "**Under pressure:** She places a private bet against a traveler’s boasting. Under pressure this tendency becomes more visible; the person can reconsider after a concrete consequence.",
       "**Speaking Style:** Quick, teasing and practical.",
       "**Courtship Style:** Offers time together through an ordinary shared interest, then asks clearly without treating courtesy as reciprocation.",
       "**Jealousy Style:** Becomes curt and asks an uncomfortable question privately rather than silently acquiring authority over a partner.",
-      "**Routine or Quirk:** Spins a mooring knot before setting it."
+      "**Routine or Quirk:** Reties a trail rope while listening to an implausible story."
     ],
     "abilities": [
-      "**Practiced Method:** Water assists a real pole stroke; she keeps an escape bank in view.",
+      "**Practiced Method:** Water redirects a little surface flow away from the footing; her hooked staff and a prepared return path provide practical defense.",
       "**Everyday Magic:** Familiar minor Water workings assist appropriate daily tasks.",
-      "**Fighting Style:** Keeps a controlled close line and commits to a single opening before recovering the guard."
+      "**Fighting Style:** Uses the weapon’s reach to hold a clear approach and gives ground rather than let an opponent crowd the grip."
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/68a4220d-eb98-452a-9486-be27ce3c9a80.png"
   },
   "Gorō Fushimi": {
     "name": "Gorō Fushimi",
     "properName": "Gorō Fushimi",
-    "currentLocation": "Reedglass Fishing Village",
-    "currentArea": "Reedglass Fishing Village - Raised Lane",
+    "currentLocation": "Reedglass Woodland Hamlet",
+    "currentArea": "Reedglass Woodland Hamlet - Clearing Lane",
     "type": "Resident",
     "detailType": "detailed",
     "tier": "average",
     "level": 12,
     "gender": "male",
-    "visualDescription": "An adult human with light olive skin, thin white hair, hazel eyes and a broad weathered face. He generally wears colorful layered local clothing fitted to fishing village headman work.",
-    "basicInfo": "Gorō Fushimi is fishing village headman in Akitsuhara. Gorō hosts vigorous card games and knows the lake’s moods better than his children’s.\n\nAn adult human with light olive skin, thin white hair, hazel eyes and a broad weathered face. He generally wears colorful layered local clothing fitted to fishing village headman work.\n\n**Equipment:** The working tools of the trade, a small purse and one useful travel or household keepsake.\n\n- **Gender:** Male\n- **Age:** 65\n- **Species:** Human\n- **Role in faction:** fishing village headman\n- **Magic affinity:** Earth, Metal, Enchantment",
-    "hiddenInfo": "**Private motive:** Keep a shared landing free of private tolls.\n\n**What they conceal:** He dismisses a younger person’s good warning.\n\n**Concealment and knowledge:** People directly involved know their own part; acquaintances know the public role and observed behavior. A stranger has not been told the private motive.\n\n**Pressure point:** A choice between the stated ambition and the real cost of the habit or conduct described above.\n\n**Relationships:** Ordinary colleagues and neighbors know the public work. No additional named close relationship is established.\n\n**How it surfaces:** Cracks a walnut with the wrong tool. Let real work, a disagreement or earned private conversation reveal the rest.",
+    "visualDescription": "An adult human with light olive skin, thin white hair, hazel eyes and a broad weathered face. He generally wears colorful layered local clothing fitted to woodland hamlet headman work.",
+    "basicInfo": "Gorō Fushimi is woodland hamlet headman in Akitsuhara. Gorō hosts vigorous card games and knows the ridge weather better than his children’s moods.\n\nAn adult human with light olive skin, thin white hair, hazel eyes and a broad weathered face. He generally wears colorful layered local clothing fitted to woodland hamlet headman work.\n\n**Equipment:** The working tools of the trade, a small purse and one useful travel or household keepsake.\n\n- **Gender:** Male\n- **Age:** 65\n- **Species:** Human\n- **Role in faction:** woodland hamlet headman\n- **Magic affinity:** Earth, Metal, Enchantment",
+    "hiddenInfo": "**Private motive:** Keep the communal woodland path free of private tolls.\n\n**What they conceal:** He dismisses a younger person’s good warning.\n\n**Concealment and knowledge:** People directly involved know their own part; acquaintances know the public role and observed behavior. A stranger has not been told the private motive.\n\n**Pressure point:** A choice between the stated ambition and the real cost of the habit or conduct described above.\n\n**Relationships:** Ordinary colleagues and neighbors know the public work. No additional named close relationship is established.\n\n**How it surfaces:** Cracks a walnut with the wrong tool. Let real work, a disagreement or earned private conversation reveal the rest.",
     "personality": [
-      "**Core:** Keep a shared landing free of private tolls.",
-      "**Default behavior:** Gorō hosts vigorous card games and knows the lake’s moods better than his children’s.",
+      "**Core:** Keep the communal woodland path free of private tolls.",
+      "**Default behavior:** Gorō hosts vigorous card games and knows the ridge weather better than his children’s moods.",
       "**Under pressure:** He dismisses a younger person’s good warning. Under pressure this tendency becomes more visible; the person can reconsider after a concrete consequence.",
       "**Speaking Style:** Slow and opinionated.",
       "**Courtship Style:** Uses teasing and a specific invitation; rejection can sting without creating a claim on the other person.",
@@ -10888,26 +10888,26 @@
       "**Routine or Quirk:** Cracks a walnut with the wrong tool."
     ],
     "abilities": [
-      "**Practiced Method:** Practical boats and a sturdy ward.",
+      "**Practiced Method:** Prepared trail markers, practical rope work and a sturdy ward.",
       "**Everyday Magic:** Familiar minor Earth workings assist appropriate daily tasks.",
       "**Fighting Style:** Protects a usable exit, warns nearby people and seeks qualified help rather than prolonging a fight."
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/695dee3f-7623-46f1-95d9-1a7b43f07c78.png"
   },
   "Aya Takino": {
     "name": "Aya Takino",
     "properName": "Aya Takino",
-    "currentLocation": "Reed Dye Workshop",
-    "currentArea": "Reed Dye Workshop - Dye Yard",
+    "currentLocation": "Woodland Dye Workshop",
+    "currentArea": "Woodland Dye Workshop - Dye Yard",
     "type": "Resident",
     "detailType": "detailed",
     "tier": "average",
     "level": 19,
     "gender": "female",
-    "visualDescription": "An adult oni with light skin, pink hair in a loose knot, brown eyes and two short black horns. She generally wears colorful layered local clothing fitted to reed dyer work.",
-    "basicInfo": "Aya Takino is reed dyer in Akitsuhara. Aya loves bold stripes, terrible perfumes and a bargain that takes an hour.\n\nAn adult oni with light skin, pink hair in a loose knot, brown eyes and two short black horns. She generally wears colorful layered local clothing fitted to reed dyer work.\n\n**Equipment:** The working tools of the trade, a small purse and one useful travel or household keepsake.\n\n- **Gender:** Female\n- **Age:** 28\n- **Species:** Oni\n- **Role in faction:** reed dyer\n- **Magic affinity:** Water",
+    "visualDescription": "An adult oni with light skin, pink hair in a loose knot, brown eyes and two short black horns. She generally wears colorful layered local clothing fitted to bark-dye artisan work.",
+    "basicInfo": "Aya Takino is bark-dye artisan in Akitsuhara. Aya loves bold stripes, terrible perfumes and a bargain that takes an hour.\n\nAn adult oni with light skin, pink hair in a loose knot, brown eyes and two short black horns. She generally wears colorful layered local clothing fitted to bark-dye artisan work.\n\n**Equipment:** The working tools of the trade, a small purse and one useful travel or household keepsake.\n\n- **Gender:** Female\n- **Age:** 28\n- **Species:** Oni\n- **Role in faction:** bark-dye artisan\n- **Magic affinity:** Water",
     "hiddenInfo": "**Private motive:** Sell directly in the capital.\n\n**What they conceal:** She overstates a rival’s defects to protect an uncertain shipment.\n\n**Concealment and knowledge:** People directly involved know their own part; acquaintances know the public role and observed behavior. A stranger has not been told the private motive.\n\n**Pressure point:** A choice between the stated ambition and the real cost of the habit or conduct described above.\n\n**Relationships:** Ordinary colleagues and neighbors know the public work. No additional named close relationship is established.\n\n**How it surfaces:** Holds a dye-stained finger beside a customer’s sleeve. Let real work, a disagreement or earned private conversation reveal the rest.",
     "personality": [
       "**Core:** Sell directly in the capital.",
@@ -10919,13 +10919,13 @@
       "**Routine or Quirk:** Holds a dye-stained finger beside a customer’s sleeve."
     ],
     "abilities": [
-      "**Practiced Method:** Water and ordinary dyes produce the actual cloth.",
+      "**Practiced Method:** Water rinses real cloth steeped in dyes made from bark, roots and gathered leaves.",
       "**Everyday Magic:** Familiar minor Water workings assist appropriate daily tasks.",
       "**Fighting Style:** Protects a usable exit, warns nearby people and seeks qualified help rather than prolonging a fight."
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/fb36f7ce-069e-4ffa-be70-231f532056b7.png"
   },
   "Mutsumi Hosaka": {
     "name": "Mutsumi Hosaka",
@@ -10956,7 +10956,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/e348ddc7-f522-4853-bbe6-8e7b640cb91c.png"
   },
   "Tōru Fukada": {
     "name": "Tōru Fukada",
@@ -10987,7 +10987,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/272d5214-08ac-4903-bf1a-26084b733c33.png"
   },
   "Rika Ogata": {
     "name": "Rika Ogata",
@@ -11018,7 +11018,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/7b33bf65-6c14-4f84-868a-e3c1c3adf462.png"
   },
   "Kenji Morita": {
     "name": "Kenji Morita",
@@ -11049,7 +11049,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/26ee2e53-0ff4-45d5-be98-faed32d98350.png"
   },
   "Yōko Sanada": {
     "name": "Yōko Sanada",
@@ -11080,7 +11080,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/2cc96005-b978-4078-a6f8-0689fb78e831.png"
   },
   "Kae Sumida": {
     "name": "Kae Sumida",
@@ -11111,7 +11111,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/b0b8e592-a011-4e49-8b23-1c531079de73.png"
   },
   "Chihiro Noda": {
     "name": "Chihiro Noda",
@@ -11142,7 +11142,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/20df05ae-79c5-4e42-aac3-c9387857ac74.png"
   },
   "Makiya Utsugi": {
     "name": "Makiya Utsugi",
@@ -11173,7 +11173,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/3c1efbb2-3491-413b-bc55-4610e1cc6f81.png"
   },
   "Hajime Niwa": {
     "name": "Hajime Niwa",
@@ -11204,7 +11204,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/78e6f86a-8fa6-49f4-8dfb-2e2556f81b2e.png"
   },
   "Asa Kogure": {
     "name": "Asa Kogure",
@@ -11235,7 +11235,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/e141cc80-dce0-422c-9276-3eec35eec2c7.png"
   },
   "Yukina Tsuribe": {
     "name": "Yukina Tsuribe",
@@ -11266,13 +11266,13 @@
     ],
     "faction": "Maple Lantern Custodians",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/3d343f1c-29ed-4e4f-85ad-33d586dd3a89.png"
   },
   "Ema Shiozaki": {
     "name": "Ema Shiozaki",
     "properName": "Ema Shiozaki",
-    "currentLocation": "Benitsuru Guildhall",
-    "currentArea": "Benitsuru Guildhall - Reception",
+    "currentLocation": "Adventurer's Guild - Benitsuru Branch",
+    "currentArea": "Adventurer's Guild - Benitsuru Branch - Reception",
     "type": "Resident",
     "detailType": "detailed",
     "tier": "average",
@@ -11297,7 +11297,7 @@
     ],
     "faction": "Adventurer's Guild",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/f9343f9a-f821-407b-85bf-f8cb8e8c08c3.png"
   },
   "Kaito Honma": {
     "name": "Kaito Honma",
@@ -11328,7 +11328,7 @@
     ],
     "faction": "Adventurer's Guild",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/90d7ccda-6fdb-4255-9f02-d90e5db5da79.png"
   },
   "Misao Shingū": {
     "name": "Misao Shingū",
@@ -11359,7 +11359,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/e5c93dec-efa6-4e83-ad76-0b0053722b79.png"
   },
   "Ren Ishidate": {
     "name": "Ren Ishidate",
@@ -11390,7 +11390,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/6d5eaa80-1945-422d-bbb5-89654aed0137.png"
   },
   "Takane Shibata": {
     "name": "Takane Shibata",
@@ -11421,7 +11421,7 @@
     ],
     "faction": "Adventurer's Guild",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/6bd5350f-f4df-4c53-80e7-2106c1058371.png"
   },
   "Léonie Vauclair": {
     "name": "Léonie Vauclair",
@@ -11452,7 +11452,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/9132b16d-13c4-46ab-ac9f-9ddfbbe814bb.png"
   },
   "Jin Lin": {
     "name": "Jin Lin",
@@ -11483,7 +11483,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/59aaed28-7286-4ad7-bebe-17ab4d1ff507.png"
   },
   "Duncan Rusk": {
     "name": "Duncan Rusk",
@@ -11514,7 +11514,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/7626e002-34ee-4d3f-824f-4e72fd650252.png"
   },
   "Akihisa Manabe": {
     "name": "Akihisa Manabe",
@@ -11545,7 +11545,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/b808c138-f9b4-430a-8865-34602fd460df.png"
   },
   "Katsuho Enoki": {
     "name": "Katsuho Enoki",
@@ -11576,7 +11576,7 @@
     ],
     "faction": "Broken Kite Band",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/7768488c-2378-4fcc-8328-6e66089ffd7c.png"
   },
   "Jun Sasanami": {
     "name": "Jun Sasanami",
@@ -11607,7 +11607,7 @@
     ],
     "faction": "Broken Kite Band",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/a0bdf7f7-4dfd-49e3-b3d3-81704bf84232.png"
   },
   "Kohina Beppu": {
     "name": "Kohina Beppu",
@@ -11638,7 +11638,7 @@
     ],
     "faction": "Akitsuhara",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/96b3bb99-0931-49af-b943-d594a47cacf8.png"
   },
   "Hiroto Sakuma": {
     "name": "Hiroto Sakuma",
@@ -11669,7 +11669,7 @@
     ],
     "faction": "House Saionoma",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/2ed4ec9f-c107-4d07-8b5f-be0d89f569d1.png"
   },
   "Nana Saionoma": {
     "name": "Nana Saionoma",
@@ -11700,7 +11700,7 @@
     ],
     "faction": "House Saionoma",
     "initialKnown": false,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/8aeede5a-efbd-47b9-a548-65a7eca9b1e1.png"
   },
   "Hagire": {
     "name": "Hagire",
@@ -11738,19 +11738,19 @@
   "Koma": {
     "name": "Koma",
     "properName": "Koma",
-    "currentLocation": "Old Ferry Shrine",
-    "currentArea": "Old Ferry Shrine - Dry Landing",
+    "currentLocation": "Old Bridge Shrine",
+    "currentArea": "Old Bridge Shrine - Trail Approach",
     "type": "Tanuki Wayfarer",
     "detailType": "detailed",
     "tier": "strong",
     "level": 22,
     "gender": "male",
     "visualDescription": "An adult, broad raccoon-dog yokai with chestnut-brown fur, amber eyes, a dark facial mask and a great fluffy tail. He stands upright in a patched saffron coat, carries an absurdly large folded reed hat and has an expressive animal face rather than human skin.",
-    "basicInfo": "Koma insists he is a retired ferry inspector, changes his account when challenged and knows every dry landing. He loves dice, river songs and payment in a particularly good lunch.\n\nAn adult, broad raccoon-dog yokai with chestnut-brown fur, amber eyes, a dark facial mask and a great fluffy tail. He stands upright in a patched saffron coat, carries an absurdly large folded reed hat and has an expressive animal face rather than human skin.\n\n- **Species:** Tanuki yokai\n- **Magic affinity:** Illusion",
+    "basicInfo": "Koma insists he is a retired boundary inspector, changes his account when challenged and knows every dry woodland shortcut. He loves dice, traveling songs and payment in a particularly good lunch.\n\nAn adult, broad raccoon-dog yokai with chestnut-brown fur, amber eyes, a dark facial mask and a great fluffy tail. He stands upright in a patched saffron coat, carries an absurdly large folded reed hat and has an expressive animal face rather than human skin.\n\n- **Species:** Tanuki yokai\n- **Magic affinity:** Illusion",
     "hiddenInfo": "**Private motive:** Secure a small place where people return for his company instead of only directions.\n\n**What they conceal:** He turns a harmless joke into an expensive nuisance when an audience encourages him.\n\n**Concealment and knowledge:** Direct witnesses know only what they survived or observed.\n\n**Pressure point:** He turns a harmless joke into an expensive nuisance when an audience encourages him.\n\n**Relationships:** No unearned bond with the player.\n\n**How it surfaces:** Checks an imaginary official seal beneath his hat.",
     "personality": [
       "**Core:** Secure a small place where people return for his company instead of only directions.",
-      "**Default behavior:** Koma insists he is a retired ferry inspector, changes his account when challenged and knows every dry landing. He loves dice, river songs and payment in a particularly good lunch.",
+      "**Default behavior:** Koma insists he is a retired boundary inspector, changes his account when challenged and knows every dry woodland shortcut. He loves dice, traveling songs and payment in a particularly good lunch.",
       "**Under pressure:** He turns a harmless joke into an expensive nuisance when an audience encourages him.",
       "**Speaking Style:** Warm, theatrical bluster, suddenly exact about a promise.",
       "**Courtship Style:** No romantic route is established.",
@@ -11758,11 +11758,11 @@
       "**Routine or Quirk:** Checks an imaginary official seal beneath his hat."
     ],
     "abilities": [
-      "Small Illusion disguises and clever use of the bank aid a retreat; he cannot turn leaves into permanent money, erase a debt or command every river spirit."
+      "Small Illusion disguises and clever use of the wooded trail aid a retreat; he cannot turn leaves into permanent money, erase a debt or command every forest spirit."
     ],
     "initialKnown": false,
     "initialRelationship": 0,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/f295a9ff-38e1-4eec-ba34-0cfe6ecb1032.png"
   },
   "Suzu-no-Ura": {
     "name": "Suzu-no-Ura",
@@ -11791,7 +11791,7 @@
     ],
     "initialKnown": false,
     "initialRelationship": 0,
-    "portraitUrl": ""
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/036cba4c-c115-4f45-88e9-a7ef7822252d.png"
   },
   "Oroha": {
     "name": "Oroha",
@@ -11821,5 +11821,36 @@
     "initialKnown": false,
     "initialRelationship": 0,
     "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/1b2ae6f6-c253-47b2-b65a-b33e37db2ff1.png"
+  },
+  "Atsuha Yunokawa": {
+    "name": "Atsuha Yunokawa",
+    "properName": "Atsuha Yunokawa",
+    "currentLocation": "Hinoki Hollow Onsen",
+    "currentArea": "Hinoki Hollow Onsen - Reception Porch",
+    "type": "Resident",
+    "detailType": "detailed",
+    "tier": "average",
+    "level": 19,
+    "gender": "female",
+    "visualDescription": "An adult human with light olive skin, copper-brown hair in a low bun, amber-brown eyes and a sturdy adult build. She generally wears colorful layered local clothing fitted to onsen proprietor work.",
+    "basicInfo": "Atsuha Yunokawa is onsen proprietor in Akitsuhara. Atsuha keeps a spotless bathhouse, collects dreadful travel excuses and sings old festival songs when she thinks the veranda is empty.\n\nAn adult human with light olive skin, copper-brown hair in a low bun, amber-brown eyes and a sturdy adult build. She generally wears colorful layered local clothing fitted to onsen proprietor work.\n\n**Equipment:** A short wooden wand, the working tools of the trade, a small purse and one useful travel or household keepsake.\n\n- **Gender:** Female\n- **Age:** 46\n- **Species:** Human\n- **Role in faction:** onsen proprietor\n- **Magic affinity:** Water",
+    "hiddenInfo": "**Private motive:** Buy the neglected garden next door and grow her own fragrant bath herbs.\n\n**What they conceal:** She agrees too quickly with impressive guests, then makes a junior worker explain why the promised exception is impossible.\n\n**Concealment and knowledge:** People directly involved know their own part; acquaintances know the public role and observed behavior. A stranger has not been told the private motive.\n\n**Pressure point:** A choice between the stated ambition and the real cost of the habit or conduct described above.\n\n**Relationships:** Aya Takino supplies sturdy bath cloth. Chiyo Matsukaze occasionally sends tired travelers her way.\n\n**How it surfaces:** Tests the water with the same chipped cedar dipper she refuses to replace. Let real work, a disagreement or earned private conversation reveal the rest.",
+    "personality": [
+      "**Core:** Buy the neglected garden next door and grow her own fragrant bath herbs.",
+      "**Default behavior:** Atsuha keeps a spotless bathhouse, collects dreadful travel excuses and sings old festival songs when she thinks the veranda is empty.",
+      "**Under pressure:** She agrees too quickly with impressive guests, then makes a junior worker explain why the promised exception is impossible. Under pressure this tendency becomes more visible; the person can reconsider after a concrete consequence.",
+      "**Speaking Style:** Warm, brisk and dryly funny; her polite refusal usually comes with a clean towel.",
+      "**Courtship Style:** Offers time together through an ordinary shared interest, then asks clearly without treating courtesy as reciprocation.",
+      "**Jealousy Style:** Becomes curt and asks an uncomfortable question privately rather than silently acquiring authority over a partner.",
+      "**Routine or Quirk:** Tests the water with the same chipped cedar dipper she refuses to replace."
+    ],
+    "abilities": [
+      "**Practiced Method:** Small Water workings regulate an ordinary channel; careful inspection and a clear exit matter more than fighting.",
+      "**Everyday Magic:** Familiar minor Water workings assist appropriate daily tasks.",
+      "**Fighting Style:** Keeps a controlled close line and commits to a single opening before recovering the guard."
+    ],
+    "faction": "Akitsuhara",
+    "initialKnown": false,
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/70111d6a-5199-45a2-8804-2de596773351.png"
   }
 }

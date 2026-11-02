@@ -2,8 +2,8 @@
   {
     "name": "Shōen Kagetsuna",
     "target": "NPC_PORTRAIT",
-    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/ef84827a-fa90-4c69-9c4a-b7f6b93e340f.png",
-    "sha256": "cf6755658da4de66d2c3cd9f443a5a59e9781db187339380be0d41df72c118aa",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/06f3953f-468c-48f2-bfb0-b2190f6a1f20.png",
+    "sha256": "afe4fc8e405d8f4ebfbefe3d079f650a385bf1a81bb413d747e455de037442c2",
     "file": "world-draft/npc portraits/Akitsuhara/Shōen Kagetsuna.png"
   },
   {
@@ -103,5 +103,586 @@
     "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/6bba0892-67bd-4100-91b5-4e2b3d7b51f4.png",
     "sha256": "c09a22090c2514d1b8c35929d9f9ed186899bb40c7fc7a982738bccbf154ebd2",
     "file": "world-draft/maps/The Veiled Beyond/Veiled Cedar Reach.png"
+  },
+  {
+    "name": "Rin Saionoma",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/81003361-2a3b-4bd2-869f-d963ef57cb80.png",
+    "sha256": "d95ad5af7aafb25082b983a29596298dc150bd5f84d541a3cda4603fc77e3d49",
+    "file": "world-draft/npc portraits/Akitsuhara/Rin Saionoma.png"
+  },
+  {
+    "name": "Tadayoshi Kurebayashi",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/ac469b66-38db-4dd4-897e-06b52a49d7da.png",
+    "sha256": "dc3fc30500b17a5709cb58075f65667f9b37bc356aab1e5063d9949914bf1731",
+    "file": "world-draft/npc portraits/Akitsuhara/Tadayoshi Kurebayashi.png"
+  },
+  {
+    "name": "Mika Fuyuse",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/b5c2f8e5-60ee-4afe-871f-26e3295f515b.png",
+    "sha256": "555b89d567b454665f711927eaa1c5f2038202ecce705282e9912b7d2d9ebcf2",
+    "file": "world-draft/npc portraits/Akitsuhara/Mika Fuyuse.png"
+  },
+  {
+    "name": "Nobu Senda",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/dd5e14e9-6ac0-43da-aece-5a88d49df161.png",
+    "sha256": "0a0ffd6c5170f233af43a282bf4ddade8cf3995b1a07e01abea880f525bc1f1b",
+    "file": "world-draft/npc portraits/Akitsuhara/Nobu Senda.png"
+  },
+  {
+    "name": "Akane Natsukawa",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/73e7ea50-1c5d-4ab6-95fc-91d485e70169.png",
+    "sha256": "690f6a5790a28c2ed751d2f3dc9f8774505137505f5cd1424f1c5d7b7f369372",
+    "file": "world-draft/npc portraits/Akitsuhara/Akane Natsukawa.png"
+  },
+  {
+    "name": "Kensuke Ayahara",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/1c5b7545-1981-4c3c-a304-f0714f944f83.png",
+    "sha256": "fdc77afb887948e3eb72eb5501a558d19390d4d1728805024342a3a9b91646a2",
+    "file": "world-draft/npc portraits/Akitsuhara/Kensuke Ayahara.png"
+  },
+  {
+    "name": "Naoe Futami",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/ba782168-d9b4-479b-8798-669d7c4b8acd.png",
+    "sha256": "2550b64454473cedae7cb99ccbe39fe635dbafc005439e8c1975deaa78497c0b",
+    "file": "world-draft/npc portraits/Akitsuhara/Naoe Futami.png"
+  },
+  {
+    "name": "Chiyo Matsukaze",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/d51d755f-9273-4042-a86e-6826085e880e.png",
+    "sha256": "48e44a22f6031138f935ee2a2b82370f691a37f5df872480f23db6b42828dd10",
+    "file": "world-draft/npc portraits/Akitsuhara/Chiyo Matsukaze.png"
+  },
+  {
+    "name": "Tetsu Obana",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/96df4199-f041-4b15-96f6-2b77cb4911f2.png",
+    "sha256": "84b4f793cf5a4647d6b4a8257377dc9e486db94c7ecf36db18904f8e8929a7fb",
+    "file": "world-draft/npc portraits/Akitsuhara/Tetsu Obana.png"
+  },
+  {
+    "name": "Fūka Suzumori",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/c56d5a3b-de7e-47a6-9c6c-0971b5264148.png",
+    "sha256": "dc4fe335617038c42d6df4f18f3eef2c0cc70dcc1982f034672eaf5d1cb132fd",
+    "file": "world-draft/npc portraits/Akitsuhara/Fūka Suzumori.png"
+  },
+  {
+    "name": "Renjirō Usami",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/90478b40-6019-4d62-a052-513790927c01.png",
+    "sha256": "1ae575ca9751225fdfcc789f192f39e09c6c742103fd0a87df0466e3db9fa2b6",
+    "file": "world-draft/npc portraits/Akitsuhara/Renjirō Usami.png"
+  },
+  {
+    "name": "Maho Kanemori",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/0327ddb5-a228-4386-a74c-7aa5bf36ca5d.png",
+    "sha256": "baa82de17b73a17f75fb226d5c03d87bc30ca3358d50c2ee9e1d1fb7563625d6",
+    "file": "world-draft/npc portraits/Akitsuhara/Maho Kanemori.png"
+  },
+  {
+    "name": "Hatsu Kanesue",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/8b0b0e56-fc54-482d-af44-1ee749945d91.png",
+    "sha256": "7ac48f497c6935d9163fbedf2f6a22b8697729d0795c9ef4fb964f3d1704aff0",
+    "file": "world-draft/npc portraits/Akitsuhara/Hatsu Kanesue.png"
+  },
+  {
+    "name": "Jirō Hozumi",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/8a3bf26f-f378-4369-91b3-2a363063991b.png",
+    "sha256": "054061b693399512aefd2edfc4501ce245ee8342c6cadb7264609bfdbd89580a",
+    "file": "world-draft/npc portraits/Akitsuhara/Jirō Hozumi.png"
+  },
+  {
+    "name": "Sōta Amemiya",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/62ee214c-22a1-4747-9b3f-7ccf4fc589c8.png",
+    "sha256": "4874dca0fa95dd0349af0d45eeab64bf6d7a7592bd37ab75c012c725df74f7f9",
+    "file": "world-draft/npc portraits/Akitsuhara/Sōta Amemiya.png"
+  },
+  {
+    "name": "Iori Kagurazaka",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/6e891770-cd38-41c5-b08c-8b27ce3fcf08.png",
+    "sha256": "0a28e384e0657fae17b6d764fc20041bf4f9d0fc00f96e57d4ff1e469f7e2472",
+    "file": "world-draft/npc portraits/Akitsuhara/Iori Kagurazaka.png"
+  },
+  {
+    "name": "Yūhei Toba",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/2924d649-0a6a-48a7-a251-683df03334a8.png",
+    "sha256": "03bb0323fbd84fa4d3b1e14c852e37b1a46df2a14c9a72873212d4cb2dfc045d",
+    "file": "world-draft/npc portraits/Akitsuhara/Yūhei Toba.png"
+  },
+  {
+    "name": "Kōichi Aratani",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/875c73d8-6b97-4dc3-a53d-7f36ca4f6f81.png",
+    "sha256": "016aceb1e82ac40df4df8343a47589384955445a74af7e68015ff01fb35676be",
+    "file": "world-draft/npc portraits/Akitsuhara/Kōichi Aratani.png"
+  },
+  {
+    "name": "Chinatsu Hanegi",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/fe0e6f9c-7506-4841-88c0-d3abefc41963.png",
+    "sha256": "85dcda037e63fdab37d04b55dd1fc79e0f2fcf8d65db55a1bb8333ab7e41d16a",
+    "file": "world-draft/npc portraits/Akitsuhara/Chinatsu Hanegi.png"
+  },
+  {
+    "name": "Yae Mizuno",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/757610f3-08d4-4beb-930c-efb65eadb626.png",
+    "sha256": "b5dcf6602051a0e9f53d3e48300eedfda818e4c33dd812e3fd792a395eb14add",
+    "file": "world-draft/npc portraits/Akitsuhara/Yae Mizuno.png"
+  },
+  {
+    "name": "Mina Kurusu",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/21cfcbb0-2153-4c10-a869-201d5fb488e9.png",
+    "sha256": "2fbbf119da7d7d8a55cb99a920074513a3734912c11977474363da630766f1c1",
+    "file": "world-draft/npc portraits/Akitsuhara/Mina Kurusu.png"
+  },
+  {
+    "name": "Natsuko Tsumura",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/b2aef8cc-8672-40c1-bdc3-63dbdb049604.png",
+    "sha256": "2f17880b8be746d14ee703ca8fbe13210156365d674215224fcc60f6603b7791",
+    "file": "world-draft/npc portraits/Akitsuhara/Natsuko Tsumura.png"
+  },
+  {
+    "name": "Osamu Kariya",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/ee321b1b-d174-4b88-9820-0588b68da163.png",
+    "sha256": "9f08eca2f5f6aabe233f7a0ca73d420a809c5c87a4354bfc572a2e77673d49b2",
+    "file": "world-draft/npc portraits/Akitsuhara/Osamu Kariya.png"
+  },
+  {
+    "name": "Kazuma Ebisawa",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/bfc86f3e-4478-497a-b6eb-6e5b2c310140.png",
+    "sha256": "fa132dc7e92d4e1f70f13a3173e849de4aa2b841c5d8d1c90411aae8505f8e13",
+    "file": "world-draft/npc portraits/Akitsuhara/Kazuma Ebisawa.png"
+  },
+  {
+    "name": "Haru Tomisaka",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/985c3658-d4f0-418d-842a-0878493822b2.png",
+    "sha256": "2ef3c14ae945d3436013c8946e98d4d0bb2ce84bd73972cefa86d9647ac78e86",
+    "file": "world-draft/npc portraits/Akitsuhara/Haru Tomisaka.png"
+  },
+  {
+    "name": "Tae Ishihama",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/bda15184-c0da-4bc1-81f2-d293c2ee63d5.png",
+    "sha256": "28a188f4153c5c8a3fc90a8047e3f57878189f4ff9f004f6b8dc1ad0dee0be10",
+    "file": "world-draft/npc portraits/Akitsuhara/Tae Ishihama.png"
+  },
+  {
+    "name": "Sachi Morisawa",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/e0f7782b-09e8-4718-9fd9-416eb7fd345f.png",
+    "sha256": "6032eb0cc6e8d8dbcc906c79a8f5f6d58045493c5cde415f9779cb08a134ec4e",
+    "file": "world-draft/npc portraits/Akitsuhara/Sachi Morisawa.png"
+  },
+  {
+    "name": "Shunji Dobashi",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/e430b59e-ccce-4883-890c-44c0e6465d81.png",
+    "sha256": "fd8f36cbac957661e3f997f28249aa051ca9c53d0daa0dbcc6352250485a55f0",
+    "file": "world-draft/npc portraits/Akitsuhara/Shunji Dobashi.png"
+  },
+  {
+    "name": "Ruri Nabatame",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/32c6fe82-78c0-4cd9-9450-12c8d095def3.png",
+    "sha256": "8cebe541b1fdfb46c3fdbed111d53a493c05aff133494e1d1ab3540de044751b",
+    "file": "world-draft/npc portraits/Akitsuhara/Ruri Nabatame.png"
+  },
+  {
+    "name": "Hokuto Mizusawa",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/02637d47-454e-4aed-8410-14c03e47cf24.png",
+    "sha256": "06e5fe1490af399e80216d0add02942844e79b3d5923badeca98bcb3580c1501",
+    "file": "world-draft/npc portraits/Akitsuhara/Hokuto Mizusawa.png"
+  },
+  {
+    "name": "Fusa Minase",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/92b37aa5-31ee-4f01-8b7c-73dd34b37f91.png",
+    "sha256": "e2420df1973e1b414b559517d8cc7bbfaa0c41deea13d08f29ea7c6308741aae",
+    "file": "world-draft/npc portraits/Akitsuhara/Fusa Minase.png"
+  },
+  {
+    "name": "Shizue Amakawa",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/8d43aa3a-2d09-4cfe-8909-9975e81e919d.png",
+    "sha256": "2226d3f6c71a9454300a15c3317012c27800966f1131ee8b66cdfaea0f6ecde0",
+    "file": "world-draft/npc portraits/Akitsuhara/Shizue Amakawa.png"
+  },
+  {
+    "name": "Naohiro Umemoto",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/b394de73-b7cd-4f30-bb22-d3befc582d22.png",
+    "sha256": "2e5205bed713fc1b32457328c503e2e77467dc47dbd08ddf16bae166424b1410",
+    "file": "world-draft/npc portraits/Akitsuhara/Naohiro Umemoto.png"
+  },
+  {
+    "name": "Dōgen Hanamori",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/a6b7b7a4-0c16-4b33-904a-574fd5837a83.png",
+    "sha256": "8f65147fcb8a55569f076066b3e796a859465b7276ac992be3fcbb3f583c5435",
+    "file": "world-draft/npc portraits/Akitsuhara/Dōgen Hanamori.png"
+  },
+  {
+    "name": "Sana Kuroiwa",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/07d7d46b-919c-43d8-9d0f-3fed245e2866.png",
+    "sha256": "b577c4bd5e6fdcddd338ef1e76dadbfb21181055c362d2feb54aba26d452bf54",
+    "file": "world-draft/npc portraits/Akitsuhara/Sana Kuroiwa.png"
+  },
+  {
+    "name": "Rei Tsunemori",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/89c33947-0205-412c-9759-bdd5aba0f366.png",
+    "sha256": "45d553556ecbdf3572c4dc2acbcc97a84697a90414bed9306cf1dafafd15bfb1",
+    "file": "world-draft/npc portraits/Akitsuhara/Rei Tsunemori.png"
+  },
+  {
+    "name": "Chika Nishihara",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/633ec277-3b92-4b3e-bdf5-edb9bf5f4bea.png",
+    "sha256": "5cc3d551a068f29d799bac1c7b76287c05202c8755a6665bc0a7049d21653b4a",
+    "file": "world-draft/npc portraits/Akitsuhara/Chika Nishihara.png"
+  },
+  {
+    "name": "Tomoe Masuda",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/4856f543-7637-4368-845d-4c2e88409ea4.png",
+    "sha256": "600a24a54391e4c6c19b2f878e89e5222c5fcd6ab0ca2e67c26a5b215271a79c",
+    "file": "world-draft/npc portraits/Akitsuhara/Tomoe Masuda.png"
+  },
+  {
+    "name": "Shin Watarai",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/4f07d47e-2e97-4d0d-bf3c-82484f1ea8cf.png",
+    "sha256": "b13fea86b7bc0642aed668e1c94cd99ba7506e30661ae8945ef303846b9a044c",
+    "file": "world-draft/npc portraits/Akitsuhara/Shin Watarai.png"
+  },
+  {
+    "name": "Yoriko Abe",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/5291f308-f2e3-4658-811b-800074da79ce.png",
+    "sha256": "8379cc9752c2e4c28c420d0f6e9b0214872a2681cafd2ab7c226e3c2cc7801aa",
+    "file": "world-draft/npc portraits/Akitsuhara/Yoriko Abe.png"
+  },
+  {
+    "name": "Mitsue Harada",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/ea8dccee-e604-416a-9acc-150c85a35ded.png",
+    "sha256": "afb6f91bc369688da25db2a9f6234efd6683bf41c20fb5835771d2df6df6fb02",
+    "file": "world-draft/npc portraits/Akitsuhara/Mitsue Harada.png"
+  },
+  {
+    "name": "Yasuo Natori",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/a7d013e1-144a-4f4a-be71-ace06d0fc1be.png",
+    "sha256": "37fdbcc441db95e3f89a717f49195dc0a7e03532cdd72ab00b31c3befd25b1ad",
+    "file": "world-draft/npc portraits/Akitsuhara/Yasuo Natori.png"
+  },
+  {
+    "name": "Kentarō Maeba",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/458b8bc0-e95f-4a30-9d78-d89b666243d3.png",
+    "sha256": "41d53a432f7dc0e4b9d07f7a5812c9a6d15816df1ea6741a77ecd338bb4795b4",
+    "file": "world-draft/npc portraits/Akitsuhara/Kentarō Maeba.png"
+  },
+  {
+    "name": "Kayo Yagiri",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/7f98a8e1-2d10-46fd-b00e-0ca4bdf888e3.png",
+    "sha256": "8cac7b63815fd51d4c7ac621969dfc9e7395de13ebbcf8b92b105c6d076ba716",
+    "file": "world-draft/npc portraits/Akitsuhara/Kayo Yagiri.png"
+  },
+  {
+    "name": "Suzuha Hoshikawa",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/d710832c-a940-4ccb-91a1-b639631d5aa4.png",
+    "sha256": "9ad12447eea8c5930c379b5ad8c8b7754c00d27d278fbe1c41c6153dd8f79de5",
+    "file": "world-draft/npc portraits/Akitsuhara/Suzuha Hoshikawa.png"
+  },
+  {
+    "name": "Rika Ogata",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/7b33bf65-6c14-4f84-868a-e3c1c3adf462.png",
+    "sha256": "d7ca263b86e15e4f86c75c42dd48da50db88e5eb760b6cc3c88d5798595e9a22",
+    "file": "world-draft/npc portraits/Akitsuhara/Rika Ogata.png"
+  },
+  {
+    "name": "Kenji Morita",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/26ee2e53-0ff4-45d5-be98-faed32d98350.png",
+    "sha256": "59ff092ad4210398d31b3e5e463ed1d7ec8461179cdf9cb0685a042efdff1cb1",
+    "file": "world-draft/npc portraits/Akitsuhara/Kenji Morita.png"
+  },
+  {
+    "name": "Daichi Kurobane",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/ffeb1bfd-59b5-4622-9078-3e3db0d86000.png",
+    "sha256": "ee84d14bd8923c8fa5231c4e20bdf7527c88fcf539e0a0281a15a70145eae57e",
+    "file": "world-draft/npc portraits/Akitsuhara/Daichi Kurobane.png"
+  },
+  {
+    "name": "Tōru Fukada",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/272d5214-08ac-4903-bf1a-26084b733c33.png",
+    "sha256": "8423822752948fee4c5fbbb673c8947e560ab2cf68436eaaeac1e6030facfac4",
+    "file": "world-draft/npc portraits/Akitsuhara/Tōru Fukada.png"
+  },
+  {
+    "name": "Mayu Enomoto",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/da2b29d3-544f-47a9-810a-c3a525abed27.png",
+    "sha256": "001d99b2b8bfeabb632b7283887fb166da82d1035c324ef28d119766676b22d2",
+    "file": "world-draft/npc portraits/Akitsuhara/Mayu Enomoto.png"
+  },
+  {
+    "name": "Yōko Sanada",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/2cc96005-b978-4078-a6f8-0689fb78e831.png",
+    "sha256": "f937e8fffcd252fafeecdbde58cbeb4a489bbe423837c9e1b97c77a47bfa934d",
+    "file": "world-draft/npc portraits/Akitsuhara/Yōko Sanada.png"
+  },
+  {
+    "name": "Kae Sumida",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/b0b8e592-a011-4e49-8b23-1c531079de73.png",
+    "sha256": "9c6a94192c3e21bd0e4a156571c78b492d1ccc3138072a5ec5aec1759c865a3b",
+    "file": "world-draft/npc portraits/Akitsuhara/Kae Sumida.png"
+  },
+  {
+    "name": "Takuro Namiki",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/ae964bc8-2fbb-47f8-943c-5b7a09540adb.png",
+    "sha256": "2f9a72db3e2fb1064bcc25c930f5d57eec59719865105779496ce213ffb76530",
+    "file": "world-draft/npc portraits/Akitsuhara/Takuro Namiki.png"
+  },
+  {
+    "name": "Chihiro Noda",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/20df05ae-79c5-4e42-aac3-c9387857ac74.png",
+    "sha256": "3fc551f3bd6b8cb253a2a4e41bf74942df613484a9b468273074b4fd3007afff",
+    "file": "world-draft/npc portraits/Akitsuhara/Chihiro Noda.png"
+  },
+  {
+    "name": "Makiya Utsugi",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/3c1efbb2-3491-413b-bc55-4610e1cc6f81.png",
+    "sha256": "4cf9a423287f46050f510864db08f3e97b0cc82211bdb927d9adb7e5a17faba3",
+    "file": "world-draft/npc portraits/Akitsuhara/Makiya Utsugi.png"
+  },
+  {
+    "name": "Hajime Niwa",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/78e6f86a-8fa6-49f4-8dfb-2e2556f81b2e.png",
+    "sha256": "e1cb8af866f03ce9b401553a666ac30d7e346612c29e54cd4a1900f90c8665c8",
+    "file": "world-draft/npc portraits/Akitsuhara/Hajime Niwa.png"
+  },
+  {
+    "name": "Akihisa Manabe",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/b808c138-f9b4-430a-8865-34602fd460df.png",
+    "sha256": "387d4c84e094ca2c15a0ec2b3da1a4a7b839686ad87f661e8af2bb404887c2e4",
+    "file": "world-draft/npc portraits/Akitsuhara/Akihisa Manabe.png"
+  },
+  {
+    "name": "Asa Kogure",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/e141cc80-dce0-422c-9276-3eec35eec2c7.png",
+    "sha256": "ef83e32fac9b658d4f682b5a18187fb4d6e2759f2f123cfd507398038b30d514",
+    "file": "world-draft/npc portraits/Akitsuhara/Asa Kogure.png"
+  },
+  {
+    "name": "Atsuha Yunokawa",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/70111d6a-5199-45a2-8804-2de596773351.png",
+    "sha256": "95f77a84fb1fd27a1085ca1c2586a076ec9400810a73b3e0271a908d2f8d5792",
+    "file": "world-draft/npc portraits/Akitsuhara/Atsuha Yunokawa.png"
+  },
+  {
+    "name": "Aya Takino",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/fb36f7ce-069e-4ffa-be70-231f532056b7.png",
+    "sha256": "b1e9b47291d82edc542ca427083180533efd92631252c3d31ac4d0d52770992a",
+    "file": "world-draft/npc portraits/Akitsuhara/Aya Takino.png"
+  },
+  {
+    "name": "Duncan Rusk",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/7626e002-34ee-4d3f-824f-4e72fd650252.png",
+    "sha256": "ed26b3768e4bb33c60951f798dda1d3155cddf551b575c8be38123680ed57cf1",
+    "file": "world-draft/npc portraits/Akitsuhara/Duncan Rusk.png"
+  },
+  {
+    "name": "Ema Shiozaki",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/f9343f9a-f821-407b-85bf-f8cb8e8c08c3.png",
+    "sha256": "046d1af4c4c5acffb8f44be51f0e495b092831092f7a71d41a7be8bb3a2765de",
+    "file": "world-draft/npc portraits/Akitsuhara/Ema Shiozaki.png"
+  },
+  {
+    "name": "Eri Tamura",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/e79710cb-60ba-4e48-bd1a-81c79dee6866.png",
+    "sha256": "a2f9565d601116dd03908fbce73bd5f083ec82d3469cf8ebf0345e466ebb1923",
+    "file": "world-draft/npc portraits/Akitsuhara/Eri Tamura.png"
+  },
+  {
+    "name": "Gorō Fushimi",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/695dee3f-7623-46f1-95d9-1a7b43f07c78.png",
+    "sha256": "9b4710e33106dc0169628e31d47bb461ff5e27be2406ded0cee370f57ef0d0ee",
+    "file": "world-draft/npc portraits/Akitsuhara/Gorō Fushimi.png"
+  },
+  {
+    "name": "Hiroto Sakuma",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/2ed4ec9f-c107-4d07-8b5f-be0d89f569d1.png",
+    "sha256": "7c92bf473e5e3b96ad94ed7880c734992197f8043b8be28de858d200c80b42f7",
+    "file": "world-draft/npc portraits/Akitsuhara/Hiroto Sakuma.png"
+  },
+  {
+    "name": "Isao Tsuge",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/c2879875-6020-48a2-9acd-376a9daa0309.png",
+    "sha256": "e94a99963cf4cf780902e85c3ca89c6bfbc9dcace6602cc17f2cdf5d5f03cf7c",
+    "file": "world-draft/npc portraits/Akitsuhara/Isao Tsuge.png"
+  },
+  {
+    "name": "Jin Lin",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/59aaed28-7286-4ad7-bebe-17ab4d1ff507.png",
+    "sha256": "5e0d94170ead4a2cfb80e91eb4c629049d75556aac0cfbf0fd0024315f5b091d",
+    "file": "world-draft/npc portraits/Akitsuhara/Jin Lin.png"
+  },
+  {
+    "name": "Jun Sasanami",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/a0bdf7f7-4dfd-49e3-b3d3-81704bf84232.png",
+    "sha256": "6abf46d3033d5d9c469d1eef0d39f2dda5c6831136005e6409ccd0995c29be23",
+    "file": "world-draft/npc portraits/Akitsuhara/Jun Sasanami.png"
+  },
+  {
+    "name": "Kaito Honma",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/90d7ccda-6fdb-4255-9f02-d90e5db5da79.png",
+    "sha256": "58979d6f7a9921682b91fac269c0e3c9d704d01547fac4c2f53b8dc97dbe4501",
+    "file": "world-draft/npc portraits/Akitsuhara/Kaito Honma.png"
+  },
+  {
+    "name": "Katsuho Enoki",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/7768488c-2378-4fcc-8328-6e66089ffd7c.png",
+    "sha256": "c9a2fbd7e240787a884f0fbfca2213e257324571898ca4dd8ed2eed6974068df",
+    "file": "world-draft/npc portraits/Akitsuhara/Katsuho Enoki.png"
+  },
+  {
+    "name": "Kohina Beppu",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/96b3bb99-0931-49af-b943-d594a47cacf8.png",
+    "sha256": "b2314b46e2447cdceeea7330ddf531a7d73acc9ce11b87efaeb6bea742313ce3",
+    "file": "world-draft/npc portraits/Akitsuhara/Kohina Beppu.png"
+  },
+  {
+    "name": "Koma",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/f295a9ff-38e1-4eec-ba34-0cfe6ecb1032.png",
+    "sha256": "7811f083cd5c88034d27be7778aecde767af5ae9071e72eca6e96b3c8da94b1c",
+    "file": "world-draft/npc portraits/Akitsuhara/Koma.png"
+  },
+  {
+    "name": "Léonie Vauclair",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/9132b16d-13c4-46ab-ac9f-9ddfbbe814bb.png",
+    "sha256": "69828fa6834e8fad7f872d2a12a49037e33948c3ff2f298015066af023812f50",
+    "file": "world-draft/npc portraits/Akitsuhara/Léonie Vauclair.png"
+  },
+  {
+    "name": "Mutsumi Hosaka",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/e348ddc7-f522-4853-bbe6-8e7b640cb91c.png",
+    "sha256": "4ddd9b5e9334a356d67eba7e3488ceae7b8e254b2f6c017a924be844fba06fbb",
+    "file": "world-draft/npc portraits/Akitsuhara/Mutsumi Hosaka.png"
+  },
+  {
+    "name": "Nana Saionoma",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/8aeede5a-efbd-47b9-a548-65a7eca9b1e1.png",
+    "sha256": "d6f771e0e6d191f075ed05d1e492aec775fa9eb12e6faa2a2fda7e105408acc4",
+    "file": "world-draft/npc portraits/Akitsuhara/Nana Saionoma.png"
+  },
+  {
+    "name": "Nene Moriyama",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/fda2dde5-89a6-45e9-bd61-6ca3da8dac45.png",
+    "sha256": "96ce114a4bcc3a33513c83b33031272e740de930640a2819b00070b9ba02386a",
+    "file": "world-draft/npc portraits/Akitsuhara/Nene Moriyama.png"
+  },
+  {
+    "name": "Ren Ishidate",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/6d5eaa80-1945-422d-bbb5-89654aed0137.png",
+    "sha256": "0ed2ae108bc3d45c12a628d2688f7ee1e6093d5ea1792a1516329251b7a82432",
+    "file": "world-draft/npc portraits/Akitsuhara/Ren Ishidate.png"
+  },
+  {
+    "name": "Seitarō Matsuoka",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/ed25d829-a74c-4acf-a3de-9c075c81e573.png",
+    "sha256": "83b405db96d857c2a1f7ecad678d28e5b3d1645d905246fe840965e9b8b152cf",
+    "file": "world-draft/npc portraits/Akitsuhara/Seitarō Matsuoka.png"
+  },
+  {
+    "name": "Suzu-no-Ura",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/036cba4c-c115-4f45-88e9-a7ef7822252d.png",
+    "sha256": "0a4a6912768fd3a3a868b29df940ec5d8440b1ca14ac258862e90eb29030930a",
+    "file": "world-draft/npc portraits/Akitsuhara/Suzu-no-Ura.png"
+  },
+  {
+    "name": "Takane Shibata",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/6bd5350f-f4df-4c53-80e7-2106c1058371.png",
+    "sha256": "ba06511508b66bcf1fb1fef0b7d6ebee5624d72fe6b32ed2f3ebb28411b87eb9",
+    "file": "world-draft/npc portraits/Akitsuhara/Takane Shibata.png"
+  },
+  {
+    "name": "Yukina Tsuribe",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/3d343f1c-29ed-4e4f-85ad-33d586dd3a89.png",
+    "sha256": "71b50aee7adc0565f44204543cb6b8ecef10766ff694a0ba78b82dc56c1c5365",
+    "file": "world-draft/npc portraits/Akitsuhara/Yukina Tsuribe.png"
+  },
+  {
+    "name": "Yumi Sawatari",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/68a4220d-eb98-452a-9486-be27ce3c9a80.png",
+    "sha256": "45892d6cd2f89e6b21374a5606c5b8f696262623c65255c88c72035ef7bc24cc",
+    "file": "world-draft/npc portraits/Akitsuhara/Yumi Sawatari.png"
+  },
+  {
+    "name": "Misao Shingū",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/e5c93dec-efa6-4e83-ad76-0b0053722b79.png",
+    "sha256": "6bed3afd2ec1f80eb98e1dee7921d221d3f1763a6e9b74f6c28ae6f6574d1fb7",
+    "file": "world-draft/npc portraits/Akitsuhara/Misao Shingū.png"
   }
 ]

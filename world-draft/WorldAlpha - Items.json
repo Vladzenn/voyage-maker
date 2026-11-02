@@ -212,7 +212,7 @@
   "Glowhaven Portal Key": {
     "name": "Glowhaven Portal Key",
     "category": "Key",
-    "description": "A reusable court-issued return key provided under the traveler's approved Evertree passage. At Drakenspire - Portal Room or Cloudbloom Landing - Portal Room, use it to return directly to Evertree Base - Portal Room in Glowhaven. It can also identify the home connection at a return arch already discovered in actual play. It is retained after use, costs no passenger mana and does not open a portal elsewhere. Fixed return arches also work without it. The key grants no private palace access or new outbound authorization.",
+    "description": "A reusable return key issued under an approved Evertree journey or by an authorized partner transit desk. At the established portal rooms in Drakenspire, Asterveil or Benitsuru, it identifies the passage to Evertree Base - Portal Room in Glowhaven. The key is retained after use and costs no passenger mana. It grants no private palace access or permission for another destination.",
     "bonuses": []
   },
   "Asterveil Field Atlas": {

@@ -808,5 +808,13 @@
     ],
     "fixedCreatureConcept": true,
     "poseRoll": 1
+  },
+  "Atsuha Yunokawa": {
+    "affinityRoll": 37,
+    "affinities": [
+      "Water"
+    ],
+    "poseRoll": 6,
+    "skin": "light olive"
   }
 }

@@ -1,4 +1,4 @@
-# ⛩️ Portal to Akitsuhara
+# ⛩️ Steel and Spirits
 
 Beyond the Evertree lies a country of crowded canal markets, castle households, bamboo valleys and roads that grow quieter beneath the cedars.
 
@@ -12,13 +12,15 @@ Explore twelve regions surrounding Benitsuru, the Shogun’s capital beneath sac
 - Follow the waterways through grain country, investigate abandoned sites or prepare for the colder northern passes.
 - Find modest work along inhabited routes before choosing the dangers farther from town. The deepest woods deserve more preparation than a morning errand.
 
-### 🤝 96 New Characters
+### 🤝 97 New Characters
 
 Meet household leaders, clerks, samurai, shinobi, craftspeople, performers, adventurers, foreign visitors and people whose business is rather harder to explain.
 
 Shōen Kagetsuna’s government works alongside territorial houses with competing interests. Imported weapons offer some of them a new advantage—and someone has been acquiring more than a few useful fittings. Elsewhere, a guild clerk makes paper puppets between applicants, a road performer knows too much gossip, and an independent rōnin would rather choose his obligations carefully.
 
-These people have interests, flaws and relationships beyond the work they might offer. Some are generous, some are difficult, and some are quite willing to make their comfort somebody else’s problem. The major cast arrives with new portraits; supporting portraits will follow separately.
+These people have interests, flaws and relationships beyond the work they might offer. Some are generous, some are difficult, and some are quite willing to make their comfort somebody else’s problem. The complete new cast now has portraits, from the household leaders to the people keeping ordinary life moving.
+
+Take a break at Hinoki Hollow Onsen, where Atsuha Yunokawa keeps clean towels, warm mineral pools and a mental collection of travelers’ least convincing excuses.
 
 ### ⚔️ Work, Training and Unwelcome Proposals
 
@@ -44,13 +46,13 @@ Discover raised paths, a dry refuge and a proud guardian of one particular cross
 
 - Six new Akitsuhara openings place you inside the country, from household service and shinobi training to village life, shrine work, an independent rōnin’s morning and the local guild counter.
 - New Drakenspire and Asterveil researcher openings offer two more beginnings beyond Glowhaven.
-- Expanded Origin & Upbringing backgrounds and useful professions give your past more room to take shape.
+- Expanded Origin & Upbringing backgrounds, Drakenspire clan upbringings and an optional Past Experience section give veterans, former adventurers and characters with a criminal history more room to take shape.
 - New weapons, equipment, talents and techniques support local fighting traditions, practical magic and a small selection of unusual imported Magitech.
 
 Local spellwork often follows breath, movement and a practiced feel for mana. Its flowing forms are another tradition within the same magical world—and its beautiful patterns are quite capable of hurting someone.
 
 ### 🛠️ Playtest Fixes
 
-Guild assessments now distinguish practice examples from real commissions more clearly. Contract selection has stronger safeguards against taking unrelated jobs, and postings reinforce their established people, places and rewards. Starting money also receives a correction.
+Guild assessments now distinguish practice examples from real commissions more clearly. Contract selection has stronger safeguards against taking unrelated jobs, and postings reinforce their established people, places and rewards. Starting money also receives a correction. Start descriptions now clearly identify foreign beginnings, and characters starting abroad can request a Glowhaven key from an authorized local transit desk.
 
 Ask for an authorized Akitsuhara key beneath the Evertree, or choose a new beginning inside the country. The roads are open. ⛩️

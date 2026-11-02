@@ -1,0 +1,1467 @@
+{
+  "sourceSHA256": "2cf11632cadc223ed37a3a77122f48d2d98eefff0e041130a8e20ca4346ada8f",
+  "renames": {
+    "Benitsuru Guildhall": "Adventurer's Guild - Benitsuru Branch",
+    "Mirror-Reed Ferry": "Mirror-Reed Bridge",
+    "Reedglass Fishing Village": "Reedglass Woodland Hamlet",
+    "White Heron Islets": "White Heron Grove",
+    "Singing Reed Marsh": "Singing Cedar Hollow",
+    "Old Ferry Shrine": "Old Bridge Shrine",
+    "Saltwind Causeway": "Mossbank Ridgeway",
+    "Reed Dye Workshop": "Woodland Dye Workshop",
+    "Akitsuhara Guild: Cloth on the Other Bank": "Akitsuhara Guild: Cloth on the Forest Road",
+    "Akitsuhara Guild: Missing Along the Reeds": "Akitsuhara Guild: Missing on the Ridge",
+    "Put an onsen and an npc here": "Hinoki Hollow Onsen"
+  },
+  "rewrittenLocations": [
+    "Mirror-Reed Bridge",
+    "Reedglass Woodland Hamlet",
+    "White Heron Grove",
+    "Singing Cedar Hollow",
+    "Old Bridge Shrine",
+    "Mossbank Ridgeway",
+    "Woodland Dye Workshop"
+  ],
+  "rewrittenNPCs": [
+    "Yumi Sawatari",
+    "Gorō Fushimi",
+    "Aya Takino",
+    "Koma"
+  ],
+  "newNPC": "Atsuha Yunokawa",
+  "newOnsen": "Hinoki Hollow Onsen",
+  "coordinatesAndImagesPreserved": true,
+  "newLocationImagesGenerated": 0,
+  "portraitRuleAdded": " Spears and polearms have one straight continuous shaft aligned through both grips, with an attached head. No accidental breaks, offsets or floating sections.",
+  "onsenAffinityRoll": 37,
+  "onsenAffinities": [
+    "Water"
+  ],
+  "sourcePins": {
+    "Phoenix Wing Academy": {
+      "x": -17,
+      "y": 12,
+      "region": "Glowhaven"
+    },
+    "Hydra Head Academy": {
+      "x": 17,
+      "y": 9,
+      "region": "Glowhaven"
+    },
+    "Gryffin Tail Academy": {
+      "x": -17,
+      "y": -8,
+      "region": "Glowhaven"
+    },
+    "Dragon Hoard Academy": {
+      "x": 22,
+      "y": -9,
+      "region": "Glowhaven"
+    },
+    "The Grand Sage's Court": {
+      "x": 0,
+      "y": 17,
+      "region": "Glowhaven"
+    },
+    "Cloud District": {
+      "x": 5,
+      "y": 14,
+      "region": "Glowhaven"
+    },
+    "Merchant's Row": {
+      "x": 8,
+      "y": -2,
+      "region": "Glowhaven"
+    },
+    "East City Gate": {
+      "x": 31,
+      "y": 1,
+      "region": "Glowhaven"
+    },
+    "West City Gate": {
+      "x": -32,
+      "y": 1,
+      "region": "Glowhaven"
+    },
+    "Caravan Outpost": {
+      "x": -41,
+      "y": -8,
+      "region": "Glowhaven"
+    },
+    "The Emberfox Hot Spring": {
+      "x": -38,
+      "y": 18,
+      "region": "Glowhaven"
+    },
+    "Greywatch Keep": {
+      "x": -28,
+      "y": 25,
+      "region": "Glowhaven"
+    },
+    "Saltmere": {
+      "x": 20,
+      "y": 22,
+      "region": "Glowhaven"
+    },
+    "The Everlight Public Library": {
+      "x": -11,
+      "y": -12,
+      "region": "Glowhaven"
+    },
+    "Brookmeadow": {
+      "x": -5,
+      "y": -37,
+      "region": "Glowhaven"
+    },
+    "The Jade Cup Teahouse": {
+      "x": 11,
+      "y": -14,
+      "region": "Glowhaven"
+    },
+    "Four Sages Bazaar": {
+      "x": 0,
+      "y": 1,
+      "region": "Glowhaven"
+    },
+    "The Eternal Crucible": {
+      "x": 11,
+      "y": 4,
+      "region": "Glowhaven"
+    },
+    "Whitecrest Harbor": {
+      "x": 21,
+      "y": 16,
+      "region": "Glowhaven"
+    },
+    "East Greyfield": {
+      "x": -11,
+      "y": -27,
+      "region": "Glowhaven"
+    },
+    "West Greyfield": {
+      "x": -25,
+      "y": -20,
+      "region": "Glowhaven"
+    },
+    "Main City Gate": {
+      "x": 0,
+      "y": -26,
+      "region": "Glowhaven"
+    },
+    "The Grand Approach": {
+      "x": 0,
+      "y": -9,
+      "region": "Glowhaven"
+    },
+    "Briarcrest Manor": {
+      "x": 15,
+      "y": 14,
+      "region": "Glowhaven"
+    },
+    "Willowbend Residential District": {
+      "x": 6,
+      "y": -7,
+      "region": "Glowhaven"
+    },
+    "City Guard Headquarters": {
+      "x": -10,
+      "y": 9,
+      "region": "Glowhaven"
+    },
+    "Stargarden Manor": {
+      "x": -12,
+      "y": 15,
+      "region": "Glowhaven"
+    },
+    "The Grand Ascent": {
+      "x": 0,
+      "y": 12,
+      "region": "Glowhaven"
+    },
+    "The Wandering Quill": {
+      "x": -21,
+      "y": 7,
+      "region": "Glowhaven"
+    },
+    "Bramble & Bottle": {
+      "x": -23,
+      "y": 8,
+      "region": "Glowhaven"
+    },
+    "The Gilded Griffin": {
+      "x": -25,
+      "y": 7,
+      "region": "Glowhaven"
+    },
+    "Wayfarer's Goods": {
+      "x": -4,
+      "y": 6,
+      "region": "Glowhaven"
+    },
+    "Crooked Tankard": {
+      "x": 11,
+      "y": -4,
+      "region": "Glowhaven"
+    },
+    "Roseberry Inn": {
+      "x": -11,
+      "y": -2,
+      "region": "Glowhaven"
+    },
+    "Driftstone Isle": {
+      "x": 29,
+      "y": 25,
+      "region": "Glowhaven"
+    },
+    "Pinewake Coast": {
+      "x": 15,
+      "y": 26,
+      "region": "Glowhaven"
+    },
+    "Clovermead": {
+      "x": 28,
+      "y": 32,
+      "region": "Glowhaven"
+    },
+    "Pebblewick": {
+      "x": 35,
+      "y": -10,
+      "region": "Glowhaven"
+    },
+    "Crescent Shores": {
+      "x": 39,
+      "y": -16,
+      "region": "Glowhaven"
+    },
+    "Seabreeze Inn": {
+      "x": 36,
+      "y": -3,
+      "region": "Glowhaven"
+    },
+    "Glowhaven Farmlands": {
+      "x": 10,
+      "y": -34,
+      "region": "Glowhaven"
+    },
+    "Hermit's hut": {
+      "x": -41,
+      "y": -43,
+      "region": "Glowhaven"
+    },
+    "Pinewater River": {
+      "x": -33,
+      "y": -33,
+      "region": "Glowhaven"
+    },
+    "West Glowhaven Woods": {
+      "x": -44,
+      "y": 11,
+      "region": "Glowhaven"
+    },
+    "Pebbletown": {
+      "x": 13,
+      "y": -27,
+      "region": "Glowhaven"
+    },
+    "Sage's Spire": {
+      "x": 3,
+      "y": 20,
+      "region": "Glowhaven"
+    },
+    "Violet Thread": {
+      "x": -5,
+      "y": -2,
+      "region": "Glowhaven"
+    },
+    "The Perfumed Rose": {
+      "x": -3,
+      "y": -3,
+      "region": "Glowhaven"
+    },
+    "The Golden Ladle": {
+      "x": -22,
+      "y": -3,
+      "region": "Glowhaven"
+    },
+    "The Farmer's Exchange": {
+      "x": 5,
+      "y": 3,
+      "region": "Glowhaven"
+    },
+    "Rune and Raven's": {
+      "x": -21,
+      "y": 3,
+      "region": "Glowhaven"
+    },
+    "Moonwhisker Emporium": {
+      "x": -25,
+      "y": 3,
+      "region": "Glowhaven"
+    },
+    "Blackstone Smithy": {
+      "x": -26,
+      "y": -2,
+      "region": "Glowhaven"
+    },
+    "The Silver Anvil": {
+      "x": -26,
+      "y": -9,
+      "region": "Glowhaven"
+    },
+    "The Carpenter's Measure": {
+      "x": -22,
+      "y": -12,
+      "region": "Glowhaven"
+    },
+    "Hide & Hammer": {
+      "x": -15,
+      "y": -17,
+      "region": "Glowhaven"
+    },
+    "Eastbloom Residences": {
+      "x": 28,
+      "y": -3,
+      "region": "Glowhaven"
+    },
+    "Rosetimber Suburbs": {
+      "x": 11,
+      "y": 17,
+      "region": "Glowhaven"
+    },
+    "The Compassmaker": {
+      "x": 15,
+      "y": -6,
+      "region": "Glowhaven"
+    },
+    "Pinewater Woods": {
+      "x": -39,
+      "y": -21,
+      "region": "Glowhaven"
+    },
+    "The Winding Lowlands": {
+      "x": -16,
+      "y": 27,
+      "region": "Glowhaven"
+    },
+    "Shadowspire": {
+      "x": 42,
+      "y": -33,
+      "region": "Glowhaven"
+    },
+    "House Goldbarrow Estate": {
+      "x": 8,
+      "y": 11,
+      "region": "Glowhaven"
+    },
+    "The Magistrate's Hall": {
+      "x": -5,
+      "y": 15,
+      "region": "Glowhaven"
+    },
+    "The Arcane Emporium": {
+      "x": -16,
+      "y": 4,
+      "region": "Glowhaven"
+    },
+    "Evertree Base": {
+      "x": 0,
+      "y": 20,
+      "region": "Glowhaven"
+    },
+    "Wraith Island": {
+      "x": 42,
+      "y": 27,
+      "region": "Glowhaven"
+    },
+    "Prison Landing": {
+      "x": 0,
+      "y": -23,
+      "region": "Wraith Island Custody District"
+    },
+    "Intake and Property Office": {
+      "x": 8,
+      "y": -3,
+      "region": "Wraith Island Custody District"
+    },
+    "Prison Records Office": {
+      "x": 25,
+      "y": 0,
+      "region": "Wraith Island Custody District"
+    },
+    "Holding Cells": {
+      "x": 29,
+      "y": 14,
+      "region": "Wraith Island Custody District"
+    },
+    "High-Security Cellblock": {
+      "x": 24,
+      "y": 33,
+      "region": "Wraith Island Custody District"
+    },
+    "Prison Work Yard": {
+      "x": -1,
+      "y": 21,
+      "region": "Wraith Island Custody District"
+    },
+    "Prison Stores": {
+      "x": -6,
+      "y": 33,
+      "region": "Wraith Island Custody District"
+    },
+    "Prison Infirmary": {
+      "x": -28,
+      "y": 28,
+      "region": "Wraith Island Custody District"
+    },
+    "Prison Visiting Hall": {
+      "x": -8,
+      "y": -3,
+      "region": "Wraith Island Custody District"
+    },
+    "Prison Mess Hall": {
+      "x": -31,
+      "y": 15,
+      "region": "Wraith Island Custody District"
+    },
+    "Prison Exercise Yard": {
+      "x": -1,
+      "y": 11,
+      "region": "Wraith Island Custody District"
+    },
+    "Prison Security Headquarters": {
+      "x": -26,
+      "y": 0,
+      "region": "Wraith Island Custody District"
+    },
+    "Prison Watchtowers": {
+      "x": 41,
+      "y": -1,
+      "region": "Wraith Island Custody District"
+    },
+    "Prison Sea Wall": {
+      "x": -30,
+      "y": -8,
+      "region": "Wraith Island Custody District"
+    },
+    "Drakenspire Portals": {
+      "x": -12,
+      "y": 3,
+      "region": "Drakenspire Highlands"
+    },
+    "Embersteel Foundries": {
+      "x": 19,
+      "y": 7,
+      "region": "Drakenspire Highlands"
+    },
+    "Stonefang Training Grounds": {
+      "x": 5,
+      "y": -4,
+      "region": "Drakenspire Highlands"
+    },
+    "Whitepass Caravan Lodge": {
+      "x": 4,
+      "y": 4,
+      "region": "Drakenspire Highlands"
+    },
+    "Rimecrest Trail": {
+      "x": -35,
+      "y": -7,
+      "region": "Drakenspire Highlands"
+    },
+    "Cloudbloom Landing": {
+      "x": 37,
+      "y": -6,
+      "region": "Cloudbloom Reaches"
+    },
+    "Asterveil Canopy": {
+      "x": 42,
+      "y": -3,
+      "region": "Cloudbloom Reaches"
+    },
+    "Bellwind Conservatory": {
+      "x": 7,
+      "y": 27,
+      "region": "Cloudbloom Reaches"
+    },
+    "Mythwing Meadows": {
+      "x": -20,
+      "y": 30,
+      "region": "Cloudbloom Reaches"
+    },
+    "Broken Halo Ruins": {
+      "x": 27,
+      "y": 9,
+      "region": "Rimeglass Heights"
+    },
+    "Silken Portal Room": {
+      "x": 0,
+      "y": 32,
+      "region": "Silken Chasm"
+    },
+    "Threadfall Galleries": {
+      "x": 0,
+      "y": -9,
+      "region": "Silken Chasm"
+    },
+    "Sunken Broodworks": {
+      "x": 0,
+      "y": 42,
+      "region": "Silken Depths"
+    },
+    "Widow's Crucible": {
+      "x": 0,
+      "y": -18,
+      "region": "Silken Depths"
+    },
+    "Crescent Crown Fortress": {
+      "x": 19,
+      "y": 31,
+      "region": "Drakenspire Highlands"
+    },
+    "The Ancestor's Crescent": {
+      "x": 26,
+      "y": 41,
+      "region": "Drakenspire Highlands"
+    },
+    "The Jarl's Hall": {
+      "x": 27,
+      "y": 35,
+      "region": "Drakenspire Highlands"
+    },
+    "Clans' Assembly House": {
+      "x": 22,
+      "y": 36,
+      "region": "Drakenspire Highlands"
+    },
+    "Crescent Sanctuary": {
+      "x": 30,
+      "y": 30,
+      "region": "Drakenspire Highlands"
+    },
+    "Ancestor Cairn Terrace": {
+      "x": 4,
+      "y": 30,
+      "region": "Drakenspire Highlands"
+    },
+    "High Rampart Gate": {
+      "x": 19,
+      "y": 22,
+      "region": "Drakenspire Highlands"
+    },
+    "Oathward Barracks": {
+      "x": 22,
+      "y": 26,
+      "region": "Drakenspire Highlands"
+    },
+    "Dragonwatch Balcony": {
+      "x": 36,
+      "y": 29,
+      "region": "Drakenspire Highlands"
+    },
+    "Founders' Processional Way": {
+      "x": 0,
+      "y": 10,
+      "region": "Drakenspire Highlands"
+    },
+    "Hearthmarket Square": {
+      "x": -1,
+      "y": 2,
+      "region": "Drakenspire Highlands"
+    },
+    "Snowmelt Residential Steps": {
+      "x": -4,
+      "y": -7,
+      "region": "Drakenspire Highlands"
+    },
+    "Cinderstone Schoolhouse": {
+      "x": -18,
+      "y": -4,
+      "region": "Drakenspire Highlands"
+    },
+    "Lower Hold Gate": {
+      "x": -12,
+      "y": -11,
+      "region": "Drakenspire Highlands"
+    },
+    "Iwatsugu Clanhold": {
+      "x": -2,
+      "y": 16,
+      "region": "Drakenspire Highlands"
+    },
+    "Yukinose Clanhold": {
+      "x": 8,
+      "y": 17,
+      "region": "Drakenspire Highlands"
+    },
+    "Arashimine Clanhold": {
+      "x": 1,
+      "y": -4,
+      "region": "Drakenspire Highlands"
+    },
+    "The Hold's Judgment House": {
+      "x": 20,
+      "y": 16,
+      "region": "Drakenspire Highlands"
+    },
+    "The Tempered Fang": {
+      "x": 22,
+      "y": 6,
+      "region": "Drakenspire Highlands"
+    },
+    "Rivet & Rime Armory": {
+      "x": 14,
+      "y": 8,
+      "region": "Drakenspire Highlands"
+    },
+    "The Woolen Wyvern": {
+      "x": -8,
+      "y": 6,
+      "region": "Drakenspire Highlands"
+    },
+    "Coppercrest Exchange": {
+      "x": -4,
+      "y": 8,
+      "region": "Drakenspire Highlands"
+    },
+    "Amberglass Assay House": {
+      "x": -7,
+      "y": 12,
+      "region": "Drakenspire Highlands"
+    },
+    "Crystalcutters' Court": {
+      "x": 7,
+      "y": 3,
+      "region": "Drakenspire Highlands"
+    },
+    "Resin & Root Apothecary": {
+      "x": 10,
+      "y": 9,
+      "region": "Drakenspire Highlands"
+    },
+    "Snowchain Freight Yard": {
+      "x": 21,
+      "y": 2,
+      "region": "Drakenspire Highlands"
+    },
+    "The Copper Ram": {
+      "x": -11,
+      "y": -4,
+      "region": "Drakenspire Highlands"
+    },
+    "Hearthpot Stew House": {
+      "x": 25,
+      "y": 5,
+      "region": "Drakenspire Highlands"
+    },
+    "Stonewake Onsen": {
+      "x": -35,
+      "y": -1,
+      "region": "Drakenspire Highlands"
+    },
+    "Snowbell Playhouse": {
+      "x": -12,
+      "y": 11,
+      "region": "Drakenspire Highlands"
+    },
+    "The Cinder Pit": {
+      "x": 10,
+      "y": -2,
+      "region": "Drakenspire Highlands"
+    },
+    "Deepwell Waterworks": {
+      "x": -31,
+      "y": -13,
+      "region": "Drakenspire Highlands"
+    },
+    "Hoofstep Pens": {
+      "x": -26,
+      "y": -31,
+      "region": "Drakenspire Highlands"
+    },
+    "Woolridge Pastures": {
+      "x": -22,
+      "y": -27,
+      "region": "Drakenspire Highlands"
+    },
+    "Winter Stores": {
+      "x": 10,
+      "y": 2,
+      "region": "Drakenspire Highlands"
+    },
+    "Whitepass Watchpost": {
+      "x": -34,
+      "y": -34,
+      "region": "Drakenspire Highlands"
+    },
+    "Goatstep Hamlet": {
+      "x": -26,
+      "y": -25,
+      "region": "Drakenspire Highlands"
+    },
+    "Pinefold Hollow": {
+      "x": -45,
+      "y": -25,
+      "region": "Drakenspire Highlands"
+    },
+    "Glassmere Basin": {
+      "x": -42,
+      "y": 15,
+      "region": "Drakenspire Highlands"
+    },
+    "Redvein Mine": {
+      "x": 35,
+      "y": -11,
+      "region": "Drakenspire Highlands"
+    },
+    "Lanternamber Caverns": {
+      "x": -43,
+      "y": 23,
+      "region": "Drakenspire Highlands"
+    },
+    "The Abandoned Chainworks": {
+      "x": 43,
+      "y": -10,
+      "region": "Drakenspire Highlands"
+    },
+    "Old Hearthfall": {
+      "x": 25,
+      "y": -28,
+      "region": "Drakenspire Highlands"
+    },
+    "Frostback Mountain": {
+      "x": -11,
+      "y": 45,
+      "region": "Drakenspire Highlands"
+    },
+    "The Buried Switchback": {
+      "x": -31,
+      "y": 30,
+      "region": "Drakenspire Highlands"
+    },
+    "Skreek Crags": {
+      "x": -25,
+      "y": 35,
+      "region": "Drakenspire Highlands"
+    },
+    "Giant's Hollow": {
+      "x": -16,
+      "y": 25,
+      "region": "Drakenspire Highlands"
+    },
+    "The White Silence": {
+      "x": -20,
+      "y": 39,
+      "region": "Drakenspire Highlands"
+    },
+    "Stormscar Observatory": {
+      "x": -44,
+      "y": 43,
+      "region": "Drakenspire Highlands"
+    },
+    "First Shelter Ruins": {
+      "x": -38,
+      "y": 39,
+      "region": "Drakenspire Highlands"
+    },
+    "The Old Offering Steps": {
+      "x": -3,
+      "y": 31,
+      "region": "Drakenspire Highlands"
+    },
+    "Coldglass Galleries": {
+      "x": -13,
+      "y": 34,
+      "region": "Drakenspire Highlands"
+    },
+    "The Fallen Pass Shrine": {
+      "x": -33,
+      "y": 37,
+      "region": "Drakenspire Highlands"
+    },
+    "Rimefang Ravine": {
+      "x": 6,
+      "y": -34,
+      "region": "Drakenspire Highlands"
+    },
+    "Sunspill Woodland": {
+      "x": -6,
+      "y": 12,
+      "region": "Cloudbloom Reaches"
+    },
+    "Petalwash Terraces": {
+      "x": 1,
+      "y": 4,
+      "region": "Cloudbloom Reaches"
+    },
+    "Tetherroot Chain": {
+      "x": 19,
+      "y": -31,
+      "region": "Cloudbloom Reaches"
+    },
+    "Dewglass Hollows": {
+      "x": -30,
+      "y": -8,
+      "region": "Cloudbloom Reaches"
+    },
+    "Rimeglass Refuge": {
+      "x": -13,
+      "y": -6,
+      "region": "Rimeglass Heights"
+    },
+    "Frostbell Pines": {
+      "x": -6,
+      "y": 5,
+      "region": "Rimeglass Heights"
+    },
+    "Rimeglass Crown": {
+      "x": 4,
+      "y": 35,
+      "region": "Rimeglass Heights"
+    },
+    "Thunderwake Crags": {
+      "x": 36,
+      "y": 14,
+      "region": "Rimeglass Heights"
+    },
+    "Hollow Snow Vault": {
+      "x": 22,
+      "y": 3,
+      "region": "Rimeglass Heights"
+    },
+    "Reedglass Anchorage": {
+      "x": 27,
+      "y": 28,
+      "region": "Mirrorwater Marches"
+    },
+    "Mirrorwater Basin": {
+      "x": -2,
+      "y": 20,
+      "region": "Mirrorwater Marches"
+    },
+    "Glassreed Labyrinth": {
+      "x": 8,
+      "y": -4,
+      "region": "Mirrorwater Marches"
+    },
+    "Spillway Steps": {
+      "x": -24,
+      "y": 10,
+      "region": "Mirrorwater Marches"
+    },
+    "Lanternmire Islets": {
+      "x": -36,
+      "y": -20,
+      "region": "Mirrorwater Marches"
+    },
+    "Drowned Orrery": {
+      "x": -9,
+      "y": -18,
+      "region": "Mirrorwater Marches"
+    },
+    "Undertow Hollows": {
+      "x": 16,
+      "y": -16,
+      "region": "Mirrorwater Marches"
+    },
+    "Heatherwatch Shelf": {
+      "x": -26,
+      "y": 30,
+      "region": "Amethyst Crown"
+    },
+    "Mauvewind Steppe": {
+      "x": 2,
+      "y": 4,
+      "region": "Amethyst Crown"
+    },
+    "Singing Stone Spines": {
+      "x": 14,
+      "y": 36,
+      "region": "Amethyst Crown"
+    },
+    "Prismbloom Basin": {
+      "x": 34,
+      "y": -13,
+      "region": "Amethyst Crown"
+    },
+    "Crownfall Chasm": {
+      "x": 23,
+      "y": -13,
+      "region": "Amethyst Crown"
+    },
+    "Stillstar Sanctum": {
+      "x": 1,
+      "y": -15,
+      "region": "Amethyst Crown"
+    },
+    "The Inverted Crown": {
+      "x": 27,
+      "y": 22,
+      "region": "Amethyst Crown"
+    },
+    "Adventurer's Guild - Glowhaven Branch": {
+      "x": 18,
+      "y": 3,
+      "region": "Glowhaven"
+    },
+    "Sepulchral Portal House": {
+      "x": 0,
+      "y": 39,
+      "region": "Sepulchral Gardens"
+    },
+    "Sepulchral Conservatory": {
+      "x": 0,
+      "y": -19,
+      "region": "Sepulchral Gardens"
+    },
+    "Mourning Garden": {
+      "x": 0,
+      "y": 19,
+      "region": "Sepulchral Gardens"
+    },
+    "Blackpine Posthouse": {
+      "x": -10,
+      "y": -20,
+      "region": "Blackpine March"
+    },
+    "Cedarfall Hamlet": {
+      "x": 43,
+      "y": -6,
+      "region": "Blackpine March"
+    },
+    "Western Watch Road": {
+      "x": 37,
+      "y": -15,
+      "region": "Blackpine March"
+    },
+    "Old Bell Shrine": {
+      "x": 30,
+      "y": 22,
+      "region": "Blackpine March"
+    },
+    "Foxglove Wood": {
+      "x": 30,
+      "y": 8,
+      "region": "Blackpine March"
+    },
+    "Blackpine Boundary Stones": {
+      "x": -19,
+      "y": 36,
+      "region": "Blackpine March"
+    },
+    "Hollow Cedar Ruins": {
+      "x": -4,
+      "y": 38,
+      "region": "Blackpine March"
+    },
+    "Western Woodcutters' Yard": {
+      "x": 26,
+      "y": -30,
+      "region": "Blackpine March"
+    },
+    "Thundercrag Quarry": {
+      "x": 3,
+      "y": 17,
+      "region": "Thundercrag Highlands"
+    },
+    "Kuroishi Miners' Row": {
+      "x": 19,
+      "y": -19,
+      "region": "Thundercrag Highlands"
+    },
+    "Basalt Kilns": {
+      "x": -2,
+      "y": 1,
+      "region": "Thundercrag Highlands"
+    },
+    "Amber-Salt Mine": {
+      "x": 24,
+      "y": 5,
+      "region": "Thundercrag Highlands"
+    },
+    "Abandoned Splitshaft": {
+      "x": 30,
+      "y": 22,
+      "region": "Thundercrag Highlands"
+    },
+    "Scree Lantern Pass": {
+      "x": -14,
+      "y": 33,
+      "region": "Thundercrag Highlands"
+    },
+    "Quarry Exchange": {
+      "x": -5,
+      "y": -11,
+      "region": "Thundercrag Highlands"
+    },
+    "Broken Relay Tower": {
+      "x": -33,
+      "y": 25,
+      "region": "Thundercrag Highlands"
+    },
+    "Shiun Pilgrim Lodge": {
+      "x": -6,
+      "y": -32,
+      "region": "Mount Shiun"
+    },
+    "Shiun Thousand Steps": {
+      "x": -18,
+      "y": -12,
+      "region": "Mount Shiun"
+    },
+    "Cloudbell Monastery": {
+      "x": 2,
+      "y": 8,
+      "region": "Mount Shiun"
+    },
+    "Whitefall Shrine": {
+      "x": -30,
+      "y": -4,
+      "region": "Mount Shiun"
+    },
+    "Summit Cedar Precinct": {
+      "x": 6,
+      "y": 20,
+      "region": "Mount Shiun"
+    },
+    "Shiun Herb Slopes": {
+      "x": 25,
+      "y": -17,
+      "region": "Mount Shiun"
+    },
+    "Ancestor Archive": {
+      "x": 12,
+      "y": 13,
+      "region": "Mount Shiun"
+    },
+    "Frost-Eave Approach": {
+      "x": -16,
+      "y": 26,
+      "region": "Mount Shiun"
+    },
+    "Snowcedar Refuge": {
+      "x": -27,
+      "y": -28,
+      "region": "Snowcedar Heights"
+    },
+    "Blue Mirror Tarn": {
+      "x": -6,
+      "y": 32,
+      "region": "Snowcedar Heights"
+    },
+    "White Antler Basin": {
+      "x": -16,
+      "y": -22,
+      "region": "Snowcedar Heights"
+    },
+    "Snowcedar Signal Hut": {
+      "x": -10,
+      "y": -3,
+      "region": "Snowcedar Heights"
+    },
+    "Rime Bridge": {
+      "x": -6,
+      "y": -14,
+      "region": "Snowcedar Heights"
+    },
+    "Forgotten Muster Camp": {
+      "x": 27,
+      "y": 30,
+      "region": "Snowcedar Heights"
+    },
+    "Sleeping Lake Cavern": {
+      "x": 6,
+      "y": 39,
+      "region": "Snowcedar Heights"
+    },
+    "Mizuhara Castle": {
+      "x": 5,
+      "y": 28,
+      "region": "Mizuhara Lake Country"
+    },
+    "Mizuhara Landing": {
+      "x": 28,
+      "y": 23,
+      "region": "Mizuhara Lake Country"
+    },
+    "Silver Carp Market": {
+      "x": -23,
+      "y": 28,
+      "region": "Mizuhara Lake Country"
+    },
+    "Three Reeds Inn": {
+      "x": -33,
+      "y": -10,
+      "region": "Mizuhara Lake Country"
+    },
+    "Saionoma Household": {
+      "x": 14,
+      "y": 22,
+      "region": "Mizuhara Lake Country"
+    },
+    "Reedwake Boatworks": {
+      "x": 40,
+      "y": -28,
+      "region": "Mizuhara Lake Country"
+    },
+    "Western Spear Hall": {
+      "x": -7,
+      "y": 26,
+      "region": "Mizuhara Lake Country"
+    },
+    "Reedshore Hamlet": {
+      "x": 40,
+      "y": 29,
+      "region": "Mizuhara Lake Country"
+    },
+    "Lakewatch Islet": {
+      "x": 6,
+      "y": -22,
+      "region": "Mizuhara Lake Country"
+    },
+    "Bamboo Crossing": {
+      "x": -23,
+      "y": 25,
+      "region": "Bamboo Veil Valleys"
+    },
+    "Green Thread Paperworks": {
+      "x": -41,
+      "y": 17,
+      "region": "Bamboo Veil Valleys"
+    },
+    "Rainsong Mill": {
+      "x": -21,
+      "y": 12,
+      "region": "Bamboo Veil Valleys"
+    },
+    "Hidden Reed Training Ground": {
+      "x": 26,
+      "y": 39,
+      "region": "Bamboo Veil Valleys"
+    },
+    "Riverglass Baths": {
+      "x": 14,
+      "y": -1,
+      "region": "Bamboo Veil Valleys"
+    },
+    "Abandoned Bamboo Village": {
+      "x": -30,
+      "y": 37,
+      "region": "Bamboo Veil Valleys"
+    },
+    "Moonweave Grove": {
+      "x": -9,
+      "y": 36,
+      "region": "Bamboo Veil Valleys"
+    },
+    "Bamboo Charcoal Camp": {
+      "x": 9,
+      "y": 28,
+      "region": "Bamboo Veil Valleys"
+    },
+    "Benitsuru Transit Shrine": {
+      "x": 1,
+      "y": 34,
+      "region": "Benitsuru Basin"
+    },
+    "Benitsuru Castle": {
+      "x": -2,
+      "y": 47,
+      "region": "Benitsuru Basin"
+    },
+    "Adventurer's Guild - Benitsuru Branch": {
+      "x": -13,
+      "y": 23,
+      "region": "Benitsuru Basin"
+    },
+    "Lantern Canal Market": {
+      "x": -9,
+      "y": 29,
+      "region": "Benitsuru Basin"
+    },
+    "Benitsuru Magistracy": {
+      "x": 20,
+      "y": 23,
+      "region": "Benitsuru Basin"
+    },
+    "Red Maple Inn": {
+      "x": 0,
+      "y": 3,
+      "region": "Benitsuru Basin"
+    },
+    "Benitsuru Ward Clinic": {
+      "x": -30,
+      "y": 35,
+      "region": "Benitsuru Basin"
+    },
+    "Kagetsuna Household": {
+      "x": -22,
+      "y": 25,
+      "region": "Benitsuru Basin"
+    },
+    "Eight Petals Theater": {
+      "x": 15,
+      "y": 45,
+      "region": "Benitsuru Basin"
+    },
+    "Benitsuru Craft Quarter": {
+      "x": 30,
+      "y": 31,
+      "region": "Benitsuru Basin"
+    },
+    "Morning Crane Dojo": {
+      "x": 13,
+      "y": 21,
+      "region": "Benitsuru Basin"
+    },
+    "Canal Ward Homes": {
+      "x": -31,
+      "y": 23,
+      "region": "Benitsuru Basin"
+    },
+    "Benitsuru Public School": {
+      "x": -38,
+      "y": 1,
+      "region": "Benitsuru Basin"
+    },
+    "South Gate Caravan Yard": {
+      "x": 41,
+      "y": 17,
+      "region": "Benitsuru Basin"
+    },
+    "Koganedai Castle": {
+      "x": 0,
+      "y": 22,
+      "region": "Koganedai Terraces"
+    },
+    "Tsubakiri Residence": {
+      "x": 22,
+      "y": 18,
+      "region": "Koganedai Terraces"
+    },
+    "Goldleaf Arcade": {
+      "x": 9,
+      "y": -13,
+      "region": "Koganedai Terraces"
+    },
+    "Ginkgo Crossbow Works": {
+      "x": 18,
+      "y": 3,
+      "region": "Koganedai Terraces"
+    },
+    "Koganedai Muster Ground": {
+      "x": -14,
+      "y": -8,
+      "region": "Koganedai Terraces"
+    },
+    "Terrace Waterworks": {
+      "x": -31,
+      "y": 21,
+      "region": "Koganedai Terraces"
+    },
+    "East Wind Archery Hall": {
+      "x": 27,
+      "y": -21,
+      "region": "Koganedai Terraces"
+    },
+    "Koganedai Guesthouse": {
+      "x": 9,
+      "y": 15,
+      "region": "Koganedai Terraces"
+    },
+    "Ginkgo Schoolhouse": {
+      "x": 1,
+      "y": 0,
+      "region": "Koganedai Terraces"
+    },
+    "Mirror-Reed Bridge": {
+      "x": -8,
+      "y": 17,
+      "region": "Mirror-Reed Lowlands"
+    },
+    "Reedglass Woodland Hamlet": {
+      "x": 43,
+      "y": 24,
+      "region": "Mirror-Reed Lowlands"
+    },
+    "White Heron Grove": {
+      "x": 23,
+      "y": 40,
+      "region": "Mirror-Reed Lowlands"
+    },
+    "Singing Cedar Hollow": {
+      "x": 28,
+      "y": 2,
+      "region": "Mirror-Reed Lowlands"
+    },
+    "Old Bridge Shrine": {
+      "x": -20,
+      "y": 38,
+      "region": "Mirror-Reed Lowlands"
+    },
+    "Mossbank Ridgeway": {
+      "x": 10,
+      "y": -28,
+      "region": "Mirror-Reed Lowlands"
+    },
+    "Woodland Dye Workshop": {
+      "x": -30,
+      "y": -29,
+      "region": "Mirror-Reed Lowlands"
+    },
+    "Hoshina Village": {
+      "x": 5,
+      "y": 21,
+      "region": "Golden Grain Plain"
+    },
+    "Golden Sheaf Granary": {
+      "x": -30,
+      "y": 28,
+      "region": "Golden Grain Plain"
+    },
+    "South River Bridge": {
+      "x": 25,
+      "y": 45,
+      "region": "Golden Grain Plain"
+    },
+    "Goldfinch Orchard": {
+      "x": 37,
+      "y": 22,
+      "region": "Golden Grain Plain"
+    },
+    "Susuki Road": {
+      "x": -5,
+      "y": 32,
+      "region": "Golden Grain Plain"
+    },
+    "Low Meadow Paddies": {
+      "x": 22,
+      "y": 7,
+      "region": "Golden Grain Plain"
+    },
+    "Saffron Road Hostel": {
+      "x": 29,
+      "y": -31,
+      "region": "Golden Grain Plain"
+    },
+    "Redleaf Bridge": {
+      "x": -48,
+      "y": 10,
+      "region": "Redleaf River Country"
+    },
+    "Evening Maple Shrine": {
+      "x": -1,
+      "y": 11,
+      "region": "Redleaf River Country"
+    },
+    "Redleaf Guest Village": {
+      "x": -27,
+      "y": 1,
+      "region": "Redleaf River Country"
+    },
+    "Paper Moon Pavilion": {
+      "x": 12,
+      "y": -12,
+      "region": "Redleaf River Country"
+    },
+    "Foxfire Verge": {
+      "x": 30,
+      "y": -31,
+      "region": "Redleaf River Country"
+    },
+    "Broken Kite Camp": {
+      "x": 24,
+      "y": -14,
+      "region": "Redleaf River Country"
+    },
+    "Redleaf Apiculture": {
+      "x": -41,
+      "y": -4,
+      "region": "Redleaf River Country"
+    },
+    "River Lantern Mooring": {
+      "x": 28,
+      "y": 32,
+      "region": "Redleaf River Country"
+    },
+    "Moonless Torii": {
+      "x": 22,
+      "y": -4,
+      "region": "Lanternwood Border"
+    },
+    "Lanternwood Root Shrine": {
+      "x": -26,
+      "y": 34,
+      "region": "Lanternwood Border"
+    },
+    "Ragged Cedar Hollow": {
+      "x": 31,
+      "y": 7,
+      "region": "Lanternwood Border"
+    },
+    "Old Mask Trail": {
+      "x": 19,
+      "y": 13,
+      "region": "Lanternwood Border"
+    },
+    "Rootfall Ravine": {
+      "x": -11,
+      "y": -37,
+      "region": "Lanternwood Border"
+    },
+    "Lanternwood Field Shelter": {
+      "x": -5,
+      "y": -9,
+      "region": "Lanternwood Border"
+    },
+    "Foxglade Spirit Orchard": {
+      "x": 4,
+      "y": 41,
+      "region": "Lanternwood Border"
+    },
+    "Hushwater Pool": {
+      "x": 14,
+      "y": 26,
+      "region": "Lanternwood Border"
+    },
+    "Veiled Threshold": {
+      "x": -38,
+      "y": -29,
+      "region": "Veiled Cedar Reach"
+    },
+    "Bellroot Refuge": {
+      "x": -33,
+      "y": 16,
+      "region": "Veiled Cedar Reach"
+    },
+    "Pale Lantern Marsh": {
+      "x": 24,
+      "y": -23,
+      "region": "Veiled Cedar Reach"
+    },
+    "The Listening Cedars": {
+      "x": -36,
+      "y": 40,
+      "region": "Veiled Cedar Reach"
+    },
+    "Ashen Festival Road": {
+      "x": 4,
+      "y": 4,
+      "region": "Veiled Cedar Reach"
+    },
+    "Crane-of-the-Hush Crossing": {
+      "x": 2,
+      "y": 26,
+      "region": "Veiled Cedar Reach"
+    },
+    "Hollow Sky Grove": {
+      "x": 35,
+      "y": 33,
+      "region": "Veiled Cedar Reach"
+    },
+    "Hinoki Hollow Onsen": {
+      "x": 34,
+      "y": -45,
+      "region": "Benitsuru Basin"
+    }
+  }
+}

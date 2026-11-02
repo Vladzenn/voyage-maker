@@ -5526,19 +5526,19 @@
       }
     ]
   },
-  "Akitsuhara Guild: Cloth on the Other Bank": {
-    "name": "Akitsuhara Guild: Cloth on the Other Bank",
+  "Akitsuhara Guild: Cloth on the Forest Road": {
+    "name": "Akitsuhara Guild: Cloth on the Forest Road",
     "questSource": "Aya Takino",
-    "questLocation": "Reed Dye Workshop",
+    "questLocation": "Woodland Dye Workshop",
     "detailType": "detailed",
     "status": "hidden",
-    "questStatement": "Recover the real cloth consignment from the grounded ferry and deliver it dry enough for its intended use. Posted reward: 40 marks.",
-    "mainObjective": "Recover the real cloth consignment from the grounded ferry and deliver it dry enough for its intended use.",
-    "questDesignBrief": "The boat is stuck in a shallow channel, not kidnapped. Rope work, a second boat or adjusting a gate can help. A torn bundle is a negotiable partial result, not an excuse for an invented pirate attack. Recommended level about 3; actual method and risk matter. Required badge Bronze. The existing international rank applies; no second licensure or guild fee. Offer this voluntarily through its actual client or a suitable board. Acceptance is a real agreement. Use the typed native completion and effects as the sole reward owner. No extra required return report unless delivery/report is part of the stated outcome. Do not duplicate money, experience or service credit in prose. Preserve real partial progress and a concluded result.",
+    "questStatement": "Recover the real cloth consignment from the overturned pack cart and deliver it dry enough for its intended use. Posted reward: 40 marks.",
+    "mainObjective": "Recover the real cloth consignment from the overturned pack cart and deliver it dry enough for its intended use.",
+    "questDesignBrief": "A loose wheel and a sudden shower left the small cart tilted beside the forest path. Secure the load, repair or lighten the cart, or arrange willing porters. A torn bundle is a negotiable partial result; this is a practical recovery, not a pirate attack. Recommended level about 3; actual method and risk matter. Required badge Bronze. The existing international rank applies; no second licensure or guild fee. Offer this voluntarily through its actual client or a suitable board. Acceptance is a real agreement. Use the typed native completion and effects as the sole reward owner. No extra required return report unless delivery/report is part of the stated outcome. Do not duplicate money, experience or service credit in prose. Preserve real partial progress and a concluded result.",
     "conclusive": true,
     "completionCondition": {
       "type": "story",
-      "query": "For the accepted undertaking Akitsuhara Guild: Cloth on the Other Bank, actual events have achieved this outcome: Recover the real cloth consignment from the grounded ferry and deliver it dry enough for its intended use. Count a feasible alternative that genuinely accomplishes it. A plan, arrival, boast, another person’s unrelated work or a prior different job is insufficient. Preserve completed work after travel and do not add an unstated compulsory stage."
+      "query": "For the accepted undertaking Akitsuhara Guild: Cloth on the Forest Road, actual events have achieved this outcome: Recover the real cloth consignment from the overturned pack cart and deliver it dry enough for its intended use. Count a feasible alternative that genuinely accomplishes it. A plan, arrival, boast or unrelated work is insufficient. Preserve completed work after travel and do not add an unstated compulsory stage."
     },
     "onCompleteEffects": [
       {
@@ -5643,19 +5643,19 @@
       }
     ]
   },
-  "Akitsuhara Guild: Missing Along the Reeds": {
-    "name": "Akitsuhara Guild: Missing Along the Reeds",
+  "Akitsuhara Guild: Missing on the Ridge": {
+    "name": "Akitsuhara Guild: Missing on the Ridge",
     "questSource": "Yumi Sawatari",
-    "questLocation": "Mirror-Reed Ferry",
+    "questLocation": "Mirror-Reed Bridge",
     "detailType": "detailed",
     "status": "hidden",
-    "questStatement": "Find the overdue ferry helper and get the helper and ordinary passengers to a usable landing. Posted reward: 90 marks.",
-    "mainObjective": "Find the overdue ferry helper and get the helper and ordinary passengers to a usable landing.",
-    "questDesignBrief": "A damaged pole and a Reed-Jaw Kappa territorial display stranded the boat. A negotiated passage, alternate landing or proportionate fight works. The helper is alive unless actual play changes that. Recommended level about 7; actual method and risk matter. Required badge Bronze. The existing international rank applies; no second licensure or guild fee. Offer this voluntarily through its actual client or a suitable board. Acceptance is a real agreement. Use the typed native completion and effects as the sole reward owner. No extra required return report unless delivery/report is part of the stated outcome. Do not duplicate money, experience or service credit in prose. Preserve real partial progress and a concluded result.",
+    "questStatement": "Find the overdue trail helper and bring the helper and the accompanied travelers back to a usable woodland route. Posted reward: 90 marks.",
+    "mainObjective": "Find the overdue trail helper and bring the helper and the accompanied travelers back to a usable woodland route.",
+    "questDesignBrief": "A turned ankle and an Antler-Moss Boar occupying the lower bend have stranded a trail party at a dry shelter. A supported walk, a distraction, an alternate marked path or a proportionate fight can work. The helper is alive unless actual events change that. Recommended level about 7; actual method and risk matter. Required badge Bronze. The existing international rank applies; no second licensure or guild fee. Offer this voluntarily through its actual client or a suitable board. Acceptance is a real agreement. Use the typed native completion and effects as the sole reward owner. No extra required return report unless delivery/report is part of the stated outcome. Do not duplicate money, experience or service credit in prose. Preserve real partial progress and a concluded result.",
     "conclusive": true,
     "completionCondition": {
       "type": "story",
-      "query": "For the accepted undertaking Akitsuhara Guild: Missing Along the Reeds, actual events have achieved this outcome: Find the overdue ferry helper and get the helper and ordinary passengers to a usable landing. Count a feasible alternative that genuinely accomplishes it. A plan, arrival, boast, another person’s unrelated work or a prior different job is insufficient. Preserve completed work after travel and do not add an unstated compulsory stage."
+      "query": "For the accepted undertaking Akitsuhara Guild: Missing on the Ridge, actual events have achieved this outcome: Find the overdue trail helper and bring the helper and the accompanied travelers back to a usable woodland route. Count a feasible alternative that genuinely accomplishes it. A plan, arrival, boast or unrelated work is insufficient. Preserve completed work after travel and do not add an unstated compulsory stage."
     },
     "onCompleteEffects": [
       {
@@ -6849,7 +6849,7 @@
   "Expedition: Snowmelt Letters": {
     "name": "Expedition: Snowmelt Letters",
     "questSource": "Hiyori Mitsuba",
-    "questLocation": "Benitsuru Guildhall",
+    "questLocation": "Adventurer's Guild - Benitsuru Branch",
     "detailType": "detailed",
     "status": "hidden",
     "questStatement": "Carry the agreed specimen exchange to Drakenspire, complete the stated observation and return a truthful field record. Posted reward: 400 marks.",
@@ -6888,7 +6888,7 @@
   "Expedition: Reeds above the Clouds": {
     "name": "Expedition: Reeds above the Clouds",
     "questSource": "Hiyori Mitsuba",
-    "questLocation": "Benitsuru Guildhall",
+    "questLocation": "Adventurer's Guild - Benitsuru Branch",
     "detailType": "detailed",
     "status": "hidden",
     "questStatement": "Complete the agreed Asterveil reed comparison at Mirrorwater Basin and return the actual samples or an accepted in-place record. Posted reward: 400 marks.",
@@ -7104,7 +7104,7 @@
   "Guild: Benitsuru Licensure": {
     "name": "Guild: Benitsuru Licensure",
     "questSource": "Hiyori Mitsuba",
-    "questLocation": "Benitsuru Guildhall",
+    "questLocation": "Adventurer's Guild - Benitsuru Branch",
     "detailType": "detailed",
     "status": "hidden",
     "questStatement": "The guild accepts martial and magical applicants. Registration opens an assessment; a real pass earns the first Bronze badge.",

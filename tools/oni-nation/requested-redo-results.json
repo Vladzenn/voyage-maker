@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Sana Kuroiwa",
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-afae96ec-238e-4eff-b510-4597b0962c89.png",
+    "target": "world-draft/npc portraits/Akitsuhara/Sana Kuroiwa.png",
+    "sha256": "b577c4bd5e6fdcddd338ef1e76dadbfb21181055c362d2feb54aba26d452bf54",
+    "width": 1024,
+    "height": 1536,
+    "previousSHA256": "56470f4c437197ecaddc9d78c0d866487872d35bd9efc05f6a37c871406ac358",
+    "explicitlyRequested": true,
+    "generationAttempt": 2,
+    "review": "pending"
+  },
+  {
+    "name": "Shōen Kagetsuna",
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-ddb91f4b-8223-4f56-b665-c0f8d2ba69c9.png",
+    "target": "world-draft/npc portraits/Akitsuhara/Shōen Kagetsuna.png",
+    "sha256": "afe4fc8e405d8f4ebfbefe3d079f650a385bf1a81bb413d747e455de037442c2",
+    "width": 1024,
+    "height": 1536,
+    "previousSHA256": "cf6755658da4de66d2c3cd9f443a5a59e9781db187339380be0d41df72c118aa",
+    "explicitlyRequested": true,
+    "generationAttempt": 2,
+    "review": "pending"
+  },
+  {
+    "name": "Misao Shingū",
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-d00b97b8-3832-471e-a57a-a86ca1bccbe8.png",
+    "target": "world-draft/npc portraits/Akitsuhara/Misao Shingū.png",
+    "sha256": "6bed3afd2ec1f80eb98e1dee7921d221d3f1763a6e9b74f6c28ae6f6574d1fb7",
+    "width": 1024,
+    "height": 1536,
+    "previousSHA256": "f4d886b0a4c1f0bc2bc5cb73773ca65806477ca939a75937b7b5a6613db9c249",
+    "explicitlyRequested": true,
+    "generationAttempt": 2,
+    "review": "pending"
+  }
+]

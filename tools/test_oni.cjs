@@ -50,6 +50,28 @@ ck(m.npcs.length>=80&&m.npcs.length<=100,'Requested launch cast');
 ck(m.npcs.filter(n=>['Hagire','Koma','Suzu-no-Ura','Oroha'].includes(n)).length===4,'Small named yokai population');
 for(const name of m.npcs){const n=w.npcs[name];ck(w.locations[n.currentLocation]?.areas[n.currentArea],'Actual NPC address '+name);ck(w.npcTypes[n.type],'Actual NPC type '+name);ck(!n.basicInfo.includes('works as has'),'No malformed role template '+name);}
 ck(w.npcs.Hagire.level===42&&w.npcs.Hagire.initialRelationship<=-80,'Hostile midgame roaming monster');
+if(w.locations['Hinoki Hollow Onsen']){
+ const follow=JSON.parse(fs.readFileSync(path.join(__dirname,'oni-nation/location-followup-report.json'),'utf8'));
+ const flat=JSON.stringify(w);
+ for(const retired of Object.keys(follow.renames))ck(!flat.includes(retired),'Retired location/quest ID absent '+retired);
+ for(const name of follow.rewrittenLocations){
+  const loc=w.locations[name];ck(loc.region==='Mirror-Reed Lowlands','Forest correction remains on actual tile '+name);
+  const prose=loc.basicInfo+' '+Object.values(loc.areas).map(a=>a.description).join(' ');
+  ck(!/\bferr(?:y|ies)|\bfishing village|\blake\b|\bboat\b/i.test(prose),'No retired broad-water premise '+name);
+ }
+ ck(w.npcs['Yumi Sawatari'].basicInfo.includes('bridge keeper and trail guide'),'Trail keeper replaces ferry pilot');
+ ck(w.npcs['Gorō Fushimi'].basicInfo.includes('woodland hamlet headman'),'Forest headman replaces fishing village');
+ ck(w.npcs['Aya Takino'].basicInfo.includes('bark-dye artisan'),'Dyer uses woodland materials');
+ ck(w.npcs.Koma.basicInfo.includes('boundary inspector'),'Tanuki local knowledge corrected');
+ ck(w.locations['Hinoki Hollow Onsen'].x===34&&w.locations['Hinoki Hollow Onsen'].y===-45,'Approved onsen pin preserved');
+ ck(w.npcs['Atsuha Yunokawa'].currentLocation==='Hinoki Hollow Onsen','Actual onsen proprietor');
+ ck(Object.keys(w.locations['Hinoki Hollow Onsen'].areas).length===4,'Onsen has useful local areas');
+ ck(w.imagePromptConfiguration.npcs.includes('continuous shaft'),'Runtime portrait weapon continuity rule');
+ for(const [name,pin]of Object.entries(follow.sourcePins||{})){
+  ck(w.locations[name].x===pin.x&&w.locations[name].y===pin.y,'Author pin retained '+name);
+  ck(w.locations[name].region===pin.region,'Author region retained '+name);
+ }
+}
 
 // New starts are local and grouped before all academy faculty openings.
 const starts=Object.keys(w.storyStarts),work=starts.findIndex(k=>k.includes('First Day of Work:'));
@@ -59,6 +81,22 @@ for(const name of m.storyStarts){const st=w.storyStarts[name];ck(st.name===name&
 for(const st of Object.values(w.storyStarts))ck(st.startingItems.filter(i=>i.item==='Mark').reduce((n,i)=>n+i.quantity,0)===1000,'One authored 1000-mark start '+st.name);
 ck(!w.itemSettings.startingItems.some(i=>i.item==='Mark'),'No shared extra 18 marks');
 ck(w.traitCategories['Special Talent'].maxSelections===2,'Approved talent capacity');
+if(w.traitCategories['Past Experience']){
+ const past=w.traitCategories['Past Experience'];ck(past.maxSelections===1&&past.traits.length===14,'Optional single past-experience choice');
+ for(const n of past.traits){const t=w.traits[n];ck(t.skills.length===1&&t.skills[0].modifier===1&&!t.startingItems.length,'Modest experience without free badge '+n);}
+ for(const n of ['Iwatsugu Clan Upbringing','Yukinose Clan Upbringing','Arashimine Clan Upbringing'])ck(w.traitCategories['Origin & Upbringing'].traits.includes(n),'Selectable actual clan '+n);
+ const physical=w.traits['Physical Foundations'];
+ for(const skill of ['Force Combat','Finesse Combat'])ck(physical.skills.filter(x=>x.skill===skill&&x.modifier===1).length===1,'Requested physical combat foundation '+skill);
+ const ids=Object.keys(w.storyStarts);ck(ids.indexOf('🛡️ Adventurer: Guild Counter')<ids.indexOf('⚔️ Akitsuhara: Samurai at the Gate'),'Glowhaven adventurer before country openings');
+ for(const s of Object.values(w.storyStarts))ck(!s.description.includes('*'),'Plain selectable description '+s.name);
+ for(const id of m.storyStarts){const d=w.storyStarts[id].description;ck(id.includes('Akitsuhara:')?d.startsWith('Begin in the country of Akitsuhara'):d.startsWith('Begin in '+(id.includes('Drakenspire:')?'Drakenspire':'Asterveil')),'Explicit foreign starting realm '+id);}
+}
+if(m.supportingArtComplete){
+ ck(m.npcs.length===97,'Cast includes approved onsen attendant');
+ const receipts=JSON.parse(fs.readFileSync(path.join(__dirname,'oni-nation/hosted-art.json'),'utf8')).filter(r=>r.target==='NPC_PORTRAIT');
+ ck(receipts.length===97&&new Set(receipts.map(r=>r.name)).size===97,'One exact portrait receipt per new NPC');
+ for(const r of receipts)ck(w.npcs[r.name].portraitUrl===r.url,'Hosted URL matched to exact identity '+r.name);
+}
 const professions=w.traitCategories['Profession & Useful Skills'];
 ck(professions.traits.length>=90&&professions.subcategories.length>=10,'Expanded useful professions and categories');
 ck(new Set(professions.subcategories.flatMap(g=>g.traits)).size===professions.traits.length,'Complete profession grouping');
@@ -134,6 +172,14 @@ h=context({location:'Moonless Torii',items:{'Restored Way Bell':1}});e=h.run('on
 ck(e.some(e=>e.type==='write-boolean'&&e.key==='oni_soul_gate_awake')&&!e.some(e=>e.type==='party-location'),'Awakening permanent flag without forced entry');
 h.q.items={};h.q.storage.oni_soul_gate_awake=true;e=h.run('oni_soul_torii_cross');ck(e.some(e=>e.type==='party-location'&&e.value==='Veiled Threshold'),'Opened spirit route works after bell is lost');
 h=context({location:'Veiled Threshold'});e=h.run('oni_soul_torii_return');ck(e.some(e=>e.type==='party-area'&&e.value==='Moonless Torii - Torii Court'),'Local spirit return is not Evertree');
+if(w.triggerDefinitions.oni_foreign_glowhaven_key_issue){
+ for(const location of ['Drakenspire Portals','Cloudbloom Landing','Benitsuru Transit Shrine']){
+  h=context({location});e=h.run('oni_foreign_glowhaven_key_issue');ck(e.filter(x=>x.type==='item-add'&&x.item==='Glowhaven Portal Key'&&x.quantity===1).length===1,'Local approved home key '+location);ck(!e.some(x=>x.type==='party-location'),'Key issue does not force travel '+location);
+  h.q.items={'Glowhaven Portal Key':1};ck(!h.run('oni_foreign_glowhaven_key_issue').length,'No duplicate held home key '+location);
+  h.q.items={};h.q.storage.gh_evertree_transited=true;ck(!h.run('oni_foreign_glowhaven_key_issue').length,'Existing post-transit grant retains sole ownership '+location);
+  h.q.storage.gh_evertree_transited=false;h.q.semantic=false;ck(!h.run('oni_foreign_glowhaven_key_issue').length,'Actual authorization required '+location);
+ }
+}
 for(const overrides of [{health:0},{inScene:true},{inCombat:true},{inParty:true},{storage:{oni_hagire_route_safe:true}}]){h=context(overrides);ck(!h.run('oni_hagire_roam').length,'No roaming over an actual resolved/engaged state');}
 h=context({tick:72});e=h.run('oni_hagire_roam');ck(e.length===1&&e[0].type==='npc-placement','One bounded offstage roam');
 ck(!h.run('oni_hagire_roam').length,'No repeated move in same roaming interval');

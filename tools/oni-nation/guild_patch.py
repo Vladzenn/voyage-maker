@@ -63,5 +63,5 @@ if(!chosen||legacy.includes(chosen)){skip=true;}else{
  }
 }
 '''
-    w['triggerDefinitions'][name]={'name':name,'phase':'state','recurring':True,'conditions':[{'type':'party-location','operator':'regex','value':"^(Adventurer's Guild - Glowhaven Branch|Benitsuru Guildhall)$"},{'type':'action','query':'The player actually accepts one of the currently displayed guild contracts. Browsing, asking for details, exam examples, accepting a different undertaking or an unclear yes to multiple choices is false.'}],'effects':[],'script':script}
+    w['triggerDefinitions'][name]={'name':name,'phase':'state','recurring':True,'conditions':[{'type':'party-location','operator':'regex','value':"^(Adventurer's Guild - Glowhaven Branch|Adventurer's Guild - Benitsuru Branch)$"},{'type':'action','query':'The player actually accepts one of the currently displayed guild contracts. Browsing, asking for details, exam examples, accepting a different undertaking or an unclear yes to multiple choices is false.'}],'effects':[],'script':script}
     return name

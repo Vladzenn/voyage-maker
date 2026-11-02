@@ -16662,7 +16662,7 @@
       {
         "type": "party-location",
         "operator": "regex",
-        "value": "^(Lanternwood Field Shelter|Redleaf Guest Village|Benitsuru Guildhall)$"
+        "value": "^(Lanternwood Field Shelter|Redleaf Guest Village|Adventurer's Guild - Benitsuru Branch)$"
       },
       {
         "type": "read-boolean",
@@ -16692,7 +16692,7 @@
       {
         "type": "party-location",
         "operator": "equals",
-        "value": "Benitsuru Guildhall"
+        "value": "Adventurer's Guild - Benitsuru Branch"
       },
       {
         "type": "player-item",
@@ -16736,7 +16736,7 @@
       {
         "type": "party-location",
         "operator": "equals",
-        "value": "Benitsuru Guildhall"
+        "value": "Adventurer's Guild - Benitsuru Branch"
       },
       {
         "type": "player-item",
@@ -16782,7 +16782,7 @@
       {
         "type": "party-location",
         "operator": "equals",
-        "value": "Benitsuru Guildhall"
+        "value": "Adventurer's Guild - Benitsuru Branch"
       },
       {
         "type": "player-item",
@@ -16828,7 +16828,7 @@
       {
         "type": "party-location",
         "operator": "equals",
-        "value": "Benitsuru Guildhall"
+        "value": "Adventurer's Guild - Benitsuru Branch"
       },
       {
         "type": "player-item",
@@ -16903,7 +16903,7 @@
       {
         "type": "party-location",
         "operator": "equals",
-        "value": "Benitsuru Guildhall"
+        "value": "Adventurer's Guild - Benitsuru Branch"
       },
       {
         "type": "player-item",
@@ -16929,7 +16929,7 @@
       {
         "type": "party-location",
         "operator": "equals",
-        "value": "Benitsuru Guildhall"
+        "value": "Adventurer's Guild - Benitsuru Branch"
       },
       {
         "type": "player-item",
@@ -16982,7 +16982,7 @@
       {
         "type": "party-location",
         "operator": "equals",
-        "value": "Benitsuru Guildhall"
+        "value": "Adventurer's Guild - Benitsuru Branch"
       },
       {
         "type": "player-item",
@@ -17008,7 +17008,7 @@
       {
         "type": "party-location",
         "operator": "equals",
-        "value": "Benitsuru Guildhall"
+        "value": "Adventurer's Guild - Benitsuru Branch"
       },
       {
         "type": "player-item",
@@ -17061,7 +17061,7 @@
       {
         "type": "party-location",
         "operator": "equals",
-        "value": "Benitsuru Guildhall"
+        "value": "Adventurer's Guild - Benitsuru Branch"
       },
       {
         "type": "player-item",
@@ -17087,7 +17087,7 @@
       {
         "type": "party-location",
         "operator": "equals",
-        "value": "Benitsuru Guildhall"
+        "value": "Adventurer's Guild - Benitsuru Branch"
       },
       {
         "type": "player-item",
@@ -17137,7 +17137,7 @@
       {
         "type": "party-location",
         "operator": "equals",
-        "value": "Benitsuru Guildhall"
+        "value": "Adventurer's Guild - Benitsuru Branch"
       },
       {
         "type": "action",
@@ -17146,7 +17146,7 @@
     ],
     "effects": [],
     "recurring": true,
-    "script": "\nconst choiceRaw=check({type:'action-text'}),choiceText=(Array.isArray(choiceRaw)?choiceRaw.join(' '):String(choiceRaw||'')).toLowerCase();\nconst choiceOffers=Array.isArray(storage.ghGuildDisplayedOffers)?storage.ghGuildDisplayedOffers:[];\nconst choiceCommit=/\\b(accept|take|choose|agree|yes|okay|alright|deal)\\b/.test(choiceText)&&!/\\b(don't|do not|won't|will not|decline|reject|no thanks)\\b/.test(choiceText);\n\nif(choiceCommit&&choiceOffers.length){skip=true;}else{\nconst jobs=[[\"Akitsuhara Guild: Something in the Flour\",1,1],[\"Akitsuhara Guild: The Wandering Sandals\",2,1],[\"Akitsuhara Guild: A Wheel Before Supper\",2,1],[\"Akitsuhara Guild: Bees at the Wrong Door\",3,1],[\"Akitsuhara Guild: Cloth on the Other Bank\",3,1],[\"Akitsuhara Guild: The Gate That Squeaks\",4,1],[\"Akitsuhara Guild: Little Ashes\",5,1],[\"Akitsuhara Guild: Missing Along the Reeds\",7,1],[\"Akitsuhara Guild: Paper with Teeth\",7,1],[\"Akitsuhara Guild: The Mine Brace\",8,1],[\"Akitsuhara Guild: Unwelcome at the Orchard\",8,1],[\"Akitsuhara Guild: A Mask Too Many\",10,1],[\"Akitsuhara Guild: Charcoal under Watch\",12,1],[\"Akitsuhara Guild: The Bent Boundary\",14,1],[\"Akitsuhara Guild: What the Bridge Carries\",15,1],[\"Akitsuhara Guild: Across the Rime\",18,2],[\"Akitsuhara Guild: The Hollow Shrine Cups\",20,2],[\"Akitsuhara Guild: More Than Footprints\",22,2],[\"Akitsuhara Guild: A Mirror Gone Dark\",25,2],[\"Akitsuhara Guild: Beneath the Splitshaft\",28,2],[\"Akitsuhara Guild: A Banner Still Standing\",30,2],[\"Akitsuhara Guild: A Shape above the Roots\",32,2],[\"Akitsuhara Guild: Ice That Listens\",38,3],[\"Akitsuhara Guild: Hagire among the Cedars\",38,3],[\"Expedition: Amber without the Mine\",18,2],[\"Expedition: A Crossbow in the Rain\",20,2],[\"Expedition: Snowmelt Letters\",25,2],[\"Expedition: Reeds above the Clouds\",25,2],[\"Expedition: The Foreign Grain\",12,1],[\"Akitsuhara Guild: The Collector's Hearing\",24,2]];\n\nconst levels=check({type:'player-level'})||{},names=Object.keys(levels),ranks={};\nfor(const n of names)ranks[n]=0;\nfor(let rank=1;rank<=4;rank++){\n const held=check({type:'player-item',item:'Guild Badge: '+['','Bronze','Silver','Gold','Platinum'][rank]})||{};\n for(const n of names)if(Number(typeof held==='number'?held:held[n])>0)ranks[n]=rank;\n}\nconst licensed=Object.values(ranks).filter(x=>x>0),rank=licensed.length?Math.min(...licensed):0;\nconst level=names.length?Math.min(...Object.values(levels).map(Number)):1;\nconst raw=check({type:'action-text'});const text=(Array.isArray(raw)?raw.join(' '):String(raw||'')).toLowerCase();\nconst available=jobs.filter(j=>j[2]<=rank&&['hidden','inactive','unstarted',''].includes(String(check({type:'quest-status',questId:j[0]})||'')));\nlet chosen=available.filter(j=>text.includes(j[0].toLowerCase())||text.includes(j[0].replace(/^Akitsuhara Guild: /,'').toLowerCase()));\nconst explicit=chosen.length>0;\nif(!explicit){\n const suitable=available.filter(j=>j[1]<=level+(level<7?2:5));\n const cursor=Number(storage.oniBoardCursor||0);chosen=suitable.length?[suitable[cursor%suitable.length]]:[];\n if(suitable.length>1)chosen.push(suitable[(cursor+1)%suitable.length]);storage.oniBoardCursor=cursor+2;\n}\nstorage.ghGuildDisplayedOffers=chosen.slice(0,2).map(j=>j[0]);\nstorage.ghGuildOfferRanks=Object.fromEntries(chosen.slice(0,2).map(j=>[j[0],j[2]]));\nfor(const j of chosen.slice(0,2))effects.push({type:'quest-init',operator:'set',value:j[0]});\nif(!rank)effects.push({type:'story',instruction:'Recognize any genuine international badge; otherwise offer the short local licensure assessment. Browsing is not certification.'});\nelse if(chosen.length)effects.push({type:'story',instruction:'Show the selected real postings and their stated terms. Browsing is not acceptance. '+(explicit&&chosen.some(j=>j[1]>level+5)?'Explain the actual greater danger and leave this knowingly harder work optional.':'Keep the offer suitable to the least experienced participating human; NPC companions do not inflate it.')});\nelse effects.push({type:'story',instruction:'No matching unfinished posting remains in this selection. Preserve completed work; discuss suitable ordinary work or another interest without reopening a finished contract.'});\n\n}"
+    "script": "\nconst choiceRaw=check({type:'action-text'}),choiceText=(Array.isArray(choiceRaw)?choiceRaw.join(' '):String(choiceRaw||'')).toLowerCase();\nconst choiceOffers=Array.isArray(storage.ghGuildDisplayedOffers)?storage.ghGuildDisplayedOffers:[];\nconst choiceCommit=/\\b(accept|take|choose|agree|yes|okay|alright|deal)\\b/.test(choiceText)&&!/\\b(don't|do not|won't|will not|decline|reject|no thanks)\\b/.test(choiceText);\n\nif(choiceCommit&&choiceOffers.length){skip=true;}else{\nconst jobs=[[\"Akitsuhara Guild: Something in the Flour\",1,1],[\"Akitsuhara Guild: The Wandering Sandals\",2,1],[\"Akitsuhara Guild: A Wheel Before Supper\",2,1],[\"Akitsuhara Guild: Bees at the Wrong Door\",3,1],[\"Akitsuhara Guild: Cloth on the Forest Road\",3,1],[\"Akitsuhara Guild: The Gate That Squeaks\",4,1],[\"Akitsuhara Guild: Little Ashes\",5,1],[\"Akitsuhara Guild: Missing on the Ridge\",7,1],[\"Akitsuhara Guild: Paper with Teeth\",7,1],[\"Akitsuhara Guild: The Mine Brace\",8,1],[\"Akitsuhara Guild: Unwelcome at the Orchard\",8,1],[\"Akitsuhara Guild: A Mask Too Many\",10,1],[\"Akitsuhara Guild: Charcoal under Watch\",12,1],[\"Akitsuhara Guild: The Bent Boundary\",14,1],[\"Akitsuhara Guild: What the Bridge Carries\",15,1],[\"Akitsuhara Guild: Across the Rime\",18,2],[\"Akitsuhara Guild: The Hollow Shrine Cups\",20,2],[\"Akitsuhara Guild: More Than Footprints\",22,2],[\"Akitsuhara Guild: A Mirror Gone Dark\",25,2],[\"Akitsuhara Guild: Beneath the Splitshaft\",28,2],[\"Akitsuhara Guild: A Banner Still Standing\",30,2],[\"Akitsuhara Guild: A Shape above the Roots\",32,2],[\"Akitsuhara Guild: Ice That Listens\",38,3],[\"Akitsuhara Guild: Hagire among the Cedars\",38,3],[\"Expedition: Amber without the Mine\",18,2],[\"Expedition: A Crossbow in the Rain\",20,2],[\"Expedition: Snowmelt Letters\",25,2],[\"Expedition: Reeds above the Clouds\",25,2],[\"Expedition: The Foreign Grain\",12,1],[\"Akitsuhara Guild: The Collector's Hearing\",24,2]];\n\nconst levels=check({type:'player-level'})||{},names=Object.keys(levels),ranks={};\nfor(const n of names)ranks[n]=0;\nfor(let rank=1;rank<=4;rank++){\n const held=check({type:'player-item',item:'Guild Badge: '+['','Bronze','Silver','Gold','Platinum'][rank]})||{};\n for(const n of names)if(Number(typeof held==='number'?held:held[n])>0)ranks[n]=rank;\n}\nconst licensed=Object.values(ranks).filter(x=>x>0),rank=licensed.length?Math.min(...licensed):0;\nconst level=names.length?Math.min(...Object.values(levels).map(Number)):1;\nconst raw=check({type:'action-text'});const text=(Array.isArray(raw)?raw.join(' '):String(raw||'')).toLowerCase();\nconst available=jobs.filter(j=>j[2]<=rank&&['hidden','inactive','unstarted',''].includes(String(check({type:'quest-status',questId:j[0]})||'')));\nlet chosen=available.filter(j=>text.includes(j[0].toLowerCase())||text.includes(j[0].replace(/^Akitsuhara Guild: /,'').toLowerCase()));\nconst explicit=chosen.length>0;\nif(!explicit){\n const suitable=available.filter(j=>j[1]<=level+(level<7?2:5));\n const cursor=Number(storage.oniBoardCursor||0);chosen=suitable.length?[suitable[cursor%suitable.length]]:[];\n if(suitable.length>1)chosen.push(suitable[(cursor+1)%suitable.length]);storage.oniBoardCursor=cursor+2;\n}\nstorage.ghGuildDisplayedOffers=chosen.slice(0,2).map(j=>j[0]);\nstorage.ghGuildOfferRanks=Object.fromEntries(chosen.slice(0,2).map(j=>[j[0],j[2]]));\nfor(const j of chosen.slice(0,2))effects.push({type:'quest-init',operator:'set',value:j[0]});\nif(!rank)effects.push({type:'story',instruction:'Recognize any genuine international badge; otherwise offer the short local licensure assessment. Browsing is not certification.'});\nelse if(chosen.length)effects.push({type:'story',instruction:'Show the selected real postings and their stated terms. Browsing is not acceptance. '+(explicit&&chosen.some(j=>j[1]>level+5)?'Explain the actual greater danger and leave this knowingly harder work optional.':'Keep the offer suitable to the least experienced participating human; NPC companions do not inflate it.')});\nelse effects.push({type:'story',instruction:'No matching unfinished posting remains in this selection. Preserve completed work; discuss suitable ordinary work or another interest without reopening a finished contract.'});\n\n}"
   },
   "oni_glowhaven_expedition_notice": {
     "name": "oni_glowhaven_expedition_notice",
@@ -17182,7 +17182,7 @@
       {
         "type": "party-location",
         "operator": "regex",
-        "value": "^(Adventurer's Guild - Glowhaven Branch|Benitsuru Guildhall)$"
+        "value": "^(Adventurer's Guild - Glowhaven Branch|Adventurer's Guild - Benitsuru Branch)$"
       },
       {
         "type": "action",
@@ -17191,5 +17191,44 @@
     ],
     "effects": [],
     "script": "\nconst choiceRaw=check({type:'action-text'}),choiceText=(Array.isArray(choiceRaw)?choiceRaw.join(' '):String(choiceRaw||'')).toLowerCase();\nconst choiceOffers=Array.isArray(storage.ghGuildDisplayedOffers)?storage.ghGuildDisplayedOffers:[];\nconst choiceCommit=/\\b(accept|take|choose|agree|yes|okay|alright|deal)\\b/.test(choiceText)&&!/\\b(don't|do not|won't|will not|decline|reject|no thanks)\\b/.test(choiceText);\nconst choiceStop=new Set('guild akitsuhara a an the of to for and in at on is with without after from its this that one'.split(' '));\nconst choiceWords=t=>t.toLowerCase().match(/[a-zéōū]+/g)?.filter(t=>t.length>2&&!choiceStop.has(t)).map(t=>t.length>3?t.replace(/s$/,''):t)||[];\nconst actionWords=new Set(choiceWords(choiceText));\nconst scores=choiceOffers.map(title=>({title,score:choiceWords(title).filter(t=>actionWords.has(t)).length}));\nconst best=Math.max(0,...scores.map(x=>x.score)),matches=scores.filter(x=>x.score===best&&best>0);\nconst chosen=choiceCommit?(matches.length===1?matches[0].title:(!best&&choiceOffers.length===1?choiceOffers[0]:'')):'';\n\nconst legacy=[\"Guild: A Parcel for the Bazaar\",\"Salvage: What the Tide Left\",\"The Road: An Empty Harness\",\"Separate Pay: The Same Commission\",\"Guild: Boars at the Watercourse\",\"Guild: The Courier at the Wrong Turn\",\"Guild: A Cart Full of Glass\",\"Guild: After the Harbor Squall\",\"Guild: Bitter Roots, Sharp Teeth\",\"Guild: A Door That Keeps Its Promise\",\"Guild: Keep the Fair Moving\",\"Guild: Beneath the Broken Dial\"];\nif(!chosen||legacy.includes(chosen)){skip=true;}else{\n const status=check({type:'quest-status',questId:chosen});\n const required=Number((storage.ghGuildOfferRanks||{})[chosen]||1);\n let held=0;for(let i=1;i<=4;i++){const v=check({type:'player-item',item:'Guild Badge: '+['','Bronze','Silver','Gold','Platinum'][i]})||{};if(Object.values(typeof v==='object'?v:{player:v}).some(x=>Number(x)>0))held=Math.max(held,i);}\n if(held<required||!['hidden','planned','available','inactive','unstarted',''].includes(String(status||''))){skip=true;}else{\n  effects.push({type:'quest-accept',operator:'set',value:chosen},{type:'story',instruction:'Record acceptance of only '+chosen+'. Preserve that existing contract’s exact client, site, scope and posted reward. Do not replace its people, create a second contract item, accept the other displayed choice or award completion rewards now.'});\n }\n}\n"
+  },
+  "oni_foreign_glowhaven_key_issue": {
+    "name": "oni_foreign_glowhaven_key_issue",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "regex",
+        "value": "^(Drakenspire Portals|Cloudbloom Landing|Benitsuru Transit Shrine)$"
+      },
+      {
+        "type": "read-boolean",
+        "key": "gh_evertree_transited",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "player-item",
+        "item": "Glowhaven Portal Key",
+        "operator": "equals",
+        "value": 0
+      },
+      {
+        "type": "action",
+        "query": "An actually authorized transit delegate at this desk approves the traveler’s legitimate journey to Glowhaven and physically hands over a Glowhaven Portal Key now. Fuyumi Kirihara can handle Drakenspire approvals; Nobu Senda handles Benitsuru; the duty transit delegate handles Cloudbloom. Study, lawful work, trade, family business or credible sponsorship can qualify. Starting here, requesting a key, merely being a pilot, an unofficial gift or another traveler’s approval is not a grant. Identify the travelers actually approved."
+      }
+    ],
+    "effects": [
+      {
+        "type": "item-add",
+        "item": "Glowhaven Portal Key",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "story",
+        "instruction": "The approved traveler receives one reusable Glowhaven Portal Key, identifying the fixed passage to Evertree Base - Portal Room. Explain the route briefly and leave crossing to their choice. No second copy, forced travel, palace access or other outbound keys are granted."
+      }
+    ]
   }
 }

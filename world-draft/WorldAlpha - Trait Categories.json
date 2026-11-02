@@ -87,7 +87,14 @@
       "Drakenspire Forge Neighborhood",
       "Drakenspire Caravan Upbringing",
       "Asterveil Canopy Household",
-      "Asterveil Field-Shelter Upbringing"
+      "Asterveil Field-Shelter Upbringing",
+      "Iwatsugu Clan Upbringing",
+      "Yukinose Clan Upbringing",
+      "Arashimine Clan Upbringing",
+      "Crescent Sanctuary Upbringing",
+      "Mountain Herding Household",
+      "Winter Stores Community",
+      "Mountain Rescue Upbringing"
     ],
     "description": "Optionally choose one place or community that shaped your early life. Each background adds +1 to a useful skill; your present circumstances are yours to establish.",
     "subcategories": [
@@ -135,6 +142,70 @@
           "Drakenspire Caravan Upbringing",
           "Asterveil Canopy Household",
           "Asterveil Field-Shelter Upbringing"
+        ]
+      },
+      {
+        "name": "Drakenspire — Clans and Communities",
+        "traits": [
+          "Iwatsugu Clan Upbringing",
+          "Yukinose Clan Upbringing",
+          "Arashimine Clan Upbringing",
+          "Crescent Sanctuary Upbringing",
+          "Mountain Herding Household",
+          "Winter Stores Community",
+          "Mountain Rescue Upbringing"
+        ]
+      }
+    ]
+  },
+  "Past Experience": {
+    "name": "Past Experience",
+    "maxSelections": 1,
+    "description": "Optional: choose one part of your earlier working life, service or difficult history. It adds a small practiced skill while leaving your present direction open.",
+    "traits": [
+      "Veteran Infantry Soldier",
+      "Veteran Skirmisher",
+      "Former Watch Officer",
+      "Former Guild Adventurer",
+      "Former Monster Hunter",
+      "Expedition Survivor",
+      "Former Mercenary",
+      "Former Arena Fighter",
+      "Former Field Medic",
+      "Former Bandit",
+      "Smuggling Past",
+      "Former Burglar",
+      "Former Confidence Trickster",
+      "Time Served"
+    ],
+    "subcategories": [
+      {
+        "name": "Service and Fighting",
+        "traits": [
+          "Veteran Infantry Soldier",
+          "Veteran Skirmisher",
+          "Former Watch Officer",
+          "Former Mercenary",
+          "Former Arena Fighter",
+          "Former Field Medic"
+        ]
+      },
+      {
+        "name": "Adventuring and Fieldwork",
+        "traits": [
+          "Former Guild Adventurer",
+          "Former Monster Hunter",
+          "Expedition Survivor"
+        ]
+      },
+      {
+        "name": "Crime and Confinement",
+        "traits": [
+          "Former Bandit",
+          "Smuggling Past",
+          "Former Burglar",
+          "Former Confidence Trickster",
+          "Time Served"
         ]
       }
     ]

@@ -185,7 +185,7 @@ const scenarios=[
 ];
 const budget=[];
 if(world.realms.Akitsuhara)scenarios.push(
- ['Benitsuru guild browsing',{location:'Benitsuru Guildhall',realm:'Akitsuhara',region:'Benitsuru Basin',scene:['Hiyori Mitsuba'],actions:['browse local work']}],
+ ['Benitsuru guild browsing',{location:"Adventurer's Guild - Benitsuru Branch",realm:'Akitsuhara',region:'Benitsuru Basin',scene:['Hiyori Mitsuba'],actions:['browse local work']}],
  ['Evertree travel desk',{location:'Evertree Base',area:'Evertree Base - Portal Room',actions:['ask for a journey to Akitsuhara']}],
  ['Moonless Torii awakened',{location:'Moonless Torii',realm:'Akitsuhara',region:'Lanternwood Border',storage:{oni_soul_gate_awake:true}}],
  ['Veiled threshold',{location:'Veiled Threshold',realm:'The Veiled Beyond',region:'Veiled Cedar Reach'}]

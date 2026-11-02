@@ -2,6 +2,16 @@
 
 These notes carry context between desktop and web chats. They supplement the actual JSON and creation guides; newer explicit user instructions take precedence.
 
+## Steel and Spirits — follow-up decisions
+
+The author names the release **Steel and Spirits**. Generate the remaining cast portraits; keep exact NPC filenames and upload/link them through the official API. The author separately authorizes one new pass for Sana Kuroiwa’s broken spear and Shōen Kagetsuna’s horns, missing magic and foreground people. A later explicit answer authorizes one covered-outfit replacement for Misao Shingū after API rejection. No other automatic extra pass. All 97 new NPCs end with hosted portraits.
+
+Use the latest location-only export `43fe08da-66f0-451e-bf62-281d8f699479`, preserving all pins/regions/images. The author corrects Mirror-Reed from lake/ferry settlements to the pictured forested ridges and river. Rewrite seven local sites, four resident roles and two quests; update every reference, not only surface text. Normalize the capital guild to Adventurer's Guild - Benitsuru Branch. The author approves finishing the onsen placeholder and adding its proprietor/portrait; Hinoki Hollow Onsen and Atsuha Yunokawa bring the launch cast to 97. No location images now.
+
+Plain selectable descriptions should replace literal Markdown asterisks. Every foreign start explicitly names its country/realm, and the Glowhaven adventurer start goes above the Akitsuhara openings. Characters beginning abroad can get a Glowhaven key locally through a genuinely authorized delegate, not only after a prior Evertree journey. Keep actual approval and existing fixed returns; do not force travel or introduce another hub.
+
+Add optional veteran, former adventurer and criminal histories as a separate Past Experience category, plus more Drakenspire clan/community origins. Ordinary clan membership does not prescribe named kinship, a chiefship or current occupation. Physical Foundations adds +1 Force Combat/+1 Finesse Combat alongside its existing attribute bonuses. Do not silently change the public title of the whole world or begin another future expansion.
+
 ## 2 November 2026 — Akitsuhara implementation and live-playtest follow-ups
 
 The author explicitly authorized the full country using Studio export `74c54aa4-8d7d-4ba4-927f-6cb52be23c1a`. Final names are Akitsuhara and capital Benitsuru. Keep all twelve supplied region images/crops/grid positions. Launch with 96 named characters, including adventurers, rōnin, foreigners and a bandit group; 14 major portraits first, other 82 pending. Only four named yōkai; ordinary creatures remain npcTypes. Additional people later means more households and independent stories, not omission of the approved social groups now.

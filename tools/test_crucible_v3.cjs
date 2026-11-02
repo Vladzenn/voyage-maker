@@ -84,8 +84,9 @@ module.exports=({w,manifest,harness,ck,getChecks})=>{
  for(const [k,v] of Object.entries(manifest.preserved.npcs))ck(digest(w.npcs[k])===v,'Preserve unrelated NPC '+k);
  const edited=new Set(['basicInfo','hiddenInfo','personality','abilities','visualDescription','portraitUrl']);
  for(const [k,v] of Object.entries(manifest.preserved.revisedNPCIdentity))ck(digest(Object.fromEntries(Object.entries(w.npcs[k]).filter(([f])=>!edited.has(f))))===v,'Preserve revised NPC identity/stats '+k);
+ const approvedPrevious=require('./approved_expansion.cjs')(w);
  for(const s of ['originalItems','originalAbilities'])for(const [k,v] of Object.entries(manifest.preserved[s])){
-  let value=w[s==='originalItems'?'itemTypes':'abilities'][k];
+  let value=approvedPrevious[s==='originalItems'?'itemTypes':'abilities'][k];
   const d=currencyDelta.itemTypes;
   if(s==='originalItems'&&k===d.entry&&digest(value)!==v){
    ck(value[d.field]===d.after,'Exact approved Mark description');
@@ -95,7 +96,6 @@ module.exports=({w,manifest,harness,ck,getChecks})=>{
  }
  for(const [s,values] of Object.entries(manifest.preserved.spider))for(const [k,v] of Object.entries(values))ck(digest(w[s][k])===v,'Preserve Spider '+k);
  const pres=JSON.parse(fs.readFileSync(path.join(__dirname,'crucible/revision-preservation.json'),'utf8'));
- const approvedPrevious=require('./approved_expansion.cjs')(w);
  for(const [k,v] of Object.entries(pres.unchangedSections)){
   let value=approvedPrevious[k];
   const d=currencyDelta[k];

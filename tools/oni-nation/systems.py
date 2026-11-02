@@ -58,13 +58,13 @@ if(check({type:'read-boolean',key:'oni_hagire_route_safe'})||(typeof health==='n
 }
 """,phase='planning')
     # Occasional public news, never quest acceptance or automatic spawning.
-    add('oni_forest_rumor',[c('party-location',"^(Lanternwood Field Shelter|Redleaf Guest Village|Benitsuru Guildhall)$",'regex'),c('read-boolean',False,key='oni_hagire_route_safe'),{'type':'action','query':'The player genuinely asks about local forest danger, missing travelers or a named hunt. A casual arrival, completed unrelated job, combat or private romantic conversation is false.'}],
+    add('oni_forest_rumor',[c('party-location',"^(Lanternwood Field Shelter|Redleaf Guest Village|Adventurer's Guild - Benitsuru Branch)$",'regex'),c('read-boolean',False,key='oni_hagire_route_safe'),{'type':'action','query':'The player genuinely asks about local forest danger, missing travelers or a named hunt. A casual arrival, completed unrelated job, combat or private romantic conversation is false.'}],
         [s('Offer one concrete public account of Hagire: hanging cloth and joint cracks near the old cedar trail. Describe a dangerous optional hunt and the actual three haunts, not a creature already attacking this safe place. The listener may ask, investigate or ignore it; do not accept the contract or reveal an unseen private fact.')],"const t=Number(check({type:'game-tick'}));if(t-Number(storage.oniRumorTick??-100)<12){skip=true;}else{storage.oniRumorTick=t;}")
     # The existing multi-part license is reusable; branch-specific copies use the same passes/badge.
     oldq='Guild: Adventurer Licensure';newq='Guild: Benitsuru Licensure'
-    q=copy.deepcopy(w['parties']['']['quests'][oldq]);q['name']=newq;q['questSource']='Hiyori Mitsuba';q['questLocation']='Benitsuru Guildhall'
+    q=copy.deepcopy(w['parties']['']['quests'][oldq]);q['name']=newq;q['questSource']='Hiyori Mitsuba';q['questLocation']="Adventurer's Guild - Benitsuru Branch"
     def rename(v):
-        if isinstance(v,str):return v.replace(oldq,newq).replace('Komugi Hanabishi','Hiyori Mitsuba').replace("Adventurer's Guild - Glowhaven Branch",'Benitsuru Guildhall')
+        if isinstance(v,str):return v.replace(oldq,newq).replace('Komugi Hanabishi','Hiyori Mitsuba').replace("Adventurer's Guild - Glowhaven Branch","Adventurer's Guild - Benitsuru Branch")
         if isinstance(v,list):return [rename(x) for x in v]
         if isinstance(v,dict):return {k:rename(x) for k,x in v.items()}
         return v
@@ -79,7 +79,7 @@ if(check({type:'read-boolean',key:'oni_hagire_route_safe'})||(typeof health==='n
         for kind in ['review','promote']:
             tr=copy.deepcopy(w['triggerDefinitions']['gh_guild_'+kind+'_'+rank])
             tr['name']='oni_guild_'+kind+'_'+rank
-            tr['conditions'][0]['value']='Benitsuru Guildhall'
+            tr['conditions'][0]['value']="Adventurer's Guild - Benitsuru Branch"
             w['triggerDefinitions'][tr['name']]=tr;added.append(tr['name'])
     # A single contextual board uses native quest completion, not one controller per contract.
     board=[r for r in catalog if r['rank'] and (r['location'] in w['locations'])]
@@ -111,7 +111,7 @@ else effects.push({type:'story',instruction:'No matching unfinished posting rema
 """
     from guild_patch import BROWSE_GATE_JS
     script=BROWSE_GATE_JS+'\nif(choiceCommit&&choiceOffers.length){skip=true;}else{\n'+script+'\n}'
-    add('oni_guild_board',[c('party-location','Benitsuru Guildhall'),{'type':'action','query':'The player actually asks to browse local guild work, foreign expeditions or details of a named posting. Mere arrival, accepting a displayed contract, a completed report or unrelated conversation is false.'}],[],script)
+    add('oni_guild_board',[c('party-location',"Adventurer's Guild - Benitsuru Branch"),{'type':'action','query':'The player actually asks to browse local guild work, foreign expeditions or details of a named posting. Mere arrival, accepting a displayed contract, a completed report or unrelated conversation is false.'}],[],script)
     add('oni_glowhaven_expedition_notice',[c('party-location',"Adventurer's Guild - Glowhaven Branch"),{'type':'action','query':'The player specifically asks for fieldwork or an expedition to Akitsuhara or the Oni nation. Merely mentioning the country, ordinary local browsing or asking about a portal alone is false.'}],
       [c('quest-init','Expedition: The Foreign Grain','set'),s('Komugi Hanabishi can show the actual Akitsuhara irrigation commission. Explain its fieldwork and separate portal permission. This is an offer, not automatic acceptance or travel.')])
     return added
@@ -216,7 +216,7 @@ Across the yard, a water channel glints between the gardens. Carts are already m
 Mutsumi sets the broken paddle on the wall.
 
 “Or you can tell me what brings you here. I can complain and listen at the same time.”'''),
- ('🧭 Akitsuhara: The Local Board','Benitsuru Guildhall','Reception','Hiyori Mitsuba','',
+ ('🧭 Akitsuhara: The Local Board',"Adventurer's Guild - Benitsuru Branch",'Reception','Hiyori Mitsuba','',
   'Join the international guild from its lively Akitsuhara branch, or bring your genuine badge and look for local work.',
   '''Someone has pinned a very small drawing of a furious umbrella beside the request board. The person arguing beneath it insists the umbrella was bigger.
 

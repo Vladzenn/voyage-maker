@@ -8095,8 +8095,8 @@
   },
   "Physical Foundations": {
     "name": "Physical Foundations",
-    "description": "Your foundation comes from regular physical practice: carrying awkward loads, keeping your footing, controlling a fall and repeating movements until they become dependable. Strength and coordination develop together, whether you plan to fight, travel, work with your hands or support later magical training. Start with +1 Force and +1 Finesse.",
-    "traitNarrativeEffects": "Your foundation comes from regular physical practice: carrying awkward loads, keeping your footing, controlling a fall and repeating movements until they become dependable. Strength and coordination develop together, whether you plan to fight, travel, work with your hands or support later magical training. Start with +1 Force and +1 Finesse.",
+    "description": "Your foundation comes from regular physical practice: carrying awkward loads, keeping your footing, controlling a fall and repeating movements until they become dependable. Strength and coordination develop together, whether you plan to fight, travel, work with your hands or support later magical training. Start with +1 Force, +1 Finesse, +1 Force Combat and +1 Finesse Combat.",
+    "traitNarrativeEffects": "Your foundation comes from regular physical practice: carrying awkward loads, keeping your footing, controlling a fall and repeating movements until they become dependable. Strength and coordination develop together, whether you plan to fight, travel, work with your hands or support later magical training. Start with +1 Force, +1 Finesse, +1 Force Combat and +1 Finesse Combat.",
     "attributes": [
       {
         "attribute": "force",
@@ -8107,7 +8107,16 @@
         "modifier": 1
       }
     ],
-    "skills": [],
+    "skills": [
+      {
+        "skill": "Force Combat",
+        "modifier": 1
+      },
+      {
+        "skill": "Finesse Combat",
+        "modifier": 1
+      }
+    ],
     "resources": [],
     "startingItems": [],
     "abilities": [],
@@ -13401,6 +13410,384 @@
     "name": "Asterveil Field-Shelter Upbringing",
     "description": "You grew up around guides, conservatory work and careful journeys between sky-island shelters. You learned to notice a route’s changing conditions before committing to it. Start with +1 Perception.",
     "traitNarrativeEffects": "You grew up around guides, conservatory work and careful journeys between sky-island shelters. You learned to notice a route’s changing conditions before committing to it.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Perception",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Veteran Infantry Soldier": {
+    "name": "Veteran Infantry Soldier",
+    "description": "You served through a campaign: long marches, cramped camps and the discipline of holding a line when enthusiasm had gone. You still judge a plan by what ordinary tired people can carry out. Start with +1 Force Combat.",
+    "traitNarrativeEffects": "You served through a campaign: long marches, cramped camps and the discipline of holding a line when enthusiasm had gone. You still judge a plan by what ordinary tired people can carry out.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Force Combat",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Veteran Skirmisher": {
+    "name": "Veteran Skirmisher",
+    "description": "You learned to move under pressure, choose an approach and leave a bad position before pride made the decision. Old service shaped your timing more than your present occupation. Start with +1 Finesse Combat.",
+    "traitNarrativeEffects": "You learned to move under pressure, choose an approach and leave a bad position before pride made the decision. Old service shaped your timing more than your present occupation.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Finesse Combat",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Former Watch Officer": {
+    "name": "Former Watch Officer",
+    "description": "You have broken up arguments, watched difficult doors and learned how quickly a crowded street can turn dangerous. Familiar procedure and a steady guard are part of your past. Start with +1 Guarded Combat.",
+    "traitNarrativeEffects": "You have broken up arguments, watched difficult doors and learned how quickly a crowded street can turn dangerous. Familiar procedure and a steady guard are part of your past.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Guarded Combat",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Former Guild Adventurer": {
+    "name": "Former Guild Adventurer",
+    "description": "You have taken commissions, worked alongside unfamiliar partners and learned the difference between an attractive notice and a feasible journey. Something brought you to a fresh beginning. Start with +1 survival.",
+    "traitNarrativeEffects": "You have taken commissions, worked alongside unfamiliar partners and learned the difference between an attractive notice and a feasible journey. Something brought you to a fresh beginning.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "survival",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Former Monster Hunter": {
+    "name": "Former Monster Hunter",
+    "description": "You have followed signs, waited through poor weather and discovered why a confident description is less useful than a clear track. Preparation still shapes how you read a place. Start with +1 Perception.",
+    "traitNarrativeEffects": "You have followed signs, waited through poor weather and discovered why a confident description is less useful than a clear track. Preparation still shapes how you read a place.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Perception",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Expedition Survivor": {
+    "name": "Expedition Survivor",
+    "description": "A difficult expedition taught you to manage injury, limited supplies and frightened companions. You remember the small practical decisions that made returning possible. Start with +1 Medicine.",
+    "traitNarrativeEffects": "A difficult expedition taught you to manage injury, limited supplies and frightened companions. You remember the small practical decisions that made returning possible.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Medicine",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Former Mercenary": {
+    "name": "Former Mercenary",
+    "description": "You once sold your fighting work, shared camp with people whose loyalties differed and learned to ask exactly what a patron meant by protection. Start with +1 Force Combat.",
+    "traitNarrativeEffects": "You once sold your fighting work, shared camp with people whose loyalties differed and learned to ask exactly what a patron meant by protection.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Force Combat",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Former Arena Fighter": {
+    "name": "Former Arena Fighter",
+    "description": "You have fought before a crowd, recovered from public defeat and learned how to keep your movement controlled when an audience wants a spectacle. Start with +1 Finesse Combat.",
+    "traitNarrativeEffects": "You have fought before a crowd, recovered from public defeat and learned how to keep your movement controlled when an audience wants a spectacle.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Finesse Combat",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Former Field Medic": {
+    "name": "Former Field Medic",
+    "description": "You have worked beside exhausted travelers or fighters, triaged an injury and cared for someone without promising a miracle. Those habits remain useful beyond the field. Start with +1 Medicine.",
+    "traitNarrativeEffects": "You have worked beside exhausted travelers or fighters, triaged an injury and cared for someone without promising a miracle. Those habits remain useful beyond the field.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Medicine",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Former Bandit": {
+    "name": "Former Bandit",
+    "description": "You once lived by a road crew’s threats, stolen goods and unreliable loyalties. Whether you regret it, justify it or simply left, you know how a nervous lookout behaves. Start with +1 Stealth.",
+    "traitNarrativeEffects": "You once lived by a road crew’s threats, stolen goods and unreliable loyalties. Whether you regret it, justify it or simply left, you know how a nervous lookout behaves.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Stealth",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Smuggling Past": {
+    "name": "Smuggling Past",
+    "description": "You have carried goods through unwanted attention, trusted the wrong handover and learned to recognize a price that conceals somebody else’s risk. Start with +1 Trade.",
+    "traitNarrativeEffects": "You have carried goods through unwanted attention, trusted the wrong handover and learned to recognize a price that conceals somebody else’s risk.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Trade",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Former Burglar": {
+    "name": "Former Burglar",
+    "description": "You have studied occupied buildings, quiet approaches and the habits of people who assume their belongings are safe. Your present use of that knowledge is yours to decide. Start with +1 Stealth.",
+    "traitNarrativeEffects": "You have studied occupied buildings, quiet approaches and the habits of people who assume their belongings are safe. Your present use of that knowledge is yours to decide.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Stealth",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Former Confidence Trickster": {
+    "name": "Former Confidence Trickster",
+    "description": "You have sold a convincing account, watched a mark hesitate and learned how a pleasing detail can distract from the real question. Start with +1 Deception.",
+    "traitNarrativeEffects": "You have sold a convincing account, watched a mark hesitate and learned how a pleasing detail can distract from the real question.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Deception",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Time Served": {
+    "name": "Time Served",
+    "description": "You have lived through confinement, learned the informal rules of shared quarters and noticed how people negotiate a small amount of freedom. That experience is in your past. Start with +1 Insight.",
+    "traitNarrativeEffects": "You have lived through confinement, learned the informal rules of shared quarters and noticed how people negotiate a small amount of freedom. That experience is in your past.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Insight",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Iwatsugu Clan Upbringing": {
+    "name": "Iwatsugu Clan Upbringing",
+    "description": "You grew up as an ordinary member of Clan Iwatsugu in Drakenspire, around household obligations, stonework and arguments about which shared repair should come first. Your own branch and family life can be defined as part of your story. Start with +1 Trade.",
+    "traitNarrativeEffects": "You grew up as an ordinary member of Clan Iwatsugu in Drakenspire, around household obligations, stonework and arguments about which shared repair should come first. Your own branch and family life can be defined as part of your story.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Trade",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Yukinose Clan Upbringing": {
+    "name": "Yukinose Clan Upbringing",
+    "description": "You grew up as an ordinary member of Clan Yukinose in Drakenspire, among winter provisions, carrier news and hospitality that could carry an obligation. Your place in that large household leaves room for your own ambitions. Start with +1 survival.",
+    "traitNarrativeEffects": "You grew up as an ordinary member of Clan Yukinose in Drakenspire, among winter provisions, carrier news and hospitality that could carry an obligation. Your place in that large household leaves room for your own ambitions.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "survival",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Arashimine Clan Upbringing": {
+    "name": "Arashimine Clan Upbringing",
+    "description": "You grew up as an ordinary member of Clan Arashimine in Drakenspire, around equipment trials, service commitments and exacting practice. Household expectations are familiar, even if you chose a different direction. Start with +1 Guarded Combat.",
+    "traitNarrativeEffects": "You grew up as an ordinary member of Clan Arashimine in Drakenspire, around equipment trials, service commitments and exacting practice. Household expectations are familiar, even if you chose a different direction.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Guarded Combat",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Crescent Sanctuary Upbringing": {
+    "name": "Crescent Sanctuary Upbringing",
+    "description": "You grew up around Drakenspire’s dragon observances, ancestral stories and the practical work of receiving pilgrims. You learned to recognize a solemn occasion and the ordinary person who needs help beside it. Start with +1 Etiquette.",
+    "traitNarrativeEffects": "You grew up around Drakenspire’s dragon observances, ancestral stories and the practical work of receiving pilgrims. You learned to recognize a solemn occasion and the ordinary person who needs help beside it.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Etiquette",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Mountain Herding Household": {
+    "name": "Mountain Herding Household",
+    "description": "Your Drakenspire household raised goats or sheep along difficult slopes. You learned to read an animal’s unease, judge a shelter and bring a wandering charge home. Start with +1 Animal Handling.",
+    "traitNarrativeEffects": "Your Drakenspire household raised goats or sheep along difficult slopes. You learned to read an animal’s unease, judge a shelter and bring a wandering charge home.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Animal Handling",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Winter Stores Community": {
+    "name": "Winter Stores Community",
+    "description": "You grew up around Drakenspire’s shared stores, distribution queues and neighbors making supplies last. Counting fairly and noticing a strained household became everyday habits. Start with +1 Insight.",
+    "traitNarrativeEffects": "You grew up around Drakenspire’s shared stores, distribution queues and neighbors making supplies last. Counting fairly and noticing a strained household became everyday habits.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Insight",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Mountain Rescue Upbringing": {
+    "name": "Mountain Rescue Upbringing",
+    "description": "People in your Drakenspire household helped bring lost or injured travelers back from the passes. You learned to watch conditions, prepare a line and take a small warning seriously. Start with +1 Perception.",
+    "traitNarrativeEffects": "People in your Drakenspire household helped bring lost or injured travelers back from the passes. You learned to watch conditions, prepare a line and take a small warning seriously.",
     "attributes": [],
     "skills": [
       {

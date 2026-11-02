@@ -97,7 +97,8 @@
     "Hagire",
     "Koma",
     "Suzu-no-Ura",
-    "Oroha"
+    "Oroha",
+    "Atsuha Yunokawa"
   ],
   "majorNpcs": [
     "Shōen Kagetsuna",
@@ -166,7 +167,7 @@
     "Bamboo Charcoal Camp",
     "Benitsuru Transit Shrine",
     "Benitsuru Castle",
-    "Benitsuru Guildhall",
+    "Adventurer's Guild - Benitsuru Branch",
     "Lantern Canal Market",
     "Benitsuru Magistracy",
     "Red Maple Inn",
@@ -187,13 +188,13 @@
     "East Wind Archery Hall",
     "Koganedai Guesthouse",
     "Ginkgo Schoolhouse",
-    "Mirror-Reed Ferry",
-    "Reedglass Fishing Village",
-    "White Heron Islets",
-    "Singing Reed Marsh",
-    "Old Ferry Shrine",
-    "Saltwind Causeway",
-    "Reed Dye Workshop",
+    "Mirror-Reed Bridge",
+    "Reedglass Woodland Hamlet",
+    "White Heron Grove",
+    "Singing Cedar Hollow",
+    "Old Bridge Shrine",
+    "Mossbank Ridgeway",
+    "Woodland Dye Workshop",
     "Hoshina Village",
     "Golden Sheaf Granary",
     "South River Bridge",
@@ -223,7 +224,8 @@
     "The Listening Cedars",
     "Ashen Festival Road",
     "Crane-of-the-Hush Crossing",
-    "Hollow Sky Grove"
+    "Hollow Sky Grove",
+    "Hinoki Hollow Onsen"
   ],
   "regions": {
     "Region 1": "Blackpine March",
@@ -411,11 +413,11 @@
       "location": "Goldfinch Orchard"
     },
     {
-      "title": "Akitsuhara Guild: Cloth on the Other Bank",
+      "title": "Akitsuhara Guild: Cloth on the Forest Road",
       "level": 3,
       "rank": 1,
       "client": "Aya Takino",
-      "location": "Reed Dye Workshop"
+      "location": "Woodland Dye Workshop"
     },
     {
       "title": "Akitsuhara Guild: The Gate That Squeaks",
@@ -432,11 +434,11 @@
       "location": "Basalt Kilns"
     },
     {
-      "title": "Akitsuhara Guild: Missing Along the Reeds",
+      "title": "Akitsuhara Guild: Missing on the Ridge",
       "level": 7,
       "rank": 1,
       "client": "Yumi Sawatari",
-      "location": "Mirror-Reed Ferry"
+      "location": "Mirror-Reed Bridge"
     },
     {
       "title": "Akitsuhara Guild: Paper with Teeth",
@@ -667,14 +669,14 @@
       "level": 25,
       "rank": 2,
       "client": "Hiyori Mitsuba",
-      "location": "Benitsuru Guildhall"
+      "location": "Adventurer's Guild - Benitsuru Branch"
     },
     {
       "title": "Expedition: Reeds above the Clouds",
       "level": 25,
       "rank": 2,
       "client": "Hiyori Mitsuba",
-      "location": "Benitsuru Guildhall"
+      "location": "Adventurer's Guild - Benitsuru Branch"
     },
     {
       "title": "Expedition: The Foreign Grain",
@@ -735,7 +737,8 @@
     "oni_guild_promote_platinum",
     "oni_guild_board",
     "oni_glowhaven_expedition_notice",
-    "oni_guild_native_choice"
+    "oni_guild_native_choice",
+    "oni_foreign_glowhaven_key_issue"
   ],
   "storyStarts": [
     "⚔️ Akitsuhara: Samurai at the Gate",
@@ -3524,10 +3527,10 @@
     ],
     [
       "Red Maple Inn",
-      "Benitsuru Guildhall"
+      "Adventurer's Guild - Benitsuru Branch"
     ],
     [
-      "Benitsuru Guildhall",
+      "Adventurer's Guild - Benitsuru Branch",
       "Morning Crane Dojo"
     ],
     [
@@ -3539,7 +3542,7 @@
       "Benitsuru Castle"
     ],
     [
-      "Benitsuru Guildhall",
+      "Adventurer's Guild - Benitsuru Branch",
       "Lantern Canal Market"
     ],
     [
@@ -3599,28 +3602,28 @@
       "Koganedai Muster Ground"
     ],
     [
-      "Mirror-Reed Ferry",
-      "Old Ferry Shrine"
+      "Mirror-Reed Bridge",
+      "Old Bridge Shrine"
     ],
     [
-      "Mirror-Reed Ferry",
-      "White Heron Islets"
+      "Mirror-Reed Bridge",
+      "White Heron Grove"
     ],
     [
-      "White Heron Islets",
-      "Singing Reed Marsh"
+      "White Heron Grove",
+      "Singing Cedar Hollow"
     ],
     [
-      "Mirror-Reed Ferry",
-      "Reedglass Fishing Village"
+      "Mirror-Reed Bridge",
+      "Reedglass Woodland Hamlet"
     ],
     [
-      "Reedglass Fishing Village",
-      "Reed Dye Workshop"
+      "Reedglass Woodland Hamlet",
+      "Woodland Dye Workshop"
     ],
     [
-      "Singing Reed Marsh",
-      "Saltwind Causeway"
+      "Singing Cedar Hollow",
+      "Mossbank Ridgeway"
     ],
     [
       "Hoshina Village",
@@ -3760,7 +3763,7 @@
     ],
     [
       "Reedshore Hamlet",
-      "Mirror-Reed Ferry"
+      "Mirror-Reed Bridge"
     ],
     [
       "Bamboo Crossing",
@@ -3783,7 +3786,7 @@
       "Lanternwood Root Shrine"
     ],
     [
-      "Saltwind Causeway",
+      "Mossbank Ridgeway",
       "South River Bridge"
     ],
     [
@@ -3793,6 +3796,10 @@
     [
       "Evening Maple Shrine",
       "Moonless Torii"
+    ],
+    [
+      "Hinoki Hollow Onsen",
+      "South Gate Caravan Yard"
     ]
   ],
   "guildPlaytestFix": {
@@ -3828,5 +3835,7 @@
       "Guild: Keep the Fair Moving": "q20_contract_steward_accept",
       "Guild: Beneath the Broken Dial": "q20_contract_ruin_accept"
     }
-  }
+  },
+  "supportingArtComplete": true,
+  "supportingPortraits": 83
 }

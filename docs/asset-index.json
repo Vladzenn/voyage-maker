@@ -2367,9 +2367,9 @@
       "mtimeNs": 1793622219833606400
     },
     "world-draft/npc portraits/Akitsuhara/Shōen Kagetsuna.png": {
-      "size": 2674909,
-      "sha256": "cf6755658da4de66d2c3cd9f443a5a59e9781db187339380be0d41df72c118aa",
-      "mtimeNs": 1793621902226449700
+      "size": 2895115,
+      "sha256": "afe4fc8e405d8f4ebfbefe3d079f650a385bf1a81bb413d747e455de037442c2",
+      "mtimeNs": 1793635630564133000
     },
     "world-draft/npc portraits/Akitsuhara/Tōma Sagiri.png": {
       "size": 2831598,
@@ -2385,6 +2385,421 @@
       "size": 3801072,
       "sha256": "c09a22090c2514d1b8c35929d9f9ed186899bb40c7fc7a982738bccbf154ebd2",
       "mtimeNs": 1793623250320825100
+    },
+    "world-draft/npc portraits/Akitsuhara/Akane Natsukawa.png": {
+      "size": 2405280,
+      "sha256": "690f6a5790a28c2ed751d2f3dc9f8774505137505f5cd1424f1c5d7b7f369372",
+      "mtimeNs": 1793632876448076500
+    },
+    "world-draft/npc portraits/Akitsuhara/Akihisa Manabe.png": {
+      "size": 2845139,
+      "sha256": "387d4c84e094ca2c15a0ec2b3da1a4a7b839686ad87f661e8af2bb404887c2e4",
+      "mtimeNs": 1793636717326656300
+    },
+    "world-draft/npc portraits/Akitsuhara/Asa Kogure.png": {
+      "size": 2481606,
+      "sha256": "ef83e32fac9b658d4f682b5a18187fb4d6e2759f2f123cfd507398038b30d514",
+      "mtimeNs": 1793636552043096000
+    },
+    "world-draft/npc portraits/Akitsuhara/Atsuha Yunokawa.png": {
+      "size": 2670994,
+      "sha256": "95f77a84fb1fd27a1085ca1c2586a076ec9400810a73b3e0271a908d2f8d5792",
+      "mtimeNs": 1793636695752408700
+    },
+    "world-draft/npc portraits/Akitsuhara/Aya Takino.png": {
+      "size": 3174937,
+      "sha256": "b1e9b47291d82edc542ca427083180533efd92631252c3d31ac4d0d52770992a",
+      "mtimeNs": 1793636516451571600
+    },
+    "world-draft/npc portraits/Akitsuhara/Chihiro Noda.png": {
+      "size": 2771227,
+      "sha256": "3fc551f3bd6b8cb253a2a4e41bf74942df613484a9b468273074b4fd3007afff",
+      "mtimeNs": 1793634146776661100
+    },
+    "world-draft/npc portraits/Akitsuhara/Chika Nishihara.png": {
+      "size": 2580456,
+      "sha256": "5cc3d551a068f29d799bac1c7b76287c05202c8755a6665bc0a7049d21653b4a",
+      "mtimeNs": 1793633880455346800
+    },
+    "world-draft/npc portraits/Akitsuhara/Chinatsu Hanegi.png": {
+      "size": 2870317,
+      "sha256": "85dcda037e63fdab37d04b55dd1fc79e0f2fcf8d65db55a1bb8333ab7e41d16a",
+      "mtimeNs": 1793633382811286500
+    },
+    "world-draft/npc portraits/Akitsuhara/Chiyo Matsukaze.png": {
+      "size": 2617946,
+      "sha256": "48e44a22f6031138f935ee2a2b82370f691a37f5df872480f23db6b42828dd10",
+      "mtimeNs": 1793632977590410200
+    },
+    "world-draft/npc portraits/Akitsuhara/Daichi Kurobane.png": {
+      "size": 2750256,
+      "sha256": "ee84d14bd8923c8fa5231c4e20bdf7527c88fcf539e0a0281a15a70145eae57e",
+      "mtimeNs": 1793634063276183100
+    },
+    "world-draft/npc portraits/Akitsuhara/Duncan Rusk.png": {
+      "size": 2576776,
+      "sha256": "ed26b3768e4bb33c60951f798dda1d3155cddf551b575c8be38123680ed57cf1",
+      "mtimeNs": 1793636669599735400
+    },
+    "world-draft/npc portraits/Akitsuhara/Dōgen Hanamori.png": {
+      "size": 2999198,
+      "sha256": "8f65147fcb8a55569f076066b3e796a859465b7276ac992be3fcbb3f583c5435",
+      "mtimeNs": 1793633759307455200
+    },
+    "world-draft/npc portraits/Akitsuhara/Ema Shiozaki.png": {
+      "size": 2559730,
+      "sha256": "046d1af4c4c5acffb8f44be51f0e495b092831092f7a71d41a7be8bb3a2765de",
+      "mtimeNs": 1793636599810650800
+    },
+    "world-draft/npc portraits/Akitsuhara/Eri Tamura.png": {
+      "size": 2594708,
+      "sha256": "a2f9565d601116dd03908fbce73bd5f083ec82d3469cf8ebf0345e466ebb1923",
+      "mtimeNs": 1793636321351125700
+    },
+    "world-draft/npc portraits/Akitsuhara/Fusa Minase.png": {
+      "size": 2937601,
+      "sha256": "e2420df1973e1b414b559517d8cc7bbfaa0c41deea13d08f29ea7c6308741aae",
+      "mtimeNs": 1793633711901522200
+    },
+    "world-draft/npc portraits/Akitsuhara/Fūka Suzumori.png": {
+      "size": 2597878,
+      "sha256": "dc4fe335617038c42d6df4f18f3eef2c0cc70dcc1982f034672eaf5d1cb132fd",
+      "mtimeNs": 1793632983178838100
+    },
+    "world-draft/npc portraits/Akitsuhara/Gorō Fushimi.png": {
+      "size": 3010862,
+      "sha256": "9b4710e33106dc0169628e31d47bb461ff5e27be2406ded0cee370f57ef0d0ee",
+      "mtimeNs": 1793636485202236300
+    },
+    "world-draft/npc portraits/Akitsuhara/Hajime Niwa.png": {
+      "size": 2446390,
+      "sha256": "e1cb8af866f03ce9b401553a666ac30d7e346612c29e54cd4a1900f90c8665c8",
+      "mtimeNs": 1793634204836271000
+    },
+    "world-draft/npc portraits/Akitsuhara/Haru Tomisaka.png": {
+      "size": 2925021,
+      "sha256": "2ef3c14ae945d3436013c8946e98d4d0bb2ce84bd73972cefa86d9647ac78e86",
+      "mtimeNs": 1793633505194359100
+    },
+    "world-draft/npc portraits/Akitsuhara/Hatsu Kanesue.png": {
+      "size": 2736280,
+      "sha256": "7ac48f497c6935d9163fbedf2f6a22b8697729d0795c9ef4fb964f3d1704aff0",
+      "mtimeNs": 1793633061538274100
+    },
+    "world-draft/npc portraits/Akitsuhara/Hiroto Sakuma.png": {
+      "size": 2758612,
+      "sha256": "7c92bf473e5e3b96ad94ed7880c734992197f8043b8be28de858d200c80b42f7",
+      "mtimeNs": 1793636895579750000
+    },
+    "world-draft/npc portraits/Akitsuhara/Hokuto Mizusawa.png": {
+      "size": 2607605,
+      "sha256": "06e5fe1490af399e80216d0add02942844e79b3d5923badeca98bcb3580c1501",
+      "mtimeNs": 1793633687935504000
+    },
+    "world-draft/npc portraits/Akitsuhara/Iori Kagurazaka.png": {
+      "size": 2646671,
+      "sha256": "0a28e384e0657fae17b6d764fc20041bf4f9d0fc00f96e57d4ff1e469f7e2472",
+      "mtimeNs": 1793633172790260300
+    },
+    "world-draft/npc portraits/Akitsuhara/Isao Tsuge.png": {
+      "size": 2691768,
+      "sha256": "e94a99963cf4cf780902e85c3ca89c6bfbc9dcace6602cc17f2cdf5d5f03cf7c",
+      "mtimeNs": 1793636407795349800
+    },
+    "world-draft/npc portraits/Akitsuhara/Jin Lin.png": {
+      "size": 2722216,
+      "sha256": "5e0d94170ead4a2cfb80e91eb4c629049d75556aac0cfbf0fd0024315f5b091d",
+      "mtimeNs": 1793636645734299200
+    },
+    "world-draft/npc portraits/Akitsuhara/Jirō Hozumi.png": {
+      "size": 2691235,
+      "sha256": "054061b693399512aefd2edfc4501ce245ee8342c6cadb7264609bfdbd89580a",
+      "mtimeNs": 1793633084126052000
+    },
+    "world-draft/npc portraits/Akitsuhara/Jun Sasanami.png": {
+      "size": 2773454,
+      "sha256": "6abf46d3033d5d9c469d1eef0d39f2dda5c6831136005e6409ccd0995c29be23",
+      "mtimeNs": 1793636809897722500
+    },
+    "world-draft/npc portraits/Akitsuhara/Kae Sumida.png": {
+      "size": 2488558,
+      "sha256": "9c6a94192c3e21bd0e4a156571c78b492d1ccc3138072a5ec5aec1759c865a3b",
+      "mtimeNs": 1793634125076754600
+    },
+    "world-draft/npc portraits/Akitsuhara/Kaito Honma.png": {
+      "size": 2793113,
+      "sha256": "58979d6f7a9921682b91fac269c0e3c9d704d01547fac4c2f53b8dc97dbe4501",
+      "mtimeNs": 1793636625810286400
+    },
+    "world-draft/npc portraits/Akitsuhara/Katsuho Enoki.png": {
+      "size": 2713384,
+      "sha256": "c9a2fbd7e240787a884f0fbfca2213e257324571898ca4dd8ed2eed6974068df",
+      "mtimeNs": 1793636762110451600
+    },
+    "world-draft/npc portraits/Akitsuhara/Kayo Yagiri.png": {
+      "size": 2566869,
+      "sha256": "8cac7b63815fd51d4c7ac621969dfc9e7395de13ebbcf8b92b105c6d076ba716",
+      "mtimeNs": 1793634014362501200
+    },
+    "world-draft/npc portraits/Akitsuhara/Kazuma Ebisawa.png": {
+      "size": 2834533,
+      "sha256": "fa132dc7e92d4e1f70f13a3173e849de4aa2b841c5d8d1c90411aae8505f8e13",
+      "mtimeNs": 1793633481128506700
+    },
+    "world-draft/npc portraits/Akitsuhara/Kenji Morita.png": {
+      "size": 2959591,
+      "sha256": "59ff092ad4210398d31b3e5e463ed1d7ec8461179cdf9cb0685a042efdff1cb1",
+      "mtimeNs": 1793634053207946300
+    },
+    "world-draft/npc portraits/Akitsuhara/Kensuke Ayahara.png": {
+      "size": 2478567,
+      "sha256": "fdc77afb887948e3eb72eb5501a558d19390d4d1728805024342a3a9b91646a2",
+      "mtimeNs": 1793632942179915400
+    },
+    "world-draft/npc portraits/Akitsuhara/Kentarō Maeba.png": {
+      "size": 2687747,
+      "sha256": "41d53a432f7dc0e4b9d07f7a5812c9a6d15816df1ea6741a77ecd338bb4795b4",
+      "mtimeNs": 1793633983393444600
+    },
+    "world-draft/npc portraits/Akitsuhara/Kohina Beppu.png": {
+      "size": 2658920,
+      "sha256": "b2314b46e2447cdceeea7330ddf531a7d73acc9ce11b87efaeb6bea742313ce3",
+      "mtimeNs": 1793636853615420000
+    },
+    "world-draft/npc portraits/Akitsuhara/Koma.png": {
+      "size": 2885415,
+      "sha256": "7811f083cd5c88034d27be7778aecde767af5ae9071e72eca6e96b3c8da94b1c",
+      "mtimeNs": 1793636718012823600
+    },
+    "world-draft/npc portraits/Akitsuhara/Kōichi Aratani.png": {
+      "size": 2735832,
+      "sha256": "016aceb1e82ac40df4df8343a47589384955445a74af7e68015ff01fb35676be",
+      "mtimeNs": 1793633343938530900
+    },
+    "world-draft/npc portraits/Akitsuhara/Léonie Vauclair.png": {
+      "size": 2680541,
+      "sha256": "69828fa6834e8fad7f872d2a12a49037e33948c3ff2f298015066af023812f50",
+      "mtimeNs": 1793636777285939300
+    },
+    "world-draft/npc portraits/Akitsuhara/Maho Kanemori.png": {
+      "size": 2602588,
+      "sha256": "baa82de17b73a17f75fb226d5c03d87bc30ca3358d50c2ee9e1d1fb7563625d6",
+      "mtimeNs": 1793633016364390200
+    },
+    "world-draft/npc portraits/Akitsuhara/Makiya Utsugi.png": {
+      "size": 2932151,
+      "sha256": "4cf9a423287f46050f510864db08f3e97b0cc82211bdb927d9adb7e5a17faba3",
+      "mtimeNs": 1793634178039348400
+    },
+    "world-draft/npc portraits/Akitsuhara/Mayu Enomoto.png": {
+      "size": 2484672,
+      "sha256": "001d99b2b8bfeabb632b7283887fb166da82d1035c324ef28d119766676b22d2",
+      "mtimeNs": 1793634092127027300
+    },
+    "world-draft/npc portraits/Akitsuhara/Mika Fuyuse.png": {
+      "size": 2467824,
+      "sha256": "555b89d567b454665f711927eaa1c5f2038202ecce705282e9912b7d2d9ebcf2",
+      "mtimeNs": 1793632813679121900
+    },
+    "world-draft/npc portraits/Akitsuhara/Mina Kurusu.png": {
+      "size": 2839354,
+      "sha256": "2fbbf119da7d7d8a55cb99a920074513a3734912c11977474363da630766f1c1",
+      "mtimeNs": 1793633443474324100
+    },
+    "world-draft/npc portraits/Akitsuhara/Misao Shingū.png": {
+      "size": 2566427,
+      "sha256": "6bed3afd2ec1f80eb98e1dee7921d221d3f1763a6e9b74f6c28ae6f6574d1fb7",
+      "mtimeNs": 1793638289124330300
+    },
+    "world-draft/npc portraits/Akitsuhara/Mitsue Harada.png": {
+      "size": 2720491,
+      "sha256": "afb6f91bc369688da25db2a9f6234efd6683bf41c20fb5835771d2df6df6fb02",
+      "mtimeNs": 1793633955170044100
+    },
+    "world-draft/npc portraits/Akitsuhara/Mutsumi Hosaka.png": {
+      "size": 2891491,
+      "sha256": "4ddd9b5e9334a356d67eba7e3488ceae7b8e254b2f6c017a924be844fba06fbb",
+      "mtimeNs": 1793636546232085200
+    },
+    "world-draft/npc portraits/Akitsuhara/Nana Saionoma.png": {
+      "size": 3023551,
+      "sha256": "d6f771e0e6d191f075ed05d1e492aec775fa9eb12e6faa2a2fda7e105408acc4",
+      "mtimeNs": 1793636924738936200
+    },
+    "world-draft/npc portraits/Akitsuhara/Naoe Futami.png": {
+      "size": 2587191,
+      "sha256": "2550b64454473cedae7cb99ccbe39fe635dbafc005439e8c1975deaa78497c0b",
+      "mtimeNs": 1793632911977295400
+    },
+    "world-draft/npc portraits/Akitsuhara/Naohiro Umemoto.png": {
+      "size": 2509006,
+      "sha256": "2e5205bed713fc1b32457328c503e2e77467dc47dbd08ddf16bae166424b1410",
+      "mtimeNs": 1793633758358120100
+    },
+    "world-draft/npc portraits/Akitsuhara/Natsuko Tsumura.png": {
+      "size": 2427349,
+      "sha256": "2f17880b8be746d14ee703ca8fbe13210156365d674215224fcc60f6603b7791",
+      "mtimeNs": 1793633453925175600
+    },
+    "world-draft/npc portraits/Akitsuhara/Nene Moriyama.png": {
+      "size": 2654796,
+      "sha256": "96ce114a4bcc3a33513c83b33031272e740de930640a2819b00070b9ba02386a",
+      "mtimeNs": 1793636377184110000
+    },
+    "world-draft/npc portraits/Akitsuhara/Nobu Senda.png": {
+      "size": 2447965,
+      "sha256": "0a0ffd6c5170f233af43a282bf4ddade8cf3995b1a07e01abea880f525bc1f1b",
+      "mtimeNs": 1793632844338959600
+    },
+    "world-draft/npc portraits/Akitsuhara/Osamu Kariya.png": {
+      "size": 2871715,
+      "sha256": "9f08eca2f5f6aabe233f7a0ca73d420a809c5c87a4354bfc572a2e77673d49b2",
+      "mtimeNs": 1793633475990658300
+    },
+    "world-draft/npc portraits/Akitsuhara/Rei Tsunemori.png": {
+      "size": 2807284,
+      "sha256": "45d553556ecbdf3572c4dc2acbcc97a84697a90414bed9306cf1dafafd15bfb1",
+      "mtimeNs": 1793633846949282500
+    },
+    "world-draft/npc portraits/Akitsuhara/Ren Ishidate.png": {
+      "size": 3002056,
+      "sha256": "0ed2ae108bc3d45c12a628d2688f7ee1e6093d5ea1792a1516329251b7a82432",
+      "mtimeNs": 1793636696477604800
+    },
+    "world-draft/npc portraits/Akitsuhara/Renjirō Usami.png": {
+      "size": 2596540,
+      "sha256": "1ae575ca9751225fdfcc789f192f39e09c6c742103fd0a87df0466e3db9fa2b6",
+      "mtimeNs": 1793633152636975200
+    },
+    "world-draft/npc portraits/Akitsuhara/Rika Ogata.png": {
+      "size": 2948555,
+      "sha256": "d7ca263b86e15e4f86c75c42dd48da50db88e5eb760b6cc3c88d5798595e9a22",
+      "mtimeNs": 1793634024889341400
+    },
+    "world-draft/npc portraits/Akitsuhara/Rin Saionoma.png": {
+      "size": 2796489,
+      "sha256": "d95ad5af7aafb25082b983a29596298dc150bd5f84d541a3cda4603fc77e3d49",
+      "mtimeNs": 1793632765226139300
+    },
+    "world-draft/npc portraits/Akitsuhara/Ruri Nabatame.png": {
+      "size": 2727559,
+      "sha256": "8cebe541b1fdfb46c3fdbed111d53a493c05aff133494e1d1ab3540de044751b",
+      "mtimeNs": 1793633610024488300
+    },
+    "world-draft/npc portraits/Akitsuhara/Sachi Morisawa.png": {
+      "size": 2906649,
+      "sha256": "6032eb0cc6e8d8dbcc906c79a8f5f6d58045493c5cde415f9779cb08a134ec4e",
+      "mtimeNs": 1793633549989681500
+    },
+    "world-draft/npc portraits/Akitsuhara/Sana Kuroiwa.png": {
+      "size": 2727691,
+      "sha256": "b577c4bd5e6fdcddd338ef1e76dadbfb21181055c362d2feb54aba26d452bf54",
+      "mtimeNs": 1793635545849113900
+    },
+    "world-draft/npc portraits/Akitsuhara/Seitarō Matsuoka.png": {
+      "size": 2770512,
+      "sha256": "83b405db96d857c2a1f7ecad678d28e5b3d1645d905246fe840965e9b8b152cf",
+      "mtimeNs": 1793636357102532400
+    },
+    "world-draft/npc portraits/Akitsuhara/Shin Watarai.png": {
+      "size": 2806997,
+      "sha256": "b13fea86b7bc0642aed668e1c94cd99ba7506e30661ae8945ef303846b9a044c",
+      "mtimeNs": 1793633925706726600
+    },
+    "world-draft/npc portraits/Akitsuhara/Shizue Amakawa.png": {
+      "size": 2649572,
+      "sha256": "2226d3f6c71a9454300a15c3317012c27800966f1131ee8b66cdfaea0f6ecde0",
+      "mtimeNs": 1793633733113171000
+    },
+    "world-draft/npc portraits/Akitsuhara/Shunji Dobashi.png": {
+      "size": 2760975,
+      "sha256": "fd8f36cbac957661e3f997f28249aa051ca9c53d0daa0dbcc6352250485a55f0",
+      "mtimeNs": 1793633580674575900
+    },
+    "world-draft/npc portraits/Akitsuhara/Suzu-no-Ura.png": {
+      "size": 2696051,
+      "sha256": "0a4a6912768fd3a3a868b29df940ec5d8440b1ca14ac258862e90eb29030930a",
+      "mtimeNs": 1793636740069422300
+    },
+    "world-draft/npc portraits/Akitsuhara/Suzuha Hoshikawa.png": {
+      "size": 2817306,
+      "sha256": "9ad12447eea8c5930c379b5ad8c8b7754c00d27d278fbe1c41c6153dd8f79de5",
+      "mtimeNs": 1793634017894755000
+    },
+    "world-draft/npc portraits/Akitsuhara/Sōta Amemiya.png": {
+      "size": 2759915,
+      "sha256": "4874dca0fa95dd0349af0d45eeab64bf6d7a7592bd37ab75c012c725df74f7f9",
+      "mtimeNs": 1793633118528534100
+    },
+    "world-draft/npc portraits/Akitsuhara/Tadayoshi Kurebayashi.png": {
+      "size": 2700937,
+      "sha256": "dc3fc30500b17a5709cb58075f65667f9b37bc356aab1e5063d9949914bf1731",
+      "mtimeNs": 1793632783589597500
+    },
+    "world-draft/npc portraits/Akitsuhara/Tae Ishihama.png": {
+      "size": 2886501,
+      "sha256": "28a188f4153c5c8a3fc90a8047e3f57878189f4ff9f004f6b8dc1ad0dee0be10",
+      "mtimeNs": 1793633535552103300
+    },
+    "world-draft/npc portraits/Akitsuhara/Takane Shibata.png": {
+      "size": 2824495,
+      "sha256": "ba06511508b66bcf1fb1fef0b7d6ebee5624d72fe6b32ed2f3ebb28411b87eb9",
+      "mtimeNs": 1793636743055533500
+    },
+    "world-draft/npc portraits/Akitsuhara/Takuro Namiki.png": {
+      "size": 3031234,
+      "sha256": "2f9a72db3e2fb1064bcc25c930f5d57eec59719865105779496ce213ffb76530",
+      "mtimeNs": 1793634134365258600
+    },
+    "world-draft/npc portraits/Akitsuhara/Tetsu Obana.png": {
+      "size": 2468987,
+      "sha256": "84b4f793cf5a4647d6b4a8257377dc9e486db94c7ecf36db18904f8e8929a7fb",
+      "mtimeNs": 1793632935234210600
+    },
+    "world-draft/npc portraits/Akitsuhara/Tomoe Masuda.png": {
+      "size": 2618054,
+      "sha256": "600a24a54391e4c6c19b2f878e89e5222c5fcd6ab0ca2e67c26a5b215271a79c",
+      "mtimeNs": 1793633890223500400
+    },
+    "world-draft/npc portraits/Akitsuhara/Tōru Fukada.png": {
+      "size": 2666039,
+      "sha256": "8423822752948fee4c5fbbb673c8947e560ab2cf68436eaaeac1e6030facfac4",
+      "mtimeNs": 1793634080734730800
+    },
+    "world-draft/npc portraits/Akitsuhara/Yae Mizuno.png": {
+      "size": 2617135,
+      "sha256": "b5dcf6602051a0e9f53d3e48300eedfda818e4c33dd812e3fd792a395eb14add",
+      "mtimeNs": 1793633425821296400
+    },
+    "world-draft/npc portraits/Akitsuhara/Yasuo Natori.png": {
+      "size": 2699543,
+      "sha256": "37fdbcc441db95e3f89a717f49195dc0a7e03532cdd72ab00b31c3befd25b1ad",
+      "mtimeNs": 1793633968906239500
+    },
+    "world-draft/npc portraits/Akitsuhara/Yoriko Abe.png": {
+      "size": 2639833,
+      "sha256": "8379cc9752c2e4c28c420d0f6e9b0214872a2681cafd2ab7c226e3c2cc7801aa",
+      "mtimeNs": 1793633938062838100
+    },
+    "world-draft/npc portraits/Akitsuhara/Yukina Tsuribe.png": {
+      "size": 2735316,
+      "sha256": "71b50aee7adc0565f44204543cb6b8ecef10766ff694a0ba78b82dc56c1c5365",
+      "mtimeNs": 1793636571345960400
+    },
+    "world-draft/npc portraits/Akitsuhara/Yumi Sawatari.png": {
+      "size": 2943788,
+      "sha256": "45892d6cd2f89e6b21374a5606c5b8f696262623c65255c88c72035ef7bc24cc",
+      "mtimeNs": 1793636441775492300
+    },
+    "world-draft/npc portraits/Akitsuhara/Yōko Sanada.png": {
+      "size": 2805898,
+      "sha256": "f937e8fffcd252fafeecdbde58cbeb4a489bbe423837c9e1b97c77a47bfa934d",
+      "mtimeNs": 1793634101873008600
+    },
+    "world-draft/npc portraits/Akitsuhara/Yūhei Toba.png": {
+      "size": 2331426,
+      "sha256": "03bb0323fbd84fa4d3b1e14c852e37b1a46df2a14c9a72873212d4cb2dfc045d",
+      "mtimeNs": 1793633297547448800
     }
   }
 }

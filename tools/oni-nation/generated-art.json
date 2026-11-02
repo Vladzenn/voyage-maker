@@ -5,14 +5,17 @@
   "assets": [
     {
       "name": "Shōen Kagetsuna",
-      "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-835775de-8890-483c-84e6-04ed05b93b68.png",
+      "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-ddb91f4b-8223-4f56-b665-c0f8d2ba69c9.png",
       "target": "world-draft/npc portraits/Akitsuhara/Shōen Kagetsuna.png",
       "pose": "GV02",
       "onePass": true,
-      "review": "Reviewed in contact sheet: coherent identity and scene; portrait headroom is often tighter than target. No reroll.",
+      "review": "pending",
       "width": 1024,
       "height": 1536,
-      "sha256": "cf6755658da4de66d2c3cd9f443a5a59e9781db187339380be0d41df72c118aa"
+      "sha256": "afe4fc8e405d8f4ebfbefe3d079f650a385bf1a81bb413d747e455de037442c2",
+      "previousSHA256": "cf6755658da4de66d2c3cd9f443a5a59e9781db187339380be0d41df72c118aa",
+      "explicitlyRequested": true,
+      "generationAttempt": 2
     },
     {
       "name": "Ayame Kagetsuna",

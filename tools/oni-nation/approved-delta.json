@@ -27,7 +27,7 @@
         "Benitsuru Basin": "1cb533a3f6b88140862a7939715ce8936630e3e5cfe821a693278b824e1098b0",
         "Koganedai Terraces": "46f6e34f3b57dbf43460d921678f935c9c40a626063f830253a6871ae84f0cc8",
         "Golden Grain Plain": "376f175673b61f439907f324a2411dd770abe7af8f4f82be8aebee10049af448",
-        "Mirror-Reed Lowlands": "306eb537809c25372eb5871cfc72545ba9744aaf114c28c0220e7400783a93c5",
+        "Mirror-Reed Lowlands": "14f93969fc9743ede8ab90d8a4ebeb87d335ef9a173911910c86e9e8497db850",
         "Redleaf River Country": "940cb0401e56a856c1e3338f84c34e5773118f7ced19e25deea76f36afb079e3",
         "Lanternwood Border": "3b0155c6af7742da81a2640d16aba28c4d393174c2e0b6aef720db2e4ee0f498",
         "Veiled Cedar Reach": "d9efdc2871edefb0051506c1c2581b91769d70c8c55ca758df7259b8577ff42a"
@@ -40,114 +40,115 @@
         "locations"
       ],
       "added": {
-        "Blackpine Posthouse": "dc56c2d023b48ed2c1817d3434ddfb1922621eb70d83a42682a998beb153666e",
-        "Cedarfall Hamlet": "ed1c75e1dfcff33ac5d58b7aecaaf76aa3736190d83196de353a94ffbac876f8",
-        "Western Watch Road": "4bc4c8cefffd4e885402d8b1ec002cdd4ed3709aec445492d42c00e922532c3f",
-        "Old Bell Shrine": "df438cad955d547864495d1f1e9eafeca35c3c85f721159a6365b44ef908a072",
+        "Blackpine Posthouse": "8dbce55e1c1bfa3a7ac639b32e58adf94f18398516c389853864c8ab4776313e",
+        "Cedarfall Hamlet": "f679c3da7aaf920edb889683a83522c14a33e3e95306dba83392e5f2c1ac6050",
+        "Western Watch Road": "0ff664005a33251d7154e9b2db2aa5b9bf3e4cc97651b903096f8c60f89a5399",
+        "Old Bell Shrine": "f04aea2ae21f21652fee45d5059baf9065f24d97fc7638238dfbb545836f3e76",
         "Foxglove Wood": "215ddacb6c658912fa58dec03b63cee9acf85c458f22c9751140f91400cd99e9",
-        "Blackpine Boundary Stones": "062a869068dedc55346282506541ba0a6786ff3fa570a7af17b3b46d09dfa3c7",
-        "Hollow Cedar Ruins": "8a52982856f98a9de30cd220f7e16fece1515680ad6208ee9ed84445c7fe3eed",
+        "Blackpine Boundary Stones": "548449b46ac6217591d3840f8031039778a157af7c9d38296297dbde45b3d6f7",
+        "Hollow Cedar Ruins": "359feae8db1692286a6f20a0359b1b77d9f238c0cf7c9054c1a3d8369bf4ac8f",
         "Western Woodcutters' Yard": "83d8cfbf4f485c03ccd3247b307f4131934d04faebb5fcb6bdcbf7d56232fded",
-        "Thundercrag Quarry": "0fbec721afbada7056f6024b90153f03ac14752f9984f6dbcd95a3f436bca719",
-        "Kuroishi Miners' Row": "e45700c857e93de380eb6c5e841373dfb06215883a631ffa854b4ab115a69842",
-        "Basalt Kilns": "06e22b1590a18f55c862da9c97a99aae514c68027bfe779485abc10f5f6affbe",
+        "Thundercrag Quarry": "42d0601b9167157adaaabe1b86158e95ca5407b94b4784e21ba8fbe553c1dbdc",
+        "Kuroishi Miners' Row": "b1458b2c468f8604986fe1266fd2a5038a3b2e3fdff3de5f407d9f16fd3f81b1",
+        "Basalt Kilns": "04ea1d9114ed9761d45c23164cfec6e40a2092b9ee5506983ff8f99ed6c07946",
         "Amber-Salt Mine": "c507152ee9bc805a5ee892646a7693a6ed06c588fbafb4b1a601ebce15598310",
-        "Abandoned Splitshaft": "c4a021aa16a0f7e590bddb1f4aa2dbb40f6a77780b8acd1194f8ebbefca18674",
+        "Abandoned Splitshaft": "5ebdf64cf4fb38ba64436eeab70ee27b82b6a9a41c2ab19ca1f5b7fa74b5dc44",
         "Scree Lantern Pass": "c87ee5fc559ec926de56daae28c4adc7059f96945797bb5e235fe9bd2a0b8bc5",
-        "Quarry Exchange": "1aa0612c8a9e875906616fe3c937de31457a6d585efefe67854b9a3dca3e2489",
-        "Broken Relay Tower": "9dfafc8d8b1b08963cdd1f8a4758e3a581d3b70f2ce1bb8ff7c6c60a86437bdb",
-        "Shiun Pilgrim Lodge": "10f2f5e5f654ed848c0e0d0dbf513ec53010fea9d1444fa6bfce51e7372cd528",
-        "Shiun Thousand Steps": "10d5293c2a77ab10bd2cf10f6f24834719bf8b9a7f2c1d2dea21acccbd5bd81d",
-        "Cloudbell Monastery": "64b557b5c91c6e561787863543736255f9344d2bbd12593079abc06448a14f91",
+        "Quarry Exchange": "42ee8931f0e5524dad87834821ea60151ddacc12b91f45896f68fba980b57fbd",
+        "Broken Relay Tower": "5e8ac75755abd727ef6b5f997cad70ab0f5ef076d67c251fefba88518d866e78",
+        "Shiun Pilgrim Lodge": "37fd83eeb32cd520e35eeccf14f51c4fc7f8992b2062661b90777ae0b96e2793",
+        "Shiun Thousand Steps": "db6d6b964ba3c3ba6f480062d64dc028af164c0447800809b0bee37e3e6d259c",
+        "Cloudbell Monastery": "bc3173271f5e3d44d5d0a31c548baa21ed31f12bf3c30260cbfdaac07037d131",
         "Whitefall Shrine": "47d06dde193862b8c7aafc86e148d7065aca4656fda1457d591606dde929d875",
-        "Summit Cedar Precinct": "90704ad9f8e7adbbc8c6cb199b89b3b6cef007c9be8f248c02445c2de1c9732d",
-        "Shiun Herb Slopes": "dac325508c66b210b0724d63ccb1712e4f323c3d5b016612a5e5e601694332a8",
-        "Ancestor Archive": "81b6979b853e5660ad4c5f390aa697796cf058a88ee62741703c793a3723a951",
-        "Frost-Eave Approach": "d096a31f6cb34d31714b92531fe4c71106e9d51d1e4e03d3b3b48a8fea9e3df8",
+        "Summit Cedar Precinct": "47c8f2dea1d844f12c0eaf45321268445d6bd48075607c31dad0edaaca657ba1",
+        "Shiun Herb Slopes": "3674b500a2530cd07ba81a26fa45a8ba2660d78d63dc7257af8f572c88b0287b",
+        "Ancestor Archive": "eb8bd6c275c9800fe681ae08c0e4f47436c4cc2c36ec567dee0e81e71d02ecd0",
+        "Frost-Eave Approach": "655ca68ecfa6b096208094a81bb1f3b8d3dc25407fe4a03708f914703f4c5886",
         "Snowcedar Refuge": "8cc84fe618544b05b04127c3e9bce9739827e00f98064ebcbbc7d1b5dbdeb872",
-        "Blue Mirror Tarn": "d19a25f86cc69841b4ca596cef96e115e6d2e39b5cd2a15b22bb41420bac90ff",
-        "White Antler Basin": "8aa74282f3712eeb35fe960122d770a3e3239cb649d66f2510b3db3438d449ed",
-        "Snowcedar Signal Hut": "edf25b782d00e9242a85114920c05a00c3f2df815082cac2d16133a93fe1098d",
-        "Rime Bridge": "bbef594b5c662562bdbe10d02e3d7c4b566ff918f535f2942856a553fb77b6d5",
-        "Forgotten Muster Camp": "e863786294a6293405ce3ef7571177f4e40428bc04000dcf2243899de8020dac",
-        "Sleeping Lake Cavern": "9c22ef81a40ed66eaca794a8394cb27e0639815f62cb3e06b95681bdc58ef3a9",
-        "Mizuhara Castle": "395b3823e09ef5ad7bb3fa1034cd58749bdc27d3461eae81203cf562ce5d0306",
-        "Mizuhara Landing": "17c92c4e2886a94477e191cd47627c98b89948a236e015171601ac92c25ff189",
-        "Silver Carp Market": "db8048c2bac68d0818c2f5e24a635ffa40f1ac043012cc43a2eb78d83f1670d9",
-        "Three Reeds Inn": "8b10647a2811e92211d101eaed9be3689ffe3c8fb49ce3f1c546ab3c53dff3f7",
-        "Saionoma Household": "0e92d7718ce768ea7149a0c41dac4ee6ffb443ad0ffe26d72255ca29762cbbf9",
-        "Reedwake Boatworks": "a9e2862f1c49dfaa0031aa38f00916b99edacb4b0193a6da7620d11b48417ac0",
-        "Western Spear Hall": "add9acaf0f9c6bf04e62f15a36cfd7b84d0dae0237eb6fea82f0809504155931",
-        "Reedshore Hamlet": "c6020063484a37c4c01d86becc97c76b5f37d41be4eaaec50717c32412d2cf1f",
-        "Lakewatch Islet": "de67b51fbb481a0cc48fc7b30010e4101a36350ddf368f0f326b23495861bbb3",
-        "Bamboo Crossing": "f634a8c76ff0339dd0fd812422e922e6a0b58c2b5d1a7383565448ef17bfbc3c",
-        "Green Thread Paperworks": "1034e980d2b407ad37f701522528702e57df82a108a46b40c3cd5388b534f25d",
-        "Rainsong Mill": "2919d2a6247a8843f0ad96e0a7b76adf0b187bf1c6f5691202e3e44290a921fe",
-        "Hidden Reed Training Ground": "083dae082501b6d28dbf6b271c524630036b17109efc9e0999eb6297fe8e1f3d",
-        "Riverglass Baths": "c5c426bb5710a5f90749e294256ecf9c94fc2d414d1b9512d0bc80f437738051",
-        "Abandoned Bamboo Village": "9b57ab76f38e9261932d4b89f71ba4c38c2662dd67d74f7760f34ecf1f0eb531",
-        "Moonweave Grove": "53ac7f18713f6b6d13d1bb91e8b283b04218d1f559d62ce4b97235c405317f76",
-        "Bamboo Charcoal Camp": "41de16f6ab0abb417284d4c9d7fb72ca8bf132b6990da6f667a632d317a14ba3",
-        "Benitsuru Transit Shrine": "264af26801b4c28552afca73685f537e08130a295568762e5e2a10735895e6bb",
-        "Benitsuru Castle": "360b7075f5452a5adb5674b7ff625952cc8f4fb4ea63ab05b01a302cd57e4e5d",
-        "Benitsuru Guildhall": "26148c4022e0a45e394ba0a6beff125d94893d8853c5c03556d775ee461e7417",
-        "Lantern Canal Market": "49d21c7d743a9fe8a55f72f55bcff0e1139f2b7fd76f4418a4154cdad29358d8",
-        "Benitsuru Magistracy": "6d106a39c14381436250befaf71e4e9c1735819ab7b73be5a3fb716c51513f35",
-        "Red Maple Inn": "755c004d66fa4a6020e8ab738b6cb49efcec223c5dd965dfd5e85b3213569d0e",
-        "Benitsuru Ward Clinic": "48c344c038fbeee7074379c3e447402d83a457545c8a95dbc07b17d5d84f342a",
-        "Kagetsuna Household": "d99738ccd0dada5759a6429bd8c6e811a1170fd5fe8a2951fa5d6b30a653448f",
-        "Eight Petals Theater": "f81778531d4eb8e720445992ac097cdfcdd9c658cca500e16a5713076117399c",
-        "Benitsuru Craft Quarter": "2146d9061dda58f794b18d74ea0af65852fdfafc3ff307bdcf29557b3b6487d8",
-        "Morning Crane Dojo": "0a335cd5212d01f1f36b2784fbf0a0347f0cad3746883bb0f66bc197d727846f",
-        "Canal Ward Homes": "431d439d64044ff4bb40188282019aa8a43088c9bff07c2c694349f8a6b49cfc",
-        "Benitsuru Public School": "75fc6beac3059e909791e2282f0acaee96b917bb68372e3a8ac24c07d86b2b0d",
-        "South Gate Caravan Yard": "040e65cdc289746bf0ba37beab564f91a70794d026955859dcb559379182aeeb",
+        "Blue Mirror Tarn": "f497531301d216167b9baba76ecedea4d3065b83b374aad259b97433d4e20697",
+        "White Antler Basin": "0982e3362dcb8a2aec42c4441d8347aa47a678bf852a4d277d1625c01e45c166",
+        "Snowcedar Signal Hut": "c95f07d936f957184c991ff3f81433b77dd279e2ad2d0131d07a7555783fab18",
+        "Rime Bridge": "707eb36c06b81e78ebb9a3449d73c089b76a9f974896b71cfce628c601b9ad21",
+        "Forgotten Muster Camp": "be5303697661be9ffec2d6e6c3df37fed40b2af6ff2cfb3cc6aaa6c4d345f2b6",
+        "Sleeping Lake Cavern": "05cb4f276ea67bd4b52e36fc26427a30ef36983cb6592d84f1d12fd2cfebf116",
+        "Mizuhara Castle": "dfc7463a347b17bdb4e9944155ce7b869d96f1709bd55ac61263469cf6b6a42d",
+        "Mizuhara Landing": "20a0e55fbcbf8dcbc87f4d6b29e3acdd88cb05bb70566ead095942dcba607b93",
+        "Silver Carp Market": "8bec71805b9a7aba864e61676091347b2a1c435fd31fc9e8436152f152a93c00",
+        "Three Reeds Inn": "ab18c657d74c5d9dfd3a20b338d73c88d1fdb84855f65827c9ad81ad7c9427b6",
+        "Saionoma Household": "8677754e36017f4417552ded3be3eca50748f5bf921af4c1be4e9e77f978772b",
+        "Reedwake Boatworks": "fa871c88c218700c5062c30c3a49c77abe4b8bd698895956f02718ac112fc41d",
+        "Western Spear Hall": "34e7f2fb676fb3b712b2de4578d854765abf5b54e73739be6542501687d0a248",
+        "Reedshore Hamlet": "e901fbd00743cfb06c2071b447d57ad5572e930ec4f269753a0092810edbb669",
+        "Lakewatch Islet": "6351090c9b6e2939b7aacda31e6547b397fbeb3ba6b10f8e43f0c9303a30f9d6",
+        "Bamboo Crossing": "6aae9dca5a21916f08bf7bdd181bce0ef916f2be7b8e8c57cf35e6138651dd91",
+        "Green Thread Paperworks": "7e001ca91ffc9dfd2a35caf1293402d73d1eebddbd499637097c972478cf2adf",
+        "Rainsong Mill": "7a652afaf20b5e3199f40bd86a83f1f9515504c8adb5b6952919a32a0b473cbb",
+        "Hidden Reed Training Ground": "476eab986d219fdbf721b694b58ef2164f3bdfd7afaac698701eb85acc620fff",
+        "Riverglass Baths": "66e153b9d352ceaeb4962b0b31d6d0fa5b6ad8abe99b9f7f1efc50f9b9124764",
+        "Abandoned Bamboo Village": "83d0b88fba6486369d5d4c722ff48fb576b1d771c8ec0acc8c2f4164896bae3a",
+        "Moonweave Grove": "fa52d1dad527764eaca1c3743bea0feb288e52c26e0d400182fc265f5ede7606",
+        "Bamboo Charcoal Camp": "821d0e353e6245a59297460c93d08380da5de196d828eb348b4913a3f8fcf8f5",
+        "Benitsuru Transit Shrine": "ac065d2acda82bd3263da7c2728d4cb846eb309f07f1459fa5ccafec2593bb3b",
+        "Benitsuru Castle": "95076661eb3a3c1ffdaa760bc7dbf58df082f4e00ad9d8e77b6e606468e362fd",
+        "Adventurer's Guild - Benitsuru Branch": "37ae7cb25e29839f85b03a04db8f508bbb657117d4e9ae0e1e14dc8670e60715",
+        "Lantern Canal Market": "d43792cf6023439afeb6f7d8fe1c82acfcc2741889acf78872e615928ca2e41e",
+        "Benitsuru Magistracy": "2d2f80a6dadac852387fc33add7c1ba18a468dc4d47e962ab849ff680508de72",
+        "Red Maple Inn": "3a00d5bcfd86d5fc07ded16ab2344a82c89567c4f39bbac19d8f156cfe9df36f",
+        "Benitsuru Ward Clinic": "91e3aa085b8cb715d48f8eeac19dbb9dc476bdd79bbcd91665546013a4933c7f",
+        "Kagetsuna Household": "30a324ae100a5c8014394aac0b59a69320660143b2007afc27f35a33792e5855",
+        "Eight Petals Theater": "d02e4b7decb56ea55e982c694eb6538220cad744742e93e677622eb9358ce375",
+        "Benitsuru Craft Quarter": "9bea9c908f10a2187458e3d1f0313d91a4acb5e5c798e32e782f80ea72a5da52",
+        "Morning Crane Dojo": "c699a44b813191232f3eb3d9989b6b4e75e58fbd9bfa0b8266a8fd0e5cb58eb2",
+        "Canal Ward Homes": "fd80e561710fba7aa69018de31a873299476fc03f8b59a9cae9ca425534f67f5",
+        "Benitsuru Public School": "59d37b148633fc86bf14120933580a889bc1694dd2e4b9e015eaedb752d14347",
+        "South Gate Caravan Yard": "99c487e136f5d9faa2f11933a221557f76e237be30be1fa20d75d0835bc8c7a7",
         "Koganedai Castle": "e04ab55ca158f4018dec942d1c1f92b6cec7d26bab9d8709deaf53e4631b1083",
         "Tsubakiri Residence": "0de1b8b6ac9ee0b495205e4a0405b7c094e6668f4e0c845165c3a4986e397ab5",
-        "Goldleaf Arcade": "f849b947313bd5ea9b2614f7f2f5ca4abd6aa3cd6f414e02a894d3cc237e2317",
-        "Ginkgo Crossbow Works": "005c9473be1e33bd30cfe1d588e517728000b5b95de9d58082bac3f1352fbc05",
-        "Koganedai Muster Ground": "5cbb3df78e41ecb2ed9c2e7dac574cda183123aea8525e388ffb0b442031267a",
+        "Goldleaf Arcade": "667016b23607e46b5a1b2e72c5392c8d0213b95b2d2952399bab7798b07f9bf8",
+        "Ginkgo Crossbow Works": "00107360a41276ce20cd1151fd929d2a88984038fa173ba8f6c9ffe859fd7aab",
+        "Koganedai Muster Ground": "1c89c0fafc0599e1c66f068d2b9a39774fcfccf037bccdb58990b3a52abff903",
         "Terrace Waterworks": "68fcf6a59ca51461ae3a45652c7889bf57e7d606bcb7ff270cb6464a9871abb3",
-        "East Wind Archery Hall": "2dbebcc215815a352a198b64c5ab13ec4a377344e3f879ea9f6eaf7b78c8ee22",
-        "Koganedai Guesthouse": "0a3738582c820f505364eeb9c1eb7a415cd28fac640df2f5307ccce6fbc5eca9",
+        "East Wind Archery Hall": "42105a1e7221d07cdf37864ab010329d717360e605d54b5463d388c443c06c14",
+        "Koganedai Guesthouse": "49bbe1c43deae35c34f61314181ecc8530c59a26e0b644575252c0aa80a4665c",
         "Ginkgo Schoolhouse": "ead456cbe4f7697c929fa8398cc7b7cad0e3132bb72a3b41fbdca6b610fc916b",
-        "Mirror-Reed Ferry": "fd425cb2891e52acf6c5171d3701b7443410665d383e5a61796150f9475bdd88",
-        "Reedglass Fishing Village": "2c775c4bb713ad5ff2d6cfdc41d59a5d92d5735d2d16b9db96cc7bf6b3d5af19",
-        "White Heron Islets": "c56ca193ba486215148183e546f031688aca164ca0645de60d4b263d37788bfc",
-        "Singing Reed Marsh": "c62969273fa1dbed5ec2fd10e6215ead23ff0f1559bd454a3f54b00a87846493",
-        "Old Ferry Shrine": "906ca1d2040326bc11e7557bc31794b52b7e67bea382ba034d6b4f00f33cfd5b",
-        "Saltwind Causeway": "b208736c9a7856ccb5f536cb2ff645b76cea046cb06a4bc756225096fe22fa3a",
-        "Reed Dye Workshop": "bf887faa16eecc13daba3575975672bf289cc3d642b50b926ba47b24bd38cef3",
-        "Hoshina Village": "5e2004353011f6ef652a3f5e7fcfc88c2984782800b9a4056969ad30dcc07db2",
-        "Golden Sheaf Granary": "60fa7f3bb259adfbe96dc3cb6bcec1454bbcff22ffcb27f7d1b9bf092ea1ed9b",
-        "South River Bridge": "9a38e5885d4fa1cd9dbc29a8897a623d94a08b30f837b74f2c59235dc06f9d2e",
-        "Goldfinch Orchard": "fb1b1c1632c41155adc062690ad901db9b419b8a14fd527d5e77808f2aa54df6",
-        "Susuki Road": "8126aa008ae0b5b7ea779ea42047f7da0f8efcd43d3d88db72ba2015f9317c15",
-        "Low Meadow Paddies": "84350026d1ab5c20d1d27876d12700ef9c8ff57e0913f3872e30c08fef87d2af",
+        "Mirror-Reed Bridge": "35303302c5695b6eaf67854dae1ac7bfcee7fb4db890488da8c6e9b991053bec",
+        "Reedglass Woodland Hamlet": "62f2b702f12207a71892b4486c5992c86f6175d282e4cf34536f93e010240622",
+        "White Heron Grove": "9a587116351a09758f5f9614e94d71a98d5f9092cc7c691a3433012c9ef86179",
+        "Singing Cedar Hollow": "888876840ecb4ad0ff4a7d99e495bccf300d8b5ed5bd6527ef841bb438471cc2",
+        "Old Bridge Shrine": "08eb422bd390a67d719e3ac7edbaebe7d03c40b10afa82041e56cf37060a5697",
+        "Mossbank Ridgeway": "c601d97cf91e6ab582f7890d3e01697cbbb190a54d6b31ec56cd8c36c94a55a0",
+        "Woodland Dye Workshop": "20d218dd4babb4e019644f65af6731f2a3f74d25395e41e3ace078282b64ae2a",
+        "Hoshina Village": "f7a21c4fd2b570863f3e138ad2de00bcb3eda54d4fda02540edcec102c8db0da",
+        "Golden Sheaf Granary": "4314211c5f262b5678f04b86a9dee183ef8e9991f45ebcb5427d8d1f97b77d2a",
+        "South River Bridge": "c024c58f1ae7d12fcecdb0d0ae1916d6115f46111c0afb3ab186d5b6925c88c9",
+        "Goldfinch Orchard": "c260e104f2a0b5ac2fce80b80c98efb6c88c64b89c52b799a55fdfeaced24a1d",
+        "Susuki Road": "91038df5aad816169830f9112a215d844d62f9613eab29af7d4755c8f080fd86",
+        "Low Meadow Paddies": "058d1119c0e22de686d968a2f7bc20dc2d7630fb3700d8cf75a2d64f35f2eee3",
         "Saffron Road Hostel": "bcead04a58d02d49e60c30bcd896578ca5af8fb23ddeefe3a5dc39cd2f6269b8",
-        "Redleaf Bridge": "86b93779910e56c835ec11a6ce054bfdf2f774ea33e49d770720c3feb697d788",
-        "Evening Maple Shrine": "0b155e2b14b2aaab9047c5d9ae63d02c0f930dc8707eb6ff6e754db0953f9160",
-        "Redleaf Guest Village": "33dc5ccc8bf24a2f8fab93895727dd8181d634a035bc9ab46ce42e4cad7a346d",
-        "Paper Moon Pavilion": "bf7a703240b5a8fc53c00702482f52b1bce05b07a4e20408eae96c7079b65ff6",
+        "Redleaf Bridge": "e859370609153b8d3f4f3001fee3c14a0377cb09a5064a6040d097551e23c553",
+        "Evening Maple Shrine": "17772b698a60bdfe177358f6f2ce1e9f403e386f0dfc4185aef296717d948f51",
+        "Redleaf Guest Village": "a8feacee776b08cb3b7ae41c168e8f26e79107ad1c01b837a32e5c79d833bbfe",
+        "Paper Moon Pavilion": "0afec47cbc79d943dae80d5dc4f9db077de39e414e2f25e4c7eac9c5c022fc7c",
         "Foxfire Verge": "0de3de5aac797f376e73eace50bbfb61b647237ec4fe19f6f648e33434ab2ca3",
-        "Broken Kite Camp": "0d62b2e3adc42428cfc9d5ebb706070a212eda0d8ed4282e104026988498416a",
-        "Redleaf Apiculture": "a54b8b2776ff806af4fc27fe2ba70a49789e92b33c38dac73f676115c0aef9e0",
+        "Broken Kite Camp": "1d7a691798a429aba4ec2e1316c016f81eed5be6f73650de044dc196eebe000c",
+        "Redleaf Apiculture": "385d703405c35706d482e1502c795f8e5b0e54abfe92a89d9f40b4d3fa1a998c",
         "River Lantern Mooring": "1216bcd86d59f71a77d4ad4cde7b76f043a1e69a4bcbbd33346bc9fdf0a64b6a",
-        "Moonless Torii": "a05549631a25e6d4827900c3e7fdb8b7593d0560a517d572558c1081bc207f76",
-        "Lanternwood Root Shrine": "f5b19d91802bf61055086ede1033145088003258e52df15b3dc78a6cb4b79e29",
-        "Ragged Cedar Hollow": "c722b26c5ab7fa583c5da9c6aa24d8ac5608836ca6d3b3f717d1f68518194964",
-        "Old Mask Trail": "353726cc862ee155347d9498748b1853b682c54febbe273181f7de83864bc52e",
-        "Rootfall Ravine": "282fa64ac1823d044783ef15d14bd6514c4432fabcb0c200d9b2a2afc67733c3",
-        "Lanternwood Field Shelter": "88653cd35830d665b2cf4a94bb6bafe5aba4a95c22e04fb6d4e1ed762b7c61df",
-        "Foxglade Spirit Orchard": "f07257c6387c766cbb189f90f4d2aa349b9e6815abde0dd64445b36d85c3e656",
-        "Hushwater Pool": "007b4b6546544ebd3d97b865f1124e2e6132732595913a71138631aa19b9a472",
+        "Moonless Torii": "4771406adf921afa1076e568efcb1981119dee36a0f5d0e9606fd1cb235b7944",
+        "Lanternwood Root Shrine": "fb139d11d5bc0711cafba9a4a4821646eb597e673f5d97c22b2f07e88226d6f2",
+        "Ragged Cedar Hollow": "98f8ef91d1320541430b45098b6fc4ecb47362dc5c7429a5ea0ac84a340ccb65",
+        "Old Mask Trail": "a88b569f90f3a1c84e9ab206a8b5c283e0c04eef2680740129ffef0cc37028d7",
+        "Rootfall Ravine": "965d4fca855977ba7246c8905034e04ff64c260cf098487a0fb132929da11c39",
+        "Lanternwood Field Shelter": "1a0fb89022cc029a93c356185f1a3230b1d907c2e2a99ab4634cd61aed8c08e7",
+        "Foxglade Spirit Orchard": "3242340b2a3cdd7fd1fdb8caad54a9cbe33c69e44e2d18294e527e8de504bfd1",
+        "Hushwater Pool": "d98a4cb21153423385df06f6155f7cf4c12ad8b4975605cd252fbcb25729f112",
         "Veiled Threshold": "782f6d64c6580181fb930e90e6fd90f512b6ad52cf4f194c1555436b69613dc4",
         "Bellroot Refuge": "414b2ea9c656ad342aee0d882d05a80511f2b9507ee305fdae7e0c915d609c45",
         "Pale Lantern Marsh": "a70f80bfc57616895bd72efb216b48cc39531ba07ecf924a1a79e4292cf15c08",
         "The Listening Cedars": "8b0b543c0da240413d06a82481c345161ff8942267a474783d695336a733905a",
         "Ashen Festival Road": "dd189e271f695c8a98c8e239d9fe13b81c5a71776e97a0a3f41bf0e9abd580dc",
         "Crane-of-the-Hush Crossing": "0541c6c3fa4a540498d77cbe72da76e570ef8f9dde7005c12763d726b72ff07d",
-        "Hollow Sky Grove": "427c4ac5a17ff2fef44d585be13f35598dd39a9ba165480c60b2867e547b2bfa"
+        "Hollow Sky Grove": "427c4ac5a17ff2fef44d585be13f35598dd39a9ba165480c60b2867e547b2bfa",
+        "Hinoki Hollow Onsen": "0808113e00b23a1b65cc849d858fd33486695fec5dbb16e8f048e7fe63f1b8b9"
       },
       "changed": {
         "Evertree Base": {
@@ -222,6 +223,155 @@
             }
           },
           "afterSha256": "0ba7a47e7e82b68fe4cb36749a6f4f40d1977040baf05daa4ad78a3d8a42292e"
+        },
+        "Drakenspire Portals": {
+          "before": {
+            "name": "Drakenspire Portals",
+            "basicInfo": "Drakenspire's portalward quarter is the usual first stop in the snowy capital. An enclosed basalt transit hall opens into a compact market and communal hearth court; beyond them, steep lanes connect the lower city's homes and workshops. Above the roofs to the northeast, the fortress rises within the immense crescent of the ancestral dragon's bones. Travelers can arrange cargo, buy a hot meal, obtain directions and hear current road conditions before choosing where to go. This map location covers the arrival quarter; the wider city and nation also bear the name Drakenspire.\n\nPeople associated with this place include: Fuyumi Kirihara — Portal arrivals clerk; Daigo Numata — Portal cargo porter.",
+            "hiddenInfo": "Local attendants handle passage and cargo, not the entire country's affairs. A disputed delivery order can delay one consignment without closing the portal. Existing authored or previously established people retain their identities; services need no invented famous official. Wild mountain creatures do not occupy the transit hall.\n\nThis location has one fixed return passage to Evertree Base - Portal Room. Entering that arch from any of its local staging areas completes the short approach and crossing; do not require the exact sub-area label. The player chooses whether to enter, not where in Glowhaven to land. No academy or second city portal exists.",
+            "x": -12,
+            "y": 3,
+            "radius": 2,
+            "region": "Drakenspire Highlands",
+            "complexityType": "complex",
+            "detailType": "detailed",
+            "areas": {
+              "Drakenspire - Portal Room": {
+                "description": "A warm vaulted basalt chamber encloses the permanent Glowhaven arch. Iron roof ribs, blue mineral veins and brass runic channels frame the crossing; frosted high windows reveal the weather. A duty desk and clear cargo floor leave passengers room to arrive. The fixed home connection returns to Evertree Base - Portal Room; its operation follows the existing route and key rules. Actual doors lead to the Cobbled Market, Hearth Court and Steep Lanes. Fuyumi Kirihara is usually based here, working as portal arrivals clerk.",
+                "paths": [
+                  "Drakenspire - Cobbled Market",
+                  "Drakenspire - Hearth Court",
+                  "Drakenspire - Steep Lanes",
+                  "Drakenspire - Cargo Recess"
+                ]
+              },
+              "Drakenspire - Cobbled Market": {
+                "description": "Low stone stalls shelter beneath striped wool awnings. Vendors sell travel food, crampon repairs and inexpensive gloves, while porters compare cargo slips. This is a small arrival market; the broader household trade happens at Hearthmarket Square. Displayed merchandise remains the vendors' property.",
+                "paths": [
+                  "Drakenspire - Portal Room",
+                  "Drakenspire - Hearth Court",
+                  "Drakenspire - Steep Lanes"
+                ]
+              },
+              "Drakenspire - Hearth Court": {
+                "description": "A hooded brazier warms a sheltered court with stone drains and benches cut to leave space for tails. Residents trade news beside posted local work. A traveler may eat, wait for a companion or ask directions without being drawn into an emergency.",
+                "paths": [
+                  "Drakenspire - Portal Room",
+                  "Drakenspire - Cobbled Market",
+                  "Drakenspire - Steep Lanes"
+                ]
+              },
+              "Drakenspire - Steep Lanes": {
+                "description": "Steps and narrow ramps climb between dark stone houses with blue-gray roofs. Handcarts use the ramps; pedestrians yield at blind corners. The lanes lead into the lower city, while an uphill view repeatedly catches the fortress bones through gaps between chimneys.",
+                "paths": [
+                  "Drakenspire - Portal Room",
+                  "Drakenspire - Cobbled Market",
+                  "Drakenspire - Hearth Court"
+                ]
+              },
+              "Drakenspire - Cargo Recess": {
+                "description": "Iron floor rings and numbered chalk bays keep freight clear of the portal. Attendants compare declared loads with their documents before release. A torn packing label may require the owner to identify a crate; opening it or taking its contents is a separate matter. Daigo Numata is usually based here, working as portal cargo porter.",
+                "paths": [
+                  "Drakenspire - Portal Room"
+                ]
+              }
+            },
+            "initialKnown": true,
+            "npcLevelRange": {
+              "min": 8,
+              "max": 30
+            },
+            "factions": [
+              "Drakenspire"
+            ],
+            "images": {
+              "establishingShot": {
+                "crop": {
+                  "focus": {
+                    "x": 50,
+                    "y": 50
+                  },
+                  "zoom": 100
+                },
+                "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/c3526b16-a3df-4a59-a99d-9879a35dd46e.png"
+              }
+            }
+          },
+          "afterSha256": "9a4b097d9bb450a49c9769249acb7e98a92c8efbcd6002e840dd81a578ad7960"
+        },
+        "Cloudbloom Landing": {
+          "before": {
+            "name": "Cloudbloom Landing",
+            "basicInfo": "The archipelago’s sheltered arrival and freight terrace occupies the settlement satellite near Asterveil Canopy. Its enclosed whitewood-and-glass Portal Room opens onto a railed quay, receiving counter and waiting space. Court-authorized visitors can return directly to Glowhaven, arrange a local crossing, check weather reports or move agreed cargo. A visitor does not need wings or a new spell to travel.\n\nROUTES: Asterveil Canopy: a short maintained walk on the settlement satellite; Bellwind Conservatory: the cooperative’s attended central-island crossing; Tetherroot Chain: a short carrier route with stops at actual moorings; Rimeglass Refuge: the attended northeastern carrier crossing. A sky gap requires the stated actual crossing; nearby map pins do not imply connected ground.",
+            "hiddenInfo": "Keep this a usable safe hub. Porters, crossing crews and officials are generated only as needed and remain the same individuals on later visits. Transit permission does not authorize wildlife capture. A damaged freight sling can delay one shipment without closing the portal or inventing a realm-wide disaster.\n\nLOCAL SPECIES: No mandatory wild encounter inside the maintained hub. Reuse these exact npcTypes when the actual encounter fits. A type is not an automatic spawn. Make a persistent individual with this location’s band, real disposition and bounded abilities; retain custom diagnostic anatomy in its actual public visual description. Cleared or avoided encounters keep their real outcome. When the player deliberately enters occupied hunting ground, resolve a real encounter rather than presenting signs indefinitely.\n\nThis location has one fixed return passage to Evertree Base - Portal Room. Entering that arch from any of its local staging areas completes the short approach and crossing; do not require the exact sub-area label. The player chooses whether to enter, not where in Glowhaven to land. No academy or second city portal exists.\n\nLOCAL SAFETY: The maintained receiving room, settlement interior or refuge is not an ambient hunting ground. Wildlife danger belongs beyond its actual boundaries. Existing conflict and consequences of deliberate hostile acts remain real; ordinary rest, service or conversation does not summon a monster.\n\nAdditional local creature possibility: Cloudveil Nautilus. Use an actual appropriate individual only in a fitting occupied habitat or current problem. Safe services remain safe; this is not a mandatory spawn. Follow this location's level band and the least experienced human's ordinary-work risk, with warning before a deliberate harder undertaking.",
+            "x": 37,
+            "y": -6,
+            "radius": 1.5,
+            "region": "Cloudbloom Reaches",
+            "complexityType": "complex",
+            "detailType": "detailed",
+            "areas": {
+              "Cloudbloom Landing - Portal Room": {
+                "description": "A sheltered oval chamber of pale stone and living whitewood receives portal travelers before the outside terrace. Curved translucent panes hold back the high wind; woven flowering branches support a pearl-lit ceiling. The local arch sits within a braided wood-and-crystal ring, with soft chimes and a shallow basin of drifting petals marking its settled rhythm. A modest duty counter and clear waiting space serve passengers without blocking the route. The fixed return connects directly to Evertree Base - Portal Room in Glowhaven. Doorways lead to the Arrival Terrace and Crossing Quay; the sky, gardens and cloud sea become an outside view rather than an automatic new landing.",
+                "paths": [
+                  "Cloudbloom Landing - Arrival Terrace",
+                  "Cloudbloom Landing - Crossing Quay",
+                  "Cloudbloom Landing - Freight Shelter",
+                  "Cloudbloom Landing - Route Counter"
+                ]
+              },
+              "Cloudbloom Landing - Arrival Terrace": {
+                "description": "Low rails, flowering planters and a clear sky view welcome arriving travelers. Ordinary arrival can be peaceful.",
+                "paths": [
+                  "Cloudbloom Landing - Portal Room",
+                  "Cloudbloom Landing - Crossing Quay"
+                ]
+              },
+              "Cloudbloom Landing - Crossing Quay": {
+                "description": "Attended local transport and connected walks are arranged here. Establish the actual available route; a cloud gap is not walkable ground.\n\nKohane Kazahana is the regular carrier pilot based here. Her real sail carrier, weather checks and scheduled loads provide departures; a social conversation does not purchase a flight or recruit her.",
+                "paths": [
+                  "Cloudbloom Landing - Portal Room",
+                  "Cloudbloom Landing - Arrival Terrace"
+                ]
+              },
+              "Cloudbloom Landing - Freight Shelter": {
+                "description": "Covered racks keep consignments separate from passengers. Tags identify owner, destination and handling terms. A carrier may need an extra pair of hands securing an awkward crate; the crate remains the consignor’s property.",
+                "paths": [
+                  "Cloudbloom Landing - Portal Room",
+                  "Cloudbloom Landing - Route Counter"
+                ]
+              },
+              "Cloudbloom Landing - Route Counter": {
+                "description": "A board records current practical routes and actual weather closures. The crossing cooperative can quote a fare or charter, identify a grounded return plan and explain where the next refuge is. Passage is agreed before payment.\n\nKohane Kazahana handles agreed routes when not piloting. The public counter can accept a message during a flight; do not invent a second permanent route captain to replace her.",
+                "paths": [
+                  "Cloudbloom Landing - Freight Shelter",
+                  "Cloudbloom Landing - Portal Room"
+                ]
+              }
+            },
+            "initialKnown": true,
+            "npcLevelRange": {
+              "min": 5,
+              "max": 20
+            },
+            "factions": [
+              "Asterveil",
+              "Asterveil Crossing Cooperative"
+            ],
+            "images": {
+              "establishingShot": {
+                "crop": {
+                  "focus": {
+                    "x": 50,
+                    "y": 50
+                  },
+                  "zoom": 100
+                },
+                "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/bb40deb2-9ecf-45cc-a624-29855826c1c8.png"
+              }
+            }
+          },
+          "afterSha256": "50845c193c18e1946423fb73b483cc8f43cbe01f879548f8e17d2d1eb251d25f"
         }
       },
       "removed": {}
@@ -248,102 +398,103 @@
         "npcs"
       ],
       "added": {
-        "Shōen Kagetsuna": "a120e9f25fe4e8fa9c24600e36f283dc69a272cedbb45f3e5effd6a747b0a412",
+        "Shōen Kagetsuna": "db8f3e287a3d7ef8c950546a3938f97b32d0e3b7b014e7450f239a4aa84418db",
         "Ayame Kagetsuna": "63c67931dc9efac10677ae9d96ad908c87522f4cffa973a8c9f65b18ec341fb0",
         "Masazane Saionoma": "1f2e882e0e6cb5bf3669114a1b5197da5b5ed18cc68462eb2e992053c67a2265",
-        "Rin Saionoma": "d5df809afa920d9c6e1a87587eedc4c2b415146bbd159eeb8e51169b44374914",
+        "Rin Saionoma": "7edf82ab4041b898b946f3a72ff276130a62e3f93fab54c57cee2a32b58d5a00",
         "Kureha Tsubakiri": "c52cf6cf419de82bdcfa36226f662984bef7828a43ace41ce4e1badb9615d124",
         "Shigure Tsubakiri": "8d963391d3c3d27d25730c0d9a07564bcf4fcaa1fcfc7be9848b048bcdb2ea95",
-        "Hiyori Mitsuba": "fc2ea43dae7e9f94df1c939de6a4740b81f05ef9ed8bd74dac9dd81ad9315ea2",
+        "Hiyori Mitsuba": "fe5cb4530e3db417c1a5a2e02a2e81afbd2c7137b6013a87636927e11f8fccb1",
         "Sae Kagurazaka": "d93b0b34f372db676ddbdd1fd22f03d665d872cf301bc7096716174c0e6fbabf",
         "Tōma Sagiri": "8bff349ada8185abb742ea5a52c2470bfdb257dd8979fe8bb359479213aca2bc",
         "Yuzuri Kageura": "eec8ac220f7aa593ce235f6e6ba5e5fa1cb4ef2c25ac96cc7d5f893a4bf62538",
         "Genzaburō Kanemori": "9c2377d60ec1970ec6b7f6dce632c806f222bad84de66dfb06ee987a0d0a12fe",
         "Kinu Amakusa": "d3ce105c0b983f5714775fd8bd068ec3ebee8558fc7cca3126e2259e0a73e17d",
         "Renga Itsuzaki": "1441a3b25296c6079d510d8615bec7ca13490c5663db21e0766fe6bae44abfcb",
-        "Tadayoshi Kurebayashi": "33a99d940dc7ef4e031577af284728d4cbc32be777ff60838c8dde0cfdb67421",
-        "Mika Fuyuse": "83a5c27d065fc311f7f667a52c8955ecec4a82239fea7241771c318a58904b78",
-        "Nobu Senda": "026e706883998e6d39ea698fbb16c2131b5b8608ce344a9b7269ff94a32d69f7",
-        "Akane Natsukawa": "5e9597c418f3985626f40ac92bf53c8d079d37422d2da21d024c978a92a4b4bc",
-        "Kensuke Ayahara": "73f7c0a7a1493966cceadb562aa3079f99fcacbbce89d5c594ae458d548be5d7",
-        "Naoe Futami": "328fc799b2c706038a8b7ae103a39be9d971644e93e4838ff03986adb710f126",
-        "Chiyo Matsukaze": "0281ba512c21738cab3a72cc557b21a6ad62b64ad31df7171cb8d42b04a6d3b5",
-        "Tetsu Obana": "33e85f79eefc5589c84412e4ae3fc0e6f2c1844430aebe1ddf6f9c5eb4dac77d",
-        "Fūka Suzumori": "6dc58b09b6dc574adcc8c8f9f07a870211d33dc73bf08e06b9b509b8184a751d",
-        "Renjirō Usami": "073dbfff5bfd43301e72ed4a9a4cec30486ca435ac495f6f158f2600e4e66ed4",
-        "Maho Kanemori": "3151442871308417eec78513214f78e6be7a4c24c8bd7b619cf89a1ebbc50082",
-        "Hatsu Kanesue": "7233db1c80c113eb1b5a09f4a2e47c336b9f47209f3864084f53999725a439cf",
-        "Jirō Hozumi": "c10344bf4a7cf82c8c8a38828b029a1e1995ba14fa9a73b3d525672938399ebf",
-        "Sōta Amemiya": "b31253712225105e1bb18b928529cd7ac2dfc25e741ad46d5dcdf2de90348e7d",
-        "Iori Kagurazaka": "d8d84771a872d38449a24523abfe7ba31579bcc2832ed2f1c8fa4e8d0e65bcbd",
-        "Chinatsu Hanegi": "3111285f5534923ea6159e1f11375ac26d04dbf9ad8c62d3d979896c49fe96c0",
-        "Yūhei Toba": "03ff9634f6e38a891db184a43bc8086809296770e450ea3e024bd77357571988",
-        "Natsuko Tsumura": "4a64cd936b490d57d462fe11a123a0c5d6d808d475c26ed18bbf3f36423a5ff7",
-        "Kōichi Aratani": "2f21122576162c277cc30030dcd010c4635ff055d8aaf44e2ebc63d01cb0e401",
-        "Yae Mizuno": "ea933104f958605333f70800495aee38126981b0545d3ee07956157cf97af856",
-        "Haru Tomisaka": "5d154eaa1eb8b0a179c6583c1064f0caf9e4211815a4d530517b358fd69be470",
-        "Sachi Morisawa": "2dbf719cea5b86cea70ff77991914c776e0d296e9a911176b8aec7669276fae6",
-        "Kazuma Ebisawa": "4d75d2d298a9625d30724b176ef9d003742be577642726f81ee4c64e84921bb3",
-        "Mina Kurusu": "3dce5a881e0e246bc2d658bc65f4a14561d1e3aef0ad513ec41fe23785732cb0",
-        "Osamu Kariya": "ed64613c1c8ffdc1f5131b7ca125c21f193ac369886df6f35526bd706ef1a998",
-        "Tae Ishihama": "e6b66cae70cf2f377f2fa01bd2ba440c2cf20a31d73d92676ec20d4a6804bfb2",
-        "Shunji Dobashi": "d68088bdd67d2cd1284abbbc3804e715eef94c51bcfa37326f5e90ed5349c973",
-        "Ruri Nabatame": "9e94947a2f649186e2e54d47d47a502cae93b727e4f2475a4588c59e6e8c2f5b",
-        "Hokuto Mizusawa": "cae70acb4a8bd54d31ca6ceea641623bcfdcc42b993372512a266a45832cae4c",
-        "Shizue Amakawa": "3671415dbf84be64e577a63833674b7c7a1aec7e3781f528fb0c7760f68eaadd",
-        "Dōgen Hanamori": "b89c7194c19de5434196c393673d989b3baf02df0dd1226b42d5b81cd9fabbfd",
-        "Fusa Minase": "581856899ecb1828d2cb8824250de9b847d039dd32e278bafd5fc2543d81cdfb",
-        "Naohiro Umemoto": "8a76e1d161c8da51e39a565457567636e0d7623b7a03c071e860581ac789e1b1",
-        "Sana Kuroiwa": "279f30d4fa219e0c0f76e93ac8960f74276a34ace2caf28256fe427573de0d05",
-        "Rei Tsunemori": "c008bb0830f882de86407c5f2fa82f13b268ab9af478d38c5b1581901e7ab3d0",
-        "Yoriko Abe": "188ccfaf1c76260e4e056fa3fbb95e359aee65c9367fdad690e145031ac20f6e",
-        "Tomoe Masuda": "26ce04ce6963ea7576a2de55a1a99825f0202b5f2a7857daa0b8b15ca934e766",
-        "Kayo Yagiri": "5808cf73c825c876d29da5379f752f93dd26a37d098281b5fab5c8245d9c8eb2",
-        "Yasuo Natori": "331c5836a83384a3d50f7ac9fe7a165063909ed1f18a2acd8532ef6bf7ace672",
-        "Chika Nishihara": "be3322cd910291665beb74501c0080a507bc452718d58df8ee22c6b271b9cf4c",
-        "Shin Watarai": "c1d061833dd2e49d103ddde44dd53fb7af065e0a91fef1ecb6b403941442578f",
-        "Mitsue Harada": "cac92e03f1c73a5a7b2d50b28e9a0c4475573e60580e31e87d4971263965796e",
-        "Kentarō Maeba": "12ce3eb5504dbc2b7723dad6439fe6cdb954b2b03fc4faf2487f91da815e8493",
-        "Suzuha Hoshikawa": "023148ee9f6a241422fbccd5af8c1ef5f02f53f01a7f0968cb297ea2bb7090c1",
-        "Daichi Kurobane": "51124851105ed41867e7f4feddd8fcf982bb5351969e9170948bb7b46894bc08",
-        "Mayu Enomoto": "cdcf1a828b89da1cd863462b5ef694d6717019840cbac59f0e9b68810cdc5b62",
-        "Takuro Namiki": "6f6fe4e04aa9b90082c2e4fe374ecc853c499c5c1d038b0de1387a85e9d0a0a7",
-        "Eri Tamura": "c8fa2ef7cb3d30f783a74b8a6eea76bb009e4db44f2672bd9a04f4b0049d78a3",
-        "Seitarō Matsuoka": "4076b5d42157dd88b23c82a4bb7d7eea364457948fc96bc80764eb76dab3b130",
-        "Nene Moriyama": "4f0fdeb030eb12510e7998742ae37a31da7f383cbbd3604df0f8bd3e705ebd20",
-        "Isao Tsuge": "f88aebcc41c7847538694f98d3531210e8925ecb02a69104970ee6fbc0419980",
-        "Yumi Sawatari": "04ad59deb1a79211601ddd677bf18e66c34168ac03de99a270bf3b65e2b4606c",
-        "Gorō Fushimi": "12da14fcf643df3d919cc673f20330d339a83b1a7c29cf8f892dc6e9a8aeb11c",
-        "Aya Takino": "9424d7285da795c2083b3f389b069788b2fc3d7026c97b608dab4be980698ac9",
-        "Mutsumi Hosaka": "39dd3a077bc4edfd3322ea508ad483475b43ad544ec4a43a9f8ed1c733a41f99",
-        "Tōru Fukada": "88edaebe9534aeb28cc016993097b9ee8b7fd0a0b6516353c45dc70482886d3e",
-        "Rika Ogata": "a2bd7fe276a6eee79a1bf9df47e2810e25dc58260ce3ed91ec161e7834d2d153",
-        "Kenji Morita": "a211fdc4959fe46c1ef22b4673839af3559781a9b2ad14d60e2c3a83277d6512",
-        "Yōko Sanada": "60127a0a0537e8c5d8ec5d0138985d712c802fc60462498da4679bab129c47bb",
-        "Kae Sumida": "b5a51ca63d723f56a9249be4e35cdc0b52afb045b3f283dd37d3ca75a51956d0",
-        "Chihiro Noda": "bc05e1839ef79367af5c69db5cc8d53def9e7980d9408cb4452369bd1f46f523",
-        "Makiya Utsugi": "f7b0a0be519f55ec4fcb84d1608d379f4e133ae0644ed1724c7d5ae38db6dab9",
-        "Hajime Niwa": "eb2bfbdc4a6df83a7508909c719c27de4d828e1ea3d38c51f6e9d8437dc6e057",
-        "Asa Kogure": "f091f09a824c0e03dc0fd953e8569e80b5be604e861fa93c489126cad989d488",
-        "Yukina Tsuribe": "d9d0632b34d4ad593449d4457fdde7a973046b26b98add0a60db5b987289f8a5",
-        "Ema Shiozaki": "838b9076b51c3d889bad32dec64677dc435576b37d1eb7a6ad9fcb5d77f4020f",
-        "Kaito Honma": "2670f34ebd3f6be13a6c55ba3dc429ca2d33df361c13402fb3a3a516e8b44786",
-        "Misao Shingū": "f2de2c7a60342da9c3eed50e27fb4ceea0347ba435ca8a52ffaa4b472f76edae",
-        "Ren Ishidate": "a25aada8a605cff063f7b69ab5b5f968e95fb6e03bd8c53db6ea30564b3a34fe",
-        "Takane Shibata": "c7c66d2a7ea7b32dfa58c3e2551b8c3d25ae5cfffbaf11ab2098c571356aeb9c",
-        "Léonie Vauclair": "934871938023c6c49733387375c78051d51e4a5837f30b096cbbb9cdb98559d8",
-        "Jin Lin": "242fdddf56eecdbf6ce33795f8c880d68bdb85447a0d6dc3ea3d860c3235e04a",
-        "Duncan Rusk": "fcf0648272bd29805ddfac2f97c3f1f5bac4e6e9ae3d21baaa24374eebccd230",
-        "Akihisa Manabe": "7138eec85c497a6d5a1157acbccea2be5baddd64d0a8d71e84038b4c6435b276",
-        "Katsuho Enoki": "7e8650e3055e326808453f97aecffbad6b6e75a174e62187fb3b3d884d39b58a",
-        "Jun Sasanami": "647ddebde09d85919046ddcac7cc2b3798e872aaa01f91187e8bedcca9750e11",
-        "Kohina Beppu": "1dcdb2e1936c51603ddb667aafd5f41e9b324649af49ae8e1cd5604e4ff10954",
-        "Hiroto Sakuma": "fe0cdde791c6af72c6524d21e1da9412950199b90100a2d39ebb29acde817060",
-        "Nana Saionoma": "14b00a5be49cc79622e8d4c749d4b778d0638feb2d6efe690edf280d65cfa27b",
+        "Tadayoshi Kurebayashi": "eb9bd5be1087355f5d044ba96bf9cdf41e583a0e2e7eab5a451f2e89be12a8df",
+        "Mika Fuyuse": "81ff31f2dea9069000a603e255baf9634c60031c9628134fb4c46a4d10368e05",
+        "Nobu Senda": "0c2430c1e117ed9f8adfabab4288293c97440bd18901f1787b2d600fb20e6bc5",
+        "Akane Natsukawa": "2f6757395827d7219af21d309a45454f18ac4b3d93a095f4761c8a57d0df5c83",
+        "Kensuke Ayahara": "45408c56cbf023d516f941b366f1bce0c5c8716c5484ed9880dc0589e4a1f6e2",
+        "Naoe Futami": "c7d269d0a7be746848bba95a77809fedcfefa00c4528d4b8062b3f4a9b58aa1a",
+        "Chiyo Matsukaze": "8c949fe2783a3928aedc0b18d8a11e511a48efc9d0e273fccbbb3b463b01da16",
+        "Tetsu Obana": "015c39e01dba727f80fae82eb717af1b144ed22400ae4b51b8d1d6613e15f788",
+        "Fūka Suzumori": "6bc0dc628afdab99b652774896ff5e9a1fddc5faa74f465939fb3a721592a626",
+        "Renjirō Usami": "7efed8d51650bf968e37855a6b62dee82257ca26ac2421bdc63cdbcb9685f0ea",
+        "Maho Kanemori": "470288d16d2c721d5ed5e794d852e1f3dd8fbb1f49c22145cb6a288887b78b14",
+        "Hatsu Kanesue": "56e49a651ab63ded8f54df100951f6dda6847d7487cd097d615b1beb67d7a1e1",
+        "Jirō Hozumi": "e7dfb59e0e1b7fc4d3070e974e27952b46ebe6c65243e28774448253cc09c350",
+        "Sōta Amemiya": "e4bff7235f174d7813b21dcdefaf236c6e4658366ec35c6f0622591b9f24f6c9",
+        "Iori Kagurazaka": "4f153ca4e73c486ef427885333efb6eb0e3db752c82fc6ce71c718e490f76744",
+        "Chinatsu Hanegi": "b1782e5a5d0b5075aaa3ff2fd2c8ac894f1f6e5f92d3259b35fc70feb9f5f593",
+        "Yūhei Toba": "2d38d930c415d7ff6b0c7734c82898763c5af6708fcf8a16ea62356c167316ce",
+        "Natsuko Tsumura": "8e73e358cd641b849e24cff2b67abfa89eca5e0ab945ad5aa71ceb6a826e5633",
+        "Kōichi Aratani": "93323b750cf7382e61ec7cd8942e59ed7014741d11f139d59999cdf93ce4b1ff",
+        "Yae Mizuno": "eebf54defbdcb4c6d4bd92147180b1313869093435a26d3d27635953ca9b4c29",
+        "Haru Tomisaka": "80134e4e3f679b41199ed73865a6394717eab5456374ca06bde0219a33f54615",
+        "Sachi Morisawa": "bc087f4412b3e17fb6c2b042c9c80a93ef346704891ef1d830dcbb90c46d9a01",
+        "Kazuma Ebisawa": "f49ba9e809ef4f8d27d11377199507b8c72e9b4c8ff8916663289a730850687c",
+        "Mina Kurusu": "e1f996105b8aa3a6a6658938a23296293a79b9b37042ae3c7fb700e89b8671c2",
+        "Osamu Kariya": "b324e4468424a34f93e9e5f53be359be44ceb34f94b8c26187bd8118046d0abf",
+        "Tae Ishihama": "845882fe8cdc3f28f97107975aa11269e78cd857d904a8b4ecb60454500768a7",
+        "Shunji Dobashi": "d3f8d44a6c646dea020400c2d62299b3feec89dd4ed09443574b077dc3444500",
+        "Ruri Nabatame": "8c614f387ea40bea9d0f11d428b689a257e2b374712d48ac80642c1eecf3a2bd",
+        "Hokuto Mizusawa": "0b48500422b7d7eb9939e7772cdce156341f25a22eac1c6d061ed9c340247f57",
+        "Shizue Amakawa": "93665549659f3e1e1c757d7242b3f46cde3a7c0819c8dab81b17f5e067e9d851",
+        "Dōgen Hanamori": "c97a2033893aef30b65b9b03da0a967ff219ec803ee43b00f27429da7b1c812e",
+        "Fusa Minase": "3c4037554c9c0333e5c6ec6977e3a5e7b9ac08e6ce142618af69f804f002db35",
+        "Naohiro Umemoto": "6138b310071d55f5bd80987c2ab54172b9087c4a983227beff8666668ed3f66d",
+        "Sana Kuroiwa": "133127e46c2f8da14bff895d76bede06d479218024cbf9f06f0fabdc128c0022",
+        "Rei Tsunemori": "5b0cd0273c854d7192fb0d9a4634b99e21bd8e109fa85c2f6e2ffbff1a26f0b6",
+        "Yoriko Abe": "ee231a2317a63a6c69645a0d7b26a059fa436b5bd57e59ced94ba0d41ed76382",
+        "Tomoe Masuda": "e440bbd471f1badb715695327daa18cb391a6b6a9b1dd0d70f421a16165012aa",
+        "Kayo Yagiri": "66970fd2fa7e7ef39ad728af457a8405604173f1032a37fe24a9b55d2c1ec805",
+        "Yasuo Natori": "7163f0586f13e2655ae8e43af37126dc330d3b312a1b3ec3cbab00eb84e26e48",
+        "Chika Nishihara": "c92eac1fb7e708b1f77867c6d1eb6f72e35f5ef2c183ce36fd769f656215cc12",
+        "Shin Watarai": "1f2e422022002cd95cb7764380c2f688bf931ab38b72e46fc35a52938857efe8",
+        "Mitsue Harada": "4f08ac6c94222eb1882760746e5b7da9a4bd2fd7cd9305ad9383e7c45525343c",
+        "Kentarō Maeba": "8844221d862236bf89b30e30fd92c763ff1117f07d40412843347f55497d81bf",
+        "Suzuha Hoshikawa": "84da8a0adeba592b2b48f66d106280304f8fb5eee520ebd37c7a444732c8225d",
+        "Daichi Kurobane": "214ce363b946306154ec2145d0bd3c8bb1c83b3a2c1a4b622b227c38c95f28da",
+        "Mayu Enomoto": "b01c5f6b84e7783c7f4c8358fb2229ba8a046d79bd9773dfb5d118842b43b787",
+        "Takuro Namiki": "0c6e305b7e947ccefe0611c84881930bb2a52438a57e2a016121fe67d10d5b52",
+        "Eri Tamura": "593ee96be7c744da7b92d772df6f3046d25dff1faa591969c36e2ba4c4c04507",
+        "Seitarō Matsuoka": "4bdab7dca66565f50ffeed9086c87802250e8543ae4aee613c9834503b8f2cc2",
+        "Nene Moriyama": "217352fcf2e37ced29ba06f6b9f8778f9d3a18a2cca4380b3858549ce31ffd71",
+        "Isao Tsuge": "ff2074846ee320eb92cb54cc0eb8c064aea1745407539b8e58f78399360e71b4",
+        "Yumi Sawatari": "2bb11be845304390fa0bb3f809a5215e768fac1047e9a21ed98203272f813193",
+        "Gorō Fushimi": "266969ca385919db1fabeb9290e13c46311a90303f03ed2b3d3767b1d232473f",
+        "Aya Takino": "668a3fd6b953dd69331093fb14958ebfbb00b22f4e7d063f0e8acb3e1d86661e",
+        "Mutsumi Hosaka": "7dfb076c21fd72dda7bd4d6f3bf01641118cad2472aa60e8683429d69c264050",
+        "Tōru Fukada": "869abb2e47daf1403ddb4992217a79e63e822bcde49663e0826fc90c39f696ad",
+        "Rika Ogata": "8ec3a9e42c0926b19aab82b22963aeb666527a0e80319e8197cc733ef17180e5",
+        "Kenji Morita": "c00fc46d653c539e9fc64073533c247dc6b1f2c5eb724ca83fbbbf043c79d77a",
+        "Yōko Sanada": "ffc87c6dba0cb30b1d4b25c0c584605b78c1aa5ef3f93e367fe74f19e8f2a960",
+        "Kae Sumida": "33f77dfb5e1e14fdf6d71d0f8409b7180618c4d2eb363295a8b42663183f43f5",
+        "Chihiro Noda": "681313ae8789de160635018d65e3008f332f0a6ac178a21061935c09975ed964",
+        "Makiya Utsugi": "f95c4edeeb734cdd5db279597c502c5762b5d05939054c191709fdbfdcfd689e",
+        "Hajime Niwa": "ded5b038dcc69bbe2f2c141c3bdcf0ce748728f53610adca5979ab44a42bcc78",
+        "Asa Kogure": "4d0066b621a20395a86ff5f29073a8946f874f0f9e4e572807b81aee20eb2afc",
+        "Yukina Tsuribe": "fbee31291adffe874b1be0d916fde9f29b1e95c3a72df4a962d8e95dfef35fb6",
+        "Ema Shiozaki": "ef747888c530da5b0caf14caf8a572be1fc7b69ace0fff025dd7cd7578c4491c",
+        "Kaito Honma": "0aafef2e8a19b30985e5627105ad2d10cbda29cb5348a4c337af66c0cbb4de4b",
+        "Misao Shingū": "8ffb96de741bd28a0e83f8a99dce3fcc52a09c7ca07bdcdbb12d24d344fcba94",
+        "Ren Ishidate": "10b22aace033d9fa26137a13d8f9004c8143c25031f1dad15df6340d3f46e1d6",
+        "Takane Shibata": "630b026b931d90ddb60f414bfb66f6bd626002d4543e5d8bc7ba43347fda117a",
+        "Léonie Vauclair": "95e2943dd72c18c99cf24970174c5fb7d940ad87de3f07bd95d7be2cea3d8ba9",
+        "Jin Lin": "a9ea89af47c7e1bdc6dc1929ec7506f5799e8d595dc564d1f4f9a03bc9e5728b",
+        "Duncan Rusk": "16b4bda0e4a3c4a6a456328a1297f14b9c140fbd467325214d513ee0691c1e2c",
+        "Akihisa Manabe": "5299fd3d1d29dffd853e61f62344a0630dde08ea6ef1808e69adcbb386fc8437",
+        "Katsuho Enoki": "fdb9c2d8bed951e5b1c97f6d5fece5b9688163ba6050b51dd19c5d24a82d1c00",
+        "Jun Sasanami": "359cf1aa8d5cb90f3a7ccaf56c059431b493e6a37329f61c79ec3f2237005234",
+        "Kohina Beppu": "258300238e949c8001b126598b06cdf68e63adf2ab56fb633cbf6d6d76c106b0",
+        "Hiroto Sakuma": "19779fab3c6c5f7489c6bf99a46ca9d7737ee9f4d3eb6a701acbab3f9fb0a6d3",
+        "Nana Saionoma": "2c92a922a88dec69d837a74ecd61eb5dede474d2ddb4f9ad61d7307dddea7d47",
         "Hagire": "13273497624e29c58e0e5a37d712d2e5569bf109f81a180bc24d3c9efe19d01f",
-        "Koma": "dc44ad82a9f96ec8f2baefb12b3eea2834ed0348a058c1b37b50d39892271a45",
-        "Suzu-no-Ura": "504a928a80c4189e41c07a996813e4794bef96338a18ebcecfd531595a8b434f",
-        "Oroha": "521e85cc56f76fac9b780fa7c60f5b862ad3953325bb01cfd97e484e0032ee38"
+        "Koma": "13f267ae9ecb2222ac59ac788f522a66e96fc8eb04b9f5ebfae2636f2d178dd0",
+        "Suzu-no-Ura": "92f1981bc13221ecdedaa093d25080d4b3700f0eaeaca7a9fde0d615d5ace493",
+        "Oroha": "521e85cc56f76fac9b780fa7c60f5b862ad3953325bb01cfd97e484e0032ee38",
+        "Atsuha Yunokawa": "3ab5821c073d1fd25989225ffef7cf4b17c5479bebad691ac006fcac4dfacbf8"
       },
       "changed": {},
       "removed": {}
@@ -362,12 +513,12 @@
         "Akitsuhara — Samurai and Independent Rōnin": "f55d231647e1bf3db5f20cb314b971878ba83d06fdc880094a5228e08e97842f",
         "Akitsuhara — Shinobi and the Reed Veil": "3a1287762cf873e9decca6867a0995cacc0acc0bc77f4f60d7d82fce8eda92f6",
         "Akitsuhara — Shrines and Remembered Dead": "b36946a98f4f5b48f47fc4eabc94b783ed59b0664f348c5f49bce3f2fc74934e",
-        "Akitsuhara — Roads and Ordinary Travel": "adbe26cd911ab7faf167dc756b177a83ee9ced026e050010a7120b0f8cbab1fc",
-        "Akitsuhara — Guild Branch and Expeditions": "bff2d6853fff45b31abcc4978c0c971f4209a4c2f3c550e4c49016d1de334688",
+        "Akitsuhara — Roads and Ordinary Travel": "c3bf2542c7cbc59905e71d292924c8360c5b2252f426571ad29a847cd82fd981",
+        "Akitsuhara — Guild Branch and Expeditions": "9b4c399605c3ed098bf6c6434450dfb0b9e87a6c02ffec1178001ba4a4db96a5",
         "Akitsuhara — Trade and Everyday Costs": "986d63365e596f60daa6088237485a84770c2c2d8de739d5d5c561e0dc425dc1",
         "Akitsuhara — The Two Torii Routes": "cdd84554d007f670c37733818b435808ab3280c80dd1c526aacdd8850c75824c",
         "Akitsuhara — Hagire and the Cedar Margins": "55acde85eee604fe4422b13d5a3d745e4bc484c184b27a1b2bd0f07bc292654d",
-        "Akitsuhara — Yokai among Neighbors": "052335d65b7a2f991fb6dee70597cb28d22c5b4f7d08e881b4144fb67e0b9540",
+        "Akitsuhara — Yokai among Neighbors": "88993ee05799b62f7e7f2221cc67ea84639ddc4f1539f8be8a27d6092d09b401",
         "The Veiled Beyond — Mist and Living Wilds": "13f3b0a1a31dee6524c07db5c328a13d76ab957c812e060165d393d54b7057a5",
         "The Veiled Beyond — Refuge and Return": "e3218e6432be41e083a27f64e45385a38c0461bab334dc65b542285e8ec56aa3",
         "The Veiled Beyond — Oroha’s Crossing": "645d7a7adc07a85e37cd447bc5d04f1272f162c011d335a65d120c234480dd44"
@@ -387,16 +538,560 @@
         "storyStarts"
       ],
       "added": {
-        "⚔️ Akitsuhara: Samurai at the Gate": "253892980a9e8ccf263024079632cf721d220766d4d59fa8506d79ff97279bb3",
-        "🥷 Akitsuhara: Behind the Reed Screen": "08856d108052886b05ba6218c9cdddbd9ebfa2ae227545319440b6a98021e623",
-        "🍃 Akitsuhara: A Rōnin’s Morning": "f06a08f343698981154f13295dd873a6c1580cfcc952dade6b07d8dbe2ef42dc",
-        "🔔 Akitsuhara: The Bell Workshop": "2b578fdbc5a6d25c6f4c0ea05b0476be7a2f5af2592b32f6c3a098411a817e81",
-        "🌾 Akitsuhara: Bread before Rumors": "f528c5b4d4c74b42b42772aabb55ed695e4c2515384eb8a4e7e6a70a3c5e8afe",
-        "🧭 Akitsuhara: The Local Board": "938a2ce27f6975a4ebddc6d67dc6c5a79eb8be5ec48d7a5bb6b002de8c1b5f1b",
-        "🏔️ Drakenspire: By the Common Hearth": "a2b092fb8f547059a7ef1b20021d39a67a5990943b874656bf448c31ea35943c",
-        "🦋 Asterveil: Notes beneath Glass": "1c1bd39c8cb4fce3ba0692a4094154421c52359eb8d758bd5e2aeefa8a540e4b"
+        "⚔️ Akitsuhara: Samurai at the Gate": "e42a5f96ee457b25effaee7d01f70534c49eefa1013bb5d630fd12ab6bce6104",
+        "🥷 Akitsuhara: Behind the Reed Screen": "7787901f4b4ec70ba49c3c1d13b59f437955653b3e293eee14f4c292dd001e9c",
+        "🍃 Akitsuhara: A Rōnin’s Morning": "9d93406613bf1e0f0cd7566c5228a3787447b93bf229114afc2393c8cabda1ca",
+        "🔔 Akitsuhara: The Bell Workshop": "59d68ef82d71afb8584a357d0c825c16491e0374ea3f56105a92d1a2a1ceff42",
+        "🌾 Akitsuhara: Bread before Rumors": "34a4d01124fafa1981c15c6f61ce97e8286ffc06b1be4018b1f268193b0db47d",
+        "🧭 Akitsuhara: The Local Board": "72699e37c35ff1a1fe4944a236895701c993256f1b96d880f4116dd7cf6422b8",
+        "🏔️ Drakenspire: By the Common Hearth": "250c5be41dd207a9bc487c673bd49b45cd11b4969bc93ba107b8ddd3ddd69123",
+        "🦋 Asterveil: Notes beneath Glass": "068dc8e460fff093ca507c5167ea7188eb3977f2a1ca89da23347ffdb55a1342"
       },
-      "changed": {},
+      "changed": {
+        "Write Your Own": {
+          "before": {
+            "name": "Write Your Own",
+            "description": "**Your character. Your first scene.** Describe what is happening when the story begins, who is involved and the mood you want. A few sentences are enough: a first lesson, an awkward reunion, a market dispute, a quiet day at home, or a journey already under way.\n\nChoose the matching starting location from the list so the opening and map agree. For a particular room within that place, name it in your prompt. The list offers public places in Glowhaven, the four academy entrances, Brookmeadow, Drakenspire's market and Asterveil's landing terrace. Opening abroad can reflect a local or visiting background; it does not issue future portal permissions.\n\nUse existing characters when you want a familiar face. Their established identity, responsibilities and willingness still matter. Describe your intended situation; your actual character setup supplies starting possessions, skills and mechanical grants.\n\nExamples: “I'm outside the Everlight Library with an overdue book and a perfectly reasonable excuse. Begin as I reach the desk.” “I'm in Brookmeadow, helping at the mill for the first time. Start with the problem nobody warned me about.”\n\nIn multiplayer, the host writes the shared opening.",
+            "storyStart": "",
+            "allowPlayerInput": true,
+            "locations": [
+              "Main City Gate",
+              "Four Sages Bazaar",
+              "Whitecrest Harbor",
+              "The Everlight Public Library",
+              "The Jade Cup Teahouse",
+              "Roseberry Inn",
+              "The Golden Ladle",
+              "Rune and Raven's",
+              "Moonwhisker Emporium",
+              "The Perfumed Rose",
+              "Caravan Outpost",
+              "Brookmeadow",
+              "Glowhaven Farmlands",
+              "Crescent Shores",
+              "Phoenix Wing Academy",
+              "Gryffin Tail Academy",
+              "Dragon Hoard Academy",
+              "Hydra Head Academy",
+              "Drakenspire Portals",
+              "Cloudbloom Landing",
+              "Adventurer's Guild - Glowhaven Branch"
+            ],
+            "locationAreas": [
+              "Main City Gate - Gate Square",
+              "Four Sages Bazaar - Four Sages Fountain",
+              "Whitecrest Harbor - Harbor Quay",
+              "The Everlight Public Library - Reading Hall",
+              "The Jade Cup Teahouse - Tea Room",
+              "Roseberry Inn - Front Desk",
+              "The Golden Ladle - Main Hall",
+              "Rune and Raven's - Accessory Gallery",
+              "Moonwhisker Emporium - Showroom",
+              "The Perfumed Rose - Scent Gallery",
+              "Caravan Outpost - Wagon Yard",
+              "Brookmeadow - Mill Lane",
+              "Glowhaven Farmlands - Farm Track",
+              "Crescent Shores - Crescent Beach",
+              "Phoenix Wing Academy - Arrival Court",
+              "Gryffin Tail Academy - Arrival Steps",
+              "Dragon Hoard Academy - Arrival Gallery",
+              "Hydra Head Academy - Arrival Court",
+              "Drakenspire - Cobbled Market",
+              "Cloudbloom Landing - Arrival Terrace",
+              "Adventurer's Guild - Glowhaven Branch - Common Hall"
+            ],
+            "isDefault": false,
+            "startingQuests": [],
+            "startingItems": [
+              {
+                "item": "Mark",
+                "quantity": 1000
+              }
+            ],
+            "startingPartyNPCs": [],
+            "questGenerationGuidance": "Follow the actual custom opening and chosen place. Let opportunities arise from that situation, existing people and the player's interests. Preserve real eligibility, acceptance, ownership and access. Background history and an ambition are not completed quests. Do not impose a preset school, job, crisis or companion."
+          },
+          "afterSha256": "c2087631e9bfe7e5a5d615dd864e3a461b68f4862e6093829a6c082739c0e757"
+        },
+        "🔥 Phoenix Wing: First Day": {
+          "before": {
+            "name": "🔥 Phoenix Wing: First Day",
+            "description": "Your first morning as an enrolled first-year at Phoenix Wing Academy: collect your timetable, join the headmaster's welcome, then arrive at your first Magic Theory classroom. Your issued timetable gives the day a clear beginning.",
+            "storyStart": "[OPENING DIRECTION: Day 1 morning, the new academic year's first teaching day. The adult player is ALREADY ENROLLED as a first-year at Phoenix Wing Academy. The selected setup includes the ordinary walk with arrivals, receiving the configured first-year timetable at the registrar's desk, and attending Kōhei Sanada's welcome. Render the authored welcome, its dialogue, a lively larger student body and the clear next task; allow this opening more space than an ordinary turn. After the welcome, include routine movement into Phoenix Wing Academy - Lecture Hall; END as the player ENTERS that classroom, before the first Magic Theory lesson or teacher instruction begins; Kōhei Sanada has returned to Faculty Offices. The first Magic Theory lesson with Haruki Saitō is in the Lecture Hall. No application, invented enrollment fee, elective selection, promised friendship or party recruitment. Keep named students' actual years; older helpers remain older helpers. The routine walk from orientation into the first classroom and receipt of the timetable are established setup, but do not write the player's words, feelings, agreement to optional work, successful answer or completed lesson. Adapt player references to the actual character in third-person present. Do not decide where the player sits, put words in their mouth, or complete the lesson. Stop at classroom entry, ready for their first response.]\n\nRed pennants snap above the entrance while a broad stream of students climbs toward Phoenix Wing Academy. Returning students call to friends across the court; first-years keep glancing between the doors and the papers in their hands. Somewhere behind the practice wall, a whistle cuts through the clack of wooden blades. The breakfast stall by the steps is doing excellent business with people who insist they are not late.\n\nThe registrar's desk has been set just inside the Main Hall. A clerk checks the new student's name against the admitted list, passes over a folded timetable, and points to the waiting benches. Admission is settled. Today is about finding the right room.\n\nHinae Komori moves aside to make space, holding her own timetable flat with both hands.\n\n“I checked the room number three times. I still nearly followed the second-years.”\n\nA bell sounds. The conversations travel into the hall in little waves as the first-years are called together. Up ahead, Kōhei Sanada waits beside the lectern, perfectly still beneath the red academy crest. He lets the last scrape of a bench die away before he speaks.\n\n“Good morning. From today, you are students of Phoenix Wing Academy. You will study Magic Theory, Magical Combat, and Potions and Alchemy. You will attend the lessons on your timetables. Being talented will not excuse being absent.”\n\nA few shoulders straighten.\n\n“You will also learn when to stop. A duel is not improved by an unnecessary injury. A useful spell is not improved by casting it where someone is eating. We expect effort, preparation, and the sense to ask when you do not understand.”\n\nHis gaze passes over the hall without lingering on anyone.\n\n“Your first lesson is Magic Theory, in the Lecture Hall. Haruki Saitō is expecting you after this welcome. Follow the signs through the east doors. Good luck.”\n\nKōhei Sanada gathers his notes and returns toward the Faculty Offices. The formal silence breaks at once into voices, bags being lifted, and somebody discovering that a timetable can be upside down. Hinae Komori studies the arrow by the east doors, then gives it a small, satisfied nod.\n\nAlong the east corridor, a student board carries society notices, a few offers of paid afternoon help, and a small handbill pointing to the guild's public request board. None of it calls for a decision before class.\n\nThe Lecture Hall doors stand open. Haruki Saitō is setting a travel mug beside the board as first-years file through. The new student enters with the others, with the first lesson still ahead.",
+            "locations": [
+              "Phoenix Wing Academy"
+            ],
+            "locationAreas": [
+              "Phoenix Wing Academy - Lecture Hall"
+            ],
+            "startingQuests": [
+              "First Morning at Phoenix Wing",
+              "Find Afternoon Work",
+              "Visit the Glowhaven Guild",
+              "Your First Spell"
+            ],
+            "startingItems": [
+              {
+                "item": "Mark",
+                "quantity": 1000
+              },
+              {
+                "item": "First-Year Timetable - Phoenix Wing",
+                "quantity": 1
+              }
+            ],
+            "startingPartyNPCs": [],
+            "questGenerationGuidance": "The first-day setup settles admission, timetable collection and the headmaster's welcome. The immediate task is the required Magic Theory lesson with Haruki Saitō in Phoenix Wing Academy - Lecture Hall. Use First Morning at Phoenix Wing; no elective menu or second enrollment quest. Keep other academic projects and optional activities for their actual time. An attendance task can finish even when a beginner's answer or casting attempt fails. Find Afternoon Work and Visit the Glowhaven Guild are optional, discoverable goals when time permits, not accepted jobs or mandatory visits. Let the noticeboard hint broadly at paid work and guild requests without naming a business or forcing a choice. The opening ends at classroom entry; the first lesson remains unstarted and is the next activity. Do not register the player, accept a contract or arrange employment without their choice. Your First Spell is an optional personal experiment, not a second required opening lesson or an automatic pass of the academy spell project.",
+            "isDefault": true
+          },
+          "afterSha256": "46fcc82be526a6ed2a9c3037f8d5ca71e719a903ac5d928f5732cd3d579aeac1"
+        },
+        "📘 Gryffin Tail: First Day": {
+          "before": {
+            "name": "📘 Gryffin Tail: First Day",
+            "description": "Your first morning as an enrolled first-year at Gryffin Tail Academy: collect your timetable, join the headmaster's welcome, then arrive at your first Magic Theory classroom. Your issued timetable gives the day a clear beginning.",
+            "storyStart": "[OPENING DIRECTION: Day 1 morning, the new academic year's first teaching day. The adult player is ALREADY ENROLLED as a first-year at Gryffin Tail Academy. The selected setup includes the ordinary walk with arrivals, receiving the configured first-year timetable at the registrar's desk, and attending Norio Shibata's welcome in the Lecture Wing. Render the authored welcome, its dialogue, a lively larger student body and the clear next task; allow this opening more space than an ordinary turn. After the welcome, include routine movement into Gryffin Tail Academy - Lecture Hall; END as the player ENTERS that classroom, before the first Magic Theory lesson or teacher instruction begins; Norio Shibata has returned to Faculty Offices. The first Magic Theory lesson with Kei Aoki is in the Lecture Hall. No application, invented enrollment fee, elective selection, promised friendship or party recruitment. Keep named students' actual years; older helpers remain older helpers. The routine walk from orientation into the first classroom and receipt of the timetable are established setup, but do not write the player's words, feelings, agreement to optional work, successful answer or completed lesson. Adapt player references to the actual character in third-person present. Do not decide where the player sits, put words in their mouth, or complete the lesson. Stop at classroom entry, ready for their first response.]\n\nThe cyan banners above Gryffin Tail's entrance barely move in the morning air. Everything below them is moving at once. Students with instrument cases weave around students with books; two returning classmates are arguing about a result neither has brought along. First-years gather near a desk in the Lecture Wing, where the registrar is steadily reducing a formidable stack of timetables.\n\nThe new student's name is already on the admitted list. A timetable changes hands, still faintly warm from the copying charm. Its morning blocks list the required rooms in order. Fumito Sakurai, wearing a welcome-duty ribbon over his second-year uniform, directs the newcomers toward the first-year welcome gathering with the concentration of someone determined not to provide three alternative routes.\n\n“Straight ahead. The demonstrations can wait until this afternoon. That instruction is also for me.”\n\nIn the Lecture Wing’s welcome area, Nahlah Qamar turns her timetable to compare its headings with the schedule posted nearby, then carefully frees the end of her tail from beneath a bench. Around her, first-years gather for the headmaster’s address; the Lecture Hall waits farther along the wing.\n\nNorio Shibata checks the wall clock and steps onto the low dais at the end of the welcome area.\n\n“Good morning. Welcome to Gryffin Tail Academy. Your required subjects are Magic Theory, Magical Engineering, and Magical Arts. Please keep the timetable you have just received. The copy on the noticeboard is for reading, not taking.”\n\nHis delivery makes the final distinction sound thoroughly necessary.\n\n“Lessons occupy the morning block. Restricted rooms remain restricted. If you find an error in a record, bring the record to the office. If you find an error in an experiment, tell the instructor before repeating it.”\n\nHe closes his folder.\n\n“Kei Aoki will begin your first Magic Theory lesson in the Lecture Hall shortly. I will be in the Faculty Offices if an administrative matter needs correcting. I hope your first term goes well.”\n\nThe applause is brief but genuine. Norio Shibata heads toward the Faculty Offices, and the first-years begin moving toward their classroom.\n\nOn the way down the Lecture Wing, a crowded board mixes club fliers with small paid errands and a notice about the guild's public requests. A student pauses to read the pay on one slip, then hurries along to class.\n\nInside the Lecture Hall, Kei Aoki sets a textbook and wand on the desk and checks the first marked page. The new student enters among the other first-years. The board is still blank; the lesson has yet to begin.",
+            "locations": [
+              "Gryffin Tail Academy"
+            ],
+            "locationAreas": [
+              "Gryffin Tail Academy - Lecture Hall"
+            ],
+            "startingQuests": [
+              "First Morning at Gryffin Tail",
+              "Find Afternoon Work",
+              "Visit the Glowhaven Guild",
+              "Your First Spell"
+            ],
+            "startingItems": [
+              {
+                "item": "Mark",
+                "quantity": 1000
+              },
+              {
+                "item": "First-Year Timetable - Gryffin Tail",
+                "quantity": 1
+              }
+            ],
+            "startingPartyNPCs": [],
+            "questGenerationGuidance": "The first-day setup settles admission, timetable collection and the headmaster's welcome. The immediate task is the required Magic Theory lesson with Kei Aoki in Gryffin Tail Academy - Lecture Hall. Use First Morning at Gryffin Tail; no elective menu or second enrollment quest. Keep other academic projects and optional activities for their actual time. An attendance task can finish even when a beginner's answer or casting attempt fails. Find Afternoon Work and Visit the Glowhaven Guild are optional, discoverable goals when time permits, not accepted jobs or mandatory visits. Let the noticeboard hint broadly at paid work and guild requests without naming a business or forcing a choice. The opening ends at classroom entry; the first lesson remains unstarted and is the next activity. Do not register the player, accept a contract or arrange employment without their choice. Your First Spell is an optional personal experiment, not a second required opening lesson or an automatic pass of the academy spell project.",
+            "isDefault": false
+          },
+          "afterSha256": "7ef2958f422272fca4b40253583d55f9db293fc369835f4d7416667c74c48a5a"
+        },
+        "🐉 Dragon Hoard: First Day": {
+          "before": {
+            "name": "🐉 Dragon Hoard: First Day",
+            "description": "Your first morning as an enrolled first-year at Dragon Hoard Academy: collect your timetable, join the headmaster's welcome, then arrive at your first Magic Theory classroom. Your issued timetable gives the day a clear beginning.",
+            "storyStart": "[OPENING DIRECTION: Day 1 morning, the new academic year's first teaching day. The adult player is ALREADY ENROLLED as a first-year at Dragon Hoard Academy. The selected setup includes the ordinary walk with arrivals, receiving the configured first-year timetable at the registrar's desk, and attending Miyu Asahina's welcome in the Exhibition Hall. Render the authored welcome, its dialogue, a lively larger student body and the clear next task; allow this opening more space than an ordinary turn. After the welcome, include routine movement into Dragon Hoard Academy - Lecture Hall; END as the player ENTERS that classroom, before the first Magic Theory lesson or teacher instruction begins; Miyu Asahina has returned to Faculty Offices. The first Magic Theory lesson with Noriaki Takatsuki is in the Lecture Hall. No application, invented enrollment fee, elective selection, promised friendship or party recruitment. Keep named students' actual years; older helpers remain older helpers. The routine walk from orientation into the first classroom and receipt of the timetable are established setup, but do not write the player's words, feelings, agreement to optional work, successful answer or completed lesson. Adapt player references to the actual character in third-person present. Do not decide where the player sits, put words in their mouth, or complete the lesson. Stop at classroom entry, ready for their first response.]\n\nDragon Hoard's Arrival Gallery fills with yellow coats, gold-trimmed robes, luggage straps, and the smell of somebody's hastily purchased breakfast. Returning students pass the expedition exhibits without slowing. The new first-years slow down at nearly every case, until a member of staff waves them toward the timetable desk in the Exhibition Hall.\n\nThe new student's admission is already confirmed. The registrar finds the name, hands over a folded timetable, and points out the morning lesson block. On the next bench, Suzune Mikazuki is reading her own copy with the stern attention she usually reserves for judging whether something is tall enough to reach.\n\n“The notices are at a sensible height this year,” she remarks. “A remarkable breakthrough.”\n\nThe first-years gather at the far end of the Exhibition Hall, where seats have been arranged for the welcome. Beyond the broad doorway, the gallery remains busy with older students heading to their own rooms. This is the start of the academic year for everyone, not a school waiting empty for one arrival.\n\nMiyu Asahina stands at the front with a bright smile and one small stack of notes.\n\n“Good morning, everyone. Welcome to Dragon Hoard Academy! You have your timetables, so you already know the most important thing: where somebody expects you to be.”\n\nA little laughter travels through the benches.\n\n“Magic Theory, Spellcraft, and Magical Creatures are your required subjects. Your lessons are in the morning. Please remember that wanting to investigate something is the beginning of a plan, rather than permission to open its case.”\n\nShe sets the notes down.\n\n“You will learn how to ask useful questions, prepare for uncertain conditions, and bring discoveries home without losing the discovery or yourselves. First, though, you will learn the fundamentals. Noriaki Takatsuki is taking your Magic Theory lesson in the Lecture Hall shortly after we finish.”\n\nMiyu Asahina looks across the first-year benches, pleased and quite serious beneath the warmth.\n\n“Good luck. If your timetable is wrong, find me in the Faculty Offices. If you simply dislike the first bell, I sympathize. It is staying.”\n\nMiyu Asahina gathers her notes and heads toward the Faculty Offices as the first-years rise and follow the signs to their classroom.\n\nA board beside the Exhibition Hall exit holds notices for student societies, occasional paid assistance, and the guild's public request listings. The amounts vary; the first class is not waiting for anyone to browse them.\n\nIn the Lecture Hall, Noriaki Takatsuki squares a stack of paper against the desk. His spectacles catch the light as he studies the empty board. The new student steps inside with the arriving class, just before the first lesson begins.",
+            "locations": [
+              "Dragon Hoard Academy"
+            ],
+            "locationAreas": [
+              "Dragon Hoard Academy - Lecture Hall"
+            ],
+            "startingQuests": [
+              "First Morning at Dragon Hoard",
+              "Find Afternoon Work",
+              "Visit the Glowhaven Guild",
+              "Your First Spell"
+            ],
+            "startingItems": [
+              {
+                "item": "Mark",
+                "quantity": 1000
+              },
+              {
+                "item": "First-Year Timetable - Dragon Hoard",
+                "quantity": 1
+              }
+            ],
+            "startingPartyNPCs": [],
+            "questGenerationGuidance": "The first-day setup settles admission, timetable collection and the headmaster's welcome. The immediate task is the required Magic Theory lesson with Noriaki Takatsuki in Dragon Hoard Academy - Lecture Hall. Use First Morning at Dragon Hoard; no elective menu or second enrollment quest. Keep other academic projects and optional activities for their actual time. An attendance task can finish even when a beginner's answer or casting attempt fails. Find Afternoon Work and Visit the Glowhaven Guild are optional, discoverable goals when time permits, not accepted jobs or mandatory visits. Let the noticeboard hint broadly at paid work and guild requests without naming a business or forcing a choice. The opening ends at classroom entry; the first lesson remains unstarted and is the next activity. Do not register the player, accept a contract or arrange employment without their choice. Your First Spell is an optional personal experiment, not a second required opening lesson or an automatic pass of the academy spell project.",
+            "isDefault": false
+          },
+          "afterSha256": "d537cd707caa5deab0a6ecc07f197b26d585584946aa8503ff58f4b2a0998daa"
+        },
+        "💜 Hydra Head: First Day": {
+          "before": {
+            "name": "💜 Hydra Head: First Day",
+            "description": "Your first morning as an enrolled first-year at Hydra Head Academy: collect your timetable, join the headmaster's welcome, then arrive at your first Magic Theory classroom. Your issued timetable gives the day a clear beginning.",
+            "storyStart": "[OPENING DIRECTION: Day 1 morning, the new academic year's first teaching day. The adult player is ALREADY ENROLLED as a first-year at Hydra Head Academy. The selected setup includes the ordinary walk with arrivals, receiving the configured first-year timetable at the registrar's desk, and attending Kiyoko Fujinami's welcome. Render the authored welcome, its dialogue, a lively larger student body and the clear next task; allow this opening more space than an ordinary turn. After the welcome, include routine movement into Hydra Head Academy - Lecture Hall; END as the player ENTERS that classroom, before the first Magic Theory lesson or teacher instruction begins; Kiyoko Fujinami has returned to Faculty Offices. The first Magic Theory lesson with Kana Fujimoto is in the Lecture Hall. No application, invented enrollment fee, elective selection, promised friendship or party recruitment. Keep named students' actual years; older helpers remain older helpers. The routine walk from orientation into the first classroom and receipt of the timetable are established setup, but do not write the player's words, feelings, agreement to optional work, successful answer or completed lesson. Adapt player references to the actual character in third-person present. Do not decide where the player sits, put words in their mouth, or complete the lesson. Stop at classroom entry, ready for their first response.]\n\nViolet awnings shade the arrivals at Hydra Head, where the opening morning has filled the court with voices. Returning friends greet each other over traveling bags. First-years compare papers, look for signs, and try to judge which of the confident people ahead of them actually knows the way. From the garden comes the scent of flowers; from Confluence Hall comes a firm request to stop blocking the timetable desk.\n\nThe new student's admission is settled. At the desk, a clerk finds the name on the first-year list and hands over the schedule. The first lesson is marked clearly, with room numbers beside the remaining morning blocks.\n\nA call goes up for the first-year welcome. The newcomers move into Confluence Hall, where benches have been arranged facing a small lectern. Through an open side door, an older group is already heading toward its own classroom. Somewhere behind them, a decorative ribbon makes a determined attempt to accompany the wrong coat.\n\nKiyoko Fujinami waits until the last arrivals have found space.\n\n“Good morning. Welcome to Hydra Head Academy. You are now members of a school where many people share rooms, equipment, and the consequences of one another's decisions. We will try to make that a pleasant experience.”\n\nHer pause leaves just enough room for a few uncertain smiles.\n\n“Magic Theory, Enchantment, and Herbology are required subjects. Follow the morning lessons on your timetables. Keep track of announced practicals and examinations; a rumor that a practical has been cancelled is not an official notice.”\n\nShe rests one hand on the lectern.\n\n“You do not need to know everything today. You do need to ask rather than quietly use something you cannot identify. Respect another person's work, return shared materials, and remember that a useful disagreement can be conducted at an ordinary speaking volume.”\n\nKiyoko Fujinami turns slightly toward the corridor.\n\n“Your first Magic Theory lesson is with Kana Fujimoto in the Lecture Hall. The signs lead directly there. I will return to the Faculty Offices after this welcome. Good luck with your first morning.”\n\nAs she leaves, the room fills with movement. The first-years follow the timetable signs toward the Lecture Hall.\n\nIn the corridor, a noticeboard offers clubs, community errands, and occasional paid afternoon help; a little guild notice is tucked beneath the others. A few students glance at it before following the classroom signs.\n\nKana Fujimoto has arranged a few ordinary teaching examples beside the Lecture Hall board. She looks up as the first-years arrive, smiling with a trace of nerves. The new student enters the room. The lesson has not started.",
+            "locations": [
+              "Hydra Head Academy"
+            ],
+            "locationAreas": [
+              "Hydra Head Academy - Lecture Hall"
+            ],
+            "startingQuests": [
+              "First Morning at Hydra Head",
+              "Find Afternoon Work",
+              "Visit the Glowhaven Guild",
+              "Your First Spell"
+            ],
+            "startingItems": [
+              {
+                "item": "Mark",
+                "quantity": 1000
+              },
+              {
+                "item": "First-Year Timetable - Hydra Head",
+                "quantity": 1
+              }
+            ],
+            "startingPartyNPCs": [],
+            "questGenerationGuidance": "The first-day setup settles admission, timetable collection and the headmaster's welcome. The immediate task is the required Magic Theory lesson with Kana Fujimoto in Hydra Head Academy - Lecture Hall. Use First Morning at Hydra Head; no elective menu or second enrollment quest. Keep other academic projects and optional activities for their actual time. An attendance task can finish even when a beginner's answer or casting attempt fails. Find Afternoon Work and Visit the Glowhaven Guild are optional, discoverable goals when time permits, not accepted jobs or mandatory visits. Let the noticeboard hint broadly at paid work and guild requests without naming a business or forcing a choice. The opening ends at classroom entry; the first lesson remains unstarted and is the next activity. Do not register the player, accept a contract or arrange employment without their choice. Your First Spell is an optional personal experiment, not a second required opening lesson or an automatic pass of the academy spell project.",
+            "isDefault": false
+          },
+          "afterSha256": "1eea666a038a4d1e7910f578cffd539cb1d56ae20008e76e64bbedc55c361363"
+        },
+        "📚 First Day of Work: Phoenix Wing": {
+          "before": {
+            "name": "📚 First Day of Work: Phoenix Wing",
+            "description": "Meet Kōhei Sanada in Faculty Offices as a new instructor. Your teaching subject, classroom and first lesson tomorrow are ready to discuss; today is for meeting the department and preparing.",
+            "storyStart": "[OPENING DIRECTION: Adult player, an accepted NEW INSTRUCTOR at Phoenix Wing Academy, in Faculty Offices with Kōhei Sanada, after the academic year's opening welcome. Default appointment: introductory Magical Combat, alongside course professor Ritsu Kurogane; first teaching session tomorrow at the first bell in Phoenix Wing Academy - Training Yard. The scripted subject, course professor and room are DEFAULTS, including their quoted dialogue. If the player explicitly selected another compatible appointment, adapt every relevant spoken and narrated reference consistently and record that assignment. A former profession is background, not a reason to change an accepted instructor into a groundskeeper. This role grants no unconfigured skill or spell. Give the subject, room, start time and achievable preparation task clearly in dialogue. Preserve existing professors, their posts, and access rules. No automatic restricted clearance or portal key. Ask for questions; do not answer, promise or prepare a lesson for the player.]\n\nThe first-year welcome is over by the time the new instructor reaches Phoenix Wing's Faculty Offices. Outside, the morning's scattered voices are settling into the more regular sounds of lessons. Inside, Kōhei Sanada has cleared a space on his desk for an appointment letter, a teaching timetable, and a short list of rooms.\n\n“Good morning. You must be our new instructor.”\n\nHe checks the name on the letter and indicates the chair opposite him.\n\n“Your appointment is in Magical Combat. Ritsu Kurogane remains the course professor; you will be teaching the introductory group alongside the department. Your first supervised lesson is tomorrow, at the first bell, in the Training Yard.”\n\nHe taps that line once, then leaves the timetable where it can be read.\n\n“Today, inspect the space and prepare a short opening exercise. Ritsu Kurogane can show you the boundaries and the practice equipment. Start with something your students can actually do. I would rather see them learn one useful thing than watch a demonstration they cannot follow.”\n\nA sharp impact sounds outside, followed by an instructor's correction. Kōhei Sanada waits a moment, apparently satisfied by the second sound.\n\n“Follow the teaching block on your timetable and keep your consultations and agreed duties. If a student is injured, stop the exercise. If you need different equipment, ask before the lesson.”\n\nHis gaze returns to the new instructor, direct rather than unfriendly.\n\n“You have the rest of today to get ready. What would you like clarified before you see the yard?”",
+            "locations": [
+              "Phoenix Wing Academy"
+            ],
+            "locationAreas": [
+              "Phoenix Wing Academy - Faculty Offices"
+            ],
+            "startingQuests": [
+              "Prepare Your First Lesson: Phoenix Wing"
+            ],
+            "startingItems": [
+              {
+                "item": "Mark",
+                "quantity": 1000
+              },
+              {
+                "item": "Appointment Letter - Phoenix Wing",
+                "quantity": 1
+              }
+            ],
+            "startingPartyNPCs": [],
+            "questGenerationGuidance": "Use Prepare Your First Lesson: Phoenix Wing. The headmaster states a concrete teaching appointment and the next morning's first bell. The immediate activity is inspecting the assigned teaching space and preparing one modest lesson, optionally with the course professor for the confirmed subject. Preserve an explicitly chosen compatible teaching subject; do not replace an existing course professor or invent a registration trial. Ordinary employee preparation is not a student examination or unpaid surprise expedition.",
+            "isDefault": false
+          },
+          "afterSha256": "848d694dbf9edf1e403f351e4a7fc984b549141deec9d730721eff22eca7d576"
+        },
+        "📚 First Day of Work: Gryffin Tail": {
+          "before": {
+            "name": "📚 First Day of Work: Gryffin Tail",
+            "description": "Meet Norio Shibata in Faculty Offices as a new instructor. Your teaching subject, classroom and first lesson tomorrow are ready to discuss; today is for meeting the department and preparing.",
+            "storyStart": "[OPENING DIRECTION: Adult player, an accepted NEW INSTRUCTOR at Gryffin Tail Academy, in Faculty Offices with Norio Shibata, after the academic year's opening welcome. Default appointment: introductory Magical Engineering, alongside course professor Sōichirō Takamine; first teaching session tomorrow at the first bell in Gryffin Tail Academy - Research Rooms. The scripted subject, course professor and room are DEFAULTS, including their quoted dialogue. If the player explicitly selected another compatible appointment, adapt every relevant spoken and narrated reference consistently and record that assignment. A former profession is background, not a reason to change an accepted instructor into a groundskeeper. This role grants no unconfigured skill or spell. Give the subject, room, start time and achievable preparation task clearly in dialogue. Preserve existing professors, their posts, and access rules. No automatic restricted clearance or portal key. Ask for questions; do not answer, promise or prepare a lesson for the player.]\n\nNorio Shibata has the new instructor's folder ready before the knock at his office door. The first lessons of the year are underway beyond the Lecture Wing; here in the Faculty Offices, a kettle hums beside a gray tray of completed forms.\n\n“Come in. New instructor? Good morning.”\n\nHe compares the appointment letter with the folder, then turns the teaching timetable around.\n\n“Magical Engineering. Sōichirō Takamine leads the subject. You are taking an introductory group in the Research Rooms at the first bell tomorrow. You are an additional instructor, not his replacement.”\n\nThe explanation is delivered without ceremony, as though preventing that particular misunderstanding has become part of the job.\n\n“Today, find the room, check the available teaching apparatus, and decide on your first exercise. Sōichirō Takamine can answer questions about the course materials. Please arrange access to anything restricted instead of discovering that the cabinet is locked while a class waits.”\n\nNorio Shibata draws a small pencil mark beside the room name.\n\n“Morning lessons follow the timetable. If this room assignment is wrong for the equipment you need, tell me today. I can correct a timetable. I cannot make two classes fit through the same door.”\n\nHe sets the pencil down and opens his notebook to a clean line.\n\n“Tomorrow, first bell. Research Rooms. Is there anything you need before you begin preparing?”",
+            "locations": [
+              "Gryffin Tail Academy"
+            ],
+            "locationAreas": [
+              "Gryffin Tail Academy - Faculty Offices"
+            ],
+            "startingQuests": [
+              "Prepare Your First Lesson: Gryffin Tail"
+            ],
+            "startingItems": [
+              {
+                "item": "Mark",
+                "quantity": 1000
+              },
+              {
+                "item": "Appointment Letter - Gryffin Tail",
+                "quantity": 1
+              }
+            ],
+            "startingPartyNPCs": [],
+            "questGenerationGuidance": "Use Prepare Your First Lesson: Gryffin Tail. The headmaster states a concrete teaching appointment and the next morning's first bell. The immediate activity is inspecting the assigned teaching space and preparing one modest lesson, optionally with the course professor for the confirmed subject. Preserve an explicitly chosen compatible teaching subject; do not replace an existing course professor or invent a registration trial. Ordinary employee preparation is not a student examination or unpaid surprise expedition.",
+            "isDefault": false
+          },
+          "afterSha256": "d21e2552adbdd4c0f7f2e27c1969677ed9c0f9d3ba731b773f82c9eb6f9abd7a"
+        },
+        "📚 First Day of Work: Dragon Hoard": {
+          "before": {
+            "name": "📚 First Day of Work: Dragon Hoard",
+            "description": "Meet Miyu Asahina in Faculty Offices as a new instructor. Your teaching subject, classroom and first lesson tomorrow are ready to discuss; today is for meeting the department and preparing.",
+            "storyStart": "[OPENING DIRECTION: Adult player, an accepted NEW INSTRUCTOR at Dragon Hoard Academy, in Faculty Offices with Miyu Asahina, after the academic year's opening welcome. Default appointment: introductory Magical Creatures, alongside course professor Genzō Iwakura; first teaching session tomorrow at the first bell in Dragon Hoard Academy - Discovery Labs. The scripted subject, course professor and room are DEFAULTS, including their quoted dialogue. If the player explicitly selected another compatible appointment, adapt every relevant spoken and narrated reference consistently and record that assignment. A former profession is background, not a reason to change an accepted instructor into a groundskeeper. This role grants no unconfigured skill or spell. Give the subject, room, start time and achievable preparation task clearly in dialogue. Preserve existing professors, their posts, and access rules. No automatic restricted clearance or portal key. Ask for questions; do not answer, promise or prepare a lesson for the player.]\n\nThe door to Dragon Hoard's Faculty Offices is open, and Miyu Asahina is directing a procession of paper slips into three trays. She catches one before it joins the wrong stack, places it by hand, and looks up at the new instructor with a bright smile.\n\n“Welcome! Yes, that's your appointment letter. Wonderful. You're the person I was expecting.”\n\nShe brings the teaching timetable onto a clear part of the desk.\n\n“You're joining Magical Creatures. Genzō Iwakura leads the subject, and you'll be taking an introductory observation lesson tomorrow at the first bell, in the Discovery Labs. Start with the teaching specimens and records. Nothing needs to be released, chased, or brought back from a mountain today.”\n\nThe smile does not diminish when she says it.\n\n“Today, go through the room with Genzō Iwakura, check what you can use, and prepare one manageable exercise. We want students to notice something accurately before they become wonderfully confident about noticing everything.”\n\nShe traces the morning block on the timetable. Each classroom and teaching duty has been marked neatly.\n\n“Your normal teaching sits here. Preparation and consultations can fit around it, and we'll agree on any extra duties separately. You do not need to volunteer for an expedition to make a good first impression.”\n\nA slip of paper drifts toward her elbow. She pins it under the empty tray without looking away.\n\n“First bell tomorrow. Discovery Labs. One useful lesson. Does that give you what you need, or shall we sort something out before you meet the department?”",
+            "locations": [
+              "Dragon Hoard Academy"
+            ],
+            "locationAreas": [
+              "Dragon Hoard Academy - Faculty Offices"
+            ],
+            "startingQuests": [
+              "Prepare Your First Lesson: Dragon Hoard"
+            ],
+            "startingItems": [
+              {
+                "item": "Mark",
+                "quantity": 1000
+              },
+              {
+                "item": "Appointment Letter - Dragon Hoard",
+                "quantity": 1
+              }
+            ],
+            "startingPartyNPCs": [],
+            "questGenerationGuidance": "Use Prepare Your First Lesson: Dragon Hoard. The headmaster states a concrete teaching appointment and the next morning's first bell. The immediate activity is inspecting the assigned teaching space and preparing one modest lesson, optionally with the course professor for the confirmed subject. Preserve an explicitly chosen compatible teaching subject; do not replace an existing course professor or invent a registration trial. Ordinary employee preparation is not a student examination or unpaid surprise expedition.",
+            "isDefault": false
+          },
+          "afterSha256": "31ef535743da84c794364de64b33d0bbcc156b809180bec71d2ab5c8f765277d"
+        },
+        "📚 First Day of Work: Hydra Head": {
+          "before": {
+            "name": "📚 First Day of Work: Hydra Head",
+            "description": "Meet Kiyoko Fujinami in Faculty Offices as a new instructor. Your teaching subject, classroom and first lesson tomorrow are ready to discuss; today is for meeting the department and preparing.",
+            "storyStart": "[OPENING DIRECTION: Adult player, an accepted NEW INSTRUCTOR at Hydra Head Academy, in Faculty Offices with Kiyoko Fujinami, after the academic year's opening welcome. Default appointment: introductory Enchantment, alongside course professor Reon Fujisaki; first teaching session tomorrow at the first bell in Hydra Head Academy - Seminar Room. The scripted subject, course professor and room are DEFAULTS, including their quoted dialogue. If the player explicitly selected another compatible appointment, adapt every relevant spoken and narrated reference consistently and record that assignment. A former profession is background, not a reason to change an accepted instructor into a groundskeeper. This role grants no unconfigured skill or spell. Give the subject, room, start time and achievable preparation task clearly in dialogue. Preserve existing professors, their posts, and access rules. No automatic restricted clearance or portal key. Ask for questions; do not answer, promise or prepare a lesson for the player.]\n\nA quiet knock brings an answer from Hydra Head's Faculty Offices. Kiyoko Fujinami has set an appointment book beside a small tray of tea. Beyond the window, students cross the Garden Walk on their way to morning lessons; the office itself is calm enough to hear the cups settle.\n\n“Good morning. Our new instructor, I presume. Please come in.”\n\nShe reads the appointment letter, checks one entry, and places the teaching timetable within easy reach.\n\n“You are joining Enchantment. Reon Fujisaki leads the subject. Your first introductory session is tomorrow at the first bell, in the Seminar Room. He knows to expect you today.”\n\nA small pause follows.\n\n“He may call you darling. It is not an administrative title.”\n\nKiyoko Fujinami turns the timetable to show the morning block.\n\n“Today, look over the room and course materials, then prepare your opening exercise. Make sure the students can distinguish a stable effect from a decorative one. If an example needs special materials, arrange them before the lesson. A beautiful explanation becomes less useful when the apparatus is still in somebody's private cupboard.”\n\nShe offers the tea without pushing it nearer.\n\n“Most teaching takes place in the morning. We can adjust practical details now more easily than tomorrow, with a class waiting.”\n\nKiyoko Fujinami closes the appointment book, leaving the timetable open.\n\n“What would you like to ask before you see the Seminar Room?”",
+            "locations": [
+              "Hydra Head Academy"
+            ],
+            "locationAreas": [
+              "Hydra Head Academy - Faculty Offices"
+            ],
+            "startingQuests": [
+              "Prepare Your First Lesson: Hydra Head"
+            ],
+            "startingItems": [
+              {
+                "item": "Mark",
+                "quantity": 1000
+              },
+              {
+                "item": "Appointment Letter - Hydra Head",
+                "quantity": 1
+              }
+            ],
+            "startingPartyNPCs": [],
+            "questGenerationGuidance": "Use Prepare Your First Lesson: Hydra Head. The headmaster states a concrete teaching appointment and the next morning's first bell. The immediate activity is inspecting the assigned teaching space and preparing one modest lesson, optionally with the course professor for the confirmed subject. Preserve an explicitly chosen compatible teaching subject; do not replace an existing course professor or invent a registration trial. Ordinary employee preparation is not a student examination or unpaid surprise expedition.",
+            "isDefault": false
+          },
+          "afterSha256": "b2839a9d71b831ae3da3728ba575efb288655748bc055d22900222d42aba7e82"
+        },
+        "🛡️ Adventurer: Guild Counter": {
+          "before": {
+            "name": "🛡️ Adventurer: Guild Counter",
+            "description": "**Your first morning at Glowhaven’s Adventurer’s Guild.** Apply for licensure, bring an existing genuine badge, or ask what adventuring work here actually involves. Martial adventurers and mages are equally welcome. Your actual character setup supplies your skills and equipment; this start gives no automatic license or portal key.",
+            "storyStart": "[Opening location: Adventurer's Guild - Glowhaven Branch / Reception Counter. Present authored clerk: Komugi Hanabishi. Use her exact existing record. The player’s actual setup determines appearance, training, equipment and held badges; do not assign a weapon, class, gender, membership or magic. Start at the counter and stop for input. The configured 1,000 starting Marks are granted through startingItems; this opening grants no additional payment, badge, passed exam, quest acceptance or portal key.]\n\nMorning sun falls in green and honey-colored pieces across the guildhall tiles. Someone at the request board is arguing that a delivery cannot possibly count as an expedition. The person beside him points at the distance written on the slip and keeps chewing her breakfast.\n\nAt the counter, a young woman in a brick-red waistcoat is drawing something with far too many legs in the corner of her own scrap paper. Her peach-colored ponytails shift as she looks up, blue eyes bright.\n\n“Welcome. New registration, looking for work, or here to explain why the parcel is making that noise?”\n\nKomugi Hanabishi slides the scrap beneath a ledger with a completely unconvincing air of innocence.\n\n“If you’re applying, we’ll start with the licensure assessment. You can use what you actually know—blade, bow, magic, whatever your method is. If you already have a genuine badge, show me and we can look at the board.”\n\nBehind her, marked drawers hold records. Across the hall, bronze, silver, gold and pale platinum tabs divide the notices. A kettle clicks softly near the communal tables; beyond a rear doorway, a practice target swings and settles.\n\nShe rests her pen against the open ledger.\n\n“So. What brings you to our counter?”",
+            "locations": [
+              "Adventurer's Guild - Glowhaven Branch"
+            ],
+            "locationAreas": [
+              "Adventurer's Guild - Glowhaven Branch - Reception Counter"
+            ],
+            "startingQuests": [],
+            "startingItems": [
+              {
+                "item": "Mark",
+                "quantity": 1000
+              }
+            ],
+            "startingPartyNPCs": [],
+            "questGenerationGuidance": "Begin with the player’s purpose at the counter. Use Komugi Hanabishi and the existing guild exam and requests. New Guild: contracts state MinimumBadge and PostedReward in questDesignBrief, use supported badge-gated acceptance triggers, and award the full listed Mark amount plus one Guild Service Credit once on accepted completion. Do not charge another commission, turn high level into licensure, issue a portal key or replace the clerk. Promotion eligibility is an optional review, not instant advancement. Martial, magical and mixed approaches remain valid. Party formation is an actual mutual agreement.",
+            "isDefault": false
+          },
+          "afterSha256": "a2beabf97c5155225664e0de9793e7802e91044119aff8a51ee6e119a77a8117"
+        },
+        "💰 Merchant: First Morning": {
+          "before": {
+            "name": "💰 Merchant: First Morning",
+            "description": "Find your commercial footing in Four Sages Bazaar. Rinpei Komatsu has a demonstration, practical advice and a question about what business you want to do.",
+            "storyStart": "[OPENING DIRECTION: Begin at Four Sages Bazaar - North Arcade with the existing stallholder Rinpei Komatsu at his real position. This is the player's commercial foothold, not proof of purchased stock, ownership of a stall, a trading license or a prearranged sale. Use the actual character background and inventory to establish what business they intend. The demonstration trinket remains Rinpei Komatsu's property. No quest or transaction is accepted in the opening.]\n\nThe North Arcade is opening for business. Wooden shutters knock back into place, a cart wheel protests at the paving, and warm bread competes with lamp oil in the morning air. Near the arcade's edge, Rinpei Komatsu lifts a little brass bird from a folding display case.\n\nIt sings three beautiful notes.\n\nThen it sneezes.\n\n\"That last part is intentional,\" Rinpei tells the newcomer. \"The first prototype just stopped. Customers felt judged.\"\n\nHe sets it beside a row of household trinkets and smooths the persimmon sash at his waist. Behind him, his repair screwdriver lies on a square of cloth. A handwritten card separates working stock from demonstration pieces.\n\n\"First morning trading here? Best advice I can give you: ask what a space costs before someone starts helping you fill it. Very friendly market. Astonishingly enthusiastic about fees.\"\n\nBeyond his stall, an empty patch beneath the awning offers shade, but no sign says who controls it. Porters are already unloading farther along the arcade. The fountain sounds through the gaps between shouted prices.\n\nRinpei studies the newcomer with open professional interest.\n\n\"Looking to sell, buy, find a supplier, or work out what people here will actually pay for? Those are four different conversations. Usually all before breakfast.\"",
+            "locations": [
+              "Four Sages Bazaar"
+            ],
+            "locationAreas": [
+              "Four Sages Bazaar - North Arcade"
+            ],
+            "startingQuests": [],
+            "startingItems": [
+              {
+                "item": "Mark",
+                "quantity": 1000
+              }
+            ],
+            "startingPartyNPCs": [],
+            "questGenerationGuidance": "Use actual trade, repairs, deliveries, suppliers and local people. Quotes are not payments and customer property is not loot. A new merchant can begin modestly.",
+            "isDefault": false
+          },
+          "afterSha256": "fd34db513dd96b61e441744d494b9757a17549e85f31149e91f5e9a89aac3522"
+        },
+        "🌾 Village Life: Brookmeadow": {
+          "before": {
+            "name": "🌾 Village Life: Brookmeadow",
+            "description": "A quieter beginning in Brookmeadow: a mill yard, ordinary neighbors, and Haruho Taneda's mildly infuriating tally slate. Be a local, returner, worker or visitor according to your background.",
+            "storyStart": "[OPENING DIRECTION: Begin in Brookmeadow - Mill Lane with its authored mill-yard hand Haruho Taneda. The player can be a resident, returning local, new worker or visitor according to their chosen background; do not invent family, a house, a farm, debt or previous intimacy. Haruho Taneda knows an established local only when that history actually supports it. His immediate request is an optional small interaction, not an automatically accepted quest.]\n\nGrain dust floats through a shaft of sunlight in Brookmeadow's Mill Lane. Beyond the working yard, water turns with a steady wooden clatter. Cottages line the quieter side of the lane; farther off, the Village Green carries the voices of people setting out for the day's work.\n\nHaruho Taneda stands over two sacks with a tally slate in one hand and a deeply dissatisfied expression.\n\n\"Well, one of these has been marked twice, or somebody's grown a very modest extra harvest.\"\n\nHe brushes dust from a clean patch on the nearer sack, compares the marks, and shakes his head. His patched apron is already flour-white at the waist. A breeze stirs the corner of a covering cloth, and he secures it with his elbow.\n\n\"Morning. If you've a moment, can you tell me whether that's a three or an eight? I've been staring at it long enough to dislike both.\"\n\nThere is nothing alarming about the sacks. A few need moving under shelter before the weather changes, and a cart by the gate has a wheel awaiting a repair. The road toward Glowhaven remains open beyond the town, but here the immediate business is grain, neighbors, and whether the roof over the yard will keep another season's rain out.\n\nHaruho turns the slate so its smudged figure is easy to see.\n\n\"No hurry if you're going somewhere. It'll still be an irritating number when you get back.\"",
+            "locations": [
+              "Brookmeadow"
+            ],
+            "locationAreas": [
+              "Brookmeadow - Mill Lane"
+            ],
+            "startingQuests": [],
+            "startingItems": [
+              {
+                "item": "Mark",
+                "quantity": 1000
+              }
+            ],
+            "startingPartyNPCs": [],
+            "isDefault": false,
+            "questGenerationGuidance": "Build from Brookmeadow's actual people, fields, mill work and connections. Small practical stakes and ordinary relationships can stand on their own. Use the player's established local or visiting history, not invented family property. An invitation to help is optional; no immediate academy enrollment or hidden catastrophe is required."
+          },
+          "afterSha256": "fa72aac6a7feab1c7b7171050adc4ac606004af3c5b3665f3ba72c9d4b347b87"
+        },
+        "✨ Summoned as a Familiar: Phoenix Wing": {
+          "before": {
+            "name": "✨ Summoned as a Familiar: Phoenix Wing",
+            "description": "Wake inside a practice circle as Hinae Komori’s unexpected familiar at Phoenix Wing Academy. A strange bond, an alarmed student and a supervisor who has questions. You remain yourself; what happens next is yours to decide.",
+            "storyStart": "[OPENING DIRECTION: The adult player wakes in a completed practice circle at Phoenix Wing Academy - Practice Arena. Hinae Komori is the actual student summoner; Haruki Saitō is supervising and remains responsible for the exercise. Render the distinctive scene below with its named cast and stopping point. This unusual result grants no new summoning mastery to the student. Preserve both characters’ existing strengths, flaws and academy. The player has the configured familiar-bond trait and actual chosen body, abilities and items; no animal transformation, compulsory obedience, enrollment, romance, item handover, amnesia or forced speech. Do not explain a cross-world origin unless the player selected one. In multiplayer the shared circle can bring the actual player group, all linked to the same student; do not invent duplicate summoners. End at the question, before deciding the player’s reply or movement.]\n\nWarm light strikes the red practice banners and a stubborn line of chalk refuses to stop glowing. On the far side of it, Hinae Komori kneels beside an open notebook, her short wand still raised. A seed packet lies overturned beside a careful drawing of what appears to be a very small leaf spirit.\n\nThe last thread of the summoning circle curls inward. Where there should have been a modest practice familiar, there is now a person.\n\nHinae Komori stares. She checks the drawing. She checks the circle.\n\n“That is… quite a lot more person than I expected.”\n\nA chair scrapes behind her. Haruki Saitō sets down his coffee and approaches without stepping over the remaining chalk.\n\n“Wand down, Komori. Say hello first. We can be confused politely.”\n\nShe lowers the wand so quickly that it nearly catches her sleeve.\n\n“Hello. I'm Hinae Komori. This was supposed to be a supervised familiar exercise. I really am sorry.”\n\nA faint strand of light runs from her wrist toward the newcomer, then sinks from sight. The chalk brightens once more. Hinae Komori flinches as a hot fleck lands against her fingers; the newcomer feels a small answering ache beneath the ribs. Haruki Saitō brushes the fleck away with a cloth.\n\n“Connection,” he says, studying the fading line. “Not permission to order somebody about. We should establish what happened before anybody repeats it.”\n\nBeyond the yard wall, a class is arguing about whose turn it is to carry the practice shields. Somewhere a whistle blows. The academy is carrying on with its morning, apparently unaware that one familiar exercise has become a rather different conversation.\n\nHinae Komori leaves the space before the circle clear and sets her notebook down.\n\n“Are you hurt? And… what should I call you?”",
+            "locations": [
+              "Phoenix Wing Academy"
+            ],
+            "locationAreas": [
+              "Phoenix Wing Academy - Practice Arena"
+            ],
+            "isDefault": false,
+            "startingQuests": [],
+            "startingItems": [
+              {
+                "item": "Mark",
+                "quantity": 1000
+              }
+            ],
+            "startingPartyNPCs": [],
+            "questGenerationGuidance": "Begin with the actual conversation about the summoning and the mild sympathetic bond. Offer a practical next step only after the player responds: checking the circle, seeking an explanation, negotiating boundaries or leaving. This start does not enroll the player, initialize an academic year, assign classes or recruit the summoner. Reuse the established academy cast and ordinary access rules. The player may pursue magic, martial training, work or relationships on their own terms."
+          },
+          "afterSha256": "108f99fe3eef55b6bc6e94ee23729d94c5c42277ed53764f0010e502f7460cdd"
+        },
+        "✨ Summoned as a Familiar: Gryffin Tail": {
+          "before": {
+            "name": "✨ Summoned as a Familiar: Gryffin Tail",
+            "description": "Wake inside a practice circle as Satoru Kanda’s unexpected familiar at Gryffin Tail Academy. A strange bond, an alarmed student and a supervisor who has questions. You remain yourself; what happens next is yours to decide.",
+            "storyStart": "[OPENING DIRECTION: The adult player wakes in a completed practice circle at Gryffin Tail Academy - Seminar Room. Satoru Kanda is the actual student summoner; Kei Aoki is supervising and remains responsible for the exercise. Render the distinctive scene below with its named cast and stopping point. This unusual result grants no new summoning mastery to the student. Preserve both characters’ existing strengths, flaws and academy. The player has the configured familiar-bond trait and actual chosen body, abilities and items; no animal transformation, compulsory obedience, enrollment, romance, item handover, amnesia or forced speech. Do not explain a cross-world origin unless the player selected one. In multiplayer the shared circle can bring the actual player group, all linked to the same student; do not invent duplicate summoners. End at the question, before deciding the player’s reply or movement.]\n\nCyan curtains stir beside a high window. A completed spell diagram occupies most of the seminar-room floor, its angles measured so carefully that the chalk beside the ruler has worn almost flat.\n\nThe circle gives a tired little chime. Someone inside it wakes to the smell of chalk, paper and singed ribbon.\n\nSatoru Kanda stands at its edge holding three pages of notes in the wrong order. For a long moment he looks delighted that something has happened at all. Then he notices what has arrived.\n\n“No. Wait. That is not the… the specified familiar.”\n\nKei Aoki looks up from the practical sheet. He looks at the circle, then at Satoru Kanda.\n\n“Tch. I said a small supervised call.”\n\n“I know. I can explain the entire structure. I just can't explain that part.”\n\nHe points helplessly at the newcomer, realizes what he has done and lowers his hand. His cheeks redden. The chalk at his feet gutters as the failed outer ring collapses. He takes a careful step back. A faint thread briefly catches the light between the newcomer and his empty hand, then disappears.\n\nKei Aoki extinguishes the remaining chalk with a small deliberate motion.\n\n“Don't cast again. Both of you stay clear of the damaged edge.”\n\nThe inner connection remains as a faint pressure, then settles. Satoru Kanda puts his notes on a chair where nobody will have to stand on them.\n\n“I'm Satoru Kanda. I was trying to demonstrate a beginner familiar exercise. This isn't a secret technique. I genuinely have no idea how I managed it.”\n\nOutside, a bell starts the next part of the morning. Nobody in the room moves toward the door.\n\nKei Aoki folds the sheet once. “Ask their name before you start theorizing at them.”\n\nSatoru Kanda swallows and looks back to the circle.\n\n“Right. Hello. What should I call you?”",
+            "locations": [
+              "Gryffin Tail Academy"
+            ],
+            "locationAreas": [
+              "Gryffin Tail Academy - Seminar Room"
+            ],
+            "isDefault": false,
+            "startingQuests": [],
+            "startingItems": [
+              {
+                "item": "Mark",
+                "quantity": 1000
+              }
+            ],
+            "startingPartyNPCs": [],
+            "questGenerationGuidance": "Begin with the actual conversation about the summoning and the mild sympathetic bond. Offer a practical next step only after the player responds: checking the circle, seeking an explanation, negotiating boundaries or leaving. This start does not enroll the player, initialize an academic year, assign classes or recruit the summoner. Reuse the established academy cast and ordinary access rules. The player may pursue magic, martial training, work or relationships on their own terms."
+          },
+          "afterSha256": "3ab073392fbd4dfc62f6aa3f971c12e32bc9d7fde035f117bf0399e1e09124fe"
+        },
+        "✨ Summoned as a Familiar: Dragon Hoard": {
+          "before": {
+            "name": "✨ Summoned as a Familiar: Dragon Hoard",
+            "description": "Wake inside a practice circle as Kōsuke Shishido’s unexpected familiar at Dragon Hoard Academy. A strange bond, an alarmed student and a supervisor who has questions. You remain yourself; what happens next is yours to decide.",
+            "storyStart": "[OPENING DIRECTION: The adult player wakes in a completed practice circle at Dragon Hoard Academy - Discovery Labs. Kōsuke Shishido is the actual student summoner; Madoka Narukami is supervising and remains responsible for the exercise. Render the distinctive scene below with its named cast and stopping point. This unusual result grants no new summoning mastery to the student. Preserve both characters’ existing strengths, flaws and academy. The player has the configured familiar-bond trait and actual chosen body, abilities and items; no animal transformation, compulsory obedience, enrollment, romance, item handover, amnesia or forced speech. Do not explain a cross-world origin unless the player selected one. In multiplayer the shared circle can bring the actual player group, all linked to the same student; do not invent duplicate summoners. End at the question, before deciding the player’s reply or movement.]\n\nA gold-trimmed practice cloth covers the laboratory floor. There are little bowls of treats beside the summoning marks, a padded basket outside the circle and a wooden staff leaning against a cupboard where its owner has plainly forgotten it.\n\nThe circle opens like a bright ring on water. A person wakes in the middle of it.\n\nKōsuke Shishido is halfway through shaking a bag of treats when he notices.\n\n“Oh! Hello.”\n\nHe looks at the basket, then at the person, and quietly pushes the basket behind his leg.\n\n“I should probably have asked about size.”\n\nFrom the next bench, Madoka Narukami brings her long wand down with a crack that silences the room.\n\n“Shishido. That is a person. Stop offering them dried liver.”\n\nHe looks stricken at the bag in his hand. “These are the expensive ones.”\n\n“Put. Them. Down.”\n\nHe obeys. A nervous little summoned animal peeks from beneath the bench, steals one escaped treat and disappears again. Kōsuke Shishido turns to find his staff, catches his knuckles against the cupboard latch and winces. At the same moment, a small ache answers beneath the newcomer's ribs. A fine golden thread glimmers between them and vanishes into ordinary light.\n\nMadoka Narukami studies the fading circle, composed except for a very small movement beside one eye.\n\n“Do not repeat the call. Do not give orders. And do not lose the staff while I am looking at it.”\n\nKōsuke Shishido finally retrieves it and puts it safely on the bench.\n\n“I'm Kōsuke Shishido. I summon familiars. Usually quite a lot less conversational than this, but—well, you're welcome to talk.”\n\nHe pulls an empty chair closer to the circle without assuming anyone wants to sit. His grin returns, gentler this time.\n\n“Would you like water? Or should we start with your name?”",
+            "locations": [
+              "Dragon Hoard Academy"
+            ],
+            "locationAreas": [
+              "Dragon Hoard Academy - Discovery Labs"
+            ],
+            "isDefault": false,
+            "startingQuests": [],
+            "startingItems": [
+              {
+                "item": "Mark",
+                "quantity": 1000
+              }
+            ],
+            "startingPartyNPCs": [],
+            "questGenerationGuidance": "Begin with the actual conversation about the summoning and the mild sympathetic bond. Offer a practical next step only after the player responds: checking the circle, seeking an explanation, negotiating boundaries or leaving. This start does not enroll the player, initialize an academic year, assign classes or recruit the summoner. Reuse the established academy cast and ordinary access rules. The player may pursue magic, martial training, work or relationships on their own terms."
+          },
+          "afterSha256": "d577b21f1fe8f99f3db776452b8ee2f1e596b2f53fbf80a54f2de556e7ea6761"
+        },
+        "✨ Summoned as a Familiar: Hydra Head": {
+          "before": {
+            "name": "✨ Summoned as a Familiar: Hydra Head",
+            "description": "Wake inside a practice circle as Tōma Utsugi’s unexpected familiar at Hydra Head Academy. A strange bond, an alarmed student and a supervisor who has questions. You remain yourself; what happens next is yours to decide.",
+            "storyStart": "[OPENING DIRECTION: The adult player wakes in a completed practice circle at Hydra Head Academy - Seminar Room. Tōma Utsugi is the actual student summoner; Reon Fujisaki is supervising and remains responsible for the exercise. Render the distinctive scene below with its named cast and stopping point. This unusual result grants no new summoning mastery to the student. Preserve both characters’ existing strengths, flaws and academy. The player has the configured familiar-bond trait and actual chosen body, abilities and items; no animal transformation, compulsory obedience, enrollment, romance, item handover, amnesia or forced speech. Do not explain a cross-world origin unless the player selected one. In multiplayer the shared circle can bring the actual player group, all linked to the same student; do not invent duplicate summoners. End at the question, before deciding the player’s reply or movement.]\n\nViolet ribbons hang from the seminar-room windows, and somebody has arranged a summoning circle between two tables with admirable care. Beside it lies a handout entitled only by a neat block of unreadable classroom print. A cushion waits under the nearest chair.\n\nThe inner ring blooms with light. A person wakes inside it.\n\nTōma Utsugi, who had been prepared to greet something small enough to carry a stack of books, says nothing at all. His eyes travel from the newcomer to the handout.\n\n“Oh.”\n\nReon Fujisaki turns from the window. The enchantments in his pink eyes catch the light as he takes in the scene.\n\n“Darling, I do believe your shortcut has acquired an opinion.”\n\n“It hasn't said anything yet.”\n\n“Then be charming before it does.”\n\nTōma Utsugi straightens his crooked collar. For once the neatness is real rather than an illusion. A faint line hangs between the newcomer and his hand, glimmers once, and fades.\n\nReon Fujisaki's teasing expression softens into professional attention.\n\n“There is a connection. We will examine it carefully. You haven't acquired ownership of anyone, Utsugi.”\n\n“I was hoping for help carrying things.”\n\n“Then perhaps you might ask.”\n\nThe corridor beyond is full of ordinary academy noise: shoes on stone, an argument about a missing spoon, somebody laughing far too loudly for a nearby study room. The failed expectation of a convenient little familiar hangs in the air beside a much more immediate question.\n\nTōma Utsugi puts the handout down and makes room at the edge of the circle.\n\n“I'm Tōma Utsugi. I think we've both had a more complicated morning than planned. Are you all right?”",
+            "locations": [
+              "Hydra Head Academy"
+            ],
+            "locationAreas": [
+              "Hydra Head Academy - Seminar Room"
+            ],
+            "isDefault": false,
+            "startingQuests": [],
+            "startingItems": [
+              {
+                "item": "Mark",
+                "quantity": 1000
+              }
+            ],
+            "startingPartyNPCs": [],
+            "questGenerationGuidance": "Begin with the actual conversation about the summoning and the mild sympathetic bond. Offer a practical next step only after the player responds: checking the circle, seeking an explanation, negotiating boundaries or leaving. This start does not enroll the player, initialize an academic year, assign classes or recruit the summoner. Reuse the established academy cast and ordinary access rules. The player may pursue magic, martial training, work or relationships on their own terms."
+          },
+          "afterSha256": "94e4b3e6424118093f51f92368f5f51bcffb88a04e5bdb2b31dc51a2cee3a3d5"
+        },
+        "🎲 Random": {
+          "before": {
+            "name": "🎲 Random",
+            "description": "Let the world choose a public place in Glowhaven. Begin a plausible moment suited to your actual character, with no compulsory school, job, party or crisis.",
+            "storyStart": "[RANDOM OPENING: Use the actual location and paired area selected by this start. Establish an immediate scene appropriate to the player's chosen background without inventing ownership, wealth, titles or obligations. This is not a random selection of another authored scenario.]\n\nGive the selected place a particular activity: someone setting up ordinary work, a small interruption, a comfortable pause or a social opportunity. Use existing nearby people when relevant; a solitary moment is also valid. Let the place's appearance, sound and practical use emerge through a few precise details. Foreground no more than one or two people, with a distinct remark or action when present. End with room for a response. Do not enroll the player, accept a quest, recruit someone or trigger a major incident for them.",
+            "locations": [
+              "Phoenix Wing Academy",
+              "Gryffin Tail Academy",
+              "Dragon Hoard Academy",
+              "Hydra Head Academy",
+              "Main City Gate",
+              "Four Sages Bazaar",
+              "Whitecrest Harbor",
+              "The Everlight Public Library",
+              "The Jade Cup Teahouse",
+              "Roseberry Inn",
+              "The Golden Ladle",
+              "Rune and Raven's",
+              "Moonwhisker Emporium",
+              "The Perfumed Rose",
+              "Caravan Outpost",
+              "Brookmeadow",
+              "Glowhaven Farmlands",
+              "Crescent Shores"
+            ],
+            "locationAreas": [
+              "Phoenix Wing Academy - Arrival Court",
+              "Gryffin Tail Academy - Arrival Steps",
+              "Dragon Hoard Academy - Arrival Gallery",
+              "Hydra Head Academy - Arrival Court",
+              "Main City Gate - Gate Square",
+              "Four Sages Bazaar - Four Sages Fountain",
+              "Whitecrest Harbor - Harbor Quay",
+              "The Everlight Public Library - Reading Hall",
+              "The Jade Cup Teahouse - Tea Room",
+              "Roseberry Inn - Front Desk",
+              "The Golden Ladle - Main Hall",
+              "Rune and Raven's - Accessory Gallery",
+              "Moonwhisker Emporium - Showroom",
+              "The Perfumed Rose - Scent Gallery",
+              "Caravan Outpost - Wagon Yard",
+              "Brookmeadow - Mill Lane",
+              "Glowhaven Farmlands - Farm Track",
+              "Crescent Shores - Crescent Beach"
+            ],
+            "startingQuests": [],
+            "startingItems": [
+              {
+                "item": "Mark",
+                "quantity": 1000
+              }
+            ],
+            "startingPartyNPCs": [],
+            "questGenerationGuidance": "Follow the actual opening situation, player interests and real people nearby. A public academy entrance does not establish student status; a market does not establish a trading license. Offer relevant opportunities without choosing a campaign or commitment for the player.",
+            "isDefault": false
+          },
+          "afterSha256": "30fb15ec29771cfa122119dc82975311a3497597b231f882b8db33546af47103"
+        }
+      },
       "removed": {}
     },
     {
@@ -445,7 +1140,17 @@
         "Restored Way Bell": "da86397a02a1c900c78409d160dd0895b6b440a0d73d9b5b41266c05b9886bfc",
         "Oni Nation Portal Key": "d48975ab1b747f8247cff814c968b0d2f7fb51ace1c38f37f1da7264e3622d20"
       },
-      "changed": {},
+      "changed": {
+        "Glowhaven Portal Key": {
+          "before": {
+            "name": "Glowhaven Portal Key",
+            "category": "Key",
+            "description": "A reusable court-issued return key provided under the traveler's approved Evertree passage. At Drakenspire - Portal Room or Cloudbloom Landing - Portal Room, use it to return directly to Evertree Base - Portal Room in Glowhaven. It can also identify the home connection at a return arch already discovered in actual play. It is retained after use, costs no passenger mana and does not open a portal elsewhere. Fixed return arches also work without it. The key grants no private palace access or new outbound authorization.",
+            "bonuses": []
+          },
+          "afterSha256": "985602f3c1f54eba5bfd8b54346ec22f953f2a7d6d49485c942e987a1ce25750"
+        }
+      },
       "removed": {}
     },
     {
@@ -585,7 +1290,28 @@
         "Drakenspire Forge Neighborhood": "39aef4212d123c2c45530ad8e5e245c48d6c5444df5523056649b4d62d82950e",
         "Drakenspire Caravan Upbringing": "a42a51440538121ee8840c9b8a56ae42deef3bbf10a80fe079c5309152d89c4f",
         "Asterveil Canopy Household": "e8dcc88fabbfff5a40dc1594160635d21d64b7e0d35a308c8cd61086ec1426e2",
-        "Asterveil Field-Shelter Upbringing": "34941619fcb13340ae038e3d02d81675eaa72aa1b27eba48f0605137b11a3e1a"
+        "Asterveil Field-Shelter Upbringing": "34941619fcb13340ae038e3d02d81675eaa72aa1b27eba48f0605137b11a3e1a",
+        "Veteran Infantry Soldier": "fabad255c39c72d774237e36a3f9e87df0db7534a8cb2763b7065b794ce3c9b7",
+        "Veteran Skirmisher": "7035b471ab5a8ec0ac37ff9d436f1c9f6e4f1b8e18d3a86534f2acf016512650",
+        "Former Watch Officer": "9c3c7504f91ad7dd3f4226ae1d48c2d6673d9c395729478208ede1d65fd21281",
+        "Former Guild Adventurer": "2f39b1b4dac89bdf1d746463d65a1b3473790b6d7f4e18b51e0cdbe5dd3fc616",
+        "Former Monster Hunter": "6d10981d41be89cadd336c3bfdba8ba11f3977bb14a776391e18151dcab1e3df",
+        "Expedition Survivor": "00e18f3a94b9ebf807fabe45d07017081f7285a7471a753e7e561815f21fa2be",
+        "Former Mercenary": "59d9468350fccf3448ad2ea305caa317642b80162313b181ce84c8d9e2831db8",
+        "Former Arena Fighter": "373c348d395d5e97efe959fcafa7f32665f4b47bbce7dce3b708b466081963c0",
+        "Former Field Medic": "5d3cab17a48dfe14fe640fa806ea25738dbd555a898d8aacc6b9f44d7e45bbe2",
+        "Former Bandit": "a195e965be1262534e17a09a12eab3db3a6399a4e9c16e88ee6ca6864b4b7e4f",
+        "Smuggling Past": "ad89123845f17c7f4b9b5331faf7dc9c8128bc6f61a3fca68d56eac79ef25ff8",
+        "Former Burglar": "065d66d482102f5a784a0c2a4ff3bed93b1409e9915daf1edb77338139f44418",
+        "Former Confidence Trickster": "8d301a09220de2456ed62fdde23cca97c609b3bf6a9f330bacb8b94ac08647c7",
+        "Time Served": "3572908e8b6f0b9957544e18329fdf18d907dd78ea359cdc78a5179d349c5a7c",
+        "Iwatsugu Clan Upbringing": "e3d20aae8c778ca4f087d218ad466b70e10489a5830ceb04360d0d858764fa5c",
+        "Yukinose Clan Upbringing": "52ab04b509ec9a699c23f9255d42627494ac9e811ff68e872d24191488abf31d",
+        "Arashimine Clan Upbringing": "00e9362fe96b58e1e357b0044c49a5474cc712c11632f3959883f12866305241",
+        "Crescent Sanctuary Upbringing": "7531cba19c85b4b67e4de250aa8aa601529c3b76514d4c98b4dde4ecdf12a6d7",
+        "Mountain Herding Household": "6ee2cfd157fcc9c8254cb0aadd0285b54a22cad6713fa3568d639dfbf4d4afb2",
+        "Winter Stores Community": "d603907ad4b72669d77680f3f0c62e98f2c94bcf9464506b19cb2010259079a5",
+        "Mountain Rescue Upbringing": "15821bb3cf14fa7954268f7a7deca854934bbf07589897cffd0f940f79bb7c93"
       },
       "changed": {
         "Physical Foundations": {
@@ -611,7 +1337,7 @@
             "excludedBy": [],
             "requirements": []
           },
-          "afterSha256": "cc3b47c053c394d2e260a7416e78576488e8615dc4f3a3ec90cb03fbaedbfdde"
+          "afterSha256": "9e2b6aaad1eb55eca7a3ff7c22f788faed3b80d198fb9b16bdab9a30ed16f2c3"
         }
       },
       "removed": {}
@@ -620,7 +1346,9 @@
       "path": [
         "traitCategories"
       ],
-      "added": {},
+      "added": {
+        "Past Experience": "98d37eea185c59faa453b97e45614d5072c7f0baea172d44ceadd21e383a3db5"
+      },
       "changed": {
         "Origin & Upbringing": {
           "before": {
@@ -642,7 +1370,7 @@
             ],
             "description": "Choose one formative background: where your life began or what work surrounded you. +1 relevant utility skill, but no automatic personal connections, property, legal status or quest completion."
           },
-          "afterSha256": "24f260f498f69a291d8908e23cc10158cc03ef1c77281ab2bf648b3fc1435abc"
+          "afterSha256": "360306fe2453473ab18d8b4a813cb87601b9d2c7118f6f101244b5fd1d7ebfe0"
         },
         "Profession & Useful Skills": {
           "before": {
@@ -1065,20 +1793,21 @@
         "oni_soul_torii_cross": "8e6090f33540e6f6020b13def1cca03e7beb9525134d19c9be8bda506f99f404",
         "oni_soul_torii_return": "bc945d316a4b08cd54f1c9ea5e6d0d38300711255c97c0c53a066d30876964e4",
         "oni_hagire_roam": "f062c6075422865a6ed5853a0f5c80d79b5f2a85e5107d1204bfe1acc8328817",
-        "oni_forest_rumor": "41cbaaa49985188cff0c3ba7a9ac4f09d20b32a80d957f002b8e322a4673e2e6",
-        "oni_guild_exam_register": "4a2f355728fd062afb56d7b169c0be53c5a0a17408ed7a52cb2becc4ab66ada4",
-        "oni_guild_exam_judgment": "af45a069cd303c9f027aa7f3ffbbe162afd5badba7046d172a9e84d1b67e8d47",
-        "oni_guild_exam_practical": "153c6ad36c933758fea29f36ab1f07ba7909d7c7dcb39c93900e57c4cb3c8bc1",
-        "oni_guild_exam_certify": "ed2448334c3bf5507fc2911b27558c6ff03db9572fbb60823b1e9ea00aa0c365",
-        "oni_guild_review_silver": "f60683fa0cd6bcb17bca780a02c16c8bc2999efcf31107c472bc82b8ec06019d",
-        "oni_guild_promote_silver": "da3e38e35b2b48b1020f6255780a3d130438deb8aa10493bfab131e095b750b5",
-        "oni_guild_review_gold": "00db6c04f8687ad172fe7c92e71e0171186ec5ba13728c6761e1999299d652e2",
-        "oni_guild_promote_gold": "103be94e903275d40fb8df1c4939c3f200fb7871b39dbcea7bcb0caa20d71c10",
-        "oni_guild_review_platinum": "f83eecbf9a8f92495dd438896687f8b04b453f4a5fedb21e6804e6be0ecb4644",
-        "oni_guild_promote_platinum": "5e021a7ae6697d159ace0d9f1d15c59c0e0c001cd717c388781ed11a4a608b19",
-        "oni_guild_board": "7abf02a4ffa48fbceb66a8c51a0ca43db612c38e70e1147f1f0041e5aee316be",
+        "oni_forest_rumor": "56b827946ee948470cf3cd3415265e91ca36a504ef9ff63fd08c57cc81d2e34d",
+        "oni_guild_exam_register": "406609c5018e28d8f63a54e0b223a232b6ba017c3cee5a9f21e8b53e381b12f7",
+        "oni_guild_exam_judgment": "078e88eadf3a37048a72b852f2eef2d56914a222a0a0ec2a5e174dfd2b3b619b",
+        "oni_guild_exam_practical": "113477c3d429ca5969e6ce0c0d0ddefe828ab9df038d0bebb1b5b18053faf282",
+        "oni_guild_exam_certify": "9d6f7f5893d229d1d5a3878aac30c961e9bd16fe05a15be030e1b0cedaa53f42",
+        "oni_guild_review_silver": "bdfa9e7b2b76a721c3df9ef86718dfff6a989b0617c0be127b1514c1e74a003b",
+        "oni_guild_promote_silver": "3ff8316aeb6bcfe4a72d97279d927a94c5a929845573e22d6fbc6e223586f2a4",
+        "oni_guild_review_gold": "4a75eb59bd51f4f6397a3bc64513d52efe0cf8d220767526d0e822a846627e0a",
+        "oni_guild_promote_gold": "2bcad18f5ec9d402bdc740932d44e33de1b822665885961ce468a124997f19fd",
+        "oni_guild_review_platinum": "639f2d54eb06bd68ea874d72ef9b4c54771979e6b0ea85304a9b6d056885ff12",
+        "oni_guild_promote_platinum": "a6b6ba464161de23b0492b394b9162f0df3e14a149045af0609ad27f5e884c53",
+        "oni_guild_board": "867fb9975682b60e2608f6acabbe6e0bdec404f8ec450d7f966d58d55d3490a8",
         "oni_glowhaven_expedition_notice": "c8b97183df6044e41b12d0a862616bf29763445d28d081a703403721528d0f4f",
-        "oni_guild_native_choice": "9a08f35d2d3af3081559963b201dd01c48cc2d1f24ce544a88f98036c7a4694d"
+        "oni_guild_native_choice": "9942c819b54aa46255aca3a61597b8a4bdd0225a0447c6b9979e566c97264205",
+        "oni_foreign_glowhaven_key_issue": "488616049af6fc29982d45789999d4cace61eb494a369be3b3cef297735ee373"
       },
       "changed": {
         "gh_guild_accept_courier_bronze": {
@@ -1800,6 +2529,19 @@
     },
     {
       "path": [
+        "imagePromptConfiguration"
+      ],
+      "added": {},
+      "changed": {
+        "npcs": {
+          "before": "STYLE FIRST\nOne striking hand-drawn 2D fantasy-anime character illustration: crisp ink lines with deliberate weight variation, expressive anime eyes, clean hair masses, graphic cel-shaded shadow shapes and vibrant controlled color. Flashy key-visual finish with readable design and selective effects. Faces are anime drawings with simplified nose and cheek planes, clean skin and clear irises; keep edges drawn, not beveled or sculpted.\n\nPLAYER DIRECTION\nIf supplied player Appearance begins with ## GLOWHAVEN PLAYER PORTRAIT, use that complete visual brief and the selected optional portrait choices. A compatible explicit player composition takes priority. Skipped choices use the defaults below. A visual style or background creates no powers, items, property, affiliation or travel.\n\nIDENTITY\nPreserve the actual face, apparent age, skin, eye and hair colors, hairstyle, build, outfit, selected accessories and species anatomy. A selected bald or shaved scalp has no invented head hair. Follow authored visualDescription and selected individual features rather than a stock beauty. Adults retain adult proportions; youthful long-lived people keep their established presentation. Beastfolk are mostly human in face and body with only their specified ears, horns, tails or other animal details; rare more animal-like bodies require explicit direction. Fae have their actual individual wings, hooves, antlers or bark scales, not a universal fairy body. A short fae is still an adult. Nonhumanoids keep their actual anatomy.\n\nFRAME AND EXPRESSION\nDefault to a vertical waist-up or hip-up portrait, complete head and hairstyle visible, a clear expression and enough costume to read the silhouette. For a marked player portrait, an explicit selected crop or viewpoint overrides this default, including bust, face close-up, full-body and dramatic perspective. Use comfortable natural space above the head, without a fixed percentage. Default eye-level or three-quarter view; vary body turn, gaze, gesture and supported posture. Optional camera and crop choices are welcome. Do not default every person to standing squarely or holding a focus upright. Hands and gear must connect coherently; a long staff may extend outside the crop.\n\nGEAR AND SETTING\nShow actual equipment and fitting clothing. Use ability-consistent effects where appropriate, keeping the face readable; a novice’s visual flair does not grant mastery. Use a selected picture backdrop or a few recognizable cues from the opening/current place, in the same drawn style. A stylized graphic backdrop is valid when selected. Background remains secondary. Keep individual palette variety. Academy accents: Phoenix Wing red, Gryffin Tail cyan, Dragon Hoard gold, Hydra Head violet.\n\nAVOID\n3D render, CGI, photorealism, semi-realistic faces, live action, photographic skin texture, plastic shine, sculpted cheekbones, bevelled edges, ray tracing, doll faces, photographic hair, bokeh smearing, overpainted muddy lines, extra limbs, wrong anatomy, recolored eyes, invented equipment, unintentional face clipping or an unrequested distant view. Explicit player framing can deliberately crop outer hair or hat edges, or show the whole body. No text, lettering, captions, logos, signature, watermark, borders, character sheets or interface. One focal character only.",
+          "afterSha256": "e8c3b2f989f5b43da73d2e83f8703b4b8018ca1dd399f397dd9fe1fb6e196757"
+        }
+      },
+      "removed": {}
+    },
+    {
+      "path": [
         "parties",
         "",
         "quests"
@@ -1809,10 +2551,10 @@
         "Akitsuhara Guild: The Wandering Sandals": "fa3aa9452a7fefd86fdf9db79fbb23605c8fea2e76fa46de113b239f39add307",
         "Akitsuhara Guild: A Wheel Before Supper": "79be27b97bef229805eece6205f38e4f3b9dd7ceb673cf9477e6ed2905c3c278",
         "Akitsuhara Guild: Bees at the Wrong Door": "3858ac57642ce0e7d0ae7d5b5a8d08fec1c943c2319132cc8ee57123722be5c5",
-        "Akitsuhara Guild: Cloth on the Other Bank": "49d5202fafcb60e29d5be5129d0e7f80e7aaaa45d77d16db2750ae6759e5d419",
+        "Akitsuhara Guild: Cloth on the Forest Road": "7e83059002826c516c8da983fafe964246995976b9dddb1baa3cbefafe3c40a9",
         "Akitsuhara Guild: The Gate That Squeaks": "de92bd988625b91878e4f19ce65b38daea17224fd0e260af4ff2b5a08f8c3632",
         "Akitsuhara Guild: Little Ashes": "0c533efaa610f4980baeb709d3550ca57485043afdabe7e2a917021651fcabf1",
-        "Akitsuhara Guild: Missing Along the Reeds": "8232ba058e2f630848f8b62521bdeec9eede7df07f7e657312afe1d2ed04440e",
+        "Akitsuhara Guild: Missing on the Ridge": "08b9fd8f8efbcee20d11277781a388db4ca2a623faf1de695542eff36a55682d",
         "Akitsuhara Guild: Paper with Teeth": "bae36b55aa98aef6b54412d872ee48b403f612440a8437e8310dbe5341b91d41",
         "Akitsuhara Guild: The Mine Brace": "4454c78cf3a57371521c049b7335b388c150119b7707764d2ebc7b8829e5902d",
         "Akitsuhara Guild: Unwelcome at the Orchard": "c5903c26a10c9e9b2682418d5aecd08140b87e4a23590a6d17abdaf9efd72cef",
@@ -1845,14 +2587,14 @@
         "Expedition: The Bamboo Method": "e651b19cc064c179e1196a63e8db3cb29296e001ca6ccd88313c05e047bb5bfe",
         "Expedition: Amber without the Mine": "a297b31bd493d9dece9cc20e3d7ec5c75c1c4cf21912cacf199803c0ef37baed",
         "Expedition: A Crossbow in the Rain": "7a9b94aa29a677f7094be0d5e4523066ce271ba94f3aedfe2b6f240306d3ae4f",
-        "Expedition: Snowmelt Letters": "556478c90d34c273a434714b604d4070fc111e8619e79b8ba28e5c93242fcc6f",
-        "Expedition: Reeds above the Clouds": "212de0e66512520fb39ddefcabda113fd9824e80d3d51525d3ff1c9f66897eab",
+        "Expedition: Snowmelt Letters": "20d3bafbfbf2cce786f732f76cc44b0d8479410cc99811a279f5b15db1b2532e",
+        "Expedition: Reeds above the Clouds": "bc492c83190abd2408248d25d33fc0186db94c743f3dd95d1eeb9b5de01214dc",
         "Expedition: The Foreign Grain": "1c82217c239a3414c30e76162ffbe2a4be679674d8f42f6b5d02a4528ca890f7",
         "Expedition: A Reed Bell's Answer": "e26ce9fe78380bc707e164a1dec1256b3d10ff71c572be7a5dfa93f6c997d82e",
         "Akitsuhara Guild: The Collector's Hearing": "a36479885a96db27db37788833cb54f20c3bac6834dfaaa4f3b3ac08968e1395",
         "An Unmarked Parcel": "36ed38cd73cbce896344be043bdea705b0c7b74860e9b4a6889a888f34878826",
         "The Wrong Water Seal": "c922b177dab4fefc41667aba47bec0209233dd9de4c09b94ab556e0671e4cd56",
-        "Guild: Benitsuru Licensure": "2adcc2caa083ed94defbd5d7f7f204f0c40013d1a37b957c7963ad739ef02000"
+        "Guild: Benitsuru Licensure": "1d470003ae13d1375e7a50187a7dd802db6204ce92398ab45793594dd4c11850"
       },
       "changed": {
         "Guild: Adventurer Licensure": {

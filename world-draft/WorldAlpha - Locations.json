@@ -5219,8 +5219,8 @@
   },
   "Drakenspire Portals": {
     "name": "Drakenspire Portals",
-    "basicInfo": "Drakenspire's portalward quarter is the usual first stop in the snowy capital. An enclosed basalt transit hall opens into a compact market and communal hearth court; beyond them, steep lanes connect the lower city's homes and workshops. Above the roofs to the northeast, the fortress rises within the immense crescent of the ancestral dragon's bones. Travelers can arrange cargo, buy a hot meal, obtain directions and hear current road conditions before choosing where to go. This map location covers the arrival quarter; the wider city and nation also bear the name Drakenspire.\n\nPeople associated with this place include: Fuyumi Kirihara — Portal arrivals clerk; Daigo Numata — Portal cargo porter.",
-    "hiddenInfo": "Local attendants handle passage and cargo, not the entire country's affairs. A disputed delivery order can delay one consignment without closing the portal. Existing authored or previously established people retain their identities; services need no invented famous official. Wild mountain creatures do not occupy the transit hall.\n\nThis location has one fixed return passage to Evertree Base - Portal Room. Entering that arch from any of its local staging areas completes the short approach and crossing; do not require the exact sub-area label. The player chooses whether to enter, not where in Glowhaven to land. No academy or second city portal exists.",
+    "basicInfo": "Drakenspire's portalward quarter is the usual first stop in the snowy capital. An enclosed basalt transit hall opens into a compact market and communal hearth court; beyond them, steep lanes connect the lower city's homes and workshops. Above the roofs to the northeast, the fortress rises within the immense crescent of the ancestral dragon's bones. Travelers can arrange cargo, buy a hot meal, obtain directions and hear current road conditions before choosing where to go. This map location covers the arrival quarter; the wider city and nation also bear the name Drakenspire.\n\nPeople associated with this place include: Fuyumi Kirihara — Portal arrivals clerk; Daigo Numata — Portal cargo porter. The authorized transit desk can approve a legitimate visit to Glowhaven and issue its reusable portal key locally. An approved journey is separate from merely standing at the arch.",
+    "hiddenInfo": "Local attendants handle passage and cargo, not the entire country's affairs. A disputed delivery order can delay one consignment without closing the portal. Existing authored or previously established people retain their identities; services need no invented famous official. Wild mountain creatures do not occupy the transit hall.\n\nThis location has one fixed return passage to Evertree Base - Portal Room. Entering that arch from any of its local staging areas completes the short approach and crossing; do not require the exact sub-area label. The player chooses whether to enter, not where in Glowhaven to land. No academy or second city portal exists. A character beginning in this realm can request a Glowhaven Portal Key here. A delegated official must actually approve a legitimate journey and hand it over; Kohane Kazahana can introduce the Cloudbloom duty delegate but piloting alone is not issuing authority. Existing fixed home arches remain usable without a key; preserve their exact Evertree arrival.",
     "x": -12,
     "y": 3,
     "radius": 2,
@@ -5557,8 +5557,8 @@
   },
   "Cloudbloom Landing": {
     "name": "Cloudbloom Landing",
-    "basicInfo": "The archipelago’s sheltered arrival and freight terrace occupies the settlement satellite near Asterveil Canopy. Its enclosed whitewood-and-glass Portal Room opens onto a railed quay, receiving counter and waiting space. Court-authorized visitors can return directly to Glowhaven, arrange a local crossing, check weather reports or move agreed cargo. A visitor does not need wings or a new spell to travel.\n\nROUTES: Asterveil Canopy: a short maintained walk on the settlement satellite; Bellwind Conservatory: the cooperative’s attended central-island crossing; Tetherroot Chain: a short carrier route with stops at actual moorings; Rimeglass Refuge: the attended northeastern carrier crossing. A sky gap requires the stated actual crossing; nearby map pins do not imply connected ground.",
-    "hiddenInfo": "Keep this a usable safe hub. Porters, crossing crews and officials are generated only as needed and remain the same individuals on later visits. Transit permission does not authorize wildlife capture. A damaged freight sling can delay one shipment without closing the portal or inventing a realm-wide disaster.\n\nLOCAL SPECIES: No mandatory wild encounter inside the maintained hub. Reuse these exact npcTypes when the actual encounter fits. A type is not an automatic spawn. Make a persistent individual with this location’s band, real disposition and bounded abilities; retain custom diagnostic anatomy in its actual public visual description. Cleared or avoided encounters keep their real outcome. When the player deliberately enters occupied hunting ground, resolve a real encounter rather than presenting signs indefinitely.\n\nThis location has one fixed return passage to Evertree Base - Portal Room. Entering that arch from any of its local staging areas completes the short approach and crossing; do not require the exact sub-area label. The player chooses whether to enter, not where in Glowhaven to land. No academy or second city portal exists.\n\nLOCAL SAFETY: The maintained receiving room, settlement interior or refuge is not an ambient hunting ground. Wildlife danger belongs beyond its actual boundaries. Existing conflict and consequences of deliberate hostile acts remain real; ordinary rest, service or conversation does not summon a monster.\n\nAdditional local creature possibility: Cloudveil Nautilus. Use an actual appropriate individual only in a fitting occupied habitat or current problem. Safe services remain safe; this is not a mandatory spawn. Follow this location's level band and the least experienced human's ordinary-work risk, with warning before a deliberate harder undertaking.",
+    "basicInfo": "The archipelago’s sheltered arrival and freight terrace occupies the settlement satellite near Asterveil Canopy. Its enclosed whitewood-and-glass Portal Room opens onto a railed quay, receiving counter and waiting space. Court-authorized visitors can return directly to Glowhaven, arrange a local crossing, check weather reports or move agreed cargo. A visitor does not need wings or a new spell to travel.\n\nROUTES: Asterveil Canopy: a short maintained walk on the settlement satellite; Bellwind Conservatory: the cooperative’s attended central-island crossing; Tetherroot Chain: a short carrier route with stops at actual moorings; Rimeglass Refuge: the attended northeastern carrier crossing. A sky gap requires the stated actual crossing; nearby map pins do not imply connected ground. The authorized transit desk can approve a legitimate visit to Glowhaven and issue its reusable portal key locally. An approved journey is separate from merely standing at the arch.",
+    "hiddenInfo": "Keep this a usable safe hub. Porters, crossing crews and officials are generated only as needed and remain the same individuals on later visits. Transit permission does not authorize wildlife capture. A damaged freight sling can delay one shipment without closing the portal or inventing a realm-wide disaster.\n\nLOCAL SPECIES: No mandatory wild encounter inside the maintained hub. Reuse these exact npcTypes when the actual encounter fits. A type is not an automatic spawn. Make a persistent individual with this location’s band, real disposition and bounded abilities; retain custom diagnostic anatomy in its actual public visual description. Cleared or avoided encounters keep their real outcome. When the player deliberately enters occupied hunting ground, resolve a real encounter rather than presenting signs indefinitely.\n\nThis location has one fixed return passage to Evertree Base - Portal Room. Entering that arch from any of its local staging areas completes the short approach and crossing; do not require the exact sub-area label. The player chooses whether to enter, not where in Glowhaven to land. No academy or second city portal exists.\n\nLOCAL SAFETY: The maintained receiving room, settlement interior or refuge is not an ambient hunting ground. Wildlife danger belongs beyond its actual boundaries. Existing conflict and consequences of deliberate hostile acts remain real; ordinary rest, service or conversation does not summon a monster.\n\nAdditional local creature possibility: Cloudveil Nautilus. Use an actual appropriate individual only in a fitting occupied habitat or current problem. Safe services remain safe; this is not a mandatory spawn. Follow this location's level band and the least experienced human's ordinary-work risk, with warning before a deliberate harder undertaking. A character beginning in this realm can request a Glowhaven Portal Key here. A delegated official must actually approve a legitimate journey and hand it over; Kohane Kazahana can introduce the Cloudbloom duty delegate but piloting alone is not issuing authority. Existing fixed home arches remain usable without a key; preserve their exact Evertree arrival.",
     "x": 37,
     "y": -6,
     "radius": 1.5,
@@ -11214,8 +11214,8 @@
     "name": "Blackpine Posthouse",
     "basicInfo": "A timber posthouse beside the cedar road sells simple meals and dry beds. Couriers warm their hands around bowls while parcels wait on a covered bench. Nearby routes lead toward Western Watch Road, Cedarfall Hamlet.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. Habitats can use these actual npcTypes when appropriate: Roadside Sparrow Imp. Generate a finite encounter, preserve its actual outcome, and do not replace cleared creatures on a return. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Yae Mizuno is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Haru Tomisaka is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Potential unresolved situation: A Roadside Sparrow Imp has made a nest under the parcel bench. A shiny scrap, a negotiated trade or driving it away can work. The guests' footwear is not loot. The associated voluntary undertaking is Akitsuhara Guild: The Wandering Sandals. Potential unresolved situation: An Empty Festival Husk repeats its opening line, confusing a name with an invitation. The sealed letter is a mundane belonging, not the player's stolen memory. Questions, trade or a careful retrieval can succeed. Respect the recipient’s privacy. The associated voluntary undertaking is The Name on the Parcel.",
-    "x": -12,
-    "y": -10,
+    "x": -10,
+    "y": -20,
     "radius": 1.5,
     "region": "Blackpine March",
     "complexityType": "complex",
@@ -11265,8 +11265,8 @@
     "name": "Cedarfall Hamlet",
     "basicInfo": "Cottages cluster beside a working watercourse. Indigo laundry, split firewood and a communal oven make this a place to stop and meet neighbors. Nearby routes lead toward Blackpine Posthouse, Western Woodcutters' Yard, Mizuhara Castle.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Sachi Morisawa is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Potential unresolved situation: Heat, drainage and foot traffic each affect the problem. Moving one working surface or laying a path can solve it. Neither neighbor is secretly a yokai. The associated voluntary undertaking is The Oven and the Boundary.",
-    "x": 12,
-    "y": -25,
+    "x": 43,
+    "y": -6,
     "radius": 1.5,
     "region": "Blackpine March",
     "complexityType": "complex",
@@ -11316,8 +11316,8 @@
     "name": "Western Watch Road",
     "basicInfo": "A maintained road crosses a stone viaduct above a narrow stream. Watch patrols share it with woodcutters and small carts. Nearby routes lead toward Blackpine Posthouse, Blackpine Boundary Stones, Quarry Exchange.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. Habitats can use these actual npcTypes when appropriate: Bamboo Fox. Generate a finite encounter, preserve its actual outcome, and do not replace cleared creatures on a return. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist.",
-    "x": -30,
-    "y": 8,
+    "x": 37,
+    "y": -15,
     "radius": 1.5,
     "region": "Blackpine March",
     "complexityType": "complex",
@@ -11358,8 +11358,8 @@
     "name": "Old Bell Shrine",
     "basicInfo": "A modest shrine hangs over a fern-filled gorge. Its bell rope is new, but old plaques have been turned face-in against the weather. Nearby routes lead toward Blackpine Boundary Stones, Hollow Cedar Ruins.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. Habitats can use these actual npcTypes when appropriate: Moss-Tongue Kodama. Generate a finite encounter, preserve its actual outcome, and do not replace cleared creatures on a return. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Suzu-no-Ura is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation.",
-    "x": -5,
-    "y": 28,
+    "x": 30,
+    "y": 22,
     "radius": 1.5,
     "region": "Blackpine March",
     "complexityType": "complex",
@@ -11442,8 +11442,8 @@
     "name": "Blackpine Boundary Stones",
     "basicInfo": "Mossy boundary markers follow a disputed ridge. Some stones have been shifted a few feet, enough to put a charcoal wood under another household's claim. Nearby routes lead toward Western Watch Road, Old Bell Shrine.",
     "hiddenInfo": "LOCAL PLAY: Respect signs, actual occupants and an available retreat. The local band describes ordinary new encounters, not a required fight. Habitats can use these actual npcTypes when appropriate: Boundary Tengu. Generate a finite encounter, preserve its actual outcome, and do not replace cleared creatures on a return. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Potential unresolved situation: Fresh drag marks and a surviving survey notch matter more than an impressive speech. A Boundary Tengu objects to careless work but can accept an accurately restored line. Do not make its first accusation automatically true. The associated voluntary undertaking is Akitsuhara Guild: The Bent Boundary.",
-    "x": -34,
-    "y": 34,
+    "x": -19,
+    "y": 36,
     "radius": 1.5,
     "region": "Blackpine March",
     "complexityType": "complex",
@@ -11484,8 +11484,8 @@
     "name": "Hollow Cedar Ruins",
     "basicInfo": "A burned waystation survives inside a cedar's split roots. Rainwater fills the cooking hearth and something has arranged old cups on the lintel. Nearby routes lead toward Old Bell Shrine, Foxglove Wood.",
     "hiddenInfo": "LOCAL PLAY: Respect signs, actual occupants and an available retreat. The local band describes ordinary new encounters, not a required fight. Habitats can use these actual npcTypes when appropriate: Cinder Umbrella,Paper-Face Lurker. Generate a finite encounter, preserve its actual outcome, and do not replace cleared creatures on a return. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Potential unresolved situation: A Cinder Umbrella has arranged the cups around a smoldering old offering. Handling the actual grievance, removing its fuel or defeating it can work. The cups belong to the shrine. The associated voluntary undertaking is Akitsuhara Guild: The Hollow Shrine Cups.",
-    "x": 27,
-    "y": 35,
+    "x": -4,
+    "y": 38,
     "radius": 1.5,
     "region": "Blackpine March",
     "complexityType": "complex",
@@ -11568,8 +11568,8 @@
     "name": "Thundercrag Quarry",
     "basicInfo": "Stone terraces step around a pale quarry basin. Haul tracks, hoists and safety shelters keep the working cuts busy; abandoned galleries lie well beyond them. Nearby routes lead toward Amber-Salt Mine, Quarry Exchange, Scree Lantern Pass.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. Habitats can use these actual npcTypes when appropriate: Scree Crab. Generate a finite encounter, preserve its actual outcome, and do not replace cleared creatures on a return. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Osamu Kariya is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation.",
-    "x": 0,
-    "y": 0,
+    "x": 3,
+    "y": 17,
     "radius": 1.5,
     "region": "Thundercrag Highlands",
     "complexityType": "complex",
@@ -11619,8 +11619,8 @@
     "name": "Kuroishi Miners' Row",
     "basicInfo": "Miners and their households live along a steep lane of patched shutters and flower tubs. A public washhouse stays open after the last shift. Nearby routes lead toward Quarry Exchange, Basalt Kilns.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Tae Ishihama is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation.",
-    "x": -20,
-    "y": -28,
+    "x": 19,
+    "y": -19,
     "radius": 1.5,
     "region": "Thundercrag Highlands",
     "complexityType": "complex",
@@ -11661,8 +11661,8 @@
     "name": "Basalt Kilns",
     "basicInfo": "Low kilns bake roof tiles beside stacks of drying clay. A distorted new firing has left the potters with an expensive heap of crooked rain gutters. Nearby routes lead toward Kuroishi Miners' Row.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. Habitats can use these actual npcTypes when appropriate: Kiln Ashling. Generate a finite encounter, preserve its actual outcome, and do not replace cleared creatures on a return. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Shunji Dobashi is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Potential unresolved situation: The ash creatures are attracted to hot waste, not malicious apprentices. Move or cool the waste, contain them or fight one at a time. No explosive hidden elite. The associated voluntary undertaking is Akitsuhara Guild: Little Ashes.",
-    "x": -31,
-    "y": -7,
+    "x": -2,
+    "y": 1,
     "radius": 1.5,
     "region": "Thundercrag Highlands",
     "complexityType": "complex",
@@ -11755,7 +11755,7 @@
     "basicInfo": "A failed mine has two mouths divided by a cracked pillar. One leads to old hauling chambers; the other draws air through a natural cavity. Nearby routes lead toward Amber-Salt Mine.",
     "hiddenInfo": "LOCAL PLAY: Respect signs, actual occupants and an available retreat. The local band describes ordinary new encounters, not a required fight. Habitats can use these actual npcTypes when appropriate: Stone-Eating Centipede,Paper-Face Lurker. Generate a finite encounter, preserve its actual outcome, and do not replace cleared creatures on a return. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Potential unresolved situation: The sample lies near a Stone-Eating Centipede route. A braced observation point, decoy mineral or prepared fight can work. Deeper passages are optional and not part of the fee. The associated voluntary undertaking is Akitsuhara Guild: Beneath the Splitshaft.",
     "x": 30,
-    "y": 29,
+    "y": 22,
     "radius": 1.5,
     "region": "Thundercrag Highlands",
     "complexityType": "complex",
@@ -11838,8 +11838,8 @@
     "name": "Quarry Exchange",
     "basicInfo": "Stone buyers inspect samples under a long awning. Workers can arrange hauling, lodge a wage dispute or find practical mountain equipment. Nearby routes lead toward Thundercrag Quarry, Kuroishi Miners' Row, Western Watch Road, Bamboo Crossing.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Hokuto Mizusawa is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Léonie Vauclair is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Potential unresolved situation: This is a foreign field commission available through the capital or Glowhaven guild. It authorizes the named exposed site, not trespass into a working mine. A prepared escort or hired specialist is valid. The associated voluntary undertaking is Expedition: Amber without the Mine.",
-    "x": 8,
-    "y": -25,
+    "x": -5,
+    "y": -11,
     "radius": 1.5,
     "region": "Thundercrag Highlands",
     "complexityType": "complex",
@@ -11880,8 +11880,8 @@
     "name": "Broken Relay Tower",
     "basicInfo": "An old signal tower stands beyond the working roads. Cracked mirrors face the wrong valleys; lightning has melted the upper rail. Nearby routes lead toward Scree Lantern Pass.",
     "hiddenInfo": "LOCAL PLAY: Respect signs, actual occupants and an available retreat. The local band describes ordinary new encounters, not a required fight. Habitats can use these actual npcTypes when appropriate: Storm-Kite Tengu. Generate a finite encounter, preserve its actual outcome, and do not replace cleared creatures on a return. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Potential unresolved situation: A Storm-Kite Tengu nests among damaged reflectors. It wants the shiny pieces, not a national war. Give it a viable alternative, exclude it or defeat it, then actually test the chosen line. The associated voluntary undertaking is Akitsuhara Guild: A Mirror Gone Dark.",
-    "x": -35,
-    "y": 30,
+    "x": -33,
+    "y": 25,
     "radius": 1.5,
     "region": "Thundercrag Highlands",
     "complexityType": "complex",
@@ -11922,8 +11922,8 @@
     "name": "Shiun Pilgrim Lodge",
     "basicInfo": "Wet sandals line the entrance of a busy pilgrim lodge. Simple sleeping bays, hot millet porridge and a patient drying rack serve people with very different reasons for climbing. Nearby routes lead toward Shiun Thousand Steps, Benitsuru Castle.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Shizue Amakawa is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Akihisa Manabe is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Potential unresolved situation: Compare a practiced movement and a stated analytical account without declaring either inherently superior. A nonmage can record, question, measure or organize a demonstration. Consent and an honest record matter; tourism or a single display is insufficient. The associated voluntary undertaking is Expedition: The Bamboo Method.",
-    "x": -10,
-    "y": -30,
+    "x": -6,
+    "y": -32,
     "radius": 1.5,
     "region": "Mount Shiun",
     "complexityType": "complex",
@@ -11973,8 +11973,8 @@
     "name": "Shiun Thousand Steps",
     "basicInfo": "Cedar stairs climb past small rest shrines and carefully tended drainage cuts. Visitors ring a hand bell at the turns where sightlines disappear. Nearby routes lead toward Shiun Pilgrim Lodge, Cloudbell Monastery, Shiun Herb Slopes, Whitefall Shrine.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. Habitats can use these actual npcTypes when appropriate: Moss-Tongue Kodama. Generate a finite encounter, preserve its actual outcome, and do not replace cleared creatures on a return. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist.",
-    "x": 2,
-    "y": -8,
+    "x": -18,
+    "y": -12,
     "radius": 1.5,
     "region": "Mount Shiun",
     "complexityType": "complex",
@@ -12015,8 +12015,8 @@
     "name": "Cloudbell Monastery",
     "basicInfo": "A mountain monastery keeps prayer halls, a public teaching court and guest rooms. Novices practice forms while visitors debate whether silence is worth missing breakfast. Nearby routes lead toward Shiun Thousand Steps, Summit Cedar Precinct, Ancestor Archive, Frost-Eave Approach, Scree Lantern Pass.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Dōgen Hanamori is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Potential unresolved situation: The small Veiled Beyond is reached through the earned Soul Torii, not an invented portal. The threshold is a valid limited observation site. Going deeper is a separate deliberate choice, not required by the contract. The associated voluntary undertaking is Expedition: A Reed Bell's Answer.",
-    "x": 0,
-    "y": 17,
+    "x": 2,
+    "y": 8,
     "radius": 1.5,
     "region": "Mount Shiun",
     "complexityType": "complex",
@@ -12108,8 +12108,8 @@
     "name": "Summit Cedar Precinct",
     "basicInfo": "Wind bends the upper cedars around a weathered summit shrine. The mountain view opens beyond a stone railing; the last approach is steep and exposed. Nearby routes lead toward Cloudbell Monastery.",
     "hiddenInfo": "LOCAL PLAY: Respect signs, actual occupants and an available retreat. The local band describes ordinary new encounters, not a required fight. Habitats can use these actual npcTypes when appropriate: Boundary Tengu. Generate a finite encounter, preserve its actual outcome, and do not replace cleared creatures on a return. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist.",
-    "x": 4,
-    "y": 35,
+    "x": 6,
+    "y": 20,
     "radius": 1.5,
     "region": "Mount Shiun",
     "complexityType": "complex",
@@ -12150,8 +12150,8 @@
     "name": "Shiun Herb Slopes",
     "basicInfo": "Terraced herb plots give way to wild mountain plants. Woven markers distinguish cultivated roots from protected stands and unstable slopes. Nearby routes lead toward Shiun Thousand Steps.",
     "hiddenInfo": "LOCAL PLAY: Respect signs, actual occupants and an available retreat. The local band describes ordinary new encounters, not a required fight. Habitats can use these actual npcTypes when appropriate: Antler-Moss Boar. Generate a finite encounter, preserve its actual outcome, and do not replace cleared creatures on a return. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Fusa Minase is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation.",
-    "x": 30,
-    "y": -20,
+    "x": 25,
+    "y": -17,
     "radius": 1.5,
     "region": "Mount Shiun",
     "complexityType": "complex",
@@ -12192,8 +12192,8 @@
     "name": "Ancestor Archive",
     "basicInfo": "A stone-backed archive holds family records, repaired shrine registers and accounts of disputed land. Its keeper serves ordinary genealogies as often as great houses. Nearby routes lead toward Cloudbell Monastery.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Naohiro Umemoto is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Potential unresolved situation: A copied number and a surviving carpenter’s mark disagree. Check the physical evidence and witnesses rather than trusting a confident house advocate. Do not invent the world's hidden origins in a genealogy record. The associated voluntary undertaking is The Archive Has Two Dates.",
-    "x": 28,
-    "y": 12,
+    "x": 12,
+    "y": 13,
     "radius": 1.5,
     "region": "Mount Shiun",
     "complexityType": "complex",
@@ -12234,8 +12234,8 @@
     "name": "Frost-Eave Approach",
     "basicInfo": "An old ascent curves around frost-streaked rock. An empty hut shelters a cache left for emergencies, and enormous three-toed tracks cross a nearby drift. Nearby routes lead toward Cloudbell Monastery, Snowcedar Refuge.",
     "hiddenInfo": "LOCAL PLAY: Respect signs, actual occupants and an available retreat. The local band describes ordinary new encounters, not a required fight. Habitats can use these actual npcTypes when appropriate: Snow-Mantle Tengu. Generate a finite encounter, preserve its actual outcome, and do not replace cleared creatures on a return. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist.",
-    "x": -30,
-    "y": 30,
+    "x": -16,
+    "y": 26,
     "radius": 1.5,
     "region": "Mount Shiun",
     "complexityType": "complex",
@@ -12318,8 +12318,8 @@
     "name": "Blue Mirror Tarn",
     "basicInfo": "A glacial lake reflects a torn ring of peaks. Ice shelves crack at the shore while deep blue water remains open farther out. Nearby routes lead toward Snowcedar Signal Hut, Forgotten Muster Camp, Sleeping Lake Cavern.",
     "hiddenInfo": "LOCAL PLAY: Respect signs, actual occupants and an available retreat. The local band describes ordinary new encounters, not a required fight. Habitats can use these actual npcTypes when appropriate: Ice-Reed Serpent. Generate a finite encounter, preserve its actual outcome, and do not replace cleared creatures on a return. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist.",
-    "x": 0,
-    "y": 28,
+    "x": -6,
+    "y": 32,
     "radius": 1.5,
     "region": "Snowcedar Heights",
     "complexityType": "complex",
@@ -12360,8 +12360,8 @@
     "name": "White Antler Basin",
     "basicInfo": "A sheltered basin contains white antler-shaped stone and sparse winter grazing. The quiet is broken by scraping under the snow rather than birdsong. Nearby routes lead toward Sleeping Lake Cavern, Rime Bridge.",
     "hiddenInfo": "LOCAL PLAY: Respect signs, actual occupants and an available retreat. The local band describes ordinary new encounters, not a required fight. Habitats can use these actual npcTypes when appropriate: Snowburrow Mukade. Generate a finite encounter, preserve its actual outcome, and do not replace cleared creatures on a return. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Potential unresolved situation: Snowburrow Mukade disturbed the camp from below. Careful shelter work and tracking can rescue the porters without chasing the creature into its deepest tunnel. No automatic death merely because the player took time to prepare. The associated voluntary undertaking is Akitsuhara Guild: More Than Footprints.",
-    "x": 30,
-    "y": 5,
+    "x": -16,
+    "y": -22,
     "radius": 1.5,
     "region": "Snowcedar Heights",
     "complexityType": "complex",
@@ -12402,8 +12402,8 @@
     "name": "Snowcedar Signal Hut",
     "basicInfo": "A staffed signal hut maintains flags and mirror shutters for the pass. Tea tastes of smoke and visitors can leave a message for the next safe caravan. Nearby routes lead toward Snowcedar Refuge, Blue Mirror Tarn.",
     "hiddenInfo": "LOCAL PLAY: Respect signs, actual occupants and an available retreat. The local band describes ordinary new encounters, not a required fight. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Rei Tsunemori is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation.",
-    "x": -8,
-    "y": -5,
+    "x": -10,
+    "y": -3,
     "radius": 1.5,
     "region": "Snowcedar Heights",
     "complexityType": "complex",
@@ -12444,8 +12444,8 @@
     "name": "Rime Bridge",
     "basicInfo": "A narrow bridge crosses a snowmelt cleft. Windblown ice obscures its center, and the handrail needs inspection before loaded parties cross. Nearby routes lead toward White Antler Basin, Koganedai Muster Ground.",
     "hiddenInfo": "LOCAL PLAY: Respect signs, actual occupants and an available retreat. The local band describes ordinary new encounters, not a required fight. Habitats can use these actual npcTypes when appropriate: Snow-Mantle Tengu. Generate a finite encounter, preserve its actual outcome, and do not replace cleared creatures on a return. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Potential unresolved situation: Weather, footing and one territorial snow-mantle tengu matter. Waiting, a negotiated pause or a prepared escort can succeed. Do not silently skip the actual crossing or turn the refuge into hostile ground. The associated voluntary undertaking is Akitsuhara Guild: Across the Rime.",
-    "x": 27,
-    "y": -29,
+    "x": -6,
+    "y": -14,
     "radius": 1.5,
     "region": "Snowcedar Heights",
     "complexityType": "complex",
@@ -12486,8 +12486,8 @@
     "name": "Forgotten Muster Camp",
     "basicInfo": "A snow-filled camp still has tent rings, stacked shields and a collapsed officer's shelter. Disturbed equipment carries no promise of an unclaimed treasure. Nearby routes lead toward Blue Mirror Tarn.",
     "hiddenInfo": "LOCAL PLAY: Respect signs, actual occupants and an available retreat. The local band describes ordinary new encounters, not a required fight. Habitats can use these actual npcTypes when appropriate: Hollow War Armor. Generate a finite encounter, preserve its actual outcome, and do not replace cleared creatures on a return. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Potential unresolved situation: Hollow War Armor repeats an old defensive formation. Orders found in the actual camp, separation of the frames or combat can open a route. The dead unit’s history is not proof of a present house conspiracy. The associated voluntary undertaking is Akitsuhara Guild: A Banner Still Standing.",
-    "x": -30,
-    "y": 28,
+    "x": 27,
+    "y": 30,
     "radius": 1.5,
     "region": "Snowcedar Heights",
     "complexityType": "complex",
@@ -12528,8 +12528,8 @@
     "name": "Sleeping Lake Cavern",
     "basicInfo": "Cold vapor rolls from a cavern above the tarn. Mineral shelves descend toward a dark pool and the floor bears the smooth tracks of something heavy. Nearby routes lead toward Blue Mirror Tarn, White Antler Basin.",
     "hiddenInfo": "LOCAL PLAY: Respect signs, actual occupants and an available retreat. The local band describes ordinary new encounters, not a required fight. Habitats can use these actual npcTypes when appropriate: Ice-Reed Serpent,Stone-Eating Centipede. Generate a finite encounter, preserve its actual outcome, and do not replace cleared creatures on a return. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Potential unresolved situation: The serpent senses floor vibration. Rope-supported movement and a controlled distraction can prevent an unnecessary fight. A serious direct battle is a knowingly chosen risk. The associated voluntary undertaking is Akitsuhara Guild: Ice That Listens.",
-    "x": 30,
-    "y": 34,
+    "x": 6,
+    "y": 39,
     "radius": 1.5,
     "region": "Snowcedar Heights",
     "complexityType": "complex",
@@ -12570,8 +12570,8 @@
     "name": "Mizuhara Castle",
     "basicInfo": "A river-facing castle overlooks the western town and lake. House Saionoma conducts audiences in a modest hall while guards train below the granary wall. Nearby routes lead toward Mizuhara Landing, Western Spear Hall, Cedarfall Hamlet.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Masazane Saionoma is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Hiroto Sakuma is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Potential unresolved situation: Hiroto accepted a favor and now wants a quietly altered copy. The actual original, the payer and the affected grower permit several choices. Helping him conceal it is a conscious dishonest approach, not secretly the morally correct path. Exposure or an agreed correction can settle the same immediate undertaking. The associated voluntary undertaking is The Wrong Water Seal.",
-    "x": -5,
-    "y": 20,
+    "x": 5,
+    "y": 28,
     "radius": 1.5,
     "region": "Mizuhara Lake Country",
     "complexityType": "complex",
@@ -12621,8 +12621,8 @@
     "name": "Mizuhara Landing",
     "basicInfo": "Ferries, fishing boats and grain barges crowd a practical lakeside landing. Travelers can hire passage, check a consignment or argue over a missed connection. Nearby routes lead toward Mizuhara Castle, Reedwake Boatworks, Bamboo Crossing.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Tomoe Masuda is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation.",
-    "x": 5,
-    "y": -5,
+    "x": 28,
+    "y": 23,
     "radius": 1.5,
     "region": "Mizuhara Lake Country",
     "complexityType": "complex",
@@ -12672,8 +12672,8 @@
     "name": "Silver Carp Market",
     "basicInfo": "Fishmongers and vegetable sellers fill covered stalls. The best bargaining happens before the ice melts; a fish too big for its basket has become the morning attraction. Nearby routes lead toward Western Spear Hall, Three Reeds Inn.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist.",
-    "x": -24,
-    "y": -2,
+    "x": -23,
+    "y": 28,
     "radius": 1.5,
     "region": "Mizuhara Lake Country",
     "complexityType": "complex",
@@ -12714,8 +12714,8 @@
     "name": "Three Reeds Inn",
     "basicInfo": "A lakeside inn hangs colorful travel coats beneath its eaves. The kitchen specializes in pepper broth and the host keeps a separate kettle for bad weather. Nearby routes lead toward Silver Carp Market.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Kayo Yagiri is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Misao Shingū is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation.",
-    "x": -24,
-    "y": -26,
+    "x": -33,
+    "y": -10,
     "radius": 1.5,
     "region": "Mizuhara Lake Country",
     "complexityType": "complex",
@@ -12765,8 +12765,8 @@
     "name": "Saionoma Household",
     "basicInfo": "A residential compound beside the castle has bright screens, a small archery yard and a kitchen famous for feeding more people than its accounts admit. Nearby routes lead toward Reedwake Boatworks.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Rin Saionoma is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Nana Saionoma is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation.",
-    "x": 23,
-    "y": 20,
+    "x": 14,
+    "y": 22,
     "radius": 1.5,
     "region": "Mizuhara Lake Country",
     "complexityType": "complex",
@@ -12816,8 +12816,8 @@
     "name": "Reedwake Boatworks",
     "basicInfo": "Boatwrights steam planks, mend hulls and keep an astonishing collection of borrowed tools. A partly rebuilt ferry waits under a roof weighted against the wind. Nearby routes lead toward Mizuhara Landing, Saionoma Household, Lakewatch Islet.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Yasuo Natori is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation.",
-    "x": 30,
-    "y": -5,
+    "x": 40,
+    "y": -28,
     "radius": 1.5,
     "region": "Mizuhara Lake Country",
     "complexityType": "complex",
@@ -12858,8 +12858,8 @@
     "name": "Western Spear Hall",
     "basicInfo": "A practical martial hall teaches spear distance, escort work and fighting in narrow lanes. Loan staves stand beside a repair bench. Nearby routes lead toward Mizuhara Castle, Silver Carp Market.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Chika Nishihara is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation.",
-    "x": -32,
-    "y": 25,
+    "x": -7,
+    "y": 26,
     "radius": 1.5,
     "region": "Mizuhara Lake Country",
     "complexityType": "complex",
@@ -12898,10 +12898,10 @@
   },
   "Reedshore Hamlet": {
     "name": "Reedshore Hamlet",
-    "basicInfo": "Low cottages face gardens and the lake. Nets dry beside bean poles, and shared landings let neighbors reach one another without walking the whole shore. Nearby routes lead toward Lakewatch Islet, Mirror-Reed Ferry.",
+    "basicInfo": "Low cottages face gardens and the lake. Nets dry beside bean poles, and shared landings let neighbors reach one another without walking the whole shore. Nearby routes lead toward Lakewatch Islet, Mirror-Reed Bridge.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist.",
-    "x": 8,
-    "y": -33,
+    "x": 40,
+    "y": 29,
     "radius": 1.5,
     "region": "Mizuhara Lake Country",
     "complexityType": "complex",
@@ -12942,8 +12942,8 @@
     "name": "Lakewatch Islet",
     "basicInfo": "A small wooded islet holds a disused watch shrine. Boats can land on the sheltered side; the reed channels on the far shore conceal movement. Nearby routes lead toward Reedwake Boatworks, Reedshore Hamlet.",
     "hiddenInfo": "LOCAL PLAY: Respect signs, actual occupants and an available retreat. The local band describes ordinary new encounters, not a required fight. Habitats can use these actual npcTypes when appropriate: Reed-Jaw Kappa. Generate a finite encounter, preserve its actual outcome, and do not replace cleared creatures on a return. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist.",
-    "x": 33,
-    "y": -32,
+    "x": 6,
+    "y": -22,
     "radius": 1.5,
     "region": "Mizuhara Lake Country",
     "complexityType": "complex",
@@ -12984,8 +12984,8 @@
     "name": "Bamboo Crossing",
     "basicInfo": "A bridge village sits where two bamboo roads meet. Food stalls and pack-animal rails make it an ordinary stopping place between the capital and west. Nearby routes lead toward Green Thread Paperworks, Rainsong Mill, Riverglass Baths, Quarry Exchange, Mizuhara Landing, Benitsuru Transit Shrine.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Shin Watarai is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Ren Ishidate is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Potential unresolved situation: Shin has balanced lunch supplies on a stool. One rat is exposed and the other behind shelving. A lure, trap or ordinary fight works; no rat king or disease sequel. They are level 1–2 weak nuisances, one active hostile at a time. The associated voluntary undertaking is Akitsuhara Guild: Something in the Flour.",
-    "x": 0,
-    "y": -8,
+    "x": -23,
+    "y": 25,
     "radius": 1.5,
     "region": "Bamboo Veil Valleys",
     "complexityType": "complex",
@@ -13035,8 +13035,8 @@
     "name": "Green Thread Paperworks",
     "basicInfo": "A family workshop makes writing paper, fans and sturdy weather slips. Pale sheets hang over water channels, and a ruined batch threatens a household contract. Nearby routes lead toward Bamboo Crossing, Abandoned Bamboo Village.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. Habitats can use these actual npcTypes when appropriate: Paper-Face Moth. Generate a finite encounter, preserve its actual outcome, and do not replace cleared creatures on a return. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Mitsue Harada is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Potential unresolved situation: Three moths occupy different drying bays. Covering the pulp, attracting them to waste sheets or a controlled fight works. An open flame can damage the goods. The associated voluntary undertaking is Akitsuhara Guild: Paper with Teeth.",
-    "x": -25,
-    "y": 5,
+    "x": -41,
+    "y": 17,
     "radius": 1.5,
     "region": "Bamboo Veil Valleys",
     "complexityType": "complex",
@@ -13077,8 +13077,8 @@
     "name": "Rainsong Mill",
     "basicInfo": "A waterwheel turns under bamboo shade. Farmers queue with sacks while the miller tries to decide whether a new squeak is a bearing or a tenant. Nearby routes lead toward Bamboo Crossing, Bamboo Charcoal Camp, Hoshina Village.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. Habitats can use these actual npcTypes when appropriate: Granary Rat. Generate a finite encounter, preserve its actual outcome, and do not replace cleared creatures on a return. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Kentarō Maeba is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Potential unresolved situation: A branch and one Paddy Mudling occupy the lower channel. Bypass, lure or remove them, then check the bearing. Earth, Water and mundane leverage are useful; no affinity is required. The associated voluntary undertaking is Akitsuhara Guild: A Wheel Before Supper.",
-    "x": 24,
-    "y": -24,
+    "x": -21,
+    "y": 12,
     "radius": 1.5,
     "region": "Bamboo Veil Valleys",
     "complexityType": "complex",
@@ -13119,8 +13119,8 @@
     "name": "Hidden Reed Training Ground",
     "basicInfo": "A discreet training yard uses bamboo screens, water channels and raised targets. Students practice observation and quiet movement without turning every passerby into a target. Nearby routes lead toward Bamboo Charcoal Camp, Moonweave Grove.",
     "hiddenInfo": "LOCAL PLAY: Respect signs, actual occupants and an available retreat. The local band describes ordinary new encounters, not a required fight. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Yuzuri Kageura is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Sōta Amemiya is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Daichi Kurobane is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Potential unresolved situation: The task is to identify which practice porter altered a marked load, not steal real letters or trespass into a house. Observation, questions and practical tests work. Do not invent a hidden assassin to validate the exercise. The associated voluntary undertaking is The Message behind the Message.",
-    "x": 25,
-    "y": 26,
+    "x": 26,
+    "y": 39,
     "radius": 1.5,
     "region": "Bamboo Veil Valleys",
     "complexityType": "complex",
@@ -13161,8 +13161,8 @@
     "name": "Riverglass Baths",
     "basicInfo": "A village bathhouse draws warm water through stone-lined channels. A garden waiting court and private washing rooms give weary travelers an unhurried stop. Nearby routes lead toward Bamboo Crossing.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Suzuha Hoshikawa is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation.",
-    "x": -24,
-    "y": -26,
+    "x": 14,
+    "y": -1,
     "radius": 1.5,
     "region": "Bamboo Veil Valleys",
     "complexityType": "complex",
@@ -13203,8 +13203,8 @@
     "name": "Abandoned Bamboo Village",
     "basicInfo": "Overgrown lanes lead through houses abandoned after repeated floods. A shrine roof survives above an empty storehouse, and someone has swept the doorstep recently. Nearby routes lead toward Green Thread Paperworks.",
     "hiddenInfo": "LOCAL PLAY: Respect signs, actual occupants and an available retreat. The local band describes ordinary new encounters, not a required fight. Habitats can use these actual npcTypes when appropriate: Cinder Umbrella,Paper-Face Lurker. Generate a finite encounter, preserve its actual outcome, and do not replace cleared creatures on a return. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist.",
-    "x": -28,
-    "y": 30,
+    "x": -30,
+    "y": 37,
     "radius": 1.5,
     "region": "Bamboo Veil Valleys",
     "complexityType": "complex",
@@ -13245,8 +13245,8 @@
     "name": "Moonweave Grove",
     "basicInfo": "Tall bamboo creaks in a wind that moves below the leaves. Braided cords mark the old gathering boundary and hollow stalks carry voices strangely far. Nearby routes lead toward Hidden Reed Training Ground.",
     "hiddenInfo": "LOCAL PLAY: Respect signs, actual occupants and an available retreat. The local band describes ordinary new encounters, not a required fight. Habitats can use these actual npcTypes when appropriate: Bamboo Fox,Whisper-Reed Oniwa. Generate a finite encounter, preserve its actual outcome, and do not replace cleared creatures on a return. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist.",
-    "x": 6,
-    "y": 33,
+    "x": -9,
+    "y": 36,
     "radius": 1.5,
     "region": "Bamboo Veil Valleys",
     "complexityType": "complex",
@@ -13287,8 +13287,8 @@
     "name": "Bamboo Charcoal Camp",
     "basicInfo": "Earth kilns and rough shelters serve seasonal charcoal cutters. The crew keeps one fire small enough to cook on while the others smolder for days. Nearby routes lead toward Rainsong Mill, Hidden Reed Training Ground.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Mina Kurusu is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Potential unresolved situation: Two opportunists want road dues and bluff more readily than they fight. Bargaining, evidence of payment, an alternate maintained route or defeating them are options. One payment is not a permanent safe-conduct for every future caravan. The associated voluntary undertaking is Akitsuhara Guild: Charcoal under Watch.",
-    "x": 33,
-    "y": 2,
+    "x": 9,
+    "y": 28,
     "radius": 1.5,
     "region": "Bamboo Veil Valleys",
     "complexityType": "complex",
@@ -13327,10 +13327,10 @@
   },
   "Benitsuru Transit Shrine": {
     "name": "Benitsuru Transit Shrine",
-    "basicInfo": "The authorized Evertree route opens inside a tiled shrine receiving hall. Vermilion beams frame a quiet transit torii; clerks handle permits beside a courtyard full of arriving travelers. Nearby routes lead toward Red Maple Inn, Bamboo Crossing.",
-    "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Nobu Senda is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation.",
-    "x": -25,
-    "y": -22,
+    "basicInfo": "The authorized Evertree route opens inside a tiled shrine receiving hall. Vermilion beams frame a quiet transit torii; clerks handle permits beside a courtyard full of arriving travelers. Nearby routes lead toward Red Maple Inn, Bamboo Crossing. The authorized transit desk can approve a legitimate visit to Glowhaven and issue its reusable portal key locally. An approved journey is separate from merely standing at the arch.",
+    "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Nobu Senda is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. A character beginning in this realm can request a Glowhaven Portal Key here. A delegated official must actually approve a legitimate journey and hand it over; Kohane Kazahana can introduce the Cloudbloom duty delegate but piloting alone is not issuing authority. Existing fixed home arches remain usable without a key; preserve their exact Evertree arrival.",
+    "x": 1,
+    "y": 34,
     "radius": 1.5,
     "region": "Benitsuru Basin",
     "complexityType": "complex",
@@ -13380,8 +13380,8 @@
     "name": "Benitsuru Castle",
     "basicInfo": "A terraced Shogunal castle rises toward Mount Shiun. Petitioners, household officers and military envoys share its outer court, while the lived-in residence stands behind controlled doors. Nearby routes lead toward Kagetsuna Household, Shiun Pilgrim Lodge.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Shōen Kagetsuna is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Jirō Hozumi is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation.",
-    "x": 3,
-    "y": 31,
+    "x": -2,
+    "y": 47,
     "radius": 1.5,
     "region": "Benitsuru Basin",
     "complexityType": "complex",
@@ -13427,54 +13427,54 @@
       "Akitsuhara"
     ]
   },
-  "Benitsuru Guildhall": {
-    "name": "Benitsuru Guildhall",
+  "Adventurer's Guild - Benitsuru Branch": {
+    "name": "Adventurer's Guild - Benitsuru Branch",
     "basicInfo": "The international Adventurer's Guild occupies a lively street hall near the transit road. Local notices share a board with foreign expeditions; the exam court is audible through a rear door. Nearby routes lead toward Red Maple Inn, Morning Crane Dojo, Lantern Canal Market.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Hiyori Mitsuba is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Tadayoshi Kurebayashi is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Mika Fuyuse is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Ema Shiozaki is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Potential unresolved situation: Use actual portal permission and the existing Whitepass Caravan Lodge and its routes. This is optional foreign fieldwork, not the cancelled level-twenty field test or an excuse to move the party without consent. The associated voluntary undertaking is Expedition: Snowmelt Letters. Potential unresolved situation: Obtain route permission and a feasible crossing with local help. Do not endanger Suzuha Midorise or appropriate her thesis. A noncaster can make valuable observations and hire a specialist. The associated voluntary undertaking is Expedition: Reeds above the Clouds.",
-    "x": -12,
-    "y": -6,
+    "x": -13,
+    "y": 23,
     "radius": 1.5,
     "region": "Benitsuru Basin",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
-      "Benitsuru Guildhall - Reception": {
+      "Adventurer's Guild - Benitsuru Branch - Reception": {
         "description": "A bright counter has worn elbow rests, a vase of seasonal flowers and a small stack of disputed expense slips. The clerk handles licensing records, directions and actual requests.",
         "paths": [
-          "Benitsuru Guildhall - Request Board",
-          "Benitsuru Guildhall - Common Tables",
-          "Benitsuru Guildhall - Assessment Court",
-          "Benitsuru Guildhall - Records Desk"
+          "Adventurer's Guild - Benitsuru Branch - Request Board",
+          "Adventurer's Guild - Benitsuru Branch - Common Tables",
+          "Adventurer's Guild - Benitsuru Branch - Assessment Court",
+          "Adventurer's Guild - Benitsuru Branch - Records Desk"
         ]
       },
-      "Benitsuru Guildhall - Request Board": {
+      "Adventurer's Guild - Benitsuru Branch - Request Board": {
         "description": "Bronze through Platinum tabs divide local postings and foreign field contracts. A low reading shelf lets visitors compare work without blocking the hall.",
         "paths": [
-          "Benitsuru Guildhall - Reception",
-          "Benitsuru Guildhall - Common Tables"
+          "Adventurer's Guild - Benitsuru Branch - Reception",
+          "Adventurer's Guild - Benitsuru Branch - Common Tables"
         ]
       },
-      "Benitsuru Guildhall - Common Tables": {
-        "description": "Common Tables is a distinct stopping point at Benitsuru Guildhall. The ground, visible approach and nearby cover make it possible to observe before committing to the next stretch. The international Adventurer's Guild occupies a lively street hall near the transit road.",
+      "Adventurer's Guild - Benitsuru Branch - Common Tables": {
+        "description": "Common Tables is a distinct stopping point at Adventurer's Guild - Benitsuru Branch. The ground, visible approach and nearby cover make it possible to observe before committing to the next stretch. The international Adventurer's Guild occupies a lively street hall near the transit road.",
         "paths": [
-          "Benitsuru Guildhall - Reception",
-          "Benitsuru Guildhall - Request Board",
-          "Benitsuru Guildhall - Assessment Court"
+          "Adventurer's Guild - Benitsuru Branch - Reception",
+          "Adventurer's Guild - Benitsuru Branch - Request Board",
+          "Adventurer's Guild - Benitsuru Branch - Assessment Court"
         ]
       },
-      "Benitsuru Guildhall - Assessment Court": {
+      "Adventurer's Guild - Benitsuru Branch - Assessment Court": {
         "description": "A rear court contains padded posts, movable obstacles and a clear demonstration lane. Applicants can demonstrate their actual practical abilities under supervision.",
         "paths": [
-          "Benitsuru Guildhall - Reception",
-          "Benitsuru Guildhall - Common Tables",
-          "Benitsuru Guildhall - Records Desk"
+          "Adventurer's Guild - Benitsuru Branch - Reception",
+          "Adventurer's Guild - Benitsuru Branch - Common Tables",
+          "Adventurer's Guild - Benitsuru Branch - Records Desk"
         ]
       },
-      "Benitsuru Guildhall - Records Desk": {
-        "description": "Records Desk is a distinct stopping point at Benitsuru Guildhall. The ground, visible approach and nearby cover make it possible to observe before committing to the next stretch. The international Adventurer's Guild occupies a lively street hall near the transit road.",
+      "Adventurer's Guild - Benitsuru Branch - Records Desk": {
+        "description": "Records Desk is a distinct stopping point at Adventurer's Guild - Benitsuru Branch. The ground, visible approach and nearby cover make it possible to observe before committing to the next stretch. The international Adventurer's Guild occupies a lively street hall near the transit road.",
         "paths": [
-          "Benitsuru Guildhall - Reception",
-          "Benitsuru Guildhall - Assessment Court"
+          "Adventurer's Guild - Benitsuru Branch - Reception",
+          "Adventurer's Guild - Benitsuru Branch - Assessment Court"
         ]
       }
     },
@@ -13489,10 +13489,10 @@
   },
   "Lantern Canal Market": {
     "name": "Lantern Canal Market",
-    "basicInfo": "Cloth, food, fans and river cargo fill the capital's canal market. Porters thread between customers while street performers claim the bridges one tune at a time. Nearby routes lead toward Benitsuru Guildhall, Canal Ward Homes, Benitsuru Ward Clinic, Goldleaf Arcade.",
+    "basicInfo": "Cloth, food, fans and river cargo fill the capital's canal market. Porters thread between customers while street performers claim the bridges one tune at a time. Nearby routes lead toward Adventurer's Guild - Benitsuru Branch, Canal Ward Homes, Benitsuru Ward Clinic, Goldleaf Arcade.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Natsuko Tsumura is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation.",
-    "x": 8,
-    "y": -15,
+    "x": -9,
+    "y": 29,
     "radius": 1.5,
     "region": "Benitsuru Basin",
     "complexityType": "complex",
@@ -13542,8 +13542,8 @@
     "name": "Benitsuru Magistracy",
     "basicInfo": "A public hearing compound receives complaints, petitions and testimony. Its clerks can explain procedure without promising a favorable ruling. Nearby routes lead toward Benitsuru Ward Clinic, Benitsuru Craft Quarter.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Akane Natsukawa is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Kensuke Ayahara is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Potential unresolved situation: This commission concerns actual road robbery supported by witness accounts, not her ancestry or an insulting conversation. A negotiated appearance, documented surrender or safe capture works. Killing her does not fulfill this capture contract. Her crew may bargain, obstruct or abandon her according to actual events. The associated voluntary undertaking is Akitsuhara Guild: The Collector's Hearing.",
-    "x": 24,
-    "y": 13,
+    "x": 20,
+    "y": 23,
     "radius": 1.5,
     "region": "Benitsuru Basin",
     "complexityType": "complex",
@@ -13591,10 +13591,10 @@
   },
   "Red Maple Inn": {
     "name": "Red Maple Inn",
-    "basicInfo": "A comfortable capital inn has a bright dining room, private rooms and a courtyard where travelers compare journeys. The host knows which stories were different yesterday. Nearby routes lead toward Benitsuru Transit Shrine, Benitsuru Public School, Benitsuru Guildhall.",
+    "basicInfo": "A comfortable capital inn has a bright dining room, private rooms and a courtyard where travelers compare journeys. The host knows which stories were different yesterday. Nearby routes lead toward Benitsuru Transit Shrine, Benitsuru Public School, Adventurer's Guild - Benitsuru Branch.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Tōma Sagiri is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Chiyo Matsukaze is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation.",
-    "x": -29,
-    "y": -4,
+    "x": 0,
+    "y": 3,
     "radius": 1.5,
     "region": "Benitsuru Basin",
     "complexityType": "complex",
@@ -13644,8 +13644,8 @@
     "name": "Benitsuru Ward Clinic",
     "basicInfo": "A public clinic treats ordinary injuries and magical mishaps. Herbal drying racks share space with clean bandages and plain examination screens. Nearby routes lead toward Lantern Canal Market, Benitsuru Magistracy, Eight Petals Theater.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Tetsu Obana is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation.",
-    "x": 29,
-    "y": -7,
+    "x": -30,
+    "y": 35,
     "radius": 1.5,
     "region": "Benitsuru Basin",
     "complexityType": "complex",
@@ -13686,8 +13686,8 @@
     "name": "Kagetsuna Household",
     "basicInfo": "The ruling household's city residence contains working offices, a practice court and a surprisingly unruly garden. Domestic staff keep it functioning through visitors and arguments. Nearby routes lead toward Morning Crane Dojo, Benitsuru Castle.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Ayame Kagetsuna is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation.",
-    "x": -15,
-    "y": 22,
+    "x": -22,
+    "y": 25,
     "radius": 1.5,
     "region": "Benitsuru Basin",
     "complexityType": "complex",
@@ -13737,8 +13737,8 @@
     "name": "Eight Petals Theater",
     "basicInfo": "A small theater stages comic plays, dance and music. Costume repairs happen in the side passage, often while the audience is already arriving. Nearby routes lead toward Benitsuru Ward Clinic.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Kinu Amakusa is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Fūka Suzumori is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Renjirō Usami is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation.",
-    "x": 26,
-    "y": -30,
+    "x": 15,
+    "y": 45,
     "radius": 1.5,
     "region": "Benitsuru Basin",
     "complexityType": "complex",
@@ -13788,8 +13788,8 @@
     "name": "Benitsuru Craft Quarter",
     "basicInfo": "Ordinary smiths, lacquerers and joiners share narrow workshop streets. One guarded importer works behind a plain gate; most doors open on familiar hand tools. Nearby routes lead toward Benitsuru Magistracy.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Genzaburō Kanemori is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Maho Kanemori is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Duncan Rusk is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation.",
-    "x": 34,
-    "y": 29,
+    "x": 30,
+    "y": 31,
     "radius": 1.5,
     "region": "Benitsuru Basin",
     "complexityType": "complex",
@@ -13837,10 +13837,10 @@
   },
   "Morning Crane Dojo": {
     "name": "Morning Crane Dojo",
-    "basicInfo": "A disciplined sword school teaches measured footwork and control. The owner welcomes earnest beginners but refuses to call expensive equipment a substitute for practice. Nearby routes lead toward Benitsuru Guildhall, Kagetsuna Household.",
+    "basicInfo": "A disciplined sword school teaches measured footwork and control. The owner welcomes earnest beginners but refuses to call expensive equipment a substitute for practice. Nearby routes lead toward Adventurer's Guild - Benitsuru Branch, Kagetsuna Household.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Chinatsu Hanegi is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Potential unresolved situation: A sincere unsuccessful attempt is useful participation. No duel against an expert, free mastery or mandatory weapon change. Chinatsu explains a correction and gives one manageable next exercise. The associated voluntary undertaking is A Patient Distance.",
-    "x": -4,
-    "y": 10,
+    "x": 13,
+    "y": 21,
     "radius": 1.5,
     "region": "Benitsuru Basin",
     "complexityType": "complex",
@@ -13881,8 +13881,8 @@
     "name": "Canal Ward Homes",
     "basicInfo": "Homes, shared wells, sewing rooms and a tiny tea stall fill a working residential ward. Neighbors know who borrows ladders and who returns them. Nearby routes lead toward Lantern Canal Market, South Gate Caravan Yard.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Naoe Futami is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Potential unresolved situation: The signed threat letters and a false debt entry can be checked at the magistracy. Exposing the coercion can cost Shigure Tsubakiri an ally. A fight is not automatically a legal transfer. Naoe wants her home, not a compulsory revenge campaign. The associated voluntary undertaking is The Cost of a Courtyard.",
-    "x": -4,
-    "y": -32,
+    "x": -31,
+    "y": 23,
     "radius": 1.5,
     "region": "Benitsuru Basin",
     "complexityType": "complex",
@@ -13932,8 +13932,8 @@
     "name": "Benitsuru Public School",
     "basicInfo": "A medium-sized school teaches letters, arithmetic, local history and basic mana safety. Its public evening lessons draw artisans as well as younger adults. Nearby routes lead toward Red Maple Inn.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Yūhei Toba is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation.",
-    "x": -31,
-    "y": 12,
+    "x": -38,
+    "y": 1,
     "radius": 1.5,
     "region": "Benitsuru Basin",
     "complexityType": "complex",
@@ -13972,10 +13972,10 @@
   },
   "South Gate Caravan Yard": {
     "name": "South Gate Caravan Yard",
-    "basicInfo": "A broad yard outside the gate serves carts and pack animals. Travelers can arrange escorts, buy road supplies and hear whether the bridges are open. Nearby routes lead toward Canal Ward Homes, Redleaf Bridge.",
+    "basicInfo": "A broad yard outside the gate serves carts and pack animals. Travelers can arrange escorts, buy road supplies and hear whether the bridges are open. Nearby routes lead toward Canal Ward Homes, Redleaf Bridge. A maintained side lane leads to Hinoki Hollow Onsen.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Kōichi Aratani is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Potential unresolved situation: A wheel catches at the outer yard and a proud porter refuses help. This is a modest practical duty. A blade, magic or household name does not replace asking before handling someone’s goods. The associated voluntary undertaking is An Escort in Plain Clothes.",
-    "x": 5,
-    "y": -41,
+    "x": 41,
+    "y": 17,
     "radius": 1.5,
     "region": "Benitsuru Basin",
     "complexityType": "complex",
@@ -14127,8 +14127,8 @@
     "name": "Goldleaf Arcade",
     "basicInfo": "Lacquer, textiles and polished fittings catch the light beneath a long arcade. Buyers compare workmanship while apprentices carry bowls to nearby shops. Nearby routes lead toward Ginkgo Schoolhouse, East Wind Archery Hall, Koganedai Guesthouse, Lantern Canal Market.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Isao Tsuge is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Kohina Beppu is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Potential unresolved situation: The parcel contains fittings stripped from a debtor’s boat without a lawful seizure. The player may ask to inspect, refuse, return the goods, expose the claim or knowingly deliver them. Do not convert the player’s refusal into acceptance or pay twice for incompatible resolutions. The associated voluntary undertaking is An Unmarked Parcel.",
-    "x": -15,
-    "y": -9,
+    "x": 9,
+    "y": -13,
     "radius": 1.5,
     "region": "Koganedai Terraces",
     "complexityType": "complex",
@@ -14169,8 +14169,8 @@
     "name": "Ginkgo Crossbow Works",
     "basicInfo": "A guarded workshop assembles a limited number of imported magitech crossbows and sword mechanisms. Buyers need patience, money and an actual appointment. Nearby routes lead toward Tsubakiri Residence.",
     "hiddenInfo": "LOCAL PLAY: Respect signs, actual occupants and an available retreat. The local band describes ordinary new encounters, not a required fight. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Hatsu Kanesue is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Potential unresolved situation: Test with real bolts and a safe backstop, inspect the feed and allow cooling. Concealing the defect can favor Shigure but is a different, explicitly dishonest outcome. Ordinary crossbows remain useful; the device is not a gun. The associated voluntary undertaking is One Honest Demonstration.",
-    "x": 30,
-    "y": 0,
+    "x": 18,
+    "y": 3,
     "radius": 1.5,
     "region": "Koganedai Terraces",
     "complexityType": "complex",
@@ -14220,8 +14220,8 @@
     "name": "Koganedai Muster Ground",
     "basicInfo": "A broad practice ground outside town provides targets, lanes and formation space. Regular soldiers train beside a few sponsored equipment trials. Nearby routes lead toward Koganedai Guesthouse, Rime Bridge, Lanternwood Root Shrine.",
     "hiddenInfo": "LOCAL PLAY: Respect signs, actual occupants and an available retreat. The local band describes ordinary new encounters, not a required fight. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Seitarō Matsuoka is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation.",
-    "x": 32,
-    "y": -30,
+    "x": -14,
+    "y": -8,
     "radius": 1.5,
     "region": "Koganedai Terraces",
     "complexityType": "complex",
@@ -14304,8 +14304,8 @@
     "name": "East Wind Archery Hall",
     "basicInfo": "An archery school opens onto a long sheltered range. Its master insists that calm breathing matters more than a dramatic release. Nearby routes lead toward Goldleaf Arcade, Terrace Waterworks.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Eri Tamura is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Potential unresolved situation: A twist in the string, not a curse, spoils the shot. The owner’s pride complicates the conversation. No need to humiliate the pupil or demonstrate a master-level shot. The associated voluntary undertaking is The Bow That Will Not Settle.",
-    "x": -28,
-    "y": -6,
+    "x": 27,
+    "y": -21,
     "radius": 1.5,
     "region": "Koganedai Terraces",
     "complexityType": "complex",
@@ -14346,8 +14346,8 @@
     "name": "Koganedai Guesthouse",
     "basicInfo": "A prosperous guesthouse serves eastern merchants and visiting craftspeople. Its courtyard contains more borrowed umbrellas than paying guests. Nearby routes lead toward Goldleaf Arcade, Koganedai Muster Ground.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Mayu Enomoto is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Jin Lin is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Potential unresolved situation: Humidity and one practical target exercise matter. The client retains ownership. A failed trial can still yield the agreed research if it was conducted safely and honestly; it does not give a free prototype. The associated voluntary undertaking is Expedition: A Crossbow in the Rain.",
-    "x": 5,
-    "y": -27,
+    "x": 9,
+    "y": 15,
     "radius": 1.5,
     "region": "Koganedai Terraces",
     "complexityType": "complex",
@@ -14426,10 +14426,10 @@
       "Akitsuhara"
     ]
   },
-  "Mirror-Reed Ferry": {
-    "name": "Mirror-Reed Ferry",
-    "basicInfo": "An attended ferry crosses the broadest reed channel. The ferry staff know the shoals and can explain why the direct-looking route is not the shortest. Nearby routes lead toward Old Ferry Shrine, White Heron Islets, Reedglass Fishing Village, Reedshore Hamlet.",
-    "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Yumi Sawatari is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Potential unresolved situation: A damaged pole and a Reed-Jaw Kappa territorial display stranded the boat. A negotiated passage, alternate landing or proportionate fight works. The helper is alive unless actual play changes that. The associated voluntary undertaking is Akitsuhara Guild: Missing Along the Reeds.",
+  "Mirror-Reed Bridge": {
+    "name": "Mirror-Reed Bridge",
+    "basicInfo": "A red-lacquered timber bridge crosses a clear river between wooded banks. A path-keeper’s shelter and a broad waiting verge serve walkers, pack animals and the occasional small cart. Ferns hide the older footpath beneath the stone approach. Nearby routes lead toward Old Bridge Shrine, White Heron Grove, Reedglass Woodland Hamlet, Reedshore Hamlet.",
+    "hiddenInfo": "Use this actual forest-and-river setting and the placed residents. Ordinary visits to inhabited clearings do not create a fight. Respect owned tools, honest payment and actual completed outcomes. Established local people: Yumi Sawatari. Reuse their records rather than inventing replacements.  Potential unresolved situation: A turned ankle and an Antler-Moss Boar occupying the lower bend have stranded a trail party at a dry shelter. A supported walk, a distraction, an alternate marked path or a proportionate fight can work. The helper is alive unless actual events change that. The voluntary undertaking is Akitsuhara Guild: Missing on the Ridge.",
     "x": -8,
     "y": 17,
     "radius": 1.5,
@@ -14437,25 +14437,25 @@
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
-      "Mirror-Reed Ferry - Near Landing": {
-        "description": "Near Landing is a distinct stopping point at Mirror-Reed Ferry. The ground, visible approach and nearby cover make it possible to observe before committing to the next stretch. An attended ferry crosses the broadest reed channel.",
+      "Mirror-Reed Bridge - Woodland Approach": {
+        "description": "A maintained forest path widens beside a dry stone bench. Travelers can see the near end of the red bridge before committing to the crossing.",
         "paths": [
-          "Mirror-Reed Ferry - Ferry Deck",
-          "Mirror-Reed Ferry - Boat Shelter"
+          "Mirror-Reed Bridge - Bridge Span",
+          "Mirror-Reed Bridge - Path-Keeper Shelter"
         ]
       },
-      "Mirror-Reed Ferry - Ferry Deck": {
-        "description": "Ferry Deck is a distinct stopping point at Mirror-Reed Ferry. The ground, visible approach and nearby cover make it possible to observe before committing to the next stretch. An attended ferry crosses the broadest reed channel.",
+      "Mirror-Reed Bridge - Bridge Span": {
+        "description": "Timber rails follow a single arched span above the narrow river. The deck is wide enough for a pack animal, with passing bays at either end.",
         "paths": [
-          "Mirror-Reed Ferry - Near Landing",
-          "Mirror-Reed Ferry - Boat Shelter"
+          "Mirror-Reed Bridge - Woodland Approach",
+          "Mirror-Reed Bridge - Path-Keeper Shelter"
         ]
       },
-      "Mirror-Reed Ferry - Boat Shelter": {
-        "description": "Boat Shelter is a distinct stopping point at Mirror-Reed Ferry. The ground, visible approach and nearby cover make it possible to observe before committing to the next stretch. An attended ferry crosses the broadest reed channel.",
+      "Mirror-Reed Bridge - Path-Keeper Shelter": {
+        "description": "A roofed shelter holds trail ropes, a broom, spare bridge pegs and Yumi Sawatari’s kettle. A shaded track leaves the clearing for the hamlet.",
         "paths": [
-          "Mirror-Reed Ferry - Near Landing",
-          "Mirror-Reed Ferry - Ferry Deck"
+          "Mirror-Reed Bridge - Woodland Approach",
+          "Mirror-Reed Bridge - Bridge Span"
         ]
       }
     },
@@ -14468,36 +14468,36 @@
       "Akitsuhara"
     ]
   },
-  "Reedglass Fishing Village": {
-    "name": "Reedglass Fishing Village",
-    "basicInfo": "Raised houses surround a fish-smoking yard and a communal boat shed. Families trade catches and mend the same nets through a season of shifting water. Nearby routes lead toward Mirror-Reed Ferry, Reed Dye Workshop.",
-    "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Gorō Fushimi is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation.",
-    "x": -25,
-    "y": -7,
+  "Reedglass Woodland Hamlet": {
+    "name": "Reedglass Woodland Hamlet",
+    "basicInfo": "A few timber homes occupy a sunny clearing above the river, linked by stone steps and garden paths. Firewood, cultivated mushrooms and baskets of herbs wait under deep eaves; the common yard hosts meals and loud card games. Nearby routes lead toward Mirror-Reed Bridge, Woodland Dye Workshop.",
+    "hiddenInfo": "Use this actual forest-and-river setting and the placed residents. Ordinary visits to inhabited clearings do not create a fight. Respect owned tools, honest payment and actual completed outcomes. Established local people: Gorō Fushimi. Reuse their records rather than inventing replacements. ",
+    "x": 43,
+    "y": 24,
     "radius": 1.5,
     "region": "Mirror-Reed Lowlands",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
-      "Reedglass Fishing Village - Raised Lane": {
-        "description": "The raised lane connects the nearby parts of Reedglass Fishing Village. Changes of surface and sightline make the approach readable; the route remains available for an ordinary return. Raised houses surround a fish-smoking yard and a communal boat shed.",
+      "Reedglass Woodland Hamlet - Clearing Lane": {
+        "description": "A lane skirts vegetable beds and the doors of occupied timber cottages. Stacked split wood stays beneath the eaves rather than blocking the walking space.",
         "paths": [
-          "Reedglass Fishing Village - Smoking Yard",
-          "Reedglass Fishing Village - Boat Shed"
+          "Reedglass Woodland Hamlet - Common Yard",
+          "Reedglass Woodland Hamlet - Wood and Herb Store"
         ]
       },
-      "Reedglass Fishing Village - Smoking Yard": {
-        "description": "The smoking yard is a usable part of Reedglass Fishing Village, with work surfaces or clear standing space fitted to the people who use it. Voices and activity from the adjoining space carry across its entrance. Raised houses surround a fish-smoking yard and a communal boat shed.",
+      "Reedglass Woodland Hamlet - Common Yard": {
+        "description": "A shared table and a sheltered hearth face a little mushroom-drying rack. Gorō Fushimi often settles village business here between fiercely argued card games.",
         "paths": [
-          "Reedglass Fishing Village - Raised Lane",
-          "Reedglass Fishing Village - Boat Shed"
+          "Reedglass Woodland Hamlet - Clearing Lane",
+          "Reedglass Woodland Hamlet - Wood and Herb Store"
         ]
       },
-      "Reedglass Fishing Village - Boat Shed": {
-        "description": "The boat shed holds the actual goods and tools used at Reedglass Fishing Village. Kept passages let workers reach the supplies without disturbing the whole place. Raised houses surround a fish-smoking yard and a communal boat shed.",
+      "Reedglass Woodland Hamlet - Wood and Herb Store": {
+        "description": "A dry communal shed holds bundled firewood, hand tools and labeled herb baskets. Borrowing a tool still means asking its owner.",
         "paths": [
-          "Reedglass Fishing Village - Raised Lane",
-          "Reedglass Fishing Village - Smoking Yard"
+          "Reedglass Woodland Hamlet - Clearing Lane",
+          "Reedglass Woodland Hamlet - Common Yard"
         ]
       }
     },
@@ -14510,36 +14510,36 @@
       "Akitsuhara"
     ]
   },
-  "White Heron Islets": {
-    "name": "White Heron Islets",
-    "basicInfo": "Low wooded islets break the lake into sheltered channels. White birds gather on dead branches while something heavier disturbs the reed roots. Nearby routes lead toward Mirror-Reed Ferry, Singing Reed Marsh.",
-    "hiddenInfo": "LOCAL PLAY: Respect signs, actual occupants and an available retreat. The local band describes ordinary new encounters, not a required fight. Habitats can use these actual npcTypes when appropriate: Reed-Jaw Kappa,Whitefall Crane. Generate a finite encounter, preserve its actual outcome, and do not replace cleared creatures on a return. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist.",
-    "x": 17,
-    "y": 28,
+  "White Heron Grove": {
+    "name": "White Heron Grove",
+    "basicInfo": "White birds nest in a stand of pale-barked trees above a shallow river bend. Smooth stones, old roots and pockets of reeds break the bank; the higher path stays within the trees. Nearby routes lead toward Mirror-Reed Bridge, Singing Cedar Hollow.",
+    "hiddenInfo": "Use this actual forest-and-river setting and the placed residents. Ordinary visits to inhabited clearings do not create a fight. Respect owned tools, honest payment and actual completed outcomes. Suitable encounter types: Reed-Jaw Kappa, Whitefall Crane. Use finite occupants and preserve a cleared encounter. ",
+    "x": 23,
+    "y": 40,
     "radius": 1.5,
     "region": "Mirror-Reed Lowlands",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
-      "White Heron Islets - Shallow Shore": {
-        "description": "The shallow shore is a usable part of White Heron Islets, with work surfaces or clear standing space fitted to the people who use it. Voices and activity from the adjoining space carry across its entrance. Low wooded islets break the lake into sheltered channels.",
+      "White Heron Grove - Riverbank Path": {
+        "description": "A narrow path follows the wooded bank. Shallow water and a visible return track let cautious visitors observe before approaching.",
         "paths": [
-          "White Heron Islets - Deadwood Stand",
-          "White Heron Islets - Root Channel"
+          "White Heron Grove - Nesting Trees",
+          "White Heron Grove - Rooted Pool"
         ]
       },
-      "White Heron Islets - Deadwood Stand": {
-        "description": "Deadwood Stand is a distinct stopping point at White Heron Islets. The ground, visible approach and nearby cover make it possible to observe before committing to the next stretch. Low wooded islets break the lake into sheltered channels.",
+      "White Heron Grove - Nesting Trees": {
+        "description": "Pale trunks support a noisy heron colony. Fallen feathers and scored bark show where other creatures have crossed beneath the nests.",
         "paths": [
-          "White Heron Islets - Shallow Shore",
-          "White Heron Islets - Root Channel"
+          "White Heron Grove - Riverbank Path",
+          "White Heron Grove - Rooted Pool"
         ]
       },
-      "White Heron Islets - Root Channel": {
-        "description": "Root Channel is a distinct stopping point at White Heron Islets. The ground, visible approach and nearby cover make it possible to observe before committing to the next stretch. Low wooded islets break the lake into sheltered channels.",
+      "White Heron Grove - Rooted Pool": {
+        "description": "Tree roots arch over one shaded pool beside the river. A dry ledge overlooks the water; disturbing its occupant is a choice rather than a compulsory ambush.",
         "paths": [
-          "White Heron Islets - Shallow Shore",
-          "White Heron Islets - Deadwood Stand"
+          "White Heron Grove - Riverbank Path",
+          "White Heron Grove - Nesting Trees"
         ]
       }
     },
@@ -14552,10 +14552,10 @@
       "Akitsuhara"
     ]
   },
-  "Singing Reed Marsh": {
-    "name": "Singing Reed Marsh",
-    "basicInfo": "Reeds hum against one another above dark water. Raised mats look like firm ground until their roots begin to move. Nearby routes lead toward White Heron Islets, Saltwind Causeway.",
-    "hiddenInfo": "LOCAL PLAY: Respect signs, actual occupants and an available retreat. The local band describes ordinary new encounters, not a required fight. Habitats can use these actual npcTypes when appropriate: Whisper-Reed Oniwa,Mire Lantern. Generate a finite encounter, preserve its actual outcome, and do not replace cleared creatures on a return. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist.",
+  "Singing Cedar Hollow": {
+    "name": "Singing Cedar Hollow",
+    "basicInfo": "A wind funnel carries wavering notes through a wooded hollow between rocky slopes. Strips of old trail cloth catch among cedar branches, and root hollows conceal the source of some replies. Nearby routes lead toward White Heron Grove, Mossbank Ridgeway.",
+    "hiddenInfo": "Use this actual forest-and-river setting and the placed residents. Ordinary visits to inhabited clearings do not create a fight. Respect owned tools, honest payment and actual completed outcomes. Suitable encounter types: Moss-Tongue Kodama, Antler-Moss Boar. Use finite occupants and preserve a cleared encounter. ",
     "x": 28,
     "y": 2,
     "radius": 1.5,
@@ -14563,25 +14563,25 @@
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
-      "Singing Reed Marsh - Raised Bank": {
-        "description": "Raised Bank is a distinct stopping point at Singing Reed Marsh. The ground, visible approach and nearby cover make it possible to observe before committing to the next stretch. Reeds hum against one another above dark water.",
+      "Singing Cedar Hollow - Cedar Descent": {
+        "description": "Switching steps descend through cedar shade. The upper trail remains visible behind the visitor, while sounds gather below.",
         "paths": [
-          "Singing Reed Marsh - Reed Mat",
-          "Singing Reed Marsh - Deep Channel"
+          "Singing Cedar Hollow - Windfall Glade",
+          "Singing Cedar Hollow - Root Hollow"
         ]
       },
-      "Singing Reed Marsh - Reed Mat": {
-        "description": "Reed Mat is a distinct stopping point at Singing Reed Marsh. The ground, visible approach and nearby cover make it possible to observe before committing to the next stretch. Reeds hum against one another above dark water.",
+      "Singing Cedar Hollow - Windfall Glade": {
+        "description": "A fallen cedar opens a patch of light among the trees. Its cracked trunk amplifies wind and smaller noises from the undergrowth.",
         "paths": [
-          "Singing Reed Marsh - Raised Bank",
-          "Singing Reed Marsh - Deep Channel"
+          "Singing Cedar Hollow - Cedar Descent",
+          "Singing Cedar Hollow - Root Hollow"
         ]
       },
-      "Singing Reed Marsh - Deep Channel": {
-        "description": "Deep Channel is a distinct stopping point at Singing Reed Marsh. The ground, visible approach and nearby cover make it possible to observe before committing to the next stretch. Reeds hum against one another above dark water.",
+      "Singing Cedar Hollow - Root Hollow": {
+        "description": "Dry roots frame a deep sheltered recess beneath a boulder. Marks and disturbed leaf litter reward examination before anyone reaches inside.",
         "paths": [
-          "Singing Reed Marsh - Raised Bank",
-          "Singing Reed Marsh - Reed Mat"
+          "Singing Cedar Hollow - Cedar Descent",
+          "Singing Cedar Hollow - Windfall Glade"
         ]
       }
     },
@@ -14594,36 +14594,36 @@
       "Akitsuhara"
     ]
   },
-  "Old Ferry Shrine": {
-    "name": "Old Ferry Shrine",
-    "basicInfo": "An old shrine marks a landing the river has partly abandoned. Visitors leave repaired oars and small promises here; the ferryman across the water has opinions. Nearby routes lead toward Mirror-Reed Ferry.",
-    "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. Habitats can use these actual npcTypes when appropriate: Moss-Tongue Kodama. Generate a finite encounter, preserve its actual outcome, and do not replace cleared creatures on a return. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Koma is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation.",
-    "x": -28,
-    "y": 30,
+  "Old Bridge Shrine": {
+    "name": "Old Bridge Shrine",
+    "basicInfo": "A small roadside shrine stands where an earlier footbridge met the wooded ridge path. Travelers leave repaired walking sandals and little carved charms beneath its eaves. An upright tanuki in a patched saffron coat is often inspecting something with immense self-importance. Nearby routes lead toward Mirror-Reed Bridge.",
+    "hiddenInfo": "Use this actual forest-and-river setting and the placed residents. Ordinary visits to inhabited clearings do not create a fight. Respect owned tools, honest payment and actual completed outcomes. Suitable encounter types: Moss-Tongue Kodama. Use finite occupants and preserve a cleared encounter. Established local people: Koma. Reuse their records rather than inventing replacements. ",
+    "x": -20,
+    "y": 38,
     "radius": 1.5,
     "region": "Mirror-Reed Lowlands",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
-      "Old Ferry Shrine - Dry Landing": {
-        "description": "Dry Landing is a distinct stopping point at Old Ferry Shrine. The ground, visible approach and nearby cover make it possible to observe before committing to the next stretch. An old shrine marks a landing the river has partly abandoned.",
+      "Old Bridge Shrine - Trail Approach": {
+        "description": "Mossy boundary stones border the maintained approach. The present bridge can be reached by the lower path without entering the shrine court.",
         "paths": [
-          "Old Ferry Shrine - Oar Shelter",
-          "Old Ferry Shrine - Shrine Steps"
+          "Old Bridge Shrine - Charm Shelter",
+          "Old Bridge Shrine - Shrine Steps"
         ]
       },
-      "Old Ferry Shrine - Oar Shelter": {
-        "description": "Oar Shelter is a distinct stopping point at Old Ferry Shrine. The ground, visible approach and nearby cover make it possible to observe before committing to the next stretch. An old shrine marks a landing the river has partly abandoned.",
+      "Old Bridge Shrine - Charm Shelter": {
+        "description": "A little roof shelters carved tokens, spare walking cords and a bench. Koma likes to occupy the driest corner while judging other people’s preparations.",
         "paths": [
-          "Old Ferry Shrine - Dry Landing",
-          "Old Ferry Shrine - Shrine Steps"
+          "Old Bridge Shrine - Trail Approach",
+          "Old Bridge Shrine - Shrine Steps"
         ]
       },
-      "Old Ferry Shrine - Shrine Steps": {
-        "description": "The shrine steps connects the nearby parts of Old Ferry Shrine. Changes of surface and sightline make the approach readable; the route remains available for an ordinary return. An old shrine marks a landing the river has partly abandoned.",
+      "Old Bridge Shrine - Shrine Steps": {
+        "description": "Three old stone steps lead to the small shrine. A low retaining wall, cedar shade and a clear path back keep the space welcoming to ordinary travelers.",
         "paths": [
-          "Old Ferry Shrine - Dry Landing",
-          "Old Ferry Shrine - Oar Shelter"
+          "Old Bridge Shrine - Trail Approach",
+          "Old Bridge Shrine - Charm Shelter"
         ]
       }
     },
@@ -14636,10 +14636,10 @@
       "Akitsuhara"
     ]
   },
-  "Saltwind Causeway": {
-    "name": "Saltwind Causeway",
-    "basicInfo": "A low causeway links hamlets across the shallows. Carts can cross in normal weather, with refuge platforms above the flood line. Nearby routes lead toward Singing Reed Marsh, South River Bridge.",
-    "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. Habitats can use these actual npcTypes when appropriate: Reed-Jaw Kappa. Generate a finite encounter, preserve its actual outcome, and do not replace cleared creatures on a return. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist.",
+  "Mossbank Ridgeway": {
+    "name": "Mossbank Ridgeway",
+    "basicInfo": "A maintained ridge path winds between moss-covered rocks and cedar trunks. Low stone walls stabilize the steeper bends, and small shelters mark sensible places to rest a load before the road reaches open grain country. Nearby routes lead toward Singing Cedar Hollow, South River Bridge.",
+    "hiddenInfo": "Use this actual forest-and-river setting and the placed residents. Ordinary visits to inhabited clearings do not create a fight. Respect owned tools, honest payment and actual completed outcomes. Suitable encounter types: Moss-Tongue Kodama. Use finite occupants and preserve a cleared encounter. ",
     "x": 10,
     "y": -28,
     "radius": 1.5,
@@ -14647,25 +14647,25 @@
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
-      "Saltwind Causeway - Near Causeway": {
-        "description": "Near Causeway is a distinct stopping point at Saltwind Causeway. The ground, visible approach and nearby cover make it possible to observe before committing to the next stretch. A low causeway links hamlets across the shallows.",
+      "Mossbank Ridgeway - Ridge Approach": {
+        "description": "Packed earth climbs past a low waymarker into the trees. The grade is manageable with a balanced load and patience.",
         "paths": [
-          "Saltwind Causeway - Refuge Platform",
-          "Saltwind Causeway - Far Gate"
+          "Mossbank Ridgeway - Rest Shelter",
+          "Mossbank Ridgeway - Southward Bend"
         ]
       },
-      "Saltwind Causeway - Refuge Platform": {
-        "description": "Refuge Platform is a distinct stopping point at Saltwind Causeway. The ground, visible approach and nearby cover make it possible to observe before committing to the next stretch. A low causeway links hamlets across the shallows.",
+      "Mossbank Ridgeway - Rest Shelter": {
+        "description": "A roofed stone platform offers a dry place to retie a pack or wait out a passing shower. The trail ahead remains visible through the trunks.",
         "paths": [
-          "Saltwind Causeway - Near Causeway",
-          "Saltwind Causeway - Far Gate"
+          "Mossbank Ridgeway - Ridge Approach",
+          "Mossbank Ridgeway - Southward Bend"
         ]
       },
-      "Saltwind Causeway - Far Gate": {
-        "description": "Far Gate is a distinct stopping point at Saltwind Causeway. The ground, visible approach and nearby cover make it possible to observe before committing to the next stretch. A low causeway links hamlets across the shallows.",
+      "Mossbank Ridgeway - Southward Bend": {
+        "description": "The ridge bends toward the farm roads beyond the forest. A short repaired wall keeps loose stones from spilling across the track.",
         "paths": [
-          "Saltwind Causeway - Near Causeway",
-          "Saltwind Causeway - Refuge Platform"
+          "Mossbank Ridgeway - Ridge Approach",
+          "Mossbank Ridgeway - Rest Shelter"
         ]
       }
     },
@@ -14678,10 +14678,10 @@
       "Akitsuhara"
     ]
   },
-  "Reed Dye Workshop": {
-    "name": "Reed Dye Workshop",
-    "basicInfo": "Dyemakers steep local reeds beside racks of vivid cloth. A missing shipment has left one tub unused while neighbors argue over whose boat carried it. Nearby routes lead toward Reedglass Fishing Village.",
-    "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Aya Takino is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Potential unresolved situation: The boat is stuck in a shallow channel, not kidnapped. Rope work, a second boat or adjusting a gate can help. A torn bundle is a negotiable partial result, not an excuse for an invented pirate attack. The associated voluntary undertaking is Akitsuhara Guild: Cloth on the Other Bank.",
+  "Woodland Dye Workshop": {
+    "name": "Woodland Dye Workshop",
+    "basicInfo": "A timber workshop and drying yard sit beside a clean stream below the trees. Aya Takino steeps bark, roots and gathered leaves into vivid dyes; cloth bundles arrive by pack trail, and the rinsing channel turns a different color with each batch. Nearby routes lead toward Reedglass Woodland Hamlet.",
+    "hiddenInfo": "Use this actual forest-and-river setting and the placed residents. Ordinary visits to inhabited clearings do not create a fight. Respect owned tools, honest payment and actual completed outcomes. Established local people: Aya Takino. Reuse their records rather than inventing replacements.  Potential unresolved situation: A loose wheel and a sudden shower left the small cart tilted beside the forest path. Secure the load, repair or lighten the cart, or arrange willing porters. A torn bundle is a negotiable partial result; this is a practical recovery, not a pirate attack. The voluntary undertaking is Akitsuhara Guild: Cloth on the Forest Road.",
     "x": -30,
     "y": -29,
     "radius": 1.5,
@@ -14689,25 +14689,25 @@
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
-      "Reed Dye Workshop - Dye Yard": {
-        "description": "The dye yard is a usable part of Reed Dye Workshop, with work surfaces or clear standing space fitted to the people who use it. Voices and activity from the adjoining space carry across its entrance. Dyemakers steep local reeds beside racks of vivid cloth.",
+      "Woodland Dye Workshop - Dye Yard": {
+        "description": "Covered vats stand on a level stone apron beside stacked bark and root baskets. Workers keep clear lanes between the hot vessels and the rinse channel.",
         "paths": [
-          "Reed Dye Workshop - Cloth Racks",
-          "Reed Dye Workshop - Ledger Bench"
+          "Woodland Dye Workshop - Cloth Racks",
+          "Woodland Dye Workshop - Ledger Bench"
         ]
       },
-      "Reed Dye Workshop - Cloth Racks": {
-        "description": "The cloth racks holds the actual goods and tools used at Reed Dye Workshop. Kept passages let workers reach the supplies without disturbing the whole place. Dyemakers steep local reeds beside racks of vivid cloth.",
+      "Woodland Dye Workshop - Cloth Racks": {
+        "description": "Long racks support bright fabric under an open-sided roof. A low rail separates clean drying cloth from muddy deliveries.",
         "paths": [
-          "Reed Dye Workshop - Dye Yard",
-          "Reed Dye Workshop - Ledger Bench"
+          "Woodland Dye Workshop - Dye Yard",
+          "Woodland Dye Workshop - Ledger Bench"
         ]
       },
-      "Reed Dye Workshop - Ledger Bench": {
-        "description": "Ledger Bench is a distinct stopping point at Reed Dye Workshop. The ground, visible approach and nearby cover make it possible to observe before committing to the next stretch. Dyemakers steep local reeds beside racks of vivid cloth.",
+      "Woodland Dye Workshop - Ledger Bench": {
+        "description": "A standing-height bench holds sample swatches, a balance and the day’s consignment notes. Aya Takino compares colors here with little patience for vague requests.",
         "paths": [
-          "Reed Dye Workshop - Dye Yard",
-          "Reed Dye Workshop - Cloth Racks"
+          "Woodland Dye Workshop - Dye Yard",
+          "Woodland Dye Workshop - Cloth Racks"
         ]
       }
     },
@@ -14724,8 +14724,8 @@
     "name": "Hoshina Village",
     "basicInfo": "A farming village surrounds a grain yard, gardens and a small roadside shrine. The fields support ordinary lives whose disagreements rarely need a sword. Nearby routes lead toward Low Meadow Paddies, Susuki Road, Golden Sheaf Granary, Rainsong Mill.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Mutsumi Hosaka is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Potential unresolved situation: One ordinary animal uses a broken fence gap. Repair, diversion and relocation are possible. Respect its actual resolved state; no larger parent appears as a compulsory second hunt. The associated voluntary undertaking is Akitsuhara Guild: Unwelcome at the Orchard. Potential unresolved situation: A jammed vent, wet kindling and a missing paddle offer ordinary choices. Practical help, asking the right person or a modest cantrip works. No hidden disaster or automatic ownership of a cottage. The associated voluntary undertaking is First Bread in Hoshina.",
-    "x": -8,
-    "y": -3,
+    "x": 5,
+    "y": 21,
     "radius": 1.5,
     "region": "Golden Grain Plain",
     "complexityType": "complex",
@@ -14775,8 +14775,8 @@
     "name": "Golden Sheaf Granary",
     "basicInfo": "A public granary keeps measured stores for winter and bad harvests. Its keeper takes damaged sacks personally and gives hungry visitors directions before a lecture. Nearby routes lead toward Hoshina Village.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. Habitats can use these actual npcTypes when appropriate: Granary Rat. Generate a finite encounter, preserve its actual outcome, and do not replace cleared creatures on a return. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Tōru Fukada is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation.",
-    "x": -26,
-    "y": 25,
+    "x": -30,
+    "y": 28,
     "radius": 1.5,
     "region": "Golden Grain Plain",
     "complexityType": "complex",
@@ -14815,10 +14815,10 @@
   },
   "South River Bridge": {
     "name": "South River Bridge",
-    "basicInfo": "A broad bridge carries the southern road over the river. A repair crew occupies one lane while travelers debate whether they can fit a wider cart through. Nearby routes lead toward Goldfinch Orchard, Saltwind Causeway.",
+    "basicInfo": "A broad bridge carries the southern road over the river. A repair crew occupies one lane while travelers debate whether they can fit a wider cart through. Nearby routes lead toward Goldfinch Orchard, Mossbank Ridgeway.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Rika Ogata is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Potential unresolved situation: A contractor supplied a thinner beam than the invoice claimed. Secure the crossing before pursuing blame. Replacement, a sound temporary brace or restricted use can fulfill the accepted scope. The associated voluntary undertaking is Akitsuhara Guild: What the Bridge Carries.",
-    "x": 29,
-    "y": 23,
+    "x": 25,
+    "y": 45,
     "radius": 1.5,
     "region": "Golden Grain Plain",
     "complexityType": "complex",
@@ -14859,8 +14859,8 @@
     "name": "Goldfinch Orchard",
     "basicInfo": "An orchard and honey yard produce fruit, wax and loudly disputed preserves. Visitors can arrange seasonal work or buy a basket for the road. Nearby routes lead toward Saffron Road Hostel, South River Bridge.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. Habitats can use these actual npcTypes when appropriate: Orchard Sootling. Generate a finite encounter, preserve its actual outcome, and do not replace cleared creatures on a return. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Kenji Morita is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Potential unresolved situation: The hive is valuable property. Smoke, patient handling, a trained helper or suitable magic can solve it. Killing every bee destroys the agreed asset rather than automatically winning. The associated voluntary undertaking is Akitsuhara Guild: Bees at the Wrong Door.",
-    "x": 26,
-    "y": -7,
+    "x": 37,
+    "y": 22,
     "radius": 1.5,
     "region": "Golden Grain Plain",
     "complexityType": "complex",
@@ -14901,8 +14901,8 @@
     "name": "Susuki Road",
     "basicInfo": "White grass borders a road through broad grain country. The view makes approaching carts easy to see, but a neglected side path leads toward empty fields. Nearby routes lead toward Hoshina Village.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. Habitats can use these actual npcTypes when appropriate: Bamboo Fox. Generate a finite encounter, preserve its actual outcome, and do not replace cleared creatures on a return. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist.",
-    "x": -29,
-    "y": -22,
+    "x": -5,
+    "y": 32,
     "radius": 1.5,
     "region": "Golden Grain Plain",
     "complexityType": "complex",
@@ -14943,8 +14943,8 @@
     "name": "Low Meadow Paddies",
     "basicInfo": "Irrigated paddies are divided by raised footpaths and small gates. Water theft and blocked channels can cause more trouble than the creatures hunting frogs. Nearby routes lead toward Hoshina Village, Saffron Road Hostel, Redleaf Guest Village.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. Habitats can use these actual npcTypes when appropriate: Paddy Mudling. Generate a finite encounter, preserve its actual outcome, and do not replace cleared creatures on a return. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Yōko Sanada is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation.",
-    "x": 5,
-    "y": -27,
+    "x": 22,
+    "y": 7,
     "radius": 1.5,
     "region": "Golden Grain Plain",
     "complexityType": "complex",
@@ -15027,8 +15027,8 @@
     "name": "Redleaf Bridge",
     "basicInfo": "A long bridge joins maple-red riverbanks. Tea sellers wait at each end, and pilgrims stop in its sheltered middle to watch the water. Nearby routes lead toward Evening Maple Shrine, South Gate Caravan Yard.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. Habitats can use these actual npcTypes when appropriate: Lantern Prowler. Generate a finite encounter, preserve its actual outcome, and do not replace cleared creatures on a return. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist.",
-    "x": -18,
-    "y": 26,
+    "x": -48,
+    "y": 10,
     "radius": 1.5,
     "region": "Redleaf River Country",
     "complexityType": "complex",
@@ -15069,8 +15069,8 @@
     "name": "Evening Maple Shrine",
     "basicInfo": "A lively shrine hosts ordinary petitions, seasonal gatherings and practical lessons in tending a spirit boundary. The keeper has set aside a bell needing only a little local help. Nearby routes lead toward Redleaf Bridge, River Lantern Mooring, Paper Moon Pavilion, Moonless Torii.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Sae Kagurazaka is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Iori Kagurazaka is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Potential unresolved situation: The clapper is visible below River Lantern Mooring - Cargo Steps. A pole, rope loop, careful wading or a suitable cantrip works. No rare drop, dangerous hunt or tournament is required. Sae supplies the bell body and shows the safe Moonless Torii approach after the actual repair. The route is earned through this short local help, not an examination. The associated voluntary undertaking is A Bell for the Mist.",
-    "x": 6,
-    "y": 15,
+    "x": -1,
+    "y": 11,
     "radius": 1.5,
     "region": "Redleaf River Country",
     "complexityType": "complex",
@@ -15120,8 +15120,8 @@
     "name": "Redleaf Guest Village",
     "basicInfo": "Guesthouses and small gardens line a pilgrim road. Locals know how to dry a soaked travel cloak and exactly which host watered yesterday's soup. Nearby routes lead toward Redleaf Apiculture, Broken Kite Camp, Low Meadow Paddies.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Chihiro Noda is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation.",
-    "x": -24,
-    "y": -9,
+    "x": -27,
+    "y": 1,
     "radius": 1.5,
     "region": "Redleaf River Country",
     "complexityType": "complex",
@@ -15162,8 +15162,8 @@
     "name": "Paper Moon Pavilion",
     "basicInfo": "An old festival pavilion overlooks a river bend. Performers still use its covered floor, though some of the stored masks have become strangely hard to count. Nearby routes lead toward Evening Maple Shrine, Foxfire Verge.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. Habitats can use these actual npcTypes when appropriate: Cinder Umbrella,Paper-Face Lurker. Generate a finite encounter, preserve its actual outcome, and do not replace cleared creatures on a return. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Potential unresolved situation: A Paper-Face Lurker animates borrowed props to seek an audience. A contained performance, restitution or dispersal works if it actually stops attacking handlers. No possession of the whole theater. The associated voluntary undertaking is Akitsuhara Guild: A Mask Too Many.",
-    "x": 25,
-    "y": -8,
+    "x": 12,
+    "y": -12,
     "radius": 1.5,
     "region": "Redleaf River Country",
     "complexityType": "complex",
@@ -15246,8 +15246,8 @@
     "name": "Broken Kite Camp",
     "basicInfo": "A disreputable camp occupies an old roadside enclosure. Cooking smoke, stolen pennants and badly patched tents make its residents easier to find than they believe. Nearby routes lead toward Redleaf Guest Village.",
     "hiddenInfo": "LOCAL PLAY: Respect signs, actual occupants and an available retreat. The local band describes ordinary new encounters, not a required fight. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Renga Itsuzaki is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Katsuho Enoki is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Jun Sasanami is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Potential unresolved situation: Katsuho wants out but also wants to keep the profit. Copies of his accounts may support exposure, leverage or a voluntary restitution. Killing a random bandit does not return the named cargo. No forced recruitment or automatic moral conversion. The associated voluntary undertaking is The Ledger and the Soup.",
-    "x": -30,
-    "y": -31,
+    "x": 24,
+    "y": -14,
     "radius": 1.5,
     "region": "Redleaf River Country",
     "complexityType": "complex",
@@ -15288,8 +15288,8 @@
     "name": "Redleaf Apiculture",
     "basicInfo": "Hives stand beneath flowering trees beside a wax workshop. The keeper sells candles and is quite tired of visitors treating bees as a free spectacle. Nearby routes lead toward Foxfire Verge, Redleaf Guest Village.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. Habitats can use these actual npcTypes when appropriate: Orchard Sootling. Generate a finite encounter, preserve its actual outcome, and do not replace cleared creatures on a return. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Makiya Utsugi is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation.",
-    "x": 5,
-    "y": -27,
+    "x": -41,
+    "y": -4,
     "radius": 1.5,
     "region": "Redleaf River Country",
     "complexityType": "complex",
@@ -15372,8 +15372,8 @@
     "name": "Moonless Torii",
     "basicInfo": "A dark stone torii stands among enormous cedar roots above a clear lower trail. A weathered bell hook faces an empty space between its uprights; an ordinary shrine path leads back toward Redleaf. Nearby routes lead toward Lanternwood Root Shrine, Lanternwood Field Shelter, Evening Maple Shrine.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist.",
-    "x": -26,
-    "y": 0,
+    "x": 22,
+    "y": -4,
     "radius": 1.5,
     "region": "Lanternwood Border",
     "complexityType": "complex",
@@ -15414,8 +15414,8 @@
     "name": "Lanternwood Root Shrine",
     "basicInfo": "A small shrine occupies a living root arch. Travelers leave lamps inside deep niches, and the caretaker keeps the lower route clear. Nearby routes lead toward Moonless Torii, Foxglade Spirit Orchard, Koganedai Muster Ground.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. Habitats can use these actual npcTypes when appropriate: Moss-Tongue Kodama. Generate a finite encounter, preserve its actual outcome, and do not replace cleared creatures on a return. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Yukina Tsuribe is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation.",
-    "x": -20,
-    "y": 28,
+    "x": -26,
+    "y": 34,
     "radius": 1.5,
     "region": "Lanternwood Border",
     "complexityType": "complex",
@@ -15456,8 +15456,8 @@
     "name": "Ragged Cedar Hollow",
     "basicInfo": "A tall hollow between ancient trunks is littered with torn cloth and broken animal bones. Snapping sounds move from tree to tree above ordinary sightlines. Nearby routes lead toward Old Mask Trail.",
     "hiddenInfo": "LOCAL PLAY: Respect signs, actual occupants and an available retreat. The local band describes ordinary new encounters, not a required fight. Habitats can use these actual npcTypes when appropriate: Paper-Face Lurker. Generate a finite encounter, preserve its actual outcome, and do not replace cleared creatures on a return. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Hagire is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation.",
-    "x": 18,
-    "y": -6,
+    "x": 31,
+    "y": 7,
     "radius": 1.5,
     "region": "Lanternwood Border",
     "complexityType": "complex",
@@ -15498,8 +15498,8 @@
     "name": "Old Mask Trail",
     "basicInfo": "An abandoned trail winds between hanging roots and empty mask niches. Its far turn is hidden by a steep wall of ferns. Nearby routes lead toward Hushwater Pool, Ragged Cedar Hollow.",
     "hiddenInfo": "LOCAL PLAY: Respect signs, actual occupants and an available retreat. The local band describes ordinary new encounters, not a required fight. Habitats can use these actual npcTypes when appropriate: Lantern Prowler. Generate a finite encounter, preserve its actual outcome, and do not replace cleared creatures on a return. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist.",
-    "x": 30,
-    "y": -31,
+    "x": 19,
+    "y": 13,
     "radius": 1.5,
     "region": "Lanternwood Border",
     "complexityType": "complex",
@@ -15540,8 +15540,8 @@
     "name": "Rootfall Ravine",
     "basicInfo": "Water falls through a narrow ravine roofed by roots. The upper path is usable; the lower stones require care and carry fresh claw marks. Nearby routes lead toward Foxglade Spirit Orchard.",
     "hiddenInfo": "LOCAL PLAY: Respect signs, actual occupants and an available retreat. The local band describes ordinary new encounters, not a required fight. Habitats can use these actual npcTypes when appropriate: Root-Back Nue. Generate a finite encounter, preserve its actual outcome, and do not replace cleared creatures on a return. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Potential unresolved situation: A Root-Back Nue hunts from the overhead roots. Block its approach, relocate its bait or defeat it. The upper path remains a retreat; it does not seal itself behind the party. The associated voluntary undertaking is Akitsuhara Guild: A Shape above the Roots.",
-    "x": 30,
-    "y": 26,
+    "x": -11,
+    "y": -37,
     "radius": 1.5,
     "region": "Lanternwood Border",
     "complexityType": "complex",
@@ -15582,8 +15582,8 @@
     "name": "Lanternwood Field Shelter",
     "basicInfo": "A small attended shelter marks the last reliable bed and supply stop on the lower forest approach. Its bell sounds toward the road when visibility closes. Nearby routes lead toward Moonless Torii, Hushwater Pool.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Asa Kogure is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Potential unresolved situation: Hagire is level 42, hostile and physically dangerous. Torn strips and snapping joints warn before her reach does. Her three haunts are Ragged Cedar Hollow, Old Mask Trail and Foxfire Verge. Investigation can reveal narrow low crossings that restrict her contorted lunges. Ordinary pleading does not tame her; retreat and a prepared party are sensible. A real defeat or effective exclusion ends this finite contract. Merely reaching a hollow or surviving a glance does not. The associated voluntary undertaking is Akitsuhara Guild: Hagire among the Cedars.",
-    "x": -30,
-    "y": -30,
+    "x": -5,
+    "y": -9,
     "radius": 1.5,
     "region": "Lanternwood Border",
     "complexityType": "complex",
@@ -15624,8 +15624,8 @@
     "name": "Foxglade Spirit Orchard",
     "basicInfo": "Old fruit trees grow in a cedar clearing where no household claims the harvest. Small wooden bowls sit at the roots, some newly filled. Nearby routes lead toward Lanternwood Root Shrine, Rootfall Ravine.",
     "hiddenInfo": "LOCAL PLAY: Respect signs, actual occupants and an available retreat. The local band describes ordinary new encounters, not a required fight. Habitats can use these actual npcTypes when appropriate: Bamboo Fox,Orchard Sootling. Generate a finite encounter, preserve its actual outcome, and do not replace cleared creatures on a return. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist.",
-    "x": 5,
-    "y": 32,
+    "x": 4,
+    "y": 41,
     "radius": 1.5,
     "region": "Lanternwood Border",
     "complexityType": "complex",
@@ -15666,8 +15666,8 @@
     "name": "Hushwater Pool",
     "basicInfo": "A dark pool lies under an overhanging stone face. Ripples continue after the wind stops; a shallow gravel shelf offers a safe place to observe before approaching. Nearby routes lead toward Lanternwood Field Shelter, Old Mask Trail.",
     "hiddenInfo": "LOCAL PLAY: Respect signs, actual occupants and an available retreat. The local band describes ordinary new encounters, not a required fight. Habitats can use these actual npcTypes when appropriate: Reed-Jaw Kappa,Whisper-Reed Oniwa. Generate a finite encounter, preserve its actual outcome, and do not replace cleared creatures on a return. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist.",
-    "x": 4,
-    "y": -30,
+    "x": 14,
+    "y": 26,
     "radius": 1.5,
     "region": "Lanternwood Border",
     "complexityType": "complex",
@@ -15983,5 +15983,56 @@
       "max": 42
     },
     "factions": []
+  },
+  "Hinoki Hollow Onsen": {
+    "name": "Hinoki Hollow Onsen",
+    "basicInfo": "Warm mineral water rises beneath a low cypress bathhouse at the wooded edge of Benitsuru. A covered washing court, small quiet pools and a garden rest veranda offer a break from the capital. A basic bath and clean towel cost 6 marks. A short maintained lane leads toward South Gate Caravan Yard.",
+    "x": 34,
+    "y": -45,
+    "radius": 2,
+    "region": "Benitsuru Basin",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "initialKnown": true,
+    "hiddenInfo": "Atsuha Yunokawa runs this actual bathhouse. Establish ordinary fees and privacy before use. A bath is ordinary rest, not an automatic cure or duplicated resource grant. A guest may talk, wash or leave; do not infer intimacy from paying for a bath.",
+    "npcLevelRange": {
+      "min": 1,
+      "max": 12
+    },
+    "factions": [
+      "Akitsuhara"
+    ],
+    "areas": {
+      "Hinoki Hollow Onsen - Reception Porch": {
+        "description": "The reception porch is a usable part of Hinoki Hollow Onsen, with work surfaces or clear standing space fitted to the people who use it. Voices and activity from the adjoining space carry across its entrance. Warm mineral water rises beneath a low cypress bathhouse at the wooded edge of Benitsuru.",
+        "paths": [
+          "Hinoki Hollow Onsen - Washing Court",
+          "Hinoki Hollow Onsen - Stone Pools",
+          "Hinoki Hollow Onsen - Rest Veranda"
+        ]
+      },
+      "Hinoki Hollow Onsen - Washing Court": {
+        "description": "The washing court is a usable part of Hinoki Hollow Onsen, with work surfaces or clear standing space fitted to the people who use it. Voices and activity from the adjoining space carry across its entrance. Warm mineral water rises beneath a low cypress bathhouse at the wooded edge of Benitsuru.",
+        "paths": [
+          "Hinoki Hollow Onsen - Reception Porch",
+          "Hinoki Hollow Onsen - Stone Pools"
+        ]
+      },
+      "Hinoki Hollow Onsen - Stone Pools": {
+        "description": "Stone Pools is a distinct stopping point at Hinoki Hollow Onsen. The ground, visible approach and nearby cover make it possible to observe before committing to the next stretch. Warm mineral water rises beneath a low cypress bathhouse at the wooded edge of Benitsuru.",
+        "paths": [
+          "Hinoki Hollow Onsen - Reception Porch",
+          "Hinoki Hollow Onsen - Washing Court",
+          "Hinoki Hollow Onsen - Rest Veranda"
+        ]
+      },
+      "Hinoki Hollow Onsen - Rest Veranda": {
+        "description": "The rest veranda is a usable part of Hinoki Hollow Onsen, with work surfaces or clear standing space fitted to the people who use it. Voices and activity from the adjoining space carry across its entrance. Warm mineral water rises beneath a low cypress bathhouse at the wooded edge of Benitsuru.",
+        "paths": [
+          "Hinoki Hollow Onsen - Reception Porch",
+          "Hinoki Hollow Onsen - Stone Pools"
+        ]
+      }
+    }
   }
 }

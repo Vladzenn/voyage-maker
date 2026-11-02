@@ -2733,13 +2733,20 @@
         "description": "A service corridor links the dining room with the inn's working spaces.",
         "paths": [
           "Roseberry Inn - Front Desk",
-          "Roseberry Inn - Guest Stair"
+          "Roseberry Inn - Guest Stair",
+          "Roseberry Inn - Cellar"
         ]
       },
       "Roseberry Inn - Roseberry Attic Room": {
         "description": "A compact private attic room with a bed, washstand, locking chest and writing table under the eaves.",
         "paths": [
           "Roseberry Inn - Guest Stair"
+        ]
+      },
+      "Roseberry Inn - Cellar": {
+        "description": "Broad wooden steps lead into a low, cool cellar smelling of flour and apple skins. Sack shelves, a work stool and spare boards flank a clear central aisle; a small ground-level vent lets in a strip of daylight.",
+        "paths": [
+          "Roseberry Inn - Kitchen Passage"
         ]
       }
     },

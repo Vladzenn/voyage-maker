@@ -11,7 +11,7 @@
     "skillSettings": "4b915954e450aaa4d9adaa941cbc43f06d9aa2540dd687b0a341a26bb79f2adc",
     "factions": "b1f56232b03d5632e3431d82153b22529e3f9b2dcaf7fe393f6c485a8ced2b94",
     "regions": "5f07b62850aad6b6235dcb6b6702638e0fa4785fd76216bb1825f8338dff0a5c",
-    "npcTypes": "9f4fe8089b5721bc05db1fb37ba97990c72c49d7ab7b698cc1b0092314525977",
+    "npcTypes": "c99cbc817942da7d63899c1a97c1066714e87fad59fbad31ca1fa8ee54035f47",
     "itemSettings": "d88a80a58c0cbecbfef889d8ddf4b1d3f21957fe826a4d1f8b68b7a6bd5bd420",
     "imagePromptConfiguration": "23269c833eacd3e6fea1fcc980c518e60beee1190fb66d6b404e42b2a667c38b",
     "characterCreationSettings": "b4976d233b8d4d58b7c4b657cef254a4e6ae1168c957c28458f957dd0bd9afd5",
@@ -20,7 +20,7 @@
     "gameModes": "063d5790ccb11be451ff4780abec36b7d413dd2cbdd5a2c52f06b5481fcc5fe8",
     "combatSettings": "dbe321b7b0978f31e014ca712dfc63d37616b25b534918d2a768381bbe5f43dc",
     "locationArchetypes": "ce90176a28c57d6ae546e511e57df7f7af0a5427643c91d4d5374fe8b54e206e",
-    "parties": "1436248e4e344d0f08c8ce501aa79a4fae920c8be1e4c75998a4d2cc0f0577af",
+    "parties": "358be518d06bfbba2037615c49e4646b5aaacfcd952c79d88117c6996410394d",
     "mods": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
     "narratorStyle": "6cc55aa17a6835514357f83654779ccb78b14652827f7af1aa4b49da0ec566de",
     "endGame": "f4236a329c82c088ac449e96d18159bce145e2006e9a208cb29590e1cac8e819",
@@ -78,7 +78,7 @@
     "The Gilded Griffin": "e42d2887a299740a83b839a3cd9dbcde632b52f8a973f9b995ae0a4d0202f21d",
     "Wayfarer's Goods": "53af442f7ad270efc4f7e3ab37250df8ca6cd8b432759de0a14c62a6ebd23547",
     "Crooked Tankard": "5b8688644d2b582f013b9be569dbfb146d09bdcc57cb627af529aeb126be4864",
-    "Roseberry Inn": "5855fd63841194b3e2e41b458eddcb9f2f43b2b93f6b0fa3e07a25c4b04a9018",
+    "Roseberry Inn": "7e5f2d64c0425ccf1fd905e0df8f1829d3b7ae310538dfdab1ab09b05e3520d2",
     "Driftstone Isle": "eac88ae4fa9f180e214a29fca2f80670927a14765747a9a238be0efa6bde2084",
     "Pinewake Coast": "3324818c4c1e6a41154a7b7ffa3e72e34f6472a14a51b3d8d55e62a732792c91",
     "Clovermead": "aa54dbb7a6667d289056e2b5d5e1bc1c97e2ee95e623a6f26077670cf95d2bce",
@@ -297,5 +297,23 @@
       "progressionSettings.startingCharacterLevelUpRequirement",
       "progressionSettings.extraRequiredXPPerCharacterLevel"
     ]
+  },
+  "approvedFieldworkRevision": {
+    "date": "2026-11-02",
+    "changes": {
+      "npcTypes": {
+        "before": "9f4fe8089b5721bc05db1fb37ba97990c72c49d7ab7b698cc1b0092314525977",
+        "after": "c99cbc817942da7d63899c1a97c1066714e87fad59fbad31ca1fa8ee54035f47"
+      },
+      "parties": {
+        "before": "1436248e4e344d0f08c8ce501aa79a4fae920c8be1e4c75998a4d2cc0f0577af",
+        "after": "358be518d06bfbba2037615c49e4646b5aaacfcd952c79d88117c6996410394d"
+      },
+      "Roseberry Inn": {
+        "before": "5855fd63841194b3e2e41b458eddcb9f2f43b2b93f6b0fa3e07a25c4b04a9018",
+        "after": "7e5f2d64c0425ccf1fd905e0df8f1829d3b7ae310538dfdab1ab09b05e3520d2"
+      }
+    },
+    "scope": "18 appended types, 19 native quests, six brief-only edits plus corrected boar notice, one connected inn cellar. Existing quest checks/effects and all Spider fingerprints unchanged."
   }
 }

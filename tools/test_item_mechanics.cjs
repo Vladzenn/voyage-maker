@@ -103,6 +103,8 @@ const recommended={
 };
 const expansionManifest=path.join(__dirname,'adventurers','manifest.json');
 if(fs.existsSync(expansionManifest))for(const job of JSON.parse(fs.readFileSync(expansionManifest,'utf8')).guildJobs||[])recommended[job.title]=job.recommendedLevel;
+const fieldworkManifest=path.join(__dirname,'fieldwork','manifest.json');
+if(fs.existsSync(fieldworkManifest))for(const job of JSON.parse(fs.readFileSync(fieldworkManifest,'utf8')).jobs)recommended[job.title]=job.recommendedLevel;
 for(const level of levels)for(let cursor=0;cursor<20;cursor+=2){
  const result=runBoard({level,rank:4,cursor});
  for(const e of result.effects)if(e.type==='quest-init')ck(recommended[e.value]<=level+(level<10?2:5),'Routine offer respects level '+level+'/'+e.value);

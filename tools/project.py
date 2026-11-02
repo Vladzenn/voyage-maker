@@ -266,6 +266,8 @@ def publish(message):
     if (ROOT / 'tools/test_voyage_portraits.py').exists():
         subprocess.run([sys.executable, str(ROOT / 'tools/test_voyage_portraits.py')], cwd=ROOT, check=True)
     subprocess.run(['node', str(ROOT / 'tools/test_item_mechanics.cjs')], cwd=ROOT, check=True)
+    if (ROOT / 'tools/test_fieldwork.cjs').exists():
+        subprocess.run(['node', str(ROOT / 'tools/test_fieldwork.cjs')], cwd=ROOT, check=True)
     if (ROOT / 'tools/test_adventurers.cjs').exists():
         subprocess.run(['node', str(ROOT / 'tools/test_adventurers.cjs')], cwd=ROOT, check=True)
     if (ROOT / 'tools/test_creation.cjs').exists():

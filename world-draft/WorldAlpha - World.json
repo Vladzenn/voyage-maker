@@ -119,7 +119,7 @@
       "Affinity and Competence Selection": "For a NEW magic user draw affinity count independently: one 65%, two 25%, three 10%. Use available randomness, without claiming an unperformed tool roll. The twenty public one-word choices are Arcane, Metal, Gravity, Enchantment, Space, Fire, Lightning, Earth, Wind, Water, Healing, Nature, Light, Summoning, Soul, Divination, Void, Illusion, Ice, Sound. Never Time, even for an oracle. Spellcraft and Magitech are skills, not affinities.\n\nAffinity eases learning, not mastery. Describe real trained breadth and methods separately. Space needs Gravity study; Time is exceptional reserved instruction, never a casually generated talent or resource. Ordinary body casting is trained; a suitable focus usually has no stored reserve. Learned bodily augmentation is Enchantment. Noncasters and physical specialists remain valid.\n\nCompetence follows role and experience. Graduated academy adults are trained; ordinary civilians can be vulnerable. Do not scale every newcomer to the player, make a service worker a secret apex fighter, exceed levels 1–100 or replace an Archon with a new founder.",
       "Affiliations and Future Cast": "Prefer a specific actual institution, employer or household as the one primary faction. Otherwise a real local resident can belong to Glowhaven, Drakenspire or Asterveil. A court employee belongs to the court if that is their actual job; a prison worker can belong to Wraith Island Prison Administration. Visitors, unaffiliated travelers and wild creatures may have none. Civic belonging does not override a specific academy affiliation.\n\nThe trade and artisans' guilds are voluntary. House Goldbarrow needs a real household tie. Do not enroll every vendor, assign every relative to the same politics or give a visitor local citizenship. A professional tie can include obligations, access and disagreement without universal loyalty. No faction membership automatically grants a court key, arrest power, secret knowledge or party position.\n\nNamed relationships use existing full identities and plausible history. One useful tie is enough when appropriate; no compulsory list of famous friends. A new NPC knows only the player information actually disclosed or publicly available. Mere creation does not reveal the player's name, hidden traits or past.\n\nA teaching appointment is not inferred from affinity. Use the authored core-subject roster for the four existing academies; each already has three core professors, including one Magic Theory teacher. A genuinely new faculty member needs an explicit uncovered appointment or a real later hiring event, not an extra department invented to match their element.",
       "Creatures, Summons and Persistence": "TYPE AND INDIVIDUAL\nSelect the most specific existing npcTypes entry that matches the actual creature, species or professional role. Existing authored NPCs retain their established type. Use its real damage arrays; do not invent approximate damage labels or claim that every member has all the spells suggested by its description. Levels, tier, abilities, numerical modifiers, faction and current placement belong to the individual. A type record alone spawns nothing.\n\nOrdinary animals have species-appropriate identities and nonverbal behavior, not personal surnames, human romance styles or political goals. Mana beasts, sapient dragonkin or beastfolk, constructed workers, temporary summons and pets are distinct. A temporary effect need not become a persistent NPC. Noticing or feeding an animal does not tame it; meeting a speaking creature does not recruit it.\n\nFor a real recurring encounter, resolve a previously established individual first. Reuse its identity and actual outcome on return; do not spawn another identical guardian because the type is still available. A location's first unencountered territorial beast can be generated from the local template when it enters the scene, with clear signs and room for avoidance. No new creature appears just because the player reads a catalog.\n\nGenerated recurring people remain as real as authored people. Keep their appearance, role, ties, current place and significant history. Final check: uncovered role or actual new individual; no duplicate; suitable name and body; supported type; credible competence; bounded knowledge; actual equipment and affiliations. For adult students include four-year standing and the prescribed affinity selection. Return only the requested supported fields.",
-      "Power Anchors and Professional Breadth": "FIXED POWER ANCHORS\nGenerate for the actual role, place, training and threat rather than the player's level or the highest NPC nearby. Ordinary untrained adults are often level 8–20; practiced workers and guards 15–28; trained professors and headmasters about 28–32. Headmaster is an administrative job, not a power promotion. Use about 40–45 for genuinely exceptional specialists and court elites, and 50–55 for the four exceptionally powerful Archons. Do not generate a random level-70 professional, 87 shopkeeper or hidden demigod to fill an ordinary role. Ilyra Stillglass at 100, Ragnar Leonhart at 67 and established legendary creatures are authored exceptions, not templates for generated people.\nRank, office, age, wealth, portrait flair and species do not confer mastery. A lazy graduate still knows magic; a good researcher can be poor in a fight; an elderly worker need not be an elite combatant. Native tier, level and actual bonuses all affect power. Use a modest actual tier and avoid stacking unexplained multipliers. Preserve existing authored levels, including the Spider Realm. Ordinary generated jobs fit the least experienced human; powerful NPC companions do not raise the routine encounter band. Harder territories and named threats retain real power when knowingly chosen, with useful warning.\nOrdinary working adventurers commonly occupy levels 20–30. Badge rank alone does not require level 40 or a stronger tier. Preserve specifically authored exceptional veterans.",
+      "Power Anchors and Professional Breadth": "POWER BY ROLE\nUse actual role, training and place, not the player’s level or highest nearby NPC. Untrained adults: 8–20; practiced workers/guards: 15–28; ordinary adventurers: 20–30; professors/headmasters: 28–32; exceptional specialists/court elites: 40–45; Archons: 50–55. Headmaster is a job, not a power promotion. Ilyra Stillglass at 100, Ragnar Leonhart at 67 and established legendary creatures are authored exceptions. No random level-70 professional, 87 shopkeeper or hidden demigod. Office, age, wealth, species and portrait flair do not confer mastery; a lazy graduate knows magic, a scholar may fight poorly, an elderly worker need not be elite. Tier and real bonuses matter; avoid stacked multipliers. Preserve authored levels, the Spider Realm and knowingly chosen dangerous places. Warn about major mismatches.\nGUILD FIELDWORK\nCreate the accepted job’s actual type and count. Beginner nuisances: explicit level 1–3, weak/trivial tier, damageModifier -50, damageReductionModifier 0, healthMultiplier 0.7; retain the type’s successBonus. Practiced Bronze jobs around level 7: stated local band, weak tier, damageModifier -20, damageReductionModifier 0, healthMultiplier 0.85. Routine new foes stay within the stated band and at most two levels above the least experienced human; powerful NPC companions do not raise it. Explicit warned harder jobs retain their posted band. Experienced level-15 work normally uses its stated 13–18 band, average tier and unstacked modifiers. Persist individuals; these are creation profiles, never extra narrated damage or per-turn rescaling. Do not apply them to authored actors or the Spider Realm.",
       "Voice Construction and Initiative": "Choose a voice with enough specificity to guide fresh lines: short exact answers, winding extravagant anecdotes, cheerful practical explanations, dry understatement, blunt challenges, reserved warmth, self-important precision or rapid excited theory. Combine vocabulary, cadence and what the person tends to talk about. Do not assign the job's stock voice to everyone.\n\nGive them something to initiate when relevant: ask about a real object, suggest a useful next step, complain about a shared inconvenience, offer a small opinion, tease someone they know or raise their own current interest. The NPC need not wait for the player to unlock every sentence. Initiative remains proportionate and does not force a quest, purchase, fight or romance.\n\nWrite a trait that produces variation rather than a repeatable noise. A strict teacher can ask a precise question, rearrange a demonstration or give unexpectedly specific praise. A vain person can show off a result or fish for approval without saying the same boast each turn. A sleepy student can be perceptive about one inconvenience and hopeless about another. Keep sincerity possible without secretly removing the flaw.",
       "Relationships, Courtship and Adult Variation": "Give named ties only when plausible and useful. A colleague, classmate, old customer, neighbor or actual relative can anchor a person without famous patronage. Keep existing friend groups intact and use complete canonical identities for facts. A new NPC does not replace a player's preferred relationship or become everyone's mutual friend.\n\nRomantic possibility can be present without a preassigned player crush. Early chemistry, an invitation or a flirt can happen when the adult's actual personality and circumstances support it; no arbitrary scene quota is required. Deeper trust and intimacy still need genuine interaction and choice. A reserved person need not become uninterested, and a bold one need not become universally available.\n\nDifferent people can want different kinds of company: shared work, competitive attention, practical care, calm listening, a direct date, lively conversation or privacy. Describe the pattern in personality rather than public romance analysis. A harmful style can remain harmful, with consequences and boundaries, rather than being explained away as proof of love. A person who is not a romance option can still be engaging.",
       "Restricted Exceptional Roles": "A type is a template, not a spawn order. Do not create replacement Great Sages, academy Archons or headmasters, additional unique bosses, sacred guardian dragons or royal claimants as incidental service staff or ambient encounters. Refer to actual authored office holders and site-bound creatures. A lost true dragon is not a routine street event merely because its type exists. Restricted custody staff and inmates belong in their actual access context; an academy member is not automatically a court official.\nGenerated locals default to credible ordinary competence and existing local bands. A named adversary needs an actual danger context, role and telegraphing; do not match its level to the player automatically. Preserve the authored cast's levels and identities. New species or innate affinities cannot be inferred from a costume, job, enchanted eyes or the person's most recently cast spell.\nFor custom creature types, preserve the diagnostic anatomy from the actual type in this individual’s public appearance and visual description. Type names are species, not fixed people. Asterveil is midgame: new creatures follow their actual local bands and an appropriate tier."
@@ -196,7 +196,7 @@
       "School-Life Comedy and Cast Contradictions": "Use actual personalities and explicit ties. A chuunibyou's performance is delusion, not a secret true ultimate. A brilliant theory student can fail practice; a glamorous professor can be a poor teacher; a rare affinity can be weak; an average adult can know reliable magic. Do not soften everyone into secret competence or kindness.\n\nComic patterns include earnest overreaction, mismatched priorities, pride exposed by an ordinary task, inconvenient timing, a clever solution to the wrong problem and a specific callback. The people believe in what they are doing. Do not explain the joke, force one after every sincere beat or make the player the automatic victim. Cruel behavior can cause real conflict rather than being excused as harmless comedy.\n\nSchool mandate is background pressure, not a personality rule. Students can contradict their academy. Four-year standing and actual clubs matter when relevant; don't make all twelve named students classmates, new entrants or one party. Friends in different years remain friends. Trained adults retain competence even when their teaching or social judgment is poor.",
       "Social Opportunities and Small Groups": "Give a person a real immediate objective: get a task done, ask a useful favor, protect privacy, show off a result, find company, settle a dispute or avoid work. Let that intersect the player's activity rather than treating everyone as waiting for them. A bystander needs perception, urgency and a nonredundant contribution to reach the foreground.\n\nUsually one to three active people are enough. Other friends can be present without a line each, and a public place can have unnamed activity. Do not create a chorus of gasps, unsolicited advice or flirtation. A recurring person can leave for work without ending their relevance to the campaign.\n\nCooperation, employment, gratitude, friendship, courtship and travel are separate. A class exercise or local escort retains its scope. No automatic recruitment of an entire friend group or office staff. Genuine party invitations use mutual agreement and actual practical terms.",
       "Romance, Rivalry and Jealousy": "Use adult interest, existing relationship and scene context. A direct invitation, quiet shared activity or competitive excuse can make room for chemistry without deciding the player's attraction. A rescue or gift can be gratitude; a successful social check does not compel romance. A professional can be warm and keep boundaries.\n\nJealousy comes from actual awareness, a perceived event and the individual style. A rival need not appear from another realm to interrupt. A shy withdrawal, boastful competition, explicit question or cruel reaction follows the card and has its actual consequences. Jealousy grants no ownership, and an affectionate stereotype does not override refusal.\n\nConfessions, accepted invitations and unresolved romantic moments need aftermath. Do not erase an interrupted confession, immediately schedule a wedding, add a new romance meter or force platonic bonds toward one route. A player can invest in a few people from the larger cast; no management of every relationship is required to progress.",
-      "Combat, Power and Telegraphing": "An encounter needs an actual threat, place and motive. Read level, tier, numbers, resources and real abilities. Supplied outcomes govern damage, retreat and defeat. No automatic hit, new immunity, endless reinforcement or invented blocked exit undoes a real success. Surrender, bargaining and withdrawal can fit actual opponents.\n\nENTRY BRONZE CONTRACTS\nCourier, Westwood survey, Watercourse boars, Wrong Turn, Cart Full of Glass and Harbor Squall are beginner work. A solo novice faces at most one active weak/trivial hostile at the outset, normally level 1-3; use 2-5 for levels 5-9, and cap these incidental foes at 6. No hidden alpha, coordinated pack, lethal damage-over-time, free follow-up hit or enemy scaling to a veteran companion. Prefer the beginner variants and individual damageModifier -50. A survey or parcel delivery can be completed without combat. Show the threat before commitment and retain a credible escape. Do not manufacture a fight to spend the encounter budget.\n\nOTHER DANGER\nPreserve authored academy adults, guards, bosses and later-region bands. Telegraph a major mismatch before voluntary commitment when possible. A first license does not make an unrelated dangerous lair safe. In dungeon realms use finite occupied routes, usually two to four actual complementary enemies; a boss may have real retainers. Preserve cleared individuals and outcomes rather than refilling the room. Do not confuse investigation access with a solo boss promise.",
+      "Combat, Power and Telegraphing": "An encounter needs an actual threat, place and motive. Read level, tier, numbers, resources and real abilities. Supplied outcomes govern damage, retreat and defeat. No automatic hit, new immunity, endless reinforcement or invented blocked exit undoes a real success. Surrender, bargaining and withdrawal can fit actual opponents.\n\nENTRY BRONZE AND FINITE GUILD FIELDWORK\nNewly licensed work uses one active weak/trivial hostile initially, normally level 1–3; follow the stated type/count and New NPC creation profile. Introductory foes never exceed 6. NPC allies do not raise the band. No hidden alpha, surprise pack, lethal continuous damage, free follow-up hit or elite upgrade. Use juvenile/beginner variants where specified. A survey or delivery need not include combat. At the actual work site, show the approach and an escape, then wait for the player. Notices spawn nothing in the guild hall. Level-7 and level-15 postings advertise stronger bounded jobs. No forced twist, extra hunt or respawn.\n\nOTHER DANGER\nPreserve authored academy adults, guards, bosses and later-region bands. Telegraph a major mismatch before voluntary commitment when possible. A first license does not make an unrelated dangerous lair safe. In dungeon realms use finite occupied routes, usually two to four actual complementary enemies; a boss may have real retainers. Preserve cleared individuals and outcomes rather than refilling the room. Do not confuse investigation access with a solo boss promise.",
       "Creatures, Summons and Field Ecology": "Use species-appropriate behavior, anatomy and local ecology. Ordinary animals communicate through calls, posture and movement, not human quest dialogue, and cannot deliberately cast. Mana beasts may use the actual abilities of their individual record. Sapient beastfolk, fae and dragonkin are people, not automatically feral because they look unusual.\n\nRead the relevant existing npcTypes template before generating a genuinely new individual. Its damage profile is real data, not a complete ability list or a guaranteed level. Select an individual level and competence appropriate to the actual region, threat and established facts; telegraph danger rather than secretly scaling every animal to the player. A description of several possible creatures is a candidate pool, not a required roster on every visit.\n\nUse authored or already generated encounter participants first. New instances need an actual scene reason. Preserve defeated, deterred, negotiated and bypassed individuals and opened routes on return. No renewable guardians, unexplained replacements, automatic loot drops or fresh nests appear to keep a finished obstacle alive.\n\nObservation, habitat care, fieldcraft, handling, escape and finding a safer path can be satisfying outcomes. Noticing, feeding or helping a beast does not automatically tame it. Temporary constructs, decoys and bonded companions have different duration, control and agency. A region need not spawn a monster every crossing; some wildlife is simply part of the place.",
       "Work, Commerce and Investigation": "A faulty commission, missing parcel, questionable formula, delayed freight or workplace dispute can connect daily city life to adventure. Give a specific person, scope, available evidence, practical obstacle and different credible responses. Let the player help, negotiate, expose, conceal, redirect or decline when feasible. Do not assume the morally correct response or turn every café into a conspiracy.\n\nState price and scope before payment. A proposed test is not an item acquired; a diagnosis is not completed work; a successful full repair should actually finish. Use marks and authored anchors. No invented shop stock, materials, crime, ownership transfer or free buff is added merely to make the encounter rewarding.\n\nEvidence has a source and limits. Insight is not hiddenInfo access, investigation is not omniscience and an accusation is not a finding. A successful achievable request produces its result instead of a new approval loop. Recurring work remains resolved until a genuinely new problem arises.",
       "Law, Factions and Prison Directions": "Use real jurisdiction and role. City Guard, court, council, academies and strikeforce have distinct duties. A citizen, noble, professor or student does not gain universal arrest or entry powers. Normal outbound keys require court approval and issue; a helpful apprentice cannot grant it. Actual valid approval is not forgotten every turn.\n\nCrime can lead to investigation, pursuit, attempted capture, hearing and custody according to evidence and capability. Do not convict by accusation or teleport an undefeated suspect. Wraith Island Prison supports prisoner life, authorized work, visits, service of a term, appeal and possible escape. Distinguish those legal roles and real transport/access. A shift or knockout does not clear the record.\n\nFaction membership is not a universal reaction. People can share a civic community and disagree. Voluntary guilds do not contain every vendor. A local's dislike is not a region-wide hostility score. No instant rumor network or copied rank ladder appears to make politics easier to summarize.",
@@ -3283,13 +3283,20 @@
           "description": "A service corridor links the dining room with the inn's working spaces.",
           "paths": [
             "Roseberry Inn - Front Desk",
-            "Roseberry Inn - Guest Stair"
+            "Roseberry Inn - Guest Stair",
+            "Roseberry Inn - Cellar"
           ]
         },
         "Roseberry Inn - Roseberry Attic Room": {
           "description": "A compact private attic room with a bed, washstand, locking chest and writing table under the eaves.",
           "paths": [
             "Roseberry Inn - Guest Stair"
+          ]
+        },
+        "Roseberry Inn - Cellar": {
+          "description": "Broad wooden steps lead into a low, cool cellar smelling of flour and apple skins. Sack shelves, a work stool and spare boards flank a clear central aisle; a small ground-level vent lets in a strip of daylight.",
+          "paths": [
+            "Roseberry Inn - Kitchen Passage"
           ]
         }
       },
@@ -51560,6 +51567,180 @@
       "immunities": [
         "poisoning"
       ]
+    },
+    "Cellar Rat": {
+      "name": "Cellar Rat",
+      "description": "A large ordinary brown rat with a blunt nose, torn ears and flour dust caught in its whiskers. It bites when cornered, then scurries behind cover; it has no venom, armor or magical disease. Usually a level 1 nuisance. Scratching, droppings and gnawed sacks reveal its route. Traps, a food lure or a clear escape can work as well as a blow.",
+      "vulnerabilities": [],
+      "resistances": [],
+      "immunities": [],
+      "successBonus": -30
+    },
+    "Stray Dog": {
+      "name": "Stray Dog",
+      "description": "A lean, rough-coated domestic dog with muddy paws and an uneven leather collar. A hungry stray may defend stolen food, bark and make a short snap before retreating. Beginner individuals are level 1–2, not wolves or trained warhounds. Flattened ears and a stiff posture warn of a bite; food, space and patient handling may avoid one. No automatic rabies, bleeding effect or alpha pack.",
+      "vulnerabilities": [],
+      "resistances": [],
+      "immunities": [],
+      "successBonus": -25
+    },
+    "Flour Beetle": {
+      "name": "Flour Beetle",
+      "description": "A knee-high oval beetle with cream-brown wing cases, six stubby legs and flour clinging to its feelers. Its shell is thin. It drags dry food toward a dark gap, lifting its front legs before an awkward shove. Level 1–2 specimens are slow nuisances with no damage resistance. Turning a sack, blocking a gap or baiting a basket can contain one without destroying the grain.",
+      "vulnerabilities": [],
+      "resistances": [],
+      "immunities": [],
+      "successBonus": -30
+    },
+    "Runaway Cleaning Broom": {
+      "name": "Runaway Cleaning Broom",
+      "description": "A household broom animated by a worn cleaning enchantment, with copper binding wire and an erratically glowing maker’s mark. It whacks whatever it mistakes for dirt and needs time to turn its long handle. Usually level 2. Pinning the bristles or safely interrupting its accessible binding can stop it. It has no hidden master, inexhaustible spell arsenal or resistance merely because it is a construct.",
+      "vulnerabilities": [],
+      "resistances": [],
+      "immunities": [],
+      "successBonus": -25
+    },
+    "Orchard Crab": {
+      "name": "Orchard Crab",
+      "description": "A broad freshwater crab about the size of a cooking pot, its mottled olive shell often carrying fallen blossom petals. It wedges itself into irrigation sluices and raises one conspicuous claw before pinching. Young specimens are level 2–3 and have no armored damage resistance. A baited pot, a lifted sluice or a cautious approach from behind offers alternatives to a fight.",
+      "vulnerabilities": [],
+      "resistances": [],
+      "immunities": [],
+      "successBonus": -25
+    },
+    "Soot Moth": {
+      "name": "Soot Moth",
+      "description": "A hand-sized moth with charcoal wings, amber eye-spots and a fluffy white collar stained by lamp soot. It feeds on warm lamp residue and leaves dusty wing prints on glass. Level 2–3 nuisances flutter into faces or shed a brief obscuring puff; they cannot poison lungs, blind permanently or ignite a building. A shaded decoy lamp and a soft net can move them safely.",
+      "vulnerabilities": [],
+      "resistances": [],
+      "immunities": [],
+      "successBonus": -25
+    },
+    "Timberjaw Gnawer": {
+      "name": "Timberjaw Gnawer",
+      "description": "A stocky, rabbit-sized mana rodent with broad orange incisors, a squared muzzle and a tail fringed with wood fibers. It gnaws damp supports and stamps before lunging at a nearby boot. Common troublesome adults are level 5–8. Fresh paired tooth marks and a trail of damp shavings expose the nest; sound bracing, barriers and bait interrupt its approach. No instant beam collapse or buried swarm is inherent to the species.",
+      "vulnerabilities": [],
+      "resistances": [],
+      "immunities": [],
+      "successBonus": -15
+    },
+    "Lantern Wasp": {
+      "name": "Lantern Wasp",
+      "description": "A fist-sized wasp with a translucent amber abdomen and folded wings patterned like paper ribs. Its nest resembles a little hanging lantern. A bright pulse and rising buzz precede a single close sting. Local nuisance adults are level 6–8. Their venom produces a painful welt rather than continuous lethal damage; covering the light or dampening an abandoned nest can make relocation possible.",
+      "vulnerabilities": [
+        "water"
+      ],
+      "resistances": [],
+      "immunities": [],
+      "successBonus": -15
+    },
+    "Cinderback Lizard": {
+      "name": "Cinderback Lizard",
+      "description": "A squat red-brown lizard with four splayed feet and a row of warm coal-colored scales across its shoulders. Often level 7–9 around forges, it warms its back visibly before expelling a short ember puff, then must cool. It cannot breathe a dragon’s stream of flame. A clear cool route, a shielded coal lure or shutting off its heat source changes its behavior.",
+      "vulnerabilities": [
+        "water"
+      ],
+      "resistances": [
+        "fire"
+      ],
+      "immunities": [],
+      "successBonus": -15
+    },
+    "Scrap Imp": {
+      "name": "Scrap Imp",
+      "description": "A small nonhumanoid fiend with an angular brass-colored face, batlike ears, backward-bending legs and a forked tail used to carry washers. Often level 7–10, it steals useful offcuts and makes crude mechanical toys. It can speak and bargain, lie or become spiteful; these are individual choices. It throws loose scrap or makes a short clawing rush, without teleporting away an entire inventory.",
+      "vulnerabilities": [],
+      "resistances": [],
+      "immunities": [],
+      "successBonus": -10
+    },
+    "Reed Ambusher": {
+      "name": "Reed Ambusher",
+      "description": "A flat olive amphibian with four finned limbs, a wide shovel jaw and a fringe of reed-like whiskers. It lies in shallow water and pushes a visible V-shaped ripple ahead of a short bankward leap. Usually level 8–11. It must return to water between committed lunges. High dry footing, a disturbed mud trail and bait are useful; concealment is camouflage rather than true invisibility.",
+      "vulnerabilities": [
+        "lightning"
+      ],
+      "resistances": [],
+      "immunities": [],
+      "successBonus": -10
+    },
+    "Burrback Hedgebeast": {
+      "name": "Burrback Hedgebeast",
+      "description": "A goat-sized grazer with short brown fur, a broad snout and tough seed-like burrs woven through its back. Local adults are usually level 8–11. It bowls through low fences, lowers its head before charging and leaves hooked burrs along its trail. Its prickles scratch at contact but do not launch endless binding roots. Fruit lures, open lanes and repaired fencing can redirect it.",
+      "vulnerabilities": [
+        "fire"
+      ],
+      "resistances": [],
+      "immunities": [],
+      "successBonus": -10
+    },
+    "Glass-Eye Basilisk": {
+      "name": "Glass-Eye Basilisk",
+      "description": "A six-legged gray reptile with green glassy brow plates and milky eyes that brighten before a fixed stare. Local adults are level 13–16. Its sustained gaze causes a brief creeping stiffness; looking away or breaking sight interrupts it. There is no instant permanent petrification. It moves poorly on loose rubble and cannot gaze through walls, shields or closed shutters.",
+      "vulnerabilities": [
+        "sound"
+      ],
+      "resistances": [],
+      "immunities": [],
+      "successBonus": 0
+    },
+    "Hollow Lantern": {
+      "name": "Hollow Lantern",
+      "description": "A salt-corroded rescue lantern floating inside a loose hoop of pale spirit-light, with a wavering human-sized shadow beneath it and no actual body. Usually level 13–16. It repeats a damaged signal and releases a bounded pulse of cold light when approached. Its direction and bell rhythm reveal the place to which it is bound. This is a local haunting, not an all-knowing dead soul or an automatic possession.",
+      "vulnerabilities": [
+        "light",
+        "sound"
+      ],
+      "resistances": [
+        "dark"
+      ],
+      "immunities": [],
+      "successBonus": 0
+    },
+    "Ashcoil Salamander": {
+      "name": "Ashcoil Salamander",
+      "description": "A long charcoal-black salamander with six small feet, a coiling tail and orange seams between its broad scales. Furnace-fed adults are level 14–17. Its throat glows before a close heat jet, followed by a cooling pause. It hunts warm mineral deposits rather than metal objects in an inventory. Damp channels, furnace shutters and vent pressure offer counterplay; no unavoidable room-wide inferno.",
+      "vulnerabilities": [
+        "water",
+        "ice"
+      ],
+      "resistances": [
+        "fire"
+      ],
+      "immunities": [],
+      "successBonus": 0
+    },
+    "Mireglass Stalker": {
+      "name": "Mireglass Stalker",
+      "description": "A low wetland hunter with four narrow legs, a split paddle tail and translucent green plates over a dark amphibian body. Typically level 14–18. Reflections break up its outline, but mud prints, ripples and shifting reeds remain visible. It makes short lunges rather than teleporting and loses its camouflage on dry ground. It has neither perfect invisibility nor an unavoidable opening critical strike.",
+      "vulnerabilities": [
+        "sound"
+      ],
+      "resistances": [],
+      "immunities": [],
+      "successBonus": 0
+    },
+    "Canal Watcher": {
+      "name": "Canal Watcher",
+      "description": "A waist-high municipal maintenance construct with a round ceramic torso, three iron feet, a water-level float and two jointed gate tools. Malfunctioning working models are around level 14–17. A clacking gauge precedes each heavy tool sweep. A cracked float or obstructed intake may explain its faulty safety order. It has reachable controls, limited movement and no blanket construct immunities.",
+      "vulnerabilities": [
+        "lightning"
+      ],
+      "resistances": [],
+      "immunities": [],
+      "successBonus": 0
+    },
+    "Thunderfin Ray": {
+      "name": "Thunderfin Ray",
+      "description": "A blue-gray mana ray that skims wet sand and shallow water on broad winglike fins, with three amber nodules along its spine and a narrow ribbon tail. Local adults are level 15–18. The nodules glow and its fins spread before a bounded electric discharge. Dry high ground and spacing matter; it cannot electrocute an entire coastline or discharge every action without recovery.",
+      "vulnerabilities": [
+        "earth"
+      ],
+      "resistances": [
+        "lightning"
+      ],
+      "immunities": [],
+      "successBonus": 0
     }
   },
   "resourceSettings": {
@@ -56974,7 +57155,7 @@
         }
       ],
       "effects": [],
-      "script": "const jobs=[{\"title\":\"Guild: A Parcel for the Bazaar\",\"rank\":1,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":1},{\"title\":\"Guild: Westwood Trail Notes\",\"rank\":1,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":1},{\"title\":\"Guild: Broken Halo Recovery\",\"rank\":2,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":20},{\"title\":\"Guild: Redvein Safety Survey\",\"rank\":3,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":25},{\"title\":\"Guild: Inverted Crown Instruments\",\"rank\":4,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":40},{\"title\":\"Salvage: What the Tide Left\",\"rank\":2,\"slug\":\"salvage_1\",\"repeatable\":false,\"recommendedLevel\":10},{\"title\":\"The Road: An Empty Harness\",\"rank\":1,\"slug\":\"road_1\",\"repeatable\":false,\"recommendedLevel\":5},{\"title\":\"Separate Pay: The Same Commission\",\"rank\":2,\"slug\":\"camp_1\",\"repeatable\":false,\"recommendedLevel\":10},{\"title\":\"Guild: Boars at the Watercourse\",\"rank\":1,\"slug\":\"contract_cull\",\"repeatable\":true,\"recommendedLevel\":1},{\"title\":\"Guild: The Courier at the Wrong Turn\",\"rank\":1,\"slug\":\"contract_search\",\"repeatable\":false,\"recommendedLevel\":3},{\"title\":\"Guild: A Cart Full of Glass\",\"rank\":1,\"slug\":\"contract_escort\",\"repeatable\":true,\"recommendedLevel\":1},{\"title\":\"Guild: After the Harbor Squall\",\"rank\":1,\"slug\":\"contract_storm\",\"repeatable\":true,\"recommendedLevel\":1},{\"title\":\"Guild: Bitter Roots, Sharp Teeth\",\"rank\":2,\"slug\":\"contract_reagent\",\"repeatable\":false,\"recommendedLevel\":15},{\"title\":\"Guild: A Door That Keeps Its Promise\",\"rank\":1,\"slug\":\"contract_repair\",\"repeatable\":false,\"recommendedLevel\":1},{\"title\":\"Guild: Keep the Fair Moving\",\"rank\":1,\"slug\":\"contract_steward\",\"repeatable\":true,\"recommendedLevel\":1},{\"title\":\"Guild: Beneath the Broken Dial\",\"rank\":2,\"slug\":\"contract_ruin\",\"repeatable\":false,\"recommendedLevel\":25},{\"title\":\"Guild: Rope Before the River\",\"rank\":1,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":3},{\"title\":\"Guild: Honey Without a Sting\",\"rank\":1,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":5},{\"title\":\"Guild: Teeth in the Spare Crate\",\"rank\":1,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":9},{\"title\":\"Guild: Five Crates, Not Four\",\"rank\":1,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":7},{\"title\":\"Guild: Warmth Beneath the Crust\",\"rank\":2,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":22},{\"title\":\"Guild: The Lanternamber Latch\",\"rank\":2,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":28},{\"title\":\"Guild: Lines Across a Gap\",\"rank\":2,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":15},{\"title\":\"Guild: Something in the Sifter\",\"rank\":2,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":28}];\n\nconst n=Number(check({type:'game-tick'}))||0;\nlet rank=0;for(const [i,b]of ['Bronze','Silver','Gold','Platinum'].entries())if(Object.values(check({type:'player-item',item:'Guild Badge: '+b})||{}).some(v=>v>0))rank=Math.max(rank,i+1);\nif(!rank){effects.push({type:'story',instruction:'Explain the actual licensure route and Bronze starting badge if the applicant asks about taking work. No badge, payment, key or examination pass is given merely for browsing.'});}\nelse{\n const humanLevels=Object.values(check({type:'player-level'})||{}).filter(v=>typeof v==='number'&&Number.isFinite(v));\n const entryLevel=humanLevels.length?Math.min(...humanLevels):1;\n const text=String((check({type:'action-text'})||[]).join(' ')).toLocaleLowerCase();\n const qualified=jobs.filter(j=>{const s=check({type:'quest-status',questId:j.title});return rank>=j.rank&&(['hidden','planned','available','expired','abandoned','rejected'].includes(s)||(j.repeatable&&s==='completed'&&n-Number(storage['q20_'+j.slug+'_paid_tick']??n)>=20));});\n const named=qualified.find(j=>text.includes(j.title.toLocaleLowerCase()));\n const pool=qualified.filter(j=>j.recommendedLevel<=entryLevel+(entryLevel<10?2:5));\n const cursor=Number(storage.q20_board_cursor)||0;\n let picked=named?[named]:[];\n for(let i=0;i<pool.length&&picked.length<2;i++){const j=pool[(cursor+i)%pool.length];if(!picked.includes(j))picked.push(j);}\n storage.q20_board_cursor=cursor+2;\n for(const j of picked){if(j.slug){storage['q20_offered_'+j.slug]=true;storage['q20_offer_tick_'+j.slug]=n;}if(check({type:'quest-status',questId:j.title})!=='completed')effects.push({type:'quest-init',operator:'set',value:j.title});}\n effects.push({type:'story',instruction:picked.length?'Present only these eligible choices with their real short premises, scope and full posted rewards: '+picked.map(j=>j.title+' (recommended level '+j.recommendedLevel+'+)').join('; ')+'. A concluded recurring contract needs fresh terms and actual new work, never a respawned old problem. If a specifically requested job exceeds the experience of this party, explain its actual danger before any acceptance; the named request only opens the offer. Reading a notice does not accept it. Other higher-tier work may be mentioned as locked, without a playable offer. No money, credit or portal permission is granted.':'No fresh authored posting is being selected now. Preserve accepted jobs and completed outcomes. Offer at most a couple of distinct suitable generated commissions or ordinary guild company when wanted, using actual badge, permission and beginner power rules; do not substitute a high-level fight or reopen old personal crises.'});\n}\n"
+      "script": "// One existing dispatcher offers native quests. No new acceptance/completion controllers.\nconst jobs=[{\"title\":\"Guild: Rats in the Cellar\",\"rank\":1,\"recommendedLevel\":1,\"band\":1,\"lane\":\"combat\"},{\"title\":\"Guild: The Washbasin Is Occupied\",\"rank\":1,\"recommendedLevel\":1,\"band\":1,\"lane\":\"combat\"},{\"title\":\"Guild: The Watchdog Nobody Hired\",\"rank\":1,\"recommendedLevel\":2,\"band\":1,\"lane\":\"combat\"},{\"title\":\"Guild: Something in the Flour\",\"rank\":1,\"recommendedLevel\":2,\"band\":1,\"lane\":\"combat\"},{\"title\":\"Guild: Swept Off Your Feet\",\"rank\":1,\"recommendedLevel\":2,\"band\":1,\"lane\":\"combat\"},{\"title\":\"Guild: A Claw in the Channel\",\"rank\":1,\"recommendedLevel\":3,\"band\":1,\"lane\":\"combat\"},{\"title\":\"Guild: A Very Unhelpful Night-Light\",\"rank\":1,\"recommendedLevel\":3,\"band\":1,\"lane\":\"combat\"},{\"title\":\"Guild: Something Chewed the Joists\",\"rank\":1,\"recommendedLevel\":7,\"band\":7,\"lane\":\"combat\"},{\"title\":\"Guild: Lanterns With a Temper\",\"rank\":1,\"recommendedLevel\":7,\"band\":7,\"lane\":\"combat\"},{\"title\":\"Guild: Warm Feet, Cold Delivery\",\"rank\":1,\"recommendedLevel\":8,\"band\":7,\"lane\":\"combat\"},{\"title\":\"Guild: The Spare Parts Bargain\",\"rank\":1,\"recommendedLevel\":9,\"band\":7,\"lane\":\"other\"},{\"title\":\"Guild: A Ripple Under the Ford\",\"rank\":1,\"recommendedLevel\":10,\"band\":7,\"lane\":\"combat\"},{\"title\":\"Guild: Prickles in the Orchard\",\"rank\":1,\"recommendedLevel\":11,\"band\":7,\"lane\":\"combat\"},{\"title\":\"Guild: Do Not Meet Its Eyes\",\"rank\":2,\"recommendedLevel\":15,\"band\":15,\"lane\":\"combat\"},{\"title\":\"Guild: The Lantern That Would Not Land\",\"rank\":2,\"recommendedLevel\":15,\"band\":15,\"lane\":\"other\"},{\"title\":\"Guild: Too Hot for the Furnace\",\"rank\":2,\"recommendedLevel\":16,\"band\":15,\"lane\":\"combat\"},{\"title\":\"Guild: Tracks That Disappear\",\"rank\":2,\"recommendedLevel\":16,\"band\":15,\"lane\":\"combat\"},{\"title\":\"Guild: The Gate That Guarded Nothing\",\"rank\":1,\"recommendedLevel\":17,\"band\":15,\"lane\":\"other\"},{\"title\":\"Guild: Blue Sparks at Low Tide\",\"rank\":1,\"recommendedLevel\":18,\"band\":15,\"lane\":\"combat\"},{\"title\":\"Guild: A Parcel for the Bazaar\",\"rank\":1,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":1,\"lane\":\"other\",\"band\":1},{\"title\":\"Guild: Westwood Trail Notes\",\"rank\":1,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":1,\"lane\":\"other\",\"band\":1},{\"title\":\"Guild: Broken Halo Recovery\",\"rank\":2,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":20,\"lane\":\"other\",\"band\":15},{\"title\":\"Guild: Redvein Safety Survey\",\"rank\":3,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":25,\"lane\":\"other\",\"band\":15},{\"title\":\"Guild: Inverted Crown Instruments\",\"rank\":4,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":40,\"lane\":\"other\",\"band\":15},{\"title\":\"Salvage: What the Tide Left\",\"rank\":2,\"slug\":\"salvage_1\",\"repeatable\":false,\"recommendedLevel\":10,\"lane\":\"other\",\"band\":7},{\"title\":\"The Road: An Empty Harness\",\"rank\":1,\"slug\":\"road_1\",\"repeatable\":false,\"recommendedLevel\":5,\"lane\":\"other\",\"band\":1},{\"title\":\"Separate Pay: The Same Commission\",\"rank\":2,\"slug\":\"camp_1\",\"repeatable\":false,\"recommendedLevel\":10,\"lane\":\"other\",\"band\":7},{\"title\":\"Guild: Boars at the Watercourse\",\"rank\":1,\"slug\":\"contract_cull\",\"repeatable\":true,\"recommendedLevel\":1,\"lane\":\"combat\",\"band\":1},{\"title\":\"Guild: The Courier at the Wrong Turn\",\"rank\":1,\"slug\":\"contract_search\",\"repeatable\":false,\"recommendedLevel\":3,\"lane\":\"other\",\"band\":1},{\"title\":\"Guild: A Cart Full of Glass\",\"rank\":1,\"slug\":\"contract_escort\",\"repeatable\":true,\"recommendedLevel\":1,\"lane\":\"other\",\"band\":1},{\"title\":\"Guild: After the Harbor Squall\",\"rank\":1,\"slug\":\"contract_storm\",\"repeatable\":true,\"recommendedLevel\":1,\"lane\":\"other\",\"band\":1},{\"title\":\"Guild: Bitter Roots, Sharp Teeth\",\"rank\":2,\"slug\":\"contract_reagent\",\"repeatable\":false,\"recommendedLevel\":15,\"lane\":\"combat\",\"band\":15},{\"title\":\"Guild: A Door That Keeps Its Promise\",\"rank\":1,\"slug\":\"contract_repair\",\"repeatable\":false,\"recommendedLevel\":1,\"lane\":\"other\",\"band\":1},{\"title\":\"Guild: Keep the Fair Moving\",\"rank\":1,\"slug\":\"contract_steward\",\"repeatable\":true,\"recommendedLevel\":1,\"lane\":\"other\",\"band\":1},{\"title\":\"Guild: Beneath the Broken Dial\",\"rank\":2,\"slug\":\"contract_ruin\",\"repeatable\":false,\"recommendedLevel\":25,\"lane\":\"other\",\"band\":15},{\"title\":\"Guild: Rope Before the River\",\"rank\":1,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":3,\"lane\":\"other\",\"band\":1},{\"title\":\"Guild: Honey Without a Sting\",\"rank\":1,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":5,\"lane\":\"other\",\"band\":1},{\"title\":\"Guild: Teeth in the Spare Crate\",\"rank\":1,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":9,\"lane\":\"combat\",\"band\":7},{\"title\":\"Guild: Five Crates, Not Four\",\"rank\":1,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":7,\"lane\":\"other\",\"band\":7},{\"title\":\"Guild: Warmth Beneath the Crust\",\"rank\":2,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":22,\"lane\":\"other\",\"band\":15},{\"title\":\"Guild: The Lanternamber Latch\",\"rank\":2,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":28,\"lane\":\"other\",\"band\":15},{\"title\":\"Guild: Lines Across a Gap\",\"rank\":2,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":15,\"lane\":\"other\",\"band\":15},{\"title\":\"Guild: Something in the Sifter\",\"rank\":2,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":28,\"lane\":\"other\",\"band\":15}];\nconst n=Number(check({type:'game-tick'}))||0;\nlet rank=0;\nfor(const [i,b]of ['Bronze','Silver','Gold','Platinum'].entries())if(Object.values(check({type:'player-item',item:'Guild Badge: '+b})||{}).some(v=>v>0))rank=Math.max(rank,i+1);\nif(!rank){effects.push({type:'story',instruction:'Explain the actual licensure route and Bronze starting badge if the applicant asks about taking work. No badge, payment, key or examination pass is given merely for browsing.'});}\nelse{\n const levels=Object.values(check({type:'player-level'})||{}).filter(v=>typeof v==='number'&&Number.isFinite(v));\n const level=levels.length?Math.min(...levels):1;\n const text=String((check({type:'action-text'})||[]).join(' ')).toLocaleLowerCase();\n const qualified=jobs.filter(j=>{const s=check({type:'quest-status',questId:j.title});return rank>=j.rank&&(['hidden','planned','available','expired','abandoned','rejected'].includes(s)||(j.repeatable&&s==='completed'&&n-Number(storage['q20_'+j.slug+'_paid_tick']??n)>=20));});\n const named=qualified.find(j=>text.includes(j.title.toLocaleLowerCase())||text.includes(j.title.replace(/^Guild: /,'').toLocaleLowerCase()));\n const pool=qualified.filter(j=>j.recommendedLevel<=level+(level<10?2:5)&&(!j.band||j.band<=level));\n const band=level>=15?15:level>=7?7:1;\n const cursor=Math.max(0,Number(storage.q20_board_cursor)||0);\n const picked=named?[named]:[];\n if(!named){\n  for(const lane of ['combat','other']){\n   const candidates=pool.filter(j=>(j.lane||'other')===lane);\n   const current=candidates.filter(j=>(j.band||1)===band);\n   const choices=current.length?current:candidates;\n   if(choices.length)picked.push(choices[Math.floor(cursor/2)%choices.length]);\n  }\n }\n for(let i=0;i<pool.length&&picked.length<2&&!named;i++){const j=pool[(cursor+i)%pool.length];if(!picked.includes(j))picked.push(j);}\n storage.q20_board_cursor=cursor+2;\n for(const j of picked){\n  if(j.slug){storage['q20_offered_'+j.slug]=true;storage['q20_offer_tick_'+j.slug]=n;}\n  if(check({type:'quest-status',questId:j.title})!=='completed')effects.push({type:'quest-init',operator:'set',value:j.title});\n }\n effects.push({type:'story',instruction:picked.length?'Present only these eligible choices with their real short premises, scope and full posted rewards: '+picked.map(j=>j.title+' (recommended level '+j.recommendedLevel+'+)').join('; ')+'. Offer a real choice and wait. A concluded recurring contract needs fresh terms and actual new work. If a specifically requested job exceeds this party’s experience, explain its actual danger before any acceptance; the request only opens the offer. Browsing does not accept a quest or grant money, credit, companions or portal permission. Stronger contracts do not raise the danger of unrelated streets or novice jobs.':'No fresh authored posting is selected now. Preserve accepted jobs and completed outcomes. If wanted, offer a couple of distinct suitable generated commissions using actual badge, travel permission and the least experienced human’s level; never substitute a high-level fight or reopen a resolved personal crisis.'});\n}\n"
     },
     "gh_spellcraft_foundation": {
       "name": "gh_spellcraft_foundation",
@@ -74742,7 +74923,7 @@
           "status": "hidden",
           "questStatement": "Bronze badge required. Posted reward: 40 marks. Deliver the correctly addressed parcel to Rinpei Komatsu and bring his received-delivery record back. Suitable for a newly licensed adventurer; ask about the route before departing.",
           "mainObjective": "Deliver the correctly addressed parcel to Rinpei Komatsu and bring his received-delivery record back. Have the guild verify the completed contract.",
-          "questDesignBrief": "MinimumBadge: Bronze. PostedReward: 40 marks. This is a voluntary Guild: contract. The actual held badge and acceptance triggers control eligibility; higher badges may take it. The full posted reward is paid once with one Guild Service Credit on accepted completion. Do not deduct a guild cut, narrate commission accounting or issue portal permission. Agree scope and participating party before leaving; native quest rewards follow that participating player party. Use actual existing places and people, real ownership and supplied action outcomes. No forced party recruitment, universal spell requirement, automatic safety or replacement NPC. The work proof is supplied by the authored completion trigger, not by buying or claiming a similarly named note.\n\nINTRODUCTORY BRONZE BALANCE: This is newly licensed work, not a hidden veteran hunt. If a new incidental opponent is actually needed, use level 1-3 for a participating human party whose least experienced member is level 1-4, level 2-5 for levels 5-9, and never above 6 for this contract. NPC companions do not raise the band. Use trivial or weak tier, one active hostile initially, one simple hostile intent per turn, successBonus -25, damageModifier -50, damageReductionModifier 0 and healthMultiplier 0.7 on the new individual. Retain actual resolved actors; do not rescale them each turn. No lethal opening ambush, extra critical strike, surprise pack, continuous poison, elite upgrade or invented spell burst. Use the beginner creature variants when appropriate. A delivery or observation contract need not contain a fight. Larger visible wildlife can stay at a distance; do not turn every bystander into an additional attacker. A telegraphed retreat and a credible noncombat approach remain possible. Authored people, deliberate attacks on officials and knowingly entered unrelated dangerous territory keep their actual power. Recommended first-test target: an ordinary landed hit costs about 10-20 of an unarmored new character's starting 100 Health; supplied engine damage wins, with no second narrative deduction. This is a calibration aim, not an invented per-hit damage-cap mechanic.",
+          "questDesignBrief": "Rinpei Komatsu needs a box of fragile trinket clasps before his next customer fitting. The address leads to his actual stall at Four Sages Bazaar. Give the delivery a small practical obstacle: a busy arcade and the awkward parcel, not an armed ambush. Rinpei Komatsu talks while inspecting the clasps and may ask the carrier to hold one edge of his display. Keep his received-delivery record and the existing guild verification as the ending. An intact delivery and honest handling matter more than a flawless performance.\nBronze; posted fee 40 marks. Existing work-proof and settlement logic own completion and payment. No compulsory combat, second commission or automatic relationship reward.",
           "objectives": {
             "work": {
               "id": "work",
@@ -74778,7 +74959,7 @@
           "status": "hidden",
           "questStatement": "Bronze badge required. Posted reward: 50 marks. Survey the agreed public trail, record a real hazard or clear finding, and return with the route notes. Suitable for a newly licensed adventurer; ask about the route before departing.",
           "mainObjective": "Survey the agreed public trail, record a real hazard or clear finding, and return with the route notes. Have the guild verify the completed contract.",
-          "questDesignBrief": "MinimumBadge: Bronze. PostedReward: 50 marks. This is a voluntary Guild: contract. The actual held badge and acceptance triggers control eligibility; higher badges may take it. The full posted reward is paid once with one Guild Service Credit on accepted completion. Do not deduct a guild cut, narrate commission accounting or issue portal permission. Agree scope and participating party before leaving; native quest rewards follow that participating player party. Use actual existing places and people, real ownership and supplied action outcomes. No forced party recruitment, universal spell requirement, automatic safety or replacement NPC. The work proof is supplied by the authored completion trigger, not by buying or claiming a similarly named note.\n\nINTRODUCTORY BRONZE BALANCE: This is newly licensed work, not a hidden veteran hunt. If a new incidental opponent is actually needed, use level 1-3 for a participating human party whose least experienced member is level 1-4, level 2-5 for levels 5-9, and never above 6 for this contract. NPC companions do not raise the band. Use trivial or weak tier, one active hostile initially, one simple hostile intent per turn, successBonus -25, damageModifier -50, damageReductionModifier 0 and healthMultiplier 0.7 on the new individual. Retain actual resolved actors; do not rescale them each turn. No lethal opening ambush, extra critical strike, surprise pack, continuous poison, elite upgrade or invented spell burst. Use the beginner creature variants when appropriate. A delivery or observation contract need not contain a fight. Larger visible wildlife can stay at a distance; do not turn every bystander into an additional attacker. A telegraphed retreat and a credible noncombat approach remain possible. Authored people, deliberate attacks on officials and knowingly entered unrelated dangerous territory keep their actual power. Recommended first-test target: an ordinary landed hit costs about 10-20 of an unarmored new character's starting 100 Health; supplied engine damage wins, with no second narrative deduction. This is a calibration aim, not an invented per-hit damage-cap mechanic.",
+          "questDesignBrief": "The guild needs a useful account of an ordinary public trail in West Glowhaven Woods, not a heroic monster census. An old route marker has sagged toward a muddy deer track; footprints and the actual path make the mistake discoverable. Let the player inspect footing, record a fallen branch or clear finding and make understandable notes. A spoken dictation or simple sketch can be useful; no scholarly essay is required. Distant wildlife need not attack. Return the route notes for the existing verification and finish there.\nBronze; posted fee 50 marks. Preserve the existing proof, completion and reward owners. Do not move this survey into an unrelated dangerous lair.",
           "objectives": {
             "work": {
               "id": "work",
@@ -76200,9 +76381,9 @@
           "questLocation": "Pinewater River",
           "detailType": "detailed",
           "status": "hidden",
-          "questStatement": "A small working watercourse is occupied by aggressive Stonehide Boars. The client needs access to the bank. Posted reward: 55 marks. Suitable for a newly licensed adventurer; ask about the route before departing.",
+          "questStatement": "A young boar is blocking a working bank at Pinewater River. The crew needs safe access to its watercourse. Posted reward: 55 marks. A short, local Bronze job suitable for a newly licensed adventurer.",
           "mainObjective": "Make the agreed riverbank usable despite the occupying boars and settle the completed commission with the guild.",
-          "questDesignBrief": "Use a bounded local group from the actual type and band. Their tough hides and footing make a direct charge a choice with consequences. Lure, drive off, contain or defeat them so the agreed bank is usable. No automatic respawn or payment for killing an unrelated animal.\n\nRequired guild badge: Bronze or higher. Actual court/local travel permission is separate. The posted reward is paid in full. This contract can be accepted again only for a fresh agreed instance with actual new work after a gap. Old cleared individuals, repaired goods and previous proof remain resolved. Each accepted run resets its objective evidence and pays once. Do not manufacture a crisis to offer it again.\n\nStage the situation as playable action with a small foreground cast. Use existing named people and their real motives, strengths and flaws; companions need actual agreement. Explain the immediate obstacle and let the player choose a credible method. Stop for meaningful decisions. A proposal, arrival, flattering speech or invented prior result is not completed work. Respect real checks, costs, injury, retreat and ownership. Failed attempts allow a changed approach without an automatic pass. Finish when the stated outcome is achieved; do not add a hidden mastermind or another compulsory job. No quest, class or payment grants an affinity, new skill, automatic personal spell, portal key, romance or party membership.\n\nActual completion reward: 55 marks and 450 experience through native completion effects, once per completed run. Guild service credit, when applicable, is issued separately by the verified completion trigger to its eligible participants. No invented rewards.\n\nINTRODUCTORY BRONZE BALANCE: This is newly licensed work, not a hidden veteran hunt. If a new incidental opponent is actually needed, use level 1-3 for a participating human party whose least experienced member is level 1-4, level 2-5 for levels 5-9, and never above 6 for this contract. NPC companions do not raise the band. Use trivial or weak tier, one active hostile initially, one simple hostile intent per turn, successBonus -25, damageModifier -50, damageReductionModifier 0 and healthMultiplier 0.7 on the new individual. Retain actual resolved actors; do not rescale them each turn. No lethal opening ambush, extra critical strike, surprise pack, continuous poison, elite upgrade or invented spell burst. Use the beginner creature variants when appropriate. A delivery or observation contract need not contain a fight. Larger visible wildlife can stay at a distance; do not turn every bystander into an additional attacker. A telegraphed retreat and a credible noncombat approach remain possible. Authored people, deliberate attacks on officials and knowingly entered unrelated dangerous territory keep their actual power. Recommended first-test target: an ordinary landed hit costs about 10-20 of an unarmored new character's starting 100 Health; supplied engine damage wins, with no second narrative deduction. This is a calibration aim, not an invented per-hit damage-cap mechanic.",
+          "questDesignBrief": "At Pinewater River’s agreed working bank, stage one Young Stonehide Boar with soft undeveloped mineral patches. It has been raiding spilled feed and now blocks the workers’ approach. A stamping forefoot precedes a short committed charge, followed by a clear turn to recover. Moving the feed, a lure, a barrier or defeating it can make the bank usable. The workers need access, not an animal extermination tally. Use one level 2–3 weak beginner individual; no adult armored boar, pack or hidden alpha.\nBronze; posted fee 55 marks and 450 experience. Keep the existing completed-work verification, payment and service-credit owners. A later repeat needs a genuine new agreed job after the existing gap; the same cleared animal never respawns for another reward.",
           "conclusive": true,
           "onCompleteEffects": [
             {
@@ -76231,7 +76412,7 @@
           "status": "hidden",
           "questStatement": "A courier missed an ordinary meeting; a torn route ribbon gives a useful starting point. Posted reward: 60 marks. Suitable for a newly licensed adventurer; ask about the route before departing.",
           "mainObjective": "Find the missing courier and resolve their actual predicament and settle the completed commission with the guild.",
-          "questDesignBrief": "Make the route choice and missing courier real. One reachable hazard or predator prevents a simple walk back. Tracking, conversation with a witness or another credible clue can locate the courier. Do not automatically make them kidnapped, dead or secretly important.\n\nRequired guild badge: Bronze or higher. Actual court/local travel permission is separate. The posted reward is paid in full.\n\nStage the situation as playable action with a small foreground cast. Use existing named people and their real motives, strengths and flaws; companions need actual agreement. Explain the immediate obstacle and let the player choose a credible method. Stop for meaningful decisions. A proposal, arrival, flattering speech or invented prior result is not completed work. Respect real checks, costs, injury, retreat and ownership. Failed attempts allow a changed approach without an automatic pass. Finish when the stated outcome is achieved; do not add a hidden mastermind or another compulsory job. No quest, class or payment grants an affinity, new skill, automatic personal spell, portal key, romance or party membership.\n\nActual completion reward: 60 marks and 500 experience through native completion effects, once per completed run. Guild service credit, when applicable, is issued separately by the verified completion trigger to its eligible participants. No invented rewards.\n\nINTRODUCTORY BRONZE BALANCE: This is newly licensed work, not a hidden veteran hunt. If a new incidental opponent is actually needed, use level 1-3 for a participating human party whose least experienced member is level 1-4, level 2-5 for levels 5-9, and never above 6 for this contract. NPC companions do not raise the band. Use trivial or weak tier, one active hostile initially, one simple hostile intent per turn, successBonus -25, damageModifier -50, damageReductionModifier 0 and healthMultiplier 0.7 on the new individual. Retain actual resolved actors; do not rescale them each turn. No lethal opening ambush, extra critical strike, surprise pack, continuous poison, elite upgrade or invented spell burst. Use the beginner creature variants when appropriate. A delivery or observation contract need not contain a fight. Larger visible wildlife can stay at a distance; do not turn every bystander into an additional attacker. A telegraphed retreat and a credible noncombat approach remain possible. Authored people, deliberate attacks on officials and knowingly entered unrelated dangerous territory keep their actual power. Recommended first-test target: an ordinary landed hit costs about 10-20 of an unarmored new character's starting 100 Health; supplied engine damage wins, with no second narrative deduction. This is a calibration aim, not an invented per-hit damage-cap mechanic.",
+          "questDesignBrief": "Follow the torn route ribbon into Pinewater Woods. The missing courier is alive beside a tipped load, embarrassed about trusting an old marker and unable to shift the cart with a strained ankle. Shoe marks and scraped bark give ordinary evidence; let observation matter. Unloading, a lever, assistance or suitable learned magic can help. Do not demand Healing magic, a fight or an automatic recruitment. The courier remains a working person with their own destination. Resolve the actual predicament, then use the existing guild settlement.\nBronze; posted fee 60 marks. Retain completion checks and rewards. Any incidental animal follows beginner limits; no kidnapping ring or compulsory missing second courier.",
           "conclusive": true,
           "onCompleteEffects": [
             {
@@ -76260,7 +76441,7 @@
           "status": "hidden",
           "questStatement": "A cart of fragile household fittings needs an escort along an established local route. Posted reward: 50 marks. Suitable for a newly licensed adventurer; ask about the route before departing.",
           "mainObjective": "Escort the fragile cargo cart along its agreed route and settle the completed commission with the guild.",
-          "questDesignBrief": "Agree the start, actual destination and cargo. A rough crossing and an actual opportunistic threat provide different problems; careful driving, protection, persuasion or a fight can help. The client wants useful cargo, not a dramatic body count. Use existing connected locations.\n\nRequired guild badge: Bronze or higher. Actual court/local travel permission is separate. The posted reward is paid in full. This contract can be accepted again only for a fresh agreed instance with actual new work after a gap. Old cleared individuals, repaired goods and previous proof remain resolved. Each accepted run resets its objective evidence and pays once. Do not manufacture a crisis to offer it again.\n\nStage the situation as playable action with a small foreground cast. Use existing named people and their real motives, strengths and flaws; companions need actual agreement. Explain the immediate obstacle and let the player choose a credible method. Stop for meaningful decisions. A proposal, arrival, flattering speech or invented prior result is not completed work. Respect real checks, costs, injury, retreat and ownership. Failed attempts allow a changed approach without an automatic pass. Finish when the stated outcome is achieved; do not add a hidden mastermind or another compulsory job. No quest, class or payment grants an affinity, new skill, automatic personal spell, portal key, romance or party membership.\n\nActual completion reward: 50 marks and 450 experience through native completion effects, once per completed run. Guild service credit, when applicable, is issued separately by the verified completion trigger to its eligible participants. No invented rewards.\n\nINTRODUCTORY BRONZE BALANCE: This is newly licensed work, not a hidden veteran hunt. If a new incidental opponent is actually needed, use level 1-3 for a participating human party whose least experienced member is level 1-4, level 2-5 for levels 5-9, and never above 6 for this contract. NPC companions do not raise the band. Use trivial or weak tier, one active hostile initially, one simple hostile intent per turn, successBonus -25, damageModifier -50, damageReductionModifier 0 and healthMultiplier 0.7 on the new individual. Retain actual resolved actors; do not rescale them each turn. No lethal opening ambush, extra critical strike, surprise pack, continuous poison, elite upgrade or invented spell burst. Use the beginner creature variants when appropriate. A delivery or observation contract need not contain a fight. Larger visible wildlife can stay at a distance; do not turn every bystander into an additional attacker. A telegraphed retreat and a credible noncombat approach remain possible. Authored people, deliberate attacks on officials and knowingly entered unrelated dangerous territory keep their actual power. Recommended first-test target: an ordinary landed hit costs about 10-20 of an unarmored new character's starting 100 Health; supplied engine damage wins, with no second narrative deduction. This is a calibration aim, not an invented per-hit damage-cap mechanic.",
+          "questDesignBrief": "A cart of household fittings is ready at Caravan Outpost. The nervous driver keeps tightening one rope while ignoring the loose packing underneath. Agree the actual existing local destination before departure. A bad rut and shifting load create the main decision: take the slower firm route, repack or carefully support the cart through. Do not add random bandits merely because this is an escort. A small breakage can be discussed honestly without inventing an all-or-nothing fail condition. Complete the agreed delivery and existing guild settlement.\nBronze; posted fee 50 marks and the existing experience reward. Keep the present repeat cooldown and proof/payment owners. Future work needs a fresh load and agreement, not the old cart reset.",
           "conclusive": true,
           "onCompleteEffects": [
             {
@@ -76289,7 +76470,7 @@
           "status": "hidden",
           "questStatement": "Loose cargo is trapped against a damaged mooring while working crews try to keep the berth usable. Posted reward: 45 marks. Suitable for a newly licensed adventurer; ask about the route before departing.",
           "mainObjective": "Recover the marked harbor cargo from the damaged mooring and settle the completed commission with the guild.",
-          "questDesignBrief": "Kaito Minato knows the berth and can explain the immediate problem. Real currents, a shifted beam and competing work obstruct recovery. Coordinate labor, use ropes, swim or apply actual magic. No sea monster or secret manifest is required. The finite job ends with the marked cargo recovered or the accepted practical alternative.\n\nRequired guild badge: Bronze or higher. Actual court/local travel permission is separate. The posted reward is paid in full. This contract can be accepted again only for a fresh agreed instance with actual new work after a gap. Old cleared individuals, repaired goods and previous proof remain resolved. Each accepted run resets its objective evidence and pays once. Do not manufacture a crisis to offer it again.\n\nStage the situation as playable action with a small foreground cast. Use existing named people and their real motives, strengths and flaws; companions need actual agreement. Explain the immediate obstacle and let the player choose a credible method. Stop for meaningful decisions. A proposal, arrival, flattering speech or invented prior result is not completed work. Respect real checks, costs, injury, retreat and ownership. Failed attempts allow a changed approach without an automatic pass. Finish when the stated outcome is achieved; do not add a hidden mastermind or another compulsory job. No quest, class or payment grants an affinity, new skill, automatic personal spell, portal key, romance or party membership.\n\nActual completion reward: 45 marks and 400 experience through native completion effects, once per completed run. Guild service credit, when applicable, is issued separately by the verified completion trigger to its eligible participants. No invented rewards.\n\nINTRODUCTORY BRONZE BALANCE: This is newly licensed work, not a hidden veteran hunt. If a new incidental opponent is actually needed, use level 1-3 for a participating human party whose least experienced member is level 1-4, level 2-5 for levels 5-9, and never above 6 for this contract. NPC companions do not raise the band. Use trivial or weak tier, one active hostile initially, one simple hostile intent per turn, successBonus -25, damageModifier -50, damageReductionModifier 0 and healthMultiplier 0.7 on the new individual. Retain actual resolved actors; do not rescale them each turn. No lethal opening ambush, extra critical strike, surprise pack, continuous poison, elite upgrade or invented spell burst. Use the beginner creature variants when appropriate. A delivery or observation contract need not contain a fight. Larger visible wildlife can stay at a distance; do not turn every bystander into an additional attacker. A telegraphed retreat and a credible noncombat approach remain possible. Authored people, deliberate attacks on officials and knowingly entered unrelated dangerous territory keep their actual power. Recommended first-test target: an ordinary landed hit costs about 10-20 of an unarmored new character's starting 100 Health; supplied engine damage wins, with no second narrative deduction. This is a calibration aim, not an invented per-hit damage-cap mechanic.",
+          "questDesignBrief": "At Whitecrest Harbor, marked cargo is caught against a damaged mooring while a working crew argues about which line to cut. Kaito Minato can identify the berth and actual handlers when present. Present the taut rope, unstable crate and incoming swell so the player can plan a pull, brace or safe release. Recovered cargo belongs to its actual owner. No sea monster, surprise smuggling ring or mandatory underwater spell is needed. Once the marked load is safely recovered, the existing guild settlement ends the job.\nBronze; posted fee 45 marks and the existing experience reward. Keep the verification, payment, service credit and fresh-instance repeat rules unchanged.",
           "conclusive": true,
           "onCompleteEffects": [
             {
@@ -78179,6 +78360,747 @@
           },
           "onCompleteEffects": [],
           "conclusive": true
+        },
+        "Guild: Rats in the Cellar": {
+          "name": "Guild: Rats in the Cellar",
+          "questSource": "Noriko Hanesawa",
+          "questLocation": "Roseberry Inn",
+          "detailType": "detailed",
+          "status": "hidden",
+          "questStatement": "Bronze contract. Something has gnawed through the inn’s flour sacks. Noriko Hanesawa offers 30 marks to clear the cellar and stop the damage before supper preparations.",
+          "mainObjective": "Clear the rats damaging Roseberry Inn’s cellar stores and close their visible entry gap, leaving the food storage usable.",
+          "questDesignBrief": "Noriko Hanesawa has balanced a flour sack on a chair and is refusing to sacrifice another loaf. Two ordinary rats occupy the cellar, separated by shelving; begin with one exposed and the other hiding. Their trail leads to a loose board beside the steps. Fighting, traps or a food lure can clear them; the gap needs a simple physical repair. Let this be a short, satisfying first job. No rat king, disease outbreak or second nest.\n\nSite: Roseberry Inn - Cellar. BEGINNER WORK: use the stated finite nuisance, normally level 1–3, weak/trivial, with only one active hostile initially. A second rat or moth is separated, not a free pack attack. Apply the individual beginner profile in New NPC guidance. No hidden alpha, lethal continuous damage, opening critical burst or mandatory second hunt.\nBronze badge or higher; posted fee 30 marks. Optional, finite work: agree terms before accepting. The native completion condition and effects alone settle this job, paying the fee, experience and one Guild Service Credit once. Do not duplicate those grants or add a return report beyond the stated objective. Killing is not required when a safe, effective alternative achieves the same work. No instant capture, automatic success, free spell or recruitment. Respect the actual outcome and resolved individuals.",
+          "conclusive": true,
+          "completionCondition": {
+            "type": "story",
+            "query": "For the accepted contract \"Guild: Rats in the Cellar\", the actual events have achieved this outcome: Clear the rats damaging Roseberry Inn’s cellar stores and close their visible entry gap, leaving the food storage usable. Count an effective nonlethal or negotiated solution when it achieves that outcome. The real work must be done; a plan, arrival, boast, unrelated creature or old result from another contract is insufficient. Once achieved, preserve the outcome after travel. No extra report or another job is required."
+          },
+          "onCompleteEffects": [
+            {
+              "type": "item-add",
+              "item": "Mark",
+              "quantity": 30,
+              "target": "allPlayers"
+            },
+            {
+              "type": "player-experience",
+              "operator": "add",
+              "value": 200,
+              "target": "allPlayers"
+            },
+            {
+              "type": "item-add",
+              "item": "Guild Service Credit",
+              "quantity": 1,
+              "target": "allPlayers"
+            },
+            {
+              "type": "story",
+              "instruction": "Conclude Guild: Rats in the Cellar with the actual method and consequences. The typed effects settle the agreed payment and service credit once. Show the client’s specific reaction if they are present; otherwise preserve the result without teleporting them here. Return entrusted property, keep resolved creatures resolved and leave any further work optional."
+            }
+          ]
+        },
+        "Guild: The Washbasin Is Occupied": {
+          "name": "Guild: The Washbasin Is Occupied",
+          "questSource": "Daichi Kamado",
+          "questLocation": "The Golden Ladle",
+          "detailType": "detailed",
+          "status": "hidden",
+          "questStatement": "Bronze contract. Daichi Kamado’s kitchen basin has acquired an unwelcome wobbling occupant. He offers 30 marks for a working basin and an uninterrupted lunch service.",
+          "mainObjective": "Remove or defeat the Puddle Slime in The Golden Ladle’s washbasin and restore the basin to safe use.",
+          "questDesignBrief": "One level 1–2 Puddle Slime keeps sliding back into the basin through a leaking pipe joint. Daichi Kamado argues with it as if it were a lazy kitchen assistant. A bucket, a lure or careful fighting can remove it; closing the small leak prevents another immediate slip back. Splashing dishes makes a mess, not an acid attack. The actual removal and usable basin finish the work.\n\nSite: The Golden Ladle - Kitchen Passage. BEGINNER WORK: use the stated finite nuisance, normally level 1–3, weak/trivial, with only one active hostile initially. A second rat or moth is separated, not a free pack attack. Apply the individual beginner profile in New NPC guidance. No hidden alpha, lethal continuous damage, opening critical burst or mandatory second hunt.\nBronze badge or higher; posted fee 30 marks. Optional, finite work: agree terms before accepting. The native completion condition and effects alone settle this job, paying the fee, experience and one Guild Service Credit once. Do not duplicate those grants or add a return report beyond the stated objective. Killing is not required when a safe, effective alternative achieves the same work. No instant capture, automatic success, free spell or recruitment. Respect the actual outcome and resolved individuals.",
+          "conclusive": true,
+          "completionCondition": {
+            "type": "story",
+            "query": "For the accepted contract \"Guild: The Washbasin Is Occupied\", the actual events have achieved this outcome: Remove or defeat the Puddle Slime in The Golden Ladle’s washbasin and restore the basin to safe use. Count an effective nonlethal or negotiated solution when it achieves that outcome. The real work must be done; a plan, arrival, boast, unrelated creature or old result from another contract is insufficient. Once achieved, preserve the outcome after travel. No extra report or another job is required."
+          },
+          "onCompleteEffects": [
+            {
+              "type": "item-add",
+              "item": "Mark",
+              "quantity": 30,
+              "target": "allPlayers"
+            },
+            {
+              "type": "player-experience",
+              "operator": "add",
+              "value": 200,
+              "target": "allPlayers"
+            },
+            {
+              "type": "item-add",
+              "item": "Guild Service Credit",
+              "quantity": 1,
+              "target": "allPlayers"
+            },
+            {
+              "type": "story",
+              "instruction": "Conclude Guild: The Washbasin Is Occupied with the actual method and consequences. The typed effects settle the agreed payment and service credit once. Show the client’s specific reaction if they are present; otherwise preserve the result without teleporting them here. Return entrusted property, keep resolved creatures resolved and leave any further work optional."
+            }
+          ]
+        },
+        "Guild: The Watchdog Nobody Hired": {
+          "name": "Guild: The Watchdog Nobody Hired",
+          "questSource": "Kaito Minato",
+          "questLocation": "Whitecrest Harbor",
+          "detailType": "detailed",
+          "status": "hidden",
+          "questStatement": "Bronze contract. A stray dog is defending a bundle of stolen provisions behind the cargo sheds. Kaito Minato offers 35 marks to recover the supplies and let the porters work safely.",
+          "mainObjective": "Recover the cargo-pier provisions and end the stray dog’s obstruction without leaving it threatening the workers.",
+          "questDesignBrief": "One hungry level 1–2 dog has decided a dropped sausage bundle is its property. It barks before snapping and backs toward the shed when crowded. Food, calm handling, a barrier or a fight can settle it. Kaito Minato wants the pier safe; he has not ordered a killing or promised free adoption. The dog does not lead to a wolf pack. Keep any voluntary care or ownership decision separate from the paid job.\n\nSite: Whitecrest Harbor - Cargo Pier. BEGINNER WORK: use the stated finite nuisance, normally level 1–3, weak/trivial, with only one active hostile initially. A second rat or moth is separated, not a free pack attack. Apply the individual beginner profile in New NPC guidance. No hidden alpha, lethal continuous damage, opening critical burst or mandatory second hunt.\nBronze badge or higher; posted fee 35 marks. Optional, finite work: agree terms before accepting. The native completion condition and effects alone settle this job, paying the fee, experience and one Guild Service Credit once. Do not duplicate those grants or add a return report beyond the stated objective. Killing is not required when a safe, effective alternative achieves the same work. No instant capture, automatic success, free spell or recruitment. Respect the actual outcome and resolved individuals.",
+          "conclusive": true,
+          "completionCondition": {
+            "type": "story",
+            "query": "For the accepted contract \"Guild: The Watchdog Nobody Hired\", the actual events have achieved this outcome: Recover the cargo-pier provisions and end the stray dog’s obstruction without leaving it threatening the workers. Count an effective nonlethal or negotiated solution when it achieves that outcome. The real work must be done; a plan, arrival, boast, unrelated creature or old result from another contract is insufficient. Once achieved, preserve the outcome after travel. No extra report or another job is required."
+          },
+          "onCompleteEffects": [
+            {
+              "type": "item-add",
+              "item": "Mark",
+              "quantity": 35,
+              "target": "allPlayers"
+            },
+            {
+              "type": "player-experience",
+              "operator": "add",
+              "value": 240,
+              "target": "allPlayers"
+            },
+            {
+              "type": "item-add",
+              "item": "Guild Service Credit",
+              "quantity": 1,
+              "target": "allPlayers"
+            },
+            {
+              "type": "story",
+              "instruction": "Conclude Guild: The Watchdog Nobody Hired with the actual method and consequences. The typed effects settle the agreed payment and service credit once. Show the client’s specific reaction if they are present; otherwise preserve the result without teleporting them here. Return entrusted property, keep resolved creatures resolved and leave any further work optional."
+            }
+          ]
+        },
+        "Guild: Something in the Flour": {
+          "name": "Guild: Something in the Flour",
+          "questSource": "Haruho Taneda",
+          "questLocation": "Brookmeadow",
+          "detailType": "detailed",
+          "status": "hidden",
+          "questStatement": "Bronze contract. Flour sacks are moving by themselves in Brookmeadow’s mill yard. Haruho Taneda offers 35 marks to stop the theft without ruining the remaining grain.",
+          "mainObjective": "Remove the Flour Beetle taking grain in Brookmeadow’s Mill Lane and leave the remaining sacks secure.",
+          "questDesignBrief": "One level 1–2 Flour Beetle is hauling a sack far too large for it, inch by determined inch. Haruho Taneda is more offended by the waste than frightened. It pauses to rearrange the load, exposing its soft underside. Trap, lure or defeat it. A tipped sack and a tied store cover are enough environmental business; the beetle is not a secret armored boss.\n\nSite: Brookmeadow - Mill Lane. BEGINNER WORK: use the stated finite nuisance, normally level 1–3, weak/trivial, with only one active hostile initially. A second rat or moth is separated, not a free pack attack. Apply the individual beginner profile in New NPC guidance. No hidden alpha, lethal continuous damage, opening critical burst or mandatory second hunt.\nBronze badge or higher; posted fee 35 marks. Optional, finite work: agree terms before accepting. The native completion condition and effects alone settle this job, paying the fee, experience and one Guild Service Credit once. Do not duplicate those grants or add a return report beyond the stated objective. Killing is not required when a safe, effective alternative achieves the same work. No instant capture, automatic success, free spell or recruitment. Respect the actual outcome and resolved individuals.",
+          "conclusive": true,
+          "completionCondition": {
+            "type": "story",
+            "query": "For the accepted contract \"Guild: Something in the Flour\", the actual events have achieved this outcome: Remove the Flour Beetle taking grain in Brookmeadow’s Mill Lane and leave the remaining sacks secure. Count an effective nonlethal or negotiated solution when it achieves that outcome. The real work must be done; a plan, arrival, boast, unrelated creature or old result from another contract is insufficient. Once achieved, preserve the outcome after travel. No extra report or another job is required."
+          },
+          "onCompleteEffects": [
+            {
+              "type": "item-add",
+              "item": "Mark",
+              "quantity": 35,
+              "target": "allPlayers"
+            },
+            {
+              "type": "player-experience",
+              "operator": "add",
+              "value": 240,
+              "target": "allPlayers"
+            },
+            {
+              "type": "item-add",
+              "item": "Guild Service Credit",
+              "quantity": 1,
+              "target": "allPlayers"
+            },
+            {
+              "type": "story",
+              "instruction": "Conclude Guild: Something in the Flour with the actual method and consequences. The typed effects settle the agreed payment and service credit once. Show the client’s specific reaction if they are present; otherwise preserve the result without teleporting them here. Return entrusted property, keep resolved creatures resolved and leave any further work optional."
+            }
+          ]
+        },
+        "Guild: Swept Off Your Feet": {
+          "name": "Guild: Swept Off Your Feet",
+          "questSource": "Reiji Takatori",
+          "questLocation": "Rune and Raven's",
+          "detailType": "detailed",
+          "status": "hidden",
+          "questStatement": "Bronze contract. A cleaning broom at Rune and Raven’s has begun treating customers’ boots as stubborn dirt. Reiji Takatori offers 35 marks to stop it before another customer complains.",
+          "mainObjective": "Safely stop the runaway cleaning broom in Rune and Raven’s back stock and leave it contained or repaired.",
+          "questDesignBrief": "One level 2 broom has chased Reiji Takatori onto a stock stool. Its loose binding charm is plainly accessible near the bristles. Pinning it, distracting it with dirt, disabling the binding or defeating it are all credible. A cracked handle may lower its resale value but does not secretly cancel the agreed fee. No advanced Enchantment skill is mandatory to wrestle a broom into a cupboard.\n\nSite: Rune and Raven's - Back Stock. BEGINNER WORK: use the stated finite nuisance, normally level 1–3, weak/trivial, with only one active hostile initially. A second rat or moth is separated, not a free pack attack. Apply the individual beginner profile in New NPC guidance. No hidden alpha, lethal continuous damage, opening critical burst or mandatory second hunt.\nBronze badge or higher; posted fee 35 marks. Optional, finite work: agree terms before accepting. The native completion condition and effects alone settle this job, paying the fee, experience and one Guild Service Credit once. Do not duplicate those grants or add a return report beyond the stated objective. Killing is not required when a safe, effective alternative achieves the same work. No instant capture, automatic success, free spell or recruitment. Respect the actual outcome and resolved individuals.",
+          "conclusive": true,
+          "completionCondition": {
+            "type": "story",
+            "query": "For the accepted contract \"Guild: Swept Off Your Feet\", the actual events have achieved this outcome: Safely stop the runaway cleaning broom in Rune and Raven’s back stock and leave it contained or repaired. Count an effective nonlethal or negotiated solution when it achieves that outcome. The real work must be done; a plan, arrival, boast, unrelated creature or old result from another contract is insufficient. Once achieved, preserve the outcome after travel. No extra report or another job is required."
+          },
+          "onCompleteEffects": [
+            {
+              "type": "item-add",
+              "item": "Mark",
+              "quantity": 35,
+              "target": "allPlayers"
+            },
+            {
+              "type": "player-experience",
+              "operator": "add",
+              "value": 240,
+              "target": "allPlayers"
+            },
+            {
+              "type": "item-add",
+              "item": "Guild Service Credit",
+              "quantity": 1,
+              "target": "allPlayers"
+            },
+            {
+              "type": "story",
+              "instruction": "Conclude Guild: Swept Off Your Feet with the actual method and consequences. The typed effects settle the agreed payment and service credit once. Show the client’s specific reaction if they are present; otherwise preserve the result without teleporting them here. Return entrusted property, keep resolved creatures resolved and leave any further work optional."
+            }
+          ]
+        },
+        "Guild: A Claw in the Channel": {
+          "name": "Guild: A Claw in the Channel",
+          "questSource": "Takumi Hatano",
+          "questLocation": "Glowhaven Farmlands",
+          "detailType": "detailed",
+          "status": "hidden",
+          "questStatement": "Bronze contract. A large crab has wedged itself into an irrigation sluice. Takumi Hatano offers 40 marks to restore the water before the lower beds dry out.",
+          "mainObjective": "Remove the Orchard Crab blocking the agreed irrigation sluice and restore water to the lower beds.",
+          "questDesignBrief": "A single level 2–3 crab grips the sluice frame. Takumi Hatano holds a basket with an obvious hole in it and insists it was a perfectly good plan. The crab raises its claw before a pinch. Bait, a sound container, a lifted gate or careful fighting works. Water should flow again once the obstruction and lodged twigs are removed; do not add an upstream monster.\n\nSite: Glowhaven Farmlands - Irrigation Run. BEGINNER WORK: use the stated finite nuisance, normally level 1–3, weak/trivial, with only one active hostile initially. A second rat or moth is separated, not a free pack attack. Apply the individual beginner profile in New NPC guidance. No hidden alpha, lethal continuous damage, opening critical burst or mandatory second hunt.\nBronze badge or higher; posted fee 40 marks. Optional, finite work: agree terms before accepting. The native completion condition and effects alone settle this job, paying the fee, experience and one Guild Service Credit once. Do not duplicate those grants or add a return report beyond the stated objective. Killing is not required when a safe, effective alternative achieves the same work. No instant capture, automatic success, free spell or recruitment. Respect the actual outcome and resolved individuals.",
+          "conclusive": true,
+          "completionCondition": {
+            "type": "story",
+            "query": "For the accepted contract \"Guild: A Claw in the Channel\", the actual events have achieved this outcome: Remove the Orchard Crab blocking the agreed irrigation sluice and restore water to the lower beds. Count an effective nonlethal or negotiated solution when it achieves that outcome. The real work must be done; a plan, arrival, boast, unrelated creature or old result from another contract is insufficient. Once achieved, preserve the outcome after travel. No extra report or another job is required."
+          },
+          "onCompleteEffects": [
+            {
+              "type": "item-add",
+              "item": "Mark",
+              "quantity": 40,
+              "target": "allPlayers"
+            },
+            {
+              "type": "player-experience",
+              "operator": "add",
+              "value": 280,
+              "target": "allPlayers"
+            },
+            {
+              "type": "item-add",
+              "item": "Guild Service Credit",
+              "quantity": 1,
+              "target": "allPlayers"
+            },
+            {
+              "type": "story",
+              "instruction": "Conclude Guild: A Claw in the Channel with the actual method and consequences. The typed effects settle the agreed payment and service credit once. Show the client’s specific reaction if they are present; otherwise preserve the result without teleporting them here. Return entrusted property, keep resolved creatures resolved and leave any further work optional."
+            }
+          ]
+        },
+        "Guild: A Very Unhelpful Night-Light": {
+          "name": "Guild: A Very Unhelpful Night-Light",
+          "questSource": "Shizuru Sumida",
+          "questLocation": "The Wandering Quill",
+          "detailType": "detailed",
+          "status": "hidden",
+          "questStatement": "Bronze contract. Sooty wing prints are appearing across The Wandering Quill’s clean paper. Shizuru Sumida offers 40 marks to remove the moths and protect the stock.",
+          "mainObjective": "Clear the Soot Moths from The Wandering Quill’s stock alcove and remove the lamp residue drawing them to the paper.",
+          "questDesignBrief": "Two level 2–3 moths circle one warm lamp; only one is an active nuisance initially. Shizuru Sumida has covered the costly paper with cheap practice sheets. Their amber wing prints collect nearest a freshly polished lamp: sweet resin in the polish, not cursed ink, attracts them. A shaded decoy, netting or careful blows can clear them. Cleaning that lamp gives the job a small satisfying explanation, not another quest.\n\nSite: The Wandering Quill - Stock Alcove. BEGINNER WORK: use the stated finite nuisance, normally level 1–3, weak/trivial, with only one active hostile initially. A second rat or moth is separated, not a free pack attack. Apply the individual beginner profile in New NPC guidance. No hidden alpha, lethal continuous damage, opening critical burst or mandatory second hunt.\nBronze badge or higher; posted fee 40 marks. Optional, finite work: agree terms before accepting. The native completion condition and effects alone settle this job, paying the fee, experience and one Guild Service Credit once. Do not duplicate those grants or add a return report beyond the stated objective. Killing is not required when a safe, effective alternative achieves the same work. No instant capture, automatic success, free spell or recruitment. Respect the actual outcome and resolved individuals.",
+          "conclusive": true,
+          "completionCondition": {
+            "type": "story",
+            "query": "For the accepted contract \"Guild: A Very Unhelpful Night-Light\", the actual events have achieved this outcome: Clear the Soot Moths from The Wandering Quill’s stock alcove and remove the lamp residue drawing them to the paper. Count an effective nonlethal or negotiated solution when it achieves that outcome. The real work must be done; a plan, arrival, boast, unrelated creature or old result from another contract is insufficient. Once achieved, preserve the outcome after travel. No extra report or another job is required."
+          },
+          "onCompleteEffects": [
+            {
+              "type": "item-add",
+              "item": "Mark",
+              "quantity": 40,
+              "target": "allPlayers"
+            },
+            {
+              "type": "player-experience",
+              "operator": "add",
+              "value": 280,
+              "target": "allPlayers"
+            },
+            {
+              "type": "item-add",
+              "item": "Guild Service Credit",
+              "quantity": 1,
+              "target": "allPlayers"
+            },
+            {
+              "type": "story",
+              "instruction": "Conclude Guild: A Very Unhelpful Night-Light with the actual method and consequences. The typed effects settle the agreed payment and service credit once. Show the client’s specific reaction if they are present; otherwise preserve the result without teleporting them here. Return entrusted property, keep resolved creatures resolved and leave any further work optional."
+            }
+          ]
+        },
+        "Guild: Something Chewed the Joists": {
+          "name": "Guild: Something Chewed the Joists",
+          "questSource": "Makoto Sashihara",
+          "questLocation": "The Carpenter's Measure",
+          "detailType": "detailed",
+          "status": "hidden",
+          "questStatement": "Bronze contract. Fresh timber keeps failing Makoto Sashihara’s checks before it reaches the workbench. He offers 60 marks to find and stop whatever is chewing the stored joists.",
+          "mainObjective": "Stop the Timberjaw Gnawer damaging the stored joists and help Makoto Sashihara separate sound timber from the gnawed pieces.",
+          "questDesignBrief": "One level 5–8 gnawer nests beneath the damp rack. Paired tooth marks lead to it. A propped timber stack makes reckless heavy attacks a poor choice, but Makoto Sashihara can show a safe brace when asked. Capture, drive off or defeat the creature, then identify the visibly damaged pieces. No hidden infestation or engineering examination follows.\n\nSite: The Carpenter's Measure - Timber Yard. PRACTICED BRONZE: one stated creature, or the explicit separated pair. Use its described local band, capped at two levels above the least experienced participating human unless a harder job was explicitly requested and warned about. Weak individuals, telegraphed attacks and useful cover; no surprise elite upgrade.\nBronze badge or higher; posted fee 60 marks. Optional, finite work: agree terms before accepting. The native completion condition and effects alone settle this job, paying the fee, experience and one Guild Service Credit once. Do not duplicate those grants or add a return report beyond the stated objective. Killing is not required when a safe, effective alternative achieves the same work. No instant capture, automatic success, free spell or recruitment. Respect the actual outcome and resolved individuals.",
+          "conclusive": true,
+          "completionCondition": {
+            "type": "story",
+            "query": "For the accepted contract \"Guild: Something Chewed the Joists\", the actual events have achieved this outcome: Stop the Timberjaw Gnawer damaging the stored joists and help Makoto Sashihara separate sound timber from the gnawed pieces. Count an effective nonlethal or negotiated solution when it achieves that outcome. The real work must be done; a plan, arrival, boast, unrelated creature or old result from another contract is insufficient. Once achieved, preserve the outcome after travel. No extra report or another job is required."
+          },
+          "onCompleteEffects": [
+            {
+              "type": "item-add",
+              "item": "Mark",
+              "quantity": 60,
+              "target": "allPlayers"
+            },
+            {
+              "type": "player-experience",
+              "operator": "add",
+              "value": 450,
+              "target": "allPlayers"
+            },
+            {
+              "type": "item-add",
+              "item": "Guild Service Credit",
+              "quantity": 1,
+              "target": "allPlayers"
+            },
+            {
+              "type": "story",
+              "instruction": "Conclude Guild: Something Chewed the Joists with the actual method and consequences. The typed effects settle the agreed payment and service credit once. Show the client’s specific reaction if they are present; otherwise preserve the result without teleporting them here. Return entrusted property, keep resolved creatures resolved and leave any further work optional."
+            }
+          ]
+        },
+        "Guild: Lanterns With a Temper": {
+          "name": "Guild: Lanterns With a Temper",
+          "questSource": "Rinpei Komatsu",
+          "questLocation": "Four Sages Bazaar",
+          "detailType": "detailed",
+          "status": "hidden",
+          "questStatement": "Bronze contract. Rinpei Komatsu’s newest hanging lantern has started buzzing at customers. He offers 65 marks to remove its occupants without scattering them through the arcade.",
+          "mainObjective": "Clear the Lantern Wasps from the occupied bazaar lantern and leave the immediate stall frontage safe.",
+          "questDesignBrief": "Two level 6–8 wasps have occupied a hollow display lantern; only one emerges at first. Close the neighboring screens or move the display before provoking both. Rinpei Komatsu claims the buzzing is excellent advertising until a customer refuses to approach. Covering its light, relocating the nest or a controlled fight works. A painful sting is one resolved attack, not an automatic continuing poison clock.\n\nSite: Four Sages Bazaar - North Arcade. PRACTICED BRONZE: one stated creature, or the explicit separated pair. Use its described local band, capped at two levels above the least experienced participating human unless a harder job was explicitly requested and warned about. Weak individuals, telegraphed attacks and useful cover; no surprise elite upgrade.\nBronze badge or higher; posted fee 65 marks. Optional, finite work: agree terms before accepting. The native completion condition and effects alone settle this job, paying the fee, experience and one Guild Service Credit once. Do not duplicate those grants or add a return report beyond the stated objective. Killing is not required when a safe, effective alternative achieves the same work. No instant capture, automatic success, free spell or recruitment. Respect the actual outcome and resolved individuals.",
+          "conclusive": true,
+          "completionCondition": {
+            "type": "story",
+            "query": "For the accepted contract \"Guild: Lanterns With a Temper\", the actual events have achieved this outcome: Clear the Lantern Wasps from the occupied bazaar lantern and leave the immediate stall frontage safe. Count an effective nonlethal or negotiated solution when it achieves that outcome. The real work must be done; a plan, arrival, boast, unrelated creature or old result from another contract is insufficient. Once achieved, preserve the outcome after travel. No extra report or another job is required."
+          },
+          "onCompleteEffects": [
+            {
+              "type": "item-add",
+              "item": "Mark",
+              "quantity": 65,
+              "target": "allPlayers"
+            },
+            {
+              "type": "player-experience",
+              "operator": "add",
+              "value": 480,
+              "target": "allPlayers"
+            },
+            {
+              "type": "item-add",
+              "item": "Guild Service Credit",
+              "quantity": 1,
+              "target": "allPlayers"
+            },
+            {
+              "type": "story",
+              "instruction": "Conclude Guild: Lanterns With a Temper with the actual method and consequences. The typed effects settle the agreed payment and service credit once. Show the client’s specific reaction if they are present; otherwise preserve the result without teleporting them here. Return entrusted property, keep resolved creatures resolved and leave any further work optional."
+            }
+          ]
+        },
+        "Guild: Warm Feet, Cold Delivery": {
+          "name": "Guild: Warm Feet, Cold Delivery",
+          "questSource": "Kazuo Kurogaki",
+          "questLocation": "Blackstone Smithy",
+          "detailType": "detailed",
+          "status": "hidden",
+          "questStatement": "Bronze contract. A Cinderback Lizard has settled on the forge delivery route. Kazuo Kurogaki offers 70 marks to clear it without letting its ember puffs reach the waiting packing straw.",
+          "mainObjective": "Remove the Cinderback Lizard from Blackstone Smithy’s delivery route and make the packed goods safe to move.",
+          "questDesignBrief": "One level 7–9 lizard sprawls across a warm stone near the forge door. Its glowing shoulder scales telegraph each short ember puff. Moving the straw and opening a cool route are useful preparation. Lure it, contain it or fight with the forge’s actual cover. Kazuo Kurogaki provides ordinary tongs when asked, not a free enchanted weapon. The job ends with a clear route and secure packing.\n\nSite: Blackstone Smithy - Forge Floor. PRACTICED BRONZE: one stated creature, or the explicit separated pair. Use its described local band, capped at two levels above the least experienced participating human unless a harder job was explicitly requested and warned about. Weak individuals, telegraphed attacks and useful cover; no surprise elite upgrade.\nBronze badge or higher; posted fee 70 marks. Optional, finite work: agree terms before accepting. The native completion condition and effects alone settle this job, paying the fee, experience and one Guild Service Credit once. Do not duplicate those grants or add a return report beyond the stated objective. Killing is not required when a safe, effective alternative achieves the same work. No instant capture, automatic success, free spell or recruitment. Respect the actual outcome and resolved individuals.",
+          "conclusive": true,
+          "completionCondition": {
+            "type": "story",
+            "query": "For the accepted contract \"Guild: Warm Feet, Cold Delivery\", the actual events have achieved this outcome: Remove the Cinderback Lizard from Blackstone Smithy’s delivery route and make the packed goods safe to move. Count an effective nonlethal or negotiated solution when it achieves that outcome. The real work must be done; a plan, arrival, boast, unrelated creature or old result from another contract is insufficient. Once achieved, preserve the outcome after travel. No extra report or another job is required."
+          },
+          "onCompleteEffects": [
+            {
+              "type": "item-add",
+              "item": "Mark",
+              "quantity": 70,
+              "target": "allPlayers"
+            },
+            {
+              "type": "player-experience",
+              "operator": "add",
+              "value": 520,
+              "target": "allPlayers"
+            },
+            {
+              "type": "item-add",
+              "item": "Guild Service Credit",
+              "quantity": 1,
+              "target": "allPlayers"
+            },
+            {
+              "type": "story",
+              "instruction": "Conclude Guild: Warm Feet, Cold Delivery with the actual method and consequences. The typed effects settle the agreed payment and service credit once. Show the client’s specific reaction if they are present; otherwise preserve the result without teleporting them here. Return entrusted property, keep resolved creatures resolved and leave any further work optional."
+            }
+          ]
+        },
+        "Guild: The Spare Parts Bargain": {
+          "name": "Guild: The Spare Parts Bargain",
+          "questSource": "Seiji Haguruma",
+          "questLocation": "The Compassmaker",
+          "detailType": "detailed",
+          "status": "hidden",
+          "questStatement": "Bronze contract. Washers, springs and a very particular gear have vanished from Seiji Haguruma’s cabinet. He offers 75 marks for their recovery and an end to the intrusions.",
+          "mainObjective": "Recover or replace Seiji Haguruma’s stolen working parts on terms he accepts, and settle the Scrap Imp’s repeated intrusions.",
+          "questDesignBrief": "One level 7–10 Scrap Imp has assembled an almost-working clock beneath the bench. It sincerely offers to trade the stolen gear for another stolen gear. Seiji Haguruma may accept a properly agreed supply of useless offcuts if the necessary working parts come back; the player cannot give his stock away for him. Bargain, trap or defeat the imp. Its ridiculous hobby does not excuse the theft or compel friendship.\n\nSite: The Compassmaker - Parts Cabinet. PRACTICED BRONZE: one stated creature, or the explicit separated pair. Use its described local band, capped at two levels above the least experienced participating human unless a harder job was explicitly requested and warned about. Weak individuals, telegraphed attacks and useful cover; no surprise elite upgrade.\nBronze badge or higher; posted fee 75 marks. Optional, finite work: agree terms before accepting. The native completion condition and effects alone settle this job, paying the fee, experience and one Guild Service Credit once. Do not duplicate those grants or add a return report beyond the stated objective. Killing is not required when a safe, effective alternative achieves the same work. No instant capture, automatic success, free spell or recruitment. Respect the actual outcome and resolved individuals.",
+          "conclusive": true,
+          "completionCondition": {
+            "type": "story",
+            "query": "For the accepted contract \"Guild: The Spare Parts Bargain\", the actual events have achieved this outcome: Recover or replace Seiji Haguruma’s stolen working parts on terms he accepts, and settle the Scrap Imp’s repeated intrusions. Count an effective nonlethal or negotiated solution when it achieves that outcome. The real work must be done; a plan, arrival, boast, unrelated creature or old result from another contract is insufficient. Once achieved, preserve the outcome after travel. No extra report or another job is required."
+          },
+          "onCompleteEffects": [
+            {
+              "type": "item-add",
+              "item": "Mark",
+              "quantity": 75,
+              "target": "allPlayers"
+            },
+            {
+              "type": "player-experience",
+              "operator": "add",
+              "value": 560,
+              "target": "allPlayers"
+            },
+            {
+              "type": "item-add",
+              "item": "Guild Service Credit",
+              "quantity": 1,
+              "target": "allPlayers"
+            },
+            {
+              "type": "story",
+              "instruction": "Conclude Guild: The Spare Parts Bargain with the actual method and consequences. The typed effects settle the agreed payment and service credit once. Show the client’s specific reaction if they are present; otherwise preserve the result without teleporting them here. Return entrusted property, keep resolved creatures resolved and leave any further work optional."
+            }
+          ]
+        },
+        "Guild: A Ripple Under the Ford": {
+          "name": "Guild: A Ripple Under the Ford",
+          "questSource": "Shiori Kawase",
+          "questLocation": "Pinewater River",
+          "detailType": "detailed",
+          "status": "hidden",
+          "questStatement": "Bronze contract. Something has been snapping at the crossing ropes at Brookmeadow Ford. Shiori Kawase offers 80 marks to make the marked crossing usable again.",
+          "mainObjective": "Remove the Reed Ambusher threatening the marked ford crossing and restore a safe line for the crossing crew.",
+          "questDesignBrief": "One level 8–11 ambusher waits beside the shallow rope anchor, with ripples exposing its position. Shiori Kawase refuses to send another porter across until it is dealt with. Work from a dry bank, draw it into the open or fight during its recovery after a leap. A frayed rope needs retying, not a second expedition. The accepted notice makes this stronger creature explicit; ordinary nearby travelers do not acquire its difficulty.\n\nSite: Pinewater River - Brookmeadow Ford. PRACTICED BRONZE: one stated creature, or the explicit separated pair. Use its described local band, capped at two levels above the least experienced participating human unless a harder job was explicitly requested and warned about. Weak individuals, telegraphed attacks and useful cover; no surprise elite upgrade.\nBronze badge or higher; posted fee 80 marks. Optional, finite work: agree terms before accepting. The native completion condition and effects alone settle this job, paying the fee, experience and one Guild Service Credit once. Do not duplicate those grants or add a return report beyond the stated objective. Killing is not required when a safe, effective alternative achieves the same work. No instant capture, automatic success, free spell or recruitment. Respect the actual outcome and resolved individuals.",
+          "conclusive": true,
+          "completionCondition": {
+            "type": "story",
+            "query": "For the accepted contract \"Guild: A Ripple Under the Ford\", the actual events have achieved this outcome: Remove the Reed Ambusher threatening the marked ford crossing and restore a safe line for the crossing crew. Count an effective nonlethal or negotiated solution when it achieves that outcome. The real work must be done; a plan, arrival, boast, unrelated creature or old result from another contract is insufficient. Once achieved, preserve the outcome after travel. No extra report or another job is required."
+          },
+          "onCompleteEffects": [
+            {
+              "type": "item-add",
+              "item": "Mark",
+              "quantity": 80,
+              "target": "allPlayers"
+            },
+            {
+              "type": "player-experience",
+              "operator": "add",
+              "value": 600,
+              "target": "allPlayers"
+            },
+            {
+              "type": "item-add",
+              "item": "Guild Service Credit",
+              "quantity": 1,
+              "target": "allPlayers"
+            },
+            {
+              "type": "story",
+              "instruction": "Conclude Guild: A Ripple Under the Ford with the actual method and consequences. The typed effects settle the agreed payment and service credit once. Show the client’s specific reaction if they are present; otherwise preserve the result without teleporting them here. Return entrusted property, keep resolved creatures resolved and leave any further work optional."
+            }
+          ]
+        },
+        "Guild: Prickles in the Orchard": {
+          "name": "Guild: Prickles in the Orchard",
+          "questSource": "Takumi Hatano",
+          "questLocation": "Glowhaven Farmlands",
+          "detailType": "detailed",
+          "status": "hidden",
+          "questStatement": "Bronze contract. A Burrback Hedgebeast keeps flattening the orchard fence on its evening visits. Takumi Hatano offers 90 marks to stop the raids and secure the damaged stretch.",
+          "mainObjective": "End the Burrback Hedgebeast’s raids on the agreed orchard beds and leave the damaged fence secure.",
+          "questDesignBrief": "One level 8–11 grazer follows the smell of split fruit through a broken fence. Its lowered head and scraping forefoot warn of a charge. Moving the windfalls can draw it away; a sound barrier, relocation or defeat also works. Takumi Hatano can supply fence slats from his actual repair pile. This is a stubborn animal causing costly damage, with no obligation to discover a secret ecological catastrophe.\n\nSite: Glowhaven Farmlands - South Fields. PRACTICED BRONZE: one stated creature, or the explicit separated pair. Use its described local band, capped at two levels above the least experienced participating human unless a harder job was explicitly requested and warned about. Weak individuals, telegraphed attacks and useful cover; no surprise elite upgrade.\nBronze badge or higher; posted fee 90 marks. Optional, finite work: agree terms before accepting. The native completion condition and effects alone settle this job, paying the fee, experience and one Guild Service Credit once. Do not duplicate those grants or add a return report beyond the stated objective. Killing is not required when a safe, effective alternative achieves the same work. No instant capture, automatic success, free spell or recruitment. Respect the actual outcome and resolved individuals.",
+          "conclusive": true,
+          "completionCondition": {
+            "type": "story",
+            "query": "For the accepted contract \"Guild: Prickles in the Orchard\", the actual events have achieved this outcome: End the Burrback Hedgebeast’s raids on the agreed orchard beds and leave the damaged fence secure. Count an effective nonlethal or negotiated solution when it achieves that outcome. The real work must be done; a plan, arrival, boast, unrelated creature or old result from another contract is insufficient. Once achieved, preserve the outcome after travel. No extra report or another job is required."
+          },
+          "onCompleteEffects": [
+            {
+              "type": "item-add",
+              "item": "Mark",
+              "quantity": 90,
+              "target": "allPlayers"
+            },
+            {
+              "type": "player-experience",
+              "operator": "add",
+              "value": 650,
+              "target": "allPlayers"
+            },
+            {
+              "type": "item-add",
+              "item": "Guild Service Credit",
+              "quantity": 1,
+              "target": "allPlayers"
+            },
+            {
+              "type": "story",
+              "instruction": "Conclude Guild: Prickles in the Orchard with the actual method and consequences. The typed effects settle the agreed payment and service credit once. Show the client’s specific reaction if they are present; otherwise preserve the result without teleporting them here. Return entrusted property, keep resolved creatures resolved and leave any further work optional."
+            }
+          ]
+        },
+        "Guild: Do Not Meet Its Eyes": {
+          "name": "Guild: Do Not Meet Its Eyes",
+          "questSource": "Osamu Iseki",
+          "questLocation": "Greywatch Keep",
+          "detailType": "detailed",
+          "status": "hidden",
+          "questStatement": "Silver contract. Osamu Iseki spotted an unfamiliar reptile beside Greywatch’s old yard wall. A commissioned inspection offers 110 marks to clear the marked approach before local workers enter.",
+          "mainObjective": "Clear the Glass-Eye Basilisk from the marked Greywatch yard approach so the commissioned inspection can proceed safely.",
+          "questDesignBrief": "One level 13–16 basilisk occupies a sunny rubble shelf. Osamu Iseki is a retired mason and witness, not Greywatch’s owner or a commander. The job concerns this approach only. Brightening eyes precede a sustained stiffening stare; broken sight interrupts it. Shielding, noisy distraction, containment or combat can succeed. The animal has not turned missing workers into statues, and no deeper keep clearance is required.\n\nSite: Greywatch Keep - Overgrown Yard. EXPERIENCED FIELDWORK: one stated creature in its described level band, normally 13–18 and average tier. Preserve readable threats and practical alternatives. The posted risk belongs to this accepted commission, not every nearby passerby or a novice’s unrelated job.\nSilver badge or higher; posted fee 110 marks. Optional, finite work: agree terms before accepting. The native completion condition and effects alone settle this job, paying the fee, experience and one Guild Service Credit once. Do not duplicate those grants or add a return report beyond the stated objective. Killing is not required when a safe, effective alternative achieves the same work. No instant capture, automatic success, free spell or recruitment. Respect the actual outcome and resolved individuals.",
+          "conclusive": true,
+          "completionCondition": {
+            "type": "story",
+            "query": "For the accepted contract \"Guild: Do Not Meet Its Eyes\", the actual events have achieved this outcome: Clear the Glass-Eye Basilisk from the marked Greywatch yard approach so the commissioned inspection can proceed safely. Count an effective nonlethal or negotiated solution when it achieves that outcome. The real work must be done; a plan, arrival, boast, unrelated creature or old result from another contract is insufficient. Once achieved, preserve the outcome after travel. No extra report or another job is required."
+          },
+          "onCompleteEffects": [
+            {
+              "type": "item-add",
+              "item": "Mark",
+              "quantity": 110,
+              "target": "allPlayers"
+            },
+            {
+              "type": "player-experience",
+              "operator": "add",
+              "value": 850,
+              "target": "allPlayers"
+            },
+            {
+              "type": "item-add",
+              "item": "Guild Service Credit",
+              "quantity": 1,
+              "target": "allPlayers"
+            },
+            {
+              "type": "story",
+              "instruction": "Conclude Guild: Do Not Meet Its Eyes with the actual method and consequences. The typed effects settle the agreed payment and service credit once. Show the client’s specific reaction if they are present; otherwise preserve the result without teleporting them here. Return entrusted property, keep resolved creatures resolved and leave any further work optional."
+            }
+          ]
+        },
+        "Guild: The Lantern That Would Not Land": {
+          "name": "Guild: The Lantern That Would Not Land",
+          "questSource": "Kaito Minato",
+          "questLocation": "Pinewake Coast",
+          "detailType": "detailed",
+          "status": "hidden",
+          "questStatement": "Silver contract. A wandering light is drawing boats toward Pinewake’s wrong channel. Kaito Minato relays a 120-mark commission to end the dangerous signal.",
+          "mainObjective": "End the Hollow Lantern’s misleading coastal signal, leaving the Pinewake approach safe for the affected boats.",
+          "questDesignBrief": "One level 13–16 haunting repeats an old rescue rhythm. Its turns point toward a real snag beneath the water: the alarm is damaged, not maliciously luring people for a sea god. The player can correct the local binding and establish a reliable warning, quiet it or defeat it. Natsume Isobe may share a sketch if actually present; do not summon her as a required witness. Resolving this one signal completes the job without a second hidden culprit.\n\nSite: Pinewake Coast - Pine Headland. EXPERIENCED FIELDWORK: one stated creature in its described level band, normally 13–18 and average tier. Preserve readable threats and practical alternatives. The posted risk belongs to this accepted commission, not every nearby passerby or a novice’s unrelated job.\nSilver badge or higher; posted fee 120 marks. Optional, finite work: agree terms before accepting. The native completion condition and effects alone settle this job, paying the fee, experience and one Guild Service Credit once. Do not duplicate those grants or add a return report beyond the stated objective. Killing is not required when a safe, effective alternative achieves the same work. No instant capture, automatic success, free spell or recruitment. Respect the actual outcome and resolved individuals.",
+          "conclusive": true,
+          "completionCondition": {
+            "type": "story",
+            "query": "For the accepted contract \"Guild: The Lantern That Would Not Land\", the actual events have achieved this outcome: End the Hollow Lantern’s misleading coastal signal, leaving the Pinewake approach safe for the affected boats. Count an effective nonlethal or negotiated solution when it achieves that outcome. The real work must be done; a plan, arrival, boast, unrelated creature or old result from another contract is insufficient. Once achieved, preserve the outcome after travel. No extra report or another job is required."
+          },
+          "onCompleteEffects": [
+            {
+              "type": "item-add",
+              "item": "Mark",
+              "quantity": 120,
+              "target": "allPlayers"
+            },
+            {
+              "type": "player-experience",
+              "operator": "add",
+              "value": 900,
+              "target": "allPlayers"
+            },
+            {
+              "type": "item-add",
+              "item": "Guild Service Credit",
+              "quantity": 1,
+              "target": "allPlayers"
+            },
+            {
+              "type": "story",
+              "instruction": "Conclude Guild: The Lantern That Would Not Land with the actual method and consequences. The typed effects settle the agreed payment and service credit once. Show the client’s specific reaction if they are present; otherwise preserve the result without teleporting them here. Return entrusted property, keep resolved creatures resolved and leave any further work optional."
+            }
+          ]
+        },
+        "Guild: Too Hot for the Furnace": {
+          "name": "Guild: Too Hot for the Furnace",
+          "questSource": "Kazuo Kurogaki",
+          "questLocation": "Blackstone Smithy",
+          "detailType": "detailed",
+          "status": "hidden",
+          "questStatement": "Silver contract. An Ashcoil Salamander has moved into a furnace vent and the working heat is rising. Kazuo Kurogaki offers 130 marks to remove it before the next firing.",
+          "mainObjective": "Remove the Ashcoil Salamander from the agreed furnace vent and restore a safe working draft.",
+          "questDesignBrief": "One level 14–17 salamander feeds on deposits in the vent. Kazuo Kurogaki shuts down the working forge before the attempt; do not attack customers with a live furnace hazard. Opening a cool exit, managing the shutters or a prepared fight can remove it. Its orange throat telegraphs the heat jet. A cooling and draft check ends the work; no rare-metal delivery or mandatory magical engineering project is added.\n\nSite: Blackstone Smithy - Forge Floor. EXPERIENCED FIELDWORK: one stated creature in its described level band, normally 13–18 and average tier. Preserve readable threats and practical alternatives. The posted risk belongs to this accepted commission, not every nearby passerby or a novice’s unrelated job.\nSilver badge or higher; posted fee 130 marks. Optional, finite work: agree terms before accepting. The native completion condition and effects alone settle this job, paying the fee, experience and one Guild Service Credit once. Do not duplicate those grants or add a return report beyond the stated objective. Killing is not required when a safe, effective alternative achieves the same work. No instant capture, automatic success, free spell or recruitment. Respect the actual outcome and resolved individuals.",
+          "conclusive": true,
+          "completionCondition": {
+            "type": "story",
+            "query": "For the accepted contract \"Guild: Too Hot for the Furnace\", the actual events have achieved this outcome: Remove the Ashcoil Salamander from the agreed furnace vent and restore a safe working draft. Count an effective nonlethal or negotiated solution when it achieves that outcome. The real work must be done; a plan, arrival, boast, unrelated creature or old result from another contract is insufficient. Once achieved, preserve the outcome after travel. No extra report or another job is required."
+          },
+          "onCompleteEffects": [
+            {
+              "type": "item-add",
+              "item": "Mark",
+              "quantity": 130,
+              "target": "allPlayers"
+            },
+            {
+              "type": "player-experience",
+              "operator": "add",
+              "value": 950,
+              "target": "allPlayers"
+            },
+            {
+              "type": "item-add",
+              "item": "Guild Service Credit",
+              "quantity": 1,
+              "target": "allPlayers"
+            },
+            {
+              "type": "story",
+              "instruction": "Conclude Guild: Too Hot for the Furnace with the actual method and consequences. The typed effects settle the agreed payment and service credit once. Show the client’s specific reaction if they are present; otherwise preserve the result without teleporting them here. Return entrusted property, keep resolved creatures resolved and leave any further work optional."
+            }
+          ]
+        },
+        "Guild: Tracks That Disappear": {
+          "name": "Guild: Tracks That Disappear",
+          "questSource": "Shiori Kawase",
+          "questLocation": "Pinewater Woods",
+          "detailType": "detailed",
+          "status": "hidden",
+          "questStatement": "Silver contract. A supply crew keeps losing its route to a hunter it can barely see. Shiori Kawase relays 135 marks to clear the marked river-edge approach.",
+          "mainObjective": "Remove the Mireglass Stalker threatening the marked supply approach and establish that the crew can use the route.",
+          "questDesignBrief": "One level 14–18 stalker has a visible trail in mud despite its broken outline. The player can study that trail and choose dry footing before committing. Drive it away from the working approach, contain it or defeat it. Keep the creature’s actual retreat and injuries. No invisible pack appears behind the party, and clearing this stretch does not require making the whole forest harmless.\n\nSite: Pinewater Woods - River Edge. EXPERIENCED FIELDWORK: one stated creature in its described level band, normally 13–18 and average tier. Preserve readable threats and practical alternatives. The posted risk belongs to this accepted commission, not every nearby passerby or a novice’s unrelated job.\nSilver badge or higher; posted fee 135 marks. Optional, finite work: agree terms before accepting. The native completion condition and effects alone settle this job, paying the fee, experience and one Guild Service Credit once. Do not duplicate those grants or add a return report beyond the stated objective. Killing is not required when a safe, effective alternative achieves the same work. No instant capture, automatic success, free spell or recruitment. Respect the actual outcome and resolved individuals.",
+          "conclusive": true,
+          "completionCondition": {
+            "type": "story",
+            "query": "For the accepted contract \"Guild: Tracks That Disappear\", the actual events have achieved this outcome: Remove the Mireglass Stalker threatening the marked supply approach and establish that the crew can use the route. Count an effective nonlethal or negotiated solution when it achieves that outcome. The real work must be done; a plan, arrival, boast, unrelated creature or old result from another contract is insufficient. Once achieved, preserve the outcome after travel. No extra report or another job is required."
+          },
+          "onCompleteEffects": [
+            {
+              "type": "item-add",
+              "item": "Mark",
+              "quantity": 135,
+              "target": "allPlayers"
+            },
+            {
+              "type": "player-experience",
+              "operator": "add",
+              "value": 1000,
+              "target": "allPlayers"
+            },
+            {
+              "type": "item-add",
+              "item": "Guild Service Credit",
+              "quantity": 1,
+              "target": "allPlayers"
+            },
+            {
+              "type": "story",
+              "instruction": "Conclude Guild: Tracks That Disappear with the actual method and consequences. The typed effects settle the agreed payment and service credit once. Show the client’s specific reaction if they are present; otherwise preserve the result without teleporting them here. Return entrusted property, keep resolved creatures resolved and leave any further work optional."
+            }
+          ]
+        },
+        "Guild: The Gate That Guarded Nothing": {
+          "name": "Guild: The Gate That Guarded Nothing",
+          "questSource": "Takumi Hatano",
+          "questLocation": "Glowhaven Farmlands",
+          "detailType": "detailed",
+          "status": "hidden",
+          "questStatement": "Bronze contract. A maintenance construct is barring an irrigation gate that workers must open. Takumi Hatano offers 140 marks for a functioning gate and a safe work path; the notice warns of heavy moving tools.",
+          "mainObjective": "Stop the malfunctioning Canal Watcher obstructing the agreed irrigation gate and restore safe access to the controls.",
+          "questDesignBrief": "One level 14–17 construct has a cracked float stuck at flood level. Its response is dangerous even though the fault is mundane. A safely braced gate, freed float, accessible shutdown or controlled defeat can settle it; no specialist spell is compulsory. Takumi Hatano wants water control restored, not a collectible golem. Repair is a real alternative to combat and grants neither ownership nor free Magitech skill.\n\nSite: Glowhaven Farmlands - Irrigation Run. EXPERIENCED FIELDWORK: one stated creature in its described level band, normally 13–18 and average tier. Preserve readable threats and practical alternatives. The posted risk belongs to this accepted commission, not every nearby passerby or a novice’s unrelated job.\nBronze badge or higher; posted fee 140 marks. Optional, finite work: agree terms before accepting. The native completion condition and effects alone settle this job, paying the fee, experience and one Guild Service Credit once. Do not duplicate those grants or add a return report beyond the stated objective. Killing is not required when a safe, effective alternative achieves the same work. No instant capture, automatic success, free spell or recruitment. Respect the actual outcome and resolved individuals.",
+          "conclusive": true,
+          "completionCondition": {
+            "type": "story",
+            "query": "For the accepted contract \"Guild: The Gate That Guarded Nothing\", the actual events have achieved this outcome: Stop the malfunctioning Canal Watcher obstructing the agreed irrigation gate and restore safe access to the controls. Count an effective nonlethal or negotiated solution when it achieves that outcome. The real work must be done; a plan, arrival, boast, unrelated creature or old result from another contract is insufficient. Once achieved, preserve the outcome after travel. No extra report or another job is required."
+          },
+          "onCompleteEffects": [
+            {
+              "type": "item-add",
+              "item": "Mark",
+              "quantity": 140,
+              "target": "allPlayers"
+            },
+            {
+              "type": "player-experience",
+              "operator": "add",
+              "value": 1050,
+              "target": "allPlayers"
+            },
+            {
+              "type": "item-add",
+              "item": "Guild Service Credit",
+              "quantity": 1,
+              "target": "allPlayers"
+            },
+            {
+              "type": "story",
+              "instruction": "Conclude Guild: The Gate That Guarded Nothing with the actual method and consequences. The typed effects settle the agreed payment and service credit once. Show the client’s specific reaction if they are present; otherwise preserve the result without teleporting them here. Return entrusted property, keep resolved creatures resolved and leave any further work optional."
+            }
+          ]
+        },
+        "Guild: Blue Sparks at Low Tide": {
+          "name": "Guild: Blue Sparks at Low Tide",
+          "questSource": "Kaito Minato",
+          "questLocation": "Crescent Shores",
+          "detailType": "detailed",
+          "status": "hidden",
+          "questStatement": "Bronze contract. A Thunderfin Ray is keeping a small fishing crew from its beached gear. Kaito Minato relays a 150-mark job to clear the cove approach, with an explicit warning about electric discharges.",
+          "mainObjective": "Clear the Thunderfin Ray from the crew’s cove approach and make their beached gear safely recoverable.",
+          "questDesignBrief": "One level 15–18 ray skims the shallows around bait spilled from a torn basket. Its amber nodules glow before it discharges. Dry rock, spacing and moving the bait are useful; relocation or a prepared fight can succeed. The crew’s ordinary gear is entrusted property, not bonus loot. One secured approach completes the job; it does not turn into a hunt for a legendary storm beast.\n\nSite: Crescent Shores - Sheltered Cove. EXPERIENCED FIELDWORK: one stated creature in its described level band, normally 13–18 and average tier. Preserve readable threats and practical alternatives. The posted risk belongs to this accepted commission, not every nearby passerby or a novice’s unrelated job.\nBronze badge or higher; posted fee 150 marks. Optional, finite work: agree terms before accepting. The native completion condition and effects alone settle this job, paying the fee, experience and one Guild Service Credit once. Do not duplicate those grants or add a return report beyond the stated objective. Killing is not required when a safe, effective alternative achieves the same work. No instant capture, automatic success, free spell or recruitment. Respect the actual outcome and resolved individuals.",
+          "conclusive": true,
+          "completionCondition": {
+            "type": "story",
+            "query": "For the accepted contract \"Guild: Blue Sparks at Low Tide\", the actual events have achieved this outcome: Clear the Thunderfin Ray from the crew’s cove approach and make their beached gear safely recoverable. Count an effective nonlethal or negotiated solution when it achieves that outcome. The real work must be done; a plan, arrival, boast, unrelated creature or old result from another contract is insufficient. Once achieved, preserve the outcome after travel. No extra report or another job is required."
+          },
+          "onCompleteEffects": [
+            {
+              "type": "item-add",
+              "item": "Mark",
+              "quantity": 150,
+              "target": "allPlayers"
+            },
+            {
+              "type": "player-experience",
+              "operator": "add",
+              "value": 1100,
+              "target": "allPlayers"
+            },
+            {
+              "type": "item-add",
+              "item": "Guild Service Credit",
+              "quantity": 1,
+              "target": "allPlayers"
+            },
+            {
+              "type": "story",
+              "instruction": "Conclude Guild: Blue Sparks at Low Tide with the actual method and consequences. The typed effects settle the agreed payment and service credit once. Show the client’s specific reaction if they are present; otherwise preserve the result without teleporting them here. Return entrusted property, keep resolved creatures resolved and leave any further work optional."
+            }
+          ]
         }
       },
       "questTriggers": {},

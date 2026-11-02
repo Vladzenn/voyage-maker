@@ -1108,5 +1108,179 @@
     "immunities": [
       "poisoning"
     ]
+  },
+  "Cellar Rat": {
+    "name": "Cellar Rat",
+    "description": "A large ordinary brown rat with a blunt nose, torn ears and flour dust caught in its whiskers. It bites when cornered, then scurries behind cover; it has no venom, armor or magical disease. Usually a level 1 nuisance. Scratching, droppings and gnawed sacks reveal its route. Traps, a food lure or a clear escape can work as well as a blow.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "successBonus": -30
+  },
+  "Stray Dog": {
+    "name": "Stray Dog",
+    "description": "A lean, rough-coated domestic dog with muddy paws and an uneven leather collar. A hungry stray may defend stolen food, bark and make a short snap before retreating. Beginner individuals are level 1–2, not wolves or trained warhounds. Flattened ears and a stiff posture warn of a bite; food, space and patient handling may avoid one. No automatic rabies, bleeding effect or alpha pack.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "successBonus": -25
+  },
+  "Flour Beetle": {
+    "name": "Flour Beetle",
+    "description": "A knee-high oval beetle with cream-brown wing cases, six stubby legs and flour clinging to its feelers. Its shell is thin. It drags dry food toward a dark gap, lifting its front legs before an awkward shove. Level 1–2 specimens are slow nuisances with no damage resistance. Turning a sack, blocking a gap or baiting a basket can contain one without destroying the grain.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "successBonus": -30
+  },
+  "Runaway Cleaning Broom": {
+    "name": "Runaway Cleaning Broom",
+    "description": "A household broom animated by a worn cleaning enchantment, with copper binding wire and an erratically glowing maker’s mark. It whacks whatever it mistakes for dirt and needs time to turn its long handle. Usually level 2. Pinning the bristles or safely interrupting its accessible binding can stop it. It has no hidden master, inexhaustible spell arsenal or resistance merely because it is a construct.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "successBonus": -25
+  },
+  "Orchard Crab": {
+    "name": "Orchard Crab",
+    "description": "A broad freshwater crab about the size of a cooking pot, its mottled olive shell often carrying fallen blossom petals. It wedges itself into irrigation sluices and raises one conspicuous claw before pinching. Young specimens are level 2–3 and have no armored damage resistance. A baited pot, a lifted sluice or a cautious approach from behind offers alternatives to a fight.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "successBonus": -25
+  },
+  "Soot Moth": {
+    "name": "Soot Moth",
+    "description": "A hand-sized moth with charcoal wings, amber eye-spots and a fluffy white collar stained by lamp soot. It feeds on warm lamp residue and leaves dusty wing prints on glass. Level 2–3 nuisances flutter into faces or shed a brief obscuring puff; they cannot poison lungs, blind permanently or ignite a building. A shaded decoy lamp and a soft net can move them safely.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "successBonus": -25
+  },
+  "Timberjaw Gnawer": {
+    "name": "Timberjaw Gnawer",
+    "description": "A stocky, rabbit-sized mana rodent with broad orange incisors, a squared muzzle and a tail fringed with wood fibers. It gnaws damp supports and stamps before lunging at a nearby boot. Common troublesome adults are level 5–8. Fresh paired tooth marks and a trail of damp shavings expose the nest; sound bracing, barriers and bait interrupt its approach. No instant beam collapse or buried swarm is inherent to the species.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "successBonus": -15
+  },
+  "Lantern Wasp": {
+    "name": "Lantern Wasp",
+    "description": "A fist-sized wasp with a translucent amber abdomen and folded wings patterned like paper ribs. Its nest resembles a little hanging lantern. A bright pulse and rising buzz precede a single close sting. Local nuisance adults are level 6–8. Their venom produces a painful welt rather than continuous lethal damage; covering the light or dampening an abandoned nest can make relocation possible.",
+    "vulnerabilities": [
+      "water"
+    ],
+    "resistances": [],
+    "immunities": [],
+    "successBonus": -15
+  },
+  "Cinderback Lizard": {
+    "name": "Cinderback Lizard",
+    "description": "A squat red-brown lizard with four splayed feet and a row of warm coal-colored scales across its shoulders. Often level 7–9 around forges, it warms its back visibly before expelling a short ember puff, then must cool. It cannot breathe a dragon’s stream of flame. A clear cool route, a shielded coal lure or shutting off its heat source changes its behavior.",
+    "vulnerabilities": [
+      "water"
+    ],
+    "resistances": [
+      "fire"
+    ],
+    "immunities": [],
+    "successBonus": -15
+  },
+  "Scrap Imp": {
+    "name": "Scrap Imp",
+    "description": "A small nonhumanoid fiend with an angular brass-colored face, batlike ears, backward-bending legs and a forked tail used to carry washers. Often level 7–10, it steals useful offcuts and makes crude mechanical toys. It can speak and bargain, lie or become spiteful; these are individual choices. It throws loose scrap or makes a short clawing rush, without teleporting away an entire inventory.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "successBonus": -10
+  },
+  "Reed Ambusher": {
+    "name": "Reed Ambusher",
+    "description": "A flat olive amphibian with four finned limbs, a wide shovel jaw and a fringe of reed-like whiskers. It lies in shallow water and pushes a visible V-shaped ripple ahead of a short bankward leap. Usually level 8–11. It must return to water between committed lunges. High dry footing, a disturbed mud trail and bait are useful; concealment is camouflage rather than true invisibility.",
+    "vulnerabilities": [
+      "lightning"
+    ],
+    "resistances": [],
+    "immunities": [],
+    "successBonus": -10
+  },
+  "Burrback Hedgebeast": {
+    "name": "Burrback Hedgebeast",
+    "description": "A goat-sized grazer with short brown fur, a broad snout and tough seed-like burrs woven through its back. Local adults are usually level 8–11. It bowls through low fences, lowers its head before charging and leaves hooked burrs along its trail. Its prickles scratch at contact but do not launch endless binding roots. Fruit lures, open lanes and repaired fencing can redirect it.",
+    "vulnerabilities": [
+      "fire"
+    ],
+    "resistances": [],
+    "immunities": [],
+    "successBonus": -10
+  },
+  "Glass-Eye Basilisk": {
+    "name": "Glass-Eye Basilisk",
+    "description": "A six-legged gray reptile with green glassy brow plates and milky eyes that brighten before a fixed stare. Local adults are level 13–16. Its sustained gaze causes a brief creeping stiffness; looking away or breaking sight interrupts it. There is no instant permanent petrification. It moves poorly on loose rubble and cannot gaze through walls, shields or closed shutters.",
+    "vulnerabilities": [
+      "sound"
+    ],
+    "resistances": [],
+    "immunities": [],
+    "successBonus": 0
+  },
+  "Hollow Lantern": {
+    "name": "Hollow Lantern",
+    "description": "A salt-corroded rescue lantern floating inside a loose hoop of pale spirit-light, with a wavering human-sized shadow beneath it and no actual body. Usually level 13–16. It repeats a damaged signal and releases a bounded pulse of cold light when approached. Its direction and bell rhythm reveal the place to which it is bound. This is a local haunting, not an all-knowing dead soul or an automatic possession.",
+    "vulnerabilities": [
+      "light",
+      "sound"
+    ],
+    "resistances": [
+      "dark"
+    ],
+    "immunities": [],
+    "successBonus": 0
+  },
+  "Ashcoil Salamander": {
+    "name": "Ashcoil Salamander",
+    "description": "A long charcoal-black salamander with six small feet, a coiling tail and orange seams between its broad scales. Furnace-fed adults are level 14–17. Its throat glows before a close heat jet, followed by a cooling pause. It hunts warm mineral deposits rather than metal objects in an inventory. Damp channels, furnace shutters and vent pressure offer counterplay; no unavoidable room-wide inferno.",
+    "vulnerabilities": [
+      "water",
+      "ice"
+    ],
+    "resistances": [
+      "fire"
+    ],
+    "immunities": [],
+    "successBonus": 0
+  },
+  "Mireglass Stalker": {
+    "name": "Mireglass Stalker",
+    "description": "A low wetland hunter with four narrow legs, a split paddle tail and translucent green plates over a dark amphibian body. Typically level 14–18. Reflections break up its outline, but mud prints, ripples and shifting reeds remain visible. It makes short lunges rather than teleporting and loses its camouflage on dry ground. It has neither perfect invisibility nor an unavoidable opening critical strike.",
+    "vulnerabilities": [
+      "sound"
+    ],
+    "resistances": [],
+    "immunities": [],
+    "successBonus": 0
+  },
+  "Canal Watcher": {
+    "name": "Canal Watcher",
+    "description": "A waist-high municipal maintenance construct with a round ceramic torso, three iron feet, a water-level float and two jointed gate tools. Malfunctioning working models are around level 14–17. A clacking gauge precedes each heavy tool sweep. A cracked float or obstructed intake may explain its faulty safety order. It has reachable controls, limited movement and no blanket construct immunities.",
+    "vulnerabilities": [
+      "lightning"
+    ],
+    "resistances": [],
+    "immunities": [],
+    "successBonus": 0
+  },
+  "Thunderfin Ray": {
+    "name": "Thunderfin Ray",
+    "description": "A blue-gray mana ray that skims wet sand and shallow water on broad winglike fins, with three amber nodules along its spine and a narrow ribbon tail. Local adults are level 15–18. The nodules glow and its fins spread before a bounded electric discharge. Dry high ground and spacing matter; it cannot electrocute an entire coastline or discharge every action without recovery.",
+    "vulnerabilities": [
+      "earth"
+    ],
+    "resistances": [
+      "lightning"
+    ],
+    "immunities": [],
+    "successBonus": 0
   }
 }

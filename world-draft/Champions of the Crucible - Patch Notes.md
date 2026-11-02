@@ -4,7 +4,7 @@ The Eternal Crucible is opening its gates to a new generation of challengers!
 
 Students, adventurers, veteran duelists and ambitious newcomers now have somewhere to test themselves, meet their competition and chase a championship. Whether you arrive with a carefully practiced technique or far too much confidence, there is more happening around the arena than a single afternoon's fighting.
 
-This update also reaches beyond the stands, with a haunted sanctuary to explore, new techniques to learn and a few people offering work you probably shouldn't discuss too loudly.
+This update also reaches beyond the stands, with a haunted sanctuary to explore, new techniques to learn, more work for new adventurers and a few people offering jobs you probably shouldn't discuss too loudly.
 
 ### ⚔️ A Championship Worth Entering
 
@@ -45,6 +45,22 @@ A new midgame dungeon waits beyond the familiar routes: a ruined sanctuary of cr
 The ability catalogue has expanded across magical disciplines, martial techniques, mixed fighting styles and Magitech.
 
 There are new choices for dedicated casters, weapon users, unarmed fighters and characters who combine their training. Explore different ways to control the battlefield, defend yourself and create openings, alongside new offensive techniques. These additions expand what you can learn as your character develops.
+
+### 🐀 Small Jobs, Real Adventures
+
+Newly licensed adventurers have more ways to get started. Clear rats from an inn cellar, deal with an unwanted kitchen slime or stop a cleaning broom that has become far too enthusiastic about its work.
+
+- Find simple combat jobs alongside deliveries and other practical commissions when browsing the guild board.
+- Take on a wider range of creatures and fieldwork as you grow, with new choices around levels 7 and 15.
+- Fight, lure, capture, repair or negotiate where the situation allows it. Some problems have an amusing explanation; others simply need someone willing to do the work.
+
+Selected introductory contracts also have clearer scenes, more useful clues and practical choices. A fragile cart, a damaged mooring or an embarrassing wrong turn can make an adventure without uncovering another grand conspiracy.
+
+### 📈 Less Grinding, More Growing
+
+Character leveling now needs less XP, with a gentler increase between levels. There is more room to develop your character and work toward the wider world's adventures without such a long early grind.
+
+Routine guild offers continue to consider your experience. Harder work remains available when you deliberately seek it out, with its risks made clear before you commit.
 
 ### 🕯️ Less Honest Work
 

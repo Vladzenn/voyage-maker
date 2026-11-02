@@ -1,6 +1,5 @@
-# 🐢 Minor Patch 4
+# Faster Leveling — Bundled Announcement
 
-Less grinding, more room to grow!
+The author confirmed that Champions of the Crucible has not yet been released. Faster leveling and the beginner-contract expansion are now included in [its complete major-update notes](Champions%20of%20the%20Crucible%20-%20Patch%20Notes.md).
 
-- Lowered the XP requirement for early character levels.
-- Flattened the leveling curve so progressing toward midgame adventures requires substantially less XP.
+This supersedes the separate, unpublished Minor Patch 4 draft. It does not advance the minor-patch numbering.

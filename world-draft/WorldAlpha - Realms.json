@@ -28,5 +28,15 @@
     "name": "The Sepulchral Conservatory",
     "basicInfo": "A sealed sanctuary beyond an old Evertree connection, where gardeners tried to grow new vessels for the dead. Living timber, memorial stone and old irrigation channels surround abandoned glasshouses. Some bodies are empty animated frames; others carry identifiable spirits. Their caretaker has continued the work long after the keepers vanished. The portal threshold offers a clear way home, while the inner gardens demand preparation and courage.",
     "initialKnown": false
+  },
+  "Akitsuhara": {
+    "name": "Akitsuhara",
+    "basicInfo": "Akitsuhara is an inland Oni-majority country of one great capital, two smaller castle towns and broad inhabited countryside. Benitsuru stands below Mount Shiun; Mizuhara serves the western lake country and Koganedai the eastern terraces. A Shogun governs alongside powerful territorial households, civic officers and independent institutions. Ordinary roads, fields, ferries, shrines, trades and homes continue through their disagreements. Some clans import expensive magitech crossbows, swords and armor; most daily life remains traditional. The authorized capital transit torii connects with the Evertree. A different old torii near Lanternwood opens onto fog-shrouded spirit wilderness after a local way bell is restored.",
+    "initialKnown": true
+  },
+  "The Veiled Beyond": {
+    "name": "The Veiled Beyond",
+    "initialKnown": false,
+    "basicInfo": "A fog-shrouded spirit wilderness reached through the local Soul Torii in Akitsuhara. Towering trees, dark reeds, pale flowers and abandoned festival ways disappear into moving mist. Enormous half-seen shapes and borrowed voices make the landscape unsettling; inhabitants are not uniformly friendly or hostile. A dependable threshold leads back to Moonless Torii. Raised paths and a dry refuge permit cautious observation, while deeper approaches shelter real danger."
   }
 }

@@ -1282,5 +1282,243 @@
     ],
     "immunities": [],
     "successBonus": 0
+  },
+  "Yokai": {
+    "name": "Yokai",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "A varied category of uncanny beings, awakened objects and enduring local spirits. Determine an individual’s actual body, intelligence, origins and disposition; the category grants no uniform hostility, spell list or immunity. Authored Koma, Suzu-no-Ura, Oroha and Hagire keep their individual identities and bodies rather than becoming interchangeable encounters."
+  },
+  "Roadside Sparrow Imp": {
+    "name": "Roadside Sparrow Imp",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "A fist-sized charcoal-and-cream birdlike imp with a flat wooden-looking beak, bright bead eyes and a ragged red throat pouch. It steals soft sandal cords and nests beneath benches. Usually a mischievous nuisance that can be lured, traded with or driven off, not an automatic lethal encounter."
+  },
+  "Bamboo Fox": {
+    "name": "Bamboo Fox",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "A lean russet mana fox with green-black ear tips, a long brush tail and narrow pale eyes. It uses bamboo cover and a small misleading rustle rather than human speech or broad illusion mastery. Territorial animals can retreat, hunt or defend young; they are not automatically helpful pets."
+  },
+  "Moss-Tongue Kodama": {
+    "name": "Moss-Tongue Kodama",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "A small bark-bodied forest spirit with a round knotted face, dark sap eyes, two root legs and a long mossy tongue. It tastes rain and rearranges little offerings. Usually curious or mischievous; an actual polluted or damaged shelter can provoke it. It is neither a child nor a compulsory combat target."
+  },
+  "Antler-Moss Boar": {
+    "name": "Antler-Moss Boar",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "A dark bristled boar with pale rootlike growths over its brow and short moss-covered antler branches. It turns soft soil and follows fallen fruit. A fence gap, seasonal food and clear escape routes matter more than an invented grudge against all humans."
+  },
+  "Boundary Tengu": {
+    "name": "Boundary Tengu",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "An adult bird-featured mountain yokai with a long beaked face, dark feathered wings, humanlike hands and red-brown travel layers. It guards a particular claimed crossing and can bargain, bluff or fight. Wings and local knowledge do not make it omniscient or sovereign over every mountain."
+  },
+  "Cinder Umbrella": {
+    "name": "Cinder Umbrella",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "An awakened paper umbrella with one amber eye beneath a scorched rim, a wooden shaft leg and a ragged tongue of warm ash. It hops, spins and spits small hot flecks, usually around abandoned shelter or mishandled offerings. It can be dangerous without becoming an explosive city-destroying artifact."
+  },
+  "Paper-Face Lurker": {
+    "name": "Paper-Face Lurker",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "A tall loose arrangement of old paper masks around a thin dark frame. One face turns at a time while folded paper fingers test doors and rails. It uses blind angles and limited decoys; the moving frame is real and can be pinned or disrupted."
+  },
+  "Scree Crab": {
+    "name": "Scree Crab",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "A low slate-shelled crawler with six jointed legs, two broad foreclaws and orange seam eyes. It wedges among stones and scrapes mineral surfaces. Falling debris and occupied crevices telegraph it; it is not automatically a giant quarry boss."
+  },
+  "Kiln Ashling": {
+    "name": "Kiln Ashling",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "A small round ash creature with a red ember belly, thin soot arms and a wide pale mouth. It follows hot waste and cools into a sleepy lump when deprived of heat. Newly licensed jobs use small weak individuals, not a spontaneous inferno."
+  },
+  "Crystal Centipede": {
+    "name": "Crystal Centipede",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "A many-legged dark centipede with glassy amber mineral plates and long jointed antennae. It follows seepage and vibrations through mine cracks. Its armored back has gaps between segments; driving it toward a supported side passage can avoid fighting beneath an unstable brace."
+  },
+  "Stone-Eating Centipede": {
+    "name": "Stone-Eating Centipede",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "A heavy gray segmented cave predator with grinding mouth plates and pale sensing whiskers. It rasps tracks through soft seams and can undermine loose rock. Deep occupied galleries are optional dangerous ground; an ordinary miner does not inherit its level or tier."
+  },
+  "Storm-Kite Tengu": {
+    "name": "Storm-Kite Tengu",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "A gray-blue feathered adult tengu with long kite-like wings, dark eyes and a pale hooked beak. Conductive ornaments rattle along its flight feathers. It uses wind and limited electrical releases around exposed ridges; it must land, see and recover like a real opponent."
+  },
+  "Whitefall Crane": {
+    "name": "Whitefall Crane",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "A tall white mana crane with black wing tips, pale gold eyes and narrow green-blue streamers trailing from its crown feathers. It inhabits water edges and makes short startling sound calls. It is a living creature, not automatically Oroha or a tame spiritual guide."
+  },
+  "Snow-Mantle Tengu": {
+    "name": "Snow-Mantle Tengu",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "An adult white-and-charcoal feathered mountain yokai with heavy talons, a narrow beaked face and a cloak of insulating down. It claims sheltered ledges, seeks food and can negotiate passage. Cold terrain familiarity is not invulnerability to every Ice spell."
+  },
+  "Ice-Reed Serpent": {
+    "name": "Ice-Reed Serpent",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "A long dark aquatic mana beast with translucent reedlike dorsal fins, silver eyes and a broad flattened jaw. Its fins scrape across thin ice before its body rises. It hunts vibration and movement in cold water rather than appearing instantly on a refuge floor."
+  },
+  "Snowburrow Mukade": {
+    "name": "Snowburrow Mukade",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "A broad white-plated centipede with red seam markings and two long black antennae. It travels below snow over loose ground, leaving a settling trough and a dry scraping noise. A raised moraine or prepared hard platform limits its approach."
+  },
+  "Hollow War Armor": {
+    "name": "Hollow War Armor",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "An empty lacquered armor frame tied around a residual Soul working. Its joints creak and its head follows an old guard line; it may repeat orders or resist entry. Determine whether it carries a conscious spirit rather than assuming every animated frame contains a person."
+  },
+  "Paper-Face Moth": {
+    "name": "Paper-Face Moth",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "A thumb-to-palm-sized ivory moth with ink-like spots resembling a little face and delicate serrated wing edges. It feeds on damp paper fibers and gathers near fresh paste. Most are nuisance wildlife, with small finite groups and ordinary practical countermeasures."
+  },
+  "Granary Rat": {
+    "name": "Granary Rat",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "An ordinary small brown-gray rat with dark eyes and a pale belly. It steals accessible food, hides behind shelving and escapes when threatened. Beginner jobs use one exposed weak rat at a time and practical gaps, not an elite swarm or compulsory disease outbreak."
+  },
+  "Whisper-Reed Oniwa": {
+    "name": "Whisper-Reed Oniwa",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "A reed-bodied spirit with long leaf fingers, a hollow stem throat and shifting pale eye marks. It repeats a few heard sounds to draw attention into wet ground. Touch, observation and a changed route can expose its trick; it cannot know private memories it never encountered."
+  },
+  "Reed-Jaw Kappa": {
+    "name": "Reed-Jaw Kappa",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "A squat river yokai with dark green pebbled skin, broad webbed feet, a dull shell and a flat reed-fringed head basin. Adults have varied temperaments and can bargain over a real crossing; a powerful grip and water familiarity make a hostile one dangerous. It is not automatically a childlike mascot."
+  },
+  "Orchard Sootling": {
+    "name": "Orchard Sootling",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "A little black-furred round creature with enormous pale eyebrows, tiny paws and a warm amber belly. It hides among fruit baskets and licks sweet spills. Usually mischievous, easily redirected and not a disguised high-level assassin."
+  },
+  "Paddy Mudling": {
+    "name": "Paddy Mudling",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "A small wet clay body with pebble eyes, broad paddle feet and a sprout on its head. It blocks a channel to hold a comfortable pool. Moving water, a more attractive puddle or a careful physical removal can solve a nuisance without battle."
+  },
+  "Lantern Prowler": {
+    "name": "Lantern Prowler",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "A lean long-legged predator with bark-brown fur, two pale lamps of eyes and a split tufted tail. Its flank markings break its outline among hanging lanterns. Rustles and briefly reflected eyes give warning; it is not a free unseen opening critical attack."
+  },
+  "Root-Back Nue": {
+    "name": "Root-Back Nue",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "A heavy forest beast with a primate-like face, feline forequarters, a long scaled tail and pale rootlike growths along its dark back. It waits on overhead roots and attacks from a committed pounce. Its strange body is not proof of limitless abilities or a secret human identity."
+  },
+  "Mist-Lure Wisp": {
+    "name": "Mist-Lure Wisp",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "A floating knot of pale blue light around a tiny dark seed. It repeats short heard calls and drifts above unsafe ground. The voice can be tested by echoes and line of sight. It does not erase a character’s recorded memories, move inventory or teleport the party."
+  },
+  "Marsh-Stilt Haunt": {
+    "name": "Marsh-Stilt Haunt",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "A narrow spirit body balanced on four extremely long black reed legs, with a pale hanging veil around two golden eyes. It crosses deep marsh pools and probes close movement with its front legs. Dry raised ground denies part of its reach."
+  },
+  "Echo-Hide Stalker": {
+    "name": "Echo-Hide Stalker",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "A low six-legged predator with slate-blue skin, a smooth eyeless brow and pale listening membranes along its sides. It hunts repeated vibration and can mimic a short sound. It has no private knowledge of the person whose voice it resembles."
+  },
+  "Empty Festival Husk": {
+    "name": "Empty Festival Husk",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "An animated festival effigy with a hollow reed torso, torn bright cloth and a painted wooden face. A residual working repeats a limited procession or invitation. It may accept a properly ended ritual or need physical disruption; it is not every lost ancestor at once."
+  },
+  "Tanuki Wayfarer": {
+    "name": "Tanuki Wayfarer",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "An adult raccoon-dog yokai with expressive animal features, a thick tail and practical borrowed clothing. Individuals may use modest Illusion workings and enjoy bargaining or mischief. They cannot create permanent money from leaves or automatically turn into any named person."
+  },
+  "Awakened Bell": {
+    "name": "Awakened Bell",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "An old bell given movement and personality through a particular history. Its metal body, cords and chime establish its anatomy rather than an added human torso. A ringing interruption and petty mischief are plausible; authority over all spirits is not."
+  },
+  "Hush Crane": {
+    "name": "Hush Crane",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "A rare intelligent crane spirit with actual wings, long legs and an individual attachment to a place or agreement. Identity, disposition and history belong to the actual being. Oroha is the authored crane at its crossing; do not generate replacements with its name or role."
+  },
+  "Riftlimb Stalker": {
+    "name": "Riftlimb Stalker",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": [],
+    "description": "Reserved anatomical classification for the unique authored Hagire: a towering woman-shaped forest yokai with two long arms, two long legs, a ragged split mouth and joints that can unseat and reset. Do not spawn copies or use this as a renewable random encounter. Use Hagire’s actual record, whereabouts, hostility and resolved condition."
   }
 }

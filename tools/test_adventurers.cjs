@@ -184,6 +184,12 @@ const scenarios=[
  ['Bronze job active',{location:'Pinewater River',quests:{'Guild: Boars at the Watercourse':'accepted'}}]
 ];
 const budget=[];
+if(world.realms.Akitsuhara)scenarios.push(
+ ['Benitsuru guild browsing',{location:'Benitsuru Guildhall',realm:'Akitsuhara',region:'Benitsuru Basin',scene:['Hiyori Mitsuba'],actions:['browse local work']}],
+ ['Evertree travel desk',{location:'Evertree Base',area:'Evertree Base - Portal Room',actions:['ask for a journey to Akitsuhara']}],
+ ['Moonless Torii awakened',{location:'Moonless Torii',realm:'Akitsuhara',region:'Lanternwood Border',storage:{oni_soul_gate_awake:true}}],
+ ['Veiled threshold',{location:'Veiled Threshold',realm:'The Veiled Beyond',region:'Veiled Cedar Reach'}]
+);
 if(world.triggerDefinitions.cc1_register)scenarios.push(
  ['Crucible registration',{location:'The Eternal Crucible',area:'The Eternal Crucible - Competitor Lounge',scene:['Hina Wakabayashi'],storage:{cc1_phase:'idle'}}],
  ['Crucible live bout',{location:'The Eternal Crucible',area:'The Eternal Crucible - Pillar Court',scene:['Kōta Mibu','Shōgo Mizutani'],storage:{cc1_phase:'live',cc1_active:true}}],

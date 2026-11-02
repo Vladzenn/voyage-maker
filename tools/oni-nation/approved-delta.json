@@ -1,0 +1,1908 @@
+{
+  "baseCommit": "3f21ac1",
+  "purpose": "Exact authorized expansion and requested live-playtest fixes; old fingerprints remain independently checked.",
+  "rows": [
+    {
+      "path": [
+        "realms"
+      ],
+      "added": {
+        "Akitsuhara": "b2bfdb01299de5d720a2682aa813b3441390e542642c90dd882bd3e8a9a809db",
+        "The Veiled Beyond": "257be28dbdfd6dad9e1b5d7c813e31784aee3f33ebaee37223904914360d654c"
+      },
+      "changed": {},
+      "removed": {}
+    },
+    {
+      "path": [
+        "regions"
+      ],
+      "added": {
+        "Blackpine March": "57c0b2e29c65806962deb649883a5adba011fc29f0c4c8827f7f1b4accbcc759",
+        "Thundercrag Highlands": "b7e91b1470d1bfb08de87df7786e064937d92d78d9898e408a927910196c400b",
+        "Mount Shiun": "35ff4c0f82352bd392fe39784caf11bc7bb150038ded57f4d81e5b8c1fdc4912",
+        "Snowcedar Heights": "40a8aa7e8c6c38f857f27e2e62b764e9d875ba97d6306537274b99b4650bdc88",
+        "Mizuhara Lake Country": "01ef7baf92562023beca7943fb94e30a40c93ecb8d73cec0d2bedeff4688541b",
+        "Bamboo Veil Valleys": "de7e28255fa70a9623309baa8065da2f11b346582da92290dde3697d1f008cc6",
+        "Benitsuru Basin": "1cb533a3f6b88140862a7939715ce8936630e3e5cfe821a693278b824e1098b0",
+        "Koganedai Terraces": "46f6e34f3b57dbf43460d921678f935c9c40a626063f830253a6871ae84f0cc8",
+        "Golden Grain Plain": "376f175673b61f439907f324a2411dd770abe7af8f4f82be8aebee10049af448",
+        "Mirror-Reed Lowlands": "306eb537809c25372eb5871cfc72545ba9744aaf114c28c0220e7400783a93c5",
+        "Redleaf River Country": "940cb0401e56a856c1e3338f84c34e5773118f7ced19e25deea76f36afb079e3",
+        "Lanternwood Border": "3b0155c6af7742da81a2640d16aba28c4d393174c2e0b6aef720db2e4ee0f498",
+        "Veiled Cedar Reach": "d9efdc2871edefb0051506c1c2581b91769d70c8c55ca758df7259b8577ff42a"
+      },
+      "changed": {},
+      "removed": {}
+    },
+    {
+      "path": [
+        "locations"
+      ],
+      "added": {
+        "Blackpine Posthouse": "dc56c2d023b48ed2c1817d3434ddfb1922621eb70d83a42682a998beb153666e",
+        "Cedarfall Hamlet": "ed1c75e1dfcff33ac5d58b7aecaaf76aa3736190d83196de353a94ffbac876f8",
+        "Western Watch Road": "4bc4c8cefffd4e885402d8b1ec002cdd4ed3709aec445492d42c00e922532c3f",
+        "Old Bell Shrine": "df438cad955d547864495d1f1e9eafeca35c3c85f721159a6365b44ef908a072",
+        "Foxglove Wood": "215ddacb6c658912fa58dec03b63cee9acf85c458f22c9751140f91400cd99e9",
+        "Blackpine Boundary Stones": "062a869068dedc55346282506541ba0a6786ff3fa570a7af17b3b46d09dfa3c7",
+        "Hollow Cedar Ruins": "8a52982856f98a9de30cd220f7e16fece1515680ad6208ee9ed84445c7fe3eed",
+        "Western Woodcutters' Yard": "83d8cfbf4f485c03ccd3247b307f4131934d04faebb5fcb6bdcbf7d56232fded",
+        "Thundercrag Quarry": "0fbec721afbada7056f6024b90153f03ac14752f9984f6dbcd95a3f436bca719",
+        "Kuroishi Miners' Row": "e45700c857e93de380eb6c5e841373dfb06215883a631ffa854b4ab115a69842",
+        "Basalt Kilns": "06e22b1590a18f55c862da9c97a99aae514c68027bfe779485abc10f5f6affbe",
+        "Amber-Salt Mine": "c507152ee9bc805a5ee892646a7693a6ed06c588fbafb4b1a601ebce15598310",
+        "Abandoned Splitshaft": "c4a021aa16a0f7e590bddb1f4aa2dbb40f6a77780b8acd1194f8ebbefca18674",
+        "Scree Lantern Pass": "c87ee5fc559ec926de56daae28c4adc7059f96945797bb5e235fe9bd2a0b8bc5",
+        "Quarry Exchange": "1aa0612c8a9e875906616fe3c937de31457a6d585efefe67854b9a3dca3e2489",
+        "Broken Relay Tower": "9dfafc8d8b1b08963cdd1f8a4758e3a581d3b70f2ce1bb8ff7c6c60a86437bdb",
+        "Shiun Pilgrim Lodge": "10f2f5e5f654ed848c0e0d0dbf513ec53010fea9d1444fa6bfce51e7372cd528",
+        "Shiun Thousand Steps": "10d5293c2a77ab10bd2cf10f6f24834719bf8b9a7f2c1d2dea21acccbd5bd81d",
+        "Cloudbell Monastery": "64b557b5c91c6e561787863543736255f9344d2bbd12593079abc06448a14f91",
+        "Whitefall Shrine": "47d06dde193862b8c7aafc86e148d7065aca4656fda1457d591606dde929d875",
+        "Summit Cedar Precinct": "90704ad9f8e7adbbc8c6cb199b89b3b6cef007c9be8f248c02445c2de1c9732d",
+        "Shiun Herb Slopes": "dac325508c66b210b0724d63ccb1712e4f323c3d5b016612a5e5e601694332a8",
+        "Ancestor Archive": "81b6979b853e5660ad4c5f390aa697796cf058a88ee62741703c793a3723a951",
+        "Frost-Eave Approach": "d096a31f6cb34d31714b92531fe4c71106e9d51d1e4e03d3b3b48a8fea9e3df8",
+        "Snowcedar Refuge": "8cc84fe618544b05b04127c3e9bce9739827e00f98064ebcbbc7d1b5dbdeb872",
+        "Blue Mirror Tarn": "d19a25f86cc69841b4ca596cef96e115e6d2e39b5cd2a15b22bb41420bac90ff",
+        "White Antler Basin": "8aa74282f3712eeb35fe960122d770a3e3239cb649d66f2510b3db3438d449ed",
+        "Snowcedar Signal Hut": "edf25b782d00e9242a85114920c05a00c3f2df815082cac2d16133a93fe1098d",
+        "Rime Bridge": "bbef594b5c662562bdbe10d02e3d7c4b566ff918f535f2942856a553fb77b6d5",
+        "Forgotten Muster Camp": "e863786294a6293405ce3ef7571177f4e40428bc04000dcf2243899de8020dac",
+        "Sleeping Lake Cavern": "9c22ef81a40ed66eaca794a8394cb27e0639815f62cb3e06b95681bdc58ef3a9",
+        "Mizuhara Castle": "395b3823e09ef5ad7bb3fa1034cd58749bdc27d3461eae81203cf562ce5d0306",
+        "Mizuhara Landing": "17c92c4e2886a94477e191cd47627c98b89948a236e015171601ac92c25ff189",
+        "Silver Carp Market": "db8048c2bac68d0818c2f5e24a635ffa40f1ac043012cc43a2eb78d83f1670d9",
+        "Three Reeds Inn": "8b10647a2811e92211d101eaed9be3689ffe3c8fb49ce3f1c546ab3c53dff3f7",
+        "Saionoma Household": "0e92d7718ce768ea7149a0c41dac4ee6ffb443ad0ffe26d72255ca29762cbbf9",
+        "Reedwake Boatworks": "a9e2862f1c49dfaa0031aa38f00916b99edacb4b0193a6da7620d11b48417ac0",
+        "Western Spear Hall": "add9acaf0f9c6bf04e62f15a36cfd7b84d0dae0237eb6fea82f0809504155931",
+        "Reedshore Hamlet": "c6020063484a37c4c01d86becc97c76b5f37d41be4eaaec50717c32412d2cf1f",
+        "Lakewatch Islet": "de67b51fbb481a0cc48fc7b30010e4101a36350ddf368f0f326b23495861bbb3",
+        "Bamboo Crossing": "f634a8c76ff0339dd0fd812422e922e6a0b58c2b5d1a7383565448ef17bfbc3c",
+        "Green Thread Paperworks": "1034e980d2b407ad37f701522528702e57df82a108a46b40c3cd5388b534f25d",
+        "Rainsong Mill": "2919d2a6247a8843f0ad96e0a7b76adf0b187bf1c6f5691202e3e44290a921fe",
+        "Hidden Reed Training Ground": "083dae082501b6d28dbf6b271c524630036b17109efc9e0999eb6297fe8e1f3d",
+        "Riverglass Baths": "c5c426bb5710a5f90749e294256ecf9c94fc2d414d1b9512d0bc80f437738051",
+        "Abandoned Bamboo Village": "9b57ab76f38e9261932d4b89f71ba4c38c2662dd67d74f7760f34ecf1f0eb531",
+        "Moonweave Grove": "53ac7f18713f6b6d13d1bb91e8b283b04218d1f559d62ce4b97235c405317f76",
+        "Bamboo Charcoal Camp": "41de16f6ab0abb417284d4c9d7fb72ca8bf132b6990da6f667a632d317a14ba3",
+        "Benitsuru Transit Shrine": "264af26801b4c28552afca73685f537e08130a295568762e5e2a10735895e6bb",
+        "Benitsuru Castle": "360b7075f5452a5adb5674b7ff625952cc8f4fb4ea63ab05b01a302cd57e4e5d",
+        "Benitsuru Guildhall": "26148c4022e0a45e394ba0a6beff125d94893d8853c5c03556d775ee461e7417",
+        "Lantern Canal Market": "49d21c7d743a9fe8a55f72f55bcff0e1139f2b7fd76f4418a4154cdad29358d8",
+        "Benitsuru Magistracy": "6d106a39c14381436250befaf71e4e9c1735819ab7b73be5a3fb716c51513f35",
+        "Red Maple Inn": "755c004d66fa4a6020e8ab738b6cb49efcec223c5dd965dfd5e85b3213569d0e",
+        "Benitsuru Ward Clinic": "48c344c038fbeee7074379c3e447402d83a457545c8a95dbc07b17d5d84f342a",
+        "Kagetsuna Household": "d99738ccd0dada5759a6429bd8c6e811a1170fd5fe8a2951fa5d6b30a653448f",
+        "Eight Petals Theater": "f81778531d4eb8e720445992ac097cdfcdd9c658cca500e16a5713076117399c",
+        "Benitsuru Craft Quarter": "2146d9061dda58f794b18d74ea0af65852fdfafc3ff307bdcf29557b3b6487d8",
+        "Morning Crane Dojo": "0a335cd5212d01f1f36b2784fbf0a0347f0cad3746883bb0f66bc197d727846f",
+        "Canal Ward Homes": "431d439d64044ff4bb40188282019aa8a43088c9bff07c2c694349f8a6b49cfc",
+        "Benitsuru Public School": "75fc6beac3059e909791e2282f0acaee96b917bb68372e3a8ac24c07d86b2b0d",
+        "South Gate Caravan Yard": "040e65cdc289746bf0ba37beab564f91a70794d026955859dcb559379182aeeb",
+        "Koganedai Castle": "e04ab55ca158f4018dec942d1c1f92b6cec7d26bab9d8709deaf53e4631b1083",
+        "Tsubakiri Residence": "0de1b8b6ac9ee0b495205e4a0405b7c094e6668f4e0c845165c3a4986e397ab5",
+        "Goldleaf Arcade": "f849b947313bd5ea9b2614f7f2f5ca4abd6aa3cd6f414e02a894d3cc237e2317",
+        "Ginkgo Crossbow Works": "005c9473be1e33bd30cfe1d588e517728000b5b95de9d58082bac3f1352fbc05",
+        "Koganedai Muster Ground": "5cbb3df78e41ecb2ed9c2e7dac574cda183123aea8525e388ffb0b442031267a",
+        "Terrace Waterworks": "68fcf6a59ca51461ae3a45652c7889bf57e7d606bcb7ff270cb6464a9871abb3",
+        "East Wind Archery Hall": "2dbebcc215815a352a198b64c5ab13ec4a377344e3f879ea9f6eaf7b78c8ee22",
+        "Koganedai Guesthouse": "0a3738582c820f505364eeb9c1eb7a415cd28fac640df2f5307ccce6fbc5eca9",
+        "Ginkgo Schoolhouse": "ead456cbe4f7697c929fa8398cc7b7cad0e3132bb72a3b41fbdca6b610fc916b",
+        "Mirror-Reed Ferry": "fd425cb2891e52acf6c5171d3701b7443410665d383e5a61796150f9475bdd88",
+        "Reedglass Fishing Village": "2c775c4bb713ad5ff2d6cfdc41d59a5d92d5735d2d16b9db96cc7bf6b3d5af19",
+        "White Heron Islets": "c56ca193ba486215148183e546f031688aca164ca0645de60d4b263d37788bfc",
+        "Singing Reed Marsh": "c62969273fa1dbed5ec2fd10e6215ead23ff0f1559bd454a3f54b00a87846493",
+        "Old Ferry Shrine": "906ca1d2040326bc11e7557bc31794b52b7e67bea382ba034d6b4f00f33cfd5b",
+        "Saltwind Causeway": "b208736c9a7856ccb5f536cb2ff645b76cea046cb06a4bc756225096fe22fa3a",
+        "Reed Dye Workshop": "bf887faa16eecc13daba3575975672bf289cc3d642b50b926ba47b24bd38cef3",
+        "Hoshina Village": "5e2004353011f6ef652a3f5e7fcfc88c2984782800b9a4056969ad30dcc07db2",
+        "Golden Sheaf Granary": "60fa7f3bb259adfbe96dc3cb6bcec1454bbcff22ffcb27f7d1b9bf092ea1ed9b",
+        "South River Bridge": "9a38e5885d4fa1cd9dbc29a8897a623d94a08b30f837b74f2c59235dc06f9d2e",
+        "Goldfinch Orchard": "fb1b1c1632c41155adc062690ad901db9b419b8a14fd527d5e77808f2aa54df6",
+        "Susuki Road": "8126aa008ae0b5b7ea779ea42047f7da0f8efcd43d3d88db72ba2015f9317c15",
+        "Low Meadow Paddies": "84350026d1ab5c20d1d27876d12700ef9c8ff57e0913f3872e30c08fef87d2af",
+        "Saffron Road Hostel": "bcead04a58d02d49e60c30bcd896578ca5af8fb23ddeefe3a5dc39cd2f6269b8",
+        "Redleaf Bridge": "86b93779910e56c835ec11a6ce054bfdf2f774ea33e49d770720c3feb697d788",
+        "Evening Maple Shrine": "0b155e2b14b2aaab9047c5d9ae63d02c0f930dc8707eb6ff6e754db0953f9160",
+        "Redleaf Guest Village": "33dc5ccc8bf24a2f8fab93895727dd8181d634a035bc9ab46ce42e4cad7a346d",
+        "Paper Moon Pavilion": "bf7a703240b5a8fc53c00702482f52b1bce05b07a4e20408eae96c7079b65ff6",
+        "Foxfire Verge": "0de3de5aac797f376e73eace50bbfb61b647237ec4fe19f6f648e33434ab2ca3",
+        "Broken Kite Camp": "0d62b2e3adc42428cfc9d5ebb706070a212eda0d8ed4282e104026988498416a",
+        "Redleaf Apiculture": "a54b8b2776ff806af4fc27fe2ba70a49789e92b33c38dac73f676115c0aef9e0",
+        "River Lantern Mooring": "1216bcd86d59f71a77d4ad4cde7b76f043a1e69a4bcbbd33346bc9fdf0a64b6a",
+        "Moonless Torii": "a05549631a25e6d4827900c3e7fdb8b7593d0560a517d572558c1081bc207f76",
+        "Lanternwood Root Shrine": "f5b19d91802bf61055086ede1033145088003258e52df15b3dc78a6cb4b79e29",
+        "Ragged Cedar Hollow": "c722b26c5ab7fa583c5da9c6aa24d8ac5608836ca6d3b3f717d1f68518194964",
+        "Old Mask Trail": "353726cc862ee155347d9498748b1853b682c54febbe273181f7de83864bc52e",
+        "Rootfall Ravine": "282fa64ac1823d044783ef15d14bd6514c4432fabcb0c200d9b2a2afc67733c3",
+        "Lanternwood Field Shelter": "88653cd35830d665b2cf4a94bb6bafe5aba4a95c22e04fb6d4e1ed762b7c61df",
+        "Foxglade Spirit Orchard": "f07257c6387c766cbb189f90f4d2aa349b9e6815abde0dd64445b36d85c3e656",
+        "Hushwater Pool": "007b4b6546544ebd3d97b865f1124e2e6132732595913a71138631aa19b9a472",
+        "Veiled Threshold": "782f6d64c6580181fb930e90e6fd90f512b6ad52cf4f194c1555436b69613dc4",
+        "Bellroot Refuge": "414b2ea9c656ad342aee0d882d05a80511f2b9507ee305fdae7e0c915d609c45",
+        "Pale Lantern Marsh": "a70f80bfc57616895bd72efb216b48cc39531ba07ecf924a1a79e4292cf15c08",
+        "The Listening Cedars": "8b0b543c0da240413d06a82481c345161ff8942267a474783d695336a733905a",
+        "Ashen Festival Road": "dd189e271f695c8a98c8e239d9fe13b81c5a71776e97a0a3f41bf0e9abd580dc",
+        "Crane-of-the-Hush Crossing": "0541c6c3fa4a540498d77cbe72da76e570ef8f9dde7005c12763d726b72ff07d",
+        "Hollow Sky Grove": "427c4ac5a17ff2fef44d585be13f35598dd39a9ba165480c60b2867e547b2bfa"
+      },
+      "changed": {
+        "Evertree Base": {
+          "before": {
+            "name": "Evertree Base",
+            "basicInfo": "Controlled palace approaches lead to roots where dense mana is almost tangible. Authorized researchers and maintenance personnel can make approved observations or assist a defined task. Strength, academy membership, and a casual palace visit do not grant entry. Its Portal Room provides controlled travel to Drakenspire Mountains and Asterveil Sky Archipelago. Passage can be arranged for authorized expeditions and other actual permitted travel; transit access does not grant research access to the tree or palace. Its Portal Room is Glowhaven’s sole portal hub: every external return arch lands here, inside this location.",
+            "x": 0,
+            "y": 20,
+            "radius": 3,
+            "region": "Glowhaven",
+            "complexityType": "complex",
+            "detailType": "detailed",
+            "areas": {
+              "Evertree Base - Rear Palace Walk": {
+                "description": "A restricted walk runs behind the palace toward the Evertree's base.",
+                "paths": [
+                  "Evertree Base - Rootward Court",
+                  "Evertree Base - Evertree Foot",
+                  "Evertree Base - Portal Room"
+                ]
+              },
+              "Evertree Base - Rootward Court": {
+                "description": "A quiet enclosed space stands beneath the Evertree, framed by palace grounds.",
+                "paths": [
+                  "Evertree Base - Rear Palace Walk",
+                  "Evertree Base - Evertree Foot"
+                ]
+              },
+              "Evertree Base - Evertree Foot": {
+                "description": "The Evertree's great trunk rises directly from the ground here, with the palace walls nearby.",
+                "paths": [
+                  "Evertree Base - Rear Palace Walk",
+                  "Evertree Base - Rootward Court"
+                ]
+              },
+              "Evertree Base - Portal Room": {
+                "description": "A vaulted transit chamber beneath the Evertree's rootward structures, reached through the controlled entrance from Rear Palace Walk. Stone-framed arches serve the Drakenspire and Asterveil routes. An issued route key opens its matching passage; permitted passengers need not cast. The room receives return traffic from both routes. Destination keys select the two ordinary outbound arches. Fixed return arches lead directly back to this room, with no second landing request. A Glowhaven Portal Key records that same home route; it does not create another portal. This is the only portal room in Glowhaven. External returns end on its floor; another city landing is never a route choice.",
+                "paths": [
+                  "Evertree Base - Rear Palace Walk"
+                ],
+                "images": {
+                  "establishingShot": {
+                    "crop": {
+                      "focus": {
+                        "x": 50,
+                        "y": 50
+                      },
+                      "zoom": 100
+                    },
+                    "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/6e4a9b98-fc73-41fd-acc1-daa96d9f090b.png"
+                  }
+                }
+              }
+            },
+            "initialKnown": true,
+            "images": {
+              "establishingShot": {
+                "crop": {
+                  "focus": {
+                    "x": 50,
+                    "y": 50
+                  },
+                  "zoom": 100
+                },
+                "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/04c2a179-732f-41dd-85b5-5aef5edb5c0f.png"
+              }
+            },
+            "hiddenInfo": "A monitoring point gives inconsistent readings after a bracket replacement. The question is whether apparatus, placement, or the local weave is responsible, not proof the Evertree is dying. Authorized comparisons can isolate a fault. A player can contribute without replacing Ilyra Stillglass's stewardship or discovering every secret.\n\nUse only relevant unresolved situations. Introduce evidence through observation or people who know it. Preserve actual resolutions and player choices; these possibilities are not events that automatically occur on every visit.\nThe first actual normal outbound crossing by a party containing a player at level twenty or above is interrupted once into the Silken Descent, independently of any field-test notice, acceptance or briefing. It appears to be routine passage until it happens. Do not let a clerk predict it or invent a historical identical incident. Vhalessra's web anchor caused this snag; participants and officials learn its cause only through actual evidence. A silver key manifests at first arrival there and its matching arch can subsequently be used in this existing Portal Room. First return grants no second key, boss victory or expedition credit. A disrupted field-test sitting is cancelled and postponed on return, while the optional investigation and separate authorized expedition keep their own records. Mihoshi Kagamihara has a partial vision, not advance certainty of the destination or cause.",
+            "npcLevelRange": {
+              "min": 8,
+              "max": 30
+            }
+          },
+          "afterSha256": "0ba7a47e7e82b68fe4cb36749a6f4f40d1977040baf05daa4ad78a3d8a42292e"
+        }
+      },
+      "removed": {}
+    },
+    {
+      "path": [
+        "factions"
+      ],
+      "added": {
+        "Akitsuhara": "104fb4a47d63958d52ea1d7ff5e8a0d2e58c9f467b525b80ce88110b08076ad5",
+        "Kagetsuna Shogunate": "e7557c322648d35ad1c2281a2403c280254a6cc16a71cb212c328d518b38e668",
+        "House Saionoma": "9782e1bbc972df99661c06fb1f19647bfbeb1928876ea9fedeeb770b67ea48c2",
+        "House Tsubakiri": "e2edb52293b827ce64019a64dc445f35411bf7543296fa272f2c491f3303a455",
+        "Reed Veil Fellowship": "afe4f0c9829864888bc2879d435f16e122ffa820aa4da98705cb8ebe531351bb",
+        "Maple Lantern Custodians": "05b7c0a7577b3c4c8beba2732fb128edd529273ef3a4706910976270dda2c1ed",
+        "Morning Crane School": "d4a3c67cd11c64beb174d56ad055758630aef67ff42f9d84cb3d428c0032b4f8",
+        "Broken Kite Band": "89ce36255ddafcc634651a5553b2f6fc6c3f6d28ad5e82978dfd51398ba8bbb2"
+      },
+      "changed": {},
+      "removed": {}
+    },
+    {
+      "path": [
+        "npcs"
+      ],
+      "added": {
+        "Shōen Kagetsuna": "a120e9f25fe4e8fa9c24600e36f283dc69a272cedbb45f3e5effd6a747b0a412",
+        "Ayame Kagetsuna": "63c67931dc9efac10677ae9d96ad908c87522f4cffa973a8c9f65b18ec341fb0",
+        "Masazane Saionoma": "1f2e882e0e6cb5bf3669114a1b5197da5b5ed18cc68462eb2e992053c67a2265",
+        "Rin Saionoma": "d5df809afa920d9c6e1a87587eedc4c2b415146bbd159eeb8e51169b44374914",
+        "Kureha Tsubakiri": "c52cf6cf419de82bdcfa36226f662984bef7828a43ace41ce4e1badb9615d124",
+        "Shigure Tsubakiri": "8d963391d3c3d27d25730c0d9a07564bcf4fcaa1fcfc7be9848b048bcdb2ea95",
+        "Hiyori Mitsuba": "fc2ea43dae7e9f94df1c939de6a4740b81f05ef9ed8bd74dac9dd81ad9315ea2",
+        "Sae Kagurazaka": "d93b0b34f372db676ddbdd1fd22f03d665d872cf301bc7096716174c0e6fbabf",
+        "Tōma Sagiri": "8bff349ada8185abb742ea5a52c2470bfdb257dd8979fe8bb359479213aca2bc",
+        "Yuzuri Kageura": "eec8ac220f7aa593ce235f6e6ba5e5fa1cb4ef2c25ac96cc7d5f893a4bf62538",
+        "Genzaburō Kanemori": "9c2377d60ec1970ec6b7f6dce632c806f222bad84de66dfb06ee987a0d0a12fe",
+        "Kinu Amakusa": "d3ce105c0b983f5714775fd8bd068ec3ebee8558fc7cca3126e2259e0a73e17d",
+        "Renga Itsuzaki": "1441a3b25296c6079d510d8615bec7ca13490c5663db21e0766fe6bae44abfcb",
+        "Tadayoshi Kurebayashi": "33a99d940dc7ef4e031577af284728d4cbc32be777ff60838c8dde0cfdb67421",
+        "Mika Fuyuse": "83a5c27d065fc311f7f667a52c8955ecec4a82239fea7241771c318a58904b78",
+        "Nobu Senda": "026e706883998e6d39ea698fbb16c2131b5b8608ce344a9b7269ff94a32d69f7",
+        "Akane Natsukawa": "5e9597c418f3985626f40ac92bf53c8d079d37422d2da21d024c978a92a4b4bc",
+        "Kensuke Ayahara": "73f7c0a7a1493966cceadb562aa3079f99fcacbbce89d5c594ae458d548be5d7",
+        "Naoe Futami": "328fc799b2c706038a8b7ae103a39be9d971644e93e4838ff03986adb710f126",
+        "Chiyo Matsukaze": "0281ba512c21738cab3a72cc557b21a6ad62b64ad31df7171cb8d42b04a6d3b5",
+        "Tetsu Obana": "33e85f79eefc5589c84412e4ae3fc0e6f2c1844430aebe1ddf6f9c5eb4dac77d",
+        "Fūka Suzumori": "6dc58b09b6dc574adcc8c8f9f07a870211d33dc73bf08e06b9b509b8184a751d",
+        "Renjirō Usami": "073dbfff5bfd43301e72ed4a9a4cec30486ca435ac495f6f158f2600e4e66ed4",
+        "Maho Kanemori": "3151442871308417eec78513214f78e6be7a4c24c8bd7b619cf89a1ebbc50082",
+        "Hatsu Kanesue": "7233db1c80c113eb1b5a09f4a2e47c336b9f47209f3864084f53999725a439cf",
+        "Jirō Hozumi": "c10344bf4a7cf82c8c8a38828b029a1e1995ba14fa9a73b3d525672938399ebf",
+        "Sōta Amemiya": "b31253712225105e1bb18b928529cd7ac2dfc25e741ad46d5dcdf2de90348e7d",
+        "Iori Kagurazaka": "d8d84771a872d38449a24523abfe7ba31579bcc2832ed2f1c8fa4e8d0e65bcbd",
+        "Chinatsu Hanegi": "3111285f5534923ea6159e1f11375ac26d04dbf9ad8c62d3d979896c49fe96c0",
+        "Yūhei Toba": "03ff9634f6e38a891db184a43bc8086809296770e450ea3e024bd77357571988",
+        "Natsuko Tsumura": "4a64cd936b490d57d462fe11a123a0c5d6d808d475c26ed18bbf3f36423a5ff7",
+        "Kōichi Aratani": "2f21122576162c277cc30030dcd010c4635ff055d8aaf44e2ebc63d01cb0e401",
+        "Yae Mizuno": "ea933104f958605333f70800495aee38126981b0545d3ee07956157cf97af856",
+        "Haru Tomisaka": "5d154eaa1eb8b0a179c6583c1064f0caf9e4211815a4d530517b358fd69be470",
+        "Sachi Morisawa": "2dbf719cea5b86cea70ff77991914c776e0d296e9a911176b8aec7669276fae6",
+        "Kazuma Ebisawa": "4d75d2d298a9625d30724b176ef9d003742be577642726f81ee4c64e84921bb3",
+        "Mina Kurusu": "3dce5a881e0e246bc2d658bc65f4a14561d1e3aef0ad513ec41fe23785732cb0",
+        "Osamu Kariya": "ed64613c1c8ffdc1f5131b7ca125c21f193ac369886df6f35526bd706ef1a998",
+        "Tae Ishihama": "e6b66cae70cf2f377f2fa01bd2ba440c2cf20a31d73d92676ec20d4a6804bfb2",
+        "Shunji Dobashi": "d68088bdd67d2cd1284abbbc3804e715eef94c51bcfa37326f5e90ed5349c973",
+        "Ruri Nabatame": "9e94947a2f649186e2e54d47d47a502cae93b727e4f2475a4588c59e6e8c2f5b",
+        "Hokuto Mizusawa": "cae70acb4a8bd54d31ca6ceea641623bcfdcc42b993372512a266a45832cae4c",
+        "Shizue Amakawa": "3671415dbf84be64e577a63833674b7c7a1aec7e3781f528fb0c7760f68eaadd",
+        "Dōgen Hanamori": "b89c7194c19de5434196c393673d989b3baf02df0dd1226b42d5b81cd9fabbfd",
+        "Fusa Minase": "581856899ecb1828d2cb8824250de9b847d039dd32e278bafd5fc2543d81cdfb",
+        "Naohiro Umemoto": "8a76e1d161c8da51e39a565457567636e0d7623b7a03c071e860581ac789e1b1",
+        "Sana Kuroiwa": "279f30d4fa219e0c0f76e93ac8960f74276a34ace2caf28256fe427573de0d05",
+        "Rei Tsunemori": "c008bb0830f882de86407c5f2fa82f13b268ab9af478d38c5b1581901e7ab3d0",
+        "Yoriko Abe": "188ccfaf1c76260e4e056fa3fbb95e359aee65c9367fdad690e145031ac20f6e",
+        "Tomoe Masuda": "26ce04ce6963ea7576a2de55a1a99825f0202b5f2a7857daa0b8b15ca934e766",
+        "Kayo Yagiri": "5808cf73c825c876d29da5379f752f93dd26a37d098281b5fab5c8245d9c8eb2",
+        "Yasuo Natori": "331c5836a83384a3d50f7ac9fe7a165063909ed1f18a2acd8532ef6bf7ace672",
+        "Chika Nishihara": "be3322cd910291665beb74501c0080a507bc452718d58df8ee22c6b271b9cf4c",
+        "Shin Watarai": "c1d061833dd2e49d103ddde44dd53fb7af065e0a91fef1ecb6b403941442578f",
+        "Mitsue Harada": "cac92e03f1c73a5a7b2d50b28e9a0c4475573e60580e31e87d4971263965796e",
+        "Kentarō Maeba": "12ce3eb5504dbc2b7723dad6439fe6cdb954b2b03fc4faf2487f91da815e8493",
+        "Suzuha Hoshikawa": "023148ee9f6a241422fbccd5af8c1ef5f02f53f01a7f0968cb297ea2bb7090c1",
+        "Daichi Kurobane": "51124851105ed41867e7f4feddd8fcf982bb5351969e9170948bb7b46894bc08",
+        "Mayu Enomoto": "cdcf1a828b89da1cd863462b5ef694d6717019840cbac59f0e9b68810cdc5b62",
+        "Takuro Namiki": "6f6fe4e04aa9b90082c2e4fe374ecc853c499c5c1d038b0de1387a85e9d0a0a7",
+        "Eri Tamura": "c8fa2ef7cb3d30f783a74b8a6eea76bb009e4db44f2672bd9a04f4b0049d78a3",
+        "Seitarō Matsuoka": "4076b5d42157dd88b23c82a4bb7d7eea364457948fc96bc80764eb76dab3b130",
+        "Nene Moriyama": "4f0fdeb030eb12510e7998742ae37a31da7f383cbbd3604df0f8bd3e705ebd20",
+        "Isao Tsuge": "f88aebcc41c7847538694f98d3531210e8925ecb02a69104970ee6fbc0419980",
+        "Yumi Sawatari": "04ad59deb1a79211601ddd677bf18e66c34168ac03de99a270bf3b65e2b4606c",
+        "Gorō Fushimi": "12da14fcf643df3d919cc673f20330d339a83b1a7c29cf8f892dc6e9a8aeb11c",
+        "Aya Takino": "9424d7285da795c2083b3f389b069788b2fc3d7026c97b608dab4be980698ac9",
+        "Mutsumi Hosaka": "39dd3a077bc4edfd3322ea508ad483475b43ad544ec4a43a9f8ed1c733a41f99",
+        "Tōru Fukada": "88edaebe9534aeb28cc016993097b9ee8b7fd0a0b6516353c45dc70482886d3e",
+        "Rika Ogata": "a2bd7fe276a6eee79a1bf9df47e2810e25dc58260ce3ed91ec161e7834d2d153",
+        "Kenji Morita": "a211fdc4959fe46c1ef22b4673839af3559781a9b2ad14d60e2c3a83277d6512",
+        "Yōko Sanada": "60127a0a0537e8c5d8ec5d0138985d712c802fc60462498da4679bab129c47bb",
+        "Kae Sumida": "b5a51ca63d723f56a9249be4e35cdc0b52afb045b3f283dd37d3ca75a51956d0",
+        "Chihiro Noda": "bc05e1839ef79367af5c69db5cc8d53def9e7980d9408cb4452369bd1f46f523",
+        "Makiya Utsugi": "f7b0a0be519f55ec4fcb84d1608d379f4e133ae0644ed1724c7d5ae38db6dab9",
+        "Hajime Niwa": "eb2bfbdc4a6df83a7508909c719c27de4d828e1ea3d38c51f6e9d8437dc6e057",
+        "Asa Kogure": "f091f09a824c0e03dc0fd953e8569e80b5be604e861fa93c489126cad989d488",
+        "Yukina Tsuribe": "d9d0632b34d4ad593449d4457fdde7a973046b26b98add0a60db5b987289f8a5",
+        "Ema Shiozaki": "838b9076b51c3d889bad32dec64677dc435576b37d1eb7a6ad9fcb5d77f4020f",
+        "Kaito Honma": "2670f34ebd3f6be13a6c55ba3dc429ca2d33df361c13402fb3a3a516e8b44786",
+        "Misao Shingū": "f2de2c7a60342da9c3eed50e27fb4ceea0347ba435ca8a52ffaa4b472f76edae",
+        "Ren Ishidate": "a25aada8a605cff063f7b69ab5b5f968e95fb6e03bd8c53db6ea30564b3a34fe",
+        "Takane Shibata": "c7c66d2a7ea7b32dfa58c3e2551b8c3d25ae5cfffbaf11ab2098c571356aeb9c",
+        "Léonie Vauclair": "934871938023c6c49733387375c78051d51e4a5837f30b096cbbb9cdb98559d8",
+        "Jin Lin": "242fdddf56eecdbf6ce33795f8c880d68bdb85447a0d6dc3ea3d860c3235e04a",
+        "Duncan Rusk": "fcf0648272bd29805ddfac2f97c3f1f5bac4e6e9ae3d21baaa24374eebccd230",
+        "Akihisa Manabe": "7138eec85c497a6d5a1157acbccea2be5baddd64d0a8d71e84038b4c6435b276",
+        "Katsuho Enoki": "7e8650e3055e326808453f97aecffbad6b6e75a174e62187fb3b3d884d39b58a",
+        "Jun Sasanami": "647ddebde09d85919046ddcac7cc2b3798e872aaa01f91187e8bedcca9750e11",
+        "Kohina Beppu": "1dcdb2e1936c51603ddb667aafd5f41e9b324649af49ae8e1cd5604e4ff10954",
+        "Hiroto Sakuma": "fe0cdde791c6af72c6524d21e1da9412950199b90100a2d39ebb29acde817060",
+        "Nana Saionoma": "14b00a5be49cc79622e8d4c749d4b778d0638feb2d6efe690edf280d65cfa27b",
+        "Hagire": "13273497624e29c58e0e5a37d712d2e5569bf109f81a180bc24d3c9efe19d01f",
+        "Koma": "dc44ad82a9f96ec8f2baefb12b3eea2834ed0348a058c1b37b50d39892271a45",
+        "Suzu-no-Ura": "504a928a80c4189e41c07a996813e4794bef96338a18ebcecfd531595a8b434f",
+        "Oroha": "521e85cc56f76fac9b780fa7c60f5b862ad3953325bb01cfd97e484e0032ee38"
+      },
+      "changed": {},
+      "removed": {}
+    },
+    {
+      "path": [
+        "worldLore"
+      ],
+      "added": {
+        "Akitsuhara — Country and People": "e6e50359e28a8430184d8398feeabf580806a7d851a5dd1dceae3e5d68e3205a",
+        "Akitsuhara — Shogun and Territorial Houses": "3dbf54cf1e8a047248ccac70114f876eedb54b95214dc8a0c0019798a455f993",
+        "Akitsuhara — Local Justice and Foreign Visitors": "ebcde075875e3a71abf7003ed2f46b69e1aab2f1b7d0ab1d56fbf0c2db5aba12",
+        "Akitsuhara — Felt Forms of Magic": "9f61d8cede23310b9cbed564e9658ad64757367b9edb146eb134ac917c8f4124",
+        "Akitsuhara — Visible Magic": "d31c3582682853fb687654fd97e4d4441c818f6e3514cfc137ed41a32058ef94",
+        "Akitsuhara — Imported Mechanisms": "7efe152461dd8401402d3a24d86a782ec5b8545d8dc38c400ab71bd00c4dd4fe",
+        "Akitsuhara — Samurai and Independent Rōnin": "f55d231647e1bf3db5f20cb314b971878ba83d06fdc880094a5228e08e97842f",
+        "Akitsuhara — Shinobi and the Reed Veil": "3a1287762cf873e9decca6867a0995cacc0acc0bc77f4f60d7d82fce8eda92f6",
+        "Akitsuhara — Shrines and Remembered Dead": "b36946a98f4f5b48f47fc4eabc94b783ed59b0664f348c5f49bce3f2fc74934e",
+        "Akitsuhara — Roads and Ordinary Travel": "adbe26cd911ab7faf167dc756b177a83ee9ced026e050010a7120b0f8cbab1fc",
+        "Akitsuhara — Guild Branch and Expeditions": "bff2d6853fff45b31abcc4978c0c971f4209a4c2f3c550e4c49016d1de334688",
+        "Akitsuhara — Trade and Everyday Costs": "986d63365e596f60daa6088237485a84770c2c2d8de739d5d5c561e0dc425dc1",
+        "Akitsuhara — The Two Torii Routes": "cdd84554d007f670c37733818b435808ab3280c80dd1c526aacdd8850c75824c",
+        "Akitsuhara — Hagire and the Cedar Margins": "55acde85eee604fe4422b13d5a3d745e4bc484c184b27a1b2bd0f07bc292654d",
+        "Akitsuhara — Yokai among Neighbors": "052335d65b7a2f991fb6dee70597cb28d22c5b4f7d08e881b4144fb67e0b9540",
+        "The Veiled Beyond — Mist and Living Wilds": "13f3b0a1a31dee6524c07db5c328a13d76ab957c812e060165d393d54b7057a5",
+        "The Veiled Beyond — Refuge and Return": "e3218e6432be41e083a27f64e45385a38c0461bab334dc65b542285e8ec56aa3",
+        "The Veiled Beyond — Oroha’s Crossing": "645d7a7adc07a85e37cd447bc5d04f1272f162c011d335a65d120c234480dd44"
+      },
+      "changed": {
+        "Oni — Arcane and Soul Magitech": {
+          "before": {
+            "text": "Oni workshops are especially accomplished at selected Arcane- and Soul-based mechanisms: warded tools, spirit-message relays, articulated assistive devices and compact workshop machinery. Expensive specialized equipment can coexist with hand labor, traditional buildings and open farmland. There are fewer exposed cables than in a modern city; this is no ubiquitous electrical metropolis. A device still needs suitable materials, a finite power source, knowledge and maintenance. Skill does not belong exclusively to ancestry.\n\nThese workshops support local livelihoods and foreign exchange while retaining their own working traditions. A foreign visitor can admire a particular mechanism without finding modern machinery in every household."
+          },
+          "afterSha256": "7efe152461dd8401402d3a24d86a782ec5b8545d8dc38c400ab71bd00c4dd4fe"
+        }
+      },
+      "removed": {}
+    },
+    {
+      "path": [
+        "storyStarts"
+      ],
+      "added": {
+        "⚔️ Akitsuhara: Samurai at the Gate": "253892980a9e8ccf263024079632cf721d220766d4d59fa8506d79ff97279bb3",
+        "🥷 Akitsuhara: Behind the Reed Screen": "08856d108052886b05ba6218c9cdddbd9ebfa2ae227545319440b6a98021e623",
+        "🍃 Akitsuhara: A Rōnin’s Morning": "f06a08f343698981154f13295dd873a6c1580cfcc952dade6b07d8dbe2ef42dc",
+        "🔔 Akitsuhara: The Bell Workshop": "2b578fdbc5a6d25c6f4c0ea05b0476be7a2f5af2592b32f6c3a098411a817e81",
+        "🌾 Akitsuhara: Bread before Rumors": "f528c5b4d4c74b42b42772aabb55ed695e4c2515384eb8a4e7e6a70a3c5e8afe",
+        "🧭 Akitsuhara: The Local Board": "938a2ce27f6975a4ebddc6d67dc6c5a79eb8be5ec48d7a5bb6b002de8c1b5f1b",
+        "🏔️ Drakenspire: By the Common Hearth": "a2b092fb8f547059a7ef1b20021d39a67a5990943b874656bf448c31ea35943c",
+        "🦋 Asterveil: Notes beneath Glass": "1c1bd39c8cb4fce3ba0692a4094154421c52359eb8d758bd5e2aeefa8a540e4b"
+      },
+      "changed": {},
+      "removed": {}
+    },
+    {
+      "path": [
+        "itemTypes"
+      ],
+      "added": {
+        "Plain Uchigatana": "b991d74e6fde59596b9e5e2c9a7b5a5e8480a552c45a5c249a3f9ecedf1c99e2",
+        "Roadside Wakizashi": "36d0b44dacbea6dca33adc54681c076e9ed20688527b8145a9563b40c1f50455",
+        "Ash-Shaft Yari": "14cfa65eccdf6419607c197e88b9380920b30c47f97cfc2bad4d98f9b1311ccc",
+        "Garden-Guard Naginata": "0f9be6123d1f9d8e1bf062b56b0d4d345ed96574f25a65407cef20a05b821278",
+        "Long-Road Nodachi": "a18c53b80b31d99be3d5d81b2e2a2d6b5cf63e5f75d5f6bd6cebbed4c29727ea",
+        "Maplewood Yumi": "1d5b75ac0eb0e70dd6ebb64aa1bd4a77ab6361aa59e96c52eedc8f857af7e32e",
+        "Practice Bokken": "560e1d30ed4f367b98db64020e82de0e4ed19007e923be73c3d381ab751ebd27",
+        "Short-Chain Kusarigama": "b7558eaec00967fbc01948afd95957bf52869f4b532bd2df02d84f7e4e1d3698",
+        "Watchman's Jitte": "fc9f1c53bc24ead3ea6f8150a1ecc7a49c12601727d1c301c2e2f5f8116f3b08",
+        "Lacquer-Rib Combat Fan": "d758a68603638c0b4d604598f9beec15815fa3543527207b3e1022fa35e79ad3",
+        "Cedar Bell Staff": "604f8546c635ec2d2c6f57354d4afe3137cae5a6417b0f9d4808e2396e251ace",
+        "Heavy Boat Hook": "fdc3f07a7805236c3d38dfd4be18669aa21a7db1bd1afc5fb525a2c67d4b3647",
+        "Woven Road Coat": "df3f61e5232fcba1c07991e663e77260cd23990184bfc3e2f8978dc244e4db76",
+        "Laced Lamellar Vest": "13743bf1b2aad9cf05555846306255a1f5dc7b645b9c242ef7fd2b5ac701f3de",
+        "Archer's Finger Guard": "437dbcab8a36f3b6e5199151c9155cc5fa49b4cf4f83490c3f1d10e3f9b2c73c",
+        "Rain-Reed Cape": "3521996ca84e545f8c84e5b6a21d27fa98a6aa73d6646358006360b8825a1720",
+        "Quiet-Sole Sandals": "95e5d60c6646a6e42f711e287442afbaede629a6e1d5fa9b8ea8e0288d656084",
+        "Workman's Forearm Plates": "14e3104f41218a2fc8992d232da1c6bbd6720832fe32031d01311267acc2bb65",
+        "Indigo Repair Satchel": "66fb519457bd3605050c8f0bf22cd890e7749ca84a493264746a8d134293d453",
+        "Pilgrim's Knot Cord": "638b29b5034c0400b7e8a56ee5861439a4fccf67f5c7521f593b555ac68bcc54",
+        "Field Calligraphy Kit": "05d89e73540c4ce723036bb3193f47e3f130f336787c1b5c50f8fa4a7944b8db",
+        "Lens of the Honest Cut": "aed7ebe4f3aefa6fb9de365f011afc40e39c6c0d284665b2678cd154035b0d13",
+        "Pulse-Fold Katana": "8c70a8e08d878b3b643c1a6a581282933024db9898d7ca05c5f7d1ed370374fa",
+        "Ginkgo Lever Crossbow": "a695fdc0a8d48adf53575f82713a9e668948e9913f26ed854cd0aa5f4c15b34a",
+        "Braced Current Cuirass": "3f4becb3efc8f79dfc96bfa44f4e29dda85548bdb55ee5537cc980b6ccbdb570",
+        "Rain-Test Inspection Frame": "733e310279bc1f4d2b15a9400dcc5c077c5f002bb3130bd5f9f65a4420f7dfa7",
+        "Foxglove Honey Cakes": "4576d400ff5c9d7974593ef93baadbc3f4f45cb13b8b0968554d4f6f52b389bf",
+        "Snowcedar Soup Parcel": "1572881c37227b994697f786c5a2b755398a6f05d34f35fc90969000bf8e5b51",
+        "Wayfarer's Salt Plums": "f506e5c436da3b22502d3c4a94e36f36fad3e0b208031af590e9496fe678534e",
+        "Festival Fox Mask": "9c31dba82720f291ba4fc664c9bb4e7025a9af08e639cc90d651a920f8840231",
+        "A Suspiciously Polite Fan": "11ebe6597e22b477b8cc6ba328240d7da945e8027ad4352fb3eefe6674dd55f9",
+        "Cup of the Second Opinion": "c51596cd4a6d1254a80bcb808253c7447d3ebaa456a4748c7093e382fcdddcc5",
+        "Unfinished Boundary Doll": "0f1aa5a6ef30236d3303f5036d0356684e037d2200351cc90c89ded08930588d",
+        "Amber-Salt Sample Case": "2823ebb01968034f5b20613837523cd96e75c92ff91176b572814f1d60b2edaf",
+        "White Crane Message Fold": "6795c68c7779b9031e73a98eeb8fa19e5e50f19c93181eb5e9737d2571ac18b8",
+        "Cedar Thread Spool": "664f314026c7b304302f524bdd64195db6d4df799b1d9beea81f233523433bff",
+        "Lanternwood Resin Lump": "bb4083c19249a66decf670ffda5aef55e4989392a555c448bcd9c6c004fb4c1f",
+        "Hagire's Torn Hem": "ed8ac00b53b7d94cfb86267e6fed141e5a41ba574ac36565b5a95f36fbc08146",
+        "Restored Way Bell": "da86397a02a1c900c78409d160dd0895b6b440a0d73d9b5b41266c05b9886bfc",
+        "Oni Nation Portal Key": "d48975ab1b747f8247cff814c968b0d2f7fb51ace1c38f37f1da7264e3622d20"
+      },
+      "changed": {},
+      "removed": {}
+    },
+    {
+      "path": [
+        "abilities"
+      ],
+      "added": {
+        "Reed-Tip Greeting": "1aa40a6e364cea962efc308b2bf7cd051dd30c98e69ac99f940f418120ade650",
+        "Crane's Small Step": "e42950c9e76f83e79e7f13016f4313a1d1d35d00b3c50f987f0624a31c183f96",
+        "Gatepost Brace": "d95a8fa45a1357b96053eec627f91f92bfef33e4384284b50c2800851fcab1d5",
+        "Bamboo-Shadow Draw": "2f18edda0f676422bf35addc43b5d43b52dda14954f0678abe39c3a911fb3b0d",
+        "Millstone Shoulder": "0eb7f8588c392bfef39f4702b04d7e7506a11b55d8b5710ccf956757a583fd81",
+        "Hanging-Reed Catch": "dc922f1a66ad5738a794907edcc202ab8f34e8d5a0b8fd322210ff2afa493c7c",
+        "Eight-Petal Return": "e6f3bad28156ddf36860594fe150e3e1b12c2fb012ddd9f3ff868e0afd8cd23a",
+        "Bridge-Rail Measure": "b90fd521b1a6509b2085ad175b0084c8c438f3b42d312d531d8b141385c5ab1d",
+        "Heron's Low Wing": "b691a9895f85669ab91180e043a5d23dfcea96df29565d03d20ea449702180fc",
+        "Red Gate Rising": "1772243fe00037a51555c508be1a7ba82debd461f0dc715d95be92b850a0a1f7",
+        "Long Road Reversal": "3586c0a5c7d5d84935e2578e7df48c837ebf1cd468e9c9577a654ee06d29ef1e",
+        "Hundred-Reed Stillness": "60a4755bac28556c409bd9a3bb53c0c878efbfa09dc5eceb265c647b40268346",
+        "Quiet Knot Release": "bc6635f6dc05f7fcc2c2bba34bb055ed03956b4889b6715088cd4783887fb337",
+        "Footfall beyond the Screen": "564cb217f2315f78ba544bef2fd4f8f4cfc145f7ae673b777746aca6ca72202e",
+        "Gatewatch Count": "1d70ebfe5f1ff5d9f0b2a273e2cd3468963c3616b4662ff16160e48821ae93c0",
+        "Thread across the Shoal": "dba24845b6f9390c96cb4866db349101f3699ff57d273b2dbc4f84df452ecc2d",
+        "Paper-Crane Record": "652d0213689a9ef923f71708c6450d858bf34a16e976b0ba4e2b9ef115554af2",
+        "Indigo Palm Ward": "ee4f74c89b9ba35dfde12ee5b40eed3d7bd3f5d77677ecd9ef12ee5f1bd329f0",
+        "Cedar-Ring Lattice": "910fb74af6ea97d98f16aad8c548d36742856828d965aca19dcd42036898cfbb",
+        "Vermilion Sleeve": "2dc7c54bb42bfa40042e9777f04d34b1b99b228e652e68a49619c6efb3d06fad",
+        "Autumn Fan Unfurled": "96bd3bcd25ee0b84323af57d3f4210cca7263fbf6f08ec2606ef280ad2b8c420",
+        "Red Maple Curtain": "704c4b08caa1916ffcd28e1073853d6653d2f15cf64427be4be4e0ec3f8e1ca5",
+        "River-Silk Turn": "1c2a1f72f3aec4008dc1f2cfa4713bb8fca436b2607939601ee248de8b21f8b0",
+        "Ferrywake Binding": "f2235c94f81998a6146f8925edf4abdecd5f429de297d9af5158106f32a7d2ca",
+        "Blue Sash Falling": "4bd647185df0fa18bd72bc0c8859f1e400d084b100d9463813213afe0d631388",
+        "Ricebank Seat": "6c19187fa26be2a450d0f146b679b106d48f69dae0a19abcd14d87d8044ff29f",
+        "Shrine-Step Uprising": "2ce271fe1c1ef47226c633a25eaff26f6297d8d6e6b843bcc5d719f0bd5d740d",
+        "Mountain's Folded Hand": "e1be4b36546dc39b953fa0f852cc2f936e7b5ce5a96cc9a1c76a608d87246aa6",
+        "Green Ribbon Breeze": "d546ef154d32af0a0da68d0ca1057f14eaae11f53b14be3adf8b72f0f321b4fa",
+        "Swallow past the Eaves": "6ff263bcb38be1f9396fc13d2028af2f1695a26456ee7ce35569bd75fbd0b4c0",
+        "Thousand Leaves Passing": "d50624c76dcedcda06eb37ee83c9fc00c76912f062611ddb67e89e45d963da5d",
+        "Thunder under Silk": "ecf24da13b8ba786b8522f2fc90393b51ec0fda3c88ad5fee3a332f425d33ad7",
+        "Storm-Drum Crack": "1d20ee8edf69714ac27b84afe56a57a008dcea415226b5be33adf7d29ceff1c6",
+        "Winter Plum Mark": "b984e6513597d78657b165516c21d8c0e9e9f5a65d7a5fc3986ae71de22e943d",
+        "White Branch Lattice": "133e175db474f8b18a3d8f0c079a483298f7f067f40a086873867f01d7f705b7",
+        "Lantern on the Water": "d13e504f9e9564a18d18b59862ae23638a8e4b02da8fcac0112359f314ae8d8a",
+        "Dawn through the Screen": "fd204b74e72c9bf5e292b3eb14faf9ad37fd2d2a7a5836aa47c067dce4f4a4d6",
+        "Iron Petal Turn": "947952c52aa95f13d0f4d613b8506411ce2e405d9ea230d032f537a4a9a4f3ea",
+        "Folded Steel Oath": "f117799aa6c773910ac0b26ccf2adf392e401881d2125545b0ee14f01e6fa682",
+        "Root Bow of Welcome": "145eed55f31ce20152e0a59e26e478114045de7311044089836493f758f5d749",
+        "Wisteria Gate": "dfc709753c70a66b3e183221946a07fb9505e1f61ccd92212817b39d39c24a9b",
+        "Bell over Still Water": "290c82d97491c9c54aca84776bd977cba2e663ec4b7e8b4c51d71b8287053575",
+        "Drumbeat without Echo": "7a20b5ce2f098bb3426938bda52efb4667d400a37d24b5846dc900bccf4db4b8",
+        "Ancestor's Threshold": "8121eb7108b3f5ab036fb92d390fc893cc3c27a01475999c71f983b2e65f5d13",
+        "White Sleeve Parting": "6d3f944d49a5939ceb6043306f4ab08760b4b3d315a678332edba817fb3a2baa",
+        "Borrowed Festival Frame": "dc8d37994157b290ca7e959b399f8493089cd0cd8b14561a724386446abd2593",
+        "Fox behind the Lantern": "6677605a1b0586beecbb89ef9ae20749d54a72e5f7e7d7f095b5d95c22cc463a",
+        "Rain on an Empty Sleeve": "54682577ebe27a168c244ed7321e7cd112791f05ec8fbc9c94ce9170457130d3",
+        "Ink between the Leaves": "1a6d02d3508c6bf223004362c7bbf8ffed3cefda8e10664e33c9982fc0e3f8fc",
+        "Petalweight Landing": "839679cfcfa10008123862743cbe2b5f0092e2beec58e26f229aba47a3c7540d",
+        "Hold the Turning Joint": "78d6bf521fa5e75f87c6c9ae2794ff2d458e1b3ffde6275cc8ccb22fd1131e93",
+        "One Honest Charge": "ea0d956980af448e4980768b239597096c5ed0fdcbbc1aebe8c185b4813777a8",
+        "Crossbow's Patient Return": "4d8df3a972be3daed1c9860c519dcb3d55cece956d5bcfc78957390d3bbeeec8",
+        "Cooling Sparrow Cycle": "205dde21f47ea597e320a11b0ee5b1875a2e2280a353c903b41a6df45932b554"
+      },
+      "changed": {},
+      "removed": {}
+    },
+    {
+      "path": [
+        "traits"
+      ],
+      "added": {
+        "Breath before the Blade": "9d30e08faa76e2168555e48e95dd0754bb070b0602dc09359256ee42c02eafb6",
+        "Root at the Heel": "9c42f46d3af99e89f736a5e035e45fceb56fbf3ced9e71e991a3daafbaf4543d",
+        "Ear for the Returning Bell": "c5dc457c8935264e5b9d30fb44a8d3abb5de5b7cf5e3817076a5ebc790bce640",
+        "Hands that Know the Form": "37f250b75bc69a9e0fc053463a5d96ec5e007d9ef7382bf74a4fdc825ec4142a",
+        "A Host at Any Hearth": "449a480e474806c0c6cb81f00ce24c4f6b525287096013939c81c099fbaa9f3d",
+        "Borrowed Storm Nerve": "40f4d875c4dd5c8c6e00f5ec6946eb99d0c88ad782d7e6415d10432ba20c02b5",
+        "Yari Road Kit": "0ed1992fbb949daa5558a8a1f8c0414ad5e1847254a34547befbcee3388c9c2f",
+        "Naginata Practice Kit": "209edece8c5818a1ad424536a2e1ea8f926ab8605903d02900ab708e81f33ee5",
+        "Yumi Road Kit": "8aa5b159e47175b56b680a21281fa2113984105fd2ac2297c20479c45a8ed758",
+        "Watch Hook Kit": "99b542d2152ca9b6d8b2702b79862f2b3a1e995635760c38be9eb32942904c1c",
+        "Reinforced Fan Kit": "75ef0ce7ef967d75ad6b375ac99758bab2591564dad7bec7415225103d150e53",
+        "Shrine Staff Kit": "36ecaf8948aaee219619a1887f2effbd79e8ead707368a452650594dfb21e000",
+        "Petition Clerk": "5d826a4af7a124247b2ce1b7f06d0b70746071138e6f581b7f4a9c6acd396cea",
+        "Hearing Assistant": "036d42bcafce60754015f5452138dc3eb25dab7fc0cb0c2df8aa881916ae689b",
+        "Customs Clerk": "078ed7153615f97d0e94629f54adeab6e28bf3e458dcf3aef15f22e779e165e2",
+        "Village Steward": "b15f9b8834e119989083cd6e5deb264927a2e8c6ab2f98cebb81d352b1ccb500",
+        "Warehouse Keeper": "555019a1b228770c30186bdb34b8baebaed611d7b0ad5a3d506a6e700478bbb6",
+        "Court Messenger": "b12259d94fa4df688cc89159c3285bd53faa1cf25913d7d5ed271cda3fca1246",
+        "Ferryman": "a55fb176faac6545e1472569bf83a1d41caabac42f401ea7990b44e8ae820ea9",
+        "River Pilot": "91cedae8f3ca35e66fc112cdd983aad2c1a7f482ff8b879451d21f763fe174c7",
+        "Porter": "7a0d001d1da9d08d2d83cab3500dfe25c65f592610f8cd4ec359d4840ab6b0ee",
+        "Caravan Cook": "1fcd7ca2bdd4a1eb44783676cf3b20183035b1b1942e6e5d39b81d828449afad",
+        "Salvage Diver": "fd10aba2faae96831b9eb2ce77cfb23307f7a8ef9e4c5c29f27b52ddc4592210",
+        "Bridge Inspector": "62da1b7c12694cc97150814a65183476d18a4d0ea92d77cc829dd4073cc00d7f",
+        "Papermaker": "d7897ce3ff18e792352480b0591b6b68c71a744bf9ffe71b140e1aa45276905d",
+        "Lacquerer": "8ebed8e23ed3b2aaa49a53cca4097b5f1b34501a447d5d60cd1d0be7456e5521",
+        "Weaver": "528839c50341e30cba4730549f695a374ed61aabe7864f43a3109c50039779fb",
+        "Ropemaker": "8c3f99eec509adacc97f14f6dfe47b7af28d847e1cbb21b51e964bdd8366e526",
+        "Shipwright": "894a90a3cf60d567eb56a85a2d501e6f3710034b201f761cab54a80704a959dd",
+        "Miller": "040834f39b58a753d9be2255178b680db6cd3e97b51aab7bde7aa021c445f0eb",
+        "Potter": "8539a8ca5ca10159112500c0f8ec99c9db2b42421995078a08b5d11f4da1ebd8",
+        "Dyer": "867bf9a08218896da9f5d471e82bcbeafe89560e3ea2b098fe0a2e475830e353",
+        "Actor": "9b6bb79f1939bb517bf968fe03e4389049ab43957f784c0e4d55c6faaeb004d6",
+        "Storyteller": "d8ff67e82aa0622d38fc87d2eacb1032b6499d6c1a3b2e5dcbe6171a6fce17f4",
+        "Puppeteer": "d07fc743268a8391947f9d50eaac54273755885da59524fef473768afcc7b493",
+        "Costume Maker": "b4064979c2f75f83aac0ba023676316bf60f80d9a53fb4c35ac3dcca209226a2",
+        "Festival Organizer": "112483246ad704015d7cc6da486d7644942c819f79109edda683d198a4745b9a",
+        "Beekeeper": "0e4c75f25de27a23dd95ec8423e2ec394bf27965e352e3279b5340fec85ac957",
+        "Orchardist": "533733370a2a16f46b3b02d206a5eb653dd0f0d9e1aebb33cfcaff6fe3a91ec5",
+        "Charcoal Burner": "994bbcc431e7c554e266406fd094515df6373f0b12ea79ebbab8f1307f6ca4c9",
+        "Woodcutter": "57ca4aada520d42381c820d504a36d818c00e7d30e47e2edd911206882084dfe",
+        "Trapmaker": "aa42d1baf5fc5987088437e225cf81c4f2d75e6e3fc34fa6e3f0692dc48dd9d9",
+        "Gamekeeper": "1651a9136879cd76c44a2b4f6f9a44629be9fb713e73de8dc768a12dfd363426",
+        "Dojo Assistant": "50b755bc9d4b587716a34b782deb156b07c248aebf8e2696144b3611c1fcc8e6",
+        "Household Retainer": "37267cc8c249b0b8dffeb00f1c5e3fa0d27d6878c8dea6db13f300cccb72a490",
+        "Bodyguard": "8e89560531437be44ef16fa167028bb2f0cdc20c5816ef0f439719a7e88eea88",
+        "Bounty Tracker": "94d05ef39782b9935371cf31e0c6d2f51f1028fdab976655340df5eff2f3e053",
+        "Scout Runner": "c89d7e04051163cc6043b0da0a5634ba4f6655bf8a262ecf1ba7fbb868fe5a4f",
+        "Shrine Attendant": "7821592f846a8b7d944a9760a7471692028407bc23b0e0391ad8e745b452c786",
+        "Funeral Assistant": "98ecb856079c45a8176814f9e4ffe269f0fd4ec24f8d521378b5398980f4204c",
+        "Ritual Musician": "623f1b13d8510ba6819fea3c89addc0b612143124970e463efc350afe78bdfe6",
+        "Spirit Mediator": "01020ad04afb5ce0f543e4c5c2de0d3f9091854f8cfad06264857194a8c15026",
+        "Smuggler": "d974e6d8551548e2bfc9f1628da69f5a8244f78353e0012242439898ae22b11c",
+        "Fence": "df4cf76324ae5928ead34210dd56de0871492a569c753b7efee8134817b5f73e",
+        "Forger": "aa6818735c2cd5133db0dc44df08288539bc68b1865ec3fe19e7df946208a318",
+        "Locksmith": "d1950550873fd9fdd061e586725be0db6813d68fa6215d85c601354d261afd81",
+        "Benitsuru Ward Local": "1dd2f1b72260611aa6e0b44cb417599d9e52d273bb6693369dc98675edb685e1",
+        "Mizuhara Lakeside Upbringing": "3e25c7c26d4f73f41eeafef7ae3cd24f21982299fc99f907f79fd67ec7b81059",
+        "Koganedai Castle-Town Upbringing": "bbba14b1176364587033c9b8a326a4aa2a941f02eb93b2e417791b08a8cedc46",
+        "Akitsuhara Farming Village": "85bbf7fb6e2efd990f0b33a7dec2dd6f57a4e2bd46c441fbf95c512decb625b2",
+        "Reed-Valley Childhood": "d79bc3989ab9cf77ef1c3feb6cfd8153d36be9ea83698810b8813ec9184d2607",
+        "Northern Pass Household": "80f73f1a40ad91600d48fa0525c33e5efe7e4f10dea3689b81eae0943fa68b12",
+        "Household Service Upbringing": "cb2b5267c2eace0d7d8ebc69eb04665b6e5bbec97d997196ee96ab68c8349945",
+        "Dojo Neighborhood Upbringing": "272bc86a2df9e73c7efb0fe1f424b4d3546450f1461e6cdf5d332a7baa17c302",
+        "Shrine-Court Upbringing": "cd15d85f3078710428be6a34dc0b0286adc0c2c46366db6cfa57187747dec7d5",
+        "Road-Theatre Upbringing": "d5aa0d4d35ebff37379ec64e739ad6e429a097960270c5415fce567c41b36259",
+        "Drakenspire Forge Neighborhood": "39aef4212d123c2c45530ad8e5e245c48d6c5444df5523056649b4d62d82950e",
+        "Drakenspire Caravan Upbringing": "a42a51440538121ee8840c9b8a56ae42deef3bbf10a80fe079c5309152d89c4f",
+        "Asterveil Canopy Household": "e8dcc88fabbfff5a40dc1594160635d21d64b7e0d35a308c8cd61086ec1426e2",
+        "Asterveil Field-Shelter Upbringing": "34941619fcb13340ae038e3d02d81675eaa72aa1b27eba48f0605137b11a3e1a"
+      },
+      "changed": {
+        "Physical Foundations": {
+          "before": {
+            "name": "Physical Foundations",
+            "description": "Practical physical foundations instead of another starting magical study: +1 Force and +1 Finesse. This choice grants no spell, affinity or combat technique.",
+            "traitNarrativeEffects": "Practical physical foundations instead of another starting magical study: +1 Force and +1 Finesse. This choice grants no spell, affinity or combat technique.",
+            "attributes": [
+              {
+                "attribute": "force",
+                "modifier": 1
+              },
+              {
+                "attribute": "finesse",
+                "modifier": 1
+              }
+            ],
+            "skills": [],
+            "resources": [],
+            "startingItems": [],
+            "abilities": [],
+            "unlockedBy": [],
+            "excludedBy": [],
+            "requirements": []
+          },
+          "afterSha256": "cc3b47c053c394d2e260a7416e78576488e8615dc4f3a3ec90cb03fbaedbfdde"
+        }
+      },
+      "removed": {}
+    },
+    {
+      "path": [
+        "traitCategories"
+      ],
+      "added": {},
+      "changed": {
+        "Origin & Upbringing": {
+          "before": {
+            "name": "Origin & Upbringing",
+            "maxSelections": 1,
+            "traits": [
+              "Glowhaven City Local",
+              "Brookmeadow Villager",
+              "Crescent Coast Resident",
+              "Drakenspire Highlander",
+              "Asterveil Sky-Islander",
+              "Merchant Household",
+              "Workshop Household",
+              "Academic Household",
+              "Guild Household",
+              "Traveling Family",
+              "Foreign Newcomer",
+              "Civic District Upbringing"
+            ],
+            "description": "Choose one formative background: where your life began or what work surrounded you. +1 relevant utility skill, but no automatic personal connections, property, legal status or quest completion."
+          },
+          "afterSha256": "24f260f498f69a291d8908e23cc10158cc03ef1c77281ab2bf648b3fc1435abc"
+        },
+        "Profession & Useful Skills": {
+          "before": {
+            "name": "Profession & Useful Skills",
+            "maxSelections": 1,
+            "traits": [
+              "Merchant Apprentice",
+              "Research Assistant",
+              "Medical Assistant",
+              "Alchemist Apprentice",
+              "Magitech Technician",
+              "Field Scout",
+              "Cook",
+              "Perfumery Apprentice",
+              "Animal Caretaker",
+              "Performer",
+              "Courier",
+              "Community Coordinator",
+              "Blacksmith Apprentice",
+              "Armorer",
+              "Carpenter",
+              "Mason",
+              "Tailor",
+              "Jeweler",
+              "Glassblower",
+              "Bookbinder",
+              "Scribe",
+              "Archivist",
+              "Interpreter",
+              "Tutor",
+              "Accountant",
+              "Appraiser",
+              "Innkeeper",
+              "Tavern Worker",
+              "Baker",
+              "Tea Blender",
+              "Farmer",
+              "Herbalist",
+              "Gardener",
+              "Fisher",
+              "Shepherd",
+              "Stablehand",
+              "Monster Hunter Apprentice",
+              "Miner",
+              "Prospector",
+              "Caravan Hand",
+              "Sailor",
+              "Cartographer",
+              "Lamplighter",
+              "Watch Recruit",
+              "Private Investigator",
+              "Stage Magician",
+              "Dancer",
+              "Musician"
+            ],
+            "description": "Optional — choose one prior profession or practical background. Each grants +2 in its main skill and +1 in a supporting skill. These are starting experiences, not current employment, official licences, owned workplaces or free professional equipment.",
+            "subcategories": [
+              {
+                "name": "Craft and Workshop",
+                "traits": [
+                  "Magitech Technician",
+                  "Blacksmith Apprentice",
+                  "Armorer",
+                  "Carpenter",
+                  "Mason",
+                  "Tailor",
+                  "Jeweler",
+                  "Glassblower",
+                  "Bookbinder"
+                ]
+              },
+              {
+                "name": "Study, Care and Records",
+                "traits": [
+                  "Research Assistant",
+                  "Medical Assistant",
+                  "Alchemist Apprentice",
+                  "Perfumery Apprentice",
+                  "Scribe",
+                  "Archivist",
+                  "Interpreter",
+                  "Tutor",
+                  "Herbalist"
+                ]
+              },
+              {
+                "name": "Trade, Hospitality and Performance",
+                "traits": [
+                  "Merchant Apprentice",
+                  "Cook",
+                  "Performer",
+                  "Accountant",
+                  "Appraiser",
+                  "Innkeeper",
+                  "Tavern Worker",
+                  "Baker",
+                  "Tea Blender",
+                  "Stage Magician",
+                  "Dancer",
+                  "Musician"
+                ]
+              },
+              {
+                "name": "Fieldwork and Public Service",
+                "traits": [
+                  "Field Scout",
+                  "Animal Caretaker",
+                  "Courier",
+                  "Community Coordinator",
+                  "Farmer",
+                  "Gardener",
+                  "Fisher",
+                  "Shepherd",
+                  "Stablehand",
+                  "Monster Hunter Apprentice",
+                  "Miner",
+                  "Prospector",
+                  "Caravan Hand",
+                  "Sailor",
+                  "Cartographer",
+                  "Lamplighter",
+                  "Watch Recruit",
+                  "Private Investigator"
+                ]
+              }
+            ]
+          },
+          "afterSha256": "ebe426a9b6e5a8f81b70d910d7fda1f65f95f32b23481cae31b547425b772f56"
+        },
+        "Special Talent": {
+          "before": {
+            "name": "Special Talent",
+            "maxSelections": 1,
+            "traits": [
+              "Living Index",
+              "Trouble in the Air",
+              "Silver-Tongued Improviser",
+              "Price of Everything",
+              "Practical Savant",
+              "The Patient Hand",
+              "Roadwise",
+              "Beastward Manner",
+              "Perfect Pitch, Imperfect Manners",
+              "Hearth-Blessed Palate",
+              "Unflappable Reader",
+              "Small Miracles of Order",
+              "First Bell Reflex",
+              "Unmoved Heel",
+              "Duelist's Needle",
+              "Giant's Grip",
+              "Wrestler's Sense",
+              "Longshot Patience",
+              "Chain-Dancer",
+              "Shield-Side Companion",
+              "Breath of the Long Road",
+              "Merciful Finisher",
+              "Pursuer's Rhythm",
+              "Scar-Taught Resolve",
+              "Blueprint Intuition",
+              "Deep Reservoir",
+              "Cinder Familiarity",
+              "Water Threader",
+              "Listening Stone",
+              "Wind-Written Gesture",
+              "Storm Nerve",
+              "Glasswinter Touch",
+              "Gentle Radiance",
+              "Green-Fingered Wonder",
+              "Veilworker",
+              "Quiet Between Spells",
+              "Blessing of the Last Lantern",
+              "Blessing of Steady Hands",
+              "Ashen Patronage",
+              "Frostbound Favor",
+              "Storm-Bound Spark",
+              "Iron Lotus Constitution",
+              "Paper Lantern Body",
+              "Red Thread Covenant",
+              "Covenant of the Small Guest",
+              "Soul-Lantern Keeper",
+              "Golden Burden",
+              "Hundred-Tool Instinct"
+            ],
+            "description": "Optional — choose one unusual gift, blessing or exceptional aptitude, or skip. Benefits are substantial but bounded; stronger gifts have the listed trade-offs. A granted discipline or technique is learned as stated without adding an affinity. No Space, Time, automatic authority or compulsory deity relationship is included.",
+            "subcategories": [
+              {
+                "name": "Instinct and Ingenuity",
+                "traits": [
+                  "Living Index",
+                  "Trouble in the Air",
+                  "Silver-Tongued Improviser",
+                  "Price of Everything",
+                  "Practical Savant",
+                  "The Patient Hand",
+                  "Roadwise",
+                  "Beastward Manner",
+                  "Perfect Pitch, Imperfect Manners",
+                  "Hearth-Blessed Palate",
+                  "Unflappable Reader",
+                  "Small Miracles of Order"
+                ]
+              },
+              {
+                "name": "Martial Gifts",
+                "traits": [
+                  "First Bell Reflex",
+                  "Unmoved Heel",
+                  "Duelist's Needle",
+                  "Giant's Grip",
+                  "Wrestler's Sense",
+                  "Longshot Patience",
+                  "Chain-Dancer",
+                  "Shield-Side Companion",
+                  "Breath of the Long Road",
+                  "Merciful Finisher",
+                  "Pursuer's Rhythm",
+                  "Scar-Taught Resolve"
+                ]
+              },
+              {
+                "name": "Arcane Peculiarities",
+                "traits": [
+                  "Blueprint Intuition",
+                  "Deep Reservoir",
+                  "Cinder Familiarity",
+                  "Water Threader",
+                  "Listening Stone",
+                  "Wind-Written Gesture",
+                  "Storm Nerve",
+                  "Glasswinter Touch",
+                  "Gentle Radiance",
+                  "Green-Fingered Wonder",
+                  "Veilworker",
+                  "Quiet Between Spells"
+                ]
+              },
+              {
+                "name": "Blessings and Burdens",
+                "traits": [
+                  "Blessing of the Last Lantern",
+                  "Blessing of Steady Hands",
+                  "Ashen Patronage",
+                  "Frostbound Favor",
+                  "Storm-Bound Spark",
+                  "Iron Lotus Constitution",
+                  "Paper Lantern Body",
+                  "Red Thread Covenant",
+                  "Covenant of the Small Guest",
+                  "Soul-Lantern Keeper",
+                  "Golden Burden",
+                  "Hundred-Tool Instinct"
+                ]
+              }
+            ]
+          },
+          "afterSha256": "69f158243016b091f3fb4d56f5a81f220f5898a12003b0834d3f6d15b76e04cd"
+        },
+        "Starting Equipment": {
+          "before": {
+            "name": "Starting Equipment",
+            "maxSelections": 1,
+            "traits": [
+              "Wand Kit",
+              "Staff Kit",
+              "Grimoire Kit",
+              "Blade Kit",
+              "Shield Kit",
+              "Handwrap Kit",
+              "Hand-Casting Practice",
+              "Field Survey Kit",
+              "Workshop Starter Kit",
+              "First Aid Kit",
+              "Technical Inspection Kit",
+              "Spear and Rope Kit",
+              "Bow Starter Kit",
+              "Crossbow Starter Kit",
+              "Greatsword Starter Kit",
+              "Axe Starter Kit",
+              "Mace and Buckler Kit",
+              "Polearm Starter Kit",
+              "Twinblade Starter Kit",
+              "Flexible Weapon Kit",
+              "War Fan Starter Kit",
+              "Scythe Starter Kit",
+              "Paired Blades Starter Kit",
+              "Sling Starter Kit",
+              "Throwing Javelin Kit",
+              "Throwing Knife Kit",
+              "Throwing Ring Kit",
+              "Tonfa Starter Kit",
+              "Nunchaku Starter Kit",
+              "Kusarigama Starter Kit",
+              "Sai Starter Kit",
+              "War Pick Starter Kit",
+              "Trident Starter Kit",
+              "Pike Starter Kit",
+              "Partisan Starter Kit",
+              "Fighting Umbrella Kit",
+              "Focus Cord Kit",
+              "Crystal Focus Kit",
+              "Casting Card Kit"
+            ],
+            "description": "Choose one basic casting, martial or practical kit, or Hand-Casting Practice for no extra item. It is independent of your training style. Ordinary tools, clothing and remembered techniques stay distinct; a kit grants only its listed items once.",
+            "subcategories": [
+              {
+                "name": "Casting Implements",
+                "traits": [
+                  "Wand Kit",
+                  "Staff Kit",
+                  "Grimoire Kit",
+                  "Hand-Casting Practice",
+                  "Focus Cord Kit",
+                  "Crystal Focus Kit",
+                  "Casting Card Kit"
+                ]
+              },
+              {
+                "name": "Martial Equipment",
+                "traits": [
+                  "Blade Kit",
+                  "Shield Kit",
+                  "Handwrap Kit",
+                  "Spear and Rope Kit",
+                  "Bow Starter Kit",
+                  "Crossbow Starter Kit",
+                  "Greatsword Starter Kit",
+                  "Axe Starter Kit",
+                  "Mace and Buckler Kit",
+                  "Polearm Starter Kit",
+                  "Twinblade Starter Kit",
+                  "Flexible Weapon Kit",
+                  "War Fan Starter Kit",
+                  "Scythe Starter Kit",
+                  "Paired Blades Starter Kit",
+                  "Sling Starter Kit",
+                  "Throwing Javelin Kit",
+                  "Throwing Knife Kit",
+                  "Throwing Ring Kit",
+                  "Tonfa Starter Kit",
+                  "Nunchaku Starter Kit",
+                  "Kusarigama Starter Kit",
+                  "Sai Starter Kit",
+                  "War Pick Starter Kit",
+                  "Trident Starter Kit",
+                  "Pike Starter Kit",
+                  "Partisan Starter Kit",
+                  "Fighting Umbrella Kit"
+                ]
+              },
+              {
+                "name": "Practical Work",
+                "traits": [
+                  "Field Survey Kit",
+                  "Workshop Starter Kit",
+                  "First Aid Kit",
+                  "Technical Inspection Kit"
+                ]
+              }
+            ]
+          },
+          "afterSha256": "fd759289df33fe07b4e0cc53b43a7c4395d0fc61aaa7a48ec3818d46983fc39b"
+        }
+      },
+      "removed": {}
+    },
+    {
+      "path": [
+        "npcTypes"
+      ],
+      "added": {
+        "Yokai": "4f7494cade4d2f1dc9023566f4f0a00402123bc00d75296c64f51fc2c9087ca8",
+        "Roadside Sparrow Imp": "21040af1ef9454eb5a0e286696d9e8ba56a7aec13444d64ba7b27f1cb82a5de3",
+        "Bamboo Fox": "0af1fc8fccfd0732b45eb48cad9fd503ad1dfd82a99ec472051b8e35cf169606",
+        "Moss-Tongue Kodama": "3ce8be7f350c3351b99b68d50f411475255718bc954026d68ed8e90bdb6d5999",
+        "Antler-Moss Boar": "4a0fb762e8cf8ba85786a37de3335029723cd41b08b8084ed7093965f0831a52",
+        "Boundary Tengu": "2f0274d1c55c7851ba527e2ae7be82562430404f81c1f2e7fe3a60e29a8c35fd",
+        "Cinder Umbrella": "c896f0b120e3c5f9874cc931cd2f8d050887d5139f5c4a36953980452e2fd130",
+        "Paper-Face Lurker": "6c86c3651f21c6691af5d426b0021601506157b9614054032c5b20cb1a4a71dd",
+        "Scree Crab": "9a5d45d40f139c5e6da9b89af6f5abbcfabeac58f601e93f27422e103abbf1d9",
+        "Kiln Ashling": "d3523289f5360d3421ebfb72ee7b1759261eacaf1089e5609a7dfd32f970a9c5",
+        "Crystal Centipede": "ed0d0bab7754583650cfca78b5b56bb2c96b8fe129f90c58b71e6f98c6c58c14",
+        "Stone-Eating Centipede": "554e06adbfc689cc4fbcb07d11add544aca10829f71c15b37f48cd2ef88e91fe",
+        "Storm-Kite Tengu": "e8db19cbccc1604eb111e33f8a9864c9015aa08b0df3807eaf4024ead6a3c3b3",
+        "Whitefall Crane": "e4787edec33e4c6aea09780d2e4de29eafd9449681c278c9148ea7280673bf12",
+        "Snow-Mantle Tengu": "19346dad8c8c17bbf1c0d8dec6182678aca10d6bfbc13de58c586573ff8c55ee",
+        "Ice-Reed Serpent": "cd237bdeab5c97530ff1f9a8a16772fd134cb74bbfd6f34001c47322cd14ca2e",
+        "Snowburrow Mukade": "2a5fb49b0b30a954d799b45061a263f5dc03176ca28a65e60aa53ffdee6cee01",
+        "Hollow War Armor": "7f4bd2e0e4237c3f1df22e6c7119faa5e7a519978c5dba452ecc11305d77d079",
+        "Paper-Face Moth": "b9493c1c9ff8226c08f2fa1843d713fe8031df15236d354ed4ae49fd857a8566",
+        "Granary Rat": "61b1c34c204feca018903401d0b9c637bd259bd9a7e66577ae5a6b7d9dff25ce",
+        "Whisper-Reed Oniwa": "6ff264c0e424aafdc5aa5e2b2013d23f5d2045787db1cf629472ed02502ccf5e",
+        "Reed-Jaw Kappa": "8854d4f7b76e529374bb9f4810cb8698dda2d4d2b2cf149524e7bcd55b180a8f",
+        "Orchard Sootling": "b8ce9bcf619001ad194cd093f3e75e9d4fd3aa5341bae43289dad3685beb8f7d",
+        "Paddy Mudling": "21a18a5e19b395878c3870ca54e17452f18ebbdad08b48de51702440ba1654b8",
+        "Lantern Prowler": "771df7ea8ebab91faea24af02852b117f037a9b4d5e64c7bfa3a53bed3dd1d12",
+        "Root-Back Nue": "5aba420e811d5403baf2c10dfd11edb5220ad33e5e9bb4e108f2f1b32e2bbda5",
+        "Mist-Lure Wisp": "b609109acd74fcbda9ef7d237907ec6775db98f2236f5ee39f15737e67db319a",
+        "Marsh-Stilt Haunt": "e9c20eba89eb8ee59198292483204182babc4085f9bdfcb8a36a7473872ced2f",
+        "Echo-Hide Stalker": "aaae2eefba8a8140c55236e508530ced44d7fe00f939a99767fab11e08a9d4e4",
+        "Empty Festival Husk": "9dddef617df49513a9cceac053a5583ea69a517d59228da15fd25fddb9adf826",
+        "Tanuki Wayfarer": "30aee388299626cd265368bdd6388d0315b496118e5161e007d94d958d4d2af6",
+        "Awakened Bell": "c7691031e862637fd4290afca297ba5a0300ca86b6e805959b7c10e9393bcb4a",
+        "Hush Crane": "4b6dd818e66fa7171f7f37793a2418dd0a6ae27cefd0d514120e15f61b682f3e",
+        "Riftlimb Stalker": "73bdb960d3c9b28844cff09554942e8b2881753bb93c19813dfd9cf71931b07f"
+      },
+      "changed": {},
+      "removed": {}
+    },
+    {
+      "path": [
+        "triggerDefinitions"
+      ],
+      "added": {
+        "oni_portal_to": "64ee794370e34a5c527be9a771b45d99a3178b55fed55c1f7c86f962ac6ab563",
+        "oni_portal_to_direct": "74275d82144d51602f09b7a4bd55d99f8e0e60cf1b60e71864bf6401238602ed",
+        "oni_portal_from": "9bd5e33e060f57599bcfe2d54de26f7c76ff8f3571f8e77a3f32c196ffc17db3",
+        "oni_portal_from_direct": "8db4d3d99f99d840c22f9989a622092879e692a509d45752bbaad8bfa28b92d8",
+        "oni_portal_key_issue": "c4da9cfbad4ce0e6176b34b2b7f58a5e1f63c1ad7cfe5fac4fb0952331276fb0",
+        "oni_soul_torii_awaken": "306137b093dfcbd9da92f7aa8b69d262c9b37729c59dae57a0293ba1bb5b7137",
+        "oni_soul_torii_cross": "8e6090f33540e6f6020b13def1cca03e7beb9525134d19c9be8bda506f99f404",
+        "oni_soul_torii_return": "bc945d316a4b08cd54f1c9ea5e6d0d38300711255c97c0c53a066d30876964e4",
+        "oni_hagire_roam": "f062c6075422865a6ed5853a0f5c80d79b5f2a85e5107d1204bfe1acc8328817",
+        "oni_forest_rumor": "41cbaaa49985188cff0c3ba7a9ac4f09d20b32a80d957f002b8e322a4673e2e6",
+        "oni_guild_exam_register": "4a2f355728fd062afb56d7b169c0be53c5a0a17408ed7a52cb2becc4ab66ada4",
+        "oni_guild_exam_judgment": "af45a069cd303c9f027aa7f3ffbbe162afd5badba7046d172a9e84d1b67e8d47",
+        "oni_guild_exam_practical": "153c6ad36c933758fea29f36ab1f07ba7909d7c7dcb39c93900e57c4cb3c8bc1",
+        "oni_guild_exam_certify": "ed2448334c3bf5507fc2911b27558c6ff03db9572fbb60823b1e9ea00aa0c365",
+        "oni_guild_review_silver": "f60683fa0cd6bcb17bca780a02c16c8bc2999efcf31107c472bc82b8ec06019d",
+        "oni_guild_promote_silver": "da3e38e35b2b48b1020f6255780a3d130438deb8aa10493bfab131e095b750b5",
+        "oni_guild_review_gold": "00db6c04f8687ad172fe7c92e71e0171186ec5ba13728c6761e1999299d652e2",
+        "oni_guild_promote_gold": "103be94e903275d40fb8df1c4939c3f200fb7871b39dbcea7bcb0caa20d71c10",
+        "oni_guild_review_platinum": "f83eecbf9a8f92495dd438896687f8b04b453f4a5fedb21e6804e6be0ecb4644",
+        "oni_guild_promote_platinum": "5e021a7ae6697d159ace0d9f1d15c59c0e0c001cd717c388781ed11a4a608b19",
+        "oni_guild_board": "7abf02a4ffa48fbceb66a8c51a0ca43db612c38e70e1147f1f0041e5aee316be",
+        "oni_glowhaven_expedition_notice": "c8b97183df6044e41b12d0a862616bf29763445d28d081a703403721528d0f4f",
+        "oni_guild_native_choice": "9a08f35d2d3af3081559963b201dd01c48cc2d1f24ce544a88f98036c7a4694d"
+      },
+      "changed": {
+        "gh_guild_accept_courier_bronze": {
+          "before": {
+            "name": "gh_guild_accept_courier_bronze",
+            "scope": "player",
+            "recurring": true,
+            "conditions": [
+              {
+                "type": "party-location",
+                "operator": "equals",
+                "value": "Adventurer's Guild - Glowhaven Branch"
+              },
+              {
+                "type": "quest-status",
+                "operator": "equals",
+                "value": "available",
+                "questId": "Guild: A Parcel for the Bazaar"
+              },
+              {
+                "type": "player-item",
+                "item": "Guild Badge: Bronze",
+                "operator": "greaterThan",
+                "value": 0
+              },
+              {
+                "type": "action",
+                "query": "This properly badged player actually accepts the posted contract Guild: A Parcel for the Bazaar after its scope, reward and participating party are clear. Browsing, quoting the notice, another person’s acceptance, a forged badge or an undecided plan is false."
+              }
+            ],
+            "effects": [
+              {
+                "type": "quest-accept",
+                "operator": "set",
+                "value": "Guild: A Parcel for the Bazaar"
+              },
+              {
+                "type": "story",
+                "instruction": "Record the actual accepted guild contract and participating player party. Its posted reward is payable in full on verified completion. Access, property permission, foreign travel and companions must be arranged separately; no portal key or payment is issued for accepting."
+              }
+            ]
+          },
+          "afterSha256": "0b90f0e56676c0b65642010ea0040d52d4e110513d8212990ae183db5ea9c83f"
+        },
+        "gh_guild_accept_courier_silver": {
+          "before": {
+            "name": "gh_guild_accept_courier_silver",
+            "scope": "player",
+            "recurring": true,
+            "conditions": [
+              {
+                "type": "party-location",
+                "operator": "equals",
+                "value": "Adventurer's Guild - Glowhaven Branch"
+              },
+              {
+                "type": "quest-status",
+                "operator": "equals",
+                "value": "available",
+                "questId": "Guild: A Parcel for the Bazaar"
+              },
+              {
+                "type": "player-item",
+                "item": "Guild Badge: Silver",
+                "operator": "greaterThan",
+                "value": 0
+              },
+              {
+                "type": "action",
+                "query": "This properly badged player actually accepts the posted contract Guild: A Parcel for the Bazaar after its scope, reward and participating party are clear. Browsing, quoting the notice, another person’s acceptance, a forged badge or an undecided plan is false."
+              }
+            ],
+            "effects": [
+              {
+                "type": "quest-accept",
+                "operator": "set",
+                "value": "Guild: A Parcel for the Bazaar"
+              },
+              {
+                "type": "story",
+                "instruction": "Record the actual accepted guild contract and participating player party. Its posted reward is payable in full on verified completion. Access, property permission, foreign travel and companions must be arranged separately; no portal key or payment is issued for accepting."
+              }
+            ]
+          },
+          "afterSha256": "d67fddd69a5808ed9ff753d82a21d87d0ddf55d9bd0c2bd203cc2c61242fb760"
+        },
+        "gh_guild_accept_courier_gold": {
+          "before": {
+            "name": "gh_guild_accept_courier_gold",
+            "scope": "player",
+            "recurring": true,
+            "conditions": [
+              {
+                "type": "party-location",
+                "operator": "equals",
+                "value": "Adventurer's Guild - Glowhaven Branch"
+              },
+              {
+                "type": "quest-status",
+                "operator": "equals",
+                "value": "available",
+                "questId": "Guild: A Parcel for the Bazaar"
+              },
+              {
+                "type": "player-item",
+                "item": "Guild Badge: Gold",
+                "operator": "greaterThan",
+                "value": 0
+              },
+              {
+                "type": "action",
+                "query": "This properly badged player actually accepts the posted contract Guild: A Parcel for the Bazaar after its scope, reward and participating party are clear. Browsing, quoting the notice, another person’s acceptance, a forged badge or an undecided plan is false."
+              }
+            ],
+            "effects": [
+              {
+                "type": "quest-accept",
+                "operator": "set",
+                "value": "Guild: A Parcel for the Bazaar"
+              },
+              {
+                "type": "story",
+                "instruction": "Record the actual accepted guild contract and participating player party. Its posted reward is payable in full on verified completion. Access, property permission, foreign travel and companions must be arranged separately; no portal key or payment is issued for accepting."
+              }
+            ]
+          },
+          "afterSha256": "7547b64998b2777a6b2245721b5c0c3cb71f2180ed942b082fc7ed38c9444fda"
+        },
+        "gh_guild_accept_courier_platinum": {
+          "before": {
+            "name": "gh_guild_accept_courier_platinum",
+            "scope": "player",
+            "recurring": true,
+            "conditions": [
+              {
+                "type": "party-location",
+                "operator": "equals",
+                "value": "Adventurer's Guild - Glowhaven Branch"
+              },
+              {
+                "type": "quest-status",
+                "operator": "equals",
+                "value": "available",
+                "questId": "Guild: A Parcel for the Bazaar"
+              },
+              {
+                "type": "player-item",
+                "item": "Guild Badge: Platinum",
+                "operator": "greaterThan",
+                "value": 0
+              },
+              {
+                "type": "action",
+                "query": "This properly badged player actually accepts the posted contract Guild: A Parcel for the Bazaar after its scope, reward and participating party are clear. Browsing, quoting the notice, another person’s acceptance, a forged badge or an undecided plan is false."
+              }
+            ],
+            "effects": [
+              {
+                "type": "quest-accept",
+                "operator": "set",
+                "value": "Guild: A Parcel for the Bazaar"
+              },
+              {
+                "type": "story",
+                "instruction": "Record the actual accepted guild contract and participating player party. Its posted reward is payable in full on verified completion. Access, property permission, foreign travel and companions must be arranged separately; no portal key or payment is issued for accepting."
+              }
+            ]
+          },
+          "afterSha256": "a68d187ca063d58056f8134ea74ec13a72f57be043cd1eb65f6e6cf32dbf4029"
+        },
+        "gh_guild_board": {
+          "before": {
+            "name": "gh_guild_board",
+            "recurring": true,
+            "conditions": [
+              {
+                "type": "party-location",
+                "operator": "equals",
+                "value": "Adventurer's Guild - Glowhaven Branch"
+              },
+              {
+                "type": "action",
+                "query": "The player actually asks to browse available guild work, asks for other postings or chooses a named posting from the board. Merely entering, returning a completed job, discussing another topic or an NPC suggestion is false."
+              }
+            ],
+            "effects": [],
+            "script": "// One existing dispatcher offers native quests. No new acceptance/completion controllers.\nconst jobs=[{\"title\":\"Guild: Rats in the Cellar\",\"rank\":1,\"recommendedLevel\":1,\"band\":1,\"lane\":\"combat\"},{\"title\":\"Guild: The Washbasin Is Occupied\",\"rank\":1,\"recommendedLevel\":1,\"band\":1,\"lane\":\"combat\"},{\"title\":\"Guild: The Watchdog Nobody Hired\",\"rank\":1,\"recommendedLevel\":2,\"band\":1,\"lane\":\"combat\"},{\"title\":\"Guild: Something in the Flour\",\"rank\":1,\"recommendedLevel\":2,\"band\":1,\"lane\":\"combat\"},{\"title\":\"Guild: Swept Off Your Feet\",\"rank\":1,\"recommendedLevel\":2,\"band\":1,\"lane\":\"combat\"},{\"title\":\"Guild: A Claw in the Channel\",\"rank\":1,\"recommendedLevel\":3,\"band\":1,\"lane\":\"combat\"},{\"title\":\"Guild: A Very Unhelpful Night-Light\",\"rank\":1,\"recommendedLevel\":3,\"band\":1,\"lane\":\"combat\"},{\"title\":\"Guild: Something Chewed the Joists\",\"rank\":1,\"recommendedLevel\":7,\"band\":7,\"lane\":\"combat\"},{\"title\":\"Guild: Lanterns With a Temper\",\"rank\":1,\"recommendedLevel\":7,\"band\":7,\"lane\":\"combat\"},{\"title\":\"Guild: Warm Feet, Cold Delivery\",\"rank\":1,\"recommendedLevel\":8,\"band\":7,\"lane\":\"combat\"},{\"title\":\"Guild: The Spare Parts Bargain\",\"rank\":1,\"recommendedLevel\":9,\"band\":7,\"lane\":\"other\"},{\"title\":\"Guild: A Ripple Under the Ford\",\"rank\":1,\"recommendedLevel\":10,\"band\":7,\"lane\":\"combat\"},{\"title\":\"Guild: Prickles in the Orchard\",\"rank\":1,\"recommendedLevel\":11,\"band\":7,\"lane\":\"combat\"},{\"title\":\"Guild: Do Not Meet Its Eyes\",\"rank\":2,\"recommendedLevel\":15,\"band\":15,\"lane\":\"combat\"},{\"title\":\"Guild: The Lantern That Would Not Land\",\"rank\":2,\"recommendedLevel\":15,\"band\":15,\"lane\":\"other\"},{\"title\":\"Guild: Too Hot for the Furnace\",\"rank\":2,\"recommendedLevel\":16,\"band\":15,\"lane\":\"combat\"},{\"title\":\"Guild: Tracks That Disappear\",\"rank\":2,\"recommendedLevel\":16,\"band\":15,\"lane\":\"combat\"},{\"title\":\"Guild: The Gate That Guarded Nothing\",\"rank\":1,\"recommendedLevel\":17,\"band\":15,\"lane\":\"other\"},{\"title\":\"Guild: Blue Sparks at Low Tide\",\"rank\":1,\"recommendedLevel\":18,\"band\":15,\"lane\":\"combat\"},{\"title\":\"Guild: A Parcel for the Bazaar\",\"rank\":1,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":1,\"lane\":\"other\",\"band\":1},{\"title\":\"Guild: Westwood Trail Notes\",\"rank\":1,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":1,\"lane\":\"other\",\"band\":1},{\"title\":\"Guild: Broken Halo Recovery\",\"rank\":2,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":20,\"lane\":\"other\",\"band\":15},{\"title\":\"Guild: Redvein Safety Survey\",\"rank\":3,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":25,\"lane\":\"other\",\"band\":15},{\"title\":\"Guild: Inverted Crown Instruments\",\"rank\":4,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":40,\"lane\":\"other\",\"band\":15},{\"title\":\"Salvage: What the Tide Left\",\"rank\":2,\"slug\":\"salvage_1\",\"repeatable\":false,\"recommendedLevel\":10,\"lane\":\"other\",\"band\":7},{\"title\":\"The Road: An Empty Harness\",\"rank\":1,\"slug\":\"road_1\",\"repeatable\":false,\"recommendedLevel\":5,\"lane\":\"other\",\"band\":1},{\"title\":\"Separate Pay: The Same Commission\",\"rank\":2,\"slug\":\"camp_1\",\"repeatable\":false,\"recommendedLevel\":10,\"lane\":\"other\",\"band\":7},{\"title\":\"Guild: Boars at the Watercourse\",\"rank\":1,\"slug\":\"contract_cull\",\"repeatable\":true,\"recommendedLevel\":1,\"lane\":\"combat\",\"band\":1},{\"title\":\"Guild: The Courier at the Wrong Turn\",\"rank\":1,\"slug\":\"contract_search\",\"repeatable\":false,\"recommendedLevel\":3,\"lane\":\"other\",\"band\":1},{\"title\":\"Guild: A Cart Full of Glass\",\"rank\":1,\"slug\":\"contract_escort\",\"repeatable\":true,\"recommendedLevel\":1,\"lane\":\"other\",\"band\":1},{\"title\":\"Guild: After the Harbor Squall\",\"rank\":1,\"slug\":\"contract_storm\",\"repeatable\":true,\"recommendedLevel\":1,\"lane\":\"other\",\"band\":1},{\"title\":\"Guild: Bitter Roots, Sharp Teeth\",\"rank\":2,\"slug\":\"contract_reagent\",\"repeatable\":false,\"recommendedLevel\":15,\"lane\":\"combat\",\"band\":15},{\"title\":\"Guild: A Door That Keeps Its Promise\",\"rank\":1,\"slug\":\"contract_repair\",\"repeatable\":false,\"recommendedLevel\":1,\"lane\":\"other\",\"band\":1},{\"title\":\"Guild: Keep the Fair Moving\",\"rank\":1,\"slug\":\"contract_steward\",\"repeatable\":true,\"recommendedLevel\":1,\"lane\":\"other\",\"band\":1},{\"title\":\"Guild: Beneath the Broken Dial\",\"rank\":2,\"slug\":\"contract_ruin\",\"repeatable\":false,\"recommendedLevel\":25,\"lane\":\"other\",\"band\":15},{\"title\":\"Guild: Rope Before the River\",\"rank\":1,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":3,\"lane\":\"other\",\"band\":1},{\"title\":\"Guild: Honey Without a Sting\",\"rank\":1,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":5,\"lane\":\"other\",\"band\":1},{\"title\":\"Guild: Teeth in the Spare Crate\",\"rank\":1,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":9,\"lane\":\"combat\",\"band\":7},{\"title\":\"Guild: Five Crates, Not Four\",\"rank\":1,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":7,\"lane\":\"other\",\"band\":7},{\"title\":\"Guild: Warmth Beneath the Crust\",\"rank\":2,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":22,\"lane\":\"other\",\"band\":15},{\"title\":\"Guild: The Lanternamber Latch\",\"rank\":2,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":28,\"lane\":\"other\",\"band\":15},{\"title\":\"Guild: Lines Across a Gap\",\"rank\":2,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":15,\"lane\":\"other\",\"band\":15},{\"title\":\"Guild: Something in the Sifter\",\"rank\":2,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":28,\"lane\":\"other\",\"band\":15}];\nconst n=Number(check({type:'game-tick'}))||0;\nlet rank=0;\nfor(const [i,b]of ['Bronze','Silver','Gold','Platinum'].entries())if(Object.values(check({type:'player-item',item:'Guild Badge: '+b})||{}).some(v=>v>0))rank=Math.max(rank,i+1);\nif(!rank){effects.push({type:'story',instruction:'Explain the actual licensure route and Bronze starting badge if the applicant asks about taking work. No badge, payment, key or examination pass is given merely for browsing.'});}\nelse{\n const levels=Object.values(check({type:'player-level'})||{}).filter(v=>typeof v==='number'&&Number.isFinite(v));\n const level=levels.length?Math.min(...levels):1;\n const text=String((check({type:'action-text'})||[]).join(' ')).toLocaleLowerCase();\n const qualified=jobs.filter(j=>{const s=check({type:'quest-status',questId:j.title});return rank>=j.rank&&(['hidden','planned','available','expired','abandoned','rejected'].includes(s)||(j.repeatable&&s==='completed'&&n-Number(storage['q20_'+j.slug+'_paid_tick']??n)>=20));});\n const named=qualified.find(j=>text.includes(j.title.toLocaleLowerCase())||text.includes(j.title.replace(/^Guild: /,'').toLocaleLowerCase()));\n const pool=qualified.filter(j=>j.recommendedLevel<=level+(level<10?2:5)&&(!j.band||j.band<=level));\n const band=level>=15?15:level>=7?7:1;\n const cursor=Math.max(0,Number(storage.q20_board_cursor)||0);\n const picked=named?[named]:[];\n if(!named){\n  for(const lane of ['combat','other']){\n   const candidates=pool.filter(j=>(j.lane||'other')===lane);\n   const current=candidates.filter(j=>(j.band||1)===band);\n   const choices=current.length?current:candidates;\n   if(choices.length)picked.push(choices[Math.floor(cursor/2)%choices.length]);\n  }\n }\n for(let i=0;i<pool.length&&picked.length<2&&!named;i++){const j=pool[(cursor+i)%pool.length];if(!picked.includes(j))picked.push(j);}\n storage.q20_board_cursor=cursor+2;\n for(const j of picked){\n  if(j.slug){storage['q20_offered_'+j.slug]=true;storage['q20_offer_tick_'+j.slug]=n;}\n  if(check({type:'quest-status',questId:j.title})!=='completed')effects.push({type:'quest-init',operator:'set',value:j.title});\n }\n effects.push({type:'story',instruction:picked.length?'Present only these eligible choices with their real short premises, scope and full posted rewards: '+picked.map(j=>j.title+' (recommended level '+j.recommendedLevel+'+)').join('; ')+'. Offer a real choice and wait. A concluded recurring contract needs fresh terms and actual new work. If a specifically requested job exceeds this party’s experience, explain its actual danger before any acceptance; the request only opens the offer. Browsing does not accept a quest or grant money, credit, companions or portal permission. Stronger contracts do not raise the danger of unrelated streets or novice jobs.':'No fresh authored posting is selected now. Preserve accepted jobs and completed outcomes. If wanted, offer a couple of distinct suitable generated commissions using actual badge, travel permission and the least experienced human’s level; never substitute a high-level fight or reopen a resolved personal crisis.'});\n}\n"
+          },
+          "afterSha256": "363c52e4ac91b4c4bc0a9dd930ef615d62f27c17c834bcce46e8a0e7cc1a2e02"
+        },
+        "q20_salvage_1_accept": {
+          "before": {
+            "name": "q20_salvage_1_accept",
+            "conditions": [
+              {
+                "type": "quest-status",
+                "questId": "Salvage: What the Tide Left",
+                "operator": "regex",
+                "value": "^(hidden|planned|available|expired|abandoned|rejected)$"
+              },
+              {
+                "type": "party-location",
+                "operator": "equals",
+                "value": "Adventurer's Guild - Glowhaven Branch"
+              },
+              {
+                "type": "read-boolean",
+                "operator": "equals",
+                "value": true,
+                "key": "q20_badge_rank_2"
+              },
+              {
+                "type": "read-boolean",
+                "operator": "equals",
+                "value": true,
+                "key": "q20_offered_salvage_1"
+              },
+              {
+                "type": "action",
+                "query": "This player deliberately chooses the specific current undertaking 'Salvage: What the Tide Left' after its real premise and terms were established. A natural yes to that exact present offer counts; exact title wording is not required. General interest, browsing, accepting another job, an NPC decision or assumed consent is false. For rejected, abandoned, expired or repeat work require an explicit fresh choice now."
+              }
+            ],
+            "effects": [
+              {
+                "type": "quest-init",
+                "operator": "set",
+                "value": "Salvage: What the Tide Left"
+              }
+            ],
+            "recurring": true,
+            "scope": "player",
+            "script": "if(![\"Guild Badge: Silver\", \"Guild Badge: Gold\", \"Guild Badge: Platinum\"].some(b=>Object.values(check({type:'player-item',item:b})||{}).some(v=>v>0))){skip=true;}if(!skip){storage[\"q20_salvage_1_step\"]=0;storage[\"q20_salvage_1_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_salvage_1_round\"]=Number(storage[\"q20_salvage_1_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"Salvage: What the Tide Left\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking Salvage: What the Tide Left. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}"
+          },
+          "afterSha256": "8588abdfaa2f03d1011ab51857e0d297404d618f8d0c20331f39831dff9ca7c0"
+        },
+        "q20_road_1_accept": {
+          "before": {
+            "name": "q20_road_1_accept",
+            "conditions": [
+              {
+                "type": "quest-status",
+                "questId": "The Road: An Empty Harness",
+                "operator": "regex",
+                "value": "^(hidden|planned|available|expired|abandoned|rejected)$"
+              },
+              {
+                "type": "party-location",
+                "operator": "equals",
+                "value": "Adventurer's Guild - Glowhaven Branch"
+              },
+              {
+                "type": "read-boolean",
+                "operator": "equals",
+                "value": true,
+                "key": "q20_badge_rank_1"
+              },
+              {
+                "type": "read-boolean",
+                "operator": "equals",
+                "value": true,
+                "key": "q20_offered_road_1"
+              },
+              {
+                "type": "action",
+                "query": "This player deliberately chooses the specific current undertaking 'The Road: An Empty Harness' after its real premise and terms were established. A natural yes to that exact present offer counts; exact title wording is not required. General interest, browsing, accepting another job, an NPC decision or assumed consent is false. For rejected, abandoned, expired or repeat work require an explicit fresh choice now."
+              }
+            ],
+            "effects": [
+              {
+                "type": "quest-init",
+                "operator": "set",
+                "value": "The Road: An Empty Harness"
+              }
+            ],
+            "recurring": true,
+            "scope": "player",
+            "script": "if(![\"Guild Badge: Bronze\", \"Guild Badge: Silver\", \"Guild Badge: Gold\", \"Guild Badge: Platinum\"].some(b=>Object.values(check({type:'player-item',item:b})||{}).some(v=>v>0))){skip=true;}if(!skip){storage[\"q20_road_1_step\"]=0;storage[\"q20_road_1_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_road_1_round\"]=Number(storage[\"q20_road_1_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"The Road: An Empty Harness\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking The Road: An Empty Harness. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}"
+          },
+          "afterSha256": "9b4ad337cfdd1423acd14e29f190eee688433b2fdd3abe5f7a1a8782eaae7fa2"
+        },
+        "q20_camp_1_accept": {
+          "before": {
+            "name": "q20_camp_1_accept",
+            "conditions": [
+              {
+                "type": "quest-status",
+                "questId": "Separate Pay: The Same Commission",
+                "operator": "regex",
+                "value": "^(hidden|planned|available|expired|abandoned|rejected)$"
+              },
+              {
+                "type": "party-location",
+                "operator": "equals",
+                "value": "Adventurer's Guild - Glowhaven Branch"
+              },
+              {
+                "type": "read-boolean",
+                "operator": "equals",
+                "value": true,
+                "key": "q20_badge_rank_2"
+              },
+              {
+                "type": "read-boolean",
+                "operator": "equals",
+                "value": true,
+                "key": "q20_offered_camp_1"
+              },
+              {
+                "type": "action",
+                "query": "This player deliberately chooses the specific current undertaking 'Separate Pay: The Same Commission' after its real premise and terms were established. A natural yes to that exact present offer counts; exact title wording is not required. General interest, browsing, accepting another job, an NPC decision or assumed consent is false. For rejected, abandoned, expired or repeat work require an explicit fresh choice now."
+              }
+            ],
+            "effects": [
+              {
+                "type": "quest-init",
+                "operator": "set",
+                "value": "Separate Pay: The Same Commission"
+              }
+            ],
+            "recurring": true,
+            "scope": "player",
+            "script": "if(![\"Guild Badge: Silver\", \"Guild Badge: Gold\", \"Guild Badge: Platinum\"].some(b=>Object.values(check({type:'player-item',item:b})||{}).some(v=>v>0))){skip=true;}if(!skip){storage[\"q20_camp_1_step\"]=0;storage[\"q20_camp_1_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_camp_1_round\"]=Number(storage[\"q20_camp_1_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"Separate Pay: The Same Commission\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking Separate Pay: The Same Commission. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}"
+          },
+          "afterSha256": "972cf6d1e6da9729acde3c91945ca1530381abed07cb85a49541a95e89c4d138"
+        },
+        "q20_contract_cull_accept": {
+          "before": {
+            "name": "q20_contract_cull_accept",
+            "conditions": [
+              {
+                "type": "quest-status",
+                "questId": "Guild: Boars at the Watercourse",
+                "operator": "regex",
+                "value": "^(hidden|planned|available|completed|expired|abandoned|rejected|completed)$"
+              },
+              {
+                "type": "party-location",
+                "operator": "equals",
+                "value": "Adventurer's Guild - Glowhaven Branch"
+              },
+              {
+                "type": "read-boolean",
+                "operator": "equals",
+                "value": true,
+                "key": "q20_badge_rank_1"
+              },
+              {
+                "type": "read-boolean",
+                "operator": "equals",
+                "value": true,
+                "key": "q20_offered_contract_cull"
+              },
+              {
+                "type": "action",
+                "query": "This player deliberately chooses the specific current undertaking 'Guild: Boars at the Watercourse' after its real premise and terms were established. A natural yes to that exact present offer counts; exact title wording is not required. General interest, browsing, accepting another job, an NPC decision or assumed consent is false. For rejected, abandoned, expired or repeat work require an explicit fresh choice now."
+              }
+            ],
+            "effects": [
+              {
+                "type": "quest-init",
+                "operator": "set",
+                "value": "Guild: Boars at the Watercourse"
+              }
+            ],
+            "recurring": true,
+            "scope": "player",
+            "script": "if(![\"Guild Badge: Bronze\", \"Guild Badge: Silver\", \"Guild Badge: Gold\", \"Guild Badge: Platinum\"].some(b=>Object.values(check({type:'player-item',item:b})||{}).some(v=>v>0))){skip=true;}\nconst now=Number(check({type:'game-tick'}))||0,paid=Number(storage[\"q20_contract_cull_paid_tick\"]??-100);if(check({type:'quest-status',questId:\"Guild: Boars at the Watercourse\"})==='completed'&&(now-paid<20||Number(storage[\"q20_offer_tick_contract_cull\"]??-1)<=paid)){skip=true;}if(!skip){storage[\"q20_contract_cull_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_contract_cull_round\"]=Number(storage[\"q20_contract_cull_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"Guild: Boars at the Watercourse\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking Guild: Boars at the Watercourse. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}"
+          },
+          "afterSha256": "d336a02cec9fffa250bae6f6f36280d165f313586d68fec4287f950c9dd5904a"
+        },
+        "q20_contract_search_accept": {
+          "before": {
+            "name": "q20_contract_search_accept",
+            "conditions": [
+              {
+                "type": "quest-status",
+                "questId": "Guild: The Courier at the Wrong Turn",
+                "operator": "regex",
+                "value": "^(hidden|planned|available|expired|abandoned|rejected)$"
+              },
+              {
+                "type": "party-location",
+                "operator": "equals",
+                "value": "Adventurer's Guild - Glowhaven Branch"
+              },
+              {
+                "type": "read-boolean",
+                "operator": "equals",
+                "value": true,
+                "key": "q20_badge_rank_1"
+              },
+              {
+                "type": "read-boolean",
+                "operator": "equals",
+                "value": true,
+                "key": "q20_offered_contract_search"
+              },
+              {
+                "type": "action",
+                "query": "This player deliberately chooses the specific current undertaking 'Guild: The Courier at the Wrong Turn' after its real premise and terms were established. A natural yes to that exact present offer counts; exact title wording is not required. General interest, browsing, accepting another job, an NPC decision or assumed consent is false. For rejected, abandoned, expired or repeat work require an explicit fresh choice now."
+              }
+            ],
+            "effects": [
+              {
+                "type": "quest-init",
+                "operator": "set",
+                "value": "Guild: The Courier at the Wrong Turn"
+              }
+            ],
+            "recurring": true,
+            "scope": "player",
+            "script": "if(![\"Guild Badge: Bronze\", \"Guild Badge: Silver\", \"Guild Badge: Gold\", \"Guild Badge: Platinum\"].some(b=>Object.values(check({type:'player-item',item:b})||{}).some(v=>v>0))){skip=true;}if(!skip){storage[\"q20_contract_search_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_contract_search_round\"]=Number(storage[\"q20_contract_search_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"Guild: The Courier at the Wrong Turn\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking Guild: The Courier at the Wrong Turn. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}"
+          },
+          "afterSha256": "c1bb55296e81063bdaf9bcad2ffe3a2198fb379606d7b1d7744c0822078d7a2a"
+        },
+        "q20_contract_escort_accept": {
+          "before": {
+            "name": "q20_contract_escort_accept",
+            "conditions": [
+              {
+                "type": "quest-status",
+                "questId": "Guild: A Cart Full of Glass",
+                "operator": "regex",
+                "value": "^(hidden|planned|available|completed|expired|abandoned|rejected|completed)$"
+              },
+              {
+                "type": "party-location",
+                "operator": "equals",
+                "value": "Adventurer's Guild - Glowhaven Branch"
+              },
+              {
+                "type": "read-boolean",
+                "operator": "equals",
+                "value": true,
+                "key": "q20_badge_rank_1"
+              },
+              {
+                "type": "read-boolean",
+                "operator": "equals",
+                "value": true,
+                "key": "q20_offered_contract_escort"
+              },
+              {
+                "type": "action",
+                "query": "This player deliberately chooses the specific current undertaking 'Guild: A Cart Full of Glass' after its real premise and terms were established. A natural yes to that exact present offer counts; exact title wording is not required. General interest, browsing, accepting another job, an NPC decision or assumed consent is false. For rejected, abandoned, expired or repeat work require an explicit fresh choice now."
+              }
+            ],
+            "effects": [
+              {
+                "type": "quest-init",
+                "operator": "set",
+                "value": "Guild: A Cart Full of Glass"
+              }
+            ],
+            "recurring": true,
+            "scope": "player",
+            "script": "if(![\"Guild Badge: Bronze\", \"Guild Badge: Silver\", \"Guild Badge: Gold\", \"Guild Badge: Platinum\"].some(b=>Object.values(check({type:'player-item',item:b})||{}).some(v=>v>0))){skip=true;}\nconst now=Number(check({type:'game-tick'}))||0,paid=Number(storage[\"q20_contract_escort_paid_tick\"]??-100);if(check({type:'quest-status',questId:\"Guild: A Cart Full of Glass\"})==='completed'&&(now-paid<20||Number(storage[\"q20_offer_tick_contract_escort\"]??-1)<=paid)){skip=true;}if(!skip){storage[\"q20_contract_escort_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_contract_escort_round\"]=Number(storage[\"q20_contract_escort_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"Guild: A Cart Full of Glass\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking Guild: A Cart Full of Glass. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}"
+          },
+          "afterSha256": "398fcdd2c773b8bda91afe1e131a7a7ba7368cd9a04b32dabd94fdd59407134a"
+        },
+        "q20_contract_storm_accept": {
+          "before": {
+            "name": "q20_contract_storm_accept",
+            "conditions": [
+              {
+                "type": "quest-status",
+                "questId": "Guild: After the Harbor Squall",
+                "operator": "regex",
+                "value": "^(hidden|planned|available|completed|expired|abandoned|rejected|completed)$"
+              },
+              {
+                "type": "party-location",
+                "operator": "equals",
+                "value": "Adventurer's Guild - Glowhaven Branch"
+              },
+              {
+                "type": "read-boolean",
+                "operator": "equals",
+                "value": true,
+                "key": "q20_badge_rank_1"
+              },
+              {
+                "type": "read-boolean",
+                "operator": "equals",
+                "value": true,
+                "key": "q20_offered_contract_storm"
+              },
+              {
+                "type": "action",
+                "query": "This player deliberately chooses the specific current undertaking 'Guild: After the Harbor Squall' after its real premise and terms were established. A natural yes to that exact present offer counts; exact title wording is not required. General interest, browsing, accepting another job, an NPC decision or assumed consent is false. For rejected, abandoned, expired or repeat work require an explicit fresh choice now."
+              }
+            ],
+            "effects": [
+              {
+                "type": "quest-init",
+                "operator": "set",
+                "value": "Guild: After the Harbor Squall"
+              }
+            ],
+            "recurring": true,
+            "scope": "player",
+            "script": "if(![\"Guild Badge: Bronze\", \"Guild Badge: Silver\", \"Guild Badge: Gold\", \"Guild Badge: Platinum\"].some(b=>Object.values(check({type:'player-item',item:b})||{}).some(v=>v>0))){skip=true;}\nconst now=Number(check({type:'game-tick'}))||0,paid=Number(storage[\"q20_contract_storm_paid_tick\"]??-100);if(check({type:'quest-status',questId:\"Guild: After the Harbor Squall\"})==='completed'&&(now-paid<20||Number(storage[\"q20_offer_tick_contract_storm\"]??-1)<=paid)){skip=true;}if(!skip){storage[\"q20_contract_storm_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_contract_storm_round\"]=Number(storage[\"q20_contract_storm_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"Guild: After the Harbor Squall\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking Guild: After the Harbor Squall. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}"
+          },
+          "afterSha256": "5fea14fee5bfe527269c4f8df77c3145f9726bb2899d3dbe187a0683dc4bb1e1"
+        },
+        "q20_contract_reagent_accept": {
+          "before": {
+            "name": "q20_contract_reagent_accept",
+            "conditions": [
+              {
+                "type": "quest-status",
+                "questId": "Guild: Bitter Roots, Sharp Teeth",
+                "operator": "regex",
+                "value": "^(hidden|planned|available|expired|abandoned|rejected)$"
+              },
+              {
+                "type": "party-location",
+                "operator": "equals",
+                "value": "Adventurer's Guild - Glowhaven Branch"
+              },
+              {
+                "type": "read-boolean",
+                "operator": "equals",
+                "value": true,
+                "key": "q20_badge_rank_2"
+              },
+              {
+                "type": "read-boolean",
+                "operator": "equals",
+                "value": true,
+                "key": "q20_offered_contract_reagent"
+              },
+              {
+                "type": "action",
+                "query": "This player deliberately chooses the specific current undertaking 'Guild: Bitter Roots, Sharp Teeth' after its real premise and terms were established. A natural yes to that exact present offer counts; exact title wording is not required. General interest, browsing, accepting another job, an NPC decision or assumed consent is false. For rejected, abandoned, expired or repeat work require an explicit fresh choice now."
+              }
+            ],
+            "effects": [
+              {
+                "type": "quest-init",
+                "operator": "set",
+                "value": "Guild: Bitter Roots, Sharp Teeth"
+              }
+            ],
+            "recurring": true,
+            "scope": "player",
+            "script": "if(![\"Guild Badge: Silver\", \"Guild Badge: Gold\", \"Guild Badge: Platinum\"].some(b=>Object.values(check({type:'player-item',item:b})||{}).some(v=>v>0))){skip=true;}if(!skip){storage[\"q20_contract_reagent_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_contract_reagent_round\"]=Number(storage[\"q20_contract_reagent_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"Guild: Bitter Roots, Sharp Teeth\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking Guild: Bitter Roots, Sharp Teeth. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}"
+          },
+          "afterSha256": "c481ca6475728644eb7a360fc220233a4792c5174375127b59a5e77d64192894"
+        },
+        "q20_contract_repair_accept": {
+          "before": {
+            "name": "q20_contract_repair_accept",
+            "conditions": [
+              {
+                "type": "quest-status",
+                "questId": "Guild: A Door That Keeps Its Promise",
+                "operator": "regex",
+                "value": "^(hidden|planned|available|expired|abandoned|rejected)$"
+              },
+              {
+                "type": "party-location",
+                "operator": "equals",
+                "value": "Adventurer's Guild - Glowhaven Branch"
+              },
+              {
+                "type": "read-boolean",
+                "operator": "equals",
+                "value": true,
+                "key": "q20_badge_rank_1"
+              },
+              {
+                "type": "read-boolean",
+                "operator": "equals",
+                "value": true,
+                "key": "q20_offered_contract_repair"
+              },
+              {
+                "type": "action",
+                "query": "This player deliberately chooses the specific current undertaking 'Guild: A Door That Keeps Its Promise' after its real premise and terms were established. A natural yes to that exact present offer counts; exact title wording is not required. General interest, browsing, accepting another job, an NPC decision or assumed consent is false. For rejected, abandoned, expired or repeat work require an explicit fresh choice now."
+              }
+            ],
+            "effects": [
+              {
+                "type": "quest-init",
+                "operator": "set",
+                "value": "Guild: A Door That Keeps Its Promise"
+              }
+            ],
+            "recurring": true,
+            "scope": "player",
+            "script": "if(![\"Guild Badge: Bronze\", \"Guild Badge: Silver\", \"Guild Badge: Gold\", \"Guild Badge: Platinum\"].some(b=>Object.values(check({type:'player-item',item:b})||{}).some(v=>v>0))){skip=true;}if(!skip){storage[\"q20_contract_repair_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_contract_repair_round\"]=Number(storage[\"q20_contract_repair_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"Guild: A Door That Keeps Its Promise\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking Guild: A Door That Keeps Its Promise. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}"
+          },
+          "afterSha256": "3937cdc985f2f19ce2d91a271d846fcfe0a9a3a3bb95977255584a93f818f83a"
+        },
+        "q20_contract_steward_accept": {
+          "before": {
+            "name": "q20_contract_steward_accept",
+            "conditions": [
+              {
+                "type": "quest-status",
+                "questId": "Guild: Keep the Fair Moving",
+                "operator": "regex",
+                "value": "^(hidden|planned|available|completed|expired|abandoned|rejected|completed)$"
+              },
+              {
+                "type": "party-location",
+                "operator": "equals",
+                "value": "Adventurer's Guild - Glowhaven Branch"
+              },
+              {
+                "type": "read-boolean",
+                "operator": "equals",
+                "value": true,
+                "key": "q20_badge_rank_1"
+              },
+              {
+                "type": "read-boolean",
+                "operator": "equals",
+                "value": true,
+                "key": "q20_offered_contract_steward"
+              },
+              {
+                "type": "action",
+                "query": "This player deliberately chooses the specific current undertaking 'Guild: Keep the Fair Moving' after its real premise and terms were established. A natural yes to that exact present offer counts; exact title wording is not required. General interest, browsing, accepting another job, an NPC decision or assumed consent is false. For rejected, abandoned, expired or repeat work require an explicit fresh choice now."
+              }
+            ],
+            "effects": [
+              {
+                "type": "quest-init",
+                "operator": "set",
+                "value": "Guild: Keep the Fair Moving"
+              }
+            ],
+            "recurring": true,
+            "scope": "player",
+            "script": "if(![\"Guild Badge: Bronze\", \"Guild Badge: Silver\", \"Guild Badge: Gold\", \"Guild Badge: Platinum\"].some(b=>Object.values(check({type:'player-item',item:b})||{}).some(v=>v>0))){skip=true;}\nconst now=Number(check({type:'game-tick'}))||0,paid=Number(storage[\"q20_contract_steward_paid_tick\"]??-100);if(check({type:'quest-status',questId:\"Guild: Keep the Fair Moving\"})==='completed'&&(now-paid<20||Number(storage[\"q20_offer_tick_contract_steward\"]??-1)<=paid)){skip=true;}if(!skip){storage[\"q20_contract_steward_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_contract_steward_round\"]=Number(storage[\"q20_contract_steward_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"Guild: Keep the Fair Moving\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking Guild: Keep the Fair Moving. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}"
+          },
+          "afterSha256": "babb3039de59b811de6e1a653e30f36e3cf3bbf45020aa32cbc8911071b89d71"
+        },
+        "q20_contract_ruin_accept": {
+          "before": {
+            "name": "q20_contract_ruin_accept",
+            "conditions": [
+              {
+                "type": "quest-status",
+                "questId": "Guild: Beneath the Broken Dial",
+                "operator": "regex",
+                "value": "^(hidden|planned|available|expired|abandoned|rejected)$"
+              },
+              {
+                "type": "party-location",
+                "operator": "equals",
+                "value": "Adventurer's Guild - Glowhaven Branch"
+              },
+              {
+                "type": "read-boolean",
+                "operator": "equals",
+                "value": true,
+                "key": "q20_badge_rank_2"
+              },
+              {
+                "type": "read-boolean",
+                "operator": "equals",
+                "value": true,
+                "key": "q20_offered_contract_ruin"
+              },
+              {
+                "type": "action",
+                "query": "This player deliberately chooses the specific current undertaking 'Guild: Beneath the Broken Dial' after its real premise and terms were established. A natural yes to that exact present offer counts; exact title wording is not required. General interest, browsing, accepting another job, an NPC decision or assumed consent is false. For rejected, abandoned, expired or repeat work require an explicit fresh choice now."
+              }
+            ],
+            "effects": [
+              {
+                "type": "quest-init",
+                "operator": "set",
+                "value": "Guild: Beneath the Broken Dial"
+              }
+            ],
+            "recurring": true,
+            "scope": "player",
+            "script": "if(![\"Guild Badge: Silver\", \"Guild Badge: Gold\", \"Guild Badge: Platinum\"].some(b=>Object.values(check({type:'player-item',item:b})||{}).some(v=>v>0))){skip=true;}if(!skip){storage[\"q20_contract_ruin_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_contract_ruin_round\"]=Number(storage[\"q20_contract_ruin_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"Guild: Beneath the Broken Dial\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking Guild: Beneath the Broken Dial. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}"
+          },
+          "afterSha256": "9dcdd371c21ea711cd9549c9554511c78a1a712679243891ae70c6cebee0e11f"
+        }
+      },
+      "removed": {}
+    },
+    {
+      "path": [
+        "storySettings"
+      ],
+      "added": {},
+      "changed": {
+        "questGenerationGuidance": {
+          "before": "OPPORTUNITIES AND AGREEMENT\nStart with a person, concrete want and circumstance the player can act on. Reuse nearby authored people and acquaintances. A posting needs a client, terms and return contact. Offer two or three suitable possibilities when work is requested. Public news, overheard disagreements and visible problems can invite investigation without accepting or creating a journal entry. Ignore an unpursued lead rather than repeating it. Ordinary kindness and conversations need not become quests.\n\nLOCAL CHARACTER\nAcademies: actual courses, teachers, years, experiments, contests, favors and rivalries. Their civic duties suggest work without dictating personality. The academic sequence keeps its own readiness and invitations.\nGuild: finite contracts, hunts, escorts, recovery, repairs and professional disputes. Check the actual Bronze/Silver/Gold/Platinum badge. Pay the full posted fee; court keys and property permission remain separate.\nDrakenspire: mountain routes, craft, clans, households, ancestors, pit contests and winter supplies. Terrain, promises and material needs create pressure; rare beings are not guaranteed appointments.\nAsterveil: crossings, rescue, specimens, materials, research and competing expeditions. Distinguish Cloudbloom woodland, Rimeglass exposure, Mirrorwater channels and Amethyst acoustic terrain. Follow actual local bands and npcTypes; this remains midgame.\nEveryday Glowhaven: food, music, neighbors, shopping, repairs and personal trouble. Simple work can end simply. Lawful prison work uses actual permission and never grants release just for finishing an errand.\n\nPLAYABLE RESISTANCE\nFor substantial work, identify the obstacle, its location, how it blocks success and what resolves it. Use an actual rescue, contest, magical working, hazardous crossing, negotiation, fight or demonstrated result. Deliberately entering occupied dangerous ground produces the real encounter, not tracks forever. Tools, preparation, training and cooperation matter. Vary physical, magical, social and investigative approaches; animals are not negotiators by default.\n\nQUESTS AND NATIVE ARCS\nMost generated work is a finite standalone episode. Use configured arcs only for their actual premises, participants, secrets and expected conclusions; generated chapters belong to the runtime arc rather than an invented authored arcId. One meaningful development and its consequences justify another chapter. Preserve discoveries after a setback. Do not force every arc onto one player or split several simultaneous errands serving one goal into separate quests. Arc participants retain independent lives and motives. Respect credible alternative conclusions and do not restart a resolved arc merely to supply more content.\n\nCHECKABLE ENDINGS\nGive a generated quest a concrete final objective and a typed completionCondition repeating that final step's wording with the full relevant person, item and place names. Allow the stated alternatives and genuine imperfect results when appropriate. A proposal, quoted objective or unperformed promise does not qualify. Once achieved, let the scene show the deed plainly; no extra signatures, report loops or new mastermind are required. Failure can change cost, approach or relationships without erasing every clue.\n\nCONTINUITY AND REWARDS\nCompare active, planned, completed, declined and abandoned work by people, site and problem, not title alone. Preserve solved conditions; recurring work needs a fresh instance and terms. First thesis is once per playthrough, including transfers. Academic milestones, field tests, expeditions, the anomaly and Silken investigation retain separate conditions. No automatic calendar jump, acceptance, pass, recruitment or absent-participant credit.\nState known risk, scope and payment before commitment. Respect refusal and withdrawal. Use one supported completion and reward owner; authored effects settle their fixed reward once. No duplicate prose payment or credit for unrelated work. Loans, salvage and customer property follow real agreements. Access, lessons and company can matter beside money; no generic reward grants affinity, mastery, court keys or affection.\n\nINFORMED RISK\nRoutine work fits the least experienced human, excluding powerful NPC companions. Introductory Bronze work normally uses one level 1–3 weak hostile. Substantially harder work needs explicit player interest and concrete warning before acceptance. Offer a safer option instead of a surprise lethal mission. Existing scripted events, authored encounters and their conditions remain unchanged.",
+          "afterSha256": "59d22d438b3dcc8607504e77d97b4c60f72ee47cc4269a5103a6a465c629b308"
+        }
+      },
+      "removed": {}
+    },
+    {
+      "path": [
+        "itemSettings"
+      ],
+      "added": {},
+      "changed": {
+        "startingItems": {
+          "before": [
+            {
+              "item": "Mark",
+              "quantity": 18
+            }
+          ],
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      },
+      "removed": {}
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests"
+      ],
+      "added": {
+        "Akitsuhara Guild: Something in the Flour": "650c5f5fc2c5c1bea3fc1fe91da84c08229d8667f72040612bdec4f3785ca66c",
+        "Akitsuhara Guild: The Wandering Sandals": "fa3aa9452a7fefd86fdf9db79fbb23605c8fea2e76fa46de113b239f39add307",
+        "Akitsuhara Guild: A Wheel Before Supper": "79be27b97bef229805eece6205f38e4f3b9dd7ceb673cf9477e6ed2905c3c278",
+        "Akitsuhara Guild: Bees at the Wrong Door": "3858ac57642ce0e7d0ae7d5b5a8d08fec1c943c2319132cc8ee57123722be5c5",
+        "Akitsuhara Guild: Cloth on the Other Bank": "49d5202fafcb60e29d5be5129d0e7f80e7aaaa45d77d16db2750ae6759e5d419",
+        "Akitsuhara Guild: The Gate That Squeaks": "de92bd988625b91878e4f19ce65b38daea17224fd0e260af4ff2b5a08f8c3632",
+        "Akitsuhara Guild: Little Ashes": "0c533efaa610f4980baeb709d3550ca57485043afdabe7e2a917021651fcabf1",
+        "Akitsuhara Guild: Missing Along the Reeds": "8232ba058e2f630848f8b62521bdeec9eede7df07f7e657312afe1d2ed04440e",
+        "Akitsuhara Guild: Paper with Teeth": "bae36b55aa98aef6b54412d872ee48b403f612440a8437e8310dbe5341b91d41",
+        "Akitsuhara Guild: The Mine Brace": "4454c78cf3a57371521c049b7335b388c150119b7707764d2ebc7b8829e5902d",
+        "Akitsuhara Guild: Unwelcome at the Orchard": "c5903c26a10c9e9b2682418d5aecd08140b87e4a23590a6d17abdaf9efd72cef",
+        "Akitsuhara Guild: A Mask Too Many": "cedce6e7deb1a3d8b438f4ae783694b254bf79d172aa15b67b3216cadb59aee7",
+        "Akitsuhara Guild: Charcoal under Watch": "3e5165275083247b3ed3398fbe3e98913351d70e29c809700189e13ed7da963d",
+        "Akitsuhara Guild: The Bent Boundary": "735850df9d4a45e6f8f08afd3dc06687a2af84a85b0bebd6905ef92feb07e23a",
+        "Akitsuhara Guild: What the Bridge Carries": "abc5e1a8aaaf6b4decdd6e2b10fe0cdacc41818ff7cb40875e9b78416af1a10d",
+        "Akitsuhara Guild: Across the Rime": "ba618f6addc70580c23a46c5451a14ba84c7c775ff44284bb9c97cadbffb07c8",
+        "Akitsuhara Guild: The Hollow Shrine Cups": "b43f9bf1526d1287d24fa34b562e06a78251581cbc4a36fc1c27b8cd8a95fd0f",
+        "Akitsuhara Guild: More Than Footprints": "94a800c6ec66366c0e354d0b5663d88a4109edab7fb037f203abba9ae0a5089a",
+        "Akitsuhara Guild: A Mirror Gone Dark": "7ef5b4bfc2de03275d61760be9cdd53f3d203b8844eba73a5fe09e8acdef97f1",
+        "Akitsuhara Guild: Beneath the Splitshaft": "f321121d76acc1869b5f80d1b1f8cc5227c66c4fc78e56f2d9bed12a522a16f3",
+        "Akitsuhara Guild: A Banner Still Standing": "170bd6c6eb8e9c5e25935046ca38a06cd99fb2dcc750e623a6914d1ec2daf8c1",
+        "Akitsuhara Guild: A Shape above the Roots": "ab6827cf3bfa0f84ebb3955944f04410caed9412f2a07ee8a45f5c43279d7bb5",
+        "Akitsuhara Guild: Ice That Listens": "2481d8ec1e1732fe8361d20ef89d2563683111d1582abd6755a6cf61e065a57f",
+        "Akitsuhara Guild: Hagire among the Cedars": "69938ad790b74bfe6f8fb813e3ea01d785e9261d9eb0c3d630ea4cce2a87d349",
+        "A Bell for the Mist": "4971dc65bacbd612710f912b815151308feb91ee905df7298e5aacb246d2c447",
+        "The Cost of a Courtyard": "8b2967f5707bc58ea72b512b97dc50a08735b08811e31d99a9711052448d7944",
+        "One Honest Demonstration": "1c95d1e5814b5ad60f67f86efd1f3a23f376033e61c8706b0947d5c5f6006ab6",
+        "The Ledger and the Soup": "3cbdbc8b2885693b9781a2c12a9a15979ca6be331bacae788e542fae1b4679c4",
+        "A Patient Distance": "97de3e9365c92f72fab57bd5c8f35caf45f33bef6819f4029a66ad924bd1e8bc",
+        "The Message behind the Message": "5ca01f8d9f01ddb3da8fe3b64e4770ccfd6645502b6ac65d140e6b1bdb0ac48b",
+        "An Escort in Plain Clothes": "f10706ddad704f9b81d25f6410007b39b23e0b8054c1a8a75e4639fb4efdf1a2",
+        "First Bread in Hoshina": "b1c14eff6d1239e0f73d194d4af78c9a07d29f8ef6011bcc66a661c3004d5bb5",
+        "The Bow That Will Not Settle": "7cf876bd529656d0afa667057e102d63bb7793f00aefb26dfd336a1ab02c3ebf",
+        "The Oven and the Boundary": "3822309ed47501cbe906375c088f92ad25da5ad3e00dedeb2b7a9bd1feeafaba",
+        "The Archive Has Two Dates": "10af5b5a6f986599c2dc264ef0fb172bd83467fe7d3e03a29f8a97b1e1b47366",
+        "The Last Dry Platform": "4071975488b6df4bc387920da35be3bd877831bd066d5a30d1ad7dfb8f8ad943",
+        "The Name on the Parcel": "b26c8bce3826735b8222a1e92bd215eb9ed731c039105540404d2d2daf17cb56",
+        "Expedition: The Bamboo Method": "e651b19cc064c179e1196a63e8db3cb29296e001ca6ccd88313c05e047bb5bfe",
+        "Expedition: Amber without the Mine": "a297b31bd493d9dece9cc20e3d7ec5c75c1c4cf21912cacf199803c0ef37baed",
+        "Expedition: A Crossbow in the Rain": "7a9b94aa29a677f7094be0d5e4523066ce271ba94f3aedfe2b6f240306d3ae4f",
+        "Expedition: Snowmelt Letters": "556478c90d34c273a434714b604d4070fc111e8619e79b8ba28e5c93242fcc6f",
+        "Expedition: Reeds above the Clouds": "212de0e66512520fb39ddefcabda113fd9824e80d3d51525d3ff1c9f66897eab",
+        "Expedition: The Foreign Grain": "1c82217c239a3414c30e76162ffbe2a4be679674d8f42f6b5d02a4528ca890f7",
+        "Expedition: A Reed Bell's Answer": "e26ce9fe78380bc707e164a1dec1256b3d10ff71c572be7a5dfa93f6c997d82e",
+        "Akitsuhara Guild: The Collector's Hearing": "a36479885a96db27db37788833cb54f20c3bac6834dfaaa4f3b3ac08968e1395",
+        "An Unmarked Parcel": "36ed38cd73cbce896344be043bdea705b0c7b74860e9b4a6889a888f34878826",
+        "The Wrong Water Seal": "c922b177dab4fefc41667aba47bec0209233dd9de4c09b94ab556e0671e4cd56",
+        "Guild: Benitsuru Licensure": "2adcc2caa083ed94defbd5d7f7f204f0c40013d1a37b957c7963ad739ef02000"
+      },
+      "changed": {
+        "Guild: Adventurer Licensure": {
+          "before": {
+            "name": "Guild: Adventurer Licensure",
+            "questSource": "Komugi Hanabishi",
+            "questLocation": "Adventurer's Guild - Glowhaven Branch",
+            "detailType": "detailed",
+            "status": "hidden",
+            "questStatement": "The guild accepts martial and magical applicants. Registration opens an assessment; a real pass earns the first Bronze badge.",
+            "mainObjective": "Pass the judgment and practical portions, then receive certification at the counter.",
+            "questDesignBrief": "Offer on an actual application, not every first visit. Explain judgment, declared scope, retreat and practical control. Let the applicant use their real trained weapon, body technique, magic or mixed method in a bounded safe exercise; no universal Intelligence test or compulsory spell. A real check and the supplied outcome determine practical success. A capable newcomer may demonstrate competence promptly; failing is a reason to practice, not humiliation or arbitrary detention. Komugi Hanabishi handles the docket and certification; an appropriate duty assessor may supervise practical work. Personal pass records and the actual issuance trigger control the badge. No starting badge, free weapon, portal key or automatic pass from level. Registration/assessment adds no invented charge. Applicants can postpone or leave.\nThe certification trigger exclusively awards the existing Document Guild Badge: Bronze. Do not also put a badge in generated quest rewards or create a renamed Relic for the same licence.",
+            "objectives": {
+              "judgment": {
+                "id": "judgment",
+                "text": "Pass the request-reading and practical-judgment review.",
+                "status": "active"
+              },
+              "practical": {
+                "id": "practical",
+                "text": "Complete a controlled practical demonstration with your trained method.",
+                "status": "active"
+              },
+              "certify": {
+                "id": "certify",
+                "text": "Have the completed results certified at reception.",
+                "status": "active"
+              }
+            },
+            "activeObjectiveId": "judgment",
+            "conclusive": true,
+            "onCompleteEffects": []
+          },
+          "afterSha256": "3d27962ff2a62661eb071aeb485714a2abefcd9cd7cecc5128227ea020a3d440"
+        }
+      },
+      "removed": {}
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "arcs"
+      ],
+      "added": {
+        "oni_imported_edge": "b6fd960ecac4836bb4f8dc6601c1e2bec94f305352415d555e3a7577c042c303",
+        "oni_veiled_paths": "e31c5448808b613684e731ef85051dfe38c671a7ab6b01fdbcd18145f98c889a"
+      },
+      "changed": {},
+      "removed": {}
+    }
+  ]
+}

@@ -4359,7 +4359,8 @@
         "type": "story",
         "instruction": "Record the actual accepted guild contract and participating player party. Its posted reward is payable in full on verified completion. Access, property permission, foreign travel and companions must be arranged separately; no portal key or payment is issued for accepting."
       }
-    ]
+    ],
+    "script": "\nconst choiceRaw=check({type:'action-text'}),choiceText=(Array.isArray(choiceRaw)?choiceRaw.join(' '):String(choiceRaw||'')).toLowerCase();\nconst choiceOffers=Array.isArray(storage.ghGuildDisplayedOffers)?storage.ghGuildDisplayedOffers:[];\nconst choiceCommit=/\\b(accept|take|choose|agree|yes|okay|alright|deal)\\b/.test(choiceText)&&!/\\b(don't|do not|won't|will not|decline|reject|no thanks)\\b/.test(choiceText);\nconst choiceStop=new Set('guild akitsuhara a an the of to for and in at on is with without after from its this that one'.split(' '));\nconst choiceWords=t=>t.toLowerCase().match(/[a-zéōū]+/g)?.filter(t=>t.length>2&&!choiceStop.has(t)).map(t=>t.length>3?t.replace(/s$/,''):t)||[];\nconst actionWords=new Set(choiceWords(choiceText));\nconst scores=choiceOffers.map(title=>({title,score:choiceWords(title).filter(t=>actionWords.has(t)).length}));\nconst best=Math.max(0,...scores.map(x=>x.score)),matches=scores.filter(x=>x.score===best&&best>0);\nconst chosen=choiceCommit?(matches.length===1?matches[0].title:(!best&&choiceOffers.length===1?choiceOffers[0]:'')):'';\n\nif(chosen!==\"Guild: A Parcel for the Bazaar\"){skip=true;}else{\n\n}"
   },
   "gh_guild_accept_courier_silver": {
     "name": "gh_guild_accept_courier_silver",
@@ -4398,7 +4399,8 @@
         "type": "story",
         "instruction": "Record the actual accepted guild contract and participating player party. Its posted reward is payable in full on verified completion. Access, property permission, foreign travel and companions must be arranged separately; no portal key or payment is issued for accepting."
       }
-    ]
+    ],
+    "script": "\nconst choiceRaw=check({type:'action-text'}),choiceText=(Array.isArray(choiceRaw)?choiceRaw.join(' '):String(choiceRaw||'')).toLowerCase();\nconst choiceOffers=Array.isArray(storage.ghGuildDisplayedOffers)?storage.ghGuildDisplayedOffers:[];\nconst choiceCommit=/\\b(accept|take|choose|agree|yes|okay|alright|deal)\\b/.test(choiceText)&&!/\\b(don't|do not|won't|will not|decline|reject|no thanks)\\b/.test(choiceText);\nconst choiceStop=new Set('guild akitsuhara a an the of to for and in at on is with without after from its this that one'.split(' '));\nconst choiceWords=t=>t.toLowerCase().match(/[a-zéōū]+/g)?.filter(t=>t.length>2&&!choiceStop.has(t)).map(t=>t.length>3?t.replace(/s$/,''):t)||[];\nconst actionWords=new Set(choiceWords(choiceText));\nconst scores=choiceOffers.map(title=>({title,score:choiceWords(title).filter(t=>actionWords.has(t)).length}));\nconst best=Math.max(0,...scores.map(x=>x.score)),matches=scores.filter(x=>x.score===best&&best>0);\nconst chosen=choiceCommit?(matches.length===1?matches[0].title:(!best&&choiceOffers.length===1?choiceOffers[0]:'')):'';\n\nif(chosen!==\"Guild: A Parcel for the Bazaar\"){skip=true;}else{\n\n}"
   },
   "gh_guild_accept_courier_gold": {
     "name": "gh_guild_accept_courier_gold",
@@ -4437,7 +4439,8 @@
         "type": "story",
         "instruction": "Record the actual accepted guild contract and participating player party. Its posted reward is payable in full on verified completion. Access, property permission, foreign travel and companions must be arranged separately; no portal key or payment is issued for accepting."
       }
-    ]
+    ],
+    "script": "\nconst choiceRaw=check({type:'action-text'}),choiceText=(Array.isArray(choiceRaw)?choiceRaw.join(' '):String(choiceRaw||'')).toLowerCase();\nconst choiceOffers=Array.isArray(storage.ghGuildDisplayedOffers)?storage.ghGuildDisplayedOffers:[];\nconst choiceCommit=/\\b(accept|take|choose|agree|yes|okay|alright|deal)\\b/.test(choiceText)&&!/\\b(don't|do not|won't|will not|decline|reject|no thanks)\\b/.test(choiceText);\nconst choiceStop=new Set('guild akitsuhara a an the of to for and in at on is with without after from its this that one'.split(' '));\nconst choiceWords=t=>t.toLowerCase().match(/[a-zéōū]+/g)?.filter(t=>t.length>2&&!choiceStop.has(t)).map(t=>t.length>3?t.replace(/s$/,''):t)||[];\nconst actionWords=new Set(choiceWords(choiceText));\nconst scores=choiceOffers.map(title=>({title,score:choiceWords(title).filter(t=>actionWords.has(t)).length}));\nconst best=Math.max(0,...scores.map(x=>x.score)),matches=scores.filter(x=>x.score===best&&best>0);\nconst chosen=choiceCommit?(matches.length===1?matches[0].title:(!best&&choiceOffers.length===1?choiceOffers[0]:'')):'';\n\nif(chosen!==\"Guild: A Parcel for the Bazaar\"){skip=true;}else{\n\n}"
   },
   "gh_guild_accept_courier_platinum": {
     "name": "gh_guild_accept_courier_platinum",
@@ -4476,7 +4479,8 @@
         "type": "story",
         "instruction": "Record the actual accepted guild contract and participating player party. Its posted reward is payable in full on verified completion. Access, property permission, foreign travel and companions must be arranged separately; no portal key or payment is issued for accepting."
       }
-    ]
+    ],
+    "script": "\nconst choiceRaw=check({type:'action-text'}),choiceText=(Array.isArray(choiceRaw)?choiceRaw.join(' '):String(choiceRaw||'')).toLowerCase();\nconst choiceOffers=Array.isArray(storage.ghGuildDisplayedOffers)?storage.ghGuildDisplayedOffers:[];\nconst choiceCommit=/\\b(accept|take|choose|agree|yes|okay|alright|deal)\\b/.test(choiceText)&&!/\\b(don't|do not|won't|will not|decline|reject|no thanks)\\b/.test(choiceText);\nconst choiceStop=new Set('guild akitsuhara a an the of to for and in at on is with without after from its this that one'.split(' '));\nconst choiceWords=t=>t.toLowerCase().match(/[a-zéōū]+/g)?.filter(t=>t.length>2&&!choiceStop.has(t)).map(t=>t.length>3?t.replace(/s$/,''):t)||[];\nconst actionWords=new Set(choiceWords(choiceText));\nconst scores=choiceOffers.map(title=>({title,score:choiceWords(title).filter(t=>actionWords.has(t)).length}));\nconst best=Math.max(0,...scores.map(x=>x.score)),matches=scores.filter(x=>x.score===best&&best>0);\nconst chosen=choiceCommit?(matches.length===1?matches[0].title:(!best&&choiceOffers.length===1?choiceOffers[0]:'')):'';\n\nif(chosen!==\"Guild: A Parcel for the Bazaar\"){skip=true;}else{\n\n}"
   },
   "gh_guild_work_courier": {
     "name": "gh_guild_work_courier",
@@ -5353,7 +5357,7 @@
       }
     ],
     "effects": [],
-    "script": "// One existing dispatcher offers native quests. No new acceptance/completion controllers.\nconst jobs=[{\"title\":\"Guild: Rats in the Cellar\",\"rank\":1,\"recommendedLevel\":1,\"band\":1,\"lane\":\"combat\"},{\"title\":\"Guild: The Washbasin Is Occupied\",\"rank\":1,\"recommendedLevel\":1,\"band\":1,\"lane\":\"combat\"},{\"title\":\"Guild: The Watchdog Nobody Hired\",\"rank\":1,\"recommendedLevel\":2,\"band\":1,\"lane\":\"combat\"},{\"title\":\"Guild: Something in the Flour\",\"rank\":1,\"recommendedLevel\":2,\"band\":1,\"lane\":\"combat\"},{\"title\":\"Guild: Swept Off Your Feet\",\"rank\":1,\"recommendedLevel\":2,\"band\":1,\"lane\":\"combat\"},{\"title\":\"Guild: A Claw in the Channel\",\"rank\":1,\"recommendedLevel\":3,\"band\":1,\"lane\":\"combat\"},{\"title\":\"Guild: A Very Unhelpful Night-Light\",\"rank\":1,\"recommendedLevel\":3,\"band\":1,\"lane\":\"combat\"},{\"title\":\"Guild: Something Chewed the Joists\",\"rank\":1,\"recommendedLevel\":7,\"band\":7,\"lane\":\"combat\"},{\"title\":\"Guild: Lanterns With a Temper\",\"rank\":1,\"recommendedLevel\":7,\"band\":7,\"lane\":\"combat\"},{\"title\":\"Guild: Warm Feet, Cold Delivery\",\"rank\":1,\"recommendedLevel\":8,\"band\":7,\"lane\":\"combat\"},{\"title\":\"Guild: The Spare Parts Bargain\",\"rank\":1,\"recommendedLevel\":9,\"band\":7,\"lane\":\"other\"},{\"title\":\"Guild: A Ripple Under the Ford\",\"rank\":1,\"recommendedLevel\":10,\"band\":7,\"lane\":\"combat\"},{\"title\":\"Guild: Prickles in the Orchard\",\"rank\":1,\"recommendedLevel\":11,\"band\":7,\"lane\":\"combat\"},{\"title\":\"Guild: Do Not Meet Its Eyes\",\"rank\":2,\"recommendedLevel\":15,\"band\":15,\"lane\":\"combat\"},{\"title\":\"Guild: The Lantern That Would Not Land\",\"rank\":2,\"recommendedLevel\":15,\"band\":15,\"lane\":\"other\"},{\"title\":\"Guild: Too Hot for the Furnace\",\"rank\":2,\"recommendedLevel\":16,\"band\":15,\"lane\":\"combat\"},{\"title\":\"Guild: Tracks That Disappear\",\"rank\":2,\"recommendedLevel\":16,\"band\":15,\"lane\":\"combat\"},{\"title\":\"Guild: The Gate That Guarded Nothing\",\"rank\":1,\"recommendedLevel\":17,\"band\":15,\"lane\":\"other\"},{\"title\":\"Guild: Blue Sparks at Low Tide\",\"rank\":1,\"recommendedLevel\":18,\"band\":15,\"lane\":\"combat\"},{\"title\":\"Guild: A Parcel for the Bazaar\",\"rank\":1,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":1,\"lane\":\"other\",\"band\":1},{\"title\":\"Guild: Westwood Trail Notes\",\"rank\":1,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":1,\"lane\":\"other\",\"band\":1},{\"title\":\"Guild: Broken Halo Recovery\",\"rank\":2,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":20,\"lane\":\"other\",\"band\":15},{\"title\":\"Guild: Redvein Safety Survey\",\"rank\":3,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":25,\"lane\":\"other\",\"band\":15},{\"title\":\"Guild: Inverted Crown Instruments\",\"rank\":4,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":40,\"lane\":\"other\",\"band\":15},{\"title\":\"Salvage: What the Tide Left\",\"rank\":2,\"slug\":\"salvage_1\",\"repeatable\":false,\"recommendedLevel\":10,\"lane\":\"other\",\"band\":7},{\"title\":\"The Road: An Empty Harness\",\"rank\":1,\"slug\":\"road_1\",\"repeatable\":false,\"recommendedLevel\":5,\"lane\":\"other\",\"band\":1},{\"title\":\"Separate Pay: The Same Commission\",\"rank\":2,\"slug\":\"camp_1\",\"repeatable\":false,\"recommendedLevel\":10,\"lane\":\"other\",\"band\":7},{\"title\":\"Guild: Boars at the Watercourse\",\"rank\":1,\"slug\":\"contract_cull\",\"repeatable\":true,\"recommendedLevel\":1,\"lane\":\"combat\",\"band\":1},{\"title\":\"Guild: The Courier at the Wrong Turn\",\"rank\":1,\"slug\":\"contract_search\",\"repeatable\":false,\"recommendedLevel\":3,\"lane\":\"other\",\"band\":1},{\"title\":\"Guild: A Cart Full of Glass\",\"rank\":1,\"slug\":\"contract_escort\",\"repeatable\":true,\"recommendedLevel\":1,\"lane\":\"other\",\"band\":1},{\"title\":\"Guild: After the Harbor Squall\",\"rank\":1,\"slug\":\"contract_storm\",\"repeatable\":true,\"recommendedLevel\":1,\"lane\":\"other\",\"band\":1},{\"title\":\"Guild: Bitter Roots, Sharp Teeth\",\"rank\":2,\"slug\":\"contract_reagent\",\"repeatable\":false,\"recommendedLevel\":15,\"lane\":\"combat\",\"band\":15},{\"title\":\"Guild: A Door That Keeps Its Promise\",\"rank\":1,\"slug\":\"contract_repair\",\"repeatable\":false,\"recommendedLevel\":1,\"lane\":\"other\",\"band\":1},{\"title\":\"Guild: Keep the Fair Moving\",\"rank\":1,\"slug\":\"contract_steward\",\"repeatable\":true,\"recommendedLevel\":1,\"lane\":\"other\",\"band\":1},{\"title\":\"Guild: Beneath the Broken Dial\",\"rank\":2,\"slug\":\"contract_ruin\",\"repeatable\":false,\"recommendedLevel\":25,\"lane\":\"other\",\"band\":15},{\"title\":\"Guild: Rope Before the River\",\"rank\":1,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":3,\"lane\":\"other\",\"band\":1},{\"title\":\"Guild: Honey Without a Sting\",\"rank\":1,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":5,\"lane\":\"other\",\"band\":1},{\"title\":\"Guild: Teeth in the Spare Crate\",\"rank\":1,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":9,\"lane\":\"combat\",\"band\":7},{\"title\":\"Guild: Five Crates, Not Four\",\"rank\":1,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":7,\"lane\":\"other\",\"band\":7},{\"title\":\"Guild: Warmth Beneath the Crust\",\"rank\":2,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":22,\"lane\":\"other\",\"band\":15},{\"title\":\"Guild: The Lanternamber Latch\",\"rank\":2,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":28,\"lane\":\"other\",\"band\":15},{\"title\":\"Guild: Lines Across a Gap\",\"rank\":2,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":15,\"lane\":\"other\",\"band\":15},{\"title\":\"Guild: Something in the Sifter\",\"rank\":2,\"slug\":\"\",\"repeatable\":false,\"recommendedLevel\":28,\"lane\":\"other\",\"band\":15}];\nconst n=Number(check({type:'game-tick'}))||0;\nlet rank=0;\nfor(const [i,b]of ['Bronze','Silver','Gold','Platinum'].entries())if(Object.values(check({type:'player-item',item:'Guild Badge: '+b})||{}).some(v=>v>0))rank=Math.max(rank,i+1);\nif(!rank){effects.push({type:'story',instruction:'Explain the actual licensure route and Bronze starting badge if the applicant asks about taking work. No badge, payment, key or examination pass is given merely for browsing.'});}\nelse{\n const levels=Object.values(check({type:'player-level'})||{}).filter(v=>typeof v==='number'&&Number.isFinite(v));\n const level=levels.length?Math.min(...levels):1;\n const text=String((check({type:'action-text'})||[]).join(' ')).toLocaleLowerCase();\n const qualified=jobs.filter(j=>{const s=check({type:'quest-status',questId:j.title});return rank>=j.rank&&(['hidden','planned','available','expired','abandoned','rejected'].includes(s)||(j.repeatable&&s==='completed'&&n-Number(storage['q20_'+j.slug+'_paid_tick']??n)>=20));});\n const named=qualified.find(j=>text.includes(j.title.toLocaleLowerCase())||text.includes(j.title.replace(/^Guild: /,'').toLocaleLowerCase()));\n const pool=qualified.filter(j=>j.recommendedLevel<=level+(level<10?2:5)&&(!j.band||j.band<=level));\n const band=level>=15?15:level>=7?7:1;\n const cursor=Math.max(0,Number(storage.q20_board_cursor)||0);\n const picked=named?[named]:[];\n if(!named){\n  for(const lane of ['combat','other']){\n   const candidates=pool.filter(j=>(j.lane||'other')===lane);\n   const current=candidates.filter(j=>(j.band||1)===band);\n   const choices=current.length?current:candidates;\n   if(choices.length)picked.push(choices[Math.floor(cursor/2)%choices.length]);\n  }\n }\n for(let i=0;i<pool.length&&picked.length<2&&!named;i++){const j=pool[(cursor+i)%pool.length];if(!picked.includes(j))picked.push(j);}\n storage.q20_board_cursor=cursor+2;\n for(const j of picked){\n  if(j.slug){storage['q20_offered_'+j.slug]=true;storage['q20_offer_tick_'+j.slug]=n;}\n  if(check({type:'quest-status',questId:j.title})!=='completed')effects.push({type:'quest-init',operator:'set',value:j.title});\n }\n effects.push({type:'story',instruction:picked.length?'Present only these eligible choices with their real short premises, scope and full posted rewards: '+picked.map(j=>j.title+' (recommended level '+j.recommendedLevel+'+)').join('; ')+'. Offer a real choice and wait. A concluded recurring contract needs fresh terms and actual new work. If a specifically requested job exceeds this party’s experience, explain its actual danger before any acceptance; the request only opens the offer. Browsing does not accept a quest or grant money, credit, companions or portal permission. Stronger contracts do not raise the danger of unrelated streets or novice jobs.':'No fresh authored posting is selected now. Preserve accepted jobs and completed outcomes. If wanted, offer a couple of distinct suitable generated commissions using actual badge, travel permission and the least experienced human’s level; never substitute a high-level fight or reopen a resolved personal crisis.'});\n}\n"
+    "script": "\nconst choiceRaw=check({type:'action-text'}),choiceText=(Array.isArray(choiceRaw)?choiceRaw.join(' '):String(choiceRaw||'')).toLowerCase();\nconst choiceOffers=Array.isArray(storage.ghGuildDisplayedOffers)?storage.ghGuildDisplayedOffers:[];\nconst choiceCommit=/\\b(accept|take|choose|agree|yes|okay|alright|deal)\\b/.test(choiceText)&&!/\\b(don't|do not|won't|will not|decline|reject|no thanks)\\b/.test(choiceText);\n\nif(choiceCommit&&choiceOffers.length){skip=true;}else{\n// One existing dispatcher offers native quests. No new acceptance/completion controllers.\nconst jobs=[[\"Guild: Rats in the Cellar\",1,\"\",false,1,\"combat\",1,\"Noriko Hanesawa\",\"Roseberry Inn\",30],[\"Guild: The Washbasin Is Occupied\",1,\"\",false,1,\"combat\",1,\"Daichi Kamado\",\"The Golden Ladle\",30],[\"Guild: The Watchdog Nobody Hired\",1,\"\",false,2,\"combat\",1,\"Kaito Minato\",\"Whitecrest Harbor\",35],[\"Guild: Something in the Flour\",1,\"\",false,2,\"combat\",1,\"Haruho Taneda\",\"Brookmeadow\",35],[\"Guild: Swept Off Your Feet\",1,\"\",false,2,\"combat\",1,\"Reiji Takatori\",\"Rune and Raven's\",35],[\"Guild: A Claw in the Channel\",1,\"\",false,3,\"combat\",1,\"Takumi Hatano\",\"Glowhaven Farmlands\",40],[\"Guild: A Very Unhelpful Night-Light\",1,\"\",false,3,\"combat\",1,\"Shizuru Sumida\",\"The Wandering Quill\",40],[\"Guild: Something Chewed the Joists\",1,\"\",false,7,\"combat\",7,\"Makoto Sashihara\",\"The Carpenter's Measure\",60],[\"Guild: Lanterns With a Temper\",1,\"\",false,7,\"combat\",7,\"Rinpei Komatsu\",\"Four Sages Bazaar\",65],[\"Guild: Warm Feet, Cold Delivery\",1,\"\",false,8,\"combat\",7,\"Kazuo Kurogaki\",\"Blackstone Smithy\",70],[\"Guild: The Spare Parts Bargain\",1,\"\",false,9,\"other\",7,\"Seiji Haguruma\",\"The Compassmaker\",75],[\"Guild: A Ripple Under the Ford\",1,\"\",false,10,\"combat\",7,\"Shiori Kawase\",\"Pinewater River\",80],[\"Guild: Prickles in the Orchard\",1,\"\",false,11,\"combat\",7,\"Takumi Hatano\",\"Glowhaven Farmlands\",90],[\"Guild: Do Not Meet Its Eyes\",2,\"\",false,15,\"combat\",15,\"Osamu Iseki\",\"Greywatch Keep\",110],[\"Guild: The Lantern That Would Not Land\",2,\"\",false,15,\"other\",15,\"Kaito Minato\",\"Pinewake Coast\",120],[\"Guild: Too Hot for the Furnace\",2,\"\",false,16,\"combat\",15,\"Kazuo Kurogaki\",\"Blackstone Smithy\",130],[\"Guild: Tracks That Disappear\",2,\"\",false,16,\"combat\",15,\"Shiori Kawase\",\"Pinewater Woods\",135],[\"Guild: The Gate That Guarded Nothing\",1,\"\",false,17,\"other\",15,\"Takumi Hatano\",\"Glowhaven Farmlands\",140],[\"Guild: Blue Sparks at Low Tide\",1,\"\",false,18,\"combat\",15,\"Kaito Minato\",\"Crescent Shores\",150],[\"Guild: A Parcel for the Bazaar\",1,\"\",false,1,\"other\",1,\"Adventurer's Guild\",\"Adventurer's Guild - Glowhaven Branch\",40],[\"Guild: Westwood Trail Notes\",1,\"\",false,1,\"other\",1,\"Adventurer's Guild\",\"Adventurer's Guild - Glowhaven Branch\",50],[\"Guild: Broken Halo Recovery\",2,\"\",false,20,\"other\",15,\"Adventurer's Guild\",\"Adventurer's Guild - Glowhaven Branch\",140],[\"Guild: Redvein Safety Survey\",3,\"\",false,25,\"other\",15,\"Adventurer's Guild\",\"Adventurer's Guild - Glowhaven Branch\",360],[\"Guild: Inverted Crown Instruments\",4,\"\",false,40,\"other\",15,\"Adventurer's Guild\",\"Adventurer's Guild - Glowhaven Branch\",900],[\"Salvage: What the Tide Left\",2,\"salvage_1\",false,10,\"other\",7,\"Komugi Hanabishi\",\"Pinewake Coast\",90],[\"The Road: An Empty Harness\",1,\"road_1\",false,5,\"other\",1,\"Komugi Hanabishi\",\"Caravan Outpost\",60],[\"Separate Pay: The Same Commission\",2,\"camp_1\",false,10,\"other\",7,\"Komugi Hanabishi\",\"Greywatch Keep\",80],[\"Guild: Boars at the Watercourse\",1,\"contract_cull\",true,1,\"combat\",1,\"Komugi Hanabishi\",\"Pinewater River\",55],[\"Guild: The Courier at the Wrong Turn\",1,\"contract_search\",false,3,\"other\",1,\"Komugi Hanabishi\",\"Pinewater Woods\",60],[\"Guild: A Cart Full of Glass\",1,\"contract_escort\",true,1,\"other\",1,\"Komugi Hanabishi\",\"Caravan Outpost\",50],[\"Guild: After the Harbor Squall\",1,\"contract_storm\",true,1,\"other\",1,\"Komugi Hanabishi\",\"Whitecrest Harbor\",45],[\"Guild: Bitter Roots, Sharp Teeth\",2,\"contract_reagent\",false,15,\"combat\",15,\"Komugi Hanabishi\",\"West Glowhaven Woods\",100],[\"Guild: A Door That Keeps Its Promise\",1,\"contract_repair\",false,1,\"other\",1,\"Komugi Hanabishi\",\"Rune and Raven's\",45],[\"Guild: Keep the Fair Moving\",1,\"contract_steward\",true,1,\"other\",1,\"Komugi Hanabishi\",\"Four Sages Bazaar\",40],[\"Guild: Beneath the Broken Dial\",2,\"contract_ruin\",false,25,\"other\",15,\"Komugi Hanabishi\",\"Broken Halo Ruins\",130],[\"Guild: Rope Before the River\",1,\"\",false,3,\"other\",1,\"Komugi Hanabishi\",\"Pinewater River\",24],[\"Guild: Honey Without a Sting\",1,\"\",false,5,\"other\",1,\"Komugi Hanabishi\",\"Glowhaven Farmlands\",32],[\"Guild: Teeth in the Spare Crate\",1,\"\",false,9,\"combat\",7,\"Komugi Hanabishi\",\"Caravan Outpost\",55],[\"Guild: Five Crates, Not Four\",1,\"\",false,7,\"other\",7,\"Komugi Hanabishi\",\"Whitecrest Harbor\",40],[\"Guild: Warmth Beneath the Crust\",2,\"\",false,22,\"other\",15,\"Komugi Hanabishi\",\"Goatstep Hamlet\",150],[\"Guild: The Lanternamber Latch\",2,\"\",false,28,\"other\",15,\"Komugi Hanabishi\",\"Lanternamber Caverns\",220],[\"Guild: Lines Across a Gap\",2,\"\",false,15,\"other\",15,\"Komugi Hanabishi\",\"Tetherroot Chain\",90],[\"Guild: Something in the Sifter\",2,\"\",false,28,\"other\",15,\"Komugi Hanabishi\",\"Glassreed Labyrinth\",180]].map(([title,rank,slug,repeatable,recommendedLevel,lane,band,client,place,fee])=>({title,rank,slug,repeatable,recommendedLevel,lane,band,client,place,fee}));\nconst n=Number(check({type:'game-tick'}))||0;\nlet rank=0;\nfor(const [i,b]of ['Bronze','Silver','Gold','Platinum'].entries())if(Object.values(check({type:'player-item',item:'Guild Badge: '+b})||{}).some(v=>v>0))rank=Math.max(rank,i+1);\nif(!rank){effects.push({type:'story',instruction:'Explain the actual licensure route and Bronze starting badge if the applicant asks about taking work. No badge, payment, key or examination pass is given merely for browsing.'});}\nelse{\n const levels=Object.values(check({type:'player-level'})||{}).filter(v=>typeof v==='number'&&Number.isFinite(v));\n const level=levels.length?Math.min(...levels):1;\n const text=String((check({type:'action-text'})||[]).join(' ')).toLocaleLowerCase();\n const qualified=jobs.filter(j=>{const s=check({type:'quest-status',questId:j.title});return rank>=j.rank&&(['hidden','planned','available','expired','abandoned','rejected'].includes(s)||(j.repeatable&&s==='completed'&&n-Number(storage['q20_'+j.slug+'_paid_tick']??n)>=20));});\n const named=qualified.find(j=>text.includes(j.title.toLocaleLowerCase())||text.includes(j.title.replace(/^Guild: /,'').toLocaleLowerCase()));\n const pool=qualified.filter(j=>j.recommendedLevel<=level+(level<10?2:5)&&(!j.band||j.band<=level));\n const band=level>=15?15:level>=7?7:1;\n const cursor=Math.max(0,Number(storage.q20_board_cursor)||0);\n const picked=named?[named]:[];\n if(!named){\n  for(const lane of ['combat','other']){\n   const candidates=pool.filter(j=>(j.lane||'other')===lane);\n   const current=candidates.filter(j=>(j.band||1)===band);\n   const choices=current.length?current:candidates;\n   if(choices.length)picked.push(choices[Math.floor(cursor/2)%choices.length]);\n  }\n }\n for(let i=0;i<pool.length&&picked.length<2&&!named;i++){const j=pool[(cursor+i)%pool.length];if(!picked.includes(j))picked.push(j);}\n storage.q20_board_cursor=cursor+2;\n storage.ghGuildDisplayedOffers=picked.map(j=>j.title);\n storage.ghGuildOfferRanks=Object.fromEntries(picked.map(j=>[j.title,j.rank]));\n for(const j of picked){\n  if(j.slug){storage['q20_offered_'+j.slug]=true;storage['q20_offer_tick_'+j.slug]=n;}\n  if(check({type:'quest-status',questId:j.title})!=='completed')effects.push({type:'quest-init',operator:'set',value:j.title});\n }\n effects.push({type:'story',instruction:picked.length?'Present only these eligible choices with their real short premises, scope and full posted rewards: '+picked.map(j=>j.title+' — '+j.client+'; '+j.place+'; '+j.fee+' marks (recommended level '+j.recommendedLevel+'+)').join('; ')+'. Offer a real choice and wait. A concluded recurring contract needs fresh terms and actual new work. If a specifically requested job exceeds this party’s experience, explain its actual danger before any acceptance; the request only opens the offer. Browsing does not accept a quest or grant money, credit, companions or portal permission. Stronger contracts do not raise the danger of unrelated streets or novice jobs.':'No fresh authored posting is selected now. Preserve accepted jobs and completed outcomes. If wanted, offer a couple of distinct suitable generated commissions using actual badge, travel permission and the least experienced human’s level; never substitute a high-level fight or reopen a resolved personal crisis.'});\n}\n\n}"
   },
   "gh_spellcraft_foundation": {
     "name": "gh_spellcraft_foundation",
@@ -8348,7 +8352,7 @@
     ],
     "recurring": true,
     "scope": "player",
-    "script": "if(![\"Guild Badge: Silver\", \"Guild Badge: Gold\", \"Guild Badge: Platinum\"].some(b=>Object.values(check({type:'player-item',item:b})||{}).some(v=>v>0))){skip=true;}if(!skip){storage[\"q20_salvage_1_step\"]=0;storage[\"q20_salvage_1_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_salvage_1_round\"]=Number(storage[\"q20_salvage_1_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"Salvage: What the Tide Left\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking Salvage: What the Tide Left. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}"
+    "script": "\nconst choiceRaw=check({type:'action-text'}),choiceText=(Array.isArray(choiceRaw)?choiceRaw.join(' '):String(choiceRaw||'')).toLowerCase();\nconst choiceOffers=Array.isArray(storage.ghGuildDisplayedOffers)?storage.ghGuildDisplayedOffers:[];\nconst choiceCommit=/\\b(accept|take|choose|agree|yes|okay|alright|deal)\\b/.test(choiceText)&&!/\\b(don't|do not|won't|will not|decline|reject|no thanks)\\b/.test(choiceText);\nconst choiceStop=new Set('guild akitsuhara a an the of to for and in at on is with without after from its this that one'.split(' '));\nconst choiceWords=t=>t.toLowerCase().match(/[a-zéōū]+/g)?.filter(t=>t.length>2&&!choiceStop.has(t)).map(t=>t.length>3?t.replace(/s$/,''):t)||[];\nconst actionWords=new Set(choiceWords(choiceText));\nconst scores=choiceOffers.map(title=>({title,score:choiceWords(title).filter(t=>actionWords.has(t)).length}));\nconst best=Math.max(0,...scores.map(x=>x.score)),matches=scores.filter(x=>x.score===best&&best>0);\nconst chosen=choiceCommit?(matches.length===1?matches[0].title:(!best&&choiceOffers.length===1?choiceOffers[0]:'')):'';\n\nif(chosen!==\"Salvage: What the Tide Left\"){skip=true;}else{\nif(![\"Guild Badge: Silver\", \"Guild Badge: Gold\", \"Guild Badge: Platinum\"].some(b=>Object.values(check({type:'player-item',item:b})||{}).some(v=>v>0))){skip=true;}if(!skip){storage[\"q20_salvage_1_step\"]=0;storage[\"q20_salvage_1_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_salvage_1_round\"]=Number(storage[\"q20_salvage_1_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"Salvage: What the Tide Left\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking Salvage: What the Tide Left. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}\n}"
   },
   "q20_salvage_1_objective_1": {
     "name": "q20_salvage_1_objective_1",
@@ -8792,7 +8796,7 @@
     ],
     "recurring": true,
     "scope": "player",
-    "script": "if(![\"Guild Badge: Bronze\", \"Guild Badge: Silver\", \"Guild Badge: Gold\", \"Guild Badge: Platinum\"].some(b=>Object.values(check({type:'player-item',item:b})||{}).some(v=>v>0))){skip=true;}if(!skip){storage[\"q20_road_1_step\"]=0;storage[\"q20_road_1_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_road_1_round\"]=Number(storage[\"q20_road_1_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"The Road: An Empty Harness\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking The Road: An Empty Harness. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}"
+    "script": "\nconst choiceRaw=check({type:'action-text'}),choiceText=(Array.isArray(choiceRaw)?choiceRaw.join(' '):String(choiceRaw||'')).toLowerCase();\nconst choiceOffers=Array.isArray(storage.ghGuildDisplayedOffers)?storage.ghGuildDisplayedOffers:[];\nconst choiceCommit=/\\b(accept|take|choose|agree|yes|okay|alright|deal)\\b/.test(choiceText)&&!/\\b(don't|do not|won't|will not|decline|reject|no thanks)\\b/.test(choiceText);\nconst choiceStop=new Set('guild akitsuhara a an the of to for and in at on is with without after from its this that one'.split(' '));\nconst choiceWords=t=>t.toLowerCase().match(/[a-zéōū]+/g)?.filter(t=>t.length>2&&!choiceStop.has(t)).map(t=>t.length>3?t.replace(/s$/,''):t)||[];\nconst actionWords=new Set(choiceWords(choiceText));\nconst scores=choiceOffers.map(title=>({title,score:choiceWords(title).filter(t=>actionWords.has(t)).length}));\nconst best=Math.max(0,...scores.map(x=>x.score)),matches=scores.filter(x=>x.score===best&&best>0);\nconst chosen=choiceCommit?(matches.length===1?matches[0].title:(!best&&choiceOffers.length===1?choiceOffers[0]:'')):'';\n\nif(chosen!==\"The Road: An Empty Harness\"){skip=true;}else{\nif(![\"Guild Badge: Bronze\", \"Guild Badge: Silver\", \"Guild Badge: Gold\", \"Guild Badge: Platinum\"].some(b=>Object.values(check({type:'player-item',item:b})||{}).some(v=>v>0))){skip=true;}if(!skip){storage[\"q20_road_1_step\"]=0;storage[\"q20_road_1_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_road_1_round\"]=Number(storage[\"q20_road_1_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"The Road: An Empty Harness\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking The Road: An Empty Harness. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}\n}"
   },
   "q20_road_1_objective_1": {
     "name": "q20_road_1_objective_1",
@@ -9236,7 +9240,7 @@
     ],
     "recurring": true,
     "scope": "player",
-    "script": "if(![\"Guild Badge: Silver\", \"Guild Badge: Gold\", \"Guild Badge: Platinum\"].some(b=>Object.values(check({type:'player-item',item:b})||{}).some(v=>v>0))){skip=true;}if(!skip){storage[\"q20_camp_1_step\"]=0;storage[\"q20_camp_1_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_camp_1_round\"]=Number(storage[\"q20_camp_1_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"Separate Pay: The Same Commission\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking Separate Pay: The Same Commission. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}"
+    "script": "\nconst choiceRaw=check({type:'action-text'}),choiceText=(Array.isArray(choiceRaw)?choiceRaw.join(' '):String(choiceRaw||'')).toLowerCase();\nconst choiceOffers=Array.isArray(storage.ghGuildDisplayedOffers)?storage.ghGuildDisplayedOffers:[];\nconst choiceCommit=/\\b(accept|take|choose|agree|yes|okay|alright|deal)\\b/.test(choiceText)&&!/\\b(don't|do not|won't|will not|decline|reject|no thanks)\\b/.test(choiceText);\nconst choiceStop=new Set('guild akitsuhara a an the of to for and in at on is with without after from its this that one'.split(' '));\nconst choiceWords=t=>t.toLowerCase().match(/[a-zéōū]+/g)?.filter(t=>t.length>2&&!choiceStop.has(t)).map(t=>t.length>3?t.replace(/s$/,''):t)||[];\nconst actionWords=new Set(choiceWords(choiceText));\nconst scores=choiceOffers.map(title=>({title,score:choiceWords(title).filter(t=>actionWords.has(t)).length}));\nconst best=Math.max(0,...scores.map(x=>x.score)),matches=scores.filter(x=>x.score===best&&best>0);\nconst chosen=choiceCommit?(matches.length===1?matches[0].title:(!best&&choiceOffers.length===1?choiceOffers[0]:'')):'';\n\nif(chosen!==\"Separate Pay: The Same Commission\"){skip=true;}else{\nif(![\"Guild Badge: Silver\", \"Guild Badge: Gold\", \"Guild Badge: Platinum\"].some(b=>Object.values(check({type:'player-item',item:b})||{}).some(v=>v>0))){skip=true;}if(!skip){storage[\"q20_camp_1_step\"]=0;storage[\"q20_camp_1_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_camp_1_round\"]=Number(storage[\"q20_camp_1_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"Separate Pay: The Same Commission\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking Separate Pay: The Same Commission. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}\n}"
   },
   "q20_camp_1_objective_1": {
     "name": "q20_camp_1_objective_1",
@@ -9680,7 +9684,7 @@
     ],
     "recurring": true,
     "scope": "player",
-    "script": "if(![\"Guild Badge: Bronze\", \"Guild Badge: Silver\", \"Guild Badge: Gold\", \"Guild Badge: Platinum\"].some(b=>Object.values(check({type:'player-item',item:b})||{}).some(v=>v>0))){skip=true;}\nconst now=Number(check({type:'game-tick'}))||0,paid=Number(storage[\"q20_contract_cull_paid_tick\"]??-100);if(check({type:'quest-status',questId:\"Guild: Boars at the Watercourse\"})==='completed'&&(now-paid<20||Number(storage[\"q20_offer_tick_contract_cull\"]??-1)<=paid)){skip=true;}if(!skip){storage[\"q20_contract_cull_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_contract_cull_round\"]=Number(storage[\"q20_contract_cull_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"Guild: Boars at the Watercourse\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking Guild: Boars at the Watercourse. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}"
+    "script": "\nconst choiceRaw=check({type:'action-text'}),choiceText=(Array.isArray(choiceRaw)?choiceRaw.join(' '):String(choiceRaw||'')).toLowerCase();\nconst choiceOffers=Array.isArray(storage.ghGuildDisplayedOffers)?storage.ghGuildDisplayedOffers:[];\nconst choiceCommit=/\\b(accept|take|choose|agree|yes|okay|alright|deal)\\b/.test(choiceText)&&!/\\b(don't|do not|won't|will not|decline|reject|no thanks)\\b/.test(choiceText);\nconst choiceStop=new Set('guild akitsuhara a an the of to for and in at on is with without after from its this that one'.split(' '));\nconst choiceWords=t=>t.toLowerCase().match(/[a-zéōū]+/g)?.filter(t=>t.length>2&&!choiceStop.has(t)).map(t=>t.length>3?t.replace(/s$/,''):t)||[];\nconst actionWords=new Set(choiceWords(choiceText));\nconst scores=choiceOffers.map(title=>({title,score:choiceWords(title).filter(t=>actionWords.has(t)).length}));\nconst best=Math.max(0,...scores.map(x=>x.score)),matches=scores.filter(x=>x.score===best&&best>0);\nconst chosen=choiceCommit?(matches.length===1?matches[0].title:(!best&&choiceOffers.length===1?choiceOffers[0]:'')):'';\n\nif(chosen!==\"Guild: Boars at the Watercourse\"){skip=true;}else{\nif(![\"Guild Badge: Bronze\", \"Guild Badge: Silver\", \"Guild Badge: Gold\", \"Guild Badge: Platinum\"].some(b=>Object.values(check({type:'player-item',item:b})||{}).some(v=>v>0))){skip=true;}\nconst now=Number(check({type:'game-tick'}))||0,paid=Number(storage[\"q20_contract_cull_paid_tick\"]??-100);if(check({type:'quest-status',questId:\"Guild: Boars at the Watercourse\"})==='completed'&&(now-paid<20||Number(storage[\"q20_offer_tick_contract_cull\"]??-1)<=paid)){skip=true;}if(!skip){storage[\"q20_contract_cull_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_contract_cull_round\"]=Number(storage[\"q20_contract_cull_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"Guild: Boars at the Watercourse\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking Guild: Boars at the Watercourse. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}\n}"
   },
   "q20_contract_search_accept": {
     "name": "q20_contract_search_accept",
@@ -9722,7 +9726,7 @@
     ],
     "recurring": true,
     "scope": "player",
-    "script": "if(![\"Guild Badge: Bronze\", \"Guild Badge: Silver\", \"Guild Badge: Gold\", \"Guild Badge: Platinum\"].some(b=>Object.values(check({type:'player-item',item:b})||{}).some(v=>v>0))){skip=true;}if(!skip){storage[\"q20_contract_search_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_contract_search_round\"]=Number(storage[\"q20_contract_search_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"Guild: The Courier at the Wrong Turn\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking Guild: The Courier at the Wrong Turn. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}"
+    "script": "\nconst choiceRaw=check({type:'action-text'}),choiceText=(Array.isArray(choiceRaw)?choiceRaw.join(' '):String(choiceRaw||'')).toLowerCase();\nconst choiceOffers=Array.isArray(storage.ghGuildDisplayedOffers)?storage.ghGuildDisplayedOffers:[];\nconst choiceCommit=/\\b(accept|take|choose|agree|yes|okay|alright|deal)\\b/.test(choiceText)&&!/\\b(don't|do not|won't|will not|decline|reject|no thanks)\\b/.test(choiceText);\nconst choiceStop=new Set('guild akitsuhara a an the of to for and in at on is with without after from its this that one'.split(' '));\nconst choiceWords=t=>t.toLowerCase().match(/[a-zéōū]+/g)?.filter(t=>t.length>2&&!choiceStop.has(t)).map(t=>t.length>3?t.replace(/s$/,''):t)||[];\nconst actionWords=new Set(choiceWords(choiceText));\nconst scores=choiceOffers.map(title=>({title,score:choiceWords(title).filter(t=>actionWords.has(t)).length}));\nconst best=Math.max(0,...scores.map(x=>x.score)),matches=scores.filter(x=>x.score===best&&best>0);\nconst chosen=choiceCommit?(matches.length===1?matches[0].title:(!best&&choiceOffers.length===1?choiceOffers[0]:'')):'';\n\nif(chosen!==\"Guild: The Courier at the Wrong Turn\"){skip=true;}else{\nif(![\"Guild Badge: Bronze\", \"Guild Badge: Silver\", \"Guild Badge: Gold\", \"Guild Badge: Platinum\"].some(b=>Object.values(check({type:'player-item',item:b})||{}).some(v=>v>0))){skip=true;}if(!skip){storage[\"q20_contract_search_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_contract_search_round\"]=Number(storage[\"q20_contract_search_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"Guild: The Courier at the Wrong Turn\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking Guild: The Courier at the Wrong Turn. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}\n}"
   },
   "q20_contract_escort_accept": {
     "name": "q20_contract_escort_accept",
@@ -9764,7 +9768,7 @@
     ],
     "recurring": true,
     "scope": "player",
-    "script": "if(![\"Guild Badge: Bronze\", \"Guild Badge: Silver\", \"Guild Badge: Gold\", \"Guild Badge: Platinum\"].some(b=>Object.values(check({type:'player-item',item:b})||{}).some(v=>v>0))){skip=true;}\nconst now=Number(check({type:'game-tick'}))||0,paid=Number(storage[\"q20_contract_escort_paid_tick\"]??-100);if(check({type:'quest-status',questId:\"Guild: A Cart Full of Glass\"})==='completed'&&(now-paid<20||Number(storage[\"q20_offer_tick_contract_escort\"]??-1)<=paid)){skip=true;}if(!skip){storage[\"q20_contract_escort_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_contract_escort_round\"]=Number(storage[\"q20_contract_escort_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"Guild: A Cart Full of Glass\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking Guild: A Cart Full of Glass. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}"
+    "script": "\nconst choiceRaw=check({type:'action-text'}),choiceText=(Array.isArray(choiceRaw)?choiceRaw.join(' '):String(choiceRaw||'')).toLowerCase();\nconst choiceOffers=Array.isArray(storage.ghGuildDisplayedOffers)?storage.ghGuildDisplayedOffers:[];\nconst choiceCommit=/\\b(accept|take|choose|agree|yes|okay|alright|deal)\\b/.test(choiceText)&&!/\\b(don't|do not|won't|will not|decline|reject|no thanks)\\b/.test(choiceText);\nconst choiceStop=new Set('guild akitsuhara a an the of to for and in at on is with without after from its this that one'.split(' '));\nconst choiceWords=t=>t.toLowerCase().match(/[a-zéōū]+/g)?.filter(t=>t.length>2&&!choiceStop.has(t)).map(t=>t.length>3?t.replace(/s$/,''):t)||[];\nconst actionWords=new Set(choiceWords(choiceText));\nconst scores=choiceOffers.map(title=>({title,score:choiceWords(title).filter(t=>actionWords.has(t)).length}));\nconst best=Math.max(0,...scores.map(x=>x.score)),matches=scores.filter(x=>x.score===best&&best>0);\nconst chosen=choiceCommit?(matches.length===1?matches[0].title:(!best&&choiceOffers.length===1?choiceOffers[0]:'')):'';\n\nif(chosen!==\"Guild: A Cart Full of Glass\"){skip=true;}else{\nif(![\"Guild Badge: Bronze\", \"Guild Badge: Silver\", \"Guild Badge: Gold\", \"Guild Badge: Platinum\"].some(b=>Object.values(check({type:'player-item',item:b})||{}).some(v=>v>0))){skip=true;}\nconst now=Number(check({type:'game-tick'}))||0,paid=Number(storage[\"q20_contract_escort_paid_tick\"]??-100);if(check({type:'quest-status',questId:\"Guild: A Cart Full of Glass\"})==='completed'&&(now-paid<20||Number(storage[\"q20_offer_tick_contract_escort\"]??-1)<=paid)){skip=true;}if(!skip){storage[\"q20_contract_escort_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_contract_escort_round\"]=Number(storage[\"q20_contract_escort_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"Guild: A Cart Full of Glass\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking Guild: A Cart Full of Glass. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}\n}"
   },
   "q20_contract_storm_accept": {
     "name": "q20_contract_storm_accept",
@@ -9806,7 +9810,7 @@
     ],
     "recurring": true,
     "scope": "player",
-    "script": "if(![\"Guild Badge: Bronze\", \"Guild Badge: Silver\", \"Guild Badge: Gold\", \"Guild Badge: Platinum\"].some(b=>Object.values(check({type:'player-item',item:b})||{}).some(v=>v>0))){skip=true;}\nconst now=Number(check({type:'game-tick'}))||0,paid=Number(storage[\"q20_contract_storm_paid_tick\"]??-100);if(check({type:'quest-status',questId:\"Guild: After the Harbor Squall\"})==='completed'&&(now-paid<20||Number(storage[\"q20_offer_tick_contract_storm\"]??-1)<=paid)){skip=true;}if(!skip){storage[\"q20_contract_storm_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_contract_storm_round\"]=Number(storage[\"q20_contract_storm_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"Guild: After the Harbor Squall\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking Guild: After the Harbor Squall. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}"
+    "script": "\nconst choiceRaw=check({type:'action-text'}),choiceText=(Array.isArray(choiceRaw)?choiceRaw.join(' '):String(choiceRaw||'')).toLowerCase();\nconst choiceOffers=Array.isArray(storage.ghGuildDisplayedOffers)?storage.ghGuildDisplayedOffers:[];\nconst choiceCommit=/\\b(accept|take|choose|agree|yes|okay|alright|deal)\\b/.test(choiceText)&&!/\\b(don't|do not|won't|will not|decline|reject|no thanks)\\b/.test(choiceText);\nconst choiceStop=new Set('guild akitsuhara a an the of to for and in at on is with without after from its this that one'.split(' '));\nconst choiceWords=t=>t.toLowerCase().match(/[a-zéōū]+/g)?.filter(t=>t.length>2&&!choiceStop.has(t)).map(t=>t.length>3?t.replace(/s$/,''):t)||[];\nconst actionWords=new Set(choiceWords(choiceText));\nconst scores=choiceOffers.map(title=>({title,score:choiceWords(title).filter(t=>actionWords.has(t)).length}));\nconst best=Math.max(0,...scores.map(x=>x.score)),matches=scores.filter(x=>x.score===best&&best>0);\nconst chosen=choiceCommit?(matches.length===1?matches[0].title:(!best&&choiceOffers.length===1?choiceOffers[0]:'')):'';\n\nif(chosen!==\"Guild: After the Harbor Squall\"){skip=true;}else{\nif(![\"Guild Badge: Bronze\", \"Guild Badge: Silver\", \"Guild Badge: Gold\", \"Guild Badge: Platinum\"].some(b=>Object.values(check({type:'player-item',item:b})||{}).some(v=>v>0))){skip=true;}\nconst now=Number(check({type:'game-tick'}))||0,paid=Number(storage[\"q20_contract_storm_paid_tick\"]??-100);if(check({type:'quest-status',questId:\"Guild: After the Harbor Squall\"})==='completed'&&(now-paid<20||Number(storage[\"q20_offer_tick_contract_storm\"]??-1)<=paid)){skip=true;}if(!skip){storage[\"q20_contract_storm_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_contract_storm_round\"]=Number(storage[\"q20_contract_storm_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"Guild: After the Harbor Squall\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking Guild: After the Harbor Squall. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}\n}"
   },
   "q20_contract_reagent_accept": {
     "name": "q20_contract_reagent_accept",
@@ -9848,7 +9852,7 @@
     ],
     "recurring": true,
     "scope": "player",
-    "script": "if(![\"Guild Badge: Silver\", \"Guild Badge: Gold\", \"Guild Badge: Platinum\"].some(b=>Object.values(check({type:'player-item',item:b})||{}).some(v=>v>0))){skip=true;}if(!skip){storage[\"q20_contract_reagent_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_contract_reagent_round\"]=Number(storage[\"q20_contract_reagent_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"Guild: Bitter Roots, Sharp Teeth\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking Guild: Bitter Roots, Sharp Teeth. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}"
+    "script": "\nconst choiceRaw=check({type:'action-text'}),choiceText=(Array.isArray(choiceRaw)?choiceRaw.join(' '):String(choiceRaw||'')).toLowerCase();\nconst choiceOffers=Array.isArray(storage.ghGuildDisplayedOffers)?storage.ghGuildDisplayedOffers:[];\nconst choiceCommit=/\\b(accept|take|choose|agree|yes|okay|alright|deal)\\b/.test(choiceText)&&!/\\b(don't|do not|won't|will not|decline|reject|no thanks)\\b/.test(choiceText);\nconst choiceStop=new Set('guild akitsuhara a an the of to for and in at on is with without after from its this that one'.split(' '));\nconst choiceWords=t=>t.toLowerCase().match(/[a-zéōū]+/g)?.filter(t=>t.length>2&&!choiceStop.has(t)).map(t=>t.length>3?t.replace(/s$/,''):t)||[];\nconst actionWords=new Set(choiceWords(choiceText));\nconst scores=choiceOffers.map(title=>({title,score:choiceWords(title).filter(t=>actionWords.has(t)).length}));\nconst best=Math.max(0,...scores.map(x=>x.score)),matches=scores.filter(x=>x.score===best&&best>0);\nconst chosen=choiceCommit?(matches.length===1?matches[0].title:(!best&&choiceOffers.length===1?choiceOffers[0]:'')):'';\n\nif(chosen!==\"Guild: Bitter Roots, Sharp Teeth\"){skip=true;}else{\nif(![\"Guild Badge: Silver\", \"Guild Badge: Gold\", \"Guild Badge: Platinum\"].some(b=>Object.values(check({type:'player-item',item:b})||{}).some(v=>v>0))){skip=true;}if(!skip){storage[\"q20_contract_reagent_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_contract_reagent_round\"]=Number(storage[\"q20_contract_reagent_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"Guild: Bitter Roots, Sharp Teeth\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking Guild: Bitter Roots, Sharp Teeth. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}\n}"
   },
   "q20_contract_repair_accept": {
     "name": "q20_contract_repair_accept",
@@ -9890,7 +9894,7 @@
     ],
     "recurring": true,
     "scope": "player",
-    "script": "if(![\"Guild Badge: Bronze\", \"Guild Badge: Silver\", \"Guild Badge: Gold\", \"Guild Badge: Platinum\"].some(b=>Object.values(check({type:'player-item',item:b})||{}).some(v=>v>0))){skip=true;}if(!skip){storage[\"q20_contract_repair_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_contract_repair_round\"]=Number(storage[\"q20_contract_repair_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"Guild: A Door That Keeps Its Promise\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking Guild: A Door That Keeps Its Promise. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}"
+    "script": "\nconst choiceRaw=check({type:'action-text'}),choiceText=(Array.isArray(choiceRaw)?choiceRaw.join(' '):String(choiceRaw||'')).toLowerCase();\nconst choiceOffers=Array.isArray(storage.ghGuildDisplayedOffers)?storage.ghGuildDisplayedOffers:[];\nconst choiceCommit=/\\b(accept|take|choose|agree|yes|okay|alright|deal)\\b/.test(choiceText)&&!/\\b(don't|do not|won't|will not|decline|reject|no thanks)\\b/.test(choiceText);\nconst choiceStop=new Set('guild akitsuhara a an the of to for and in at on is with without after from its this that one'.split(' '));\nconst choiceWords=t=>t.toLowerCase().match(/[a-zéōū]+/g)?.filter(t=>t.length>2&&!choiceStop.has(t)).map(t=>t.length>3?t.replace(/s$/,''):t)||[];\nconst actionWords=new Set(choiceWords(choiceText));\nconst scores=choiceOffers.map(title=>({title,score:choiceWords(title).filter(t=>actionWords.has(t)).length}));\nconst best=Math.max(0,...scores.map(x=>x.score)),matches=scores.filter(x=>x.score===best&&best>0);\nconst chosen=choiceCommit?(matches.length===1?matches[0].title:(!best&&choiceOffers.length===1?choiceOffers[0]:'')):'';\n\nif(chosen!==\"Guild: A Door That Keeps Its Promise\"){skip=true;}else{\nif(![\"Guild Badge: Bronze\", \"Guild Badge: Silver\", \"Guild Badge: Gold\", \"Guild Badge: Platinum\"].some(b=>Object.values(check({type:'player-item',item:b})||{}).some(v=>v>0))){skip=true;}if(!skip){storage[\"q20_contract_repair_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_contract_repair_round\"]=Number(storage[\"q20_contract_repair_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"Guild: A Door That Keeps Its Promise\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking Guild: A Door That Keeps Its Promise. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}\n}"
   },
   "q20_contract_steward_accept": {
     "name": "q20_contract_steward_accept",
@@ -9932,7 +9936,7 @@
     ],
     "recurring": true,
     "scope": "player",
-    "script": "if(![\"Guild Badge: Bronze\", \"Guild Badge: Silver\", \"Guild Badge: Gold\", \"Guild Badge: Platinum\"].some(b=>Object.values(check({type:'player-item',item:b})||{}).some(v=>v>0))){skip=true;}\nconst now=Number(check({type:'game-tick'}))||0,paid=Number(storage[\"q20_contract_steward_paid_tick\"]??-100);if(check({type:'quest-status',questId:\"Guild: Keep the Fair Moving\"})==='completed'&&(now-paid<20||Number(storage[\"q20_offer_tick_contract_steward\"]??-1)<=paid)){skip=true;}if(!skip){storage[\"q20_contract_steward_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_contract_steward_round\"]=Number(storage[\"q20_contract_steward_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"Guild: Keep the Fair Moving\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking Guild: Keep the Fair Moving. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}"
+    "script": "\nconst choiceRaw=check({type:'action-text'}),choiceText=(Array.isArray(choiceRaw)?choiceRaw.join(' '):String(choiceRaw||'')).toLowerCase();\nconst choiceOffers=Array.isArray(storage.ghGuildDisplayedOffers)?storage.ghGuildDisplayedOffers:[];\nconst choiceCommit=/\\b(accept|take|choose|agree|yes|okay|alright|deal)\\b/.test(choiceText)&&!/\\b(don't|do not|won't|will not|decline|reject|no thanks)\\b/.test(choiceText);\nconst choiceStop=new Set('guild akitsuhara a an the of to for and in at on is with without after from its this that one'.split(' '));\nconst choiceWords=t=>t.toLowerCase().match(/[a-zéōū]+/g)?.filter(t=>t.length>2&&!choiceStop.has(t)).map(t=>t.length>3?t.replace(/s$/,''):t)||[];\nconst actionWords=new Set(choiceWords(choiceText));\nconst scores=choiceOffers.map(title=>({title,score:choiceWords(title).filter(t=>actionWords.has(t)).length}));\nconst best=Math.max(0,...scores.map(x=>x.score)),matches=scores.filter(x=>x.score===best&&best>0);\nconst chosen=choiceCommit?(matches.length===1?matches[0].title:(!best&&choiceOffers.length===1?choiceOffers[0]:'')):'';\n\nif(chosen!==\"Guild: Keep the Fair Moving\"){skip=true;}else{\nif(![\"Guild Badge: Bronze\", \"Guild Badge: Silver\", \"Guild Badge: Gold\", \"Guild Badge: Platinum\"].some(b=>Object.values(check({type:'player-item',item:b})||{}).some(v=>v>0))){skip=true;}\nconst now=Number(check({type:'game-tick'}))||0,paid=Number(storage[\"q20_contract_steward_paid_tick\"]??-100);if(check({type:'quest-status',questId:\"Guild: Keep the Fair Moving\"})==='completed'&&(now-paid<20||Number(storage[\"q20_offer_tick_contract_steward\"]??-1)<=paid)){skip=true;}if(!skip){storage[\"q20_contract_steward_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_contract_steward_round\"]=Number(storage[\"q20_contract_steward_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"Guild: Keep the Fair Moving\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking Guild: Keep the Fair Moving. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}\n}"
   },
   "q20_contract_ruin_accept": {
     "name": "q20_contract_ruin_accept",
@@ -9974,7 +9978,7 @@
     ],
     "recurring": true,
     "scope": "player",
-    "script": "if(![\"Guild Badge: Silver\", \"Guild Badge: Gold\", \"Guild Badge: Platinum\"].some(b=>Object.values(check({type:'player-item',item:b})||{}).some(v=>v>0))){skip=true;}if(!skip){storage[\"q20_contract_ruin_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_contract_ruin_round\"]=Number(storage[\"q20_contract_ruin_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"Guild: Beneath the Broken Dial\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking Guild: Beneath the Broken Dial. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}"
+    "script": "\nconst choiceRaw=check({type:'action-text'}),choiceText=(Array.isArray(choiceRaw)?choiceRaw.join(' '):String(choiceRaw||'')).toLowerCase();\nconst choiceOffers=Array.isArray(storage.ghGuildDisplayedOffers)?storage.ghGuildDisplayedOffers:[];\nconst choiceCommit=/\\b(accept|take|choose|agree|yes|okay|alright|deal)\\b/.test(choiceText)&&!/\\b(don't|do not|won't|will not|decline|reject|no thanks)\\b/.test(choiceText);\nconst choiceStop=new Set('guild akitsuhara a an the of to for and in at on is with without after from its this that one'.split(' '));\nconst choiceWords=t=>t.toLowerCase().match(/[a-zéōū]+/g)?.filter(t=>t.length>2&&!choiceStop.has(t)).map(t=>t.length>3?t.replace(/s$/,''):t)||[];\nconst actionWords=new Set(choiceWords(choiceText));\nconst scores=choiceOffers.map(title=>({title,score:choiceWords(title).filter(t=>actionWords.has(t)).length}));\nconst best=Math.max(0,...scores.map(x=>x.score)),matches=scores.filter(x=>x.score===best&&best>0);\nconst chosen=choiceCommit?(matches.length===1?matches[0].title:(!best&&choiceOffers.length===1?choiceOffers[0]:'')):'';\n\nif(chosen!==\"Guild: Beneath the Broken Dial\"){skip=true;}else{\nif(![\"Guild Badge: Silver\", \"Guild Badge: Gold\", \"Guild Badge: Platinum\"].some(b=>Object.values(check({type:'player-item',item:b})||{}).some(v=>v>0))){skip=true;}if(!skip){storage[\"q20_contract_ruin_started\"]=Number(check({type:'game-tick'}))||0;storage[\"q20_contract_ruin_round\"]=Number(storage[\"q20_contract_ruin_round\"]||0)+1;effects.push({type:'quest-accept',operator:'set',value:\"Guild: Beneath the Broken Dial\"});effects.push({type:'story',instruction:\"Begin only the chosen undertaking Guild: Beneath the Broken Dial. Preserve the actual people, agreement, travel and prepared means. Show its first practical decision; no completed objective, payment, free skill, portal key or recruitment is granted by acceptance.\"});}\n}"
   },
   "q20_blade_1_accept": {
     "name": "q20_blade_1_accept",
@@ -16226,5 +16230,966 @@
     "effects": [],
     "script": "const tick=check({type:'game-tick'}),venue='The Eternal Crucible';\nconst levels=check({type:'player-level'})||{},names=Object.keys(levels),solo=names.length===1,here=check({type:'party-location'})===venue;\nconst c=storage.cc1=storage.cc1||{v:3,phase:'idle',edition:0,nextTick:0,history:[],prizes:{},care:{},card:[],index:0};\nconst roster=[[\"Kōta Mibu\",1],[\"Nene Inui\",2],[\"Masato Oda\",2],[\"Chika Umemori\",3],[\"Shun Kurebayashi\",4],[\"Rena Kogetsu\",5],[\"Eita Kuroda\",6],[\"Fuyumi Hase\",7],[\"Tsubasa Maki\",8],[\"Yae Mitsuhara\",9],[\"Daisuke Kariya\",10],[\"Mayu Kido\",12],[\"Akito Senzaki\",13],[\"Mihana Shiraishi\",15],[\"Junpei Haneda\",16],[\"Riko Narumi\",18],[\"Kenta Ishizaki\",20],[\"Sayo Kirihara\",22],[\"Haruto Otsuki\",24],[\"Natsume Aiba\",25],[\"Daichi Kawanobe\",27],[\"Midori Hozumi\",29],[\"Kojirō Tsunematsu\",31],[\"Ema Tsukishiro\",33],[\"Ayato Nikaidō\",35],[\"Haruna Yashima\",38],[\"Seiji Makabe\",41],[\"Kanna Tsuruno\",44],[\"Ranmaru Tōdō\",48],[\"Mizuki Kaneshiro\",53],[\"Takeshi Onizuka\",58],[\"Reina Hazakura\",64],[\"Takeru Akabane\",15],[\"Ruri Saegusa\",15],[\"Asuka Tsurugi\",15],[\"Ragnar Leonhart\",67]].map(([name,level])=>({name,level})),rings=[\"The Eternal Crucible - Arena Floor\",\"The Eternal Crucible - Pillar Court\",\"The Eternal Crucible - Verdant Ring\",\"The Eternal Crucible - Frostglass Platform\",\"The Eternal Crucible - Broken Stair Arena\",\"The Eternal Crucible - Mirrorwater Garden\"];\nconst say=instruction=>effects.push({type:'story',instruction});\nconst current=()=>c.card?.[c.index||0];\nconst health=n=>check({type:'npc-health',npc:n});\nconst playerHealth=()=>((check({type:'player-resource',resource:'Health'})||{})[c.entrant]);\nconst active=()=>['waiting','live'].includes(c.phase);\nconst mirror=()=>{storage.cc1_phase=c.phase;storage.cc1_live=c.phase==='live';storage.cc1_active=active();storage.cc1_due=Object.keys(c.prizes||{}).length>0;storage.cc1_care=Object.keys(c.care||{}).length>0;};\nconst rnd=()=>{c.seed=((c.seed||1931)*1664525+1013904223)>>>0;return c.seed/4294967296;};\nconst available=x=>x.name!==c.entrant&&check({type:'npc-location',npc:x.name})===venue&&check({type:'npc-in-party',npc:x.name})!==true&&check({type:'npc-in-combat',npc:x.name})!==true&&!(typeof health(x.name)==='number'&&health(x.name)<=0);\nconst inRing=m=>here&&m&&check({type:'party-area'})===m.arena&&check({type:'npc-location',npc:m.opponent})===venue&&check({type:'npc-area',npc:m.opponent})===m.arena;\nconst callNext=()=>{const m=current();if(!m)return;if(available({name:m.opponent}))effects.push({type:'known-entity',entity:m.opponent,operator:'set',value:true},{type:'npc-placement',npc:m.opponent,operation:'moveTo',location:venue,area:venue+' - Competitor Lounge'});say('Called bout: '+m.label+', '+c.entrant+' versus '+m.opponent+' at '+m.arena+'. Wait for explicit readiness. Watching, talking, resting or moving does not start or forfeit the entry.');};\nif(c.v!==3){skip=true;}else{\nconst node=id=>(c.rounds||[]).flat().find(x=>x.id===id);\nconst fit=n=>n&&n!=='@'&&check({type:'npc-location',npc:n})===venue&&check({type:'npc-in-party',npc:n})!==true&&!(typeof health(n)==='number'&&health(n)<=0)&&(!check({type:'npc-in-combat',npc:n})||(current()?.opponent===n&&current()?.result?.winner==='opponent'));\nconst settleNPC=()=>{\nfor(const round of c.rounds||[])for(const m of round){\nif(m.done)continue;\nif(m.parents){const a=node(m.parents[0]),b=node(m.parents[1]);if(!a.done||!b.done)continue;m.players=[a.winner,b.winner];}\nif(m.players.includes('@'))continue;\nconst ok=m.players.filter(fit);let winner=null,reason='both unavailable';\nif(ok.length===1){winner=ok[0];reason='administrative advance; other slot unavailable';}\nif(ok.length===2){const lv=n=>roster.find(x=>x.name===n)?.level||1;winner=rnd()<lv(ok[0])/(lv(ok[0])+lv(ok[1]))?ok[0]:ok[1];reason='official NPC bout result';}\nm.done=true;m.winner=winner;m.reason=reason;m.resolvedTick=tick;\n}\n};\nconst schedule=()=>{\nsettleNPC();const m=(c.rounds||[]).flat().find(x=>!x.done&&x.players?.includes('@'));\nif(!m)return false;\nconst opponent=m.players.find(x=>x!=='@');if(!opponent)return false;\nconst round=c.rounds.findIndex(x=>x.includes(m)),label=round===c.rounds.length-1?'Final':round===c.rounds.length-2?'Semifinal':'Opening bout';\nc.card.push({id:m.id,node:m.id,opponent,level:roster.find(x=>x.name===opponent)?.level,arena:rings[(round+c.edition)%rings.length],label});c.index=c.card.length-1;return true;\n};\nconst recordNode=(winner,reason)=>{const m=current(),n=node(m?.node);if(!n||n.done)return;n.done=true;n.winner=winner==='player'?'@':winner==='opponent'?m.opponent:null;n.reason=reason;n.resolvedTick=tick;};\nconst finishField=()=>{settleNPC();const last=c.rounds?.at(-1)?.[0];c.champion=last?.done?(last.winner==='@'?c.entrant:last.winner):null;};\nconst care=m=>{c.care[c.edition+':'+m.id+':'+m.startedTick]={owner:c.entrant,edition:c.edition};const h=health(m.opponent);if(check({type:'npc-location',npc:m.opponent})===venue&&typeof h==='number'&&typeof m.opponentStartHealth==='number'&&h<m.opponentStartHealth)effects.push({type:'npc-health',npc:m.opponent,operator:'set',value:m.opponentStartHealth});};\nconst close=(outcome,reason)=>{c.phase='closed';c.outcome=outcome;c.closedTick=tick;storage.gh_lore_tournament_active=false;if(!c.exhibition){c.nextTick=tick+100;c.history.push({v:3,edition:c.edition,title:c.title,entrant:c.entrant,outcome,reason,champion:c.champion||null,closedTick:tick,rounds:JSON.parse(JSON.stringify(c.rounds||[])),card:JSON.parse(JSON.stringify(c.card))});c.history=c.history.slice(-8);}mirror();};\nconst finish=(winner,reason)=>{\nconst m=current();if(c.phase!=='live'||!m||typeof m.startedTick!=='number'||m.result)return;\nm.result={winner,reason,tick};care(m);storage.gh_lore_tournament_active=false;\nif(c.exhibition){close(winner==='player'?'exhibition win':winner==='draw'?'exhibition draw':'exhibition loss',reason);say('The friendly bout ends: '+reason+'. Offer appropriate optional care. No championship prize or cooldown.');return;}\nrecordNode(winner,reason);\nif(winner!=='player'){finishField();close(reason==='voluntary withdrawal'?'withdrawn':'eliminated',reason);say('The entrant’s run ends: '+reason+'. Offer appropriate care. Officials abstract the remaining NPC bouts and record '+(c.champion?c.champion+' as champion':'no champion because the remaining field is unavailable')+'. Report recorded results without inventing extra player fights or a player prize.');return;}\nif(node(m.node)===c.rounds.at(-1)[0]){finishField();c.prizes[c.edition]={owner:c.entrant,title:c.title,marks:c.purse};close('champion',reason);say(c.entrant+' wins '+c.title+'. '+c.purse+' marks and one trophy are owed for collection, not yet granted. No extra final. Offer appropriate optional rest or care.');}\nelse if(schedule()){c.phase='waiting';mirror();say('The bout is recorded. Other bracket results determine the next opponent. Offer care or rest without invented injuries or a full-bar requirement.');callNext();}\nelse{finishField();close('cancelled','no available next opponent');say('No fit opponent can fill the next round. The edition closes without inventing an unplayed final or awarding a trophy.');}\n};\nconst withdraw=reason=>{const m=current();if(c.phase==='live'&&m&&typeof m.startedTick==='number'&&!m.result){finish('opponent',reason);return;}if(!active())return;if(!c.exhibition){recordNode('opponent',reason);finishField();}close('withdrawn',reason);say('The explicit forfeit ends the entry. '+(c.champion?'The remaining field concludes with '+c.champion+' as champion.':'No player prize is owed.'));};\nif(!solo||c.entrant!==names[0]||c.phase!=='live'){skip=true;}\nelse{\nconst m=current();if(!m||typeof m.startedTick!=='number'||m.result){skip=true;}\nelse{\nconst p=playerHealth(),h=health(m.opponent),native=inRing(m)&&!m.requiresRuling;\nif(\"draw\"==='draw')finish('draw',\"official simultaneous knockout\");\nelse if(native&&typeof p==='number'&&p<=0&&typeof h==='number'&&h<=0)finish('draw','simultaneous knockout');\nelse if(native&&typeof p==='number'&&p<=0)finish('opponent','actual player incapacity in the ring');\nelse finish(\"draw\",\"official simultaneous knockout\");\n}\nmirror();\n}\n}",
     "scope": "player"
+  },
+  "oni_portal_to": {
+    "name": "oni_portal_to",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Evertree Base"
+      },
+      {
+        "type": "party-area",
+        "operator": "equals",
+        "value": "Evertree Base - Portal Room"
+      },
+      {
+        "type": "player-item",
+        "operator": "greaterThan",
+        "value": 0,
+        "item": "Oni Nation Portal Key"
+      },
+      {
+        "type": "action",
+        "query": "The player commits to crossing the Akitsuhara portal now. Entering the named portal is enough when its genuine Oni Nation Portal Key is already held; no spoken key-use formula is required. A bare enter also qualifies if recent context uniquely selected this arch. Mere approach, inspection, discussion, future/conditional plans, forcing someone else or leaving a split player party do not qualify. The actual active party travels together; solo travel qualifies. Testing this named portal means one outbound crossing now, not an automatic return. A clear test command qualifies even without the word enter."
+      }
+    ],
+    "effects": [
+      {
+        "type": "known-entity",
+        "entity": "Akitsuhara",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "known-entity",
+        "entity": "Benitsuru Basin",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "known-entity",
+        "entity": "Benitsuru Transit Shrine",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "party-location",
+        "operator": "set",
+        "value": "Benitsuru Transit Shrine"
+      },
+      {
+        "type": "party-area",
+        "operator": "set",
+        "value": "Benitsuru Transit Shrine - Portal Hall"
+      },
+      {
+        "type": "npc-placement",
+        "npc": "allPartyNPCs",
+        "operation": "moveTo",
+        "location": "Benitsuru Transit Shrine",
+        "area": "Benitsuru Transit Shrine - Portal Hall"
+      },
+      {
+        "type": "story",
+        "instruction": "Render the chosen portal crossing into Benitsuru Transit Shrine - Portal Hall, preserving the traveling party, belongings, actual permission and ongoing obligations. This is a distant region of the same world. Arrival alone grants no fieldwork credit or new companion. Render only this one crossing and its fixed endpoint; do not add an unrequested return or journey."
+      }
+    ],
+    "script": "const tick=check({type:'game-tick'});\nif(storage.ghPortalTransitTick===tick){skip=true;}else{\nconst players=check({type:'player-level'})||{};\nif(Object.values(players).some(level=>level>=20)&&!check({type:'read-boolean',key:'gh_spider_entered'})){\n storage.gh_spider_entered=true;storage.gh_exam_postponed=true;\n storage.ghSpiderIncident={tick,intendedDestination:\"Akitsuhara\",key:\"Oni Nation Portal Key\",players:Object.keys(players),companions:Object.keys(check({type:'npc-in-party',npc:'anyPartyNPC'})||{})};\n effects.length=0;effects.push(...[{\"type\":\"known-entity\",\"entity\":\"The Silken Descent\",\"operator\":\"set\",\"value\":true},{\"type\":\"known-entity\",\"entity\":\"Silken Chasm\",\"operator\":\"set\",\"value\":true},{\"type\":\"known-entity\",\"entity\":\"Silken Portal Room\",\"operator\":\"set\",\"value\":true},{\"type\":\"party-location\",\"operator\":\"set\",\"value\":\"Silken Portal Room\"},{\"type\":\"party-area\",\"operator\":\"set\",\"value\":\"Silken Portal Room - Return Arch\"},{\"type\":\"npc-placement\",\"npc\":\"allPartyNPCs\",\"operation\":\"moveTo\",\"location\":\"Silken Portal Room\",\"area\":\"Silken Portal Room - Return Arch\"},{\"type\":\"story\",\"instruction\":\"Interrupt the apparently normal crossing now: silver strands shear across the expected view and the actual party arrives together inside the ruined Silken Portal Room. Preserve companions and possessions. A silver-threaded key visibly condenses as the room is discovered; its one-time item effect records it. The stable return arch clearly leads home and is immediately usable without a key, descent or battle. Stop at arrival. No official predicted this event; do not descend or return for the player.\"}]);\n}\nstorage.ghPortalTransitTick=tick;storage.gh_evertree_transited=true;\n}"
+  },
+  "oni_portal_to_direct": {
+    "name": "oni_portal_to_direct",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Evertree Base"
+      },
+      {
+        "type": "party-area",
+        "operator": "equals",
+        "value": "Evertree Base - Portal Room"
+      },
+      {
+        "type": "player-item",
+        "operator": "greaterThan",
+        "value": 0,
+        "item": "Oni Nation Portal Key"
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "^([Ii] )?(enter|cross|use|step through|walk through|go through|return|head|go)"
+      }
+    ],
+    "effects": [
+      {
+        "type": "known-entity",
+        "entity": "Akitsuhara",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "known-entity",
+        "entity": "Benitsuru Basin",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "known-entity",
+        "entity": "Benitsuru Transit Shrine",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "party-location",
+        "operator": "set",
+        "value": "Benitsuru Transit Shrine"
+      },
+      {
+        "type": "party-area",
+        "operator": "set",
+        "value": "Benitsuru Transit Shrine - Portal Hall"
+      },
+      {
+        "type": "npc-placement",
+        "npc": "allPartyNPCs",
+        "operation": "moveTo",
+        "location": "Benitsuru Transit Shrine",
+        "area": "Benitsuru Transit Shrine - Portal Hall"
+      },
+      {
+        "type": "story",
+        "instruction": "Render the chosen portal crossing into Benitsuru Transit Shrine - Portal Hall, preserving the traveling party, belongings, actual permission and ongoing obligations. This is a distant region of the same world. Arrival alone grants no fieldwork credit or new companion. Render only this one crossing and its fixed endpoint; do not add an unrequested return or journey."
+      }
+    ],
+    "script": "const oniRaw=check({type:'action-text'});const oniInputs=Array.isArray(oniRaw)?oniRaw:[oniRaw];const oniText=oniInputs.length===1?String(oniInputs[0]).trim().toLowerCase():'';if(!new RegExp(\"^(?:i )?(?:(?:enter|cross|step through|walk through|go through|head through|travel through) (?:the |this )?(?:(?:portal|arch|gate) (?:to|for) )?(?:akitsuhara|oni nation)(?: (?:portal|arch|gate))?|use (?:my |the )?(?:oni nation|akitsuhara)(?: portal)? key)[.!]?$\").test(oniText)){skip=true;}else{\nconst tick=check({type:'game-tick'});\nif(storage.ghPortalTransitTick===tick){skip=true;}else{\nconst players=check({type:'player-level'})||{};\nif(Object.values(players).some(level=>level>=20)&&!check({type:'read-boolean',key:'gh_spider_entered'})){\n storage.gh_spider_entered=true;storage.gh_exam_postponed=true;\n storage.ghSpiderIncident={tick,intendedDestination:\"Akitsuhara\",key:\"Oni Nation Portal Key\",players:Object.keys(players),companions:Object.keys(check({type:'npc-in-party',npc:'anyPartyNPC'})||{})};\n effects.length=0;effects.push(...[{\"type\":\"known-entity\",\"entity\":\"The Silken Descent\",\"operator\":\"set\",\"value\":true},{\"type\":\"known-entity\",\"entity\":\"Silken Chasm\",\"operator\":\"set\",\"value\":true},{\"type\":\"known-entity\",\"entity\":\"Silken Portal Room\",\"operator\":\"set\",\"value\":true},{\"type\":\"party-location\",\"operator\":\"set\",\"value\":\"Silken Portal Room\"},{\"type\":\"party-area\",\"operator\":\"set\",\"value\":\"Silken Portal Room - Return Arch\"},{\"type\":\"npc-placement\",\"npc\":\"allPartyNPCs\",\"operation\":\"moveTo\",\"location\":\"Silken Portal Room\",\"area\":\"Silken Portal Room - Return Arch\"},{\"type\":\"story\",\"instruction\":\"Interrupt the apparently normal crossing now: silver strands shear across the expected view and the actual party arrives together inside the ruined Silken Portal Room. Preserve companions and possessions. A silver-threaded key visibly condenses as the room is discovered; its one-time item effect records it. The stable return arch clearly leads home and is immediately usable without a key, descent or battle. Stop at arrival. No official predicted this event; do not descend or return for the player.\"}]);\n}\nstorage.ghPortalTransitTick=tick;storage.gh_evertree_transited=true;\n}\n}"
+  },
+  "oni_portal_from": {
+    "name": "oni_portal_from",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Benitsuru Transit Shrine"
+      },
+      {
+        "type": "action",
+        "query": "The player actually enters or crosses this location’s sole fixed return portal now. Explicitly entering the portal qualifies from its local staging areas; a bare \"I enter\" qualifies when the current scene unambiguously refers to that arch, including the Silken arrival floor. The short approach is ordinary movement. The destination is always Evertree Base - Portal Room in Glowhaven, never a choice. Do not require a key or the exact arch sub-area. Entering an unrelated shop, stair or alcove, future discussion, negation, forcing another traveler or leaving part of a split player party is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "known-entity",
+        "entity": "Glowhaven",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "known-entity",
+        "entity": "Evertree Base",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "party-location",
+        "operator": "set",
+        "value": "Evertree Base"
+      },
+      {
+        "type": "party-area",
+        "operator": "set",
+        "value": "Evertree Base - Portal Room"
+      },
+      {
+        "type": "npc-placement",
+        "npc": "allPartyNPCs",
+        "operation": "moveTo",
+        "location": "Evertree Base",
+        "area": "Evertree Base - Portal Room"
+      },
+      {
+        "type": "story",
+        "instruction": "The completed return crossing lands the actual party at Evertree Base - Portal Room, Glowhaven’s sole portal hub. Apply that exact location and area; do not stop at generic Glowhaven, remain in the source realm, offer a landing choice or invent a second city portal. Preserve companions, possessions, reusable keys and completed progress. Stop inside the hub; walking out, reporting findings and another outward crossing are separate actions. No boss victory or educational credit is awarded merely for returning."
+      }
+    ],
+    "script": "const ghTick=check({type:'game-tick'});\nif(storage.ghPortalTransitTick===ghTick){skip=true;}else{\n\nif(!skip){storage.ghPortalTransitTick=ghTick;}\n}\nif(!skip){storage.ghLastPortalTransit={tick:check({type:'game-tick'}),route:'home',fromLocation:check({type:'party-location'}),fromArea:check({type:'party-area'}),semantic:true};}"
+  },
+  "oni_portal_from_direct": {
+    "name": "oni_portal_from_direct",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Benitsuru Transit Shrine"
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "^([Ii] )?(enter|cross|use|step through|walk through|go through|return|head|go)"
+      }
+    ],
+    "effects": [
+      {
+        "type": "known-entity",
+        "entity": "Glowhaven",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "known-entity",
+        "entity": "Evertree Base",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "party-location",
+        "operator": "set",
+        "value": "Evertree Base"
+      },
+      {
+        "type": "party-area",
+        "operator": "set",
+        "value": "Evertree Base - Portal Room"
+      },
+      {
+        "type": "npc-placement",
+        "npc": "allPartyNPCs",
+        "operation": "moveTo",
+        "location": "Evertree Base",
+        "area": "Evertree Base - Portal Room"
+      },
+      {
+        "type": "story",
+        "instruction": "The completed return crossing lands the actual party at Evertree Base - Portal Room, Glowhaven’s sole portal hub. Apply that exact location and area; do not stop at generic Glowhaven, remain in the source realm, offer a landing choice or invent a second city portal. Preserve companions, possessions, reusable keys and completed progress. Stop inside the hub; walking out, reporting findings and another outward crossing are separate actions. No boss victory or educational credit is awarded merely for returning."
+      }
+    ],
+    "script": "const oniRaw=check({type:'action-text'});const oniInputs=Array.isArray(oniRaw)?oniRaw:[oniRaw];const oniText=oniInputs.length===1?String(oniInputs[0]).trim().toLowerCase():'';if(!new RegExp(\"^(?:i )?(?:(?:enter|cross|step through|walk through|go through) (?:the |this )?(?:return )?(?:portal|arch|gate)(?: (?:back )?to (?:glowhaven|evertree(?: base)?))?|(?:return|head back|go back) to (?:glowhaven|evertree(?: base)?))[.!]?$\").test(oniText)){skip=true;}else{\nconst ghTick=check({type:'game-tick'});\nif(storage.ghPortalTransitTick===ghTick){skip=true;}else{\n\nif(!skip){storage.ghPortalTransitTick=ghTick;}\n}\nif(!skip){storage.ghLastPortalTransit={tick:check({type:'game-tick'}),route:'home',fromLocation:check({type:'party-location'}),fromArea:check({type:'party-area'}),semantic:true};}\n}"
+  },
+  "oni_portal_key_issue": {
+    "name": "oni_portal_key_issue",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "regex",
+        "value": "^(The Grand Sage's Court|Sage's Spire|Evertree Base|Benitsuru Transit Shrine)$"
+      },
+      {
+        "type": "player-item",
+        "operator": "equals",
+        "value": 0,
+        "item": "Oni Nation Portal Key"
+      },
+      {
+        "type": "story",
+        "query": "The court or an actually delegated transit officer at this desk approves the traveler for a legitimate journey and actually hands them an Oni Nation Portal Key now. Enrolled study, a real expedition, authorized trade, local official business or credible sponsorship can qualify. Requests, mere status, another person’s key and an unofficial gift are false. Nobu Senda is Akitsuhara’s authorized bilateral transit registrar. A valid permitted request can be handled here without sending the traveler to a distant court first."
+      }
+    ],
+    "effects": [
+      {
+        "type": "item-add",
+        "item": "Oni Nation Portal Key",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      }
+    ],
+    "scope": "player"
+  },
+  "oni_soul_torii_awaken": {
+    "name": "oni_soul_torii_awaken",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Moonless Torii"
+      },
+      {
+        "type": "player-item",
+        "operator": "greaterThan",
+        "value": 0,
+        "item": "Restored Way Bell"
+      },
+      {
+        "type": "read-boolean",
+        "operator": "equals",
+        "value": false,
+        "key": "oni_soul_gate_awake"
+      },
+      {
+        "type": "action",
+        "query": "The player deliberately sounds the real restored way bell to awaken this torii now. Looking at the hook, discussing a future attempt, claiming an absent bell or ringing an unrelated object is false. Awakening the gate does not choose to cross it."
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-boolean",
+        "operator": "set",
+        "value": true,
+        "key": "oni_soul_gate_awake"
+      },
+      {
+        "type": "known-entity",
+        "operator": "set",
+        "value": true,
+        "entity": "The Veiled Beyond"
+      },
+      {
+        "type": "known-entity",
+        "operator": "set",
+        "value": true,
+        "entity": "Veiled Cedar Reach"
+      },
+      {
+        "type": "known-entity",
+        "operator": "set",
+        "value": true,
+        "entity": "Veiled Threshold"
+      },
+      {
+        "type": "story",
+        "instruction": "The bell’s double note answers through the empty arch. Fog draws back from a dry stone threshold on the far side, with a clear stable view home. The route is now permanently awake; keep the bell as an ordinary keepsake. Stop before choosing to enter."
+      }
+    ],
+    "recurring": false
+  },
+  "oni_soul_torii_cross": {
+    "name": "oni_soul_torii_cross",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Moonless Torii"
+      },
+      {
+        "type": "read-boolean",
+        "operator": "equals",
+        "value": true,
+        "key": "oni_soul_gate_awake"
+      },
+      {
+        "type": "action",
+        "query": "The active player party chooses to cross the awakened Soul Torii into the mist now. A clear enter or step through qualifies when this open gate is the actual referent. Discussion, an unawakened gate, a future plan or leaving part of a split party behind is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "party-location",
+        "operator": "set",
+        "value": "Veiled Threshold"
+      },
+      {
+        "type": "party-area",
+        "operator": "set",
+        "value": "Veiled Threshold - Return Torii"
+      },
+      {
+        "type": "npc-placement",
+        "npc": "allPartyNPCs",
+        "operation": "moveTo",
+        "location": "Veiled Threshold",
+        "area": "Veiled Threshold - Return Torii"
+      },
+      {
+        "type": "story",
+        "instruction": "Arrive together on the dry Veiled Threshold. Describe dense fog, huge cedar shapes and the immediately usable home torii. Stop here; do not choose a deeper journey, encounter or return."
+      }
+    ],
+    "recurring": true,
+    "script": "const tick=check({type:'game-tick'});if(storage.ghPortalTransitTick===tick){skip=true;}else{storage.ghPortalTransitTick=tick;}"
+  },
+  "oni_soul_torii_return": {
+    "name": "oni_soul_torii_return",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Veiled Threshold"
+      },
+      {
+        "type": "action",
+        "query": "The active party actually enters the fixed return torii now, including a clear bare enter when it refers to this arch. It leads to Moonless Torii in Akitsuhara, not the Evertree. No key or bell is required. Discussion or an unchosen split-party departure is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "party-location",
+        "operator": "set",
+        "value": "Moonless Torii"
+      },
+      {
+        "type": "party-area",
+        "operator": "set",
+        "value": "Moonless Torii - Torii Court"
+      },
+      {
+        "type": "npc-placement",
+        "npc": "allPartyNPCs",
+        "operation": "moveTo",
+        "location": "Moonless Torii",
+        "area": "Moonless Torii - Torii Court"
+      },
+      {
+        "type": "story",
+        "instruction": "The local spirit crossing returns the actual party to Moonless Torii - Torii Court in Akitsuhara. Preserve people, goods and discoveries. This is one completed crossing; do not add an Evertree journey."
+      }
+    ],
+    "recurring": true,
+    "script": "const tick=check({type:'game-tick'});if(storage.ghPortalTransitTick===tick){skip=true;}else{storage.ghPortalTransitTick=tick;}"
+  },
+  "oni_hagire_roam": {
+    "name": "oni_hagire_roam",
+    "conditions": [
+      {
+        "type": "game-tick",
+        "operator": "greaterThan",
+        "value": 0
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "phase": "planning",
+    "script": "\nconst npc='Hagire',tick=Number(check({type:'game-tick'}));\nconst health=check({type:'npc-health',npc});\nif(check({type:'read-boolean',key:'oni_hagire_route_safe'})||(typeof health==='number'&&health<=0)||check({type:'npc-in-scene',npc})===true||check({type:'npc-in-combat',npc})===true||check({type:'npc-in-party',npc})===true){skip=true;}else{\n const slot=Math.floor(tick/24),route=[['Ragged Cedar Hollow','Ragged Cedar Hollow - Hollow Center'],['Old Mask Trail','Old Mask Trail - Blind Turn'],['Foxfire Verge','Foxfire Verge - Cloth Strips']];\n if(storage.oniHagireSlot===slot){skip=true;}else{\n  const at=route[slot%route.length];effects.push({type:'npc-placement',npc,operation:'moveTo',location:at[0],area:at[1]});storage.oniHagireSlot=slot;\n }\n}\n"
+  },
+  "oni_forest_rumor": {
+    "name": "oni_forest_rumor",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "regex",
+        "value": "^(Lanternwood Field Shelter|Redleaf Guest Village|Benitsuru Guildhall)$"
+      },
+      {
+        "type": "read-boolean",
+        "operator": "equals",
+        "value": false,
+        "key": "oni_hagire_route_safe"
+      },
+      {
+        "type": "action",
+        "query": "The player genuinely asks about local forest danger, missing travelers or a named hunt. A casual arrival, completed unrelated job, combat or private romantic conversation is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Offer one concrete public account of Hagire: hanging cloth and joint cracks near the old cedar trail. Describe a dangerous optional hunt and the actual three haunts, not a creature already attacking this safe place. The listener may ask, investigate or ignore it; do not accept the contract or reveal an unseen private fact."
+      }
+    ],
+    "recurring": true,
+    "script": "const t=Number(check({type:'game-tick'}));if(t-Number(storage.oniRumorTick??-100)<12){skip=true;}else{storage.oniRumorTick=t;}"
+  },
+  "oni_guild_exam_register": {
+    "name": "oni_guild_exam_register",
+    "recurring": true,
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Benitsuru Guildhall"
+      },
+      {
+        "type": "player-item",
+        "item": "Guild Exam Docket",
+        "operator": "equals",
+        "value": 0
+      },
+      {
+        "type": "action",
+        "query": "This player actually applies for first-time adventurer licensure or a legitimate unfinished-exam retake at the guild. They do not already hold a genuine guild rank; browsing, hypothetical dialogue and asking for a free badge are false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "item-add",
+        "item": "Guild Exam Docket",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "Guild: Benitsuru Licensure"
+      },
+      {
+        "type": "quest-accept",
+        "operator": "set",
+        "value": "Guild: Benitsuru Licensure"
+      },
+      {
+        "type": "story",
+        "instruction": "Record the actual first-time applicant. Hiyori Mitsuba directs them to Mika Fuyuse in the assessment court for a brief judgment question and safe practical demonstration using their real training. Both can be addressed in one coherent assessment when actual play supports it; no repeated forms or extra fee. A genuine existing badge is recognized without another exam."
+      }
+    ]
+  },
+  "oni_guild_exam_judgment": {
+    "name": "oni_guild_exam_judgment",
+    "recurring": true,
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Benitsuru Guildhall"
+      },
+      {
+        "type": "player-item",
+        "item": "Guild Exam Docket",
+        "operator": "greaterThan",
+        "value": 0
+      },
+      {
+        "type": "player-item",
+        "item": "Guild Judgment Pass",
+        "operator": "equals",
+        "value": 0
+      },
+      {
+        "type": "story",
+        "query": "The current applicant actually completes the guild judgment review successfully, addressing request scope, risk, ownership and when to withdraw. The assessor certifies that portion now; reciting a boast, merely reading a board or a proposed future test is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "item-add",
+        "item": "Guild Judgment Pass",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "quest-objective-complete",
+        "questId": "Guild: Benitsuru Licensure",
+        "objectiveId": "judgment"
+      },
+      {
+        "type": "story",
+        "instruction": "Record the actual applicant’s judgment pass. It is one exam component, not a license or reward. Preserve the result; no repeat payment or another invented test is required."
+      }
+    ],
+    "script": "const original=check({type:'quest-status',questId:\"Guild: Adventurer Licensure\"});if(original==='accepted'||original==='active'){for(const e of effects){if(e.questId===\"Guild: Benitsuru Licensure\")e.questId=\"Guild: Adventurer Licensure\";}}"
+  },
+  "oni_guild_exam_practical": {
+    "name": "oni_guild_exam_practical",
+    "recurring": true,
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Benitsuru Guildhall"
+      },
+      {
+        "type": "player-item",
+        "item": "Guild Exam Docket",
+        "operator": "greaterThan",
+        "value": 0
+      },
+      {
+        "type": "player-item",
+        "item": "Guild Practical Pass",
+        "operator": "equals",
+        "value": 0
+      },
+      {
+        "type": "story",
+        "query": "The current applicant actually passes the controlled guild practical assessment using a real trained martial, magical or mixed method. Honor supplied attempts and success/failure; high level alone, an intended attack or unplayed offscreen test is false. The duty assessor certifies this actual result now."
+      }
+    ],
+    "effects": [
+      {
+        "type": "item-add",
+        "item": "Guild Practical Pass",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "quest-objective-complete",
+        "questId": "Guild: Benitsuru Licensure",
+        "objectiveId": "practical"
+      },
+      {
+        "type": "story",
+        "instruction": "Record the actual applicant’s practical pass. It is one exam component, not a license or reward. Preserve the result; no repeat payment or another invented test is required."
+      }
+    ],
+    "script": "const original=check({type:'quest-status',questId:\"Guild: Adventurer Licensure\"});if(original==='accepted'||original==='active'){for(const e of effects){if(e.questId===\"Guild: Benitsuru Licensure\")e.questId=\"Guild: Adventurer Licensure\";}}"
+  },
+  "oni_guild_exam_certify": {
+    "name": "oni_guild_exam_certify",
+    "recurring": true,
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Benitsuru Guildhall"
+      },
+      {
+        "type": "player-item",
+        "item": "Guild Exam Docket",
+        "operator": "greaterThan",
+        "value": 0
+      },
+      {
+        "type": "player-item",
+        "item": "Guild Judgment Pass",
+        "operator": "greaterThan",
+        "value": 0
+      },
+      {
+        "type": "player-item",
+        "item": "Guild Practical Pass",
+        "operator": "greaterThan",
+        "value": 0
+      },
+      {
+        "type": "story",
+        "query": "At the guild counter, the duty clerk actually verifies this applicant’s completed judgment and practical results and certifies first licensure now. This is the real applicant’s new issuance, not another person’s result, a hypothetical, a request for a rank skip or a duplicate existing badge."
+      }
+    ],
+    "effects": [
+      {
+        "type": "item-remove",
+        "item": "Guild Exam Docket",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "item-remove",
+        "item": "Guild Judgment Pass",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "item-remove",
+        "item": "Guild Practical Pass",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "item-add",
+        "item": "Guild Badge: Bronze",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "quest-objective-complete",
+        "questId": "Guild: Benitsuru Licensure",
+        "objectiveId": "certify"
+      },
+      {
+        "type": "quest-progress",
+        "questId": "Guild: Benitsuru Licensure"
+      },
+      {
+        "type": "story",
+        "instruction": "Describe the clerk completing the actual licensure and handing over the already-granted Document Guild Badge: Bronze. The typed grant is the sole inventory award; no item-generation task should add a badge, redefine it as a Relic or create an alias. Bronze work is now available by its actual rules. No portal key, weapon, extra payment or automatic promotion accompanies the ceremony."
+      }
+    ],
+    "script": "const original=check({type:'quest-status',questId:\"Guild: Adventurer Licensure\"});if(original==='accepted'||original==='active'){for(const e of effects){if(e.questId===\"Guild: Benitsuru Licensure\")e.questId=\"Guild: Adventurer Licensure\";}}"
+  },
+  "oni_guild_review_silver": {
+    "name": "oni_guild_review_silver",
+    "phase": "planning",
+    "scope": "player",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Benitsuru Guildhall"
+      },
+      {
+        "type": "player-item",
+        "item": "Guild Badge: Bronze",
+        "operator": "greaterThan",
+        "value": 0
+      },
+      {
+        "type": "player-item",
+        "item": "Guild Service Credit",
+        "operator": "greaterThanOrEqual",
+        "value": 5
+      }
+    ],
+    "effects": [],
+    "script": "const a=check({type:'player-item',item:\"Guild Badge: Bronze\"})||{},c=check({type:'player-item',item:'Guild Service Credit'})||{};storage.ghGuildReviewOffers=storage.ghGuildReviewOffers||{};const fresh=Object.keys(a).filter(n=>a[n]>0&&c[n]>=5&&!storage.ghGuildReviewOffers[n+'|Silver']);if(!fresh.length){skip=true;}else{fresh.forEach(n=>storage.ghGuildReviewOffers[n+'|Silver']=true);effects.push({type:'story',instruction:\"Offer the eligible adventurer a Silver promotion review based on their actual guild work. This is an optional offer, not a promotion or forced duel. State the relevant responsibility and agreed assessment; no new fee, loss of the current badge or portal permission is imposed.\"});}"
+  },
+  "oni_guild_promote_silver": {
+    "name": "oni_guild_promote_silver",
+    "scope": "player",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Benitsuru Guildhall"
+      },
+      {
+        "type": "player-item",
+        "item": "Guild Badge: Bronze",
+        "operator": "greaterThan",
+        "value": 0
+      },
+      {
+        "type": "player-item",
+        "item": "Guild Service Credit",
+        "operator": "greaterThanOrEqual",
+        "value": 5
+      },
+      {
+        "type": "story",
+        "query": "This eligible Bronze adventurer accepted a Silver promotion review, genuinely satisfied its stated assessment through actual results and appropriate verified guild work, and the duty official grants Silver now. Merely having enough credits, discussing rank, flattering a clerk or an unplayed examination is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "item-remove",
+        "item": "Guild Badge: Bronze",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "item-remove",
+        "item": "Guild Service Credit",
+        "quantity": 5,
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "item-add",
+        "item": "Guild Badge: Silver",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "story",
+        "instruction": "Exchange the actual old badge for Guild Badge: Silver. The typed inventory effects are the one real promotion. Keep history and any remaining credits; do not grant a second badge, extra money, portal key or a rank above Platinum. The listed job reward remains payable in full."
+      }
+    ]
+  },
+  "oni_guild_review_gold": {
+    "name": "oni_guild_review_gold",
+    "phase": "planning",
+    "scope": "player",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Benitsuru Guildhall"
+      },
+      {
+        "type": "player-item",
+        "item": "Guild Badge: Silver",
+        "operator": "greaterThan",
+        "value": 0
+      },
+      {
+        "type": "player-item",
+        "item": "Guild Service Credit",
+        "operator": "greaterThanOrEqual",
+        "value": 10
+      }
+    ],
+    "effects": [],
+    "script": "const a=check({type:'player-item',item:\"Guild Badge: Silver\"})||{},c=check({type:'player-item',item:'Guild Service Credit'})||{};storage.ghGuildReviewOffers=storage.ghGuildReviewOffers||{};const fresh=Object.keys(a).filter(n=>a[n]>0&&c[n]>=10&&!storage.ghGuildReviewOffers[n+'|Gold']);if(!fresh.length){skip=true;}else{fresh.forEach(n=>storage.ghGuildReviewOffers[n+'|Gold']=true);effects.push({type:'story',instruction:\"Offer the eligible adventurer a Gold promotion review based on their actual guild work. This is an optional offer, not a promotion or forced duel. State the relevant responsibility and agreed assessment; no new fee, loss of the current badge or portal permission is imposed.\"});}"
+  },
+  "oni_guild_promote_gold": {
+    "name": "oni_guild_promote_gold",
+    "scope": "player",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Benitsuru Guildhall"
+      },
+      {
+        "type": "player-item",
+        "item": "Guild Badge: Silver",
+        "operator": "greaterThan",
+        "value": 0
+      },
+      {
+        "type": "player-item",
+        "item": "Guild Service Credit",
+        "operator": "greaterThanOrEqual",
+        "value": 10
+      },
+      {
+        "type": "story",
+        "query": "This eligible Silver adventurer accepted a Gold promotion review, genuinely satisfied its stated assessment through actual results and appropriate verified guild work, and the duty official grants Gold now. Merely having enough credits, discussing rank, flattering a clerk or an unplayed examination is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "item-remove",
+        "item": "Guild Badge: Silver",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "item-remove",
+        "item": "Guild Service Credit",
+        "quantity": 10,
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "item-add",
+        "item": "Guild Badge: Gold",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "story",
+        "instruction": "Exchange the actual old badge for Guild Badge: Gold. The typed inventory effects are the one real promotion. Keep history and any remaining credits; do not grant a second badge, extra money, portal key or a rank above Platinum. The listed job reward remains payable in full."
+      }
+    ]
+  },
+  "oni_guild_review_platinum": {
+    "name": "oni_guild_review_platinum",
+    "phase": "planning",
+    "scope": "player",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Benitsuru Guildhall"
+      },
+      {
+        "type": "player-item",
+        "item": "Guild Badge: Gold",
+        "operator": "greaterThan",
+        "value": 0
+      },
+      {
+        "type": "player-item",
+        "item": "Guild Service Credit",
+        "operator": "greaterThanOrEqual",
+        "value": 20
+      }
+    ],
+    "effects": [],
+    "script": "const a=check({type:'player-item',item:\"Guild Badge: Gold\"})||{},c=check({type:'player-item',item:'Guild Service Credit'})||{};storage.ghGuildReviewOffers=storage.ghGuildReviewOffers||{};const fresh=Object.keys(a).filter(n=>a[n]>0&&c[n]>=20&&!storage.ghGuildReviewOffers[n+'|Platinum']);if(!fresh.length){skip=true;}else{fresh.forEach(n=>storage.ghGuildReviewOffers[n+'|Platinum']=true);effects.push({type:'story',instruction:\"Offer the eligible adventurer a Platinum promotion review based on their actual guild work. This is an optional offer, not a promotion or forced duel. State the relevant responsibility and agreed assessment; no new fee, loss of the current badge or portal permission is imposed.\"});}"
+  },
+  "oni_guild_promote_platinum": {
+    "name": "oni_guild_promote_platinum",
+    "scope": "player",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Benitsuru Guildhall"
+      },
+      {
+        "type": "player-item",
+        "item": "Guild Badge: Gold",
+        "operator": "greaterThan",
+        "value": 0
+      },
+      {
+        "type": "player-item",
+        "item": "Guild Service Credit",
+        "operator": "greaterThanOrEqual",
+        "value": 20
+      },
+      {
+        "type": "story",
+        "query": "This eligible Gold adventurer accepted a Platinum promotion review, genuinely satisfied its stated assessment through actual results and appropriate verified guild work, and the duty official grants Platinum now. Merely having enough credits, discussing rank, flattering a clerk or an unplayed examination is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "item-remove",
+        "item": "Guild Badge: Gold",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "item-remove",
+        "item": "Guild Service Credit",
+        "quantity": 20,
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "item-add",
+        "item": "Guild Badge: Platinum",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "story",
+        "instruction": "Exchange the actual old badge for Guild Badge: Platinum. The typed inventory effects are the one real promotion. Keep history and any remaining credits; do not grant a second badge, extra money, portal key or a rank above Platinum. The listed job reward remains payable in full."
+      }
+    ]
+  },
+  "oni_guild_board": {
+    "name": "oni_guild_board",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Benitsuru Guildhall"
+      },
+      {
+        "type": "action",
+        "query": "The player actually asks to browse local guild work, foreign expeditions or details of a named posting. Mere arrival, accepting a displayed contract, a completed report or unrelated conversation is false."
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "script": "\nconst choiceRaw=check({type:'action-text'}),choiceText=(Array.isArray(choiceRaw)?choiceRaw.join(' '):String(choiceRaw||'')).toLowerCase();\nconst choiceOffers=Array.isArray(storage.ghGuildDisplayedOffers)?storage.ghGuildDisplayedOffers:[];\nconst choiceCommit=/\\b(accept|take|choose|agree|yes|okay|alright|deal)\\b/.test(choiceText)&&!/\\b(don't|do not|won't|will not|decline|reject|no thanks)\\b/.test(choiceText);\n\nif(choiceCommit&&choiceOffers.length){skip=true;}else{\nconst jobs=[[\"Akitsuhara Guild: Something in the Flour\",1,1],[\"Akitsuhara Guild: The Wandering Sandals\",2,1],[\"Akitsuhara Guild: A Wheel Before Supper\",2,1],[\"Akitsuhara Guild: Bees at the Wrong Door\",3,1],[\"Akitsuhara Guild: Cloth on the Other Bank\",3,1],[\"Akitsuhara Guild: The Gate That Squeaks\",4,1],[\"Akitsuhara Guild: Little Ashes\",5,1],[\"Akitsuhara Guild: Missing Along the Reeds\",7,1],[\"Akitsuhara Guild: Paper with Teeth\",7,1],[\"Akitsuhara Guild: The Mine Brace\",8,1],[\"Akitsuhara Guild: Unwelcome at the Orchard\",8,1],[\"Akitsuhara Guild: A Mask Too Many\",10,1],[\"Akitsuhara Guild: Charcoal under Watch\",12,1],[\"Akitsuhara Guild: The Bent Boundary\",14,1],[\"Akitsuhara Guild: What the Bridge Carries\",15,1],[\"Akitsuhara Guild: Across the Rime\",18,2],[\"Akitsuhara Guild: The Hollow Shrine Cups\",20,2],[\"Akitsuhara Guild: More Than Footprints\",22,2],[\"Akitsuhara Guild: A Mirror Gone Dark\",25,2],[\"Akitsuhara Guild: Beneath the Splitshaft\",28,2],[\"Akitsuhara Guild: A Banner Still Standing\",30,2],[\"Akitsuhara Guild: A Shape above the Roots\",32,2],[\"Akitsuhara Guild: Ice That Listens\",38,3],[\"Akitsuhara Guild: Hagire among the Cedars\",38,3],[\"Expedition: Amber without the Mine\",18,2],[\"Expedition: A Crossbow in the Rain\",20,2],[\"Expedition: Snowmelt Letters\",25,2],[\"Expedition: Reeds above the Clouds\",25,2],[\"Expedition: The Foreign Grain\",12,1],[\"Akitsuhara Guild: The Collector's Hearing\",24,2]];\n\nconst levels=check({type:'player-level'})||{},names=Object.keys(levels),ranks={};\nfor(const n of names)ranks[n]=0;\nfor(let rank=1;rank<=4;rank++){\n const held=check({type:'player-item',item:'Guild Badge: '+['','Bronze','Silver','Gold','Platinum'][rank]})||{};\n for(const n of names)if(Number(typeof held==='number'?held:held[n])>0)ranks[n]=rank;\n}\nconst licensed=Object.values(ranks).filter(x=>x>0),rank=licensed.length?Math.min(...licensed):0;\nconst level=names.length?Math.min(...Object.values(levels).map(Number)):1;\nconst raw=check({type:'action-text'});const text=(Array.isArray(raw)?raw.join(' '):String(raw||'')).toLowerCase();\nconst available=jobs.filter(j=>j[2]<=rank&&['hidden','inactive','unstarted',''].includes(String(check({type:'quest-status',questId:j[0]})||'')));\nlet chosen=available.filter(j=>text.includes(j[0].toLowerCase())||text.includes(j[0].replace(/^Akitsuhara Guild: /,'').toLowerCase()));\nconst explicit=chosen.length>0;\nif(!explicit){\n const suitable=available.filter(j=>j[1]<=level+(level<7?2:5));\n const cursor=Number(storage.oniBoardCursor||0);chosen=suitable.length?[suitable[cursor%suitable.length]]:[];\n if(suitable.length>1)chosen.push(suitable[(cursor+1)%suitable.length]);storage.oniBoardCursor=cursor+2;\n}\nstorage.ghGuildDisplayedOffers=chosen.slice(0,2).map(j=>j[0]);\nstorage.ghGuildOfferRanks=Object.fromEntries(chosen.slice(0,2).map(j=>[j[0],j[2]]));\nfor(const j of chosen.slice(0,2))effects.push({type:'quest-init',operator:'set',value:j[0]});\nif(!rank)effects.push({type:'story',instruction:'Recognize any genuine international badge; otherwise offer the short local licensure assessment. Browsing is not certification.'});\nelse if(chosen.length)effects.push({type:'story',instruction:'Show the selected real postings and their stated terms. Browsing is not acceptance. '+(explicit&&chosen.some(j=>j[1]>level+5)?'Explain the actual greater danger and leave this knowingly harder work optional.':'Keep the offer suitable to the least experienced participating human; NPC companions do not inflate it.')});\nelse effects.push({type:'story',instruction:'No matching unfinished posting remains in this selection. Preserve completed work; discuss suitable ordinary work or another interest without reopening a finished contract.'});\n\n}"
+  },
+  "oni_glowhaven_expedition_notice": {
+    "name": "oni_glowhaven_expedition_notice",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Adventurer's Guild - Glowhaven Branch"
+      },
+      {
+        "type": "action",
+        "query": "The player specifically asks for fieldwork or an expedition to Akitsuhara or the Oni nation. Merely mentioning the country, ordinary local browsing or asking about a portal alone is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "Expedition: The Foreign Grain"
+      },
+      {
+        "type": "story",
+        "instruction": "Komugi Hanabishi can show the actual Akitsuhara irrigation commission. Explain its fieldwork and separate portal permission. This is an offer, not automatic acceptance or travel."
+      }
+    ],
+    "recurring": true
+  },
+  "oni_guild_native_choice": {
+    "name": "oni_guild_native_choice",
+    "phase": "state",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "regex",
+        "value": "^(Adventurer's Guild - Glowhaven Branch|Benitsuru Guildhall)$"
+      },
+      {
+        "type": "action",
+        "query": "The player actually accepts one of the currently displayed guild contracts. Browsing, asking for details, exam examples, accepting a different undertaking or an unclear yes to multiple choices is false."
+      }
+    ],
+    "effects": [],
+    "script": "\nconst choiceRaw=check({type:'action-text'}),choiceText=(Array.isArray(choiceRaw)?choiceRaw.join(' '):String(choiceRaw||'')).toLowerCase();\nconst choiceOffers=Array.isArray(storage.ghGuildDisplayedOffers)?storage.ghGuildDisplayedOffers:[];\nconst choiceCommit=/\\b(accept|take|choose|agree|yes|okay|alright|deal)\\b/.test(choiceText)&&!/\\b(don't|do not|won't|will not|decline|reject|no thanks)\\b/.test(choiceText);\nconst choiceStop=new Set('guild akitsuhara a an the of to for and in at on is with without after from its this that one'.split(' '));\nconst choiceWords=t=>t.toLowerCase().match(/[a-zéōū]+/g)?.filter(t=>t.length>2&&!choiceStop.has(t)).map(t=>t.length>3?t.replace(/s$/,''):t)||[];\nconst actionWords=new Set(choiceWords(choiceText));\nconst scores=choiceOffers.map(title=>({title,score:choiceWords(title).filter(t=>actionWords.has(t)).length}));\nconst best=Math.max(0,...scores.map(x=>x.score)),matches=scores.filter(x=>x.score===best&&best>0);\nconst chosen=choiceCommit?(matches.length===1?matches[0].title:(!best&&choiceOffers.length===1?choiceOffers[0]:'')):'';\n\nconst legacy=[\"Guild: A Parcel for the Bazaar\",\"Salvage: What the Tide Left\",\"The Road: An Empty Harness\",\"Separate Pay: The Same Commission\",\"Guild: Boars at the Watercourse\",\"Guild: The Courier at the Wrong Turn\",\"Guild: A Cart Full of Glass\",\"Guild: After the Harbor Squall\",\"Guild: Bitter Roots, Sharp Teeth\",\"Guild: A Door That Keeps Its Promise\",\"Guild: Keep the Fair Moving\",\"Guild: Beneath the Broken Dial\"];\nif(!chosen||legacy.includes(chosen)){skip=true;}else{\n const status=check({type:'quest-status',questId:chosen});\n const required=Number((storage.ghGuildOfferRanks||{})[chosen]||1);\n let held=0;for(let i=1;i<=4;i++){const v=check({type:'player-item',item:'Guild Badge: '+['','Bronze','Silver','Gold','Platinum'][i]})||{};if(Object.values(typeof v==='object'?v:{player:v}).some(x=>Number(x)>0))held=Math.max(held,i);}\n if(held<required||!['hidden','planned','available','inactive','unstarted',''].includes(String(status||''))){skip=true;}else{\n  effects.push({type:'quest-accept',operator:'set',value:chosen},{type:'story',instruction:'Record acceptance of only '+chosen+'. Preserve that existing contract’s exact client, site, scope and posted reward. Do not replace its people, create a second contract item, accept the other displayed choice or award completion rewards now.'});\n }\n}\n"
   }
 }

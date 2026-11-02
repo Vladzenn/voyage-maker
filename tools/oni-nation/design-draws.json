@@ -1,0 +1,812 @@
+{
+  "Shōen Kagetsuna": {
+    "affinityRoll": 29,
+    "affinities": [
+      "Earth"
+    ],
+    "poseRoll": 1,
+    "skin": "warm tan"
+  },
+  "Ayame Kagetsuna": {
+    "affinityRoll": 51,
+    "affinities": [
+      "Wind"
+    ],
+    "poseRoll": 5,
+    "skin": "warm tan"
+  },
+  "Masazane Saionoma": {
+    "affinityRoll": 94,
+    "affinities": [
+      "Water",
+      "Healing",
+      "Light"
+    ],
+    "poseRoll": 5,
+    "skin": "light olive"
+  },
+  "Rin Saionoma": {
+    "affinityRoll": 31,
+    "affinities": [
+      "Wind"
+    ],
+    "poseRoll": 4,
+    "skin": "warm tan"
+  },
+  "Kureha Tsubakiri": {
+    "affinityRoll": 67,
+    "affinities": [
+      "Metal",
+      "Sound"
+    ],
+    "poseRoll": 2,
+    "skin": "light"
+  },
+  "Shigure Tsubakiri": {
+    "affinityRoll": 46,
+    "affinities": [
+      "Fire"
+    ],
+    "poseRoll": 3,
+    "skin": "light"
+  },
+  "Hiyori Mitsuba": {
+    "affinityRoll": 61,
+    "affinities": [
+      "Ice"
+    ],
+    "poseRoll": 5,
+    "skin": "warm tan"
+  },
+  "Sae Kagurazaka": {
+    "affinityRoll": 39,
+    "affinities": [
+      "Soul"
+    ],
+    "poseRoll": 2,
+    "skin": "light"
+  },
+  "Tōma Sagiri": {
+    "affinityRoll": 57,
+    "affinities": [
+      "Arcane"
+    ],
+    "poseRoll": 2,
+    "skin": "light"
+  },
+  "Yuzuri Kageura": {
+    "affinityRoll": 68,
+    "affinities": [
+      "Illusion",
+      "Water"
+    ],
+    "poseRoll": 2,
+    "skin": "warm tan"
+  },
+  "Genzaburō Kanemori": {
+    "affinityRoll": 76,
+    "affinities": [
+      "Metal",
+      "Divination"
+    ],
+    "poseRoll": 2,
+    "skin": "light"
+  },
+  "Kinu Amakusa": {
+    "affinityRoll": 83,
+    "affinities": [
+      "Fire",
+      "Sound"
+    ],
+    "poseRoll": 3,
+    "skin": "light"
+  },
+  "Renga Itsuzaki": {
+    "affinityRoll": 82,
+    "affinities": [
+      "Earth",
+      "Divination"
+    ],
+    "poseRoll": 1,
+    "skin": "light"
+  },
+  "Tadayoshi Kurebayashi": {
+    "affinityRoll": 76,
+    "affinities": [
+      "Water",
+      "Ice"
+    ],
+    "poseRoll": 2,
+    "skin": "warm tan"
+  },
+  "Mika Fuyuse": {
+    "affinityRoll": 88,
+    "affinities": [
+      "Water",
+      "Lightning"
+    ],
+    "poseRoll": 3,
+    "skin": "medium brown"
+  },
+  "Nobu Senda": {
+    "affinityRoll": 27,
+    "affinities": [
+      "Arcane"
+    ],
+    "poseRoll": 5,
+    "skin": "light olive"
+  },
+  "Akane Natsukawa": {
+    "affinityRoll": 9,
+    "affinities": [
+      "Ice"
+    ],
+    "poseRoll": 4,
+    "skin": "medium brown"
+  },
+  "Kensuke Ayahara": {
+    "affinityRoll": 18,
+    "affinities": [
+      "Illusion"
+    ],
+    "poseRoll": 1,
+    "skin": "light"
+  },
+  "Naoe Futami": {
+    "affinityRoll": 21,
+    "affinities": [
+      "Earth"
+    ],
+    "poseRoll": 3,
+    "skin": "medium brown"
+  },
+  "Chiyo Matsukaze": {
+    "affinityRoll": 70,
+    "affinities": [
+      "Wind",
+      "Metal"
+    ],
+    "poseRoll": 3,
+    "skin": "light olive"
+  },
+  "Tetsu Obana": {
+    "affinityRoll": 1,
+    "affinities": [
+      "Healing"
+    ],
+    "poseRoll": 4,
+    "skin": "medium brown"
+  },
+  "Fūka Suzumori": {
+    "affinityRoll": 70,
+    "affinities": [
+      "Illusion",
+      "Water"
+    ],
+    "poseRoll": 2,
+    "skin": "light olive"
+  },
+  "Renjirō Usami": {
+    "affinityRoll": 94,
+    "affinities": [
+      "Metal",
+      "Summoning",
+      "Lightning"
+    ],
+    "poseRoll": 2,
+    "skin": "light"
+  },
+  "Maho Kanemori": {
+    "affinityRoll": 11,
+    "affinities": [
+      "Enchantment"
+    ],
+    "poseRoll": 4,
+    "skin": "warm tan"
+  },
+  "Hatsu Kanesue": {
+    "affinityRoll": 22,
+    "affinities": [
+      "Nature"
+    ],
+    "poseRoll": 4,
+    "skin": "warm tan"
+  },
+  "Jirō Hozumi": {
+    "affinityRoll": 69,
+    "affinities": [
+      "Arcane",
+      "Gravity"
+    ],
+    "poseRoll": 3,
+    "skin": "light olive"
+  },
+  "Sōta Amemiya": {
+    "affinityRoll": 78,
+    "affinities": [
+      "Wind",
+      "Gravity"
+    ],
+    "poseRoll": 4,
+    "skin": "light olive"
+  },
+  "Iori Kagurazaka": {
+    "affinityRoll": 35,
+    "affinities": [
+      "Soul"
+    ],
+    "poseRoll": 3,
+    "skin": "light"
+  },
+  "Chinatsu Hanegi": {
+    "affinityRoll": 36,
+    "affinities": [
+      "Fire"
+    ],
+    "poseRoll": 4,
+    "skin": "light olive"
+  },
+  "Yūhei Toba": {
+    "affinityRoll": 76,
+    "affinities": [
+      "Arcane",
+      "Ice"
+    ],
+    "poseRoll": 5,
+    "skin": "warm tan"
+  },
+  "Natsuko Tsumura": {
+    "affinityRoll": 50,
+    "affinities": [
+      "Fire"
+    ],
+    "poseRoll": 2,
+    "skin": "light olive"
+  },
+  "Kōichi Aratani": {
+    "affinityRoll": 44,
+    "affinities": [
+      "Earth"
+    ],
+    "poseRoll": 4,
+    "skin": "warm tan"
+  },
+  "Yae Mizuno": {
+    "affinityRoll": 99,
+    "affinities": [
+      "Fire",
+      "Summoning",
+      "Void"
+    ],
+    "poseRoll": 1,
+    "skin": "light"
+  },
+  "Haru Tomisaka": {
+    "affinityRoll": 18,
+    "affinities": [
+      "Wind"
+    ],
+    "poseRoll": 4,
+    "skin": "warm tan"
+  },
+  "Sachi Morisawa": {
+    "affinityRoll": 34,
+    "affinities": [
+      "Fire"
+    ],
+    "poseRoll": 3,
+    "skin": "warm tan"
+  },
+  "Kazuma Ebisawa": {
+    "affinityRoll": 68,
+    "affinities": [
+      "Earth",
+      "Water"
+    ],
+    "poseRoll": 6,
+    "skin": "warm tan"
+  },
+  "Mina Kurusu": {
+    "affinityRoll": 96,
+    "affinities": [
+      "Water",
+      "Summoning",
+      "Soul"
+    ],
+    "poseRoll": 1,
+    "skin": "medium brown"
+  },
+  "Osamu Kariya": {
+    "affinityRoll": 58,
+    "affinities": [
+      "Earth"
+    ],
+    "poseRoll": 5,
+    "skin": "warm tan"
+  },
+  "Tae Ishihama": {
+    "affinityRoll": 38,
+    "affinities": [
+      "Water"
+    ],
+    "poseRoll": 2,
+    "skin": "warm tan"
+  },
+  "Shunji Dobashi": {
+    "affinityRoll": 90,
+    "affinities": [
+      "Fire",
+      "Water"
+    ],
+    "poseRoll": 2,
+    "skin": "light olive"
+  },
+  "Ruri Nabatame": {
+    "affinityRoll": 56,
+    "affinities": [
+      "Arcane"
+    ],
+    "poseRoll": 5,
+    "skin": "light"
+  },
+  "Hokuto Mizusawa": {
+    "affinityRoll": 29,
+    "affinities": [
+      "Earth"
+    ],
+    "poseRoll": 4,
+    "skin": "warm tan"
+  },
+  "Shizue Amakawa": {
+    "affinityRoll": 98,
+    "affinities": [
+      "Wind",
+      "Nature",
+      "Summoning"
+    ],
+    "poseRoll": 5,
+    "skin": "light olive"
+  },
+  "Dōgen Hanamori": {
+    "affinityRoll": 78,
+    "affinities": [
+      "Sound",
+      "Metal"
+    ],
+    "poseRoll": 2,
+    "skin": "light olive"
+  },
+  "Fusa Minase": {
+    "affinityRoll": 39,
+    "affinities": [
+      "Nature"
+    ],
+    "poseRoll": 3,
+    "skin": "medium brown"
+  },
+  "Naohiro Umemoto": {
+    "affinityRoll": 21,
+    "affinities": [
+      "Divination"
+    ],
+    "poseRoll": 2,
+    "skin": "warm tan"
+  },
+  "Sana Kuroiwa": {
+    "affinityRoll": 20,
+    "affinities": [
+      "Earth"
+    ],
+    "poseRoll": 3,
+    "skin": "light"
+  },
+  "Rei Tsunemori": {
+    "affinityRoll": 19,
+    "affinities": [
+      "Light"
+    ],
+    "poseRoll": 4,
+    "skin": "warm tan"
+  },
+  "Yoriko Abe": {
+    "affinityRoll": 76,
+    "affinities": [
+      "Ice",
+      "Divination"
+    ],
+    "poseRoll": 1,
+    "skin": "light olive"
+  },
+  "Tomoe Masuda": {
+    "affinityRoll": 78,
+    "affinities": [
+      "Water",
+      "Earth"
+    ],
+    "poseRoll": 6,
+    "skin": "medium brown"
+  },
+  "Kayo Yagiri": {
+    "affinityRoll": 36,
+    "affinities": [
+      "Fire"
+    ],
+    "poseRoll": 4,
+    "skin": "warm tan"
+  },
+  "Yasuo Natori": {
+    "affinityRoll": 50,
+    "affinities": [
+      "Metal"
+    ],
+    "poseRoll": 2,
+    "skin": "light olive"
+  },
+  "Chika Nishihara": {
+    "affinityRoll": 50,
+    "affinities": [
+      "Earth"
+    ],
+    "poseRoll": 5,
+    "skin": "light olive"
+  },
+  "Shin Watarai": {
+    "affinityRoll": 1,
+    "affinities": [
+      "Fire"
+    ],
+    "poseRoll": 6,
+    "skin": "light"
+  },
+  "Mitsue Harada": {
+    "affinityRoll": 27,
+    "affinities": [
+      "Water"
+    ],
+    "poseRoll": 2,
+    "skin": "medium brown"
+  },
+  "Kentarō Maeba": {
+    "affinityRoll": 5,
+    "affinities": [
+      "Earth"
+    ],
+    "poseRoll": 4,
+    "skin": "medium brown"
+  },
+  "Suzuha Hoshikawa": {
+    "affinityRoll": 60,
+    "affinities": [
+      "Water"
+    ],
+    "poseRoll": 6,
+    "skin": "light olive"
+  },
+  "Daichi Kurobane": {
+    "affinityRoll": 55,
+    "affinities": [
+      "Illusion"
+    ],
+    "poseRoll": 3,
+    "skin": "medium brown"
+  },
+  "Mayu Enomoto": {
+    "affinityRoll": 89,
+    "affinities": [
+      "Arcane",
+      "Ice"
+    ],
+    "poseRoll": 6,
+    "skin": "warm tan"
+  },
+  "Takuro Namiki": {
+    "affinityRoll": 30,
+    "affinities": [
+      "Water"
+    ],
+    "poseRoll": 1,
+    "skin": "light olive"
+  },
+  "Eri Tamura": {
+    "affinityRoll": 7,
+    "affinities": [
+      "Wind"
+    ],
+    "poseRoll": 4,
+    "skin": "medium brown"
+  },
+  "Seitarō Matsuoka": {
+    "affinityRoll": 92,
+    "affinities": [
+      "Metal",
+      "Earth",
+      "Void"
+    ],
+    "poseRoll": 1,
+    "skin": "warm tan"
+  },
+  "Nene Moriyama": {
+    "affinityRoll": 21,
+    "affinities": [
+      "Nature"
+    ],
+    "poseRoll": 6,
+    "skin": "light"
+  },
+  "Isao Tsuge": {
+    "affinityRoll": 66,
+    "affinities": [
+      "Light",
+      "Soul"
+    ],
+    "poseRoll": 6,
+    "skin": "warm tan"
+  },
+  "Yumi Sawatari": {
+    "affinityRoll": 29,
+    "affinities": [
+      "Water"
+    ],
+    "poseRoll": 2,
+    "skin": "medium brown"
+  },
+  "Gorō Fushimi": {
+    "affinityRoll": 95,
+    "affinities": [
+      "Earth",
+      "Metal",
+      "Enchantment"
+    ],
+    "poseRoll": 5,
+    "skin": "light olive"
+  },
+  "Aya Takino": {
+    "affinityRoll": 39,
+    "affinities": [
+      "Water"
+    ],
+    "poseRoll": 5,
+    "skin": "light"
+  },
+  "Mutsumi Hosaka": {
+    "affinityRoll": 59,
+    "affinities": [
+      "Nature"
+    ],
+    "poseRoll": 3,
+    "skin": "light"
+  },
+  "Tōru Fukada": {
+    "affinityRoll": 70,
+    "affinities": [
+      "Earth",
+      "Nature"
+    ],
+    "poseRoll": 3,
+    "skin": "warm tan"
+  },
+  "Rika Ogata": {
+    "affinityRoll": 90,
+    "affinities": [
+      "Metal",
+      "Earth"
+    ],
+    "poseRoll": 1,
+    "skin": "light"
+  },
+  "Kenji Morita": {
+    "affinityRoll": 77,
+    "affinities": [
+      "Nature",
+      "Lightning"
+    ],
+    "poseRoll": 6,
+    "skin": "medium brown"
+  },
+  "Yōko Sanada": {
+    "affinityRoll": 11,
+    "affinities": [
+      "Water"
+    ],
+    "poseRoll": 2,
+    "skin": "light olive"
+  },
+  "Kae Sumida": {
+    "affinityRoll": 42,
+    "affinities": [
+      "Fire"
+    ],
+    "poseRoll": 3,
+    "skin": "light"
+  },
+  "Chihiro Noda": {
+    "affinityRoll": 95,
+    "affinities": [
+      "Nature",
+      "Sound",
+      "Wind"
+    ],
+    "poseRoll": 5,
+    "skin": "medium brown"
+  },
+  "Makiya Utsugi": {
+    "affinityRoll": 90,
+    "affinities": [
+      "Nature",
+      "Ice"
+    ],
+    "poseRoll": 5,
+    "skin": "warm tan"
+  },
+  "Hajime Niwa": {
+    "affinityRoll": 17,
+    "affinities": [
+      "Water"
+    ],
+    "poseRoll": 1,
+    "skin": "warm tan"
+  },
+  "Asa Kogure": {
+    "affinityRoll": 1,
+    "affinities": [
+      "Fire"
+    ],
+    "poseRoll": 3,
+    "skin": "warm tan"
+  },
+  "Yukina Tsuribe": {
+    "affinityRoll": 5,
+    "affinities": [
+      "Soul"
+    ],
+    "poseRoll": 3,
+    "skin": "medium brown"
+  },
+  "Ema Shiozaki": {
+    "affinityRoll": 63,
+    "affinities": [
+      "Light"
+    ],
+    "poseRoll": 1,
+    "skin": "warm tan"
+  },
+  "Kaito Honma": {
+    "affinityRoll": 32,
+    "affinities": [
+      "Arcane"
+    ],
+    "poseRoll": 2,
+    "skin": "medium brown"
+  },
+  "Misao Shingū": {
+    "affinityRoll": 72,
+    "affinities": [
+      "Fire",
+      "Divination"
+    ],
+    "poseRoll": 4,
+    "skin": "warm tan"
+  },
+  "Ren Ishidate": {
+    "affinityRoll": 12,
+    "affinities": [
+      "Water"
+    ],
+    "poseRoll": 5,
+    "skin": "medium brown"
+  },
+  "Takane Shibata": {
+    "affinityRoll": 27,
+    "affinities": [
+      "Earth"
+    ],
+    "poseRoll": 6,
+    "skin": "medium brown"
+  },
+  "Léonie Vauclair": {
+    "affinityRoll": 70,
+    "affinities": [
+      "Light",
+      "Soul"
+    ],
+    "poseRoll": 3,
+    "skin": "light olive"
+  },
+  "Jin Lin": {
+    "affinityRoll": 6,
+    "affinities": [
+      "Nature"
+    ],
+    "poseRoll": 6,
+    "skin": "warm tan"
+  },
+  "Duncan Rusk": {
+    "affinityRoll": 22,
+    "affinities": [
+      "Metal"
+    ],
+    "poseRoll": 2,
+    "skin": "warm tan"
+  },
+  "Akihisa Manabe": {
+    "affinityRoll": 98,
+    "affinities": [
+      "Arcane",
+      "Light",
+      "Illusion"
+    ],
+    "poseRoll": 5,
+    "skin": "light olive"
+  },
+  "Katsuho Enoki": {
+    "affinityRoll": 70,
+    "affinities": [
+      "Wind",
+      "Arcane"
+    ],
+    "poseRoll": 1,
+    "skin": "light"
+  },
+  "Jun Sasanami": {
+    "affinityRoll": 25,
+    "affinities": [
+      "Nature"
+    ],
+    "poseRoll": 3,
+    "skin": "light olive"
+  },
+  "Kohina Beppu": {
+    "affinityRoll": 72,
+    "affinities": [
+      "Illusion",
+      "Gravity"
+    ],
+    "poseRoll": 6,
+    "skin": "light"
+  },
+  "Hiroto Sakuma": {
+    "affinityRoll": 27,
+    "affinities": [
+      "Fire"
+    ],
+    "poseRoll": 2,
+    "skin": "light"
+  },
+  "Nana Saionoma": {
+    "affinityRoll": 69,
+    "affinities": [
+      "Fire",
+      "Wind"
+    ],
+    "poseRoll": 1,
+    "skin": "light olive"
+  },
+  "Hagire": {
+    "affinities": [
+      "Void"
+    ],
+    "fixedCreatureConcept": true,
+    "poseRoll": 3
+  },
+  "Koma": {
+    "affinities": [
+      "Illusion"
+    ],
+    "fixedCreatureConcept": true,
+    "poseRoll": 3
+  },
+  "Suzu-no-Ura": {
+    "affinities": [
+      "Sound"
+    ],
+    "fixedCreatureConcept": true,
+    "poseRoll": 3
+  },
+  "Oroha": {
+    "affinities": [
+      "Soul"
+    ],
+    "fixedCreatureConcept": true,
+    "poseRoll": 1
+  }
+}

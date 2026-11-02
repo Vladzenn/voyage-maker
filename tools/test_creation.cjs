@@ -28,7 +28,7 @@ ck(mage.attributes.intuition===20,'Real creation ceiling handles combined bonuse
 ck(mage.skills['Ice Magic']===3&&mage.abilities.size===2,'Study grants only its actual two techniques');
 const skip=make(['Physical Foundations']);
 ck(skip.attributes.force===11&&skip.attributes.finesse===11&&!skip.abilities.size,'Physical alternative grants no spells');
-ck(w.traitCategories['Special Talent'].maxSelections===1,'One optional special talent');
+ck(w.traitCategories['Special Talent'].maxSelections===2,'Up to two optional special talents');
 ck(w.traitCategories['Natural Magical Affinity'].description.includes('zero'),'Empty affinity choice explicitly supported');
 ck(w.traitCategories['Starting Magical Study'].traits[0]==='Physical Foundations','Physical option comes first');
 ck(w.traitCategories['Profession & Useful Skills'].maxSelections===1,'Profession remains one background');

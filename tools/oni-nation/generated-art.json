@@ -1,0 +1,177 @@
+{
+  "generator": "built-in image_gen",
+  "portraits": 14,
+  "mapPrompt": "Create ONE square 1:1 high-detail fantasy-anime REGIONAL EXPLORATION MAP for THE VEILED BEYOND. This is a compact, ominous spirit wilderness beyond a Japanese-inspired torii: zoomed out enough to contain SEVEN distinct connected landmarks, with tiny scenery at map scale, NOT a town, not a character illustration. Polished colorful 2D painted JRPG atlas matching our vivid isometric Oni-country map, with crisp forms, rich blue-green cedar canopies, ivory roots, dusky violet water and cold white fog. No parchment, no satellite realism, no 3D look. Dense layered mist and immense half-seen silhouettes make it strange and threatening, with sufficient breaks in the fog to read the routes. A few little warm lanterns show scale; no friendly mascot characters or copied movie creatures.\nGEOGRAPHY AND PLACEMENT: southwest/lower-left dry stone RETURN TORII platform within pale cedar roots, an obvious small upright stone gateway; west-center a huge ROOT ARCH with tiny hanging bronze bells and a DRY REFUGE platform beneath it; southeast/lower-right blue-white LANTERN MARSH with black reeds and a raised root causeway; northwest/upper-left LISTENING CEDARS of immense dark trunks and hollow roots; center a dark ASHEN FESTIVAL ROAD with broken tiny colorful empty stalls and lantern frames; north-center a PALE STREAM with a broad stone CRANE CROSSING and a small reed pavilion; northeast/upper-right a HOLLOW SKY GROVE of enormous pale trees with black cavities among the roots. A huge distant crane-shaped silhouette is only a scale hint near the northern crossing, not a detailed portrait. Real narrow trails and root bridges connect these sites. The return torii and refuge remain plainly usable, while the distant grove feels dangerous. All outer edges fade into forest and fog; no sea coast, no giant city, no castle. Keep landmark layout geographically coherent rather than seven isolated panels. Full-bleed SINGLE square map; no labels, names, lettering, icons, UI, grid, frame, signature or watermark.",
+  "assets": [
+    {
+      "name": "Shōen Kagetsuna",
+      "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-835775de-8890-483c-84e6-04ed05b93b68.png",
+      "target": "world-draft/npc portraits/Akitsuhara/Shōen Kagetsuna.png",
+      "pose": "GV02",
+      "onePass": true,
+      "review": "Reviewed in contact sheet: coherent identity and scene; portrait headroom is often tighter than target. No reroll.",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "cf6755658da4de66d2c3cd9f443a5a59e9781db187339380be0d41df72c118aa"
+    },
+    {
+      "name": "Ayame Kagetsuna",
+      "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-8446466a-67b1-4d4d-ba3b-8c3bfb6d9dbd.png",
+      "target": "world-draft/npc portraits/Akitsuhara/Ayame Kagetsuna.png",
+      "pose": "CB01",
+      "onePass": true,
+      "review": "Reviewed in contact sheet: coherent identity and scene; portrait headroom is often tighter than target. No reroll.",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "1c431864fe60209debbc9ee4ffac1299ffa5346c04e9a4b692bd5c66c9fb7a56"
+    },
+    {
+      "name": "Masazane Saionoma",
+      "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-7918863b-1a27-4ade-8f91-c2766c7fcedc.png",
+      "target": "world-draft/npc portraits/Akitsuhara/Masazane Saionoma.png",
+      "pose": "GV02",
+      "onePass": true,
+      "review": "Reviewed in contact sheet: coherent identity and scene; portrait headroom is often tighter than target. No reroll.",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "5b45a2ae9cc32a09e91e29034722def21c75a6d880ad35d0cf51e5a9714c39dc"
+    },
+    {
+      "name": "Kureha Tsubakiri",
+      "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-1e088aab-0ddb-4d25-9aaf-ed7def541862.png",
+      "target": "world-draft/npc portraits/Akitsuhara/Kureha Tsubakiri.png",
+      "pose": "GV02",
+      "onePass": true,
+      "review": "Reviewed in contact sheet: coherent identity and scene; portrait headroom is often tighter than target. No reroll.",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "93d66755b93cb8f9ddf0b459a71403b772ca791ca3788ef72dba1b76ec62f577"
+    },
+    {
+      "name": "Shigure Tsubakiri",
+      "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-04f3705d-81d2-466a-8d8e-772b055fd50a.png",
+      "target": "world-draft/npc portraits/Akitsuhara/Shigure Tsubakiri.png",
+      "pose": "GV02",
+      "onePass": true,
+      "review": "Reviewed in contact sheet: coherent identity and scene; portrait headroom is often tighter than target. No reroll.",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "3532618e51b91ee8e908fcd6a8d6aa52cd2384561fa287be5fe8c3cb4d1a478f"
+    },
+    {
+      "name": "Hiyori Mitsuba",
+      "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-a004c478-2090-42d3-8635-a14a63eefd31.png",
+      "target": "world-draft/npc portraits/Akitsuhara/Hiyori Mitsuba.png",
+      "pose": "W06",
+      "onePass": true,
+      "review": "Reviewed in contact sheet: coherent identity and scene; portrait headroom is often tighter than target. No reroll.",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "3a1c87c58d5fee80fc7237aea64fe493a5012ec347a76424ae60f2fcb9c66fd8"
+    },
+    {
+      "name": "Sae Kagurazaka",
+      "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-eeb38cd1-5fce-4b61-8098-456d4ddaa86c.png",
+      "target": "world-draft/npc portraits/Akitsuhara/Sae Kagurazaka.png",
+      "pose": "W05",
+      "onePass": true,
+      "review": "Reviewed in contact sheet: coherent identity and scene; portrait headroom is often tighter than target. No reroll.",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "c869abe8c3201d436bcaf8415ef0202583518e33aa4d4385a4c19f3de88656de"
+    },
+    {
+      "name": "Tōma Sagiri",
+      "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-cdcd6f4b-6581-4399-afd2-e2d67f736b4a.png",
+      "target": "world-draft/npc portraits/Akitsuhara/Tōma Sagiri.png",
+      "pose": "CB10",
+      "onePass": true,
+      "review": "Reviewed in contact sheet: coherent identity and scene; portrait headroom is often tighter than target. No reroll.",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "3ec503b93b9289e40a2901942ff8ca16854ff9df815ce738c170b6d3616db9a3"
+    },
+    {
+      "name": "Yuzuri Kageura",
+      "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-3d06825b-c7df-4354-8f77-0102f0817c0d.png",
+      "target": "world-draft/npc portraits/Akitsuhara/Yuzuri Kageura.png",
+      "pose": "CB03",
+      "onePass": true,
+      "review": "Reviewed in contact sheet: coherent identity and scene; portrait headroom is often tighter than target. No reroll.",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "c1d52ed90d1501022efa042a4b9bb651b4b0a5dc915299036b44618d07b5d9de"
+    },
+    {
+      "name": "Genzaburō Kanemori",
+      "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-5db785d7-74b3-4e09-94b2-add71ce5cec3.png",
+      "target": "world-draft/npc portraits/Akitsuhara/Genzaburō Kanemori.png",
+      "pose": "T04",
+      "onePass": true,
+      "review": "Reviewed in contact sheet: coherent identity and scene; portrait headroom is often tighter than target. No reroll.",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "05a0fc27bbbed70b3f5b9a8b33baad0fe50658f5d51059874ed385bbe00a6ef8"
+    },
+    {
+      "name": "Kinu Amakusa",
+      "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-078d4ae8-dc19-425d-8299-3e090e522f87.png",
+      "target": "world-draft/npc portraits/Akitsuhara/Kinu Amakusa.png",
+      "pose": "D05",
+      "onePass": true,
+      "review": "Reviewed in contact sheet: coherent identity and scene; portrait headroom is often tighter than target. No reroll.",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "a7a6672173970dc12f5352bbefbeab46d2b55de0a44f78601cb62808f8d04f8e"
+    },
+    {
+      "name": "Renga Itsuzaki",
+      "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-8380c59c-656e-4a28-a4e6-ec89c030ee6d.png",
+      "target": "world-draft/npc portraits/Akitsuhara/Renga Itsuzaki.png",
+      "pose": "CB07",
+      "onePass": true,
+      "review": "Reviewed in contact sheet: coherent identity and scene; portrait headroom is often tighter than target. No reroll.",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "7f09277cda51e42940ce188bc02ded8c72df4754ea3d07de3cfe19c2afa4cc23"
+    },
+    {
+      "name": "Hagire",
+      "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-0d762f4b-325f-4c9a-a85c-58df7de4e7bc.png",
+      "target": "world-draft/npc portraits/Akitsuhara/Hagire.png",
+      "pose": "SPECIAL01",
+      "onePass": true,
+      "review": "Reviewed in contact sheet: coherent identity and scene; portrait headroom is often tighter than target. No reroll.",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "215c6f41441b38578e4b954fe46feb43b3dc75059ce5811f2b0e4ef0ea875fee"
+    },
+    {
+      "name": "Oroha",
+      "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-f7dc13c2-89df-40bc-ac80-d9d2198b5cfe.png",
+      "target": "world-draft/npc portraits/Akitsuhara/Oroha.png",
+      "pose": "SPECIAL02",
+      "onePass": true,
+      "review": "Reviewed in contact sheet: coherent identity and scene; portrait headroom is often tighter than target. No reroll.",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "f034135e65f9eb52452e3108154de89ae00e5a6a53a9bea0146a5fce944a01db"
+    },
+    {
+      "name": "Veiled Cedar Reach Map",
+      "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-145de2b0-b66f-4e8a-addf-f0bf05e4cd01.png",
+      "target": "world-draft/maps/The Veiled Beyond/Veiled Cedar Reach.png",
+      "pose": null,
+      "onePass": true,
+      "review": "Reviewed: dense fog with readable seven-landmark layout; provisional pins need live Studio adjustment.",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c09a22090c2514d1b8c35929d9f9ed186899bb40c7fc7a982738bccbf154ebd2"
+    }
+  ],
+  "reviewNotes": [
+    "Fourteen major portraits and one spirit map generated once and hosted; eighty-two supporting portraits are intentionally pending.",
+    "Several portraits have tighter top margins than the 12.5% guide target. No claim that every composition fully meets that target.",
+    "Actual creature anatomy retained for Hagire and Oroha; native regional effects favor flowing forms without changing the established render style."
+  ]
+}

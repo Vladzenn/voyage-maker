@@ -73,9 +73,71 @@
       "Guild Household",
       "Traveling Family",
       "Foreign Newcomer",
-      "Civic District Upbringing"
+      "Civic District Upbringing",
+      "Benitsuru Ward Local",
+      "Mizuhara Lakeside Upbringing",
+      "Koganedai Castle-Town Upbringing",
+      "Akitsuhara Farming Village",
+      "Reed-Valley Childhood",
+      "Northern Pass Household",
+      "Household Service Upbringing",
+      "Dojo Neighborhood Upbringing",
+      "Shrine-Court Upbringing",
+      "Road-Theatre Upbringing",
+      "Drakenspire Forge Neighborhood",
+      "Drakenspire Caravan Upbringing",
+      "Asterveil Canopy Household",
+      "Asterveil Field-Shelter Upbringing"
     ],
-    "description": "Choose one formative background: where your life began or what work surrounded you. +1 relevant utility skill, but no automatic personal connections, property, legal status or quest completion."
+    "description": "Optionally choose one place or community that shaped your early life. Each background adds +1 to a useful skill; your present circumstances are yours to establish.",
+    "subcategories": [
+      {
+        "name": "Established Backgrounds",
+        "traits": [
+          "Glowhaven City Local",
+          "Brookmeadow Villager",
+          "Crescent Coast Resident",
+          "Drakenspire Highlander",
+          "Asterveil Sky-Islander",
+          "Merchant Household",
+          "Workshop Household",
+          "Academic Household",
+          "Guild Household",
+          "Traveling Family",
+          "Foreign Newcomer",
+          "Civic District Upbringing"
+        ]
+      },
+      {
+        "name": "Akitsuhara — Town and Country",
+        "traits": [
+          "Benitsuru Ward Local",
+          "Mizuhara Lakeside Upbringing",
+          "Koganedai Castle-Town Upbringing",
+          "Akitsuhara Farming Village",
+          "Reed-Valley Childhood",
+          "Northern Pass Household"
+        ]
+      },
+      {
+        "name": "Akitsuhara — Formative Communities",
+        "traits": [
+          "Household Service Upbringing",
+          "Dojo Neighborhood Upbringing",
+          "Shrine-Court Upbringing",
+          "Road-Theatre Upbringing"
+        ]
+      },
+      {
+        "name": "Mountain and Sky Communities",
+        "traits": [
+          "Drakenspire Forge Neighborhood",
+          "Drakenspire Caravan Upbringing",
+          "Asterveil Canopy Household",
+          "Asterveil Field-Shelter Upbringing"
+        ]
+      }
+    ]
   },
   "Primary Aptitude": {
     "name": "Primary Aptitude",
@@ -218,26 +280,66 @@
       "Private Investigator",
       "Stage Magician",
       "Dancer",
-      "Musician"
+      "Musician",
+      "Petition Clerk",
+      "Hearing Assistant",
+      "Customs Clerk",
+      "Village Steward",
+      "Warehouse Keeper",
+      "Court Messenger",
+      "Ferryman",
+      "River Pilot",
+      "Porter",
+      "Caravan Cook",
+      "Salvage Diver",
+      "Bridge Inspector",
+      "Papermaker",
+      "Lacquerer",
+      "Weaver",
+      "Ropemaker",
+      "Shipwright",
+      "Miller",
+      "Potter",
+      "Dyer",
+      "Actor",
+      "Storyteller",
+      "Puppeteer",
+      "Costume Maker",
+      "Festival Organizer",
+      "Beekeeper",
+      "Orchardist",
+      "Charcoal Burner",
+      "Woodcutter",
+      "Trapmaker",
+      "Gamekeeper",
+      "Dojo Assistant",
+      "Household Retainer",
+      "Bodyguard",
+      "Bounty Tracker",
+      "Scout Runner",
+      "Shrine Attendant",
+      "Funeral Assistant",
+      "Ritual Musician",
+      "Spirit Mediator",
+      "Smuggler",
+      "Fence",
+      "Forger",
+      "Locksmith"
     ],
     "description": "Optional — choose one prior profession or practical background. Each grants +2 in its main skill and +1 in a supporting skill. These are starting experiences, not current employment, official licences, owned workplaces or free professional equipment.",
     "subcategories": [
       {
-        "name": "Craft and Workshop",
+        "name": "Metal, Tools and Workshop",
         "traits": [
           "Magitech Technician",
           "Blacksmith Apprentice",
           "Armorer",
-          "Carpenter",
-          "Mason",
-          "Tailor",
           "Jeweler",
-          "Glassblower",
-          "Bookbinder"
+          "Glassblower"
         ]
       },
       {
-        "name": "Study, Care and Records",
+        "name": "Study, Medicine and Records",
         "traits": [
           "Research Assistant",
           "Medical Assistant",
@@ -247,34 +349,89 @@
           "Archivist",
           "Interpreter",
           "Tutor",
-          "Herbalist"
+          "Appraiser",
+          "Private Investigator"
         ]
       },
       {
-        "name": "Trade, Hospitality and Performance",
+        "name": "Trade and Hospitality",
         "traits": [
           "Merchant Apprentice",
           "Cook",
-          "Performer",
           "Accountant",
-          "Appraiser",
           "Innkeeper",
           "Tavern Worker",
           "Baker",
-          "Tea Blender",
-          "Stage Magician",
-          "Dancer",
-          "Musician"
+          "Tea Blender"
         ]
       },
       {
-        "name": "Fieldwork and Public Service",
+        "name": "Civic Work and Law",
+        "traits": [
+          "Community Coordinator",
+          "Lamplighter",
+          "Watch Recruit",
+          "Petition Clerk",
+          "Hearing Assistant",
+          "Customs Clerk",
+          "Village Steward",
+          "Warehouse Keeper",
+          "Court Messenger"
+        ]
+      },
+      {
+        "name": "Roads, Rivers and Transport",
+        "traits": [
+          "Courier",
+          "Caravan Hand",
+          "Sailor",
+          "Cartographer",
+          "Ferryman",
+          "River Pilot",
+          "Porter",
+          "Caravan Cook",
+          "Salvage Diver",
+          "Bridge Inspector"
+        ]
+      },
+      {
+        "name": "Textiles, Timber and Earthen Craft",
+        "traits": [
+          "Carpenter",
+          "Mason",
+          "Tailor",
+          "Bookbinder",
+          "Papermaker",
+          "Lacquerer",
+          "Weaver",
+          "Ropemaker",
+          "Shipwright",
+          "Miller",
+          "Potter",
+          "Dyer"
+        ]
+      },
+      {
+        "name": "Stage, Festivals and Story",
+        "traits": [
+          "Performer",
+          "Stage Magician",
+          "Dancer",
+          "Musician",
+          "Actor",
+          "Storyteller",
+          "Puppeteer",
+          "Costume Maker",
+          "Festival Organizer"
+        ]
+      },
+      {
+        "name": "Woodland, Fields and Wildlife",
         "traits": [
           "Field Scout",
           "Animal Caretaker",
-          "Courier",
-          "Community Coordinator",
           "Farmer",
+          "Herbalist",
           "Gardener",
           "Fisher",
           "Shepherd",
@@ -282,19 +439,47 @@
           "Monster Hunter Apprentice",
           "Miner",
           "Prospector",
-          "Caravan Hand",
-          "Sailor",
-          "Cartographer",
-          "Lamplighter",
-          "Watch Recruit",
-          "Private Investigator"
+          "Beekeeper",
+          "Orchardist",
+          "Charcoal Burner",
+          "Woodcutter",
+          "Trapmaker",
+          "Gamekeeper"
+        ]
+      },
+      {
+        "name": "Martial Service and Pursuit",
+        "traits": [
+          "Dojo Assistant",
+          "Household Retainer",
+          "Bodyguard",
+          "Bounty Tracker",
+          "Scout Runner"
+        ]
+      },
+      {
+        "name": "Shrines and Spiritual Care",
+        "traits": [
+          "Shrine Attendant",
+          "Funeral Assistant",
+          "Ritual Musician",
+          "Spirit Mediator"
+        ]
+      },
+      {
+        "name": "Discreet and Questionable Trades",
+        "traits": [
+          "Smuggler",
+          "Fence",
+          "Forger",
+          "Locksmith"
         ]
       }
     ]
   },
   "Special Talent": {
     "name": "Special Talent",
-    "maxSelections": 1,
+    "maxSelections": 2,
     "traits": [
       "Living Index",
       "Trouble in the Air",
@@ -343,9 +528,15 @@
       "Covenant of the Small Guest",
       "Soul-Lantern Keeper",
       "Golden Burden",
-      "Hundred-Tool Instinct"
+      "Hundred-Tool Instinct",
+      "Breath before the Blade",
+      "Root at the Heel",
+      "Ear for the Returning Bell",
+      "Hands that Know the Form",
+      "A Host at Any Hearth",
+      "Borrowed Storm Nerve"
     ],
-    "description": "Optional — choose one unusual gift, blessing or exceptional aptitude, or skip. Benefits are substantial but bounded; stronger gifts have the listed trade-offs. A granted discipline or technique is learned as stated without adding an affinity. No Space, Time, automatic authority or compulsory deity relationship is included.",
+    "description": "Optional — choose up to two unusual gifts, blessings or exceptional aptitudes, or skip. Benefits are substantial but bounded; stronger gifts have the listed trade-offs. A granted discipline or technique is learned as stated without adding an affinity. No Space, Time, automatic authority or compulsory deity relationship is included.",
     "subcategories": [
       {
         "name": "Instinct and Ingenuity",
@@ -414,6 +605,17 @@
           "Golden Burden",
           "Hundred-Tool Instinct"
         ]
+      },
+      {
+        "name": "Roads and Forms",
+        "traits": [
+          "Breath before the Blade",
+          "Root at the Heel",
+          "Ear for the Returning Bell",
+          "Hands that Know the Form",
+          "A Host at Any Hearth",
+          "Borrowed Storm Nerve"
+        ]
       }
     ]
   },
@@ -459,7 +661,13 @@
       "Fighting Umbrella Kit",
       "Focus Cord Kit",
       "Crystal Focus Kit",
-      "Casting Card Kit"
+      "Casting Card Kit",
+      "Yari Road Kit",
+      "Naginata Practice Kit",
+      "Yumi Road Kit",
+      "Watch Hook Kit",
+      "Reinforced Fan Kit",
+      "Shrine Staff Kit"
     ],
     "description": "Choose one basic casting, martial or practical kit, or Hand-Casting Practice for no extra item. It is independent of your training style. Ordinary tools, clothing and remembered techniques stay distinct; a kit grants only its listed items once.",
     "subcategories": [

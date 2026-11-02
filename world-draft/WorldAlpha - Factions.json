@@ -201,5 +201,61 @@
     "initialKnown": false,
     "basicInfo": "The remaining caretaker and bound garden vessels of the Sepulchral Conservatory. Some frames obey old tending instructions; others hold conscious charges whose wishes differ. They are not one uniform mind.",
     "hiddenInfo": "Threnvoss refuses to release the charges because the last failed restoration convinced the caretaker that every departure was another death. Its fear has become coercive. Actual release, restraint or defeat can change the sanctuary; a promise alone does not."
+  },
+  "Akitsuhara": {
+    "name": "Akitsuhara",
+    "factionType": "major",
+    "basicInfo": "Akitsuhara is an independent Oni-majority country of towns, farms, shrines, trades and forests. Citizenship does not prescribe a profession, personal loyalty or magical discipline.",
+    "hiddenInfo": "Use the actual members, remit, resources and unresolved disputes. Rank is not omniscience; ordinary cooperation does not recruit a person or bind the player to a faction.",
+    "initialKnown": true
+  },
+  "Kagetsuna Shogunate": {
+    "name": "Kagetsuna Shogunate",
+    "factionType": "major",
+    "basicInfo": "The Shogunal government under Shōen Kagetsuna coordinates national roads, external agreements and common law. Territorial houses retain real rights; clerks, magistrates and watch officers have defined public duties.",
+    "hiddenInfo": "Use the actual members, remit, resources and unresolved disputes. Rank is not omniscience; ordinary cooperation does not recruit a person or bind the player to a faction.",
+    "initialKnown": true
+  },
+  "House Saionoma": {
+    "name": "House Saionoma",
+    "factionType": "major",
+    "basicInfo": "Masazane Saionoma’s western household has agricultural, ferry and granary interests. Its relatives and retainers disagree over obligations, access and the extent of local exemptions.",
+    "hiddenInfo": "Use the actual members, remit, resources and unresolved disputes. Rank is not omniscience; ordinary cooperation does not recruit a person or bind the player to a faction.",
+    "initialKnown": true
+  },
+  "House Tsubakiri": {
+    "name": "House Tsubakiri",
+    "factionType": "major",
+    "basicInfo": "Kureha Tsubakiri’s eastern household sponsors trade and a small imported magitech workshop. Legitimate apprentices and ordinary relatives are not automatically party to every private scheme.",
+    "hiddenInfo": "Use the actual members, remit, resources and unresolved disputes. Rank is not omniscience; ordinary cooperation does not recruit a person or bind the player to a faction.",
+    "initialKnown": true
+  },
+  "Reed Veil Fellowship": {
+    "name": "Reed Veil Fellowship",
+    "factionType": "minor",
+    "basicInfo": "Independent scouts and shinobi train observation, fieldcraft, message work and withdrawal. Yuzuri Kageura negotiates commissions and refuses some orders; membership is neither an ancestry nor universal assassination authority.",
+    "hiddenInfo": "Use the actual members, remit, resources and unresolved disputes. Rank is not omniscience; ordinary cooperation does not recruit a person or bind the player to a faction.",
+    "initialKnown": false
+  },
+  "Maple Lantern Custodians": {
+    "name": "Maple Lantern Custodians",
+    "factionType": "minor",
+    "basicInfo": "A loose association of shrine attendants maintains local rites, practical boundaries and public shelters. Custodians disagree about custom and scholarship; they neither own every spirit nor command a single mandatory religion.",
+    "hiddenInfo": "Use the actual members, remit, resources and unresolved disputes. Rank is not omniscience; ordinary cooperation does not recruit a person or bind the player to a faction.",
+    "initialKnown": false
+  },
+  "Morning Crane School": {
+    "name": "Morning Crane School",
+    "factionType": "minor",
+    "basicInfo": "Chinatsu Hanegi’s martial school teaches measured blade work, control and safe practice. Fees and actual training do not grant a household office or permanent allegiance.",
+    "hiddenInfo": "Use the actual members, remit, resources and unresolved disputes. Rank is not omniscience; ordinary cooperation does not recruit a person or bind the player to a faction.",
+    "initialKnown": false
+  },
+  "Broken Kite Band": {
+    "name": "Broken Kite Band",
+    "factionType": "minor",
+    "basicInfo": "Renga Itsuzaki’s road band lives on intimidation, stolen goods and opportunistic tolls. Its members can be funny, loyal, frightened or cruel; a joke does not make their victims’ losses harmless.",
+    "hiddenInfo": "Use the actual members, remit, resources and unresolved disputes. Rank is not omniscience; ordinary cooperation does not recruit a person or bind the player to a faction.",
+    "initialKnown": false
   }
 }

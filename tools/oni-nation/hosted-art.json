@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Shōen Kagetsuna",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/ef84827a-fa90-4c69-9c4a-b7f6b93e340f.png",
+    "sha256": "cf6755658da4de66d2c3cd9f443a5a59e9781db187339380be0d41df72c118aa",
+    "file": "world-draft/npc portraits/Akitsuhara/Shōen Kagetsuna.png"
+  },
+  {
+    "name": "Ayame Kagetsuna",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/df789c77-f892-41ae-96be-c77da7a27cd8.png",
+    "sha256": "1c431864fe60209debbc9ee4ffac1299ffa5346c04e9a4b692bd5c66c9fb7a56",
+    "file": "world-draft/npc portraits/Akitsuhara/Ayame Kagetsuna.png"
+  },
+  {
+    "name": "Masazane Saionoma",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/96f1545d-3b5d-4fe9-939d-e75feb74724f.png",
+    "sha256": "5b45a2ae9cc32a09e91e29034722def21c75a6d880ad35d0cf51e5a9714c39dc",
+    "file": "world-draft/npc portraits/Akitsuhara/Masazane Saionoma.png"
+  },
+  {
+    "name": "Kureha Tsubakiri",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/6e05b707-ee5e-41ce-b627-c15a47e45533.png",
+    "sha256": "93d66755b93cb8f9ddf0b459a71403b772ca791ca3788ef72dba1b76ec62f577",
+    "file": "world-draft/npc portraits/Akitsuhara/Kureha Tsubakiri.png"
+  },
+  {
+    "name": "Shigure Tsubakiri",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/27d15810-0572-44ce-94c9-27c7acda2750.png",
+    "sha256": "3532618e51b91ee8e908fcd6a8d6aa52cd2384561fa287be5fe8c3cb4d1a478f",
+    "file": "world-draft/npc portraits/Akitsuhara/Shigure Tsubakiri.png"
+  },
+  {
+    "name": "Hiyori Mitsuba",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/67fa42e3-62fd-452b-9a6d-265c0563e0b0.png",
+    "sha256": "3a1c87c58d5fee80fc7237aea64fe493a5012ec347a76424ae60f2fcb9c66fd8",
+    "file": "world-draft/npc portraits/Akitsuhara/Hiyori Mitsuba.png"
+  },
+  {
+    "name": "Sae Kagurazaka",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/24ec3982-63a9-46a4-a4a9-ed46b0117868.png",
+    "sha256": "c869abe8c3201d436bcaf8415ef0202583518e33aa4d4385a4c19f3de88656de",
+    "file": "world-draft/npc portraits/Akitsuhara/Sae Kagurazaka.png"
+  },
+  {
+    "name": "Tōma Sagiri",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/73b04852-7d63-4bef-92e5-aacaa6db559c.png",
+    "sha256": "3ec503b93b9289e40a2901942ff8ca16854ff9df815ce738c170b6d3616db9a3",
+    "file": "world-draft/npc portraits/Akitsuhara/Tōma Sagiri.png"
+  },
+  {
+    "name": "Yuzuri Kageura",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/225c9cce-2e90-4ffa-a905-53f20b000f82.png",
+    "sha256": "c1d52ed90d1501022efa042a4b9bb651b4b0a5dc915299036b44618d07b5d9de",
+    "file": "world-draft/npc portraits/Akitsuhara/Yuzuri Kageura.png"
+  },
+  {
+    "name": "Genzaburō Kanemori",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/ae117aa6-42f7-4cc1-b209-494f3684abdf.png",
+    "sha256": "05a0fc27bbbed70b3f5b9a8b33baad0fe50658f5d51059874ed385bbe00a6ef8",
+    "file": "world-draft/npc portraits/Akitsuhara/Genzaburō Kanemori.png"
+  },
+  {
+    "name": "Kinu Amakusa",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/2d0e9bb2-1b21-494a-a6a3-1fcdde012f92.png",
+    "sha256": "a7a6672173970dc12f5352bbefbeab46d2b55de0a44f78601cb62808f8d04f8e",
+    "file": "world-draft/npc portraits/Akitsuhara/Kinu Amakusa.png"
+  },
+  {
+    "name": "Renga Itsuzaki",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/a020811a-b57f-4175-b9f8-c55156b57fd5.png",
+    "sha256": "7f09277cda51e42940ce188bc02ded8c72df4754ea3d07de3cfe19c2afa4cc23",
+    "file": "world-draft/npc portraits/Akitsuhara/Renga Itsuzaki.png"
+  },
+  {
+    "name": "Hagire",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/d9380767-7739-4c02-bcbc-529a6942e5d8.png",
+    "sha256": "215c6f41441b38578e4b954fe46feb43b3dc75059ce5811f2b0e4ef0ea875fee",
+    "file": "world-draft/npc portraits/Akitsuhara/Hagire.png"
+  },
+  {
+    "name": "Oroha",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/1b2ae6f6-c253-47b2-b65a-b33e37db2ff1.png",
+    "sha256": "f034135e65f9eb52452e3108154de89ae00e5a6a53a9bea0146a5fce944a01db",
+    "file": "world-draft/npc portraits/Akitsuhara/Oroha.png"
+  },
+  {
+    "name": "Veiled Cedar Reach",
+    "target": "REGION_MAP_IMAGE",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/6bba0892-67bd-4100-91b5-4e2b3d7b51f4.png",
+    "sha256": "c09a22090c2514d1b8c35929d9f9ed186899bb40c7fc7a982738bccbf154ebd2",
+    "file": "world-draft/maps/The Veiled Beyond/Veiled Cedar Reach.png"
+  }
+]

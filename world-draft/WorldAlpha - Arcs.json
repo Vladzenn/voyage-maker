@@ -40,5 +40,31 @@
       "Beni Tsunoda is interested in better legitimate pay, not secretly morally opposed to the bullying. Jōta Kamezaki fears losing face and his remaining honest contracts.",
       "A personal agreement can protect one party without fixing the wider problem. The conclusion should state that limited scope honestly."
     ]
+  },
+  "oni_imported_edge": {
+    "id": "oni_imported_edge",
+    "title": "The Price of a New Edge",
+    "theme": "A few imported magitech weapons alter who can threaten whom. Naoe Futami, Hatsu Kanesue, Shigure Tsubakiri and Kureha Tsubakiri have concrete overlapping interests beyond this story. Develop investigation, demonstration and bargaining through the capital and eastern works. The extraordinary articulated prototype is real, finite and guarded. No guns.",
+    "surfacePremise": "Naoe Futami has received coercive land demands while Shigure Tsubakiri quietly acquires space and mechanisms for a private weapon project",
+    "expectedConclusion": "The immediate coercive project is exposed, constrained through a workable agreement, appropriated at a real cost, dismantled or successfully supported by the player. Record the workshop residents’ actual outcomes and the prototype’s real owner and condition. Do not force a coup, assassination or national civil war. A complete local settlement ends this arc; subsequent work remains optional.",
+    "minQuestsForConclusion": 2,
+    "status": "active",
+    "secrets": [
+      "Shigure has hidden an articulated polearm whose crystal feed overheats during long deployment. Hatsu knows the defect but not every political plan.",
+      "Kureha wants bargaining power and may sacrifice her brother’s scheme to retain legitimate investment. She is neither omniscient nor automatically innocent."
+    ]
+  },
+  "oni_veiled_paths": {
+    "id": "oni_veiled_paths",
+    "title": "Where the Fog Answers",
+    "theme": "The Veiled Beyond is a fog-shrouded living wilderness with unsettling mythic scale, deceptive calls and indifferent or dangerous spirits. Keep a reliable return torii and discoverable physical paths. The short bell-repair access quest stays accessible; deeper investigation is optional.",
+    "surfacePremise": "the restored way bell can answer the quiet stone torii near Lanternwood, where an old path vanishes into dense mist",
+    "expectedConclusion": "Conclude a chosen bounded investigation by restoring a refuge path, recovering the real message or making an actual agreement with Oroha. Preserve discoveries, spirit attitudes and actual property. Do not require conquering the realm, erasing player memories or closing the home route.",
+    "minQuestsForConclusion": 2,
+    "status": "active",
+    "secrets": [
+      "Some voices are living mimics; others are repeated impressions. Familiar sound alone does not prove a familiar person is present.",
+      "Oroha knows its crossing and has its own pride and limits. It is not a universal guide or a free familiar."
+    ]
   }
 }

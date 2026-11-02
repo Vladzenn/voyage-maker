@@ -5731,5 +5731,545 @@
     "bonuses": [],
     "tier": "special",
     "estimatedValue": 700
+  },
+  "Plain Uchigatana": {
+    "name": "Plain Uchigatana",
+    "category": "Weapon",
+    "description": "A reliable curved steel blade with a cord-wrapped grip and plain wooden scabbard.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 1
+      }
+    ],
+    "needsMediaGeneration": true,
+    "tier": "mundane",
+    "estimatedValue": 75,
+    "slot": "weapon"
+  },
+  "Roadside Wakizashi": {
+    "name": "Roadside Wakizashi",
+    "category": "Weapon",
+    "description": "A short side sword easily worn while walking, working or sitting at a crowded table.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 1
+      }
+    ],
+    "needsMediaGeneration": true,
+    "tier": "mundane",
+    "estimatedValue": 50,
+    "slot": "weapon"
+  },
+  "Ash-Shaft Yari": {
+    "name": "Ash-Shaft Yari",
+    "category": "Weapon",
+    "description": "A straight spear with a replaceable ash shaft and a narrow steel head.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 1
+      }
+    ],
+    "needsMediaGeneration": true,
+    "tier": "mundane",
+    "estimatedValue": 45,
+    "slot": "weapon"
+  },
+  "Garden-Guard Naginata": {
+    "name": "Garden-Guard Naginata",
+    "category": "Weapon",
+    "description": "A well-balanced polearm with a curved blade and sturdy heel fitting.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 1
+      }
+    ],
+    "needsMediaGeneration": true,
+    "tier": "mundane",
+    "estimatedValue": 90,
+    "slot": "weapon"
+  },
+  "Long-Road Nodachi": {
+    "name": "Long-Road Nodachi",
+    "category": "Weapon",
+    "description": "A long two-handed sword with a generously wrapped grip. Its reach is awkward in small rooms.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 2
+      }
+    ],
+    "needsMediaGeneration": true,
+    "tier": "artisan",
+    "estimatedValue": 220,
+    "slot": "weapon"
+  },
+  "Maplewood Yumi": {
+    "name": "Maplewood Yumi",
+    "category": "Weapon",
+    "description": "An asymmetrical laminated bow with a cloth cover and a practical field grip. Arrows remain separate supplies.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 1
+      }
+    ],
+    "needsMediaGeneration": true,
+    "tier": "mundane",
+    "estimatedValue": 85,
+    "slot": "weapon"
+  },
+  "Practice Bokken": {
+    "name": "Practice Bokken",
+    "category": "Weapon",
+    "description": "A smooth wooden practice sword with a worn oval grip. It is useful for training and still capable of causing injury.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "value": 1
+      }
+    ],
+    "needsMediaGeneration": true,
+    "tier": "mundane",
+    "estimatedValue": 18,
+    "slot": "weapon"
+  },
+  "Short-Chain Kusarigama": {
+    "name": "Short-Chain Kusarigama",
+    "category": "Weapon",
+    "description": "A compact sickle joined to a weighted working chain. Tangled footing or confined allies can spoil its use.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 2
+      }
+    ],
+    "needsMediaGeneration": true,
+    "tier": "artisan",
+    "estimatedValue": 260,
+    "slot": "weapon"
+  },
+  "Watchman's Jitte": {
+    "name": "Watchman's Jitte",
+    "category": "Weapon",
+    "description": "An iron baton with a short side hook, used for catches and close guarded work.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Guarded Combat",
+        "value": 1
+      }
+    ],
+    "needsMediaGeneration": true,
+    "tier": "mundane",
+    "estimatedValue": 38,
+    "slot": "weapon"
+  },
+  "Lacquer-Rib Combat Fan": {
+    "name": "Lacquer-Rib Combat Fan",
+    "category": "Weapon",
+    "description": "A reinforced folding fan with lacquered metal ribs. Opening it is a practiced action, not an automatic shield.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "value": 2
+      }
+    ],
+    "needsMediaGeneration": true,
+    "tier": "artisan",
+    "estimatedValue": 180,
+    "slot": "weapon"
+  },
+  "Cedar Bell Staff": {
+    "name": "Cedar Bell Staff",
+    "category": "Weapon",
+    "description": "A sound cedar staff with a small replaceable bell and a mana-bearing fitting. It assists learned workings.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Soul Magic",
+        "value": 2
+      }
+    ],
+    "needsMediaGeneration": true,
+    "tier": "artisan",
+    "estimatedValue": 150,
+    "slot": "weapon"
+  },
+  "Heavy Boat Hook": {
+    "name": "Heavy Boat Hook",
+    "category": "Weapon",
+    "description": "A long working hook with a stout grip for boats, loads and awkward leverage.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Force Combat",
+        "value": 1
+      }
+    ],
+    "needsMediaGeneration": true,
+    "tier": "mundane",
+    "estimatedValue": 30,
+    "slot": "weapon"
+  },
+  "Woven Road Coat": {
+    "name": "Woven Road Coat",
+    "category": "Armor",
+    "description": "A layered travel coat reinforced at the shoulders, colorful enough to be recognized across a wet yard.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 3
+      }
+    ],
+    "needsMediaGeneration": true,
+    "tier": "mundane",
+    "estimatedValue": 55,
+    "slot": "body"
+  },
+  "Laced Lamellar Vest": {
+    "name": "Laced Lamellar Vest",
+    "category": "Armor",
+    "description": "Overlapping small plates laced to a flexible backing. The fittings need drying after hard rain.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 7
+      }
+    ],
+    "needsMediaGeneration": true,
+    "tier": "artisan",
+    "estimatedValue": 260,
+    "slot": "body"
+  },
+  "Archer's Finger Guard": {
+    "name": "Archer's Finger Guard",
+    "category": "Armor",
+    "description": "A fitted leather guard and wrist wrap for a practiced bow hand.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "value": 1
+      }
+    ],
+    "needsMediaGeneration": true,
+    "tier": "mundane",
+    "estimatedValue": 20,
+    "slot": "hands"
+  },
+  "Rain-Reed Cape": {
+    "name": "Rain-Reed Cape",
+    "category": "Armor",
+    "description": "A woven reed cape that sheds ordinary rain and smells faintly of grass when damp.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "survival",
+        "value": 1
+      }
+    ],
+    "needsMediaGeneration": true,
+    "tier": "mundane",
+    "estimatedValue": 25,
+    "slot": "Back"
+  },
+  "Quiet-Sole Sandals": {
+    "name": "Quiet-Sole Sandals",
+    "category": "Armor",
+    "description": "Soft-lined sandals with replaceable soles. They reward careful footwork rather than silencing every step.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Stealth",
+        "value": 2
+      }
+    ],
+    "needsMediaGeneration": true,
+    "tier": "artisan",
+    "estimatedValue": 110,
+    "slot": "feet"
+  },
+  "Workman's Forearm Plates": {
+    "name": "Workman's Forearm Plates",
+    "category": "Armor",
+    "description": "Small fitted plates protect the backs of the forearms while leaving the hands free.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 3
+      }
+    ],
+    "needsMediaGeneration": true,
+    "tier": "mundane",
+    "estimatedValue": 40,
+    "slot": "hands"
+  },
+  "Indigo Repair Satchel": {
+    "name": "Indigo Repair Satchel",
+    "category": "Tool",
+    "description": "A waxed satchel holding clamps, spare wire, small files and inspection lenses; replacement components cost money.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Magitech",
+        "value": 1
+      }
+    ],
+    "needsMediaGeneration": true,
+    "tier": "mundane",
+    "estimatedValue": 45,
+    "slot": "tool"
+  },
+  "Pilgrim's Knot Cord": {
+    "name": "Pilgrim's Knot Cord",
+    "category": "Tool",
+    "description": "A strong marked cord useful for measuring, tethering and remembering a route in poor visibility.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "survival",
+        "value": 1
+      }
+    ],
+    "needsMediaGeneration": true,
+    "tier": "mundane",
+    "estimatedValue": 12,
+    "slot": "tool"
+  },
+  "Field Calligraphy Kit": {
+    "name": "Field Calligraphy Kit",
+    "category": "Tool",
+    "description": "Brush, ink stone, folding board and ordinary paper for recording observations or designing a spell.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "spellcraft",
+        "value": 1
+      }
+    ],
+    "needsMediaGeneration": true,
+    "tier": "mundane",
+    "estimatedValue": 25,
+    "slot": "tool"
+  },
+  "Lens of the Honest Cut": {
+    "name": "Lens of the Honest Cut",
+    "category": "Tool",
+    "description": "A close lens that makes scratches, grain and small defects easier to examine in good light.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "investigation",
+        "value": 2
+      }
+    ],
+    "needsMediaGeneration": true,
+    "tier": "artisan",
+    "estimatedValue": 240,
+    "slot": "tool"
+  },
+  "Pulse-Fold Katana": {
+    "name": "Pulse-Fold Katana",
+    "category": "Weapon",
+    "description": "A scarce imported magitech sword with an articulated crystal feed along its spine. Its pulse assists one committed cut; heat and a depleted feed demand attention.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 3
+      }
+    ],
+    "needsMediaGeneration": true,
+    "tier": "special",
+    "estimatedValue": 1600,
+    "slot": "weapon"
+  },
+  "Ginkgo Lever Crossbow": {
+    "name": "Ginkgo Lever Crossbow",
+    "category": "Weapon",
+    "description": "An expensive crossbow whose mana-driven lever helps span the bow. It fires actual bolts and needs reloading; its hot crystal housing must be allowed to cool.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 3
+      }
+    ],
+    "needsMediaGeneration": true,
+    "tier": "special",
+    "estimatedValue": 1400,
+    "slot": "weapon"
+  },
+  "Braced Current Cuirass": {
+    "name": "Braced Current Cuirass",
+    "category": "Armor",
+    "description": "A fitted imported cuirass with powered brace joints. Its weight and finite charge make it a serious commitment for its owner.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 10
+      }
+    ],
+    "needsMediaGeneration": true,
+    "tier": "special",
+    "estimatedValue": 1800,
+    "slot": "body"
+  },
+  "Rain-Test Inspection Frame": {
+    "name": "Rain-Test Inspection Frame",
+    "category": "Tool",
+    "description": "A portable clamp frame for inspecting a real weapon feed during controlled tests. It neither powers nor repairs an absent device.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Magitech",
+        "value": 3
+      }
+    ],
+    "needsMediaGeneration": true,
+    "tier": "artisan",
+    "estimatedValue": 360,
+    "slot": "tool"
+  },
+  "Foxglove Honey Cakes": {
+    "name": "Foxglove Honey Cakes",
+    "category": "Consumable",
+    "description": "Four fragrant little cakes wrapped in a leaf, sticky enough to require a careful pocket.",
+    "bonuses": [],
+    "needsMediaGeneration": true,
+    "tier": "mundane",
+    "estimatedValue": 8
+  },
+  "Snowcedar Soup Parcel": {
+    "name": "Snowcedar Soup Parcel",
+    "category": "Consumable",
+    "description": "A sealed pot of hearty stew meant to be warmed at a real shelter.",
+    "bonuses": [],
+    "needsMediaGeneration": true,
+    "tier": "mundane",
+    "estimatedValue": 10
+  },
+  "Wayfarer's Salt Plums": {
+    "name": "Wayfarer's Salt Plums",
+    "category": "Consumable",
+    "description": "A small packet of fiercely sour plums, favored by travelers who enjoy arguing about the best variety.",
+    "bonuses": [],
+    "needsMediaGeneration": true,
+    "tier": "mundane",
+    "estimatedValue": 6
+  },
+  "Festival Fox Mask": {
+    "name": "Festival Fox Mask",
+    "category": "Tool",
+    "description": "A brightly painted wooden festival mask with a new ribbon and a slightly lopsided smile.",
+    "bonuses": [],
+    "needsMediaGeneration": true,
+    "tier": "mundane",
+    "estimatedValue": 16
+  },
+  "A Suspiciously Polite Fan": {
+    "name": "A Suspiciously Polite Fan",
+    "category": "Relic",
+    "description": "A lacquer fan that clicks shut whenever its owner is about to give an embarrassingly long introduction. It cannot stop speech.",
+    "bonuses": [],
+    "needsMediaGeneration": true,
+    "tier": "artisan",
+    "estimatedValue": 160
+  },
+  "Cup of the Second Opinion": {
+    "name": "Cup of the Second Opinion",
+    "category": "Relic",
+    "description": "Tea poured into this cup briefly reflects a slightly different expression from its drinker. The image is a playful enchantment, not proof of hidden intent.",
+    "bonuses": [],
+    "needsMediaGeneration": true,
+    "tier": "artisan",
+    "estimatedValue": 180
+  },
+  "Unfinished Boundary Doll": {
+    "name": "Unfinished Boundary Doll",
+    "category": "Relic",
+    "description": "A little unfinished wooden figure with a hollow back. A soft tapping answers from it near certain old boundary stones.",
+    "bonuses": [],
+    "needsMediaGeneration": true,
+    "tier": "special",
+    "estimatedValue": 520
+  },
+  "Amber-Salt Sample Case": {
+    "name": "Amber-Salt Sample Case",
+    "category": "Tool",
+    "description": "Small sealed compartments hold separately labeled mineral samples. The case itself is empty when purchased.",
+    "bonuses": [],
+    "needsMediaGeneration": true,
+    "tier": "mundane",
+    "estimatedValue": 30
+  },
+  "White Crane Message Fold": {
+    "name": "White Crane Message Fold",
+    "category": "Document",
+    "description": "Thick folded paper that can keep a short ordinary message dry. It has no power to choose a recipient or fly there by itself.",
+    "bonuses": [],
+    "needsMediaGeneration": true,
+    "tier": "artisan",
+    "estimatedValue": 75
+  },
+  "Cedar Thread Spool": {
+    "name": "Cedar Thread Spool",
+    "category": "Tool",
+    "description": "Strong pale thread used by repairers and shrine attendants, with a pleasantly resinous smell.",
+    "bonuses": [],
+    "needsMediaGeneration": true,
+    "tier": "mundane",
+    "estimatedValue": 12
+  },
+  "Lanternwood Resin Lump": {
+    "name": "Lanternwood Resin Lump",
+    "category": "Tool",
+    "description": "Dark fragrant resin gathered from an actual fallen branch, useful to an informed craftsperson.",
+    "bonuses": [],
+    "needsMediaGeneration": true,
+    "tier": "artisan",
+    "estimatedValue": 65
+  },
+  "Hagire's Torn Hem": {
+    "name": "Hagire's Torn Hem",
+    "category": "Relic",
+    "description": "A ragged strip of faded floral cloth torn from the towering cedar-haunt. The fibers twitch once when a distant branch cracks.",
+    "bonuses": [],
+    "needsMediaGeneration": true,
+    "tier": "special",
+    "estimatedValue": 750
+  },
+  "Restored Way Bell": {
+    "name": "Restored Way Bell",
+    "category": "Key",
+    "description": "A small bronze way bell repaired at Evening Maple Shrine. Its clear double note answers the old hook at Moonless Torii.",
+    "bonuses": [],
+    "needsMediaGeneration": true,
+    "tier": "mundane",
+    "estimatedValue": 20
+  },
+  "Oni Nation Portal Key": {
+    "name": "Oni Nation Portal Key",
+    "category": "Key",
+    "description": "A reusable issued transit key for the Evertree route to Akitsuhara. Its carved torii mark identifies Benitsuru Transit Shrine as the outward destination; the receiving hall’s return passage leads to the Evertree Portal Room.",
+    "bonuses": [],
+    "needsMediaGeneration": true
   }
 }

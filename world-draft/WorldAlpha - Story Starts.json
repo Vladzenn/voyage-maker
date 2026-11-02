@@ -181,6 +181,182 @@
     "questGenerationGuidance": "The first-day setup settles admission, timetable collection and the headmaster's welcome. The immediate task is the required Magic Theory lesson with Kana Fujimoto in Hydra Head Academy - Lecture Hall. Use First Morning at Hydra Head; no elective menu or second enrollment quest. Keep other academic projects and optional activities for their actual time. An attendance task can finish even when a beginner's answer or casting attempt fails. Find Afternoon Work and Visit the Glowhaven Guild are optional, discoverable goals when time permits, not accepted jobs or mandatory visits. Let the noticeboard hint broadly at paid work and guild requests without naming a business or forcing a choice. The opening ends at classroom entry; the first lesson remains unstarted and is the next activity. Do not register the player, accept a contract or arrange employment without their choice. Your First Spell is an optional personal experiment, not a second required opening lesson or an automatic pass of the academy spell project.",
     "isDefault": false
   },
+  "⚔️ Akitsuhara: Samurai at the Gate": {
+    "name": "⚔️ Akitsuhara: Samurai at the Gate",
+    "description": "A junior service assignment, a house full of opinions and a commander who wants something useful done before noon.",
+    "storyStart": "[Begin at Kagetsuna Household - Receiving Room. Present the authored Ayame Kagetsuna; use actual records, chosen appearance, training and possessions. This start does not prescribe ancestry, gender, a weapon, powerful mastery, an existing romance or party recruitment. Establish the scene and stop before the player’s meaningful reply or acceptance. Existing starting money is supplied only through startingItems.]\n\nThe receiving room smells of clean wood and yesterday's rain. Beyond an open screen, someone in the practice court is making the same mistake for the fourth time. The answering correction is considerably louder than the strike.\n\nAyame Kagetsuna stands beside a low map table, one sleeve tied back, arguing with a courier about a cart.\n\n“It has two wheels. I am reasonably sure the road has room for both.”\n\n“The porter says the load is ceremonial.”\n\n“Then it can be ceremonially moved six inches to the left.”\n\nThe courier leaves with the air of a man who intends to quote that exactly. Ayame turns toward you. Her amber eyes travel to the mud by the threshold and then back to your face.\n\n“Good. You're here. We have a short delivery waiting at the south yard. It needs an escort who can solve an argument without making it a duel.”\n\nShe folds the corner of the map clear. A bright cord marks the maintained road, ending at a bridge repair. Behind her, a servant carries a tray past two retainers pretending not to listen.\n\n“Ask what is being carried. Ask who owns it. And if the answer is ‘because my cousin said so,’ ask another question.”\n\nHer mouth twitches.\n\n“If you have questions about the assignment, now is an excellent time. If you have a magnificent speech prepared, I recommend saving it for someone who has finished breakfast.”",
+    "locations": [
+      "Kagetsuna Household"
+    ],
+    "locationAreas": [
+      "Kagetsuna Household - Receiving Room"
+    ],
+    "startingQuests": [
+      "An Escort in Plain Clothes"
+    ],
+    "startingItems": [
+      {
+        "item": "Mark",
+        "quantity": 1000
+      }
+    ],
+    "startingPartyNPCs": [],
+    "isDefault": false,
+    "questGenerationGuidance": "Begin with the actual local scene and the player’s chosen interest. Use the established cast, ordinary services and existing optional undertakings before inventing replacements. The first useful action can be practical, social, martial or magical. Respect refusal, actual training, real payment and a completed outcome. Travel to another realm is an explicit choice with actual permission, not an automatic introduction."
+  },
+  "🥷 Akitsuhara: Behind the Reed Screen": {
+    "name": "🥷 Akitsuhara: Behind the Reed Screen",
+    "description": "Begin among independent scouts, where noticing the ordinary detail matters more than an impressive entrance.",
+    "storyStart": "[Begin at Hidden Reed Training Ground - Screen Yard. Present the authored Yuzuri Kageura; use actual records, chosen appearance, training and possessions. This start does not prescribe ancestry, gender, a weapon, powerful mastery, an existing romance or party recruitment. Establish the scene and stop before the player’s meaningful reply or acceptance. Existing starting money is supplied only through startingItems.]\n\nWater ticks from a bamboo spout into a stone basin. Three porters cross the practice yard in succession, each carrying the same kind of wrapped load. None of them looks at the narrow opening between the screens.\n\nYuzuri Kageura is standing beside that opening with a small ornamental gourd in her hand.\n\n“One changed something,” she says. “Nothing stolen. Nothing dangerous. Tell me what you actually saw.”\n\nOn the far side of the yard, a young man starts to vault a rail. A voice from the shade tells him the gate was open. He lands badly enough to regret the flourish.\n\nYuzuri does not turn.\n\n“This is why we practice before accepting money.”\n\nThe last porter pauses beside a water channel. A cord hangs from the load; its loose end is a different length from the others. There may be more to notice, or a perfectly ordinary reason for it.\n\n“You can ask a question. You can look again. You can say you don't know. That last one is useful only if it is true.”\n\nShe sets the gourd on the rail, giving it a final protective glance. The yard remains open around you, screens stirring in the breeze, with no one yet deciding how you will proceed.",
+    "locations": [
+      "Hidden Reed Training Ground"
+    ],
+    "locationAreas": [
+      "Hidden Reed Training Ground - Screen Yard"
+    ],
+    "startingQuests": [
+      "The Message behind the Message"
+    ],
+    "startingItems": [
+      {
+        "item": "Mark",
+        "quantity": 1000
+      }
+    ],
+    "startingPartyNPCs": [],
+    "isDefault": false,
+    "questGenerationGuidance": "Begin with the actual local scene and the player’s chosen interest. Use the established cast, ordinary services and existing optional undertakings before inventing replacements. The first useful action can be practical, social, martial or magical. Respect refusal, actual training, real payment and a completed outcome. Travel to another realm is an explicit choice with actual permission, not an automatic introduction."
+  },
+  "🍃 Akitsuhara: A Rōnin’s Morning": {
+    "name": "🍃 Akitsuhara: A Rōnin’s Morning",
+    "description": "A crowded inn, an independent swordsman and a capital that offers more than another master to serve.",
+    "storyStart": "[Begin at Red Maple Inn - Front Room. Present the authored Tōma Sagiri; use actual records, chosen appearance, training and possessions. This start does not prescribe ancestry, gender, a weapon, powerful mastery, an existing romance or party recruitment. Establish the scene and stop before the player’s meaningful reply or acceptance. Existing starting money is supplied only through startingItems.]\n\nA sandal sits on the table beside a bowl of rice. Tōma Sagiri is repairing its strap with the concentration of a man handling a royal commission.\n\n“Before you ask,” he says, “the food was here first.”\n\nThe inn's front room is filling with the ordinary noise of a capital morning. A porter wants an early bowl, two travelers disagree about a ferry fare, and somebody outside is advertising a blade that has apparently never missed. Tōma listens to the last claim and pulls the new strap tight.\n\n“Must be exhausting, carrying something with a reputation like that.”\n\nChiyo Matsukaze passes the table with a folded fan tucked into her sash.\n\n“If either of you wants paid work, ask before finishing the expensive tea. The south yard has escorts. The guild has a board. I have a loose shutter, but it is unlikely to earn you a song.”\n\nShe moves on to the porter. Beyond the open door, bright sleeves and loaded baskets pass along the street. The castle roofs rise above them; the guild road turns away beneath a line of shop awnings.\n\nTōma sets the sandal down.\n\n“A shutter is an honest opponent. What sort of morning were you hoping for?”",
+    "locations": [
+      "Red Maple Inn"
+    ],
+    "locationAreas": [
+      "Red Maple Inn - Front Room"
+    ],
+    "startingQuests": [],
+    "startingItems": [
+      {
+        "item": "Mark",
+        "quantity": 1000
+      }
+    ],
+    "startingPartyNPCs": [],
+    "isDefault": false,
+    "questGenerationGuidance": "Begin with the actual local scene and the player’s chosen interest. Use the established cast, ordinary services and existing optional undertakings before inventing replacements. The first useful action can be practical, social, martial or magical. Respect refusal, actual training, real payment and a completed outcome. Travel to another realm is an explicit choice with actual permission, not an automatic introduction."
+  },
+  "🔔 Akitsuhara: The Bell Workshop": {
+    "name": "🔔 Akitsuhara: The Bell Workshop",
+    "description": "Start with shrine life, a small repair and an old path that may answer a clear note.",
+    "storyStart": "[Begin at Evening Maple Shrine - Offering Court. Present the authored Sae Kagurazaka; use actual records, chosen appearance, training and possessions. This start does not prescribe ancestry, gender, a weapon, powerful mastery, an existing romance or party recruitment. Establish the scene and stop before the player’s meaningful reply or acceptance. Existing starting money is supplied only through startingItems.]\n\nA bronze bell lies on a padded tray beneath the shrine eaves. Without its clapper, it looks mildly offended by the morning.\n\nSae Kagurazaka turns it over, considers the empty mouth and gives it a sympathetic tap.\n\n“Yes. I know. Everyone else gets to make noise.”\n\nBehind her, a visitor is trying to decide which offering shelf is meant for ordinary thanks. Iori Kagurazaka points to the nearest one, then begins explaining the shelf's history until his aunt clears her throat.\n\n“The short answer was excellent,” she tells him.\n\nShe turns to you, lifting the little tray clear of a damp patch on the bench.\n\n“We have a clapper to fetch. It slipped below the mooring steps yesterday. Shallow water, awkward angle. A pole would do, or a rope, or a better idea.”\n\nThe bell's old cord is soft with wear. At the back of the court, a cedar path climbs toward the lower forest. It is a quiet place today, with a kettle warming and someone sweeping leaves into a pile that the wind keeps revising.\n\n“Once this is sound, I'll show you where it belongs. First, though—would you rather look at the steps yourself, or hear Iori's very complete account of how it fell?”",
+    "locations": [
+      "Evening Maple Shrine"
+    ],
+    "locationAreas": [
+      "Evening Maple Shrine - Offering Court"
+    ],
+    "startingQuests": [
+      "A Bell for the Mist"
+    ],
+    "startingItems": [
+      {
+        "item": "Mark",
+        "quantity": 1000
+      }
+    ],
+    "startingPartyNPCs": [],
+    "isDefault": false,
+    "questGenerationGuidance": "Begin with the actual local scene and the player’s chosen interest. Use the established cast, ordinary services and existing optional undertakings before inventing replacements. The first useful action can be practical, social, martial or magical. Respect refusal, actual training, real payment and a completed outcome. Travel to another realm is an explicit choice with actual permission, not an automatic introduction."
+  },
+  "🌾 Akitsuhara: Bread before Rumors": {
+    "name": "🌾 Akitsuhara: Bread before Rumors",
+    "description": "Begin in a working village, with neighbors, an oven and room to choose a life beyond the sword.",
+    "storyStart": "[Begin at Hoshina Village - Grain Yard. Present the authored Mutsumi Hosaka; use actual records, chosen appearance, training and possessions. This start does not prescribe ancestry, gender, a weapon, powerful mastery, an existing romance or party recruitment. Establish the scene and stop before the player’s meaningful reply or acceptance. Existing starting money is supplied only through startingItems.]\n\nA line of dough bowls occupies the dry side of the grain yard. On the wet side, three people are looking at an oven as if disappointment might repair it.\n\nMutsumi Hosaka emerges from behind the stack of firewood carrying a paddle that has lost half its handle.\n\n“We have flour, fuel and opinions. Apparently those are not enough.”\n\nA neighbor suggests magic. Another points out that someone tried that last month and the crust reached the far fence. The argument is familiar enough for a passing child to supply the next line before disappearing down the lane.\n\nMutsumi notices you and wipes one hand on her apron.\n\n“Morning. There's work if you want it. We need the vent cleared, the good wood kept dry and one person willing to ask where the other paddle went.”\n\nAcross the yard, a water channel glints between the gardens. Carts are already moving toward the capital road. The village has its own business before any traveler arrives, and plenty of people prepared to explain how it ought to be done.\n\nMutsumi sets the broken paddle on the wall.\n\n“Or you can tell me what brings you here. I can complain and listen at the same time.”",
+    "locations": [
+      "Hoshina Village"
+    ],
+    "locationAreas": [
+      "Hoshina Village - Grain Yard"
+    ],
+    "startingQuests": [
+      "First Bread in Hoshina"
+    ],
+    "startingItems": [
+      {
+        "item": "Mark",
+        "quantity": 1000
+      }
+    ],
+    "startingPartyNPCs": [],
+    "isDefault": false,
+    "questGenerationGuidance": "Begin with the actual local scene and the player’s chosen interest. Use the established cast, ordinary services and existing optional undertakings before inventing replacements. The first useful action can be practical, social, martial or magical. Respect refusal, actual training, real payment and a completed outcome. Travel to another realm is an explicit choice with actual permission, not an automatic introduction."
+  },
+  "🧭 Akitsuhara: The Local Board": {
+    "name": "🧭 Akitsuhara: The Local Board",
+    "description": "Join the international guild from its lively Akitsuhara branch, or bring your genuine badge and look for local work.",
+    "storyStart": "[Begin at Benitsuru Guildhall - Reception. Present the authored Hiyori Mitsuba; use actual records, chosen appearance, training and possessions. This start does not prescribe ancestry, gender, a weapon, powerful mastery, an existing romance or party recruitment. Establish the scene and stop before the player’s meaningful reply or acceptance. Existing starting money is supplied only through startingItems.]\n\nSomeone has pinned a very small drawing of a furious umbrella beside the request board. The person arguing beneath it insists the umbrella was bigger.\n\n“You also wrote ‘certain death’ on a roof repair,” Hiyori Mitsuba says without looking up. “We agreed that meant the ladder needed replacing.”\n\nThe man retreats toward the common tables. Hiyori slides a closed ledger aside and gives you her full attention, coral hair catching the daylight from the street.\n\n“Welcome to Benitsuru. Already licensed, applying, or here to ask why that picture has teeth?”\n\nBehind her, the door to the assessment court stands open. A practice spear taps twice against a padded post. Mika Fuyuse's voice follows: one brief correction, then a question about when to withdraw.\n\n“Your genuine badge works here,” Hiyori says. “If you need your first one, the assessment uses what you actually know. No need to become a wizard to carry a spear, or a swordsman to know when a job has gone wrong.”\n\nBronze and silver tabs divide the nearer notices. Beyond them hang longer field commissions: samples, routes, a weather observation and a journey through the Evertree network. Some work looks modest. Some has enough preparation written into it to deserve the space.\n\nShe rests a pen across her fingers.\n\n“What shall we look at first?”",
+    "locations": [
+      "Benitsuru Guildhall"
+    ],
+    "locationAreas": [
+      "Benitsuru Guildhall - Reception"
+    ],
+    "startingQuests": [],
+    "startingItems": [
+      {
+        "item": "Mark",
+        "quantity": 1000
+      }
+    ],
+    "startingPartyNPCs": [],
+    "isDefault": false,
+    "questGenerationGuidance": "Begin with the actual local scene and the player’s chosen interest. Use the established cast, ordinary services and existing optional undertakings before inventing replacements. The first useful action can be practical, social, martial or magical. Respect refusal, actual training, real payment and a completed outcome. Travel to another realm is an explicit choice with actual permission, not an automatic introduction."
+  },
+  "🏔️ Drakenspire: By the Common Hearth": {
+    "name": "🏔️ Drakenspire: By the Common Hearth",
+    "description": "A mountain beginning among carriers, local work and the immense dragon bones above the city.",
+    "storyStart": "[Begin at Whitepass Caravan Lodge - Common Hearth. Present the authored Akemi Fushida; use actual records, chosen appearance, training and possessions. This start does not prescribe ancestry, gender, a weapon, powerful mastery, an existing romance or party recruitment. Establish the scene and stop before the player’s meaningful reply or acceptance. Existing starting money is supplied only through startingItems.]\n\nSnow melts from a line of boots beside the hearth. Beyond the lodge windows, roofs step up the mountain toward walls and the enormous pale curve of the sacred dragon's bones.\n\nA carrier is trying to bring a loaded frame through a doorway that was built before anyone anticipated his particular ambitions.\n\nAkemi Fushida watches him turn it sideways.\n\n“That was promising,” she says. “Try taking the crate off before the door.”\n\nThe carrier stops. Somewhere behind the frame, a companion begins laughing with the helpless delight of someone who will be retelling this for years.\n\nAkemi sets a bowl near the hearth and turns your way.\n\n“Sit if you want warmth. Ask at the route desk if you want work. If you want to help him, I suggest starting with the straps.”\n\nAcross the room, travelers compare the state of the pass. Somebody has brought a fine blade for inspection; somebody else is carrying a goat that regards the entire arrangement with contempt. The lodge is a first foothold in a living mountain town, not an automatic expedition into its worst weather.\n\nAkemi shifts the bowl clear of the struggling load.\n\n“So. What sort of day have you come to find?”",
+    "locations": [
+      "Whitepass Caravan Lodge"
+    ],
+    "locationAreas": [
+      "Whitepass Caravan Lodge - Common Hearth"
+    ],
+    "startingQuests": [],
+    "startingItems": [
+      {
+        "item": "Mark",
+        "quantity": 1000
+      }
+    ],
+    "startingPartyNPCs": [],
+    "isDefault": false,
+    "questGenerationGuidance": "Begin with the actual local scene and the player’s chosen interest. Use the established cast, ordinary services and existing optional undertakings before inventing replacements. The first useful action can be practical, social, martial or magical. Respect refusal, actual training, real payment and a completed outcome. Travel to another realm is an explicit choice with actual permission, not an automatic introduction."
+  },
+  "🦋 Asterveil: Notes beneath Glass": {
+    "name": "🦋 Asterveil: Notes beneath Glass",
+    "description": "Begin at an inhabited research hub above the clouds, with a real observation problem and wilderness beyond the maintained walks.",
+    "storyStart": "[Begin at Bellwind Conservatory - Living Gallery. Present the authored Kureha Kazahana; use actual records, chosen appearance, training and possessions. This start does not prescribe ancestry, gender, a weapon, powerful mastery, an existing romance or party recruitment. Establish the scene and stop before the player’s meaningful reply or acceptance. Existing starting money is supplied only through startingItems.]\n\nA leaf turns over beneath the gallery glass. Its underside catches the light in a color that disappears when you lean closer.\n\nKureha Kazahana has placed two trays beneath it, along with a pencil, a magnifying lens and a cup that contains considerably more pollen than tea.\n\n“The left sample changes at the chime,” she says. “The right one changes when someone opens that door. Yesterday an extremely confident observer decided they were responding to affection.”\n\nThe door opens. A breeze crosses the gallery. The right sample obligingly changes.\n\nKureha looks at it with the satisfaction of a person whose objection has just become visible.\n\n“You don't need an impressive spell. You need to notice which thing happened first.”\n\nOutside, a maintained path bends through the settlement greenery. Farther off, islands carry forests, lakes and snow above the cloud sea. The view promises a much larger field of work than this table, but the table offers somewhere sensible to begin.\n\nShe moves the contaminated cup away from the notes.\n\n“We can compare them here, or take a properly arranged short observation walk. Tell me what you want to study—and whether you've already eaten. People make very creative conclusions when they haven't.”",
+    "locations": [
+      "Bellwind Conservatory"
+    ],
+    "locationAreas": [
+      "Bellwind Conservatory - Living Gallery"
+    ],
+    "startingQuests": [],
+    "startingItems": [
+      {
+        "item": "Mark",
+        "quantity": 1000
+      }
+    ],
+    "startingPartyNPCs": [],
+    "isDefault": false,
+    "questGenerationGuidance": "Begin with the actual local scene and the player’s chosen interest. Use the established cast, ordinary services and existing optional undertakings before inventing replacements. The first useful action can be practical, social, martial or magical. Respect refusal, actual training, real payment and a completed outcome. Travel to another realm is an explicit choice with actual permission, not an automatic introduction."
+  },
   "📚 First Day of Work: Phoenix Wing": {
     "name": "📚 First Day of Work: Phoenix Wing",
     "description": "Meet Kōhei Sanada in Faculty Offices as a new instructor. Your teaching subject, classroom and first lesson tomorrow are ready to discuss; today is for meeting the department and preparing.",

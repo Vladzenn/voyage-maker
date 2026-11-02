@@ -95,8 +95,9 @@ module.exports=({w,manifest,harness,ck,getChecks})=>{
  }
  for(const [s,values] of Object.entries(manifest.preserved.spider))for(const [k,v] of Object.entries(values))ck(digest(w[s][k])===v,'Preserve Spider '+k);
  const pres=JSON.parse(fs.readFileSync(path.join(__dirname,'crucible/revision-preservation.json'),'utf8'));
+ const approvedPrevious=require('./approved_expansion.cjs')(w);
  for(const [k,v] of Object.entries(pres.unchangedSections)){
-  let value=w[k];
+  let value=approvedPrevious[k];
   const d=currencyDelta[k];
   if(d&&digest(value)!==v){
    ck(value[d.entry]?.[d.field]===d.after,'Exact approved currency field '+k);
@@ -105,7 +106,7 @@ module.exports=({w,manifest,harness,ck,getChecks})=>{
   ck(digest(value)===v,'Preserve section '+k);
  }
  for(const [k,v] of Object.entries(pres.unchangedLocations)){
-  let value=k==='The Eternal Crucible'?Object.fromEntries(Object.entries(w.locations[k]).filter(([f])=>f!=='hiddenInfo')):w.locations[k];
+  let value=k==='The Eternal Crucible'?Object.fromEntries(Object.entries(approvedPrevious.locations[k]).filter(([f])=>f!=='hiddenInfo')):approvedPrevious.locations[k];
   const d=studioCoordinates[k];
   if(d&&digest(value)!==v){
    ck(value.x===d.after.x&&value.y===d.after.y,'Exact incoming Studio coordinates '+k);

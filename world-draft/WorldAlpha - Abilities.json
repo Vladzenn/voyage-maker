@@ -9415,5 +9415,707 @@
     ],
     "bonus": 8,
     "cooldown": 4
+  },
+  "Reed-Tip Greeting": {
+    "name": "Reed-Tip Greeting",
+    "description": "Make one measured spear thrust that tests a guard without committing to a pursuit. Costs 3 Stamina on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "amount": 1
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 0
+  },
+  "Crane's Small Step": {
+    "name": "Crane's Small Step",
+    "description": "Step across a narrow attack line and answer with one close counter if an opening exists. Costs 4 Stamina on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "amount": 5
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 1
+  },
+  "Gatepost Brace": {
+    "name": "Gatepost Brace",
+    "description": "Set a grounded guard against one incoming pressure while keeping a retreat lane clear. Costs 3 Stamina on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Guarded Combat",
+        "amount": 1
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 0
+  },
+  "Bamboo-Shadow Draw": {
+    "name": "Bamboo-Shadow Draw",
+    "description": "Draw a sheathed blade into one short cutting line without gaining a second free attack. Costs 6 Stamina on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "amount": 10
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 1
+  },
+  "Millstone Shoulder": {
+    "name": "Millstone Shoulder",
+    "description": "Use body position and one controlled shoulder drive to disturb a nearby opponent's balance. Costs 5 Stamina on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Force Combat",
+        "amount": 5
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 1
+  },
+  "Hanging-Reed Catch": {
+    "name": "Hanging-Reed Catch",
+    "description": "Catch or redirect a weapon with a suitable hook or guarded polearm angle. Costs 6 Stamina on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Guarded Combat",
+        "amount": 10
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 1
+  },
+  "Eight-Petal Return": {
+    "name": "Eight-Petal Return",
+    "description": "Turn a reinforced fan or short blade through one counter line after a genuine avoided strike. Costs 7 Stamina on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "amount": 15
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 2
+  },
+  "Bridge-Rail Measure": {
+    "name": "Bridge-Rail Measure",
+    "description": "Deny a narrow approach with a disciplined weapon line rather than an automatic knockback. Costs 6 Stamina on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Guarded Combat",
+        "amount": 15
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 1
+  },
+  "Heron's Low Wing": {
+    "name": "Heron's Low Wing",
+    "description": "Sweep a reachable leg with an appropriate staff or polearm while preserving your balance. Costs 8 Stamina on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "amount": 20
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 2
+  },
+  "Red Gate Rising": {
+    "name": "Red Gate Rising",
+    "description": "Commit to one rising heavy-weapon strike through a weak guard. Costs 10 Stamina on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Force Combat",
+        "amount": 25
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 2
+  },
+  "Long Road Reversal": {
+    "name": "Long Road Reversal",
+    "description": "Change direction around a real obstacle and attack once from the newly earned line. Costs 10 Stamina on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "amount": 30
+      }
+    ],
+    "bonus": 6,
+    "cooldown": 2
+  },
+  "Hundred-Reed Stillness": {
+    "name": "Hundred-Reed Stillness",
+    "description": "Read one sustained approach and meet it with a braced stop, vulnerable to a changed angle. Costs 12 Stamina on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Guarded Combat",
+        "amount": 40
+      }
+    ],
+    "bonus": 7,
+    "cooldown": 3
+  },
+  "Quiet Knot Release": {
+    "name": "Quiet Knot Release",
+    "description": "Free a prepared cord or simple knot without a loud tug; locks still need a real solution. Costs 3 Stamina on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Stealth",
+        "amount": 5
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 1
+  },
+  "Footfall beyond the Screen": {
+    "name": "Footfall beyond the Screen",
+    "description": "Use a real interruption and cover to change position without claiming invisibility. Costs 5 Stamina on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Stealth",
+        "amount": 15
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 2
+  },
+  "Gatewatch Count": {
+    "name": "Gatewatch Count",
+    "description": "Attend to one lane and distinguish actual movement from distracting activity. Costs 2 Stamina on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Perception",
+        "amount": 5
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 1
+  },
+  "Thread across the Shoal": {
+    "name": "Thread across the Shoal",
+    "description": "Establish a practical tethered crossing through a short uncertain stretch. Costs 4 Stamina on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "survival",
+        "amount": 10
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 1
+  },
+  "Paper-Crane Record": {
+    "name": "Paper-Crane Record",
+    "description": "Hold a small raw-mana tracing steady long enough to compare a real mark or movement. Costs 4 Mana on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Arcane Magic",
+        "amount": 1
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 0
+  },
+  "Indigo Palm Ward": {
+    "name": "Indigo Palm Ward",
+    "description": "Shape one compact curved barrier across an expected line of attack. Costs 6 Mana on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Arcane Magic",
+        "amount": 5
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 1
+  },
+  "Cedar-Ring Lattice": {
+    "name": "Cedar-Ring Lattice",
+    "description": "Raise a limited framework that obstructs a short lane while it is maintained. Costs 12 Mana on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Arcane Magic",
+        "amount": 20
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 2
+  },
+  "Vermilion Sleeve": {
+    "name": "Vermilion Sleeve",
+    "description": "Guide a small tongue of flame along a safe open line to light or heat a chosen point. Costs 4 Mana on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Fire Magic",
+        "amount": 1
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 0
+  },
+  "Autumn Fan Unfurled": {
+    "name": "Autumn Fan Unfurled",
+    "description": "Sweep one flowing fan of fire across a short clear arc, accounting for people and fuel. Costs 8 Mana on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Fire Magic",
+        "amount": 10
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 1
+  },
+  "Red Maple Curtain": {
+    "name": "Red Maple Curtain",
+    "description": "Raise a vivid moving heat screen across one lane; it is dangerous, temporary and not a solid wall. Costs 14 Mana on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Fire Magic",
+        "amount": 25
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 2
+  },
+  "River-Silk Turn": {
+    "name": "River-Silk Turn",
+    "description": "Guide nearby water into a smooth narrow stream to rinse, fill or nudge a light object. Costs 4 Mana on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Water Magic",
+        "amount": 1
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 0
+  },
+  "Ferrywake Binding": {
+    "name": "Ferrywake Binding",
+    "description": "Pull available water around reachable footing to hinder one movement briefly. Costs 8 Mana on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Water Magic",
+        "amount": 10
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 1
+  },
+  "Blue Sash Falling": {
+    "name": "Blue Sash Falling",
+    "description": "Drop one controlled sheet of water to disrupt an approach without freezing it or drawing blood. Costs 14 Mana on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Water Magic",
+        "amount": 25
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 2
+  },
+  "Ricebank Seat": {
+    "name": "Ricebank Seat",
+    "description": "Settle a small patch of loose real soil into a firmer working surface. Costs 4 Mana on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Earth Magic",
+        "amount": 1
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 0
+  },
+  "Shrine-Step Uprising": {
+    "name": "Shrine-Step Uprising",
+    "description": "Raise one short ridge of available earth to interrupt a lane or give low cover. Costs 8 Mana on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Earth Magic",
+        "amount": 10
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 1
+  },
+  "Mountain's Folded Hand": {
+    "name": "Mountain's Folded Hand",
+    "description": "Close a limited earthen barrier around an actual position, leaving escape and structural consequences relevant. Costs 16 Mana on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Earth Magic",
+        "amount": 30
+      }
+    ],
+    "bonus": 6,
+    "cooldown": 3
+  },
+  "Green Ribbon Breeze": {
+    "name": "Green Ribbon Breeze",
+    "description": "Guide a small translucent curl of air around a light object or a short exposed flame. Costs 4 Mana on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Wind Magic",
+        "amount": 1
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 0
+  },
+  "Swallow past the Eaves": {
+    "name": "Swallow past the Eaves",
+    "description": "Use one brief gust to aid a committed lateral movement; it is not sustained flight. Costs 8 Mana on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Wind Magic",
+        "amount": 10
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 1
+  },
+  "Thousand Leaves Passing": {
+    "name": "Thousand Leaves Passing",
+    "description": "Send a broad curling gust through one lane, disturbing aim and loose footing. Costs 16 Mana on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Wind Magic",
+        "amount": 30
+      }
+    ],
+    "bonus": 6,
+    "cooldown": 2
+  },
+  "Thunder under Silk": {
+    "name": "Thunder under Silk",
+    "description": "Release one short branching discharge toward a reachable conductor or target. Costs 6 Mana on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Lightning Magic",
+        "amount": 5
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 1
+  },
+  "Storm-Drum Crack": {
+    "name": "Storm-Drum Crack",
+    "description": "Commit one forceful lightning strike with a visible line and real risk to nearby conductors. Costs 12 Mana on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Lightning Magic",
+        "amount": 20
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 2
+  },
+  "Winter Plum Mark": {
+    "name": "Winter Plum Mark",
+    "description": "Form a small temporary ice mark that cools or makes one defined contact surface slick. Costs 6 Mana on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Ice Magic",
+        "amount": 5
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 1
+  },
+  "White Branch Lattice": {
+    "name": "White Branch Lattice",
+    "description": "Grow a brittle temporary ice obstruction with actual gaps, anchors and melting limits. Costs 14 Mana on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Ice Magic",
+        "amount": 25
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 2
+  },
+  "Lantern on the Water": {
+    "name": "Lantern on the Water",
+    "description": "Place a small floating light near the caster, illuminating a useful area without healing anyone. Costs 4 Mana on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Light Magic",
+        "amount": 1
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 0
+  },
+  "Dawn through the Screen": {
+    "name": "Dawn through the Screen",
+    "description": "Project one concentrated beam through an actual open line. Costs 12 Mana on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Light Magic",
+        "amount": 20
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 2
+  },
+  "Iron Petal Turn": {
+    "name": "Iron Petal Turn",
+    "description": "Turn or stabilize a small reachable metal piece without controlling an entire weapon collection. Costs 6 Mana on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Metal Magic",
+        "amount": 5
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 1
+  },
+  "Folded Steel Oath": {
+    "name": "Folded Steel Oath",
+    "description": "Reinforce one real blade through a committed action; the metal and learned weapon method still matter. Costs 14 Mana on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Metal Magic",
+        "amount": 25
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 2
+  },
+  "Root Bow of Welcome": {
+    "name": "Root Bow of Welcome",
+    "description": "Guide a real pliant root or stem into a useful short curve without healing a creature. Costs 4 Mana on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Nature Magic",
+        "amount": 1
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 0
+  },
+  "Wisteria Gate": {
+    "name": "Wisteria Gate",
+    "description": "Raise temporary plant growth across a limited opening; solid ground and fire remain relevant. Costs 12 Mana on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Nature Magic",
+        "amount": 20
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 2
+  },
+  "Bell over Still Water": {
+    "name": "Bell over Still Water",
+    "description": "Send one tuned vibration that tests a small material or interrupts fragile concentration. Costs 6 Mana on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Sound Magic",
+        "amount": 5
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 1
+  },
+  "Drumbeat without Echo": {
+    "name": "Drumbeat without Echo",
+    "description": "Release one directional sound pulse to spoil timing; allies in its line are not automatically exempt. Costs 14 Mana on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Sound Magic",
+        "amount": 25
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 2
+  },
+  "Ancestor's Threshold": {
+    "name": "Ancestor's Threshold",
+    "description": "Tend a narrow spiritual boundary and contest one weak intrusive manifestation. Costs 6 Mana on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Soul Magic",
+        "amount": 5
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 1
+  },
+  "White Sleeve Parting": {
+    "name": "White Sleeve Parting",
+    "description": "Separate a hostile spirit's immediate hold through a real contested working, without commanding its entire soul. Costs 12 Mana on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Soul Magic",
+        "amount": 20
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 2
+  },
+  "Borrowed Festival Frame": {
+    "name": "Borrowed Festival Frame",
+    "description": "Animate one prepared empty frame for a short task using residual mana rather than a deceased conscious person. Costs 16 Mana on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Soul Magic",
+        "amount": 30
+      }
+    ],
+    "bonus": 6,
+    "cooldown": 3
+  },
+  "Fox behind the Lantern": {
+    "name": "Fox behind the Lantern",
+    "description": "Place a limited false silhouette within a real sightline; touch and inconsistent behavior can reveal it. Costs 6 Mana on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Illusion Magic",
+        "amount": 5
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 1
+  },
+  "Rain on an Empty Sleeve": {
+    "name": "Rain on an Empty Sleeve",
+    "description": "Sustain a convincing moving decoy in one area while concentration and actual movement remain distinct. Costs 14 Mana on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Illusion Magic",
+        "amount": 25
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 2
+  },
+  "Ink between the Leaves": {
+    "name": "Ink between the Leaves",
+    "description": "Create a small absence that contests one fragile spell edge rather than deleting all nearby magic. Costs 12 Mana on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Void Magic",
+        "amount": 20
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 2
+  },
+  "Petalweight Landing": {
+    "name": "Petalweight Landing",
+    "description": "Reduce the strain of one prepared descent over a short distance; no unrestricted flight or portal follows. Costs 10 Mana on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Gravity Magic",
+        "amount": 15
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 1
+  },
+  "Hold the Turning Joint": {
+    "name": "Hold the Turning Joint",
+    "description": "Brace and isolate an actual mechanism's loaded joint for inspection without granting a free repair. Costs 4 Stamina on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Magitech",
+        "amount": 5
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 1
+  },
+  "One Honest Charge": {
+    "name": "One Honest Charge",
+    "description": "Test a real crystal feed through a controlled cycle, identifying an observable fault or safe operating limit. Costs 5 Stamina on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Magitech",
+        "amount": 10
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 1
+  },
+  "Crossbow's Patient Return": {
+    "name": "Crossbow's Patient Return",
+    "description": "Clear a plausible feed obstruction and reset a loaded mechanism using real tools and time. Costs 7 Stamina on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Magitech",
+        "amount": 20
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 2
+  },
+  "Cooling Sparrow Cycle": {
+    "name": "Cooling Sparrow Cycle",
+    "description": "Vent an actual overheated device through a prepared cycle; charge, material damage and safe positioning remain relevant. Costs 9 Stamina on commitment, including a failed attempt. The bonus applies to this single action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Magitech",
+        "amount": 30
+      }
+    ],
+    "bonus": 6,
+    "cooldown": 3
   }
 }

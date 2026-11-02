@@ -5,7 +5,7 @@ const root=path.resolve(__dirname,'..');
 const w=JSON.parse(fs.readFileSync(process.argv[2]||path.join(root,'world-draft/WorldAlpha - World.json'),'utf8'));
 const m=JSON.parse(fs.readFileSync(path.join(__dirname,'fieldwork/manifest.json'),'utf8'));
 const currencyDelta=JSON.parse(fs.readFileSync(path.join(__dirname,'currency/approved-description-delta.json'),'utf8'));
-const quests=w.parties[''].quests;let checks=0;
+const quests=w.parties[''].quests;const preserved=require('./approved_expansion.cjs')(w);let checks=0;
 const ck=(v,label)=>{checks++;if(!v)throw Error(label)};
 const sort=v=>Array.isArray(v)?v.map(sort):v&&typeof v==='object'?Object.fromEntries(Object.keys(v).sort().map(k=>[k,sort(v[k])])):v;
 const digest=v=>crypto.createHash('sha256').update(JSON.stringify(sort(v))).digest('hex');
@@ -64,17 +64,17 @@ for(const j of m.jobs){
 }
 for(const [k,v]of Object.entries(m.preserved.originalQuests)){
  const exclude=k==='Guild: Boars at the Watercourse'?['questDesignBrief','questStatement']:m.revisedBriefs.includes(k)?['questDesignBrief']:[];
- ck(digest(Object.fromEntries(Object.entries(quests[k]).filter(([f])=>!exclude.includes(f))))===v,'Old quest checks/effects/untouched prose '+k);
+ ck(digest(Object.fromEntries(Object.entries(preserved.parties[''].quests[k]).filter(([f])=>!exclude.includes(f))))===v,'Old quest checks/effects/untouched prose '+k);
 }
-for(const [k,v]of Object.entries(m.preserved.otherTriggers))ck(digest(w.triggerDefinitions[k])===v,'Existing event/settlement '+k);
+for(const [k,v]of Object.entries(m.preserved.otherTriggers))ck(digest(preserved.triggerDefinitions[k])===v,'Existing event/settlement '+k);
 for(const [k,v]of Object.entries(m.preserved.untouchedSections)){
  // Permit only the two exact approved currency descriptions, not a new section baseline.
- if(currencyDelta[k]&&digest(w[k])!==v){
-  const d=currencyDelta[k],section=structuredClone(w[k]);
+ if(currencyDelta[k]&&digest(preserved[k])!==v){
+  const d=currencyDelta[k],section=structuredClone(preserved[k]);
   ck(section[d.entry]?.[d.field]===d.after,'Exact approved currency description '+k);
   section[d.entry][d.field]=d.before;
   ck(digest(section)===v,'Untouched section except approved currency description '+k);
- }else ck(digest(w[k])===v,'Untouched section '+k);
+ }else ck(digest(preserved[k])===v,'Untouched section '+k);
 }
 for(const [k,v]of Object.entries(m.preserved.originalTypes))ck(digest(w.npcTypes[k])===v,'Existing creature type '+k);
 const cellar=w.locations['Roseberry Inn'].areas[m.addedArea];

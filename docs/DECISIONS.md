@@ -2,6 +2,20 @@
 
 These notes carry context between desktop and web chats. They supplement the actual JSON and creation guides; newer explicit user instructions take precedence.
 
+## 2 November 2026 — Akitsuhara implementation and live-playtest follow-ups
+
+The author explicitly authorized the full country using Studio export `74c54aa4-8d7d-4ba4-927f-6cb52be23c1a`. Final names are Akitsuhara and capital Benitsuru. Keep all twelve supplied region images/crops/grid positions. Launch with 96 named characters, including adventurers, rōnin, foreigners and a bandit group; 14 major portraits first, other 82 pending. Only four named yōkai; ordinary creatures remain npcTypes. Additional people later means more households and independent stories, not omission of the approved social groups now.
+
+The Spirit Realm is The Veiled Beyond, a small seven-location fog wilderness. Restored Way Bell comes from a modest accessible local shrine undertaking and permanently awakens Moonless Torii. Opening is separate from entering, later loss of the bell does not close the gate, and its fixed return remains local. The public transit torii is separate, uses delegated court permissions and returns to the Evertree. Preserve all existing Spider content and once-only anomaly behavior exactly. Hagire is the unique hostile, lanky, dislocating-limbed forest stalker. Local magic retains the global rules while emphasizing felt mana and softer flowing forms; clothing/palettes/lighting vary. Magitech is selective imported swords/crossbows/armor, no firearms. One extraordinary prototype belongs to Shigure Tsubakiri's concealed project.
+
+Six local country starts plus Drakenspire and Asterveil researcher starts go immediately below academy student openings and above faculty work. New Origin & Upbringing choices cover local towns, rural/household/dojo/shrine communities and mountain/sky backgrounds; modest utility bonuses do not impose race, titles, property or named kinship. Add useful professions and categories. Physical Foundations should have a positive longer description. The author approves up to two optional Special Talents as a phantom change; omit that increased limit from public notes.
+
+Starting 1018 marks came from the shared 18 plus each start's 1000; remove only the shared 18 and retain intentional money traits. Assessment examples must not produce real contracts. Fix the demonstrated overlapping guild acceptances narrowly: require the actual single displayed choice, retain old work/settlement owners, and reinforce the actual client/site/fee. Do not rewrite all quests or invent a state machine per conversation.
+
+Ordinary new quests use native typed completion and one reward owner. Two developing arcs provide arms-politics and spirit exploration, with bounded alternative endings. Avoid adding always-active arcs solely to cover every local dispute. Official draft validation found area paths can only reference their own parent location; country roads are ordinary narrated travel described in the location text, with a connected authoring index, rather than unsupported cross-parent links. No new regional imprisonment controller, global schedule system or future expansion is implied.
+
+The official API key is kept outside Git and logs, despite the user's willingness to commit it. Only generated assets, hosted URLs, exact receipts, reviewed code and project decisions are synchronized. Official `/validate` is a draft check; no Studio save/publication or live AI playtest is claimed.
+
 ## 2 November 2026 — Silver marks and map halves
 
 Currency follow-up: retain the original financial/property safeguards verbatim; add focused currency wording rather than compressing those rules. A mistaken coin label never authorizes a 1:1 conversion: retain an established Mark price or state and agree the intended Mark price first. Do not add a blanket ban on conjuration/counterfeiting play to solve denomination drift. The Revised currency export supersedes the initial patch file.

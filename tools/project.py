@@ -274,6 +274,8 @@ def publish(message):
         subprocess.run(['node', str(ROOT / 'tools/test_creation.cjs')], cwd=ROOT, check=True)
     if (ROOT / 'tools/test_crucible.cjs').exists():
         subprocess.run(['node', str(ROOT / 'tools/test_crucible.cjs')], cwd=ROOT, check=True)
+    if (ROOT / 'tools/test_oni.cjs').exists():
+        subprocess.run(['node', str(ROOT / 'tools/test_oni.cjs')], cwd=ROOT, check=True)
     changed, index = asset_changes()
     if changed:
         write_json(INDEX, index)

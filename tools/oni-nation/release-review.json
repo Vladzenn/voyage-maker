@@ -1,0 +1,30 @@
+{
+  "candidateSHA256": "43c0dcc1b3a9a6bd8b62a2a4e13911870eb0e209e65b506cb707ed1980d10be0",
+  "officialDraftValidation": {
+    "data": {
+      "errors": [],
+      "stage": "draft",
+      "valid": true,
+      "warnings": []
+    },
+    "requestId": "dfab1d78-e3d7-4db2-afd9-5fba7ab65fdc"
+  },
+  "newNPCs": 96,
+  "majorPortraits": 14,
+  "supportingPortraitsPending": 82,
+  "newLocations": 108,
+  "newAreas": 352,
+  "nativeQuests": 48,
+  "nativeArcs": 2,
+  "newTypes": 34,
+  "newItems": 40,
+  "newAbilities": 54,
+  "newStarts": 8,
+  "newOrigins": 14,
+  "newProfessions": 44,
+  "newFactions": 8,
+  "newTriggers": 23,
+  "existingChangedTriggers": 16,
+  "questGenerationCharacters": 4957,
+  "notes": "Official draft validation and local fixtures only. No Studio save/publication or live AI playtest."
+}

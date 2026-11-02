@@ -7,6 +7,10 @@
     "hiddenInfo": "",
     "realm": "Glowhaven",
     "initialKnown": true,
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
     "images": {
       "map": {
         "crop": {
@@ -18,10 +22,6 @@
         },
         "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/7255bbf8-6aa7-46d9-89a0-1d6c950df292.png"
       }
-    },
-    "npcLevelRange": {
-      "min": 1,
-      "max": 30
     }
   },
   "Drakenspire Highlands": {
@@ -249,6 +249,330 @@
           "zoom": 100
         },
         "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/d6992d67-75da-4571-b2d6-4f9098363504.png"
+      }
+    }
+  },
+  "Blackpine March": {
+    "name": "Blackpine March",
+    "basicInfo": "Western cedar ridges, hamlets, waterfalls and old roadside shrines. The maintained post road serves everyday journeys; deeper forest hollows have their own occupants.",
+    "x": -1,
+    "y": 0,
+    "hiddenInfo": "",
+    "initialKnown": true,
+    "realm": "Akitsuhara",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/ba5de1b6-638b-467f-b824-8df2e6961960.png"
+      }
+    },
+    "npcLevelRange": {
+      "min": 1,
+      "max": 18
+    }
+  },
+  "Thundercrag Highlands": {
+    "name": "Thundercrag Highlands",
+    "basicInfo": "A great terraced quarry and working mine basin below jagged ridges. Stone roads serve inhabited works, while abandoned cuts and high scree are dangerous.",
+    "x": 0,
+    "y": 0,
+    "hiddenInfo": "",
+    "initialKnown": true,
+    "realm": "Akitsuhara",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/92ef6ff1-5882-479c-a558-c77e6d65b74a.png"
+      }
+    },
+    "npcLevelRange": {
+      "min": 8,
+      "max": 30
+    }
+  },
+  "Mount Shiun": {
+    "name": "Mount Shiun",
+    "basicInfo": "The sacred mountain rises behind the capital. Pilgrim lodgings, cedar stairs, pagodas and waterfalls occupy its lower approaches; snow and exposed ridges lie above.",
+    "x": 1,
+    "y": 0,
+    "hiddenInfo": "",
+    "initialKnown": true,
+    "realm": "Akitsuhara",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/ede4bcaf-de6e-4341-a7cd-a74f6d46c2e6.png"
+      }
+    },
+    "npcLevelRange": {
+      "min": 10,
+      "max": 35
+    }
+  },
+  "Snowcedar Heights": {
+    "name": "Snowcedar Heights",
+    "basicInfo": "Snowbound mountains, blue tarns and isolated conifer valleys. A sheltered pass links the few attended refuges. Glacial basins and ruined watchposts demand preparation.",
+    "x": 2,
+    "y": 0,
+    "hiddenInfo": "",
+    "initialKnown": true,
+    "realm": "Akitsuhara",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/5c43f17d-50f2-4edf-9482-49cfc4c270ee.png"
+      }
+    },
+    "npcLevelRange": {
+      "min": 20,
+      "max": 48
+    }
+  },
+  "Mizuhara Lake Country": {
+    "name": "Mizuhara Lake Country",
+    "basicInfo": "The western castle town and its lakeshore villages share ferries, fish markets and irrigated terraces. The castle is a working seat above a broad landing, not a second national capital.",
+    "x": -1,
+    "y": -1,
+    "hiddenInfo": "",
+    "initialKnown": true,
+    "realm": "Akitsuhara",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/790e3cfc-ac15-4741-a702-d0342432bb44.png"
+      }
+    },
+    "npcLevelRange": {
+      "min": 1,
+      "max": 20
+    }
+  },
+  "Bamboo Veil Valleys": {
+    "name": "Bamboo Veil Valleys",
+    "basicInfo": "Green bamboo valleys connect the western country with Benitsuru. Mills, bridges, paper workshops and small farms stand along bright tributaries; abandoned groves have less welcoming inhabitants.",
+    "x": 0,
+    "y": -1,
+    "hiddenInfo": "",
+    "initialKnown": true,
+    "realm": "Akitsuhara",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/e32e458b-a24b-4fc2-9672-845e2b34a156.png"
+      }
+    },
+    "npcLevelRange": {
+      "min": 1,
+      "max": 24
+    }
+  },
+  "Benitsuru Basin": {
+    "name": "Benitsuru Basin",
+    "basicInfo": "The capital beneath the sacred mountain: Shogunal castle, canal wards, shrines, guildhall and dense neighborhoods. Its streets are inhabited civic space, with roads radiating toward both castle towns.",
+    "x": 1,
+    "y": -1,
+    "hiddenInfo": "",
+    "initialKnown": true,
+    "realm": "Akitsuhara",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/4bd23349-18de-4fd0-a33a-2f4a3e515389.png"
+      }
+    },
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    }
+  },
+  "Koganedai Terraces": {
+    "name": "Koganedai Terraces",
+    "basicInfo": "The eastern castle town stands above gold-leaved terraces, artisan streets, training grounds and timber approaches. House Tsubakiri guards a small imported-device workshop.",
+    "x": 2,
+    "y": -1,
+    "hiddenInfo": "",
+    "initialKnown": true,
+    "realm": "Akitsuhara",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/4a7185d4-15b5-4130-89e0-45c78c41f899.png"
+      }
+    },
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    }
+  },
+  "Golden Grain Plain": {
+    "name": "Golden Grain Plain",
+    "basicInfo": "Working grain fields, paddies, orchards and riverside villages feed the towns. Travelers encounter ordinary farm business as often as trouble; the principal road is maintained.",
+    "x": 0,
+    "y": -2,
+    "hiddenInfo": "",
+    "initialKnown": true,
+    "realm": "Akitsuhara",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/53bfe37b-c11c-45d6-acea-0c9b601237b7.png"
+      }
+    },
+    "npcLevelRange": {
+      "min": 1,
+      "max": 18
+    }
+  },
+  "Mirror-Reed Lowlands": {
+    "name": "Mirror-Reed Lowlands",
+    "basicInfo": "Lakeside reeds, river ferries, fishing settlements and low wooded islets. Raised paths and inhabited landing places remain useful routes through the marshes.",
+    "x": -1,
+    "y": -2,
+    "hiddenInfo": "",
+    "initialKnown": true,
+    "realm": "Akitsuhara",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/c4b98637-026d-4958-be5a-e1b2a8a5ff56.png"
+      }
+    },
+    "npcLevelRange": {
+      "min": 2,
+      "max": 25
+    }
+  },
+  "Redleaf River Country": {
+    "name": "Redleaf River Country",
+    "basicInfo": "Maple-red valleys, riverside shrines, guesthouses and broad old bridges. Locals use the main road; wooded side trails and abandoned festival grounds have stranger traffic.",
+    "x": 1,
+    "y": -2,
+    "hiddenInfo": "",
+    "initialKnown": true,
+    "realm": "Akitsuhara",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/72f05401-509b-4704-b6b0-e12c68ab2c72.png"
+      }
+    },
+    "npcLevelRange": {
+      "min": 5,
+      "max": 32
+    }
+  },
+  "Lanternwood Border": {
+    "name": "Lanternwood Border",
+    "basicInfo": "Ancient wooded escarpments, waterfalls and shrines among enormous roots. The Soul Torii occupies a reachable lower approach, while the far cedar hollows shelter dangerous beings.",
+    "x": 2,
+    "y": -2,
+    "hiddenInfo": "",
+    "initialKnown": true,
+    "realm": "Akitsuhara",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/c1ce99d1-a289-4393-98fd-1ca27f277193.png"
+      }
+    },
+    "npcLevelRange": {
+      "min": 12,
+      "max": 45
+    }
+  },
+  "Veiled Cedar Reach": {
+    "name": "Veiled Cedar Reach",
+    "realm": "The Veiled Beyond",
+    "x": 0,
+    "y": 0,
+    "initialKnown": false,
+    "basicInfo": "Dense fog layers a compact wilderness of cedar roots, wet low ground and an old festival road. The western threshold and Bellroot Refuge are usable staging places. Lantern Marsh and the listening woods lead toward a crane crossing and a more dangerous pale grove. These sites share physical paths; voices and fog do not transport someone without actual movement.",
+    "npcLevelRange": {
+      "min": 15,
+      "max": 35
+    },
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/6bba0892-67bd-4100-91b5-4e2b3d7b51f4.png"
       }
     }
   }

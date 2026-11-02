@@ -8095,8 +8095,8 @@
   },
   "Physical Foundations": {
     "name": "Physical Foundations",
-    "description": "Practical physical foundations instead of another starting magical study: +1 Force and +1 Finesse. This choice grants no spell, affinity or combat technique.",
-    "traitNarrativeEffects": "Practical physical foundations instead of another starting magical study: +1 Force and +1 Finesse. This choice grants no spell, affinity or combat technique.",
+    "description": "Your foundation comes from regular physical practice: carrying awkward loads, keeping your footing, controlling a fall and repeating movements until they become dependable. Strength and coordination develop together, whether you plan to fight, travel, work with your hands or support later magical training. Start with +1 Force and +1 Finesse.",
+    "traitNarrativeEffects": "Your foundation comes from regular physical practice: carrying awkward loads, keeping your footing, controlling a fall and repeating movements until they become dependable. Strength and coordination develop together, whether you plan to fight, travel, work with your hands or support later magical training. Start with +1 Force and +1 Finesse.",
     "attributes": [
       {
         "attribute": "force",
@@ -11939,6 +11939,1477 @@
         "quantity": 1
       }
     ],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Breath before the Blade": {
+    "name": "Breath before the Blade",
+    "description": "You settle into a clear rhythm before a difficult commitment. Gain Finesse +1 and Finesse Combat +3. Surprise and a broken rhythm still matter.",
+    "traitNarrativeEffects": "You settle into a clear rhythm before a difficult commitment. Gain Finesse +1 and Finesse Combat +3. Surprise and a broken rhythm still matter.",
+    "attributes": [
+      {
+        "attribute": "finesse",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Finesse Combat",
+        "modifier": 3
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Root at the Heel": {
+    "name": "Root at the Heel",
+    "description": "You are hard to hurry out of a guarded position. Gain Force +1 and Guarded Combat +3; this is practiced balance rather than immunity to being moved.",
+    "traitNarrativeEffects": "You are hard to hurry out of a guarded position. Gain Force +1 and Guarded Combat +3; this is practiced balance rather than immunity to being moved.",
+    "attributes": [
+      {
+        "attribute": "force",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Guarded Combat",
+        "modifier": 3
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Ear for the Returning Bell": {
+    "name": "Ear for the Returning Bell",
+    "description": "You notice small differences in repeated sounds. Gain Intuition +1 and Perception +3; a familiar voice is not proof of a familiar person.",
+    "traitNarrativeEffects": "You notice small differences in repeated sounds. Gain Intuition +1 and Perception +3; a familiar voice is not proof of a familiar person.",
+    "attributes": [
+      {
+        "attribute": "intuition",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Perception",
+        "modifier": 3
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Hands that Know the Form": {
+    "name": "Hands that Know the Form",
+    "description": "Repeated craft and movement come readily to you. Gain Logic +1 and Spellcraft +3; invention still needs genuine experimentation.",
+    "traitNarrativeEffects": "Repeated craft and movement come readily to you. Gain Logic +1 and Spellcraft +3; invention still needs genuine experimentation.",
+    "attributes": [
+      {
+        "attribute": "logic",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "spellcraft",
+        "modifier": 3
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "A Host at Any Hearth": {
+    "name": "A Host at Any Hearth",
+    "description": "You find a graceful way into ordinary conversation. Gain Empathy +1 and Persuasion +3; welcome does not grant authority or free service.",
+    "traitNarrativeEffects": "You find a graceful way into ordinary conversation. Gain Empathy +1 and Persuasion +3; welcome does not grant authority or free service.",
+    "attributes": [
+      {
+        "attribute": "empathy",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "persuasion",
+        "modifier": 3
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Borrowed Storm Nerve": {
+    "name": "Borrowed Storm Nerve",
+    "description": "Pressure sharpens your commitment. Gain Passion +2 and Lightning Magic +3, but reduce maximum Stamina by 10. This is learned familiarity, not an added affinity.",
+    "traitNarrativeEffects": "Pressure sharpens your commitment. Gain Passion +2 and Lightning Magic +3, but reduce maximum Stamina by 10. This is learned familiarity, not an added affinity.",
+    "attributes": [
+      {
+        "attribute": "passion",
+        "modifier": 2
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Lightning Magic",
+        "modifier": 3
+      }
+    ],
+    "resources": [
+      {
+        "resource": "Stamina",
+        "modifier": -10
+      }
+    ],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Yari Road Kit": {
+    "name": "Yari Road Kit",
+    "description": "Begin with Ash-Shaft Yari and ordinary familiarity with carrying it. This is equipment, not a new office, affinity or automatic martial mastery.",
+    "traitNarrativeEffects": "Begin with Ash-Shaft Yari and ordinary familiarity with carrying it. This is equipment, not a new office, affinity or automatic martial mastery.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [
+      {
+        "item": "Ash-Shaft Yari",
+        "quantity": 1
+      }
+    ],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Naginata Practice Kit": {
+    "name": "Naginata Practice Kit",
+    "description": "Begin with Garden-Guard Naginata and ordinary familiarity with carrying it. This is equipment, not a new office, affinity or automatic martial mastery.",
+    "traitNarrativeEffects": "Begin with Garden-Guard Naginata and ordinary familiarity with carrying it. This is equipment, not a new office, affinity or automatic martial mastery.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [
+      {
+        "item": "Garden-Guard Naginata",
+        "quantity": 1
+      }
+    ],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Yumi Road Kit": {
+    "name": "Yumi Road Kit",
+    "description": "Begin with Maplewood Yumi and ordinary familiarity with carrying it. This is equipment, not a new office, affinity or automatic martial mastery.",
+    "traitNarrativeEffects": "Begin with Maplewood Yumi and ordinary familiarity with carrying it. This is equipment, not a new office, affinity or automatic martial mastery.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [
+      {
+        "item": "Maplewood Yumi",
+        "quantity": 1
+      }
+    ],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Watch Hook Kit": {
+    "name": "Watch Hook Kit",
+    "description": "Begin with Watchman's Jitte and ordinary familiarity with carrying it. This is equipment, not a new office, affinity or automatic martial mastery.",
+    "traitNarrativeEffects": "Begin with Watchman's Jitte and ordinary familiarity with carrying it. This is equipment, not a new office, affinity or automatic martial mastery.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [
+      {
+        "item": "Watchman's Jitte",
+        "quantity": 1
+      }
+    ],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Reinforced Fan Kit": {
+    "name": "Reinforced Fan Kit",
+    "description": "Begin with Lacquer-Rib Combat Fan and ordinary familiarity with carrying it. This is equipment, not a new office, affinity or automatic martial mastery.",
+    "traitNarrativeEffects": "Begin with Lacquer-Rib Combat Fan and ordinary familiarity with carrying it. This is equipment, not a new office, affinity or automatic martial mastery.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [
+      {
+        "item": "Lacquer-Rib Combat Fan",
+        "quantity": 1
+      }
+    ],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Shrine Staff Kit": {
+    "name": "Shrine Staff Kit",
+    "description": "Begin with Cedar Bell Staff and ordinary familiarity with carrying it. This is equipment, not a new office, affinity or automatic martial mastery.",
+    "traitNarrativeEffects": "Begin with Cedar Bell Staff and ordinary familiarity with carrying it. This is equipment, not a new office, affinity or automatic martial mastery.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [
+      {
+        "item": "Cedar Bell Staff",
+        "quantity": 1
+      }
+    ],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Petition Clerk": {
+    "name": "Petition Clerk",
+    "description": "You have helped people turn a confused grievance into an intelligible petition and kept the supporting papers in order. Start with +2 Etiquette and +1 investigation.",
+    "traitNarrativeEffects": "You have helped people turn a confused grievance into an intelligible petition and kept the supporting papers in order.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Etiquette",
+        "modifier": 2
+      },
+      {
+        "skill": "investigation",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Hearing Assistant": {
+    "name": "Hearing Assistant",
+    "description": "You have prepared hearing rooms, recorded testimony and learned when a witness needs a clearer question. Start with +2 Insight and +1 Etiquette.",
+    "traitNarrativeEffects": "You have prepared hearing rooms, recorded testimony and learned when a witness needs a clearer question.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Insight",
+        "modifier": 2
+      },
+      {
+        "skill": "Etiquette",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Customs Clerk": {
+    "name": "Customs Clerk",
+    "description": "You have checked manifests, compared real cargo and learned the familiar ways a description conceals a load. Start with +2 Trade and +1 Perception.",
+    "traitNarrativeEffects": "You have checked manifests, compared real cargo and learned the familiar ways a description conceals a load.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Trade",
+        "modifier": 2
+      },
+      {
+        "skill": "Perception",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Village Steward": {
+    "name": "Village Steward",
+    "description": "You have organized shared repairs, supplies and meetings among neighbors with competing needs. Start with +2 persuasion and +1 Trade.",
+    "traitNarrativeEffects": "You have organized shared repairs, supplies and meetings among neighbors with competing needs.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "persuasion",
+        "modifier": 2
+      },
+      {
+        "skill": "Trade",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Warehouse Keeper": {
+    "name": "Warehouse Keeper",
+    "description": "You have kept goods dry, counted incoming loads and identified which missing crate actually matters. Start with +2 Trade and +1 investigation.",
+    "traitNarrativeEffects": "You have kept goods dry, counted incoming loads and identified which missing crate actually matters.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Trade",
+        "modifier": 2
+      },
+      {
+        "skill": "investigation",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Court Messenger": {
+    "name": "Court Messenger",
+    "description": "You have carried time-sensitive dispatches and learned who can receive them without turning every doorway into an argument. Start with +2 Etiquette and +1 athletics.",
+    "traitNarrativeEffects": "You have carried time-sensitive dispatches and learned who can receive them without turning every doorway into an argument.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Etiquette",
+        "modifier": 2
+      },
+      {
+        "skill": "athletics",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Ferryman": {
+    "name": "Ferryman",
+    "description": "You have handled a real ferry, judged crossings and helped awkward passengers reach the bank. Start with +2 survival and +1 athletics.",
+    "traitNarrativeEffects": "You have handled a real ferry, judged crossings and helped awkward passengers reach the bank.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "survival",
+        "modifier": 2
+      },
+      {
+        "skill": "athletics",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "River Pilot": {
+    "name": "River Pilot",
+    "description": "You have read channels, currents and landing approaches while bringing a loaded boat through. Start with +2 survival and +1 Perception.",
+    "traitNarrativeEffects": "You have read channels, currents and landing approaches while bringing a loaded boat through.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "survival",
+        "modifier": 2
+      },
+      {
+        "skill": "Perception",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Porter": {
+    "name": "Porter",
+    "description": "You have balanced difficult loads, tied working knots and learned which promise is heavier than its fee. Start with +2 athletics and +1 Trade.",
+    "traitNarrativeEffects": "You have balanced difficult loads, tied working knots and learned which promise is heavier than its fee.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "athletics",
+        "modifier": 2
+      },
+      {
+        "skill": "Trade",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Caravan Cook": {
+    "name": "Caravan Cook",
+    "description": "You have fed traveling crews with limited fuel, uncertain weather and ingredients that survived the road. Start with +2 Cooking and +1 survival.",
+    "traitNarrativeEffects": "You have fed traveling crews with limited fuel, uncertain weather and ingredients that survived the road.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Cooking",
+        "modifier": 2
+      },
+      {
+        "skill": "survival",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Salvage Diver": {
+    "name": "Salvage Diver",
+    "description": "You have worked below water with preparation, practical tools and respect for a return line. Start with +2 athletics and +1 Perception.",
+    "traitNarrativeEffects": "You have worked below water with preparation, practical tools and respect for a return line.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "athletics",
+        "modifier": 2
+      },
+      {
+        "skill": "Perception",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Bridge Inspector": {
+    "name": "Bridge Inspector",
+    "description": "You have checked joints, wear and load paths, and can explain a repair without making damage sound mysterious. Start with +2 investigation and +1 Magitech.",
+    "traitNarrativeEffects": "You have checked joints, wear and load paths, and can explain a repair without making damage sound mysterious.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "investigation",
+        "modifier": 2
+      },
+      {
+        "skill": "Magitech",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Papermaker": {
+    "name": "Papermaker",
+    "description": "You have prepared fibers, judged pulp and dried usable sheets in weather that rarely cooperates. Start with +2 Trade and +1 Perception.",
+    "traitNarrativeEffects": "You have prepared fibers, judged pulp and dried usable sheets in weather that rarely cooperates.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Trade",
+        "modifier": 2
+      },
+      {
+        "skill": "Perception",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Lacquerer": {
+    "name": "Lacquerer",
+    "description": "You have prepared surfaces, applied patient layers and learned how light reveals a careless finish. Start with +2 Trade and +1 Perception.",
+    "traitNarrativeEffects": "You have prepared surfaces, applied patient layers and learned how light reveals a careless finish.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Trade",
+        "modifier": 2
+      },
+      {
+        "skill": "Perception",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Weaver": {
+    "name": "Weaver",
+    "description": "You have set a loom, planned a pattern and repaired the small fault that would spoil an entire length. Start with +2 Trade and +1 Perception.",
+    "traitNarrativeEffects": "You have set a loom, planned a pattern and repaired the small fault that would spoil an entire length.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Trade",
+        "modifier": 2
+      },
+      {
+        "skill": "Perception",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Ropemaker": {
+    "name": "Ropemaker",
+    "description": "You have selected fibers, laid strands and tested a rope before someone trusted their weight to it. Start with +2 Trade and +1 athletics.",
+    "traitNarrativeEffects": "You have selected fibers, laid strands and tested a rope before someone trusted their weight to it.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Trade",
+        "modifier": 2
+      },
+      {
+        "skill": "athletics",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Shipwright": {
+    "name": "Shipwright",
+    "description": "You have fitted timber, followed a hull line and learned what a quiet leak can become at sea. Start with +2 Magitech and +1 survival.",
+    "traitNarrativeEffects": "You have fitted timber, followed a hull line and learned what a quiet leak can become at sea.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Magitech",
+        "modifier": 2
+      },
+      {
+        "skill": "survival",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Miller": {
+    "name": "Miller",
+    "description": "You have managed grain, working water and the unpleasant sound a bearing makes before it fails. Start with +2 Trade and +1 Perception.",
+    "traitNarrativeEffects": "You have managed grain, working water and the unpleasant sound a bearing makes before it fails.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Trade",
+        "modifier": 2
+      },
+      {
+        "skill": "Perception",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Potter": {
+    "name": "Potter",
+    "description": "You have shaped clay, prepared a firing and learned to distinguish an attractive vessel from a sound one. Start with +2 Trade and +1 Perception.",
+    "traitNarrativeEffects": "You have shaped clay, prepared a firing and learned to distinguish an attractive vessel from a sound one.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Trade",
+        "modifier": 2
+      },
+      {
+        "skill": "Perception",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Dyer": {
+    "name": "Dyer",
+    "description": "You have mixed real dyes, prepared fabric and kept a reliable record of colors that change while drying. Start with +2 Trade and +1 Alchemy.",
+    "traitNarrativeEffects": "You have mixed real dyes, prepared fabric and kept a reliable record of colors that change while drying.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Trade",
+        "modifier": 2
+      },
+      {
+        "skill": "Alchemy",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Actor": {
+    "name": "Actor",
+    "description": "You have rehearsed scenes, listened for a cue and held an audience through a line that did not land as expected. Start with +2 performance and +1 Deception.",
+    "traitNarrativeEffects": "You have rehearsed scenes, listened for a cue and held an audience through a line that did not land as expected.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "performance",
+        "modifier": 2
+      },
+      {
+        "skill": "Deception",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Storyteller": {
+    "name": "Storyteller",
+    "description": "You have shaped a tale for listeners, recognized impatience and changed pace without losing its thread. Start with +2 performance and +1 Insight.",
+    "traitNarrativeEffects": "You have shaped a tale for listeners, recognized impatience and changed pace without losing its thread.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "performance",
+        "modifier": 2
+      },
+      {
+        "skill": "Insight",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Puppeteer": {
+    "name": "Puppeteer",
+    "description": "You have built a convincing gesture from cord, timing and a voice the audience wants to follow. Start with +2 performance and +1 Magitech.",
+    "traitNarrativeEffects": "You have built a convincing gesture from cord, timing and a voice the audience wants to follow.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "performance",
+        "modifier": 2
+      },
+      {
+        "skill": "Magitech",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Costume Maker": {
+    "name": "Costume Maker",
+    "description": "You have fitted garments for movement, quick changes and people whose measurements keep becoming an opinion. Start with +2 Trade and +1 performance.",
+    "traitNarrativeEffects": "You have fitted garments for movement, quick changes and people whose measurements keep becoming an opinion.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Trade",
+        "modifier": 2
+      },
+      {
+        "skill": "performance",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Festival Organizer": {
+    "name": "Festival Organizer",
+    "description": "You have scheduled performers, arranged supplies and found room for celebrations amid ordinary work. Start with +2 persuasion and +1 Trade.",
+    "traitNarrativeEffects": "You have scheduled performers, arranged supplies and found room for celebrations amid ordinary work.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "persuasion",
+        "modifier": 2
+      },
+      {
+        "skill": "Trade",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beekeeper": {
+    "name": "Beekeeper",
+    "description": "You have tended hives, read a disturbed swarm and gathered honey without treating the colony as disposable. Start with +2 Animal Handling and +1 survival.",
+    "traitNarrativeEffects": "You have tended hives, read a disturbed swarm and gathered honey without treating the colony as disposable.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Animal Handling",
+        "modifier": 2
+      },
+      {
+        "skill": "survival",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Orchardist": {
+    "name": "Orchardist",
+    "description": "You have pruned fruit trees, judged harvests and kept pests from becoming everyone else’s problem. Start with +2 survival and +1 Trade.",
+    "traitNarrativeEffects": "You have pruned fruit trees, judged harvests and kept pests from becoming everyone else’s problem.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "survival",
+        "modifier": 2
+      },
+      {
+        "skill": "Trade",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Charcoal Burner": {
+    "name": "Charcoal Burner",
+    "description": "You have managed slow earth kilns, watched heat and kept the right sort of fire alive for days. Start with +2 survival and +1 Perception.",
+    "traitNarrativeEffects": "You have managed slow earth kilns, watched heat and kept the right sort of fire alive for days.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "survival",
+        "modifier": 2
+      },
+      {
+        "skill": "Perception",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Woodcutter": {
+    "name": "Woodcutter",
+    "description": "You have judged a tree’s lean, maintained an edge and cleared timber with a safe working space. Start with +2 athletics and +1 survival.",
+    "traitNarrativeEffects": "You have judged a tree’s lean, maintained an edge and cleared timber with a safe working space.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "athletics",
+        "modifier": 2
+      },
+      {
+        "skill": "survival",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Trapmaker": {
+    "name": "Trapmaker",
+    "description": "You have built and checked practical traps, followed signs and understood what an unintended catch costs. Start with +2 survival and +1 Magitech.",
+    "traitNarrativeEffects": "You have built and checked practical traps, followed signs and understood what an unintended catch costs.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "survival",
+        "modifier": 2
+      },
+      {
+        "skill": "Magitech",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Gamekeeper": {
+    "name": "Gamekeeper",
+    "description": "You have monitored a hunting ground, distinguished ordinary tracks and dealt with people ignoring sensible limits. Start with +2 survival and +1 Animal Handling.",
+    "traitNarrativeEffects": "You have monitored a hunting ground, distinguished ordinary tracks and dealt with people ignoring sensible limits.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "survival",
+        "modifier": 2
+      },
+      {
+        "skill": "Animal Handling",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Dojo Assistant": {
+    "name": "Dojo Assistant",
+    "description": "You have maintained a practice floor, helped beginners find a safe stance and learned through repeated correction. Start with +2 Guarded Combat and +1 Insight.",
+    "traitNarrativeEffects": "You have maintained a practice floor, helped beginners find a safe stance and learned through repeated correction.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Guarded Combat",
+        "modifier": 2
+      },
+      {
+        "skill": "Insight",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Household Retainer": {
+    "name": "Household Retainer",
+    "description": "You have served a household through escort duties, ceremonies and the ordinary work behind an impressive gate. Start with +2 Etiquette and +1 Guarded Combat.",
+    "traitNarrativeEffects": "You have served a household through escort duties, ceremonies and the ordinary work behind an impressive gate.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Etiquette",
+        "modifier": 2
+      },
+      {
+        "skill": "Guarded Combat",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Bodyguard": {
+    "name": "Bodyguard",
+    "description": "You have watched approaches, planned an exit and put yourself in position before a threat became obvious. Start with +2 Guarded Combat and +1 Perception.",
+    "traitNarrativeEffects": "You have watched approaches, planned an exit and put yourself in position before a threat became obvious.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Guarded Combat",
+        "modifier": 2
+      },
+      {
+        "skill": "Perception",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Bounty Tracker": {
+    "name": "Bounty Tracker",
+    "description": "You have followed a particular person through evidence, testimony and preparation for an actual capture. Start with +2 survival and +1 investigation.",
+    "traitNarrativeEffects": "You have followed a particular person through evidence, testimony and preparation for an actual capture.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "survival",
+        "modifier": 2
+      },
+      {
+        "skill": "investigation",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Scout Runner": {
+    "name": "Scout Runner",
+    "description": "You have carried observations quickly and learned how to report uncertainty without hiding it. Start with +2 athletics and +1 Stealth.",
+    "traitNarrativeEffects": "You have carried observations quickly and learned how to report uncertainty without hiding it.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "athletics",
+        "modifier": 2
+      },
+      {
+        "skill": "Stealth",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Shrine Attendant": {
+    "name": "Shrine Attendant",
+    "description": "You have tended a shrine, received ordinary visitors and practiced the small routines that keep its court useful. Start with +2 Etiquette and +1 Soul Magic.",
+    "traitNarrativeEffects": "You have tended a shrine, received ordinary visitors and practiced the small routines that keep its court useful.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Etiquette",
+        "modifier": 2
+      },
+      {
+        "skill": "Soul Magic",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Funeral Assistant": {
+    "name": "Funeral Assistant",
+    "description": "You have prepared solemn gatherings, handled belongings respectfully and supported people whose needs differ from the formal rite. Start with +2 Medicine and +1 Insight.",
+    "traitNarrativeEffects": "You have prepared solemn gatherings, handled belongings respectfully and supported people whose needs differ from the formal rite.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Medicine",
+        "modifier": 2
+      },
+      {
+        "skill": "Insight",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Ritual Musician": {
+    "name": "Ritual Musician",
+    "description": "You have maintained a ceremonial rhythm and heard how an uncertain performer changes the whole group. Start with +2 performance and +1 Sound Magic.",
+    "traitNarrativeEffects": "You have maintained a ceremonial rhythm and heard how an uncertain performer changes the whole group.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "performance",
+        "modifier": 2
+      },
+      {
+        "skill": "Sound Magic",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Spirit Mediator": {
+    "name": "Spirit Mediator",
+    "description": "You have practiced listening, recognizing a limited manifestation and making a carefully scoped spiritual agreement. Start with +2 Soul Magic and +1 Insight.",
+    "traitNarrativeEffects": "You have practiced listening, recognizing a limited manifestation and making a carefully scoped spiritual agreement.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Soul Magic",
+        "modifier": 2
+      },
+      {
+        "skill": "Insight",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Smuggler": {
+    "name": "Smuggler",
+    "description": "You have moved goods through unwanted attention and learned that a route is only as good as its next handover. Start with +2 Stealth and +1 Trade.",
+    "traitNarrativeEffects": "You have moved goods through unwanted attention and learned that a route is only as good as its next handover.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Stealth",
+        "modifier": 2
+      },
+      {
+        "skill": "Trade",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Fence": {
+    "name": "Fence",
+    "description": "You have assessed doubtful goods, negotiated hurried sales and noticed the questions a seller avoids. Start with +2 Trade and +1 Insight.",
+    "traitNarrativeEffects": "You have assessed doubtful goods, negotiated hurried sales and noticed the questions a seller avoids.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Trade",
+        "modifier": 2
+      },
+      {
+        "skill": "Insight",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Forger": {
+    "name": "Forger",
+    "description": "You have imitated papers and marks, studied mundane materials and learned which small inconsistency draws an eye. Start with +2 Deception and +1 investigation.",
+    "traitNarrativeEffects": "You have imitated papers and marks, studied mundane materials and learned which small inconsistency draws an eye.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Deception",
+        "modifier": 2
+      },
+      {
+        "skill": "investigation",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Locksmith": {
+    "name": "Locksmith",
+    "description": "You have maintained real locks, understood their wear and opened mechanisms with the right tools and patience. Start with +2 Magitech and +1 Perception.",
+    "traitNarrativeEffects": "You have maintained real locks, understood their wear and opened mechanisms with the right tools and patience.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Magitech",
+        "modifier": 2
+      },
+      {
+        "skill": "Perception",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Benitsuru Ward Local": {
+    "name": "Benitsuru Ward Local",
+    "description": "You grew up among Benitsuru’s canal markets, crowded lanes and household gates. You know the practical rhythm of a capital neighborhood, from morning deliveries to festival preparations. Start with +1 investigation.",
+    "traitNarrativeEffects": "You grew up among Benitsuru’s canal markets, crowded lanes and household gates. You know the practical rhythm of a capital neighborhood, from morning deliveries to festival preparations.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "investigation",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Mizuhara Lakeside Upbringing": {
+    "name": "Mizuhara Lakeside Upbringing",
+    "description": "Your early life followed ferries, fish markets and changing lake weather around Mizuhara. You learned to judge a crossing and listen to people whose livelihood depends on the water. Start with +1 survival.",
+    "traitNarrativeEffects": "Your early life followed ferries, fish markets and changing lake weather around Mizuhara. You learned to judge a crossing and listen to people whose livelihood depends on the water.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "survival",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Koganedai Castle-Town Upbringing": {
+    "name": "Koganedai Castle-Town Upbringing",
+    "description": "You grew up around Koganedai’s busy workshops, market terraces and household offices. Comparing workmanship and hearing competing prices became ordinary habits. Start with +1 Trade.",
+    "traitNarrativeEffects": "You grew up around Koganedai’s busy workshops, market terraces and household offices. Comparing workmanship and hearing competing prices became ordinary habits.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Trade",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Akitsuhara Farming Village": {
+    "name": "Akitsuhara Farming Village",
+    "description": "You grew up among shared irrigation, seasonal harvests and neighbors who noticed an unattended task. You learned to read the ground and work around weather. Start with +1 survival.",
+    "traitNarrativeEffects": "You grew up among shared irrigation, seasonal harvests and neighbors who noticed an unattended task. You learned to read the ground and work around weather.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "survival",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Reed-Valley Childhood": {
+    "name": "Reed-Valley Childhood",
+    "description": "You grew up among bamboo groves, mill paths and narrow river crossings. Quiet footing and attention to an obscured approach came from ordinary travel. Start with +1 Perception.",
+    "traitNarrativeEffects": "You grew up among bamboo groves, mill paths and narrow river crossings. Quiet footing and attention to an obscured approach came from ordinary travel.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Perception",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Northern Pass Household": {
+    "name": "Northern Pass Household",
+    "description": "Your household made a living along Akitsuhara’s colder passes. Planning fuel, shelter and a return route mattered more than the appearance of an easy journey. Start with +1 survival.",
+    "traitNarrativeEffects": "Your household made a living along Akitsuhara’s colder passes. Planning fuel, shelter and a return route mattered more than the appearance of an easy journey.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "survival",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Household Service Upbringing": {
+    "name": "Household Service Upbringing",
+    "description": "You grew up around the practical work behind a territorial household: deliveries, formal visitors, records and rooms that had to be ready. You learned the uses and limits of courtesy. Start with +1 Etiquette.",
+    "traitNarrativeEffects": "You grew up around the practical work behind a territorial household: deliveries, formal visitors, records and rooms that had to be ready. You learned the uses and limits of courtesy.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Etiquette",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Dojo Neighborhood Upbringing": {
+    "name": "Dojo Neighborhood Upbringing",
+    "description": "The sound of practice was part of your childhood. Watching corrections, cleaning a floor and helping with equipment taught you to notice how people move and learn. Start with +1 Insight.",
+    "traitNarrativeEffects": "The sound of practice was part of your childhood. Watching corrections, cleaning a floor and helping with equipment taught you to notice how people move and learn.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Insight",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Shrine-Court Upbringing": {
+    "name": "Shrine-Court Upbringing",
+    "description": "You grew up near a working shrine and its stream of ordinary visitors. You learned how a ceremony, a private worry and a practical request can occupy the same courtyard. Start with +1 Etiquette.",
+    "traitNarrativeEffects": "You grew up near a working shrine and its stream of ordinary visitors. You learned how a ceremony, a private worry and a practical request can occupy the same courtyard.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Etiquette",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Road-Theatre Upbringing": {
+    "name": "Road-Theatre Upbringing",
+    "description": "You grew up among traveling stages, costume bundles and audiences that changed at every stop. Timing, listening and making a small performance carry became familiar skills. Start with +1 performance.",
+    "traitNarrativeEffects": "You grew up among traveling stages, costume bundles and audiences that changed at every stop. Timing, listening and making a small performance carry became familiar skills.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "performance",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Drakenspire Forge Neighborhood": {
+    "name": "Drakenspire Forge Neighborhood",
+    "description": "You grew up among Drakenspire’s workshops and winter deliveries. You learned to compare a repair, a bargain and a piece of workmanship without mistaking ornament for quality. Start with +1 Trade.",
+    "traitNarrativeEffects": "You grew up among Drakenspire’s workshops and winter deliveries. You learned to compare a repair, a bargain and a piece of workmanship without mistaking ornament for quality.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Trade",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Drakenspire Caravan Upbringing": {
+    "name": "Drakenspire Caravan Upbringing",
+    "description": "Your early life followed mountain supplies, snowbound delays and nights in shared lodges. You learned to prepare for the stretch between safe hearths. Start with +1 survival.",
+    "traitNarrativeEffects": "Your early life followed mountain supplies, snowbound delays and nights in shared lodges. You learned to prepare for the stretch between safe hearths.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "survival",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Asterveil Canopy Household": {
+    "name": "Asterveil Canopy Household",
+    "description": "You grew up among Asterveil’s household assembly, landing paths and shared gardens. Recognizing a neighbor’s concern and finding a workable agreement were everyday skills. Start with +1 Insight.",
+    "traitNarrativeEffects": "You grew up among Asterveil’s household assembly, landing paths and shared gardens. Recognizing a neighbor’s concern and finding a workable agreement were everyday skills.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Insight",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Asterveil Field-Shelter Upbringing": {
+    "name": "Asterveil Field-Shelter Upbringing",
+    "description": "You grew up around guides, conservatory work and careful journeys between sky-island shelters. You learned to notice a route’s changing conditions before committing to it. Start with +1 Perception.",
+    "traitNarrativeEffects": "You grew up around guides, conservatory work and careful journeys between sky-island shelters. You learned to notice a route’s changing conditions before committing to it.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Perception",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
     "abilities": [],
     "unlockedBy": [],
     "excludedBy": [],

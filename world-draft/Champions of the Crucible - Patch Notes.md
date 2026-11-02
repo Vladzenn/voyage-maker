@@ -72,4 +72,6 @@ Hear their terms, decide whose version you believe and choose how involved you w
 
 In preparation for the next major update, expanded lore offers a closer look at the Oni homeland: Edo-inspired towns and countryside, samurai and shinobi traditions, independent factions, yokai and distinctive magitech shaped by Arcane and Soul magic. The realm itself is still ahead, but its people and culture are beginning to take shape.
 
+- Lore expanded.
+
 See you in the arena! 🏆

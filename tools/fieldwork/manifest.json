@@ -902,7 +902,7 @@
       "factions": "b1f56232b03d5632e3431d82153b22529e3f9b2dcaf7fe393f6c485a8ced2b94",
       "worldVoices": "8b69443450739cb164d80fb013be9c8579229e670ee84b018cd37a12d39e4b79",
       "npcs": "3ce53144132a4ffd74db00d1538d1be4e48e5101fdd7d17ae10f49b709418214",
-      "worldLore": "0d48a78d6510bafddb76bd0ad1657f0b4eed4acb7b599f92ef053bf299f7718a",
+      "worldLore": "49a6a1f4ab608fb64d4df93ab69ed2218d8b22334517f860ef1d08d56c80301c",
       "storyStarts": "07a40de991ca89b7f6f3686c21e58ae12ef37ad6294b6fc667be34956ce6794a",
       "itemTypes": "4ea336a0057c041ef493451fc345a690717d45f297fa346918468d353d57d94c",
       "abilities": "2ce58f476e612c7d9c0a18df244c21f04f06291bd070ccd2413dc22a74c52dd0",
@@ -915,7 +915,7 @@
       "attributeSettings": "7c5f57ad54d30101111f6832b763525d035e5fa9bcc13d3e136f1be77e35f732",
       "successLevelSettings": "235f30fc12b68e8375814357c167e7557aee5cddc868a2988f729bdd492a2583",
       "skillSettings": "4b915954e450aaa4d9adaa941cbc43f06d9aa2540dd687b0a341a26bb79f2adc",
-      "progressionSettings": "10e4227dabd34b3405252ce04ddeb658b458038a67932ee7eef32307c81a375f",
+      "progressionSettings": "646fb71b97f4bb9aad639b89f91534be8dc856735c8bb9d3abe92a8a9ee29116",
       "locationSettings": "2f834f49fa08bf8341eabb9297d41e0f88a32e936bb32e6c26c80498f2b39a5b",
       "itemSettings": "d88a80a58c0cbecbfef889d8ddf4b1d3f21957fe826a4d1f8b68b7a6bd5bd420",
       "combatSettings": "dbe321b7b0978f31e014ca712dfc63d37616b25b534918d2a768381bbe5f43dc",
@@ -1060,5 +1060,13 @@
     "proof": "tools/map-refresh-2026-11-02.json",
     "before": "5f07b62850aad6b6235dcb6b6702638e0fa4785fd76216bb1825f8338dff0a5c",
     "after": "a56a98fbe15d1abb583ed97a1a1ead716bf243e2ba64e197346d5a18c96a235f"
+  },
+  "approvedWiderEarthLoreMerge": {
+    "date": "2026-11-02",
+    "proof": "tools/wider-earth/merge-report.json",
+    "fields": [
+      "progressionSettings",
+      "worldLore"
+    ]
   }
 }

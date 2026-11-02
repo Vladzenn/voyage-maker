@@ -10,6 +10,7 @@ Repository: [Vladzenn/voyage-maker](https://github.com/Vladzenn/voyage-maker) (p
 - **Current state and next work:** [docs/CURRENT_STATE.md](docs/CURRENT_STATE.md)
 - **Champions of the Crucible:** [public notes](world-draft/Champions%20of%20the%20Crucible%20-%20Patch%20Notes.md), [current bracket mechanics](world-draft/Crucible%20Bracket%20-%20Mechanics.md)
 - **Beginner contracts and fieldwork:** [scope, references and playtest checklist](research/Beginner%20Contracts%20and%20Fieldwork%20-%202026-11-02.md), bundled with the unreleased Crucible announcement
+- **Wider Earth lore:** [implemented scope and review](research/Wider%20Earth%20Lore%20-%20Implementation%202026-11-02.md), merged with the latest Studio export
 - **Official portrait uploads:** [safe batch workflow](docs/PORTRAIT_UPLOADS.md)
 - **Academy and guild area artwork:** [public notes](world-draft/Academy%20and%20Guild%20Artwork%20-%20Patch%20Notes.md), [exact upload receipts](tools/location-art/academy-area-upload-receipts-2026-11-02.json)
 - **Latest minor patch:** [public notes](world-draft/Phantom%20Patch%20-%20Patch%20Notes.md), [creation review guide](world-draft/Phantom%20Patch%20-%20Creation%20Guide.md) and [development notes](world-draft/Phantom%20Patch%20-%20Development%20Notes.md)

@@ -1,5 +1,7 @@
 # Lore Update Proposal — Wider Earth
 
+**Implementation status — 2 November 2026:** implemented from the author's latest Studio export and bundled into the unreleased Crucible update. See [implementation review](../research/Wider%20Earth%20Lore%20-%20Implementation%202026-11-02.md) and `tools/wider-earth/merge-report.json`. The planning text and original completion record below document the earlier proposal stage; their “not implemented” wording is historical.
+
 Updated: 2 November 2026. **Planning handoff; not implemented.**
 
 This document develops the author's decisions and our brainstorming into proposed lorebook content for a future minor patch after Champions of the Crucible. The expansion is substantial in narrative scope and light in gameplay. It adds context for the wider world, not new gameplay systems, mapped destinations, quests, NPC cards, abilities, ancestry benefits, artwork or working portals.

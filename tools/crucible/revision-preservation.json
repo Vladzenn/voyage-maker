@@ -4,7 +4,7 @@
     "traits": "1f30bc7cb746be9127ce31c8173c6f470f98b1deaa9848706b0bc66f329f392a",
     "storySettings": "89619ac9a882860da2d9a4ff6f71846226931abc3140fd86a8ca23f5101737bc",
     "realms": "5d55e6af68e1ac9e24f57f2c7f2679d50f471b6de4a17a4246449a78b6ca8640",
-    "progressionSettings": "10e4227dabd34b3405252ce04ddeb658b458038a67932ee7eef32307c81a375f",
+    "progressionSettings": "646fb71b97f4bb9aad639b89f91534be8dc856735c8bb9d3abe92a8a9ee29116",
     "heroesVersion": "7a61b53701befdae0eeeffaecc73f14e20b537bb0f8b91ad7c2936dc63562b25",
     "locationSettings": "2f834f49fa08bf8341eabb9297d41e0f88a32e936bb32e6c26c80498f2b39a5b",
     "randomNames": "5be8dfed3a2a9f4f6b47b150ae1b50c0a42799cd68bead90bd187640f160ac00",
@@ -459,5 +459,12 @@
         "after": "00ca4b4ed79361a40a71a53f25e8ea62aca6169c2de65dd42ae5a65c6466a7da"
       }
     }
+  },
+  "approvedWiderEarthLoreMerge": {
+    "date": "2026-11-02",
+    "proof": "tools/wider-earth/merge-report.json",
+    "fields": [
+      "progressionSettings"
+    ]
   }
 }

@@ -51,10 +51,10 @@
     ]
   ],
   "newPromptUnits": {
-    "generateStory": 29944,
-    "generateDialogue": 7364,
+    "generateStory": 29978,
+    "generateDialogue": 7369,
     "generateActionInfo": 19933,
-    "ItemGenerationAndUsage": 19799,
+    "ItemGenerationAndUsage": 19765,
     "summarization": 19120
   },
   "allNonTargetFieldsPreservedFromSource": true,
@@ -68,6 +68,24 @@
   "suppliedOrderChangesFromPrevious": [
     [
       "worldLore"
+    ]
+  ],
+  "revision": "Revised: original financial/property safeguards retained verbatim; no assumed conversion or blanket conjuration restriction.",
+  "revisionChangedPaths": [
+    [
+      "aiInstructions",
+      "generateStory",
+      "Work, Trade and Property"
+    ],
+    [
+      "aiInstructions",
+      "generateDialogue",
+      "Currency and Settled Prices"
+    ],
+    [
+      "aiInstructions",
+      "ItemGenerationAndUsage",
+      "Currency, Debt and Contract Integrity"
     ]
   ]
 }

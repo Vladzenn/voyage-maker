@@ -4,6 +4,8 @@ These notes carry context between desktop and web chats. They supplement the act
 
 ## 2 November 2026 — Silver marks and map halves
 
+Currency follow-up: retain the original financial/property safeguards verbatim; add focused currency wording rather than compressing those rules. A mistaken coin label never authorizes a 1:1 conversion: retain an established Mark price or state and agree the intended Mark price first. Do not add a blanket ban on conjuration/counterfeiting play to solve denomination drift. The Revised currency export supersedes the initial patch file.
+
 The author requested a preventive currency phantom patch, not attribution of an anonymous report to this world. Silver marks are the sole common currency across the setting; mark/marks/silver marks are one unit backed by the existing `Mark` identity. Gold, silver, copper and platinum remain materials, colors or ranks, not new denominations. Keep barter, appraisal and agreed sales; no invented exchange table or duplicate purse. Preserve the latest Studio export and existing prices, funds and reward mechanics.
 
 The author approved refining the two supplied map halves with the built-in generator. Use the full master and overlap for continuity, retain national scale, and improve architectural/terrain definition. Two production images still support the planned 4 × 3 regions. Their generated edges are not mechanically locked; inspect and align the join before treating it as a finished atlas.

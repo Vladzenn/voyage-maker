@@ -1,5 +1,7 @@
 # Currency consistency — phantom patch
 
+**Use the Revised download:** `output/currency-phantom-2026-11-02/The Schools of Magic, Arise! - Currency Consistency - Revised.json`. The first download below is superseded. Review identified three wording problems: compressed original safeguards, automatic reinterpretation of another coin name at the same numeric amount, and a blanket statement against conjured spendable money. The revision restores the original trade/property and debt/contract paragraphs verbatim, appends only short currency clarifications, and requires an established or newly agreed Mark price without an assumed conversion. It removes the conjuration sentence. Exactly three AI fields differ from the initial patch; all other source-preservation guarantees remain.
+
 Source: supplied Studio full export `5fea7ef8-f456-4593-aeca-1f19c890d924`, SHA-256 `8b8472de77ccdd886e5787eda93fa64e7a17bc6ff6e7e9f0408d4b900e3bddc1`. Applied to the canonical world and synchronized section files. Full delivery: `output/currency-phantom-2026-11-02/The Schools of Magic, Arise! - Currency Consistency.json`.
 
 ## Finding and scope
@@ -8,7 +10,7 @@ The author requested preventive hardening after the “Identify the bug” revie
 
 Silver marks now refer to the same one-unit Mark everywhere. Metals, jewelry, bullion, collectible coins, equipment names, guild ranks and silver-thread portal keys retain their identities and are not spendable denominations. Barter and genuine sales remain available. Correct an accidental money denomination before payment without inventing rates, surcharges or refusing the existing Mark item. Genuinely unclear amounts or metal-object offers require clarification.
 
-Five existing AI tasks received focused rules: story, action interpretation, dialogue, item handling and memory. The story trade entry was compressed to stay below its existing 30,000-unit task cap. Item-handling rules retain one holding, actual funds, payment direction, real transfer and one payout owner. Public Mark description and the existing currency lore entry use natural prose. No new native setting, currency alias item, trigger, balance adjustment, reward or quest controller was introduced.
+Five existing AI tasks received focused rules: story, action interpretation, dialogue, item handling and memory. The revised story trade entry retains the original paragraph verbatim and adds a short currency sentence within its existing 30,000-unit task cap. Item-handling rules retain the original contract safeguards, one holding, actual terms, payment direction and one payout owner. Public Mark description and the existing currency lore entry use natural prose. No new native setting, currency alias item, trigger, balance adjustment, reward or quest controller was introduced.
 
 The latest source changes Pebbletown x/y and the ordering of an existing diplomacy lore entry; both coordinate values and the supplied lore order are preserved. All non-target source fields, including images, coordinates, music, voices, quest/triggers, starting funds, price anchors, item values and the entire Spider content, remain exact. See `tools/currency/patch-report.json` for the seven changed paths. Reproduce from an explicit current source using `tools/currency/patch.py --source <export>`; do not run against an old export to rebuild later user changes.
 

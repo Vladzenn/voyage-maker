@@ -1,5 +1,7 @@
 # Current state
 
+**Next lorebook proposal — not implemented:** [Lore Update Proposal — Wider Earth](../world-draft/Lore%20Update%20Proposal%20-%20Wider%20Earth.md) records the Earth-scale setting, strictly author-only primordial origin, Glowhaven's independence from Ardelis, Evertree-powered portal costs, elven longevity, dwarven speech and maritime culture, Valcéranne, Dunbrae and beastfolk-populated Yunhai. Ardelis carries the celestial religion; the separate fifth nation is deferred. The handoff includes candidate prose, reconciliation notes and unresolved details for a future lorebook-only minor patch. **No canonical world or section JSON was changed.** Use the latest Studio export for implementation; the later Oni expansion and protected mysteries remain separate.
+
 Updated 2 November 2026 after **beginner contracts and fieldwork**, following faster leveling, NPC prose and Conservatory discovery clarification. The earlier artwork, Character Creation & Polish patch and import hotfix are preserved.
 
 **Private map refresh:** the author supplied a new Glowhaven region map (`7255bbf8-6aa7-46d9-89a0-1d6c950df292.png`). Only `regions.Glowhaven.images.map.imageUrl` differs from the preceding world. The supplied description, region position (-3, 0), crop, visibility and level range 1–30 already match and remain exact. Canonical, section exports and the current revised/fieldwork full downloads are synchronized. This phantom change is excluded from public patch notes. [Exact one-field proof](../tools/map-refresh-2026-11-02.json).

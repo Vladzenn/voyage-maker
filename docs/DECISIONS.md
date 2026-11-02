@@ -2,6 +2,10 @@
 
 These notes carry context between desktop and web chats. They supplement the actual JSON and creation guides; newer explicit user instructions take precedence.
 
+## 2 November 2026 — Oni map production pilot
+
+The author rejected the external 4K map's art treatment and close-scale composition. Use the built-in image generator for the replacement, with the actual Glowhaven map as style reference and the supplied national atlas as scale reference. A continuous country composition in the established art style takes priority over a resolution label. One 1447 × 1087 native master is saved for review; final 4:3 cropping, tile refinement and nation implementation are not approved by its existence. The author may slice the base and return a ZIP; later refinements should use original-map context and overlaps, and must be inspected at joins rather than assuming regeneration preserves exact borders. No automatic expansion to twelve generated tiles.
+
 ## World identity
 
 Glowhaven is a mostly human, autonomous, magic-heavy city around the **Evertree**. Its four academies have nuanced civic duties, not one-word personality cultures. Morning classes are mandatory; students have varied lives outside them. All authored academy students are adults in a four-year program. Faculty are trained, capable adults even when lazy, unpleasant or weak by their peers' standards.

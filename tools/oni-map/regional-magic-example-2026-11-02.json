@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-02",
+  "purpose": "One requested Oni-region portrait example; unnamed adult innkeeper, not an implemented NPC",
+  "generator": "built-in image_gen.imagegen",
+  "calls": 1,
+  "sourcePath": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-dc3360cc-58d7-4a51-9d5b-59871eaa750c.png",
+  "projectPath": "world-draft/npc portraits/Style Studies/Oni Regional Magic - Example.png",
+  "pose": {
+    "pool": "W01-W06",
+    "selected": "W03 Hand to Heart",
+    "selection": "SystemRandom choice recorded during generation"
+  },
+  "appearance": {
+    "species": "Oni",
+    "apparentAdultAge": 32,
+    "hair": "dark chestnut, nearly black shoulder-length bob",
+    "eyes": "amber",
+    "skin": "warm light brown",
+    "horns": "two short ivory horns"
+  },
+  "affinity": "Wind",
+  "prompt": "Create ONE polished upright vertical 2:3 fantasy-anime NPC portrait, hip-up, of an ADULT ONI WOMAN INNKEEPER, an unnamed regional-style study for The Schools of Magic, Arise! Humanlike adult woman around 32 in apparent age, warm light-brown skin, bright amber eyes, glossy dark-chestnut almost-black hair in a loose shoulder-length bob with a small vermilion hairpin, two short ivory horns curving gently upward from the forehead. Human facial structure, normal human ears, two arms and two hands, no wings or tail. Expressive unmistakably anime eyes and stylized face, clear mature adult proportions. A warm, slightly knowing smile and observant eyes suggest a welcoming host who notices exactly whose boots are muddy.\n\nREGIONAL VISUAL TREATMENT: elegant crisp 2D anime illustration with fine deliberate ink-like contours, sculpted graphic shape design, sharp two- or three-tone cel shadows and rich luminous colors. Traditional Japanese-inspired color harmonies and painted environmental depth, bright clean finish with an attractive readable silhouette. A few slender fluid brushstroke-shaped accents follow the WIND magic, without covering the face or turning the picture into an ink painting. Delicate subtle metallic highlights on small fittings, little airborne maple leaves and jade-cyan ribbons of air around the lower torso. NO photographic anatomy, lifelike skin, pores, semi-realism, 3D rendering, soft plastic-looking skin or heavy parchment texture. The character should look like a beautifully drawn anime person, not a realistic face with anime clothing.\n\nOUTFIT AND ROLE: a tasteful opaque cream kosode beneath an indigo short haori with a subtle geometric hemp-leaf textile pattern, vermilion obi, a small braided cord and a modest brass leaf-shaped fastener. The full obi, hips and enough upper skirt/trouser fabric remain visible. Clothing is practical and refined, richly constructed but appropriate for a prosperous post-town innkeeper, not a warrior princess. No sword, armor, crown or invented faction crest. A plain folded hand fan rests in her lowered right hand near the obi; her left hand lies gently over her heart as she welcomes a guest. Standing, relaxed open posture, shoulders turned a little toward an unseen traveler, face clearly readable. This is W03 Hand to Heart, a social portrait, not a battle pose.\n\nMAGIC: her single affinity for this proposed example is WIND. Make it visibly recognizable through controlled thin translucent jade-cyan air currents lifting a few maple leaves beside the fan, and lightly stirring one sleeve and a loose hair strand. Gentle, playful and specific to a host's small everyday magic; no combat barrage, floating talisman writing or added fire/soul/light powers.\n\nSETTING: she stands on the timber veranda of a roadside inn in an Edo-inspired Oni country. Behind her, a softly painted recognizable inn courtyard with warm hanging paper lanterns WITHOUT writing, wooden lattice and shoji, maple branches and a glimpse of a stone path. Amber lantern bounce light and cool evening air separate her from the background. The environment must remain less dominant and less sharp than the person. The backdrop is a real place, not a decorative paper collage.\n\nCOMPOSITION: keep the character centered and standing, hip-up with a clear entire hip line and obi. Reserve around 13-15% of the canvas above the COMPLETE top of both horns and hair. No horn, hair, prop or magic may touch the top edge or enter the reserved margin. Complete recognizable head silhouette and unclipped horns, clear eyes and good hands. One hand to heart, one hand holding the closed fan at waist: coherent fingers, natural wrists, no extra or mirrored hands. Plenty of presence and beautiful detail without crowded effects. No lettering, calligraphy, names, labels, border, signature, watermark, UI or collage. ONE finished PNG portrait only.",
+  "review": {
+    "acceptedDirection": "Soft translucent flowing magical ribbons with tapered edges; varied colorful Japanese-inspired clothing",
+    "rejectedAsRegionalRules": [
+      "different overall rendering style",
+      "fixed warm lighting",
+      "restricted indigo/vermilion/cream palette"
+    ],
+    "observations": [
+      "Character and Wind effects readable; full horn silhouette retained",
+      "Headroom visibly below the production guide target",
+      "Warm scene and chosen clothing colors are individual sample choices only"
+    ],
+    "automaticRegeneration": false,
+    "uploaded": false,
+    "canonicalNpcAdded": false
+  },
+  "dimensions": {
+    "width": 1024,
+    "height": 1536
+  },
+  "sha256": "3d4772c32974e8c00c705d40fa3e078c995c18b300702d59ed4f1496d553103b",
+  "referenceComparison": {
+    "newAttachment": "d3ff3c9f-da0c-468d-9855-2f664f4384e6",
+    "earlierAttachment": "5f2c3317-f5d6-44fd-aabf-64f3b95caeb0",
+    "newSha256": "cf32e15c4100bbdffacf90b3e516d98b9753dfc5fc89d8f6c723e6b4be813baf",
+    "differentTopLevelSections": []
+  }
+}

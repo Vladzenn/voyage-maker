@@ -1,0 +1,16 @@
+{
+  "id": "loc-059",
+  "location": "Morning Crane Dojo",
+  "area": null,
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Akitsuhara/Morning Crane Dojo.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-bbfdd94f-45bc-4441-a831-4303238b3fc6.png",
+  "sha256": "86d1a0c6b5d3e431476fca9ceafc50f291d1dd9dc175902919c5200af02cffe8",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 3109586,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1
+}

@@ -1,0 +1,16 @@
+{
+  "id": "loc-007",
+  "location": "Hollow Cedar Ruins",
+  "area": null,
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Akitsuhara/Hollow Cedar Ruins.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-92aa03b8-612e-441a-9c58-d949a063cd2b.png",
+  "sha256": "3a1854367b22dfa08dc55773f2df29dd13fe85cb92f5ae854b652ac320962f6c",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 3750900,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1
+}

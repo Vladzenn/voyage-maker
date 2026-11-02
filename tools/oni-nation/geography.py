@@ -81,7 +81,7 @@ Moonweave Grove|-9|36|20-32|Tall bamboo creaks in a wind that moves below the le
 Bamboo Charcoal Camp|9|28|5-15|Earth kilns and rough shelters serve seasonal charcoal cutters. The crew keeps one fire small enough to cook on while the others smolder for days.|Cooking Fire;Earth Kilns;Wood Stack|
 ''',
 7: '''
-Benitsuru Transit Shrine|1|34|1-12|The authorized Evertree route opens inside a tiled shrine receiving hall. Vermilion beams frame a quiet transit torii; clerks handle permits beside a courtyard full of arriving travelers.|Portal Hall;Permit Desk;Receiving Court;Baggage Veranda|
+Benitsuru Portal Shrine|1|34|1-12|The authorized Evertree route opens inside a tiled shrine receiving hall. Vermilion beams frame a quiet transit torii; clerks handle permits beside a courtyard full of arriving travelers.|Portal Hall;Permit Desk;Receiving Court;Baggage Veranda|
 Benitsuru Castle|-2|47|1-30|A terraced Shogunal castle rises toward Mount Shiun. Petitioners, household officers and military envoys share its outer court, while the lived-in residence stands behind controlled doors.|Petition Court;Council Hall;Garden Veranda;Residence Walk|
 Adventurer's Guild - Benitsuru Branch|-13|23|1-15|The international Adventurer's Guild occupies a lively street hall near the transit road. Local notices share a board with foreign expeditions; the exam court is audible through a rear door.|Reception;Request Board;Common Tables;Assessment Court;Records Desk|
 Lantern Canal Market|-9|29|1-12|Cloth, food, fans and river cargo fill the capital's canal market. Porters thread between customers while street performers claim the bridges one tune at a time.|Cloth Row;Food Bridge;Canal Steps;Parcel Arcade|

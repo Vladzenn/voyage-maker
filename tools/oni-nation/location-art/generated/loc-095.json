@@ -1,0 +1,16 @@
+{
+  "id": "loc-095",
+  "location": "Lanternwood Root Shrine",
+  "area": null,
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Akitsuhara/Lanternwood Root Shrine.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-cc4ae810-2094-4db8-92de-62c633a234f9.png",
+  "sha256": "3eb18466e5fdf595f92514e1f2f6beb3b06f9f4cb99e9b4c5859c7108cd342c2",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 3470570,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1
+}

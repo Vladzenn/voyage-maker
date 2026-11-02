@@ -1,0 +1,16 @@
+{
+  "id": "loc-016",
+  "location": "Broken Relay Tower",
+  "area": null,
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Akitsuhara/Broken Relay Tower.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-668ca72a-497b-43ad-a819-aa7b76e8faab.png",
+  "sha256": "ab90a7f9903ed465b3b27dde26b9acbee9e564bd1300b325d59872ee2339c454",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 3217164,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1
+}

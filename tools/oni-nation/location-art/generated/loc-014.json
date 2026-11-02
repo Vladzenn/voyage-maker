@@ -1,0 +1,16 @@
+{
+  "id": "loc-014",
+  "location": "Scree Lantern Pass",
+  "area": null,
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Akitsuhara/Scree Lantern Pass.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-d7361884-86e8-4891-af6a-62806c8feeb4.png",
+  "sha256": "262e57c936d65819d366e3cbf0ecb7518a28c18d0914df1c5f48b0756e00a2bc",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 3538191,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1
+}

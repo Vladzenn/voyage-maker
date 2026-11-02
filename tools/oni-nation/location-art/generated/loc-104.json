@@ -1,0 +1,16 @@
+{
+  "id": "loc-104",
+  "location": "Pale Lantern Marsh",
+  "area": null,
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Akitsuhara/Pale Lantern Marsh.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-a7e31e7f-c15c-4415-a759-6f825f58e0ec.png",
+  "sha256": "533c0bca5d0eeb3e1ed72422d5b2504d64ee1c365d9e6e645e2970808f7d1e56",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 3236093,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1
+}

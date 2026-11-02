@@ -1,0 +1,16 @@
+{
+  "id": "loc-073",
+  "location": "Reedglass Woodland Hamlet",
+  "area": null,
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Akitsuhara/Reedglass Woodland Hamlet.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-75355e3e-6ca8-4f44-aa8c-467f50b961e3.png",
+  "sha256": "5a93bb48e55a1ed511db3037db0a348d7d8a0f8178b7ef18d4c2455d119b1fda",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 3782558,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1
+}

@@ -1,0 +1,16 @@
+{
+  "id": "loc-017",
+  "location": "Shiun Pilgrim Lodge",
+  "area": null,
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Akitsuhara/Shiun Pilgrim Lodge.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-56f58b73-3a6a-4bb9-b167-d2ba0acf625f.png",
+  "sha256": "e6d7f192b06e1c5136df99a2c9be3ea55fd433c3e6a322546e4735409f71189b",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 3453378,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1
+}

@@ -1,0 +1,16 @@
+{
+  "id": "loc-076",
+  "location": "Old Bridge Shrine",
+  "area": null,
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Akitsuhara/Old Bridge Shrine.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-9f3117b8-63c3-45f2-9309-fc264b194c66.png",
+  "sha256": "ef7137e2c9314ab648b587e2a02f3d6044775bf6114cab18b8be9e8a09558dce",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 3762696,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1
+}

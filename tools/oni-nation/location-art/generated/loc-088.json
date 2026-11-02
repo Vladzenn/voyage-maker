@@ -1,0 +1,16 @@
+{
+  "id": "loc-088",
+  "location": "Redleaf Guest Village",
+  "area": null,
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Akitsuhara/Redleaf Guest Village.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-3d50c4ef-c066-43d6-844a-0b62ba2d2e09.png",
+  "sha256": "c10209db712ac16be64f2ba637a3c80210257dad696f1cb15fa8716b2db982df",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 3325937,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1
+}

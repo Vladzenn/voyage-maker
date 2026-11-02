@@ -1,0 +1,16 @@
+{
+  "id": "loc-001",
+  "location": "Blackpine Posthouse",
+  "area": null,
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Akitsuhara/Blackpine Posthouse.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-592b1d53-8486-4393-baf2-d8c75152b58a.png",
+  "sha256": "7e0e00bcf29aec6dae976bcc1f711e46bcd8c81fe81eded606612b66bac3a1b7",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 3668977,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1
+}

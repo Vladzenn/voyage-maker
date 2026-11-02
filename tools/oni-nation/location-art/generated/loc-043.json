@@ -1,0 +1,16 @@
+{
+  "id": "loc-043",
+  "location": "Rainsong Mill",
+  "area": null,
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Akitsuhara/Rainsong Mill.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-fa7f6021-d40e-44a0-8adb-900df2ba8dd4.png",
+  "sha256": "8aaa3bd015949127a61aef30a3d4367d9322a097ce0b9aedc67d01d0495301ce",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 3568180,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1
+}

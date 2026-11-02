@@ -1,0 +1,16 @@
+{
+  "id": "loc-046",
+  "location": "Abandoned Bamboo Village",
+  "area": null,
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Akitsuhara/Abandoned Bamboo Village.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-cb50b347-44b0-4ee5-acbf-da1e7e0704b3.png",
+  "sha256": "d733dbdfca0167a072bcb2017a03174c0229ebaf621ff52eb036a36718dfe674",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 3683531,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1
+}

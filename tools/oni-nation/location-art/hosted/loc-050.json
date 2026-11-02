@@ -1,0 +1,18 @@
+{
+  "id": "loc-050",
+  "location": "Benitsuru Castle",
+  "area": null,
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Akitsuhara/Benitsuru Castle.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-c712c0bc-cf75-4ad0-8cc5-4c7933ede681.png",
+  "sha256": "46b708c9c4a55832fe21cad5b2cc31e09e515ba01c80c2d270cf846f8290934b",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 3298219,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1,
+  "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/7a33529e-e97a-4f05-8dbb-c4c24ce46375.png",
+  "status": "uploaded"
+}

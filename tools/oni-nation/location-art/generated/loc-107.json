@@ -1,0 +1,16 @@
+{
+  "id": "loc-107",
+  "location": "Crane-of-the-Hush Crossing",
+  "area": null,
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Akitsuhara/Crane-of-the-Hush Crossing.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-e6047e78-c4b5-41fe-b24c-653d5c188b0e.png",
+  "sha256": "aca3026df65fd9d1f00ce3c7f100eca2f67b1e8e89f47058d160c76487af57a2",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 3053965,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1
+}

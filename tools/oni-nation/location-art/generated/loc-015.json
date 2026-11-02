@@ -1,0 +1,16 @@
+{
+  "id": "loc-015",
+  "location": "Quarry Exchange",
+  "area": null,
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Akitsuhara/Quarry Exchange.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-130201e2-de7b-49d3-b078-76aa5bdb13dd.png",
+  "sha256": "3f10cf3a1172dfa8f977a6cd8802415ae2a1d1762941daa23aafd49f45541115",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 3486483,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1
+}

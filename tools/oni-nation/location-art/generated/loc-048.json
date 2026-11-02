@@ -1,0 +1,16 @@
+{
+  "id": "loc-048",
+  "location": "Bamboo Charcoal Camp",
+  "area": null,
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Akitsuhara/Bamboo Charcoal Camp.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-72518bdd-7af8-4b96-9a24-cd11ff932b3a.png",
+  "sha256": "d9d9443151bdd47d4a420b5f93fc634a05d62c271f9efe98c861190829f8af14",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 3401463,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1
+}

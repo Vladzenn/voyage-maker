@@ -1,0 +1,16 @@
+{
+  "id": "loc-065",
+  "location": "Goldleaf Arcade",
+  "area": null,
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Akitsuhara/Goldleaf Arcade.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-fff43a62-7ba4-472c-bd74-32e48329fdeb.png",
+  "sha256": "3254c0f35d8d5db09c85d6ed0ae606cf1bb9b4491f63d910bf7f24476f2bca0b",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 3340922,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1
+}

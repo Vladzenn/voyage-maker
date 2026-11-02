@@ -1,0 +1,16 @@
+{
+  "id": "loc-078",
+  "location": "Woodland Dye Workshop",
+  "area": null,
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Akitsuhara/Woodland Dye Workshop.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-a50c524f-2366-47c6-ad11-0b5298620303.png",
+  "sha256": "19c6fd1bbe09e4e2fa2690b12812f43723cbdcd5a247509a136a0f80ee8244b5",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 3765348,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1
+}

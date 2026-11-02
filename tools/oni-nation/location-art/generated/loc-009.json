@@ -1,0 +1,16 @@
+{
+  "id": "loc-009",
+  "location": "Thundercrag Quarry",
+  "area": null,
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Akitsuhara/Thundercrag Quarry.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-33c862bb-a686-462d-8d90-f4ccdb143eab.png",
+  "sha256": "0446a3cc7698eaf2c2f7ca767c283a402572d27de6394cbe28ccbd07433627a6",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 3598391,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1
+}

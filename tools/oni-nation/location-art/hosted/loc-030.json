@@ -1,0 +1,18 @@
+{
+  "id": "loc-030",
+  "location": "Forgotten Muster Camp",
+  "area": null,
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Akitsuhara/Forgotten Muster Camp.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-01299868-c360-4f29-ab5b-e710733be030.png",
+  "sha256": "7a4bf2a65cd3f267d628f591f773377d4599ddf22e5506b35bc8f964e9a2e3f4",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 3306888,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1,
+  "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/f42eabbb-7d89-4741-ae73-182758c54f63.png",
+  "status": "uploaded"
+}

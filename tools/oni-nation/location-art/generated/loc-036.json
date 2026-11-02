@@ -1,0 +1,16 @@
+{
+  "id": "loc-036",
+  "location": "Saionoma Household",
+  "area": null,
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Akitsuhara/Saionoma Household.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-8d46e2cd-6adb-418c-bb22-db22f2820dc6.png",
+  "sha256": "25e727290df75dc20c92ae97cbcdb501af8a01ef007f4458cf54c8f4d03e0bb9",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 3589112,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1
+}

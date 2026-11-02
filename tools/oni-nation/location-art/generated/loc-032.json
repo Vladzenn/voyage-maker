@@ -1,0 +1,16 @@
+{
+  "id": "loc-032",
+  "location": "Mizuhara Castle",
+  "area": null,
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Akitsuhara/Mizuhara Castle.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-4624978b-caae-4fa1-a9b5-7e4ee665f1a0.png",
+  "sha256": "d6142f9cb5af7ba6b0404193692a00456aa3399c4dc9f7b1feff1d8e483b88f6",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 3641102,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1
+}

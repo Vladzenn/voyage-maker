@@ -5321,7 +5321,7 @@
     },
     "Evertree Base": {
       "name": "Evertree Base",
-      "basicInfo": "Controlled palace approaches lead to roots where dense mana is almost tangible. Authorized researchers and maintenance personnel can make approved observations or assist a defined task. Strength, academy membership, and a casual palace visit do not grant entry. Its Portal Room provides controlled travel to Drakenspire Mountains and Asterveil Sky Archipelago. Passage can be arranged for authorized expeditions and other actual permitted travel; transit access does not grant research access to the tree or palace. Its Portal Room is Glowhaven’s sole portal hub: every external return arch lands here, inside this location. Its ordinary network also serves Akitsuhara through Benitsuru Transit Shrine.",
+      "basicInfo": "Controlled palace approaches lead to roots where dense mana is almost tangible. Authorized researchers and maintenance personnel can make approved observations or assist a defined task. Strength, academy membership, and a casual palace visit do not grant entry. Its Portal Room provides controlled travel to Drakenspire Mountains and Asterveil Sky Archipelago. Passage can be arranged for authorized expeditions and other actual permitted travel; transit access does not grant research access to the tree or palace. Its Portal Room is Glowhaven’s sole portal hub: every external return arch lands here, inside this location. Its ordinary network also serves Akitsuhara through Benitsuru Portal Shrine.",
       "x": 0,
       "y": 20,
       "radius": 3,
@@ -12145,7 +12145,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/5e0f3a75-e740-4ac0-ab1d-1680f5a4f1a5.png"
+        }
+      }
     },
     "Cedarfall Hamlet": {
       "name": "Cedarfall Hamlet",
@@ -12196,7 +12208,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/64ba2e01-ec35-4ec5-b9f1-c7bc2d229717.png"
+        }
+      }
     },
     "Western Watch Road": {
       "name": "Western Watch Road",
@@ -12238,7 +12262,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/5317c213-8ef2-4b0e-af1a-e4501d8d040c.png"
+        }
+      }
     },
     "Old Bell Shrine": {
       "name": "Old Bell Shrine",
@@ -12280,7 +12316,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/8273cd5c-2210-4438-89ab-cbf0c1563344.png"
+        }
+      }
     },
     "Foxglove Wood": {
       "name": "Foxglove Wood",
@@ -12322,7 +12370,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/d291ed48-cc1b-4a5b-916a-e84021355135.png"
+        }
+      }
     },
     "Blackpine Boundary Stones": {
       "name": "Blackpine Boundary Stones",
@@ -12364,7 +12424,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/07429431-9e84-4426-9f90-238f2a21cc32.png"
+        }
+      }
     },
     "Hollow Cedar Ruins": {
       "name": "Hollow Cedar Ruins",
@@ -12406,7 +12478,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/1d756c54-f289-40b2-8f1e-b5445a2d4d8c.png"
+        }
+      }
     },
     "Western Woodcutters' Yard": {
       "name": "Western Woodcutters' Yard",
@@ -12448,7 +12532,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/29e33e44-5fec-44ed-9afa-9e05a0945f64.png"
+        }
+      }
     },
     "Thundercrag Quarry": {
       "name": "Thundercrag Quarry",
@@ -12499,7 +12595,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/650729da-79a6-428a-b3a8-381e6fb29709.png"
+        }
+      }
     },
     "Kuroishi Miners' Row": {
       "name": "Kuroishi Miners' Row",
@@ -12541,7 +12649,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/e5f4c592-dd1d-482d-91b4-78ab37a020b6.png"
+        }
+      }
     },
     "Basalt Kilns": {
       "name": "Basalt Kilns",
@@ -12583,7 +12703,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/ab784c9f-2447-4760-afa0-31df824009ae.png"
+        }
+      }
     },
     "Amber-Salt Mine": {
       "name": "Amber-Salt Mine",
@@ -12634,7 +12766,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/f5464692-382b-4358-b632-5fa87160f0d0.png"
+        }
+      }
     },
     "Abandoned Splitshaft": {
       "name": "Abandoned Splitshaft",
@@ -12676,7 +12820,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/6b1b60fc-2d15-4c7d-a6f4-b77e4d2e9957.png"
+        }
+      }
     },
     "Scree Lantern Pass": {
       "name": "Scree Lantern Pass",
@@ -12718,7 +12874,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/2ffe18ef-cb1e-4eeb-a030-f47708c9f68e.png"
+        }
+      }
     },
     "Quarry Exchange": {
       "name": "Quarry Exchange",
@@ -12760,7 +12928,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/a64b445b-1355-48ea-bf05-5770b5190fe5.png"
+        }
+      }
     },
     "Broken Relay Tower": {
       "name": "Broken Relay Tower",
@@ -12802,7 +12982,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/44eabe24-b537-49f3-943f-f29096f7965d.png"
+        }
+      }
     },
     "Shiun Pilgrim Lodge": {
       "name": "Shiun Pilgrim Lodge",
@@ -12853,7 +13045,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/225d6dcc-17ac-485a-b96c-d8c53e269cfe.png"
+        }
+      }
     },
     "Shiun Thousand Steps": {
       "name": "Shiun Thousand Steps",
@@ -12895,7 +13099,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/f152128f-b0ee-4ea3-9c25-b274bca61d38.png"
+        }
+      }
     },
     "Cloudbell Monastery": {
       "name": "Cloudbell Monastery",
@@ -12946,7 +13162,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/1780b4ef-ebb8-4d2e-ba3a-2bc0e7e3e3ab.png"
+        }
+      }
     },
     "Whitefall Shrine": {
       "name": "Whitefall Shrine",
@@ -12988,7 +13216,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/3beffad2-35bc-485e-a92a-81266a68eb57.png"
+        }
+      }
     },
     "Summit Cedar Precinct": {
       "name": "Summit Cedar Precinct",
@@ -13030,7 +13270,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/d02fc31e-ea6d-4c02-94d9-94c4ca256cd7.png"
+        }
+      }
     },
     "Shiun Herb Slopes": {
       "name": "Shiun Herb Slopes",
@@ -13072,7 +13324,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/a99712c4-0cf4-4e10-b814-505a2935d5cb.png"
+        }
+      }
     },
     "Ancestor Archive": {
       "name": "Ancestor Archive",
@@ -13114,7 +13378,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/c27516b1-0543-4639-8784-cc0c1da6949d.png"
+        }
+      }
     },
     "Frost-Eave Approach": {
       "name": "Frost-Eave Approach",
@@ -13156,7 +13432,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/e1bb767c-8846-4c50-91af-5eb219474a03.png"
+        }
+      }
     },
     "Snowcedar Refuge": {
       "name": "Snowcedar Refuge",
@@ -13198,7 +13486,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/751cd1fc-d131-4bc2-bfa5-a14d1742e4ce.png"
+        }
+      }
     },
     "Blue Mirror Tarn": {
       "name": "Blue Mirror Tarn",
@@ -13240,7 +13540,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/45fd4825-b403-4c74-8427-36ad951b4f75.png"
+        }
+      }
     },
     "White Antler Basin": {
       "name": "White Antler Basin",
@@ -13282,7 +13594,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/a4d536f0-8915-4c6a-8d64-05593104c697.png"
+        }
+      }
     },
     "Snowcedar Signal Hut": {
       "name": "Snowcedar Signal Hut",
@@ -13324,7 +13648,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/f0683929-2d88-4cff-a3b9-506705ffa700.png"
+        }
+      }
     },
     "Rime Bridge": {
       "name": "Rime Bridge",
@@ -13366,7 +13702,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/f1a813fc-bde3-4e01-96d4-ff4d33cbd28d.png"
+        }
+      }
     },
     "Forgotten Muster Camp": {
       "name": "Forgotten Muster Camp",
@@ -13408,7 +13756,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/f42eabbb-7d89-4741-ae73-182758c54f63.png"
+        }
+      }
     },
     "Sleeping Lake Cavern": {
       "name": "Sleeping Lake Cavern",
@@ -13450,7 +13810,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/99210689-f9c5-4fc8-9cb7-a2ab8f1cd4d4.png"
+        }
+      }
     },
     "Mizuhara Castle": {
       "name": "Mizuhara Castle",
@@ -13501,7 +13873,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/70c81311-98f3-4c18-a2d1-fae6e0a8ba93.png"
+        }
+      }
     },
     "Mizuhara Landing": {
       "name": "Mizuhara Landing",
@@ -13552,7 +13936,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/38e28fe2-ae3a-454b-b04b-703b36016342.png"
+        }
+      }
     },
     "Silver Carp Market": {
       "name": "Silver Carp Market",
@@ -13594,7 +13990,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/d98cd485-680e-41d3-9187-85e749e61185.png"
+        }
+      }
     },
     "Three Reeds Inn": {
       "name": "Three Reeds Inn",
@@ -13645,7 +14053,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/07f9a723-c653-454b-a122-b5f80d9d61a9.png"
+        }
+      }
     },
     "Saionoma Household": {
       "name": "Saionoma Household",
@@ -13696,7 +14116,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/dea0df56-6a88-4997-b52b-017ba16ffbd3.png"
+        }
+      }
     },
     "Reedwake Boatworks": {
       "name": "Reedwake Boatworks",
@@ -13738,7 +14170,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/5d907937-6ec2-4374-a987-99d7e5efc6de.png"
+        }
+      }
     },
     "Western Spear Hall": {
       "name": "Western Spear Hall",
@@ -13780,7 +14224,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/b627fec1-0a18-46ab-8d67-0a865561ebf5.png"
+        }
+      }
     },
     "Reedshore Hamlet": {
       "name": "Reedshore Hamlet",
@@ -13822,7 +14278,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/54b6773a-2e54-426e-ab66-d52ced90aab1.png"
+        }
+      }
     },
     "Lakewatch Islet": {
       "name": "Lakewatch Islet",
@@ -13864,11 +14332,23 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/77871cb9-69d2-4b7b-97f8-6aff9a120cbd.png"
+        }
+      }
     },
     "Bamboo Crossing": {
       "name": "Bamboo Crossing",
-      "basicInfo": "A bridge village sits where two bamboo roads meet. Food stalls and pack-animal rails make it an ordinary stopping place between the capital and west. Nearby routes lead toward Green Thread Paperworks, Rainsong Mill, Riverglass Baths, Quarry Exchange, Mizuhara Landing, Benitsuru Transit Shrine.",
+      "basicInfo": "A bridge village sits where two bamboo roads meet. Food stalls and pack-animal rails make it an ordinary stopping place between the capital and west. Nearby routes lead toward Green Thread Paperworks, Rainsong Mill, Riverglass Baths, Quarry Exchange, Mizuhara Landing, Benitsuru Portal Shrine.",
       "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Shin Watarai is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Ren Ishidate is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Potential unresolved situation: Shin has balanced lunch supplies on a stool. One rat is exposed and the other behind shelving. A lure, trap or ordinary fight works; no rat king or disease sequel. They are level 1–2 weak nuisances, one active hostile at a time. The associated voluntary undertaking is Akitsuhara Guild: Something in the Flour.",
       "x": -23,
       "y": 25,
@@ -13915,7 +14395,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/3d2aa5b8-65e8-4f65-bffa-b9f3e4e0c45b.png"
+        }
+      }
     },
     "Green Thread Paperworks": {
       "name": "Green Thread Paperworks",
@@ -13957,7 +14449,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/aa5b66e7-e9ae-446b-9a57-f1b439ebc43b.png"
+        }
+      }
     },
     "Rainsong Mill": {
       "name": "Rainsong Mill",
@@ -13999,7 +14503,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/90e3482d-d211-46d2-9766-e07163dfafbe.png"
+        }
+      }
     },
     "Hidden Reed Training Ground": {
       "name": "Hidden Reed Training Ground",
@@ -14041,7 +14557,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/49e41b2c-2884-41d1-b6d3-973c7a6d76bd.png"
+        }
+      }
     },
     "Riverglass Baths": {
       "name": "Riverglass Baths",
@@ -14083,7 +14611,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/57cc8f4f-6c13-4910-ac4d-d53369605b35.png"
+        }
+      }
     },
     "Abandoned Bamboo Village": {
       "name": "Abandoned Bamboo Village",
@@ -14125,7 +14665,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/ee481579-b54a-4551-bd87-d993b62d2e1f.png"
+        }
+      }
     },
     "Moonweave Grove": {
       "name": "Moonweave Grove",
@@ -14167,7 +14719,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/287c7362-6b72-4b92-bb2f-85b91733656b.png"
+        }
+      }
     },
     "Bamboo Charcoal Camp": {
       "name": "Bamboo Charcoal Camp",
@@ -14209,10 +14773,22 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/52e1e21c-8e82-439e-9f90-b0a851cf27ed.png"
+        }
+      }
     },
-    "Benitsuru Transit Shrine": {
-      "name": "Benitsuru Transit Shrine",
+    "Benitsuru Portal Shrine": {
+      "name": "Benitsuru Portal Shrine",
       "basicInfo": "The authorized Evertree route opens inside a tiled shrine receiving hall. Vermilion beams frame a quiet transit torii; clerks handle permits beside a courtyard full of arriving travelers. Nearby routes lead toward Red Maple Inn, Bamboo Crossing. The authorized transit desk can approve a legitimate visit to Glowhaven and issue its reusable portal key locally. An approved journey is separate from merely standing at the arch.",
       "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Nobu Senda is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. A character beginning in this realm can request a Glowhaven Portal Key here. A delegated official must actually approve a legitimate journey and hand it over; Kohane Kazahana can introduce the Cloudbloom duty delegate but piloting alone is not issuing authority. Existing fixed home arches remain usable without a key; preserve their exact Evertree arrival.",
       "x": 1,
@@ -14222,34 +14798,46 @@
       "complexityType": "complex",
       "detailType": "detailed",
       "areas": {
-        "Benitsuru Transit Shrine - Portal Hall": {
+        "Benitsuru Portal Shrine - Portal Hall": {
           "description": "A vermilion transit torii stands on a dry tiled floor. Paper screens frame the capital courtyard; the fixed return passage leads to Evertree Base - Portal Room. Travelers can wait, arrange permitted transit or leave for the city.",
           "paths": [
-            "Benitsuru Transit Shrine - Permit Desk",
-            "Benitsuru Transit Shrine - Receiving Court",
-            "Benitsuru Transit Shrine - Baggage Veranda"
-          ]
+            "Benitsuru Portal Shrine - Permit Desk",
+            "Benitsuru Portal Shrine - Receiving Court",
+            "Benitsuru Portal Shrine - Baggage Veranda"
+          ],
+          "images": {
+            "establishingShot": {
+              "crop": {
+                "focus": {
+                  "x": 50,
+                  "y": 50
+                },
+                "zoom": 100
+              },
+              "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/4d9dc605-b5bc-4bc0-9f7b-595d4cec748b.png"
+            }
+          }
         },
-        "Benitsuru Transit Shrine - Permit Desk": {
+        "Benitsuru Portal Shrine - Permit Desk": {
           "description": "An attended counter handles authorized route keys, manifests and visitors. A window looks directly onto the transit floor; waiting passengers can ask about actual permitted routes.",
           "paths": [
-            "Benitsuru Transit Shrine - Portal Hall",
-            "Benitsuru Transit Shrine - Receiving Court"
+            "Benitsuru Portal Shrine - Portal Hall",
+            "Benitsuru Portal Shrine - Receiving Court"
           ]
         },
-        "Benitsuru Transit Shrine - Receiving Court": {
-          "description": "The receiving court is a usable part of Benitsuru Transit Shrine, with work surfaces or clear standing space fitted to the people who use it. Voices and activity from the adjoining space carry across its entrance. The authorized Evertree route opens inside a tiled shrine receiving hall.",
+        "Benitsuru Portal Shrine - Receiving Court": {
+          "description": "The receiving court is a usable part of Benitsuru Portal Shrine, with work surfaces or clear standing space fitted to the people who use it. Voices and activity from the adjoining space carry across its entrance. The authorized Evertree route opens inside a tiled shrine receiving hall.",
           "paths": [
-            "Benitsuru Transit Shrine - Portal Hall",
-            "Benitsuru Transit Shrine - Permit Desk",
-            "Benitsuru Transit Shrine - Baggage Veranda"
+            "Benitsuru Portal Shrine - Portal Hall",
+            "Benitsuru Portal Shrine - Permit Desk",
+            "Benitsuru Portal Shrine - Baggage Veranda"
           ]
         },
-        "Benitsuru Transit Shrine - Baggage Veranda": {
-          "description": "The baggage veranda is a usable part of Benitsuru Transit Shrine, with work surfaces or clear standing space fitted to the people who use it. Voices and activity from the adjoining space carry across its entrance. The authorized Evertree route opens inside a tiled shrine receiving hall.",
+        "Benitsuru Portal Shrine - Baggage Veranda": {
+          "description": "The baggage veranda is a usable part of Benitsuru Portal Shrine, with work surfaces or clear standing space fitted to the people who use it. Voices and activity from the adjoining space carry across its entrance. The authorized Evertree route opens inside a tiled shrine receiving hall.",
           "paths": [
-            "Benitsuru Transit Shrine - Portal Hall",
-            "Benitsuru Transit Shrine - Receiving Court"
+            "Benitsuru Portal Shrine - Portal Hall",
+            "Benitsuru Portal Shrine - Receiving Court"
           ]
         }
       },
@@ -14260,7 +14848,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/0435c940-f3b2-497d-a223-6737d69f6400.png"
+        }
+      }
     },
     "Benitsuru Castle": {
       "name": "Benitsuru Castle",
@@ -14311,7 +14911,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/7a33529e-e97a-4f05-8dbb-c4c24ce46375.png"
+        }
+      }
     },
     "Adventurer's Guild - Benitsuru Branch": {
       "name": "Adventurer's Guild - Benitsuru Branch",
@@ -14371,7 +14983,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/0b0b267a-2848-4952-ae67-da5e87c0cc2e.png"
+        }
+      }
     },
     "Lantern Canal Market": {
       "name": "Lantern Canal Market",
@@ -14422,7 +15046,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/55ba6a5c-2b2b-456d-889c-e182685412f0.png"
+        }
+      }
     },
     "Benitsuru Magistracy": {
       "name": "Benitsuru Magistracy",
@@ -14473,11 +15109,23 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/c7dda0dd-bb6a-45f4-8dba-b8a82b03b60f.png"
+        }
+      }
     },
     "Red Maple Inn": {
       "name": "Red Maple Inn",
-      "basicInfo": "A comfortable capital inn has a bright dining room, private rooms and a courtyard where travelers compare journeys. The host knows which stories were different yesterday. Nearby routes lead toward Benitsuru Transit Shrine, Benitsuru Public School, Adventurer's Guild - Benitsuru Branch.",
+      "basicInfo": "A comfortable capital inn has a bright dining room, private rooms and a courtyard where travelers compare journeys. The host knows which stories were different yesterday. Nearby routes lead toward Benitsuru Portal Shrine, Benitsuru Public School, Adventurer's Guild - Benitsuru Branch.",
       "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Tōma Sagiri is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Chiyo Matsukaze is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation.",
       "x": 0,
       "y": 3,
@@ -14524,7 +15172,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/28b1475e-c029-4911-b9fd-f6efefc14d1d.png"
+        }
+      }
     },
     "Benitsuru Ward Clinic": {
       "name": "Benitsuru Ward Clinic",
@@ -14566,7 +15226,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/710f6350-54f7-4d5d-b373-0dbf2192dc1e.png"
+        }
+      }
     },
     "Kagetsuna Household": {
       "name": "Kagetsuna Household",
@@ -14617,7 +15289,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/bb3689c8-8df7-43ea-aeb9-82fecc9d9ec0.png"
+        }
+      }
     },
     "Eight Petals Theater": {
       "name": "Eight Petals Theater",
@@ -14668,7 +15352,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/d4946672-134e-4752-a626-4e0ea072f216.png"
+        }
+      }
     },
     "Benitsuru Craft Quarter": {
       "name": "Benitsuru Craft Quarter",
@@ -14719,7 +15415,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/7cba6073-2b4f-4354-b383-493182492393.png"
+        }
+      }
     },
     "Morning Crane Dojo": {
       "name": "Morning Crane Dojo",
@@ -14761,7 +15469,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/996b1328-1b0b-4652-8407-3263dff2011e.png"
+        }
+      }
     },
     "Canal Ward Homes": {
       "name": "Canal Ward Homes",
@@ -14812,7 +15532,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/3aeddac7-84d8-497c-91a8-ae7a977062cd.png"
+        }
+      }
     },
     "Benitsuru Public School": {
       "name": "Benitsuru Public School",
@@ -14854,7 +15586,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/9507ada2-1f50-4555-8091-f9555d8fd77e.png"
+        }
+      }
     },
     "South Gate Caravan Yard": {
       "name": "South Gate Caravan Yard",
@@ -14905,7 +15649,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/b80e7193-4d6d-4864-94bc-9291e70c28ed.png"
+        }
+      }
     },
     "Koganedai Castle": {
       "name": "Koganedai Castle",
@@ -14956,7 +15712,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/443224a6-c1e1-4054-91ed-2e18faad7d52.png"
+        }
+      }
     },
     "Tsubakiri Residence": {
       "name": "Tsubakiri Residence",
@@ -15007,7 +15775,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/55c3fd14-d4cb-423e-bd54-d1509babffe2.png"
+        }
+      }
     },
     "Goldleaf Arcade": {
       "name": "Goldleaf Arcade",
@@ -15049,7 +15829,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/f74c1098-1c1b-4649-ab22-2e967f5c7796.png"
+        }
+      }
     },
     "Ginkgo Crossbow Works": {
       "name": "Ginkgo Crossbow Works",
@@ -15100,7 +15892,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/cb87d971-7f03-499d-b1fa-e30405e2d0ee.png"
+        }
+      }
     },
     "Koganedai Muster Ground": {
       "name": "Koganedai Muster Ground",
@@ -15142,7 +15946,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/83d86d7b-39a4-4521-bdbb-44b9dd32f80a.png"
+        }
+      }
     },
     "Terrace Waterworks": {
       "name": "Terrace Waterworks",
@@ -15184,7 +16000,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/15b5e112-7ce9-407a-8aeb-89c5b810058b.png"
+        }
+      }
     },
     "East Wind Archery Hall": {
       "name": "East Wind Archery Hall",
@@ -15226,7 +16054,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/79df8050-0937-4292-bc7d-996a099335dd.png"
+        }
+      }
     },
     "Koganedai Guesthouse": {
       "name": "Koganedai Guesthouse",
@@ -15268,7 +16108,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/a3aada2d-9230-4808-9f0d-f6b6308d5a33.png"
+        }
+      }
     },
     "Ginkgo Schoolhouse": {
       "name": "Ginkgo Schoolhouse",
@@ -15310,14 +16162,26 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/3c1e58c4-ed72-4fc4-b408-3d9de45a5367.png"
+        }
+      }
     },
     "Mirror-Reed Bridge": {
       "name": "Mirror-Reed Bridge",
       "basicInfo": "A red-lacquered timber bridge crosses a clear river between wooded banks. A path-keeper’s shelter and a broad waiting verge serve walkers, pack animals and the occasional small cart. Ferns hide the older footpath beneath the stone approach. Nearby routes lead toward Old Bridge Shrine, White Heron Grove, Reedglass Woodland Hamlet, Reedshore Hamlet.",
       "hiddenInfo": "Use this actual forest-and-river setting and the placed residents. Ordinary visits to inhabited clearings do not create a fight. Respect owned tools, honest payment and actual completed outcomes. Established local people: Yumi Sawatari. Reuse their records rather than inventing replacements.  Potential unresolved situation: A turned ankle and an Antler-Moss Boar occupying the lower bend have stranded a trail party at a dry shelter. A supported walk, a distraction, an alternate marked path or a proportionate fight can work. The helper is alive unless actual events change that. The voluntary undertaking is Akitsuhara Guild: Missing on the Ridge.",
-      "x": -8,
-      "y": 17,
+      "x": 18,
+      "y": 26,
       "radius": 1.5,
       "region": "Mirror-Reed Lowlands",
       "complexityType": "complex",
@@ -15352,7 +16216,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/11d16bf3-d1ec-403a-887d-fb0ae7e2779e.png"
+        }
+      }
     },
     "Reedglass Woodland Hamlet": {
       "name": "Reedglass Woodland Hamlet",
@@ -15394,14 +16270,26 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/2a3290b1-175b-48f1-9aba-3ad59de77f6e.png"
+        }
+      }
     },
     "White Heron Grove": {
       "name": "White Heron Grove",
       "basicInfo": "White birds nest in a stand of pale-barked trees above a shallow river bend. Smooth stones, old roots and pockets of reeds break the bank; the higher path stays within the trees. Nearby routes lead toward Mirror-Reed Bridge, Singing Cedar Hollow.",
       "hiddenInfo": "Use this actual forest-and-river setting and the placed residents. Ordinary visits to inhabited clearings do not create a fight. Respect owned tools, honest payment and actual completed outcomes. Suitable encounter types: Reed-Jaw Kappa, Whitefall Crane. Use finite occupants and preserve a cleared encounter. ",
-      "x": 23,
-      "y": 40,
+      "x": 28,
+      "y": -32,
       "radius": 1.5,
       "region": "Mirror-Reed Lowlands",
       "complexityType": "complex",
@@ -15436,14 +16324,26 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/b4e37c53-5971-4f36-bb07-dcbbd25f7c70.png"
+        }
+      }
     },
     "Singing Cedar Hollow": {
       "name": "Singing Cedar Hollow",
       "basicInfo": "A wind funnel carries wavering notes through a wooded hollow between rocky slopes. Strips of old trail cloth catch among cedar branches, and root hollows conceal the source of some replies. Nearby routes lead toward White Heron Grove, Mossbank Ridgeway.",
       "hiddenInfo": "Use this actual forest-and-river setting and the placed residents. Ordinary visits to inhabited clearings do not create a fight. Respect owned tools, honest payment and actual completed outcomes. Suitable encounter types: Moss-Tongue Kodama, Antler-Moss Boar. Use finite occupants and preserve a cleared encounter. ",
-      "x": 28,
-      "y": 2,
+      "x": -13,
+      "y": -7,
       "radius": 1.5,
       "region": "Mirror-Reed Lowlands",
       "complexityType": "complex",
@@ -15478,7 +16378,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/0d8f43aa-0ca4-4b4c-a19e-2b2b2c4beb83.png"
+        }
+      }
     },
     "Old Bridge Shrine": {
       "name": "Old Bridge Shrine",
@@ -15520,14 +16432,26 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/2ede4b93-c42f-442a-8682-65e9e86befbc.png"
+        }
+      }
     },
     "Mossbank Ridgeway": {
       "name": "Mossbank Ridgeway",
       "basicInfo": "A maintained ridge path winds between moss-covered rocks and cedar trunks. Low stone walls stabilize the steeper bends, and small shelters mark sensible places to rest a load before the road reaches open grain country. Nearby routes lead toward Singing Cedar Hollow, South River Bridge.",
       "hiddenInfo": "Use this actual forest-and-river setting and the placed residents. Ordinary visits to inhabited clearings do not create a fight. Respect owned tools, honest payment and actual completed outcomes. Suitable encounter types: Moss-Tongue Kodama. Use finite occupants and preserve a cleared encounter. ",
-      "x": 10,
-      "y": -28,
+      "x": 15,
+      "y": -17,
       "radius": 1.5,
       "region": "Mirror-Reed Lowlands",
       "complexityType": "complex",
@@ -15562,14 +16486,26 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/a779a49f-f9cf-4edc-a139-9808abf86670.png"
+        }
+      }
     },
     "Woodland Dye Workshop": {
       "name": "Woodland Dye Workshop",
       "basicInfo": "A timber workshop and drying yard sit beside a clean stream below the trees. Aya Takino steeps bark, roots and gathered leaves into vivid dyes; cloth bundles arrive by pack trail, and the rinsing channel turns a different color with each batch. Nearby routes lead toward Reedglass Woodland Hamlet.",
       "hiddenInfo": "Use this actual forest-and-river setting and the placed residents. Ordinary visits to inhabited clearings do not create a fight. Respect owned tools, honest payment and actual completed outcomes. Established local people: Aya Takino. Reuse their records rather than inventing replacements.  Potential unresolved situation: A loose wheel and a sudden shower left the small cart tilted beside the forest path. Secure the load, repair or lighten the cart, or arrange willing porters. A torn bundle is a negotiable partial result; this is a practical recovery, not a pirate attack. The voluntary undertaking is Akitsuhara Guild: Cloth on the Forest Road.",
-      "x": -30,
-      "y": -29,
+      "x": 46,
+      "y": -19,
       "radius": 1.5,
       "region": "Mirror-Reed Lowlands",
       "complexityType": "complex",
@@ -15604,7 +16540,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/fc619af4-5c48-4a68-8d67-d86b9290d606.png"
+        }
+      }
     },
     "Hoshina Village": {
       "name": "Hoshina Village",
@@ -15655,7 +16603,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/da38b7a9-09ba-418c-8526-2f17cd4210be.png"
+        }
+      }
     },
     "Golden Sheaf Granary": {
       "name": "Golden Sheaf Granary",
@@ -15697,7 +16657,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/ab9ea22f-026a-41d5-9fe7-389b6618535b.png"
+        }
+      }
     },
     "South River Bridge": {
       "name": "South River Bridge",
@@ -15739,7 +16711,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/efc1dfae-9a01-400f-b16e-271902c11d19.png"
+        }
+      }
     },
     "Goldfinch Orchard": {
       "name": "Goldfinch Orchard",
@@ -15781,7 +16765,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/492e7a4d-2e5a-4e68-9501-7b047f67ef5d.png"
+        }
+      }
     },
     "Susuki Road": {
       "name": "Susuki Road",
@@ -15823,7 +16819,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/78ee0041-20e7-46c3-80f6-dfdc847f0ff1.png"
+        }
+      }
     },
     "Low Meadow Paddies": {
       "name": "Low Meadow Paddies",
@@ -15865,7 +16873,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/d2ec61ba-fb07-4b94-9c4b-1545f3cb1e2b.png"
+        }
+      }
     },
     "Saffron Road Hostel": {
       "name": "Saffron Road Hostel",
@@ -15907,7 +16927,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/56806a51-3988-461b-afe3-492dc8af63a9.png"
+        }
+      }
     },
     "Redleaf Bridge": {
       "name": "Redleaf Bridge",
@@ -15949,7 +16981,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/b775f2ed-3528-43e1-b01e-e87aa5bfd79c.png"
+        }
+      }
     },
     "Evening Maple Shrine": {
       "name": "Evening Maple Shrine",
@@ -16000,7 +17044,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/7eefae14-a1ea-4449-a34d-ba85fcda2af0.png"
+        }
+      }
     },
     "Redleaf Guest Village": {
       "name": "Redleaf Guest Village",
@@ -16042,7 +17098,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/40fe21c2-2893-441a-9a99-dbea3c5009d4.png"
+        }
+      }
     },
     "Paper Moon Pavilion": {
       "name": "Paper Moon Pavilion",
@@ -16084,7 +17152,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/977ef6aa-196d-47ec-9892-2c05abe81117.png"
+        }
+      }
     },
     "Foxfire Verge": {
       "name": "Foxfire Verge",
@@ -16126,7 +17206,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/e7f657fd-6068-4946-98b3-00842cb789db.png"
+        }
+      }
     },
     "Broken Kite Camp": {
       "name": "Broken Kite Camp",
@@ -16168,7 +17260,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/1ac020ef-535a-45f1-97cb-213f0e06040c.png"
+        }
+      }
     },
     "Redleaf Apiculture": {
       "name": "Redleaf Apiculture",
@@ -16210,7 +17314,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/645b68d3-9edb-4190-ad5f-f15fdd5b87a6.png"
+        }
+      }
     },
     "River Lantern Mooring": {
       "name": "River Lantern Mooring",
@@ -16252,7 +17368,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/e3553437-4936-4394-b250-e0d6fd8149a7.png"
+        }
+      }
     },
     "Moonless Torii": {
       "name": "Moonless Torii",
@@ -16294,7 +17422,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/62cb5c56-b533-46bb-8c40-1e17f0ef4745.png"
+        }
+      }
     },
     "Lanternwood Root Shrine": {
       "name": "Lanternwood Root Shrine",
@@ -16336,7 +17476,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/4d8e89fb-e8c4-4b87-9af1-1edc4f4f78cb.png"
+        }
+      }
     },
     "Ragged Cedar Hollow": {
       "name": "Ragged Cedar Hollow",
@@ -16378,7 +17530,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/14988dbc-d09e-48cd-a2a1-eb2e0d670d96.png"
+        }
+      }
     },
     "Old Mask Trail": {
       "name": "Old Mask Trail",
@@ -16420,7 +17584,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/25d8b411-42b3-4521-adaa-4bd95ace6cf2.png"
+        }
+      }
     },
     "Rootfall Ravine": {
       "name": "Rootfall Ravine",
@@ -16462,7 +17638,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/5a47bcaa-7dc9-4c94-a355-4e6409143982.png"
+        }
+      }
     },
     "Lanternwood Field Shelter": {
       "name": "Lanternwood Field Shelter",
@@ -16504,7 +17692,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/9ac5171f-fc37-4330-9538-5eb8884e9576.png"
+        }
+      }
     },
     "Foxglade Spirit Orchard": {
       "name": "Foxglade Spirit Orchard",
@@ -16546,7 +17746,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/0e4dd6b6-f26b-4bed-8a59-cb6c3cf3c3c1.png"
+        }
+      }
     },
     "Hushwater Pool": {
       "name": "Hushwater Pool",
@@ -16588,7 +17800,19 @@
       },
       "factions": [
         "Akitsuhara"
-      ]
+      ],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/d6da16ad-78d3-4058-8ced-ae32d39ba88f.png"
+        }
+      }
     },
     "Veiled Threshold": {
       "name": "Veiled Threshold",
@@ -16628,14 +17852,26 @@
         "min": 1,
         "max": 12
       },
-      "factions": []
+      "factions": [],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/3f8b3fdf-3ae1-424e-9366-24ae573046d8.png"
+        }
+      }
     },
     "Bellroot Refuge": {
       "name": "Bellroot Refuge",
       "basicInfo": "An immense root shelters a little dry platform above the fog. Old bells hang under its arch, and careful guests can rest without stepping into the surrounding pools. Nearby routes lead toward Veiled Threshold, The Listening Cedars, Crane-of-the-Hush Crossing.",
       "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist.",
-      "x": -33,
-      "y": 16,
+      "x": -30,
+      "y": 5,
       "radius": 1.5,
       "region": "Veiled Cedar Reach",
       "complexityType": "complex",
@@ -16668,7 +17904,19 @@
         "min": 5,
         "max": 18
       },
-      "factions": []
+      "factions": [],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/db79aef6-146b-455f-a468-582564bf4e21.png"
+        }
+      }
     },
     "Pale Lantern Marsh": {
       "name": "Pale Lantern Marsh",
@@ -16708,14 +17956,26 @@
         "min": 18,
         "max": 30
       },
-      "factions": []
+      "factions": [],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/e39f7e12-30b9-481a-9897-35e935918bc2.png"
+        }
+      }
     },
     "The Listening Cedars": {
       "name": "The Listening Cedars",
       "basicInfo": "Huge cedar silhouettes vanish upward into mist. Unfamiliar voices use recognizable cadences, and the roots hold objects carried here by the water. Nearby routes lead toward Bellroot Refuge.",
       "hiddenInfo": "LOCAL PLAY: Respect signs, actual occupants and an available retreat. The local band describes ordinary new encounters, not a required fight. Habitats can use these actual npcTypes when appropriate: Echo-Hide Stalker,Moss-Tongue Kodama. Generate a finite encounter, preserve its actual outcome, and do not replace cleared creatures on a return. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist.",
-      "x": -36,
-      "y": 40,
+      "x": -30,
+      "y": 35,
       "radius": 1.5,
       "region": "Veiled Cedar Reach",
       "complexityType": "complex",
@@ -16748,14 +18008,26 @@
         "min": 20,
         "max": 35
       },
-      "factions": []
+      "factions": [],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/202b3465-ee8e-4a03-a349-dc051501c055.png"
+        }
+      }
     },
     "Ashen Festival Road": {
       "name": "Ashen Festival Road",
       "basicInfo": "A road of dark stone passes broken festival frames and empty stalls. Tall shapes stand beyond the lanterns, moving when the road turns out of sight. Nearby routes lead toward Crane-of-the-Hush Crossing, Pale Lantern Marsh.",
       "hiddenInfo": "LOCAL PLAY: Respect signs, actual occupants and an available retreat. The local band describes ordinary new encounters, not a required fight. Habitats can use these actual npcTypes when appropriate: Empty Festival Husk,Cinder Umbrella. Generate a finite encounter, preserve its actual outcome, and do not replace cleared creatures on a return. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist.",
-      "x": 4,
-      "y": 4,
+      "x": 7,
+      "y": 0,
       "radius": 1.5,
       "region": "Veiled Cedar Reach",
       "complexityType": "complex",
@@ -16788,7 +18060,19 @@
         "min": 20,
         "max": 35
       },
-      "factions": []
+      "factions": [],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/b36cea73-f873-499c-a131-9174e425eb14.png"
+        }
+      }
     },
     "Crane-of-the-Hush Crossing": {
       "name": "Crane-of-the-Hush Crossing",
@@ -16828,7 +18112,19 @@
         "min": 15,
         "max": 30
       },
-      "factions": []
+      "factions": [],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/86dc0a08-0ae5-45c4-aa0d-1511bbcff7f3.png"
+        }
+      }
     },
     "Hollow Sky Grove": {
       "name": "Hollow Sky Grove",
@@ -16868,7 +18164,19 @@
         "min": 30,
         "max": 42
       },
-      "factions": []
+      "factions": [],
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/a11605df-2bd1-4e67-b683-f013cbc24381.png"
+        }
+      }
     },
     "Hinoki Hollow Onsen": {
       "name": "Hinoki Hollow Onsen",
@@ -16918,6 +18226,18 @@
             "Hinoki Hollow Onsen - Reception Porch",
             "Hinoki Hollow Onsen - Stone Pools"
           ]
+        }
+      },
+      "images": {
+        "establishingShot": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/4f6f2241-cdfe-4def-9995-5aa2cd6c06b2.png"
         }
       }
     }
@@ -26569,8 +27889,8 @@
     "Nobu Senda": {
       "name": "Nobu Senda",
       "properName": "Nobu Senda",
-      "currentLocation": "Benitsuru Transit Shrine",
-      "currentArea": "Benitsuru Transit Shrine - Portal Hall",
+      "currentLocation": "Benitsuru Portal Shrine",
+      "currentArea": "Benitsuru Portal Shrine - Portal Hall",
       "type": "Resident",
       "detailType": "detailed",
       "tier": "average",
@@ -29743,7 +31063,7 @@
       "text": "Money is quoted in marks, the same unit used in Glowhaven and its partner lands. Grain, fish, timber, paper, lacquer, textiles and skilled work support the towns; imported mechanisms remain scarce expensive purchases. A plain meal commonly costs 6–12 marks, a shared sleeping place 8–12 and an ordinary private room 18–30. Agreed quality and circumstances can alter a quote. A household favor, rental or loan has actual terms rather than automatic free service."
     },
     "Akitsuhara — The Two Torii Routes": {
-      "text": "The attended torii inside Benitsuru Transit Shrine is the authorized Evertree-network endpoint. Its fixed return leads to Evertree Base - Portal Room, and authorized route keys can be issued by the court or its actual transit delegates. Moonless Torii is a different old gate among Lanternwood’s lower roots. A restored local way bell can awaken it after a modest shrine repair undertaking. Once awakened, that route remains open even when the bell is elsewhere. Its far side returns to Moonless Torii, not the Evertree."
+      "text": "The attended torii inside Benitsuru Portal Shrine is the authorized Evertree-network endpoint. Its fixed return leads to Evertree Base - Portal Room, and authorized route keys can be issued by the court or its actual transit delegates. Moonless Torii is a different old gate among Lanternwood’s lower roots. A restored local way bell can awaken it after a modest shrine repair undertaking. Once awakened, that route remains open even when the bell is elsewhere. Its far side returns to Moonless Torii, not the Evertree."
     },
     "Akitsuhara — Hagire and the Cedar Margins": {
       "text": "Hagire is the towering ragged woman-shaped beast reported along Ragged Cedar Hollow, Old Mask Trail and Foxfire Verge. Hanging strips and dry joint cracks warn of a sudden long-reaching lunge. She is hostile to travelers and their companions. The maintained roads, attended shelter and tended shrine courts lie outside her ordinary hunting ground. Survivors describe narrowing her approach beneath low roots and denying lateral routes; facing her unprepared is dangerous."
@@ -36701,7 +38021,7 @@
     "Oni Nation Portal Key": {
       "name": "Oni Nation Portal Key",
       "category": "Key",
-      "description": "A reusable issued transit key for the Evertree route to Akitsuhara. Its carved torii mark identifies Benitsuru Transit Shrine as the outward destination; the receiving hall’s return passage leads to the Evertree Portal Room.",
+      "description": "A reusable issued transit key for the Evertree route to Akitsuhara. Its carved torii mark identifies Benitsuru Portal Shrine as the outward destination; the receiving hall’s return passage leads to the Evertree Portal Room.",
       "bonuses": [],
       "needsMediaGeneration": true
     }
@@ -79602,7 +80922,7 @@
         },
         {
           "type": "action",
-          "query": "The player deliberately crosses the sanctuary's return arch to Glowhaven now. This is an actual return, not examining the arch, a hypothetical or crossing into the conservatory garden."
+          "query": "The player deliberately crosses the sanctuary's return arch to Glowhaven now. This is an actual return, not examining the arch, a hypothetical or crossing into the conservatory garden. Deliberately using a held Sepulchral Portal Key here to return also qualifies. The fixed return arch itself needs no key."
         }
       ],
       "effects": [
@@ -80221,30 +81541,30 @@
         },
         {
           "type": "known-entity",
-          "entity": "Benitsuru Transit Shrine",
+          "entity": "Benitsuru Portal Shrine",
           "operator": "set",
           "value": true
         },
         {
           "type": "party-location",
           "operator": "set",
-          "value": "Benitsuru Transit Shrine"
+          "value": "Benitsuru Portal Shrine"
         },
         {
           "type": "party-area",
           "operator": "set",
-          "value": "Benitsuru Transit Shrine - Portal Hall"
+          "value": "Benitsuru Portal Shrine - Portal Hall"
         },
         {
           "type": "npc-placement",
           "npc": "allPartyNPCs",
           "operation": "moveTo",
-          "location": "Benitsuru Transit Shrine",
-          "area": "Benitsuru Transit Shrine - Portal Hall"
+          "location": "Benitsuru Portal Shrine",
+          "area": "Benitsuru Portal Shrine - Portal Hall"
         },
         {
           "type": "story",
-          "instruction": "Render the chosen portal crossing into Benitsuru Transit Shrine - Portal Hall, preserving the traveling party, belongings, actual permission and ongoing obligations. This is a distant region of the same world. Arrival alone grants no fieldwork credit or new companion. Render only this one crossing and its fixed endpoint; do not add an unrequested return or journey."
+          "instruction": "Render the chosen portal crossing into Benitsuru Portal Shrine - Portal Hall, preserving the traveling party, belongings, actual permission and ongoing obligations. This is a distant region of the same world. Arrival alone grants no fieldwork credit or new companion. Render only this one crossing and its fixed endpoint; do not add an unrequested return or journey."
         }
       ],
       "script": "const tick=check({type:'game-tick'});\nif(storage.ghPortalTransitTick===tick){skip=true;}else{\nconst players=check({type:'player-level'})||{};\nif(Object.values(players).some(level=>level>=20)&&!check({type:'read-boolean',key:'gh_spider_entered'})){\n storage.gh_spider_entered=true;storage.gh_exam_postponed=true;\n storage.ghSpiderIncident={tick,intendedDestination:\"Akitsuhara\",key:\"Oni Nation Portal Key\",players:Object.keys(players),companions:Object.keys(check({type:'npc-in-party',npc:'anyPartyNPC'})||{})};\n effects.length=0;effects.push(...[{\"type\":\"known-entity\",\"entity\":\"The Silken Descent\",\"operator\":\"set\",\"value\":true},{\"type\":\"known-entity\",\"entity\":\"Silken Chasm\",\"operator\":\"set\",\"value\":true},{\"type\":\"known-entity\",\"entity\":\"Silken Portal Room\",\"operator\":\"set\",\"value\":true},{\"type\":\"party-location\",\"operator\":\"set\",\"value\":\"Silken Portal Room\"},{\"type\":\"party-area\",\"operator\":\"set\",\"value\":\"Silken Portal Room - Return Arch\"},{\"type\":\"npc-placement\",\"npc\":\"allPartyNPCs\",\"operation\":\"moveTo\",\"location\":\"Silken Portal Room\",\"area\":\"Silken Portal Room - Return Arch\"},{\"type\":\"story\",\"instruction\":\"Interrupt the apparently normal crossing now: silver strands shear across the expected view and the actual party arrives together inside the ruined Silken Portal Room. Preserve companions and possessions. A silver-threaded key visibly condenses as the room is discovered; its one-time item effect records it. The stable return arch clearly leads home and is immediately usable without a key, descent or battle. Stop at arrival. No official predicted this event; do not descend or return for the player.\"}]);\n}\nstorage.ghPortalTransitTick=tick;storage.gh_evertree_transited=true;\n}"
@@ -80290,33 +81610,33 @@
         },
         {
           "type": "known-entity",
-          "entity": "Benitsuru Transit Shrine",
+          "entity": "Benitsuru Portal Shrine",
           "operator": "set",
           "value": true
         },
         {
           "type": "party-location",
           "operator": "set",
-          "value": "Benitsuru Transit Shrine"
+          "value": "Benitsuru Portal Shrine"
         },
         {
           "type": "party-area",
           "operator": "set",
-          "value": "Benitsuru Transit Shrine - Portal Hall"
+          "value": "Benitsuru Portal Shrine - Portal Hall"
         },
         {
           "type": "npc-placement",
           "npc": "allPartyNPCs",
           "operation": "moveTo",
-          "location": "Benitsuru Transit Shrine",
-          "area": "Benitsuru Transit Shrine - Portal Hall"
+          "location": "Benitsuru Portal Shrine",
+          "area": "Benitsuru Portal Shrine - Portal Hall"
         },
         {
           "type": "story",
-          "instruction": "Render the chosen portal crossing into Benitsuru Transit Shrine - Portal Hall, preserving the traveling party, belongings, actual permission and ongoing obligations. This is a distant region of the same world. Arrival alone grants no fieldwork credit or new companion. Render only this one crossing and its fixed endpoint; do not add an unrequested return or journey."
+          "instruction": "Render the chosen portal crossing into Benitsuru Portal Shrine - Portal Hall, preserving the traveling party, belongings, actual permission and ongoing obligations. This is a distant region of the same world. Arrival alone grants no fieldwork credit or new companion. Render only this one crossing and its fixed endpoint; do not add an unrequested return or journey."
         }
       ],
-      "script": "const oniRaw=check({type:'action-text'});const oniInputs=Array.isArray(oniRaw)?oniRaw:[oniRaw];const oniText=oniInputs.length===1?String(oniInputs[0]).trim().toLowerCase():'';if(!new RegExp(\"^(?:i )?(?:(?:enter|cross|step through|walk through|go through|head through|travel through) (?:the |this )?(?:(?:portal|arch|gate) (?:to|for) )?(?:akitsuhara|oni nation)(?: (?:portal|arch|gate))?|use (?:my |the )?(?:oni nation|akitsuhara)(?: portal)? key)[.!]?$\").test(oniText)){skip=true;}else{\nconst tick=check({type:'game-tick'});\nif(storage.ghPortalTransitTick===tick){skip=true;}else{\nconst players=check({type:'player-level'})||{};\nif(Object.values(players).some(level=>level>=20)&&!check({type:'read-boolean',key:'gh_spider_entered'})){\n storage.gh_spider_entered=true;storage.gh_exam_postponed=true;\n storage.ghSpiderIncident={tick,intendedDestination:\"Akitsuhara\",key:\"Oni Nation Portal Key\",players:Object.keys(players),companions:Object.keys(check({type:'npc-in-party',npc:'anyPartyNPC'})||{})};\n effects.length=0;effects.push(...[{\"type\":\"known-entity\",\"entity\":\"The Silken Descent\",\"operator\":\"set\",\"value\":true},{\"type\":\"known-entity\",\"entity\":\"Silken Chasm\",\"operator\":\"set\",\"value\":true},{\"type\":\"known-entity\",\"entity\":\"Silken Portal Room\",\"operator\":\"set\",\"value\":true},{\"type\":\"party-location\",\"operator\":\"set\",\"value\":\"Silken Portal Room\"},{\"type\":\"party-area\",\"operator\":\"set\",\"value\":\"Silken Portal Room - Return Arch\"},{\"type\":\"npc-placement\",\"npc\":\"allPartyNPCs\",\"operation\":\"moveTo\",\"location\":\"Silken Portal Room\",\"area\":\"Silken Portal Room - Return Arch\"},{\"type\":\"story\",\"instruction\":\"Interrupt the apparently normal crossing now: silver strands shear across the expected view and the actual party arrives together inside the ruined Silken Portal Room. Preserve companions and possessions. A silver-threaded key visibly condenses as the room is discovered; its one-time item effect records it. The stable return arch clearly leads home and is immediately usable without a key, descent or battle. Stop at arrival. No official predicted this event; do not descend or return for the player.\"}]);\n}\nstorage.ghPortalTransitTick=tick;storage.gh_evertree_transited=true;\n}\n}"
+      "script": "const oniRaw=check({type:'action-text'});const oniInputs=Array.isArray(oniRaw)?oniRaw:[oniRaw];const oniText=oniInputs.length===1?String(oniInputs[0]).trim().toLowerCase():'';if(Object.keys(check({type:'player-level'})||{}).length!==1||!new RegExp(\"^(?:i )?(?:(?:enter|cross|step through|walk through|go through|head through|travel through) (?:the |this )?(?:(?:portal|arch|gate) (?:to|for) )?(?:akitsuhara|oni nation)(?: (?:portal|arch|gate))?|use (?:my |the )?(?:oni nation|akitsuhara)(?: portal)? key)[.!]?$\").test(oniText)){skip=true;}else{\nconst tick=check({type:'game-tick'});\nif(storage.ghPortalTransitTick===tick){skip=true;}else{\nconst players=check({type:'player-level'})||{};\nif(Object.values(players).some(level=>level>=20)&&!check({type:'read-boolean',key:'gh_spider_entered'})){\n storage.gh_spider_entered=true;storage.gh_exam_postponed=true;\n storage.ghSpiderIncident={tick,intendedDestination:\"Akitsuhara\",key:\"Oni Nation Portal Key\",players:Object.keys(players),companions:Object.keys(check({type:'npc-in-party',npc:'anyPartyNPC'})||{})};\n effects.length=0;effects.push(...[{\"type\":\"known-entity\",\"entity\":\"The Silken Descent\",\"operator\":\"set\",\"value\":true},{\"type\":\"known-entity\",\"entity\":\"Silken Chasm\",\"operator\":\"set\",\"value\":true},{\"type\":\"known-entity\",\"entity\":\"Silken Portal Room\",\"operator\":\"set\",\"value\":true},{\"type\":\"party-location\",\"operator\":\"set\",\"value\":\"Silken Portal Room\"},{\"type\":\"party-area\",\"operator\":\"set\",\"value\":\"Silken Portal Room - Return Arch\"},{\"type\":\"npc-placement\",\"npc\":\"allPartyNPCs\",\"operation\":\"moveTo\",\"location\":\"Silken Portal Room\",\"area\":\"Silken Portal Room - Return Arch\"},{\"type\":\"story\",\"instruction\":\"Interrupt the apparently normal crossing now: silver strands shear across the expected view and the actual party arrives together inside the ruined Silken Portal Room. Preserve companions and possessions. A silver-threaded key visibly condenses as the room is discovered; its one-time item effect records it. The stable return arch clearly leads home and is immediately usable without a key, descent or battle. Stop at arrival. No official predicted this event; do not descend or return for the player.\"}]);\n}\nstorage.ghPortalTransitTick=tick;storage.gh_evertree_transited=true;\n}\n}"
     },
     "oni_portal_from": {
       "name": "oni_portal_from",
@@ -80325,11 +81645,11 @@
         {
           "type": "party-location",
           "operator": "equals",
-          "value": "Benitsuru Transit Shrine"
+          "value": "Benitsuru Portal Shrine"
         },
         {
           "type": "action",
-          "query": "The player actually enters or crosses this location’s sole fixed return portal now. Explicitly entering the portal qualifies from its local staging areas; a bare \"I enter\" qualifies when the current scene unambiguously refers to that arch, including the Silken arrival floor. The short approach is ordinary movement. The destination is always Evertree Base - Portal Room in Glowhaven, never a choice. Do not require a key or the exact arch sub-area. Entering an unrelated shop, stair or alcove, future discussion, negation, forcing another traveler or leaving part of a split player party is false."
+          "query": "The player actually enters or crosses this location’s sole fixed return portal now. Explicitly entering the portal qualifies from its local staging areas; a bare \"I enter\" qualifies when the current scene unambiguously refers to that arch, including the Silken arrival floor. The short approach is ordinary movement. The destination is always Evertree Base - Portal Room in Glowhaven, never a choice. Do not require a key or the exact arch sub-area. Entering an unrelated shop, stair or alcove, future discussion, negation, forcing another traveler or leaving part of a split player party is false. Deliberately using a held Glowhaven Portal Key here to return also qualifies; an absent key claim does not."
         }
       ],
       "effects": [
@@ -80376,7 +81696,7 @@
         {
           "type": "party-location",
           "operator": "equals",
-          "value": "Benitsuru Transit Shrine"
+          "value": "Benitsuru Portal Shrine"
         },
         {
           "type": "action-text",
@@ -80419,7 +81739,7 @@
           "instruction": "The completed return crossing lands the actual party at Evertree Base - Portal Room, Glowhaven’s sole portal hub. Apply that exact location and area; do not stop at generic Glowhaven, remain in the source realm, offer a landing choice or invent a second city portal. Preserve companions, possessions, reusable keys and completed progress. Stop inside the hub; walking out, reporting findings and another outward crossing are separate actions. No boss victory or educational credit is awarded merely for returning."
         }
       ],
-      "script": "const oniRaw=check({type:'action-text'});const oniInputs=Array.isArray(oniRaw)?oniRaw:[oniRaw];const oniText=oniInputs.length===1?String(oniInputs[0]).trim().toLowerCase():'';if(!new RegExp(\"^(?:i )?(?:(?:enter|cross|step through|walk through|go through) (?:the |this )?(?:return )?(?:portal|arch|gate)(?: (?:back )?to (?:glowhaven|evertree(?: base)?))?|(?:return|head back|go back) to (?:glowhaven|evertree(?: base)?))[.!]?$\").test(oniText)){skip=true;}else{\nconst ghTick=check({type:'game-tick'});\nif(storage.ghPortalTransitTick===ghTick){skip=true;}else{\n\nif(!skip){storage.ghPortalTransitTick=ghTick;}\n}\nif(!skip){storage.ghLastPortalTransit={tick:check({type:'game-tick'}),route:'home',fromLocation:check({type:'party-location'}),fromArea:check({type:'party-area'}),semantic:true};}\n}"
+      "script": "const oniUse=check({type:'action-text'});if(/\\buse\\b/i.test(String(oniUse))&&!check({type:'player-item',item:'Glowhaven Portal Key',operator:'greaterThan',value:0})){skip=true;}else{\nconst oniRaw=check({type:'action-text'});const oniInputs=Array.isArray(oniRaw)?oniRaw:[oniRaw];const oniText=oniInputs.length===1?String(oniInputs[0]).trim().toLowerCase():'';if(Object.keys(check({type:'player-level'})||{}).length!==1||!new RegExp(\"^(?:i )?(?:(?:enter|cross|step through|walk through|go through) (?:the |this )?(?:return )?(?:portal|arch|gate)(?: (?:back )?to (?:glowhaven|evertree(?: base)?))?|(?:return|head back|go back) to (?:glowhaven|evertree(?: base)?)|use (?:my |the )?(?:glowhaven|gloomhaven)(?: portal)?(?: return)? key(?: to return(?: to (?:glowhaven|evertree(?: base)?))?)?)[.!]?$\").test(oniText)){skip=true;}else{\nconst ghTick=check({type:'game-tick'});\nif(storage.ghPortalTransitTick===ghTick){skip=true;}else{\n\nif(!skip){storage.ghPortalTransitTick=ghTick;}\n}\nif(!skip){storage.ghLastPortalTransit={tick:check({type:'game-tick'}),route:'home',fromLocation:check({type:'party-location'}),fromArea:check({type:'party-area'}),semantic:true};}\n}\n}"
     },
     "oni_portal_key_issue": {
       "name": "oni_portal_key_issue",
@@ -80428,7 +81748,7 @@
         {
           "type": "party-location",
           "operator": "regex",
-          "value": "^(The Grand Sage's Court|Sage's Spire|Evertree Base|Benitsuru Transit Shrine)$"
+          "value": "^(The Grand Sage's Court|Sage's Spire|Evertree Base|Benitsuru Portal Shrine)$"
         },
         {
           "type": "player-item",
@@ -81149,7 +82469,7 @@
         {
           "type": "party-location",
           "operator": "regex",
-          "value": "^(Drakenspire Portals|Cloudbloom Landing|Benitsuru Transit Shrine)$"
+          "value": "^(Drakenspire Portals|Cloudbloom Landing|Benitsuru Portal Shrine)$"
         },
         {
           "type": "read-boolean",

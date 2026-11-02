@@ -1,0 +1,16 @@
+{
+  "id": "loc-064",
+  "location": "Tsubakiri Residence",
+  "area": null,
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Akitsuhara/Tsubakiri Residence.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-760efc14-8e66-44d6-953d-da689d274b2a.png",
+  "sha256": "a47b1680cf14cb3155d6e48bd0c41ec5682f1565baa6b3465d86085123ee76de",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 3398124,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1
+}

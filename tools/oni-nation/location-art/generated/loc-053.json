@@ -1,0 +1,16 @@
+{
+  "id": "loc-053",
+  "location": "Benitsuru Magistracy",
+  "area": null,
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Akitsuhara/Benitsuru Magistracy.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-5322b83b-ef34-403e-8d5d-318130de560e.png",
+  "sha256": "0c821de87b5f1f90480ab98a4c57584a61b62f5c3d5a63ad12fb17d7e5c71f12",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 3288858,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1
+}

@@ -1,0 +1,16 @@
+{
+  "id": "loc-083",
+  "location": "Susuki Road",
+  "area": null,
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Akitsuhara/Susuki Road.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-e2eea5e8-ad20-40eb-9aa6-b005cebb75a6.png",
+  "sha256": "f95ad2b2386e73b1fd4658cd0381880430df72c1ef0a015f1f7c7744ce81d967",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 3597391,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1
+}

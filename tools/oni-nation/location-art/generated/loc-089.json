@@ -1,0 +1,16 @@
+{
+  "id": "loc-089",
+  "location": "Paper Moon Pavilion",
+  "area": null,
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Akitsuhara/Paper Moon Pavilion.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-549224fe-33ae-4d03-b094-0ed3471a2f66.png",
+  "sha256": "1274d0bc3935279128a613be759c82194b2d9c9df474ebebeaa6d2f252d22cb7",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 3459910,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1
+}

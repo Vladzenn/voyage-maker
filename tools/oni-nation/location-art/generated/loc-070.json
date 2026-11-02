@@ -1,0 +1,16 @@
+{
+  "id": "loc-070",
+  "location": "Koganedai Guesthouse",
+  "area": null,
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Akitsuhara/Koganedai Guesthouse.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-58769d09-06d6-4b21-b4ef-ab963008ef00.png",
+  "sha256": "78293a6d13562d484ae80e90e5ee860baa232badd4c084a8219d22de27935f52",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 3339814,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1
+}

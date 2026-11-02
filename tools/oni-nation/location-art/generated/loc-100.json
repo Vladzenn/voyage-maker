@@ -1,0 +1,16 @@
+{
+  "id": "loc-100",
+  "location": "Foxglade Spirit Orchard",
+  "area": null,
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Akitsuhara/Foxglade Spirit Orchard.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-0aba68dc-45f0-426e-9726-42b006b9e658.png",
+  "sha256": "ac28ecc97280ef7304867b035b231fe4f071a1c757fadab7c3cd8ca9ee1d7537",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 3621450,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1
+}

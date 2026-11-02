@@ -2,6 +2,14 @@
 
 These notes carry context between desktop and web chats. They supplement the actual JSON and creation guides; newer explicit user instructions take precedence.
 
+## 3 November — location artwork, final pins and portal clarity
+
+The author requests one image per new location and separate Portal Hall art, not all nested areas or replacement of the old realms’ artwork. Scope is 109 locations plus one area. Keep the existing polished 2D environment style and square crop-safe compositions. Upload/link through the already authorized official API workflow, preserving exact identities, existing images and all placement data. Do not publish a Studio revision.
+
+The latest location section `f940372c-656b-461b-9bd6-1625c8088cd4` supersedes `23da8cc9-d365-41ab-8dde-4aacbe87a199` for coordinates: five earlier Mirror-Reed moves plus three later spirit-map moves. Preserve the intervening work with a three-way merge. Rename Benitsuru Transit Shrine to Benitsuru Portal Shrine everywhere, retaining its pin and the separate local Soul Torii.
+
+Audit every realm's existing travel rather than inventing a universal key route. Public network home arches land at Evertree Base - Portal Room. The spirit gate returns locally; prison custody is not a public portal. Keep reusable keys, real issuance permission and the existing one-time Spider interruption. A specific direct-command gap at Benitsuru and multiplayer shortcut guard can be corrected narrowly. Prototype-weapon clarification is an explanation of existing Shigure Tsubakiri lore, not authorization for a new item system or redesign.
+
 ## Steel and Spirits — follow-up decisions
 
 The author names the release **Steel and Spirits**. Generate the remaining cast portraits; keep exact NPC filenames and upload/link them through the official API. The author separately authorizes one new pass for Sana Kuroiwa’s broken spear and Shōen Kagetsuna’s horns, missing magic and foreground people. A later explicit answer authorizes one covered-outfit replacement for Misao Shingū after API rejection. No other automatic extra pass. All 97 new NPCs end with hosted portraits.

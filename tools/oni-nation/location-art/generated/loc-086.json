@@ -1,0 +1,16 @@
+{
+  "id": "loc-086",
+  "location": "Redleaf Bridge",
+  "area": null,
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Akitsuhara/Redleaf Bridge.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-f8297f40-4025-46a1-9f81-5b728d7e8b9c.png",
+  "sha256": "3b8ba84a3ebae51a289fd2015c39d3afb4ec9e7c1dc87c36bf71f573bccc4651",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 3382509,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1
+}

@@ -1,0 +1,16 @@
+{
+  "id": "loc-099",
+  "location": "Lanternwood Field Shelter",
+  "area": null,
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Akitsuhara/Lanternwood Field Shelter.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-fedce351-05f0-4d73-aa50-8b884241d78f.png",
+  "sha256": "cec4324836c42b0d5fcb6a73b541929c1ab19f3c7de921f783f6fae72a3845e3",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 3301172,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1
+}

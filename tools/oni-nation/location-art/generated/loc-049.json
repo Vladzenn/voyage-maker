@@ -1,0 +1,16 @@
+{
+  "id": "loc-049",
+  "location": "Benitsuru Portal Shrine",
+  "area": null,
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Akitsuhara/Benitsuru Portal Shrine.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-20d0581a-b49f-49bf-8b5b-0e7268328ed7.png",
+  "sha256": "daee8ff009a68add0b67b4cc0125c64710c218ed6aab9ca9b804e8a6d72c05b3",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 3116094,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1
+}

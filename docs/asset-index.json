@@ -2800,6 +2800,551 @@
       "size": 2331426,
       "sha256": "03bb0323fbd84fa4d3b1e14c852e37b1a46df2a14c9a72873212d4cb2dfc045d",
       "mtimeNs": 1793633297547448800
+    },
+    "world-draft/location images/Akitsuhara/Abandoned Bamboo Village.png": {
+      "size": 3683531,
+      "sha256": "d733dbdfca0167a072bcb2017a03174c0229ebaf621ff52eb036a36718dfe674",
+      "mtimeNs": 1793643024392691100
+    },
+    "world-draft/location images/Akitsuhara/Abandoned Splitshaft.png": {
+      "size": 3385657,
+      "sha256": "8f0e95b9f114db91a7d9ac9f8b199eb32175e09e923e159401ce2d83c8d83974",
+      "mtimeNs": 1793641513085416100
+    },
+    "world-draft/location images/Akitsuhara/Adventurer's Guild - Benitsuru Branch.png": {
+      "size": 2880445,
+      "sha256": "009a74b5e4980b76d7f5c919276f858561c59c632ad23c4be40eced481abc73e",
+      "mtimeNs": 1793643179207217300
+    },
+    "world-draft/location images/Akitsuhara/Amber-Salt Mine.png": {
+      "size": 3766566,
+      "sha256": "ac41d4bb8a76ab8fafd108d4b9e31b7985dfb215ee80df89dc22d51ee6a9d0bc",
+      "mtimeNs": 1793641492786536100
+    },
+    "world-draft/location images/Akitsuhara/Ancestor Archive.png": {
+      "size": 3330527,
+      "sha256": "a90773c7987a6bec751bbea892c017f22e364e3533aadffdc43f8744159ac0cc",
+      "mtimeNs": 1793642021302529500
+    },
+    "world-draft/location images/Akitsuhara/Ashen Festival Road.png": {
+      "size": 3007829,
+      "sha256": "d52dde8b86c4500d098f0fa33831460637b6d120497bb711d05fc7c977aa7417",
+      "mtimeNs": 1793644951353542700
+    },
+    "world-draft/location images/Akitsuhara/Bamboo Charcoal Camp.png": {
+      "size": 3401463,
+      "sha256": "d9d9443151bdd47d4a420b5f93fc634a05d62c271f9efe98c861190829f8af14",
+      "mtimeNs": 1793643080715312900
+    },
+    "world-draft/location images/Akitsuhara/Bamboo Crossing.png": {
+      "size": 3599178,
+      "sha256": "70d6296e4675258fe9b0c22d4ebf3f01cddc71d91924c674ef2dba8c9650725b",
+      "mtimeNs": 1793642853339273900
+    },
+    "world-draft/location images/Akitsuhara/Basalt Kilns.png": {
+      "size": 3481569,
+      "sha256": "0249e23f9d547f38d08c2d68f516bb3b6eb834e29dcb4516fe6a1040380b1843",
+      "mtimeNs": 1793641434635611500
+    },
+    "world-draft/location images/Akitsuhara/Bellroot Refuge.png": {
+      "size": 3157833,
+      "sha256": "fe657527bb3b999e7623040faf944ceaa19d5f5b44934a59a542755559713030",
+      "mtimeNs": 1793644865691014200
+    },
+    "world-draft/location images/Akitsuhara/Benitsuru Castle.png": {
+      "size": 3298219,
+      "sha256": "46b708c9c4a55832fe21cad5b2cc31e09e515ba01c80c2d270cf846f8290934b",
+      "mtimeNs": 1793643134417885700
+    },
+    "world-draft/location images/Akitsuhara/Benitsuru Craft Quarter.png": {
+      "size": 3542474,
+      "sha256": "84318873e12cf4e5b8d6416e93f79c4a4e76b04e3a71be1691736733daca66bc",
+      "mtimeNs": 1793643326938066800
+    },
+    "world-draft/location images/Akitsuhara/Benitsuru Magistracy.png": {
+      "size": 3288858,
+      "sha256": "0c821de87b5f1f90480ab98a4c57584a61b62f5c3d5a63ad12fb17d7e5c71f12",
+      "mtimeNs": 1793643276800410900
+    },
+    "world-draft/location images/Akitsuhara/Benitsuru Portal Shrine.png": {
+      "size": 3116094,
+      "sha256": "daee8ff009a68add0b67b4cc0125c64710c218ed6aab9ca9b804e8a6d72c05b3",
+      "mtimeNs": 1793640769017507500
+    },
+    "world-draft/location images/Akitsuhara/Benitsuru Public School.png": {
+      "size": 2978977,
+      "sha256": "cb6182b4fc4c8ad2efb00d1d987ed98d2c59d176f706bf48d188002b288d0587",
+      "mtimeNs": 1793643455806500200
+    },
+    "world-draft/location images/Akitsuhara/Benitsuru Ward Clinic.png": {
+      "size": 3325583,
+      "sha256": "20034d08bdb830b3f56c7db7009a884c4b7da0d73b9fb96e6d2cda413743230a",
+      "mtimeNs": 1793643177296269000
+    },
+    "world-draft/location images/Akitsuhara/Blackpine Boundary Stones.png": {
+      "size": 3855778,
+      "sha256": "9931d4f59bddddb3263285d5dcfb90b9d8777e2c14723766d19343f0ebb4a1ea",
+      "mtimeNs": 1793641211728386400
+    },
+    "world-draft/location images/Akitsuhara/Blackpine Posthouse.png": {
+      "size": 3668977,
+      "sha256": "7e0e00bcf29aec6dae976bcc1f711e46bcd8c81fe81eded606612b66bac3a1b7",
+      "mtimeNs": 1793640983619933400
+    },
+    "world-draft/location images/Akitsuhara/Blue Mirror Tarn.png": {
+      "size": 3136111,
+      "sha256": "1715dd1ae63c32f0a82367d35dd764d14ee843e78e92576486913419001563d6",
+      "mtimeNs": 1793642106530167500
+    },
+    "world-draft/location images/Akitsuhara/Broken Kite Camp.png": {
+      "size": 3383475,
+      "sha256": "2591ad8a87f423960ee851e0e200548be5fc0a77e25bf8137871473f6cb1eaad",
+      "mtimeNs": 1793644488497326900
+    },
+    "world-draft/location images/Akitsuhara/Broken Relay Tower.png": {
+      "size": 3217164,
+      "sha256": "ab90a7f9903ed465b3b27dde26b9acbee9e564bd1300b325d59872ee2339c454",
+      "mtimeNs": 1793641603112654600
+    },
+    "world-draft/location images/Akitsuhara/Canal Ward Homes.png": {
+      "size": 3433283,
+      "sha256": "3afc19fefd38bf01d3dedfbb1cc38a3c8a99824d5beac411e846d7a22f1e1f36",
+      "mtimeNs": 1793643401883675900
+    },
+    "world-draft/location images/Akitsuhara/Cedarfall Hamlet.png": {
+      "size": 3805942,
+      "sha256": "3eabe376679faacdcccca3aa5b6d4832eefeedfc59b4703d1e15b0fce997ef2c",
+      "mtimeNs": 1793641021250069800
+    },
+    "world-draft/location images/Akitsuhara/Cloudbell Monastery.png": {
+      "size": 3325434,
+      "sha256": "f25b225f7245df4d742ecd3ac41658bf11093a894a93544e2cb5c5cde6bcc75f",
+      "mtimeNs": 1793641892117052500
+    },
+    "world-draft/location images/Akitsuhara/Crane-of-the-Hush Crossing.png": {
+      "size": 3053965,
+      "sha256": "aca3026df65fd9d1f00ce3c7f100eca2f67b1e8e89f47058d160c76487af57a2",
+      "mtimeNs": 1793644976931899900
+    },
+    "world-draft/location images/Akitsuhara/East Wind Archery Hall.png": {
+      "size": 3177840,
+      "sha256": "e253775b7aa2b5f475a4c785fee0bcf74062042b0924b815db692ef6e3410852",
+      "mtimeNs": 1793643764798159400
+    },
+    "world-draft/location images/Akitsuhara/Eight Petals Theater.png": {
+      "size": 3174255,
+      "sha256": "6345dfe4f062a2c09688336aaba1ca550736aabbaa8e92ccc6bbeb8c70179baa",
+      "mtimeNs": 1793643280105404300
+    },
+    "world-draft/location images/Akitsuhara/Evening Maple Shrine.png": {
+      "size": 3373425,
+      "sha256": "68e21ea0fdb8a5f29be879eeb6e186fb216466ee2b6659d108947c9c46c47104",
+      "mtimeNs": 1793644420725039200
+    },
+    "world-draft/location images/Akitsuhara/Forgotten Muster Camp.png": {
+      "size": 3306888,
+      "sha256": "7a4bf2a65cd3f267d628f591f773377d4599ddf22e5506b35bc8f964e9a2e3f4",
+      "mtimeNs": 1793642243975112900
+    },
+    "world-draft/location images/Akitsuhara/Foxfire Verge.png": {
+      "size": 3556397,
+      "sha256": "d5c8c09d07045bc67d42116b02e0e7564a60d5dc3c90c5f64933336f43aa0d82",
+      "mtimeNs": 1793644529876580700
+    },
+    "world-draft/location images/Akitsuhara/Foxglade Spirit Orchard.png": {
+      "size": 3621450,
+      "sha256": "ac28ecc97280ef7304867b035b231fe4f071a1c757fadab7c3cd8ca9ee1d7537",
+      "mtimeNs": 1793644787186215800
+    },
+    "world-draft/location images/Akitsuhara/Foxglove Wood.png": {
+      "size": 3726334,
+      "sha256": "44b6886caaacf46a2a1692f856e29a9b131694a3d4f5b61ac2e82cb1d3ed6670",
+      "mtimeNs": 1793641087932926800
+    },
+    "world-draft/location images/Akitsuhara/Frost-Eave Approach.png": {
+      "size": 3472044,
+      "sha256": "f8f8fa29c1eb5fb6f8924e78a71c17a76ff617ebcefc9534af9c16119c7171ff",
+      "mtimeNs": 1793642055708904500
+    },
+    "world-draft/location images/Akitsuhara/Ginkgo Crossbow Works.png": {
+      "size": 3316977,
+      "sha256": "f904c5364a3d4307fceb429d990a76bc77d3d8e87f324fb9f0f74a8cc45f1dc3",
+      "mtimeNs": 1793643630997797800
+    },
+    "world-draft/location images/Akitsuhara/Ginkgo Schoolhouse.png": {
+      "size": 3392063,
+      "sha256": "fd168704bd7bdd147f6ce748d3dd741081d04c7f849f00c6df2a3c26b4daf55f",
+      "mtimeNs": 1793643812517970700
+    },
+    "world-draft/location images/Akitsuhara/Golden Sheaf Granary.png": {
+      "size": 3481857,
+      "sha256": "93a2b1656fa1538bd00990d48b55092f969277ca4dc65fcf0dfe22d753c5c5d4",
+      "mtimeNs": 1793644179239515100
+    },
+    "world-draft/location images/Akitsuhara/Goldfinch Orchard.png": {
+      "size": 3508251,
+      "sha256": "e063fa8470f1c80a1c12cf779a736d5c0b02a5d3de6fe9bca6953f0ee4f7f139",
+      "mtimeNs": 1793644267538264300
+    },
+    "world-draft/location images/Akitsuhara/Goldleaf Arcade.png": {
+      "size": 3340922,
+      "sha256": "3254c0f35d8d5db09c85d6ed0ae606cf1bb9b4491f63d910bf7f24476f2bca0b",
+      "mtimeNs": 1793643580476916400
+    },
+    "world-draft/location images/Akitsuhara/Green Thread Paperworks.png": {
+      "size": 3580981,
+      "sha256": "b459c73240847c86ac20be0c5005eb924d00f388988dc9310d5d5859f90bbaff",
+      "mtimeNs": 1793642875284617800
+    },
+    "world-draft/location images/Akitsuhara/Hidden Reed Training Ground.png": {
+      "size": 3475698,
+      "sha256": "4e94fca03a52f0b37b7deff4b675eed9c50839c51ae5f6b7047c261b7a010ed8",
+      "mtimeNs": 1793642932873371300
+    },
+    "world-draft/location images/Akitsuhara/Hinoki Hollow Onsen.png": {
+      "size": 3183130,
+      "sha256": "69a5acd534aebb97be2ca0eb3c187a09cd15284280ee7d8b6236cceee836970a",
+      "mtimeNs": 1793645030020014300
+    },
+    "world-draft/location images/Akitsuhara/Hollow Cedar Ruins.png": {
+      "size": 3750900,
+      "sha256": "3a1854367b22dfa08dc55773f2df29dd13fe85cb92f5ae854b652ac320962f6c",
+      "mtimeNs": 1793641250604762700
+    },
+    "world-draft/location images/Akitsuhara/Hollow Sky Grove.png": {
+      "size": 3436518,
+      "sha256": "353782e73a8a9f6b6b5c363a2d3500afca3f4f9303a16de61a385bb427caef46",
+      "mtimeNs": 1793645003536111100
+    },
+    "world-draft/location images/Akitsuhara/Hoshina Village.png": {
+      "size": 3707770,
+      "sha256": "56a51985822ca8ee0c177f648c5e819954f92a7ff6891391ef3ea31bea21eed9",
+      "mtimeNs": 1793644141619812300
+    },
+    "world-draft/location images/Akitsuhara/Hushwater Pool.png": {
+      "size": 3506198,
+      "sha256": "30a99c622bf89c48971cd3857250cbdc46c8f95241d15e0dc7e92ec9709281f7",
+      "mtimeNs": 1793644815712293400
+    },
+    "world-draft/location images/Akitsuhara/Kagetsuna Household.png": {
+      "size": 3737233,
+      "sha256": "737002795e37aa345d9fb90253a44724fb87b8f81ebdd6d9eef64145e2972be2",
+      "mtimeNs": 1793643221797082200
+    },
+    "world-draft/location images/Akitsuhara/Koganedai Castle.png": {
+      "size": 3611331,
+      "sha256": "a97eee721c6261ba6fda76636e1430f5312892d4ed2b8b5fe212c5e06725960f",
+      "mtimeNs": 1793643525008361300
+    },
+    "world-draft/location images/Akitsuhara/Koganedai Guesthouse.png": {
+      "size": 3339814,
+      "sha256": "78293a6d13562d484ae80e90e5ee860baa232badd4c084a8219d22de27935f52",
+      "mtimeNs": 1793643793124435300
+    },
+    "world-draft/location images/Akitsuhara/Koganedai Muster Ground.png": {
+      "size": 3308009,
+      "sha256": "659c1bf722878495bb82be584bb3ca443d4b57c242155302d17f2beab5950faf",
+      "mtimeNs": 1793643675261018100
+    },
+    "world-draft/location images/Akitsuhara/Kuroishi Miners' Row.png": {
+      "size": 3612041,
+      "sha256": "7cc12895f02fad95da5b1b52a9547624c2128f7fa87e7dd50f35cfb81eab1c6e",
+      "mtimeNs": 1793641403338920500
+    },
+    "world-draft/location images/Akitsuhara/Lakewatch Islet.png": {
+      "size": 3505475,
+      "sha256": "7d05fc9d26aa2936810951e1e1c475dd4e3c4180d7ca830c21e83cbbc6d82fef",
+      "mtimeNs": 1793642794224176000
+    },
+    "world-draft/location images/Akitsuhara/Lantern Canal Market.png": {
+      "size": 3261646,
+      "sha256": "8a0233d3064bf2d83a7b0fd33fe3173b015ef0815991169d58c53562e5b6a2e5",
+      "mtimeNs": 1793643222736329900
+    },
+    "world-draft/location images/Akitsuhara/Lanternwood Field Shelter.png": {
+      "size": 3301172,
+      "sha256": "cec4324836c42b0d5fcb6a73b541929c1ab19f3c7de921f783f6fae72a3845e3",
+      "mtimeNs": 1793644767514405200
+    },
+    "world-draft/location images/Akitsuhara/Lanternwood Root Shrine.png": {
+      "size": 3470570,
+      "sha256": "3eb18466e5fdf595f92514e1f2f6beb3b06f9f4cb99e9b4c5859c7108cd342c2",
+      "mtimeNs": 1793644640244618800
+    },
+    "world-draft/location images/Akitsuhara/Low Meadow Paddies.png": {
+      "size": 3739478,
+      "sha256": "c80b7eb0610ada3e03657102b1fbf9a55bea2c6fae9da4a413833554546d3c99",
+      "mtimeNs": 1793644316510802300
+    },
+    "world-draft/location images/Akitsuhara/Mirror-Reed Bridge.png": {
+      "size": 3615150,
+      "sha256": "2f446cd04892bb42e8fb5f7bd4dcb0638ace3153583c01b9b83129ed4ecb8b11",
+      "mtimeNs": 1793643834401847200
+    },
+    "world-draft/location images/Akitsuhara/Mizuhara Castle.png": {
+      "size": 3641102,
+      "sha256": "d6142f9cb5af7ba6b0404193692a00456aa3399c4dc9f7b1feff1d8e483b88f6",
+      "mtimeNs": 1793642458069303300
+    },
+    "world-draft/location images/Akitsuhara/Mizuhara Landing.png": {
+      "size": 3541233,
+      "sha256": "518fda1adf9612a860c417335b5f7b219b87b349b4c77bc75eae24d17403b2d5",
+      "mtimeNs": 1793642360490599100
+    },
+    "world-draft/location images/Akitsuhara/Moonless Torii.png": {
+      "size": 3670107,
+      "sha256": "bfb8e0e7bcf4edf539d7777b7e900c7c849ff24f8d435c3d40bcf3adae432379",
+      "mtimeNs": 1793644611737856400
+    },
+    "world-draft/location images/Akitsuhara/Moonweave Grove.png": {
+      "size": 3440825,
+      "sha256": "cb9f9e31fac6ad343f1641c28e694b1ac4a7e36e8d259f648c68e9bba8e21eb0",
+      "mtimeNs": 1793643051716295700
+    },
+    "world-draft/location images/Akitsuhara/Morning Crane Dojo.png": {
+      "size": 3109586,
+      "sha256": "86d1a0c6b5d3e431476fca9ceafc50f291d1dd9dc175902919c5200af02cffe8",
+      "mtimeNs": 1793643360005768700
+    },
+    "world-draft/location images/Akitsuhara/Mossbank Ridgeway.png": {
+      "size": 3812672,
+      "sha256": "c389d159bc0bd826f474d2df80380fb14bc2f8fd48e15b6d78e05a088d3041f7",
+      "mtimeNs": 1793644058679124200
+    },
+    "world-draft/location images/Akitsuhara/Old Bell Shrine.png": {
+      "size": 3699443,
+      "sha256": "d480b2f3bc53c84cc1f616f4f134d794a806494dab901bce8f0bbe94291abf98",
+      "mtimeNs": 1793641066615590900
+    },
+    "world-draft/location images/Akitsuhara/Old Bridge Shrine.png": {
+      "size": 3762696,
+      "sha256": "ef7137e2c9314ab648b587e2a02f3d6044775bf6114cab18b8be9e8a09558dce",
+      "mtimeNs": 1793644038653512500
+    },
+    "world-draft/location images/Akitsuhara/Old Mask Trail.png": {
+      "size": 3412487,
+      "sha256": "236bee4f6f299797503b33e4c1bfe6fa2174db1a5fa894ac61e10ee088f980e4",
+      "mtimeNs": 1793644704491801300
+    },
+    "world-draft/location images/Akitsuhara/Pale Lantern Marsh.png": {
+      "size": 3236093,
+      "sha256": "533c0bca5d0eeb3e1ed72422d5b2504d64ee1c365d9e6e645e2970808f7d1e56",
+      "mtimeNs": 1793644886977012000
+    },
+    "world-draft/location images/Akitsuhara/Paper Moon Pavilion.png": {
+      "size": 3459910,
+      "sha256": "1274d0bc3935279128a613be759c82194b2d9c9df474ebebeaa6d2f252d22cb7",
+      "mtimeNs": 1793644497425788500
+    },
+    "world-draft/location images/Akitsuhara/Quarry Exchange.png": {
+      "size": 3486483,
+      "sha256": "3f10cf3a1172dfa8f977a6cd8802415ae2a1d1762941daa23aafd49f45541115",
+      "mtimeNs": 1793641578799493000
+    },
+    "world-draft/location images/Akitsuhara/Ragged Cedar Hollow.png": {
+      "size": 3381582,
+      "sha256": "d5ec984a0e049ee6c75ff374b874955c21a5f4a666b419894fc679e0eda7e6d7",
+      "mtimeNs": 1793644676069704200
+    },
+    "world-draft/location images/Akitsuhara/Rainsong Mill.png": {
+      "size": 3568180,
+      "sha256": "8aaa3bd015949127a61aef30a3d4367d9322a097ce0b9aedc67d01d0495301ce",
+      "mtimeNs": 1793642903651081900
+    },
+    "world-draft/location images/Akitsuhara/Red Maple Inn.png": {
+      "size": 3075344,
+      "sha256": "3fd0613a863388e8ffc6ab87ad5f1812ed0fe436d2915704d357e60acb3e21c2",
+      "mtimeNs": 1793643303289517900
+    },
+    "world-draft/location images/Akitsuhara/Redleaf Apiculture.png": {
+      "size": 3445739,
+      "sha256": "516d9073e2205d640759c1f609f660cda4d4b57fe82c9d780c036db34ee6586b",
+      "mtimeNs": 1793644546525954800
+    },
+    "world-draft/location images/Akitsuhara/Redleaf Bridge.png": {
+      "size": 3382509,
+      "sha256": "3b8ba84a3ebae51a289fd2015c39d3afb4ec9e7c1dc87c36bf71f573bccc4651",
+      "mtimeNs": 1793644379497229500
+    },
+    "world-draft/location images/Akitsuhara/Redleaf Guest Village.png": {
+      "size": 3325937,
+      "sha256": "c10209db712ac16be64f2ba637a3c80210257dad696f1cb15fa8716b2db982df",
+      "mtimeNs": 1793644441113430400
+    },
+    "world-draft/location images/Akitsuhara/Reedglass Woodland Hamlet.png": {
+      "size": 3782558,
+      "sha256": "5a93bb48e55a1ed511db3037db0a348d7d8a0f8178b7ef18d4c2455d119b1fda",
+      "mtimeNs": 1793643957779749700
+    },
+    "world-draft/location images/Akitsuhara/Reedshore Hamlet.png": {
+      "size": 3519324,
+      "sha256": "8dde78566e16a1700329ce52889b2385b66e040004f693b14315dd8340e026be",
+      "mtimeNs": 1793642767176671600
+    },
+    "world-draft/location images/Akitsuhara/Reedwake Boatworks.png": {
+      "size": 3468897,
+      "sha256": "40ce28fbfb8c5f58e3e2f8e2b74455a2f78badafcc903a28d884861efeb76d9d",
+      "mtimeNs": 1793642633582624900
+    },
+    "world-draft/location images/Akitsuhara/Rime Bridge.png": {
+      "size": 3290065,
+      "sha256": "1911662d3a6c76aaea6c1e2060acc0dc2215893212a7215668f36b9064987277",
+      "mtimeNs": 1793642216612537400
+    },
+    "world-draft/location images/Akitsuhara/River Lantern Mooring.png": {
+      "size": 3272108,
+      "sha256": "a788581a9fc32ef45915fc3c4f6037218230b9eca31bd5e3cfd7d6be7a135a62",
+      "mtimeNs": 1793644582627546200
+    },
+    "world-draft/location images/Akitsuhara/Riverglass Baths.png": {
+      "size": 3684151,
+      "sha256": "0184be8bc8336bd2a6ba45a1bab0180dbd92ecf1b8130901ec64fe30dd2616ac",
+      "mtimeNs": 1793642990001898000
+    },
+    "world-draft/location images/Akitsuhara/Rootfall Ravine.png": {
+      "size": 3431285,
+      "sha256": "8e45b1640b44876cce2e21f1374791033e8349861da951cf87ce7139ce33e77b",
+      "mtimeNs": 1793644741676927800
+    },
+    "world-draft/location images/Akitsuhara/Saffron Road Hostel.png": {
+      "size": 3626040,
+      "sha256": "52a759b36a44ddacf3adf2c68a4b745c102e8c275187c4f3fa38f870cdeb289c",
+      "mtimeNs": 1793644355358620000
+    },
+    "world-draft/location images/Akitsuhara/Saionoma Household.png": {
+      "size": 3589112,
+      "sha256": "25e727290df75dc20c92ae97cbcdb501af8a01ef007f4458cf54c8f4d03e0bb9",
+      "mtimeNs": 1793642661782302300
+    },
+    "world-draft/location images/Akitsuhara/Scree Lantern Pass.png": {
+      "size": 3538191,
+      "sha256": "262e57c936d65819d366e3cbf0ecb7518a28c18d0914df1c5f48b0756e00a2bc",
+      "mtimeNs": 1793641534420340300
+    },
+    "world-draft/location images/Akitsuhara/Shiun Herb Slopes.png": {
+      "size": 3688796,
+      "sha256": "337e309e670d20f027a5e8d1bcda43427c00a5e08a58d2630e4d4f64b8ed8a45",
+      "mtimeNs": 1793641985163302600
+    },
+    "world-draft/location images/Akitsuhara/Shiun Pilgrim Lodge.png": {
+      "size": 3453378,
+      "sha256": "e6d7f192b06e1c5136df99a2c9be3ea55fd433c3e6a322546e4735409f71189b",
+      "mtimeNs": 1793641659245488900
+    },
+    "world-draft/location images/Akitsuhara/Shiun Thousand Steps.png": {
+      "size": 3752712,
+      "sha256": "f9577ff3f92f0522956c2c8d432e91fd05e9f9132e306af381d31f1e6d119687",
+      "mtimeNs": 1793641835560774300
+    },
+    "world-draft/location images/Akitsuhara/Silver Carp Market.png": {
+      "size": 3315614,
+      "sha256": "409269876b20e68dfade78f4d08bc47ffaaf2ec2aa3b0597f9c49fd728c08e46",
+      "mtimeNs": 1793642400982848700
+    },
+    "world-draft/location images/Akitsuhara/Singing Cedar Hollow.png": {
+      "size": 3813809,
+      "sha256": "23e3bf4541f02658401c7ffcf450a1718cc9cd12272e82b5e69e8d4a92a63b24",
+      "mtimeNs": 1793644016324815400
+    },
+    "world-draft/location images/Akitsuhara/Sleeping Lake Cavern.png": {
+      "size": 3202484,
+      "sha256": "0bf159110701997430496b10e44474fa76805371042ab6f7a4546c6ef2e37132",
+      "mtimeNs": 1793642268448993800
+    },
+    "world-draft/location images/Akitsuhara/Snowcedar Refuge.png": {
+      "size": 3238472,
+      "sha256": "0ddae6dc9391e65fd3c467da632c32333898425c5f575533aeb53f7a009044ac",
+      "mtimeNs": 1793642079521016200
+    },
+    "world-draft/location images/Akitsuhara/Snowcedar Signal Hut.png": {
+      "size": 3306434,
+      "sha256": "4ccf0aac1f8433210f927e478b687ebe6f7a2c2f2850430dfcc9d9c2d9e0a431",
+      "mtimeNs": 1793642182764471000
+    },
+    "world-draft/location images/Akitsuhara/South Gate Caravan Yard.png": {
+      "size": 3307149,
+      "sha256": "f60424069f38e751358b680844a5eb109ac6c853f9302df591e888447f5109a4",
+      "mtimeNs": 1793643497066257100
+    },
+    "world-draft/location images/Akitsuhara/South River Bridge.png": {
+      "size": 3652542,
+      "sha256": "163d32f2a24372cb54e0b8f1f26c8c1b1f7de4ec91f1fec7cee5c80cc2607a93",
+      "mtimeNs": 1793644210555164400
+    },
+    "world-draft/location images/Akitsuhara/Summit Cedar Precinct.png": {
+      "size": 3646988,
+      "sha256": "78ee7a0555cd186a518bc05298a58e890cee432eb75ca3e1bc6e01f2274dd6f8",
+      "mtimeNs": 1793641958255952100
+    },
+    "world-draft/location images/Akitsuhara/Susuki Road.png": {
+      "size": 3597391,
+      "sha256": "f95ad2b2386e73b1fd4658cd0381880430df72c1ef0a015f1f7c7744ce81d967",
+      "mtimeNs": 1793644289154312500
+    },
+    "world-draft/location images/Akitsuhara/Terrace Waterworks.png": {
+      "size": 3564206,
+      "sha256": "86efd1386703184cb5fbe1a304e402bad65ada9dbd67e77eb7578bfe3fdda245",
+      "mtimeNs": 1793643710930495500
+    },
+    "world-draft/location images/Akitsuhara/The Listening Cedars.png": {
+      "size": 3299149,
+      "sha256": "5933ba532a4b552bde727defa60c6f3a1b9d3d32b81f0e80256528943d49be61",
+      "mtimeNs": 1793644913986338200
+    },
+    "world-draft/location images/Akitsuhara/Three Reeds Inn.png": {
+      "size": 3511181,
+      "sha256": "6a00c52fa644de9080b96d84580d19743b537ecb6323b6e073f81e8bb2296f5c",
+      "mtimeNs": 1793642303508567600
+    },
+    "world-draft/location images/Akitsuhara/Thundercrag Quarry.png": {
+      "size": 3598391,
+      "sha256": "0446a3cc7698eaf2c2f7ca767c283a402572d27de6394cbe28ccbd07433627a6",
+      "mtimeNs": 1793641357448380600
+    },
+    "world-draft/location images/Akitsuhara/Tsubakiri Residence.png": {
+      "size": 3398124,
+      "sha256": "a47b1680cf14cb3155d6e48bd0c41ec5682f1565baa6b3465d86085123ee76de",
+      "mtimeNs": 1793643552688181500
+    },
+    "world-draft/location images/Akitsuhara/Veiled Threshold.png": {
+      "size": 3181991,
+      "sha256": "d70fa819147b65a1b0c72a903cef6ddbae84731bc01878a2d1cc44ba2011fa75",
+      "mtimeNs": 1793644840145966500
+    },
+    "world-draft/location images/Akitsuhara/Western Spear Hall.png": {
+      "size": 3004810,
+      "sha256": "731db6d18a9beb6e7102c962a06a68fdc31e4b40104f11be7252295467edc7a8",
+      "mtimeNs": 1793642705214291200
+    },
+    "world-draft/location images/Akitsuhara/Western Watch Road.png": {
+      "size": 3560176,
+      "sha256": "74746a132d131074a7fe85477cf14fd1f713bfce37f498557004c877e09b1972",
+      "mtimeNs": 1793641043978295600
+    },
+    "world-draft/location images/Akitsuhara/Western Woodcutters' Yard.png": {
+      "size": 3598710,
+      "sha256": "205a507492e9d802f10229c6e1612adfd2b06cfc1f7e65a9fdf9cab015e8e6b6",
+      "mtimeNs": 1793641313514360700
+    },
+    "world-draft/location images/Akitsuhara/White Antler Basin.png": {
+      "size": 3474765,
+      "sha256": "7c8680319f6ff92b23d6159d38075c2880ae595d552b610f8072cd6ce64d578d",
+      "mtimeNs": 1793642127404662300
+    },
+    "world-draft/location images/Akitsuhara/White Heron Grove.png": {
+      "size": 3966302,
+      "sha256": "8d8f789050ed7143a2245051b62af2c8e58f393a346b84992515a972e31053b8",
+      "mtimeNs": 1793643986695491300
+    },
+    "world-draft/location images/Akitsuhara/Whitefall Shrine.png": {
+      "size": 3675938,
+      "sha256": "0e7226e233486152b8224fcf9d55c17ada86f0e5565035ad61336713a285cd9d",
+      "mtimeNs": 1793641932007327200
+    },
+    "world-draft/location images/Akitsuhara/Woodland Dye Workshop.png": {
+      "size": 3765348,
+      "sha256": "19c6fd1bbe09e4e2fa2690b12812f43723cbdcd5a247509a136a0f80ee8244b5",
+      "mtimeNs": 1793644115632096800
     }
   }
 }

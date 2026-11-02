@@ -1,0 +1,16 @@
+{
+  "id": "loc-045",
+  "location": "Riverglass Baths",
+  "area": null,
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Akitsuhara/Riverglass Baths.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-51978cf7-a87f-4f82-b867-ae033f89911b.png",
+  "sha256": "0184be8bc8336bd2a6ba45a1bab0180dbd92ecf1b8130901ec64fe30dd2616ac",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 3684151,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1
+}

@@ -1,0 +1,16 @@
+{
+  "id": "loc-013",
+  "location": "Abandoned Splitshaft",
+  "area": null,
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Akitsuhara/Abandoned Splitshaft.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-c334611e-db1b-4207-b629-3178226e4be0.png",
+  "sha256": "8f0e95b9f114db91a7d9ac9f8b199eb32175e09e923e159401ce2d83c8d83974",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 3385657,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1
+}

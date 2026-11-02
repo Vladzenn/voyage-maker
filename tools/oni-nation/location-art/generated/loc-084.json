@@ -1,0 +1,16 @@
+{
+  "id": "loc-084",
+  "location": "Low Meadow Paddies",
+  "area": null,
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Akitsuhara/Low Meadow Paddies.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-4810d204-08f5-484b-996b-faa16c681729.png",
+  "sha256": "c80b7eb0610ada3e03657102b1fbf9a55bea2c6fae9da4a413833554546d3c99",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 3739478,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1
+}

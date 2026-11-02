@@ -1,0 +1,16 @@
+{
+  "id": "area-portal-hall",
+  "location": "Benitsuru Portal Shrine",
+  "area": "Benitsuru Portal Shrine - Portal Hall",
+  "target": "AREA_IMAGE",
+  "file": "world-draft/area images/Akitsuhara/Benitsuru Portal Shrine - Portal Hall.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-58e4dce4-7b43-4705-ae29-4005a3a9977b.png",
+  "sha256": "60ce60dbdf266aa53da0ee641d7111817658a4124176e60aefdee1419c15b613",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 2656749,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1
+}

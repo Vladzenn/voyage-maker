@@ -165,7 +165,7 @@
     "Abandoned Bamboo Village",
     "Moonweave Grove",
     "Bamboo Charcoal Camp",
-    "Benitsuru Transit Shrine",
+    "Benitsuru Portal Shrine",
     "Benitsuru Castle",
     "Adventurer's Guild - Benitsuru Branch",
     "Lantern Canal Market",
@@ -3518,7 +3518,7 @@
       "Riverglass Baths"
     ],
     [
-      "Benitsuru Transit Shrine",
+      "Benitsuru Portal Shrine",
       "Red Maple Inn"
     ],
     [
@@ -3767,7 +3767,7 @@
     ],
     [
       "Bamboo Crossing",
-      "Benitsuru Transit Shrine"
+      "Benitsuru Portal Shrine"
     ],
     [
       "Rainsong Mill",
@@ -3837,5 +3837,8 @@
     }
   },
   "supportingArtComplete": true,
-  "supportingPortraits": 83
+  "supportingPortraits": 83,
+  "locationArtComplete": true,
+  "locationArtCount": 109,
+  "areaArtCount": 1
 }

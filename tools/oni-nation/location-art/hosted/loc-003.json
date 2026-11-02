@@ -1,0 +1,18 @@
+{
+  "id": "loc-003",
+  "location": "Western Watch Road",
+  "area": null,
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Akitsuhara/Western Watch Road.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-c6b4a6ea-bae0-4372-8855-5b30285bd0b3.png",
+  "sha256": "74746a132d131074a7fe85477cf14fd1f713bfce37f498557004c877e09b1972",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 3560176,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1,
+  "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/5317c213-8ef2-4b0e-af1a-e4501d8d040c.png",
+  "status": "uploaded"
+}

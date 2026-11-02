@@ -1,0 +1,16 @@
+{
+  "id": "loc-058",
+  "location": "Benitsuru Craft Quarter",
+  "area": null,
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Akitsuhara/Benitsuru Craft Quarter.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-0027922d-97fa-4423-a4c8-b634fbbb17ac.png",
+  "sha256": "84318873e12cf4e5b8d6416e93f79c4a4e76b04e3a71be1691736733daca66bc",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 3542474,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1
+}

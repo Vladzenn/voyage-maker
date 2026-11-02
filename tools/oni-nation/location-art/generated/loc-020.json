@@ -1,0 +1,16 @@
+{
+  "id": "loc-020",
+  "location": "Whitefall Shrine",
+  "area": null,
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Akitsuhara/Whitefall Shrine.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-5f386e04-97e5-4ec4-8d72-e237d44c1c1f.png",
+  "sha256": "0e7226e233486152b8224fcf9d55c17ada86f0e5565035ad61336713a285cd9d",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 3675938,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1
+}

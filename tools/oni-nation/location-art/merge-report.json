@@ -1,0 +1,2220 @@
+{
+  "imagesApplied": 110,
+  "allSourcePinsPreserved": 285,
+  "onlySelectedImageFieldsChanged": true,
+  "diff": [
+    {
+      "path": [
+        "locations",
+        "Blackpine Posthouse",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/5e0f3a75-e740-4ac0-ab1d-1680f5a4f1a5.png"
+      },
+      "sha256": "7e0e00bcf29aec6dae976bcc1f711e46bcd8c81fe81eded606612b66bac3a1b7"
+    },
+    {
+      "path": [
+        "locations",
+        "Cedarfall Hamlet",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/64ba2e01-ec35-4ec5-b9f1-c7bc2d229717.png"
+      },
+      "sha256": "3eabe376679faacdcccca3aa5b6d4832eefeedfc59b4703d1e15b0fce997ef2c"
+    },
+    {
+      "path": [
+        "locations",
+        "Western Watch Road",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/5317c213-8ef2-4b0e-af1a-e4501d8d040c.png"
+      },
+      "sha256": "74746a132d131074a7fe85477cf14fd1f713bfce37f498557004c877e09b1972"
+    },
+    {
+      "path": [
+        "locations",
+        "Old Bell Shrine",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/8273cd5c-2210-4438-89ab-cbf0c1563344.png"
+      },
+      "sha256": "d480b2f3bc53c84cc1f616f4f134d794a806494dab901bce8f0bbe94291abf98"
+    },
+    {
+      "path": [
+        "locations",
+        "Foxglove Wood",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/d291ed48-cc1b-4a5b-916a-e84021355135.png"
+      },
+      "sha256": "44b6886caaacf46a2a1692f856e29a9b131694a3d4f5b61ac2e82cb1d3ed6670"
+    },
+    {
+      "path": [
+        "locations",
+        "Blackpine Boundary Stones",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/07429431-9e84-4426-9f90-238f2a21cc32.png"
+      },
+      "sha256": "9931d4f59bddddb3263285d5dcfb90b9d8777e2c14723766d19343f0ebb4a1ea"
+    },
+    {
+      "path": [
+        "locations",
+        "Hollow Cedar Ruins",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/1d756c54-f289-40b2-8f1e-b5445a2d4d8c.png"
+      },
+      "sha256": "3a1854367b22dfa08dc55773f2df29dd13fe85cb92f5ae854b652ac320962f6c"
+    },
+    {
+      "path": [
+        "locations",
+        "Western Woodcutters' Yard",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/29e33e44-5fec-44ed-9afa-9e05a0945f64.png"
+      },
+      "sha256": "205a507492e9d802f10229c6e1612adfd2b06cfc1f7e65a9fdf9cab015e8e6b6"
+    },
+    {
+      "path": [
+        "locations",
+        "Thundercrag Quarry",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/650729da-79a6-428a-b3a8-381e6fb29709.png"
+      },
+      "sha256": "0446a3cc7698eaf2c2f7ca767c283a402572d27de6394cbe28ccbd07433627a6"
+    },
+    {
+      "path": [
+        "locations",
+        "Kuroishi Miners' Row",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/e5f4c592-dd1d-482d-91b4-78ab37a020b6.png"
+      },
+      "sha256": "7cc12895f02fad95da5b1b52a9547624c2128f7fa87e7dd50f35cfb81eab1c6e"
+    },
+    {
+      "path": [
+        "locations",
+        "Basalt Kilns",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/ab784c9f-2447-4760-afa0-31df824009ae.png"
+      },
+      "sha256": "0249e23f9d547f38d08c2d68f516bb3b6eb834e29dcb4516fe6a1040380b1843"
+    },
+    {
+      "path": [
+        "locations",
+        "Amber-Salt Mine",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/f5464692-382b-4358-b632-5fa87160f0d0.png"
+      },
+      "sha256": "ac41d4bb8a76ab8fafd108d4b9e31b7985dfb215ee80df89dc22d51ee6a9d0bc"
+    },
+    {
+      "path": [
+        "locations",
+        "Abandoned Splitshaft",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/6b1b60fc-2d15-4c7d-a6f4-b77e4d2e9957.png"
+      },
+      "sha256": "8f0e95b9f114db91a7d9ac9f8b199eb32175e09e923e159401ce2d83c8d83974"
+    },
+    {
+      "path": [
+        "locations",
+        "Scree Lantern Pass",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/2ffe18ef-cb1e-4eeb-a030-f47708c9f68e.png"
+      },
+      "sha256": "262e57c936d65819d366e3cbf0ecb7518a28c18d0914df1c5f48b0756e00a2bc"
+    },
+    {
+      "path": [
+        "locations",
+        "Quarry Exchange",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/a64b445b-1355-48ea-bf05-5770b5190fe5.png"
+      },
+      "sha256": "3f10cf3a1172dfa8f977a6cd8802415ae2a1d1762941daa23aafd49f45541115"
+    },
+    {
+      "path": [
+        "locations",
+        "Broken Relay Tower",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/44eabe24-b537-49f3-943f-f29096f7965d.png"
+      },
+      "sha256": "ab90a7f9903ed465b3b27dde26b9acbee9e564bd1300b325d59872ee2339c454"
+    },
+    {
+      "path": [
+        "locations",
+        "Shiun Pilgrim Lodge",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/225d6dcc-17ac-485a-b96c-d8c53e269cfe.png"
+      },
+      "sha256": "e6d7f192b06e1c5136df99a2c9be3ea55fd433c3e6a322546e4735409f71189b"
+    },
+    {
+      "path": [
+        "locations",
+        "Shiun Thousand Steps",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/f152128f-b0ee-4ea3-9c25-b274bca61d38.png"
+      },
+      "sha256": "f9577ff3f92f0522956c2c8d432e91fd05e9f9132e306af381d31f1e6d119687"
+    },
+    {
+      "path": [
+        "locations",
+        "Cloudbell Monastery",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/1780b4ef-ebb8-4d2e-ba3a-2bc0e7e3e3ab.png"
+      },
+      "sha256": "f25b225f7245df4d742ecd3ac41658bf11093a894a93544e2cb5c5cde6bcc75f"
+    },
+    {
+      "path": [
+        "locations",
+        "Whitefall Shrine",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/3beffad2-35bc-485e-a92a-81266a68eb57.png"
+      },
+      "sha256": "0e7226e233486152b8224fcf9d55c17ada86f0e5565035ad61336713a285cd9d"
+    },
+    {
+      "path": [
+        "locations",
+        "Summit Cedar Precinct",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/d02fc31e-ea6d-4c02-94d9-94c4ca256cd7.png"
+      },
+      "sha256": "78ee7a0555cd186a518bc05298a58e890cee432eb75ca3e1bc6e01f2274dd6f8"
+    },
+    {
+      "path": [
+        "locations",
+        "Shiun Herb Slopes",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/a99712c4-0cf4-4e10-b814-505a2935d5cb.png"
+      },
+      "sha256": "337e309e670d20f027a5e8d1bcda43427c00a5e08a58d2630e4d4f64b8ed8a45"
+    },
+    {
+      "path": [
+        "locations",
+        "Ancestor Archive",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/c27516b1-0543-4639-8784-cc0c1da6949d.png"
+      },
+      "sha256": "a90773c7987a6bec751bbea892c017f22e364e3533aadffdc43f8744159ac0cc"
+    },
+    {
+      "path": [
+        "locations",
+        "Frost-Eave Approach",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/e1bb767c-8846-4c50-91af-5eb219474a03.png"
+      },
+      "sha256": "f8f8fa29c1eb5fb6f8924e78a71c17a76ff617ebcefc9534af9c16119c7171ff"
+    },
+    {
+      "path": [
+        "locations",
+        "Snowcedar Refuge",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/751cd1fc-d131-4bc2-bfa5-a14d1742e4ce.png"
+      },
+      "sha256": "0ddae6dc9391e65fd3c467da632c32333898425c5f575533aeb53f7a009044ac"
+    },
+    {
+      "path": [
+        "locations",
+        "Blue Mirror Tarn",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/45fd4825-b403-4c74-8427-36ad951b4f75.png"
+      },
+      "sha256": "1715dd1ae63c32f0a82367d35dd764d14ee843e78e92576486913419001563d6"
+    },
+    {
+      "path": [
+        "locations",
+        "White Antler Basin",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/a4d536f0-8915-4c6a-8d64-05593104c697.png"
+      },
+      "sha256": "7c8680319f6ff92b23d6159d38075c2880ae595d552b610f8072cd6ce64d578d"
+    },
+    {
+      "path": [
+        "locations",
+        "Snowcedar Signal Hut",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/f0683929-2d88-4cff-a3b9-506705ffa700.png"
+      },
+      "sha256": "4ccf0aac1f8433210f927e478b687ebe6f7a2c2f2850430dfcc9d9c2d9e0a431"
+    },
+    {
+      "path": [
+        "locations",
+        "Rime Bridge",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/f1a813fc-bde3-4e01-96d4-ff4d33cbd28d.png"
+      },
+      "sha256": "1911662d3a6c76aaea6c1e2060acc0dc2215893212a7215668f36b9064987277"
+    },
+    {
+      "path": [
+        "locations",
+        "Forgotten Muster Camp",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/f42eabbb-7d89-4741-ae73-182758c54f63.png"
+      },
+      "sha256": "7a4bf2a65cd3f267d628f591f773377d4599ddf22e5506b35bc8f964e9a2e3f4"
+    },
+    {
+      "path": [
+        "locations",
+        "Sleeping Lake Cavern",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/99210689-f9c5-4fc8-9cb7-a2ab8f1cd4d4.png"
+      },
+      "sha256": "0bf159110701997430496b10e44474fa76805371042ab6f7a4546c6ef2e37132"
+    },
+    {
+      "path": [
+        "locations",
+        "Mizuhara Castle",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/70c81311-98f3-4c18-a2d1-fae6e0a8ba93.png"
+      },
+      "sha256": "d6142f9cb5af7ba6b0404193692a00456aa3399c4dc9f7b1feff1d8e483b88f6"
+    },
+    {
+      "path": [
+        "locations",
+        "Mizuhara Landing",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/38e28fe2-ae3a-454b-b04b-703b36016342.png"
+      },
+      "sha256": "518fda1adf9612a860c417335b5f7b219b87b349b4c77bc75eae24d17403b2d5"
+    },
+    {
+      "path": [
+        "locations",
+        "Silver Carp Market",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/d98cd485-680e-41d3-9187-85e749e61185.png"
+      },
+      "sha256": "409269876b20e68dfade78f4d08bc47ffaaf2ec2aa3b0597f9c49fd728c08e46"
+    },
+    {
+      "path": [
+        "locations",
+        "Three Reeds Inn",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/07f9a723-c653-454b-a122-b5f80d9d61a9.png"
+      },
+      "sha256": "6a00c52fa644de9080b96d84580d19743b537ecb6323b6e073f81e8bb2296f5c"
+    },
+    {
+      "path": [
+        "locations",
+        "Saionoma Household",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/dea0df56-6a88-4997-b52b-017ba16ffbd3.png"
+      },
+      "sha256": "25e727290df75dc20c92ae97cbcdb501af8a01ef007f4458cf54c8f4d03e0bb9"
+    },
+    {
+      "path": [
+        "locations",
+        "Reedwake Boatworks",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/5d907937-6ec2-4374-a987-99d7e5efc6de.png"
+      },
+      "sha256": "40ce28fbfb8c5f58e3e2f8e2b74455a2f78badafcc903a28d884861efeb76d9d"
+    },
+    {
+      "path": [
+        "locations",
+        "Western Spear Hall",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/b627fec1-0a18-46ab-8d67-0a865561ebf5.png"
+      },
+      "sha256": "731db6d18a9beb6e7102c962a06a68fdc31e4b40104f11be7252295467edc7a8"
+    },
+    {
+      "path": [
+        "locations",
+        "Reedshore Hamlet",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/54b6773a-2e54-426e-ab66-d52ced90aab1.png"
+      },
+      "sha256": "8dde78566e16a1700329ce52889b2385b66e040004f693b14315dd8340e026be"
+    },
+    {
+      "path": [
+        "locations",
+        "Lakewatch Islet",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/77871cb9-69d2-4b7b-97f8-6aff9a120cbd.png"
+      },
+      "sha256": "7d05fc9d26aa2936810951e1e1c475dd4e3c4180d7ca830c21e83cbbc6d82fef"
+    },
+    {
+      "path": [
+        "locations",
+        "Bamboo Crossing",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/3d2aa5b8-65e8-4f65-bffa-b9f3e4e0c45b.png"
+      },
+      "sha256": "70d6296e4675258fe9b0c22d4ebf3f01cddc71d91924c674ef2dba8c9650725b"
+    },
+    {
+      "path": [
+        "locations",
+        "Green Thread Paperworks",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/aa5b66e7-e9ae-446b-9a57-f1b439ebc43b.png"
+      },
+      "sha256": "b459c73240847c86ac20be0c5005eb924d00f388988dc9310d5d5859f90bbaff"
+    },
+    {
+      "path": [
+        "locations",
+        "Rainsong Mill",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/90e3482d-d211-46d2-9766-e07163dfafbe.png"
+      },
+      "sha256": "8aaa3bd015949127a61aef30a3d4367d9322a097ce0b9aedc67d01d0495301ce"
+    },
+    {
+      "path": [
+        "locations",
+        "Hidden Reed Training Ground",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/49e41b2c-2884-41d1-b6d3-973c7a6d76bd.png"
+      },
+      "sha256": "4e94fca03a52f0b37b7deff4b675eed9c50839c51ae5f6b7047c261b7a010ed8"
+    },
+    {
+      "path": [
+        "locations",
+        "Riverglass Baths",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/57cc8f4f-6c13-4910-ac4d-d53369605b35.png"
+      },
+      "sha256": "0184be8bc8336bd2a6ba45a1bab0180dbd92ecf1b8130901ec64fe30dd2616ac"
+    },
+    {
+      "path": [
+        "locations",
+        "Abandoned Bamboo Village",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/ee481579-b54a-4551-bd87-d993b62d2e1f.png"
+      },
+      "sha256": "d733dbdfca0167a072bcb2017a03174c0229ebaf621ff52eb036a36718dfe674"
+    },
+    {
+      "path": [
+        "locations",
+        "Moonweave Grove",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/287c7362-6b72-4b92-bb2f-85b91733656b.png"
+      },
+      "sha256": "cb9f9e31fac6ad343f1641c28e694b1ac4a7e36e8d259f648c68e9bba8e21eb0"
+    },
+    {
+      "path": [
+        "locations",
+        "Bamboo Charcoal Camp",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/52e1e21c-8e82-439e-9f90-b0a851cf27ed.png"
+      },
+      "sha256": "d9d9443151bdd47d4a420b5f93fc634a05d62c271f9efe98c861190829f8af14"
+    },
+    {
+      "path": [
+        "locations",
+        "Benitsuru Portal Shrine",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/0435c940-f3b2-497d-a223-6737d69f6400.png"
+      },
+      "sha256": "daee8ff009a68add0b67b4cc0125c64710c218ed6aab9ca9b804e8a6d72c05b3"
+    },
+    {
+      "path": [
+        "locations",
+        "Benitsuru Castle",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/7a33529e-e97a-4f05-8dbb-c4c24ce46375.png"
+      },
+      "sha256": "46b708c9c4a55832fe21cad5b2cc31e09e515ba01c80c2d270cf846f8290934b"
+    },
+    {
+      "path": [
+        "locations",
+        "Adventurer's Guild - Benitsuru Branch",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/0b0b267a-2848-4952-ae67-da5e87c0cc2e.png"
+      },
+      "sha256": "009a74b5e4980b76d7f5c919276f858561c59c632ad23c4be40eced481abc73e"
+    },
+    {
+      "path": [
+        "locations",
+        "Lantern Canal Market",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/55ba6a5c-2b2b-456d-889c-e182685412f0.png"
+      },
+      "sha256": "8a0233d3064bf2d83a7b0fd33fe3173b015ef0815991169d58c53562e5b6a2e5"
+    },
+    {
+      "path": [
+        "locations",
+        "Benitsuru Magistracy",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/c7dda0dd-bb6a-45f4-8dba-b8a82b03b60f.png"
+      },
+      "sha256": "0c821de87b5f1f90480ab98a4c57584a61b62f5c3d5a63ad12fb17d7e5c71f12"
+    },
+    {
+      "path": [
+        "locations",
+        "Red Maple Inn",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/28b1475e-c029-4911-b9fd-f6efefc14d1d.png"
+      },
+      "sha256": "3fd0613a863388e8ffc6ab87ad5f1812ed0fe436d2915704d357e60acb3e21c2"
+    },
+    {
+      "path": [
+        "locations",
+        "Benitsuru Ward Clinic",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/710f6350-54f7-4d5d-b373-0dbf2192dc1e.png"
+      },
+      "sha256": "20034d08bdb830b3f56c7db7009a884c4b7da0d73b9fb96e6d2cda413743230a"
+    },
+    {
+      "path": [
+        "locations",
+        "Kagetsuna Household",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/bb3689c8-8df7-43ea-aeb9-82fecc9d9ec0.png"
+      },
+      "sha256": "737002795e37aa345d9fb90253a44724fb87b8f81ebdd6d9eef64145e2972be2"
+    },
+    {
+      "path": [
+        "locations",
+        "Eight Petals Theater",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/d4946672-134e-4752-a626-4e0ea072f216.png"
+      },
+      "sha256": "6345dfe4f062a2c09688336aaba1ca550736aabbaa8e92ccc6bbeb8c70179baa"
+    },
+    {
+      "path": [
+        "locations",
+        "Benitsuru Craft Quarter",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/7cba6073-2b4f-4354-b383-493182492393.png"
+      },
+      "sha256": "84318873e12cf4e5b8d6416e93f79c4a4e76b04e3a71be1691736733daca66bc"
+    },
+    {
+      "path": [
+        "locations",
+        "Morning Crane Dojo",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/996b1328-1b0b-4652-8407-3263dff2011e.png"
+      },
+      "sha256": "86d1a0c6b5d3e431476fca9ceafc50f291d1dd9dc175902919c5200af02cffe8"
+    },
+    {
+      "path": [
+        "locations",
+        "Canal Ward Homes",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/3aeddac7-84d8-497c-91a8-ae7a977062cd.png"
+      },
+      "sha256": "3afc19fefd38bf01d3dedfbb1cc38a3c8a99824d5beac411e846d7a22f1e1f36"
+    },
+    {
+      "path": [
+        "locations",
+        "Benitsuru Public School",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/9507ada2-1f50-4555-8091-f9555d8fd77e.png"
+      },
+      "sha256": "cb6182b4fc4c8ad2efb00d1d987ed98d2c59d176f706bf48d188002b288d0587"
+    },
+    {
+      "path": [
+        "locations",
+        "South Gate Caravan Yard",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/b80e7193-4d6d-4864-94bc-9291e70c28ed.png"
+      },
+      "sha256": "f60424069f38e751358b680844a5eb109ac6c853f9302df591e888447f5109a4"
+    },
+    {
+      "path": [
+        "locations",
+        "Koganedai Castle",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/443224a6-c1e1-4054-91ed-2e18faad7d52.png"
+      },
+      "sha256": "a97eee721c6261ba6fda76636e1430f5312892d4ed2b8b5fe212c5e06725960f"
+    },
+    {
+      "path": [
+        "locations",
+        "Tsubakiri Residence",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/55c3fd14-d4cb-423e-bd54-d1509babffe2.png"
+      },
+      "sha256": "a47b1680cf14cb3155d6e48bd0c41ec5682f1565baa6b3465d86085123ee76de"
+    },
+    {
+      "path": [
+        "locations",
+        "Goldleaf Arcade",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/f74c1098-1c1b-4649-ab22-2e967f5c7796.png"
+      },
+      "sha256": "3254c0f35d8d5db09c85d6ed0ae606cf1bb9b4491f63d910bf7f24476f2bca0b"
+    },
+    {
+      "path": [
+        "locations",
+        "Ginkgo Crossbow Works",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/cb87d971-7f03-499d-b1fa-e30405e2d0ee.png"
+      },
+      "sha256": "f904c5364a3d4307fceb429d990a76bc77d3d8e87f324fb9f0f74a8cc45f1dc3"
+    },
+    {
+      "path": [
+        "locations",
+        "Koganedai Muster Ground",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/83d86d7b-39a4-4521-bdbb-44b9dd32f80a.png"
+      },
+      "sha256": "659c1bf722878495bb82be584bb3ca443d4b57c242155302d17f2beab5950faf"
+    },
+    {
+      "path": [
+        "locations",
+        "Terrace Waterworks",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/15b5e112-7ce9-407a-8aeb-89c5b810058b.png"
+      },
+      "sha256": "86efd1386703184cb5fbe1a304e402bad65ada9dbd67e77eb7578bfe3fdda245"
+    },
+    {
+      "path": [
+        "locations",
+        "East Wind Archery Hall",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/79df8050-0937-4292-bc7d-996a099335dd.png"
+      },
+      "sha256": "e253775b7aa2b5f475a4c785fee0bcf74062042b0924b815db692ef6e3410852"
+    },
+    {
+      "path": [
+        "locations",
+        "Koganedai Guesthouse",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/a3aada2d-9230-4808-9f0d-f6b6308d5a33.png"
+      },
+      "sha256": "78293a6d13562d484ae80e90e5ee860baa232badd4c084a8219d22de27935f52"
+    },
+    {
+      "path": [
+        "locations",
+        "Ginkgo Schoolhouse",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/3c1e58c4-ed72-4fc4-b408-3d9de45a5367.png"
+      },
+      "sha256": "fd168704bd7bdd147f6ce748d3dd741081d04c7f849f00c6df2a3c26b4daf55f"
+    },
+    {
+      "path": [
+        "locations",
+        "Mirror-Reed Bridge",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/11d16bf3-d1ec-403a-887d-fb0ae7e2779e.png"
+      },
+      "sha256": "2f446cd04892bb42e8fb5f7bd4dcb0638ace3153583c01b9b83129ed4ecb8b11"
+    },
+    {
+      "path": [
+        "locations",
+        "Reedglass Woodland Hamlet",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/2a3290b1-175b-48f1-9aba-3ad59de77f6e.png"
+      },
+      "sha256": "5a93bb48e55a1ed511db3037db0a348d7d8a0f8178b7ef18d4c2455d119b1fda"
+    },
+    {
+      "path": [
+        "locations",
+        "White Heron Grove",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/b4e37c53-5971-4f36-bb07-dcbbd25f7c70.png"
+      },
+      "sha256": "8d8f789050ed7143a2245051b62af2c8e58f393a346b84992515a972e31053b8"
+    },
+    {
+      "path": [
+        "locations",
+        "Singing Cedar Hollow",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/0d8f43aa-0ca4-4b4c-a19e-2b2b2c4beb83.png"
+      },
+      "sha256": "23e3bf4541f02658401c7ffcf450a1718cc9cd12272e82b5e69e8d4a92a63b24"
+    },
+    {
+      "path": [
+        "locations",
+        "Old Bridge Shrine",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/2ede4b93-c42f-442a-8682-65e9e86befbc.png"
+      },
+      "sha256": "ef7137e2c9314ab648b587e2a02f3d6044775bf6114cab18b8be9e8a09558dce"
+    },
+    {
+      "path": [
+        "locations",
+        "Mossbank Ridgeway",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/a779a49f-f9cf-4edc-a139-9808abf86670.png"
+      },
+      "sha256": "c389d159bc0bd826f474d2df80380fb14bc2f8fd48e15b6d78e05a088d3041f7"
+    },
+    {
+      "path": [
+        "locations",
+        "Woodland Dye Workshop",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/fc619af4-5c48-4a68-8d67-d86b9290d606.png"
+      },
+      "sha256": "19c6fd1bbe09e4e2fa2690b12812f43723cbdcd5a247509a136a0f80ee8244b5"
+    },
+    {
+      "path": [
+        "locations",
+        "Hoshina Village",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/da38b7a9-09ba-418c-8526-2f17cd4210be.png"
+      },
+      "sha256": "56a51985822ca8ee0c177f648c5e819954f92a7ff6891391ef3ea31bea21eed9"
+    },
+    {
+      "path": [
+        "locations",
+        "Golden Sheaf Granary",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/ab9ea22f-026a-41d5-9fe7-389b6618535b.png"
+      },
+      "sha256": "93a2b1656fa1538bd00990d48b55092f969277ca4dc65fcf0dfe22d753c5c5d4"
+    },
+    {
+      "path": [
+        "locations",
+        "South River Bridge",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/efc1dfae-9a01-400f-b16e-271902c11d19.png"
+      },
+      "sha256": "163d32f2a24372cb54e0b8f1f26c8c1b1f7de4ec91f1fec7cee5c80cc2607a93"
+    },
+    {
+      "path": [
+        "locations",
+        "Goldfinch Orchard",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/492e7a4d-2e5a-4e68-9501-7b047f67ef5d.png"
+      },
+      "sha256": "e063fa8470f1c80a1c12cf779a736d5c0b02a5d3de6fe9bca6953f0ee4f7f139"
+    },
+    {
+      "path": [
+        "locations",
+        "Susuki Road",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/78ee0041-20e7-46c3-80f6-dfdc847f0ff1.png"
+      },
+      "sha256": "f95ad2b2386e73b1fd4658cd0381880430df72c1ef0a015f1f7c7744ce81d967"
+    },
+    {
+      "path": [
+        "locations",
+        "Low Meadow Paddies",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/d2ec61ba-fb07-4b94-9c4b-1545f3cb1e2b.png"
+      },
+      "sha256": "c80b7eb0610ada3e03657102b1fbf9a55bea2c6fae9da4a413833554546d3c99"
+    },
+    {
+      "path": [
+        "locations",
+        "Saffron Road Hostel",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/56806a51-3988-461b-afe3-492dc8af63a9.png"
+      },
+      "sha256": "52a759b36a44ddacf3adf2c68a4b745c102e8c275187c4f3fa38f870cdeb289c"
+    },
+    {
+      "path": [
+        "locations",
+        "Redleaf Bridge",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/b775f2ed-3528-43e1-b01e-e87aa5bfd79c.png"
+      },
+      "sha256": "3b8ba84a3ebae51a289fd2015c39d3afb4ec9e7c1dc87c36bf71f573bccc4651"
+    },
+    {
+      "path": [
+        "locations",
+        "Evening Maple Shrine",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/7eefae14-a1ea-4449-a34d-ba85fcda2af0.png"
+      },
+      "sha256": "68e21ea0fdb8a5f29be879eeb6e186fb216466ee2b6659d108947c9c46c47104"
+    },
+    {
+      "path": [
+        "locations",
+        "Redleaf Guest Village",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/40fe21c2-2893-441a-9a99-dbea3c5009d4.png"
+      },
+      "sha256": "c10209db712ac16be64f2ba637a3c80210257dad696f1cb15fa8716b2db982df"
+    },
+    {
+      "path": [
+        "locations",
+        "Paper Moon Pavilion",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/977ef6aa-196d-47ec-9892-2c05abe81117.png"
+      },
+      "sha256": "1274d0bc3935279128a613be759c82194b2d9c9df474ebebeaa6d2f252d22cb7"
+    },
+    {
+      "path": [
+        "locations",
+        "Foxfire Verge",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/e7f657fd-6068-4946-98b3-00842cb789db.png"
+      },
+      "sha256": "d5c8c09d07045bc67d42116b02e0e7564a60d5dc3c90c5f64933336f43aa0d82"
+    },
+    {
+      "path": [
+        "locations",
+        "Broken Kite Camp",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/1ac020ef-535a-45f1-97cb-213f0e06040c.png"
+      },
+      "sha256": "2591ad8a87f423960ee851e0e200548be5fc0a77e25bf8137871473f6cb1eaad"
+    },
+    {
+      "path": [
+        "locations",
+        "Redleaf Apiculture",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/645b68d3-9edb-4190-ad5f-f15fdd5b87a6.png"
+      },
+      "sha256": "516d9073e2205d640759c1f609f660cda4d4b57fe82c9d780c036db34ee6586b"
+    },
+    {
+      "path": [
+        "locations",
+        "River Lantern Mooring",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/e3553437-4936-4394-b250-e0d6fd8149a7.png"
+      },
+      "sha256": "a788581a9fc32ef45915fc3c4f6037218230b9eca31bd5e3cfd7d6be7a135a62"
+    },
+    {
+      "path": [
+        "locations",
+        "Moonless Torii",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/62cb5c56-b533-46bb-8c40-1e17f0ef4745.png"
+      },
+      "sha256": "bfb8e0e7bcf4edf539d7777b7e900c7c849ff24f8d435c3d40bcf3adae432379"
+    },
+    {
+      "path": [
+        "locations",
+        "Lanternwood Root Shrine",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/4d8e89fb-e8c4-4b87-9af1-1edc4f4f78cb.png"
+      },
+      "sha256": "3eb18466e5fdf595f92514e1f2f6beb3b06f9f4cb99e9b4c5859c7108cd342c2"
+    },
+    {
+      "path": [
+        "locations",
+        "Ragged Cedar Hollow",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/14988dbc-d09e-48cd-a2a1-eb2e0d670d96.png"
+      },
+      "sha256": "d5ec984a0e049ee6c75ff374b874955c21a5f4a666b419894fc679e0eda7e6d7"
+    },
+    {
+      "path": [
+        "locations",
+        "Old Mask Trail",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/25d8b411-42b3-4521-adaa-4bd95ace6cf2.png"
+      },
+      "sha256": "236bee4f6f299797503b33e4c1bfe6fa2174db1a5fa894ac61e10ee088f980e4"
+    },
+    {
+      "path": [
+        "locations",
+        "Rootfall Ravine",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/5a47bcaa-7dc9-4c94-a355-4e6409143982.png"
+      },
+      "sha256": "8e45b1640b44876cce2e21f1374791033e8349861da951cf87ce7139ce33e77b"
+    },
+    {
+      "path": [
+        "locations",
+        "Lanternwood Field Shelter",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/9ac5171f-fc37-4330-9538-5eb8884e9576.png"
+      },
+      "sha256": "cec4324836c42b0d5fcb6a73b541929c1ab19f3c7de921f783f6fae72a3845e3"
+    },
+    {
+      "path": [
+        "locations",
+        "Foxglade Spirit Orchard",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/0e4dd6b6-f26b-4bed-8a59-cb6c3cf3c3c1.png"
+      },
+      "sha256": "ac28ecc97280ef7304867b035b231fe4f071a1c757fadab7c3cd8ca9ee1d7537"
+    },
+    {
+      "path": [
+        "locations",
+        "Hushwater Pool",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/d6da16ad-78d3-4058-8ced-ae32d39ba88f.png"
+      },
+      "sha256": "30a99c622bf89c48971cd3857250cbdc46c8f95241d15e0dc7e92ec9709281f7"
+    },
+    {
+      "path": [
+        "locations",
+        "Veiled Threshold",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/3f8b3fdf-3ae1-424e-9366-24ae573046d8.png"
+      },
+      "sha256": "d70fa819147b65a1b0c72a903cef6ddbae84731bc01878a2d1cc44ba2011fa75"
+    },
+    {
+      "path": [
+        "locations",
+        "Bellroot Refuge",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/db79aef6-146b-455f-a468-582564bf4e21.png"
+      },
+      "sha256": "fe657527bb3b999e7623040faf944ceaa19d5f5b44934a59a542755559713030"
+    },
+    {
+      "path": [
+        "locations",
+        "Pale Lantern Marsh",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/e39f7e12-30b9-481a-9897-35e935918bc2.png"
+      },
+      "sha256": "533c0bca5d0eeb3e1ed72422d5b2504d64ee1c365d9e6e645e2970808f7d1e56"
+    },
+    {
+      "path": [
+        "locations",
+        "The Listening Cedars",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/202b3465-ee8e-4a03-a349-dc051501c055.png"
+      },
+      "sha256": "5933ba532a4b552bde727defa60c6f3a1b9d3d32b81f0e80256528943d49be61"
+    },
+    {
+      "path": [
+        "locations",
+        "Ashen Festival Road",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/b36cea73-f873-499c-a131-9174e425eb14.png"
+      },
+      "sha256": "d52dde8b86c4500d098f0fa33831460637b6d120497bb711d05fc7c977aa7417"
+    },
+    {
+      "path": [
+        "locations",
+        "Crane-of-the-Hush Crossing",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/86dc0a08-0ae5-45c4-aa0d-1511bbcff7f3.png"
+      },
+      "sha256": "aca3026df65fd9d1f00ce3c7f100eca2f67b1e8e89f47058d160c76487af57a2"
+    },
+    {
+      "path": [
+        "locations",
+        "Hollow Sky Grove",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/a11605df-2bd1-4e67-b683-f013cbc24381.png"
+      },
+      "sha256": "353782e73a8a9f6b6b5c363a2d3500afca3f4f9303a16de61a385bb427caef46"
+    },
+    {
+      "path": [
+        "locations",
+        "Hinoki Hollow Onsen",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/4f6f2241-cdfe-4def-9995-5aa2cd6c06b2.png"
+      },
+      "sha256": "69a5acd534aebb97be2ca0eb3c187a09cd15284280ee7d8b6236cceee836970a"
+    },
+    {
+      "path": [
+        "locations",
+        "Benitsuru Portal Shrine",
+        "areas",
+        "Benitsuru Portal Shrine - Portal Hall",
+        "images",
+        "establishingShot"
+      ],
+      "before": null,
+      "after": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/4d9dc605-b5bc-4bc0-9f7b-595d4cec748b.png"
+      },
+      "sha256": "60ce60dbdf266aa53da0ee641d7111817658a4124176e60aefdee1419c15b613"
+    }
+  ],
+  "officialValidation": {
+    "data": {
+      "errors": [],
+      "stage": "draft",
+      "valid": true,
+      "warnings": []
+    },
+    "requestId": "174ef950-498e-471a-b9c8-4263b9dd5647"
+  },
+  "studioSaved": false,
+  "studioPublished": false
+}

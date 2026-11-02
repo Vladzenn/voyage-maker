@@ -1,0 +1,16 @@
+{
+  "id": "loc-056",
+  "location": "Kagetsuna Household",
+  "area": null,
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Akitsuhara/Kagetsuna Household.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-2836d2b0-75a1-4491-b9f5-b0ba07afedb0.png",
+  "sha256": "737002795e37aa345d9fb90253a44724fb87b8f81ebdd6d9eef64145e2972be2",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 3737233,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1
+}

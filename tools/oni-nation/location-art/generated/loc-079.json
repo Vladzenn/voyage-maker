@@ -1,0 +1,16 @@
+{
+  "id": "loc-079",
+  "location": "Hoshina Village",
+  "area": null,
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Akitsuhara/Hoshina Village.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-e3f4ea0a-63df-496d-b701-77bee176b1c5.png",
+  "sha256": "56a51985822ca8ee0c177f648c5e819954f92a7ff6891391ef3ea31bea21eed9",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 3707770,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1
+}

@@ -1,0 +1,16 @@
+{
+  "id": "loc-094",
+  "location": "Moonless Torii",
+  "area": null,
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Akitsuhara/Moonless Torii.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-28536f04-c2f5-4a35-bf75-19fe6257fa78.png",
+  "sha256": "bfb8e0e7bcf4edf539d7777b7e900c7c849ff24f8d435c3d40bcf3adae432379",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 3670107,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1
+}

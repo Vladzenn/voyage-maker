@@ -14,7 +14,8 @@ function context(overrides={}){
   else if(c.type==='party-location')v=q.location;
   else if(c.type==='party-area')v=q.area;
   else if(c.type==='action-text')v=c.operator?q.actions.join(' '):q.actions;
-  else if(c.type==='player-level')v={Player:q.level};
+  else if(c.type==='player-level')v=q.players||{Player:q.level};
+  else if(c.type==='party-realm')v=w.regions[w.locations[q.location].region].realm;
   else if(c.type==='player-item'){
    const n=Object.prototype.hasOwnProperty.call(q.items,c.item)?q.items[c.item]:(c.item==='Guild Badge: '+['','Bronze','Silver','Gold','Platinum'][q.badge]?1:0);
    return c.operator?compare(n,c.operator,c.value):{Player:n};
@@ -67,10 +68,27 @@ if(w.locations['Hinoki Hollow Onsen']){
  ck(w.npcs['Atsuha Yunokawa'].currentLocation==='Hinoki Hollow Onsen','Actual onsen proprietor');
  ck(Object.keys(w.locations['Hinoki Hollow Onsen'].areas).length===4,'Onsen has useful local areas');
  ck(w.imagePromptConfiguration.npcs.includes('continuous shaft'),'Runtime portrait weapon continuity rule');
- for(const [name,pin]of Object.entries(follow.sourcePins||{})){
+ const artPins=path.join(__dirname,'oni-nation/location-art/latest-placement.json');
+ const pins=fs.existsSync(artPins)?JSON.parse(fs.readFileSync(artPins,'utf8')).sourcePins:follow.sourcePins;
+ for(const [name,pin]of Object.entries(pins||{})){
   ck(w.locations[name].x===pin.x&&w.locations[name].y===pin.y,'Author pin retained '+name);
   ck(w.locations[name].region===pin.region,'Author region retained '+name);
  }
+}
+
+if(m.locationArtComplete){
+ const art=path.join(__dirname,'oni-nation/location-art');
+ const jobs=JSON.parse(fs.readFileSync(path.join(art,'jobs.json'),'utf8'));
+ const urls=new Set(),hashes=new Set();
+ ck(jobs.filter(j=>!j.area).length===109&&jobs.filter(j=>j.area).length===1,'Exact selected location-art scope');
+ for(const j of jobs){
+  const r=JSON.parse(fs.readFileSync(path.join(art,'hosted',j.id+'.json'),'utf8'));
+  const loc=w.locations[j.location],actual=j.area?loc.areas[j.area]:loc;
+  ck(r.location===j.location&&r.area===j.area&&r.target===j.target,'Artwork receipt identity '+j.id);
+  ck(actual.images.establishingShot.imageUrl===r.url,'Hosted artwork at exact selected address '+j.id);
+  urls.add(r.url);hashes.add(r.sha256);
+ }
+ ck(urls.size===110&&hashes.size===110,'No repeated image or crossed upload identity');
 }
 
 // New starts are local and grouped before all academy faculty openings.
@@ -161,25 +179,68 @@ ck(w.parties[''].quests['Guild: Adventurer Licensure'].questDesignBrief.includes
 
 // Normal and once-only surprise travel use native movement and the established shared lock.
 h=context({location:'Evertree Base',area:'Evertree Base - Portal Room',level:5,actions:['I enter the Akitsuhara portal'],items:{'Oni Nation Portal Key':1}});
-e=h.run('oni_portal_to_direct');ck(e.some(e=>e.type==='party-location'&&e.value==='Benitsuru Transit Shrine'),'Normal outward exact position');
+e=h.run('oni_portal_to_direct');ck(e.some(e=>e.type==='party-location'&&e.value==='Benitsuru Portal Shrine'),'Normal outward exact position');
 ck(!h.run('oni_portal_to').length,'Same tick semantic router cannot double cross');
 h=context({location:'Evertree Base',area:'Evertree Base - Portal Room',level:20,actions:['I enter the Akitsuhara portal'],items:{'Oni Nation Portal Key':1}});
 e=h.run('oni_portal_to_direct');ck(e.some(e=>e.type==='party-location'&&e.value==='Silken Portal Room'),'Same original level-20 surprise decision on new network route');
-h.q.tick++;h.q.storage.gh_spider_entered=true;e=h.run('oni_portal_to_direct');ck(e.some(e=>e.type==='party-location'&&e.value==='Benitsuru Transit Shrine'),'Anomaly cannot recur');
-h=context({location:'Benitsuru Transit Shrine',area:'Benitsuru Transit Shrine - Permit Desk',actions:['I enter the return portal']});
+h.q.tick++;h.q.storage.gh_spider_entered=true;e=h.run('oni_portal_to_direct');ck(e.some(e=>e.type==='party-location'&&e.value==='Benitsuru Portal Shrine'),'Anomaly cannot recur');
+h=context({location:'Benitsuru Portal Shrine',area:'Benitsuru Portal Shrine - Permit Desk',actions:['I enter the return portal']});
 e=h.run('oni_portal_from_direct');ck(e.some(e=>e.type==='party-area'&&e.value==='Evertree Base - Portal Room'),'Fixed Evertree return from local staging');
 h=context({location:'Moonless Torii',items:{'Restored Way Bell':1}});e=h.run('oni_soul_torii_awaken');
 ck(e.some(e=>e.type==='write-boolean'&&e.key==='oni_soul_gate_awake')&&!e.some(e=>e.type==='party-location'),'Awakening permanent flag without forced entry');
 h.q.items={};h.q.storage.oni_soul_gate_awake=true;e=h.run('oni_soul_torii_cross');ck(e.some(e=>e.type==='party-location'&&e.value==='Veiled Threshold'),'Opened spirit route works after bell is lost');
 h=context({location:'Veiled Threshold'});e=h.run('oni_soul_torii_return');ck(e.some(e=>e.type==='party-area'&&e.value==='Moonless Torii - Torii Court'),'Local spirit return is not Evertree');
 if(w.triggerDefinitions.oni_foreign_glowhaven_key_issue){
- for(const location of ['Drakenspire Portals','Cloudbloom Landing','Benitsuru Transit Shrine']){
+ for(const location of ['Drakenspire Portals','Cloudbloom Landing','Benitsuru Portal Shrine']){
   h=context({location});e=h.run('oni_foreign_glowhaven_key_issue');ck(e.filter(x=>x.type==='item-add'&&x.item==='Glowhaven Portal Key'&&x.quantity===1).length===1,'Local approved home key '+location);ck(!e.some(x=>x.type==='party-location'),'Key issue does not force travel '+location);
   h.q.items={'Glowhaven Portal Key':1};ck(!h.run('oni_foreign_glowhaven_key_issue').length,'No duplicate held home key '+location);
   h.q.items={};h.q.storage.gh_evertree_transited=true;ck(!h.run('oni_foreign_glowhaven_key_issue').length,'Existing post-transit grant retains sole ownership '+location);
   h.q.storage.gh_evertree_transited=false;h.q.semantic=false;ck(!h.run('oni_foreign_glowhaven_key_issue').length,'Actual authorization required '+location);
  }
 }
+// Full network audit: exact endpoints, keys, permission gates and intentional exceptions.
+for(const [route,key,place,area]of [
+ ['drakenspire','Drakenspire Portal Key','Drakenspire Portals','Drakenspire - Portal Room'],
+ ['asterveil','Asterveil Portal Key','Cloudbloom Landing','Cloudbloom Landing - Portal Room']
+]){
+ h=context({location:'Evertree Base',area:'Evertree Base - Portal Room',actions:['I use my '+key],items:{[key]:1}});
+ e=h.run('gh_portal_command_router');ck(e.some(x=>x.type==='party-location'&&x.value===place),'Actual key opens network route '+route);
+ ck(e.some(x=>x.type==='party-area'&&x.value===area),'Exact outward portal room '+route);
+ ck(!e.some(x=>x.type==='item-remove'),'Reusable outbound key '+route);
+ h=context({location:'Evertree Base',area:'Evertree Base - Portal Room',actions:['I use my '+key],items:{}});
+ ck(!h.run('gh_portal_command_router').length,'Absent outbound key denied '+route);
+ h=context({location:place,area,actions:['I use my Glowhaven Portal Key'],items:{'Glowhaven Portal Key':1}});
+ e=h.run('gh_portal_command_router');ck(e.some(x=>x.type==='party-area'&&x.value==='Evertree Base - Portal Room'),'Actual held home key '+route);
+ h=context({location:place,area,actions:['I enter the return portal']});e=h.run('gh_portal_command_router');
+ ck(e.some(x=>x.type==='party-location'&&x.value==='Evertree Base'),'Fixed keyless home arch '+route);
+ h=context({location:place,area,semantic:false});ck(!h.run('gh_portal_from_'+route).length,'No semantic travel on discussion '+route);
+ h=context({location:'Evertree Base',area:'Evertree Base - Portal Room',level:25,actions:['I use my '+key],items:{[key]:1}});
+ e=h.run('gh_portal_command_router');ck(e.some(x=>x.type==='party-location'&&x.value==='Silken Portal Room'),'Original one-time anomaly unchanged '+route);
+ h.q.tick++;h.q.storage.gh_spider_entered=true;e=h.run('gh_portal_command_router');ck(e.some(x=>x.type==='party-location'&&x.value===place),'Later normal travel resumes '+route);
+}
+h=context({location:'Evertree Base',area:'Evertree Base - Portal Room',actions:['I use my Oni Nation Portal Key'],items:{'Oni Nation Portal Key':1}});
+e=h.run('oni_portal_to_direct');ck(e.some(x=>x.type==='party-area'&&x.value==='Benitsuru Portal Shrine - Portal Hall'),'Oni key reaches renamed hall');
+h=context({location:'Benitsuru Portal Shrine',area:'Benitsuru Portal Shrine - Portal Hall',actions:['I use my Glowhaven Portal Key'],items:{'Glowhaven Portal Key':1}});
+e=h.run('oni_portal_from_direct');ck(e.some(x=>x.type==='party-area'&&x.value==='Evertree Base - Portal Room'),'Benitsuru recognizes explicit home-key use');
+ck(!e.some(x=>x.type==='item-remove'),'Home key is reusable');
+h.q.items={};ck(!h.run('oni_portal_from_direct').length,'A claimed absent home key cannot travel');
+h=context({location:'Benitsuru Portal Shrine',actions:['I enter the return portal'],players:{Player:5,Second:6}});
+ck(!h.run('oni_portal_from_direct').length,'Multiplayer bypass cannot move an unconsenting party');
+ck(h.run('oni_portal_from').some(x=>x.type==='party-location'&&x.value==='Evertree Base'),'Agreed multiplayer crossing retains semantic route');
+h=context({location:'Evertree Base',area:'Evertree Base - Portal Room',actions:['I use my Oni Nation Portal Key'],items:{'Oni Nation Portal Key':1},players:{Player:5,Second:6}});
+ck(!h.run('oni_portal_to_direct').length,'Outbound direct shortcut is solo only');
+h=context({location:'Evertree Base',area:'Evertree Base - Portal Room',actions:['I use my Silver Web Portal Key'],items:{'Silver Web Portal Key':1},storage:{gh_silver_key_unlocked:true,gh_spider_entered:true}});
+e=h.run('gh_portal_command_router');ck(e.some(x=>x.type==='party-location'&&x.value==='Silken Portal Room'),'Existing silver route remains available');
+h=context({location:'Silken Portal Room',area:'Silken Portal Room - Return Arch',actions:['I enter the return arch'],storage:{gh_spider_entered:true}});
+ck(h.run('gh_portal_command_router').some(x=>x.type==='party-area'&&x.value==='Evertree Base - Portal Room'),'Spider retreat needs neither key nor boss victory');
+h=context({location:'Evertree Base',area:'Evertree Base - Portal Room',storage:{cc1_grove_open:true}});
+ck(h.run('cc1_grove_enter').some(x=>x.type==='party-area'&&x.value==='Sepulchral Portal House - Return Arch'),'Conservatory exact outward anchor');
+h=context({location:'Sepulchral Portal House',area:'Sepulchral Portal House - Return Arch'});
+ck(h.run('cc1_grove_return').some(x=>x.type==='party-area'&&x.value==='Evertree Base - Portal Room'),'Conservatory fixed home return');
+h=context({location:'Veiled Threshold'});ck(h.run('oni_soul_torii_return').some(x=>x.type==='party-location'&&x.value==='Moonless Torii'),'Spirit torii intentionally returns locally');
+h=context({location:'Evertree Base',area:'Evertree Base - Portal Room',semantic:false});ck(!h.run('cc1_grove_enter').length,'Closed Conservatory does not open from a key claim');
+ck(!JSON.stringify(w).includes('Benitsuru Transit Shrine'),'No stale shrine identifier in live world');
+
 for(const overrides of [{health:0},{inScene:true},{inCombat:true},{inParty:true},{storage:{oni_hagire_route_safe:true}}]){h=context(overrides);ck(!h.run('oni_hagire_roam').length,'No roaming over an actual resolved/engaged state');}
 h=context({tick:72});e=h.run('oni_hagire_roam');ck(e.length===1&&e[0].type==='npc-placement','One bounded offstage roam');
 ck(!h.run('oni_hagire_roam').length,'No repeated move in same roaming interval');

@@ -15652,7 +15652,7 @@
       },
       {
         "type": "action",
-        "query": "The player deliberately crosses the sanctuary's return arch to Glowhaven now. This is an actual return, not examining the arch, a hypothetical or crossing into the conservatory garden."
+        "query": "The player deliberately crosses the sanctuary's return arch to Glowhaven now. This is an actual return, not examining the arch, a hypothetical or crossing into the conservatory garden. Deliberately using a held Sepulchral Portal Key here to return also qualifies. The fixed return arch itself needs no key."
       }
     ],
     "effects": [
@@ -16271,30 +16271,30 @@
       },
       {
         "type": "known-entity",
-        "entity": "Benitsuru Transit Shrine",
+        "entity": "Benitsuru Portal Shrine",
         "operator": "set",
         "value": true
       },
       {
         "type": "party-location",
         "operator": "set",
-        "value": "Benitsuru Transit Shrine"
+        "value": "Benitsuru Portal Shrine"
       },
       {
         "type": "party-area",
         "operator": "set",
-        "value": "Benitsuru Transit Shrine - Portal Hall"
+        "value": "Benitsuru Portal Shrine - Portal Hall"
       },
       {
         "type": "npc-placement",
         "npc": "allPartyNPCs",
         "operation": "moveTo",
-        "location": "Benitsuru Transit Shrine",
-        "area": "Benitsuru Transit Shrine - Portal Hall"
+        "location": "Benitsuru Portal Shrine",
+        "area": "Benitsuru Portal Shrine - Portal Hall"
       },
       {
         "type": "story",
-        "instruction": "Render the chosen portal crossing into Benitsuru Transit Shrine - Portal Hall, preserving the traveling party, belongings, actual permission and ongoing obligations. This is a distant region of the same world. Arrival alone grants no fieldwork credit or new companion. Render only this one crossing and its fixed endpoint; do not add an unrequested return or journey."
+        "instruction": "Render the chosen portal crossing into Benitsuru Portal Shrine - Portal Hall, preserving the traveling party, belongings, actual permission and ongoing obligations. This is a distant region of the same world. Arrival alone grants no fieldwork credit or new companion. Render only this one crossing and its fixed endpoint; do not add an unrequested return or journey."
       }
     ],
     "script": "const tick=check({type:'game-tick'});\nif(storage.ghPortalTransitTick===tick){skip=true;}else{\nconst players=check({type:'player-level'})||{};\nif(Object.values(players).some(level=>level>=20)&&!check({type:'read-boolean',key:'gh_spider_entered'})){\n storage.gh_spider_entered=true;storage.gh_exam_postponed=true;\n storage.ghSpiderIncident={tick,intendedDestination:\"Akitsuhara\",key:\"Oni Nation Portal Key\",players:Object.keys(players),companions:Object.keys(check({type:'npc-in-party',npc:'anyPartyNPC'})||{})};\n effects.length=0;effects.push(...[{\"type\":\"known-entity\",\"entity\":\"The Silken Descent\",\"operator\":\"set\",\"value\":true},{\"type\":\"known-entity\",\"entity\":\"Silken Chasm\",\"operator\":\"set\",\"value\":true},{\"type\":\"known-entity\",\"entity\":\"Silken Portal Room\",\"operator\":\"set\",\"value\":true},{\"type\":\"party-location\",\"operator\":\"set\",\"value\":\"Silken Portal Room\"},{\"type\":\"party-area\",\"operator\":\"set\",\"value\":\"Silken Portal Room - Return Arch\"},{\"type\":\"npc-placement\",\"npc\":\"allPartyNPCs\",\"operation\":\"moveTo\",\"location\":\"Silken Portal Room\",\"area\":\"Silken Portal Room - Return Arch\"},{\"type\":\"story\",\"instruction\":\"Interrupt the apparently normal crossing now: silver strands shear across the expected view and the actual party arrives together inside the ruined Silken Portal Room. Preserve companions and possessions. A silver-threaded key visibly condenses as the room is discovered; its one-time item effect records it. The stable return arch clearly leads home and is immediately usable without a key, descent or battle. Stop at arrival. No official predicted this event; do not descend or return for the player.\"}]);\n}\nstorage.ghPortalTransitTick=tick;storage.gh_evertree_transited=true;\n}"
@@ -16340,33 +16340,33 @@
       },
       {
         "type": "known-entity",
-        "entity": "Benitsuru Transit Shrine",
+        "entity": "Benitsuru Portal Shrine",
         "operator": "set",
         "value": true
       },
       {
         "type": "party-location",
         "operator": "set",
-        "value": "Benitsuru Transit Shrine"
+        "value": "Benitsuru Portal Shrine"
       },
       {
         "type": "party-area",
         "operator": "set",
-        "value": "Benitsuru Transit Shrine - Portal Hall"
+        "value": "Benitsuru Portal Shrine - Portal Hall"
       },
       {
         "type": "npc-placement",
         "npc": "allPartyNPCs",
         "operation": "moveTo",
-        "location": "Benitsuru Transit Shrine",
-        "area": "Benitsuru Transit Shrine - Portal Hall"
+        "location": "Benitsuru Portal Shrine",
+        "area": "Benitsuru Portal Shrine - Portal Hall"
       },
       {
         "type": "story",
-        "instruction": "Render the chosen portal crossing into Benitsuru Transit Shrine - Portal Hall, preserving the traveling party, belongings, actual permission and ongoing obligations. This is a distant region of the same world. Arrival alone grants no fieldwork credit or new companion. Render only this one crossing and its fixed endpoint; do not add an unrequested return or journey."
+        "instruction": "Render the chosen portal crossing into Benitsuru Portal Shrine - Portal Hall, preserving the traveling party, belongings, actual permission and ongoing obligations. This is a distant region of the same world. Arrival alone grants no fieldwork credit or new companion. Render only this one crossing and its fixed endpoint; do not add an unrequested return or journey."
       }
     ],
-    "script": "const oniRaw=check({type:'action-text'});const oniInputs=Array.isArray(oniRaw)?oniRaw:[oniRaw];const oniText=oniInputs.length===1?String(oniInputs[0]).trim().toLowerCase():'';if(!new RegExp(\"^(?:i )?(?:(?:enter|cross|step through|walk through|go through|head through|travel through) (?:the |this )?(?:(?:portal|arch|gate) (?:to|for) )?(?:akitsuhara|oni nation)(?: (?:portal|arch|gate))?|use (?:my |the )?(?:oni nation|akitsuhara)(?: portal)? key)[.!]?$\").test(oniText)){skip=true;}else{\nconst tick=check({type:'game-tick'});\nif(storage.ghPortalTransitTick===tick){skip=true;}else{\nconst players=check({type:'player-level'})||{};\nif(Object.values(players).some(level=>level>=20)&&!check({type:'read-boolean',key:'gh_spider_entered'})){\n storage.gh_spider_entered=true;storage.gh_exam_postponed=true;\n storage.ghSpiderIncident={tick,intendedDestination:\"Akitsuhara\",key:\"Oni Nation Portal Key\",players:Object.keys(players),companions:Object.keys(check({type:'npc-in-party',npc:'anyPartyNPC'})||{})};\n effects.length=0;effects.push(...[{\"type\":\"known-entity\",\"entity\":\"The Silken Descent\",\"operator\":\"set\",\"value\":true},{\"type\":\"known-entity\",\"entity\":\"Silken Chasm\",\"operator\":\"set\",\"value\":true},{\"type\":\"known-entity\",\"entity\":\"Silken Portal Room\",\"operator\":\"set\",\"value\":true},{\"type\":\"party-location\",\"operator\":\"set\",\"value\":\"Silken Portal Room\"},{\"type\":\"party-area\",\"operator\":\"set\",\"value\":\"Silken Portal Room - Return Arch\"},{\"type\":\"npc-placement\",\"npc\":\"allPartyNPCs\",\"operation\":\"moveTo\",\"location\":\"Silken Portal Room\",\"area\":\"Silken Portal Room - Return Arch\"},{\"type\":\"story\",\"instruction\":\"Interrupt the apparently normal crossing now: silver strands shear across the expected view and the actual party arrives together inside the ruined Silken Portal Room. Preserve companions and possessions. A silver-threaded key visibly condenses as the room is discovered; its one-time item effect records it. The stable return arch clearly leads home and is immediately usable without a key, descent or battle. Stop at arrival. No official predicted this event; do not descend or return for the player.\"}]);\n}\nstorage.ghPortalTransitTick=tick;storage.gh_evertree_transited=true;\n}\n}"
+    "script": "const oniRaw=check({type:'action-text'});const oniInputs=Array.isArray(oniRaw)?oniRaw:[oniRaw];const oniText=oniInputs.length===1?String(oniInputs[0]).trim().toLowerCase():'';if(Object.keys(check({type:'player-level'})||{}).length!==1||!new RegExp(\"^(?:i )?(?:(?:enter|cross|step through|walk through|go through|head through|travel through) (?:the |this )?(?:(?:portal|arch|gate) (?:to|for) )?(?:akitsuhara|oni nation)(?: (?:portal|arch|gate))?|use (?:my |the )?(?:oni nation|akitsuhara)(?: portal)? key)[.!]?$\").test(oniText)){skip=true;}else{\nconst tick=check({type:'game-tick'});\nif(storage.ghPortalTransitTick===tick){skip=true;}else{\nconst players=check({type:'player-level'})||{};\nif(Object.values(players).some(level=>level>=20)&&!check({type:'read-boolean',key:'gh_spider_entered'})){\n storage.gh_spider_entered=true;storage.gh_exam_postponed=true;\n storage.ghSpiderIncident={tick,intendedDestination:\"Akitsuhara\",key:\"Oni Nation Portal Key\",players:Object.keys(players),companions:Object.keys(check({type:'npc-in-party',npc:'anyPartyNPC'})||{})};\n effects.length=0;effects.push(...[{\"type\":\"known-entity\",\"entity\":\"The Silken Descent\",\"operator\":\"set\",\"value\":true},{\"type\":\"known-entity\",\"entity\":\"Silken Chasm\",\"operator\":\"set\",\"value\":true},{\"type\":\"known-entity\",\"entity\":\"Silken Portal Room\",\"operator\":\"set\",\"value\":true},{\"type\":\"party-location\",\"operator\":\"set\",\"value\":\"Silken Portal Room\"},{\"type\":\"party-area\",\"operator\":\"set\",\"value\":\"Silken Portal Room - Return Arch\"},{\"type\":\"npc-placement\",\"npc\":\"allPartyNPCs\",\"operation\":\"moveTo\",\"location\":\"Silken Portal Room\",\"area\":\"Silken Portal Room - Return Arch\"},{\"type\":\"story\",\"instruction\":\"Interrupt the apparently normal crossing now: silver strands shear across the expected view and the actual party arrives together inside the ruined Silken Portal Room. Preserve companions and possessions. A silver-threaded key visibly condenses as the room is discovered; its one-time item effect records it. The stable return arch clearly leads home and is immediately usable without a key, descent or battle. Stop at arrival. No official predicted this event; do not descend or return for the player.\"}]);\n}\nstorage.ghPortalTransitTick=tick;storage.gh_evertree_transited=true;\n}\n}"
   },
   "oni_portal_from": {
     "name": "oni_portal_from",
@@ -16375,11 +16375,11 @@
       {
         "type": "party-location",
         "operator": "equals",
-        "value": "Benitsuru Transit Shrine"
+        "value": "Benitsuru Portal Shrine"
       },
       {
         "type": "action",
-        "query": "The player actually enters or crosses this location’s sole fixed return portal now. Explicitly entering the portal qualifies from its local staging areas; a bare \"I enter\" qualifies when the current scene unambiguously refers to that arch, including the Silken arrival floor. The short approach is ordinary movement. The destination is always Evertree Base - Portal Room in Glowhaven, never a choice. Do not require a key or the exact arch sub-area. Entering an unrelated shop, stair or alcove, future discussion, negation, forcing another traveler or leaving part of a split player party is false."
+        "query": "The player actually enters or crosses this location’s sole fixed return portal now. Explicitly entering the portal qualifies from its local staging areas; a bare \"I enter\" qualifies when the current scene unambiguously refers to that arch, including the Silken arrival floor. The short approach is ordinary movement. The destination is always Evertree Base - Portal Room in Glowhaven, never a choice. Do not require a key or the exact arch sub-area. Entering an unrelated shop, stair or alcove, future discussion, negation, forcing another traveler or leaving part of a split player party is false. Deliberately using a held Glowhaven Portal Key here to return also qualifies; an absent key claim does not."
       }
     ],
     "effects": [
@@ -16426,7 +16426,7 @@
       {
         "type": "party-location",
         "operator": "equals",
-        "value": "Benitsuru Transit Shrine"
+        "value": "Benitsuru Portal Shrine"
       },
       {
         "type": "action-text",
@@ -16469,7 +16469,7 @@
         "instruction": "The completed return crossing lands the actual party at Evertree Base - Portal Room, Glowhaven’s sole portal hub. Apply that exact location and area; do not stop at generic Glowhaven, remain in the source realm, offer a landing choice or invent a second city portal. Preserve companions, possessions, reusable keys and completed progress. Stop inside the hub; walking out, reporting findings and another outward crossing are separate actions. No boss victory or educational credit is awarded merely for returning."
       }
     ],
-    "script": "const oniRaw=check({type:'action-text'});const oniInputs=Array.isArray(oniRaw)?oniRaw:[oniRaw];const oniText=oniInputs.length===1?String(oniInputs[0]).trim().toLowerCase():'';if(!new RegExp(\"^(?:i )?(?:(?:enter|cross|step through|walk through|go through) (?:the |this )?(?:return )?(?:portal|arch|gate)(?: (?:back )?to (?:glowhaven|evertree(?: base)?))?|(?:return|head back|go back) to (?:glowhaven|evertree(?: base)?))[.!]?$\").test(oniText)){skip=true;}else{\nconst ghTick=check({type:'game-tick'});\nif(storage.ghPortalTransitTick===ghTick){skip=true;}else{\n\nif(!skip){storage.ghPortalTransitTick=ghTick;}\n}\nif(!skip){storage.ghLastPortalTransit={tick:check({type:'game-tick'}),route:'home',fromLocation:check({type:'party-location'}),fromArea:check({type:'party-area'}),semantic:true};}\n}"
+    "script": "const oniUse=check({type:'action-text'});if(/\\buse\\b/i.test(String(oniUse))&&!check({type:'player-item',item:'Glowhaven Portal Key',operator:'greaterThan',value:0})){skip=true;}else{\nconst oniRaw=check({type:'action-text'});const oniInputs=Array.isArray(oniRaw)?oniRaw:[oniRaw];const oniText=oniInputs.length===1?String(oniInputs[0]).trim().toLowerCase():'';if(Object.keys(check({type:'player-level'})||{}).length!==1||!new RegExp(\"^(?:i )?(?:(?:enter|cross|step through|walk through|go through) (?:the |this )?(?:return )?(?:portal|arch|gate)(?: (?:back )?to (?:glowhaven|evertree(?: base)?))?|(?:return|head back|go back) to (?:glowhaven|evertree(?: base)?)|use (?:my |the )?(?:glowhaven|gloomhaven)(?: portal)?(?: return)? key(?: to return(?: to (?:glowhaven|evertree(?: base)?))?)?)[.!]?$\").test(oniText)){skip=true;}else{\nconst ghTick=check({type:'game-tick'});\nif(storage.ghPortalTransitTick===ghTick){skip=true;}else{\n\nif(!skip){storage.ghPortalTransitTick=ghTick;}\n}\nif(!skip){storage.ghLastPortalTransit={tick:check({type:'game-tick'}),route:'home',fromLocation:check({type:'party-location'}),fromArea:check({type:'party-area'}),semantic:true};}\n}\n}"
   },
   "oni_portal_key_issue": {
     "name": "oni_portal_key_issue",
@@ -16478,7 +16478,7 @@
       {
         "type": "party-location",
         "operator": "regex",
-        "value": "^(The Grand Sage's Court|Sage's Spire|Evertree Base|Benitsuru Transit Shrine)$"
+        "value": "^(The Grand Sage's Court|Sage's Spire|Evertree Base|Benitsuru Portal Shrine)$"
       },
       {
         "type": "player-item",
@@ -17199,7 +17199,7 @@
       {
         "type": "party-location",
         "operator": "regex",
-        "value": "^(Drakenspire Portals|Cloudbloom Landing|Benitsuru Transit Shrine)$"
+        "value": "^(Drakenspire Portals|Cloudbloom Landing|Benitsuru Portal Shrine)$"
       },
       {
         "type": "read-boolean",

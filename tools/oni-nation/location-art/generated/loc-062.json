@@ -1,0 +1,16 @@
+{
+  "id": "loc-062",
+  "location": "South Gate Caravan Yard",
+  "area": null,
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Akitsuhara/South Gate Caravan Yard.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-ebd15077-daf3-4b69-a88f-47642923bf93.png",
+  "sha256": "f60424069f38e751358b680844a5eb109ac6c853f9302df591e888447f5109a4",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 3307149,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1
+}

@@ -12,6 +12,10 @@ Explore twelve regions surrounding Benitsuru, the Shogun’s capital beneath sac
 - Follow the waterways through grain country, investigate abandoned sites or prepare for the colder northern passes.
 - Find modest work along inhabited routes before choosing the dangers farther from town. The deepest woods deserve more preparation than a morning errand.
 
+### 🎨 A Country Brought to Life
+
+More than 100 new location illustrations bring Akitsuhara and the Veiled Beyond into view, from busy workshops and mountain shrines to quiet forest paths and mist-covered crossings. Benitsuru Portal Shrine also has its own Portal Hall interior, marking the way back to Glowhaven beneath the Evertree.
+
 ### 🤝 97 New Characters
 
 Meet household leaders, clerks, samurai, shinobi, craftspeople, performers, adventurers, foreign visitors and people whose business is rather harder to explain.

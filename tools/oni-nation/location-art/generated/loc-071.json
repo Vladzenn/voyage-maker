@@ -1,0 +1,16 @@
+{
+  "id": "loc-071",
+  "location": "Ginkgo Schoolhouse",
+  "area": null,
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Akitsuhara/Ginkgo Schoolhouse.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-bf02d71c-e71b-4208-9b05-151ca76ec77b.png",
+  "sha256": "fd168704bd7bdd147f6ce748d3dd741081d04c7f849f00c6df2a3c26b4daf55f",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 3392063,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1
+}

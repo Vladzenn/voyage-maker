@@ -1,0 +1,16 @@
+{
+  "id": "loc-074",
+  "location": "White Heron Grove",
+  "area": null,
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Akitsuhara/White Heron Grove.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-35b31fe4-a172-4683-b062-85a833f02dd4.png",
+  "sha256": "8d8f789050ed7143a2245051b62af2c8e58f393a346b84992515a972e31053b8",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 3966302,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1
+}

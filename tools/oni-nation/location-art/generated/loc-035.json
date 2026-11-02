@@ -1,0 +1,16 @@
+{
+  "id": "loc-035",
+  "location": "Three Reeds Inn",
+  "area": null,
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Akitsuhara/Three Reeds Inn.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-e8f60466-04d9-48ae-963f-1eeb3b9dde83.png",
+  "sha256": "6a00c52fa644de9080b96d84580d19743b537ecb6323b6e073f81e8bb2296f5c",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 3511181,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1
+}

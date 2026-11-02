@@ -1,0 +1,16 @@
+{
+  "id": "loc-102",
+  "location": "Veiled Threshold",
+  "area": null,
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Akitsuhara/Veiled Threshold.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-b7d5a49b-9b1a-4959-b730-b061b2da00af.png",
+  "sha256": "d70fa819147b65a1b0c72a903cef6ddbae84731bc01878a2d1cc44ba2011fa75",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 3181991,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1
+}

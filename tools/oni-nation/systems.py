@@ -14,7 +14,7 @@ def add_systems(w,catalog):
         if script:tr['script']=script
         w['triggerDefinitions'][name]=tr;added.append(name);return tr
     # A new route reuses the original anomaly decision unchanged; old routes are not rewritten.
-    replacements={'Drakenspire Mountains':NATION,'Drakenspire Highlands':'Benitsuru Basin','Drakenspire Portals':'Benitsuru Transit Shrine','Drakenspire - Portal Room':'Benitsuru Transit Shrine - Portal Hall','Drakenspire Portal Key':'Oni Nation Portal Key','Drakenspire':NATION}
+    replacements={'Drakenspire Mountains':NATION,'Drakenspire Highlands':'Benitsuru Basin','Drakenspire Portals':'Benitsuru Portal Shrine','Drakenspire - Portal Room':'Benitsuru Portal Shrine - Portal Hall','Drakenspire Portal Key':'Oni Nation Portal Key','Drakenspire':NATION}
     def replace(value):
         if isinstance(value,str):
             for a,b in replacements.items():value=value.replace(a,b)
@@ -34,12 +34,12 @@ def add_systems(w,catalog):
         fast['script']="const oniRaw=check({type:'action-text'});const oniInputs=Array.isArray(oniRaw)?oniRaw:[oniRaw];const oniText=oniInputs.length===1?String(oniInputs[0]).trim().toLowerCase():'';if(!new RegExp("+json.dumps(exact)+").test(oniText)){skip=true;}else{\n"+tr['script']+'\n}'
         w['triggerDefinitions'][fast['name']]=fast;added.append(fast['name'])
     issue=copy.deepcopy(w['triggerDefinitions']['gh_portal_key_issue_asterveil'])
-    issue['name']='oni_portal_key_issue';issue['conditions'][0]['value']="^(The Grand Sage's Court|Sage's Spire|Evertree Base|Benitsuru Transit Shrine)$"
+    issue['name']='oni_portal_key_issue';issue['conditions'][0]['value']="^(The Grand Sage's Court|Sage's Spire|Evertree Base|Benitsuru Portal Shrine)$"
     issue['conditions'][1]['item']='Oni Nation Portal Key'
     issue['conditions'][2]['query']='The court or an actually delegated transit officer at this desk approves the traveler for a legitimate journey and actually hands them an Oni Nation Portal Key now. Enrolled study, a real expedition, authorized trade, local official business or credible sponsorship can qualify. Requests, mere status, another person’s key and an unofficial gift are false. Nobu Senda is Akitsuhara’s authorized bilateral transit registrar. A valid permitted request can be handled here without sending the traveler to a distant court first.'
     issue['effects'][0]['item']='Oni Nation Portal Key'
     w['triggerDefinitions'][issue['name']]=issue;added.append(issue['name'])
-    w['locations']['Evertree Base']['basicInfo']+=' Its ordinary network also serves Akitsuhara through Benitsuru Transit Shrine.'
+    w['locations']['Evertree Base']['basicInfo']+=' Its ordinary network also serves Akitsuhara through Benitsuru Portal Shrine.'
     w['locations']['Evertree Base']['areas']['Evertree Base - Portal Room']['description']+=' An additional torii-marked arch serves Akitsuhara. Its Oni Nation Portal Key can be issued by an authorized transit delegate here for a legitimate journey, alongside the existing destination keys.'
     w['locations']['Evertree Base']['hiddenInfo']+=' Akitsuhara uses the same court-authorized network and the same once-only outward anomaly decision. Do not invent a separate academy portal or an automatically free key. The local Spirit Torii in Akitsuhara is outside this public network and returns to its own local gate.'
     add('oni_soul_torii_awaken',[c('party-location','Moonless Torii'),c('player-item',0,'greaterThan',item='Restored Way Bell'),c('read-boolean',False,key='oni_soul_gate_awake'),{'type':'action','query':'The player deliberately sounds the real restored way bell to awaken this torii now. Looking at the hook, discussing a future attempt, claiming an absent bell or ringing an unrelated object is false. Awakening the gate does not choose to cross it.'}],

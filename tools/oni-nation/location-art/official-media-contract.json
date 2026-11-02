@@ -1,0 +1,70 @@
+{
+  "apiBase": "https://api-alpha.aidungeon.com/creator/v1",
+  "contractSHA256": "20ab7bff23135a5598177376121e467051af168591edbea350a1fe3f6584d72e",
+  "constraints": {
+    "allowedMimeTypes": [
+      "image/png",
+      "image/jpeg",
+      "image/jpg",
+      "image/webp"
+    ],
+    "maxFileSizeBytes": 5242880,
+    "targets": {
+      "WORLD_COVER": {
+        "aspectRatioRule": "none",
+        "maximumHeight": null,
+        "maximumWidth": null,
+        "minimumHeight": 1,
+        "minimumWidth": 1,
+        "recommendedHeight": 1000,
+        "recommendedWidth": 1000
+      },
+      "AREA_IMAGE": {
+        "aspectRatioRule": "none",
+        "maximumHeight": null,
+        "maximumWidth": null,
+        "minimumHeight": 600,
+        "minimumWidth": 600,
+        "recommendedHeight": 1333,
+        "recommendedWidth": 750
+      },
+      "ITEM_IMAGE": {
+        "aspectRatioRule": "none",
+        "maximumHeight": null,
+        "maximumWidth": null,
+        "minimumHeight": 600,
+        "minimumWidth": 600,
+        "recommendedHeight": 1000,
+        "recommendedWidth": 1000
+      },
+      "LOCATION_IMAGE": {
+        "aspectRatioRule": "none",
+        "maximumHeight": null,
+        "maximumWidth": null,
+        "minimumHeight": 600,
+        "minimumWidth": 600,
+        "recommendedHeight": 1333,
+        "recommendedWidth": 750
+      },
+      "NPC_PORTRAIT": {
+        "aspectRatioRule": "none",
+        "maximumHeight": null,
+        "maximumWidth": null,
+        "minimumHeight": 600,
+        "minimumWidth": 600,
+        "recommendedHeight": 1000,
+        "recommendedWidth": 750
+      },
+      "REGION_MAP_IMAGE": {
+        "aspectRatioRule": "none",
+        "maximumHeight": null,
+        "maximumWidth": null,
+        "minimumHeight": 600,
+        "minimumWidth": 600,
+        "recommendedHeight": 1000,
+        "recommendedWidth": 1000
+      }
+    }
+  },
+  "studioSaved": false
+}

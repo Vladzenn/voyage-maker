@@ -1,0 +1,16 @@
+{
+  "id": "loc-008",
+  "location": "Western Woodcutters' Yard",
+  "area": null,
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Akitsuhara/Western Woodcutters' Yard.png",
+  "source": "R:\\Codex\\Home\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-6c7e4c3b-216a-48ef-9645-017b7572942f.png",
+  "sha256": "205a507492e9d802f10229c6e1612adfd2b06cfc1f7e65a9fdf9cab015e8e6b6",
+  "mimeType": "image/png",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 3598710,
+  "generator": "built-in image_gen",
+  "review": "pending",
+  "generationPass": 1
+}

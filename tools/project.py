@@ -11,7 +11,7 @@ import sys
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 WORLD = ROOT / 'world-draft/WorldAlpha - World.json'
 INDEX = ROOT / 'docs/asset-index.json'
-MEDIA_DIRS = ['npc portraits', 'location images', 'maps', 'map-variations']
+MEDIA_DIRS = ['npc portraits', 'location images', 'area images', 'maps', 'map-variations']
 MEDIA_EXTS = {'.png', '.jpg', '.jpeg', '.webp', '.gif', '.svg', '.mp3', '.wav', '.ogg', '.m4a', '.pdf'}
 SECTIONS = {
     'Abilities': 'abilities', 'Author Seeds': 'authorSeeds', 'Factions': 'factions',

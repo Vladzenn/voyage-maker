@@ -1,0 +1,308 @@
+{
+  "date": "2026-11-02",
+  "sourceAttachment": "6cc3c948-f13a-43ef-999c-ba12853dc3b0",
+  "sourceSHA256": "21ff61c158f61d41940a470c7fc56c6869ede96f737daef5e1f2ca74abf7f309",
+  "baselineCommit": "6f19c3a5aae8964bae0b0ea6bd891816ec1d1ecc",
+  "changedLocations": 33,
+  "changedCoordinateValues": 49,
+  "changes": [
+    {
+      "location": "Hydra Head Academy",
+      "field": "y",
+      "before": 10,
+      "after": 9
+    },
+    {
+      "location": "Gryffin Tail Academy",
+      "field": "x",
+      "before": -18,
+      "after": -17
+    },
+    {
+      "location": "Gryffin Tail Academy",
+      "field": "y",
+      "before": -4,
+      "after": -8
+    },
+    {
+      "location": "Dragon Hoard Academy",
+      "field": "x",
+      "before": 23,
+      "after": 22
+    },
+    {
+      "location": "Dragon Hoard Academy",
+      "field": "y",
+      "before": -6,
+      "after": -9
+    },
+    {
+      "location": "East City Gate",
+      "field": "x",
+      "before": 30,
+      "after": 31
+    },
+    {
+      "location": "East City Gate",
+      "field": "y",
+      "before": 2,
+      "after": 1
+    },
+    {
+      "location": "West City Gate",
+      "field": "x",
+      "before": -31,
+      "after": -32
+    },
+    {
+      "location": "West City Gate",
+      "field": "y",
+      "before": 2,
+      "after": 1
+    },
+    {
+      "location": "Caravan Outpost",
+      "field": "y",
+      "before": -6,
+      "after": -8
+    },
+    {
+      "location": "The Emberfox Hot Spring",
+      "field": "y",
+      "before": 20,
+      "after": 18
+    },
+    {
+      "location": "The Everlight Public Library",
+      "field": "y",
+      "before": -10,
+      "after": -12
+    },
+    {
+      "location": "Brookmeadow",
+      "field": "y",
+      "before": -35,
+      "after": -37
+    },
+    {
+      "location": "The Jade Cup Teahouse",
+      "field": "y",
+      "before": -12,
+      "after": -14
+    },
+    {
+      "location": "Four Sages Bazaar",
+      "field": "y",
+      "before": 2,
+      "after": 1
+    },
+    {
+      "location": "The Eternal Crucible",
+      "field": "x",
+      "before": 10,
+      "after": 11
+    },
+    {
+      "location": "East Greyfield",
+      "field": "x",
+      "before": -10,
+      "after": -11
+    },
+    {
+      "location": "East Greyfield",
+      "field": "y",
+      "before": -23,
+      "after": -27
+    },
+    {
+      "location": "West Greyfield",
+      "field": "x",
+      "before": -26,
+      "after": -25
+    },
+    {
+      "location": "West Greyfield",
+      "field": "y",
+      "before": -15,
+      "after": -20
+    },
+    {
+      "location": "Main City Gate",
+      "field": "y",
+      "before": -21,
+      "after": -26
+    },
+    {
+      "location": "Willowbend Residential District",
+      "field": "x",
+      "before": 7,
+      "after": 6
+    },
+    {
+      "location": "Crooked Tankard",
+      "field": "x",
+      "before": 12,
+      "after": 11
+    },
+    {
+      "location": "Crooked Tankard",
+      "field": "y",
+      "before": -3,
+      "after": -4
+    },
+    {
+      "location": "Pinewake Coast",
+      "field": "x",
+      "before": 16,
+      "after": 15
+    },
+    {
+      "location": "Pinewake Coast",
+      "field": "y",
+      "before": 27,
+      "after": 26
+    },
+    {
+      "location": "Pebblewick",
+      "field": "x",
+      "before": 33,
+      "after": 35
+    },
+    {
+      "location": "Crescent Shores",
+      "field": "x",
+      "before": 40,
+      "after": 39
+    },
+    {
+      "location": "Crescent Shores",
+      "field": "y",
+      "before": -14,
+      "after": -16
+    },
+    {
+      "location": "Seabreeze Inn",
+      "field": "x",
+      "before": 35,
+      "after": 36
+    },
+    {
+      "location": "Seabreeze Inn",
+      "field": "y",
+      "before": -1,
+      "after": -3
+    },
+    {
+      "location": "Hermit's hut",
+      "field": "x",
+      "before": -43,
+      "after": -41
+    },
+    {
+      "location": "Hermit's hut",
+      "field": "y",
+      "before": -38,
+      "after": -43
+    },
+    {
+      "location": "Pinewater River",
+      "field": "x",
+      "before": -35,
+      "after": -33
+    },
+    {
+      "location": "Pinewater River",
+      "field": "y",
+      "before": -29,
+      "after": -33
+    },
+    {
+      "location": "West Glowhaven Woods",
+      "field": "y",
+      "before": 12,
+      "after": 11
+    },
+    {
+      "location": "Violet Thread",
+      "field": "x",
+      "before": -6,
+      "after": -5
+    },
+    {
+      "location": "Violet Thread",
+      "field": "y",
+      "before": 1,
+      "after": -2
+    },
+    {
+      "location": "The Perfumed Rose",
+      "field": "y",
+      "before": -2,
+      "after": -3
+    },
+    {
+      "location": "The Golden Ladle",
+      "field": "x",
+      "before": -21,
+      "after": -22
+    },
+    {
+      "location": "The Silver Anvil",
+      "field": "x",
+      "before": -23,
+      "after": -26
+    },
+    {
+      "location": "The Silver Anvil",
+      "field": "y",
+      "before": -8,
+      "after": -9
+    },
+    {
+      "location": "The Carpenter's Measure",
+      "field": "x",
+      "before": -21,
+      "after": -22
+    },
+    {
+      "location": "Hide & Hammer",
+      "field": "x",
+      "before": -13,
+      "after": -15
+    },
+    {
+      "location": "Hide & Hammer",
+      "field": "y",
+      "before": -14,
+      "after": -17
+    },
+    {
+      "location": "Eastbloom Residences",
+      "field": "x",
+      "before": 26,
+      "after": 28
+    },
+    {
+      "location": "Eastbloom Residences",
+      "field": "y",
+      "before": -2,
+      "after": -3
+    },
+    {
+      "location": "The Compassmaker",
+      "field": "y",
+      "before": -4,
+      "after": -6
+    },
+    {
+      "location": "House Goldbarrow Estate",
+      "field": "y",
+      "before": 12,
+      "after": 11
+    }
+  ],
+  "allOtherWorldValuesExact": true,
+  "mapUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/7255bbf8-6aa7-46d9-89a0-1d6c950df292.png",
+  "candidateSHA256": "51d27e00aadc9fd955f740e733f60f8b63d5c12b20a14cc1ed00f157048add06",
+  "publicAnnouncement": false
+}

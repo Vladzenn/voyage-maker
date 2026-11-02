@@ -162,3 +162,5 @@ The latest author clarification says Champions of the Crucible is still unreleas
 ## 2 November — private Glowhaven map refresh
 
 The author supplied the complete Glowhaven region record as a phantom map update. It matches the current record except its map URL. Merge that URL into the canonical world and current full deliveries; preserve all other content, coordinates, crop, visibility and level range. Record the exact change privately and refresh only the two active region preservation fingerprints with that proof. No public patch-note entry or additional map/placement changes.
+
+The follow-up locations export `6cc3c948-f13a-43ef-999c-ba12853dc3b0` authorizes the author's map-placement adjustments: 49 x/y changes across 33 Glowhaven locations. No other record differs. Merge only those positions, preserving the latest region map, all artwork, areas, paths, content and other realms. Refresh only the affected active location fingerprints with the exact coordinate proof. This remains a private phantom change; do not add it to the public Crucible announcement.

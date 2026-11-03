@@ -1,0 +1,28 @@
+{
+  "baseCommit": "519264e21011e190d09f9cf78ccfec92d9970469",
+  "reason": "Exact Studio rejection: objectives require keyed id/text/status records, not description/completed arrays.",
+  "changedWorldPaths": [
+    [
+      "parties",
+      "",
+      "quests",
+      "A Fisher’s First Lesson",
+      "objectives"
+    ],
+    [
+      "parties",
+      "",
+      "quests",
+      "Supper before the Tide Turns",
+      "objectives"
+    ],
+    [
+      "parties",
+      "",
+      "quests",
+      "A Color beneath the Scales",
+      "objectives"
+    ]
+  ],
+  "allOtherWorldValuesPreserved": true
+}

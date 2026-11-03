@@ -181,6 +181,18 @@ def validate(world=None):
 
     for party in w['parties'].values():
         for name, quest in party.get('quests', {}).items():
+            if 'objectives' in quest:
+                objectives = quest['objectives']
+                ck(isinstance(objectives, dict), f'Quest objectives map: {name}')
+                if isinstance(objectives, dict):
+                    for objective_key, objective in objectives.items():
+                        trail = f'{name}/{objective_key}'
+                        ck(isinstance(objective, dict), f'Quest objective object: {trail}')
+                        if isinstance(objective, dict):
+                            ck(isinstance(objective.get('id'), str), f'Quest objective id: {trail}')
+                            ck(isinstance(objective.get('text'), str), f'Quest objective text: {trail}')
+                            ck(objective.get('status') in ('hidden', 'active', 'completed'),
+                               f'Quest objective status: {trail}')
             # Quest objects, including nested objectives, may contain typed conditions.
             def visit(value, trail):
                 if isinstance(value, dict):

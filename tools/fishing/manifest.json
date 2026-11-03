@@ -82,7 +82,7 @@
   "sharedRolls": "One local shoal/specimen roll per cast mode and turn; native player conditions select only actual qualifying anglers. Shared records count landing events, not individual fish totals.",
   "baseCommit": "6dd409959c71dae444b74e100ab24d2e22e0f220",
   "beforeSha256": "eee869610596cb11ae84ee0c7c6d46c89141a9919ceb8c5aa40e47c476f2b665",
-  "afterSha256": "8e3e50a10e266b209925326c2eceaa5f61fcc26effcfb3cf45e9b04fbdf174d2",
+  "afterSha256": "ca3d406205207321b0bc807f2d68d0148b9919e31c36b8ee98697db9b6cad5fc",
   "changes": [
     {
       "path": [

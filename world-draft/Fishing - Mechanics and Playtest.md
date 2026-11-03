@@ -47,6 +47,10 @@ Weather cues reach narration on forecast/context changes. They do not soak inter
 
 This is not a native weather widget or a global climate simulator. Storage is not assumed to be visible to the narrator: explicit story effects carry the actual forecast.
 
+## Studio objective-schema correction
+
+Studio rejected the initial three fishing quests because their objectives used a description/completed array. Only those three objective fields were corrected to a native keyed map of `{id, text, status}` records. The authoring source and validator now enforce this structure; a regression reproduces all three rejected arrays and invalid record fields. No other world values changed in this hotfix.
+
 ## Native commissions and narrow repair
 
 Three optional finite native quests: **A Fisher’s First Lesson**, **Supper before the Tide Turns**, **A Color beneath the Scales**. Each has a real existing client and one native completion/reward owner. Honest procurement remains valid where appropriate; a fishing grind is not compulsory. Actual handovers use ordinary inventory changes once. Offers do not accept jobs.

@@ -24,6 +24,29 @@ class StudioValidationRegression(unittest.TestCase):
     def test_fixed_world_passes(self):
         self.validate()
 
+    def test_quest_objectives_use_native_map(self):
+        names = ['A Fisher’s First Lesson', 'Supper before the Tide Turns',
+                 'A Color beneath the Scales']
+        for name in names:
+            with self.subTest(quest=name):
+                q = self.world['parties']['']['quests'][name]
+                correct = copy.deepcopy(q['objectives'])
+                q['objectives'] = [{'description': 'A real fishing task', 'completed': False}]
+                with self.assertRaisesRegex(ValueError, 'Quest objectives map: ' + name):
+                    self.validate()
+                q['objectives'] = correct
+        q = self.world['parties']['']['quests'][names[0]]
+        key = next(iter(q['objectives']))
+        correct = copy.deepcopy(q['objectives'][key])
+        for field, value, label in [('id', None, 'id'), ('text', 42, 'text'),
+                                    ('status', 'available', 'status')]:
+            with self.subTest(field=field):
+                q['objectives'][key] = {**correct, field: value}
+                with self.assertRaisesRegex(ValueError, 'Quest objective ' + label + ':'):
+                    self.validate()
+        q['objectives'][key] = correct
+        self.validate()
+
     def test_trigger_string_value_studio_limit(self):
         tr = self.world['triggerDefinitions']['ghx_local_commissions']
         tr['conditions'].append({'type': 'party-location', 'operator': 'regex', 'value': 'x' * 101})

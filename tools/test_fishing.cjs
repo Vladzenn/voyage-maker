@@ -100,7 +100,7 @@ f=fixture({text:'I check my fishing records.',storage:{fshRecords:{'Pinewater Pe
 for(const [area,habitat]of Object.entries(m.sites))for(const weather of ['clear','overcast','rain','fog','wind'])for(const roll of [0,.25,.7,.999]){
  f=allow(fixture({area,rng:()=>roll,storage:{fshWeather:{inland:{kind:weather},coast:{kind:weather}}}}),'fsh_cast_lure');f.run('fsh_cast_lure');ck(catches(f)===1||!!f.s.storage.fshHook,'Every supported table yields a fish or rare hook '+area+'/'+weather+'/'+roll);
 }
-for(const title of m.quests){const q=w.parties[''].quests[title];ck(q.status==='hidden'&&q.completionCondition.type==='story','Optional native fishing quest '+title);ck(q.onCompleteEffects.filter(e=>e.type==='item-add'&&e.item==='Mark').length===1,'One reward owner '+title)}
+for(const title of m.quests){const q=w.parties[''].quests[title];ck(q.status==='hidden'&&q.completionCondition.type==='story','Optional native fishing quest '+title);ck(q.onCompleteEffects.filter(e=>e.type==='item-add'&&e.item==='Mark').length===1,'One reward owner '+title);ck(!Array.isArray(q.objectives)&&Object.values(q.objectives).every(o=>typeof o.id==='string'&&typeof o.text==='string'&&['hidden','active','completed'].includes(o.status)),'Native keyed objective records '+title)}
 // Review proof: unrelated whole sections, including NPCs, map pins/art and realms, stay exact.
 for(const [k,h]of Object.entries(m.unchangedTopLevel)){const actual=crypto.createHash('sha256').update(JSON.stringify(w[k])).digest('hex');ck(actual===h,'Unchanged section '+k)}
 ck(w.imagePromptConfiguration.npcs.includes('top of the thighs')===false&&w.imagePromptConfiguration.npcs.includes('upper thighs'),'Hip-up runtime wording reaches below waist');

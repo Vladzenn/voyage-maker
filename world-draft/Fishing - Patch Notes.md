@@ -22,6 +22,6 @@ Catch familiar supper fish, unusual specimens and a few particularly elusive fin
 
 - Fishing records remember discovered species and the traveling party’s best measured catches.
 - Meet Makiho for practical advice and ordinary tackle.
-- Take on small optional commissions involving lessons, fresh fish and curious natural colors.
+- Take on small optional commissions involving lessons, fresh fish and curious natural colors, with objectives tracked in the quest journal.
 
 No grand calling required. Just a line, a little patience, and perhaps one more cast.

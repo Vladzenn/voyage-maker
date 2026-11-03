@@ -319,3 +319,8 @@ The screenshot shows semi-realistic facial modeling and a waist crop despite Hip
 The local-commission defect is a focused authorized fix: move its AI judgment into declared semantic conditions, never a script-side `check(action, query)`. Use exact local/hidden-quest gates and at most one offer per turn. Keep native quest acceptance, completion and rewards, and fix the mistaken Boolean script mock. No catalogue-wide quest rewrite.
 
 Use a shared local shoal roll for simultaneous qualifying anglers, native player targeting for inventory and bait, and a shared travel-party record. Do not pretend the script exposes individual satisfying-player identities or unique per-instance fish metadata. Ordinary skill practice follows native progression. Weather is persistent turn-based state, not another clock or global combat modifier.
+
+
+## 4 November — fishing quest import correction
+
+The author reports Studio rejecting the three new fishing objective arrays. Treat the supplied Studio type as authoritative: `objectives` is a keyed map of records with string `id`, string `text` and status `hidden`, `active` or `completed`. Correct those three fields, their authoring source and the missing validator coverage. Preserve every other world value. Provide the corrected full world and a complete native Quests section for safe replacement; do not rebuild quests or rewards.

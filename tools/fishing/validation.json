@@ -1,7 +1,7 @@
 {
   "status": "local-checks-passed",
   "latestStudioExport": "366606e8-3528-434f-80b6-fef091104a73",
-  "fullWorldSHA256": "414be0c4078a6d9de0cc6708b85d085c9291f3898729ba3b446515bc2c2a06dd",
+  "fullWorldSHA256": "12772d6f57be9516662a2770a39dd5b3e6833dd0cad1fe77017f5b30037c6a61",
   "npcCount": 397,
   "itemCount": 525,
   "questCount": 242,
@@ -11,8 +11,8 @@
   "fishingGrounds": 18,
   "fishingQuests": 3,
   "checks": {
-    "structural": 24352,
-    "validationTests": 6,
+    "structural": 24818,
+    "validationTests": 7,
     "portraitWorkflowTests": 19,
     "itemMechanics": 1209,
     "fieldwork": 1866,
@@ -21,9 +21,14 @@
     "crucible": 2260,
     "oni": 5017,
     "glowhavenExpansion": 2525,
-    "fishing": 1723
+    "fishing": 1726
   },
   "nativeEngineOrSemanticRecognitionTested": false,
   "liveStudioSaveOrPublication": false,
-  "historicalFingerprintFilesChanged": false
+  "historicalFingerprintFilesChanged": false,
+  "objectiveSchemaFix": {
+    "correctedQuests": 3,
+    "allOtherWorldValuesPreserved": true,
+    "originalStudioRejectionReproduced": true
+  }
 }

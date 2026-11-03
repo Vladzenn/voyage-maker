@@ -8093,12 +8093,13 @@
     "conclusive": true,
     "questSource": "Makiho Akitsu",
     "questLocation": "Gullwatch Reefs",
-    "objectives": [
-      {
-        "description": "Land a fish during Makiho’s practical lesson, or demonstrate a genuinely careful catch-and-release.",
-        "completed": false
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Land a fish during Makiho’s practical lesson, or demonstrate a genuinely careful catch-and-release.",
+        "status": "active"
       }
-    ],
+    },
     "questDesignBrief": "A small optional local commission. Keep the client’s ordinary personality and other work present. Explain the actual request and posted payment before agreement. No compulsory fight, portal permission or surprise boss. Real handovers use actual inventory once; native completion owns the stated reward.",
     "completionCondition": {
       "type": "story",
@@ -8127,12 +8128,13 @@
     "conclusive": true,
     "questSource": "Nanae Kogure",
     "questLocation": "The Gilded Albatross",
-    "objectives": [
-      {
-        "description": "Bring Nanae two fresh ordinary edible fish and settle the agreed handover.",
-        "completed": false
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Bring Nanae two fresh ordinary edible fish and settle the agreed handover.",
+        "status": "active"
       }
-    ],
+    },
     "questDesignBrief": "A small optional local commission. Keep the client’s ordinary personality and other work present. Explain the actual request and posted payment before agreement. No compulsory fight, portal permission or surprise boss. Real handovers use actual inventory once; native completion owns the stated reward.",
     "completionCondition": {
       "type": "story",
@@ -8161,12 +8163,13 @@
     "conclusive": true,
     "questSource": "Yorina Tsugawa",
     "questLocation": "Thistlebank Alchemy Cottage",
-    "objectives": [
-      {
-        "description": "Provide an actual Amberfin Eel or Blueglass Needlefish for Yorina’s agreed pigment study.",
-        "completed": false
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Provide an actual Amberfin Eel or Blueglass Needlefish for Yorina’s agreed pigment study.",
+        "status": "active"
       }
-    ],
+    },
     "questDesignBrief": "A small optional local commission. Keep the client’s ordinary personality and other work present. Explain the actual request and posted payment before agreement. No compulsory fight, portal permission or surprise boss. Real handovers use actual inventory once; native completion owns the stated reward.",
     "completionCondition": {
       "type": "story",

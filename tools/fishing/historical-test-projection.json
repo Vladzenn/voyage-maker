@@ -3,7 +3,7 @@
   "baseCommit": "6dd409959c71dae444b74e100ab24d2e22e0f220",
   "preStudioSha256": "d65bd7314c774e6b9650fa25bf54fdf792686bb46de26ed1a53d7998a8d915c0",
   "beforeSha256": "4e7bbdc29877110fbd0fc717ecb6ab210115c7d267b0b395637dd9c9d1266803",
-  "afterSha256": "ac97e913c4ebec6ab51cc7b528e27c86cbcd33b01e976a88191958173f4b669f",
+  "afterSha256": "ce73242d52393423aa1e7338808b020bd2e78d3dbafce4d2fa8b36a975ec0d00",
   "rows": [
     {
       "path": [
@@ -2283,7 +2283,7 @@
         "A Fisher’s First Lesson"
       ],
       "kind": "added",
-      "afterSha256": "931e1fd9e3b1505293987ef647f414a83c0aa7dadf12fed6da22ad36cd7d85e0"
+      "afterSha256": "3828b09a6ed186f491f493167d8649679304b7f94e8c266e0ecbf5cb165b1a51"
     },
     {
       "path": [
@@ -2293,7 +2293,7 @@
         "Supper before the Tide Turns"
       ],
       "kind": "added",
-      "afterSha256": "920e8c9e8946d0de240f80e44bde1a03041f8e9a61139ee7d25eb8daafa14068"
+      "afterSha256": "25feb497a0ff9474cffa2e6bf0f8440a5da32b3cf6433053dada152f4e0a253f"
     },
     {
       "path": [
@@ -2303,7 +2303,7 @@
         "A Color beneath the Scales"
       ],
       "kind": "added",
-      "afterSha256": "8160d4720da85cfbdc5fa12aee5c05642b676fa030df724030bd58894a93d5e5"
+      "afterSha256": "080e972ec5ce605c8bd3e70899c8ec4fc62ec9644d67d15c29d39f984d8447a7"
     }
   ]
 }

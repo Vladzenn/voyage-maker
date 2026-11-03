@@ -3480,6 +3480,31 @@
       "size": 734112,
       "sha256": "99d81c7e7ab18c8a50c6ba3953bd15fbedfc54410ee83ac9f42f5413dce041f2",
       "mtimeNs": 1793699522845825900
+    },
+    "world-draft/map-variations/Glowhaven Southern Plains Expansion/Colosseum Scale Reference.png": {
+      "size": 132588,
+      "sha256": "3073913a907c656d3e8816bdc3c52157147dba8a34525174c3cce3916ea2ed38",
+      "mtimeNs": 1793701080645177100
+    },
+    "world-draft/map-variations/Glowhaven Southern Plains Expansion/Glowhaven - Southern Plains Extension v1.png": {
+      "size": 3508274,
+      "sha256": "fd2d726ead521c53e1a051904d2ec9f672733543759c95006c6f2ed9f10e4b90",
+      "mtimeNs": 1793702742755317100
+    },
+    "world-draft/map-variations/Glowhaven Southern Plains Expansion/Road Boundary Reference.png": {
+      "size": 687193,
+      "sha256": "0fcaa64d6b993aa5fb1a3811973189a15c8d2734b27bcd7a03bea08902751214",
+      "mtimeNs": 1793702072462958300
+    },
+    "world-draft/map-variations/Glowhaven Southern Plains Expansion/Southern Boundary Context.png": {
+      "size": 5111906,
+      "sha256": "4343be4c56b488fcd732bcdb2b7aad763972d308cfc8fcfe0c20d313c0c45e98",
+      "mtimeNs": 1793701080638195000
+    },
+    "world-draft/map-variations/Glowhaven Southern Plains Expansion/Southern Outpaint Guide.png": {
+      "size": 1395594,
+      "sha256": "34b2f728f193ef1e0a5dfcac4f5cabeecc818a961eb6762d5cf817ff03be5d3f",
+      "mtimeNs": 1793701080383243900
     }
   }
 }

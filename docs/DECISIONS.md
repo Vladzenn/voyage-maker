@@ -2,7 +2,15 @@
 
 These notes carry context between desktop and web chats. They supplement the actual JSON and creation guides; newer explicit user instructions take precedence.
 
-## 3 November — eastern ocean extension (latest steering)
+## 3 November — southern plains extension (latest steering)
+
+The author requests one wide southern panel below the assembled 4344 × 2172 MasterMapTwo. The new land is height:width 1:3 (4344 × 1448), plus 160 pixels of top overlap, giving working extent 4344 × 1608. Photoshop starting position (0,2012), total intended canvas 4344 × 3620. Preserve the supplied boundary and use built-in image generation; native output dimensions must be reported honestly.
+
+Mostly plains with forest in the west. Coast appears ONLY in the small northeast corner: bend the existing shoreline east so the remainder of the right edge and whole bottom edge stay inland. Continue tracks/farms/treelines from the old bottom edge. Author's latest drawing routes the western river east past the village to this small coastal corner; remove the green-marked old southern river leg. Add a small bridge where the corrected main approach crosses north of village. The author explicitly allows drawing over the overlap and removing trees to connect the actual northern road; do not preserve disconnected roads as an invariant. Existing colosseum is the scale ruler; ordinary rural buildings are tiny, and sparse manor/keep/village anchors must not become city-sized or crowd the open countryside. No city/master reroll, large new mountain wall or ornamental ruin/stone-circle proliferation. No coordinate, location-record, hosted-map, grid or upload change is implied by this artwork delivery.
+
+Latest southern refinement: the river mouth should read as a small tidal estuary with widening shallow water, sandbars and marsh margins. Taper the through-road into a modest dirt/cart lane toward the south. The bridge deck follows the north–south road across the east–west river, with both road approaches visibly connected; no sideways bridge along the channel.
+
+## 3 November — eastern ocean extension
 
 The author requests ocean to the east, half the current map width plus a small seam overlap, at the same represented height/camera/scale. The supplied2896 ×2172 assembled/upscaled map owns the boundary. New panel covers1448 source-equivalent pixels of new ocean plus160 of repeated edge; Photoshop placement starts at(2736,0), total intended canvas4344 ×2172. No city/master remake.
 

@@ -5357,7 +5357,7 @@
       }
     ],
     "effects": [],
-    "script": "\nconst choiceRaw=check({type:'action-text'}),choiceText=(Array.isArray(choiceRaw)?choiceRaw.join(' '):String(choiceRaw||'')).toLowerCase();\nconst choiceOffers=Array.isArray(storage.ghGuildDisplayedOffers)?storage.ghGuildDisplayedOffers:[];\nconst choiceCommit=/\\b(accept|take|choose|agree|yes|okay|alright|deal)\\b/.test(choiceText)&&!/\\b(don't|do not|won't|will not|decline|reject|no thanks)\\b/.test(choiceText);\n\nif(choiceCommit&&choiceOffers.length){skip=true;}else{\n// One existing dispatcher offers native quests. No new acceptance/completion controllers.\nconst jobs=[[\"Guild: Rats in the Cellar\",1,\"\",false,1,\"combat\",1,\"Noriko Hanesawa\",\"Roseberry Inn\",30],[\"Guild: The Washbasin Is Occupied\",1,\"\",false,1,\"combat\",1,\"Daichi Kamado\",\"The Golden Ladle\",30],[\"Guild: The Watchdog Nobody Hired\",1,\"\",false,2,\"combat\",1,\"Kaito Minato\",\"Whitecrest Harbor\",35],[\"Guild: Something in the Flour\",1,\"\",false,2,\"combat\",1,\"Haruho Taneda\",\"Brookmeadow\",35],[\"Guild: Swept Off Your Feet\",1,\"\",false,2,\"combat\",1,\"Reiji Takatori\",\"Rune and Raven's\",35],[\"Guild: A Claw in the Channel\",1,\"\",false,3,\"combat\",1,\"Takumi Hatano\",\"Glowhaven Farmlands\",40],[\"Guild: A Very Unhelpful Night-Light\",1,\"\",false,3,\"combat\",1,\"Shizuru Sumida\",\"The Wandering Quill\",40],[\"Guild: Something Chewed the Joists\",1,\"\",false,7,\"combat\",7,\"Makoto Sashihara\",\"The Carpenter's Measure\",60],[\"Guild: Lanterns With a Temper\",1,\"\",false,7,\"combat\",7,\"Rinpei Komatsu\",\"Four Sages Bazaar\",65],[\"Guild: Warm Feet, Cold Delivery\",1,\"\",false,8,\"combat\",7,\"Kazuo Kurogaki\",\"Blackstone Smithy\",70],[\"Guild: The Spare Parts Bargain\",1,\"\",false,9,\"other\",7,\"Seiji Haguruma\",\"The Compassmaker\",75],[\"Guild: A Ripple Under the Ford\",1,\"\",false,10,\"combat\",7,\"Shiori Kawase\",\"Pinewater River\",80],[\"Guild: Prickles in the Orchard\",1,\"\",false,11,\"combat\",7,\"Takumi Hatano\",\"Glowhaven Farmlands\",90],[\"Guild: Do Not Meet Its Eyes\",2,\"\",false,15,\"combat\",15,\"Osamu Iseki\",\"Greywatch Keep\",110],[\"Guild: The Lantern That Would Not Land\",2,\"\",false,15,\"other\",15,\"Kaito Minato\",\"Pinewake Coast\",120],[\"Guild: Too Hot for the Furnace\",2,\"\",false,16,\"combat\",15,\"Kazuo Kurogaki\",\"Blackstone Smithy\",130],[\"Guild: Tracks That Disappear\",2,\"\",false,16,\"combat\",15,\"Shiori Kawase\",\"Pinewater Woods\",135],[\"Guild: The Gate That Guarded Nothing\",1,\"\",false,17,\"other\",15,\"Takumi Hatano\",\"Glowhaven Farmlands\",140],[\"Guild: Blue Sparks at Low Tide\",1,\"\",false,18,\"combat\",15,\"Kaito Minato\",\"Crescent Shores\",150],[\"Guild: A Parcel for the Bazaar\",1,\"\",false,1,\"other\",1,\"Adventurer's Guild\",\"Adventurer's Guild - Glowhaven Branch\",40],[\"Guild: Westwood Trail Notes\",1,\"\",false,1,\"other\",1,\"Adventurer's Guild\",\"Adventurer's Guild - Glowhaven Branch\",50],[\"Guild: Broken Halo Recovery\",2,\"\",false,20,\"other\",15,\"Adventurer's Guild\",\"Adventurer's Guild - Glowhaven Branch\",140],[\"Guild: Redvein Safety Survey\",3,\"\",false,25,\"other\",15,\"Adventurer's Guild\",\"Adventurer's Guild - Glowhaven Branch\",360],[\"Guild: Inverted Crown Instruments\",4,\"\",false,40,\"other\",15,\"Adventurer's Guild\",\"Adventurer's Guild - Glowhaven Branch\",900],[\"Salvage: What the Tide Left\",2,\"salvage_1\",false,10,\"other\",7,\"Komugi Hanabishi\",\"Pinewake Coast\",90],[\"The Road: An Empty Harness\",1,\"road_1\",false,5,\"other\",1,\"Komugi Hanabishi\",\"Caravan Outpost\",60],[\"Separate Pay: The Same Commission\",2,\"camp_1\",false,10,\"other\",7,\"Komugi Hanabishi\",\"Greywatch Keep\",80],[\"Guild: Boars at the Watercourse\",1,\"contract_cull\",true,1,\"combat\",1,\"Komugi Hanabishi\",\"Pinewater River\",55],[\"Guild: The Courier at the Wrong Turn\",1,\"contract_search\",false,3,\"other\",1,\"Komugi Hanabishi\",\"Pinewater Woods\",60],[\"Guild: A Cart Full of Glass\",1,\"contract_escort\",true,1,\"other\",1,\"Komugi Hanabishi\",\"Caravan Outpost\",50],[\"Guild: After the Harbor Squall\",1,\"contract_storm\",true,1,\"other\",1,\"Komugi Hanabishi\",\"Whitecrest Harbor\",45],[\"Guild: Bitter Roots, Sharp Teeth\",2,\"contract_reagent\",false,15,\"combat\",15,\"Komugi Hanabishi\",\"West Glowhaven Woods\",100],[\"Guild: A Door That Keeps Its Promise\",1,\"contract_repair\",false,1,\"other\",1,\"Komugi Hanabishi\",\"Rune and Raven's\",45],[\"Guild: Keep the Fair Moving\",1,\"contract_steward\",true,1,\"other\",1,\"Komugi Hanabishi\",\"Four Sages Bazaar\",40],[\"Guild: Beneath the Broken Dial\",2,\"contract_ruin\",false,25,\"other\",15,\"Komugi Hanabishi\",\"Broken Halo Ruins\",130],[\"Guild: Rope Before the River\",1,\"\",false,3,\"other\",1,\"Komugi Hanabishi\",\"Pinewater River\",24],[\"Guild: Honey Without a Sting\",1,\"\",false,5,\"other\",1,\"Komugi Hanabishi\",\"Glowhaven Farmlands\",32],[\"Guild: Teeth in the Spare Crate\",1,\"\",false,9,\"combat\",7,\"Komugi Hanabishi\",\"Caravan Outpost\",55],[\"Guild: Five Crates, Not Four\",1,\"\",false,7,\"other\",7,\"Komugi Hanabishi\",\"Whitecrest Harbor\",40],[\"Guild: Warmth Beneath the Crust\",2,\"\",false,22,\"other\",15,\"Komugi Hanabishi\",\"Goatstep Hamlet\",150],[\"Guild: The Lanternamber Latch\",2,\"\",false,28,\"other\",15,\"Komugi Hanabishi\",\"Lanternamber Caverns\",220],[\"Guild: Lines Across a Gap\",2,\"\",false,15,\"other\",15,\"Komugi Hanabishi\",\"Tetherroot Chain\",90],[\"Guild: Something in the Sifter\",2,\"\",false,28,\"other\",15,\"Komugi Hanabishi\",\"Glassreed Labyrinth\",180]].map(([title,rank,slug,repeatable,recommendedLevel,lane,band,client,place,fee])=>({title,rank,slug,repeatable,recommendedLevel,lane,band,client,place,fee}));\nconst n=Number(check({type:'game-tick'}))||0;\nlet rank=0;\nfor(const [i,b]of ['Bronze','Silver','Gold','Platinum'].entries())if(Object.values(check({type:'player-item',item:'Guild Badge: '+b})||{}).some(v=>v>0))rank=Math.max(rank,i+1);\nif(!rank){effects.push({type:'story',instruction:'Explain the actual licensure route and Bronze starting badge if the applicant asks about taking work. No badge, payment, key or examination pass is given merely for browsing.'});}\nelse{\n const levels=Object.values(check({type:'player-level'})||{}).filter(v=>typeof v==='number'&&Number.isFinite(v));\n const level=levels.length?Math.min(...levels):1;\n const text=String((check({type:'action-text'})||[]).join(' ')).toLocaleLowerCase();\n const qualified=jobs.filter(j=>{const s=check({type:'quest-status',questId:j.title});return rank>=j.rank&&(['hidden','planned','available','expired','abandoned','rejected'].includes(s)||(j.repeatable&&s==='completed'&&n-Number(storage['q20_'+j.slug+'_paid_tick']??n)>=20));});\n const named=qualified.find(j=>text.includes(j.title.toLocaleLowerCase())||text.includes(j.title.replace(/^Guild: /,'').toLocaleLowerCase()));\n const pool=qualified.filter(j=>j.recommendedLevel<=level+(level<10?2:5)&&(!j.band||j.band<=level));\n const band=level>=15?15:level>=7?7:1;\n const cursor=Math.max(0,Number(storage.q20_board_cursor)||0);\n const picked=named?[named]:[];\n if(!named){\n  for(const lane of ['combat','other']){\n   const candidates=pool.filter(j=>(j.lane||'other')===lane);\n   const current=candidates.filter(j=>(j.band||1)===band);\n   const choices=current.length?current:candidates;\n   if(choices.length)picked.push(choices[Math.floor(cursor/2)%choices.length]);\n  }\n }\n for(let i=0;i<pool.length&&picked.length<2&&!named;i++){const j=pool[(cursor+i)%pool.length];if(!picked.includes(j))picked.push(j);}\n storage.q20_board_cursor=cursor+2;\n storage.ghGuildDisplayedOffers=picked.map(j=>j.title);\n storage.ghGuildOfferRanks=Object.fromEntries(picked.map(j=>[j.title,j.rank]));\n for(const j of picked){\n  if(j.slug){storage['q20_offered_'+j.slug]=true;storage['q20_offer_tick_'+j.slug]=n;}\n  if(check({type:'quest-status',questId:j.title})!=='completed')effects.push({type:'quest-init',operator:'set',value:j.title});\n }\n effects.push({type:'story',instruction:picked.length?'Present only these eligible choices with their real short premises, scope and full posted rewards: '+picked.map(j=>j.title+' — '+j.client+'; '+j.place+'; '+j.fee+' marks (recommended level '+j.recommendedLevel+'+)').join('; ')+'. Offer a real choice and wait. A concluded recurring contract needs fresh terms and actual new work. If a specifically requested job exceeds this party’s experience, explain its actual danger before any acceptance; the request only opens the offer. Browsing does not accept a quest or grant money, credit, companions or portal permission. Stronger contracts do not raise the danger of unrelated streets or novice jobs.':'No fresh authored posting is selected now. Preserve accepted jobs and completed outcomes. If wanted, offer a couple of distinct suitable generated commissions using actual badge, travel permission and the least experienced human’s level; never substitute a high-level fight or reopen a resolved personal crisis.'});\n}\n\n}"
+    "script": "const ghxNames=[\"Kaito Minato\",\"Whitecrest Harbor\",\"Rune and Raven's\",\"Takumi Hatano\",\"Glowhaven Farmlands\",\"Four Sages Bazaar\",\"Kazuo Kurogaki\",\"Blackstone Smithy\",\"Shiori Kawase\",\"Pinewater River\",\"Greywatch Keep\",\"Pinewake Coast\",\"Pinewater Woods\",\"Adventurer's Guild\",\"Adventurer's Guild - Glowhaven Branch\",\"Komugi Hanabishi\",\"Caravan Outpost\",\"Daisaku Minobe\",\"Greenrush Estuary\",\"The Gilded Albatross\",\"Moonarch Isle\",\"Iris Mornay\",\"Splinterwake Wreck\"];\n\nconst choiceRaw=check({type:'action-text'}),choiceText=(Array.isArray(choiceRaw)?choiceRaw.join(' '):String(choiceRaw||'')).toLowerCase();\nconst choiceOffers=Array.isArray(storage.ghGuildDisplayedOffers)?storage.ghGuildDisplayedOffers:[];\nconst choiceCommit=/\\b(accept|take|choose|agree|yes|okay|alright|deal)\\b/.test(choiceText)&&!/\\b(don't|do not|won't|will not|decline|reject|no thanks)\\b/.test(choiceText);\n\nif(choiceCommit&&choiceOffers.length){skip=true;}else{\n// One existing dispatcher offers native quests. No new acceptance/completion controllers.\nconst jobs=[[\"Guild: Rats in the Cellar\",1,\"\",false,1,\"combat\",1,\"Noriko Hanesawa\",\"Roseberry Inn\",30],[\"Guild: The Washbasin Is Occupied\",1,\"\",false,1,\"combat\",1,\"Daichi Kamado\",\"The Golden Ladle\",30],[\"Guild: The Watchdog Nobody Hired\",1,\"\",false,2,\"combat\",1,0,1,35],[\"Guild: Something in the Flour\",1,\"\",false,2,\"combat\",1,\"Haruho Taneda\",\"Brookmeadow\",35],[\"Guild: Swept Off Your Feet\",1,\"\",false,2,\"combat\",1,\"Reiji Takatori\",2,35],[\"Guild: A Claw in the Channel\",1,\"\",false,3,\"combat\",1,3,4,40],[\"Guild: A Very Unhelpful Night-Light\",1,\"\",false,3,\"combat\",1,\"Shizuru Sumida\",\"The Wandering Quill\",40],[\"Guild: Something Chewed the Joists\",1,\"\",false,7,\"combat\",7,\"Makoto Sashihara\",\"The Carpenter's Measure\",60],[\"Guild: Lanterns With a Temper\",1,\"\",false,7,\"combat\",7,\"Rinpei Komatsu\",5,65],[\"Guild: Warm Feet, Cold Delivery\",1,\"\",false,8,\"combat\",7,6,7,70],[\"Guild: The Spare Parts Bargain\",1,\"\",false,9,\"other\",7,\"Seiji Haguruma\",\"The Compassmaker\",75],[\"Guild: A Ripple Under the Ford\",1,\"\",false,10,\"combat\",7,8,9,80],[\"Guild: Prickles in the Orchard\",1,\"\",false,11,\"combat\",7,3,4,90],[\"Guild: Do Not Meet Its Eyes\",2,\"\",false,15,\"combat\",15,\"Osamu Iseki\",10,110],[\"Guild: The Lantern That Would Not Land\",2,\"\",false,15,\"other\",15,0,11,120],[\"Guild: Too Hot for the Furnace\",2,\"\",false,16,\"combat\",15,6,7,130],[\"Guild: Tracks That Disappear\",2,\"\",false,16,\"combat\",15,8,12,135],[\"Guild: The Gate That Guarded Nothing\",1,\"\",false,17,\"other\",15,3,4,140],[\"Guild: Blue Sparks at Low Tide\",1,\"\",false,18,\"combat\",15,0,\"Crescent Shores\",150],[\"Guild: A Parcel for the Bazaar\",1,\"\",false,1,\"other\",1,13,14,40],[\"Guild: Westwood Trail Notes\",1,\"\",false,1,\"other\",1,13,14,50],[\"Guild: Broken Halo Recovery\",2,\"\",false,20,\"other\",15,13,14,140],[\"Guild: Redvein Safety Survey\",3,\"\",false,25,\"other\",15,13,14,360],[\"Guild: Inverted Crown Instruments\",4,\"\",false,40,\"other\",15,13,14,900],[\"Salvage: What the Tide Left\",2,\"salvage_1\",false,10,\"other\",7,15,11,90],[\"The Road: An Empty Harness\",1,\"road_1\",false,5,\"other\",1,15,16,60],[\"Separate Pay: The Same Commission\",2,\"camp_1\",false,10,\"other\",7,15,10,80],[\"Guild: Boars at the Watercourse\",1,\"contract_cull\",true,1,\"combat\",1,15,9,55],[\"Guild: The Courier at the Wrong Turn\",1,\"contract_search\",false,3,\"other\",1,15,12,60],[\"Guild: A Cart Full of Glass\",1,\"contract_escort\",true,1,\"other\",1,15,16,50],[\"Guild: After the Harbor Squall\",1,\"contract_storm\",true,1,\"other\",1,15,1,45],[\"Guild: Bitter Roots, Sharp Teeth\",2,\"contract_reagent\",false,15,\"combat\",15,15,\"West Glowhaven Woods\",100],[\"Guild: A Door That Keeps Its Promise\",1,\"contract_repair\",false,1,\"other\",1,15,2,45],[\"Guild: Keep the Fair Moving\",1,\"contract_steward\",true,1,\"other\",1,15,5,40],[\"Guild: Beneath the Broken Dial\",2,\"contract_ruin\",false,25,\"other\",15,15,\"Broken Halo Ruins\",130],[\"Guild: Rope Before the River\",1,\"\",false,3,\"other\",1,15,9,24],[\"Guild: Honey Without a Sting\",1,\"\",false,5,\"other\",1,15,4,32],[\"Guild: Teeth in the Spare Crate\",1,\"\",false,9,\"combat\",7,15,16,55],[\"Guild: Five Crates, Not Four\",1,\"\",false,7,\"other\",7,15,1,40],[\"Guild: Warmth Beneath the Crust\",2,\"\",false,22,\"other\",15,15,\"Goatstep Hamlet\",150],[\"Guild: The Lanternamber Latch\",2,\"\",false,28,\"other\",15,15,\"Lanternamber Caverns\",220],[\"Guild: Lines Across a Gap\",2,\"\",false,15,\"other\",15,15,\"Tetherroot Chain\",90],[\"Guild: Something in the Sifter\",2,\"\",false,28,\"other\",15,15,\"Glassreed Labyrinth\",180],[\"Guild: The Mill Has Teeth\",1,\"\",false,1,\"combat\",1,\"Shūhei Kusanagi\",\"Wrenhill Windmill\",35],[\"Guild: A Ram in the Road\",1,\"\",false,3,\"combat\",1,\"Rinako Matsuba\",\"Longgrass Crossroads\",40],[\"Guild: Knots in the Reedwalk\",1,\"\",false,4,\"other\",1,17,18,45],[\"Guild: Wings in the Stores\",1,\"\",false,7,\"combat\",7,\"Nanae Kogure\",19,70],[\"Guild: A Light beneath the Jetty\",1,\"\",false,8,\"other\",7,\"Saki Hinoura\",\"Beaconrest Lighthouse\",75],[\"Guild: Tools in the Bank\",1,\"\",false,9,\"other\",7,17,18,80],[\"Guild: A Rope with Opinions\",1,\"\",false,12,\"combat\",7,\"Mio Tatsunami\",19,105],[\"Guild: The Mark below the Arch\",2,\"\",false,15,\"other\",15,\"Mina Takanashi\",20,145],[\"Guild: A Hold Full of Knuckles\",2,\"\",false,20,\"combat\",15,21,22,230],[\"Guild: The Current in the Wall\",2,\"\",false,24,\"other\",15,21,20,280],[\"Guild: A Nest above the Catch\",2,\"\",false,27,\"combat\",15,\"Makiho Akitsu\",\"Gullwatch Reefs\",320],[\"Guild: Ghorvath at the Deepwater Edge\",3,\"\",false,50,\"combat\",15,\"Reina Kazehara\",22,1600]].map(r=>{for(const i of [7,8])if(typeof r[i]==='number')r[i]=ghxNames[r[i]];return r;}).map(([title,rank,slug,repeatable,recommendedLevel,lane,band,client,place,fee])=>({title,rank,slug,repeatable,recommendedLevel,lane,band,client,place,fee}));\nconst n=Number(check({type:'game-tick'}))||0;\nlet rank=0;\nfor(const [i,b]of ['Bronze','Silver','Gold','Platinum'].entries())if(Object.values(check({type:'player-item',item:'Guild Badge: '+b})||{}).some(v=>v>0))rank=Math.max(rank,i+1);\nif(!rank){effects.push({type:'story',instruction:'Explain the actual licensure route and Bronze starting badge if the applicant asks about taking work. No badge, payment, key or examination pass is given merely for browsing.'});}\nelse{\n const levels=Object.values(check({type:'player-level'})||{}).filter(v=>typeof v==='number'&&Number.isFinite(v));\n const level=levels.length?Math.min(...levels):1;\n const text=String((check({type:'action-text'})||[]).join(' ')).toLocaleLowerCase();\n const qualified=jobs.filter(j=>{const s=check({type:'quest-status',questId:j.title});return rank>=j.rank&&(['hidden','planned','available','expired','abandoned','rejected'].includes(s)||(j.repeatable&&s==='completed'&&n-Number(storage['q20_'+j.slug+'_paid_tick']??n)>=20));});\n const named=qualified.find(j=>text.includes(j.title.toLocaleLowerCase())||text.includes(j.title.replace(/^Guild: /,'').toLocaleLowerCase()));\n const pool=qualified.filter(j=>j.recommendedLevel<=level+(level<10?2:5)&&(!j.band||j.band<=level));\n const band=level>=15?15:level>=7?7:1;\n const cursor=Math.max(0,Number(storage.q20_board_cursor)||0);\n const picked=named?[named]:[];\n if(!named){\n  for(const lane of ['combat','other']){\n   const candidates=pool.filter(j=>(j.lane||'other')===lane);\n   const current=candidates.filter(j=>(j.band||1)===band);\n   const choices=current.length?current:candidates;\n   if(choices.length)picked.push(choices[Math.floor(cursor/2)%choices.length]);\n  }\n }\n for(let i=0;i<pool.length&&picked.length<2&&!named;i++){const j=pool[(cursor+i)%pool.length];if(!picked.includes(j))picked.push(j);}\n storage.q20_board_cursor=cursor+2;\n storage.ghGuildDisplayedOffers=picked.map(j=>j.title);\n storage.ghGuildOfferRanks=Object.fromEntries(picked.map(j=>[j.title,j.rank]));\n for(const j of picked){\n  if(j.slug){storage['q20_offered_'+j.slug]=true;storage['q20_offer_tick_'+j.slug]=n;}\n  if(check({type:'quest-status',questId:j.title})!=='completed')effects.push({type:'quest-init',operator:'set',value:j.title});\n }\n effects.push({type:'story',instruction:picked.length?'Offer only: '+picked.map(j=>j.title+' — '+j.client+'; '+j.place+'; '+j.fee+' marks (recommended level '+j.recommendedLevel+'+)').join('; ')+'. Give actual scope and wait for agreement. For deliberately requested harder work, explain its actual danger before agreement. Fresh terms and new work are required for a repeat. Browsing grants no acceptance, payment, credit, companion or portal permission. Other streets retain their own danger.':'No fitting fresh notice is selected. Preserve existing work and outcomes. If asked, propose a distinct suitable commission for the actual badge, travel permission and least experienced human; do not reopen a resolved crisis or substitute a high-level fight.'});\n}\n\n}"
   },
   "gh_spellcraft_foundation": {
     "name": "gh_spellcraft_foundation",
@@ -17228,6 +17228,135 @@
       {
         "type": "story",
         "instruction": "The approved traveler receives one reusable Glowhaven Portal Key, identifying the fixed passage to Evertree Base - Portal Room. Explain the route briefly and leave crossing to their choice. No second copy, forced travel, palace access or other outbound keys are granted."
+      }
+    ]
+  },
+  "ghx_local_commissions": {
+    "name": "ghx_local_commissions",
+    "recurring": true,
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "party-realm",
+        "operator": "equals",
+        "value": "Glowhaven"
+      },
+      {
+        "type": "party-location",
+        "operator": "regex",
+        "value": "^(?:Beaconrest\\ Lighthouse|Bluecoil\\ Rest|Greenrush\\ Estuary|Longgrass\\ Crossroads|Old\\ Southwatch|Pinewater\\ Woods|Seaward\\ Overlook|Starlark\\ Abbey|Stillback\\ Isle|Thistlebank\\ Alchemy\\ Cottage)$"
+      }
+    ],
+    "effects": [],
+    "script": "const jobs=[[\"A Place before Supper\",\"Tamae Shibano\",\"Starlark Abbey\",\"Starlark Abbey\"],[\"A Jar That Will Not Settle\",\"Yorina Tsugawa\",\"Thistlebank Alchemy Cottage\",\"Thistlebank Alchemy Cottage\"],[\"The Wrong Kind of Hide\",\"Uta Nekoyama\",\"Pinewater Woods\",\"Pinewater Woods\"],[\"The Bell That Wakes the Ward\",\"Eiji Kuramochi\",\"Starlark Abbey\",\"Starlark Abbey\"],[\"A Second Pair of Eyes\",\"Brina Flintmere\",\"Old Southwatch\",\"Longgrass Crossroads\"],[\"What the Shell Caught\",\"Mina Takanashi\",\"Stillback Isle\",\"Greenrush Estuary\"],[\"A Quiet View, Honestly\",\"Kōzō Hinoura\",\"Seaward Overlook\",\"Beaconrest Lighthouse\"],[\"The Bluecoil Watch\",\"Mina Takanashi\",\"Bluecoil Rest\",\"Greenrush Estuary\"]];\nconst place=check({type:'party-location'}),text=String(check({type:'action-text'})||'').toLowerCase();\nconst options=jobs.filter(r=>(r[2]===place||r[3]===place)&&check({type:'quest-status',questId:r[0]})==='hidden');\nconst named=options.find(r=>text.includes(r[0].toLowerCase()));\nlet found=false;\nfor(const [title,client,destination] of named?[named]:options){\n if(check({type:'action',query:'In this actual local scene, the player deliberately asks about '+title+' or asks '+client+' for work/helping with that specific local problem, or deliberately investigates its actual public notice. The real client or notice must actually be involved. A greeting, passing through, renting a room, requesting unrelated work, or discussing somebody else’s old completed job is false.'})!==true)continue;\n effects.push({type:'quest-init',operator:'set',value:title},{type:'story',instruction:'Offer '+title+' through '+client+' or its actual local notice. Give its public situation and agreed reward; destination '+destination+'. Wait for the player to accept or decline. This is no accepted job, payment, licence, recruitment or solved problem.'});\n found=true;break;\n}\nif(!found)skip=true;\n"
+  },
+  "ghx_kraken_roam": {
+    "name": "ghx_kraken_roam",
+    "conditions": [
+      {
+        "type": "game-tick",
+        "operator": "greaterThan",
+        "value": 0
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "phase": "planning",
+    "script": "const npc='Ghorvath',tick=Number(check({type:'game-tick'}))||0,h=check({type:'npc-health',npc});if((typeof h==='number'&&h<=0)||check({type:'quest-status',questId:'Guild: Ghorvath at the Deepwater Edge'})==='completed')storage.ghxKrakenDefeated=true;if(storage.ghxKrakenDefeated||check({type:'npc-in-scene',npc})===true||check({type:'npc-in-combat',npc})===true||check({type:'npc-in-party',npc})===true){skip=true;}else{const slot=Math.floor(tick/24),route=[['Splinterwake Wreck','Splinterwake Wreck - Deepwater Edge'],['Moonarch Isle','Moonarch Isle - Offshore Drop']];if(storage.ghxKrakenSlot===slot){skip=true;}else{const [location,area]=route[slot%route.length];effects.push({type:'npc-placement',npc,operation:'moveTo',location,area});storage.ghxKrakenSlot=slot;}}"
+  },
+  "ghx_serpent_wakes": {
+    "name": "ghx_serpent_wakes",
+    "recurring": true,
+    "phase": "state",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Bluecoil Rest"
+      },
+      {
+        "type": "npc-in-scene",
+        "npc": "Nerathyl",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "npc-health",
+        "npc": "Nerathyl",
+        "operator": "greaterThan",
+        "value": 0
+      },
+      {
+        "type": "read-boolean",
+        "key": "ghxSerpentAwake",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "story",
+        "query": "In the latest actual scene at Bluecoil Rest, Nerathyl has genuinely woken or is already awake: its eyes open and it raises or actively moves its head, warns, feeds or fights. A plan to wake it, a hypothetical warning, a dream, distant observation or a description of its usual habits does not qualify."
+      }
+    ],
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Nerathyl",
+        "operator": "set",
+        "value": "Awake"
+      },
+      {
+        "type": "write-boolean",
+        "key": "ghxSerpentAwake",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  },
+  "ghx_serpent_sleeps": {
+    "name": "ghx_serpent_sleeps",
+    "recurring": true,
+    "phase": "state",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Bluecoil Rest"
+      },
+      {
+        "type": "npc-in-scene",
+        "npc": "Nerathyl",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "npc-health",
+        "npc": "Nerathyl",
+        "operator": "greaterThan",
+        "value": 0
+      },
+      {
+        "type": "read-boolean",
+        "key": "ghxSerpentAwake",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "story",
+        "query": "In the latest actual scene at Bluecoil Rest, the living Nerathyl has genuinely settled back into sleep, eyes closed and head resting. Merely calming it, leaving, arriving again, remembering its earlier sleep, knocking it unconscious or killing it does not qualify."
+      }
+    ],
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Nerathyl",
+        "operator": "set",
+        "value": "Asleep"
+      },
+      {
+        "type": "write-boolean",
+        "key": "ghxSerpentAwake",
+        "operator": "set",
+        "value": false
       }
     ]
   }

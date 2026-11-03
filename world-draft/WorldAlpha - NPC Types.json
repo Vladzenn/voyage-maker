@@ -1520,5 +1520,117 @@
     "resistances": [],
     "immunities": [],
     "description": "Reserved anatomical classification for the unique authored Hagire: a towering woman-shaped forest yokai with two long arms, two long legs, a ragged split mouth and joints that can unseat and reset. Do not spawn copies or use this as a renewable random encounter. Use Hagire’s actual record, whereabouts, hostility and resolved condition."
+  },
+  "Tideglass Shrimp": {
+    "name": "Tideglass Shrimp",
+    "description": "Thumb-sized transparent shrimp whose blue organs flash in bright rock pools. They graze on algae and retreat into cracks; a panicked group can spoil delicate samples without becoming a lethal swarm.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Brinecap Slime": {
+    "name": "Brinecap Slime",
+    "description": "A small low dome of salty translucent jelly carrying a cap of trapped foam. It follows mineral runoff, clings to nets and stings bare skin; fresh water and a suitable container can redirect it.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Inkpot Cuttlefish": {
+    "name": "Inkpot Cuttlefish",
+    "description": "A clever, hand-sized marine animal with a dark mantle and two broad silver eyes. It imitates the texture beneath it and squirts ink when cornered. It is an animal, not a secret speaking scholar.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Hookbeak Gull": {
+    "name": "Hookbeak Gull",
+    "description": "A heavy white-and-gray gull with a curved rust-colored bill. It steals fish and glossy objects from open baskets and defends a nearby nest. Feeding, covering cargo or leaving its ledge can avoid a fight.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Sailcloth Moth": {
+    "name": "Sailcloth Moth",
+    "description": "A cream-colored coastal moth with wing markings resembling tiny knots. Its larvae eat damp canvas and grain sacks; an adult scatters irritating powder. Finding the source matters more than swatting one moth.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Kelpclaw Crab": {
+    "name": "Kelpclaw Crab",
+    "description": "A squat green crab whose flat foreclaws collect strips of living kelp. It braces in the surf and snaps at hands reaching into its refuge. A stick, bait and sensible footwear are useful.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Bellfin Shoal": {
+    "name": "Bellfin Shoal",
+    "description": "Small blue fish with hollow translucent fins that ring together when startled. A school can confuse shouted boat signals, but the fish ordinarily flee. Light and sound lure them in different directions.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Shoalglass Ray": {
+    "name": "Shoalglass Ray",
+    "description": "A broad pale ray with translucent wing edges and a stony central spine. It rests beneath clear sand and discharges a short magical jolt when stepped on. A visible sand outline gives careful waders warning.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Mooring Mimic": {
+    "name": "Mooring Mimic",
+    "description": "A small mimic resembling a damp coil of rope with an attached wooden float. Its sticky underside grabs careless hands; tugging hard tightens it. It cannot imitate a whole vessel or read a person’s thoughts.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Barnacle Brute": {
+    "name": "Barnacle Brute",
+    "description": "A barrel-sized crustacean with two mismatched pincers and a back armored in pale barnacles. It scavenges flooded holds and pins loose timber across entrances. Moving its food can draw it away from a narrow passage.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Undertow Eel": {
+    "name": "Undertow Eel",
+    "description": "A long dark-green eel with pale jointed jaw plates and a thin violet line along its flanks. It makes short pulling currents around wreck crevices. The current weakens away from its refuge; it cannot drag someone across the sea.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Salt-Crest Wyvern": {
+    "name": "Salt-Crest Wyvern",
+    "description": "A lean two-legged, two-winged coastal predator with salt-white head spines and a hooked tail. It circles exposed nesting rocks and takes fish or unattended catches. It is a wyvern, not a sacred speaking dragon.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Reedlace Sprite": {
+    "name": "Reedlace Sprite",
+    "description": "A finger-length wingless plant creature with translucent seed-pod limbs and a fringe of reed leaves. It knots loose fishing line around warm stakes to build a shelter. Its mischievous behavior has a practical animal-like pattern rather than malicious omniscience.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Tangletooth Otter": {
+    "name": "Tangletooth Otter",
+    "description": "A sleek brown otter with a pale throat and small branching ivory teeth. It collects tools that rattle and hides them in a dry bank. It can bite when cornered but prefers a chase to a fight.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Burdock Lurker": {
+    "name": "Burdock Lurker",
+    "description": "A low, six-legged woodland browser hidden beneath a coat of hooked seed burrs. It drags sacks and low cloth into its nest while foraging. Its blunt face and slow defensive roll distinguish it from a vicious wolf.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Chalkback Ram": {
+    "name": "Chalkback Ram",
+    "description": "A sturdy grassland sheep with pale stony plates along its spine and broad curling horns. A territorial adult knocks against carts and gates during the rut. Its lowered head and stamping hoof signal a charge before contact.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
   }
 }

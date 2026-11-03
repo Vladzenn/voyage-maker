@@ -3510,6 +3510,151 @@
       "size": 3520624,
       "sha256": "dfc47ae56d918d6385e9438544718e2389dd318e036f1c975239854eac6d8f1a",
       "mtimeNs": 1793704268577914900
+    },
+    "world-draft/npc portraits/Glowhaven Expansion/Brina Flintmere.png": {
+      "size": 3288920,
+      "sha256": "284104699dc2a337469c761fbf1384f345f7a8d916e2a807a97289a2605c2c97",
+      "mtimeNs": 1793722853531962100
+    },
+    "world-draft/npc portraits/Glowhaven Expansion/Chizuru Hoshikawa.png": {
+      "size": 2995234,
+      "sha256": "51c51e6c62fca74b360e649df2a3f9543a8972d896481237c4ad328a052e1c97",
+      "mtimeNs": 1793718491698757500
+    },
+    "world-draft/npc portraits/Glowhaven Expansion/Daigo Umetsu.png": {
+      "size": 2928504,
+      "sha256": "f57acf31554f77126bc02cde1308c79dad3ba1156b301eb7d4b9fdc118678fa6",
+      "mtimeNs": 1793717687484448100
+    },
+    "world-draft/npc portraits/Glowhaven Expansion/Daisaku Minobe.png": {
+      "size": 3147327,
+      "sha256": "1ce81324554efa3fe92de7f4770a2f7b270eef1e7728d57f84963b4f3e7d0c06",
+      "mtimeNs": 1793722054364206800
+    },
+    "world-draft/npc portraits/Glowhaven Expansion/Eiji Kuramochi.png": {
+      "size": 3244040,
+      "sha256": "daada504b239c3602a0dca9fbfc7e98b30216681e8afe9009924ddb4855e5738",
+      "mtimeNs": 1793719107852318400
+    },
+    "world-draft/npc portraits/Glowhaven Expansion/Fuyuka Kusanagi.png": {
+      "size": 2949741,
+      "sha256": "264784b04294f8028bb39c969c92abb2586b25b36d06bc17aeb433c0476ce3b0",
+      "mtimeNs": 1793719943680577600
+    },
+    "world-draft/npc portraits/Glowhaven Expansion/Ghorvath.png": {
+      "size": 3214651,
+      "sha256": "a6d1d82a8f03e226eef7f8dee39f3890be5c51472ddba78b8b43be17ae2d5b10",
+      "mtimeNs": 1793722838045977500
+    },
+    "world-draft/npc portraits/Glowhaven Expansion/Hirotaka Fushimi.png": {
+      "size": 2946156,
+      "sha256": "99218881c228ccd0d2d30ee4d21f79852d2178e15f5fda6691c8ba9028020cb9",
+      "mtimeNs": 1793721979409805700
+    },
+    "world-draft/npc portraits/Glowhaven Expansion/Iris Mornay.png": {
+      "size": 2992283,
+      "sha256": "c851e70a949ce482b198bce3514bad729ae688462c4e9b6e37b06566e1998dcc",
+      "mtimeNs": 1793718416680640200
+    },
+    "world-draft/npc portraits/Glowhaven Expansion/Kanna Enozaki.png": {
+      "size": 2850466,
+      "sha256": "3d8b5e957482b61b70f1755863369012c65d78cbac2c780d9d56e0cce508567a",
+      "mtimeNs": 1793722045413692700
+    },
+    "world-draft/npc portraits/Glowhaven Expansion/Kenta Matsuba.png": {
+      "size": 3227901,
+      "sha256": "c17cc43129ff965133207fef421b1ddc6ec44441f25d9914b15926c0de3b3eb8",
+      "mtimeNs": 1793721006458297500
+    },
+    "world-draft/npc portraits/Glowhaven Expansion/Kōzō Hinoura.png": {
+      "size": 3125396,
+      "sha256": "1e82b50fc7d1b845489177e9a321b3aee83ad89946063bc128346596bce9884e",
+      "mtimeNs": 1793719859235308800
+    },
+    "world-draft/npc portraits/Glowhaven Expansion/Lucette Bellanger.png": {
+      "size": 3086990,
+      "sha256": "684915b56f4d1d8b336acc97bd76fdc1a63b0e7f29f45be8989d7c6cc6f538d2",
+      "mtimeNs": 1793719251272996200
+    },
+    "world-draft/npc portraits/Glowhaven Expansion/Makiho Akitsu.png": {
+      "size": 2896222,
+      "sha256": "e570c475e94c5152baf171e1936ade9f8d8b83832e87564da6843e8ae29a118b",
+      "mtimeNs": 1793721096693092000
+    },
+    "world-draft/npc portraits/Glowhaven Expansion/Mauruun.png": {
+      "size": 3222231,
+      "sha256": "a9ffc69d8bc2a8651deb3873049f5e4def691c2254cfef58cf2ebcb23ecb90b0",
+      "mtimeNs": 1793722759574762400
+    },
+    "world-draft/npc portraits/Glowhaven Expansion/Mina Takanashi.png": {
+      "size": 3195002,
+      "sha256": "d1d4385d949ed91b9f83a1dad209212ba2d9f3f23567a9c71a355295ac4ffe10",
+      "mtimeNs": 1793721897731136800
+    },
+    "world-draft/npc portraits/Glowhaven Expansion/Mio Tatsunami.png": {
+      "size": 2948485,
+      "sha256": "2ed0dcd07bc91ddcd52e384ec55fc2d6ef5a0fc843ec6e8a052561846d2cbf20",
+      "mtimeNs": 1793717611587472500
+    },
+    "world-draft/npc portraits/Glowhaven Expansion/Nanae Kogure.png": {
+      "size": 3002637,
+      "sha256": "b99db9ac96c4286ddb0eeac52ed1573431d1a3143b74b364c943e8d98db5be9b",
+      "mtimeNs": 1793718501303976600
+    },
+    "world-draft/npc portraits/Glowhaven Expansion/Nerathyl.png": {
+      "size": 3083049,
+      "sha256": "61ed9d6f601627688378f90a76ba24877b3f4386ec6871ba8c8e1093582157dc",
+      "mtimeNs": 1793722716935397100
+    },
+    "world-draft/npc portraits/Glowhaven Expansion/Reina Kazehara.png": {
+      "size": 3142282,
+      "sha256": "b87db040ea5fcc71c330161c4a081bfe7b7bbd16598313eb65479a428b7f52c1",
+      "mtimeNs": 1793717692190159300
+    },
+    "world-draft/npc portraits/Glowhaven Expansion/Rinako Matsuba.png": {
+      "size": 3268747,
+      "sha256": "a51f29efa8a8ae85f7fff47f83cfc4208a3a80c0ea2b1b8610bd7d35071ed066",
+      "mtimeNs": 1793720948734600300
+    },
+    "world-draft/npc portraits/Glowhaven Expansion/Saki Hinoura.png": {
+      "size": 3031569,
+      "sha256": "b795f970a3c959886c271afe1482b21a38383fb59b16118384ac43a59c664b6b",
+      "mtimeNs": 1793719787532854300
+    },
+    "world-draft/npc portraits/Glowhaven Expansion/Shūhei Kusanagi.png": {
+      "size": 3127214,
+      "sha256": "330d5fb0b6256d59c353d7cb4965f361722ebd9f3074f07ee401ed650c50e809",
+      "mtimeNs": 1793719941706059100
+    },
+    "world-draft/npc portraits/Glowhaven Expansion/Sōji Hamada.png": {
+      "size": 2939315,
+      "sha256": "8c6a56e2d652e5264b1d3f5c25960af0545aa307792be0e79cd6f490528d22dd",
+      "mtimeNs": 1793718332833734800
+    },
+    "world-draft/npc portraits/Glowhaven Expansion/Tamae Shibano.png": {
+      "size": 3069490,
+      "sha256": "4894f94d68f05904536bc881624a097286fd7c7a859ede2a0863f49bd1485200",
+      "mtimeNs": 1793719251073530200
+    },
+    "world-draft/npc portraits/Glowhaven Expansion/Uta Nekoyama.png": {
+      "size": 3108403,
+      "sha256": "51edb4b5bfd5fd286c230e67ce74ac0b5542f4486e2acd79acd98fa4c29a7f65",
+      "mtimeNs": 1793721086235820700
+    },
+    "world-draft/npc portraits/Glowhaven Expansion/Yorina Tsugawa.png": {
+      "size": 2928155,
+      "sha256": "ac4ae4960a3d7030737067127554e6498606af72bf648174d82283bb5abce041",
+      "mtimeNs": 1793719179323550500
+    },
+    "world-draft/npc portraits/Glowhaven Expansion/Yūsei Hatanaka.png": {
+      "size": 2984148,
+      "sha256": "c73bff0a465ac725fa1e29b9c7794b06a998a79d8b5c3a416fc523f1d72baba1",
+      "mtimeNs": 1793722674670070500
+    },
+    "world-draft/npc portraits/Glowhaven Expansion/States/Nerathyl - Awake.png": {
+      "size": 2912083,
+      "sha256": "6a30221f089167e10a3f322880f485a995cbdff2e197309dbc34afa79258fd89",
+      "mtimeNs": 1793724204947914600
     }
   }
 }

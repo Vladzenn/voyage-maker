@@ -3619,8 +3619,8 @@
   },
   "Outfit — Academy student": {
     "name": "Outfit — Academy student",
-    "description": "A practical student uniform in the selected academy’s colors.",
-    "traitNarrativeEffects": "This is visual clothing styling, not enrollment, employment, armor, equipment or an inventory grant. If no academy is selected, use ordinary clothes instead of inventing an academy affiliation. Use actual held weapons and tools only. A practical student uniform in the selected academy’s colors. Cosmetic only: no skill, attribute, resource, item, ability, affinity, relationship or status is granted.",
+    "description": "A practical student uniform with your academy’s colors and embroidered creature crest.",
+    "traitNarrativeEffects": "A practical student uniform with your academy’s colors and embroidered creature crest. Resolve the academy from the selected academy start or established affiliation and write its full name, color and emblem into the final Appearance brief: Phoenix Wing: crimson red, a phoenix bird with spread wings emblem; Hydra Head: violet purple, a many-headed hydra emblem; Gryffin Tail: cyan blue, a winged gryffin emblem; Dragon Hoard: yellow and gold, a dragon emblem. If no school is identified, use ordinary scholarly clothes. A pictorial embroidered crest is permitted without lettering. Clothing alone grants no enrollment, employment, equipment or bonuses.",
     "attributes": [],
     "skills": [],
     "resources": [],
@@ -3632,8 +3632,8 @@
   },
   "Outfit — Academy faculty": {
     "name": "Outfit — Academy faculty",
-    "description": "An adult instructor’s coat or robes in the employing academy’s colors.",
-    "traitNarrativeEffects": "This is visual clothing styling, not enrollment, employment, armor, equipment or an inventory grant. If no academy is selected, use ordinary clothes instead of inventing an academy affiliation. Use actual held weapons and tools only. An adult instructor’s coat or robes in the employing academy’s colors. Cosmetic only: no skill, attribute, resource, item, ability, affinity, relationship or status is granted.",
+    "description": "An instructor’s tailored coat or robes with your academy’s colors and embroidered creature crest.",
+    "traitNarrativeEffects": "An instructor’s tailored coat or robes with your academy’s colors and embroidered creature crest. Resolve the academy from the selected academy start or established affiliation and write its full name, color and emblem into the final Appearance brief: Phoenix Wing: crimson red, a phoenix bird with spread wings emblem; Hydra Head: violet purple, a many-headed hydra emblem; Gryffin Tail: cyan blue, a winged gryffin emblem; Dragon Hoard: yellow and gold, a dragon emblem. If no school is identified, use ordinary scholarly clothes. A pictorial embroidered crest is permitted without lettering. Clothing alone grants no enrollment, employment, equipment or bonuses.",
     "attributes": [],
     "skills": [],
     "resources": [],
@@ -7029,10 +7029,10 @@
     "excludedBy": [],
     "requirements": []
   },
-  "Portrait Style — Crisp fantasy anime": {
-    "name": "Portrait Style — Crisp fantasy anime",
-    "description": "Flashy polished 2D fantasy-anime key visual with crisp varied ink lines, expressive eyes, bold cel-shadow shapes and vibrant controlled color.",
-    "traitNarrativeEffects": "Flashy polished 2D fantasy-anime key visual with crisp varied ink lines, expressive eyes, bold cel-shadow shapes and vibrant controlled color. Image direction only. No 3D rendering, photorealistic skin or semi-realistic face. No new powers, status or possessions.",
+  "Portrait Style — Fantasy RPG illustration": {
+    "name": "Portrait Style — Fantasy RPG illustration",
+    "description": "A leading-character fantasy RPG illustration: fine anime linework, softly layered painted shading, detailed clothing and materials, expressive eyes and luminous light.",
+    "traitNarrativeEffects": "A leading-character fantasy RPG illustration: fine anime linework, softly layered painted shading, detailed clothing and materials, expressive eyes and luminous light. Image direction only; preserve the actual identity, species, clothing and equipment. No powers, status or possessions are granted.",
     "attributes": [],
     "skills": [],
     "resources": [],
@@ -7044,8 +7044,8 @@
   },
   "Portrait Style — Dramatic gacha illustration": {
     "name": "Portrait Style — Dramatic gacha illustration",
-    "description": "A lavish drawn anime key visual with flowing costume accents, selective magical motifs and dramatic graphic lighting; crisp facial lines and cel shading remain clear.",
-    "traitNarrativeEffects": "A lavish drawn anime key visual with flowing costume accents, selective magical motifs and dramatic graphic lighting; crisp facial lines and cel shading remain clear. Image direction only. No 3D rendering, photorealistic skin or semi-realistic face. No new powers, status or possessions.",
+    "description": "A lavish anime character key visual with flowing costume, dimensional painted shading, dramatic light and vivid supported magical motifs. Preserve a clear face and an individual silhouette.",
+    "traitNarrativeEffects": "A lavish anime character key visual with flowing costume, dimensional painted shading, dramatic light and vivid supported magical motifs. Preserve a clear face and an individual silhouette. Image direction only; preserve the actual identity, species, clothing and equipment. No powers, status or possessions are granted.",
     "attributes": [],
     "skills": [],
     "resources": [],
@@ -7083,8 +7083,8 @@
   },
   "Portrait Style — Elegant linework": {
     "name": "Portrait Style — Elegant linework",
-    "description": "Refined 2D anime illustration with fine controlled ink, elegant costume detail, restrained cel shading and a deliberate accent palette.",
-    "traitNarrativeEffects": "Refined 2D anime illustration with fine controlled ink, elegant costume detail, restrained cel shading and a deliberate accent palette. Image direction only. No 3D rendering, photorealistic skin or semi-realistic face. No new powers, status or possessions.",
+    "description": "Fine, graceful anime drawing with intricate costume detail, delicate light transitions and softly painted materials. An elegant individual portrait with a clear face and purposeful gesture.",
+    "traitNarrativeEffects": "Fine, graceful anime drawing with intricate costume detail, delicate light transitions and softly painted materials. An elegant individual portrait with a clear face and purposeful gesture. Image direction only; preserve the actual identity, species, clothing and equipment. No powers, status or possessions are granted.",
     "attributes": [],
     "skills": [],
     "resources": [],
@@ -7109,8 +7109,8 @@
   },
   "Portrait Style — Watercolor accents": {
     "name": "Portrait Style — Watercolor accents",
-    "description": "Crisp 2D anime character drawing with controlled cel shading, watercolor washes confined mainly to the background and soft color accents.",
-    "traitNarrativeEffects": "Crisp 2D anime character drawing with controlled cel shading, watercolor washes confined mainly to the background and soft color accents. Image direction only. No 3D rendering, photorealistic skin or semi-realistic face. No new powers, status or possessions.",
+    "description": "A carefully drawn anime character with soft watercolor color transitions, delicate edges and atmospheric washes. Keep the face and costume readable while allowing the medium to shape the illustration.",
+    "traitNarrativeEffects": "A carefully drawn anime character with soft watercolor color transitions, delicate edges and atmospheric washes. Keep the face and costume readable while allowing the medium to shape the illustration. Image direction only; preserve the actual identity, species, clothing and equipment. No powers, status or possessions are granted.",
     "attributes": [],
     "skills": [],
     "resources": [],
@@ -8095,8 +8095,8 @@
   },
   "Physical Foundations": {
     "name": "Physical Foundations",
-    "description": "Your foundation comes from regular physical practice: carrying awkward loads, keeping your footing, controlling a fall and repeating movements until they become dependable. Strength and coordination develop together, whether you plan to fight, travel, work with your hands or support later magical training. Start with +1 Force, +1 Finesse, +1 Force Combat and +1 Finesse Combat.",
-    "traitNarrativeEffects": "Your foundation comes from regular physical practice: carrying awkward loads, keeping your footing, controlling a fall and repeating movements until they become dependable. Strength and coordination develop together, whether you plan to fight, travel, work with your hands or support later magical training. Start with +1 Force, +1 Finesse, +1 Force Combat and +1 Finesse Combat.",
+    "description": "Your foundation comes from regular physical practice: carrying awkward loads, keeping your footing, controlling a fall and repeating movements until they become dependable. Strength and coordination develop together, whether you plan to fight, travel, work with your hands or support later magical training. Start with +1 Force, +1 Finesse, +1 Force Combat, +1 Finesse Combat and +1 Guarded Combat.",
+    "traitNarrativeEffects": "Your foundation comes from regular physical practice: carrying awkward loads, keeping your footing, controlling a fall and repeating movements until they become dependable. Strength and coordination develop together, whether you plan to fight, travel, work with your hands or support later magical training. Start with +1 Force, +1 Finesse, +1 Force Combat, +1 Finesse Combat and +1 Guarded Combat.",
     "attributes": [
       {
         "attribute": "force",
@@ -8114,6 +8114,10 @@
       },
       {
         "skill": "Finesse Combat",
+        "modifier": 1
+      },
+      {
+        "skill": "Guarded Combat",
         "modifier": 1
       }
     ],
@@ -13795,6 +13799,76 @@
         "modifier": 1
       }
     ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Self-Taught Spell Experimenter": {
+    "name": "Self-Taught Spell Experimenter",
+    "description": "Before formal instruction, you spent spare evenings taking simple spells apart, changing one detail and finding out why the result misbehaved. You learned to keep experiments small and notice which change mattered. Start with +1 Spellcraft.",
+    "traitNarrativeEffects": "You have experience with small personal spell experiments and the patience to test one change at a time. This is practical familiarity, not an academic qualification or a ready-made spell.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "spellcraft",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Outfit — Phoenix Wing uniform": {
+    "name": "Outfit — Phoenix Wing uniform",
+    "description": "Phoenix Wing Academy’s crimson red uniform with an embroidered a phoenix bird with spread wings crest; choose an individual cut and accessories.",
+    "traitNarrativeEffects": "In the final portrait brief, explicitly describe Phoenix Wing Academy clothing: substantial crimson red cloth panels and one embroidered pictorial a phoenix bird with spread wings crest on breast, collar or shoulder. Use a student cut, or an instructor’s coat/robes if the actual character is faculty. No lettering. Preserve the person and selected accessories. This is a cosmetic outfit, not membership, employment, inventory or a mechanical bonus.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Outfit — Hydra Head uniform": {
+    "name": "Outfit — Hydra Head uniform",
+    "description": "Hydra Head Academy’s violet purple uniform with an embroidered a many-headed hydra crest; choose an individual cut and accessories.",
+    "traitNarrativeEffects": "In the final portrait brief, explicitly describe Hydra Head Academy clothing: substantial violet purple cloth panels and one embroidered pictorial a many-headed hydra crest on breast, collar or shoulder. Use a student cut, or an instructor’s coat/robes if the actual character is faculty. No lettering. Preserve the person and selected accessories. This is a cosmetic outfit, not membership, employment, inventory or a mechanical bonus.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Outfit — Gryffin Tail uniform": {
+    "name": "Outfit — Gryffin Tail uniform",
+    "description": "Gryffin Tail Academy’s cyan blue uniform with an embroidered a winged gryffin crest; choose an individual cut and accessories.",
+    "traitNarrativeEffects": "In the final portrait brief, explicitly describe Gryffin Tail Academy clothing: substantial cyan blue cloth panels and one embroidered pictorial a winged gryffin crest on breast, collar or shoulder. Use a student cut, or an instructor’s coat/robes if the actual character is faculty. No lettering. Preserve the person and selected accessories. This is a cosmetic outfit, not membership, employment, inventory or a mechanical bonus.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Outfit — Dragon Hoard uniform": {
+    "name": "Outfit — Dragon Hoard uniform",
+    "description": "Dragon Hoard Academy’s yellow and gold uniform with an embroidered a dragon crest; choose an individual cut and accessories.",
+    "traitNarrativeEffects": "In the final portrait brief, explicitly describe Dragon Hoard Academy clothing: substantial yellow and gold cloth panels and one embroidered pictorial a dragon crest on breast, collar or shoulder. Use a student cut, or an instructor’s coat/robes if the actual character is faculty. No lettering. Preserve the person and selected accessories. This is a cosmetic outfit, not membership, employment, inventory or a mechanical bonus.",
+    "attributes": [],
+    "skills": [],
     "resources": [],
     "startingItems": [],
     "abilities": [],

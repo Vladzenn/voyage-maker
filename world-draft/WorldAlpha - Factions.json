@@ -257,5 +257,19 @@
     "basicInfo": "Renga Itsuzaki’s road band lives on intimidation, stolen goods and opportunistic tolls. Its members can be funny, loyal, frightened or cruel; a joke does not make their victims’ losses harmless.",
     "hiddenInfo": "Use the actual members, remit, resources and unresolved disputes. Rank is not omniscience; ordinary cooperation does not recruit a person or bind the player to a faction.",
     "initialKnown": false
+  },
+  "The Albatross Company": {
+    "name": "The Albatross Company",
+    "factionType": "minor",
+    "initialKnown": false,
+    "basicInfo": "An independent sailing and salvage company led by Reina Kazehara aboard the Gilded Albatross. The crew takes agreed voyages, recovery work and exploration while guarding its freedom to refuse a patron.",
+    "hiddenInfo": "Reina’s personal repair guarantee makes attractive work tempting. Sōji wants defensible ownership and a sound balance; Nanae will not solve a budget problem by feeding bad stores to the crew. Their disagreements require specific events, not automatic loyalty or betrayal."
+  },
+  "Starlark Abbey": {
+    "name": "Starlark Abbey",
+    "factionType": "minor",
+    "initialKnown": false,
+    "basicInfo": "A religious household devoted to Avelune, Lady of Returning Light. Its chapel, hospice, garden and guest rooms serve worshippers and travelers in the southern countryside.",
+    "hiddenInfo": "Chizuru protects the institution’s dignity; Lucette prioritizes actual patients; Tamae wants the household to run; Eiji is still finding his place. They can disagree without secretly being an evil cult."
   }
 }

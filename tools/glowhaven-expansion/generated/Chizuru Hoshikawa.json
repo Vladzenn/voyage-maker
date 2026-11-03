@@ -1,0 +1,10 @@
+{
+  "name": "Chizuru Hoshikawa",
+  "file": "world-draft/npc portraits/Glowhaven Expansion/Chizuru Hoshikawa.png",
+  "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-25d98e8a-2d43-4d67-8174-3f58b56cc14d.png",
+  "sha256": "51c51e6c62fca74b360e649df2a3f9543a8972d896481237c4ad328a052e1c97",
+  "width": 1024,
+  "height": 1536,
+  "method": "built-in image_gen, one pass",
+  "outputHint": "Generated images are saved to C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401 as C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-25d98e8a-2d43-4d67-8174-3f58b56cc14d.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

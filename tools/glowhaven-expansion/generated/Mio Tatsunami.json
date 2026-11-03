@@ -1,0 +1,10 @@
+{
+  "name": "Mio Tatsunami",
+  "file": "world-draft/npc portraits/Glowhaven Expansion/Mio Tatsunami.png",
+  "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-c408cd00-022c-4ff4-bd75-5b283fee7bad.png",
+  "sha256": "2ed0dcd07bc91ddcd52e384ec55fc2d6ef5a0fc843ec6e8a052561846d2cbf20",
+  "width": 1024,
+  "height": 1536,
+  "method": "built-in image_gen, one pass",
+  "outputHint": "Generated images are saved to C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401 as C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-c408cd00-022c-4ff4-bd75-5b283fee7bad.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

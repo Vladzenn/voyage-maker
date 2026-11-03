@@ -1,0 +1,4539 @@
+{
+  "baseFile": "output\\glowhaven-expansion-2026-11-03\\Studio Merge Base.json",
+  "baseWorldSha256": "d61f19902e7238cde12ef6557af34e7f92f665bb463019b90c24b395e399e3f2",
+  "sourcePins": {
+    "Phoenix Wing Academy": {
+      "x": 25,
+      "y": -43,
+      "region": "Northeast district"
+    },
+    "Hydra Head Academy": {
+      "x": -29,
+      "y": -41,
+      "region": "harbor district"
+    },
+    "Gryffin Tail Academy": {
+      "x": 26,
+      "y": 11,
+      "region": "southwest district"
+    },
+    "Dragon Hoard Academy": {
+      "x": 9,
+      "y": 13,
+      "region": "southest district"
+    },
+    "The Grand Sage's Court": {
+      "x": -21,
+      "y": -14,
+      "region": "Evertree district"
+    },
+    "Cloud District": {
+      "x": 13,
+      "y": -27,
+      "region": "Evertree district"
+    },
+    "Merchant's Row": {
+      "x": 44,
+      "y": 34,
+      "region": "worker's district"
+    },
+    "East City Gate": {
+      "x": 27,
+      "y": 42,
+      "region": "southest district"
+    },
+    "West City Gate": {
+      "x": -11,
+      "y": 38,
+      "region": "southwest district"
+    },
+    "Caravan Outpost": {
+      "x": 35,
+      "y": -22,
+      "region": "rivers"
+    },
+    "The Emberfox Hot Spring": {
+      "x": -21,
+      "y": -43,
+      "region": "Northeast district"
+    },
+    "Greywatch Keep": {
+      "x": -31,
+      "y": -21,
+      "region": "Northeast district"
+    },
+    "Saltmere": {
+      "x": -32,
+      "y": -19,
+      "region": "glowhaven islets"
+    },
+    "The Everlight Public Library": {
+      "x": -29,
+      "y": 21,
+      "region": "worker's district"
+    },
+    "Brookmeadow": {
+      "x": -24,
+      "y": 12,
+      "region": "Region 23"
+    },
+    "The Jade Cup Teahouse": {
+      "x": -31,
+      "y": -2,
+      "region": "southest district"
+    },
+    "Four Sages Bazaar": {
+      "x": 11,
+      "y": 36,
+      "region": "worker's district"
+    },
+    "The Eternal Crucible": {
+      "x": 47,
+      "y": 42,
+      "region": "worker's district"
+    },
+    "Whitecrest Harbor": {
+      "x": 16,
+      "y": -33,
+      "region": "harbor district"
+    },
+    "East Greyfield": {
+      "x": 27,
+      "y": -39,
+      "region": "worker's district"
+    },
+    "West Greyfield": {
+      "x": 29,
+      "y": -25,
+      "region": "southwest district"
+    },
+    "Main City Gate": {
+      "x": -40,
+      "y": -28,
+      "region": "southest district"
+    },
+    "The Grand Approach": {
+      "x": 37,
+      "y": 2,
+      "region": "worker's district"
+    },
+    "Briarcrest Manor": {
+      "x": 49,
+      "y": -22,
+      "region": "Evertree district"
+    },
+    "Willowbend Residential District": {
+      "x": -40,
+      "y": 13,
+      "region": "southest district"
+    },
+    "City Guard Headquarters": {
+      "x": -20,
+      "y": 42,
+      "region": "worker's district"
+    },
+    "Stargarden Manor": {
+      "x": 48,
+      "y": -28,
+      "region": "Northeast district"
+    },
+    "The Grand Ascent": {
+      "x": -8,
+      "y": -36,
+      "region": "Evertree district"
+    },
+    "The Wandering Quill": {
+      "x": 9,
+      "y": -40,
+      "region": "Evertree district"
+    },
+    "Bramble & Bottle": {
+      "x": 19,
+      "y": -38,
+      "region": "Evertree district"
+    },
+    "The Gilded Griffin": {
+      "x": 34,
+      "y": -24,
+      "region": "Evertree district"
+    },
+    "Wayfarer's Goods": {
+      "x": 47,
+      "y": 33,
+      "region": "southwest district"
+    },
+    "Crooked Tankard": {
+      "x": -32,
+      "y": 43,
+      "region": "southest district"
+    },
+    "Roseberry Inn": {
+      "x": -11,
+      "y": 11,
+      "region": "worker's district"
+    },
+    "Driftstone Isle": {
+      "x": 19,
+      "y": 0,
+      "region": "glowhaven islets"
+    },
+    "Pinewake Coast": {
+      "x": -23,
+      "y": -2,
+      "region": "harbor district"
+    },
+    "Clovermead": {
+      "x": 24,
+      "y": 12,
+      "region": "harbor district"
+    },
+    "Pebblewick": {
+      "x": 42,
+      "y": -6,
+      "region": "southest district"
+    },
+    "Crescent Shores": {
+      "x": -44,
+      "y": -24,
+      "region": "glowhaven shores"
+    },
+    "Seabreeze Inn": {
+      "x": -41,
+      "y": -3,
+      "region": "glowhaven shores"
+    },
+    "Glowhaven Farmlands": {
+      "x": -23,
+      "y": 14,
+      "region": "Region 11"
+    },
+    "Hermit's hut": {
+      "x": -26,
+      "y": -50,
+      "region": "southwest district"
+    },
+    "Pinewater River": {
+      "x": -25,
+      "y": 20,
+      "region": "rivers"
+    },
+    "West Glowhaven Woods": {
+      "x": -38,
+      "y": 13,
+      "region": "southwest district"
+    },
+    "Pebbletown": {
+      "x": 25,
+      "y": 40,
+      "region": "rivers"
+    },
+    "Sage's Spire": {
+      "x": -12,
+      "y": -7,
+      "region": "Evertree district"
+    },
+    "Violet Thread": {
+      "x": -8,
+      "y": 23,
+      "region": "worker's district"
+    },
+    "The Perfumed Rose": {
+      "x": 7,
+      "y": 19,
+      "region": "worker's district"
+    },
+    "The Golden Ladle": {
+      "x": 44,
+      "y": 21,
+      "region": "southwest district"
+    },
+    "The Farmer's Exchange": {
+      "x": 22,
+      "y": 42,
+      "region": "worker's district"
+    },
+    "Rune and Raven's": {
+      "x": -43,
+      "y": -33,
+      "region": "Evertree district"
+    },
+    "Moonwhisker Emporium": {
+      "x": 35,
+      "y": -28,
+      "region": "Northeast district"
+    },
+    "Blackstone Smithy": {
+      "x": -8,
+      "y": -3,
+      "region": "worker's district"
+    },
+    "The Silver Anvil": {
+      "x": -28,
+      "y": 0,
+      "region": "worker's district"
+    },
+    "The Carpenter's Measure": {
+      "x": -46,
+      "y": 2,
+      "region": "worker's district"
+    },
+    "Hide & Hammer": {
+      "x": -26,
+      "y": -16,
+      "region": "worker's district"
+    },
+    "Eastbloom Residences": {
+      "x": 20,
+      "y": 29,
+      "region": "southest district"
+    },
+    "Rosetimber Suburbs": {
+      "x": -21,
+      "y": -28,
+      "region": "harbor district"
+    },
+    "The Compassmaker": {
+      "x": -24,
+      "y": 25,
+      "region": "southest district"
+    },
+    "Pinewater Woods": {
+      "x": 6,
+      "y": 31,
+      "region": "Region 9"
+    },
+    "The Winding Lowlands": {
+      "x": 19,
+      "y": -2,
+      "region": "Northeast district"
+    },
+    "Shadowspire": {
+      "x": 46,
+      "y": 43,
+      "region": "Region 11"
+    },
+    "House Goldbarrow Estate": {
+      "x": 35,
+      "y": -34,
+      "region": "Evertree district"
+    },
+    "The Magistrate's Hall": {
+      "x": -31,
+      "y": -30,
+      "region": "Evertree district"
+    },
+    "The Arcane Emporium": {
+      "x": -24,
+      "y": -38,
+      "region": "Evertree district"
+    },
+    "Evertree Base": {
+      "x": -27,
+      "y": -7,
+      "region": "Evertree district"
+    },
+    "Wraith Island": {
+      "x": -30,
+      "y": 27,
+      "region": "glowhaven islets"
+    },
+    "Prison Landing": {
+      "x": 0,
+      "y": -23,
+      "region": "Wraith Island Custody District"
+    },
+    "Intake and Property Office": {
+      "x": 8,
+      "y": -3,
+      "region": "Wraith Island Custody District"
+    },
+    "Prison Records Office": {
+      "x": 25,
+      "y": 0,
+      "region": "Wraith Island Custody District"
+    },
+    "Holding Cells": {
+      "x": 29,
+      "y": 14,
+      "region": "Wraith Island Custody District"
+    },
+    "High-Security Cellblock": {
+      "x": 24,
+      "y": 33,
+      "region": "Wraith Island Custody District"
+    },
+    "Prison Work Yard": {
+      "x": -1,
+      "y": 21,
+      "region": "Wraith Island Custody District"
+    },
+    "Prison Stores": {
+      "x": -6,
+      "y": 33,
+      "region": "Wraith Island Custody District"
+    },
+    "Prison Infirmary": {
+      "x": -28,
+      "y": 28,
+      "region": "Wraith Island Custody District"
+    },
+    "Prison Visiting Hall": {
+      "x": -8,
+      "y": -3,
+      "region": "Wraith Island Custody District"
+    },
+    "Prison Mess Hall": {
+      "x": -31,
+      "y": 15,
+      "region": "Wraith Island Custody District"
+    },
+    "Prison Exercise Yard": {
+      "x": -1,
+      "y": 11,
+      "region": "Wraith Island Custody District"
+    },
+    "Prison Security Headquarters": {
+      "x": -26,
+      "y": 0,
+      "region": "Wraith Island Custody District"
+    },
+    "Prison Watchtowers": {
+      "x": 41,
+      "y": -1,
+      "region": "Wraith Island Custody District"
+    },
+    "Prison Sea Wall": {
+      "x": -30,
+      "y": -8,
+      "region": "Wraith Island Custody District"
+    },
+    "Drakenspire Portals": {
+      "x": -12,
+      "y": 3,
+      "region": "Drakenspire Highlands"
+    },
+    "Embersteel Foundries": {
+      "x": 19,
+      "y": 7,
+      "region": "Drakenspire Highlands"
+    },
+    "Stonefang Training Grounds": {
+      "x": 5,
+      "y": -4,
+      "region": "Drakenspire Highlands"
+    },
+    "Whitepass Caravan Lodge": {
+      "x": 4,
+      "y": 4,
+      "region": "Drakenspire Highlands"
+    },
+    "Rimecrest Trail": {
+      "x": -35,
+      "y": -7,
+      "region": "Drakenspire Highlands"
+    },
+    "Cloudbloom Landing": {
+      "x": 37,
+      "y": -6,
+      "region": "Cloudbloom Reaches"
+    },
+    "Asterveil Canopy": {
+      "x": 42,
+      "y": -3,
+      "region": "Cloudbloom Reaches"
+    },
+    "Bellwind Conservatory": {
+      "x": 7,
+      "y": 27,
+      "region": "Cloudbloom Reaches"
+    },
+    "Mythwing Meadows": {
+      "x": -20,
+      "y": 30,
+      "region": "Cloudbloom Reaches"
+    },
+    "Broken Halo Ruins": {
+      "x": 27,
+      "y": 9,
+      "region": "Rimeglass Heights"
+    },
+    "Silken Portal Room": {
+      "x": 0,
+      "y": 32,
+      "region": "Silken Chasm"
+    },
+    "Threadfall Galleries": {
+      "x": 0,
+      "y": -9,
+      "region": "Silken Chasm"
+    },
+    "Sunken Broodworks": {
+      "x": 0,
+      "y": 42,
+      "region": "Silken Depths"
+    },
+    "Widow's Crucible": {
+      "x": 0,
+      "y": -18,
+      "region": "Silken Depths"
+    },
+    "Crescent Crown Fortress": {
+      "x": 19,
+      "y": 31,
+      "region": "Drakenspire Highlands"
+    },
+    "The Ancestor's Crescent": {
+      "x": 26,
+      "y": 41,
+      "region": "Drakenspire Highlands"
+    },
+    "The Jarl's Hall": {
+      "x": 27,
+      "y": 35,
+      "region": "Drakenspire Highlands"
+    },
+    "Clans' Assembly House": {
+      "x": 22,
+      "y": 36,
+      "region": "Drakenspire Highlands"
+    },
+    "Crescent Sanctuary": {
+      "x": 30,
+      "y": 30,
+      "region": "Drakenspire Highlands"
+    },
+    "Ancestor Cairn Terrace": {
+      "x": 4,
+      "y": 30,
+      "region": "Drakenspire Highlands"
+    },
+    "High Rampart Gate": {
+      "x": 19,
+      "y": 22,
+      "region": "Drakenspire Highlands"
+    },
+    "Oathward Barracks": {
+      "x": 22,
+      "y": 26,
+      "region": "Drakenspire Highlands"
+    },
+    "Dragonwatch Balcony": {
+      "x": 36,
+      "y": 29,
+      "region": "Drakenspire Highlands"
+    },
+    "Founders' Processional Way": {
+      "x": 0,
+      "y": 10,
+      "region": "Drakenspire Highlands"
+    },
+    "Hearthmarket Square": {
+      "x": -1,
+      "y": 2,
+      "region": "Drakenspire Highlands"
+    },
+    "Snowmelt Residential Steps": {
+      "x": -4,
+      "y": -7,
+      "region": "Drakenspire Highlands"
+    },
+    "Cinderstone Schoolhouse": {
+      "x": -18,
+      "y": -4,
+      "region": "Drakenspire Highlands"
+    },
+    "Lower Hold Gate": {
+      "x": -12,
+      "y": -11,
+      "region": "Drakenspire Highlands"
+    },
+    "Iwatsugu Clanhold": {
+      "x": -2,
+      "y": 16,
+      "region": "Drakenspire Highlands"
+    },
+    "Yukinose Clanhold": {
+      "x": 8,
+      "y": 17,
+      "region": "Drakenspire Highlands"
+    },
+    "Arashimine Clanhold": {
+      "x": 1,
+      "y": -4,
+      "region": "Drakenspire Highlands"
+    },
+    "The Hold's Judgment House": {
+      "x": 20,
+      "y": 16,
+      "region": "Drakenspire Highlands"
+    },
+    "The Tempered Fang": {
+      "x": 22,
+      "y": 6,
+      "region": "Drakenspire Highlands"
+    },
+    "Rivet & Rime Armory": {
+      "x": 14,
+      "y": 8,
+      "region": "Drakenspire Highlands"
+    },
+    "The Woolen Wyvern": {
+      "x": -8,
+      "y": 6,
+      "region": "Drakenspire Highlands"
+    },
+    "Coppercrest Exchange": {
+      "x": -4,
+      "y": 8,
+      "region": "Drakenspire Highlands"
+    },
+    "Amberglass Assay House": {
+      "x": -7,
+      "y": 12,
+      "region": "Drakenspire Highlands"
+    },
+    "Crystalcutters' Court": {
+      "x": 7,
+      "y": 3,
+      "region": "Drakenspire Highlands"
+    },
+    "Resin & Root Apothecary": {
+      "x": 10,
+      "y": 9,
+      "region": "Drakenspire Highlands"
+    },
+    "Snowchain Freight Yard": {
+      "x": 21,
+      "y": 2,
+      "region": "Drakenspire Highlands"
+    },
+    "The Copper Ram": {
+      "x": -11,
+      "y": -4,
+      "region": "Drakenspire Highlands"
+    },
+    "Hearthpot Stew House": {
+      "x": 25,
+      "y": 5,
+      "region": "Drakenspire Highlands"
+    },
+    "Stonewake Onsen": {
+      "x": -35,
+      "y": -1,
+      "region": "Drakenspire Highlands"
+    },
+    "Snowbell Playhouse": {
+      "x": -12,
+      "y": 11,
+      "region": "Drakenspire Highlands"
+    },
+    "The Cinder Pit": {
+      "x": 10,
+      "y": -2,
+      "region": "Drakenspire Highlands"
+    },
+    "Deepwell Waterworks": {
+      "x": -31,
+      "y": -13,
+      "region": "Drakenspire Highlands"
+    },
+    "Hoofstep Pens": {
+      "x": -26,
+      "y": -31,
+      "region": "Drakenspire Highlands"
+    },
+    "Woolridge Pastures": {
+      "x": -22,
+      "y": -27,
+      "region": "Drakenspire Highlands"
+    },
+    "Winter Stores": {
+      "x": 10,
+      "y": 2,
+      "region": "Drakenspire Highlands"
+    },
+    "Whitepass Watchpost": {
+      "x": -34,
+      "y": -34,
+      "region": "Drakenspire Highlands"
+    },
+    "Goatstep Hamlet": {
+      "x": -26,
+      "y": -25,
+      "region": "Drakenspire Highlands"
+    },
+    "Pinefold Hollow": {
+      "x": -45,
+      "y": -25,
+      "region": "Drakenspire Highlands"
+    },
+    "Glassmere Basin": {
+      "x": -42,
+      "y": 15,
+      "region": "Drakenspire Highlands"
+    },
+    "Redvein Mine": {
+      "x": 35,
+      "y": -11,
+      "region": "Drakenspire Highlands"
+    },
+    "Lanternamber Caverns": {
+      "x": -43,
+      "y": 23,
+      "region": "Drakenspire Highlands"
+    },
+    "The Abandoned Chainworks": {
+      "x": 43,
+      "y": -10,
+      "region": "Drakenspire Highlands"
+    },
+    "Old Hearthfall": {
+      "x": 25,
+      "y": -28,
+      "region": "Drakenspire Highlands"
+    },
+    "Frostback Mountain": {
+      "x": -11,
+      "y": 45,
+      "region": "Drakenspire Highlands"
+    },
+    "The Buried Switchback": {
+      "x": -31,
+      "y": 30,
+      "region": "Drakenspire Highlands"
+    },
+    "Skreek Crags": {
+      "x": -25,
+      "y": 35,
+      "region": "Drakenspire Highlands"
+    },
+    "Giant's Hollow": {
+      "x": -16,
+      "y": 25,
+      "region": "Drakenspire Highlands"
+    },
+    "The White Silence": {
+      "x": -20,
+      "y": 39,
+      "region": "Drakenspire Highlands"
+    },
+    "Stormscar Observatory": {
+      "x": -44,
+      "y": 43,
+      "region": "Drakenspire Highlands"
+    },
+    "First Shelter Ruins": {
+      "x": -38,
+      "y": 39,
+      "region": "Drakenspire Highlands"
+    },
+    "The Old Offering Steps": {
+      "x": -3,
+      "y": 31,
+      "region": "Drakenspire Highlands"
+    },
+    "Coldglass Galleries": {
+      "x": -13,
+      "y": 34,
+      "region": "Drakenspire Highlands"
+    },
+    "The Fallen Pass Shrine": {
+      "x": -33,
+      "y": 37,
+      "region": "Drakenspire Highlands"
+    },
+    "Rimefang Ravine": {
+      "x": 6,
+      "y": -34,
+      "region": "Drakenspire Highlands"
+    },
+    "Sunspill Woodland": {
+      "x": -6,
+      "y": 12,
+      "region": "Cloudbloom Reaches"
+    },
+    "Petalwash Terraces": {
+      "x": 1,
+      "y": 4,
+      "region": "Cloudbloom Reaches"
+    },
+    "Tetherroot Chain": {
+      "x": 19,
+      "y": -31,
+      "region": "Cloudbloom Reaches"
+    },
+    "Dewglass Hollows": {
+      "x": -30,
+      "y": -8,
+      "region": "Cloudbloom Reaches"
+    },
+    "Rimeglass Refuge": {
+      "x": -13,
+      "y": -6,
+      "region": "Rimeglass Heights"
+    },
+    "Frostbell Pines": {
+      "x": -6,
+      "y": 5,
+      "region": "Rimeglass Heights"
+    },
+    "Rimeglass Crown": {
+      "x": 4,
+      "y": 35,
+      "region": "Rimeglass Heights"
+    },
+    "Thunderwake Crags": {
+      "x": 36,
+      "y": 14,
+      "region": "Rimeglass Heights"
+    },
+    "Hollow Snow Vault": {
+      "x": 22,
+      "y": 3,
+      "region": "Rimeglass Heights"
+    },
+    "Reedglass Anchorage": {
+      "x": 27,
+      "y": 28,
+      "region": "Mirrorwater Marches"
+    },
+    "Mirrorwater Basin": {
+      "x": -2,
+      "y": 20,
+      "region": "Mirrorwater Marches"
+    },
+    "Glassreed Labyrinth": {
+      "x": 8,
+      "y": -4,
+      "region": "Mirrorwater Marches"
+    },
+    "Spillway Steps": {
+      "x": -24,
+      "y": 10,
+      "region": "Mirrorwater Marches"
+    },
+    "Lanternmire Islets": {
+      "x": -36,
+      "y": -20,
+      "region": "Mirrorwater Marches"
+    },
+    "Drowned Orrery": {
+      "x": -9,
+      "y": -18,
+      "region": "Mirrorwater Marches"
+    },
+    "Undertow Hollows": {
+      "x": 16,
+      "y": -16,
+      "region": "Mirrorwater Marches"
+    },
+    "Heatherwatch Shelf": {
+      "x": -26,
+      "y": 30,
+      "region": "Amethyst Crown"
+    },
+    "Mauvewind Steppe": {
+      "x": 2,
+      "y": 4,
+      "region": "Amethyst Crown"
+    },
+    "Singing Stone Spines": {
+      "x": 14,
+      "y": 36,
+      "region": "Amethyst Crown"
+    },
+    "Prismbloom Basin": {
+      "x": 34,
+      "y": -13,
+      "region": "Amethyst Crown"
+    },
+    "Crownfall Chasm": {
+      "x": 23,
+      "y": -13,
+      "region": "Amethyst Crown"
+    },
+    "Stillstar Sanctum": {
+      "x": 1,
+      "y": -15,
+      "region": "Amethyst Crown"
+    },
+    "The Inverted Crown": {
+      "x": 27,
+      "y": 22,
+      "region": "Amethyst Crown"
+    },
+    "Adventurer's Guild - Glowhaven Branch": {
+      "x": 45,
+      "y": 21,
+      "region": "worker's district"
+    },
+    "Sepulchral Portal House": {
+      "x": 0,
+      "y": 39,
+      "region": "Sepulchral Gardens"
+    },
+    "Sepulchral Conservatory": {
+      "x": 0,
+      "y": -19,
+      "region": "Sepulchral Gardens"
+    },
+    "Mourning Garden": {
+      "x": 0,
+      "y": 19,
+      "region": "Sepulchral Gardens"
+    },
+    "Blackpine Posthouse": {
+      "x": -10,
+      "y": -20,
+      "region": "Blackpine March"
+    },
+    "Cedarfall Hamlet": {
+      "x": 43,
+      "y": -6,
+      "region": "Blackpine March"
+    },
+    "Western Watch Road": {
+      "x": 37,
+      "y": -15,
+      "region": "Blackpine March"
+    },
+    "Old Bell Shrine": {
+      "x": 30,
+      "y": 22,
+      "region": "Blackpine March"
+    },
+    "Foxglove Wood": {
+      "x": 30,
+      "y": 8,
+      "region": "Blackpine March"
+    },
+    "Blackpine Boundary Stones": {
+      "x": -19,
+      "y": 36,
+      "region": "Blackpine March"
+    },
+    "Hollow Cedar Ruins": {
+      "x": -4,
+      "y": 38,
+      "region": "Blackpine March"
+    },
+    "Western Woodcutters' Yard": {
+      "x": 26,
+      "y": -30,
+      "region": "Blackpine March"
+    },
+    "Thundercrag Quarry": {
+      "x": 3,
+      "y": 17,
+      "region": "Thundercrag Highlands"
+    },
+    "Kuroishi Miners' Row": {
+      "x": 19,
+      "y": -19,
+      "region": "Thundercrag Highlands"
+    },
+    "Basalt Kilns": {
+      "x": -2,
+      "y": 1,
+      "region": "Thundercrag Highlands"
+    },
+    "Amber-Salt Mine": {
+      "x": 24,
+      "y": 5,
+      "region": "Thundercrag Highlands"
+    },
+    "Abandoned Splitshaft": {
+      "x": 30,
+      "y": 22,
+      "region": "Thundercrag Highlands"
+    },
+    "Scree Lantern Pass": {
+      "x": -14,
+      "y": 33,
+      "region": "Thundercrag Highlands"
+    },
+    "Quarry Exchange": {
+      "x": -5,
+      "y": -11,
+      "region": "Thundercrag Highlands"
+    },
+    "Broken Relay Tower": {
+      "x": -33,
+      "y": 25,
+      "region": "Thundercrag Highlands"
+    },
+    "Shiun Pilgrim Lodge": {
+      "x": -6,
+      "y": -32,
+      "region": "Mount Shiun"
+    },
+    "Shiun Thousand Steps": {
+      "x": -18,
+      "y": -12,
+      "region": "Mount Shiun"
+    },
+    "Cloudbell Monastery": {
+      "x": 2,
+      "y": 8,
+      "region": "Mount Shiun"
+    },
+    "Whitefall Shrine": {
+      "x": -30,
+      "y": -4,
+      "region": "Mount Shiun"
+    },
+    "Summit Cedar Precinct": {
+      "x": 6,
+      "y": 20,
+      "region": "Mount Shiun"
+    },
+    "Shiun Herb Slopes": {
+      "x": 25,
+      "y": -17,
+      "region": "Mount Shiun"
+    },
+    "Ancestor Archive": {
+      "x": 12,
+      "y": 13,
+      "region": "Mount Shiun"
+    },
+    "Frost-Eave Approach": {
+      "x": -16,
+      "y": 26,
+      "region": "Mount Shiun"
+    },
+    "Snowcedar Refuge": {
+      "x": -31,
+      "y": 15,
+      "region": "Snowcedar Heights"
+    },
+    "Blue Mirror Tarn": {
+      "x": -6,
+      "y": 32,
+      "region": "Snowcedar Heights"
+    },
+    "White Antler Basin": {
+      "x": 2,
+      "y": 23,
+      "region": "Snowcedar Heights"
+    },
+    "Snowcedar Signal Hut": {
+      "x": -10,
+      "y": -3,
+      "region": "Snowcedar Heights"
+    },
+    "Rime Bridge": {
+      "x": -6,
+      "y": -14,
+      "region": "Snowcedar Heights"
+    },
+    "Forgotten Muster Camp": {
+      "x": 27,
+      "y": 30,
+      "region": "Snowcedar Heights"
+    },
+    "Sleeping Lake Cavern": {
+      "x": 6,
+      "y": 39,
+      "region": "Snowcedar Heights"
+    },
+    "Mizuhara Castle": {
+      "x": 5,
+      "y": 28,
+      "region": "Mizuhara Lake Country"
+    },
+    "Mizuhara Landing": {
+      "x": 28,
+      "y": 23,
+      "region": "Mizuhara Lake Country"
+    },
+    "Silver Carp Market": {
+      "x": -23,
+      "y": 28,
+      "region": "Mizuhara Lake Country"
+    },
+    "Three Reeds Inn": {
+      "x": -33,
+      "y": -10,
+      "region": "Mizuhara Lake Country"
+    },
+    "Saionoma Household": {
+      "x": 14,
+      "y": 22,
+      "region": "Mizuhara Lake Country"
+    },
+    "Reedwake Boatworks": {
+      "x": 40,
+      "y": -28,
+      "region": "Mizuhara Lake Country"
+    },
+    "Western Spear Hall": {
+      "x": -7,
+      "y": 26,
+      "region": "Mizuhara Lake Country"
+    },
+    "Reedshore Hamlet": {
+      "x": 40,
+      "y": 29,
+      "region": "Mizuhara Lake Country"
+    },
+    "Lakewatch Islet": {
+      "x": 6,
+      "y": -22,
+      "region": "Mizuhara Lake Country"
+    },
+    "Bamboo Crossing": {
+      "x": -23,
+      "y": 25,
+      "region": "Bamboo Veil Valleys"
+    },
+    "Green Thread Paperworks": {
+      "x": -41,
+      "y": 17,
+      "region": "Bamboo Veil Valleys"
+    },
+    "Rainsong Mill": {
+      "x": -21,
+      "y": 12,
+      "region": "Bamboo Veil Valleys"
+    },
+    "Hidden Reed Training Ground": {
+      "x": 26,
+      "y": 39,
+      "region": "Bamboo Veil Valleys"
+    },
+    "Riverglass Baths": {
+      "x": 14,
+      "y": -1,
+      "region": "Bamboo Veil Valleys"
+    },
+    "Abandoned Bamboo Village": {
+      "x": -30,
+      "y": 37,
+      "region": "Bamboo Veil Valleys"
+    },
+    "Moonweave Grove": {
+      "x": -9,
+      "y": 36,
+      "region": "Bamboo Veil Valleys"
+    },
+    "Bamboo Charcoal Camp": {
+      "x": 9,
+      "y": 28,
+      "region": "Bamboo Veil Valleys"
+    },
+    "Benitsuru Portal Shrine": {
+      "x": 1,
+      "y": 34,
+      "region": "Benitsuru Basin"
+    },
+    "Benitsuru Castle": {
+      "x": -2,
+      "y": 47,
+      "region": "Benitsuru Basin"
+    },
+    "Adventurer's Guild - Benitsuru Branch": {
+      "x": -13,
+      "y": 23,
+      "region": "Benitsuru Basin"
+    },
+    "Lantern Canal Market": {
+      "x": -9,
+      "y": 29,
+      "region": "Benitsuru Basin"
+    },
+    "Benitsuru Magistracy": {
+      "x": 20,
+      "y": 23,
+      "region": "Benitsuru Basin"
+    },
+    "Red Maple Inn": {
+      "x": 0,
+      "y": 3,
+      "region": "Benitsuru Basin"
+    },
+    "Benitsuru Ward Clinic": {
+      "x": -30,
+      "y": 35,
+      "region": "Benitsuru Basin"
+    },
+    "Kagetsuna Household": {
+      "x": -22,
+      "y": 25,
+      "region": "Benitsuru Basin"
+    },
+    "Eight Petals Theater": {
+      "x": 15,
+      "y": 45,
+      "region": "Benitsuru Basin"
+    },
+    "Benitsuru Craft Quarter": {
+      "x": 30,
+      "y": 31,
+      "region": "Benitsuru Basin"
+    },
+    "Morning Crane Dojo": {
+      "x": 13,
+      "y": 21,
+      "region": "Benitsuru Basin"
+    },
+    "Canal Ward Homes": {
+      "x": -31,
+      "y": 23,
+      "region": "Benitsuru Basin"
+    },
+    "Benitsuru Public School": {
+      "x": -38,
+      "y": 1,
+      "region": "Benitsuru Basin"
+    },
+    "South Gate Caravan Yard": {
+      "x": 41,
+      "y": 17,
+      "region": "Benitsuru Basin"
+    },
+    "Koganedai Castle": {
+      "x": 0,
+      "y": 22,
+      "region": "Koganedai Terraces"
+    },
+    "Tsubakiri Residence": {
+      "x": 22,
+      "y": 18,
+      "region": "Koganedai Terraces"
+    },
+    "Goldleaf Arcade": {
+      "x": 9,
+      "y": -13,
+      "region": "Koganedai Terraces"
+    },
+    "Ginkgo Crossbow Works": {
+      "x": 18,
+      "y": 3,
+      "region": "Koganedai Terraces"
+    },
+    "Koganedai Muster Ground": {
+      "x": -14,
+      "y": -8,
+      "region": "Koganedai Terraces"
+    },
+    "Terrace Waterworks": {
+      "x": -31,
+      "y": 21,
+      "region": "Koganedai Terraces"
+    },
+    "East Wind Archery Hall": {
+      "x": 27,
+      "y": -21,
+      "region": "Koganedai Terraces"
+    },
+    "Koganedai Guesthouse": {
+      "x": 9,
+      "y": 15,
+      "region": "Koganedai Terraces"
+    },
+    "Ginkgo Schoolhouse": {
+      "x": 1,
+      "y": 0,
+      "region": "Koganedai Terraces"
+    },
+    "Mirror-Reed Bridge": {
+      "x": 18,
+      "y": 26,
+      "region": "Mirror-Reed Lowlands"
+    },
+    "Reedglass Woodland Hamlet": {
+      "x": 43,
+      "y": 24,
+      "region": "Mirror-Reed Lowlands"
+    },
+    "White Heron Grove": {
+      "x": 28,
+      "y": -32,
+      "region": "Mirror-Reed Lowlands"
+    },
+    "Singing Cedar Hollow": {
+      "x": -13,
+      "y": -7,
+      "region": "Mirror-Reed Lowlands"
+    },
+    "Old Bridge Shrine": {
+      "x": -20,
+      "y": 38,
+      "region": "Mirror-Reed Lowlands"
+    },
+    "Mossbank Ridgeway": {
+      "x": 15,
+      "y": -17,
+      "region": "Mirror-Reed Lowlands"
+    },
+    "Woodland Dye Workshop": {
+      "x": 46,
+      "y": -19,
+      "region": "Mirror-Reed Lowlands"
+    },
+    "Hoshina Village": {
+      "x": 5,
+      "y": 21,
+      "region": "Golden Grain Plain"
+    },
+    "Golden Sheaf Granary": {
+      "x": -30,
+      "y": 28,
+      "region": "Golden Grain Plain"
+    },
+    "South River Bridge": {
+      "x": 25,
+      "y": 45,
+      "region": "Golden Grain Plain"
+    },
+    "Goldfinch Orchard": {
+      "x": 37,
+      "y": 22,
+      "region": "Golden Grain Plain"
+    },
+    "Susuki Road": {
+      "x": -5,
+      "y": 32,
+      "region": "Golden Grain Plain"
+    },
+    "Low Meadow Paddies": {
+      "x": 22,
+      "y": 7,
+      "region": "Golden Grain Plain"
+    },
+    "Saffron Road Hostel": {
+      "x": 29,
+      "y": -31,
+      "region": "Golden Grain Plain"
+    },
+    "Redleaf Bridge": {
+      "x": -48,
+      "y": 10,
+      "region": "Redleaf River Country"
+    },
+    "Evening Maple Shrine": {
+      "x": -1,
+      "y": 11,
+      "region": "Redleaf River Country"
+    },
+    "Redleaf Guest Village": {
+      "x": -27,
+      "y": 1,
+      "region": "Redleaf River Country"
+    },
+    "Paper Moon Pavilion": {
+      "x": 12,
+      "y": -12,
+      "region": "Redleaf River Country"
+    },
+    "Foxfire Verge": {
+      "x": 30,
+      "y": -31,
+      "region": "Redleaf River Country"
+    },
+    "Broken Kite Camp": {
+      "x": 24,
+      "y": -14,
+      "region": "Redleaf River Country"
+    },
+    "Redleaf Apiculture": {
+      "x": -41,
+      "y": -4,
+      "region": "Redleaf River Country"
+    },
+    "River Lantern Mooring": {
+      "x": 28,
+      "y": 32,
+      "region": "Redleaf River Country"
+    },
+    "Moonless Torii": {
+      "x": 22,
+      "y": -4,
+      "region": "Lanternwood Border"
+    },
+    "Lanternwood Root Shrine": {
+      "x": -26,
+      "y": 34,
+      "region": "Lanternwood Border"
+    },
+    "Ragged Cedar Hollow": {
+      "x": 31,
+      "y": 7,
+      "region": "Lanternwood Border"
+    },
+    "Old Mask Trail": {
+      "x": 19,
+      "y": 13,
+      "region": "Lanternwood Border"
+    },
+    "Rootfall Ravine": {
+      "x": -11,
+      "y": -37,
+      "region": "Lanternwood Border"
+    },
+    "Lanternwood Field Shelter": {
+      "x": -5,
+      "y": -9,
+      "region": "Lanternwood Border"
+    },
+    "Foxglade Spirit Orchard": {
+      "x": 4,
+      "y": 41,
+      "region": "Lanternwood Border"
+    },
+    "Hushwater Pool": {
+      "x": 14,
+      "y": 26,
+      "region": "Lanternwood Border"
+    },
+    "Veiled Threshold": {
+      "x": -38,
+      "y": -29,
+      "region": "Veiled Cedar Reach"
+    },
+    "Bellroot Refuge": {
+      "x": -30,
+      "y": 5,
+      "region": "Veiled Cedar Reach"
+    },
+    "Pale Lantern Marsh": {
+      "x": 24,
+      "y": -23,
+      "region": "Veiled Cedar Reach"
+    },
+    "The Listening Cedars": {
+      "x": -30,
+      "y": 35,
+      "region": "Veiled Cedar Reach"
+    },
+    "Ashen Festival Road": {
+      "x": 7,
+      "y": 0,
+      "region": "Veiled Cedar Reach"
+    },
+    "Crane-of-the-Hush Crossing": {
+      "x": 2,
+      "y": 26,
+      "region": "Veiled Cedar Reach"
+    },
+    "Hollow Sky Grove": {
+      "x": 35,
+      "y": 33,
+      "region": "Veiled Cedar Reach"
+    },
+    "Hinoki Hollow Onsen": {
+      "x": 34,
+      "y": -45,
+      "region": "Benitsuru Basin"
+    },
+    "big ship location": {
+      "x": -33,
+      "y": -35,
+      "region": "sea or something"
+    },
+    "shipwreck location, theres a kraken around here": {
+      "x": 13,
+      "y": 35,
+      "region": "sea but with ruins"
+    },
+    "island ruins location": {
+      "x": -20,
+      "y": 0,
+      "region": "sea but with ruins"
+    },
+    "rocky isle with a giant turtle": {
+      "x": 16,
+      "y": -39,
+      "region": "sea but with ruins"
+    },
+    "estuary": {
+      "x": 8,
+      "y": -21,
+      "region": "where the estuary is"
+    },
+    "alchemist hut in the boonies": {
+      "x": 50,
+      "y": -47,
+      "region": "rivers"
+    },
+    "windmill": {
+      "x": 13,
+      "y": -11,
+      "region": "Region 22"
+    },
+    "an old guardtower": {
+      "x": 19,
+      "y": -10,
+      "region": "Region 19"
+    },
+    "rocky isle where a blue sea serpent is": {
+      "x": 7,
+      "y": 13,
+      "region": "sea or something"
+    },
+    "lighthouse": {
+      "x": 42,
+      "y": -10,
+      "region": "harbor district"
+    },
+    "a church or abbey?": {
+      "x": 21,
+      "y": -36,
+      "region": "cliffside near sea"
+    },
+    "gullwatch reefs": {
+      "x": 25,
+      "y": -24,
+      "region": "glowhaven shores"
+    },
+    "crossroads": {
+      "x": -29,
+      "y": 49,
+      "region": "west of village"
+    },
+    "cliff": {
+      "x": 32,
+      "y": 2,
+      "region": "cliffside near sea"
+    }
+  },
+  "finalPins": {
+    "Phoenix Wing Academy": {
+      "x": 25,
+      "y": -43,
+      "region": "Northwest District"
+    },
+    "Hydra Head Academy": {
+      "x": -29,
+      "y": -41,
+      "region": "Harbor District"
+    },
+    "Gryffin Tail Academy": {
+      "x": 26,
+      "y": 11,
+      "region": "Southwest District"
+    },
+    "Dragon Hoard Academy": {
+      "x": 9,
+      "y": 13,
+      "region": "Southeast District"
+    },
+    "The Grand Sage's Court": {
+      "x": -21,
+      "y": -14,
+      "region": "Evertree District"
+    },
+    "Cloud District": {
+      "x": 13,
+      "y": -27,
+      "region": "Evertree District"
+    },
+    "Merchant's Row": {
+      "x": 44,
+      "y": 34,
+      "region": "Artisan Quarter"
+    },
+    "East City Gate": {
+      "x": 27,
+      "y": 42,
+      "region": "Southeast District"
+    },
+    "West City Gate": {
+      "x": -11,
+      "y": 38,
+      "region": "Southwest District"
+    },
+    "Caravan Outpost": {
+      "x": 35,
+      "y": -22,
+      "region": "Pinewater Vale"
+    },
+    "The Emberfox Hot Spring": {
+      "x": -21,
+      "y": -43,
+      "region": "Northwest District"
+    },
+    "Greywatch Keep": {
+      "x": -31,
+      "y": -21,
+      "region": "Northwest District"
+    },
+    "Saltmere": {
+      "x": -32,
+      "y": -19,
+      "region": "Whitecrest Isles"
+    },
+    "The Everlight Public Library": {
+      "x": -29,
+      "y": 21,
+      "region": "Artisan Quarter"
+    },
+    "Brookmeadow": {
+      "x": -24,
+      "y": 12,
+      "region": "Brookmeadow Vale"
+    },
+    "The Jade Cup Teahouse": {
+      "x": -31,
+      "y": -2,
+      "region": "Southeast District"
+    },
+    "Four Sages Bazaar": {
+      "x": 11,
+      "y": 36,
+      "region": "Artisan Quarter"
+    },
+    "The Eternal Crucible": {
+      "x": 47,
+      "y": 42,
+      "region": "Artisan Quarter"
+    },
+    "Whitecrest Harbor": {
+      "x": 16,
+      "y": -33,
+      "region": "Harbor District"
+    },
+    "East Greyfield": {
+      "x": 27,
+      "y": -39,
+      "region": "Artisan Quarter"
+    },
+    "West Greyfield": {
+      "x": 29,
+      "y": -25,
+      "region": "Southwest District"
+    },
+    "Main City Gate": {
+      "x": -40,
+      "y": -28,
+      "region": "Southeast District"
+    },
+    "The Grand Approach": {
+      "x": 37,
+      "y": 2,
+      "region": "Artisan Quarter"
+    },
+    "Briarcrest Manor": {
+      "x": 49,
+      "y": -22,
+      "region": "Evertree District"
+    },
+    "Willowbend Residential District": {
+      "x": -40,
+      "y": 13,
+      "region": "Southeast District"
+    },
+    "City Guard Headquarters": {
+      "x": -20,
+      "y": 42,
+      "region": "Artisan Quarter"
+    },
+    "Stargarden Manor": {
+      "x": 48,
+      "y": -28,
+      "region": "Northwest District"
+    },
+    "The Grand Ascent": {
+      "x": -8,
+      "y": -36,
+      "region": "Evertree District"
+    },
+    "The Wandering Quill": {
+      "x": 9,
+      "y": -40,
+      "region": "Evertree District"
+    },
+    "Bramble & Bottle": {
+      "x": 19,
+      "y": -38,
+      "region": "Evertree District"
+    },
+    "The Gilded Griffin": {
+      "x": 34,
+      "y": -24,
+      "region": "Evertree District"
+    },
+    "Wayfarer's Goods": {
+      "x": 47,
+      "y": 33,
+      "region": "Southwest District"
+    },
+    "Crooked Tankard": {
+      "x": -32,
+      "y": 43,
+      "region": "Southeast District"
+    },
+    "Roseberry Inn": {
+      "x": -11,
+      "y": 11,
+      "region": "Artisan Quarter"
+    },
+    "Driftstone Isle": {
+      "x": 19,
+      "y": 0,
+      "region": "Whitecrest Isles"
+    },
+    "Pinewake Coast": {
+      "x": -23,
+      "y": -2,
+      "region": "Harbor District"
+    },
+    "Clovermead": {
+      "x": 24,
+      "y": 12,
+      "region": "Harbor District"
+    },
+    "Pebblewick": {
+      "x": 42,
+      "y": -6,
+      "region": "Southeast District"
+    },
+    "Crescent Shores": {
+      "x": -44,
+      "y": -24,
+      "region": "Crescent Coast"
+    },
+    "Seabreeze Inn": {
+      "x": -41,
+      "y": -3,
+      "region": "Crescent Coast"
+    },
+    "Glowhaven Farmlands": {
+      "x": -23,
+      "y": 14,
+      "region": "Greenfield Farmlands"
+    },
+    "Hermit's hut": {
+      "x": -26,
+      "y": -50,
+      "region": "Southwest District"
+    },
+    "Pinewater River": {
+      "x": -25,
+      "y": 20,
+      "region": "Pinewater Vale"
+    },
+    "West Glowhaven Woods": {
+      "x": -38,
+      "y": 13,
+      "region": "Southwest District"
+    },
+    "Pebbletown": {
+      "x": 25,
+      "y": 40,
+      "region": "Pinewater Vale"
+    },
+    "Sage's Spire": {
+      "x": -12,
+      "y": -7,
+      "region": "Evertree District"
+    },
+    "Violet Thread": {
+      "x": -8,
+      "y": 23,
+      "region": "Artisan Quarter"
+    },
+    "The Perfumed Rose": {
+      "x": 7,
+      "y": 19,
+      "region": "Artisan Quarter"
+    },
+    "The Golden Ladle": {
+      "x": 44,
+      "y": 21,
+      "region": "Southwest District"
+    },
+    "The Farmer's Exchange": {
+      "x": 22,
+      "y": 42,
+      "region": "Artisan Quarter"
+    },
+    "Rune and Raven's": {
+      "x": -43,
+      "y": -33,
+      "region": "Evertree District"
+    },
+    "Moonwhisker Emporium": {
+      "x": 35,
+      "y": -28,
+      "region": "Northwest District"
+    },
+    "Blackstone Smithy": {
+      "x": -8,
+      "y": -3,
+      "region": "Artisan Quarter"
+    },
+    "The Silver Anvil": {
+      "x": -28,
+      "y": 0,
+      "region": "Artisan Quarter"
+    },
+    "The Carpenter's Measure": {
+      "x": -46,
+      "y": 2,
+      "region": "Artisan Quarter"
+    },
+    "Hide & Hammer": {
+      "x": -26,
+      "y": -16,
+      "region": "Artisan Quarter"
+    },
+    "Eastbloom Residences": {
+      "x": 20,
+      "y": 29,
+      "region": "Southeast District"
+    },
+    "Rosetimber Suburbs": {
+      "x": -21,
+      "y": -28,
+      "region": "Harbor District"
+    },
+    "The Compassmaker": {
+      "x": -24,
+      "y": 25,
+      "region": "Southeast District"
+    },
+    "Pinewater Woods": {
+      "x": 6,
+      "y": 31,
+      "region": "Westpine Forest"
+    },
+    "The Winding Lowlands": {
+      "x": 19,
+      "y": -2,
+      "region": "Northwest District"
+    },
+    "Shadowspire": {
+      "x": 46,
+      "y": 43,
+      "region": "Greenfield Farmlands"
+    },
+    "House Goldbarrow Estate": {
+      "x": 35,
+      "y": -34,
+      "region": "Evertree District"
+    },
+    "The Magistrate's Hall": {
+      "x": -31,
+      "y": -30,
+      "region": "Evertree District"
+    },
+    "The Arcane Emporium": {
+      "x": -24,
+      "y": -38,
+      "region": "Evertree District"
+    },
+    "Evertree Base": {
+      "x": -27,
+      "y": -7,
+      "region": "Evertree District"
+    },
+    "Wraith Island": {
+      "x": -30,
+      "y": 27,
+      "region": "Whitecrest Isles"
+    },
+    "Prison Landing": {
+      "x": 0,
+      "y": -23,
+      "region": "Wraith Island Custody District"
+    },
+    "Intake and Property Office": {
+      "x": 8,
+      "y": -3,
+      "region": "Wraith Island Custody District"
+    },
+    "Prison Records Office": {
+      "x": 25,
+      "y": 0,
+      "region": "Wraith Island Custody District"
+    },
+    "Holding Cells": {
+      "x": 29,
+      "y": 14,
+      "region": "Wraith Island Custody District"
+    },
+    "High-Security Cellblock": {
+      "x": 24,
+      "y": 33,
+      "region": "Wraith Island Custody District"
+    },
+    "Prison Work Yard": {
+      "x": -1,
+      "y": 21,
+      "region": "Wraith Island Custody District"
+    },
+    "Prison Stores": {
+      "x": -6,
+      "y": 33,
+      "region": "Wraith Island Custody District"
+    },
+    "Prison Infirmary": {
+      "x": -28,
+      "y": 28,
+      "region": "Wraith Island Custody District"
+    },
+    "Prison Visiting Hall": {
+      "x": -8,
+      "y": -3,
+      "region": "Wraith Island Custody District"
+    },
+    "Prison Mess Hall": {
+      "x": -31,
+      "y": 15,
+      "region": "Wraith Island Custody District"
+    },
+    "Prison Exercise Yard": {
+      "x": -1,
+      "y": 11,
+      "region": "Wraith Island Custody District"
+    },
+    "Prison Security Headquarters": {
+      "x": -26,
+      "y": 0,
+      "region": "Wraith Island Custody District"
+    },
+    "Prison Watchtowers": {
+      "x": 41,
+      "y": -1,
+      "region": "Wraith Island Custody District"
+    },
+    "Prison Sea Wall": {
+      "x": -30,
+      "y": -8,
+      "region": "Wraith Island Custody District"
+    },
+    "Drakenspire Portals": {
+      "x": -12,
+      "y": 3,
+      "region": "Drakenspire Highlands"
+    },
+    "Embersteel Foundries": {
+      "x": 19,
+      "y": 7,
+      "region": "Drakenspire Highlands"
+    },
+    "Stonefang Training Grounds": {
+      "x": 5,
+      "y": -4,
+      "region": "Drakenspire Highlands"
+    },
+    "Whitepass Caravan Lodge": {
+      "x": 4,
+      "y": 4,
+      "region": "Drakenspire Highlands"
+    },
+    "Rimecrest Trail": {
+      "x": -35,
+      "y": -7,
+      "region": "Drakenspire Highlands"
+    },
+    "Cloudbloom Landing": {
+      "x": 37,
+      "y": -6,
+      "region": "Cloudbloom Reaches"
+    },
+    "Asterveil Canopy": {
+      "x": 42,
+      "y": -3,
+      "region": "Cloudbloom Reaches"
+    },
+    "Bellwind Conservatory": {
+      "x": 7,
+      "y": 27,
+      "region": "Cloudbloom Reaches"
+    },
+    "Mythwing Meadows": {
+      "x": -20,
+      "y": 30,
+      "region": "Cloudbloom Reaches"
+    },
+    "Broken Halo Ruins": {
+      "x": 27,
+      "y": 9,
+      "region": "Rimeglass Heights"
+    },
+    "Silken Portal Room": {
+      "x": 0,
+      "y": 32,
+      "region": "Silken Chasm"
+    },
+    "Threadfall Galleries": {
+      "x": 0,
+      "y": -9,
+      "region": "Silken Chasm"
+    },
+    "Sunken Broodworks": {
+      "x": 0,
+      "y": 42,
+      "region": "Silken Depths"
+    },
+    "Widow's Crucible": {
+      "x": 0,
+      "y": -18,
+      "region": "Silken Depths"
+    },
+    "Crescent Crown Fortress": {
+      "x": 19,
+      "y": 31,
+      "region": "Drakenspire Highlands"
+    },
+    "The Ancestor's Crescent": {
+      "x": 26,
+      "y": 41,
+      "region": "Drakenspire Highlands"
+    },
+    "The Jarl's Hall": {
+      "x": 27,
+      "y": 35,
+      "region": "Drakenspire Highlands"
+    },
+    "Clans' Assembly House": {
+      "x": 22,
+      "y": 36,
+      "region": "Drakenspire Highlands"
+    },
+    "Crescent Sanctuary": {
+      "x": 30,
+      "y": 30,
+      "region": "Drakenspire Highlands"
+    },
+    "Ancestor Cairn Terrace": {
+      "x": 4,
+      "y": 30,
+      "region": "Drakenspire Highlands"
+    },
+    "High Rampart Gate": {
+      "x": 19,
+      "y": 22,
+      "region": "Drakenspire Highlands"
+    },
+    "Oathward Barracks": {
+      "x": 22,
+      "y": 26,
+      "region": "Drakenspire Highlands"
+    },
+    "Dragonwatch Balcony": {
+      "x": 36,
+      "y": 29,
+      "region": "Drakenspire Highlands"
+    },
+    "Founders' Processional Way": {
+      "x": 0,
+      "y": 10,
+      "region": "Drakenspire Highlands"
+    },
+    "Hearthmarket Square": {
+      "x": -1,
+      "y": 2,
+      "region": "Drakenspire Highlands"
+    },
+    "Snowmelt Residential Steps": {
+      "x": -4,
+      "y": -7,
+      "region": "Drakenspire Highlands"
+    },
+    "Cinderstone Schoolhouse": {
+      "x": -18,
+      "y": -4,
+      "region": "Drakenspire Highlands"
+    },
+    "Lower Hold Gate": {
+      "x": -12,
+      "y": -11,
+      "region": "Drakenspire Highlands"
+    },
+    "Iwatsugu Clanhold": {
+      "x": -2,
+      "y": 16,
+      "region": "Drakenspire Highlands"
+    },
+    "Yukinose Clanhold": {
+      "x": 8,
+      "y": 17,
+      "region": "Drakenspire Highlands"
+    },
+    "Arashimine Clanhold": {
+      "x": 1,
+      "y": -4,
+      "region": "Drakenspire Highlands"
+    },
+    "The Hold's Judgment House": {
+      "x": 20,
+      "y": 16,
+      "region": "Drakenspire Highlands"
+    },
+    "The Tempered Fang": {
+      "x": 22,
+      "y": 6,
+      "region": "Drakenspire Highlands"
+    },
+    "Rivet & Rime Armory": {
+      "x": 14,
+      "y": 8,
+      "region": "Drakenspire Highlands"
+    },
+    "The Woolen Wyvern": {
+      "x": -8,
+      "y": 6,
+      "region": "Drakenspire Highlands"
+    },
+    "Coppercrest Exchange": {
+      "x": -4,
+      "y": 8,
+      "region": "Drakenspire Highlands"
+    },
+    "Amberglass Assay House": {
+      "x": -7,
+      "y": 12,
+      "region": "Drakenspire Highlands"
+    },
+    "Crystalcutters' Court": {
+      "x": 7,
+      "y": 3,
+      "region": "Drakenspire Highlands"
+    },
+    "Resin & Root Apothecary": {
+      "x": 10,
+      "y": 9,
+      "region": "Drakenspire Highlands"
+    },
+    "Snowchain Freight Yard": {
+      "x": 21,
+      "y": 2,
+      "region": "Drakenspire Highlands"
+    },
+    "The Copper Ram": {
+      "x": -11,
+      "y": -4,
+      "region": "Drakenspire Highlands"
+    },
+    "Hearthpot Stew House": {
+      "x": 25,
+      "y": 5,
+      "region": "Drakenspire Highlands"
+    },
+    "Stonewake Onsen": {
+      "x": -35,
+      "y": -1,
+      "region": "Drakenspire Highlands"
+    },
+    "Snowbell Playhouse": {
+      "x": -12,
+      "y": 11,
+      "region": "Drakenspire Highlands"
+    },
+    "The Cinder Pit": {
+      "x": 10,
+      "y": -2,
+      "region": "Drakenspire Highlands"
+    },
+    "Deepwell Waterworks": {
+      "x": -31,
+      "y": -13,
+      "region": "Drakenspire Highlands"
+    },
+    "Hoofstep Pens": {
+      "x": -26,
+      "y": -31,
+      "region": "Drakenspire Highlands"
+    },
+    "Woolridge Pastures": {
+      "x": -22,
+      "y": -27,
+      "region": "Drakenspire Highlands"
+    },
+    "Winter Stores": {
+      "x": 10,
+      "y": 2,
+      "region": "Drakenspire Highlands"
+    },
+    "Whitepass Watchpost": {
+      "x": -34,
+      "y": -34,
+      "region": "Drakenspire Highlands"
+    },
+    "Goatstep Hamlet": {
+      "x": -26,
+      "y": -25,
+      "region": "Drakenspire Highlands"
+    },
+    "Pinefold Hollow": {
+      "x": -45,
+      "y": -25,
+      "region": "Drakenspire Highlands"
+    },
+    "Glassmere Basin": {
+      "x": -42,
+      "y": 15,
+      "region": "Drakenspire Highlands"
+    },
+    "Redvein Mine": {
+      "x": 35,
+      "y": -11,
+      "region": "Drakenspire Highlands"
+    },
+    "Lanternamber Caverns": {
+      "x": -43,
+      "y": 23,
+      "region": "Drakenspire Highlands"
+    },
+    "The Abandoned Chainworks": {
+      "x": 43,
+      "y": -10,
+      "region": "Drakenspire Highlands"
+    },
+    "Old Hearthfall": {
+      "x": 25,
+      "y": -28,
+      "region": "Drakenspire Highlands"
+    },
+    "Frostback Mountain": {
+      "x": -11,
+      "y": 45,
+      "region": "Drakenspire Highlands"
+    },
+    "The Buried Switchback": {
+      "x": -31,
+      "y": 30,
+      "region": "Drakenspire Highlands"
+    },
+    "Skreek Crags": {
+      "x": -25,
+      "y": 35,
+      "region": "Drakenspire Highlands"
+    },
+    "Giant's Hollow": {
+      "x": -16,
+      "y": 25,
+      "region": "Drakenspire Highlands"
+    },
+    "The White Silence": {
+      "x": -20,
+      "y": 39,
+      "region": "Drakenspire Highlands"
+    },
+    "Stormscar Observatory": {
+      "x": -44,
+      "y": 43,
+      "region": "Drakenspire Highlands"
+    },
+    "First Shelter Ruins": {
+      "x": -38,
+      "y": 39,
+      "region": "Drakenspire Highlands"
+    },
+    "The Old Offering Steps": {
+      "x": -3,
+      "y": 31,
+      "region": "Drakenspire Highlands"
+    },
+    "Coldglass Galleries": {
+      "x": -13,
+      "y": 34,
+      "region": "Drakenspire Highlands"
+    },
+    "The Fallen Pass Shrine": {
+      "x": -33,
+      "y": 37,
+      "region": "Drakenspire Highlands"
+    },
+    "Rimefang Ravine": {
+      "x": 6,
+      "y": -34,
+      "region": "Drakenspire Highlands"
+    },
+    "Sunspill Woodland": {
+      "x": -6,
+      "y": 12,
+      "region": "Cloudbloom Reaches"
+    },
+    "Petalwash Terraces": {
+      "x": 1,
+      "y": 4,
+      "region": "Cloudbloom Reaches"
+    },
+    "Tetherroot Chain": {
+      "x": 19,
+      "y": -31,
+      "region": "Cloudbloom Reaches"
+    },
+    "Dewglass Hollows": {
+      "x": -30,
+      "y": -8,
+      "region": "Cloudbloom Reaches"
+    },
+    "Rimeglass Refuge": {
+      "x": -13,
+      "y": -6,
+      "region": "Rimeglass Heights"
+    },
+    "Frostbell Pines": {
+      "x": -6,
+      "y": 5,
+      "region": "Rimeglass Heights"
+    },
+    "Rimeglass Crown": {
+      "x": 4,
+      "y": 35,
+      "region": "Rimeglass Heights"
+    },
+    "Thunderwake Crags": {
+      "x": 36,
+      "y": 14,
+      "region": "Rimeglass Heights"
+    },
+    "Hollow Snow Vault": {
+      "x": 22,
+      "y": 3,
+      "region": "Rimeglass Heights"
+    },
+    "Reedglass Anchorage": {
+      "x": 27,
+      "y": 28,
+      "region": "Mirrorwater Marches"
+    },
+    "Mirrorwater Basin": {
+      "x": -2,
+      "y": 20,
+      "region": "Mirrorwater Marches"
+    },
+    "Glassreed Labyrinth": {
+      "x": 8,
+      "y": -4,
+      "region": "Mirrorwater Marches"
+    },
+    "Spillway Steps": {
+      "x": -24,
+      "y": 10,
+      "region": "Mirrorwater Marches"
+    },
+    "Lanternmire Islets": {
+      "x": -36,
+      "y": -20,
+      "region": "Mirrorwater Marches"
+    },
+    "Drowned Orrery": {
+      "x": -9,
+      "y": -18,
+      "region": "Mirrorwater Marches"
+    },
+    "Undertow Hollows": {
+      "x": 16,
+      "y": -16,
+      "region": "Mirrorwater Marches"
+    },
+    "Heatherwatch Shelf": {
+      "x": -26,
+      "y": 30,
+      "region": "Amethyst Crown"
+    },
+    "Mauvewind Steppe": {
+      "x": 2,
+      "y": 4,
+      "region": "Amethyst Crown"
+    },
+    "Singing Stone Spines": {
+      "x": 14,
+      "y": 36,
+      "region": "Amethyst Crown"
+    },
+    "Prismbloom Basin": {
+      "x": 34,
+      "y": -13,
+      "region": "Amethyst Crown"
+    },
+    "Crownfall Chasm": {
+      "x": 23,
+      "y": -13,
+      "region": "Amethyst Crown"
+    },
+    "Stillstar Sanctum": {
+      "x": 1,
+      "y": -15,
+      "region": "Amethyst Crown"
+    },
+    "The Inverted Crown": {
+      "x": 27,
+      "y": 22,
+      "region": "Amethyst Crown"
+    },
+    "Adventurer's Guild - Glowhaven Branch": {
+      "x": 45,
+      "y": 21,
+      "region": "Artisan Quarter"
+    },
+    "Sepulchral Portal House": {
+      "x": 0,
+      "y": 39,
+      "region": "Sepulchral Gardens"
+    },
+    "Sepulchral Conservatory": {
+      "x": 0,
+      "y": -19,
+      "region": "Sepulchral Gardens"
+    },
+    "Mourning Garden": {
+      "x": 0,
+      "y": 19,
+      "region": "Sepulchral Gardens"
+    },
+    "Blackpine Posthouse": {
+      "x": -10,
+      "y": -20,
+      "region": "Blackpine March"
+    },
+    "Cedarfall Hamlet": {
+      "x": 43,
+      "y": -6,
+      "region": "Blackpine March"
+    },
+    "Western Watch Road": {
+      "x": 37,
+      "y": -15,
+      "region": "Blackpine March"
+    },
+    "Old Bell Shrine": {
+      "x": 30,
+      "y": 22,
+      "region": "Blackpine March"
+    },
+    "Foxglove Wood": {
+      "x": 30,
+      "y": 8,
+      "region": "Blackpine March"
+    },
+    "Blackpine Boundary Stones": {
+      "x": -19,
+      "y": 36,
+      "region": "Blackpine March"
+    },
+    "Hollow Cedar Ruins": {
+      "x": -4,
+      "y": 38,
+      "region": "Blackpine March"
+    },
+    "Western Woodcutters' Yard": {
+      "x": 26,
+      "y": -30,
+      "region": "Blackpine March"
+    },
+    "Thundercrag Quarry": {
+      "x": 3,
+      "y": 17,
+      "region": "Thundercrag Highlands"
+    },
+    "Kuroishi Miners' Row": {
+      "x": 19,
+      "y": -19,
+      "region": "Thundercrag Highlands"
+    },
+    "Basalt Kilns": {
+      "x": -2,
+      "y": 1,
+      "region": "Thundercrag Highlands"
+    },
+    "Amber-Salt Mine": {
+      "x": 24,
+      "y": 5,
+      "region": "Thundercrag Highlands"
+    },
+    "Abandoned Splitshaft": {
+      "x": 30,
+      "y": 22,
+      "region": "Thundercrag Highlands"
+    },
+    "Scree Lantern Pass": {
+      "x": -14,
+      "y": 33,
+      "region": "Thundercrag Highlands"
+    },
+    "Quarry Exchange": {
+      "x": -5,
+      "y": -11,
+      "region": "Thundercrag Highlands"
+    },
+    "Broken Relay Tower": {
+      "x": -33,
+      "y": 25,
+      "region": "Thundercrag Highlands"
+    },
+    "Shiun Pilgrim Lodge": {
+      "x": -6,
+      "y": -32,
+      "region": "Mount Shiun"
+    },
+    "Shiun Thousand Steps": {
+      "x": -18,
+      "y": -12,
+      "region": "Mount Shiun"
+    },
+    "Cloudbell Monastery": {
+      "x": 2,
+      "y": 8,
+      "region": "Mount Shiun"
+    },
+    "Whitefall Shrine": {
+      "x": -30,
+      "y": -4,
+      "region": "Mount Shiun"
+    },
+    "Summit Cedar Precinct": {
+      "x": 6,
+      "y": 20,
+      "region": "Mount Shiun"
+    },
+    "Shiun Herb Slopes": {
+      "x": 25,
+      "y": -17,
+      "region": "Mount Shiun"
+    },
+    "Ancestor Archive": {
+      "x": 12,
+      "y": 13,
+      "region": "Mount Shiun"
+    },
+    "Frost-Eave Approach": {
+      "x": -16,
+      "y": 26,
+      "region": "Mount Shiun"
+    },
+    "Snowcedar Refuge": {
+      "x": -31,
+      "y": 15,
+      "region": "Snowcedar Heights"
+    },
+    "Blue Mirror Tarn": {
+      "x": -6,
+      "y": 32,
+      "region": "Snowcedar Heights"
+    },
+    "White Antler Basin": {
+      "x": 2,
+      "y": 23,
+      "region": "Snowcedar Heights"
+    },
+    "Snowcedar Signal Hut": {
+      "x": -10,
+      "y": -3,
+      "region": "Snowcedar Heights"
+    },
+    "Rime Bridge": {
+      "x": -6,
+      "y": -14,
+      "region": "Snowcedar Heights"
+    },
+    "Forgotten Muster Camp": {
+      "x": 27,
+      "y": 30,
+      "region": "Snowcedar Heights"
+    },
+    "Sleeping Lake Cavern": {
+      "x": 6,
+      "y": 39,
+      "region": "Snowcedar Heights"
+    },
+    "Mizuhara Castle": {
+      "x": 5,
+      "y": 28,
+      "region": "Mizuhara Lake Country"
+    },
+    "Mizuhara Landing": {
+      "x": 28,
+      "y": 23,
+      "region": "Mizuhara Lake Country"
+    },
+    "Silver Carp Market": {
+      "x": -23,
+      "y": 28,
+      "region": "Mizuhara Lake Country"
+    },
+    "Three Reeds Inn": {
+      "x": -33,
+      "y": -10,
+      "region": "Mizuhara Lake Country"
+    },
+    "Saionoma Household": {
+      "x": 14,
+      "y": 22,
+      "region": "Mizuhara Lake Country"
+    },
+    "Reedwake Boatworks": {
+      "x": 40,
+      "y": -28,
+      "region": "Mizuhara Lake Country"
+    },
+    "Western Spear Hall": {
+      "x": -7,
+      "y": 26,
+      "region": "Mizuhara Lake Country"
+    },
+    "Reedshore Hamlet": {
+      "x": 40,
+      "y": 29,
+      "region": "Mizuhara Lake Country"
+    },
+    "Lakewatch Islet": {
+      "x": 6,
+      "y": -22,
+      "region": "Mizuhara Lake Country"
+    },
+    "Bamboo Crossing": {
+      "x": -23,
+      "y": 25,
+      "region": "Bamboo Veil Valleys"
+    },
+    "Green Thread Paperworks": {
+      "x": -41,
+      "y": 17,
+      "region": "Bamboo Veil Valleys"
+    },
+    "Rainsong Mill": {
+      "x": -21,
+      "y": 12,
+      "region": "Bamboo Veil Valleys"
+    },
+    "Hidden Reed Training Ground": {
+      "x": 26,
+      "y": 39,
+      "region": "Bamboo Veil Valleys"
+    },
+    "Riverglass Baths": {
+      "x": 14,
+      "y": -1,
+      "region": "Bamboo Veil Valleys"
+    },
+    "Abandoned Bamboo Village": {
+      "x": -30,
+      "y": 37,
+      "region": "Bamboo Veil Valleys"
+    },
+    "Moonweave Grove": {
+      "x": -9,
+      "y": 36,
+      "region": "Bamboo Veil Valleys"
+    },
+    "Bamboo Charcoal Camp": {
+      "x": 9,
+      "y": 28,
+      "region": "Bamboo Veil Valleys"
+    },
+    "Benitsuru Portal Shrine": {
+      "x": 1,
+      "y": 34,
+      "region": "Benitsuru Basin"
+    },
+    "Benitsuru Castle": {
+      "x": -2,
+      "y": 47,
+      "region": "Benitsuru Basin"
+    },
+    "Adventurer's Guild - Benitsuru Branch": {
+      "x": -13,
+      "y": 23,
+      "region": "Benitsuru Basin"
+    },
+    "Lantern Canal Market": {
+      "x": -9,
+      "y": 29,
+      "region": "Benitsuru Basin"
+    },
+    "Benitsuru Magistracy": {
+      "x": 20,
+      "y": 23,
+      "region": "Benitsuru Basin"
+    },
+    "Red Maple Inn": {
+      "x": 0,
+      "y": 3,
+      "region": "Benitsuru Basin"
+    },
+    "Benitsuru Ward Clinic": {
+      "x": -30,
+      "y": 35,
+      "region": "Benitsuru Basin"
+    },
+    "Kagetsuna Household": {
+      "x": -22,
+      "y": 25,
+      "region": "Benitsuru Basin"
+    },
+    "Eight Petals Theater": {
+      "x": 15,
+      "y": 45,
+      "region": "Benitsuru Basin"
+    },
+    "Benitsuru Craft Quarter": {
+      "x": 30,
+      "y": 31,
+      "region": "Benitsuru Basin"
+    },
+    "Morning Crane Dojo": {
+      "x": 13,
+      "y": 21,
+      "region": "Benitsuru Basin"
+    },
+    "Canal Ward Homes": {
+      "x": -31,
+      "y": 23,
+      "region": "Benitsuru Basin"
+    },
+    "Benitsuru Public School": {
+      "x": -38,
+      "y": 1,
+      "region": "Benitsuru Basin"
+    },
+    "South Gate Caravan Yard": {
+      "x": 41,
+      "y": 17,
+      "region": "Benitsuru Basin"
+    },
+    "Koganedai Castle": {
+      "x": 0,
+      "y": 22,
+      "region": "Koganedai Terraces"
+    },
+    "Tsubakiri Residence": {
+      "x": 22,
+      "y": 18,
+      "region": "Koganedai Terraces"
+    },
+    "Goldleaf Arcade": {
+      "x": 9,
+      "y": -13,
+      "region": "Koganedai Terraces"
+    },
+    "Ginkgo Crossbow Works": {
+      "x": 18,
+      "y": 3,
+      "region": "Koganedai Terraces"
+    },
+    "Koganedai Muster Ground": {
+      "x": -14,
+      "y": -8,
+      "region": "Koganedai Terraces"
+    },
+    "Terrace Waterworks": {
+      "x": -31,
+      "y": 21,
+      "region": "Koganedai Terraces"
+    },
+    "East Wind Archery Hall": {
+      "x": 27,
+      "y": -21,
+      "region": "Koganedai Terraces"
+    },
+    "Koganedai Guesthouse": {
+      "x": 9,
+      "y": 15,
+      "region": "Koganedai Terraces"
+    },
+    "Ginkgo Schoolhouse": {
+      "x": 1,
+      "y": 0,
+      "region": "Koganedai Terraces"
+    },
+    "Mirror-Reed Bridge": {
+      "x": 18,
+      "y": 26,
+      "region": "Mirror-Reed Lowlands"
+    },
+    "Reedglass Woodland Hamlet": {
+      "x": 43,
+      "y": 24,
+      "region": "Mirror-Reed Lowlands"
+    },
+    "White Heron Grove": {
+      "x": 28,
+      "y": -32,
+      "region": "Mirror-Reed Lowlands"
+    },
+    "Singing Cedar Hollow": {
+      "x": -13,
+      "y": -7,
+      "region": "Mirror-Reed Lowlands"
+    },
+    "Old Bridge Shrine": {
+      "x": -20,
+      "y": 38,
+      "region": "Mirror-Reed Lowlands"
+    },
+    "Mossbank Ridgeway": {
+      "x": 15,
+      "y": -17,
+      "region": "Mirror-Reed Lowlands"
+    },
+    "Woodland Dye Workshop": {
+      "x": 46,
+      "y": -19,
+      "region": "Mirror-Reed Lowlands"
+    },
+    "Hoshina Village": {
+      "x": 5,
+      "y": 21,
+      "region": "Golden Grain Plain"
+    },
+    "Golden Sheaf Granary": {
+      "x": -30,
+      "y": 28,
+      "region": "Golden Grain Plain"
+    },
+    "South River Bridge": {
+      "x": 25,
+      "y": 45,
+      "region": "Golden Grain Plain"
+    },
+    "Goldfinch Orchard": {
+      "x": 37,
+      "y": 22,
+      "region": "Golden Grain Plain"
+    },
+    "Susuki Road": {
+      "x": -5,
+      "y": 32,
+      "region": "Golden Grain Plain"
+    },
+    "Low Meadow Paddies": {
+      "x": 22,
+      "y": 7,
+      "region": "Golden Grain Plain"
+    },
+    "Saffron Road Hostel": {
+      "x": 29,
+      "y": -31,
+      "region": "Golden Grain Plain"
+    },
+    "Redleaf Bridge": {
+      "x": -48,
+      "y": 10,
+      "region": "Redleaf River Country"
+    },
+    "Evening Maple Shrine": {
+      "x": -1,
+      "y": 11,
+      "region": "Redleaf River Country"
+    },
+    "Redleaf Guest Village": {
+      "x": -27,
+      "y": 1,
+      "region": "Redleaf River Country"
+    },
+    "Paper Moon Pavilion": {
+      "x": 12,
+      "y": -12,
+      "region": "Redleaf River Country"
+    },
+    "Foxfire Verge": {
+      "x": 30,
+      "y": -31,
+      "region": "Redleaf River Country"
+    },
+    "Broken Kite Camp": {
+      "x": 24,
+      "y": -14,
+      "region": "Redleaf River Country"
+    },
+    "Redleaf Apiculture": {
+      "x": -41,
+      "y": -4,
+      "region": "Redleaf River Country"
+    },
+    "River Lantern Mooring": {
+      "x": 28,
+      "y": 32,
+      "region": "Redleaf River Country"
+    },
+    "Moonless Torii": {
+      "x": 22,
+      "y": -4,
+      "region": "Lanternwood Border"
+    },
+    "Lanternwood Root Shrine": {
+      "x": -26,
+      "y": 34,
+      "region": "Lanternwood Border"
+    },
+    "Ragged Cedar Hollow": {
+      "x": 31,
+      "y": 7,
+      "region": "Lanternwood Border"
+    },
+    "Old Mask Trail": {
+      "x": 19,
+      "y": 13,
+      "region": "Lanternwood Border"
+    },
+    "Rootfall Ravine": {
+      "x": -11,
+      "y": -37,
+      "region": "Lanternwood Border"
+    },
+    "Lanternwood Field Shelter": {
+      "x": -5,
+      "y": -9,
+      "region": "Lanternwood Border"
+    },
+    "Foxglade Spirit Orchard": {
+      "x": 4,
+      "y": 41,
+      "region": "Lanternwood Border"
+    },
+    "Hushwater Pool": {
+      "x": 14,
+      "y": 26,
+      "region": "Lanternwood Border"
+    },
+    "Veiled Threshold": {
+      "x": -38,
+      "y": -29,
+      "region": "Veiled Cedar Reach"
+    },
+    "Bellroot Refuge": {
+      "x": -30,
+      "y": 5,
+      "region": "Veiled Cedar Reach"
+    },
+    "Pale Lantern Marsh": {
+      "x": 24,
+      "y": -23,
+      "region": "Veiled Cedar Reach"
+    },
+    "The Listening Cedars": {
+      "x": -30,
+      "y": 35,
+      "region": "Veiled Cedar Reach"
+    },
+    "Ashen Festival Road": {
+      "x": 7,
+      "y": 0,
+      "region": "Veiled Cedar Reach"
+    },
+    "Crane-of-the-Hush Crossing": {
+      "x": 2,
+      "y": 26,
+      "region": "Veiled Cedar Reach"
+    },
+    "Hollow Sky Grove": {
+      "x": 35,
+      "y": 33,
+      "region": "Veiled Cedar Reach"
+    },
+    "Hinoki Hollow Onsen": {
+      "x": 34,
+      "y": -45,
+      "region": "Benitsuru Basin"
+    },
+    "The Gilded Albatross": {
+      "x": -33,
+      "y": -35,
+      "region": "Bluecoil Reach"
+    },
+    "Splinterwake Wreck": {
+      "x": 13,
+      "y": 35,
+      "region": "Moonarch Shoals"
+    },
+    "Moonarch Isle": {
+      "x": -20,
+      "y": 0,
+      "region": "Moonarch Shoals"
+    },
+    "Stillback Isle": {
+      "x": 16,
+      "y": -39,
+      "region": "Moonarch Shoals"
+    },
+    "Greenrush Estuary": {
+      "x": 8,
+      "y": -21,
+      "region": "Greenrush Marshes"
+    },
+    "Thistlebank Alchemy Cottage": {
+      "x": 50,
+      "y": -47,
+      "region": "Pinewater Vale"
+    },
+    "Wrenhill Windmill": {
+      "x": 13,
+      "y": -11,
+      "region": "Brookmeadow Downs"
+    },
+    "Old Southwatch": {
+      "x": 19,
+      "y": -10,
+      "region": "Southglade Woods"
+    },
+    "Bluecoil Rest": {
+      "x": 7,
+      "y": 13,
+      "region": "Bluecoil Reach"
+    },
+    "Beaconrest Lighthouse": {
+      "x": 42,
+      "y": -10,
+      "region": "Harbor District"
+    },
+    "Starlark Abbey": {
+      "x": 21,
+      "y": -36,
+      "region": "Seaward Bluffs"
+    },
+    "Gullwatch Reefs": {
+      "x": 25,
+      "y": -24,
+      "region": "Crescent Coast"
+    },
+    "Longgrass Crossroads": {
+      "x": -29,
+      "y": 49,
+      "region": "Brookmeadow Downs"
+    },
+    "Seaward Overlook": {
+      "x": 32,
+      "y": 2,
+      "region": "Seaward Bluffs"
+    }
+  },
+  "migration": {
+    "renamedRegions": {
+      "Northeast district": "Northwest District",
+      "Evertree district": "Evertree District",
+      "harbor district": "Harbor District",
+      "glowhaven islets": "Whitecrest Isles",
+      "sea or something": "Bluecoil Reach",
+      "southwest district": "Southwest District",
+      "worker's district": "Artisan Quarter",
+      "southest district": "Southeast District",
+      "glowhaven shores": "Crescent Coast",
+      "sea but with ruins": "Moonarch Shoals",
+      "forests in west": "Westpine Forest",
+      "rivers": "Pinewater Vale",
+      "farmlands": "Greenfield Farmlands",
+      "cliffside near sea": "Seaward Bluffs",
+      "where the estuary is": "Greenrush Marshes",
+      "southwest forests": "Southglade Woods",
+      "another plains": "Longgrass Meadows",
+      "plains": "Sunmead Plain",
+      "west of village": "Brookmeadow Downs",
+      "brookmeadowVillage": "Brookmeadow Vale"
+    },
+    "renamedLocations": {
+      "big ship location": "The Gilded Albatross",
+      "shipwreck location, theres a kraken around here": "Splinterwake Wreck",
+      "island ruins location": "Moonarch Isle",
+      "rocky isle with a giant turtle": "Stillback Isle",
+      "estuary": "Greenrush Estuary",
+      "alchemist hut in the boonies": "Thistlebank Alchemy Cottage",
+      "windmill": "Wrenhill Windmill",
+      "an old guardtower": "Old Southwatch",
+      "rocky isle where a blue sea serpent is": "Bluecoil Rest",
+      "lighthouse": "Beaconrest Lighthouse",
+      "a church or abbey?": "Starlark Abbey",
+      "gullwatch reefs": "Gullwatch Reefs",
+      "crossroads": "Longgrass Crossroads",
+      "cliff": "Seaward Overlook"
+    },
+    "repairedOrphans": [
+      {
+        "location": "Brookmeadow",
+        "oldRegion": "Region 23",
+        "newRegion": "Brookmeadow Vale"
+      },
+      {
+        "location": "Glowhaven Farmlands",
+        "oldRegion": "Region 11",
+        "newRegion": "Greenfield Farmlands"
+      },
+      {
+        "location": "Shadowspire",
+        "oldRegion": "Region 11",
+        "newRegion": "Greenfield Farmlands"
+      },
+      {
+        "location": "Pinewater Woods",
+        "oldRegion": "Region 9",
+        "newRegion": "Westpine Forest"
+      },
+      {
+        "location": "windmill",
+        "oldRegion": "Region 22",
+        "newRegion": "Brookmeadow Downs"
+      },
+      {
+        "location": "an old guardtower",
+        "oldRegion": "Region 19",
+        "newRegion": "Southglade Woods"
+      }
+    ]
+  },
+  "newNpcs": [
+    "Reina Kazehara",
+    "Mio Tatsunami",
+    "Daigo Umetsu",
+    "Nanae Kogure",
+    "Sōji Hamada",
+    "Iris Mornay",
+    "Chizuru Hoshikawa",
+    "Lucette Bellanger",
+    "Eiji Kuramochi",
+    "Tamae Shibano",
+    "Yorina Tsugawa",
+    "Shūhei Kusanagi",
+    "Fuyuka Kusanagi",
+    "Kōzō Hinoura",
+    "Saki Hinoura",
+    "Makiho Akitsu",
+    "Rinako Matsuba",
+    "Kenta Matsuba",
+    "Uta Nekoyama",
+    "Daisaku Minobe",
+    "Mina Takanashi",
+    "Hirotaka Fushimi",
+    "Kanna Enozaki",
+    "Brina Flintmere",
+    "Yūsei Hatanaka",
+    "Nerathyl",
+    "Mauruun",
+    "Ghorvath"
+  ],
+  "contents": {
+    "npcTypes": [
+      "Tideglass Shrimp",
+      "Brinecap Slime",
+      "Inkpot Cuttlefish",
+      "Hookbeak Gull",
+      "Sailcloth Moth",
+      "Kelpclaw Crab",
+      "Bellfin Shoal",
+      "Shoalglass Ray",
+      "Mooring Mimic",
+      "Barnacle Brute",
+      "Undertow Eel",
+      "Salt-Crest Wyvern",
+      "Reedlace Sprite",
+      "Tangletooth Otter",
+      "Burdock Lurker",
+      "Chalkback Ram"
+    ],
+    "items": [
+      "Albatross Deck Saber",
+      "Whitecrest Boarding Spear",
+      "Reefhook Knife",
+      "Sailor’s Padded Coat",
+      "Tidewalker Boots",
+      "Saltproof Canvas Cloak",
+      "Reefworker Gloves",
+      "Braided Boat Safety Line",
+      "Whitecrest Sounding Cord",
+      "Air-Bell Dive Fitting",
+      "Tide Ledger and Case",
+      "Beacon Lens Gauge",
+      "Thistlebank Field Satchel",
+      "Wrenhill Mill Key",
+      "Albatross Passage Receipt",
+      "Whitecrest Skiff Deed",
+      "Starlark Guest Key",
+      "Starlark Lantern Charm",
+      "Mended Sailcloth Pouch",
+      "Tideglass Sample Vial",
+      "Reef-Polished Moonarch Shard",
+      "Naturally Shed Bluecoil Scale",
+      "Nerathyl’s Crest Plate",
+      "Ghorvath’s Beak Fragment",
+      "Stillback Shell Comb",
+      "Mauruun’s Shed Scute",
+      "Bottle of Borrowed Sunset",
+      "Compass of Almost Home",
+      "Bellfin Chime Bracelet",
+      "Old Southwatch Fieldglass",
+      "Kelpweave Rest Mat",
+      "Thistlebank Warm Meal Tin"
+    ],
+    "quests": [
+      "Guild: The Mill Has Teeth",
+      "Guild: A Ram in the Road",
+      "A Place before Supper",
+      "Guild: Knots in the Reedwalk",
+      "A Jar That Will Not Settle",
+      "Guild: Wings in the Stores",
+      "Guild: A Light beneath the Jetty",
+      "Guild: Tools in the Bank",
+      "The Wrong Kind of Hide",
+      "The Bell That Wakes the Ward",
+      "Guild: A Rope with Opinions",
+      "Guild: The Mark below the Arch",
+      "A Second Pair of Eyes",
+      "What the Shell Caught",
+      "A Patient Kind of Work",
+      "The Nesting Shelf",
+      "Guild: A Hold Full of Knuckles",
+      "The Name on the Crate",
+      "The Price of Bringing It Back",
+      "Guild: The Current in the Wall",
+      "A Quiet View, Honestly",
+      "Guild: A Nest above the Catch",
+      "The Bluecoil Watch",
+      "Guild: Ghorvath at the Deepwater Edge"
+    ],
+    "guildCatalogueAdded": 12,
+    "guildJobs": [
+      {
+        "title": "Guild: The Mill Has Teeth",
+        "recommendedLevel": 1,
+        "rank": 1
+      },
+      {
+        "title": "Guild: A Ram in the Road",
+        "recommendedLevel": 3,
+        "rank": 1
+      },
+      {
+        "title": "Guild: Knots in the Reedwalk",
+        "recommendedLevel": 4,
+        "rank": 1
+      },
+      {
+        "title": "Guild: Wings in the Stores",
+        "recommendedLevel": 7,
+        "rank": 1
+      },
+      {
+        "title": "Guild: A Light beneath the Jetty",
+        "recommendedLevel": 8,
+        "rank": 1
+      },
+      {
+        "title": "Guild: Tools in the Bank",
+        "recommendedLevel": 9,
+        "rank": 1
+      },
+      {
+        "title": "Guild: A Rope with Opinions",
+        "recommendedLevel": 12,
+        "rank": 1
+      },
+      {
+        "title": "Guild: The Mark below the Arch",
+        "recommendedLevel": 15,
+        "rank": 2
+      },
+      {
+        "title": "Guild: A Hold Full of Knuckles",
+        "recommendedLevel": 20,
+        "rank": 2
+      },
+      {
+        "title": "Guild: The Current in the Wall",
+        "recommendedLevel": 24,
+        "rank": 2
+      },
+      {
+        "title": "Guild: A Nest above the Catch",
+        "recommendedLevel": 27,
+        "rank": 2
+      },
+      {
+        "title": "Guild: Ghorvath at the Deepwater Edge",
+        "recommendedLevel": 50,
+        "rank": 3
+      }
+    ],
+    "localOffers": [
+      [
+        "A Place before Supper",
+        "Tamae Shibano",
+        "Starlark Abbey",
+        "Starlark Abbey"
+      ],
+      [
+        "A Jar That Will Not Settle",
+        "Yorina Tsugawa",
+        "Thistlebank Alchemy Cottage",
+        "Thistlebank Alchemy Cottage"
+      ],
+      [
+        "The Wrong Kind of Hide",
+        "Uta Nekoyama",
+        "Pinewater Woods",
+        "Pinewater Woods"
+      ],
+      [
+        "The Bell That Wakes the Ward",
+        "Eiji Kuramochi",
+        "Starlark Abbey",
+        "Starlark Abbey"
+      ],
+      [
+        "A Second Pair of Eyes",
+        "Brina Flintmere",
+        "Old Southwatch",
+        "Longgrass Crossroads"
+      ],
+      [
+        "What the Shell Caught",
+        "Mina Takanashi",
+        "Stillback Isle",
+        "Greenrush Estuary"
+      ],
+      [
+        "A Quiet View, Honestly",
+        "Kōzō Hinoura",
+        "Seaward Overlook",
+        "Beaconrest Lighthouse"
+      ],
+      [
+        "The Bluecoil Watch",
+        "Mina Takanashi",
+        "Bluecoil Rest",
+        "Greenrush Estuary"
+      ]
+    ],
+    "runtimeArcsAdded": [],
+    "storylineDesigns": {
+      "ghx_salvage_claim": {
+        "id": "ghx_salvage_claim",
+        "title": "The Cost of a Good Recovery",
+        "status": "active",
+        "minQuestsForConclusion": 2,
+        "theme": "An independent salvage crew balances a valuable recovery, a disputed claim and promises to the people doing the work. Reuse the finite quests A Hold Full of Knuckles, The Name on the Crate and The Price of Bringing It Back when applicable; do not generate duplicates or a second payout. The crew have their own financial pressures and disagreements. The player can join, negotiate a limited role, expose a dishonest sale or leave.",
+        "surfacePremise": "The Gilded Albatross can recover a valuable consignment, but finding it and being entitled to sell it are different problems.",
+        "expectedConclusion": "The actual recovered goods receive an informed, carried-out disposition and the crew’s agreed work is settled, or the venture ends with a specific known loss. Do not imply successful delivery from a promise or require an inevitable betrayal.",
+        "secrets": [
+          "Reina guaranteed an expensive hull repair against her own share.",
+          "Sōji fears an attractive recovery will become a costly ownership dispute.",
+          "Kanna Enozaki can offer a shortcut whose advantage depends on what the parties actually know."
+        ]
+      },
+      "ghx_patient_island": {
+        "id": "ghx_patient_island",
+        "title": "The Island That Breathes",
+        "status": "active",
+        "minQuestsForConclusion": 2,
+        "theme": "A peaceful giant animal has a small painful problem and a resting ground people find convenient. Use What the Shell Caught, A Patient Kind of Work and The Nesting Shelf for the real developments, not repeated generic care jobs. Observation, practical care and an actual change in traffic can each matter. Do not turn patience into automatic taming, a compulsory level-60 fight or a secret talking deity.",
+        "surfacePremise": "Mauruun’s uneasy shifts have become more frequent, and Mina wants to know why before someone provokes it.",
+        "expectedConclusion": "The identified irritation is relieved and a workable resting/landing arrangement is carried out, or the people involved explicitly choose a limited unresolved outcome. The turtle remains its own animal, not a free mount.",
+        "secrets": [
+          "Old line pulls at a tender shell seam.",
+          "Makiho’s useful fishing approach overlaps the resting shelf."
+        ]
+      }
+    }
+  },
+  "environment": {
+    "newStarts": [
+      "⛵ Aboard the Gilded Albatross",
+      "🕯️ Starlark Abbey: A Light for the Road"
+    ],
+    "loreEntries": [
+      "Glowhaven — City and Country",
+      "Whitecrest — Boats and Passage",
+      "The Albatross Company",
+      "Avelune and Starlark Abbey",
+      "Stillback — The Patient Island",
+      "Bluecoil — A Sleeping Danger",
+      "Ghorvath — Eastern Deepwater",
+      "Glowhaven — Rural Work and Quiet Places",
+      "Glowhaven — Coastwise Exploration"
+    ],
+    "roamingTriggers": [
+      "ghx_kraken_roam"
+    ]
+  },
+  "portraitRefresh": {
+    "changedExistingTraits": 6,
+    "addedCosmeticOutfits": [
+      "Outfit — Phoenix Wing uniform",
+      "Outfit — Hydra Head uniform",
+      "Outfit — Gryffin Tail uniform",
+      "Outfit — Dragon Hoard uniform"
+    ],
+    "imagePromptUtf16": 4629
+  },
+  "academicRevamp": {
+    "rewrittenAcademyStarts": 4,
+    "newNativeAssessments": [
+      "Phoenix Wing: Hold the Line",
+      "Gryffin Tail: A Claim Worth Testing",
+      "Dragon Hoard: Earn Your Place",
+      "Hydra Head: A Settlement That Holds"
+    ],
+    "newMechanicalTriggers": 0,
+    "newGradeResources": 0,
+    "retainedSuggestedLeads": [
+      "Find Afternoon Work",
+      "Visit the Glowhaven Guild"
+    ]
+  },
+  "hostedPortraits": 28,
+  "portraitStates": {
+    "ready": true,
+    "npc": "Nerathyl",
+    "initial": "Asleep",
+    "variants": [
+      "Asleep",
+      "Awake"
+    ],
+    "triggers": [
+      "ghx_serpent_wakes",
+      "ghx_serpent_sleeps"
+    ]
+  },
+  "existingNpcsExact": 369,
+  "allExistingPortraitsExact": true,
+  "allIncomingMapImagesAndCoordinatesExact": true,
+  "spiderAndOtherRealmsExact": true,
+  "studioSaved": false,
+  "studioPublished": false,
+  "sourceNpcHashes": {
+    "Ilyra Stillglass": "8605e4e0b55e2075d139170178802113cee3aa8347d89c83a038c1771c0af645",
+    "Akane Todo": "fb91f530bd81e09de6b40896e99cae299a4b3929d106b42ff5a1102516cae840",
+    "Gen'ichirō Mizuhara": "4b913d4de91f13c7efb014cf1bbcfc8356528da281579986d1dac4aa6c6265dd",
+    "Tōru Shizunami": "cc03c06caf6ef64a299e71e1639b06eab1c6d626c2722833aa88724e6b1b586f",
+    "Reika Saionji": "237c8d9d6cb57d57389d1f031dfa487bebd874b89112ebecd4d548f1db2eceb3",
+    "Kōhei Sanada": "f5a9a862a52b15496c6d8f3afa84b9a715fb35764b770fd8eefd20c3114ca1a3",
+    "Norio Shibata": "c81d05469bb0ce6f708b8b7420845a483938df319e0ae883040d5541f4d2e294",
+    "Miyu Asahina": "f9e24e67315e87f0ad211ef36a38149ed9e3a23635ad20e204d27f2735f3a381",
+    "Kiyoko Fujinami": "0d1eb6e73ba508647e1309b3b29237982d99b23e8ded02045a8c2908f346e129",
+    "Ritsu Kurogane": "29571df00d212077c1ed383f600f4c7624c7aced73542ff39691b5550d1c3937",
+    "Haruki Saitō": "bdd7782ae87cec8fe1b614fa72ea55aa30717f19b06155fdd3e7671752a4b17b",
+    "Ranka Kagari": "724ef9aa45789a89b35b7c43bc1a23c6f3723f05b625c2c45c9d776d4e9aed42",
+    "Ririka Kujō": "23d9102adba1f0d2059ae43f85a25ab01fbe5335ab91686e2a0dbb41652e4005",
+    "Kei Aoki": "9966852af11c8c89111892089c14e2acb888edf24ee2fe8c21bf46305dc3b2dd",
+    "Sōichirō Takamine": "d9f4086af803bf3865cf8e3f8203fa5aad681165179792997d7e88612295e878",
+    "Madoka Narukami": "48ccf01e50245811f1a3e81210f67f0487d4037a24bbf268b9c8838e8a3a497a",
+    "Genzō Iwakura": "6a63f66460fa14540bebfb24360a1bcf40650fdaff19ae30aaf80227f7159316",
+    "Noriaki Takatsuki": "6f59450403bcb9ca648aaefa5c9fb4a8f8245a53ebea5277c53c47c0572fd1aa",
+    "Kaoruko Hanazono": "804785c72b4948842e3f351607d54353e6c277eb390f3e0a45e98fae444c028d",
+    "Reon Fujisaki": "08d9cfa5ee00a3260eec585901e24e879355ebf2b83871a25088152a180a2742",
+    "Kana Fujimoto": "3125ac7d9a1180052a5c50ca35056f95aa709bd75f7a643557707cf49de0f3c4",
+    "Yūma Kurobane": "6457e166072df8f00afebcd064694f2e338c372c08fe8ad9c362349ef11e1d50",
+    "Kokona Hanamori": "921dc8314e96f9c08544e3d1bb494660b0f64280d4e8cdaf53e6feaa8cea5d05",
+    "Miu Shinohara": "826c10e6a77a2cfdd3f8f3a5f9fbc8495d1834fec7af3646b6c0350f3bd408d1",
+    "Riko Umezawa": "03d5c936a62983bd21bae437d4e41eb2a52ca170ce4f98abbef099a0e4f26ed0",
+    "Sena Moriyama": "7c75efd58d01b3faba3c8c95bdd67860416f1ba677d5ddfc1ee5c6fe7e6cb071",
+    "Takeru Akabane": "83520010d603b47eb2da9b1f4d4da7fea351a8b1f95c26d8aea391a9c401082b",
+    "Miyabi Tsukishiro": "b060636fef88cabc0e066ddfdcc69325a160d2fc2b1e964e94bba2427f4bfbd7",
+    "Kōta Arakawa": "0786d985909161eb77c7fe5a475c92f87cb026d64e57fbe3e2369c731c9f1f85",
+    "Sōma Kisaragi": "87891e1172bde605565655f96c6d704f25b8f58435656a19dc909ff8107f3d50",
+    "Hinae Komori": "cf0c4217fd82ae102d0c15e76d2cdef1fcad4eeb5b3ad7c09f4bc18fd78b3296",
+    "Shiori Minase": "f62415c2e469c999e270827742e80de10781324078e5b4969fce7c0bc5d02bc3",
+    "Nemu Usami": "f430a0757c6096595b9ff77bfe2f6a55b22fa853c362fd1994c7c666a1f605d0",
+    "Satoru Kanda": "35c3b336d78538d9ff8b1f320a628a703dfb04247ac0829f8203985a1c9607cf",
+    "Renji Hanabusa": "0149881304b622362b4bf1c9ed806a365f1685a9e7946254080ef979ada6841a",
+    "Yōsuke Inada": "c6c5e1a03284d9d5e455160ff5cf638af14a9666bc6bbe5d6fdef83ce09b3e59",
+    "Maki Ogasawara": "c6584dbc11658f93b3b8c7c60f8c460a393625aab86d32b564f19dedb7bd4b84",
+    "Fumito Sakurai": "4e1b3b1341c19ec00d32b42daa859c84fbc3216d2fbdb6693884bd7a2c7ec6fe",
+    "Nahlah Qamar": "9a533dc88d1839c5c7caf3ce983b0d828d0f588e10d0426042cc39ff84563f1e",
+    "Chiharu Arai": "9ab2652c6c62a9ea385eef672b8e3bc5fed5ca6e7bc54e49e86e0d5760ea32eb",
+    "Tatsuo Nagase": "52b4f142a9afe8371c91ddd29bcc090b36e987f6c1e4ee428c283e687539024b",
+    "Issei Kurose": "cc7adf3162a0043ba47ef6a381e7816edb67cdc94c689e507f5186e0f9b1f6a4",
+    "Ruri Saegusa": "88a426aef6ad0bbf00a717046a31769df95cd4f2c7268b3cb14face29ee84c74",
+    "Élodie Vautrin": "ca9860f7a5b5aa352449098085739bda52490684b410560735cb3972f0c9e8cc",
+    "Mitsuki Amano": "c558aceba4489cfc4d7b4a8b21eff70c42e883806f1f4cf0e9e8e4d931ad9c60",
+    "Kōsuke Shishido": "4290c6af2722c175e9d28088401275f0aa287592133f6c1490bd69e789197e75",
+    "Mai Kajiwara": "b6c1c94d2ca98d52597f8bc663f8787c60040e491216f1df6046af3cff16b0df",
+    "Chiyo Tsukikage": "f13aa9886ee45a443ac2073aacc8f33393f0f8c12cd68b9b23016eb8c03a9229",
+    "Nanami Tokuda": "b79074f3b12ce8d051f17ff2347471ef15d70b005887428939e00758929d30c6",
+    "Retsu Arakida": "e29ffbefb7605efa449f5e27ca3d00b095ce8c7ffed70e5bb5c9502d15a42236",
+    "Daigo Bando": "2be4622dcebd9dffdc99a9ca60d393e36b2a058935807c41014423d71f22108e",
+    "Shunpei Makino": "ab8a32c99db3ac62f6395f941c8473a9f2fb5206f5130126501fc8de719b2cf8",
+    "Suzune Mikazuki": "a420f50b4923229863666e01fb8cd8c6cf480c28b9cb55ff9ad8497ebf01ec24",
+    "Miharu Amemiya": "eca62c943448a0fe6f8efe791508162608a16acd315ec9828713a483a38faa55",
+    "Ema Tsunoda": "e0ee56df0eab220f1901db10a95ea95dc94f2384c0cc0cc6d973c2300e613825",
+    "Ryūka Marufuji": "092849ce3a18ba8f798c34375b9723a9d723cad1979ed3e7c89184b7dbc95cf9",
+    "Yūji Nishimura": "8808e502fc6151eeb762e734c5a69de8b43b6ef21a12a756644ad1b0741feac3",
+    "Yukine Shiratori": "ffc485459fa8f44e15bb08af21c48c375c340fbd2786d17e4dfb36997289f0bf",
+    "Homura Hibino": "b634c0988fe0c1c48cef4c95dfa22756b48c606f3f070e8704d2c24f26754883",
+    "Suzuka Amashiro": "d9893a3f7a7aa02465d56eba5599af49c16d0771f5d52671b8246f6c5d32ea3c",
+    "Masamune Tateishi": "c520d0802370ea957edbce14b734d5d2b4e300b6b7337cb4f05898d8e2b62cd1",
+    "Tōma Utsugi": "3a00d66118190028bd40a1cab6693aef196f4c229ee4ad98d2b45aa0cffb7d8d",
+    "Gaku Inukai": "505e00f8d4bef3d9a6d21417eb9b4c12dc84d5c4890c733ccc50bc3f58f6265a",
+    "Bunta Ushijima": "9b0ff9915ef28efce92be632bf1570de96a9512d6402fd103ff4677285d08c33",
+    "Ibuki Sakuma": "5eb55e8b23b7b919cc92d148d222e4266b24c518dd33dfe03713ede5314393f8",
+    "Asuka Tsurugi": "065cfc4bc0ac77441d01abee1ff5a51c0dc525bab8267dbe716da58346a7e37a",
+    "Suiren Ryūgū": "441d055ad0eb74f336e398a58a9fd40feca64f6e3af037356d43a5a256bdc0ba",
+    "Hayate Shiranui": "91005b77fb567c529aedd2bb933f96f3895333597079b8eafea4f755fb9a566b",
+    "Tamaki Kiryū": "ed31361b13045ee891ad58410573ecdb50c12781a6cbc7427c08934d685375b9",
+    "Sayuri Kogane": "284f605fc167d039445919bdfcd48b75ee516781ba72750cf132d02d1e2475aa",
+    "Junpei Hoshida": "3474d6ac403c68e878e84d4089182816c47ffd5a167d5a19c104521dde4fd816",
+    "Nao Tsukuda": "0afe0797abc7cdee98afc17b7591b6b5241d2eb13e50965b1b0c2925c1ef8026",
+    "Daisuke Mochida": "73a4b828314e8fac62c5d7a58c2d8fc4ebe8461e11dbf9bc55026b3a213408c5",
+    "Amira Saffar": "111adb3da700fc0ccd3335742c288b8499f07cbefe4fe90500ee99e4ded483b2",
+    "Koharu Kitsumori": "84af9ee34836b5a302f1bdc9c23429bf2956ab24dffb964ea11b895021791a17",
+    "Osamu Iseki": "52b66f4346c31c1026db7c437b3cdbba792cbabf0ec284a9a6f5020f6ea5524d",
+    "Mirei Shiozaki": "078803a9e3bc2c97957ac3681be65fecfeb2ddf9850cf4cd85602414239be855",
+    "Sachi Amihara": "8a6bc79068a04be1e984213c1fed4387aaaf68d885038cc2c777acf7c886ea46",
+    "Lucien Delorme": "41dd4e135e7670bf288cb395b2c091606c93e5b1b06ebcadb1fa82f9cc6dc750",
+    "Haruho Taneda": "db15c23c4378fcc7901e3c7fa9523905a9acbd134c03c281ad438e825f0e4526",
+    "Meilin Suyama": "72d7c42ada48cb601c5cbe11e999ea4b5febf1518841e9520ffbcf9398cf4a25",
+    "Rinpei Komatsu": "5520a6b231c8ee68074300857c2a5597a3c9f00bcf872a0c5f875666a2acd5d4",
+    "Tomoe Enokida": "a179f2ae06fc11a18d87d4624ca71731976cfe6a02878136d11a5cbb3c9bda87",
+    "Kaito Minato": "1210db4d13a8bc77b328b0f912f7e7d6ee8e47104133011250a8b3b9e367bdd7",
+    "Yae Tsugimoto": "1daf09c31adb27167a17377daa462af3b381a69fbdd717aeeb37ab5e01dfe798",
+    "Gorō Kutsumi": "097570c221b25b299c8712fb4d5d917d0da085f4e940fb0028f5d857c6a7d8a4",
+    "Ayaka Naruse": "1aeab1bc24e366b316384ca3f44d3b0d8ac84e18dc4fc5e41d50498c334ce18a",
+    "Ren Mizuno": "4a5368881dd3a5126490ed54a4243e8a0f14ae4d2ed986497441418d3b99ccd5",
+    "Fuyumi Tachibana": "521bc30ce243e7b34b69fdc1f7492e142a5b2f6d69358d09721acaa099320c9d",
+    "Chisato Yanagi": "785ba84044aa4545817576d9107f29979a3281ac70172e7b30d4271c91b6149f",
+    "Tetsuya Ōmi": "5d3a4bb8a35335d7127f3e31f20c52516a4774a345152ed7d8c6fd3727b98702",
+    "Uta Sakuraba": "91a1a09407eabf561a04aa5661f129b94002d2bba570fe4abdf590606689b068",
+    "Shizuru Sumida": "8e21c00974a9f7eec332ec5c604f780eca758c1739c7dbcaa3b2f8a8a4af3af4",
+    "Hotaru Kusano": "f34fde4983ddb955be0c14be570f647650720a31f01f7ce54d7096d331df0862",
+    "Masato Ginmori": "e2dda2c8b0aebed5f40291efc3cf1be8e054afb5a3b2c81868c8faae46e6605e",
+    "Erika Michihara": "ed8a0b204a9d819e3c9dc0abcce32666e424d7307e04e75372c3f7b151fb4a1b",
+    "Benji Takarada": "866e43bba603aa8a078db4ad85a599509c114aeb8993893432c9103921149d7e",
+    "Noriko Hanesawa": "cbc6b01da04445af0ba880e68ac27abdf7db3dbd097ffdea7e35676800b247ea",
+    "Tōya Ishihama": "b97ec290067052d472d3e8d9ea73c6be44d3ad35b2c5b1e06a56908ae1c040c6",
+    "Natsume Isobe": "52b14a4842e8bb4cde575ba05e4ca127392a3081bb3f41bb499a26f3ed6c561b",
+    "Shōhei Fukuda": "201989d42d9774285c960f25c8d625b42e7a117da62f5a86ceaa25c91dbaf58b",
+    "Emi Suzuhara": "9f479f13137905f161fd558a1cd2b6d9354e866c0fc4fef69b5cc8f746d06c82",
+    "Yūsei Nagisa": "27e812f0239bbc09afe0b2bd0baac895c36dc0f79247a2695adf6a8b46b2e8ec",
+    "Akiko Umino": "d6d48b2c36d17c0cc623cf2e4d557c64e65313427dba2dd7031761d785440d13",
+    "Takumi Hatano": "653c998bff043bd43385d41449149a5a3c156be9a98f0dbb8b3da96e18175855",
+    "Shiori Kawase": "2ecd1b2d8215ac5a62e93ace207e0725f82e382c246485de4d0f8393b812bcbc",
+    "Itsuki Morino": "81ab4e79ff54a10f06a26c563eca44fbe22050c4f6ab29e1c215285a6e08e6c2",
+    "Momo Karube": "67f46bfc31d0282be0ee6493666feacaa4920487187593015214afe92e884beb",
+    "Aya Orimoto": "0809ef160dbf962dea45f1a82b7b16941c98fa970d3adee54aadcb69e629cdb1",
+    "Céline Desrosiers": "6dcb21443ea418e97a5bde73deb6ff687444c0adedb44b918a8b6d4a18fb88dd",
+    "Daichi Kamado": "d2bf07fc95353d8ddb47e8ad084fd0e14cd0140fa5dec947ed69662980dbba60",
+    "Aoi Yonekura": "cd26fddb3f9e0798d3d6f63647095f02209aebb2e71d6529e72926972f2b18cc",
+    "Rui Takatori": "c68bc3c46bae5417ab21476a7305779dbd6b76fbad3f8bd31525f9647139b67c",
+    "Reiji Takatori": "f8ed4ea1c93ab040d72417f69f150db9b6a7ead6ae5016494faa435494fff95c",
+    "Mihoko Nekozawa": "00bb38182c6c2f91fc0213bc49e1d432393b005abf11a5eae72e4ab04c88bc57",
+    "Kazuo Kurogaki": "3a784a8e388ec9917ac4c459f07e2cb931f22f3ef22076dbaabf01b6268a3dcb",
+    "Shōko Shirogane": "26b625ebc7c0efda0f64c2ea4e6dda358cf6bf260136ca924bad1cc1c862f615",
+    "Makoto Sashihara": "da6ee9fc8417cd7408a8575326ac443dcfff6804fd5e8ff438b2be7af7a89ba1",
+    "Rika Kawano": "2ac2ff1a5d59ccf87c88a363ab941061e4964c6a4263fb758dbe781d2e9fd55b",
+    "Yoshino Haneda": "c1915658ef85117a1850959e60428a0306315190b3e1fa0518d03531f578f23d",
+    "Reiko Momose": "f4fdb3385d6ec090dcbb77018a120b8dea987be9633def3821bd27a1fe043471",
+    "Seiji Haguruma": "f9d9fc4338fd23ca1cc5a3d7ea46681d931cd7e1c0ab8b990d883e48eff956f7",
+    "Nozomi Kogusa": "87dd32110935d50c8ced48ece44f56a698005cbb845deaa4fcd7b55b97247f55",
+    "Sōta Ashihara": "8956fc57ce9ff85f474dc97d12ad725c9803e3ae2a2530107989b8bb72a88d5e",
+    "Hanae Goldbarrow": "0121a54bd262f2ec795c7ebbc899cc3719a948241dc8b53d71f72fea9cb56c27",
+    "Naoki Fudemura": "562522bebe72ff0ef06bddcb00076a2d385b309ca5c479fa7486ee5148cc859c",
+    "Akira Oritsu": "8702adf1656d885739f7865f44ebc935e28c7207cd270ad249dc3f87a998f068",
+    "Valérie Clairmont": "7e9bce2ea032f7390fddfeed057acbdab18da674aa193205902fa14e11a7f9a5",
+    "Mihoshi Kagamihara": "674156beb004efaeebda56be38ddb012434f82f1456ff2db305e0c9eea4bd394",
+    "Vhalessra": "55006c8f15baa9c7b221acb7b012cc82c73837594035d200e0129bc29c6ecf5f",
+    "Kharvess": "5478f7296c5c8dd94fe53b6f6bc7529f1107283d0aaaa845afe331b7f93400f8",
+    "Orrhask": "4efd91248e9fad269c52afa89bad2a9b1b255482c5fafb0237e124a3016141df",
+    "Komugi Hanabishi": "5d10fb930bfdfa9c43bf9aba0e4124f3925ba159dfce370b124c7009a78310f4",
+    "Sae Takasago": "357fc0d53cd6f025110fb54b1a25fdc49f1e38a5165f5a68fd148bd467491b76",
+    "Tadashi Morishige": "7d35bcceb070be701463bbc44ea7a90c2fd0656e4a9b744347d23ac48466fc8b",
+    "Tomoe Hoshizaki": "5f5353e6dd77099e4182bdcbfaf9309ef70c44c4d4ade5be9eaa487cea3bf374",
+    "Ryōichi Naruse": "dc1c22537f47bc52f8b7166cb5f032f42beafd862c3a77c3695600bd70898663",
+    "Ayame Kazehara": "4caad44a261c468d0076ec8e11b777cfb223f252da1bb3d5a264a85f0d90f78f",
+    "Gōtarō Iwamine": "0e70d0c107d02b79453961eda0bf9eb5d9e68c89285e94b50e334b7e74961c8c",
+    "Shion Kurobane": "9830000c5648ac4b475e45deffd4b1361f11a0f95b654be914bfb461740c7f4c",
+    "Seiran Yukitsugu": "beefaf1ce38e3ecb3c978c4856d5fff1d4fba6c96f1c916ec88c6f71605bdd0f",
+    "Akemi Fushida": "0c87ef849a406b7b1b0ee1874bb43d955ab2ed933c5a145fe82d7bfb60245abd",
+    "Akitsu Arashimine": "36d4d81801fa8797c63e131552309ba2fa07b9400c2f881ee3ea71bed079ac0d",
+    "Atsuko Ōhira": "f03af9fdedc5db8644764ccd55bbceedfa6e65659f8392d5519afdc9cd16cfaf",
+    "Aya Tsukino": "eb2e56d25ab126d71f69f0308358ab03163ae965147209748c52a90befa2d04a",
+    "Benjirō Kanemori": "72604a2c6763e4e1ea778db52f00929a36d220f7a41221a871f90c749663caf2",
+    "Chisato Higuruma": "b22a4270bf305038607b2936a1c43a63a421ee52417c2b214cbbb665f822cdb5",
+    "Daigo Numata": "3eff690a59ccfe98addc790550087ef886ef4d7c758646e5b84b466c450b2a64",
+    "Daisuke Toyama": "8474389db860bb5e6937c640615d007aef539f2e19613fef7820a28eed154d0a",
+    "Daizen Iwatsugu": "2a441a58808c53b039d676966652c2afb55f957fc07883616eb54d26a7a830b7",
+    "Eitarō Handa": "fc699b13f5da5c894ae87cefcafb40335082bc2066f6ddac6ef453ffbdde4c9b",
+    "Fuyumi Kirihara": "5355d009af1c2b1b311bcc88b9769d672ad06bc3489ef941bc1f98aa132cefe5",
+    "Gentarō Bando": "98b20efe59b0800502ca2ca0aeb5dcdb1af5af972aaca301ba8f5e8ce2b6bf86",
+    "Gōki Shishido": "69c7c80e4b2aa3161ce2f874caa705ca50db5787a73e9f1fbe51379437ca63e2",
+    "Haruto Aonuma": "b089701dcb80a1f47f3a774aed7c3161aa211fa53c3d43a6c1ec3c4cfcf23ee1",
+    "Hayate Mizusawa": "716bc01aa4283606308e469f048004115ca981f42056dbaa07a89148e4a58559",
+    "Hibiki Takanashi": "efde84be64501ad8443290b01d5e8eda3596deaf658b77310b745beeadec37e5",
+    "Hotaru Kise": "02fca5dd016de969c6a94d06e8403bd14abb9c65e59cb831a124c4b2db23f006",
+    "Iori Yukinose": "a8a653d41305263c0f7eaa1b7c5fcb6b396481d768bc37acb2ed0da5be27479d",
+    "Iroha Sagiri": "75313ef9395d7fe7c5049d8c0ef74e163170de0fba0899ef2d8a49b11cf0291d",
+    "Isamu Murakoshi": "cf53df6014cc14320b50dc5698ba4ccc71cc56e848a7440e545e91d01aca9e2a",
+    "Keishin Tōdō": "995b702a3abf3743bfec8830e62543e22dfce104843584c78f6f6c03a167758b",
+    "Kensaku Honjō": "1d8da2dfea94bcf076330e7817be6c74e6695ecb4f4ad64ebcca1cb9e80d992b",
+    "Koharu Yukinose": "6cfff2c6887502e660a5bb3794670e0083c0ec790cd319192f1409f41f6eb848",
+    "Kotoha Umezaki": "fd10d33e8b03290a86aaae5b6c9e3439c6af732d99f454062474fb315f91e263",
+    "Madara Senzaki": "c2622c21fa517846af9c819ed2046ed647fc1c417f985dd222e65139578dc714",
+    "Masatsugu Yukinose": "a6c59ac015d87f6fb5d00e88c26e15a7d2412a79b3d1b2db296dc19ada020f26",
+    "Michiru Aonuma": "95056e03a49caf5b07e0c89cde59e6c2701451ae3721081ed742d8141fc4a313",
+    "Miharu Sakuraba": "908d3e43f6265d250bc09ee96f124a8f3f7510297c2ddd04a846dd84d77924be",
+    "Natsume Hibari": "d780db4ad93325bbe4c77b11a679b495da5754d582f5ccc625763615fe61411e",
+    "Noboru Ōhira": "ed4cf2081c7c8dee9ee0ba47341fddbff172659f37c828b7d61c4763734fb7fc",
+    "Orrum": "85db8050cc6635382f0b9bb3e7757e81ac91c19f6fed60967afeb7dc9d044bf1",
+    "Reina Tachibana": "9e41f58a1da632bd9516abb96741a2d3963b95cd644a84550ebf78bdb8ce9942",
+    "Rovakthuun": "868e9415624b81fd66effe43c1a8c1eae0a9c5371792ca18c138920bf2d3db1e",
+    "Ryōma Arashimine": "d11ad0fcc8879339c8baf152f9c9b03492b62ec544258f66924c3d8b7429eb3c",
+    "Sachie Handa": "a041abef6166231d1b00db7b6032a33b6bbaa9ce022fba86db03a6c292284c06",
+    "Saeha Kogetsu": "478ab23ab7131ff9c96bc8945e8b97a22ca886ca5ddc1da211ad1694e55fc4f6",
+    "Seika Amatsune": "b09d2e430d832c4d1edc19b636c9438622278dd14691c22399c58ec4cf9f3379",
+    "Setsuna Takigawa": "27047bef855628397140c02fa3abd92a25a63f5f6305524079cc66bf7b1abeb7",
+    "Shigemori Abe": "6a9155c13d568f26414714f72308dd0c2a596798ff89565c590bdadd6fb500ac",
+    "Shino Kazamaki": "59e78ad2582150a969b89ead9f59c835e7dc4853e972f65c9a97147bf1a43b89",
+    "Shūhei Iwatsugu": "19755c2a92baf0f8d816b41eb68f8e666c804617fc295c7f1080c207c3959009",
+    "Suzune Hanekawa": "3cd9265c923cb063233e89576d7004d6b202f4cfdcec9eba730a55ffd671b752",
+    "Takumi Hasebe": "cec0c8ceec1f7ac1795119fb5abc413641293fc6ab19f55c7da74bb34bfa8378",
+    "Tamaki Naruse": "4599d39a9fe0bd19fbd2226350dc6714ae360271c93cb8199ea8432e83f3bd4d",
+    "Tetsuya Samejima": "38cc74b6ee798af5ee597867e76c362d723bfa5d38446b5e61ee4e2a75106069",
+    "Toki Toyama": "0a7bace681bbabc1eb9aa83d4b5ddecfec94571e4df1b3f8d4bad873dc91b1e2",
+    "Tomoe Arashimine": "3dffb090d8e2602c4a979163022c91b2145bb7a982f9d87f98b2384275e51fbb",
+    "Tsubaki Iwatsugu": "1c9c0ba3c4474bb58ad607e0803f4ccbf9a3603987af99a4db12ae1da205ea77",
+    "Tsugumi Arata": "922fedeb569715cc043e846792e2a30fcbda80210f77befe3a247b8affda6f3d",
+    "Uta Fumizawa": "59d385d8858c1d0912d2647504611fa3f1b74a96a929ac1f88aaa0e3b1a421e1",
+    "Yoriko Tsumura": "9a1ae8125c5f8250a57ddaf3376058f704cfe0583c118409debb5b3368cbc9e3",
+    "Yūsuke Ebina": "805bcbb87ad5a35050de678e298c59ff67361483179997fde3194339839df720",
+    "Kohane Kazahana": "6ee38ebf9370f84872fb2dcd75c8a66c7c9e0d1ce67b5caff7dda6ff435469af",
+    "Kureha Kazahana": "3b06e2f794052bfd2bf2a35bd1f9b9f1561590ff6b90313cdce551819aebad73",
+    "Jianyu Wen": "471631eb1b956946ffc8945c62a19fb88c0a413e04f5d418be15d8c95442926b",
+    "Yuzuri Takase": "76e7290b355e56b53c746e54b98cea0cc8a95a703cc8b28069ebe5a198bdb6a6",
+    "Honoka Hazukawa": "2954550e62c8119e84eeac9cc1cbf8374a2eda7581f62d62d78786ae07e09ef2",
+    "Sakuya Tomonari": "6078542ed1022909f2edfa275b81170cd01dfa20a8dd175774596f495804995d",
+    "Rento Tobari": "547d39f5f947c6a06764d59f2beed125944ac87c1ed708ff53d07395246f5da5",
+    "Hotone Mizuhane": "e63f64ecb48782c24dbad8d5f01129befe46fc0bc17cea348cb56178e23fea62",
+    "Shūgo Shibane": "06aa99d18cee1b3682694cc7c5ed83e7bc10b2d1f0d7f2ee5b26c5c600d27a79",
+    "Mio Sasahara": "6821de79e33cbd3b5ab140c71bfbb7793340186a38995b9d73ab0025b081be94",
+    "Akito Kazamori": "fe3dda22630596a689d570a4bf7fa917b67620a8dcea72beb58c8b3065e9a019",
+    "Orivelle": "762ae156bf349dea01263409fb2a89ad58e3f62230450d45653c379b0f247841",
+    "Shūgo Katase": "587333ba8bc2749f00c326028711af7bc6fef2a8060a13a3b4da1da74111cc73",
+    "Chisato Kurebayashi": "bafa32f75f533d6bf4b7a6d2ff7770840bfa7c49e0a4e818e5f13bec53e3905b",
+    "Ena Minamori": "16deb4137c1b316b36d8062d0fb6007ea02b25ff6178b54f04e542b7a44e401d",
+    "Tobio Hanekawa": "9e9f76752d77dead1f664b79d65c18b85f27e409ada4a75af81ec530bd26dcda",
+    "Mizue Akeboshi": "9a42887441e8fbdc03c04c36bafae828b33ce9f13ee81c34f04fdb10209f1bc1",
+    "Ragnar Leonhart": "f7be193c235f5c0929c721849f3162291f66e72f9737dae9d6db92c06a0ced69",
+    "Adoha Aonuma": "5df01b6d1b6290780407e5c5e5f6867f6c5e843cc86ca6e7878159f88709ba6f",
+    "Karia Morino": "d55ccf4af2a5e69eb70108fc90971fc2b9cef543076b6ede69e2bf8ed84715d5",
+    "Daigo Kisaragi": "91f981b37464699f9f992f3b49727b08df165e3c459409bea54d74fadcf84353",
+    "Chisato Akamine": "36bf8a4a252c6a8abdf235aace0c6171d43d7b64c3cc9344baedb3b75099e803",
+    "Tomoe Inukai": "a5e6eefff34e706b5500738dd4d89f16c5d72878397cea21664f43be2a443f6a",
+    "Gaku Shindō": "a8bba2d06d6ad176a5c797da9253fbea1892428e81a4b769b2467b5fb5f4deb0",
+    "Ysolenne": "0fb3b596c4b640fa0dacf5d2e84a2561bf29899b3ce7957aff9eac1a89b2bf5f",
+    "Suzuha Midorise": "fcd1f017f797d5b611c5287d20f063892da5d6191229046c3a95103c9f7cedfd",
+    "Jōta Kamezaki": "ff2445d26c754ba3f8e0b492504af98e32b5a81ecd1a24399dd7270b7e7db0da",
+    "Beni Tsunoda": "e2d018415438d8389e5dc6b9f8766fc1e6a039c232e33ef766869ddbd8d18d5e",
+    "Riko Kanehara": "497af1c9c13c2e84a258602bfbd31e7dfb269c72c40ba54bc6a81d609bda43dd",
+    "Sōta Tobisawa": "6c648f389c8a01608b070dd88ef5cfe46023d8dd87f65df844613d84d204463b",
+    "Marika Hoshino": "12a3c1933bb97c1d85eddf9b353fe824bc9e94f4beb59598c1dc7f6244ba254e",
+    "Tetsuya Kanamori": "888b84ce528e0f8c95af76b14399fbc227886b0b29e27d2f54abacc5986023a9",
+    "Nae Komorida": "cd9a3e9763f1d8d83a4a79dccb46e158dd308c7e305196c881e3460d60c65185",
+    "Renpei Sugita": "271ae8e835715392738be85f4166ed594b4351d6eac5a3cb432c7a4da2afc42f",
+    "Iona Hayashida": "299241eaa143d0dc471eb97e09b35732d4233ad2961fa0e1c6c76879479ddfe4",
+    "Masaru Hasebe": "259ce61206cd1692f4436a21a5e800b9ce9e70513c559483df902507effcf02d",
+    "Kōta Mibu": "cd19493c8c0d89949ed53225e04a9f4db99ce58aec18985a53d29848028186e0",
+    "Nene Inui": "20c35c8149d688bc1c2f38bfeedaefe7b626f4f095583d70975e53262e8e0c93",
+    "Masato Oda": "94ed868c8833bc1f11168525b8330357201b28dd267f5084268a6aaaaffbf008",
+    "Chika Umemori": "7f95f312bc0dce497cec70b608ab77fd7ad7b8f3f90806cd072e88cb6a0f0f7a",
+    "Shun Kurebayashi": "6cc1e257c12e1197d3e35c6608fafd2308c9213106ef2f21d70230bc0984a884",
+    "Rena Kogetsu": "71e9f6d8d3f36f64c90329cb84d5217a217197cf819841cbe3a49b0565217538",
+    "Eita Kuroda": "88b61c76b5dbad75b3a5d6136e22b5280bdb648da5d3387108f1f05a4b1fe616",
+    "Fuyumi Hase": "a027b68c3456a52ec97d4811ac336ec3b4d93ac7f726b8e6ab0c502a7f70a1a6",
+    "Tsubasa Maki": "82f17582149c3e0c87f594bd96f783c4e9447568e277844f0b1cb90cd52cc703",
+    "Yae Mitsuhara": "31278be01d9960b7c12bc8c72fe6761a94e303d3acf59a2c73c1d5f52e5b6bd2",
+    "Daisuke Kariya": "3854b401be9ecd811e99a22fd1880e0f1c697d90789ed2632d57817606a393ac",
+    "Mayu Kido": "aad90e37d4322fa589d7983d09a40210707618587f8f0039a3be3836dbf23fc7",
+    "Akito Senzaki": "52b8f95d180f1ca7123adf63aa90370070e3ebbe1ba4e22cfce41f7b47c74480",
+    "Mihana Shiraishi": "eb3a23adc38fe9825605123af43f408c5d64534c4a86dd1dfc02ab1032009558",
+    "Junpei Haneda": "bc346a57b1908b765edd533ecf30fb1c759c7c5df535100c6d4cb5475d2bf95d",
+    "Riko Narumi": "140a3dcb07e3a53d2dd5316b6a39b5620d7c2878bf88ec8af97f32e73847de56",
+    "Kenta Ishizaki": "8cb8e206d79cf4a31928bd7f2c7bf7c6038410387bf87f44bcc22e4d9048aea7",
+    "Sayo Kirihara": "34a276a27b763740f74b66bd9524d6c6ccaa5b5538bd0fcba4b2d490e6da66d9",
+    "Haruto Otsuki": "134aa1a692d2f3f562fbee8fb9f5fcae6f83d31ecc84ada7826ada0daed9abb1",
+    "Natsume Aiba": "b588c75930aa35b7242cfa2a092e281dc117c41481e682bfc551bcc89881b1b5",
+    "Daichi Kawanobe": "34f710bc0464fa2746e97d845f1ee85d0117cb23ca91ce01231d565fe183be60",
+    "Midori Hozumi": "0caa395c68a66ec1c527670e9bb10f8e26c0bf95526766688d76112f5eb674f8",
+    "Kojirō Tsunematsu": "4a90ca559924a9cd88b8e2344d34f331d55b3843b3939bdc2806cb7f69bc6abe",
+    "Ema Tsukishiro": "a7665324d2fd6db9c95d688a7c947470230b4a499b9fdfb8c6b798cf13834b7e",
+    "Ayato Nikaidō": "023d1385d2bf14337f4283eac83018f646515903901907691bb8d30c62218143",
+    "Haruna Yashima": "d6d3bc600ef9a7fdaf1705f16640a5bff4dd57dc1148b9684cb1925dcaffdbb1",
+    "Seiji Makabe": "37c25b77752db22ed535fc11680b521cb0ea27520a48e76d6a679979e6812a88",
+    "Kanna Tsuruno": "a116ee1cc8cac540442a28d65c28660e4578006676fde18754f2237a8813bb0d",
+    "Ranmaru Tōdō": "23f1e397d3b82fba8f329ae2edfb082d111693c17b4fff3cd55dc8a1430441cb",
+    "Mizuki Kaneshiro": "9a0bff0912fceb08f33ea31c99b67cb81a821d9468fa4ac9bd5c2adfc307ab33",
+    "Takeshi Onizuka": "f1eec622ad1af4680a9a8db8b19d49414fb12f73552bcf86782d2885e6d7a8fc",
+    "Reina Hazakura": "57441e2a521b2e4a743855bd860eae1a40c8a3179ee2fc51fdfe11639f7bff82",
+    "Shōgo Mizutani": "1a2ce27fc1a8c7d719ebceaf262b91e00f8d67a54a6dd1a5670cd0adddffe533",
+    "Nozomi Hayase": "bf86f0070b37f966b7e8857dd7c297888658a756ece7a76cadabd2ccf114438f",
+    "Gorō Azuma": "c4bfea5b45dbff6e19b4e1f5ee7e5fa94a0dde74cd3e694a201a045af5382986",
+    "Hina Wakabayashi": "955254bd76f1c30a5fc5db8f565e23cafad7deff24dc3ab45aa653c6dce7f046",
+    "Mika Koshimizu": "7e366ff41f1731cc363aeb22ef771c0e916a420ba12c7e4d5704514996c2f0fc",
+    "Renjirō Suda": "65b5d5bc2eab79d79e578dccd1f696bc29f6ef089cf1e1bd9fcd75c52480219f",
+    "Momo Shiratori": "2a34423aa4157bf31e80e51937b4d215e065bec048bc13472f965f6d4ada62d7",
+    "Shiori Takase": "0f0e1cc8e880f098841d5c950c95a26a0189182dbb05105e952fc7fdcb5fe49e",
+    "Genta Shishido": "850bc842c6c3e7d2eac8a37dab5a7ac27205f6eba083335b9c81a1cd618723b7",
+    "Koharu Mikazuki": "399debeae6436bb6013b1cfd9dec9014e7c58e1957860c8dfa986e0f579d1e40",
+    "Threnvoss": "710b9b4303a00ca6fcbf68936eac0ddeec1e9b6ee303f041377bc2f9b32940bc",
+    "Shōen Kagetsuna": "db8f3e287a3d7ef8c950546a3938f97b32d0e3b7b014e7450f239a4aa84418db",
+    "Ayame Kagetsuna": "63c67931dc9efac10677ae9d96ad908c87522f4cffa973a8c9f65b18ec341fb0",
+    "Masazane Saionoma": "1f2e882e0e6cb5bf3669114a1b5197da5b5ed18cc68462eb2e992053c67a2265",
+    "Rin Saionoma": "7edf82ab4041b898b946f3a72ff276130a62e3f93fab54c57cee2a32b58d5a00",
+    "Kureha Tsubakiri": "c52cf6cf419de82bdcfa36226f662984bef7828a43ace41ce4e1badb9615d124",
+    "Shigure Tsubakiri": "8d963391d3c3d27d25730c0d9a07564bcf4fcaa1fcfc7be9848b048bcdb2ea95",
+    "Hiyori Mitsuba": "fe5cb4530e3db417c1a5a2e02a2e81afbd2c7137b6013a87636927e11f8fccb1",
+    "Sae Kagurazaka": "d93b0b34f372db676ddbdd1fd22f03d665d872cf301bc7096716174c0e6fbabf",
+    "Tōma Sagiri": "8bff349ada8185abb742ea5a52c2470bfdb257dd8979fe8bb359479213aca2bc",
+    "Yuzuri Kageura": "eec8ac220f7aa593ce235f6e6ba5e5fa1cb4ef2c25ac96cc7d5f893a4bf62538",
+    "Genzaburō Kanemori": "9c2377d60ec1970ec6b7f6dce632c806f222bad84de66dfb06ee987a0d0a12fe",
+    "Kinu Amakusa": "d3ce105c0b983f5714775fd8bd068ec3ebee8558fc7cca3126e2259e0a73e17d",
+    "Renga Itsuzaki": "1441a3b25296c6079d510d8615bec7ca13490c5663db21e0766fe6bae44abfcb",
+    "Tadayoshi Kurebayashi": "eb9bd5be1087355f5d044ba96bf9cdf41e583a0e2e7eab5a451f2e89be12a8df",
+    "Mika Fuyuse": "81ff31f2dea9069000a603e255baf9634c60031c9628134fb4c46a4d10368e05",
+    "Nobu Senda": "faeae5bb76330c796b453ff7943677d2bd446c9bfb68a5a77ad03bfe3435af51",
+    "Akane Natsukawa": "2f6757395827d7219af21d309a45454f18ac4b3d93a095f4761c8a57d0df5c83",
+    "Kensuke Ayahara": "45408c56cbf023d516f941b366f1bce0c5c8716c5484ed9880dc0589e4a1f6e2",
+    "Naoe Futami": "c7d269d0a7be746848bba95a77809fedcfefa00c4528d4b8062b3f4a9b58aa1a",
+    "Chiyo Matsukaze": "8c949fe2783a3928aedc0b18d8a11e511a48efc9d0e273fccbbb3b463b01da16",
+    "Tetsu Obana": "015c39e01dba727f80fae82eb717af1b144ed22400ae4b51b8d1d6613e15f788",
+    "Fūka Suzumori": "6bc0dc628afdab99b652774896ff5e9a1fddc5faa74f465939fb3a721592a626",
+    "Renjirō Usami": "7efed8d51650bf968e37855a6b62dee82257ca26ac2421bdc63cdbcb9685f0ea",
+    "Maho Kanemori": "470288d16d2c721d5ed5e794d852e1f3dd8fbb1f49c22145cb6a288887b78b14",
+    "Hatsu Kanesue": "56e49a651ab63ded8f54df100951f6dda6847d7487cd097d615b1beb67d7a1e1",
+    "Jirō Hozumi": "e7dfb59e0e1b7fc4d3070e974e27952b46ebe6c65243e28774448253cc09c350",
+    "Sōta Amemiya": "e4bff7235f174d7813b21dcdefaf236c6e4658366ec35c6f0622591b9f24f6c9",
+    "Iori Kagurazaka": "4f153ca4e73c486ef427885333efb6eb0e3db752c82fc6ce71c718e490f76744",
+    "Chinatsu Hanegi": "b1782e5a5d0b5075aaa3ff2fd2c8ac894f1f6e5f92d3259b35fc70feb9f5f593",
+    "Yūhei Toba": "2d38d930c415d7ff6b0c7734c82898763c5af6708fcf8a16ea62356c167316ce",
+    "Natsuko Tsumura": "8e73e358cd641b849e24cff2b67abfa89eca5e0ab945ad5aa71ceb6a826e5633",
+    "Kōichi Aratani": "93323b750cf7382e61ec7cd8942e59ed7014741d11f139d59999cdf93ce4b1ff",
+    "Yae Mizuno": "eebf54defbdcb4c6d4bd92147180b1313869093435a26d3d27635953ca9b4c29",
+    "Haru Tomisaka": "80134e4e3f679b41199ed73865a6394717eab5456374ca06bde0219a33f54615",
+    "Sachi Morisawa": "bc087f4412b3e17fb6c2b042c9c80a93ef346704891ef1d830dcbb90c46d9a01",
+    "Kazuma Ebisawa": "f49ba9e809ef4f8d27d11377199507b8c72e9b4c8ff8916663289a730850687c",
+    "Mina Kurusu": "e1f996105b8aa3a6a6658938a23296293a79b9b37042ae3c7fb700e89b8671c2",
+    "Osamu Kariya": "b324e4468424a34f93e9e5f53be359be44ceb34f94b8c26187bd8118046d0abf",
+    "Tae Ishihama": "845882fe8cdc3f28f97107975aa11269e78cd857d904a8b4ecb60454500768a7",
+    "Shunji Dobashi": "d3f8d44a6c646dea020400c2d62299b3feec89dd4ed09443574b077dc3444500",
+    "Ruri Nabatame": "8c614f387ea40bea9d0f11d428b689a257e2b374712d48ac80642c1eecf3a2bd",
+    "Hokuto Mizusawa": "0b48500422b7d7eb9939e7772cdce156341f25a22eac1c6d061ed9c340247f57",
+    "Shizue Amakawa": "93665549659f3e1e1c757d7242b3f46cde3a7c0819c8dab81b17f5e067e9d851",
+    "Dōgen Hanamori": "c97a2033893aef30b65b9b03da0a967ff219ec803ee43b00f27429da7b1c812e",
+    "Fusa Minase": "3c4037554c9c0333e5c6ec6977e3a5e7b9ac08e6ce142618af69f804f002db35",
+    "Naohiro Umemoto": "6138b310071d55f5bd80987c2ab54172b9087c4a983227beff8666668ed3f66d",
+    "Sana Kuroiwa": "133127e46c2f8da14bff895d76bede06d479218024cbf9f06f0fabdc128c0022",
+    "Rei Tsunemori": "5b0cd0273c854d7192fb0d9a4634b99e21bd8e109fa85c2f6e2ffbff1a26f0b6",
+    "Yoriko Abe": "ee231a2317a63a6c69645a0d7b26a059fa436b5bd57e59ced94ba0d41ed76382",
+    "Tomoe Masuda": "e440bbd471f1badb715695327daa18cb391a6b6a9b1dd0d70f421a16165012aa",
+    "Kayo Yagiri": "66970fd2fa7e7ef39ad728af457a8405604173f1032a37fe24a9b55d2c1ec805",
+    "Yasuo Natori": "7163f0586f13e2655ae8e43af37126dc330d3b312a1b3ec3cbab00eb84e26e48",
+    "Chika Nishihara": "c92eac1fb7e708b1f77867c6d1eb6f72e35f5ef2c183ce36fd769f656215cc12",
+    "Shin Watarai": "1f2e422022002cd95cb7764380c2f688bf931ab38b72e46fc35a52938857efe8",
+    "Mitsue Harada": "4f08ac6c94222eb1882760746e5b7da9a4bd2fd7cd9305ad9383e7c45525343c",
+    "Kentarō Maeba": "8844221d862236bf89b30e30fd92c763ff1117f07d40412843347f55497d81bf",
+    "Suzuha Hoshikawa": "84da8a0adeba592b2b48f66d106280304f8fb5eee520ebd37c7a444732c8225d",
+    "Daichi Kurobane": "214ce363b946306154ec2145d0bd3c8bb1c83b3a2c1a4b622b227c38c95f28da",
+    "Mayu Enomoto": "b01c5f6b84e7783c7f4c8358fb2229ba8a046d79bd9773dfb5d118842b43b787",
+    "Takuro Namiki": "0c6e305b7e947ccefe0611c84881930bb2a52438a57e2a016121fe67d10d5b52",
+    "Eri Tamura": "593ee96be7c744da7b92d772df6f3046d25dff1faa591969c36e2ba4c4c04507",
+    "Seitarō Matsuoka": "4bdab7dca66565f50ffeed9086c87802250e8543ae4aee613c9834503b8f2cc2",
+    "Nene Moriyama": "217352fcf2e37ced29ba06f6b9f8778f9d3a18a2cca4380b3858549ce31ffd71",
+    "Isao Tsuge": "ff2074846ee320eb92cb54cc0eb8c064aea1745407539b8e58f78399360e71b4",
+    "Yumi Sawatari": "2bb11be845304390fa0bb3f809a5215e768fac1047e9a21ed98203272f813193",
+    "Gorō Fushimi": "266969ca385919db1fabeb9290e13c46311a90303f03ed2b3d3767b1d232473f",
+    "Aya Takino": "668a3fd6b953dd69331093fb14958ebfbb00b22f4e7d063f0e8acb3e1d86661e",
+    "Mutsumi Hosaka": "7dfb076c21fd72dda7bd4d6f3bf01641118cad2472aa60e8683429d69c264050",
+    "Tōru Fukada": "869abb2e47daf1403ddb4992217a79e63e822bcde49663e0826fc90c39f696ad",
+    "Rika Ogata": "8ec3a9e42c0926b19aab82b22963aeb666527a0e80319e8197cc733ef17180e5",
+    "Kenji Morita": "c00fc46d653c539e9fc64073533c247dc6b1f2c5eb724ca83fbbbf043c79d77a",
+    "Yōko Sanada": "ffc87c6dba0cb30b1d4b25c0c584605b78c1aa5ef3f93e367fe74f19e8f2a960",
+    "Kae Sumida": "33f77dfb5e1e14fdf6d71d0f8409b7180618c4d2eb363295a8b42663183f43f5",
+    "Chihiro Noda": "681313ae8789de160635018d65e3008f332f0a6ac178a21061935c09975ed964",
+    "Makiya Utsugi": "f95c4edeeb734cdd5db279597c502c5762b5d05939054c191709fdbfdcfd689e",
+    "Hajime Niwa": "ded5b038dcc69bbe2f2c141c3bdcf0ce748728f53610adca5979ab44a42bcc78",
+    "Asa Kogure": "4d0066b621a20395a86ff5f29073a8946f874f0f9e4e572807b81aee20eb2afc",
+    "Yukina Tsuribe": "fbee31291adffe874b1be0d916fde9f29b1e95c3a72df4a962d8e95dfef35fb6",
+    "Ema Shiozaki": "ef747888c530da5b0caf14caf8a572be1fc7b69ace0fff025dd7cd7578c4491c",
+    "Kaito Honma": "0aafef2e8a19b30985e5627105ad2d10cbda29cb5348a4c337af66c0cbb4de4b",
+    "Misao Shingū": "8ffb96de741bd28a0e83f8a99dce3fcc52a09c7ca07bdcdbb12d24d344fcba94",
+    "Ren Ishidate": "10b22aace033d9fa26137a13d8f9004c8143c25031f1dad15df6340d3f46e1d6",
+    "Takane Shibata": "630b026b931d90ddb60f414bfb66f6bd626002d4543e5d8bc7ba43347fda117a",
+    "Léonie Vauclair": "95e2943dd72c18c99cf24970174c5fb7d940ad87de3f07bd95d7be2cea3d8ba9",
+    "Jin Lin": "a9ea89af47c7e1bdc6dc1929ec7506f5799e8d595dc564d1f4f9a03bc9e5728b",
+    "Duncan Rusk": "16b4bda0e4a3c4a6a456328a1297f14b9c140fbd467325214d513ee0691c1e2c",
+    "Akihisa Manabe": "5299fd3d1d29dffd853e61f62344a0630dde08ea6ef1808e69adcbb386fc8437",
+    "Katsuho Enoki": "fdb9c2d8bed951e5b1c97f6d5fece5b9688163ba6050b51dd19c5d24a82d1c00",
+    "Jun Sasanami": "359cf1aa8d5cb90f3a7ccaf56c059431b493e6a37329f61c79ec3f2237005234",
+    "Kohina Beppu": "258300238e949c8001b126598b06cdf68e63adf2ab56fb633cbf6d6d76c106b0",
+    "Hiroto Sakuma": "19779fab3c6c5f7489c6bf99a46ca9d7737ee9f4d3eb6a701acbab3f9fb0a6d3",
+    "Nana Saionoma": "2c92a922a88dec69d837a74ecd61eb5dede474d2ddb4f9ad61d7307dddea7d47",
+    "Hagire": "13273497624e29c58e0e5a37d712d2e5569bf109f81a180bc24d3c9efe19d01f",
+    "Koma": "13f267ae9ecb2222ac59ac788f522a66e96fc8eb04b9f5ebfae2636f2d178dd0",
+    "Suzu-no-Ura": "92f1981bc13221ecdedaa093d25080d4b3700f0eaeaca7a9fde0d615d5ace493",
+    "Oroha": "521e85cc56f76fac9b780fa7c60f5b862ad3953325bb01cfd97e484e0032ee38",
+    "Atsuha Yunokawa": "3ab5821c073d1fd25989225ffef7cf4b17c5479bebad691ac006fcac4dfacbf8"
+  },
+  "sourceRegionMediaHashes": {
+    "Drakenspire Highlands": "389cbc9c25cc10f2fd50a262758817e39b7af5aec72fb560f1c06f12f4d3f050",
+    "Silken Chasm": "0a22d2dc9046faa81775c083ce2c5dd928b6f6801c8588b7c71ec9445c3d4cf6",
+    "Silken Depths": "21a882563490c21a682fe7574c48352bd02b3909d915ec3d026231d36527505b",
+    "Wraith Island Custody District": "005c5cceab8d028167731982e2c12147b9ed5c65ad26f4c6a6d784bd74f645da",
+    "Cloudbloom Reaches": "80794e4522a258009190ff958bdb89bfa8b400bce711e1eeedc7b1e1493e624f",
+    "Rimeglass Heights": "f385ea37ea589e6b49d4f6257eaf3b6f5d4ae291b77bf1877904e7a5b6ee291f",
+    "Mirrorwater Marches": "5bf83881cfa37e81d3b92fd8b348fc87263295b97e628a213eea274aad179eca",
+    "Amethyst Crown": "cb8f0c9f61ed71874b3466a3bce62f10d5d41e5d74d10da5702727644571a8a0",
+    "Sepulchral Gardens": "8361efb61dcf59620668c47ace2afa4ff996f2bef66eb3bf6bb29246c743c91b",
+    "Blackpine March": "58ad959b1e02ab9b16f78c9bb588c14824ae14573d736e76a89a3f4e0b645692",
+    "Thundercrag Highlands": "8d6bac09898cfa4a3523f20fb62b20da7eecd15d112e9a8effdb9d12741608d3",
+    "Mount Shiun": "494ed62d807a5e657a047d6795ed3b65518efaf066f45fe9872c054dd2046475",
+    "Snowcedar Heights": "f2e4147b1315c4f2a69bde1af26ab6a1d02c74621c54841f3537df3f7c00f307",
+    "Mizuhara Lake Country": "20def9bf9a893c52805e083ef7f5efec07c574c5478aa60bcd4a3cb3f0fdcf32",
+    "Bamboo Veil Valleys": "a49e50eb6ebbef452eb60eb35d5197cf068800b81a50cc2ffb70409fcd137794",
+    "Benitsuru Basin": "5ed73082e0248056f8e7783715f805da073a15b1fc48decf16cac1877ffcd764",
+    "Koganedai Terraces": "bea3db948dd401bd735f7420ec7f0db3574327b34381af4336a1dd062d6f1aeb",
+    "Golden Grain Plain": "22b058b7ae91634a0f3c53ccb6a9dc537671a8ea767d271edcdee2b345adf94c",
+    "Mirror-Reed Lowlands": "73598dc507431c47e06f2f727f5c82673b2f16180ceef7e98a23e37e81d6354e",
+    "Redleaf River Country": "a1886c1dbd221896272cb80ca5fcee1e4dddcd805c2d5bdd45151f76fe01107e",
+    "Lanternwood Border": "e7471e477bf53eb0fe79051eaa5195ad8790b0ec0fbf7cf64592f5b50d2fcd17",
+    "Veiled Cedar Reach": "f2dc474ed99eba5d354d61c82113fb11163e5d58e2ab71e15b285c17d0196d9e",
+    "Evertree District": "c3bbac70da113dd90f0a5bd048a37bbf8d292f36b8f739b366c2dcccfc167871",
+    "Northwest District": "dcf3079130d62a2ab3ed9e65c2dd0e3323643a6c0ca25cf1229d9ca8d5ff3ca6",
+    "Harbor District": "b7015bbc9677c1903a2619788f35e68526be58e3f0177c7b3cf73f37216c118d",
+    "Whitecrest Isles": "de54a5456581a81745c6a5127d5f567bc1a7bc0e757f21df29e4b893916b9a41",
+    "Southwest District": "48a972e738f7a12d8ca978c3bf44c1f2752e83b6beeb7e45079bee768f61df9e",
+    "Artisan Quarter": "34e425bee44671f4f02105c01ae58f1a120e0e06a0a323d097a95dd8ec7b34f6",
+    "Southeast District": "a92b637653c805e8cdccb9a2606d523333aed251ca32e9970ceb6658b730748d",
+    "Crescent Coast": "fa1e717947858b828918d132f5ea966d4522c3b5a51de760782ae91fa52da882",
+    "Pinewater Vale": "a2d141371ea9b5608289cd9dac7065c62a6e5e60217ceccbbf340e03bd37febf",
+    "Seaward Bluffs": "94db8a6e0a5fe3f19ef7ce4e68095906606eaf0dc0b1ff2dd518bffae114a7ca",
+    "Bluecoil Reach": "78b61a1bba878ec5efef89e8918ff178d4425a64277c567950d52d25ff621908",
+    "Moonarch Shoals": "332490aa214b9a2fdde5d39906acf31524c2d48e381a6d3f186ad583cc5ffaa1",
+    "Greenrush Marshes": "90431a63735c2c2bf3cbab2fd832124b4d08372a667196b6969fcc0cf062ccc5",
+    "Longgrass Meadows": "71fa0ca01f35031415b4028efdf834f244159769ad95df6c3b641b5f4017c520",
+    "Sunmead Plain": "e03b4b46c79ddc33411805616c2fa04253096e776a7973cb0f4eec2101d07001",
+    "Greenfield Farmlands": "129df0b11ce90d2d40633e6e5fb656ba67ffc5dccda3f7062e4708f6a97cd58d",
+    "Westpine Forest": "ff14f00d77ae68f897b91087ad795ce3513b0143affd9052a91fcda137af67d5",
+    "Southglade Woods": "161fa087bb8bb1b73aec33823ac0c25ae1fc223ad94238843a2ef9c8433dca1d",
+    "Brookmeadow Downs": "65fca7897bc2e628335d3f2b0accba2e202a4e9bd949201025324e26f41cf9b8",
+    "Brookmeadow Vale": "b4524f02f3e116f8bbdae236bd81d6602c68e181223bece79f90d6c7144fc3db"
+  },
+  "sourceLocationMediaHashes": {
+    "Phoenix Wing Academy": "970f0df5f48ce166c2b345b693cc64eb7639984e64bdaf7a1a576d426e0da40f",
+    "Hydra Head Academy": "5e66fe35b6b3af9a4ee8010f4d515a86175fd279dc03ee76345933d17b1053b4",
+    "Gryffin Tail Academy": "e1547ff17b9cd6826a34a42788408ea6902c5f95b3c83950fdaad70708483f09",
+    "Dragon Hoard Academy": "11e393762ef76d2cbd6a117fe2832672573f1d3b0fc2149973f99f1522e310b8",
+    "The Grand Sage's Court": "4532bd3871344d7c90afb967b62c49fdbdfd2ee79f3578665bc2ba16608878eb",
+    "Cloud District": "a9055acd1db9cb3dcfef79647694ed3f2202143512708b9976dc514262fb5fce",
+    "Merchant's Row": "3225c4124844f2d275ceffe5f1ee936cc04cc73452ed67aaad99e548f71a294d",
+    "East City Gate": "f3a4a6f787d69ec5828b8f3a2034e2013d3ed506a918a05415ffafb153f06073",
+    "West City Gate": "66800ef5536441a24c471bbdb822e2bac1e8e88eb7cc91e25e17da4d12bd1197",
+    "Caravan Outpost": "806b0ad6222bd3ea5b5c760b6863d1bf4fed0052c679122051e2f54f830a22a1",
+    "The Emberfox Hot Spring": "8e54be1c4385ea2b01c96a9c6659cde9cbd7013ddfffa7e697874c8e1e84b4a2",
+    "Greywatch Keep": "e0ae34b028e9485df60627ac8dab77124f881a0136c25d1584803d21064d55e6",
+    "Saltmere": "9c4d4c93790b4376d22daafd706d8dc98a2f259ac8bf7d72a91e3b7cf2d1ffa7",
+    "The Everlight Public Library": "9687e81d397a98235eb99f88c13e41fcebafe503ee904698fe89361f5b930e83",
+    "Brookmeadow": "0bac3152f1f698fbf65cb8463c990f9293415459950230cf2bef650bd1c9b8c1",
+    "The Jade Cup Teahouse": "ca6ee9b3249adaa0d1f7325c7410d339a581e9d3c74a2d496583f1d34a853245",
+    "Four Sages Bazaar": "f2627d21affa04fb9f96902a93150562425914517170fcb55a27f30c7ce8c2aa",
+    "The Eternal Crucible": "a7e50ec37dea5ffb6561e7d0e334f5443d4b1fd71b93031622432c6b3fbb9635",
+    "Whitecrest Harbor": "e0f2cd73ba4527cfc363ab748ca594ef8b73b3b1f6f0dcc009186ecabf1c2840",
+    "East Greyfield": "313a0a87b3a92afe85924d75080d8cdf193d946bb438f34f1557a7f9dc3bfaac",
+    "West Greyfield": "864226e17e8431eac8f449fbe6eea70d1de45ead9ce0aef9bce4c0d819b3dafa",
+    "Main City Gate": "6f0597a33a195e620dd3cae58e23ac5d86be066cfafe8b52eae7a443de120e7e",
+    "The Grand Approach": "b8dc4c458ab23631e6b4e4f163f30563456da7c11c1091f5365f519cbaa6350b",
+    "Briarcrest Manor": "521608e9a4a026c77201aad1f45a58bd7bb8a210e430ece4af84cc68e4d68dad",
+    "Willowbend Residential District": "e950d333a87cd3fc98d6bdd89deffe73006a55d38fb852a654d70499b8f3f435",
+    "City Guard Headquarters": "7d0d22ed22f221b283ffd041036822f0205052a7d39a9899bca61f32293d3c04",
+    "Stargarden Manor": "2597837a489d36051065daefb5659a150d58e64d5c540d612698e36ea51faa74",
+    "The Grand Ascent": "8b94b392ba55eb8b3c6e295c1625c44624f056f4b5838c9bd54e988a14588358",
+    "The Wandering Quill": "5974ce9b7233e2b5b0608af1319ed486c84b5d670c76541604ab3b02f1026605",
+    "Bramble & Bottle": "46d20d4c475d6752606d2a368a8bcb8ebba18d81f961f7c5488260eca0a88be4",
+    "The Gilded Griffin": "476d100ec0f1da63fbe968c47b5d64cf7bf31e7dc2a040909197373a0734cc2a",
+    "Wayfarer's Goods": "ab6c7a961fa9b8ce0b23d3cd90830a74a83b5400e16c48bbb2ef2a0adfdd56ed",
+    "Crooked Tankard": "6817837e8c36615cb575460b2aaf04152ade8863757ecd49792aadf53b5ccb24",
+    "Roseberry Inn": "23539191679cdd4912800fd2314fb4e4ff7fa54d9e832869c44eeac036e6de49",
+    "Driftstone Isle": "05ebf9aa432db7f77b27c6d8414797864a91f227c3649b33220ea15ce3538b6c",
+    "Pinewake Coast": "291ab967237c3d63c983f1b4832808e3971a3bc3e8c879f7b06c2dc17388aafc",
+    "Clovermead": "09277bb8865bb3efa51fbe09187174b95a60515e59229edb9090a468a46353df",
+    "Pebblewick": "698aa1c32660cabba592840769ddc92d67ca3d47db4bfb7a4fafcde44546046f",
+    "Crescent Shores": "d6f6fccda8724d2ffbaa7c171012214ac0c991d7c9792445e91756e894243c6c",
+    "Seabreeze Inn": "dd1e75b8e88066f64f487249bdf7ed77c3e3d69f310981928e9d1fbd18b34edc",
+    "Glowhaven Farmlands": "d853e4a9e560d5bc910d6bf2dba0d25c27195580fb22a485278064deedc9cd0b",
+    "Hermit's hut": "1caac557912ef21af551a12fef179120e6417ce55c1c8259cb3120a55d7b4f37",
+    "Pinewater River": "551f0dee1d17e8cdb7a7c91072e8be2391428bfa6be7f3e0e441a41222ee240a",
+    "West Glowhaven Woods": "81c9480f75c406dee182524a8bcfd074b58dddbd1826418e2d69f65771229fc0",
+    "Pebbletown": "79d9a9f4e501f663639b32007dd8c8fc8850fd402f0c7b328faa3666b7d533de",
+    "Sage's Spire": "79d074a8d137bfaf4386343013235e07b1d731f98f3fadbebc0f4b1c7a3ddc90",
+    "Violet Thread": "fa1b632925ab8fad9337ec1f2bdb683fb7e40ae742b5e6d86cef42e00a9ee81e",
+    "The Perfumed Rose": "c28ad88eaa32837f5910f4f6298805f5afaddeb52c2076035046a312d6993a5e",
+    "The Golden Ladle": "b97d8fb2a1fdbaf63ab152c836e4256e503879228910c74b2e5b15694ff6e436",
+    "The Farmer's Exchange": "9d10f48a604c82d0ef68fcb3cb2aab251d5b112e5b5522735ab6029b84c77615",
+    "Rune and Raven's": "1f974c9f4bc52b80d82c2e417c8e281c18e90b86622b25f92105801170a57451",
+    "Moonwhisker Emporium": "53f30b30dc648f2eb7886d31ed3d7b14b2e25a97d25f40d6c983b835a19538c4",
+    "Blackstone Smithy": "8f172bb98c6d74c5c970f9eddb407b7898eddf6f27081427a457b954b42531d4",
+    "The Silver Anvil": "7bfa81455e2972a7a6910d7a98540018b358b55690ab2114911485ebfd8f34f4",
+    "The Carpenter's Measure": "69ef1558db7e0b7e5a326fd879ea1b55cc9ee08d4906e42895e19b6387087cad",
+    "Hide & Hammer": "69c1703da3a3557bb846332d43a1ffdfb83f51f64ce93199bf2ebe71d2c79323",
+    "Eastbloom Residences": "39e49620f54396c45891baee20ecbce5cce8e9daac4264b1992ebb56ce9e944e",
+    "Rosetimber Suburbs": "d21a49aeaeffd8ec14c60db7b7c7e38f7048392d5cc433cf46b21423ad5ddbbd",
+    "The Compassmaker": "8ba5450a943e3057e713455b0afc84681defde34aea3bfe7a87d7b4718b9033e",
+    "Pinewater Woods": "b2844e533a9c140c16ead3b1bad5d0740902a23541271b5d6be279850621095d",
+    "The Winding Lowlands": "e40b5719010733444b3fcd4ff12e8cd4612a6ee39d23e63bacf51bf2fb96a76e",
+    "Shadowspire": "ca25f31356a83cea39babd0327c7cab54aa29324cdfb28a95118c330e1faf439",
+    "House Goldbarrow Estate": "78788e1e002e0cb870bb29ebaa2006c9344946094ea288d878235e68f8a3f989",
+    "The Magistrate's Hall": "8d2ae63fc635103d85c58057185f8a6711561fbcbf8eb34a28d42292de65056c",
+    "The Arcane Emporium": "1bbdb71e2cfdf7e3947616e6de72b63ef8b5b05d53b08295194d6d1e8133dd52",
+    "Evertree Base": "c742efc8a2538a0784841e9e30e30192ae315d2406effd4f2ca420be825ed470",
+    "Wraith Island": "67b2cfe58c8dda8883c2cff35358e9bdbf9cf35dd4a92596dc7b1ceefc388a7f",
+    "Prison Landing": "33ebe32b4e9c4dca278161a9b57c45abd6d4c4c51b03fe3bf0d0fe6a52265223",
+    "Intake and Property Office": "8b0f5c3d8cf5fdd0f047bcdb47dfb94dd8691724da962738d241b9d8af9c083f",
+    "Prison Records Office": "dc6af1748908c9c425986941c82f3963667dc6ccbe0fe5ed9c71f70161e4b178",
+    "Holding Cells": "0735aa45203a6b59d223c81247eb7e2c13f45ebe57bca0f200e973e370ac9cca",
+    "High-Security Cellblock": "78024133ae9fd494801b8bc2d39632edef92f8c628b32ce23c6b98b5459550cf",
+    "Prison Work Yard": "1f6087a01e20e54f5e9e4f7989972d75e0b0bca75847ff23090db93cf75ad6a1",
+    "Prison Stores": "08759a1efae0f2e421e9b4b389bd658f979ce199fd340f1e12eddc76c19a6d10",
+    "Prison Infirmary": "0e06ffba278d7c084bd5ca8fde4f2d920cf92730a62899e47a6a52d27540ff15",
+    "Prison Visiting Hall": "18e18e0a34d715e655078db0ba02477f8ff4496bf0ea7a0af00ca68864212b23",
+    "Prison Mess Hall": "ad46833fbb0c6c52223c49f52623f8f78ae8f6350c045bb824403cc8193d9b98",
+    "Prison Exercise Yard": "73c56a115552442cabee1697a0932cae0bc1c6952c1c4bce270f95e89964c75c",
+    "Prison Security Headquarters": "b53bdfdc903f3a35e966d9b7a7cf1b132902773c797ca7e5d6dadab357698cec",
+    "Prison Watchtowers": "482ebb62ac92ba55874a3e9103fa6e1634b0dc64620c633f1181c513c62ffae4",
+    "Prison Sea Wall": "80164d5b9247e640675a259694355bf24d50264c75bc281104cb1b7ec3f9fea1",
+    "Drakenspire Portals": "16a12fd503444fa3dc1294068aeeb0c75f223d046866dab412ffc2006d8bc3e6",
+    "Embersteel Foundries": "973a7d28329a78faefab42a141270f34bf23a866e5451d665fe5167bf73354e5",
+    "Stonefang Training Grounds": "71460dcbb708ea8b0783f3febf4c771a9f3036f679d6252df74159578dd13337",
+    "Whitepass Caravan Lodge": "7dfa9d548a524f2af7750d3f1724198bf5fd680727cfd201b9312a34fa256767",
+    "Rimecrest Trail": "b49180deff985d2f400f57d1e3a7ea5820c1324da54499065ed15da9fac5586a",
+    "Cloudbloom Landing": "d0a5d8fa35dafe236b0fc55c23d05504198be13b59cc6f20c92836d138ca4bfa",
+    "Asterveil Canopy": "277738488a62d3eb1107563f950df5fbf9cd61a51a1e4023ab1f77c7618778d8",
+    "Bellwind Conservatory": "d98f5b41aa880f8840aaee6de33fd329b055a5c137ad80759c671681648e111b",
+    "Mythwing Meadows": "c421c4fee61e1ae140d92067040225f187462e65f7a0e4bec2aebcac6e8124b2",
+    "Broken Halo Ruins": "6a29b24bb569e38d570c50a2b6f5ef5e01b6b023c0700c73039176b80cce0f83",
+    "Silken Portal Room": "41abd6e9b2f1fc642feb3534a532b0768e1ff321a7fdca0efff935ff8aa2676e",
+    "Threadfall Galleries": "be2844245cf04c9286c1c5544f7d235a33ba6b69bed87fcd88f129b2e2e6f6a7",
+    "Sunken Broodworks": "aea6da58d3340184b66a31bd7f962af3dd1701fa832cf469f666802793d5a110",
+    "Widow's Crucible": "1290c972ab1929fc5a0a3cb1e2293a6bbed44c781e94eafbf825ccf42927f288",
+    "Crescent Crown Fortress": "aae7198d04dfc66e61041d49b2687cac77f9bfcacb10cde9967bdd7381001ec0",
+    "The Ancestor's Crescent": "c3375c0873f1f0279ed382a174d2db3898fc80e70739331f9ce3bd5c2301b3c3",
+    "The Jarl's Hall": "8a4913d4434c043f3473fd8d6a78f895f57d5bc5fa6c67265abc6874d99a3f75",
+    "Clans' Assembly House": "520872a7677a731063c9dfc34b998ad3ec6e07657d8faf1636ca8ae15d3a9841",
+    "Crescent Sanctuary": "68b8bdd90bed2ccf9e6954857974b1553fc4d8d5ee1d866ec305afe243af9e4c",
+    "Ancestor Cairn Terrace": "173930248ddc1688591a7c61da6842c293a93407b5860d64e3fef1eb528e8426",
+    "High Rampart Gate": "34d6a51e7b30e2067390b2b6c2151aafbe7507ef72df9c4049bcfcca05b148a4",
+    "Oathward Barracks": "112f31ef8860ec6400f8bf08404a0b97a54d3307e10a6ade1d9684da6d449ba8",
+    "Dragonwatch Balcony": "d514c051e3782a2f73c82cb8fefb39e207d58fb1d021874a811a5ab300089f41",
+    "Founders' Processional Way": "1c9dcc16958977de6688309ad632f650f586f9f9bfc3feb467939e4f2567c21e",
+    "Hearthmarket Square": "3d4e94554a4a724324c0fd75303d78bb44c2a41bcdb6c7a2d25a949c2db29c89",
+    "Snowmelt Residential Steps": "fd48ac80dc6f10ad0b6f9654e973a68ea280afca01de5f7fb35c9bdb7edf4c66",
+    "Cinderstone Schoolhouse": "aedf2c2a0fb1185088e346dd6eb7999e866f348ee324153d36a748ddfd1307d9",
+    "Lower Hold Gate": "065f47d141ba9ec3ce6c1e0a019be52e2869d7539087e8a322b9ee2f4d754c99",
+    "Iwatsugu Clanhold": "c97d81c774d8722c7b30efc1fcfbe6b72a4861ed04e098586baf4178de6ae84c",
+    "Yukinose Clanhold": "46d002b6bf0c6ae3de4e963c20a363de207913c6f1f359e46a8ad480c4f53047",
+    "Arashimine Clanhold": "02e6ba43fa3dfe756031a2033b10204e23215387aca6cec256fe6cb3810761d4",
+    "The Hold's Judgment House": "02c6ebc686206253d668917574485e7d1db7004b980aecb302a7bf14363592d2",
+    "The Tempered Fang": "9df6db8e51958734291af1cf300dd31920aca01e3e8a9bf9832621582be63e54",
+    "Rivet & Rime Armory": "957ae64e7baecad62482160ae400aa1b5611463121c7fd2309a3e47d7e35075e",
+    "The Woolen Wyvern": "cac376cf618eb663a5f3de885be6fe5b6a392013b19ce8fa018f6acdbb2e26c8",
+    "Coppercrest Exchange": "14521dbd33e89aa67efc7a0c82183d0b71da9aeb7af2e3726baaf1410a1b7544",
+    "Amberglass Assay House": "ea6c7ae70196036a6e50e78158cc390eb78382648a31eeca081e456d89074aaf",
+    "Crystalcutters' Court": "a2c1ad9ed4f5610d16ef3fae44f5124d0b1500f612a201296f663da215f42517",
+    "Resin & Root Apothecary": "314fad64f4c1c6c31360d86beb01cd6e7c450578ff5c0054a6a6687023fbe679",
+    "Snowchain Freight Yard": "5494f6b1719f5b74be41d7f38b23b6fba3dab722eb1874915ea4fbb1a0503c27",
+    "The Copper Ram": "88932ba5b529dbea5e4c77f85cdf99eb34870b5584ccf5eb7b84399f2ae035b9",
+    "Hearthpot Stew House": "bca2e8fd3aeab09f853afd70d98b287f7d79c76a352e1e8317b712b3bddf8896",
+    "Stonewake Onsen": "26dc37ec66c455d6d971172766a9f6a365349f4decb8d9dbcc6a3425d82bcf05",
+    "Snowbell Playhouse": "b04b343f25ed3f36565124f7e849938111c7aff3406a4582b8eb249183b64599",
+    "The Cinder Pit": "1000dc0c5ef72b11651869787c46a6fc6352f4a2561757cf4a3f011d9f1d79a4",
+    "Deepwell Waterworks": "0efc71cd3df15f8d597489a2a86aedf7fc43c609600622f564d18bb160349eec",
+    "Hoofstep Pens": "37c79899ff1e5b558b6ebd4ea94a73b33d803d0a1a871b2632cd86f205366242",
+    "Woolridge Pastures": "c99d271a359095a0adf9a5bee5d17495352726c0a1bfce97b905a2abfb26cee6",
+    "Winter Stores": "01cbb8947c35bd5c3e2036013da5fc646061c26cda97076e5217dc63329eb9ef",
+    "Whitepass Watchpost": "691a18ae5fa1542303f8cda6626b8c2e068f46b2f9c06bedd2c99edfbf26e5ea",
+    "Goatstep Hamlet": "cf1b8062d30139ab5eab115d0fcb3989bc7afa75fbd0eeda233618df5dfc922e",
+    "Pinefold Hollow": "3f5040f858096ab65274b6e71cdf7e11135f7619d3477482a441df55f018f7f3",
+    "Glassmere Basin": "e584bac5a6fa8c14e7f2dcac345cc597151cef3bfc7874856b2ee6e4ee17506b",
+    "Redvein Mine": "f1be601d63ee6dd2c6695b3940acd4c2a8929551b2cfbf7a09364836e9c85910",
+    "Lanternamber Caverns": "9d78d5f28177579978d2874bcf829c54fa3c832f33ca7bc4871d234ba89847e0",
+    "The Abandoned Chainworks": "cb29842c05b07f38fe5378ce777c333ef73287c2745f15db1b231c971bcbb590",
+    "Old Hearthfall": "1e749c85e1d3184b9abd4a2ee82e30725c527d0bae21a18973a8c7f7b35ac638",
+    "Frostback Mountain": "6c511ff4b6647a7aa1f5b4db45894d047ad1a20a325e6bb4a806429a3d4928cc",
+    "The Buried Switchback": "01f6d4ca2a9c0c823fc64246ae672aa8070f84f35bff280c4e1c790e0dafe18a",
+    "Skreek Crags": "f83efe5b206019f754aa2ebf4091b20f282e35c48abce0104476141d3e0465cb",
+    "Giant's Hollow": "41c08f91f32d9352e5d04c11eaefda8efdd10f2cf0776bdc8733d3492f69279c",
+    "The White Silence": "1a7fb276a8b242b526e8c9e685d053ea61b112e0a465e50eab6b3617a7eb5bc8",
+    "Stormscar Observatory": "3881cbbe86b6dcb117ca755941f90ad6bc0719c2cef3a38761fc9bfa2219f392",
+    "First Shelter Ruins": "a7506cca4eb4b494b26dd62b223cdf59a51fbaddae0e11b4765616782b6d15ec",
+    "The Old Offering Steps": "a4418a1911316393f8012a45c6b62b745052e17a77200280fc74cd4780fa3bf4",
+    "Coldglass Galleries": "b298216603ddac2a77571e56d485f5e7fb0a066f6a9c85bb0ff48c2e243058d2",
+    "The Fallen Pass Shrine": "be64a6852a530fd1a30a267f3b9239293bc65c3fe222874a3146abcf3ca4dcc6",
+    "Rimefang Ravine": "0e208604eed0ea0b6c3270b6bb9dc84b079ed4e625357e772a11ff03cf15647e",
+    "Sunspill Woodland": "5550d567205637b778c208e1cd6fc4b387183fc6f766af806dfc192a8bafa012",
+    "Petalwash Terraces": "1b4ddf2ee8e0e57631de16212f3f2d4382d3ec6742d0a09c4d658289ff31eafe",
+    "Tetherroot Chain": "15152c145b4e107797672075caae4fd0acdedc50eb93bc74cddefeea8ef07f1a",
+    "Dewglass Hollows": "53be84584e787632a55edb6abcafb1ca4c70a4a4ec1abbd75f583feb2ce5b4e7",
+    "Rimeglass Refuge": "225144a8e30861b39d664e4252b252b38bf96a439e641a52b000c63470b88727",
+    "Frostbell Pines": "74fcda67da36293616707507d27d3eba7d8d5058f43bbf9ca197b37b5f3d3d11",
+    "Rimeglass Crown": "c56b677f52ebbd69623650caff6a8882bb3ebac895eb56a3c51b55a0756b057a",
+    "Thunderwake Crags": "1a04260ec19bf3beedbd76edbabf54b6a5e6196bc0abac57ef0d193e8c6e571a",
+    "Hollow Snow Vault": "8e0b74f2656c1bb8f623e9ba23ae539cc8ca72b5b42bfd5fd3843af6593bae14",
+    "Reedglass Anchorage": "df1e8b28b9493d548b7d0999142ffcedfd7fcc69f7c55aa9593573aff8aa49d8",
+    "Mirrorwater Basin": "230961f3dd708eb8afc8a675d9a1cbe0d6ac7129ac56d17c2fec240d0dfd2ea1",
+    "Glassreed Labyrinth": "a0773741a7dd07c4c810601afe250575f4dfa504ca98b4b66a4f20704eaf1423",
+    "Spillway Steps": "3caf83d6aa75f995aa6c3a746f7f2ef65f73b05bcc892dd2a0521db628a49ff6",
+    "Lanternmire Islets": "a1dd6f2f9cd5b3b1818b9566643b7e8af6d1ef33af5745442eefa0a3065ced08",
+    "Drowned Orrery": "4819518a5c6273079d539cf60ebd43a9754327f62b4ed5a3d2b7480225e54457",
+    "Undertow Hollows": "ee2d5c32bb640a0c29256079ded3c98a6213a07df9c1c34cd710c253f3792dee",
+    "Heatherwatch Shelf": "bdaa4469e58efdc81554d578b32fd8e8cc4d0b14fe9b4eb83f5217713b9d595f",
+    "Mauvewind Steppe": "54a7e486a886827941848041eb36411f583c25f0753f5732fd4a6ba4cd82765d",
+    "Singing Stone Spines": "eba4404656a109402eb819190bc9b012cbd8343fb1ed34dc470772f5144950f0",
+    "Prismbloom Basin": "21697ca5f89048d105af974527495887e2a9643cf388402cd511e258f9bf77a6",
+    "Crownfall Chasm": "edc51a4ea219eb3fa165ea656ecd4d288658621a45dbd36524ec292f1faa3e71",
+    "Stillstar Sanctum": "077871871e9589d76a7687d8a994f0d126b636db73ffeaf48bdf2980094afdb6",
+    "The Inverted Crown": "397f8394c8ce0ca9cbd7f9307d964c14b981f421bad2de369074f0a3c3b4e5b0",
+    "Adventurer's Guild - Glowhaven Branch": "403d290ea75994236c65bb245be9e19ab920c51251bdd4f19ff5b8e440524334",
+    "Sepulchral Portal House": "45782b6d6f472590235b83d9bd9bde6ee806e059574e0e726b5d2966fe36fa36",
+    "Sepulchral Conservatory": "98d3b919e21e384a10005c2ed5b7fc59787d097a2da8bd0556ee29251b640ee3",
+    "Mourning Garden": "62fcad64c7b5985173bfc1622a001dbbe45c617aaacd29098b44cad5a817a08c",
+    "Blackpine Posthouse": "84352df84a02facaaf64481298c86fed72cfecc43a3f64e1e29ad8fa08aacf08",
+    "Cedarfall Hamlet": "8c5d227302dd928ae6df13c5a8ae452096fd9cc87f070c636d8f34bab2e8647e",
+    "Western Watch Road": "a4770142ae8d9f97f6a95e03e02abef629786f24a9e6f42a208a589b5c5912cd",
+    "Old Bell Shrine": "9aa497ca316533454a4ece85c3164a753e47e9c34f6517df1b3670d32813f4af",
+    "Foxglove Wood": "dc438e9d266588793307ac4993059dba6dceb96220459d2afd88040ff5125ca9",
+    "Blackpine Boundary Stones": "b1d4f4df0fd062e3dadb037ecfb3d33b8c089d9063cadcae01fe82253f7b3ba1",
+    "Hollow Cedar Ruins": "759db22e6b8e5d63a3a58b72f38255436e579ae5ec629b132987e2ccaff5be4f",
+    "Western Woodcutters' Yard": "dc2f445cc436068a1df6cc197ba6ad6d6e2ba17c50aaed3639b87eff1cec3356",
+    "Thundercrag Quarry": "0cdbf79bf74d822deedeeb824f332610b3228c2c6cef403b8b288e2a416b4f44",
+    "Kuroishi Miners' Row": "ae032f5b24bc6b7d97ee8269191eeb9893480372a56a421a4eba0f823963dd29",
+    "Basalt Kilns": "5e5f9fb15083fe08c26599e34494c714211939733a07b76cd821ad7661b54b8d",
+    "Amber-Salt Mine": "ea59e53f18c62f12da8e11d1c747bf68806eb4c05e82dc58bfcbd024a5b2d94c",
+    "Abandoned Splitshaft": "8b9c5b3a3eb95545998432f7a6443be97aafc46c738d87f3b77cb9214c9aa39b",
+    "Scree Lantern Pass": "bee34d0d79db4175cd901b21ed1ea8693af0a2a69f578e385ba97e6bc38114ea",
+    "Quarry Exchange": "69e2aa8d6e325679ce4eb14dc1bfa40dad7ab5b1edf3cae987ff32d8de268afc",
+    "Broken Relay Tower": "1e54be23185d36c16e63c3ad3cbf4d6016d4b6c629222d397d7d14e760c6013f",
+    "Shiun Pilgrim Lodge": "15b96f43782a7e67c731857dd87b474342b233fa9066878110f6767f3b29d00a",
+    "Shiun Thousand Steps": "2e821f456ea69f11f941f78a334fd1fab274eff868a359b6495b3e84aa773612",
+    "Cloudbell Monastery": "8437e4c5d45522a5a01d16e21cae8832f8c177b6189939eb58c69a8c2e194bc8",
+    "Whitefall Shrine": "63ff6977a809b4d0c333382cf7fbf1b6116c4fa388ad6e3b02857c941173d486",
+    "Summit Cedar Precinct": "32fcf113006eeb6c8aac80e0d02848651fa9e7bc9e5cbdca876e3ed0a5d85991",
+    "Shiun Herb Slopes": "84f9d6b77962f920355fb35d6c1f9bbd35308410d24cc2d8d2aa2c7838d17f4a",
+    "Ancestor Archive": "012a4d13ee74c54a1b3b4c5c508bbfe6a6c4d347b8f3de2a9ee92ec1879d21ab",
+    "Frost-Eave Approach": "2e6072b1f7a592558550419432ac31539bee383bb75911a25db493bd9c900c3b",
+    "Snowcedar Refuge": "c5b8de596635ecc5713a2b16dcba5047c7b1982f8b3267155288c56d8401ead8",
+    "Blue Mirror Tarn": "839d72080954a9e1e80a91580b41ca7666a00f51c072204d06a915668a9e1501",
+    "White Antler Basin": "8a138f32ed5932cb633f03b314eb4cacbda20f133094f154579c1fd427143674",
+    "Snowcedar Signal Hut": "ab46a4a8912e68d359a2ac12879519665fb298b6920333fb8cc8e42028a77c21",
+    "Rime Bridge": "e4cf21c2b3f09cb7331339f6bab1b6c8d4d4005926c9c14f3b830bb90a39c268",
+    "Forgotten Muster Camp": "0dcb9dd3ad2d1edf83bbea90248f54a6b9bc3ddc96e978620d7b70dcaf0ca79c",
+    "Sleeping Lake Cavern": "124104214d8948aeaaf7827680a1a14e069caf8a5a834553ca7d4c162c7da988",
+    "Mizuhara Castle": "940337ca4334dd13abf60622325ed3816ef77cc2eb9724aac6270789c0acc232",
+    "Mizuhara Landing": "b2b496b778e1b2cd82184f5484da1c2b8b0d5c2f36eda597e2ee5f225343dbac",
+    "Silver Carp Market": "9086f86ed028811b8c0f138055ed28125ca99d8c48adf8967f827c269f808a88",
+    "Three Reeds Inn": "294da6a989c83a495d260588abeda2f700af00ee72b5fe3d09f8c252f906614f",
+    "Saionoma Household": "b77e90598c9d510d6a2c08e393b694d865b9dc4fef41074d2fb21eb3a3c61986",
+    "Reedwake Boatworks": "eb90d9e999176990f0f0f063062e9b241d244bbfa2790802e34ebf4244a7e6c3",
+    "Western Spear Hall": "84334ea72d5cf8cb7b382728c349990446099a2868b90733399a819d44290f8b",
+    "Reedshore Hamlet": "98d7d5c2ab177b53842947f8ea09d87f5cec5cc2b85c5005060ddb09c5751c70",
+    "Lakewatch Islet": "3f6715983b479f61dc4af48e13841222e1b1495ed9c932d955a68136ad25a18d",
+    "Bamboo Crossing": "112f0ebb018271af6c93803785aca73433ce3ef5a8c9f536ec4c6f4d7019b597",
+    "Green Thread Paperworks": "7f21fbd07301679436d33e85a9040f7e85b768aa4ac105d68d8d0f736d9a0a6f",
+    "Rainsong Mill": "2dc24039ab861237bfdb47c7d48c117089953aa6fb2183c82afd3ed77c358322",
+    "Hidden Reed Training Ground": "d04f98aaa38c878f70eeca4474ef5a705f81250381e2bc751effd835dc10c488",
+    "Riverglass Baths": "0ffb1ecfcbfa1f3a6c3fc135c1749fbae8ae0c1620e502e670765b08d5c72610",
+    "Abandoned Bamboo Village": "7793bd364e6b2379a7db247f053f09bc36d1179f9a8f9de9cb5719bf45977134",
+    "Moonweave Grove": "3693935d619d4f557c298d61c24118a61614cb762fade4bfd8151a5cf03b6b00",
+    "Bamboo Charcoal Camp": "ac5671619f69a21d20a56c418a11de34b281d93faf0f800d05a09c3a740d89a5",
+    "Benitsuru Portal Shrine": "1d0a6f5b5067a466b80f5edc0af560e912a039c990d94424cf7d4c9e42bf916b",
+    "Benitsuru Castle": "c3c30420035c0669d1dee68e805a2f587930c615a16d99d5767a1dfc53c5c12b",
+    "Adventurer's Guild - Benitsuru Branch": "065bb083836eec82d37eb5bfd3e3cf9bcc302d84af38be8468e8e4154c08dbaf",
+    "Lantern Canal Market": "5355194672bdf9062e453c3a4ea245ae721e6a80fb5789d33d8d048d0f74b000",
+    "Benitsuru Magistracy": "286e04b0afa76c16954796043a2c042be123a90d3872585d732c2aac15d6738b",
+    "Red Maple Inn": "a3bf508b4491450891060bd57ec31baf992f3465484a10d79e1c6d690feba28a",
+    "Benitsuru Ward Clinic": "722943140429dd4214233dab9ddc1f5fd3b7817cb418be1b67d093ba60963dbb",
+    "Kagetsuna Household": "6be1e9fd5758ca615f1634c32c694d4bb107972a74524ecc03c7286cfa325ec1",
+    "Eight Petals Theater": "ca14c5a731fc05f99477fa9f3ec1b3ec6d741930b6be2c70e7dcd534bed60394",
+    "Benitsuru Craft Quarter": "66057f9f71ff587a4d1daf7e5e561855004c5ec9714222541236d7be499e1c69",
+    "Morning Crane Dojo": "f0aedeb4e0ae4fa02977626fdf4e00e5207534fdead82974d366c8247413c541",
+    "Canal Ward Homes": "c8587da47fd86f1ebd29f5eaaf6e9aee5b411b946d3435139015c5cdaa0c4aa9",
+    "Benitsuru Public School": "b0af0aa6b1a9492491716b764f4d111f9081e6b0d86adeac0d7cfdaa5dbbc3f0",
+    "South Gate Caravan Yard": "0f46a371d754d935561da86ac0486abd3bffc95bbbe0652f9d308d9342271801",
+    "Koganedai Castle": "8f77770259340c5a29f9fad0bbf9891f316b50b976ea084661dc11dc8d3697a3",
+    "Tsubakiri Residence": "9a8c0b527d6d26367b6772340ba7e07c2acdb6e5f5822acd4c36b61aa922057b",
+    "Goldleaf Arcade": "82beeb3feed7f1c58a2169b1e84f3e9d27dfdaa0726067aa04f1b8435b6b6d24",
+    "Ginkgo Crossbow Works": "fc70525c5905c01f7a0520092d6197a08befd8b08d28b0311f3fca9c97a302a8",
+    "Koganedai Muster Ground": "a2730d194b690a7873c06cf60c4cb78538efeb85e3968e10988edcd46ddc0804",
+    "Terrace Waterworks": "25a420f1325d58d844e59eb1365d0b70f206473480b3631f15bbe5c3cc5a3faf",
+    "East Wind Archery Hall": "847d7ea1bac731737f6c92791b3c5f75d4199f6d8e0ecf9b698c317b51196121",
+    "Koganedai Guesthouse": "63685c6153872c7409aa26ab6abc9b5c86b4f2736b9681f06e011a641b1f135f",
+    "Ginkgo Schoolhouse": "317640614f85ee65bed81249fc61a7b57ad1a7843f2af82ff235688c07d2bf12",
+    "Mirror-Reed Bridge": "06d6669f5a80929ea4cc1b8e186cf86649fcf122cf8b39c2ba71c0d31a126cfb",
+    "Reedglass Woodland Hamlet": "da930c0619b207aa6ad9f9e3a54863c4c6942186fb7ea19523c9a306985c5bc7",
+    "White Heron Grove": "58809c5d122ef8d2fb1eaa66dfcf78a15acc269d51ed2fa1c1014a2b5934e27a",
+    "Singing Cedar Hollow": "4e05cf65e0dccd4f876cd153997899e5405bc61f8adeea16c89d0df0dfea1afe",
+    "Old Bridge Shrine": "f147e087979677ce10a5b1e5ce841d2168d47d24b2182793813cd537f942702d",
+    "Mossbank Ridgeway": "f47dda2f0ab790d867410147c8fed7c59fa37c05016f13e147cc3a3d70d980ec",
+    "Woodland Dye Workshop": "21a8105897247ca9172c0ce605f3a546dcf4773a4eee0334a17cc82fb4979e04",
+    "Hoshina Village": "5e2d35eb9a2adfe19b9e3e89cc44f328f57ce45fd147ac8206f7b87c1611f316",
+    "Golden Sheaf Granary": "f52a4da2e3d9e2a20bb0cf8a5b05ea982af4ff267264bd22a01b2e36f3841aef",
+    "South River Bridge": "87bd6b869770da50aacb474237d261a533bb7559ca9dbbc310170a4f8267f9f3",
+    "Goldfinch Orchard": "c89553115bfb1196208d45bb134113420c9935860d1f5edd31023d7e4168aa39",
+    "Susuki Road": "57e0d0e5cd4d3edac213658d264839009c73448befdd9969cab460ec443ca268",
+    "Low Meadow Paddies": "e6f1b450c664f621af0f11a6cfab01a6ae6506d5b044813825a35722f10cdce3",
+    "Saffron Road Hostel": "10289cd9ced79a9675ee38595110a9192b5697cbde41f9b9cb18aef7d818e270",
+    "Redleaf Bridge": "301c25f966fa9b716db1f31e22db99999248c4e7d2e567a01d7eea46d017f1f0",
+    "Evening Maple Shrine": "0d1fa4a29e40a9a9ffb3da52c01d63554d6a0176a034f034e8eeb8647c5e011e",
+    "Redleaf Guest Village": "194851ca5403c788fc1bb4ad6052206177b51a128472e445244a07478db92a0a",
+    "Paper Moon Pavilion": "e9fa8af2e8b4de4d991ae89ba4a4bd40aeabe4e5990a6e70c27ef1a443b9c33c",
+    "Foxfire Verge": "6fef3f990a66e755b3e469a94c37eb77b61b58c05417ffe4566f70b27d929431",
+    "Broken Kite Camp": "15e5af1b453fd06954004e0af80316065a3c9581b97461f88fe75a287d4974b5",
+    "Redleaf Apiculture": "d64628912982e2729cc23a8ff390f28b226edf47f0285505af4d6a073f65677b",
+    "River Lantern Mooring": "a9ec50045b8a43bbcae96f52d746fbb93101f2b21bd8c5b5e9f89758e1a6a9a5",
+    "Moonless Torii": "6fa1b209c1b6b74c3ba35c165537a5ac62d3191d7f6de40e7eb6601591bdfdfd",
+    "Lanternwood Root Shrine": "4e253aba39927477449eaa86401f13a137d6f68fa7305828c3a5a8a2dbaf3c98",
+    "Ragged Cedar Hollow": "60f18031e0eaa3350e07db9a3d36ed4156da39a92f1a9b3212d17d9383cbe8d9",
+    "Old Mask Trail": "c2f60d925aa4a13255920cd330b83a73519bb7c9e5cb1cbbfff9107a93d4d149",
+    "Rootfall Ravine": "7bacffa049f0b68015d13e5fef1bb7b0dddd70a3732558fe812c55594195154c",
+    "Lanternwood Field Shelter": "9f612937a7f290521052f70a847b087d11edbd42fd8c4e0647a625018c44c727",
+    "Foxglade Spirit Orchard": "203b1faf187c63b1a00f47870674c428ec1f9cdf9ab93cb32a3195bc067e61ab",
+    "Hushwater Pool": "e809cfc7efb88a00f4601da2e4f9624f96f466491bcc71c7a69a6cd8dab69cd3",
+    "Veiled Threshold": "577fb30129b4914734865b3cc19ddf164c8898da1b015dd15c29d3e6e2d0b82a",
+    "Bellroot Refuge": "5ba88bed9b68b53865196253f518c0b0758146c217394f31488c6691624e2305",
+    "Pale Lantern Marsh": "ed43bd02f3aab7f3efb249ec7fb929c984c018c53be0d593b66915588a768d7d",
+    "The Listening Cedars": "e946c004a665cc3bf8679ba896242d49d8032649e18347bc01a653ed406abafa",
+    "Ashen Festival Road": "2ae904cb2e616eac5fc6eb63c4e12db532a5ede4921e0579aa778088e2476f73",
+    "Crane-of-the-Hush Crossing": "8c15e7455040c53deeb33e4133357a0e63f8dbcda2f9cb6b571efa5ee130a8f8",
+    "Hollow Sky Grove": "5eb563012f6bde708de6ff0a05ac3b4787bde116496fc65f2178541fdaf53295",
+    "Hinoki Hollow Onsen": "7ec2b10b445fd9dc602fef3a3fc930ddf41a33b1769f39a5af1bf824597e4291",
+    "The Gilded Albatross": "3c1550a460bb62007a50740f3671ab0b9b2eb3e2e92303bfe66af7883cfb228c",
+    "Splinterwake Wreck": "fdb663ebe76e2b752917c3b3091833cfea2401f49964290b1c85560dd1fdee02",
+    "Moonarch Isle": "340c656838d00b5db0b0857c081ae29ee169067aa0808e91037871246f229f40",
+    "Stillback Isle": "f66f42f881be2acc5fcdbe594864d30611870a582ac05dd38ce08850563de4f4",
+    "Greenrush Estuary": "361bda5867a131ff71497ad3b37a3ac83f5c18d099b759df5bd616bd1ff4bfb1",
+    "Thistlebank Alchemy Cottage": "71c48dbb29f141a537f4ec0fda85660101bd4f7c30878f4b7e16db523e5062eb",
+    "Wrenhill Windmill": "7a695591ba23d0cd147fb51fd6ec4e8bc541f85c7d7fd03f9c869ba72dfc2c3c",
+    "Old Southwatch": "b9090a8c85892e1f1de83aa078f04d5754849e48b58e095a8c9d551ebf0ed9d9",
+    "Bluecoil Rest": "47bed9607df099972bfc09eb003a434a7afe23b685ad006923aab537d7342fac",
+    "Beaconrest Lighthouse": "fe40f5247da6549d7eb350af7b815819e2d747cbc44dd5f6efd40fc1ffd40608",
+    "Starlark Abbey": "52a23f9815e76b9271528b4e6f2d92fafeadb00cf9e8366c1b88947b96a53571",
+    "Gullwatch Reefs": "00e5cbd607c543777e36bccc72a8622c2986feac08680777576f03980d82860b",
+    "Longgrass Crossroads": "d99a0cb1b89a4a7d62035dd62061183ac3ca3038d221633ac1f3e2585e79f619",
+    "Seaward Overlook": "6f35dba5a64b735b59b34a4cdfc81d79fcee60c5880ac114e32f876b10e6acc5"
+  },
+  "protectedTriggerHashes": {
+    "gh_formula_offer": "4bb600f947a788c3e995b63f85f00b771bb67c1dd52d679e717a5dae5a36fcd0",
+    "gh_standards_offer": "041f2cfe0e7e80b016194b8d8e2962a0f99c3edb42daec94ec8bc4c75908f9bb",
+    "gh_shield_offer": "50257cca8f9bf4f877c38220758c2cbf14554d7676b8794df160cb0aaede2ef3",
+    "gh_scent_offer": "a2668e4cd7d5043d0d9cf129f2f9d0f742b752d16c4787088abe512d4fed02a3",
+    "gh_lamp_offer": "7b3b894eaad8fccd2506c15ae52db89339394558569b54b69805255f87906a93",
+    "gh_crate_offer": "ce6cbd0f17f27a01eb17cbb4565e042369a56fa7459dc3e74442d297ae9e8c5b",
+    "gh_water_offer": "acc6521251254ec84d843aa9bea220c59e66ba7ed6ed6c0de9ea0820f12c08eb",
+    "gh_measure_offer": "41a7f83be068934de872b23338847d05d07ccc47b60d599771d65cedecb0df48",
+    "gh_manual_offer": "6b5db64534bea0c6ded4a05b065482874037462f8591f5e57a6528ddf494a42f",
+    "gh_arena_offer": "38e9584b2cd1b31caebaf3e40a42bdbcb8195a7370b694ad3db63a638d8b8ce2",
+    "gh_keep_offer": "71752517f300baa46f284a374787e4b0dfc9dd8ca8c8a80f54a0e0a36bcf61b3",
+    "gh_attendance_offer": "d02ed5cc8704d7a046380baa8f63f4e4c6c934c796e1530c20458ea0fe3fa6f3",
+    "gh_odds_offer": "14b72ee845e7a994cf1f44a372154e769ca624279f8cc56b513c4b916781d727",
+    "gh_carriers_offer": "1f57ce029340e2853a4bee8edb2cf9c7705da5261b16fd329a767cb1e74cd9e0",
+    "gh_shift_offer": "f0e4b763f3af07adcd80f15f45c9b46c8ec0776fa8800c62b7691894635325e5",
+    "gh_ledger_offer": "77fceb54769b7cf512f118bc885b5056e09c9bf8187c81ab09db9493a205a3ee",
+    "gh_footwork_offer": "4759c3e6f542c63475c67a7fbe5d49b0900f72b7240b988d04a29cf19b601cbc",
+    "gh_fist_offer": "557a59cbda84040c480eccb6e74d24c25fe772d2dfd49646ab7e21c814f94574",
+    "gh_staff_offer": "5d522519c2bdf61267f27011d6cafa2e63c62eaa5cc72b274773f9652a8b0c92",
+    "gh_blast_offer": "419a220f320440a1e7d6a8964d98307c4b4862ae25bda4540a4bf693af6499a4",
+    "gh_hunter_offer": "e4acb8d7bdce973378a91bd451bb9961c03c8bdd61a51b8687c90fa6655c3c3c",
+    "gh_prison_crossing": "5f234d890a89d9457f7303570073a6ec1d3e9e6e8a6161cb88528a8665c37a94",
+    "gh_prison_realm_discovery": "266be5181918ea8be345952246dcdbe046b1d05524490a140f73860d4fd736e1",
+    "gh_custody_intake": "4fccef7d50e64cc056b6427042b9c9362a0aa9c2d250b2f6598e5ad1cf0ea26d",
+    "gh_prison_authorized_work": "92fc6452510453aa0763b59cefea39eafe3b72605f98b935d518ef7980f62c2f",
+    "gh_prison_discharge": "445b8ffe62da1dac5844facecf6a977a97797a3389e31958597bdee748adad21",
+    "gh_prison_escape": "9932676b7c519675b4ea01b4e798a38e45e2fd5e685390c4382e1c7e6b7c6cca",
+    "gh_prison_access_harbor": "40e36ab5c6d1477bd176e235985f46e53ed29b397a0954ecd7733a60ed2f68bc",
+    "gh_prison_access_island": "d7c43d2356cb08622b9cf4d23da35a58c562416b8c5dde8cb1895f18389a4818",
+    "gh_serious_case_recorded": "8f771da15de8841a5cc5d001c3ac96a11bfe1a5fc263c864e895dea51deedb49",
+    "gh_lore_zero_mana_notice": "dbbeb46c8b4c9ae3d7e471a66329897a6b34039442ab753b29822a1ca4ff7ee6",
+    "gh_lore_tournament_start": "e8bd9e83c62418e5bc62b5dc17076825596438dda61380a25543dda00e67b2b6",
+    "gh_lore_tournament_stop": "2f0d0b0e87c1bb31ca5b911330bd59a8bb4b92ffc68cb8d156fc685aed1092a2",
+    "gh_lore_expedition_accept": "5e4c005df61bb6120e11e94c70b21deb401c9b7e416317e8d6d51224038e9992",
+    "gh_lore_expedition_authorize": "b70d479b9a226b0a8442e9d9b58235d5b283c3d9408d31a4b88a5648bd2dd615",
+    "gh_lore_expedition_fieldwork": "decb537ef115bfae3ba0a789a1bd9343974fdca4425e61c5b559b18bac532831",
+    "gh_lore_expedition_report": "4c7d4e11617334847938fd1f859a009fe0dc4183566b06e02cba1b56bd9edad5",
+    "gh_portal_to_drakenspire": "87217fdf96ce0d4fb7c509369135c75bac5599a2f555d8b7f7c0264ac300dfac",
+    "gh_portal_from_drakenspire": "31040b511a58f5610e7d8ddeb48dd8228fc3b5de982b23596f7fc10a937bcb37",
+    "gh_portal_to_asterveil": "cd116a7598eb59f3df4b2fc85420d6b509461d12b5559ccb18c290ac4f92fd2f",
+    "gh_portal_from_asterveil": "5b6e0072e6b3a341cea47adcec2aeeaeda6a62d617a7861f11cb9ebfa9eb2c88",
+    "gh_exam_level_twenty": "b8b0bee6b7bf43e0c88609d0106af30cd33fd24189dbaa937d478c1e31c9af22",
+    "gh_exam_volunteer": "6568973d6cdef11d65433b3bdc29558b7de49a455de0be3daaa8ad0e212157e1",
+    "gh_exam_briefing": "163d8ec48c8c12521ec71bc1439f9eff7370f7e4b76e10bf6d5876074f93c07e",
+    "gh_portal_key_issue_drakenspire": "92ea6c4af258aa2ade2c72ba935affa7f68d7fe0a300930ab2eccf30fe404ce8",
+    "gh_portal_key_issue_asterveil": "28174de23ddcf9cafe9d76a9c6f871e818ab75c627e11e83529d505ae083ca08",
+    "gh_spider_first_return": "9831d8b62a3aa0acaf1dfdf76b4a3d663b313315ec1f1d99046768479c4bd392",
+    "gh_spider_repeat_return": "f53fd0d1b5b919c3196fbb8a885cfa7ed08762851e5f102869c7946c65872836",
+    "gh_portal_to_silken_descent": "cd936f427776a41f8c890cb91cb0322cc37d7120fbcfe531ed5541cf67cb31d7",
+    "gh_silver_key_replacement": "44f12d8fff93ce2863f99161a76a68f63f1db7226fb9ba154865036381c4e762",
+    "gh_spider_delving_accept": "68cdea70f28abc11e3294dfa4db4ef90f4998c3b62a3b2f786ea782b0bc413d3",
+    "gh_spider_route_broodworks": "e871731926793a826f00e23086bb4247e94502782c77024e17ef5ecb1a44a4dd",
+    "gh_spider_route_matron": "7bbbe60962c19cf895e43eb3ad8c8744135987f74dc08928b8db00aee40acd96",
+    "gh_spider_matron_encounter": "3eae393af375ed3d084aa3c3a15677b24f94c198a92b19467bb3a71babcf01f2",
+    "gh_spider_matron_defeated": "ce43010a38f63c191f3b0b6aea01dbdc90f823cee3a871a4f15072dbcf1a7212",
+    "gh_spider_matron_yields": "b3d64d20405cd3b3c13c49518ca59a52971e985d47fcb7b3033eee7931c5639b",
+    "gh_spider_report": "7cd16c0089e5de374438c7b8a6a6e2430c6f4762ba53bc5abea4f786b3c7d6b9",
+    "gh_portal_return_key_issue": "0fbcb9ae21236e2e463565849db8f61718cdeef606c83121f52feba790f891ea",
+    "gh_portal_command_router": "f86fe2c19a89b699e9d07c777fd1950a258e49c34e28d5677d98a9d82fa4e916",
+    "gh_portal_anomaly_once": "f431ee164b9da11c0b07335467305884daf56433d6989a67a4d6b177a1fbb719",
+    "gh_silken_key_first_arrival": "fff1a716c8629d042803048fcdb4130b8a86cb8a9164d16b11b94a33316af892",
+    "gh_field_test_postponed": "9697587358a704ab657bc518117d88055a41d8a0b12914125c43ffbe8b44d8b8",
+    "gh_ai_local_reference_guard": "3f5b699c3641aee540a3326dc2cbaafdbcda9da1ed02fcc3cce4992d0977a1a2",
+    "gh_ai_craft_guard": "f7aa9a86d2412fc469bdc89d428b9894436f7696bcfec9b4a2c14c9be2a908a4",
+    "gh_ai_practice_guard": "441ff0e926664177a51f7697fecf91c8c777691cf23f2e2a774f9ea926dd7cc6",
+    "gh_ai_spar_guard": "be80748eab92c8cd528f511a756803faaaecd4f3ea22ba4c216d262895fcb3f0",
+    "av_contract_1_offer": "3ed5597171fdc29cd209f9719ec4a6f8a409c4a29ce454fe11ca863c0192af8b",
+    "av_contract_1_accept": "f9ac548636db4ee59b5c1329ce0f343c3c8d2a9e0449972fcbad725706078520",
+    "av_contract_2_offer": "f19f321957c3d7857229f9cdfed3f08adc7ecc8e78d367aa34d192d8a42cc7e1",
+    "av_contract_2_accept": "32fd8d47bf727859243d16f0d4167c40a1cfeaa16f189cb4f7e70f3729f35212",
+    "av_contract_3_offer": "b26c689ea8a73ec0e8e7790e6cae454952f94e669ec4e278da401dfdd391c609",
+    "av_contract_3_accept": "9c2c1d4769c77f3825a81997c3e7e079d1e9560ee11bfab81e055877bac80060",
+    "av_contract_4_offer": "5287038a8ee7fc0912217137422565b268eed6ca567417f4ecc33ebf147d574c",
+    "av_contract_4_accept": "9ad86b1e7380c279101d497ca89831d68bb72102108bc95e2ec48b06f1854df8",
+    "av_contract_5_offer": "64491026f81455f69dbb31f0aa6bea0cb440d1a1c7d8c708a7f91ce30858b451",
+    "av_contract_5_accept": "2a24d8b686673bcb90ccee273441f145f9d9065359b4059063c39d7e7cb732b7",
+    "av_contract_6_offer": "d51bf267c497ea00f69c8325121d413031d0c009a67f1802d1da944d108db13d",
+    "av_contract_6_accept": "695990d649e6292dacf5b4ae0a263780613c93fd37eb357c04e145fd475c01d5",
+    "av_find_site_1": "106495c7f163456bca64209c62905e4ab922bcc158b12719d10a992b6cf7d77f",
+    "av_find_site_2": "2083f9f723349d205834afc893962ee112e3c9fb1137b99137b31597f303ffe7",
+    "av_find_site_3": "3fb354cf669209cadd190397ea22525ab605f07fde3ef038d7695b82376ad13c",
+    "av_find_site_4": "eba80f8a3b3c56470793d2e38168149931bfec6a9007aed9f7cd1ec6f921ce60",
+    "av_find_site_5": "e1b7c2bc92051f4c84fe8567ee02be230cdf4d55324b3f4f6beb8442312c3513",
+    "av_find_site_6": "e4899a196a4f1c03ee787957d936484e82468a1d453ce4f419fd914c714248b8",
+    "av_find_site_7": "cca55877021e1e326614d6ffd82da55d870e800fa8032f4db00cc793567fad14",
+    "av_first_site_context": "79a8681b83ca3d7ac30c33d814d97b7b4a8b4da9727469b80c17ce025494a492",
+    "gh_spider_victory_sigil": "266822f29a0fabcab6832c0236be8b4657e4c30b5b522d812fc3226043d7a8c6",
+    "gh_ryuka_bazaar_confrontation": "cbd950f0434cf66f17d9fa66a43d06a98cef0617b9bccf8d67d4b40450513439",
+    "gh_ryuka_session_accept": "6bf33c0b0bf19a6d98d0c275dcdbf11a575f2df20da27d858b552d3fb3124d27",
+    "gh_ryuka_exhibition_accept": "4396b9339fcf2597ee6d1c4a63a227a65a1dc2a5120df1715a5a5c33504e366b",
+    "gh_ryuka_session_terms": "5d86923feba0452ade0105635790ee193552b2297e04c84caf0882d02dd3ba81",
+    "gh_ryuka_session_meet": "c6082908dc90cb8ea53ad148f3f1ccc941fe932dcdeaf6f0138e3855f6f9a6da",
+    "gh_ryuka_session_complete": "48bc97d5065937bcf041a3f5880f3490f2515876b3dc83d131ea3f6edbb4283c",
+    "gh_ryuka_exhibition_offer": "d2ad0b8507fa9b67d43158d056b8fda65935cdf89f959093f76cb8857804a3a9",
+    "gh_ryuka_exhibition_meet": "042537c34a26268742d3150c29768c5cda458753d833707d8f191e37a8ec62d4",
+    "gh_ryuka_exhibition_prepare": "545c137a54f45d911d0d35ab29251f8fb049ed9789403ad8bd061d9469903f3c",
+    "gh_ryuka_exhibition_credit": "ab5db3217a613ea106c1fc4fcf21b70281fbc05ddaa718010bc0b41042e5bb98",
+    "gh_ryuka_exhibition_complete": "2fd9c85facb547b7873ad0a38ded998f37154e249d697385cad34910de11b907",
+    "gh_spider_navigation": "025b43428bacff998e6f386067f072ba76474cd94c271c33c4c101c0ab43f4c3",
+    "gh_spider_navigation_state": "2541722c877c9bc815cb24874b9cf0ab0b1b37301d88623fe46b3845dcd2883f",
+    "gh_spider_matron_reference": "d1dcc8a1c1f5c8674a867f3b9a9fb8ffd08ab77643c8a964e36d3d6f6d9b836a",
+    "gh_portal_return_arrival_state": "ceca5c68397048b07118112f80ccdb3a59a2ebbaf728af56b1a886494652c28c",
+    "gh_spider_pack_gallery_watch": "732b420c49da4943d6806d06d1ccd8a6d97cac4d4a7a3c06c3f51d6322b41901",
+    "gh_spider_pack_bridge_hunters": "2097f891d6900cdac514088f58623bfac013f9f5913d4154193d666d6971b67e",
+    "gh_spider_pack_molting_nest": "cc1b680ecfeaa8b618447a0a3e4264aae0f2df1e57d988752de180e502c5abad",
+    "gh_spider_pack_brood_span": "0fabeaf805ffec6f64fba2e9ccb13a19f87c1538907df256a0537726a528e09a",
+    "gh_spider_pack_winch_nest": "80c3355e7173b24254f386d55a5abd694415275624f4619bbf6d01cccbe05230",
+    "gh_spider_pack_gate_guard": "e052f7958432ce5fb0b54eec15235f8e8a0d0e9e1168afd96ec79f82d445fb47",
+    "gh_guild_exam_register": "225a1514da12f26e55da94f1cecfa979f4cb853d4b73e1ee5582f8e85667e72f",
+    "gh_guild_exam_judgment": "65c5ffa60b6f3d246b6ce22de219075bf19f6a05da58f0e1225d9c60434541af",
+    "gh_guild_exam_practical": "602fc81d649980ef9e366f3be19e3a249cf93dfce39684b1790dc1d95affae7e",
+    "gh_guild_exam_certify": "12ab80c36447ef180627882bedbcd9e087863dae568f32603c0261d3bc791fdc",
+    "gh_guild_review_silver": "ae2be6ecc3005bb69a14391a40c13d8a0db203b55c04702b4a7eb3199a35ebc4",
+    "gh_guild_promote_silver": "1a07d21b6648671a81882018befa30f322ccc138cb7f506ab3e84dce0ef2cb00",
+    "gh_guild_review_gold": "d5ec150bf0e554b6bdaed052bc5a3070ceba7c4e18b2a8f0440ea3e64b74b64b",
+    "gh_guild_promote_gold": "7a04cc22859b758087dac5792c74f70f986ff29fd30f12ccd29ed3df772fbcb1",
+    "gh_guild_review_platinum": "239e25f88ff281e2747ce2702fa01ea9edd54b204d92ca91fedf1f4b73a11f82",
+    "gh_guild_promote_platinum": "1ae9090b3794db79dd345e0be7c4601fdd76916ea3fe53c26ed5ed0b00e26630",
+    "gh_guild_accept_courier_bronze": "0b90f0e56676c0b65642010ea0040d52d4e110513d8212990ae183db5ea9c83f",
+    "gh_guild_accept_courier_silver": "d67fddd69a5808ed9ff753d82a21d87d0ddf55d9bd0c2bd203cc2c61242fb760",
+    "gh_guild_accept_courier_gold": "7547b64998b2777a6b2245721b5c0c3cb71f2180ed942b082fc7ed38c9444fda",
+    "gh_guild_accept_courier_platinum": "a68d187ca063d58056f8134ea74ec13a72f57be043cd1eb65f6e6cf32dbf4029",
+    "gh_guild_work_courier": "450d8c388ef7192e3d85ab721aacb50ef3bc183c603826ce13bf6638ad8c0b1b",
+    "gh_guild_settle_courier": "85bf76e25854dd7af73e3e187356b40e9ec63fb5d448b0143c5a344c58e0ab4a",
+    "gh_guild_accept_survey_bronze": "9eca88283bf3762cb3dafe0cafa85c9be37fa6dc25301e3fe4c73cbd5bebefb0",
+    "gh_guild_accept_survey_silver": "56eaeb335176b900d8271550a65102c9e66271b7ef9f6a4e1bf42c3615f0d890",
+    "gh_guild_accept_survey_gold": "199525314e16575cd227996be85cad64e2de51716f20e558d22a9e260fe02d73",
+    "gh_guild_accept_survey_platinum": "59130ef71b4c27b63f329bf08074bcc1fb26664824c541149b326630e9930775",
+    "gh_guild_work_survey": "aefccb2700caebb9ac676ad49d0b55f5368d70554da91f79e160c77ad43f4343",
+    "gh_guild_settle_survey": "eee58a17af9998860497048502a5106e731937d3cda580ace6bb66179ced70e0",
+    "gh_guild_accept_recovery_silver": "fc42811daa11241c6bbf89f9523239b9e1cc172cfdb503891dc9c4b027356468",
+    "gh_guild_accept_recovery_gold": "04dc43a9dfa0b92990498869491d927ebaa9714c8911a3a93bb71de54010cfb1",
+    "gh_guild_accept_recovery_platinum": "c40babdfd3c18ca49f99c83cd33ad052d901e0aa0a87de9993c59a7e08204449",
+    "gh_guild_work_recovery": "f29c116abc73462a415610a75edf0008ff7468d04089f6f528c91b070d76a24e",
+    "gh_guild_settle_recovery": "4b04ced4dfd9a68d959ff90aac4d535c458cd6367d830e353c50b04a7efa7f62",
+    "gh_guild_accept_mine_gold": "8c191dcb9fce7ac748738ced024107637e246519ee27af9113f28c2e88f46fa0",
+    "gh_guild_accept_mine_platinum": "5a9a4a157a8b8318a5e89a8a223da358af5c3d87ce1ebf3d55f8576daa331112",
+    "gh_guild_work_mine": "7de56e99cd24ec175b0e2bf7d15320ab78c1d658cd1cadd224f7fcc74d142f72",
+    "gh_guild_settle_mine": "97d896889eafa6de75060ad33d80e74af41ec93ba6dd4be2ece76e832273fa03",
+    "gh_guild_accept_crown_platinum": "f5d1c3235b9fe9c96b5de0a43dcafa9a8b4eb10c37e393759cc97ecbbe90ad64",
+    "gh_guild_work_crown": "2efa068c2508dcbed6feadc62b13aa54dac894f0c989f3de6b88b3b22fc35f58",
+    "gh_guild_settle_crown": "956660e226027b73dabed48ac37a8cecdeca7b135efc6250180bba4050958fdb",
+    "gh_spellcraft_foundation": "9fb4ab9beb82857cafa3238492fe6df6567ff86424201b154ca37b32b994dc4e",
+    "q20_academic_clock": "fd06bb549a99eb68bdddc724fe5b569755feae1bada5a71fb5e3cd1c681e1317",
+    "q20_academic_activity": "b4d4a831aada2fc4921dda48a6629c86c5e0d74a04180782843cfc879b41aeb0",
+    "q20_ordinary_academy_life": "78e7b67d34aa91482b342098c5a48bb8a52b896f2c4262a31429e58c9f6cacd5",
+    "q20_academic_explicit_advance": "246105d3c5f092c0a00566d883c066a0e96ea32970e2352b92eba18cffed1698",
+    "q20_academic_invitation": "db668821729e561d05c62c95a885e1c68d0cb949b2ff67a262d202a4e41a36be",
+    "q20_public_festival_notice": "f3e24df8ef95fbc43035396de27cf1cb14649c8af2bddc86afad25c22f7292ac",
+    "q20_expedition_recognition": "bb319c1848c2ef2c598d3b32c3aabee79af1a3924e557fa3981d745ba85ac803",
+    "q20_pw_theory_accept": "943e539e530566331078aa6d1d6f0701a496bbe433421d98d25956013094ce75",
+    "q20_pw_theory_objective_1": "6afbe60358791e45537a8b099257b1b5a558d98475688efcb52299c0c0811b8d",
+    "q20_pw_theory_objective_2": "5d938064d395dfe3d870ab367c787f2c260e13d2bddcdeb5d18d58d0016f00a5",
+    "q20_pw_familiar_accept": "c66905357c4cffb4bc1cb3ac4adda3c6b21483b53d47ada985b4856d0bd65a73",
+    "q20_pw_familiar_objective_1": "7805baa30b2a1efee2ec862eb9092b039eda1f86492941e3ab5d2cf0982f361f",
+    "q20_pw_familiar_objective_2": "ca146faf1ae1d16e7fa1f7afde99c1b84c250deb97a7bded4b059dc5394fd390",
+    "q20_pw_thesis_accept": "09f4c541a3300bb6791173de040e730496ba55237f26e28574e2132198443d01",
+    "q20_pw_thesis_objective_1": "f7f686354f8d9733f6a0a2c243c217c1ef190d7cf7725c2e5f4a59b3489bce0f",
+    "q20_pw_thesis_objective_2": "3c170fc483dc4d0fa9ee39fb169c492ea311195887b90c2a19904b3ad951faae",
+    "q20_pw_thesis_objective_3": "41cd1858ee49607ec291145d802499f4d7c3bc2d92b92a4cd7c7ccfebc8571ed",
+    "q20_gt_theory_accept": "c17e382036f89660db4e18f7ff4984dc6e8432f08f13011325e130c9e6738890",
+    "q20_gt_theory_objective_1": "45fcba37c81b56128144048f18da95796c7ce63e39303de9a1be4c900c0308c4",
+    "q20_gt_theory_objective_2": "1e8df9658cab38a6759ca5c70a06df2a1569f4edabaf6daa66fa8a1c2bef843b",
+    "q20_gt_familiar_accept": "1767235bb8728b03db92235444571f45be64ad9c95e880c5b76e7ee0b7717da7",
+    "q20_gt_familiar_objective_1": "e7c96eb58b82bb8af8e2f2e73b15110c1f68369f110a83b62c131f3584146834",
+    "q20_gt_familiar_objective_2": "21083154f19d30ec043dc61326b720fd4003ec8fc7cfc0aced6fab31d7e521dd",
+    "q20_gt_thesis_accept": "3ddbe056c212ad36bdb64a9095615a78d4ac77908fa569b7646498253fa33968",
+    "q20_gt_thesis_objective_1": "aea26cbb3e391beb573f121beea99adcce37001ae67784d90fee1de540228fad",
+    "q20_gt_thesis_objective_2": "7e1e0416454c064773947a1b9ac7985a6898db5caf37b4790b226a9b59f82e65",
+    "q20_gt_thesis_objective_3": "81b314d2f318a657ca1d17e2c1855b6efa52a0635b735a96c051e2803c76a675",
+    "q20_dh_theory_accept": "02be4d051ae6b552843668bf3a85e5d6e6c8a70cb072c05d6f94b218be8ebac4",
+    "q20_dh_theory_objective_1": "2831447ab17fa7fd06f96b7dbd00544f5405b0529da85a066d76be9d886ea6d5",
+    "q20_dh_theory_objective_2": "4413238cf808a0c1d74e7bec2af68ef4b6daf948fde8f9ea07ae6384328db28e",
+    "q20_dh_familiar_accept": "6be44bfda376e7bad9002ec9ef9c13b9967f39e150b797635a7c9db845397057",
+    "q20_dh_familiar_objective_1": "08e36b0f5b6403be670ce2d3647bfb278641bc753d3162b6366faea168b4feb3",
+    "q20_dh_familiar_objective_2": "103cf5ec3a5ca6e45ec9b85b1f04923d75762c738e7c4805099d1e5188dbfa37",
+    "q20_dh_thesis_accept": "cb9e412acca6c1e31d18689cd129c1fc3be2303a8a947121046c8feaa5d707f4",
+    "q20_dh_thesis_objective_1": "8c73f17e11c3013068d99695972e2493a55a761ffcafb79ac83f271b82616d49",
+    "q20_dh_thesis_objective_2": "9b7f7297a606c21f4d152dd0fc5cd675e9904f834fd732105eaa4099c285e544",
+    "q20_dh_thesis_objective_3": "924f91c828e3ffac8fbbb9d47931f548c57cde4c55e7f4ac40aeec99fdd02249",
+    "q20_hh_theory_accept": "208c2ae0d6afaafc837a8f4dd2fcf467025225904423477b8dcdb44d4feaafab",
+    "q20_hh_theory_objective_1": "1234a2d47124961f1389fa97d2e85af8e09024efea7b48aea4537841573d6aeb",
+    "q20_hh_theory_objective_2": "2a9a664e3675b7c0e9d5f59cddc1be7f95fb766c35cf84b6b0c9e2f71f373364",
+    "q20_hh_familiar_accept": "a8245a6ab4f8665edb8a3fcc31f566fd44cd25833f996be53cff6cc074805902",
+    "q20_hh_familiar_objective_1": "bd7c5db2e38d6c35b1ec3466164bce8e7a5e35be8021eac61094f5f869a92aa0",
+    "q20_hh_familiar_objective_2": "618881ad4a59e483e43a1fc572928dc1ea2972cf3758f351f614dc0aee6b82f0",
+    "q20_hh_thesis_accept": "1da370ba69a7cd42d1fd69da1fccb03af5d42299707eba54b4cb47d70172e8af",
+    "q20_hh_thesis_objective_1": "3a871b7097c6b489ab9731d7c3f2705092fbff3c9557d91fce79009e2051da4c",
+    "q20_hh_thesis_objective_2": "e6d18dd3b0efa1c9931eaac1fb28e3b0ceca6c37394246d0b16369221558950f",
+    "q20_hh_thesis_objective_3": "0a5231c6d25e48e9fb46f6c61b5642c4bcff7e412e413229c891cb6c94ddb33f",
+    "q20_festival_accept": "d82045e1b82b695adb2f0cf7c81d090102cd1fb10e8bd16bf5b73ba47f54160b",
+    "q20_festival_objective_1": "9d00e2dd674476c4efcdb49351abebd2e4a99529359172388e177d77c4fbc32b",
+    "q20_festival_objective_2": "ec15ea15cc36a881f7a3e8dadf1bd5786acde0ada664df08051d7ef57c6fb80b",
+    "q20_festival_objective_3": "bb8c2807d202bb4396c0440f6968ced952d1029d13d394bc7fcfbad05226dbcc",
+    "q20_ceremony_accept": "c7d47d1541a50d9bc5ced745bb86f42bb8ccab8f7f2794cce80b1b655b180fbb",
+    "q20_ceremony_objective_1": "eaaf8f309c8cc2f8924b67bb2d99aaaade430d9c63ea7d06958c3d42f236cc83",
+    "q20_pw_ring_accept": "69d3ab7b0a191651b835dfe62c597c470a617a058a30eb62bea4c2f142b29d19",
+    "q20_pw_flask_accept": "48721901bd4e359dcbac3ee7be08248acf4a1fda1622492dced7c5ff79faa180",
+    "q20_pw_banner_accept": "e52a6fcaeb051eb962f6e77b4eb3d03918bb76588f486c1861a7e924b35dfab1",
+    "q20_gt_audience_accept": "190e150fb9fc41933f59ce82cfe35a305ef5c8b2197f9efd898ae1c7df048e34",
+    "q20_gt_afterhours_accept": "2ee02c5438c06057c30d291649bf0fa80b40276d5c0d0751d17e6b4e95ba6a04",
+    "q20_gt_answers_accept": "110f415ec4ee027cba704950964ab527972294fd1b6f0d5bc75504538235129c",
+    "q20_dh_relic_accept": "938a7fe3a5f21ed5d5fae9fb1f6aa22b37ee72fb4ed4ca100b5650c3572aad76",
+    "q20_dh_creature_accept": "e4a8493d10a20c93c2d9e24f9c86b3c6eb0bcf495141142a48eefff518ca070d",
+    "q20_dh_signature_accept": "a3378d54f61d727d3715dea3e7a6b5bc67a2eab4b56080e0ec1d2e9f063cfc2f",
+    "q20_hh_costume_accept": "900ae401e13a2557ab87368c2a51c7cb129dc32c848092638aecffe7906eff30",
+    "q20_hh_relay_accept": "a5c0afc89925ba94e85123e65631ac880465b2df8d6890fddf243d43b4660739",
+    "q20_hh_sweets_accept": "cd61aff076306d0062e29f83cd3d32e858e64ab048d0f81b3f8186ba27c2680b",
+    "q20_salvage_1_accept": "8588abdfaa2f03d1011ab51857e0d297404d618f8d0c20331f39831dff9ca7c0",
+    "q20_salvage_1_objective_1": "2b0508969e13b126fc1b9e8fcd46d296a12e304b18f9ff370064dc2ec62694c3",
+    "q20_salvage_1_objective_2": "20ccf5f4b57f6347fc8c2617b8e98e1d543760b70e5f2fc9eeac7d6971248a4d",
+    "q20_salvage_2_accept": "26b1a216a934c4915bf3c3bdf742aa42e03850ec3bf60f4f9b3cf4ab8a0e022c",
+    "q20_salvage_2_objective_1": "4e25e3fd0dca9884c9a6b9b8169c3ac782051e09aa3daff43b497b447083fce3",
+    "q20_salvage_2_objective_2": "479bb6de25e5cf8b48a0f7e3564caeba307dc5f86febe470f77f4b70a318f206",
+    "q20_salvage_3_accept": "6e576ff0a78aa49eab7b35a37ad870d025dc3bd8323c7e68000c854715385586",
+    "q20_salvage_3_objective_1": "50ccb6e20fe2af4e55b87076393e5c643eee06ec68274bcd3fb69deeab7c19dd",
+    "q20_salvage_3_objective_2": "5a62b9bf230cd3d2306c56e329897f856e873e0bf57b6cc8224953dac346d96f",
+    "q20_road_1_accept": "9b4ad337cfdd1423acd14e29f190eee688433b2fdd3abe5f7a1a8782eaae7fa2",
+    "q20_road_1_objective_1": "9bd9f7f7658c78ee4ea33533c35eb9c04caa621cde8205f50c7e8362bbe761fc",
+    "q20_road_1_objective_2": "a9ff9126aec6605f977b48bbe67dea9abf82ed4efd21c8e3b651154e91076674",
+    "q20_road_2_accept": "c029fbcbb40442d11f70c28435b97cadac80f3351a7ded8d2dd390f1c77408b8",
+    "q20_road_2_objective_1": "9cc5937efbe1a276d6d89a18dc97f3756389141b387ac6d98b65d31d3a7ac498",
+    "q20_road_2_objective_2": "bcc7c63efaf56f69dd2f8975c15b498eb74b46bf9e283d2c1d66554f557e0926",
+    "q20_road_3_accept": "a40c022e1200facd6116e4c601582ced92a0265ba4ffa8495e3a906b59c2a7d8",
+    "q20_road_3_objective_1": "307c75730bcd3d4dcd672af44256c340c5b46fc213900b69c24eda0d95355374",
+    "q20_road_3_objective_2": "4fe5491240f3d89550aa8c46e397f3b2114b76b4fdbf1562b8e6c7fb69232761",
+    "q20_camp_1_accept": "972cf6d1e6da9729acde3c91945ca1530381abed07cb85a49541a95e89c4d138",
+    "q20_camp_1_objective_1": "4a3f47dc0a452a2ebac6a8c7ef7d4a5cf7dba990ed78f6b2feb243ad2bdeca83",
+    "q20_camp_1_objective_2": "67d7074213a29909dc232f8cad8cedb962a7200a923e7579c02042fa3ac4efcb",
+    "q20_camp_2_accept": "258225a0478890c9ddec520392327c5abc69300870be4f86c04e6e6434fadec8",
+    "q20_camp_2_objective_1": "d65d38c8a097712f12413ecb2aa0424c54450844e80d1073da902d7e13413508",
+    "q20_camp_2_objective_2": "0731c35cbc631ec39399aecf3b9c88d6b0d07a339da0906bd4af766e6e65b69a",
+    "q20_camp_3_accept": "929e3c83a0b29561323ea553c518d0612bd934189776bac3c427d267db61faa6",
+    "q20_camp_3_objective_1": "35dac48061087e55175f318c682de9ea08d39546069c55f304a2899733abc833",
+    "q20_camp_3_objective_2": "c85ac6d232d4a14a0aadaf2119389e0a4378b13a75a9b238b2f67e8e25eec917",
+    "q20_contract_cull_accept": "d336a02cec9fffa250bae6f6f36280d165f313586d68fec4287f950c9dd5904a",
+    "q20_contract_search_accept": "c1bb55296e81063bdaf9bcad2ffe3a2198fb379606d7b1d7744c0822078d7a2a",
+    "q20_contract_escort_accept": "398fcdd2c773b8bda91afe1e131a7a7ba7368cd9a04b32dabd94fdd59407134a",
+    "q20_contract_storm_accept": "5fea14fee5bfe527269c4f8df77c3145f9726bb2899d3dbe187a0683dc4bb1e1",
+    "q20_contract_reagent_accept": "c481ca6475728644eb7a360fc220233a4792c5174375127b59a5e77d64192894",
+    "q20_contract_repair_accept": "3937cdc985f2f19ce2d91a271d846fcfe0a9a3a3bb95977255584a93f818f83a",
+    "q20_contract_steward_accept": "babb3039de59b811de6e1a653e30f36e3cf3bbf45020aa32cbc8911071b89d71",
+    "q20_contract_ruin_accept": "9dcdd371c21ea711cd9549c9554511c78a1a712679243891ae70c6cebee0e11f",
+    "q20_blade_1_accept": "4bba60a9093b9c629ec6f7239130b32ddbe75a2e90332b56f8a556b9f1fe27be",
+    "q20_blade_2_accept": "1371f6452f525bad2f6a5e0e52650df5114a4cc9c9250798764d81fa04f0c35e",
+    "q20_blade_3_accept": "00a9eabc8a27a6f077a3eb0fbb8802c2907af90af6b59c8ffd7e471dcc247717",
+    "q20_banners_1_accept": "15d45f49b36afa795f83fc29a66b615c6993bd30cdd8981e5789b52c3201860e",
+    "q20_banners_2_accept": "40ae66f899b0fadd485fe52e4bf5a51680d08d7a10c2b21e75bc7c938490af05",
+    "q20_banners_3_accept": "05e87738387e1816002a9a2d564c7bb4432a708e4ba7fed60b896ab85bd0699c",
+    "q20_lanterns_1_accept": "19d8f7fdd6daa471ae2cb0b2b95a23f8a209985909e559a907dfd1113a0d287c",
+    "q20_lanterns_2_accept": "7dcd933c094677c227ae367b0f3bef9821a2941d1f2d45250bb9253554d148e8",
+    "q20_lanterns_3_accept": "35c80fa22a1b1f41397a3c0fb94f2f46e869210247b95b1b8a72262b6cde3ed6",
+    "q20_dr_play_accept": "0b4ede2e8825de6c99f260eab620c54a894c979d862933e5577f2f71d4e96d65",
+    "q20_dr_pit_accept": "25df063caf7cc5a53c5cedee2c5543bc9f6a8a1f63d187be7dfcc9172a3c68b5",
+    "q20_dr_crystal_accept": "7a28b9432c9da8939570f7798d8ab92050d4cfc813313efe3f589f3d08bdb98b",
+    "q20_dr_bench_accept": "e2ec20f898ee3271f1db9c3e8a532f8fc5501539f6907f7669a3b434ee1740bc",
+    "q20_dr_onsen_accept": "41790be7be55ba0f8c8a9c593b0b2ef0f3b2c2b992961d480bb744aea7a085d6",
+    "q20_dr_tracks_accept": "316e7145f53fffd42a7b74f8d150d78884ae7b1e6ae7ce9d6d04614970a54b08",
+    "q20_air_1_accept": "08edd47ac6c748a44043f36cc3306ecd20ab0a6541d983a7c3211f23baef9e5e",
+    "q20_air_1_objective_1": "f4d86fe4e2b2384e82ca81e486a46829e66406f3b58d2b19c4bede9692cf5e1b",
+    "q20_air_1_objective_2": "bf5d96f363a046253e458bdac86c423e1138c89406fe981b04cc3eaf213b938d",
+    "q20_air_2_accept": "366b4387675a1c9ccf2ff146dbaa84823112286ad4f9fb7158d6feff54071147",
+    "q20_air_2_objective_1": "fb0dbf49decbdef6f39ef7c973c6a9f032a0ad9b1185e5a4126f82cceee29184",
+    "q20_air_2_objective_2": "16d72b707d407df84cb3a3942e2b562715f53d95993faff91b435ade50790ba5",
+    "q20_air_3_accept": "9f746384bed57d5eb83ade525c5d006727362b536adf9a38ba2ae4e63f2a2597",
+    "q20_air_3_objective_1": "2068b0f2e70ec7ca4c568e2007cb17fb84c1584d90df93758f62757d7afeb9cf",
+    "q20_air_3_objective_2": "b31ffba67eec53d5844be0346a5b96ba7449c287261109f6c7f4295a181b42bc",
+    "q20_hunt_1_accept": "5fb779f1e73cab8962bce95284ace82b91f7d6d489c88e2dc973311c896edac7",
+    "q20_hunt_1_objective_1": "f65c8ac4bc381ac7b06527c65116dc631d41b111806b0a4c8bcefe8d92344803",
+    "q20_hunt_1_objective_2": "c76e425889444823bc948d1b4c33ebafb5ae88daaccb720f6655b9c999cae6bb",
+    "q20_hunt_2_accept": "78e6a631905d5273bdd694f77318ac9a5075abbe1b05975c3f13ac7fb74ed874",
+    "q20_hunt_2_objective_1": "f8c547d44c63267b17584953506ff1557a32819f97a7e9b84362ae355e3cb4c4",
+    "q20_hunt_2_objective_2": "1910b411aec2d7823ae0c5361b45c8b8ca7c328f967f7055105621c5429b3f7b",
+    "q20_hunt_3_accept": "c393e5f578f9bf0711f9edb21448b87970c39c5b9a1a715a087715c1e30b7f25",
+    "q20_hunt_3_objective_1": "aa58102b3a129af2c8bfa5176ac83e8e84ccc3d7571df30ef82145d8eb40294f",
+    "q20_hunt_3_objective_2": "ae3d50663b93c7df556e943375773bfc36063bddd12c0e1e36f171aee9a476bb",
+    "q20_av_bloom_accept": "62e254c5114b2eb7736745fe1eea226dc2b34128a51a1f86db76351a9a9b596a",
+    "q20_av_carrier_accept": "f3f336e54e1d76233c0fa179221cd86477c115ec2e2173045a2e0d2291acc99b",
+    "q20_av_shed_accept": "c9291d17b843bd49a8ac76c84c8cc2c41430b415f1237fd9e70ff33c85b0350c",
+    "q20_av_dive_accept": "c62f1b773518b7255d406662ebe4f9410df85a73514c39d95ded68ea97e24a8c",
+    "q20_av_sketch_accept": "2e61862cabafd47b620e5cb31df6b1801ac3d3fc1316e8a036b8959dfb035b32",
+    "q20_av_rivals_accept": "ecf68ace80f77bf5f099867e901eb79e7fc423aef218ba74decb45987e63d60a",
+    "av21_orivelle_circuit": "108a5473d0269b5d10985ef1e24dbb82b99030c052a7f48ad5abf1b52e5ab9c0",
+    "av21_orivelle_detained": "739426d7ec21f6e670c204a1b9ba428eefc8d4fd1e694c863cde9c0aa471ce57",
+    "av21_orivelle_free_again": "0d586d869ab2c6e1811ce6aa7e1106034dabaaa322882f4939e138fd0a59d74b",
+    "q23_contract_cull_settle": "fd8279f5780eaa73457cc0ba4a8ec2cf53bc633ef43628180ded91901462ad2a",
+    "q23_contract_search_settle": "8ff432f12cf14003da565d7316d45b1d60d815ad4128b685b5e006cb2476fcf9",
+    "q23_contract_escort_settle": "fba6d9039c22eb536dc224b569591a19306583aa8e16133807ac01b8fe272e2c",
+    "q23_contract_storm_settle": "bde391a63593a673f86602c979ed373b4f02e639d9c822f9922e07310a224a17",
+    "q23_contract_reagent_settle": "4562eccbc32f815aa6a517b0ec071346987d36e3060b13a2dc3ce486b0a80666",
+    "q23_contract_repair_settle": "50733d92bd1fc732d90ffeb0892c6643dd35cd92fc09300a96abe4023a7e90f5",
+    "q23_contract_steward_settle": "8dc14669275042e7aa5a75853d045a2ba06372344eb240b2a918505216be3f7c",
+    "q23_contract_ruin_settle": "73919a738b6da8267d3aa97e3d8143c68aaa788f3b837b1c6043069765fb1b54",
+    "gh_first_day_setup_0": "8faa202bb2d6f830db8f6d8acc876fe214d21bb89a7db2b7a3dffe46a64a3f14",
+    "gh_first_day_setup_1": "6c77e863ec0f84ffcc530417b1517f385063a388b79a0e779310a6ef2f8e7ff7",
+    "gh_first_day_setup_2": "8b207bf13aed4a3bfc58d78e1dfd8b3c245b669b1bdf13d1a6c6951d035d953b",
+    "gh_first_day_setup_3": "80b3361d1561554bd7e80809e0b60d2d052de0e559c27564708ffe024402112b",
+    "gh_daily_resource_recovery": "af27dfb1424b0345ea7c56ec3355e8b83ad5cee76500be1bf15317b1b8b2a59b",
+    "cp_detect_heinous_crime": "483fa2197651fb900967bc8828e2117a3e1b69e90527da40ebe21e2d2666b843",
+    "cp_clock_and_prison_release": "88f5df3351a2f632933ca440c3d45c5b2f7b78b978ad3c8d08e02a1b6c8cfc87",
+    "cp_guard_arrest_attempt": "6e3092cca16c92603742dabd329ca50e3d773ef37c4514ad3074d88e0f96b8c1",
+    "cp_arrest_and_transport": "79d14d9eb5500234e3df9732626a7dc13e3558fef72048fc5894f5649c57d700",
+    "cp_voluntary_serve_remainder": "9367c20a29d8435ad635bb59fad828946e61bc0b13befcb7f457722085e7647c",
+    "cp_familiar_start_0": "b6200394d350d31e1e328cb97d951fe38e2792cc39cb3b474c80fbd9acc4d4d0",
+    "cp_familiar_start_1": "454c785a9371c7fa041634306503be7edc0297f83a185def90ad4c7e03829ccb",
+    "cp_familiar_start_2": "7975712f793b14e5fd04f805d1e02e9857a1bd993b50fb9a4bdd8ce41f979239",
+    "cp_familiar_start_3": "53b1ee05f67ebea9f1bc71a06e9e9697f3d14e9bf2068cebf9bebf429b6c21c9",
+    "cp_first_spell_offer": "7eb1df9140f198e45fcc9115299a7d3dd489f4f54aa651cf728ce759db45ca47",
+    "item31_consume_01": "77f675d1ae3b361f9b29aa12f342e7ea32a258df86131d7806a1e37cd11475f5",
+    "item31_consume_02": "ed1a7094902be81a67ddf8b2fddc274014eab057a6d898064bb2c7b94ab355db",
+    "item31_consume_03": "92bc7e473a01eb8d7dd1bd8544dbceecd0d26d80315f15a81b05caab8a13398f",
+    "item31_consume_04": "2191d7386250ec26c61ad7376b82889bd47760bf5b901d140af28fae2cfd3dd7",
+    "item31_consume_05": "79dc5a4e15634993f16bdf934b43a9b6ad69d1c36e2207365242f0b172a50e03",
+    "item31_consume_06": "d25ca761c48b2458e84f5dff16825337db6a04f70fdd83f8cdb67635813c40df",
+    "item31_consume_07": "a166ba7c74537d7c4284e1a01043573d51671b366a6ab4abd1c1645b02e139e4",
+    "item31_consume_08": "ddb54bc4f60b4a71c503f569fe3a32ddba339256afe006ddcf842359129fa0b4",
+    "item31_consume_09": "7ac379948f182574593bb23ede450791edfeefbdd6e723f0170dab8809c75cf1",
+    "item31_consume_10": "0159931f560276449129a09956cccfb8cf9bdda977551dda7575a06b3b8ae3a9",
+    "item31_consume_11": "536b5bfe59ae8d1f4604c0514d273a9844c4f14e1ef888527c37370c922975ac",
+    "item31_consume_12": "8713c7a51c3ea0a22452d5a6591d632e1dc6fcef81dc29976606a91ad48621f7",
+    "item31_study_01": "b0773444cb324027c145486e7d209513be6e5acebfbb9b9fd0ba160f62792229",
+    "item31_study_02": "e0a6e66eb81854690705490679a3c9e3d75f2266775c9e34aeb40687e648963a",
+    "item31_study_03": "d83da4e4a0eeb14abbb2f96c96180a9c0f78c1cddeacec71065f3350cef98a7c",
+    "item31_study_04": "72c90b4588fb791a756f80635beb03adb4898c476af5517af8f81fca4fc96c14",
+    "item31_study_05": "6a806c5cae2f25eb8d8457756268384bfa6f38f04ae326829bc8872801083fac",
+    "item31_study_06": "adb852e18e72ce83622038dc9b3349c65122575ee8f726c6cdab5238c8f5246d",
+    "item31_study_07": "c65ad0b624b456573b95ed38e044b9118400d295c704de40a5e64e0aa5988d26",
+    "item31_study_08": "6098f5569522ecd6c30f4e9ef126472b574d2d0acd8150a6f383e4ef7402d3dd",
+    "item31_study_09": "55dd93956a9e33cb03c86f0f853ca9c2b9a4868d14d20d34fdde07e3351e8b9f",
+    "item31_study_10": "94f797305fd934df10ecf114defae52d56c6a82807ea26b8e7c6e7f9a0865bb3",
+    "item31_study_11": "0c6f81f79de2bba6bc753349775bed5f6a181345c112607578e4d4596c519735",
+    "item31_study_12": "ecb30c14054588825e8c0e3af328cb3da6240bc1f4ab4f294c3505cded0308b5",
+    "item31_study_13": "0c85df49ad99f192632633a16af4904b1db5d00b0e022450396e216a15e0f5af",
+    "item31_study_14": "c676398043010f6de51f03a56746843be4e63b4d7f1ecf8bf6fb77705a6ffa7e",
+    "item31_study_15": "e1a67e585500ef091f3ae107400b76248a5155d7b615ba08d6de3c0a02e7fa01",
+    "item31_study_16": "225cb9a17ea14c2202a5c0f471c28b5722df041a81daeb59d1040e354a01eb59",
+    "item31_study_17": "5737e62d820b0da63e772de6b350a9f1b26705f1bf24894ea9ededfd79c5bfd2",
+    "item31_study_18": "378c04845942fc4d76275f31f8f049741f9b416ef779c8f640f133d3322e5524",
+    "item31_study_19": "94a9cd59d3c7b87a0152685954d3bc1fce16d9b1f7e68b8008e93f5c94b9747f",
+    "item31_study_20": "50a991dbaff41953d171e90c19dd7fcf9b0791f1a35dfa770ad272487d03f8e2",
+    "item31_study_21": "854aa7222c2c21906b5acb29ba3be15e06a1c0c0ecc2412d1da72a9f1d209471",
+    "item31_study_22": "2d9999cccd5a2e4fbee3ca924436d4fb3de3ccc4b1db43e0653af224cc34d1fd",
+    "item31_study_23": "9241f389ee200a5c89d02dd2d3e5a1c51dc96d0185d7bd013a68b4c671d6facb",
+    "item31_study_24": "dbf88ce45c8c1b6125568b137f3c9e09ad7a357d4565f2ae70ac406e18c1c1f4",
+    "item31_study_25": "3f531dccbe074100ce03d2610ccb1f72ef1549f3bd753a1bc36752f6d27b3a89",
+    "item31_study_26": "a28eb9f2e701cb0895d671f83eef84e0cc0123f9adef6fab928f8fb40572b76f",
+    "item31_study_27": "be5c7e0c2ef856f25a20c4acd2fd73cc8196dbb3a420c2e0a9becbb73310b689",
+    "item31_study_28": "e8ace4fa11cf1341e4531fb4fda3759ec0ea7830c186523ff32bab7d1a7b1298",
+    "item31_study_29": "f776f26b62406dbc2889d37e5af62e5dc1e17d2c876f592cd1eccb659bf23b36",
+    "item31_study_30": "6bc4257c9cf453855929add6b8dc58e133c2e3418c20b799312f27b2b8d266ca",
+    "ad34_property_roseberry": "350ff7ec27371af722128ed9a0dd067772d5319f173be0d596f254e80b30e6b0",
+    "ad34_property_whitepass": "5cd9e1a62bd097bd70efc0eb9b7cd832b76efe8a53569998146d8cbbebbfb32d",
+    "ad34_property_canopy": "d3d34551b958bc68a7d01da8dd56c7499e3261e3067bd8aa3d3336da8007755e",
+    "ad34_property_willowbend": "e3ac41b2ce232c3c73408f5082ad02041bdcc35d3ac47df63ec2e68f074705b0",
+    "ad34_property_workshop": "2395661dc49f8b0e33dafe45d91b2bb02cf3153ace0f265a8dc0eafa444aafcf",
+    "ad34_property_snowmelt": "0404da1dac21288063f46d7eb93ae711820a7caa42caedb2d91b449cc67318db",
+    "ad34_offer_1": "9e805201e89979cf7a62f1a15306995060f6040ed52818a9dd1df40c47b7b9ef",
+    "ad34_offer_2": "4de11ca07bd08b871dd273604491bb4b4774106c86494cf5be0fc29c7f8ab69a",
+    "ad34_offer_3": "a34c5c5af52afde0ff20372dc479faa2536e634da89ae4bbbfb256db564342d8",
+    "ad34_offer_4": "5bfcc1026dfad967ba918b99c16d7efe020d79828544c94c6c4050b1d406c7f7",
+    "ad34_offer_5": "a294644f3d14dbd8f48570e0af9e3903d8d4b3b5ebcaf86cb7cad8d2c9e465fe",
+    "ad34_offer_6": "44fdae4d4038b0338041ef466ab592bbe6b273c89f6c91c5bd81d2658a275923",
+    "ad34_offer_7": "0d3090bdcbeec76b60d8eabe9a190f74f424c70648edd2e89831761018565d7d",
+    "ad34_offer_8": "ae49b44a1dcaa0d9c4746b6f08fde33398d2637de6e5a8863e8472608cd1125d",
+    "ad34_scene_dispatch": "9ae64a92724daaa1526ccfc5e54b5830d83054a12395d73862665170502fca1b",
+    "ad34_quest_repair": "9ce4edb0b7b88201b2548ffb53a16366655cc614758882d6a5e8ca430f316faf",
+    "ad34_hold_ragnar": "6f6451008c0f12e58cbbc9c8b471b3ca892492d518bdc73550da83353037b9a6",
+    "ad34_resume_ragnar": "b894e2c45e4e9d550a6a15372f9a7780b6d78c212a15b3fe1eeda49b8890930a",
+    "ad34_hold_adoha": "0875c5f811d9243a987eb6ad335a0326db932942b34788eb7362b8dc40e0a4d9",
+    "ad34_resume_adoha": "797d2940774e6847acecffd8eee6769bb14097c239136a601026426092fbdc80",
+    "ad34_hold_karia": "46a125ac0091b8a017a8bb771e6627294f3cb0e20099cdc4be9e38d0f0d40de0",
+    "ad34_resume_karia": "4c8eb5e76e337560b3f2a1bba33ad06961a6448f463137fb00cb66161110aa50",
+    "ad34_touring_cast": "595693be401c7f57fb135fc4c3217dc94046dfde6049d42ab01bc3956ee1afb9",
+    "ad34_public_opportunities": "034721c6ce081fb2175258fda78c5143335d5b900eb47a18f50f846a679eb9dd",
+    "ad34_returning_clients": "32335512904e0db6331b2c054e032e5fac7efe3cc9174c478bc312ac79264dfe",
+    "ad34_custom_property_key": "e2de98fc276be6904a180cfed572bf3a97e53fb30fc564070ee0e3b0848110d8",
+    "ad34_permadeath_final_outcome": "a47bcc225684323f4f46bda5a988568b66f40a6bf52e073ace141cfe9151bf65",
+    "cc1_initialize": "aceb175aab540e9f0ad44ce3d961fc5718fa5b6394865b98bed6d221c881014c",
+    "cc1_register": "a04d6374f2b13f249a6345e6c41e7564b2b33ec055ca2df98019e8b9ec56c6d4",
+    "cc1_ready": "9b355cd06830c7181cf729ac1b958b83391a9cf3e66d0aa14ac418e74fbabbb4",
+    "cc1_observe": "17f1407b25b247ee40b302b3253c17110ca03725513705fff4262ea1312cdb1d",
+    "cc1_result_loss": "4f380269511c9ced93c23f572c3f5a567f2e45b298310923077ad8d153be99ac",
+    "cc1_result_win": "e38cb18840f0280482d7b6611e272f5af8631025e9565d012b3a7af57271f01f",
+    "cc1_withdraw": "47fd8051d6f60b7096c869e1b52f2d307a75163e820cb88e89680706c8d756af",
+    "cc1_care": "0641d9ffd06dd30dcc2d15194c734bbd6925d54199439f9b0fcffa8748cd95cc",
+    "cc1_claim_prize": "83b1447074ef0a737e3ea971e635ac5f3c34757d0e8c2158124c2bfcc370397f",
+    "cc1_status": "f49c1e37b98221db35e99b4a3ed5e89c2feb88b76e08b334bff90774db6781be",
+    "cc1_exhibition": "70355a67d4ccceb0e4fe20673e67289ed647cf875d8c33e1f70d8abadb2d4d40",
+    "cc1_grove_discover": "1828905b60fbaebc5ef33ce6dc1c86ae70ae37b5d8d035189cf95e2e361fdaec",
+    "cc1_grove_enter": "d3810f20be6654eae7d2174f27428c4c62a610f2270cce13c23b7d713ea15855",
+    "cc1_grove_return": "38c79f411d8e31755c5afc68d0180c3fa80b08eb96995dccb649e10f40828f74",
+    "cc1_grove_key": "74e45bb7ba177b84b6722ea1a9234cd6d5ca8ba6739ea5c6f03c9d61340287fc",
+    "cc1_grove_root": "ac06347aebecdc20f3fd8d5e2fa7885a399d173a3000373dc2c8ba42453aa38d",
+    "cc1_grove_mourning": "45da63c1ee93727e1fcc8dbb479443953914d0113cdf4f9d983f7bf250801e1e",
+    "cc1_grove_inner_gate": "5407989fef66de22d8f79f105686a9f51e04338615c219c3ac6eba5081219967",
+    "cc1_grove_defeat": "31a6752960c30979ca3536cb25892f23b5cb9c7e518c3f354e3ca541518ed133",
+    "cc1_grove_release": "bb735c9f7b177945e5aac62beabf5d1be510f9f0690cf0b457c9986cf116d286",
+    "cc1_grove_investigation": "0c0e22c334451c47bb5bf446a2ccac5409fb7965017f20723e8eebae41bbd2fa",
+    "cc1_crime_offer_1": "d1ee173f358b8a54d889028732ba33eb9d96c8b721126afa055c3cf3a1d895b5",
+    "cc1_crime_offer_2": "107d2df60e64e1eb2f881045de23c3094c94ebe30bfa51ed360ae60ef261264f",
+    "cc1_crime_offer_3": "547cd74573d38d77811ffee59eaa06dcfaf978843b7cf489fa5b068589840954",
+    "cc1_crime_offer_4": "626126a900b4786e9ab9ec5167a16e5ff4964cb32decff0c979a77049e51c83a",
+    "cc1_crime_offer_5": "7ab196a4e5466146405c2b11ebd52b9827fed1fdd376fe7db95768561eb7150d",
+    "cc1_crime_offer_6": "24518db5b5e5488de2d036ce6d74ea29c3c9a5804f3691016b09be4d94096e4d",
+    "cc1_crime_offer_7": "bed5afdfc5a1b9709c81a68d4297ce2287df7fd80d108b5de81129e71ff603cd",
+    "cc1_crime_offer_8": "744f464ea355f00d2a58f05db0dce6d767b84ebf05ec744868d1717b51d5c717",
+    "cc1_grove_inner_gate_state": "52e1bf87ab5f219848ad5121db5138d944c6edae25e945d26f8c00948e9e7a4d",
+    "cc1_result_draw": "15959fec882ba3cb916e13e629a57d50dc02150fef0c6e5d4e65283a9b68a572",
+    "oni_portal_to": "1993e57db0d1535ea9ac6a79a48a8b7e06b2cb7c5785dae955d5d25121fc127e",
+    "oni_portal_to_direct": "0de7da9fc9b8bd12288edb0a7bfed305bcc18b5809e9130cf707aaa3e7b8bf13",
+    "oni_portal_from": "4c248bb0d4b2bef6400f8a53f42294aea849ac18bdabbaa2cc795c0f98667ad6",
+    "oni_portal_from_direct": "0f97c23280cace557d96bdbce351e8e639ba7f47d163999b5aea71b5c5899f4a",
+    "oni_portal_key_issue": "75fe11cd260ed0b8d5906d973efbff4fa0abf3270910a3fe3cfbc86f51e5f601",
+    "oni_soul_torii_awaken": "306137b093dfcbd9da92f7aa8b69d262c9b37729c59dae57a0293ba1bb5b7137",
+    "oni_soul_torii_cross": "8e6090f33540e6f6020b13def1cca03e7beb9525134d19c9be8bda506f99f404",
+    "oni_soul_torii_return": "bc945d316a4b08cd54f1c9ea5e6d0d38300711255c97c0c53a066d30876964e4",
+    "oni_hagire_roam": "f062c6075422865a6ed5853a0f5c80d79b5f2a85e5107d1204bfe1acc8328817",
+    "oni_forest_rumor": "56b827946ee948470cf3cd3415265e91ca36a504ef9ff63fd08c57cc81d2e34d",
+    "oni_guild_exam_register": "406609c5018e28d8f63a54e0b223a232b6ba017c3cee5a9f21e8b53e381b12f7",
+    "oni_guild_exam_judgment": "078e88eadf3a37048a72b852f2eef2d56914a222a0a0ec2a5e174dfd2b3b619b",
+    "oni_guild_exam_practical": "113477c3d429ca5969e6ce0c0d0ddefe828ab9df038d0bebb1b5b18053faf282",
+    "oni_guild_exam_certify": "9d6f7f5893d229d1d5a3878aac30c961e9bd16fe05a15be030e1b0cedaa53f42",
+    "oni_guild_review_silver": "bdfa9e7b2b76a721c3df9ef86718dfff6a989b0617c0be127b1514c1e74a003b",
+    "oni_guild_promote_silver": "3ff8316aeb6bcfe4a72d97279d927a94c5a929845573e22d6fbc6e223586f2a4",
+    "oni_guild_review_gold": "4a75eb59bd51f4f6397a3bc64513d52efe0cf8d220767526d0e822a846627e0a",
+    "oni_guild_promote_gold": "2bcad18f5ec9d402bdc740932d44e33de1b822665885961ce468a124997f19fd",
+    "oni_guild_review_platinum": "639f2d54eb06bd68ea874d72ef9b4c54771979e6b0ea85304a9b6d056885ff12",
+    "oni_guild_promote_platinum": "a6b6ba464161de23b0492b394b9162f0df3e14a149045af0609ad27f5e884c53",
+    "oni_guild_board": "867fb9975682b60e2608f6acabbe6e0bdec404f8ec450d7f966d58d55d3490a8",
+    "oni_glowhaven_expedition_notice": "c8b97183df6044e41b12d0a862616bf29763445d28d081a703403721528d0f4f",
+    "oni_guild_native_choice": "9942c819b54aa46255aca3a61597b8a4bdd0225a0447c6b9979e566c97264205",
+    "oni_foreign_glowhaven_key_issue": "18ba6d3961b30d4e95880e89e677f8c42f4dc39c49bd8985ec112bc26ffd34ab"
+  },
+  "protectedArcsHash": "b2bbadd2a50fd6ac6a60dd36de2827f800f5a3b3743f4fb9049eba3f280b8162"
+}

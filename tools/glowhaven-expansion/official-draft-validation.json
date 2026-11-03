@@ -1,0 +1,15 @@
+{
+  "worldFile": "world-draft/WorldAlpha - World.json",
+  "worldFileSha256": "a472da3f0db0288b740a917eb2a182ebd6e268c4b6bfc4c3f29ae82dcf6384bf",
+  "result": {
+    "data": {
+      "errors": [],
+      "stage": "draft",
+      "valid": true,
+      "warnings": []
+    },
+    "requestId": "73508826-aece-4879-afb0-002bc8a8284f"
+  },
+  "studioSaved": false,
+  "studioPublished": false
+}

@@ -1,0 +1,571 @@
+{
+  "Reina Kazehara": {
+    "affinities": [
+      "Wind",
+      "Fire"
+    ],
+    "pose": {
+      "category": "CB",
+      "eligible": [
+        "CB03",
+        "CB06",
+        "CB09",
+        "CB10",
+        "CB11"
+      ],
+      "uniformIndex": 3,
+      "id": "CB10",
+      "title": "Counterturn:",
+      "text": "Turn the hips away from an implied attack while the shoulders return toward it, with the weapon held in a compact counter guard; show readiness without an extreme twist or crouch."
+    },
+    "profile": "special"
+  },
+  "Mio Tatsunami": {
+    "affinities": [
+      "Lightning",
+      "Earth"
+    ],
+    "pose": {
+      "category": "CB",
+      "eligible": [
+        "CB01",
+        "CB03",
+        "CB06",
+        "CB07",
+        "CB09",
+        "CB11"
+      ],
+      "uniformIndex": 1,
+      "id": "CB03",
+      "title": "Outside Ward:",
+      "text": "Set a cutting weapon outside the near shoulder with its point angled down and outward; turn the torso slightly while the free hand remains ready."
+    },
+    "profile": "special"
+  },
+  "Daigo Umetsu": {
+    "affinities": [
+      "Earth",
+      "Enchantment"
+    ],
+    "pose": {
+      "category": "R",
+      "eligible": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06"
+      ],
+      "uniformIndex": 4,
+      "id": "R05",
+      "title": "Wrist Clasp:",
+      "text": "One hand gently clasps the opposite wrist at waist level; distribute weight evenly and keep the expression calm."
+    },
+    "profile": "default"
+  },
+  "Nanae Kogure": {
+    "affinities": [
+      "Fire"
+    ],
+    "pose": {
+      "category": "P",
+      "eligible": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06"
+      ],
+      "uniformIndex": 4,
+      "id": "P05",
+      "title": "Tiny Ta-Da:",
+      "text": "Present a small object in an open palm beside the torso; turn the shoulders and lift the chin as if revealing a trick."
+    },
+    "profile": "default"
+  },
+  "Sōji Hamada": {
+    "affinities": [
+      "Metal",
+      "Water",
+      "Divination"
+    ],
+    "pose": {
+      "category": "T",
+      "eligible": [
+        "T01",
+        "T03",
+        "T04",
+        "T06"
+      ],
+      "uniformIndex": 1,
+      "id": "T03",
+      "title": "Temple Tap",
+      "text": "Touch one finger to the temple while the other hand holds notes low; keep the spine slightly inclined in thought.",
+      "preflightExclusion": "Book/folio poses excluded: no such held prop in the approved equipment."
+    },
+    "profile": "default"
+  },
+  "Iris Mornay": {
+    "affinities": [
+      "Water"
+    ],
+    "pose": {
+      "category": "R",
+      "eligible": [
+        "R01",
+        "R02",
+        "R03",
+        "R05",
+        "R06"
+      ],
+      "uniformIndex": 1,
+      "id": "R02",
+      "title": "Cuff Hold",
+      "text": "One hand lightly holds the opposite sleeve cuff near the waist; tilt one hip slightly lower and keep the standing pose contained.",
+      "preflightExclusion": "Book/folio poses excluded: no such held prop in the approved equipment."
+    },
+    "profile": "default"
+  },
+  "Chizuru Hoshikawa": {
+    "affinities": [
+      "Light"
+    ],
+    "pose": {
+      "category": "A",
+      "eligible": [
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06"
+      ],
+      "uniformIndex": 1,
+      "id": "A02",
+      "title": "Grounded Brace:",
+      "text": "While standing, rest one palm on a nearby standing-height desk, ledge, or table below the frame; lean forward slightly while keeping the hips grounded."
+    },
+    "profile": "default"
+  },
+  "Lucette Bellanger": {
+    "affinities": [
+      "Healing"
+    ],
+    "pose": {
+      "category": "W",
+      "eligible": [
+        "W01",
+        "W02",
+        "W03",
+        "W04",
+        "W05",
+        "W06"
+      ],
+      "uniformIndex": 2,
+      "id": "W03",
+      "title": "Hand to Heart:",
+      "text": "Place one hand over the heart while the other rests low or holds a prop; use an open chest and gentle posture."
+    },
+    "profile": "default"
+  },
+  "Eiji Kuramochi": {
+    "affinities": [
+      "Nature"
+    ],
+    "pose": {
+      "category": "W",
+      "eligible": [
+        "W01",
+        "W02",
+        "W04",
+        "W05",
+        "W06"
+      ],
+      "uniformIndex": 4,
+      "id": "W06",
+      "title": "Shared-Object Presentation:",
+      "text": "Support a book, tray, or sample with both hands in front of the waist; turn the shoulders toward the viewer in an inviting gesture."
+    },
+    "profile": "default"
+  },
+  "Tamae Shibano": {
+    "affinities": [
+      "Enchantment"
+    ],
+    "pose": {
+      "category": "A",
+      "eligible": [
+        "A01",
+        "A03",
+        "A04",
+        "A05",
+        "A06"
+      ],
+      "uniformIndex": 2,
+      "id": "A04",
+      "title": "Command Fold:",
+      "text": "Fold the arms firmly but comfortably across the chest; angle the hips slightly and keep the shoulders level."
+    },
+    "profile": "default"
+  },
+  "Yorina Tsugawa": {
+    "affinities": [
+      "Fire",
+      "Nature"
+    ],
+    "pose": {
+      "category": "T",
+      "eligible": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06"
+      ],
+      "uniformIndex": 0,
+      "id": "T01",
+      "title": "Chin-Brace:",
+      "text": "Rest fingertips at the chin while the other forearm supports the elbow; let one hip relax as the character considers a question."
+    },
+    "profile": "default"
+  },
+  "Shūhei Kusanagi": {
+    "affinities": [
+      "Wind"
+    ],
+    "pose": {
+      "category": "A",
+      "eligible": [
+        "A01",
+        "A02",
+        "A03",
+        "A05",
+        "A06"
+      ],
+      "uniformIndex": 3,
+      "id": "A05",
+      "title": "Point of Order:",
+      "text": "Raise one finger, pen, or wand beside the chest as if making a decisive point; hold the other arm relaxed."
+    },
+    "profile": "default"
+  },
+  "Fuyuka Kusanagi": {
+    "affinities": [
+      "Metal"
+    ],
+    "pose": {
+      "category": "L",
+      "eligible": [
+        "L01",
+        "L02",
+        "L03",
+        "L04",
+        "L05",
+        "L06"
+      ],
+      "uniformIndex": 1,
+      "id": "L02",
+      "title": "Cheek in Palm:",
+      "text": "While standing, support the cheek with one palm as the opposite forearm supports that elbow, or rest the elbow lightly on a standing-height ledge; keep the other arm loose."
+    },
+    "profile": "default"
+  },
+  "Kōzō Hinoura": {
+    "affinities": [
+      "Light"
+    ],
+    "pose": {
+      "category": "P",
+      "eligible": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06"
+      ],
+      "uniformIndex": 5,
+      "id": "P06",
+      "title": "Cheeky Shrug:",
+      "text": "Raise one shoulder and open both palms at different heights; shift the hips sideways in a playful “who, me?” stance."
+    },
+    "profile": "default"
+  },
+  "Saki Hinoura": {
+    "affinities": [
+      "Sound"
+    ],
+    "pose": {
+      "category": "E",
+      "eligible": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06"
+      ],
+      "uniformIndex": 1,
+      "id": "E02",
+      "title": "Fist Pump:",
+      "text": "Raise one compact fist beside the shoulder and keep the other hand at the waist; add a small twist through the hips."
+    },
+    "profile": "default"
+  },
+  "Makiho Akitsu": {
+    "affinities": [
+      "Water"
+    ],
+    "pose": {
+      "category": "A",
+      "eligible": [
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06"
+      ],
+      "uniformIndex": 0,
+      "id": "A01",
+      "title": "Hip Anchor:",
+      "text": "Set one hand on the hip with the elbow open; shift weight onto that side and lengthen the spine."
+    },
+    "profile": "default"
+  },
+  "Rinako Matsuba": {
+    "affinities": [
+      "Nature"
+    ],
+    "pose": {
+      "category": "W",
+      "eligible": [
+        "W01",
+        "W02",
+        "W03",
+        "W04",
+        "W05",
+        "W06"
+      ],
+      "uniformIndex": 4,
+      "id": "W05",
+      "title": "Lean-In Listener:",
+      "text": "Angle the torso toward an unseen conversation partner, with one hand near the cheek or collar and the hips relaxed."
+    },
+    "profile": "default"
+  },
+  "Kenta Matsuba": {
+    "affinities": [
+      "Sound",
+      "Illusion"
+    ],
+    "pose": {
+      "category": "E",
+      "eligible": [
+        "E01",
+        "E03",
+        "E04",
+        "E05",
+        "E06"
+      ],
+      "uniformIndex": 2,
+      "id": "E04",
+      "title": "Cross-Body Swing:",
+      "text": "Sweep one forearm across the torso while the other arm balances; counter-rotate the shoulders and hips."
+    },
+    "profile": "default"
+  },
+  "Uta Nekoyama": {
+    "affinities": [
+      "Illusion"
+    ],
+    "pose": {
+      "category": "P",
+      "eligible": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06"
+      ],
+      "uniformIndex": 0,
+      "id": "P01",
+      "title": "Finger to Lips:",
+      "text": "Touch one fingertip lightly near the lips; tip the head and hip in opposite directions for a sly, contained gesture."
+    },
+    "profile": "default"
+  },
+  "Daisaku Minobe": {
+    "affinities": [
+      "Enchantment"
+    ],
+    "pose": {
+      "category": "R",
+      "eligible": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06"
+      ],
+      "uniformIndex": 1,
+      "id": "R02",
+      "title": "Cuff Hold:",
+      "text": "One hand lightly holds the opposite sleeve cuff near the waist; tilt one hip slightly lower and keep the standing pose contained."
+    },
+    "profile": "default"
+  },
+  "Mina Takanashi": {
+    "affinities": [
+      "Divination",
+      "Nature"
+    ],
+    "pose": {
+      "category": "T",
+      "eligible": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06"
+      ],
+      "uniformIndex": 0,
+      "id": "T01",
+      "title": "Chin-Brace:",
+      "text": "Rest fingertips at the chin while the other forearm supports the elbow; let one hip relax as the character considers a question."
+    },
+    "profile": "default"
+  },
+  "Hirotaka Fushimi": {
+    "affinities": [
+      "Earth",
+      "Light"
+    ],
+    "pose": {
+      "category": "A",
+      "eligible": [
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06"
+      ],
+      "uniformIndex": 5,
+      "id": "A06",
+      "title": "Open Claim:",
+      "text": "Extend one arm outward with an open palm, as if claiming the room; counterbalance with a small hip shift."
+    },
+    "profile": "default"
+  },
+  "Kanna Enozaki": {
+    "affinities": [
+      "Illusion"
+    ],
+    "pose": {
+      "category": "P",
+      "eligible": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06"
+      ],
+      "uniformIndex": 2,
+      "id": "P03",
+      "title": "Over-Shoulder Tease:",
+      "text": "Turn the torso away and glance back over one shoulder; add a small hand flick or lifted wrist."
+    },
+    "profile": "default"
+  },
+  "Brina Flintmere": {
+    "affinities": [
+      "Gravity"
+    ],
+    "pose": {
+      "category": "E",
+      "eligible": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06"
+      ],
+      "uniformIndex": 0,
+      "id": "E01",
+      "title": "Forward Challenge:",
+      "text": "Shift weight forward and angle the torso into the scene; set the shoulders ready without beginning an attack."
+    },
+    "profile": "default"
+  },
+  "Yūsei Hatanaka": {
+    "affinities": [
+      "Arcane"
+    ],
+    "pose": {
+      "category": "R",
+      "eligible": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06"
+      ],
+      "uniformIndex": 4,
+      "id": "R05",
+      "title": "Wrist Clasp:",
+      "text": "One hand gently clasps the opposite wrist at waist level; distribute weight evenly and keep the expression calm."
+    },
+    "profile": "default"
+  },
+  "Nerathyl": {
+    "affinities": [
+      "Water",
+      "Ice",
+      "Lightning"
+    ],
+    "pose": {
+      "category": "special anatomy",
+      "id": null,
+      "eligible": [],
+      "title": "Resting animal",
+      "text": "Use the authored animal body plan; no humanoid stance."
+    },
+    "profile": "special"
+  },
+  "Mauruun": {
+    "affinities": [
+      "Earth"
+    ],
+    "pose": {
+      "category": "special anatomy",
+      "id": null,
+      "eligible": [],
+      "title": "Resting animal",
+      "text": "Use the authored animal body plan; no humanoid stance."
+    },
+    "profile": "special"
+  },
+  "Ghorvath": {
+    "affinities": [
+      "Water"
+    ],
+    "pose": {
+      "category": "special anatomy",
+      "id": null,
+      "eligible": [],
+      "title": "Surfacing ocean predator",
+      "text": "Use the authored animal body plan; no humanoid stance."
+    },
+    "profile": "special"
+  }
+}

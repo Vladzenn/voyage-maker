@@ -69,7 +69,12 @@ if(w.locations['Hinoki Hollow Onsen']){
  ck(Object.keys(w.locations['Hinoki Hollow Onsen'].areas).length===4,'Onsen has useful local areas');
  ck(w.imagePromptConfiguration.npcs.includes('continuous shaft'),'Runtime portrait weapon continuity rule');
  const artPins=path.join(__dirname,'oni-nation/location-art/latest-placement.json');
- const pins=fs.existsSync(artPins)?JSON.parse(fs.readFileSync(artPins,'utf8')).sourcePins:follow.sourcePins;
+ const glowhavenReview=path.join(__dirname,'glowhaven-expansion/merge-review.json');
+ const currentPins=w.npcs.Nerathyl&&fs.existsSync(glowhavenReview)?JSON.parse(fs.readFileSync(glowhavenReview,'utf8')):null;
+ const oldPins=fs.existsSync(artPins)?JSON.parse(fs.readFileSync(artPins,'utf8')).sourcePins:follow.sourcePins;
+ // The author's later 5x4 export owns its map pins. Validate those exact pins,
+ // while retaining the earlier artwork identity assertions below.
+ const pins=currentPins?Object.fromEntries(Object.keys(oldPins).map(name=>{const renamed=currentPins.migration.renamedLocations[name]||name;return [renamed,currentPins.finalPins[renamed]]})):oldPins;
  for(const [name,pin]of Object.entries(pins||{})){
   ck(w.locations[name].x===pin.x&&w.locations[name].y===pin.y,'Author pin retained '+name);
   ck(w.locations[name].region===pin.region,'Author region retained '+name);
@@ -100,7 +105,7 @@ for(const st of Object.values(w.storyStarts))ck(st.startingItems.filter(i=>i.ite
 ck(!w.itemSettings.startingItems.some(i=>i.item==='Mark'),'No shared extra 18 marks');
 ck(w.traitCategories['Special Talent'].maxSelections===2,'Approved talent capacity');
 if(w.traitCategories['Past Experience']){
- const past=w.traitCategories['Past Experience'];ck(past.maxSelections===1&&past.traits.length===14,'Optional single past-experience choice');
+ const past=w.traitCategories['Past Experience'];ck(past.maxSelections===1&&past.traits.length===(w.traits['Self-Taught Spell Experimenter']?15:14),'Optional single past-experience choice');
  for(const n of past.traits){const t=w.traits[n];ck(t.skills.length===1&&t.skills[0].modifier===1&&!t.startingItems.length,'Modest experience without free badge '+n);}
  for(const n of ['Iwatsugu Clan Upbringing','Yukinose Clan Upbringing','Arashimine Clan Upbringing'])ck(w.traitCategories['Origin & Upbringing'].traits.includes(n),'Selectable actual clan '+n);
  const physical=w.traits['Physical Foundations'];

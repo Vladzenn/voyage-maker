@@ -1,0 +1,10 @@
+{
+  "name": "Reina Kazehara",
+  "file": "world-draft/npc portraits/Glowhaven Expansion/Reina Kazehara.png",
+  "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-fd75b499-1226-410e-8fdb-696af5e05982.png",
+  "sha256": "b87db040ea5fcc71c330161c4a081bfe7b7bbd16598313eb65479a428b7f52c1",
+  "width": 1024,
+  "height": 1536,
+  "method": "built-in image_gen, one pass",
+  "outputHint": "Generated images are saved to C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401 as C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-fd75b499-1226-410e-8fdb-696af5e05982.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

@@ -1,0 +1,198 @@
+{
+  "Reina Kazehara": {
+    "name": "Reina Kazehara",
+    "file": "world-draft/npc portraits/Glowhaven Expansion/Reina Kazehara.png",
+    "sha256": "b87db040ea5fcc71c330161c4a081bfe7b7bbd16598313eb65479a428b7f52c1",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/0d58a59c-bb49-446e-a68a-498154f3d342.png"
+  },
+  "Mio Tatsunami": {
+    "name": "Mio Tatsunami",
+    "file": "world-draft/npc portraits/Glowhaven Expansion/Mio Tatsunami.png",
+    "sha256": "2ed0dcd07bc91ddcd52e384ec55fc2d6ef5a0fc843ec6e8a052561846d2cbf20",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/f4870e45-3a96-4c3f-90cf-752df819d1ca.png"
+  },
+  "Daigo Umetsu": {
+    "name": "Daigo Umetsu",
+    "file": "world-draft/npc portraits/Glowhaven Expansion/Daigo Umetsu.png",
+    "sha256": "f57acf31554f77126bc02cde1308c79dad3ba1156b301eb7d4b9fdc118678fa6",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/2bf7f32e-2631-449f-bc31-209d982d1b1d.png"
+  },
+  "Nanae Kogure": {
+    "name": "Nanae Kogure",
+    "file": "world-draft/npc portraits/Glowhaven Expansion/Nanae Kogure.png",
+    "sha256": "b99db9ac96c4286ddb0eeac52ed1573431d1a3143b74b364c943e8d98db5be9b",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/b76db67c-08e4-4f45-8ff7-bc8ad197fee0.png"
+  },
+  "Sōji Hamada": {
+    "name": "Sōji Hamada",
+    "file": "world-draft/npc portraits/Glowhaven Expansion/Sōji Hamada.png",
+    "sha256": "8c6a56e2d652e5264b1d3f5c25960af0545aa307792be0e79cd6f490528d22dd",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/dd8f25a4-9376-434b-a1c9-ee6fc13d22b9.png"
+  },
+  "Iris Mornay": {
+    "name": "Iris Mornay",
+    "file": "world-draft/npc portraits/Glowhaven Expansion/Iris Mornay.png",
+    "sha256": "c851e70a949ce482b198bce3514bad729ae688462c4e9b6e37b06566e1998dcc",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/4474dbe7-18a3-4e6a-a364-8d6b747112cc.png"
+  },
+  "Chizuru Hoshikawa": {
+    "name": "Chizuru Hoshikawa",
+    "file": "world-draft/npc portraits/Glowhaven Expansion/Chizuru Hoshikawa.png",
+    "sha256": "51c51e6c62fca74b360e649df2a3f9543a8972d896481237c4ad328a052e1c97",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/8ff2b8c1-9a14-4407-936c-84c718ee2fb1.png"
+  },
+  "Lucette Bellanger": {
+    "name": "Lucette Bellanger",
+    "file": "world-draft/npc portraits/Glowhaven Expansion/Lucette Bellanger.png",
+    "sha256": "684915b56f4d1d8b336acc97bd76fdc1a63b0e7f29f45be8989d7c6cc6f538d2",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/04635613-c432-4ec0-9bb2-bf030573f733.png"
+  },
+  "Eiji Kuramochi": {
+    "name": "Eiji Kuramochi",
+    "file": "world-draft/npc portraits/Glowhaven Expansion/Eiji Kuramochi.png",
+    "sha256": "daada504b239c3602a0dca9fbfc7e98b30216681e8afe9009924ddb4855e5738",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/1d102007-41ba-4ef9-b79f-49c298a71eda.png"
+  },
+  "Tamae Shibano": {
+    "name": "Tamae Shibano",
+    "file": "world-draft/npc portraits/Glowhaven Expansion/Tamae Shibano.png",
+    "sha256": "4894f94d68f05904536bc881624a097286fd7c7a859ede2a0863f49bd1485200",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/9ada3692-3c71-4836-8e3f-1de8e1c8d082.png"
+  },
+  "Yorina Tsugawa": {
+    "name": "Yorina Tsugawa",
+    "file": "world-draft/npc portraits/Glowhaven Expansion/Yorina Tsugawa.png",
+    "sha256": "ac4ae4960a3d7030737067127554e6498606af72bf648174d82283bb5abce041",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/bd540ff5-37fc-4519-8ecb-382b2a3e1371.png"
+  },
+  "Shūhei Kusanagi": {
+    "name": "Shūhei Kusanagi",
+    "file": "world-draft/npc portraits/Glowhaven Expansion/Shūhei Kusanagi.png",
+    "sha256": "330d5fb0b6256d59c353d7cb4965f361722ebd9f3074f07ee401ed650c50e809",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/e9d1f9bc-23d1-4cb2-b3e7-f041a73e5a63.png"
+  },
+  "Fuyuka Kusanagi": {
+    "name": "Fuyuka Kusanagi",
+    "file": "world-draft/npc portraits/Glowhaven Expansion/Fuyuka Kusanagi.png",
+    "sha256": "264784b04294f8028bb39c969c92abb2586b25b36d06bc17aeb433c0476ce3b0",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/174cbc95-2e6f-43fd-a052-3775b05361ea.png"
+  },
+  "Kōzō Hinoura": {
+    "name": "Kōzō Hinoura",
+    "file": "world-draft/npc portraits/Glowhaven Expansion/Kōzō Hinoura.png",
+    "sha256": "1e82b50fc7d1b845489177e9a321b3aee83ad89946063bc128346596bce9884e",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/9f63dbe9-3935-4670-bc19-e262576f051d.png"
+  },
+  "Saki Hinoura": {
+    "name": "Saki Hinoura",
+    "file": "world-draft/npc portraits/Glowhaven Expansion/Saki Hinoura.png",
+    "sha256": "b795f970a3c959886c271afe1482b21a38383fb59b16118384ac43a59c664b6b",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/ab34794f-8cad-4b2e-9d52-fd1eaa464a0a.png"
+  },
+  "Rinako Matsuba": {
+    "name": "Rinako Matsuba",
+    "file": "world-draft/npc portraits/Glowhaven Expansion/Rinako Matsuba.png",
+    "sha256": "a51f29efa8a8ae85f7fff47f83cfc4208a3a80c0ea2b1b8610bd7d35071ed066",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/28c9528c-168c-426c-a94b-cef0089ad725.png"
+  },
+  "Kenta Matsuba": {
+    "name": "Kenta Matsuba",
+    "file": "world-draft/npc portraits/Glowhaven Expansion/Kenta Matsuba.png",
+    "sha256": "c17cc43129ff965133207fef421b1ddc6ec44441f25d9914b15926c0de3b3eb8",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/e6c0a27b-d23c-45e6-9d02-5319970e7f34.png"
+  },
+  "Uta Nekoyama": {
+    "name": "Uta Nekoyama",
+    "file": "world-draft/npc portraits/Glowhaven Expansion/Uta Nekoyama.png",
+    "sha256": "51edb4b5bfd5fd286c230e67ce74ac0b5542f4486e2acd79acd98fa4c29a7f65",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/f3ad8502-13cd-4c02-83b9-6ffe9787d9f5.png"
+  },
+  "Makiho Akitsu": {
+    "name": "Makiho Akitsu",
+    "file": "world-draft/npc portraits/Glowhaven Expansion/Makiho Akitsu.png",
+    "sha256": "e570c475e94c5152baf171e1936ade9f8d8b83832e87564da6843e8ae29a118b",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/81e3767a-3358-48c4-9615-cfe14265b0ca.png"
+  },
+  "Mina Takanashi": {
+    "name": "Mina Takanashi",
+    "file": "world-draft/npc portraits/Glowhaven Expansion/Mina Takanashi.png",
+    "sha256": "d1d4385d949ed91b9f83a1dad209212ba2d9f3f23567a9c71a355295ac4ffe10",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/b2dc3a09-b05a-48f4-8b00-eb9bd7b8524c.png"
+  },
+  "Hirotaka Fushimi": {
+    "name": "Hirotaka Fushimi",
+    "file": "world-draft/npc portraits/Glowhaven Expansion/Hirotaka Fushimi.png",
+    "sha256": "99218881c228ccd0d2d30ee4d21f79852d2178e15f5fda6691c8ba9028020cb9",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/384d006c-23c3-4446-a6dc-f5d3b7860712.png"
+  },
+  "Kanna Enozaki": {
+    "name": "Kanna Enozaki",
+    "file": "world-draft/npc portraits/Glowhaven Expansion/Kanna Enozaki.png",
+    "sha256": "3d8b5e957482b61b70f1755863369012c65d78cbac2c780d9d56e0cce508567a",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/1f7791d9-daa5-464d-a989-7b247f1c4a39.png"
+  },
+  "Daisaku Minobe": {
+    "name": "Daisaku Minobe",
+    "file": "world-draft/npc portraits/Glowhaven Expansion/Daisaku Minobe.png",
+    "sha256": "1ce81324554efa3fe92de7f4770a2f7b270eef1e7728d57f84963b4f3e7d0c06",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/45db71a1-da09-47b2-b77d-0fc03c05373c.png"
+  },
+  "Yūsei Hatanaka": {
+    "name": "Yūsei Hatanaka",
+    "file": "world-draft/npc portraits/Glowhaven Expansion/Yūsei Hatanaka.png",
+    "sha256": "c73bff0a465ac725fa1e29b9c7794b06a998a79d8b5c3a416fc523f1d72baba1",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/3a55546c-5ba0-4f60-834a-9b321b262d87.png"
+  },
+  "Nerathyl": {
+    "name": "Nerathyl",
+    "file": "world-draft/npc portraits/Glowhaven Expansion/Nerathyl.png",
+    "sha256": "61ed9d6f601627688378f90a76ba24877b3f4386ec6871ba8c8e1093582157dc",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/7f0f72a9-1cee-47c9-b25a-5ae551d378ff.png"
+  },
+  "Mauruun": {
+    "name": "Mauruun",
+    "file": "world-draft/npc portraits/Glowhaven Expansion/Mauruun.png",
+    "sha256": "a9ffc69d8bc2a8651deb3873049f5e4def691c2254cfef58cf2ebcb23ecb90b0",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/1a62483e-80d2-4158-9660-02ebc6fdecf6.png"
+  },
+  "Ghorvath": {
+    "name": "Ghorvath",
+    "file": "world-draft/npc portraits/Glowhaven Expansion/Ghorvath.png",
+    "sha256": "a6d1d82a8f03e226eef7f8dee39f3890be5c51472ddba78b8b43be17ae2d5b10",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/9dca2555-8cca-49b3-9940-852ad0eb9f11.png"
+  },
+  "Brina Flintmere": {
+    "name": "Brina Flintmere",
+    "file": "world-draft/npc portraits/Glowhaven Expansion/Brina Flintmere.png",
+    "sha256": "284104699dc2a337469c761fbf1384f345f7a8d916e2a807a97289a2605c2c97",
+    "target": "NPC_PORTRAIT",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/1b5134ab-3489-4b98-b2f2-a876ebb0ee6a.png"
+  }
+}

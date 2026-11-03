@@ -1,0 +1,2012 @@
+{
+  "baseCommit": "ba0c0a8a4ed5a1634436f7ef1412ea32c8681d09",
+  "rows": [
+    {
+      "path": [
+        "regions",
+        "Glowhaven"
+      ],
+      "change": "removed"
+    },
+    {
+      "path": [
+        "regions",
+        "Evertree District"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "regions",
+        "Northwest District"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "regions",
+        "Harbor District"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "regions",
+        "Whitecrest Isles"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "regions",
+        "Southwest District"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "regions",
+        "Artisan Quarter"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "regions",
+        "Southeast District"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "regions",
+        "Crescent Coast"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "regions",
+        "Pinewater Vale"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "regions",
+        "Seaward Bluffs"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "regions",
+        "Bluecoil Reach"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "regions",
+        "Moonarch Shoals"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "regions",
+        "Greenrush Marshes"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "regions",
+        "Longgrass Meadows"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "regions",
+        "Sunmead Plain"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "regions",
+        "Greenfield Farmlands"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "regions",
+        "Westpine Forest"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "regions",
+        "Southglade Woods"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "regions",
+        "Brookmeadow Downs"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "regions",
+        "Brookmeadow Vale"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "locations",
+        "Phoenix Wing Academy"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "Hydra Head Academy"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "Gryffin Tail Academy"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "Dragon Hoard Academy"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "The Grand Sage's Court"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "Cloud District"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "Merchant's Row"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "East City Gate"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "West City Gate"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "Caravan Outpost"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "The Emberfox Hot Spring"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "Greywatch Keep"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "Saltmere"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "The Everlight Public Library"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "Brookmeadow"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "The Jade Cup Teahouse"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "Four Sages Bazaar"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "The Eternal Crucible"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "Whitecrest Harbor"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "East Greyfield"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "West Greyfield"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "Main City Gate"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "The Grand Approach"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "Briarcrest Manor"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "Willowbend Residential District"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "City Guard Headquarters"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "Stargarden Manor"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "The Grand Ascent"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "The Wandering Quill"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "Bramble & Bottle"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "The Gilded Griffin"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "Wayfarer's Goods"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "Crooked Tankard"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "Roseberry Inn"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "Driftstone Isle"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "Pinewake Coast"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "Clovermead"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "Pebblewick"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "Crescent Shores"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "Seabreeze Inn"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "Glowhaven Farmlands"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "Hermit's hut"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "Pinewater River"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "West Glowhaven Woods"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "Pebbletown"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "Sage's Spire"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "Violet Thread"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "The Perfumed Rose"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "The Golden Ladle"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "The Farmer's Exchange"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "Rune and Raven's"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "Moonwhisker Emporium"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "Blackstone Smithy"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "The Silver Anvil"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "The Carpenter's Measure"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "Hide & Hammer"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "Eastbloom Residences"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "Rosetimber Suburbs"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "The Compassmaker"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "Pinewater Woods"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "The Winding Lowlands"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "Shadowspire"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "House Goldbarrow Estate"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "The Magistrate's Hall"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "The Arcane Emporium"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "Evertree Base"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "Wraith Island"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "Adventurer's Guild - Glowhaven Branch"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "Snowcedar Refuge"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "White Antler Basin"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "locations",
+        "The Gilded Albatross"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "locations",
+        "Splinterwake Wreck"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "locations",
+        "Moonarch Isle"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "locations",
+        "Stillback Isle"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "locations",
+        "Greenrush Estuary"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "locations",
+        "Thistlebank Alchemy Cottage"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "locations",
+        "Wrenhill Windmill"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "locations",
+        "Old Southwatch"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "locations",
+        "Bluecoil Rest"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "locations",
+        "Beaconrest Lighthouse"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "locations",
+        "Starlark Abbey"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "locations",
+        "Gullwatch Reefs"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "locations",
+        "Longgrass Crossroads"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "locations",
+        "Seaward Overlook"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "factions",
+        "The Albatross Company"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "factions",
+        "Starlark Abbey"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "npcs",
+        "Reina Kazehara"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "npcs",
+        "Mio Tatsunami"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "npcs",
+        "Daigo Umetsu"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "npcs",
+        "Nanae Kogure"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "npcs",
+        "Sōji Hamada"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "npcs",
+        "Iris Mornay"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "npcs",
+        "Chizuru Hoshikawa"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "npcs",
+        "Lucette Bellanger"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "npcs",
+        "Eiji Kuramochi"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "npcs",
+        "Tamae Shibano"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "npcs",
+        "Yorina Tsugawa"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "npcs",
+        "Shūhei Kusanagi"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "npcs",
+        "Fuyuka Kusanagi"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "npcs",
+        "Kōzō Hinoura"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "npcs",
+        "Saki Hinoura"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "npcs",
+        "Makiho Akitsu"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "npcs",
+        "Rinako Matsuba"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "npcs",
+        "Kenta Matsuba"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "npcs",
+        "Uta Nekoyama"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "npcs",
+        "Daisaku Minobe"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "npcs",
+        "Mina Takanashi"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "npcs",
+        "Hirotaka Fushimi"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "npcs",
+        "Kanna Enozaki"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "npcs",
+        "Brina Flintmere"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "npcs",
+        "Yūsei Hatanaka"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "npcs",
+        "Nerathyl"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "npcs",
+        "Mauruun"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "npcs",
+        "Ghorvath"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "worldLore",
+        "Academy Enrollment and Daily Life"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "worldLore",
+        "Phoenix Wing Academy — Core Subjects"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "worldLore",
+        "Gryffin Tail Academy — Core Subjects"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "worldLore",
+        "Dragon Hoard Academy — Core Subjects"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "worldLore",
+        "Hydra Head Academy — Core Subjects"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "worldLore",
+        "Phoenix Wing Academy — Academic Occasions"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "worldLore",
+        "Gryffin Tail Academy — Academic Occasions"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "worldLore",
+        "Dragon Hoard Academy — Academic Occasions"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "worldLore",
+        "Hydra Head Academy — Academic Occasions"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "worldLore",
+        "The Academy Day"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "worldLore",
+        "Glowhaven — City and Country"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "worldLore",
+        "Whitecrest — Boats and Passage"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "worldLore",
+        "The Albatross Company"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "worldLore",
+        "Avelune and Starlark Abbey"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "worldLore",
+        "Stillback — The Patient Island"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "worldLore",
+        "Bluecoil — A Sleeping Danger"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "worldLore",
+        "Ghorvath — Eastern Deepwater"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "worldLore",
+        "Glowhaven — Rural Work and Quiet Places"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "worldLore",
+        "Glowhaven — Coastwise Exploration"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "worldLore",
+        "Academic Feedback and Opportunity"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "storyStarts",
+        "🔥 Phoenix Wing: First Day"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "storyStarts",
+        "📘 Gryffin Tail: First Day"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "storyStarts",
+        "🐉 Dragon Hoard: First Day"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "storyStarts",
+        "💜 Hydra Head: First Day"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "storyStarts",
+        "🛡️ Adventurer: Guild Counter"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "storyStarts",
+        "⛵ Aboard the Gilded Albatross"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "storyStarts",
+        "🕯️ Starlark Abbey: A Light for the Road"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "First-Year Timetable - Phoenix Wing"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "First-Year Timetable - Gryffin Tail"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "First-Year Timetable - Dragon Hoard"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "First-Year Timetable - Hydra Head"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Albatross Deck Saber"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Whitecrest Boarding Spear"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Reefhook Knife"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Sailor’s Padded Coat"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Tidewalker Boots"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Saltproof Canvas Cloak"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Reefworker Gloves"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Braided Boat Safety Line"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Whitecrest Sounding Cord"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Air-Bell Dive Fitting"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Tide Ledger and Case"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Beacon Lens Gauge"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Thistlebank Field Satchel"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Wrenhill Mill Key"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Albatross Passage Receipt"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Whitecrest Skiff Deed"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Starlark Guest Key"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Starlark Lantern Charm"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Mended Sailcloth Pouch"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Tideglass Sample Vial"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Reef-Polished Moonarch Shard"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Naturally Shed Bluecoil Scale"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Nerathyl’s Crest Plate"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Ghorvath’s Beak Fragment"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Stillback Shell Comb"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Mauruun’s Shed Scute"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Bottle of Borrowed Sunset"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Compass of Almost Home"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Bellfin Chime Bracelet"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Old Southwatch Fieldglass"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Kelpweave Rest Mat"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Thistlebank Warm Meal Tin"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "traits",
+        "Outfit — Academy student"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "traits",
+        "Outfit — Academy faculty"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "traits",
+        "Portrait Style — Crisp fantasy anime"
+      ],
+      "change": "removed"
+    },
+    {
+      "path": [
+        "traits",
+        "Portrait Style — Dramatic gacha illustration"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "traits",
+        "Portrait Style — Elegant linework"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "traits",
+        "Portrait Style — Watercolor accents"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "traits",
+        "Physical Foundations"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "traits",
+        "Portrait Style — Fantasy RPG illustration"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "traits",
+        "Self-Taught Spell Experimenter"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "traits",
+        "Outfit — Phoenix Wing uniform"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "traits",
+        "Outfit — Hydra Head uniform"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "traits",
+        "Outfit — Gryffin Tail uniform"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "traits",
+        "Outfit — Dragon Hoard uniform"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "traitCategories",
+        "Past Experience"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "traitCategories",
+        "Appearance Builder"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "traitCategories",
+        "Portrait Style"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "npcTypes",
+        "Tideglass Shrimp"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "npcTypes",
+        "Brinecap Slime"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "npcTypes",
+        "Inkpot Cuttlefish"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "npcTypes",
+        "Hookbeak Gull"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "npcTypes",
+        "Sailcloth Moth"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "npcTypes",
+        "Kelpclaw Crab"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "npcTypes",
+        "Bellfin Shoal"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "npcTypes",
+        "Shoalglass Ray"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "npcTypes",
+        "Mooring Mimic"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "npcTypes",
+        "Barnacle Brute"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "npcTypes",
+        "Undertow Eel"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "npcTypes",
+        "Salt-Crest Wyvern"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "npcTypes",
+        "Reedlace Sprite"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "npcTypes",
+        "Tangletooth Otter"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "npcTypes",
+        "Burdock Lurker"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "npcTypes",
+        "Chalkback Ram"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "gh_guild_board"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ghx_local_commissions"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ghx_kraken_roam"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ghx_serpent_wakes"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ghx_serpent_sleeps"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "storySettings",
+        "worldBackground"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "imagePromptConfiguration",
+        "npcs"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "First Morning at Phoenix Wing"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "First Morning at Gryffin Tail"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "First Morning at Dragon Hoard"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "First Morning at Hydra Head"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Find Afternoon Work"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Visit the Glowhaven Guild"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Guild: The Mill Has Teeth"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Guild: A Ram in the Road"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "A Place before Supper"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Guild: Knots in the Reedwalk"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "A Jar That Will Not Settle"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Guild: Wings in the Stores"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Guild: A Light beneath the Jetty"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Guild: Tools in the Bank"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "The Wrong Kind of Hide"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "The Bell That Wakes the Ward"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Guild: A Rope with Opinions"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Guild: The Mark below the Arch"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "A Second Pair of Eyes"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "What the Shell Caught"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "A Patient Kind of Work"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "The Nesting Shelf"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Guild: A Hold Full of Knuckles"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "The Name on the Crate"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "The Price of Bringing It Back"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Guild: The Current in the Wall"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "A Quiet View, Honestly"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Guild: A Nest above the Catch"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "The Bluecoil Watch"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Guild: Ghorvath at the Deepwater Edge"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Phoenix Wing: Hold the Line"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Gryffin Tail: A Claim Worth Testing"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Dragon Hoard: Earn Your Place"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Hydra Head: A Settlement That Holds"
+      ],
+      "change": "added"
+    },
+    {
+      "path": [
+        "aiInstructions",
+        "generateStory"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "aiInstructions",
+        "generateInitialStart"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "aiInstructions",
+        "generateCharacterBackground"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "aiInstructions",
+        "generateStory"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "aiInstructions",
+        "generateInitialStart"
+      ],
+      "change": "changed"
+    },
+    {
+      "path": [
+        "aiInstructions",
+        "generateCharacterBackground"
+      ],
+      "change": "changed"
+    }
+  ]
+}

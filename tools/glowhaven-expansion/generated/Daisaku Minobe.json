@@ -1,0 +1,10 @@
+{
+  "name": "Daisaku Minobe",
+  "file": "world-draft/npc portraits/Glowhaven Expansion/Daisaku Minobe.png",
+  "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-e8c189cc-2114-4dab-819a-81a628e1ac56.png",
+  "sha256": "1ce81324554efa3fe92de7f4770a2f7b270eef1e7728d57f84963b4f3e7d0c06",
+  "width": 1024,
+  "height": 1536,
+  "method": "built-in image_gen, one pass",
+  "outputHint": "Generated images are saved to C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401 as C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-e8c189cc-2114-4dab-819a-81a628e1ac56.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

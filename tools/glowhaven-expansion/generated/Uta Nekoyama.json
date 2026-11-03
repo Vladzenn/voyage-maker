@@ -1,0 +1,10 @@
+{
+  "name": "Uta Nekoyama",
+  "file": "world-draft/npc portraits/Glowhaven Expansion/Uta Nekoyama.png",
+  "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-d22340e0-04ac-4bd8-8b8e-86ecb167cc14.png",
+  "sha256": "51edb4b5bfd5fd286c230e67ce74ac0b5542f4486e2acd79acd98fa4c29a7f65",
+  "width": 1024,
+  "height": 1536,
+  "method": "built-in image_gen, one pass",
+  "outputHint": "Generated images are saved to C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401 as C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-d22340e0-04ac-4bd8-8b8e-86ecb167cc14.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

@@ -1,29 +1,4 @@
 {
-  "Glowhaven": {
-    "name": "Glowhaven",
-    "basicInfo": "Glowhaven City and its neighboring settlements, farms, woods, rivers, islands and coast form the Glowhaven region. A trip beyond the city walls remains local travel; academy field expeditions go beyond the whole region.",
-    "x": -3,
-    "y": 0,
-    "hiddenInfo": "",
-    "realm": "Glowhaven",
-    "initialKnown": true,
-    "npcLevelRange": {
-      "min": 1,
-      "max": 30
-    },
-    "images": {
-      "map": {
-        "crop": {
-          "focus": {
-            "x": 50,
-            "y": 50
-          },
-          "zoom": 100
-        },
-        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/7255bbf8-6aa7-46d9-89a0-1d6c950df292.png"
-      }
-    }
-  },
   "Drakenspire Highlands": {
     "name": "Drakenspire Highlands",
     "basicInfo": "Drakenspire Highlands covers the capital's two snowy shelves and its surrounding mountain country across the mountain basin. The higher northeastern fortress and crescent of ancestral dragon bones dominate the skyline; the lower shelf holds the busy city. Near slopes support livestock, water infrastructure and maintained approaches. Farther routes reach sparse pines, a frozen basin, working mines, old settlements, caves, Frostback Mountain and isolated creature territories. Places within the fortress precinct are separate playable sites in one coherent complex, not detached castles. The region's existing boundaries contain these expeditions; travel within it does not invent additional regions. The enclosed portalward quarter remains the arrival point from Glowhaven.",
@@ -574,6 +549,506 @@
         },
         "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/6bba0892-67bd-4100-91b5-4e2b3d7b51f4.png"
       }
+    }
+  },
+  "Evertree District": {
+    "name": "Evertree District",
+    "basicInfo": "The Evertree rises above pale civic buildings, gardens and the northern residential quarter. Broad approaches connect the court, the Cloud District and the great avenue below. Public streets and controlled palace rooms have different access.",
+    "x": -1,
+    "y": 0,
+    "hiddenInfo": "",
+    "initialKnown": true,
+    "realm": "Glowhaven",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/8ddfb6f8-3659-48cc-9be4-ec69457480d7.png"
+      }
+    },
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    }
+  },
+  "Northwest District": {
+    "name": "Northwest District",
+    "basicInfo": "Green western ridges descend toward the northwestern city wall. Greywatch Keep and the Emberfox pools overlook roads leading to Phoenix Wing and the upper residential streets. The maintained approaches are busy; wooded slopes beyond them grow quieter.",
+    "x": -2,
+    "y": 0,
+    "hiddenInfo": "",
+    "initialKnown": true,
+    "realm": "Glowhaven",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/0e6fe2c1-2b35-4d35-9f15-f6659537040c.png"
+      }
+    },
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    }
+  },
+  "Harbor District": {
+    "name": "Harbor District",
+    "basicInfo": "Northern shore roads meet the working waterfront and Hydra Head Academy. Cargo sheds, homes, gardens and coastal farms share the approaches to Whitecrest Harbor. Beaconrest Lighthouse marks the offshore channel.",
+    "x": 0,
+    "y": 0,
+    "hiddenInfo": "",
+    "initialKnown": true,
+    "realm": "Glowhaven",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/91dc554f-ff86-4ec9-9931-cdcd82692a69.png"
+      }
+    },
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    }
+  },
+  "Whitecrest Isles": {
+    "name": "Whitecrest Isles",
+    "basicInfo": "Rocky islands and sheltered channels lie beyond the harbor. Saltmere and Driftstone support ordinary island households, while the isolated skull-shaped Wraith Island receives controlled prison traffic. Weather and working boats shape everyday journeys.",
+    "x": 1,
+    "y": 0,
+    "hiddenInfo": "",
+    "initialKnown": true,
+    "realm": "Glowhaven",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/9d18a579-22d5-4030-82dd-339b56767884.png"
+      }
+    },
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    }
+  },
+  "Southwest District": {
+    "name": "Southwest District",
+    "basicInfo": "Western gates, Gryffin Tail and closely fitted residential streets occupy the southwestern city. Rougher Greyfield housing gathers outside the southern walls, beyond which the land rises into pines. Maintained streets remain ordinary civic ground.",
+    "x": -2,
+    "y": -1,
+    "hiddenInfo": "",
+    "initialKnown": true,
+    "realm": "Glowhaven",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/b3691899-30c2-4286-97d7-f8ff1762a169.png"
+      }
+    },
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    }
+  },
+  "Artisan Quarter": {
+    "name": "Artisan Quarter",
+    "basicInfo": "Founders’ arcades, workshops, inns and the Crucible fill the central southern wards. Timber carts and students share the streets with shoppers and craftspeople. The lower wall separates working neighborhoods from the patched roofs of Greyfield.",
+    "x": -1,
+    "y": -1,
+    "hiddenInfo": "",
+    "initialKnown": true,
+    "realm": "Glowhaven",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/687a54ed-1569-464d-8abe-583c4e043a3b.png"
+      }
+    },
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    }
+  },
+  "Southeast District": {
+    "name": "Southeast District",
+    "basicInfo": "Dragon Hoard, the eastern residential wards and the south gate overlook shore roads and neighboring farms. Commercial lanes connect the central city with Pebblewick and the coast. Workshops and quiet homes continue between the larger landmarks.",
+    "x": 0,
+    "y": -1,
+    "hiddenInfo": "",
+    "initialKnown": true,
+    "realm": "Glowhaven",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/0ee2b4e1-6192-480e-a838-646c8ce58d72.png"
+      }
+    },
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    }
+  },
+  "Crescent Coast": {
+    "name": "Crescent Coast",
+    "basicInfo": "Curved beaches and small rocky islands follow the coast south of Whitecrest. Inns, fishers and visiting boats use the sheltered inshore water. Exposed reefs require care even when the nearby beaches are peaceful.",
+    "x": 1,
+    "y": -1,
+    "hiddenInfo": "",
+    "initialKnown": true,
+    "realm": "Glowhaven",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/b0ef3023-8f2d-49c0-a4dd-14a8df407235.png"
+      }
+    },
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    }
+  },
+  "Pinewater Vale": {
+    "name": "Pinewater Vale",
+    "basicInfo": "Pinewater winds between wooded banks, farm tracks and the lanes around Pebbletown. Caravan staging and a remote alchemical cottage stand near the crossings. Water level, loose banks and ordinary animal activity give practical work to people who know the valley.",
+    "x": -1,
+    "y": -2,
+    "hiddenInfo": "",
+    "initialKnown": true,
+    "realm": "Glowhaven",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/432605c3-ff3b-4de0-ad28-dc9fe259783a.png"
+      }
+    },
+    "npcLevelRange": {
+      "min": 1,
+      "max": 22
+    }
+  },
+  "Seaward Bluffs": {
+    "name": "Seaward Bluffs",
+    "basicInfo": "Forested coastal bluffs give way to open meadows above a winding river. Starlark Abbey offers a settled presence inland, while the Seaward Overlook remains a quiet place to watch the sea. Exposed edges and weather demand sensible footing.",
+    "x": 1,
+    "y": -2,
+    "hiddenInfo": "",
+    "initialKnown": true,
+    "realm": "Glowhaven",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/23065bf3-9fa1-4c4f-85f1-c3e527bd3ec3.png"
+      }
+    },
+    "npcLevelRange": {
+      "min": 1,
+      "max": 28
+    }
+  },
+  "Bluecoil Reach": {
+    "name": "Bluecoil Reach",
+    "basicInfo": "Open blue water surrounds distant reefs, the Gilded Albatross anchorage and an isolated serpent resting place. Sailors distinguish ordinary coastal passages from the waters around a sleeping great beast. Sudden swells and scarce landing places reward preparation.",
+    "x": 2,
+    "y": 0,
+    "hiddenInfo": "",
+    "initialKnown": true,
+    "realm": "Glowhaven",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/5de54bc1-8f80-4490-9cee-c47f58d21cfb.png"
+      }
+    },
+    "npcLevelRange": {
+      "min": 8,
+      "max": 35
+    }
+  },
+  "Moonarch Shoals": {
+    "name": "Moonarch Shoals",
+    "basicInfo": "Broken island stonework, a stranded wreck and broad shell-shaped rocks interrupt the eastern sea. Fishers know usable approaches and signs of larger creatures passing beneath them. The wreck waters are considerably less forgiving than the sheltered island coves.",
+    "x": 2,
+    "y": -1,
+    "hiddenInfo": "",
+    "initialKnown": true,
+    "realm": "Glowhaven",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/557cd456-1823-4e60-992d-7615d778126f.png"
+      }
+    },
+    "npcLevelRange": {
+      "min": 10,
+      "max": 35
+    }
+  },
+  "Greenrush Marshes": {
+    "name": "Greenrush Marshes",
+    "basicInfo": "The river breaks into shallow tidal channels, reed beds and sandbars before meeting the eastern sea. Boatwrights, fishers and field workers use its changing margins. Dry-looking ground can flood quickly with an incoming tide.",
+    "x": 2,
+    "y": -2,
+    "hiddenInfo": "",
+    "initialKnown": true,
+    "realm": "Glowhaven",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/7c5ee47b-7544-492f-9420-91690b4d8733.png"
+      }
+    },
+    "npcLevelRange": {
+      "min": 2,
+      "max": 26
+    }
+  },
+  "Longgrass Meadows": {
+    "name": "Longgrass Meadows",
+    "basicInfo": "Wide grasslands stretch between the western forest and the lower river. A few farmsteads and cart tracks leave large areas of open ground. Herding, gathering and ordinary rural travel occupy more of the landscape than ruins or fortifications.",
+    "x": -1,
+    "y": -3,
+    "hiddenInfo": "",
+    "initialKnown": true,
+    "realm": "Glowhaven",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/99288778-f019-4a2b-8f0f-3a8cb09b0355.png"
+      }
+    },
+    "npcLevelRange": {
+      "min": 1,
+      "max": 20
+    }
+  },
+  "Sunmead Plain": {
+    "name": "Sunmead Plain",
+    "basicInfo": "Low hills, open pasture and scattered copses fill the southern plain. Thin dirt lanes link homesteads with the river crossings and neighboring meadows. Long sightlines let travelers notice weather, livestock and distant trouble before approaching.",
+    "x": 0,
+    "y": -3,
+    "hiddenInfo": "",
+    "initialKnown": true,
+    "realm": "Glowhaven",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/383983ea-6748-4741-a243-e44c70fd777b.png"
+      }
+    },
+    "npcLevelRange": {
+      "min": 1,
+      "max": 22
+    }
+  },
+  "Greenfield Farmlands": {
+    "name": "Greenfield Farmlands",
+    "basicInfo": "Cultivated strips and scattered homesteads spread beyond Greyfield and the city’s southern approaches. Irrigation branches lead toward the wider river country, while wooded margins conceal quieter ground. Farm roads carry produce, laborers and travelers.",
+    "x": 0,
+    "y": -2,
+    "hiddenInfo": "",
+    "initialKnown": true,
+    "realm": "Glowhaven",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/318b8a03-bd3c-42e6-a289-a8d343dc4ecb.png"
+      }
+    },
+    "npcLevelRange": {
+      "min": 1,
+      "max": 22
+    }
+  },
+  "Westpine Forest": {
+    "name": "Westpine Forest",
+    "basicInfo": "Pines cover western ridges beside the lower river country. Clear working paths and old crossings skirt denser wildlife habitat. Woodcutters and walkers use the forest without treating every quiet clearing as a monster lair.",
+    "x": -2,
+    "y": -2,
+    "hiddenInfo": "",
+    "initialKnown": true,
+    "realm": "Glowhaven",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/106d11fc-6fd1-42f8-bb7a-c6a4ebb9fb97.png"
+      }
+    },
+    "npcLevelRange": {
+      "min": 1,
+      "max": 22
+    }
+  },
+  "Southglade Woods": {
+    "name": "Southglade Woods",
+    "basicInfo": "Southern woodland rises around an old stone lookout and scattered clearings. The outer tracks meet open grazing country; deeper folds of forest shelter wary animals. Old Southwatch can be reached without searching for a secret road.",
+    "x": -2,
+    "y": -3,
+    "hiddenInfo": "",
+    "initialKnown": true,
+    "realm": "Glowhaven",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/95cfa099-5eb8-4ab4-a9ba-83e947627271.png"
+      }
+    },
+    "npcLevelRange": {
+      "min": 3,
+      "max": 25
+    }
+  },
+  "Brookmeadow Downs": {
+    "name": "Brookmeadow Downs",
+    "basicInfo": "Open downs and the westward village approaches surround a working windmill. A crossroads links the northern road, river bridge and farm lanes. It is settled countryside with room for travelers to pass without becoming part of every local dispute.",
+    "x": 1,
+    "y": -3,
+    "hiddenInfo": "",
+    "initialKnown": true,
+    "realm": "Glowhaven",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/59d11741-0486-4caf-92c3-bc5df8ab2434.png"
+      }
+    },
+    "npcLevelRange": {
+      "min": 1,
+      "max": 22
+    }
+  },
+  "Brookmeadow Vale": {
+    "name": "Brookmeadow Vale",
+    "basicInfo": "Brookmeadow’s houses, green and crop plots stand beside a river approach in the southeastern countryside. Farmers, mill customers and visiting workers share the lanes. The village remains a familiar local beginning within Glowhaven’s wider territory.",
+    "x": 2,
+    "y": -3,
+    "hiddenInfo": "",
+    "initialKnown": true,
+    "realm": "Glowhaven",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/6294f1d9-74ef-4a6a-85cd-64538f605c56.png"
+      }
+    },
+    "npcLevelRange": {
+      "min": 1,
+      "max": 20
     }
   }
 }

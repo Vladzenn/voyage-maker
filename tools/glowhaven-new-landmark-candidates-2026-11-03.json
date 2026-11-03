@@ -1,0 +1,150 @@
+{
+  "status": "Artwork proposal only; no world records or coordinates changed",
+  "source": "C:/Users/VladCodes/Downloads/MasterMapMain_upscayl_2x_remacri.png",
+  "sourceDimensions": [
+    4344,
+    3620
+  ],
+  "coordinateSystem": "Percentage across and down the supplied image, not Voyage coordinates",
+  "output": "world-draft/map-variations/Glowhaven Landmark Review/Glowhaven - Proposed New Landmarks.png",
+  "candidates": [
+    {
+      "id": 1,
+      "name": "Beaconrest Lighthouse",
+      "x": 58.2,
+      "y": 16.1,
+      "kind": "maritime",
+      "use": "The existing painted offshore beacon could support maintenance, signaling and rescue work."
+    },
+    {
+      "id": 2,
+      "name": "Gilded Albatross",
+      "x": 83.4,
+      "y": 22.8,
+      "kind": "maritime",
+      "use": "The ornate ship could be a visiting vessel, with its berth or anchorage used as the address."
+    },
+    {
+      "id": 3,
+      "name": "Splinterwake Wreck",
+      "x": 93.1,
+      "y": 29.0,
+      "kind": "maritime",
+      "use": "The visible wreck and surrounding rocks suggest salvage and disputed cargo."
+    },
+    {
+      "id": 4,
+      "name": "Moonarch Isle",
+      "x": 86.7,
+      "y": 38.4,
+      "kind": "maritime",
+      "use": "The small island's existing ruined arch offers a bounded survey or exploration site; it is not automatically another portal."
+    },
+    {
+      "id": 5,
+      "name": "Bluecoil Waters",
+      "x": 91.6,
+      "y": 15.4,
+      "kind": "hazard",
+      "use": "The painted sea serpent suggests a sighting or hunting zone, not a stationary authored boss."
+    },
+    {
+      "id": 6,
+      "name": "Inkpot Shoals",
+      "x": 73.8,
+      "y": 34.7,
+      "kind": "hazard",
+      "use": "The tentacled sighting suggests hazardous fishing and route surveys, without promising an encounter every visit."
+    },
+    {
+      "id": 7,
+      "name": "Gullwatch Reefs",
+      "x": 91.0,
+      "y": 45.9,
+      "kind": "maritime",
+      "use": "The outer rock cluster could support nesting birds, coastal materials and small boat hazards."
+    },
+    {
+      "id": 8,
+      "name": "Greenrush Estuary",
+      "x": 94.0,
+      "y": 66.0,
+      "kind": "land",
+      "use": "The visible braided river mouth offers wetland wildlife and survey work."
+    },
+    {
+      "id": 9,
+      "name": "Starlark Abbey",
+      "x": 71.6,
+      "y": 71.0,
+      "kind": "land",
+      "use": "The large southern country building could become a small abbey, hospice or comparable institution; its religious identity is unconfirmed."
+    },
+    {
+      "id": 10,
+      "name": "Meadowbridge",
+      "x": 75.0,
+      "y": 80.9,
+      "kind": "land",
+      "use": "The visible southern road bridge supports local crossings and repair work; it may be an area of a settlement rather than a separate location."
+    },
+    {
+      "id": 11,
+      "name": "Wrenhill Windmill",
+      "x": 73.0,
+      "y": 87.6,
+      "kind": "land",
+      "use": "The southern windmill can supply practical rural work; it may share a location with the village."
+    },
+    {
+      "id": 12,
+      "name": "Thistlebank Farm",
+      "x": 39.5,
+      "y": 66.7,
+      "kind": "land",
+      "use": "An isolated painted farmstead provides an ordinary rural contact and practical beginner work."
+    },
+    {
+      "id": 13,
+      "name": "Longgrass Crossroads",
+      "x": 52.7,
+      "y": 63.0,
+      "kind": "land",
+      "use": "The rural road junction is a possible traveler meeting point; no new structure is proposed."
+    },
+    {
+      "id": 14,
+      "name": "Old Southwatch",
+      "x": 13.7,
+      "y": 87.8,
+      "kind": "land",
+      "use": "The separate southern forest-edge tower could serve as an old lookout; it is distinct from the existing northern Greywatch Keep."
+    },
+    {
+      "id": 15,
+      "name": "Eastmeadow Village",
+      "x": 83.0,
+      "y": 84.7,
+      "kind": "land",
+      "use": "The eastern southern-plains village is a candidate settlement; placement may instead reuse an existing village such as Pebbletown, avoiding redundant towns."
+    }
+  ],
+  "exclusions": [
+    "Existing city institutions and shops",
+    "Greywatch Keep",
+    "The Emberfox Hot Spring",
+    "Wraith Island",
+    "Shadowspire",
+    "Existing coastal and rural settlements without a confirmed new identity"
+  ],
+  "notes": [
+    "Do not fill every ordinary house or bare rock with another location.",
+    "Names are proposals, not approved lore.",
+    "Some minor features can become areas within a shared location.",
+    "No grid is imposed: this assembled image has a different aspect ratio from the earlier 4-by-3 map.",
+    "Built-in image generation is used for the annotated image."
+  ],
+  "sourceSHA256": "b95e68f0203b6fe8dfd907db68a2e89e319d411740d35903c605f0532c45fed2",
+  "canonicalSHA256": "4da8e98a2202370e02255e2cae00d5f822b2d1054261a634ce33effb0391756c",
+  "prompt": "Use case: precise-object-edit. Annotate the supplied fantasy map as a planning image. Preserve the full map, original aspect ratio, buildings, coast, rivers, city, lighting and art; do not redraw the city or invent new landscape structures. Overlay exactly 15 clearly numbered markers with short name labels and thin leader lines ending at the specified feature. Coordinates below are percentages from the LEFT and TOP edges of the full supplied image, not game coordinates. Put each leader tip on the actual feature and place its label in nearby open space. Use compact dark navy label chips with crisp white lettering, cyan numbered circles for land sites, gold for maritime sites, coral for the two creature-sighting zones. Labels must be readable and must not cover the Evertree, academies, city fountain, buildings or the marked landmark itself. Spread labels out cleanly; do not bunch them together. No region grid. No additional labels or pins for existing places. Small title: GLOWHAVEN - LANDMARK CANDIDATES. Small subtitle: Proposed additions. Numbered labels, exact spelling:\n1. Beaconrest Lighthouse at 58.2% across, 16.1% down; maritime\n2. Gilded Albatross at 83.4% across, 22.8% down; maritime\n3. Splinterwake Wreck at 93.1% across, 29.0% down; maritime\n4. Moonarch Isle at 86.7% across, 38.4% down; maritime\n5. Bluecoil Waters at 91.6% across, 15.4% down; hazard\n6. Inkpot Shoals at 73.8% across, 34.7% down; hazard\n7. Gullwatch Reefs at 91.0% across, 45.9% down; maritime\n8. Greenrush Estuary at 94.0% across, 66.0% down; land\n9. Starlark Abbey at 71.6% across, 71.0% down; land\n10. Meadowbridge at 75.0% across, 80.9% down; land\n11. Wrenhill Windmill at 73.0% across, 87.6% down; land\n12. Thistlebank Farm at 39.5% across, 66.7% down; land\n13. Longgrass Crossroads at 52.7% across, 63.0% down; land\n14. Old Southwatch at 13.7% across, 87.8% down; land\n15. Eastmeadow Village at 83.0% across, 84.7% down; land\nThe two sea-creature zones mark sightings. The ornate ship, lighthouse, shipwreck, island arch, abbey, windmill, bridge, watchtower and village already exist in the supplied artwork; point to those features, do not paint replacements. Preserve the broad quiet meadows and empty sea. Deliver one complete annotated map, not a collage or a close-up."
+}

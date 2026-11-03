@@ -1,0 +1,10 @@
+{
+  "name": "Makiho Akitsu",
+  "file": "world-draft/npc portraits/Glowhaven Expansion/Makiho Akitsu.png",
+  "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-2dafd9cd-09da-4eeb-81d8-6e321fe3b04c.png",
+  "sha256": "e570c475e94c5152baf171e1936ade9f8d8b83832e87564da6843e8ae29a118b",
+  "width": 1024,
+  "height": 1536,
+  "method": "built-in image_gen, one pass",
+  "outputHint": "Generated images are saved to C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401 as C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-2dafd9cd-09da-4eeb-81d8-6e321fe3b04c.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

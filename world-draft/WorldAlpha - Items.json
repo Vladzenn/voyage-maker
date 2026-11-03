@@ -342,25 +342,25 @@
   "First-Year Timetable - Phoenix Wing": {
     "name": "First-Year Timetable - Phoenix Wing",
     "category": "Document",
-    "description": "A folded first-year timetable for Phoenix Wing Academy, handed out at its registrar's desk on opening morning. Required lessons run from the first bell to midday; the listed core subjects are Magic Theory — Haruki Saitō; Magical Combat — Ritsu Kurogane; Potions & Alchemy — Ranka Kagari. The opening day's first lesson after the welcome is Magic Theory in the Lecture Hall. Afternoons are normally free unless a specific supervised activity has been announced.",
+    "description": "A folded first-year timetable for Phoenix Wing Academy, handed out at its registrar's desk on opening morning. Required lessons run from the first bell to midday; the listed core subjects are Magic Theory — Haruki Saitō; Magical Combat — Ritsu Kurogane; Potions & Alchemy — Ranka Kagari. The opening day's first lesson after the welcome is Magic Theory in the Lecture Hall. Afternoon preparation periods, partner work and supervised practicals are announced alongside the morning lessons, leaving room for meals, breaks and personal plans.",
     "bonuses": []
   },
   "First-Year Timetable - Gryffin Tail": {
     "name": "First-Year Timetable - Gryffin Tail",
     "category": "Document",
-    "description": "A folded first-year timetable for Gryffin Tail Academy, handed out at its registrar's desk on opening morning. Required lessons run from the first bell to midday; the listed core subjects are Magic Theory — Kei Aoki; Magical Engineering — Sōichirō Takamine; Magical Arts — Ririka Kujō. The opening day's first lesson after the welcome is Magic Theory in the Lecture Hall. Afternoons are normally free unless a specific supervised activity has been announced.",
+    "description": "A folded first-year timetable for Gryffin Tail Academy, handed out at its registrar's desk on opening morning. Required lessons run from the first bell to midday; the listed core subjects are Magic Theory — Kei Aoki; Magical Engineering — Sōichirō Takamine; Magical Arts — Ririka Kujō. The opening day's first lesson after the welcome is Magic Theory in the Lecture Hall. Afternoon preparation periods, partner work and supervised practicals are announced alongside the morning lessons, leaving room for meals, breaks and personal plans.",
     "bonuses": []
   },
   "First-Year Timetable - Dragon Hoard": {
     "name": "First-Year Timetable - Dragon Hoard",
     "category": "Document",
-    "description": "A folded first-year timetable for Dragon Hoard Academy, handed out at its registrar's desk on opening morning. Required lessons run from the first bell to midday; the listed core subjects are Magic Theory — Noriaki Takatsuki; Spellcraft — Madoka Narukami; Magical Creatures — Genzō Iwakura. The opening day's first lesson after the welcome is Magic Theory in the Lecture Hall. Afternoons are normally free unless a specific supervised activity has been announced.",
+    "description": "A folded first-year timetable for Dragon Hoard Academy, handed out at its registrar's desk on opening morning. Required lessons run from the first bell to midday; the listed core subjects are Magic Theory — Noriaki Takatsuki; Spellcraft — Madoka Narukami; Magical Creatures — Genzō Iwakura. The opening day's first lesson after the welcome is Magic Theory in the Lecture Hall. Afternoon preparation periods, partner work and supervised practicals are announced alongside the morning lessons, leaving room for meals, breaks and personal plans.",
     "bonuses": []
   },
   "First-Year Timetable - Hydra Head": {
     "name": "First-Year Timetable - Hydra Head",
     "category": "Document",
-    "description": "A folded first-year timetable for Hydra Head Academy, handed out at its registrar's desk on opening morning. Required lessons run from the first bell to midday; the listed core subjects are Magic Theory — Kana Fujimoto; Enchantment — Reon Fujisaki; Herbology — Kaoruko Hanazono. The opening day's first lesson after the welcome is Magic Theory in the Lecture Hall. Afternoons are normally free unless a specific supervised activity has been announced.",
+    "description": "A folded first-year timetable for Hydra Head Academy, handed out at its registrar's desk on opening morning. Required lessons run from the first bell to midday; the listed core subjects are Magic Theory — Kana Fujimoto; Enchantment — Reon Fujisaki; Herbology — Kaoruko Hanazono. The opening day's first lesson after the welcome is Magic Theory in the Lecture Hall. Afternoon preparation periods, partner work and supervised practicals are announced alongside the morning lessons, leaving room for meals, breaks and personal plans.",
     "bonuses": []
   },
   "Wanted Poster": {
@@ -6269,6 +6269,420 @@
     "name": "Oni Nation Portal Key",
     "category": "Key",
     "description": "A reusable issued transit key for the Evertree route to Akitsuhara. Its carved torii mark identifies Benitsuru Portal Shrine as the outward destination; the receiving hall’s return passage leads to the Evertree Portal Room.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Albatross Deck Saber": {
+    "name": "Albatross Deck Saber",
+    "category": "Weapon",
+    "tier": "artisan",
+    "estimatedValue": 240,
+    "description": "A broad, slightly curved deck blade with a leather-backed hand guard. Its generous grip stays manageable with wet gloves.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 2
+      }
+    ],
+    "needsMediaGeneration": true,
+    "slot": "weapon"
+  },
+  "Whitecrest Boarding Spear": {
+    "name": "Whitecrest Boarding Spear",
+    "category": "Weapon",
+    "tier": "mundane",
+    "estimatedValue": 75,
+    "description": "A short ash-shafted boarding spear with a securely socketed steel head and a capped butt.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 1
+      }
+    ],
+    "needsMediaGeneration": true,
+    "slot": "weapon"
+  },
+  "Reefhook Knife": {
+    "name": "Reefhook Knife",
+    "category": "Weapon",
+    "tier": "mundane",
+    "estimatedValue": 35,
+    "description": "A compact curved knife used to cut fouled line and defend a cramped foothold.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "value": 1
+      }
+    ],
+    "needsMediaGeneration": true,
+    "slot": "weapon"
+  },
+  "Sailor’s Padded Coat": {
+    "name": "Sailor’s Padded Coat",
+    "category": "Armor",
+    "tier": "mundane",
+    "estimatedValue": 65,
+    "description": "A quilted working coat reinforced at the shoulders, with enough freedom to haul a rope.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 4
+      }
+    ],
+    "needsMediaGeneration": true,
+    "slot": "body"
+  },
+  "Tidewalker Boots": {
+    "name": "Tidewalker Boots",
+    "category": "Armor",
+    "tier": "artisan",
+    "estimatedValue": 180,
+    "description": "Grippy fitted boots with replaceable soles, made for slippery deck planks and wet stone.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "acrobatics",
+        "value": 3
+      }
+    ],
+    "needsMediaGeneration": true,
+    "slot": "feet"
+  },
+  "Saltproof Canvas Cloak": {
+    "name": "Saltproof Canvas Cloak",
+    "category": "Armor",
+    "tier": "mundane",
+    "estimatedValue": 45,
+    "description": "A waxed dark-blue cloak that sheds ordinary spray. It is warm enough for a watch without pretending to be a diving suit.",
+    "bonuses": [
+      {
+        "type": "resource",
+        "variable": "Stamina",
+        "value": 4
+      }
+    ],
+    "needsMediaGeneration": true,
+    "slot": "Back"
+  },
+  "Reefworker Gloves": {
+    "name": "Reefworker Gloves",
+    "category": "Armor",
+    "tier": "mundane",
+    "estimatedValue": 28,
+    "description": "Thick palm leather and flexible fingers protect against rough rope and shallow scrapes.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 2
+      }
+    ],
+    "needsMediaGeneration": true,
+    "slot": "hands"
+  },
+  "Braided Boat Safety Line": {
+    "name": "Braided Boat Safety Line",
+    "category": "Tool",
+    "tier": "mundane",
+    "estimatedValue": 20,
+    "description": "A dependable short safety line with an inspectable knot and a stout locking loop. Its usefulness depends on a real anchor.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "athletics",
+        "value": 1
+      }
+    ],
+    "needsMediaGeneration": true,
+    "slot": "tool"
+  },
+  "Whitecrest Sounding Cord": {
+    "name": "Whitecrest Sounding Cord",
+    "category": "Tool",
+    "tier": "mundane",
+    "estimatedValue": 14,
+    "description": "A weighted marked cord for measuring a shallow approach before committing a loaded boat.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "survival",
+        "value": 1
+      }
+    ],
+    "needsMediaGeneration": true,
+    "slot": "tool"
+  },
+  "Air-Bell Dive Fitting": {
+    "name": "Air-Bell Dive Fitting",
+    "category": "Tool",
+    "tier": "artisan",
+    "estimatedValue": 260,
+    "description": "A maintained fitting for connecting a breathing bell to a prepared dive rig. It needs the rest of the rig, a real air supply and a checked line.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "survival",
+        "value": 3
+      }
+    ],
+    "needsMediaGeneration": true,
+    "slot": "tool"
+  },
+  "Tide Ledger and Case": {
+    "name": "Tide Ledger and Case",
+    "category": "Tool",
+    "tier": "mundane",
+    "estimatedValue": 18,
+    "description": "A waxed notebook and snug case for recording tide marks, dates and route observations.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "investigation",
+        "value": 1
+      }
+    ],
+    "needsMediaGeneration": true,
+    "slot": "tool"
+  },
+  "Beacon Lens Gauge": {
+    "name": "Beacon Lens Gauge",
+    "category": "Tool",
+    "tier": "artisan",
+    "estimatedValue": 145,
+    "description": "A fitted gauge for checking a lantern assembly’s alignment without touching its hot working lens.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Magitech",
+        "value": 3
+      }
+    ],
+    "needsMediaGeneration": true,
+    "slot": "tool"
+  },
+  "Thistlebank Field Satchel": {
+    "name": "Thistlebank Field Satchel",
+    "category": "Tool",
+    "tier": "artisan",
+    "estimatedValue": 135,
+    "description": "Padded dividers keep samples upright and separate incompatible preparations. A tiny stitched thistle marks the flap.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Alchemy",
+        "value": 3
+      }
+    ],
+    "needsMediaGeneration": true,
+    "slot": "tool"
+  },
+  "Wrenhill Mill Key": {
+    "name": "Wrenhill Mill Key",
+    "category": "Key",
+    "tier": "mundane",
+    "estimatedValue": 1,
+    "description": "A plain iron service key lent by the Kusanagi household for an agreed visit to Wrenhill Windmill. It is their property, not ownership of the mill.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Albatross Passage Receipt": {
+    "name": "Albatross Passage Receipt",
+    "category": "Document",
+    "tier": "mundane",
+    "estimatedValue": 1,
+    "description": "A passage receipt from the Gilded Albatross. The written route, fare, passenger and agreed berth establish what voyage was purchased.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Whitecrest Skiff Deed": {
+    "name": "Whitecrest Skiff Deed",
+    "category": "Document",
+    "tier": "mundane",
+    "estimatedValue": 1,
+    "description": "A bill of sale for a small Whitecrest skiff. The seller, buyer, hull mark, mooring and agreed price are written inside.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Starlark Guest Key": {
+    "name": "Starlark Guest Key",
+    "category": "Key",
+    "tier": "mundane",
+    "estimatedValue": 1,
+    "description": "A numbered brass key to an agreed guest room at Starlark Abbey, bearing a small star above a lantern.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Starlark Lantern Charm": {
+    "name": "Starlark Lantern Charm",
+    "category": "Armor",
+    "tier": "artisan",
+    "estimatedValue": 180,
+    "description": "A small pale-brass lantern charm associated with Avelune’s returning-light observances. Its steady glimmer is useful without being proof of divine favor.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Light Magic",
+        "value": 3
+      }
+    ],
+    "needsMediaGeneration": true,
+    "slot": "Accessories"
+  },
+  "Mended Sailcloth Pouch": {
+    "name": "Mended Sailcloth Pouch",
+    "category": "Tool",
+    "tier": "mundane",
+    "estimatedValue": 12,
+    "description": "A neatly patched pouch smelling faintly of clean canvas and rosemary.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Tideglass Sample Vial": {
+    "name": "Tideglass Sample Vial",
+    "category": "Relic",
+    "tier": "mundane",
+    "estimatedValue": 25,
+    "description": "A stoppered vial containing a harmless blue-glimmering tide-pool sample. Clear bands separate the living material from the preserving medium.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Reef-Polished Moonarch Shard": {
+    "name": "Reef-Polished Moonarch Shard",
+    "category": "Relic",
+    "tier": "artisan",
+    "estimatedValue": 130,
+    "description": "A small carved stone fragment worn smooth by salt water. One surviving curve matches the broken arch on Moonarch Isle.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Naturally Shed Bluecoil Scale": {
+    "name": "Naturally Shed Bluecoil Scale",
+    "category": "Relic",
+    "tier": "artisan",
+    "estimatedValue": 220,
+    "description": "A cobalt scale shed by the great serpent of Bluecoil Rest. Its pale underside is smooth; light collects along the outer ridge.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Nerathyl’s Crest Plate": {
+    "name": "Nerathyl’s Crest Plate",
+    "category": "Relic",
+    "tier": "special",
+    "estimatedValue": 760,
+    "description": "A heavy blue-and-gold crest plate recovered from Nerathyl after its defeat. Old chips and fresh damage mark the formidable animal’s history.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Ghorvath’s Beak Fragment": {
+    "name": "Ghorvath’s Beak Fragment",
+    "category": "Relic",
+    "tier": "special",
+    "estimatedValue": 980,
+    "description": "A thick black fragment from the kraken Ghorvath’s beak, ridged like old horn and stained indigo at the broken edge.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Stillback Shell Comb": {
+    "name": "Stillback Shell Comb",
+    "category": "Tool",
+    "tier": "artisan",
+    "estimatedValue": 160,
+    "description": "A broad smooth-edged comb shaped for lifting old line and loose growth from gaps between a great turtle’s shell plates.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Animal Handling",
+        "value": 3
+      }
+    ],
+    "needsMediaGeneration": true,
+    "slot": "tool"
+  },
+  "Mauruun’s Shed Scute": {
+    "name": "Mauruun’s Shed Scute",
+    "category": "Relic",
+    "tier": "artisan",
+    "estimatedValue": 190,
+    "description": "A naturally loosened jade-gray plate from Mauruun’s old shell. Its inner surface is delicate and almost translucent.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Bottle of Borrowed Sunset": {
+    "name": "Bottle of Borrowed Sunset",
+    "category": "Relic",
+    "tier": "special",
+    "estimatedValue": 430,
+    "description": "A sealed amber bottle holding a little sunset-colored glow. Its light softens toward gold each evening and returns after dawn.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Compass of Almost Home": {
+    "name": "Compass of Almost Home",
+    "category": "Tool",
+    "tier": "special",
+    "estimatedValue": 620,
+    "description": "A careful navigator’s compass that leans toward a destination the owner genuinely remembers, then settles. Its answer grows uncertain when several places feel equally familiar.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "survival",
+        "value": 5
+      }
+    ],
+    "needsMediaGeneration": true,
+    "slot": "tool"
+  },
+  "Bellfin Chime Bracelet": {
+    "name": "Bellfin Chime Bracelet",
+    "category": "Armor",
+    "tier": "artisan",
+    "estimatedValue": 175,
+    "description": "Thin blue fins preserved in a little silver frame produce a clear soft note when the wearer turns a wrist.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Sound Magic",
+        "value": 3
+      }
+    ],
+    "needsMediaGeneration": true,
+    "slot": "Accessories"
+  },
+  "Old Southwatch Fieldglass": {
+    "name": "Old Southwatch Fieldglass",
+    "category": "Tool",
+    "tier": "artisan",
+    "estimatedValue": 210,
+    "description": "A repaired brass fieldglass with a familiar nick near the eyecup. The focus wheel is pleasantly stubborn.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Perception",
+        "value": 3
+      }
+    ],
+    "needsMediaGeneration": true,
+    "slot": "tool"
+  },
+  "Kelpweave Rest Mat": {
+    "name": "Kelpweave Rest Mat",
+    "category": "Tool",
+    "tier": "mundane",
+    "estimatedValue": 24,
+    "description": "A light woven mat that keeps a resting person off wet decking. It dries surprisingly well when properly hung.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Thistlebank Warm Meal Tin": {
+    "name": "Thistlebank Warm Meal Tin",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 9,
+    "description": "A sealed portion of bean stew and smoked fish prepared for a short field trip. Hearty enough for a cold watch, though its smokiness tends to linger.",
     "bonuses": [],
     "needsMediaGeneration": true
   }

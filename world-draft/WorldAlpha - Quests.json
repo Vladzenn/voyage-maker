@@ -650,7 +650,7 @@
     "status": "hidden",
     "questStatement": "Begin your first day as a student at Phoenix Wing Academy.",
     "mainObjective": "Attend and take part in the first Magic Theory lesson with Haruki Saitō.",
-    "questDesignBrief": "This adult first-year is already enrolled. The opening establishes collecting the issued timetable and attending Kōhei Sanada's welcome among many first-years. Kōhei Sanada returns to Faculty Offices afterward. The player now has one concrete next step: Magic Theory with Haruki Saitō in the Lecture Hall, not a choice between core classes. Let the first exercise be small and appropriate to actual skills: a question, an observation, a safe demonstration or a controlled attempt. Attendance and a genuine attempt are enough; a wrong answer or failed beginner casting does not require repeating enrollment. Mandatory morning classes rotate the three established subjects; afternoons are ordinarily free. Do not skip a whole term or start a major research project during the greeting. Deliberate refusal or leaving before participating is not completion. No arbitrary mastery, new spell, companion or court key is awarded.",
+    "questDesignBrief": "An enrolled adult first-year joins the opening Magic Theory question with Haruki Saitō. Resolve their actual participation before the lesson is completed. Observation, a safe test, reasoning or an honest attempt can contribute; failure does not require repeated enrollment. Classmates pursue their own methods and conversations. Let an exchange develop when the player actually joins it; do not make the class watch or evaluate every move. After the exercise, the instructor explains Phoenix Wing: Hold the Line, its scope, preparation and the next announced supervised session. Keep the assignment achievable for a novice, with no required new power or compulsory partner recruitment. Morning lessons and assigned afternoon work matter; breaks are available. Do not skip a term, award mastery or make every routine lesson a quest.",
     "objectives": {
       "first_lesson": {
         "id": "first_lesson",
@@ -662,8 +662,18 @@
     "conclusive": true,
     "onCompleteEffects": [
       {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "Phoenix Wing: Hold the Line"
+      },
+      {
+        "type": "quest-accept",
+        "operator": "set",
+        "value": "Phoenix Wing: Hold the Line"
+      },
+      {
         "type": "story",
-        "instruction": "The first lesson at Phoenix Wing Academy is complete for the participating player. Record what actually happened, including mistakes. Continue the remaining required morning timetable without making every routine lesson a separate quest. When the morning block ends, offer ordinary afternoon possibilities through the scene; do not choose one or advance time for the player. Afternoon choices include the paid town-work leads and a public guild-hall visit; neither requires automatic registration or skipping remaining classes."
+        "instruction": "Complete only the actual first lesson and establish the course assignment Phoenix Wing: Hold the Line. The teacher gives its next practical preparation step and the next announced supervised lesson, not an unannounced turn countdown. Continue classmates’ own work, conversations and unfinished concerns. If the player actually joined one, preserve that exchange without making the class revolve around them. Do not decide the player’s response, manufacture friendship, force a club or accept outside work. Continue the required timetable as appropriate; a conversation does not consume the day."
       }
     ],
     "completionCondition": {
@@ -679,7 +689,7 @@
     "status": "hidden",
     "questStatement": "Begin your first day as a student at Gryffin Tail Academy.",
     "mainObjective": "Attend and take part in the first Magic Theory lesson with Kei Aoki.",
-    "questDesignBrief": "This adult first-year is already enrolled. The opening establishes collecting the issued timetable and attending Norio Shibata's welcome among many first-years. Norio Shibata returns to Faculty Offices afterward. The player now has one concrete next step: Magic Theory with Kei Aoki in the Lecture Hall, not a choice between core classes. Let the first exercise be small and appropriate to actual skills: a question, an observation, a safe demonstration or a controlled attempt. Attendance and a genuine attempt are enough; a wrong answer or failed beginner casting does not require repeating enrollment. Mandatory morning classes rotate the three established subjects; afternoons are ordinarily free. Do not skip a whole term or start a major research project during the greeting. Deliberate refusal or leaving before participating is not completion. No arbitrary mastery, new spell, companion or court key is awarded.",
+    "questDesignBrief": "An enrolled adult first-year joins the opening Magic Theory question with Kei Aoki. Resolve their actual participation before the lesson is completed. Observation, a safe test, reasoning or an honest attempt can contribute; failure does not require repeated enrollment. Classmates pursue their own methods and conversations. Let an exchange develop when the player actually joins it; do not make the class watch or evaluate every move. After the exercise, the instructor explains Gryffin Tail: A Claim Worth Testing, its scope, preparation and the next announced supervised session. Keep the assignment achievable for a novice, with no required new power or compulsory partner recruitment. Morning lessons and assigned afternoon work matter; breaks are available. Do not skip a term, award mastery or make every routine lesson a quest.",
     "objectives": {
       "first_lesson": {
         "id": "first_lesson",
@@ -691,8 +701,18 @@
     "conclusive": true,
     "onCompleteEffects": [
       {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "Gryffin Tail: A Claim Worth Testing"
+      },
+      {
+        "type": "quest-accept",
+        "operator": "set",
+        "value": "Gryffin Tail: A Claim Worth Testing"
+      },
+      {
         "type": "story",
-        "instruction": "The first lesson at Gryffin Tail Academy is complete for the participating player. Record what actually happened, including mistakes. Continue the remaining required morning timetable without making every routine lesson a separate quest. When the morning block ends, offer ordinary afternoon possibilities through the scene; do not choose one or advance time for the player. Afternoon choices include the paid town-work leads and a public guild-hall visit; neither requires automatic registration or skipping remaining classes."
+        "instruction": "Complete only the actual first lesson and establish the course assignment Gryffin Tail: A Claim Worth Testing. The teacher gives its next practical preparation step and the next announced supervised lesson, not an unannounced turn countdown. Continue classmates’ own work, conversations and unfinished concerns. If the player actually joined one, preserve that exchange without making the class revolve around them. Do not decide the player’s response, manufacture friendship, force a club or accept outside work. Continue the required timetable as appropriate; a conversation does not consume the day."
       }
     ],
     "completionCondition": {
@@ -708,7 +728,7 @@
     "status": "hidden",
     "questStatement": "Begin your first day as a student at Dragon Hoard Academy.",
     "mainObjective": "Attend and take part in the first Magic Theory lesson with Noriaki Takatsuki.",
-    "questDesignBrief": "This adult first-year is already enrolled. The opening establishes collecting the issued timetable and attending Miyu Asahina's welcome among many first-years. Miyu Asahina returns to Faculty Offices afterward. The player now has one concrete next step: Magic Theory with Noriaki Takatsuki in the Lecture Hall, not a choice between core classes. Let the first exercise be small and appropriate to actual skills: a question, an observation, a safe demonstration or a controlled attempt. Attendance and a genuine attempt are enough; a wrong answer or failed beginner casting does not require repeating enrollment. Mandatory morning classes rotate the three established subjects; afternoons are ordinarily free. Do not skip a whole term or start a major research project during the greeting. Deliberate refusal or leaving before participating is not completion. No arbitrary mastery, new spell, companion or court key is awarded.",
+    "questDesignBrief": "An enrolled adult first-year joins the opening Magic Theory question with Noriaki Takatsuki. Resolve their actual participation before the lesson is completed. Observation, a safe test, reasoning or an honest attempt can contribute; failure does not require repeated enrollment. Classmates pursue their own methods and conversations. Let an exchange develop when the player actually joins it; do not make the class watch or evaluate every move. After the exercise, the instructor explains Dragon Hoard: Earn Your Place, its scope, preparation and the next announced supervised session. Keep the assignment achievable for a novice, with no required new power or compulsory partner recruitment. Morning lessons and assigned afternoon work matter; breaks are available. Do not skip a term, award mastery or make every routine lesson a quest.",
     "objectives": {
       "first_lesson": {
         "id": "first_lesson",
@@ -720,8 +740,18 @@
     "conclusive": true,
     "onCompleteEffects": [
       {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "Dragon Hoard: Earn Your Place"
+      },
+      {
+        "type": "quest-accept",
+        "operator": "set",
+        "value": "Dragon Hoard: Earn Your Place"
+      },
+      {
         "type": "story",
-        "instruction": "The first lesson at Dragon Hoard Academy is complete for the participating player. Record what actually happened, including mistakes. Continue the remaining required morning timetable without making every routine lesson a separate quest. When the morning block ends, offer ordinary afternoon possibilities through the scene; do not choose one or advance time for the player. Afternoon choices include the paid town-work leads and a public guild-hall visit; neither requires automatic registration or skipping remaining classes."
+        "instruction": "Complete only the actual first lesson and establish the course assignment Dragon Hoard: Earn Your Place. The teacher gives its next practical preparation step and the next announced supervised lesson, not an unannounced turn countdown. Continue classmates’ own work, conversations and unfinished concerns. If the player actually joined one, preserve that exchange without making the class revolve around them. Do not decide the player’s response, manufacture friendship, force a club or accept outside work. Continue the required timetable as appropriate; a conversation does not consume the day."
       }
     ],
     "completionCondition": {
@@ -737,7 +767,7 @@
     "status": "hidden",
     "questStatement": "Begin your first day as a student at Hydra Head Academy.",
     "mainObjective": "Attend and take part in the first Magic Theory lesson with Kana Fujimoto.",
-    "questDesignBrief": "This adult first-year is already enrolled. The opening establishes collecting the issued timetable and attending Kiyoko Fujinami's welcome among many first-years. Kiyoko Fujinami returns to Faculty Offices afterward. The player now has one concrete next step: Magic Theory with Kana Fujimoto in the Lecture Hall, not a choice between core classes. Let the first exercise be small and appropriate to actual skills: a question, an observation, a safe demonstration or a controlled attempt. Attendance and a genuine attempt are enough; a wrong answer or failed beginner casting does not require repeating enrollment. Mandatory morning classes rotate the three established subjects; afternoons are ordinarily free. Do not skip a whole term or start a major research project during the greeting. Deliberate refusal or leaving before participating is not completion. No arbitrary mastery, new spell, companion or court key is awarded.",
+    "questDesignBrief": "An enrolled adult first-year joins the opening Magic Theory question with Kana Fujimoto. Resolve their actual participation before the lesson is completed. Observation, a safe test, reasoning or an honest attempt can contribute; failure does not require repeated enrollment. Classmates pursue their own methods and conversations. Let an exchange develop when the player actually joins it; do not make the class watch or evaluate every move. After the exercise, the instructor explains Hydra Head: A Settlement That Holds, its scope, preparation and the next announced supervised session. Keep the assignment achievable for a novice, with no required new power or compulsory partner recruitment. Morning lessons and assigned afternoon work matter; breaks are available. Do not skip a term, award mastery or make every routine lesson a quest.",
     "objectives": {
       "first_lesson": {
         "id": "first_lesson",
@@ -749,8 +779,18 @@
     "conclusive": true,
     "onCompleteEffects": [
       {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "Hydra Head: A Settlement That Holds"
+      },
+      {
+        "type": "quest-accept",
+        "operator": "set",
+        "value": "Hydra Head: A Settlement That Holds"
+      },
+      {
         "type": "story",
-        "instruction": "The first lesson at Hydra Head Academy is complete for the participating player. Record what actually happened, including mistakes. Continue the remaining required morning timetable without making every routine lesson a separate quest. When the morning block ends, offer ordinary afternoon possibilities through the scene; do not choose one or advance time for the player. Afternoon choices include the paid town-work leads and a public guild-hall visit; neither requires automatic registration or skipping remaining classes."
+        "instruction": "Complete only the actual first lesson and establish the course assignment Hydra Head: A Settlement That Holds. The teacher gives its next practical preparation step and the next announced supervised lesson, not an unannounced turn countdown. Continue classmates’ own work, conversations and unfinished concerns. If the player actually joined one, preserve that exchange without making the class revolve around them. Do not decide the player’s response, manufacture friendship, force a club or accept outside work. Continue the required timetable as appropriate; a conversation does not consume the day."
       }
     ],
     "completionCondition": {
@@ -3948,9 +3988,9 @@
     "name": "Find Afternoon Work",
     "detailType": "detailed",
     "status": "hidden",
-    "questStatement": "Your academy mornings are busy; paid afternoon work can cover ordinary life in town.",
+    "questStatement": "Rumor has it that some of Glowhaven’s inns, kitchens and other establishments could use a little extra help. It might be worth asking when your timetable allows.",
     "mainObjective": "Arrange a paid part-time job or trial shift that fits around required classes.",
-    "questDesignBrief": "An optional personal student goal, with no deadline or academy mandate. After morning classes, follow an actual work lead or approach an appropriate employer. Daichi Kamado at The Golden Ladle offers kitchen preparation and cleanup; Noriko Hanesawa at Roseberry Inn offers room turnover and common-room work; Lucien Delorme at The Everlight Public Library can discuss shelving or qualified copying. Other established employers are valid. Confirm duties, hours, pay and a first shift with a willing employer. Do not invent a vacancy at every shop or demand guild membership. Ordinary half-day help commonly pays 8-12 marks for completed work; skilled work is separately quoted. The player can reject an unsuitable offer. Accepting the job completes this arrangement goal but is not a completed shift or wage payment. No automatic relationship gain, stats, registration or badge. The player can postpone or abandon this goal.",
+    "questDesignBrief": "An optional personal student goal, with no deadline or academy mandate. When the player has time around classes and assigned preparation, follow an actual work lead or approach an appropriate employer. Daichi Kamado at The Golden Ladle offers kitchen preparation and cleanup; Noriko Hanesawa at Roseberry Inn offers room turnover and common-room work; Lucien Delorme at The Everlight Public Library can discuss shelving or qualified copying. Other established employers are valid. Confirm duties, hours, pay and a first shift with a willing employer. Do not invent a vacancy at every shop or demand guild membership. Ordinary half-day help commonly pays 8-12 marks for completed work; skilled work is separately quoted. The player can reject an unsuitable offer. Accepting the job completes this arrangement goal but is not a completed shift or wage payment. No automatic relationship gain, stats, registration or badge. The player can postpone or abandon this goal.",
     "objectives": {
       "arrange_work": {
         "id": "arrange_work",
@@ -3978,9 +4018,9 @@
     "questLocation": "Adventurer's Guild - Glowhaven Branch",
     "detailType": "detailed",
     "status": "hidden",
-    "questStatement": "The public guild hall welcomes visitors curious about adventuring work.",
+    "questStatement": "Rumor has it that the Adventurer’s Guild welcomes curious visitors as well as licensed adventurers. Its public hall could be a useful place to hear about life beyond the academy.",
     "mainObjective": "Visit the public hall of the Adventurer's Guild - Glowhaven Branch.",
-    "questDesignBrief": "A short optional student orientation visit after morning classes or whenever the player chooses. Enter the existing public guild location and see its reception, common hall or request board. Komugi Hanabishi is the established receptionist if approached. Arrival satisfies the visit; no conversation, application, registration, badge test, fee or contract is required. Looking around is not membership or job acceptance. The player may leave freely or postpone.",
+    "questDesignBrief": "A short optional student orientation visit whenever the player chooses and has time around their actual obligations. Enter the existing public guild location and see its reception, common hall or request board. Komugi Hanabishi is the established receptionist if approached. Arrival satisfies the visit; no conversation, application, registration, badge test, fee or contract is required. Looking around is not membership or job acceptance. The player may leave freely or postpone.",
     "objectives": {
       "visit": {
         "id": "visit",
@@ -7130,5 +7170,919 @@
     "activeObjectiveId": "judgment",
     "conclusive": true,
     "onCompleteEffects": []
+  },
+  "Guild: The Mill Has Teeth": {
+    "name": "Guild: The Mill Has Teeth",
+    "questSource": "Shūhei Kusanagi",
+    "questLocation": "Wrenhill Windmill",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "A grain sack keeps moving after the machinery stops. Shūhei needs the source removed without fouling the stones. Posted reward: 35 marks.",
+    "mainObjective": "The stopped grinding floor is inspected and its finite flour-beetle infestation is removed or safely contained.",
+    "questDesignBrief": "Use Flour Beetle, level 1–3, one modest encounter. Stop machinery first. Fuyuka suspects a worn chute, while Shūhei wants the sack blamed; the actual inspection can distinguish them. No lethal swarm or compulsory alchemy.\n\nOffer this finite work through the actual client or a relevant public notice. It starts only on actual agreement. Level guidance 1. Minimum guild badge rank 1. The posted player reward is 35 marks. The native completion effects are its sole payment and experience owner; narration does not add another purse. Settle the actual agreed outcome without mandatory return paperwork unless delivery or review itself matters. Preserve discoveries and losses if an approach fails. Use an achievable finite encounter and actual resources; do not scale named creatures or officials to manufacture an easy win. Newcomers can decline, postpone or withdraw.",
+    "conclusive": true,
+    "completionCondition": {
+      "type": "story",
+      "query": "For the accepted undertaking Guild: The Mill Has Teeth, The stopped grinding floor is inspected and its finite flour-beetle infestation is removed or safely contained. The participating player has actually achieved that agreed outcome, not merely heard a rumor, stated an intention, observed someone else doing it or claimed a similar earlier success. Recognize a credible alternative that achieves the outcome without forcing the suggested method."
+    },
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 35,
+        "target": "allPlayers"
+      },
+      {
+        "type": "player-experience",
+        "operator": "add",
+        "value": 152,
+        "target": "allPlayers"
+      },
+      {
+        "type": "item-add",
+        "item": "Guild Service Credit",
+        "quantity": 1,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "Guild: A Ram in the Road": {
+    "name": "Guild: A Ram in the Road",
+    "questSource": "Rinako Matsuba",
+    "questLocation": "Longgrass Crossroads",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "A chalk-backed ram is blocking a cart’s usual approach. Move it without breaking the cart or letting it into the crop plots. Posted reward: 40 marks.",
+    "mainObjective": "The specific blocking ram is safely moved, restrained, deterred or defeated and the cart route is usable.",
+    "questDesignBrief": "One Chalkback Ram, level 2–4, telegraphed charge. Bait, a barrier or Animal Handling can solve it. Its owner is careless rather than a hidden villain. Do not turn this into a whole monster cull.\n\nOffer this finite work through the actual client or a relevant public notice. It starts only on actual agreement. Level guidance 3. Minimum guild badge rank 1. The posted player reward is 40 marks. The native completion effects are its sole payment and experience owner; narration does not add another purse. Settle the actual agreed outcome without mandatory return paperwork unless delivery or review itself matters. Preserve discoveries and losses if an approach fails. Use an achievable finite encounter and actual resources; do not scale named creatures or officials to manufacture an easy win. Newcomers can decline, postpone or withdraw.",
+    "conclusive": true,
+    "completionCondition": {
+      "type": "story",
+      "query": "For the accepted undertaking Guild: A Ram in the Road, The specific blocking ram is safely moved, restrained, deterred or defeated and the cart route is usable. The participating player has actually achieved that agreed outcome, not merely heard a rumor, stated an intention, observed someone else doing it or claimed a similar earlier success. Recognize a credible alternative that achieves the outcome without forcing the suggested method."
+    },
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 40,
+        "target": "allPlayers"
+      },
+      {
+        "type": "player-experience",
+        "operator": "add",
+        "value": 176,
+        "target": "allPlayers"
+      },
+      {
+        "type": "item-add",
+        "item": "Guild Service Credit",
+        "quantity": 1,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "A Place before Supper": {
+    "name": "A Place before Supper",
+    "questSource": "Tamae Shibano",
+    "questLocation": "Starlark Abbey",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "The guest wing needs one usable room before a tired traveler arrives. A stuck shutter and damp bedding have made the obvious room unsuitable. Posted reward: 25 marks.",
+    "mainObjective": "One agreed guest room is actually made usable with permission and the steward knows it is ready.",
+    "questDesignBrief": "Finite practical work, not a mandatory profession tutorial. Tamae wants neat work but will accept a sensible temporary repair. A failure changes the method, not the amount of invented paperwork.\n\nOffer this finite work through the actual client or a relevant public notice. It starts only on actual agreement. Level guidance 1. A personal commission, not a guild licence requirement. The posted player reward is 25 marks. The native completion effects are its sole payment and experience owner; narration does not add another purse. Settle the actual agreed outcome without mandatory return paperwork unless delivery or review itself matters. Preserve discoveries and losses if an approach fails. Use an achievable finite encounter and actual resources; do not scale named creatures or officials to manufacture an easy win. Newcomers can decline, postpone or withdraw.",
+    "conclusive": true,
+    "completionCondition": {
+      "type": "story",
+      "query": "For the accepted undertaking A Place before Supper, One agreed guest room is actually made usable with permission and the steward knows it is ready. The participating player has actually achieved that agreed outcome, not merely heard a rumor, stated an intention, observed someone else doing it or claimed a similar earlier success. Recognize a credible alternative that achieves the outcome without forcing the suggested method."
+    },
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 25,
+        "target": "allPlayers"
+      },
+      {
+        "type": "player-experience",
+        "operator": "add",
+        "value": 152,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "Guild: Knots in the Reedwalk": {
+    "name": "Guild: Knots in the Reedwalk",
+    "questSource": "Daisaku Minobe",
+    "questLocation": "Greenrush Estuary",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "Loose lines are tangling the reedwalk supports. Find what is moving them and leave the landing usable. Posted reward: 45 marks.",
+    "mainObjective": "The tangling cause is identified and the agreed passage restored without abandoning a trapped person or animal.",
+    "questDesignBrief": "A small Reedlace Sprite colony is making shelter, not plotting murder. Relocating its useful material can work; careless burning damages the landing. Beginner local danger only.\n\nOffer this finite work through the actual client or a relevant public notice. It starts only on actual agreement. Level guidance 4. Minimum guild badge rank 1. The posted player reward is 45 marks. The native completion effects are its sole payment and experience owner; narration does not add another purse. Settle the actual agreed outcome without mandatory return paperwork unless delivery or review itself matters. Preserve discoveries and losses if an approach fails. Use an achievable finite encounter and actual resources; do not scale named creatures or officials to manufacture an easy win. Newcomers can decline, postpone or withdraw.",
+    "conclusive": true,
+    "completionCondition": {
+      "type": "story",
+      "query": "For the accepted undertaking Guild: Knots in the Reedwalk, The tangling cause is identified and the agreed passage restored without abandoning a trapped person or animal. The participating player has actually achieved that agreed outcome, not merely heard a rumor, stated an intention, observed someone else doing it or claimed a similar earlier success. Recognize a credible alternative that achieves the outcome without forcing the suggested method."
+    },
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 45,
+        "target": "allPlayers"
+      },
+      {
+        "type": "player-experience",
+        "operator": "add",
+        "value": 188,
+        "target": "allPlayers"
+      },
+      {
+        "type": "item-add",
+        "item": "Guild Service Credit",
+        "quantity": 1,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "A Jar That Will Not Settle": {
+    "name": "A Jar That Will Not Settle",
+    "questSource": "Yorina Tsugawa",
+    "questLocation": "Thistlebank Alchemy Cottage",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "One field preparation has begun separating in storage. Yorina wants a useful comparison before she sells the next batch. Posted reward: 45 marks.",
+    "mainObjective": "A feasible comparison is carried out and the actual instability is explained honestly to Yorina.",
+    "questDesignBrief": "A simple experiment or qualified helper suffices. A good result can be an ordinary storage defect; do not require a new spell or make every potion secretly cursed. Yorina dislikes bad news but values an answer she can use.\n\nOffer this finite work through the actual client or a relevant public notice. It starts only on actual agreement. Level guidance 5. A personal commission, not a guild licence requirement. The posted player reward is 45 marks. The native completion effects are its sole payment and experience owner; narration does not add another purse. Settle the actual agreed outcome without mandatory return paperwork unless delivery or review itself matters. Preserve discoveries and losses if an approach fails. Use an achievable finite encounter and actual resources; do not scale named creatures or officials to manufacture an easy win. Newcomers can decline, postpone or withdraw.",
+    "conclusive": true,
+    "completionCondition": {
+      "type": "story",
+      "query": "For the accepted undertaking A Jar That Will Not Settle, A feasible comparison is carried out and the actual instability is explained honestly to Yorina. The participating player has actually achieved that agreed outcome, not merely heard a rumor, stated an intention, observed someone else doing it or claimed a similar earlier success. Recognize a credible alternative that achieves the outcome without forcing the suggested method."
+    },
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 45,
+        "target": "allPlayers"
+      },
+      {
+        "type": "player-experience",
+        "operator": "add",
+        "value": 200,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "Guild: Wings in the Stores": {
+    "name": "Guild: Wings in the Stores",
+    "questSource": "Nanae Kogure",
+    "questLocation": "The Gilded Albatross",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "Damp sailcloth moths are spoiling the ship’s stores. Nanae wants the affected goods separated and the source dealt with. Posted reward: 70 marks.",
+    "mainObjective": "The finite infestation and its damp source are dealt with, preserving a usable uncontaminated store.",
+    "questDesignBrief": "Sailcloth Moth, level 5–8. Cleaning, isolation and drying are valid. Sōji argues for salvaging more stock; Nanae refuses to feed dubious grain to the crew. This is their real disagreement, not a scene staged for player approval.\n\nOffer this finite work through the actual client or a relevant public notice. It starts only on actual agreement. Level guidance 7. Minimum guild badge rank 1. The posted player reward is 70 marks. The native completion effects are its sole payment and experience owner; narration does not add another purse. Settle the actual agreed outcome without mandatory return paperwork unless delivery or review itself matters. Preserve discoveries and losses if an approach fails. Use an achievable finite encounter and actual resources; do not scale named creatures or officials to manufacture an easy win. Newcomers can decline, postpone or withdraw.",
+    "conclusive": true,
+    "completionCondition": {
+      "type": "story",
+      "query": "For the accepted undertaking Guild: Wings in the Stores, The finite infestation and its damp source are dealt with, preserving a usable uncontaminated store. The participating player has actually achieved that agreed outcome, not merely heard a rumor, stated an intention, observed someone else doing it or claimed a similar earlier success. Recognize a credible alternative that achieves the outcome without forcing the suggested method."
+    },
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 70,
+        "target": "allPlayers"
+      },
+      {
+        "type": "player-experience",
+        "operator": "add",
+        "value": 224,
+        "target": "allPlayers"
+      },
+      {
+        "type": "item-add",
+        "item": "Guild Service Credit",
+        "quantity": 1,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "Guild: A Light beneath the Jetty": {
+    "name": "Guild: A Light beneath the Jetty",
+    "questSource": "Saki Hinoura",
+    "questLocation": "Beaconrest Lighthouse",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "Boat signals are being answered by strange little flashes under the lighthouse jetty. Saki needs a clear channel before the next supply arrival. Posted reward: 75 marks.",
+    "mainObjective": "The false-signal source is established and a workable signaling arrangement is demonstrated.",
+    "questDesignBrief": "Bellfin Shoal and reflected lantern light, not another portal anomaly. Observation, a shielded lamp or moving the fish can work. Kōzō’s familiar explanation is incomplete rather than malicious.\n\nOffer this finite work through the actual client or a relevant public notice. It starts only on actual agreement. Level guidance 8. Minimum guild badge rank 1. The posted player reward is 75 marks. The native completion effects are its sole payment and experience owner; narration does not add another purse. Settle the actual agreed outcome without mandatory return paperwork unless delivery or review itself matters. Preserve discoveries and losses if an approach fails. Use an achievable finite encounter and actual resources; do not scale named creatures or officials to manufacture an easy win. Newcomers can decline, postpone or withdraw.",
+    "conclusive": true,
+    "completionCondition": {
+      "type": "story",
+      "query": "For the accepted undertaking Guild: A Light beneath the Jetty, The false-signal source is established and a workable signaling arrangement is demonstrated. The participating player has actually achieved that agreed outcome, not merely heard a rumor, stated an intention, observed someone else doing it or claimed a similar earlier success. Recognize a credible alternative that achieves the outcome without forcing the suggested method."
+    },
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 75,
+        "target": "allPlayers"
+      },
+      {
+        "type": "player-experience",
+        "operator": "add",
+        "value": 236,
+        "target": "allPlayers"
+      },
+      {
+        "type": "item-add",
+        "item": "Guild Service Credit",
+        "quantity": 1,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "Guild: Tools in the Bank": {
+    "name": "Guild: Tools in the Bank",
+    "questSource": "Daisaku Minobe",
+    "questLocation": "Greenrush Estuary",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "A boatwright’s small tools have vanished near the bank. Recover them without ruining the unfinished hull. Posted reward: 80 marks.",
+    "mainObjective": "The agreed missing tools are recovered or replaced by a genuinely accepted equivalent.",
+    "questDesignBrief": "A Tangletooth Otter has collected rattling objects. A limited chase, lure or safe den approach works. The animal bites only when cornered; no boss-level otter surprise.\n\nOffer this finite work through the actual client or a relevant public notice. It starts only on actual agreement. Level guidance 9. Minimum guild badge rank 1. The posted player reward is 80 marks. The native completion effects are its sole payment and experience owner; narration does not add another purse. Settle the actual agreed outcome without mandatory return paperwork unless delivery or review itself matters. Preserve discoveries and losses if an approach fails. Use an achievable finite encounter and actual resources; do not scale named creatures or officials to manufacture an easy win. Newcomers can decline, postpone or withdraw.",
+    "conclusive": true,
+    "completionCondition": {
+      "type": "story",
+      "query": "For the accepted undertaking Guild: Tools in the Bank, The agreed missing tools are recovered or replaced by a genuinely accepted equivalent. The participating player has actually achieved that agreed outcome, not merely heard a rumor, stated an intention, observed someone else doing it or claimed a similar earlier success. Recognize a credible alternative that achieves the outcome without forcing the suggested method."
+    },
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 80,
+        "target": "allPlayers"
+      },
+      {
+        "type": "player-experience",
+        "operator": "add",
+        "value": 248,
+        "target": "allPlayers"
+      },
+      {
+        "type": "item-add",
+        "item": "Guild Service Credit",
+        "quantity": 1,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "The Wrong Kind of Hide": {
+    "name": "The Wrong Kind of Hide",
+    "questSource": "Uta Nekoyama",
+    "questLocation": "Pinewater Woods",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "A poacher wants help recovering a hide before someone else finds her cache. The ownership of another item in it is less straightforward. Posted reward: 90 marks.",
+    "mainObjective": "The agreed hide/cache problem is resolved through recovery, a negotiated settlement or truthful exposure of the disputed property.",
+    "questDesignBrief": "Uta can be charming and selfish. Establish actual ownership before moving goods. Refusing the dishonest portion is a real choice, not automatic failure. A small Burdock Lurker or ordinary tracks can complicate the recovery without requiring combat.\n\nOffer this finite work through the actual client or a relevant public notice. It starts only on actual agreement. Level guidance 10. A personal commission, not a guild licence requirement. The posted player reward is 90 marks. The native completion effects are its sole payment and experience owner; narration does not add another purse. Settle the actual agreed outcome without mandatory return paperwork unless delivery or review itself matters. Preserve discoveries and losses if an approach fails. Use an achievable finite encounter and actual resources; do not scale named creatures or officials to manufacture an easy win. Newcomers can decline, postpone or withdraw.",
+    "conclusive": true,
+    "completionCondition": {
+      "type": "story",
+      "query": "For the accepted undertaking The Wrong Kind of Hide, The agreed hide/cache problem is resolved through recovery, a negotiated settlement or truthful exposure of the disputed property. The participating player has actually achieved that agreed outcome, not merely heard a rumor, stated an intention, observed someone else doing it or claimed a similar earlier success. Recognize a credible alternative that achieves the outcome without forcing the suggested method."
+    },
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 90,
+        "target": "allPlayers"
+      },
+      {
+        "type": "player-experience",
+        "operator": "add",
+        "value": 260,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "The Bell That Wakes the Ward": {
+    "name": "The Bell That Wakes the Ward",
+    "questSource": "Eiji Kuramochi",
+    "questLocation": "Starlark Abbey",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "A wind-shaken bell keeps interrupting the hospice. Eiji would like it quiet without damaging a cherished part of worship. Posted reward: 65 marks.",
+    "mainObjective": "A practical safe fix reduces the nuisance and is accepted by those actually affected.",
+    "questDesignBrief": "Chizuru cares about observance; Lucette about exhausted patients. Let the novice mediate a modest issue without deciding which faith is true. No hidden demon or compulsory Soul spell.\n\nOffer this finite work through the actual client or a relevant public notice. It starts only on actual agreement. Level guidance 7. A personal commission, not a guild licence requirement. The posted player reward is 65 marks. The native completion effects are its sole payment and experience owner; narration does not add another purse. Settle the actual agreed outcome without mandatory return paperwork unless delivery or review itself matters. Preserve discoveries and losses if an approach fails. Use an achievable finite encounter and actual resources; do not scale named creatures or officials to manufacture an easy win. Newcomers can decline, postpone or withdraw.",
+    "conclusive": true,
+    "completionCondition": {
+      "type": "story",
+      "query": "For the accepted undertaking The Bell That Wakes the Ward, A practical safe fix reduces the nuisance and is accepted by those actually affected. The participating player has actually achieved that agreed outcome, not merely heard a rumor, stated an intention, observed someone else doing it or claimed a similar earlier success. Recognize a credible alternative that achieves the outcome without forcing the suggested method."
+    },
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 65,
+        "target": "allPlayers"
+      },
+      {
+        "type": "player-experience",
+        "operator": "add",
+        "value": 224,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "Guild: A Rope with Opinions": {
+    "name": "Guild: A Rope with Opinions",
+    "questSource": "Mio Tatsunami",
+    "questLocation": "The Gilded Albatross",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "A suspicious coil recovered from a buoy has fastened itself around a working rail. Free the rail without tearing the deck fittings out. Posted reward: 105 marks.",
+    "mainObjective": "The finite Mooring Mimic is removed or contained and the rail is usable.",
+    "questDesignBrief": "One level 9–13 mimic, visible sticky grip and room to retreat. Daigo’s knot knowledge helps only if consulted. No instant inventory theft or attack on every crew member.\n\nOffer this finite work through the actual client or a relevant public notice. It starts only on actual agreement. Level guidance 12. Minimum guild badge rank 1. The posted player reward is 105 marks. The native completion effects are its sole payment and experience owner; narration does not add another purse. Settle the actual agreed outcome without mandatory return paperwork unless delivery or review itself matters. Preserve discoveries and losses if an approach fails. Use an achievable finite encounter and actual resources; do not scale named creatures or officials to manufacture an easy win. Newcomers can decline, postpone or withdraw.",
+    "conclusive": true,
+    "completionCondition": {
+      "type": "story",
+      "query": "For the accepted undertaking Guild: A Rope with Opinions, The finite Mooring Mimic is removed or contained and the rail is usable. The participating player has actually achieved that agreed outcome, not merely heard a rumor, stated an intention, observed someone else doing it or claimed a similar earlier success. Recognize a credible alternative that achieves the outcome without forcing the suggested method."
+    },
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 105,
+        "target": "allPlayers"
+      },
+      {
+        "type": "player-experience",
+        "operator": "add",
+        "value": 284,
+        "target": "allPlayers"
+      },
+      {
+        "type": "item-add",
+        "item": "Guild Service Credit",
+        "quantity": 1,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "Guild: The Mark below the Arch": {
+    "name": "Guild: The Mark below the Arch",
+    "questSource": "Mina Takanashi",
+    "questLocation": "Moonarch Isle",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "A low-tide carving may help identify the ruined arch’s original use. Record it before the undercroft floods. Posted reward: 145 marks.",
+    "mainObjective": "The specified surviving carving is actually recorded with a sensible route and return, and usable evidence reaches the client.",
+    "questDesignBrief": "Survey the Tide Crypt, tide and stable footing. Avoid a fabricated new realm or activation ritual. The inscription may describe a mundane harbor function. Useful negative findings can challenge Mina’s preferred theory.\n\nOffer this finite work through the actual client or a relevant public notice. It starts only on actual agreement. Level guidance 15. Minimum guild badge rank 2. The posted player reward is 145 marks. The native completion effects are its sole payment and experience owner; narration does not add another purse. Settle the actual agreed outcome without mandatory return paperwork unless delivery or review itself matters. Preserve discoveries and losses if an approach fails. Use an achievable finite encounter and actual resources; do not scale named creatures or officials to manufacture an easy win. Newcomers can decline, postpone or withdraw.",
+    "conclusive": true,
+    "completionCondition": {
+      "type": "story",
+      "query": "For the accepted undertaking Guild: The Mark below the Arch, The specified surviving carving is actually recorded with a sensible route and return, and usable evidence reaches the client. The participating player has actually achieved that agreed outcome, not merely heard a rumor, stated an intention, observed someone else doing it or claimed a similar earlier success. Recognize a credible alternative that achieves the outcome without forcing the suggested method."
+    },
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 145,
+        "target": "allPlayers"
+      },
+      {
+        "type": "player-experience",
+        "operator": "add",
+        "value": 320,
+        "target": "allPlayers"
+      },
+      {
+        "type": "item-add",
+        "item": "Guild Service Credit",
+        "quantity": 1,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "A Second Pair of Eyes": {
+    "name": "A Second Pair of Eyes",
+    "questSource": "Brina Flintmere",
+    "questLocation": "Old Southwatch",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "Brina and Yūsei want a usable coastal route checked from the old lookout. They disagree over how much of the exposed approach needs measuring. Posted reward: 120 marks.",
+    "mainObjective": "A bounded agreed route is checked and its actual limitations recorded in usable form.",
+    "questDesignBrief": "Hirotaka disputes a modern marker based on memory; evidence can vindicate or correct him. The partners keep their own argument. Do not require a dangerous sea dive merely to expose Brina’s private weakness.\n\nOffer this finite work through the actual client or a relevant public notice. It starts only on actual agreement. Level guidance 13. A personal commission, not a guild licence requirement. The posted player reward is 120 marks. The native completion effects are its sole payment and experience owner; narration does not add another purse. Settle the actual agreed outcome without mandatory return paperwork unless delivery or review itself matters. Preserve discoveries and losses if an approach fails. Use an achievable finite encounter and actual resources; do not scale named creatures or officials to manufacture an easy win. Newcomers can decline, postpone or withdraw.",
+    "conclusive": true,
+    "completionCondition": {
+      "type": "story",
+      "query": "For the accepted undertaking A Second Pair of Eyes, A bounded agreed route is checked and its actual limitations recorded in usable form. The participating player has actually achieved that agreed outcome, not merely heard a rumor, stated an intention, observed someone else doing it or claimed a similar earlier success. Recognize a credible alternative that achieves the outcome without forcing the suggested method."
+    },
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 120,
+        "target": "allPlayers"
+      },
+      {
+        "type": "player-experience",
+        "operator": "add",
+        "value": 296,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "What the Shell Caught": {
+    "name": "What the Shell Caught",
+    "questSource": "Mina Takanashi",
+    "questLocation": "Stillback Isle",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "Mauruun keeps shifting one edge of its shell. Mina suspects a small problem that could be investigated without hurting the enormous animal. Posted reward: 130 marks.",
+    "mainObjective": "The actual source of discomfort is identified from a safe approach and a feasible care plan is agreed.",
+    "questDesignBrief": "The level-60 turtle remains passive unless provoked. Patient observation and consent-like animal responses matter. Discover the trapped old line; no climbing into a furious fight or mandatory killing. Offer further care only after this finding.\n\nOffer this finite work through the actual client or a relevant public notice. It starts only on actual agreement. Level guidance 12. A personal commission, not a guild licence requirement. The posted player reward is 130 marks. The native completion effects are its sole payment and experience owner; narration does not add another purse. Settle the actual agreed outcome without mandatory return paperwork unless delivery or review itself matters. Preserve discoveries and losses if an approach fails. Use an achievable finite encounter and actual resources; do not scale named creatures or officials to manufacture an easy win. Newcomers can decline, postpone or withdraw.",
+    "conclusive": false,
+    "completionCondition": {
+      "type": "story",
+      "query": "For the accepted undertaking What the Shell Caught, The actual source of discomfort is identified from a safe approach and a feasible care plan is agreed. The participating player has actually achieved that agreed outcome, not merely heard a rumor, stated an intention, observed someone else doing it or claimed a similar earlier success. Recognize a credible alternative that achieves the outcome without forcing the suggested method."
+    },
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 130,
+        "target": "allPlayers"
+      },
+      {
+        "type": "player-experience",
+        "operator": "add",
+        "value": 284,
+        "target": "allPlayers"
+      },
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "A Patient Kind of Work"
+      }
+    ]
+  },
+  "A Patient Kind of Work": {
+    "name": "A Patient Kind of Work",
+    "questSource": "Mina Takanashi",
+    "questLocation": "Stillback Isle",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "Removing old line from Mauruun’s shell will take steady hands and a way to stop before the animal is distressed. Posted reward: 180 marks.",
+    "mainObjective": "The trapped line is actually removed or an equally effective safe treatment carried out, relieving the identified irritation.",
+    "questDesignBrief": "Build on What the Shell Caught. Ordinary tools, practiced animal care, Healing where applicable or a qualified helper can contribute. Nature does not automatically heal an animal. Stop or retreat when its response requires it. Do not tame it or promise a permanent mount.\n\nOffer this finite work through the actual client or a relevant public notice. It starts only on actual agreement. Level guidance 14. A personal commission, not a guild licence requirement. The posted player reward is 180 marks. The native completion effects are its sole payment and experience owner; narration does not add another purse. Settle the actual agreed outcome without mandatory return paperwork unless delivery or review itself matters. Preserve discoveries and losses if an approach fails. Use an achievable finite encounter and actual resources; do not scale named creatures or officials to manufacture an easy win. Newcomers can decline, postpone or withdraw.",
+    "conclusive": false,
+    "completionCondition": {
+      "type": "story",
+      "query": "For the accepted undertaking A Patient Kind of Work, The trapped line is actually removed or an equally effective safe treatment carried out, relieving the identified irritation. The participating player has actually achieved that agreed outcome, not merely heard a rumor, stated an intention, observed someone else doing it or claimed a similar earlier success. Recognize a credible alternative that achieves the outcome without forcing the suggested method."
+    },
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 180,
+        "target": "allPlayers"
+      },
+      {
+        "type": "player-experience",
+        "operator": "add",
+        "value": 308,
+        "target": "allPlayers"
+      },
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Nesting Shelf"
+      },
+      {
+        "type": "item-add",
+        "item": "Stillback Shell Comb",
+        "quantity": 1,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "The Nesting Shelf": {
+    "name": "The Nesting Shelf",
+    "questSource": "Makiho Akitsu",
+    "questLocation": "Stillback Isle",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "Boats have been using Mauruun’s protected resting shelf as an easy landing. Find a workable way to keep traffic clear. Posted reward: 190 marks.",
+    "mainObjective": "The affected landing users accept and begin a workable alternative that leaves the nesting shelf undisturbed.",
+    "questDesignBrief": "Build on actual observation rather than stealing eggs to prove they exist. A better landing, notices and negotiation can end this peaceful arc. Makiho wants a usable fishing approach; Mina wants careful boundaries. No need to fight the turtle.\n\nOffer this finite work through the actual client or a relevant public notice. It starts only on actual agreement. Level guidance 15. A personal commission, not a guild licence requirement. The posted player reward is 190 marks. The native completion effects are its sole payment and experience owner; narration does not add another purse. Settle the actual agreed outcome without mandatory return paperwork unless delivery or review itself matters. Preserve discoveries and losses if an approach fails. Use an achievable finite encounter and actual resources; do not scale named creatures or officials to manufacture an easy win. Newcomers can decline, postpone or withdraw.",
+    "conclusive": true,
+    "completionCondition": {
+      "type": "story",
+      "query": "For the accepted undertaking The Nesting Shelf, The affected landing users accept and begin a workable alternative that leaves the nesting shelf undisturbed. The participating player has actually achieved that agreed outcome, not merely heard a rumor, stated an intention, observed someone else doing it or claimed a similar earlier success. Recognize a credible alternative that achieves the outcome without forcing the suggested method."
+    },
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 190,
+        "target": "allPlayers"
+      },
+      {
+        "type": "player-experience",
+        "operator": "add",
+        "value": 320,
+        "target": "allPlayers"
+      },
+      {
+        "type": "item-add",
+        "item": "Mauruun’s Shed Scute",
+        "quantity": 1,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "Guild: A Hold Full of Knuckles": {
+    "name": "Guild: A Hold Full of Knuckles",
+    "questSource": "Iris Mornay",
+    "questLocation": "Splinterwake Wreck",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "A wreck’s accessible hold contains recoverable goods and an obstructed exit. Agree the salvage scope and make a safe recovery. Posted reward: 230 marks.",
+    "mainObjective": "The specific agreed cargo is recovered with a feasible dive, actual ownership arrangements and a usable way back.",
+    "questDesignBrief": "A finite Barnacle Brute at level 17–22 can block the opening; lure, avoid or fight it. Air and exit routes matter. Ghorvath may be absent; its signs warn of optional much greater danger and do not force a boss fight.\n\nOffer this finite work through the actual client or a relevant public notice. It starts only on actual agreement. Level guidance 20. Minimum guild badge rank 2. The posted player reward is 230 marks. The native completion effects are its sole payment and experience owner; narration does not add another purse. Settle the actual agreed outcome without mandatory return paperwork unless delivery or review itself matters. Preserve discoveries and losses if an approach fails. Use an achievable finite encounter and actual resources; do not scale named creatures or officials to manufacture an easy win. Newcomers can decline, postpone or withdraw.",
+    "conclusive": false,
+    "completionCondition": {
+      "type": "story",
+      "query": "For the accepted undertaking Guild: A Hold Full of Knuckles, The specific agreed cargo is recovered with a feasible dive, actual ownership arrangements and a usable way back. The participating player has actually achieved that agreed outcome, not merely heard a rumor, stated an intention, observed someone else doing it or claimed a similar earlier success. Recognize a credible alternative that achieves the outcome without forcing the suggested method."
+    },
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 230,
+        "target": "allPlayers"
+      },
+      {
+        "type": "player-experience",
+        "operator": "add",
+        "value": 380,
+        "target": "allPlayers"
+      },
+      {
+        "type": "item-add",
+        "item": "Guild Service Credit",
+        "quantity": 1,
+        "target": "allPlayers"
+      },
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Name on the Crate"
+      }
+    ]
+  },
+  "The Name on the Crate": {
+    "name": "The Name on the Crate",
+    "questSource": "Sōji Hamada",
+    "questLocation": "The Gilded Albatross",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "Recovered cargo carries an old shipping mark and a newer private claim. Establish who can actually authorize its sale. Posted reward: 240 marks.",
+    "mainObjective": "Relevant evidence is checked and the participating salvagers reach an actual defensible disposition of the disputed goods.",
+    "questDesignBrief": "Build on the recovery, without requiring the player to have taken every possible wreck job. Reina needs a profitable recovery; Sōji wants a defensible sale. Kanna may offer a knowingly dubious shortcut. The claimant can be mistaken without a secret evil mastermind. Refusal, restitution or an informed limited settlement can resolve it; public disagreement remains possible.\n\nOffer this finite work through the actual client or a relevant public notice. It starts only on actual agreement. Level guidance 20. A personal commission, not a guild licence requirement. The posted player reward is 240 marks. The native completion effects are its sole payment and experience owner; narration does not add another purse. Settle the actual agreed outcome without mandatory return paperwork unless delivery or review itself matters. Preserve discoveries and losses if an approach fails. Use an achievable finite encounter and actual resources; do not scale named creatures or officials to manufacture an easy win. Newcomers can decline, postpone or withdraw.",
+    "conclusive": false,
+    "completionCondition": {
+      "type": "story",
+      "query": "For the accepted undertaking The Name on the Crate, Relevant evidence is checked and the participating salvagers reach an actual defensible disposition of the disputed goods. The participating player has actually achieved that agreed outcome, not merely heard a rumor, stated an intention, observed someone else doing it or claimed a similar earlier success. Recognize a credible alternative that achieves the outcome without forcing the suggested method."
+    },
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 240,
+        "target": "allPlayers"
+      },
+      {
+        "type": "player-experience",
+        "operator": "add",
+        "value": 380,
+        "target": "allPlayers"
+      },
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Price of Bringing It Back"
+      }
+    ]
+  },
+  "The Price of Bringing It Back": {
+    "name": "The Price of Bringing It Back",
+    "questSource": "Reina Kazehara",
+    "questLocation": "The Gilded Albatross",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "A valuable recovery will only become a success if the agreed cargo reaches its rightful destination and the crew’s promises survive the voyage. Posted reward: 280 marks.",
+    "mainObjective": "The specifically agreed cargo is actually delivered or another informed settlement is carried out with those entitled to decide.",
+    "questDesignBrief": "Close the salvage arc from the established ownership decision. Weather, an ordinary damaged fitting or a claimant’s changed terms can complicate one finite trip. Do not fabricate repeated betrayals. Remember actual crew shares privately, but the player receives the posted full agreed reward once.\n\nOffer this finite work through the actual client or a relevant public notice. It starts only on actual agreement. Level guidance 23. A personal commission, not a guild licence requirement. The posted player reward is 280 marks. The native completion effects are its sole payment and experience owner; narration does not add another purse. Settle the actual agreed outcome without mandatory return paperwork unless delivery or review itself matters. Preserve discoveries and losses if an approach fails. Use an achievable finite encounter and actual resources; do not scale named creatures or officials to manufacture an easy win. Newcomers can decline, postpone or withdraw.",
+    "conclusive": true,
+    "completionCondition": {
+      "type": "story",
+      "query": "For the accepted undertaking The Price of Bringing It Back, The specifically agreed cargo is actually delivered or another informed settlement is carried out with those entitled to decide. The participating player has actually achieved that agreed outcome, not merely heard a rumor, stated an intention, observed someone else doing it or claimed a similar earlier success. Recognize a credible alternative that achieves the outcome without forcing the suggested method."
+    },
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 280,
+        "target": "allPlayers"
+      },
+      {
+        "type": "player-experience",
+        "operator": "add",
+        "value": 416,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "Guild: The Current in the Wall": {
+    "name": "Guild: The Current in the Wall",
+    "questSource": "Iris Mornay",
+    "questLocation": "Moonarch Isle",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "An undercroft passage pulls harder than the tide should account for. Locate the cause before another survey crew uses it. Posted reward: 280 marks.",
+    "mainObjective": "The local danger is identified and removed, contained or credibly marked with a workable safe route.",
+    "questDesignBrief": "One Undertow Eel at level 20–26; observe its crevice and limited current range. A false wall or loose stones can be a mundane alternative cause. No forced deep-ocean boss.\n\nOffer this finite work through the actual client or a relevant public notice. It starts only on actual agreement. Level guidance 24. Minimum guild badge rank 2. The posted player reward is 280 marks. The native completion effects are its sole payment and experience owner; narration does not add another purse. Settle the actual agreed outcome without mandatory return paperwork unless delivery or review itself matters. Preserve discoveries and losses if an approach fails. Use an achievable finite encounter and actual resources; do not scale named creatures or officials to manufacture an easy win. Newcomers can decline, postpone or withdraw.",
+    "conclusive": true,
+    "completionCondition": {
+      "type": "story",
+      "query": "For the accepted undertaking Guild: The Current in the Wall, The local danger is identified and removed, contained or credibly marked with a workable safe route. The participating player has actually achieved that agreed outcome, not merely heard a rumor, stated an intention, observed someone else doing it or claimed a similar earlier success. Recognize a credible alternative that achieves the outcome without forcing the suggested method."
+    },
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 280,
+        "target": "allPlayers"
+      },
+      {
+        "type": "player-experience",
+        "operator": "add",
+        "value": 428,
+        "target": "allPlayers"
+      },
+      {
+        "type": "item-add",
+        "item": "Guild Service Credit",
+        "quantity": 1,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "A Quiet View, Honestly": {
+    "name": "A Quiet View, Honestly",
+    "questSource": "Kōzō Hinoura",
+    "questLocation": "Seaward Overlook",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "A borrowed fieldglass has been left near the overlook. Return it without disturbing the people who went there for some peace. Posted reward: 20 marks.",
+    "mainObjective": "The actual borrowed fieldglass is found and returned or its loss is honestly settled with the owner.",
+    "questDesignBrief": "A brief quiet errand. No resident NPC is added to the overlook, no mandatory romance and no manufactured monster attack. A shy visitor can decline conversation.\n\nOffer this finite work through the actual client or a relevant public notice. It starts only on actual agreement. Level guidance 1. A personal commission, not a guild licence requirement. The posted player reward is 20 marks. The native completion effects are its sole payment and experience owner; narration does not add another purse. Settle the actual agreed outcome without mandatory return paperwork unless delivery or review itself matters. Preserve discoveries and losses if an approach fails. Use an achievable finite encounter and actual resources; do not scale named creatures or officials to manufacture an easy win. Newcomers can decline, postpone or withdraw.",
+    "conclusive": true,
+    "completionCondition": {
+      "type": "story",
+      "query": "For the accepted undertaking A Quiet View, Honestly, The actual borrowed fieldglass is found and returned or its loss is honestly settled with the owner. The participating player has actually achieved that agreed outcome, not merely heard a rumor, stated an intention, observed someone else doing it or claimed a similar earlier success. Recognize a credible alternative that achieves the outcome without forcing the suggested method."
+    },
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 20,
+        "target": "allPlayers"
+      },
+      {
+        "type": "player-experience",
+        "operator": "add",
+        "value": 152,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "Guild: A Nest above the Catch": {
+    "name": "Guild: A Nest above the Catch",
+    "questSource": "Makiho Akitsu",
+    "questLocation": "Gullwatch Reefs",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "A salt-crested wyvern has begun taking catches from the outer ledges. Make the working approach usable without pretending the whole coast must be exterminated. Posted reward: 320 marks.",
+    "mainObjective": "The particular affected approach is made usable by deterring, relocating, defeating or otherwise actually addressing the territorial animal.",
+    "questDesignBrief": "One Salt-Crest Wyvern, level 24–30, visible circling and threatened nesting ground. Signpost the danger before a climb; preparation or partners help. An agreement about fishing times can work if its practical effect is demonstrated.\n\nOffer this finite work through the actual client or a relevant public notice. It starts only on actual agreement. Level guidance 27. Minimum guild badge rank 2. The posted player reward is 320 marks. The native completion effects are its sole payment and experience owner; narration does not add another purse. Settle the actual agreed outcome without mandatory return paperwork unless delivery or review itself matters. Preserve discoveries and losses if an approach fails. Use an achievable finite encounter and actual resources; do not scale named creatures or officials to manufacture an easy win. Newcomers can decline, postpone or withdraw.",
+    "conclusive": true,
+    "completionCondition": {
+      "type": "story",
+      "query": "For the accepted undertaking Guild: A Nest above the Catch, The particular affected approach is made usable by deterring, relocating, defeating or otherwise actually addressing the territorial animal. The participating player has actually achieved that agreed outcome, not merely heard a rumor, stated an intention, observed someone else doing it or claimed a similar earlier success. Recognize a credible alternative that achieves the outcome without forcing the suggested method."
+    },
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 320,
+        "target": "allPlayers"
+      },
+      {
+        "type": "player-experience",
+        "operator": "add",
+        "value": 464,
+        "target": "allPlayers"
+      },
+      {
+        "type": "item-add",
+        "item": "Guild Service Credit",
+        "quantity": 1,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "The Bluecoil Watch": {
+    "name": "The Bluecoil Watch",
+    "questSource": "Mina Takanashi",
+    "questLocation": "Bluecoil Rest",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "Nerathyl’s movements may explain why some boats approach safely while others wake the serpent. Carry out a cautious observation and identify a usable boundary. Posted reward: 380 marks.",
+    "mainObjective": "A real observation establishes evidence for the animal’s behavior and a practical boundary is demonstrated or credibly communicated.",
+    "questDesignBrief": "The fixed level-45 serpent begins asleep unless actual events changed that. Observe from the Distant Mooring. Naturally shed scales are possible finds; theft from its living body is provocation. No requirement to fight it, whisper a password or discover a human intelligence.\n\nOffer this finite work through the actual client or a relevant public notice. It starts only on actual agreement. Level guidance 30. A personal commission, not a guild licence requirement. The posted player reward is 380 marks. The native completion effects are its sole payment and experience owner; narration does not add another purse. Settle the actual agreed outcome without mandatory return paperwork unless delivery or review itself matters. Preserve discoveries and losses if an approach fails. Use an achievable finite encounter and actual resources; do not scale named creatures or officials to manufacture an easy win. Newcomers can decline, postpone or withdraw.",
+    "conclusive": true,
+    "completionCondition": {
+      "type": "story",
+      "query": "For the accepted undertaking The Bluecoil Watch, A real observation establishes evidence for the animal’s behavior and a practical boundary is demonstrated or credibly communicated. The participating player has actually achieved that agreed outcome, not merely heard a rumor, stated an intention, observed someone else doing it or claimed a similar earlier success. Recognize a credible alternative that achieves the outcome without forcing the suggested method."
+    },
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 380,
+        "target": "allPlayers"
+      },
+      {
+        "type": "player-experience",
+        "operator": "add",
+        "value": 500,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "Guild: Ghorvath at the Deepwater Edge": {
+    "name": "Guild: Ghorvath at the Deepwater Edge",
+    "questSource": "Reina Kazehara",
+    "questLocation": "Splinterwake Wreck",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "The kraken Ghorvath threatens the deep approaches. This is a deliberately dangerous hunt for a prepared company, not an ordinary salvage commission. Posted reward: 1600 marks.",
+    "mainObjective": "Ghorvath is actually defeated and no longer threatens the commissioned approaches through this individual’s attacks.",
+    "questDesignBrief": "Explicitly warn that this is a level-55 boss hunt and select it only on a suitable or deliberately harder request. A preparation plan, seaworthy approach and real companions can help. Study, retreat or abandoning the uncompleted hunt remain valid. Do not summon a fresh kraken after its actual defeat or let a distant narration count as victory.\n\nOffer this finite work through the actual client or a relevant public notice. It starts only on actual agreement. Level guidance 50. Minimum guild badge rank 3. The posted player reward is 1600 marks. The native completion effects are its sole payment and experience owner; narration does not add another purse. Settle the actual agreed outcome without mandatory return paperwork unless delivery or review itself matters. Preserve discoveries and losses if an approach fails. Use an achievable finite encounter and actual resources; do not scale named creatures or officials to manufacture an easy win. Newcomers can decline, postpone or withdraw.",
+    "conclusive": true,
+    "completionCondition": {
+      "type": "story",
+      "query": "For the accepted undertaking Guild: Ghorvath at the Deepwater Edge, Ghorvath is actually defeated and no longer threatens the commissioned approaches through this individual’s attacks. The participating player has actually achieved that agreed outcome, not merely heard a rumor, stated an intention, observed someone else doing it or claimed a similar earlier success. Recognize a credible alternative that achieves the outcome without forcing the suggested method."
+    },
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 1600,
+        "target": "allPlayers"
+      },
+      {
+        "type": "player-experience",
+        "operator": "add",
+        "value": 700,
+        "target": "allPlayers"
+      },
+      {
+        "type": "item-add",
+        "item": "Guild Service Credit",
+        "quantity": 1,
+        "target": "allPlayers"
+      },
+      {
+        "type": "item-add",
+        "item": "Ghorvath’s Beak Fragment",
+        "quantity": 1,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "Phoenix Wing: Hold the Line": {
+    "name": "Phoenix Wing: Hold the Line",
+    "questSource": "Ritsu Kurogane",
+    "questLocation": "Phoenix Wing Academy",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "Ritsu Kurogane’s first defensive practical will ask each pair to keep a partner safe through a controlled disruption. Prepare an approach you can actually perform, agree roles with a willing partner, and show what happens when the plan meets resistance.",
+    "mainObjective": "Prepare for and take part in the first defensive practical, then hear the instructor’s feedback.",
+    "questDesignBrief": "Competence and responsibility. Haruki introduces the principles; Ritsu runs a supervised beginner practical. Choose a consenting available partner; Hinae Komori is a possibility, not a forced recruit. Protecting position, using cover, giving a clear warning, interrupting safely or managing a withdrawal can be as useful as a barrier. No advanced spell or victory over a level-15 classmate is required. A staged protected target can replace a partner if necessary. Give the partner an actual preference or difficulty. A flashy solo finish that leaves the protected person exposed is criticized. Honest mistakes permit a correction and new attempt; careless endangerment has consequences. Assess preparation, control and response to the partner, not damage output. This does not replace the existing team-arena job The Line Behind You.\n\nThis is coursework issued after the opening lesson; it has one native completion owner. Agree a modest preparation task and announce when the supervised assessment will happen through the scene. Do not require a literal multi-day wait, formal essay or exact words. Teachers assess work they actually see and communicate what needs attention. Meeting expectations means the current work is adequate; needs improvement names a particular shortcoming and a feasible way to practice or revise; at risk follows serious misconduct or a continuing pattern of neglected responsibilities, not one awkward answer. These are qualitative judgments about the current course, not permanent labels for a person's worth. Feedback can be challenged with actual evidence. Successful repair changes later feedback and opportunities. Recommendations, supervised responsibilities and scarce placements depend on relevant work and conduct, without guaranteeing one outcome for every student.\n\nLet classmates remember only what they experienced: a practical favor, disagreement, a promise or a contribution. A later saved seat or pointed comment should follow the actual exchange, not a preselected romance/rival. Finishing this introductory assessment does not complete the separate original-spell project, familiar exam, thesis or foreign fieldwork.",
+    "conclusive": true,
+    "completionCondition": {
+      "type": "story",
+      "query": "After receiving this assignment, the player actually prepares and takes part in a supervised defensive practical at Phoenix Wing Academy, and the responsible instructor has reviewed the attempt and given concrete feedback. An honest unsuccessful attempt with intelligible feedback counts as finishing this assessment, without falsely calling it a pass. Merely hearing the assignment, promising to attend, watching someone else perform, claiming old work or leaving before participation and review does not complete it."
+    },
+    "onCompleteEffects": [
+      {
+        "type": "player-experience",
+        "operator": "add",
+        "value": 200,
+        "target": "allPlayers"
+      },
+      {
+        "type": "story",
+        "instruction": "Close Phoenix Wing: Hold the Line once with the actual result. The instructor gives specific qualitative feedback: what met expectations, what needs improvement, and a feasible next practice or revision. At-risk standing needs serious misconduct or an established pattern, not a single sincere failure. Show only reactions earned by the actual scene and mention an appropriate next ordinary class, personal follow-up or optional extracurricular without accepting it. Do not announce a pass, friendship, promotion, expedition seat or new ability merely because this quest ended."
+      }
+    ]
+  },
+  "Gryffin Tail: A Claim Worth Testing": {
+    "name": "Gryffin Tail: A Claim Worth Testing",
+    "questSource": "Kei Aoki",
+    "questLocation": "Gryffin Tail Academy",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "Kei Aoki has asked the first-years for a small working hypothesis and an honest test. A clear negative result can be good work. Decide what you want to find out, prepare a feasible method, and show what the evidence supports.",
+    "mainObjective": "Develop a modest testable question, demonstrate or investigate it, and discuss the result with the instructor.",
+    "questDesignBrief": "Intellectual achievement. A beginner can investigate a mundane observation, test an existing cantrip, compare materials, examine a harmless device or document a controlled failure. No original spell or advanced engineering is compulsory. Nahlah Qamar can offer careful observation; Tatsuo Nagase wants a useful result and dislikes expensive materials. Satoru Kanda is a second-year helper, not a fellow first-year, and has his own difficulty with practical performance. Give peers different claims rather than telling the player which hypothesis is correct. Credit a suitable method and an honest interpretation even if the hypothesis fails. A polished unsupported claim, hidden result or fabricated measurement is a real problem. A short demonstration and discussion suffice; no obligatory essay, purchase, guild job or expedition. This is distinct from the existing Blackboard and Polish Versus Proof situations.\n\nThis is coursework issued after the opening lesson; it has one native completion owner. Agree a modest preparation task and announce when the supervised assessment will happen through the scene. Do not require a literal multi-day wait, formal essay or exact words. Teachers assess work they actually see and communicate what needs attention. Meeting expectations means the current work is adequate; needs improvement names a particular shortcoming and a feasible way to practice or revise; at risk follows serious misconduct or a continuing pattern of neglected responsibilities, not one awkward answer. These are qualitative judgments about the current course, not permanent labels for a person's worth. Feedback can be challenged with actual evidence. Successful repair changes later feedback and opportunities. Recommendations, supervised responsibilities and scarce placements depend on relevant work and conduct, without guaranteeing one outcome for every student.\n\nLet classmates remember only what they experienced: a practical favor, disagreement, a promise or a contribution. A later saved seat or pointed comment should follow the actual exchange, not a preselected romance/rival. Finishing this introductory assessment does not complete the separate original-spell project, familiar exam, thesis or foreign fieldwork.",
+    "conclusive": true,
+    "completionCondition": {
+      "type": "story",
+      "query": "After receiving this assignment, the player actually prepares and takes part in a short research demonstration at Gryffin Tail Academy, and the responsible instructor has reviewed the attempt and given concrete feedback. An honest unsuccessful attempt with intelligible feedback counts as finishing this assessment, without falsely calling it a pass. Merely hearing the assignment, promising to attend, watching someone else perform, claiming old work or leaving before participation and review does not complete it."
+    },
+    "onCompleteEffects": [
+      {
+        "type": "player-experience",
+        "operator": "add",
+        "value": 200,
+        "target": "allPlayers"
+      },
+      {
+        "type": "story",
+        "instruction": "Close Gryffin Tail: A Claim Worth Testing once with the actual result. The instructor gives specific qualitative feedback: what met expectations, what needs improvement, and a feasible next practice or revision. At-risk standing needs serious misconduct or an established pattern, not a single sincere failure. Show only reactions earned by the actual scene and mention an appropriate next ordinary class, personal follow-up or optional extracurricular without accepting it. Do not announce a pass, friendship, promotion, expedition seat or new ability merely because this quest ended."
+      }
+    ]
+  },
+  "Dragon Hoard: Earn Your Place": {
+    "name": "Dragon Hoard: Earn Your Place",
+    "questSource": "Madoka Narukami",
+    "questLocation": "Dragon Hoard Academy",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "Madoka Narukami is assessing how first-years observe, handle uncertainty and work with a partner before later expedition placements are considered. Prepare a sensible plan for a supervised training find, then show how you respond when its condition differs from the notes.",
+    "mainObjective": "Prepare a safe approach to the training find, complete the supervised readiness exercise, and discuss the result.",
+    "questDesignBrief": "Prestige and proven field ability. This is a safe local readiness exercise with a clearly identified training object, not an actual foreign expedition, the level-20 field test or a court-key exam. No portal permission or foreign place is granted. The player can observe, secure the surroundings, request help, identify limits or choose not to touch an uncertain object. Reward a justified stop as readily as a safe recovery. Existing techniques and ordinary tools suffice. Suzune Mikazuki has useful defensive judgment but resents being reduced to her shield; Chiyo Tsukikage is theatrical without secret powers; Yūji Nishimura wants to be useful despite ordinary ability. Ryūka Marufuji is a second-year who can criticize, advise or compete according to the actual exchange. She need not become a friend or an unavoidable rival. Strong work earns credible attention for later opportunities, not a guaranteed scarce expedition berth. Reckless handling, cheating or putting someone at risk affects standing.\n\nThis is coursework issued after the opening lesson; it has one native completion owner. Agree a modest preparation task and announce when the supervised assessment will happen through the scene. Do not require a literal multi-day wait, formal essay or exact words. Teachers assess work they actually see and communicate what needs attention. Meeting expectations means the current work is adequate; needs improvement names a particular shortcoming and a feasible way to practice or revise; at risk follows serious misconduct or a continuing pattern of neglected responsibilities, not one awkward answer. These are qualitative judgments about the current course, not permanent labels for a person's worth. Feedback can be challenged with actual evidence. Successful repair changes later feedback and opportunities. Recommendations, supervised responsibilities and scarce placements depend on relevant work and conduct, without guaranteeing one outcome for every student.\n\nLet classmates remember only what they experienced: a practical favor, disagreement, a promise or a contribution. A later saved seat or pointed comment should follow the actual exchange, not a preselected romance/rival. Finishing this introductory assessment does not complete the separate original-spell project, familiar exam, thesis or foreign fieldwork.",
+    "conclusive": true,
+    "completionCondition": {
+      "type": "story",
+      "query": "After receiving this assignment, the player actually prepares and takes part in a supervised field-readiness exercise at Dragon Hoard Academy, and the responsible instructor has reviewed the attempt and given concrete feedback. An honest unsuccessful attempt with intelligible feedback counts as finishing this assessment, without falsely calling it a pass. Merely hearing the assignment, promising to attend, watching someone else perform, claiming old work or leaving before participation and review does not complete it."
+    },
+    "onCompleteEffects": [
+      {
+        "type": "player-experience",
+        "operator": "add",
+        "value": 200,
+        "target": "allPlayers"
+      },
+      {
+        "type": "story",
+        "instruction": "Close Dragon Hoard: Earn Your Place once with the actual result. The instructor gives specific qualitative feedback: what met expectations, what needs improvement, and a feasible next practice or revision. At-risk standing needs serious misconduct or an established pattern, not a single sincere failure. Show only reactions earned by the actual scene and mention an appropriate next ordinary class, personal follow-up or optional extracurricular without accepting it. Do not announce a pass, friendship, promotion, expedition seat or new ability merely because this quest ended."
+      }
+    ]
+  },
+  "Hydra Head: A Settlement That Holds": {
+    "name": "Hydra Head: A Settlement That Holds",
+    "questSource": "Kana Fujimoto",
+    "questLocation": "Hydra Head Academy",
+    "detailType": "detailed",
+    "status": "hidden",
+    "questStatement": "The first-years will negotiate a shared worksite in a supervised civic exercise. Several people have legitimate needs and limited resources. Find out what they actually require, test a proposal against the practical facts, and explain what remains unresolved.",
+    "mainObjective": "Prepare for the civic exercise, take part in a workable proposal, and hear feedback on its effects and limits.",
+    "questDesignBrief": "Reputation, diplomacy and practical influence. Kana frames the theory; Reon’s Enchantment and Kaoruko’s Herbology provide the worksite’s real constraints. Do not invent a new core Diplomacy professor. The exercise uses assigned roles, actual limits and a modest enchanted garden/work area, not a real city emergency. Strong persuasion cannot create missing water, free labor or consent. A clear partial agreement, documented disagreement or justified alternative can be credible work; universal harmony is not required. Allow directness, listening, practical craft, evidence, negotiation and refusing an unfair premise. The novice need not defeat an older duelist or use an unlearned discipline. Homura Hibino, Gaku Inukai and Bunta Ushijima are second-year helpers with their own interests, not first-year classmates. Use actual first-year incidental students without inventing replacements for established named roles. Assess preparation, credible terms and follow-through; deception that is discovered and promises knowingly made impossible affect standing.\n\nThis is coursework issued after the opening lesson; it has one native completion owner. Agree a modest preparation task and announce when the supervised assessment will happen through the scene. Do not require a literal multi-day wait, formal essay or exact words. Teachers assess work they actually see and communicate what needs attention. Meeting expectations means the current work is adequate; needs improvement names a particular shortcoming and a feasible way to practice or revise; at risk follows serious misconduct or a continuing pattern of neglected responsibilities, not one awkward answer. These are qualitative judgments about the current course, not permanent labels for a person's worth. Feedback can be challenged with actual evidence. Successful repair changes later feedback and opportunities. Recommendations, supervised responsibilities and scarce placements depend on relevant work and conduct, without guaranteeing one outcome for every student.\n\nLet classmates remember only what they experienced: a practical favor, disagreement, a promise or a contribution. A later saved seat or pointed comment should follow the actual exchange, not a preselected romance/rival. Finishing this introductory assessment does not complete the separate original-spell project, familiar exam, thesis or foreign fieldwork.",
+    "conclusive": true,
+    "completionCondition": {
+      "type": "story",
+      "query": "After receiving this assignment, the player actually prepares and takes part in a civic negotiation exercise at Hydra Head Academy, and the responsible instructor has reviewed the attempt and given concrete feedback. An honest unsuccessful attempt with intelligible feedback counts as finishing this assessment, without falsely calling it a pass. Merely hearing the assignment, promising to attend, watching someone else perform, claiming old work or leaving before participation and review does not complete it."
+    },
+    "onCompleteEffects": [
+      {
+        "type": "player-experience",
+        "operator": "add",
+        "value": 200,
+        "target": "allPlayers"
+      },
+      {
+        "type": "story",
+        "instruction": "Close Hydra Head: A Settlement That Holds once with the actual result. The instructor gives specific qualitative feedback: what met expectations, what needs improvement, and a feasible next practice or revision. At-risk standing needs serious misconduct or an established pattern, not a single sincere failure. Show only reactions earned by the actual scene and mention an appropriate next ordinary class, personal follow-up or optional extracurricular without accepting it. Do not announce a pass, friendship, promotion, expedition seat or new ability merely because this quest ended."
+      }
+    ]
   }
 }

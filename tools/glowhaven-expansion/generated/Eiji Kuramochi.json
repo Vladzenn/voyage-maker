@@ -1,0 +1,10 @@
+{
+  "name": "Eiji Kuramochi",
+  "file": "world-draft/npc portraits/Glowhaven Expansion/Eiji Kuramochi.png",
+  "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-83d31a3f-3c0e-4567-ba3b-f76331c82eb8.png",
+  "sha256": "daada504b239c3602a0dca9fbfc7e98b30216681e8afe9009924ddb4855e5738",
+  "width": 1024,
+  "height": 1536,
+  "method": "built-in image_gen, one pass",
+  "outputHint": "Generated images are saved to C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401 as C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-83d31a3f-3c0e-4567-ba3b-f76331c82eb8.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

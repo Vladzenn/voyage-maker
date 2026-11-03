@@ -1,0 +1,200 @@
+{
+  "status": "Implemented; final delivery/validation receipts accompany the canonical world",
+  "base": "C:/Users/VladCodes/.codex/attachments/2b7db2b6-97a4-4028-94ed-bc2695877ee2/Pasted text.txt",
+  "authority": "Latest Studio export owns all supplied images, x/y positions, region grid, existing content and order",
+  "grid": [
+    5,
+    4
+  ],
+  "scope": {
+    "newNpcs": 28,
+    "existingPlaceholderLocations": 14,
+    "glowhavenRegions": 20,
+    "newQuestsTarget": 24,
+    "newArcs": 0,
+    "newItemsTarget": 32,
+    "newNpcTypesTarget": 16,
+    "newStarts": 2,
+    "linkedStorylines": 2,
+    "academyAssignments": 4,
+    "selectedPortraits": 29
+  },
+  "decisions": [
+    "Stop the generated labeling image; no further annotation generation or correction.",
+    "Rename region Northeast district to Northwest District. It is the actual top-left tile.",
+    "Preserve local x/y on all six orphan locations while repairing their parent region keys.",
+    "Use ordinary native quests with one completion/reward owner. Triggers are for exact mechanical needs, not each conversation.",
+    "Generate and officially upload portraits for all 28 new NPCs; preserve all existing valid portraits.",
+    "Use default portrait style for ordinary new humanoids even when their occupation is adventuring. Five explicit exceptions: three creatures, captain and first mate.",
+    "Captain: tall muscular mature-adult fae woman, long hair, large butterfly wings, broad saber, gruff exuberance and fierce generosity. Independent adventurer/salvager.",
+    "First mate: hyperactive eager young-adult dragonkin woman; same adventuring/salvage crew.",
+    "Blue serpent: level 45, animal-like, sleeping at one fixed location; behavior can be studied. Not a roaming beginner encounter.",
+    "Giant turtle: level 60, passive unless provoked; peaceful shell care/injury/nesting quest route.",
+    "Kraken: level 55, bounded ocean roaming; do not move during actual scene, combat or after defeat.",
+    "Bookable small boats, optional owned boat access, and longer excursions aboard the captain's ship. Keep actual transactions in Marks.",
+    "Abbey follows one deity; choose a fitting original local religious tradition consistent with existing broader faith lore.",
+    "Add shipboard and abbey-related starts. Preserve and repair Brookmeadow's existing start.",
+    "The cliff is a quiet scenic date spot with no resident authored NPC, as specified in the export.",
+    "Do not alter Spider Realm content or launch other planned arcs/realms.",
+    "Nerathyl uses native Asleep/Awake named portrait variants. Select the author-requested corrected awake image; no automatic reset on return.",
+    "Use two linked native coastal questlines instead of two extra global arcs after the Crucible semantic budget probe reached 17/15.",
+    "Retain town/guild suggestion goals and ensemble-focused academy classmates; no player-centered reaction panel."
+  ],
+  "orphanRegions": {
+    "Brookmeadow": "brookmeadowVillage",
+    "Glowhaven Farmlands": "farmlands",
+    "Shadowspire": "farmlands",
+    "Pinewater Woods": "forests in west",
+    "windmill": "west of village",
+    "an old guardtower": "southwest forests"
+  },
+  "castOutline": [
+    {
+      "name": "Nerathyl",
+      "role": "Fixed sleeping blue serpent",
+      "level": 45,
+      "specialPortrait": true
+    },
+    {
+      "name": "Mauruun",
+      "role": "Passive giant turtle",
+      "level": 60,
+      "specialPortrait": true
+    },
+    {
+      "name": "Ghorvath",
+      "role": "Roaming kraken",
+      "level": 55,
+      "specialPortrait": true
+    },
+    {
+      "name": "Reina Kazehara",
+      "role": "Butterfly-fae captain and salvager",
+      "level": 36,
+      "specialPortrait": true
+    },
+    {
+      "name": "Mio Tatsunami",
+      "role": "Young-adult dragonkin first mate",
+      "level": 23,
+      "specialPortrait": true
+    },
+    {
+      "name": "Daigo Umetsu",
+      "role": "Ship boatswain, painstaking knot enthusiast",
+      "level": 26
+    },
+    {
+      "name": "Nanae Kogure",
+      "role": "Ship cook, cheerfully spiteful card player",
+      "level": 18
+    },
+    {
+      "name": "Sōji Hamada",
+      "role": "Quartermaster, miserly lover of expensive shoes",
+      "level": 24
+    },
+    {
+      "name": "Iris Mornay",
+      "role": "Salvage diver, collected foreign high elf",
+      "level": 29
+    },
+    {
+      "name": "Chizuru Hoshikawa",
+      "role": "Abbey superior, devout and socially competitive",
+      "level": 28
+    },
+    {
+      "name": "Lucette Bellanger",
+      "role": "Abbey healer, blunt affectionate high elf",
+      "level": 27
+    },
+    {
+      "name": "Eiji Kuramochi",
+      "role": "Adult novice gardener, loves frightening ghost stories",
+      "level": 12
+    },
+    {
+      "name": "Tamae Shibano",
+      "role": "Hospice steward, sentimental about terrible romances",
+      "level": 20
+    },
+    {
+      "name": "Yorina Tsugawa",
+      "role": "Rural alchemist, brilliant at mixtures and poor at sales",
+      "level": 25
+    },
+    {
+      "name": "Shūhei Kusanagi",
+      "role": "Windmill owner, meticulous and stubborn",
+      "level": 16
+    },
+    {
+      "name": "Fuyuka Kusanagi",
+      "role": "Miller's adult sister and mechanic, lazy but incisive",
+      "level": 18
+    },
+    {
+      "name": "Kōzō Hinoura",
+      "role": "Lighthouse keeper, former sailor and inveterate gossip",
+      "level": 24
+    },
+    {
+      "name": "Saki Hinoura",
+      "role": "Keeper's adult granddaughter, hopeful signal technician",
+      "level": 15
+    },
+    {
+      "name": "Makiho Akitsu",
+      "role": "Reef fisher and skiff operator, vain and fearless about ordinary things",
+      "level": 22
+    },
+    {
+      "name": "Rinako Matsuba",
+      "role": "Farmer, widowed parent, laughs loudly and remembers debts",
+      "level": 17
+    },
+    {
+      "name": "Kenta Matsuba",
+      "role": "Farmer's adult son, wants to perform rather than inherit",
+      "level": 11
+    },
+    {
+      "name": "Uta Nekoyama",
+      "role": "Beastkin poacher, charming and selfish",
+      "level": 21
+    },
+    {
+      "name": "Daisaku Minobe",
+      "role": "Estuary boatwright, patient with timber and bad with guests",
+      "level": 23
+    },
+    {
+      "name": "Mina Takanashi",
+      "role": "Wetland field naturalist, ambitious and tactless",
+      "level": 24
+    },
+    {
+      "name": "Hirotaka Fushimi",
+      "role": "Retired guard at old lookout, snobbish about amateur tracking",
+      "level": 28
+    },
+    {
+      "name": "Kanna Enozaki",
+      "role": "Caravan broker and fence, helpful until profit conflicts",
+      "level": 25
+    },
+    {
+      "name": "Brina Flintmere",
+      "role": "Dwarven coastal survey adventurer, enthusiastic climber",
+      "level": 27
+    },
+    {
+      "name": "Yūsei Hatanaka",
+      "role": "Human survey partner, nervous and good under actual pressure",
+      "level": 24
+    }
+  ],
+  "baseSHA256": "3ca9d50499de8014f1abace585ecb1b4463543f348b6a9410b2b47418fd48691",
+  "canonicalBeforeSHA256": "4da8e98a2202370e02255e2cae00d5f822b2d1054261a634ce33effb0391756c"
+}

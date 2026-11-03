@@ -1,0 +1,10 @@
+{
+  "name": "Yorina Tsugawa",
+  "file": "world-draft/npc portraits/Glowhaven Expansion/Yorina Tsugawa.png",
+  "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-2c6daff4-e685-43fa-905a-50436d947658.png",
+  "sha256": "ac4ae4960a3d7030737067127554e6498606af72bf648174d82283bb5abce041",
+  "width": 1024,
+  "height": 1536,
+  "method": "built-in image_gen, one pass",
+  "outputHint": "Generated images are saved to C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401 as C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-2c6daff4-e685-43fa-905a-50436d947658.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

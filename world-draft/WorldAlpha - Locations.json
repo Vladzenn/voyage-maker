@@ -1,11 +1,11 @@
 {
   "Phoenix Wing Academy": {
     "name": "Phoenix Wing Academy",
-    "basicInfo": "Red pennants snap above dueling rings and noticeboards crowded with cooking contests and field-partner requests. Visitors can ask about lessons, book supervised practice, consult instructors, or watch a legal bout. Kōhei Sanada handles academic permissions; Ritsu Kurogane teaches Magical Combat, Haruki Saitō teaches Magic Theory, and Ranka Kagari teaches Potions & Alchemy. Akane Todo is the academy's Archon, with duties beyond its reception desk.\n\nIts public-service training emphasizes defense, readiness, threat assessment, and supervised protective fieldwork. Posted expedition opportunities require actual court authorization and do not deputize students. Every student must complete expedition beyond the Glowhaven region training; the academy can explain requirements without forcing an assignment on a visitor.\n\nCore subjects: Magic Theory — Haruki Saitō; Magical Combat — Ritsu Kurogane; Potions & Alchemy — Ranka Kagari. Common principles feed into supervised duels and laboratory practice. Students can connect an explanation to a controlled fight or test a formula with actual ingredients. New first-years are already admitted when the year opens: they collect a timetable, attend the headmaster’s welcome, and begin required morning lessons. Afternoons are normally free.",
-    "x": -17,
-    "y": 12,
+    "basicInfo": "Red pennants snap above dueling rings and noticeboards crowded with cooking contests and field-partner requests. Visitors can ask about lessons, book supervised practice, consult instructors, or watch a legal bout. Kōhei Sanada handles academic permissions; Ritsu Kurogane teaches Magical Combat, Haruki Saitō teaches Magic Theory, and Ranka Kagari teaches Potions & Alchemy. Akane Todo is the academy's Archon, with duties beyond its reception desk.\n\nIts public-service training emphasizes defense, readiness, threat assessment, and supervised protective fieldwork. Posted expedition opportunities require actual court authorization and do not deputize students. Every student must complete expedition beyond the Glowhaven region training; the academy can explain requirements without forcing an assignment on a visitor.\n\nCore subjects: Magic Theory — Haruki Saitō; Magical Combat — Ritsu Kurogane; Potions & Alchemy — Ranka Kagari. Common principles feed into supervised duels and laboratory practice. Students can connect an explanation to a controlled fight or test a formula with actual ingredients. New first-years are already admitted when the year opens: they collect a timetable, attend the headmaster’s welcome, and begin required morning lessons. Afternoons include preparation, partner work and scheduled practicals, with breaks and optional activities around those responsibilities.",
+    "x": 25,
+    "y": -43,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Northwest District",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -256,11 +256,11 @@
   },
   "Hydra Head Academy": {
     "name": "Hydra Head Academy",
-    "basicInfo": "Violet awnings shade garden paths and broad tables where apparently incompatible people keep working together. Visitors can arrange consultations, observe demonstrations, discuss commissions, or join invited practice. Kiyoko Fujinami manages the school day with Reika Saionji. Kaoruko Hanazono teaches Herbology, Reon Fujisaki Enchantment, and Kana Fujimoto Magic Theory.\n\nPublic projects connect diplomacy, trade, logistics, mediation, and community assistance with broad magical and combat education. An approved expedition can need negotiation or provisioning as much as a fight. Court authorization and actual supervision are required; helpful mediation is not a judicial ruling.\n\nCore subjects: Magic Theory — Kana Fujimoto; Enchantment — Reon Fujisaki; Herbology — Kaoruko Hanazono. General theory supports material enchantments and plant work with useful applications in care, craft, trade and public projects. Instructors retain their own methods and flaws. New first-years are already admitted when the year opens: they collect a timetable, attend the headmaster’s welcome, and begin required morning lessons. Afternoons are normally free.",
-    "x": 17,
-    "y": 9,
+    "basicInfo": "Violet awnings shade garden paths and broad tables where apparently incompatible people keep working together. Visitors can arrange consultations, observe demonstrations, discuss commissions, or join invited practice. Kiyoko Fujinami manages the school day with Reika Saionji. Kaoruko Hanazono teaches Herbology, Reon Fujisaki Enchantment, and Kana Fujimoto Magic Theory.\n\nPublic projects connect diplomacy, trade, logistics, mediation, and community assistance with broad magical and combat education. An approved expedition can need negotiation or provisioning as much as a fight. Court authorization and actual supervision are required; helpful mediation is not a judicial ruling.\n\nCore subjects: Magic Theory — Kana Fujimoto; Enchantment — Reon Fujisaki; Herbology — Kaoruko Hanazono. General theory supports material enchantments and plant work with useful applications in care, craft, trade and public projects. Instructors retain their own methods and flaws. New first-years are already admitted when the year opens: they collect a timetable, attend the headmaster’s welcome, and begin required morning lessons. Afternoons include preparation, partner work and scheduled practicals, with breaks and optional activities around those responsibilities.",
+    "x": -29,
+    "y": -41,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Harbor District",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -513,11 +513,11 @@
   },
   "Gryffin Tail Academy": {
     "name": "Gryffin Tail Academy",
-    "basicInfo": "Cyan banners hang above orderly lecture corridors, a sheltered reading garden, and a much less quiet training court. Visitors can attend announced lectures, request research access, arrange consultations, or find a study partner. Norio Shibata handles records and appointments. Gen'ichirō Mizuhara controls senior academic policy; professors retain individual priorities and methods.\n\nIts research infrastructure is the most advanced of the four academies, with their sole formal magitech research specialization. Integrated engineering differs from an ordinary enchanted item. Supervised field investigations and court-authorized expeditions connect measurements to study; weak mana-transfer prototypes are research, not reliable medical equipment.\n\nCore subjects: Magic Theory — Kei Aoki; Magical Engineering — Sōichirō Takamine; Magical Arts — Ririka Kujō. The theoretical course supports measured device work and expressive application. Engineering treats integrated magical/mechanical systems; arts gives the research-heavy campus a visibly different kind of classroom. New first-years are already admitted when the year opens: they collect a timetable, attend the headmaster’s welcome, and begin required morning lessons. Afternoons are normally free.",
-    "x": -17,
-    "y": -8,
+    "basicInfo": "Cyan banners hang above orderly lecture corridors, a sheltered reading garden, and a much less quiet training court. Visitors can attend announced lectures, request research access, arrange consultations, or find a study partner. Norio Shibata handles records and appointments. Gen'ichirō Mizuhara controls senior academic policy; professors retain individual priorities and methods.\n\nIts research infrastructure is the most advanced of the four academies, with their sole formal magitech research specialization. Integrated engineering differs from an ordinary enchanted item. Supervised field investigations and court-authorized expeditions connect measurements to study; weak mana-transfer prototypes are research, not reliable medical equipment.\n\nCore subjects: Magic Theory — Kei Aoki; Magical Engineering — Sōichirō Takamine; Magical Arts — Ririka Kujō. The theoretical course supports measured device work and expressive application. Engineering treats integrated magical/mechanical systems; arts gives the research-heavy campus a visibly different kind of classroom. New first-years are already admitted when the year opens: they collect a timetable, attend the headmaster’s welcome, and begin required morning lessons. Afternoons include preparation, partner work and scheduled practicals, with breaks and optional activities around those responsibilities.",
+    "x": 26,
+    "y": 11,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Southwest District",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -766,11 +766,11 @@
   },
   "Dragon Hoard Academy": {
     "name": "Dragon Hoard Academy",
-    "basicInfo": "Yellow-and-gold displays fill the entrance gallery with working models, ambitious prototypes, and occasional apologetic notices. Visitors can inspect demonstrations, request supervised equipment tests, or find repair referrals. Miyu Asahina manages approvals. Madoka Narukami teaches Spellcraft, Genzō Iwakura Magical Creatures, and Noriaki Takatsuki Magic Theory.\n\nExploration and relic work shape field preparation, discovery assessment, careful handling, and return logistics. Its founder-shaped strict traditions coexist with the actual varied cast. Expeditions require court authorization; a find can call for documentation or preservation rather than removal, and discovery does not establish ownership.\n\nCore subjects: Magic Theory — Noriaki Takatsuki; Spellcraft — Madoka Narukami; Magical Creatures — Genzō Iwakura. Procedure, repeatable casting and creature knowledge support field preparation. Ordinary lessons can use observations, specimen records and careful demonstrations without requiring an expedition every time. New first-years are already admitted when the year opens: they collect a timetable, attend the headmaster’s welcome, and begin required morning lessons. Afternoons are normally free.",
-    "x": 22,
-    "y": -9,
+    "basicInfo": "Yellow-and-gold displays fill the entrance gallery with working models, ambitious prototypes, and occasional apologetic notices. Visitors can inspect demonstrations, request supervised equipment tests, or find repair referrals. Miyu Asahina manages approvals. Madoka Narukami teaches Spellcraft, Genzō Iwakura Magical Creatures, and Noriaki Takatsuki Magic Theory.\n\nExploration and relic work shape field preparation, discovery assessment, careful handling, and return logistics. Its founder-shaped strict traditions coexist with the actual varied cast. Expeditions require court authorization; a find can call for documentation or preservation rather than removal, and discovery does not establish ownership.\n\nCore subjects: Magic Theory — Noriaki Takatsuki; Spellcraft — Madoka Narukami; Magical Creatures — Genzō Iwakura. Procedure, repeatable casting and creature knowledge support field preparation. Ordinary lessons can use observations, specimen records and careful demonstrations without requiring an expedition every time. New first-years are already admitted when the year opens: they collect a timetable, attend the headmaster’s welcome, and begin required morning lessons. Afternoons include preparation, partner work and scheduled practicals, with breaks and optional activities around those responsibilities.",
+    "x": 9,
+    "y": 13,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Southeast District",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -1024,10 +1024,10 @@
   "The Grand Sage's Court": {
     "name": "The Grand Sage's Court",
     "basicInfo": "Public galleries lead toward an audience hall, council chamber, and offices where petitions acquire stamps and consequences. Visitors can submit evidence, seek hearings, or arrange authorized audiences. Ilyra Stillglass is not automatically available to every arrival.",
-    "x": 0,
-    "y": 17,
+    "x": -21,
+    "y": -14,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Evertree District",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -1100,10 +1100,10 @@
   "Cloud District": {
     "name": "Cloud District",
     "basicInfo": "A mostly residential district around the Grand Sage's Court. Its polished streets and fine homes mark the upper civic neighborhood.",
-    "x": 5,
-    "y": 14,
+    "x": 13,
+    "y": -27,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Evertree District",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -1147,10 +1147,10 @@
   "Merchant's Row": {
     "name": "Merchant's Row",
     "basicInfo": "A commercial row east of Four Sages Bazaar, lined with shops and busy pedestrian approaches.\n\nMerchant's Row Bench Workshop is available by agreement: 850 marks for the property purchase. Ask Nae Komorida to inspect it and confirm the actual terms before paying.",
-    "x": 8,
-    "y": -2,
+    "x": 44,
+    "y": 34,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Artisan Quarter",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -1206,10 +1206,10 @@
   "East City Gate": {
     "name": "East City Gate",
     "basicInfo": "The eastern gate links the walled city with its harbor-side approaches and the shore. Guards check traffic as people move between city and coast.",
-    "x": 31,
-    "y": 1,
+    "x": 27,
+    "y": 42,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Southeast District",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -1261,10 +1261,10 @@
   "West City Gate": {
     "name": "West City Gate",
     "basicInfo": "The western gate opens from Glowhaven toward the wilderness and caravan road. Its guarded arch marks the last stretch of city paving.",
-    "x": -32,
-    "y": 1,
+    "x": -11,
+    "y": 38,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Southwest District",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -1315,11 +1315,11 @@
   },
   "Caravan Outpost": {
     "name": "Caravan Outpost",
-    "basicInfo": "A practical roadside stop just beyond the west gate, serving caravans, traveling merchants, and people preparing for the road.",
-    "x": -41,
-    "y": -8,
+    "basicInfo": "A practical staging stop beside the southern Pinewater roads. Merchants rest loads, arrange onward hauling and compare road conditions before continuing toward the city or the countryside.",
+    "x": 35,
+    "y": -22,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Pinewater Vale",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -1367,10 +1367,10 @@
   "The Emberfox Hot Spring": {
     "name": "The Emberfox Hot Spring",
     "basicInfo": "A rural hot spring in the outskirts, owned by a fox beastkin. Warm pools and a modest bathing house offer a quiet retreat.",
-    "x": -38,
-    "y": 18,
+    "x": -21,
+    "y": -43,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Northwest District",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -1413,10 +1413,10 @@
   "Greywatch Keep": {
     "name": "Greywatch Keep",
     "basicInfo": "Broken stone encloses the overgrown yard of an obsolete founding-era outpost. It has no active garrison or official use. Osamu Iseki sometimes visits to sketch masonry; accessible approaches allow surveys, drawings, and discussions of the old defenses. Weathered masonry and the loose Upper Walk are the principal risks. Cracked stone overhangs the old stair, while the open yard offers space for a cautious survey.",
-    "x": -28,
-    "y": 25,
+    "x": -31,
+    "y": -21,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Northwest District",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -1473,10 +1473,10 @@
   "Saltmere": {
     "name": "Saltmere",
     "basicInfo": "A small village on an island near the eastern harbor. Houses cluster close to the water and the working shore.",
-    "x": 20,
-    "y": 22,
+    "x": -32,
+    "y": -19,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Whitecrest Isles",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -1523,10 +1523,10 @@
   "The Everlight Public Library": {
     "name": "The Everlight Public Library",
     "basicInfo": "Reading lamps illuminate shared desks and shelves polished by generations of hands. Lucien Delorme helps beginners and scholars locate useful sources. Public reading is free; copying, loan deposits, private manuscripts, and restricted access have separate conditions. Lucien Delorme can discuss paid afternoon shelving and qualified copying work around academy classes.",
-    "x": -11,
-    "y": -12,
+    "x": -29,
+    "y": 21,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Artisan Quarter",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -1573,11 +1573,11 @@
   },
   "Brookmeadow": {
     "name": "Brookmeadow",
-    "basicInfo": "A small rural town south of the city along the road from the main gate. Homes and working plots cluster around the route.",
-    "x": -5,
-    "y": -37,
+    "basicInfo": "A small rural town in Glowhaven’s southeastern river country. Its green, mill lanes and working plots welcome locals, returning travelers and people finding a new place in village life.",
+    "x": -24,
+    "y": 12,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Brookmeadow Vale",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -1624,10 +1624,10 @@
   "The Jade Cup Teahouse": {
     "name": "The Jade Cup Teahouse",
     "basicInfo": "A city teahouse offering a calm place to share tea and conversation away from busier streets.",
-    "x": 11,
-    "y": -14,
+    "x": -31,
+    "y": -2,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Southeast District",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -1674,10 +1674,10 @@
   "Four Sages Bazaar": {
     "name": "Four Sages Bazaar",
     "basicInfo": "Water splashes around the founders' monument as stallkeepers call over baskets and display charms. Rinpei Komatsu performs illusion demonstrations near the fountain and can give directions or introduce actual tradespeople. The arcades offer shopping, notices, and public meeting places.",
-    "x": 0,
-    "y": 1,
+    "x": 11,
+    "y": 36,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Artisan Quarter",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -1743,10 +1743,10 @@
   "The Eternal Crucible": {
     "name": "The Eternal Crucible",
     "basicInfo": "Painted boundaries divide the tournament floor beneath steep public stands. Tomoe Enokida coordinates the work behind the spectacle. Visitors can watch announced bouts, ask about entry conditions, book approved practice, or seek event work.\n\nActive tournament duels prohibit mana potions and external stored-mana assistance. Ordinary control catalysts remain permissible under that rule. Officials can stop a match for emergency medical treatment; evidence and the announced competition procedure govern an actual infringement.\n\nThe Competitor Lounge, Infirmary and Practice Gallery remain open between championships. Individual cups have announced fields and prizes; entry is voluntary. Shōgo Mizutani officiates, Hina Wakabayashi handles announcements, and Nozomi Hayase and Gorō Azuma offer appropriate care. An unharmed competitor can simply rest or continue.",
-    "x": 11,
-    "y": 4,
+    "x": 47,
+    "y": 42,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Artisan Quarter",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -1859,10 +1859,10 @@
   "Whitecrest Harbor": {
     "name": "Whitecrest Harbor",
     "basicInfo": "Cargo chains clink above salt-darkened steps. Kaito Minato coordinates cargo handling and points travelers toward passenger desks, claims, and controlled sailings. Visitors can seek dock work, verify manifests, book passage, or ask about weather-dependent routes.",
-    "x": 21,
-    "y": 16,
+    "x": 16,
+    "y": -33,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Harbor District",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -1915,10 +1915,10 @@
   "East Greyfield": {
     "name": "East Greyfield",
     "basicInfo": "The eastern part of Greyfield, a poor settlement outside the city walls to the south. Narrow lanes and close-set homes reflect limited means.",
-    "x": -11,
-    "y": -27,
+    "x": 27,
+    "y": -39,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Artisan Quarter",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -1961,10 +1961,10 @@
   "West Greyfield": {
     "name": "West Greyfield",
     "basicInfo": "The western part of Greyfield, west of East Greyfield. Poor homes and rough lanes continue the settlement outside the southern walls.",
-    "x": -25,
-    "y": -20,
+    "x": 29,
+    "y": -25,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Southwest District",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -2007,10 +2007,10 @@
   "Main City Gate": {
     "name": "Main City Gate",
     "basicInfo": "Glowhaven's largest gate stands at the southernmost edge of the city, forming its main threshold to the south road.",
-    "x": 0,
-    "y": -26,
+    "x": -40,
+    "y": -28,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Southeast District",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -2062,10 +2062,10 @@
   "The Grand Approach": {
     "name": "The Grand Approach",
     "basicInfo": "A broad, straight city road running north from the Main City Gate to Four Sages Bazaar. Its long sightline makes it a major public route.",
-    "x": 0,
-    "y": -9,
+    "x": 37,
+    "y": 2,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Artisan Quarter",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -2126,10 +2126,10 @@
   "Briarcrest Manor": {
     "name": "Briarcrest Manor",
     "basicInfo": "A substantial manor currently for sale. Its formal rooms and grounds are ready to be viewed by prospective buyers.",
-    "x": 15,
-    "y": 14,
+    "x": 49,
+    "y": -22,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Evertree District",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -2181,10 +2181,10 @@
   "Willowbend Residential District": {
     "name": "Willowbend Residential District",
     "basicInfo": "A middle-class and working-class housing district within the city. Everyday services and shared lanes keep it active beyond the workday.\n\nWillowbend Courtyard Cottage is available by agreement: 1200 marks for the property purchase. Ask Nae Komorida to inspect it and confirm the actual terms before paying.",
-    "x": 6,
-    "y": -7,
+    "x": -40,
+    "y": 13,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Southeast District",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -2239,10 +2239,10 @@
   "City Guard Headquarters": {
     "name": "City Guard Headquarters",
     "basicInfo": "Public reports arrive at Tetsuya Ōmi's desk while officers cross toward briefings and the yard. The City Guard patrols streets, investigates ordinary crimes, and makes lawful arrests. Visitors can report incidents, identify recovered property, or ask about summonses.",
-    "x": -10,
-    "y": 9,
+    "x": -20,
+    "y": 42,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Artisan Quarter",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -2299,10 +2299,10 @@
   "Stargarden Manor": {
     "name": "Stargarden Manor",
     "basicInfo": "The Great Sage's residence. The manor provides private living spaces as well as rooms for receiving a small number of guests.",
-    "x": -12,
-    "y": 15,
+    "x": 48,
+    "y": -28,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Northwest District",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -2363,10 +2363,10 @@
   "The Grand Ascent": {
     "name": "The Grand Ascent",
     "basicInfo": "The monumental staircase rises from Four Sages Bazaar to the Grand Sage's Court. Broad landings break the climb and overlook the city.",
-    "x": 0,
-    "y": 12,
+    "x": -8,
+    "y": -36,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Evertree District",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -2436,10 +2436,10 @@
   "The Wandering Quill": {
     "name": "The Wandering Quill",
     "basicInfo": "A stationery shop serving students, clerks, and anyone who needs paper or writing tools.",
-    "x": -21,
-    "y": 7,
+    "x": 9,
+    "y": -40,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Evertree District",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -2486,10 +2486,10 @@
   "Bramble & Bottle": {
     "name": "Bramble & Bottle",
     "basicInfo": "A city potion shop where bottled preparations are arranged for browsing and purchase.",
-    "x": -23,
-    "y": 8,
+    "x": 19,
+    "y": -38,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Evertree District",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -2532,10 +2532,10 @@
   "The Gilded Griffin": {
     "name": "The Gilded Griffin",
     "basicInfo": "A fine jewelry shop with polished displays and a formal atmosphere.",
-    "x": -25,
-    "y": 7,
+    "x": 34,
+    "y": -24,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Evertree District",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -2582,10 +2582,10 @@
   "Wayfarer's Goods": {
     "name": "Wayfarer's Goods",
     "basicInfo": "A city shop for travelers, with practical supplies for road journeys and time away from home.",
-    "x": -4,
-    "y": 6,
+    "x": 47,
+    "y": 33,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Southwest District",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -2629,10 +2629,10 @@
   "Crooked Tankard": {
     "name": "Crooked Tankard",
     "basicInfo": "Benji Takarada's taproom is loud enough for laughter and arranged well enough for a quiet hearth-side conversation. It serves meals, drinks, introductions, and occasional paid help with a busy evening. A filling meal costs 3 marks and a modest drink 2.",
-    "x": 11,
-    "y": -4,
+    "x": -32,
+    "y": 43,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Southeast District",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -2690,9 +2690,9 @@
     "name": "Roseberry Inn",
     "basicInfo": "Supper reaches the common room before its plates do. Noriko Hanesawa offers beds, meals, directions, and limited introductions to people who use her inn. A shared bunk costs 6 marks and a plain private room 12 per night. Noriko Hanesawa can arrange paid afternoon room turnover and common-room work around a student timetable.\n\nRoseberry Attic Room is available by agreement: 30 marks for the quoted paid stay. Ask the Roseberry Inn proprietor to inspect it and confirm the actual terms before paying.",
     "x": -11,
-    "y": -2,
+    "y": 11,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Artisan Quarter",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -2772,10 +2772,10 @@
   "Driftstone Isle": {
     "name": "Driftstone Isle",
     "basicInfo": "An inhabited island off Glowhaven's coast, with a small community linked to the water and rocky ground.",
-    "x": 29,
-    "y": 25,
+    "x": 19,
+    "y": 0,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Whitecrest Isles",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -2827,10 +2827,10 @@
   "Pinewake Coast": {
     "name": "Pinewake Coast",
     "basicInfo": "A stretch of coast where pines meet the shoreline, with open views across the water and quiet places along the beach. The tide pools and headland have slippery stone, incoming water and occasional loose rock. A dry upper approach is safer than treating every exposed shelf as a permanent path.",
-    "x": 15,
-    "y": 26,
+    "x": -23,
+    "y": -2,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Harbor District",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -2878,10 +2878,10 @@
   "Clovermead": {
     "name": "Clovermead",
     "basicInfo": "A distant farming settlement north of the city, with a few houses among broad fields. It is reached by boat rather than an ordinary city road.",
-    "x": 28,
-    "y": 32,
+    "x": 24,
+    "y": 12,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Harbor District",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -2937,10 +2937,10 @@
   "Pebblewick": {
     "name": "Pebblewick",
     "basicInfo": "A small coastal town outside Glowhaven's walls, set near the shore and close to the water.",
-    "x": 35,
-    "y": -10,
+    "x": 42,
+    "y": -6,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Southeast District",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -2996,10 +2996,10 @@
   "Crescent Shores": {
     "name": "Crescent Shores",
     "basicInfo": "The eastern beaches form a curved stretch of open shoreline, with dunes and sheltered coves along the coast.",
-    "x": 39,
-    "y": -16,
+    "x": -44,
+    "y": -24,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Crescent Coast",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -3051,10 +3051,10 @@
   "Seabreeze Inn": {
     "name": "Seabreeze Inn",
     "basicInfo": "An inn in Pebblewick where visitors can find a meal and an overnight room close to the coast.",
-    "x": 36,
+    "x": -41,
     "y": -3,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Crescent Coast",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -3114,11 +3114,11 @@
   },
   "Glowhaven Farmlands": {
     "name": "Glowhaven Farmlands",
-    "basicInfo": "Tracks run between grain, vegetables, and irrigation channels that flash in the sun. Takumi Hatano organizes channel work and knows which growers share each run. Visitors can seek seasonal labor, buy produce by arrangement, or inspect a blocked branch.",
-    "x": 10,
-    "y": -34,
+    "basicInfo": "Grain, vegetables and irrigation strips spread beyond Greyfield and the southern city roads. Takumi Hatano organizes shared channel work, seasonal labor and produce arrangements among the growers.",
+    "x": -23,
+    "y": 14,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Greenfield Farmlands",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -3174,11 +3174,11 @@
   },
   "Hermit's hut": {
     "name": "Hermit's hut",
-    "basicInfo": "A small hut on a tree-covered mountain far south of the city. Its remote setting makes the approach as notable as the dwelling.",
-    "x": -41,
-    "y": -43,
+    "basicInfo": "A small hut stands on a wooded ridge beyond the southwestern city approaches. Its remote-feeling setting and uneven path matter as much as the modest dwelling.",
+    "x": -26,
+    "y": -50,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Southwest District",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -3220,11 +3220,11 @@
   },
   "Pinewater River": {
     "name": "Pinewater River",
-    "basicInfo": "A river near a pine forest on the rural outskirts, not far from Brookmeadow. Its banks offer crossing and resting points.",
-    "x": -33,
-    "y": -33,
+    "basicInfo": "Pinewater winds through the wooded valley south of Glowhaven’s western wards. Bridges, working banks and shallow resting places link Pebbletown with the surrounding farms.",
+    "x": -25,
+    "y": 20,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Pinewater Vale",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -3272,10 +3272,10 @@
   "West Glowhaven Woods": {
     "name": "West Glowhaven Woods",
     "basicInfo": "Woodland outside Glowhaven's western walls, with shaded paths leading away from the city. The outer track is commonly used. The deeper clearing contains boar feeding scrapes and predator paths; leaving the maintained edge can bring travelers face to face with territorial animals.",
-    "x": -44,
-    "y": 11,
+    "x": -38,
+    "y": 13,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Southwest District",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -3323,10 +3323,10 @@
   "Pebbletown": {
     "name": "Pebbletown",
     "basicInfo": "A small town outside Glowhaven's walls to the southwest, with a modest center and nearby homes.",
-    "x": 13,
-    "y": -27,
+    "x": 25,
+    "y": 40,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Pinewater Vale",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -3373,10 +3373,10 @@
   "Sage's Spire": {
     "name": "Sage's Spire",
     "basicInfo": "The Great Sage's tower and office. Workrooms and private meeting spaces give the Sage a place to manage civic and Evertree affairs.",
-    "x": 3,
-    "y": 20,
+    "x": -12,
+    "y": -7,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Evertree District",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -3437,10 +3437,10 @@
   "Violet Thread": {
     "name": "Violet Thread",
     "basicInfo": "Garment rails surround Aya Orimoto's fitting alcove. Customers can seek repairs, practical academy clothing, formal commissions, and alterations based on how an outfit will actually be used. Reika Saionji's commercial interests do not make her permanently present at the counter.",
-    "x": -5,
-    "y": -2,
+    "x": -8,
+    "y": 23,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Artisan Quarter",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -3488,10 +3488,10 @@
   "The Perfumed Rose": {
     "name": "The Perfumed Rose",
     "basicInfo": "Scent strips stand beside sealed preparations in Céline Desrosiers's alchemical shop. Perfumes are the specialty, alongside labeled household goods and limited supplies. Customers can discuss a scent brief, compare samples, or commission a preparation after receiving a quote.",
-    "x": -3,
-    "y": -3,
+    "x": 7,
+    "y": 19,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Artisan Quarter",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -3539,10 +3539,10 @@
   "The Golden Ladle": {
     "name": "The Golden Ladle",
     "basicInfo": "Daichi Kamado serves craftspeople whose tools are still warm from work. Visitors can buy a dependable meal, order packed food, or compare commissions after a shift. A plain meal costs 2 marks, a substantial supper 4, and a packed lunch 3. Daichi Kamado can arrange paid afternoon kitchen preparation and cleanup after required classes.",
-    "x": -22,
-    "y": -3,
+    "x": 44,
+    "y": 21,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Southwest District",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -3599,10 +3599,10 @@
   "The Farmer's Exchange": {
     "name": "The Farmer's Exchange",
     "basicInfo": "Produce carts crowd balances, chalk prices, and damp sacking. Aoi Yonekura checks weights, negotiates loads, and introduces buyers to actual growers. Residents can buy staples, seek delivery work, or compare a disputed consignment.",
-    "x": 5,
-    "y": 3,
+    "x": 22,
+    "y": 42,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Artisan Quarter",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -3646,10 +3646,10 @@
   "Rune and Raven's": {
     "name": "Rune and Raven's",
     "basicInfo": "Sample focuses glow behind glass while a workbench clicks behind the counter. Rui Takatori handles fittings and diagnosis; Reiji Takatori demonstrates accessories and adaptations. Customers can test a focus with permission, request a written estimate, or compare modest equipment with expensive alternatives.",
-    "x": -21,
-    "y": 3,
+    "x": -43,
+    "y": -33,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Evertree District",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -3697,10 +3697,10 @@
   "Moonwhisker Emporium": {
     "name": "Moonwhisker Emporium",
     "basicInfo": "Perches, carriers, feed bins, and carefully spaced enclosures serve ordinary pets and magical companions. Mihoko Nekozawa offers supplies and practical care consultations. A summoned creature's needs depend on its nature; magic does not excuse neglect.",
-    "x": -25,
-    "y": 3,
+    "x": 35,
+    "y": -28,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Northwest District",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -3748,10 +3748,10 @@
   "Blackstone Smithy": {
     "name": "Blackstone Smithy",
     "basicInfo": "Forge heat rolls past a counter stacked with hinges, blades, and practical hardware. Kazuo Kurogaki handles durable metalwork, tools, and honest repair estimates. Customers can commission a part or bring failed equipment for inspection.",
-    "x": -26,
-    "y": -2,
+    "x": -8,
+    "y": -3,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Artisan Quarter",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -3799,10 +3799,10 @@
   "The Silver Anvil": {
     "name": "The Silver Anvil",
     "basicInfo": "Finished metalwork gleams beyond Shōko Shirogane's consultation desk while harder noises come from the workroom. Formal commissions, finishing, and inspections consider fit, use, material, and delivery time.",
-    "x": -26,
-    "y": -9,
+    "x": -28,
+    "y": 0,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Artisan Quarter",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -3850,10 +3850,10 @@
   "The Carpenter's Measure": {
     "name": "The Carpenter's Measure",
     "basicInfo": "A woodworking and carpentry shop serving the city with crafted pieces and practical work.",
-    "x": -22,
-    "y": -12,
+    "x": -46,
+    "y": 2,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Artisan Quarter",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -3896,10 +3896,10 @@
   "Hide & Hammer": {
     "name": "Hide & Hammer",
     "basicInfo": "A city leatherworks shop with a public display area and workshop for cutting and finishing leather goods.",
-    "x": -15,
-    "y": -17,
+    "x": -26,
+    "y": -16,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Artisan Quarter",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -3942,10 +3942,10 @@
   "Eastbloom Residences": {
     "name": "Eastbloom Residences",
     "basicInfo": "Middle-class homes beside Dragon Hoard Academy, slightly more polished than average city housing. Residents' association rules are famously strict.",
-    "x": 28,
-    "y": -3,
+    "x": 20,
+    "y": 29,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Southeast District",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -3992,10 +3992,10 @@
   "Rosetimber Suburbs": {
     "name": "Rosetimber Suburbs",
     "basicInfo": "A pleasant residential neighborhood beside the Cloud District. Residents are wealthier than the middle class but outside the noble district; association rules are stricter still.",
-    "x": 11,
-    "y": 17,
+    "x": -21,
+    "y": -28,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Harbor District",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -4042,10 +4042,10 @@
   "The Compassmaker": {
     "name": "The Compassmaker",
     "basicInfo": "Small mechanisms tick beside partly repaired compasses and labeled drawers. Seiji Haguruma diagnoses trinkets, replaces modest parts, and explains a device's limits before selling it. Customers may request an estimate or help reproduce an intermittent fault.",
-    "x": 15,
-    "y": -6,
+    "x": -24,
+    "y": 25,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Southeast District",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -4089,10 +4089,10 @@
   "Pinewater Woods": {
     "name": "Pinewater Woods",
     "basicInfo": "Woodland beside Pinewater River, with pine-shaded paths and easy access to the riverbank. Silk tied between low branches marks hunting pockets off the pine trail. The open river edge remains a usable way to observe or pass without walking into every thicket.",
-    "x": -39,
-    "y": -21,
+    "x": 6,
+    "y": 31,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Westpine Forest",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -4140,10 +4140,10 @@
   "The Winding Lowlands": {
     "name": "The Winding Lowlands",
     "basicInfo": "A far rural region of winding rivers and broad lakes, with a very small town among scattered homesteads. The Small Town Green is inhabited and ordinarily peaceful. Beyond it, riverbanks and crop margins can bring travelers into feeding animals or hazardous water.",
-    "x": -16,
-    "y": 27,
+    "x": 19,
+    "y": -2,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Northwest District",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -4209,10 +4209,10 @@
   "Shadowspire": {
     "name": "Shadowspire",
     "basicInfo": "An undiscovered forested location around a wizard's tower of unknown ownership. Travelers lose their way while trying to approach; the tower cannot be entered.",
-    "x": 42,
-    "y": -33,
+    "x": 46,
+    "y": 43,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Greenfield Farmlands",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -4260,10 +4260,10 @@
   "House Goldbarrow Estate": {
     "name": "House Goldbarrow Estate",
     "basicInfo": "The estate of a noble house, with formal grounds and a residence set apart from the city's busier streets.",
-    "x": 8,
-    "y": 11,
+    "x": 35,
+    "y": -34,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Evertree District",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -4315,10 +4315,10 @@
   "The Magistrate's Hall": {
     "name": "The Magistrate's Hall",
     "basicInfo": "Petitioners wait under tall windows as clerks carry files between counters and hearings. Naoki Fudemura explains filing, authorized copies, and notices; magistrates make judgments. Residents may report disputes, answer summonses, seek an advocate, or request their own case records.",
-    "x": -5,
-    "y": 15,
+    "x": -31,
+    "y": -30,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Evertree District",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -4380,10 +4380,10 @@
   "The Arcane Emporium": {
     "name": "The Arcane Emporium",
     "basicInfo": "Glowhaven's largest and fanciest magic shop, with elaborate displays and a polished high-end shopping experience.",
-    "x": -16,
-    "y": 4,
+    "x": -24,
+    "y": -38,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Evertree District",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -4436,10 +4436,10 @@
   "Evertree Base": {
     "name": "Evertree Base",
     "basicInfo": "Controlled palace approaches lead to roots where dense mana is almost tangible. Authorized researchers and maintenance personnel can make approved observations or assist a defined task. Strength, academy membership, and a casual palace visit do not grant entry. Its Portal Room provides controlled travel to Drakenspire Mountains and Asterveil Sky Archipelago. Passage can be arranged for authorized expeditions and other actual permitted travel; transit access does not grant research access to the tree or palace. Its Portal Room is Glowhaven’s sole portal hub: every external return arch lands here, inside this location. Its ordinary network also serves Akitsuhara through Benitsuru Portal Shrine.",
-    "x": 0,
-    "y": 20,
+    "x": -27,
+    "y": -7,
     "radius": 3,
-    "region": "Glowhaven",
+    "region": "Evertree District",
     "complexityType": "complex",
     "detailType": "detailed",
     "areas": {
@@ -4506,10 +4506,10 @@
   "Wraith Island": {
     "name": "Wraith Island",
     "basicInfo": "A rocky offshore island on Glowhaven's coastal map. Skullshore Landing receives approved boats and supplies before the controlled approach to the prison campus. Mirei Shiozaki handles authorized trips and checks weather, manifests, and permissions. Wraith Island Prison is the separate realm reached through an actual admitted crossing.",
-    "x": 42,
+    "x": -30,
     "y": 27,
     "radius": 2,
-    "region": "Glowhaven",
+    "region": "Whitecrest Isles",
     "complexityType": "complex",
     "detailType": "detailed",
     "initialKnown": false,
@@ -10866,10 +10866,10 @@
   },
   "Adventurer's Guild - Glowhaven Branch": {
     "name": "Adventurer's Guild - Glowhaven Branch",
-    "x": 18,
-    "y": 3,
+    "x": 45,
+    "y": 21,
     "radius": 3,
-    "region": "Glowhaven",
+    "region": "Artisan Quarter",
     "complexityType": "complex",
     "detailType": "detailed",
     "initialKnown": true,
@@ -12564,8 +12564,8 @@
     "name": "Snowcedar Refuge",
     "basicInfo": "A low stone refuge has warm sleeping benches, a soup pot and an attended weather board. Its keepers distinguish a difficult crossing from an impossible one. Nearby routes lead toward Snowcedar Signal Hut, Frost-Eave Approach.",
     "hiddenInfo": "LOCAL PLAY: Safe inhabited services; ordinary visits do not spawn a fight. For voluntary beginner work use a level 1–3 weak nuisance, one active hostile initially, not an elite or a concealed pack. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Sana Kuroiwa is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Yoriko Abe is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation. Takane Shibata is an established local participant; reuse this actual record when the role is needed. Presence follows actual placement, not an automatic party invitation.",
-    "x": -27,
-    "y": -28,
+    "x": -31,
+    "y": 15,
     "radius": 1.5,
     "region": "Snowcedar Heights",
     "complexityType": "complex",
@@ -12672,8 +12672,8 @@
     "name": "White Antler Basin",
     "basicInfo": "A sheltered basin contains white antler-shaped stone and sparse winter grazing. The quiet is broken by scraping under the snow rather than birdsong. Nearby routes lead toward Sleeping Lake Cavern, Rime Bridge.",
     "hiddenInfo": "LOCAL PLAY: Respect signs, actual occupants and an available retreat. The local band describes ordinary new encounters, not a required fight. Habitats can use these actual npcTypes when appropriate: Snowburrow Mukade. Generate a finite encounter, preserve its actual outcome, and do not replace cleared creatures on a return. Use the specific current local situation, actual cast and agreed scope. Public news is not automatic acceptance, recruitment or permission. Existing residents and resolved outcomes persist. Potential unresolved situation: Snowburrow Mukade disturbed the camp from below. Careful shelter work and tracking can rescue the porters without chasing the creature into its deepest tunnel. No automatic death merely because the player took time to prepare. The associated voluntary undertaking is Akitsuhara Guild: More Than Footprints.",
-    "x": -16,
-    "y": -22,
+    "x": 2,
+    "y": 23,
     "radius": 1.5,
     "region": "Snowcedar Heights",
     "complexityType": "complex",
@@ -17353,6 +17353,622 @@
         },
         "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/4f6f2241-cdfe-4def-9995-5aa2cd6c06b2.png"
       }
+    }
+  },
+  "The Gilded Albatross": {
+    "name": "The Gilded Albatross",
+    "basicInfo": "An ornate but hard-used sailing ship rides at a charted anchorage. Its butterfly-winged captain takes salvage work and agreed voyages, while crew members mend gear, cook and argue over their shares. Passage, employment and joining an expedition are separate arrangements.",
+    "x": -33,
+    "y": -35,
+    "radius": 2,
+    "region": "Bluecoil Reach",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "initialKnown": true,
+    "hiddenInfo": "Local opportunities and ecology: Sailcloth Moth, Mooring Mimic. Aboard is a working household. Pests or salvage complications occur through real causes and can be addressed without spawning a fight every visit. Crew are not automatically recruited. Use the actual scene, relevant NPC types and the party’s real experience. These are possible situations, not an instruction to generate all of them at arrival. Authored people and the three named creatures retain their own power. Travel encounters remain separate from exploration within the location.",
+    "areas": {
+      "The Gilded Albatross - Boarding Landing": {
+        "description": "A boat comes alongside a rope ladder and guarded boarding rail. Visitors announce their business before climbing aboard.",
+        "paths": [
+          "The Gilded Albatross - Main Deck",
+          "The Gilded Albatross - Quarterdeck",
+          "The Gilded Albatross - Galley",
+          "The Gilded Albatross - Salvage Hold",
+          "The Gilded Albatross - Crew Passage"
+        ]
+      },
+      "The Gilded Albatross - Main Deck": {
+        "description": "Coiled ropes leave clear working lanes between the masts. Sailors repair canvas, secure loads and exchange news without stopping the ship’s work.",
+        "paths": [
+          "The Gilded Albatross - Boarding Landing",
+          "The Gilded Albatross - Quarterdeck"
+        ]
+      },
+      "The Gilded Albatross - Quarterdeck": {
+        "description": "A broad rail overlooks the sails and sea. Reina Kazehara discusses routes and terms here when she is not needed elsewhere.",
+        "paths": [
+          "The Gilded Albatross - Boarding Landing",
+          "The Gilded Albatross - Main Deck",
+          "The Gilded Albatross - Galley"
+        ]
+      },
+      "The Gilded Albatross - Galley": {
+        "description": "A swinging kettle hangs beside a compact stove and well-lashed stores. Nanae Kogure feeds the crew and guards her best seasoning.",
+        "paths": [
+          "The Gilded Albatross - Boarding Landing",
+          "The Gilded Albatross - Quarterdeck",
+          "The Gilded Albatross - Salvage Hold"
+        ]
+      },
+      "The Gilded Albatross - Salvage Hold": {
+        "description": "Tagged crates, drying equipment and a small inspection table occupy the hold. Stored finds remain under their actual owner’s custody.",
+        "paths": [
+          "The Gilded Albatross - Boarding Landing",
+          "The Gilded Albatross - Galley",
+          "The Gilded Albatross - Crew Passage"
+        ]
+      },
+      "The Gilded Albatross - Crew Passage": {
+        "description": "Cabin doors and hammocks line a narrow, airy passage. Visiting passengers receive an agreed berth; other cabins remain private.",
+        "paths": [
+          "The Gilded Albatross - Boarding Landing",
+          "The Gilded Albatross - Salvage Hold"
+        ]
+      }
+    },
+    "npcLevelRange": {
+      "min": 15,
+      "max": 36
+    }
+  },
+  "Splinterwake Wreck": {
+    "name": "Splinterwake Wreck",
+    "basicInfo": "A broken merchant hull lies among sharp eastern rocks. Low water exposes cargo spaces, but the approaches bear gouges far below the tide line. Large disturbances sometimes move through the surrounding water; an ordinary salvage trip need not challenge their source.",
+    "x": 13,
+    "y": 35,
+    "radius": 2,
+    "region": "Moonarch Shoals",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "initialKnown": false,
+    "hiddenInfo": "Local opportunities and ecology: Barnacle Brute, Undertow Eel, Mooring Mimic. Use finite groups of one to three fitting creatures, with room to observe or retreat. The level-55 authored kraken is a separate optional deepwater danger; never replace it with a fresh generated duplicate. Check actual Ghorvath placement and state before involving it. Use the actual scene, relevant NPC types and the party’s real experience. These are possible situations, not an instruction to generate all of them at arrival. Authored people and the three named creatures retain their own power. Travel encounters remain separate from exploration within the location.",
+    "areas": {
+      "Splinterwake Wreck - Outer Anchorage": {
+        "description": "Sound water lies beyond the submerged spars. Boats can wait, observe the swell and choose whether to approach.",
+        "paths": [
+          "Splinterwake Wreck - Broken Deck",
+          "Splinterwake Wreck - Flooded Hold",
+          "Splinterwake Wreck - Deepwater Edge"
+        ]
+      },
+      "Splinterwake Wreck - Broken Deck": {
+        "description": "Tilted planks and snapped ribs rise above the water. Lashings, safe footing and the changing tide matter more than speed.",
+        "paths": [
+          "Splinterwake Wreck - Outer Anchorage",
+          "Splinterwake Wreck - Flooded Hold"
+        ]
+      },
+      "Splinterwake Wreck - Flooded Hold": {
+        "description": "Cold water covers loose cargo and low beams. Air, light and an actual way back are necessary for diving.",
+        "paths": [
+          "Splinterwake Wreck - Outer Anchorage",
+          "Splinterwake Wreck - Broken Deck",
+          "Splinterwake Wreck - Deepwater Edge"
+        ]
+      },
+      "Splinterwake Wreck - Deepwater Edge": {
+        "description": "The reef drops suddenly into dark water. Broad suckered marks on timber and unnatural swells warn of a great predator’s passing.",
+        "paths": [
+          "Splinterwake Wreck - Outer Anchorage",
+          "Splinterwake Wreck - Flooded Hold"
+        ]
+      }
+    },
+    "npcLevelRange": {
+      "min": 12,
+      "max": 30
+    }
+  },
+  "Moonarch Isle": {
+    "name": "Moonarch Isle",
+    "basicInfo": "A weathered stone arch and low foundations stand above a small rocky landing. Salt-resistant plants grow between old paving stones. Surveyors can study the remains without assuming the arch is an active portal.",
+    "x": -20,
+    "y": 0,
+    "radius": 2,
+    "region": "Moonarch Shoals",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "initialKnown": true,
+    "hiddenInfo": "Local opportunities and ecology: Inkpot Cuttlefish, Shoalglass Ray, Undertow Eel. The arch is a ruin, not an automatic portal. Low water, stable footing and recorded marks make useful investigation. Sheltered landing encounters can be modest; the flooded undercroft needs preparation. Use the actual scene, relevant NPC types and the party’s real experience. These are possible situations, not an instruction to generate all of them at arrival. Authored people and the three named creatures retain their own power. Travel encounters remain separate from exploration within the location.",
+    "areas": {
+      "Moonarch Isle - Pebble Landing": {
+        "description": "A sheltered shelf offers room to beach a small boat in fair conditions.",
+        "paths": [
+          "Moonarch Isle - Broken Arch",
+          "Moonarch Isle - Tide Crypt",
+          "Moonarch Isle - Offshore Drop"
+        ]
+      },
+      "Moonarch Isle - Broken Arch": {
+        "description": "One stone span still stands above cracked paving. Its surviving carvings reward patient copying rather than force.",
+        "paths": [
+          "Moonarch Isle - Pebble Landing",
+          "Moonarch Isle - Tide Crypt"
+        ]
+      },
+      "Moonarch Isle - Tide Crypt": {
+        "description": "A shallow undercroft opens from the lower foundations. Water stains mark when its passages become unsafe.",
+        "paths": [
+          "Moonarch Isle - Pebble Landing",
+          "Moonarch Isle - Broken Arch"
+        ]
+      },
+      "Moonarch Isle - Offshore Drop": {
+        "description": "Beyond the sheltered landing, the bottom drops into dark water. Heavy swell and broad marks on driftwood warn of deepwater animals.",
+        "paths": [
+          "Moonarch Isle - Pebble Landing"
+        ]
+      }
+    },
+    "npcLevelRange": {
+      "min": 12,
+      "max": 30
+    }
+  },
+  "Stillback Isle": {
+    "name": "Stillback Isle",
+    "basicInfo": "A vast shell rests so quietly among the low rocks that it resembles part of the island. Mauruun grazes, sleeps and watches the water with immense patience. Fishers give the creature room and know better than to mistake stillness for helplessness.",
+    "x": 16,
+    "y": -39,
+    "radius": 2,
+    "region": "Moonarch Shoals",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "initialKnown": true,
+    "hiddenInfo": "Local opportunities and ecology: Tideglass Shrimp, Inkpot Cuttlefish, Hookbeak Gull. Mauruun is the unique resident, not a generated hostile turtle. Quiet arrival does not provoke it. Any finite small wildlife problem must leave its passive baseline intact. Use the actual scene, relevant NPC types and the party’s real experience. These are possible situations, not an instruction to generate all of them at arrival. Authored people and the three named creatures retain their own power. Travel encounters remain separate from exploration within the location.",
+    "areas": {
+      "Stillback Isle - Quiet Landing": {
+        "description": "A small sheltered beach lies away from the creature’s head. Boats can land without stepping onto its resting ground.",
+        "paths": [
+          "Stillback Isle - Shell Garden",
+          "Stillback Isle - Nesting Shelf"
+        ]
+      },
+      "Stillback Isle - Shell Garden": {
+        "description": "Weathered plates hold weed, harmless shell life and patches of old fishing line. The creature’s breathing shifts the ground beneath anyone who climbs aboard.",
+        "paths": [
+          "Stillback Isle - Quiet Landing",
+          "Stillback Isle - Nesting Shelf"
+        ]
+      },
+      "Stillback Isle - Nesting Shelf": {
+        "description": "Warm sand and low rocks form a protected resting shelf. Mauruun reacts strongly to harassment, injury or disturbance here.",
+        "paths": [
+          "Stillback Isle - Quiet Landing",
+          "Stillback Isle - Shell Garden"
+        ]
+      }
+    },
+    "npcLevelRange": {
+      "min": 5,
+      "max": 25
+    }
+  },
+  "Greenrush Estuary": {
+    "name": "Greenrush Estuary",
+    "basicInfo": "Reed channels and pale sandbars divide the river’s meeting with the sea. Working skiffs follow changing water marks between the marsh and the coast. Fish traps, nesting birds and stranded debris offer ordinary work as well as reasons to explore.",
+    "x": 8,
+    "y": -21,
+    "radius": 2,
+    "region": "Greenrush Marshes",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "initialKnown": true,
+    "hiddenInfo": "Local opportunities and ecology: Tideglass Shrimp, Reedlace Sprite, Tangletooth Otter, Brinecap Slime. Shallow-land jobs favor levels 2–8, a single active hostile initially, clear warning and practical alternatives. Deeper optional work can reach 12–18 after actual preparation. Do not turn passive wildlife into attacking packs. Use the actual scene, relevant NPC types and the party’s real experience. These are possible situations, not an instruction to generate all of them at arrival. Authored people and the three named creatures retain their own power. Travel encounters remain separate from exploration within the location.",
+    "areas": {
+      "Greenrush Estuary - Skiff Landing": {
+        "description": "Daisaku Minobe’s timber supports hold small boats above the mud. Repairs and passage are arranged before a hull is taken.",
+        "paths": [
+          "Greenrush Estuary - Reedwalk",
+          "Greenrush Estuary - Sandbar Crossing",
+          "Greenrush Estuary - Field Shelter"
+        ]
+      },
+      "Greenrush Estuary - Reedwalk": {
+        "description": "Raised footing follows a shallow channel where birds nest and fish flash beneath reeds.",
+        "paths": [
+          "Greenrush Estuary - Skiff Landing",
+          "Greenrush Estuary - Sandbar Crossing"
+        ]
+      },
+      "Greenrush Estuary - Sandbar Crossing": {
+        "description": "The exposed bar offers a short route at low tide. Wet stakes and drift lines show how quickly its character changes.",
+        "paths": [
+          "Greenrush Estuary - Skiff Landing",
+          "Greenrush Estuary - Reedwalk",
+          "Greenrush Estuary - Field Shelter"
+        ]
+      },
+      "Greenrush Estuary - Field Shelter": {
+        "description": "Sample jars, drying nets and a weather board crowd a modest covered workbench.",
+        "paths": [
+          "Greenrush Estuary - Skiff Landing",
+          "Greenrush Estuary - Sandbar Crossing"
+        ]
+      }
+    },
+    "npcLevelRange": {
+      "min": 2,
+      "max": 22
+    }
+  },
+  "Thistlebank Alchemy Cottage": {
+    "name": "Thistlebank Alchemy Cottage",
+    "basicInfo": "A low rural cottage smells of bruised herbs and warm copper. Yorina Tsugawa sells preparations by arrangement and complains loudly when customers mistake a difficult recipe for a miracle. A small garden and workroom support a real household as well as her experiments.",
+    "x": 50,
+    "y": -47,
+    "radius": 2,
+    "region": "Pinewater Vale",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "initialKnown": true,
+    "hiddenInfo": "Local opportunities and ecology: Sailcloth Moth, Burdock Lurker. The garden and workroom support small experiments, trade and household life. Do not add another dangerous unstable-potion conspiracy merely because an alchemist is present. Use the actual scene, relevant NPC types and the party’s real experience. These are possible situations, not an instruction to generate all of them at arrival. Authored people and the three named creatures retain their own power. Travel encounters remain separate from exploration within the location.",
+    "areas": {
+      "Thistlebank Alchemy Cottage - Cottage Door": {
+        "description": "Plant trays and clean boots compete for space beneath a patched awning.",
+        "paths": [
+          "Thistlebank Alchemy Cottage - Copper Workroom",
+          "Thistlebank Alchemy Cottage - Herb Plot"
+        ]
+      },
+      "Thistlebank Alchemy Cottage - Copper Workroom": {
+        "description": "A sturdy bench carries labeled jars, a condenser and a basin for safely cooling mixtures.",
+        "paths": [
+          "Thistlebank Alchemy Cottage - Cottage Door",
+          "Thistlebank Alchemy Cottage - Herb Plot"
+        ]
+      },
+      "Thistlebank Alchemy Cottage - Herb Plot": {
+        "description": "Raised beds grow ordinary useful plants alongside a few temperamental magical specimens.",
+        "paths": [
+          "Thistlebank Alchemy Cottage - Cottage Door",
+          "Thistlebank Alchemy Cottage - Copper Workroom"
+        ]
+      }
+    },
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    }
+  },
+  "Wrenhill Windmill": {
+    "name": "Wrenhill Windmill",
+    "basicInfo": "The windmill turns above scattered grain plots on Brookmeadow’s western approach. Customers wait with sacks while Shūhei Kusanagi counts loads and Fuyuka Kusanagi listens for mechanical trouble. Flour dust, local gossip and sibling arguments move through the yard together.",
+    "x": 13,
+    "y": -11,
+    "radius": 2,
+    "region": "Brookmeadow Downs",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "initialKnown": true,
+    "hiddenInfo": "Local opportunities and ecology: Flour Beetle, Sailcloth Moth. A bounded store or machinery problem can occur during actual inspection; stop the machinery before handling a jam. Routine business and the siblings’ own work continue. Use the actual scene, relevant NPC types and the party’s real experience. These are possible situations, not an instruction to generate all of them at arrival. Authored people and the three named creatures retain their own power. Travel encounters remain separate from exploration within the location.",
+    "areas": {
+      "Wrenhill Windmill - Mill Yard": {
+        "description": "Wagons wait clear of the turning machinery and weighing platform.",
+        "paths": [
+          "Wrenhill Windmill - Grinding Floor",
+          "Wrenhill Windmill - Sail Gallery"
+        ]
+      },
+      "Wrenhill Windmill - Grinding Floor": {
+        "description": "Wooden gearing drives covered stones beneath a dust-worn beam. Work stops before anyone handles a jam.",
+        "paths": [
+          "Wrenhill Windmill - Mill Yard",
+          "Wrenhill Windmill - Sail Gallery"
+        ]
+      },
+      "Wrenhill Windmill - Sail Gallery": {
+        "description": "An exposed gallery gives access to the sails and a wide view across the downs.",
+        "paths": [
+          "Wrenhill Windmill - Mill Yard",
+          "Wrenhill Windmill - Grinding Floor"
+        ]
+      }
+    },
+    "npcLevelRange": {
+      "min": 1,
+      "max": 20
+    }
+  },
+  "Old Southwatch": {
+    "name": "Old Southwatch",
+    "basicInfo": "An old lookout stands on a forested southern rise. Hirotaka Fushimi keeps its lower room habitable, mends what he can and considers unsolicited tracking advice an insult. Its view remains useful even though it no longer commands a garrison.",
+    "x": 19,
+    "y": -10,
+    "radius": 2,
+    "region": "Southglade Woods",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "initialKnown": true,
+    "hiddenInfo": "Local opportunities and ecology: Burdock Lurker, Chalkback Ram. The keeper and the ruin have ordinary uses. Any finite wildlife issue belongs to the surrounding path, not an obligatory ambush in his home. Use the actual scene, relevant NPC types and the party’s real experience. These are possible situations, not an instruction to generate all of them at arrival. Authored people and the three named creatures retain their own power. Travel encounters remain separate from exploration within the location.",
+    "areas": {
+      "Old Southwatch - Forest Steps": {
+        "description": "Roots cross the old stone approach; daylight makes the loose sections easy to notice.",
+        "paths": [
+          "Old Southwatch - Keeper’s Room",
+          "Old Southwatch - Lookout Walk"
+        ]
+      },
+      "Old Southwatch - Keeper’s Room": {
+        "description": "A stove, bedroll and carefully maintained tools occupy the lower room.",
+        "paths": [
+          "Old Southwatch - Forest Steps",
+          "Old Southwatch - Lookout Walk"
+        ]
+      },
+      "Old Southwatch - Lookout Walk": {
+        "description": "The upper walk overlooks the forest edge and open plain. Damaged masonry limits where it is safe to stand.",
+        "paths": [
+          "Old Southwatch - Forest Steps",
+          "Old Southwatch - Keeper’s Room"
+        ]
+      }
+    },
+    "npcLevelRange": {
+      "min": 3,
+      "max": 25
+    }
+  },
+  "Bluecoil Rest": {
+    "name": "Bluecoil Rest",
+    "basicInfo": "A great blue serpent sleeps across a remote reef, its body half hidden by clear water. Slow breathing lifts spray against the rocks, while shed scales catch beneath the tide line. Boats can observe from outside its reach; disturbing its resting ground risks waking a formidable animal.",
+    "x": 7,
+    "y": 13,
+    "radius": 2,
+    "region": "Bluecoil Reach",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "initialKnown": false,
+    "hiddenInfo": "Local opportunities and ecology: Kelpclaw Crab, Tideglass Shrimp. Nerathyl is the unique fixed sleeping serpent. Begin with its established current condition; never reset it after actual events. Show its formidable level-45 danger before a close approach. No free surprise strike or automatic awakening from observation at the distant mooring. Use the actual scene, relevant NPC types and the party’s real experience. These are possible situations, not an instruction to generate all of them at arrival. Authored people and the three named creatures retain their own power. Travel encounters remain separate from exploration within the location.",
+    "areas": {
+      "Bluecoil Rest - Distant Mooring": {
+        "description": "A bare outlying rock gives observers a place to secure a boat well away from the sleeping body.",
+        "paths": [
+          "Bluecoil Rest - Scale Shore",
+          "Bluecoil Rest - Serpent Ledge"
+        ]
+      },
+      "Bluecoil Rest - Scale Shore": {
+        "description": "A narrow wash gathers naturally shed scales and drift. Fresh drag marks warn when the serpent has recently moved.",
+        "paths": [
+          "Bluecoil Rest - Distant Mooring",
+          "Bluecoil Rest - Serpent Ledge"
+        ]
+      },
+      "Bluecoil Rest - Serpent Ledge": {
+        "description": "The immense animal’s head and coils occupy the inner rocks. The ledge is its resting place rather than an ordinary landing.",
+        "paths": [
+          "Bluecoil Rest - Distant Mooring",
+          "Bluecoil Rest - Scale Shore"
+        ]
+      }
+    },
+    "npcLevelRange": {
+      "min": 20,
+      "max": 35
+    }
+  },
+  "Beaconrest Lighthouse": {
+    "name": "Beaconrest Lighthouse",
+    "basicInfo": "A red-capped offshore lighthouse guides boats through Whitecrest’s outer channels. Kōzō Hinoura keeps its light and stores in order with help from Saki Hinoura. Visiting crews bring supplies, repairs and more gossip than either keeper admits enjoying.",
+    "x": 42,
+    "y": -10,
+    "radius": 2,
+    "region": "Harbor District",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "initialKnown": true,
+    "hiddenInfo": "",
+    "areas": {
+      "Beaconrest Lighthouse - Supply Jetty": {
+        "description": "A low jetty receives deliveries when the channel is usable.",
+        "paths": [
+          "Beaconrest Lighthouse - Keeper’s Kitchen",
+          "Beaconrest Lighthouse - Lantern Room",
+          "Beaconrest Lighthouse - Signal Balcony"
+        ]
+      },
+      "Beaconrest Lighthouse - Keeper’s Kitchen": {
+        "description": "Tea, charts and a drying rack share a warm little room beside the stores.",
+        "paths": [
+          "Beaconrest Lighthouse - Supply Jetty",
+          "Beaconrest Lighthouse - Lantern Room"
+        ]
+      },
+      "Beaconrest Lighthouse - Lantern Room": {
+        "description": "Polished lenses surround a maintained light assembly. Its working parts are handled with the keepers’ permission.",
+        "paths": [
+          "Beaconrest Lighthouse - Supply Jetty",
+          "Beaconrest Lighthouse - Keeper’s Kitchen",
+          "Beaconrest Lighthouse - Signal Balcony"
+        ]
+      },
+      "Beaconrest Lighthouse - Signal Balcony": {
+        "description": "Colored shutters and flags face the harbor approaches.",
+        "paths": [
+          "Beaconrest Lighthouse - Supply Jetty",
+          "Beaconrest Lighthouse - Lantern Room"
+        ]
+      }
+    },
+    "npcLevelRange": {
+      "min": 1,
+      "max": 24
+    }
+  },
+  "Starlark Abbey": {
+    "name": "Starlark Abbey",
+    "basicInfo": "White stone and a small bell tower rise above the southern river. The abbey is devoted to Avelune, Lady of Returning Light, and combines worship with a working hospice, gardens and guest rooms. Visitors need not share the faith to receive ordinary welcome or care.",
+    "x": 21,
+    "y": -36,
+    "radius": 2,
+    "region": "Seaward Bluffs",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "initialKnown": true,
+    "hiddenInfo": "",
+    "areas": {
+      "Starlark Abbey - Pilgrim Court": {
+        "description": "Travelers wait beside a water basin and a shaded bench while attendants arrange beds or introductions.",
+        "paths": [
+          "Starlark Abbey - Chapel of Returning Light",
+          "Starlark Abbey - Hospice",
+          "Starlark Abbey - Kitchen Garden",
+          "Starlark Abbey - Guest Wing"
+        ]
+      },
+      "Starlark Abbey - Chapel of Returning Light": {
+        "description": "Lamps burn beneath a pale star-and-lantern image. Prayer and ceremony have their own rhythms beyond the day’s work.",
+        "paths": [
+          "Starlark Abbey - Pilgrim Court",
+          "Starlark Abbey - Hospice"
+        ]
+      },
+      "Starlark Abbey - Hospice": {
+        "description": "Clean linen, screens and herb-scented water surround a small number of beds. Patients are people with privacy, not an audience for every visitor.",
+        "paths": [
+          "Starlark Abbey - Pilgrim Court",
+          "Starlark Abbey - Chapel of Returning Light",
+          "Starlark Abbey - Kitchen Garden"
+        ]
+      },
+      "Starlark Abbey - Kitchen Garden": {
+        "description": "Useful herbs and vegetables grow along narrow paths watched over by Eiji Kuramochi.",
+        "paths": [
+          "Starlark Abbey - Pilgrim Court",
+          "Starlark Abbey - Hospice",
+          "Starlark Abbey - Guest Wing"
+        ]
+      },
+      "Starlark Abbey - Guest Wing": {
+        "description": "Plain rooms and a shared table shelter pilgrims, workers and people recovering from a difficult journey.",
+        "paths": [
+          "Starlark Abbey - Pilgrim Court",
+          "Starlark Abbey - Kitchen Garden"
+        ]
+      }
+    },
+    "npcLevelRange": {
+      "min": 1,
+      "max": 28
+    }
+  },
+  "Gullwatch Reefs": {
+    "name": "Gullwatch Reefs",
+    "basicInfo": "Low eastern reefs support nesting seabirds and pools bright with small marine life. Fishers know the usable channels and places to collect modest materials. Slippery stone and an incoming tide can turn an easy outing into a practical rescue.",
+    "x": 25,
+    "y": -24,
+    "radius": 2,
+    "region": "Crescent Coast",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "initialKnown": true,
+    "hiddenInfo": "Local opportunities and ecology: Hookbeak Gull, Kelpclaw Crab, Shoalglass Ray, Salt-Crest Wyvern. The sheltered pools support levels 3–8 and noncombat collection. Exposed high nests are a separate deliberately approached level 24–30 hazard. Mark that difference through tracks, circling and local advice before danger. Use the actual scene, relevant NPC types and the party’s real experience. These are possible situations, not an instruction to generate all of them at arrival. Authored people and the three named creatures retain their own power. Travel encounters remain separate from exploration within the location.",
+    "areas": {
+      "Gullwatch Reefs - Boat Shelf": {
+        "description": "A shallow rocky shelf offers a temporary landing in fair water.",
+        "paths": [
+          "Gullwatch Reefs - Tide Pools",
+          "Gullwatch Reefs - Gull Ledges"
+        ]
+      },
+      "Gullwatch Reefs - Tide Pools": {
+        "description": "Clear pools hold small creatures and useful shell fragments. Disturbing a nest can bring more trouble than the collection is worth.",
+        "paths": [
+          "Gullwatch Reefs - Boat Shelf",
+          "Gullwatch Reefs - Gull Ledges"
+        ]
+      },
+      "Gullwatch Reefs - Gull Ledges": {
+        "description": "High shelves overlook the channels and nesting grounds.",
+        "paths": [
+          "Gullwatch Reefs - Boat Shelf",
+          "Gullwatch Reefs - Tide Pools"
+        ]
+      }
+    },
+    "npcLevelRange": {
+      "min": 3,
+      "max": 22
+    }
+  },
+  "Longgrass Crossroads": {
+    "name": "Longgrass Crossroads",
+    "basicInfo": "Three dirt roads meet between the northern approaches, river bridge and Brookmeadow’s western downs. A worn shelter gives travelers room to rest without blocking carts. News, lost animals and the occasional dishonest bargain pass through with the traffic.",
+    "x": -29,
+    "y": 49,
+    "radius": 2,
+    "region": "Brookmeadow Downs",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "initialKnown": true,
+    "hiddenInfo": "",
+    "areas": {
+      "Longgrass Crossroads - Way Shelter": {
+        "description": "A plain roof shelters a bench, water jar and a small space for travelers’ notices.",
+        "paths": [
+          "Longgrass Crossroads - Cart Verge",
+          "Longgrass Crossroads - Riverward Track"
+        ]
+      },
+      "Longgrass Crossroads - Cart Verge": {
+        "description": "Wagons can pull off the road here to change a wheel or compare routes.",
+        "paths": [
+          "Longgrass Crossroads - Way Shelter",
+          "Longgrass Crossroads - Riverward Track"
+        ]
+      },
+      "Longgrass Crossroads - Riverward Track": {
+        "description": "The southern branch follows open ground toward the bridge and village approach.",
+        "paths": [
+          "Longgrass Crossroads - Way Shelter",
+          "Longgrass Crossroads - Cart Verge"
+        ]
+      }
+    },
+    "npcLevelRange": {
+      "min": 1,
+      "max": 20
+    }
+  },
+  "Seaward Overlook": {
+    "name": "Seaward Overlook",
+    "basicInfo": "A quiet grassy cliff looks out across the coast. Wind moves through the trees above a sheltered sitting place, while the exposed edge rewards care. Couples, walkers and solitary visitors can enjoy the view without finding a resident host.",
+    "x": 32,
+    "y": 2,
+    "radius": 2,
+    "region": "Seaward Bluffs",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "initialKnown": true,
+    "hiddenInfo": "",
+    "areas": {
+      "Seaward Overlook - Sheltered Grass": {
+        "description": "A low bank blocks some of the wind and leaves room to sit together.",
+        "paths": [
+          "Seaward Overlook - Sea Ledge"
+        ]
+      },
+      "Seaward Overlook - Sea Ledge": {
+        "description": "The open ledge gives a broad view of water and distant sails; its edge remains unguarded.",
+        "paths": [
+          "Seaward Overlook - Sheltered Grass"
+        ]
+      }
+    },
+    "npcLevelRange": {
+      "min": 1,
+      "max": 15
     }
   }
 }

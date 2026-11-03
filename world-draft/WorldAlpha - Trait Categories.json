@@ -176,7 +176,8 @@
       "Smuggling Past",
       "Former Burglar",
       "Former Confidence Trickster",
-      "Time Served"
+      "Time Served",
+      "Self-Taught Spell Experimenter"
     ],
     "subcategories": [
       {
@@ -206,6 +207,12 @@
           "Former Burglar",
           "Former Confidence Trickster",
           "Time Served"
+        ]
+      },
+      {
+        "name": "Study and Experiment",
+        "traits": [
+          "Self-Taught Spell Experimenter"
         ]
       }
     ]
@@ -1022,6 +1029,10 @@
         "traits": [
           "Outfit — Academy student",
           "Outfit — Academy faculty",
+          "Outfit — Phoenix Wing uniform",
+          "Outfit — Hydra Head uniform",
+          "Outfit — Gryffin Tail uniform",
+          "Outfit — Dragon Hoard uniform",
           "Outfit — Traveling layers",
           "Outfit — Mage robes",
           "Outfit — Field coat",
@@ -1177,10 +1188,10 @@
   },
   "Portrait Style": {
     "name": "Portrait Style",
-    "description": "Optional — skip for the default crisp, colorful 2D fantasy-anime style. All choices remain hand-drawn anime; none changes abilities or equipment.",
+    "description": "Optional — skip for our default fantasy RPG character illustration: fine anime drawing, soft layered shading, detailed outfits and luminous lighting. Alternative styles change the picture, not the character’s abilities.",
     "maxSelections": 1,
     "traits": [
-      "Portrait Style — Crisp fantasy anime",
+      "Portrait Style — Fantasy RPG illustration",
       "Portrait Style — Dramatic gacha illustration",
       "Portrait Style — Shonen action",
       "Portrait Style — Romcom warmth",
@@ -1192,7 +1203,7 @@
       {
         "name": "Default",
         "traits": [
-          "Portrait Style — Crisp fantasy anime"
+          "Portrait Style — Fantasy RPG illustration"
         ]
       },
       {

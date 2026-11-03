@@ -7,6 +7,7 @@ Repository: [Vladzenn/voyage-maker](https://github.com/Vladzenn/voyage-maker) (p
 ## Current project
 
 - **Canonical world:** [world-draft/WorldAlpha - World.json](world-draft/WorldAlpha%20-%20World.json)
+- **Glowhaven Expanded:** [public notes](world-draft/Glowhaven%20Expanded%20-%20Patch%20Notes.md), [mechanics, map migration and live tests](world-draft/Glowhaven%20Expanded%20-%20Development%20Notes.md)
 - **Current state and next work:** [docs/CURRENT_STATE.md](docs/CURRENT_STATE.md)
 - **Champions of the Crucible:** [public notes](world-draft/Champions%20of%20the%20Crucible%20-%20Patch%20Notes.md), [current bracket mechanics](world-draft/Crucible%20Bracket%20-%20Mechanics.md)
 - **Beginner contracts and fieldwork:** [scope, references and playtest checklist](research/Beginner%20Contracts%20and%20Fieldwork%20-%202026-11-02.md), bundled with the unreleased Crucible announcement
@@ -37,6 +38,7 @@ node tools/test_adventurers.cjs
 node tools/test_creation.cjs
 node tools/test_crucible.cjs
 node tools/test_oni.cjs
+node tools/test_glowhaven_expansion.cjs
 python tools/project.py publish -m "Describe the completed change"
 ```
 

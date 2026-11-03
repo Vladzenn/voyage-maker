@@ -1,0 +1,12 @@
+{
+  "name": "Nerathyl",
+  "state": "Awake",
+  "file": "world-draft/npc portraits/Glowhaven Expansion/States/Nerathyl - Awake.png",
+  "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-cc01f79b-e817-4963-9bf8-073732d098ff.png",
+  "sha256": "6a30221f089167e10a3f322880f485a995cbdff2e197309dbc34afa79258fd89",
+  "width": 1024,
+  "height": 1536,
+  "method": "built-in image_gen; author-requested correction after first awake image intersected stone",
+  "promptFile": "tools/glowhaven-expansion/serpent-state-correction-prompt.txt",
+  "editTarget": "C:/Users/VladCodes/.codex/generated_images/01a17305-2d48-70b1-b79e-b29a5a6a2401/exec-1d8c0e2f-e3a1-4e96-bba9-3ec991ce376b.png"
+}

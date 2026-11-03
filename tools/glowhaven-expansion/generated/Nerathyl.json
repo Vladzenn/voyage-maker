@@ -1,0 +1,10 @@
+{
+  "name": "Nerathyl",
+  "file": "world-draft/npc portraits/Glowhaven Expansion/Nerathyl.png",
+  "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-fea785c9-6eb6-48d6-bf91-bde0d2dcbcfd.png",
+  "sha256": "61ed9d6f601627688378f90a76ba24877b3f4386ec6871ba8c8e1093582157dc",
+  "width": 1024,
+  "height": 1536,
+  "method": "built-in image_gen, one pass",
+  "outputHint": "Generated images are saved to C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401 as C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-fea785c9-6eb6-48d6-bf91-bde0d2dcbcfd.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

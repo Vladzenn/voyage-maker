@@ -1,0 +1,10 @@
+{
+  "name": "Ghorvath",
+  "file": "world-draft/npc portraits/Glowhaven Expansion/Ghorvath.png",
+  "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-503dce59-7f0d-4e55-9ef0-5cd923156bee.png",
+  "sha256": "a6d1d82a8f03e226eef7f8dee39f3890be5c51472ddba78b8b43be17ae2d5b10",
+  "width": 1024,
+  "height": 1536,
+  "method": "built-in image_gen, one pass",
+  "outputHint": "Generated images are saved to C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401 as C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-503dce59-7f0d-4e55-9ef0-5cd923156bee.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

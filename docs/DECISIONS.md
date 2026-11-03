@@ -2,7 +2,13 @@
 
 These notes carry context between desktop and web chats. They supplement the actual JSON and creation guides; newer explicit user instructions take precedence.
 
-## 3 November — author-adjusted Glowhaven master and overlapping detail panels (latest steering)
+## 3 November — eastern ocean extension (latest steering)
+
+The author requests ocean to the east, half the current map width plus a small seam overlap, at the same represented height/camera/scale. The supplied2896 ×2172 assembled/upscaled map owns the boundary. New panel covers1448 source-equivalent pixels of new ocean plus160 of repeated edge; Photoshop placement starts at(2736,0), total intended canvas4344 ×2172. No city/master remake.
+
+Add small islets, a few physical sea-monster sightings and one fancy sailing ship landmark. Use the existing colosseum as scale ruler; do not enlarge built sites or creatures into foreground icons. Preserve the existing Wraith skull island, water/light and boundary fragments; no duplicate islands, giant eastern landmass or extra city. Output dimensions must be reported honestly as generated; Photoshop matching to the user-upscaled height adds no native detail. This is artwork planning/delivery, not new location records, grid implementation or upload.
+
+## 3 November — author-adjusted Glowhaven master and overlapping detail panels
 
 The author's `mastermap.png` and two exact halves own composition and scale. The latest request reauthorizes split generation after the earlier cancellation. Redo both with a narrow overlap: source bounds x0–772 and x676–1448, 96 shared pixels. Preserve the adjusted layout and tiny building footprints; no further speculative full-map rerolls. Generated overlap still needs Photoshop alignment/masking.
 

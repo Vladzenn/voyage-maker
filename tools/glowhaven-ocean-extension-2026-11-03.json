@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-03",
+  "source": "C:\\Users\\VladCodes\\Downloads\\MasterMapOne_upscayl_2x_remacri.png",
+  "sourceDimensions": [
+    2896,
+    2172
+  ],
+  "sourceSHA256": "efce9e8f08c364a77026130484233b09fb95a4e567d3eb82227e28a637e7deb2",
+  "guideDimensions": [
+    1608,
+    2172
+  ],
+  "sourceOverlap": 160,
+  "newOceanWidth": 1448,
+  "sourceBoundsOfOverlap": [
+    2736,
+    0,
+    2896,
+    2172
+  ],
+  "desiredPanelPlacement": [
+    2736,
+    0
+  ],
+  "desiredCompositeDimensions": [
+    4344,
+    2172
+  ],
+  "note": "Left 160 pixels repeat current map; remaining 1448 pixels are new ocean. Guide crops are input preparation only, not delivered artwork.",
+  "mode": "built-in image_gen",
+  "promptManifest": "tools/glowhaven-ocean-extension-prompts-2026-11-03.json",
+  "status": "native extension saved for author review; Photoshop registration/masking required",
+  "output": {
+    "file": "world-draft/map-variations/Glowhaven Ocean Expansion/Glowhaven - Eastern Ocean Extension v1.png",
+    "generatedSource": "exec-845d17a3-1d24-4e7e-9091-cd4accca90a8.png",
+    "dimensions": [
+      1079,
+      1457
+    ],
+    "bytes": 2430456,
+    "sha256": "4f1e7a7917cbf1aa520715ba5f7dd38833357f0113a493736b8e6cdfd361d5c4",
+    "resampled": false
+  },
+  "worldEdited": false,
+  "uploaded": false,
+  "canonicalWorldSHA256": "4DA8E98A2202370E02255E2CAE00D5F822B2D1054261A634CE33EFFB0391756C"
+}

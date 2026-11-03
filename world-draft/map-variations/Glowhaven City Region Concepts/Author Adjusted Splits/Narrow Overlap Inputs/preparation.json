@@ -1,0 +1,37 @@
+{
+  "sourceMaster": "world-draft/map-variations/Glowhaven City Region Concepts/Author Adjusted Splits/Source/master.png",
+  "sourceDimensions": [
+    1448,
+    1086
+  ],
+  "leftBounds": [
+    0,
+    0,
+    772,
+    1086
+  ],
+  "rightBounds": [
+    676,
+    0,
+    1448,
+    1086
+  ],
+  "panelDimensions": [
+    772,
+    1086
+  ],
+  "sharedSourceX": [
+    676,
+    772
+  ],
+  "sharedSourcePixels": 96,
+  "overlapPercentOfPanel": 12.435233160621761,
+  "note": "Narrow center overlap from author master, fully rendered in both panels; no baked fading. Detail generation can shift local geometry; Photoshop seam repair remains necessary.",
+  "sha256": {
+    "Four Sages Fountain.png": "555945f4a3d8fbcf594a8063efa8535d0791ffb46e60b6945ffc48b90c74d027",
+    "left.png": "56af2fdf7ff667362af4a642ae051e359cc85ea58280cde8506ec94deabb55fc",
+    "Original Bazaar Map Crop.png": "18b0c15c6f108e9059bc73e4edd172f8c1b6d742f85d89dcdea5a46afc4a9c79",
+    "Original Evertree.png": "7737610c3ebe66bf8c617012432af9fac09389e5430fb2048f9cad6971aee02c",
+    "right.png": "641336f41bd08c9a5957a18fe3733ca0f62e02a6368bb5dd28eeac469e967462"
+  }
+}

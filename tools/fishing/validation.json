@@ -1,34 +1,40 @@
 {
   "status": "local-checks-passed",
   "latestStudioExport": "366606e8-3528-434f-80b6-fef091104a73",
-  "fullWorldSHA256": "12772d6f57be9516662a2770a39dd5b3e6833dd0cad1fe77017f5b30037c6a61",
+  "fullWorldSHA256": "05cced9382459dc8b77405d796fb5d9ae001bbdfbbffabc0c801e0ffdc5bd3d1",
   "npcCount": 397,
-  "itemCount": 525,
+  "itemCount": 546,
   "questCount": 242,
   "triggerCount": 457,
-  "newFish": 30,
+  "fishSpecies": 51,
+  "newRegionalAndSharedFish": 21,
   "newTackle": 11,
-  "fishingGrounds": 18,
+  "knownCatchHints": 18,
+  "waterEligibility": "Any actual reachable fish-bearing water; no realm/location whitelist",
+  "weatherScope": "Glowhaven only",
   "fishingQuests": 3,
   "checks": {
-    "structural": 24818,
-    "validationTests": 7,
+    "structural": 25182,
+    "validationTests": 8,
     "portraitWorkflowTests": 19,
     "itemMechanics": 1209,
     "fieldwork": 1866,
-    "adventurersAndBudgets": 604,
+    "adventurersAndBudgets": 608,
     "characterCreation": 351,
     "crucible": 2260,
     "oni": 5017,
-    "glowhavenExpansion": 2525,
-    "fishing": 1726
+    "glowhavenExpansion": 2521,
+    "fishing": 1793,
+    "generatorReproduction": 1
   },
   "nativeEngineOrSemanticRecognitionTested": false,
   "liveStudioSaveOrPublication": false,
   "historicalFingerprintFilesChanged": false,
-  "objectiveSchemaFix": {
-    "correctedQuests": 3,
-    "allOtherWorldValuesPreserved": true,
-    "originalStudioRejectionReproduced": true
-  }
+  "questSchemaFix": {
+    "objectiveMapsCorrect": true,
+    "questStatementUsed": true,
+    "completionAndRewardsUnchanged": true
+  },
+  "followUpScopeProof": "tools/fishing/universal-review.json",
+  "delivery": "output/fishing-2026-11-04/The Schools of Magic, Arise! - Universal Fishing.json"
 }

@@ -7031,8 +7031,8 @@
   },
   "Portrait Style — Fantasy RPG illustration": {
     "name": "Portrait Style — Fantasy RPG illustration",
-    "description": "A leading-character fantasy RPG illustration: fine anime linework, softly layered painted shading, detailed clothing and materials, expressive eyes and luminous light.",
-    "traitNarrativeEffects": "A leading-character fantasy RPG illustration: fine anime linework, softly layered painted shading, detailed clothing and materials, expressive eyes and luminous light. Image direction only; preserve the actual identity, species, clothing and equipment. No powers, status or possessions are granted.",
+    "description": "A leading-character fantasy RPG illustration: fine anime linework, clean anime facial shadow shapes, detailed clothing and materials, expressive eyes and luminous light.",
+    "traitNarrativeEffects": "A leading-character fantasy RPG illustration: fine anime linework, clean anime facial shadow shapes, detailed clothing and materials, expressive eyes and luminous light.",
     "attributes": [],
     "skills": [],
     "resources": [],
@@ -7044,8 +7044,8 @@
   },
   "Portrait Style — Dramatic gacha illustration": {
     "name": "Portrait Style — Dramatic gacha illustration",
-    "description": "A lavish anime character key visual with flowing costume, dimensional painted shading, dramatic light and vivid supported magical motifs. Preserve a clear face and an individual silhouette.",
-    "traitNarrativeEffects": "A lavish anime character key visual with flowing costume, dimensional painted shading, dramatic light and vivid supported magical motifs. Preserve a clear face and an individual silhouette. Image direction only; preserve the actual identity, species, clothing and equipment. No powers, status or possessions are granted.",
+    "description": "A lavish anime character key visual with flowing costume, drawn anime features and clean facial shading, dramatic light and vivid supported magical motifs. Preserve a clear face and an individual silhouette.",
+    "traitNarrativeEffects": "A lavish anime character key visual with flowing costume, drawn anime features and clean facial shading, dramatic light and vivid supported magical motifs. Preserve a clear face and an individual silhouette.",
     "attributes": [],
     "skills": [],
     "resources": [],
@@ -7083,8 +7083,8 @@
   },
   "Portrait Style — Elegant linework": {
     "name": "Portrait Style — Elegant linework",
-    "description": "Fine, graceful anime drawing with intricate costume detail, delicate light transitions and softly painted materials. An elegant individual portrait with a clear face and purposeful gesture.",
-    "traitNarrativeEffects": "Fine, graceful anime drawing with intricate costume detail, delicate light transitions and softly painted materials. An elegant individual portrait with a clear face and purposeful gesture. Image direction only; preserve the actual identity, species, clothing and equipment. No powers, status or possessions are granted.",
+    "description": "Fine, graceful anime drawing with intricate costume detail, delicate light transitions and illustrated materials and clearly drawn anime facial features. An elegant individual portrait with a clear face and purposeful gesture.",
+    "traitNarrativeEffects": "Fine, graceful anime drawing with intricate costume detail, delicate light transitions and illustrated materials and clearly drawn anime facial features. An elegant individual portrait with a clear face and purposeful gesture.",
     "attributes": [],
     "skills": [],
     "resources": [],
@@ -7135,8 +7135,8 @@
   },
   "Portrait Frame — Hip-up": {
     "name": "Portrait Frame — Hip-up",
-    "description": "A vertical hip-up portrait with the full head, torso and hips visible.",
-    "traitNarrativeEffects": "A vertical hip-up portrait with the full head, torso and hips visible.",
+    "description": "A vertical portrait from the complete head through both hips to the top of the thighs. Show the full waist, belt and lower outfit; the crop ends below the hips, not at the waist.",
+    "traitNarrativeEffects": "A vertical portrait from the complete head through both hips to the top of the thighs. Show the full waist, belt and lower outfit; the crop ends below the hips, not at the waist.",
     "attributes": [],
     "skills": [],
     "resources": [],
@@ -8592,12 +8592,12 @@
   },
   "Fisher": {
     "name": "Fisher",
-    "description": "Prior experience with reading water and weather, handling lines and landing a catch. Begin with +2 survival and +1 Perception.",
-    "traitNarrativeEffects": "Prior experience with reading water and weather, handling lines and landing a catch. Begin with +2 survival and +1 Perception. This is prior practical experience, not a current appointment, professional licence, owned premises, free tools, fame or an automatic academy subject. Language work uses only languages actually learned.",
+    "description": "Experience reading water, tending lines, choosing bait and bringing a useful catch home. Begin with +2 Fishing and +1 Perception.",
+    "traitNarrativeEffects": "Experience reading water, tending lines, choosing bait and bringing a useful catch home. Begin with +2 Fishing and +1 Perception. This background is prior experience, not a current job, boat, licence or free equipment.",
     "attributes": [],
     "skills": [
       {
-        "skill": "survival",
+        "skill": "Fishing",
         "modifier": 2
       },
       {
@@ -13871,6 +13871,63 @@
     "skills": [],
     "resources": [],
     "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Angling Basics": {
+    "name": "Angling Basics",
+    "description": "Familiar with rigging a rod, feeling a bite and bringing a small fish safely to hand.",
+    "traitNarrativeEffects": "Familiar with rigging a rod, feeling a bite and bringing a small fish safely to hand.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Fishing",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Rare Fish on the Line": {
+    "name": "Rare Fish on the Line",
+    "description": "Something unusual is pulling at your fishing line. Keep its movements in mind: patience, a change of angle or a well-timed pull may bring it within reach. You can also let it go.",
+    "traitNarrativeEffects": "Something unusual is pulling at your fishing line. Keep its movements in mind: patience, a change of angle or a well-timed pull may bring it within reach. You can also let it go.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Fishing Starter Kit": {
+    "name": "Fishing Starter Kit",
+    "description": "An ash rod with reusable spinner, eight portions of bait and a waterproof field ledger for a quiet afternoon beside the water.",
+    "traitNarrativeEffects": "An ash rod with reusable spinner, eight portions of bait and a waterproof field ledger for a quiet afternoon beside the water.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [
+      {
+        "item": "Angler’s Rod",
+        "quantity": 1
+      },
+      {
+        "item": "Angler’s Bait Portion",
+        "quantity": 8
+      },
+      {
+        "item": "Angler’s Field Ledger",
+        "quantity": 1
+      }
+    ],
     "abilities": [],
     "unlockedBy": [],
     "excludedBy": [],

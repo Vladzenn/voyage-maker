@@ -4,6 +4,9 @@ const fs=require('fs'),path=require('path'),crypto=require('crypto'),assert=requ
 const sort=v=>Array.isArray(v)?v.map(sort):v&&typeof v==='object'?Object.fromEntries(Object.keys(v).sort().map(k=>[k,sort(v[k])])):v;
 const hash=v=>crypto.createHash('sha256').update(JSON.stringify(sort(v))).digest('hex');
 module.exports=function previousView(world){
+ // Historical fingerprint files remain unchanged. Verify and reverse only the
+ // independently reviewed Fishing delta for these old preservation assertions.
+ world=require('./fishing/historical_view.cjs')(world);
  if(!world.realms.Akitsuhara)return world;
  const d=JSON.parse(fs.readFileSync(path.join(__dirname,'oni-nation/approved-delta.json'),'utf8'));
  const out=structuredClone(world);

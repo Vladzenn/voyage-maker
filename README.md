@@ -6,6 +6,7 @@ Repository: [Vladzenn/voyage-maker](https://github.com/Vladzenn/voyage-maker) (p
 
 ## Current project
 
+- **Fishing patch:** [public notes](world-draft/Fishing%20-%20Patch%20Notes.md), [mechanics, limits and live tests](world-draft/Fishing%20-%20Mechanics%20and%20Playtest.md)
 - **Canonical world:** [world-draft/WorldAlpha - World.json](world-draft/WorldAlpha%20-%20World.json)
 - **Glowhaven Expanded:** [public notes](world-draft/Glowhaven%20Expanded%20-%20Patch%20Notes.md), [mechanics, map migration and live tests](world-draft/Glowhaven%20Expanded%20-%20Development%20Notes.md)
 - **Current state and next work:** [docs/CURRENT_STATE.md](docs/CURRENT_STATE.md)
@@ -39,6 +40,7 @@ node tools/test_creation.cjs
 node tools/test_crucible.cjs
 node tools/test_oni.cjs
 node tools/test_glowhaven_expansion.cjs
+node tools/test_fishing.cjs
 python tools/project.py publish -m "Describe the completed change"
 ```
 

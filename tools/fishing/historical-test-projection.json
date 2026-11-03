@@ -1,0 +1,2309 @@
+{
+  "purpose": "Exact Fishing patch and three separately verified incoming music edits for old preservation assertions only; all behavior tests execute current data.",
+  "baseCommit": "6dd409959c71dae444b74e100ab24d2e22e0f220",
+  "preStudioSha256": "d65bd7314c774e6b9650fa25bf54fdf792686bb46de26ed1a53d7998a8d915c0",
+  "beforeSha256": "4e7bbdc29877110fbd0fc717ecb6ab210115c7d267b0b395637dd9c9d1266803",
+  "afterSha256": "ac97e913c4ebec6ab51cc7b528e27c86cbcd33b01e976a88191958173f4b669f",
+  "rows": [
+    {
+      "path": [
+        "aiInstructions",
+        "generateActionInfo",
+        "Exact Skill Routing"
+      ],
+      "kind": "changed",
+      "before": "PHYSICAL DELIVERY\nForce Combat resolves power, leverage, heavy entries and committed grapples. Finesse Combat resolves precise or quick weapon/unarmed delivery, aimed physical shots and timed footwork. Guarded Combat resolves bracing, shield position and contested defensive exchanges. Training and actual delivery select the lane, not weapon shape or an exciting verb. Swords, glaives, halberds, lances, tridents, quarterstaffs, javelins, slings, sai, katars, gauntlets and tonfa all follow that distinction. A weapon-led charge, rush, leap or dive stays a physical weapon delivery; a body tackle or horn ram is a bodily Force action. A leap does not automatically turn a sword hit into acrobatics. 'Charge' is not a request to use a similarly named ability. A genuinely used named technique keeps its actual requirements, cost and scope. Room, footing and committed momentum can affect a supported result, never grant invented damage or an extra hit.\n\nMAGIC AND INVENTION\nA detached or remotely shaped spell uses its actual learned discipline. An infused weapon strike still resolves physical delivery once. Spellcraft resolves invention or substantial redesign, not an extra roll for every learned spell. Affinity supplies no proficiency. Space retains its Gravity foundation; Time remains reserved.\n\nPRACTICAL AND SOCIAL\nathletics: exertion and heavy movement. acrobatics: balance and agile navigation. Stealth: concealment. survival: wilderness judgment. investigation: systematic evidence. Perception: noticing. Insight: inference, not mind-reading. persuasion, intimidation, Deception, Etiquette, performance and Trade govern their actual resisted tasks; ordinary conversation, purchases and refusal need no check.\n\nCRAFT, CARE AND ORDERS\nMedicine treats without magic; Healing Magic casts restoration. Alchemy prepares mixtures; Magitech works equipment, foci and mechanisms; Enchantment changes properties. Cooking, Perfumery and Animal Handling keep their scopes. A routine understood order needs no check. Contested tactical coordination uses Tactics; controlling a summoned being uses the actual Summoning working, raised undead their actual Soul working, and an animal Animal Handling. Ordering an ally to attack is not the player's personal attack and gives no automatic damage boost. The ally's actual action resolves its own effect. No invented Command, weapon-family skill or second accuracy roll.",
+      "afterSha256": "53718319734710422a511cf8e82d188508a668d2e251e2d486d8bc3772945004"
+    },
+    {
+      "path": [
+        "aiInstructions",
+        "generateCharacterBackground",
+        "Appearance Construction and Support"
+      ],
+      "kind": "changed",
+      "before": "APPEARANCE SOURCES\nUse selected hair, eyes, skin, build, outfit, accessories and individual Beastfolk/Fae anatomy. Written appearance resolves conflicts. Bald or shaved scalps override hair-color selections. Preserve actual age presentation and species. Skipped choices invite compatible visual design, not new possessions, powers or affiliations.\n\nFINAL PLAYER IMAGE BRIEF\nBegin Appearance with exactly: ## GLOWHAVEN PLAYER PORTRAIT\nWrite one coherent, self-contained image brief in this order: art direction; individual identity and expression; concrete clothing and accessories; gesture and framing; camera; setting and light. This is the visual handoff, not a new biography. Replace labels such as \"academy clothes\" with actual colors, garment cut and emblem. Do not assume the image generator has access to the selected start, lore or other fields.\n\nDEFAULT ART DIRECTION\nPremium fantasy RPG anime character illustration, with the presence and finish of a main-character key visual: fine, confident linework, expressive individually designed anime eyes, layered painted shading with soft gradients, richly detailed hair and clothing, luminous directional light and atmospheric depth. Combine clear drawn contours with delicate transitions of light across skin, fabric, leather and metal. Keep the face distinctly anime and the materials beautifully illustrated.\nMake the player the unmistakable focal character through silhouette, expression, costume detail and light. An ordinary outfit can be thoughtfully designed. Do not invent a noble title, expensive gear, an altered body or a spectacular spell merely to make the picture impressive. Follow an explicit alternative Portrait Style.\n\nACADEMY CLOTHES\nPhoenix Wing: crimson red, a phoenix bird with spread wings emblem; Hydra Head: violet purple, a many-headed hydra emblem; Gryffin Tail: cyan blue, a winged gryffin emblem; Dragon Hoard: yellow and gold, a dragon emblem.\nFor an explicit school-specific outfit use that school; for the generic academy student/faculty outfit resolve the selected academy Story Start or established school. Include the full school name, substantial uniform-color panels, and one embroidered pictorial creature crest on breast, collar or shoulder in the final brief. Use a student uniform or instructor's coat/robes as selected; preserve the chosen person's build, individual tailoring and accessories. An emblem has no letters or school-name text. If no school is established, use ordinary scholarly clothing without inventing affiliation. Cosmetic uniform selection alone confers no membership.\n\nCOMPOSITION\nDefaults: whole head and hair with comfortable breathing room, waist-up or hip-up, natural eye-level or three-quarter view. Explicit Portrait Framing, Camera and Background choices override those defaults, including deliberate close-ups and full-body pictures. A close-up may trim outer hair or hat edges while preserving the face. A picture backdrop never moves the character or grants ownership. Layer selected accessories over the outfit; use actual held gear only.\n\nFINISH\nFavor fine linework, dimensional illustrated materials, soft layered shading, lively hair and fabric, and lighting appropriate to the actual setting. Keep the face anime; no photographic skin, plastic CGI, broken anatomy, text, watermark or UI. One focal person. Effects, when supported, are clear and expressive without obscuring face or clothing. Output only the final visual brief in the Appearance field; do not include save paths, internal validation steps or this instruction text.",
+      "afterSha256": "76fe8e8d93cf9dec421338e4e88b4cb6ff1d10fb8adba2e96d327ae0adc107aa"
+    },
+    {
+      "path": [
+        "aiInstructions",
+        "generateCharacterBackground",
+        "Appearance Depth and Visual Continuity"
+      ],
+      "kind": "changed",
+      "before": "VISUAL CONTINUITY\nDesign one individual face and silhouette with the finish of a leading fantasy RPG character illustration: fine expressive drawing, soft layered shading, detailed illustrated materials and fitting atmospheric light. Selected identity, age presentation, body, clothing and accessories remain authoritative. Avoid a stock glamour face or mandatory combat pose. An explicit alternative style/crop/viewpoint takes priority over the defaults. Resolve academy uniforms into their actual colors and pictorial creature crests before handing off the final brief. Keep hats and accessories compatible with the person's anatomy. Visual choices do not grant possessions, magic, affiliation or travel. Existing approved portraits retain their identity and URL unless regeneration is requested.",
+      "afterSha256": "a00169a584d5debf48bb95665314a5dbc2fcd74ced11d833cb335a71f544cbc6"
+    },
+    {
+      "path": [
+        "aiInstructions",
+        "ItemGenerationAndUsage",
+        "Fishing Stock and Catches"
+      ],
+      "kind": "added",
+      "afterSha256": "43dfe2783fe3c1e13cde2b4548a2084bc17795d2196fa0f2f8a67a0929a21502"
+    },
+    {
+      "path": [
+        "worldLore",
+        "Angling around Glowhaven"
+      ],
+      "kind": "added",
+      "afterSha256": "5aea49284237e92cd42a229ad2ff1528fb76f6beefbefc6bb14e2ae902dbb383"
+    },
+    {
+      "path": [
+        "worldLore",
+        "Glowhaven Weather and Water"
+      ],
+      "kind": "added",
+      "afterSha256": "43057b2a62d00170050136a5cd1a00adfb1a45322afd70ff74c5291cf90dd0d1"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Pinewater Perch"
+      ],
+      "kind": "added",
+      "afterSha256": "945deea7a4565dedc4fe8049b812de9ffd9192b55eedf0187b0a0cf9421c33aa"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Brookmeadow Roach"
+      ],
+      "kind": "added",
+      "afterSha256": "c37a20e7d77a7824af6d1456fa57152c93a69730b650fff51f90eb4ed0c1da75"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Millpond Crucian"
+      ],
+      "kind": "added",
+      "afterSha256": "23536b0cc8d7d1e135ef84bcfaac4b8a4cd608da4e6d86efb9ae5fb175bac54b"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Willowback Trout"
+      ],
+      "kind": "added",
+      "afterSha256": "07558e49d97b7e5c4dc5f378891f7490b01c1c7652307b5d1773acceba034160"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Button-Eyed Minnow"
+      ],
+      "kind": "added",
+      "afterSha256": "efa7ef946b27112af1ef3e914e298ee254d8a256e9214c34455746553061c6c9"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Rainbell Loach"
+      ],
+      "kind": "added",
+      "afterSha256": "46cab0b96cbf116d8d993d29995acdd1c51ba48ecb103568daab7a75ae4724ce"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Reedstripe Mullet"
+      ],
+      "kind": "added",
+      "afterSha256": "a5bd95e2178e4fd0ef2698ac26413bb01a56937907fd20fd56c4b5f6385cd35b"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Brackish Bream"
+      ],
+      "kind": "added",
+      "afterSha256": "f7d273957df53c8246a3301a2010dac3e60826c21798e64c1ef04df0e4c5ccc1"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Mud-Sleeve Goby"
+      ],
+      "kind": "added",
+      "afterSha256": "4649dc03092bba804c0ad695cf80447ceee75f6b4dc0e51e7326dfa224b76445"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Greenrush Flounder"
+      ],
+      "kind": "added",
+      "afterSha256": "4e1804edaf06ec25a23716091cf502af17b53698e9357aaba6dde5892be35ebc"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Harbor Herring"
+      ],
+      "kind": "added",
+      "afterSha256": "be5a4c019ec4aa9b6bb9ea349c90ba8180857ece36feb39ad40c725594e487cf"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Lantern Sardine"
+      ],
+      "kind": "added",
+      "afterSha256": "a0e471e65d7dc1b5c77680e523abf1c40ade5b93e2e0c7e0eca8e2f94aba21a1"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Dockside Smelt"
+      ],
+      "kind": "added",
+      "afterSha256": "c6f333bcfca06dcd23ed9fac2f5ba08631507f4f83cf38b8779b46272674f2fc"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Copper-Gill Mackerel"
+      ],
+      "kind": "added",
+      "afterSha256": "3d39d136e3c2173717140a879cc8d9753b0d85099a625130607a13bf2432e58f"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Whitecrest Whiting"
+      ],
+      "kind": "added",
+      "afterSha256": "4a9452e408b45b63e771a0be3ae6e8a50138c8178b53020f204b9271e51ad95d"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Pebble Sole"
+      ],
+      "kind": "added",
+      "afterSha256": "c3570ae98f6067998afc3eaecc16bd8dd53840510d7bc9dc96790b538f7c4af6"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Ribbon Garfish"
+      ],
+      "kind": "added",
+      "afterSha256": "223ee31b46783c1ace0c9593d9328981c0cf2909ee8b8362995a82c8e3663f1e"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Crescent Sea Bass"
+      ],
+      "kind": "added",
+      "afterSha256": "75765f944c8c765a5f85156b721156a2725f01619c9f230a92d8255b54d73810"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Silver-Tail Pollock"
+      ],
+      "kind": "added",
+      "afterSha256": "7917d23be8e6aef00ac37c94aab2eef6fa5c232a3dd4be0fc5e24a1c3942e987"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Sandburrow Gurnard"
+      ],
+      "kind": "added",
+      "afterSha256": "d49fddfab45c4efbdccba4cfecef7865ec25aa35c4949b9207ae9745055ce713"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Glassvein Char"
+      ],
+      "kind": "added",
+      "afterSha256": "486d925649cf483495d0dffbde988383a06ec773d2886728498fde632ad4dddb"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Bottle-Green Tench"
+      ],
+      "kind": "added",
+      "afterSha256": "4df59389cc619383a2861f260b6eb63d8cf3e715db67c1ba8c7d3d4a49cc0369"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Amberfin Eel"
+      ],
+      "kind": "added",
+      "afterSha256": "7b6696615258c386946794976d2e01ee7d4ac77a072bd2ad92c0bbd752397652"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Pearlspot Wrasse"
+      ],
+      "kind": "added",
+      "afterSha256": "3ad250a1bf68695cc03b4b6427dc08d381ab644dcfb5dd3192a4a0e01fe85e3f"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Blueglass Needlefish"
+      ],
+      "kind": "added",
+      "afterSha256": "966174e1bdb0308a76bec7769fa31bfea0d3745d3f5e126d6398ea3e3f9d634d"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Velvet Skate"
+      ],
+      "kind": "added",
+      "afterSha256": "0df83336fdf5a89da35b8d0288a8458e3ac605f29a688858fbd75aa61e280b85"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Stormstripe Bonito"
+      ],
+      "kind": "added",
+      "afterSha256": "af6068277766ef6c95dc805809a8309cc435e791bf0f1d4fb032c5755baf849d"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Moonmirror Dace"
+      ],
+      "kind": "added",
+      "afterSha256": "7ba368ed6baf5f59e0efb97b13f2c29f1a85517593e39cefa327c2d25b5212b2"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Lanternjaw Angler"
+      ],
+      "kind": "added",
+      "afterSha256": "5d47e740b7537057e6b65813b74a303313a409d453fe6f51e4686d049140bd82"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Crownfin Sailfish"
+      ],
+      "kind": "added",
+      "afterSha256": "af082fc8dab611f63c4e0c4a33771217008489c8c86c9701dfe4acf53fd2c049"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Angler’s Rod"
+      ],
+      "kind": "added",
+      "afterSha256": "4aec12eaaf14b91f907024b013e1263457b5ad7cc70d865119c6ae2bec249da8"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Angler’s Bait Portion"
+      ],
+      "kind": "added",
+      "afterSha256": "f84ab5ebec05b05f89a6122d1e52b1849462c44d3010ed596b8d66f469f523d8"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Painted Willow Lure"
+      ],
+      "kind": "added",
+      "afterSha256": "d422b9ebe377b1c889d5264d573a24c1a7dc111549e44861dd03ce122c4471cb"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Tideglass Spinner"
+      ],
+      "kind": "added",
+      "afterSha256": "380ccc9a40dc1094c1f61e14db6464a992d82593690841ab6764816ac782042e"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Rainbell Float"
+      ],
+      "kind": "added",
+      "afterSha256": "c38c852defcba2a07287b151fa79cabf9ebb3c4eba5519dc0d6c9fe5bd577033"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Angler’s Finger Guards"
+      ],
+      "kind": "added",
+      "afterSha256": "53ab8628a4b4a2e1cc316a74be315319cc31a908234de328afbddf5e2d248f4f"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Reed-Woven Creel"
+      ],
+      "kind": "added",
+      "afterSha256": "4981ae85d067a3da5e44ad93f1992bddcd7608aa35bce4a25e60dddb52bf4432"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Saltproof Line Spool"
+      ],
+      "kind": "added",
+      "afterSha256": "306875a380eaf911d02ae6b721362a28c8a75677c03764a32a9079e5a2eb569a"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Angler’s Field Ledger"
+      ],
+      "kind": "added",
+      "afterSha256": "bc1ca83e6eff921fe2ee74e4c3e3856bcc75c2ba567df264d9295402699a33a4"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Pocket Fish Measure"
+      ],
+      "kind": "added",
+      "afterSha256": "099a12d5ba5d357dd067c6e1f5fe3a497ddb9ceab546ee66bdbc14c892d05b2a"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Smoke-Salt Packet"
+      ],
+      "kind": "added",
+      "afterSha256": "71bdaed0c37f2e95f67768ac63a30664217998cc790be68df1726aecf3713f0c"
+    },
+    {
+      "path": [
+        "skills",
+        "Fishing"
+      ],
+      "kind": "added",
+      "afterSha256": "82fda535db455a1314fab12b9cba9009cece835e62eceb881bc23e974c9eccc1"
+    },
+    {
+      "path": [
+        "traits",
+        "Portrait Style — Fantasy RPG illustration",
+        "description"
+      ],
+      "kind": "changed",
+      "before": "A leading-character fantasy RPG illustration: fine anime linework, softly layered painted shading, detailed clothing and materials, expressive eyes and luminous light.",
+      "afterSha256": "c421af5324074bf9fea8aaee87fd05b943b358bbeb3b8a7ec856fc745648587a"
+    },
+    {
+      "path": [
+        "traits",
+        "Portrait Style — Fantasy RPG illustration",
+        "traitNarrativeEffects"
+      ],
+      "kind": "changed",
+      "before": "A leading-character fantasy RPG illustration: fine anime linework, softly layered painted shading, detailed clothing and materials, expressive eyes and luminous light. Image direction only; preserve the actual identity, species, clothing and equipment. No powers, status or possessions are granted.",
+      "afterSha256": "c421af5324074bf9fea8aaee87fd05b943b358bbeb3b8a7ec856fc745648587a"
+    },
+    {
+      "path": [
+        "traits",
+        "Portrait Style — Dramatic gacha illustration",
+        "description"
+      ],
+      "kind": "changed",
+      "before": "A lavish anime character key visual with flowing costume, dimensional painted shading, dramatic light and vivid supported magical motifs. Preserve a clear face and an individual silhouette.",
+      "afterSha256": "f05fd0514d92d318d482f928e2c70c73311a4787253fa333977cb8ff6c442ee2"
+    },
+    {
+      "path": [
+        "traits",
+        "Portrait Style — Dramatic gacha illustration",
+        "traitNarrativeEffects"
+      ],
+      "kind": "changed",
+      "before": "A lavish anime character key visual with flowing costume, dimensional painted shading, dramatic light and vivid supported magical motifs. Preserve a clear face and an individual silhouette. Image direction only; preserve the actual identity, species, clothing and equipment. No powers, status or possessions are granted.",
+      "afterSha256": "f05fd0514d92d318d482f928e2c70c73311a4787253fa333977cb8ff6c442ee2"
+    },
+    {
+      "path": [
+        "traits",
+        "Portrait Style — Elegant linework",
+        "description"
+      ],
+      "kind": "changed",
+      "before": "Fine, graceful anime drawing with intricate costume detail, delicate light transitions and softly painted materials. An elegant individual portrait with a clear face and purposeful gesture.",
+      "afterSha256": "fafd28ec3dd1a88a59f46aba8b98cf4138d42a97881810d81bc78623fe77d6b0"
+    },
+    {
+      "path": [
+        "traits",
+        "Portrait Style — Elegant linework",
+        "traitNarrativeEffects"
+      ],
+      "kind": "changed",
+      "before": "Fine, graceful anime drawing with intricate costume detail, delicate light transitions and softly painted materials. An elegant individual portrait with a clear face and purposeful gesture. Image direction only; preserve the actual identity, species, clothing and equipment. No powers, status or possessions are granted.",
+      "afterSha256": "fafd28ec3dd1a88a59f46aba8b98cf4138d42a97881810d81bc78623fe77d6b0"
+    },
+    {
+      "path": [
+        "traits",
+        "Portrait Frame — Hip-up",
+        "description"
+      ],
+      "kind": "changed",
+      "before": "A vertical hip-up portrait with the full head, torso and hips visible.",
+      "afterSha256": "ef6a71d3e083ce0edd16f3b73a2d23242a6552af07b344037228faf5a636de8e"
+    },
+    {
+      "path": [
+        "traits",
+        "Portrait Frame — Hip-up",
+        "traitNarrativeEffects"
+      ],
+      "kind": "changed",
+      "before": "A vertical hip-up portrait with the full head, torso and hips visible.",
+      "afterSha256": "ef6a71d3e083ce0edd16f3b73a2d23242a6552af07b344037228faf5a636de8e"
+    },
+    {
+      "path": [
+        "traits",
+        "Fisher",
+        "description"
+      ],
+      "kind": "changed",
+      "before": "Prior experience with reading water and weather, handling lines and landing a catch. Begin with +2 survival and +1 Perception.",
+      "afterSha256": "e5765f54a4520835453addd7f78174c5302159a6206c338e6d7b4c14e9028f1f"
+    },
+    {
+      "path": [
+        "traits",
+        "Fisher",
+        "traitNarrativeEffects"
+      ],
+      "kind": "changed",
+      "before": "Prior experience with reading water and weather, handling lines and landing a catch. Begin with +2 survival and +1 Perception. This is prior practical experience, not a current appointment, professional licence, owned premises, free tools, fame or an automatic academy subject. Language work uses only languages actually learned.",
+      "afterSha256": "a58aa8afbc72d2beb222ab55546531f10c987120953dacc9ed308428714f753c"
+    },
+    {
+      "path": [
+        "traits",
+        "Fisher",
+        "skills"
+      ],
+      "kind": "changed",
+      "before": [
+        {
+          "skill": "survival",
+          "modifier": 2
+        },
+        {
+          "skill": "Perception",
+          "modifier": 1
+        }
+      ],
+      "afterSha256": "ba8929ee6acac2b00a810722c30e0323b0c5914dbb8734d36813a90bcd69db57"
+    },
+    {
+      "path": [
+        "traits",
+        "Angling Basics"
+      ],
+      "kind": "added",
+      "afterSha256": "4ff5e6194597f9bdd232c8eb4ffed50357d43cb627562641e8e53f3cc65839e3"
+    },
+    {
+      "path": [
+        "traits",
+        "Rare Fish on the Line"
+      ],
+      "kind": "added",
+      "afterSha256": "7d4fb53e26482991c08720d450a4a97b4088e52918fd847a1c0fc5927bf6c9fc"
+    },
+    {
+      "path": [
+        "traits",
+        "Fishing Starter Kit"
+      ],
+      "kind": "added",
+      "afterSha256": "9273e6a6feb22ca0e4a94c2c132623586ed7ec5a4d9136e3949aeec2ffb5d41f"
+    },
+    {
+      "path": [
+        "traitCategories",
+        "Starting Equipment",
+        "traits"
+      ],
+      "kind": "changed",
+      "before": [
+        "Wand Kit",
+        "Staff Kit",
+        "Grimoire Kit",
+        "Blade Kit",
+        "Shield Kit",
+        "Handwrap Kit",
+        "Hand-Casting Practice",
+        "Field Survey Kit",
+        "Workshop Starter Kit",
+        "First Aid Kit",
+        "Technical Inspection Kit",
+        "Spear and Rope Kit",
+        "Bow Starter Kit",
+        "Crossbow Starter Kit",
+        "Greatsword Starter Kit",
+        "Axe Starter Kit",
+        "Mace and Buckler Kit",
+        "Polearm Starter Kit",
+        "Twinblade Starter Kit",
+        "Flexible Weapon Kit",
+        "War Fan Starter Kit",
+        "Scythe Starter Kit",
+        "Paired Blades Starter Kit",
+        "Sling Starter Kit",
+        "Throwing Javelin Kit",
+        "Throwing Knife Kit",
+        "Throwing Ring Kit",
+        "Tonfa Starter Kit",
+        "Nunchaku Starter Kit",
+        "Kusarigama Starter Kit",
+        "Sai Starter Kit",
+        "War Pick Starter Kit",
+        "Trident Starter Kit",
+        "Pike Starter Kit",
+        "Partisan Starter Kit",
+        "Fighting Umbrella Kit",
+        "Focus Cord Kit",
+        "Crystal Focus Kit",
+        "Casting Card Kit",
+        "Yari Road Kit",
+        "Naginata Practice Kit",
+        "Yumi Road Kit",
+        "Watch Hook Kit",
+        "Reinforced Fan Kit",
+        "Shrine Staff Kit"
+      ],
+      "afterSha256": "9beaee1821acaa2fa3db6c9ea10c665abdb86dbae8d471f0443ad9111f41b7b2"
+    },
+    {
+      "path": [
+        "traitCategories",
+        "Starting Equipment",
+        "subcategories"
+      ],
+      "kind": "changed",
+      "before": [
+        {
+          "name": "Casting Implements",
+          "traits": [
+            "Wand Kit",
+            "Staff Kit",
+            "Grimoire Kit",
+            "Hand-Casting Practice",
+            "Focus Cord Kit",
+            "Crystal Focus Kit",
+            "Casting Card Kit"
+          ]
+        },
+        {
+          "name": "Martial Equipment",
+          "traits": [
+            "Blade Kit",
+            "Shield Kit",
+            "Handwrap Kit",
+            "Spear and Rope Kit",
+            "Bow Starter Kit",
+            "Crossbow Starter Kit",
+            "Greatsword Starter Kit",
+            "Axe Starter Kit",
+            "Mace and Buckler Kit",
+            "Polearm Starter Kit",
+            "Twinblade Starter Kit",
+            "Flexible Weapon Kit",
+            "War Fan Starter Kit",
+            "Scythe Starter Kit",
+            "Paired Blades Starter Kit",
+            "Sling Starter Kit",
+            "Throwing Javelin Kit",
+            "Throwing Knife Kit",
+            "Throwing Ring Kit",
+            "Tonfa Starter Kit",
+            "Nunchaku Starter Kit",
+            "Kusarigama Starter Kit",
+            "Sai Starter Kit",
+            "War Pick Starter Kit",
+            "Trident Starter Kit",
+            "Pike Starter Kit",
+            "Partisan Starter Kit",
+            "Fighting Umbrella Kit"
+          ]
+        },
+        {
+          "name": "Practical Work",
+          "traits": [
+            "Field Survey Kit",
+            "Workshop Starter Kit",
+            "First Aid Kit",
+            "Technical Inspection Kit"
+          ]
+        }
+      ],
+      "afterSha256": "35117b1cb6104b8c155c1ab5edc7cf42ba9dc08f137845a2ec19c965b1538c26"
+    },
+    {
+      "path": [
+        "traitCategories",
+        "Portrait Style",
+        "description"
+      ],
+      "kind": "changed",
+      "before": "Optional — skip for our default fantasy RPG character illustration: fine anime drawing, soft layered shading, detailed outfits and luminous lighting. Alternative styles change the picture, not the character’s abilities.",
+      "afterSha256": "95409051ee64777b00fefb03ad2c11d9f74a18efe309fadbc9caa5b940bf7f63"
+    },
+    {
+      "path": [
+        "traitCategories",
+        "Portrait Framing",
+        "description"
+      ],
+      "kind": "changed",
+      "before": "Optional — skip for a fitting waist-up or hip-up portrait. Default contains our usual framing. Eccentric Choices offers deliberately different crops and poses; an explicit selection takes priority over the default.",
+      "afterSha256": "e0abdb91791f276432f9117aef40de272bcc84672a7cc7390e9fce0033e8170e"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ghx_local_commissions",
+        "phase"
+      ],
+      "kind": "removed",
+      "before": "planning"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ghx_local_commissions",
+        "conditions"
+      ],
+      "kind": "changed",
+      "before": [
+        {
+          "type": "party-realm",
+          "operator": "equals",
+          "value": "Glowhaven"
+        }
+      ],
+      "afterSha256": "b9b50c789aa991ba54500939c024db3b539db45ed97fedb25414311417c55001"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ghx_local_commissions",
+        "effects"
+      ],
+      "kind": "changed",
+      "before": [],
+      "afterSha256": "6eefa2634ded5d2694c7b6079adf8877926236bb3aa87aa714b924d47ba03d93"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ghx_local_commissions",
+        "script"
+      ],
+      "kind": "changed",
+      "before": "const jobs=[[\"A Place before Supper\",\"Tamae Shibano\",\"Starlark Abbey\",\"Starlark Abbey\"],[\"A Jar That Will Not Settle\",\"Yorina Tsugawa\",\"Thistlebank Alchemy Cottage\",\"Thistlebank Alchemy Cottage\"],[\"The Wrong Kind of Hide\",\"Uta Nekoyama\",\"Pinewater Woods\",\"Pinewater Woods\"],[\"The Bell That Wakes the Ward\",\"Eiji Kuramochi\",\"Starlark Abbey\",\"Starlark Abbey\"],[\"A Second Pair of Eyes\",\"Brina Flintmere\",\"Old Southwatch\",\"Longgrass Crossroads\"],[\"What the Shell Caught\",\"Mina Takanashi\",\"Stillback Isle\",\"Greenrush Estuary\"],[\"A Quiet View, Honestly\",\"Kōzō Hinoura\",\"Seaward Overlook\",\"Beaconrest Lighthouse\"],[\"The Bluecoil Watch\",\"Mina Takanashi\",\"Bluecoil Rest\",\"Greenrush Estuary\"]];\nconst place=check({type:'party-location'}),text=String(check({type:'action-text'})||'').toLowerCase();\nconst options=jobs.filter(r=>(r[2]===place||r[3]===place)&&check({type:'quest-status',questId:r[0]})==='hidden');\nconst named=options.find(r=>text.includes(r[0].toLowerCase()));\nlet found=false;\nfor(const [title,client,destination] of named?[named]:options){\n if(check({type:'action',query:'In this actual local scene, the player deliberately asks about '+title+' or asks '+client+' for work/helping with that specific local problem, or deliberately investigates its actual public notice. The real client or notice must actually be involved. A greeting, passing through, renting a room, requesting unrelated work, or discussing somebody else’s old completed job is false.'})!==true)continue;\n effects.push({type:'quest-init',operator:'set',value:title},{type:'story',instruction:'Offer '+title+' through '+client+' or its actual local notice. Give its public situation and agreed reward; destination '+destination+'. Wait for the player to accept or decline. This is no accepted job, payment, licence, recruitment or solved problem.'});\n found=true;break;\n}\nif(!found)skip=true;\n",
+      "afterSha256": "0a25e7051c65e6ee0ce4784a006fb737d35cf332b9c358ec5107bf4e50073510"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ghx_local_commissions",
+        "scope"
+      ],
+      "kind": "added",
+      "afterSha256": "f8d3d628d85f8c8fd49283d4bb6cc0a0d1249d744eaac57f6bbb86d5fefd6cd6"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "fsh_weather"
+      ],
+      "kind": "added",
+      "afterSha256": "4ae26bd77cde2b494492db6c89ec81da70b890c9aa7ca4dc74b576e3c2837cf1"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "fsh_basics"
+      ],
+      "kind": "added",
+      "afterSha256": "4ef0b150903d90a39d6cd2a0b140c2bb5c6528da72d0d0166de44afacad5b98c"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "fsh_cast_lure"
+      ],
+      "kind": "added",
+      "afterSha256": "e5649062ae4bcfbc754e335d1c0c4f4bf2dc01b7637c7b53bd635d5a4603860a"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "fsh_cast_bait"
+      ],
+      "kind": "added",
+      "afterSha256": "c767100604905f72098f70ee4626b1ea7d571e400077fdd3bcd5e477ac567e2c"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "fsh_bait_miss"
+      ],
+      "kind": "added",
+      "afterSha256": "1e97ee3c9efc0441edcffed45495684164ed26e7df070d0278036fd25cda9435"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "fsh_rare_land"
+      ],
+      "kind": "added",
+      "afterSha256": "a6889834474b29825f212daa1d8c629a9e9ad31c6737045e2d5d5e15f20314f9"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "fsh_rare_miss"
+      ],
+      "kind": "added",
+      "afterSha256": "d8328fee83d4c172eeff6a6d889b38c7e7a7234267cf6320d13d85ff9ea926ce"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "fsh_rare_release"
+      ],
+      "kind": "added",
+      "afterSha256": "cf92e5f41b7041f034dc7188767222ba5d4b42fa9c283edd53e426516ca4e961"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "fsh_rare_cleanup"
+      ],
+      "kind": "added",
+      "afterSha256": "92cba7d45cb06ecb9355f3b2b4efa3aca743263b246ee08c4ceb4d8a654a3022"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "fsh_records"
+      ],
+      "kind": "added",
+      "afterSha256": "b419df512db45a85e544e94ba7c8c2fc828a82452c968606678a18bec1e905b4"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ghx_local_commissions_2"
+      ],
+      "kind": "added",
+      "afterSha256": "9c583f1664764055a47e4ac1036d554f2eaf235ee5a0bf7819bbd7943f71434d"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ghx_local_commissions_3"
+      ],
+      "kind": "added",
+      "afterSha256": "2e9e74f427906214cc75ed0bc74c33ecf01feab4995ead3d01034ee07e2a8733"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ghx_local_commissions_4"
+      ],
+      "kind": "added",
+      "afterSha256": "700a6592d1a43a7e2cea6c5b16fa47ae1a7e50ce7e00f9855c5f4f2084aed51a"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ghx_local_commissions_5"
+      ],
+      "kind": "added",
+      "afterSha256": "ca9f49073f009a93274920c51bd11c684d6c322452f9d0d1ea719826fe615341"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ghx_local_commissions_6"
+      ],
+      "kind": "added",
+      "afterSha256": "ed28f2033f0db1159a912ee027c77e26d55cfccd681ca5c30b7ce8972751bfff"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ghx_local_commissions_7"
+      ],
+      "kind": "added",
+      "afterSha256": "8d4e2684519143ba7f5c234c4675a7efc4f41b45292bf348eaf8745fedc62693"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ghx_local_commissions_8"
+      ],
+      "kind": "added",
+      "afterSha256": "95b7254923a03f915a895be55404c37a76a095d19c6dc1ad109dfecfc0a3d290"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "fsh_offer_1"
+      ],
+      "kind": "added",
+      "afterSha256": "345a08d55f5e1698274dfa52e055c156f951a3ab5f068e7ef66231aeac8bf18a"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "fsh_offer_2"
+      ],
+      "kind": "added",
+      "afterSha256": "8ca5b749c6cb800cc2a948cd3da9c78d22aac0fe835c4bc5cb58acd1104fc110"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "fsh_offer_3"
+      ],
+      "kind": "added",
+      "afterSha256": "2ea0b27b463b12aeb9ef9f593171db27d1406eb4145bd3439b38f0aae2b071df"
+    },
+    {
+      "path": [
+        "itemSettings",
+        "tiers",
+        "mundane",
+        "bonusPolicy",
+        "allowedBonuses"
+      ],
+      "kind": "changed",
+      "before": [
+        {
+          "type": "stat",
+          "variable": "damage",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "type": "stat",
+          "variable": "armor",
+          "min": 0,
+          "max": 5
+        },
+        {
+          "type": "attribute",
+          "variable": "force",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "type": "attribute",
+          "variable": "finesse",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "type": "attribute",
+          "variable": "logic",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "type": "attribute",
+          "variable": "passion",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "type": "attribute",
+          "variable": "empathy",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "type": "attribute",
+          "variable": "intuition",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "type": "skill",
+          "variable": "acrobatics",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "skill",
+          "variable": "athletics",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "skill",
+          "variable": "intimidation",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "skill",
+          "variable": "investigation",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "skill",
+          "variable": "performance",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "skill",
+          "variable": "persuasion",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "skill",
+          "variable": "survival",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "skill",
+          "variable": "spellcraft",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "skill",
+          "variable": "Arcane Magic",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "skill",
+          "variable": "Fire Magic",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "skill",
+          "variable": "Water Magic",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "skill",
+          "variable": "Earth Magic",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "skill",
+          "variable": "Wind Magic",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "skill",
+          "variable": "Lightning Magic",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "skill",
+          "variable": "Ice Magic",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "skill",
+          "variable": "Light Magic",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "skill",
+          "variable": "Metal Magic",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "skill",
+          "variable": "Nature Magic",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "skill",
+          "variable": "Sound Magic",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "skill",
+          "variable": "Gravity Magic",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "skill",
+          "variable": "Void Magic",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "skill",
+          "variable": "Healing Magic",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "skill",
+          "variable": "Enchantment Magic",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "skill",
+          "variable": "Summoning Magic",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "skill",
+          "variable": "Illusion Magic",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "skill",
+          "variable": "Divination Magic",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "skill",
+          "variable": "Stealth",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "skill",
+          "variable": "Perception",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "skill",
+          "variable": "Insight",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "skill",
+          "variable": "Deception",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "skill",
+          "variable": "Etiquette",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "skill",
+          "variable": "Animal Handling",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "skill",
+          "variable": "Medicine",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "skill",
+          "variable": "Alchemy",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "skill",
+          "variable": "Magitech",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "skill",
+          "variable": "Cooking",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "skill",
+          "variable": "Perfumery",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "skill",
+          "variable": "Trade",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "skill",
+          "variable": "Tactics",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "skill",
+          "variable": "Force Combat",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "skill",
+          "variable": "Finesse Combat",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "skill",
+          "variable": "Guarded Combat",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "skill",
+          "variable": "Space Magic",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "skill",
+          "variable": "Soul Magic",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "resource",
+          "variable": "Health",
+          "min": 1,
+          "max": 20
+        },
+        {
+          "type": "resource",
+          "variable": "Mana",
+          "min": 1,
+          "max": 12
+        },
+        {
+          "type": "resource",
+          "variable": "Stamina",
+          "min": 1,
+          "max": 6
+        }
+      ],
+      "afterSha256": "d0662a75233ffa8ec580c3561f7addec7312b074cd152385ee22aee6bb4e2e18"
+    },
+    {
+      "path": [
+        "itemSettings",
+        "tiers",
+        "artisan",
+        "bonusPolicy",
+        "allowedBonuses"
+      ],
+      "kind": "changed",
+      "before": [
+        {
+          "type": "stat",
+          "variable": "damage",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "type": "stat",
+          "variable": "armor",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "type": "attribute",
+          "variable": "force",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "attribute",
+          "variable": "finesse",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "attribute",
+          "variable": "logic",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "attribute",
+          "variable": "passion",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "attribute",
+          "variable": "empathy",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "attribute",
+          "variable": "intuition",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "type": "skill",
+          "variable": "acrobatics",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "skill",
+          "variable": "athletics",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "skill",
+          "variable": "intimidation",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "skill",
+          "variable": "investigation",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "skill",
+          "variable": "performance",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "skill",
+          "variable": "persuasion",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "skill",
+          "variable": "survival",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "skill",
+          "variable": "spellcraft",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "skill",
+          "variable": "Arcane Magic",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "skill",
+          "variable": "Fire Magic",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "skill",
+          "variable": "Water Magic",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "skill",
+          "variable": "Earth Magic",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "skill",
+          "variable": "Wind Magic",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "skill",
+          "variable": "Lightning Magic",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "skill",
+          "variable": "Ice Magic",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "skill",
+          "variable": "Light Magic",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "skill",
+          "variable": "Metal Magic",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "skill",
+          "variable": "Nature Magic",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "skill",
+          "variable": "Sound Magic",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "skill",
+          "variable": "Gravity Magic",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "skill",
+          "variable": "Void Magic",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "skill",
+          "variable": "Healing Magic",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "skill",
+          "variable": "Enchantment Magic",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "skill",
+          "variable": "Summoning Magic",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "skill",
+          "variable": "Illusion Magic",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "skill",
+          "variable": "Divination Magic",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "skill",
+          "variable": "Stealth",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "skill",
+          "variable": "Perception",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "skill",
+          "variable": "Insight",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "skill",
+          "variable": "Deception",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "skill",
+          "variable": "Etiquette",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "skill",
+          "variable": "Animal Handling",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "skill",
+          "variable": "Medicine",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "skill",
+          "variable": "Alchemy",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "skill",
+          "variable": "Magitech",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "skill",
+          "variable": "Cooking",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "skill",
+          "variable": "Perfumery",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "skill",
+          "variable": "Trade",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "skill",
+          "variable": "Tactics",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "skill",
+          "variable": "Force Combat",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "skill",
+          "variable": "Finesse Combat",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "skill",
+          "variable": "Guarded Combat",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "skill",
+          "variable": "Space Magic",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "skill",
+          "variable": "Soul Magic",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "resource",
+          "variable": "Health",
+          "min": 1,
+          "max": 40
+        },
+        {
+          "type": "resource",
+          "variable": "Mana",
+          "min": 1,
+          "max": 24
+        },
+        {
+          "type": "resource",
+          "variable": "Stamina",
+          "min": 1,
+          "max": 10
+        }
+      ],
+      "afterSha256": "002a30fa037318ba56e183541a1e6cdc457be101d5c2e7974f77b2b26eee7668"
+    },
+    {
+      "path": [
+        "itemSettings",
+        "tiers",
+        "special",
+        "bonusPolicy",
+        "allowedBonuses"
+      ],
+      "kind": "changed",
+      "before": [
+        {
+          "type": "stat",
+          "variable": "damage",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "type": "stat",
+          "variable": "armor",
+          "min": 0,
+          "max": 15
+        },
+        {
+          "type": "attribute",
+          "variable": "force",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "attribute",
+          "variable": "finesse",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "attribute",
+          "variable": "logic",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "attribute",
+          "variable": "passion",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "attribute",
+          "variable": "empathy",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "attribute",
+          "variable": "intuition",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "type": "skill",
+          "variable": "acrobatics",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "type": "skill",
+          "variable": "athletics",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "type": "skill",
+          "variable": "intimidation",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "type": "skill",
+          "variable": "investigation",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "type": "skill",
+          "variable": "performance",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "type": "skill",
+          "variable": "persuasion",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "type": "skill",
+          "variable": "survival",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "type": "skill",
+          "variable": "spellcraft",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "type": "skill",
+          "variable": "Arcane Magic",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "type": "skill",
+          "variable": "Fire Magic",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "type": "skill",
+          "variable": "Water Magic",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "type": "skill",
+          "variable": "Earth Magic",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "type": "skill",
+          "variable": "Wind Magic",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "type": "skill",
+          "variable": "Lightning Magic",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "type": "skill",
+          "variable": "Ice Magic",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "type": "skill",
+          "variable": "Light Magic",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "type": "skill",
+          "variable": "Metal Magic",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "type": "skill",
+          "variable": "Nature Magic",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "type": "skill",
+          "variable": "Sound Magic",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "type": "skill",
+          "variable": "Gravity Magic",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "type": "skill",
+          "variable": "Void Magic",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "type": "skill",
+          "variable": "Healing Magic",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "type": "skill",
+          "variable": "Enchantment Magic",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "type": "skill",
+          "variable": "Summoning Magic",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "type": "skill",
+          "variable": "Illusion Magic",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "type": "skill",
+          "variable": "Divination Magic",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "type": "skill",
+          "variable": "Stealth",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "type": "skill",
+          "variable": "Perception",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "type": "skill",
+          "variable": "Insight",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "type": "skill",
+          "variable": "Deception",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "type": "skill",
+          "variable": "Etiquette",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "type": "skill",
+          "variable": "Animal Handling",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "type": "skill",
+          "variable": "Medicine",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "type": "skill",
+          "variable": "Alchemy",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "type": "skill",
+          "variable": "Magitech",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "type": "skill",
+          "variable": "Cooking",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "type": "skill",
+          "variable": "Perfumery",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "type": "skill",
+          "variable": "Trade",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "type": "skill",
+          "variable": "Tactics",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "type": "skill",
+          "variable": "Force Combat",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "type": "skill",
+          "variable": "Finesse Combat",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "type": "skill",
+          "variable": "Guarded Combat",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "type": "skill",
+          "variable": "Space Magic",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "type": "skill",
+          "variable": "Soul Magic",
+          "min": 1,
+          "max": 5
+        },
+        {
+          "type": "resource",
+          "variable": "Health",
+          "min": 1,
+          "max": 70
+        },
+        {
+          "type": "resource",
+          "variable": "Mana",
+          "min": 1,
+          "max": 40
+        },
+        {
+          "type": "resource",
+          "variable": "Stamina",
+          "min": 1,
+          "max": 16
+        }
+      ],
+      "afterSha256": "a5a33e699a432f7500383696daf1b2aecf99c77465bb87b2d521be7e375729c1"
+    },
+    {
+      "path": [
+        "itemSettings",
+        "tiers",
+        "legendary",
+        "bonusPolicy",
+        "allowedBonuses"
+      ],
+      "kind": "changed",
+      "before": [
+        {
+          "type": "stat",
+          "variable": "damage",
+          "min": 0,
+          "max": 4
+        },
+        {
+          "type": "stat",
+          "variable": "armor",
+          "min": 0,
+          "max": 20
+        },
+        {
+          "type": "attribute",
+          "variable": "force",
+          "min": 1,
+          "max": 4
+        },
+        {
+          "type": "attribute",
+          "variable": "finesse",
+          "min": 1,
+          "max": 4
+        },
+        {
+          "type": "attribute",
+          "variable": "logic",
+          "min": 1,
+          "max": 4
+        },
+        {
+          "type": "attribute",
+          "variable": "passion",
+          "min": 1,
+          "max": 4
+        },
+        {
+          "type": "attribute",
+          "variable": "empathy",
+          "min": 1,
+          "max": 4
+        },
+        {
+          "type": "attribute",
+          "variable": "intuition",
+          "min": 1,
+          "max": 4
+        },
+        {
+          "type": "skill",
+          "variable": "acrobatics",
+          "min": 1,
+          "max": 8
+        },
+        {
+          "type": "skill",
+          "variable": "athletics",
+          "min": 1,
+          "max": 8
+        },
+        {
+          "type": "skill",
+          "variable": "intimidation",
+          "min": 1,
+          "max": 8
+        },
+        {
+          "type": "skill",
+          "variable": "investigation",
+          "min": 1,
+          "max": 8
+        },
+        {
+          "type": "skill",
+          "variable": "performance",
+          "min": 1,
+          "max": 8
+        },
+        {
+          "type": "skill",
+          "variable": "persuasion",
+          "min": 1,
+          "max": 8
+        },
+        {
+          "type": "skill",
+          "variable": "survival",
+          "min": 1,
+          "max": 8
+        },
+        {
+          "type": "skill",
+          "variable": "spellcraft",
+          "min": 1,
+          "max": 8
+        },
+        {
+          "type": "skill",
+          "variable": "Arcane Magic",
+          "min": 1,
+          "max": 8
+        },
+        {
+          "type": "skill",
+          "variable": "Fire Magic",
+          "min": 1,
+          "max": 8
+        },
+        {
+          "type": "skill",
+          "variable": "Water Magic",
+          "min": 1,
+          "max": 8
+        },
+        {
+          "type": "skill",
+          "variable": "Earth Magic",
+          "min": 1,
+          "max": 8
+        },
+        {
+          "type": "skill",
+          "variable": "Wind Magic",
+          "min": 1,
+          "max": 8
+        },
+        {
+          "type": "skill",
+          "variable": "Lightning Magic",
+          "min": 1,
+          "max": 8
+        },
+        {
+          "type": "skill",
+          "variable": "Ice Magic",
+          "min": 1,
+          "max": 8
+        },
+        {
+          "type": "skill",
+          "variable": "Light Magic",
+          "min": 1,
+          "max": 8
+        },
+        {
+          "type": "skill",
+          "variable": "Metal Magic",
+          "min": 1,
+          "max": 8
+        },
+        {
+          "type": "skill",
+          "variable": "Nature Magic",
+          "min": 1,
+          "max": 8
+        },
+        {
+          "type": "skill",
+          "variable": "Sound Magic",
+          "min": 1,
+          "max": 8
+        },
+        {
+          "type": "skill",
+          "variable": "Gravity Magic",
+          "min": 1,
+          "max": 8
+        },
+        {
+          "type": "skill",
+          "variable": "Void Magic",
+          "min": 1,
+          "max": 8
+        },
+        {
+          "type": "skill",
+          "variable": "Healing Magic",
+          "min": 1,
+          "max": 8
+        },
+        {
+          "type": "skill",
+          "variable": "Enchantment Magic",
+          "min": 1,
+          "max": 8
+        },
+        {
+          "type": "skill",
+          "variable": "Summoning Magic",
+          "min": 1,
+          "max": 8
+        },
+        {
+          "type": "skill",
+          "variable": "Illusion Magic",
+          "min": 1,
+          "max": 8
+        },
+        {
+          "type": "skill",
+          "variable": "Divination Magic",
+          "min": 1,
+          "max": 8
+        },
+        {
+          "type": "skill",
+          "variable": "Stealth",
+          "min": 1,
+          "max": 8
+        },
+        {
+          "type": "skill",
+          "variable": "Perception",
+          "min": 1,
+          "max": 8
+        },
+        {
+          "type": "skill",
+          "variable": "Insight",
+          "min": 1,
+          "max": 8
+        },
+        {
+          "type": "skill",
+          "variable": "Deception",
+          "min": 1,
+          "max": 8
+        },
+        {
+          "type": "skill",
+          "variable": "Etiquette",
+          "min": 1,
+          "max": 8
+        },
+        {
+          "type": "skill",
+          "variable": "Animal Handling",
+          "min": 1,
+          "max": 8
+        },
+        {
+          "type": "skill",
+          "variable": "Medicine",
+          "min": 1,
+          "max": 8
+        },
+        {
+          "type": "skill",
+          "variable": "Alchemy",
+          "min": 1,
+          "max": 8
+        },
+        {
+          "type": "skill",
+          "variable": "Magitech",
+          "min": 1,
+          "max": 8
+        },
+        {
+          "type": "skill",
+          "variable": "Cooking",
+          "min": 1,
+          "max": 8
+        },
+        {
+          "type": "skill",
+          "variable": "Perfumery",
+          "min": 1,
+          "max": 8
+        },
+        {
+          "type": "skill",
+          "variable": "Trade",
+          "min": 1,
+          "max": 8
+        },
+        {
+          "type": "skill",
+          "variable": "Tactics",
+          "min": 1,
+          "max": 8
+        },
+        {
+          "type": "skill",
+          "variable": "Force Combat",
+          "min": 1,
+          "max": 8
+        },
+        {
+          "type": "skill",
+          "variable": "Finesse Combat",
+          "min": 1,
+          "max": 8
+        },
+        {
+          "type": "skill",
+          "variable": "Guarded Combat",
+          "min": 1,
+          "max": 8
+        },
+        {
+          "type": "skill",
+          "variable": "Space Magic",
+          "min": 1,
+          "max": 8
+        },
+        {
+          "type": "skill",
+          "variable": "Soul Magic",
+          "min": 1,
+          "max": 8
+        },
+        {
+          "type": "resource",
+          "variable": "Health",
+          "min": 1,
+          "max": 100
+        },
+        {
+          "type": "resource",
+          "variable": "Mana",
+          "min": 1,
+          "max": 60
+        },
+        {
+          "type": "resource",
+          "variable": "Stamina",
+          "min": 1,
+          "max": 24
+        }
+      ],
+      "afterSha256": "fd2d88e830186f8d22b5d1f6788c0b2adef38fede56c06b2e01048e1d8afd90d"
+    },
+    {
+      "path": [
+        "imagePromptConfiguration",
+        "npcs"
+      ],
+      "kind": "changed",
+      "before": "ART DIRECTION\nPremium fantasy RPG anime character illustration, with the presence and finish of a main-character key visual: fine, confident linework, expressive individually designed anime eyes, layered painted shading with soft gradients, richly detailed hair and clothing, luminous directional light and atmospheric depth. Combine clear drawn contours with delicate transitions of light across skin, fabric, leather and metal. Keep the face distinctly anime and the materials beautifully illustrated.\nDesign one memorable individual: a readable silhouette, a personality-specific expression and a convincing gesture. Give player characters the same visual care as the leading authored cast, whether civilian, warrior or mage. Detail, lighting and costume design create presence; ornate rank, huge weapons and powerful magic are not required. A chosen alternative illustration style can change the finish. Maintain the actual person and avoid a compulsory glamorous face, smile, warm palette or battle pose.\n\nPLAYER BRIEF AND SOURCE ORDER\nIf Appearance begins with ## GLOWHAVEN PLAYER PORTRAIT, use the complete supplied visual brief, including explicit style, framing, camera and background choices. Carry its concrete identity and clothing details into the image rather than restating a vague category label. Otherwise use visualDescription, selected visual traits and the NPC Type's anatomy; use role and setting only to fill genuine gaps. Honor a written appearance over conflicting cosmetic selections. Existing portraits keep their identity unless a new generation is requested.\n\nIDENTITY AND ANATOMY\nPreserve the actual age presentation, body, skin, hair, eyes, clothing and selected accessories. Bald means no head hair. Long-lived adults do not become elderly merely through a large chronological age or senior job. Short adult fae retain adult proportions. Beastfolk usually have human faces and bodies with the selected animal features; use more animal-like anatomy only when specified. Preserve individual horns, wings, tails, scales and limb count; do not add universal fae wings. Keep hands anatomically coherent. A spear or staff has a single continuous shaft, aligned grips and an attached head.\n\nCOMPOSITION AND LIGHT\nWithout a selected alternative, use a vertical waist-up or hip-up portrait with the complete head and hair, comfortable headroom and a natural eye-level or three-quarter view. Explicit close-up, full-body, seated or dramatic-camera selections override that default. Keep face and eyes the focal point, with enough outfit to read the design. A subtle weight shift, moving hair or a purposeful hand can give life to a quiet character. Use a specific supplied backdrop or an appropriate opening-place setting, rendered more softly behind the subject. Lighting and colors vary with person and place; do not blur away all environmental detail.\n\nCLOTHING AND MAGIC\nAcademy uniforms must state and show the chosen school's color and embroidered creature crest: Phoenix Wing: crimson red, a phoenix bird with spread wings emblem; Hydra Head: violet purple, a many-headed hydra emblem; Gryffin Tail: cyan blue, a winged gryffin emblem; Dragon Hoard: yellow and gold, a dragon emblem. Use its color as a substantial part of the uniform, not just a tiny ribbon; put one readable creature badge on the breast, collar or shoulder. A pictorial academy crest is permitted; no written school name, letter crest or commercial logo. Resolve the school from an explicit school-specific outfit, otherwise the selected academy start or established affiliation. If none identifies a school, use ordinary scholarly clothing without inventing enrollment. Faculty wear an instructor's cut; students a practical uniform. Preserve individual tailoring and selected accessories.\nUse only supplied magic and actual gear. When magical effects are indicated, make them vivid, translucent and spatially integrated with hand, weapon or environment; keep the face clear. Their scale fits actual training. A civilian can have a striking portrait without a spell effect. Picture styling never grants equipment, powers, status, affiliations, property or travel.\n\nAVOID\nPhotographs, live action, CGI/3D renders, plastic skin, realistic pores, doll faces, beveled facial planes, muddy overpainting, duplicate limbs or hands, disconnected weapons, substituted identity, unrequested crowd foregrounds, text, lettering, signatures, watermarks, poster borders, UI and character sheets. One focal character. Illustrated metal highlights and softly modeled anime shading are welcome; do not flatten every surface into hard shadow blocks.",
+      "afterSha256": "538aafdf7175bbeff59279d3f36545ccb0687c692ce3d28b9b6c073156882e20"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "A Fisher’s First Lesson"
+      ],
+      "kind": "added",
+      "afterSha256": "931e1fd9e3b1505293987ef647f414a83c0aa7dadf12fed6da22ad36cd7d85e0"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Supper before the Tide Turns"
+      ],
+      "kind": "added",
+      "afterSha256": "920e8c9e8946d0de240f80e44bde1a03041f8e9a61139ee7d25eb8daafa14068"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "A Color beneath the Scales"
+      ],
+      "kind": "added",
+      "afterSha256": "8160d4720da85cfbdc5fa12aee5c05642b676fa030df724030bd58894a93d5e5"
+    }
+  ]
+}

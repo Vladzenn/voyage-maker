@@ -131,23 +131,13 @@ def add(w):
     # a completion state machine. Follow-ups are owned by completion effects.
     followups={'A Patient Kind of Work','The Nesting Shelf','The Name on the Crate','The Price of Bringing It Back'}
     local=[[name,client,place,w['npcs'][client]['currentLocation']] for name,client,place,*_ in QUESTS if not name.startswith('Guild:') and name not in followups]
-    local_script="const jobs="+json.dumps(local,ensure_ascii=False,separators=(',',':'))+""";
-const place=check({type:'party-location'}),text=String(check({type:'action-text'})||'').toLowerCase();
-const options=jobs.filter(r=>(r[2]===place||r[3]===place)&&check({type:'quest-status',questId:r[0]})==='hidden');
-const named=options.find(r=>text.includes(r[0].toLowerCase()));
-let found=false;
-for(const [title,client,destination] of named?[named]:options){
- if(check({type:'action',query:'In this actual local scene, the player deliberately asks about '+title+' or asks '+client+' for work/helping with that specific local problem, or deliberately investigates its actual public notice. The real client or notice must actually be involved. A greeting, passing through, renting a room, requesting unrelated work, or discussing somebody else’s old completed job is false.'})!==true)continue;
- effects.push({type:'quest-init',operator:'set',value:title},{type:'story',instruction:'Offer '+title+' through '+client+' or its actual local notice. Give its public situation and agreed reward; destination '+destination+'. Wait for the player to accept or decline. This is no accepted job, payment, licence, recruitment or solved problem.'});
- found=true;break;
-}
-if(!found)skip=true;
-"""
-    # Studio limits string condition values to 100 UTF-16 characters. The
-    # script already filters the exact location before any semantic query;
-    # duplicating every name in a long regex both exceeded that cap and added
-    # no protection. Unrelated locations reach an empty local candidate set.
-    w['triggerDefinitions']['ghx_local_commissions']={'name':'ghx_local_commissions','recurring':True,'phase':'planning','conditions':[{'type':'party-realm','operator':'equals','value':'Glowhaven'}],'effects':[],'script':local_script}
+    w['triggerDefinitions'].pop('ghx_local_commissions',None)
+    for i,(title,client,destination,home) in enumerate(local):
+        name='ghx_local_commissions'+('' if i==0 else '_'+str(i+1))
+        places=list(dict.fromkeys([destination,home]))
+        location={'type':'party-location','operator':'equals','value':places[0]} if len(places)==1 else {'type':'party-location','operator':'regex','value':'^('+ '|'.join(re.escape(p) for p in places)+')$'}
+        query=f'The player deliberately asks {client} about {title}, asks that actual client for suitable local work, or investigates the actual notice for {title}. The real client or notice is involved here. A greeting, arrival, rumor alone, unrelated business or another person’s completed job does not qualify.'
+        w['triggerDefinitions'][name]={'name':name,'recurring':True,'scope':'party','conditions':[{'type':'party-realm','operator':'equals','value':'Glowhaven'},location,{'type':'quest-status','questId':title,'operator':'equals','value':'hidden'},{'type':'action','query':query}],'effects':[{'type':'quest-init','operator':'set','value':title},{'type':'story','instruction':f'Offer {title} through {client} or its real local notice. Explain its public situation and stated reward, then wait for acceptance or refusal. Destination: {destination}. This offer grants no acceptance, payment, licence, recruitment or completed work.'}],'script':"const tick=Number(check({type:'game-tick'}))||0;if(storage.ghxOfferTick===tick){skip=true}else{storage.ghxOfferTick=tick}"}
     # Keep these design arcs as linked native questlines. Two more global arc
     # surfacing checks exceeded the conservative Crucible budget (17 vs 15).
     # Do not rewrite unrelated old tournament or Spider triggers to make room.

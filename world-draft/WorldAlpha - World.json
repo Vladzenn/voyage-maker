@@ -45,7 +45,7 @@
     "generateActionInfo": {
       "impact": "Use the existing impact scale. About 100 is an ordinary effective action; 50–90 suits materially constrained execution, limited scope or restraint; 120–150 needs real preparation, favorable leverage or a paid stronger working; 150–200 is exceptional committed output with actual cost and scope. Use the configured impact scale and resolved force; adjectives and a target’s large Health pool do not redefine the attack. Impact is not accuracy, a free second hit or permission for additional outcomes.",
       "custom": "RESOLVE IN ORDER\n1. Identify actor, objective, actual method, target, range, access, usable ability/equipment and stated limits. Preserve nonlethal intent and exact quoted speech. A gesture is not dialogue; a claim is not acquisition.\n2. Routine feasible movement, conversation, browsing, agreed payment, rest, showing an item, refusal and authorized travel need no check. Meaningful danger, opposition, deception, investigation, crafting and challenging work do. Safe deliberate practice can use a real learning check; trivial repetition guarantees no XP.\n3. Name exactly one actual governing skill, spelled as configured. Never return an attribute, None, blank or a profession label. An untrained appropriate skill remains appropriate; do not substitute a higher unrelated skill.\n4. Use the task, actual opposition, environment and preparation. A powerful observer does not rescale an ordinary object or the world's residents.\n5. Apply actual requirements, bonus, cooldown, scope and cost once. An infused physical hit uses one physical accuracy resolution; a detached spell uses its discipline. Never sum two skills, choose the highest unrelated one or demand two successful hits for one action.\n6. Define the feasible result and consequence. A successful finite task finishes its scope; diagnosis alone is not repair. Do not invent a fresh fault or impossibility to cancel success.\n\nNO EXTRA ACTIONS\nSupporting movement, a flourish or elemental visual does not add an attack. Follow the engine's actual action budget and supplied outcomes without a fresh parry or invented universal two-attack allowance. Return only the requested output fields.",
-      "Exact Skill Routing": "PHYSICAL DELIVERY\nForce Combat resolves power, leverage, heavy entries and committed grapples. Finesse Combat resolves precise or quick weapon/unarmed delivery, aimed physical shots and timed footwork. Guarded Combat resolves bracing, shield position and contested defensive exchanges. Training and actual delivery select the lane, not weapon shape or an exciting verb. Swords, glaives, halberds, lances, tridents, quarterstaffs, javelins, slings, sai, katars, gauntlets and tonfa all follow that distinction. A weapon-led charge, rush, leap or dive stays a physical weapon delivery; a body tackle or horn ram is a bodily Force action. A leap does not automatically turn a sword hit into acrobatics. 'Charge' is not a request to use a similarly named ability. A genuinely used named technique keeps its actual requirements, cost and scope. Room, footing and committed momentum can affect a supported result, never grant invented damage or an extra hit.\n\nMAGIC AND INVENTION\nA detached or remotely shaped spell uses its actual learned discipline. An infused weapon strike still resolves physical delivery once. Spellcraft resolves invention or substantial redesign, not an extra roll for every learned spell. Affinity supplies no proficiency. Space retains its Gravity foundation; Time remains reserved.\n\nPRACTICAL AND SOCIAL\nathletics: exertion and heavy movement. acrobatics: balance and agile navigation. Stealth: concealment. survival: wilderness judgment. investigation: systematic evidence. Perception: noticing. Insight: inference, not mind-reading. persuasion, intimidation, Deception, Etiquette, performance and Trade govern their actual resisted tasks; ordinary conversation, purchases and refusal need no check.\n\nCRAFT, CARE AND ORDERS\nMedicine treats without magic; Healing Magic casts restoration. Alchemy prepares mixtures; Magitech works equipment, foci and mechanisms; Enchantment changes properties. Cooking, Perfumery and Animal Handling keep their scopes. A routine understood order needs no check. Contested tactical coordination uses Tactics; controlling a summoned being uses the actual Summoning working, raised undead their actual Soul working, and an animal Animal Handling. Ordering an ally to attack is not the player's personal attack and gives no automatic damage boost. The ally's actual action resolves its own effect. No invented Command, weapon-family skill or second accuracy roll.",
+      "Exact Skill Routing": "PHYSICAL DELIVERY\nForce Combat resolves power, leverage, heavy entries and committed grapples. Finesse Combat resolves precise or quick weapon/unarmed delivery, aimed physical shots and timed footwork. Guarded Combat resolves bracing, shield position and contested defensive exchanges. Training and actual delivery select the lane, not weapon shape or an exciting verb. Swords, glaives, halberds, lances, tridents, quarterstaffs, javelins, slings, sai, katars, gauntlets and tonfa all follow that distinction. A weapon-led charge, rush, leap or dive stays a physical weapon delivery; a body tackle or horn ram is a bodily Force action. A leap does not automatically turn a sword hit into acrobatics. 'Charge' is not a request to use a similarly named ability. A genuinely used named technique keeps its actual requirements, cost and scope. Room, footing and committed momentum can affect a supported result, never grant invented damage or an extra hit.\n\nMAGIC AND INVENTION\nA detached or remotely shaped spell uses its actual learned discipline. An infused weapon strike still resolves physical delivery once. Spellcraft resolves invention or substantial redesign, not an extra roll for every learned spell. Affinity supplies no proficiency. Space retains its Gravity foundation; Time remains reserved.\n\nPRACTICAL AND SOCIAL\nathletics: exertion and heavy movement. acrobatics: balance and agile navigation. Stealth: concealment. survival: wilderness judgment. investigation: systematic evidence. Perception: noticing. Insight: inference, not mind-reading. persuasion, intimidation, Deception, Etiquette, performance and Trade govern their actual resisted tasks; ordinary conversation, purchases and refusal need no check.\n\nCRAFT, CARE AND ORDERS\nMedicine treats without magic; Healing Magic casts restoration. Alchemy prepares mixtures; Magitech works equipment, foci and mechanisms; Enchantment changes properties. Cooking, Perfumery and Animal Handling keep their scopes. A routine understood order needs no check. Contested tactical coordination uses Tactics; controlling a summoned being uses the actual Summoning working, raised undead their actual Soul working, and an animal Animal Handling. Ordering an ally to attack is not the player's personal attack and gives no automatic damage boost. The ally's actual action resolves its own effect. No invented Command, weapon-family skill or second accuracy roll.\nFishing/Intuition: rod casts and landing fish.",
       "Approach Mapping and Mixed Techniques": "Logic: Arcane, Metal, Gravity, Enchantment, Space. Passion: Fire, Lightning, Earth, Wind, Water. Empathy: Healing, Nature, Light, Summoning, Soul. Intuition: Divination, Void, Illusion, Ice, Sound. Reserved Time uses Logic but is not a starting study or affinity. Force includes power and resilience; Finesse timing and precision. No Endurance attribute exists. These are capabilities, not temperaments.\n\nAn infused physical strike resolves its delivery skill once; a detached spell resolves its discipline. A prerequisite supplies no extra skill total, automatic hit or second attack. Ordinary physical work costs no Mana. A demanding mixed technique can spend both its stated Mana and Stamina without two accuracy checks. Intentional bodily enhancement uses learned Enchantment; propulsion by a blast or current uses that element. Neither grants another turn.\n\nHistorical derivation does not make Water mandatory for Ice, Earth for Metal or Wind for Sound. Space requires Gravity preparation; Time additionally requires the exceptional actual teaching route. Affinity does not waive either requirement.",
       "Difficulty and Outcome Scope": "Use the task's allowed difficulty choices. Set them from the actual challenge and opposition, not what would make a dramatic scene or the player's best statistic. Preparation can reduce difficulty when it solves a real constraint; a compliment or fancy name is not preparation. Actual gear and abilities supply only their supported bonuses.\n\nAn attack on a dummy, plank, lock, barrier or test instrument targets that object, not the person who owns it. A controlled demonstration is not automatically lethal combat. A heal targets the beneficiary. A protective effect identifies the person or position protected. Collateral harm, splash, theft and witnesses need actual support; do not add them because an effect sounds impressive.\n\nSocial success secures the defined achievable concession: a truthful answer within knowledge, a reconsideration, access within scope, a permitted demonstration or practical cooperation. It cannot manufacture an authentic key, make false evidence true, compel desire or give universal authority. Conversely, do not erase success by restating the same refusal under another technicality. Accepted evidence remains accepted until genuine contrary evidence arises.\n\nPerception reveals what can be sensed. Investigation supports inference from accessible evidence. Insight can detect a mismatch without reading hiddenInfo. Divination follows its actual method and limits; the oracle is not omniscient. A lie believed by an NPC becomes a belief, not world history. Preserve those distinctions in any consequential update.\nA request to find and kill an absent boss does not establish a reachable target or complete travel through intervening rooms. Resolve the reachable action against the actual authored identity and current position. Native zero health is defeat; a further lethal action requires an actual living target and resolved outcome.",
       "Mana, Casting and Exhaustion": "Use the exact ability's cost/cooldown first. For a genuinely new working without a defined cost, the existing scale is minor 1–3 Mana, basic 6, moderate 14, powerful 30 and extreme 55, adjusted only for actual stated scope and justified limits. A released cast that misses normally still costs its committed mana. Do not refund a miss, charge twice for one infusion or add a second passive recharge.\n\nMana represents usable circulation. At zero Mana the person remains conscious; normal casting fails. A rare forced last spell needs the exceptional difficult authoritative resolution, never routine Health payment or spending vital mana. Hypothetical extraction below a threshold is not normal exhaustion. Humanoid soul extraction remains unobserved theory, not a standard Void technique, and refilling Mana does not automatically cure established shock.\n\nPersonalized blueprints, trained body casting and optional words/gestures are ordinary. A suitable mana-bearing catalyst assists; most have no stored reserve. A true external reserve must actually exist on the item. An enchanted object is not automatically magitech. Rare Freeform is difficult and usually slower; creativity with a familiar blueprint is not permission to bypass training.\n\nHealing treats actual injuries under its scope. No automatic reversal of age, lasting damage, death or shock. Mana transfusion remains an unsolved research problem with weak prototypes. Mana medicines are regulated; the word potion supplies no universal dose, price or numeric refill. Actual item use follows its effect once. Standard overuse can cause vomiting/migraine and poor return, not automatic fatal overdose. Research-only strong formulations need actual authorization and provenance.\n\nStamina follows its configured meter: basic physical actions are free; actual special exertion spends its stated cost once. Pure casting has no automatic Stamina tax. A mixed demanding technique can spend both. Zero Stamina does not make the actor unconscious or erase routine defense.",
@@ -64,11 +64,11 @@
       "Formation, Work and Forward Direction": "Origin should explain a few relevant influences, not an exhaustive life story. Use family, community, work, interests or training when supported. Adults can come from ordinary stable homes without an invented tragedy. Foreign identities can keep their actual language/cultural names, including French-rendered Elvish. Mostly human Glowhaven still has nonhuman residents and immigrants.\n\nCurrent life should answer what they actually do, how their chosen practice fits and why the opening makes sense. A brawler can have trained physical discipline; a research student can know introductory blueprints; an apprentice can have a narrow useful craft. Do not describe advanced mastery unsupported by actual starting skills. A respectable job need not hide a heroic destiny.\n\nForward direction is a present interest, need, question or ambition, not future behavior chosen for the player. It can be companionship, study, reliable income, an unusual technique, a personal project or seeing another region. No compulsory academy plot, distant villain, romance route or lifetime oath is required. Leave the first decision to actual play.",
       "Attribute and Skill Fidelity": "Use Force, Finesse, Logic, Passion, Empathy and Intuition. Force includes physical power, resilience and sustained exertion; Finesse supports precision and movement. Neither is obsolete because magic is common. A strong spellblade, fast brawler, guarded fighter, dedicated caster or practical noncaster is valid. No separate Endurance or new stat pool is invented.\n\nLogic: Arcane, Metal, Gravity, Enchantment, Space. Passion: Fire, Lightning, Earth, Wind, Water. Empathy: Healing, Nature, Light, Summoning, Soul. Intuition: Divination, Void, Illusion, Ice, Sound. These are not personality or moral categories. Quiet Passion, selfish Empathy and an unacademic physical specialist can all fit. A high analytical aptitude does not force a scholarly voice or a kind heart.\n\nUse actual primary/secondary aptitude choices and their real grants. Do not add points for an eloquent backstory or use one affinity to award every related school. Describe a small repertoire compatible with starting skill. Ordinary physical attacks do not need Mana; a mixed magical technique needs its actual training and cost. No free second attack or summed-attribute formula is created in biography.",
       "Casting and Equipment Coherence": "Body casting is ordinarily trainable, not exclusive to a prodigy. Personal blueprints can use words, gestures and materials as aids without requiring them for every spell. A suitable mana-bearing focus assists learned control; most have no extra reserve. A weaponless person stays weaponless. A martial kit can be meaningful without a secret enchanted relic.\n\nMention real normally carried weapons first if present, then actual tools or focus. Do not invent a weapon merely to fill equipment. Clothes can be role-appropriate and specific while changing normally in play. A decorative object does not grant a bonus, affinity, stored mana or skill. Hand-Casting Practice emphasizes a chosen habit rather than permission that every other person lacks.\n\nIntentional bodily enhancement is learned Enchantment; elemental propulsion is the actual school. Rare Freeform mastery, routine soul extraction and perfected mana transfusion are not background rewards. A new student can understand basic theory without mastering every practical application. A rare affinity can be weak or frustrating rather than an immediate ultimate power.\nSpellcraft is a universal foundation, not compulsory mage identity. A known spell uses its discipline; invention uses Spellcraft. No Time affinity, starting Time skill, secret Time mentor or temporal awakening is created. Space, like Time, is not offered at player creation; do not supply it through background invention. Soul Studies covers its actual introductory training. Magitech replaces the former Artifice skill; its name is not an affinity. Ordinary physical actions remain viable through Health, Mana and Stamina rules.",
-      "Appearance Construction and Support": "APPEARANCE SOURCES\nUse selected hair, eyes, skin, build, outfit, accessories and individual Beastfolk/Fae anatomy. Written appearance resolves conflicts. Bald or shaved scalps override hair-color selections. Preserve actual age presentation and species. Skipped choices invite compatible visual design, not new possessions, powers or affiliations.\n\nFINAL PLAYER IMAGE BRIEF\nBegin Appearance with exactly: ## GLOWHAVEN PLAYER PORTRAIT\nWrite one coherent, self-contained image brief in this order: art direction; individual identity and expression; concrete clothing and accessories; gesture and framing; camera; setting and light. This is the visual handoff, not a new biography. Replace labels such as \"academy clothes\" with actual colors, garment cut and emblem. Do not assume the image generator has access to the selected start, lore or other fields.\n\nDEFAULT ART DIRECTION\nPremium fantasy RPG anime character illustration, with the presence and finish of a main-character key visual: fine, confident linework, expressive individually designed anime eyes, layered painted shading with soft gradients, richly detailed hair and clothing, luminous directional light and atmospheric depth. Combine clear drawn contours with delicate transitions of light across skin, fabric, leather and metal. Keep the face distinctly anime and the materials beautifully illustrated.\nMake the player the unmistakable focal character through silhouette, expression, costume detail and light. An ordinary outfit can be thoughtfully designed. Do not invent a noble title, expensive gear, an altered body or a spectacular spell merely to make the picture impressive. Follow an explicit alternative Portrait Style.\n\nACADEMY CLOTHES\nPhoenix Wing: crimson red, a phoenix bird with spread wings emblem; Hydra Head: violet purple, a many-headed hydra emblem; Gryffin Tail: cyan blue, a winged gryffin emblem; Dragon Hoard: yellow and gold, a dragon emblem.\nFor an explicit school-specific outfit use that school; for the generic academy student/faculty outfit resolve the selected academy Story Start or established school. Include the full school name, substantial uniform-color panels, and one embroidered pictorial creature crest on breast, collar or shoulder in the final brief. Use a student uniform or instructor's coat/robes as selected; preserve the chosen person's build, individual tailoring and accessories. An emblem has no letters or school-name text. If no school is established, use ordinary scholarly clothing without inventing affiliation. Cosmetic uniform selection alone confers no membership.\n\nCOMPOSITION\nDefaults: whole head and hair with comfortable breathing room, waist-up or hip-up, natural eye-level or three-quarter view. Explicit Portrait Framing, Camera and Background choices override those defaults, including deliberate close-ups and full-body pictures. A close-up may trim outer hair or hat edges while preserving the face. A picture backdrop never moves the character or grants ownership. Layer selected accessories over the outfit; use actual held gear only.\n\nFINISH\nFavor fine linework, dimensional illustrated materials, soft layered shading, lively hair and fabric, and lighting appropriate to the actual setting. Keep the face anime; no photographic skin, plastic CGI, broken anatomy, text, watermark or UI. One focal person. Effects, when supported, are clear and expressive without obscuring face or clothing. Output only the final visual brief in the Appearance field; do not include save paths, internal validation steps or this instruction text.",
+      "Appearance Construction and Support": "APPEARANCE SOURCES\nUse selected hair, eyes, skin, build, outfit, accessories and individual Beastfolk/Fae anatomy. Written appearance resolves conflicts. Bald or shaved scalps override hair-color selections. Preserve actual age presentation and species. Skipped choices invite compatible visual design, not new possessions, powers or affiliations.\n\nFINAL PLAYER IMAGE BRIEF\nBegin Appearance with exactly: ## GLOWHAVEN PLAYER PORTRAIT\nWrite one coherent, self-contained image brief in this order: art direction; individual identity and expression; concrete clothing and accessories; gesture and framing; camera; setting and light. This is the visual handoff, not a new biography. Replace labels such as \"academy clothes\" with actual colors, garment cut and emblem. Do not assume the image generator has access to the selected start, lore or other fields.\n\nDEFAULT ART DIRECTION\nA richly designed 2D fantasy-anime character illustration with the presence of a main-character key visual. Use expressive drawn eyes, simplified anime nose and mouth, clearly drawn facial contours and smooth colored shadow shapes with selective soft transitions. Keep skin illustration-flat and clean; put intricate detail into hair, costume, embroidery and the setting. Luminous color and vivid supported effects give the picture energy. The face must read as anime drawing, without photographic skin, sculpted facial planes or a rendered 3D face.\nMake the player the unmistakable focal character through silhouette, expression, costume detail and light. An ordinary outfit can be thoughtfully designed. Do not invent a noble title, expensive gear, an altered body or a spectacular spell merely to make the picture impressive. Follow an explicit alternative Portrait Style.\n\nACADEMY CLOTHES\nPhoenix Wing: crimson red, a phoenix bird with spread wings emblem; Hydra Head: violet purple, a many-headed hydra emblem; Gryffin Tail: cyan blue, a winged gryffin emblem; Dragon Hoard: yellow and gold, a dragon emblem.\nFor an explicit school-specific outfit use that school; for the generic academy student/faculty outfit resolve the selected academy Story Start or established school. Include the full school name, substantial uniform-color panels, and one embroidered pictorial creature crest on breast, collar or shoulder in the final brief. Use a student uniform or instructor's coat/robes as selected; preserve the chosen person's build, individual tailoring and accessories. An emblem has no letters or school-name text. If no school is established, use ordinary scholarly clothing without inventing affiliation. Cosmetic uniform selection alone confers no membership.\n\nCOMPOSITION\nDefaults: whole head and hair with comfortable breathing room, hip-up with both hips and the top of the thighs visible below the waist and belt, natural eye-level or three-quarter view. Pull the camera back to include the lower outfit; a torso cropped at the waist is waist-up, not hip-up. Explicit Portrait Framing, Camera and Background choices override those defaults, including deliberate close-ups and full-body pictures. A close-up may trim outer hair or hat edges while preserving the face. A picture backdrop never moves the character or grants ownership. Layer selected accessories over the outfit; use actual held gear only.\n\nFINISH\nFavor expressive anime drawing, clean smooth facial shadows, detailed illustrated costume, lively hair and fabric, and light appropriate to the setting. Keep the face anime; no photographic skin, plastic CGI, broken anatomy, text, watermark or UI. One focal person. Effects, when supported, are clear and expressive without obscuring face or clothing. Output only the final visual brief in the Appearance field; do not include save paths, internal validation steps or this instruction text.",
       "Canonical Names and Background Review": "Keep exact identity, spelling and diacritics. Names in record references stay canonical full names; natural dialogue can shorten address when clear. New local name suggestions use the configured Japanese-inspired pattern, with existing foreign variation. Do not append a surname to a complete replacement or copy a recognizable anime character's full name.\n\nReview for agreement between all output fields: same body, age, role, appearance, actual kit, starting skills and background. Four-year academic standing is included only if actual enrollment/progress establishes it; do not invent a fourth-year past for an explicitly new entrant. No unchosen titles, allies, powers, grants or secret romance. Return the requested fields without a planning checklist or schema additions.",
       "Specificity Within the Chosen Life": "Use ordinary causal detail to make the chosen background feel authored: what kind of work taught patience, what exercise they keep returning to, what they like about a craft, what expense matters, which part of study comes easily and what they still avoid. Draw from selected history and identity rather than filling every slot with a dramatic incident.\n\nFormation can be practical, social, intellectual or physical. Someone can learn magic for household convenience before becoming serious about it. A martial learner can respect magical theory without wanting to cast. A future merchant may care about reliable goods more than adventure. A local can love the city and still resent an academy privilege. Mixed motives are enough; no secret cause is required for every preference.\n\nDo not turn a stat into a compulsory disposition. High Force does not require aggression, high Finesse vanity, high Logic bookishness, high Passion anger, high Empathy kindness or high Intuition mystery. Explain what training makes the actual chosen capabilities plausible while leaving the player's social behavior open. A build can support several playstyles without the biography choosing one forever.",
       "Repertoire, Limits and First Ambitions": "Describe a few practiced methods compatible with actual starting skills and grants. An introductory repertoire can be useful: a small ward, a familiar element's controlled release, a trained physical guard, a craft routine or field observation. Do not list moves as mechanically owned unless their actual grant supports it. A plausible cantrip habit is not a named advanced ability.\n\nGive a limitation that follows the choices only when useful: unfamiliar theory, a narrow practical repertoire, no experience in a particular environment or an ordinary need for tools. Do not invent a hidden disability, debt, humiliating failure or permanent penalty to balance strong statistics. The player's chosen weakness can be honored without making every future scene about it.\n\nAn ambition can point toward play without becoming mandatory: understanding a phenomenon, improving a technique, finding reliable work, exploring an existing region, making a home or meeting people. It remains an aspiration until pursued. Avoid promising future graduation, romance, ownership or a court office in the final paragraph.",
-      "Appearance Depth and Visual Continuity": "VISUAL CONTINUITY\nDesign one individual face and silhouette with the finish of a leading fantasy RPG character illustration: fine expressive drawing, soft layered shading, detailed illustrated materials and fitting atmospheric light. Selected identity, age presentation, body, clothing and accessories remain authoritative. Avoid a stock glamour face or mandatory combat pose. An explicit alternative style/crop/viewpoint takes priority over the defaults. Resolve academy uniforms into their actual colors and pictorial creature crests before handing off the final brief. Keep hats and accessories compatible with the person's anatomy. Visual choices do not grant possessions, magic, affiliation or travel. Existing approved portraits retain their identity and URL unless regeneration is requested.",
+      "Appearance Depth and Visual Continuity": "VISUAL CONTINUITY\nDesign one individual face and silhouette with the finish of a leading fantasy RPG character illustration: expressive 2D anime drawing, simplified drawn facial features, clean smooth facial shadow shapes and detailed illustrated costume and fitting atmospheric light. Selected identity, age presentation, body, clothing and accessories remain authoritative. Avoid a stock glamour face or mandatory combat pose. An explicit alternative style/crop/viewpoint takes priority over the defaults. Resolve academy uniforms into their actual colors and pictorial creature crests before handing off the final brief. Keep hats and accessories compatible with the person's anatomy. Visual choices do not grant possessions, magic, affiliation or travel. Existing approved portraits retain their identity and URL unless regeneration is requested.",
       "Source Priority and Final Self-Check": "Selected explicit player direction and identity first; actual character-creation traits and their defined grants next; compatible world/start context next; inferred connective detail last. Unselected categories are not hidden choices. A supplied custom format can override the default paragraph plan while preserving actual field contracts and facts.\n\nCheck each sentence for an unearned assertion: a famous teacher, loyal friend, prior relationship, hidden title, special equipment, skill mastery, reserve, key or obligation. Keep supported detail and remove the grant implied by a colorful phrase. 'Hopes to study under a professor' is not 'has their private patronage'. 'Carries the selected saber' is not 'owns an ancestral blade that cannot break'.\n\nDo not flatten the finished result into generic vagueness. If generation was requested, make compatible choices concrete: actual visual colors, practical history, a present interest and a usable first context. Respect intentional uncertainty where it was asked for. Return the requested fields without publishing the working checklist.",
       "Biography, Visual State and Playable Means": "Keep background claims within the actual selected traits, stats, skills, equipment and host premise. Explain what the person learned and does; do not promote an enthusiastic beginner into an acknowledged master or invent a rare affinity to justify a high social statistic. A physical fighter, worker or noncaster is as valid as a full mage. Two approaches can be combined through the existing skills without a new hybrid attribute.\nThe appearance describes the selected current body and visible belongings. Separate a habitual item from a starting inventory grant; a wealthy relative, workplace tool or remembered family weapon is not automatically carried property. Avoid invented scars, secret ancestry, signature spells or uniforms for institutions not actually joined. Where an unspecified visual choice is needed, choose a coherent concrete detail rather than a TBD, preserving explicit hair and eye colors.\nKeep the required output fields and this world's existing background format. Do not import another world's image-model headers, long appearance word counts, rebirth assumptions, cheat menu or four-paragraph lock. The result should give a usable person and first ambitions, not pre-complete their campaign."
     },
@@ -224,7 +224,8 @@
       "Specific Equipment, Keepsakes and Living Use": "Make equipment distinct through actual form, handling, material and workmanship. A plain reliable tool can matter; a ceremonial-looking weapon can still be practical; a personal focus can reflect habits without containing an ultimate. Keep the requested object rather than converting every commission into a generic glowing sword.\n\nHistory can enrich an object without changing mechanics. A repaired grip, an inscription actually requested, a gift's occasion or a witnessed deed can make it recognizable. A sentimental object can be valuable to the person while having little sale value. An item linked to affection does not compel love or automatically add relationship points each time it is mentioned.\n\nUse real physical scale and storage. A large focus, shield or chained pair of blades has actual carrying needs without inventing a new encumbrance meter. A room installation stays in the room; its receipt can preserve where. A tool loaned for a test remains returnable and does not become the borrower's heirloom. Clothing changes can retain signature equipment without making the outfit immutable.\n\nReplacement and repair are not duplication. If an actual upgrade substitutes a part, reflect the real changed object/consumed materials once. An old version does not remain as a free second saleable copy unless a real separate object exists. Existing images can remain until a user requests new art; an item description change is not permission to overwrite them.",
       "Keys, Credentials and Information Items": "CREDENTIALS AND SINGLE GRANTS\nGuild badges have exactly four catalogue identities: Guild Badge: Bronze, Guild Badge: Silver, Guild Badge: Gold and Guild Badge: Platinum. All are Documents. Their typed licensure/promotion effects own issuance and exchange. This item task must not add another badge for a narrated ceremony or define an alias such as Bronze Guild Badge, Adventurer Badge or a Relic version. An existing badge shown or mentioned is the same object. High level, a profession or a claimed licence grants none. Preserve actual images and quantities. Ordinary new unrelated objects can still be generated.\n\nKEYS AND RECORDS\nUse the exact existing type for keys, route tokens, admission packets, appointment letters, custody receipts and installed-goods receipts. State the actual place, issuer, holder and agreement. A receipt records the installed object; it is not a portable duplicate. Authorization and supported issuance determine acquisition. Status, a claim, a drawing or a mention grants no court key. Follow actual destinations, return points and reuse; do not consume reusable keys or grant a fresh copy on each trip. A lost credential needs a real replacement agreement.\n\nAn acquisition is applied once by its owner. When a typed effect supplies an item, this task neither grants a second copy nor invents a new definition for the narrated handover. Preserve actual transfers and custody.",
       "Exact Categories, Slots and Crafting Ceiling": "Use exact configured categories: Currency, Armor, Weapon, Tool, Consumable, Key, Document, Relic. A shield is a Weapon, a nonweapon focus is a Tool; a wearable accessory uses Armor. Preserve actual catalogue identities. Slots and capacities follow itemSettings exactly, including Accessories and Back with their capitalized keys. Carried supplies need no slot. Passive equipped bonuses require a matching slot and actual equipping.\nUse the configured tier names, generation permissions and bonus-pick limits. A rare appearance is not authority to invent legendary power. Native bonuses must stay within the actual supported fields and world calibration; no new rarity, charge or crafting schema. Conjured matter is temporary; lasting crafting alters real materials with actual costs and work. An enchantment is not a device battery or a free extra action. Preserve real owner, handover, quantity and payment once.",
-      "Teaching Scrolls and Learned Formulas": "A Teaching Scroll is an actual finite readable Document. Its text is not itself permission to award a spell after inspecting a label. Resolve deliberate study: trained formulas may take one successful focused exercise; advanced ones require understanding and a controlled test; master works require meaningful research, correction and a real final success. A low discipline rank can be compensated by excellent study, not by claiming an unwitnessed project. Failed work leaves the scroll intact. Preserve Space's Gravity foundation and all Time restrictions.\n\nThe item31_study effects alone grant the exact Formula trait and ability and consume one scroll for its actual reader. Do not duplicate these operations, spend an ability point, award skills or affinities, or consume another copy of a known formula. A gift recipient is not the learner until they study it. The learned-formula trait records real understanding in ordinary terms, not a new creation choice. Casting remains an actual discipline check with the spell's Mana, scope and cooldown; learning a master formula at low skill does not promise a successful master casting."
+      "Teaching Scrolls and Learned Formulas": "A Teaching Scroll is an actual finite readable Document. Its text is not itself permission to award a spell after inspecting a label. Resolve deliberate study: trained formulas may take one successful focused exercise; advanced ones require understanding and a controlled test; master works require meaningful research, correction and a real final success. A low discipline rank can be compensated by excellent study, not by claiming an unwitnessed project. Failed work leaves the scroll intact. Preserve Space's Gravity foundation and all Time restrictions.\n\nThe item31_study effects alone grant the exact Formula trait and ability and consume one scroll for its actual reader. Do not duplicate these operations, spend an ability point, award skills or affinities, or consume another copy of a known formula. A gift recipient is not the learner until they study it. The learned-formula trait records real understanding in ordinary terms, not a new creation choice. Casting remains an actual discipline check with the spell's Mana, scope and cooldown; learning a master formula at low skill does not promise a successful master casting.",
+      "Fishing Stock and Catches": "Fishmongers sell canonical tackle. Fishing effects own fish grants and bait costs; never duplicate them. Release, sale and cooking transfer real fish once. Fish restore no resources."
     },
     "summarization": {
       "custom": "MEMORY PURPOSE\nPreserve what would break the next scene if forgotten. This is a running continuity record, not a transcript, a campaign review or a new scene. Merge still-relevant older memory with actual new developments. Do not reconstruct everything from the last exchange, re-award state through prose or invent events to connect gaps.\n\nPRIORITY ORDER\nCurrent actual realm/location/area and traveling group; the immediate unresolved exchange; consequential task status and conditions; actual property/payments/custody; meaningful relationship developments and boundaries; evidence and who knows it; learned methods and important discoveries; one or two specific useful callbacks. Drop repeated gestures, atmosphere and greetings before load-bearing facts.\n\nTRUTH DISCIPLINE\nDistinguish fact, claim, report, suspicion, lie, delusion and prophecy. Name who said or believes something and its real evidence. A chuunibyou's invented power remains a performance; a theory remains a theory; a prophecy is not a verified future or countdown. Do not promote an illustrative prompt example into an incident. Private knowledge stays with actual knowers, not every person mentioned.\n\nUse supplied current structured state for quantities, position, level, skills, Health/Mana, inventory and quest status. Do not recalculate from an incomplete paragraph or overwrite a newer value with an old summary. If a narration/state discrepancy remains unresolved, preserve it as such rather than certifying the unsupported event. A return requested but not recorded is not a completed arrival. A later recap does not grant the same item, payment or relationship change again.",
@@ -33309,6 +33310,12 @@
     },
     "Academic Feedback and Opportunity": {
       "text": "Teachers assess work they actually see and communicate what needs attention. Meeting expectations means the current work is adequate; needs improvement names a particular shortcoming and a feasible way to practice or revise; at risk follows serious misconduct or a continuing pattern of neglected responsibilities, not one awkward answer. These are qualitative judgments about the current course, not permanent labels for a person's worth. Feedback can be challenged with actual evidence. Successful repair changes later feedback and opportunities. Recommendations, supervised responsibilities and scarce placements depend on relevant work and conduct, without guaranteeing one outcome for every student.\n\nA defensive exercise can reveal whether someone looks after a partner. A research demonstration tests whether a claim survives an honest method. Field readiness can earn confidence without a reckless recovery. A civic exercise asks whether proposals can actually be carried out. These institutional emphases leave room for every discipline, martial method, temperament and chosen ambition."
+    },
+    "Angling around Glowhaven": {
+      "text": "Glowhaven’s rivers, estuary, harbor and rocky coast support a varied fishing trade. Makiho Akitsu sells ordinary tackle at Gullwatch Reefs and teaches practical angling; local fishmongers carry rods, bait and common catches, with finer reusable lures less common. A basic rod includes a reusable spinner, so worms and paste are a choice rather than a necessity. Rain brings loaches and eels toward feeding grounds; clear shallows favor brightly patterned reef fish. Mist sometimes reveals the strange sheen of a Moonmirror Dace. Open-water anglers speak of Crownfin Sailfish and the blue light of Lanternjaw Anglers. A boat and safe footing matter more than boasting. Mauruun is a protected resting animal to local fishers; Nerathyl’s ledge and the kraken’s approaches are serious hazards, not everyday fishing grounds."
+    },
+    "Glowhaven Weather and Water": {
+      "text": "Glowhaven has coastal squalls, drifting sea fog, clear spells and ordinary inland rain. A change in the sky usually develops over time; different waters can remain under different conditions. Fog hides approaches, wind roughens exposed water, and a passing storm is a good reason to wait ashore. Buildings, sheltered coves and sensible local knowledge remain useful. These local patterns say nothing about the climate beyond the Evertree’s portals."
     }
   },
   "storyStarts": {
@@ -40708,6 +40715,404 @@
       "tier": "mundane",
       "estimatedValue": 9,
       "description": "A sealed portion of bean stew and smoked fish prepared for a short field trip. Hearty enough for a cold watch, though its smokiness tends to linger.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Pinewater Perch": {
+      "name": "Pinewater Perch",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 3,
+      "description": "An olive-backed river fish with copper bars and a stubbornly raised dorsal fin. Good pan-fried with herbs.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Brookmeadow Roach": {
+      "name": "Brookmeadow Roach",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 2,
+      "description": "A silver river fish with orange fins. Brookmeadow cooks flour the smaller ones and fry them crisp.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Millpond Crucian": {
+      "name": "Millpond Crucian",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 3,
+      "description": "A deep-bodied bronze fish that feeds near quiet banks. Its muddy-looking scales hide delicate flesh.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Willowback Trout": {
+      "name": "Willowback Trout",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 5,
+      "description": "A spotted trout with a green sheen along its back. It favors cool running water and makes excellent supper.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Button-Eyed Minnow": {
+      "name": "Button-Eyed Minnow",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 1,
+      "description": "A tiny schooling fish with round dark eyes. More impressive as a living flash of silver than as a meal.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Rainbell Loach": {
+      "name": "Rainbell Loach",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 3,
+      "description": "A whiskered bottom-feeder that makes a faint clicking sound when wet stones touch its scales.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Reedstripe Mullet": {
+      "name": "Reedstripe Mullet",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 3,
+      "description": "A striped estuary fish that noses through soft sediment. Usually smoked or cooked in a strong broth.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Brackish Bream": {
+      "name": "Brackish Bream",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 4,
+      "description": "A pale bream with a faint green edge to each scale. Its feeding grounds move with the river mouth.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Mud-Sleeve Goby": {
+      "name": "Mud-Sleeve Goby",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 1,
+      "description": "A mottled little fish with oversized pectoral fins, forever looking as though it has lost its sleeves.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Greenrush Flounder": {
+      "name": "Greenrush Flounder",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 4,
+      "description": "A flat fish with leaflike mottling. It lies almost invisible against sand and is prized for a simple butter fry.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Harbor Herring": {
+      "name": "Harbor Herring",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 2,
+      "description": "A bright-sided schooling fish, familiar to harbor cooks, gulls and anyone who has carried an unsealed basket.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Lantern Sardine": {
+      "name": "Lantern Sardine",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 2,
+      "description": "A small oily fish with a gold spot beside each gill. Its lantern name comes from reflected light.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Dockside Smelt": {
+      "name": "Dockside Smelt",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 2,
+      "description": "A translucent harbor fish with a clean cucumber scent. Best eaten fresh and cooked thoroughly.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Copper-Gill Mackerel": {
+      "name": "Copper-Gill Mackerel",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 4,
+      "description": "A strong swimmer with blue markings and copper-red gill covers. Its meat is rich and oily.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Whitecrest Whiting": {
+      "name": "Whitecrest Whiting",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 3,
+      "description": "A pale coastal fish with a long soft body. Fishmongers like its mild flesh and lack of fuss.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Pebble Sole": {
+      "name": "Pebble Sole",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 4,
+      "description": "A compact flatfish patterned like a handful of shore pebbles. It favors quiet sandy pockets.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Ribbon Garfish": {
+      "name": "Ribbon Garfish",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 5,
+      "description": "A narrow green-backed fish with a needlelike snout. Its bones turn a startling blue-green when cooked.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Crescent Sea Bass": {
+      "name": "Crescent Sea Bass",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 6,
+      "description": "A thick coastal hunter with a crescent mark behind the eye. A fine meal, if landed before it finds cover.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Silver-Tail Pollock": {
+      "name": "Silver-Tail Pollock",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 4,
+      "description": "A useful sea fish with a sharply forked silver tail. Often salted aboard working boats.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Sandburrow Gurnard": {
+      "name": "Sandburrow Gurnard",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 4,
+      "description": "A broad-headed fish with fanlike fins. Its ungainly appearance has never troubled a good cook.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Glassvein Char": {
+      "name": "Glassvein Char",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 9,
+      "description": "A cool-water char whose fine scales show branching silver lines. The pattern fades after preservation.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Bottle-Green Tench": {
+      "name": "Bottle-Green Tench",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 7,
+      "description": "A smooth, heavy fish with a bottle-green back and tiny red eyes. It tests patience more than strength.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Amberfin Eel": {
+      "name": "Amberfin Eel",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 9,
+      "description": "A gold-finned eel that slips through flooded roots. Its shed slime is useful in ordinary waterproofing mixtures.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Pearlspot Wrasse": {
+      "name": "Pearlspot Wrasse",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 8,
+      "description": "A colorful reef fish with pearly spots. Some collectors prefer a careful sketch and its release to a sale.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Blueglass Needlefish": {
+      "name": "Blueglass Needlefish",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 10,
+      "description": "A nearly transparent blue fish that vanishes against open water. Its reflective scales interest pigment makers.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Velvet Skate": {
+      "name": "Velvet Skate",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 11,
+      "description": "A soft gray skate with dark velvet patches on its wings. Handle gently and keep clear of the tail.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Stormstripe Bonito": {
+      "name": "Stormstripe Bonito",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 12,
+      "description": "A powerful striped sea fish that hunts beneath wind-ruffled water. Fresh slices are a ship cook’s luxury.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Moonmirror Dace": {
+      "name": "Moonmirror Dace",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 24,
+      "description": "A scarce silver dace whose scales reflect a second, slightly displaced moon. The effect is beautiful and brief.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Lanternjaw Angler": {
+      "name": "Lanternjaw Angler",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 30,
+      "description": "A deepwater fish with a blue lure over its jaws. An intact lure is a curious alchemical specimen, not a ready-made lamp.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Crownfin Sailfish": {
+      "name": "Crownfin Sailfish",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 38,
+      "description": "A rare open-water fish with a sweeping golden dorsal crest. Its first run can empty a careless angler’s spool.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Angler’s Rod": {
+      "name": "Angler’s Rod",
+      "category": "Tool",
+      "tier": "mundane",
+      "estimatedValue": 12,
+      "description": "A springy ash rod with a small reel, hook, float and reusable plain spinner. Suitable for river, shore or boat fishing; bait is optional. Dry the fittings after salt water.",
+      "bonuses": [],
+      "needsMediaGeneration": true,
+      "slot": "tool"
+    },
+    "Angler’s Bait Portion": {
+      "name": "Angler’s Bait Portion",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 1,
+      "description": "One wrapped portion of worms, grubs and prepared paste. Enough to bait a single cast. It attracts bottom-feeding fish and gives patient fish more reason to bite.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Painted Willow Lure": {
+      "name": "Painted Willow Lure",
+      "category": "Tool",
+      "tier": "mundane",
+      "estimatedValue": 18,
+      "description": "A hand-painted reusable lure with a leaf-shaped blade. It catches the light with a gentle wobble.",
+      "bonuses": [
+        {
+          "type": "skill",
+          "variable": "Fishing",
+          "value": 1
+        }
+      ],
+      "needsMediaGeneration": true,
+      "slot": "tool"
+    },
+    "Tideglass Spinner": {
+      "name": "Tideglass Spinner",
+      "category": "Tool",
+      "tier": "artisan",
+      "estimatedValue": 65,
+      "description": "An articulated blue-glass spinner balanced for coastal water. Small replaceable links keep it moving without a violent splash.",
+      "bonuses": [
+        {
+          "type": "skill",
+          "variable": "Fishing",
+          "value": 3
+        }
+      ],
+      "needsMediaGeneration": true,
+      "slot": "tool"
+    },
+    "Rainbell Float": {
+      "name": "Rainbell Float",
+      "category": "Tool",
+      "tier": "mundane",
+      "estimatedValue": 14,
+      "description": "A striped cork float with a tiny brass bell. Useful for noticing a quiet bite when rain dims the surface.",
+      "bonuses": [
+        {
+          "type": "skill",
+          "variable": "Perception",
+          "value": 1
+        }
+      ],
+      "needsMediaGeneration": true,
+      "slot": "tool"
+    },
+    "Angler’s Finger Guards": {
+      "name": "Angler’s Finger Guards",
+      "category": "Armor",
+      "tier": "mundane",
+      "estimatedValue": 16,
+      "description": "Soft leather guards protect the fingers handling line. They leave the fingertips free to feel a change in tension.",
+      "bonuses": [
+        {
+          "type": "skill",
+          "variable": "Fishing",
+          "value": 1
+        }
+      ],
+      "needsMediaGeneration": true,
+      "slot": "hands"
+    },
+    "Reed-Woven Creel": {
+      "name": "Reed-Woven Creel",
+      "category": "Tool",
+      "tier": "mundane",
+      "estimatedValue": 10,
+      "description": "A ventilated basket for carrying a modest catch. Wet reeds keep fish cool for a short walk; it is no substitute for preservation.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Saltproof Line Spool": {
+      "name": "Saltproof Line Spool",
+      "category": "Tool",
+      "tier": "mundane",
+      "estimatedValue": 8,
+      "description": "A spare length of treated braided line, neatly wound and waxed against salt. Useful for an actual replacement or repair.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Angler’s Field Ledger": {
+      "name": "Angler’s Field Ledger",
+      "category": "Document",
+      "tier": "mundane",
+      "estimatedValue": 6,
+      "description": "Blank waterproofed pages for sketches, lengths, weather notes and fishing grounds, with a small ruler printed along the cover.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Pocket Fish Measure": {
+      "name": "Pocket Fish Measure",
+      "category": "Tool",
+      "tier": "mundane",
+      "estimatedValue": 5,
+      "description": "A folding marked rule and a soft sling for measuring a catch without laying it on hot stone.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Smoke-Salt Packet": {
+      "name": "Smoke-Salt Packet",
+      "category": "Tool",
+      "tier": "mundane",
+      "estimatedValue": 4,
+      "description": "A small packet of curing salt and aromatic wood shavings. Enough for a little catch, with proper preparation and drying.",
       "bonuses": [],
       "needsMediaGeneration": true
     }
@@ -51148,6 +51553,13 @@
       "attribute": "logic",
       "description": "An exceptionally difficult development of Space concerned with temporal relationships rather than an oracle’s observation. This discipline is reserved knowledge, not an ordinary curriculum or affinity.\n\nScope: Theoretical local acceleration, delay, temporal anchoring and other tightly defined chronal workings only after exceptional instruction has actually been established.\n\nPractice and mastery: The initial research benchmark is Space Magic 75 and Spellcraft 80, plus a genuine exceptional teaching source or breakthrough established in the story. These numbers alone do not teach Time. Ordinary curricula, public spellbooks and readily available teachers do not offer instruction in it.\n\nBoundaries: No character receives a Time affinity, including oracles. Omit Time from character creation, random affinities. Familiarity with clocks, Divination, asking for a Time spell or rolling well on an unrelated action is not access. Temporal fiction cannot silently reverse authoritative quests, deaths, inventory or map state; such a working would need an explicitly supported design.\n\nApproach: Logic. This describes magical execution, not a required personality or morality. Casting a learned spell uses this discipline. Designing a new spell or substantially changing its blueprint uses spellcraft.",
       "startingItems": []
+    },
+    "Fishing": {
+      "name": "Fishing",
+      "type": "utility",
+      "attribute": "intuition",
+      "description": "Reading a fishing ground, choosing tackle, presenting bait or a lure, judging a bite and landing an actual fish. Better technique improves a genuine fishing action; rare catches demand a thoughtful response to their movement. An observed shoal is not an acquired catch. Fishing never supplies a boat, bait, safe footing or knowledge of every species.",
+      "startingItems": []
     }
   },
   "traits": {
@@ -58183,8 +58595,8 @@
     },
     "Portrait Style — Fantasy RPG illustration": {
       "name": "Portrait Style — Fantasy RPG illustration",
-      "description": "A leading-character fantasy RPG illustration: fine anime linework, softly layered painted shading, detailed clothing and materials, expressive eyes and luminous light.",
-      "traitNarrativeEffects": "A leading-character fantasy RPG illustration: fine anime linework, softly layered painted shading, detailed clothing and materials, expressive eyes and luminous light. Image direction only; preserve the actual identity, species, clothing and equipment. No powers, status or possessions are granted.",
+      "description": "A leading-character fantasy RPG illustration: fine anime linework, clean anime facial shadow shapes, detailed clothing and materials, expressive eyes and luminous light.",
+      "traitNarrativeEffects": "A leading-character fantasy RPG illustration: fine anime linework, clean anime facial shadow shapes, detailed clothing and materials, expressive eyes and luminous light.",
       "attributes": [],
       "skills": [],
       "resources": [],
@@ -58196,8 +58608,8 @@
     },
     "Portrait Style — Dramatic gacha illustration": {
       "name": "Portrait Style — Dramatic gacha illustration",
-      "description": "A lavish anime character key visual with flowing costume, dimensional painted shading, dramatic light and vivid supported magical motifs. Preserve a clear face and an individual silhouette.",
-      "traitNarrativeEffects": "A lavish anime character key visual with flowing costume, dimensional painted shading, dramatic light and vivid supported magical motifs. Preserve a clear face and an individual silhouette. Image direction only; preserve the actual identity, species, clothing and equipment. No powers, status or possessions are granted.",
+      "description": "A lavish anime character key visual with flowing costume, drawn anime features and clean facial shading, dramatic light and vivid supported magical motifs. Preserve a clear face and an individual silhouette.",
+      "traitNarrativeEffects": "A lavish anime character key visual with flowing costume, drawn anime features and clean facial shading, dramatic light and vivid supported magical motifs. Preserve a clear face and an individual silhouette.",
       "attributes": [],
       "skills": [],
       "resources": [],
@@ -58235,8 +58647,8 @@
     },
     "Portrait Style — Elegant linework": {
       "name": "Portrait Style — Elegant linework",
-      "description": "Fine, graceful anime drawing with intricate costume detail, delicate light transitions and softly painted materials. An elegant individual portrait with a clear face and purposeful gesture.",
-      "traitNarrativeEffects": "Fine, graceful anime drawing with intricate costume detail, delicate light transitions and softly painted materials. An elegant individual portrait with a clear face and purposeful gesture. Image direction only; preserve the actual identity, species, clothing and equipment. No powers, status or possessions are granted.",
+      "description": "Fine, graceful anime drawing with intricate costume detail, delicate light transitions and illustrated materials and clearly drawn anime facial features. An elegant individual portrait with a clear face and purposeful gesture.",
+      "traitNarrativeEffects": "Fine, graceful anime drawing with intricate costume detail, delicate light transitions and illustrated materials and clearly drawn anime facial features. An elegant individual portrait with a clear face and purposeful gesture.",
       "attributes": [],
       "skills": [],
       "resources": [],
@@ -58287,8 +58699,8 @@
     },
     "Portrait Frame — Hip-up": {
       "name": "Portrait Frame — Hip-up",
-      "description": "A vertical hip-up portrait with the full head, torso and hips visible.",
-      "traitNarrativeEffects": "A vertical hip-up portrait with the full head, torso and hips visible.",
+      "description": "A vertical portrait from the complete head through both hips to the top of the thighs. Show the full waist, belt and lower outfit; the crop ends below the hips, not at the waist.",
+      "traitNarrativeEffects": "A vertical portrait from the complete head through both hips to the top of the thighs. Show the full waist, belt and lower outfit; the crop ends below the hips, not at the waist.",
       "attributes": [],
       "skills": [],
       "resources": [],
@@ -59744,12 +60156,12 @@
     },
     "Fisher": {
       "name": "Fisher",
-      "description": "Prior experience with reading water and weather, handling lines and landing a catch. Begin with +2 survival and +1 Perception.",
-      "traitNarrativeEffects": "Prior experience with reading water and weather, handling lines and landing a catch. Begin with +2 survival and +1 Perception. This is prior practical experience, not a current appointment, professional licence, owned premises, free tools, fame or an automatic academy subject. Language work uses only languages actually learned.",
+      "description": "Experience reading water, tending lines, choosing bait and bringing a useful catch home. Begin with +2 Fishing and +1 Perception.",
+      "traitNarrativeEffects": "Experience reading water, tending lines, choosing bait and bringing a useful catch home. Begin with +2 Fishing and +1 Perception. This background is prior experience, not a current job, boat, licence or free equipment.",
       "attributes": [],
       "skills": [
         {
-          "skill": "survival",
+          "skill": "Fishing",
           "modifier": 2
         },
         {
@@ -65027,6 +65439,63 @@
       "unlockedBy": [],
       "excludedBy": [],
       "requirements": []
+    },
+    "Angling Basics": {
+      "name": "Angling Basics",
+      "description": "Familiar with rigging a rod, feeling a bite and bringing a small fish safely to hand.",
+      "traitNarrativeEffects": "Familiar with rigging a rod, feeling a bite and bringing a small fish safely to hand.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Fishing",
+          "modifier": 1
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": []
+    },
+    "Rare Fish on the Line": {
+      "name": "Rare Fish on the Line",
+      "description": "Something unusual is pulling at your fishing line. Keep its movements in mind: patience, a change of angle or a well-timed pull may bring it within reach. You can also let it go.",
+      "traitNarrativeEffects": "Something unusual is pulling at your fishing line. Keep its movements in mind: patience, a change of angle or a well-timed pull may bring it within reach. You can also let it go.",
+      "attributes": [],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": []
+    },
+    "Fishing Starter Kit": {
+      "name": "Fishing Starter Kit",
+      "description": "An ash rod with reusable spinner, eight portions of bait and a waterproof field ledger for a quiet afternoon beside the water.",
+      "traitNarrativeEffects": "An ash rod with reusable spinner, eight portions of bait and a waterproof field ledger for a quiet afternoon beside the water.",
+      "attributes": [],
+      "skills": [],
+      "resources": [],
+      "startingItems": [
+        {
+          "item": "Angler’s Rod",
+          "quantity": 1
+        },
+        {
+          "item": "Angler’s Bait Portion",
+          "quantity": 8
+        },
+        {
+          "item": "Angler’s Field Ledger",
+          "quantity": 1
+        }
+      ],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": []
     }
   },
   "traitCategories": {
@@ -65776,7 +66245,8 @@
         "Yumi Road Kit",
         "Watch Hook Kit",
         "Reinforced Fan Kit",
-        "Shrine Staff Kit"
+        "Shrine Staff Kit",
+        "Fishing Starter Kit"
       ],
       "description": "Choose one basic casting, martial or practical kit, or Hand-Casting Practice for no extra item. It is independent of your training style. Ordinary tools, clothing and remembered techniques stay distinct; a kit grants only its listed items once.",
       "subcategories": [
@@ -65832,6 +66302,12 @@
             "Workshop Starter Kit",
             "First Aid Kit",
             "Technical Inspection Kit"
+          ]
+        },
+        {
+          "name": "Fishing",
+          "traits": [
+            "Fishing Starter Kit"
           ]
         }
       ]
@@ -66219,7 +66695,7 @@
     },
     "Portrait Style": {
       "name": "Portrait Style",
-      "description": "Optional — skip for our default fantasy RPG character illustration: fine anime drawing, soft layered shading, detailed outfits and luminous lighting. Alternative styles change the picture, not the character’s abilities.",
+      "description": "Optional — skip for a detailed 2D fantasy-anime character illustration with expressive drawn features and clean facial shading. Alternative styles change the picture, not your abilities.",
       "maxSelections": 1,
       "traits": [
         "Portrait Style — Fantasy RPG illustration",
@@ -66252,7 +66728,7 @@
     },
     "Portrait Framing": {
       "name": "Portrait Framing",
-      "description": "Optional — skip for a fitting waist-up or hip-up portrait. Default contains our usual framing. Eccentric Choices offers deliberately different crops and poses; an explicit selection takes priority over the default.",
+      "description": "Optional — skip for a hip-up portrait showing the full waist, both hips and the top of the thighs. Choose Waist-up for a tighter crop. Explicit alternatives take priority.",
       "maxSelections": 1,
       "traits": [
         "Portrait Frame — Waist-up",
@@ -85384,20 +85860,6 @@
         }
       ]
     },
-    "ghx_local_commissions": {
-      "name": "ghx_local_commissions",
-      "recurring": true,
-      "phase": "planning",
-      "conditions": [
-        {
-          "type": "party-realm",
-          "operator": "equals",
-          "value": "Glowhaven"
-        }
-      ],
-      "effects": [],
-      "script": "const jobs=[[\"A Place before Supper\",\"Tamae Shibano\",\"Starlark Abbey\",\"Starlark Abbey\"],[\"A Jar That Will Not Settle\",\"Yorina Tsugawa\",\"Thistlebank Alchemy Cottage\",\"Thistlebank Alchemy Cottage\"],[\"The Wrong Kind of Hide\",\"Uta Nekoyama\",\"Pinewater Woods\",\"Pinewater Woods\"],[\"The Bell That Wakes the Ward\",\"Eiji Kuramochi\",\"Starlark Abbey\",\"Starlark Abbey\"],[\"A Second Pair of Eyes\",\"Brina Flintmere\",\"Old Southwatch\",\"Longgrass Crossroads\"],[\"What the Shell Caught\",\"Mina Takanashi\",\"Stillback Isle\",\"Greenrush Estuary\"],[\"A Quiet View, Honestly\",\"Kōzō Hinoura\",\"Seaward Overlook\",\"Beaconrest Lighthouse\"],[\"The Bluecoil Watch\",\"Mina Takanashi\",\"Bluecoil Rest\",\"Greenrush Estuary\"]];\nconst place=check({type:'party-location'}),text=String(check({type:'action-text'})||'').toLowerCase();\nconst options=jobs.filter(r=>(r[2]===place||r[3]===place)&&check({type:'quest-status',questId:r[0]})==='hidden');\nconst named=options.find(r=>text.includes(r[0].toLowerCase()));\nlet found=false;\nfor(const [title,client,destination] of named?[named]:options){\n if(check({type:'action',query:'In this actual local scene, the player deliberately asks about '+title+' or asks '+client+' for work/helping with that specific local problem, or deliberately investigates its actual public notice. The real client or notice must actually be involved. A greeting, passing through, renting a room, requesting unrelated work, or discussing somebody else’s old completed job is false.'})!==true)continue;\n effects.push({type:'quest-init',operator:'set',value:title},{type:'story',instruction:'Offer '+title+' through '+client+' or its actual local notice. Give its public situation and agreed reward; destination '+destination+'. Wait for the player to accept or decline. This is no accepted job, payment, licence, recruitment or solved problem.'});\n found=true;break;\n}\nif(!found)skip=true;\n"
-    },
     "ghx_kraken_roam": {
       "name": "ghx_kraken_roam",
       "conditions": [
@@ -85507,6 +85969,727 @@
           "value": false
         }
       ]
+    },
+    "fsh_weather": {
+      "name": "fsh_weather",
+      "recurring": true,
+      "scope": "party",
+      "conditions": [
+        {
+          "type": "party-realm",
+          "operator": "equals",
+          "value": "Glowhaven"
+        }
+      ],
+      "effects": [],
+      "script": "// One persistent regional forecast. No wall clock, calendar rewrite or combat effects.\nconst tick=Number(check({type:'game-tick'}))||0;\nconst traits=check({type:'player-traits'})||{};\nif(storage.fshHook&&!Object.values(traits).some(t=>Array.isArray(t)&&t.includes('Rare Fish on the Line')))delete storage.fshHook;\nif(!storage.fshWeather||typeof storage.fshWeather!=='object')storage.fshWeather={};\nconst states=['clear','overcast','rain','fog','wind','storm'];\nconst transitions={clear:[45,30,5,8,11,1],overcast:[20,30,25,10,13,2],rain:[8,43,28,12,7,2],fog:[18,48,12,15,6,1],wind:[22,32,10,2,30,4],storm:[0,25,35,0,40,0]};\nfunction pick(weights){let n=Math.random()*weights.reduce((a,b)=>a+b,0);for(let i=0;i<weights.length;i++){n-=weights[i];if(n<0)return states[i]}return 'overcast'}\nlet changed=false;\nfor(const zone of ['inland','coast']){\n let f=storage.fshWeather[zone];\n if(!f||!states.includes(f.kind)||!Number.isFinite(f.until))f={kind:zone==='coast'?'overcast':'clear',until:tick+12+Math.floor(Math.random()*13)};\n else if(tick>=f.until){f={kind:pick(transitions[f.kind]),until:tick+12+Math.floor(Math.random()*13)};changed=true}\n storage.fshWeather[zone]=f;\n}\nconst region=String(check({type:'party-region'})||'');\nconst zone=/Harbor|Coast|Isles|Shoals|Reach|Bluffs|Marshes/.test(region)?'coast':'inland';\nconst f=storage.fshWeather[zone],place=String(check({type:'party-location'})||'');\nconst context=zone+':'+f.kind+':'+place;\nif(tick>0&&(changed||storage.fshWeatherContext!==context)){\n const detail={clear:'clear skies and ordinary visibility',overcast:'cloud cover and soft light',rain:'steady ordinary rain and wet exposed surfaces',fog:'patches of mist and reduced outdoor visibility',wind:'brisk wind, rippled water and moving foliage',storm:'a passing squall, rough exposed water and an evident reason to seek shelter'}[f.kind];\n effects.push({type:'story',instruction:'Glowhaven '+zone+' weather: '+detail+'. Keep this forecast consistent until it changes. Show only what this scene can perceive; interiors remain sheltered. Do not move anyone, invent injuries, start combat, cancel work or change the time of day. Storms are plainly warned; fishing may be postponed. This is local Glowhaven weather, not the climate of another realm.'});\n storage.fshWeatherContext=context;\n}else skip=true;\n",
+      "phase": "planning"
+    },
+    "fsh_basics": {
+      "name": "fsh_basics",
+      "recurring": true,
+      "scope": "player",
+      "conditions": [
+        {
+          "type": "party-realm",
+          "operator": "equals",
+          "value": "Glowhaven"
+        },
+        {
+          "type": "party-area",
+          "operator": "regex",
+          "value": "Pinewater|Saltmere|Whitecrest|Driftstone|Pinewake|Albatross|Moonarch|Greenrush|Gullwatch|Stillback"
+        },
+        {
+          "type": "player-item",
+          "item": "Angler’s Rod",
+          "operator": "greaterThan",
+          "value": 0
+        },
+        {
+          "type": "skill-value",
+          "skill": "Fishing",
+          "operator": "equals",
+          "value": 0
+        },
+        {
+          "type": "action",
+          "query": "The player actually rigs their own rod and practices their first cast into reachable water, or receives a real introductory fishing lesson with that rod. Talking about lessons, receiving a rod or fishing elsewhere in memory does not qualify."
+        }
+      ],
+      "effects": [
+        {
+          "type": "player-traits",
+          "operator": "add",
+          "value": "Angling Basics",
+          "target": "satisfyingPlayers"
+        }
+      ],
+      "script": "const sites={\"Pinewater River - Brookmeadow Ford\":\"r\",\"Pinewater River - River Bend\":\"r\",\"Saltmere - Village Landing\":\"h\",\"Saltmere - Shoreline Green\":\"s\",\"Whitecrest Harbor - Harbor Quay\":\"h\",\"Whitecrest Harbor - Passenger Landing\":\"h\",\"Driftstone Isle - Island Landing\":\"s\",\"Driftstone Isle - Rocky Shore\":\"s\",\"Pinewake Coast - Pineward Beach\":\"s\",\"Pinewake Coast - Tide Pools\":\"s\",\"The Gilded Albatross - Main Deck\":\"d\",\"Moonarch Isle - Pebble Landing\":\"s\",\"Moonarch Isle - Offshore Drop\":\"d\",\"Stillback Isle - Quiet Landing\":\"s\",\"Greenrush Estuary - Skiff Landing\":\"e\",\"Greenrush Estuary - Reedwalk\":\"e\",\"Gullwatch Reefs - Boat Shelf\":\"s\",\"Gullwatch Reefs - Tide Pools\":\"s\"};if(!sites[String(check({type:'party-area'})||'')])skip=true;"
+    },
+    "fsh_cast_lure": {
+      "name": "fsh_cast_lure",
+      "recurring": true,
+      "scope": "player",
+      "conditions": [
+        {
+          "type": "party-area",
+          "operator": "regex",
+          "value": "Pinewater|Saltmere|Whitecrest|Driftstone|Pinewake|Albatross|Moonarch|Greenrush|Gullwatch|Stillback"
+        },
+        {
+          "type": "player-item",
+          "item": "Angler’s Rod",
+          "operator": "greaterThan",
+          "value": 0
+        },
+        {
+          "type": "player-traits",
+          "operator": "notContains",
+          "value": "Rare Fish on the Line"
+        },
+        {
+          "type": "action-success-level",
+          "operator": "greaterThanOrEqual",
+          "value": "mixed results"
+        },
+        {
+          "type": "action",
+          "query": "The player makes a real fresh rod-fishing cast into reachable water, with their own Angler’s Rod, rather than talking about fishing, buying gear, attacking, remembering a cast or already handling a rare hooked fish. They use the reusable spinner or another real reusable lure, without using a consumable bait portion."
+        }
+      ],
+      "effects": [],
+      "script": "const sites={\"Pinewater River - Brookmeadow Ford\":\"r\",\"Pinewater River - River Bend\":\"r\",\"Saltmere - Village Landing\":\"h\",\"Saltmere - Shoreline Green\":\"s\",\"Whitecrest Harbor - Harbor Quay\":\"h\",\"Whitecrest Harbor - Passenger Landing\":\"h\",\"Driftstone Isle - Island Landing\":\"s\",\"Driftstone Isle - Rocky Shore\":\"s\",\"Pinewake Coast - Pineward Beach\":\"s\",\"Pinewake Coast - Tide Pools\":\"s\",\"The Gilded Albatross - Main Deck\":\"d\",\"Moonarch Isle - Pebble Landing\":\"s\",\"Moonarch Isle - Offshore Drop\":\"d\",\"Stillback Isle - Quiet Landing\":\"s\",\"Greenrush Estuary - Skiff Landing\":\"e\",\"Greenrush Estuary - Reedwalk\":\"e\",\"Gullwatch Reefs - Boat Shelf\":\"s\",\"Gullwatch Reefs - Tide Pools\":\"s\"},fish=[[\"Pinewater Perch\",\"r\",30,\"clear\",12,30],[\"Brookmeadow Roach\",\"r\",32,\"overcast\",8,22],[\"Millpond Crucian\",\"r\",25,\"rain\",12,32],[\"Willowback Trout\",\"r\",20,\"overcast\",18,42],[\"Button-Eyed Minnow\",\"r\",35,\"clear\",4,10],[\"Rainbell Loach\",\"re\",23,\"rain\",8,20],[\"Reedstripe Mullet\",\"eh\",28,\"overcast\",15,38],[\"Brackish Bream\",\"e\",27,\"rain\",16,35],[\"Mud-Sleeve Goby\",\"eh\",33,\"overcast\",5,16],[\"Greenrush Flounder\",\"es\",23,\"fog\",15,37],[\"Harbor Herring\",\"hs\",35,\"overcast\",14,27],[\"Lantern Sardine\",\"hs\",35,\"clear\",8,18],[\"Dockside Smelt\",\"h\",30,\"rain\",7,17],[\"Copper-Gill Mackerel\",\"hsd\",28,\"wind\",22,43],[\"Whitecrest Whiting\",\"hs\",28,\"clear\",18,36],[\"Pebble Sole\",\"s\",24,\"clear\",12,29],[\"Ribbon Garfish\",\"sd\",22,\"wind\",30,65],[\"Crescent Sea Bass\",\"hsd\",19,\"overcast\",25,62],[\"Silver-Tail Pollock\",\"sd\",25,\"overcast\",25,55],[\"Sandburrow Gurnard\",\"s\",22,\"clear\",18,38],[\"Glassvein Char\",\"r\",8,\"clear\",22,48],[\"Bottle-Green Tench\",\"re\",9,\"rain\",25,52],[\"Amberfin Eel\",\"re\",7,\"rain\",35,85],[\"Pearlspot Wrasse\",\"s\",9,\"clear\",15,32],[\"Blueglass Needlefish\",\"sd\",8,\"wind\",35,78],[\"Velvet Skate\",\"sd\",7,\"fog\",35,80],[\"Stormstripe Bonito\",\"d\",8,\"wind\",40,90],[\"Moonmirror Dace\",\"re\",2,\"fog\",18,34],[\"Lanternjaw Angler\",\"d\",2,\"fog\",35,70],[\"Crownfin Sailfish\",\"d\",2,\"wind\",95,180]];\nconst tick=Number(check({type:'game-tick'}))||0,area=String(check({type:'party-area'})||''),habitat=sites[area];\nconst baited=false,key=baited?'bait':'lure';\nif(!storage.fshCasts||typeof storage.fshCasts!=='object')storage.fshCasts={};\nif(check({type:'party-realm'})!=='Glowhaven'||!habitat||tick<=0||storage.fshCasts[key]===tick){skip=true}else{\n const zone=habitat==='r'?'inland':'coast';\n const weather=storage.fshWeather?.[zone]?.kind||(zone==='inland'?'clear':'overcast');\n if(weather==='storm'&&habitat==='d'){\n  effects.push({type:'story',instruction:'Exposed offshore fishing is unsafe in this squall. Keep the line stowed and show the rough water; offer waiting or a genuinely sheltered fishing ground. No bait is spent and no catch is awarded. Do not move the player or summon a monster.'});\n  storage.fshCasts[key]=tick;\n }else{\n  const pool=fish.filter(f=>f[1].includes(habitat)&&(!storage.fshHook||f[2]>2));\n  const weights=pool.map(f=>f[2]*(f[3]===weather?2.2:1)*(baited&&(f[2]<=9||/Loach|Bream|Tench|Eel|Goby/.test(f[0]))?1.6:1));\n  let roll=Math.random()*weights.reduce((a,b)=>a+b,0),chosen=pool[pool.length-1];\n  for(let i=0;i<pool.length;i++){roll-=weights[i];if(roll<0){chosen=pool[i];break}}\n  const cm=chosen[4]+Math.floor(Math.random()*(chosen[5]-chosen[4]+1));\n  // The same local shoal roll is shared by simultaneous qualifying anglers.\n  // Native scope/conditions, not script-side text parsing, select the recipients.\n  if(baited)effects.push({type:'item-remove',item:'Angler’s Bait Portion',quantity:1,target:'satisfyingPlayers'});\n  if(chosen[2]===2){\n   storage.fshHook={fish:chosen[0],cm,area,until:tick+6};\n   effects.push({type:'player-traits',operator:'add',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\n   effects.push({type:'story',instruction:'A rare '+chosen[0]+' is hooked, not landed or acquired. Describe its distinctive movement and let the angler choose a response: ease the line and tire it, guide it away from cover, take a risk, or release it. One actual next handling attempt can settle the catch using Fishing. No mandatory wording, extra fight, automatic damaged tackle or inventory fish yet. Waiting for up to six turns is possible; leaving this fishing ground loses the line’s catch.'});\n  }else{\n   effects.push({type:'item-add',item:chosen[0],quantity:1,target:'satisfyingPlayers'});\n   effects.push({type:'story',instruction:'The qualifying angler lands one '+chosen[0]+', about '+cm+' cm, in '+weather+' conditions. The inventory grant is already handled; do not duplicate it, invent another catch or add separate XP/resource rewards. A mixed action result can mean an awkward landing. Keep this a short fishing moment unless the player engages further.'});\n   if(!storage.fshRecords||typeof storage.fshRecords!=='object')storage.fshRecords={};\n   const old=storage.fshRecords[chosen[0]]||{best:0,landings:0};\n   storage.fshRecords[chosen[0]]={best:Math.max(old.best,cm),landings:old.landings+1};\n  }\n  storage.fshCasts[key]=tick;\n }\n}\n"
+    },
+    "fsh_cast_bait": {
+      "name": "fsh_cast_bait",
+      "recurring": true,
+      "scope": "player",
+      "conditions": [
+        {
+          "type": "party-area",
+          "operator": "regex",
+          "value": "Pinewater|Saltmere|Whitecrest|Driftstone|Pinewake|Albatross|Moonarch|Greenrush|Gullwatch|Stillback"
+        },
+        {
+          "type": "player-item",
+          "item": "Angler’s Rod",
+          "operator": "greaterThan",
+          "value": 0
+        },
+        {
+          "type": "player-item",
+          "item": "Angler’s Bait Portion",
+          "operator": "greaterThan",
+          "value": 0
+        },
+        {
+          "type": "action-success-level",
+          "operator": "greaterThanOrEqual",
+          "value": "mixed results"
+        },
+        {
+          "type": "action",
+          "query": "The player makes a real fresh rod-fishing cast into reachable water, with their own Angler’s Rod, rather than talking about fishing, buying gear, attacking, remembering a cast or already handling a rare hooked fish. They deliberately use one real Angler’s Bait Portion from their own inventory."
+        }
+      ],
+      "effects": [],
+      "script": "const sites={\"Pinewater River - Brookmeadow Ford\":\"r\",\"Pinewater River - River Bend\":\"r\",\"Saltmere - Village Landing\":\"h\",\"Saltmere - Shoreline Green\":\"s\",\"Whitecrest Harbor - Harbor Quay\":\"h\",\"Whitecrest Harbor - Passenger Landing\":\"h\",\"Driftstone Isle - Island Landing\":\"s\",\"Driftstone Isle - Rocky Shore\":\"s\",\"Pinewake Coast - Pineward Beach\":\"s\",\"Pinewake Coast - Tide Pools\":\"s\",\"The Gilded Albatross - Main Deck\":\"d\",\"Moonarch Isle - Pebble Landing\":\"s\",\"Moonarch Isle - Offshore Drop\":\"d\",\"Stillback Isle - Quiet Landing\":\"s\",\"Greenrush Estuary - Skiff Landing\":\"e\",\"Greenrush Estuary - Reedwalk\":\"e\",\"Gullwatch Reefs - Boat Shelf\":\"s\",\"Gullwatch Reefs - Tide Pools\":\"s\"},fish=[[\"Pinewater Perch\",\"r\",30,\"clear\",12,30],[\"Brookmeadow Roach\",\"r\",32,\"overcast\",8,22],[\"Millpond Crucian\",\"r\",25,\"rain\",12,32],[\"Willowback Trout\",\"r\",20,\"overcast\",18,42],[\"Button-Eyed Minnow\",\"r\",35,\"clear\",4,10],[\"Rainbell Loach\",\"re\",23,\"rain\",8,20],[\"Reedstripe Mullet\",\"eh\",28,\"overcast\",15,38],[\"Brackish Bream\",\"e\",27,\"rain\",16,35],[\"Mud-Sleeve Goby\",\"eh\",33,\"overcast\",5,16],[\"Greenrush Flounder\",\"es\",23,\"fog\",15,37],[\"Harbor Herring\",\"hs\",35,\"overcast\",14,27],[\"Lantern Sardine\",\"hs\",35,\"clear\",8,18],[\"Dockside Smelt\",\"h\",30,\"rain\",7,17],[\"Copper-Gill Mackerel\",\"hsd\",28,\"wind\",22,43],[\"Whitecrest Whiting\",\"hs\",28,\"clear\",18,36],[\"Pebble Sole\",\"s\",24,\"clear\",12,29],[\"Ribbon Garfish\",\"sd\",22,\"wind\",30,65],[\"Crescent Sea Bass\",\"hsd\",19,\"overcast\",25,62],[\"Silver-Tail Pollock\",\"sd\",25,\"overcast\",25,55],[\"Sandburrow Gurnard\",\"s\",22,\"clear\",18,38],[\"Glassvein Char\",\"r\",8,\"clear\",22,48],[\"Bottle-Green Tench\",\"re\",9,\"rain\",25,52],[\"Amberfin Eel\",\"re\",7,\"rain\",35,85],[\"Pearlspot Wrasse\",\"s\",9,\"clear\",15,32],[\"Blueglass Needlefish\",\"sd\",8,\"wind\",35,78],[\"Velvet Skate\",\"sd\",7,\"fog\",35,80],[\"Stormstripe Bonito\",\"d\",8,\"wind\",40,90],[\"Moonmirror Dace\",\"re\",2,\"fog\",18,34],[\"Lanternjaw Angler\",\"d\",2,\"fog\",35,70],[\"Crownfin Sailfish\",\"d\",2,\"wind\",95,180]];\nconst tick=Number(check({type:'game-tick'}))||0,area=String(check({type:'party-area'})||''),habitat=sites[area];\nconst baited=true,key=baited?'bait':'lure';\nif(!storage.fshCasts||typeof storage.fshCasts!=='object')storage.fshCasts={};\nif(check({type:'party-realm'})!=='Glowhaven'||!habitat||tick<=0||storage.fshCasts[key]===tick){skip=true}else{\n const zone=habitat==='r'?'inland':'coast';\n const weather=storage.fshWeather?.[zone]?.kind||(zone==='inland'?'clear':'overcast');\n if(weather==='storm'&&habitat==='d'){\n  effects.push({type:'story',instruction:'Exposed offshore fishing is unsafe in this squall. Keep the line stowed and show the rough water; offer waiting or a genuinely sheltered fishing ground. No bait is spent and no catch is awarded. Do not move the player or summon a monster.'});\n  storage.fshCasts[key]=tick;\n }else{\n  const pool=fish.filter(f=>f[1].includes(habitat)&&(!storage.fshHook||f[2]>2));\n  const weights=pool.map(f=>f[2]*(f[3]===weather?2.2:1)*(baited&&(f[2]<=9||/Loach|Bream|Tench|Eel|Goby/.test(f[0]))?1.6:1));\n  let roll=Math.random()*weights.reduce((a,b)=>a+b,0),chosen=pool[pool.length-1];\n  for(let i=0;i<pool.length;i++){roll-=weights[i];if(roll<0){chosen=pool[i];break}}\n  const cm=chosen[4]+Math.floor(Math.random()*(chosen[5]-chosen[4]+1));\n  // The same local shoal roll is shared by simultaneous qualifying anglers.\n  // Native scope/conditions, not script-side text parsing, select the recipients.\n  if(baited)effects.push({type:'item-remove',item:'Angler’s Bait Portion',quantity:1,target:'satisfyingPlayers'});\n  if(chosen[2]===2){\n   storage.fshHook={fish:chosen[0],cm,area,until:tick+6};\n   effects.push({type:'player-traits',operator:'add',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\n   effects.push({type:'story',instruction:'A rare '+chosen[0]+' is hooked, not landed or acquired. Describe its distinctive movement and let the angler choose a response: ease the line and tire it, guide it away from cover, take a risk, or release it. One actual next handling attempt can settle the catch using Fishing. No mandatory wording, extra fight, automatic damaged tackle or inventory fish yet. Waiting for up to six turns is possible; leaving this fishing ground loses the line’s catch.'});\n  }else{\n   effects.push({type:'item-add',item:chosen[0],quantity:1,target:'satisfyingPlayers'});\n   effects.push({type:'story',instruction:'The qualifying angler lands one '+chosen[0]+', about '+cm+' cm, in '+weather+' conditions. The inventory grant is already handled; do not duplicate it, invent another catch or add separate XP/resource rewards. A mixed action result can mean an awkward landing. Keep this a short fishing moment unless the player engages further.'});\n   if(!storage.fshRecords||typeof storage.fshRecords!=='object')storage.fshRecords={};\n   const old=storage.fshRecords[chosen[0]]||{best:0,landings:0};\n   storage.fshRecords[chosen[0]]={best:Math.max(old.best,cm),landings:old.landings+1};\n  }\n  storage.fshCasts[key]=tick;\n }\n}\n"
+    },
+    "fsh_bait_miss": {
+      "name": "fsh_bait_miss",
+      "recurring": true,
+      "scope": "player",
+      "conditions": [
+        {
+          "type": "party-area",
+          "operator": "regex",
+          "value": "Pinewater|Saltmere|Whitecrest|Driftstone|Pinewake|Albatross|Moonarch|Greenrush|Gullwatch|Stillback"
+        },
+        {
+          "type": "player-item",
+          "item": "Angler’s Rod",
+          "operator": "greaterThan",
+          "value": 0
+        },
+        {
+          "type": "player-item",
+          "item": "Angler’s Bait Portion",
+          "operator": "greaterThan",
+          "value": 0
+        },
+        {
+          "type": "action-success-level",
+          "operator": "lessThan",
+          "value": "mixed results"
+        },
+        {
+          "type": "action",
+          "query": "The player makes a real fresh rod-fishing cast into reachable water, with their own Angler’s Rod, rather than talking about fishing, buying gear, attacking, remembering a cast or already handling a rare hooked fish. They actually expend one Angler’s Bait Portion on this cast; a baited rare-fish handling action is not a fresh cast."
+        }
+      ],
+      "effects": [
+        {
+          "type": "item-remove",
+          "item": "Angler’s Bait Portion",
+          "quantity": 1,
+          "target": "satisfyingPlayers"
+        },
+        {
+          "type": "story",
+          "instruction": "This genuine baited cast catches nothing; one bait portion was spent. Give a brief practical result without another item deduction, attack or invented injury."
+        }
+      ],
+      "script": "const sites={\"Pinewater River - Brookmeadow Ford\":\"r\",\"Pinewater River - River Bend\":\"r\",\"Saltmere - Village Landing\":\"h\",\"Saltmere - Shoreline Green\":\"s\",\"Whitecrest Harbor - Harbor Quay\":\"h\",\"Whitecrest Harbor - Passenger Landing\":\"h\",\"Driftstone Isle - Island Landing\":\"s\",\"Driftstone Isle - Rocky Shore\":\"s\",\"Pinewake Coast - Pineward Beach\":\"s\",\"Pinewake Coast - Tide Pools\":\"s\",\"The Gilded Albatross - Main Deck\":\"d\",\"Moonarch Isle - Pebble Landing\":\"s\",\"Moonarch Isle - Offshore Drop\":\"d\",\"Stillback Isle - Quiet Landing\":\"s\",\"Greenrush Estuary - Skiff Landing\":\"e\",\"Greenrush Estuary - Reedwalk\":\"e\",\"Gullwatch Reefs - Boat Shelf\":\"s\",\"Gullwatch Reefs - Tide Pools\":\"s\"};const tick=Number(check({type:'game-tick'}))||0,habitat=sites[String(check({type:'party-area'})||'')];if(!storage.fshCasts)storage.fshCasts={};if(check({type:'party-realm'})!=='Glowhaven'||!habitat||tick<=0||storage.fshCasts.bait===tick)skip=true;else{storage.fshCasts.bait=tick;if(habitat==='d'&&storage.fshWeather?.coast?.kind==='storm'){effects.length=0;effects.push({type:'story',instruction:'The exposed water is too rough for this cast. Keep the bait and show the option to wait safely; grant no catch.'})}}"
+    },
+    "fsh_rare_land": {
+      "name": "fsh_rare_land",
+      "recurring": true,
+      "scope": "player",
+      "conditions": [
+        {
+          "type": "player-traits",
+          "operator": "contains",
+          "value": "Rare Fish on the Line"
+        },
+        {
+          "type": "party-area",
+          "operator": "regex",
+          "value": "Pinewater|Saltmere|Whitecrest|Driftstone|Pinewake|Albatross|Moonarch|Greenrush|Gullwatch|Stillback"
+        },
+        {
+          "type": "player-item",
+          "item": "Angler’s Rod",
+          "operator": "greaterThan",
+          "value": 0
+        },
+        {
+          "type": "action-success-level",
+          "operator": "greaterThanOrEqual",
+          "value": "basic success"
+        },
+        {
+          "type": "action",
+          "query": "The player actively attempts to land their already hooked rare fish by a deliberate handling choice, using their actual line and Fishing. They are not merely talking, waiting, casting a second line, releasing it or claiming a previous catch."
+        }
+      ],
+      "effects": [],
+      "script": "const tick=Number(check({type:'game-tick'}))||0,area=String(check({type:'party-area'})||'');\nconst h=storage.fshHook;\nconst valid=check({type:'party-realm'})==='Glowhaven'&&h&&[\"Moonmirror Dace\",\"Lanternjaw Angler\",\"Crownfin Sailfish\"].includes(h.fish)&&Number.isFinite(h.cm)&&h.area===area&&tick<=h.until;\nconst mode=\"land\";\nif(!storage.fshRareActions||typeof storage.fshRareActions!=='object')storage.fshRareActions={};\nif(mode!=='cleanup'&&storage.fshRareActions[mode]===tick){skip=true}else if(mode==='cleanup'){\n if(valid)skip=true;\n else{\n  effects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\n  effects.push({type:'story',instruction:'The unattended fishing line has gone slack; its unlanded catch escaped. Clear that fishing moment quietly without a fine, broken equipment, lost unrelated items or monster encounter.'});\n  delete storage.fshHook;\n }\n}else if(!valid){skip=true}else if(mode==='release'||mode==='miss'){\n effects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\n effects.push({type:'story',instruction:mode==='release'?'The angler deliberately lets the hooked fish go. Give a brief fitting release; no fish enters inventory and no unrelated property is lost.':'The actual handling attempt failed to land the fish; it slips free. Give the concrete local result without an extra attack, invented injury or automatic broken rod. No fish enters inventory.'});\n}else{\n effects.push({type:'item-add',item:h.fish,quantity:1,target:'satisfyingPlayers'});\n effects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\n effects.push({type:'story',instruction:'The angler’s successful handling lands one '+h.fish+', about '+h.cm+' cm. Its inventory grant is already applied. Give the chosen approach a satisfying short payoff; do not add a second fish or another reward. The angler can keep it, make an actual handover, or release the real held specimen through ordinary item handling.'});\n if(!storage.fshRecords||typeof storage.fshRecords!=='object')storage.fshRecords={};\n const old=storage.fshRecords[h.fish]||{best:0,landings:0};\n storage.fshRecords[h.fish]={best:Math.max(old.best,h.cm),landings:old.landings+1};\n}\nif(!skip&&mode!=='cleanup')storage.fshRareActions[mode]=tick;\n// Retain the shared species record for other simultaneous hooked anglers until\n// their traits clear. This sweep runs on the following planning tick.\n"
+    },
+    "fsh_rare_miss": {
+      "name": "fsh_rare_miss",
+      "recurring": true,
+      "scope": "player",
+      "conditions": [
+        {
+          "type": "player-traits",
+          "operator": "contains",
+          "value": "Rare Fish on the Line"
+        },
+        {
+          "type": "party-area",
+          "operator": "regex",
+          "value": "Pinewater|Saltmere|Whitecrest|Driftstone|Pinewake|Albatross|Moonarch|Greenrush|Gullwatch|Stillback"
+        },
+        {
+          "type": "player-item",
+          "item": "Angler’s Rod",
+          "operator": "greaterThan",
+          "value": 0
+        },
+        {
+          "type": "action-success-level",
+          "operator": "lessThan",
+          "value": "basic success"
+        },
+        {
+          "type": "action",
+          "query": "The player actively attempts to land their already hooked rare fish by a deliberate handling choice, using their actual line and Fishing. They are not merely talking, waiting, casting a second line, releasing it or claiming a previous catch."
+        }
+      ],
+      "effects": [],
+      "script": "const tick=Number(check({type:'game-tick'}))||0,area=String(check({type:'party-area'})||'');\nconst h=storage.fshHook;\nconst valid=check({type:'party-realm'})==='Glowhaven'&&h&&[\"Moonmirror Dace\",\"Lanternjaw Angler\",\"Crownfin Sailfish\"].includes(h.fish)&&Number.isFinite(h.cm)&&h.area===area&&tick<=h.until;\nconst mode=\"miss\";\nif(!storage.fshRareActions||typeof storage.fshRareActions!=='object')storage.fshRareActions={};\nif(mode!=='cleanup'&&storage.fshRareActions[mode]===tick){skip=true}else if(mode==='cleanup'){\n if(valid)skip=true;\n else{\n  effects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\n  effects.push({type:'story',instruction:'The unattended fishing line has gone slack; its unlanded catch escaped. Clear that fishing moment quietly without a fine, broken equipment, lost unrelated items or monster encounter.'});\n  delete storage.fshHook;\n }\n}else if(!valid){skip=true}else if(mode==='release'||mode==='miss'){\n effects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\n effects.push({type:'story',instruction:mode==='release'?'The angler deliberately lets the hooked fish go. Give a brief fitting release; no fish enters inventory and no unrelated property is lost.':'The actual handling attempt failed to land the fish; it slips free. Give the concrete local result without an extra attack, invented injury or automatic broken rod. No fish enters inventory.'});\n}else{\n effects.push({type:'item-add',item:h.fish,quantity:1,target:'satisfyingPlayers'});\n effects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\n effects.push({type:'story',instruction:'The angler’s successful handling lands one '+h.fish+', about '+h.cm+' cm. Its inventory grant is already applied. Give the chosen approach a satisfying short payoff; do not add a second fish or another reward. The angler can keep it, make an actual handover, or release the real held specimen through ordinary item handling.'});\n if(!storage.fshRecords||typeof storage.fshRecords!=='object')storage.fshRecords={};\n const old=storage.fshRecords[h.fish]||{best:0,landings:0};\n storage.fshRecords[h.fish]={best:Math.max(old.best,h.cm),landings:old.landings+1};\n}\nif(!skip&&mode!=='cleanup')storage.fshRareActions[mode]=tick;\n// Retain the shared species record for other simultaneous hooked anglers until\n// their traits clear. This sweep runs on the following planning tick.\n"
+    },
+    "fsh_rare_release": {
+      "name": "fsh_rare_release",
+      "recurring": true,
+      "scope": "player",
+      "conditions": [
+        {
+          "type": "player-traits",
+          "operator": "contains",
+          "value": "Rare Fish on the Line"
+        },
+        {
+          "type": "party-area",
+          "operator": "regex",
+          "value": "Pinewater|Saltmere|Whitecrest|Driftstone|Pinewake|Albatross|Moonarch|Greenrush|Gullwatch|Stillback"
+        },
+        {
+          "type": "action",
+          "query": "The player deliberately releases the rare fish currently hooked on their line, cuts that line, or explicitly abandons that live catch. Talking about release or releasing an already landed inventory fish does not qualify."
+        }
+      ],
+      "effects": [],
+      "script": "const tick=Number(check({type:'game-tick'}))||0,area=String(check({type:'party-area'})||'');\nconst h=storage.fshHook;\nconst valid=check({type:'party-realm'})==='Glowhaven'&&h&&[\"Moonmirror Dace\",\"Lanternjaw Angler\",\"Crownfin Sailfish\"].includes(h.fish)&&Number.isFinite(h.cm)&&h.area===area&&tick<=h.until;\nconst mode=\"release\";\nif(!storage.fshRareActions||typeof storage.fshRareActions!=='object')storage.fshRareActions={};\nif(mode!=='cleanup'&&storage.fshRareActions[mode]===tick){skip=true}else if(mode==='cleanup'){\n if(valid)skip=true;\n else{\n  effects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\n  effects.push({type:'story',instruction:'The unattended fishing line has gone slack; its unlanded catch escaped. Clear that fishing moment quietly without a fine, broken equipment, lost unrelated items or monster encounter.'});\n  delete storage.fshHook;\n }\n}else if(!valid){skip=true}else if(mode==='release'||mode==='miss'){\n effects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\n effects.push({type:'story',instruction:mode==='release'?'The angler deliberately lets the hooked fish go. Give a brief fitting release; no fish enters inventory and no unrelated property is lost.':'The actual handling attempt failed to land the fish; it slips free. Give the concrete local result without an extra attack, invented injury or automatic broken rod. No fish enters inventory.'});\n}else{\n effects.push({type:'item-add',item:h.fish,quantity:1,target:'satisfyingPlayers'});\n effects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\n effects.push({type:'story',instruction:'The angler’s successful handling lands one '+h.fish+', about '+h.cm+' cm. Its inventory grant is already applied. Give the chosen approach a satisfying short payoff; do not add a second fish or another reward. The angler can keep it, make an actual handover, or release the real held specimen through ordinary item handling.'});\n if(!storage.fshRecords||typeof storage.fshRecords!=='object')storage.fshRecords={};\n const old=storage.fshRecords[h.fish]||{best:0,landings:0};\n storage.fshRecords[h.fish]={best:Math.max(old.best,h.cm),landings:old.landings+1};\n}\nif(!skip&&mode!=='cleanup')storage.fshRareActions[mode]=tick;\n// Retain the shared species record for other simultaneous hooked anglers until\n// their traits clear. This sweep runs on the following planning tick.\n"
+    },
+    "fsh_rare_cleanup": {
+      "name": "fsh_rare_cleanup",
+      "recurring": true,
+      "scope": "player",
+      "conditions": [
+        {
+          "type": "player-traits",
+          "operator": "contains",
+          "value": "Rare Fish on the Line"
+        }
+      ],
+      "effects": [],
+      "script": "const tick=Number(check({type:'game-tick'}))||0,area=String(check({type:'party-area'})||'');\nconst h=storage.fshHook;\nconst valid=check({type:'party-realm'})==='Glowhaven'&&h&&[\"Moonmirror Dace\",\"Lanternjaw Angler\",\"Crownfin Sailfish\"].includes(h.fish)&&Number.isFinite(h.cm)&&h.area===area&&tick<=h.until;\nconst mode=\"cleanup\";\nif(!storage.fshRareActions||typeof storage.fshRareActions!=='object')storage.fshRareActions={};\nif(mode!=='cleanup'&&storage.fshRareActions[mode]===tick){skip=true}else if(mode==='cleanup'){\n if(valid)skip=true;\n else{\n  effects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\n  effects.push({type:'story',instruction:'The unattended fishing line has gone slack; its unlanded catch escaped. Clear that fishing moment quietly without a fine, broken equipment, lost unrelated items or monster encounter.'});\n  delete storage.fshHook;\n }\n}else if(!valid){skip=true}else if(mode==='release'||mode==='miss'){\n effects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\n effects.push({type:'story',instruction:mode==='release'?'The angler deliberately lets the hooked fish go. Give a brief fitting release; no fish enters inventory and no unrelated property is lost.':'The actual handling attempt failed to land the fish; it slips free. Give the concrete local result without an extra attack, invented injury or automatic broken rod. No fish enters inventory.'});\n}else{\n effects.push({type:'item-add',item:h.fish,quantity:1,target:'satisfyingPlayers'});\n effects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\n effects.push({type:'story',instruction:'The angler’s successful handling lands one '+h.fish+', about '+h.cm+' cm. Its inventory grant is already applied. Give the chosen approach a satisfying short payoff; do not add a second fish or another reward. The angler can keep it, make an actual handover, or release the real held specimen through ordinary item handling.'});\n if(!storage.fshRecords||typeof storage.fshRecords!=='object')storage.fshRecords={};\n const old=storage.fshRecords[h.fish]||{best:0,landings:0};\n storage.fshRecords[h.fish]={best:Math.max(old.best,h.cm),landings:old.landings+1};\n}\nif(!skip&&mode!=='cleanup')storage.fshRareActions[mode]=tick;\n// Retain the shared species record for other simultaneous hooked anglers until\n// their traits clear. This sweep runs on the following planning tick.\n",
+      "phase": "planning"
+    },
+    "fsh_records": {
+      "name": "fsh_records",
+      "recurring": true,
+      "scope": "player",
+      "conditions": [
+        {
+          "type": "action-text",
+          "operator": "regex",
+          "value": "\\b([Ff]ishing (records?|journal|ledger)|[Cc]atch (records?|ledger)|[Bb]est (fish|catches))\\b"
+        }
+      ],
+      "effects": [],
+      "script": "const rows=Object.entries(storage.fshRecords||{}).sort((a,b)=>b[1].best-a[1].best);effects.push({type:'story',instruction:rows.length?'The shared travel party’s recorded species: '+rows.length+'. Best measured catches: '+rows.slice(0,8).map(([n,r])=>n+' '+r.best+' cm').join('; ')+'. These are past observations, not currently held fish or separate sales. Simultaneous anglers share the local shoal result; do not invent per-person records.':'There are no landed catches recorded yet. Give a short natural response; no blank journal purchase or fishing quest is required.'});"
+    },
+    "ghx_local_commissions": {
+      "name": "ghx_local_commissions",
+      "recurring": true,
+      "scope": "party",
+      "conditions": [
+        {
+          "type": "party-realm",
+          "operator": "equals",
+          "value": "Glowhaven"
+        },
+        {
+          "type": "party-location",
+          "operator": "equals",
+          "value": "Starlark Abbey"
+        },
+        {
+          "type": "quest-status",
+          "questId": "A Place before Supper",
+          "operator": "equals",
+          "value": "hidden"
+        },
+        {
+          "type": "action",
+          "query": "The player deliberately asks Tamae Shibano about A Place before Supper, asks that actual client for suitable local work, or investigates the actual notice for A Place before Supper. The real client or notice is involved here. A greeting, arrival, rumor alone, unrelated business or another person’s completed job does not qualify."
+        }
+      ],
+      "effects": [
+        {
+          "type": "quest-init",
+          "operator": "set",
+          "value": "A Place before Supper"
+        },
+        {
+          "type": "story",
+          "instruction": "Offer A Place before Supper through Tamae Shibano or its real local notice. Explain its public situation and stated reward, then wait for acceptance or refusal. Destination: Starlark Abbey. This offer grants no acceptance, payment, licence, recruitment or completed work."
+        }
+      ],
+      "script": "const tick=Number(check({type:'game-tick'}))||0;if(storage.ghxOfferTick===tick){skip=true}else{storage.ghxOfferTick=tick}"
+    },
+    "ghx_local_commissions_2": {
+      "name": "ghx_local_commissions_2",
+      "recurring": true,
+      "scope": "party",
+      "conditions": [
+        {
+          "type": "party-realm",
+          "operator": "equals",
+          "value": "Glowhaven"
+        },
+        {
+          "type": "party-location",
+          "operator": "equals",
+          "value": "Thistlebank Alchemy Cottage"
+        },
+        {
+          "type": "quest-status",
+          "questId": "A Jar That Will Not Settle",
+          "operator": "equals",
+          "value": "hidden"
+        },
+        {
+          "type": "action",
+          "query": "The player deliberately asks Yorina Tsugawa about A Jar That Will Not Settle, asks that actual client for suitable local work, or investigates the actual notice for A Jar That Will Not Settle. The real client or notice is involved here. A greeting, arrival, rumor alone, unrelated business or another person’s completed job does not qualify."
+        }
+      ],
+      "effects": [
+        {
+          "type": "quest-init",
+          "operator": "set",
+          "value": "A Jar That Will Not Settle"
+        },
+        {
+          "type": "story",
+          "instruction": "Offer A Jar That Will Not Settle through Yorina Tsugawa or its real local notice. Explain its public situation and stated reward, then wait for acceptance or refusal. Destination: Thistlebank Alchemy Cottage. This offer grants no acceptance, payment, licence, recruitment or completed work."
+        }
+      ],
+      "script": "const tick=Number(check({type:'game-tick'}))||0;if(storage.ghxOfferTick===tick){skip=true}else{storage.ghxOfferTick=tick}"
+    },
+    "ghx_local_commissions_3": {
+      "name": "ghx_local_commissions_3",
+      "recurring": true,
+      "scope": "party",
+      "conditions": [
+        {
+          "type": "party-realm",
+          "operator": "equals",
+          "value": "Glowhaven"
+        },
+        {
+          "type": "party-location",
+          "operator": "equals",
+          "value": "Pinewater Woods"
+        },
+        {
+          "type": "quest-status",
+          "questId": "The Wrong Kind of Hide",
+          "operator": "equals",
+          "value": "hidden"
+        },
+        {
+          "type": "action",
+          "query": "The player deliberately asks Uta Nekoyama about The Wrong Kind of Hide, asks that actual client for suitable local work, or investigates the actual notice for The Wrong Kind of Hide. The real client or notice is involved here. A greeting, arrival, rumor alone, unrelated business or another person’s completed job does not qualify."
+        }
+      ],
+      "effects": [
+        {
+          "type": "quest-init",
+          "operator": "set",
+          "value": "The Wrong Kind of Hide"
+        },
+        {
+          "type": "story",
+          "instruction": "Offer The Wrong Kind of Hide through Uta Nekoyama or its real local notice. Explain its public situation and stated reward, then wait for acceptance or refusal. Destination: Pinewater Woods. This offer grants no acceptance, payment, licence, recruitment or completed work."
+        }
+      ],
+      "script": "const tick=Number(check({type:'game-tick'}))||0;if(storage.ghxOfferTick===tick){skip=true}else{storage.ghxOfferTick=tick}"
+    },
+    "ghx_local_commissions_4": {
+      "name": "ghx_local_commissions_4",
+      "recurring": true,
+      "scope": "party",
+      "conditions": [
+        {
+          "type": "party-realm",
+          "operator": "equals",
+          "value": "Glowhaven"
+        },
+        {
+          "type": "party-location",
+          "operator": "equals",
+          "value": "Starlark Abbey"
+        },
+        {
+          "type": "quest-status",
+          "questId": "The Bell That Wakes the Ward",
+          "operator": "equals",
+          "value": "hidden"
+        },
+        {
+          "type": "action",
+          "query": "The player deliberately asks Eiji Kuramochi about The Bell That Wakes the Ward, asks that actual client for suitable local work, or investigates the actual notice for The Bell That Wakes the Ward. The real client or notice is involved here. A greeting, arrival, rumor alone, unrelated business or another person’s completed job does not qualify."
+        }
+      ],
+      "effects": [
+        {
+          "type": "quest-init",
+          "operator": "set",
+          "value": "The Bell That Wakes the Ward"
+        },
+        {
+          "type": "story",
+          "instruction": "Offer The Bell That Wakes the Ward through Eiji Kuramochi or its real local notice. Explain its public situation and stated reward, then wait for acceptance or refusal. Destination: Starlark Abbey. This offer grants no acceptance, payment, licence, recruitment or completed work."
+        }
+      ],
+      "script": "const tick=Number(check({type:'game-tick'}))||0;if(storage.ghxOfferTick===tick){skip=true}else{storage.ghxOfferTick=tick}"
+    },
+    "ghx_local_commissions_5": {
+      "name": "ghx_local_commissions_5",
+      "recurring": true,
+      "scope": "party",
+      "conditions": [
+        {
+          "type": "party-realm",
+          "operator": "equals",
+          "value": "Glowhaven"
+        },
+        {
+          "type": "party-location",
+          "operator": "regex",
+          "value": "^(Old\\ Southwatch|Longgrass\\ Crossroads)$"
+        },
+        {
+          "type": "quest-status",
+          "questId": "A Second Pair of Eyes",
+          "operator": "equals",
+          "value": "hidden"
+        },
+        {
+          "type": "action",
+          "query": "The player deliberately asks Brina Flintmere about A Second Pair of Eyes, asks that actual client for suitable local work, or investigates the actual notice for A Second Pair of Eyes. The real client or notice is involved here. A greeting, arrival, rumor alone, unrelated business or another person’s completed job does not qualify."
+        }
+      ],
+      "effects": [
+        {
+          "type": "quest-init",
+          "operator": "set",
+          "value": "A Second Pair of Eyes"
+        },
+        {
+          "type": "story",
+          "instruction": "Offer A Second Pair of Eyes through Brina Flintmere or its real local notice. Explain its public situation and stated reward, then wait for acceptance or refusal. Destination: Old Southwatch. This offer grants no acceptance, payment, licence, recruitment or completed work."
+        }
+      ],
+      "script": "const tick=Number(check({type:'game-tick'}))||0;if(storage.ghxOfferTick===tick){skip=true}else{storage.ghxOfferTick=tick}"
+    },
+    "ghx_local_commissions_6": {
+      "name": "ghx_local_commissions_6",
+      "recurring": true,
+      "scope": "party",
+      "conditions": [
+        {
+          "type": "party-realm",
+          "operator": "equals",
+          "value": "Glowhaven"
+        },
+        {
+          "type": "party-location",
+          "operator": "regex",
+          "value": "^(Stillback\\ Isle|Greenrush\\ Estuary)$"
+        },
+        {
+          "type": "quest-status",
+          "questId": "What the Shell Caught",
+          "operator": "equals",
+          "value": "hidden"
+        },
+        {
+          "type": "action",
+          "query": "The player deliberately asks Mina Takanashi about What the Shell Caught, asks that actual client for suitable local work, or investigates the actual notice for What the Shell Caught. The real client or notice is involved here. A greeting, arrival, rumor alone, unrelated business or another person’s completed job does not qualify."
+        }
+      ],
+      "effects": [
+        {
+          "type": "quest-init",
+          "operator": "set",
+          "value": "What the Shell Caught"
+        },
+        {
+          "type": "story",
+          "instruction": "Offer What the Shell Caught through Mina Takanashi or its real local notice. Explain its public situation and stated reward, then wait for acceptance or refusal. Destination: Stillback Isle. This offer grants no acceptance, payment, licence, recruitment or completed work."
+        }
+      ],
+      "script": "const tick=Number(check({type:'game-tick'}))||0;if(storage.ghxOfferTick===tick){skip=true}else{storage.ghxOfferTick=tick}"
+    },
+    "ghx_local_commissions_7": {
+      "name": "ghx_local_commissions_7",
+      "recurring": true,
+      "scope": "party",
+      "conditions": [
+        {
+          "type": "party-realm",
+          "operator": "equals",
+          "value": "Glowhaven"
+        },
+        {
+          "type": "party-location",
+          "operator": "regex",
+          "value": "^(Seaward\\ Overlook|Beaconrest\\ Lighthouse)$"
+        },
+        {
+          "type": "quest-status",
+          "questId": "A Quiet View, Honestly",
+          "operator": "equals",
+          "value": "hidden"
+        },
+        {
+          "type": "action",
+          "query": "The player deliberately asks Kōzō Hinoura about A Quiet View, Honestly, asks that actual client for suitable local work, or investigates the actual notice for A Quiet View, Honestly. The real client or notice is involved here. A greeting, arrival, rumor alone, unrelated business or another person’s completed job does not qualify."
+        }
+      ],
+      "effects": [
+        {
+          "type": "quest-init",
+          "operator": "set",
+          "value": "A Quiet View, Honestly"
+        },
+        {
+          "type": "story",
+          "instruction": "Offer A Quiet View, Honestly through Kōzō Hinoura or its real local notice. Explain its public situation and stated reward, then wait for acceptance or refusal. Destination: Seaward Overlook. This offer grants no acceptance, payment, licence, recruitment or completed work."
+        }
+      ],
+      "script": "const tick=Number(check({type:'game-tick'}))||0;if(storage.ghxOfferTick===tick){skip=true}else{storage.ghxOfferTick=tick}"
+    },
+    "ghx_local_commissions_8": {
+      "name": "ghx_local_commissions_8",
+      "recurring": true,
+      "scope": "party",
+      "conditions": [
+        {
+          "type": "party-realm",
+          "operator": "equals",
+          "value": "Glowhaven"
+        },
+        {
+          "type": "party-location",
+          "operator": "regex",
+          "value": "^(Bluecoil\\ Rest|Greenrush\\ Estuary)$"
+        },
+        {
+          "type": "quest-status",
+          "questId": "The Bluecoil Watch",
+          "operator": "equals",
+          "value": "hidden"
+        },
+        {
+          "type": "action",
+          "query": "The player deliberately asks Mina Takanashi about The Bluecoil Watch, asks that actual client for suitable local work, or investigates the actual notice for The Bluecoil Watch. The real client or notice is involved here. A greeting, arrival, rumor alone, unrelated business or another person’s completed job does not qualify."
+        }
+      ],
+      "effects": [
+        {
+          "type": "quest-init",
+          "operator": "set",
+          "value": "The Bluecoil Watch"
+        },
+        {
+          "type": "story",
+          "instruction": "Offer The Bluecoil Watch through Mina Takanashi or its real local notice. Explain its public situation and stated reward, then wait for acceptance or refusal. Destination: Bluecoil Rest. This offer grants no acceptance, payment, licence, recruitment or completed work."
+        }
+      ],
+      "script": "const tick=Number(check({type:'game-tick'}))||0;if(storage.ghxOfferTick===tick){skip=true}else{storage.ghxOfferTick=tick}"
+    },
+    "fsh_offer_1": {
+      "name": "fsh_offer_1",
+      "recurring": true,
+      "scope": "party",
+      "conditions": [
+        {
+          "type": "party-realm",
+          "operator": "equals",
+          "value": "Glowhaven"
+        },
+        {
+          "type": "party-location",
+          "operator": "equals",
+          "value": "Gullwatch Reefs"
+        },
+        {
+          "type": "quest-status",
+          "questId": "A Fisher’s First Lesson",
+          "operator": "equals",
+          "value": "hidden"
+        },
+        {
+          "type": "action",
+          "query": "The player asks Makiho Akitsu, who is actually present, about A Fisher’s First Lesson or asks that person for a fishing lesson, fish-supply request or suitable local work. A greeting, arrival or someone else’s completed contract is insufficient."
+        }
+      ],
+      "effects": [
+        {
+          "type": "quest-init",
+          "operator": "set",
+          "value": "A Fisher’s First Lesson"
+        },
+        {
+          "type": "story",
+          "instruction": "Offer A Fisher’s First Lesson through Makiho Akitsu. State the actual request and 15-mark reward. Wait for acceptance or refusal; the offer itself gives no payment, fish or completed lesson."
+        }
+      ],
+      "script": "const tick=Number(check({type:'game-tick'}))||0;if(storage.ghxOfferTick===tick){skip=true}else{storage.ghxOfferTick=tick}"
+    },
+    "fsh_offer_2": {
+      "name": "fsh_offer_2",
+      "recurring": true,
+      "scope": "party",
+      "conditions": [
+        {
+          "type": "party-realm",
+          "operator": "equals",
+          "value": "Glowhaven"
+        },
+        {
+          "type": "party-location",
+          "operator": "equals",
+          "value": "The Gilded Albatross"
+        },
+        {
+          "type": "quest-status",
+          "questId": "Supper before the Tide Turns",
+          "operator": "equals",
+          "value": "hidden"
+        },
+        {
+          "type": "action",
+          "query": "The player asks Nanae Kogure, who is actually present, about Supper before the Tide Turns or asks that person for a fishing lesson, fish-supply request or suitable local work. A greeting, arrival or someone else’s completed contract is insufficient."
+        }
+      ],
+      "effects": [
+        {
+          "type": "quest-init",
+          "operator": "set",
+          "value": "Supper before the Tide Turns"
+        },
+        {
+          "type": "story",
+          "instruction": "Offer Supper before the Tide Turns through Nanae Kogure. State the actual request and 18-mark reward. Wait for acceptance or refusal; the offer itself gives no payment, fish or completed lesson."
+        }
+      ],
+      "script": "const tick=Number(check({type:'game-tick'}))||0;if(storage.ghxOfferTick===tick){skip=true}else{storage.ghxOfferTick=tick}"
+    },
+    "fsh_offer_3": {
+      "name": "fsh_offer_3",
+      "recurring": true,
+      "scope": "party",
+      "conditions": [
+        {
+          "type": "party-realm",
+          "operator": "equals",
+          "value": "Glowhaven"
+        },
+        {
+          "type": "party-location",
+          "operator": "equals",
+          "value": "Thistlebank Alchemy Cottage"
+        },
+        {
+          "type": "quest-status",
+          "questId": "A Color beneath the Scales",
+          "operator": "equals",
+          "value": "hidden"
+        },
+        {
+          "type": "action",
+          "query": "The player asks Yorina Tsugawa, who is actually present, about A Color beneath the Scales or asks that person for a fishing lesson, fish-supply request or suitable local work. A greeting, arrival or someone else’s completed contract is insufficient."
+        }
+      ],
+      "effects": [
+        {
+          "type": "quest-init",
+          "operator": "set",
+          "value": "A Color beneath the Scales"
+        },
+        {
+          "type": "story",
+          "instruction": "Offer A Color beneath the Scales through Yorina Tsugawa. State the actual request and 30-mark reward. Wait for acceptance or refusal; the offer itself gives no payment, fish or completed lesson."
+        }
+      ],
+      "script": "const tick=Number(check({type:'game-tick'}))||0;if(storage.ghxOfferTick===tick){skip=true}else{storage.ghxOfferTick=tick}"
     }
   },
   "narratorStyle": "Narrate a vivid fantasy-anime ensemble adventure in clear third-person present tense. Show an inviting world through distinctive clothes, expressive faces, food, weather, craft, streets and striking landscapes. Give an important arrival room to breathe; keep a quick exchange quick. Use a few precise sensory details and readable movement rather than decorative haze.\nComedy grows from conviction, clashing priorities, vanity, bad timing and consequences. Commit to a character's ridiculousness without erasing their competence or laundering cruelty, stupidity and selfishness into secret kindness. Serious danger, tenderness and loss deserve sincerity; quiet life can stay peaceful.\nLet classroom life, work, shopping, journeys, rivalries and chosen romance develop through specific people. Distinct voices carry different cadence, warmth, profanity and reserve. Keep close to the player and those actually present; distant acquaintances need no cutaway. Attraction and friendship grow through actual exchanges, not universal admiration.\nAction has clear positions, momentum, impact and tactics. A sword, fist, shield, clever tool, negotiation or retreat deserves as much attention as a spectacular spell. The setting welcomes warriors, craftspeople, travelers and noncasters as well as mages. Render authoritative outcomes; never invent extra hits, injuries, victories or powers for spectacle.\nResolve the chosen action and its immediate response, then leave a real opening to act. Vary endings without a compulsory cliffhanger, menu or mood summary. Never invent the player's dialogue, feelings, consent or next decision. Preserve continuity, finite resources and the authored cast's knowledge and flaws.",
@@ -86147,6 +87330,12 @@
               "variable": "Stamina",
               "min": 1,
               "max": 6
+            },
+            {
+              "type": "skill",
+              "variable": "Fishing",
+              "min": 1,
+              "max": 2
             }
           ]
         }
@@ -86494,6 +87683,12 @@
               "variable": "Stamina",
               "min": 1,
               "max": 10
+            },
+            {
+              "type": "skill",
+              "variable": "Fishing",
+              "min": 1,
+              "max": 3
             }
           ]
         }
@@ -86841,6 +88036,12 @@
               "variable": "Stamina",
               "min": 1,
               "max": 16
+            },
+            {
+              "type": "skill",
+              "variable": "Fishing",
+              "min": 1,
+              "max": 5
             }
           ]
         }
@@ -87188,6 +88389,12 @@
               "variable": "Stamina",
               "min": 1,
               "max": 24
+            },
+            {
+              "type": "skill",
+              "variable": "Fishing",
+              "min": 1,
+              "max": 8
             }
           ]
         }
@@ -87438,22 +88645,22 @@
         ],
         "variants": [
           {
-            "url": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/music/uploads/4b512862-a3a3-44d0-b044-27c314ff84dc.mp3"
+            "url": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/music/uploads/b0319950-f344-42ee-8817-8a7b90b263c2.mp3"
           },
           {
-            "url": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/music/uploads/8c9f7dbe-e4e7-4e73-b9ac-cc0f5cc0b829.mp3"
+            "url": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/music/uploads/c96ebcd5-7da6-43bf-b653-dcc0b1da9f88.mp3"
           },
           {
-            "url": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/music/uploads/45071659-11c0-4437-aca6-4a761bb85512.mp3"
+            "url": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/music/uploads/2dc8f049-64fc-4bf6-80a6-d0e7ae7bed10.mp3"
           },
           {
-            "url": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/music/uploads/7d3f3106-dab1-483a-8229-a1587daafe39.mp3"
+            "url": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/music/uploads/595def77-3b31-4913-8e27-8d6be1fbc388.mp3"
           },
           {
-            "url": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/music/uploads/1d86fecd-cd87-45ae-877a-3eff353a1a84.mp3"
+            "url": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/music/uploads/f669f42b-0b7c-4cad-918f-2365dbdce57b.mp3"
           },
           {
-            "url": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/music/uploads/e957feca-9dc4-4da6-8433-daf8edf4810d.mp3"
+            "url": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/music/uploads/5178f311-54b9-46fc-97f2-6e88de2dcf3a.mp3"
           }
         ]
       },
@@ -87502,30 +88709,6 @@
           },
           {
             "url": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/music/uploads/9141cbb8-5e3f-49e1-8c32-6424be662d20.mp3"
-          }
-        ]
-      },
-      "Exuberant": {
-        "matchTags": [
-          "excitement",
-          "energetic",
-          "wild",
-          "celebration",
-          "dancing",
-          "festival",
-          "jubilant",
-          "excited",
-          "revelry",
-          "exhilarating",
-          "raucous",
-          "festive"
-        ],
-        "variants": [
-          {
-            "url": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/music/uploads/838780be-9de2-44b8-808e-b29301bbc9f9.mp3"
-          },
-          {
-            "url": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/music/uploads/169c1289-97ec-4491-ba62-c513c405b1d0.mp3"
           }
         ]
       },
@@ -87646,9 +88829,6 @@
             "url": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/music/uploads/898a314d-828f-462e-a14e-2f726fc50265.mp3"
           },
           {
-            "url": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/music/uploads/6c78a471-648f-4cee-87c8-a045db811efb.mp3"
-          },
-          {
             "url": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/music/uploads/d44eb628-61b7-41f1-b1b6-7736b3f4bdeb.mp3"
           },
           {
@@ -87682,7 +88862,7 @@
     "visualNovelModeByDefault": true
   },
   "imagePromptConfiguration": {
-    "npcs": "ART DIRECTION\nPremium fantasy RPG anime character illustration, with the presence and finish of a main-character key visual: fine, confident linework, expressive individually designed anime eyes, layered painted shading with soft gradients, richly detailed hair and clothing, luminous directional light and atmospheric depth. Combine clear drawn contours with delicate transitions of light across skin, fabric, leather and metal. Keep the face distinctly anime and the materials beautifully illustrated.\nDesign one memorable individual: a readable silhouette, a personality-specific expression and a convincing gesture. Give player characters the same visual care as the leading authored cast, whether civilian, warrior or mage. Detail, lighting and costume design create presence; ornate rank, huge weapons and powerful magic are not required. A chosen alternative illustration style can change the finish. Maintain the actual person and avoid a compulsory glamorous face, smile, warm palette or battle pose.\n\nPLAYER BRIEF AND SOURCE ORDER\nIf Appearance begins with ## GLOWHAVEN PLAYER PORTRAIT, use the complete supplied visual brief, including explicit style, framing, camera and background choices. Carry its concrete identity and clothing details into the image rather than restating a vague category label. Otherwise use visualDescription, selected visual traits and the NPC Type's anatomy; use role and setting only to fill genuine gaps. Honor a written appearance over conflicting cosmetic selections. Existing portraits keep their identity unless a new generation is requested.\n\nIDENTITY AND ANATOMY\nPreserve the actual age presentation, body, skin, hair, eyes, clothing and selected accessories. Bald means no head hair. Long-lived adults do not become elderly merely through a large chronological age or senior job. Short adult fae retain adult proportions. Beastfolk usually have human faces and bodies with the selected animal features; use more animal-like anatomy only when specified. Preserve individual horns, wings, tails, scales and limb count; do not add universal fae wings. Keep hands anatomically coherent. A spear or staff has a single continuous shaft, aligned grips and an attached head.\n\nCOMPOSITION AND LIGHT\nWithout a selected alternative, use a vertical waist-up or hip-up portrait with the complete head and hair, comfortable headroom and a natural eye-level or three-quarter view. Explicit close-up, full-body, seated or dramatic-camera selections override that default. Keep face and eyes the focal point, with enough outfit to read the design. A subtle weight shift, moving hair or a purposeful hand can give life to a quiet character. Use a specific supplied backdrop or an appropriate opening-place setting, rendered more softly behind the subject. Lighting and colors vary with person and place; do not blur away all environmental detail.\n\nCLOTHING AND MAGIC\nAcademy uniforms must state and show the chosen school's color and embroidered creature crest: Phoenix Wing: crimson red, a phoenix bird with spread wings emblem; Hydra Head: violet purple, a many-headed hydra emblem; Gryffin Tail: cyan blue, a winged gryffin emblem; Dragon Hoard: yellow and gold, a dragon emblem. Use its color as a substantial part of the uniform, not just a tiny ribbon; put one readable creature badge on the breast, collar or shoulder. A pictorial academy crest is permitted; no written school name, letter crest or commercial logo. Resolve the school from an explicit school-specific outfit, otherwise the selected academy start or established affiliation. If none identifies a school, use ordinary scholarly clothing without inventing enrollment. Faculty wear an instructor's cut; students a practical uniform. Preserve individual tailoring and selected accessories.\nUse only supplied magic and actual gear. When magical effects are indicated, make them vivid, translucent and spatially integrated with hand, weapon or environment; keep the face clear. Their scale fits actual training. A civilian can have a striking portrait without a spell effect. Picture styling never grants equipment, powers, status, affiliations, property or travel.\n\nAVOID\nPhotographs, live action, CGI/3D renders, plastic skin, realistic pores, doll faces, beveled facial planes, muddy overpainting, duplicate limbs or hands, disconnected weapons, substituted identity, unrequested crowd foregrounds, text, lettering, signatures, watermarks, poster borders, UI and character sheets. One focal character. Illustrated metal highlights and softly modeled anime shading are welcome; do not flatten every surface into hard shadow blocks.",
+    "npcs": "ART DIRECTION\nA richly designed 2D fantasy-anime character illustration with the presence of a main-character key visual. Use expressive drawn eyes, simplified anime nose and mouth, clearly drawn facial contours and smooth colored shadow shapes with selective soft transitions. Keep skin illustration-flat and clean; put intricate detail into hair, costume, embroidery and the setting. Luminous color and vivid supported effects give the picture energy. The face must read as anime drawing, without photographic skin, sculpted facial planes or a rendered 3D face.\nDesign one memorable individual: a readable silhouette, a personality-specific expression and a convincing gesture. Give player characters the same visual care as the leading authored cast, whether civilian, warrior or mage. Detail, lighting and costume design create presence; ornate rank, huge weapons and powerful magic are not required. A chosen alternative illustration style can change the finish. Maintain the actual person and avoid a compulsory glamorous face, smile, warm palette or battle pose.\n\nPLAYER BRIEF AND SOURCE ORDER\nIf Appearance begins with ## GLOWHAVEN PLAYER PORTRAIT, use the complete supplied visual brief, including explicit style, framing, camera and background choices. Carry its concrete identity and clothing details into the image rather than restating a vague category label. Otherwise use visualDescription, selected visual traits and the NPC Type's anatomy; use role and setting only to fill genuine gaps. Honor a written appearance over conflicting cosmetic selections. Existing portraits keep their identity unless a new generation is requested.\n\nIDENTITY AND ANATOMY\nPreserve the actual age presentation, body, skin, hair, eyes, clothing and selected accessories. Bald means no head hair. Long-lived adults do not become elderly merely through a large chronological age or senior job. Short adult fae retain adult proportions. Beastfolk usually have human faces and bodies with the selected animal features; use more animal-like anatomy only when specified. Preserve individual horns, wings, tails, scales and limb count; do not add universal fae wings. Keep hands anatomically coherent. A spear or staff has a single continuous shaft, aligned grips and an attached head.\n\nCOMPOSITION AND LIGHT\nWithout a selected alternative, use a vertical hip-up portrait: complete head and hair, torso, full waist and both hips, with the bottom edge at the upper thighs below the belt and hip line. Pull the camera back enough to show the lower outfit; do not stop at the ribs or waist. Keep comfortable headroom and a natural eye-level or three-quarter view. Explicit close-up, full-body, seated or dramatic-camera selections override that default. Keep face and eyes the focal point, with enough outfit to read the design. A subtle weight shift, moving hair or a purposeful hand can give life to a quiet character. Use a specific supplied backdrop or an appropriate opening-place setting, rendered more softly behind the subject. Lighting and colors vary with person and place; do not blur away all environmental detail.\n\nCLOTHING AND MAGIC\nAcademy uniforms must state and show the chosen school's color and embroidered creature crest: Phoenix Wing: crimson red, a phoenix bird with spread wings emblem; Hydra Head: violet purple, a many-headed hydra emblem; Gryffin Tail: cyan blue, a winged gryffin emblem; Dragon Hoard: yellow and gold, a dragon emblem. Use its color as a substantial part of the uniform, not just a tiny ribbon; put one readable creature badge on the breast, collar or shoulder. A pictorial academy crest is permitted; no written school name, letter crest or commercial logo. Resolve the school from an explicit school-specific outfit, otherwise the selected academy start or established affiliation. If none identifies a school, use ordinary scholarly clothing without inventing enrollment. Faculty wear an instructor's cut; students a practical uniform. Preserve individual tailoring and selected accessories.\nUse only supplied magic and actual gear. When magical effects are indicated, make them vivid, translucent and spatially integrated with hand, weapon or environment; keep the face clear. Their scale fits actual training. A civilian can have a striking portrait without a spell effect. Picture styling never grants equipment, powers, status, affiliations, property or travel.\n\nAVOID\nPhotographs, live action, CGI/3D renders, plastic skin, realistic pores, doll faces, beveled facial planes, muddy overpainting, duplicate limbs or hands, disconnected weapons, substituted identity, unrequested crowd foregrounds, text, lettering, signatures, watermarks, poster borders, UI and character sheets. One focal character. Keep illustrated material highlights, but no airbrushed realistic facial modeling, photographic hair strands or ray-traced surfaces.",
     "locations": "Polished colorful 2D fantasy-anime environment illustration with crisp linework and materials, imaginative magic, coherent light and readable architecture. No photorealism, semi-realism or 3D render appearance. Depict this exact authored location and its established region, not a generic castle, another realm or a collage of every landmark. Preserve actual building function, scale, climate, approach, connections and distinctive features. Use a supplied existing location image as a visual continuity reference.\n\nCompose an inviting navigable establishing view. Make entrance, usable space and a few relevant activity/service cues legible. Choose a fitting view rather than imposing the same angle everywhere. Use foreground/middle distance/background and clear focal hierarchy. Architectural detail and magic should enrich rather than obscure the route or focal building. A location can be peaceful, busy, imposing or worn according to its actual function; do not add explosions, monsters or crowds to every scene.\n\nGlowhaven: Evertree-influenced fantasy civic architecture and practical everyday enchantment; not every building is a magical tower. Phoenix Wing uses red, Gryffin Tail cyan, Dragon Hoard yellow/gold and Hydra Head violet where academy design applies. Magitech is engineered magical apparatus where actually present, not a blanket futuristic aesthetic. Drakenspire: snowy high mountain, dark stone, cobbles, steep roofs and forge warmth. Asterveil: authored floating-island terraces and plausible airborne routes. Wraith Island Prison: secured offshore stone campus, actual internal function and controlled access. Silken Descent: the specific otherworld site's authored webbed structures and hazards, without revealing an undiscovered matron or adding new stages.\n\nPlace and time must agree. Show snow where it belongs, the current actual condition where supplied and a credible atmosphere. Do not put palace staff in a distant gate court merely because they appeared in an old narrative. No central identifiable NPC unless the requested scene requires one; incidental background life can be small and secondary. No readable signs, lettering, labels, interface, borders, watermark or invented map pins. This is a scene image, not a cartographic replacement. Keep the requested framing and depicted geography.\n\nPORTAL INTERIORS: The receiving spaces are rooms with their own local construction. Drakenspire uses enclosed warm basalt, iron ribs, blue mineral light, brass channels and frost-filtered windows. Cloudbloom Landing uses pale stone, living whitewood, translucent curved panes, flowering branches and soft chimes. The outside city or sky terrace can appear beyond real doors; do not substitute it for the current room. A destination visible through a portal is not the surrounding landscape.\n\nINSTANCE CHECK: Read the current parent location and actual area before choosing exterior or interior. Drakenspire Portals is the arrival quarter; its Portal Room is an enclosed receiving hall. Use the room-specific description for an interior request. Keep real current weather and regional building materials distinct from a view through a portal.",
     "areas": "STYLE: Polished colorful 2D fantasy-anime environment illustration, crisp materials, readable architecture, coherent light and clear focal hierarchy. Use the parent location's actual visual design at this room's scale. No photographic or 3D treatment.\n\nSUBJECT: This exact current area in its actual parent location and realm. Establish function, visible entrances, usable floor/workspace, important props and the actual condition. Preserve the depicted geography. A qualified area key is an address, not lettering to paint in the image. Show only architecture and contents justified by its record; no invented captive, secret door, altar, boss or puzzle for decoration.\n\nROOM ROUTING: Evertree Base - Portal Room is the vaulted Glowhaven receiving hall. Drakenspire - Portal Room, inside Drakenspire Portals, is an enclosed basalt hall with iron supports, mineral light, brass channels and frost-filtered windows. Cloudbloom Landing - Portal Room is an enclosed pale-stone/whitewood hall with translucent panes, flowers and chimes. A genuine outside door can reveal local climate. A destination seen through an arch is a portal view, never the surrounding room. Do not render either receiving room as the superseded outdoor gate/terrace. Silken Portal Room follows its own webbed return-space record.\n\nCOMPOSITION: Choose a useful establishing view with foreground, usable middle space and depth. Background figures stay secondary and fit actual occupancy; no invented named cast. Preserve current damage or restoration instead of resetting the room. No text, labels, logo, UI, watermark, diagram arrows or collage.",
     "regions": "Polished 2D fantasy-anime regional landscape illustration, colorful and atmospheric with crisp large shapes and coherent terrain. Show the supplied existing region and its actual realm context. No realism, semi-realism or 3D-render aesthetic. This is regional scene art unless the request explicitly asks for a map; do not add labels, compass text, pins or borders. Do not invent new geography to make the composition grander.\n\nGlowhaven includes the Evertree-centered city, surrounding farms/villages, countryside and coast as justified by the requested view. Drakenspire Highlands is a snowy mountain region with its dragonkin-majority stone settlement and metalworking character. Asterveil has four distinct island clusters: northwestern green Cloudbloom Reaches, northeastern snowy Rimeglass Heights, southwestern lake-rich Mirrorwater Marches and southeastern violet Amethyst Crown. Show only the requested region; tiny settlement detail belongs near Cloudbloom’s southeastern edge. Most terrain is wilderness, with broad island surfaces and genuine sky gaps. Wraith Island Custody District is the geographically offshore secured campus, not an alien dimension. Silken Chasm is the specific otherworld exception; keep to its known scale and motifs. Do not combine these into one landscape or add an unbuilt continent.\n\nUse depth, landmarks, scale and climate to distinguish regions. The main focal terrain should remain legible at small size; avoid equal detail everywhere. Use supplied regional imagery for visual continuity. No identifiable major character, exposed secret lair, unrelated emblem, lettering, watermark, UI or legend. A striking view can suggest exploration while preserving actual routes and boundaries.",
@@ -99288,6 +100468,108 @@
             {
               "type": "story",
               "instruction": "Close Hydra Head: A Settlement That Holds once with the actual result. The instructor gives specific qualitative feedback: what met expectations, what needs improvement, and a feasible next practice or revision. At-risk standing needs serious misconduct or an established pattern, not a single sincere failure. Show only reactions earned by the actual scene and mention an appropriate next ordinary class, personal follow-up or optional extracurricular without accepting it. Do not announce a pass, friendship, promotion, expedition seat or new ability merely because this quest ended."
+            }
+          ]
+        },
+        "A Fisher’s First Lesson": {
+          "name": "A Fisher’s First Lesson",
+          "description": "Makiho has a short lesson to offer anyone willing to bring a rod and pay attention to the water. She wants a beginner to feel the difference between a nibble and a snag.",
+          "status": "hidden",
+          "detailType": "detailed",
+          "conclusive": true,
+          "questSource": "Makiho Akitsu",
+          "questLocation": "Gullwatch Reefs",
+          "objectives": [
+            {
+              "description": "Land a fish during Makiho’s practical lesson, or demonstrate a genuinely careful catch-and-release.",
+              "completed": false
+            }
+          ],
+          "questDesignBrief": "A small optional local commission. Keep the client’s ordinary personality and other work present. Explain the actual request and posted payment before agreement. No compulsory fight, portal permission or surprise boss. Real handovers use actual inventory once; native completion owns the stated reward.",
+          "completionCondition": {
+            "type": "story",
+            "query": "The participating player completes a real practical fishing lesson with Makiho and actually lands a fish or performs a successful careful catch-and-release. Buying a fish, watching another angler or promising to practice is insufficient."
+          },
+          "onCompleteEffects": [
+            {
+              "type": "item-add",
+              "item": "Mark",
+              "quantity": 15,
+              "target": "allPlayers"
+            },
+            {
+              "type": "player-experience",
+              "operator": "add",
+              "value": 60,
+              "target": "allPlayers"
+            }
+          ]
+        },
+        "Supper before the Tide Turns": {
+          "name": "Supper before the Tide Turns",
+          "description": "Nanae wants a couple of ordinary fresh fish for supper. Something modest and edible would be more useful than another sailor’s story about the one that got away.",
+          "status": "hidden",
+          "detailType": "detailed",
+          "conclusive": true,
+          "questSource": "Nanae Kogure",
+          "questLocation": "The Gilded Albatross",
+          "objectives": [
+            {
+              "description": "Bring Nanae two fresh ordinary edible fish and settle the agreed handover.",
+              "completed": false
+            }
+          ],
+          "questDesignBrief": "A small optional local commission. Keep the client’s ordinary personality and other work present. Explain the actual request and posted payment before agreement. No compulsory fight, portal permission or surprise boss. Real handovers use actual inventory once; native completion owns the stated reward.",
+          "completionCondition": {
+            "type": "story",
+            "query": "Nanae actually receives two real ordinary edible fish suitable for the agreed supper from the participating party. Honest procurement or fishing both qualify. Ownership transfers once through ordinary item handling; a promise, a catalogue description or the same fish shown twice does not qualify."
+          },
+          "onCompleteEffects": [
+            {
+              "type": "item-add",
+              "item": "Mark",
+              "quantity": 18,
+              "target": "allPlayers"
+            },
+            {
+              "type": "player-experience",
+              "operator": "add",
+              "value": 60,
+              "target": "allPlayers"
+            }
+          ]
+        },
+        "A Color beneath the Scales": {
+          "name": "A Color beneath the Scales",
+          "description": "Yorina wants to compare the natural sheen of an Amberfin Eel or Blueglass Needlefish with her waterproof pigments. A useful specimen matters more than a dramatic hunting story.",
+          "status": "hidden",
+          "detailType": "detailed",
+          "conclusive": true,
+          "questSource": "Yorina Tsugawa",
+          "questLocation": "Thistlebank Alchemy Cottage",
+          "objectives": [
+            {
+              "description": "Provide an actual Amberfin Eel or Blueglass Needlefish for Yorina’s agreed pigment study.",
+              "completed": false
+            }
+          ],
+          "questDesignBrief": "A small optional local commission. Keep the client’s ordinary personality and other work present. Explain the actual request and posted payment before agreement. No compulsory fight, portal permission or surprise boss. Real handovers use actual inventory once; native completion owns the stated reward.",
+          "completionCondition": {
+            "type": "story",
+            "query": "Yorina actually receives a real agreed Amberfin Eel or Blueglass Needlefish specimen for the pigment study. Honest purchase, fishing or an agreed suitable specimen portion qualifies. A promise, an invented sample or an unsurrendered fish does not."
+          },
+          "onCompleteEffects": [
+            {
+              "type": "item-add",
+              "item": "Mark",
+              "quantity": 30,
+              "target": "allPlayers"
+            },
+            {
+              "type": "player-experience",
+              "operator": "add",
+              "value": 90,
+              "target": "allPlayers"
             }
           ]
         }

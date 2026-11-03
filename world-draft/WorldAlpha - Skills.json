@@ -313,5 +313,12 @@
     "attribute": "logic",
     "description": "An exceptionally difficult development of Space concerned with temporal relationships rather than an oracle’s observation. This discipline is reserved knowledge, not an ordinary curriculum or affinity.\n\nScope: Theoretical local acceleration, delay, temporal anchoring and other tightly defined chronal workings only after exceptional instruction has actually been established.\n\nPractice and mastery: The initial research benchmark is Space Magic 75 and Spellcraft 80, plus a genuine exceptional teaching source or breakthrough established in the story. These numbers alone do not teach Time. Ordinary curricula, public spellbooks and readily available teachers do not offer instruction in it.\n\nBoundaries: No character receives a Time affinity, including oracles. Omit Time from character creation, random affinities. Familiarity with clocks, Divination, asking for a Time spell or rolling well on an unrelated action is not access. Temporal fiction cannot silently reverse authoritative quests, deaths, inventory or map state; such a working would need an explicitly supported design.\n\nApproach: Logic. This describes magical execution, not a required personality or morality. Casting a learned spell uses this discipline. Designing a new spell or substantially changing its blueprint uses spellcraft.",
     "startingItems": []
+  },
+  "Fishing": {
+    "name": "Fishing",
+    "type": "utility",
+    "attribute": "intuition",
+    "description": "Reading a fishing ground, choosing tackle, presenting bait or a lure, judging a bite and landing an actual fish. Better technique improves a genuine fishing action; rare catches demand a thoughtful response to their movement. An observed shoal is not an acquired catch. Fishing never supplies a boat, bait, safe footing or knowledge of every species.",
+    "startingItems": []
   }
 }

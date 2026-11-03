@@ -1,0 +1,885 @@
+{
+  "species": [
+    "Pinewater Perch",
+    "Brookmeadow Roach",
+    "Millpond Crucian",
+    "Willowback Trout",
+    "Button-Eyed Minnow",
+    "Rainbell Loach",
+    "Reedstripe Mullet",
+    "Brackish Bream",
+    "Mud-Sleeve Goby",
+    "Greenrush Flounder",
+    "Harbor Herring",
+    "Lantern Sardine",
+    "Dockside Smelt",
+    "Copper-Gill Mackerel",
+    "Whitecrest Whiting",
+    "Pebble Sole",
+    "Ribbon Garfish",
+    "Crescent Sea Bass",
+    "Silver-Tail Pollock",
+    "Sandburrow Gurnard",
+    "Glassvein Char",
+    "Bottle-Green Tench",
+    "Amberfin Eel",
+    "Pearlspot Wrasse",
+    "Blueglass Needlefish",
+    "Velvet Skate",
+    "Stormstripe Bonito",
+    "Moonmirror Dace",
+    "Lanternjaw Angler",
+    "Crownfin Sailfish"
+  ],
+  "gear": [
+    "Angler’s Rod",
+    "Angler’s Bait Portion",
+    "Painted Willow Lure",
+    "Tideglass Spinner",
+    "Rainbell Float",
+    "Angler’s Finger Guards",
+    "Reed-Woven Creel",
+    "Saltproof Line Spool",
+    "Angler’s Field Ledger",
+    "Pocket Fish Measure",
+    "Smoke-Salt Packet"
+  ],
+  "sites": {
+    "Pinewater River - Brookmeadow Ford": "r",
+    "Pinewater River - River Bend": "r",
+    "Saltmere - Village Landing": "h",
+    "Saltmere - Shoreline Green": "s",
+    "Whitecrest Harbor - Harbor Quay": "h",
+    "Whitecrest Harbor - Passenger Landing": "h",
+    "Driftstone Isle - Island Landing": "s",
+    "Driftstone Isle - Rocky Shore": "s",
+    "Pinewake Coast - Pineward Beach": "s",
+    "Pinewake Coast - Tide Pools": "s",
+    "The Gilded Albatross - Main Deck": "d",
+    "Moonarch Isle - Pebble Landing": "s",
+    "Moonarch Isle - Offshore Drop": "d",
+    "Stillback Isle - Quiet Landing": "s",
+    "Greenrush Estuary - Skiff Landing": "e",
+    "Greenrush Estuary - Reedwalk": "e",
+    "Gullwatch Reefs - Boat Shelf": "s",
+    "Gullwatch Reefs - Tide Pools": "s"
+  },
+  "quests": [
+    "A Fisher’s First Lesson",
+    "Supper before the Tide Turns",
+    "A Color beneath the Scales"
+  ],
+  "repairedLocalOffers": [
+    "ghx_local_commissions",
+    "ghx_local_commissions_2",
+    "ghx_local_commissions_3",
+    "ghx_local_commissions_4",
+    "ghx_local_commissions_5",
+    "ghx_local_commissions_6",
+    "ghx_local_commissions_7",
+    "ghx_local_commissions_8"
+  ],
+  "sharedRolls": "One local shoal/specimen roll per cast mode and turn; native player conditions select only actual qualifying anglers. Shared records count landing events, not individual fish totals.",
+  "baseCommit": "6dd409959c71dae444b74e100ab24d2e22e0f220",
+  "beforeSha256": "eee869610596cb11ae84ee0c7c6d46c89141a9919ceb8c5aa40e47c476f2b665",
+  "afterSha256": "8e3e50a10e266b209925326c2eceaa5f61fcc26effcfb3cf45e9b04fbdf174d2",
+  "changes": [
+    {
+      "path": [
+        "aiInstructions",
+        "generateActionInfo",
+        "Exact Skill Routing"
+      ],
+      "kind": "changed"
+    },
+    {
+      "path": [
+        "aiInstructions",
+        "generateCharacterBackground",
+        "Appearance Construction and Support"
+      ],
+      "kind": "changed"
+    },
+    {
+      "path": [
+        "aiInstructions",
+        "generateCharacterBackground",
+        "Appearance Depth and Visual Continuity"
+      ],
+      "kind": "changed"
+    },
+    {
+      "path": [
+        "aiInstructions",
+        "ItemGenerationAndUsage",
+        "Fishing Stock and Catches"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "worldLore",
+        "Angling around Glowhaven"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "worldLore",
+        "Glowhaven Weather and Water"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Pinewater Perch"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Brookmeadow Roach"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Millpond Crucian"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Willowback Trout"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Button-Eyed Minnow"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Rainbell Loach"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Reedstripe Mullet"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Brackish Bream"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Mud-Sleeve Goby"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Greenrush Flounder"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Harbor Herring"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Lantern Sardine"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Dockside Smelt"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Copper-Gill Mackerel"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Whitecrest Whiting"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Pebble Sole"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Ribbon Garfish"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Crescent Sea Bass"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Silver-Tail Pollock"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Sandburrow Gurnard"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Glassvein Char"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Bottle-Green Tench"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Amberfin Eel"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Pearlspot Wrasse"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Blueglass Needlefish"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Velvet Skate"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Stormstripe Bonito"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Moonmirror Dace"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Lanternjaw Angler"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Crownfin Sailfish"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Angler’s Rod"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Angler’s Bait Portion"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Painted Willow Lure"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Tideglass Spinner"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Rainbell Float"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Angler’s Finger Guards"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Reed-Woven Creel"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Saltproof Line Spool"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Angler’s Field Ledger"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Pocket Fish Measure"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Smoke-Salt Packet"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "skills",
+        "Fishing"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "traits",
+        "Portrait Style — Fantasy RPG illustration",
+        "description"
+      ],
+      "kind": "changed"
+    },
+    {
+      "path": [
+        "traits",
+        "Portrait Style — Fantasy RPG illustration",
+        "traitNarrativeEffects"
+      ],
+      "kind": "changed"
+    },
+    {
+      "path": [
+        "traits",
+        "Portrait Style — Dramatic gacha illustration",
+        "description"
+      ],
+      "kind": "changed"
+    },
+    {
+      "path": [
+        "traits",
+        "Portrait Style — Dramatic gacha illustration",
+        "traitNarrativeEffects"
+      ],
+      "kind": "changed"
+    },
+    {
+      "path": [
+        "traits",
+        "Portrait Style — Elegant linework",
+        "description"
+      ],
+      "kind": "changed"
+    },
+    {
+      "path": [
+        "traits",
+        "Portrait Style — Elegant linework",
+        "traitNarrativeEffects"
+      ],
+      "kind": "changed"
+    },
+    {
+      "path": [
+        "traits",
+        "Portrait Frame — Hip-up",
+        "description"
+      ],
+      "kind": "changed"
+    },
+    {
+      "path": [
+        "traits",
+        "Portrait Frame — Hip-up",
+        "traitNarrativeEffects"
+      ],
+      "kind": "changed"
+    },
+    {
+      "path": [
+        "traits",
+        "Fisher",
+        "description"
+      ],
+      "kind": "changed"
+    },
+    {
+      "path": [
+        "traits",
+        "Fisher",
+        "traitNarrativeEffects"
+      ],
+      "kind": "changed"
+    },
+    {
+      "path": [
+        "traits",
+        "Fisher",
+        "skills"
+      ],
+      "kind": "changed"
+    },
+    {
+      "path": [
+        "traits",
+        "Angling Basics"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "traits",
+        "Rare Fish on the Line"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "traits",
+        "Fishing Starter Kit"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "traitCategories",
+        "Starting Equipment",
+        "traits"
+      ],
+      "kind": "changed"
+    },
+    {
+      "path": [
+        "traitCategories",
+        "Starting Equipment",
+        "subcategories"
+      ],
+      "kind": "changed"
+    },
+    {
+      "path": [
+        "traitCategories",
+        "Portrait Style",
+        "description"
+      ],
+      "kind": "changed"
+    },
+    {
+      "path": [
+        "traitCategories",
+        "Portrait Framing",
+        "description"
+      ],
+      "kind": "changed"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ghx_local_commissions",
+        "phase"
+      ],
+      "kind": "removed"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ghx_local_commissions",
+        "conditions"
+      ],
+      "kind": "changed"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ghx_local_commissions",
+        "effects"
+      ],
+      "kind": "changed"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ghx_local_commissions",
+        "script"
+      ],
+      "kind": "changed"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ghx_local_commissions",
+        "scope"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "fsh_weather"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "fsh_basics"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "fsh_cast_lure"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "fsh_cast_bait"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "fsh_bait_miss"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "fsh_rare_land"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "fsh_rare_miss"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "fsh_rare_release"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "fsh_rare_cleanup"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "fsh_records"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ghx_local_commissions_2"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ghx_local_commissions_3"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ghx_local_commissions_4"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ghx_local_commissions_5"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ghx_local_commissions_6"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ghx_local_commissions_7"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ghx_local_commissions_8"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "fsh_offer_1"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "fsh_offer_2"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "fsh_offer_3"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemSettings",
+        "tiers",
+        "mundane",
+        "bonusPolicy",
+        "allowedBonuses"
+      ],
+      "kind": "changed"
+    },
+    {
+      "path": [
+        "itemSettings",
+        "tiers",
+        "artisan",
+        "bonusPolicy",
+        "allowedBonuses"
+      ],
+      "kind": "changed"
+    },
+    {
+      "path": [
+        "itemSettings",
+        "tiers",
+        "special",
+        "bonusPolicy",
+        "allowedBonuses"
+      ],
+      "kind": "changed"
+    },
+    {
+      "path": [
+        "itemSettings",
+        "tiers",
+        "legendary",
+        "bonusPolicy",
+        "allowedBonuses"
+      ],
+      "kind": "changed"
+    },
+    {
+      "path": [
+        "imagePromptConfiguration",
+        "npcs"
+      ],
+      "kind": "changed"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "A Fisher’s First Lesson"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Supper before the Tide Turns"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "A Color beneath the Scales"
+      ],
+      "kind": "added"
+    }
+  ],
+  "unchangedTopLevel": {
+    "heroesVersion": "7a61b53701befdae0eeeffaecc73f14e20b537bb0f8b91ad7c2936dc63562b25",
+    "realms": "f335fba1dbc8ccf8db5c2351b20071b8b8b5adb2fc82745f4751ea3fec4d986c",
+    "regions": "0b0441b08a287fdaeec30f4ba09984445ca78f709544102691f5cbe89700f558",
+    "locations": "154ce79cd01b6bcb710bac37d4507d3fb8dcf86e6d7e996c9a716c23140db45f",
+    "unassignedAreas": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "factions": "4dde17b8fc00b99fa45f8761dffca4fd7f4cd280a7dc3bb72812a639e152429a",
+    "worldVoices": "9e17482428cd842504f1a7b8cdb4fde819578955458263b41aafdd5246489eeb",
+    "npcs": "a186d80e6f72949c18389b9b4e2ec6916aa20daeb43d3b0ebdd248053bf99b76",
+    "storyStarts": "6a2f572f8e79a02a6c384f1e6d01c9b6f9038e462d2fa169fde84a31c09d51eb",
+    "abilities": "bcb1280617be38b72cb467a85987c39450303930faab5f471dc3897cd25066dc",
+    "npcTypes": "d4aaf4365034e6953a4a2f5aa663eb24e28d20bee8011f48a4271f4d071966c7",
+    "resourceSettings": "8042ee8672a6d8389b643e0305948a8ec3300d73cde4e07cd3cc45520b90717d",
+    "narratorStyle": "6cc55aa17a6835514357f83654779ccb78b14652827f7af1aa4b49da0ec566de",
+    "storySettings": "959c9a8c1025bef2d599ab5d89ff694a979ff8f39cd2d1bebdce0251bbb35f5d",
+    "attributeSettings": "a01441190dce4f301c591306bc4cf61ae2e765b9c369f75723487da6f50f650e",
+    "successLevelSettings": "681a1051f042b1cfa4651926623df8e8ef874d11255ec189626c7d174feba9a4",
+    "skillSettings": "0cd10495ae8ccb362c6834dc1d5804903f865e89cf2279b7bf59b6bda9848fb8",
+    "progressionSettings": "99621fdd01bd5d24ceca52b407501839069e76234433b09f362118c994d33880",
+    "locationSettings": "810212b57701ace979bfdad0a7b71c370fae9b5d7a941cdf45995d50cbb92e00",
+    "combatSettings": "c0161fd094cb4e62bba85c357f4a7f7c937878da7b95cdbcdfe22b2c72dea219",
+    "tipSettings": "b79560a60a8dfbc38c2e5e7a6ad66ad9509e272df7b83f16ad5104388e2828e1",
+    "death": "343329b4f4fba745107e7f2c7712ee2ea2c5431b5def077aa6babdb9e0a9ff76",
+    "endGame": "cbf4d61cfb0cb3b028f1c618f7e9b1d81f5e3465f0f572526beea637f89beed6",
+    "relationshipStages": "4292f195842f11467c6369342a781288cf24b732fb50450ce5e478cb507da88e",
+    "gameplayMusicSettings": "f8f88e703d2ecab09879fc780520f9a2ac3fd007304c3c6f217ebd62ceaa0f1d",
+    "otherSettings": "9273ec342be40ff2e307de53a5a003d0f28494b634831730d24cd858e9fa4a93",
+    "characterCreationSettings": "b4976d233b8d4d58b7c4b657cef254a4e6ae1168c957c28458f957dd0bd9afd5",
+    "premadeCharacters": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "nameFilterSettings": "edb1bb22fdea3e77b31499d7ee607fe5bbb08f84ebd88adafd92b259086d3c54",
+    "randomNames": "abf65853b396db0f6818a931f7d0952d037adfd8734b4effc0baa867643580a3",
+    "mods": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "gameModes": "b574bd857d8e8a28b2f8027146686cbdfe3286ca351ede75fd57a401e222aed9",
+    "authorSeeds": "4d0b942393a0bfb7cabf3b15fa21a5ec438f1c9d256aaf036a1b6afddffd9818",
+    "encounterElements": "d128741a72f553c1d4bd791f39da9391d3e6618ae0829502be6b89f4d597237c",
+    "characterArchetypes": "a4ea80044fe70e6aa6353aa4a9403d0dc9eb80ed8c49cc11f54fbeb9c45e9247",
+    "locationArchetypes": "f9714361dbfc2f463fde2b0aaa0c200cd62086c8fa5593616e1168636485a775",
+    "regionArchetypes": "29cdfb32a0383b4e86d1a11c895efcbd29c929fcde1788a8863cb6c1b586e01a"
+  },
+  "newTriggerKeys": [
+    "fsh_weather",
+    "fsh_basics",
+    "fsh_cast_lure",
+    "fsh_cast_bait",
+    "fsh_bait_miss",
+    "fsh_rare_land",
+    "fsh_rare_miss",
+    "fsh_rare_release",
+    "fsh_rare_cleanup",
+    "fsh_records",
+    "ghx_local_commissions_2",
+    "ghx_local_commissions_3",
+    "ghx_local_commissions_4",
+    "ghx_local_commissions_5",
+    "ghx_local_commissions_6",
+    "ghx_local_commissions_7",
+    "ghx_local_commissions_8",
+    "fsh_offer_1",
+    "fsh_offer_2",
+    "fsh_offer_3"
+  ],
+  "source": "Latest Studio export 366606e8-3528-434f-80b6-fef091104a73, reconstructed exactly from pre-task commit plus the separately recorded three music edits. No older candidate snapshot."
+}

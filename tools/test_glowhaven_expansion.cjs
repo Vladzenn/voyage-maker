@@ -49,11 +49,11 @@ function ctx(overrides={}){
   if(c.type==='game-tick')v=s.tick;else if(c.type==='party-location')v=s.location;else if(c.type==='party-realm')v=s.realm;
   else if(c.type==='npc-health')v=s.health;else if(c.type==='npc-in-scene')v=s.scene;else if(c.type==='npc-in-combat')v=s.combat;else if(c.type==='npc-in-party')v=s.party;
   else if(c.type==='read-boolean')v=s.storage[c.key]===true;else if(c.type==='quest-status')v=s.quests[c.questId]||'hidden';else if(c.type==='action-text')v=s.text||'';
-  else if(c.type==='story'||c.type==='action'){queries++;return s.semTitle?c.query.includes(s.semTitle):s.semantic}
+  else if(c.type==='story')v=s.story||'';else if(c.type==='action')v=[s.text||''];
   else throw Error('Unimplemented '+c.type);
   return c.operator?cmp(v,c.operator,c.value):v;
  }
- function run(id){const t=w.triggerDefinitions[id];if(!t.conditions.every(check))return [];
+ function run(id){const t=w.triggerDefinitions[id];if(!t.conditions.every(c=>{if(c.type==='story'||c.type==='action'){queries++;return s.semTitle?c.query.includes(s.semTitle):s.semantic}return check(c)}))return [];
   const box={check,storage:s.storage,effects:structuredClone(t.effects),skip:false};if(t.script)vm.runInNewContext(t.script,box,{timeout:150});
   if(box.skip)return [];for(const e of box.effects)if(e.type==='write-boolean')s.storage[e.key]=e.value;return Array.from(box.effects);
  }
@@ -70,7 +70,7 @@ h=ctx({storage:{ghxSerpentAwake:true},semantic:false});ck(!h.run('ghx_serpent_sl
 for(const tick of [1,24,48,120]){h=ctx({tick,scene:false});const e=h.run('ghx_kraken_roam');ck(e.length===1&&['Splinterwake Wreck - Deepwater Edge','Moonarch Isle - Offshore Drop'].includes(e[0].area),'Bounded deepwater route '+tick);ck(!h.run('ghx_kraken_roam').length,'No duplicate move within slot')}
 for(const guard of [{scene:true},{scene:false,combat:true},{scene:false,party:true},{scene:false,health:0},{scene:false,quests:{'Guild: Ghorvath at the Deepwater Edge':'completed'}}])ck(!ctx(guard).run('ghx_kraken_roam').length,'Kraken scheduling guard '+JSON.stringify(guard));
 h=ctx({scene:false,health:0});h.run('ghx_kraken_roam');h.s.health=100;h.s.tick=100;ck(!h.run('ghx_kraken_roam').length,'Defeat latch prevents later resurrection by schedule');
-for(const [title,client,place]of p.contents.localOffers){h=ctx({location:place,semTitle:title});const e=h.run('ghx_local_commissions');ck(e.some(v=>v.type==='quest-init'&&v.value===title)&&e.filter(v=>v.type==='quest-init').length===1,'Exact local offer '+title);ck(!e.some(v=>['quest-accept','item-add'].includes(v.type)),'Offer is not acceptance/payment '+title);h.s.quests[title]='completed';ck(!h.run('ghx_local_commissions').some(v=>v.value===title),'No respawn completed personal work '+title)}
+for(const [title,client,place]of p.contents.localOffers){const id=Object.keys(w.triggerDefinitions).find(k=>k.startsWith('ghx_local_commissions')&&w.triggerDefinitions[k].conditions.some(c=>c.questId===title));h=ctx({location:place,semTitle:title});const e=h.run(id);ck(e.some(v=>v.type==='quest-init'&&v.value===title)&&e.filter(v=>v.type==='quest-init').length===1,'Exact local offer '+title);ck(!e.some(v=>['quest-accept','item-add'].includes(v.type)),'Offer is not acceptance/payment '+title);h.s.quests[title]='completed';ck(!h.run(id).some(v=>v.value===title),'No respawn completed personal work '+title)}
 ck(!ctx({location:'Starlark Abbey',semantic:false}).run('ghx_local_commissions').length,'No quest spam from arrival/greeting');
 ck(!ctx({location:'The Eternal Crucible'}).run('ghx_local_commissions').length,'Local dispatcher not active at unrelated arena');
 for(const t of Object.values(w.triggerDefinitions))for(const c of t.conditions)if(typeof c.value==='string')ck(c.value.length<=100,'Studio string condition limit '+t.name);

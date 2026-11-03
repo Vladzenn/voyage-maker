@@ -17231,20 +17231,6 @@
       }
     ]
   },
-  "ghx_local_commissions": {
-    "name": "ghx_local_commissions",
-    "recurring": true,
-    "phase": "planning",
-    "conditions": [
-      {
-        "type": "party-realm",
-        "operator": "equals",
-        "value": "Glowhaven"
-      }
-    ],
-    "effects": [],
-    "script": "const jobs=[[\"A Place before Supper\",\"Tamae Shibano\",\"Starlark Abbey\",\"Starlark Abbey\"],[\"A Jar That Will Not Settle\",\"Yorina Tsugawa\",\"Thistlebank Alchemy Cottage\",\"Thistlebank Alchemy Cottage\"],[\"The Wrong Kind of Hide\",\"Uta Nekoyama\",\"Pinewater Woods\",\"Pinewater Woods\"],[\"The Bell That Wakes the Ward\",\"Eiji Kuramochi\",\"Starlark Abbey\",\"Starlark Abbey\"],[\"A Second Pair of Eyes\",\"Brina Flintmere\",\"Old Southwatch\",\"Longgrass Crossroads\"],[\"What the Shell Caught\",\"Mina Takanashi\",\"Stillback Isle\",\"Greenrush Estuary\"],[\"A Quiet View, Honestly\",\"Kōzō Hinoura\",\"Seaward Overlook\",\"Beaconrest Lighthouse\"],[\"The Bluecoil Watch\",\"Mina Takanashi\",\"Bluecoil Rest\",\"Greenrush Estuary\"]];\nconst place=check({type:'party-location'}),text=String(check({type:'action-text'})||'').toLowerCase();\nconst options=jobs.filter(r=>(r[2]===place||r[3]===place)&&check({type:'quest-status',questId:r[0]})==='hidden');\nconst named=options.find(r=>text.includes(r[0].toLowerCase()));\nlet found=false;\nfor(const [title,client,destination] of named?[named]:options){\n if(check({type:'action',query:'In this actual local scene, the player deliberately asks about '+title+' or asks '+client+' for work/helping with that specific local problem, or deliberately investigates its actual public notice. The real client or notice must actually be involved. A greeting, passing through, renting a room, requesting unrelated work, or discussing somebody else’s old completed job is false.'})!==true)continue;\n effects.push({type:'quest-init',operator:'set',value:title},{type:'story',instruction:'Offer '+title+' through '+client+' or its actual local notice. Give its public situation and agreed reward; destination '+destination+'. Wait for the player to accept or decline. This is no accepted job, payment, licence, recruitment or solved problem.'});\n found=true;break;\n}\nif(!found)skip=true;\n"
-  },
   "ghx_kraken_roam": {
     "name": "ghx_kraken_roam",
     "conditions": [
@@ -17354,5 +17340,726 @@
         "value": false
       }
     ]
+  },
+  "fsh_weather": {
+    "name": "fsh_weather",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-realm",
+        "operator": "equals",
+        "value": "Glowhaven"
+      }
+    ],
+    "effects": [],
+    "script": "// One persistent regional forecast. No wall clock, calendar rewrite or combat effects.\nconst tick=Number(check({type:'game-tick'}))||0;\nconst traits=check({type:'player-traits'})||{};\nif(storage.fshHook&&!Object.values(traits).some(t=>Array.isArray(t)&&t.includes('Rare Fish on the Line')))delete storage.fshHook;\nif(!storage.fshWeather||typeof storage.fshWeather!=='object')storage.fshWeather={};\nconst states=['clear','overcast','rain','fog','wind','storm'];\nconst transitions={clear:[45,30,5,8,11,1],overcast:[20,30,25,10,13,2],rain:[8,43,28,12,7,2],fog:[18,48,12,15,6,1],wind:[22,32,10,2,30,4],storm:[0,25,35,0,40,0]};\nfunction pick(weights){let n=Math.random()*weights.reduce((a,b)=>a+b,0);for(let i=0;i<weights.length;i++){n-=weights[i];if(n<0)return states[i]}return 'overcast'}\nlet changed=false;\nfor(const zone of ['inland','coast']){\n let f=storage.fshWeather[zone];\n if(!f||!states.includes(f.kind)||!Number.isFinite(f.until))f={kind:zone==='coast'?'overcast':'clear',until:tick+12+Math.floor(Math.random()*13)};\n else if(tick>=f.until){f={kind:pick(transitions[f.kind]),until:tick+12+Math.floor(Math.random()*13)};changed=true}\n storage.fshWeather[zone]=f;\n}\nconst region=String(check({type:'party-region'})||'');\nconst zone=/Harbor|Coast|Isles|Shoals|Reach|Bluffs|Marshes/.test(region)?'coast':'inland';\nconst f=storage.fshWeather[zone],place=String(check({type:'party-location'})||'');\nconst context=zone+':'+f.kind+':'+place;\nif(tick>0&&(changed||storage.fshWeatherContext!==context)){\n const detail={clear:'clear skies and ordinary visibility',overcast:'cloud cover and soft light',rain:'steady ordinary rain and wet exposed surfaces',fog:'patches of mist and reduced outdoor visibility',wind:'brisk wind, rippled water and moving foliage',storm:'a passing squall, rough exposed water and an evident reason to seek shelter'}[f.kind];\n effects.push({type:'story',instruction:'Glowhaven '+zone+' weather: '+detail+'. Keep this forecast consistent until it changes. Show only what this scene can perceive; interiors remain sheltered. Do not move anyone, invent injuries, start combat, cancel work or change the time of day. Storms are plainly warned; fishing may be postponed. This is local Glowhaven weather, not the climate of another realm.'});\n storage.fshWeatherContext=context;\n}else skip=true;\n",
+    "phase": "planning"
+  },
+  "fsh_basics": {
+    "name": "fsh_basics",
+    "recurring": true,
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "party-realm",
+        "operator": "equals",
+        "value": "Glowhaven"
+      },
+      {
+        "type": "party-area",
+        "operator": "regex",
+        "value": "Pinewater|Saltmere|Whitecrest|Driftstone|Pinewake|Albatross|Moonarch|Greenrush|Gullwatch|Stillback"
+      },
+      {
+        "type": "player-item",
+        "item": "Angler’s Rod",
+        "operator": "greaterThan",
+        "value": 0
+      },
+      {
+        "type": "skill-value",
+        "skill": "Fishing",
+        "operator": "equals",
+        "value": 0
+      },
+      {
+        "type": "action",
+        "query": "The player actually rigs their own rod and practices their first cast into reachable water, or receives a real introductory fishing lesson with that rod. Talking about lessons, receiving a rod or fishing elsewhere in memory does not qualify."
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Angling Basics",
+        "target": "satisfyingPlayers"
+      }
+    ],
+    "script": "const sites={\"Pinewater River - Brookmeadow Ford\":\"r\",\"Pinewater River - River Bend\":\"r\",\"Saltmere - Village Landing\":\"h\",\"Saltmere - Shoreline Green\":\"s\",\"Whitecrest Harbor - Harbor Quay\":\"h\",\"Whitecrest Harbor - Passenger Landing\":\"h\",\"Driftstone Isle - Island Landing\":\"s\",\"Driftstone Isle - Rocky Shore\":\"s\",\"Pinewake Coast - Pineward Beach\":\"s\",\"Pinewake Coast - Tide Pools\":\"s\",\"The Gilded Albatross - Main Deck\":\"d\",\"Moonarch Isle - Pebble Landing\":\"s\",\"Moonarch Isle - Offshore Drop\":\"d\",\"Stillback Isle - Quiet Landing\":\"s\",\"Greenrush Estuary - Skiff Landing\":\"e\",\"Greenrush Estuary - Reedwalk\":\"e\",\"Gullwatch Reefs - Boat Shelf\":\"s\",\"Gullwatch Reefs - Tide Pools\":\"s\"};if(!sites[String(check({type:'party-area'})||'')])skip=true;"
+  },
+  "fsh_cast_lure": {
+    "name": "fsh_cast_lure",
+    "recurring": true,
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "party-area",
+        "operator": "regex",
+        "value": "Pinewater|Saltmere|Whitecrest|Driftstone|Pinewake|Albatross|Moonarch|Greenrush|Gullwatch|Stillback"
+      },
+      {
+        "type": "player-item",
+        "item": "Angler’s Rod",
+        "operator": "greaterThan",
+        "value": 0
+      },
+      {
+        "type": "player-traits",
+        "operator": "notContains",
+        "value": "Rare Fish on the Line"
+      },
+      {
+        "type": "action-success-level",
+        "operator": "greaterThanOrEqual",
+        "value": "mixed results"
+      },
+      {
+        "type": "action",
+        "query": "The player makes a real fresh rod-fishing cast into reachable water, with their own Angler’s Rod, rather than talking about fishing, buying gear, attacking, remembering a cast or already handling a rare hooked fish. They use the reusable spinner or another real reusable lure, without using a consumable bait portion."
+      }
+    ],
+    "effects": [],
+    "script": "const sites={\"Pinewater River - Brookmeadow Ford\":\"r\",\"Pinewater River - River Bend\":\"r\",\"Saltmere - Village Landing\":\"h\",\"Saltmere - Shoreline Green\":\"s\",\"Whitecrest Harbor - Harbor Quay\":\"h\",\"Whitecrest Harbor - Passenger Landing\":\"h\",\"Driftstone Isle - Island Landing\":\"s\",\"Driftstone Isle - Rocky Shore\":\"s\",\"Pinewake Coast - Pineward Beach\":\"s\",\"Pinewake Coast - Tide Pools\":\"s\",\"The Gilded Albatross - Main Deck\":\"d\",\"Moonarch Isle - Pebble Landing\":\"s\",\"Moonarch Isle - Offshore Drop\":\"d\",\"Stillback Isle - Quiet Landing\":\"s\",\"Greenrush Estuary - Skiff Landing\":\"e\",\"Greenrush Estuary - Reedwalk\":\"e\",\"Gullwatch Reefs - Boat Shelf\":\"s\",\"Gullwatch Reefs - Tide Pools\":\"s\"},fish=[[\"Pinewater Perch\",\"r\",30,\"clear\",12,30],[\"Brookmeadow Roach\",\"r\",32,\"overcast\",8,22],[\"Millpond Crucian\",\"r\",25,\"rain\",12,32],[\"Willowback Trout\",\"r\",20,\"overcast\",18,42],[\"Button-Eyed Minnow\",\"r\",35,\"clear\",4,10],[\"Rainbell Loach\",\"re\",23,\"rain\",8,20],[\"Reedstripe Mullet\",\"eh\",28,\"overcast\",15,38],[\"Brackish Bream\",\"e\",27,\"rain\",16,35],[\"Mud-Sleeve Goby\",\"eh\",33,\"overcast\",5,16],[\"Greenrush Flounder\",\"es\",23,\"fog\",15,37],[\"Harbor Herring\",\"hs\",35,\"overcast\",14,27],[\"Lantern Sardine\",\"hs\",35,\"clear\",8,18],[\"Dockside Smelt\",\"h\",30,\"rain\",7,17],[\"Copper-Gill Mackerel\",\"hsd\",28,\"wind\",22,43],[\"Whitecrest Whiting\",\"hs\",28,\"clear\",18,36],[\"Pebble Sole\",\"s\",24,\"clear\",12,29],[\"Ribbon Garfish\",\"sd\",22,\"wind\",30,65],[\"Crescent Sea Bass\",\"hsd\",19,\"overcast\",25,62],[\"Silver-Tail Pollock\",\"sd\",25,\"overcast\",25,55],[\"Sandburrow Gurnard\",\"s\",22,\"clear\",18,38],[\"Glassvein Char\",\"r\",8,\"clear\",22,48],[\"Bottle-Green Tench\",\"re\",9,\"rain\",25,52],[\"Amberfin Eel\",\"re\",7,\"rain\",35,85],[\"Pearlspot Wrasse\",\"s\",9,\"clear\",15,32],[\"Blueglass Needlefish\",\"sd\",8,\"wind\",35,78],[\"Velvet Skate\",\"sd\",7,\"fog\",35,80],[\"Stormstripe Bonito\",\"d\",8,\"wind\",40,90],[\"Moonmirror Dace\",\"re\",2,\"fog\",18,34],[\"Lanternjaw Angler\",\"d\",2,\"fog\",35,70],[\"Crownfin Sailfish\",\"d\",2,\"wind\",95,180]];\nconst tick=Number(check({type:'game-tick'}))||0,area=String(check({type:'party-area'})||''),habitat=sites[area];\nconst baited=false,key=baited?'bait':'lure';\nif(!storage.fshCasts||typeof storage.fshCasts!=='object')storage.fshCasts={};\nif(check({type:'party-realm'})!=='Glowhaven'||!habitat||tick<=0||storage.fshCasts[key]===tick){skip=true}else{\n const zone=habitat==='r'?'inland':'coast';\n const weather=storage.fshWeather?.[zone]?.kind||(zone==='inland'?'clear':'overcast');\n if(weather==='storm'&&habitat==='d'){\n  effects.push({type:'story',instruction:'Exposed offshore fishing is unsafe in this squall. Keep the line stowed and show the rough water; offer waiting or a genuinely sheltered fishing ground. No bait is spent and no catch is awarded. Do not move the player or summon a monster.'});\n  storage.fshCasts[key]=tick;\n }else{\n  const pool=fish.filter(f=>f[1].includes(habitat)&&(!storage.fshHook||f[2]>2));\n  const weights=pool.map(f=>f[2]*(f[3]===weather?2.2:1)*(baited&&(f[2]<=9||/Loach|Bream|Tench|Eel|Goby/.test(f[0]))?1.6:1));\n  let roll=Math.random()*weights.reduce((a,b)=>a+b,0),chosen=pool[pool.length-1];\n  for(let i=0;i<pool.length;i++){roll-=weights[i];if(roll<0){chosen=pool[i];break}}\n  const cm=chosen[4]+Math.floor(Math.random()*(chosen[5]-chosen[4]+1));\n  // The same local shoal roll is shared by simultaneous qualifying anglers.\n  // Native scope/conditions, not script-side text parsing, select the recipients.\n  if(baited)effects.push({type:'item-remove',item:'Angler’s Bait Portion',quantity:1,target:'satisfyingPlayers'});\n  if(chosen[2]===2){\n   storage.fshHook={fish:chosen[0],cm,area,until:tick+6};\n   effects.push({type:'player-traits',operator:'add',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\n   effects.push({type:'story',instruction:'A rare '+chosen[0]+' is hooked, not landed or acquired. Describe its distinctive movement and let the angler choose a response: ease the line and tire it, guide it away from cover, take a risk, or release it. One actual next handling attempt can settle the catch using Fishing. No mandatory wording, extra fight, automatic damaged tackle or inventory fish yet. Waiting for up to six turns is possible; leaving this fishing ground loses the line’s catch.'});\n  }else{\n   effects.push({type:'item-add',item:chosen[0],quantity:1,target:'satisfyingPlayers'});\n   effects.push({type:'story',instruction:'The qualifying angler lands one '+chosen[0]+', about '+cm+' cm, in '+weather+' conditions. The inventory grant is already handled; do not duplicate it, invent another catch or add separate XP/resource rewards. A mixed action result can mean an awkward landing. Keep this a short fishing moment unless the player engages further.'});\n   if(!storage.fshRecords||typeof storage.fshRecords!=='object')storage.fshRecords={};\n   const old=storage.fshRecords[chosen[0]]||{best:0,landings:0};\n   storage.fshRecords[chosen[0]]={best:Math.max(old.best,cm),landings:old.landings+1};\n  }\n  storage.fshCasts[key]=tick;\n }\n}\n"
+  },
+  "fsh_cast_bait": {
+    "name": "fsh_cast_bait",
+    "recurring": true,
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "party-area",
+        "operator": "regex",
+        "value": "Pinewater|Saltmere|Whitecrest|Driftstone|Pinewake|Albatross|Moonarch|Greenrush|Gullwatch|Stillback"
+      },
+      {
+        "type": "player-item",
+        "item": "Angler’s Rod",
+        "operator": "greaterThan",
+        "value": 0
+      },
+      {
+        "type": "player-item",
+        "item": "Angler’s Bait Portion",
+        "operator": "greaterThan",
+        "value": 0
+      },
+      {
+        "type": "action-success-level",
+        "operator": "greaterThanOrEqual",
+        "value": "mixed results"
+      },
+      {
+        "type": "action",
+        "query": "The player makes a real fresh rod-fishing cast into reachable water, with their own Angler’s Rod, rather than talking about fishing, buying gear, attacking, remembering a cast or already handling a rare hooked fish. They deliberately use one real Angler’s Bait Portion from their own inventory."
+      }
+    ],
+    "effects": [],
+    "script": "const sites={\"Pinewater River - Brookmeadow Ford\":\"r\",\"Pinewater River - River Bend\":\"r\",\"Saltmere - Village Landing\":\"h\",\"Saltmere - Shoreline Green\":\"s\",\"Whitecrest Harbor - Harbor Quay\":\"h\",\"Whitecrest Harbor - Passenger Landing\":\"h\",\"Driftstone Isle - Island Landing\":\"s\",\"Driftstone Isle - Rocky Shore\":\"s\",\"Pinewake Coast - Pineward Beach\":\"s\",\"Pinewake Coast - Tide Pools\":\"s\",\"The Gilded Albatross - Main Deck\":\"d\",\"Moonarch Isle - Pebble Landing\":\"s\",\"Moonarch Isle - Offshore Drop\":\"d\",\"Stillback Isle - Quiet Landing\":\"s\",\"Greenrush Estuary - Skiff Landing\":\"e\",\"Greenrush Estuary - Reedwalk\":\"e\",\"Gullwatch Reefs - Boat Shelf\":\"s\",\"Gullwatch Reefs - Tide Pools\":\"s\"},fish=[[\"Pinewater Perch\",\"r\",30,\"clear\",12,30],[\"Brookmeadow Roach\",\"r\",32,\"overcast\",8,22],[\"Millpond Crucian\",\"r\",25,\"rain\",12,32],[\"Willowback Trout\",\"r\",20,\"overcast\",18,42],[\"Button-Eyed Minnow\",\"r\",35,\"clear\",4,10],[\"Rainbell Loach\",\"re\",23,\"rain\",8,20],[\"Reedstripe Mullet\",\"eh\",28,\"overcast\",15,38],[\"Brackish Bream\",\"e\",27,\"rain\",16,35],[\"Mud-Sleeve Goby\",\"eh\",33,\"overcast\",5,16],[\"Greenrush Flounder\",\"es\",23,\"fog\",15,37],[\"Harbor Herring\",\"hs\",35,\"overcast\",14,27],[\"Lantern Sardine\",\"hs\",35,\"clear\",8,18],[\"Dockside Smelt\",\"h\",30,\"rain\",7,17],[\"Copper-Gill Mackerel\",\"hsd\",28,\"wind\",22,43],[\"Whitecrest Whiting\",\"hs\",28,\"clear\",18,36],[\"Pebble Sole\",\"s\",24,\"clear\",12,29],[\"Ribbon Garfish\",\"sd\",22,\"wind\",30,65],[\"Crescent Sea Bass\",\"hsd\",19,\"overcast\",25,62],[\"Silver-Tail Pollock\",\"sd\",25,\"overcast\",25,55],[\"Sandburrow Gurnard\",\"s\",22,\"clear\",18,38],[\"Glassvein Char\",\"r\",8,\"clear\",22,48],[\"Bottle-Green Tench\",\"re\",9,\"rain\",25,52],[\"Amberfin Eel\",\"re\",7,\"rain\",35,85],[\"Pearlspot Wrasse\",\"s\",9,\"clear\",15,32],[\"Blueglass Needlefish\",\"sd\",8,\"wind\",35,78],[\"Velvet Skate\",\"sd\",7,\"fog\",35,80],[\"Stormstripe Bonito\",\"d\",8,\"wind\",40,90],[\"Moonmirror Dace\",\"re\",2,\"fog\",18,34],[\"Lanternjaw Angler\",\"d\",2,\"fog\",35,70],[\"Crownfin Sailfish\",\"d\",2,\"wind\",95,180]];\nconst tick=Number(check({type:'game-tick'}))||0,area=String(check({type:'party-area'})||''),habitat=sites[area];\nconst baited=true,key=baited?'bait':'lure';\nif(!storage.fshCasts||typeof storage.fshCasts!=='object')storage.fshCasts={};\nif(check({type:'party-realm'})!=='Glowhaven'||!habitat||tick<=0||storage.fshCasts[key]===tick){skip=true}else{\n const zone=habitat==='r'?'inland':'coast';\n const weather=storage.fshWeather?.[zone]?.kind||(zone==='inland'?'clear':'overcast');\n if(weather==='storm'&&habitat==='d'){\n  effects.push({type:'story',instruction:'Exposed offshore fishing is unsafe in this squall. Keep the line stowed and show the rough water; offer waiting or a genuinely sheltered fishing ground. No bait is spent and no catch is awarded. Do not move the player or summon a monster.'});\n  storage.fshCasts[key]=tick;\n }else{\n  const pool=fish.filter(f=>f[1].includes(habitat)&&(!storage.fshHook||f[2]>2));\n  const weights=pool.map(f=>f[2]*(f[3]===weather?2.2:1)*(baited&&(f[2]<=9||/Loach|Bream|Tench|Eel|Goby/.test(f[0]))?1.6:1));\n  let roll=Math.random()*weights.reduce((a,b)=>a+b,0),chosen=pool[pool.length-1];\n  for(let i=0;i<pool.length;i++){roll-=weights[i];if(roll<0){chosen=pool[i];break}}\n  const cm=chosen[4]+Math.floor(Math.random()*(chosen[5]-chosen[4]+1));\n  // The same local shoal roll is shared by simultaneous qualifying anglers.\n  // Native scope/conditions, not script-side text parsing, select the recipients.\n  if(baited)effects.push({type:'item-remove',item:'Angler’s Bait Portion',quantity:1,target:'satisfyingPlayers'});\n  if(chosen[2]===2){\n   storage.fshHook={fish:chosen[0],cm,area,until:tick+6};\n   effects.push({type:'player-traits',operator:'add',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\n   effects.push({type:'story',instruction:'A rare '+chosen[0]+' is hooked, not landed or acquired. Describe its distinctive movement and let the angler choose a response: ease the line and tire it, guide it away from cover, take a risk, or release it. One actual next handling attempt can settle the catch using Fishing. No mandatory wording, extra fight, automatic damaged tackle or inventory fish yet. Waiting for up to six turns is possible; leaving this fishing ground loses the line’s catch.'});\n  }else{\n   effects.push({type:'item-add',item:chosen[0],quantity:1,target:'satisfyingPlayers'});\n   effects.push({type:'story',instruction:'The qualifying angler lands one '+chosen[0]+', about '+cm+' cm, in '+weather+' conditions. The inventory grant is already handled; do not duplicate it, invent another catch or add separate XP/resource rewards. A mixed action result can mean an awkward landing. Keep this a short fishing moment unless the player engages further.'});\n   if(!storage.fshRecords||typeof storage.fshRecords!=='object')storage.fshRecords={};\n   const old=storage.fshRecords[chosen[0]]||{best:0,landings:0};\n   storage.fshRecords[chosen[0]]={best:Math.max(old.best,cm),landings:old.landings+1};\n  }\n  storage.fshCasts[key]=tick;\n }\n}\n"
+  },
+  "fsh_bait_miss": {
+    "name": "fsh_bait_miss",
+    "recurring": true,
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "party-area",
+        "operator": "regex",
+        "value": "Pinewater|Saltmere|Whitecrest|Driftstone|Pinewake|Albatross|Moonarch|Greenrush|Gullwatch|Stillback"
+      },
+      {
+        "type": "player-item",
+        "item": "Angler’s Rod",
+        "operator": "greaterThan",
+        "value": 0
+      },
+      {
+        "type": "player-item",
+        "item": "Angler’s Bait Portion",
+        "operator": "greaterThan",
+        "value": 0
+      },
+      {
+        "type": "action-success-level",
+        "operator": "lessThan",
+        "value": "mixed results"
+      },
+      {
+        "type": "action",
+        "query": "The player makes a real fresh rod-fishing cast into reachable water, with their own Angler’s Rod, rather than talking about fishing, buying gear, attacking, remembering a cast or already handling a rare hooked fish. They actually expend one Angler’s Bait Portion on this cast; a baited rare-fish handling action is not a fresh cast."
+      }
+    ],
+    "effects": [
+      {
+        "type": "item-remove",
+        "item": "Angler’s Bait Portion",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "story",
+        "instruction": "This genuine baited cast catches nothing; one bait portion was spent. Give a brief practical result without another item deduction, attack or invented injury."
+      }
+    ],
+    "script": "const sites={\"Pinewater River - Brookmeadow Ford\":\"r\",\"Pinewater River - River Bend\":\"r\",\"Saltmere - Village Landing\":\"h\",\"Saltmere - Shoreline Green\":\"s\",\"Whitecrest Harbor - Harbor Quay\":\"h\",\"Whitecrest Harbor - Passenger Landing\":\"h\",\"Driftstone Isle - Island Landing\":\"s\",\"Driftstone Isle - Rocky Shore\":\"s\",\"Pinewake Coast - Pineward Beach\":\"s\",\"Pinewake Coast - Tide Pools\":\"s\",\"The Gilded Albatross - Main Deck\":\"d\",\"Moonarch Isle - Pebble Landing\":\"s\",\"Moonarch Isle - Offshore Drop\":\"d\",\"Stillback Isle - Quiet Landing\":\"s\",\"Greenrush Estuary - Skiff Landing\":\"e\",\"Greenrush Estuary - Reedwalk\":\"e\",\"Gullwatch Reefs - Boat Shelf\":\"s\",\"Gullwatch Reefs - Tide Pools\":\"s\"};const tick=Number(check({type:'game-tick'}))||0,habitat=sites[String(check({type:'party-area'})||'')];if(!storage.fshCasts)storage.fshCasts={};if(check({type:'party-realm'})!=='Glowhaven'||!habitat||tick<=0||storage.fshCasts.bait===tick)skip=true;else{storage.fshCasts.bait=tick;if(habitat==='d'&&storage.fshWeather?.coast?.kind==='storm'){effects.length=0;effects.push({type:'story',instruction:'The exposed water is too rough for this cast. Keep the bait and show the option to wait safely; grant no catch.'})}}"
+  },
+  "fsh_rare_land": {
+    "name": "fsh_rare_land",
+    "recurring": true,
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Rare Fish on the Line"
+      },
+      {
+        "type": "party-area",
+        "operator": "regex",
+        "value": "Pinewater|Saltmere|Whitecrest|Driftstone|Pinewake|Albatross|Moonarch|Greenrush|Gullwatch|Stillback"
+      },
+      {
+        "type": "player-item",
+        "item": "Angler’s Rod",
+        "operator": "greaterThan",
+        "value": 0
+      },
+      {
+        "type": "action-success-level",
+        "operator": "greaterThanOrEqual",
+        "value": "basic success"
+      },
+      {
+        "type": "action",
+        "query": "The player actively attempts to land their already hooked rare fish by a deliberate handling choice, using their actual line and Fishing. They are not merely talking, waiting, casting a second line, releasing it or claiming a previous catch."
+      }
+    ],
+    "effects": [],
+    "script": "const tick=Number(check({type:'game-tick'}))||0,area=String(check({type:'party-area'})||'');\nconst h=storage.fshHook;\nconst valid=check({type:'party-realm'})==='Glowhaven'&&h&&[\"Moonmirror Dace\",\"Lanternjaw Angler\",\"Crownfin Sailfish\"].includes(h.fish)&&Number.isFinite(h.cm)&&h.area===area&&tick<=h.until;\nconst mode=\"land\";\nif(!storage.fshRareActions||typeof storage.fshRareActions!=='object')storage.fshRareActions={};\nif(mode!=='cleanup'&&storage.fshRareActions[mode]===tick){skip=true}else if(mode==='cleanup'){\n if(valid)skip=true;\n else{\n  effects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\n  effects.push({type:'story',instruction:'The unattended fishing line has gone slack; its unlanded catch escaped. Clear that fishing moment quietly without a fine, broken equipment, lost unrelated items or monster encounter.'});\n  delete storage.fshHook;\n }\n}else if(!valid){skip=true}else if(mode==='release'||mode==='miss'){\n effects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\n effects.push({type:'story',instruction:mode==='release'?'The angler deliberately lets the hooked fish go. Give a brief fitting release; no fish enters inventory and no unrelated property is lost.':'The actual handling attempt failed to land the fish; it slips free. Give the concrete local result without an extra attack, invented injury or automatic broken rod. No fish enters inventory.'});\n}else{\n effects.push({type:'item-add',item:h.fish,quantity:1,target:'satisfyingPlayers'});\n effects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\n effects.push({type:'story',instruction:'The angler’s successful handling lands one '+h.fish+', about '+h.cm+' cm. Its inventory grant is already applied. Give the chosen approach a satisfying short payoff; do not add a second fish or another reward. The angler can keep it, make an actual handover, or release the real held specimen through ordinary item handling.'});\n if(!storage.fshRecords||typeof storage.fshRecords!=='object')storage.fshRecords={};\n const old=storage.fshRecords[h.fish]||{best:0,landings:0};\n storage.fshRecords[h.fish]={best:Math.max(old.best,h.cm),landings:old.landings+1};\n}\nif(!skip&&mode!=='cleanup')storage.fshRareActions[mode]=tick;\n// Retain the shared species record for other simultaneous hooked anglers until\n// their traits clear. This sweep runs on the following planning tick.\n"
+  },
+  "fsh_rare_miss": {
+    "name": "fsh_rare_miss",
+    "recurring": true,
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Rare Fish on the Line"
+      },
+      {
+        "type": "party-area",
+        "operator": "regex",
+        "value": "Pinewater|Saltmere|Whitecrest|Driftstone|Pinewake|Albatross|Moonarch|Greenrush|Gullwatch|Stillback"
+      },
+      {
+        "type": "player-item",
+        "item": "Angler’s Rod",
+        "operator": "greaterThan",
+        "value": 0
+      },
+      {
+        "type": "action-success-level",
+        "operator": "lessThan",
+        "value": "basic success"
+      },
+      {
+        "type": "action",
+        "query": "The player actively attempts to land their already hooked rare fish by a deliberate handling choice, using their actual line and Fishing. They are not merely talking, waiting, casting a second line, releasing it or claiming a previous catch."
+      }
+    ],
+    "effects": [],
+    "script": "const tick=Number(check({type:'game-tick'}))||0,area=String(check({type:'party-area'})||'');\nconst h=storage.fshHook;\nconst valid=check({type:'party-realm'})==='Glowhaven'&&h&&[\"Moonmirror Dace\",\"Lanternjaw Angler\",\"Crownfin Sailfish\"].includes(h.fish)&&Number.isFinite(h.cm)&&h.area===area&&tick<=h.until;\nconst mode=\"miss\";\nif(!storage.fshRareActions||typeof storage.fshRareActions!=='object')storage.fshRareActions={};\nif(mode!=='cleanup'&&storage.fshRareActions[mode]===tick){skip=true}else if(mode==='cleanup'){\n if(valid)skip=true;\n else{\n  effects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\n  effects.push({type:'story',instruction:'The unattended fishing line has gone slack; its unlanded catch escaped. Clear that fishing moment quietly without a fine, broken equipment, lost unrelated items or monster encounter.'});\n  delete storage.fshHook;\n }\n}else if(!valid){skip=true}else if(mode==='release'||mode==='miss'){\n effects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\n effects.push({type:'story',instruction:mode==='release'?'The angler deliberately lets the hooked fish go. Give a brief fitting release; no fish enters inventory and no unrelated property is lost.':'The actual handling attempt failed to land the fish; it slips free. Give the concrete local result without an extra attack, invented injury or automatic broken rod. No fish enters inventory.'});\n}else{\n effects.push({type:'item-add',item:h.fish,quantity:1,target:'satisfyingPlayers'});\n effects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\n effects.push({type:'story',instruction:'The angler’s successful handling lands one '+h.fish+', about '+h.cm+' cm. Its inventory grant is already applied. Give the chosen approach a satisfying short payoff; do not add a second fish or another reward. The angler can keep it, make an actual handover, or release the real held specimen through ordinary item handling.'});\n if(!storage.fshRecords||typeof storage.fshRecords!=='object')storage.fshRecords={};\n const old=storage.fshRecords[h.fish]||{best:0,landings:0};\n storage.fshRecords[h.fish]={best:Math.max(old.best,h.cm),landings:old.landings+1};\n}\nif(!skip&&mode!=='cleanup')storage.fshRareActions[mode]=tick;\n// Retain the shared species record for other simultaneous hooked anglers until\n// their traits clear. This sweep runs on the following planning tick.\n"
+  },
+  "fsh_rare_release": {
+    "name": "fsh_rare_release",
+    "recurring": true,
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Rare Fish on the Line"
+      },
+      {
+        "type": "party-area",
+        "operator": "regex",
+        "value": "Pinewater|Saltmere|Whitecrest|Driftstone|Pinewake|Albatross|Moonarch|Greenrush|Gullwatch|Stillback"
+      },
+      {
+        "type": "action",
+        "query": "The player deliberately releases the rare fish currently hooked on their line, cuts that line, or explicitly abandons that live catch. Talking about release or releasing an already landed inventory fish does not qualify."
+      }
+    ],
+    "effects": [],
+    "script": "const tick=Number(check({type:'game-tick'}))||0,area=String(check({type:'party-area'})||'');\nconst h=storage.fshHook;\nconst valid=check({type:'party-realm'})==='Glowhaven'&&h&&[\"Moonmirror Dace\",\"Lanternjaw Angler\",\"Crownfin Sailfish\"].includes(h.fish)&&Number.isFinite(h.cm)&&h.area===area&&tick<=h.until;\nconst mode=\"release\";\nif(!storage.fshRareActions||typeof storage.fshRareActions!=='object')storage.fshRareActions={};\nif(mode!=='cleanup'&&storage.fshRareActions[mode]===tick){skip=true}else if(mode==='cleanup'){\n if(valid)skip=true;\n else{\n  effects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\n  effects.push({type:'story',instruction:'The unattended fishing line has gone slack; its unlanded catch escaped. Clear that fishing moment quietly without a fine, broken equipment, lost unrelated items or monster encounter.'});\n  delete storage.fshHook;\n }\n}else if(!valid){skip=true}else if(mode==='release'||mode==='miss'){\n effects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\n effects.push({type:'story',instruction:mode==='release'?'The angler deliberately lets the hooked fish go. Give a brief fitting release; no fish enters inventory and no unrelated property is lost.':'The actual handling attempt failed to land the fish; it slips free. Give the concrete local result without an extra attack, invented injury or automatic broken rod. No fish enters inventory.'});\n}else{\n effects.push({type:'item-add',item:h.fish,quantity:1,target:'satisfyingPlayers'});\n effects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\n effects.push({type:'story',instruction:'The angler’s successful handling lands one '+h.fish+', about '+h.cm+' cm. Its inventory grant is already applied. Give the chosen approach a satisfying short payoff; do not add a second fish or another reward. The angler can keep it, make an actual handover, or release the real held specimen through ordinary item handling.'});\n if(!storage.fshRecords||typeof storage.fshRecords!=='object')storage.fshRecords={};\n const old=storage.fshRecords[h.fish]||{best:0,landings:0};\n storage.fshRecords[h.fish]={best:Math.max(old.best,h.cm),landings:old.landings+1};\n}\nif(!skip&&mode!=='cleanup')storage.fshRareActions[mode]=tick;\n// Retain the shared species record for other simultaneous hooked anglers until\n// their traits clear. This sweep runs on the following planning tick.\n"
+  },
+  "fsh_rare_cleanup": {
+    "name": "fsh_rare_cleanup",
+    "recurring": true,
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Rare Fish on the Line"
+      }
+    ],
+    "effects": [],
+    "script": "const tick=Number(check({type:'game-tick'}))||0,area=String(check({type:'party-area'})||'');\nconst h=storage.fshHook;\nconst valid=check({type:'party-realm'})==='Glowhaven'&&h&&[\"Moonmirror Dace\",\"Lanternjaw Angler\",\"Crownfin Sailfish\"].includes(h.fish)&&Number.isFinite(h.cm)&&h.area===area&&tick<=h.until;\nconst mode=\"cleanup\";\nif(!storage.fshRareActions||typeof storage.fshRareActions!=='object')storage.fshRareActions={};\nif(mode!=='cleanup'&&storage.fshRareActions[mode]===tick){skip=true}else if(mode==='cleanup'){\n if(valid)skip=true;\n else{\n  effects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\n  effects.push({type:'story',instruction:'The unattended fishing line has gone slack; its unlanded catch escaped. Clear that fishing moment quietly without a fine, broken equipment, lost unrelated items or monster encounter.'});\n  delete storage.fshHook;\n }\n}else if(!valid){skip=true}else if(mode==='release'||mode==='miss'){\n effects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\n effects.push({type:'story',instruction:mode==='release'?'The angler deliberately lets the hooked fish go. Give a brief fitting release; no fish enters inventory and no unrelated property is lost.':'The actual handling attempt failed to land the fish; it slips free. Give the concrete local result without an extra attack, invented injury or automatic broken rod. No fish enters inventory.'});\n}else{\n effects.push({type:'item-add',item:h.fish,quantity:1,target:'satisfyingPlayers'});\n effects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\n effects.push({type:'story',instruction:'The angler’s successful handling lands one '+h.fish+', about '+h.cm+' cm. Its inventory grant is already applied. Give the chosen approach a satisfying short payoff; do not add a second fish or another reward. The angler can keep it, make an actual handover, or release the real held specimen through ordinary item handling.'});\n if(!storage.fshRecords||typeof storage.fshRecords!=='object')storage.fshRecords={};\n const old=storage.fshRecords[h.fish]||{best:0,landings:0};\n storage.fshRecords[h.fish]={best:Math.max(old.best,h.cm),landings:old.landings+1};\n}\nif(!skip&&mode!=='cleanup')storage.fshRareActions[mode]=tick;\n// Retain the shared species record for other simultaneous hooked anglers until\n// their traits clear. This sweep runs on the following planning tick.\n",
+    "phase": "planning"
+  },
+  "fsh_records": {
+    "name": "fsh_records",
+    "recurring": true,
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "\\b([Ff]ishing (records?|journal|ledger)|[Cc]atch (records?|ledger)|[Bb]est (fish|catches))\\b"
+      }
+    ],
+    "effects": [],
+    "script": "const rows=Object.entries(storage.fshRecords||{}).sort((a,b)=>b[1].best-a[1].best);effects.push({type:'story',instruction:rows.length?'The shared travel party’s recorded species: '+rows.length+'. Best measured catches: '+rows.slice(0,8).map(([n,r])=>n+' '+r.best+' cm').join('; ')+'. These are past observations, not currently held fish or separate sales. Simultaneous anglers share the local shoal result; do not invent per-person records.':'There are no landed catches recorded yet. Give a short natural response; no blank journal purchase or fishing quest is required.'});"
+  },
+  "ghx_local_commissions": {
+    "name": "ghx_local_commissions",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-realm",
+        "operator": "equals",
+        "value": "Glowhaven"
+      },
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Starlark Abbey"
+      },
+      {
+        "type": "quest-status",
+        "questId": "A Place before Supper",
+        "operator": "equals",
+        "value": "hidden"
+      },
+      {
+        "type": "action",
+        "query": "The player deliberately asks Tamae Shibano about A Place before Supper, asks that actual client for suitable local work, or investigates the actual notice for A Place before Supper. The real client or notice is involved here. A greeting, arrival, rumor alone, unrelated business or another person’s completed job does not qualify."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "A Place before Supper"
+      },
+      {
+        "type": "story",
+        "instruction": "Offer A Place before Supper through Tamae Shibano or its real local notice. Explain its public situation and stated reward, then wait for acceptance or refusal. Destination: Starlark Abbey. This offer grants no acceptance, payment, licence, recruitment or completed work."
+      }
+    ],
+    "script": "const tick=Number(check({type:'game-tick'}))||0;if(storage.ghxOfferTick===tick){skip=true}else{storage.ghxOfferTick=tick}"
+  },
+  "ghx_local_commissions_2": {
+    "name": "ghx_local_commissions_2",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-realm",
+        "operator": "equals",
+        "value": "Glowhaven"
+      },
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Thistlebank Alchemy Cottage"
+      },
+      {
+        "type": "quest-status",
+        "questId": "A Jar That Will Not Settle",
+        "operator": "equals",
+        "value": "hidden"
+      },
+      {
+        "type": "action",
+        "query": "The player deliberately asks Yorina Tsugawa about A Jar That Will Not Settle, asks that actual client for suitable local work, or investigates the actual notice for A Jar That Will Not Settle. The real client or notice is involved here. A greeting, arrival, rumor alone, unrelated business or another person’s completed job does not qualify."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "A Jar That Will Not Settle"
+      },
+      {
+        "type": "story",
+        "instruction": "Offer A Jar That Will Not Settle through Yorina Tsugawa or its real local notice. Explain its public situation and stated reward, then wait for acceptance or refusal. Destination: Thistlebank Alchemy Cottage. This offer grants no acceptance, payment, licence, recruitment or completed work."
+      }
+    ],
+    "script": "const tick=Number(check({type:'game-tick'}))||0;if(storage.ghxOfferTick===tick){skip=true}else{storage.ghxOfferTick=tick}"
+  },
+  "ghx_local_commissions_3": {
+    "name": "ghx_local_commissions_3",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-realm",
+        "operator": "equals",
+        "value": "Glowhaven"
+      },
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Pinewater Woods"
+      },
+      {
+        "type": "quest-status",
+        "questId": "The Wrong Kind of Hide",
+        "operator": "equals",
+        "value": "hidden"
+      },
+      {
+        "type": "action",
+        "query": "The player deliberately asks Uta Nekoyama about The Wrong Kind of Hide, asks that actual client for suitable local work, or investigates the actual notice for The Wrong Kind of Hide. The real client or notice is involved here. A greeting, arrival, rumor alone, unrelated business or another person’s completed job does not qualify."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Wrong Kind of Hide"
+      },
+      {
+        "type": "story",
+        "instruction": "Offer The Wrong Kind of Hide through Uta Nekoyama or its real local notice. Explain its public situation and stated reward, then wait for acceptance or refusal. Destination: Pinewater Woods. This offer grants no acceptance, payment, licence, recruitment or completed work."
+      }
+    ],
+    "script": "const tick=Number(check({type:'game-tick'}))||0;if(storage.ghxOfferTick===tick){skip=true}else{storage.ghxOfferTick=tick}"
+  },
+  "ghx_local_commissions_4": {
+    "name": "ghx_local_commissions_4",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-realm",
+        "operator": "equals",
+        "value": "Glowhaven"
+      },
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Starlark Abbey"
+      },
+      {
+        "type": "quest-status",
+        "questId": "The Bell That Wakes the Ward",
+        "operator": "equals",
+        "value": "hidden"
+      },
+      {
+        "type": "action",
+        "query": "The player deliberately asks Eiji Kuramochi about The Bell That Wakes the Ward, asks that actual client for suitable local work, or investigates the actual notice for The Bell That Wakes the Ward. The real client or notice is involved here. A greeting, arrival, rumor alone, unrelated business or another person’s completed job does not qualify."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Bell That Wakes the Ward"
+      },
+      {
+        "type": "story",
+        "instruction": "Offer The Bell That Wakes the Ward through Eiji Kuramochi or its real local notice. Explain its public situation and stated reward, then wait for acceptance or refusal. Destination: Starlark Abbey. This offer grants no acceptance, payment, licence, recruitment or completed work."
+      }
+    ],
+    "script": "const tick=Number(check({type:'game-tick'}))||0;if(storage.ghxOfferTick===tick){skip=true}else{storage.ghxOfferTick=tick}"
+  },
+  "ghx_local_commissions_5": {
+    "name": "ghx_local_commissions_5",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-realm",
+        "operator": "equals",
+        "value": "Glowhaven"
+      },
+      {
+        "type": "party-location",
+        "operator": "regex",
+        "value": "^(Old\\ Southwatch|Longgrass\\ Crossroads)$"
+      },
+      {
+        "type": "quest-status",
+        "questId": "A Second Pair of Eyes",
+        "operator": "equals",
+        "value": "hidden"
+      },
+      {
+        "type": "action",
+        "query": "The player deliberately asks Brina Flintmere about A Second Pair of Eyes, asks that actual client for suitable local work, or investigates the actual notice for A Second Pair of Eyes. The real client or notice is involved here. A greeting, arrival, rumor alone, unrelated business or another person’s completed job does not qualify."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "A Second Pair of Eyes"
+      },
+      {
+        "type": "story",
+        "instruction": "Offer A Second Pair of Eyes through Brina Flintmere or its real local notice. Explain its public situation and stated reward, then wait for acceptance or refusal. Destination: Old Southwatch. This offer grants no acceptance, payment, licence, recruitment or completed work."
+      }
+    ],
+    "script": "const tick=Number(check({type:'game-tick'}))||0;if(storage.ghxOfferTick===tick){skip=true}else{storage.ghxOfferTick=tick}"
+  },
+  "ghx_local_commissions_6": {
+    "name": "ghx_local_commissions_6",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-realm",
+        "operator": "equals",
+        "value": "Glowhaven"
+      },
+      {
+        "type": "party-location",
+        "operator": "regex",
+        "value": "^(Stillback\\ Isle|Greenrush\\ Estuary)$"
+      },
+      {
+        "type": "quest-status",
+        "questId": "What the Shell Caught",
+        "operator": "equals",
+        "value": "hidden"
+      },
+      {
+        "type": "action",
+        "query": "The player deliberately asks Mina Takanashi about What the Shell Caught, asks that actual client for suitable local work, or investigates the actual notice for What the Shell Caught. The real client or notice is involved here. A greeting, arrival, rumor alone, unrelated business or another person’s completed job does not qualify."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "What the Shell Caught"
+      },
+      {
+        "type": "story",
+        "instruction": "Offer What the Shell Caught through Mina Takanashi or its real local notice. Explain its public situation and stated reward, then wait for acceptance or refusal. Destination: Stillback Isle. This offer grants no acceptance, payment, licence, recruitment or completed work."
+      }
+    ],
+    "script": "const tick=Number(check({type:'game-tick'}))||0;if(storage.ghxOfferTick===tick){skip=true}else{storage.ghxOfferTick=tick}"
+  },
+  "ghx_local_commissions_7": {
+    "name": "ghx_local_commissions_7",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-realm",
+        "operator": "equals",
+        "value": "Glowhaven"
+      },
+      {
+        "type": "party-location",
+        "operator": "regex",
+        "value": "^(Seaward\\ Overlook|Beaconrest\\ Lighthouse)$"
+      },
+      {
+        "type": "quest-status",
+        "questId": "A Quiet View, Honestly",
+        "operator": "equals",
+        "value": "hidden"
+      },
+      {
+        "type": "action",
+        "query": "The player deliberately asks Kōzō Hinoura about A Quiet View, Honestly, asks that actual client for suitable local work, or investigates the actual notice for A Quiet View, Honestly. The real client or notice is involved here. A greeting, arrival, rumor alone, unrelated business or another person’s completed job does not qualify."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "A Quiet View, Honestly"
+      },
+      {
+        "type": "story",
+        "instruction": "Offer A Quiet View, Honestly through Kōzō Hinoura or its real local notice. Explain its public situation and stated reward, then wait for acceptance or refusal. Destination: Seaward Overlook. This offer grants no acceptance, payment, licence, recruitment or completed work."
+      }
+    ],
+    "script": "const tick=Number(check({type:'game-tick'}))||0;if(storage.ghxOfferTick===tick){skip=true}else{storage.ghxOfferTick=tick}"
+  },
+  "ghx_local_commissions_8": {
+    "name": "ghx_local_commissions_8",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-realm",
+        "operator": "equals",
+        "value": "Glowhaven"
+      },
+      {
+        "type": "party-location",
+        "operator": "regex",
+        "value": "^(Bluecoil\\ Rest|Greenrush\\ Estuary)$"
+      },
+      {
+        "type": "quest-status",
+        "questId": "The Bluecoil Watch",
+        "operator": "equals",
+        "value": "hidden"
+      },
+      {
+        "type": "action",
+        "query": "The player deliberately asks Mina Takanashi about The Bluecoil Watch, asks that actual client for suitable local work, or investigates the actual notice for The Bluecoil Watch. The real client or notice is involved here. A greeting, arrival, rumor alone, unrelated business or another person’s completed job does not qualify."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Bluecoil Watch"
+      },
+      {
+        "type": "story",
+        "instruction": "Offer The Bluecoil Watch through Mina Takanashi or its real local notice. Explain its public situation and stated reward, then wait for acceptance or refusal. Destination: Bluecoil Rest. This offer grants no acceptance, payment, licence, recruitment or completed work."
+      }
+    ],
+    "script": "const tick=Number(check({type:'game-tick'}))||0;if(storage.ghxOfferTick===tick){skip=true}else{storage.ghxOfferTick=tick}"
+  },
+  "fsh_offer_1": {
+    "name": "fsh_offer_1",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-realm",
+        "operator": "equals",
+        "value": "Glowhaven"
+      },
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Gullwatch Reefs"
+      },
+      {
+        "type": "quest-status",
+        "questId": "A Fisher’s First Lesson",
+        "operator": "equals",
+        "value": "hidden"
+      },
+      {
+        "type": "action",
+        "query": "The player asks Makiho Akitsu, who is actually present, about A Fisher’s First Lesson or asks that person for a fishing lesson, fish-supply request or suitable local work. A greeting, arrival or someone else’s completed contract is insufficient."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "A Fisher’s First Lesson"
+      },
+      {
+        "type": "story",
+        "instruction": "Offer A Fisher’s First Lesson through Makiho Akitsu. State the actual request and 15-mark reward. Wait for acceptance or refusal; the offer itself gives no payment, fish or completed lesson."
+      }
+    ],
+    "script": "const tick=Number(check({type:'game-tick'}))||0;if(storage.ghxOfferTick===tick){skip=true}else{storage.ghxOfferTick=tick}"
+  },
+  "fsh_offer_2": {
+    "name": "fsh_offer_2",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-realm",
+        "operator": "equals",
+        "value": "Glowhaven"
+      },
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "The Gilded Albatross"
+      },
+      {
+        "type": "quest-status",
+        "questId": "Supper before the Tide Turns",
+        "operator": "equals",
+        "value": "hidden"
+      },
+      {
+        "type": "action",
+        "query": "The player asks Nanae Kogure, who is actually present, about Supper before the Tide Turns or asks that person for a fishing lesson, fish-supply request or suitable local work. A greeting, arrival or someone else’s completed contract is insufficient."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "Supper before the Tide Turns"
+      },
+      {
+        "type": "story",
+        "instruction": "Offer Supper before the Tide Turns through Nanae Kogure. State the actual request and 18-mark reward. Wait for acceptance or refusal; the offer itself gives no payment, fish or completed lesson."
+      }
+    ],
+    "script": "const tick=Number(check({type:'game-tick'}))||0;if(storage.ghxOfferTick===tick){skip=true}else{storage.ghxOfferTick=tick}"
+  },
+  "fsh_offer_3": {
+    "name": "fsh_offer_3",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-realm",
+        "operator": "equals",
+        "value": "Glowhaven"
+      },
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Thistlebank Alchemy Cottage"
+      },
+      {
+        "type": "quest-status",
+        "questId": "A Color beneath the Scales",
+        "operator": "equals",
+        "value": "hidden"
+      },
+      {
+        "type": "action",
+        "query": "The player asks Yorina Tsugawa, who is actually present, about A Color beneath the Scales or asks that person for a fishing lesson, fish-supply request or suitable local work. A greeting, arrival or someone else’s completed contract is insufficient."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "A Color beneath the Scales"
+      },
+      {
+        "type": "story",
+        "instruction": "Offer A Color beneath the Scales through Yorina Tsugawa. State the actual request and 30-mark reward. Wait for acceptance or refusal; the offer itself gives no payment, fish or completed lesson."
+      }
+    ],
+    "script": "const tick=Number(check({type:'game-tick'}))||0;if(storage.ghxOfferTick===tick){skip=true}else{storage.ghxOfferTick=tick}"
   }
 }

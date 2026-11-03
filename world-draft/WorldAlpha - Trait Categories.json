@@ -745,7 +745,8 @@
       "Yumi Road Kit",
       "Watch Hook Kit",
       "Reinforced Fan Kit",
-      "Shrine Staff Kit"
+      "Shrine Staff Kit",
+      "Fishing Starter Kit"
     ],
     "description": "Choose one basic casting, martial or practical kit, or Hand-Casting Practice for no extra item. It is independent of your training style. Ordinary tools, clothing and remembered techniques stay distinct; a kit grants only its listed items once.",
     "subcategories": [
@@ -801,6 +802,12 @@
           "Workshop Starter Kit",
           "First Aid Kit",
           "Technical Inspection Kit"
+        ]
+      },
+      {
+        "name": "Fishing",
+        "traits": [
+          "Fishing Starter Kit"
         ]
       }
     ]
@@ -1188,7 +1195,7 @@
   },
   "Portrait Style": {
     "name": "Portrait Style",
-    "description": "Optional — skip for our default fantasy RPG character illustration: fine anime drawing, soft layered shading, detailed outfits and luminous lighting. Alternative styles change the picture, not the character’s abilities.",
+    "description": "Optional — skip for a detailed 2D fantasy-anime character illustration with expressive drawn features and clean facial shading. Alternative styles change the picture, not your abilities.",
     "maxSelections": 1,
     "traits": [
       "Portrait Style — Fantasy RPG illustration",
@@ -1221,7 +1228,7 @@
   },
   "Portrait Framing": {
     "name": "Portrait Framing",
-    "description": "Optional — skip for a fitting waist-up or hip-up portrait. Default contains our usual framing. Eccentric Choices offers deliberately different crops and poses; an explicit selection takes priority over the default.",
+    "description": "Optional — skip for a hip-up portrait showing the full waist, both hips and the top of the thighs. Choose Waist-up for a tighter crop. Explicit alternatives take priority.",
     "maxSelections": 1,
     "traits": [
       "Portrait Frame — Waist-up",

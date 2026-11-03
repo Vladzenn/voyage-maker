@@ -1,0 +1,29 @@
+{
+  "status": "local-checks-passed",
+  "latestStudioExport": "366606e8-3528-434f-80b6-fef091104a73",
+  "fullWorldSHA256": "414be0c4078a6d9de0cc6708b85d085c9291f3898729ba3b446515bc2c2a06dd",
+  "npcCount": 397,
+  "itemCount": 525,
+  "questCount": 242,
+  "triggerCount": 457,
+  "newFish": 30,
+  "newTackle": 11,
+  "fishingGrounds": 18,
+  "fishingQuests": 3,
+  "checks": {
+    "structural": 24352,
+    "validationTests": 6,
+    "portraitWorkflowTests": 19,
+    "itemMechanics": 1209,
+    "fieldwork": 1866,
+    "adventurersAndBudgets": 604,
+    "characterCreation": 351,
+    "crucible": 2260,
+    "oni": 5017,
+    "glowhavenExpansion": 2525,
+    "fishing": 1723
+  },
+  "nativeEngineOrSemanticRecognitionTested": false,
+  "liveStudioSaveOrPublication": false,
+  "historicalFingerprintFilesChanged": false
+}

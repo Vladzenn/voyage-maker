@@ -8084,5 +8084,107 @@
         "instruction": "Close Hydra Head: A Settlement That Holds once with the actual result. The instructor gives specific qualitative feedback: what met expectations, what needs improvement, and a feasible next practice or revision. At-risk standing needs serious misconduct or an established pattern, not a single sincere failure. Show only reactions earned by the actual scene and mention an appropriate next ordinary class, personal follow-up or optional extracurricular without accepting it. Do not announce a pass, friendship, promotion, expedition seat or new ability merely because this quest ended."
       }
     ]
+  },
+  "A Fisher’s First Lesson": {
+    "name": "A Fisher’s First Lesson",
+    "description": "Makiho has a short lesson to offer anyone willing to bring a rod and pay attention to the water. She wants a beginner to feel the difference between a nibble and a snag.",
+    "status": "hidden",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Makiho Akitsu",
+    "questLocation": "Gullwatch Reefs",
+    "objectives": [
+      {
+        "description": "Land a fish during Makiho’s practical lesson, or demonstrate a genuinely careful catch-and-release.",
+        "completed": false
+      }
+    ],
+    "questDesignBrief": "A small optional local commission. Keep the client’s ordinary personality and other work present. Explain the actual request and posted payment before agreement. No compulsory fight, portal permission or surprise boss. Real handovers use actual inventory once; native completion owns the stated reward.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The participating player completes a real practical fishing lesson with Makiho and actually lands a fish or performs a successful careful catch-and-release. Buying a fish, watching another angler or promising to practice is insufficient."
+    },
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 15,
+        "target": "allPlayers"
+      },
+      {
+        "type": "player-experience",
+        "operator": "add",
+        "value": 60,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "Supper before the Tide Turns": {
+    "name": "Supper before the Tide Turns",
+    "description": "Nanae wants a couple of ordinary fresh fish for supper. Something modest and edible would be more useful than another sailor’s story about the one that got away.",
+    "status": "hidden",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Nanae Kogure",
+    "questLocation": "The Gilded Albatross",
+    "objectives": [
+      {
+        "description": "Bring Nanae two fresh ordinary edible fish and settle the agreed handover.",
+        "completed": false
+      }
+    ],
+    "questDesignBrief": "A small optional local commission. Keep the client’s ordinary personality and other work present. Explain the actual request and posted payment before agreement. No compulsory fight, portal permission or surprise boss. Real handovers use actual inventory once; native completion owns the stated reward.",
+    "completionCondition": {
+      "type": "story",
+      "query": "Nanae actually receives two real ordinary edible fish suitable for the agreed supper from the participating party. Honest procurement or fishing both qualify. Ownership transfers once through ordinary item handling; a promise, a catalogue description or the same fish shown twice does not qualify."
+    },
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 18,
+        "target": "allPlayers"
+      },
+      {
+        "type": "player-experience",
+        "operator": "add",
+        "value": 60,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "A Color beneath the Scales": {
+    "name": "A Color beneath the Scales",
+    "description": "Yorina wants to compare the natural sheen of an Amberfin Eel or Blueglass Needlefish with her waterproof pigments. A useful specimen matters more than a dramatic hunting story.",
+    "status": "hidden",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Yorina Tsugawa",
+    "questLocation": "Thistlebank Alchemy Cottage",
+    "objectives": [
+      {
+        "description": "Provide an actual Amberfin Eel or Blueglass Needlefish for Yorina’s agreed pigment study.",
+        "completed": false
+      }
+    ],
+    "questDesignBrief": "A small optional local commission. Keep the client’s ordinary personality and other work present. Explain the actual request and posted payment before agreement. No compulsory fight, portal permission or surprise boss. Real handovers use actual inventory once; native completion owns the stated reward.",
+    "completionCondition": {
+      "type": "story",
+      "query": "Yorina actually receives a real agreed Amberfin Eel or Blueglass Needlefish specimen for the pigment study. Honest purchase, fishing or an agreed suitable specimen portion qualifies. A promise, an invented sample or an unsurrendered fish does not."
+    },
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 30,
+        "target": "allPlayers"
+      },
+      {
+        "type": "player-experience",
+        "operator": "add",
+        "value": 90,
+        "target": "allPlayers"
+      }
+    ]
   }
 }

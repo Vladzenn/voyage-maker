@@ -1,0 +1,121 @@
+{
+  "sourceAttachment": "366606e8-3528-434f-80b6-fef091104a73",
+  "sourceDescription": "Latest full Studio export supplied during implementation. Only these three music edits differ from the previous canonical world; no fishing or portrait conflicts.",
+  "changes": [
+    {
+      "path": [
+        "gameplayMusicSettings",
+        "tracks",
+        "Calm",
+        "variants"
+      ],
+      "kind": "changed",
+      "before": [
+        {
+          "url": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/music/uploads/4b512862-a3a3-44d0-b044-27c314ff84dc.mp3"
+        },
+        {
+          "url": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/music/uploads/8c9f7dbe-e4e7-4e73-b9ac-cc0f5cc0b829.mp3"
+        },
+        {
+          "url": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/music/uploads/45071659-11c0-4437-aca6-4a761bb85512.mp3"
+        },
+        {
+          "url": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/music/uploads/7d3f3106-dab1-483a-8229-a1587daafe39.mp3"
+        },
+        {
+          "url": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/music/uploads/1d86fecd-cd87-45ae-877a-3eff353a1a84.mp3"
+        },
+        {
+          "url": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/music/uploads/e957feca-9dc4-4da6-8433-daf8edf4810d.mp3"
+        }
+      ],
+      "after": [
+        {
+          "url": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/music/uploads/b0319950-f344-42ee-8817-8a7b90b263c2.mp3"
+        },
+        {
+          "url": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/music/uploads/c96ebcd5-7da6-43bf-b653-dcc0b1da9f88.mp3"
+        },
+        {
+          "url": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/music/uploads/2dc8f049-64fc-4bf6-80a6-d0e7ae7bed10.mp3"
+        },
+        {
+          "url": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/music/uploads/595def77-3b31-4913-8e27-8d6be1fbc388.mp3"
+        },
+        {
+          "url": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/music/uploads/f669f42b-0b7c-4cad-918f-2365dbdce57b.mp3"
+        },
+        {
+          "url": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/music/uploads/5178f311-54b9-46fc-97f2-6e88de2dcf3a.mp3"
+        }
+      ]
+    },
+    {
+      "path": [
+        "gameplayMusicSettings",
+        "tracks",
+        "Exuberant"
+      ],
+      "kind": "removed",
+      "before": {
+        "matchTags": [
+          "excitement",
+          "energetic",
+          "wild",
+          "celebration",
+          "dancing",
+          "festival",
+          "jubilant",
+          "excited",
+          "revelry",
+          "exhilarating",
+          "raucous",
+          "festive"
+        ],
+        "variants": [
+          {
+            "url": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/music/uploads/838780be-9de2-44b8-808e-b29301bbc9f9.mp3"
+          },
+          {
+            "url": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/music/uploads/169c1289-97ec-4491-ba62-c513c405b1d0.mp3"
+          }
+        ]
+      }
+    },
+    {
+      "path": [
+        "gameplayMusicSettings",
+        "tracks",
+        "Travelling",
+        "variants"
+      ],
+      "kind": "changed",
+      "before": [
+        {
+          "url": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/music/uploads/898a314d-828f-462e-a14e-2f726fc50265.mp3"
+        },
+        {
+          "url": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/music/uploads/6c78a471-648f-4cee-87c8-a045db811efb.mp3"
+        },
+        {
+          "url": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/music/uploads/d44eb628-61b7-41f1-b1b6-7736b3f4bdeb.mp3"
+        },
+        {
+          "url": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/music/uploads/74352b8a-985c-436b-8c0f-ec0ef4fec9f9.mp3"
+        }
+      ],
+      "after": [
+        {
+          "url": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/music/uploads/898a314d-828f-462e-a14e-2f726fc50265.mp3"
+        },
+        {
+          "url": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/music/uploads/d44eb628-61b7-41f1-b1b6-7736b3f4bdeb.mp3"
+        },
+        {
+          "url": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/music/uploads/74352b8a-985c-436b-8c0f-ec0ef4fec9f9.mp3"
+        }
+      ]
+    }
+  ]
+}

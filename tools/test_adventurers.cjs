@@ -27,6 +27,7 @@ function context(overrides={}){
    case 'player-traits':raw=Object.fromEntries(players.map(([k,p])=>[k,p.traits]));break;
    case 'player-item':raw=Object.fromEntries(players.map(([k,p])=>[k,p.items[c.item]||0]));break;
    case 'skill-value':raw=Object.fromEntries(players.map(([k,p])=>[k,p.skills?.[c.skill]||0]));break;
+   case 'action-success-level':raw=Object.fromEntries(players.map(([k,p])=>[k,p.outcome||'success']));break;
    case 'quest-status':raw=ctx.quests[c.questId]||'hidden';break;
    case 'quests-completed':raw=Object.keys(ctx.quests).filter(k=>ctx.quests[k]==='completed');break;
    case 'story-start':raw=ctx.start||'';break;case 'known-entity':raw=(ctx.known||[]).includes(c.entity);break;
@@ -59,6 +60,7 @@ function context(overrides={}){
         c.npc==='anyPartyNPC'?Object.fromEntries(ctx.party.map(n=>[n,one(n)])):one(c.npc);
   }
   if(!c.operator)return raw;
+  if(c.type==='action-success-level'){const ranks=['impossible','critical failure','failure','mixed results','basic success','success','great success','critical success'];return Object.values(raw).some(v=>compare(ranks.indexOf(v),c.operator,ranks.indexOf(c.value)))}
   if(c.type==='action-text')return ctx.actions.some(x=>compare(x,c.operator,c.value));
   if(raw && typeof raw==='object'&&!Array.isArray(raw))return Object.values(raw).some(v=>compare(v,c.operator,c.value));
   return compare(raw,c.operator,c.value);
@@ -197,6 +199,16 @@ if(world.triggerDefinitions.cc1_register)scenarios.push(
  ['Conservatory tending wing',{location:'Sepulchral Conservatory',area:'Sepulchral Conservatory - Tending Gallery',realm:'The Sepulchral Conservatory',region:'Sepulchral Gardens'}],
  ['Conservatory heart',{location:'Sepulchral Conservatory',area:'Sepulchral Conservatory - Grafting Heart',realm:'The Sepulchral Conservatory',region:'Sepulchral Gardens',scene:['Threnvoss'],storage:{cc1_grove_root:true,cc1_grove_mourning:true,cc1_grove_heart_seen:true}}]
 );
+if(world.skills.Fishing){
+ const angler={level:5,Health:100,items:{Mark:100,'Angler’s Rod':1,'Angler’s Bait Portion':3},traits:[],skills:{Fishing:0},outcome:'success'};
+ scenarios.push(
+  ['River angler',{location:'Pinewater River',area:'Pinewater River - River Bend',players:{Alice:angler}}],
+  ['Estuary angler',{location:'Greenrush Estuary',area:'Greenrush Estuary - Reedwalk',players:{Alice:angler}}],
+  ['Reef angler',{location:'Gullwatch Reefs',area:'Gullwatch Reefs - Boat Shelf',players:{Alice:angler}}],
+  ['Ship angler',{location:'The Gilded Albatross',area:'The Gilded Albatross - Main Deck',players:{Alice:angler}}],
+  ['Crucible with fishing tackle',{location:'The Eternal Crucible',area:'The Eternal Crucible - Pillar Court',scene:['Kōta Mibu','Shōgo Mizutani'],storage:{cc1_phase:'live',cc1_active:true},players:{Alice:angler}}]
+ );
+}
 for(const [name,opts] of scenarios){
  const routed=run('ad34_scene_dispatch',opts);
  const {ctx,check}=context({...opts,storage:routed.storage});let eligible=0;const names=[];

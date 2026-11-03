@@ -6685,5 +6685,403 @@
     "description": "A sealed portion of bean stew and smoked fish prepared for a short field trip. Hearty enough for a cold watch, though its smokiness tends to linger.",
     "bonuses": [],
     "needsMediaGeneration": true
+  },
+  "Pinewater Perch": {
+    "name": "Pinewater Perch",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 3,
+    "description": "An olive-backed river fish with copper bars and a stubbornly raised dorsal fin. Good pan-fried with herbs.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Brookmeadow Roach": {
+    "name": "Brookmeadow Roach",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 2,
+    "description": "A silver river fish with orange fins. Brookmeadow cooks flour the smaller ones and fry them crisp.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Millpond Crucian": {
+    "name": "Millpond Crucian",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 3,
+    "description": "A deep-bodied bronze fish that feeds near quiet banks. Its muddy-looking scales hide delicate flesh.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Willowback Trout": {
+    "name": "Willowback Trout",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 5,
+    "description": "A spotted trout with a green sheen along its back. It favors cool running water and makes excellent supper.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Button-Eyed Minnow": {
+    "name": "Button-Eyed Minnow",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 1,
+    "description": "A tiny schooling fish with round dark eyes. More impressive as a living flash of silver than as a meal.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Rainbell Loach": {
+    "name": "Rainbell Loach",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 3,
+    "description": "A whiskered bottom-feeder that makes a faint clicking sound when wet stones touch its scales.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Reedstripe Mullet": {
+    "name": "Reedstripe Mullet",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 3,
+    "description": "A striped estuary fish that noses through soft sediment. Usually smoked or cooked in a strong broth.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Brackish Bream": {
+    "name": "Brackish Bream",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 4,
+    "description": "A pale bream with a faint green edge to each scale. Its feeding grounds move with the river mouth.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Mud-Sleeve Goby": {
+    "name": "Mud-Sleeve Goby",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 1,
+    "description": "A mottled little fish with oversized pectoral fins, forever looking as though it has lost its sleeves.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Greenrush Flounder": {
+    "name": "Greenrush Flounder",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 4,
+    "description": "A flat fish with leaflike mottling. It lies almost invisible against sand and is prized for a simple butter fry.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Harbor Herring": {
+    "name": "Harbor Herring",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 2,
+    "description": "A bright-sided schooling fish, familiar to harbor cooks, gulls and anyone who has carried an unsealed basket.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Lantern Sardine": {
+    "name": "Lantern Sardine",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 2,
+    "description": "A small oily fish with a gold spot beside each gill. Its lantern name comes from reflected light.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Dockside Smelt": {
+    "name": "Dockside Smelt",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 2,
+    "description": "A translucent harbor fish with a clean cucumber scent. Best eaten fresh and cooked thoroughly.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Copper-Gill Mackerel": {
+    "name": "Copper-Gill Mackerel",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 4,
+    "description": "A strong swimmer with blue markings and copper-red gill covers. Its meat is rich and oily.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Whitecrest Whiting": {
+    "name": "Whitecrest Whiting",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 3,
+    "description": "A pale coastal fish with a long soft body. Fishmongers like its mild flesh and lack of fuss.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Pebble Sole": {
+    "name": "Pebble Sole",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 4,
+    "description": "A compact flatfish patterned like a handful of shore pebbles. It favors quiet sandy pockets.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Ribbon Garfish": {
+    "name": "Ribbon Garfish",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 5,
+    "description": "A narrow green-backed fish with a needlelike snout. Its bones turn a startling blue-green when cooked.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Crescent Sea Bass": {
+    "name": "Crescent Sea Bass",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 6,
+    "description": "A thick coastal hunter with a crescent mark behind the eye. A fine meal, if landed before it finds cover.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Silver-Tail Pollock": {
+    "name": "Silver-Tail Pollock",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 4,
+    "description": "A useful sea fish with a sharply forked silver tail. Often salted aboard working boats.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Sandburrow Gurnard": {
+    "name": "Sandburrow Gurnard",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 4,
+    "description": "A broad-headed fish with fanlike fins. Its ungainly appearance has never troubled a good cook.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Glassvein Char": {
+    "name": "Glassvein Char",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 9,
+    "description": "A cool-water char whose fine scales show branching silver lines. The pattern fades after preservation.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Bottle-Green Tench": {
+    "name": "Bottle-Green Tench",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 7,
+    "description": "A smooth, heavy fish with a bottle-green back and tiny red eyes. It tests patience more than strength.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Amberfin Eel": {
+    "name": "Amberfin Eel",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 9,
+    "description": "A gold-finned eel that slips through flooded roots. Its shed slime is useful in ordinary waterproofing mixtures.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Pearlspot Wrasse": {
+    "name": "Pearlspot Wrasse",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 8,
+    "description": "A colorful reef fish with pearly spots. Some collectors prefer a careful sketch and its release to a sale.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Blueglass Needlefish": {
+    "name": "Blueglass Needlefish",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 10,
+    "description": "A nearly transparent blue fish that vanishes against open water. Its reflective scales interest pigment makers.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Velvet Skate": {
+    "name": "Velvet Skate",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 11,
+    "description": "A soft gray skate with dark velvet patches on its wings. Handle gently and keep clear of the tail.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Stormstripe Bonito": {
+    "name": "Stormstripe Bonito",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 12,
+    "description": "A powerful striped sea fish that hunts beneath wind-ruffled water. Fresh slices are a ship cook’s luxury.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Moonmirror Dace": {
+    "name": "Moonmirror Dace",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 24,
+    "description": "A scarce silver dace whose scales reflect a second, slightly displaced moon. The effect is beautiful and brief.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Lanternjaw Angler": {
+    "name": "Lanternjaw Angler",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 30,
+    "description": "A deepwater fish with a blue lure over its jaws. An intact lure is a curious alchemical specimen, not a ready-made lamp.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Crownfin Sailfish": {
+    "name": "Crownfin Sailfish",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 38,
+    "description": "A rare open-water fish with a sweeping golden dorsal crest. Its first run can empty a careless angler’s spool.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Angler’s Rod": {
+    "name": "Angler’s Rod",
+    "category": "Tool",
+    "tier": "mundane",
+    "estimatedValue": 12,
+    "description": "A springy ash rod with a small reel, hook, float and reusable plain spinner. Suitable for river, shore or boat fishing; bait is optional. Dry the fittings after salt water.",
+    "bonuses": [],
+    "needsMediaGeneration": true,
+    "slot": "tool"
+  },
+  "Angler’s Bait Portion": {
+    "name": "Angler’s Bait Portion",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 1,
+    "description": "One wrapped portion of worms, grubs and prepared paste. Enough to bait a single cast. It attracts bottom-feeding fish and gives patient fish more reason to bite.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Painted Willow Lure": {
+    "name": "Painted Willow Lure",
+    "category": "Tool",
+    "tier": "mundane",
+    "estimatedValue": 18,
+    "description": "A hand-painted reusable lure with a leaf-shaped blade. It catches the light with a gentle wobble.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Fishing",
+        "value": 1
+      }
+    ],
+    "needsMediaGeneration": true,
+    "slot": "tool"
+  },
+  "Tideglass Spinner": {
+    "name": "Tideglass Spinner",
+    "category": "Tool",
+    "tier": "artisan",
+    "estimatedValue": 65,
+    "description": "An articulated blue-glass spinner balanced for coastal water. Small replaceable links keep it moving without a violent splash.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Fishing",
+        "value": 3
+      }
+    ],
+    "needsMediaGeneration": true,
+    "slot": "tool"
+  },
+  "Rainbell Float": {
+    "name": "Rainbell Float",
+    "category": "Tool",
+    "tier": "mundane",
+    "estimatedValue": 14,
+    "description": "A striped cork float with a tiny brass bell. Useful for noticing a quiet bite when rain dims the surface.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Perception",
+        "value": 1
+      }
+    ],
+    "needsMediaGeneration": true,
+    "slot": "tool"
+  },
+  "Angler’s Finger Guards": {
+    "name": "Angler’s Finger Guards",
+    "category": "Armor",
+    "tier": "mundane",
+    "estimatedValue": 16,
+    "description": "Soft leather guards protect the fingers handling line. They leave the fingertips free to feel a change in tension.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Fishing",
+        "value": 1
+      }
+    ],
+    "needsMediaGeneration": true,
+    "slot": "hands"
+  },
+  "Reed-Woven Creel": {
+    "name": "Reed-Woven Creel",
+    "category": "Tool",
+    "tier": "mundane",
+    "estimatedValue": 10,
+    "description": "A ventilated basket for carrying a modest catch. Wet reeds keep fish cool for a short walk; it is no substitute for preservation.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Saltproof Line Spool": {
+    "name": "Saltproof Line Spool",
+    "category": "Tool",
+    "tier": "mundane",
+    "estimatedValue": 8,
+    "description": "A spare length of treated braided line, neatly wound and waxed against salt. Useful for an actual replacement or repair.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Angler’s Field Ledger": {
+    "name": "Angler’s Field Ledger",
+    "category": "Document",
+    "tier": "mundane",
+    "estimatedValue": 6,
+    "description": "Blank waterproofed pages for sketches, lengths, weather notes and fishing grounds, with a small ruler printed along the cover.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Pocket Fish Measure": {
+    "name": "Pocket Fish Measure",
+    "category": "Tool",
+    "tier": "mundane",
+    "estimatedValue": 5,
+    "description": "A folding marked rule and a soft sling for measuring a catch without laying it on hot stone.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Smoke-Salt Packet": {
+    "name": "Smoke-Salt Packet",
+    "category": "Tool",
+    "tier": "mundane",
+    "estimatedValue": 4,
+    "description": "A small packet of curing salt and aromatic wood shavings. Enough for a little catch, with proper preparation and drying.",
+    "bonuses": [],
+    "needsMediaGeneration": true
   }
 }

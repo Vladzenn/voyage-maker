@@ -7083,5 +7083,194 @@
     "description": "A small packet of curing salt and aromatic wood shavings. Enough for a little catch, with proper preparation and drying.",
     "bonuses": [],
     "needsMediaGeneration": true
+  },
+  "Common Silverfin": {
+    "name": "Common Silverfin",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 2,
+    "description": "A small silver-scaled fish found in many ordinary waters. Its mild flesh suits a simple supper.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Pebblefin Darter": {
+    "name": "Pebblefin Darter",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 2,
+    "description": "A quick little fish with mottled fins, often found between clean stones in shallows.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Rushfin Mudfish": {
+    "name": "Rushfin Mudfish",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 3,
+    "description": "A blunt-headed fish with russet fins. It hides among roots and feeds where the bottom is soft.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Pale Water Eel": {
+    "name": "Pale Water Eel",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 7,
+    "description": "A pale-bellied eel that tolerates a change in salinity. It is best handled carefully and cooked thoroughly.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Tidemark Runner": {
+    "name": "Tidemark Runner",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 4,
+    "description": "A lean blue-backed fish whose sides carry a dark line like a water stain. Useful fresh or salted.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Wandering Prismfin": {
+    "name": "Wandering Prismfin",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 23,
+    "description": "A scarce adaptable fish whose fins separate reflected light into faint bands of color. Its beauty survives best in the water.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Glassmere Char": {
+    "name": "Glassmere Char",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 6,
+    "description": "A cold-water char with copper spots and a slate-blue back. Mountain cooks roast it with hardy herbs.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Rimefin Whitefish": {
+    "name": "Rimefin Whitefish",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 4,
+    "description": "A pale alpine fish with translucent fins. It gathers in the deeper water beneath cold lake surfaces.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Copperwhisker Sculpin": {
+    "name": "Copperwhisker Sculpin",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 3,
+    "description": "A broad-headed stream fish with copper-colored barbels and a knack for wedging beneath stones.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Snowmelt Grayling": {
+    "name": "Snowmelt Grayling",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 6,
+    "description": "A mountain fish with a tall, blue-violet dorsal fin. It favors clean running meltwater.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Amberheart Burbot": {
+    "name": "Amberheart Burbot",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 28,
+    "description": "A rare alpine burbot with a warm amber gleam beneath its throat. The gleam fades naturally; it is no stored mana crystal.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Cloudscale Carp": {
+    "name": "Cloudscale Carp",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 5,
+    "description": "A sky-island carp with irregular white patches over blue-gray scales. It feeds patiently in still fresh water.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Petalwash Loach": {
+    "name": "Petalwash Loach",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 4,
+    "description": "A small loach whose pink-edged scales resemble damp petals. It noses through the silt beneath flowering banks.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Rainthread Minnow": {
+    "name": "Rainthread Minnow",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 2,
+    "description": "A tiny fish with long threadlike fin tips, flashing silver as rain dimples the surface above it.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Violetfin Gourami": {
+    "name": "Violetfin Gourami",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 8,
+    "description": "A violet-finned fish that builds delicate bubble nests among sheltered reeds. Naturalists sketch the nests before disturbing them.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Horizon Koi": {
+    "name": "Horizon Koi",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 27,
+    "description": "A rare koi whose blue-gold flank seems to carry a distant horizon. It swims through water and has no gift for flight.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Sakura Ayu": {
+    "name": "Sakura Ayu",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 4,
+    "description": "A slender river fish with a cherry-pink flush beside its gills. Grilled whole, it has a clean herbal fragrance.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Goldleaf Carp": {
+    "name": "Goldleaf Carp",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 5,
+    "description": "A sturdy carp with leaf-shaped gold markings. The color belongs to its scales, not to precious metal.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Bamboo Loach": {
+    "name": "Bamboo Loach",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 3,
+    "description": "A striped loach that shelters among submerged roots and the shadows of bamboo banks.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Redleaf Salmon": {
+    "name": "Redleaf Salmon",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 8,
+    "description": "A strong river fish with red-brown flanks and a silver belly. Its rich flesh is often salted for journeys.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Moonbell Koi": {
+    "name": "Moonbell Koi",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 26,
+    "description": "A rare pale koi with dark crescent markings. As it turns beneath still water, its scales make a faint bell-like shimmer.",
+    "bonuses": [],
+    "needsMediaGeneration": true
   }
 }

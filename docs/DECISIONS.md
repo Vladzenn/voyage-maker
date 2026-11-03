@@ -2,6 +2,12 @@
 
 These notes carry context between desktop and web chats. They supplement the actual JSON and creation guides; newer explicit user instructions take precedence.
 
+## 4 November — universal fishing with regional catches
+
+The author requests simple, reliable fishing in suitable waters across main and future realms. Reachable, plausibly fish-bearing water is judged by a declared native semantic condition; location names and images never create water. Existing exact grounds are habitat hints, not access requirements. Main realms have small regional freshwater pools; unfamiliar realms use finite shared species automatically. This does not promise fish in every vessel, fountain, ice sheet or dungeon pool. Actual access, danger and inhabitants still apply. Retain one Fishing skill, the existing tackle/rare-hook controller and modest species values; no per-realm quest or bootstrap registry.
+
+Weather remains Glowhaven-only. Other realms keep their actual climates, without borrowing a stored Glowhaven storm. Rare hooks bind to realm/location/area. Simultaneous qualifying anglers share a local roll and party records, with native per-player ownership for grants/costs; do not fabricate independent per-player script state. No new map/art/NPC/Spider edits belong to this follow-up. Public patch notes discuss fishing only. Correct the three reported quest `description` warnings using `questStatement` in the delivered full file.
+
 ## 3 November — southern plains extension and eastern village relocation (latest steering)
 
 The author requests one wide southern panel below the assembled4344 ×2172 MasterMapTwo. New land is height:width1:3 (4344 ×1448), plus160 top overlap, full working extent4344 ×1608. Photoshop starts at(0,2012), intended canvas4344 ×3620. Preserve native generated files and report dimensions honestly.

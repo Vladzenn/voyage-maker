@@ -69,3 +69,37 @@ GEAR = [
  ('Pocket Fish Measure','Tool','mundane',5,None,None,'A folding marked rule and a soft sling for measuring a catch without laying it on hot stone.'),
  ('Smoke-Salt Packet','Tool','mundane',4,None,None,'A small packet of curing salt and aromatic wood shavings. Enough for a little catch, with proper preparation and drying.'),
 ]
+
+# Ordinary shared catches remain available even when a realm has no profile.
+# Existing Glowhaven species retain their authored identity and values.
+# Same fish fields as FISH, followed by a compact realm-pool code.
+EXTRA_FISH = [
+ ('Common Silverfin','rehsdu',65,'overcast',8,24,2,'A small silver-scaled fish found in many ordinary waters. Its mild flesh suits a simple supper.','*'),
+ ('Pebblefin Darter','rs',24,'clear',6,16,2,'A quick little fish with mottled fins, often found between clean stones in shallows.','*'),
+ ('Rushfin Mudfish','re',24,'rain',12,30,3,'A blunt-headed fish with russet fins. It hides among roots and feeds where the bottom is soft.','*'),
+ ('Pale Water Eel','rehs',9,'rain',28,70,7,'A pale-bellied eel that tolerates a change in salinity. It is best handled carefully and cooked thoroughly.','*'),
+ ('Tidemark Runner','ehsd',22,'wind',18,42,4,'A lean blue-backed fish whose sides carry a dark line like a water stain. Useful fresh or salted.','*'),
+ ('Wandering Prismfin','rehsdu',2,'fog',15,32,23,'A scarce adaptable fish whose fins separate reflected light into faint bands of color. Its beauty survives best in the water.','*'),
+ ('Glassmere Char','r',26,'clear',20,48,6,'A cold-water char with copper spots and a slate-blue back. Mountain cooks roast it with hardy herbs.','d'),
+ ('Rimefin Whitefish','r',30,'overcast',18,42,4,'A pale alpine fish with translucent fins. It gathers in the deeper water beneath cold lake surfaces.','d'),
+ ('Copperwhisker Sculpin','r',22,'rain',7,20,3,'A broad-headed stream fish with copper-colored barbels and a knack for wedging beneath stones.','d'),
+ ('Snowmelt Grayling','r',20,'clear',20,45,6,'A mountain fish with a tall, blue-violet dorsal fin. It favors clean running meltwater.','d'),
+ ('Amberheart Burbot','r',2,'fog',38,80,28,'A rare alpine burbot with a warm amber gleam beneath its throat. The gleam fades naturally; it is no stored mana crystal.','d'),
+ ('Cloudscale Carp','r',28,'overcast',20,48,5,'A sky-island carp with irregular white patches over blue-gray scales. It feeds patiently in still fresh water.','a'),
+ ('Petalwash Loach','r',25,'rain',8,22,4,'A small loach whose pink-edged scales resemble damp petals. It noses through the silt beneath flowering banks.','a'),
+ ('Rainthread Minnow','r',32,'rain',5,13,2,'A tiny fish with long threadlike fin tips, flashing silver as rain dimples the surface above it.','a'),
+ ('Violetfin Gourami','r',14,'clear',12,28,8,'A violet-finned fish that builds delicate bubble nests among sheltered reeds. Naturalists sketch the nests before disturbing them.','a'),
+ ('Horizon Koi','r',2,'fog',30,65,27,'A rare koi whose blue-gold flank seems to carry a distant horizon. It swims through water and has no gift for flight.','a'),
+ ('Sakura Ayu','r',28,'clear',12,27,4,'A slender river fish with a cherry-pink flush beside its gills. Grilled whole, it has a clean herbal fragrance.','k'),
+ ('Goldleaf Carp','r',26,'overcast',22,52,5,'A sturdy carp with leaf-shaped gold markings. The color belongs to its scales, not to precious metal.','k'),
+ ('Bamboo Loach','r',27,'rain',9,23,3,'A striped loach that shelters among submerged roots and the shadows of bamboo banks.','k'),
+ ('Redleaf Salmon','r',16,'rain',30,68,8,'A strong river fish with red-brown flanks and a silver belly. Its rich flesh is often salted for journeys.','k'),
+ ('Moonbell Koi','r',2,'fog',28,62,26,'A rare pale koi with dark crescent markings. As it turns beneath still water, its scales make a faint bell-like shimmer.','k'),
+]
+
+REALM_CODES = {'Glowhaven':'g','Drakenspire Mountains':'d',
+               'Asterveil Sky Archipelago':'a','Akitsuhara':'k'}
+
+def runtime_fish():
+    return [[r[0],r[1],r[2],r[3],r[4],r[5],'g'] for r in FISH]+[
+        [r[0],r[1],r[2],r[3],r[4],r[5],r[8]] for r in EXTRA_FISH]

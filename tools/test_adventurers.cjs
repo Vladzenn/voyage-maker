@@ -202,11 +202,13 @@ if(world.triggerDefinitions.cc1_register)scenarios.push(
 if(world.skills.Fishing){
  const angler={level:5,Health:100,items:{Mark:100,'Angler’s Rod':1,'Angler’s Bait Portion':3},traits:[],skills:{Fishing:0},outcome:'success'};
  scenarios.push(
-  ['River angler',{location:'Pinewater River',area:'Pinewater River - River Bend',players:{Alice:angler}}],
-  ['Estuary angler',{location:'Greenrush Estuary',area:'Greenrush Estuary - Reedwalk',players:{Alice:angler}}],
-  ['Reef angler',{location:'Gullwatch Reefs',area:'Gullwatch Reefs - Boat Shelf',players:{Alice:angler}}],
-  ['Ship angler',{location:'The Gilded Albatross',area:'The Gilded Albatross - Main Deck',players:{Alice:angler}}],
-  ['Crucible with fishing tackle',{location:'The Eternal Crucible',area:'The Eternal Crucible - Pillar Court',scene:['Kōta Mibu','Shōgo Mizutani'],storage:{cc1_phase:'live',cc1_active:true},players:{Alice:angler}}]
+  ['River angler',{location:'Pinewater River',area:'Pinewater River - River Bend',actions:['I fish with my line.'],players:{Alice:angler}}],
+  ['Estuary angler',{location:'Greenrush Estuary',area:'Greenrush Estuary - Reedwalk',actions:['I fish with bait.'],players:{Alice:angler}}],
+  ['Reef angler',{location:'Gullwatch Reefs',area:'Gullwatch Reefs - Boat Shelf',actions:['I cast my line.'],players:{Alice:angler}}],
+  ['Ship angler',{location:'The Gilded Albatross',area:'The Gilded Albatross - Main Deck',actions:['I fish over the rail.'],players:{Alice:angler}}],
+  ['Foreign lake angler',{location:'Glassmere Basin',area:'Glassmere Basin - Shore Stones',actions:['I fish with bait.'],players:{Alice:angler}}],
+  ['Future realm angler',{location:'Future Lake',area:'Future Lake - Shore',region:'Future Region',realm:'Future Realm',actions:['I cast my line.'],players:{Alice:angler}}],
+  ['Crucible with fishing tackle',{location:'The Eternal Crucible',area:'The Eternal Crucible - Pillar Court',actions:['I cast Firebolt.'],scene:['Kōta Mibu','Shōgo Mizutani'],storage:{cc1_phase:'live',cc1_active:true},players:{Alice:angler}}]
  );
 }
 for(const [name,opts] of scenarios){

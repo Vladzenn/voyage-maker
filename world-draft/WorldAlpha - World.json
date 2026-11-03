@@ -225,7 +225,7 @@
       "Keys, Credentials and Information Items": "CREDENTIALS AND SINGLE GRANTS\nGuild badges have exactly four catalogue identities: Guild Badge: Bronze, Guild Badge: Silver, Guild Badge: Gold and Guild Badge: Platinum. All are Documents. Their typed licensure/promotion effects own issuance and exchange. This item task must not add another badge for a narrated ceremony or define an alias such as Bronze Guild Badge, Adventurer Badge or a Relic version. An existing badge shown or mentioned is the same object. High level, a profession or a claimed licence grants none. Preserve actual images and quantities. Ordinary new unrelated objects can still be generated.\n\nKEYS AND RECORDS\nUse the exact existing type for keys, route tokens, admission packets, appointment letters, custody receipts and installed-goods receipts. State the actual place, issuer, holder and agreement. A receipt records the installed object; it is not a portable duplicate. Authorization and supported issuance determine acquisition. Status, a claim, a drawing or a mention grants no court key. Follow actual destinations, return points and reuse; do not consume reusable keys or grant a fresh copy on each trip. A lost credential needs a real replacement agreement.\n\nAn acquisition is applied once by its owner. When a typed effect supplies an item, this task neither grants a second copy nor invents a new definition for the narrated handover. Preserve actual transfers and custody.",
       "Exact Categories, Slots and Crafting Ceiling": "Use exact configured categories: Currency, Armor, Weapon, Tool, Consumable, Key, Document, Relic. A shield is a Weapon, a nonweapon focus is a Tool; a wearable accessory uses Armor. Preserve actual catalogue identities. Slots and capacities follow itemSettings exactly, including Accessories and Back with their capitalized keys. Carried supplies need no slot. Passive equipped bonuses require a matching slot and actual equipping.\nUse the configured tier names, generation permissions and bonus-pick limits. A rare appearance is not authority to invent legendary power. Native bonuses must stay within the actual supported fields and world calibration; no new rarity, charge or crafting schema. Conjured matter is temporary; lasting crafting alters real materials with actual costs and work. An enchantment is not a device battery or a free extra action. Preserve real owner, handover, quantity and payment once.",
       "Teaching Scrolls and Learned Formulas": "A Teaching Scroll is an actual finite readable Document. Its text is not itself permission to award a spell after inspecting a label. Resolve deliberate study: trained formulas may take one successful focused exercise; advanced ones require understanding and a controlled test; master works require meaningful research, correction and a real final success. A low discipline rank can be compensated by excellent study, not by claiming an unwitnessed project. Failed work leaves the scroll intact. Preserve Space's Gravity foundation and all Time restrictions.\n\nThe item31_study effects alone grant the exact Formula trait and ability and consume one scroll for its actual reader. Do not duplicate these operations, spend an ability point, award skills or affinities, or consume another copy of a known formula. A gift recipient is not the learner until they study it. The learned-formula trait records real understanding in ordinary terms, not a new creation choice. Casting remains an actual discipline check with the spell's Mana, scope and cooldown; learning a master formula at low skill does not promise a successful master casting.",
-      "Fishing Stock and Catches": "Fishmongers sell canonical tackle. Fishing effects own fish grants and bait costs; never duplicate them. Release, sale and cooking transfer real fish once. Fish restore no resources."
+      "Fishing Stock and Catches": "Fishmongers sell canonical tackle. Apply supplied fish grants and bait costs once. Release, sale, cooking and study transfer real fish once. Fish restore no resources."
     },
     "summarization": {
       "custom": "MEMORY PURPOSE\nPreserve what would break the next scene if forgotten. This is a running continuity record, not a transcript, a campaign review or a new scene. Merge still-relevant older memory with actual new developments. Do not reconstruct everything from the last exchange, re-award state through prose or invent events to connect gaps.\n\nPRIORITY ORDER\nCurrent actual realm/location/area and traveling group; the immediate unresolved exchange; consequential task status and conditions; actual property/payments/custody; meaningful relationship developments and boundaries; evidence and who knows it; learned methods and important discoveries; one or two specific useful callbacks. Drop repeated gestures, atmosphere and greetings before load-bearing facts.\n\nTRUTH DISCIPLINE\nDistinguish fact, claim, report, suspicion, lie, delusion and prophecy. Name who said or believes something and its real evidence. A chuunibyou's invented power remains a performance; a theory remains a theory; a prophecy is not a verified future or countdown. Do not promote an illustrative prompt example into an incident. Private knowledge stays with actual knowers, not every person mentioned.\n\nUse supplied current structured state for quantities, position, level, skills, Health/Mana, inventory and quest status. Do not recalculate from an incomplete paragraph or overwrite a newer value with an old summary. If a narration/state discrepancy remains unresolved, preserve it as such rather than certifying the unsupported event. A return requested but not recorded is not a completed arrival. A later recap does not grant the same item, payment or relationship change again.",
@@ -33311,11 +33311,11 @@
     "Academic Feedback and Opportunity": {
       "text": "Teachers assess work they actually see and communicate what needs attention. Meeting expectations means the current work is adequate; needs improvement names a particular shortcoming and a feasible way to practice or revise; at risk follows serious misconduct or a continuing pattern of neglected responsibilities, not one awkward answer. These are qualitative judgments about the current course, not permanent labels for a person's worth. Feedback can be challenged with actual evidence. Successful repair changes later feedback and opportunities. Recommendations, supervised responsibilities and scarce placements depend on relevant work and conduct, without guaranteeing one outcome for every student.\n\nA defensive exercise can reveal whether someone looks after a partner. A research demonstration tests whether a claim survives an honest method. Field readiness can earn confidence without a reckless recovery. A civic exercise asks whether proposals can actually be carried out. These institutional emphases leave room for every discipline, martial method, temperament and chosen ambition."
     },
-    "Angling around Glowhaven": {
-      "text": "Glowhaven’s rivers, estuary, harbor and rocky coast support a varied fishing trade. Makiho Akitsu sells ordinary tackle at Gullwatch Reefs and teaches practical angling; local fishmongers carry rods, bait and common catches, with finer reusable lures less common. A basic rod includes a reusable spinner, so worms and paste are a choice rather than a necessity. Rain brings loaches and eels toward feeding grounds; clear shallows favor brightly patterned reef fish. Mist sometimes reveals the strange sheen of a Moonmirror Dace. Open-water anglers speak of Crownfin Sailfish and the blue light of Lanternjaw Anglers. A boat and safe footing matter more than boasting. Mauruun is a protected resting animal to local fishers; Nerathyl’s ledge and the kraken’s approaches are serious hazards, not everyday fishing grounds."
-    },
     "Glowhaven Weather and Water": {
       "text": "Glowhaven has coastal squalls, drifting sea fog, clear spells and ordinary inland rain. A change in the sky usually develops over time; different waters can remain under different conditions. Fog hides approaches, wind roughens exposed water, and a passing storm is a good reason to wait ashore. Buildings, sheltered coves and sensible local knowledge remain useful. These local patterns say nothing about the climate beyond the Evertree’s portals."
+    },
+    "Angling and Regional Waters": {
+      "text": "Glowhaven’s rivers, estuary, harbor and rocky coast support a varied fishing trade. Makiho Akitsu sells ordinary tackle at Gullwatch Reefs and teaches practical angling; local fishmongers carry rods, bait and common catches, with finer reusable lures less common. A basic rod includes a reusable spinner, so worms and paste are a choice rather than a necessity. Rain brings loaches and eels toward feeding grounds; clear shallows favor brightly patterned reef fish. Mist sometimes reveals the strange sheen of a Moonmirror Dace. Open-water anglers speak of Crownfin Sailfish and the blue light of Lanternjaw Anglers. A boat and safe footing matter more than boasting. Mauruun is a protected resting animal to local fishers; Nerathyl’s ledge and the kraken’s approaches are serious hazards, not everyday fishing grounds.\n\nBeyond Glowhaven, practical anglers adapt to the water they find. Cold Drakenspire lakes and streams support Glassmere Char, Rimefin Whitefish, Copperwhisker Sculpin and Snowmelt Grayling; Amberheart Burbot are scarce. Asterveil’s fresh waters hold Cloudscale Carp, Petalwash Loaches, Rainthread Minnows and Violetfin Gourami, with the occasional Horizon Koi. Akitsuhara’s rivers and lakes are known for Sakura Ayu, Goldleaf Carp, Bamboo Loaches, Redleaf Salmon and rare Moonbell Koi. Common Silverfin and other adaptable fish are found across many ordinary waters. Local knowledge, real access and the actual inhabitants of a pool matter more than its name. Unfamiliar waters can be worth a cast without being a guarantee of safety."
     }
   },
   "storyStarts": {
@@ -41113,6 +41113,195 @@
       "tier": "mundane",
       "estimatedValue": 4,
       "description": "A small packet of curing salt and aromatic wood shavings. Enough for a little catch, with proper preparation and drying.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Common Silverfin": {
+      "name": "Common Silverfin",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 2,
+      "description": "A small silver-scaled fish found in many ordinary waters. Its mild flesh suits a simple supper.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Pebblefin Darter": {
+      "name": "Pebblefin Darter",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 2,
+      "description": "A quick little fish with mottled fins, often found between clean stones in shallows.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Rushfin Mudfish": {
+      "name": "Rushfin Mudfish",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 3,
+      "description": "A blunt-headed fish with russet fins. It hides among roots and feeds where the bottom is soft.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Pale Water Eel": {
+      "name": "Pale Water Eel",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 7,
+      "description": "A pale-bellied eel that tolerates a change in salinity. It is best handled carefully and cooked thoroughly.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Tidemark Runner": {
+      "name": "Tidemark Runner",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 4,
+      "description": "A lean blue-backed fish whose sides carry a dark line like a water stain. Useful fresh or salted.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Wandering Prismfin": {
+      "name": "Wandering Prismfin",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 23,
+      "description": "A scarce adaptable fish whose fins separate reflected light into faint bands of color. Its beauty survives best in the water.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Glassmere Char": {
+      "name": "Glassmere Char",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 6,
+      "description": "A cold-water char with copper spots and a slate-blue back. Mountain cooks roast it with hardy herbs.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Rimefin Whitefish": {
+      "name": "Rimefin Whitefish",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 4,
+      "description": "A pale alpine fish with translucent fins. It gathers in the deeper water beneath cold lake surfaces.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Copperwhisker Sculpin": {
+      "name": "Copperwhisker Sculpin",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 3,
+      "description": "A broad-headed stream fish with copper-colored barbels and a knack for wedging beneath stones.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Snowmelt Grayling": {
+      "name": "Snowmelt Grayling",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 6,
+      "description": "A mountain fish with a tall, blue-violet dorsal fin. It favors clean running meltwater.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Amberheart Burbot": {
+      "name": "Amberheart Burbot",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 28,
+      "description": "A rare alpine burbot with a warm amber gleam beneath its throat. The gleam fades naturally; it is no stored mana crystal.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Cloudscale Carp": {
+      "name": "Cloudscale Carp",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 5,
+      "description": "A sky-island carp with irregular white patches over blue-gray scales. It feeds patiently in still fresh water.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Petalwash Loach": {
+      "name": "Petalwash Loach",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 4,
+      "description": "A small loach whose pink-edged scales resemble damp petals. It noses through the silt beneath flowering banks.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Rainthread Minnow": {
+      "name": "Rainthread Minnow",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 2,
+      "description": "A tiny fish with long threadlike fin tips, flashing silver as rain dimples the surface above it.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Violetfin Gourami": {
+      "name": "Violetfin Gourami",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 8,
+      "description": "A violet-finned fish that builds delicate bubble nests among sheltered reeds. Naturalists sketch the nests before disturbing them.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Horizon Koi": {
+      "name": "Horizon Koi",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 27,
+      "description": "A rare koi whose blue-gold flank seems to carry a distant horizon. It swims through water and has no gift for flight.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Sakura Ayu": {
+      "name": "Sakura Ayu",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 4,
+      "description": "A slender river fish with a cherry-pink flush beside its gills. Grilled whole, it has a clean herbal fragrance.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Goldleaf Carp": {
+      "name": "Goldleaf Carp",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 5,
+      "description": "A sturdy carp with leaf-shaped gold markings. The color belongs to its scales, not to precious metal.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Bamboo Loach": {
+      "name": "Bamboo Loach",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 3,
+      "description": "A striped loach that shelters among submerged roots and the shadows of bamboo banks.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Redleaf Salmon": {
+      "name": "Redleaf Salmon",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 8,
+      "description": "A strong river fish with red-brown flanks and a silver belly. Its rich flesh is often salted for journeys.",
+      "bonuses": [],
+      "needsMediaGeneration": true
+    },
+    "Moonbell Koi": {
+      "name": "Moonbell Koi",
+      "category": "Consumable",
+      "tier": "mundane",
+      "estimatedValue": 26,
+      "description": "A rare pale koi with dark crescent markings. As it turns beneath still water, its scales make a faint bell-like shimmer.",
       "bonuses": [],
       "needsMediaGeneration": true
     }
@@ -85991,14 +86180,9 @@
       "scope": "player",
       "conditions": [
         {
-          "type": "party-realm",
-          "operator": "equals",
-          "value": "Glowhaven"
-        },
-        {
-          "type": "party-area",
+          "type": "action-text",
           "operator": "regex",
-          "value": "Pinewater|Saltmere|Whitecrest|Driftstone|Pinewake|Albatross|Moonarch|Greenrush|Gullwatch|Stillback"
+          "value": "\\b([Ff]ish\\w*|[Aa]ngling|[Rr]eel\\w*|[Ll]ure|[Bb]ait\\w*|[Bb]obber|[Cc]ast.*[Ll]ine)\\b"
         },
         {
           "type": "player-item",
@@ -86014,7 +86198,7 @@
         },
         {
           "type": "action",
-          "query": "The player actually rigs their own rod and practices their first cast into reachable water, or receives a real introductory fishing lesson with that rod. Talking about lessons, receiving a rod or fishing elsewhere in memory does not qualify."
+          "query": "There is actual physically reachable water in this scene that plausibly supports fish, or an established stocked fishing pond. Respect the actual fiction: a place name, a picture, a drinking vessel, an empty fountain, a cloud gap, solid unbroken ice, lava, or an uninhabitable pool supplies no fish. Do not invent a water body or its access. This applies in any realm, including newly created ones. The player actually rigs and practices their first cast with that rod, or receives a real introductory angling lesson beside the water. Mere possession, intentions and watching another angler do not qualify."
         }
       ],
       "effects": [
@@ -86024,8 +86208,7 @@
           "value": "Angling Basics",
           "target": "satisfyingPlayers"
         }
-      ],
-      "script": "const sites={\"Pinewater River - Brookmeadow Ford\":\"r\",\"Pinewater River - River Bend\":\"r\",\"Saltmere - Village Landing\":\"h\",\"Saltmere - Shoreline Green\":\"s\",\"Whitecrest Harbor - Harbor Quay\":\"h\",\"Whitecrest Harbor - Passenger Landing\":\"h\",\"Driftstone Isle - Island Landing\":\"s\",\"Driftstone Isle - Rocky Shore\":\"s\",\"Pinewake Coast - Pineward Beach\":\"s\",\"Pinewake Coast - Tide Pools\":\"s\",\"The Gilded Albatross - Main Deck\":\"d\",\"Moonarch Isle - Pebble Landing\":\"s\",\"Moonarch Isle - Offshore Drop\":\"d\",\"Stillback Isle - Quiet Landing\":\"s\",\"Greenrush Estuary - Skiff Landing\":\"e\",\"Greenrush Estuary - Reedwalk\":\"e\",\"Gullwatch Reefs - Boat Shelf\":\"s\",\"Gullwatch Reefs - Tide Pools\":\"s\"};if(!sites[String(check({type:'party-area'})||'')])skip=true;"
+      ]
     },
     "fsh_cast_lure": {
       "name": "fsh_cast_lure",
@@ -86033,9 +86216,9 @@
       "scope": "player",
       "conditions": [
         {
-          "type": "party-area",
+          "type": "action-text",
           "operator": "regex",
-          "value": "Pinewater|Saltmere|Whitecrest|Driftstone|Pinewake|Albatross|Moonarch|Greenrush|Gullwatch|Stillback"
+          "value": "\\b([Ff]ish\\w*|[Aa]ngling|[Rr]eel\\w*|[Ll]ure|[Bb]ait\\w*|[Bb]obber|[Cc]ast.*[Ll]ine)\\b"
         },
         {
           "type": "player-item",
@@ -86055,11 +86238,11 @@
         },
         {
           "type": "action",
-          "query": "The player makes a real fresh rod-fishing cast into reachable water, with their own Angler’s Rod, rather than talking about fishing, buying gear, attacking, remembering a cast or already handling a rare hooked fish. They use the reusable spinner or another real reusable lure, without using a consumable bait portion."
+          "query": "There is actual physically reachable water in this scene that plausibly supports fish, or an established stocked fishing pond. Respect the actual fiction: a place name, a picture, a drinking vessel, an empty fountain, a cloud gap, solid unbroken ice, lava, or an uninhabitable pool supplies no fish. Do not invent a water body or its access. This applies in any realm, including newly created ones. The player actually makes a fresh rod-fishing cast here with their own real Angler’s Rod. Exclude discussion, shopping, old catches, attacks, handling an already hooked fish, and attempts to capture a named NPC, pet or companion. They use their reusable spinner or another real reusable lure, without spending a consumable bait portion."
         }
       ],
       "effects": [],
-      "script": "const sites={\"Pinewater River - Brookmeadow Ford\":\"r\",\"Pinewater River - River Bend\":\"r\",\"Saltmere - Village Landing\":\"h\",\"Saltmere - Shoreline Green\":\"s\",\"Whitecrest Harbor - Harbor Quay\":\"h\",\"Whitecrest Harbor - Passenger Landing\":\"h\",\"Driftstone Isle - Island Landing\":\"s\",\"Driftstone Isle - Rocky Shore\":\"s\",\"Pinewake Coast - Pineward Beach\":\"s\",\"Pinewake Coast - Tide Pools\":\"s\",\"The Gilded Albatross - Main Deck\":\"d\",\"Moonarch Isle - Pebble Landing\":\"s\",\"Moonarch Isle - Offshore Drop\":\"d\",\"Stillback Isle - Quiet Landing\":\"s\",\"Greenrush Estuary - Skiff Landing\":\"e\",\"Greenrush Estuary - Reedwalk\":\"e\",\"Gullwatch Reefs - Boat Shelf\":\"s\",\"Gullwatch Reefs - Tide Pools\":\"s\"},fish=[[\"Pinewater Perch\",\"r\",30,\"clear\",12,30],[\"Brookmeadow Roach\",\"r\",32,\"overcast\",8,22],[\"Millpond Crucian\",\"r\",25,\"rain\",12,32],[\"Willowback Trout\",\"r\",20,\"overcast\",18,42],[\"Button-Eyed Minnow\",\"r\",35,\"clear\",4,10],[\"Rainbell Loach\",\"re\",23,\"rain\",8,20],[\"Reedstripe Mullet\",\"eh\",28,\"overcast\",15,38],[\"Brackish Bream\",\"e\",27,\"rain\",16,35],[\"Mud-Sleeve Goby\",\"eh\",33,\"overcast\",5,16],[\"Greenrush Flounder\",\"es\",23,\"fog\",15,37],[\"Harbor Herring\",\"hs\",35,\"overcast\",14,27],[\"Lantern Sardine\",\"hs\",35,\"clear\",8,18],[\"Dockside Smelt\",\"h\",30,\"rain\",7,17],[\"Copper-Gill Mackerel\",\"hsd\",28,\"wind\",22,43],[\"Whitecrest Whiting\",\"hs\",28,\"clear\",18,36],[\"Pebble Sole\",\"s\",24,\"clear\",12,29],[\"Ribbon Garfish\",\"sd\",22,\"wind\",30,65],[\"Crescent Sea Bass\",\"hsd\",19,\"overcast\",25,62],[\"Silver-Tail Pollock\",\"sd\",25,\"overcast\",25,55],[\"Sandburrow Gurnard\",\"s\",22,\"clear\",18,38],[\"Glassvein Char\",\"r\",8,\"clear\",22,48],[\"Bottle-Green Tench\",\"re\",9,\"rain\",25,52],[\"Amberfin Eel\",\"re\",7,\"rain\",35,85],[\"Pearlspot Wrasse\",\"s\",9,\"clear\",15,32],[\"Blueglass Needlefish\",\"sd\",8,\"wind\",35,78],[\"Velvet Skate\",\"sd\",7,\"fog\",35,80],[\"Stormstripe Bonito\",\"d\",8,\"wind\",40,90],[\"Moonmirror Dace\",\"re\",2,\"fog\",18,34],[\"Lanternjaw Angler\",\"d\",2,\"fog\",35,70],[\"Crownfin Sailfish\",\"d\",2,\"wind\",95,180]];\nconst tick=Number(check({type:'game-tick'}))||0,area=String(check({type:'party-area'})||''),habitat=sites[area];\nconst baited=false,key=baited?'bait':'lure';\nif(!storage.fshCasts||typeof storage.fshCasts!=='object')storage.fshCasts={};\nif(check({type:'party-realm'})!=='Glowhaven'||!habitat||tick<=0||storage.fshCasts[key]===tick){skip=true}else{\n const zone=habitat==='r'?'inland':'coast';\n const weather=storage.fshWeather?.[zone]?.kind||(zone==='inland'?'clear':'overcast');\n if(weather==='storm'&&habitat==='d'){\n  effects.push({type:'story',instruction:'Exposed offshore fishing is unsafe in this squall. Keep the line stowed and show the rough water; offer waiting or a genuinely sheltered fishing ground. No bait is spent and no catch is awarded. Do not move the player or summon a monster.'});\n  storage.fshCasts[key]=tick;\n }else{\n  const pool=fish.filter(f=>f[1].includes(habitat)&&(!storage.fshHook||f[2]>2));\n  const weights=pool.map(f=>f[2]*(f[3]===weather?2.2:1)*(baited&&(f[2]<=9||/Loach|Bream|Tench|Eel|Goby/.test(f[0]))?1.6:1));\n  let roll=Math.random()*weights.reduce((a,b)=>a+b,0),chosen=pool[pool.length-1];\n  for(let i=0;i<pool.length;i++){roll-=weights[i];if(roll<0){chosen=pool[i];break}}\n  const cm=chosen[4]+Math.floor(Math.random()*(chosen[5]-chosen[4]+1));\n  // The same local shoal roll is shared by simultaneous qualifying anglers.\n  // Native scope/conditions, not script-side text parsing, select the recipients.\n  if(baited)effects.push({type:'item-remove',item:'Angler’s Bait Portion',quantity:1,target:'satisfyingPlayers'});\n  if(chosen[2]===2){\n   storage.fshHook={fish:chosen[0],cm,area,until:tick+6};\n   effects.push({type:'player-traits',operator:'add',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\n   effects.push({type:'story',instruction:'A rare '+chosen[0]+' is hooked, not landed or acquired. Describe its distinctive movement and let the angler choose a response: ease the line and tire it, guide it away from cover, take a risk, or release it. One actual next handling attempt can settle the catch using Fishing. No mandatory wording, extra fight, automatic damaged tackle or inventory fish yet. Waiting for up to six turns is possible; leaving this fishing ground loses the line’s catch.'});\n  }else{\n   effects.push({type:'item-add',item:chosen[0],quantity:1,target:'satisfyingPlayers'});\n   effects.push({type:'story',instruction:'The qualifying angler lands one '+chosen[0]+', about '+cm+' cm, in '+weather+' conditions. The inventory grant is already handled; do not duplicate it, invent another catch or add separate XP/resource rewards. A mixed action result can mean an awkward landing. Keep this a short fishing moment unless the player engages further.'});\n   if(!storage.fshRecords||typeof storage.fshRecords!=='object')storage.fshRecords={};\n   const old=storage.fshRecords[chosen[0]]||{best:0,landings:0};\n   storage.fshRecords[chosen[0]]={best:Math.max(old.best,cm),landings:old.landings+1};\n  }\n  storage.fshCasts[key]=tick;\n }\n}\n"
+      "script": "const fish=[[\"Pinewater Perch\",\"r\",30,\"clear\",12,30,\"g\"],[\"Brookmeadow Roach\",\"r\",32,\"overcast\",8,22,\"g\"],[\"Millpond Crucian\",\"r\",25,\"rain\",12,32,\"g\"],[\"Willowback Trout\",\"r\",20,\"overcast\",18,42,\"g\"],[\"Button-Eyed Minnow\",\"r\",35,\"clear\",4,10,\"g\"],[\"Rainbell Loach\",\"re\",23,\"rain\",8,20,\"g\"],[\"Reedstripe Mullet\",\"eh\",28,\"overcast\",15,38,\"g\"],[\"Brackish Bream\",\"e\",27,\"rain\",16,35,\"g\"],[\"Mud-Sleeve Goby\",\"eh\",33,\"overcast\",5,16,\"g\"],[\"Greenrush Flounder\",\"es\",23,\"fog\",15,37,\"g\"],[\"Harbor Herring\",\"hs\",35,\"overcast\",14,27,\"g\"],[\"Lantern Sardine\",\"hs\",35,\"clear\",8,18,\"g\"],[\"Dockside Smelt\",\"h\",30,\"rain\",7,17,\"g\"],[\"Copper-Gill Mackerel\",\"hsd\",28,\"wind\",22,43,\"g\"],[\"Whitecrest Whiting\",\"hs\",28,\"clear\",18,36,\"g\"],[\"Pebble Sole\",\"s\",24,\"clear\",12,29,\"g\"],[\"Ribbon Garfish\",\"sd\",22,\"wind\",30,65,\"g\"],[\"Crescent Sea Bass\",\"hsd\",19,\"overcast\",25,62,\"g\"],[\"Silver-Tail Pollock\",\"sd\",25,\"overcast\",25,55,\"g\"],[\"Sandburrow Gurnard\",\"s\",22,\"clear\",18,38,\"g\"],[\"Glassvein Char\",\"r\",8,\"clear\",22,48,\"g\"],[\"Bottle-Green Tench\",\"re\",9,\"rain\",25,52,\"g\"],[\"Amberfin Eel\",\"re\",7,\"rain\",35,85,\"g\"],[\"Pearlspot Wrasse\",\"s\",9,\"clear\",15,32,\"g\"],[\"Blueglass Needlefish\",\"sd\",8,\"wind\",35,78,\"g\"],[\"Velvet Skate\",\"sd\",7,\"fog\",35,80,\"g\"],[\"Stormstripe Bonito\",\"d\",8,\"wind\",40,90,\"g\"],[\"Moonmirror Dace\",\"re\",2,\"fog\",18,34,\"g\"],[\"Lanternjaw Angler\",\"d\",2,\"fog\",35,70,\"g\"],[\"Crownfin Sailfish\",\"d\",2,\"wind\",95,180,\"g\"],[\"Common Silverfin\",\"rehsdu\",65,\"overcast\",8,24,\"*\"],[\"Pebblefin Darter\",\"rs\",24,\"clear\",6,16,\"*\"],[\"Rushfin Mudfish\",\"re\",24,\"rain\",12,30,\"*\"],[\"Pale Water Eel\",\"rehs\",9,\"rain\",28,70,\"*\"],[\"Tidemark Runner\",\"ehsd\",22,\"wind\",18,42,\"*\"],[\"Wandering Prismfin\",\"rehsdu\",2,\"fog\",15,32,\"*\"],[\"Glassmere Char\",\"r\",26,\"clear\",20,48,\"d\"],[\"Rimefin Whitefish\",\"r\",30,\"overcast\",18,42,\"d\"],[\"Copperwhisker Sculpin\",\"r\",22,\"rain\",7,20,\"d\"],[\"Snowmelt Grayling\",\"r\",20,\"clear\",20,45,\"d\"],[\"Amberheart Burbot\",\"r\",2,\"fog\",38,80,\"d\"],[\"Cloudscale Carp\",\"r\",28,\"overcast\",20,48,\"a\"],[\"Petalwash Loach\",\"r\",25,\"rain\",8,22,\"a\"],[\"Rainthread Minnow\",\"r\",32,\"rain\",5,13,\"a\"],[\"Violetfin Gourami\",\"r\",14,\"clear\",12,28,\"a\"],[\"Horizon Koi\",\"r\",2,\"fog\",30,65,\"a\"],[\"Sakura Ayu\",\"r\",28,\"clear\",12,27,\"k\"],[\"Goldleaf Carp\",\"r\",26,\"overcast\",22,52,\"k\"],[\"Bamboo Loach\",\"r\",27,\"rain\",9,23,\"k\"],[\"Redleaf Salmon\",\"r\",16,\"rain\",30,68,\"k\"],[\"Moonbell Koi\",\"r\",2,\"fog\",28,62,\"k\"]];\nconst area=String(check({type:'party-area'})||''),location=String(check({type:'party-location'})||'');\nconst realm=String(check({type:'party-realm'})||''),region=String(check({type:'party-region'})||'');\nconst realmCode=({\"Glowhaven\":\"g\",\"Drakenspire Mountains\":\"d\",\"Asterveil Sky Archipelago\":\"a\",\"Akitsuhara\":\"k\"})[realm]||'*';\nfunction waterType(text){\nif(/estuar|brackish|river mouth|tidal marsh/i.test(text))return 'e';\nif(/offshore|deepwater|open sea|open ocean/i.test(text))return 'd';\nif(/river|brook|stream|freshwater|lake|tarn|pond|creek|canal|snowmelt/i.test(text))return 'r';\nif(/harbou?r/i.test(text))return 'h';\nif(/\\bsea\\b|ocean|saltwater|coast|beach|reef|cove/i.test(text))return 's';\nreturn '';\n}\nconst hints={\"Pinewater River - Brookmeadow Ford\":\"r\",\"Pinewater River - River Bend\":\"r\",\"Saltmere - Village Landing\":\"h\",\"Saltmere - Shoreline Green\":\"s\",\"Whitecrest Harbor - Harbor Quay\":\"h\",\"Whitecrest Harbor - Passenger Landing\":\"h\",\"Driftstone Isle - Island Landing\":\"s\",\"Driftstone Isle - Rocky Shore\":\"s\",\"Pinewake Coast - Pineward Beach\":\"s\",\"Pinewake Coast - Tide Pools\":\"s\",\"The Gilded Albatross - Main Deck\":\"d\",\"Moonarch Isle - Pebble Landing\":\"s\",\"Moonarch Isle - Offshore Drop\":\"d\",\"Stillback Isle - Quiet Landing\":\"s\",\"Greenrush Estuary - Skiff Landing\":\"e\",\"Greenrush Estuary - Reedwalk\":\"e\",\"Gullwatch Reefs - Boat Shelf\":\"s\",\"Gullwatch Reefs - Tide Pools\":\"s\"};\nconst habitat=hints[area]||waterType(area+' '+location)||waterType(String(check({type:'action-text'})||''))||waterType(region)||(['d','a','k'].includes(realmCode)?'r':'u');\nconst zone=habitat==='r'||(habitat==='u'&&!/Harbor|Coast|Isles|Shoals|Reach|Bluffs|Marshes/.test(region))?'inland':'coast';\nconst weather=realm==='Glowhaven'?(storage.fshWeather?.[zone]?.kind||(zone==='inland'?'clear':'overcast')):'neutral';\nconst tick=Number(check({type:'game-tick'}))||0;\nconst baited=false,key=baited?'bait':'lure';\nif(!storage.fshCasts||typeof storage.fshCasts!=='object')storage.fshCasts={};\nconst holders=check({type:'player-traits'})||{};\nif(storage.fshHook&&!Object.values(holders).some(t=>Array.isArray(t)&&t.includes('Rare Fish on the Line')))delete storage.fshHook;\nif(tick<=0||storage.fshCasts[key]===tick){skip=true}else{\nif(weather==='storm'&&habitat==='d'){\neffects.push({type:'story',instruction:'Exposed offshore fishing is unsafe in this squall. Keep the line stowed and show the rough water; offer waiting or a genuinely sheltered fishing ground. No bait is spent and no catch is awarded. Do not move the player or summon a monster.'});\nstorage.fshCasts[key]=tick;\n}else{\nconst pool=fish.filter(f=>(f[6]==='*'||f[6]===realmCode)&&f[1].includes(habitat)&&(!storage.fshHook||f[2]>2));\nconst weights=pool.map(f=>f[2]*(f[6]===realmCode?1.5:1)*(f[3]===weather?2.2:1)*(baited&&(f[2]<=9||/Loach|Bream|Tench|Eel|Goby/.test(f[0]))?1.6:1));\nlet roll=Math.random()*weights.reduce((a,b)=>a+b,0),chosen=pool[pool.length-1];\nfor(let i=0;i<pool.length;i++){roll-=weights[i];if(roll<0){chosen=pool[i];break}}\nconst cm=chosen[4]+Math.floor(Math.random()*(chosen[5]-chosen[4]+1));\nif(baited)effects.push({type:'item-remove',item:'Angler’s Bait Portion',quantity:1,target:'satisfyingPlayers'});\nif(chosen[2]===2){\nstorage.fshHook={fish:chosen[0],cm,area,location,realm,until:tick+6};\neffects.push({type:'player-traits',operator:'add',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\neffects.push({type:'story',instruction:'A rare '+chosen[0]+' is hooked, not landed or acquired. Describe its distinctive movement and let the angler choose a response: ease the line and tire it, guide it away from cover, take a risk, or release it. One actual next handling attempt can settle the catch using Fishing. No mandatory wording, extra fight, automatic damaged tackle or inventory fish yet. Waiting for up to six turns is possible; leaving this fishing ground loses the line’s catch.'});\n}else{\neffects.push({type:'item-add',item:chosen[0],quantity:1,target:'satisfyingPlayers'});\neffects.push({type:'story',instruction:'The qualifying angler lands one '+chosen[0]+', about '+cm+' cm, in '+(weather==='neutral'?'the actual local':weather)+' conditions. The inventory grant is already handled; do not duplicate it, invent another catch or add separate XP/resource rewards. A mixed action result can mean an awkward landing. Keep this a short fishing moment unless the player engages further.'});\nif(!storage.fshRecords||typeof storage.fshRecords!=='object')storage.fshRecords={};\nconst old=storage.fshRecords[chosen[0]]||{best:0,landings:0};\nstorage.fshRecords[chosen[0]]={best:Math.max(old.best,cm),landings:old.landings+1};\n}\nstorage.fshCasts[key]=tick;\n}\n}"
     },
     "fsh_cast_bait": {
       "name": "fsh_cast_bait",
@@ -86067,9 +86250,9 @@
       "scope": "player",
       "conditions": [
         {
-          "type": "party-area",
+          "type": "action-text",
           "operator": "regex",
-          "value": "Pinewater|Saltmere|Whitecrest|Driftstone|Pinewake|Albatross|Moonarch|Greenrush|Gullwatch|Stillback"
+          "value": "\\b([Ff]ish\\w*|[Aa]ngling|[Rr]eel\\w*|[Ll]ure|[Bb]ait\\w*|[Bb]obber|[Cc]ast.*[Ll]ine)\\b"
         },
         {
           "type": "player-item",
@@ -86090,11 +86273,11 @@
         },
         {
           "type": "action",
-          "query": "The player makes a real fresh rod-fishing cast into reachable water, with their own Angler’s Rod, rather than talking about fishing, buying gear, attacking, remembering a cast or already handling a rare hooked fish. They deliberately use one real Angler’s Bait Portion from their own inventory."
+          "query": "There is actual physically reachable water in this scene that plausibly supports fish, or an established stocked fishing pond. Respect the actual fiction: a place name, a picture, a drinking vessel, an empty fountain, a cloud gap, solid unbroken ice, lava, or an uninhabitable pool supplies no fish. Do not invent a water body or its access. This applies in any realm, including newly created ones. The player actually makes a fresh rod-fishing cast here with their own real Angler’s Rod. Exclude discussion, shopping, old catches, attacks, handling an already hooked fish, and attempts to capture a named NPC, pet or companion. They deliberately expend one Angler’s Bait Portion from their own inventory on this cast."
         }
       ],
       "effects": [],
-      "script": "const sites={\"Pinewater River - Brookmeadow Ford\":\"r\",\"Pinewater River - River Bend\":\"r\",\"Saltmere - Village Landing\":\"h\",\"Saltmere - Shoreline Green\":\"s\",\"Whitecrest Harbor - Harbor Quay\":\"h\",\"Whitecrest Harbor - Passenger Landing\":\"h\",\"Driftstone Isle - Island Landing\":\"s\",\"Driftstone Isle - Rocky Shore\":\"s\",\"Pinewake Coast - Pineward Beach\":\"s\",\"Pinewake Coast - Tide Pools\":\"s\",\"The Gilded Albatross - Main Deck\":\"d\",\"Moonarch Isle - Pebble Landing\":\"s\",\"Moonarch Isle - Offshore Drop\":\"d\",\"Stillback Isle - Quiet Landing\":\"s\",\"Greenrush Estuary - Skiff Landing\":\"e\",\"Greenrush Estuary - Reedwalk\":\"e\",\"Gullwatch Reefs - Boat Shelf\":\"s\",\"Gullwatch Reefs - Tide Pools\":\"s\"},fish=[[\"Pinewater Perch\",\"r\",30,\"clear\",12,30],[\"Brookmeadow Roach\",\"r\",32,\"overcast\",8,22],[\"Millpond Crucian\",\"r\",25,\"rain\",12,32],[\"Willowback Trout\",\"r\",20,\"overcast\",18,42],[\"Button-Eyed Minnow\",\"r\",35,\"clear\",4,10],[\"Rainbell Loach\",\"re\",23,\"rain\",8,20],[\"Reedstripe Mullet\",\"eh\",28,\"overcast\",15,38],[\"Brackish Bream\",\"e\",27,\"rain\",16,35],[\"Mud-Sleeve Goby\",\"eh\",33,\"overcast\",5,16],[\"Greenrush Flounder\",\"es\",23,\"fog\",15,37],[\"Harbor Herring\",\"hs\",35,\"overcast\",14,27],[\"Lantern Sardine\",\"hs\",35,\"clear\",8,18],[\"Dockside Smelt\",\"h\",30,\"rain\",7,17],[\"Copper-Gill Mackerel\",\"hsd\",28,\"wind\",22,43],[\"Whitecrest Whiting\",\"hs\",28,\"clear\",18,36],[\"Pebble Sole\",\"s\",24,\"clear\",12,29],[\"Ribbon Garfish\",\"sd\",22,\"wind\",30,65],[\"Crescent Sea Bass\",\"hsd\",19,\"overcast\",25,62],[\"Silver-Tail Pollock\",\"sd\",25,\"overcast\",25,55],[\"Sandburrow Gurnard\",\"s\",22,\"clear\",18,38],[\"Glassvein Char\",\"r\",8,\"clear\",22,48],[\"Bottle-Green Tench\",\"re\",9,\"rain\",25,52],[\"Amberfin Eel\",\"re\",7,\"rain\",35,85],[\"Pearlspot Wrasse\",\"s\",9,\"clear\",15,32],[\"Blueglass Needlefish\",\"sd\",8,\"wind\",35,78],[\"Velvet Skate\",\"sd\",7,\"fog\",35,80],[\"Stormstripe Bonito\",\"d\",8,\"wind\",40,90],[\"Moonmirror Dace\",\"re\",2,\"fog\",18,34],[\"Lanternjaw Angler\",\"d\",2,\"fog\",35,70],[\"Crownfin Sailfish\",\"d\",2,\"wind\",95,180]];\nconst tick=Number(check({type:'game-tick'}))||0,area=String(check({type:'party-area'})||''),habitat=sites[area];\nconst baited=true,key=baited?'bait':'lure';\nif(!storage.fshCasts||typeof storage.fshCasts!=='object')storage.fshCasts={};\nif(check({type:'party-realm'})!=='Glowhaven'||!habitat||tick<=0||storage.fshCasts[key]===tick){skip=true}else{\n const zone=habitat==='r'?'inland':'coast';\n const weather=storage.fshWeather?.[zone]?.kind||(zone==='inland'?'clear':'overcast');\n if(weather==='storm'&&habitat==='d'){\n  effects.push({type:'story',instruction:'Exposed offshore fishing is unsafe in this squall. Keep the line stowed and show the rough water; offer waiting or a genuinely sheltered fishing ground. No bait is spent and no catch is awarded. Do not move the player or summon a monster.'});\n  storage.fshCasts[key]=tick;\n }else{\n  const pool=fish.filter(f=>f[1].includes(habitat)&&(!storage.fshHook||f[2]>2));\n  const weights=pool.map(f=>f[2]*(f[3]===weather?2.2:1)*(baited&&(f[2]<=9||/Loach|Bream|Tench|Eel|Goby/.test(f[0]))?1.6:1));\n  let roll=Math.random()*weights.reduce((a,b)=>a+b,0),chosen=pool[pool.length-1];\n  for(let i=0;i<pool.length;i++){roll-=weights[i];if(roll<0){chosen=pool[i];break}}\n  const cm=chosen[4]+Math.floor(Math.random()*(chosen[5]-chosen[4]+1));\n  // The same local shoal roll is shared by simultaneous qualifying anglers.\n  // Native scope/conditions, not script-side text parsing, select the recipients.\n  if(baited)effects.push({type:'item-remove',item:'Angler’s Bait Portion',quantity:1,target:'satisfyingPlayers'});\n  if(chosen[2]===2){\n   storage.fshHook={fish:chosen[0],cm,area,until:tick+6};\n   effects.push({type:'player-traits',operator:'add',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\n   effects.push({type:'story',instruction:'A rare '+chosen[0]+' is hooked, not landed or acquired. Describe its distinctive movement and let the angler choose a response: ease the line and tire it, guide it away from cover, take a risk, or release it. One actual next handling attempt can settle the catch using Fishing. No mandatory wording, extra fight, automatic damaged tackle or inventory fish yet. Waiting for up to six turns is possible; leaving this fishing ground loses the line’s catch.'});\n  }else{\n   effects.push({type:'item-add',item:chosen[0],quantity:1,target:'satisfyingPlayers'});\n   effects.push({type:'story',instruction:'The qualifying angler lands one '+chosen[0]+', about '+cm+' cm, in '+weather+' conditions. The inventory grant is already handled; do not duplicate it, invent another catch or add separate XP/resource rewards. A mixed action result can mean an awkward landing. Keep this a short fishing moment unless the player engages further.'});\n   if(!storage.fshRecords||typeof storage.fshRecords!=='object')storage.fshRecords={};\n   const old=storage.fshRecords[chosen[0]]||{best:0,landings:0};\n   storage.fshRecords[chosen[0]]={best:Math.max(old.best,cm),landings:old.landings+1};\n  }\n  storage.fshCasts[key]=tick;\n }\n}\n"
+      "script": "const fish=[[\"Pinewater Perch\",\"r\",30,\"clear\",12,30,\"g\"],[\"Brookmeadow Roach\",\"r\",32,\"overcast\",8,22,\"g\"],[\"Millpond Crucian\",\"r\",25,\"rain\",12,32,\"g\"],[\"Willowback Trout\",\"r\",20,\"overcast\",18,42,\"g\"],[\"Button-Eyed Minnow\",\"r\",35,\"clear\",4,10,\"g\"],[\"Rainbell Loach\",\"re\",23,\"rain\",8,20,\"g\"],[\"Reedstripe Mullet\",\"eh\",28,\"overcast\",15,38,\"g\"],[\"Brackish Bream\",\"e\",27,\"rain\",16,35,\"g\"],[\"Mud-Sleeve Goby\",\"eh\",33,\"overcast\",5,16,\"g\"],[\"Greenrush Flounder\",\"es\",23,\"fog\",15,37,\"g\"],[\"Harbor Herring\",\"hs\",35,\"overcast\",14,27,\"g\"],[\"Lantern Sardine\",\"hs\",35,\"clear\",8,18,\"g\"],[\"Dockside Smelt\",\"h\",30,\"rain\",7,17,\"g\"],[\"Copper-Gill Mackerel\",\"hsd\",28,\"wind\",22,43,\"g\"],[\"Whitecrest Whiting\",\"hs\",28,\"clear\",18,36,\"g\"],[\"Pebble Sole\",\"s\",24,\"clear\",12,29,\"g\"],[\"Ribbon Garfish\",\"sd\",22,\"wind\",30,65,\"g\"],[\"Crescent Sea Bass\",\"hsd\",19,\"overcast\",25,62,\"g\"],[\"Silver-Tail Pollock\",\"sd\",25,\"overcast\",25,55,\"g\"],[\"Sandburrow Gurnard\",\"s\",22,\"clear\",18,38,\"g\"],[\"Glassvein Char\",\"r\",8,\"clear\",22,48,\"g\"],[\"Bottle-Green Tench\",\"re\",9,\"rain\",25,52,\"g\"],[\"Amberfin Eel\",\"re\",7,\"rain\",35,85,\"g\"],[\"Pearlspot Wrasse\",\"s\",9,\"clear\",15,32,\"g\"],[\"Blueglass Needlefish\",\"sd\",8,\"wind\",35,78,\"g\"],[\"Velvet Skate\",\"sd\",7,\"fog\",35,80,\"g\"],[\"Stormstripe Bonito\",\"d\",8,\"wind\",40,90,\"g\"],[\"Moonmirror Dace\",\"re\",2,\"fog\",18,34,\"g\"],[\"Lanternjaw Angler\",\"d\",2,\"fog\",35,70,\"g\"],[\"Crownfin Sailfish\",\"d\",2,\"wind\",95,180,\"g\"],[\"Common Silverfin\",\"rehsdu\",65,\"overcast\",8,24,\"*\"],[\"Pebblefin Darter\",\"rs\",24,\"clear\",6,16,\"*\"],[\"Rushfin Mudfish\",\"re\",24,\"rain\",12,30,\"*\"],[\"Pale Water Eel\",\"rehs\",9,\"rain\",28,70,\"*\"],[\"Tidemark Runner\",\"ehsd\",22,\"wind\",18,42,\"*\"],[\"Wandering Prismfin\",\"rehsdu\",2,\"fog\",15,32,\"*\"],[\"Glassmere Char\",\"r\",26,\"clear\",20,48,\"d\"],[\"Rimefin Whitefish\",\"r\",30,\"overcast\",18,42,\"d\"],[\"Copperwhisker Sculpin\",\"r\",22,\"rain\",7,20,\"d\"],[\"Snowmelt Grayling\",\"r\",20,\"clear\",20,45,\"d\"],[\"Amberheart Burbot\",\"r\",2,\"fog\",38,80,\"d\"],[\"Cloudscale Carp\",\"r\",28,\"overcast\",20,48,\"a\"],[\"Petalwash Loach\",\"r\",25,\"rain\",8,22,\"a\"],[\"Rainthread Minnow\",\"r\",32,\"rain\",5,13,\"a\"],[\"Violetfin Gourami\",\"r\",14,\"clear\",12,28,\"a\"],[\"Horizon Koi\",\"r\",2,\"fog\",30,65,\"a\"],[\"Sakura Ayu\",\"r\",28,\"clear\",12,27,\"k\"],[\"Goldleaf Carp\",\"r\",26,\"overcast\",22,52,\"k\"],[\"Bamboo Loach\",\"r\",27,\"rain\",9,23,\"k\"],[\"Redleaf Salmon\",\"r\",16,\"rain\",30,68,\"k\"],[\"Moonbell Koi\",\"r\",2,\"fog\",28,62,\"k\"]];\nconst area=String(check({type:'party-area'})||''),location=String(check({type:'party-location'})||'');\nconst realm=String(check({type:'party-realm'})||''),region=String(check({type:'party-region'})||'');\nconst realmCode=({\"Glowhaven\":\"g\",\"Drakenspire Mountains\":\"d\",\"Asterveil Sky Archipelago\":\"a\",\"Akitsuhara\":\"k\"})[realm]||'*';\nfunction waterType(text){\nif(/estuar|brackish|river mouth|tidal marsh/i.test(text))return 'e';\nif(/offshore|deepwater|open sea|open ocean/i.test(text))return 'd';\nif(/river|brook|stream|freshwater|lake|tarn|pond|creek|canal|snowmelt/i.test(text))return 'r';\nif(/harbou?r/i.test(text))return 'h';\nif(/\\bsea\\b|ocean|saltwater|coast|beach|reef|cove/i.test(text))return 's';\nreturn '';\n}\nconst hints={\"Pinewater River - Brookmeadow Ford\":\"r\",\"Pinewater River - River Bend\":\"r\",\"Saltmere - Village Landing\":\"h\",\"Saltmere - Shoreline Green\":\"s\",\"Whitecrest Harbor - Harbor Quay\":\"h\",\"Whitecrest Harbor - Passenger Landing\":\"h\",\"Driftstone Isle - Island Landing\":\"s\",\"Driftstone Isle - Rocky Shore\":\"s\",\"Pinewake Coast - Pineward Beach\":\"s\",\"Pinewake Coast - Tide Pools\":\"s\",\"The Gilded Albatross - Main Deck\":\"d\",\"Moonarch Isle - Pebble Landing\":\"s\",\"Moonarch Isle - Offshore Drop\":\"d\",\"Stillback Isle - Quiet Landing\":\"s\",\"Greenrush Estuary - Skiff Landing\":\"e\",\"Greenrush Estuary - Reedwalk\":\"e\",\"Gullwatch Reefs - Boat Shelf\":\"s\",\"Gullwatch Reefs - Tide Pools\":\"s\"};\nconst habitat=hints[area]||waterType(area+' '+location)||waterType(String(check({type:'action-text'})||''))||waterType(region)||(['d','a','k'].includes(realmCode)?'r':'u');\nconst zone=habitat==='r'||(habitat==='u'&&!/Harbor|Coast|Isles|Shoals|Reach|Bluffs|Marshes/.test(region))?'inland':'coast';\nconst weather=realm==='Glowhaven'?(storage.fshWeather?.[zone]?.kind||(zone==='inland'?'clear':'overcast')):'neutral';\nconst tick=Number(check({type:'game-tick'}))||0;\nconst baited=true,key=baited?'bait':'lure';\nif(!storage.fshCasts||typeof storage.fshCasts!=='object')storage.fshCasts={};\nconst holders=check({type:'player-traits'})||{};\nif(storage.fshHook&&!Object.values(holders).some(t=>Array.isArray(t)&&t.includes('Rare Fish on the Line')))delete storage.fshHook;\nif(tick<=0||storage.fshCasts[key]===tick){skip=true}else{\nif(weather==='storm'&&habitat==='d'){\neffects.push({type:'story',instruction:'Exposed offshore fishing is unsafe in this squall. Keep the line stowed and show the rough water; offer waiting or a genuinely sheltered fishing ground. No bait is spent and no catch is awarded. Do not move the player or summon a monster.'});\nstorage.fshCasts[key]=tick;\n}else{\nconst pool=fish.filter(f=>(f[6]==='*'||f[6]===realmCode)&&f[1].includes(habitat)&&(!storage.fshHook||f[2]>2));\nconst weights=pool.map(f=>f[2]*(f[6]===realmCode?1.5:1)*(f[3]===weather?2.2:1)*(baited&&(f[2]<=9||/Loach|Bream|Tench|Eel|Goby/.test(f[0]))?1.6:1));\nlet roll=Math.random()*weights.reduce((a,b)=>a+b,0),chosen=pool[pool.length-1];\nfor(let i=0;i<pool.length;i++){roll-=weights[i];if(roll<0){chosen=pool[i];break}}\nconst cm=chosen[4]+Math.floor(Math.random()*(chosen[5]-chosen[4]+1));\nif(baited)effects.push({type:'item-remove',item:'Angler’s Bait Portion',quantity:1,target:'satisfyingPlayers'});\nif(chosen[2]===2){\nstorage.fshHook={fish:chosen[0],cm,area,location,realm,until:tick+6};\neffects.push({type:'player-traits',operator:'add',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\neffects.push({type:'story',instruction:'A rare '+chosen[0]+' is hooked, not landed or acquired. Describe its distinctive movement and let the angler choose a response: ease the line and tire it, guide it away from cover, take a risk, or release it. One actual next handling attempt can settle the catch using Fishing. No mandatory wording, extra fight, automatic damaged tackle or inventory fish yet. Waiting for up to six turns is possible; leaving this fishing ground loses the line’s catch.'});\n}else{\neffects.push({type:'item-add',item:chosen[0],quantity:1,target:'satisfyingPlayers'});\neffects.push({type:'story',instruction:'The qualifying angler lands one '+chosen[0]+', about '+cm+' cm, in '+(weather==='neutral'?'the actual local':weather)+' conditions. The inventory grant is already handled; do not duplicate it, invent another catch or add separate XP/resource rewards. A mixed action result can mean an awkward landing. Keep this a short fishing moment unless the player engages further.'});\nif(!storage.fshRecords||typeof storage.fshRecords!=='object')storage.fshRecords={};\nconst old=storage.fshRecords[chosen[0]]||{best:0,landings:0};\nstorage.fshRecords[chosen[0]]={best:Math.max(old.best,cm),landings:old.landings+1};\n}\nstorage.fshCasts[key]=tick;\n}\n}"
     },
     "fsh_bait_miss": {
       "name": "fsh_bait_miss",
@@ -86102,9 +86285,9 @@
       "scope": "player",
       "conditions": [
         {
-          "type": "party-area",
+          "type": "action-text",
           "operator": "regex",
-          "value": "Pinewater|Saltmere|Whitecrest|Driftstone|Pinewake|Albatross|Moonarch|Greenrush|Gullwatch|Stillback"
+          "value": "\\b([Ff]ish\\w*|[Aa]ngling|[Rr]eel\\w*|[Ll]ure|[Bb]ait\\w*|[Bb]obber|[Cc]ast.*[Ll]ine)\\b"
         },
         {
           "type": "player-item",
@@ -86125,7 +86308,7 @@
         },
         {
           "type": "action",
-          "query": "The player makes a real fresh rod-fishing cast into reachable water, with their own Angler’s Rod, rather than talking about fishing, buying gear, attacking, remembering a cast or already handling a rare hooked fish. They actually expend one Angler’s Bait Portion on this cast; a baited rare-fish handling action is not a fresh cast."
+          "query": "There is actual physically reachable water in this scene that plausibly supports fish, or an established stocked fishing pond. Respect the actual fiction: a place name, a picture, a drinking vessel, an empty fountain, a cloud gap, solid unbroken ice, lava, or an uninhabitable pool supplies no fish. Do not invent a water body or its access. This applies in any realm, including newly created ones. The player actually makes a fresh rod-fishing cast here with their own real Angler’s Rod. Exclude discussion, shopping, old catches, attacks, handling an already hooked fish, and attempts to capture a named NPC, pet or companion. They actually expend one Angler’s Bait Portion on this committed cast; an aborted setup or hooked-fish handling action is insufficient."
         }
       ],
       "effects": [
@@ -86140,7 +86323,7 @@
           "instruction": "This genuine baited cast catches nothing; one bait portion was spent. Give a brief practical result without another item deduction, attack or invented injury."
         }
       ],
-      "script": "const sites={\"Pinewater River - Brookmeadow Ford\":\"r\",\"Pinewater River - River Bend\":\"r\",\"Saltmere - Village Landing\":\"h\",\"Saltmere - Shoreline Green\":\"s\",\"Whitecrest Harbor - Harbor Quay\":\"h\",\"Whitecrest Harbor - Passenger Landing\":\"h\",\"Driftstone Isle - Island Landing\":\"s\",\"Driftstone Isle - Rocky Shore\":\"s\",\"Pinewake Coast - Pineward Beach\":\"s\",\"Pinewake Coast - Tide Pools\":\"s\",\"The Gilded Albatross - Main Deck\":\"d\",\"Moonarch Isle - Pebble Landing\":\"s\",\"Moonarch Isle - Offshore Drop\":\"d\",\"Stillback Isle - Quiet Landing\":\"s\",\"Greenrush Estuary - Skiff Landing\":\"e\",\"Greenrush Estuary - Reedwalk\":\"e\",\"Gullwatch Reefs - Boat Shelf\":\"s\",\"Gullwatch Reefs - Tide Pools\":\"s\"};const tick=Number(check({type:'game-tick'}))||0,habitat=sites[String(check({type:'party-area'})||'')];if(!storage.fshCasts)storage.fshCasts={};if(check({type:'party-realm'})!=='Glowhaven'||!habitat||tick<=0||storage.fshCasts.bait===tick)skip=true;else{storage.fshCasts.bait=tick;if(habitat==='d'&&storage.fshWeather?.coast?.kind==='storm'){effects.length=0;effects.push({type:'story',instruction:'The exposed water is too rough for this cast. Keep the bait and show the option to wait safely; grant no catch.'})}}"
+      "script": "const area=String(check({type:'party-area'})||''),location=String(check({type:'party-location'})||'');\nconst realm=String(check({type:'party-realm'})||''),region=String(check({type:'party-region'})||'');\nconst realmCode=({\"Glowhaven\":\"g\",\"Drakenspire Mountains\":\"d\",\"Asterveil Sky Archipelago\":\"a\",\"Akitsuhara\":\"k\"})[realm]||'*';\nfunction waterType(text){\nif(/estuar|brackish|river mouth|tidal marsh/i.test(text))return 'e';\nif(/offshore|deepwater|open sea|open ocean/i.test(text))return 'd';\nif(/river|brook|stream|freshwater|lake|tarn|pond|creek|canal|snowmelt/i.test(text))return 'r';\nif(/harbou?r/i.test(text))return 'h';\nif(/\\bsea\\b|ocean|saltwater|coast|beach|reef|cove/i.test(text))return 's';\nreturn '';\n}\nconst hints={\"Pinewater River - Brookmeadow Ford\":\"r\",\"Pinewater River - River Bend\":\"r\",\"Saltmere - Village Landing\":\"h\",\"Saltmere - Shoreline Green\":\"s\",\"Whitecrest Harbor - Harbor Quay\":\"h\",\"Whitecrest Harbor - Passenger Landing\":\"h\",\"Driftstone Isle - Island Landing\":\"s\",\"Driftstone Isle - Rocky Shore\":\"s\",\"Pinewake Coast - Pineward Beach\":\"s\",\"Pinewake Coast - Tide Pools\":\"s\",\"The Gilded Albatross - Main Deck\":\"d\",\"Moonarch Isle - Pebble Landing\":\"s\",\"Moonarch Isle - Offshore Drop\":\"d\",\"Stillback Isle - Quiet Landing\":\"s\",\"Greenrush Estuary - Skiff Landing\":\"e\",\"Greenrush Estuary - Reedwalk\":\"e\",\"Gullwatch Reefs - Boat Shelf\":\"s\",\"Gullwatch Reefs - Tide Pools\":\"s\"};\nconst habitat=hints[area]||waterType(area+' '+location)||waterType(String(check({type:'action-text'})||''))||waterType(region)||(['d','a','k'].includes(realmCode)?'r':'u');\nconst zone=habitat==='r'||(habitat==='u'&&!/Harbor|Coast|Isles|Shoals|Reach|Bluffs|Marshes/.test(region))?'inland':'coast';\nconst weather=realm==='Glowhaven'?(storage.fshWeather?.[zone]?.kind||(zone==='inland'?'clear':'overcast')):'neutral';\nconst tick=Number(check({type:'game-tick'}))||0;if(!storage.fshCasts)storage.fshCasts={};if(tick<=0||storage.fshCasts.bait===tick)skip=true;else{storage.fshCasts.bait=tick;if(habitat==='d'&&weather==='storm'){effects.length=0;effects.push({type:'story',instruction:'The exposed water is too rough for this cast. Keep the bait and show the option to wait safely; grant no catch.'})}}"
     },
     "fsh_rare_land": {
       "name": "fsh_rare_land",
@@ -86151,11 +86334,6 @@
           "type": "player-traits",
           "operator": "contains",
           "value": "Rare Fish on the Line"
-        },
-        {
-          "type": "party-area",
-          "operator": "regex",
-          "value": "Pinewater|Saltmere|Whitecrest|Driftstone|Pinewake|Albatross|Moonarch|Greenrush|Gullwatch|Stillback"
         },
         {
           "type": "player-item",
@@ -86174,7 +86352,7 @@
         }
       ],
       "effects": [],
-      "script": "const tick=Number(check({type:'game-tick'}))||0,area=String(check({type:'party-area'})||'');\nconst h=storage.fshHook;\nconst valid=check({type:'party-realm'})==='Glowhaven'&&h&&[\"Moonmirror Dace\",\"Lanternjaw Angler\",\"Crownfin Sailfish\"].includes(h.fish)&&Number.isFinite(h.cm)&&h.area===area&&tick<=h.until;\nconst mode=\"land\";\nif(!storage.fshRareActions||typeof storage.fshRareActions!=='object')storage.fshRareActions={};\nif(mode!=='cleanup'&&storage.fshRareActions[mode]===tick){skip=true}else if(mode==='cleanup'){\n if(valid)skip=true;\n else{\n  effects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\n  effects.push({type:'story',instruction:'The unattended fishing line has gone slack; its unlanded catch escaped. Clear that fishing moment quietly without a fine, broken equipment, lost unrelated items or monster encounter.'});\n  delete storage.fshHook;\n }\n}else if(!valid){skip=true}else if(mode==='release'||mode==='miss'){\n effects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\n effects.push({type:'story',instruction:mode==='release'?'The angler deliberately lets the hooked fish go. Give a brief fitting release; no fish enters inventory and no unrelated property is lost.':'The actual handling attempt failed to land the fish; it slips free. Give the concrete local result without an extra attack, invented injury or automatic broken rod. No fish enters inventory.'});\n}else{\n effects.push({type:'item-add',item:h.fish,quantity:1,target:'satisfyingPlayers'});\n effects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\n effects.push({type:'story',instruction:'The angler’s successful handling lands one '+h.fish+', about '+h.cm+' cm. Its inventory grant is already applied. Give the chosen approach a satisfying short payoff; do not add a second fish or another reward. The angler can keep it, make an actual handover, or release the real held specimen through ordinary item handling.'});\n if(!storage.fshRecords||typeof storage.fshRecords!=='object')storage.fshRecords={};\n const old=storage.fshRecords[h.fish]||{best:0,landings:0};\n storage.fshRecords[h.fish]={best:Math.max(old.best,h.cm),landings:old.landings+1};\n}\nif(!skip&&mode!=='cleanup')storage.fshRareActions[mode]=tick;\n// Retain the shared species record for other simultaneous hooked anglers until\n// their traits clear. This sweep runs on the following planning tick.\n"
+      "script": "const tick=Number(check({type:'game-tick'}))||0,area=String(check({type:'party-area'})||'');\nconst h=storage.fshHook;\nconst valid=h&&check({type:'party-realm'})===(h.realm||'Glowhaven')&&(!h.location||check({type:'party-location'})===h.location)&&[\"Moonmirror Dace\",\"Lanternjaw Angler\",\"Crownfin Sailfish\",\"Wandering Prismfin\",\"Amberheart Burbot\",\"Horizon Koi\",\"Moonbell Koi\"].includes(h.fish)&&Number.isFinite(h.cm)&&h.area===area&&tick<=h.until;\nconst mode=\"land\";\nif(!storage.fshRareActions||typeof storage.fshRareActions!=='object')storage.fshRareActions={};\nif(mode!=='cleanup'&&storage.fshRareActions[mode]===tick){skip=true}else if(mode==='cleanup'){\nif(valid)skip=true;\nelse{\neffects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\neffects.push({type:'story',instruction:'The unattended fishing line has gone slack; its unlanded catch escaped. Clear that fishing moment quietly without a fine, broken equipment, lost unrelated items or monster encounter.'});\ndelete storage.fshHook;\n}\n}else if(!valid){skip=true}else if(mode==='release'||mode==='miss'){\neffects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\neffects.push({type:'story',instruction:mode==='release'?'The angler deliberately lets the hooked fish go. Give a brief fitting release; no fish enters inventory and no unrelated property is lost.':'The actual handling attempt failed to land the fish; it slips free. Give the concrete local result without an extra attack, invented injury or automatic broken rod. No fish enters inventory.'});\n}else{\neffects.push({type:'item-add',item:h.fish,quantity:1,target:'satisfyingPlayers'});\neffects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\neffects.push({type:'story',instruction:'The angler’s successful handling lands one '+h.fish+', about '+h.cm+' cm. Its inventory grant is already applied. Give the chosen approach a satisfying short payoff; do not add a second fish or another reward. The angler can keep it, make an actual handover, or release the real held specimen through ordinary item handling.'});\nif(!storage.fshRecords||typeof storage.fshRecords!=='object')storage.fshRecords={};\nconst old=storage.fshRecords[h.fish]||{best:0,landings:0};\nstorage.fshRecords[h.fish]={best:Math.max(old.best,h.cm),landings:old.landings+1};\n}\nif(!skip&&mode!=='cleanup')storage.fshRareActions[mode]=tick;"
     },
     "fsh_rare_miss": {
       "name": "fsh_rare_miss",
@@ -86185,11 +86363,6 @@
           "type": "player-traits",
           "operator": "contains",
           "value": "Rare Fish on the Line"
-        },
-        {
-          "type": "party-area",
-          "operator": "regex",
-          "value": "Pinewater|Saltmere|Whitecrest|Driftstone|Pinewake|Albatross|Moonarch|Greenrush|Gullwatch|Stillback"
         },
         {
           "type": "player-item",
@@ -86208,7 +86381,7 @@
         }
       ],
       "effects": [],
-      "script": "const tick=Number(check({type:'game-tick'}))||0,area=String(check({type:'party-area'})||'');\nconst h=storage.fshHook;\nconst valid=check({type:'party-realm'})==='Glowhaven'&&h&&[\"Moonmirror Dace\",\"Lanternjaw Angler\",\"Crownfin Sailfish\"].includes(h.fish)&&Number.isFinite(h.cm)&&h.area===area&&tick<=h.until;\nconst mode=\"miss\";\nif(!storage.fshRareActions||typeof storage.fshRareActions!=='object')storage.fshRareActions={};\nif(mode!=='cleanup'&&storage.fshRareActions[mode]===tick){skip=true}else if(mode==='cleanup'){\n if(valid)skip=true;\n else{\n  effects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\n  effects.push({type:'story',instruction:'The unattended fishing line has gone slack; its unlanded catch escaped. Clear that fishing moment quietly without a fine, broken equipment, lost unrelated items or monster encounter.'});\n  delete storage.fshHook;\n }\n}else if(!valid){skip=true}else if(mode==='release'||mode==='miss'){\n effects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\n effects.push({type:'story',instruction:mode==='release'?'The angler deliberately lets the hooked fish go. Give a brief fitting release; no fish enters inventory and no unrelated property is lost.':'The actual handling attempt failed to land the fish; it slips free. Give the concrete local result without an extra attack, invented injury or automatic broken rod. No fish enters inventory.'});\n}else{\n effects.push({type:'item-add',item:h.fish,quantity:1,target:'satisfyingPlayers'});\n effects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\n effects.push({type:'story',instruction:'The angler’s successful handling lands one '+h.fish+', about '+h.cm+' cm. Its inventory grant is already applied. Give the chosen approach a satisfying short payoff; do not add a second fish or another reward. The angler can keep it, make an actual handover, or release the real held specimen through ordinary item handling.'});\n if(!storage.fshRecords||typeof storage.fshRecords!=='object')storage.fshRecords={};\n const old=storage.fshRecords[h.fish]||{best:0,landings:0};\n storage.fshRecords[h.fish]={best:Math.max(old.best,h.cm),landings:old.landings+1};\n}\nif(!skip&&mode!=='cleanup')storage.fshRareActions[mode]=tick;\n// Retain the shared species record for other simultaneous hooked anglers until\n// their traits clear. This sweep runs on the following planning tick.\n"
+      "script": "const tick=Number(check({type:'game-tick'}))||0,area=String(check({type:'party-area'})||'');\nconst h=storage.fshHook;\nconst valid=h&&check({type:'party-realm'})===(h.realm||'Glowhaven')&&(!h.location||check({type:'party-location'})===h.location)&&[\"Moonmirror Dace\",\"Lanternjaw Angler\",\"Crownfin Sailfish\",\"Wandering Prismfin\",\"Amberheart Burbot\",\"Horizon Koi\",\"Moonbell Koi\"].includes(h.fish)&&Number.isFinite(h.cm)&&h.area===area&&tick<=h.until;\nconst mode=\"miss\";\nif(!storage.fshRareActions||typeof storage.fshRareActions!=='object')storage.fshRareActions={};\nif(mode!=='cleanup'&&storage.fshRareActions[mode]===tick){skip=true}else if(mode==='cleanup'){\nif(valid)skip=true;\nelse{\neffects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\neffects.push({type:'story',instruction:'The unattended fishing line has gone slack; its unlanded catch escaped. Clear that fishing moment quietly without a fine, broken equipment, lost unrelated items or monster encounter.'});\ndelete storage.fshHook;\n}\n}else if(!valid){skip=true}else if(mode==='release'||mode==='miss'){\neffects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\neffects.push({type:'story',instruction:mode==='release'?'The angler deliberately lets the hooked fish go. Give a brief fitting release; no fish enters inventory and no unrelated property is lost.':'The actual handling attempt failed to land the fish; it slips free. Give the concrete local result without an extra attack, invented injury or automatic broken rod. No fish enters inventory.'});\n}else{\neffects.push({type:'item-add',item:h.fish,quantity:1,target:'satisfyingPlayers'});\neffects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\neffects.push({type:'story',instruction:'The angler’s successful handling lands one '+h.fish+', about '+h.cm+' cm. Its inventory grant is already applied. Give the chosen approach a satisfying short payoff; do not add a second fish or another reward. The angler can keep it, make an actual handover, or release the real held specimen through ordinary item handling.'});\nif(!storage.fshRecords||typeof storage.fshRecords!=='object')storage.fshRecords={};\nconst old=storage.fshRecords[h.fish]||{best:0,landings:0};\nstorage.fshRecords[h.fish]={best:Math.max(old.best,h.cm),landings:old.landings+1};\n}\nif(!skip&&mode!=='cleanup')storage.fshRareActions[mode]=tick;"
     },
     "fsh_rare_release": {
       "name": "fsh_rare_release",
@@ -86221,17 +86394,12 @@
           "value": "Rare Fish on the Line"
         },
         {
-          "type": "party-area",
-          "operator": "regex",
-          "value": "Pinewater|Saltmere|Whitecrest|Driftstone|Pinewake|Albatross|Moonarch|Greenrush|Gullwatch|Stillback"
-        },
-        {
           "type": "action",
           "query": "The player deliberately releases the rare fish currently hooked on their line, cuts that line, or explicitly abandons that live catch. Talking about release or releasing an already landed inventory fish does not qualify."
         }
       ],
       "effects": [],
-      "script": "const tick=Number(check({type:'game-tick'}))||0,area=String(check({type:'party-area'})||'');\nconst h=storage.fshHook;\nconst valid=check({type:'party-realm'})==='Glowhaven'&&h&&[\"Moonmirror Dace\",\"Lanternjaw Angler\",\"Crownfin Sailfish\"].includes(h.fish)&&Number.isFinite(h.cm)&&h.area===area&&tick<=h.until;\nconst mode=\"release\";\nif(!storage.fshRareActions||typeof storage.fshRareActions!=='object')storage.fshRareActions={};\nif(mode!=='cleanup'&&storage.fshRareActions[mode]===tick){skip=true}else if(mode==='cleanup'){\n if(valid)skip=true;\n else{\n  effects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\n  effects.push({type:'story',instruction:'The unattended fishing line has gone slack; its unlanded catch escaped. Clear that fishing moment quietly without a fine, broken equipment, lost unrelated items or monster encounter.'});\n  delete storage.fshHook;\n }\n}else if(!valid){skip=true}else if(mode==='release'||mode==='miss'){\n effects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\n effects.push({type:'story',instruction:mode==='release'?'The angler deliberately lets the hooked fish go. Give a brief fitting release; no fish enters inventory and no unrelated property is lost.':'The actual handling attempt failed to land the fish; it slips free. Give the concrete local result without an extra attack, invented injury or automatic broken rod. No fish enters inventory.'});\n}else{\n effects.push({type:'item-add',item:h.fish,quantity:1,target:'satisfyingPlayers'});\n effects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\n effects.push({type:'story',instruction:'The angler’s successful handling lands one '+h.fish+', about '+h.cm+' cm. Its inventory grant is already applied. Give the chosen approach a satisfying short payoff; do not add a second fish or another reward. The angler can keep it, make an actual handover, or release the real held specimen through ordinary item handling.'});\n if(!storage.fshRecords||typeof storage.fshRecords!=='object')storage.fshRecords={};\n const old=storage.fshRecords[h.fish]||{best:0,landings:0};\n storage.fshRecords[h.fish]={best:Math.max(old.best,h.cm),landings:old.landings+1};\n}\nif(!skip&&mode!=='cleanup')storage.fshRareActions[mode]=tick;\n// Retain the shared species record for other simultaneous hooked anglers until\n// their traits clear. This sweep runs on the following planning tick.\n"
+      "script": "const tick=Number(check({type:'game-tick'}))||0,area=String(check({type:'party-area'})||'');\nconst h=storage.fshHook;\nconst valid=h&&check({type:'party-realm'})===(h.realm||'Glowhaven')&&(!h.location||check({type:'party-location'})===h.location)&&[\"Moonmirror Dace\",\"Lanternjaw Angler\",\"Crownfin Sailfish\",\"Wandering Prismfin\",\"Amberheart Burbot\",\"Horizon Koi\",\"Moonbell Koi\"].includes(h.fish)&&Number.isFinite(h.cm)&&h.area===area&&tick<=h.until;\nconst mode=\"release\";\nif(!storage.fshRareActions||typeof storage.fshRareActions!=='object')storage.fshRareActions={};\nif(mode!=='cleanup'&&storage.fshRareActions[mode]===tick){skip=true}else if(mode==='cleanup'){\nif(valid)skip=true;\nelse{\neffects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\neffects.push({type:'story',instruction:'The unattended fishing line has gone slack; its unlanded catch escaped. Clear that fishing moment quietly without a fine, broken equipment, lost unrelated items or monster encounter.'});\ndelete storage.fshHook;\n}\n}else if(!valid){skip=true}else if(mode==='release'||mode==='miss'){\neffects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\neffects.push({type:'story',instruction:mode==='release'?'The angler deliberately lets the hooked fish go. Give a brief fitting release; no fish enters inventory and no unrelated property is lost.':'The actual handling attempt failed to land the fish; it slips free. Give the concrete local result without an extra attack, invented injury or automatic broken rod. No fish enters inventory.'});\n}else{\neffects.push({type:'item-add',item:h.fish,quantity:1,target:'satisfyingPlayers'});\neffects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\neffects.push({type:'story',instruction:'The angler’s successful handling lands one '+h.fish+', about '+h.cm+' cm. Its inventory grant is already applied. Give the chosen approach a satisfying short payoff; do not add a second fish or another reward. The angler can keep it, make an actual handover, or release the real held specimen through ordinary item handling.'});\nif(!storage.fshRecords||typeof storage.fshRecords!=='object')storage.fshRecords={};\nconst old=storage.fshRecords[h.fish]||{best:0,landings:0};\nstorage.fshRecords[h.fish]={best:Math.max(old.best,h.cm),landings:old.landings+1};\n}\nif(!skip&&mode!=='cleanup')storage.fshRareActions[mode]=tick;"
     },
     "fsh_rare_cleanup": {
       "name": "fsh_rare_cleanup",
@@ -86245,7 +86413,7 @@
         }
       ],
       "effects": [],
-      "script": "const tick=Number(check({type:'game-tick'}))||0,area=String(check({type:'party-area'})||'');\nconst h=storage.fshHook;\nconst valid=check({type:'party-realm'})==='Glowhaven'&&h&&[\"Moonmirror Dace\",\"Lanternjaw Angler\",\"Crownfin Sailfish\"].includes(h.fish)&&Number.isFinite(h.cm)&&h.area===area&&tick<=h.until;\nconst mode=\"cleanup\";\nif(!storage.fshRareActions||typeof storage.fshRareActions!=='object')storage.fshRareActions={};\nif(mode!=='cleanup'&&storage.fshRareActions[mode]===tick){skip=true}else if(mode==='cleanup'){\n if(valid)skip=true;\n else{\n  effects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\n  effects.push({type:'story',instruction:'The unattended fishing line has gone slack; its unlanded catch escaped. Clear that fishing moment quietly without a fine, broken equipment, lost unrelated items or monster encounter.'});\n  delete storage.fshHook;\n }\n}else if(!valid){skip=true}else if(mode==='release'||mode==='miss'){\n effects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\n effects.push({type:'story',instruction:mode==='release'?'The angler deliberately lets the hooked fish go. Give a brief fitting release; no fish enters inventory and no unrelated property is lost.':'The actual handling attempt failed to land the fish; it slips free. Give the concrete local result without an extra attack, invented injury or automatic broken rod. No fish enters inventory.'});\n}else{\n effects.push({type:'item-add',item:h.fish,quantity:1,target:'satisfyingPlayers'});\n effects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\n effects.push({type:'story',instruction:'The angler’s successful handling lands one '+h.fish+', about '+h.cm+' cm. Its inventory grant is already applied. Give the chosen approach a satisfying short payoff; do not add a second fish or another reward. The angler can keep it, make an actual handover, or release the real held specimen through ordinary item handling.'});\n if(!storage.fshRecords||typeof storage.fshRecords!=='object')storage.fshRecords={};\n const old=storage.fshRecords[h.fish]||{best:0,landings:0};\n storage.fshRecords[h.fish]={best:Math.max(old.best,h.cm),landings:old.landings+1};\n}\nif(!skip&&mode!=='cleanup')storage.fshRareActions[mode]=tick;\n// Retain the shared species record for other simultaneous hooked anglers until\n// their traits clear. This sweep runs on the following planning tick.\n",
+      "script": "const tick=Number(check({type:'game-tick'}))||0,area=String(check({type:'party-area'})||'');\nconst h=storage.fshHook;\nconst valid=h&&check({type:'party-realm'})===(h.realm||'Glowhaven')&&(!h.location||check({type:'party-location'})===h.location)&&[\"Moonmirror Dace\",\"Lanternjaw Angler\",\"Crownfin Sailfish\",\"Wandering Prismfin\",\"Amberheart Burbot\",\"Horizon Koi\",\"Moonbell Koi\"].includes(h.fish)&&Number.isFinite(h.cm)&&h.area===area&&tick<=h.until;\nconst mode=\"cleanup\";\nif(!storage.fshRareActions||typeof storage.fshRareActions!=='object')storage.fshRareActions={};\nif(mode!=='cleanup'&&storage.fshRareActions[mode]===tick){skip=true}else if(mode==='cleanup'){\nif(valid)skip=true;\nelse{\neffects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\neffects.push({type:'story',instruction:'The unattended fishing line has gone slack; its unlanded catch escaped. Clear that fishing moment quietly without a fine, broken equipment, lost unrelated items or monster encounter.'});\ndelete storage.fshHook;\n}\n}else if(!valid){skip=true}else if(mode==='release'||mode==='miss'){\neffects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\neffects.push({type:'story',instruction:mode==='release'?'The angler deliberately lets the hooked fish go. Give a brief fitting release; no fish enters inventory and no unrelated property is lost.':'The actual handling attempt failed to land the fish; it slips free. Give the concrete local result without an extra attack, invented injury or automatic broken rod. No fish enters inventory.'});\n}else{\neffects.push({type:'item-add',item:h.fish,quantity:1,target:'satisfyingPlayers'});\neffects.push({type:'player-traits',operator:'remove',value:'Rare Fish on the Line',target:'satisfyingPlayers'});\neffects.push({type:'story',instruction:'The angler’s successful handling lands one '+h.fish+', about '+h.cm+' cm. Its inventory grant is already applied. Give the chosen approach a satisfying short payoff; do not add a second fish or another reward. The angler can keep it, make an actual handover, or release the real held specimen through ordinary item handling.'});\nif(!storage.fshRecords||typeof storage.fshRecords!=='object')storage.fshRecords={};\nconst old=storage.fshRecords[h.fish]||{best:0,landings:0};\nstorage.fshRecords[h.fish]={best:Math.max(old.best,h.cm),landings:old.landings+1};\n}\nif(!skip&&mode!=='cleanup')storage.fshRareActions[mode]=tick;",
       "phase": "planning"
     },
     "fsh_records": {
@@ -100473,7 +100641,6 @@
         },
         "A Fisher’s First Lesson": {
           "name": "A Fisher’s First Lesson",
-          "description": "Makiho has a short lesson to offer anyone willing to bring a rod and pay attention to the water. She wants a beginner to feel the difference between a nibble and a snag.",
           "status": "hidden",
           "detailType": "detailed",
           "conclusive": true,
@@ -100504,11 +100671,11 @@
               "value": 60,
               "target": "allPlayers"
             }
-          ]
+          ],
+          "questStatement": "Makiho has a short lesson to offer anyone willing to bring a rod and pay attention to the water. She wants a beginner to feel the difference between a nibble and a snag."
         },
         "Supper before the Tide Turns": {
           "name": "Supper before the Tide Turns",
-          "description": "Nanae wants a couple of ordinary fresh fish for supper. Something modest and edible would be more useful than another sailor’s story about the one that got away.",
           "status": "hidden",
           "detailType": "detailed",
           "conclusive": true,
@@ -100539,11 +100706,11 @@
               "value": 60,
               "target": "allPlayers"
             }
-          ]
+          ],
+          "questStatement": "Nanae wants a couple of ordinary fresh fish for supper. Something modest and edible would be more useful than another sailor’s story about the one that got away."
         },
         "A Color beneath the Scales": {
           "name": "A Color beneath the Scales",
-          "description": "Yorina wants to compare the natural sheen of an Amberfin Eel or Blueglass Needlefish with her waterproof pigments. A useful specimen matters more than a dramatic hunting story.",
           "status": "hidden",
           "detailType": "detailed",
           "conclusive": true,
@@ -100574,7 +100741,8 @@
               "value": 90,
               "target": "allPlayers"
             }
-          ]
+          ],
+          "questStatement": "Yorina wants to compare the natural sheen of an Amberfin Eel or Blueglass Needlefish with her waterproof pigments. A useful specimen matters more than a dramatic hunting story."
         }
       },
       "questTriggers": {},

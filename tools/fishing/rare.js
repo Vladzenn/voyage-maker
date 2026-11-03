@@ -1,6 +1,6 @@
 const tick=Number(check({type:'game-tick'}))||0,area=String(check({type:'party-area'})||'');
 const h=storage.fshHook;
-const valid=check({type:'party-realm'})==='Glowhaven'&&h&&__RARE__.includes(h.fish)&&Number.isFinite(h.cm)&&h.area===area&&tick<=h.until;
+const valid=h&&check({type:'party-realm'})===(h.realm||'Glowhaven')&&(!h.location||check({type:'party-location'})===h.location)&&__RARE__.includes(h.fish)&&Number.isFinite(h.cm)&&h.area===area&&tick<=h.until;
 const mode=__MODE__;
 if(!storage.fshRareActions||typeof storage.fshRareActions!=='object')storage.fshRareActions={};
 if(mode!=='cleanup'&&storage.fshRareActions[mode]===tick){skip=true}else if(mode==='cleanup'){

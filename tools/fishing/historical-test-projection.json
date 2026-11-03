@@ -3,7 +3,7 @@
   "baseCommit": "6dd409959c71dae444b74e100ab24d2e22e0f220",
   "preStudioSha256": "d65bd7314c774e6b9650fa25bf54fdf792686bb46de26ed1a53d7998a8d915c0",
   "beforeSha256": "4e7bbdc29877110fbd0fc717ecb6ab210115c7d267b0b395637dd9c9d1266803",
-  "afterSha256": "ce73242d52393423aa1e7338808b020bd2e78d3dbafce4d2fa8b36a975ec0d00",
+  "afterSha256": "421637649c8f6b64af00c2552d91c3f52c8a4dd812bce058cc526b69896ee571",
   "rows": [
     {
       "path": [
@@ -42,15 +42,7 @@
         "Fishing Stock and Catches"
       ],
       "kind": "added",
-      "afterSha256": "43dfe2783fe3c1e13cde2b4548a2084bc17795d2196fa0f2f8a67a0929a21502"
-    },
-    {
-      "path": [
-        "worldLore",
-        "Angling around Glowhaven"
-      ],
-      "kind": "added",
-      "afterSha256": "5aea49284237e92cd42a229ad2ff1528fb76f6beefbefc6bb14e2ae902dbb383"
+      "afterSha256": "479d3266f7e37693ae60fe01af7fd4476f09ad10ff527c736adc1b009b6a8e30"
     },
     {
       "path": [
@@ -59,6 +51,14 @@
       ],
       "kind": "added",
       "afterSha256": "43057b2a62d00170050136a5cd1a00adfb1a45322afd70ff74c5291cf90dd0d1"
+    },
+    {
+      "path": [
+        "worldLore",
+        "Angling and Regional Waters"
+      ],
+      "kind": "added",
+      "afterSha256": "cb7733add59ba097fa55cd58582c7e73b63699c424cdf9b030f0b6459b7ba627"
     },
     {
       "path": [
@@ -387,6 +387,174 @@
       ],
       "kind": "added",
       "afterSha256": "71bdaed0c37f2e95f67768ac63a30664217998cc790be68df1726aecf3713f0c"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Common Silverfin"
+      ],
+      "kind": "added",
+      "afterSha256": "9a1296270d56e6c8deade1a6aa8ed0758d9dcad294c9915f2bd314466fd191d2"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Pebblefin Darter"
+      ],
+      "kind": "added",
+      "afterSha256": "aede61837b406a94f80e7bb27d864d234d3125ba764900380f92eacbad863050"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Rushfin Mudfish"
+      ],
+      "kind": "added",
+      "afterSha256": "9580299ba99fcf4aff50cd10c5f2822dd44d98fbf187ea6fa1ba6b6799e977f4"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Pale Water Eel"
+      ],
+      "kind": "added",
+      "afterSha256": "eb1f11c58577445554f7cefb4dbdfcfafbebd66973c96440554c204fb79c4034"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Tidemark Runner"
+      ],
+      "kind": "added",
+      "afterSha256": "25428615b3ebf40c06a633fc2b292eda2c664663166bcd32078f1a96a9697c89"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Wandering Prismfin"
+      ],
+      "kind": "added",
+      "afterSha256": "432c5838c6147e5e4f6a6eed089d6764dc3897a0a346ec4f30b4efc0fc515eb5"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Glassmere Char"
+      ],
+      "kind": "added",
+      "afterSha256": "b33709642ca3b4c56633516261b0b74c2f257b7c807eec2fc431a14cd2bd2c6a"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Rimefin Whitefish"
+      ],
+      "kind": "added",
+      "afterSha256": "2f1c183e327bcb881b5b53094551ee4dce806ed95da1b0c3b8e18e6d834d5f5c"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Copperwhisker Sculpin"
+      ],
+      "kind": "added",
+      "afterSha256": "71d4cc021b732924cf7bf7514fce652bf8d29a02daa1c071af0d03cca9cafbaf"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Snowmelt Grayling"
+      ],
+      "kind": "added",
+      "afterSha256": "63d90fa17ce121c856e1559543391c143780a5dddad9da00bdaccf031ca51d65"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Amberheart Burbot"
+      ],
+      "kind": "added",
+      "afterSha256": "6a0b7a85ba7994d29906123e1de468b12713b482ba802ae05f3afa7957dabeee"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Cloudscale Carp"
+      ],
+      "kind": "added",
+      "afterSha256": "59e7ffd8a8a175ae8756519a2e7d2edc6a33f6d66d269e2b2882154e31ef963e"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Petalwash Loach"
+      ],
+      "kind": "added",
+      "afterSha256": "aef4f37b6c571bb92604b6ff5bf31dc783d969d670b7eb2169452215cc08637a"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Rainthread Minnow"
+      ],
+      "kind": "added",
+      "afterSha256": "e7431bd181133d67530a801640f10cf3976bc8bd17faa88a1d114106e7432127"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Violetfin Gourami"
+      ],
+      "kind": "added",
+      "afterSha256": "f6845064443a79700f70ec05772ac9ba256e659f6eace9128c18a450131d7f8e"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Horizon Koi"
+      ],
+      "kind": "added",
+      "afterSha256": "a433cd1853fc4d7d41846286bc826895679b39cbe4152db7bc6887f1092a9552"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Sakura Ayu"
+      ],
+      "kind": "added",
+      "afterSha256": "b264b4e2cba314f45597c9891c3a766b4755b6ad9d5e5470517a76f7e56adbaa"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Goldleaf Carp"
+      ],
+      "kind": "added",
+      "afterSha256": "5df8dee7fe738821a3483d112221cdcecee6eb88cfc7dbacf1c25eb4feec4846"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Bamboo Loach"
+      ],
+      "kind": "added",
+      "afterSha256": "d6796cc48c0b5ec6f2bd8a9b329396c12f7b816e2e576e739d2b0ad835570eb1"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Redleaf Salmon"
+      ],
+      "kind": "added",
+      "afterSha256": "a62ee4e9ac660e5a08024509a62b746cb999cb4457009ecca21e06aa5cf38e61"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Moonbell Koi"
+      ],
+      "kind": "added",
+      "afterSha256": "edea515dd884475933566b6e40230c84140f69f94cd9179a3d29becaf9f096ae"
     },
     {
       "path": [
@@ -748,7 +916,7 @@
         "fsh_basics"
       ],
       "kind": "added",
-      "afterSha256": "4ef0b150903d90a39d6cd2a0b140c2bb5c6528da72d0d0166de44afacad5b98c"
+      "afterSha256": "8c3283316529c3c21e446bf91f6e5339e86d8dffd21cf3a849bdcb40a2d4a54d"
     },
     {
       "path": [
@@ -756,7 +924,7 @@
         "fsh_cast_lure"
       ],
       "kind": "added",
-      "afterSha256": "e5649062ae4bcfbc754e335d1c0c4f4bf2dc01b7637c7b53bd635d5a4603860a"
+      "afterSha256": "373d1dbf84f780058cf25af4d3f4601d4a4ce21c5cbb879365dddb4be7982113"
     },
     {
       "path": [
@@ -764,7 +932,7 @@
         "fsh_cast_bait"
       ],
       "kind": "added",
-      "afterSha256": "c767100604905f72098f70ee4626b1ea7d571e400077fdd3bcd5e477ac567e2c"
+      "afterSha256": "b222d50f8b200ba19f6ca31d52bd11ba557be046e2107b469faf1ed7113271dc"
     },
     {
       "path": [
@@ -772,7 +940,7 @@
         "fsh_bait_miss"
       ],
       "kind": "added",
-      "afterSha256": "1e97ee3c9efc0441edcffed45495684164ed26e7df070d0278036fd25cda9435"
+      "afterSha256": "ed80cb1cb90a5755da3bfd02866e509615c98bed32034fcd4280504bae1cc873"
     },
     {
       "path": [
@@ -780,7 +948,7 @@
         "fsh_rare_land"
       ],
       "kind": "added",
-      "afterSha256": "a6889834474b29825f212daa1d8c629a9e9ad31c6737045e2d5d5e15f20314f9"
+      "afterSha256": "31a2ae9a7ee82b19ed95ca244c3bda90093518ffbbb64d53309640df44ed9bc7"
     },
     {
       "path": [
@@ -788,7 +956,7 @@
         "fsh_rare_miss"
       ],
       "kind": "added",
-      "afterSha256": "d8328fee83d4c172eeff6a6d889b38c7e7a7234267cf6320d13d85ff9ea926ce"
+      "afterSha256": "8b8ca62b9ca392896d5f35389c106b8252b532aaa9bd3b5aa787ae7bff730b14"
     },
     {
       "path": [
@@ -796,7 +964,7 @@
         "fsh_rare_release"
       ],
       "kind": "added",
-      "afterSha256": "cf92e5f41b7041f034dc7188767222ba5d4b42fa9c283edd53e426516ca4e961"
+      "afterSha256": "046984bb6003cc483066ac72e9f1b126ba3f42166666b9390b280fbcf434945b"
     },
     {
       "path": [
@@ -804,7 +972,7 @@
         "fsh_rare_cleanup"
       ],
       "kind": "added",
-      "afterSha256": "92cba7d45cb06ecb9355f3b2b4efa3aca743263b246ee08c4ceb4d8a654a3022"
+      "afterSha256": "f85ee6cf096ec51349e32a55ad038c87a73195459ae58397746a2592e99a7a0a"
     },
     {
       "path": [
@@ -2283,7 +2451,7 @@
         "A Fisher’s First Lesson"
       ],
       "kind": "added",
-      "afterSha256": "3828b09a6ed186f491f493167d8649679304b7f94e8c266e0ecbf5cb165b1a51"
+      "afterSha256": "d745598da48b84f73a3c51f08fe710577ae52cc317af577cf5622d02f15582b0"
     },
     {
       "path": [
@@ -2293,7 +2461,7 @@
         "Supper before the Tide Turns"
       ],
       "kind": "added",
-      "afterSha256": "25feb497a0ff9474cffa2e6bf0f8440a5da32b3cf6433053dada152f4e0a253f"
+      "afterSha256": "9e02d006d3e929d2690bb240f138cede77ddad0807c5af34ce3a9ce328439cc1"
     },
     {
       "path": [
@@ -2303,7 +2471,7 @@
         "A Color beneath the Scales"
       ],
       "kind": "added",
-      "afterSha256": "080e972ec5ce605c8bd3e70899c8ec4fc62ec9644d67d15c29d39f984d8447a7"
+      "afterSha256": "4eb480e4fca83791281cdb4c413b2e0f59ae36bdb39f8007d794607bfa706052"
     }
   ]
 }

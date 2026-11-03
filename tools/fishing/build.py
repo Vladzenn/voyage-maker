@@ -99,7 +99,7 @@ def apply(w):
       ('A Color beneath the Scales','Yorina Tsugawa','Thistlebank Alchemy Cottage',30,90,'Yorina wants to compare the natural sheen of an Amberfin Eel or Blueglass Needlefish with her waterproof pigments. A useful specimen matters more than a dramatic hunting story.','Provide an actual Amberfin Eel or Blueglass Needlefish for Yorina’s agreed pigment study.','Yorina actually receives a real agreed Amberfin Eel or Blueglass Needlefish specimen for the pigment study. Honest purchase, fishing or an agreed suitable specimen portion qualifies. A promise, an invented sample or an unsurrendered fish does not.'),
     ]
     for i,(name,client,place,fee,xp,desc,obj,query) in enumerate(questdata):
-        w['parties']['']['quests'][name]={'name':name,'description':desc,'status':'hidden','detailType':'detailed','conclusive':True,'questSource':client,'questLocation':place,'objectives':{'task':{'id':'task','text':obj,'status':'active'}},'questDesignBrief':'A small optional local commission. Keep the client’s ordinary personality and other work present. Explain the actual request and posted payment before agreement. No compulsory fight, portal permission or surprise boss. Real handovers use actual inventory once; native completion owns the stated reward.','completionCondition':{'type':'story','query':query},'onCompleteEffects':[{'type':'item-add','item':'Mark','quantity':fee,'target':'allPlayers'},{'type':'player-experience','operator':'add','value':xp,'target':'allPlayers'}]}
+        w['parties']['']['quests'][name]={'name':name,'questStatement':desc,'status':'hidden','detailType':'detailed','conclusive':True,'questSource':client,'questLocation':place,'objectives':{'task':{'id':'task','text':obj,'status':'active'}},'questDesignBrief':'A small optional local commission. Keep the client’s ordinary personality and other work present. Explain the actual request and posted payment before agreement. No compulsory fight, portal permission or surprise boss. Real handovers use actual inventory once; native completion owns the stated reward.','completionCondition':{'type':'story','query':query},'onCompleteEffects':[{'type':'item-add','item':'Mark','quantity':fee,'target':'allPlayers'},{'type':'player-experience','operator':'add','value':xp,'target':'allPlayers'}]}
         tid='fsh_offer_'+str(i+1)
         t[tid]=trigger(tid,[realm,dict(type='party-location',operator='equals',value=place),dict(type='quest-status',questId=name,operator='equals',value='hidden'),dict(type='action',query=f'The player asks {client}, who is actually present, about {name} or asks that person for a fishing lesson, fish-supply request or suitable local work. A greeting, arrival or someone else’s completed contract is insufficient.')],script="const tick=Number(check({type:'game-tick'}))||0;if(storage.ghxOfferTick===tick){skip=true}else{storage.ghxOfferTick=tick}",effects=[dict(type='quest-init',operator='set',value=name),dict(type='story',instruction=f'Offer {name} through {client}. State the actual request and {fee}-mark reward. Wait for acceptance or refusal; the offer itself gives no payment, fish or completed lesson.')],scope='party')
         quests.append(name)
@@ -131,7 +131,10 @@ def apply(w):
     d=w['traits']['Portrait Frame — Hip-up'];d['description']=d['traitNarrativeEffects']='A vertical portrait from the complete head through both hips to the top of the thighs. Show the full waist, belt and lower outfit; the crop ends below the hips, not at the waist.'
     w['traitCategories']['Portrait Framing']['description']='Optional — skip for a hip-up portrait showing the full waist, both hips and the top of the thighs. Choose Waist-up for a tighter crop. Explicit alternatives take priority.'
     w['traitCategories']['Portrait Style']['description']='Optional — skip for a detailed 2D fantasy-anime character illustration with expressive drawn features and clean facial shading. Alternative styles change the picture, not your abilities.'
-    return {'species':[r[0] for r in FISH],'gear':[r[0] for r in GEAR],'sites':SITES,'quests':quests,'repairedLocalOffers':offers,'sharedRolls':'One local shoal/specimen roll per cast mode and turn; native player conditions select only actual qualifying anglers. Shared records count landing events, not individual fish totals.'}
+    from universal import apply as universal_fishing
+    meta={'species':[r[0] for r in FISH],'gear':[r[0] for r in GEAR],'sites':SITES,'quests':quests,'repairedLocalOffers':offers,'sharedRolls':'One local shoal/specimen roll per cast mode and turn; native player conditions select only actual qualifying anglers. Shared records count landing events, not individual fish totals.'}
+    meta.update(universal_fishing(w))
+    return meta
 
 def main():
     before=json.loads(WORLD.read_text(encoding='utf-8-sig'))
@@ -159,6 +162,6 @@ def main():
                 if isinstance(c.get('value'),str):assert len(c['value'].encode('utf-16-le'))//2<=100,(name,c)
     write(WORLD,after);write(HERE/'manifest.json',meta)
     write(OUT/'The Schools of Magic, Arise! - Fishing.json',after)
-    print(json.dumps({'fish':len(FISH),'gear':len(GEAR),'sites':len(SITES),'quests':len(meta['quests']),'changedLeaves':len(changes),'portraitPromptUnits':len(after['imagePromptConfiguration']['npcs'].encode('utf-16-le'))//2}))
+    print(json.dumps({'fish':len(meta['species']),'gear':len(GEAR),'catchHints':len(SITES),'quests':len(meta['quests']),'changedLeaves':len(changes),'portraitPromptUnits':len(after['imagePromptConfiguration']['npcs'].encode('utf-16-le'))//2}))
 
 if __name__=='__main__':main()

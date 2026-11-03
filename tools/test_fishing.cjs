@@ -61,7 +61,8 @@ function fixture(o={}){
 }
 function allow(f,...ids){for(const p of Object.values(f.s.players))for(const id of ids)p.semantic.add(id);return f}
 function catches(f,n='Alice'){return m.species.reduce((sum,k)=>sum+(f.s.players[n].items[k]||0),0)}
-ck(m.species.length===30&&m.gear.length===11&&Object.keys(m.sites).length===18,'Reviewed catalogue size');
+ck(m.species.length===51&&m.regionalFishAdded.length===21&&m.gear.length===11&&Object.keys(m.sites).length===18,'Reviewed catalogue size');
+ck(m.universalWater&&m.sitesAreCatchHintsOnly,'Catch hints are not access permissions');
 for(const [k,t]of Object.entries(w.triggerDefinitions).filter(([k])=>k.startsWith('fsh_')||m.repairedLocalOffers.includes(k))){
  ck(t.conditions.length<=5,'Condition cap '+k);ck(!t.script||!(/check\(\{\s*type\s*:\s*['"](?:action|story)['"]\s*,\s*query/.test(t.script)),'No fake script semantic evaluation '+k);
  ck(!(t.phase==='planning'&&t.conditions.some(c=>['story','action'].includes(c.type))),'Native phase convention '+k);
@@ -78,8 +79,12 @@ f=allow(fixture(),'fsh_cast_lure');f.run('fsh_cast_lure');ck(catches(f)===1&&f.s
 f=allow(fixture(),'fsh_cast_bait');f.run('fsh_cast_bait');ck(catches(f)===1&&f.s.players.Alice.items['Angler’s Bait Portion']===2,'Successful baited cast consumes exactly one');
 f=allow(fixture({players:{Alice:player({outcome:'failure'})}}),'fsh_bait_miss');f.run('fsh_bait_miss');ck(catches(f)===0&&f.s.players.Alice.items['Angler’s Bait Portion']===2,'Failed real baited cast spends bait, no consolation fish');f.run('fsh_bait_miss');ck(f.s.players.Alice.items['Angler’s Bait Portion']===2,'No retry bait double-charge');
 f=fixture();f.run('fsh_cast_lure');ck(catches(f)===0,'Discussing fishing does not qualify');
-f=allow(fixture({area:'Phoenix Wing Academy - Lecture Hall'}),'fsh_cast_lure','fsh_basics');f.s.players.Alice.skills={};f.run('fsh_cast_lure');f.run('fsh_basics');ck(catches(f)===0&&!f.s.players.Alice.skills.Fishing,'No catch or lesson from an indoor claim');
-f=allow(fixture({realm:'Asterveil'}),'fsh_cast_lure');f.run('fsh_cast_lure');ck(catches(f)===0,'Glowhaven system stays local');
+// Semantic false is supplied here: these fixtures do not prove NLP recognition.
+f=fixture({location:'Phoenix Wing Academy',area:'Phoenix Wing Academy - Lecture Hall'});f.s.players.Alice.skills={};f.run('fsh_cast_lure');f.run('fsh_basics');ck(catches(f)===0&&!f.s.players.Alice.skills.Fishing,'Rejected no-water scene grants nothing');
+f=allow(fixture({location:'Unregistered Farm',area:'Unregistered Farm - Stocked Pond',region:'New Meadow'}),'fsh_cast_lure');f.run('fsh_cast_lure');ck(catches(f)===1,'Actual unregistered pond supports a cast');
+for(const text of ['I cast Firebolt at the opponent.','I hook the opponent’s shield.','I change my casting angle.']){
+ f=allow(fixture({text}),'fsh_cast_lure','fsh_basics');f.run('fsh_cast_lure');f.run('fsh_basics');ck(catches(f)===0,'Ordinary combat words do not reach fishing semantic checks: '+text);
+}
 f=allow(fixture({players:{Alice:player({skills:{}})}}),'fsh_basics');f.run('fsh_basics');f.run('fsh_basics');ck(f.s.players.Alice.skills.Fishing===1,'First real practice teaches basics once');
 f=fixture({players:{Alice:player({items:{}}),Bob:player()}});f.s.players.Alice.semantic.add('fsh_cast_lure');f.run('fsh_cast_lure');ck(catches(f,'Alice')===0&&catches(f,'Bob')===0,'Cannot borrow a spectator’s gear or grant them a catch');
 f=fixture({players:{Alice:player(),Bob:player()}});f.s.players.Alice.semantic.add('fsh_cast_bait');f.run('fsh_cast_bait');ck(catches(f,'Alice')===1&&catches(f,'Bob')===0&&f.s.players.Bob.items['Angler’s Bait Portion']===3,'One angler never consumes spectator bait');
@@ -88,7 +93,7 @@ function hooked(){const a=allow(fixture({rng:()=>0.99999}),'fsh_cast_lure');a.ru
 f=hooked();ck(catches(f)===0&&f.s.players.Alice.traits.includes('Rare Fish on the Line'),'Rare hook is not an inventory grant');const chosen=f.s.storage.fshHook.fish;f.s.tick++;allow(f,'fsh_rare_land');f.run('fsh_rare_land');ck(f.s.players.Alice.items[chosen]===1&&!f.s.players.Alice.traits.includes('Rare Fish on the Line'),'Actual handling lands the exact saved species');f.run('fsh_rare_land');ck(catches(f)===1,'Landing cannot repeat');f.run('fsh_weather');ck(!f.s.storage.fshHook,'Finished hook state swept when no holders remain');
 f=hooked();f.s.tick++;allow(f,'fsh_rare_release');f.run('fsh_rare_release');ck(catches(f)===0&&!f.s.players.Alice.traits.length,'Voluntary release gives no fish');
 f=hooked();f.s.tick++;f.s.players.Alice.outcome='mixed results';allow(f,'fsh_rare_miss');f.run('fsh_rare_miss');ck(catches(f)===0&&!f.s.players.Alice.traits.length,'Unsuccessful rare handling has a terminating outcome');
-for(const change of [{area:'Whitecrest Harbor - Harbor Office'},{realm:'Drakenspire',area:'Drakenspire - Portal Room'},{tick:8}]){
+for(const change of [{area:'Whitecrest Harbor - Harbor Office'},{realm:'Drakenspire Mountains',area:'Drakenspire - Portal Room'},{tick:8},{location:'Other Place'},{realm:'Unknown Future Realm'}]){
  f=hooked();Object.assign(f.s,change);f.run('fsh_rare_cleanup');ck(catches(f)===0&&!f.s.players.Alice.traits.length&&!f.s.storage.fshHook,'Leaving/expiry terminates unlanded catch '+JSON.stringify(change));
 }
 f=hooked();f.s.storage.fshHook.fish='Nonexistent Fish';f.run('fsh_rare_cleanup');ck(!f.s.players.Alice.traits.length,'Corrupt hook fails closed');
@@ -100,7 +105,29 @@ f=fixture({text:'I check my fishing records.',storage:{fshRecords:{'Pinewater Pe
 for(const [area,habitat]of Object.entries(m.sites))for(const weather of ['clear','overcast','rain','fog','wind'])for(const roll of [0,.25,.7,.999]){
  f=allow(fixture({area,rng:()=>roll,storage:{fshWeather:{inland:{kind:weather},coast:{kind:weather}}}}),'fsh_cast_lure');f.run('fsh_cast_lure');ck(catches(f)===1||!!f.s.storage.fshHook,'Every supported table yields a fish or rare hook '+area+'/'+weather+'/'+roll);
 }
-for(const title of m.quests){const q=w.parties[''].quests[title];ck(q.status==='hidden'&&q.completionCondition.type==='story','Optional native fishing quest '+title);ck(q.onCompleteEffects.filter(e=>e.type==='item-add'&&e.item==='Mark').length===1,'One reward owner '+title);ck(!Array.isArray(q.objectives)&&Object.values(q.objectives).every(o=>typeof o.id==='string'&&typeof o.text==='string'&&['hidden','active','completed'].includes(o.status)),'Native keyed objective records '+title)}
+// Foreign tables use actual realm IDs. No registry, native-location edit or new
+// trigger is required for new fish-bearing waters. The AI eligibility is mocked.
+for(const [realm,regional]of Object.entries(m.regionalSpecies))for(const roll of [0,.25,.7,.99999]){
+ ck(!!w.realms[realm],'Regional pool uses a canonical realm ID');
+ f=allow(fixture({realm,location:'Unregistered Lake',area:'Unregistered Lake - Reachable Shore',region:'Unregistered Region',rng:()=>roll,storage:{fshWeather:{inland:{kind:'storm'},coast:{kind:'storm'}}}}),'fsh_cast_lure');f.run('fsh_cast_lure');
+ const result=f.s.storage.fshHook?.fish||m.species.find(n=>f.s.players.Alice.items[n]);
+ ck(regional.includes(result)||m.sharedSpecies.includes(result),'Correct regional/shared species '+realm+'/'+roll);
+ ck(catches(f)===1||!!f.s.storage.fshHook,'Foreign water uses local climate, not a Glowhaven storm');
+}
+for(const realm of ['A Future Realm','The Veiled Beyond'])for(const [area,text]of [['Unnamed Shore','I fish the freshwater pond.'],['Unnamed Shore','I cast my line into open sea.'],['Quiet Pool','I fish here.']]){
+ f=allow(fixture({realm,location:'New Place',area,region:'New Region',text,rng:()=>.99999}),'fsh_cast_lure');f.run('fsh_cast_lure');
+ ck(m.sharedSpecies.includes(f.s.storage.fshHook?.fish||m.species.find(n=>f.s.players.Alice.items[n])),'Unknown realm has a finite shared fallback without registration');
+}
+// A rare catch must remain in its original realm, location and area.
+f=allow(fixture({realm:'Akitsuhara',location:'Blue Mirror Tarn',area:'Blue Mirror Tarn - Shingle Shore',rng:()=>.99999}),'fsh_cast_lure');f.run('fsh_cast_lure');
+ck(f.s.storage.fshHook?.fish==='Moonbell Koi','Regional rare fish is recorded before landing');f.s.tick++;allow(f,'fsh_rare_land');f.run('fsh_rare_land');ck(f.s.players.Alice.items['Moonbell Koi']===1,'Regional rare catch lands normally');
+f.s.tick++;f.run('fsh_cast_lure');ck(f.s.storage.fshHook?.fish==='Moonbell Koi','Completed foreign hook sweeps before the next cast');
+f=hooked();delete f.s.storage.fshHook.realm;delete f.s.storage.fshHook.location;f.s.tick++;allow(f,'fsh_rare_land');f.run('fsh_rare_land');ck(catches(f)===1,'Legacy Glowhaven hook remains landable');
+for(const id of ['fsh_basics','fsh_cast_lure','fsh_cast_bait','fsh_bait_miss']){
+ const tr=w.triggerDefinitions[id];ck(!tr.conditions.some(c=>['party-area','party-realm'].includes(c.type)),'No water/realm whitelist '+id);
+ ck(tr.conditions.some(c=>c.type==='action'&&c.query.includes('actual physically reachable water')),'Native semantic water gate '+id);
+}
+for(const title of m.quests){const q=w.parties[''].quests[title];ck(q.status==='hidden'&&q.completionCondition.type==='story','Optional native fishing quest '+title);ck(typeof q.questStatement==='string'&&!('description'in q),'Supported quest statement '+title);ck(q.onCompleteEffects.filter(e=>e.type==='item-add'&&e.item==='Mark').length===1,'One reward owner '+title);ck(!Array.isArray(q.objectives)&&Object.values(q.objectives).every(o=>typeof o.id==='string'&&typeof o.text==='string'&&['hidden','active','completed'].includes(o.status)),'Native keyed objective records '+title)}
 // Review proof: unrelated whole sections, including NPCs, map pins/art and realms, stay exact.
 for(const [k,h]of Object.entries(m.unchangedTopLevel)){const actual=crypto.createHash('sha256').update(JSON.stringify(w[k])).digest('hex');ck(actual===h,'Unchanged section '+k)}
 ck(w.imagePromptConfiguration.npcs.includes('top of the thighs')===false&&w.imagePromptConfiguration.npcs.includes('upper thighs'),'Hip-up runtime wording reaches below waist');
@@ -109,4 +136,4 @@ const prior=require('./fishing/historical_view.cjs')(w);
 ck(!prior.skills.Fishing&&prior.npcs.Nerathyl.level===45,'Historical view removes this patch only');
 const mutated=structuredClone(w);mutated.npcs.Nerathyl.level=1;
 assert.throws(()=>require('./fishing/historical_view.cjs')(mutated),/exact reviewed Fishing patch/);checks++;
-console.log(JSON.stringify({status:'passed',checks,species:30,grounds:18,nativeQuests:3,semanticRecognitionTested:false,livePlaytest:false}));
+console.log(JSON.stringify({status:'passed',checks,species:m.species.length,knownCatchHints:Object.keys(m.sites).length,universalWater:true,nativeQuests:3,semanticRecognitionTested:false,livePlaytest:false}));

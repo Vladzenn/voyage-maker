@@ -1,0 +1,366 @@
+{
+  "baseCommit": "a1315e6",
+  "status": "reviewed",
+  "changedLeaves": 45,
+  "changes": [
+    {
+      "path": [
+        "aiInstructions",
+        "ItemGenerationAndUsage",
+        "Fishing Stock and Catches"
+      ],
+      "kind": "changed"
+    },
+    {
+      "path": [
+        "worldLore",
+        "Angling around Glowhaven"
+      ],
+      "kind": "removed"
+    },
+    {
+      "path": [
+        "worldLore",
+        "Angling and Regional Waters"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Common Silverfin"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Pebblefin Darter"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Rushfin Mudfish"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Pale Water Eel"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Tidemark Runner"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Wandering Prismfin"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Glassmere Char"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Rimefin Whitefish"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Copperwhisker Sculpin"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Snowmelt Grayling"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Amberheart Burbot"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Cloudscale Carp"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Petalwash Loach"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Rainthread Minnow"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Violetfin Gourami"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Horizon Koi"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Sakura Ayu"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Goldleaf Carp"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Bamboo Loach"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Redleaf Salmon"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Moonbell Koi"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "fsh_basics",
+        "conditions"
+      ],
+      "kind": "changed"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "fsh_basics",
+        "script"
+      ],
+      "kind": "removed"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "fsh_cast_lure",
+        "conditions"
+      ],
+      "kind": "changed"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "fsh_cast_lure",
+        "script"
+      ],
+      "kind": "changed"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "fsh_cast_bait",
+        "conditions"
+      ],
+      "kind": "changed"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "fsh_cast_bait",
+        "script"
+      ],
+      "kind": "changed"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "fsh_bait_miss",
+        "conditions"
+      ],
+      "kind": "changed"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "fsh_bait_miss",
+        "script"
+      ],
+      "kind": "changed"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "fsh_rare_land",
+        "conditions"
+      ],
+      "kind": "changed"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "fsh_rare_land",
+        "script"
+      ],
+      "kind": "changed"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "fsh_rare_miss",
+        "conditions"
+      ],
+      "kind": "changed"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "fsh_rare_miss",
+        "script"
+      ],
+      "kind": "changed"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "fsh_rare_release",
+        "conditions"
+      ],
+      "kind": "changed"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "fsh_rare_release",
+        "script"
+      ],
+      "kind": "changed"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "fsh_rare_cleanup",
+        "script"
+      ],
+      "kind": "changed"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "A Fisher’s First Lesson",
+        "description"
+      ],
+      "kind": "removed"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "A Fisher’s First Lesson",
+        "questStatement"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Supper before the Tide Turns",
+        "description"
+      ],
+      "kind": "removed"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Supper before the Tide Turns",
+        "questStatement"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "A Color beneath the Scales",
+        "description"
+      ],
+      "kind": "removed"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "A Color beneath the Scales",
+        "questStatement"
+      ],
+      "kind": "added"
+    }
+  ],
+  "preserved": [
+    "NPCs and portraits",
+    "all locations/areas and maps",
+    "Spider Realm data and triggers",
+    "weather controller",
+    "old species and tackle",
+    "all non-fishing quests and rewards",
+    "music, progression and character creation"
+  ],
+  "livePlaytest": false
+}

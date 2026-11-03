@@ -29,7 +29,28 @@
     "Stormstripe Bonito",
     "Moonmirror Dace",
     "Lanternjaw Angler",
-    "Crownfin Sailfish"
+    "Crownfin Sailfish",
+    "Common Silverfin",
+    "Pebblefin Darter",
+    "Rushfin Mudfish",
+    "Pale Water Eel",
+    "Tidemark Runner",
+    "Wandering Prismfin",
+    "Glassmere Char",
+    "Rimefin Whitefish",
+    "Copperwhisker Sculpin",
+    "Snowmelt Grayling",
+    "Amberheart Burbot",
+    "Cloudscale Carp",
+    "Petalwash Loach",
+    "Rainthread Minnow",
+    "Violetfin Gourami",
+    "Horizon Koi",
+    "Sakura Ayu",
+    "Goldleaf Carp",
+    "Bamboo Loach",
+    "Redleaf Salmon",
+    "Moonbell Koi"
   ],
   "gear": [
     "Angler’s Rod",
@@ -82,7 +103,7 @@
   "sharedRolls": "One local shoal/specimen roll per cast mode and turn; native player conditions select only actual qualifying anglers. Shared records count landing events, not individual fish totals.",
   "baseCommit": "6dd409959c71dae444b74e100ab24d2e22e0f220",
   "beforeSha256": "eee869610596cb11ae84ee0c7c6d46c89141a9919ceb8c5aa40e47c476f2b665",
-  "afterSha256": "ca3d406205207321b0bc807f2d68d0148b9919e31c36b8ee98697db9b6cad5fc",
+  "afterSha256": "0d072eb73e3f3458ae7de120dda580dbf1437066cf078d2ae697d028a66602a6",
   "changes": [
     {
       "path": [
@@ -119,14 +140,14 @@
     {
       "path": [
         "worldLore",
-        "Angling around Glowhaven"
+        "Glowhaven Weather and Water"
       ],
       "kind": "added"
     },
     {
       "path": [
         "worldLore",
-        "Glowhaven Weather and Water"
+        "Angling and Regional Waters"
       ],
       "kind": "added"
     },
@@ -414,6 +435,153 @@
       "path": [
         "itemTypes",
         "Smoke-Salt Packet"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Common Silverfin"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Pebblefin Darter"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Rushfin Mudfish"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Pale Water Eel"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Tidemark Runner"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Wandering Prismfin"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Glassmere Char"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Rimefin Whitefish"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Copperwhisker Sculpin"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Snowmelt Grayling"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Amberheart Burbot"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Cloudscale Carp"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Petalwash Loach"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Rainthread Minnow"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Violetfin Gourami"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Horizon Koi"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Sakura Ayu"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Goldleaf Carp"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Bamboo Loach"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Redleaf Salmon"
+      ],
+      "kind": "added"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Moonbell Koi"
       ],
       "kind": "added"
     },
@@ -881,5 +1049,67 @@
     "fsh_offer_2",
     "fsh_offer_3"
   ],
-  "source": "Latest Studio export 366606e8-3528-434f-80b6-fef091104a73, reconstructed exactly from pre-task commit plus the separately recorded three music edits. No older candidate snapshot."
+  "source": "Latest Studio export 366606e8-3528-434f-80b6-fef091104a73, reconstructed exactly from pre-task commit plus the separately recorded three music edits. No older candidate snapshot.",
+  "regionalFishAdded": [
+    "Common Silverfin",
+    "Pebblefin Darter",
+    "Rushfin Mudfish",
+    "Pale Water Eel",
+    "Tidemark Runner",
+    "Wandering Prismfin",
+    "Glassmere Char",
+    "Rimefin Whitefish",
+    "Copperwhisker Sculpin",
+    "Snowmelt Grayling",
+    "Amberheart Burbot",
+    "Cloudscale Carp",
+    "Petalwash Loach",
+    "Rainthread Minnow",
+    "Violetfin Gourami",
+    "Horizon Koi",
+    "Sakura Ayu",
+    "Goldleaf Carp",
+    "Bamboo Loach",
+    "Redleaf Salmon",
+    "Moonbell Koi"
+  ],
+  "realmCodes": {
+    "Glowhaven": "g",
+    "Drakenspire Mountains": "d",
+    "Asterveil Sky Archipelago": "a",
+    "Akitsuhara": "k"
+  },
+  "universalWater": true,
+  "sitesAreCatchHintsOnly": true,
+  "regionalSpecies": {
+    "Drakenspire Mountains": [
+      "Glassmere Char",
+      "Rimefin Whitefish",
+      "Copperwhisker Sculpin",
+      "Snowmelt Grayling",
+      "Amberheart Burbot"
+    ],
+    "Asterveil Sky Archipelago": [
+      "Cloudscale Carp",
+      "Petalwash Loach",
+      "Rainthread Minnow",
+      "Violetfin Gourami",
+      "Horizon Koi"
+    ],
+    "Akitsuhara": [
+      "Sakura Ayu",
+      "Goldleaf Carp",
+      "Bamboo Loach",
+      "Redleaf Salmon",
+      "Moonbell Koi"
+    ]
+  },
+  "sharedSpecies": [
+    "Common Silverfin",
+    "Pebblefin Darter",
+    "Rushfin Mudfish",
+    "Pale Water Eel",
+    "Tidemark Runner",
+    "Wandering Prismfin"
+  ]
 }

@@ -24,6 +24,18 @@ class StudioValidationRegression(unittest.TestCase):
     def test_fixed_world_passes(self):
         self.validate()
 
+    def test_quest_statement_uses_supported_field(self):
+        for name in ['A Fisher’s First Lesson', 'Supper before the Tide Turns',
+                     'A Color beneath the Scales']:
+            with self.subTest(quest=name):
+                q = self.world['parties']['']['quests'][name]
+                self.assertIsInstance(q['questStatement'], str)
+                q['description'] = q.pop('questStatement')
+                with self.assertRaisesRegex(ValueError, 'Quest statement field: ' + name):
+                    self.validate()
+                q['questStatement'] = q.pop('description')
+        self.validate()
+
     def test_quest_objectives_use_native_map(self):
         names = ['A Fisher’s First Lesson', 'Supper before the Tide Turns',
                  'A Color beneath the Scales']

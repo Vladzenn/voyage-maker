@@ -8087,7 +8087,6 @@
   },
   "A Fisher’s First Lesson": {
     "name": "A Fisher’s First Lesson",
-    "description": "Makiho has a short lesson to offer anyone willing to bring a rod and pay attention to the water. She wants a beginner to feel the difference between a nibble and a snag.",
     "status": "hidden",
     "detailType": "detailed",
     "conclusive": true,
@@ -8118,11 +8117,11 @@
         "value": 60,
         "target": "allPlayers"
       }
-    ]
+    ],
+    "questStatement": "Makiho has a short lesson to offer anyone willing to bring a rod and pay attention to the water. She wants a beginner to feel the difference between a nibble and a snag."
   },
   "Supper before the Tide Turns": {
     "name": "Supper before the Tide Turns",
-    "description": "Nanae wants a couple of ordinary fresh fish for supper. Something modest and edible would be more useful than another sailor’s story about the one that got away.",
     "status": "hidden",
     "detailType": "detailed",
     "conclusive": true,
@@ -8153,11 +8152,11 @@
         "value": 60,
         "target": "allPlayers"
       }
-    ]
+    ],
+    "questStatement": "Nanae wants a couple of ordinary fresh fish for supper. Something modest and edible would be more useful than another sailor’s story about the one that got away."
   },
   "A Color beneath the Scales": {
     "name": "A Color beneath the Scales",
-    "description": "Yorina wants to compare the natural sheen of an Amberfin Eel or Blueglass Needlefish with her waterproof pigments. A useful specimen matters more than a dramatic hunting story.",
     "status": "hidden",
     "detailType": "detailed",
     "conclusive": true,
@@ -8188,6 +8187,7 @@
         "value": 90,
         "target": "allPlayers"
       }
-    ]
+    ],
+    "questStatement": "Yorina wants to compare the natural sheen of an Amberfin Eel or Blueglass Needlefish with her waterproof pigments. A useful specimen matters more than a dramatic hunting story."
   }
 }

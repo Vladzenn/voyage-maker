@@ -181,6 +181,8 @@ def validate(world=None):
 
     for party in w['parties'].values():
         for name, quest in party.get('quests', {}).items():
+            ck('description' not in quest,
+               f'Quest statement field: {name}; use questStatement, not description')
             if 'objectives' in quest:
                 objectives = quest['objectives']
                 ck(isinstance(objectives, dict), f'Quest objectives map: {name}')
@@ -292,6 +294,8 @@ def publish(message):
         subprocess.run(['node', str(ROOT / 'tools/test_oni.cjs')], cwd=ROOT, check=True)
     if (ROOT / 'tools/test_glowhaven_expansion.cjs').exists():
         subprocess.run(['node', str(ROOT / 'tools/test_glowhaven_expansion.cjs')], cwd=ROOT, check=True)
+    if (ROOT / 'tools/test_fishing.cjs').exists():
+        subprocess.run(['node', str(ROOT / 'tools/test_fishing.cjs')], cwd=ROOT, check=True)
     changed, index = asset_changes()
     if changed:
         write_json(INDEX, index)

@@ -4,11 +4,12 @@
 
 Sometimes an adventure needs a quieter afternoon. Bring a rod, find a good stretch of water and see what bites!
 
-**Fishing is now a practical skill of its own**, with different catches across rivers, the harbor, estuary, rocky shores and offshore waters. Beginners can learn through actual practice, while experienced fishers have stranger specimens to look for.
+**Fishing is now a practical skill of its own**, available wherever you find suitable, reachable water. Cast in rivers, lakes, harbors, estuaries, rocky shores and offshore waters. Beginners can learn through actual practice, while experienced fishers have stranger specimens to look for.
 
 - Ordinary catches resolve quickly. Rare fish can put up a more interesting struggle, giving you another decision about how to bring them in—or whether to let them go.
 - Choose between reusable lures and consumable bait. Different waters, weather and bait choices influence what you might hook.
 - Find rods, floats, spinners, line, creels and other useful tackle. An optional Fishing Starter Kit is also available during character creation.
+- Discover different fish in Glowhaven, Drakenspire, Asterveil and Akitsuhara, from mountain char and cloudscale carp to elusive koi. Unfamiliar waters can hold their own surprises too.
 
 ### 🌦️ Watch the Water
 

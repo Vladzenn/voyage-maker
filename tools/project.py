@@ -162,6 +162,8 @@ def validate(world=None):
            f'Trigger condition/effect count: {name}')
         ck(units(compact(tr)) <= 10000, f'Trigger character cap: {name}')
         for c in tr.get('conditions', []):
+            if isinstance(c.get('value'), str):
+                ck(units(c['value']) <= 100, f'Trigger condition value cap: {name}')
             if c['type'] in ['story', 'action']:
                 ck(units(c['query']) <= 1000, f'Trigger semantic query cap: {name}')
             if c['type'] == 'player-item':

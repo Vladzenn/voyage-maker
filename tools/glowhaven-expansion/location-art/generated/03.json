@@ -1,0 +1,12 @@
+{
+  "id": "03",
+  "location": "Greenrush Estuary",
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Glowhaven Expansion 2026-11-04/Greenrush Estuary.png",
+  "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-a6e5ee45-be77-4eda-abc7-1c041d7abb11.png",
+  "sha256": "cd58331ad72f217a8e40f45d47c72ed0d467a644fe29dfa8ad726db9000ad59e",
+  "width": 1254,
+  "height": 1254,
+  "method": "built-in image_gen; one requested establishing shot",
+  "outputHint": ""
+}

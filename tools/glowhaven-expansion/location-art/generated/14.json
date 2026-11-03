@@ -1,0 +1,12 @@
+{
+  "id": "14",
+  "location": "Seaward Overlook",
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Glowhaven Expansion 2026-11-04/Seaward Overlook.png",
+  "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-5dd4cd54-6670-41df-80a6-50d27f20a7fc.png",
+  "sha256": "30edd95b8bf3cd8d49b504be8d0c093043104ae68ef8dd73d1396f8a6e902e87",
+  "width": 1254,
+  "height": 1254,
+  "method": "built-in image_gen; one requested establishing shot",
+  "outputHint": ""
+}

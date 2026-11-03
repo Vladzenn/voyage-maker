@@ -17,7 +17,8 @@
     "newStarts": 2,
     "linkedStorylines": 2,
     "academyAssignments": 4,
-    "selectedPortraits": 29
+    "selectedPortraits": 29,
+    "locationImages": 14
   },
   "decisions": [
     "Stop the generated labeling image; no further annotation generation or correction.",
@@ -38,7 +39,9 @@
     "Do not alter Spider Realm content or launch other planned arcs/realms.",
     "Nerathyl uses native Asleep/Awake named portrait variants. Select the author-requested corrected awake image; no automatic reset on return.",
     "Use two linked native coastal questlines instead of two extra global arcs after the Crucible semantic budget probe reached 17/15.",
-    "Retain town/guild suggestion goals and ensemble-focused academy classmates; no player-centered reaction panel."
+    "Retain town/guild suggestion goals and ensemble-focused academy classmates; no player-centered reaction panel.",
+    "4 November: one uploaded establishing shot per new location; no new area images. Bluecoil Rest uses an explicitly requested empty-reef replacement, keeping the serpent solely in its NPC portraits.",
+    "4 November: remove the redundant oversized local-commission location regex, retain the exact script filter, and enforce the Studio 100-UTF-16-unit condition-value limit. Ignore the retired Gullwatch warning as requested; no region/name adjustment."
   ],
   "orphanRegions": {
     "Brookmeadow": "brookmeadowVillage",

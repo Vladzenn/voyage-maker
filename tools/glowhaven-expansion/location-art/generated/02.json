@@ -1,0 +1,12 @@
+{
+  "id": "02",
+  "location": "Starlark Abbey",
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Glowhaven Expansion 2026-11-04/Starlark Abbey.png",
+  "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-735cda0e-86a8-4aac-bb5e-d492c0bea60b.png",
+  "sha256": "a2bc4435679f4d3b24317461b6e43d3ffeb1e79ee2bf4894d7d9a357915fcbda",
+  "width": 1254,
+  "height": 1254,
+  "method": "built-in image_gen; one requested establishing shot",
+  "outputHint": ""
+}

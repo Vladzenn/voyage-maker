@@ -4535,5 +4535,27 @@
     "oni_guild_native_choice": "9942c819b54aa46255aca3a61597b8a4bdd0225a0447c6b9979e566c97264205",
     "oni_foreign_glowhaven_key_issue": "18ba6d3961b30d4e95880e89e677f8c42f4dc39c49bd8985ec112bc26ffd34ab"
   },
-  "protectedArcsHash": "b2bbadd2a50fd6ac6a60dd36de2827f800f5a3b3743f4fb9049eba3f280b8162"
+  "protectedArcsHash": "b2bbadd2a50fd6ac6a60dd36de2827f800f5a3b3743f4fb9049eba3f280b8162",
+  "locationArtwork": {
+    "count": 14,
+    "locations": [
+      "Starlark Abbey",
+      "The Gilded Albatross",
+      "Greenrush Estuary",
+      "Stillback Isle",
+      "Splinterwake Wreck",
+      "Moonarch Isle",
+      "Thistlebank Alchemy Cottage",
+      "Bluecoil Rest",
+      "Old Southwatch",
+      "Beaconrest Lighthouse",
+      "Wrenhill Windmill",
+      "Gullwatch Reefs",
+      "Longgrass Crossroads",
+      "Seaward Overlook"
+    ],
+    "jobsFile": "tools/glowhaven-expansion/location-art/jobs.json",
+    "hostedFile": "tools/glowhaven-expansion/location-art/hosted.json",
+    "existingImagesPreserved": true
+  }
 }

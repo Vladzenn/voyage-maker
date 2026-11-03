@@ -1,0 +1,22 @@
+{
+  "generated": {
+    "id": "10",
+    "location": "Bluecoil Rest",
+    "target": "LOCATION_IMAGE",
+    "file": "world-draft/location images/Glowhaven Expansion 2026-11-04/Bluecoil Rest.png",
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-e178eda4-0d41-4fb5-b1ca-38b0f08ecf34.png",
+    "sha256": "a567a1fec3b946676406555d3c029581d59a91f2297284250436ab1347978cfb",
+    "width": 1254,
+    "height": 1254,
+    "method": "built-in image_gen; one requested establishing shot",
+    "outputHint": ""
+  },
+  "hosted": {
+    "location": "Bluecoil Rest",
+    "file": "world-draft/location images/Glowhaven Expansion 2026-11-04/Bluecoil Rest.png",
+    "sha256": "a567a1fec3b946676406555d3c029581d59a91f2297284250436ab1347978cfb",
+    "target": "LOCATION_IMAGE",
+    "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/0f3d22bf-1c27-4787-be67-a9d75a041de8.png"
+  },
+  "reason": "Author requests the serpent be absent from the static location image; keep state-specific depiction in NPC portraits."
+}

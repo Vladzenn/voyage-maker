@@ -3,7 +3,7 @@ import argparse,copy,hashlib,json,sys
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2];HERE=Path(__file__).resolve().parent
 sys.path.insert(0,str(ROOT/'tools'))
-import geography,cast,content,finish,creation,academy_revamp,portrait_style_refresh,portrait_states
+import geography,cast,content,finish,creation,academy_revamp,portrait_style_refresh,portrait_states,location_art
 from project import validate
 
 def read(p):return json.loads(p.read_text(encoding='utf-8-sig'))
@@ -58,6 +58,7 @@ def build(apply=False):
         if r['realm']!='Glowhaven':assert w['regions'][key]==r,key
     for key,l in base['locations'].items():
         if l['region'] in base['regions'] and base['regions'][l['region']]['realm']!='Glowhaven':assert w['locations'][key]==l,key
+    location_artwork=location_art.apply(w)
     validate(w)
     proof={'baseFile':str(source.relative_to(ROOT)),'baseWorldSha256':digest(base),'sourcePins':{k:{f:v.get(f) for f in ['x','y','region']} for k,v in base['locations'].items()},'finalPins':{k:{f:v.get(f) for f in ['x','y','region']} for k,v in w['locations'].items()},'migration':migration,'newNpcs':names,'contents':contents,'environment':environment,'portraitRefresh':portraits,'academicRevamp':academic,'hostedPortraits':len(urls),'portraitStates':states,'existingNpcsExact':len(base['npcs']),'allExistingPortraitsExact':True,'allIncomingMapImagesAndCoordinatesExact':True,'spiderAndOtherRealmsExact':True,'studioSaved':False,'studioPublished':False}
     proof['sourceNpcHashes']={k:digest(n) for k,n in base['npcs'].items()}
@@ -65,6 +66,7 @@ def build(apply=False):
     proof['sourceLocationMediaHashes']={migration['renamedLocations'].get(k,k):digest({f:l.get(f) for f in ['x','y','images']}) for k,l in base['locations'].items()}
     proof['protectedTriggerHashes']={k:digest(t) for k,t in base['triggerDefinitions'].items() if k!='gh_guild_board'}
     proof['protectedArcsHash']=digest(base['parties']['']['arcs'])
+    proof['locationArtwork']=location_artwork
     out=ROOT/'output/glowhaven-expansion-2026-11-03'
     write(out/'The Schools of Magic, Arise! - Glowhaven Expansion.json',w)
     write(out/'NPCs - Glowhaven Expansion.json',{n:w['npcs'][n] for n in names})

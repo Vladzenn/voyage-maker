@@ -1,0 +1,15 @@
+{
+  "id": "10",
+  "location": "Bluecoil Rest",
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Glowhaven Expansion 2026-11-04/Bluecoil Rest.png",
+  "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-2427e093-eb86-4c60-b27d-ea4fdeab6ab7.png",
+  "sha256": "019df4247b27f298bc1c9730c01c2541d329a958528679c11e66b5a230b73fef",
+  "width": 1254,
+  "height": 1254,
+  "method": "built-in image_gen; explicitly requested empty-reef replacement",
+  "outputHint": "",
+  "replacementAuthorized": true,
+  "promptFile": "tools/glowhaven-expansion/location-art/bluecoil-empty-reef-correction.txt",
+  "supersededSha256": "a567a1fec3b946676406555d3c029581d59a91f2297284250436ab1347978cfb"
+}

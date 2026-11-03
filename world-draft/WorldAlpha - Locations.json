@@ -17419,6 +17419,18 @@
     "npcLevelRange": {
       "min": 15,
       "max": 36
+    },
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/3a800842-b109-4e61-99dd-a92fcca5971a.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
     }
   },
   "Splinterwake Wreck": {
@@ -17467,6 +17479,18 @@
     "npcLevelRange": {
       "min": 12,
       "max": 30
+    },
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/e01f087a-d3bd-448f-baec-10652a46cb74.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
     }
   },
   "Moonarch Isle": {
@@ -17513,6 +17537,18 @@
     "npcLevelRange": {
       "min": 12,
       "max": 30
+    },
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/2b98f795-4631-449d-885c-12a247148c27.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
     }
   },
   "Stillback Isle": {
@@ -17552,6 +17588,18 @@
     "npcLevelRange": {
       "min": 5,
       "max": 25
+    },
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/ddb74be1-7ad8-44e2-996a-fedf0e3c580a.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
     }
   },
   "Greenrush Estuary": {
@@ -17600,6 +17648,18 @@
     "npcLevelRange": {
       "min": 2,
       "max": 22
+    },
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/2c2dafe4-362e-4372-8c2f-0d041e00fdca.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
     }
   },
   "Thistlebank Alchemy Cottage": {
@@ -17639,6 +17699,18 @@
     "npcLevelRange": {
       "min": 1,
       "max": 25
+    },
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/bc68def5-b776-44c4-8a7c-efff359be80b.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
     }
   },
   "Wrenhill Windmill": {
@@ -17678,6 +17750,18 @@
     "npcLevelRange": {
       "min": 1,
       "max": 20
+    },
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/2dfdfe94-9825-427b-8ec3-194c1074fa9a.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
     }
   },
   "Old Southwatch": {
@@ -17717,6 +17801,18 @@
     "npcLevelRange": {
       "min": 3,
       "max": 25
+    },
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/a68a9253-78b8-44a6-984b-62d9a2d3f51b.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
     }
   },
   "Bluecoil Rest": {
@@ -17756,6 +17852,18 @@
     "npcLevelRange": {
       "min": 20,
       "max": 35
+    },
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/0bd1a6d8-d632-4e7f-9502-df5d00b7da87.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
     }
   },
   "Beaconrest Lighthouse": {
@@ -17804,6 +17912,18 @@
     "npcLevelRange": {
       "min": 1,
       "max": 24
+    },
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/b6638e0d-3f6d-4a72-9462-66fa6f84e7b9.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
     }
   },
   "Starlark Abbey": {
@@ -17861,6 +17981,18 @@
     "npcLevelRange": {
       "min": 1,
       "max": 28
+    },
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/4d4ae0fd-4d4b-4cc4-8d0f-29e99039c292.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
     }
   },
   "Gullwatch Reefs": {
@@ -17900,6 +18032,18 @@
     "npcLevelRange": {
       "min": 3,
       "max": 22
+    },
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/5b892f07-03f4-462b-b68f-16682554f149.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
     }
   },
   "Longgrass Crossroads": {
@@ -17939,6 +18083,18 @@
     "npcLevelRange": {
       "min": 1,
       "max": 20
+    },
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/e321db2c-fc03-4fc7-ab8f-a0b4f8b47a32.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
     }
   },
   "Seaward Overlook": {
@@ -17969,6 +18125,18 @@
     "npcLevelRange": {
       "min": 1,
       "max": 15
+    },
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/684e3c86-c725-478a-bb33-936b165922d0.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
     }
   }
 }

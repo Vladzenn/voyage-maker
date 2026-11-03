@@ -24,6 +24,18 @@ class StudioValidationRegression(unittest.TestCase):
     def test_fixed_world_passes(self):
         self.validate()
 
+    def test_trigger_string_value_studio_limit(self):
+        tr = self.world['triggerDefinitions']['ghx_local_commissions']
+        tr['conditions'].append({'type': 'party-location', 'operator': 'regex', 'value': 'x' * 101})
+        with self.assertRaisesRegex(ValueError, 'Trigger condition value cap: ghx_local_commissions'):
+            self.validate()
+        # Studio counts UTF-16 units: 50 non-BMP glyphs fit, 51 do not.
+        tr['conditions'][-1]['value'] = '\U0001f30a' * 50
+        self.validate()
+        tr['conditions'][-1]['value'] += '\U0001f30a'
+        with self.assertRaisesRegex(ValueError, 'Trigger condition value cap: ghx_local_commissions'):
+            self.validate()
+
     def test_original_studio_rejection_is_detected(self):
         for name in self.talent_abilities:
             del self.world['abilities'][name]['requirements'][0]['amount']

@@ -1,6 +1,6 @@
 {
   "worldFile": "world-draft/WorldAlpha - World.json",
-  "worldFileSha256": "a472da3f0db0288b740a917eb2a182ebd6e268c4b6bfc4c3f29ae82dcf6384bf",
+  "worldFileSha256": "371d73b058626ad8da86088ad9e6fc991f9958316cd55145c4d26ac650408503",
   "result": {
     "data": {
       "errors": [],
@@ -8,7 +8,7 @@
       "valid": true,
       "warnings": []
     },
-    "requestId": "73508826-aece-4879-afb0-002bc8a8284f"
+    "requestId": "33395e3d-1c9e-46f7-9572-6a362093b9ce"
   },
   "studioSaved": false,
   "studioPublished": false

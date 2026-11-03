@@ -1,0 +1,97 @@
+{
+  "baseCommit": "7e593124a499a9abe6c4dbec26f21552d5d05fbe",
+  "scope": "14 location image additions and removal of one oversized redundant condition only",
+  "images": [
+    {
+      "location": "The Gilded Albatross",
+      "changedField": "images.establishingShot",
+      "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/3a800842-b109-4e61-99dd-a92fcca5971a.png",
+      "sha256": "402775df50fa169cfa6d95a2ad20a1569995e743f83749863b38787b1a12173f"
+    },
+    {
+      "location": "Splinterwake Wreck",
+      "changedField": "images.establishingShot",
+      "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/e01f087a-d3bd-448f-baec-10652a46cb74.png",
+      "sha256": "8b9d79f94d1ac606266890e0d97459f077a5609e019a2512d6a13cc839020f7c"
+    },
+    {
+      "location": "Moonarch Isle",
+      "changedField": "images.establishingShot",
+      "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/2b98f795-4631-449d-885c-12a247148c27.png",
+      "sha256": "de1a824349d7cd2303415f76eac4efd1743a309226920290f6f72067a8cd791b"
+    },
+    {
+      "location": "Stillback Isle",
+      "changedField": "images.establishingShot",
+      "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/ddb74be1-7ad8-44e2-996a-fedf0e3c580a.png",
+      "sha256": "e18acaa1e0ba089cdaa7fffd75322281d3ba3b138b3734cf8e8c1f00f290e260"
+    },
+    {
+      "location": "Greenrush Estuary",
+      "changedField": "images.establishingShot",
+      "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/2c2dafe4-362e-4372-8c2f-0d041e00fdca.png",
+      "sha256": "cd58331ad72f217a8e40f45d47c72ed0d467a644fe29dfa8ad726db9000ad59e"
+    },
+    {
+      "location": "Thistlebank Alchemy Cottage",
+      "changedField": "images.establishingShot",
+      "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/bc68def5-b776-44c4-8a7c-efff359be80b.png",
+      "sha256": "d634515021f8e3d378b4311f74f9dc16ece0e98f1cab2760a50b84820fa6ad7f"
+    },
+    {
+      "location": "Wrenhill Windmill",
+      "changedField": "images.establishingShot",
+      "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/2dfdfe94-9825-427b-8ec3-194c1074fa9a.png",
+      "sha256": "e4d6981604ae59dbbf6752bb64caf950eb25eaba832106befac2549b73b123ef"
+    },
+    {
+      "location": "Old Southwatch",
+      "changedField": "images.establishingShot",
+      "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/a68a9253-78b8-44a6-984b-62d9a2d3f51b.png",
+      "sha256": "90144b24f0b28f64a2d1d324f8bddbee1d5703d8d76c4fc1bc88f9a69c2bc1dc"
+    },
+    {
+      "location": "Bluecoil Rest",
+      "changedField": "images.establishingShot",
+      "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/0bd1a6d8-d632-4e7f-9502-df5d00b7da87.png",
+      "sha256": "019df4247b27f298bc1c9730c01c2541d329a958528679c11e66b5a230b73fef"
+    },
+    {
+      "location": "Beaconrest Lighthouse",
+      "changedField": "images.establishingShot",
+      "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/b6638e0d-3f6d-4a72-9462-66fa6f84e7b9.png",
+      "sha256": "9890c1d326a9dfd5472dcf91f34e38b6efd9785d416611ad3d32ef0130386094"
+    },
+    {
+      "location": "Starlark Abbey",
+      "changedField": "images.establishingShot",
+      "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/4d4ae0fd-4d4b-4cc4-8d0f-29e99039c292.png",
+      "sha256": "a2bc4435679f4d3b24317461b6e43d3ffeb1e79ee2bf4894d7d9a357915fcbda"
+    },
+    {
+      "location": "Gullwatch Reefs",
+      "changedField": "images.establishingShot",
+      "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/5b892f07-03f4-462b-b68f-16682554f149.png",
+      "sha256": "a3ef0b793ce39680ee4ae27bb2db31f8882f27c18e651f52e5d7502af60a3805"
+    },
+    {
+      "location": "Longgrass Crossroads",
+      "changedField": "images.establishingShot",
+      "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/e321db2c-fc03-4fc7-ab8f-a0b4f8b47a32.png",
+      "sha256": "33572baa5b267fda18191f3757a01c94647abb9768b5251ed54866b98bafc032"
+    },
+    {
+      "location": "Seaward Overlook",
+      "changedField": "images.establishingShot",
+      "url": "https://images.aidungeon.com/user_content/15213280/images/uploads/684e3c86-c725-478a-bb33-936b165922d0.png",
+      "sha256": "30edd95b8bf3cd8d49b504be8d0c093043104ae68ef8dd73d1396f8a6e902e87"
+    }
+  ],
+  "trigger": "ghx_local_commissions",
+  "removedConditionValueUnits": 197,
+  "remainingConditionValueUnits": 9,
+  "gullwatchRegionUnchanged": true,
+  "coordinatesUnchanged": true,
+  "allOtherFieldsExact": true,
+  "worldFileSha256": "371d73b058626ad8da86088ad9e6fc991f9958316cd55145c4d26ac650408503"
+}

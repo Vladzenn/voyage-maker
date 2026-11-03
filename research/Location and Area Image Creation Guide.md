@@ -25,6 +25,7 @@ Do not stop at naming a place type or mood. Build an image direction that says w
 
 ### Background life and recurring motifs
 
+- Keep a named creature's changeable presence, sleeping state or combat state out of a static location shot unless explicitly requested. Show its habitat and durable traces; use its NPC portraits for the creature. Ordinary secondary wildlife and unnamed background people can still fit a place. Bluecoil Rest's empty resting reef is the approved example.
 - Add a small number of scene-appropriate background people when the place would naturally be occupied. Make them read as ordinary users of that space and keep them visually secondary, with no prominent faces or named-character designs. Leave places empty when their description calls for solitude, abandonment, restricted access, or another condition that makes people inappropriate.
 - Use established heraldry and recurring motifs selectively. When no heraldry is established, build identity through palette, architecture, props, and atmosphere instead of inventing a crest or covering the scene in banners.
 - For repeated institutions or districts, prepare a short visual identity note before generating: core value or purpose, palette proposal, architectural character, characteristic props, and the level or behavior of visible magic. Use that note to keep images within one institution coherent and to make different institutions visibly distinct.

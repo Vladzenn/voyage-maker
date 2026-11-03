@@ -17240,11 +17240,6 @@
         "type": "party-realm",
         "operator": "equals",
         "value": "Glowhaven"
-      },
-      {
-        "type": "party-location",
-        "operator": "regex",
-        "value": "^(?:Beaconrest\\ Lighthouse|Bluecoil\\ Rest|Greenrush\\ Estuary|Longgrass\\ Crossroads|Old\\ Southwatch|Pinewater\\ Woods|Seaward\\ Overlook|Starlark\\ Abbey|Stillback\\ Isle|Thistlebank\\ Alchemy\\ Cottage)$"
       }
     ],
     "effects": [],

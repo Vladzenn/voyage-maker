@@ -31,6 +31,8 @@ The guild opening also gains a glimpse of adventurers coming home from difficult
 
 ### 🎨 Portraits and Finishing Touches
 
+Fourteen new location illustrations bring the coast and countryside into view, from the Albatross and Starlark Abbey to the reefs, windmill and quieter paths beyond the city.
+
 Refined default portrait guidance favors fine anime drawing, softer layered shading, detailed outfits and expressive lighting. Academy clothing now has explicit school colors and creature crests, with school-specific uniform choices available alongside the general options.
 
 New equipment, useful tools and unusual coastal finds accompany the expansion. Physical Foundations has its missing defensive training restored, and Past Experience includes a small Spellcraft-focused option. Existing map placements and artwork are retained as the expanded territory receives finished names and descriptions.

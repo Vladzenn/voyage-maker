@@ -1,0 +1,12 @@
+{
+  "id": "05",
+  "location": "Moonarch Isle",
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Glowhaven Expansion 2026-11-04/Moonarch Isle.png",
+  "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-0367ba99-4f4a-41ac-b722-ff80571754c3.png",
+  "sha256": "de1a824349d7cd2303415f76eac4efd1743a309226920290f6f72067a8cd791b",
+  "width": 1254,
+  "height": 1254,
+  "method": "built-in image_gen; one requested establishing shot",
+  "outputHint": ""
+}

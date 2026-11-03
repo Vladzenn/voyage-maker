@@ -1,0 +1,12 @@
+{
+  "id": "12",
+  "location": "Gullwatch Reefs",
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Glowhaven Expansion 2026-11-04/Gullwatch Reefs.png",
+  "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-6d6031ac-6695-4e4e-b1e4-7ee784df0863.png",
+  "sha256": "a3ef0b793ce39680ee4ae27bb2db31f8882f27c18e651f52e5d7502af60a3805",
+  "width": 1254,
+  "height": 1254,
+  "method": "built-in image_gen; one requested establishing shot",
+  "outputHint": ""
+}

@@ -1,6 +1,16 @@
 # Glowhaven Expanded — implementation and review
 
-The full supplied Studio export `2b7db2b6-97a4-4028-94ed-bc2695877ee2` owns the map, coordinates, existing content and media. This update finishes its twenty Glowhaven tiles and fourteen placeholder locations. The existing count of 299 locations stays 299: placeholders are developed rather than duplicated. The complete cast is 397, including 28 new NPCs. No location-art batch is included.
+The full supplied Studio export `2b7db2b6-97a4-4028-94ed-bc2695877ee2` owns the map, coordinates, existing content and media. This update finishes its twenty Glowhaven tiles and fourteen placeholder locations. The existing count of 299 locations stays 299: placeholders are developed rather than duplicated. The complete cast is 397, including 28 new NPCs. The 4 November follow-up adds one establishing image to each of those fourteen locations.
+
+## 4 November artwork and Studio-limit follow-up
+
+All fourteen selected environment PNGs are generated at native **1254 × 1254**, uploaded with the live official `LOCATION_IMAGE` target and linked to their exact location keys. Only previously empty establishing-shot fields are populated, each with a complete native crop. Existing artwork, all coordinates, NPCs, quest data and other realms remain exact. No area images or map replacements are added. Native PNGs, exact prompts, file hashes and hosted URLs live under `tools/glowhaven-expansion/location-art/` and `world-draft/location images/Glowhaven Expansion 2026-11-04/`.
+
+The author corrected Bluecoil Rest's first location image because showing a sleeping serpent in a static background conflicts with its awake/asleep NPC portraits. The selected replacement shows the empty reef, resting ledge and shed scales. The original image and upload are recorded as superseded and are not linked or included in the selected-image ZIP. This does not change Nerathyl's NPC portraits or behavior.
+
+Studio rejected the local-commission trigger's long location regex despite the previous official draft validation returning no errors. Its redundant `party-location` condition is removed: the unchanged script already filters exact current locations before asking any semantic question. The remaining condition value is `Glowhaven` (nine UTF-16 units). No offer/reward/acceptance behavior changes. The portable validator now checks the **100-unit string condition-value limit**, with tests for 101 ASCII units and the 50/51 non-BMP-glyph boundary. Unrelated locations still perform zero local-commission semantic checks.
+
+The author asked us to disregard the reported retired lowercase Gullwatch entry after rechecking Studio. No location name, region assignment or coordinate was changed for that report. `location-art/merge-verification.json` proves the complete follow-up changes only fourteen establishing shots and the one removed trigger condition. Import the supplied Locations and Triggers sections, or use the complete updated world. This has not saved or published a Studio draft; image crop previews remain a manual check.
 
 ## Map and preservation
 

@@ -1,0 +1,12 @@
+{
+  "id": "08",
+  "location": "Wrenhill Windmill",
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Glowhaven Expansion 2026-11-04/Wrenhill Windmill.png",
+  "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-28924b55-1a63-493c-87c8-df3970378aaa.png",
+  "sha256": "e4d6981604ae59dbbf6752bb64caf950eb25eaba832106befac2549b73b123ef",
+  "width": 1254,
+  "height": 1254,
+  "method": "built-in image_gen; one requested establishing shot",
+  "outputHint": ""
+}

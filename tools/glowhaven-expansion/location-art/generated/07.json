@@ -1,0 +1,12 @@
+{
+  "id": "07",
+  "location": "Thistlebank Alchemy Cottage",
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Glowhaven Expansion 2026-11-04/Thistlebank Alchemy Cottage.png",
+  "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-29901846-48fa-49ee-9d3a-cdd4f36e04ce.png",
+  "sha256": "d634515021f8e3d378b4311f74f9dc16ece0e98f1cab2760a50b84820fa6ad7f",
+  "width": 1254,
+  "height": 1254,
+  "method": "built-in image_gen; one requested establishing shot",
+  "outputHint": ""
+}

@@ -12,7 +12,9 @@ ck(grid.length===20&&new Set(grid.map(r=>r.x+','+r.y)).size===20,'Twenty unique 
 for(const x of [-2,-1,0,1,2])for(const y of [0,-1,-2,-3])ck(grid.some(r=>r.x===x&&r.y===y),'Actual 5x4 tile '+[x,y]);
 for(const [name,h]of Object.entries(p.sourceNpcHashes))ck(hash(w.npcs[name])===h,'Existing NPC exact '+name);
 for(const [name,h]of Object.entries(p.sourceRegionMediaHashes)){const r=w.regions[name];ck(hash({x:r.x,y:r.y,images:r.images??null,realm:r.realm})===h,'Incoming tile media/grid exact '+name)}
-for(const [name,h]of Object.entries(p.sourceLocationMediaHashes)){const l=w.locations[name];ck(hash({x:l.x,y:l.y,images:l.images??null})===h,'Incoming location pin/media exact '+name)}
+const artJobsFile=path.join(dir,'location-art/jobs.json'),artJobs=fs.existsSync(artJobsFile)?JSON.parse(fs.readFileSync(artJobsFile,'utf8')):[];
+const addedArt=new Map(artJobs.filter(j=>p.locationArtwork?.locations.includes(j.location)).map(j=>[j.location,j]));
+for(const [name,h]of Object.entries(p.sourceLocationMediaHashes)){const l=w.locations[name];ck(hash({x:l.x,y:l.y,images:addedArt.has(name)?addedArt.get(name).originalImages:(l.images??null)})===h,'Incoming location pin/media exact '+name)}
 for(const [name,h]of Object.entries(p.protectedTriggerHashes))ck(hash(w.triggerDefinitions[name])===h,'Old trigger exact '+name);
 ck(hash(w.parties[''].arcs)===p.protectedArcsHash,'No extra global arc checks');
 for(const [name,l]of Object.entries(w.locations))ck(w.regions[l.region],'Resolved location parent '+name);
@@ -71,4 +73,12 @@ h=ctx({scene:false,health:0});h.run('ghx_kraken_roam');h.s.health=100;h.s.tick=1
 for(const [title,client,place]of p.contents.localOffers){h=ctx({location:place,semTitle:title});const e=h.run('ghx_local_commissions');ck(e.some(v=>v.type==='quest-init'&&v.value===title)&&e.filter(v=>v.type==='quest-init').length===1,'Exact local offer '+title);ck(!e.some(v=>['quest-accept','item-add'].includes(v.type)),'Offer is not acceptance/payment '+title);h.s.quests[title]='completed';ck(!h.run('ghx_local_commissions').some(v=>v.value===title),'No respawn completed personal work '+title)}
 ck(!ctx({location:'Starlark Abbey',semantic:false}).run('ghx_local_commissions').length,'No quest spam from arrival/greeting');
 ck(!ctx({location:'The Eternal Crucible'}).run('ghx_local_commissions').length,'Local dispatcher not active at unrelated arena');
+for(const t of Object.values(w.triggerDefinitions))for(const c of t.conditions)if(typeof c.value==='string')ck(c.value.length<=100,'Studio string condition limit '+t.name);
+const offsite=ctx({location:'The Eternal Crucible'});offsite.run('ghx_local_commissions');ck(offsite.queries()===0,'Unrelated location performs zero local-offer semantic checks');
+if(p.locationArtwork?.count){
+ const art=JSON.parse(fs.readFileSync(path.join(dir,'location-art/hosted.json'),'utf8'));const allUrls=new Set();
+ ck(addedArt.size===14,'Exactly one shot for each new location');
+ for(const [name,j]of addedArt){const shot=w.locations[name].images.establishingShot,r=art[name];ck(shot.imageUrl===r.url&&r.target==='LOCATION_IMAGE'&&path.basename(r.file,'.png')===name,'Location art exact identity '+name);ck(shot.crop.zoom===100&&shot.crop.focus.x===50&&shot.crop.focus.y===50,'Complete native crop '+name);allUrls.add(r.url)}
+ ck(allUrls.size===14,'Fourteen distinct location shots');
+}
 console.log(JSON.stringify({status:'passed',checks,newNpcs:28,portraits:29,newQuests:28,protectedExistingNpcs:p.existingNpcsExact,livePlaytest:false}));

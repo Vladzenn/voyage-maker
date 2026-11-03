@@ -1,0 +1,12 @@
+{
+  "id": "01",
+  "location": "The Gilded Albatross",
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Glowhaven Expansion 2026-11-04/The Gilded Albatross.png",
+  "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-846706db-f5e9-4598-8dca-bef48ede79f1.png",
+  "sha256": "402775df50fa169cfa6d95a2ad20a1569995e743f83749863b38787b1a12173f",
+  "width": 1254,
+  "height": 1254,
+  "method": "built-in image_gen; one requested establishing shot",
+  "outputHint": ""
+}

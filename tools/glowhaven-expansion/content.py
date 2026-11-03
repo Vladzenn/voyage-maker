@@ -143,8 +143,11 @@ for(const [title,client,destination] of named?[named]:options){
 }
 if(!found)skip=true;
 """
-    places=sorted({r[i] for r in local for i in [2,3]})
-    w['triggerDefinitions']['ghx_local_commissions']={'name':'ghx_local_commissions','recurring':True,'phase':'planning','conditions':[{'type':'party-realm','operator':'equals','value':'Glowhaven'},{'type':'party-location','operator':'regex','value':'^(?:'+'|'.join(re.escape(p) for p in places)+')$'}],'effects':[],'script':local_script}
+    # Studio limits string condition values to 100 UTF-16 characters. The
+    # script already filters the exact location before any semantic query;
+    # duplicating every name in a long regex both exceeded that cap and added
+    # no protection. Unrelated locations reach an empty local candidate set.
+    w['triggerDefinitions']['ghx_local_commissions']={'name':'ghx_local_commissions','recurring':True,'phase':'planning','conditions':[{'type':'party-realm','operator':'equals','value':'Glowhaven'}],'effects':[],'script':local_script}
     # Keep these design arcs as linked native questlines. Two more global arc
     # surfacing checks exceeded the conservative Crucible budget (17 vs 15).
     # Do not rewrite unrelated old tournament or Spider triggers to make room.

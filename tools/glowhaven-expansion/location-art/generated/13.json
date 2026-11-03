@@ -1,0 +1,12 @@
+{
+  "id": "13",
+  "location": "Longgrass Crossroads",
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Glowhaven Expansion 2026-11-04/Longgrass Crossroads.png",
+  "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-de0dfad4-d383-4aec-b816-8782964aa5ee.png",
+  "sha256": "33572baa5b267fda18191f3757a01c94647abb9768b5251ed54866b98bafc032",
+  "width": 1254,
+  "height": 1254,
+  "method": "built-in image_gen; one requested establishing shot",
+  "outputHint": ""
+}

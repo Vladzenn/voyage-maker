@@ -1,0 +1,12 @@
+{
+  "id": "09",
+  "location": "Old Southwatch",
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Glowhaven Expansion 2026-11-04/Old Southwatch.png",
+  "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-899529c5-52ea-4c61-b850-004a902dc147.png",
+  "sha256": "90144b24f0b28f64a2d1d324f8bddbee1d5703d8d76c4fc1bc88f9a69c2bc1dc",
+  "width": 1254,
+  "height": 1254,
+  "method": "built-in image_gen; one requested establishing shot",
+  "outputHint": ""
+}

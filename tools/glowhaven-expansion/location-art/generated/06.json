@@ -1,0 +1,12 @@
+{
+  "id": "06",
+  "location": "Stillback Isle",
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Glowhaven Expansion 2026-11-04/Stillback Isle.png",
+  "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-0093c603-9ece-4bbb-9c48-d7bb7be3aad6.png",
+  "sha256": "e18acaa1e0ba089cdaa7fffd75322281d3ba3b138b3734cf8e8c1f00f290e260",
+  "width": 1254,
+  "height": 1254,
+  "method": "built-in image_gen; one requested establishing shot",
+  "outputHint": ""
+}

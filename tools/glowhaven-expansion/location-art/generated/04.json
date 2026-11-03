@@ -1,0 +1,12 @@
+{
+  "id": "04",
+  "location": "Splinterwake Wreck",
+  "target": "LOCATION_IMAGE",
+  "file": "world-draft/location images/Glowhaven Expansion 2026-11-04/Splinterwake Wreck.png",
+  "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-b43c231e-7609-48b8-babb-9945f951cd71.png",
+  "sha256": "8b9d79f94d1ac606266890e0d97459f077a5609e019a2512d6a13cc839020f7c",
+  "width": 1254,
+  "height": 1254,
+  "method": "built-in image_gen; one requested establishing shot",
+  "outputHint": ""
+}

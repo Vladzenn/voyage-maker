@@ -29,20 +29,37 @@
     3620
   ],
   "brief": "Mostly plains; forest in west; coast only in small northeast corner. Colosseum is landmark scale reference.",
-  "status": "native southern extension saved for author review; Photoshop registration/masking required",
+  "status": "v2 village relocated east; native review image",
   "canonicalWorldEdited": false,
   "uploaded": false,
   "promptManifest": "tools/glowhaven-south-extension-prompts-2026-11-03.json",
   "canonicalWorldSHA256": "4DA8E98A2202370E02255E2CAE00D5F822B2D1054261A634CE33EFFB0391756C",
   "output": {
-    "file": "world-draft/map-variations/Glowhaven Southern Plains Expansion/Glowhaven - Southern Plains Extension v1.png",
-    "generatedSource": "exec-7b6b2574-5870-4dd9-b61a-491eb6ba8247.png",
+    "file": "world-draft/map-variations/Glowhaven Southern Plains Expansion/Glowhaven - Southern Plains Extension v2 - Village East.png",
+    "generatedSource": "exec-59185780-711e-4897-a91b-c42118d69cea.png",
     "dimensions": [
       2060,
       763
     ],
-    "bytes": 3508274,
-    "sha256": "fd2d726ead521c53e1a051904d2ec9f672733543759c95006c6f2ed9f10e4b90",
+    "bytes": 3520624,
+    "sha256": "dfc47ae56d918d6385e9438544718e2389dd318e036f1c975239854eac6d8f1a",
     "resampled": false
-  }
+  },
+  "history": [
+    {
+      "output": {
+        "file": "world-draft/map-variations/Glowhaven Southern Plains Expansion/Glowhaven - Southern Plains Extension v1.png",
+        "generatedSource": "exec-7b6b2574-5870-4dd9-b61a-491eb6ba8247.png",
+        "dimensions": [
+          2060,
+          763
+        ],
+        "bytes": 3508274,
+        "sha256": "fd2d726ead521c53e1a051904d2ec9f672733543759c95006c6f2ed9f10e4b90",
+        "resampled": false
+      },
+      "status": "v1 superseded by author village relocation; original PNG retained"
+    }
+  ],
+  "latestPromptManifest": "tools/glowhaven-south-village-relocation-2026-11-03.json"
 }

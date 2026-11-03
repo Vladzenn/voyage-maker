@@ -2,13 +2,15 @@
 
 These notes carry context between desktop and web chats. They supplement the actual JSON and creation guides; newer explicit user instructions take precedence.
 
-## 3 November — southern plains extension (latest steering)
+## 3 November — southern plains extension and eastern village relocation (latest steering)
 
-The author requests one wide southern panel below the assembled 4344 × 2172 MasterMapTwo. The new land is height:width 1:3 (4344 × 1448), plus 160 pixels of top overlap, giving working extent 4344 × 1608. Photoshop starting position (0,2012), total intended canvas 4344 × 3620. Preserve the supplied boundary and use built-in image generation; native output dimensions must be reported honestly.
+The author requests one wide southern panel below the assembled4344 ×2172 MasterMapTwo. New land is height:width1:3 (4344 ×1448), plus160 top overlap, full working extent4344 ×1608. Photoshop starts at(0,2012), intended canvas4344 ×3620. Preserve native generated files and report dimensions honestly.
 
-Mostly plains with forest in the west. Coast appears ONLY in the small northeast corner: bend the existing shoreline east so the remainder of the right edge and whole bottom edge stay inland. Continue tracks/farms/treelines from the old bottom edge. Author's latest drawing routes the western river east past the village to this small coastal corner; remove the green-marked old southern river leg. Add a small bridge where the corrected main approach crosses north of village. The author explicitly allows drawing over the overlap and removing trees to connect the actual northern road; do not preserve disconnected roads as an invariant. Existing colosseum is the scale ruler; ordinary rural buildings are tiny, and sparse manor/keep/village anchors must not become city-sized or crowd the open countryside. No city/master reroll, large new mountain wall or ornamental ruin/stone-circle proliferation. No coordinate, location-record, hosted-map, grid or upload change is implied by this artwork delivery.
+Mostly open plains, forest west, coast only in a small northeast corner. The river runs from the western boundary east to a proper small tidal estuary with shallows/sandbars/marsh; no southern river leg or ocean at bottom/right. Rural buildings remain modest against the colosseum scale; no huge manor/inn or ornamental landmark proliferation. Roads taper into ordinary dirt/cart lanes.
 
-Latest southern refinement: the river mouth should read as a small tidal estuary with widening shallow water, sandbars and marsh margins. Taper the through-road into a modest dirt/cart lane toward the south. The bridge deck follows the north–south road across the east–west river, with both road approaches visibly connected; no sideways bridge along the channel.
+Latest drawing MOVES THE ENTIRE VILLAGE to the red-circled eastern meadow. Move its market, buildings, local lanes and associated crop plots, preserving small building footprints and rural character. Clear the green-marked old village/fields/main-road corridor back to open grassland. Red lines define new northern-to-eastern approach, eastward exit and southwest branch. Purple marks the ONE new small river bridge, northwest/southeast along the road across the river west of the new village; remove the old village bridge. Keep independent manor, windmill, forest/watchtower and river/estuary. The author explicitly allows drawing over overlap and removing trees for road continuity. Marker colors are placement/removal guides, not material palettes.
+
+These are art proposals, not coordinate/location-record changes, a new live grid or hosted-map upload. No further master reroll or automatic slicing is requested. Earlier v1 placement and bridge instructions are superseded by the latest drawing.
 
 ## 3 November — eastern ocean extension
 

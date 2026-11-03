@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-03",
+  "mode": "built-in image_gen",
+  "status": "native v2 saved for author review",
+  "source": "world-draft/map-variations/Glowhaven Southern Plains Expansion/Glowhaven - Southern Plains Extension v1.png",
+  "annotationReference": "Latest inline user image: red eastern destination and new roads, green old settlement/route removal, purple new bridge crossing; no local path supplied.",
+  "prompt": "Use case: precise-object-edit\nMOVE THE ENTIRE RURAL VILLAGE AND REROUTE ITS ROADS, following the user's latest annotated plan. Among the two reference images, the CLEAN wide southern plains panel is the edit target; the version with RED roads/circled destination, GREEN scribbles and PURPLE bridge is the exact author layout guide. Same whole wide frame2060x763 approximately, same scale, colors and fine2D atlas rendering. Annotation colors are instructions ONLY, no literal red/green/purple final structures.\n\nA. RELOCATE THE WHOLE VILLAGE to the RED-CIRCLED EASTERN MEADOW near x1810,y520, roughly x1640–2010,y455–620, SOUTH of the river and east/northeast of the existing small windmill. Move the village's buildings, inn/hall, little market green, local lanes and associated crop plots as a coherent rural settlement. Preserve its small house footprints, approximate roof count, recognizable building variety and modest country-village character. Rearrange the local lanes to fit the new site if necessary; do not enlarge it into a city or shrink to just3 houses. The circle is a rough destination, not an enclosing wall or circular town shape. Gently clear the small rocks/bushes at destination. Keep the independent windmill/farm near x1490,y555 where it is, not swallowed by a giant village. Keep all structures small by existing colosseum scale, no enlarged cottages/inns.\n\nB. COMPLETELY CLEAR THE GREEN-MARKED OLD VILLAGE AREA. Remove the old market circle, ALL its village buildings and the old village-associated crop fields/paths across roughlyx760–1290,y395–700. Remove old broad north–south approach from aroundx1010,y200 through old bridge/village and old southern road down to the bottom nearx1250. Remove the obsolete village-to-west road where green marks cross it, restoring open grass and natural scattered trees. Preserve truly independent farmsteads already outside this removal zone, the western forest/watchtower, and original top overlap farm fields. Fill freed space with continuous OPEN PLAINS, a few low shrubs/rocks and meadow texture, no ruins/foundation silhouettes/empty geometric market circle or duplicate settlement. Do not plant a forest over the whole old village site.\n\nC. FOLLOW THE RED NEW ROAD ALIGNMENT. Keep the true northern road connection at the top seam nearx1020; after the first short connecting segment near(1050,50), reroute southeast through approximately(1160,195),(1300,310),(1390,365) to the PURPLE RIVER CROSSING around(1550,425), then to the new village center around(1810,520). A small connected fork can join the existing manor's access lane near(1360,350), without moving manor. From new village follow the red route northeast/east to the right edge around(2060,380), and another red route sweeps southwest through about(1530,640),(1300,710) to bottom edge near(1040,755). These are modest worn dirt/cart lanes with slight natural curves and grass verges, not an enormous paved highway. Keep road widths consistent with previous tapering direction, about4–8px at this output scale. All junctions and bridge approaches meet cleanly. Do not leave the old central main road as an equally prominent duplicate route.\n\nD. MOVE THE SMALL BRIDGE TO PURPLE CROSSING near(1550,425). Remove the OLD bridge north of the old village around(935,390), restoring uninterrupted river/banks there. Place ONE modest little stone/timber bridge exactly where the new red road crosses the river at the purple arc. Here river runs southwest–northeast, so bridge DECK follows new road NORTHWEST–SOUTHEAST ACROSS it (roughlyfrom1535,412 to1560,438), not along the water. Road attaches to both deck ends; water clearly flows beneath and on both sides. Small functional crossing, not a grand multi-arch aqueduct, smaller than a few houses.\n\nSTRICTLY KEEP the entire current RIVER COURSE and its proper small northeastern ESTUARY unchanged: western source, eastward bend, shallow tidal mouth/sandbars/marsh at tinyNE-only coast. No river straightening, new lake/old southbound leg, no coast down right/bottom. Preserve the small manor/keep on its upper meadow, west forest/rocks/watchtower, independent windmill, ordinary northern fields/hamlets, terrain, source top overlap and original light/color. Trees in overlap may be removed if needed for new road connection, as authorized. No new city or oversized landmarks, no smoothing/clay/blur, no labels/marks/grid/UI. One clean full southern panel.",
+  "referenceMechanism": "Two recent images: user annotated plan and inspected clean v1 panel.",
+  "workingPanelDimensions": [
+    4344,
+    1608
+  ],
+  "sourceOverlap": 160,
+  "canonicalWorldEdited": false,
+  "uploaded": false,
+  "output": {
+    "file": "world-draft/map-variations/Glowhaven Southern Plains Expansion/Glowhaven - Southern Plains Extension v2 - Village East.png",
+    "generatedSource": "exec-59185780-711e-4897-a91b-c42118d69cea.png",
+    "dimensions": [
+      2060,
+      763
+    ],
+    "bytes": 3520624,
+    "sha256": "dfc47ae56d918d6385e9438544718e2389dd318e036f1c975239854eac6d8f1a",
+    "resampled": false
+  },
+  "canonicalWorldSHA256": "4DA8E98A2202370E02255E2CAE00D5F822B2D1054261A634CE33EFFB0391756C"
+}

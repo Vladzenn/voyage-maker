@@ -1,0 +1,144 @@
+{
+  "date": "2026-11-03",
+  "scope": "One circular set of four genuinely overlapping refinements; asymmetrical set cancelled",
+  "sourceMaster": "C:/Users/VladCodes/Downloads/Glowhaven - Expanded Master v4 - Sparse.png",
+  "sourceStyle": "C:/Users/VladCodes/Downloads/Voyage/Map/Glowhaven Map - Crucible update.png",
+  "districtDesign": "CITY DISTRICTS: retain recognizable academies: red Phoenix northwest, violet Hydra northeast, blue/cyan Gryffin southwest, gold Dragon southeast. The northern court/residential quarter has refined pale masonry, blue/slate roofs, gardens and larger plots. Commercial streets have varied small gables, modest colorful awnings and dense market lanes. Western/southern artisan blocks use warm brick, tiled workshop roofs, little work yards and restrained chimney smoke. Ordinary residential wards have simpler closely fitted roofs and shared courtyards. Make these visible variations within one medieval magical city, not separate unrelated cities or oversized individual buildings.\nGREYFIELD: the dense settlement just OUTSIDE the SOUTHWEST/SOUTH CITY WALL is a slum. Show small cramped irregular timber/plaster homes, patched shingle or tarred roofs, haphazard lean-tos, muddy narrow alleys, limited trees and no landscaped villa plots. Keep its tiny regional scale and human dignity; it is not a field of huge theatrical huts. Farther rural villages such as Brookmeadow/Pebbletown and the coastal town are NOT slums: small maintained roofs, fences, kitchen gardens and more space. Do not turn all outside settlements into poverty.\nSCALE: ordinary rural houses have the same footprint as ordinary city roofs, or smaller when distant. Improve roof construction, wall courses, vegetation and shore detail without enlarging the objects. The source shows a broad region. Keep sparse mountains and substantial empty woods; no renewed forty-landmark list, giant caves, oversized cabins, stone circles or decorative ruins. At most one understated minor trail/shore detail where the panel brief allows it.",
+  "jobs": [
+    {
+      "id": "ao1",
+      "set": "Circular With Overlap",
+      "panel": 1,
+      "direction": "Northwest",
+      "file": "world-draft/map-variations/Glowhaven Panel Refinement/Circular With Overlap/01 - Northwest.png",
+      "sourceBounds": [
+        0,
+        0,
+        720,
+        720
+      ],
+      "references": [
+        "tmp/glowhaven-panel-art/overlap-inputs/1.png"
+      ],
+      "prompt": "Refine the SINGLE supplied map crop into a sharply detailed square fantasy-JRPG map painting. This image is an enlarged section of a larger map: preserve its exact framing, camera, footprint scale and cut-off features. Improve roof construction, tiny windows, walls, foliage and water detail inside existing shapes. Keep the original saturated blue/green/gold colors and sunlit atmosphere. Do not pull the camera back or try to show a complete city. No text, grid, frame or watermark. Keep mountains and forest sparse, country buildings tiny and country tracks unpaved. NORTHWEST CROP: the city center fountain is near the extreme lower-right, about 87% across and 87% down. Most of the city continues beyond the RIGHT and BOTTOM image edges; retain those cropped streets and wall. The Evertree stands toward the right edge; do not move it toward the middle. Preserve the sky, mountain horizon, western green ridges, tiny Greywatch ruin and small hot spring exactly where shown. Refine the red academy and northern pale-stone/slate-roof civic blocks without moving them. Do not draw a complete city wall inside this crop.",
+      "revisionReason": "Single composition reference after full-map context caused a wider camera"
+    },
+    {
+      "id": "ao2",
+      "set": "Circular With Overlap",
+      "panel": 2,
+      "direction": "Northeast",
+      "file": "world-draft/map-variations/Glowhaven Panel Refinement/Circular With Overlap/02 - Northeast.png",
+      "sourceBounds": [
+        534,
+        0,
+        1254,
+        720
+      ],
+      "references": [
+        "tmp/glowhaven-panel-art/overlap-inputs/2.png"
+      ],
+      "prompt": "Refine the SINGLE supplied map crop into a sharply detailed square fantasy-JRPG map painting. This image is an enlarged section of a larger map: preserve its exact framing, camera, footprint scale and cut-off features. Improve roof construction, tiny windows, walls, foliage and water detail inside existing shapes. Keep the original saturated blue/green/gold colors and sunlit atmosphere. Do not pull the camera back or try to show a complete city. No text, grid, frame or watermark. Keep mountains and forest sparse, country buildings tiny and country tracks unpaved. NORTHEAST CROP: the city center fountain is near the extreme lower-left, about 13% across and 87% down. Most of the city continues beyond the LEFT and BOTTOM image edges; retain those cropped streets and wall. The Evertree stands toward the left edge; do not move it toward the middle. Preserve sky, horizon, tiny distant floating islands, coast, small sea islets, ships and sea creature. Refine the violet academy and existing harbor in place. Add only a very small low distant prison to one remote bare crag. No giant skull fortress. Do not draw a complete city wall inside this crop.",
+      "revisionReason": "Single composition reference after full-map context caused a wider camera"
+    },
+    {
+      "id": "ao3",
+      "set": "Circular With Overlap",
+      "panel": 3,
+      "direction": "Southwest",
+      "file": "world-draft/map-variations/Glowhaven Panel Refinement/Circular With Overlap/03 - Southwest.png",
+      "sourceBounds": [
+        0,
+        534,
+        720,
+        1254
+      ],
+      "references": [
+        "tmp/glowhaven-panel-art/overlap-inputs/3.png",
+        "C:/Users/VladCodes/Downloads/Glowhaven - Expanded Master v4 - Sparse.png",
+        "output/glowhaven-panels-2026-11-03/Provisional - No Overlap/a3 - 03 - Southwest.png",
+        "output/glowhaven-panels-2026-11-03/Provisional - No Overlap/a1 - 01 - Northwest.png",
+        "output/glowhaven-panels-2026-11-03/Provisional - No Overlap/a4 - 04 - Southeast.png"
+      ],
+      "prompt": "REFINE IMAGE 1 ONLY: an EXTENDED SQUARE MAP QUADRANT WITH SHARED OVERLAP. Image 2 is the full sparse master for context only. Images 3,4,5 are already refined tight-quadrant detail references for the same place and its immediate neighbors. Preserve the FIRST image's larger exact extent, crop, camera, scale, horizon, river and shoreline. Return only its extended quadrant, not the tight crop of references 3-5 and not a complete map.\nThe first reference is 720 by 720 source pixels. Its inner-facing strips share 186 source pixels (about 26% of the panel) with adjacent extended panels. Fully draw that shared terrain: no transparent margins, blank padding, borders or baked fading. Preserve geometry, wall positions, roofs, roads and water in these strips so the author can align and soft-mask layers. Partial source-edge features remain partial; whole features visible in this expanded reference remain whole. Do not complete/recenter a city from full-map context.\nUse the original crisp saturated high-fantasy JRPG painted cartography, coherent miniature architectural planes, natural warm sunlight, jewel-blue water and soft atmospheric distance. Match the refined neighbors' detail, palette and light. Improve definition inside existing footprints, without enlarging buildings or changing distances. Preserve the circular wall and principal radial routes. Keep sparse natural mountains/woods; no new big cave, cabin, ruin, stone circle or icon attractions. No text, labels, grid, symbols, frames or watermark.\nCITY DISTRICTS: retain recognizable academies: red Phoenix northwest, violet Hydra northeast, blue/cyan Gryffin southwest, gold Dragon southeast. The northern court/residential quarter has refined pale masonry, blue/slate roofs, gardens and larger plots. Commercial streets have varied small gables, modest colorful awnings and dense market lanes. Western/southern artisan blocks use warm brick, tiled workshop roofs, little work yards and restrained chimney smoke. Ordinary residential wards have simpler closely fitted roofs and shared courtyards. Make these visible variations within one medieval magical city, not separate unrelated cities or oversized individual buildings.\nGREYFIELD: the dense settlement just OUTSIDE the SOUTHWEST/SOUTH CITY WALL is a slum. Show small cramped irregular timber/plaster homes, patched shingle or tarred roofs, haphazard lean-tos, muddy narrow alleys, limited trees and no landscaped villa plots. Keep its tiny regional scale and human dignity; it is not a field of huge theatrical huts. Farther rural villages such as Brookmeadow/Pebbletown and the coastal town are NOT slums: small maintained roofs, fences, kitchen gardens and more space. Do not turn all outside settlements into poverty.\nSCALE: ordinary rural houses have the same footprint as ordinary city roofs, or smaller when distant. Improve roof construction, wall courses, vegetation and shore detail without enlarging the objects. The source shows a broad region. Keep sparse mountains and substantial empty woods; no renewed forty-landmark list, giant caves, oversized cabins, stone circles or decorative ruins. At most one understated minor trail/shore detail where the panel brief allows it.\nSOUTHWEST: RIGHT and TOP 26% are shared. Preserve the river, falls, green ridges, woods and shown blue academy/city wall. Greyfield immediately beyond the southwest/southern wall is cramped patched slum housing with muddy lanes. Farther farm villages remain maintained communities. Tiny regional roofs, no large cabin or cave additions. Keep source gate-road and river crossings aligned in the overlap."
+    },
+    {
+      "id": "ao4",
+      "set": "Circular With Overlap",
+      "panel": 4,
+      "direction": "Southeast",
+      "file": "world-draft/map-variations/Glowhaven Panel Refinement/Circular With Overlap/04 - Southeast.png",
+      "sourceBounds": [
+        534,
+        534,
+        1254,
+        1254
+      ],
+      "references": [
+        "tmp/glowhaven-panel-art/overlap-inputs/4.png",
+        "C:/Users/VladCodes/Downloads/Glowhaven - Expanded Master v4 - Sparse.png",
+        "output/glowhaven-panels-2026-11-03/Provisional - No Overlap/a4 - 04 - Southeast.png",
+        "output/glowhaven-panels-2026-11-03/Provisional - No Overlap/a2 - 02 - Northeast.png",
+        "output/glowhaven-panels-2026-11-03/Provisional - No Overlap/a3 - 03 - Southwest.png"
+      ],
+      "prompt": "REFINE IMAGE 1 ONLY: an EXTENDED SQUARE MAP QUADRANT WITH SHARED OVERLAP. Image 2 is the full sparse master for context only. Images 3,4,5 are already refined tight-quadrant detail references for the same place and its immediate neighbors. Preserve the FIRST image's larger exact extent, crop, camera, scale, horizon, river and shoreline. Return only its extended quadrant, not the tight crop of references 3-5 and not a complete map.\nThe first reference is 720 by 720 source pixels. Its inner-facing strips share 186 source pixels (about 26% of the panel) with adjacent extended panels. Fully draw that shared terrain: no transparent margins, blank padding, borders or baked fading. Preserve geometry, wall positions, roofs, roads and water in these strips so the author can align and soft-mask layers. Partial source-edge features remain partial; whole features visible in this expanded reference remain whole. Do not complete/recenter a city from full-map context.\nUse the original crisp saturated high-fantasy JRPG painted cartography, coherent miniature architectural planes, natural warm sunlight, jewel-blue water and soft atmospheric distance. Match the refined neighbors' detail, palette and light. Improve definition inside existing footprints, without enlarging buildings or changing distances. Preserve the circular wall and principal radial routes. Keep sparse natural mountains/woods; no new big cave, cabin, ruin, stone circle or icon attractions. No text, labels, grid, symbols, frames or watermark.\nCITY DISTRICTS: retain recognizable academies: red Phoenix northwest, violet Hydra northeast, blue/cyan Gryffin southwest, gold Dragon southeast. The northern court/residential quarter has refined pale masonry, blue/slate roofs, gardens and larger plots. Commercial streets have varied small gables, modest colorful awnings and dense market lanes. Western/southern artisan blocks use warm brick, tiled workshop roofs, little work yards and restrained chimney smoke. Ordinary residential wards have simpler closely fitted roofs and shared courtyards. Make these visible variations within one medieval magical city, not separate unrelated cities or oversized individual buildings.\nGREYFIELD: the dense settlement just OUTSIDE the SOUTHWEST/SOUTH CITY WALL is a slum. Show small cramped irregular timber/plaster homes, patched shingle or tarred roofs, haphazard lean-tos, muddy narrow alleys, limited trees and no landscaped villa plots. Keep its tiny regional scale and human dignity; it is not a field of huge theatrical huts. Farther rural villages such as Brookmeadow/Pebbletown and the coastal town are NOT slums: small maintained roofs, fences, kitchen gardens and more space. Do not turn all outside settlements into poverty.\nSCALE: ordinary rural houses have the same footprint as ordinary city roofs, or smaller when distant. Improve roof construction, wall courses, vegetation and shore detail without enlarging the objects. The source shows a broad region. Keep sparse mountains and substantial empty woods; no renewed forty-landmark list, giant caves, oversized cabins, stone circles or decorative ruins. At most one understated minor trail/shore detail where the panel brief allows it.\nSOUTHEAST: LEFT and TOP 26% are shared. Preserve the shown gold academy/city wall, coastal water, farms, villages and hidden small Shadowspire. Near the southern gate use Greyfield slum housing; farther villages remain maintained farm settlements. Country tracks stay thin and unpaved. Match the central avenue/wall and farmland to neighbor references, with no enlarged suburbs or extra monuments."
+    }
+  ],
+  "sourceSplits": [
+    {
+      "panel": 1,
+      "direction": "Northwest",
+      "file": "world-draft/map-variations/Glowhaven Panel Refinement/Input Splits/01 - Northwest.png",
+      "sha256": "78fdc4f8bd83dca3d8696623a752938be6819db6bb2fe72c93548ff7d491c102",
+      "source": "C:\\Users\\VladCodes\\Downloads\\Newmap\\splitimage.im-1.png",
+      "dimensions": [
+        627,
+        627
+      ]
+    },
+    {
+      "panel": 2,
+      "direction": "Northeast",
+      "file": "world-draft/map-variations/Glowhaven Panel Refinement/Input Splits/02 - Northeast.png",
+      "sha256": "19b15b28f0c7ba87a0cf20e35a794fc3fba76b322ff482a564085e7ff58163c7",
+      "source": "C:\\Users\\VladCodes\\Downloads\\Newmap\\splitimage.im-2.png",
+      "dimensions": [
+        627,
+        627
+      ]
+    },
+    {
+      "panel": 3,
+      "direction": "Southwest",
+      "file": "world-draft/map-variations/Glowhaven Panel Refinement/Input Splits/03 - Southwest.png",
+      "sha256": "6c136ab736c331447c07ad784e8d76e2d1cec3902ae50975275b12f03182338d",
+      "source": "C:\\Users\\VladCodes\\Downloads\\Newmap\\splitimage.im-3.png",
+      "dimensions": [
+        627,
+        627
+      ]
+    },
+    {
+      "panel": 4,
+      "direction": "Southeast",
+      "file": "world-draft/map-variations/Glowhaven Panel Refinement/Input Splits/04 - Southeast.png",
+      "sha256": "1deee7d651b7cac845e95f2d002318629061a0e8cb9d0329d35df59dccb0e626",
+      "source": "C:\\Users\\VladCodes\\Downloads\\Newmap\\splitimage.im-4.png",
+      "dimensions": [
+        627,
+        627
+      ]
+    }
+  ],
+  "canonicalSHA256": "4da8e98a2202370e02255e2cae00d5f822b2d1054261a634ce33effb0391756c",
+  "sourceMasterMatchesQuadrants": true,
+  "canonicalEdited": false,
+  "sourcesReadOnly": true,
+  "overlapPrepared": true,
+  "sourcePanelSize": [
+    720,
+    720
+  ],
+  "sharedSourcePixels": 186,
+  "sourceStep": 534
+}

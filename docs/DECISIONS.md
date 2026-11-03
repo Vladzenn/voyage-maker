@@ -2,6 +2,20 @@
 
 These notes carry context between desktop and web chats. They supplement the actual JSON and creation guides; newer explicit user instructions take precedence.
 
+## 3 November — author-adjusted Glowhaven master and overlapping detail panels (latest steering)
+
+The author's `mastermap.png` and two exact halves own composition and scale. The latest request reauthorizes split generation after the earlier cancellation. Redo both with a narrow overlap: source bounds x0–772 and x676–1448, 96 shared pixels. Preserve the adjusted layout and tiny building footprints; no further speculative full-map rerolls. Generated overlap still needs Photoshop alignment/masking.
+
+Restore original Evertree style—fine golden wood lattice around luminous blue core, pointed/teardrop openings, gold-green leaves—but keep the new oblique perspective, author-adjusted envelope, root-concealing palace sides and diagonal approach. Four Sages Bazaar has four robed founders on one low fountain pedestal within its circular pool and market arcades, not a lone spire. Screenshots supply identity, not UI/pins or a frontal camera. Both palace-front pools remain removed.
+
+Annotation colors indicate placement, not palettes. Cloud District is residential. The colosseum supplies individual-building scale; multi-building campuses differ. Keep straight diagonal main avenue, Wraith skull and the crossed-out eastern hall/yard absent from this illustration. Art delivery does not delete canonical records, move pins or authorize uploads.
+
+## 3 November — circular map refinements with shared overlap
+
+The author supplied four quadrants of sparse v4, then **cancelled the asymmetrical alternative**. Deliver only the established circular layout in the original art style. Use the Akitsuhara method: expanded overlapping crops, fully rendered shared terrain and enough repeated geography for Photoshop alignment and soft erasing/masking. Do not deliver four independent butt-joined images or promise pixel-perfect seams. Current crops are 720 × 720 with 186 shared source pixels on both central axes; tight first-pass renders serve only as detail references. No further asymmetrical generation.
+
+The southwest outside-wall settlement is Greyfield slum housing; other villages are maintained rural/coastal communities. Differentiate civic, commercial, artisan and residential districts while preserving tiny regional building footprints and sparse mountains/woods. The four work panels do not change the intended nine final regions. Final seam repair remains the author's step; canonical geography, coordinates and hosted map stay unchanged.
+
 ## 3 November — expanded Glowhaven map direction
 
 Artwork first: one square 3 × 3 composition master; author slices it, returns panels for detail regeneration and repairs seams. Preserve the original colorful Glowhaven rendering and city identity. City fits one center region; Evertree base remains at its northern edge, with a restrained trunk/canopy above. Top corners are mostly sky and distant mountains, including a teeny distant Asterveil hint in the upper right. A continuous non-snowy near mountain range runs down the northwest/west toward southwest forest. Northeastern Wraith Island remains tiny; preserve little coastal towns and inhabited island clusters. Greywatch Keep is the existing ruin at the yellow marker. Shadowspire stays small in southeast woodland.

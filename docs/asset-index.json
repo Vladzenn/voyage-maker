@@ -3355,6 +3355,111 @@
       "size": 3495031,
       "sha256": "5fc9d367487d8403276c2beb865f3b059fef72b974ebcd065f5548f9c6791c91",
       "mtimeNs": 1793681520690451300
+    },
+    "world-draft/map-variations/Glowhaven City Region Concepts/Glowhaven - City-Scale 4x3 Master v1.png": {
+      "size": 4592689,
+      "sha256": "af4d5f1e42f19bf1c4ec310f1f554f89515797886e51c48af0d28e040a375b0d",
+      "mtimeNs": 1793690317955640400
+    },
+    "world-draft/map-variations/Glowhaven City Region Concepts/Glowhaven - Oblique 4x3 Study v1.png": {
+      "size": 4222161,
+      "sha256": "b8bdb7260681e28e1a19687d9023be718db128aebd23ba6b2b830d542c4ca848",
+      "mtimeNs": 1793688645509050300
+    },
+    "world-draft/map-variations/Glowhaven City Region Concepts/Glowhaven - Ultrawide District Study v1.png": {
+      "size": 4493036,
+      "sha256": "ff6e7868b35b9b60093b03a5a093a8bb777212f7e219d7ba21592b8df20bed4b",
+      "mtimeNs": 1793689535932526500
+    },
+    "world-draft/map-variations/Glowhaven Panel Refinement/Circular With Overlap/01 - Northwest.png": {
+      "size": 3543239,
+      "sha256": "325a8ceca08fceca47efa9752ac266b07e1d2ece2dceb00145db91340875bfcb",
+      "mtimeNs": 1793686813482879000
+    },
+    "world-draft/map-variations/Glowhaven Panel Refinement/Circular With Overlap/02 - Northeast.png": {
+      "size": 3187323,
+      "sha256": "4ec8ad8410f64219f1a0430a335ac6d228c6eda0400f6e31a2c49bb82ab95615",
+      "mtimeNs": 1793686888879768100
+    },
+    "world-draft/map-variations/Glowhaven Panel Refinement/Circular With Overlap/03 - Southwest.png": {
+      "size": 4106635,
+      "sha256": "cf6f25829a5a76666007166f787b33cd96151fac4ad6a655a8a3c3496fffe34c",
+      "mtimeNs": 1793686321177336900
+    },
+    "world-draft/map-variations/Glowhaven Panel Refinement/Circular With Overlap/04 - Southeast.png": {
+      "size": 3715644,
+      "sha256": "3b6330d962e0597f888bd47eb019bc99b27e106f135a1817a6c842cb383633fc",
+      "mtimeNs": 1793686407209180700
+    },
+    "world-draft/map-variations/Glowhaven Panel Refinement/Input Splits/01 - Northwest.png": {
+      "size": 1001124,
+      "sha256": "78fdc4f8bd83dca3d8696623a752938be6819db6bb2fe72c93548ff7d491c102",
+      "mtimeNs": 1793683891873327800
+    },
+    "world-draft/map-variations/Glowhaven Panel Refinement/Input Splits/02 - Northeast.png": {
+      "size": 959468,
+      "sha256": "19b15b28f0c7ba87a0cf20e35a794fc3fba76b322ff482a564085e7ff58163c7",
+      "mtimeNs": 1793683892676405100
+    },
+    "world-draft/map-variations/Glowhaven Panel Refinement/Input Splits/03 - Southwest.png": {
+      "size": 1135533,
+      "sha256": "6c136ab736c331447c07ad784e8d76e2d1cec3902ae50975275b12f03182338d",
+      "mtimeNs": 1793683894258957900
+    },
+    "world-draft/map-variations/Glowhaven Panel Refinement/Input Splits/04 - Southeast.png": {
+      "size": 1120085,
+      "sha256": "1deee7d651b7cac845e95f2d002318629061a0e8cb9d0329d35df59dccb0e626",
+      "mtimeNs": 1793683896609852100
+    },
+    "world-draft/map-variations/Glowhaven City Region Concepts/Author Adjusted Splits/Glowhaven - Left Detail v2 - Narrow Overlap.png": {
+      "size": 4320684,
+      "sha256": "7204ccb6bfec35f41d8e6f9c66beefb0ff841463356f5367515b9047e3c01bab",
+      "mtimeNs": 1793698067752246600
+    },
+    "world-draft/map-variations/Glowhaven City Region Concepts/Author Adjusted Splits/Glowhaven - Right Detail v2 - Narrow Overlap.png": {
+      "size": 4074442,
+      "sha256": "715fcaa740a06ee9556b1497bca63f6790188e00ab139fbbcda9bae1aadd5d49",
+      "mtimeNs": 1793698140615501700
+    },
+    "world-draft/map-variations/Glowhaven City Region Concepts/Author Adjusted Splits/Narrow Overlap Inputs/Four Sages Fountain.png": {
+      "size": 1174098,
+      "sha256": "555945f4a3d8fbcf594a8063efa8535d0791ffb46e60b6945ffc48b90c74d027",
+      "mtimeNs": 1793697476551086900
+    },
+    "world-draft/map-variations/Glowhaven City Region Concepts/Author Adjusted Splits/Narrow Overlap Inputs/left.png": {
+      "size": 2136053,
+      "sha256": "56af2fdf7ff667362af4a642ae051e359cc85ea58280cde8506ec94deabb55fc",
+      "mtimeNs": 1793697734231671400
+    },
+    "world-draft/map-variations/Glowhaven City Region Concepts/Author Adjusted Splits/Narrow Overlap Inputs/Original Bazaar Map Crop.png": {
+      "size": 286172,
+      "sha256": "18b0c15c6f108e9059bc73e4edd172f8c1b6d742f85d89dcdea5a46afc4a9c79",
+      "mtimeNs": 1793697493077785300
+    },
+    "world-draft/map-variations/Glowhaven City Region Concepts/Author Adjusted Splits/Narrow Overlap Inputs/Original Evertree.png": {
+      "size": 860425,
+      "sha256": "7737610c3ebe66bf8c617012432af9fac09389e5430fb2048f9cad6971aee02c",
+      "mtimeNs": 1793697537066373800
+    },
+    "world-draft/map-variations/Glowhaven City Region Concepts/Author Adjusted Splits/Narrow Overlap Inputs/right.png": {
+      "size": 2091838,
+      "sha256": "641336f41bd08c9a5957a18fe3733ca0f62e02a6368bb5dd28eeac469e967462",
+      "mtimeNs": 1793697734332433300
+    },
+    "world-draft/map-variations/Glowhaven City Region Concepts/Author Adjusted Splits/Source/left.png": {
+      "size": 2240335,
+      "sha256": "86a5ebd2eefc33bcdf2bffb46ccdd6944f1c6ad3b33b6cd8aae854f16208c735",
+      "mtimeNs": 1793696893385707100
+    },
+    "world-draft/map-variations/Glowhaven City Region Concepts/Author Adjusted Splits/Source/master.png": {
+      "size": 3859799,
+      "sha256": "bde074ed0917bdf792eea8858df8cc346ab92399cf66dd2269caf23512f0d964",
+      "mtimeNs": 1793696854319154800
+    },
+    "world-draft/map-variations/Glowhaven City Region Concepts/Author Adjusted Splits/Source/right.png": {
+      "size": 2230395,
+      "sha256": "fc15c8f67a70247736ef62997fa0b539840333398a1afcc44c23888e1e782068",
+      "mtimeNs": 1793696894015634700
     }
   }
 }

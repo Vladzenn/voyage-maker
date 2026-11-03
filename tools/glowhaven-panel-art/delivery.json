@@ -1,0 +1,34 @@
+{
+  "panels": 4,
+  "nativeDimensions": [
+    1254,
+    1254
+  ],
+  "sourceSharedPixels": 186,
+  "approximateOutputOverlap": 324,
+  "startingCanvas": [
+    2184,
+    2184
+  ],
+  "placements": [
+    [
+      0,
+      0
+    ],
+    [
+      930,
+      0
+    ],
+    [
+      0,
+      930
+    ],
+    [
+      930,
+      930
+    ]
+  ],
+  "canonicalEdited": false,
+  "stitched": false,
+  "asymmetricalCancelled": true
+}

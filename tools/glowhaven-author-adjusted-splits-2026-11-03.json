@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-03",
+  "mode": "built-in image_gen",
+  "status": "historical; superseded by author-adjusted master and narrow-overlap v2 panels",
+  "authority": "The author's supplied mastermap.png and matching two splits supersede prior generated composition and scale corrections.",
+  "workflow": "Two exact supplied half-panels; no automatic overlap extension or master redesign. Detailed regeneration then author's Photoshop seam repair.",
+  "sourceMaster": "C:/Users/VladCodes/Downloads/mastermap.png",
+  "jobs": [
+    {
+      "side": "left",
+      "source": "C:/Users/VladCodes/Downloads/splitimage.im-1 (1).png",
+      "prompt": "Use case: precise-object-edit\nAsset: ONE higher-detail portrait map panel, part of a two-panel Glowhaven master. Image 1 is the EXACT PANEL TO REFINE. Image 2 is the AUTHOR-ADJUSTED MASTER, context for matching scale/light/style ONLY. The author's manual composition overrides any earlier generated maps. Return only the exact portrait panel covered by Image 1, same crop and 2:3 aspect ratio, at the highest available native portrait resolution. Do not show the full master, no zooming/camera changes, no crop drift, no borders or insets.\n\nPrimary request: re-illustrate the existing shapes into genuinely crisp fine architectural and terrain DETAIL at this closer panel view. Preserve all positions, footprints, building counts/density, relative sizes, street centerlines, skyline/terrain contours and landmarks. Individual tiny houses should resolve into believable small buildings with clean roof ridges/eaves, separate roof planes, chimneys, dormers where room permits, legible masonry/timber walls and discreet doors/windows. Narrow streets have clean paving edges and stay open; roofs must not merge into buttery clay mounds. Detail means more precisely drawn surface/construction, NOT bigger houses, towers, landmarks, roof shapes or more crowded streets. Keep the colosseum/Crucible as the large-building scale reference. Country houses remain the size of comparable city houses. Multiple-building academy campuses remain compounds, not colossal single castles.\n\nRendering: fine professional 2D fantasy architectural atlas illustration, lively but clear ink-like contours and controlled painted fills, precise matte materials, distinct tiny trees and rocks, fine foliage grouping, layered stone outcrops, readable river banks and bridge arches. Replace soft ambiguous blobs with considered structures inside their existing footprints. Avoid plastic 3D, rounded clay, smudged/oily paint, garish outlines, noisy fake sharpening or halos. MATCH source natural daylight, saturation, white balance and shadow direction; no saturation boost or new orange/blue grade. SAME established western fantasy architecture; no Akitsuhara/Japanese substitutions. No labels, pins, grid, UI, text or watermark.\n\nThe LEFT and RIGHT vertical edges are fixed cut lines of the master. All routes, wall arcs, rooftops, water and fields crossing any edge must enter/exit at the exact same proportions and angles as the reference. Preserve the partial features clipped by the crop; do not move whole landmarks into view or complete them inside the panel. Seam repair will be done later in Photoshop. No artificial edge cloud/forest screen. This is detailed artwork, not a redesign or automatic seamless-composite claim.\n\nTHIS IS THE WEST/LEFT PANEL (master x0–724). Keep western rocky mountain spine/woods, Greywatch ruin, little hot-spring bathhouse/pool and smoke, west gate/checkpoint, rushing river and stone bridges, southern rough outside-wall Greyfield roofs and rural farms/village. Keep Phoenix academy red and Gryffin academy teal at their exact sites/footprints. Preserve THE AUTHOR'S EVERTREE AND PALACE SHAPES/SIZE/POSITION exactly: gold intertwined trunk, blue mana, broad gold-green canopy; small palace at the foot with concealed roots, author's existing approach. Do not shrink/grow/re-angle/redesign tree or palace in this detail pass. No two palace-front pools added back. Keep affluent residential lanes around it. Central fountain and straight diagonal avenue are cropped by the RIGHT EDGE exactly as supplied. Fine gardens, stonework, leaves and tiny roof detail, no new features."
+    },
+    {
+      "side": "right",
+      "source": "C:/Users/VladCodes/Downloads/splitimage.im-2 (1).png",
+      "prompt": "Use case: precise-object-edit\nAsset: ONE higher-detail portrait map panel, part of a two-panel Glowhaven master. Image 1 is the EXACT PANEL TO REFINE. Image 2 is the AUTHOR-ADJUSTED MASTER, context for matching scale/light/style ONLY. The author's manual composition overrides any earlier generated maps. Return only the exact portrait panel covered by Image 1, same crop and 2:3 aspect ratio, at the highest available native portrait resolution. Do not show the full master, no zooming/camera changes, no crop drift, no borders or insets.\n\nPrimary request: re-illustrate the existing shapes into genuinely crisp fine architectural and terrain DETAIL at this closer panel view. Preserve all positions, footprints, building counts/density, relative sizes, street centerlines, skyline/terrain contours and landmarks. Individual tiny houses should resolve into believable small buildings with clean roof ridges/eaves, separate roof planes, chimneys, dormers where room permits, legible masonry/timber walls and discreet doors/windows. Narrow streets have clean paving edges and stay open; roofs must not merge into buttery clay mounds. Detail means more precisely drawn surface/construction, NOT bigger houses, towers, landmarks, roof shapes or more crowded streets. Keep the colosseum/Crucible as the large-building scale reference. Country houses remain the size of comparable city houses. Multiple-building academy campuses remain compounds, not colossal single castles.\n\nRendering: fine professional 2D fantasy architectural atlas illustration, lively but clear ink-like contours and controlled painted fills, precise matte materials, distinct tiny trees and rocks, fine foliage grouping, layered stone outcrops, readable river banks and bridge arches. Replace soft ambiguous blobs with considered structures inside their existing footprints. Avoid plastic 3D, rounded clay, smudged/oily paint, garish outlines, noisy fake sharpening or halos. MATCH source natural daylight, saturation, white balance and shadow direction; no saturation boost or new orange/blue grade. SAME established western fantasy architecture; no Akitsuhara/Japanese substitutions. No labels, pins, grid, UI, text or watermark.\n\nThe LEFT and RIGHT vertical edges are fixed cut lines of the master. All routes, wall arcs, rooftops, water and fields crossing any edge must enter/exit at the exact same proportions and angles as the reference. Preserve the partial features clipped by the crop; do not move whole landmarks into view or complete them inside the panel. Seam repair will be done later in Photoshop. No artificial edge cloud/forest screen. This is detailed artwork, not a redesign or automatic seamless-composite claim.\n\nTHIS IS THE EAST/RIGHT PANEL (master x724–1448). Keep the colosseum/Eternal Crucible, violet Hydra academy and gold Dragon academy at their exact sizes/positions, civic hall, small teal-roof teahouse, east dock gateway, walls, main south gate, straight main avenue and all neighborhoods. The previously removed east-central hall/yard must stay absent; ordinary roofs remain there. Keep working harbor warehouses/docks, masts/ships, small coastline beaches and fishing settlements, southern fields/woods and slender blue southeast woodland tower. Keep Wraith Island's tiny natural skull cliff on the FAR UPPER RIGHT island: refine its existing rocky eye/mouth detail without enlarging/moving it or turning it into a symbol. Other inhabited islands and lighthouse remain in place. Central fountain/road partial features stay clipped at the LEFT edge. No palace/tree insertion into this crop. Water, sails, roof tiles and precise tiny architecture need detail, not enlargement."
+    }
+  ],
+  "canonicalWorldEdited": false,
+  "uploaded": false,
+  "sources": {
+    "master": {
+      "file": "world-draft/map-variations/Glowhaven City Region Concepts/Author Adjusted Splits/Source/master.png",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "sha256": "bde074ed0917bdf792eea8858df8cc346ab92399cf66dd2269caf23512f0d964",
+      "bytes": 3859799,
+      "resampled": false
+    },
+    "left": {
+      "file": "world-draft/map-variations/Glowhaven City Region Concepts/Author Adjusted Splits/Source/left.png",
+      "dimensions": [
+        724,
+        1086
+      ],
+      "sha256": "86a5ebd2eefc33bcdf2bffb46ccdd6944f1c6ad3b33b6cd8aae854f16208c735",
+      "bytes": 2240335,
+      "resampled": false
+    },
+    "right": {
+      "file": "world-draft/map-variations/Glowhaven City Region Concepts/Author Adjusted Splits/Source/right.png",
+      "dimensions": [
+        724,
+        1086
+      ],
+      "sha256": "fc15c8f67a70247736ef62997fa0b539840333398a1afcc44c23888e1e782068",
+      "bytes": 2230395,
+      "resampled": false
+    },
+    "leftMatchesMaster": true,
+    "rightMatchesMaster": true
+  },
+  "canonicalWorldSHA256": "4DA8E98A2202370E02255E2CAE00D5F822B2D1054261A634CE33EFFB0391756C"
+}

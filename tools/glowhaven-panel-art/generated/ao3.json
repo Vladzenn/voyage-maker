@@ -1,0 +1,20 @@
+{
+  "id": "ao3",
+  "set": "Circular With Overlap",
+  "panel": 3,
+  "direction": "Southwest",
+  "file": "world-draft/map-variations/Glowhaven Panel Refinement/Circular With Overlap/03 - Southwest.png",
+  "sourceBounds": [
+    0,
+    534,
+    720,
+    1254
+  ],
+  "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-1c1d65b9-2070-4366-9b0e-fe96940a78f8.png",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "sha256": "cf6f25829a5a76666007166f787b33cd96151fac4ad6a655a8a3c3496fffe34c",
+  "status": "visually reviewed; shared geography present, manual alignment and masking required"
+}

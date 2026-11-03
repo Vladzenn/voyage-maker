@@ -1,0 +1,80 @@
+{
+  "date": "2026-11-03",
+  "mode": "built-in image_gen",
+  "status": "both overlapping native panels saved for review; Photoshop seam repair remains necessary",
+  "sourceMaster": "world-draft/map-variations/Glowhaven City Region Concepts/Author Adjusted Splits/Source/master.png",
+  "preparation": "world-draft/map-variations/Glowhaven City Region Concepts/Author Adjusted Splits/Narrow Overlap Inputs/preparation.json",
+  "sourcePanelDimensions": [
+    772,
+    1086
+  ],
+  "sourceOverlap": 96,
+  "sourceBounds": {
+    "left": [
+      0,
+      0,
+      772,
+      1086
+    ],
+    "right": [
+      676,
+      0,
+      1448,
+      1086
+    ]
+  },
+  "authority": "Author-adjusted master controls layout/scale. Original tree and Four Sages art control restored identity only, viewed obliquely.",
+  "jobs": [
+    {
+      "side": "left",
+      "prompt": "Use case: precise-object-edit\nDeliver ONE HIGH-DETAIL GLOWHAVEN MAP PANEL. Image 1 is the EXACT EXTENDED PANEL to render, 772x1086 source pixels. Preserve that portrait ratio (386:543), ALL of its framing and exact boundaries; highest native detail available. It comes from the author's manually adjusted master. No zoom, no reframing, no master redesign, no clipping off the extra inner strip. Return the complete extended panel, not a tight half.\n\nNARROW SHARED SEAM STRIP: Both outputs share master x676–772, exactly 96 source pixels. Fully illustrate every detail to the edges, no blank band, fade, cloud curtain or border. Preserve positions and angles of paths, roofs, wall arcs, mountain contours and fields in this shared strip. Same light and scale for both sides. Each panel can be Photoshop aligned/masked later; do not force features away from the seam or duplicate anything inside one panel.\n\nDETAIL: genuinely re-illustrate blurry source shapes with crisp deliberate fine 2D linework and controlled painted color. Resolve tiny houses into believable narrow roof planes, slate/clay tiles, eaves, chimneys, restrained window/door detail, timber and stone walls. Precise paving and garden walls; individual tree crowns and rocks; coherent bridge arches, shoreline and fields. Do not enlarge houses/landmarks to show detail or replace many tiny houses with fewer big buildings. Use the existing colosseum as scale reference: houses and ordinary structures much smaller. Preserve the author's street layout and every landmark footprint. No increase in saturation, no change of daylight/shadow direction, no orangey grade. Fine fantasy-anime architectural atlas art, matte stone and timber, no rounded clay/plastic, buttery smoothing, oily smears or sharpen halos. No UI, pins, map dots, text, labels, borders or watermarks.\n\nFOUR SAGES BAZAAR CORRECTION (the one intentional small landmark change in BOTH shared seam strips): Keep the EXISTING central round fountain pool/plaza at its exact current site/scale, and restore its authentic founders' monument from the provided references. The centerpiece is FOUR individual pale stone SAGE/WIZARD STATUES on ONE compact low sculpted pedestal in the water: robed figures with distinctive pointed/brimmed hats, two standing and two seated, staffs/books, turned in different directions around the group. It is NOT a lone tall spire/needle/obelisk, not four huge columns, not a palace, not four separate fountains. Match authentic fountain reference's low ornate base, restrained turquoise/gold inset details, modest cascading water into the surrounding round basin. From this high oblique aerial view the four statues are TINY but separate recognizable robed silhouettes, subordinate to buildings/colosseum, no enlarged portrait statue. Keep circular paved meeting space and surrounding low market arcades/stalls/small awnings. North arcade faces fountain, east shops toward Merchant's Row, south opens to main approach, west to civic streets. Source map has four arcades around one central market square; keep routes open and intact. Do not copy the reference photo camera or expand its architecture into new giant buildings. Ignore white dots/blue marker/screenshot UI in old map crop. Preserve straight avenue and all road connection positions.\n\nLEFT/WEST PANEL REFERENCE ROLES: Image1 extended source panel to refine. Image2 ORIGINAL EVERTREE DETAIL is its STYLE/IDENTITY reference only. Image3 Four Sages Fountain is statue identity only. Image4 old Bazaar map crop is basin/arcade arrangement only. Image5 author master is overall geometry context ONLY, do not output whole landscape.\n\nRESTORE ORIGINAL EVERTREE VISUAL STYLE within the author's current tree envelope, at exactly current site/height/canopy width: original tree has an elongated continuous LUMINOUS BLUE MANA CORE, visible through open gaps in a delicate intertwined GOLDEN WOOD LATTICE, slender golden bark ribbons/branches wrapping and merging naturally around the blue core. It is not a chunky ordinary solid-brown tree with just narrow blue cracks. Add the distinctive pointed/teardrop blue luminous openings and fine gold branch tracery visible in Image2, natural gold-green foliage and delicate descending magical light threads. KEEP THE NEW OBLIQUE PERSPECTIVE: show the gold lattice and blue openings wrapping around the trunk in three-dimensional depth; asymmetrical branch sides, foreshortening and partial occlusion. Do NOT paste a flat frontal emblem or rotate the tree/palace to face camera. Palace doorway follows the current diagonal approach, side-hugging pale buildings hide roots, do not change palace footprint/scale or add front pools. Use author's broad canopy envelope, no crown enlargement, no return to earlier oversized palace/tree. Refine fine leaf clusters and light, not size.\n\nKeep western mountains/ruin/hot spring, west gate, river/bridges, red Phoenix and teal Gryffin academies, neighborhood layout, outside-wall rough slum and maintained rural settlements, fields exactly where source has them. Inner shared strip is the RIGHTMOST 96 source pixels. The Four Sages monument may be visible very near right edge; keep its absolute position, do not pull it inward. Preserve its full clipped/visible geometry and all shared road/fountain edges. One complete extended LEFT portrait panel.",
+      "references": [
+        "Narrow Overlap Inputs/left.png",
+        "Narrow Overlap Inputs/Original Evertree.png",
+        "Narrow Overlap Inputs/Four Sages Fountain.png",
+        "Narrow Overlap Inputs/Original Bazaar Map Crop.png",
+        "Source/master.png"
+      ],
+      "output": {
+        "file": "world-draft/map-variations/Glowhaven City Region Concepts/Author Adjusted Splits/Glowhaven - Left Detail v2 - Narrow Overlap.png",
+        "generatedSource": "exec-0f65deaf-e951-4f6c-b78e-268859cb3829.png",
+        "dimensions": [
+          1058,
+          1487
+        ],
+        "bytes": 4320684,
+        "sha256": "7204ccb6bfec35f41d8e6f9c66beefb0ff841463356f5367515b9047e3c01bab",
+        "resampled": false
+      }
+    },
+    {
+      "side": "right",
+      "prompt": "Use case: precise-object-edit\nDeliver ONE HIGH-DETAIL GLOWHAVEN MAP PANEL. Image 1 is the EXACT EXTENDED PANEL to render, 772x1086 source pixels. Preserve that portrait ratio (386:543), ALL of its framing and exact boundaries; highest native detail available. It comes from the author's manually adjusted master. No zoom, no reframing, no master redesign, no clipping off the extra inner strip. Return the complete extended panel, not a tight half.\n\nNARROW SHARED SEAM STRIP: Both outputs share master x676–772, exactly 96 source pixels. Fully illustrate every detail to the edges, no blank band, fade, cloud curtain or border. Preserve positions and angles of paths, roofs, wall arcs, mountain contours and fields in this shared strip. Same light and scale for both sides. Each panel can be Photoshop aligned/masked later; do not force features away from the seam or duplicate anything inside one panel.\n\nDETAIL: genuinely re-illustrate blurry source shapes with crisp deliberate fine 2D linework and controlled painted color. Resolve tiny houses into believable narrow roof planes, slate/clay tiles, eaves, chimneys, restrained window/door detail, timber and stone walls. Precise paving and garden walls; individual tree crowns and rocks; coherent bridge arches, shoreline and fields. Do not enlarge houses/landmarks to show detail or replace many tiny houses with fewer big buildings. Use the existing colosseum as scale reference: houses and ordinary structures much smaller. Preserve the author's street layout and every landmark footprint. No increase in saturation, no change of daylight/shadow direction, no orangey grade. Fine fantasy-anime architectural atlas art, matte stone and timber, no rounded clay/plastic, buttery smoothing, oily smears or sharpen halos. No UI, pins, map dots, text, labels, borders or watermarks.\n\nFOUR SAGES BAZAAR CORRECTION (the one intentional small landmark change in BOTH shared seam strips): Keep the EXISTING central round fountain pool/plaza at its exact current site/scale, and restore its authentic founders' monument from the provided references. The centerpiece is FOUR individual pale stone SAGE/WIZARD STATUES on ONE compact low sculpted pedestal in the water: robed figures with distinctive pointed/brimmed hats, two standing and two seated, staffs/books, turned in different directions around the group. It is NOT a lone tall spire/needle/obelisk, not four huge columns, not a palace, not four separate fountains. Match authentic fountain reference's low ornate base, restrained turquoise/gold inset details, modest cascading water into the surrounding round basin. From this high oblique aerial view the four statues are TINY but separate recognizable robed silhouettes, subordinate to buildings/colosseum, no enlarged portrait statue. Keep circular paved meeting space and surrounding low market arcades/stalls/small awnings. North arcade faces fountain, east shops toward Merchant's Row, south opens to main approach, west to civic streets. Source map has four arcades around one central market square; keep routes open and intact. Do not copy the reference photo camera or expand its architecture into new giant buildings. Ignore white dots/blue marker/screenshot UI in old map crop. Preserve straight avenue and all road connection positions.\n\nRIGHT/EAST PANEL REFERENCE ROLES: Image1 extended source panel to refine. Image2 Four Sages Fountain is statue identity only. Image3 old Bazaar map crop is basin/arcade arrangement only. Image4 author master is overall geometry context ONLY. Do not output the whole landscape.\n\nKeep violet Hydra and gold Dragon academy compounds, true Eternal Crucible colosseum, civic hall, modest teal-roof teahouse, all neighborhoods, straight diagonal avenue/new south gate and eastern dock gate exactly at current footprints. The removed east-central hall/training yard stays absent. Working harbor warehouses, wooden wharves, sails/rigging and merchant ships need fine detail at SAME small scale. Keep coast/beaches/coastal hamlets, southern wooded tower/farms, inhabited islands/lighthouse. Tiny Wraith Island skull cliff on upper-right remains a natural skull-shaped grey rock, not a giant icon; don't enlarge it. Inner shared strip is the LEFTMOST 96 source pixels. The Four Sages statue group near left edge retains correct absolute position/partial clipping; do not move it inward, do not replace with a spire. Do not add a second fountain or invent a tree/palace in this right crop. One complete extended RIGHT portrait panel.",
+      "references": [
+        "Narrow Overlap Inputs/right.png",
+        "Narrow Overlap Inputs/Four Sages Fountain.png",
+        "Narrow Overlap Inputs/Original Bazaar Map Crop.png",
+        "Source/master.png"
+      ],
+      "output": {
+        "file": "world-draft/map-variations/Glowhaven City Region Concepts/Author Adjusted Splits/Glowhaven - Right Detail v2 - Narrow Overlap.png",
+        "generatedSource": "exec-e6df40b4-36d3-40ee-9f92-692ba48e96d5.png",
+        "dimensions": [
+          1058,
+          1487
+        ],
+        "bytes": 4074442,
+        "sha256": "715fcaa740a06ee9556b1497bca63f6790188e00ab139fbbcda9bae1aadd5d49",
+        "resampled": false
+      }
+    }
+  ],
+  "supersedes": {
+    "leftTight": "exec-32dd2107-f6c5-43bd-82cd-476d14e3a43e.png",
+    "rightTight": "exec-55b2883a-6dc8-4b87-867f-5d6e4272f4fb.png",
+    "reason": "Author requested narrow overlap and original Four Sages/Evertree identity."
+  },
+  "canonicalWorldEdited": false,
+  "uploaded": false,
+  "canonicalWorldSHA256": "4DA8E98A2202370E02255E2CAE00D5F822B2D1054261A634CE33EFFB0391756C"
+}

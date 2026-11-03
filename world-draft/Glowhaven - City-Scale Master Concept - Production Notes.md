@@ -1,0 +1,13 @@
+# Glowhaven — city-scale master concept production notes
+
+2026-11-03. Current delivery: two native detailed narrow-overlap panels from the author's manually adjusted master, generated with built-in image_gen.
+
+Latest: [Left Detail v2](map-variations/Glowhaven%20City%20Region%20Concepts/Author%20Adjusted%20Splits/Glowhaven%20-%20Left%20Detail%20v2%20-%20Narrow%20Overlap.png), [Right Detail v2](map-variations/Glowhaven%20City%20Region%20Concepts/Author%20Adjusted%20Splits/Glowhaven%20-%20Right%20Detail%20v2%20-%20Narrow%20Overlap.png). Exact prompts/references, dimensions and hashes: [manifest](../tools/glowhaven-author-adjusted-overlap-2026-11-03.json). Original pixels copied without resizing, sharpening or retouch. Assembly Guide sits beside the PNGs.
+
+The author's 1448 × 1086 master and two 724 × 1086 halves are preserved under `Author Adjusted Splits/Source`. Decoded RGB comparison verifies exact halves. They supersede our earlier palace/tree size guesses. The first tight detail pair was redone at the author's request: extended sources are 772 × 1086, x0–772 and x676–1448, sharing 96 pixels. Both render the repeated strip; no blank fades or automatic stitching. Generated fine geometry can shift, so Photoshop registration and masking remain necessary.
+
+Four Sages Bazaar restores four tiny pale robed sage statues—two standing, two seated, hats and staffs/books—on one low shared pedestal within the existing round fountain, with market arcades/routes preserved. Original location art and old map crop supply identity. Evertree restores original golden wood lattice around a luminous blue core and teardrop openings, kept oblique within the author's current envelope, with roots concealed by close palace architecture. No two palace-front pools added back.
+
+Preserve huge-city scale, tiny roofs, natural district colors, straight diagonal avenue, academies/Crucible/harbor, slums and rural/coastal settlements, western mountains and Wraith skull. Detail means resolved architecture/materials, not enlargement. Colosseum is the ordinary-building scale reference. The catalogue's 68 Glowhaven locations inform requirements, not proof of exact pin correspondence.
+
+Earlier 4:3/ultrawide, literal annotation color, radical blue-tree, distorted/oversized palace and tight split drafts are superseded. Their exact prompts remain historical. No canonical world, coordinate, NPC, hosted map or Spider Realm changes occurred. World hash is unchanged; no Studio upload, live validation or playtest is claimed. No further reroll or grid slicing is automatically authorized. GitHub synchronization is reported only after publish succeeds.

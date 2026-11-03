@@ -1,0 +1,627 @@
+{
+  "date": "2026-11-03",
+  "status": "Historical preview-only study; superseded by return to supplied sparse splits",
+  "canonicalSHA256": "4da8e98a2202370e02255e2cae00d5f822b2d1054261a634ce33effb0391756c",
+  "canonicalEdited": false,
+  "locationCount": 68,
+  "grid": [
+    3,
+    3
+  ],
+  "placementScope": "Proposed visual grouping only, not native region or coordinate edits",
+  "locations": [
+    {
+      "location": "Phoenix Wing Academy",
+      "visualRow": 2,
+      "visualColumn": 2,
+      "conceptCell": "Glowhaven City",
+      "existingX": -17,
+      "existingY": 12,
+      "appliedToWorld": false
+    },
+    {
+      "location": "Hydra Head Academy",
+      "visualRow": 2,
+      "visualColumn": 2,
+      "conceptCell": "Glowhaven City",
+      "existingX": 17,
+      "existingY": 9,
+      "appliedToWorld": false
+    },
+    {
+      "location": "Gryffin Tail Academy",
+      "visualRow": 2,
+      "visualColumn": 2,
+      "conceptCell": "Glowhaven City",
+      "existingX": -17,
+      "existingY": -8,
+      "appliedToWorld": false
+    },
+    {
+      "location": "Dragon Hoard Academy",
+      "visualRow": 2,
+      "visualColumn": 2,
+      "conceptCell": "Glowhaven City",
+      "existingX": 22,
+      "existingY": -9,
+      "appliedToWorld": false
+    },
+    {
+      "location": "The Grand Sage's Court",
+      "visualRow": 2,
+      "visualColumn": 2,
+      "conceptCell": "Glowhaven City",
+      "existingX": 0,
+      "existingY": 17,
+      "appliedToWorld": false
+    },
+    {
+      "location": "Cloud District",
+      "visualRow": 2,
+      "visualColumn": 2,
+      "conceptCell": "Glowhaven City",
+      "existingX": 5,
+      "existingY": 14,
+      "appliedToWorld": false
+    },
+    {
+      "location": "Merchant's Row",
+      "visualRow": 2,
+      "visualColumn": 2,
+      "conceptCell": "Glowhaven City",
+      "existingX": 8,
+      "existingY": -2,
+      "appliedToWorld": false
+    },
+    {
+      "location": "East City Gate",
+      "visualRow": 2,
+      "visualColumn": 2,
+      "conceptCell": "Glowhaven City",
+      "existingX": 31,
+      "existingY": 1,
+      "appliedToWorld": false
+    },
+    {
+      "location": "West City Gate",
+      "visualRow": 2,
+      "visualColumn": 2,
+      "conceptCell": "Glowhaven City",
+      "existingX": -32,
+      "existingY": 1,
+      "appliedToWorld": false
+    },
+    {
+      "location": "Caravan Outpost",
+      "visualRow": 2,
+      "visualColumn": 1,
+      "conceptCell": "Western Caravan Road",
+      "existingX": -41,
+      "existingY": -8,
+      "appliedToWorld": false
+    },
+    {
+      "location": "The Emberfox Hot Spring",
+      "visualRow": 1,
+      "visualColumn": 1,
+      "conceptCell": "Western Ridges",
+      "existingX": -38,
+      "existingY": 18,
+      "appliedToWorld": false
+    },
+    {
+      "location": "Greywatch Keep",
+      "visualRow": 1,
+      "visualColumn": 1,
+      "conceptCell": "Western Ridges",
+      "existingX": -28,
+      "existingY": 25,
+      "appliedToWorld": false
+    },
+    {
+      "location": "Saltmere",
+      "visualRow": 1,
+      "visualColumn": 3,
+      "conceptCell": "Offshore Islands",
+      "existingX": 20,
+      "existingY": 22,
+      "appliedToWorld": false
+    },
+    {
+      "location": "The Everlight Public Library",
+      "visualRow": 2,
+      "visualColumn": 2,
+      "conceptCell": "Glowhaven City",
+      "existingX": -11,
+      "existingY": -12,
+      "appliedToWorld": false
+    },
+    {
+      "location": "Brookmeadow",
+      "visualRow": 3,
+      "visualColumn": 2,
+      "conceptCell": "Brookmeadow Plain",
+      "existingX": -5,
+      "existingY": -37,
+      "appliedToWorld": false
+    },
+    {
+      "location": "The Jade Cup Teahouse",
+      "visualRow": 2,
+      "visualColumn": 2,
+      "conceptCell": "Glowhaven City",
+      "existingX": 11,
+      "existingY": -14,
+      "appliedToWorld": false
+    },
+    {
+      "location": "Four Sages Bazaar",
+      "visualRow": 2,
+      "visualColumn": 2,
+      "conceptCell": "Glowhaven City",
+      "existingX": 0,
+      "existingY": 1,
+      "appliedToWorld": false
+    },
+    {
+      "location": "The Eternal Crucible",
+      "visualRow": 2,
+      "visualColumn": 2,
+      "conceptCell": "Glowhaven City",
+      "existingX": 11,
+      "existingY": 4,
+      "appliedToWorld": false
+    },
+    {
+      "location": "Whitecrest Harbor",
+      "visualRow": 2,
+      "visualColumn": 3,
+      "conceptCell": "Pinewake Coast",
+      "existingX": 21,
+      "existingY": 16,
+      "appliedToWorld": false
+    },
+    {
+      "location": "East Greyfield",
+      "visualRow": 3,
+      "visualColumn": 2,
+      "conceptCell": "Brookmeadow Plain",
+      "existingX": -11,
+      "existingY": -27,
+      "appliedToWorld": false
+    },
+    {
+      "location": "West Greyfield",
+      "visualRow": 3,
+      "visualColumn": 2,
+      "conceptCell": "Brookmeadow Plain",
+      "existingX": -25,
+      "existingY": -20,
+      "appliedToWorld": false
+    },
+    {
+      "location": "Main City Gate",
+      "visualRow": 2,
+      "visualColumn": 2,
+      "conceptCell": "Glowhaven City",
+      "existingX": 0,
+      "existingY": -26,
+      "appliedToWorld": false
+    },
+    {
+      "location": "The Grand Approach",
+      "visualRow": 2,
+      "visualColumn": 2,
+      "conceptCell": "Glowhaven City",
+      "existingX": 0,
+      "existingY": -9,
+      "appliedToWorld": false
+    },
+    {
+      "location": "Briarcrest Manor",
+      "visualRow": 2,
+      "visualColumn": 2,
+      "conceptCell": "Glowhaven City",
+      "existingX": 15,
+      "existingY": 14,
+      "appliedToWorld": false
+    },
+    {
+      "location": "Willowbend Residential District",
+      "visualRow": 2,
+      "visualColumn": 2,
+      "conceptCell": "Glowhaven City",
+      "existingX": 6,
+      "existingY": -7,
+      "appliedToWorld": false
+    },
+    {
+      "location": "City Guard Headquarters",
+      "visualRow": 2,
+      "visualColumn": 2,
+      "conceptCell": "Glowhaven City",
+      "existingX": -10,
+      "existingY": 9,
+      "appliedToWorld": false
+    },
+    {
+      "location": "Stargarden Manor",
+      "visualRow": 2,
+      "visualColumn": 2,
+      "conceptCell": "Glowhaven City",
+      "existingX": -12,
+      "existingY": 15,
+      "appliedToWorld": false
+    },
+    {
+      "location": "The Grand Ascent",
+      "visualRow": 2,
+      "visualColumn": 2,
+      "conceptCell": "Glowhaven City",
+      "existingX": 0,
+      "existingY": 12,
+      "appliedToWorld": false
+    },
+    {
+      "location": "The Wandering Quill",
+      "visualRow": 2,
+      "visualColumn": 2,
+      "conceptCell": "Glowhaven City",
+      "existingX": -21,
+      "existingY": 7,
+      "appliedToWorld": false
+    },
+    {
+      "location": "Bramble & Bottle",
+      "visualRow": 2,
+      "visualColumn": 2,
+      "conceptCell": "Glowhaven City",
+      "existingX": -23,
+      "existingY": 8,
+      "appliedToWorld": false
+    },
+    {
+      "location": "The Gilded Griffin",
+      "visualRow": 2,
+      "visualColumn": 2,
+      "conceptCell": "Glowhaven City",
+      "existingX": -25,
+      "existingY": 7,
+      "appliedToWorld": false
+    },
+    {
+      "location": "Wayfarer's Goods",
+      "visualRow": 2,
+      "visualColumn": 2,
+      "conceptCell": "Glowhaven City",
+      "existingX": -4,
+      "existingY": 6,
+      "appliedToWorld": false
+    },
+    {
+      "location": "Crooked Tankard",
+      "visualRow": 2,
+      "visualColumn": 2,
+      "conceptCell": "Glowhaven City",
+      "existingX": 11,
+      "existingY": -4,
+      "appliedToWorld": false
+    },
+    {
+      "location": "Roseberry Inn",
+      "visualRow": 2,
+      "visualColumn": 2,
+      "conceptCell": "Glowhaven City",
+      "existingX": -11,
+      "existingY": -2,
+      "appliedToWorld": false
+    },
+    {
+      "location": "Driftstone Isle",
+      "visualRow": 1,
+      "visualColumn": 3,
+      "conceptCell": "Offshore Islands",
+      "existingX": 29,
+      "existingY": 25,
+      "appliedToWorld": false
+    },
+    {
+      "location": "Pinewake Coast",
+      "visualRow": 2,
+      "visualColumn": 3,
+      "conceptCell": "Pinewake Coast",
+      "existingX": 15,
+      "existingY": 26,
+      "appliedToWorld": false
+    },
+    {
+      "location": "Clovermead",
+      "visualRow": 1,
+      "visualColumn": 2,
+      "conceptCell": "Evertree Lakelands",
+      "existingX": 28,
+      "existingY": 32,
+      "appliedToWorld": false
+    },
+    {
+      "location": "Pebblewick",
+      "visualRow": 2,
+      "visualColumn": 3,
+      "conceptCell": "Pinewake Coast",
+      "existingX": 35,
+      "existingY": -10,
+      "appliedToWorld": false
+    },
+    {
+      "location": "Crescent Shores",
+      "visualRow": 2,
+      "visualColumn": 3,
+      "conceptCell": "Pinewake Coast",
+      "existingX": 39,
+      "existingY": -16,
+      "appliedToWorld": false
+    },
+    {
+      "location": "Seabreeze Inn",
+      "visualRow": 2,
+      "visualColumn": 3,
+      "conceptCell": "Pinewake Coast",
+      "existingX": 36,
+      "existingY": -3,
+      "appliedToWorld": false
+    },
+    {
+      "location": "Glowhaven Farmlands",
+      "visualRow": 3,
+      "visualColumn": 2,
+      "conceptCell": "Brookmeadow Plain",
+      "existingX": 10,
+      "existingY": -34,
+      "appliedToWorld": false
+    },
+    {
+      "location": "Hermit's hut",
+      "visualRow": 3,
+      "visualColumn": 1,
+      "conceptCell": "Pinewater Country",
+      "existingX": -41,
+      "existingY": -43,
+      "appliedToWorld": false
+    },
+    {
+      "location": "Pinewater River",
+      "visualRow": 3,
+      "visualColumn": 1,
+      "conceptCell": "Pinewater Country",
+      "existingX": -33,
+      "existingY": -33,
+      "appliedToWorld": false
+    },
+    {
+      "location": "West Glowhaven Woods",
+      "visualRow": 1,
+      "visualColumn": 1,
+      "conceptCell": "Western Ridges",
+      "existingX": -44,
+      "existingY": 11,
+      "appliedToWorld": false
+    },
+    {
+      "location": "Pebbletown",
+      "visualRow": 3,
+      "visualColumn": 1,
+      "conceptCell": "Pinewater Country",
+      "existingX": 13,
+      "existingY": -27,
+      "appliedToWorld": false
+    },
+    {
+      "location": "Sage's Spire",
+      "visualRow": 2,
+      "visualColumn": 2,
+      "conceptCell": "Glowhaven City",
+      "existingX": 3,
+      "existingY": 20,
+      "appliedToWorld": false
+    },
+    {
+      "location": "Violet Thread",
+      "visualRow": 2,
+      "visualColumn": 2,
+      "conceptCell": "Glowhaven City",
+      "existingX": -5,
+      "existingY": -2,
+      "appliedToWorld": false
+    },
+    {
+      "location": "The Perfumed Rose",
+      "visualRow": 2,
+      "visualColumn": 2,
+      "conceptCell": "Glowhaven City",
+      "existingX": -3,
+      "existingY": -3,
+      "appliedToWorld": false
+    },
+    {
+      "location": "The Golden Ladle",
+      "visualRow": 2,
+      "visualColumn": 2,
+      "conceptCell": "Glowhaven City",
+      "existingX": -22,
+      "existingY": -3,
+      "appliedToWorld": false
+    },
+    {
+      "location": "The Farmer's Exchange",
+      "visualRow": 2,
+      "visualColumn": 2,
+      "conceptCell": "Glowhaven City",
+      "existingX": 5,
+      "existingY": 3,
+      "appliedToWorld": false
+    },
+    {
+      "location": "Rune and Raven's",
+      "visualRow": 2,
+      "visualColumn": 2,
+      "conceptCell": "Glowhaven City",
+      "existingX": -21,
+      "existingY": 3,
+      "appliedToWorld": false
+    },
+    {
+      "location": "Moonwhisker Emporium",
+      "visualRow": 2,
+      "visualColumn": 2,
+      "conceptCell": "Glowhaven City",
+      "existingX": -25,
+      "existingY": 3,
+      "appliedToWorld": false
+    },
+    {
+      "location": "Blackstone Smithy",
+      "visualRow": 2,
+      "visualColumn": 2,
+      "conceptCell": "Glowhaven City",
+      "existingX": -26,
+      "existingY": -2,
+      "appliedToWorld": false
+    },
+    {
+      "location": "The Silver Anvil",
+      "visualRow": 2,
+      "visualColumn": 2,
+      "conceptCell": "Glowhaven City",
+      "existingX": -26,
+      "existingY": -9,
+      "appliedToWorld": false
+    },
+    {
+      "location": "The Carpenter's Measure",
+      "visualRow": 2,
+      "visualColumn": 2,
+      "conceptCell": "Glowhaven City",
+      "existingX": -22,
+      "existingY": -12,
+      "appliedToWorld": false
+    },
+    {
+      "location": "Hide & Hammer",
+      "visualRow": 2,
+      "visualColumn": 2,
+      "conceptCell": "Glowhaven City",
+      "existingX": -15,
+      "existingY": -17,
+      "appliedToWorld": false
+    },
+    {
+      "location": "Eastbloom Residences",
+      "visualRow": 2,
+      "visualColumn": 2,
+      "conceptCell": "Glowhaven City",
+      "existingX": 28,
+      "existingY": -3,
+      "appliedToWorld": false
+    },
+    {
+      "location": "Rosetimber Suburbs",
+      "visualRow": 2,
+      "visualColumn": 2,
+      "conceptCell": "Glowhaven City",
+      "existingX": 11,
+      "existingY": 17,
+      "appliedToWorld": false
+    },
+    {
+      "location": "The Compassmaker",
+      "visualRow": 2,
+      "visualColumn": 2,
+      "conceptCell": "Glowhaven City",
+      "existingX": 15,
+      "existingY": -6,
+      "appliedToWorld": false
+    },
+    {
+      "location": "Pinewater Woods",
+      "visualRow": 3,
+      "visualColumn": 1,
+      "conceptCell": "Pinewater Country",
+      "existingX": -39,
+      "existingY": -21,
+      "appliedToWorld": false
+    },
+    {
+      "location": "The Winding Lowlands",
+      "visualRow": 1,
+      "visualColumn": 2,
+      "conceptCell": "Evertree Lakelands",
+      "existingX": -16,
+      "existingY": 27,
+      "appliedToWorld": false
+    },
+    {
+      "location": "Shadowspire",
+      "visualRow": 3,
+      "visualColumn": 3,
+      "conceptCell": "Shadowspire Woodland",
+      "existingX": 42,
+      "existingY": -33,
+      "appliedToWorld": false
+    },
+    {
+      "location": "House Goldbarrow Estate",
+      "visualRow": 2,
+      "visualColumn": 2,
+      "conceptCell": "Glowhaven City",
+      "existingX": 8,
+      "existingY": 11,
+      "appliedToWorld": false
+    },
+    {
+      "location": "The Magistrate's Hall",
+      "visualRow": 2,
+      "visualColumn": 2,
+      "conceptCell": "Glowhaven City",
+      "existingX": -5,
+      "existingY": 15,
+      "appliedToWorld": false
+    },
+    {
+      "location": "The Arcane Emporium",
+      "visualRow": 2,
+      "visualColumn": 2,
+      "conceptCell": "Glowhaven City",
+      "existingX": -16,
+      "existingY": 4,
+      "appliedToWorld": false
+    },
+    {
+      "location": "Evertree Base",
+      "visualRow": 1,
+      "visualColumn": 2,
+      "conceptCell": "Evertree Lakelands",
+      "existingX": 0,
+      "existingY": 20,
+      "appliedToWorld": false
+    },
+    {
+      "location": "Wraith Island",
+      "visualRow": 1,
+      "visualColumn": 3,
+      "conceptCell": "Offshore Islands",
+      "existingX": 42,
+      "existingY": 27,
+      "appliedToWorld": false
+    },
+    {
+      "location": "Adventurer's Guild - Glowhaven Branch",
+      "visualRow": 2,
+      "visualColumn": 2,
+      "conceptCell": "Glowhaven City",
+      "existingX": 18,
+      "existingY": 3,
+      "appliedToWorld": false
+    }
+  ],
+  "generatedSource": "C:/Users/VladCodes/.codex/generated_images/01a17305-2d48-70b1-b79e-b29a5a6a2401/exec-29a26c6f-2fd2-4f35-acfe-c9c414d8d53d.png"
+}

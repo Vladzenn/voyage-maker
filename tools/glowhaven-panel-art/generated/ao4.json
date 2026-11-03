@@ -1,0 +1,20 @@
+{
+  "id": "ao4",
+  "set": "Circular With Overlap",
+  "panel": 4,
+  "direction": "Southeast",
+  "file": "world-draft/map-variations/Glowhaven Panel Refinement/Circular With Overlap/04 - Southeast.png",
+  "sourceBounds": [
+    534,
+    534,
+    1254,
+    1254
+  ],
+  "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-126be3e4-655e-4223-bcab-df3d58aa7f75.png",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "sha256": "3b6330d962e0597f888bd47eb019bc99b27e106f135a1817a6c842cb383633fc",
+  "status": "visually reviewed; shared geography present, manual alignment and masking required"
+}

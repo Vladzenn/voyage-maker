@@ -2,6 +2,12 @@
 
 These notes carry context between desktop and web chats. They supplement the actual JSON and creation guides; newer explicit user instructions take precedence.
 
+## 3 November — expanded Glowhaven map direction
+
+Artwork first: one square 3 × 3 composition master; author slices it, returns panels for detail regeneration and repairs seams. Preserve the original colorful Glowhaven rendering and city identity. City fits one center region; Evertree base remains at its northern edge, with a restrained trunk/canopy above. Top corners are mostly sky and distant mountains, including a teeny distant Asterveil hint in the upper right. A continuous non-snowy near mountain range runs down the northwest/west toward southwest forest. Northeastern Wraith Island remains tiny; preserve little coastal towns and inhabited island clusters. Greywatch Keep is the existing ruin at the yellow marker. Shadowspire stays small in southeast woodland.
+
+Latest steering supersedes the initial forty-new-landmark request: **far fewer additions, mostly empty wilderness/mountains, tiny rural roofs comparable to city roofs, narrow unpaved country tracks, no decorative proliferation of ruins or stone circles.** Use the original uploads for the sparse redo. The outer world still needs adventure sites, but the author rejected the six-feature master experiment as oversized. **Lock the large canvas geography and grid first. The author splits it; then add interesting, correctly scaled sites during higher-detail tile regeneration.** Retain clean v4 as the current review draft. It is not approval to change world geography, coordinates or live media. No additional full-map rerolls or detailed tile batch is automatically requested by saving this draft; the author will review the image and provide splits.
+
 ## 3 November — location artwork, final pins and portal clarity
 
 The author requests one image per new location and separate Portal Hall art, not all nested areas or replacement of the old realms’ artwork. Scope is 109 locations plus one area. Keep the existing polished 2D environment style and square crop-safe compositions. Upload/link through the already authorized official API workflow, preserving exact identities, existing images and all placement data. Do not publish a Studio revision.

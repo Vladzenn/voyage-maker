@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-03",
+  "workflow": "Built-in image generation with original references; sparse redo and uniform framing edit",
+  "status": "clean geography-only master selected for layout review; detail sites deferred to returned tile regeneration",
+  "selected": "world-draft/map-variations/Glowhaven Expansion/Glowhaven - Expanded Master v4 - Sparse.png",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "sha256": "5fc9d367487d8403276c2beb865f3b059fef72b974ebcd065f5548f9c6791c91",
+  "grid": {
+    "columns": 3,
+    "rows": 3,
+    "masterTilePixels": [
+      418.0,
+      418.0
+    ]
+  },
+  "originalReferences": [
+    "C:/Users/VladCodes/Downloads/Untitled-1.png",
+    "C:/Users/VladCodes/Downloads/Voyage/Map/Glowhaven Map - Crucible update.png"
+  ],
+  "sourceImage": "C:/Users/VladCodes/.codex/generated_images/01a17305-2d48-70b1-b79e-b29a5a6a2401/exec-c00d189e-578f-4819-84b9-c7f456dededf.png",
+  "supersedes": "Crowded forty-landmark brief and geometry-only v2",
+  "review": {
+    "improved": [
+      "City walls visually fit within the middle tile",
+      "Rural footprints are small and the road is an unpaved track",
+      "Western mountain chain and southwestern woodland are largely unbuilt",
+      "Far sky contains a tiny Asterveil hint",
+      "Coastal and offshore settlement clusters remain small"
+    ],
+    "remaining": [
+      "The Evertree canopy only partly occupies the upper-middle tile; its base and trunk are lower than the exact sketch target. Lift/shape this in the panel pass if retaining this master.",
+      "Greywatch Keep reads as a tiny fort but is lower than the yellow-marker target. Its final northern pin can be composed explicitly in panel refinement.",
+      "Tiny Wraith Island has no reliably distinguishable skull/prison silhouette at this scale; define that island during panel refinement.",
+      "No exact landmark count is claimed; no new location records have been created.",
+      "The selected image is a layout draft. City wall fits the center tile; the Evertree canopy only partly crosses above the upper boundary. Treat exact tree/Keep/Wraith placement as open layout-review points before final geography approval."
+    ]
+  },
+  "canonicalSHA256": "4da8e98a2202370e02255e2cae00d5f822b2d1054261a634ce33effb0391756c",
+  "canonicalEdited": false,
+  "studioUploaded": false,
+  "studioPublished": false,
+  "latestAuthorSteering": "Do not add adventure-site icons at master scale. Lock the large canvas geography/grid first; author slices, then add small interesting features during higher-detail per-tile regeneration.",
+  "selectedPrompt": "world-draft/map-variations/Glowhaven Expansion/Master Map v4 - Uniform Framing.md",
+  "workflowStages": [
+    "Composition master and nine-region alignment",
+    "Author slices the selected map",
+    "Regenerate returned tiles at higher detail using full-map context; add appropriately scaled small adventure sites there",
+    "Author repairs seams and stitches in Photoshop"
+  ],
+  "rejectedVersions": [
+    "v1 crowded forty-landmark brief",
+    "v2 geometry-only busy variant",
+    "v3 sparse but city crossed center-tile boundaries",
+    "v5 six feature hints still oversized"
+  ]
+}

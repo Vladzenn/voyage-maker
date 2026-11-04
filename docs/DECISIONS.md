@@ -26,6 +26,8 @@ The author adds a general tone audit to Rebirth and wants the default to feel mo
 
 The author adds Beastfae as a rare playable ancestry in Rebirth, chiefly for character creation. Beastfae have full animal-like faces and bodies with an upright build. Furred and reptilian forms are the first candidates, using the attached morphology sheet as visual reference. Use a single ancestry choice and optional cosmetic forms. Rarity applies in the setting. Exact ancestry bonuses and their relationship to Fae and Beastfolk remain open. The current proposal preserves established ancestry identities and allows the player’s selected body in both portrait and play.
 
+The author asks for a much wider appearance selection for Fae, Beastfolk and Beastfae. The proposal places a grouped optional form section for each ancestry after the ancestry choice. Plan 32 Fae, 36 Beastfolk and 48 Beastfae options. Keep the existing separate Mixed Ancestry slots for Fae and Beastfolk forms and the separate Fae Stature choice. Studio checks will verify visibility, switching ancestry and browsing the longer menus.
+
 This is a planning brief. Chapter titles, opening contacts and their roles, the exact breakthrough, later outcomes, level gates, and runtime approach are proposals. See the [planning brief](../world-draft/authoring/plans/Schools%20of%20magic%2C%20Rebirth!%20-%20Planning%20Brief.md) for reference findings and validation targets.
 
 ## 4 November — universal fishing with regional catches

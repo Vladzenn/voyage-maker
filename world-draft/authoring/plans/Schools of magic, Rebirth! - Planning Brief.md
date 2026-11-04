@@ -4,7 +4,7 @@
 
 Planning brief · 4 November 2026
 
-**Release scope.** Feature the new reincarnated opening first in Story Starts and in the announcement. Build the Wizard of Shadowspire as its long-form storyline, with permission-based exploration of the tower and the pocket realm beneath it. Add Beastfae to character creation, expand the general lore, target about 100 additional scrolls with a shared study prototype, and include the approved field-exam trigger improvement, general optimization review and a [general tone audit](Schools%20of%20magic%2C%20Rebirth!%20-%20Tone%20Audit.md). The author is adding a trading port outside Glowhaven beside Brookmeadow. It gives the player somewhere to work, shop and spend time between chapters. This pass drafts the content and leaves it unapplied to WorldAlpha.
+**Release scope.** Feature the new reincarnated opening first in Story Starts and in the announcement. Build the Wizard of Shadowspire as its long-form storyline, with permission-based exploration of the tower and the pocket realm beneath it. Expand Fae and Beastfolk forms and add Beastfae to character creation, expand the general lore, target about 100 additional scrolls with a shared study prototype, and include the approved field-exam trigger improvement, general optimization review and a [general tone audit](Schools%20of%20magic%2C%20Rebirth!%20-%20Tone%20Audit.md). The author is adding a trading port outside Glowhaven beside Brookmeadow. It gives the player somewhere to work, shop and spend time between chapters. This pass drafts the content and leaves it unapplied to WorldAlpha.
 
 The two author prompts are recorded verbatim in [Author proposals](#author-proposals) below.
 
@@ -36,33 +36,53 @@ The opening ends before the player answers. The bowl and the question about thei
 
 Use **Summoned one** as the origin trait, with no stat package, automatic magical mastery or public allegiance. Give it only through the exact Rebirth Story Start. Voyage documents start-based trait eligibility in character creation. For an automatic grant, prototype a one-shot mechanical trigger at tick zero and verify the actual timing in Studio. Keep the trait out of ordinary creation and level-up choices. Use a typed `player-traits` check on the ambush path, together with the exact `story-start`. The start identifies the campaign, the trait identifies the intended character, and the story supplies the court's lead. The trait is private to the player's story. NPCs act on facts they can learn in the world. Test the lobby, player sheet, narration, NPC dialogue and journal. Keep the start first in the list. Default selection remains open. Prototype in solo. In shared play the trait condition can match any party member, so prove recipient targeting and later joins before enabling ambushes there. [Official Story Start trait eligibility](https://voyage.io/whats-new/patch/patch:100001188) · [Community trait reference](https://wiki.unofficial.voyage/mechanics/traits) · [Community trigger reference](https://wiki.unofficial.voyage/mechanics/triggerDefinitions)
 
-## Beastfae character creation
+## Fae, Beastfolk and Beastfae character creation
+
+After **Species & Ancestry**, show the form section for the ancestry the player chose. Fae see **Fae Form**, Beastfolk see **Beastfolk Form**, and Beastfae see **Beastfae Form**. Each uses the same choose-one-or-skip pattern. Keep the categories separate so **Mixed Ancestry** can still use the existing Fae and Beastfolk form slots independently, and keep **Fae Stature** as its own choice. Group the longer menus by body features. Verify in Studio how the creator handles a category with zero eligible choices. [Canonical trait categories](../../WorldAlpha%20-%20Trait%20Categories.json) · [Voyage trait categories](https://wiki.unofficial.voyage/mechanics/traitCategories)
 
 **Beastfae** are a rare playable ancestry with upright, person-shaped bodies and strongly animal features across the face and body. A wolf-like Beastfae can have a full muzzle, a fur coat, and padded hands. A lizard-like Beastfae can have a reptilian head, scales and a tail. They choose names, clothing, professions and affinities as individuals. The attached illustration is a reference for the range of animal heads and silhouettes. Its designs inspire original characters.
 
-**Draft creator copy.** A rare ancestry with animal-shaped faces, upright bodies, and a range of fur and scaled forms. Choose a form and give it your own colors, build and clothes.
+**Draft Beastfae creator copy.** A rare ancestry with animal-shaped faces and upright bodies. Choose a furred, scaled or feathered form and give it your own colors, build and clothes.
 
-### Suggested first forms
+### Proposed form catalogue
 
-| Form | Appearance cues |
-| --- | --- |
-| **Wolf** | Long canine muzzle, upright ears, a dense coat and a bushy tail. |
-| **Fox** | Tapered muzzle, tall ears and a full tail, with distinctive individual markings. |
-| **Lynx** | Short feline muzzle, tufted ears, a patterned coat and a short tail. |
-| **Hare** | Hare-shaped face, long ears, soft fur and a short tail. Leg and foot posture can follow the player's written appearance. |
-| **Gecko** | Broad reptilian face, fine scales, wide eyes and a smooth tapering tail. |
-| **Monitor lizard** | Long reptilian muzzle, a defined brow, patterned scales and a heavier tail. |
+**116 options** across the three menus, including the current eight Fae and eleven Beastfolk forms. Keep the existing form keys when adding new choices. The names below are working menu labels.
 
-A bird form with an actual beak and feather coat is a possible follow-up from the same visual reference. The first batch concentrates on furred and scaled forms. Any optional form should work in ordinary dialogue, clothing and tool use. The player can describe a different coherent form in their written appearance. The form is cosmetic. Ability, affinity and training choices supply gameplay effects.
+#### Fae · 32 forms
+
+Offer varied wing shapes, woodland features and coherent wingless bodies, with the individual's face and adult stature carried into the portrait. Treat the presets as starting points for a written blend.
+
+- **Wings** · Butterfly-winged, Moth-winged, Dragonfly-winged, Feather-winged, Luna-moth winged, Glasswing, Swallowtail, Damselfly-winged, Lacewing, Cicada-winged, Beetle-winged, Bat-winged.
+- **Woodland and textured bodies** · Bark-scaled, Leaf-mantled, Moss-backed, Lichen-marked, Briar-spined, Reed-crested, Shell-plated, Stone-patched.
+- **Horns, ears and hooves** · Satyr, Antlered, Ram-horned, Ibex-horned, Pronghorn, Doe-eared, Hare-eared, Cloven-hoofed.
+- **Wingless and subtler forms** · Wingless, Round-eared, Long-eared, Feather-crested.
+
+#### Beastfolk · 36 forms
+
+Use mostly human faces and upright builds with selected ears, horns, feather accents, scale patches or tails. A fox here is a human-faced person with fox features. The established lore also leaves room for uncommon more animal-like Beastfolk.
+
+- **Mammal ears and tails** · Cat, Dog, Wolf, Fox, Rabbit, Bear, Rat, Lynx, Coyote, Raccoon, Otter, Badger.
+- **Horns, antlers and small mammals** · Ram, Deer, Goat, Elk, Bison, Gazelle, Squirrel, Mouse.
+- **Feather accents** · Bird, Crow, Owl, Hawk, Heron, Parrot, Sparrow, Gull.
+- **Scale accents and tails** · Reptile, Gecko, Iguana, Monitor, Skink, Chameleon, Crocodile, Turtle.
+
+#### Beastfae · 48 forms
+
+Use full animal-shaped faces and body coverage, including muzzles, snouts, or beaks, and fur, scales or feathers appropriate to the form. Preserve an upright person with hands and clothing that fit their chosen build.
+
+- **Canids, felids and broad builds** · Wolf, Fox, Dog, Coyote, Hyena, Jackal, Cat, Lynx, Tiger, Lion, Leopard, Cheetah, Bear, Panda, Raccoon, Badger.
+- **Small and river mammals** · Rabbit, Hare, Mouse, Rat, Squirrel, Porcupine, Otter, Ferret, Marten, Red panda, Beaver, Capybara.
+- **Hoofed forms** · Goat, Ram, Deer, Elk, Bison, Horse, Boar, Gazelle.
+- **Scaled forms** · Gecko, Monitor lizard, Iguana, Chameleon, Skink, Crocodile, Tortoise, Bearded dragon.
+- **Beaked forms** · Raven, Owl, Hawk, Heron.
 
 ### Fit with existing ancestry and appearance
 
-- Add a single **Beastfae** entry to the existing **Species & Ancestry** category. Offer a separate optional, one-pick **Beastfae Form** category after it. Use the existing Beastfolk Form and Fae Form pattern as the prototype. Gate the new form traits on the earlier Beastfae selection. Leave the exact ancestry bonuses and any future Mixed Ancestry interaction for a later decision. [Canonical trait categories](../../WorldAlpha%20-%20Trait%20Categories.json) · [Voyage trait categories](https://wiki.unofficial.voyage/mechanics/traitCategories)
-- The visual default for Beastfolk is a mostly human body with selected animal features. Beastfae's default gives the face and body a fuller animal shape. Established Beastfolk lore already allows uncommon animal-like individuals, so appearance alone cannot establish someone's ancestry. Keep Beastfae's relationship to Beastfolk and Fae open. The name gives the creator a label and gives the narrator a clear body description. [Current Beastfolk and Fae lore](../../WorldAlpha%20-%20World%20Lore.json)
-- The character background and portrait should carry the selected muzzle or snout, coat or scale coverage, eyes, hands and tail into a single coherent adult design. Treat hair as hair, a mane or a crest where the selected form and written appearance support it. Resolve human-oriented cosmetic defaults around that description. Keep the same anatomy in subsequent scenes, including the shore awakening, and adapt clothes and gestures to the body. [Character Creation Format](../../../research/Character%20Creation%20Format.md) · [Portrait Creation Format](../../../research/Portrait%20Creation%20Format.md)
-- Rarity describes how often the player meets Beastfae in the world. The creator choice remains available without a quest or a rarity roll. Start with creation, short lore and body continuity guidance. Let existing origins and professions define where the player comes from and what they do. A future named Beastfae can be authored where a specific person fits.
+- Add **Beastfae** as a single ancestry choice and gate its form traits on that choice. New Fae and Beastfolk forms use their own existing ancestry-gate pattern, including the established Mixed Ancestry access. Keep exact ancestry bonuses and any later Mixed Ancestry access to Beastfae forms open. Forms are cosmetic. Abilities, affinities and training supply gameplay effects. [Voyage trait visibility rules](https://wiki.unofficial.voyage/mechanics/traits)
+- Let players skip a preset or write a different coherent form. Use the existing appearance options for eye color, build, outfit and accessories, then carry the selected muzzle, snout or beak, body covering, hands and tail into a coherent portrait and narrated body. Hair, a mane, or a crest can fit when the chosen form supports it. Use recorded ancestry for identity. Beastfae's relationship to Beastfolk and Fae remains open. [Current Beastfolk and Fae lore](../../WorldAlpha%20-%20World%20Lore.json) · [Character Creation Format](../../../research/Character%20Creation%20Format.md) · [Portrait Creation Format](../../../research/Portrait%20Creation%20Format.md)
+- Rarity describes encounters with Beastfae in the setting. Players can select the ancestry directly. Start with creation, short lore and body continuity guidance. Let existing origins and professions define where the player comes from and what they do.
 
-**Build checks.** Test a furred character and a scaled character through creation, the portrait preview, the Rebirth opening and an ordinary start. Try skipping the form, changing ancestry after choosing it, and applying outfit or eye choices. Confirm that the creator presents the intended form choices, the portrait retains a full animal face, and the first scene uses the character's actual hands, speech and body. Check other ancestries' form menus and the selected origin separately. The proposal is queued for the Rebirth build.
+**Build checks.** Verify that Fae, Beastfolk and Beastfae each see their own grouped choices and that Mixed Ancestry keeps access to both of its existing form categories. Test switching ancestry after selecting a form, skipping it, browsing longer menus and fitting outfit or eye choices. Sample winged and wingless Fae, human-faced Beastfolk and furred, scaled and feathered Beastfae through portrait preview, the Rebirth opening and an ordinary start. Check Studio limits and menu usability with the full proposed catalogue before release.
 
 ## The story across a long save
 

@@ -10,6 +10,8 @@ Ardelis tried to summon a hero for its war after independent Glowhaven refused c
 
 The author clarified that the hunt begins well into the story. Give the player an ordinary first act. Ardelis starts with no identity for the missing summoned person. A later regional inquiry can precede any targeted action, and pursuit requires a credible personal lead.
 
+In the latest author proposal, the player wakes in bed after being found unconscious on the shore and hears about town work or the main-city Adventurer’s Guild. The Ardelis delegation says it has business with the Great Sage. Its current court mage felt the ritual go astray and sent people to ask questions. An officer recognizes Vladimir, who makes the soldiers leave, gives the player a knowing look and goes. Vladimir usually watches Ardelis from Shadowspire. Much later, cloaked attackers target the Rebirth origin. They automatically die on actual capture in the proposal. Advanced magitech constructs and a chance of Vladimir intervening and offering an invitation are proposed. The Shadowspire discussion opens the effort to thwart the summoning program in Act III. The rival is female, with all current magical affinities except Time proposed. Optional paladins and the independent breakthrough remain part of the plan. The brief keeps the two proposals verbatim in a separate section.
+
 This is a planning brief. Chapter titles, opening contacts and their roles, the exact breakthrough, later outcomes, level gates, and runtime approach are proposals. See the [planning brief](../world-draft/authoring/plans/Schools%20of%20magic%2C%20Rebirth!%20-%20Planning%20Brief.md) for reference findings and validation targets.
 
 ## 4 November — universal fishing with regional catches

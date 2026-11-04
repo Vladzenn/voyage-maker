@@ -8,5 +8,5 @@ You remember another life. The people who found you unconscious on the shore hav
 
 - **A new beginning in Brookmeadow.** Choose Rebirth at the top of Story Starts. Make friends, learn magic and decide how much of your old life to share.
 - **The Wizard of Shadowspire.** Long after your first morning in Brookmeadow, tensions between Ardelis and Glowhaven reopen an old mystery. Somewhere in the woods, a wizard recognizes the magic that brought you here.
-- **Explore Shadowspire.** Earn Vladimir’s permission to enter his woodland tower, then find the portal beneath it. Beyond the gate are shifting galleries, strange gardens and a sports court where the floor can tilt.
+- **Explore Shadowspire.** Earn Vladimir’s permission to enter his woodland tower, then find the portal beneath it. Beyond the gate lies a shifting realm built around an archmage’s whims.
 - **Around 100 new scrolls and a wider world.** Discover new workings for everyday life and dangerous adventures. Explore expanded lore and a working port just down the road from Brookmeadow.

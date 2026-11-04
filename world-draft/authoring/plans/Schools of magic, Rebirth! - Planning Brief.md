@@ -4,7 +4,7 @@
 
 Planning brief · 4 November 2026
 
-**Release scope.** Feature the new reincarnated opening first in Story Starts and in the announcement. Build the Wizard of Shadowspire as its long-form storyline, with permission-based exploration of the tower and the pocket realm beneath it. Expand the general lore, target about 100 additional scrolls with a shared study prototype, and include the approved field-exam trigger improvement and general optimization review. The author is adding a trading port outside Glowhaven beside Brookmeadow. It gives the player somewhere to work, shop and spend time between chapters. This pass drafts the content and leaves it unapplied to WorldAlpha.
+**Release scope.** Feature the new reincarnated opening first in Story Starts and in the announcement. Build the Wizard of Shadowspire as its long-form storyline, with permission-based exploration of the tower and the pocket realm beneath it. Expand the general lore, target about 100 additional scrolls with a shared study prototype, and include the approved field-exam trigger improvement, general optimization review and a [general tone audit](Schools%20of%20magic%2C%20Rebirth!%20-%20Tone%20Audit.md). The author is adding a trading port outside Glowhaven beside Brookmeadow. It gives the player somewhere to work, shop and spend time between chapters. This pass drafts the content and leaves it unapplied to WorldAlpha.
 
 The two author prompts are recorded verbatim in [Author proposals](#author-proposals) below.
 
@@ -12,25 +12,23 @@ The two author prompts are recorded verbatim in [Author proposals](#author-propo
 
 **Proposed menu title** · Rebirth — A Morning in Brookmeadow
 
-**Menu description** · You wake up in a body that isn’t yours, with a whole other life still in your memory. The people who found you unconscious on the shore have brought you to Brookmeadow. There’s a bed, a hot breakfast, and a neighbor who’s late for work. For now, that’s enough.
+**Menu description** · You wake up in a body that isn’t yours, with your previous life still in your memory. The people who found you unconscious on the shore brought you to Brookmeadow. They know where they found you. What you tell them is up to you.
 
 > You wake up in a body that isn’t yours.
 >
-> The voice that comes out when you clear your throat is wrong. There’s a basin on the stool beside the bed. The face in the water moves when you do. You still remember the room where you last went to sleep, down to the view from its window.
+> The face in the washbasin is unfamiliar. The last room you remember is clear enough to walk through in your head. You know where its door was and what you could see through the window. This window looks out on a mill yard.
 >
-> “If you can sit up, there’s broth.”
+> A woman takes a bowl off the stove. There is sand on the floor beneath the chair beside your bed.
 >
-> The woman at the stove sets a bowl on the table. A rag is folded under its rim to stop it rocking.
+> “We found you unconscious on the shore. Kenta ran for me. You’ve been here since dawn.”
 >
-> “We found you unconscious on the shore. Kenta thought you were dead. He’s been out there practicing how to apologize in case you heard him.”
+> Outside, someone sets a bucket down.
 >
-> From outside comes a short, indignant “I was checking if they could hear me.”
+> “I’ll tell Haruho I’ll be late,” Kenta says.
 >
-> She lifts the latch. In the yard, Kenta Matsuba is sharing a pear with a cart horse. Farther down the lane a mill wheel turns. A sliver of blue light travels down the iron hinge of the stove, and the woman nudges it back into place with a poker.
->
-> “You can have breakfast before you tell me what to call you,” she says. “Or the other way round.”
+> She sets the broth within reach and sits. “When you feel up to it, tell me what to call you.”
 
-The opening ends before the player answers. The bowl and the offered name give them something immediate to respond to. They can ask where they are, test the new body, explain or conceal their memories, or walk out to meet Kenta. The narration should adapt the bodily cues to the chosen character. The last remembered room in the sample is a replaceable detail. The player owns their name, ancestry, appearance, past-life particulars and response. Keep the previous occupant’s fate open until the author decides what happened.
+The opening ends before the player answers. The bowl and the question about their name give them something immediate to respond to. They can ask where they are, test the new body, explain or conceal their memories, or walk out to meet Kenta. The narration should adapt the bodily cues to the chosen character. The last remembered room in the sample is a replaceable detail. The player owns their name, ancestry, appearance, past-life particulars and response. Keep the previous occupant’s fate open until the author decides what happened.
 
 **Opening circle.** Stage the recovery in a cottage off **Brookmeadow - Mill Lane**. This is a proposed recovery scene within an existing area. Keep the exact shore address open until the author places the port and confirms the rescue site. Use one new recurring cottage resident as the practical caregiver. She wants her spare room back before the next market day and has a batch of lamp covers to finish. Kenta already works around **Brookmeadow - South Road**. His habit of making promises on the spot and his desire for a paid music booking give him reasons to check in and reasons to leave. **Haruho Taneda** already works on Mill Lane and can be the first recurring work contact. Bring him in after the player steps outside or asks about work. **Shiori Kawase** can reappear later at **Pinewater River - Brookmeadow Ford**, where she has her own work and judgment. Establish why each person is present. Keep help, friendship, lodging arrangements, lessons and recruitment voluntary.
 

@@ -16,6 +16,8 @@ The author suggests giving the cloaked constructs limited knowledge and avoiding
 
 The author approved including a native level-20 gate for `gh_exam_volunteer` and a general optimization review in Rebirth. Preserve the volunteer’s personal eligibility, actual acceptance, the existing quest state and Spider guard, and the separate student route. Compare static scene eligibility, recurring scripts and Studio limits, then verify affected gameplay in Voyage. The in-memory candidate saved one estimated semantic check in each of 24 local scenarios. This is an approved implementation item for the Rebirth build.
 
+The author added the shared teaching-scroll workflow to the Rebirth proposal. Bind study to a specific reader and held scroll, share the semantic completion check, and settle one formula grant, ability grant and copy consumption using exact item and reader ownership. Preserve failure, duplicates, prerequisites and casting rules. Verify simultaneous readers and idle-turn eligibility before changing the existing thirty rules or scaling to the larger catalogue.
+
 This is a planning brief. Chapter titles, opening contacts and their roles, the exact breakthrough, later outcomes, level gates, and runtime approach are proposals. See the [planning brief](../world-draft/authoring/plans/Schools%20of%20magic%2C%20Rebirth!%20-%20Planning%20Brief.md) for reference findings and validation targets.
 
 ## 4 November — universal fishing with regional catches

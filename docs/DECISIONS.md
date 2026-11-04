@@ -24,6 +24,8 @@ Vladimir never joins the player’s party and is immune to psychic damage and me
 
 The author adds a general tone audit to Rebirth and wants the default to feel more mature and grounded. Review narrator and opening guidance, dialogue and encounter selection, and art direction. Preserve the existing soundtrack and its configuration. Everyday warmth and Vladimir’s absurdity have a place when the scene earns them. Use the shore opening as the first sample and compare the tone across the full arc and selected game modes. Changes beyond the draft prose belong to the later Rebirth build.
 
+The author adds Beastfae as a rare playable ancestry in Rebirth, chiefly for character creation. Beastfae have full animal-like faces and bodies with an upright build. Furred and reptilian forms are the first candidates, using the attached morphology sheet as visual reference. Use a single ancestry choice and optional cosmetic forms. Rarity applies in the setting. Exact ancestry bonuses and their relationship to Fae and Beastfolk remain open. The current proposal preserves established ancestry identities and allows the player’s selected body in both portrait and play.
+
 This is a planning brief. Chapter titles, opening contacts and their roles, the exact breakthrough, later outcomes, level gates, and runtime approach are proposals. See the [planning brief](../world-draft/authoring/plans/Schools%20of%20magic%2C%20Rebirth!%20-%20Planning%20Brief.md) for reference findings and validation targets.
 
 ## 4 November — universal fishing with regional catches

@@ -18,6 +18,8 @@ The author approved including a native level-20 gate for `gh_exam_volunteer` and
 
 The author added the shared teaching-scroll workflow to the Rebirth proposal. Bind study to a specific reader and held scroll, share the semantic completion check, and settle one formula grant, ability grant and copy consumption using exact item and reader ownership. Preserve failure, duplicates, prerequisites and casting rules. Verify simultaneous readers and idle-turn eligibility before changing the existing thirty rules or scaling to the larger catalogue.
 
+The author approved fully explorable Shadowspire for Rebirth. Vladimir grants an access item that lets permitted visitors walk the exterior wards without being teleported and enter his tower. A cellar portal leads to his eccentric private realm, with shifting corridors, strange garden animals, impossible spaces, construct rooms, hobbies and sports. The concept grid, working room names, guest-key prototype and fixed return route are in the brief. Access, portal placement and corridor behavior still require implementation and a Voyage playtest.
+
 This is a planning brief. Chapter titles, opening contacts and their roles, the exact breakthrough, later outcomes, level gates, and runtime approach are proposals. See the [planning brief](../world-draft/authoring/plans/Schools%20of%20magic%2C%20Rebirth!%20-%20Planning%20Brief.md) for reference findings and validation targets.
 
 ## 4 November — universal fishing with regional catches

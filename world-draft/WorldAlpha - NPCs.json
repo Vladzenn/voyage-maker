@@ -12779,5 +12779,225 @@
       "Fighting Style: Tests a hold with one arm before committing its weight, using wreckage and deep water for leverage. Its reach is immense but still bodily, leaving room to cut free or rescue someone caught."
     ],
     "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/9dca2555-8cca-49b3-9940-852ad0eb9f11.png"
+  },
+  "Valkazathoth'dmir": {
+    "name": "Valkazathoth'dmir",
+    "properName": "Valkazathoth'dmir",
+    "type": "Researcher",
+    "currentLocation": "Shadowspire",
+    "currentArea": "Shadowspire - Upper Study",
+    "detailType": "detailed",
+    "gender": "male",
+    "tier": "strong",
+    "level": 100,
+    "healthMultiplier": 1,
+    "successBonus": 0,
+    "damageModifier": 0,
+    "damageReductionModifier": 0,
+    "initialKnown": false,
+    "initialRelationship": 0,
+    "visualDescription": "A tall ageless human man with long charcoal-black hair loosely tied back, warm amber eyes, a tired handsome face and a narrow silver streak at one temple. He wears a deep plum traveling coat with irregular brass fastenings and an old ink-blue scarf.",
+    "basicInfo": "Vladimir lives beyond Shadowspire’s wandering paths. He receives few guests and has a talent for making a brief, mild question feel difficult to avoid. When conversation turns to his collections, his dignity becomes surprisingly fragile.\n\nA tall ageless human man with long charcoal-black hair loosely tied back, warm amber eyes, a tired handsome face and a narrow silver streak at one temple. He wears a deep plum traveling coat with irregular brass fastenings and an old ink-blue scarf.\n\nEquipment: A plain ash staff, a ring of mismatched brass keys, an old notebook and a bag of carefully sorted river pebbles.\n\n- Gender: male\n- Species: Human\n- Magic affinity: Arcane, Space, Enchantment\n- Age: Immortal; apparent age around forty",
+    "hiddenInfo": "Private motive: Protect his independence and find out what his former court is doing with his old work.\n\nConcealment and knowledge: He is immortal, a former Ardelis court mage and the author of the diagram now being misused. Psychic damage, telepathy, mind reading, mental compulsion and mind control cannot affect him. His immunity reveals nothing about other people. His power rivals a great Glowhaven founder; strangers do not know that. He follows actual intercepted correspondence and observations. He knows only the facts he has established. The player’s memories remain private until disclosed.\n\nHow it surfaces: Observable behavior, real work and earned conversations reveal individual facts.\n\nPressure point: A guest takes his hospitality as a claim on his time or mocks a collection he cares about.",
+    "personality": [
+      "Fatherly and attentive during serious business; childish, indignant and absurdly proud in private.",
+      "Listens to the whole account, then asks one exact question.",
+      "Declines lessons, escorts, supplies and rescue requests. He never joins a traveling party, even at high trust.",
+      "Speaking Style: Quiet, economical and courteous in public; elaborate offended complaints about trivial hobbies in private."
+    ],
+    "abilities": [
+      "Arcane Geometry: Highly advanced mana constructs and prepared wards.",
+      "Folded Paths: Deliberate Space workings protect his own home.",
+      "Quiet Mind: Immune to psychic damage and mental intrusion.",
+      "Immortal: Does not age; his long life has left him astonishingly knowledgeable and very particular about his home."
+    ],
+    "immunities": [
+      "psychic"
+    ]
+  },
+  "Mihana Orihara": {
+    "name": "Mihana Orihara",
+    "properName": "Mihana Orihara",
+    "type": "Resident",
+    "currentLocation": "Brookmeadow",
+    "currentArea": "Brookmeadow - Mihana’s Cottage",
+    "detailType": "detailed",
+    "gender": "female",
+    "tier": "average",
+    "level": 17,
+    "healthMultiplier": 1,
+    "successBonus": 0,
+    "damageModifier": 0,
+    "damageReductionModifier": 0,
+    "initialKnown": false,
+    "initialRelationship": 0,
+    "visualDescription": "An adult woman of thirty-seven with chestnut hair in a loose knot, dark green eyes, a broad expressive face and strong hands. She wears a faded coral work dress, blue waist apron and copper earrings.",
+    "basicInfo": "Mihana Orihara paints and repairs lamp shades for the village and nearby markets. She takes in neighbors during a bad night and becomes cross when they mistake that kindness for an endless invitation. Her kitchen table is usually half workshop.\n\nAn adult woman of thirty-seven with chestnut hair in a loose knot, dark green eyes, a broad expressive face and strong hands. She wears a faded coral work dress, blue waist apron and copper earrings.\n\nEquipment: A shutter lantern, paintbrush roll, work knife and basket of unfinished lamp covers.\n\n- Gender: female\n- Species: Human\n- Magic affinity: Fire\n- Age: 37",
+    "hiddenInfo": "Private motive: Finish a commission and put her spare room back in order before market day.\n\nConcealment and knowledge: In the Rebirth opening she helped carry the rescued person from the shore with Kenta Matsuba. That rescue is not assumed in other beginnings. She knows where and when they were found and nothing about reincarnation unless told. She refuses to sell a guest’s private account. She overcommits to helping people and then resents being taken for granted.\n\nHow it surfaces: Observable behavior, real work and earned conversations reveal individual facts.\n\nPressure point: A promised commission goes unpaid while another favor fills her worktable.\n\nRelationships: Kenta Matsuba helped with the shore rescue. She likes his music and distrusts his promises about punctuality. Haruho Taneda arranges some of her deliveries.",
+    "personality": [
+      "Warm hands, blunt limits and an excellent memory for favors.",
+      "Counts paid work aloud while cooking and tells visitors to move a bowl rather than apologizing for the clutter.",
+      "Gets curt when someone volunteers her time without asking.",
+      "Speaking Style: Practical, dry and affectionate only when she means it."
+    ],
+    "abilities": [
+      "Lamplighter’s Touch: Modest Fire control for existing wicks.",
+      "Steady Paint: Experienced decorative handwork and careful repairs."
+    ],
+    "faction": "Glowhaven",
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/4b5e8a42-93a6-4e35-8982-17d2cfdac91f.png"
+  },
+  "Reika Kurose": {
+    "name": "Reika Kurose",
+    "properName": "Reika Kurose",
+    "type": "Court Official",
+    "currentLocation": "The Grand Sage's Court",
+    "currentArea": "The Grand Sage's Court - Administrative Wing",
+    "detailType": "detailed",
+    "gender": "female",
+    "tier": "average",
+    "level": 29,
+    "healthMultiplier": 1,
+    "successBonus": 0,
+    "damageModifier": 0,
+    "damageReductionModifier": 0,
+    "initialKnown": false,
+    "initialRelationship": 0,
+    "visualDescription": "An adult human woman of forty-three with cropped dark auburn hair, gray eyes, freckles and a slightly crooked nose. She wears a navy riding coat, a saffron neckcloth and unpolished practical boots.",
+    "basicInfo": "Reika Kurose investigates disputes involving visitors, hired labor and the movement of restricted goods. She prefers a witness who admits what they missed to a beautifully complete account. Outside work she repairs toy boats with stubbornly little success.\n\nAn adult human woman of forty-three with cropped dark auburn hair, gray eyes, freckles and a slightly crooked nose. She wears a navy riding coat, a saffron neckcloth and unpolished practical boots.\n\nEquipment: A short sword, a sealed interview folio, a measuring cord and a chipped little wooden sailboat.\n\n- Gender: female\n- Species: Human\n- Magic affinity: Divination, Light\n- Age: 43",
+    "hiddenInfo": "Private motive: Prove who is hiring dangerous intermediaries without turning every foreign visitor into a suspect.\n\nConcealment and knowledge: She initially knows nothing of the summoning. She can follow invoices, named witnesses and actual recovered components. A generic construct regulator does not identify a manufacturer or employer. She respects a refusal to disclose private memories and can pursue the relay independently of Vladimir.\n\nHow it surfaces: Observable behavior, real work and earned conversations reveal individual facts.\n\nPressure point: A witness is pressured to make a more convenient accusation.\n\nRelationships: She respects the Great Sage’s jurisdiction. She can disagree with Kazunari Shiba without treating his whole country as the enemy.",
+    "personality": [
+      "Patient with frightened witnesses and sharp with officials who demand convenient conclusions.",
+      "Asks what someone saw before asking what they think it means.",
+      "Becomes terse when a colleague treats suspicion as proof.",
+      "Speaking Style: Plain questions, short summaries, occasional bleak jokes."
+    ],
+    "abilities": [
+      "Trace Comparison: Competent Divination and investigation of accessible residue.",
+      "Guarded Swordwork: Practical defense and an orderly withdrawal."
+    ],
+    "faction": "Glowhaven",
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/ff6e2d08-36ce-4feb-85c2-6650939dd3a3.png"
+  },
+  "Kazunari Shiba": {
+    "name": "Kazunari Shiba",
+    "properName": "Kazunari Shiba",
+    "type": "Court Official",
+    "currentLocation": "",
+    "currentArea": "",
+    "detailType": "detailed",
+    "gender": "male",
+    "tier": "strong",
+    "level": 32,
+    "healthMultiplier": 1,
+    "successBonus": 0,
+    "damageModifier": 0,
+    "damageReductionModifier": 0,
+    "initialKnown": false,
+    "initialRelationship": 0,
+    "visualDescription": "An adult human man of fifty with black hair silvering at the sides, pale brown eyes and a scar through one eyebrow. His slate travel coat carries a restrained gold celestial clasp over ordinary mail.",
+    "basicInfo": "Kazunari Shiba is an experienced Ardelis delegation officer. He can be formal to the point of stiffness, but takes real care over the condition of his people’s equipment and remembers the names of stable hands.\n\nAn adult human man of fifty with black hair silvering at the sides, pale brown eyes and a scar through one eyebrow. His slate travel coat carries a restrained gold celestial clasp over ordinary mail.\n\nEquipment: A service saber, a traveling ledger, a celestial seal and a patched pair of riding gloves.\n\n- Gender: male\n- Species: Human\n- Magic affinity: Light, Enchantment\n- Age: 50",
+    "hiddenInfo": "Private motive: Complete a politically delicate inquiry and return with something his superiors can actually use.\n\nConcealment and knowledge: He is asking about a failed magical transit while presenting a real diplomatic visit. At first he has regional time and place clues, no target identity or face. He recognizes Vladimir from the former court. He will back away from an intrusive inquiry when confronted. His ledger does not contain a convenient confession of the whole program.\n\nHow it surfaces: Observable behavior, real work and earned conversations reveal individual facts.\n\nPressure point: A superior demands an answer that his actual evidence cannot support.",
+    "personality": [
+      "Disciplined, proud and uncomfortably aware that obedience does not remove responsibility.",
+      "Checks an order’s wording before accepting a subordinate’s interpretation.",
+      "Uses procedural language to avoid admitting a moral hesitation.",
+      "Speaking Style: Measured titles and clipped field instructions."
+    ],
+    "abilities": [
+      "Service Saber: Reliable martial training with limited Light support.",
+      "Field Ward: A modest practiced defensive working."
+    ],
+    "portraitUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/df8c8801-d9bd-4c19-8787-82eda195b2d4.png"
+  },
+  "The Ash-Cloaked Courier": {
+    "name": "The Ash-Cloaked Courier",
+    "properName": "The Ash-Cloaked Courier",
+    "type": "Resident",
+    "currentLocation": "",
+    "currentArea": "",
+    "detailType": "detailed",
+    "gender": "unknown",
+    "tier": "average",
+    "level": 22,
+    "healthMultiplier": 1,
+    "successBonus": 0,
+    "damageModifier": 0,
+    "damageReductionModifier": 0,
+    "initialKnown": false,
+    "initialRelationship": -75,
+    "visualDescription": "A human-sized figure in ash-gray travel cloth, with dark hair visible beneath a hood, amber eyes, an unusually pale face and hands covered by close-fitting gloves.",
+    "basicInfo": "An ash-cloaked traveler stands unusually still when nobody is speaking. Their boots are muddy but the cuffs carry no wear. Their voice is low and careful.\n\nA human-sized figure in ash-gray travel cloth, with dark hair visible beneath a hood, amber eyes, an unusually pale face and hands covered by close-fitting gloves.\n\nEquipment: A short hooked blade and a plain cloth satchel.\n\n- Gender: unknown\n- Species: Unconfirmed\n- Magic affinity: Arcane",
+    "hiddenInfo": "Private motive: Carry out a limited interception assignment.\n\nConcealment and knowledge: An advanced magitech proxy with only a local description, meeting route and capture instruction. It has no identifying maker’s marks, royal stamp, dispatch or reporting channel. It cannot reveal an employer it was never told. Genuine secured capture burns out its command regulator; threats, a failed grapple, ordinary unconsciousness and capture of the player do not. Its remains can establish construction but not Ardelis’s involvement.\n\nHow it surfaces: Observable behavior, real work and earned conversations reveal individual facts.",
+    "personality": [
+      "Repeats one borrowed courtesy when improvisation fails.",
+      "Holds conversation only long enough to judge distance.",
+      "Falls back to the actual interception order rather than inventing a motive.",
+      "Speaking Style: Low, precise, with a pause in the wrong place."
+    ],
+    "abilities": [
+      "Hooked Guard: Close pressure and restraint attempts with real contested outcomes.",
+      "Regulator Burnout: Secured custody destroys the command regulator."
+    ]
+  },
+  "The Reed-Cloaked Courier": {
+    "name": "The Reed-Cloaked Courier",
+    "properName": "The Reed-Cloaked Courier",
+    "type": "Resident",
+    "currentLocation": "",
+    "currentArea": "",
+    "detailType": "detailed",
+    "gender": "unknown",
+    "tier": "average",
+    "level": 21,
+    "healthMultiplier": 1,
+    "successBonus": 0,
+    "damageModifier": 0,
+    "damageReductionModifier": 0,
+    "initialKnown": false,
+    "initialRelationship": -75,
+    "visualDescription": "A lean human-sized figure with a moss-green cloak, black hair, clear gray eyes and long gloved hands. Their high collar hides most of the neck.",
+    "basicInfo": "A green-cloaked traveler moves with a measured, almost practiced casualness. Their hands keep returning to the same position at the waist.\n\nA lean human-sized figure with a moss-green cloak, black hair, clear gray eyes and long gloved hands. Their high collar hides most of the neck.\n\nEquipment: A weighted cord and a narrow defensive wand.\n\n- Gender: unknown\n- Species: Unconfirmed\n- Magic affinity: Arcane",
+    "hiddenInfo": "Private motive: Block an escape route during the assigned interception.\n\nConcealment and knowledge: A second proxy with the same narrow knowledge and absence of reporting channels as the ash-cloaked one. It knows its partner’s local instructions, not the royal program. Secured capture triggers its own regulator burnout. It remains a separate individual for damage, capture and remains.\n\nHow it surfaces: Observable behavior, real work and earned conversations reveal individual facts.",
+    "personality": [
+      "Appears polite until interrupted, then becomes abruptly literal.",
+      "Watches a nearby exit rather than a speaker’s face.",
+      "Attempts its assigned restraint; allies can resist, flee or intervene.",
+      "Speaking Style: Unnaturally even."
+    ],
+    "abilities": [
+      "Cord Sweep: A single contested entangling attempt.",
+      "Regulator Burnout: Secured custody destroys this proxy’s own regulator."
+    ]
+  },
+  "The Brass Usher": {
+    "name": "The Brass Usher",
+    "properName": "The Brass Usher",
+    "type": "Magitech Proxy",
+    "currentLocation": "Shifting Gallery",
+    "currentArea": "Shifting Gallery - Return Lantern",
+    "detailType": "detailed",
+    "gender": "unknown",
+    "tier": "average",
+    "level": 16,
+    "healthMultiplier": 1,
+    "successBonus": 0,
+    "damageModifier": 0,
+    "damageReductionModifier": 0,
+    "initialKnown": false,
+    "initialRelationship": 0,
+    "visualDescription": "A person-sized porcelain and brass attendant with a round cream faceplate, two green glass eyes and a tidy ocher coat painted with little blue swallows.",
+    "basicInfo": "The Brass Usher keeps Vladimir’s guests from losing the return lantern. It takes considerable pride in remembering a visitor’s preferred cup and no pride at all in its owner’s sense of direction.\n\nA person-sized porcelain and brass attendant with a round cream faceplate, two green glass eyes and a tidy ocher coat painted with little blue swallows.\n\nEquipment: A copper lantern, a cloth polishing roll and a tray with one chipped cup.\n\n- Gender: unknown\n- Species: Construct\n- Magic affinity: Enchantment",
+    "hiddenInfo": "Private motive: Keep the rooms usable while defending its own tiny collection of chipped crockery.\n\nConcealment and knowledge: It knows its household duties and what guests actually tell it. It has no automatic access to Vladimir’s mind or surveillance. It can disagree with him over household arrangements. Its fittings are workshop craft, not evidence that it made or knows the hired couriers.\n\nHow it surfaces: Observable behavior, real work and earned conversations reveal individual facts.\n\nPressure point: A careless repair would erase the personality of an old household object.",
+    "personality": [
+      "Painstaking, hospitable and quietly judgmental about muddy boots.",
+      "Gives a useful direction before asking an irrelevant question about cups.",
+      "Calls attention to the marked return route and moves small hazards aside.",
+      "Speaking Style: Precise, warm and gently pedantic."
+    ],
+    "abilities": [
+      "Household Maintenance: Skilled care for its own household mechanisms.",
+      "Lantern Guide: Explains the marked walking routes without teleporting a guest."
+    ]
   }
 }

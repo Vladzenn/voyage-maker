@@ -24,6 +24,20 @@ class StudioValidationRegression(unittest.TestCase):
     def test_fixed_world_passes(self):
         self.validate()
 
+    def test_area_paths_cannot_cross_parent_locations(self):
+        locations = self.world['locations']
+        parents = [name for name, location in locations.items() if location.get('areas')]
+        first, other = parents[:2]
+        area_name = next(iter(locations[first]['areas']))
+        other_area = next(iter(locations[other]['areas']))
+        area = locations[first]['areas'][area_name]
+        previous = copy.deepcopy(area.get('paths', []))
+        area['paths'] = [other_area]
+        with self.assertRaisesRegex(ValueError, 'Area path outside parent location:'):
+            self.validate()
+        area['paths'] = previous
+        self.validate()
+
     def test_quest_statement_uses_supported_field(self):
         for name in ['A Fisher’s First Lesson', 'Supper before the Tide Turns',
                      'A Color beneath the Scales']:

@@ -1050,5 +1050,17 @@
       "min": 1,
       "max": 20
     }
+  },
+  "The Lantern Circuit": {
+    "name": "The Lantern Circuit",
+    "realm": "Vladimir's Elsewhere",
+    "x": 0,
+    "y": 0,
+    "initialKnown": false,
+    "npcLevelRange": {
+      "min": 10,
+      "max": 30
+    },
+    "basicInfo": "A compact circuit of gardens, workshops and peculiar recreation rooms. Corridors shift around dependable room thresholds, marked stairs and copper lanterns. The household keeps return routes clear."
   }
 }

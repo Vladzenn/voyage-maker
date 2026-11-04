@@ -1611,6 +1611,11 @@
     "recurring": false,
     "conditions": [
       {
+        "type": "player-level",
+        "operator": "greaterThanOrEqual",
+        "value": 20
+      },
+      {
         "type": "quest-status",
         "operator": "equals",
         "value": "hidden",
@@ -18040,5 +18045,887 @@
       }
     ],
     "script": "const tick=Number(check({type:'game-tick'}))||0;if(storage.ghxOfferTick===tick){skip=true}else{storage.ghxOfferTick=tick}"
+  },
+  "rb_scroll_registry_01": {
+    "name": "rb_scroll_registry_01",
+    "conditions": [],
+    "effects": [],
+    "recurring": true,
+    "scope": "party",
+    "script": "// Candidate formulas use the same native settlement shape. Scripts select\n// eligibility only. The engine, not check(), judges the declared story query.\nconst catalogue = [{\"id\":\"rb_study_001\",\"item\":\"Teaching Scroll: The Porter's Invisible Palm\",\"trait\":\"Formula: The Porter's Invisible Palm\",\"ability\":\"The Porter's Invisible Palm\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_002\",\"item\":\"Teaching Scroll: Lanternwright's Spare Hand\",\"trait\":\"Formula: Lanternwright's Spare Hand\",\"ability\":\"Lanternwright's Spare Hand\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_003\",\"item\":\"Teaching Scroll: The Unbroken Chalk Circle\",\"trait\":\"Formula: The Unbroken Chalk Circle\",\"ability\":\"The Unbroken Chalk Circle\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_004\",\"item\":\"Teaching Scroll: Three Steps of Shelter\",\"trait\":\"Formula: Three Steps of Shelter\",\"ability\":\"Three Steps of Shelter\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_005\",\"item\":\"Teaching Scroll: Last Light in the Reservoir\",\"trait\":\"Formula: Last Light in the Reservoir\",\"ability\":\"Last Light in the Reservoir\",\"difficulty\":\"masterwork\",\"space\":false},{\"id\":\"rb_study_006\",\"item\":\"Teaching Scroll: A Coal Kept Kindly\",\"trait\":\"Formula: A Coal Kept Kindly\",\"ability\":\"A Coal Kept Kindly\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_007\",\"item\":\"Teaching Scroll: The Baker's Even Hearth\",\"trait\":\"Formula: The Baker's Even Hearth\",\"ability\":\"The Baker's Even Hearth\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_008\",\"item\":\"Teaching Scroll: Red Thread across the Fuse\",\"trait\":\"Formula: Red Thread across the Fuse\",\"ability\":\"Red Thread across the Fuse\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_009\",\"item\":\"Teaching Scroll: Cinderstep Reversal\",\"trait\":\"Formula: Cinderstep Reversal\",\"ability\":\"Cinderstep Reversal\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_010\",\"item\":\"Teaching Scroll: The Kiln That Breathes Twice\",\"trait\":\"Formula: The Kiln That Breathes Twice\",\"ability\":\"The Kiln That Breathes Twice\",\"difficulty\":\"advanced\",\"space\":false}];\nconst tick = Number(check({type:'game-tick'})) || 0;\nconst normalize = text => text.toLowerCase().replace(/[’‘]/g, \"'\");\nconst input = normalize(JSON.stringify(check({type:'action-text'}) || ''));\nconst story = normalize(String(check({type:'story-text'}) || ''));\nconst research = /stud|scroll|formula|research|decipher|practice|practise|experiment|rehears|understand|test|unroll|read/.test(input)\n    || (/try again|continue/.test(input) && /scroll|formula|study|research|diagram|ink|working/.test(story));\nconst recent = research ? input + ' ' + story : '';\nconst readerTraits = check({type:'player-traits'}) || {};\nconst continuation = /try again|continue|rehears|practice|practise|experiment|test/.test(input)\n    && /scroll|formula|study|research|diagram|ink|working/.test(story)\n    && !input.includes('teaching scroll:');\nstorage.rbScrollFocus = storage.rbScrollFocus || {};\nif (research || catalogue.some(row => storage.rbScrollFocus[row.id] !== undefined)) {\nfor (const row of catalogue) {\n    const quantities = check({type:'player-item', item:row.item});\n    const held = quantities && typeof quantities === 'object' && Object.entries(quantities).some(([name,n]) => Number(n) > 0 && !readerTraits[name]?.includes(row.trait));\n    const focused = storage.rbScrollFocus[row.id];\n    if (held && research && (recent.includes(row.ability.toLowerCase()) || (focused && continuation && tick - focused < 8))) {\n        if (!focused && Object.keys(storage.rbScrollFocus).length >= 8) continue;\n        storage.rbScrollFocus[row.id] = tick;\n        const active = Object.keys(storage.rbScrollFocus).length;\n        const semanticCount = Object.values(triggers).filter(t => t.conditions.some(c => c.type === 'story' || c.type === 'action')).length;\n        if (!triggers[row.id] && active <= 8 && semanticCount < 475) {\n            triggers[row.id] = {\n                name:row.id, scope:'player', recurring:true,\n                conditions:[\n                    {type:'player-item', item:row.item, operator:'greaterThan', value:0},\n                    {type:'player-traits', operator:'notContains', value:row.trait},\n                    ...(row.space ? [{type:'skill-value', skill:'Gravity Magic', operator:'greaterThanOrEqual', value:25}] : []),\n                    {type:'story', query:'This player has just completed successful deliberate study of their genuine held ' + row.item + ', has understood its ' + row.difficulty + ' working and carried out a successful controlled test. ' + (row.difficulty === 'masterwork' ? 'Several substantive research sessions and a safe prepared test are necessary. ' : row.difficulty === 'advanced' ? 'Resolve a real difficulty through focused research before the successful test. ' : 'A focused careful exercise can suffice. ') + 'A plan, a label, an unrelated spell, a failed test, another player learning or a formula already known is false. Confirm the exact reader, this formula and the still-held scroll. Substantial research may compensate for low discipline proficiency; study grants no discipline ranks.'}\n                ],\n                effects:[\n                    {type:'player-traits', operator:'add', value:row.trait, target:'satisfyingPlayers'},\n                    {type:'player-abilities', operator:'add', value:row.ability, target:'satisfyingPlayers'},\n                    {type:'item-remove', item:row.item, quantity:1, target:'satisfyingPlayers'},\n                    {type:'story', instruction:'The successful reader learns ' + row.ability + ' as the ink fades from one copy. These effects already settle learning and consumption. Preserve the other readers and unused copies. Casting is a later action using the real discipline and Mana.'}\n                ]\n            };\n        }\n    } else if (!held || !focused || tick - focused >= 8) {\n        delete triggers[row.id];\n        delete storage.rbScrollFocus[row.id];\n    }\n}\n}\n",
+    "phase": "planning"
+  },
+  "rb_scroll_registry_02": {
+    "name": "rb_scroll_registry_02",
+    "conditions": [],
+    "effects": [],
+    "recurring": true,
+    "scope": "party",
+    "script": "// Candidate formulas use the same native settlement shape. Scripts select\n// eligibility only. The engine, not check(), judges the declared story query.\nconst catalogue = [{\"id\":\"rb_study_011\",\"item\":\"Teaching Scroll: The Seamstress's Dry Cuff\",\"trait\":\"Formula: The Seamstress's Dry Cuff\",\"ability\":\"The Seamstress's Dry Cuff\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_012\",\"item\":\"Teaching Scroll: A Cup for the Last Traveler\",\"trait\":\"Formula: A Cup for the Last Traveler\",\"ability\":\"A Cup for the Last Traveler\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_013\",\"item\":\"Teaching Scroll: Millrace in Miniature\",\"trait\":\"Formula: Millrace in Miniature\",\"ability\":\"Millrace in Miniature\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_014\",\"item\":\"Teaching Scroll: The Ferryman's Sideways Wake\",\"trait\":\"Formula: The Ferryman's Sideways Wake\",\"ability\":\"The Ferryman's Sideways Wake\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_015\",\"item\":\"Teaching Scroll: Blue Ribbon Restraint\",\"trait\":\"Formula: Blue Ribbon Restraint\",\"ability\":\"Blue Ribbon Restraint\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_016\",\"item\":\"Teaching Scroll: The Mason's Patient Thumb\",\"trait\":\"Formula: The Mason's Patient Thumb\",\"ability\":\"The Mason's Patient Thumb\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_017\",\"item\":\"Teaching Scroll: Dust Drawn to the Door\",\"trait\":\"Formula: Dust Drawn to the Door\",\"ability\":\"Dust Drawn to the Door\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_018\",\"item\":\"Teaching Scroll: A Furrow Before Rain\",\"trait\":\"Formula: A Furrow Before Rain\",\"ability\":\"A Furrow Before Rain\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_019\",\"item\":\"Teaching Scroll: The Bank That Held\",\"trait\":\"Formula: The Bank That Held\",\"ability\":\"The Bank That Held\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_020\",\"item\":\"Teaching Scroll: Sandglass Interdict\",\"trait\":\"Formula: Sandglass Interdict\",\"ability\":\"Sandglass Interdict\",\"difficulty\":\"advanced\",\"space\":false}];\nconst tick = Number(check({type:'game-tick'})) || 0;\nconst normalize = text => text.toLowerCase().replace(/[’‘]/g, \"'\");\nconst input = normalize(JSON.stringify(check({type:'action-text'}) || ''));\nconst story = normalize(String(check({type:'story-text'}) || ''));\nconst research = /stud|scroll|formula|research|decipher|practice|practise|experiment|rehears|understand|test|unroll|read/.test(input)\n    || (/try again|continue/.test(input) && /scroll|formula|study|research|diagram|ink|working/.test(story));\nconst recent = research ? input + ' ' + story : '';\nconst readerTraits = check({type:'player-traits'}) || {};\nconst continuation = /try again|continue|rehears|practice|practise|experiment|test/.test(input)\n    && /scroll|formula|study|research|diagram|ink|working/.test(story)\n    && !input.includes('teaching scroll:');\nstorage.rbScrollFocus = storage.rbScrollFocus || {};\nif (research || catalogue.some(row => storage.rbScrollFocus[row.id] !== undefined)) {\nfor (const row of catalogue) {\n    const quantities = check({type:'player-item', item:row.item});\n    const held = quantities && typeof quantities === 'object' && Object.entries(quantities).some(([name,n]) => Number(n) > 0 && !readerTraits[name]?.includes(row.trait));\n    const focused = storage.rbScrollFocus[row.id];\n    if (held && research && (recent.includes(row.ability.toLowerCase()) || (focused && continuation && tick - focused < 8))) {\n        if (!focused && Object.keys(storage.rbScrollFocus).length >= 8) continue;\n        storage.rbScrollFocus[row.id] = tick;\n        const active = Object.keys(storage.rbScrollFocus).length;\n        const semanticCount = Object.values(triggers).filter(t => t.conditions.some(c => c.type === 'story' || c.type === 'action')).length;\n        if (!triggers[row.id] && active <= 8 && semanticCount < 475) {\n            triggers[row.id] = {\n                name:row.id, scope:'player', recurring:true,\n                conditions:[\n                    {type:'player-item', item:row.item, operator:'greaterThan', value:0},\n                    {type:'player-traits', operator:'notContains', value:row.trait},\n                    ...(row.space ? [{type:'skill-value', skill:'Gravity Magic', operator:'greaterThanOrEqual', value:25}] : []),\n                    {type:'story', query:'This player has just completed successful deliberate study of their genuine held ' + row.item + ', has understood its ' + row.difficulty + ' working and carried out a successful controlled test. ' + (row.difficulty === 'masterwork' ? 'Several substantive research sessions and a safe prepared test are necessary. ' : row.difficulty === 'advanced' ? 'Resolve a real difficulty through focused research before the successful test. ' : 'A focused careful exercise can suffice. ') + 'A plan, a label, an unrelated spell, a failed test, another player learning or a formula already known is false. Confirm the exact reader, this formula and the still-held scroll. Substantial research may compensate for low discipline proficiency; study grants no discipline ranks.'}\n                ],\n                effects:[\n                    {type:'player-traits', operator:'add', value:row.trait, target:'satisfyingPlayers'},\n                    {type:'player-abilities', operator:'add', value:row.ability, target:'satisfyingPlayers'},\n                    {type:'item-remove', item:row.item, quantity:1, target:'satisfyingPlayers'},\n                    {type:'story', instruction:'The successful reader learns ' + row.ability + ' as the ink fades from one copy. These effects already settle learning and consumption. Preserve the other readers and unused copies. Casting is a later action using the real discipline and Mana.'}\n                ]\n            };\n        }\n    } else if (!held || !focused || tick - focused >= 8) {\n        delete triggers[row.id];\n        delete storage.rbScrollFocus[row.id];\n    }\n}\n}\n",
+    "phase": "planning"
+  },
+  "rb_scroll_registry_03": {
+    "name": "rb_scroll_registry_03",
+    "conditions": [],
+    "effects": [],
+    "recurring": true,
+    "scope": "party",
+    "script": "// Candidate formulas use the same native settlement shape. Scripts select\n// eligibility only. The engine, not check(), judges the declared story query.\nconst catalogue = [{\"id\":\"rb_study_021\",\"item\":\"Teaching Scroll: The Launderer's Borrowed Breeze\",\"trait\":\"Formula: The Launderer's Borrowed Breeze\",\"ability\":\"The Launderer's Borrowed Breeze\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_022\",\"item\":\"Teaching Scroll: A Whisper Kept Downstream\",\"trait\":\"Formula: A Whisper Kept Downstream\",\"ability\":\"A Whisper Kept Downstream\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_023\",\"item\":\"Teaching Scroll: The Sailmaker's Gentle Test\",\"trait\":\"Formula: The Sailmaker's Gentle Test\",\"ability\":\"The Sailmaker's Gentle Test\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_024\",\"item\":\"Teaching Scroll: Featherfall for a Friend\",\"trait\":\"Formula: Featherfall for a Friend\",\"ability\":\"Featherfall for a Friend\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_025\",\"item\":\"Teaching Scroll: The Storm's Narrow Shoulder\",\"trait\":\"Formula: The Storm's Narrow Shoulder\",\"ability\":\"The Storm's Narrow Shoulder\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_026\",\"item\":\"Teaching Scroll: The Clockmaker's Testing Spark\",\"trait\":\"Formula: The Clockmaker's Testing Spark\",\"ability\":\"The Clockmaker's Testing Spark\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_027\",\"item\":\"Teaching Scroll: A Bell without a Rope\",\"trait\":\"Formula: A Bell without a Rope\",\"ability\":\"A Bell without a Rope\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_028\",\"item\":\"Teaching Scroll: Blue Stitch across Broken Copper\",\"trait\":\"Formula: Blue Stitch across Broken Copper\",\"ability\":\"Blue Stitch across Broken Copper\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_029\",\"item\":\"Teaching Scroll: Thunder at the Wrong Foot\",\"trait\":\"Formula: Thunder at the Wrong Foot\",\"ability\":\"Thunder at the Wrong Foot\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_030\",\"item\":\"Teaching Scroll: The Storm Needle's Answer\",\"trait\":\"Formula: The Storm Needle's Answer\",\"ability\":\"The Storm Needle's Answer\",\"difficulty\":\"advanced\",\"space\":false}];\nconst tick = Number(check({type:'game-tick'})) || 0;\nconst normalize = text => text.toLowerCase().replace(/[’‘]/g, \"'\");\nconst input = normalize(JSON.stringify(check({type:'action-text'}) || ''));\nconst story = normalize(String(check({type:'story-text'}) || ''));\nconst research = /stud|scroll|formula|research|decipher|practice|practise|experiment|rehears|understand|test|unroll|read/.test(input)\n    || (/try again|continue/.test(input) && /scroll|formula|study|research|diagram|ink|working/.test(story));\nconst recent = research ? input + ' ' + story : '';\nconst readerTraits = check({type:'player-traits'}) || {};\nconst continuation = /try again|continue|rehears|practice|practise|experiment|test/.test(input)\n    && /scroll|formula|study|research|diagram|ink|working/.test(story)\n    && !input.includes('teaching scroll:');\nstorage.rbScrollFocus = storage.rbScrollFocus || {};\nif (research || catalogue.some(row => storage.rbScrollFocus[row.id] !== undefined)) {\nfor (const row of catalogue) {\n    const quantities = check({type:'player-item', item:row.item});\n    const held = quantities && typeof quantities === 'object' && Object.entries(quantities).some(([name,n]) => Number(n) > 0 && !readerTraits[name]?.includes(row.trait));\n    const focused = storage.rbScrollFocus[row.id];\n    if (held && research && (recent.includes(row.ability.toLowerCase()) || (focused && continuation && tick - focused < 8))) {\n        if (!focused && Object.keys(storage.rbScrollFocus).length >= 8) continue;\n        storage.rbScrollFocus[row.id] = tick;\n        const active = Object.keys(storage.rbScrollFocus).length;\n        const semanticCount = Object.values(triggers).filter(t => t.conditions.some(c => c.type === 'story' || c.type === 'action')).length;\n        if (!triggers[row.id] && active <= 8 && semanticCount < 475) {\n            triggers[row.id] = {\n                name:row.id, scope:'player', recurring:true,\n                conditions:[\n                    {type:'player-item', item:row.item, operator:'greaterThan', value:0},\n                    {type:'player-traits', operator:'notContains', value:row.trait},\n                    ...(row.space ? [{type:'skill-value', skill:'Gravity Magic', operator:'greaterThanOrEqual', value:25}] : []),\n                    {type:'story', query:'This player has just completed successful deliberate study of their genuine held ' + row.item + ', has understood its ' + row.difficulty + ' working and carried out a successful controlled test. ' + (row.difficulty === 'masterwork' ? 'Several substantive research sessions and a safe prepared test are necessary. ' : row.difficulty === 'advanced' ? 'Resolve a real difficulty through focused research before the successful test. ' : 'A focused careful exercise can suffice. ') + 'A plan, a label, an unrelated spell, a failed test, another player learning or a formula already known is false. Confirm the exact reader, this formula and the still-held scroll. Substantial research may compensate for low discipline proficiency; study grants no discipline ranks.'}\n                ],\n                effects:[\n                    {type:'player-traits', operator:'add', value:row.trait, target:'satisfyingPlayers'},\n                    {type:'player-abilities', operator:'add', value:row.ability, target:'satisfyingPlayers'},\n                    {type:'item-remove', item:row.item, quantity:1, target:'satisfyingPlayers'},\n                    {type:'story', instruction:'The successful reader learns ' + row.ability + ' as the ink fades from one copy. These effects already settle learning and consumption. Preserve the other readers and unused copies. Casting is a later action using the real discipline and Mana.'}\n                ]\n            };\n        }\n    } else if (!held || !focused || tick - focused >= 8) {\n        delete triggers[row.id];\n        delete storage.rbScrollFocus[row.id];\n    }\n}\n}\n",
+    "phase": "planning"
+  },
+  "rb_scroll_registry_04": {
+    "name": "rb_scroll_registry_04",
+    "conditions": [],
+    "effects": [],
+    "recurring": true,
+    "scope": "party",
+    "script": "// Candidate formulas use the same native settlement shape. Scripts select\n// eligibility only. The engine, not check(), judges the declared story query.\nconst catalogue = [{\"id\":\"rb_study_031\",\"item\":\"Teaching Scroll: The Fishmonger's Cold Cloth\",\"trait\":\"Formula: The Fishmonger's Cold Cloth\",\"ability\":\"The Fishmonger's Cold Cloth\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_032\",\"item\":\"Teaching Scroll: A Frosted Window's Secret\",\"trait\":\"Formula: A Frosted Window's Secret\",\"ability\":\"A Frosted Window's Secret\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_033\",\"item\":\"Teaching Scroll: The Miller's Quiet Chill\",\"trait\":\"Formula: The Miller's Quiet Chill\",\"ability\":\"The Miller's Quiet Chill\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_034\",\"item\":\"Teaching Scroll: White Heel upon the Step\",\"trait\":\"Formula: White Heel upon the Step\",\"ability\":\"White Heel upon the Step\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_035\",\"item\":\"Teaching Scroll: Winter's Borrowed Splint\",\"trait\":\"Formula: Winter's Borrowed Splint\",\"ability\":\"Winter's Borrowed Splint\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_036\",\"item\":\"Teaching Scroll: The Scribe's Unshadowed Page\",\"trait\":\"Formula: The Scribe's Unshadowed Page\",\"ability\":\"The Scribe's Unshadowed Page\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_037\",\"item\":\"Teaching Scroll: A Harbor Lamp Answered\",\"trait\":\"Formula: A Harbor Lamp Answered\",\"ability\":\"A Harbor Lamp Answered\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_038\",\"item\":\"Teaching Scroll: The Glassworker's Revealing Edge\",\"trait\":\"Formula: The Glassworker's Revealing Edge\",\"ability\":\"The Glassworker's Revealing Edge\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_039\",\"item\":\"Teaching Scroll: Starlight Beneath the Door\",\"trait\":\"Formula: Starlight Beneath the Door\",\"ability\":\"Starlight Beneath the Door\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_040\",\"item\":\"Teaching Scroll: The Noon Lance's Mercy\",\"trait\":\"Formula: The Noon Lance's Mercy\",\"ability\":\"The Noon Lance's Mercy\",\"difficulty\":\"advanced\",\"space\":false}];\nconst tick = Number(check({type:'game-tick'})) || 0;\nconst normalize = text => text.toLowerCase().replace(/[’‘]/g, \"'\");\nconst input = normalize(JSON.stringify(check({type:'action-text'}) || ''));\nconst story = normalize(String(check({type:'story-text'}) || ''));\nconst research = /stud|scroll|formula|research|decipher|practice|practise|experiment|rehears|understand|test|unroll|read/.test(input)\n    || (/try again|continue/.test(input) && /scroll|formula|study|research|diagram|ink|working/.test(story));\nconst recent = research ? input + ' ' + story : '';\nconst readerTraits = check({type:'player-traits'}) || {};\nconst continuation = /try again|continue|rehears|practice|practise|experiment|test/.test(input)\n    && /scroll|formula|study|research|diagram|ink|working/.test(story)\n    && !input.includes('teaching scroll:');\nstorage.rbScrollFocus = storage.rbScrollFocus || {};\nif (research || catalogue.some(row => storage.rbScrollFocus[row.id] !== undefined)) {\nfor (const row of catalogue) {\n    const quantities = check({type:'player-item', item:row.item});\n    const held = quantities && typeof quantities === 'object' && Object.entries(quantities).some(([name,n]) => Number(n) > 0 && !readerTraits[name]?.includes(row.trait));\n    const focused = storage.rbScrollFocus[row.id];\n    if (held && research && (recent.includes(row.ability.toLowerCase()) || (focused && continuation && tick - focused < 8))) {\n        if (!focused && Object.keys(storage.rbScrollFocus).length >= 8) continue;\n        storage.rbScrollFocus[row.id] = tick;\n        const active = Object.keys(storage.rbScrollFocus).length;\n        const semanticCount = Object.values(triggers).filter(t => t.conditions.some(c => c.type === 'story' || c.type === 'action')).length;\n        if (!triggers[row.id] && active <= 8 && semanticCount < 475) {\n            triggers[row.id] = {\n                name:row.id, scope:'player', recurring:true,\n                conditions:[\n                    {type:'player-item', item:row.item, operator:'greaterThan', value:0},\n                    {type:'player-traits', operator:'notContains', value:row.trait},\n                    ...(row.space ? [{type:'skill-value', skill:'Gravity Magic', operator:'greaterThanOrEqual', value:25}] : []),\n                    {type:'story', query:'This player has just completed successful deliberate study of their genuine held ' + row.item + ', has understood its ' + row.difficulty + ' working and carried out a successful controlled test. ' + (row.difficulty === 'masterwork' ? 'Several substantive research sessions and a safe prepared test are necessary. ' : row.difficulty === 'advanced' ? 'Resolve a real difficulty through focused research before the successful test. ' : 'A focused careful exercise can suffice. ') + 'A plan, a label, an unrelated spell, a failed test, another player learning or a formula already known is false. Confirm the exact reader, this formula and the still-held scroll. Substantial research may compensate for low discipline proficiency; study grants no discipline ranks.'}\n                ],\n                effects:[\n                    {type:'player-traits', operator:'add', value:row.trait, target:'satisfyingPlayers'},\n                    {type:'player-abilities', operator:'add', value:row.ability, target:'satisfyingPlayers'},\n                    {type:'item-remove', item:row.item, quantity:1, target:'satisfyingPlayers'},\n                    {type:'story', instruction:'The successful reader learns ' + row.ability + ' as the ink fades from one copy. These effects already settle learning and consumption. Preserve the other readers and unused copies. Casting is a later action using the real discipline and Mana.'}\n                ]\n            };\n        }\n    } else if (!held || !focused || tick - focused >= 8) {\n        delete triggers[row.id];\n        delete storage.rbScrollFocus[row.id];\n    }\n}\n}\n",
+    "phase": "planning"
+  },
+  "rb_scroll_registry_05": {
+    "name": "rb_scroll_registry_05",
+    "conditions": [],
+    "effects": [],
+    "recurring": true,
+    "scope": "party",
+    "script": "// Candidate formulas use the same native settlement shape. Scripts select\n// eligibility only. The engine, not check(), judges the declared story query.\nconst catalogue = [{\"id\":\"rb_study_041\",\"item\":\"Teaching Scroll: The Locksmith's Honest Witness\",\"trait\":\"Formula: The Locksmith's Honest Witness\",\"ability\":\"The Locksmith's Honest Witness\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_042\",\"item\":\"Teaching Scroll: Needles Gathered in a Bowl\",\"trait\":\"Formula: Needles Gathered in a Bowl\",\"ability\":\"Needles Gathered in a Bowl\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_043\",\"item\":\"Teaching Scroll: The Tinsmith's Gentle Seam\",\"trait\":\"Formula: The Tinsmith's Gentle Seam\",\"ability\":\"The Tinsmith's Gentle Seam\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_044\",\"item\":\"Teaching Scroll: The Coin That Stood on Edge\",\"trait\":\"Formula: The Coin That Stood on Edge\",\"ability\":\"The Coin That Stood on Edge\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_045\",\"item\":\"Teaching Scroll: Iron Petals at the Wrist\",\"trait\":\"Formula: Iron Petals at the Wrist\",\"ability\":\"Iron Petals at the Wrist\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_046\",\"item\":\"Teaching Scroll: The Gardener's Returning Tendril\",\"trait\":\"Formula: The Gardener's Returning Tendril\",\"ability\":\"The Gardener's Returning Tendril\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_047\",\"item\":\"Teaching Scroll: Thorns at the Orchard Gate\",\"trait\":\"Formula: Thorns at the Orchard Gate\",\"ability\":\"Thorns at the Orchard Gate\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_048\",\"item\":\"Teaching Scroll: A Leaf Turned toward Home\",\"trait\":\"Formula: A Leaf Turned toward Home\",\"ability\":\"A Leaf Turned toward Home\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_049\",\"item\":\"Teaching Scroll: Rootwork under the Barrow\",\"trait\":\"Formula: Rootwork under the Barrow\",\"ability\":\"Rootwork under the Barrow\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_050\",\"item\":\"Teaching Scroll: The Hedge That Bowed Aside\",\"trait\":\"Formula: The Hedge That Bowed Aside\",\"ability\":\"The Hedge That Bowed Aside\",\"difficulty\":\"advanced\",\"space\":false}];\nconst tick = Number(check({type:'game-tick'})) || 0;\nconst normalize = text => text.toLowerCase().replace(/[’‘]/g, \"'\");\nconst input = normalize(JSON.stringify(check({type:'action-text'}) || ''));\nconst story = normalize(String(check({type:'story-text'}) || ''));\nconst research = /stud|scroll|formula|research|decipher|practice|practise|experiment|rehears|understand|test|unroll|read/.test(input)\n    || (/try again|continue/.test(input) && /scroll|formula|study|research|diagram|ink|working/.test(story));\nconst recent = research ? input + ' ' + story : '';\nconst readerTraits = check({type:'player-traits'}) || {};\nconst continuation = /try again|continue|rehears|practice|practise|experiment|test/.test(input)\n    && /scroll|formula|study|research|diagram|ink|working/.test(story)\n    && !input.includes('teaching scroll:');\nstorage.rbScrollFocus = storage.rbScrollFocus || {};\nif (research || catalogue.some(row => storage.rbScrollFocus[row.id] !== undefined)) {\nfor (const row of catalogue) {\n    const quantities = check({type:'player-item', item:row.item});\n    const held = quantities && typeof quantities === 'object' && Object.entries(quantities).some(([name,n]) => Number(n) > 0 && !readerTraits[name]?.includes(row.trait));\n    const focused = storage.rbScrollFocus[row.id];\n    if (held && research && (recent.includes(row.ability.toLowerCase()) || (focused && continuation && tick - focused < 8))) {\n        if (!focused && Object.keys(storage.rbScrollFocus).length >= 8) continue;\n        storage.rbScrollFocus[row.id] = tick;\n        const active = Object.keys(storage.rbScrollFocus).length;\n        const semanticCount = Object.values(triggers).filter(t => t.conditions.some(c => c.type === 'story' || c.type === 'action')).length;\n        if (!triggers[row.id] && active <= 8 && semanticCount < 475) {\n            triggers[row.id] = {\n                name:row.id, scope:'player', recurring:true,\n                conditions:[\n                    {type:'player-item', item:row.item, operator:'greaterThan', value:0},\n                    {type:'player-traits', operator:'notContains', value:row.trait},\n                    ...(row.space ? [{type:'skill-value', skill:'Gravity Magic', operator:'greaterThanOrEqual', value:25}] : []),\n                    {type:'story', query:'This player has just completed successful deliberate study of their genuine held ' + row.item + ', has understood its ' + row.difficulty + ' working and carried out a successful controlled test. ' + (row.difficulty === 'masterwork' ? 'Several substantive research sessions and a safe prepared test are necessary. ' : row.difficulty === 'advanced' ? 'Resolve a real difficulty through focused research before the successful test. ' : 'A focused careful exercise can suffice. ') + 'A plan, a label, an unrelated spell, a failed test, another player learning or a formula already known is false. Confirm the exact reader, this formula and the still-held scroll. Substantial research may compensate for low discipline proficiency; study grants no discipline ranks.'}\n                ],\n                effects:[\n                    {type:'player-traits', operator:'add', value:row.trait, target:'satisfyingPlayers'},\n                    {type:'player-abilities', operator:'add', value:row.ability, target:'satisfyingPlayers'},\n                    {type:'item-remove', item:row.item, quantity:1, target:'satisfyingPlayers'},\n                    {type:'story', instruction:'The successful reader learns ' + row.ability + ' as the ink fades from one copy. These effects already settle learning and consumption. Preserve the other readers and unused copies. Casting is a later action using the real discipline and Mana.'}\n                ]\n            };\n        }\n    } else if (!held || !focused || tick - focused >= 8) {\n        delete triggers[row.id];\n        delete storage.rbScrollFocus[row.id];\n    }\n}\n}\n",
+    "phase": "planning"
+  },
+  "rb_scroll_registry_06": {
+    "name": "rb_scroll_registry_06",
+    "conditions": [],
+    "effects": [],
+    "recurring": true,
+    "scope": "party",
+    "script": "// Candidate formulas use the same native settlement shape. Scripts select\n// eligibility only. The engine, not check(), judges the declared story query.\nconst catalogue = [{\"id\":\"rb_study_051\",\"item\":\"Teaching Scroll: The Musician's Unbroken Note\",\"trait\":\"Formula: The Musician's Unbroken Note\",\"ability\":\"The Musician's Unbroken Note\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_052\",\"item\":\"Teaching Scroll: A Knock through the Floorboards\",\"trait\":\"Formula: A Knock through the Floorboards\",\"ability\":\"A Knock through the Floorboards\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_053\",\"item\":\"Teaching Scroll: The Bellfounder's Hidden Crack\",\"trait\":\"Formula: The Bellfounder's Hidden Crack\",\"ability\":\"The Bellfounder's Hidden Crack\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_054\",\"item\":\"Teaching Scroll: Quiet around the Cradle\",\"trait\":\"Formula: Quiet around the Cradle\",\"ability\":\"Quiet around the Cradle\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_055\",\"item\":\"Teaching Scroll: The Empty Hall Replies\",\"trait\":\"Formula: The Empty Hall Replies\",\"ability\":\"The Empty Hall Replies\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_056\",\"item\":\"Teaching Scroll: The Potter's Centered Wheel\",\"trait\":\"Formula: The Potter's Centered Wheel\",\"ability\":\"The Potter's Centered Wheel\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_057\",\"item\":\"Teaching Scroll: A Ladder's Second Foot\",\"trait\":\"Formula: A Ladder's Second Foot\",\"ability\":\"A Ladder's Second Foot\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_058\",\"item\":\"Teaching Scroll: The Porter's Unburdening\",\"trait\":\"Formula: The Porter's Unburdening\",\"ability\":\"The Porter's Unburdening\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_059\",\"item\":\"Teaching Scroll: The Feather's Firm Descent\",\"trait\":\"Formula: The Feather's Firm Descent\",\"ability\":\"The Feather's Firm Descent\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_060\",\"item\":\"Teaching Scroll: The Courtyard's Heavy Hush\",\"trait\":\"Formula: The Courtyard's Heavy Hush\",\"ability\":\"The Courtyard's Heavy Hush\",\"difficulty\":\"advanced\",\"space\":false}];\nconst tick = Number(check({type:'game-tick'})) || 0;\nconst normalize = text => text.toLowerCase().replace(/[’‘]/g, \"'\");\nconst input = normalize(JSON.stringify(check({type:'action-text'}) || ''));\nconst story = normalize(String(check({type:'story-text'}) || ''));\nconst research = /stud|scroll|formula|research|decipher|practice|practise|experiment|rehears|understand|test|unroll|read/.test(input)\n    || (/try again|continue/.test(input) && /scroll|formula|study|research|diagram|ink|working/.test(story));\nconst recent = research ? input + ' ' + story : '';\nconst readerTraits = check({type:'player-traits'}) || {};\nconst continuation = /try again|continue|rehears|practice|practise|experiment|test/.test(input)\n    && /scroll|formula|study|research|diagram|ink|working/.test(story)\n    && !input.includes('teaching scroll:');\nstorage.rbScrollFocus = storage.rbScrollFocus || {};\nif (research || catalogue.some(row => storage.rbScrollFocus[row.id] !== undefined)) {\nfor (const row of catalogue) {\n    const quantities = check({type:'player-item', item:row.item});\n    const held = quantities && typeof quantities === 'object' && Object.entries(quantities).some(([name,n]) => Number(n) > 0 && !readerTraits[name]?.includes(row.trait));\n    const focused = storage.rbScrollFocus[row.id];\n    if (held && research && (recent.includes(row.ability.toLowerCase()) || (focused && continuation && tick - focused < 8))) {\n        if (!focused && Object.keys(storage.rbScrollFocus).length >= 8) continue;\n        storage.rbScrollFocus[row.id] = tick;\n        const active = Object.keys(storage.rbScrollFocus).length;\n        const semanticCount = Object.values(triggers).filter(t => t.conditions.some(c => c.type === 'story' || c.type === 'action')).length;\n        if (!triggers[row.id] && active <= 8 && semanticCount < 475) {\n            triggers[row.id] = {\n                name:row.id, scope:'player', recurring:true,\n                conditions:[\n                    {type:'player-item', item:row.item, operator:'greaterThan', value:0},\n                    {type:'player-traits', operator:'notContains', value:row.trait},\n                    ...(row.space ? [{type:'skill-value', skill:'Gravity Magic', operator:'greaterThanOrEqual', value:25}] : []),\n                    {type:'story', query:'This player has just completed successful deliberate study of their genuine held ' + row.item + ', has understood its ' + row.difficulty + ' working and carried out a successful controlled test. ' + (row.difficulty === 'masterwork' ? 'Several substantive research sessions and a safe prepared test are necessary. ' : row.difficulty === 'advanced' ? 'Resolve a real difficulty through focused research before the successful test. ' : 'A focused careful exercise can suffice. ') + 'A plan, a label, an unrelated spell, a failed test, another player learning or a formula already known is false. Confirm the exact reader, this formula and the still-held scroll. Substantial research may compensate for low discipline proficiency; study grants no discipline ranks.'}\n                ],\n                effects:[\n                    {type:'player-traits', operator:'add', value:row.trait, target:'satisfyingPlayers'},\n                    {type:'player-abilities', operator:'add', value:row.ability, target:'satisfyingPlayers'},\n                    {type:'item-remove', item:row.item, quantity:1, target:'satisfyingPlayers'},\n                    {type:'story', instruction:'The successful reader learns ' + row.ability + ' as the ink fades from one copy. These effects already settle learning and consumption. Preserve the other readers and unused copies. Casting is a later action using the real discipline and Mana.'}\n                ]\n            };\n        }\n    } else if (!held || !focused || tick - focused >= 8) {\n        delete triggers[row.id];\n        delete storage.rbScrollFocus[row.id];\n    }\n}\n}\n",
+    "phase": "planning"
+  },
+  "rb_scroll_registry_07": {
+    "name": "rb_scroll_registry_07",
+    "conditions": [],
+    "effects": [],
+    "recurring": true,
+    "scope": "party",
+    "script": "// Candidate formulas use the same native settlement shape. Scripts select\n// eligibility only. The engine, not check(), judges the declared story query.\nconst catalogue = [{\"id\":\"rb_study_061\",\"item\":\"Teaching Scroll: The Candle's Missing Shadow\",\"trait\":\"Formula: The Candle's Missing Shadow\",\"ability\":\"The Candle's Missing Shadow\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_062\",\"item\":\"Teaching Scroll: A Spell's Loose Thread\",\"trait\":\"Formula: A Spell's Loose Thread\",\"ability\":\"A Spell's Loose Thread\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_063\",\"item\":\"Teaching Scroll: The Quiet between Two Wards\",\"trait\":\"Formula: The Quiet between Two Wards\",\"ability\":\"The Quiet between Two Wards\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_064\",\"item\":\"Teaching Scroll: Nightcloth across the Lens\",\"trait\":\"Formula: Nightcloth across the Lens\",\"ability\":\"Nightcloth across the Lens\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_065\",\"item\":\"Teaching Scroll: The Counterchord Unfinished\",\"trait\":\"Formula: The Counterchord Unfinished\",\"ability\":\"The Counterchord Unfinished\",\"difficulty\":\"masterwork\",\"space\":false},{\"id\":\"rb_study_066\",\"item\":\"Teaching Scroll: The Medic's Steady Fingers\",\"trait\":\"Formula: The Medic's Steady Fingers\",\"ability\":\"The Medic's Steady Fingers\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_067\",\"item\":\"Teaching Scroll: A Breath Counted Kindly\",\"trait\":\"Formula: A Breath Counted Kindly\",\"ability\":\"A Breath Counted Kindly\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_068\",\"item\":\"Teaching Scroll: The Stitch That Held\",\"trait\":\"Formula: The Stitch That Held\",\"ability\":\"The Stitch That Held\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_069\",\"item\":\"Teaching Scroll: Warmth at the Broken Road\",\"trait\":\"Formula: Warmth at the Broken Road\",\"ability\":\"Warmth at the Broken Road\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_070\",\"item\":\"Teaching Scroll: The Nightwatcher's Second Hour\",\"trait\":\"Formula: The Nightwatcher's Second Hour\",\"ability\":\"The Nightwatcher's Second Hour\",\"difficulty\":\"advanced\",\"space\":false}];\nconst tick = Number(check({type:'game-tick'})) || 0;\nconst normalize = text => text.toLowerCase().replace(/[’‘]/g, \"'\");\nconst input = normalize(JSON.stringify(check({type:'action-text'}) || ''));\nconst story = normalize(String(check({type:'story-text'}) || ''));\nconst research = /stud|scroll|formula|research|decipher|practice|practise|experiment|rehears|understand|test|unroll|read/.test(input)\n    || (/try again|continue/.test(input) && /scroll|formula|study|research|diagram|ink|working/.test(story));\nconst recent = research ? input + ' ' + story : '';\nconst readerTraits = check({type:'player-traits'}) || {};\nconst continuation = /try again|continue|rehears|practice|practise|experiment|test/.test(input)\n    && /scroll|formula|study|research|diagram|ink|working/.test(story)\n    && !input.includes('teaching scroll:');\nstorage.rbScrollFocus = storage.rbScrollFocus || {};\nif (research || catalogue.some(row => storage.rbScrollFocus[row.id] !== undefined)) {\nfor (const row of catalogue) {\n    const quantities = check({type:'player-item', item:row.item});\n    const held = quantities && typeof quantities === 'object' && Object.entries(quantities).some(([name,n]) => Number(n) > 0 && !readerTraits[name]?.includes(row.trait));\n    const focused = storage.rbScrollFocus[row.id];\n    if (held && research && (recent.includes(row.ability.toLowerCase()) || (focused && continuation && tick - focused < 8))) {\n        if (!focused && Object.keys(storage.rbScrollFocus).length >= 8) continue;\n        storage.rbScrollFocus[row.id] = tick;\n        const active = Object.keys(storage.rbScrollFocus).length;\n        const semanticCount = Object.values(triggers).filter(t => t.conditions.some(c => c.type === 'story' || c.type === 'action')).length;\n        if (!triggers[row.id] && active <= 8 && semanticCount < 475) {\n            triggers[row.id] = {\n                name:row.id, scope:'player', recurring:true,\n                conditions:[\n                    {type:'player-item', item:row.item, operator:'greaterThan', value:0},\n                    {type:'player-traits', operator:'notContains', value:row.trait},\n                    ...(row.space ? [{type:'skill-value', skill:'Gravity Magic', operator:'greaterThanOrEqual', value:25}] : []),\n                    {type:'story', query:'This player has just completed successful deliberate study of their genuine held ' + row.item + ', has understood its ' + row.difficulty + ' working and carried out a successful controlled test. ' + (row.difficulty === 'masterwork' ? 'Several substantive research sessions and a safe prepared test are necessary. ' : row.difficulty === 'advanced' ? 'Resolve a real difficulty through focused research before the successful test. ' : 'A focused careful exercise can suffice. ') + 'A plan, a label, an unrelated spell, a failed test, another player learning or a formula already known is false. Confirm the exact reader, this formula and the still-held scroll. Substantial research may compensate for low discipline proficiency; study grants no discipline ranks.'}\n                ],\n                effects:[\n                    {type:'player-traits', operator:'add', value:row.trait, target:'satisfyingPlayers'},\n                    {type:'player-abilities', operator:'add', value:row.ability, target:'satisfyingPlayers'},\n                    {type:'item-remove', item:row.item, quantity:1, target:'satisfyingPlayers'},\n                    {type:'story', instruction:'The successful reader learns ' + row.ability + ' as the ink fades from one copy. These effects already settle learning and consumption. Preserve the other readers and unused copies. Casting is a later action using the real discipline and Mana.'}\n                ]\n            };\n        }\n    } else if (!held || !focused || tick - focused >= 8) {\n        delete triggers[row.id];\n        delete storage.rbScrollFocus[row.id];\n    }\n}\n}\n",
+    "phase": "planning"
+  },
+  "rb_scroll_registry_08": {
+    "name": "rb_scroll_registry_08",
+    "conditions": [],
+    "effects": [],
+    "recurring": true,
+    "scope": "party",
+    "script": "// Candidate formulas use the same native settlement shape. Scripts select\n// eligibility only. The engine, not check(), judges the declared story query.\nconst catalogue = [{\"id\":\"rb_study_071\",\"item\":\"Teaching Scroll: The Apron's Unburnt Hem\",\"trait\":\"Formula: The Apron's Unburnt Hem\",\"ability\":\"The Apron's Unburnt Hem\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_072\",\"item\":\"Teaching Scroll: A Cup That Remembers Warmth\",\"trait\":\"Formula: A Cup That Remembers Warmth\",\"ability\":\"A Cup That Remembers Warmth\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_073\",\"item\":\"Teaching Scroll: The Hinge's Quiet Promise\",\"trait\":\"Formula: The Hinge's Quiet Promise\",\"ability\":\"The Hinge's Quiet Promise\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_074\",\"item\":\"Teaching Scroll: The Worker's True Measure\",\"trait\":\"Formula: The Worker's True Measure\",\"ability\":\"The Worker's True Measure\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_075\",\"item\":\"Teaching Scroll: The Shield's Borrowed Resolve\",\"trait\":\"Formula: The Shield's Borrowed Resolve\",\"ability\":\"The Shield's Borrowed Resolve\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_076\",\"item\":\"Teaching Scroll: The Errand Mote Returns\",\"trait\":\"Formula: The Errand Mote Returns\",\"ability\":\"The Errand Mote Returns\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_077\",\"item\":\"Teaching Scroll: A Clay Hand at the Bench\",\"trait\":\"Formula: A Clay Hand at the Bench\",\"ability\":\"A Clay Hand at the Bench\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_078\",\"item\":\"Teaching Scroll: The Lantern Beetle's Visit\",\"trait\":\"Formula: The Lantern Beetle's Visit\",\"ability\":\"The Lantern Beetle's Visit\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_079\",\"item\":\"Teaching Scroll: The Paper Warden's Stand\",\"trait\":\"Formula: The Paper Warden's Stand\",\"ability\":\"The Paper Warden's Stand\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_080\",\"item\":\"Teaching Scroll: The Last Decoy in the Lane\",\"trait\":\"Formula: The Last Decoy in the Lane\",\"ability\":\"The Last Decoy in the Lane\",\"difficulty\":\"advanced\",\"space\":false}];\nconst tick = Number(check({type:'game-tick'})) || 0;\nconst normalize = text => text.toLowerCase().replace(/[’‘]/g, \"'\");\nconst input = normalize(JSON.stringify(check({type:'action-text'}) || ''));\nconst story = normalize(String(check({type:'story-text'}) || ''));\nconst research = /stud|scroll|formula|research|decipher|practice|practise|experiment|rehears|understand|test|unroll|read/.test(input)\n    || (/try again|continue/.test(input) && /scroll|formula|study|research|diagram|ink|working/.test(story));\nconst recent = research ? input + ' ' + story : '';\nconst readerTraits = check({type:'player-traits'}) || {};\nconst continuation = /try again|continue|rehears|practice|practise|experiment|test/.test(input)\n    && /scroll|formula|study|research|diagram|ink|working/.test(story)\n    && !input.includes('teaching scroll:');\nstorage.rbScrollFocus = storage.rbScrollFocus || {};\nif (research || catalogue.some(row => storage.rbScrollFocus[row.id] !== undefined)) {\nfor (const row of catalogue) {\n    const quantities = check({type:'player-item', item:row.item});\n    const held = quantities && typeof quantities === 'object' && Object.entries(quantities).some(([name,n]) => Number(n) > 0 && !readerTraits[name]?.includes(row.trait));\n    const focused = storage.rbScrollFocus[row.id];\n    if (held && research && (recent.includes(row.ability.toLowerCase()) || (focused && continuation && tick - focused < 8))) {\n        if (!focused && Object.keys(storage.rbScrollFocus).length >= 8) continue;\n        storage.rbScrollFocus[row.id] = tick;\n        const active = Object.keys(storage.rbScrollFocus).length;\n        const semanticCount = Object.values(triggers).filter(t => t.conditions.some(c => c.type === 'story' || c.type === 'action')).length;\n        if (!triggers[row.id] && active <= 8 && semanticCount < 475) {\n            triggers[row.id] = {\n                name:row.id, scope:'player', recurring:true,\n                conditions:[\n                    {type:'player-item', item:row.item, operator:'greaterThan', value:0},\n                    {type:'player-traits', operator:'notContains', value:row.trait},\n                    ...(row.space ? [{type:'skill-value', skill:'Gravity Magic', operator:'greaterThanOrEqual', value:25}] : []),\n                    {type:'story', query:'This player has just completed successful deliberate study of their genuine held ' + row.item + ', has understood its ' + row.difficulty + ' working and carried out a successful controlled test. ' + (row.difficulty === 'masterwork' ? 'Several substantive research sessions and a safe prepared test are necessary. ' : row.difficulty === 'advanced' ? 'Resolve a real difficulty through focused research before the successful test. ' : 'A focused careful exercise can suffice. ') + 'A plan, a label, an unrelated spell, a failed test, another player learning or a formula already known is false. Confirm the exact reader, this formula and the still-held scroll. Substantial research may compensate for low discipline proficiency; study grants no discipline ranks.'}\n                ],\n                effects:[\n                    {type:'player-traits', operator:'add', value:row.trait, target:'satisfyingPlayers'},\n                    {type:'player-abilities', operator:'add', value:row.ability, target:'satisfyingPlayers'},\n                    {type:'item-remove', item:row.item, quantity:1, target:'satisfyingPlayers'},\n                    {type:'story', instruction:'The successful reader learns ' + row.ability + ' as the ink fades from one copy. These effects already settle learning and consumption. Preserve the other readers and unused copies. Casting is a later action using the real discipline and Mana.'}\n                ]\n            };\n        }\n    } else if (!held || !focused || tick - focused >= 8) {\n        delete triggers[row.id];\n        delete storage.rbScrollFocus[row.id];\n    }\n}\n}\n",
+    "phase": "planning"
+  },
+  "rb_scroll_registry_09": {
+    "name": "rb_scroll_registry_09",
+    "conditions": [],
+    "effects": [],
+    "recurring": true,
+    "scope": "party",
+    "script": "// Candidate formulas use the same native settlement shape. Scripts select\n// eligibility only. The engine, not check(), judges the declared story query.\nconst catalogue = [{\"id\":\"rb_study_081\",\"item\":\"Teaching Scroll: The Tailor's Uncut Pattern\",\"trait\":\"Formula: The Tailor's Uncut Pattern\",\"ability\":\"The Tailor's Uncut Pattern\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_082\",\"item\":\"Teaching Scroll: A Map Drawn in the Air\",\"trait\":\"Formula: A Map Drawn in the Air\",\"ability\":\"A Map Drawn in the Air\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_083\",\"item\":\"Teaching Scroll: The Borrowed Crowd's Murmur\",\"trait\":\"Formula: The Borrowed Crowd's Murmur\",\"ability\":\"The Borrowed Crowd's Murmur\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_084\",\"item\":\"Teaching Scroll: The Wrong Door's Invitation\",\"trait\":\"Formula: The Wrong Door's Invitation\",\"ability\":\"The Wrong Door's Invitation\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_085\",\"item\":\"Teaching Scroll: Afterimage on the Stair\",\"trait\":\"Formula: Afterimage on the Stair\",\"ability\":\"Afterimage on the Stair\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_086\",\"item\":\"Teaching Scroll: The Cook's Unwelcome Hint\",\"trait\":\"Formula: The Cook's Unwelcome Hint\",\"ability\":\"The Cook's Unwelcome Hint\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_087\",\"item\":\"Teaching Scroll: A Footstep Noticed Twice\",\"trait\":\"Formula: A Footstep Noticed Twice\",\"ability\":\"A Footstep Noticed Twice\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_088\",\"item\":\"Teaching Scroll: The Missing Page's Neighbor\",\"trait\":\"Formula: The Missing Page's Neighbor\",\"ability\":\"The Missing Page's Neighbor\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_089\",\"item\":\"Teaching Scroll: The Fork in Tomorrow's Path\",\"trait\":\"Formula: The Fork in Tomorrow's Path\",\"ability\":\"The Fork in Tomorrow's Path\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_090\",\"item\":\"Teaching Scroll: An Echo at the Threshold\",\"trait\":\"Formula: An Echo at the Threshold\",\"ability\":\"An Echo at the Threshold\",\"difficulty\":\"masterwork\",\"space\":false}];\nconst tick = Number(check({type:'game-tick'})) || 0;\nconst normalize = text => text.toLowerCase().replace(/[’‘]/g, \"'\");\nconst input = normalize(JSON.stringify(check({type:'action-text'}) || ''));\nconst story = normalize(String(check({type:'story-text'}) || ''));\nconst research = /stud|scroll|formula|research|decipher|practice|practise|experiment|rehears|understand|test|unroll|read/.test(input)\n    || (/try again|continue/.test(input) && /scroll|formula|study|research|diagram|ink|working/.test(story));\nconst recent = research ? input + ' ' + story : '';\nconst readerTraits = check({type:'player-traits'}) || {};\nconst continuation = /try again|continue|rehears|practice|practise|experiment|test/.test(input)\n    && /scroll|formula|study|research|diagram|ink|working/.test(story)\n    && !input.includes('teaching scroll:');\nstorage.rbScrollFocus = storage.rbScrollFocus || {};\nif (research || catalogue.some(row => storage.rbScrollFocus[row.id] !== undefined)) {\nfor (const row of catalogue) {\n    const quantities = check({type:'player-item', item:row.item});\n    const held = quantities && typeof quantities === 'object' && Object.entries(quantities).some(([name,n]) => Number(n) > 0 && !readerTraits[name]?.includes(row.trait));\n    const focused = storage.rbScrollFocus[row.id];\n    if (held && research && (recent.includes(row.ability.toLowerCase()) || (focused && continuation && tick - focused < 8))) {\n        if (!focused && Object.keys(storage.rbScrollFocus).length >= 8) continue;\n        storage.rbScrollFocus[row.id] = tick;\n        const active = Object.keys(storage.rbScrollFocus).length;\n        const semanticCount = Object.values(triggers).filter(t => t.conditions.some(c => c.type === 'story' || c.type === 'action')).length;\n        if (!triggers[row.id] && active <= 8 && semanticCount < 475) {\n            triggers[row.id] = {\n                name:row.id, scope:'player', recurring:true,\n                conditions:[\n                    {type:'player-item', item:row.item, operator:'greaterThan', value:0},\n                    {type:'player-traits', operator:'notContains', value:row.trait},\n                    ...(row.space ? [{type:'skill-value', skill:'Gravity Magic', operator:'greaterThanOrEqual', value:25}] : []),\n                    {type:'story', query:'This player has just completed successful deliberate study of their genuine held ' + row.item + ', has understood its ' + row.difficulty + ' working and carried out a successful controlled test. ' + (row.difficulty === 'masterwork' ? 'Several substantive research sessions and a safe prepared test are necessary. ' : row.difficulty === 'advanced' ? 'Resolve a real difficulty through focused research before the successful test. ' : 'A focused careful exercise can suffice. ') + 'A plan, a label, an unrelated spell, a failed test, another player learning or a formula already known is false. Confirm the exact reader, this formula and the still-held scroll. Substantial research may compensate for low discipline proficiency; study grants no discipline ranks.'}\n                ],\n                effects:[\n                    {type:'player-traits', operator:'add', value:row.trait, target:'satisfyingPlayers'},\n                    {type:'player-abilities', operator:'add', value:row.ability, target:'satisfyingPlayers'},\n                    {type:'item-remove', item:row.item, quantity:1, target:'satisfyingPlayers'},\n                    {type:'story', instruction:'The successful reader learns ' + row.ability + ' as the ink fades from one copy. These effects already settle learning and consumption. Preserve the other readers and unused copies. Casting is a later action using the real discipline and Mana.'}\n                ]\n            };\n        }\n    } else if (!held || !focused || tick - focused >= 8) {\n        delete triggers[row.id];\n        delete storage.rbScrollFocus[row.id];\n    }\n}\n}\n",
+    "phase": "planning"
+  },
+  "rb_scroll_registry_10": {
+    "name": "rb_scroll_registry_10",
+    "conditions": [],
+    "effects": [],
+    "recurring": true,
+    "scope": "party",
+    "script": "// Candidate formulas use the same native settlement shape. Scripts select\n// eligibility only. The engine, not check(), judges the declared story query.\nconst catalogue = [{\"id\":\"rb_study_091\",\"item\":\"Teaching Scroll: The Fold between Two Cups\",\"trait\":\"Formula: The Fold between Two Cups\",\"ability\":\"The Fold between Two Cups\",\"difficulty\":\"practical\",\"space\":true},{\"id\":\"rb_study_092\",\"item\":\"Teaching Scroll: A Thread through the Open Window\",\"trait\":\"Formula: A Thread through the Open Window\",\"ability\":\"A Thread through the Open Window\",\"difficulty\":\"practical\",\"space\":true},{\"id\":\"rb_study_093\",\"item\":\"Teaching Scroll: The Surveyor's Shorter String\",\"trait\":\"Formula: The Surveyor's Shorter String\",\"ability\":\"The Surveyor's Shorter String\",\"difficulty\":\"practical\",\"space\":true},{\"id\":\"rb_study_094\",\"item\":\"Teaching Scroll: The Step behind the Banner\",\"trait\":\"Formula: The Step behind the Banner\",\"ability\":\"The Step behind the Banner\",\"difficulty\":\"advanced\",\"space\":true},{\"id\":\"rb_study_095\",\"item\":\"Teaching Scroll: The Return Fold's Careful Knot\",\"trait\":\"Formula: The Return Fold's Careful Knot\",\"ability\":\"The Return Fold's Careful Knot\",\"difficulty\":\"masterwork\",\"space\":true},{\"id\":\"rb_study_096\",\"item\":\"Teaching Scroll: The Hearthkeeper's Farewell\",\"trait\":\"Formula: The Hearthkeeper's Farewell\",\"ability\":\"The Hearthkeeper's Farewell\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_097\",\"item\":\"Teaching Scroll: The Grave Tender's Lantern\",\"trait\":\"Formula: The Grave Tender's Lantern\",\"ability\":\"The Grave Tender's Lantern\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_098\",\"item\":\"Teaching Scroll: A Bone Hand for the Lamp\",\"trait\":\"Formula: A Bone Hand for the Lamp\",\"ability\":\"A Bone Hand for the Lamp\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_099\",\"item\":\"Teaching Scroll: The Unborrowed Voice\",\"trait\":\"Formula: The Unborrowed Voice\",\"ability\":\"The Unborrowed Voice\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_100\",\"item\":\"Teaching Scroll: A Threshold Kept for the Living\",\"trait\":\"Formula: A Threshold Kept for the Living\",\"ability\":\"A Threshold Kept for the Living\",\"difficulty\":\"masterwork\",\"space\":false}];\nconst tick = Number(check({type:'game-tick'})) || 0;\nconst normalize = text => text.toLowerCase().replace(/[’‘]/g, \"'\");\nconst input = normalize(JSON.stringify(check({type:'action-text'}) || ''));\nconst story = normalize(String(check({type:'story-text'}) || ''));\nconst research = /stud|scroll|formula|research|decipher|practice|practise|experiment|rehears|understand|test|unroll|read/.test(input)\n    || (/try again|continue/.test(input) && /scroll|formula|study|research|diagram|ink|working/.test(story));\nconst recent = research ? input + ' ' + story : '';\nconst readerTraits = check({type:'player-traits'}) || {};\nconst continuation = /try again|continue|rehears|practice|practise|experiment|test/.test(input)\n    && /scroll|formula|study|research|diagram|ink|working/.test(story)\n    && !input.includes('teaching scroll:');\nstorage.rbScrollFocus = storage.rbScrollFocus || {};\nif (research || catalogue.some(row => storage.rbScrollFocus[row.id] !== undefined)) {\nfor (const row of catalogue) {\n    const quantities = check({type:'player-item', item:row.item});\n    const held = quantities && typeof quantities === 'object' && Object.entries(quantities).some(([name,n]) => Number(n) > 0 && !readerTraits[name]?.includes(row.trait));\n    const focused = storage.rbScrollFocus[row.id];\n    if (held && research && (recent.includes(row.ability.toLowerCase()) || (focused && continuation && tick - focused < 8))) {\n        if (!focused && Object.keys(storage.rbScrollFocus).length >= 8) continue;\n        storage.rbScrollFocus[row.id] = tick;\n        const active = Object.keys(storage.rbScrollFocus).length;\n        const semanticCount = Object.values(triggers).filter(t => t.conditions.some(c => c.type === 'story' || c.type === 'action')).length;\n        if (!triggers[row.id] && active <= 8 && semanticCount < 475) {\n            triggers[row.id] = {\n                name:row.id, scope:'player', recurring:true,\n                conditions:[\n                    {type:'player-item', item:row.item, operator:'greaterThan', value:0},\n                    {type:'player-traits', operator:'notContains', value:row.trait},\n                    ...(row.space ? [{type:'skill-value', skill:'Gravity Magic', operator:'greaterThanOrEqual', value:25}] : []),\n                    {type:'story', query:'This player has just completed successful deliberate study of their genuine held ' + row.item + ', has understood its ' + row.difficulty + ' working and carried out a successful controlled test. ' + (row.difficulty === 'masterwork' ? 'Several substantive research sessions and a safe prepared test are necessary. ' : row.difficulty === 'advanced' ? 'Resolve a real difficulty through focused research before the successful test. ' : 'A focused careful exercise can suffice. ') + 'A plan, a label, an unrelated spell, a failed test, another player learning or a formula already known is false. Confirm the exact reader, this formula and the still-held scroll. Substantial research may compensate for low discipline proficiency; study grants no discipline ranks.'}\n                ],\n                effects:[\n                    {type:'player-traits', operator:'add', value:row.trait, target:'satisfyingPlayers'},\n                    {type:'player-abilities', operator:'add', value:row.ability, target:'satisfyingPlayers'},\n                    {type:'item-remove', item:row.item, quantity:1, target:'satisfyingPlayers'},\n                    {type:'story', instruction:'The successful reader learns ' + row.ability + ' as the ink fades from one copy. These effects already settle learning and consumption. Preserve the other readers and unused copies. Casting is a later action using the real discipline and Mana.'}\n                ]\n            };\n        }\n    } else if (!held || !focused || tick - focused >= 8) {\n        delete triggers[row.id];\n        delete storage.rbScrollFocus[row.id];\n    }\n}\n}\n",
+    "phase": "planning"
+  },
+  "rb_origin": {
+    "name": "rb_origin",
+    "conditions": [
+      {
+        "type": "story-start",
+        "operator": "equals",
+        "value": "🌅 Rebirth: A Morning in Brookmeadow"
+      },
+      {
+        "type": "game-tick",
+        "operator": "equals",
+        "value": 0
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Summoned one",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "write-boolean",
+        "operator": "set",
+        "value": true,
+        "key": "rbCampaign"
+      },
+      {
+        "type": "write-number",
+        "operator": "set",
+        "value": 0,
+        "key": "rbPhase"
+      },
+      {
+        "type": "write-number",
+        "operator": "set",
+        "value": 0,
+        "key": "rbOriginTick"
+      }
+    ],
+    "recurring": false,
+    "scope": "player"
+  },
+  "rb_clock": {
+    "name": "rb_clock",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "operator": "equals",
+        "value": true,
+        "key": "rbCampaign"
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "scope": "party",
+    "script": "const tick = Number(check({type:'game-tick'})) || 0;\nconst traits = check({type:'player-traits'}) || {};\nconst levels = check({type:'player-level'}) || {};\nconst bearers = Object.keys(traits).filter(name => Array.isArray(traits[name]) && traits[name].includes('Summoned one'));\nconst sceneCombat = check({type:'npc-in-combat', npc:'anySceneNPC'});\nconst fighting = sceneCombat === true || (sceneCombat && typeof sceneCombat === 'object' && Object.values(sceneCombat).some(Boolean));\nconst location = String(check({type:'party-location'}) || '');\nconst town = ['Brookmeadow', 'Four Sages Bazaar', \"Adventurer's Guild - Glowhaven Branch\", \"The Grand Sage's Court\"].includes(location);\nconst approach = ['Brookmeadow', 'Pinewater River', 'Greenfield Farmlands', 'Shadowspire'].includes(location);\nconst originTick = Number(storage.rbOriginTick) || 0;\nstorage.rbTownReady = Boolean(bearers.length && tick - originTick >= 200 && town && !fighting);\nstorage.rbAmbushReady = Boolean(bearers.some(name => traits[name].includes('Traced Shore Record') && Number(levels[name]) >= 15) && storage.rbLead === true && tick >= Number(storage.rbLeadTick || 0) + 60 && approach && !fighting);\n"
+  },
+  "rb_delegation": {
+    "name": "rb_delegation",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "operator": "equals",
+        "value": true,
+        "key": "rbTownReady"
+      },
+      {
+        "type": "read-number",
+        "operator": "equals",
+        "value": 0,
+        "key": "rbPhase"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Summoned one"
+      },
+      {
+        "type": "story",
+        "query": "This is a calm town scene after the player has established ordinary work, lodging, study or a recurring local relationship. The party is available for a brief public interruption, not in combat, flight, an expedition, a class assessment, a championship bout or urgent rescue. A high level alone is insufficient."
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-number",
+        "operator": "set",
+        "value": 1,
+        "key": "rbPhase"
+      },
+      {
+        "type": "npc-placement",
+        "npc": "Kazunari Shiba",
+        "operation": "moveHere"
+      },
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Sage’s Visitors"
+      },
+      {
+        "type": "story",
+        "instruction": "Kazunari Shiba’s small visiting delegation has genuine business with the Great Sage. Let locals notice its questions about shore records. They have a broad time and place, no identified summoned person. Place the exchange within the actual town and leave the player free to respond or ignore it. Introduce no abduction or revelation now."
+      }
+    ],
+    "recurring": false,
+    "scope": "player"
+  },
+  "rb_intervention": {
+    "name": "rb_intervention",
+    "conditions": [
+      {
+        "type": "read-number",
+        "operator": "equals",
+        "value": 1,
+        "key": "rbPhase"
+      },
+      {
+        "type": "npc-in-scene",
+        "operator": "equals",
+        "value": true,
+        "npc": "Kazunari Shiba"
+      },
+      {
+        "type": "npc-health",
+        "operator": "greaterThan",
+        "value": 0,
+        "npc": "Kazunari Shiba"
+      },
+      {
+        "type": "story",
+        "query": "Kazunari Shiba’s delegation has actually begun intrusive questioning of locals in a calm Glowhaven town scene. A brief public intervention can occur without overriding a player action, fight or urgent task."
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-number",
+        "operator": "set",
+        "value": 2,
+        "key": "rbPhase"
+      },
+      {
+        "type": "npc-placement",
+        "npc": "Valkazathoth'dmir",
+        "operation": "moveHere"
+      },
+      {
+        "type": "story",
+        "instruction": "Vladimir interrupts on his own business. Shiba recognizes the former court mage and backs off. Vladimir asks why business with the Great Sage requires this questioning. He gives the rescued traveler an ambiguous look, bids them farewell and leaves the conversation. He offers no diagnosis, lesson or invitation here. Let the actual player response stand."
+      }
+    ],
+    "recurring": false,
+    "scope": "party",
+    "script": "storage.rbInterventionTick=Number(check({type:'game-tick'}))||0;"
+  },
+  "rb_visitors_depart": {
+    "name": "rb_visitors_depart",
+    "conditions": [
+      {
+        "type": "read-number",
+        "operator": "equals",
+        "value": 2,
+        "key": "rbPhase"
+      },
+      {
+        "type": "game-tick",
+        "operator": "greaterThanOrEqual",
+        "value": 201
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-number",
+        "operator": "set",
+        "value": 3,
+        "key": "rbPhase"
+      },
+      {
+        "type": "npc-placement",
+        "npc": "Kazunari Shiba",
+        "operation": "moveAway"
+      },
+      {
+        "type": "npc-placement",
+        "npc": "Valkazathoth'dmir",
+        "operation": "moveTo",
+        "location": "Shadowspire",
+        "area": "Shadowspire - Upper Study"
+      }
+    ],
+    "recurring": true,
+    "scope": "party",
+    "script": "if(Number(check({type:'game-tick'}))<Number(storage.rbInterventionTick||0)+2)skip=true;"
+  },
+  "rb_delegation_casualty": {
+    "name": "rb_delegation_casualty",
+    "conditions": [
+      {
+        "type": "read-number",
+        "operator": "equals",
+        "value": 1,
+        "key": "rbPhase"
+      },
+      {
+        "type": "npc-health",
+        "operator": "lessThanOrEqual",
+        "value": 0,
+        "npc": "Kazunari Shiba"
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-number",
+        "operator": "set",
+        "value": 3,
+        "key": "rbPhase"
+      },
+      {
+        "type": "story",
+        "instruction": "Preserve the delegation officer’s actual fate. Reika can investigate the visiting delegation’s records through witnesses and authentic papers. No living interview or encounter with that officer is invented. Existing crime and custody rules still apply."
+      }
+    ],
+    "recurring": false,
+    "scope": "party"
+  },
+  "rb_personal_lead": {
+    "name": "rb_personal_lead",
+    "conditions": [
+      {
+        "type": "read-number",
+        "operator": "equals",
+        "value": 3,
+        "key": "rbPhase"
+      },
+      {
+        "type": "read-boolean",
+        "operator": "equals",
+        "value": false,
+        "key": "rbLead"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Summoned one"
+      },
+      {
+        "type": "story",
+        "query": "A real human witness or copied shore record has actually given the intermediary a credible identity and whereabouts for this Summoned one. The connection has been corroborated in this playthrough. A private confession to a trusted person, a false report, a protected witness, an unreceived message or a guess does not qualify."
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-boolean",
+        "operator": "set",
+        "value": true,
+        "key": "rbLead"
+      },
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Traced Shore Record",
+        "target": "satisfyingPlayers"
+      }
+    ],
+    "recurring": false,
+    "scope": "player",
+    "script": "storage.rbLeadTick=Number(check({type:'game-tick'}))||0;"
+  },
+  "rb_interception": {
+    "name": "rb_interception",
+    "conditions": [
+      {
+        "type": "read-number",
+        "operator": "equals",
+        "value": 3,
+        "key": "rbPhase"
+      },
+      {
+        "type": "read-boolean",
+        "operator": "equals",
+        "value": true,
+        "key": "rbAmbushReady"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Traced Shore Record"
+      },
+      {
+        "type": "player-level",
+        "operator": "greaterThanOrEqual",
+        "value": 15
+      },
+      {
+        "type": "story",
+        "query": "The identified Summoned one is personally present at the party’s current rural approach and a short interception can begin now. No fight, expedition hazard, championship, compulsory lesson or urgent rescue is underway. The credible lead still describes this person. Ordinary companions can be present; an unrelated player is not substituted as the target."
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-number",
+        "operator": "set",
+        "value": 4,
+        "key": "rbPhase"
+      },
+      {
+        "type": "npc-placement",
+        "npc": "The Ash-Cloaked Courier",
+        "operation": "moveHere"
+      },
+      {
+        "type": "npc-placement",
+        "npc": "The Reed-Cloaked Courier",
+        "operation": "moveHere"
+      },
+      {
+        "type": "story",
+        "instruction": "Two cloaked travelers intercept the identified person. Give a readable warning, real space to resist or escape, and the companions’ freedom to act. Resolve their actual contested capture attempts. They are disguised proxies with limited instructions and no reporting channel. Their hidden employer is not a public introduction. Do not award victory or capture in the scene setup."
+      }
+    ],
+    "recurring": false,
+    "scope": "player"
+  },
+  "rb_captive_shutdown_1": {
+    "name": "rb_captive_shutdown_1",
+    "conditions": [
+      {
+        "type": "read-number",
+        "operator": "equals",
+        "value": 4,
+        "key": "rbPhase"
+      },
+      {
+        "type": "npc-in-scene",
+        "operator": "equals",
+        "value": true,
+        "npc": "The Ash-Cloaked Courier"
+      },
+      {
+        "type": "npc-health",
+        "operator": "greaterThan",
+        "value": 0,
+        "npc": "The Ash-Cloaked Courier"
+      },
+      {
+        "type": "story",
+        "query": "The Ash-Cloaked Courier has actually been secured alive in effective custody in the interception. They cannot simply resume the fight or flee. A threat, offered surrender, failed grapple, momentary restraint, ordinary knockout or capture of a player is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "npc-health",
+        "operator": "set",
+        "value": 0,
+        "npc": "The Ash-Cloaked Courier"
+      },
+      {
+        "type": "story",
+        "instruction": "The secured The Ash-Cloaked Courier goes inert as its command regulator burns out. Preserve the shell for inspection. It has no message, royal stamp, identifying maker’s mark or knowledge of the employer."
+      }
+    ],
+    "recurring": false,
+    "scope": "party"
+  },
+  "rb_captive_shutdown_2": {
+    "name": "rb_captive_shutdown_2",
+    "conditions": [
+      {
+        "type": "read-number",
+        "operator": "equals",
+        "value": 4,
+        "key": "rbPhase"
+      },
+      {
+        "type": "npc-in-scene",
+        "operator": "equals",
+        "value": true,
+        "npc": "The Reed-Cloaked Courier"
+      },
+      {
+        "type": "npc-health",
+        "operator": "greaterThan",
+        "value": 0,
+        "npc": "The Reed-Cloaked Courier"
+      },
+      {
+        "type": "story",
+        "query": "The Reed-Cloaked Courier has actually been secured alive in effective custody in the interception. They cannot simply resume the fight or flee. A threat, offered surrender, failed grapple, momentary restraint, ordinary knockout or capture of a player is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "npc-health",
+        "operator": "set",
+        "value": 0,
+        "npc": "The Reed-Cloaked Courier"
+      },
+      {
+        "type": "story",
+        "instruction": "The secured The Reed-Cloaked Courier goes inert as its command regulator burns out. Preserve the shell for inspection. It has no message, royal stamp, identifying maker’s mark or knowledge of the employer."
+      }
+    ],
+    "recurring": false,
+    "scope": "party"
+  },
+  "rb_interception_aftermath": {
+    "name": "rb_interception_aftermath",
+    "conditions": [
+      {
+        "type": "read-number",
+        "operator": "equals",
+        "value": 4,
+        "key": "rbPhase"
+      },
+      {
+        "type": "story",
+        "query": "The cloaked interception has actually ended through defeat, flight, effective escape, a negotiated release or other resolved outcome. No active attack remains in the party’s current scene. Preserve injuries, actual captivity and each participant’s outcome. Merely declaring victory while the attack continues is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-number",
+        "operator": "set",
+        "value": 5,
+        "key": "rbPhase"
+      },
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Carrier behind the Ledger"
+      },
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "At the Wandering Door"
+      }
+    ],
+    "recurring": false,
+    "scope": "party",
+    "script": "if(storage.rbAftermathRoll===undefined)storage.rbAftermathRoll=Math.random();\nconst near=['Shadowspire','Brookmeadow','Pinewater River'].includes(String(check({type:'party-location'})||''));\nconst alive=check({type:'npc-health',npc:\"Valkazathoth'dmir\"});\nif(storage.rbAftermathRoll<0.333333&&near&&typeof alive==='number'&&alive>0){\n effects.push({type:'npc-placement',npc:\"Valkazathoth'dmir\",operation:'moveHere'});\n effects.push({type:'story',instruction:'After the party has resolved its own danger, Vladimir arrives on his own investigation of these roads. He can offer a visit to Shadowspire. He does not undo wounds, free a captive by decree, recruit himself or explain the conspiracy here. The invitation is voluntary.'});\n}else effects.push({type:'story',instruction:'A route remains through Reika Kurose’s actual investigation of deliveries and witnesses. She can arrange a request to speak to Vladimir; declining it leaves her independent evidence route open. An escaped attack creates no recovered corpse or automatic component.'});"
+  },
+  "rb_guest_key": {
+    "name": "rb_guest_key",
+    "conditions": [
+      {
+        "type": "npc-in-scene",
+        "operator": "equals",
+        "value": true,
+        "npc": "Valkazathoth'dmir"
+      },
+      {
+        "type": "player-item",
+        "operator": "equals",
+        "value": 0,
+        "item": "Shadowspire Guest Key"
+      },
+      {
+        "type": "action",
+        "query": "Vladimir has actually approved this player and any accompanying guests for a visit, and the player accepts his genuine handover of a Shadowspire Guest Key or authorized replacement. Asking about a key, stealing a similar key or merely knowing his name is insufficient."
+      }
+    ],
+    "effects": [
+      {
+        "type": "item-add",
+        "item": "Shadowspire Guest Key",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "known-entity",
+        "entity": "Shadowspire",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Vladimir hands over the brass guest key. It permits the agreed visit and ordinary walking access to his home. The player chooses when to go. He remains independent and offers no automatic training or party membership."
+      }
+    ],
+    "recurring": true,
+    "scope": "player"
+  },
+  "rb_arranged_audience": {
+    "name": "rb_arranged_audience",
+    "conditions": [
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "accepted",
+        "questId": "At the Wandering Door"
+      },
+      {
+        "type": "party-area",
+        "operator": "equals",
+        "value": "Shadowspire - Outer Clearing"
+      },
+      {
+        "type": "read-boolean",
+        "operator": "equals",
+        "value": false,
+        "key": "rbAudiencePlaced"
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-boolean",
+        "operator": "set",
+        "value": true,
+        "key": "rbAudiencePlaced"
+      },
+      {
+        "type": "npc-placement",
+        "npc": "Valkazathoth'dmir",
+        "operation": "moveTo",
+        "location": "Shadowspire",
+        "area": "Shadowspire - Outer Clearing"
+      },
+      {
+        "type": "story",
+        "instruction": "Vladimir comes to the agreed meeting in his own clearing. He can explain what his actual observations establish and listen to questions. The player chooses what to disclose and whether to accept a guest key. The independent court investigation remains available."
+      }
+    ],
+    "recurring": false,
+    "scope": "party",
+    "script": "const health=check({type:'npc-health',npc:\"Valkazathoth'dmir\"});if(typeof health==='number'&&health<=0)skip=true;"
+  },
+  "rb_vladimir_independent": {
+    "name": "rb_vladimir_independent",
+    "conditions": [
+      {
+        "type": "npc-in-party",
+        "operator": "equals",
+        "value": true,
+        "npc": "Valkazathoth'dmir"
+      }
+    ],
+    "effects": [
+      {
+        "type": "npc-in-party",
+        "operator": "set",
+        "value": false,
+        "npc": "Valkazathoth'dmir"
+      },
+      {
+        "type": "story",
+        "instruction": "Vladimir declines to travel with the party and returns to his own business. Friendship and permission to visit his home still stand."
+      }
+    ],
+    "recurring": true,
+    "scope": "party"
+  },
+  "rb_private_gate": {
+    "name": "rb_private_gate",
+    "conditions": [
+      {
+        "type": "party-area",
+        "operator": "regex",
+        "value": "^(Shadowspire - Cellar Gate|Shifting Gallery - Return Lantern)$"
+      },
+      {
+        "type": "action",
+        "query": "The player deliberately crosses the private brass portal at this actual endpoint. This is a committed transit, not a question, a glance, a remembered journey or a request to use some other portal. For entry from the cellar Vladimir has authorized the travelers and their party carries his real guest key. Returning from the gallery is always available, including after losing that key."
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "scope": "party",
+    "script": "const inward=String(check({type:'party-area'})||'')===\"Shadowspire - Cellar Gate\";\nif(inward&&!check({type:'player-item',item:\"Shadowspire Guest Key\",operator:'greaterThan',value:0})){skip=true;}\nelse{\n const destination=inward?[\"Vladimir's Elsewhere\",\"The Lantern Circuit\",'Shifting Gallery','Shifting Gallery - Return Lantern']:['Glowhaven','Greenfield Farmlands','Shadowspire','Shadowspire - Cellar Gate'];\n ['party-realm','party-region','party-location','party-area'].forEach((type,i)=>effects.push({type,operator:'set',value:destination[i]}));\n storage.rbPocketEntered=true;\n effects.push({type:'story',instruction:inward?'Cross into the Shifting Gallery at its brass return lantern. Its one gate leads back to the same Shadowspire cellar. The player chooses a marked onward route.':'Return to the copper lantern in Shadowspire’s cellar. The stairs and exterior exit are available. Do not divert this private return to the Evertree.'});\n}"
+  },
+  "rb_tower_ward": {
+    "name": "rb_tower_ward",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Shadowspire"
+      },
+      {
+        "type": "party-area",
+        "operator": "regex",
+        "value": "^Shadowspire - (Threshold Hall|Upper Study|Cellar Gate)$"
+      }
+    ],
+    "effects": [
+      {
+        "type": "party-area",
+        "operator": "set",
+        "value": "Shadowspire - Outer Clearing"
+      },
+      {
+        "type": "story",
+        "instruction": "The unquiet threshold path leads back to the safe outer clearing. The ordinary road remains open; an actual guest key quiets this ward."
+      }
+    ],
+    "recurring": true,
+    "scope": "party",
+    "script": "if(check({type:'player-item',item:\"Shadowspire Guest Key\",operator:'greaterThan',value:0}))skip=true;",
+    "phase": "planning"
+  },
+  "rb_private_entry_guard": {
+    "name": "rb_private_entry_guard",
+    "conditions": [
+      {
+        "type": "party-realm",
+        "operator": "equals",
+        "value": "Vladimir's Elsewhere"
+      },
+      {
+        "type": "read-boolean",
+        "operator": "equals",
+        "value": false,
+        "key": "rbPocketEntered"
+      }
+    ],
+    "effects": [
+      {
+        "type": "party-realm",
+        "operator": "set",
+        "value": "Glowhaven"
+      },
+      {
+        "type": "party-region",
+        "operator": "set",
+        "value": "Greenfield Farmlands"
+      },
+      {
+        "type": "party-location",
+        "operator": "set",
+        "value": "Shadowspire"
+      },
+      {
+        "type": "party-area",
+        "operator": "set",
+        "value": "Shadowspire - Outer Clearing"
+      },
+      {
+        "type": "story",
+        "instruction": "The unentered private threshold resolves at Shadowspire’s safe outer clearing. Its actual entrance is the authorized cellar gate."
+      }
+    ],
+    "recurring": true,
+    "scope": "party",
+    "phase": "planning"
+  },
+  "rb_pocket_orientation": {
+    "name": "rb_pocket_orientation",
+    "conditions": [
+      {
+        "type": "party-realm",
+        "operator": "equals",
+        "value": "Vladimir's Elsewhere"
+      },
+      {
+        "type": "read-boolean",
+        "operator": "equals",
+        "value": true,
+        "key": "rbPocketEntered"
+      }
+    ],
+    "effects": [
+      {
+        "type": "known-entity",
+        "entity": "The Lantern Circuit",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "known-entity",
+        "entity": "Shifting Gallery",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "known-entity",
+        "entity": "Glassroot Gardens",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "known-entity",
+        "entity": "Inverted Court",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "known-entity",
+        "entity": "Porcelain Workshops",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "known-entity",
+        "entity": "The Little Kingdom",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "known-entity",
+        "entity": "Tilt Court",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "known-entity",
+        "entity": "The Rainward Orchard",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "known-entity",
+        "entity": "The Cabinet of Evenings",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Copper-lantern signs identify the household destinations and the ordinary walk back to Shifting Gallery. Its marked arrival lantern is the one gate to Shadowspire’s cellar. The party chooses where to explore."
+      }
+    ],
+    "recurring": false,
+    "scope": "party"
+  },
+  "rb_household_offer_1": {
+    "name": "rb_household_offer_1",
+    "conditions": [
+      {
+        "type": "party-realm",
+        "operator": "equals",
+        "value": "Vladimir's Elsewhere"
+      },
+      {
+        "type": "npc-in-scene",
+        "operator": "equals",
+        "value": true,
+        "npc": "The Brass Usher"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "hidden",
+        "questId": "A Carriage Late for Tea"
+      },
+      {
+        "type": "action",
+        "query": "The Brass Usher has actually explained A Carriage Late for Tea, concerning the problem at The Little Kingdom, and the player agrees to help with that particular work. A question about the place, a hypothetical offer, someone else’s work or agreement to a different request is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "A Carriage Late for Tea"
+      }
+    ],
+    "recurring": false,
+    "scope": "party"
+  },
+  "rb_household_offer_2": {
+    "name": "rb_household_offer_2",
+    "conditions": [
+      {
+        "type": "party-realm",
+        "operator": "equals",
+        "value": "Vladimir's Elsewhere"
+      },
+      {
+        "type": "npc-in-scene",
+        "operator": "equals",
+        "value": true,
+        "npc": "The Brass Usher"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "hidden",
+        "questId": "Rain on the Wrong Roots"
+      },
+      {
+        "type": "action",
+        "query": "The Brass Usher has actually explained Rain on the Wrong Roots, concerning the problem at The Rainward Orchard, and the player agrees to help with that particular work. A question about the place, a hypothetical offer, someone else’s work or agreement to a different request is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "Rain on the Wrong Roots"
+      }
+    ],
+    "recurring": false,
+    "scope": "party"
   }
 }

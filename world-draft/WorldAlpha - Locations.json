@@ -1599,7 +1599,14 @@
         "description": "A quieter lane passes cottages and the town's working yards.",
         "paths": [
           "Brookmeadow - South Road",
-          "Brookmeadow - Village Green"
+          "Brookmeadow - Village Green",
+          "Brookmeadow - Mihana’s Cottage"
+        ]
+      },
+      "Brookmeadow - Mihana’s Cottage": {
+        "description": "A small cottage off Mill Lane. Sand remains beneath the spare bed; a bowl and a rack of painted lamp covers crowd the kitchen table. A screen separates the sleeping space from paid work. Staying beyond a short recovery needs an actual agreement with Mihana.",
+        "paths": [
+          "Brookmeadow - Mill Lane"
         ]
       }
     },
@@ -3232,7 +3239,8 @@
         "description": "A shallow crossing gives nearby residents a practical route across the river.",
         "paths": [
           "Pinewater River - River Bend",
-          "Pinewater River - Pinebank Trail"
+          "Pinewater River - Pinebank Trail",
+          "Pinewater River - Disused Pump House"
         ]
       },
       "Pinewater River - River Bend": {
@@ -3247,6 +3255,12 @@
         "paths": [
           "Pinewater River - Brookmeadow Ford",
           "Pinewater River - River Bend"
+        ]
+      },
+      "Pinewater River - Disused Pump House": {
+        "description": "A disused stone pump house stands above a short culvert. Its original gear is rusted. Recently handled packing straw, an unusually clean mounting plate and a replaced padlock suggest new occupants. The river paths remain available to anyone who chooses to leave.",
+        "paths": [
+          "Pinewater River - Brookmeadow Ford"
         ]
       }
     },
@@ -4208,7 +4222,7 @@
   },
   "Shadowspire": {
     "name": "Shadowspire",
-    "basicInfo": "An undiscovered forested location around a wizard's tower of unknown ownership. Travelers lose their way while trying to approach; the tower cannot be entered.",
+    "basicInfo": "A secluded tower rises beyond woodland paths that seem to lead a stranger back the way they came. A small outer clearing offers a safe view of its old brass-bound door. Invited guests can enter a lived-in stair hall, an upper study and the cellar below.",
     "x": 46,
     "y": 43,
     "radius": 2,
@@ -4231,10 +4245,31 @@
         ]
       },
       "Shadowspire - Outer Clearing": {
-        "description": "A small clearing gives a distant view of the tower's exterior and sealed threshold; no interior area is mapped.",
+        "description": "A small clearing offers a view of the tower’s brass-bound door. A stone bench gives a visitor somewhere to wait. A guest’s key turns quietly toward the threshold; an uninvited walker finds the path bending back toward the trees.",
         "paths": [
           "Shadowspire - Shadowspire Forest",
-          "Shadowspire - Twisting Trail"
+          "Shadowspire - Twisting Trail",
+          "Shadowspire - Threshold Hall"
+        ]
+      },
+      "Shadowspire - Threshold Hall": {
+        "description": "A brass ward ring crosses the stone threshold. Cloak pegs, a guest bench and a chipped umbrella stand sit below a curved stair. The open exterior door remains the ordinary way out.",
+        "paths": [
+          "Shadowspire - Outer Clearing",
+          "Shadowspire - Upper Study",
+          "Shadowspire - Cellar Gate"
+        ]
+      },
+      "Shadowspire - Upper Study": {
+        "description": "Round windows overlook the woods. A brass observation instrument stands beside tea, maps and letters under paperweights. Vladimir chooses which private papers a guest may see.",
+        "paths": [
+          "Shadowspire - Threshold Hall"
+        ]
+      },
+      "Shadowspire - Cellar Gate": {
+        "description": "Below the stair, a hinged brass doorway holds a bright impossible landscape. A copper lantern marks this exact endpoint. Crossing is voluntary; the return from the far lantern leads here.",
+        "paths": [
+          "Shadowspire - Threshold Hall"
         ]
       }
     },
@@ -4251,7 +4286,7 @@
         "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/af7f5e99-b818-4859-8812-b0c2fe58adcf.png"
       }
     },
-    "hiddenInfo": "\n\nShadowspire is the concealed lair of a secret character whose identity is reserved. This is narrator-only context: the ownership and purpose are not ordinary public knowledge and should emerge only through deliberately authored revelation. Do not invent the owner's name, allegiance, or history to complete the mystery.\n\nThe established approach runs through a forest where travelers lose their way as they try to reach the tower. Its threshold cannot currently be entered, and no accessible interior has been established. Preserve its undiscovered map state and the difference between visible, misleading approaches and the actual secret behind them. An atmospheric sighting or unsuccessful approach is not permission to reveal the owner or generate a new route inside.",
+    "hiddenInfo": "Vladimir, whose full name is Valkazathoth'dmir, owns the tower. Ownership and the Ardelis history become known through actual contact. The exterior ward folds an uninvited approach back toward the clearing. An actual Shadowspire Guest Key quiets the ward for the permitted party; guests walk normally. The cellar alone contains the private portal. Losing a key leaves a way out and an opportunity to ask Vladimir for a replacement. The tower grants no automatic audience, lesson, treasure or party recruitment.",
     "npcLevelRange": {
       "min": 40,
       "max": 75
@@ -18136,6 +18171,318 @@
           },
           "zoom": 100
         }
+      }
+    }
+  },
+  "Shifting Gallery": {
+    "name": "Shifting Gallery",
+    "basicInfo": "Repeated cream arches ride on exposed tracks. A brass return lantern marks the arrival threshold; the private gate opens only to Shadowspire’s Cellar Gate. A sliding passage changes its view while named destinations keep their marked routes.",
+    "hiddenInfo": "Copper lantern signs mark the walk back to Shifting Gallery. Moving corridors change scenery and optional shortcuts; they never remove the exit, relocate belongings, change known addresses or settle a quest. This is Vladimir’s home; ask before taking or altering property.",
+    "region": "The Lantern Circuit",
+    "x": -27,
+    "y": -13,
+    "radius": 2,
+    "initialKnown": false,
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "npcLevelRange": {
+      "min": 10,
+      "max": 30
+    },
+    "areas": {
+      "Shifting Gallery - Return Lantern": {
+        "description": "Return Lantern. Repeated cream arches ride on exposed tracks. A brass return lantern marks the arrival threshold; the private gate opens only to Shadowspire’s Cellar Gate. A sliding passage changes its view while named destinations keep their marked routes.",
+        "paths": [
+          "Shifting Gallery - Sliding Junction",
+          "Shifting Gallery - Balcony of Doors"
+        ]
+      },
+      "Shifting Gallery - Sliding Junction": {
+        "description": "Sliding Junction. Repeated cream arches ride on exposed tracks. A brass return lantern marks the arrival threshold; the private gate opens only to Shadowspire’s Cellar Gate. A sliding passage changes its view while named destinations keep their marked routes.",
+        "paths": [
+          "Shifting Gallery - Return Lantern",
+          "Shifting Gallery - Balcony of Doors"
+        ]
+      },
+      "Shifting Gallery - Balcony of Doors": {
+        "description": "Balcony of Doors. Repeated cream arches ride on exposed tracks. A brass return lantern marks the arrival threshold; the private gate opens only to Shadowspire’s Cellar Gate. A sliding passage changes its view while named destinations keep their marked routes.",
+        "paths": [
+          "Shifting Gallery - Return Lantern",
+          "Shifting Gallery - Sliding Junction"
+        ]
+      }
+    }
+  },
+  "Glassroot Gardens": {
+    "name": "Glassroot Gardens",
+    "basicInfo": "Transparent roots frame lilac light above small pools, antlered hares and little rays swimming through air. Clipped paths protect the animals and leave room for quiet visitors.",
+    "hiddenInfo": "Copper lantern signs mark the walk back to Shifting Gallery. Moving corridors change scenery and optional shortcuts; they never remove the exit, relocate belongings, change known addresses or settle a quest. This is Vladimir’s home; ask before taking or altering property.",
+    "region": "The Lantern Circuit",
+    "x": -9,
+    "y": -13,
+    "radius": 2,
+    "initialKnown": false,
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "npcLevelRange": {
+      "min": 10,
+      "max": 30
+    },
+    "areas": {
+      "Glassroot Gardens - Garden Gate": {
+        "description": "Garden Gate. Transparent roots frame lilac light above small pools, antlered hares and little rays swimming through air. Clipped paths protect the animals and leave room for quiet visitors. A copper-lantern passage provides the ordinary walking route back to Shifting Gallery.",
+        "paths": [
+          "Glassroot Gardens - Root Walk",
+          "Glassroot Gardens - Stillwater Pools"
+        ]
+      },
+      "Glassroot Gardens - Root Walk": {
+        "description": "Root Walk. Transparent roots frame lilac light above small pools, antlered hares and little rays swimming through air. Clipped paths protect the animals and leave room for quiet visitors.",
+        "paths": [
+          "Glassroot Gardens - Garden Gate",
+          "Glassroot Gardens - Stillwater Pools"
+        ]
+      },
+      "Glassroot Gardens - Stillwater Pools": {
+        "description": "Stillwater Pools. Transparent roots frame lilac light above small pools, antlered hares and little rays swimming through air. Clipped paths protect the animals and leave room for quiet visitors.",
+        "paths": [
+          "Glassroot Gardens - Garden Gate",
+          "Glassroot Gardens - Root Walk"
+        ]
+      }
+    }
+  },
+  "Inverted Court": {
+    "name": "Inverted Court",
+    "basicInfo": "Water rises into an overhead basin. Steps climb onto a wall while handrails and marked footing show where a person can actually walk. Curious guests can test one safe surface at a time.",
+    "hiddenInfo": "Copper lantern signs mark the walk back to Shifting Gallery. Moving corridors change scenery and optional shortcuts; they never remove the exit, relocate belongings, change known addresses or settle a quest. This is Vladimir’s home; ask before taking or altering property.",
+    "region": "The Lantern Circuit",
+    "x": 9,
+    "y": -13,
+    "radius": 2,
+    "initialKnown": false,
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "npcLevelRange": {
+      "min": 10,
+      "max": 30
+    },
+    "areas": {
+      "Inverted Court - Safe Landing": {
+        "description": "Safe Landing. Water rises into an overhead basin. Steps climb onto a wall while handrails and marked footing show where a person can actually walk. Curious guests can test one safe surface at a time. A copper-lantern passage provides the ordinary walking route back to Shifting Gallery.",
+        "paths": [
+          "Inverted Court - Wall Stair",
+          "Inverted Court - Uphill Fountain"
+        ]
+      },
+      "Inverted Court - Wall Stair": {
+        "description": "Wall Stair. Water rises into an overhead basin. Steps climb onto a wall while handrails and marked footing show where a person can actually walk. Curious guests can test one safe surface at a time.",
+        "paths": [
+          "Inverted Court - Safe Landing",
+          "Inverted Court - Uphill Fountain"
+        ]
+      },
+      "Inverted Court - Uphill Fountain": {
+        "description": "Uphill Fountain. Water rises into an overhead basin. Steps climb onto a wall while handrails and marked footing show where a person can actually walk. Curious guests can test one safe surface at a time.",
+        "paths": [
+          "Inverted Court - Safe Landing",
+          "Inverted Court - Wall Stair"
+        ]
+      }
+    }
+  },
+  "Porcelain Workshops": {
+    "name": "Porcelain Workshops",
+    "basicInfo": "Copper lamps illuminate fitted ceramic frames, repair benches and labeled trays of hands. Some projects work; others wait beside Vladimir’s abandoned notes.",
+    "hiddenInfo": "Copper lantern signs mark the walk back to Shifting Gallery. Moving corridors change scenery and optional shortcuts; they never remove the exit, relocate belongings, change known addresses or settle a quest. This is Vladimir’s home; ask before taking or altering property.",
+    "region": "The Lantern Circuit",
+    "x": 27,
+    "y": -13,
+    "radius": 2,
+    "initialKnown": false,
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "npcLevelRange": {
+      "min": 10,
+      "max": 30
+    },
+    "areas": {
+      "Porcelain Workshops - Service Door": {
+        "description": "Service Door. Copper lamps illuminate fitted ceramic frames, repair benches and labeled trays of hands. Some projects work; others wait beside Vladimir’s abandoned notes. A copper-lantern passage provides the ordinary walking route back to Shifting Gallery.",
+        "paths": [
+          "Porcelain Workshops - Repair Benches",
+          "Porcelain Workshops - Frame Alcoves"
+        ]
+      },
+      "Porcelain Workshops - Repair Benches": {
+        "description": "Repair Benches. Copper lamps illuminate fitted ceramic frames, repair benches and labeled trays of hands. Some projects work; others wait beside Vladimir’s abandoned notes.",
+        "paths": [
+          "Porcelain Workshops - Service Door",
+          "Porcelain Workshops - Frame Alcoves"
+        ]
+      },
+      "Porcelain Workshops - Frame Alcoves": {
+        "description": "Frame Alcoves. Copper lamps illuminate fitted ceramic frames, repair benches and labeled trays of hands. Some projects work; others wait beside Vladimir’s abandoned notes.",
+        "paths": [
+          "Porcelain Workshops - Service Door",
+          "Porcelain Workshops - Repair Benches"
+        ]
+      }
+    }
+  },
+  "The Little Kingdom": {
+    "name": "The Little Kingdom",
+    "basicInfo": "A clockwork valley fills a vast table. Tiny carriages halt at miniature bridges and painted villages. Games and repairs can occupy an afternoon without becoming a royal duty.",
+    "hiddenInfo": "Copper lantern signs mark the walk back to Shifting Gallery. Moving corridors change scenery and optional shortcuts; they never remove the exit, relocate belongings, change known addresses or settle a quest. This is Vladimir’s home; ask before taking or altering property.",
+    "region": "The Lantern Circuit",
+    "x": -27,
+    "y": 13,
+    "radius": 2,
+    "initialKnown": false,
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "npcLevelRange": {
+      "min": 10,
+      "max": 30
+    },
+    "areas": {
+      "The Little Kingdom - Model Valley": {
+        "description": "Model Valley. A clockwork valley fills a vast table. Tiny carriages halt at miniature bridges and painted villages. Games and repairs can occupy an afternoon without becoming a royal duty. A copper-lantern passage provides the ordinary walking route back to Shifting Gallery.",
+        "paths": [
+          "The Little Kingdom - Games Table",
+          "The Little Kingdom - Kite Balcony"
+        ]
+      },
+      "The Little Kingdom - Games Table": {
+        "description": "Games Table. A clockwork valley fills a vast table. Tiny carriages halt at miniature bridges and painted villages. Games and repairs can occupy an afternoon without becoming a royal duty.",
+        "paths": [
+          "The Little Kingdom - Model Valley",
+          "The Little Kingdom - Kite Balcony"
+        ]
+      },
+      "The Little Kingdom - Kite Balcony": {
+        "description": "Kite Balcony. A clockwork valley fills a vast table. Tiny carriages halt at miniature bridges and painted villages. Games and repairs can occupy an afternoon without becoming a royal duty.",
+        "paths": [
+          "The Little Kingdom - Model Valley",
+          "The Little Kingdom - Games Table"
+        ]
+      }
+    }
+  },
+  "Tilt Court": {
+    "name": "Tilt Court",
+    "basicInfo": "An airy ringball court tilts between padded landings and brass hoops. Practice constructs wait for agreement on a game. No championship, reward or compulsory contest is assumed.",
+    "hiddenInfo": "Copper lantern signs mark the walk back to Shifting Gallery. Moving corridors change scenery and optional shortcuts; they never remove the exit, relocate belongings, change known addresses or settle a quest. This is Vladimir’s home; ask before taking or altering property.",
+    "region": "The Lantern Circuit",
+    "x": -9,
+    "y": 13,
+    "radius": 2,
+    "initialKnown": false,
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "npcLevelRange": {
+      "min": 10,
+      "max": 30
+    },
+    "areas": {
+      "Tilt Court - Players’ Bench": {
+        "description": "Players’ Bench. An airy ringball court tilts between padded landings and brass hoops. Practice constructs wait for agreement on a game. No championship, reward or compulsory contest is assumed. A copper-lantern passage provides the ordinary walking route back to Shifting Gallery.",
+        "paths": [
+          "Tilt Court - Tilting Floor",
+          "Tilt Court - Hoop Gallery"
+        ]
+      },
+      "Tilt Court - Tilting Floor": {
+        "description": "Tilting Floor. An airy ringball court tilts between padded landings and brass hoops. Practice constructs wait for agreement on a game. No championship, reward or compulsory contest is assumed.",
+        "paths": [
+          "Tilt Court - Players’ Bench",
+          "Tilt Court - Hoop Gallery"
+        ]
+      },
+      "Tilt Court - Hoop Gallery": {
+        "description": "Hoop Gallery. An airy ringball court tilts between padded landings and brass hoops. Practice constructs wait for agreement on a game. No championship, reward or compulsory contest is assumed.",
+        "paths": [
+          "Tilt Court - Players’ Bench",
+          "Tilt Court - Tilting Floor"
+        ]
+      }
+    }
+  },
+  "The Rainward Orchard": {
+    "name": "The Rainward Orchard",
+    "basicInfo": "Rain travels sideways across one orchard row and falls normally in the next. Covered benches, a potting shed and walking rails make the experiment hospitable. Real fruit belongs to its grower.",
+    "hiddenInfo": "Copper lantern signs mark the walk back to Shifting Gallery. Moving corridors change scenery and optional shortcuts; they never remove the exit, relocate belongings, change known addresses or settle a quest. This is Vladimir’s home; ask before taking or altering property.",
+    "region": "The Lantern Circuit",
+    "x": 9,
+    "y": 13,
+    "radius": 2,
+    "initialKnown": false,
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "npcLevelRange": {
+      "min": 10,
+      "max": 30
+    },
+    "areas": {
+      "The Rainward Orchard - Covered Bench": {
+        "description": "Covered Bench. Rain travels sideways across one orchard row and falls normally in the next. Covered benches, a potting shed and walking rails make the experiment hospitable. Real fruit belongs to its grower. A copper-lantern passage provides the ordinary walking route back to Shifting Gallery.",
+        "paths": [
+          "The Rainward Orchard - Crossrain Rows",
+          "The Rainward Orchard - Potting Shed"
+        ]
+      },
+      "The Rainward Orchard - Crossrain Rows": {
+        "description": "Crossrain Rows. Rain travels sideways across one orchard row and falls normally in the next. Covered benches, a potting shed and walking rails make the experiment hospitable. Real fruit belongs to its grower.",
+        "paths": [
+          "The Rainward Orchard - Covered Bench",
+          "The Rainward Orchard - Potting Shed"
+        ]
+      },
+      "The Rainward Orchard - Potting Shed": {
+        "description": "Potting Shed. Rain travels sideways across one orchard row and falls normally in the next. Covered benches, a potting shed and walking rails make the experiment hospitable. Real fruit belongs to its grower.",
+        "paths": [
+          "The Rainward Orchard - Covered Bench",
+          "The Rainward Orchard - Crossrain Rows"
+        ]
+      }
+    }
+  },
+  "The Cabinet of Evenings": {
+    "name": "The Cabinet of Evenings",
+    "basicInfo": "Different windows hold different skies. Chairs, records of old observations and a narrow viewing balcony invite a guest to linger. The scenes show the instrument’s work, not perfect knowledge of every place.",
+    "hiddenInfo": "Copper lantern signs mark the walk back to Shifting Gallery. Moving corridors change scenery and optional shortcuts; they never remove the exit, relocate belongings, change known addresses or settle a quest. This is Vladimir’s home; ask before taking or altering property.",
+    "region": "The Lantern Circuit",
+    "x": 27,
+    "y": 13,
+    "radius": 2,
+    "initialKnown": false,
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "npcLevelRange": {
+      "min": 10,
+      "max": 30
+    },
+    "areas": {
+      "The Cabinet of Evenings - Window Hall": {
+        "description": "Window Hall. Different windows hold different skies. Chairs, records of old observations and a narrow viewing balcony invite a guest to linger. The scenes show the instrument’s work, not perfect knowledge of every place. A copper-lantern passage provides the ordinary walking route back to Shifting Gallery.",
+        "paths": [
+          "The Cabinet of Evenings - Tea Nook",
+          "The Cabinet of Evenings - Viewing Balcony"
+        ]
+      },
+      "The Cabinet of Evenings - Tea Nook": {
+        "description": "Tea Nook. Different windows hold different skies. Chairs, records of old observations and a narrow viewing balcony invite a guest to linger. The scenes show the instrument’s work, not perfect knowledge of every place.",
+        "paths": [
+          "The Cabinet of Evenings - Window Hall",
+          "The Cabinet of Evenings - Viewing Balcony"
+        ]
+      },
+      "The Cabinet of Evenings - Viewing Balcony": {
+        "description": "Viewing Balcony. Different windows hold different skies. Chairs, records of old observations and a narrow viewing balcony invite a guest to linger. The scenes show the instrument’s work, not perfect knowledge of every place.",
+        "paths": [
+          "The Cabinet of Evenings - Window Hall",
+          "The Cabinet of Evenings - Tea Nook"
+        ]
       }
     }
   }

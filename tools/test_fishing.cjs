@@ -2,7 +2,7 @@
 // This is not an NLP test, a native-engine conformance test or a live playtest.
 const fs=require('fs'),path=require('path'),vm=require('vm'),assert=require('assert'),crypto=require('crypto');
 const root=path.resolve(__dirname,'..');
-const w=JSON.parse(fs.readFileSync(process.argv[2]||path.join(root,'world-draft/WorldAlpha - World.json'),'utf8'));
+const w=require('./rebirth/previous_world.cjs')(JSON.parse(fs.readFileSync(process.argv[2]||path.join(root,'world-draft/WorldAlpha - World.json'),'utf8')));
 const m=JSON.parse(fs.readFileSync(path.join(__dirname,'fishing/manifest.json'),'utf8'));
 let checks=0;function ck(x,label){checks++;assert.ok(x,label)}
 const levels=['impossible','critical failure','failure','mixed results','basic success','success','great success','critical success'];

@@ -7272,5 +7272,717 @@
     "description": "A rare pale koi with dark crescent markings. As it turns beneath still water, its scales make a faint bell-like shimmer.",
     "bonuses": [],
     "needsMediaGeneration": true
+  },
+  "Teaching Scroll: The Porter's Invisible Palm": {
+    "name": "Teaching Scroll: The Porter's Invisible Palm",
+    "category": "Document",
+    "description": "A practical Arcane formula on folded vellum. Its diagrams teach The Porter's Invisible Palm. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "mundane"
+  },
+  "Teaching Scroll: Lanternwright's Spare Hand": {
+    "name": "Teaching Scroll: Lanternwright's Spare Hand",
+    "category": "Document",
+    "description": "A practical Arcane formula on folded vellum. Its diagrams teach Lanternwright's Spare Hand. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "mundane"
+  },
+  "Teaching Scroll: The Unbroken Chalk Circle": {
+    "name": "Teaching Scroll: The Unbroken Chalk Circle",
+    "category": "Document",
+    "description": "A practical Arcane formula on folded vellum. Its diagrams teach The Unbroken Chalk Circle. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: Three Steps of Shelter": {
+    "name": "Teaching Scroll: Three Steps of Shelter",
+    "category": "Document",
+    "description": "A advanced Arcane formula on folded vellum. Its diagrams teach Three Steps of Shelter. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: Last Light in the Reservoir": {
+    "name": "Teaching Scroll: Last Light in the Reservoir",
+    "category": "Document",
+    "description": "A masterwork Arcane formula on folded vellum. Its diagrams teach Last Light in the Reservoir. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "special"
+  },
+  "Teaching Scroll: A Coal Kept Kindly": {
+    "name": "Teaching Scroll: A Coal Kept Kindly",
+    "category": "Document",
+    "description": "A practical Fire formula on folded vellum. Its diagrams teach A Coal Kept Kindly. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "mundane"
+  },
+  "Teaching Scroll: The Baker's Even Hearth": {
+    "name": "Teaching Scroll: The Baker's Even Hearth",
+    "category": "Document",
+    "description": "A practical Fire formula on folded vellum. Its diagrams teach The Baker's Even Hearth. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "mundane"
+  },
+  "Teaching Scroll: Red Thread across the Fuse": {
+    "name": "Teaching Scroll: Red Thread across the Fuse",
+    "category": "Document",
+    "description": "A practical Fire formula on folded vellum. Its diagrams teach Red Thread across the Fuse. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: Cinderstep Reversal": {
+    "name": "Teaching Scroll: Cinderstep Reversal",
+    "category": "Document",
+    "description": "A advanced Fire formula on folded vellum. Its diagrams teach Cinderstep Reversal. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: The Kiln That Breathes Twice": {
+    "name": "Teaching Scroll: The Kiln That Breathes Twice",
+    "category": "Document",
+    "description": "A advanced Fire formula on folded vellum. Its diagrams teach The Kiln That Breathes Twice. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: The Seamstress's Dry Cuff": {
+    "name": "Teaching Scroll: The Seamstress's Dry Cuff",
+    "category": "Document",
+    "description": "A practical Water formula on folded vellum. Its diagrams teach The Seamstress's Dry Cuff. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "mundane"
+  },
+  "Teaching Scroll: A Cup for the Last Traveler": {
+    "name": "Teaching Scroll: A Cup for the Last Traveler",
+    "category": "Document",
+    "description": "A practical Water formula on folded vellum. Its diagrams teach A Cup for the Last Traveler. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "mundane"
+  },
+  "Teaching Scroll: Millrace in Miniature": {
+    "name": "Teaching Scroll: Millrace in Miniature",
+    "category": "Document",
+    "description": "A practical Water formula on folded vellum. Its diagrams teach Millrace in Miniature. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: The Ferryman's Sideways Wake": {
+    "name": "Teaching Scroll: The Ferryman's Sideways Wake",
+    "category": "Document",
+    "description": "A advanced Water formula on folded vellum. Its diagrams teach The Ferryman's Sideways Wake. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: Blue Ribbon Restraint": {
+    "name": "Teaching Scroll: Blue Ribbon Restraint",
+    "category": "Document",
+    "description": "A advanced Water formula on folded vellum. Its diagrams teach Blue Ribbon Restraint. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: The Mason's Patient Thumb": {
+    "name": "Teaching Scroll: The Mason's Patient Thumb",
+    "category": "Document",
+    "description": "A practical Earth formula on folded vellum. Its diagrams teach The Mason's Patient Thumb. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "mundane"
+  },
+  "Teaching Scroll: Dust Drawn to the Door": {
+    "name": "Teaching Scroll: Dust Drawn to the Door",
+    "category": "Document",
+    "description": "A practical Earth formula on folded vellum. Its diagrams teach Dust Drawn to the Door. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "mundane"
+  },
+  "Teaching Scroll: A Furrow Before Rain": {
+    "name": "Teaching Scroll: A Furrow Before Rain",
+    "category": "Document",
+    "description": "A practical Earth formula on folded vellum. Its diagrams teach A Furrow Before Rain. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: The Bank That Held": {
+    "name": "Teaching Scroll: The Bank That Held",
+    "category": "Document",
+    "description": "A advanced Earth formula on folded vellum. Its diagrams teach The Bank That Held. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: Sandglass Interdict": {
+    "name": "Teaching Scroll: Sandglass Interdict",
+    "category": "Document",
+    "description": "A advanced Earth formula on folded vellum. Its diagrams teach Sandglass Interdict. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: The Launderer's Borrowed Breeze": {
+    "name": "Teaching Scroll: The Launderer's Borrowed Breeze",
+    "category": "Document",
+    "description": "A practical Wind formula on folded vellum. Its diagrams teach The Launderer's Borrowed Breeze. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "mundane"
+  },
+  "Teaching Scroll: A Whisper Kept Downstream": {
+    "name": "Teaching Scroll: A Whisper Kept Downstream",
+    "category": "Document",
+    "description": "A practical Wind formula on folded vellum. Its diagrams teach A Whisper Kept Downstream. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "mundane"
+  },
+  "Teaching Scroll: The Sailmaker's Gentle Test": {
+    "name": "Teaching Scroll: The Sailmaker's Gentle Test",
+    "category": "Document",
+    "description": "A practical Wind formula on folded vellum. Its diagrams teach The Sailmaker's Gentle Test. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: Featherfall for a Friend": {
+    "name": "Teaching Scroll: Featherfall for a Friend",
+    "category": "Document",
+    "description": "A advanced Wind formula on folded vellum. Its diagrams teach Featherfall for a Friend. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: The Storm's Narrow Shoulder": {
+    "name": "Teaching Scroll: The Storm's Narrow Shoulder",
+    "category": "Document",
+    "description": "A advanced Wind formula on folded vellum. Its diagrams teach The Storm's Narrow Shoulder. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: The Clockmaker's Testing Spark": {
+    "name": "Teaching Scroll: The Clockmaker's Testing Spark",
+    "category": "Document",
+    "description": "A practical Lightning formula on folded vellum. Its diagrams teach The Clockmaker's Testing Spark. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "mundane"
+  },
+  "Teaching Scroll: A Bell without a Rope": {
+    "name": "Teaching Scroll: A Bell without a Rope",
+    "category": "Document",
+    "description": "A practical Lightning formula on folded vellum. Its diagrams teach A Bell without a Rope. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "mundane"
+  },
+  "Teaching Scroll: Blue Stitch across Broken Copper": {
+    "name": "Teaching Scroll: Blue Stitch across Broken Copper",
+    "category": "Document",
+    "description": "A practical Lightning formula on folded vellum. Its diagrams teach Blue Stitch across Broken Copper. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: Thunder at the Wrong Foot": {
+    "name": "Teaching Scroll: Thunder at the Wrong Foot",
+    "category": "Document",
+    "description": "A advanced Lightning formula on folded vellum. Its diagrams teach Thunder at the Wrong Foot. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: The Storm Needle's Answer": {
+    "name": "Teaching Scroll: The Storm Needle's Answer",
+    "category": "Document",
+    "description": "A advanced Lightning formula on folded vellum. Its diagrams teach The Storm Needle's Answer. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: The Fishmonger's Cold Cloth": {
+    "name": "Teaching Scroll: The Fishmonger's Cold Cloth",
+    "category": "Document",
+    "description": "A practical Ice formula on folded vellum. Its diagrams teach The Fishmonger's Cold Cloth. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "mundane"
+  },
+  "Teaching Scroll: A Frosted Window's Secret": {
+    "name": "Teaching Scroll: A Frosted Window's Secret",
+    "category": "Document",
+    "description": "A practical Ice formula on folded vellum. Its diagrams teach A Frosted Window's Secret. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "mundane"
+  },
+  "Teaching Scroll: The Miller's Quiet Chill": {
+    "name": "Teaching Scroll: The Miller's Quiet Chill",
+    "category": "Document",
+    "description": "A practical Ice formula on folded vellum. Its diagrams teach The Miller's Quiet Chill. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: White Heel upon the Step": {
+    "name": "Teaching Scroll: White Heel upon the Step",
+    "category": "Document",
+    "description": "A advanced Ice formula on folded vellum. Its diagrams teach White Heel upon the Step. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: Winter's Borrowed Splint": {
+    "name": "Teaching Scroll: Winter's Borrowed Splint",
+    "category": "Document",
+    "description": "A advanced Ice formula on folded vellum. Its diagrams teach Winter's Borrowed Splint. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: The Scribe's Unshadowed Page": {
+    "name": "Teaching Scroll: The Scribe's Unshadowed Page",
+    "category": "Document",
+    "description": "A practical Light formula on folded vellum. Its diagrams teach The Scribe's Unshadowed Page. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "mundane"
+  },
+  "Teaching Scroll: A Harbor Lamp Answered": {
+    "name": "Teaching Scroll: A Harbor Lamp Answered",
+    "category": "Document",
+    "description": "A practical Light formula on folded vellum. Its diagrams teach A Harbor Lamp Answered. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "mundane"
+  },
+  "Teaching Scroll: The Glassworker's Revealing Edge": {
+    "name": "Teaching Scroll: The Glassworker's Revealing Edge",
+    "category": "Document",
+    "description": "A practical Light formula on folded vellum. Its diagrams teach The Glassworker's Revealing Edge. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: Starlight Beneath the Door": {
+    "name": "Teaching Scroll: Starlight Beneath the Door",
+    "category": "Document",
+    "description": "A advanced Light formula on folded vellum. Its diagrams teach Starlight Beneath the Door. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: The Noon Lance's Mercy": {
+    "name": "Teaching Scroll: The Noon Lance's Mercy",
+    "category": "Document",
+    "description": "A advanced Light formula on folded vellum. Its diagrams teach The Noon Lance's Mercy. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: The Locksmith's Honest Witness": {
+    "name": "Teaching Scroll: The Locksmith's Honest Witness",
+    "category": "Document",
+    "description": "A practical Metal formula on folded vellum. Its diagrams teach The Locksmith's Honest Witness. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "mundane"
+  },
+  "Teaching Scroll: Needles Gathered in a Bowl": {
+    "name": "Teaching Scroll: Needles Gathered in a Bowl",
+    "category": "Document",
+    "description": "A practical Metal formula on folded vellum. Its diagrams teach Needles Gathered in a Bowl. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "mundane"
+  },
+  "Teaching Scroll: The Tinsmith's Gentle Seam": {
+    "name": "Teaching Scroll: The Tinsmith's Gentle Seam",
+    "category": "Document",
+    "description": "A practical Metal formula on folded vellum. Its diagrams teach The Tinsmith's Gentle Seam. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: The Coin That Stood on Edge": {
+    "name": "Teaching Scroll: The Coin That Stood on Edge",
+    "category": "Document",
+    "description": "A advanced Metal formula on folded vellum. Its diagrams teach The Coin That Stood on Edge. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: Iron Petals at the Wrist": {
+    "name": "Teaching Scroll: Iron Petals at the Wrist",
+    "category": "Document",
+    "description": "A advanced Metal formula on folded vellum. Its diagrams teach Iron Petals at the Wrist. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: The Gardener's Returning Tendril": {
+    "name": "Teaching Scroll: The Gardener's Returning Tendril",
+    "category": "Document",
+    "description": "A practical Nature formula on folded vellum. Its diagrams teach The Gardener's Returning Tendril. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "mundane"
+  },
+  "Teaching Scroll: Thorns at the Orchard Gate": {
+    "name": "Teaching Scroll: Thorns at the Orchard Gate",
+    "category": "Document",
+    "description": "A practical Nature formula on folded vellum. Its diagrams teach Thorns at the Orchard Gate. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "mundane"
+  },
+  "Teaching Scroll: A Leaf Turned toward Home": {
+    "name": "Teaching Scroll: A Leaf Turned toward Home",
+    "category": "Document",
+    "description": "A practical Nature formula on folded vellum. Its diagrams teach A Leaf Turned toward Home. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: Rootwork under the Barrow": {
+    "name": "Teaching Scroll: Rootwork under the Barrow",
+    "category": "Document",
+    "description": "A advanced Nature formula on folded vellum. Its diagrams teach Rootwork under the Barrow. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: The Hedge That Bowed Aside": {
+    "name": "Teaching Scroll: The Hedge That Bowed Aside",
+    "category": "Document",
+    "description": "A advanced Nature formula on folded vellum. Its diagrams teach The Hedge That Bowed Aside. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: The Musician's Unbroken Note": {
+    "name": "Teaching Scroll: The Musician's Unbroken Note",
+    "category": "Document",
+    "description": "A practical Sound formula on folded vellum. Its diagrams teach The Musician's Unbroken Note. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "mundane"
+  },
+  "Teaching Scroll: A Knock through the Floorboards": {
+    "name": "Teaching Scroll: A Knock through the Floorboards",
+    "category": "Document",
+    "description": "A practical Sound formula on folded vellum. Its diagrams teach A Knock through the Floorboards. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "mundane"
+  },
+  "Teaching Scroll: The Bellfounder's Hidden Crack": {
+    "name": "Teaching Scroll: The Bellfounder's Hidden Crack",
+    "category": "Document",
+    "description": "A practical Sound formula on folded vellum. Its diagrams teach The Bellfounder's Hidden Crack. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: Quiet around the Cradle": {
+    "name": "Teaching Scroll: Quiet around the Cradle",
+    "category": "Document",
+    "description": "A advanced Sound formula on folded vellum. Its diagrams teach Quiet around the Cradle. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: The Empty Hall Replies": {
+    "name": "Teaching Scroll: The Empty Hall Replies",
+    "category": "Document",
+    "description": "A advanced Sound formula on folded vellum. Its diagrams teach The Empty Hall Replies. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: The Potter's Centered Wheel": {
+    "name": "Teaching Scroll: The Potter's Centered Wheel",
+    "category": "Document",
+    "description": "A practical Gravity formula on folded vellum. Its diagrams teach The Potter's Centered Wheel. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "mundane"
+  },
+  "Teaching Scroll: A Ladder's Second Foot": {
+    "name": "Teaching Scroll: A Ladder's Second Foot",
+    "category": "Document",
+    "description": "A practical Gravity formula on folded vellum. Its diagrams teach A Ladder's Second Foot. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "mundane"
+  },
+  "Teaching Scroll: The Porter's Unburdening": {
+    "name": "Teaching Scroll: The Porter's Unburdening",
+    "category": "Document",
+    "description": "A practical Gravity formula on folded vellum. Its diagrams teach The Porter's Unburdening. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: The Feather's Firm Descent": {
+    "name": "Teaching Scroll: The Feather's Firm Descent",
+    "category": "Document",
+    "description": "A advanced Gravity formula on folded vellum. Its diagrams teach The Feather's Firm Descent. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: The Courtyard's Heavy Hush": {
+    "name": "Teaching Scroll: The Courtyard's Heavy Hush",
+    "category": "Document",
+    "description": "A advanced Gravity formula on folded vellum. Its diagrams teach The Courtyard's Heavy Hush. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: The Candle's Missing Shadow": {
+    "name": "Teaching Scroll: The Candle's Missing Shadow",
+    "category": "Document",
+    "description": "A practical Void formula on folded vellum. Its diagrams teach The Candle's Missing Shadow. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "mundane"
+  },
+  "Teaching Scroll: A Spell's Loose Thread": {
+    "name": "Teaching Scroll: A Spell's Loose Thread",
+    "category": "Document",
+    "description": "A practical Void formula on folded vellum. Its diagrams teach A Spell's Loose Thread. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "mundane"
+  },
+  "Teaching Scroll: The Quiet between Two Wards": {
+    "name": "Teaching Scroll: The Quiet between Two Wards",
+    "category": "Document",
+    "description": "A practical Void formula on folded vellum. Its diagrams teach The Quiet between Two Wards. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: Nightcloth across the Lens": {
+    "name": "Teaching Scroll: Nightcloth across the Lens",
+    "category": "Document",
+    "description": "A advanced Void formula on folded vellum. Its diagrams teach Nightcloth across the Lens. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: The Counterchord Unfinished": {
+    "name": "Teaching Scroll: The Counterchord Unfinished",
+    "category": "Document",
+    "description": "A masterwork Void formula on folded vellum. Its diagrams teach The Counterchord Unfinished. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "special"
+  },
+  "Teaching Scroll: The Medic's Steady Fingers": {
+    "name": "Teaching Scroll: The Medic's Steady Fingers",
+    "category": "Document",
+    "description": "A practical Healing formula on folded vellum. Its diagrams teach The Medic's Steady Fingers. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "mundane"
+  },
+  "Teaching Scroll: A Breath Counted Kindly": {
+    "name": "Teaching Scroll: A Breath Counted Kindly",
+    "category": "Document",
+    "description": "A practical Healing formula on folded vellum. Its diagrams teach A Breath Counted Kindly. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "mundane"
+  },
+  "Teaching Scroll: The Stitch That Held": {
+    "name": "Teaching Scroll: The Stitch That Held",
+    "category": "Document",
+    "description": "A practical Healing formula on folded vellum. Its diagrams teach The Stitch That Held. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: Warmth at the Broken Road": {
+    "name": "Teaching Scroll: Warmth at the Broken Road",
+    "category": "Document",
+    "description": "A advanced Healing formula on folded vellum. Its diagrams teach Warmth at the Broken Road. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: The Nightwatcher's Second Hour": {
+    "name": "Teaching Scroll: The Nightwatcher's Second Hour",
+    "category": "Document",
+    "description": "A advanced Healing formula on folded vellum. Its diagrams teach The Nightwatcher's Second Hour. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: The Apron's Unburnt Hem": {
+    "name": "Teaching Scroll: The Apron's Unburnt Hem",
+    "category": "Document",
+    "description": "A practical Enchantment formula on folded vellum. Its diagrams teach The Apron's Unburnt Hem. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "mundane"
+  },
+  "Teaching Scroll: A Cup That Remembers Warmth": {
+    "name": "Teaching Scroll: A Cup That Remembers Warmth",
+    "category": "Document",
+    "description": "A practical Enchantment formula on folded vellum. Its diagrams teach A Cup That Remembers Warmth. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "mundane"
+  },
+  "Teaching Scroll: The Hinge's Quiet Promise": {
+    "name": "Teaching Scroll: The Hinge's Quiet Promise",
+    "category": "Document",
+    "description": "A practical Enchantment formula on folded vellum. Its diagrams teach The Hinge's Quiet Promise. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: The Worker's True Measure": {
+    "name": "Teaching Scroll: The Worker's True Measure",
+    "category": "Document",
+    "description": "A advanced Enchantment formula on folded vellum. Its diagrams teach The Worker's True Measure. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: The Shield's Borrowed Resolve": {
+    "name": "Teaching Scroll: The Shield's Borrowed Resolve",
+    "category": "Document",
+    "description": "A advanced Enchantment formula on folded vellum. Its diagrams teach The Shield's Borrowed Resolve. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: The Errand Mote Returns": {
+    "name": "Teaching Scroll: The Errand Mote Returns",
+    "category": "Document",
+    "description": "A practical Summoning formula on folded vellum. Its diagrams teach The Errand Mote Returns. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "mundane"
+  },
+  "Teaching Scroll: A Clay Hand at the Bench": {
+    "name": "Teaching Scroll: A Clay Hand at the Bench",
+    "category": "Document",
+    "description": "A practical Summoning formula on folded vellum. Its diagrams teach A Clay Hand at the Bench. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "mundane"
+  },
+  "Teaching Scroll: The Lantern Beetle's Visit": {
+    "name": "Teaching Scroll: The Lantern Beetle's Visit",
+    "category": "Document",
+    "description": "A practical Summoning formula on folded vellum. Its diagrams teach The Lantern Beetle's Visit. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: The Paper Warden's Stand": {
+    "name": "Teaching Scroll: The Paper Warden's Stand",
+    "category": "Document",
+    "description": "A advanced Summoning formula on folded vellum. Its diagrams teach The Paper Warden's Stand. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: The Last Decoy in the Lane": {
+    "name": "Teaching Scroll: The Last Decoy in the Lane",
+    "category": "Document",
+    "description": "A advanced Summoning formula on folded vellum. Its diagrams teach The Last Decoy in the Lane. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: The Tailor's Uncut Pattern": {
+    "name": "Teaching Scroll: The Tailor's Uncut Pattern",
+    "category": "Document",
+    "description": "A practical Illusion formula on folded vellum. Its diagrams teach The Tailor's Uncut Pattern. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "mundane"
+  },
+  "Teaching Scroll: A Map Drawn in the Air": {
+    "name": "Teaching Scroll: A Map Drawn in the Air",
+    "category": "Document",
+    "description": "A practical Illusion formula on folded vellum. Its diagrams teach A Map Drawn in the Air. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "mundane"
+  },
+  "Teaching Scroll: The Borrowed Crowd's Murmur": {
+    "name": "Teaching Scroll: The Borrowed Crowd's Murmur",
+    "category": "Document",
+    "description": "A practical Illusion formula on folded vellum. Its diagrams teach The Borrowed Crowd's Murmur. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: The Wrong Door's Invitation": {
+    "name": "Teaching Scroll: The Wrong Door's Invitation",
+    "category": "Document",
+    "description": "A advanced Illusion formula on folded vellum. Its diagrams teach The Wrong Door's Invitation. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: Afterimage on the Stair": {
+    "name": "Teaching Scroll: Afterimage on the Stair",
+    "category": "Document",
+    "description": "A advanced Illusion formula on folded vellum. Its diagrams teach Afterimage on the Stair. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: The Cook's Unwelcome Hint": {
+    "name": "Teaching Scroll: The Cook's Unwelcome Hint",
+    "category": "Document",
+    "description": "A practical Divination formula on folded vellum. Its diagrams teach The Cook's Unwelcome Hint. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "mundane"
+  },
+  "Teaching Scroll: A Footstep Noticed Twice": {
+    "name": "Teaching Scroll: A Footstep Noticed Twice",
+    "category": "Document",
+    "description": "A practical Divination formula on folded vellum. Its diagrams teach A Footstep Noticed Twice. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "mundane"
+  },
+  "Teaching Scroll: The Missing Page's Neighbor": {
+    "name": "Teaching Scroll: The Missing Page's Neighbor",
+    "category": "Document",
+    "description": "A practical Divination formula on folded vellum. Its diagrams teach The Missing Page's Neighbor. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: The Fork in Tomorrow's Path": {
+    "name": "Teaching Scroll: The Fork in Tomorrow's Path",
+    "category": "Document",
+    "description": "A advanced Divination formula on folded vellum. Its diagrams teach The Fork in Tomorrow's Path. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: An Echo at the Threshold": {
+    "name": "Teaching Scroll: An Echo at the Threshold",
+    "category": "Document",
+    "description": "A masterwork Divination formula on folded vellum. Its diagrams teach An Echo at the Threshold. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "special"
+  },
+  "Teaching Scroll: The Fold between Two Cups": {
+    "name": "Teaching Scroll: The Fold between Two Cups",
+    "category": "Document",
+    "description": "A practical Space formula on folded vellum. Its diagrams teach The Fold between Two Cups. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "mundane"
+  },
+  "Teaching Scroll: A Thread through the Open Window": {
+    "name": "Teaching Scroll: A Thread through the Open Window",
+    "category": "Document",
+    "description": "A practical Space formula on folded vellum. Its diagrams teach A Thread through the Open Window. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "mundane"
+  },
+  "Teaching Scroll: The Surveyor's Shorter String": {
+    "name": "Teaching Scroll: The Surveyor's Shorter String",
+    "category": "Document",
+    "description": "A practical Space formula on folded vellum. Its diagrams teach The Surveyor's Shorter String. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: The Step behind the Banner": {
+    "name": "Teaching Scroll: The Step behind the Banner",
+    "category": "Document",
+    "description": "A advanced Space formula on folded vellum. Its diagrams teach The Step behind the Banner. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: The Return Fold's Careful Knot": {
+    "name": "Teaching Scroll: The Return Fold's Careful Knot",
+    "category": "Document",
+    "description": "A masterwork Space formula on folded vellum. Its diagrams teach The Return Fold's Careful Knot. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "special"
+  },
+  "Teaching Scroll: The Hearthkeeper's Farewell": {
+    "name": "Teaching Scroll: The Hearthkeeper's Farewell",
+    "category": "Document",
+    "description": "A practical Soul formula on folded vellum. Its diagrams teach The Hearthkeeper's Farewell. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "mundane"
+  },
+  "Teaching Scroll: The Grave Tender's Lantern": {
+    "name": "Teaching Scroll: The Grave Tender's Lantern",
+    "category": "Document",
+    "description": "A practical Soul formula on folded vellum. Its diagrams teach The Grave Tender's Lantern. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "mundane"
+  },
+  "Teaching Scroll: A Bone Hand for the Lamp": {
+    "name": "Teaching Scroll: A Bone Hand for the Lamp",
+    "category": "Document",
+    "description": "A practical Soul formula on folded vellum. Its diagrams teach A Bone Hand for the Lamp. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: The Unborrowed Voice": {
+    "name": "Teaching Scroll: The Unborrowed Voice",
+    "category": "Document",
+    "description": "A advanced Soul formula on folded vellum. Its diagrams teach The Unborrowed Voice. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "artisan"
+  },
+  "Teaching Scroll: A Threshold Kept for the Living": {
+    "name": "Teaching Scroll: A Threshold Kept for the Living",
+    "category": "Document",
+    "description": "A masterwork Soul formula on folded vellum. Its diagrams teach A Threshold Kept for the Living. The ink fades when the reader masters the working.",
+    "bonuses": [],
+    "tier": "special"
+  },
+  "Shadowspire Guest Key": {
+    "name": "Shadowspire Guest Key",
+    "category": "Tool",
+    "description": "A small brass key whose tooth turns gently toward Shadowspire’s door. Vladimir gave it as permission to visit his home. The copper lantern below his stairs marks the gate back from his private rooms.",
+    "bonuses": []
+  },
+  "Relay Dispatch Copy": {
+    "name": "Relay Dispatch Copy",
+    "category": "Document",
+    "description": "A copy of the pump-house dispatch and its corroborating delivery record. The dates and recipient connect the hidden apparatus to an Ardelis field office. A final entry reserves a second receiving station beyond Glowhaven.",
+    "bonuses": []
   }
 }

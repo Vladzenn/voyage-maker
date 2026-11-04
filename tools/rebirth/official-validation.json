@@ -1,0 +1,16 @@
+{
+  "candidateSHA256": "77d47b4384db822c6021fb5c9ef29bde3daabfb557bf948b62f2a3bd3ccf8b59",
+  "stage": "draft",
+  "result": {
+    "data": {
+      "errors": [],
+      "stage": "draft",
+      "valid": true,
+      "warnings": []
+    },
+    "requestId": "6bf79c42-4247-478c-b98f-08ab15f7182b"
+  },
+  "savedToStudio": false,
+  "publishedToStudio": false,
+  "livePlaytest": false
+}

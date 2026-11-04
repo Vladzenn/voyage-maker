@@ -1,0 +1,12 @@
+const tick = Number(check({type:'game-tick'})) || 0;
+const traits = check({type:'player-traits'}) || {};
+const levels = check({type:'player-level'}) || {};
+const bearers = Object.keys(traits).filter(name => Array.isArray(traits[name]) && traits[name].includes('Summoned one'));
+const sceneCombat = check({type:'npc-in-combat', npc:'anySceneNPC'});
+const fighting = sceneCombat === true || (sceneCombat && typeof sceneCombat === 'object' && Object.values(sceneCombat).some(Boolean));
+const location = String(check({type:'party-location'}) || '');
+const town = ['Brookmeadow', 'Four Sages Bazaar', "Adventurer's Guild - Glowhaven Branch", "The Grand Sage's Court"].includes(location);
+const approach = ['Brookmeadow', 'Pinewater River', 'Greenfield Farmlands', 'Shadowspire'].includes(location);
+const originTick = Number(storage.rbOriginTick) || 0;
+storage.rbTownReady = Boolean(bearers.length && tick - originTick >= 200 && town && !fighting);
+storage.rbAmbushReady = Boolean(bearers.some(name => traits[name].includes('Traced Shore Record') && Number(levels[name]) >= 15) && storage.rbLead === true && tick >= Number(storage.rbLeadTick || 0) + 60 && approach && !fighting);

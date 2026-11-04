@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Valkazathoth'dmir",
+    "profile": "default, reserved serious public demeanor",
+    "eligible": [
+      "R01",
+      "R03",
+      "R04",
+      "R05",
+      "R06"
+    ],
+    "drawnIndex": 2,
+    "pose": "R03",
+    "prompt": "One vertical 2:3 Voyage NPC portrait, in the established polished colorful 2D fantasy-anime illustration style. Drawn expressive adult anime face, fine illustrated hair, controlled layered cel shading and painterly environmental depth. Rich material design and memorable individual silhouette. No photorealistic skin, pores, live-action look, 3D render or plastic surfaces. Center one standing person, framing from upper thighs through the complete head. Leave 12.5–15 percent clear headroom above all hair. Real hips and upper thighs must show. Exactly two arms and natural hands, with the face readable. No foreground people, letters, nameplate, border or watermark. One final generation pass. \nIdentity: A tall ageless human man with long charcoal-black hair loosely tied back, warm amber eyes, a tired handsome face and a narrow silver streak at one temple. He wears a deep plum traveling coat with irregular brass fastenings and an old ink-blue scarf.\nEquipment: A plain ash staff, a ring of mismatched brass keys, an old notebook and a bag of carefully sorted river pebbles.\nScene: At Shadowspire’s threshold with the curved stair, brass ward inlay and woodland light. Quiet fatherly gravity and a trace of offended amusement. Arcane geometric mana, a narrow teal spatial fold at the doorway and restrained golden enchantment threads remain distinguishable. His ageless adult face is expressive and handsome; his plum coat has a memorable silhouette.\nPose profile: default, reserved serious public demeanor. Chosen R03 — Hands Behind. Place both hands behind the back so they are hidden; keep elbows close and the spine quietly upright.\nUse slightly flashier presentation for this principal character, with coherent light and readable affinity effects. Keep every staff or weapon shaft continuous, aligned through the hands; a long prop can leave the lower or side edge naturally.",
+    "file": "world-draft/npc portraits/Rebirth/Valkazathoth'dmir.png"
+  },
+  {
+    "name": "Mihana Orihara",
+    "profile": "default, warm and practical",
+    "eligible": [
+      "W01",
+      "W02",
+      "W03",
+      "W05",
+      "W06"
+    ],
+    "drawnIndex": 1,
+    "pose": "W01",
+    "prompt": "One vertical 2:3 Voyage NPC portrait, in the established polished colorful 2D fantasy-anime illustration style. Drawn expressive adult anime face, fine illustrated hair, controlled layered cel shading and painterly environmental depth. Rich material design and memorable individual silhouette. No photorealistic skin, pores, live-action look, 3D render or plastic surfaces. Center one standing person, framing from upper thighs through the complete head. Leave 12.5–15 percent clear headroom above all hair. Real hips and upper thighs must show. Exactly two arms and natural hands, with the face readable. No foreground people, letters, nameplate, border or watermark. One final generation pass. \nIdentity: An adult woman of thirty-seven with chestnut hair in a loose knot, dark green eyes, a broad expressive face and strong hands. She wears a faded coral work dress, blue waist apron and copper earrings.\nEquipment: A shutter lantern, paintbrush roll, work knife and basket of unfinished lamp covers.\nScene: In her cottage workshop off Brookmeadow Mill Lane, in warm ordinary daylight. Painted lamp covers and brushes stand behind her. A small real lantern flame glows with her modest Fire affinity. She looks candid, capable and warm with limits. Plain working clothes have individually drawn fabric and a blue apron.\nPose profile: default, warm and practical. Chosen W01 — Offering Hand. Extend one hand with a small relevant object at chest height; soften the elbow and lean forward just a little.\nUse slightly flashier presentation for this principal character, with coherent light and readable affinity effects. Keep every staff or weapon shaft continuous, aligned through the hands; a long prop can leave the lower or side edge naturally.",
+    "file": "world-draft/npc portraits/Rebirth/Mihana Orihara.png"
+  },
+  {
+    "name": "Reika Kurose",
+    "profile": "governing investigator",
+    "eligible": [
+      "GV01",
+      "GV02",
+      "GV04",
+      "GV05",
+      "GV07"
+    ],
+    "drawnIndex": 1,
+    "pose": "GV01",
+    "prompt": "One vertical 2:3 Voyage NPC portrait, in the established polished colorful 2D fantasy-anime illustration style. Drawn expressive adult anime face, fine illustrated hair, controlled layered cel shading and painterly environmental depth. Rich material design and memorable individual silhouette. No photorealistic skin, pores, live-action look, 3D render or plastic surfaces. Center one standing person, framing from upper thighs through the complete head. Leave 12.5–15 percent clear headroom above all hair. Real hips and upper thighs must show. Exactly two arms and natural hands, with the face readable. No foreground people, letters, nameplate, border or watermark. One final generation pass. \nIdentity: An adult human woman of forty-three with cropped dark auburn hair, gray eyes, freckles and a slightly crooked nose. She wears a navy riding coat, a saffron neckcloth and unpolished practical boots.\nEquipment: A short sword, a sealed interview folio, a measuring cord and a chipped little wooden sailboat.\nScene: In the Court administrative wing, with pale stone, tall window light, work folios and a small broken toy boat on a standing-height desk. Her sword stays sheathed. A restrained golden Light thread and a separate indigo divination reflection at the folio suggest her expertise. An adult freckled face, alert and forthright, without a generic cute smile.\nPose profile: governing investigator. Chosen GV01 — Petition Listener. Turn toward an unseen petitioner with one palm gently open at waist height and the other resting beside a relevant document or office tool; let the expression show how they listen.\nUse slightly flashier presentation for this principal character, with coherent light and readable affinity effects. Keep every staff or weapon shaft continuous, aligned through the hands; a long prop can leave the lower or side edge naturally.",
+    "file": "world-draft/npc portraits/Rebirth/Reika Kurose.png"
+  },
+  {
+    "name": "Kazunari Shiba",
+    "profile": "governing delegation officer",
+    "eligible": [
+      "GV02",
+      "GV03",
+      "GV04",
+      "GV07",
+      "GV08"
+    ],
+    "drawnIndex": 5,
+    "pose": "GV08",
+    "prompt": "One vertical 2:3 Voyage NPC portrait, in the established polished colorful 2D fantasy-anime illustration style. Drawn expressive adult anime face, fine illustrated hair, controlled layered cel shading and painterly environmental depth. Rich material design and memorable individual silhouette. No photorealistic skin, pores, live-action look, 3D render or plastic surfaces. Center one standing person, framing from upper thighs through the complete head. Leave 12.5–15 percent clear headroom above all hair. Real hips and upper thighs must show. Exactly two arms and natural hands, with the face readable. No foreground people, letters, nameplate, border or watermark. One final generation pass. \nIdentity: An adult human man of fifty with black hair silvering at the sides, pale brown eyes and a scar through one eyebrow. His slate travel coat carries a restrained gold celestial clasp over ordinary mail.\nEquipment: A service saber, a traveling ledger, a celestial seal and a patched pair of riding gloves.\nScene: At a quiet Brookmeadow lane, rural stone walls, leafy sunlight and distant cottage roofs. No other figures. His celestial gold clasp and ordinary service mail mark a seasoned officer. Use a compact white-gold Light shimmer and a distinct geometric Enchantment lattice at a glove or saber fitting. No fire or lightning.\nPose profile: governing delegation officer. Chosen GV08 — Steward's Survey. Turn three-quarter toward the place or system they actually oversee, one hand indicating a relevant feature while the head turns enough to retain a readable face.\nUse slightly flashier presentation for this principal character, with coherent light and readable affinity effects. Keep every staff or weapon shaft continuous, aligned through the hands; a long prop can leave the lower or side edge naturally.",
+    "file": "world-draft/npc portraits/Rebirth/Kazunari Shiba.png"
+  }
+]

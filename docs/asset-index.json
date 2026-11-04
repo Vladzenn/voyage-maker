@@ -3725,6 +3725,26 @@
       "size": 3414676,
       "sha256": "e4d6981604ae59dbbf6752bb64caf950eb25eaba832106befac2549b73b123ef",
       "mtimeNs": 1793729136903794500
+    },
+    "world-draft/npc portraits/Rebirth/Kazunari Shiba.png": {
+      "size": 3169595,
+      "sha256": "0294e3ecd9f6284c8444c8cbf126c82cf0e16d741bd4d3cd5a95ec0789a17b17",
+      "mtimeNs": 1793822696638904800
+    },
+    "world-draft/npc portraits/Rebirth/Mihana Orihara.png": {
+      "size": 3017748,
+      "sha256": "3893e659642c42c7ac997f9695371131968aed84479b5f386a5caa87452fec8a",
+      "mtimeNs": 1793822696551790100
+    },
+    "world-draft/npc portraits/Rebirth/Reika Kurose.png": {
+      "size": 2578069,
+      "sha256": "0de6c4f528e040873147a689afcee01a7de0f05aada5be55ebfa8b434d21b61f",
+      "mtimeNs": 1793822696623943900
+    },
+    "world-draft/npc portraits/Rebirth/Valkazathoth'dmir.png": {
+      "size": 2846961,
+      "sha256": "c9fd1fe3c5551eb715b0a88f151450bce422e2ed783a511840a422f7521201a9",
+      "mtimeNs": 1793822696489676500
     }
   }
 }

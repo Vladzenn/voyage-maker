@@ -10117,5 +10117,1330 @@
     ],
     "bonus": 6,
     "cooldown": 3
+  },
+  "The Porter's Invisible Palm": {
+    "name": "The Porter's Invisible Palm",
+    "description": "Support and guide one awkward household load within reach; a slipping knot still needs securing. Uses Arcane Magic; costs 6 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Porter's Invisible Palm",
+        "amount": 1
+      }
+    ],
+    "bonus": 1,
+    "cooldown": 1
+  },
+  "Lanternwright's Spare Hand": {
+    "name": "Lanternwright's Spare Hand",
+    "description": "Hold one small tool steady while both hands work; the tool cannot perform an independent skilled task. Uses Arcane Magic; costs 8 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: Lanternwright's Spare Hand",
+        "amount": 1
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 1
+  },
+  "The Unbroken Chalk Circle": {
+    "name": "The Unbroken Chalk Circle",
+    "description": "Raise a low mana curb around a small spill or scattered parts for a brief cleanup. Uses Arcane Magic; costs 10 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Unbroken Chalk Circle",
+        "amount": 1
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 2
+  },
+  "Three Steps of Shelter": {
+    "name": "Three Steps of Shelter",
+    "description": "Place three small mana plates as temporary stepping supports over a short shallow obstruction. Uses Arcane Magic; costs 18 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: Three Steps of Shelter",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 3
+  },
+  "Last Light in the Reservoir": {
+    "name": "Last Light in the Reservoir",
+    "description": "During quiet recovery reclaim a small portion of dispersed personal mana, at most 8 Mana once in a genuine rest; repeated casting cannot produce a net gain. Uses Arcane Magic; costs 30 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: Last Light in the Reservoir",
+        "amount": 1
+      }
+    ],
+    "bonus": 7,
+    "cooldown": 5
+  },
+  "A Coal Kept Kindly": {
+    "name": "A Coal Kept Kindly",
+    "description": "Keep an existing cooking ember at a gentle working heat without igniting the surrounding basket. Uses Fire Magic; costs 6 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: A Coal Kept Kindly",
+        "amount": 1
+      }
+    ],
+    "bonus": 1,
+    "cooldown": 1
+  },
+  "The Baker's Even Hearth": {
+    "name": "The Baker's Even Hearth",
+    "description": "Even the heat across one existing small oven for a batch; ingredients and fuel remain necessary. Uses Fire Magic; costs 8 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Baker's Even Hearth",
+        "amount": 1
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 1
+  },
+  "Red Thread across the Fuse": {
+    "name": "Red Thread across the Fuse",
+    "description": "Burn through one exposed cord with a narrow flame after aiming; resistant or protected material may survive. Uses Fire Magic; costs 10 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: Red Thread across the Fuse",
+        "amount": 1
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 2
+  },
+  "Cinderstep Reversal": {
+    "name": "Cinderstep Reversal",
+    "description": "Cast a brief fan of sparks behind a retreating step to distract one pursuer; movement and escape remain contested. Uses Fire Magic; costs 18 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: Cinderstep Reversal",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 3
+  },
+  "The Kiln That Breathes Twice": {
+    "name": "The Kiln That Breathes Twice",
+    "description": "Control a short intense firing interval in a real prepared kiln; unsafe vessels can still crack. Uses Fire Magic; costs 30 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Kiln That Breathes Twice",
+        "amount": 1
+      }
+    ],
+    "bonus": 7,
+    "cooldown": 5
+  },
+  "The Seamstress's Dry Cuff": {
+    "name": "The Seamstress's Dry Cuff",
+    "description": "Draw ordinary surface water off one garment into a nearby receptacle. Uses Water Magic; costs 6 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Seamstress's Dry Cuff",
+        "amount": 1
+      }
+    ],
+    "bonus": 1,
+    "cooldown": 1
+  },
+  "A Cup for the Last Traveler": {
+    "name": "A Cup for the Last Traveler",
+    "description": "Gather drinkable existing water from a clean nearby source; the spell neither purifies poison nor creates lasting supplies. Uses Water Magic; costs 8 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: A Cup for the Last Traveler",
+        "amount": 1
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 1
+  },
+  "Millrace in Miniature": {
+    "name": "Millrace in Miniature",
+    "description": "Guide a bucket-sized stream through an open channel to test a blockage without moving the whole river. Uses Water Magic; costs 10 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: Millrace in Miniature",
+        "amount": 1
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 2
+  },
+  "The Ferryman's Sideways Wake": {
+    "name": "The Ferryman's Sideways Wake",
+    "description": "Push against a small vessel's existing wake for one correction; heavy weather and a poor hull remain dangerous. Uses Water Magic; costs 18 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Ferryman's Sideways Wake",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 3
+  },
+  "Blue Ribbon Restraint": {
+    "name": "Blue Ribbon Restraint",
+    "description": "Wrap one limb in a short moving band of water from an available source; resistance can break it. Uses Water Magic; costs 30 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: Blue Ribbon Restraint",
+        "amount": 1
+      }
+    ],
+    "bonus": 7,
+    "cooldown": 5
+  },
+  "The Mason's Patient Thumb": {
+    "name": "The Mason's Patient Thumb",
+    "description": "Settle loose grit beneath one small stone so a real repair can be mortared level. Uses Earth Magic; costs 6 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Mason's Patient Thumb",
+        "amount": 1
+      }
+    ],
+    "bonus": 1,
+    "cooldown": 1
+  },
+  "Dust Drawn to the Door": {
+    "name": "Dust Drawn to the Door",
+    "description": "Draw ordinary loose floor dust into a visible heap without lifting valuables or removing settled toxins. Uses Earth Magic; costs 8 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: Dust Drawn to the Door",
+        "amount": 1
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 1
+  },
+  "A Furrow Before Rain": {
+    "name": "A Furrow Before Rain",
+    "description": "Open a short shallow irrigation furrow in workable soil while leaving roots and buried services visible. Uses Earth Magic; costs 10 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: A Furrow Before Rain",
+        "amount": 1
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 2
+  },
+  "The Bank That Held": {
+    "name": "The Bank That Held",
+    "description": "Brace one crumbling earthen bank long enough for a cautious withdrawal; a major collapse needs more than this working. Uses Earth Magic; costs 18 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Bank That Held",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 3
+  },
+  "Sandglass Interdict": {
+    "name": "Sandglass Interdict",
+    "description": "Lift a brief curtain of existing sand across one approach to obscure an attack; allies lose sight through it too. Uses Earth Magic; costs 30 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: Sandglass Interdict",
+        "amount": 1
+      }
+    ],
+    "bonus": 7,
+    "cooldown": 5
+  },
+  "The Launderer's Borrowed Breeze": {
+    "name": "The Launderer's Borrowed Breeze",
+    "description": "Move clean air through hanging cloth for a short drying interval. Uses Wind Magic; costs 6 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Launderer's Borrowed Breeze",
+        "amount": 1
+      }
+    ],
+    "bonus": 1,
+    "cooldown": 1
+  },
+  "A Whisper Kept Downstream": {
+    "name": "A Whisper Kept Downstream",
+    "description": "Carry one spoken sentence along a visible short route; recipients can mishear in loud surroundings. Uses Wind Magic; costs 8 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: A Whisper Kept Downstream",
+        "amount": 1
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 1
+  },
+  "The Sailmaker's Gentle Test": {
+    "name": "The Sailmaker's Gentle Test",
+    "description": "Fill a spread sail or canopy with controlled air so its real seams can be inspected safely. Uses Wind Magic; costs 10 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Sailmaker's Gentle Test",
+        "amount": 1
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 2
+  },
+  "Featherfall for a Friend": {
+    "name": "Featherfall for a Friend",
+    "description": "Slow one nearby short fall for a willing target; height and carried mass remain limited. Uses Wind Magic; costs 18 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: Featherfall for a Friend",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 3
+  },
+  "The Storm's Narrow Shoulder": {
+    "name": "The Storm's Narrow Shoulder",
+    "description": "Deflect a small patch of driving rain or airborne debris while holding position; it cannot stop a storm. Uses Wind Magic; costs 30 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Storm's Narrow Shoulder",
+        "amount": 1
+      }
+    ],
+    "bonus": 7,
+    "cooldown": 5
+  },
+  "The Clockmaker's Testing Spark": {
+    "name": "The Clockmaker's Testing Spark",
+    "description": "Deliver a measured spark to an exposed test contact; an incompatible mechanism can still fail. Uses Lightning Magic; costs 6 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Clockmaker's Testing Spark",
+        "amount": 1
+      }
+    ],
+    "bonus": 1,
+    "cooldown": 1
+  },
+  "A Bell without a Rope": {
+    "name": "A Bell without a Rope",
+    "description": "Pulse an existing conductive bell fitting within sight to ring it once. Uses Lightning Magic; costs 8 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: A Bell without a Rope",
+        "amount": 1
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 1
+  },
+  "Blue Stitch across Broken Copper": {
+    "name": "Blue Stitch across Broken Copper",
+    "description": "Bridge one small visible circuit break for a moment while a real repair is made. Uses Lightning Magic; costs 10 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: Blue Stitch across Broken Copper",
+        "amount": 1
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 2
+  },
+  "Thunder at the Wrong Foot": {
+    "name": "Thunder at the Wrong Foot",
+    "description": "Crack a short directed discharge near a single opponent's footing to disrupt timing; it does not guarantee paralysis. Uses Lightning Magic; costs 18 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: Thunder at the Wrong Foot",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 3
+  },
+  "The Storm Needle's Answer": {
+    "name": "The Storm Needle's Answer",
+    "description": "Aim one concentrated lightning strike through a clear line; conductive bystanders and grounding remain hazards. Uses Lightning Magic; costs 30 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Storm Needle's Answer",
+        "amount": 1
+      }
+    ],
+    "bonus": 7,
+    "cooldown": 5
+  },
+  "The Fishmonger's Cold Cloth": {
+    "name": "The Fishmonger's Cold Cloth",
+    "description": "Cool one wrapped catch during short transport; it does not reverse spoilage. Uses Ice Magic; costs 6 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Fishmonger's Cold Cloth",
+        "amount": 1
+      }
+    ],
+    "bonus": 1,
+    "cooldown": 1
+  },
+  "A Frosted Window's Secret": {
+    "name": "A Frosted Window's Secret",
+    "description": "Frost a clean glass pane lightly so existing airflow or warm touch leaves a visible pattern. Uses Ice Magic; costs 8 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: A Frosted Window's Secret",
+        "amount": 1
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 1
+  },
+  "The Miller's Quiet Chill": {
+    "name": "The Miller's Quiet Chill",
+    "description": "Cool a small bearing or tool before inspection without making brittle metal safe by assumption. Uses Ice Magic; costs 10 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Miller's Quiet Chill",
+        "amount": 1
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 2
+  },
+  "White Heel upon the Step": {
+    "name": "White Heel upon the Step",
+    "description": "Freeze a small damp patch for a tactical obstruction; allies can slip on it as well. Uses Ice Magic; costs 18 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: White Heel upon the Step",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 3
+  },
+  "Winter's Borrowed Splint": {
+    "name": "Winter's Borrowed Splint",
+    "description": "Shape a temporary cold brace around a protected limb or object; it offers support and can cause cold injury if left carelessly. Uses Ice Magic; costs 30 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: Winter's Borrowed Splint",
+        "amount": 1
+      }
+    ],
+    "bonus": 7,
+    "cooldown": 5
+  },
+  "The Scribe's Unshadowed Page": {
+    "name": "The Scribe's Unshadowed Page",
+    "description": "Light a held page evenly without dazzling nearby readers. Uses Light Magic; costs 6 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Scribe's Unshadowed Page",
+        "amount": 1
+      }
+    ],
+    "bonus": 1,
+    "cooldown": 1
+  },
+  "A Harbor Lamp Answered": {
+    "name": "A Harbor Lamp Answered",
+    "description": "Send a short visible flash signal along a clear sightline; fog and distance reduce readability. Uses Light Magic; costs 8 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: A Harbor Lamp Answered",
+        "amount": 1
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 1
+  },
+  "The Glassworker's Revealing Edge": {
+    "name": "The Glassworker's Revealing Edge",
+    "description": "Rake light across a small transparent object to reveal visible chips and surface irregularities. Uses Light Magic; costs 10 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Glassworker's Revealing Edge",
+        "amount": 1
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 2
+  },
+  "Starlight Beneath the Door": {
+    "name": "Starlight Beneath the Door",
+    "description": "Guide a thin strand of light under a short obstruction to illuminate the nearby other side without seeing through solid walls. Uses Light Magic; costs 18 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: Starlight Beneath the Door",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 3
+  },
+  "The Noon Lance's Mercy": {
+    "name": "The Noon Lance's Mercy",
+    "description": "Aim a narrow bright beam at an exposed target; resolve damage through actual resistance and protect nearby eyes. Uses Light Magic; costs 30 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Noon Lance's Mercy",
+        "amount": 1
+      }
+    ],
+    "bonus": 7,
+    "cooldown": 5
+  },
+  "The Locksmith's Honest Witness": {
+    "name": "The Locksmith's Honest Witness",
+    "description": "Test an exposed metal fitting for movement and strain without opening a locked door automatically. Uses Metal Magic; costs 6 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Locksmith's Honest Witness",
+        "amount": 1
+      }
+    ],
+    "bonus": 1,
+    "cooldown": 1
+  },
+  "Needles Gathered in a Bowl": {
+    "name": "Needles Gathered in a Bowl",
+    "description": "Draw a few loose ordinary needles or nails into an open container within reach. Uses Metal Magic; costs 8 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: Needles Gathered in a Bowl",
+        "amount": 1
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 1
+  },
+  "The Tinsmith's Gentle Seam": {
+    "name": "The Tinsmith's Gentle Seam",
+    "description": "Press the edges of an existing thin metal patch into contact for a repair that still needs sound workmanship. Uses Metal Magic; costs 10 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Tinsmith's Gentle Seam",
+        "amount": 1
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 2
+  },
+  "The Coin That Stood on Edge": {
+    "name": "The Coin That Stood on Edge",
+    "description": "Balance and rotate one small metal object for inspection; magical coins and warded objects can resist. Uses Metal Magic; costs 18 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Coin That Stood on Edge",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 3
+  },
+  "Iron Petals at the Wrist": {
+    "name": "Iron Petals at the Wrist",
+    "description": "Spread a carried metal strip into brief defensive petals around one wrist; the material and protection are limited. Uses Metal Magic; costs 30 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: Iron Petals at the Wrist",
+        "amount": 1
+      }
+    ],
+    "bonus": 7,
+    "cooldown": 5
+  },
+  "The Gardener's Returning Tendril": {
+    "name": "The Gardener's Returning Tendril",
+    "description": "Guide a real climbing plant toward a nearby trellis without creating mature growth or food. Uses Nature Magic; costs 6 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Gardener's Returning Tendril",
+        "amount": 1
+      }
+    ],
+    "bonus": 1,
+    "cooldown": 1
+  },
+  "Thorns at the Orchard Gate": {
+    "name": "Thorns at the Orchard Gate",
+    "description": "Coax an existing bramble across a small open gap as a visible deterrent that can be cut. Uses Nature Magic; costs 8 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: Thorns at the Orchard Gate",
+        "amount": 1
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 1
+  },
+  "A Leaf Turned toward Home": {
+    "name": "A Leaf Turned toward Home",
+    "description": "Orient a few living leaves toward available light to help inspect stress; diagnosis still needs knowledge. Uses Nature Magic; costs 10 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: A Leaf Turned toward Home",
+        "amount": 1
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 2
+  },
+  "Rootwork under the Barrow": {
+    "name": "Rootwork under the Barrow",
+    "description": "Brace a small load with existing exposed roots while someone repairs its support. Uses Nature Magic; costs 18 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: Rootwork under the Barrow",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 3
+  },
+  "The Hedge That Bowed Aside": {
+    "name": "The Hedge That Bowed Aside",
+    "description": "Bend a short living hedge aside briefly for passage without killing or permanently relocating it. Uses Nature Magic; costs 30 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Hedge That Bowed Aside",
+        "amount": 1
+      }
+    ],
+    "bonus": 7,
+    "cooldown": 5
+  },
+  "The Musician's Unbroken Note": {
+    "name": "The Musician's Unbroken Note",
+    "description": "Sustain one simple tone while the performer takes a breath; the spell supplies no musical skill. Uses Sound Magic; costs 6 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Musician's Unbroken Note",
+        "amount": 1
+      }
+    ],
+    "bonus": 1,
+    "cooldown": 1
+  },
+  "A Knock through the Floorboards": {
+    "name": "A Knock through the Floorboards",
+    "description": "Send a short rhythmic tap through one connected floor for a prearranged signal. Uses Sound Magic; costs 8 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: A Knock through the Floorboards",
+        "amount": 1
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 1
+  },
+  "The Bellfounder's Hidden Crack": {
+    "name": "The Bellfounder's Hidden Crack",
+    "description": "Compare a struck metal object's resonance to help locate an ordinary visible fault; the result needs interpretation. Uses Sound Magic; costs 10 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Bellfounder's Hidden Crack",
+        "amount": 1
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 2
+  },
+  "Quiet around the Cradle": {
+    "name": "Quiet around the Cradle",
+    "description": "Dampen a small nearby noise for a brief interval without silencing speech everywhere. Uses Sound Magic; costs 18 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: Quiet around the Cradle",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 3
+  },
+  "The Empty Hall Replies": {
+    "name": "The Empty Hall Replies",
+    "description": "Use one controlled pulse to estimate a nearby open cavity; soft surfaces and complex geometry can mislead. Uses Sound Magic; costs 30 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Empty Hall Replies",
+        "amount": 1
+      }
+    ],
+    "bonus": 7,
+    "cooldown": 5
+  },
+  "The Potter's Centered Wheel": {
+    "name": "The Potter's Centered Wheel",
+    "description": "Steady one rotating small workpiece without removing its actual weight. Uses Gravity Magic; costs 6 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Potter's Centered Wheel",
+        "amount": 1
+      }
+    ],
+    "bonus": 1,
+    "cooldown": 1
+  },
+  "A Ladder's Second Foot": {
+    "name": "A Ladder's Second Foot",
+    "description": "Press one ladder's foot against sound ground during a careful climb; rotten rungs remain unsafe. Uses Gravity Magic; costs 8 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: A Ladder's Second Foot",
+        "amount": 1
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 1
+  },
+  "The Porter's Unburdening": {
+    "name": "The Porter's Unburdening",
+    "description": "Reduce one held load's effective weight briefly; balance and secure grips still matter. Uses Gravity Magic; costs 10 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Porter's Unburdening",
+        "amount": 1
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 2
+  },
+  "The Feather's Firm Descent": {
+    "name": "The Feather's Firm Descent",
+    "description": "Increase one small thrown object's pull downward to spoil its trajectory after a contested aim. Uses Gravity Magic; costs 18 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Feather's Firm Descent",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 3
+  },
+  "The Courtyard's Heavy Hush": {
+    "name": "The Courtyard's Heavy Hush",
+    "description": "Make a small marked patch of ground harder to cross for a moment; allies within it share the burden. Uses Gravity Magic; costs 30 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Courtyard's Heavy Hush",
+        "amount": 1
+      }
+    ],
+    "bonus": 7,
+    "cooldown": 5
+  },
+  "The Candle's Missing Shadow": {
+    "name": "The Candle's Missing Shadow",
+    "description": "Suppress one small magical glow temporarily without destroying its source. Uses Void Magic; costs 6 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Candle's Missing Shadow",
+        "amount": 1
+      }
+    ],
+    "bonus": 1,
+    "cooldown": 1
+  },
+  "A Spell's Loose Thread": {
+    "name": "A Spell's Loose Thread",
+    "description": "Contest an exposed weak seam in one ongoing minor working; a stronger spell may hold. Uses Void Magic; costs 8 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: A Spell's Loose Thread",
+        "amount": 1
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 1
+  },
+  "The Quiet between Two Wards": {
+    "name": "The Quiet between Two Wards",
+    "description": "Create a brief interference gap between two visible minor emissions; it supplies no automatic passage through protected thresholds. Uses Void Magic; costs 10 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Quiet between Two Wards",
+        "amount": 1
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 2
+  },
+  "Nightcloth across the Lens": {
+    "name": "Nightcloth across the Lens",
+    "description": "Veil a small view with shadow for a short interval; it is neither invisibility nor protection from other senses. Uses Void Magic; costs 18 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: Nightcloth across the Lens",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 3
+  },
+  "The Counterchord Unfinished": {
+    "name": "The Counterchord Unfinished",
+    "description": "Contest one spell as its working forms; failure still spends the committed Mana. Uses Void Magic; costs 30 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Counterchord Unfinished",
+        "amount": 1
+      }
+    ],
+    "bonus": 7,
+    "cooldown": 5
+  },
+  "The Medic's Steady Fingers": {
+    "name": "The Medic's Steady Fingers",
+    "description": "Ease a small muscle spasm long enough for examination without repairing a serious injury. Uses Healing Magic; costs 6 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Medic's Steady Fingers",
+        "amount": 1
+      }
+    ],
+    "bonus": 1,
+    "cooldown": 1
+  },
+  "A Breath Counted Kindly": {
+    "name": "A Breath Counted Kindly",
+    "description": "Support calm regular breathing in a willing conscious patient while a real cause is assessed. Uses Healing Magic; costs 8 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: A Breath Counted Kindly",
+        "amount": 1
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 1
+  },
+  "The Stitch That Held": {
+    "name": "The Stitch That Held",
+    "description": "Help the edges of a cleaned shallow wound settle during proper treatment; infection and deep injury still need care. Uses Healing Magic; costs 10 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Stitch That Held",
+        "amount": 1
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 2
+  },
+  "Warmth at the Broken Road": {
+    "name": "Warmth at the Broken Road",
+    "description": "Help a cold exhausted traveler stabilize during shelter and examination; it does not refill all resources. Uses Healing Magic; costs 18 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: Warmth at the Broken Road",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 3
+  },
+  "The Nightwatcher's Second Hour": {
+    "name": "The Nightwatcher's Second Hour",
+    "description": "Ease ordinary fatigue briefly during supervised recovery; sleep debt and serious depletion remain. Uses Healing Magic; costs 30 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Nightwatcher's Second Hour",
+        "amount": 1
+      }
+    ],
+    "bonus": 7,
+    "cooldown": 5
+  },
+  "The Apron's Unburnt Hem": {
+    "name": "The Apron's Unburnt Hem",
+    "description": "Place a short protective working on one cloth edge against minor heat; it is not fire immunity. Uses Enchantment Magic; costs 6 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Apron's Unburnt Hem",
+        "amount": 1
+      }
+    ],
+    "bonus": 1,
+    "cooldown": 1
+  },
+  "A Cup That Remembers Warmth": {
+    "name": "A Cup That Remembers Warmth",
+    "description": "Enchant an actual cup to slow its drink's ordinary cooling for a short period. Uses Enchantment Magic; costs 8 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: A Cup That Remembers Warmth",
+        "amount": 1
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 1
+  },
+  "The Hinge's Quiet Promise": {
+    "name": "The Hinge's Quiet Promise",
+    "description": "Dampen one maintained hinge's squeak temporarily without repairing a cracked fitting. Uses Enchantment Magic; costs 10 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Hinge's Quiet Promise",
+        "amount": 1
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 2
+  },
+  "The Worker's True Measure": {
+    "name": "The Worker's True Measure",
+    "description": "Mark one real measure with a temporary comparison line for a repeated craft task. Uses Enchantment Magic; costs 18 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Worker's True Measure",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 3
+  },
+  "The Shield's Borrowed Resolve": {
+    "name": "The Shield's Borrowed Resolve",
+    "description": "Bind a brief reinforcing pattern to a carried shield; it can still break under a stronger blow. Uses Enchantment Magic; costs 30 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Shield's Borrowed Resolve",
+        "amount": 1
+      }
+    ],
+    "bonus": 7,
+    "cooldown": 5
+  },
+  "The Errand Mote Returns": {
+    "name": "The Errand Mote Returns",
+    "description": "Summon one short-lived harmless mote to carry a tiny object across a visible safe workspace. Uses Summoning Magic; costs 6 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Errand Mote Returns",
+        "amount": 1
+      }
+    ],
+    "bonus": 1,
+    "cooldown": 1
+  },
+  "A Clay Hand at the Bench": {
+    "name": "A Clay Hand at the Bench",
+    "description": "Animate a prepared small clay helper for a simple repeated movement under supervision. Uses Summoning Magic; costs 8 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: A Clay Hand at the Bench",
+        "amount": 1
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 1
+  },
+  "The Lantern Beetle's Visit": {
+    "name": "The Lantern Beetle's Visit",
+    "description": "Call a temporary luminous insect-like familiar for nearby light; it has no independent reconnaissance network. Uses Summoning Magic; costs 10 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Lantern Beetle's Visit",
+        "amount": 1
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 2
+  },
+  "The Paper Warden's Stand": {
+    "name": "The Paper Warden's Stand",
+    "description": "Raise one fragile paper sentinel to signal movement through a visible small threshold. Uses Summoning Magic; costs 18 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Paper Warden's Stand",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 3
+  },
+  "The Last Decoy in the Lane": {
+    "name": "The Last Decoy in the Lane",
+    "description": "Create one brief moving construct decoy; scrutiny and damage can expose it. Uses Summoning Magic; costs 30 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Last Decoy in the Lane",
+        "amount": 1
+      }
+    ],
+    "bonus": 7,
+    "cooldown": 5
+  },
+  "The Tailor's Uncut Pattern": {
+    "name": "The Tailor's Uncut Pattern",
+    "description": "Overlay a proposed cloth pattern on a willing subject before the real garment is cut. Uses Illusion Magic; costs 6 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Tailor's Uncut Pattern",
+        "amount": 1
+      }
+    ],
+    "bonus": 1,
+    "cooldown": 1
+  },
+  "A Map Drawn in the Air": {
+    "name": "A Map Drawn in the Air",
+    "description": "Display a simple remembered route as an image while preserving uncertainty and missing information. Uses Illusion Magic; costs 8 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: A Map Drawn in the Air",
+        "amount": 1
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 1
+  },
+  "The Borrowed Crowd's Murmur": {
+    "name": "The Borrowed Crowd's Murmur",
+    "description": "Make a brief suggestion of distant conversation without creating people or truthful testimony. Uses Illusion Magic; costs 10 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Borrowed Crowd's Murmur",
+        "amount": 1
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 2
+  },
+  "The Wrong Door's Invitation": {
+    "name": "The Wrong Door's Invitation",
+    "description": "Overlay a misleading visible door mark for a short distraction; touch can reveal the surface. Uses Illusion Magic; costs 18 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Wrong Door's Invitation",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 3
+  },
+  "Afterimage on the Stair": {
+    "name": "Afterimage on the Stair",
+    "description": "Leave one brief image of a recent stance during a real movement; it provides no additional attack. Uses Illusion Magic; costs 30 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: Afterimage on the Stair",
+        "amount": 1
+      }
+    ],
+    "bonus": 7,
+    "cooldown": 5
+  },
+  "The Cook's Unwelcome Hint": {
+    "name": "The Cook's Unwelcome Hint",
+    "description": "Seek a limited impression about a real ingredient's condition; ambiguous results need practical testing. Uses Divination Magic; costs 6 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Cook's Unwelcome Hint",
+        "amount": 1
+      }
+    ],
+    "bonus": 1,
+    "cooldown": 1
+  },
+  "A Footstep Noticed Twice": {
+    "name": "A Footstep Noticed Twice",
+    "description": "Read a faint recent disturbance in a small accessible patch; weather and overlapping traffic can erase it. Uses Divination Magic; costs 8 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: A Footstep Noticed Twice",
+        "amount": 1
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 1
+  },
+  "The Missing Page's Neighbor": {
+    "name": "The Missing Page's Neighbor",
+    "description": "Search for an impression of how an actual document was handled without reconstructing unread text automatically. Uses Divination Magic; costs 10 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Missing Page's Neighbor",
+        "amount": 1
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 2
+  },
+  "The Fork in Tomorrow's Path": {
+    "name": "The Fork in Tomorrow's Path",
+    "description": "Seek one uncertain near-future risk tied to a stated immediate choice; it neither determines fate nor supplies perfect strategy. Uses Divination Magic; costs 18 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Fork in Tomorrow's Path",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 3
+  },
+  "An Echo at the Threshold": {
+    "name": "An Echo at the Threshold",
+    "description": "Sense a nearby recent magical crossing's residue without revealing its destination or granting portal access. Uses Divination Magic; costs 30 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: An Echo at the Threshold",
+        "amount": 1
+      }
+    ],
+    "bonus": 7,
+    "cooldown": 5
+  },
+  "The Fold between Two Cups": {
+    "name": "The Fold between Two Cups",
+    "description": "Move a tiny held object between two prepared visible receiving points a few steps apart. Uses Space Magic; costs 6 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Fold between Two Cups",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Gravity Magic",
+        "amount": 25
+      }
+    ],
+    "bonus": 1,
+    "cooldown": 1
+  },
+  "A Thread through the Open Window": {
+    "name": "A Thread through the Open Window",
+    "description": "Guide a light parcel through a short clear spatial fold between seen unobstructed points. Uses Space Magic; costs 8 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: A Thread through the Open Window",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Gravity Magic",
+        "amount": 25
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 1
+  },
+  "The Surveyor's Shorter String": {
+    "name": "The Surveyor's Shorter String",
+    "description": "Compare two nearby accessible points through a prepared small fold; wards and unknown spaces resist. Uses Space Magic; costs 10 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Surveyor's Shorter String",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Gravity Magic",
+        "amount": 25
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 2
+  },
+  "The Step behind the Banner": {
+    "name": "The Step behind the Banner",
+    "description": "Attempt a short visible reposition around one soft obstacle; solid walls, occupied destinations and wards block it. Uses Space Magic; costs 18 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Step behind the Banner",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Gravity Magic",
+        "amount": 25
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 3
+  },
+  "The Return Fold's Careful Knot": {
+    "name": "The Return Fold's Careful Knot",
+    "description": "Prepare a short-lived return between two surveyed nearby marks; neither endpoint may cross realm boundaries or bypass keys. Uses Space Magic; costs 30 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Return Fold's Careful Knot",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Gravity Magic",
+        "amount": 25
+      }
+    ],
+    "bonus": 7,
+    "cooldown": 5
+  },
+  "The Hearthkeeper's Farewell": {
+    "name": "The Hearthkeeper's Farewell",
+    "description": "Offer a willing lingering minor spirit a calm passage away after hearing its concern; it cannot compel a conscious soul. Uses Soul Magic; costs 6 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Hearthkeeper's Farewell",
+        "amount": 1
+      }
+    ],
+    "bonus": 1,
+    "cooldown": 1
+  },
+  "The Grave Tender's Lantern": {
+    "name": "The Grave Tender's Lantern",
+    "description": "Perceive a faint nearby spiritual disturbance without identifying a deceased person from nothing. Uses Soul Magic; costs 8 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Grave Tender's Lantern",
+        "amount": 1
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 1
+  },
+  "A Bone Hand for the Lamp": {
+    "name": "A Bone Hand for the Lamp",
+    "description": "Animate a small consenting-use collection of inert remains to hold one light; this spell binds no conscious soul. Uses Soul Magic; costs 10 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: A Bone Hand for the Lamp",
+        "amount": 1
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 2
+  },
+  "The Unborrowed Voice": {
+    "name": "The Unborrowed Voice",
+    "description": "Help a willing spirit speak a few words through a prepared focus; knowledge remains that spirit's own. Uses Soul Magic; costs 18 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: The Unborrowed Voice",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 3
+  },
+  "A Threshold Kept for the Living": {
+    "name": "A Threshold Kept for the Living",
+    "description": "Place a modest temporary spiritual ward across a small doorway; a strong possession or spirit may resist it. Uses Soul Magic; costs 30 Mana on a committed attempt. Actual reach, resistance and skill determine the result.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Formula: A Threshold Kept for the Living",
+        "amount": 1
+      }
+    ],
+    "bonus": 7,
+    "cooldown": 5
   }
 }

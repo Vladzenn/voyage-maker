@@ -3,6 +3,7 @@ const fs=require('fs'),path=require('path'),crypto=require('crypto'),assert=requ
 const sort=v=>Array.isArray(v)?v.map(sort):v&&typeof v==='object'?Object.fromEntries(Object.keys(v).sort().map(k=>[k,sort(v[k])])):v;
 const hash=v=>crypto.createHash('sha256').update(JSON.stringify(sort(v))).digest('hex');
 module.exports=function previousFishingView(world){
+ world=require('../rebirth/previous_world.cjs')(world);
  if(!world.skills?.Fishing)return world;
  const d=JSON.parse(fs.readFileSync(path.join(__dirname,'historical-test-projection.json'),'utf8'));
  assert.strictEqual(hash(world),d.afterSha256,'Only the exact reviewed Fishing patch may enter the historical test view');

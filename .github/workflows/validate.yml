@@ -25,3 +25,4 @@ jobs:
       - run: node tools/test_oni.cjs
       - run: node tools/test_glowhaven_expansion.cjs
       - run: node tools/test_fishing.cjs
+      - run: node tools/test_rebirth.cjs

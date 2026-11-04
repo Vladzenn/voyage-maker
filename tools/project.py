@@ -100,6 +100,10 @@ def validate(world=None):
         ck(region['realm'] in w['realms'], f'Region realm: {key}')
     for key, location in w['locations'].items():
         ck(location['region'] in w['regions'], f'Location region: {key}')
+        areas = location.get('areas', {})
+        for area_key, area in areas.items():
+            for destination in area.get('paths', []):
+                ck(destination in areas, f'Area path outside parent location: {key}/{area_key}/{destination}')
     for key, npc in w['npcs'].items():
         location = npc.get('currentLocation')
         if location:
@@ -297,6 +301,8 @@ def publish(message):
         subprocess.run(['node', str(ROOT / 'tools/test_glowhaven_expansion.cjs')], cwd=ROOT, check=True)
     if (ROOT / 'tools/test_fishing.cjs').exists():
         subprocess.run(['node', str(ROOT / 'tools/test_fishing.cjs')], cwd=ROOT, check=True)
+    if (ROOT / 'tools/test_rebirth.cjs').exists():
+        subprocess.run(['node', str(ROOT / 'tools/test_rebirth.cjs')], cwd=ROOT, check=True)
     changed, index = asset_changes()
     if changed:
         write_json(INDEX, index)

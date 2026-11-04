@@ -1,7 +1,7 @@
 // Execute emitted scripts with explicit semantic answers; no live AI simulation.
 const fs=require('fs'),path=require('path'),vm=require('vm'),crypto=require('crypto'),assert=require('assert');
 const root=path.resolve(__dirname,'..'),dir=path.join(__dirname,'glowhaven-expansion');
-const w=JSON.parse(fs.readFileSync(process.argv[2]||path.join(root,'world-draft/WorldAlpha - World.json'),'utf8'));
+const w=require('./rebirth/previous_world.cjs')(JSON.parse(fs.readFileSync(process.argv[2]||path.join(root,'world-draft/WorldAlpha - World.json'),'utf8')));
 const p=JSON.parse(fs.readFileSync(path.join(dir,'merge-review.json'),'utf8'));
 let checks=0;const ck=(ok,label)=>{checks++;assert.ok(ok,label)};
 const sort=v=>Array.isArray(v)?v.map(sort):v&&typeof v==='object'?Object.fromEntries(Object.keys(v).sort().map(k=>[k,sort(v[k])])):v;

@@ -13932,5 +13932,3373 @@
     "unlockedBy": [],
     "excludedBy": [],
     "requirements": []
+  },
+  "Beastfae": {
+    "name": "Beastfae",
+    "description": "A rare people with fully animal-shaped faces and upright bodies. Choose a furred, scaled or feathered form, adult stature, colors and clothing. Individuals belong to many communities. Starting benefits: +1 Empathy, +2 Survival and +10 Health capacity.",
+    "traitNarrativeEffects": "Preserve the chosen animal face, body covering, hands, feet and tail in portraits and play. Beastfae are a distinct rare ancestry, with no compulsory occupation, personality or magical affinity. The native bonuses apply once.",
+    "attributes": [
+      {
+        "attribute": "empathy",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "survival",
+        "modifier": 2
+      }
+    ],
+    "resources": [
+      {
+        "resource": "Health",
+        "modifier": 10
+      }
+    ],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Fae Form — Luna-moth winged": {
+    "name": "Fae Form — Luna-moth winged",
+    "description": "An adult fae with coherent luna-moth winged features and individually chosen stature. Use the named wing structure and a person-like adult face.",
+    "traitNarrativeEffects": "An adult fae with coherent luna-moth winged features and individually chosen stature. Use the named wing structure and a person-like adult face. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Fae",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Fae Form — Glasswing": {
+    "name": "Fae Form — Glasswing",
+    "description": "An adult fae with coherent glasswing features and individually chosen stature. Use the named wing structure and a person-like adult face.",
+    "traitNarrativeEffects": "An adult fae with coherent glasswing features and individually chosen stature. Use the named wing structure and a person-like adult face. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Fae",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Fae Form — Swallowtail": {
+    "name": "Fae Form — Swallowtail",
+    "description": "An adult fae with coherent swallowtail features and individually chosen stature. Use the named wing structure and a person-like adult face.",
+    "traitNarrativeEffects": "An adult fae with coherent swallowtail features and individually chosen stature. Use the named wing structure and a person-like adult face. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Fae",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Fae Form — Damselfly-winged": {
+    "name": "Fae Form — Damselfly-winged",
+    "description": "An adult fae with coherent damselfly-winged features and individually chosen stature. Use the named wing structure and a person-like adult face.",
+    "traitNarrativeEffects": "An adult fae with coherent damselfly-winged features and individually chosen stature. Use the named wing structure and a person-like adult face. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Fae",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Fae Form — Lacewing": {
+    "name": "Fae Form — Lacewing",
+    "description": "An adult fae with coherent lacewing features and individually chosen stature. Use the named wing structure and a person-like adult face.",
+    "traitNarrativeEffects": "An adult fae with coherent lacewing features and individually chosen stature. Use the named wing structure and a person-like adult face. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Fae",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Fae Form — Cicada-winged": {
+    "name": "Fae Form — Cicada-winged",
+    "description": "An adult fae with coherent cicada-winged features and individually chosen stature. Use the named wing structure and a person-like adult face.",
+    "traitNarrativeEffects": "An adult fae with coherent cicada-winged features and individually chosen stature. Use the named wing structure and a person-like adult face. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Fae",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Fae Form — Beetle-winged": {
+    "name": "Fae Form — Beetle-winged",
+    "description": "An adult fae with coherent beetle-winged features and individually chosen stature. Use the named wing structure and a person-like adult face.",
+    "traitNarrativeEffects": "An adult fae with coherent beetle-winged features and individually chosen stature. Use the named wing structure and a person-like adult face. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Fae",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Fae Form — Bat-winged": {
+    "name": "Fae Form — Bat-winged",
+    "description": "An adult fae with coherent bat-winged features and individually chosen stature. Use the named wing structure and a person-like adult face.",
+    "traitNarrativeEffects": "An adult fae with coherent bat-winged features and individually chosen stature. Use the named wing structure and a person-like adult face. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Fae",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Fae Form — Leaf-mantled": {
+    "name": "Fae Form — Leaf-mantled",
+    "description": "An adult fae with coherent leaf-mantled features and individually chosen stature. Living woodland textures form part of the body.",
+    "traitNarrativeEffects": "An adult fae with coherent leaf-mantled features and individually chosen stature. Living woodland textures form part of the body. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Fae",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Fae Form — Moss-backed": {
+    "name": "Fae Form — Moss-backed",
+    "description": "An adult fae with coherent moss-backed features and individually chosen stature. Living woodland textures form part of the body.",
+    "traitNarrativeEffects": "An adult fae with coherent moss-backed features and individually chosen stature. Living woodland textures form part of the body. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Fae",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Fae Form — Lichen-marked": {
+    "name": "Fae Form — Lichen-marked",
+    "description": "An adult fae with coherent lichen-marked features and individually chosen stature. Living woodland textures form part of the body.",
+    "traitNarrativeEffects": "An adult fae with coherent lichen-marked features and individually chosen stature. Living woodland textures form part of the body. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Fae",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Fae Form — Briar-spined": {
+    "name": "Fae Form — Briar-spined",
+    "description": "An adult fae with coherent briar-spined features and individually chosen stature. Living woodland textures form part of the body.",
+    "traitNarrativeEffects": "An adult fae with coherent briar-spined features and individually chosen stature. Living woodland textures form part of the body. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Fae",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Fae Form — Reed-crested": {
+    "name": "Fae Form — Reed-crested",
+    "description": "An adult fae with coherent reed-crested features and individually chosen stature. Living woodland textures form part of the body.",
+    "traitNarrativeEffects": "An adult fae with coherent reed-crested features and individually chosen stature. Living woodland textures form part of the body. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Fae",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Fae Form — Shell-plated": {
+    "name": "Fae Form — Shell-plated",
+    "description": "An adult fae with coherent shell-plated features and individually chosen stature. Living woodland textures form part of the body.",
+    "traitNarrativeEffects": "An adult fae with coherent shell-plated features and individually chosen stature. Living woodland textures form part of the body. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Fae",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Fae Form — Stone-patched": {
+    "name": "Fae Form — Stone-patched",
+    "description": "An adult fae with coherent stone-patched features and individually chosen stature. Living woodland textures form part of the body.",
+    "traitNarrativeEffects": "An adult fae with coherent stone-patched features and individually chosen stature. Living woodland textures form part of the body. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Fae",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Fae Form — Ram-horned": {
+    "name": "Fae Form — Ram-horned",
+    "description": "An adult fae with coherent ram-horned features and individually chosen stature. Preserve the selected ears, horn or hoof anatomy.",
+    "traitNarrativeEffects": "An adult fae with coherent ram-horned features and individually chosen stature. Preserve the selected ears, horn or hoof anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Fae",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Fae Form — Ibex-horned": {
+    "name": "Fae Form — Ibex-horned",
+    "description": "An adult fae with coherent ibex-horned features and individually chosen stature. Preserve the selected ears, horn or hoof anatomy.",
+    "traitNarrativeEffects": "An adult fae with coherent ibex-horned features and individually chosen stature. Preserve the selected ears, horn or hoof anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Fae",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Fae Form — Pronghorn": {
+    "name": "Fae Form — Pronghorn",
+    "description": "An adult fae with coherent pronghorn features and individually chosen stature. Preserve the selected ears, horn or hoof anatomy.",
+    "traitNarrativeEffects": "An adult fae with coherent pronghorn features and individually chosen stature. Preserve the selected ears, horn or hoof anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Fae",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Fae Form — Doe-eared": {
+    "name": "Fae Form — Doe-eared",
+    "description": "An adult fae with coherent doe-eared features and individually chosen stature. Preserve the selected ears, horn or hoof anatomy.",
+    "traitNarrativeEffects": "An adult fae with coherent doe-eared features and individually chosen stature. Preserve the selected ears, horn or hoof anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Fae",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Fae Form — Hare-eared": {
+    "name": "Fae Form — Hare-eared",
+    "description": "An adult fae with coherent hare-eared features and individually chosen stature. Preserve the selected ears, horn or hoof anatomy.",
+    "traitNarrativeEffects": "An adult fae with coherent hare-eared features and individually chosen stature. Preserve the selected ears, horn or hoof anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Fae",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Fae Form — Cloven-hoofed": {
+    "name": "Fae Form — Cloven-hoofed",
+    "description": "An adult fae with coherent cloven-hoofed features and individually chosen stature. Preserve the selected ears, horn or hoof anatomy.",
+    "traitNarrativeEffects": "An adult fae with coherent cloven-hoofed features and individually chosen stature. Preserve the selected ears, horn or hoof anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Fae",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Fae Form — Round-eared": {
+    "name": "Fae Form — Round-eared",
+    "description": "An adult fae with coherent round-eared features and individually chosen stature. Use the chosen subtle face, ear, crest or wingless silhouette.",
+    "traitNarrativeEffects": "An adult fae with coherent round-eared features and individually chosen stature. Use the chosen subtle face, ear, crest or wingless silhouette. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Fae",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Fae Form — Long-eared": {
+    "name": "Fae Form — Long-eared",
+    "description": "An adult fae with coherent long-eared features and individually chosen stature. Use the chosen subtle face, ear, crest or wingless silhouette.",
+    "traitNarrativeEffects": "An adult fae with coherent long-eared features and individually chosen stature. Use the chosen subtle face, ear, crest or wingless silhouette. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Fae",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Fae Form — Feather-crested": {
+    "name": "Fae Form — Feather-crested",
+    "description": "An adult fae with coherent feather-crested features and individually chosen stature. Use the chosen subtle face, ear, crest or wingless silhouette.",
+    "traitNarrativeEffects": "An adult fae with coherent feather-crested features and individually chosen stature. Use the chosen subtle face, ear, crest or wingless silhouette. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Fae",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfolk Form — Lynx": {
+    "name": "Beastfolk Form — Lynx",
+    "description": "A mostly human adult face and upright body with coherent lynx features, such as ears, feather or scale accents, horns or a tail appropriate to the form.",
+    "traitNarrativeEffects": "A mostly human adult face and upright body with coherent lynx features, such as ears, feather or scale accents, horns or a tail appropriate to the form. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfolk",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfolk Form — Coyote": {
+    "name": "Beastfolk Form — Coyote",
+    "description": "A mostly human adult face and upright body with coherent coyote features, such as ears, feather or scale accents, horns or a tail appropriate to the form.",
+    "traitNarrativeEffects": "A mostly human adult face and upright body with coherent coyote features, such as ears, feather or scale accents, horns or a tail appropriate to the form. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfolk",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfolk Form — Raccoon": {
+    "name": "Beastfolk Form — Raccoon",
+    "description": "A mostly human adult face and upright body with coherent raccoon features, such as ears, feather or scale accents, horns or a tail appropriate to the form.",
+    "traitNarrativeEffects": "A mostly human adult face and upright body with coherent raccoon features, such as ears, feather or scale accents, horns or a tail appropriate to the form. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfolk",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfolk Form — Otter": {
+    "name": "Beastfolk Form — Otter",
+    "description": "A mostly human adult face and upright body with coherent otter features, such as ears, feather or scale accents, horns or a tail appropriate to the form.",
+    "traitNarrativeEffects": "A mostly human adult face and upright body with coherent otter features, such as ears, feather or scale accents, horns or a tail appropriate to the form. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfolk",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfolk Form — Badger": {
+    "name": "Beastfolk Form — Badger",
+    "description": "A mostly human adult face and upright body with coherent badger features, such as ears, feather or scale accents, horns or a tail appropriate to the form.",
+    "traitNarrativeEffects": "A mostly human adult face and upright body with coherent badger features, such as ears, feather or scale accents, horns or a tail appropriate to the form. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfolk",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfolk Form — Goat": {
+    "name": "Beastfolk Form — Goat",
+    "description": "A mostly human adult face and upright body with coherent goat features, such as ears, feather or scale accents, horns or a tail appropriate to the form.",
+    "traitNarrativeEffects": "A mostly human adult face and upright body with coherent goat features, such as ears, feather or scale accents, horns or a tail appropriate to the form. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfolk",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfolk Form — Elk": {
+    "name": "Beastfolk Form — Elk",
+    "description": "A mostly human adult face and upright body with coherent elk features, such as ears, feather or scale accents, horns or a tail appropriate to the form.",
+    "traitNarrativeEffects": "A mostly human adult face and upright body with coherent elk features, such as ears, feather or scale accents, horns or a tail appropriate to the form. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfolk",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfolk Form — Bison": {
+    "name": "Beastfolk Form — Bison",
+    "description": "A mostly human adult face and upright body with coherent bison features, such as ears, feather or scale accents, horns or a tail appropriate to the form.",
+    "traitNarrativeEffects": "A mostly human adult face and upright body with coherent bison features, such as ears, feather or scale accents, horns or a tail appropriate to the form. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfolk",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfolk Form — Gazelle": {
+    "name": "Beastfolk Form — Gazelle",
+    "description": "A mostly human adult face and upright body with coherent gazelle features, such as ears, feather or scale accents, horns or a tail appropriate to the form.",
+    "traitNarrativeEffects": "A mostly human adult face and upright body with coherent gazelle features, such as ears, feather or scale accents, horns or a tail appropriate to the form. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfolk",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfolk Form — Squirrel": {
+    "name": "Beastfolk Form — Squirrel",
+    "description": "A mostly human adult face and upright body with coherent squirrel features, such as ears, feather or scale accents, horns or a tail appropriate to the form.",
+    "traitNarrativeEffects": "A mostly human adult face and upright body with coherent squirrel features, such as ears, feather or scale accents, horns or a tail appropriate to the form. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfolk",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfolk Form — Mouse": {
+    "name": "Beastfolk Form — Mouse",
+    "description": "A mostly human adult face and upright body with coherent mouse features, such as ears, feather or scale accents, horns or a tail appropriate to the form.",
+    "traitNarrativeEffects": "A mostly human adult face and upright body with coherent mouse features, such as ears, feather or scale accents, horns or a tail appropriate to the form. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfolk",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfolk Form — Crow": {
+    "name": "Beastfolk Form — Crow",
+    "description": "A mostly human adult face and upright body with coherent crow features, such as ears, feather or scale accents, horns or a tail appropriate to the form.",
+    "traitNarrativeEffects": "A mostly human adult face and upright body with coherent crow features, such as ears, feather or scale accents, horns or a tail appropriate to the form. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfolk",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfolk Form — Owl": {
+    "name": "Beastfolk Form — Owl",
+    "description": "A mostly human adult face and upright body with coherent owl features, such as ears, feather or scale accents, horns or a tail appropriate to the form.",
+    "traitNarrativeEffects": "A mostly human adult face and upright body with coherent owl features, such as ears, feather or scale accents, horns or a tail appropriate to the form. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfolk",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfolk Form — Hawk": {
+    "name": "Beastfolk Form — Hawk",
+    "description": "A mostly human adult face and upright body with coherent hawk features, such as ears, feather or scale accents, horns or a tail appropriate to the form.",
+    "traitNarrativeEffects": "A mostly human adult face and upright body with coherent hawk features, such as ears, feather or scale accents, horns or a tail appropriate to the form. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfolk",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfolk Form — Heron": {
+    "name": "Beastfolk Form — Heron",
+    "description": "A mostly human adult face and upright body with coherent heron features, such as ears, feather or scale accents, horns or a tail appropriate to the form.",
+    "traitNarrativeEffects": "A mostly human adult face and upright body with coherent heron features, such as ears, feather or scale accents, horns or a tail appropriate to the form. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfolk",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfolk Form — Parrot": {
+    "name": "Beastfolk Form — Parrot",
+    "description": "A mostly human adult face and upright body with coherent parrot features, such as ears, feather or scale accents, horns or a tail appropriate to the form.",
+    "traitNarrativeEffects": "A mostly human adult face and upright body with coherent parrot features, such as ears, feather or scale accents, horns or a tail appropriate to the form. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfolk",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfolk Form — Sparrow": {
+    "name": "Beastfolk Form — Sparrow",
+    "description": "A mostly human adult face and upright body with coherent sparrow features, such as ears, feather or scale accents, horns or a tail appropriate to the form.",
+    "traitNarrativeEffects": "A mostly human adult face and upright body with coherent sparrow features, such as ears, feather or scale accents, horns or a tail appropriate to the form. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfolk",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfolk Form — Gull": {
+    "name": "Beastfolk Form — Gull",
+    "description": "A mostly human adult face and upright body with coherent gull features, such as ears, feather or scale accents, horns or a tail appropriate to the form.",
+    "traitNarrativeEffects": "A mostly human adult face and upright body with coherent gull features, such as ears, feather or scale accents, horns or a tail appropriate to the form. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfolk",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfolk Form — Gecko": {
+    "name": "Beastfolk Form — Gecko",
+    "description": "A mostly human adult face and upright body with coherent gecko features, such as ears, feather or scale accents, horns or a tail appropriate to the form.",
+    "traitNarrativeEffects": "A mostly human adult face and upright body with coherent gecko features, such as ears, feather or scale accents, horns or a tail appropriate to the form. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfolk",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfolk Form — Iguana": {
+    "name": "Beastfolk Form — Iguana",
+    "description": "A mostly human adult face and upright body with coherent iguana features, such as ears, feather or scale accents, horns or a tail appropriate to the form.",
+    "traitNarrativeEffects": "A mostly human adult face and upright body with coherent iguana features, such as ears, feather or scale accents, horns or a tail appropriate to the form. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfolk",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfolk Form — Monitor": {
+    "name": "Beastfolk Form — Monitor",
+    "description": "A mostly human adult face and upright body with coherent monitor features, such as ears, feather or scale accents, horns or a tail appropriate to the form.",
+    "traitNarrativeEffects": "A mostly human adult face and upright body with coherent monitor features, such as ears, feather or scale accents, horns or a tail appropriate to the form. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfolk",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfolk Form — Skink": {
+    "name": "Beastfolk Form — Skink",
+    "description": "A mostly human adult face and upright body with coherent skink features, such as ears, feather or scale accents, horns or a tail appropriate to the form.",
+    "traitNarrativeEffects": "A mostly human adult face and upright body with coherent skink features, such as ears, feather or scale accents, horns or a tail appropriate to the form. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfolk",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfolk Form — Chameleon": {
+    "name": "Beastfolk Form — Chameleon",
+    "description": "A mostly human adult face and upright body with coherent chameleon features, such as ears, feather or scale accents, horns or a tail appropriate to the form.",
+    "traitNarrativeEffects": "A mostly human adult face and upright body with coherent chameleon features, such as ears, feather or scale accents, horns or a tail appropriate to the form. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfolk",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfolk Form — Crocodile": {
+    "name": "Beastfolk Form — Crocodile",
+    "description": "A mostly human adult face and upright body with coherent crocodile features, such as ears, feather or scale accents, horns or a tail appropriate to the form.",
+    "traitNarrativeEffects": "A mostly human adult face and upright body with coherent crocodile features, such as ears, feather or scale accents, horns or a tail appropriate to the form. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfolk",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfolk Form — Turtle": {
+    "name": "Beastfolk Form — Turtle",
+    "description": "A mostly human adult face and upright body with coherent turtle features, such as ears, feather or scale accents, horns or a tail appropriate to the form.",
+    "traitNarrativeEffects": "A mostly human adult face and upright body with coherent turtle features, such as ears, feather or scale accents, horns or a tail appropriate to the form. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfolk",
+      "Mixed Ancestry"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Wolf": {
+    "name": "Beastfae Form — Wolf",
+    "description": "A fully wolf-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully wolf-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Fox": {
+    "name": "Beastfae Form — Fox",
+    "description": "A fully fox-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully fox-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Dog": {
+    "name": "Beastfae Form — Dog",
+    "description": "A fully dog-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully dog-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Coyote": {
+    "name": "Beastfae Form — Coyote",
+    "description": "A fully coyote-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully coyote-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Hyena": {
+    "name": "Beastfae Form — Hyena",
+    "description": "A fully hyena-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully hyena-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Jackal": {
+    "name": "Beastfae Form — Jackal",
+    "description": "A fully jackal-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully jackal-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Cat": {
+    "name": "Beastfae Form — Cat",
+    "description": "A fully cat-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully cat-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Lynx": {
+    "name": "Beastfae Form — Lynx",
+    "description": "A fully lynx-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully lynx-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Tiger": {
+    "name": "Beastfae Form — Tiger",
+    "description": "A fully tiger-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully tiger-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Lion": {
+    "name": "Beastfae Form — Lion",
+    "description": "A fully lion-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully lion-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Leopard": {
+    "name": "Beastfae Form — Leopard",
+    "description": "A fully leopard-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully leopard-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Cheetah": {
+    "name": "Beastfae Form — Cheetah",
+    "description": "A fully cheetah-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully cheetah-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Bear": {
+    "name": "Beastfae Form — Bear",
+    "description": "A fully bear-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully bear-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Panda": {
+    "name": "Beastfae Form — Panda",
+    "description": "A fully panda-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully panda-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Raccoon": {
+    "name": "Beastfae Form — Raccoon",
+    "description": "A fully raccoon-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully raccoon-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Badger": {
+    "name": "Beastfae Form — Badger",
+    "description": "A fully badger-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully badger-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Rabbit": {
+    "name": "Beastfae Form — Rabbit",
+    "description": "A fully rabbit-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully rabbit-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Hare": {
+    "name": "Beastfae Form — Hare",
+    "description": "A fully hare-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully hare-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Mouse": {
+    "name": "Beastfae Form — Mouse",
+    "description": "A fully mouse-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully mouse-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Rat": {
+    "name": "Beastfae Form — Rat",
+    "description": "A fully rat-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully rat-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Squirrel": {
+    "name": "Beastfae Form — Squirrel",
+    "description": "A fully squirrel-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully squirrel-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Porcupine": {
+    "name": "Beastfae Form — Porcupine",
+    "description": "A fully porcupine-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully porcupine-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Otter": {
+    "name": "Beastfae Form — Otter",
+    "description": "A fully otter-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully otter-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Ferret": {
+    "name": "Beastfae Form — Ferret",
+    "description": "A fully ferret-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully ferret-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Marten": {
+    "name": "Beastfae Form — Marten",
+    "description": "A fully marten-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully marten-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Red panda": {
+    "name": "Beastfae Form — Red panda",
+    "description": "A fully red panda-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully red panda-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Beaver": {
+    "name": "Beastfae Form — Beaver",
+    "description": "A fully beaver-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully beaver-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Capybara": {
+    "name": "Beastfae Form — Capybara",
+    "description": "A fully capybara-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully capybara-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Goat": {
+    "name": "Beastfae Form — Goat",
+    "description": "A fully goat-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully goat-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Ram": {
+    "name": "Beastfae Form — Ram",
+    "description": "A fully ram-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully ram-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Deer": {
+    "name": "Beastfae Form — Deer",
+    "description": "A fully deer-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully deer-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Elk": {
+    "name": "Beastfae Form — Elk",
+    "description": "A fully elk-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully elk-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Bison": {
+    "name": "Beastfae Form — Bison",
+    "description": "A fully bison-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully bison-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Horse": {
+    "name": "Beastfae Form — Horse",
+    "description": "A fully horse-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully horse-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Boar": {
+    "name": "Beastfae Form — Boar",
+    "description": "A fully boar-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully boar-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Gazelle": {
+    "name": "Beastfae Form — Gazelle",
+    "description": "A fully gazelle-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully gazelle-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Gecko": {
+    "name": "Beastfae Form — Gecko",
+    "description": "A fully gecko-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully gecko-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Monitor lizard": {
+    "name": "Beastfae Form — Monitor lizard",
+    "description": "A fully monitor lizard-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully monitor lizard-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Iguana": {
+    "name": "Beastfae Form — Iguana",
+    "description": "A fully iguana-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully iguana-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Chameleon": {
+    "name": "Beastfae Form — Chameleon",
+    "description": "A fully chameleon-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully chameleon-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Skink": {
+    "name": "Beastfae Form — Skink",
+    "description": "A fully skink-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully skink-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Crocodile": {
+    "name": "Beastfae Form — Crocodile",
+    "description": "A fully crocodile-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully crocodile-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Tortoise": {
+    "name": "Beastfae Form — Tortoise",
+    "description": "A fully tortoise-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully tortoise-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Bearded dragon": {
+    "name": "Beastfae Form — Bearded dragon",
+    "description": "A fully bearded dragon-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully bearded dragon-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Raven": {
+    "name": "Beastfae Form — Raven",
+    "description": "A fully raven-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully raven-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Owl": {
+    "name": "Beastfae Form — Owl",
+    "description": "A fully owl-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully owl-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Hawk": {
+    "name": "Beastfae Form — Hawk",
+    "description": "A fully hawk-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully hawk-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Beastfae Form — Heron": {
+    "name": "Beastfae Form — Heron",
+    "description": "A fully heron-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy.",
+    "traitNarrativeEffects": "A fully heron-shaped adult face and covered upright body, with fur, scales or feathers, a muzzle, snout or beak and hands and feet appropriate to the animal. Clothing fits this anatomy. The preset is optional and cosmetic. Preserve adult proportions at the chosen height. No powers, stat bonuses or compulsory temperament follow from this form.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Beastfae"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Formula: The Porter's Invisible Palm": {
+    "name": "Formula: The Porter's Invisible Palm",
+    "description": "You have deciphered The Porter's Invisible Palm, a Arcane Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Porter's Invisible Palm, a Arcane Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: Lanternwright's Spare Hand": {
+    "name": "Formula: Lanternwright's Spare Hand",
+    "description": "You have deciphered Lanternwright's Spare Hand, a Arcane Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered Lanternwright's Spare Hand, a Arcane Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Unbroken Chalk Circle": {
+    "name": "Formula: The Unbroken Chalk Circle",
+    "description": "You have deciphered The Unbroken Chalk Circle, a Arcane Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Unbroken Chalk Circle, a Arcane Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: Three Steps of Shelter": {
+    "name": "Formula: Three Steps of Shelter",
+    "description": "You have deciphered Three Steps of Shelter, a Arcane Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered Three Steps of Shelter, a Arcane Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: Last Light in the Reservoir": {
+    "name": "Formula: Last Light in the Reservoir",
+    "description": "You have deciphered Last Light in the Reservoir, a Arcane Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered Last Light in the Reservoir, a Arcane Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: A Coal Kept Kindly": {
+    "name": "Formula: A Coal Kept Kindly",
+    "description": "You have deciphered A Coal Kept Kindly, a Fire Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered A Coal Kept Kindly, a Fire Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Baker's Even Hearth": {
+    "name": "Formula: The Baker's Even Hearth",
+    "description": "You have deciphered The Baker's Even Hearth, a Fire Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Baker's Even Hearth, a Fire Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: Red Thread across the Fuse": {
+    "name": "Formula: Red Thread across the Fuse",
+    "description": "You have deciphered Red Thread across the Fuse, a Fire Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered Red Thread across the Fuse, a Fire Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: Cinderstep Reversal": {
+    "name": "Formula: Cinderstep Reversal",
+    "description": "You have deciphered Cinderstep Reversal, a Fire Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered Cinderstep Reversal, a Fire Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Kiln That Breathes Twice": {
+    "name": "Formula: The Kiln That Breathes Twice",
+    "description": "You have deciphered The Kiln That Breathes Twice, a Fire Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Kiln That Breathes Twice, a Fire Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Seamstress's Dry Cuff": {
+    "name": "Formula: The Seamstress's Dry Cuff",
+    "description": "You have deciphered The Seamstress's Dry Cuff, a Water Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Seamstress's Dry Cuff, a Water Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: A Cup for the Last Traveler": {
+    "name": "Formula: A Cup for the Last Traveler",
+    "description": "You have deciphered A Cup for the Last Traveler, a Water Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered A Cup for the Last Traveler, a Water Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: Millrace in Miniature": {
+    "name": "Formula: Millrace in Miniature",
+    "description": "You have deciphered Millrace in Miniature, a Water Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered Millrace in Miniature, a Water Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Ferryman's Sideways Wake": {
+    "name": "Formula: The Ferryman's Sideways Wake",
+    "description": "You have deciphered The Ferryman's Sideways Wake, a Water Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Ferryman's Sideways Wake, a Water Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: Blue Ribbon Restraint": {
+    "name": "Formula: Blue Ribbon Restraint",
+    "description": "You have deciphered Blue Ribbon Restraint, a Water Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered Blue Ribbon Restraint, a Water Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Mason's Patient Thumb": {
+    "name": "Formula: The Mason's Patient Thumb",
+    "description": "You have deciphered The Mason's Patient Thumb, a Earth Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Mason's Patient Thumb, a Earth Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: Dust Drawn to the Door": {
+    "name": "Formula: Dust Drawn to the Door",
+    "description": "You have deciphered Dust Drawn to the Door, a Earth Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered Dust Drawn to the Door, a Earth Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: A Furrow Before Rain": {
+    "name": "Formula: A Furrow Before Rain",
+    "description": "You have deciphered A Furrow Before Rain, a Earth Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered A Furrow Before Rain, a Earth Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Bank That Held": {
+    "name": "Formula: The Bank That Held",
+    "description": "You have deciphered The Bank That Held, a Earth Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Bank That Held, a Earth Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: Sandglass Interdict": {
+    "name": "Formula: Sandglass Interdict",
+    "description": "You have deciphered Sandglass Interdict, a Earth Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered Sandglass Interdict, a Earth Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Launderer's Borrowed Breeze": {
+    "name": "Formula: The Launderer's Borrowed Breeze",
+    "description": "You have deciphered The Launderer's Borrowed Breeze, a Wind Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Launderer's Borrowed Breeze, a Wind Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: A Whisper Kept Downstream": {
+    "name": "Formula: A Whisper Kept Downstream",
+    "description": "You have deciphered A Whisper Kept Downstream, a Wind Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered A Whisper Kept Downstream, a Wind Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Sailmaker's Gentle Test": {
+    "name": "Formula: The Sailmaker's Gentle Test",
+    "description": "You have deciphered The Sailmaker's Gentle Test, a Wind Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Sailmaker's Gentle Test, a Wind Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: Featherfall for a Friend": {
+    "name": "Formula: Featherfall for a Friend",
+    "description": "You have deciphered Featherfall for a Friend, a Wind Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered Featherfall for a Friend, a Wind Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Storm's Narrow Shoulder": {
+    "name": "Formula: The Storm's Narrow Shoulder",
+    "description": "You have deciphered The Storm's Narrow Shoulder, a Wind Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Storm's Narrow Shoulder, a Wind Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Clockmaker's Testing Spark": {
+    "name": "Formula: The Clockmaker's Testing Spark",
+    "description": "You have deciphered The Clockmaker's Testing Spark, a Lightning Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Clockmaker's Testing Spark, a Lightning Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: A Bell without a Rope": {
+    "name": "Formula: A Bell without a Rope",
+    "description": "You have deciphered A Bell without a Rope, a Lightning Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered A Bell without a Rope, a Lightning Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: Blue Stitch across Broken Copper": {
+    "name": "Formula: Blue Stitch across Broken Copper",
+    "description": "You have deciphered Blue Stitch across Broken Copper, a Lightning Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered Blue Stitch across Broken Copper, a Lightning Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: Thunder at the Wrong Foot": {
+    "name": "Formula: Thunder at the Wrong Foot",
+    "description": "You have deciphered Thunder at the Wrong Foot, a Lightning Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered Thunder at the Wrong Foot, a Lightning Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Storm Needle's Answer": {
+    "name": "Formula: The Storm Needle's Answer",
+    "description": "You have deciphered The Storm Needle's Answer, a Lightning Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Storm Needle's Answer, a Lightning Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Fishmonger's Cold Cloth": {
+    "name": "Formula: The Fishmonger's Cold Cloth",
+    "description": "You have deciphered The Fishmonger's Cold Cloth, a Ice Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Fishmonger's Cold Cloth, a Ice Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: A Frosted Window's Secret": {
+    "name": "Formula: A Frosted Window's Secret",
+    "description": "You have deciphered A Frosted Window's Secret, a Ice Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered A Frosted Window's Secret, a Ice Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Miller's Quiet Chill": {
+    "name": "Formula: The Miller's Quiet Chill",
+    "description": "You have deciphered The Miller's Quiet Chill, a Ice Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Miller's Quiet Chill, a Ice Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: White Heel upon the Step": {
+    "name": "Formula: White Heel upon the Step",
+    "description": "You have deciphered White Heel upon the Step, a Ice Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered White Heel upon the Step, a Ice Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: Winter's Borrowed Splint": {
+    "name": "Formula: Winter's Borrowed Splint",
+    "description": "You have deciphered Winter's Borrowed Splint, a Ice Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered Winter's Borrowed Splint, a Ice Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Scribe's Unshadowed Page": {
+    "name": "Formula: The Scribe's Unshadowed Page",
+    "description": "You have deciphered The Scribe's Unshadowed Page, a Light Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Scribe's Unshadowed Page, a Light Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: A Harbor Lamp Answered": {
+    "name": "Formula: A Harbor Lamp Answered",
+    "description": "You have deciphered A Harbor Lamp Answered, a Light Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered A Harbor Lamp Answered, a Light Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Glassworker's Revealing Edge": {
+    "name": "Formula: The Glassworker's Revealing Edge",
+    "description": "You have deciphered The Glassworker's Revealing Edge, a Light Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Glassworker's Revealing Edge, a Light Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: Starlight Beneath the Door": {
+    "name": "Formula: Starlight Beneath the Door",
+    "description": "You have deciphered Starlight Beneath the Door, a Light Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered Starlight Beneath the Door, a Light Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Noon Lance's Mercy": {
+    "name": "Formula: The Noon Lance's Mercy",
+    "description": "You have deciphered The Noon Lance's Mercy, a Light Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Noon Lance's Mercy, a Light Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Locksmith's Honest Witness": {
+    "name": "Formula: The Locksmith's Honest Witness",
+    "description": "You have deciphered The Locksmith's Honest Witness, a Metal Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Locksmith's Honest Witness, a Metal Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: Needles Gathered in a Bowl": {
+    "name": "Formula: Needles Gathered in a Bowl",
+    "description": "You have deciphered Needles Gathered in a Bowl, a Metal Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered Needles Gathered in a Bowl, a Metal Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Tinsmith's Gentle Seam": {
+    "name": "Formula: The Tinsmith's Gentle Seam",
+    "description": "You have deciphered The Tinsmith's Gentle Seam, a Metal Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Tinsmith's Gentle Seam, a Metal Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Coin That Stood on Edge": {
+    "name": "Formula: The Coin That Stood on Edge",
+    "description": "You have deciphered The Coin That Stood on Edge, a Metal Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Coin That Stood on Edge, a Metal Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: Iron Petals at the Wrist": {
+    "name": "Formula: Iron Petals at the Wrist",
+    "description": "You have deciphered Iron Petals at the Wrist, a Metal Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered Iron Petals at the Wrist, a Metal Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Gardener's Returning Tendril": {
+    "name": "Formula: The Gardener's Returning Tendril",
+    "description": "You have deciphered The Gardener's Returning Tendril, a Nature Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Gardener's Returning Tendril, a Nature Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: Thorns at the Orchard Gate": {
+    "name": "Formula: Thorns at the Orchard Gate",
+    "description": "You have deciphered Thorns at the Orchard Gate, a Nature Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered Thorns at the Orchard Gate, a Nature Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: A Leaf Turned toward Home": {
+    "name": "Formula: A Leaf Turned toward Home",
+    "description": "You have deciphered A Leaf Turned toward Home, a Nature Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered A Leaf Turned toward Home, a Nature Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: Rootwork under the Barrow": {
+    "name": "Formula: Rootwork under the Barrow",
+    "description": "You have deciphered Rootwork under the Barrow, a Nature Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered Rootwork under the Barrow, a Nature Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Hedge That Bowed Aside": {
+    "name": "Formula: The Hedge That Bowed Aside",
+    "description": "You have deciphered The Hedge That Bowed Aside, a Nature Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Hedge That Bowed Aside, a Nature Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Musician's Unbroken Note": {
+    "name": "Formula: The Musician's Unbroken Note",
+    "description": "You have deciphered The Musician's Unbroken Note, a Sound Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Musician's Unbroken Note, a Sound Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: A Knock through the Floorboards": {
+    "name": "Formula: A Knock through the Floorboards",
+    "description": "You have deciphered A Knock through the Floorboards, a Sound Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered A Knock through the Floorboards, a Sound Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Bellfounder's Hidden Crack": {
+    "name": "Formula: The Bellfounder's Hidden Crack",
+    "description": "You have deciphered The Bellfounder's Hidden Crack, a Sound Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Bellfounder's Hidden Crack, a Sound Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: Quiet around the Cradle": {
+    "name": "Formula: Quiet around the Cradle",
+    "description": "You have deciphered Quiet around the Cradle, a Sound Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered Quiet around the Cradle, a Sound Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Empty Hall Replies": {
+    "name": "Formula: The Empty Hall Replies",
+    "description": "You have deciphered The Empty Hall Replies, a Sound Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Empty Hall Replies, a Sound Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Potter's Centered Wheel": {
+    "name": "Formula: The Potter's Centered Wheel",
+    "description": "You have deciphered The Potter's Centered Wheel, a Gravity Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Potter's Centered Wheel, a Gravity Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: A Ladder's Second Foot": {
+    "name": "Formula: A Ladder's Second Foot",
+    "description": "You have deciphered A Ladder's Second Foot, a Gravity Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered A Ladder's Second Foot, a Gravity Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Porter's Unburdening": {
+    "name": "Formula: The Porter's Unburdening",
+    "description": "You have deciphered The Porter's Unburdening, a Gravity Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Porter's Unburdening, a Gravity Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Feather's Firm Descent": {
+    "name": "Formula: The Feather's Firm Descent",
+    "description": "You have deciphered The Feather's Firm Descent, a Gravity Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Feather's Firm Descent, a Gravity Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Courtyard's Heavy Hush": {
+    "name": "Formula: The Courtyard's Heavy Hush",
+    "description": "You have deciphered The Courtyard's Heavy Hush, a Gravity Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Courtyard's Heavy Hush, a Gravity Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Candle's Missing Shadow": {
+    "name": "Formula: The Candle's Missing Shadow",
+    "description": "You have deciphered The Candle's Missing Shadow, a Void Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Candle's Missing Shadow, a Void Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: A Spell's Loose Thread": {
+    "name": "Formula: A Spell's Loose Thread",
+    "description": "You have deciphered A Spell's Loose Thread, a Void Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered A Spell's Loose Thread, a Void Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Quiet between Two Wards": {
+    "name": "Formula: The Quiet between Two Wards",
+    "description": "You have deciphered The Quiet between Two Wards, a Void Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Quiet between Two Wards, a Void Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: Nightcloth across the Lens": {
+    "name": "Formula: Nightcloth across the Lens",
+    "description": "You have deciphered Nightcloth across the Lens, a Void Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered Nightcloth across the Lens, a Void Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Counterchord Unfinished": {
+    "name": "Formula: The Counterchord Unfinished",
+    "description": "You have deciphered The Counterchord Unfinished, a Void Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Counterchord Unfinished, a Void Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Medic's Steady Fingers": {
+    "name": "Formula: The Medic's Steady Fingers",
+    "description": "You have deciphered The Medic's Steady Fingers, a Healing Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Medic's Steady Fingers, a Healing Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: A Breath Counted Kindly": {
+    "name": "Formula: A Breath Counted Kindly",
+    "description": "You have deciphered A Breath Counted Kindly, a Healing Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered A Breath Counted Kindly, a Healing Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Stitch That Held": {
+    "name": "Formula: The Stitch That Held",
+    "description": "You have deciphered The Stitch That Held, a Healing Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Stitch That Held, a Healing Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: Warmth at the Broken Road": {
+    "name": "Formula: Warmth at the Broken Road",
+    "description": "You have deciphered Warmth at the Broken Road, a Healing Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered Warmth at the Broken Road, a Healing Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Nightwatcher's Second Hour": {
+    "name": "Formula: The Nightwatcher's Second Hour",
+    "description": "You have deciphered The Nightwatcher's Second Hour, a Healing Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Nightwatcher's Second Hour, a Healing Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Apron's Unburnt Hem": {
+    "name": "Formula: The Apron's Unburnt Hem",
+    "description": "You have deciphered The Apron's Unburnt Hem, a Enchantment Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Apron's Unburnt Hem, a Enchantment Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: A Cup That Remembers Warmth": {
+    "name": "Formula: A Cup That Remembers Warmth",
+    "description": "You have deciphered A Cup That Remembers Warmth, a Enchantment Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered A Cup That Remembers Warmth, a Enchantment Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Hinge's Quiet Promise": {
+    "name": "Formula: The Hinge's Quiet Promise",
+    "description": "You have deciphered The Hinge's Quiet Promise, a Enchantment Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Hinge's Quiet Promise, a Enchantment Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Worker's True Measure": {
+    "name": "Formula: The Worker's True Measure",
+    "description": "You have deciphered The Worker's True Measure, a Enchantment Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Worker's True Measure, a Enchantment Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Shield's Borrowed Resolve": {
+    "name": "Formula: The Shield's Borrowed Resolve",
+    "description": "You have deciphered The Shield's Borrowed Resolve, a Enchantment Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Shield's Borrowed Resolve, a Enchantment Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Errand Mote Returns": {
+    "name": "Formula: The Errand Mote Returns",
+    "description": "You have deciphered The Errand Mote Returns, a Summoning Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Errand Mote Returns, a Summoning Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: A Clay Hand at the Bench": {
+    "name": "Formula: A Clay Hand at the Bench",
+    "description": "You have deciphered A Clay Hand at the Bench, a Summoning Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered A Clay Hand at the Bench, a Summoning Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Lantern Beetle's Visit": {
+    "name": "Formula: The Lantern Beetle's Visit",
+    "description": "You have deciphered The Lantern Beetle's Visit, a Summoning Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Lantern Beetle's Visit, a Summoning Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Paper Warden's Stand": {
+    "name": "Formula: The Paper Warden's Stand",
+    "description": "You have deciphered The Paper Warden's Stand, a Summoning Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Paper Warden's Stand, a Summoning Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Last Decoy in the Lane": {
+    "name": "Formula: The Last Decoy in the Lane",
+    "description": "You have deciphered The Last Decoy in the Lane, a Summoning Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Last Decoy in the Lane, a Summoning Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Tailor's Uncut Pattern": {
+    "name": "Formula: The Tailor's Uncut Pattern",
+    "description": "You have deciphered The Tailor's Uncut Pattern, a Illusion Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Tailor's Uncut Pattern, a Illusion Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: A Map Drawn in the Air": {
+    "name": "Formula: A Map Drawn in the Air",
+    "description": "You have deciphered A Map Drawn in the Air, a Illusion Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered A Map Drawn in the Air, a Illusion Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Borrowed Crowd's Murmur": {
+    "name": "Formula: The Borrowed Crowd's Murmur",
+    "description": "You have deciphered The Borrowed Crowd's Murmur, a Illusion Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Borrowed Crowd's Murmur, a Illusion Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Wrong Door's Invitation": {
+    "name": "Formula: The Wrong Door's Invitation",
+    "description": "You have deciphered The Wrong Door's Invitation, a Illusion Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Wrong Door's Invitation, a Illusion Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: Afterimage on the Stair": {
+    "name": "Formula: Afterimage on the Stair",
+    "description": "You have deciphered Afterimage on the Stair, a Illusion Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered Afterimage on the Stair, a Illusion Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Cook's Unwelcome Hint": {
+    "name": "Formula: The Cook's Unwelcome Hint",
+    "description": "You have deciphered The Cook's Unwelcome Hint, a Divination Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Cook's Unwelcome Hint, a Divination Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: A Footstep Noticed Twice": {
+    "name": "Formula: A Footstep Noticed Twice",
+    "description": "You have deciphered A Footstep Noticed Twice, a Divination Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered A Footstep Noticed Twice, a Divination Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Missing Page's Neighbor": {
+    "name": "Formula: The Missing Page's Neighbor",
+    "description": "You have deciphered The Missing Page's Neighbor, a Divination Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Missing Page's Neighbor, a Divination Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Fork in Tomorrow's Path": {
+    "name": "Formula: The Fork in Tomorrow's Path",
+    "description": "You have deciphered The Fork in Tomorrow's Path, a Divination Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Fork in Tomorrow's Path, a Divination Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: An Echo at the Threshold": {
+    "name": "Formula: An Echo at the Threshold",
+    "description": "You have deciphered An Echo at the Threshold, a Divination Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered An Echo at the Threshold, a Divination Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Fold between Two Cups": {
+    "name": "Formula: The Fold between Two Cups",
+    "description": "You have deciphered The Fold between Two Cups, a Space Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Fold between Two Cups, a Space Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: A Thread through the Open Window": {
+    "name": "Formula: A Thread through the Open Window",
+    "description": "You have deciphered A Thread through the Open Window, a Space Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered A Thread through the Open Window, a Space Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Surveyor's Shorter String": {
+    "name": "Formula: The Surveyor's Shorter String",
+    "description": "You have deciphered The Surveyor's Shorter String, a Space Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Surveyor's Shorter String, a Space Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Step behind the Banner": {
+    "name": "Formula: The Step behind the Banner",
+    "description": "You have deciphered The Step behind the Banner, a Space Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Step behind the Banner, a Space Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Return Fold's Careful Knot": {
+    "name": "Formula: The Return Fold's Careful Knot",
+    "description": "You have deciphered The Return Fold's Careful Knot, a Space Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Return Fold's Careful Knot, a Space Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Hearthkeeper's Farewell": {
+    "name": "Formula: The Hearthkeeper's Farewell",
+    "description": "You have deciphered The Hearthkeeper's Farewell, a Soul Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Hearthkeeper's Farewell, a Soul Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Grave Tender's Lantern": {
+    "name": "Formula: The Grave Tender's Lantern",
+    "description": "You have deciphered The Grave Tender's Lantern, a Soul Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Grave Tender's Lantern, a Soul Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: A Bone Hand for the Lamp": {
+    "name": "Formula: A Bone Hand for the Lamp",
+    "description": "You have deciphered A Bone Hand for the Lamp, a Soul Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered A Bone Hand for the Lamp, a Soul Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: The Unborrowed Voice": {
+    "name": "Formula: The Unborrowed Voice",
+    "description": "You have deciphered The Unborrowed Voice, a Soul Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered The Unborrowed Voice, a Soul Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Formula: A Threshold Kept for the Living": {
+    "name": "Formula: A Threshold Kept for the Living",
+    "description": "You have deciphered A Threshold Kept for the Living, a Soul Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "traitNarrativeEffects": "You have deciphered A Threshold Kept for the Living, a Soul Magic working. You remember its method; practice and the conditions of casting still matter.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Summoned one": {
+    "name": "Summoned one",
+    "description": "You woke in another body with the memories of your previous life intact. So far, you alone know what happened to you.",
+    "traitNarrativeEffects": "Private origin. Preserve the player’s actual past-life memories and chosen present body. NPCs know only what they observe or learn. The origin itself grants no publicly known identity, automatic mastery or allegiance.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Traced Shore Record": {
+    "name": "Traced Shore Record",
+    "description": "A real shore report has connected your rescued identity and whereabouts to the people asking questions. It says nothing by itself about your memories or where you came from.",
+    "traitNarrativeEffects": "A real shore report has connected your rescued identity and whereabouts to the people asking questions. It says nothing by itself about your memories or where you came from.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
   }
 }

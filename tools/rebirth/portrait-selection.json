@@ -1,0 +1,38 @@
+{
+  "npcs": [
+    "Valkazathoth'dmir",
+    "Mihana Orihara",
+    "Reika Kurose",
+    "Kazunari Shiba"
+  ],
+  "portraits": {
+    "Valkazathoth'dmir": {
+      "file": "world-draft/npc portraits/Rebirth/Valkazathoth'dmir.png",
+      "sha256": "c9fd1fe3c5551eb715b0a88f151450bce422e2ed783a511840a422f7521201a9",
+      "method": "built-in image_gen",
+      "passes": 1,
+      "review": "Identity, adult anatomy, prop continuity and effects checked. Headroom is tighter than the guide target."
+    },
+    "Mihana Orihara": {
+      "file": "world-draft/npc portraits/Rebirth/Mihana Orihara.png",
+      "sha256": "3893e659642c42c7ac997f9695371131968aed84479b5f386a5caa87452fec8a",
+      "method": "built-in image_gen",
+      "passes": 1,
+      "review": "Identity, adult anatomy, prop continuity and effects checked. Headroom is tighter than the guide target."
+    },
+    "Reika Kurose": {
+      "file": "world-draft/npc portraits/Rebirth/Reika Kurose.png",
+      "sha256": "0de6c4f528e040873147a689afcee01a7de0f05aada5be55ebfa8b434d21b61f",
+      "method": "built-in image_gen",
+      "passes": 1,
+      "review": "Identity, adult anatomy, prop continuity and effects checked. Headroom is tighter than the guide target."
+    },
+    "Kazunari Shiba": {
+      "file": "world-draft/npc portraits/Rebirth/Kazunari Shiba.png",
+      "sha256": "0294e3ecd9f6284c8444c8cbf126c82cf0e16d741bd4d3cd5a95ec0789a17b17",
+      "method": "built-in image_gen",
+      "passes": 1,
+      "review": "Identity, adult anatomy, prop continuity and effects checked. Headroom is tighter than the guide target."
+    }
+  }
+}

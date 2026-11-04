@@ -8189,5 +8189,314 @@
       }
     ],
     "questStatement": "Yorina wants to compare the natural sheen of an Amberfin Eel or Blueglass Needlefish with her waterproof pigments. A useful specimen matters more than a dramatic hunting story."
+  },
+  "Rumor: A Living to Be Made": {
+    "name": "Rumor: A Living to Be Made",
+    "status": "hidden",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Mihana Orihara",
+    "questLocation": "Brookmeadow",
+    "questStatement": "Mihana says the mill yard sometimes needs hands. There is also an Adventurer’s Guild in the city, if that kind of work appeals. Other ways of making a life are worth asking about.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Find one real local opportunity or establish a practical place in the wider world.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "The participant actually learns the terms of a workable opportunity, agrees a real lodging arrangement, begins paid work or establishes a recurring local contact with an achievable next step. Hearing a name alone is insufficient; taking any particular job or joining the guild is unnecessary."
+    },
+    "questDesignBrief": "This journal suggestion is optional. Mihana can give directions to Haruho’s real mill work or the actual Glowhaven guild. Registration and licensure remain separate. No automatic accepted contract, assigned profession, property, badge or portal key. Work, study, lodging and relationships can each provide a foothold.",
+    "onCompleteEffects": [
+      {
+        "type": "player-experience",
+        "operator": "add",
+        "value": 60,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "The Sage’s Visitors": {
+    "name": "The Sage’s Visitors",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Kazunari Shiba",
+    "questLocation": "Brookmeadow",
+    "questStatement": "An Ardelis delegation says it has business with the Great Sage. Its questions have reached the village shore records.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Learn what the visitors are asking and decide how to respond.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "The participant actually hears the delegation’s inquiry, obtains a credible witnessed account or examines an authentic inquiry record, understands that the visitors sought shore traffic records and has made a real response, including a considered refusal. Guessing a secret summoning motive is insufficient."
+    },
+    "questDesignBrief": "Rebirth chapter. Its configured event or predecessor offers this undertaking; contact with the source alone is not permission to jump ahead. A diplomatic visit is real. Initially the delegation has no name or face for the missing subject. Its questions concern a date and broad coastal area. Keep Mihana and Kenta’s lives and limits. The player may observe, refuse, question or leave. An ordinary witness cannot disclose memories they never heard. Vladimir’s intervention is his own response to an intrusive inquiry.",
+    "onCompleteEffects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "A Name in the Shore Ledger"
+      },
+      {
+        "type": "player-experience",
+        "operator": "add",
+        "value": 80,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "A Name in the Shore Ledger": {
+    "name": "A Name in the Shore Ledger",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Reika Kurose",
+    "questLocation": "Brookmeadow",
+    "questStatement": "A copied shore entry may have passed beyond the village. Reika wants to establish who handled it before making an accusation.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Trace the copied entry and decide what to protect or disclose.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "The participant actually establishes a real step in the copied shore record’s custody through an examined record or a credible witness, and makes an informed choice about what to disclose or protect. A genuine effort that proves the lead false qualifies. Merely assuming the visitors know the player’s identity does not."
+    },
+    "questDesignBrief": "Rebirth chapter. Its configured event or predecessor offers this undertaking; contact with the source alone is not permission to jump ahead. Use Haruho’s real work and Reika’s investigation. A shore entry can identify the rescued person but does not prove reincarnation. Preserve a destroyed copy, protected witness or false lead as an actual outcome. Completion does not establish that the enemy received the information. The separate lead condition requires that actual disclosure.",
+    "onCompleteEffects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Carrier behind the Ledger"
+      },
+      {
+        "type": "player-experience",
+        "operator": "add",
+        "value": 100,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "The Carrier behind the Ledger": {
+    "name": "The Carrier behind the Ledger",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Reika Kurose",
+    "questLocation": "The Grand Sage's Court",
+    "questStatement": "Someone has been paying a local carrier to move unusual components. Reika can follow the work through witnesses and deliveries. Vladimir may have his own observations.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Establish a credible link between the carrier, the visiting delegation and the abandoned pump house.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "The participant obtains and checks independent evidence linking an actual intermediary to the Ardelis delegation and the Pinewater pump house. A witnessed meeting with corroboration, authenticated dispatch or checked delivery chain can qualify. Construct parts alone, an untested accusation or a secret never learned cannot."
+    },
+    "questDesignBrief": "Rebirth chapter. Its configured event or predecessor offers this undertaking; contact with the source alone is not permission to jump ahead. This route works after a fought ambush, an escape or no attack. The constructs know no employer and have no royal stamp or reporting channel. Reika provides an independent investigation if the player declines Vladimir. A voluntary Shadowspire visit can supply observations from Vladimir’s actual surveillance. Accepting an invitation, surrendering memories and recruiting him are never prerequisites.",
+    "onCompleteEffects": [
+      {
+        "type": "write-number",
+        "operator": "set",
+        "value": 6,
+        "key": "rbPhase"
+      },
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Pump House That Hummed"
+      },
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "At the Wandering Door"
+      },
+      {
+        "type": "player-experience",
+        "operator": "add",
+        "value": 180,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "At the Wandering Door": {
+    "name": "At the Wandering Door",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Reika Kurose",
+    "questLocation": "Shadowspire",
+    "questStatement": "Reika can pass a request for an audience to the reclusive wizard. His outer clearing offers a place to wait for an agreed visit.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Attend the agreed audience at Shadowspire’s outer clearing, or decline the invitation.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "The participant actually attends the arranged meeting with Vladimir at Shadowspire’s outer clearing and has an opportunity to ask about the old diagram, or explicitly declines this optional audience after understanding its terms. Merely traveling toward the tower is insufficient."
+    },
+    "questDesignBrief": "Rebirth chapter. Its configured event or predecessor offers this undertaking; contact with the source alone is not permission to jump ahead. An accepted request allows Vladimir to choose this meeting on his own terms. A decline completes this optional undertaking and leaves Reika’s relay investigation available. At the clearing he can discuss observations and offer guest access; the player must actually accept the key handover for its native grant. He gives no automatic training, rescue or party membership.",
+    "onCompleteEffects": []
+  },
+  "The Pump House That Hummed": {
+    "name": "The Pump House That Hummed",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Reika Kurose",
+    "questLocation": "Pinewater River",
+    "questStatement": "The disused pump house has received parts that do not belong to its old machinery. A delivery chain has made it worth investigating.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Investigate the field relay and stop its local use or secure enough evidence for lawful intervention.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "The participant actually investigates the Pinewater River - Disused Pump House, secures corroborated dispatch evidence, and either disables the local relay safely or carries out a real handover that brings an authorized response. Observation from outside, an unverified threat or merely accepting the job is insufficient."
+    },
+    "questDesignBrief": "Rebirth chapter. Its configured event or predecessor offers this undertaking; contact with the source alone is not permission to jump ahead. Offer reconnaissance, bargaining with a carrier, covert entry, technical work or contacting lawful help. No particular discipline is mandatory. The apparatus is a local relay and field-test component; it cannot mass-summon heroes. Its attendants can withdraw or surrender. Keep civilians out of a forced boss fight. Record what is actually disabled or secured. The native result gives the one evidence copy and next undertaking.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Relay Dispatch Copy",
+        "quantity": 1,
+        "target": "allPlayers"
+      },
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "A Second Receiving Station"
+      },
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 160,
+        "target": "allPlayers"
+      },
+      {
+        "type": "player-experience",
+        "operator": "add",
+        "value": 300,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "A Second Receiving Station": {
+    "name": "A Second Receiving Station",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Reika Kurose",
+    "questLocation": "The Grand Sage's Court",
+    "questStatement": "The relay records name a second receiving station inside Ardelis. Glowhaven can act on the local intrusion, but the next questions lie beyond its jurisdiction.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Bring the checked relay findings to the court or another credible informed authority and establish the next lead.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "The participant actually presents the checked relay findings to Reika or the Great Sage’s informed representative, with the evidence or a credible authenticated alternative, and learns that the second receiving station and next summoning preparations are in Ardelis. Owning a copy without a conversation is insufficient."
+    },
+    "questDesignBrief": "Rebirth chapter. Its configured event or predecessor offers this undertaking; contact with the source alone is not permission to jump ahead. Conclude the Glowhaven investigation and preserve its actual local consequences. The remaining lead points to future travel in Ardelis. Do not invent an already accessible Ardelis realm, launch the controlled rival’s attack, claim that the foreign program has ended or leave this undertaking perpetually incomplete. The player can continue ordinary play while preparations beyond the border remain unresolved.",
+    "onCompleteEffects": [
+      {
+        "type": "write-number",
+        "operator": "set",
+        "value": 7,
+        "key": "rbPhase"
+      },
+      {
+        "type": "write-boolean",
+        "operator": "set",
+        "value": true,
+        "key": "rbLocalConclusion"
+      },
+      {
+        "type": "player-experience",
+        "operator": "add",
+        "value": 120,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "A Carriage Late for Tea": {
+    "name": "A Carriage Late for Tea",
+    "status": "hidden",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "The Brass Usher",
+    "questLocation": "The Little Kingdom",
+    "questStatement": "The little model carriage has stopped beneath a painted bridge. The Brass Usher would like the tea delivery running again before Vladimir notices.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Find the jam and restore a safe run for the little model carriage.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "The player actually identifies the model carriage’s obstruction and restores one safe supervised run, using a feasible repair, careful cleaning or appropriate practical magic. Promising a repair or replacing the whole model by narration is insufficient."
+    },
+    "questDesignBrief": "The fault is a thread caught around a wheel, which has also loosened the stop pin. A careful nonmage can repair it. A magical fix must still address the actual thread and pin. Let curiosity about the model and the Usher’s exacting pride carry the scene. Vladimir’s tiny tea delivery is an optional household problem.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Teaching Scroll: The Clockmaker's Testing Spark",
+        "quantity": 1,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "Rain on the Wrong Roots": {
+    "name": "Rain on the Wrong Roots",
+    "status": "hidden",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "The Brass Usher",
+    "questLocation": "The Rainward Orchard",
+    "questStatement": "A reversed rain rail is flooding the young pots. The Brass Usher has moved the dry labels, but would welcome a second pair of hands.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Correct the rain rail or safely move the young plants and agree on a lasting practical fix.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "The player actually corrects the displaced rain rail or moves the affected pots to suitable shelter and makes a practical lasting arrangement with the Brass Usher. Harming the plants, merely stopping the rain briefly or promising to help is insufficient."
+    },
+    "questDesignBrief": "A loose ceramic collar has turned the rail. Observe the runoff, ask before changing Vladimir’s experiment, and let lifting, repair, Nature or other appropriate methods work. The plants are ordinary household property. The odd weather belongs to this experiment and does not change the global weather system.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Teaching Scroll: The Gardener's Returning Tendril",
+        "quantity": 1,
+        "target": "allPlayers"
+      }
+    ]
   }
 }

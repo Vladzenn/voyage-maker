@@ -2,6 +2,18 @@
 
 These notes carry context between desktop and web chats. They supplement the actual JSON and creation guides; newer explicit user instructions take precedence.
 
+## 5 November — Rebirth implementation and release boundary
+
+The author confirmed the current local Universal Fishing world with the 4 November Studio hotfix as the merge base. Implement the Rebirth opening, Glowhaven investigation, Shadowspire and eight pocket-realm destinations now. End the local investigation with checked relay evidence and a looming second summoning in Ardelis. The explorable Ardelis country, port layout and controlled rival's deployment remain for the later country stage. Preserve existing map pins, images, music, progression and Spider content.
+
+The delegation has a 200-turn minimum plus a real ordinary foothold and a calm town scene. Delay combat, expeditions and other urgent scenes. Personal interception supports multiplayer now, using the actual Summoned one bearer, corroborated disclosure, level 15 and a separate 60-turn lead delay. An unrelated strong spectator cannot qualify a weak target. Declining Vladimir's voluntary invitation leaves the independent court route available.
+
+Valkazathoth'dmir is Vladimir's canonical full name; preserve his immortality, psychic immunity and independence. Beastfae are a distinct rare ancestry; the author rejected Force/Intuition, so this build uses Empathy +1, Survival +2 and Health capacity +10. Preserve Mixed Ancestry form access and separate Fae Stature. New form totals are 32 Fae, 36 Beastfolk and 48 Beastfae.
+
+One hundred new scroll formulas use a shared registry template and exact native per-reader learning effects. Keep the original thirty settlement rules until a live multiplayer prototype supports migration. Local fixtures are not live semantic or scheduling verification. The level-20 mechanical gate on gh_exam_volunteer is the only edit to an existing trigger.
+
+Generate principal portraits once. Three official uploads succeeded. After Voyage rejected Vladimir's portrait with studio_media_failed, the author explicitly chose: **keep the generated image; the author will handle his upload later**. No replacement generation or rejected-image retry is authorized by that answer. The full [development record](../world-draft/Schools%20of%20magic%2C%20Rebirth!%20-%20Development%20Notes.md) covers mechanics, validation and manual checks.
+
 ## 4 November — Schools of magic, Rebirth! planning
 
 The official update name is **Schools of magic, Rebirth!** The author wants the reincarnated Brookmeadow opening at the top of the list and the public announcement. The player wakes in a different body with past-life memories intact and gains **Summoned one**. At the opening the player alone knows about the reincarnation. Place a few close contacts nearby for a classic isekai opening. Expand general lore and target about 100 more scrolls. The author’s port beside Brookmeadow supports semi-rural daily life.

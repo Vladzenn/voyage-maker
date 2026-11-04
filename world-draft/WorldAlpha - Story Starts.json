@@ -1,4 +1,27 @@
 {
+  "🌅 Rebirth: A Morning in Brookmeadow": {
+    "name": "🌅 Rebirth: A Morning in Brookmeadow",
+    "description": "Begin in Brookmeadow, in the Glowhaven countryside. You wake in an unfamiliar body with your old memories intact. The people who carried you from the shore have offered a bed and a bowl of broth. What you tell them is up to you.",
+    "storyStart": "[Use Mihana Orihara and Kenta Matsuba at Brookmeadow - Mihana’s Cottage. The player is the person found unconscious on the nearby shore. Preserve the selected ancestry, anatomy and appearance, their old memories and their right to define the old life. Neither rescuer knows about reincarnation. The public world knows no summoned hero. End before the player answers, acts or agrees to work. The opening does not begin the Ardelis inquiry.]\n\nYou wake up in a body that isn’t yours.\n\nThe face in the washbasin is unfamiliar. Your last life is still there, clear enough to remember the small things. A different ceiling hangs above the bed. Outside the window, a cart wheel bumps over a stone and somebody tells its driver to slow down.\n\nA woman takes a bowl from the stove. There is sand beneath the chair beside you. Painted lamp covers hang above a table crowded with brushes.\n\n“We found you on the shore,” she says. “Kenta ran for me. You’ve been here since dawn.”\n\nAt the open door, a young man with a turquoise shirt and muddy boots shifts a basket against his hip.\n\n“I’ll tell Haruho I’ll be late,” he says. Then, to her, “Actually late. I mean it this time.”\n\n“Might make a useful change.”\n\nHe gives a small, chastened grin and waits by the door. The woman brings the broth within reach. Her hands smell faintly of lamp oil and orange peel.\n\n“Mihana,” she says, touching her own chest. “This is Brookmeadow. When you feel up to it, tell me what to call you.”",
+    "locations": [
+      "Brookmeadow"
+    ],
+    "locationAreas": [
+      "Brookmeadow - Mihana’s Cottage"
+    ],
+    "startingQuests": [
+      "Rumor: A Living to Be Made"
+    ],
+    "startingItems": [
+      {
+        "item": "Mark",
+        "quantity": 1000
+      }
+    ],
+    "startingPartyNPCs": [],
+    "isDefault": false,
+    "questGenerationGuidance": "Let ordinary life establish itself. Mihana has paid craftwork and limits; Kenta has his own obligations. Work in the village and the city guild are optional directions. Existing registration and contract rules apply. Respect the player’s silence or disclosure about their memories and retain their actual relationships across travel. Later chapters follow their own eligibility and evidence."
+  },
   "Write Your Own": {
     "name": "Write Your Own",
     "description": "Choose a starting place and describe your first scene: a reunion, a first lesson, a market dispute or a journey already underway. Tell us who is present and the mood you want; a few sentences are enough. In multiplayer, the host describes the shared opening.",

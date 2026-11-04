@@ -38,5 +38,10 @@
     "name": "The Veiled Beyond",
     "initialKnown": false,
     "basicInfo": "A fog-shrouded spirit wilderness reached through the local Soul Torii in Akitsuhara. Towering trees, dark reeds, pale flowers and abandoned festival ways disappear into moving mist. Enormous half-seen shapes and borrowed voices make the landscape unsettling; inhabitants are not uniformly friendly or hostile. A dependable threshold leads back to Moonless Torii. Raised paths and a dry refuge permit cautious observation, while deeper approaches shelter real danger."
+  },
+  "Vladimir's Elsewhere": {
+    "name": "Vladimir's Elsewhere",
+    "initialKnown": false,
+    "basicInfo": "Vladimir’s private collection of impossible rooms and living gardens. Moving arcades connect stable destinations. Brass lanterns mark the walking route to the arrival gallery and its one fixed gate back to Shadowspire’s cellar."
   }
 }

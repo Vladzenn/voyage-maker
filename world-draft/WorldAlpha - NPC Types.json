@@ -1632,5 +1632,40 @@
     "vulnerabilities": [],
     "resistances": [],
     "immunities": []
+  },
+  "Magitech Proxy": {
+    "name": "Magitech Proxy",
+    "description": "A fabricated autonomous body of fitted ceramic and brass. Its specific design determines its voice, senses, task, weaknesses and power. A construct knows only what it has been given or learned. A household attendant and a disguised interceptor can share materials without sharing purpose.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Glassroot Hare": {
+    "name": "Glassroot Hare",
+    "description": "A small antlered rabbit with pale brown fur, dark eyes and translucent green horn tips. It browses around Glassroot Gardens and bolts from rough handling. Its curiosity is a household animal’s behavior, not permission to take it.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Driftglass Ray": {
+    "name": "Driftglass Ray",
+    "description": "A small ray-shaped garden animal with translucent blue fins and a pale spotted belly. It drifts through humid air near the pools, settling to drink. Sudden noise sends it beneath the roots.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Counterweight Practice Frame": {
+    "name": "Counterweight Practice Frame",
+    "description": "A padded brass practice construct with a rounded wooden shield and clearly visible joints. In Tilt Court it follows the agreed game or sparring rules. An inactive frame does not attack a passing visitor.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Relay Watch Frame": {
+    "name": "Relay Watch Frame",
+    "description": "A compact ceramic guard machine with a broad flat head, copper eyes and a grounding spike. One prepared controller gives it a limited patrol. Its location, level and actual order determine danger; merely finding an old frame does not activate it.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
   }
 }

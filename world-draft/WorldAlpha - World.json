@@ -86182,7 +86182,7 @@
         {
           "type": "action-text",
           "operator": "regex",
-          "value": "\\b([Ff]ish\\w*|[Aa]ngling|[Rr]eel\\w*|[Ll]ure|[Bb]ait\\w*|[Bb]obber|[Cc]ast.*[Ll]ine)\\b"
+          "value": "\\b([Ff]ish|[Aa]ngling|[Rr]eel|[Ll]ure|[Bb](ait|obber))\\w*|\\b([Cc]ast|[Ll]ower).*\\b(line|rod|hook)\\b"
         },
         {
           "type": "player-item",
@@ -86218,7 +86218,7 @@
         {
           "type": "action-text",
           "operator": "regex",
-          "value": "\\b([Ff]ish\\w*|[Aa]ngling|[Rr]eel\\w*|[Ll]ure|[Bb]ait\\w*|[Bb]obber|[Cc]ast.*[Ll]ine)\\b"
+          "value": "\\b([Ff]ish|[Aa]ngling|[Rr]eel|[Ll]ure|[Bb](ait|obber))\\w*|\\b([Cc]ast|[Ll]ower).*\\b(line|rod|hook)\\b"
         },
         {
           "type": "player-item",
@@ -86238,7 +86238,7 @@
         },
         {
           "type": "action",
-          "query": "There is actual physically reachable water in this scene that plausibly supports fish, or an established stocked fishing pond. Respect the actual fiction: a place name, a picture, a drinking vessel, an empty fountain, a cloud gap, solid unbroken ice, lava, or an uninhabitable pool supplies no fish. Do not invent a water body or its access. This applies in any realm, including newly created ones. The player actually makes a fresh rod-fishing cast here with their own real Angler’s Rod. Exclude discussion, shopping, old catches, attacks, handling an already hooked fish, and attempts to capture a named NPC, pet or companion. They use their reusable spinner or another real reusable lure, without spending a consumable bait portion."
+          "query": "There is actual physically reachable water in this scene that plausibly supports fish, or an established stocked fishing pond. Respect the actual fiction: a place name, a picture, a drinking vessel, an empty fountain, a cloud gap, solid unbroken ice, lava, or an uninhabitable pool supplies no fish. Do not invent a water body or its access. This applies in any realm, including newly created ones. The player actually casts or lowers a fresh line to fish here with their own real Angler’s Rod. Exclude discussion, shopping, old catches, attacks, handling an already hooked fish, and attempts to capture a named NPC, pet or companion. They use a reusable lure. Treat the rod’s built-in spinner as the default when they do not choose to spend bait."
         }
       ],
       "effects": [],
@@ -86252,7 +86252,7 @@
         {
           "type": "action-text",
           "operator": "regex",
-          "value": "\\b([Ff]ish\\w*|[Aa]ngling|[Rr]eel\\w*|[Ll]ure|[Bb]ait\\w*|[Bb]obber|[Cc]ast.*[Ll]ine)\\b"
+          "value": "\\b([Ff]ish|[Aa]ngling|[Rr]eel|[Ll]ure|[Bb](ait|obber))\\w*|\\b([Cc]ast|[Ll]ower).*\\b(line|rod|hook)\\b"
         },
         {
           "type": "player-item",
@@ -86273,7 +86273,7 @@
         },
         {
           "type": "action",
-          "query": "There is actual physically reachable water in this scene that plausibly supports fish, or an established stocked fishing pond. Respect the actual fiction: a place name, a picture, a drinking vessel, an empty fountain, a cloud gap, solid unbroken ice, lava, or an uninhabitable pool supplies no fish. Do not invent a water body or its access. This applies in any realm, including newly created ones. The player actually makes a fresh rod-fishing cast here with their own real Angler’s Rod. Exclude discussion, shopping, old catches, attacks, handling an already hooked fish, and attempts to capture a named NPC, pet or companion. They deliberately expend one Angler’s Bait Portion from their own inventory on this cast."
+          "query": "There is actual physically reachable water in this scene that plausibly supports fish, or an established stocked fishing pond. Respect the actual fiction: a place name, a picture, a drinking vessel, an empty fountain, a cloud gap, solid unbroken ice, lava, or an uninhabitable pool supplies no fish. Do not invent a water body or its access. This applies in any realm, including newly created ones. The player actually casts or lowers a fresh line to fish here with their own real Angler’s Rod. Exclude discussion, shopping, old catches, attacks, handling an already hooked fish, and attempts to capture a named NPC, pet or companion. They deliberately expend one Angler’s Bait Portion from their own inventory on this cast."
         }
       ],
       "effects": [],
@@ -86287,7 +86287,7 @@
         {
           "type": "action-text",
           "operator": "regex",
-          "value": "\\b([Ff]ish\\w*|[Aa]ngling|[Rr]eel\\w*|[Ll]ure|[Bb]ait\\w*|[Bb]obber|[Cc]ast.*[Ll]ine)\\b"
+          "value": "\\b([Ff]ish|[Aa]ngling|[Rr]eel|[Ll]ure|[Bb](ait|obber))\\w*|\\b([Cc]ast|[Ll]ower).*\\b(line|rod|hook)\\b"
         },
         {
           "type": "player-item",
@@ -86308,7 +86308,7 @@
         },
         {
           "type": "action",
-          "query": "There is actual physically reachable water in this scene that plausibly supports fish, or an established stocked fishing pond. Respect the actual fiction: a place name, a picture, a drinking vessel, an empty fountain, a cloud gap, solid unbroken ice, lava, or an uninhabitable pool supplies no fish. Do not invent a water body or its access. This applies in any realm, including newly created ones. The player actually makes a fresh rod-fishing cast here with their own real Angler’s Rod. Exclude discussion, shopping, old catches, attacks, handling an already hooked fish, and attempts to capture a named NPC, pet or companion. They actually expend one Angler’s Bait Portion on this committed cast; an aborted setup or hooked-fish handling action is insufficient."
+          "query": "There is actual physically reachable water in this scene that plausibly supports fish, or an established stocked fishing pond. Respect the actual fiction: a place name, a picture, a drinking vessel, an empty fountain, a cloud gap, solid unbroken ice, lava, or an uninhabitable pool supplies no fish. Do not invent a water body or its access. This applies in any realm, including newly created ones. The player actually casts or lowers a fresh line to fish here with their own real Angler’s Rod. Exclude discussion, shopping, old catches, attacks, handling an already hooked fish, and attempts to capture a named NPC, pet or companion. They actually expend one Angler’s Bait Portion on this committed cast; an aborted setup or hooked-fish handling action is insufficient."
         }
       ],
       "effects": [
@@ -86323,7 +86323,7 @@
           "instruction": "This genuine baited cast catches nothing; one bait portion was spent. Give a brief practical result without another item deduction, attack or invented injury."
         }
       ],
-      "script": "const area=String(check({type:'party-area'})||''),location=String(check({type:'party-location'})||'');\nconst realm=String(check({type:'party-realm'})||''),region=String(check({type:'party-region'})||'');\nconst realmCode=({\"Glowhaven\":\"g\",\"Drakenspire Mountains\":\"d\",\"Asterveil Sky Archipelago\":\"a\",\"Akitsuhara\":\"k\"})[realm]||'*';\nfunction waterType(text){\nif(/estuar|brackish|river mouth|tidal marsh/i.test(text))return 'e';\nif(/offshore|deepwater|open sea|open ocean/i.test(text))return 'd';\nif(/river|brook|stream|freshwater|lake|tarn|pond|creek|canal|snowmelt/i.test(text))return 'r';\nif(/harbou?r/i.test(text))return 'h';\nif(/\\bsea\\b|ocean|saltwater|coast|beach|reef|cove/i.test(text))return 's';\nreturn '';\n}\nconst hints={\"Pinewater River - Brookmeadow Ford\":\"r\",\"Pinewater River - River Bend\":\"r\",\"Saltmere - Village Landing\":\"h\",\"Saltmere - Shoreline Green\":\"s\",\"Whitecrest Harbor - Harbor Quay\":\"h\",\"Whitecrest Harbor - Passenger Landing\":\"h\",\"Driftstone Isle - Island Landing\":\"s\",\"Driftstone Isle - Rocky Shore\":\"s\",\"Pinewake Coast - Pineward Beach\":\"s\",\"Pinewake Coast - Tide Pools\":\"s\",\"The Gilded Albatross - Main Deck\":\"d\",\"Moonarch Isle - Pebble Landing\":\"s\",\"Moonarch Isle - Offshore Drop\":\"d\",\"Stillback Isle - Quiet Landing\":\"s\",\"Greenrush Estuary - Skiff Landing\":\"e\",\"Greenrush Estuary - Reedwalk\":\"e\",\"Gullwatch Reefs - Boat Shelf\":\"s\",\"Gullwatch Reefs - Tide Pools\":\"s\"};\nconst habitat=hints[area]||waterType(area+' '+location)||waterType(String(check({type:'action-text'})||''))||waterType(region)||(['d','a','k'].includes(realmCode)?'r':'u');\nconst zone=habitat==='r'||(habitat==='u'&&!/Harbor|Coast|Isles|Shoals|Reach|Bluffs|Marshes/.test(region))?'inland':'coast';\nconst weather=realm==='Glowhaven'?(storage.fshWeather?.[zone]?.kind||(zone==='inland'?'clear':'overcast')):'neutral';\nconst tick=Number(check({type:'game-tick'}))||0;if(!storage.fshCasts)storage.fshCasts={};if(tick<=0||storage.fshCasts.bait===tick)skip=true;else{storage.fshCasts.bait=tick;if(habitat==='d'&&weather==='storm'){effects.length=0;effects.push({type:'story',instruction:'The exposed water is too rough for this cast. Keep the bait and show the option to wait safely; grant no catch.'})}}"
+      "script": "const area=String(check({type:'party-area'})||''),location=String(check({type:'party-location'})||'');\nconst realm=String(check({type:'party-realm'})||''),region=String(check({type:'party-region'})||'');\nconst realmCode=({\"Glowhaven\":\"g\",\"Drakenspire Mountains\":\"d\",\"Asterveil Sky Archipelago\":\"a\",\"Akitsuhara\":\"k\"})[realm]||'*';\nfunction waterType(text){\nif(/estuar|brackish|river mouth|tidal marsh/i.test(text))return 'e';\nif(/offshore|deepwater|open sea|open ocean/i.test(text))return 'd';\nif(/river|brook|stream|freshwater|lake|tarn|pond|creek|canal|snowmelt/i.test(text))return 'r';\nif(/harbou?r/i.test(text))return 'h';\nif(/\\bsea\\b|ocean|saltwater|coast|beach|reef|cove/i.test(text))return 's';\nreturn '';\n}\nconst hints={\"Pinewater River - Brookmeadow Ford\":\"r\",\"Pinewater River - River Bend\":\"r\",\"Saltmere - Village Landing\":\"h\",\"Saltmere - Shoreline Green\":\"s\",\"Whitecrest Harbor - Harbor Quay\":\"h\",\"Whitecrest Harbor - Passenger Landing\":\"h\",\"Driftstone Isle - Island Landing\":\"s\",\"Driftstone Isle - Rocky Shore\":\"s\",\"Pinewake Coast - Pineward Beach\":\"s\",\"Pinewake Coast - Tide Pools\":\"s\",\"The Gilded Albatross - Main Deck\":\"d\",\"Moonarch Isle - Pebble Landing\":\"s\",\"Moonarch Isle - Offshore Drop\":\"d\",\"Stillback Isle - Quiet Landing\":\"s\",\"Greenrush Estuary - Skiff Landing\":\"e\",\"Greenrush Estuary - Reedwalk\":\"e\",\"Gullwatch Reefs - Boat Shelf\":\"s\",\"Gullwatch Reefs - Tide Pools\":\"s\"};\nconst habitat=hints[area]||waterType(area+' '+location)||waterType(String(check({type:'action-text'})||''))||waterType(region)||(['d','a','k'].includes(realmCode)?'r':'u');\nconst zone=habitat==='r'||(habitat==='u'&&!/Harbor|Coast|Isles|Shoals|Reach|Bluffs|Marshes/.test(region))?'inland':'coast';\nconst weather=realm==='Glowhaven'?(storage.fshWeather?.[zone]?.kind||(zone==='inland'?'clear':'overcast')):'neutral';\nconst tick=Number(check({type:'game-tick'}))||0;\nif(!storage.fshCasts||typeof storage.fshCasts!=='object')storage.fshCasts={};\nif(tick<=0||storage.fshCasts.baitMiss===tick){\nskip=true;\n}else{\nstorage.fshCasts.baitMiss=tick;\nif(habitat==='d'&&weather==='storm'){\neffects.length=0;\neffects.push({type:'story',instruction:'The exposed water is too rough for this cast. Keep the bait and show the option to wait safely; grant no catch.'});\n}\n}"
     },
     "fsh_rare_land": {
       "name": "fsh_rare_land",

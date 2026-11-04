@@ -10,6 +10,7 @@ Sometimes an adventure needs a quieter afternoon. Bring a rod, find a good stret
 - Choose between reusable lures and consumable bait. Different waters, weather and bait choices influence what you might hook.
 - Find rods, floats, spinners, line, creels and other useful tackle. An optional Fishing Starter Kit is also available during character creation.
 - Discover different fish in Glowhaven, Drakenspire, Asterveil and Akitsuhara, from mountain char and cloudscale carp to elusive koi. Unfamiliar waters can hold their own surprises too.
+- Cast your rod or lower your hook to start fishing. When two party members use bait on the same turn, a miss and a catch can resolve independently.
 
 ### 🌦️ Watch the Water
 

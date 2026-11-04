@@ -78,6 +78,19 @@ f.s.tick=40;f.run('fsh_weather');for(const z of ['coast','inland'])ck(f.s.storag
 f=allow(fixture(),'fsh_cast_lure');f.run('fsh_cast_lure');ck(catches(f)===1&&f.s.players.Alice.items['Angler’s Bait Portion']===3,'One ordinary lure catch, no bait spent');ck(f.s.storage.fshRecords['Pinewater Perch'].best===12,'Measurement in records');ck(!f.run('fsh_cast_lure').length&&catches(f)===1,'Same turn retry cannot duplicate catch');
 f=allow(fixture(),'fsh_cast_bait');f.run('fsh_cast_bait');ck(catches(f)===1&&f.s.players.Alice.items['Angler’s Bait Portion']===2,'Successful baited cast consumes exactly one');
 f=allow(fixture({players:{Alice:player({outcome:'failure'})}}),'fsh_bait_miss');f.run('fsh_bait_miss');ck(catches(f)===0&&f.s.players.Alice.items['Angler’s Bait Portion']===2,'Failed real baited cast spends bait, no consolation fish');f.run('fsh_bait_miss');ck(f.s.players.Alice.items['Angler’s Bait Portion']===2,'No retry bait double-charge');
+for(const text of ['I cast my rod into the lake.','I lower my hook into the pond.']){
+ const cases=[['fsh_basics','success'],['fsh_cast_lure','success'],['fsh_cast_bait','success'],['fsh_bait_miss','failure']];
+ for(const [id,outcome]of cases){
+  f=allow(fixture({text,players:{Alice:player({skills:{},outcome})}}),id);
+  ck(f.run(id).length>0,id+' accepts '+text);
+ }
+}
+for(const order of [['fsh_cast_bait','fsh_bait_miss'],['fsh_bait_miss','fsh_cast_bait']]){
+ f=allow(fixture({players:{Alice:player(),Bob:player({outcome:'failure'})}}),...order);
+ for(const id of [...order,...order])f.run(id);
+ ck(catches(f,'Alice')===1&&catches(f,'Bob')===0,'Same-turn bait outcomes settle independently in '+order.join(', '));
+ for(const name of ['Alice','Bob'])ck(f.s.players[name].items['Angler’s Bait Portion']===2,name+' spends exactly one bait portion');
+}
 f=fixture();f.run('fsh_cast_lure');ck(catches(f)===0,'Discussing fishing does not qualify');
 // Semantic false is supplied here: these fixtures do not prove NLP recognition.
 f=fixture({location:'Phoenix Wing Academy',area:'Phoenix Wing Academy - Lecture Hall'});f.s.players.Alice.skills={};f.run('fsh_cast_lure');f.run('fsh_basics');ck(catches(f)===0&&!f.s.players.Alice.skills.Fishing,'Rejected no-water scene grants nothing');
@@ -89,6 +102,17 @@ f=allow(fixture({players:{Alice:player({skills:{}})}}),'fsh_basics');f.run('fsh_
 f=fixture({players:{Alice:player({items:{}}),Bob:player()}});f.s.players.Alice.semantic.add('fsh_cast_lure');f.run('fsh_cast_lure');ck(catches(f,'Alice')===0&&catches(f,'Bob')===0,'Cannot borrow a spectator’s gear or grant them a catch');
 f=fixture({players:{Alice:player(),Bob:player()}});f.s.players.Alice.semantic.add('fsh_cast_bait');f.run('fsh_cast_bait');ck(catches(f,'Alice')===1&&catches(f,'Bob')===0&&f.s.players.Bob.items['Angler’s Bait Portion']===3,'One angler never consumes spectator bait');
 f=allow(fixture({players:{Alice:player(),Bob:player()}}),'fsh_cast_lure');f.run('fsh_cast_lure');ck(catches(f,'Alice')===1&&catches(f,'Bob')===1,'Two qualifying anglers each receive their local shoal catch');
+f=allow(fixture({players:{Alice:player(),Bob:player()},rng:()=>0.99999}),'fsh_cast_lure');
+f.run('fsh_cast_lure');
+const sharedHook=f.s.storage.fshHook;
+ck(Object.values(f.s.players).every(p=>p.traits.includes('Rare Fish on the Line')),'One rare roll hooks both qualifying anglers');
+f.s.tick++;
+f.s.players.Alice.semantic.add('fsh_rare_release');
+f.run('fsh_rare_release');
+ck(!f.s.players.Alice.traits.length&&f.s.players.Bob.traits.includes('Rare Fish on the Line')&&f.s.storage.fshHook===sharedHook,'Releasing one line preserves the other angler’s hook');
+f.s.players.Bob.semantic.add('fsh_rare_land');
+f.run('fsh_rare_land');
+ck(catches(f,'Alice')===0&&f.s.players.Bob.items[sharedHook.fish]===1&&!f.s.players.Bob.traits.length,'Remaining angler lands the stored fish once');
 function hooked(){const a=allow(fixture({rng:()=>0.99999}),'fsh_cast_lure');a.run('fsh_cast_lure');return a}
 f=hooked();ck(catches(f)===0&&f.s.players.Alice.traits.includes('Rare Fish on the Line'),'Rare hook is not an inventory grant');const chosen=f.s.storage.fshHook.fish;f.s.tick++;allow(f,'fsh_rare_land');f.run('fsh_rare_land');ck(f.s.players.Alice.items[chosen]===1&&!f.s.players.Alice.traits.includes('Rare Fish on the Line'),'Actual handling lands the exact saved species');f.run('fsh_rare_land');ck(catches(f)===1,'Landing cannot repeat');f.run('fsh_weather');ck(!f.s.storage.fshHook,'Finished hook state swept when no holders remain');
 f=hooked();f.s.tick++;allow(f,'fsh_rare_release');f.run('fsh_rare_release');ck(catches(f)===0&&!f.s.players.Alice.traits.length,'Voluntary release gives no fish');

@@ -19,21 +19,38 @@ def apply(w):
     # Cheap lexical prefilter only; the native semantic condition judges actual
     # fishing, water/ownership/feasibility and mode. Never parse an AI Boolean
     # out of script-side raw action text.
-    intent={'type':'action-text','operator':'regex','value':r'\b([Ff]ish\w*|[Aa]ngling|[Rr]eel\w*|[Ll]ure|[Bb]ait\w*|[Bb]obber|[Cc]ast.*[Ll]ine)\b'}
+    intent={
+        'type':'action-text',
+        'operator':'regex',
+        'value':r'\b([Ff]ish|[Aa]ngling|[Rr]eel|[Ll]ure|[Bb](ait|obber))\w*|\b([Cc]ast|[Ll]ower).*\b(line|rod|hook)\b',
+    }
     rod={'type':'player-item','item':'Angler’s Rod','operator':'greaterThan','value':0}
     bait={'type':'player-item','item':'Angler’s Bait Portion','operator':'greaterThan','value':0}
     water='There is actual physically reachable water in this scene that plausibly supports fish, or an established stocked fishing pond. Respect the actual fiction: a place name, a picture, a drinking vessel, an empty fountain, a cloud gap, solid unbroken ice, lava, or an uninhabitable pool supplies no fish. Do not invent a water body or its access. This applies in any realm, including newly created ones. '
-    casting=water+'The player actually makes a fresh rod-fishing cast here with their own real Angler’s Rod. Exclude discussion, shopping, old catches, attacks, handling an already hooked fish, and attempts to capture a named NPC, pet or companion. '
+    casting=water+'The player actually casts or lowers a fresh line to fish here with their own real Angler’s Rod. Exclude discussion, shopping, old catches, attacks, handling an already hooked fish, and attempts to capture a named NPC, pet or companion. '
     t['fsh_basics']['conditions']=[intent,rod,{'type':'skill-value','skill':'Fishing','operator':'equals','value':0},{'type':'action','query':water+'The player actually rigs and practices their first cast with that rod, or receives a real introductory angling lesson beside the water. Mere possession, intentions and watching another angler do not qualify.'}]
     t['fsh_basics'].pop('script',None)
     context=(HERE/'context.js').read_text(encoding='utf-8').replace('__HINTS__',js(SITES)).replace('__REALMS__',js(REALM_CODES))
     fish=runtime_fish()
     for baited in [False,True]:
         name='fsh_cast_bait' if baited else 'fsh_cast_lure'
-        t[name]['conditions']=[intent,rod,bait if baited else {'type':'player-traits','operator':'notContains','value':'Rare Fish on the Line'},{'type':'action-success-level','operator':'greaterThanOrEqual','value':'mixed results'},{'type':'action','query':casting+('They deliberately expend one Angler’s Bait Portion from their own inventory on this cast.' if baited else 'They use their reusable spinner or another real reusable lure, without spending a consumable bait portion.')}]
+        t[name]['conditions']=[intent,rod,bait if baited else {'type':'player-traits','operator':'notContains','value':'Rare Fish on the Line'},{'type':'action-success-level','operator':'greaterThanOrEqual','value':'mixed results'},{'type':'action','query':casting+('They deliberately expend one Angler’s Bait Portion from their own inventory on this cast.' if baited else 'They use a reusable lure. Treat the rod’s built-in spinner as the default when they do not choose to spend bait.')}]
         t[name]['script']=compact_script((HERE/'cast.js').read_text(encoding='utf-8').replace('__FISH__',js(fish)).replace('__CONTEXT__',context).replace('__BAITED__',js(baited)))
     t['fsh_bait_miss']['conditions']=[intent,rod,bait,{'type':'action-success-level','operator':'lessThan','value':'mixed results'},{'type':'action','query':casting+'They actually expend one Angler’s Bait Portion on this committed cast; an aborted setup or hooked-fish handling action is insufficient.'}]
-    t['fsh_bait_miss']['script']=compact_script(context+"\nconst tick=Number(check({type:'game-tick'}))||0;if(!storage.fshCasts)storage.fshCasts={};if(tick<=0||storage.fshCasts.bait===tick)skip=true;else{storage.fshCasts.bait=tick;if(habitat==='d'&&weather==='storm'){effects.length=0;effects.push({type:'story',instruction:'The exposed water is too rough for this cast. Keep the bait and show the option to wait safely; grant no catch.'})}}")
+    # Success and failure can target different anglers on the same turn.
+    t['fsh_bait_miss']['script']=compact_script(context+"""
+const tick=Number(check({type:'game-tick'}))||0;
+if(!storage.fshCasts||typeof storage.fshCasts!=='object')storage.fshCasts={};
+if(tick<=0||storage.fshCasts.baitMiss===tick){
+    skip=true;
+}else{
+    storage.fshCasts.baitMiss=tick;
+    if(habitat==='d'&&weather==='storm'){
+        effects.length=0;
+        effects.push({type:'story',instruction:'The exposed water is too rough for this cast. Keep the bait and show the option to wait safely; grant no catch.'});
+    }
+}
+""")
     rare=[r[0] for r in fish if r[2]==2]
     for mode in ['land','miss','release','cleanup']:
         name='fsh_rare_'+mode

@@ -1,7 +1,7 @@
 {
   "status": "local-checks-passed",
   "latestStudioExport": "366606e8-3528-434f-80b6-fef091104a73",
-  "fullWorldSHA256": "05cced9382459dc8b77405d796fb5d9ae001bbdfbbffabc0c801e0ffdc5bd3d1",
+  "fullWorldSHA256": "1339b47d9a4201d1da23e8ea648b4fe6591ea37f01b82b48bf6687060ba7a1a1",
   "npcCount": 397,
   "itemCount": 546,
   "questCount": 242,
@@ -24,7 +24,7 @@
     "crucible": 2260,
     "oni": 5017,
     "glowhavenExpansion": 2521,
-    "fishing": 1793,
+    "fishing": 1853,
     "generatorReproduction": 1
   },
   "nativeEngineOrSemanticRecognitionTested": false,
@@ -36,5 +36,15 @@
     "completionAndRewardsUnchanged": true
   },
   "followUpScopeProof": "tools/fishing/universal-review.json",
-  "delivery": "output/fishing-2026-11-04/The Schools of Magic, Arise! - Universal Fishing.json"
+  "delivery": "output/fishing-2026-11-04/The Schools of Magic, Arise! - Universal Fishing.json",
+  "castFollowUp": {
+    "triggerKeys": [
+      "fsh_bait_miss",
+      "fsh_basics",
+      "fsh_cast_bait",
+      "fsh_cast_lure"
+    ],
+    "baitOutcomesTestedInBothOrders": true,
+    "sharedRareHookTestedLocally": true
+  }
 }

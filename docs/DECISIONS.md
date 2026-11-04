@@ -2,6 +2,14 @@
 
 These notes carry context between desktop and web chats. They supplement the actual JSON and creation guides; newer explicit user instructions take precedence.
 
+## 4 November — Schools of magic, Rebirth! planning
+
+The official update name is **Schools of magic, Rebirth!** The author wants the reincarnated Brookmeadow opening at the top of the list and the public announcement. The player wakes in a different body with past-life memories intact and gains **Summoned one**. At the opening the player alone knows about the reincarnation. Place a few close contacts nearby for a classic isekai opening. Expand general lore and target about 100 more scrolls. The author’s port beside Brookmeadow supports semi-rural daily life.
+
+Ardelis tried to summon a hero for its war after independent Glowhaven refused cooperation. The ritual sent the player to another region. The court used a diagram drawn by its former mage, provisionally **Valkazathoth'dmir**, called **Vladimir**. His power is comparable to a great Glowhaven founder and seldom recognized. He can mentor or watch over the player. Ardelis paladins may eventually try to capture the summoned person for soul study. Ardelis develops a separate breakthrough regardless of capture and sends a stronger, mind-controlled reincarnate into Glowhaven as a weapons test. Their ordinary disposition is neutral. Their origin is an alternate Earth without magic, with the connection to the player’s original world open.
+
+This is a planning brief. Chapter titles, opening contacts and their roles, the exact breakthrough, later outcomes, level gates, and runtime approach are proposals. See the [planning brief](../world-draft/authoring/plans/Schools%20of%20magic%2C%20Rebirth!%20-%20Planning%20Brief.md) for reference findings and validation targets.
+
 ## 4 November — universal fishing with regional catches
 
 The author requests simple, reliable fishing in suitable waters across main and future realms. Reachable, plausibly fish-bearing water is judged by a declared native semantic condition; location names and images never create water. Existing exact grounds are habitat hints, not access requirements. Main realms have small regional freshwater pools; unfamiliar realms use finite shared species automatically. This does not promise fish in every vessel, fountain, ice sheet or dungeon pool. Actual access, danger and inhabitants still apply. Retain one Fishing skill, the existing tackle/rare-hook controller and modest species values; no per-realm quest or bootstrap registry.

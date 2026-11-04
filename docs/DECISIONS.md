@@ -14,6 +14,8 @@ In the latest author proposal, the player wakes in bed after being found unconsc
 
 The author suggests giving the cloaked constructs limited knowledge and avoiding traces that point to or report back to Ardelis. The current proposal does both. The exact Rebirth start grants Summoned one and the ambush checks it mechanically, with evidence and chapter gates determining when the court can act. Keep proof of Ardelis’s role independent of the constructs. The trigger audit is a local planning check.
 
+The author approved including a native level-20 gate for `gh_exam_volunteer` and a general optimization review in Rebirth. Preserve the volunteer’s personal eligibility, actual acceptance, the existing quest state and Spider guard, and the separate student route. Compare static scene eligibility, recurring scripts and Studio limits, then verify affected gameplay in Voyage. The in-memory candidate saved one estimated semantic check in each of 24 local scenarios. This is an approved implementation item for the Rebirth build.
+
 This is a planning brief. Chapter titles, opening contacts and their roles, the exact breakthrough, later outcomes, level gates, and runtime approach are proposals. See the [planning brief](../world-draft/authoring/plans/Schools%20of%20magic%2C%20Rebirth!%20-%20Planning%20Brief.md) for reference findings and validation targets.
 
 ## 4 November — universal fishing with regional catches

@@ -8,6 +8,8 @@ The official update name is **Schools of magic, Rebirth!** The author wants the 
 
 Ardelis tried to summon a hero for its war after independent Glowhaven refused cooperation. The ritual sent the player to another region. The court used a diagram drawn by its former mage, provisionally **Valkazathoth'dmir**, called **Vladimir**. His power is comparable to a great Glowhaven founder and seldom recognized. He can mentor or watch over the player. Ardelis paladins may eventually try to capture the summoned person for soul study. Ardelis develops a separate breakthrough regardless of capture and sends a stronger, mind-controlled reincarnate into Glowhaven as a weapons test. Their ordinary disposition is neutral. Their origin is an alternate Earth without magic, with the connection to the player’s original world open.
 
+The author clarified that the hunt begins well into the story. Give the player an ordinary first act. Ardelis starts with no identity for the missing summoned person. A later regional inquiry can precede any targeted action, and pursuit requires a credible personal lead.
+
 This is a planning brief. Chapter titles, opening contacts and their roles, the exact breakthrough, later outcomes, level gates, and runtime approach are proposals. See the [planning brief](../world-draft/authoring/plans/Schools%20of%20magic%2C%20Rebirth!%20-%20Planning%20Brief.md) for reference findings and validation targets.
 
 ## 4 November — universal fishing with regional catches

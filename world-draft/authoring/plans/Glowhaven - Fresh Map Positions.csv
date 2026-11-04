@@ -1,0 +1,83 @@
+﻿ID,Tile,Region,Location,Local X,Local Y,Across percent,Down percent,Drawing group
+GH01,A1,Northwest District,The Winding Lowlands,19,-2,13.8,13.0,Landscape settlement
+GH02,A1,Northwest District,Greywatch Keep,-31,-21,3.8,17.75,Small ruin
+GH03,A1,Northwest District,Moonwhisker Emporium,35,-28,17.0,19.5,Shop
+GH04,A1,Northwest District,Stargarden Manor,48,-28,19.6,19.5,Estate
+GH05,A1,Northwest District,The Emberfox Hot Spring,-21,-43,5.800000000000001,23.25,Rural building
+GH06,A1,Northwest District,Phoenix Wing Academy,25,-43,15.0,23.25,Campus
+GH07,B1,Evertree District,Evertree Base,-27,-7,24.6,14.250000000000002,Primary landmark
+GH08,B1,Evertree District,Sage's Spire,-12,-7,27.6,14.250000000000002,Secondary tower
+GH09,B1,Evertree District,The Grand Sage's Court,-21,-14,25.8,16.0,Major complex
+GH10,B1,Evertree District,Briarcrest Manor,49,-22,39.8,18.0,Estate
+GH11,B1,Evertree District,The Gilded Griffin,34,-24,36.8,18.5,Shop
+GH12,B1,Evertree District,Cloud District,13,-27,32.6,19.25,Neighborhood
+GH13,B1,Evertree District,The Magistrate's Hall,-31,-30,23.8,20.0,Civic hall
+GH14,B1,Evertree District,Rune and Raven's,-43,-33,21.4,20.75,Shop
+GH15,B1,Evertree District,House Goldbarrow Estate,35,-34,37.0,21.000000000000004,Estate
+GH16,B1,Evertree District,The Grand Ascent,-8,-36,28.4,21.5,Street structure
+GH17,B1,Evertree District,The Arcane Emporium,-24,-38,25.2,22.0,Commercial hall
+GH18,B1,Evertree District,Bramble & Bottle,19,-38,33.8,22.0,Shop
+GH19,B1,Evertree District,The Wandering Quill,9,-40,31.8,22.5,Shop
+GH20,C1,Harbor District,Clovermead,24,12,54.8,9.5,Village
+GH21,C1,Harbor District,Pinewake Coast,-23,-2,45.4,13.0,Landscape
+GH22,C1,Harbor District,Beaconrest Lighthouse,42,-10,58.4,15.0,Small tower
+GH23,C1,Harbor District,Rosetimber Suburbs,-21,-28,45.8,19.5,Neighborhood
+GH24,C1,Harbor District,Whitecrest Harbor,16,-33,53.2,20.75,Waterfront
+GH25,C1,Harbor District,Hydra Head Academy,-29,-41,44.2,22.749999999999996,Campus
+GH26,D1,Whitecrest Isles,Wraith Island,-30,27,64.0,5.75,Prison island
+GH27,D1,Whitecrest Isles,Driftstone Isle,19,0,73.8,12.5,Inhabited island
+GH28,D1,Whitecrest Isles,Saltmere,-32,-19,63.6,17.25,Island village
+GH29,E1,Bluecoil Reach,Bluecoil Rest,7,13,91.4,9.25,Reef habitat
+GH30,E1,Bluecoil Reach,The Gilded Albatross,-33,-35,83.4,21.25,Ship
+GH31,A2,Southwest District,West City Gate,-11,38,7.8,28.000000000000004,Gate
+GH32,A2,Southwest District,Wayfarer's Goods,47,33,19.4,29.25,Shop
+GH33,A2,Southwest District,The Golden Ladle,44,21,18.8,32.25,Shop or eatery
+GH34,A2,Southwest District,West Glowhaven Woods,-38,13,2.4,34.25,Woodland
+GH35,A2,Southwest District,Gryffin Tail Academy,26,11,15.2,34.75,Campus
+GH36,A2,Southwest District,West Greyfield,29,-25,15.8,43.75,Poor neighborhood
+GH37,A2,Southwest District,Hermit's hut,-26,-50,4.8,50.0,Rural hut
+GH38,B2,Artisan Quarter,City Guard Headquarters,-20,42,26.0,27.0,Civic hall
+GH39,B2,Artisan Quarter,The Farmer's Exchange,22,42,34.4,27.0,Market hall or yard
+GH40,B2,Artisan Quarter,The Eternal Crucible,47,42,39.4,27.0,Major arena
+GH41,B2,Artisan Quarter,Four Sages Bazaar,11,36,32.2,28.500000000000004,Primary civic space
+GH42,B2,Artisan Quarter,Merchant's Row,44,34,38.8,28.999999999999996,Commercial street
+GH43,B2,Artisan Quarter,Violet Thread,-8,23,28.4,31.75,Shop
+GH44,B2,Artisan Quarter,The Everlight Public Library,-29,21,24.2,32.25,Civic hall
+GH45,B2,Artisan Quarter,Adventurer's Guild - Glowhaven Branch,45,21,39.0,32.25,Public hall
+GH46,B2,Artisan Quarter,The Perfumed Rose,7,19,31.4,32.75,Shop
+GH47,B2,Artisan Quarter,Roseberry Inn,-11,11,27.8,34.75,Inn
+GH48,B2,Artisan Quarter,The Carpenter's Measure,-46,2,20.8,37.0,Workshop
+GH49,B2,Artisan Quarter,The Grand Approach,37,2,37.4,37.0,Street structure
+GH50,B2,Artisan Quarter,The Silver Anvil,-28,0,24.4,37.5,Workshop
+GH51,B2,Artisan Quarter,Blackstone Smithy,-8,-3,28.4,38.25,Workshop
+GH52,B2,Artisan Quarter,Hide & Hammer,-26,-16,24.8,41.5,Workshop
+GH53,B2,Artisan Quarter,East Greyfield,27,-39,35.4,47.25,Poor neighborhood
+GH54,C2,Southeast District,Crooked Tankard,-32,43,43.60000000000001,26.75,Inn or tavern
+GH55,C2,Southeast District,East City Gate,27,42,55.4,27.0,Gate
+GH56,C2,Southeast District,Eastbloom Residences,20,29,54.0,30.25,Neighborhood
+GH57,C2,Southeast District,The Compassmaker,-24,25,45.199999999999996,31.25,Workshop
+GH58,C2,Southeast District,Willowbend Residential District,-40,13,42.0,34.25,Neighborhood
+GH59,C2,Southeast District,Dragon Hoard Academy,9,13,51.8,34.25,Campus
+GH60,C2,Southeast District,The Jade Cup Teahouse,-31,-2,43.8,38.0,Shop or eatery
+GH61,C2,Southeast District,Pebblewick,42,-6,58.4,39.0,Coastal town
+GH62,C2,Southeast District,Main City Gate,-40,-28,42.0,44.5,Gate
+GH63,D2,Crescent Coast,Seabreeze Inn,-41,-3,61.8,38.25,Inn
+GH64,D2,Crescent Coast,Crescent Shores,-44,-24,61.2,43.5,Coast
+GH65,D2,Crescent Coast,Gullwatch Reefs,25,-24,75.0,43.5,Reef habitat
+GH66,E2,Moonarch Shoals,Splinterwake Wreck,13,35,92.6,28.749999999999996,Wreck
+GH67,E2,Moonarch Shoals,Moonarch Isle,-20,0,86.0,37.5,Small ruin island
+GH68,E2,Moonarch Shoals,Stillback Isle,16,-39,93.2,47.25,Island habitat
+GH69,A3,Westpine Forest,Pinewater Woods,6,31,11.200000000000001,54.75,Woodland
+GH70,B3,Pinewater Vale,Pebbletown,25,40,35.0,52.5,Town
+GH71,B3,Pinewater Vale,Pinewater River,-25,20,25.0,57.49999999999999,River corridor
+GH72,B3,Pinewater Vale,Caravan Outpost,35,-22,37.0,68.0,Rural working stop
+GH73,B3,Pinewater Vale,Thistlebank Alchemy Cottage,50,-47,40.0,74.25,Rural cottage
+GH74,C3,Greenfield Farmlands,Shadowspire,46,43,59.2,51.74999999999999,Small secluded tower
+GH75,C3,Greenfield Farmlands,Glowhaven Farmlands,-23,14,45.4,59.0,Agricultural landscape
+GH76,D3,Seaward Bluffs,Seaward Overlook,32,2,76.4,62.0,Natural viewpoint
+GH77,D3,Seaward Bluffs,Starlark Abbey,21,-36,74.2,71.5,Rural religious complex
+GH78,E3,Greenrush Marshes,Greenrush Estuary,8,-21,91.6,67.75,Wetland and landing
+GH79,A4,Southglade Woods,Old Southwatch,19,-10,13.8,90.0,Small lookout
+GH80,D4,Brookmeadow Downs,Longgrass Crossroads,-29,49,64.2,75.25,Road junction
+GH81,D4,Brookmeadow Downs,Wrenhill Windmill,13,-11,72.6,90.25,Rural working building
+GH82,E4,Brookmeadow Vale,Brookmeadow,-24,12,85.2,84.5,Village

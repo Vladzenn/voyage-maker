@@ -1,0 +1,1714 @@
+{
+  "sourceSHA256": "77d47b4384db822c6021fb5c9ef29bde3daabfb557bf948b62f2a3bd3ccf8b59",
+  "regionCount": 20,
+  "locationCount": 82,
+  "grid": {
+    "columns": 5,
+    "rows": 4,
+    "aspect": "5:4",
+    "origin": "top left",
+    "north": "up"
+  },
+  "pdfPages": 28,
+  "embeddedImages": 0,
+  "missingNames": [],
+  "worldChanged": false,
+  "artworkOpened": false,
+  "sections": [
+    [
+      "A fresh map, from the world data",
+      1
+    ],
+    [
+      "Scale comes before detail",
+      2
+    ],
+    [
+      "The region grid and essential connections",
+      3
+    ],
+    [
+      "Copy-ready generation instruction",
+      4
+    ],
+    [
+      "Complete regional catalogue",
+      5
+    ],
+    [
+      "A1 | Northwest District",
+      5
+    ],
+    [
+      "B1 | Evertree District",
+      6
+    ],
+    [
+      "C1 | Harbor District",
+      9
+    ],
+    [
+      "D1 | Whitecrest Isles",
+      10
+    ],
+    [
+      "E1 | Bluecoil Reach",
+      11
+    ],
+    [
+      "A2 | Southwest District",
+      11
+    ],
+    [
+      "B2 | Artisan Quarter",
+      13
+    ],
+    [
+      "C2 | Southeast District",
+      16
+    ],
+    [
+      "D2 | Crescent Coast",
+      18
+    ],
+    [
+      "E2 | Moonarch Shoals",
+      19
+    ],
+    [
+      "A3 | Westpine Forest",
+      19
+    ],
+    [
+      "B3 | Pinewater Vale",
+      20
+    ],
+    [
+      "C3 | Greenfield Farmlands",
+      21
+    ],
+    [
+      "D3 | Seaward Bluffs",
+      21
+    ],
+    [
+      "E3 | Greenrush Marshes",
+      22
+    ],
+    [
+      "A4 | Southglade Woods",
+      22
+    ],
+    [
+      "B4 | Longgrass Meadows",
+      22
+    ],
+    [
+      "C4 | Sunmead Plain",
+      23
+    ],
+    [
+      "D4 | Brookmeadow Downs",
+      23
+    ],
+    [
+      "E4 | Brookmeadow Vale",
+      23
+    ],
+    [
+      "Position notes and interpretation boundaries",
+      24
+    ],
+    [
+      "From the master to detailed crops",
+      25
+    ],
+    [
+      "Complete position index",
+      26
+    ],
+    [
+      "Source and scope",
+      28
+    ]
+  ],
+  "sites": [
+    {
+      "name": "The Winding Lowlands",
+      "tile": "A1",
+      "region": "Northwest District",
+      "localX": 19,
+      "localY": -2,
+      "masterX": 13.8,
+      "masterY": 13.0,
+      "role": "Landscape settlement",
+      "visual": "A broad low-lying landscape of winding channels, lake edges, scattered homesteads and one very small inhabited settlement. Include a modest green, winding lane, landing and simple crossing as parts of the same lowland scene.",
+      "note": "This pin represents a landscape and its tiny settlement, not one oversized building. Preserve a water-linked approach and generous open ground.",
+      "parts": [
+        "Lowland Landing",
+        "Winding Lane",
+        "Small Town Green",
+        "River Crossing",
+        "Lake Shore"
+      ],
+      "id": "GH01"
+    },
+    {
+      "name": "Greywatch Keep",
+      "tile": "A1",
+      "region": "Northwest District",
+      "localX": -31,
+      "localY": -21,
+      "masterX": 3.8,
+      "masterY": 17.75,
+      "role": "Small ruin",
+      "visual": "A broken gate and weathered defensive walls surround an overgrown yard, with roofless stone rooms and a damaged upper rampart. It is an obsolete founding-era fort above the western approaches.",
+      "note": "A compact historic ruin, smaller than an academy campus. No functioning garrison, new military town or invented giant dungeon.",
+      "parts": [
+        "Broken Gate",
+        "Overgrown Yard",
+        "Keep Interior",
+        "Upper Walk"
+      ],
+      "id": "GH02"
+    },
+    {
+      "name": "Moonwhisker Emporium",
+      "tile": "A1",
+      "region": "Northwest District",
+      "localX": 35,
+      "localY": -28,
+      "masterX": 17.0,
+      "masterY": 19.5,
+      "role": "Shop",
+      "visual": "A modest city pet-and-companion shop with a practical storefront. Suggest its identity through small carriers, a sheltered entry or an enclosed service yard; the actual perches and feed bins are inside.",
+      "note": "One shop footprint among surrounding roofs. Do not render giant cages, loose legendary animals or a whole zoo.",
+      "parts": [
+        "Showroom",
+        "Care Counter",
+        "Back Room"
+      ],
+      "id": "GH03"
+    },
+    {
+      "name": "Stargarden Manor",
+      "tile": "A1",
+      "region": "Northwest District",
+      "localX": 48,
+      "localY": -28,
+      "masterX": 19.6,
+      "masterY": 19.5,
+      "role": "Estate",
+      "visual": "The Great Sage's private residence, approached through a quiet front garden. A composed house, reception side, private residential wing and secluded rear garden distinguish domestic life from civic government.",
+      "note": "A separate residence from the Grand Sage's Court and Sage's Spire. Its near-boundary pin places it close to the civic district, not in a remote estate province.",
+      "parts": [
+        "Front Garden",
+        "Entrance Hall",
+        "Reception Room",
+        "Private Wing",
+        "Private Garden"
+      ],
+      "id": "GH04"
+    },
+    {
+      "name": "The Emberfox Hot Spring",
+      "tile": "A1",
+      "region": "Northwest District",
+      "localX": -21,
+      "localY": -43,
+      "masterX": 5.800000000000001,
+      "masterY": 23.25,
+      "role": "Rural building",
+      "visual": "A modest bathing house beside warm outdoor pools on the western outskirts. Let rock, vegetation and a faint trace of steam establish the retreat; ordinary timber construction suits its rural setting.",
+      "note": "The bathing house must remain comparable to other small buildings. Do not turn the pools into an enormous palace or volcanic crater.",
+      "parts": [
+        "Bathhouse Entry",
+        "Main Pool",
+        "Garden Pool"
+      ],
+      "id": "GH05"
+    },
+    {
+      "name": "Phoenix Wing Academy",
+      "tile": "A1",
+      "region": "Northwest District",
+      "localX": 25,
+      "localY": -43,
+      "masterX": 15.0,
+      "masterY": 23.25,
+      "role": "Campus",
+      "visual": "A compact academy precinct marked by red pennants, connected teaching wings, a broad arrival court and open practice grounds. Distinguish the training yard and small practice arena from the city's great public colosseum.",
+      "note": "Dining, dormitories, faculty offices, commons and music room belong to this one campus. Use a few coordinated roofs around courts rather than eleven independent landmarks.",
+      "parts": [
+        "Arrival Court",
+        "Main Hall",
+        "Lecture Hall",
+        "Training Yard",
+        "Practice Arena",
+        "Student Commons",
+        "Dining Hall",
+        "Faculty Offices",
+        "Dormitory Wing",
+        "Sun Terrace",
+        "Music Room"
+      ],
+      "id": "GH06"
+    },
+    {
+      "name": "Evertree Base",
+      "tile": "B1",
+      "region": "Evertree District",
+      "localX": -27,
+      "localY": -7,
+      "masterX": 24.6,
+      "masterY": 14.250000000000002,
+      "role": "Primary landmark",
+      "visual": "One immense living tree rises directly from the ground beside and behind the court precinct. Show a rooted trunk, a coherent canopy and palace-adjacent approaches; the rootward courtyard belongs beneath it.",
+      "note": "The tree is the single dominant magical landmark, with a limited canopy that does not swallow the city. The vaulted Portal Room is below the rootward structures, not a second outdoor portal monument.",
+      "parts": [
+        "Rear Palace Walk",
+        "Rootward Court",
+        "Evertree Foot",
+        "Portal Room"
+      ],
+      "id": "GH07"
+    },
+    {
+      "name": "Sage's Spire",
+      "tile": "B1",
+      "region": "Evertree District",
+      "localX": -12,
+      "localY": -7,
+      "masterX": 27.6,
+      "masterY": 14.250000000000002,
+      "role": "Secondary tower",
+      "visual": "The Great Sage's working tower and office beside the court and Evertree grounds. Give it a clear vertical silhouette and a plausible stair-and-office volume, separated from the living tree.",
+      "note": "This is an office tower, not the Evertree itself and not the Great Sage's private manor. Let it support the main skyline rather than compete with it.",
+      "parts": [
+        "Spire Entrance",
+        "Office Landing",
+        "Great Sage's Office",
+        "Records Room",
+        "Meeting Room"
+      ],
+      "id": "GH08"
+    },
+    {
+      "name": "The Grand Sage's Court",
+      "tile": "B1",
+      "region": "Evertree District",
+      "localX": -21,
+      "localY": -14,
+      "masterX": 25.8,
+      "masterY": 16.0,
+      "role": "Major complex",
+      "visual": "A civic palace precinct with a formal forecourt facing the ascending avenue, public galleries and office wings. Evertree grounds lie behind it. A compact observatory can rise above the offices, subordinate to the tree.",
+      "note": "Government, council and audience rooms are inside this complex. Keep the court, nearby tower office and tree base distinct but physically coherent.",
+      "parts": [
+        "Palace Forecourt",
+        "Audience Hall",
+        "Council Chamber",
+        "Administrative Wing",
+        "Public Gallery",
+        "Oracle's Observatory"
+      ],
+      "id": "GH09"
+    },
+    {
+      "name": "Briarcrest Manor",
+      "tile": "B1",
+      "region": "Evertree District",
+      "localX": 49,
+      "localY": -22,
+      "masterX": 39.8,
+      "masterY": 18.0,
+      "role": "Estate",
+      "visual": "A substantial residential manor with an entrance walk, formal reception side and garden grounds. Its clear garden boundary separates it from the adjoining upper-city roofs.",
+      "note": "One residence and its grounds; its for-sale status does not need signage on the map. Keep its scale below the civic palace.",
+      "parts": [
+        "Front Walk",
+        "Entrance Hall",
+        "Reception Rooms",
+        "Garden Walk"
+      ],
+      "id": "GH10"
+    },
+    {
+      "name": "The Gilded Griffin",
+      "tile": "B1",
+      "region": "Evertree District",
+      "localX": 34,
+      "localY": -24,
+      "masterX": 36.8,
+      "masterY": 18.5,
+      "role": "Shop",
+      "visual": "A fine jewelry shop with a polished, restrained frontage and a formal entrance. Its display salon and fitting desk occupy the interior.",
+      "note": "A small high-quality commercial building, not a gilded castle or giant griffin statue.",
+      "parts": [
+        "Display Salon",
+        "Fitting Desk",
+        "Front Vestibule"
+      ],
+      "id": "GH11"
+    },
+    {
+      "name": "Cloud District",
+      "tile": "B1",
+      "region": "Evertree District",
+      "localX": 13,
+      "localY": -27,
+      "masterX": 32.6,
+      "masterY": 19.25,
+      "role": "Neighborhood",
+      "visual": "An upper civic residential neighborhood of fine homes, polished streets, garden squares and terraced lanes around the court. The defining quality is an ensemble of orderly residences, not a cloud platform.",
+      "note": "Spread ordinary houses across a district-sized patch. It is neither a separate city nor a floating island.",
+      "parts": [
+        "Courtward Street",
+        "Terrace Lane",
+        "Garden Square"
+      ],
+      "id": "GH12"
+    },
+    {
+      "name": "The Magistrate's Hall",
+      "tile": "B1",
+      "region": "Evertree District",
+      "localX": -31,
+      "localY": -30,
+      "masterX": 23.8,
+      "masterY": 20.0,
+      "role": "Civic hall",
+      "visual": "A substantial but practical civic hall with tall windows, a public vestibule and a clear public approach. Records and hearing rooms sit behind the frontage.",
+      "note": "One civic building with several internal rooms; use an orderly street-facing silhouette rather than a fortress or prison.",
+      "parts": [
+        "Public Vestibule",
+        "Records Counter",
+        "Hearing Chamber",
+        "Waiting Gallery",
+        "Records Room"
+      ],
+      "id": "GH13"
+    },
+    {
+      "name": "Rune and Raven's",
+      "tile": "B1",
+      "region": "Evertree District",
+      "localX": -43,
+      "localY": -33,
+      "masterX": 21.4,
+      "masterY": 20.75,
+      "role": "Shop",
+      "visual": "A magical-accessory and focus shop with a tidy public frontage and a working bench deeper inside. Glass display bays and a discreet workshop addition provide its commercial identity.",
+      "note": "One compact shop. Do not scale its sample focuses into giant rooftop artifacts.",
+      "parts": [
+        "Accessory Gallery",
+        "Consultation Counter",
+        "Back Stock"
+      ],
+      "id": "GH14"
+    },
+    {
+      "name": "House Goldbarrow Estate",
+      "tile": "B1",
+      "region": "Evertree District",
+      "localX": 35,
+      "localY": -34,
+      "masterX": 37.0,
+      "masterY": 21.000000000000004,
+      "role": "Estate",
+      "visual": "A noble residence set behind a gate and formal front gardens, with private grounds and a residence hall. Its enclosed garden footprint gives it more breathing room than ordinary city housing.",
+      "note": "A household estate, not a second governing palace. The name does not require gold-covered buildings.",
+      "parts": [
+        "Estate Gate",
+        "Front Gardens",
+        "Residence Hall",
+        "Private Grounds"
+      ],
+      "id": "GH15"
+    },
+    {
+      "name": "The Grand Ascent",
+      "tile": "B1",
+      "region": "Evertree District",
+      "localX": -8,
+      "localY": -36,
+      "masterX": 28.4,
+      "masterY": 21.5,
+      "role": "Street structure",
+      "visual": "A monumental stair avenue climbs from the bazaar toward the palace forecourt. Broad intermediate landings provide views and a convincing change in elevation.",
+      "note": "An exposed circulation feature, not another palace. Its pin lies on the court-bazaar axis; its full route spans beyond the point marker.",
+      "parts": [
+        "Bazaar Foot",
+        "Lower Flight",
+        "Middle Landing",
+        "Upper Flight",
+        "Bazaar Landing",
+        "Palace Landing"
+      ],
+      "id": "GH16"
+    },
+    {
+      "name": "The Arcane Emporium",
+      "tile": "B1",
+      "region": "Evertree District",
+      "localX": -24,
+      "localY": -38,
+      "masterX": 25.2,
+      "masterY": 22.0,
+      "role": "Commercial hall",
+      "visual": "The city's largest and fanciest magic shop. A grand entrance and broader gallery volume distinguish it from the smaller commercial premises nearby.",
+      "note": "A large shop within the urban grain. Curated rooms and consultation salons do not become separate freestanding towers.",
+      "parts": [
+        "Grand Entrance",
+        "Grand Gallery",
+        "Curated Rooms",
+        "Consultation Salon"
+      ],
+      "id": "GH17"
+    },
+    {
+      "name": "Bramble & Bottle",
+      "tile": "B1",
+      "region": "Evertree District",
+      "localX": 19,
+      "localY": -38,
+      "masterX": 33.8,
+      "masterY": 22.0,
+      "role": "Shop",
+      "visual": "A potion shop fitted into a city block. A small glazed storefront or sheltered display entrance can suggest a bottle gallery, with the preparation workroom behind.",
+      "note": "One compact premises. Optional bottle-colored accents are a visual interpretation, not a required roof color or new landmark.",
+      "parts": [
+        "Bottle Gallery",
+        "Consultation Counter",
+        "Preparation Room"
+      ],
+      "id": "GH18"
+    },
+    {
+      "name": "The Wandering Quill",
+      "tile": "B1",
+      "region": "Evertree District",
+      "localX": 9,
+      "localY": -40,
+      "masterX": 31.8,
+      "masterY": 22.5,
+      "role": "Shop",
+      "visual": "A small stationery shop within the civic-commercial streets. A narrow frontage, neat entrance and attached roof can imply paper and ink trade without readable text.",
+      "note": "Draw as one ordinary shop, with stock and counter inside. Its neighboring streets matter more than a giant quill emblem.",
+      "parts": [
+        "Paper and Ink Floor",
+        "Stock Alcove",
+        "Front Counter"
+      ],
+      "id": "GH19"
+    },
+    {
+      "name": "Clovermead",
+      "tile": "C1",
+      "region": "Harbor District",
+      "localX": 24,
+      "localY": 12,
+      "masterX": 54.8,
+      "masterY": 9.5,
+      "role": "Village",
+      "visual": "A small northern farming settlement with a few houses scattered among broad cultivated fields. A waterside landing and intervening water explain why people reach it by boat.",
+      "note": "Do not connect it to the city with a new ordinary road bridge. Keep its houses as small as comparable city homes.",
+      "parts": [
+        "Boat Landing",
+        "Farm Lane",
+        "Farmstead Green",
+        "Meadow Fields"
+      ],
+      "id": "GH20"
+    },
+    {
+      "name": "Pinewake Coast",
+      "tile": "C1",
+      "region": "Harbor District",
+      "localX": -23,
+      "localY": -2,
+      "masterX": 45.4,
+      "masterY": 13.0,
+      "role": "Landscape",
+      "visual": "A northern coastal strip where pines reach the shore. Include a dry upper path, small headland, tide pools and uneven exposed rock shelves.",
+      "note": "Let the terrain carry this location. It does not need a new village, lighthouse or castle.",
+      "parts": [
+        "Pineward Beach",
+        "Tide Pools",
+        "Pine Headland"
+      ],
+      "id": "GH21"
+    },
+    {
+      "name": "Beaconrest Lighthouse",
+      "tile": "C1",
+      "region": "Harbor District",
+      "localX": 42,
+      "localY": -10,
+      "masterX": 58.4,
+      "masterY": 15.0,
+      "role": "Small tower",
+      "visual": "A red-capped working lighthouse stands on a small offshore rock with a low supply jetty and attached keeper's quarters. Its signal balcony and lantern room give it a readable profile.",
+      "note": "It is a slender navigation marker, not a tower the size of the city arena. Keep it detached from the mainland by a water channel.",
+      "parts": [
+        "Supply Jetty",
+        "Keeper’s Kitchen",
+        "Lantern Room",
+        "Signal Balcony"
+      ],
+      "id": "GH22"
+    },
+    {
+      "name": "Rosetimber Suburbs",
+      "tile": "C1",
+      "region": "Harbor District",
+      "localX": -21,
+      "localY": -28,
+      "masterX": 45.8,
+      "masterY": 19.5,
+      "role": "Neighborhood",
+      "visual": "A pleasant, prosperous residential neighborhood adjoining the Cloud District. Set individual homes among maintained gardens and controlled lanes, below the grandeur of the noble estates.",
+      "note": "An inhabited neighborhood, not one manor or another walled town. Its boundary with nearby residential districts may be gradual.",
+      "parts": [
+        "Rosetimber Avenue",
+        "Garden Court",
+        "Residents' Pavilion"
+      ],
+      "id": "GH23"
+    },
+    {
+      "name": "Whitecrest Harbor",
+      "tile": "C1",
+      "region": "Harbor District",
+      "localX": 16,
+      "localY": -33,
+      "masterX": 53.2,
+      "masterY": 20.75,
+      "role": "Waterfront",
+      "visual": "A working waterfront of cargo steps, quays, sheds, loading space and passenger access, with moored craft scaled to the buildings. Shore roads and city lanes meet the quay network.",
+      "note": "Draw an operational harbor district rather than one giant building or a forest of oversized masts. Keep navigable channels open toward the islands.",
+      "parts": [
+        "Harbor Quay",
+        "Cargo Pier",
+        "Passenger Landing",
+        "Harbor Office"
+      ],
+      "id": "GH24"
+    },
+    {
+      "name": "Hydra Head Academy",
+      "tile": "C1",
+      "region": "Harbor District",
+      "localX": -29,
+      "localY": -41,
+      "masterX": 44.2,
+      "masterY": 22.749999999999996,
+      "role": "Campus",
+      "visual": "A garden-oriented academy precinct with violet awnings, a welcoming court and connected halls arranged around group-work spaces. Landscaped walks and a pavilion make its exterior distinct.",
+      "note": "Keep the indoor practice hall, lecture rooms, dormitories and dining facilities within the campus. It is not an enormous botanical country estate.",
+      "parts": [
+        "Arrival Court",
+        "Confluence Hall",
+        "Seminar Room",
+        "Practice Hall",
+        "Garden Walk",
+        "Student Commons",
+        "Dining Hall",
+        "Faculty Offices",
+        "Dormitory Wing",
+        "Lecture Hall",
+        "Confluence Pavilion"
+      ],
+      "id": "GH25"
+    },
+    {
+      "name": "Wraith Island",
+      "tile": "D1",
+      "region": "Whitecrest Isles",
+      "localX": -30,
+      "localY": 27,
+      "masterX": 64.0,
+      "masterY": 5.75,
+      "role": "Prison island",
+      "visual": "A small, isolated skull-shaped rocky island receives controlled supply boats at Skullshore Landing. A compact prison approach can be visible, subordinate to the rock's outline.",
+      "note": "Keep the island small and distinct from the inhabited islands. The separate playable prison realm is not another island to duplicate on this map.",
+      "parts": [
+        "Skullshore Landing",
+        "Skull Rock Ledge",
+        "Island Track"
+      ],
+      "id": "GH26"
+    },
+    {
+      "name": "Driftstone Isle",
+      "tile": "D1",
+      "region": "Whitecrest Isles",
+      "localX": 19,
+      "localY": 0,
+      "masterX": 73.8,
+      "masterY": 12.5,
+      "role": "Inhabited island",
+      "visual": "A rocky offshore island with a small resident community, modest homes and a water-facing landing. Ordinary island life is the defining feature.",
+      "note": "A separate inhabited island from Saltmere; avoid a second prison, giant ruin or duplicate skull rock.",
+      "parts": [
+        "Island Landing",
+        "Village Lane",
+        "Village Green",
+        "Rocky Shore"
+      ],
+      "id": "GH27"
+    },
+    {
+      "name": "Saltmere",
+      "tile": "D1",
+      "region": "Whitecrest Isles",
+      "localX": -32,
+      "localY": -19,
+      "masterX": 63.6,
+      "masterY": 17.25,
+      "role": "Island village",
+      "visual": "A small inhabited island village: compact houses cluster near a working shore and landing, with enough rocky ground to read as its own island.",
+      "note": "Separate it from Driftstone Isle and Wraith Island. It must not disappear into the harbor mainland.",
+      "parts": [
+        "Village Landing",
+        "Village Lane",
+        "Shoreline Green"
+      ],
+      "id": "GH28"
+    },
+    {
+      "name": "Bluecoil Rest",
+      "tile": "E1",
+      "region": "Bluecoil Reach",
+      "localX": 7,
+      "localY": 13,
+      "masterX": 91.4,
+      "masterY": 9.25,
+      "role": "Reef habitat",
+      "visual": "A remote reef with inner ledges, clear surrounding water, a narrow wash shore and an outlying mooring rock. The inner rocks form the fixed resting habitat of the great blue serpent Nerathyl.",
+      "note": "The reef is the durable landmark. If the serpent is shown, keep it a secondary sleeping coil at believable map scale; do not create a giant monster island or imply multiple serpents.",
+      "parts": [
+        "Distant Mooring",
+        "Scale Shore",
+        "Serpent Ledge"
+      ],
+      "id": "GH29"
+    },
+    {
+      "name": "The Gilded Albatross",
+      "tile": "E1",
+      "region": "Bluecoil Reach",
+      "localX": -33,
+      "localY": -35,
+      "masterX": 83.4,
+      "masterY": 21.25,
+      "role": "Ship",
+      "visual": "An ornate but hard-used sailing ship at a charted anchorage, with a main working deck, raised quarterdeck and visible rigging. Salvage equipment and practical crew circulation matter more than pristine decoration.",
+      "note": "A ship, never an island or town. Its galley, hold and cabins are below or within the same hull. Crew and captain are not giant portrait figures on the map.",
+      "parts": [
+        "Boarding Landing",
+        "Main Deck",
+        "Quarterdeck",
+        "Galley",
+        "Salvage Hold",
+        "Crew Passage"
+      ],
+      "id": "GH30"
+    },
+    {
+      "name": "West City Gate",
+      "tile": "A2",
+      "region": "Southwest District",
+      "localX": -11,
+      "localY": 38,
+      "masterX": 7.8,
+      "masterY": 28.000000000000004,
+      "role": "Gate",
+      "visual": "A guarded western arch connects city paving to the wilderness and caravan road. Its masonry and adjoining wall establish the city's western threshold.",
+      "note": "Attach it to the main city wall. It is not an independent castle or another town.",
+      "parts": [
+        "City Arch",
+        "Guard Room",
+        "Outer Road",
+        "Westward Track"
+      ],
+      "id": "GH31"
+    },
+    {
+      "name": "Wayfarer's Goods",
+      "tile": "A2",
+      "region": "Southwest District",
+      "localX": 47,
+      "localY": 33,
+      "masterX": 19.4,
+      "masterY": 29.25,
+      "role": "Shop",
+      "visual": "A practical travel-supply shop among western city streets, with a modest loading edge and a functional frontage for road equipment.",
+      "note": "One city shop. Tents, packs and counters remain tiny details, not a new caravan village.",
+      "parts": [
+        "Travel Gear Floor",
+        "Packing Counter",
+        "Supply Room"
+      ],
+      "id": "GH32"
+    },
+    {
+      "name": "The Golden Ladle",
+      "tile": "A2",
+      "region": "Southwest District",
+      "localX": 44,
+      "localY": 21,
+      "masterX": 18.8,
+      "masterY": 32.25,
+      "role": "Shop or eatery",
+      "visual": "A dependable working-neighborhood eatery with a modest street entrance, kitchen volume and a practical service edge. Its place among craftspeople should be clear from the adjacent streets.",
+      "note": "An ordinary urban premises, not a standalone grand banquet hall. Tables and food belong inside or in a tiny yard.",
+      "parts": [
+        "Main Hall",
+        "Bar",
+        "Workers' Room",
+        "Kitchen Passage"
+      ],
+      "id": "GH33"
+    },
+    {
+      "name": "West Glowhaven Woods",
+      "tile": "A2",
+      "region": "Southwest District",
+      "localX": -38,
+      "localY": 13,
+      "masterX": 2.4,
+      "masterY": 34.25,
+      "role": "Woodland",
+      "visual": "Shaded woodland outside the western wall, with a maintained outer track, deeper clearing and denser animal cover. Keep a visible difference between the accessible fringe and interior thickets.",
+      "note": "No obligatory monster icons or new fort. This is woodland, not a second settlement.",
+      "parts": [
+        "Woodland Edge",
+        "Pine Track",
+        "Clearing"
+      ],
+      "id": "GH34"
+    },
+    {
+      "name": "Gryffin Tail Academy",
+      "tile": "A2",
+      "region": "Southwest District",
+      "localX": 26,
+      "localY": 11,
+      "masterX": 15.2,
+      "masterY": 34.75,
+      "role": "Campus",
+      "visual": "A cyan-bannered academy with an entrance square, orderly lecture wings, research rooms and a sheltered reading garden. A small training court adds a different outdoor shape to the academic buildings.",
+      "note": "Seminar rooms, dining, dormitories and game rooms are parts of one campus. Academic calm need not mean bare or featureless architecture.",
+      "parts": [
+        "Arrival Steps",
+        "Lecture Wing",
+        "Lecture Hall",
+        "Seminar Room",
+        "Research Rooms",
+        "Reading Garden",
+        "Dining Hall",
+        "Faculty Offices",
+        "Dormitory Wing",
+        "Training Court",
+        "Puzzle Parlor"
+      ],
+      "id": "GH35"
+    },
+    {
+      "name": "West Greyfield",
+      "tile": "A2",
+      "region": "Southwest District",
+      "localX": 29,
+      "localY": -25,
+      "masterX": 15.8,
+      "masterY": 43.75,
+      "role": "Poor neighborhood",
+      "visual": "The western half of the poor settlement outside the southern walls: patched roofs, close-built modest homes and rough lanes. Its texture is less orderly and less affluent than the city inside.",
+      "note": "It continues toward East Greyfield. Keep it inhabited and extensive enough to be a neighborhood, rather than a single ruin or isolated shack.",
+      "parts": [
+        "West Lane",
+        "Common Yard",
+        "Outer Track"
+      ],
+      "id": "GH36"
+    },
+    {
+      "name": "Hermit's hut",
+      "tile": "A2",
+      "region": "Southwest District",
+      "localX": -26,
+      "localY": -50,
+      "masterX": 4.8,
+      "masterY": 50.0,
+      "role": "Rural hut",
+      "visual": "A very small dwelling on a wooded ridge beyond the southwestern city approaches, reached by an uneven footpath. Sparse construction and surrounding woodland make it feel removed from city life.",
+      "note": "The pin sits exactly on a region boundary. Draw one hut, with the path and vegetation continuing naturally across the tile edge.",
+      "parts": [
+        "Mountain Trail",
+        "Hut Clearing",
+        "Hut Interior"
+      ],
+      "id": "GH37"
+    },
+    {
+      "name": "City Guard Headquarters",
+      "tile": "B2",
+      "region": "Artisan Quarter",
+      "localX": -20,
+      "localY": 42,
+      "masterX": 26.0,
+      "masterY": 27.0,
+      "role": "Civic hall",
+      "visual": "A practical city-guard headquarters with a public reporting frontage and an adjoining briefing or drill yard. Keep controlled service access distinct from ordinary public streets.",
+      "note": "One civic compound in the working city, not a massive prison fortress. Wraith Island remains separate.",
+      "parts": [
+        "Public Entry",
+        "Briefing Room",
+        "Records Office",
+        "Guard Yard"
+      ],
+      "id": "GH38"
+    },
+    {
+      "name": "The Farmer's Exchange",
+      "tile": "B2",
+      "region": "Artisan Quarter",
+      "localX": 22,
+      "localY": 42,
+      "masterX": 34.4,
+      "masterY": 27.0,
+      "role": "Market hall or yard",
+      "visual": "A produce-trading place with scales, cart access, a covered trading edge and practical loading room. It connects rural goods to the central city markets.",
+      "note": "Use a compact working yard or market-hall footprint. Nearby ordinary shops should not all become farm buildings.",
+      "parts": [
+        "Market Stalls",
+        "Trading Walk",
+        "Produce Court"
+      ],
+      "id": "GH39"
+    },
+    {
+      "name": "The Eternal Crucible",
+      "tile": "B2",
+      "region": "Artisan Quarter",
+      "localX": 47,
+      "localY": 42,
+      "masterX": 39.4,
+      "masterY": 27.0,
+      "role": "Major arena",
+      "visual": "A great public arena with a central competition floor, steep tiered stands and a ring-shaped concourse. Entrances and supporting practice or medical spaces sit around its perimeter.",
+      "note": "One arena complex. Pillar, planted, ice, stair and shallow-water bout layouts are alternative arrangements of its fighting spaces, not five additional colosseums.",
+      "parts": [
+        "Arena Floor",
+        "Grand Stands",
+        "Concourse",
+        "Competitor Passage",
+        "Competitor Lounge",
+        "Infirmary",
+        "Practice Gallery",
+        "Pillar Court",
+        "Verdant Ring",
+        "Frostglass Platform",
+        "Broken Stair Arena",
+        "Mirrorwater Garden"
+      ],
+      "id": "GH40"
+    },
+    {
+      "name": "Four Sages Bazaar",
+      "tile": "B2",
+      "region": "Artisan Quarter",
+      "localX": 11,
+      "localY": 36,
+      "masterX": 32.2,
+      "masterY": 28.500000000000004,
+      "role": "Primary civic space",
+      "visual": "A civic market square centers on one fountain and the founders' monument, framed by north, east, south and west arcades. The monument commemorates four founding archmages.",
+      "note": "Use a small four-figure sculptural group as a proposed visual reading of the monument. Keep it one shared fountain, not four remote plazas or four giant towers.",
+      "parts": [
+        "Four Sages Fountain",
+        "North Arcade",
+        "East Arcade",
+        "South Arcade",
+        "West Arcade"
+      ],
+      "id": "GH41"
+    },
+    {
+      "name": "Merchant's Row",
+      "tile": "B2",
+      "region": "Artisan Quarter",
+      "localX": 44,
+      "localY": 34,
+      "masterX": 38.8,
+      "masterY": 28.999999999999996,
+      "role": "Commercial street",
+      "visual": "A continuous eastward extension of the bazaar's commercial streets, lined with shopfronts, awnings and busy pedestrian approaches.",
+      "note": "Render as a street ensemble rather than one monumental market building. Use small roof masses and a clear walkable lane.",
+      "parts": [
+        "East Shopfronts",
+        "Covered Walk",
+        "Crossing Lane",
+        "Merchant's Row Bench Workshop"
+      ],
+      "id": "GH42"
+    },
+    {
+      "name": "Violet Thread",
+      "tile": "B2",
+      "region": "Artisan Quarter",
+      "localX": -8,
+      "localY": 23,
+      "masterX": 28.4,
+      "masterY": 31.75,
+      "role": "Shop",
+      "visual": "A compact tailor's shop with a fitting-room frontage and space for alterations behind it. Cloth-colored awnings or hanging textiles can distinguish it subtly.",
+      "note": "One ordinary storefront; the shop name does not require an entirely violet building.",
+      "parts": [
+        "Clothing Floor",
+        "Fitting Alcove",
+        "Front Counter"
+      ],
+      "id": "GH43"
+    },
+    {
+      "name": "The Everlight Public Library",
+      "tile": "B2",
+      "region": "Artisan Quarter",
+      "localX": -29,
+      "localY": 21,
+      "masterX": 24.2,
+      "masterY": 32.25,
+      "role": "Civic hall",
+      "visual": "A public library with an orderly reading-hall volume, broad windows and a practical street entrance. Smaller offices and shelves sit within the main building.",
+      "note": "A notable civic hall but much smaller than an academy precinct. No additional university campus is implied.",
+      "parts": [
+        "Reading Hall",
+        "Stacks",
+        "Reference Desk"
+      ],
+      "id": "GH44"
+    },
+    {
+      "name": "Adventurer's Guild - Glowhaven Branch",
+      "tile": "B2",
+      "region": "Artisan Quarter",
+      "localX": 45,
+      "localY": 21,
+      "masterX": 39.0,
+      "masterY": 32.25,
+      "role": "Public hall",
+      "visual": "A welcoming timber-and-stone guild hall with honey-colored beams, warm geometric stained glass and a controlled rear practice yard. A broad public entrance serves adventurers and clients.",
+      "note": "The reception, request boards, common tables, appraisal bench and offices are inside one hall. It is neither an inn nor a second arena.",
+      "parts": [
+        "Reception Counter",
+        "Request Board",
+        "Common Hall",
+        "Appraisal Bench",
+        "Briefing Room",
+        "Training Yard",
+        "Staff Office"
+      ],
+      "id": "GH45"
+    },
+    {
+      "name": "The Perfumed Rose",
+      "tile": "B2",
+      "region": "Artisan Quarter",
+      "localX": 7,
+      "localY": 19,
+      "masterX": 31.4,
+      "masterY": 32.75,
+      "role": "Shop",
+      "visual": "A small perfumery and household-alchemy shop with a sheltered sample counter or glazed frontage and a preparation space behind.",
+      "note": "Refined but compact. Do not grow an enormous rose garden or distillery around the name alone.",
+      "parts": [
+        "Scent Gallery",
+        "Mixing Counter",
+        "Front Desk"
+      ],
+      "id": "GH46"
+    },
+    {
+      "name": "Roseberry Inn",
+      "tile": "B2",
+      "region": "Artisan Quarter",
+      "localX": -11,
+      "localY": 11,
+      "masterX": 27.8,
+      "masterY": 34.75,
+      "role": "Inn",
+      "visual": "A lived-in city inn with a substantial common-room volume, upper lodging rooms and a modest service yard. Warm windows and an ordinary street-facing entrance suit its function.",
+      "note": "A small-to-medium urban building, not a resort estate. Bunks and private rooms are inside the same premises.",
+      "parts": [
+        "Front Desk",
+        "Common Room",
+        "Dining Room",
+        "Guest Stair",
+        "Kitchen Passage",
+        "Roseberry Attic Room",
+        "Cellar"
+      ],
+      "id": "GH47"
+    },
+    {
+      "name": "The Carpenter's Measure",
+      "tile": "B2",
+      "region": "Artisan Quarter",
+      "localX": -46,
+      "localY": 2,
+      "masterX": 20.8,
+      "masterY": 37.0,
+      "role": "Workshop",
+      "visual": "A city carpentry shop with a long practical workroom, stacked-timber service edge and ordinary street-facing entrance.",
+      "note": "Keep lumber piles and workbenches as secondary yard details. It is not a rural logging camp.",
+      "parts": [
+        "Timber Yard",
+        "Joinery Floor",
+        "Design Bench"
+      ],
+      "id": "GH48"
+    },
+    {
+      "name": "The Grand Approach",
+      "tile": "B2",
+      "region": "Artisan Quarter",
+      "localX": 37,
+      "localY": 2,
+      "masterX": 37.4,
+      "masterY": 37.0,
+      "role": "Street structure",
+      "visual": "A broad straight avenue runs from the Main City Gate toward Four Sages Bazaar. Its clear sightline and connected frontage make it one of the city's main organizing routes.",
+      "note": "Treat the pin as a point along a linear avenue. Its full extent joins the two named endpoints rather than ending at the marker.",
+      "parts": [
+        "South Approach",
+        "Central Walk",
+        "Bazaar Forecourt",
+        "Gateward Plaza",
+        "Market Steps"
+      ],
+      "id": "GH49"
+    },
+    {
+      "name": "The Silver Anvil",
+      "tile": "B2",
+      "region": "Artisan Quarter",
+      "localX": -28,
+      "localY": 0,
+      "masterX": 24.4,
+      "masterY": 37.5,
+      "role": "Workshop",
+      "visual": "A metalworking and finishing shop with a more formal consultation frontage and a workroom behind. Practical commissioning distinguishes it from a simple weapon stall.",
+      "note": "A separate workshop from Blackstone Smithy, of comparable ordinary scale. Avoid an enormous freestanding anvil icon.",
+      "parts": [
+        "Showroom",
+        "Workroom",
+        "Consultation Desk"
+      ],
+      "id": "GH50"
+    },
+    {
+      "name": "Blackstone Smithy",
+      "tile": "B2",
+      "region": "Artisan Quarter",
+      "localX": -8,
+      "localY": -3,
+      "masterX": 28.4,
+      "masterY": 38.25,
+      "role": "Workshop",
+      "visual": "A functional smithy with a forge chimney, working yard and practical counter or street entrance. Separate the hot workshop volume from the public edge.",
+      "note": "Small craft premises within the urban grain. Forge glow is a subtle accent, not a volcano or factory district the size of the city.",
+      "parts": [
+        "Front Counter",
+        "Forge Floor",
+        "Tool Wall"
+      ],
+      "id": "GH51"
+    },
+    {
+      "name": "Hide & Hammer",
+      "tile": "B2",
+      "region": "Artisan Quarter",
+      "localX": -26,
+      "localY": -16,
+      "masterX": 24.8,
+      "masterY": 41.5,
+      "role": "Workshop",
+      "visual": "A leatherworks shop combining a public display frontage with cutting and finishing space behind it. A small drying or service courtyard is a reasonable exterior interpretation.",
+      "note": "One working-city building. Do not infer a slaughterhouse or a large tannery landscape from the name.",
+      "parts": [
+        "Goods Display",
+        "Leather Bench",
+        "Stock Room"
+      ],
+      "id": "GH52"
+    },
+    {
+      "name": "East Greyfield",
+      "tile": "B2",
+      "region": "Artisan Quarter",
+      "localX": 27,
+      "localY": -39,
+      "masterX": 35.4,
+      "masterY": 47.25,
+      "role": "Poor neighborhood",
+      "visual": "The eastern continuation of Greyfield outside the southern wall. Narrow lanes and close-set, worn homes show limited means without turning the district into deserted rubble.",
+      "note": "Join it visually to West Greyfield while retaining local street variation. Neither half is a separate distant village.",
+      "parts": [
+        "East Lane",
+        "Shared Court",
+        "South Edge"
+      ],
+      "id": "GH53"
+    },
+    {
+      "name": "Crooked Tankard",
+      "tile": "C2",
+      "region": "Southeast District",
+      "localX": -32,
+      "localY": 43,
+      "masterX": 43.60000000000001,
+      "masterY": 26.75,
+      "role": "Inn or tavern",
+      "visual": "A city taproom with a convivial common-room frontage, hearth chimney and practical entrance from the street.",
+      "note": "One tavern among the surrounding houses. Do not turn its whole block into an enormous tankard-shaped building.",
+      "parts": [
+        "Taproom",
+        "Hearth Corner",
+        "Side Room",
+        "Kitchen Passage"
+      ],
+      "id": "GH54"
+    },
+    {
+      "name": "East City Gate",
+      "tile": "C2",
+      "region": "Southeast District",
+      "localX": 27,
+      "localY": 42,
+      "masterX": 55.4,
+      "masterY": 27.0,
+      "role": "Gate",
+      "visual": "A guarded eastern arch links the walled city with the working shore and harbor-side approaches. Connect its road to the coastal network.",
+      "note": "One gate in the same wall circuit as the West and Main gates, not a separate border fortress.",
+      "parts": [
+        "City Arch",
+        "Harbor Road",
+        "Gatehouse",
+        "Shoreward Track"
+      ],
+      "id": "GH55"
+    },
+    {
+      "name": "Eastbloom Residences",
+      "tile": "C2",
+      "region": "Southeast District",
+      "localX": 20,
+      "localY": 29,
+      "masterX": 54.0,
+      "masterY": 30.25,
+      "role": "Neighborhood",
+      "visual": "Middle-class homes near Dragon Hoard Academy, slightly more polished and orderly than average city housing. Maintained small gardens and controlled lanes express its character.",
+      "note": "Use a neighborhood of human-scale houses, not one vast luxury palace or an additional town wall.",
+      "parts": [
+        "Eastbloom Lane",
+        "Garden Walk",
+        "Residents' Green"
+      ],
+      "id": "GH56"
+    },
+    {
+      "name": "The Compassmaker",
+      "tile": "C2",
+      "region": "Southeast District",
+      "localX": -24,
+      "localY": 25,
+      "masterX": 45.199999999999996,
+      "masterY": 31.25,
+      "role": "Workshop",
+      "visual": "A small city instrument workshop with a precise, practical storefront and repair benches behind it. Fine metalwork and window light can suggest its craft.",
+      "note": "One modest shop. The compasses are interior objects and should not become a huge compass rose on the ground.",
+      "parts": [
+        "Trinket Floor",
+        "Work Bench",
+        "Parts Cabinet"
+      ],
+      "id": "GH57"
+    },
+    {
+      "name": "Willowbend Residential District",
+      "tile": "C2",
+      "region": "Southeast District",
+      "localX": -40,
+      "localY": 13,
+      "masterX": 42.0,
+      "masterY": 34.25,
+      "role": "Neighborhood",
+      "visual": "A middle- and working-class neighborhood of ordinary homes, shared lanes and everyday services. Roof spacing and small courtyards distinguish blocks without making every home unique at master scale.",
+      "note": "A broad lived-in housing patch, not a single named house. Use a quieter material vocabulary than the court estates.",
+      "parts": [
+        "Willowbend Lane",
+        "Courtyard Row",
+        "Neighborhood Green",
+        "Willowbend Courtyard Cottage"
+      ],
+      "id": "GH58"
+    },
+    {
+      "name": "Dragon Hoard Academy",
+      "tile": "C2",
+      "region": "Southeast District",
+      "localX": 9,
+      "localY": 13,
+      "masterX": 51.8,
+      "masterY": 34.25,
+      "role": "Campus",
+      "visual": "A yellow-and-gold academy precinct with a high entrance gallery, exhibition and laboratory wings, training court and a modest roof-level observatory.",
+      "note": "Keep academic displays within the galleries and one coherent campus. The name does not imply a dragon skeleton, dragon lair or treasure mountain.",
+      "parts": [
+        "Arrival Gallery",
+        "Exhibition Hall",
+        "Discovery Labs",
+        "Observatory",
+        "Lecture Studio",
+        "Student Commons",
+        "Dining Hall",
+        "Faculty Offices",
+        "Dormitory Wing",
+        "Training Court",
+        "Lecture Hall"
+      ],
+      "id": "GH59"
+    },
+    {
+      "name": "The Jade Cup Teahouse",
+      "tile": "C2",
+      "region": "Southeast District",
+      "localX": -31,
+      "localY": -2,
+      "masterX": 43.8,
+      "masterY": 38.0,
+      "role": "Shop or eatery",
+      "visual": "A calm city teahouse with an inviting small entrance and a quieter interior arrangement. A tiny courtyard is a permissible visual interpretation if room allows.",
+      "note": "Keep it in the city streets. Its name alone does not prescribe foreign monumental architecture or a vast tea estate.",
+      "parts": [
+        "Tea Room",
+        "Garden Alcove",
+        "Service Counter"
+      ],
+      "id": "GH60"
+    },
+    {
+      "name": "Pebblewick",
+      "tile": "C2",
+      "region": "Southeast District",
+      "localX": 42,
+      "localY": -6,
+      "masterX": 58.4,
+      "masterY": 39.0,
+      "role": "Coastal town",
+      "visual": "A small coastal town outside the eastern walls, with modest homes, local lanes and access to the water. It provides the inhabited setting for Seabreeze Inn just across the region edge.",
+      "note": "Distinct from southwestern Pebbletown and southeastern Brookmeadow. Keep the shore settlement visible but much smaller than Glowhaven City.",
+      "parts": [
+        "Shore Road",
+        "Pebblewick Green",
+        "Village Lane",
+        "Boat Landing"
+      ],
+      "id": "GH61"
+    },
+    {
+      "name": "Main City Gate",
+      "tile": "C2",
+      "region": "Southeast District",
+      "localX": -40,
+      "localY": -28,
+      "masterX": 42.0,
+      "masterY": 44.5,
+      "role": "Gate",
+      "visual": "The largest city gate anchors the southern threshold and the start of the great avenue. Give it a broad passable arch, flanking defensive masonry and a clear road out to Greyfield and the farms.",
+      "note": "Its silhouette is larger than the other gates, but attached to the same city wall. This pin is the main gate's ground entrance.",
+      "parts": [
+        "South Arch",
+        "Gate Square",
+        "Watch Rooms",
+        "South Road"
+      ],
+      "id": "GH62"
+    },
+    {
+      "name": "Seabreeze Inn",
+      "tile": "D2",
+      "region": "Crescent Coast",
+      "localX": -41,
+      "localY": -3,
+      "masterX": 61.8,
+      "masterY": 38.25,
+      "role": "Inn",
+      "visual": "A small coastal inn in Pebblewick, with lodging above or behind a public eating room and a straightforward approach from the shore lanes.",
+      "note": "Its pin is in the neighboring coast region but belongs to the same settlement as Pebblewick. Do not create a second town to contain the inn.",
+      "parts": [
+        "Reception",
+        "Common Room",
+        "Dining Room",
+        "Guest Landing",
+        "Kitchen Door"
+      ],
+      "id": "GH63"
+    },
+    {
+      "name": "Crescent Shores",
+      "tile": "D2",
+      "region": "Crescent Coast",
+      "localX": -44,
+      "localY": -24,
+      "masterX": 61.2,
+      "masterY": 43.5,
+      "role": "Coast",
+      "visual": "A curved stretch of eastern beaches with dunes, sheltered coves and a visible dry shore route. Leave uninterrupted sand and water between the few settlements.",
+      "note": "A coastline feature, not another village. The Crescent Shores pin is only an anchor within a longer beach.",
+      "parts": [
+        "Crescent Beach",
+        "Dune Path",
+        "Sheltered Cove",
+        "Coastal Bluff"
+      ],
+      "id": "GH64"
+    },
+    {
+      "name": "Gullwatch Reefs",
+      "tile": "D2",
+      "region": "Crescent Coast",
+      "localX": 25,
+      "localY": -24,
+      "masterX": 75.0,
+      "masterY": 43.5,
+      "role": "Reef habitat",
+      "visual": "Low exposed reefs, tidal pools and seabird nesting rocks sit off the eastern shore. Narrow usable channels separate the rock groups.",
+      "note": "No large buildings or castles. Use water clarity, pale rock and a few tiny birds rather than a giant gull emblem.",
+      "parts": [
+        "Boat Shelf",
+        "Tide Pools",
+        "Gull Ledges"
+      ],
+      "id": "GH65"
+    },
+    {
+      "name": "Splinterwake Wreck",
+      "tile": "E2",
+      "region": "Moonarch Shoals",
+      "localX": 13,
+      "localY": 35,
+      "masterX": 92.6,
+      "masterY": 28.749999999999996,
+      "role": "Wreck",
+      "visual": "A broken merchant hull lies caught among sharp eastern rocks. Low water reveals portions of its deck and cargo spaces, with deep water nearby.",
+      "note": "A grounded wreck at ship scale, not an intact enormous warship. The mobile kraken has no permanently occupied building or fixed nest here.",
+      "parts": [
+        "Outer Anchorage",
+        "Broken Deck",
+        "Flooded Hold",
+        "Deepwater Edge"
+      ],
+      "id": "GH66"
+    },
+    {
+      "name": "Moonarch Isle",
+      "tile": "E2",
+      "region": "Moonarch Shoals",
+      "localX": -20,
+      "localY": 0,
+      "masterX": 86.0,
+      "masterY": 37.5,
+      "role": "Small ruin island",
+      "visual": "A small rocky island holds a weathered stone arch, low foundations, salt-resistant plants and fragments of paving above a pebble landing.",
+      "note": "The arch is an inert ruin. Keep it smaller than inhabited islands and do not depict an active portal beam or a whole ruined metropolis.",
+      "parts": [
+        "Pebble Landing",
+        "Broken Arch",
+        "Tide Crypt",
+        "Offshore Drop"
+      ],
+      "id": "GH67"
+    },
+    {
+      "name": "Stillback Isle",
+      "tile": "E2",
+      "region": "Moonarch Shoals",
+      "localX": 16,
+      "localY": -39,
+      "masterX": 93.2,
+      "masterY": 47.25,
+      "role": "Island habitat",
+      "visual": "A sheltered low-rock island has a small beach, nesting shelf and the resting place of Mauruun, the enormous passive turtle. Weathered shell plates can resemble a low living rise.",
+      "note": "Its habitat remains the durable site. If the turtle is visible, make the head and shell a restrained secondary discovery, never a whole new continent.",
+      "parts": [
+        "Quiet Landing",
+        "Shell Garden",
+        "Nesting Shelf"
+      ],
+      "id": "GH68"
+    },
+    {
+      "name": "Pinewater Woods",
+      "tile": "A3",
+      "region": "Westpine Forest",
+      "localX": 6,
+      "localY": 31,
+      "masterX": 11.200000000000001,
+      "masterY": 54.75,
+      "role": "Woodland",
+      "visual": "Pine-shaded paths and a moss clearing follow the river's wooded western side. A usable open river edge contrasts with tighter trees farther inland.",
+      "note": "Keep river access continuous. Webs or animal signs are tiny optional details, not a web-covered giant dungeon.",
+      "parts": [
+        "River Edge",
+        "Pine Trail",
+        "Moss Clearing"
+      ],
+      "id": "GH69"
+    },
+    {
+      "name": "Pebbletown",
+      "tile": "B3",
+      "region": "Pinewater Vale",
+      "localX": 25,
+      "localY": 40,
+      "masterX": 35.0,
+      "masterY": 52.5,
+      "role": "Town",
+      "visual": "A small southwestern town outside Glowhaven's walls, with a town green, market corner and modest homes along connecting lanes.",
+      "note": "Keep it distinct from Pebblewick and Brookmeadow. It is a smaller settlement, with ordinary homes at the same physical scale as city homes.",
+      "parts": [
+        "Southwest Lane",
+        "Town Green",
+        "Market Corner"
+      ],
+      "id": "GH70"
+    },
+    {
+      "name": "Pinewater River",
+      "tile": "B3",
+      "region": "Pinewater Vale",
+      "localX": -25,
+      "localY": 20,
+      "masterX": 25.0,
+      "masterY": 57.49999999999999,
+      "role": "River corridor",
+      "visual": "A winding river runs through wooded valley banks, linking crossings, farms and Pebbletown's approaches. A ford, a river bend and a bank trail provide distinct usable stretches.",
+      "note": "Its pin marks a corridor, not the river's entire shape or source. The Disused Pump House is one small riverside structure within this location, not an additional major landmark.",
+      "parts": [
+        "Brookmeadow Ford",
+        "River Bend",
+        "Pinebank Trail",
+        "Disused Pump House"
+      ],
+      "id": "GH71"
+    },
+    {
+      "name": "Caravan Outpost",
+      "tile": "B3",
+      "region": "Pinewater Vale",
+      "localX": 35,
+      "localY": -22,
+      "masterX": 37.0,
+      "masterY": 68.0,
+      "role": "Rural working stop",
+      "visual": "A practical staging yard contains wagons, a few trade stalls and a roadside shelter beside the southern Pinewater route.",
+      "note": "A modest working stop, not a new walled trading city. Wagons and sheds remain comparable in size to other ordinary buildings.",
+      "parts": [
+        "Wagon Yard",
+        "Trade Stalls",
+        "Roadside Shelter"
+      ],
+      "id": "GH72"
+    },
+    {
+      "name": "Thistlebank Alchemy Cottage",
+      "tile": "B3",
+      "region": "Pinewater Vale",
+      "localX": 50,
+      "localY": -47,
+      "masterX": 40.0,
+      "masterY": 74.25,
+      "role": "Rural cottage",
+      "visual": "A low working cottage with a small herb plot, a warm copper workroom and a domestic front entrance. Modest planting beds support a household and practical alchemy.",
+      "note": "One tiny rural premises at a region boundary. Do not enlarge it to a manor, greenhouse palace or industrial plant.",
+      "parts": [
+        "Cottage Door",
+        "Copper Workroom",
+        "Herb Plot"
+      ],
+      "id": "GH73"
+    },
+    {
+      "name": "Shadowspire",
+      "tile": "C3",
+      "region": "Greenfield Farmlands",
+      "localX": 46,
+      "localY": 43,
+      "masterX": 59.2,
+      "masterY": 51.74999999999999,
+      "role": "Small secluded tower",
+      "visual": "A narrow secluded wizard's tower stands in a woodland pocket off the cultivated country's edge. A small outer clearing, brass-bound door and twisting trail establish its quiet approach.",
+      "note": "It is a minor skyline accent compared with the Evertree and city institutions. The private portal and impossible household realm are inside or beyond it, not separate Glowhaven landmasses.",
+      "parts": [
+        "Shadowspire Forest",
+        "Twisting Trail",
+        "Outer Clearing",
+        "Threshold Hall",
+        "Upper Study",
+        "Cellar Gate"
+      ],
+      "id": "GH74"
+    },
+    {
+      "name": "Glowhaven Farmlands",
+      "tile": "C3",
+      "region": "Greenfield Farmlands",
+      "localX": -23,
+      "localY": 14,
+      "masterX": 45.4,
+      "masterY": 59.0,
+      "role": "Agricultural landscape",
+      "visual": "Cultivated grain and vegetable strips, small homesteads and irrigation branches spread beyond Greyfield and the southern city roads. Farm tracks connect the plots to the wider countryside.",
+      "note": "Fields, not buildings, occupy most of its footprint. Keep scattered roofs small and avoid filling the open farmland with ceremonial ruins.",
+      "parts": [
+        "South Fields",
+        "Farm Track",
+        "Irrigation Run",
+        "Brookmeadow Edge"
+      ],
+      "id": "GH75"
+    },
+    {
+      "name": "Seaward Overlook",
+      "tile": "D3",
+      "region": "Seaward Bluffs",
+      "localX": 32,
+      "localY": 2,
+      "masterX": 76.4,
+      "masterY": 62.0,
+      "role": "Natural viewpoint",
+      "visual": "A grassy coastal cliff has a sheltered sitting place among wind-shaped trees and an exposed sea-facing ledge.",
+      "note": "A terrain viewpoint, not an observation tower, monument or luxury lodge.",
+      "parts": [
+        "Sheltered Grass",
+        "Sea Ledge"
+      ],
+      "id": "GH76"
+    },
+    {
+      "name": "Starlark Abbey",
+      "tile": "D3",
+      "region": "Seaward Bluffs",
+      "localX": 21,
+      "localY": -36,
+      "masterX": 74.2,
+      "masterY": 71.5,
+      "role": "Rural religious complex",
+      "visual": "White stone and a small bell tower rise above the southern river country. A chapel, hospice and guest wing cluster around a pilgrim court, with a working kitchen garden.",
+      "note": "A modest abbey devoted to Avelune, Lady of Returning Light. Keep it well below the city campuses in footprint; the hospitable grounds are not a second city.",
+      "parts": [
+        "Pilgrim Court",
+        "Chapel of Returning Light",
+        "Hospice",
+        "Kitchen Garden",
+        "Guest Wing"
+      ],
+      "id": "GH77"
+    },
+    {
+      "name": "Greenrush Estuary",
+      "tile": "E3",
+      "region": "Greenrush Marshes",
+      "localX": 8,
+      "localY": -21,
+      "masterX": 91.6,
+      "masterY": 67.75,
+      "role": "Wetland and landing",
+      "visual": "Shallow tidal channels, reed beds and pale sandbars spread where the river meets the eastern sea. A small skiff landing, raised reedwalk, boat supports and field shelter serve practical work.",
+      "note": "This is a broad wetland with very few structures. Show actual open channels; do not replace the estuary with a large port city.",
+      "parts": [
+        "Skiff Landing",
+        "Reedwalk",
+        "Sandbar Crossing",
+        "Field Shelter"
+      ],
+      "id": "GH78"
+    },
+    {
+      "name": "Old Southwatch",
+      "tile": "A4",
+      "region": "Southglade Woods",
+      "localX": 19,
+      "localY": -10,
+      "masterX": 13.8,
+      "masterY": 90.0,
+      "role": "Small lookout",
+      "visual": "An old stone lookout rises from a forested southern slope, with a root-crossed approach, a habitable lower room and a damaged upper walk.",
+      "note": "A single modest tower or lookout remnant. It does not command an active garrison or justify another fortress town.",
+      "parts": [
+        "Forest Steps",
+        "Keeper’s Room",
+        "Lookout Walk"
+      ],
+      "id": "GH79"
+    },
+    {
+      "name": "Longgrass Crossroads",
+      "tile": "D4",
+      "region": "Brookmeadow Downs",
+      "localX": -29,
+      "localY": 49,
+      "masterX": 64.2,
+      "masterY": 75.25,
+      "role": "Road junction",
+      "visual": "Three dirt roads meet in open downs near the river bridge and Brookmeadow approach. A worn roofed shelter, bench and cart pull-off mark the junction.",
+      "note": "No paved highway or triumphal square. The pin sits almost on a northern region edge; draw continuous roads across that seam.",
+      "parts": [
+        "Way Shelter",
+        "Cart Verge",
+        "Riverward Track"
+      ],
+      "id": "GH80"
+    },
+    {
+      "name": "Wrenhill Windmill",
+      "tile": "D4",
+      "region": "Brookmeadow Downs",
+      "localX": 13,
+      "localY": -11,
+      "masterX": 72.6,
+      "masterY": 90.25,
+      "role": "Rural working building",
+      "visual": "A working windmill turns above scattered grain plots on Brookmeadow's western approach. A small mill yard and wagon waiting space sit around its base.",
+      "note": "Keep the mill a compact useful landmark, not an enormous wind-farm monument. Nearby houses retain the same ordinary building scale.",
+      "parts": [
+        "Mill Yard",
+        "Grinding Floor",
+        "Sail Gallery"
+      ],
+      "id": "GH81"
+    },
+    {
+      "name": "Brookmeadow",
+      "tile": "E4",
+      "region": "Brookmeadow Vale",
+      "localX": -24,
+      "localY": 12,
+      "masterX": 85.2,
+      "masterY": 84.5,
+      "role": "Village",
+      "visual": "A small southeastern farming village gathers modest houses around a green, with crop plots, working yards, mill lanes and a riverward approach. Mihana's cottage is one ordinary home off Mill Lane.",
+      "note": "This is the established rural starting village, not a new port. Its mill-lane name does not create a second giant windmill; Wrenhill Windmill is separately pinned to the west.",
+      "parts": [
+        "South Road",
+        "Village Green",
+        "Mill Lane",
+        "Mihana’s Cottage"
+      ],
+      "id": "GH82"
+    }
+  ]
+}

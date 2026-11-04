@@ -159,7 +159,7 @@ def main():
             assert len(t['conditions'])<=5,name
             assert len(js(t).encode('utf-16-le'))//2<=10000,(name,len(js(t)))
             for c in t['conditions']:
-                if isinstance(c.get('value'),str):assert len(c['value'].encode('utf-16-le'))//2<=100,(name,c)
+                if isinstance(c.get('value'),str):assert len(js(c['value']).encode('utf-16-le'))//2<=100,(name,c)
     write(WORLD,after);write(HERE/'manifest.json',meta)
     write(OUT/'The Schools of Magic, Arise! - Fishing.json',after)
     print(json.dumps({'fish':len(meta['species']),'gear':len(GEAR),'catchHints':len(SITES),'quests':len(meta['quests']),'changedLeaves':len(changes),'portraitPromptUnits':len(after['imagePromptConfiguration']['npcs'].encode('utf-16-le'))//2}))

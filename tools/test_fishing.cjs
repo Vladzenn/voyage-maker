@@ -67,7 +67,7 @@ for(const [k,t]of Object.entries(w.triggerDefinitions).filter(([k])=>k.startsWit
  ck(t.conditions.length<=5,'Condition cap '+k);ck(!t.script||!(/check\(\{\s*type\s*:\s*['"](?:action|story)['"]\s*,\s*query/.test(t.script)),'No fake script semantic evaluation '+k);
  ck(!(t.phase==='planning'&&t.conditions.some(c=>['story','action'].includes(c.type))),'Native phase convention '+k);
  ck(JSON.stringify(t).length<=10000,'Compact trigger cap '+k);
- for(const c of t.conditions)if(typeof c.value==='string')ck(c.value.length<=100,'Value cap '+k);
+ for(const c of t.conditions)if(typeof c.value==='string')ck(JSON.stringify(c.value).length<=100,'Serialized value cap '+k);
  if(t.script)new vm.Script(t.script);
 }
 for(const [area,habitat]of Object.entries(m.sites)){ck(!!w.locations[area.split(' - ')[0]]?.areas[area],'Actual fishing ground '+area);ck('rehsd'.includes(habitat),'Known habitat')}

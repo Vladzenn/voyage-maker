@@ -22,7 +22,7 @@ def apply(w):
     intent={
         'type':'action-text',
         'operator':'regex',
-        'value':r'\b([Ff]ish|[Aa]ngling|[Rr]eel|[Ll]ure|[Bb](ait|obber))\w*|\b([Cc]ast|[Ll]ower).*\b(line|rod|hook)\b',
+        'value':r'\b([Ff]ish|[Aa]ngling|[Rr]eel|[Ll]ure|[Bb](ait|obber)|([Cc]ast|[Ll]ower).*\b(line|rod|hook)\b)',
     }
     rod={'type':'player-item','item':'Angler’s Rod','operator':'greaterThan','value':0}
     bait={'type':'player-item','item':'Angler’s Bait Portion','operator':'greaterThan','value':0}
@@ -72,7 +72,7 @@ if(tick<=0||storage.fshCasts.baitMiss===tick){
         assert len(tr['conditions'])<=5,name
         assert len(js(tr).encode('utf-16-le'))//2<=10000,(name,len(js(tr)))
         for c in tr['conditions']:
-            if isinstance(c.get('value'),str):assert len(c['value'].encode('utf-16-le'))//2<=100
+            if isinstance(c.get('value'),str):assert len(js(c['value']).encode('utf-16-le'))//2<=100
     return {'species':[r[0] for r in fish],'regionalFishAdded':added,'realmCodes':REALM_CODES,'universalWater':True,'sitesAreCatchHintsOnly':True,'regionalSpecies':{realm:[r[0] for r in EXTRA_FISH if r[8]==code] for realm,code in REALM_CODES.items() if code!='g'},'sharedSpecies':[r[0] for r in EXTRA_FISH if r[8]=='*']}
 
 if __name__=='__main__':

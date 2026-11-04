@@ -3,7 +3,7 @@
   "baseCommit": "6dd409959c71dae444b74e100ab24d2e22e0f220",
   "preStudioSha256": "d65bd7314c774e6b9650fa25bf54fdf792686bb46de26ed1a53d7998a8d915c0",
   "beforeSha256": "4e7bbdc29877110fbd0fc717ecb6ab210115c7d267b0b395637dd9c9d1266803",
-  "afterSha256": "91314e52b01547c439914064a09a6fb379ab768502f296fcc4773adc301e7cd7",
+  "afterSha256": "2914db7233808ae383ed5d64e344332f27cb87c4203fefa1506d238ace34681b",
   "rows": [
     {
       "path": [
@@ -916,7 +916,7 @@
         "fsh_basics"
       ],
       "kind": "added",
-      "afterSha256": "72dd7c4e2f4037c29b8275975a718278ad82691e22be34f883f049a95f4633c6"
+      "afterSha256": "b8450981ad0608f974b67cc4073040154003d4b3f1e885292206a0554655c5e0"
     },
     {
       "path": [
@@ -924,7 +924,7 @@
         "fsh_cast_lure"
       ],
       "kind": "added",
-      "afterSha256": "25d7b5f0e3313ec8f163403c907a037e3516820ced931226b123848d08079377"
+      "afterSha256": "06d4261e98a506d8bd6e3c2f1eb1bcd2b8917ac16e5953425737e21b13f890f9"
     },
     {
       "path": [
@@ -932,7 +932,7 @@
         "fsh_cast_bait"
       ],
       "kind": "added",
-      "afterSha256": "b1b438ef497521de262535fa19755cf6647ff2dc504a6b58ff38764f60f3d2d1"
+      "afterSha256": "4a9ef57693c926cd2bc12c953c765e160a10d6cba00b4f5fa1bf51127bde47b1"
     },
     {
       "path": [
@@ -940,7 +940,7 @@
         "fsh_bait_miss"
       ],
       "kind": "added",
-      "afterSha256": "5261ba327ca5a3c24fad9137c4502b668c609a50f706662874be314f49138f1e"
+      "afterSha256": "effe56736a9da70d1fc44aea179df8352238daad34d1b05e9180388b406dc026"
     },
     {
       "path": [

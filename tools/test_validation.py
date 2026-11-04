@@ -64,12 +64,26 @@ class StudioValidationRegression(unittest.TestCase):
         tr['conditions'].append({'type': 'party-location', 'operator': 'regex', 'value': 'x' * 101})
         with self.assertRaisesRegex(ValueError, 'Trigger condition value cap: ghx_local_commissions'):
             self.validate()
-        # Studio counts UTF-16 units: 50 non-BMP glyphs fit, 51 do not.
-        tr['conditions'][-1]['value'] = '\U0001f30a' * 50
+        # Quotes occupy two units, leaving room for 49 non-BMP glyphs.
+        tr['conditions'][-1]['value'] = '\U0001f30a' * 49
         self.validate()
         tr['conditions'][-1]['value'] += '\U0001f30a'
         with self.assertRaisesRegex(ValueError, 'Trigger condition value cap: ghx_local_commissions'):
             self.validate()
+
+    def test_studio_rejects_previous_fishing_regex(self):
+        previous = r'\b([Ff]ish|[Aa]ngling|[Rr]eel|[Ll]ure|[Bb](ait|obber))\w*|\b([Cc]ast|[Ll]ower).*\b(line|rod|hook)\b'
+        self.assertEqual(project.units(previous), 99)
+        self.assertEqual(project.units(project.compact(previous)), 106)
+        for name in ('fsh_basics', 'fsh_cast_lure', 'fsh_cast_bait', 'fsh_bait_miss'):
+            condition = self.world['triggerDefinitions'][name]['conditions'][0]
+            current = condition['value']
+            with self.subTest(trigger=name):
+                condition['value'] = previous
+                with self.assertRaisesRegex(ValueError, f'Trigger condition value cap: {name}'):
+                    self.validate()
+                condition['value'] = current
+        self.validate()
 
     def test_original_studio_rejection_is_detected(self):
         for name in self.talent_abilities:

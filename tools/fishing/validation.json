@@ -1,7 +1,7 @@
 {
   "status": "local-checks-passed",
   "latestStudioExport": "366606e8-3528-434f-80b6-fef091104a73",
-  "fullWorldSHA256": "1339b47d9a4201d1da23e8ea648b4fe6591ea37f01b82b48bf6687060ba7a1a1",
+  "fullWorldSHA256": "a84f4a5e898d6bd85f35b96b354523fe36a0afaeea556b8c827f261d22613200",
   "npcCount": 397,
   "itemCount": 546,
   "questCount": 242,
@@ -15,7 +15,7 @@
   "fishingQuests": 3,
   "checks": {
     "structural": 25182,
-    "validationTests": 8,
+    "validationTests": 9,
     "portraitWorkflowTests": 19,
     "itemMechanics": 1209,
     "fieldwork": 1866,
@@ -46,5 +46,16 @@
     ],
     "baitOutcomesTestedInBothOrders": true,
     "sharedRareHookTestedLocally": true
+  },
+  "studioConditionValueFollowUp": {
+    "triggerKeys": [
+      "fsh_basics",
+      "fsh_cast_lure",
+      "fsh_cast_bait",
+      "fsh_bait_miss"
+    ],
+    "previousSerializedUnits": 106,
+    "currentSerializedUnits": 99,
+    "cap": 100
   }
 }

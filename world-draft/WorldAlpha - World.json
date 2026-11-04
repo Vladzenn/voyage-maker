@@ -86182,7 +86182,7 @@
         {
           "type": "action-text",
           "operator": "regex",
-          "value": "\\b([Ff]ish|[Aa]ngling|[Rr]eel|[Ll]ure|[Bb](ait|obber))\\w*|\\b([Cc]ast|[Ll]ower).*\\b(line|rod|hook)\\b"
+          "value": "\\b([Ff]ish|[Aa]ngling|[Rr]eel|[Ll]ure|[Bb](ait|obber)|([Cc]ast|[Ll]ower).*\\b(line|rod|hook)\\b)"
         },
         {
           "type": "player-item",
@@ -86218,7 +86218,7 @@
         {
           "type": "action-text",
           "operator": "regex",
-          "value": "\\b([Ff]ish|[Aa]ngling|[Rr]eel|[Ll]ure|[Bb](ait|obber))\\w*|\\b([Cc]ast|[Ll]ower).*\\b(line|rod|hook)\\b"
+          "value": "\\b([Ff]ish|[Aa]ngling|[Rr]eel|[Ll]ure|[Bb](ait|obber)|([Cc]ast|[Ll]ower).*\\b(line|rod|hook)\\b)"
         },
         {
           "type": "player-item",
@@ -86252,7 +86252,7 @@
         {
           "type": "action-text",
           "operator": "regex",
-          "value": "\\b([Ff]ish|[Aa]ngling|[Rr]eel|[Ll]ure|[Bb](ait|obber))\\w*|\\b([Cc]ast|[Ll]ower).*\\b(line|rod|hook)\\b"
+          "value": "\\b([Ff]ish|[Aa]ngling|[Rr]eel|[Ll]ure|[Bb](ait|obber)|([Cc]ast|[Ll]ower).*\\b(line|rod|hook)\\b)"
         },
         {
           "type": "player-item",
@@ -86287,7 +86287,7 @@
         {
           "type": "action-text",
           "operator": "regex",
-          "value": "\\b([Ff]ish|[Aa]ngling|[Rr]eel|[Ll]ure|[Bb](ait|obber))\\w*|\\b([Cc]ast|[Ll]ower).*\\b(line|rod|hook)\\b"
+          "value": "\\b([Ff]ish|[Aa]ngling|[Rr]eel|[Ll]ure|[Bb](ait|obber)|([Cc]ast|[Ll]ower).*\\b(line|rod|hook)\\b)"
         },
         {
           "type": "player-item",

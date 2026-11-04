@@ -163,7 +163,8 @@ def validate(world=None):
         ck(units(compact(tr)) <= 10000, f'Trigger character cap: {name}')
         for c in tr.get('conditions', []):
             if isinstance(c.get('value'), str):
-                ck(units(c['value']) <= 100, f'Trigger condition value cap: {name}')
+                # Studio counts the JSON string, including quotes and escaped backslashes.
+                ck(units(compact(c['value'])) <= 100, f'Trigger condition value cap: {name}')
             if c['type'] in ['story', 'action']:
                 ck(units(c['query']) <= 1000, f'Trigger semantic query cap: {name}')
             if c['type'] == 'player-item':

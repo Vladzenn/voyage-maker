@@ -1,0 +1,60 @@
+﻿number,name,xPercent,yPercent,initialKnown,interpretation,status
+1,Drakenspire Portals,63.15104,54.29688,True,proposed transit hall,proposed placement; not applied
+2,Embersteel Foundries,76.95312,54.49219,True,proposed industrial edge,proposed placement; not applied
+3,Stonefang Training Grounds,78.77604,42.28516,True,visible practice court,proposed placement; not applied
+4,Whitepass Caravan Lodge,56.90104,80.66406,True,roadside lodge,proposed placement; not applied
+5,Rimecrest Trail,92.1875,62.5,True,outer trail corridor,proposed placement; not applied
+6,Crescent Crown Fortress,19.14062,36.03516,True,upper fortress precinct,proposed placement; not applied
+7,The Ancestor's Crescent,8.07292,38.86719,True,single skeletal crescent,proposed placement; not applied
+8,The Jarl's Hall,19.14062,28.32031,True,large long hall,proposed placement; not applied
+9,Clans' Assembly House,18.75,36.42578,True,arched stone hall,proposed placement; not applied
+10,Crescent Sanctuary,25.84635,32.61719,True,upper precinct building,proposed placement; not applied
+11,Ancestor Cairn Terrace,23.56771,38.67188,True,visible cairn terrace,proposed placement; not applied
+12,High Rampart Gate,31.64062,35.54688,True,upper gate,proposed placement; not applied
+13,Oathward Barracks,27.79948,27.83203,True,upper courtyard range,proposed placement; not applied
+14,Dragonwatch Balcony,9.76562,43.06641,True,outward rampart ledge,proposed placement; not applied
+15,Founders' Processional Way,39.90885,42.08984,True,main winding city route,proposed placement; not applied
+16,Hearthmarket Square,49.15365,40.23438,True,awning market,proposed placement; not applied
+17,Snowmelt Residential Steps,42.70833,29.6875,True,dense residential block,proposed placement; not applied
+18,Cinderstone Schoolhouse,47.13542,49.31641,True,proposed medium school building,proposed placement; not applied
+19,Lower Hold Gate,52.01823,60.05859,True,main lower gate,proposed placement; not applied
+20,Iwatsugu Clanhold,37.69531,36.71875,True,proposed courtyard household,proposed placement; not applied
+21,Yukinose Clanhold,64.38802,42.38281,True,proposed courtyard household,proposed placement; not applied
+22,Arashimine Clanhold,67.96875,39.94141,True,proposed courtyard household,proposed placement; not applied
+23,The Hold's Judgment House,56.38021,35.44922,True,proposed civic building,proposed placement; not applied
+24,The Tempered Fang,72.65625,52.24609,True,proposed workshop roof,proposed placement; not applied
+25,Rivet & Rime Armory,70.76823,48.92578,True,proposed workshop roof,proposed placement; not applied
+26,The Woolen Wyvern,45.18229,43.75,True,proposed shop roof,proposed placement; not applied
+27,Coppercrest Exchange,60.9375,41.50391,True,richer exchange hall,proposed placement; not applied
+28,Amberglass Assay House,67.2526,45.89844,True,proposed assay building,proposed placement; not applied
+29,Crystalcutters' Court,65.49479,50.48828,True,proposed craft court,proposed placement; not applied
+30,Resin & Root Apothecary,45.89844,46.58203,True,proposed shop roof,proposed placement; not applied
+31,Snowchain Freight Yard,74.67448,54.88281,True,visible crane and cargo court,proposed placement; not applied
+32,The Copper Ram,52.73438,47.55859,True,proposed tavern roof,proposed placement; not applied
+33,Hearthpot Stew House,50.26042,44.72656,True,proposed eating-house roof,proposed placement; not applied
+34,Stonewake Onsen,37.10938,70.3125,True,visible lower urban bath,proposed placement; not applied
+35,Snowbell Playhouse,55.72917,52.14844,True,proposed performance hall,proposed placement; not applied
+36,The Cinder Pit,72.85156,45.50781,True,proposed enclosed venue,proposed placement; not applied
+37,Deepwell Waterworks,41.92708,72.65625,True,proposed utility ledge,proposed placement; not applied
+38,Hoofstep Pens,84.89583,89.25781,True,visible livestock pens,proposed placement; not applied
+39,Woolridge Pastures,92.83854,82.03125,True,lower grazing folds,proposed placement; not applied
+40,Winter Stores,80.14323,58.39844,True,proposed reserve depot,proposed placement; not applied
+41,Whitepass Watchpost,68.88021,73.92578,True,road watchpost,proposed placement; not applied
+42,Goatstep Hamlet,72.26562,84.57031,True,small low hamlet,proposed placement; not applied
+43,Pinefold Hollow,60.41667,92.67578,True,sheltered low pine fold,proposed placement; not applied
+44,Glassmere Basin,86.65365,19.82422,True,frozen inland lake,proposed placement; not applied
+45,Redvein Mine,10.09115,16.11328,True,managed extraction entrance,proposed placement; not applied
+46,Lanternamber Caverns,23.30729,17.57812,True,separate amber cave entrance,proposed placement; not applied
+47,The Abandoned Chainworks,40.625,11.52344,True,broken haul frames,proposed placement; not applied
+48,Old Hearthfall,41.53646,21.28906,True,roofless ruined settlement,proposed placement; not applied
+49,Frostback Mountain,16.86198,5.17578,True,neighboring snow peak,proposed placement; not applied
+50,The Buried Switchback,54.7526,18.26172,True,old mountain bends,proposed placement; not applied
+51,Skreek Crags,94.59635,7.03125,True,remote cliff perches,proposed placement; not applied
+52,Giant's Hollow,27.92969,15.03906,True,proposed remote overhang,proposed placement; not applied
+53,The White Silence,67.64323,3.02734,False,remote snow basin,proposed placement; not applied
+54,Stormscar Observatory,68.16406,9.76562,True,ridge station ruin,proposed placement; not applied
+55,First Shelter Ruins,4.29688,73.24219,False,proposed sheltered ruin terrain,proposed placement; not applied
+56,The Old Offering Steps,70.18229,25.87891,True,visible mountain stair/ledge,proposed placement; not applied
+57,Coldglass Galleries,97.13542,30.56641,False,icy cave mouth,proposed placement; not applied
+58,The Fallen Pass Shrine,8.33333,83.49609,False,collapsed outer shrine remnant,proposed placement; not applied
+59,Rimefang Ravine,95.18229,72.55859,True,ravine and broken crossing,proposed placement; not applied

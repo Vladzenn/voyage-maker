@@ -1,0 +1,539 @@
+{
+  "map": "world-draft/maps/Drakenspire Highlands 2026-11-05/Drakenspire - High Stone City and Highlands.png",
+  "coordinateConvention": "Image-relative percentages from top-left; not Voyage world coordinates",
+  "sourceWidth": 1536,
+  "sourceHeight": 1024,
+  "locations": [
+    {
+      "number": 1,
+      "name": "Drakenspire Portals",
+      "xPercent": 63.15104,
+      "yPercent": 54.29688,
+      "initialKnown": true,
+      "interpretation": "proposed transit hall",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 2,
+      "name": "Embersteel Foundries",
+      "xPercent": 76.95312,
+      "yPercent": 54.49219,
+      "initialKnown": true,
+      "interpretation": "proposed industrial edge",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 3,
+      "name": "Stonefang Training Grounds",
+      "xPercent": 78.77604,
+      "yPercent": 42.28516,
+      "initialKnown": true,
+      "interpretation": "visible practice court",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 4,
+      "name": "Whitepass Caravan Lodge",
+      "xPercent": 56.90104,
+      "yPercent": 80.66406,
+      "initialKnown": true,
+      "interpretation": "roadside lodge",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 5,
+      "name": "Rimecrest Trail",
+      "xPercent": 92.1875,
+      "yPercent": 62.5,
+      "initialKnown": true,
+      "interpretation": "outer trail corridor",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 6,
+      "name": "Crescent Crown Fortress",
+      "xPercent": 19.14062,
+      "yPercent": 36.03516,
+      "initialKnown": true,
+      "interpretation": "upper fortress precinct",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 7,
+      "name": "The Ancestor's Crescent",
+      "xPercent": 8.07292,
+      "yPercent": 38.86719,
+      "initialKnown": true,
+      "interpretation": "single skeletal crescent",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 8,
+      "name": "The Jarl's Hall",
+      "xPercent": 19.14062,
+      "yPercent": 28.32031,
+      "initialKnown": true,
+      "interpretation": "large long hall",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 9,
+      "name": "Clans' Assembly House",
+      "xPercent": 18.75,
+      "yPercent": 36.42578,
+      "initialKnown": true,
+      "interpretation": "arched stone hall",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 10,
+      "name": "Crescent Sanctuary",
+      "xPercent": 25.84635,
+      "yPercent": 32.61719,
+      "initialKnown": true,
+      "interpretation": "upper precinct building",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 11,
+      "name": "Ancestor Cairn Terrace",
+      "xPercent": 23.56771,
+      "yPercent": 38.67188,
+      "initialKnown": true,
+      "interpretation": "visible cairn terrace",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 12,
+      "name": "High Rampart Gate",
+      "xPercent": 31.64062,
+      "yPercent": 35.54688,
+      "initialKnown": true,
+      "interpretation": "upper gate",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 13,
+      "name": "Oathward Barracks",
+      "xPercent": 27.79948,
+      "yPercent": 27.83203,
+      "initialKnown": true,
+      "interpretation": "upper courtyard range",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 14,
+      "name": "Dragonwatch Balcony",
+      "xPercent": 9.76562,
+      "yPercent": 43.06641,
+      "initialKnown": true,
+      "interpretation": "outward rampart ledge",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 15,
+      "name": "Founders' Processional Way",
+      "xPercent": 39.90885,
+      "yPercent": 42.08984,
+      "initialKnown": true,
+      "interpretation": "main winding city route",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 16,
+      "name": "Hearthmarket Square",
+      "xPercent": 49.15365,
+      "yPercent": 40.23438,
+      "initialKnown": true,
+      "interpretation": "awning market",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 17,
+      "name": "Snowmelt Residential Steps",
+      "xPercent": 42.70833,
+      "yPercent": 29.6875,
+      "initialKnown": true,
+      "interpretation": "dense residential block",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 18,
+      "name": "Cinderstone Schoolhouse",
+      "xPercent": 47.13542,
+      "yPercent": 49.31641,
+      "initialKnown": true,
+      "interpretation": "proposed medium school building",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 19,
+      "name": "Lower Hold Gate",
+      "xPercent": 52.01823,
+      "yPercent": 60.05859,
+      "initialKnown": true,
+      "interpretation": "main lower gate",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 20,
+      "name": "Iwatsugu Clanhold",
+      "xPercent": 37.69531,
+      "yPercent": 36.71875,
+      "initialKnown": true,
+      "interpretation": "proposed courtyard household",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 21,
+      "name": "Yukinose Clanhold",
+      "xPercent": 64.38802,
+      "yPercent": 42.38281,
+      "initialKnown": true,
+      "interpretation": "proposed courtyard household",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 22,
+      "name": "Arashimine Clanhold",
+      "xPercent": 67.96875,
+      "yPercent": 39.94141,
+      "initialKnown": true,
+      "interpretation": "proposed courtyard household",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 23,
+      "name": "The Hold's Judgment House",
+      "xPercent": 56.38021,
+      "yPercent": 35.44922,
+      "initialKnown": true,
+      "interpretation": "proposed civic building",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 24,
+      "name": "The Tempered Fang",
+      "xPercent": 72.65625,
+      "yPercent": 52.24609,
+      "initialKnown": true,
+      "interpretation": "proposed workshop roof",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 25,
+      "name": "Rivet & Rime Armory",
+      "xPercent": 70.76823,
+      "yPercent": 48.92578,
+      "initialKnown": true,
+      "interpretation": "proposed workshop roof",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 26,
+      "name": "The Woolen Wyvern",
+      "xPercent": 45.18229,
+      "yPercent": 43.75,
+      "initialKnown": true,
+      "interpretation": "proposed shop roof",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 27,
+      "name": "Coppercrest Exchange",
+      "xPercent": 60.9375,
+      "yPercent": 41.50391,
+      "initialKnown": true,
+      "interpretation": "richer exchange hall",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 28,
+      "name": "Amberglass Assay House",
+      "xPercent": 67.2526,
+      "yPercent": 45.89844,
+      "initialKnown": true,
+      "interpretation": "proposed assay building",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 29,
+      "name": "Crystalcutters' Court",
+      "xPercent": 65.49479,
+      "yPercent": 50.48828,
+      "initialKnown": true,
+      "interpretation": "proposed craft court",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 30,
+      "name": "Resin & Root Apothecary",
+      "xPercent": 45.89844,
+      "yPercent": 46.58203,
+      "initialKnown": true,
+      "interpretation": "proposed shop roof",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 31,
+      "name": "Snowchain Freight Yard",
+      "xPercent": 74.67448,
+      "yPercent": 54.88281,
+      "initialKnown": true,
+      "interpretation": "visible crane and cargo court",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 32,
+      "name": "The Copper Ram",
+      "xPercent": 52.73438,
+      "yPercent": 47.55859,
+      "initialKnown": true,
+      "interpretation": "proposed tavern roof",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 33,
+      "name": "Hearthpot Stew House",
+      "xPercent": 50.26042,
+      "yPercent": 44.72656,
+      "initialKnown": true,
+      "interpretation": "proposed eating-house roof",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 34,
+      "name": "Stonewake Onsen",
+      "xPercent": 37.10938,
+      "yPercent": 70.3125,
+      "initialKnown": true,
+      "interpretation": "visible lower urban bath",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 35,
+      "name": "Snowbell Playhouse",
+      "xPercent": 55.72917,
+      "yPercent": 52.14844,
+      "initialKnown": true,
+      "interpretation": "proposed performance hall",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 36,
+      "name": "The Cinder Pit",
+      "xPercent": 72.85156,
+      "yPercent": 45.50781,
+      "initialKnown": true,
+      "interpretation": "proposed enclosed venue",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 37,
+      "name": "Deepwell Waterworks",
+      "xPercent": 41.92708,
+      "yPercent": 72.65625,
+      "initialKnown": true,
+      "interpretation": "proposed utility ledge",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 38,
+      "name": "Hoofstep Pens",
+      "xPercent": 84.89583,
+      "yPercent": 89.25781,
+      "initialKnown": true,
+      "interpretation": "visible livestock pens",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 39,
+      "name": "Woolridge Pastures",
+      "xPercent": 92.83854,
+      "yPercent": 82.03125,
+      "initialKnown": true,
+      "interpretation": "lower grazing folds",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 40,
+      "name": "Winter Stores",
+      "xPercent": 80.14323,
+      "yPercent": 58.39844,
+      "initialKnown": true,
+      "interpretation": "proposed reserve depot",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 41,
+      "name": "Whitepass Watchpost",
+      "xPercent": 68.88021,
+      "yPercent": 73.92578,
+      "initialKnown": true,
+      "interpretation": "road watchpost",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 42,
+      "name": "Goatstep Hamlet",
+      "xPercent": 72.26562,
+      "yPercent": 84.57031,
+      "initialKnown": true,
+      "interpretation": "small low hamlet",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 43,
+      "name": "Pinefold Hollow",
+      "xPercent": 60.41667,
+      "yPercent": 92.67578,
+      "initialKnown": true,
+      "interpretation": "sheltered low pine fold",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 44,
+      "name": "Glassmere Basin",
+      "xPercent": 86.65365,
+      "yPercent": 19.82422,
+      "initialKnown": true,
+      "interpretation": "frozen inland lake",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 45,
+      "name": "Redvein Mine",
+      "xPercent": 10.09115,
+      "yPercent": 16.11328,
+      "initialKnown": true,
+      "interpretation": "managed extraction entrance",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 46,
+      "name": "Lanternamber Caverns",
+      "xPercent": 23.30729,
+      "yPercent": 17.57812,
+      "initialKnown": true,
+      "interpretation": "separate amber cave entrance",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 47,
+      "name": "The Abandoned Chainworks",
+      "xPercent": 40.625,
+      "yPercent": 11.52344,
+      "initialKnown": true,
+      "interpretation": "broken haul frames",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 48,
+      "name": "Old Hearthfall",
+      "xPercent": 41.53646,
+      "yPercent": 21.28906,
+      "initialKnown": true,
+      "interpretation": "roofless ruined settlement",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 49,
+      "name": "Frostback Mountain",
+      "xPercent": 16.86198,
+      "yPercent": 5.17578,
+      "initialKnown": true,
+      "interpretation": "neighboring snow peak",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 50,
+      "name": "The Buried Switchback",
+      "xPercent": 54.7526,
+      "yPercent": 18.26172,
+      "initialKnown": true,
+      "interpretation": "old mountain bends",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 51,
+      "name": "Skreek Crags",
+      "xPercent": 94.59635,
+      "yPercent": 7.03125,
+      "initialKnown": true,
+      "interpretation": "remote cliff perches",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 52,
+      "name": "Giant's Hollow",
+      "xPercent": 27.92969,
+      "yPercent": 15.03906,
+      "initialKnown": true,
+      "interpretation": "proposed remote overhang",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 53,
+      "name": "The White Silence",
+      "xPercent": 67.64323,
+      "yPercent": 3.02734,
+      "initialKnown": false,
+      "interpretation": "remote snow basin",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 54,
+      "name": "Stormscar Observatory",
+      "xPercent": 68.16406,
+      "yPercent": 9.76562,
+      "initialKnown": true,
+      "interpretation": "ridge station ruin",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 55,
+      "name": "First Shelter Ruins",
+      "xPercent": 4.29688,
+      "yPercent": 73.24219,
+      "initialKnown": false,
+      "interpretation": "proposed sheltered ruin terrain",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 56,
+      "name": "The Old Offering Steps",
+      "xPercent": 70.18229,
+      "yPercent": 25.87891,
+      "initialKnown": true,
+      "interpretation": "visible mountain stair/ledge",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 57,
+      "name": "Coldglass Galleries",
+      "xPercent": 97.13542,
+      "yPercent": 30.56641,
+      "initialKnown": false,
+      "interpretation": "icy cave mouth",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 58,
+      "name": "The Fallen Pass Shrine",
+      "xPercent": 8.33333,
+      "yPercent": 83.49609,
+      "initialKnown": false,
+      "interpretation": "collapsed outer shrine remnant",
+      "status": "proposed placement; not applied"
+    },
+    {
+      "number": 59,
+      "name": "Rimefang Ravine",
+      "xPercent": 95.18229,
+      "yPercent": 72.55859,
+      "initialKnown": true,
+      "interpretation": "ravine and broken crossing",
+      "status": "proposed placement; not applied"
+    }
+  ]
+}

@@ -1,0 +1,338 @@
+{
+  "pdf": "R:\\VoyageMaker\\world-draft\\authoring\\plans\\Drakenspire - Standalone Fresh Map Prompt.pdf",
+  "pageCount": 43,
+  "locationCount": 59,
+  "areaCount": 251,
+  "missingLocationNames": [],
+  "missingAreaNames": [],
+  "sourceSha256": "59483a52a9fb20f841300ed4db14615234d48fd0477e990712bc4093c588880c",
+  "pdfSha256": "88014e53b92346699e72df259510bd61f4fa7c7ad0c6812bb4d61e7e440b10e4",
+  "textCharacters": 130831,
+  "headings": [
+    {
+      "heading": "A fresh stone-built mountain city and its surrounding highlands",
+      "page": 1
+    },
+    {
+      "heading": "The author brief",
+      "page": 2
+    },
+    {
+      "heading": "Interpretation for the next image",
+      "page": 2
+    },
+    {
+      "heading": "Copy-ready image prompt",
+      "page": 3
+    },
+    {
+      "heading": "Art reference 1 - Ardelis",
+      "page": 4
+    },
+    {
+      "heading": "Art reference 2 - Akitsuhara",
+      "page": 5
+    },
+    {
+      "heading": "Canon summary and design checks",
+      "page": 6
+    },
+    {
+      "heading": "City and elevation",
+      "page": 6
+    },
+    {
+      "heading": "The main landmark",
+      "page": 6
+    },
+    {
+      "heading": "Ordinary life",
+      "page": 6
+    },
+    {
+      "heading": "Production and services",
+      "page": 6
+    },
+    {
+      "heading": "Surrounding country",
+      "page": 6
+    },
+    {
+      "heading": "Unknown sites",
+      "page": 6
+    },
+    {
+      "heading": "Protected uncertainties",
+      "page": 6
+    },
+    {
+      "heading": "Current inventory",
+      "page": 6
+    },
+    {
+      "heading": "Canonical realm and region",
+      "page": 7
+    },
+    {
+      "heading": "Drakenspire Mountains",
+      "page": 7
+    },
+    {
+      "heading": "Drakenspire Highlands",
+      "page": 7
+    },
+    {
+      "heading": "Source provenance",
+      "page": 7
+    },
+    {
+      "heading": "Exact current location index",
+      "page": 8
+    },
+    {
+      "heading": "Full location and area descriptions",
+      "page": 9
+    },
+    {
+      "heading": "01. Drakenspire Portals",
+      "page": 9
+    },
+    {
+      "heading": "02. Embersteel Foundries",
+      "page": 10
+    },
+    {
+      "heading": "03. Stonefang Training Grounds",
+      "page": 10
+    },
+    {
+      "heading": "04. Whitepass Caravan Lodge",
+      "page": 11
+    },
+    {
+      "heading": "05. Rimecrest Trail",
+      "page": 12
+    },
+    {
+      "heading": "06. Crescent Crown Fortress",
+      "page": 12
+    },
+    {
+      "heading": "07. The Ancestor's Crescent",
+      "page": 13
+    },
+    {
+      "heading": "08. The Jarl's Hall",
+      "page": 14
+    },
+    {
+      "heading": "09. Clans' Assembly House",
+      "page": 14
+    },
+    {
+      "heading": "10. Crescent Sanctuary",
+      "page": 15
+    },
+    {
+      "heading": "11. Ancestor Cairn Terrace",
+      "page": 16
+    },
+    {
+      "heading": "12. High Rampart Gate",
+      "page": 16
+    },
+    {
+      "heading": "13. Oathward Barracks",
+      "page": 17
+    },
+    {
+      "heading": "14. Dragonwatch Balcony",
+      "page": 17
+    },
+    {
+      "heading": "15. Founders' Processional Way",
+      "page": 18
+    },
+    {
+      "heading": "16. Hearthmarket Square",
+      "page": 19
+    },
+    {
+      "heading": "17. Snowmelt Residential Steps",
+      "page": 19
+    },
+    {
+      "heading": "18. Cinderstone Schoolhouse",
+      "page": 20
+    },
+    {
+      "heading": "19. Lower Hold Gate",
+      "page": 21
+    },
+    {
+      "heading": "20. Iwatsugu Clanhold",
+      "page": 21
+    },
+    {
+      "heading": "21. Yukinose Clanhold",
+      "page": 22
+    },
+    {
+      "heading": "22. Arashimine Clanhold",
+      "page": 22
+    },
+    {
+      "heading": "23. The Hold's Judgment House",
+      "page": 23
+    },
+    {
+      "heading": "24. The Tempered Fang",
+      "page": 23
+    },
+    {
+      "heading": "25. Rivet & Rime Armory",
+      "page": 24
+    },
+    {
+      "heading": "26. The Woolen Wyvern",
+      "page": 25
+    },
+    {
+      "heading": "27. Coppercrest Exchange",
+      "page": 25
+    },
+    {
+      "heading": "28. Amberglass Assay House",
+      "page": 26
+    },
+    {
+      "heading": "29. Crystalcutters' Court",
+      "page": 26
+    },
+    {
+      "heading": "30. Resin & Root Apothecary",
+      "page": 27
+    },
+    {
+      "heading": "31. Snowchain Freight Yard",
+      "page": 28
+    },
+    {
+      "heading": "32. The Copper Ram",
+      "page": 28
+    },
+    {
+      "heading": "33. Hearthpot Stew House",
+      "page": 29
+    },
+    {
+      "heading": "34. Stonewake Onsen",
+      "page": 29
+    },
+    {
+      "heading": "35. Snowbell Playhouse",
+      "page": 30
+    },
+    {
+      "heading": "36. The Cinder Pit",
+      "page": 30
+    },
+    {
+      "heading": "37. Deepwell Waterworks",
+      "page": 31
+    },
+    {
+      "heading": "38. Hoofstep Pens",
+      "page": 32
+    },
+    {
+      "heading": "39. Woolridge Pastures",
+      "page": 32
+    },
+    {
+      "heading": "40. Winter Stores",
+      "page": 33
+    },
+    {
+      "heading": "41. Whitepass Watchpost",
+      "page": 33
+    },
+    {
+      "heading": "42. Goatstep Hamlet",
+      "page": 34
+    },
+    {
+      "heading": "43. Pinefold Hollow",
+      "page": 34
+    },
+    {
+      "heading": "44. Glassmere Basin",
+      "page": 35
+    },
+    {
+      "heading": "45. Redvein Mine",
+      "page": 35
+    },
+    {
+      "heading": "46. Lanternamber Caverns",
+      "page": 36
+    },
+    {
+      "heading": "47. The Abandoned Chainworks",
+      "page": 36
+    },
+    {
+      "heading": "48. Old Hearthfall",
+      "page": 37
+    },
+    {
+      "heading": "49. Frostback Mountain",
+      "page": 38
+    },
+    {
+      "heading": "50. The Buried Switchback",
+      "page": 38
+    },
+    {
+      "heading": "51. Skreek Crags",
+      "page": 39
+    },
+    {
+      "heading": "52. Giant's Hollow",
+      "page": 39
+    },
+    {
+      "heading": "53. The White Silence",
+      "page": 40
+    },
+    {
+      "heading": "54. Stormscar Observatory",
+      "page": 40
+    },
+    {
+      "heading": "55. First Shelter Ruins",
+      "page": 41
+    },
+    {
+      "heading": "56. The Old Offering Steps",
+      "page": 41
+    },
+    {
+      "heading": "57. Coldglass Galleries",
+      "page": 42
+    },
+    {
+      "heading": "58. The Fallen Pass Shrine",
+      "page": 42
+    },
+    {
+      "heading": "59. Rimefang Ravine",
+      "page": 43
+    }
+  ],
+  "renderReview": {
+    "renderer": "bundled Poppler pdftoppm",
+    "pagesReviewed": 43,
+    "result": "all page contact sheets inspected; no clipped text or images; source headings kept with description start"
+  }
+}

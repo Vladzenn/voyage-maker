@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-05",
+  "status": "fresh art proposal for review; not installed or accepted as final canon",
+  "canonicalSource": "world-draft/WorldAlpha - World.json",
+  "canonicalSourceSha256": "59483a52a9fb20f841300ed4db14615234d48fd0477e990712bc4093c588880c",
+  "locations": 59,
+  "areas": 251,
+  "worldModified": false,
+  "skillDeletion": "build-voyage-maps removed at author request; no longer applied",
+  "tool": "built-in image_gen",
+  "artReferences": [
+    "R:\\VoyageMaker\\output\\ardelis-detail-atlas-2026-11-05\\master.png",
+    "R:\\VoyageMaker\\world-draft\\map-variations\\Oni Nation\\Oni Nation - Master Map v1.png"
+  ],
+  "selectedGeneratedSource": "C:/Users/VladCodes/.codex/generated_images/01a1abc4-c099-7eb3-9d6d-3eb11ad3e1ac/exec-0c86f24c-1784-40f7-85f0-0e0daeadb9ba.png",
+  "promptFile": "tools/drakenspire-map-2026-11-05/brief-input.json",
+  "mapNotes": "New fortress-left viewpoint; denser high-elevation stone town above nearby wilderness. Regional scene scale is visual, not a surveyed distance.",
+  "locatorNotes": "Deterministic numbered overlay of the exact clean map. All 59 anchors are proposed; no canonical coordinates changed.",
+  "files": [
+    {
+      "path": "world-draft/maps/Drakenspire Highlands 2026-11-05/Drakenspire - High Stone City and Highlands.png",
+      "sha256": "8f701724f939b66383ef37db428a6f6303c67704e18fa31b06017fc062e1f04f",
+      "bytes": 4286596,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "world-draft/maps/Drakenspire Highlands 2026-11-05/Drakenspire - Landmark Locator.png",
+      "sha256": "5a08af01f8e5feaeccb81bcbe8e404d1906aeabd7a505fe4bb849ccd879a817a",
+      "bytes": 7723867,
+      "dimensions": [
+        3420,
+        1920
+      ]
+    },
+    {
+      "path": "world-draft/authoring/plans/Drakenspire - Standalone Fresh Map Prompt.pdf",
+      "sha256": "88014e53b92346699e72df259510bd61f4fa7c7ad0c6812bb4d61e7e440b10e4",
+      "bytes": 13946815
+    }
+  ]
+}

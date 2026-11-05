@@ -4825,6 +4825,16 @@
       "size": 3594531,
       "sha256": "5e2362d4a4d2e333dc4c65ae4465ccb8f0f5bb5712747cc6ce725754e75b42a5",
       "mtimeNs": 1793883616462221000
+    },
+    "world-draft/maps/Drakenspire Highlands 2026-11-05/Drakenspire - High Stone City and Highlands.png": {
+      "size": 4286596,
+      "sha256": "8f701724f939b66383ef37db428a6f6303c67704e18fa31b06017fc062e1f04f",
+      "mtimeNs": 1793885359755816700
+    },
+    "world-draft/maps/Drakenspire Highlands 2026-11-05/Drakenspire - Landmark Locator.png": {
+      "size": 7723867,
+      "sha256": "5a08af01f8e5feaeccb81bcbe8e404d1906aeabd7a505fe4bb849ccd879a817a",
+      "mtimeNs": 1793885609438556800
     }
   }
 }

@@ -8,7 +8,7 @@ The supplied full Studio export is the planning reference: attachment `0e0a46a8-
 
 The author approved reactions on both sides of combat, a base Resonance threshold of 20, and future equipment or other bonuses that can lower the threshold. Everything numerical below is a balancing proposal, not an implemented guarantee. Enemy reactions do not automatically give every NPC a player-style Resonance meter; that remains a separate design choice. Recommend player meters first, with any special enemy burst authored and telegraphed.
 
-Recommended scope: keep the existing damage vocabulary, complete its presentation, introduce one short-lived imprint per target, use a small reaction table and add one personal Resonance meter. Do not build a different status controller for every elemental pair or introduce 171 combinations for the nineteen current damage types.
+Recommended scope: keep the existing damage vocabulary, complete its presentation, introduce one short-lived imprint per target, use a small reaction table and add one personal Resonance meter. Do not build a different status controller for every elemental pair or introduce 171 combinations for the nineteen current damage types. The author's follow-up replaces the original damage-heavy table: use a maximum 20% reaction damage bonus, lowering it to 10% or 0% when a concrete tactical effect carries the benefit. Every reaction also needs distinctive narration.
 
 ## What the current configuration actually contains
 
@@ -71,22 +71,39 @@ A qualifying hit leaves one inert imprint keyed to the exact target's runtime id
 
 ## Proposed launch reactions
 
-Pairs are order-independent. Percentages are provisional bonuses to the triggering action's ordinary damage, not percentages of the victim's maximum Health. They are design targets until the delivery bridge is verified.
+Pairs are order-independent. Percentages are provisional bonuses to the triggering action's ordinary damage, not percentages of the victim's maximum Health. They are design targets until the delivery bridge is verified. The following revision supersedes the initial 25–30% damage-heavy proposal.
 
-| Pair | Reaction | Proposed result |
-| --- | --- | --- |
-| Fire + Water | **Steamshock** | +25% damage; a short scalding burst, no automatic blindness |
-| Fire + Ice | **Thermal Shock** | +30% damage from abrupt temperature change |
-| Water + Lightning | **Conduction** | +25% damage to the actual target; no automatic chain to bystanders |
-| Water + Ice | **Rimebind** | Restrained movement until the target's next action or one party turn, whichever comes first; no lost turn or universal paralysis |
-| Fire + Lightning | **Flashburst** | +25% damage; no free area explosion |
-| Ice + a real heavy blunt hit | **Shatter** | +25% damage; an ordinary physical route for martial characters |
-| Fire + Nature | **Cinderbloom** | +20% immediate damage; no recurring burn tracker |
-| Lightning + Metal | **Induction** | +20% damage; no guaranteed disarm or control of someone's equipment |
-| Water + Earth | **Mire** | Briefly hinders the next repositioning action; grounded targets only, no forced immobilization |
-| Wind + Fire/Water/Ice/Lightning | **Galeweave** | +15% damage from carrying the existing element through the hit; consumes the primer, no spread in the first release |
+| Pair | Reaction | Damage bonus | Tactical effect and narration cue |
+| --- | --- | --- | --- |
+| Fire + Water | **Steamshock** | 0% | A short cloud of hissing steam disrupts sight through its actual small area. It can screen either side; it is not universal blindness. |
+| Fire + Ice | **Thermal Shock** | 20% | A sharp crack runs through the frost before it bursts into vapor and fragments. The extra damage is the benefit; do not silently destroy armor too. |
+| Water + Lightning | **Conduction** | 10% | Blue-white arcs run over wet surfaces; a brief spasm interferes with the target's next precise physical action when its anatomy permits. No automatic stun or spell cancellation. |
+| Water + Ice | **Rimebind** | 0% | Frost catches at boots, wet cloth or the supporting surface, hindering the next repositioning attempt. It does not cancel the target's whole turn or immobilize every creature. |
+| Fire + Lightning | **Flashburst** | 10% | A sharp report and pressure pulse can leave a suitably sized, grounded target off balance, creating one brief opening. No automatic knockdown or extra area attack. |
+| Ice + a real heavy blunt hit | **Shatter** | 20% | Frost breaks in a spray of splinters around the impact. A damaging martial follow-up, without another injury or debuff added for the spectacle. |
+| Fire + Nature | **Cinderbloom** | 0% | A flare burns through one weak patch of existing plant cover or growth. It can open a route; it does not invent plants, clear a whole forest or ignore a powerful root ward. |
+| Lightning + Metal | **Induction** | 0% | A metallic shiver pulls an existing metal implement briefly out of line, supporting a subsequent disarm or guard-breaking attempt. The weapon does not leave its owner's hand automatically. |
+| Water + Earth | **Mire** | 0% | Water and loose earth form treacherous footing, complicating retreat or pursuit across that actual patch. It does not turn any stone floor to mud or restrain a flying creature. |
+| Wind + Fire/Water/Ice/Lightning | **Galeweave** | 10% | A visible ribbon of the primed element follows a brief directional gust, potentially shifting a light target's position within the actual attack's limits. No free spread, new target or guaranteed throw into a hazard. |
 
-The launch has a damage category and a movement-interference category, rather than ten unique debuff timers. Rimebind and Mire use the same short-lived hindrance representation. If numeric penalties are used, choose one modest shared penalty after testing; do not invent a native stun effect or force the engine to skip a turn. Boss anatomy and established immunities still matter. No universal execution, boss freezing or armor deletion.
+The damage budget is 20% for a damage-focused reaction, roughly 10% for a small additional tactical effect, and 0% when utility is the main payoff. These are not equivalent in every fight: briefly preventing a boss's whole turn would be much stronger than 20% damage even at 0% bonus, so full-turn denial is not part of the launch proposal. Actual anatomy, footing, material, strength and established immunities limit the consequence. A poor combination can be tactically unhelpful; do not create a hedge, metal weapon or vulnerable body solely to make its utility work.
+
+Use one shared short-lived aftermath representation rather than a separate controller for each reaction. An aftermath expires after the target's next action or one completed party turn, whichever comes first. Clearly establish its extent, affected entity and practical consequence in narration. Once the condition ends, stop applying its effects. Consuming an imprint does not by itself erase an established steam cloud or frost restraint before that short aftermath expires.
+
+### Situational advantages already exist
+
+This update is not adding a generic advantage/disadvantage subsystem. Current Glowhaven action guidance already considers opposition, environment and preparation, and explicitly recognizes actual injury, terrain and active conditions through supported resolution. The narrator establishing a genuine condition can therefore change a subsequent action's feasibility, difficulty, context or impact. A cosmetic recoil is not automatically a persistent Off Balance status; a player's claim that an enemy is helpless is not a resolved condition.
+
+The reference exports reinforce different approaches:
+
+- `sources/Luxcellia.json`, `generateActionInfo` → `Difficulty, Bonuses and Impact`: circumstance changes difficulty, while numerical bonuses are restricted to actual sheet sources. Its footing/injury/preparation rules are authored instructions, not proof of a universal +5 rule.
+- `sources/ChikaraOld.json`, `generateActionInfo` → `Combat Guidance`: explicitly considers situational advantages. Its `Layered Moves` block separately authors a numerical support context modifier. This is an older supplied export, not evidence of the latest live Chikara behavior.
+
+Voyage's [ability/check reference](https://wiki.unofficial.voyage/mechanics/abilities) includes context modifiers among check contributions. The AI can judge a favorable situation; that does not guarantee the exact text `Opponent off balance +5` or any fixed number each time. The precise live UI presentation has not been tested here.
+
+For a reaction, define the real consequence and let the existing action resolver account for it. An off-balance foe may be easier to strike or evade when balance matters; this does not improve unrelated conversation, every magical defense, or every action for the remainder of combat. Do not award another roll modifier merely because a reaction's visual description sounds impressive. Do not count the same opening twice as both a flat context bonus and an easier difficulty tier. If a later playtest justifies a standardized +5 context rule, author it explicitly then; no new universal fixed bonus is approved now.
+
+Conditions arising from an action affect later eligible resolution. Do not retroactively change an attack whose roll already happened because the following narration used the word staggered. Existing native buffs, defenses and contextual resolution should carry as much of this as the platform supports, with custom bookkeeping reserved for imprint/aftermath expiry and Resonance ownership.
 
 Later candidates include Sound + a solid imprint (**Fracture**), Gravity + Earth (**Collapse**) and a carefully bounded Light/Dark interaction (**Eclipse**). They are deferred, not automatically added to every available school.
 
@@ -159,7 +176,7 @@ END
 
 Do not infer the recipient from the nearest name in action prose. Do not apply an effect to every scene NPC because a query says one NPC was struck. Party storage does not make player counters party-owned. Stable multiplayer actor and target identity must be verified; names/traits alone can be ambiguous.
 
-For a reaction combined with a Resonant hit, propose additive custom bonuses: ordinary 100% + reaction 25% + Resonance 50% = **175%**, not recursively multiplied bonuses. This caps only the new custom layer and does not rewrite the engine's separate success, resistance, equipment or injury calculations.
+For a reaction combined with a Resonant hit, propose additive custom bonuses: ordinary 100% + maximum reaction 20% + Resonance 50% = **170%**, not recursively multiplied bonuses. This caps only the new custom layer and does not rewrite the engine's separate success, resistance, equipment or injury calculations.
 
 ### What we can promise before a prototype
 

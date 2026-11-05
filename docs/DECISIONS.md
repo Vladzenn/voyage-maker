@@ -2,6 +2,10 @@
 
 These notes carry context between desktop and web chats. They supplement the actual JSON and creation guides; newer explicit user instructions take precedence.
 
+## 5 November — Crownwater Row setting correction
+
+The residential pin is within Caelrath’s city walls among ordinary housing, not at an aqueduct or waterfront. Keep its existing address, key/deed, paths and supplied coordinates/region; correct the location prose and home opening together. No quests refer to the home and no quest or mechanical change is required. Generate one matching neighborhood image. The author accepted the returned image; do not reroll it. Deliver it for manual upload alongside the corrected full world and individual location/start JSON. Continue the phantom-patch policy: no public patch notes.
+
 ## 5 November — Ardelis local beginnings phantom patch
 
 Implement only the accepted small addition using the latest full Studio export. Add six Ardelis fish to the existing universal fishing system, three Ardelis-themed starts (adult junior noble, new paladin recruit, recently established homeowner), and an accessible local return-key issue at Caelrath Portal Hall. No fishing start. Finish the author's residential placeholder at its exact pin; the home's purchase and its single key/deed predate the opening. Preserve existing starting money and actual character-creation abilities. Existing Ardelis openings keep their optional quest suggestions and relative order. Local transit is available without Vladimir, Rebirth progress, a guild exam or invented fees; foreign entry still uses genuine sponsorship. Do not alter the travel scripts or Spider anomaly. Preserve the export's maps, portraits, coordinate and combat-presentation edits. User explicitly requests **no public patch notes**. Private provenance, tests and GitHub synchronization remain required. This is not authorization to execute the separate world-overhaul plan or the deferred audit repairs.

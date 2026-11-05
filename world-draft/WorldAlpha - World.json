@@ -25051,7 +25051,7 @@
     },
     "Crownwater Row": {
       "name": "Crownwater Row",
-      "basicInfo": "A narrow residential lane follows an upper water terrace. Pale two-storey houses share violet shutters, small walled gardens and a view of the aqueduct. Number 14 has an iron gate, a ground-floor sitting room and a modest upper bedroom. Bakers’ deliveries and neighbors’ washing make this a lived-in street.",
+      "basicInfo": "A narrow residential street sits among the closely fitted neighborhoods inside Caelrath’s city walls. Pale two-storey houses have violet-tiled roofs, painted shutters, small front gardens and iron gates. Number 14 has a ground-floor sitting room and a modest upper bedroom. Bread deliveries, washing lines and conversations across low garden walls give the row its everyday rhythm.",
       "x": -4,
       "y": -34,
       "radius": 2,
@@ -25062,7 +25062,7 @@
       "hiddenInfo": "Number 14 is the home established by A Door of Your Own: its selected player already owns it and has the matching key and deed. In a shared start the household may be jointly owned. Other beginnings do not grant ownership. Keep residents’ private homes separate; access to this house is not access to the whole row. The purchase predates the opening, so charge no new purchase price or recurring rent.",
       "areas": {
         "Crownwater Row - Lane": {
-          "description": "Pale walls and violet shutters line a narrow paved lane. A shared drain runs beneath the aqueduct parapet; deliveries leave room for people to pass.",
+          "description": "A gently bending paved lane runs between pale houses with violet roofs, window boxes and low garden walls. Small iron gates open onto the street; neighbors leave room for handcarts, deliveries and pedestrians.",
           "paths": [
             "Crownwater Row - Number 14 Sitting Room"
           ]
@@ -25076,13 +25076,13 @@
           ]
         },
         "Crownwater Row - Number 14 Bedroom": {
-          "description": "The upper room has a bed, empty shelves and a wardrobe with one squeaking hinge. A high window admits morning light and the sound of water passing along the terrace.",
+          "description": "The upper room has a bed, empty shelves and a wardrobe with one squeaking hinge. Its window looks across neighboring tiled roofs and admits morning light, the call of a street vendor and the occasional rattle of a handcart.",
           "paths": [
             "Crownwater Row - Number 14 Sitting Room"
           ]
         },
         "Crownwater Row - Number 14 Garden": {
-          "description": "A small enclosed garden has a washing line, an unplanted bed and a rain barrel. The low rear wall looks toward the aqueduct but gives no public passage through the house.",
+          "description": "A small enclosed garden has a washing line, an unplanted bed and a rain barrel. Beyond the low rear wall lie neighboring gardens and house backs; it gives no public passage through the house.",
           "paths": [
             "Crownwater Row - Number 14 Sitting Room"
           ]
@@ -43378,7 +43378,7 @@
     "🏠 Ardelis: A Door of Your Own": {
       "name": "🏠 Ardelis: A Door of Your Own",
       "description": "Begin in Caelrath, Ardelis, inside the house you have just bought at 14 Crownwater Row. The deed is settled, the boxes are not, and your neighbors already have opinions. Make a home in the imperial capital on your own terms.",
-      "storyStart": "The front door opens properly on the third try. The trick, apparently, is lifting it slightly before turning the key.\n\nFourteen Crownwater Row is yours. The purchase is complete; the key and deed are already among your belongings. Inside, morning light crosses unopened boxes, a bare table and the clean rectangle where the previous owner’s rug used to lie. Upstairs a wardrobe hinge complains each time the breeze catches it.\n\nOutside, two neighbors are trying to carry a flowering shrub through a gate narrower than its pot.\n\n“Turn it,” the woman says.\n\n“I am turning it.”\n\n“The pot, not yourself.”\n\nA basket of bread rests on the low wall. Nina Suzuhara, the baker making her morning deliveries, is keeping a running count of how many times the shrub has come back out.\n\n“Five,” she says. Then she notices the open door. “Oh, good. Someone lives here now. I’m Nina, from Threadneedle. The previous owner ordered two loaves every fourth morning. You can tell me if that’s a habit worth keeping.”\n\nWater glints beyond the terrace parapet. Far below, a bell sounds in Kingsward, where the Portal Hall handles travel to Glowhaven. Here there is an empty house to arrange, a delivery to consider and a shrub that has once again reached the wrong side of the gate.",
+      "storyStart": "The front door opens properly on the third try. The trick, apparently, is lifting it slightly before turning the key.\n\nFourteen Crownwater Row is yours. The purchase is complete; the key and deed are already among your belongings. Inside, morning light crosses unopened boxes, a bare table and the clean rectangle where the previous owner’s rug used to lie. Upstairs a wardrobe hinge complains each time the breeze catches it.\n\nOutside, two neighbors are trying to carry a flowering shrub through a gate narrower than its pot.\n\n“Turn it,” the woman says.\n\n“I am turning it.”\n\n“The pot, not yourself.”\n\nA basket of bread rests on the low wall. Nina Suzuhara, the baker making her morning deliveries, is keeping a running count of how many times the shrub has come back out.\n\n“Five,” she says. Then she notices the open door. “Oh, good. Someone lives here now. I’m Nina, from Threadneedle. The previous owner ordered two loaves every fourth morning. You can tell me if that’s a habit worth keeping.”\n\nViolet roofs crowd the view beyond the low garden walls. A handcart rattles past toward the next junction, where a sign points through the city streets to Kingsward and the Portal Hall’s Glowhaven passage. Here there is an empty house to arrange, a delivery to consider and a shrub that has once again reached the wrong side of the gate.",
       "locations": [
         "Crownwater Row"
       ],

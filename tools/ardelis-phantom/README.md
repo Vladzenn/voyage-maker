@@ -2,6 +2,14 @@
 
 Approved on 5 November 2026. This is a phantom patch: **no public patch notes**. It does not implement the separate comprehensive world-overhaul handoff or the deferred Gemini audit repairs.
 
+## Residential setting correction — 5 November
+
+The author clarified that the residential pin is among the ordinary city blocks, not a waterfront. Five prose fields are corrected: the location overview, lane, bedroom, garden and final home-opening paragraph. Crownwater Row and Number 14 retain their exact names, area IDs, region, coordinates, radius, ownership key/deed, ordinary possessions and access. No quest references the house; no quest, item, trigger, NPC, regional map or gameplay setting was changed. The broad region remains the supplied Crownwater Terraces record; that does not give this street an aqueduct or water view. `residential-correction.json` records the exact delta. Existing regression fixtures reverse it before checking their original hashes.
+
+One 1254-square PNG was generated with the built-in imagegen tool and approved by the author. It shows a pale-stone, violet-roofed residential lane with gardens, an iron gate, small background residents and delivery details. The final image is `world-draft/location images/Ardelis/Crownwater Row.png`; its full prompt and provenance are in `crownwater-art-prompt.txt` and `crownwater-art.json`. The source PNG remains intact. No Voyage upload was performed and no local-file or invented hosted URL was inserted into the world. The user can upload this PNG as Crownwater Row’s location establishing shot. No Studio crop preview is claimed.
+
+`deliver_residential.py` writes the corrected full world, one-location JSON, one-start JSON and PNG to `output/crownwater-row-correction-2026-11-05/`. These supersede the earlier delivery copies for this correction. `publish_residential.py` runs normal project checks and stages only this correction and its one approved image. No public patch notes were created.
+
 ## Merge base and preservation
 
 The supplied complete Studio export, attachment `3d775af4-a56c-4c9b-b245-c9998b514342`, is authoritative. Its raw SHA-256 is `5ab7ae00b798f1be449821cd637447a93a68f63a4fcc2158db6949dbd2197630`.

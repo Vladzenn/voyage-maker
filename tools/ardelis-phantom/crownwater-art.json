@@ -1,0 +1,14 @@
+{
+  "name": "Crownwater Row",
+  "kind": "location",
+  "file": "world-draft/location images/Ardelis/Crownwater Row.png",
+  "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-97b18d10-680c-42e4-a3a1-7316beed5121.png",
+  "sha256": "5e2362d4a4d2e333dc4c65ae4465ccb8f0f5bb5712747cc6ce725754e75b42a5",
+  "width": 1254,
+  "height": 1254,
+  "generationPasses": 1,
+  "uploaded": false,
+  "mode": "built-in imagegen",
+  "promptFile": "tools/ardelis-phantom/crownwater-art-prompt.txt",
+  "review": "Approved by the author. Urban pale houses, violet roofs, gardens and background residents; no waterside setting. No live Studio crop preview."
+}

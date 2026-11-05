@@ -2,7 +2,7 @@
 // Semantic interpretation, NPC movement and narrator behavior still need live testing.
 const fs=require('fs'),path=require('path'),assert=require('assert'),crypto=require('crypto'),vm=require('vm');
 const root=path.resolve(__dirname,'..'),read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
-const w=read(process.argv[2]||path.join(root,'world-draft/WorldAlpha - World.json'));
+const w=require('./ardelis-phantom/residential_previous.cjs')(read(process.argv[2]||path.join(root,'world-draft/WorldAlpha - World.json')));
 const r=read(path.join(__dirname,'ardelis-phantom/review.json'));
 const sort=v=>Array.isArray(v)?v.map(sort):v&&typeof v==='object'?Object.fromEntries(Object.keys(v).sort().map(k=>[k,sort(v[k])])):v;
 const hash=v=>crypto.createHash('sha256').update(JSON.stringify(sort(v))).digest('hex');

@@ -23354,7 +23354,7 @@
   },
   "Crownwater Row": {
     "name": "Crownwater Row",
-    "basicInfo": "A narrow residential lane follows an upper water terrace. Pale two-storey houses share violet shutters, small walled gardens and a view of the aqueduct. Number 14 has an iron gate, a ground-floor sitting room and a modest upper bedroom. Bakers’ deliveries and neighbors’ washing make this a lived-in street.",
+    "basicInfo": "A narrow residential street sits among the closely fitted neighborhoods inside Caelrath’s city walls. Pale two-storey houses have violet-tiled roofs, painted shutters, small front gardens and iron gates. Number 14 has a ground-floor sitting room and a modest upper bedroom. Bread deliveries, washing lines and conversations across low garden walls give the row its everyday rhythm.",
     "x": -4,
     "y": -34,
     "radius": 2,
@@ -23365,7 +23365,7 @@
     "hiddenInfo": "Number 14 is the home established by A Door of Your Own: its selected player already owns it and has the matching key and deed. In a shared start the household may be jointly owned. Other beginnings do not grant ownership. Keep residents’ private homes separate; access to this house is not access to the whole row. The purchase predates the opening, so charge no new purchase price or recurring rent.",
     "areas": {
       "Crownwater Row - Lane": {
-        "description": "Pale walls and violet shutters line a narrow paved lane. A shared drain runs beneath the aqueduct parapet; deliveries leave room for people to pass.",
+        "description": "A gently bending paved lane runs between pale houses with violet roofs, window boxes and low garden walls. Small iron gates open onto the street; neighbors leave room for handcarts, deliveries and pedestrians.",
         "paths": [
           "Crownwater Row - Number 14 Sitting Room"
         ]
@@ -23379,13 +23379,13 @@
         ]
       },
       "Crownwater Row - Number 14 Bedroom": {
-        "description": "The upper room has a bed, empty shelves and a wardrobe with one squeaking hinge. A high window admits morning light and the sound of water passing along the terrace.",
+        "description": "The upper room has a bed, empty shelves and a wardrobe with one squeaking hinge. Its window looks across neighboring tiled roofs and admits morning light, the call of a street vendor and the occasional rattle of a handcart.",
         "paths": [
           "Crownwater Row - Number 14 Sitting Room"
         ]
       },
       "Crownwater Row - Number 14 Garden": {
-        "description": "A small enclosed garden has a washing line, an unplanted bed and a rain barrel. The low rear wall looks toward the aqueduct but gives no public passage through the house.",
+        "description": "A small enclosed garden has a washing line, an unplanted bed and a rain barrel. Beyond the low rear wall lie neighboring gardens and house backs; it gives no public passage through the house.",
         "paths": [
           "Crownwater Row - Number 14 Sitting Room"
         ]

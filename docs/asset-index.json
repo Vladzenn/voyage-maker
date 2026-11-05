@@ -4820,6 +4820,11 @@
       "size": 3152516,
       "sha256": "220835bf56cd882b934b3bb5ecd84931a19ea178c3e18fade47cf3e6b34fb233",
       "mtimeNs": 1793874620931700200
+    },
+    "world-draft/location images/Ardelis/Crownwater Row.png": {
+      "size": 3594531,
+      "sha256": "5e2362d4a4d2e333dc4c65ae4465ccb8f0f5bb5712747cc6ce725754e75b42a5",
+      "mtimeNs": 1793883616462221000
     }
   }
 }

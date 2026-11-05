@@ -1,0 +1,64 @@
+{
+  "baseHash": "324a7a2f6982a90199dfe5b2063ccf316567071afb4402a9841410cfbc32fd16",
+  "afterHash": "d75a71f7bbddc47e714a8e124f22ba88ac44569357c60917927bcd1824584d94",
+  "rows": [
+    {
+      "path": [
+        "locations",
+        "Crownwater Row",
+        "areas",
+        "Crownwater Row - Lane",
+        "description"
+      ],
+      "kind": "changed",
+      "before": "Pale walls and violet shutters line a narrow paved lane. A shared drain runs beneath the aqueduct parapet; deliveries leave room for people to pass.",
+      "afterHash": "e9b367f484a0a262f6cc57003fed5b37e10ef6b7c1237c02015e6158d7b4fcd0"
+    },
+    {
+      "path": [
+        "locations",
+        "Crownwater Row",
+        "areas",
+        "Crownwater Row - Number 14 Bedroom",
+        "description"
+      ],
+      "kind": "changed",
+      "before": "The upper room has a bed, empty shelves and a wardrobe with one squeaking hinge. A high window admits morning light and the sound of water passing along the terrace.",
+      "afterHash": "f44731494870ded0aa942edb0c101618555684d0351cd673fd776ba17d61d3bb"
+    },
+    {
+      "path": [
+        "locations",
+        "Crownwater Row",
+        "areas",
+        "Crownwater Row - Number 14 Garden",
+        "description"
+      ],
+      "kind": "changed",
+      "before": "A small enclosed garden has a washing line, an unplanted bed and a rain barrel. The low rear wall looks toward the aqueduct but gives no public passage through the house.",
+      "afterHash": "75543849f63d3bf4ac2b7137f013d09bd3adb7dc9ebed5d6df369a47745fc806"
+    },
+    {
+      "path": [
+        "locations",
+        "Crownwater Row",
+        "basicInfo"
+      ],
+      "kind": "changed",
+      "before": "A narrow residential lane follows an upper water terrace. Pale two-storey houses share violet shutters, small walled gardens and a view of the aqueduct. Number 14 has an iron gate, a ground-floor sitting room and a modest upper bedroom. Bakers’ deliveries and neighbors’ washing make this a lived-in street.",
+      "afterHash": "23995e5de78f5af0d1114fc9937315468615ad996158625aba30c4cb801b4699"
+    },
+    {
+      "path": [
+        "storyStarts",
+        "🏠 Ardelis: A Door of Your Own",
+        "storyStart"
+      ],
+      "kind": "changed",
+      "before": "The front door opens properly on the third try. The trick, apparently, is lifting it slightly before turning the key.\n\nFourteen Crownwater Row is yours. The purchase is complete; the key and deed are already among your belongings. Inside, morning light crosses unopened boxes, a bare table and the clean rectangle where the previous owner’s rug used to lie. Upstairs a wardrobe hinge complains each time the breeze catches it.\n\nOutside, two neighbors are trying to carry a flowering shrub through a gate narrower than its pot.\n\n“Turn it,” the woman says.\n\n“I am turning it.”\n\n“The pot, not yourself.”\n\nA basket of bread rests on the low wall. Nina Suzuhara, the baker making her morning deliveries, is keeping a running count of how many times the shrub has come back out.\n\n“Five,” she says. Then she notices the open door. “Oh, good. Someone lives here now. I’m Nina, from Threadneedle. The previous owner ordered two loaves every fourth morning. You can tell me if that’s a habit worth keeping.”\n\nWater glints beyond the terrace parapet. Far below, a bell sounds in Kingsward, where the Portal Hall handles travel to Glowhaven. Here there is an empty house to arrange, a delivery to consider and a shrub that has once again reached the wrong side of the gate.",
+      "afterHash": "c52b08c8675dcd2ea35ebf059e8af0a8707828e70c4d1c69128966428d4e05f2"
+    }
+  ],
+  "scope": "Five prose fields only; address, key/deed, pin, region, quests and mechanics unchanged.",
+  "publicPatchNotes": false
+}

@@ -4,6 +4,7 @@ const sort=v=>Array.isArray(v)?v.map(sort):v&&typeof v==='object'?Object.fromEnt
 const hash=v=>crypto.createHash('sha256').update(JSON.stringify(sort(v))).digest('hex');
 module.exports=function previous(w){
  if(!w.storyStarts?.['🏠 Ardelis: A Door of Your Own'])return w;
+ w=require('./residential_previous.cjs')(w);
  const r=JSON.parse(fs.readFileSync(path.join(__dirname,'historical-review.json'),'utf8'));
  assert.strictEqual(hash(w),r.afterHash,'Historical tests require the exact reviewed phantom patch');
  const out=structuredClone(w);

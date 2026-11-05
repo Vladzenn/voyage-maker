@@ -1,0 +1,82 @@
+Use case: stylized-concept / reference-guided fantasy map.
+Deliver ONE clean, unlabelled, exceptionally detailed regional map of Drakenspire.
+
+REFERENCE PRIORITY IS ESSENTIAL:
+Reference image 1 (Image1.jfif, the wide snowy map) controls the COMPOSITION, TOPOLOGY, VIEWING ANGLE and CANVAS PROPORTIONS. Preserve its recognizable layout: the compact high mountain town occupies the right half, its fortress on a much higher shelf at the upper right, a giant dragon skeleton wraps around the fortress's right and rear rocky edge with its skull overlooking the town; an inland frozen lake occupies the left-middle basin; small rural settlements, pens and the winding mountain approach occupy the bottom-left; caves, sparse pines, remote ridges and snowy peaks occupy the left and background. Keep that right-city / left-wilderness arrangement and the town perched high above the valley. Do not rotate, mirror or redesign the broad composition.
+Reference image 2 (oldMap.png, the square original) controls the ART STYLE, visual richness, color, light, architecture rendering and fine inhabited density ONLY. Match its beautiful luminous detailed fantasy illustration: brilliant sunlit white snow, rich crisp blue shadows, pale warm stone and dark basalt, individually rendered slate-blue roofs, precise miniature windows and doors, warm amber inhabited lights, colored wool awnings, fine coherent masonry, small people and carts, realistic stylized alpine rock, beautifully layered mountains. It has lavish, carefully organized small detail, deep dimensional aerial perspective and bright clear color. Reproduce that exact intricate painted miniature-map finish, rather than the flat simplified subdued rendering of reference 1. Do not inherit the square canvas or the long vertical original composition.
+
+CANVAS: use precisely the landscape aspect ratio of reference 1: 1024:572, reduced 256:143 (approximately 1.79021:1). Target 4096 x 2288 pixels if supported, otherwise the highest supported resolution at this same ratio. Fill the full frame edge to edge with art. No borders or letterboxing. It must be a broad landscape image, never square or portrait.
+
+PRIMARY CORRECTION: reference 1 is much too sparsely built and omits destinations. Retain its overall land arrangement but add substantially more densely packed ordinary STONE buildings and multiple distinct inhabited blocks to the right-hand high terrace, like oldMap's density. Aim for well over a hundred small legible rooftops, tightly grouped but separated by functional cobbled lanes, steps, courtyards and retaining walls. The small city should feel fully inhabited, not a dozen isolated landmark buildings or a palace campus. Keep its overall mountain footprint compact; add density with finer building scale and terraces. City and fortress together occupy roughly the right half of the image. There must still be plenty of left and foreground mountain terrain for the rural and expedition locations. The town is well above the lake and nearby countryside; fortress is above the town. Faraway peaks can be taller.
+
+SETTING: a snowy, western-medieval, dragonkin-majority alpine fortress-city with substantial practical stone architecture, gray/basalt walls, square towers and steep slate roofs. The city must express warmth and ordinary civic life. No Japanese architecture; names do not imply Japanese buildings. Government buildings are sturdy and restrained. Wealth is expressed in one copper-trimmed merchant hall, not an extravagant palace or cathedral. Limited hardy pine groves only in sheltered folds. Inland alpine geography, no sea or coast.
+
+COMPLETE LOCATION COVERAGE: these 59 names are design notes ONLY, NEVER write them on the image. Represent every destination through an exterior building, courtyard, route, terrain formation or appropriate entrance. Interior areas belong inside their parent's complex. Avoid making every location a huge landmark.
+
+UPPER RIGHT FORTRESS AND SACRED PRECINCT, above the dense town:
+(06) Crescent Crown Fortress: thick pale-gray walls, practical square towers, a slate-roof keep and coherent small administrative courts on the highest occupied shelf.
+(07) The Ancestor's Crescent: ONE anatomically coherent weathered gigantic dragon skeleton, ONE skull, one continuous spine and ribs crescent-curving around that fortress's outer rock. Distinct ivory bones outside stone walls, visually readable and similar placement to reference 1. No duplicate skulls or bone-built buildings.
+Within that one fortress: (08) The Jarl's Hall as a sturdy long slate-roof hall, (09) Clans' Assembly House as an adjoining broad council hall, (10) Crescent Sanctuary as a low restrained stone sanctuary facing the bones.
+(11) Ancestor Cairn Terrace: small grouped cairns and memorial stones on a sheltered terrace below the skeleton.
+(12) High Rampart Gate: the substantial guarded gatehouse on the winding ascent joining town to fortress.
+(13) Oathward Barracks: plain barracks with a drill court inside the defended precinct.
+(14) Dragonwatch Balcony: an upper cliff lookout with a stone wind screen and open view toward distant ranges.
+(56) The Old Offering Steps: a narrow climbing stair branching to a modest separate open offering ledge near the upper mountain, without any dragon lair.
+
+DENSE INHABITED HIGH TOWN ON THE RIGHT, with clearly connected streets:
+(01) Drakenspire Portals: enclosed basalt-roof transit HALL near the arrival/cargo quarter, adjoining a little awning market and hearth court; the portal is indoors, never an exterior glowing gateway.
+(15) Founders' Processional Way: broad stepped banner street connecting market and fortress ascent, with cart ramps.
+(16) Hearthmarket Square: irregular busy market with colorful striped wool awnings and arcaded edges, surrounded by close buildings.
+(17) Snowmelt Residential Steps: several dense inhabited blocks of close-set stone homes, shared steep stairs, chimneys, shutters and drainage.
+(18) Cinderstone Schoolhouse: one medium plain stone school, modest enclosed schoolyard.
+(19) Lower Hold Gate: cart gate with paired sturdy towers where the road climbs onto the town shelf from the lower left.
+(20) Iwatsugu Clanhold, (21) Yukinose Clanhold, (22) Arashimine Clanhold: THREE separate substantial but practical clan houses with enclosed courts; varied roofs, not castles. Arashimine near the forge/upper-defense route.
+(23) The Hold's Judgment House: plain civic courthouse near the public route.
+(27) Coppercrest Exchange: a slightly taller wealthy commercial building with copper trim and tall windows, visible near the market.
+(28) Amberglass Assay House: a professional stone trade building beside the craft quarter.
+(29) Crystalcutters' Court: small connected workshops around a practical covered working court.
+(24) The Tempered Fang: specialized weapon smith workshop.
+(25) Rivet & Rime Armory: a compact armor workshop/store.
+(26) The Woolen Wyvern: bright small winter-clothing shop with hanging cloth.
+(30) Resin & Root Apothecary: small inhabited shop with herb bundles.
+(32) The Copper Ram: a sturdy lively tavern.
+(33) Hearthpot Stew House: modest little eating house by the market.
+(35) Snowbell Playhouse: modest timber-and-stone performance hall, not a grand theatre.
+These shops should occupy individual sensible small buildings mixed among many ordinary homes; no labels or readable shop-sign lettering.
+(02) Embersteel Foundries: a connected industrial cluster of soot-dark stone workshops with extraction chimneys, warm furnace mouths and materials courts near a usable freight road.
+(31) Snowchain Freight Yard: walled cargo court with covered bays, crates, chain hoists, carts and broad access near the portal/forge quarter.
+(40) Winter Stores: functional thick-walled depot with loading bays beside freight.
+(03) Stonefang Training Grounds: modest open practice ring, target lane and equipment shelter on a usable edge of town.
+(36) The Cinder Pit: SMALL sunken round fight venue with a few close seating tiers; much smaller than a coliseum, integrated into the town.
+(34) Stonewake Onsen: ONE modest geothermal bathhouse complex on a sheltered lower town ledge, small turquoise stone pools and washing/rest buildings, restrained rising steam.
+(37) Deepwell Waterworks: low utilitarian aquifer pump/cistern complex with protected channels on another service ledge. Drinking-water works distinct from onsen, with no giant spectacular aqueduct.
+
+LOWER FOREGROUND AND LEFT BASIN, maintaining image 1's readable layout:
+(04) Whitepass Caravan Lodge: substantial warm stone-roof lodge and covered cart/animal yard beside the winding lower approach road.
+(41) Whitepass Watchpost: small road-defense tower and barrier beside that approach, not another castle.
+(38) Hoofstep Pens: sheltered animal pens immediately off the lower road beneath the city gate.
+(39) Woolridge Pastures: several snow-edged stone-walled goat/sheep grazing folds and low winter shelters on usable lower slopes.
+(42) Goatstep Hamlet: a SMALL inhabited cluster of stone houses and wool/animal sheds around a meeting yard in the bottom-left sheltered fold. Show all of it inside the frame, avoid cutting it off.
+(43) Pinefold Hollow: localized sheltered pine grove close to the frozen basin, not a vast forest.
+(44) Glassmere Basin: inland frozen turquoise/pale-blue lake left-middle, delicate irregular ice cracking and snow-covered banks, geographically like reference 1. No underwater temple.
+(45) Redvein Mine: one visibly ACTIVE reinforced mine entrance with ore carts, surface office and tidy ore yard on the western/left rocky slope, reached by haul track.
+(46) Lanternamber Caverns: separate managed cavern entrance, subtle warm honey-amber mineral light, braced entrance and tiny keeper shelter.
+(47) The Abandoned Chainworks: unmistakably DERELICT rusted chain lift, broken wooden platforms and winch house on a steep rock face off the maintained road.
+(48) Old Hearthfall: small roofless abandoned mining hamlet distinct from inhabited Goatstep.
+
+REMOTE MOUNTAIN LANDSCAPE across the LEFT and BACKGROUND, each with readable terrain clues and paths:
+(05) Rimecrest Trail: maintained ridge walking route with sparse marker poles, a low windbreak shelter and survey ledge.
+(49) Frostback Mountain: prominent tall neighboring snow peak in the left/center background, distinct dark ridges, scree and snow saddle.
+(50) The Buried Switchback: partly buried zigzag old road, avalanche fan and broken retaining walls on an outer slope.
+(51) Skreek Crags: remote sharp dark rock spires/perching ledges toward far left, with only tiny distant wyvern silhouettes if needed.
+(52) Giant's Hollow: distant secluded rocky hollow with oversized moved boulders and a large natural overhang, no mandatory visible giant.
+(53) The White Silence: secluded untracked white snow basin behind the remote ridges, no visible yeti/boss.
+(54) Stormscar Observatory: a small ruined practical mountain signal/observation station on an exposed ridge, damaged roof, not a fantastical tower palace.
+(55) First Shelter Ruins: understated old retaining-wall and hearth remnants in a sheltered rocky fold.
+(57) Coldglass Galleries: small unobtrusive frost-blue cavern mouth in a remote shaded rock face, NOT a cutaway of underground rooms.
+(58) The Fallen Pass Shrine: tiny half-collapsed western stone dragon/ancestor shrine on a disused snowy pass, no Japanese gate.
+(59) Rimefang Ravine: deep jagged icy gorge in the left/center mountain region with broken bridge remains and a narrow ledge route.
+The four little-known destinations 53,55,57,58 must be subtle environmental features, not huge lit attractions.
+
+FINAL VISUAL REQUIREMENTS: very high detail everywhere at regional scale, individual coherent building roofs and masonry, believable stairs, roads and retaining walls, clear paths from settlement to gate, lake and trailheads. Bright crisp winter daylight, blue sky with soft clouds as in oldMap. The living town must be markedly denser and visually richer than reference 1. Use controlled atmospheric depth but do not obscure terrain or sites with blankets of cloud. ONE scene, no panels/insets/cutaways. No title, labels, words, numbers, pins, compass, UI, map frame, watermark, decorative border, extra castles, huge arena, floating islands, sea, Evertree, visible guardian-dragon lair, or giant fantasy energy effects. Skeleton is a sacred physical remain, not magical heat or mana infrastructure.
+Remember: faithfully recognizable reference-1 LAYOUT + reference-2 detailed bright ART STYLE + increased urban DENSITY + all required locations, in reference-1 ASPECT RATIO.

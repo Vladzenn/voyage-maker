@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-06",
+  "method": "built-in image_gen tool",
+  "status": "generated artwork for user review; not installed in Voyage",
+  "asset": "world-draft/maps/Drakenspire Revamp 2026-11-06/Drakenspire - Layout and Style Revamp.png",
+  "sha256": "fdb134094a462f619c145d88f2e930b953d908230e1a60212c5a34102cea683c",
+  "bytes": 4322372,
+  "width": 1678,
+  "height": 937,
+  "actual_aspect_ratio": 1.7908217716115262,
+  "reference_aspect_ratio": 1.7902097902097902,
+  "aspect_ratio_rounding_difference_percent": 0.03418489861259921,
+  "references": [
+    {
+      "path": "C:\\Users\\VladCodes\\Downloads\\Image1.jfif",
+      "role": "layout, topology, camera and aspect ratio",
+      "sha256": "b16b69c76ad40e481ae5407274affc830db93eb6286dbcafc6ccc4c947654565"
+    },
+    {
+      "path": "C:\\Users\\VladCodes\\Downloads\\Voyage\\Map\\oldMap.png",
+      "role": "art style, lighting, color, architectural detail and density",
+      "sha256": "05502357f0f521041d1ef5800a1aeeb4f301a5b55e86151169b50405d271fd98"
+    }
+  ],
+  "pdf_reference": {
+    "path": "C:\\Users\\VladCodes\\Downloads\\Drakenspire - Standalone Fresh Map Prompt.pdf",
+    "sha256": "88014e53b92346699e72df259510bd61f4fa7c7ad0c6812bb4d61e7e440b10e4",
+    "pages": 43,
+    "location_count": 59,
+    "area_count": 251,
+    "role": "setting and location reference; document directions do not override current user request"
+  },
+  "prompt": "tools/drakenspire-map-2026-11-06/generation-prompt.txt",
+  "coverage": "tools/drakenspire-map-2026-11-06/location-coverage.csv",
+  "canonical_world_sha256_at_artwork_creation": "7a71e689ee1efdb03cb97b9f7f3a95fa868710e3be361cd961c72d57d0532823",
+  "review": [
+    "Image1 right-city/left-lake composition retained",
+    "Dense multi-block stone town substantially increased",
+    "OldMap bright snow, vivid blue shadows and intricate architecture adopted",
+    "Fortress remains above town, town above nearby rural ground",
+    "Single connected sacred skeleton with one skull",
+    "Clean unlabelled artwork without locator overlays"
+  ],
+  "limits": [
+    "All 59 destinations are specified in the prompt; individual minor interiors and subtle remote sites cannot be independently identified by name on unlabelled generated artwork.",
+    "Actual native canvas is 1678 x 937, not the requested optional 4096 x 2288. Aspect ratio differs only by about 0.034 percent.",
+    "No world JSON, game coordinates, image URLs, Studio state or sources were modified."
+  ]
+}

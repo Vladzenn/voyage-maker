@@ -8,7 +8,7 @@ The supplied full Studio export is the planning reference: attachment `0e0a46a8-
 
 The author approved reactions on both sides of combat, a base Resonance threshold of 20, and future equipment or other bonuses that can lower the threshold. Everything numerical below is a balancing proposal, not an implemented guarantee. Enemy reactions do not automatically give every NPC a player-style Resonance meter; that remains a separate design choice. Recommend player meters first, with any special enemy burst authored and telegraphed.
 
-Recommended scope: keep the existing damage vocabulary, complete its presentation, introduce one short-lived imprint per target, use a small reaction table and add one personal Resonance meter. Do not build a different status controller for every elemental pair or introduce 171 combinations for the nineteen current damage types. The author's follow-up replaces the original damage-heavy table: use a maximum 20% reaction damage bonus, lowering it to 10% or 0% when a concrete tactical effect carries the benefit. Every reaction also needs distinctive narration.
+Recommended scope: complete damage presentation, rename `poisoning` to `poison` with its references, add Soul as a distinct non-reacting channel, introduce one short-lived imprint per target, use one shared table of 24 reactions and add one personal Resonance meter. The author's latest request expands the former eight-channel shortlist to fair coverage of all sixteen existing nonphysical damage channels. Each gets exactly three partners: one damage-focused, one modest damage/debuff mix and one debuff/utility-focused reaction. Sixteen of the twenty-four recipes have a non-damage payoff. Explicit short-lived NPC and player debuffs, including weakened defense and outgoing damage, are part of the requested design. This replaces the earlier Fire/Water-heavy table; it does not mean every pair reacts. Do not build a different status controller for every pair or introduce all possible combinations. Keep the maximum 20% reaction damage bonus, lowering it to 10% or 0% when a concrete tactical effect carries the benefit. Every reaction also needs distinctive narration. Pairings, names and detailed numbers below remain proposals for review.
 
 ## What the current configuration actually contains
 
@@ -32,29 +32,54 @@ These are configuration observations and community documentation, not live comba
 
 Keep existing lowercase keys to preserve damage profiles. Complete presentation through the supported emoji map, without inventing display-name or color members.
 
-| Discipline or mechanism | Registered type | Proposed icon |
-| --- | --- | --- |
-| Fire | `fire` | 🔥 |
-| Water | `water` | 💧 |
-| Ice/cold | `ice` | ❄️ |
-| Lightning | `lightning` | ⚡ |
-| Earth working | `earth` | 🪨 |
-| Wind | `wind` | 🌪️ |
-| Metal working | `metal` | ⚙️ |
-| Nature working | `nature` | 🌿 |
-| Arcane force/energy | `arcane` | ✨ |
-| Light | `light` | ☀️ |
-| Sound | `sound` | 🎵 |
-| Gravity | `gravity` | 🪐 |
-| Void | `void` | 🕳️ |
-| Established dark energy | `dark` | 🌑 |
-| Actual psychic harm | `psychic` | 🧠 |
-| Poison | `poisoning` | 🧪 |
-| Cutting / puncture / blunt impact | `slashing` / `piercing` / `bludgeoning` | 🗡️ / 🏹 / 🔨 |
+| Discipline or mechanism           | Registered type                         | Proposed icon |
+| --------------------------------- | --------------------------------------- | ------------- |
+| Fire                              | `fire`                                  | 🔥            |
+| Water                             | `water`                                 | 💧            |
+| Ice/cold                          | `ice`                                   | ❄️            |
+| Lightning                         | `lightning`                             | ⚡            |
+| Earth working                     | `earth`                                 | 🪨            |
+| Wind                              | `wind`                                  | 🌪️            |
+| Metal working                     | `metal`                                 | ⚙️            |
+| Nature working                    | `nature`                                | 🌿            |
+| Arcane force/energy               | `arcane`                                | ✨            |
+| Light                             | `light`                                 | ☀️            |
+| Sound                             | `sound`                                 | 🎵            |
+| Gravity                           | `gravity`                               | 🪐            |
+| Void                              | `void`                                  | 🕳️            |
+| Established dark energy           | `dark`                                  | 🌑            |
+| Actual psychic harm               | `psychic`                               | 🧠            |
+| Poison                            | `poison`                                | 🧪            |
+| Cutting / puncture / blunt impact | `slashing` / `piercing` / `bludgeoning` | 🗡️ / 🏹 / 🔨  |
 
-Consider `soul` with 👻 only if actual offensive Soul abilities require a distinct resistance category. Do not make every school its own damage type: healing is normally restoration, enchantment can modify an ordinary sword strike, summoning uses the creature's actual attack, and an illusion does not injure Health merely by being believed. A mundane thrown stone remains blunt impact; moving it magically does not automatically turn it into psychic damage. A flame-shaped harmless display applies no fire imprint.
+Add `soul` with 👻 to the implementation plan, following the author's Markdown note. This would take the registered vocabulary from nineteen to twenty channels when implemented. Soul does not create or consume an imprint, trigger a reaction or earn reaction-based Resonance. Its proposed separate identity is modest penetration of ordinary worn armor, where applicable; the conditional 10% suggestion is investigated below.
 
-For the initial reaction table, use the explicitly elemental damage channels Fire, Water, Ice, Lightning, Earth, Wind, Metal and Nature. The author explicitly excludes slashing, piercing and bludgeoning from elemental reactions. Keep those damage types and their ordinary combat behavior, but do not let their hits create or consume an imprint, trigger a reaction or earn Resonance. The original heavy-blunt Shatter proposal is withdrawn. An actual elemental damage component may qualify on its own; a weapon's appearance or delivery does not turn its physical damage into an element. Leave the other channels out of the launch table unless a specific interesting combination is approved.
+Do not make every school its own damage type: healing is normally restoration, enchantment can modify an ordinary sword strike, summoning uses the creature's actual attack, and an illusion does not injure Health merely by being believed. A mundane thrown stone remains blunt impact; moving it magically does not automatically turn it into psychic damage. A flame-shaped harmless display applies no fire imprint. Fair representation here covers the sixteen registered nonphysical channels, including Arcane, Light, Dark, Psychic, Sound, Gravity, Void and Poison; it does not manufacture damaging versions of every support discipline or reopen restricted Time/Space learning.
+
+The author explicitly excludes slashing, piercing and bludgeoning from reactions. Keep those damage types and their ordinary combat behavior, but do not let their hits create or consume an imprint, trigger a reaction or earn Resonance. The heavy-blunt Shatter proposal remains withdrawn. An actual eligible elemental component may qualify on its own; a weapon's appearance or delivery does not turn its physical damage into an element.
+
+### Poison key migration
+
+The author requests **`poison`**, replacing the existing registered key `poisoning`. All proposed pair keys and presentation entries use `poison` from here on. The current gameplay JSON still uses the old key because this is a Markdown-only planning revision.
+
+At implementation, migrate the registration, presentation, exact immunity/resistance/vulnerability values, relevant generation guidance and any stored imprint/catalogue aliases together. The inspected canonical world has 26 exact `poisoning` string values (25 defense entries plus registration) and two prose fields in Venom-Hardened referring to that damage label. Recount against the actual incoming merge base. Change damage-type references, not every English use of the word poisoning, and preserve Venom-Hardened's existing protection. Do not leave both keys registered as independent damage types. Existing saves may need the old key normalized at the reaction boundary, but do not claim a new world export automatically migrates old saves. Read-only source worlds retain their historical spellings. This is a naming migration, not a nerf to any creature's defenses or a change to the protected Spider event.
+
+### Author's notes: Soul and generated abilities
+
+The two notes added to this Markdown are preserved here as design inputs:
+
+> “we can do soul as a damage type, but it doesn't have elemental reactions. we can just make it ignore 10% of someone's armor if possible and appropriate”
+>
+> “For created abilities, the damage types auto apply, right? How does Luxcellia or Chikara handle this?”
+
+**Soul penetration is conditional, not a verified native statistic.** Registering a damage label and emoji does not give it armor penetration. Neither the inspected ability shape nor the documented damage presentation provides a per-channel armor-penetration field. Treat the requested 10% as a proposed relative reduction of the worn-armor contribution for that hit: armor 40 would be treated as 36, not 30, and this does not mean +10% final damage. Do not change the defender's stored armor, bypass Soul immunity or penetrate all wards and resistance. Armor-free targets receive no penetration benefit. If the engine does not expose the armor contribution at the correct resolution stage, keep Soul's identity and prototype a narrowly worded action-resolution instruction; label that effect AI-guided rather than claiming exact arithmetic. Do not fake penetration with a universal extra Health subtraction or an invented `armorPenetration` field. Soul may still use an already earned Resonant burst under the ordinary eligible-technique rule; it simply cannot generate a reaction itself.
+
+**Created spells can be interpreted as typed damage, but do not acquire a verified persistent type tag merely because they were created.** Our 868 authored abilities and both reference exports use `name`, `description`, `requirements`, `bonus` and `cooldown`; none of their ability records has a dedicated `damageType` field. A Fire Magic prerequisite is an eligibility requirement, not proof that the resulting hit was fire. The current world already tells action resolution to use the damage mechanism that actually lands.
+
+- In the supplied `sources/Luxcellia.json`, school/weapon routing, ability descriptions and the target's type-based defenses guide the action. Its ability records do not add a hidden per-spell damage field. This is observed configuration, not proof that live classification is infallible.
+- In `sources/ChikaraOld.json`, `Layered Moves` explicitly tells the AI that a layered hit carries the fighting lane's and power's damage types. `Move Synergy` explicitly includes created techniques' stated elements/states, and its created-fusion rules deliberately allow an immediate combination. These are authored AI instructions, not evidence of an automatic mechanical hit callback. Our one-action/no-self-reaction design intentionally does not import that fusion behavior.
+
+For implementation, generation guidance should write the actual existing damage channel plainly into an offensive created ability's description, alongside its concrete effect and cost: for example, a burning projectile deals `fire`, while a hurled rock lands as `bludgeoning`. Non-damaging abilities need no invented damage type. Use the same classification guidance for authored and created abilities, then verify the actual resolved channel before priming. A stable shared catalogue may describe authored abilities, but do not add unsupported native members or a separate trigger per generated spell. Ambiguous or mixed hits must not earn guessed reactions. The community [ability reference](https://wiki.unofficial.voyage/mechanics/abilities) likewise distinguishes exact bonus/cooldown fields from AI interpretation of descriptive effects; this still does not establish script access to the resulting hit.
 
 ## 2. One imprint, then one reaction
 
@@ -71,23 +96,98 @@ A qualifying hit leaves one inert imprint keyed to the exact target's runtime id
 
 ## Proposed launch reactions
 
-Pairs are order-independent. Percentages are provisional bonuses to the triggering action's ordinary damage, not percentages of the victim's maximum Health. They are design targets until the delivery bridge is verified. The following revision supersedes the initial 25–30% damage-heavy proposal.
+Pairs are order-independent. Percentages are provisional bonuses to the triggering action's ordinary damage, not percentages of the victim's maximum Health. They are design targets until the delivery bridge is verified. This 24-pair revision replaces the previous nine-row shortlist, including its multi-partner Galeweave wildcard. Rimebind is retained as a defense debuff; Fire/Water Steamshock, Lightning/Metal Induction and the other unlisted old pairs are no longer extra recipes. Each channel has exactly one partner in each of the following three groups; the coverage matrix below makes that distribution reviewable.
 
-| Pair | Reaction | Damage bonus | Tactical effect and narration cue |
+### Damage-focused: +20%, no separate debuff
+
+| Pair | Reaction | Narration cue |
+| --- | --- | --- |
+| Fire + Ice | **Thermal Shock** | Frost cracks from within and breaks into a bright rush of vapor. This is the extra hit damage, not additional armor destruction. |
+| Water + Lightning | **Conduction** | Blue-white filaments race across the wet imprint and converge in one sharp discharge. No added stun or action penalty. |
+| Earth + Sound | **Faultsong** | A low chord travels through a stone-colored lattice, which fractures in time with the note. No free wall demolition or armor loss. |
+| Wind + Metal | **Silver Shear** | Metallic ribbons whistle along a cutting gust and flash away on impact. No bonus attack, projectile spread or automatic disarm. |
+| Nature + Poison | **Bitterbloom** | A dark flower of green motes opens and collapses at the point of contact. No second poison dose or damage-over-time chain. |
+| Arcane + Void | **Nullbloom** | A violet mana knot folds into a silent black center, then snaps outward once. No erasure, dispelling or deletion of possessions. |
+| Light + Dark | **Eclipse** | A bright corona closes around a dark center and breaks in a single pulse. No universal blindness or removal of darkness. |
+| Gravity + Psychic | **Mindfall** | A deep pressure note and a brief inward ripple strike together. No forced movement, mind control or lasting mental injury. |
+
+### Mixed payoff: +10% and one brief, narrow debuff
+
+| Pair | Reaction | Tactical effect and narration cue |
+| --- | --- | --- |
+| Fire + Lightning | **Flashburst** | A hot report and pressure pulse spoil a susceptible target's balance: proposed -3 to its next footing-dependent defense check. No automatic knockdown. |
+| Water + Wind | **Sprayveil** | Sparkling spray interrupts aim: proposed -3 to the target's next visually aimed attack check. No universal blindness or penalty to attacks guided by another sense. |
+| Ice + Nature | **Frostflower** | Leaf-shaped frost catches along a joint or supporting growth: proposed -3 to the next movement-dependent check. No full-turn freeze or permanent new vegetation. |
+| Earth + Gravity | **Burdenfall** | A dust-ring settles heavily: proposed -5% outgoing damage on the target's next grounded physical strike. No flight cancellation, universal spell weakening or pinning. |
+| Metal + Sound | **Bellshock** | A bright note vibrates an existing metal implement: proposed -5% damage on its next attack with that implement. No automatic disarm or lasting deafness. |
+| Arcane + Light | **Prismwink** | A prismatic afterimage offsets contact: proposed -3 to the next visually aimed check. No invisibility or inevitable miss. |
+| Dark + Poison | **Nightshade** | A numb-looking dark tracery briefly weakens a susceptible living body: proposed -5% outgoing damage on its next physical attack. No extra toxin stack or paralysis. |
+| Void + Psychic | **Hollow Echo** | Uncanny silence jars an actual mind's focus: proposed -3 to its next concentration-dependent check. No spell cancellation or effect on a mindless frame. |
+
+### Utility-focused: +0% extra damage
+
+| Pair | Reaction | Tactical effect and narration cue |
+| --- | --- | --- |
+| Fire + Nature | **Cinderbloom** | A bloom of warm ash saps the next exertion: proposed -10% outgoing damage on the affected target's next physical attack where its body is susceptible. No second damage tick, forest fire or automatic exhaustion. |
+| Water + Ice | **Rimebind** | Frost tugs at joints or footing: proposed -5 to the target's next movement-dependent block/evade check. This lowers relevant defense accuracy, not permanent armor or every roll. No frozen turn. |
+| Earth + Metal | **Ironburr** | Grit and metallic burrs briefly foul an existing metal weapon: proposed -10% outgoing damage on its next attack. No destroyed equipment or impairment of an unrelated hand-cast spell. |
+| Lightning + Arcane | **Sparkstitch** | The mana imprint crackles and sputters: proposed -10% outgoing damage on the next damaging spell. No loss of learned spells, cancelled action or increased Mana cost. |
+| Wind + Poison | **Bitterwake** | A sharp draft of stinging motes spoils aim: proposed -5 to the next visually aimed attack check when the target has susceptible eyes. No free poisoning of new targets or cure of existing venom. |
+| Sound + Psychic | **Echochatter** | A displaced echo troubles an actual mind: proposed -5 to the next hearing/concentration-dependent check. No forced speech, hallucinated orders or stolen action. |
+| Gravity + Dark | **Nightweight** | A dark tether of apparent weight drags at a grounded target: proposed -5 to its next movement-dependent check. No guaranteed immobilization or universal flight denial. |
+| Void + Light | **Afterglow** | A pale outline lingers on an already perceived target: proposed -5 to its next concealment-dependent defense or hiding check. No seeing through walls or universal invisibility detection. |
+
+### Coverage check: three distinct partners for every channel
+
+| Channel | +20% damage partner | +10% mixed partner | +0% utility partner |
 | --- | --- | --- | --- |
-| Fire + Water | **Steamshock** | 0% | A short cloud of hissing steam disrupts sight through its actual small area. It can screen either side; it is not universal blindness. |
-| Fire + Ice | **Thermal Shock** | 20% | A sharp crack runs through the frost before it bursts into vapor and fragments. The extra damage is the benefit; do not silently destroy armor too. |
-| Water + Lightning | **Conduction** | 10% | Blue-white arcs run over wet surfaces; a brief spasm interferes with the target's next precise physical action when its anatomy permits. No automatic stun or spell cancellation. |
-| Water + Ice | **Rimebind** | 0% | Frost catches at boots, wet cloth or the supporting surface, hindering the next repositioning attempt. It does not cancel the target's whole turn or immobilize every creature. |
-| Fire + Lightning | **Flashburst** | 10% | A sharp report and pressure pulse can leave a suitably sized, grounded target off balance, creating one brief opening. No automatic knockdown or extra area attack. |
-| Fire + Nature | **Cinderbloom** | 0% | A flare burns through one weak patch of existing plant cover or growth. It can open a route; it does not invent plants, clear a whole forest or ignore a powerful root ward. |
-| Lightning + Metal | **Induction** | 0% | A metallic shiver pulls an existing metal implement briefly out of line, supporting a subsequent disarm or guard-breaking attempt. The weapon does not leave its owner's hand automatically. |
-| Water + Earth | **Mire** | 0% | Water and loose earth form treacherous footing, complicating retreat or pursuit across that actual patch. It does not turn any stone floor to mud or restrain a flying creature. |
-| Wind + Fire/Water/Ice/Lightning | **Galeweave** | 10% | A visible ribbon of the primed element follows a brief directional gust, potentially shifting a light target's position within the actual attack's limits. No free spread, new target or guaranteed throw into a hazard. |
+| Fire | Ice | Lightning | Nature |
+| Water | Lightning | Wind | Ice |
+| Ice | Fire | Nature | Water |
+| Lightning | Water | Fire | Arcane |
+| Earth | Sound | Gravity | Metal |
+| Wind | Metal | Water | Poison |
+| Metal | Wind | Sound | Earth |
+| Nature | Poison | Ice | Fire |
+| Arcane | Void | Light | Lightning |
+| Light | Dark | Arcane | Void |
+| Dark | Light | Poison | Gravity |
+| Psychic | Gravity | Void | Sound |
+| Sound | Earth | Metal | Psychic |
+| Gravity | Psychic | Earth | Dark |
+| Void | Arcane | Psychic | Light |
+| Poison (`poison`) | Nature | Dark | Wind |
+
+This is equal recipe access and the same offered damage/debuff budget, not proof that all combinations are equally useful in every scene. Debuffs can depend on a real mind, sense, surface or implement. Test those frequencies before tuning; do not invent missing materials or compensate an inapplicable debuff with unlisted damage. A valid reaction still consumes the imprint and earns its ordinary single Resonance point when its debuff is inapplicable. The triggering attack retains its ordinary damage at +0%; zero extra damage is not a promise that the attack becomes harmless. All pairs use one shared lookup/controller and the same cap/expiry rules; twenty-four catalogue entries do not justify twenty-four semantic triggers. Pair keys use exact planned lowercase channels, including `poison`, after the documented migration.
 
 The damage budget is 20% for a damage-focused reaction, roughly 10% for a small additional tactical effect, and 0% when utility is the main payoff. These are not equivalent in every fight: briefly preventing a boss's whole turn would be much stronger than 20% damage even at 0% bonus, so full-turn denial is not part of the launch proposal. Actual anatomy, footing, material, strength and established immunities limit the consequence. A poor combination can be tactically unhelpful; do not create a hedge, metal weapon or vulnerable body solely to make its utility work.
 
-Use one shared short-lived aftermath representation rather than a separate controller for each reaction. An aftermath expires after the target's next action or one completed party turn, whichever comes first. Clearly establish its extent, affected entity and practical consequence in narration. Once the condition ends, stop applying its effects. Consuming an imprint does not by itself erase an established steam cloud or frost restraint before that short aftermath expires.
+### Temporary debuffs on NPCs and players
+
+The author explicitly requests real debuffs, not just a list of extra-damage percentages or cosmetic staggering. The table now distinguishes **defense accuracy**, **attack accuracy**, **outgoing damage**, and **movement/concentration**. A -5 defense-check modifier is not a 5% damage-reduction change; -10% outgoing damage is not +10% damage taken. Start with the modest proposed values above and verify their actual effect against Voyage's score bands before tuning.
+
+Use one shared, target-keyed reaction-aftermath record for an NPC or player. Each debuff has one eligible-use charge and expires after that relevant resolution or at the end of the following completed party turn, whichever comes first. A defense debuff is consumed on the next qualifying defense against an incoming attack; merely having an unrelated conversation or making a spell attack does not consume it. An outgoing-damage debuff is consumed on the next resolved qualifying attack attempt, including a miss, and then clears; it is not a permanent punishment stored until a hit finally lands. Do not reduce the triggering attack retroactively. There is at most one active reaction debuff per target; a new one replaces the older entry instead of stacking penalties. No stun, skipped turn, automatic disarm or permanent stat reduction is introduced.
+
+Conceptual record only, **not a native NPC/trait schema**:
+
+```text
+aftermath[exactEntityID] = {
+    reaction, sourceActionID, affectedCheckOrDamageKind,
+    penaltyOrMultiplier, remainingUses: 1, expiryPartyTurn: t + 1
+}
+
+before the next verified eligible resolution:
+    apply this one contextual modifier or output multiplier once
+    consume the record after that resolution
+at expiry, combat end, death or departure from this combat:
+    remove the record; do not edit permanent character values
+```
+
+**Verified building blocks and remaining gap:** authored NPC cards have `successBonus`, `damageModifier` and `damageReductionModifier`. The first affects rolls generally, the second outgoing damage and the third incoming damage reduction. They are not interchangeable defense statistics, and their existence does not establish a safe runtime trigger that temporarily changes just the next defense. The inspected typed NPC effects cover Health, relationship, placement, portrait and party membership, not a generic `npc-debuff` or `npc-stat` effect. Do not invent either. The community [NPC reference](https://wiki.unofficial.voyage/world/npcs) and [trigger vocabulary](https://wiki.unofficial.voyage/mechanics/triggerDefinitions) support this distinction; a timed state record by itself does not alter combat math.
+
+Preferred implementation is an engine-supported temporary modifier applied to the exact eligible resolution, with mechanical ownership/expiry. If that hook is not exposed, use the tracked record to supply a precise condition to action resolution, and describe it honestly as a hybrid AI-applied penalty until playtesting proves the numerical behavior. A story cue alone must not be advertised as exact -5 or -10%. Do not permanently subtract from NPC base modifiers, lower NPC levels, grant/remove training traits, mutate an entire npcType, fake defense loss by removing Health, or give a global `successBonus` penalty while calling it defense-only. A relative 10% output reduction means multiplying the qualifying outgoing result by 0.90 before the target's ordinary mitigation; it does not mean subtracting 10 points from an existing percentage modifier. Missing, immune or irrelevant targets receive no guessed modifier.
+
+Clearly narrate which limb, aim, footing or spell flow is affected and when it recovers. Do not give the same debuff both an exact numerical penalty and an additional easier difficulty step for the same opening. The rules are symmetric: enemies can inflict these conditions on players, and player reactions affect eligible enemies, including bosses with relevant anatomy/equipment. Boss status alone does not erase every debuff, but actual immunities and impossible conditions remain. This changes no protected Spider encounter or boss definition.
 
 ### Situational advantages already exist
 
@@ -104,7 +204,7 @@ For a reaction, define the real consequence and let the existing action resolver
 
 Conditions arising from an action affect later eligible resolution. Do not retroactively change an attack whose roll already happened because the following narration used the word staggered. Existing native buffs, defenses and contextual resolution should carry as much of this as the platform supports, with custom bookkeeping reserved for imprint/aftermath expiry and Resonance ownership.
 
-Later candidates include Sound + a solid imprint (**Fracture**), Gravity + Earth (**Collapse**) and a carefully bounded Light/Dark interaction (**Eclipse**). They are deferred, not automatically added to every available school.
+Sound, Gravity and the bounded Light/Dark interaction are now part of the equal-coverage roster above, rather than deferred privileges. The previous candidate names Fracture and Collapse are superseded by Faultsong and Burdenfall. No additional unlisted pair, physical Shatter or Soul reaction is implied.
 
 ## 3. Resonance and future threshold modifiers
 
@@ -134,7 +234,7 @@ The resource should have zero recharge, zero rest multiplier and zero level gain
 
 ## 4. Conceptual controller pseudocode
 
-This is system pseudocode, not supported Voyage JavaScript. The italicized design requirement is the critical bridge: *obtain a confirmed resolved hit with the correct actor, target and actual primary element*. The public contract inspected does not expose that general callback.
+This is system pseudocode, not supported Voyage JavaScript. The italicized design requirement is the critical bridge: _obtain a confirmed resolved hit with the correct actor, target and actual primary element_. The public contract inspected does not expose that general callback.
 
 ```text
 BEGIN COMPLETED PARTY TURN t
@@ -158,7 +258,7 @@ BEGIN COMPLETED PARTY TURN t
         if prior is live AND from another action AND reaction exists
            AND target has not reacted this turn:
             remove prior
-            apply one reaction's bonus OR one short movement hindrance
+            apply that row's direct bonus and/or one bounded aftermath
             award finisher +1 charge, at most once this party turn
             record target's reaction this turn
         else if this hit has an eligible elemental channel:
@@ -183,21 +283,30 @@ Custom resource definitions, explicit tick counters and typed health/resource ch
 
 Start with a one-target, two-element prototype. If it cannot reliably distinguish two enemies, the attacking caster and the real hit in multiplayer, stop there and choose a smaller scope. Do not compensate with a trigger for every spell, every NPC and every pair. If exact damage multiplication cannot be supported, offer an openly specified, separately tested fixed burst or an AI-guided impact bonus as alternatives; never silently subtract guessed extra Health from total Health loss, since healing, simultaneous attacks, fall damage and resistance can contaminate that calculation.
 
-## 5. Success-level presentation proposals
+## 5. Whimsical success-level presentation proposal
 
-These labels apply to cooking, conversation and exploration too. A clearly readable global ladder is preferable to calling an ordinary success a divine awakening.
+The current world and the author's screenshot still use the seven default names. The former Disaster/Setback/Strong Success options were readable but did not supply much of the requested whimsical flavor. Recommend the following single global ladder, with gently storybook language that also fits cooking, conversation, exploration and martial actions. This changes labels and narrator phrasing, not the probability or magnitude of an outcome. These names are proposed here, not applied to the world.
 
-| Current tier | Recommended clear adventure scheme | More stylized alternative |
+| Current tier | Recommended display name | Same outcome meaning |
 | --- | --- | --- |
-| Critical Failure | Disaster | Calamity |
-| Failure | Setback | Faltered |
-| Mixed Results | Mixed Outcome | Uneven |
-| Basic Success | Success | Accomplished |
-| Success | Strong Success | Impressive |
-| Great Success | Outstanding Success | Brilliant |
-| Critical Success | Triumph | Masterful |
+| Critical Failure | **Spectacular Mishap** | A severe failure within the action's real stakes; adversary skill or bad circumstances can explain it without humiliating the character. |
+| Failure | **Foiled** | The attempt fails; show the actual obstacle or opponent's response. |
+| Mixed Results | **Mixed Blessing** | Meaningful partial success with a specific limitation, compromise or cost. This remains the first successful tier. |
+| Basic Success | **Little Triumph** | The intended task succeeds modestly, without an invented complication or extra prize. |
+| Success | **Splendid Work** | A clean, confident success with a concrete useful result. |
+| Great Success | **Stroke of Brilliance** | An especially effective execution with a benefit appropriate to the actual action and engine outcome. |
+| Critical Success | **Storybook Triumph** | An exceptional result rendered memorably, within the action's scope and supplied mechanics. |
 
-Keep the present score bands and `firstSuccessfulTierId` unless changing balance is separately approved. Preserve tier IDs and migrate all references to renamed display names: [Success Levels](https://wiki.unofficial.voyage/mechanics/successLevelSettings) documents that `action-success-level` matches the **name**, not the ID. That includes the five existing conditions, relevant AI guidance and fixture labels. Renaming the display alone can break the fishing and scroll success checks.
+The labels do not force a comic mishap into torture, bereavement or another serious scene, nor make every brilliant action lucky or magical. Mixed Blessing grants no Divine Blessing; Storybook Triumph grants no free ability, extra attack, critical multiplier, item or plot victory beyond the actual result. Preserve existing outcome semantics. Narration can be warm or vivid without announcing a chosen hero.
+
+Implementation migration must be atomic:
+
+1. Preserve all seven stable tier IDs and exact current score bands: critical failure at -66 or lower; failure -65 to -51; mixed -50 to -26; basic -25 to -1; success 0 to 24; great 25 to 49; critical success 50 or above. Keep `firstSuccessfulTierId: "mixed-results"`.
+2. Rename the seven display names and revise their tier `prompt` strings to express the same outcomes above. Retain `{{characterName}}` where needed.
+3. Migrate the five current declarative success-name conditions: three `mixed results` references become the case-normalized Mixed Blessing name, and two `basic success` references become Little Triumph. Also inspect scripts, dynamic scroll templates, AI instructions, tests and other exact-name comparisons. Do not assume the five root conditions are the complete string-reference inventory.
+4. Verify every score boundary and existing fishing/scroll success branch. Only then synchronize the derived section files and deliver the full JSON. No changes to XP, levels, tier thresholds or impact/damage bands belong to this cosmetic migration.
+
+The community [Success Levels reference](https://wiki.unofficial.voyage/mechanics/successLevelSettings) documents that `action-success-level` matches the **name**, not the ID. Renaming only the visible entries can therefore break existing checks; preserving IDs alone is insufficient. No tier image generation or new emoji requirement is bundled.
 
 ## 6. Gate before full implementation
 
@@ -208,6 +317,10 @@ Keep the present score bands and `firstSuccessfulTierId` unless changing balance
 5. Verify the meter starts empty, rests/day changes/level-ups cannot fill it for free, threshold changes preserve only earned charge and the twentieth reaction boosts the following action.
 6. Verify damage receives each bonus once with the actual native result. Respect nonlethal duels, surrender, death and existing immunity rules. Do not alter the Spider Realm's authored content or fixed surprise event.
 7. Test all renamed success tiers, including existing fishing/scroll checks. No level, XP or success-threshold rebalance is bundled by default.
+8. Check the full roster as data: exactly 24 unique unordered pairs, all sixteen eligible channels used exactly three times and once at each 20%/10%/0% budget. Reject Soul/physical entries and wildcard partners. Sample the practical usefulness of material/sense-dependent utility rather than equating recipe count with proven balance.
+9. Verify generated abilities against their actual resolved channel, including a mundane rock moved by magic and a mixed technique. Separately verify any Soul penetration against armor 0 and a known armor contribution; do not advertise exact 10% bypass from descriptive guidance alone.
+10. Verify Rimebind affects only the next relevant defense; output weakening affects only its stated attack/spell category; every debuff clears on eligible use/expiry/combat end and repeated applications never permanently lower a stat. Test NPC-to-player and player-to-NPC effects, existing NPC base modifiers, mindless/eyeless/airborne targets and nonlethal bouts. Do not call tracked narrative debuffs exact arithmetic without this resolution test.
+11. Recount and migrate exact `poisoning` references to `poison`, preserving all original defenses and source files. Verify the emoji, generated/held ability guidance and reaction lookup agree on the new key; flag old-save compatibility separately.
 
 The first implementation decision is the verified hit/target/bonus delivery bridge. The reaction table and 20-charge design can be kept while adapting that bridge to what Voyage actually supports.
 
@@ -221,19 +334,19 @@ A trigger with a `story` **effect** can still be mechanical. It becomes semantic
 
 `tools/magic-overhaul/semantic-trigger-inventory.json` records the inspection and exact input hash. There are **548 authored root triggers: 456 semantic and 92 mechanical**. Each of the 456 has one semantic condition in this export.
 
-| Authored bank | Semantic definitions |
-| --- | ---: |
-| Core guild, academy and legacy events (`gh`, `q20`, `q23`) | 241 |
-| Ardelis | 52 |
-| Original medicines and teaching scrolls | 42 |
-| Adventurers and general activities | 43 |
-| Crucible | 22 |
-| Akitsuhara | 18 |
-| Rebirth | 14 |
-| Glowhaven outer activities | 10 |
-| Fishing | 10 |
-| Crime and introductory spellcraft | 4 |
-| **Total** | **456** |
+| Authored bank                                              | Semantic definitions |
+| ---------------------------------------------------------- | -------------------: |
+| Core guild, academy and legacy events (`gh`, `q20`, `q23`) |                  241 |
+| Ardelis                                                    |                   52 |
+| Original medicines and teaching scrolls                    |                   42 |
+| Adventurers and general activities                         |                   43 |
+| Crucible                                                   |                   22 |
+| Akitsuhara                                                 |                   18 |
+| Rebirth                                                    |                   14 |
+| Glowhaven outer activities                                 |                   10 |
+| Fishing                                                    |                   10 |
+| Crime and introductory spellcraft                          |                    4 |
+| **Total**                                                  |              **456** |
 
 These are definitions, not 456 checks performed every turn. Their location, quest, inventory, progress and other mechanical gates usually exclude most of them. The community [trigger reference](https://wiki.unofficial.voyage/mechanics/triggerDefinitions) documents a 500 semantic-definition ceiling and 15 semantic checks per turn, plus 5 for each active quest. Static headroom is therefore 44 definitions before runtime registration. Generated or temporarily registered rules are not included in the 456 figure. There are also six authored arcs and 265 native quests with story-based completion conditions; these are not all simultaneously active and must not be added to the root total as if they were.
 

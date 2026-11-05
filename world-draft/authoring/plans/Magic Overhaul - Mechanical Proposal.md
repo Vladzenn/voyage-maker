@@ -1,6 +1,6 @@
 # Magic Overhaul — implementation brainstorming
 
-Planning only, 5 November 2026. No gameplay JSON or public patch notes changed.
+Planning only, 5 November 2026. Intended release classification: **minor update**, as requested by the author. No gameplay JSON or public patch notes changed.
 
 The supplied full Studio export is the planning reference: attachment `0e0a46a8-91ce-41db-bcf2-d041c45b9b1b`, raw SHA-256 `813f12485175d20fb4da47882bac8ffde207e7756af97360e81ef97d5434c9c3`. Relative to the current canonical world, it contains location edits at The Pearl and Thistle, Opaline Arcade, Caelrath Amphitheatre, The King's Lists and House Orselle Salon. Do not overwrite these when implementation begins. This document does not merge them or replace the canonical full world.
 
@@ -283,32 +283,36 @@ Custom resource definitions, explicit tick counters and typed health/resource ch
 
 Start with a one-target, two-element prototype. If it cannot reliably distinguish two enemies, the attacking caster and the real hit in multiplayer, stop there and choose a smaller scope. Do not compensate with a trigger for every spell, every NPC and every pair. If exact damage multiplication cannot be supported, offer an openly specified, separately tested fixed burst or an AI-guided impact bonus as alternatives; never silently subtract guessed extra Health from total Health loss, since healing, simultaneous attacks, fall damage and resistance can contaminate that calculation.
 
-## 5. Whimsical success-level presentation proposal
+## 5. Selected whimsical success-level names
 
-The current world and the author's screenshot still use the seven default names. The former Disaster/Setback/Strong Success options were readable but did not supply much of the requested whimsical flavor. Recommend the following single global ladder, with gently storybook language that also fits cooking, conversation, exploration and martial actions. This changes labels and narrator phrasing, not the probability or magnitude of an outcome. These names are proposed here, not applied to the world.
+The current world and the author's screenshot still use the seven default names. The author selected the following global ladder, with gently storybook language that also fits cooking, conversation, exploration and martial actions. Normalize the supplied spelling “Splended Work” to **Splendid Work**. This changes labels and narrator phrasing, not the probability or magnitude of an outcome. The selection is recorded here; it has not been applied to the world.
 
-| Current tier | Recommended display name | Same outcome meaning |
+| Current tier | Selected display name | Same outcome meaning |
 | --- | --- | --- |
-| Critical Failure | **Spectacular Mishap** | A severe failure within the action's real stakes; adversary skill or bad circumstances can explain it without humiliating the character. |
-| Failure | **Foiled** | The attempt fails; show the actual obstacle or opponent's response. |
-| Mixed Results | **Mixed Blessing** | Meaningful partial success with a specific limitation, compromise or cost. This remains the first successful tier. |
+| Critical Failure | **Spectacular Blunder** | A severe failure within the action's real stakes; adversary skill or bad circumstances can explain it without humiliating the character. |
+| Failure | **Unfortunate Mishap** | The attempt fails; show the actual obstacle or opponent's response. |
+| Mixed Results | **Imperfect Result** | Meaningful partial success with a specific limitation, compromise or cost. This remains the first successful tier. |
 | Basic Success | **Little Triumph** | The intended task succeeds modestly, without an invented complication or extra prize. |
 | Success | **Splendid Work** | A clean, confident success with a concrete useful result. |
 | Great Success | **Stroke of Brilliance** | An especially effective execution with a benefit appropriate to the actual action and engine outcome. |
 | Critical Success | **Storybook Triumph** | An exceptional result rendered memorably, within the action's scope and supplied mechanics. |
 
-The labels do not force a comic mishap into torture, bereavement or another serious scene, nor make every brilliant action lucky or magical. Mixed Blessing grants no Divine Blessing; Storybook Triumph grants no free ability, extra attack, critical multiplier, item or plot victory beyond the actual result. Preserve existing outcome semantics. Narration can be warm or vivid without announcing a chosen hero.
+The labels do not force a comic mishap into torture, bereavement or another serious scene, nor make every brilliant action lucky or magical. Spectacular Blunder need not make the character incompetent: opposition and circumstances can defeat a capable attempt. Storybook Triumph grants no free ability, extra attack, critical multiplier, item or plot victory beyond the actual result. Preserve existing outcome semantics. Narration can be warm or vivid without announcing a chosen hero.
 
 Implementation migration must be atomic:
 
 1. Preserve all seven stable tier IDs and exact current score bands: critical failure at -66 or lower; failure -65 to -51; mixed -50 to -26; basic -25 to -1; success 0 to 24; great 25 to 49; critical success 50 or above. Keep `firstSuccessfulTierId: "mixed-results"`.
 2. Rename the seven display names and revise their tier `prompt` strings to express the same outcomes above. Retain `{{characterName}}` where needed.
-3. Migrate the five current declarative success-name conditions: three `mixed results` references become the case-normalized Mixed Blessing name, and two `basic success` references become Little Triumph. Also inspect scripts, dynamic scroll templates, AI instructions, tests and other exact-name comparisons. Do not assume the five root conditions are the complete string-reference inventory.
+3. Migrate the five current declarative success-name conditions: three `mixed results` references become the case-normalized Imperfect Result name, and two `basic success` references become Little Triumph. Also inspect scripts, dynamic scroll templates, AI instructions, tests and other exact-name comparisons. Do not assume the five root conditions are the complete string-reference inventory.
 4. Verify every score boundary and existing fishing/scroll success branch. Only then synchronize the derived section files and deliver the full JSON. No changes to XP, levels, tier thresholds or impact/damage bands belong to this cosmetic migration.
 
 The community [Success Levels reference](https://wiki.unofficial.voyage/mechanics/successLevelSettings) documents that `action-success-level` matches the **name**, not the ID. Renaming only the visible entries can therefore break existing checks; preserving IDs alone is insufficient. No tier image generation or new emoji requirement is bundled.
 
 ## 6. Gate before full implementation
+
+**Readiness: design-ready to begin implementation with a small prototype; not yet verified for release.** The release may be presented as a minor update. That classification does not establish that the engine exposes resolved hit types or temporary modifiers. Start by proving one target, two elements and one actual debuff, then add the shared table, both-side handling and Resonance after the result is dependable. Exact damage/temporary-penalty application and multiplayer scroll-recipient routing are the outstanding technical questions, not reasons to reopen the agreed names or expand the update into new quests, cast or maps.
+
+Safe first-pass edits are the selected tier labels plus their dependent references, damage presentation, the atomic poison rename and the supported Soul/resource definitions. Keep unproven reaction effects out of the delivery candidate until their resolution path works. If numerical effects require an AI-guided hybrid, report that limitation and resolve it with the author rather than silently presenting them as mechanically exact. Consolidate scroll settlement through the separately documented universal path and test cross-player grants/consumption before retiring either old implementation.
 
 1. Validate presentation and the resource shape against the current official draft validator; this has not been done for a candidate yet.
 2. In live play, verify hit/element/target ownership, no reaction on miss/immunity, expiry after the next turn and exactly one consumed imprint.

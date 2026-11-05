@@ -30,3 +30,4 @@ jobs:
       - run: node tools/test_ardelis_followup.cjs
       - run: node tools/test_ardelis_phantom.cjs
       - run: node tools/test_magic_overhaul.cjs
+      - run: node tools/test_playtest_phantom.cjs

@@ -327,6 +327,8 @@ def publish(message):
         subprocess.run(['node', str(ROOT / 'tools/test_ardelis_phantom.cjs')], cwd=ROOT, check=True)
     if (ROOT / 'tools/test_magic_overhaul.cjs').exists():
         subprocess.run(['node', str(ROOT / 'tools/test_magic_overhaul.cjs')], cwd=ROOT, check=True)
+    if (ROOT / 'tools/test_playtest_phantom.cjs').exists():
+        subprocess.run(['node', str(ROOT / 'tools/test_playtest_phantom.cjs')], cwd=ROOT, check=True)
     changed, index = asset_changes()
     if changed:
         write_json(INDEX, index)

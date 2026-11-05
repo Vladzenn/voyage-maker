@@ -199,9 +199,10 @@
       "Crescent Sanctuary Upbringing",
       "Mountain Herding Household",
       "Winter Stores Community",
-      "Mountain Rescue Upbringing"
+      "Mountain Rescue Upbringing",
+      "Otherworld Rebirth"
     ],
-    "description": "Optionally choose one place or community that shaped your early life. Each background adds +1 to a useful skill; your present circumstances are yours to establish.",
+    "description": "Optionally choose one formative community or Otherworld Rebirth. Each adds +1 to a useful skill; the selected opening sets your current circumstances.",
     "subcategories": [
       {
         "name": "Established Backgrounds",
@@ -260,6 +261,12 @@
           "Winter Stores Community",
           "Mountain Rescue Upbringing"
         ]
+      },
+      {
+        "name": "Otherworldly Origins",
+        "traits": [
+          "Otherworld Rebirth"
+        ]
       }
     ]
   },
@@ -282,7 +289,25 @@
       "Former Burglar",
       "Former Confidence Trickster",
       "Time Served",
-      "Self-Taught Spell Experimenter"
+      "Self-Taught Spell Experimenter",
+      "Workshop Apprentice",
+      "Apothecary Assistant",
+      "Inn Kitchen Hand",
+      "Former Market Trader",
+      "Former Estate Steward",
+      "Former Sailor",
+      "Riverhand",
+      "Caravan Hand",
+      "Former Courier",
+      "Herbalist Apprentice",
+      "Temple Volunteer",
+      "Village Mediator",
+      "Archive Assistant",
+      "Former Research Assistant",
+      "Wardkeeper’s Apprentice",
+      "Traveling Performer",
+      "Former Stagehand",
+      "Former Civic Clerk"
     ],
     "subcategories": [
       {
@@ -317,7 +342,45 @@
       {
         "name": "Study and Experiment",
         "traits": [
-          "Self-Taught Spell Experimenter"
+          "Self-Taught Spell Experimenter",
+          "Archive Assistant",
+          "Former Research Assistant",
+          "Wardkeeper’s Apprentice"
+        ]
+      },
+      {
+        "name": "Work and Trade",
+        "traits": [
+          "Workshop Apprentice",
+          "Apothecary Assistant",
+          "Inn Kitchen Hand",
+          "Former Market Trader",
+          "Former Estate Steward"
+        ]
+      },
+      {
+        "name": "Travel and Water",
+        "traits": [
+          "Former Sailor",
+          "Riverhand",
+          "Caravan Hand",
+          "Former Courier"
+        ]
+      },
+      {
+        "name": "Care and Community",
+        "traits": [
+          "Herbalist Apprentice",
+          "Temple Volunteer",
+          "Village Mediator"
+        ]
+      },
+      {
+        "name": "Performance and Public Life",
+        "traits": [
+          "Traveling Performer",
+          "Former Stagehand",
+          "Former Civic Clerk"
         ]
       }
     ]
@@ -717,7 +780,8 @@
       "Ear for the Returning Bell",
       "Hands that Know the Form",
       "A Host at Any Hearth",
-      "Borrowed Storm Nerve"
+      "Borrowed Storm Nerve",
+      "Quickened Chorus"
     ],
     "description": "Optional — choose up to two unusual gifts, blessings or exceptional aptitudes, or skip. Benefits are substantial but bounded; stronger gifts have the listed trade-offs. A granted discipline or technique is learned as stated without adding an affinity. No Space, Time, automatic authority or compulsory deity relationship is included.",
     "subcategories": [
@@ -769,7 +833,8 @@
           "Gentle Radiance",
           "Green-Fingered Wonder",
           "Veilworker",
-          "Quiet Between Spells"
+          "Quiet Between Spells",
+          "Quickened Chorus"
         ]
       },
       {
@@ -956,7 +1021,19 @@
       "Unconventional Style",
       "Nervous Newcomer",
       "Confident Bearing",
-      "Hard to Read"
+      "Hard to Read",
+      "Unbothered Bearing",
+      "Sleepy Composure",
+      "Relaxed Charm",
+      "World-Weary Look",
+      "Bookish Air",
+      "Restless Energy",
+      "Earnest Awkwardness",
+      "Playfully Cheeky",
+      "Gentle Reserve",
+      "Distant Elegance",
+      "Scruffy Practicality",
+      "Focused Intensity"
     ],
     "description": "Optional — skip this category if you prefer: how a stranger might initially read your visible presentation. Purely narrative. Actual circumstances and individual NPC judgment always matter."
   },

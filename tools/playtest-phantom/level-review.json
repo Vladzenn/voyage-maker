@@ -1,0 +1,2285 @@
+{
+  "policy": "Eligible background civilian levels above six are reduced to ceil(old level / 6), capped at eight. Levels already at six or below and actual trained roles are preserved. Original HP multipliers, tiers and ability descriptions are unchanged; native HP and damage follow the new level.",
+  "rows": [
+    {
+      "npc": "Sayuri Kogane",
+      "beforeLevel": 26,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 378,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Junpei Hoshida",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Amira Saffar",
+      "beforeLevel": 26,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 378,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Koharu Kitsumori",
+      "beforeLevel": 28,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 402,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Osamu Iseki",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Mirei Shiozaki",
+      "beforeLevel": 24,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 354,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Sachi Amihara",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Lucien Delorme",
+      "beforeLevel": 28,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 402,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Haruho Taneda",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Meilin Suyama",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Rinpei Komatsu",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Tomoe Enokida",
+      "beforeLevel": 28,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 402,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Kaito Minato",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Yae Tsugimoto",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Gorō Kutsumi",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Ren Mizuno",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Fuyumi Tachibana",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Chisato Yanagi",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Uta Sakuraba",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Shizuru Sumida",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Hotaru Kusano",
+      "beforeLevel": 28,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 402,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Masato Ginmori",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Erika Michihara",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Benji Takarada",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Noriko Hanesawa",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Tōya Ishihama",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Natsume Isobe",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Shōhei Fukuda",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Emi Suzuhara",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Yūsei Nagisa",
+      "beforeLevel": 24,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 354,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Akiko Umino",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Takumi Hatano",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Shiori Kawase",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Itsuki Morino",
+      "beforeLevel": 24,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 354,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Momo Karube",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Aya Orimoto",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Céline Desrosiers",
+      "beforeLevel": 28,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 402,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Daichi Kamado",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Aoi Yonekura",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Rui Takatori",
+      "beforeLevel": 28,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 402,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Reiji Takatori",
+      "beforeLevel": 28,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 402,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Mihoko Nekozawa",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Kazuo Kurogaki",
+      "beforeLevel": 28,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 402,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Shōko Shirogane",
+      "beforeLevel": 28,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 402,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Makoto Sashihara",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Rika Kawano",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Yoshino Haneda",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Reiko Momose",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Seiji Haguruma",
+      "beforeLevel": 28,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 402,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Nozomi Kogusa",
+      "beforeLevel": 28,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 402,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Sōta Ashihara",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Hanae Goldbarrow",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Naoki Fudemura",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Akira Oritsu",
+      "beforeLevel": 28,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 402,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Valérie Clairmont",
+      "beforeLevel": 28,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 402,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Akemi Fushida",
+      "beforeLevel": 23,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 342,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Atsuko Ōhira",
+      "beforeLevel": 17,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 270,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Daigo Numata",
+      "beforeLevel": 26,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 378,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Daisuke Toyama",
+      "beforeLevel": 25,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 366,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Eitarō Handa",
+      "beforeLevel": 20,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 306,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Fuyumi Kirihara",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Gentarō Bando",
+      "beforeLevel": 28,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 402,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Haruto Aonuma",
+      "beforeLevel": 27,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 390,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Hotaru Kise",
+      "beforeLevel": 19,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 294,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Iori Yukinose",
+      "beforeLevel": 24,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 354,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Iroha Sagiri",
+      "beforeLevel": 28,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 402,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Keishin Tōdō",
+      "beforeLevel": 32,
+      "afterLevel": 6,
+      "tier": "average",
+      "beforeNeutralHP": 450,
+      "afterNeutralHP": 138
+    },
+    {
+      "npc": "Kotoha Umezaki",
+      "beforeLevel": 25,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 366,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Michiru Aonuma",
+      "beforeLevel": 28,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 402,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Miharu Sakuraba",
+      "beforeLevel": 27,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 390,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Noboru Ōhira",
+      "beforeLevel": 21,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 318,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Sachie Handa",
+      "beforeLevel": 24,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 354,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Setsuna Takigawa",
+      "beforeLevel": 27,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 390,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Shino Kazamaki",
+      "beforeLevel": 24,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 354,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Suzune Hanekawa",
+      "beforeLevel": 22,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 330,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Takumi Hasebe",
+      "beforeLevel": 30,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 426,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Toki Toyama",
+      "beforeLevel": 24,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 354,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Tsugumi Arata",
+      "beforeLevel": 26,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 378,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Uta Fumizawa",
+      "beforeLevel": 25,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 366,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Shūgo Katase",
+      "beforeLevel": 28,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 402,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Chisato Kurebayashi",
+      "beforeLevel": 28,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 402,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Ena Minamori",
+      "beforeLevel": 28,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 402,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Tobio Hanekawa",
+      "beforeLevel": 28,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 402,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Mizue Akeboshi",
+      "beforeLevel": 28,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 402,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Adoha Aonuma",
+      "beforeLevel": 28,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 402,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Tetsuya Kanamori",
+      "beforeLevel": 24,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 354,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Nae Komorida",
+      "beforeLevel": 16,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 258,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Masaru Hasebe",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Shōgo Mizutani",
+      "beforeLevel": 28,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 402,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Nozomi Hayase",
+      "beforeLevel": 27,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 390,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Gorō Azuma",
+      "beforeLevel": 30,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 426,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Hina Wakabayashi",
+      "beforeLevel": 20,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 306,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Mika Koshimizu",
+      "beforeLevel": 24,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 354,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Renjirō Suda",
+      "beforeLevel": 22,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 330,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Momo Shiratori",
+      "beforeLevel": 20,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 306,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Shiori Takase",
+      "beforeLevel": 26,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 378,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Genta Shishido",
+      "beforeLevel": 28,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 402,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Koharu Mikazuki",
+      "beforeLevel": 32,
+      "afterLevel": 6,
+      "tier": "average",
+      "beforeNeutralHP": 450,
+      "afterNeutralHP": 138
+    },
+    {
+      "npc": "Rin Saionoma",
+      "beforeLevel": 20,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 306,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Sae Kagurazaka",
+      "beforeLevel": 28,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 402,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Genzaburō Kanemori",
+      "beforeLevel": 29,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 414,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Kinu Amakusa",
+      "beforeLevel": 24,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 354,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Renga Itsuzaki",
+      "beforeLevel": 27,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 390,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Tadayoshi Kurebayashi",
+      "beforeLevel": 12,
+      "afterLevel": 2,
+      "tier": "average",
+      "beforeNeutralHP": 210,
+      "afterNeutralHP": 90
+    },
+    {
+      "npc": "Mika Fuyuse",
+      "beforeLevel": 25,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 366,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Nobu Senda",
+      "beforeLevel": 13,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 222,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Akane Natsukawa",
+      "beforeLevel": 20,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 306,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Kensuke Ayahara",
+      "beforeLevel": 14,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 234,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Naoe Futami",
+      "beforeLevel": 21,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 318,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Chiyo Matsukaze",
+      "beforeLevel": 15,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 246,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Tetsu Obana",
+      "beforeLevel": 22,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 330,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Fūka Suzumori",
+      "beforeLevel": 16,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 258,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Renjirō Usami",
+      "beforeLevel": 23,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 342,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Maho Kanemori",
+      "beforeLevel": 17,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 270,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Hatsu Kanesue",
+      "beforeLevel": 24,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 354,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Iori Kagurazaka",
+      "beforeLevel": 19,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 294,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Chinatsu Hanegi",
+      "beforeLevel": 25,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 366,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Yūhei Toba",
+      "beforeLevel": 25,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 366,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Natsuko Tsumura",
+      "beforeLevel": 14,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 234,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Kōichi Aratani",
+      "beforeLevel": 21,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 318,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Yae Mizuno",
+      "beforeLevel": 15,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 246,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Haru Tomisaka",
+      "beforeLevel": 22,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 330,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Sachi Morisawa",
+      "beforeLevel": 16,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 258,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Kazuma Ebisawa",
+      "beforeLevel": 23,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 342,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Mina Kurusu",
+      "beforeLevel": 17,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 270,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Osamu Kariya",
+      "beforeLevel": 24,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 354,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Tae Ishihama",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Shunji Dobashi",
+      "beforeLevel": 12,
+      "afterLevel": 2,
+      "tier": "average",
+      "beforeNeutralHP": 210,
+      "afterNeutralHP": 90
+    },
+    {
+      "npc": "Ruri Nabatame",
+      "beforeLevel": 19,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 294,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Hokuto Mizusawa",
+      "beforeLevel": 13,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 222,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Shizue Amakawa",
+      "beforeLevel": 20,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 306,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Dōgen Hanamori",
+      "beforeLevel": 25,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 366,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Fusa Minase",
+      "beforeLevel": 21,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 318,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Naohiro Umemoto",
+      "beforeLevel": 15,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 246,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Sana Kuroiwa",
+      "beforeLevel": 22,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 330,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Rei Tsunemori",
+      "beforeLevel": 16,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 258,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Yoriko Abe",
+      "beforeLevel": 25,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 366,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Kayo Yagiri",
+      "beforeLevel": 24,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 354,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Yasuo Natori",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Chika Nishihara",
+      "beforeLevel": 25,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 366,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Shin Watarai",
+      "beforeLevel": 19,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 294,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Mitsue Harada",
+      "beforeLevel": 13,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 222,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Kentarō Maeba",
+      "beforeLevel": 20,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 306,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Suzuha Hoshikawa",
+      "beforeLevel": 14,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 234,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Mayu Enomoto",
+      "beforeLevel": 15,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 246,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Takuro Namiki",
+      "beforeLevel": 22,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 330,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Eri Tamura",
+      "beforeLevel": 25,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 366,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Seitarō Matsuoka",
+      "beforeLevel": 25,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 366,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Nene Moriyama",
+      "beforeLevel": 17,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 270,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Isao Tsuge",
+      "beforeLevel": 24,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 354,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Yumi Sawatari",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Gorō Fushimi",
+      "beforeLevel": 12,
+      "afterLevel": 2,
+      "tier": "average",
+      "beforeNeutralHP": 210,
+      "afterNeutralHP": 90
+    },
+    {
+      "npc": "Aya Takino",
+      "beforeLevel": 19,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 294,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Mutsumi Hosaka",
+      "beforeLevel": 13,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 222,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Tōru Fukada",
+      "beforeLevel": 20,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 306,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Rika Ogata",
+      "beforeLevel": 14,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 234,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Kenji Morita",
+      "beforeLevel": 21,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 318,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Yōko Sanada",
+      "beforeLevel": 15,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 246,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Kae Sumida",
+      "beforeLevel": 22,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 330,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Chihiro Noda",
+      "beforeLevel": 16,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 258,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Makiya Utsugi",
+      "beforeLevel": 23,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 342,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Hajime Niwa",
+      "beforeLevel": 17,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 270,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Asa Kogure",
+      "beforeLevel": 24,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 354,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Yukina Tsuribe",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Ren Ishidate",
+      "beforeLevel": 20,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 306,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Takane Shibata",
+      "beforeLevel": 14,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 234,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Léonie Vauclair",
+      "beforeLevel": 21,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 318,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Jin Lin",
+      "beforeLevel": 15,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 246,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Duncan Rusk",
+      "beforeLevel": 22,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 330,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Akihisa Manabe",
+      "beforeLevel": 16,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 258,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Katsuho Enoki",
+      "beforeLevel": 23,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 342,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Jun Sasanami",
+      "beforeLevel": 17,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 270,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Kohina Beppu",
+      "beforeLevel": 24,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 354,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Hiroto Sakuma",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Nana Saionoma",
+      "beforeLevel": 12,
+      "afterLevel": 2,
+      "tier": "average",
+      "beforeNeutralHP": 210,
+      "afterNeutralHP": 90
+    },
+    {
+      "npc": "Atsuha Yunokawa",
+      "beforeLevel": 19,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 294,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Daigo Umetsu",
+      "beforeLevel": 26,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 378,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Nanae Kogure",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Sōji Hamada",
+      "beforeLevel": 24,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 354,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Iris Mornay",
+      "beforeLevel": 29,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 414,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Chizuru Hoshikawa",
+      "beforeLevel": 28,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 402,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Lucette Bellanger",
+      "beforeLevel": 27,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 390,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Eiji Kuramochi",
+      "beforeLevel": 12,
+      "afterLevel": 2,
+      "tier": "average",
+      "beforeNeutralHP": 210,
+      "afterNeutralHP": 90
+    },
+    {
+      "npc": "Tamae Shibano",
+      "beforeLevel": 20,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 306,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Yorina Tsugawa",
+      "beforeLevel": 25,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 366,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Shūhei Kusanagi",
+      "beforeLevel": 16,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 258,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Fuyuka Kusanagi",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Kōzō Hinoura",
+      "beforeLevel": 24,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 354,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Saki Hinoura",
+      "beforeLevel": 15,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 246,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Makiho Akitsu",
+      "beforeLevel": 22,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 330,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Rinako Matsuba",
+      "beforeLevel": 17,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 270,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Kenta Matsuba",
+      "beforeLevel": 11,
+      "afterLevel": 2,
+      "tier": "average",
+      "beforeNeutralHP": 198,
+      "afterNeutralHP": 90
+    },
+    {
+      "npc": "Uta Nekoyama",
+      "beforeLevel": 21,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 318,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Daisaku Minobe",
+      "beforeLevel": 23,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 342,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Mina Takanashi",
+      "beforeLevel": 24,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 354,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Kanna Enozaki",
+      "beforeLevel": 25,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 366,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Mihana Orihara",
+      "beforeLevel": 17,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 270,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Reika Kurose",
+      "beforeLevel": 29,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 414,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "The Ash-Cloaked Courier",
+      "beforeLevel": 22,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 330,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "The Reed-Cloaked Courier",
+      "beforeLevel": 21,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 318,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Hidetaka Minazuki",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Junko Takamine",
+      "beforeLevel": 24,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 354,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Mireille Orselle",
+      "beforeLevel": 27,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 390,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Aoi Matsukura",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Koharu Mizuse",
+      "beforeLevel": 23,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 342,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Sibylle Opal",
+      "beforeLevel": 24,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 354,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Benika Nerikawa",
+      "beforeLevel": 21,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 318,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Ryōta Utagawa",
+      "beforeLevel": 24,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 354,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Otone Shiramine",
+      "beforeLevel": 19,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 294,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Keisuke Fujisaki",
+      "beforeLevel": 15,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 246,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Koyomi Makino",
+      "beforeLevel": 12,
+      "afterLevel": 2,
+      "tier": "average",
+      "beforeNeutralHP": 210,
+      "afterNeutralHP": 90
+    },
+    {
+      "npc": "Eita Akaba",
+      "beforeLevel": 22,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 330,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Madelon Vire",
+      "beforeLevel": 20,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 306,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Suzune Arataki",
+      "beforeLevel": 20,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 306,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Masaki Fushimi",
+      "beforeLevel": 14,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 234,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Ruri Minazuki",
+      "beforeLevel": 21,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 318,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Ren Wakabayashi",
+      "beforeLevel": 17,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 270,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Akiha Saegusa",
+      "beforeLevel": 23,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 342,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Brenna Blackwood",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Maiko Dōjima",
+      "beforeLevel": 22,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 330,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Erisa Hanabusa",
+      "beforeLevel": 24,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 354,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Akito Kagetsu",
+      "beforeLevel": 27,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 390,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Fumiko Sawatari",
+      "beforeLevel": 17,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 270,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Harunobu Shirosaki",
+      "beforeLevel": 25,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 366,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Gavin Hallow",
+      "beforeLevel": 21,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 318,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Fūma Someya",
+      "beforeLevel": 26,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 378,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Anzu Hanezaki",
+      "beforeLevel": 21,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 318,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Eiichi Sakuraba",
+      "beforeLevel": 23,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 342,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Nanami Kurebayashi",
+      "beforeLevel": 26,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 378,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Tetsurō Kuranaga",
+      "beforeLevel": 22,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 330,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Harue Wada",
+      "beforeLevel": 22,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 330,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Kōhei Daitō",
+      "beforeLevel": 16,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 258,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Mirei Asahina",
+      "beforeLevel": 21,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 318,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Edmée Mott",
+      "beforeLevel": 23,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 342,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Fuyuki Bannai",
+      "beforeLevel": 14,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 234,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Isaline Orselle",
+      "beforeLevel": 19,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 294,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Risa Haneda",
+      "beforeLevel": 16,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 258,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Kiyotaka Sasahara",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Sumire Senba",
+      "beforeLevel": 22,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 330,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Otoya Suzukawa",
+      "beforeLevel": 21,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 318,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Emi Sunahara",
+      "beforeLevel": 17,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 270,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Fumihiro Yorita",
+      "beforeLevel": 20,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 306,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Lachlan Ferrick",
+      "beforeLevel": 27,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 390,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Aina Teraoka",
+      "beforeLevel": 17,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 270,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Masaru Takamine",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Chihiro Shimizu",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Naoya Nakashima",
+      "beforeLevel": 27,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 390,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Rena Someya",
+      "beforeLevel": 14,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 234,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Daisaku Hanekawa",
+      "beforeLevel": 15,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 246,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Genzō Kusunose",
+      "beforeLevel": 25,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 366,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Mitsue Sawada",
+      "beforeLevel": 17,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 270,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Ivor Briar",
+      "beforeLevel": 26,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 378,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Kanae Kazama",
+      "beforeLevel": 16,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 258,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Kiri Fuyuzono",
+      "beforeLevel": 21,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 318,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Tadashi Morishita",
+      "beforeLevel": 22,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 330,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Naoki Tachibana",
+      "beforeLevel": 15,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 246,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Yukie Maruyama",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Shizuka Uenohara",
+      "beforeLevel": 25,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 366,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Reiji Yomikawa",
+      "beforeLevel": 24,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 354,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Takuma Kurose",
+      "beforeLevel": 23,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 342,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Yūgo Kashiwagi",
+      "beforeLevel": 17,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 270,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Arisa Harukawa",
+      "beforeLevel": 19,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 294,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Shimon Kanejima",
+      "beforeLevel": 20,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 306,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Anri Minegishi",
+      "beforeLevel": 17,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 270,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Bunzō Kasai",
+      "beforeLevel": 24,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 354,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Hana Dōno",
+      "beforeLevel": 19,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 294,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Katsumi Hirano",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Raizō Bessho",
+      "beforeLevel": 22,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 330,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Akihisa Sakimori",
+      "beforeLevel": 24,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 354,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Juri Kokubu",
+      "beforeLevel": 17,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 270,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Rie Yagami",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Hiroto Yagami",
+      "beforeLevel": 19,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 294,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Setsuko Aoyagi",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Nina Suzuhara",
+      "beforeLevel": 16,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 258,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Maki Fukase",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Riku Matsukura",
+      "beforeLevel": 13,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 222,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Gareth Stone",
+      "beforeLevel": 26,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 378,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Reina Togashi",
+      "beforeLevel": 25,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 366,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Yasuhiko Dōmoto",
+      "beforeLevel": 23,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 342,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Otoha Karasawa",
+      "beforeLevel": 20,
+      "afterLevel": 4,
+      "tier": "average",
+      "beforeNeutralHP": 306,
+      "afterNeutralHP": 114
+    },
+    {
+      "npc": "Wataru Arakida",
+      "beforeLevel": 25,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 366,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Fūta Wakatsuki",
+      "beforeLevel": 18,
+      "afterLevel": 3,
+      "tier": "average",
+      "beforeNeutralHP": 282,
+      "afterNeutralHP": 102
+    },
+    {
+      "npc": "Shiori Moritsuki",
+      "beforeLevel": 27,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 390,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Rumi Shirato",
+      "beforeLevel": 27,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 390,
+      "afterNeutralHP": 126
+    },
+    {
+      "npc": "Ansei Kurumada",
+      "beforeLevel": 27,
+      "afterLevel": 5,
+      "tier": "average",
+      "beforeNeutralHP": 390,
+      "afterNeutralHP": 126
+    }
+  ]
+}

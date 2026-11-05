@@ -2,7 +2,7 @@
 const fs=require('fs'),path=require('path'),assert=require('assert'),crypto=require('crypto');
 const {fixture,player}=require('./magic-overhaul/runtime_fixture.cjs');
 const root=path.resolve(__dirname,'..'),read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
-const w=read(process.argv[2]||path.join(root,'world-draft/WorldAlpha - World.json'));
+const w=require('./playtest-phantom/previous_world.cjs')(read(process.argv[2]||path.join(root,'world-draft/WorldAlpha - World.json')));
 const review=read(path.join(__dirname,'magic-overhaul/review.json'));
 const rows=read(path.join(__dirname,'magic-overhaul/scroll-catalogue.json'));
 const recipes=read(path.join(__dirname,'magic-overhaul/reactions.json'));

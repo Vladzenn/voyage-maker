@@ -105,7 +105,8 @@ for(const st of Object.values(w.storyStarts))ck(st.startingItems.filter(i=>i.ite
 ck(!w.itemSettings.startingItems.some(i=>i.item==='Mark'),'No shared extra 18 marks');
 ck(w.traitCategories['Special Talent'].maxSelections===2,'Approved talent capacity');
 if(w.traitCategories['Past Experience']){
- const past=w.traitCategories['Past Experience'];ck(past.maxSelections===1&&past.traits.length===(w.traits['Self-Taught Spell Experimenter']?15:14),'Optional single past-experience choice');
+ const past=w.traitCategories['Past Experience'],addedExperience=w.traits['Workshop Apprentice']?18:0;
+ ck(past.maxSelections===1&&past.traits.length===(w.traits['Self-Taught Spell Experimenter']?15:14)+addedExperience,'Optional single past-experience choice');
  for(const n of past.traits){const t=w.traits[n];ck(t.skills.length===1&&t.skills[0].modifier===1&&!t.startingItems.length,'Modest experience without free badge '+n);}
  for(const n of ['Iwatsugu Clan Upbringing','Yukinose Clan Upbringing','Arashimine Clan Upbringing'])ck(w.traitCategories['Origin & Upbringing'].traits.includes(n),'Selectable actual clan '+n);
  const physical=w.traits['Physical Foundations'];
@@ -132,9 +133,9 @@ for(const name of origins.traits.slice(12)){
 ck(w.traits['Physical Foundations'].description.length>250&&!/grants no|no spell|no affinity|no combat/.test(w.traits['Physical Foundations'].description),'Positive Physical Foundations description');
 const talentNames=w.traitCategories['Special Talent'].traits;
 for(let i=0;i<talentNames.length;i++)for(let j=i+1;j<talentNames.length;j++){
- const pools=Object.fromEntries(['Health','Mana','Stamina'].map(r=>[r,w.resourceSettings[r].maxValue]));
+ const pools=Object.fromEntries(Object.entries(w.resourceSettings).map(([r,data])=>[r,data.maxValue]));
  for(const n of [talentNames[i],talentNames[j]])for(const x of w.traits[n].resources)pools[x.resource]+=x.modifier;
- ck(Object.values(pools).every(v=>v>0),'Two talents retain positive initial resources '+talentNames[i]+' / '+talentNames[j]);
+ ck(Object.values(pools).every(v=>v>0),'Two talents retain positive resource capacities '+talentNames[i]+' / '+talentNames[j]);
 }
 
 // Native area paths are local; the recorded road plan is connected in setting text.

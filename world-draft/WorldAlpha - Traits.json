@@ -8724,16 +8724,12 @@
   },
   "Caravan Hand": {
     "name": "Caravan Hand",
-    "description": "Prior experience with loading, securing cargo and supporting an overland journey. Begin with +2 athletics and +1 Trade.",
-    "traitNarrativeEffects": "Prior experience with loading, securing cargo and supporting an overland journey. Begin with +2 athletics and +1 Trade. This is prior practical experience, not a current appointment, professional licence, owned premises, free tools, fame or an automatic academy subject. Language work uses only languages actually learned.",
+    "description": "You cared for pack animals, checked harness and learned when a stubborn beast had a sensible objection. Start with +1 Animal Handling.",
+    "traitNarrativeEffects": "You cared for pack animals, checked harness and learned when a stubborn beast had a sensible objection. This earlier experience supplies only its listed familiarity, not a present job, license, equipment or personal connection.",
     "attributes": [],
     "skills": [
       {
-        "skill": "athletics",
-        "modifier": 2
-      },
-      {
-        "skill": "Trade",
+        "skill": "Animal Handling",
         "modifier": 1
       }
     ],
@@ -17357,7 +17353,7 @@
   },
   "Resonance: 1": {
     "name": "Resonance: 1",
-    "description": "You have gathered 1 of 20 points of Resonance through elemental reactions.",
+    "description": "You have gathered 1 points of Resonance through elemental reactions. Your full chorus is 20 points, or 16 with Quickened Chorus.",
     "traitNarrativeEffects": "Exactly 1 earned Resonance. No passive, rest, daily or level-up refill.",
     "attributes": [],
     "skills": [],
@@ -17375,7 +17371,7 @@
   },
   "Resonance: 2": {
     "name": "Resonance: 2",
-    "description": "You have gathered 2 of 20 points of Resonance through elemental reactions.",
+    "description": "You have gathered 2 points of Resonance through elemental reactions. Your full chorus is 20 points, or 16 with Quickened Chorus.",
     "traitNarrativeEffects": "Exactly 2 earned Resonance. No passive, rest, daily or level-up refill.",
     "attributes": [],
     "skills": [],
@@ -17393,7 +17389,7 @@
   },
   "Resonance: 3": {
     "name": "Resonance: 3",
-    "description": "You have gathered 3 of 20 points of Resonance through elemental reactions.",
+    "description": "You have gathered 3 points of Resonance through elemental reactions. Your full chorus is 20 points, or 16 with Quickened Chorus.",
     "traitNarrativeEffects": "Exactly 3 earned Resonance. No passive, rest, daily or level-up refill.",
     "attributes": [],
     "skills": [],
@@ -17411,7 +17407,7 @@
   },
   "Resonance: 4": {
     "name": "Resonance: 4",
-    "description": "You have gathered 4 of 20 points of Resonance through elemental reactions.",
+    "description": "You have gathered 4 points of Resonance through elemental reactions. Your full chorus is 20 points, or 16 with Quickened Chorus.",
     "traitNarrativeEffects": "Exactly 4 earned Resonance. No passive, rest, daily or level-up refill.",
     "attributes": [],
     "skills": [],
@@ -17429,7 +17425,7 @@
   },
   "Resonance: 5": {
     "name": "Resonance: 5",
-    "description": "You have gathered 5 of 20 points of Resonance through elemental reactions.",
+    "description": "You have gathered 5 points of Resonance through elemental reactions. Your full chorus is 20 points, or 16 with Quickened Chorus.",
     "traitNarrativeEffects": "Exactly 5 earned Resonance. No passive, rest, daily or level-up refill.",
     "attributes": [],
     "skills": [],
@@ -17447,7 +17443,7 @@
   },
   "Resonance: 6": {
     "name": "Resonance: 6",
-    "description": "You have gathered 6 of 20 points of Resonance through elemental reactions.",
+    "description": "You have gathered 6 points of Resonance through elemental reactions. Your full chorus is 20 points, or 16 with Quickened Chorus.",
     "traitNarrativeEffects": "Exactly 6 earned Resonance. No passive, rest, daily or level-up refill.",
     "attributes": [],
     "skills": [],
@@ -17465,7 +17461,7 @@
   },
   "Resonance: 7": {
     "name": "Resonance: 7",
-    "description": "You have gathered 7 of 20 points of Resonance through elemental reactions.",
+    "description": "You have gathered 7 points of Resonance through elemental reactions. Your full chorus is 20 points, or 16 with Quickened Chorus.",
     "traitNarrativeEffects": "Exactly 7 earned Resonance. No passive, rest, daily or level-up refill.",
     "attributes": [],
     "skills": [],
@@ -17483,7 +17479,7 @@
   },
   "Resonance: 8": {
     "name": "Resonance: 8",
-    "description": "You have gathered 8 of 20 points of Resonance through elemental reactions.",
+    "description": "You have gathered 8 points of Resonance through elemental reactions. Your full chorus is 20 points, or 16 with Quickened Chorus.",
     "traitNarrativeEffects": "Exactly 8 earned Resonance. No passive, rest, daily or level-up refill.",
     "attributes": [],
     "skills": [],
@@ -17501,7 +17497,7 @@
   },
   "Resonance: 9": {
     "name": "Resonance: 9",
-    "description": "You have gathered 9 of 20 points of Resonance through elemental reactions.",
+    "description": "You have gathered 9 points of Resonance through elemental reactions. Your full chorus is 20 points, or 16 with Quickened Chorus.",
     "traitNarrativeEffects": "Exactly 9 earned Resonance. No passive, rest, daily or level-up refill.",
     "attributes": [],
     "skills": [],
@@ -17519,7 +17515,7 @@
   },
   "Resonance: 10": {
     "name": "Resonance: 10",
-    "description": "You have gathered 10 of 20 points of Resonance through elemental reactions.",
+    "description": "You have gathered 10 points of Resonance through elemental reactions. Your full chorus is 20 points, or 16 with Quickened Chorus.",
     "traitNarrativeEffects": "Exactly 10 earned Resonance. No passive, rest, daily or level-up refill.",
     "attributes": [],
     "skills": [],
@@ -17537,7 +17533,7 @@
   },
   "Resonance: 11": {
     "name": "Resonance: 11",
-    "description": "You have gathered 11 of 20 points of Resonance through elemental reactions.",
+    "description": "You have gathered 11 points of Resonance through elemental reactions. Your full chorus is 20 points, or 16 with Quickened Chorus.",
     "traitNarrativeEffects": "Exactly 11 earned Resonance. No passive, rest, daily or level-up refill.",
     "attributes": [],
     "skills": [],
@@ -17555,7 +17551,7 @@
   },
   "Resonance: 12": {
     "name": "Resonance: 12",
-    "description": "You have gathered 12 of 20 points of Resonance through elemental reactions.",
+    "description": "You have gathered 12 points of Resonance through elemental reactions. Your full chorus is 20 points, or 16 with Quickened Chorus.",
     "traitNarrativeEffects": "Exactly 12 earned Resonance. No passive, rest, daily or level-up refill.",
     "attributes": [],
     "skills": [],
@@ -17573,7 +17569,7 @@
   },
   "Resonance: 13": {
     "name": "Resonance: 13",
-    "description": "You have gathered 13 of 20 points of Resonance through elemental reactions.",
+    "description": "You have gathered 13 points of Resonance through elemental reactions. Your full chorus is 20 points, or 16 with Quickened Chorus.",
     "traitNarrativeEffects": "Exactly 13 earned Resonance. No passive, rest, daily or level-up refill.",
     "attributes": [],
     "skills": [],
@@ -17591,7 +17587,7 @@
   },
   "Resonance: 14": {
     "name": "Resonance: 14",
-    "description": "You have gathered 14 of 20 points of Resonance through elemental reactions.",
+    "description": "You have gathered 14 points of Resonance through elemental reactions. Your full chorus is 20 points, or 16 with Quickened Chorus.",
     "traitNarrativeEffects": "Exactly 14 earned Resonance. No passive, rest, daily or level-up refill.",
     "attributes": [],
     "skills": [],
@@ -17609,7 +17605,7 @@
   },
   "Resonance: 15": {
     "name": "Resonance: 15",
-    "description": "You have gathered 15 of 20 points of Resonance through elemental reactions.",
+    "description": "You have gathered 15 points of Resonance through elemental reactions. Your full chorus is 20 points, or 16 with Quickened Chorus.",
     "traitNarrativeEffects": "Exactly 15 earned Resonance. No passive, rest, daily or level-up refill.",
     "attributes": [],
     "skills": [],
@@ -17627,7 +17623,7 @@
   },
   "Resonance: 16": {
     "name": "Resonance: 16",
-    "description": "You have gathered 16 of 20 points of Resonance through elemental reactions.",
+    "description": "You have gathered 16 points of Resonance through elemental reactions. Your full chorus is 20 points, or 16 with Quickened Chorus.",
     "traitNarrativeEffects": "Exactly 16 earned Resonance. No passive, rest, daily or level-up refill.",
     "attributes": [],
     "skills": [],
@@ -17645,7 +17641,7 @@
   },
   "Resonance: 17": {
     "name": "Resonance: 17",
-    "description": "You have gathered 17 of 20 points of Resonance through elemental reactions.",
+    "description": "You have gathered 17 points of Resonance through elemental reactions. Your full chorus is 20 points, or 16 with Quickened Chorus.",
     "traitNarrativeEffects": "Exactly 17 earned Resonance. No passive, rest, daily or level-up refill.",
     "attributes": [],
     "skills": [],
@@ -17663,7 +17659,7 @@
   },
   "Resonance: 18": {
     "name": "Resonance: 18",
-    "description": "You have gathered 18 of 20 points of Resonance through elemental reactions.",
+    "description": "You have gathered 18 points of Resonance through elemental reactions. Your full chorus is 20 points, or 16 with Quickened Chorus.",
     "traitNarrativeEffects": "Exactly 18 earned Resonance. No passive, rest, daily or level-up refill.",
     "attributes": [],
     "skills": [],
@@ -17681,7 +17677,7 @@
   },
   "Resonance: 19": {
     "name": "Resonance: 19",
-    "description": "You have gathered 19 of 20 points of Resonance through elemental reactions.",
+    "description": "You have gathered 19 points of Resonance through elemental reactions. Your full chorus is 20 points, or 16 with Quickened Chorus.",
     "traitNarrativeEffects": "Exactly 19 earned Resonance. No passive, rest, daily or level-up refill.",
     "attributes": [],
     "skills": [],
@@ -17700,7 +17696,7 @@
   "Resonant": {
     "name": "Resonant",
     "description": "Your resonance is full. The next landed damaging spell or combat technique can release the stored surge.",
-    "traitNarrativeEffects": "Exactly 20 earned Resonance. No passive, rest, daily or level-up refill. A damaging technique that begins with this readiness can gain 50% ordinary damage once on landing. A miss or nondamaging action retains readiness; no free hit or extra Mana. Newly reached readiness never enhances an already resolved action.",
+    "traitNarrativeEffects": "Your personal full chorus is earned: normally 20 Resonance, or 16 with Quickened Chorus. No passive, rest, daily or level-up refill. A damaging technique that begins with this readiness can gain 50% ordinary damage once on landing. A miss or nondamaging action retains readiness; no free hit or extra Mana. Newly reached readiness never enhances an already resolved action.",
     "attributes": [],
     "skills": [],
     "resources": [],
@@ -17714,5 +17710,503 @@
         "amount": 151
       }
     ]
+  },
+  "Workshop Apprentice": {
+    "name": "Workshop Apprentice",
+    "description": "You spent years fitting ordinary mechanisms, sorting parts and learning which tolerances matter. Start with +1 Magitech.",
+    "traitNarrativeEffects": "You spent years fitting ordinary mechanisms, sorting parts and learning which tolerances matter. This earlier experience supplies only its listed familiarity, not a present job, license, equipment or personal connection.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Magitech",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Apothecary Assistant": {
+    "name": "Apothecary Assistant",
+    "description": "You washed vessels, weighed ingredients and learned to distinguish a useful preparation from a ruined batch. Start with +1 Alchemy.",
+    "traitNarrativeEffects": "You washed vessels, weighed ingredients and learned to distinguish a useful preparation from a ruined batch. This earlier experience supplies only its listed familiarity, not a present job, license, equipment or personal connection.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Alchemy",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Inn Kitchen Hand": {
+    "name": "Inn Kitchen Hand",
+    "description": "You kept meals moving through crowded services and learned to make a modest pantry feed one more guest. Start with +1 Cooking.",
+    "traitNarrativeEffects": "You kept meals moving through crowded services and learned to make a modest pantry feed one more guest. This earlier experience supplies only its listed familiarity, not a present job, license, equipment or personal connection.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Cooking",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Former Market Trader": {
+    "name": "Former Market Trader",
+    "description": "You once made your living weighing stock, bargaining and knowing which promises a customer would remember. Start with +1 Trade.",
+    "traitNarrativeEffects": "You once made your living weighing stock, bargaining and knowing which promises a customer would remember. This earlier experience supplies only its listed familiarity, not a present job, license, equipment or personal connection.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Trade",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Former Estate Steward": {
+    "name": "Former Estate Steward",
+    "description": "You managed household arrangements, visiting guests and the delicate business of explaining what a budget cannot cover. Start with +1 Etiquette.",
+    "traitNarrativeEffects": "You managed household arrangements, visiting guests and the delicate business of explaining what a budget cannot cover. This earlier experience supplies only its listed familiarity, not a present job, license, equipment or personal connection.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Etiquette",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Former Sailor": {
+    "name": "Former Sailor",
+    "description": "You served aboard a working vessel, learning watches, weather signs and the limits of tired hands. Start with +1 survival.",
+    "traitNarrativeEffects": "You served aboard a working vessel, learning watches, weather signs and the limits of tired hands. This earlier experience supplies only its listed familiarity, not a present job, license, equipment or personal connection.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "survival",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Riverhand": {
+    "name": "Riverhand",
+    "description": "You worked river banks and small boats, reading current and handling lines without tangling everyone else’s gear. Start with +1 Fishing.",
+    "traitNarrativeEffects": "You worked river banks and small boats, reading current and handling lines without tangling everyone else’s gear. This earlier experience supplies only its listed familiarity, not a present job, license, equipment or personal connection.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Fishing",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Former Courier": {
+    "name": "Former Courier",
+    "description": "You carried messages through busy streets and awkward shortcuts, learning where haste is useful and where it breaks an ankle. Start with +1 acrobatics.",
+    "traitNarrativeEffects": "You carried messages through busy streets and awkward shortcuts, learning where haste is useful and where it breaks an ankle. This earlier experience supplies only its listed familiarity, not a present job, license, equipment or personal connection.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "acrobatics",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Herbalist Apprentice": {
+    "name": "Herbalist Apprentice",
+    "description": "You learned basic field dressings and useful local plants under someone who checked your work. Start with +1 Medicine.",
+    "traitNarrativeEffects": "You learned basic field dressings and useful local plants under someone who checked your work. This earlier experience supplies only its listed familiarity, not a present job, license, equipment or personal connection.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Medicine",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Temple Volunteer": {
+    "name": "Temple Volunteer",
+    "description": "You helped visitors through ordinary grief, celebration and practical trouble without having an answer for everything. Start with +1 Insight.",
+    "traitNarrativeEffects": "You helped visitors through ordinary grief, celebration and practical trouble without having an answer for everything. This earlier experience supplies only its listed familiarity, not a present job, license, equipment or personal connection.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Insight",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Village Mediator": {
+    "name": "Village Mediator",
+    "description": "Neighbors once asked you to sit between incompatible accounts and find a concession both could live with. Start with +1 persuasion.",
+    "traitNarrativeEffects": "Neighbors once asked you to sit between incompatible accounts and find a concession both could live with. This earlier experience supplies only its listed familiarity, not a present job, license, equipment or personal connection.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "persuasion",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Archive Assistant": {
+    "name": "Archive Assistant",
+    "description": "You sorted damaged records, chased references and learned that a confident citation can still be wrong. Start with +1 investigation.",
+    "traitNarrativeEffects": "You sorted damaged records, chased references and learned that a confident citation can still be wrong. This earlier experience supplies only its listed familiarity, not a present job, license, equipment or personal connection.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "investigation",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Former Research Assistant": {
+    "name": "Former Research Assistant",
+    "description": "You kept experiment notes and repeated small controlled trials, often finding the overlooked detail in another person’s theory. Start with +1 spellcraft.",
+    "traitNarrativeEffects": "You kept experiment notes and repeated small controlled trials, often finding the overlooked detail in another person’s theory. This earlier experience supplies only its listed familiarity, not a present job, license, equipment or personal connection.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "spellcraft",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Wardkeeper’s Apprentice": {
+    "name": "Wardkeeper’s Apprentice",
+    "description": "You helped maintain modest household enchantments and learned to inspect a worn working before trying to improve it. Start with +1 Enchantment Magic.",
+    "traitNarrativeEffects": "You helped maintain modest household enchantments and learned to inspect a worn working before trying to improve it. This earlier experience supplies only its listed familiarity, not a present job, license, equipment or personal connection.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Enchantment Magic",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Traveling Performer": {
+    "name": "Traveling Performer",
+    "description": "You played for unfamiliar audiences and learned to recover when a joke, cue or entrance went wrong. Start with +1 performance.",
+    "traitNarrativeEffects": "You played for unfamiliar audiences and learned to recover when a joke, cue or entrance went wrong. This earlier experience supplies only its listed familiarity, not a present job, license, equipment or personal connection.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "performance",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Former Stagehand": {
+    "name": "Former Stagehand",
+    "description": "You hauled scenery, steadied ladders and learned the precise weight of someone else’s grand artistic vision. Start with +1 athletics.",
+    "traitNarrativeEffects": "You hauled scenery, steadied ladders and learned the precise weight of someone else’s grand artistic vision. This earlier experience supplies only its listed familiarity, not a present job, license, equipment or personal connection.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "athletics",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Former Civic Clerk": {
+    "name": "Former Civic Clerk",
+    "description": "You handled fees, appointments and mismatched records, learning to make an account understandable to the person paying it. Start with +1 Trade.",
+    "traitNarrativeEffects": "You handled fees, appointments and mismatched records, learning to make an account understandable to the person paying it. This earlier experience supplies only its listed familiarity, not a present job, license, equipment or personal connection.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Trade",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Unbothered Bearing": {
+    "name": "Unbothered Bearing",
+    "description": "Loose shoulders, an easy pace and an unhurried expression can make you seem chilled and difficult to fluster.",
+    "traitNarrativeEffects": "Loose shoulders, an easy pace and an unhurried expression can make you seem chilled and difficult to fluster. This is an optional visible first impression, not prescribed feelings, competence, clothing, attraction or another character’s guaranteed reaction.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Sleepy Composure": {
+    "name": "Sleepy Composure",
+    "description": "Heavy-lidded eyes and a leisurely manner can suggest someone who refuses to spend energy on a needless fuss.",
+    "traitNarrativeEffects": "Heavy-lidded eyes and a leisurely manner can suggest someone who refuses to spend energy on a needless fuss. This is an optional visible first impression, not prescribed feelings, competence, clothing, attraction or another character’s guaranteed reaction.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Relaxed Charm": {
+    "name": "Relaxed Charm",
+    "description": "A casual smile and comfortable manner can make ordinary conversation feel easy.",
+    "traitNarrativeEffects": "A casual smile and comfortable manner can make ordinary conversation feel easy. This is an optional visible first impression, not prescribed feelings, competence, clothing, attraction or another character’s guaranteed reaction.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "World-Weary Look": {
+    "name": "World-Weary Look",
+    "description": "A patient stare and a faintly tired manner can suggest that you have heard this particular speech before.",
+    "traitNarrativeEffects": "A patient stare and a faintly tired manner can suggest that you have heard this particular speech before. This is an optional visible first impression, not prescribed feelings, competence, clothing, attraction or another character’s guaranteed reaction.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Bookish Air": {
+    "name": "Bookish Air",
+    "description": "A thoughtful manner and attention to detail can make you look more at home with a question than a spectacle.",
+    "traitNarrativeEffects": "A thoughtful manner and attention to detail can make you look more at home with a question than a spectacle. This is an optional visible first impression, not prescribed feelings, competence, clothing, attraction or another character’s guaranteed reaction.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Restless Energy": {
+    "name": "Restless Energy",
+    "description": "Quick gestures and a habit of looking toward the next activity can make you seem eager to get moving.",
+    "traitNarrativeEffects": "Quick gestures and a habit of looking toward the next activity can make you seem eager to get moving. This is an optional visible first impression, not prescribed feelings, competence, clothing, attraction or another character’s guaranteed reaction.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Earnest Awkwardness": {
+    "name": "Earnest Awkwardness",
+    "description": "Careful words and imperfect timing can give an impression of sincere effort rather than practiced polish.",
+    "traitNarrativeEffects": "Careful words and imperfect timing can give an impression of sincere effort rather than practiced polish. This is an optional visible first impression, not prescribed feelings, competence, clothing, attraction or another character’s guaranteed reaction.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Playfully Cheeky": {
+    "name": "Playfully Cheeky",
+    "description": "An amused glance and a lightly irreverent manner can suggest that you are already finding the funny side.",
+    "traitNarrativeEffects": "An amused glance and a lightly irreverent manner can suggest that you are already finding the funny side. This is an optional visible first impression, not prescribed feelings, competence, clothing, attraction or another character’s guaranteed reaction.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Gentle Reserve": {
+    "name": "Gentle Reserve",
+    "description": "A soft voice and considered gestures can make you seem considerate without being eager to reveal everything.",
+    "traitNarrativeEffects": "A soft voice and considered gestures can make you seem considerate without being eager to reveal everything. This is an optional visible first impression, not prescribed feelings, competence, clothing, attraction or another character’s guaranteed reaction.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Distant Elegance": {
+    "name": "Distant Elegance",
+    "description": "A composed posture and measured expression can seem refined or aloof, depending on the observer.",
+    "traitNarrativeEffects": "A composed posture and measured expression can seem refined or aloof, depending on the observer. This is an optional visible first impression, not prescribed feelings, competence, clothing, attraction or another character’s guaranteed reaction.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Scruffy Practicality": {
+    "name": "Scruffy Practicality",
+    "description": "Lived-in presentation and an unfussy manner can suggest someone more interested in getting things done than looking immaculate.",
+    "traitNarrativeEffects": "Lived-in presentation and an unfussy manner can suggest someone more interested in getting things done than looking immaculate. This is an optional visible first impression, not prescribed feelings, competence, clothing, attraction or another character’s guaranteed reaction.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Focused Intensity": {
+    "name": "Focused Intensity",
+    "description": "A steady gaze and close attention can make even an ordinary task look as though it has your full concentration.",
+    "traitNarrativeEffects": "A steady gaze and close attention can make even an ordinary task look as though it has your full concentration. This is an optional visible first impression, not prescribed feelings, competence, clothing, attraction or another character’s guaranteed reaction.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Otherworld Rebirth": {
+    "name": "Otherworld Rebirth",
+    "description": "An isekai origin: you lived in another world and awakened here in your selected present body, with memories of that earlier life. Start with +1 Insight. This origin also opens the Rebirth storyline; your chosen opening still determines where play begins.",
+    "traitNarrativeEffects": "Your earlier world and life are the player’s to define. Present ancestry describes the body you awakened in, not a childhood automatically spent in this world. Preserve the chosen opening and any explicitly established time since arrival. Your origin is private until actually disclosed or discovered; it grants no public hero status, automatic mastery or invented death scene.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Insight",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  },
+  "Quickened Chorus": {
+    "name": "Quickened Chorus",
+    "description": "Your elemental combinations find their chorus sooner. Reduce maximum Resonance from 20 to 16; a full sixteen points readies the same surge. Earn each point through a real elemental reaction.",
+    "traitNarrativeEffects": "Your personal Resonance capacity and charging threshold are 16 instead of 20. Readiness still requires genuinely earned charge. This does not grant starting charge, passive recovery, cheaper spells, an extra reaction or stronger surge damage.",
+    "attributes": [],
+    "skills": [],
+    "resources": [
+      {
+        "resource": "Resonance",
+        "modifier": -4
+      }
+    ],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
   }
 }

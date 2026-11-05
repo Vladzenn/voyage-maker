@@ -16716,7 +16716,7 @@
     "effects": [],
     "recurring": true,
     "scope": "party",
-    "script": "const tick = Number(check({type:'game-tick'})) || 0;\nconst traits = check({type:'player-traits'}) || {};\nconst levels = check({type:'player-level'}) || {};\nconst bearers = Object.keys(traits).filter(name => Array.isArray(traits[name]) && traits[name].includes('Summoned one'));\nconst sceneCombat = check({type:'npc-in-combat', npc:'anySceneNPC'});\nconst fighting = sceneCombat === true || (sceneCombat && typeof sceneCombat === 'object' && Object.values(sceneCombat).some(Boolean));\nconst location = String(check({type:'party-location'}) || '');\nconst town = ['Brookmeadow', 'Four Sages Bazaar', \"Adventurer's Guild - Glowhaven Branch\", \"The Grand Sage's Court\"].includes(location);\nconst approach = ['Brookmeadow', 'Pinewater River', 'Greenfield Farmlands', 'Shadowspire'].includes(location);\nconst originTick = Number(storage.rbOriginTick) || 0;\nstorage.rbTownReady = Boolean(bearers.length && tick - originTick >= 200 && town && !fighting);\nstorage.rbAmbushReady = Boolean(bearers.some(name => traits[name].includes('Traced Shore Record') && Number(levels[name]) >= 15) && storage.rbLead === true && tick >= Number(storage.rbLeadTick || 0) + 60 && approach && !fighting);\n\n// Appended to the existing rb_clock; the preceding code supplies tick,\n// traits, levels, fighting and location from actual native checks.\nconst concluded = storage.arReceivingConcluded === true ||\n  check({type:'quest-status',questId:'Rebirth: What the Crown Received'}) === 'completed';\nstorage.rbPursuitClosed = concluded;\nstorage.rbHuntDue = false;\nstorage.rbHuntCandidate = null;\nif (Number(storage.rbPhase) >= 5 && !concluded) {\n  if (!storage.rbHuntByName || typeof storage.rbHuntByName !== 'object') storage.rbHuntByName = {};\n  const qualified = Object.keys(traits).filter(name => Array.isArray(traits[name]) &&\n    traits[name].includes('Summoned one') && traits[name].includes('Traced Shore Record') &&\n    Number(levels[name]) >= 15);\n  for (const name of qualified) {\n    if (!storage.rbHuntByName[name]) storage.rbHuntByName[name] = {attempts:0,next:tick+100};\n  }\n  const nextPartyAttempt = Number(storage.rbHuntLastResolvedTick ?? tick) + 100;\n  if (storage.rbHuntLastResolvedTick === undefined) storage.rbHuntLastResolvedTick = tick;\n  const realm=String(check({type:'party-realm'})||'');\n  const protectedPlace=/Academy|Crucible|Portal|Cathedral|Hospice/.test(location) ||\n    [\"The Grand Sage's Court\",'Caelrath Palace','Caelrath Institute of Magic','Shadowspire','Evertree Base'].includes(location);\n  if (!storage.rbHuntActive && !fighting && !protectedPlace && tick >= nextPartyAttempt &&\n      ['Glowhaven','Ardelis','Drakenspire Mountains','Asterveil Sky Archipelago','Akitsuhara'].includes(realm)) {\n    const due = qualified.filter(name => tick >= Number(storage.rbHuntByName[name].next));\n    due.sort((a,b)=>Number(levels[a])-Number(levels[b]) || a.localeCompare(b));\n    if (due.length) {\n      const name=due[0], level=Number(levels[name]);\n      const attempt=Number(storage.rbHuntByName[name].attempts||0)+1;\n      storage.rbHuntCandidate={name,level,attempt,\n        primaryMin:Math.max(1,Math.min(45,level-2)),\n        primaryMax:Math.max(1,Math.min(45,level+2)),\n        supportLevel:Math.max(1,Math.min(35,Math.floor(level*0.7))),\n        count:attempt>=3?2:1};\n      storage.rbHuntDue=true;\n    }\n  }\n}\n"
+    "script": "const tick = Number(check({type:'game-tick'})) || 0;\nconst traits = check({type:'player-traits'}) || {};\nconst levels = check({type:'player-level'}) || {};\nconst bearers = Object.keys(traits).filter(name => Array.isArray(traits[name]) && traits[name].includes('Summoned one'));\nconst sceneCombat = check({type:'npc-in-combat', npc:'anySceneNPC'});\nconst fighting = sceneCombat === true || (sceneCombat && typeof sceneCombat === 'object' && Object.values(sceneCombat).some(Boolean));\nconst location = String(check({type:'party-location'}) || '');\nconst town = ['Brookmeadow', 'Four Sages Bazaar', \"Adventurer's Guild - Glowhaven Branch\", \"The Grand Sage's Court\"].includes(location);\nconst approach = ['Brookmeadow', 'Pinewater River', 'Greenfield Farmlands', 'Shadowspire'].includes(location);\nconst originTick = Number(storage.rbOriginTick) || 0;\nstorage.rbTownReady = Boolean(bearers.length && tick - originTick >= 100 && town && !fighting);\nstorage.rbAmbushReady = Boolean(bearers.some(name => traits[name].includes('Traced Shore Record') && Number(levels[name]) >= 15) && storage.rbLead === true && tick >= Number(storage.rbLeadTick || 0) + 60 && approach && !fighting);\n\n// Appended to the existing rb_clock; the preceding code supplies tick,\n// traits, levels, fighting and location from actual native checks.\nconst concluded = storage.arReceivingConcluded === true ||\n  check({type:'quest-status',questId:'Rebirth: What the Crown Received'}) === 'completed';\nstorage.rbPursuitClosed = concluded;\nstorage.rbHuntDue = false;\nstorage.rbHuntCandidate = null;\nif (Number(storage.rbPhase) >= 5 && !concluded) {\n  if (!storage.rbHuntByName || typeof storage.rbHuntByName !== 'object') storage.rbHuntByName = {};\n  const qualified = Object.keys(traits).filter(name => Array.isArray(traits[name]) &&\n    traits[name].includes('Summoned one') && traits[name].includes('Traced Shore Record') &&\n    Number(levels[name]) >= 15);\n  for (const name of qualified) {\n    if (!storage.rbHuntByName[name]) storage.rbHuntByName[name] = {attempts:0,next:tick+100};\n  }\n  const nextPartyAttempt = Number(storage.rbHuntLastResolvedTick ?? tick) + 100;\n  if (storage.rbHuntLastResolvedTick === undefined) storage.rbHuntLastResolvedTick = tick;\n  const realm=String(check({type:'party-realm'})||'');\n  const protectedPlace=/Academy|Crucible|Portal|Cathedral|Hospice/.test(location) ||\n    [\"The Grand Sage's Court\",'Caelrath Palace','Caelrath Institute of Magic','Shadowspire','Evertree Base'].includes(location);\n  if (!storage.rbHuntActive && !fighting && !protectedPlace && tick >= nextPartyAttempt &&\n      ['Glowhaven','Ardelis','Drakenspire Mountains','Asterveil Sky Archipelago','Akitsuhara'].includes(realm)) {\n    const due = qualified.filter(name => tick >= Number(storage.rbHuntByName[name].next));\n    due.sort((a,b)=>Number(levels[a])-Number(levels[b]) || a.localeCompare(b));\n    if (due.length) {\n      const name=due[0], level=Number(levels[name]);\n      const attempt=Number(storage.rbHuntByName[name].attempts||0)+1;\n      storage.rbHuntCandidate={name,level,attempt,\n        primaryMin:Math.max(1,Math.min(45,level-2)),\n        primaryMax:Math.max(1,Math.min(45,level+2)),\n        supportLevel:Math.max(1,Math.min(35,Math.floor(level*0.7))),\n        count:attempt>=3?2:1};\n      storage.rbHuntDue=true;\n    }\n  }\n}\n"
   },
   "rb_delegation": {
     "name": "rb_delegation",
@@ -16827,7 +16827,7 @@
       {
         "type": "game-tick",
         "operator": "greaterThanOrEqual",
-        "value": 201
+        "value": 101
       }
     ],
     "effects": [
@@ -19786,6 +19786,11 @@
         "type": "player-traits",
         "operator": "contains",
         "value": "Gathered Resonance"
+      },
+      {
+        "type": "player-traits",
+        "operator": "notContains",
+        "value": "Quickened Chorus"
       }
     ],
     "effects": [
@@ -19825,6 +19830,11 @@
         "operator": "notEquals",
         "value": 20,
         "resource": "Resonance"
+      },
+      {
+        "type": "player-traits",
+        "operator": "notContains",
+        "value": "Quickened Chorus"
       }
     ],
     "effects": [
@@ -20168,6 +20178,11 @@
         "type": "player-traits",
         "operator": "contains",
         "value": "Gathered Resonance"
+      },
+      {
+        "type": "player-traits",
+        "operator": "notContains",
+        "value": "Quickened Chorus"
       }
     ],
     "effects": [
@@ -21475,6 +21490,343 @@
         "operator": "set",
         "resource": "Resonance",
         "value": 0,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "rb_otherworld_origin": {
+    "name": "rb_otherworld_origin",
+    "recurring": true,
+    "phase": "planning",
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Otherworld Rebirth"
+      },
+      {
+        "type": "player-traits",
+        "operator": "notContains",
+        "value": "Summoned one"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Summoned one",
+        "target": "satisfyingPlayers"
+      }
+    ],
+    "script": "if(storage.rbCampaign!==true){storage.rbCampaign=true;if(storage.rbPhase===undefined)storage.rbPhase=0;if(storage.rbOriginTick===undefined)storage.rbOriginTick=Number(check({type:'game-tick'}))||0;}"
+  },
+  "mx_resonance_quickened_earn": {
+    "name": "mx_resonance_quickened_earn",
+    "recurring": true,
+    "phase": "planning",
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Quickened Chorus"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonance: 15"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Gathered Resonance"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Gathered Resonance",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Resonance: 15",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Resonant",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 16,
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "story",
+        "instruction": "Your earned Resonance reaches its personal full chorus. The next landed damaging technique can release it; do not empower an already resolved action."
+      }
+    ]
+  },
+  "mx_resonance_quickened_convert_16": {
+    "name": "mx_resonance_quickened_convert_16",
+    "recurring": true,
+    "phase": "planning",
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Quickened Chorus"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonance: 16"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Resonance: 16",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Resonant",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Gathered Resonance",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 16,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_quickened_convert_17": {
+    "name": "mx_resonance_quickened_convert_17",
+    "recurring": true,
+    "phase": "planning",
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Quickened Chorus"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonance: 17"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Resonance: 17",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Resonant",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Gathered Resonance",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 16,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_quickened_convert_18": {
+    "name": "mx_resonance_quickened_convert_18",
+    "recurring": true,
+    "phase": "planning",
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Quickened Chorus"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonance: 18"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Resonance: 18",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Resonant",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Gathered Resonance",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 16,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_quickened_convert_19": {
+    "name": "mx_resonance_quickened_convert_19",
+    "recurring": true,
+    "phase": "planning",
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Quickened Chorus"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonance: 19"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Resonance: 19",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Resonant",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Gathered Resonance",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 16,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_quickened_full": {
+    "name": "mx_resonance_quickened_full",
+    "recurring": true,
+    "phase": "planning",
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Quickened Chorus"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonant"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Gathered Resonance"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Gathered Resonance",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 16,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_quickened_mirror": {
+    "name": "mx_resonance_quickened_mirror",
+    "recurring": true,
+    "phase": "planning",
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Quickened Chorus"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonant"
+      },
+      {
+        "type": "player-traits",
+        "operator": "notContains",
+        "value": "Gathered Resonance"
+      },
+      {
+        "type": "player-resource",
+        "resource": "Resonance",
+        "operator": "notEquals",
+        "value": 16
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 16,
         "target": "satisfyingPlayers"
       }
     ]

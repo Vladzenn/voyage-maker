@@ -66,7 +66,10 @@ function fixture(world,{players={Alice:player()},snapshotConditions=false,revers
                 p.items[effect.item]-=effect.quantity;
             }else if(effect.type==='player-resource'){
                 assert.strictEqual(effect.operator,'set');
-                p.resources[effect.resource]=Math.max(0,Math.min(world.resourceSettings[effect.resource].maxValue,effect.value));
+                const bonus=p.traits.flatMap(t=>world.traits[t]?.resources||[])
+                    .filter(r=>r.resource===effect.resource).reduce((sum,r)=>sum+r.modifier,0);
+                const maximum=world.resourceSettings[effect.resource].maxValue+bonus;
+                p.resources[effect.resource]=Math.max(0,Math.min(maximum,effect.value));
             }else throw Error('Unexpected fixture effect '+effect.type);
         }
     }

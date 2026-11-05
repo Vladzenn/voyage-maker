@@ -7,7 +7,7 @@ Repository: [Vladzenn/voyage-maker](https://github.com/Vladzenn/voyage-maker) (p
 ## Current project
 
 - **Magic Overhaul — Minor Patch 5:** [copyable notes](world-draft/Magic%20Overhaul%20-%20Patch%20Notes.md), [implemented hybrid mechanics, tests and limits](tools/magic-overhaul/README.md). Reactions/debuffs use AI guidance; scoped Resonance and scroll transactions use native effects.
-- **Latest phantom patch:** [independent NPC conversations and grounded overhearing](research/NPC%20Conversations%20-%20Phantom%20Update%20-%202026-11-06.md). Three AI instruction fields changed; no new triggers or public patch notes.
+- **Latest phantom patch:** [private playtest changelog](world-draft/Playtest%20Phantom%20-%20Personal%20Notes.md), [scope, draft status and checks](tools/playtest-phantom/README.md). Creation choices, explicit isekai origins, optional 16-point Resonance, civilian levels and display/progression polish; no numbered public patch.
 - **Comprehensive world overhaul - planning only:** [implementation handoff](world-draft/authoring/plans/Glowhaven%20-%20World%20Overhaul%20Implementation%20Handoff.md), [reading PDF](world-draft/authoring/plans/Glowhaven%20-%20World%20Overhaul%20Implementation%20Handoff.pdf), [complete coverage inventory](world-draft/authoring/plans/Glowhaven%20-%20World%20Overhaul%20Coverage.csv). No gameplay changes applied.
 - **Complete post-Fishing update:** [copyable major-update notes](world-draft/Rebirth%20-%20Complete%20Update%20Patch%20Notes.md), [Elsewhere manual-art workflow](tools/elsewhere-art/README.md).
 - **Ardelis capital:** [public notes](world-draft/Ardelis%20-%20Patch%20Notes.md), [mechanics and live checklist](world-draft/Ardelis%20-%20Development%20Notes.md), [map placement handoff](world-draft/Ardelis%20-%20Map%20and%20Landmark%20Handoff.md). Delivery status is recorded in CURRENT_STATE.
@@ -52,6 +52,7 @@ node tools/test_rebirth.cjs
 node tools/test_ardelis.cjs
 node tools/test_ardelis_followup.cjs
 node tools/test_magic_overhaul.cjs
+node tools/test_playtest_phantom.cjs
 python tools/project.py publish -m "Describe the completed change"
 ```
 

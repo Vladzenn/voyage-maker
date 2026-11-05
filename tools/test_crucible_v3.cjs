@@ -81,9 +81,11 @@ module.exports=({w,manifest,harness,ck,getChecks})=>{
   const h=harness();h.s.location='Sepulchral Conservatory';h.s.area='Sepulchral Conservatory - Entry Rotunda';h.s.action=['I go to the Grafting Heart.'];h.run('cc1_grove_inner_gate');ck(h.s.area.endsWith('Entry Rotunda'),'Early heart route stopped');h.s.area='Sepulchral Conservatory - Grafting Heart';h.run('cc1_grove_inner_gate_state');ck(h.s.area.endsWith('Entry Rotunda'),'Heart state backstop');
  }
  const sort=v=>Array.isArray(v)?v.map(sort):v&&typeof v==='object'?Object.fromEntries(Object.keys(v).sort().map(k=>[k,sort(v[k])])):v,digest=v=>crypto.createHash('sha256').update(JSON.stringify(sort(v))).digest('hex');
- for(const [k,v] of Object.entries(manifest.preserved.npcs))ck(digest(w.npcs[k])===v,'Preserve unrelated NPC '+k);
+ // Only historical identity fingerprints use the exact inverse; bouts above use current rules/NPCs.
+ const prePlaytestNPCs=require('./playtest-phantom/previous_world.cjs')(w).npcs;
+ for(const [k,v] of Object.entries(manifest.preserved.npcs))ck(digest(prePlaytestNPCs[k])===v,'Preserve unrelated NPC '+k);
  const edited=new Set(['basicInfo','hiddenInfo','personality','abilities','visualDescription','portraitUrl']);
- for(const [k,v] of Object.entries(manifest.preserved.revisedNPCIdentity))ck(digest(Object.fromEntries(Object.entries(w.npcs[k]).filter(([f])=>!edited.has(f))))===v,'Preserve revised NPC identity/stats '+k);
+ for(const [k,v] of Object.entries(manifest.preserved.revisedNPCIdentity))ck(digest(Object.fromEntries(Object.entries(prePlaytestNPCs[k]).filter(([f])=>!edited.has(f))))===v,'Preserve revised NPC identity/stats '+k);
  const approvedPrevious=require('./approved_expansion.cjs')(w);
  for(const s of ['originalItems','originalAbilities'])for(const [k,v] of Object.entries(manifest.preserved[s])){
   let value=approvedPrevious[s==='originalItems'?'itemTypes':'abilities'][k];

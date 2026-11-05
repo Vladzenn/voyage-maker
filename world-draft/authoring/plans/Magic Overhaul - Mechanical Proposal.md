@@ -54,7 +54,7 @@ Keep existing lowercase keys to preserve damage profiles. Complete presentation 
 
 Consider `soul` with 👻 only if actual offensive Soul abilities require a distinct resistance category. Do not make every school its own damage type: healing is normally restoration, enchantment can modify an ordinary sword strike, summoning uses the creature's actual attack, and an illusion does not injure Health merely by being believed. A mundane thrown stone remains blunt impact; moving it magically does not automatically turn it into psychic damage. A flame-shaped harmless display applies no fire imprint.
 
-For the initial reaction table, use the explicitly elemental damage channels Fire, Water, Ice, Lightning, Earth, Wind, Metal and Nature. Physical hits have a particular follow-up role but do not all apply elemental residue. Leave the other channels out of the launch table unless a specific interesting combination is approved.
+For the initial reaction table, use the explicitly elemental damage channels Fire, Water, Ice, Lightning, Earth, Wind, Metal and Nature. The author explicitly excludes slashing, piercing and bludgeoning from elemental reactions. Keep those damage types and their ordinary combat behavior, but do not let their hits create or consume an imprint, trigger a reaction or earn Resonance. The original heavy-blunt Shatter proposal is withdrawn. An actual elemental damage component may qualify on its own; a weapon's appearance or delivery does not turn its physical damage into an element. Leave the other channels out of the launch table unless a specific interesting combination is approved.
 
 ## 2. One imprint, then one reaction
 
@@ -62,7 +62,7 @@ A qualifying hit leaves one inert imprint keyed to the exact target's runtime id
 
 - A compatible later hit consumes the old imprint and produces one reaction. It leaves no fresh imprint.
 - An incompatible elemental hit replaces the old imprint. The same element refreshes its expiry.
-- A physical attack preserves an unexpired imprint unless it consumes it through an approved reaction such as Shatter.
+- A purely physical attack preserves an unexpired imprint without participating in this reaction system.
 - One mixed-element hit cannot react with itself. Identify its actual primary channel; another real action is needed.
 - Misses, harmless visuals and fully immune hits do not prime a target or award charge. Meaningful contact/positive damage must be established. Deliberate non-damaging primers can be designed separately later.
 - Reaction bonus damage cannot prime another reaction, generate its own charge or create a free follow-up attack. No damage-over-time reaction chains in the first release.
@@ -80,7 +80,6 @@ Pairs are order-independent. Percentages are provisional bonuses to the triggeri
 | Water + Lightning | **Conduction** | 10% | Blue-white arcs run over wet surfaces; a brief spasm interferes with the target's next precise physical action when its anatomy permits. No automatic stun or spell cancellation. |
 | Water + Ice | **Rimebind** | 0% | Frost catches at boots, wet cloth or the supporting surface, hindering the next repositioning attempt. It does not cancel the target's whole turn or immobilize every creature. |
 | Fire + Lightning | **Flashburst** | 10% | A sharp report and pressure pulse can leave a suitably sized, grounded target off balance, creating one brief opening. No automatic knockdown or extra area attack. |
-| Ice + a real heavy blunt hit | **Shatter** | 20% | Frost breaks in a spray of splinters around the impact. A damaging martial follow-up, without another injury or debuff added for the spectacle. |
 | Fire + Nature | **Cinderbloom** | 0% | A flare burns through one weak patch of existing plant cover or growth. It can open a route; it does not invent plants, clear a whole forest or ignore a powerful root ward. |
 | Lightning + Metal | **Induction** | 0% | A metallic shiver pulls an existing metal implement briefly out of line, supporting a subsequent disarm or guard-breaking attempt. The weapon does not leave its owner's hand automatically. |
 | Water + Earth | **Mire** | 0% | Water and loose earth form treacherous footing, complicating retreat or pursuit across that actual patch. It does not turn any stone floor to mud or restrain a flying creature. |
@@ -211,3 +210,48 @@ Keep the present score bands and `firstSuccessfulTierId` unless changing balance
 7. Test all renamed success tiers, including existing fishing/scroll checks. No level, XP or success-threshold rebalance is bundled by default.
 
 The first implementation decision is the verified hit/target/bonus delivery bridge. The reaction table and 20-charge design can be kept while adapting that bridge to what Voyage actually supports.
+
+## 7. Trigger architecture and current semantic budget
+
+The author prefers a mechanical damage-driven controller followed by varied narration. That is the design goal: confirmed typed hit → exact target imprint → table lookup → supported effects/Resonance → a short narration cue. No new gameplay triggers have been implemented yet. An actual damage type is structured combat information, but the current documented trigger condition/read vocabulary inspected here does not establish that scripts can read a resolved hit's type, attacker and target. Verify that bridge before claiming an entirely mechanical implementation. Do not substitute an action-text regex that detects a spell's name for confirmation that its hit landed.
+
+A trigger with a `story` **effect** can still be mechanical. It becomes semantic when its **conditions** contain an AI-judged `story` or `action` query. JavaScript does not make a semantic trigger mechanical: those conditions are evaluated before the script runs. A later `skip` cannot recover that semantic-check budget. Keep the arithmetic, expiry, duplicate prevention and charge bookkeeping mechanical; if hit recognition still needs semantic classification, label the result a hybrid and resolve that scope with the author before implementation.
+
+### Inventory of the supplied export
+
+`tools/magic-overhaul/semantic-trigger-inventory.json` records the inspection and exact input hash. There are **548 authored root triggers: 456 semantic and 92 mechanical**. Each of the 456 has one semantic condition in this export.
+
+| Authored bank | Semantic definitions |
+| --- | ---: |
+| Core guild, academy and legacy events (`gh`, `q20`, `q23`) | 241 |
+| Ardelis | 52 |
+| Original medicines and teaching scrolls | 42 |
+| Adventurers and general activities | 43 |
+| Crucible | 22 |
+| Akitsuhara | 18 |
+| Rebirth | 14 |
+| Glowhaven outer activities | 10 |
+| Fishing | 10 |
+| Crime and introductory spellcraft | 4 |
+| **Total** | **456** |
+
+These are definitions, not 456 checks performed every turn. Their location, quest, inventory, progress and other mechanical gates usually exclude most of them. The community [trigger reference](https://wiki.unofficial.voyage/mechanics/triggerDefinitions) documents a 500 semantic-definition ceiling and 15 semantic checks per turn, plus 5 for each active quest. Static headroom is therefore 44 definitions before runtime registration. Generated or temporarily registered rules are not included in the 456 figure. There are also six authored arcs and 265 native quests with story-based completion conditions; these are not all simultaneously active and must not be added to the root total as if they were.
+
+Broad eligibility deserves measurement in real session states. `gh_lore_expedition_accept` remains eligible while its quest is hidden. `cp_first_spell_offer` checks while the introductory spell quest is hidden after tick zero. Crime detection can qualify in ordinary Glowhaven scenes until its custody/pending/poster gates exclude it. Each held, mapped medicine can make its separate use check eligible; each held, unlearned original scroll can make its separate study check eligible. Live Crucible outcomes and active Rebirth chapters bring their own semantic checks when their state gates pass.
+
+The existing synthetic scene-budget fixture covers selected inventories and scene states; it does not prove that a late-game bag of medicines, many scrolls and several active activities stays under budget. No live per-turn profile was obtained here. Do not remove unrelated quest functionality just to create room for the magic update.
+
+### Universal scroll resolution remains an unmet requirement
+
+The author expected one shared semantic or mechanical scroll-use/learning path. Inspection shows that this is **not what the current export fully implements**:
+
+- The original thirty teaching scrolls still have thirty separate `item31_study_*` semantic triggers. The other twelve `item31` semantic definitions are medicine-use checks.
+- The newer hundred scrolls have ten mechanical `rb_scroll_registry_*` controllers. They dynamically create per-scroll semantic study rules for focused scrolls and later delete them. Their shared registration/catalogue does not make resolution universal.
+
+The earlier `Schools of magic, Rebirth! - Development Notes.md` explicitly recorded the old thirty-rule migration as deferred pending a live multiplayer prototype. That explains the preserved implementation; it is not evidence that the universal requirement was completed. Treat it as unfinished work rather than describing the shared template as a universal handler.
+
+The required revision is one data-driven scroll-learning path: a catalogue supplies the scroll item, formula trait, ability, requirements and study standard; a mechanical controller tracks each player's real held item and current focus; a shared completion gate confirms the actual successful study when semantic judgment is necessary; mechanical settlement checks ownership and requirements again, grants the formula/ability once, then consumes that learner's one copy once. Prefer zero new semantic checks if a verified structured event can establish the whole transaction; otherwise prefer one shared semantic gate, rather than a separate definition per scroll.
+
+Do not claim consolidation until it works for pronouns/continuations and for two players studying different scrolls. Native `satisfyingPlayers` targets a qualifying group; a naive shared script emitting two different formula grants can cross-grant both to both people. Correct per-player routing or an explicitly bounded settlement queue must be proven with the actual effect vocabulary. Preserve learned formulas and existing study progress during migration. Ambiguous actor/scroll identification must not consume an item or grant a guessed spell.
+
+This section records a required follow-up design correction, not an implemented repair. The supplied world remains unchanged, including both sets of old scroll handlers, until the shared replacement is implemented and tested.

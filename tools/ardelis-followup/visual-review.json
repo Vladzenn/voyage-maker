@@ -1,0 +1,13 @@
+{
+  "selectedPortraits": 116,
+  "contactSheetPages": 8,
+  "reviewed": true,
+  "automaticRerolls": false,
+  "kaedeClarificationDidNotRegenerate": true,
+  "findings": [
+    "Selected subjects are distinct and name-matched; selected rapier replacement is intact.",
+    "Some outputs have less than guide-target headroom or props extending into the reserved band.",
+    "Repeated white-arcade/violet-roof backgrounds remain a collection limitation.",
+    "Review is contact-sheet visual QA, not a Studio crop preview or proof of every small affinity motif."
+  ]
+}

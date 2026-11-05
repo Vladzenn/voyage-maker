@@ -46,6 +46,7 @@ node tools/test_glowhaven_expansion.cjs
 node tools/test_fishing.cjs
 node tools/test_rebirth.cjs
 node tools/test_ardelis.cjs
+node tools/test_ardelis_followup.cjs
 python tools/project.py publish -m "Describe the completed change"
 ```
 

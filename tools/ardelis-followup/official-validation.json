@@ -1,0 +1,14 @@
+{
+  "at": "2026-11-05T09:18:22.275978+00:00",
+  "worldSHA256": "49088ccf50e7f4df2f7e44295681bf0abce9a9e7e79b0877318c3c393a7e46d2",
+  "contractSHA256": "c1eb9b74c1b6009bafd43d2b09d1b93349bffe2b9a8fc379f33ebe0a65b5835c",
+  "result": {
+    "data": {
+      "errors": [],
+      "stage": "draft",
+      "valid": true,
+      "warnings": []
+    },
+    "requestId": "d19f275a-ede5-43cd-9deb-6c2cf48b2317"
+  }
+}

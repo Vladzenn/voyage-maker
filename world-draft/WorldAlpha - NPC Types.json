@@ -1856,5 +1856,19 @@
     "vulnerabilities": [],
     "resistances": [],
     "immunities": []
+  },
+  "Ardelian Trace Construct": {
+    "name": "Ardelian Trace Construct",
+    "description": "A finite human-sized tracking construct sent only for an established Ardelian retrieval attempt. It follows a recent sampled mana signature, not omniscient identity or private thoughts. Use the dispatch's target-based native level band, average tier and modest bonuses; a helper is weaker. It can lose a trail, be deceived, disabled or escaped. A new instance never resurrects a dead named courier. Its warning gestures and finite capture tools allow actual contested action.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Ardelian Retrieval Proxy": {
+    "name": "Ardelian Retrieval Proxy",
+    "description": "A finite disguised retrieval construct with a ward-net, short restraint tool and a local command regulator. It knows only its supplied trace, route and capture assignment, with no automatic reporting link. Use the actual dispatch level band capped at 45 and no more than one weaker helper; no elite bonus or unlimited spell resistance. Later attempts may use preparation, decoys or coordinated approaches without inventing extra enemies. Ordinary people are not automatically exposed as proxies.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
   }
 }

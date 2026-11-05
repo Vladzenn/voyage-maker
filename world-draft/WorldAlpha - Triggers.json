@@ -18192,7 +18192,7 @@
     "effects": [],
     "recurring": true,
     "scope": "party",
-    "script": "const tick = Number(check({type:'game-tick'})) || 0;\nconst traits = check({type:'player-traits'}) || {};\nconst levels = check({type:'player-level'}) || {};\nconst bearers = Object.keys(traits).filter(name => Array.isArray(traits[name]) && traits[name].includes('Summoned one'));\nconst sceneCombat = check({type:'npc-in-combat', npc:'anySceneNPC'});\nconst fighting = sceneCombat === true || (sceneCombat && typeof sceneCombat === 'object' && Object.values(sceneCombat).some(Boolean));\nconst location = String(check({type:'party-location'}) || '');\nconst town = ['Brookmeadow', 'Four Sages Bazaar', \"Adventurer's Guild - Glowhaven Branch\", \"The Grand Sage's Court\"].includes(location);\nconst approach = ['Brookmeadow', 'Pinewater River', 'Greenfield Farmlands', 'Shadowspire'].includes(location);\nconst originTick = Number(storage.rbOriginTick) || 0;\nstorage.rbTownReady = Boolean(bearers.length && tick - originTick >= 200 && town && !fighting);\nstorage.rbAmbushReady = Boolean(bearers.some(name => traits[name].includes('Traced Shore Record') && Number(levels[name]) >= 15) && storage.rbLead === true && tick >= Number(storage.rbLeadTick || 0) + 60 && approach && !fighting);\n"
+    "script": "const tick = Number(check({type:'game-tick'})) || 0;\nconst traits = check({type:'player-traits'}) || {};\nconst levels = check({type:'player-level'}) || {};\nconst bearers = Object.keys(traits).filter(name => Array.isArray(traits[name]) && traits[name].includes('Summoned one'));\nconst sceneCombat = check({type:'npc-in-combat', npc:'anySceneNPC'});\nconst fighting = sceneCombat === true || (sceneCombat && typeof sceneCombat === 'object' && Object.values(sceneCombat).some(Boolean));\nconst location = String(check({type:'party-location'}) || '');\nconst town = ['Brookmeadow', 'Four Sages Bazaar', \"Adventurer's Guild - Glowhaven Branch\", \"The Grand Sage's Court\"].includes(location);\nconst approach = ['Brookmeadow', 'Pinewater River', 'Greenfield Farmlands', 'Shadowspire'].includes(location);\nconst originTick = Number(storage.rbOriginTick) || 0;\nstorage.rbTownReady = Boolean(bearers.length && tick - originTick >= 200 && town && !fighting);\nstorage.rbAmbushReady = Boolean(bearers.some(name => traits[name].includes('Traced Shore Record') && Number(levels[name]) >= 15) && storage.rbLead === true && tick >= Number(storage.rbLeadTick || 0) + 60 && approach && !fighting);\n\n// Appended to the existing rb_clock; the preceding code supplies tick,\n// traits, levels, fighting and location from actual native checks.\nconst concluded = storage.arReceivingConcluded === true ||\n  check({type:'quest-status',questId:'Rebirth: What the Crown Received'}) === 'completed';\nstorage.rbPursuitClosed = concluded;\nstorage.rbHuntDue = false;\nstorage.rbHuntCandidate = null;\nif (Number(storage.rbPhase) >= 5 && !concluded) {\n  if (!storage.rbHuntByName || typeof storage.rbHuntByName !== 'object') storage.rbHuntByName = {};\n  const qualified = Object.keys(traits).filter(name => Array.isArray(traits[name]) &&\n    traits[name].includes('Summoned one') && traits[name].includes('Traced Shore Record') &&\n    Number(levels[name]) >= 15);\n  for (const name of qualified) {\n    if (!storage.rbHuntByName[name]) storage.rbHuntByName[name] = {attempts:0,next:tick+100};\n  }\n  const nextPartyAttempt = Number(storage.rbHuntLastResolvedTick ?? tick) + 100;\n  if (storage.rbHuntLastResolvedTick === undefined) storage.rbHuntLastResolvedTick = tick;\n  const realm=String(check({type:'party-realm'})||'');\n  const protectedPlace=/Academy|Crucible|Portal|Cathedral|Hospice/.test(location) ||\n    [\"The Grand Sage's Court\",'Caelrath Palace','Caelrath Institute of Magic','Shadowspire','Evertree Base'].includes(location);\n  if (!storage.rbHuntActive && !fighting && !protectedPlace && tick >= nextPartyAttempt &&\n      ['Glowhaven','Ardelis','Drakenspire Mountains','Asterveil Sky Archipelago','Akitsuhara'].includes(realm)) {\n    const due = qualified.filter(name => tick >= Number(storage.rbHuntByName[name].next));\n    due.sort((a,b)=>Number(levels[a])-Number(levels[b]) || a.localeCompare(b));\n    if (due.length) {\n      const name=due[0], level=Number(levels[name]);\n      const attempt=Number(storage.rbHuntByName[name].attempts||0)+1;\n      storage.rbHuntCandidate={name,level,attempt,\n        primaryMin:Math.max(1,Math.min(45,level-2)),\n        primaryMax:Math.max(1,Math.min(45,level+2)),\n        supportLevel:Math.max(1,Math.min(35,Math.floor(level*0.7))),\n        count:attempt>=3?2:1};\n      storage.rbHuntDue=true;\n    }\n  }\n}\n"
   },
   "rb_delegation": {
     "name": "rb_delegation",
@@ -18267,7 +18267,7 @@
       },
       {
         "type": "story",
-        "query": "Kazunari Shiba’s delegation has actually begun intrusive questioning of locals in a calm Glowhaven town scene. A brief public intervention can occur without overriding a player action, fight or urgent task."
+        "query": "Kazunari Shiba's delegation is present and currently conducting intrusive questioning in a calm Glowhaven town scene; that inquiry has not already been peacefully concluded or withdrawn. A brief public intervention can occur without overriding a player action, fight or urgent task."
       }
     ],
     "effects": [
@@ -18383,7 +18383,7 @@
       },
       {
         "type": "story",
-        "query": "A real human witness or copied shore record has actually given the intermediary a credible identity and whereabouts for this Summoned one. The connection has been corroborated in this playthrough. A private confession to a trusted person, a false report, a protected witness, an unreceived message or a guess does not qualify."
+        "query": "A real witness or copied shore record, or a mana sample actually observed or collected by an agent and delivered for comparison, has given the intermediary a corroborated identity and current whereabouts for this Summoned one. A cast spell somewhere, private confession, false report, protected sample, unreceived message or guess alone is insufficient. The actual traced bearer must be the qualifying person."
       }
     ],
     "effects": [
@@ -18563,19 +18563,21 @@
         "key": "rbPhase"
       },
       {
-        "type": "quest-init",
+        "type": "write-boolean",
         "operator": "set",
-        "value": "The Carrier behind the Ledger"
+        "value": true,
+        "key": "rbCarrierLead"
       },
       {
-        "type": "quest-init",
+        "type": "write-boolean",
         "operator": "set",
-        "value": "At the Wandering Door"
+        "value": true,
+        "key": "rbAudienceLead"
       }
     ],
     "recurring": false,
     "scope": "party",
-    "script": "if(storage.rbAftermathRoll===undefined)storage.rbAftermathRoll=Math.random();\nconst near=['Shadowspire','Brookmeadow','Pinewater River'].includes(String(check({type:'party-location'})||''));\nconst alive=check({type:'npc-health',npc:\"Valkazathoth'dmir\"});\nif(storage.rbAftermathRoll<0.333333&&near&&typeof alive==='number'&&alive>0){\n effects.push({type:'npc-placement',npc:\"Valkazathoth'dmir\",operation:'moveHere'});\n effects.push({type:'story',instruction:'After the party has resolved its own danger, Vladimir arrives on his own investigation of these roads. He can offer a visit to Shadowspire. He does not undo wounds, free a captive by decree, recruit himself or explain the conspiracy here. The invitation is voluntary.'});\n}else effects.push({type:'story',instruction:'A route remains through Reika Kurose’s actual investigation of deliveries and witnesses. She can arrange a request to speak to Vladimir; declining it leaves her independent evidence route open. An escaped attack creates no recovered corpse or automatic component.'});"
+    "script": "if(storage.rbAftermathRoll===undefined)storage.rbAftermathRoll=Math.random();\nconst near=['Shadowspire','Brookmeadow','Pinewater River'].includes(String(check({type:'party-location'})||''));\nconst alive=check({type:'npc-health',npc:\"Valkazathoth'dmir\"});\nif(storage.rbAftermathRoll<0.333333&&near&&typeof alive==='number'&&alive>0){\n effects.push({type:'npc-placement',npc:\"Valkazathoth'dmir\",operation:'moveHere'});\n effects.push({type:'story',instruction:'After the party has resolved its own danger, Vladimir arrives on his own investigation of these roads. He can offer a visit to Shadowspire. He does not undo wounds, free a captive by decree, recruit himself or explain the conspiracy here. The invitation is voluntary.'});\n}else effects.push({type:'story',instruction:'A route remains through Reika Kurose’s actual investigation of deliveries and witnesses. She can arrange a request to speak to Vladimir; declining it leaves her independent evidence route open. An escaped attack creates no recovered corpse or automatic component.'});\nstorage.rbHuntLastResolvedTick=Number(check({type:'game-tick'}))||0;"
   },
   "rb_guest_key": {
     "name": "rb_guest_key",
@@ -18980,7 +18982,7 @@
       },
       {
         "type": "action",
-        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: A profitable order asks Béatrice to duplicate a blend she made privately for another patron. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
+        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: A profitable order asks Benika to duplicate a blend she made privately for another patron. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
       }
     ],
     "effects": [
@@ -19122,7 +19124,7 @@
       },
       {
         "type": "action",
-        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: The relay evidence names a receiving address in Caelrath. Henri can help establish what it actually receives. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
+        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: The relay evidence names a receiving address in Caelrath. Harunobu can help establish what it actually receives. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
       }
     ],
     "effects": [
@@ -19214,7 +19216,7 @@
       {
         "type": "party-location",
         "operator": "equals",
-        "value": "House Montrevel Estate"
+        "value": "House Minazuki Estate"
       },
       {
         "type": "quest-status",
@@ -19282,7 +19284,7 @@
       {
         "type": "party-location",
         "operator": "equals",
-        "value": "House Dalcourt Counting House"
+        "value": "House Takamine Counting House"
       },
       {
         "type": "quest-status",
@@ -19292,7 +19294,7 @@
       },
       {
         "type": "action",
-        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: Marcel's private guarantees may put other people's wages at risk. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
+        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: Masaru's private guarantees may put other people's wages at risk. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
       }
     ],
     "effects": [
@@ -19496,7 +19498,7 @@
       },
       {
         "type": "action",
-        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: Lucan wants to know why traders are paying fees his own books never received. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
+        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: Renji wants to know why traders are paying fees his own books never received. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
       }
     ],
     "effects": [
@@ -19768,7 +19770,7 @@
       },
       {
         "type": "action",
-        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: Denis borrowed a lens and cannot return it before the demonstration. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
+        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: Daisaku borrowed a lens and cannot return it before the demonstration. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
       }
     ],
     "effects": [
@@ -20074,7 +20076,7 @@
       },
       {
         "type": "action",
-        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: Counterfeit blades are carrying Gérald's maker's mark. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
+        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: Counterfeit blades are carrying Gareth's maker's mark. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
       }
     ],
     "effects": [
@@ -20272,11 +20274,11 @@
       },
       {
         "type": "action",
-        "query": "A genuinely licensed participant deliberately asks Aveline or the live board for actual available guild work, a further notice or a particular contract now. Greetings, an assessment sample, fictional client discussion, first-time registration, hypothetical plans, merely passing the board and a current job report do not qualify. The configured selection offers one eligible live contract, never accepts it. Respect the actual participating party and any explicit harder-work request."
+        "query": "A genuinely licensed participant deliberately asks Aoi or the live board for actual available guild work, a further notice or a particular contract now. Greetings, an assessment sample, fictional client discussion, first-time registration, hypothetical plans, merely passing the board and a current job report do not qualify. The configured selection offers one eligible live contract, never accepts it. Respect the actual participating party and any explicit harder-work request."
       }
     ],
     "effects": [],
-    "script": "const rows=[{\"name\":\"Guild: Beetles in the Orchard\",\"min\":1,\"max\":4,\"rank\":1,\"premise\":\"Bronze work: Anaïs needs the orchard's young trees protected from a small pest outbreak. Posted reward: 35 marks.\"},{\"name\":\"Guild: A Cellar That Rustles\",\"min\":1,\"max\":3,\"rank\":1,\"premise\":\"Bronze work: Threadneedle Bakery's storage cellar has a persistent scratching problem. Posted reward: 30 marks.\"},{\"name\":\"Guild: The Millrace Screen\",\"min\":1,\"max\":5,\"rank\":1,\"premise\":\"Bronze work: Arlette's millrace screen is jammed, and she needs someone who can work safely around water. Posted reward: 40 marks.\"},{\"name\":\"Guild: A Parcel over Westbridge\",\"min\":1,\"max\":4,\"rank\":1,\"premise\":\"Bronze work: Loïc has a fitted buckle to deliver to the hospice. Posted reward: 25 marks.\"},{\"name\":\"Guild: Loose Tile, Busy Steps\",\"min\":3,\"max\":7,\"rank\":1,\"premise\":\"Bronze work: a loose roof tile over Chapel Steps threatens the flower stalls. Posted reward: 45 marks.\"},{\"name\":\"Guild: Something in the Culvert\",\"min\":7,\"max\":12,\"rank\":1,\"premise\":\"Bronze work: a culvert inspection stopped at fresh tracks and an unpleasant smell. Posted reward: 70 marks.\"},{\"name\":\"Guild: The Quarry's Empty Face\",\"min\":8,\"max\":15,\"rank\":1,\"premise\":\"Bronze work: Bruno needs an old cut checked before any new anchors go in. Posted reward: 80 marks.\"},{\"name\":\"Guild: Ropes across Cold Water\",\"min\":10,\"max\":16,\"rank\":1,\"premise\":\"Bronze work: a damaged service rope has left island supplies waiting on shore. Posted reward: 90 marks.\"},{\"name\":\"Guild: Glass That Walks\",\"min\":15,\"max\":22,\"rank\":2,\"premise\":\"Silver work: animated waste from a damaged workshop is making an alley unsafe. Posted reward: 130 marks.\"},{\"name\":\"Guild: A Sound from the Intake\",\"min\":18,\"max\":27,\"rank\":2,\"premise\":\"Silver work: an intake crew hears movement where nobody should be working. Posted reward: 160 marks.\"},{\"name\":\"Guild: The Drowned Cargo\",\"min\":22,\"max\":32,\"rank\":2,\"premise\":\"Silver work: an insured medical load rests in a documented wreck. Posted reward: 190 marks.\"},{\"name\":\"Guild: The Empty Escort Road\",\"min\":28,\"max\":38,\"rank\":3,\"premise\":\"Gold work: a recent escort vanished near the outer viaduct. Posted reward: 240 marks.\"},{\"name\":\"Guild: A Ward with Teeth\",\"min\":32,\"max\":42,\"rank\":3,\"premise\":\"Gold work: a decommissioned civic ward is resisting dismantling. Posted reward: 280 marks.\"}],t=check({type:'game-tick'});\nif(storage.arOfferTick===t){skip=true;}else{\nconst vals=v=>typeof v==='number'?[v]:v&&typeof v==='object'?Object.values(v):[];\nconst levels=vals(check({type:'player-level'})).filter(v=>typeof v==='number'&&v>0),level=levels.length?Math.min(...levels):1;\nconst ranks=['Bronze','Silver','Gold','Platinum'];let rank=0;\nfor(let i=0;i<ranks.length;i++)if(vals(check({type:'player-item',item:'Guild Badge: '+ranks[i]})).some(v=>v>0))rank=i+1;\nconst raw=[].concat(check({type:'action-text'})||[]).filter(v=>typeof v==='string').join(' ').toLowerCase();\nconst status=n=>check({type:'quest-status',questId:n});\nconst available=rows.filter(r=>status(r.name)==='planned'&&rank>=r.rank);\nconst requested=available.find(r=>raw.includes(r.name.toLowerCase())||raw.includes(r.name.replace(/^Guild: /,'').toLowerCase()));\nconst harder=/harder|more dangerous|higher.level|challenging/.test(raw);\nconst suitable=available.filter(r=>level>=r.min&&(level<=r.max+5||r.rank===1));\nconst pool=suitable.length?suitable:harder?available:[];\nconst chosen=requested?requested:pool.sort((a,b)=>Math.abs((a.min+a.max)/2-level)-Math.abs((b.min+b.max)/2-level))[0];\nif(!chosen){skip=true;}else{storage.arOfferTick=t;effects.push({type:'quest-init',operator:'set',value:chosen.name},{type:'story',instruction:'Aveline presents one actual eligible notice: '+chosen.premise+' This is an offer only; no acceptance, journey or payment occurs. Answer questions and allow refusal. Do not add other jobs or present an assessment sample as a live contract.'});}\n}"
+    "script": "const rows=[{\"name\":\"Guild: Beetles in the Orchard\",\"min\":1,\"max\":4,\"rank\":1,\"premise\":\"Bronze work: Anri needs the orchard's young trees protected from a small pest outbreak. Posted reward: 35 marks.\"},{\"name\":\"Guild: A Cellar That Rustles\",\"min\":1,\"max\":3,\"rank\":1,\"premise\":\"Bronze work: Threadneedle Bakery's storage cellar has a persistent scratching problem. Posted reward: 30 marks.\"},{\"name\":\"Guild: The Millrace Screen\",\"min\":1,\"max\":5,\"rank\":1,\"premise\":\"Bronze work: Arisa's millrace screen is jammed, and she needs someone who can work safely around water. Posted reward: 40 marks.\"},{\"name\":\"Guild: A Parcel over Westbridge\",\"min\":1,\"max\":4,\"rank\":1,\"premise\":\"Bronze work: Lachlan has a fitted buckle to deliver to the hospice. Posted reward: 25 marks.\"},{\"name\":\"Guild: Loose Tile, Busy Steps\",\"min\":3,\"max\":7,\"rank\":1,\"premise\":\"Bronze work: a loose roof tile over Chapel Steps threatens the flower stalls. Posted reward: 45 marks.\"},{\"name\":\"Guild: Something in the Culvert\",\"min\":7,\"max\":12,\"rank\":1,\"premise\":\"Bronze work: a culvert inspection stopped at fresh tracks and an unpleasant smell. Posted reward: 70 marks.\"},{\"name\":\"Guild: The Quarry's Empty Face\",\"min\":8,\"max\":15,\"rank\":1,\"premise\":\"Bronze work: Bunzō needs an old cut checked before any new anchors go in. Posted reward: 80 marks.\"},{\"name\":\"Guild: Ropes across Cold Water\",\"min\":10,\"max\":16,\"rank\":1,\"premise\":\"Bronze work: a damaged service rope has left island supplies waiting on shore. Posted reward: 90 marks.\"},{\"name\":\"Guild: Glass That Walks\",\"min\":15,\"max\":22,\"rank\":2,\"premise\":\"Silver work: animated waste from a damaged workshop is making an alley unsafe. Posted reward: 130 marks.\"},{\"name\":\"Guild: A Sound from the Intake\",\"min\":18,\"max\":27,\"rank\":2,\"premise\":\"Silver work: an intake crew hears movement where nobody should be working. Posted reward: 160 marks.\"},{\"name\":\"Guild: The Drowned Cargo\",\"min\":22,\"max\":32,\"rank\":2,\"premise\":\"Silver work: an insured medical load rests in a documented wreck. Posted reward: 190 marks.\"},{\"name\":\"Guild: The Empty Escort Road\",\"min\":28,\"max\":38,\"rank\":3,\"premise\":\"Gold work: a recent escort vanished near the outer viaduct. Posted reward: 240 marks.\"},{\"name\":\"Guild: A Ward with Teeth\",\"min\":32,\"max\":42,\"rank\":3,\"premise\":\"Gold work: a decommissioned civic ward is resisting dismantling. Posted reward: 280 marks.\"}],t=check({type:'game-tick'});\nif(storage.arOfferTick===t){skip=true;}else{\nconst vals=v=>typeof v==='number'?[v]:v&&typeof v==='object'?Object.values(v):[];\nconst levels=vals(check({type:'player-level'})).filter(v=>typeof v==='number'&&v>0),level=levels.length?Math.min(...levels):1;\nconst ranks=['Bronze','Silver','Gold','Platinum'];let rank=0;\nfor(let i=0;i<ranks.length;i++)if(vals(check({type:'player-item',item:'Guild Badge: '+ranks[i]})).some(v=>v>0))rank=i+1;\nconst raw=[].concat(check({type:'action-text'})||[]).filter(v=>typeof v==='string').join(' ').toLowerCase();\nconst status=n=>check({type:'quest-status',questId:n});\nconst available=rows.filter(r=>status(r.name)==='planned'&&rank>=r.rank);\nconst requested=available.find(r=>raw.includes(r.name.toLowerCase())||raw.includes(r.name.replace(/^Guild: /,'').toLowerCase()));\nconst harder=/harder|more dangerous|higher.level|challenging/.test(raw);\nconst suitable=available.filter(r=>level>=r.min&&(level<=r.max+5||r.rank===1));\nconst pool=suitable.length?suitable:harder?available:[];\nconst chosen=requested?requested:pool.sort((a,b)=>Math.abs((a.min+a.max)/2-level)-Math.abs((b.min+b.max)/2-level))[0];\nif(!chosen){skip=true;}else{storage.arOfferTick=t;effects.push({type:'quest-init',operator:'set',value:chosen.name},{type:'story',instruction:'Aoi presents one actual eligible notice: '+chosen.premise+' This is an offer only; no acceptance, journey or payment occurs. Answer questions and allow refusal. Do not add other jobs or present an assessment sample as a live contract.'});}\n}"
   },
   "ar_existing_lead": {
     "name": "ar_existing_lead",
@@ -20966,5 +20968,154 @@
         "instruction": "Record the inert broken regulator already granted. It is a physical reminder of this actual outcome, not a new bound soul or spell. Honor Thaurivex’s fate and any surviving fragments; do not respawn it or duplicate the relic through the quest reward."
       }
     ]
+  },
+  "rb_peaceful_departure": {
+    "name": "rb_peaceful_departure",
+    "scope": "party",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "read-number",
+        "operator": "equals",
+        "value": 1,
+        "key": "rbPhase"
+      },
+      {
+        "type": "npc-health",
+        "operator": "greaterThan",
+        "value": 0,
+        "npc": "Kazunari Shiba"
+      },
+      {
+        "type": "story",
+        "query": "Kazunari Shiba's delegation has genuinely concluded its local inquiry and peacefully withdrawn or departed after an actual diplomatic resolution. The inquiry is no longer continuing in the scene. A proposal, promise to leave, player leaving alone, or merely hiding from the delegation is false. Vladimir need not appear; preserve the real terms and witnesses."
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-number",
+        "operator": "set",
+        "value": 3,
+        "key": "rbPhase"
+      },
+      {
+        "type": "npc-placement",
+        "npc": "Kazunari Shiba",
+        "operation": "moveAway"
+      },
+      {
+        "type": "story",
+        "instruction": "Preserve the peacefully concluded inquiry and the actual diplomatic terms. Do not insert Vladimir into a meeting he did not attend. Reika Kurose's existing records-and-witnesses route remains available; do not grant evidence or identify the summoned person merely because the visitors left."
+      }
+    ]
+  },
+  "rb_offer_carrier_once": {
+    "name": "rb_offer_carrier_once",
+    "scope": "party",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "operator": "equals",
+        "value": true,
+        "key": "rbCarrierLead"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "planned",
+        "questId": "The Carrier behind the Ledger"
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Carrier behind the Ledger"
+      }
+    ]
+  },
+  "rb_offer_audience_once": {
+    "name": "rb_offer_audience_once",
+    "scope": "party",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "operator": "equals",
+        "value": true,
+        "key": "rbAudienceLead"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "planned",
+        "questId": "At the Wandering Door"
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "At the Wandering Door"
+      }
+    ]
+  },
+  "rb_pursuit_attempt": {
+    "name": "rb_pursuit_attempt",
+    "scope": "party",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "operator": "equals",
+        "value": true,
+        "key": "rbHuntDue"
+      },
+      {
+        "type": "read-boolean",
+        "operator": "equals",
+        "value": false,
+        "key": "rbHuntActive"
+      },
+      {
+        "type": "read-boolean",
+        "operator": "equals",
+        "value": false,
+        "key": "arReceivingConcluded"
+      },
+      {
+        "type": "story",
+        "query": "The specifically traced Summoned one is personally present and free for a new retrieval encounter. A recent usable mana trail and a real permitted or covert route let finite agents reach this actual place. No active fight, urgent expedition hazard, championship bout, compulsory lesson, arrest/custody, private protected sanctuary or major scripted scene is underway. No already active pursuit encounter is being duplicated. Concealment, a lost trail or inaccessible route postpones it. Prepare a fair readable approach, not automatic capture."
+      }
+    ],
+    "effects": [],
+    "script": "const c=storage.rbHuntCandidate;\nconst traits=check({type:'player-traits'})||{},levels=check({type:'player-level'})||{};\nconst tick=Number(check({type:'game-tick'}))||0;\nconst terminal=storage.arReceivingConcluded===true ||\n check({type:'quest-status',questId:'Rebirth: What the Crown Received'})==='completed';\nif(terminal || storage.rbHuntActive || !c ||\n !Array.isArray(traits[c.name]) || !traits[c.name].includes('Summoned one') ||\n !traits[c.name].includes('Traced Shore Record') || Number(levels[c.name])<15 ||\n tick<Number(storage.rbHuntByName?.[c.name]?.next) ||\n tick<Number(storage.rbHuntLastResolvedTick||0)+100){skip=true;}\nelse {\n const level=Number(levels[c.name]),attempt=Number(storage.rbHuntByName[c.name].attempts||0)+1;\n const lo=Math.max(1,Math.min(45,level-2)),hi=Math.max(1,Math.min(45,level+2));\n const helper=Math.max(1,Math.min(35,Math.floor(level*0.7)));\n const tactic=attempt===1?'One trace construct tests the mana trail and makes a cautious capture approach.':\n attempt===2?'One retrieval proxy uses a finite ward-net or a prepared distraction, with visible tells and an escape route.':\n 'One retrieval proxy and one weaker trace construct attempt a coordinated cutoff. Desperation shows in riskier orders and imperfect preparation, not an endless army.';\n storage.rbHuntActive=true;\n storage.rbHuntCase={target:c.name,attempt,start:tick,location:String(check({type:'party-location'})||'')};\n storage.rbHuntByName[c.name].attempts=attempt;\n storage.rbHuntDue=false;\n effects.push({type:'story',instruction:\n 'An occasional Ardelian retrieval attempt follows the actual mana trace of '+c.name+'. '+tactic+\n ' Use newly generated Ardelian Trace Construct / Ardelian Retrieval Proxy instances; never resurrect the two named cloaked couriers or alter an established NPC level.'+\n ' Primary opponent native level '+lo+'-'+hi+', average tier, healthMultiplier at most 1, successBonus at most 0 and damageModifier at most 0.'+\n (attempt>=3?' At most one support opponent, level '+helper+', weak tier and healthMultiplier at most 0.7.':' Exactly one opposing individual, not a concealed pack.')+\n ' These are finite capture tools. Give a readable warning, actual contested actions and room to fight, hide, deceive, negotiate or escape.'+\n ' Agents reached this place by a real usable route and a recent trace; no GPS knowledge, private-thought reading, automatic capture, instant counterspell, whole-city attack or surprise second wave.'+\n ' Companions may act but never raise this target-based level band. Create actual combatants when the encounter becomes a fight; scene setup awards no damage, victory, loot or XP.'+\n ' A discarded outer cloak does not become a unique named character. Proxies hold only the information actually supplied to them; a local sample is not a report channel to their employer.'});\n}\n"
+  },
+  "rb_pursuit_resolved": {
+    "name": "rb_pursuit_resolved",
+    "scope": "party",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "operator": "equals",
+        "value": true,
+        "key": "rbHuntActive"
+      },
+      {
+        "type": "story",
+        "query": "The actual current Ardelian pursuit encounter recorded for its traced target has genuinely ended: agents were defeated, departed after a real settlement, lost the trail through effective escape or concealment, or completed a capture with no active pursuit fight remaining. Keep actual captivity, injuries and surviving agents. An intention, unrelated fight, merely stepping into another room or declaring victory during ongoing danger is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-boolean",
+        "operator": "set",
+        "value": false,
+        "key": "rbHuntActive"
+      }
+    ],
+    "script": "const tick=Number(check({type:'game-tick'}))||0;const c=storage.rbHuntCase;if(!c){skip=true;}else{storage.rbHuntLastResolvedTick=tick;const row=storage.rbHuntByName?.[c.target];if(row)row.next=tick+100;storage.rbLastHuntCase={...c,resolved:tick};storage.rbHuntCase=null;storage.rbHuntDue=false;}"
   }
 }

@@ -18489,7 +18489,7 @@
   "High Star Square": {
     "name": "High Star Square",
     "basicInfo": "A great celestial monument overlooks a broad civic square and the main avenue. Citizens meet, argue, celebrate and pass on their way to work beneath it. Reverence and ordinary commerce coexist.",
-    "x": -35,
+    "x": -36,
     "y": 26,
     "radius": 2,
     "region": "Celestial Ward",
@@ -18545,8 +18545,8 @@
   "Caelrath Institute of Magic": {
     "name": "Caelrath Institute of Magic",
     "basicInfo": "The capital's institute teaches theory, practical enchantment and careful ritual work through lectures and apprenticeships. Its students have their own studies and ambitions. Imperial research funding does not reveal every restricted court project to ordinary teachers.",
-    "x": 35,
-    "y": 14,
+    "x": 37,
+    "y": 13,
     "radius": 2,
     "region": "Celestial Ward",
     "complexityType": "complex",
@@ -18615,7 +18615,7 @@
   "Caelrath Palace": {
     "name": "Caelrath Palace",
     "basicInfo": "The imperial household rules from a high terrace of white towers and violet roofs. An outer gallery and petition approach serve public business; guards control the residential wings and older service stairs. Waterfalls descend below the palace foundations.",
-    "x": 17,
+    "x": 15,
     "y": -15,
     "radius": 2,
     "region": "The Imperial Crown",
@@ -18963,8 +18963,8 @@
   "The Queen's Watergardens": {
     "name": "The Queen's Watergardens",
     "basicInfo": "Public garden walks descend around a formal basin and narrow channels. Garden workers, families and court visitors share the maintained spaces. The queen's patronage does not make her present at every fountain.",
-    "x": 30,
-    "y": -43,
+    "x": 27,
+    "y": -41,
     "radius": 2,
     "region": "Violet Market Ward",
     "complexityType": "complex",
@@ -19019,8 +19019,8 @@
   "The Pearl and Thistle": {
     "name": "The Pearl and Thistle",
     "basicInfo": "A tea parlor above the gate road serves visitors waiting on appointments and locals who value a quiet table. Conversation is a pleasure and sometimes a source of useful introductions.",
-    "x": -5,
-    "y": 49,
+    "x": -4,
+    "y": 48,
     "radius": 2,
     "region": "Kingsward Gate",
     "complexityType": "complex",
@@ -19068,8 +19068,8 @@
   "The Veiled Oratory": {
     "name": "The Veiled Oratory",
     "basicInfo": "A quiet oratory receives people seeking interpretation of uncertain visions. Its custodian compares impressions with evidence and ordinary knowledge. Divination offers possibilities, not ownership of another person's memories.",
-    "x": 49,
-    "y": -33,
+    "x": 48,
+    "y": -34,
     "radius": 2,
     "region": "Violet Market Ward",
     "complexityType": "complex",
@@ -19404,8 +19404,8 @@
   "Southbank Homes": {
     "name": "Southbank Homes",
     "basicInfo": "A dense residential ward of ordinary homes, small courts and shared stairs occupies the southern city. Families, lodgers and craft workers maintain relationships that predate any visitor.",
-    "x": -10,
-    "y": 34,
+    "x": -13,
+    "y": 42,
     "radius": 2,
     "region": "Southbank Ward",
     "complexityType": "complex",
@@ -19516,7 +19516,7 @@
   "Court Wizard's Spire": {
     "name": "Court Wizard's Spire",
     "basicInfo": "A narrow spire joins an occupied residence to the court wizard's workrooms. Public consultations are arranged below; sealed diagram rooms and private instruments remain under controlled access.",
-    "x": -45,
+    "x": -46,
     "y": -5,
     "radius": 2,
     "region": "High Arcana Ward",
@@ -19633,8 +19633,8 @@
     }
   },
   "Velvet Lyre Hall": {
-    "x": 30,
-    "y": 5,
+    "x": 25,
+    "y": 20,
     "radius": 2,
     "name": "Velvet Lyre Hall",
     "region": "Eastwater Ward",
@@ -19696,8 +19696,8 @@
     }
   },
   "Caelrath Sewers": {
-    "x": -8,
-    "y": -43,
+    "x": -16,
+    "y": -26,
     "radius": 2,
     "name": "Caelrath Sewers",
     "region": "Eastwater Ward",
@@ -19766,8 +19766,8 @@
     }
   },
   "Pilgrim's Rest Hospice": {
-    "x": -21,
-    "y": -2,
+    "x": -29,
+    "y": -22,
     "radius": 2,
     "name": "Pilgrim's Rest Hospice",
     "region": "Starfall Heights",
@@ -19822,7 +19822,7 @@
     }
   },
   "Chapel Steps": {
-    "x": 25,
+    "x": 29,
     "y": -8,
     "radius": 2,
     "name": "Chapel Steps",
@@ -19871,8 +19871,8 @@
     }
   },
   "Vesper Bell Cloister": {
-    "x": 18,
-    "y": 30,
+    "x": -5,
+    "y": 10,
     "radius": 2,
     "name": "Vesper Bell Cloister",
     "region": "Starfall Heights",
@@ -19927,8 +19927,8 @@
     }
   },
   "Starward Cemetery": {
-    "x": -37,
-    "y": -39,
+    "x": 30,
+    "y": -21,
     "radius": 2,
     "name": "Starward Cemetery",
     "region": "Starfall Heights",
@@ -19983,8 +19983,8 @@
     }
   },
   "Empyrean Archives": {
-    "x": -26,
-    "y": 26,
+    "x": -12,
+    "y": 23,
     "radius": 2,
     "name": "Empyrean Archives",
     "region": "Crownwater Terraces",
@@ -20046,8 +20046,8 @@
     }
   },
   "Crownwater Aqueduct": {
-    "x": -7,
-    "y": -22,
+    "x": 1,
+    "y": -3,
     "radius": 2,
     "name": "Crownwater Aqueduct",
     "region": "Crownwater Terraces",
@@ -20101,45 +20101,45 @@
       }
     }
   },
-  "House Montrevel Estate": {
+  "House Minazuki Estate": {
     "x": 25,
     "y": 1,
     "radius": 2,
-    "name": "House Montrevel Estate",
+    "name": "House Minazuki Estate",
     "region": "Crownwater Terraces",
-    "basicInfo": "The Montrevel household receives growers, provincial cousins and creditors behind formal gardens. Grain contracts support its place at court; meals, marriages and private ambitions keep the residence from being merely a counting office.",
+    "basicInfo": "The Minazuki household receives growers, provincial cousins and creditors behind formal gardens. Grain contracts support its place at court; meals, marriages and private ambitions keep the residence from being merely a counting office.",
     "areas": {
-      "House Montrevel Estate - Estate Forecourt": {
-        "description": "Estate Forecourt forms part of House Montrevel Estate. An open working space sits between pale walls and smaller doorways. Worn paving, a few benches and practical delivery access show where people gather and where traffic must keep moving.",
+      "House Minazuki Estate - Estate Forecourt": {
+        "description": "Estate Forecourt forms part of House Minazuki Estate. An open working space sits between pale walls and smaller doorways. Worn paving, a few benches and practical delivery access show where people gather and where traffic must keep moving.",
         "paths": [
-          "House Montrevel Estate - Receiving Salon",
-          "House Montrevel Estate - Family Dining Room",
-          "House Montrevel Estate - Garden Terrace",
-          "House Montrevel Estate - Steward's Office"
+          "House Minazuki Estate - Receiving Salon",
+          "House Minazuki Estate - Family Dining Room",
+          "House Minazuki Estate - Garden Terrace",
+          "House Minazuki Estate - Steward's Office"
         ]
       },
-      "House Montrevel Estate - Receiving Salon": {
-        "description": "Receiving Salon forms part of House Montrevel Estate. Pale masonry and violet-painted wood enclose a compact, practical space. Its furnishings suit the establishment around it; the neighboring passage remains clear for people going about their work.",
+      "House Minazuki Estate - Receiving Salon": {
+        "description": "Receiving Salon forms part of House Minazuki Estate. Pale masonry and violet-painted wood enclose a compact, practical space. Its furnishings suit the establishment around it; the neighboring passage remains clear for people going about their work.",
         "paths": [
-          "House Montrevel Estate - Estate Forecourt"
+          "House Minazuki Estate - Estate Forecourt"
         ]
       },
-      "House Montrevel Estate - Family Dining Room": {
-        "description": "Family Dining Room forms part of House Montrevel Estate. Practical furniture, folded cloth and a window toward the neighboring terrace give the room a lived-in scale. Personal storage stays separate from the shared walking space.",
+      "House Minazuki Estate - Family Dining Room": {
+        "description": "Family Dining Room forms part of House Minazuki Estate. Practical furniture, folded cloth and a window toward the neighboring terrace give the room a lived-in scale. Personal storage stays separate from the shared walking space.",
         "paths": [
-          "House Montrevel Estate - Estate Forecourt"
+          "House Minazuki Estate - Estate Forecourt"
         ]
       },
-      "House Montrevel Estate - Garden Terrace": {
-        "description": "Garden Terrace forms part of House Montrevel Estate. Beds of cultivated plants follow low stone borders. Water channels, clipped paths and a few untidy tools show the work needed to keep the growing spaces healthy.",
+      "House Minazuki Estate - Garden Terrace": {
+        "description": "Garden Terrace forms part of House Minazuki Estate. Beds of cultivated plants follow low stone borders. Water channels, clipped paths and a few untidy tools show the work needed to keep the growing spaces healthy.",
         "paths": [
-          "House Montrevel Estate - Estate Forecourt"
+          "House Minazuki Estate - Estate Forecourt"
         ]
       },
-      "House Montrevel Estate - Steward's Office": {
-        "description": "Steward's Office forms part of House Montrevel Estate. Shelves, a worked-in desk and a clear reading surface leave space for a visitor. Daylight falls across bound books, tools and the small personal belongings of the person who works here.",
+      "House Minazuki Estate - Steward's Office": {
+        "description": "Steward's Office forms part of House Minazuki Estate. Shelves, a worked-in desk and a clear reading surface leave space for a visitor. Daylight falls across bound books, tools and the small personal belongings of the person who works here.",
         "paths": [
-          "House Montrevel Estate - Estate Forecourt"
+          "House Minazuki Estate - Estate Forecourt"
         ]
       }
     },
@@ -20165,8 +20165,8 @@
     }
   },
   "The High Reservoir": {
-    "x": 32,
-    "y": 37,
+    "x": 36,
+    "y": 12,
     "radius": 2,
     "name": "The High Reservoir",
     "region": "Crownwater Terraces",
@@ -20221,8 +20221,8 @@
     }
   },
   "Royal Hawk Mews": {
-    "x": -42,
-    "y": 8,
+    "x": -39,
+    "y": -2,
     "radius": 2,
     "name": "Royal Hawk Mews",
     "region": "Crownwater Terraces",
@@ -20277,8 +20277,8 @@
     }
   },
   "Terrace Gardeners' Lodge": {
-    "x": 12,
-    "y": -36,
+    "x": -25,
+    "y": -9,
     "radius": 2,
     "name": "Terrace Gardeners' Lodge",
     "region": "Crownwater Terraces",
@@ -20333,8 +20333,8 @@
     }
   },
   "Royal Petition Court": {
-    "x": -26,
-    "y": -20,
+    "x": -9,
+    "y": -12,
     "radius": 2,
     "name": "Royal Petition Court",
     "region": "The Imperial Crown",
@@ -20389,11 +20389,11 @@
     }
   },
   "Embassy Residences": {
-    "x": 39,
-    "y": -37,
+    "x": 37,
+    "y": 45,
     "radius": 2,
     "name": "Embassy Residences",
-    "region": "The Imperial Crown",
+    "region": "Celestial Ward",
     "basicInfo": "A row of diplomatic houses hosts foreign representatives and their households. Access depends on the host and current business. A person may negotiate an ordinary invitation without joining a royal conspiracy.",
     "areas": {
       "Embassy Residences - Diplomatic Walk": {
@@ -20445,8 +20445,8 @@
     }
   },
   "The Crown Mint": {
-    "x": 37,
-    "y": 18,
+    "x": 40,
+    "y": -11,
     "radius": 2,
     "name": "The Crown Mint",
     "region": "The Imperial Crown",
@@ -20501,8 +20501,8 @@
     }
   },
   "Ivory Guard Barracks": {
-    "x": -35,
-    "y": 12,
+    "x": -27,
+    "y": -8,
     "radius": 2,
     "name": "Ivory Guard Barracks",
     "region": "The Imperial Crown",
@@ -20564,8 +20564,8 @@
     }
   },
   "Amethyst Intake Works": {
-    "x": 26,
-    "y": 8,
+    "x": -12,
+    "y": 4,
     "radius": 2,
     "name": "Amethyst Intake Works",
     "region": "High Arcana Ward",
@@ -20619,38 +20619,38 @@
       }
     }
   },
-  "House Veymont Residence": {
-    "x": 18,
-    "y": -33,
+  "House Kagetsu Residence": {
+    "x": 6,
+    "y": -42,
     "radius": 2,
-    "name": "House Veymont Residence",
+    "name": "House Kagetsu Residence",
     "region": "High Arcana Ward",
-    "basicInfo": "The Veymont household entertains officers and procurement clients in a disciplined hillside residence. The family has real service obligations and commercial ambitions, with relatives who disagree about both.",
+    "basicInfo": "The Kagetsu household entertains officers and procurement clients in a disciplined hillside residence. The family has real service obligations and commercial ambitions, with relatives who disagree about both.",
     "areas": {
-      "House Veymont Residence - Entry Court": {
-        "description": "Entry Court forms part of House Veymont Residence. An open working space sits between pale walls and smaller doorways. Worn paving, a few benches and practical delivery access show where people gather and where traffic must keep moving.",
+      "House Kagetsu Residence - Entry Court": {
+        "description": "Entry Court forms part of House Kagetsu Residence. An open working space sits between pale walls and smaller doorways. Worn paving, a few benches and practical delivery access show where people gather and where traffic must keep moving.",
         "paths": [
-          "House Veymont Residence - Officers' Salon",
-          "House Veymont Residence - Family Rooms",
-          "House Veymont Residence - Training Terrace"
+          "House Kagetsu Residence - Officers' Salon",
+          "House Kagetsu Residence - Family Rooms",
+          "House Kagetsu Residence - Training Terrace"
         ]
       },
-      "House Veymont Residence - Officers' Salon": {
-        "description": "Officers' Salon forms part of House Veymont Residence. Shelves, a worked-in desk and a clear reading surface leave space for a visitor. Daylight falls across bound books, tools and the small personal belongings of the person who works here.",
+      "House Kagetsu Residence - Officers' Salon": {
+        "description": "Officers' Salon forms part of House Kagetsu Residence. Shelves, a worked-in desk and a clear reading surface leave space for a visitor. Daylight falls across bound books, tools and the small personal belongings of the person who works here.",
         "paths": [
-          "House Veymont Residence - Entry Court"
+          "House Kagetsu Residence - Entry Court"
         ]
       },
-      "House Veymont Residence - Family Rooms": {
-        "description": "Family Rooms forms part of House Veymont Residence. Practical furniture, folded cloth and a window toward the neighboring terrace give the room a lived-in scale. Personal storage stays separate from the shared walking space.",
+      "House Kagetsu Residence - Family Rooms": {
+        "description": "Family Rooms forms part of House Kagetsu Residence. Practical furniture, folded cloth and a window toward the neighboring terrace give the room a lived-in scale. Personal storage stays separate from the shared walking space.",
         "paths": [
-          "House Veymont Residence - Entry Court"
+          "House Kagetsu Residence - Entry Court"
         ]
       },
-      "House Veymont Residence - Training Terrace": {
-        "description": "Training Terrace forms part of House Veymont Residence. Pale masonry and violet-painted wood enclose a compact, practical space. Its furnishings suit the establishment around it; the neighboring passage remains clear for people going about their work.",
+      "House Kagetsu Residence - Training Terrace": {
+        "description": "Training Terrace forms part of House Kagetsu Residence. Pale masonry and violet-painted wood enclose a compact, practical space. Its furnishings suit the establishment around it; the neighboring passage remains clear for people going about their work.",
         "paths": [
-          "House Veymont Residence - Entry Court"
+          "House Kagetsu Residence - Entry Court"
         ]
       }
     },
@@ -20676,8 +20676,8 @@
     }
   },
   "Skyglass Observatory": {
-    "x": -11,
-    "y": 34,
+    "x": -17,
+    "y": 31,
     "radius": 2,
     "name": "Skyglass Observatory",
     "region": "High Arcana Ward",
@@ -20732,8 +20732,8 @@
     }
   },
   "The Old Receiving House": {
-    "x": 31,
-    "y": -9,
+    "x": 28,
+    "y": -7,
     "radius": 2,
     "name": "The Old Receiving House",
     "region": "High Arcana Ward",
@@ -20795,8 +20795,8 @@
     }
   },
   "High Arcana Infirmary": {
-    "x": -28,
-    "y": -28,
+    "x": -15,
+    "y": -35,
     "radius": 2,
     "name": "High Arcana Infirmary",
     "region": "High Arcana Ward",
@@ -20851,8 +20851,8 @@
     }
   },
   "Caelrath Amphitheatre": {
-    "x": -30,
-    "y": -32,
+    "x": 14,
+    "y": -30,
     "radius": 2,
     "name": "Caelrath Amphitheatre",
     "region": "Westbridge Ward",
@@ -20956,8 +20956,8 @@
     }
   },
   "The King's Lists": {
-    "x": 9,
-    "y": -4,
+    "x": 6,
+    "y": -19,
     "radius": 2,
     "name": "The King's Lists",
     "region": "Westbridge Ward",
@@ -21012,8 +21012,8 @@
     }
   },
   "Mortar and Moss Apothecary": {
-    "x": 22,
-    "y": 2,
+    "x": 39,
+    "y": 10,
     "radius": 2,
     "name": "Mortar and Moss Apothecary",
     "region": "Westbridge Ward",
@@ -21117,8 +21117,8 @@
     }
   },
   "House Orselle Salon": {
-    "x": 31,
-    "y": -18,
+    "x": 38,
+    "y": -26,
     "radius": 2,
     "name": "House Orselle Salon",
     "region": "Westbridge Ward",
@@ -21285,8 +21285,8 @@
     }
   },
   "Gilded Vessel Tavern": {
-    "x": -30,
-    "y": -22,
+    "x": -36,
+    "y": -35,
     "radius": 2,
     "name": "Gilded Vessel Tavern",
     "region": "Violet Market Ward",
@@ -21390,8 +21390,8 @@
     }
   },
   "Tern Thread Tailors": {
-    "x": 36,
-    "y": -12,
+    "x": 10,
+    "y": -1,
     "radius": 2,
     "name": "Tern Thread Tailors",
     "region": "Violet Market Ward",
@@ -21438,38 +21438,38 @@
       }
     }
   },
-  "House Dalcourt Counting House": {
+  "House Takamine Counting House": {
     "x": -5,
     "y": 41,
     "radius": 2,
-    "name": "House Dalcourt Counting House",
+    "name": "House Takamine Counting House",
     "region": "Violet Market Ward",
-    "basicInfo": "The Dalcourt commercial household receives carriers and creditors beside guarded records rooms. Members disagree over debt, reputation and how much risk to hide behind a neat signature.",
+    "basicInfo": "The Takamine commercial household receives carriers and creditors beside guarded records rooms. Members disagree over debt, reputation and how much risk to hide behind a neat signature.",
     "areas": {
-      "House Dalcourt Counting House - Public Desk": {
-        "description": "Public Desk forms part of House Dalcourt Counting House. Pale masonry and violet-painted wood enclose a compact, practical space. Its furnishings suit the establishment around it; the neighboring passage remains clear for people going about their work.",
+      "House Takamine Counting House - Public Desk": {
+        "description": "Public Desk forms part of House Takamine Counting House. Pale masonry and violet-painted wood enclose a compact, practical space. Its furnishings suit the establishment around it; the neighboring passage remains clear for people going about their work.",
         "paths": [
-          "House Dalcourt Counting House - Contract Room",
-          "House Dalcourt Counting House - Family Office",
-          "House Dalcourt Counting House - Courier Yard"
+          "House Takamine Counting House - Contract Room",
+          "House Takamine Counting House - Family Office",
+          "House Takamine Counting House - Courier Yard"
         ]
       },
-      "House Dalcourt Counting House - Contract Room": {
-        "description": "Contract Room forms part of House Dalcourt Counting House. Practical furniture, folded cloth and a window toward the neighboring terrace give the room a lived-in scale. Personal storage stays separate from the shared walking space.",
+      "House Takamine Counting House - Contract Room": {
+        "description": "Contract Room forms part of House Takamine Counting House. Practical furniture, folded cloth and a window toward the neighboring terrace give the room a lived-in scale. Personal storage stays separate from the shared walking space.",
         "paths": [
-          "House Dalcourt Counting House - Public Desk"
+          "House Takamine Counting House - Public Desk"
         ]
       },
-      "House Dalcourt Counting House - Family Office": {
-        "description": "Family Office forms part of House Dalcourt Counting House. Shelves, a worked-in desk and a clear reading surface leave space for a visitor. Daylight falls across bound books, tools and the small personal belongings of the person who works here.",
+      "House Takamine Counting House - Family Office": {
+        "description": "Family Office forms part of House Takamine Counting House. Shelves, a worked-in desk and a clear reading surface leave space for a visitor. Daylight falls across bound books, tools and the small personal belongings of the person who works here.",
         "paths": [
-          "House Dalcourt Counting House - Public Desk"
+          "House Takamine Counting House - Public Desk"
         ]
       },
-      "House Dalcourt Counting House - Courier Yard": {
-        "description": "Courier Yard forms part of House Dalcourt Counting House. An open working space sits between pale walls and smaller doorways. Worn paving, a few benches and practical delivery access show where people gather and where traffic must keep moving.",
+      "House Takamine Counting House - Courier Yard": {
+        "description": "Courier Yard forms part of House Takamine Counting House. An open working space sits between pale walls and smaller doorways. Worn paving, a few benches and practical delivery access show where people gather and where traffic must keep moving.",
         "paths": [
-          "House Dalcourt Counting House - Public Desk"
+          "House Takamine Counting House - Public Desk"
         ]
       }
     },
@@ -21495,8 +21495,8 @@
     }
   },
   "Adventurer's Guild - Caelrath Branch": {
-    "x": -21,
-    "y": -15,
+    "x": -5,
+    "y": -4,
     "radius": 2,
     "name": "Adventurer's Guild - Caelrath Branch",
     "region": "Celestial Ward",
@@ -21565,8 +21565,8 @@
     }
   },
   "Civic Records Hall": {
-    "x": -23,
-    "y": 4,
+    "x": -18,
+    "y": 1,
     "radius": 2,
     "name": "Civic Records Hall",
     "region": "Celestial Ward",
@@ -21621,8 +21621,8 @@
     }
   },
   "The Brass Hearth Workshop": {
-    "x": 9,
-    "y": -5,
+    "x": 12,
+    "y": -10,
     "radius": 2,
     "name": "The Brass Hearth Workshop",
     "region": "Celestial Ward",
@@ -21677,8 +21677,8 @@
     }
   },
   "Valleygate Lodgings": {
-    "x": -34,
-    "y": -35,
+    "x": -35,
+    "y": -34,
     "radius": 2,
     "name": "Valleygate Lodgings",
     "region": "Celestial Ward",
@@ -21733,8 +21733,8 @@
     }
   },
   "Lantern House Theatre": {
-    "x": 27,
-    "y": 38,
+    "x": 12,
+    "y": 45,
     "radius": 2,
     "name": "Lantern House Theatre",
     "region": "Celestial Ward",
@@ -21789,11 +21789,11 @@
     }
   },
   "Eastwater Locks": {
-    "x": -22,
-    "y": 26,
+    "x": -34,
+    "y": 47,
     "radius": 2,
     "name": "Eastwater Locks",
-    "region": "Eastwater Ward",
+    "region": "Lantern Harbors",
     "basicInfo": "Lock gates and a raised service walk connect freight traffic between water levels. Experienced crews read current, cargo and weather before opening a gate.",
     "areas": {
       "Eastwater Locks - Lock Rail": {
@@ -21845,8 +21845,8 @@
     }
   },
   "Riveters' Lane": {
-    "x": 3,
-    "y": 7,
+    "x": -2,
+    "y": 9,
     "radius": 2,
     "name": "Riveters' Lane",
     "region": "Eastwater Ward",
@@ -21894,8 +21894,8 @@
     }
   },
   "Low Lantern Tenements": {
-    "x": 21,
-    "y": -12,
+    "x": 7,
+    "y": -2,
     "radius": 2,
     "name": "Low Lantern Tenements",
     "region": "Eastwater Ward",
@@ -21950,8 +21950,8 @@
     }
   },
   "Sable Ribbon Club": {
-    "x": 32,
-    "y": 29,
+    "x": 28,
+    "y": 31,
     "radius": 2,
     "name": "Sable Ribbon Club",
     "region": "Eastwater Ward",
@@ -22006,8 +22006,8 @@
     }
   },
   "The Glassworks": {
-    "x": 27,
-    "y": -35,
+    "x": 5,
+    "y": -19,
     "radius": 2,
     "name": "The Glassworks",
     "region": "Eastwater Ward",
@@ -22111,8 +22111,8 @@
     }
   },
   "Windward Mills": {
-    "x": -21,
-    "y": 14,
+    "x": -10,
+    "y": 23,
     "radius": 2,
     "name": "Windward Mills",
     "region": "Windmill Escarpment",
@@ -22167,8 +22167,8 @@
     }
   },
   "Outer Granaries": {
-    "x": 23,
-    "y": 30,
+    "x": -13,
+    "y": 45,
     "radius": 2,
     "name": "Outer Granaries",
     "region": "Windmill Escarpment",
@@ -22216,8 +22216,8 @@
     }
   },
   "Orchardgate Hamlet": {
-    "x": 12,
-    "y": -16,
+    "x": 41,
+    "y": 10,
     "radius": 2,
     "name": "Orchardgate Hamlet",
     "region": "Windmill Escarpment",
@@ -22272,8 +22272,8 @@
     }
   },
   "Cliffside Quarry": {
-    "x": -34,
-    "y": -29,
+    "x": -27,
+    "y": -23,
     "radius": 2,
     "name": "Cliffside Quarry",
     "region": "Windmill Escarpment",
@@ -22328,11 +22328,11 @@
     }
   },
   "The Old Culvert": {
-    "x": 38,
-    "y": -32,
+    "x": -37,
+    "y": 7,
     "radius": 2,
     "name": "The Old Culvert",
-    "region": "Windmill Escarpment",
+    "region": "Kingsward Gate",
     "basicInfo": "An older drainage passage opens beneath a disused service track. Water marks, boot scuffs and patched masonry indicate actual recent use without naming its occupants in advance.",
     "areas": {
       "The Old Culvert - Dry Approach": {
@@ -22384,8 +22384,8 @@
     }
   },
   "Caravan Licensing Yard": {
-    "x": -28,
-    "y": -3,
+    "x": 31,
+    "y": -11,
     "radius": 2,
     "name": "Caravan Licensing Yard",
     "region": "Kingsward Gate",
@@ -22508,8 +22508,8 @@
     }
   },
   "The Wayfarers' Hostel": {
-    "x": -27,
-    "y": -32,
+    "x": -10,
+    "y": -8,
     "radius": 2,
     "name": "The Wayfarers' Hostel",
     "region": "Kingsward Gate",
@@ -22564,8 +22564,8 @@
     }
   },
   "Southbank School": {
-    "x": -35,
-    "y": 14,
+    "x": -36,
+    "y": 33,
     "radius": 2,
     "name": "Southbank School",
     "region": "Southbank Ward",
@@ -22620,8 +22620,8 @@
     }
   },
   "Threadneedle Bakery": {
-    "x": 8,
-    "y": 21,
+    "x": 3,
+    "y": 24,
     "radius": 2,
     "name": "Threadneedle Bakery",
     "region": "Southbank Ward",
@@ -22669,8 +22669,8 @@
     }
   },
   "The Common Table": {
-    "x": 31,
-    "y": 7,
+    "x": 24,
+    "y": 29,
     "radius": 2,
     "name": "The Common Table",
     "region": "Southbank Ward",
@@ -22718,8 +22718,8 @@
     }
   },
   "Ropewalk Court": {
-    "x": -24,
-    "y": -25,
+    "x": -13,
+    "y": 21,
     "radius": 2,
     "name": "Ropewalk Court",
     "region": "Southbank Ward",
@@ -22767,8 +22767,8 @@
     }
   },
   "Stonehearth Smithy": {
-    "x": 27,
-    "y": -30,
+    "x": 9,
+    "y": 39,
     "radius": 2,
     "name": "Stonehearth Smithy",
     "region": "Southbank Ward",
@@ -22816,8 +22816,8 @@
     }
   },
   "Crown Remand House": {
-    "x": -40,
-    "y": -8,
+    "x": -29,
+    "y": 22,
     "radius": 2,
     "name": "Crown Remand House",
     "region": "Southbank Ward",
@@ -22879,8 +22879,8 @@
     }
   },
   "The Harbormaster's Lodge": {
-    "x": -33,
-    "y": 32,
+    "x": -12,
+    "y": 18,
     "radius": 2,
     "name": "The Harbormaster's Lodge",
     "region": "Lantern Harbors",
@@ -22928,8 +22928,8 @@
     }
   },
   "Saltgull Shipwrights": {
-    "x": -4,
-    "y": 8,
+    "x": -7,
+    "y": 6,
     "radius": 2,
     "name": "Saltgull Shipwrights",
     "region": "Lantern Harbors",
@@ -22984,8 +22984,8 @@
     }
   },
   "The Customs Arcade": {
-    "x": -21,
-    "y": -27,
+    "x": -44,
+    "y": -4,
     "radius": 2,
     "name": "The Customs Arcade",
     "region": "Lantern Harbors",
@@ -23033,8 +23033,8 @@
     }
   },
   "The Chainbreak Docks": {
-    "x": 34,
-    "y": 20,
+    "x": 9,
+    "y": 17,
     "radius": 2,
     "name": "The Chainbreak Docks",
     "region": "Lantern Harbors",
@@ -23089,8 +23089,8 @@
     }
   },
   "Starwatch Isle": {
-    "x": 35,
-    "y": -35,
+    "x": 32,
+    "y": -17,
     "radius": 2,
     "name": "Starwatch Isle",
     "region": "Lantern Harbors",
@@ -23138,8 +23138,8 @@
     }
   },
   "The Sunken Bell": {
-    "x": -7,
-    "y": -42,
+    "x": -39,
+    "y": -33,
     "radius": 2,
     "name": "The Sunken Bell",
     "region": "Lantern Harbors",
@@ -23196,8 +23196,8 @@
   "Starward Commandery": {
     "name": "Starward Commandery",
     "region": "Starfall Heights",
-    "x": 32,
-    "y": 16,
+    "x": 11,
+    "y": 3,
     "radius": 2,
     "complexityType": "complex",
     "detailType": "detailed",

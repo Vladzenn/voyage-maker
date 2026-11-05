@@ -1,0 +1,16 @@
+{
+  "peacefulDeparture": true,
+  "guardedOffers": [
+    "The Carrier behind the Ledger",
+    "At the Wandering Door"
+  ],
+  "pursuitMinimumTicks": 100,
+  "primaryCap": 45,
+  "supportCap": 35,
+  "maxOpponents": 2,
+  "unchanged": [
+    "portal anomaly",
+    "party-wide diadem",
+    "native semantic chapter completion"
+  ]
+}

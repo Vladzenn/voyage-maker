@@ -282,50 +282,50 @@
   "Imperial Court of Ardelis": {
     "name": "Imperial Court of Ardelis",
     "factionType": "major",
-    "basicInfo": "King Cedran, Queen Isabeau and their households govern from Caelrath Palace. Three adult princesses have military, artistic and scholarly interests. Nobles, civic officials and the court mage compete for access and resources.",
-    "hiddenInfo": "Cedran authorized the receiving program for war. Isabeau concealed coercion and pursues independent control. Severin controls the apparatus but is not her mindless servant.",
+    "basicInfo": "King Kenzō, Queen Reiko and their households govern from Caelrath Palace. Three adult princesses have military, artistic and scholarly interests. Nobles, civic officials and the court mage compete for access and resources.",
+    "hiddenInfo": "Kenzō authorized the receiving program for war. Reiko concealed coercion and pursues independent control. Seijirō controls the apparatus but is not her mindless servant.",
     "initialKnown": false
   },
   "Ivory Guard": {
     "name": "Ivory Guard",
     "factionType": "minor",
-    "basicInfo": "The royal household guard protects palace rooms, escorts official movements and trains in the capital. Corvin Hale commands its daily service. Its remit differs from the city watch.",
+    "basicInfo": "The royal household guard protects palace rooms, escorts official movements and trains in the capital. Shūgo Takashiro commands its daily service. Its remit differs from the city watch.",
     "hiddenInfo": "Conflicting transfer orders have reached the officers. Real evidence can divide loyalty; one friendly guard cannot command every patrol.",
     "initialKnown": false
   },
   "Order of the Starward Oath": {
     "name": "Order of the Starward Oath",
     "factionType": "major",
-    "basicInfo": "Ardelis’s paladins combine trained arms with celestial devotion and crown service. Aurélian Vauss leads the capital commandery; Séraphine Duvray commands a field detachment, while Osmond Verain serves as chaplain and healer.",
+    "basicInfo": "Ardelis’s paladins combine trained arms with celestial devotion and crown service. Akihiro Kanzaki leads the capital commandery; Serika Tōgane commands a field detachment, while Osamu Narusawa serves as chaplain and healer.",
     "hiddenInfo": "Its leaders differ over the receiving operation. Zeal, personal courage and genuine public service coexist with cruelty and compromised obedience. Do not equate the whole order with the cult.",
     "initialKnown": false
   },
   "Church of the High Star": {
     "name": "Church of the High Star",
     "factionType": "major",
-    "basicInfo": "Astraeon, the High Star, is the celestial deity honored in Ardelis’s temples. Laurent Bellegarde oversees the cathedral. Worship, relief work, ceremonies and institutional influence meet among ordinary believers with different convictions.",
-    "hiddenInfo": "Sabine’s splinter circle is not the entire church. Laurent’s delay helped it grow; evidence can force accountability without pretending all worship is fraudulent.",
+    "basicInfo": "Astraeon, the High Star, is the celestial deity honored in Ardelis’s temples. Masafumi Hoshimi oversees the cathedral. Worship, relief work, ceremonies and institutional influence meet among ordinary believers with different convictions.",
+    "hiddenInfo": "Saeko’s splinter circle is not the entire church. Masafumi’s delay helped it grow; evidence can force accountability without pretending all worship is fraudulent.",
     "initialKnown": false
   },
-  "House Montrevel": {
-    "name": "House Montrevel",
+  "House Minazuki": {
+    "name": "House Minazuki",
     "factionType": "minor",
-    "basicInfo": "A landed house whose grain estates and credit sustain royal supply. Hector prizes authority and hospitality; Lucille runs much of its practical work.",
+    "basicInfo": "A landed house whose grain estates and credit sustain royal supply. Hidetaka prizes authority and hospitality; Ruri runs much of its practical work.",
     "hiddenInfo": "Double-pledged grain and tenant hardship threaten its reputation.",
     "initialKnown": false
   },
-  "House Dalcourt": {
-    "name": "House Dalcourt",
+  "House Takamine": {
+    "name": "House Takamine",
     "factionType": "minor",
-    "basicInfo": "A commercial house funding trade, workshops and imperial contracts. Julienne values clear terms and reliable delivery.",
-    "hiddenInfo": "Marcel’s private guarantees expose family and workers to court debts.",
+    "basicInfo": "A commercial house funding trade, workshops and imperial contracts. Junko values clear terms and reliable delivery.",
+    "hiddenInfo": "Masaru’s private guarantees expose family and workers to court debts.",
     "initialKnown": false
   },
-  "House Veymont": {
-    "name": "House Veymont",
+  "House Kagetsu": {
+    "name": "House Kagetsu",
     "factionType": "minor",
-    "basicInfo": "A military family whose officers sponsor equipment, horses and frontier service. Armand expects discipline and loyalty.",
-    "hiddenInfo": "Supply fraud and Adrien’s royal affair are separate liabilities.",
+    "basicInfo": "A military family whose officers sponsor equipment, horses and frontier service. Arata expects discipline and loyalty.",
+    "hiddenInfo": "Supply fraud and Akito’s royal affair are separate liabilities.",
     "initialKnown": false
   },
   "House Orselle": {
@@ -338,15 +338,15 @@
   "The Glass Knives": {
     "name": "The Glass Knives",
     "factionType": "minor",
-    "basicInfo": "A discreet Caelrath organization trading in stolen goods, protection, debt leverage and information. Lucan Voss prizes profit and a usable neighborhood.",
-    "hiddenInfo": "Not all members share Lucan’s limits. They sometimes serve court intermediaries but have independent interests and no general cult allegiance.",
+    "basicInfo": "A discreet Caelrath organization trading in stolen goods, protection, debt leverage and information. Renji Tsukishiro prizes profit and a usable neighborhood.",
+    "hiddenInfo": "Not all members share Renji’s limits. They sometimes serve court intermediaries but have independent interests and no general cult allegiance.",
     "initialKnown": false
   },
   "The Unveiled Star": {
     "name": "The Unveiled Star",
     "factionType": "minor",
     "basicInfo": "A private devotional circle known among a small number of seekers for intimate vigils and promises of extraordinary communion.",
-    "hiddenInfo": "Sabine and her inner circle seek a physical vessel for Astraeon through coercive spirit-binding. Sincerity does not make their promises true or their victims willing.",
+    "hiddenInfo": "Saeko and her inner circle seek a physical vessel for Astraeon through coercive spirit-binding. Sincerity does not make their promises true or their victims willing.",
     "initialKnown": false
   }
 }

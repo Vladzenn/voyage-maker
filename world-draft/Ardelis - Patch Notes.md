@@ -19,7 +19,7 @@ Meet a broad new cast of residents, adventurers, artisans, performers and offici
 - Named paladin leaders disagree about what their oaths require.
 - Guild regulars, neighbors and working households have lives beyond the next request they might make of you.
 
-Principal characters receive new portraits, and the capital gains location artwork inspired by its distinctive map.
+The entire new cast receives portraits, from the royal household to working residents and guild regulars. The capital also gains location artwork inspired by its distinctive map.
 
 ### 🕯️ What People Ask—and What They Hide
 
@@ -33,7 +33,7 @@ Public opportunities can be investigated or ignored. Caelrath’s guild board of
 
 The receiving-station evidence now leads beyond Glowhaven’s jurisdiction. Secure permission to travel, follow the local records and discover what the imperial project has become.
 
-Vladimir can help arrange a passage, but the independent court route remains open. His appearance has also been refreshed—with a very large hat and a glass staff he would strongly prefer you did not touch.
+Vladimir can help arrange a passage, but the independent court route remains open. Unresolved imperial business can bring occasional retrieval attempts after your mana trail is genuinely identified. Defeating a team may buy time without ending the operation behind it. His appearance has also been refreshed—with a very large hat and a glass staff he would strongly prefer you did not touch.
 
 ### ⚔️ Beneath the Beautiful Streets
 
@@ -45,6 +45,6 @@ Elsewhere, maintenance stairs lead beneath Eastwater into the sewers: raised ins
 
 New Ardelis beginnings let you arrive at the guild counter, settle among Southbank’s neighbors, take a place at the institute or attend an appointment with a noble household.
 
-New equipment, techniques and encounter types accompany the expansion. Lore now reaches further into the empire’s faith, politics, households and ordinary life—while the journey itself stays focused on its capital.
+New equipment, techniques and encounter types accompany the expansion. Lore now reaches further into the empire’s faith, politics, households, shared history with independent Glowhaven and ordinary life—while the journey itself stays focused on its capital.
 
 The gates are impressive. What happens after you enter is another matter. 👑

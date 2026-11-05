@@ -1,0 +1,1107 @@
+[
+  {
+    "name": "Kenzō Shirogane",
+    "major": true,
+    "location": "Caelrath Palace",
+    "area": "Caelrath Palace - Council Chamber",
+    "affinities": [
+      "Enchantment"
+    ]
+  },
+  {
+    "name": "Reiko Shirogane",
+    "major": true,
+    "location": "Caelrath Palace",
+    "area": "Caelrath Palace - Royal Apartments",
+    "affinities": [
+      "Light"
+    ]
+  },
+  {
+    "name": "Ayame Shirogane",
+    "major": true,
+    "location": "Ivory Guard Barracks",
+    "area": "Ivory Guard Barracks - Officers' Room",
+    "affinities": [
+      "Light"
+    ]
+  },
+  {
+    "name": "Yurika Shirogane",
+    "major": true,
+    "location": "Hall of Mirrors",
+    "area": "Hall of Mirrors - Musicians' Gallery",
+    "affinities": [
+      "Wind"
+    ]
+  },
+  {
+    "name": "Mio Shirogane",
+    "major": true,
+    "location": "Caelrath Institute of Magic",
+    "area": "Caelrath Institute of Magic - Reading Room",
+    "affinities": [
+      "Nature"
+    ]
+  },
+  {
+    "name": "Seijirō Kurotani",
+    "major": true,
+    "location": "Court Wizard's Spire",
+    "area": "Court Wizard's Spire - Upper Study",
+    "affinities": [
+      "Arcane",
+      "Enchantment"
+    ]
+  },
+  {
+    "name": "Noelle Ashford",
+    "major": true,
+    "location": "The Old Receiving House",
+    "area": "The Old Receiving House - Quiet Room",
+    "affinities": [
+      "Arcane",
+      "Fire",
+      "Water",
+      "Earth",
+      "Wind",
+      "Lightning",
+      "Ice",
+      "Light",
+      "Metal",
+      "Nature",
+      "Sound",
+      "Gravity",
+      "Void",
+      "Healing",
+      "Enchantment",
+      "Summoning",
+      "Illusion",
+      "Divination",
+      "Space",
+      "Soul"
+    ]
+  },
+  {
+    "name": "Thaurivex",
+    "major": true,
+    "location": "Caelrath Palace",
+    "area": "Caelrath Palace - Resonance Cradle",
+    "affinities": [
+      "Soul",
+      "Arcane",
+      "Metal"
+    ]
+  },
+  {
+    "name": "Hidetaka Minazuki",
+    "major": true,
+    "location": "House Minazuki Estate",
+    "area": "House Minazuki Estate - Receiving Salon",
+    "affinities": [
+      "Water"
+    ]
+  },
+  {
+    "name": "Junko Takamine",
+    "major": true,
+    "location": "House Takamine Counting House",
+    "area": "House Takamine Counting House - Family Office",
+    "affinities": [
+      "Metal"
+    ]
+  },
+  {
+    "name": "Arata Kagetsu",
+    "major": true,
+    "location": "House Kagetsu Residence",
+    "area": "House Kagetsu Residence - Officers' Salon",
+    "affinities": [
+      "Earth",
+      "Light",
+      "Fire"
+    ]
+  },
+  {
+    "name": "Mireille Orselle",
+    "major": true,
+    "location": "House Orselle Salon",
+    "area": "House Orselle Salon - Reception Salon",
+    "affinities": [
+      "Illusion",
+      "Sound"
+    ]
+  },
+  {
+    "name": "Masafumi Hoshimi",
+    "major": true,
+    "location": "Starfall Cathedral",
+    "area": "Starfall Cathedral - Chapter Vestry",
+    "affinities": [
+      "Healing",
+      "Soul"
+    ]
+  },
+  {
+    "name": "Saeko Murasame",
+    "major": true,
+    "location": "Vesper Bell Cloister",
+    "area": "Vesper Bell Cloister - Copying Room",
+    "affinities": [
+      "Summoning"
+    ]
+  },
+  {
+    "name": "Renji Tsukishiro",
+    "major": true,
+    "location": "Sable Ribbon Club",
+    "area": "Sable Ribbon Club - Private Office",
+    "affinities": [
+      "Illusion",
+      "Void"
+    ]
+  },
+  {
+    "name": "Aoi Matsukura",
+    "major": true,
+    "location": "Adventurer's Guild - Caelrath Branch",
+    "area": "Adventurer's Guild - Caelrath Branch - Reception Counter",
+    "affinities": [
+      "Healing"
+    ]
+  },
+  {
+    "name": "Daigo Ishimine",
+    "major": true,
+    "location": "Adventurer's Guild - Caelrath Branch",
+    "area": "Adventurer's Guild - Caelrath Branch - Branch Office",
+    "affinities": [
+      "Earth",
+      "Wind"
+    ]
+  },
+  {
+    "name": "Natsume Kazahaya",
+    "major": true,
+    "location": "The Wayfarers' Hostel",
+    "area": "The Wayfarers' Hostel - Common Room",
+    "affinities": [
+      "Gravity"
+    ]
+  },
+  {
+    "name": "Koharu Mizuse",
+    "major": true,
+    "location": "Eastwater Locks",
+    "area": "Eastwater Locks - Gatehouse",
+    "affinities": [
+      "Metal",
+      "Enchantment",
+      "Water"
+    ]
+  },
+  {
+    "name": "Shūgo Takashiro",
+    "major": true,
+    "location": "Ivory Guard Barracks",
+    "area": "Ivory Guard Barracks - Officers' Room",
+    "affinities": [
+      "Earth"
+    ]
+  },
+  {
+    "name": "Akihiro Kanzaki",
+    "major": true,
+    "location": "Starward Commandery",
+    "area": "Starward Commandery - Chapter Hall",
+    "affinities": [
+      "Enchantment"
+    ]
+  },
+  {
+    "name": "Serika Tōgane",
+    "major": true,
+    "location": "Starward Commandery",
+    "area": "Starward Commandery - Practice Court",
+    "affinities": [
+      "Metal"
+    ]
+  },
+  {
+    "name": "Osamu Narusawa",
+    "major": true,
+    "location": "Starward Commandery",
+    "area": "Starward Commandery - Field Chapel",
+    "affinities": [
+      "Healing",
+      "Light",
+      "Soul"
+    ]
+  },
+  {
+    "name": "Sibylle Opal",
+    "major": false,
+    "location": "Opaline Arcade",
+    "area": "Opaline Arcade - Arcade Entrance",
+    "affinities": [
+      "Enchantment"
+    ]
+  },
+  {
+    "name": "Benika Nerikawa",
+    "major": false,
+    "location": "Opaline Arcade",
+    "area": "Opaline Arcade - Arcade Entrance",
+    "affinities": [
+      "Enchantment",
+      "Nature"
+    ]
+  },
+  {
+    "name": "Ryōta Utagawa",
+    "major": false,
+    "location": "Velvet Lyre Hall",
+    "area": "Velvet Lyre Hall - Box Office",
+    "affinities": [
+      "Light",
+      "Sound",
+      "Illusion"
+    ]
+  },
+  {
+    "name": "Aguri Sunaga",
+    "major": false,
+    "location": "Caelrath Sewers",
+    "area": "Caelrath Sewers - Maintenance Stair",
+    "affinities": [
+      "Water"
+    ]
+  },
+  {
+    "name": "Otone Shiramine",
+    "major": false,
+    "location": "Starfall Cathedral",
+    "area": "Starfall Cathedral - Pilgrim Steps",
+    "affinities": [
+      "Earth"
+    ]
+  },
+  {
+    "name": "Keisuke Fujisaki",
+    "major": false,
+    "location": "Pilgrim's Rest Hospice",
+    "area": "Pilgrim's Rest Hospice - Hospice Door",
+    "affinities": [
+      "Healing"
+    ]
+  },
+  {
+    "name": "Koyomi Makino",
+    "major": false,
+    "location": "Chapel Steps",
+    "area": "Chapel Steps - Upper Landing",
+    "affinities": [
+      "Water"
+    ]
+  },
+  {
+    "name": "Eita Akaba",
+    "major": false,
+    "location": "Vesper Bell Cloister",
+    "area": "Vesper Bell Cloister - Cloister Walk",
+    "affinities": [
+      "Wind"
+    ]
+  },
+  {
+    "name": "Madelon Vire",
+    "major": false,
+    "location": "Starward Cemetery",
+    "area": "Starward Cemetery - Cemetery Gate",
+    "affinities": [
+      "Soul"
+    ]
+  },
+  {
+    "name": "Suzune Arataki",
+    "major": false,
+    "location": "Empyrean Archives",
+    "area": "Empyrean Archives - Reader's Entrance",
+    "affinities": [
+      "Divination"
+    ]
+  },
+  {
+    "name": "Masaki Fushimi",
+    "major": false,
+    "location": "Crownwater Aqueduct",
+    "area": "Crownwater Aqueduct - Inspection Gate",
+    "affinities": [
+      "Water"
+    ]
+  },
+  {
+    "name": "Ruri Minazuki",
+    "major": false,
+    "location": "House Minazuki Estate",
+    "area": "House Minazuki Estate - Estate Forecourt",
+    "affinities": [
+      "Enchantment"
+    ]
+  },
+  {
+    "name": "Ren Wakabayashi",
+    "major": false,
+    "location": "The High Reservoir",
+    "area": "The High Reservoir - Bank Path",
+    "affinities": [
+      "Ice",
+      "Metal"
+    ]
+  },
+  {
+    "name": "Akiha Saegusa",
+    "major": false,
+    "location": "Royal Hawk Mews",
+    "area": "Royal Hawk Mews - Mews Yard",
+    "affinities": [
+      "Wind",
+      "Divination",
+      "Nature"
+    ]
+  },
+  {
+    "name": "Brenna Blackwood",
+    "major": false,
+    "location": "Terrace Gardeners' Lodge",
+    "area": "Terrace Gardeners' Lodge - Tool Porch",
+    "affinities": [
+      "Nature"
+    ]
+  },
+  {
+    "name": "Maiko Dōjima",
+    "major": false,
+    "location": "Caelrath Palace",
+    "area": "Caelrath Palace - Outer Gallery",
+    "affinities": [
+      "Enchantment",
+      "Water"
+    ]
+  },
+  {
+    "name": "Erisa Hanabusa",
+    "major": false,
+    "location": "Hall of Mirrors",
+    "area": "Hall of Mirrors - Arrival Terrace",
+    "affinities": [
+      "Illusion"
+    ]
+  },
+  {
+    "name": "Akito Kagetsu",
+    "major": false,
+    "location": "House Kagetsu Residence",
+    "area": "House Kagetsu Residence - Entry Court",
+    "affinities": [
+      "Wind",
+      "Light",
+      "Metal"
+    ]
+  },
+  {
+    "name": "Fumiko Sawatari",
+    "major": false,
+    "location": "Royal Petition Court",
+    "area": "Royal Petition Court - Public Arcade",
+    "affinities": [
+      "Light"
+    ]
+  },
+  {
+    "name": "Harunobu Shirosaki",
+    "major": false,
+    "location": "Embassy Residences",
+    "area": "Embassy Residences - Diplomatic Walk",
+    "affinities": [
+      "Light"
+    ]
+  },
+  {
+    "name": "Gavin Hallow",
+    "major": false,
+    "location": "The Crown Mint",
+    "area": "The Crown Mint - Public Claims Desk",
+    "affinities": [
+      "Metal"
+    ]
+  },
+  {
+    "name": "Izumi Morikawa",
+    "major": false,
+    "location": "Ivory Guard Barracks",
+    "area": "Ivory Guard Barracks - Gate Desk",
+    "affinities": [
+      "Earth",
+      "Metal"
+    ]
+  },
+  {
+    "name": "Fūma Someya",
+    "major": false,
+    "location": "Court Wizard's Spire",
+    "area": "Court Wizard's Spire - Consultation Hall",
+    "affinities": [
+      "Sound"
+    ]
+  },
+  {
+    "name": "Anzu Hanezaki",
+    "major": false,
+    "location": "Amethyst Intake Works",
+    "area": "Amethyst Intake Works - Work Gate",
+    "affinities": [
+      "Metal"
+    ]
+  },
+  {
+    "name": "Eiichi Sakuraba",
+    "major": false,
+    "location": "Skyglass Observatory",
+    "area": "Skyglass Observatory - Visitor Stair",
+    "affinities": [
+      "Light",
+      "Divination"
+    ]
+  },
+  {
+    "name": "Nanami Kurebayashi",
+    "major": false,
+    "location": "The Old Receiving House",
+    "area": "The Old Receiving House - Outer Gate",
+    "affinities": [
+      "Water"
+    ]
+  },
+  {
+    "name": "Tetsurō Kuranaga",
+    "major": false,
+    "location": "High Arcana Infirmary",
+    "area": "High Arcana Infirmary - Reception",
+    "affinities": [
+      "Earth",
+      "Water"
+    ]
+  },
+  {
+    "name": "Harue Wada",
+    "major": false,
+    "location": "Caelrath Courthouse",
+    "area": "Caelrath Courthouse - Public Vestibule",
+    "affinities": [
+      "Light"
+    ]
+  },
+  {
+    "name": "Kōhei Daitō",
+    "major": false,
+    "location": "The Silver Baths",
+    "area": "The Silver Baths - Reception",
+    "affinities": [
+      "Wind",
+      "Water"
+    ]
+  },
+  {
+    "name": "Mirei Asahina",
+    "major": false,
+    "location": "Caelrath Amphitheatre",
+    "area": "Caelrath Amphitheatre - Public Concourse",
+    "affinities": [
+      "Illusion"
+    ]
+  },
+  {
+    "name": "Jōji Aramaki",
+    "major": false,
+    "location": "Westbridge Watchhouse",
+    "area": "Westbridge Watchhouse - Reporting Desk",
+    "affinities": [
+      "Water"
+    ]
+  },
+  {
+    "name": "Kaede Hanamura",
+    "major": false,
+    "location": "The King's Lists",
+    "area": "The King's Lists - Spectator Rail",
+    "affinities": [
+      "Metal"
+    ]
+  },
+  {
+    "name": "Edmée Mott",
+    "major": false,
+    "location": "Mortar and Moss Apothecary",
+    "area": "Mortar and Moss Apothecary - Shop Counter",
+    "affinities": [
+      "Healing",
+      "Nature",
+      "Water"
+    ]
+  },
+  {
+    "name": "Fuyuki Bannai",
+    "major": false,
+    "location": "Ashwillow Inn",
+    "area": "Ashwillow Inn - Common Room",
+    "affinities": [
+      "Water",
+      "Fire"
+    ]
+  },
+  {
+    "name": "Isaline Orselle",
+    "major": false,
+    "location": "House Orselle Salon",
+    "area": "House Orselle Salon - Reception Salon",
+    "affinities": [
+      "Enchantment",
+      "Light"
+    ]
+  },
+  {
+    "name": "Risa Haneda",
+    "major": false,
+    "location": "Violet Canopy Market",
+    "area": "Violet Canopy Market - Canopy Circle",
+    "affinities": [
+      "Nature"
+    ]
+  },
+  {
+    "name": "Kiyotaka Sasahara",
+    "major": false,
+    "location": "The Queen's Watergardens",
+    "area": "The Queen's Watergardens - Upper Walk",
+    "affinities": [
+      "Earth",
+      "Water"
+    ]
+  },
+  {
+    "name": "Sumire Senba",
+    "major": false,
+    "location": "The Veiled Oratory",
+    "area": "The Veiled Oratory - Waiting Alcove",
+    "affinities": [
+      "Soul"
+    ]
+  },
+  {
+    "name": "Otoya Suzukawa",
+    "major": false,
+    "location": "The Gilt Measure Exchange",
+    "area": "The Gilt Measure Exchange - Exchange Floor",
+    "affinities": [
+      "Light",
+      "Enchantment"
+    ]
+  },
+  {
+    "name": "Emi Sunahara",
+    "major": false,
+    "location": "Palewick Bookshop",
+    "area": "Palewick Bookshop - Book Floor",
+    "affinities": [
+      "Divination"
+    ]
+  },
+  {
+    "name": "Fumihiro Yorita",
+    "major": false,
+    "location": "Gilded Vessel Tavern",
+    "area": "Gilded Vessel Tavern - Taproom",
+    "affinities": [
+      "Fire"
+    ]
+  },
+  {
+    "name": "Lachlan Ferrick",
+    "major": false,
+    "location": "Bastion and Buckle Armory",
+    "area": "Bastion and Buckle Armory - Display Floor",
+    "affinities": [
+      "Earth"
+    ]
+  },
+  {
+    "name": "Aina Teraoka",
+    "major": false,
+    "location": "Tern Thread Tailors",
+    "area": "Tern Thread Tailors - Front Shop",
+    "affinities": [
+      "Enchantment"
+    ]
+  },
+  {
+    "name": "Masaru Takamine",
+    "major": false,
+    "location": "House Takamine Counting House",
+    "area": "House Takamine Counting House - Public Desk",
+    "affinities": [
+      "Light"
+    ]
+  },
+  {
+    "name": "Chihiro Shimizu",
+    "major": false,
+    "location": "High Star Square",
+    "area": "High Star Square - Monument Steps",
+    "affinities": [
+      "Divination",
+      "Enchantment"
+    ]
+  },
+  {
+    "name": "Naoya Nakashima",
+    "major": false,
+    "location": "Caelrath Institute of Magic",
+    "area": "Caelrath Institute of Magic - Arrival Hall",
+    "affinities": [
+      "Enchantment"
+    ]
+  },
+  {
+    "name": "Rena Someya",
+    "major": false,
+    "location": "Caelrath Institute of Magic",
+    "area": "Caelrath Institute of Magic - Arrival Hall",
+    "affinities": [
+      "Arcane",
+      "Divination"
+    ]
+  },
+  {
+    "name": "Daisaku Hanekawa",
+    "major": false,
+    "location": "Caelrath Institute of Magic",
+    "area": "Caelrath Institute of Magic - Arrival Hall",
+    "affinities": [
+      "Sound",
+      "Light",
+      "Metal"
+    ]
+  },
+  {
+    "name": "Genzō Kusunose",
+    "major": false,
+    "location": "Crown Watch Headquarters",
+    "area": "Crown Watch Headquarters - Reporting Hall",
+    "affinities": [
+      "Divination",
+      "Earth"
+    ]
+  },
+  {
+    "name": "Mitsue Sawada",
+    "major": false,
+    "location": "Civic Records Hall",
+    "area": "Civic Records Hall - Public Counter",
+    "affinities": [
+      "Enchantment"
+    ]
+  },
+  {
+    "name": "Ivor Briar",
+    "major": false,
+    "location": "The Brass Hearth Workshop",
+    "area": "The Brass Hearth Workshop - Public Workbench",
+    "affinities": [
+      "Fire"
+    ]
+  },
+  {
+    "name": "Kanae Kazama",
+    "major": false,
+    "location": "Valleygate Lodgings",
+    "area": "Valleygate Lodgings - Letting Desk",
+    "affinities": [
+      "Earth"
+    ]
+  },
+  {
+    "name": "Kiri Fuyuzono",
+    "major": false,
+    "location": "Lantern House Theatre",
+    "area": "Lantern House Theatre - Lobby",
+    "affinities": [
+      "Illusion",
+      "Sound",
+      "Light"
+    ]
+  },
+  {
+    "name": "Tadashi Morishita",
+    "major": false,
+    "location": "Eastwater Bonded Warehouse",
+    "area": "Eastwater Bonded Warehouse - Claims Desk",
+    "affinities": [
+      "Earth"
+    ]
+  },
+  {
+    "name": "Naoki Tachibana",
+    "major": false,
+    "location": "Riveters' Lane",
+    "area": "Riveters' Lane - Craft Frontages",
+    "affinities": [
+      "Fire"
+    ]
+  },
+  {
+    "name": "Yukie Maruyama",
+    "major": false,
+    "location": "Low Lantern Tenements",
+    "area": "Low Lantern Tenements - Common Stair",
+    "affinities": [
+      "Water"
+    ]
+  },
+  {
+    "name": "Shizuka Uenohara",
+    "major": false,
+    "location": "Sable Ribbon Club",
+    "area": "Sable Ribbon Club - Entry Salon",
+    "affinities": [
+      "Enchantment",
+      "Illusion"
+    ]
+  },
+  {
+    "name": "Reiji Yomikawa",
+    "major": false,
+    "location": "Sable Ribbon Club",
+    "area": "Sable Ribbon Club - Entry Salon",
+    "affinities": [
+      "Illusion"
+    ]
+  },
+  {
+    "name": "Takuma Kurose",
+    "major": false,
+    "location": "The Glassworks",
+    "area": "The Glassworks - Office Door",
+    "affinities": [
+      "Metal"
+    ]
+  },
+  {
+    "name": "Yūgo Kashiwagi",
+    "major": false,
+    "location": "Eelcatchers' Landing",
+    "area": "Eelcatchers' Landing - Landing Steps",
+    "affinities": [
+      "Water",
+      "Nature"
+    ]
+  },
+  {
+    "name": "Arisa Harukawa",
+    "major": false,
+    "location": "Windward Mills",
+    "area": "Windward Mills - Mill Track",
+    "affinities": [
+      "Water"
+    ]
+  },
+  {
+    "name": "Shimon Kanejima",
+    "major": false,
+    "location": "Outer Granaries",
+    "area": "Outer Granaries - Weighing Porch",
+    "affinities": [
+      "Earth"
+    ]
+  },
+  {
+    "name": "Anri Minegishi",
+    "major": false,
+    "location": "Orchardgate Hamlet",
+    "area": "Orchardgate Hamlet - Small Green",
+    "affinities": [
+      "Wind"
+    ]
+  },
+  {
+    "name": "Bunzō Kasai",
+    "major": false,
+    "location": "Cliffside Quarry",
+    "area": "Cliffside Quarry - Work Office",
+    "affinities": [
+      "Earth",
+      "Metal"
+    ]
+  },
+  {
+    "name": "Chisato Akahoshi",
+    "major": false,
+    "location": "The Old Culvert",
+    "area": "The Old Culvert - Dry Approach",
+    "affinities": [
+      "Light",
+      "Water",
+      "Earth"
+    ]
+  },
+  {
+    "name": "Hana Dōno",
+    "major": false,
+    "location": "Kingsward Gate",
+    "area": "Kingsward Gate - Outer Road",
+    "affinities": [
+      "Light"
+    ]
+  },
+  {
+    "name": "Katsumi Hirano",
+    "major": false,
+    "location": "The Pearl and Thistle",
+    "area": "The Pearl and Thistle - Public Parlor",
+    "affinities": [
+      "Fire"
+    ]
+  },
+  {
+    "name": "Raizō Bessho",
+    "major": false,
+    "location": "Caravan Licensing Yard",
+    "area": "Caravan Licensing Yard - Arrival Yard",
+    "affinities": [
+      "Water"
+    ]
+  },
+  {
+    "name": "Akihisa Sakimori",
+    "major": false,
+    "location": "Caelrath Portal Hall",
+    "area": "Caelrath Portal Hall - Visitor Desk",
+    "affinities": [
+      "Arcane",
+      "Light"
+    ]
+  },
+  {
+    "name": "Juri Kokubu",
+    "major": false,
+    "location": "The Wayfarers' Hostel",
+    "area": "The Wayfarers' Hostel - Common Room",
+    "affinities": [
+      "Healing",
+      "Water",
+      "Light"
+    ]
+  },
+  {
+    "name": "Rie Yagami",
+    "major": false,
+    "location": "Southbank Homes",
+    "area": "Southbank Homes - Main Lane",
+    "affinities": [
+      "Earth"
+    ]
+  },
+  {
+    "name": "Hiroto Yagami",
+    "major": false,
+    "location": "Southbank Homes",
+    "area": "Southbank Homes - Main Lane",
+    "affinities": [
+      "Earth"
+    ]
+  },
+  {
+    "name": "Setsuko Aoyagi",
+    "major": false,
+    "location": "Southbank School",
+    "area": "Southbank School - School Door",
+    "affinities": [
+      "Sound"
+    ]
+  },
+  {
+    "name": "Nina Suzuhara",
+    "major": false,
+    "location": "Threadneedle Bakery",
+    "area": "Threadneedle Bakery - Shop Counter",
+    "affinities": [
+      "Water"
+    ]
+  },
+  {
+    "name": "Maki Fukase",
+    "major": false,
+    "location": "The Common Table",
+    "area": "The Common Table - Eating Room",
+    "affinities": [
+      "Fire"
+    ]
+  },
+  {
+    "name": "Riku Matsukura",
+    "major": false,
+    "location": "Ropewalk Court",
+    "area": "Ropewalk Court - Work Court",
+    "affinities": [
+      "Water"
+    ]
+  },
+  {
+    "name": "Gareth Stone",
+    "major": false,
+    "location": "Stonehearth Smithy",
+    "area": "Stonehearth Smithy - Counter",
+    "affinities": [
+      "Metal",
+      "Fire"
+    ]
+  },
+  {
+    "name": "Reina Togashi",
+    "major": false,
+    "location": "Crown Remand House",
+    "area": "Crown Remand House - Public Desk",
+    "affinities": [
+      "Earth"
+    ]
+  },
+  {
+    "name": "Yasuhiko Dōmoto",
+    "major": false,
+    "location": "Caelrath Harbor",
+    "area": "Caelrath Harbor - Passenger Steps",
+    "affinities": [
+      "Water",
+      "Ice"
+    ]
+  },
+  {
+    "name": "Otoha Karasawa",
+    "major": false,
+    "location": "Crownlight Lighthouse",
+    "area": "Crownlight Lighthouse - Supply Jetty",
+    "affinities": [
+      "Water"
+    ]
+  },
+  {
+    "name": "Wataru Arakida",
+    "major": false,
+    "location": "The Harbormaster's Lodge",
+    "area": "The Harbormaster's Lodge - Public Desk",
+    "affinities": [
+      "Water"
+    ]
+  },
+  {
+    "name": "Moira Bellrock",
+    "major": false,
+    "location": "Saltgull Shipwrights",
+    "area": "Saltgull Shipwrights - Estimates Desk",
+    "affinities": [
+      "Earth"
+    ]
+  },
+  {
+    "name": "Fūta Wakatsuki",
+    "major": false,
+    "location": "The Customs Arcade",
+    "area": "The Customs Arcade - Public Counters",
+    "affinities": [
+      "Divination"
+    ]
+  },
+  {
+    "name": "Roka Makabe",
+    "major": false,
+    "location": "The Chainbreak Docks",
+    "area": "The Chainbreak Docks - Working Pier",
+    "affinities": [
+      "Ice"
+    ]
+  },
+  {
+    "name": "Gaku Serizawa",
+    "major": false,
+    "location": "Starwatch Isle",
+    "area": "Starwatch Isle - Small Landing",
+    "affinities": [
+      "Light"
+    ]
+  },
+  {
+    "name": "Shiori Moritsuki",
+    "major": false,
+    "location": "The Sunken Bell",
+    "area": "The Sunken Bell - Outer Mooring",
+    "affinities": [
+      "Divination",
+      "Soul",
+      "Water"
+    ]
+  },
+  {
+    "name": "Kenta Hinohara",
+    "major": false,
+    "location": "Adventurer's Guild - Caelrath Branch",
+    "area": "Adventurer's Guild - Caelrath Branch - Reception Counter",
+    "affinities": [
+      "Light"
+    ]
+  },
+  {
+    "name": "Rumi Shirato",
+    "major": false,
+    "location": "Adventurer's Guild - Caelrath Branch",
+    "area": "Adventurer's Guild - Caelrath Branch - Reception Counter",
+    "affinities": [
+      "Wind"
+    ]
+  },
+  {
+    "name": "Akari Mikumo",
+    "major": false,
+    "location": "The Wayfarers' Hostel",
+    "area": "The Wayfarers' Hostel - Common Room",
+    "affinities": [
+      "Light"
+    ]
+  },
+  {
+    "name": "Tōru Koganei",
+    "major": false,
+    "location": "The King's Lists",
+    "area": "The King's Lists - Spectator Rail",
+    "affinities": [
+      "Wind"
+    ]
+  },
+  {
+    "name": "Maho Takamizu",
+    "major": false,
+    "location": "Gilded Vessel Tavern",
+    "area": "Gilded Vessel Tavern - Taproom",
+    "affinities": [
+      "Light"
+    ]
+  },
+  {
+    "name": "Ansei Kurumada",
+    "major": false,
+    "location": "Vesper Bell Cloister",
+    "area": "Vesper Bell Cloister - Cloister Walk",
+    "affinities": [
+      "Light"
+    ]
+  }
+]

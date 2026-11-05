@@ -1,6 +1,6 @@
 // Real emitted scripts and native effects; semantic answers are supplied fixtures.
 const fs=require('fs'),path=require('path'),assert=require('assert'),vm=require('vm');
-const root=path.resolve(__dirname,'..'),w=JSON.parse(fs.readFileSync(process.argv[2]||path.join(root,'world-draft/WorldAlpha - World.json'),'utf8'));
+const root=path.resolve(__dirname,'..'),w=require('./ardelis-followup/previous_world.cjs')(JSON.parse(fs.readFileSync(process.argv[2]||path.join(root,'world-draft/WorldAlpha - World.json'),'utf8')));
 const r=JSON.parse(fs.readFileSync(path.join(__dirname,'ardelis/review.json'),'utf8'));
 const source=JSON.parse(fs.readFileSync(path.join(__dirname,'ardelis/source.json'),'utf8'));
 let checks=0;const ck=(x,m)=>{checks++;assert.ok(x,m)};

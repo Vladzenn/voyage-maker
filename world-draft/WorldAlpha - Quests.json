@@ -8275,9 +8275,10 @@
     "questDesignBrief": "Rebirth chapter. Its configured event or predecessor offers this undertaking; contact with the source alone is not permission to jump ahead. Use Haruho’s real work and Reika’s investigation. A shore entry can identify the rescued person but does not prove reincarnation. Preserve a destroyed copy, protected witness or false lead as an actual outcome. Completion does not establish that the enemy received the information. The separate lead condition requires that actual disclosure.",
     "onCompleteEffects": [
       {
-        "type": "quest-init",
+        "type": "write-boolean",
         "operator": "set",
-        "value": "The Carrier behind the Ledger"
+        "value": true,
+        "key": "rbCarrierLead"
       },
       {
         "type": "player-experience",
@@ -8320,9 +8321,10 @@
         "value": "The Pump House That Hummed"
       },
       {
-        "type": "quest-init",
+        "type": "write-boolean",
         "operator": "set",
-        "value": "At the Wandering Door"
+        "value": true,
+        "key": "rbAudienceLead"
       },
       {
         "type": "player-experience",
@@ -8538,9 +8540,9 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Béatrice Nerol",
+    "questSource": "Benika Nerikawa",
     "questLocation": "Opaline Arcade",
-    "questStatement": "A profitable order asks Béatrice to duplicate a blend she made privately for another patron.",
+    "questStatement": "A profitable order asks Benika to duplicate a blend she made privately for another patron.",
     "objectives": {
       "task": {
         "id": "task",
@@ -8567,7 +8569,7 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Raoul Chantrel",
+    "questSource": "Ryōta Utagawa",
     "questLocation": "Velvet Lyre Hall",
     "questStatement": "A sponsor has attached unwelcome conditions to the hall's next program.",
     "objectives": {
@@ -8596,7 +8598,7 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Agathe Surn",
+    "questSource": "Aguri Sunaga",
     "questLocation": "Caelrath Sewers",
     "questStatement": "A maintenance branch has been sealed before inspection, and the next high-water shift is approaching.",
     "objectives": {
@@ -8631,13 +8633,13 @@
     "objectives": {
       "task": {
         "id": "task",
-        "text": "Have Reika or the informed Glowhaven court representative authenticate a real bilateral Ardelis invitation and agree the named traveler’s purpose. Henri’s remote invitation may be verified by actual court correspondence; no prior Ardelis entry is needed.",
+        "text": "Have Reika or the informed Glowhaven court representative authenticate a real bilateral Ardelis invitation and agree the named traveler’s purpose. Harunobu’s remote invitation may be verified by actual court correspondence; no prior Ardelis entry is needed.",
         "status": "active"
       }
     },
     "completionCondition": {
       "type": "story",
-      "query": "The informed Glowhaven court representative actually authenticates a genuine bilateral Ardelis invitation and grants this participating traveler a limited named sponsorship for a credible agreed purpose. Correspondence with Henri may establish the foreign authorization without prior Ardelis entry. The completed local relay case is sufficient grounds to request it, but merely owning evidence, status or an unverified letter is not issuance."
+      "query": "The informed Glowhaven court representative actually authenticates a genuine bilateral Ardelis invitation and grants this participating traveler a limited named sponsorship for a credible agreed purpose. Correspondence with Harunobu may establish the foreign authorization without prior Ardelis entry. The completed local relay case is sufficient grounds to request it, but merely owning evidence, status or an unverified letter is not issuance."
     },
     "questDesignBrief": "Available after A Second Receiving Station is completed, or on a separately credible diplomatic commission. Reika's independent investigation remains sufficient; visiting Vladimir is optional. No student expedition, forced recruitment or automatic crossing. Completion records permission, not proof against every royal. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
     "onCompleteEffects": [
@@ -8683,9 +8685,9 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Henri Valcour",
+    "questSource": "Harunobu Shirosaki",
     "questLocation": "Embassy Residences",
-    "questStatement": "The relay evidence names a receiving address in Caelrath. Henri can help establish what it actually receives.",
+    "questStatement": "The relay evidence names a receiving address in Caelrath. Harunobu can help establish what it actually receives.",
     "objectives": {
       "task": {
         "id": "task",
@@ -8697,7 +8699,7 @@
       "type": "story",
       "query": "For Rebirth: The Receiving Address, the participating party has actually done this: Compare a genuine local delivery record with the relay evidence and identify the Old Receiving House's controlled patient transfers. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
     },
-    "questDesignBrief": "Requires the completed A Second Receiving Station investigation. Noelle's location is learned through records or a real witness, not clairvoyant arrival. Pascal's weights, Nadine's account or a lawful records inquiry offer routes. No manufactured confession or automatic break-in. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "questDesignBrief": "Requires the completed A Second Receiving Station investigation. Noelle's location is learned through records or a real witness, not clairvoyant arrival. Tadashi's weights, Nanami's account or a lawful records inquiry offer routes. No manufactured confession or automatic break-in. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
     "onCompleteEffects": [
       {
         "type": "item-add",
@@ -8723,7 +8725,7 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Nadine Courbet",
+    "questSource": "Nanami Kurebayashi",
     "questLocation": "The Old Receiving House",
     "questStatement": "A patient in the receiving house is being kept under a painful restraint. Her account may matter more than the court's description of her.",
     "objectives": {
@@ -8757,7 +8759,7 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Félicien Sorel",
+    "questSource": "Fūma Someya",
     "questLocation": "Court Wizard's Spire",
     "questStatement": "The receiving apparatus has a command circuit. Its engineer may recognize a way to interrupt it without simply hurting its bearer.",
     "objectives": {
@@ -8771,7 +8773,7 @@
       "type": "story",
       "query": "For Rebirth: The Command Circuit, the participating party has actually done this: Verify the clasp-to-relay relationship and acquire a feasible method for isolating or disabling the command link. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
     },
-    "questDesignBrief": "Use a demonstrated instrument comparison, a genuine component, Félicien's testimony or a feasible alternative expert. Severin's tools do not give universal access. The clasp is not Noelle's soul. Do not make killing Noelle the default solution or let a persuasive line erase the machinery. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "questDesignBrief": "Use a demonstrated instrument comparison, a genuine component, Fūma's testimony or a feasible alternative expert. Seijirō's tools do not give universal access. The clasp is not Noelle's soul. Do not make killing Noelle the default solution or let a persuasive line erase the machinery. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
     "onCompleteEffects": [
       {
         "type": "item-add",
@@ -8837,7 +8839,7 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Hélène Vaudin",
+    "questSource": "Harue Wada",
     "questLocation": "Caelrath Courthouse",
     "questStatement": "The receiving operation needs an outcome beyond one broken device. Evidence can be delivered, suppressed, bargained over or made public.",
     "objectives": {
@@ -8851,7 +8853,7 @@
       "type": "story",
       "query": "For Rebirth: What the Crown Received, the participating party has actually done this: Carry out a consequential disposition of corroborated receiving evidence and establish what becomes of the exposed operation. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
     },
-    "questDesignBrief": "The king authorized a war project, the queen concealed abuses, and Severin built control apparatus. Evidence supports particular claims, not omniscience. A lawful limited closure, protected disclosure, actual criminal bargain or knowingly compromised settlement can conclude with different consequences. Do not automatically overthrow the empire. Ardelis and the royal family remain playable afterward. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "questDesignBrief": "The king authorized a war project, the queen concealed abuses, and Seijirō built control apparatus. Evidence supports particular claims, not omniscience. A lawful limited closure, protected disclosure, actual criminal bargain or knowingly compromised settlement can conclude with different consequences. Do not automatically overthrow the empire. Ardelis and the royal family remain playable afterward. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration. This concludes the receiving-operation pursuit. Preserve the actual settlement and stop new retrieval teams; any already active danger still needs its real resolution.",
     "onCompleteEffects": [
       {
         "type": "item-add",
@@ -8872,7 +8874,7 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Léonie Sorel",
+    "questSource": "Rena Someya",
     "questLocation": "Caelrath Institute of Magic",
     "questStatement": "A laboratory assistant has missed work, and an institute instrument appears on a palace delivery list.",
     "objectives": {
@@ -8886,7 +8888,7 @@
       "type": "story",
       "query": "For Below the Crown: A Missing Assistant, the participating party has actually done this: Trace the assistant's actual transfer and obtain a credible route to investigate the lower palace, or secure their release by an alternative intervention. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
     },
-    "questDesignBrief": "Independent of the Rebirth origin. Céleste, Thibaut and instrument records offer different partial facts. A royal invitation can authorize an inspection; stealth or a real service opening can work. No magic key drops from an unrelated rat. This opens a dangerous optional descent, not a mandatory royal audience. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "questDesignBrief": "Independent of the Rebirth origin. Mio, Tetsurō and instrument records offer different partial facts. A royal invitation can authorize an inspection; stealth or a real service opening can work. No magic key drops from an unrelated rat. This opens a dangerous optional descent, not a mandatory royal audience. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
     "onCompleteEffects": [
       {
         "type": "item-add",
@@ -8906,7 +8908,7 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Félicien Sorel",
+    "questSource": "Fūma Someya",
     "questLocation": "Caelrath Palace",
     "questStatement": "The lower apparatus draws power through cooling conduits beneath the royal rooms.",
     "objectives": {
@@ -8946,7 +8948,7 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Félicien Sorel",
+    "questSource": "Fūma Someya",
     "questLocation": "Caelrath Palace",
     "questStatement": "Something suspended in the Resonance Cradle is answering in several voices.",
     "objectives": {
@@ -8981,7 +8983,7 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Laurent Bellegarde",
+    "questSource": "Masafumi Hoshimi",
     "questLocation": "Starfall Cathedral",
     "questStatement": "A missing pilgrim's family has received a strange private invitation to a vigil.",
     "objectives": {
@@ -8995,7 +8997,7 @@
       "type": "story",
       "query": "For The Star behind the Veil, the participating party has actually done this: Find corroborated evidence of where the private vigil leads and decide whom to warn. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
     },
-    "questDesignBrief": "Sabine's inner circle seeks physical communion with Astraeon. Ordinary church members are not collectively guilty. Odette's supplies and Étienne's rota provide clues, not the whole answer. The cult can be investigated without joining it. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "questDesignBrief": "Saeko's inner circle seeks physical communion with Astraeon. Ordinary church members are not collectively guilty. Otone's supplies and Eita's rota provide clues, not the whole answer. The cult can be investigated without joining it. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
     "onCompleteEffects": [
       {
         "type": "item-add",
@@ -9015,7 +9017,7 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Sabine Mauclerc",
+    "questSource": "Saeko Murasame",
     "questLocation": "Vesper Bell Cloister",
     "questStatement": "A private devotional group offers an extraordinary rite to a willing visitor.",
     "objectives": {
@@ -9029,7 +9031,7 @@
       "type": "story",
       "query": "For The Vessel's Consent, the participating party has actually done this: Investigate the actual rite and carry out an informed decision about its endangered participants, exposing, interrupting or deliberately assisting it. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
     },
-    "questDesignBrief": "Ansel recruits vulnerable adults and misrepresents risks. Sabine sincerely believes coercion can prepare a divine vessel. No child sacrifice, gratuitous spectacle or automatic supernatural transformation. A public lecture is not admission to the inner rite. Joining can reveal culpability without making every cult member a combatant. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "questDesignBrief": "Ansei recruits vulnerable adults and misrepresents risks. Saeko sincerely believes coercion can prepare a divine vessel. No child sacrifice, gratuitous spectacle or automatic supernatural transformation. A public lecture is not admission to the inner rite. Joining can reveal culpability without making every cult member a combatant. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
     "onCompleteEffects": [
       {
         "type": "item-add",
@@ -9049,7 +9051,7 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Laurent Bellegarde",
+    "questSource": "Masafumi Hoshimi",
     "questLocation": "Starwatch Isle",
     "questStatement": "Unscheduled visitors have been landing at a closed shore shrine.",
     "objectives": {
@@ -9078,8 +9080,8 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Lucille Montrevel",
-    "questLocation": "House Montrevel Estate",
+    "questSource": "Ruri Minazuki",
+    "questLocation": "House Minazuki Estate",
     "questStatement": "Tenants' deliveries and the estate's grain totals do not agree.",
     "objectives": {
       "task": {
@@ -9092,7 +9094,7 @@
       "type": "story",
       "query": "For The Weight of Empty Sacks, the participating party has actually done this: Carry out a supported settlement of the grain discrepancy, with an actual correction, restitution, report or knowing private bargain. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
     },
-    "questDesignBrief": "Hector double-pledged stored grain; not all shortfall is theft by workers. Arlette and Simon hold partial figures. Lucille can oppose her uncle without instantly inheriting the house. Failed persuasion does not delete the books. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "questDesignBrief": "Hidetaka double-pledged stored grain; not all shortfall is theft by workers. Arisa and Shimon hold partial figures. Ruri can oppose her uncle without instantly inheriting the house. Failed persuasion does not delete the books. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
     "onCompleteEffects": [
       {
         "type": "item-add",
@@ -9107,7 +9109,7 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Coralie Brissot",
+    "questSource": "Koharu Mizuse",
     "questLocation": "Eastwater Locks",
     "questStatement": "Lower households are losing water while ornamental channels run clear.",
     "objectives": {
@@ -9121,7 +9123,7 @@
       "type": "story",
       "query": "For Water for the Lower Steps, the participating party has actually done this: Identify the physical diversion and establish an actual safe restoration or agreed workable supply plan. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
     },
-    "questDesignBrief": "The reservoir closure began as a real safety decision; the later unequal allocation is political. René and Clément can disagree without either being an idiot. Do not open a damaged feeder recklessly or turn a public-works problem into a compulsory murder plot. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "questDesignBrief": "The reservoir closure began as a real safety decision; the later unequal allocation is political. Ren and Kiyotaka can disagree without either being an idiot. Do not open a damaged feeder recklessly or turn a public-works problem into a compulsory murder plot. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
     "onCompleteEffects": [
       {
         "type": "item-add",
@@ -9136,9 +9138,9 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Marcel Dalcourt",
-    "questLocation": "House Dalcourt Counting House",
-    "questStatement": "Marcel's private guarantees may put other people's wages at risk.",
+    "questSource": "Masaru Takamine",
+    "questLocation": "House Takamine Counting House",
+    "questStatement": "Masaru's private guarantees may put other people's wages at risk.",
     "objectives": {
       "task": {
         "id": "task",
@@ -9150,7 +9152,7 @@
       "type": "story",
       "query": "For A Daughter's Guarantee, the participating party has actually done this: Resolve the actual guarantees through disclosure, renegotiation, repayment, supported repudiation or another performed settlement. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
     },
-    "questDesignBrief": "Julienne values explicit terms, not sentimental forgiveness. Marcel acted from vanity and hope. Protecting him at someone else's cost is a real choice; no magical debt erasure or second invented currency. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "questDesignBrief": "Junko values explicit terms, not sentimental forgiveness. Masaru acted from vanity and hope. Protecting him at someone else's cost is a real choice; no magical debt erasure or second invented currency. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
     "onCompleteEffects": [
       {
         "type": "item-add",
@@ -9165,7 +9167,7 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Aimée Tern",
+    "questSource": "Aina Teraoka",
     "questLocation": "Tern Thread Tailors",
     "questStatement": "A noble household has accepted its uniforms without paying the workers.",
     "objectives": {
@@ -9194,7 +9196,7 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Cyrille Fable",
+    "questSource": "Kiri Fuyuzono",
     "questLocation": "Lantern House Theatre",
     "questStatement": "Two performers are arguing over the same finishing illusion.",
     "objectives": {
@@ -9208,7 +9210,7 @@
       "type": "story",
       "query": "For The Borrowed Finale, the participating party has actually done this: Help carry out a genuine credit, compensation or separate performance agreement. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
     },
-    "questDesignBrief": "Cyrille stole part of the trick and still worked hard on the show. Let an apology be awkward. No requirement to humiliate either performer or force friendship. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "questDesignBrief": "Kiri stole part of the trick and still worked hard on the show. Let an apology be awkward. No requirement to humiliate either performer or force friendship. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
     "onCompleteEffects": [
       {
         "type": "item-add",
@@ -9223,7 +9225,7 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Madeleine Sève",
+    "questSource": "Mitsue Sawada",
     "questLocation": "Civic Records Hall",
     "questStatement": "A claim on a Southbank wash yard cites a street number that no longer exists.",
     "objectives": {
@@ -9237,7 +9239,7 @@
       "type": "story",
       "query": "For An Address That Never Was, the participating party has actually done this: Establish the valid boundary with actual evidence and carry out a settlement or proper challenge. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
     },
-    "questDesignBrief": "The obsolete number is a real clue, not a puzzle requiring six stamps. Lydie and her neighbors want use of the yard, not a title to the entire ward. Keep ownership records specific. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "questDesignBrief": "The obsolete number is a real clue, not a puzzle requiring six stamps. Rie and her neighbors want use of the yard, not a title to the entire ward. Keep ownership records specific. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
     "onCompleteEffects": [
       {
         "type": "item-add",
@@ -9252,7 +9254,7 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Estelle Vaul",
+    "questSource": "Shizuka Uenohara",
     "questLocation": "Sable Ribbon Club",
     "questStatement": "A trader would like a debt problem handled somewhere less public.",
     "objectives": {
@@ -9266,7 +9268,7 @@
       "type": "story",
       "query": "For The Price of a Quiet Table, the participating party has actually done this: Resolve the agreed debt dispute through a carried-out payment, bargain, exposure or supported refusal. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
     },
-    "questDesignBrief": "Glass Knives have their own ledger and leverage. Lucan may prefer a profitable settlement over violence; Rémy's unauthorized fees are a separate vulnerability. Criminal work is optional and may have victims. Do not recruit the whole club or reward threats without an actual result. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "questDesignBrief": "Glass Knives have their own ledger and leverage. Renji may prefer a profitable settlement over violence; Reiji's unauthorized fees are a separate vulnerability. Criminal work is optional and may have victims. Do not recruit the whole club or reward threats without an actual result. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
     "onCompleteEffects": [
       {
         "type": "item-add",
@@ -9281,7 +9283,7 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Pascal Reeve",
+    "questSource": "Tadashi Morishita",
     "questLocation": "Eastwater Bonded Warehouse",
     "questStatement": "A sealed priority load weighs less than its new invoice claims.",
     "objectives": {
@@ -9295,7 +9297,7 @@
       "type": "story",
       "query": "For Cargo with No Windows, the participating party has actually done this: Determine what was actually transported and carry out the agreed report, safe release or knowing concealment. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
     },
-    "questDesignBrief": "The cargo is receiving equipment and a prior hidden passenger transfer, not an unlimited people crate. Real records and Hugo's landing observation can corroborate it. Refusal, bribery and lawful reporting have different costs. Protect witnesses rather than spawning an ambush on every question. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "questDesignBrief": "The cargo is receiving equipment and a prior hidden passenger transfer, not an unlimited people crate. Real records and Yūgo's landing observation can corroborate it. Refusal, bribery and lawful reporting have different costs. Protect witnesses rather than spawning an ambush on every question. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
     "onCompleteEffects": [
       {
         "type": "item-add",
@@ -9310,21 +9312,21 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Lucan Voss",
+    "questSource": "Renji Tsukishiro",
     "questLocation": "Sable Ribbon Club",
-    "questStatement": "Lucan wants to know why traders are paying fees his own books never received.",
+    "questStatement": "Renji wants to know why traders are paying fees his own books never received.",
     "objectives": {
       "task": {
         "id": "task",
-        "text": "Resolve Rémy's unauthorized collection scheme with an actual accounting, restitution, exposure or consequential arrangement.",
+        "text": "Resolve Reiji's unauthorized collection scheme with an actual accounting, restitution, exposure or consequential arrangement.",
         "status": "active"
       }
     },
     "completionCondition": {
       "type": "story",
-      "query": "For A Knife in the Account, the participating party has actually done this: Resolve Rémy's unauthorized collection scheme with an actual accounting, restitution, exposure or consequential arrangement. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+      "query": "For A Knife in the Account, the participating party has actually done this: Resolve Reiji's unauthorized collection scheme with an actual accounting, restitution, exposure or consequential arrangement. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
     },
-    "questDesignBrief": "Lucan is a criminal with selective loyalties. Helping him can make him stronger; he need not become benevolent. Rémy is a cowardly bully rather than a secret final boss. The player may inform the watch instead. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "questDesignBrief": "Renji is a criminal with selective loyalties. Helping him can make him stronger; he need not become benevolent. Reiji is a cowardly bully rather than a secret final boss. The player may inform the watch instead. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
     "onCompleteEffects": [
       {
         "type": "item-add",
@@ -9339,7 +9341,7 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Régine Vossard",
+    "questSource": "Reina Togashi",
     "questLocation": "Crown Remand House",
     "questStatement": "A remand prisoner has been requested by an office that will not sign for receipt.",
     "objectives": {
@@ -9353,7 +9355,7 @@
       "type": "story",
       "query": "For The Closed Transfer, the participating party has actually done this: Secure a real decision on the disputed transfer using evidence, an enforceable hold, actual release or another chosen intervention. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
     },
-    "questDesignBrief": "Régine has refused so far; she has not secretly freed everyone. Corvin and Hélène have limited powers and risks. Mere possession of a forged order is not legal authority. No automatic Wraith Island custody for Ardelis offenses; the existing Glowhaven system stays scoped. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "questDesignBrief": "Reina has refused so far; she has not secretly freed everyone. Shūgo and Harue have limited powers and risks. Mere possession of a forged order is not legal authority. No automatic Wraith Island custody for Ardelis offenses; the existing Glowhaven system stays scoped. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
     "onCompleteEffects": [
       {
         "type": "item-add",
@@ -9368,7 +9370,7 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Florent Bard",
+    "questSource": "Fuyuki Bannai",
     "questLocation": "Ashwillow Inn",
     "questStatement": "Two guests have claims on one trunk and neither is paying the bill.",
     "objectives": {
@@ -9397,7 +9399,7 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Odile Caron",
+    "questSource": "Otoha Karasawa",
     "questLocation": "Crownlight Lighthouse",
     "questStatement": "The lighthouse lens has a flaw, and a fog bank is gathering outside.",
     "objectives": {
@@ -9426,7 +9428,7 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Roxane Marot",
+    "questSource": "Roka Makabe",
     "questLocation": "The Chainbreak Docks",
     "questStatement": "A salvage crew needs a sound agreement and one more capable hand before entering a wreck.",
     "objectives": {
@@ -9440,7 +9442,7 @@
       "type": "story",
       "query": "For A Share before the Dive, the participating party has actually done this: Complete the agreed bounded salvage and actual division of recovered goods, or perform a consequential safe recovery of the endangered crew. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
     },
-    "questDesignBrief": "Agree shares before diving. The target is specific cargo, not the whole ocean. Sévérine's rival chart may help but remains someone else's property. A retreat after saving someone can merit agreed rescue pay without pretending the salvage succeeded. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "questDesignBrief": "Agree shares before diving. The target is specific cargo, not the whole ocean. Shiori's rival chart may help but remains someone else's property. A retreat after saving someone can merit agreed rescue pay without pretending the salvage succeeded. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
     "onCompleteEffects": [
       {
         "type": "item-add",
@@ -9455,7 +9457,7 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Sévérine Morn",
+    "questSource": "Shiori Moritsuki",
     "questLocation": "The Sunken Bell",
     "questStatement": "A wreck's bell can be heard when the lower current turns.",
     "objectives": {
@@ -9484,7 +9486,7 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Gabrielle Fane",
+    "questSource": "Kaede Hanamura",
     "questLocation": "The King's Lists",
     "questStatement": "A boastful client wants a public demonstration that the training floor's rules apply to everyone.",
     "objectives": {
@@ -9513,7 +9515,7 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Olivier Nacre",
+    "questSource": "Naoya Nakashima",
     "questLocation": "Caelrath Institute of Magic",
     "questStatement": "The institute has an open demonstration slot for a modest, testable question.",
     "objectives": {
@@ -9527,7 +9529,7 @@
       "type": "story",
       "query": "For An Experiment with Witnesses, the participating party has actually done this: Actually conduct a feasible observed experiment and discuss the result honestly, including a genuine failed hypothesis. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
     },
-    "questDesignBrief": "Use real learned abilities and available materials. Spell invention uses Spellcraft, casting uses its discipline. Denis and Léonie work on their own projects and may bicker; they do not orbit the visitor. No automatic graduation or free new spell. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "questDesignBrief": "Use real learned abilities and available materials. Spell invention uses Spellcraft, casting uses its discipline. Daisaku and Rena work on their own projects and may bicker; they do not orbit the visitor. No automatic graduation or free new spell. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
     "onCompleteEffects": [
       {
         "type": "item-add",
@@ -9542,9 +9544,9 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Denis Ravel",
+    "questSource": "Daisaku Hanekawa",
     "questLocation": "Caelrath Institute of Magic",
-    "questStatement": "Denis borrowed a lens and cannot return it before the demonstration.",
+    "questStatement": "Daisaku borrowed a lens and cannot return it before the demonstration.",
     "objectives": {
       "task": {
         "id": "task",
@@ -9571,7 +9573,7 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Émilie Sable",
+    "questSource": "Emi Sunahara",
     "questLocation": "Palewick Bookshop",
     "questStatement": "An enthusiastic buyer wants one damaged marginal note more than the book around it.",
     "objectives": {
@@ -9600,7 +9602,7 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Matthieu Fen",
+    "questSource": "Masaki Fushimi",
     "questLocation": "Crownwater Aqueduct",
     "questStatement": "A survey sign-off was made before the underside was checked.",
     "objectives": {
@@ -9629,7 +9631,7 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Alix Perrault",
+    "questSource": "Akiha Saegusa",
     "questLocation": "Royal Hawk Mews",
     "questStatement": "A messenger has been using the mews after its attendants leave.",
     "objectives": {
@@ -9643,7 +9645,7 @@
       "type": "story",
       "query": "For The Mews after Midnight, the participating party has actually done this: Identify the unauthorized use and establish an actual safe arrangement or supported report. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
     },
-    "questDesignBrief": "The messenger is carrying private adult correspondence, not a child or disguised monster. Adrien's involvement can complicate discretion without revealing the whole queen conspiracy. Keep the birds out of violence. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "questDesignBrief": "The messenger is carrying private adult correspondence, not a child or disguised monster. Akito's involvement can complicate discretion without revealing the whole queen conspiracy. Keep the birds out of violence. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
     "onCompleteEffects": [
       {
         "type": "item-add",
@@ -9658,7 +9660,7 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Berthe Lenoir",
+    "questSource": "Brenna Blackwood",
     "questLocation": "Terrace Gardeners' Lodge",
     "questStatement": "Rare rootstock keeps leaving the beds under a signature no gardener has verified.",
     "objectives": {
@@ -9672,7 +9674,7 @@
       "type": "story",
       "query": "For A Gardener's Petition, the participating party has actually done this: Resolve the removal with the true authorized owner and a real return, replacement or accountable order. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
     },
-    "questDesignBrief": "The queen wants her roses at the expense of public beds. This is selfish court privilege, not necessarily the laboratory. Odette can dislike it without becoming a revolutionary. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "questDesignBrief": "The queen wants her roses at the expense of public beds. This is selfish court privilege, not necessarily the laboratory. Otone can dislike it without becoming a revolutionary. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
     "onCompleteEffects": [
       {
         "type": "item-add",
@@ -9687,7 +9689,7 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Mirette Aurel",
+    "questSource": "Mirei Asahina",
     "questLocation": "Caelrath Amphitheatre",
     "questStatement": "A performance is due, but the promised wages have not arrived.",
     "objectives": {
@@ -9701,7 +9703,7 @@
       "type": "story",
       "query": "For The Performance Must Be Paid, the participating party has actually done this: Secure the owed wages or an actual agreement the performers freely accept before the show proceeds or is canceled. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
     },
-    "questDesignBrief": "A cancellation can be a legitimate outcome. Do not make the player subsidize the rich patron by default. Elise may help but has her own rehearsal and reputation. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "questDesignBrief": "A cancellation can be a legitimate outcome. Do not make the player subsidize the rich patron by default. Erisa may help but has her own rehearsal and reputation. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
     "onCompleteEffects": [
       {
         "type": "item-add",
@@ -9745,9 +9747,9 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Aveline Marchand",
+    "questSource": "Aoi Matsukura",
     "questLocation": "Adventurer's Guild - Caelrath Branch",
-    "questStatement": "Bronze work: Anaïs needs the orchard's young trees protected from a small pest outbreak. Posted reward: 35 marks.",
+    "questStatement": "Bronze work: Anri needs the orchard's young trees protected from a small pest outbreak. Posted reward: 35 marks.",
     "objectives": {
       "task": {
         "id": "task",
@@ -9780,7 +9782,7 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Aveline Marchand",
+    "questSource": "Aoi Matsukura",
     "questLocation": "Adventurer's Guild - Caelrath Branch",
     "questStatement": "Bronze work: Threadneedle Bakery's storage cellar has a persistent scratching problem. Posted reward: 30 marks.",
     "objectives": {
@@ -9815,9 +9817,9 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Aveline Marchand",
+    "questSource": "Aoi Matsukura",
     "questLocation": "Adventurer's Guild - Caelrath Branch",
-    "questStatement": "Bronze work: Arlette's millrace screen is jammed, and she needs someone who can work safely around water. Posted reward: 40 marks.",
+    "questStatement": "Bronze work: Arisa's millrace screen is jammed, and she needs someone who can work safely around water. Posted reward: 40 marks.",
     "objectives": {
       "task": {
         "id": "task",
@@ -9829,7 +9831,7 @@
       "type": "story",
       "query": "For Guild: The Millrace Screen, the participating party has actually done this: Safely clear the screen and restore the agreed millrace operation. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
     },
-    "questDesignBrief": "Suggested levels 1-5. Water and machinery are the problem; a fight is not required. Do not add an aquatic boss to make a beginner job interesting. Arlette closes the feed before hands go near the gear. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "questDesignBrief": "Suggested levels 1-5. Water and machinery are the problem; a fight is not required. Do not add an aquatic boss to make a beginner job interesting. Arisa closes the feed before hands go near the gear. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
     "onCompleteEffects": [
       {
         "type": "item-add",
@@ -9850,19 +9852,19 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Aveline Marchand",
+    "questSource": "Aoi Matsukura",
     "questLocation": "Adventurer's Guild - Caelrath Branch",
-    "questStatement": "Bronze work: Loïc has a fitted buckle to deliver to the hospice. Posted reward: 25 marks.",
+    "questStatement": "Bronze work: Lachlan has a fitted buckle to deliver to the hospice. Posted reward: 25 marks.",
     "objectives": {
       "task": {
         "id": "task",
-        "text": "Deliver Loïc's correctly identified buckle to the hospice's actual recipient and establish receipt.",
+        "text": "Deliver Lachlan's correctly identified buckle to the hospice's actual recipient and establish receipt.",
         "status": "active"
       }
     },
     "completionCondition": {
       "type": "story",
-      "query": "For Guild: A Parcel over Westbridge, the participating party has actually done this: Deliver Loïc's correctly identified buckle to the hospice's actual recipient and establish receipt. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+      "query": "For Guild: A Parcel over Westbridge, the participating party has actually done this: Deliver Lachlan's correctly identified buckle to the hospice's actual recipient and establish receipt. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
     },
     "questDesignBrief": "Suggested levels 1-4. An ordinary delivery can stay ordinary. A short route choice and an impatient customer provide texture without bandits. No mandatory report beyond proof actually agreed. No badge or key payout. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
     "onCompleteEffects": [
@@ -9885,7 +9887,7 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Aveline Marchand",
+    "questSource": "Aoi Matsukura",
     "questLocation": "Adventurer's Guild - Caelrath Branch",
     "questStatement": "Bronze work: a loose roof tile over Chapel Steps threatens the flower stalls. Posted reward: 45 marks.",
     "objectives": {
@@ -9920,7 +9922,7 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Aveline Marchand",
+    "questSource": "Aoi Matsukura",
     "questLocation": "Adventurer's Guild - Caelrath Branch",
     "questStatement": "Bronze work: a culvert inspection stopped at fresh tracks and an unpleasant smell. Posted reward: 70 marks.",
     "objectives": {
@@ -9955,9 +9957,9 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Aveline Marchand",
+    "questSource": "Aoi Matsukura",
     "questLocation": "Adventurer's Guild - Caelrath Branch",
-    "questStatement": "Bronze work: Bruno needs an old cut checked before any new anchors go in. Posted reward: 80 marks.",
+    "questStatement": "Bronze work: Bunzō needs an old cut checked before any new anchors go in. Posted reward: 80 marks.",
     "objectives": {
       "task": {
         "id": "task",
@@ -9990,7 +9992,7 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Aveline Marchand",
+    "questSource": "Aoi Matsukura",
     "questLocation": "Adventurer's Guild - Caelrath Branch",
     "questStatement": "Bronze work: a damaged service rope has left island supplies waiting on shore. Posted reward: 90 marks.",
     "objectives": {
@@ -10025,7 +10027,7 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Aveline Marchand",
+    "questSource": "Aoi Matsukura",
     "questLocation": "Adventurer's Guild - Caelrath Branch",
     "questStatement": "Silver work: animated waste from a damaged workshop is making an alley unsafe. Posted reward: 130 marks.",
     "objectives": {
@@ -10060,7 +10062,7 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Aveline Marchand",
+    "questSource": "Aoi Matsukura",
     "questLocation": "Adventurer's Guild - Caelrath Branch",
     "questStatement": "Silver work: an intake crew hears movement where nobody should be working. Posted reward: 160 marks.",
     "objectives": {
@@ -10095,7 +10097,7 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Aveline Marchand",
+    "questSource": "Aoi Matsukura",
     "questLocation": "Adventurer's Guild - Caelrath Branch",
     "questStatement": "Silver work: an insured medical load rests in a documented wreck. Posted reward: 190 marks.",
     "objectives": {
@@ -10130,7 +10132,7 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Aveline Marchand",
+    "questSource": "Aoi Matsukura",
     "questLocation": "Adventurer's Guild - Caelrath Branch",
     "questStatement": "Gold work: a recent escort vanished near the outer viaduct. Posted reward: 240 marks.",
     "objectives": {
@@ -10165,7 +10167,7 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Aveline Marchand",
+    "questSource": "Aoi Matsukura",
     "questLocation": "Adventurer's Guild - Caelrath Branch",
     "questStatement": "Gold work: a decommissioned civic ward is resisting dismantling. Posted reward: 280 marks.",
     "objectives": {
@@ -10200,7 +10202,7 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Jeanne Coeur",
+    "questSource": "Juri Kokubu",
     "questLocation": "The Wayfarers' Hostel",
     "questStatement": "Rumor has it the Caelrath guild takes local requests, and several neighbors need a capable pair of hands.",
     "objectives": {
@@ -10222,7 +10224,7 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Camille Vane",
+    "questSource": "Kanae Kazama",
     "questLocation": "Valleygate Lodgings",
     "questStatement": "There are rooms to rent and useful work in the lower wards, if you ask the people who live there.",
     "objectives": {
@@ -10244,7 +10246,7 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Margot Fenn",
+    "questSource": "Maki Fukase",
     "questLocation": "The Common Table",
     "questStatement": "The kitchen needs one ordinary meal brought together before supper.",
     "objectives": {
@@ -10273,7 +10275,7 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Ninon Bell",
+    "questSource": "Nina Suzuhara",
     "questLocation": "Threadneedle Bakery",
     "questStatement": "A delivery note was left in the wrong coat and a customer is waiting.",
     "objectives": {
@@ -10302,9 +10304,9 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Gérald Stone",
+    "questSource": "Gareth Stone",
     "questLocation": "Stonehearth Smithy",
-    "questStatement": "Counterfeit blades are carrying Gérald's maker's mark.",
+    "questStatement": "Counterfeit blades are carrying Gareth's maker's mark.",
     "objectives": {
       "task": {
         "id": "task",
@@ -10316,7 +10318,7 @@
       "type": "story",
       "query": "For An Honest Temper, the participating party has actually done this: Identify the actual copied mark and carry out a real correction, recovery, public warning or enforceable stop. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
     },
-    "questDesignBrief": "There is a dishonest reseller, not an endless forged-weapon factory. Loïc can compare the work. A sound repair must change an actual item, never claim invented bonus upgrades outside native limits. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "questDesignBrief": "There is a dishonest reseller, not an endless forged-weapon factory. Lachlan can compare the work. A sound repair must change an actual item, never claim invented bonus upgrades outside native limits. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
     "onCompleteEffects": [
       {
         "type": "item-add",
@@ -10331,7 +10333,7 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Camille Vane",
+    "questSource": "Kanae Kazama",
     "questLocation": "Valleygate Lodgings",
     "questStatement": "A landlord's agent says everyone must leave for repairs, but no repair crew has been booked.",
     "objectives": {
@@ -10360,7 +10362,7 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Yselle Mornay",
+    "questSource": "Izumi Morikawa",
     "questLocation": "Ivory Guard Barracks",
     "questStatement": "A damaged practice banner has become an argument about whose training group is careless.",
     "objectives": {
@@ -10389,7 +10391,7 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Gaël Sere",
+    "questSource": "Gaku Serizawa",
     "questLocation": "Starwatch Isle",
     "questStatement": "A frightened visitor has been sleeping in an unused shore shelter.",
     "objectives": {
@@ -10403,7 +10405,7 @@
       "type": "story",
       "query": "For The Island Guest, the participating party has actually done this: Establish what help or boundary is actually needed and carry out a humane settlement or safe supported handover. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
     },
-    "questDesignBrief": "The visitor is an adult debtor, not automatically a cultist. Gaël has limited shelter space and is not obliged to hide a dangerous person. Preserve consent, actual wrongdoing and local jurisdiction. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "questDesignBrief": "The visitor is an adult debtor, not automatically a cultist. Gaku has limited shelter space and is not obliged to hide a dangerous person. Preserve consent, actual wrongdoing and local jurisdiction. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
     "onCompleteEffects": [
       {
         "type": "item-add",
@@ -10418,7 +10420,7 @@
     "status": "planned",
     "detailType": "detailed",
     "conclusive": true,
-    "questSource": "Maude Tellier",
+    "questSource": "Moira Bellrock",
     "questLocation": "Saltgull Shipwrights",
     "questStatement": "A rich patron wants a boat signed seaworthy before the work is finished.",
     "objectives": {
@@ -10473,13 +10475,13 @@
   },
   "Guild: Caelrath Licensure": {
     "name": "Guild: Caelrath Licensure",
-    "questSource": "Aveline Marchand",
+    "questSource": "Aoi Matsukura",
     "questLocation": "Adventurer's Guild - Caelrath Branch",
     "detailType": "detailed",
     "status": "planned",
     "questStatement": "The guild accepts martial and magical applicants. Registration opens an assessment; a real pass earns the first Bronze badge.",
     "mainObjective": "Pass the judgment and practical portions, then receive certification at the counter.",
-    "questDesignBrief": "Offer on an actual application, not every first visit. Explain judgment, declared scope, retreat and practical control. Let the applicant use their real trained weapon, body technique, magic or mixed method in a bounded safe exercise; no universal Intelligence test or compulsory spell. A real check and the supplied outcome determine practical success. A capable newcomer may demonstrate competence promptly; failing is a reason to practice, not humiliation or arbitrary detention. Aveline Marchand handles the docket and certification; an appropriate duty assessor may supervise practical work. Personal pass records and the actual issuance trigger control the badge. No starting badge, free weapon, portal key or automatic pass from level. Registration/assessment adds no invented charge. Applicants can postpone or leave.\nThe certification trigger exclusively awards the existing Document Guild Badge: Bronze. Do not also put a badge in generated quest rewards or create a renamed Relic for the same licence.\n\nThe judgment review uses a clearly labeled sample scenario, not a live request from the board. Its fictional client, terms and place do not become a quest, appointment or map destination. State the short example fully and recognize a natural answer that shows scope, ownership and sensible withdrawal; do not demand a repeated three-part recitation after understanding has been demonstrated. The practical is an onsite controlled exercise, not a commissioned repair, delivery or monster hunt. Only the existing licensure quest tracks the exam. Offer real contracts separately after actual licensing or an actual later request. Existing genuine badges are recognized. A partially completed assessment from another branch can be resumed using its actual pass records, without re-awarding an old badge.",
+    "questDesignBrief": "Offer on an actual application, not every first visit. Explain judgment, declared scope, retreat and practical control. Let the applicant use their real trained weapon, body technique, magic or mixed method in a bounded safe exercise; no universal Intelligence test or compulsory spell. A real check and the supplied outcome determine practical success. A capable newcomer may demonstrate competence promptly; failing is a reason to practice, not humiliation or arbitrary detention. Aoi Matsukura handles the docket and certification; an appropriate duty assessor may supervise practical work. Personal pass records and the actual issuance trigger control the badge. No starting badge, free weapon, portal key or automatic pass from level. Registration/assessment adds no invented charge. Applicants can postpone or leave.\nThe certification trigger exclusively awards the existing Document Guild Badge: Bronze. Do not also put a badge in generated quest rewards or create a renamed Relic for the same licence.\n\nThe judgment review uses a clearly labeled sample scenario, not a live request from the board. Its fictional client, terms and place do not become a quest, appointment or map destination. State the short example fully and recognize a natural answer that shows scope, ownership and sensible withdrawal; do not demand a repeated three-part recitation after understanding has been demonstrated. The practical is an onsite controlled exercise, not a commissioned repair, delivery or monster hunt. Only the existing licensure quest tracks the exam. Offer real contracts separately after actual licensing or an actual later request. Existing genuine badges are recognized. A partially completed assessment from another branch can be resumed using its actual pass records, without re-awarding an old badge.",
     "objectives": {
       "judgment": {
         "id": "judgment",

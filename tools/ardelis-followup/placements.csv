@@ -1,0 +1,85 @@
+﻿name,region,x,y,placementStatus,source,sourceRegion
+Opaline Arcade,Violet Market Ward,-34,-16,"Author-corrected Studio export, 5 November",NEW,market
+Velvet Lyre Hall,Eastwater Ward,25,20,"Author-corrected Studio export, 5 November",NEW,east
+Caelrath Sewers,Eastwater Ward,-16,-26,"Author-corrected Studio export, 5 November",NEW,east
+Starfall Cathedral,Starfall Heights,-7,-24,"Author-corrected Studio export, 5 November",chapel,chapel
+Pilgrim's Rest Hospice,Starfall Heights,-29,-22,"Author-corrected Studio export, 5 November",NEW,chapel
+Chapel Steps,Starfall Heights,29,-8,"Author-corrected Studio export, 5 November",NEW,chapel
+Vesper Bell Cloister,Starfall Heights,-5,10,"Author-corrected Studio export, 5 November",NEW,chapel
+Starward Cemetery,Starfall Heights,30,-21,"Author-corrected Studio export, 5 November",NEW,chapel
+Empyrean Archives,Crownwater Terraces,-12,23,"Author-corrected Studio export, 5 November",NEW,nnorth district
+Crownwater Aqueduct,Crownwater Terraces,1,-3,"Author-corrected Studio export, 5 November",NEW,nnorth district
+House Minazuki Estate,Crownwater Terraces,25,1,"Author-corrected Studio export, 5 November",NEW,nnorth district
+The High Reservoir,Crownwater Terraces,36,12,"Author-corrected Studio export, 5 November",NEW,nnorth district
+Royal Hawk Mews,Crownwater Terraces,-39,-2,"Author-corrected Studio export, 5 November",NEW,nnorth district
+Terrace Gardeners' Lodge,Crownwater Terraces,-25,-9,"Author-corrected Studio export, 5 November",NEW,nnorth district
+Caelrath Palace,The Imperial Crown,15,-15,"Author-corrected Studio export, 5 November",Main palace,main palace
+Hall of Mirrors,The Imperial Crown,-37,-44,"Author-corrected Studio export, 5 November",ballroom,main palace
+Royal Petition Court,The Imperial Crown,-9,-12,"Author-corrected Studio export, 5 November",NEW,main palace
+Embassy Residences,Celestial Ward,37,45,"Author-corrected Studio export, 5 November",NEW,main palace
+The Crown Mint,The Imperial Crown,40,-11,"Author-corrected Studio export, 5 November",NEW,main palace
+Ivory Guard Barracks,The Imperial Crown,-27,-8,"Author-corrected Studio export, 5 November",NEW,main palace
+Court Wizard's Spire,High Arcana Ward,-46,-5,"Author-corrected Studio export, 5 November",court wizard spire,norhteast
+Amethyst Intake Works,High Arcana Ward,-12,4,"Author-corrected Studio export, 5 November",NEW,norhteast
+House Kagetsu Residence,High Arcana Ward,6,-42,"Author-corrected Studio export, 5 November",NEW,norhteast
+Skyglass Observatory,High Arcana Ward,-17,31,"Author-corrected Studio export, 5 November",NEW,norhteast
+The Old Receiving House,High Arcana Ward,28,-7,"Author-corrected Studio export, 5 November",NEW,norhteast
+High Arcana Infirmary,High Arcana Ward,-15,-35,"Author-corrected Studio export, 5 November",NEW,norhteast
+Caelrath Courthouse,Westbridge Ward,38,30,"Author-corrected Studio export, 5 November",courthouse,west
+The Silver Baths,Westbridge Ward,36,-39,"Author-corrected Studio export, 5 November",bathhouse,west
+Caelrath Amphitheatre,Westbridge Ward,14,-30,"Author-corrected Studio export, 5 November",NEW,west
+Westbridge Watchhouse,Westbridge Ward,-16,16,"Author-corrected Studio export, 5 November",NEW,west
+The King's Lists,Westbridge Ward,6,-19,"Author-corrected Studio export, 5 November",NEW,west
+Mortar and Moss Apothecary,Westbridge Ward,39,10,"Author-corrected Studio export, 5 November",NEW,west
+Ashwillow Inn,Westbridge Ward,-34,38,"Author-corrected Studio export, 5 November",NEW,west
+House Orselle Salon,Westbridge Ward,38,-26,"Author-corrected Studio export, 5 November",NEW,west
+Violet Canopy Market,Violet Market Ward,-15,7,"Author-corrected Studio export, 5 November",marketplace,market
+The Queen's Watergardens,Violet Market Ward,27,-41,"Author-corrected Studio export, 5 November",big ass garden,market
+The Veiled Oratory,Violet Market Ward,48,-34,"Author-corrected Studio export, 5 November",oracle's place,market
+The Gilt Measure Exchange,Violet Market Ward,14,29,"Author-corrected Studio export, 5 November",NEW,market
+Palewick Bookshop,Violet Market Ward,-34,24,"Author-corrected Studio export, 5 November",NEW,market
+Gilded Vessel Tavern,Violet Market Ward,-36,-35,"Author-corrected Studio export, 5 November",NEW,market
+Bastion and Buckle Armory,Violet Market Ward,26,8,"Author-corrected Studio export, 5 November",NEW,market
+Tern Thread Tailors,Violet Market Ward,10,-1,"Author-corrected Studio export, 5 November",NEW,market
+House Takamine Counting House,Violet Market Ward,-5,41,"Author-corrected Studio export, 5 November",NEW,market
+High Star Square,Celestial Ward,-36,26,"Author-corrected Studio export, 5 November",statue of a celestial,city center
+Caelrath Institute of Magic,Celestial Ward,37,13,"Author-corrected Studio export, 5 November",institute of magic,city center
+Crown Watch Headquarters,Celestial Ward,44,-27,"Author-corrected Studio export, 5 November",guardhouse,city center
+Adventurer's Guild - Caelrath Branch,Celestial Ward,-5,-4,"Author-corrected Studio export, 5 November",NEW,city center
+Civic Records Hall,Celestial Ward,-18,1,"Author-corrected Studio export, 5 November",NEW,city center
+The Brass Hearth Workshop,Celestial Ward,12,-10,"Author-corrected Studio export, 5 November",NEW,city center
+Valleygate Lodgings,Celestial Ward,-35,-34,"Author-corrected Studio export, 5 November",NEW,city center
+Lantern House Theatre,Celestial Ward,12,45,"Author-corrected Studio export, 5 November",NEW,city center
+Eastwater Bonded Warehouse,Eastwater Ward,-27,-36,"Author-corrected Studio export, 5 November",warehouse,east
+Eastwater Locks,Lantern Harbors,-34,47,"Author-corrected Studio export, 5 November",NEW,east
+Riveters' Lane,Eastwater Ward,-2,9,"Author-corrected Studio export, 5 November",NEW,east
+Low Lantern Tenements,Eastwater Ward,7,-2,"Author-corrected Studio export, 5 November",NEW,east
+Sable Ribbon Club,Eastwater Ward,28,31,"Author-corrected Studio export, 5 November",NEW,east
+The Glassworks,Eastwater Ward,5,-19,"Author-corrected Studio export, 5 November",NEW,east
+Eelcatchers' Landing,Eastwater Ward,-42,-9,"Author-corrected Studio export, 5 November",NEW,east
+Windward Mills,Windmill Escarpment,-10,23,"Author-corrected Studio export, 5 November",NEW,outskirts
+Outer Granaries,Windmill Escarpment,-13,45,"Author-corrected Studio export, 5 November",NEW,outskirts
+Orchardgate Hamlet,Windmill Escarpment,41,10,"Author-corrected Studio export, 5 November",NEW,outskirts
+Cliffside Quarry,Windmill Escarpment,-27,-23,"Author-corrected Studio export, 5 November",NEW,outskirts
+The Old Culvert,Kingsward Gate,-37,7,"Author-corrected Studio export, 5 November",NEW,outskirts
+Kingsward Gate,Kingsward Gate,17,7,"Author-corrected Studio export, 5 November",gate,gate
+The Pearl and Thistle,Kingsward Gate,-4,48,"Author-corrected Studio export, 5 November",a parlor? for tea,gate
+Caravan Licensing Yard,Kingsward Gate,31,-11,"Author-corrected Studio export, 5 November",NEW,gate
+Caelrath Portal Hall,Kingsward Gate,35,22,"Author-corrected Studio export, 5 November",NEW,gate
+The Wayfarers' Hostel,Kingsward Gate,-10,-8,"Author-corrected Studio export, 5 November",NEW,gate
+Southbank Homes,Southbank Ward,-13,42,"Author-corrected Studio export, 5 November",residentials,south
+Southbank School,Southbank Ward,-36,33,"Author-corrected Studio export, 5 November",NEW,south
+Threadneedle Bakery,Southbank Ward,3,24,"Author-corrected Studio export, 5 November",NEW,south
+The Common Table,Southbank Ward,24,29,"Author-corrected Studio export, 5 November",NEW,south
+Ropewalk Court,Southbank Ward,-13,21,"Author-corrected Studio export, 5 November",NEW,south
+Stonehearth Smithy,Southbank Ward,9,39,"Author-corrected Studio export, 5 November",NEW,south
+Crown Remand House,Southbank Ward,-29,22,"Author-corrected Studio export, 5 November",NEW,south
+Caelrath Harbor,Lantern Harbors,-28,7,"Author-corrected Studio export, 5 November",harbor,harbor
+Crownlight Lighthouse,Lantern Harbors,20,-16,"Author-corrected Studio export, 5 November",lighthouse,harbor
+The Harbormaster's Lodge,Lantern Harbors,-12,18,"Author-corrected Studio export, 5 November",NEW,harbor
+Saltgull Shipwrights,Lantern Harbors,-7,6,"Author-corrected Studio export, 5 November",NEW,harbor
+The Customs Arcade,Lantern Harbors,-44,-4,"Author-corrected Studio export, 5 November",NEW,harbor
+The Chainbreak Docks,Lantern Harbors,9,17,"Author-corrected Studio export, 5 November",NEW,harbor
+Starwatch Isle,Lantern Harbors,32,-17,"Author-corrected Studio export, 5 November",NEW,harbor
+The Sunken Bell,Lantern Harbors,-39,-33,"Author-corrected Studio export, 5 November",NEW,harbor
+Starward Commandery,Starfall Heights,11,3,"Author-corrected Studio export, 5 November",NEW,chapel

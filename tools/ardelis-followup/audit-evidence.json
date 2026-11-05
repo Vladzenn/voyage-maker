@@ -1,0 +1,341 @@
+{
+  "worldSHA256": "49088ccf50e7f4df2f7e44295681bf0abce9a9e7e79b0877318c3c393a7e46d2",
+  "readOnly": true,
+  "livePlaytest": false,
+  "counts": {
+    "npcs": 519,
+    "locations": 391,
+    "triggers": 547
+  },
+  "creation": {
+    "appearance": {
+      "root": 0,
+      "subcategories": 171,
+      "rootOnly": [],
+      "undefined": []
+    },
+    "equipment": {
+      "root": 46,
+      "subcategories": 40,
+      "rootOnly": [
+        "Yari Road Kit",
+        "Naginata Practice Kit",
+        "Yumi Road Kit",
+        "Watch Hook Kit",
+        "Reinforced Fan Kit",
+        "Shrine Staff Kit"
+      ],
+      "undefined": []
+    },
+    "strawberry": {
+      "name": "Strawberry Blond",
+      "description": "",
+      "traitNarrativeEffects": "",
+      "requirements": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "skills": [],
+      "attributes": [],
+      "resources": [],
+      "abilities": [],
+      "startingItems": []
+    },
+    "toughSkinned": {
+      "name": "Tough Skinned",
+      "description": "Increase maximum Health by 50.",
+      "traitNarrativeEffects": "",
+      "skills": [],
+      "attributes": [],
+      "resources": [
+        {
+          "resource": "Health",
+          "modifier": 50
+        }
+      ],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 10
+        }
+      ]
+    }
+  },
+  "questActivation": [
+    {
+      "name": "The Cost of a Courtyard",
+      "status": "hidden",
+      "explicitReferences": []
+    },
+    {
+      "name": "One Honest Demonstration",
+      "status": "hidden",
+      "explicitReferences": []
+    },
+    {
+      "name": "The Ledger and the Soup",
+      "status": "hidden",
+      "explicitReferences": []
+    },
+    {
+      "name": "A Patient Distance",
+      "status": "hidden",
+      "explicitReferences": []
+    },
+    {
+      "name": "The Bow That Will Not Settle",
+      "status": "hidden",
+      "explicitReferences": []
+    },
+    {
+      "name": "The Oven and the Boundary",
+      "status": "hidden",
+      "explicitReferences": []
+    },
+    {
+      "name": "The Archive Has Two Dates",
+      "status": "hidden",
+      "explicitReferences": []
+    },
+    {
+      "name": "The Last Dry Platform",
+      "status": "hidden",
+      "explicitReferences": []
+    },
+    {
+      "name": "The Name on the Parcel",
+      "status": "hidden",
+      "explicitReferences": []
+    },
+    {
+      "name": "Expedition: The Bamboo Method",
+      "status": "hidden",
+      "explicitReferences": []
+    },
+    {
+      "name": "Expedition: A Reed Bell's Answer",
+      "status": "hidden",
+      "explicitReferences": []
+    },
+    {
+      "name": "An Unmarked Parcel",
+      "status": "hidden",
+      "explicitReferences": []
+    },
+    {
+      "name": "The Wrong Water Seal",
+      "status": "hidden",
+      "explicitReferences": []
+    }
+  ],
+  "registry": {
+    "studyWording": [
+      {
+        "tick": 10,
+        "focused": 10,
+        "registered": true
+      },
+      {
+        "tick": 11,
+        "focused": 10,
+        "registered": true
+      },
+      {
+        "tick": 12,
+        "focused": 10,
+        "registered": true
+      },
+      {
+        "tick": 13,
+        "focused": 10,
+        "registered": true
+      },
+      {
+        "tick": 14,
+        "focused": 10,
+        "registered": true
+      },
+      {
+        "tick": 15,
+        "focused": 10,
+        "registered": true
+      },
+      {
+        "tick": 16,
+        "focused": 10,
+        "registered": true
+      },
+      {
+        "tick": 17,
+        "focused": 10,
+        "registered": true
+      },
+      {
+        "tick": 18,
+        "focused": null,
+        "registered": false
+      }
+    ],
+    "continueWording": [
+      {
+        "tick": 10,
+        "focused": 10,
+        "registered": true
+      },
+      {
+        "tick": 11,
+        "focused": 11,
+        "registered": true
+      },
+      {
+        "tick": 12,
+        "focused": 12,
+        "registered": true
+      },
+      {
+        "tick": 13,
+        "focused": 13,
+        "registered": true
+      },
+      {
+        "tick": 14,
+        "focused": 14,
+        "registered": true
+      },
+      {
+        "tick": 15,
+        "focused": 15,
+        "registered": true
+      },
+      {
+        "tick": 16,
+        "focused": 16,
+        "registered": true
+      },
+      {
+        "tick": 17,
+        "focused": 17,
+        "registered": true
+      },
+      {
+        "tick": 18,
+        "focused": 18,
+        "registered": true
+      }
+    ],
+    "tickZero": [
+      {
+        "tick": 0,
+        "focused": 0,
+        "registered": true
+      },
+      {
+        "tick": 1,
+        "focused": null,
+        "registered": false
+      },
+      {
+        "tick": 2,
+        "focused": null,
+        "registered": false
+      },
+      {
+        "tick": 3,
+        "focused": null,
+        "registered": false
+      },
+      {
+        "tick": 4,
+        "focused": null,
+        "registered": false
+      },
+      {
+        "tick": 5,
+        "focused": null,
+        "registered": false
+      },
+      {
+        "tick": 6,
+        "focused": null,
+        "registered": false
+      },
+      {
+        "tick": 7,
+        "focused": null,
+        "registered": false
+      },
+      {
+        "tick": 8,
+        "focused": null,
+        "registered": false
+      }
+    ]
+  },
+  "board": [
+    {
+      "text": "Show me the board.",
+      "skipped": false,
+      "offered": [
+        "Guild: Rats in the Cellar",
+        "Guild: A Parcel for the Bazaar"
+      ]
+    },
+    {
+      "text": "Okay, show me the board.",
+      "skipped": true,
+      "offered": []
+    }
+  ],
+  "equipment": [
+    {
+      "name": "Starward Shield",
+      "category": "Armor",
+      "slot": null,
+      "bonuses": [
+        {
+          "type": "stat",
+          "variable": "armor",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "Violet Weather Cloak",
+      "category": "Armor",
+      "slot": null,
+      "bonuses": [
+        {
+          "type": "stat",
+          "variable": "armor",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "Takamine Travel Case",
+      "category": "Armor",
+      "slot": null,
+      "bonuses": [
+        {
+          "type": "stat",
+          "variable": "armor",
+          "value": 3
+        }
+      ]
+    }
+  ],
+  "emptyRegions": [
+    {
+      "name": "Longgrass Meadows",
+      "locations": 0
+    },
+    {
+      "name": "Sunmead Plain",
+      "locations": 0
+    }
+  ],
+  "note": "Semantic answers are not simulated. These are static facts and isolated emitted-script observations; they do not establish live engine scheduling or UI behavior."
+}

@@ -1,0 +1,743 @@
+{
+  "Valkazathoth'dmir": {
+    "file": "world-draft/npc portraits/Ardelis/Valkazathoth'dmir.png",
+    "sha256": "37eb51d30e0d882dd02ed6df0147535ff07fb629394a457102931acca32999d4",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-2fd2ba0c-e0e5-41ab-9e43-f865249ff841.png"
+  },
+  "Reiko Shirogane": {
+    "file": "world-draft/npc portraits/Ardelis/Reiko Shirogane.png",
+    "sha256": "fb6ad99de141e8ddbf6f19ad34f17111ce4345465a932e1f5030964d4022feec",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-e7c25038-243c-458c-aaf8-b5ce02a72dfb.png"
+  },
+  "Yurika Shirogane": {
+    "file": "world-draft/npc portraits/Ardelis/Yurika Shirogane.png",
+    "sha256": "b9049d33951cb19a2227e054e4e846d5cab18d13a93d85ce2cdeb2bd730b8206",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-63ded558-c4d1-4945-9d17-d4a90486ec6b.png"
+  },
+  "Mio Shirogane": {
+    "file": "world-draft/npc portraits/Ardelis/Mio Shirogane.png",
+    "sha256": "cee9548ea50bf3ca6e9a4dc523d537e8e1981e4a654c41fa35afbde74d44777b",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-e660c5a5-f1aa-4ccb-ab5a-25060a0de62c.png"
+  },
+  "Ayame Shirogane": {
+    "file": "world-draft/npc portraits/Ardelis/Ayame Shirogane.png",
+    "sha256": "1c1108969842accb7105a4aabf77ff13e28862e2e5e228bb3130c46f37787aac",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-5d7aae63-e8c8-4b58-bb85-0243991cc0ac.png"
+  },
+  "Noelle Ashford": {
+    "file": "world-draft/npc portraits/Ardelis/Noelle Ashford.png",
+    "sha256": "acf1b8e0a0c4bbb81a1c0841717bbbdd08854028e26098c77a2d667a1baf7c39",
+    "generationPasses": 4,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-58256cb6-fefd-43fa-a847-47a42ca10108.png",
+    "revisionAuthority": "Three explicit author revisions in this chat; final: hands down, no weapons, hand caster, direct camera gaze.",
+    "supersededOriginal": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-b7cbce45-28f4-4eaa-a0f6-eea2f2775142.png"
+  },
+  "Thaurivex": {
+    "file": "world-draft/npc portraits/Ardelis/Thaurivex.png",
+    "sha256": "89986d159f6aedda50ac85aa8347aa8233173a0fc7a319a5b0324967e8a05326",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-9fbfbbab-621d-4d7b-9f54-c8988ef13cc8.png"
+  },
+  "Seijirō Kurotani": {
+    "file": "world-draft/npc portraits/Ardelis/Seijirō Kurotani.png",
+    "sha256": "735d7761ea7c7de97c7cd916ed9ef767e25401507f2b7d104c1c506e63bfbb7e",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-eea17e0e-aa22-4286-80fc-c13a159f4879.png"
+  },
+  "Hidetaka Minazuki": {
+    "file": "world-draft/npc portraits/Ardelis/Hidetaka Minazuki.png",
+    "sha256": "8e5a96e95bcbb273d11c0835dd1756a1c0c143767ff70f7caa69b77734a2e330",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-54ecb990-a1af-4be8-848a-70253a9a172f.png"
+  },
+  "Junko Takamine": {
+    "file": "world-draft/npc portraits/Ardelis/Junko Takamine.png",
+    "sha256": "84c7279fe2ad2f041f29ce56fc35ed19a20961f91122a02ca462aaf9838eaf96",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-0e65d55c-cea6-4543-be72-22f0aa3b56cd.png"
+  },
+  "Arata Kagetsu": {
+    "file": "world-draft/npc portraits/Ardelis/Arata Kagetsu.png",
+    "sha256": "69bad57a7ef150774c462f59da8df7e1046705ab1eab958e745ac2fc355765ef",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-cf55f78a-b0f9-44b9-a08b-5a0b83c7388a.png"
+  },
+  "Mireille Orselle": {
+    "file": "world-draft/npc portraits/Ardelis/Mireille Orselle.png",
+    "sha256": "7bea8d7e33caebfa7e9a52e9e1274837dced4e215940f76c08ea209e9bc4b146",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-f827f658-54e5-4642-9570-468ca328e515.png"
+  },
+  "Masafumi Hoshimi": {
+    "file": "world-draft/npc portraits/Ardelis/Masafumi Hoshimi.png",
+    "sha256": "fc3c17519809bf70314a4ec06f6ce14acbdb2face4e73d50a733afa071d199a2",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-938a1d9e-7929-48de-b380-a1aa4ca17bbf.png"
+  },
+  "Saeko Murasame": {
+    "file": "world-draft/npc portraits/Ardelis/Saeko Murasame.png",
+    "sha256": "903ea6232ddfdf36adab0673e80f09d4bc4d49ab978a558fac0c2efb996b992e",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-b9fa3a2f-ebd9-44ac-bf7a-68907a74a67e.png"
+  },
+  "Renji Tsukishiro": {
+    "file": "world-draft/npc portraits/Ardelis/Renji Tsukishiro.png",
+    "sha256": "00d72b2f52dbd92edf17d44a3ee77023e2bdddb430d3bac89fc25f951e2a4801",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-354d3ece-8b53-42c5-a193-0600f797904e.png"
+  },
+  "Aoi Matsukura": {
+    "file": "world-draft/npc portraits/Ardelis/Aoi Matsukura.png",
+    "sha256": "eeffbcc501820f685a016b91f8678e8dead79638e70d0907b80ea5e57069cf58",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-b7120c00-ad4f-499f-b911-47c2252568d4.png"
+  },
+  "Daigo Ishimine": {
+    "file": "world-draft/npc portraits/Ardelis/Daigo Ishimine.png",
+    "sha256": "7fcd56b112aaa12d419ca3cb5a8b0c357c16e00205909861b95553c2ac244d1f",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-4dfcf22c-cbba-43dc-b3d7-79e3dc8950f0.png"
+  },
+  "Natsume Kazahaya": {
+    "file": "world-draft/npc portraits/Ardelis/Natsume Kazahaya.png",
+    "sha256": "acb4098d506bcd4246e1eb22c5f85a18904bb569a8da3cc4dcd4761373c6ca87",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-93814d28-525e-4b0e-aec8-11457e930bea.png"
+  },
+  "Koharu Mizuse": {
+    "file": "world-draft/npc portraits/Ardelis/Koharu Mizuse.png",
+    "sha256": "9fd2fef89c00c83c242dfdb4b6294142ac73af8609637f4c1f9c05c5778b3f3b",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-4db052a8-841b-4834-96c4-d8c9975f5d3a.png"
+  },
+  "Shūgo Takashiro": {
+    "file": "world-draft/npc portraits/Ardelis/Shūgo Takashiro.png",
+    "sha256": "2a8c27dcd0f2dbbb253e7556b4465696783227de115eeb2c7d854d132d0ac5d1",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-049b6391-2e3d-43ae-b846-25f62a78a647.png"
+  },
+  "Akihiro Kanzaki": {
+    "file": "world-draft/npc portraits/Ardelis/Akihiro Kanzaki.png",
+    "sha256": "8f114ef1f70e328c4ee9574685dd9167ccf18c82d34b7564c61bcf2390c9c00e",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-57738be7-001b-4bbc-b56a-16b915a62555.png"
+  },
+  "Serika Tōgane": {
+    "file": "world-draft/npc portraits/Ardelis/Serika Tōgane.png",
+    "sha256": "ff4cf8f0a88ecdf224224f9a7a43e02924d5739809ebeeab6e58ceadbd02cf14",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-6c6aade6-6126-44a6-bb2c-0434e182d3af.png"
+  },
+  "Osamu Narusawa": {
+    "file": "world-draft/npc portraits/Ardelis/Osamu Narusawa.png",
+    "sha256": "0de8114d7a07980356daa73c6bf79c0f757f96761c0f1f14d44cd1f7dbf324ae",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-43e69b06-c015-4805-8426-7021e98a525b.png"
+  },
+  "Kenzō Shirogane": {
+    "file": "world-draft/npc portraits/Ardelis/Kenzō Shirogane.png",
+    "sha256": "1952336c8e4ec9cc8dba0e89767f1c3c830499eb47bc9c1eafbd56eb51b60c7b",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-6dd4ea23-0c38-4b3f-b8ae-d47d9dcc8667.png"
+  },
+  "Sibylle Opal": {
+    "file": "world-draft/npc portraits/Ardelis/Sibylle Opal.png",
+    "sha256": "fea85dafdd75d682f146b6b76d6a603c7091930b24a63e3bce594866c3523168",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-c29108b6-5d11-4f8c-a1c4-178138a28560.png"
+  },
+  "Benika Nerikawa": {
+    "file": "world-draft/npc portraits/Ardelis/Benika Nerikawa.png",
+    "sha256": "bfda65418de3461e80b80853cda78406c53a8b619930a1ffc2e89463099f0b68",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-aea34716-f80e-4cf8-8189-b2344049f2f1.png"
+  },
+  "Ryōta Utagawa": {
+    "file": "world-draft/npc portraits/Ardelis/Ryōta Utagawa.png",
+    "sha256": "1a4e79811fa21f935314803d659a9c298c318afbc54e8bba79fc1efc3c199810",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-d3d90902-202f-490a-9f56-e05aa617a498.png"
+  },
+  "Aguri Sunaga": {
+    "file": "world-draft/npc portraits/Ardelis/Aguri Sunaga.png",
+    "sha256": "b76307b740cf5dc47b1cfd6e45c6759b5ae977818397d517f1d90bfb1c5e16c9",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-667d7b10-7aec-41a0-b3ed-be690618ebc7.png"
+  },
+  "Otone Shiramine": {
+    "file": "world-draft/npc portraits/Ardelis/Otone Shiramine.png",
+    "sha256": "895329603d0258104d81f439c709845efcf6363c6fd80602511bf3ae89d739d8",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-23634eed-4017-4351-8cc5-9e37896a9c4f.png"
+  },
+  "Keisuke Fujisaki": {
+    "file": "world-draft/npc portraits/Ardelis/Keisuke Fujisaki.png",
+    "sha256": "78fde49efd7964c21ece5e2f7fdd0afbeb3ab9d94062b9f680ced250a1fd51f4",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-2418cb84-9a2f-49ca-9452-fcef695f6c6b.png"
+  },
+  "Koyomi Makino": {
+    "file": "world-draft/npc portraits/Ardelis/Koyomi Makino.png",
+    "sha256": "a70e29029ff6cdfea8811f1609123b1118f8107e89032eacfd5e927768112473",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-e331f7a8-f29b-4687-87f0-0a08132cc29d.png"
+  },
+  "Eita Akaba": {
+    "file": "world-draft/npc portraits/Ardelis/Eita Akaba.png",
+    "sha256": "b90cf0d24eb6b95255bc243c5b8330b1d467467ebfbedcb9ed9ffabcd44f3921",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-891e7ca7-107d-489a-9e00-48256bbb04d2.png"
+  },
+  "Madelon Vire": {
+    "file": "world-draft/npc portraits/Ardelis/Madelon Vire.png",
+    "sha256": "6158802960d227ae8178b038942e9afcc8b9af232ff908ffc0529cf01f8169a3",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-b976c014-39fb-4447-bd53-49762635f11f.png"
+  },
+  "Suzune Arataki": {
+    "file": "world-draft/npc portraits/Ardelis/Suzune Arataki.png",
+    "sha256": "a104058defc718f814b9b83522dbc1b0b162ff68720b6ea0bf48c52a83e61b69",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-8f0e8796-e2af-4307-b06c-ebbec2140fdb.png"
+  },
+  "Masaki Fushimi": {
+    "file": "world-draft/npc portraits/Ardelis/Masaki Fushimi.png",
+    "sha256": "3f96be20bf2c88ac060965250ca3076e8ce094b726a14f57a00d0e47f01092ba",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-50009fb2-af2d-4aee-8d60-c0f0e019994d.png"
+  },
+  "Ruri Minazuki": {
+    "file": "world-draft/npc portraits/Ardelis/Ruri Minazuki.png",
+    "sha256": "b6872f1ab83bb3d96ed6388735501d38120bb9d71d8f1c6ac432bf3f6663aa85",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-f9412c40-86f2-41ab-bad6-215a3512d027.png"
+  },
+  "Ren Wakabayashi": {
+    "file": "world-draft/npc portraits/Ardelis/Ren Wakabayashi.png",
+    "sha256": "4874bdb1d7c8dc8edddfaeea174226b7d0bb8d34ecd81068d94640b056072ac5",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-b3bb8a2b-aa14-49d5-b6f5-3c4369ab81b0.png"
+  },
+  "Akiha Saegusa": {
+    "file": "world-draft/npc portraits/Ardelis/Akiha Saegusa.png",
+    "sha256": "dc017b61bd94cd38f85756c12a1333bc07ab2f2ad2b7c752a56f2f097988e347",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-efad7f13-0e26-467e-8078-821df805ccb7.png"
+  },
+  "Brenna Blackwood": {
+    "file": "world-draft/npc portraits/Ardelis/Brenna Blackwood.png",
+    "sha256": "e112e24a82988d4b440bbf0cd2d1a264627ac26e84f873aa21b08681489f1cce",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-d9796e6c-7b54-4046-9ece-861cbc8545bf.png"
+  },
+  "Maiko Dōjima": {
+    "file": "world-draft/npc portraits/Ardelis/Maiko Dōjima.png",
+    "sha256": "2397727218fa849fce97219b5af2c7a453ed6baed9c7948949d0ef0a110e979e",
+    "generationPasses": 2,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-32df5529-5a25-4aa1-856b-f4135cff2045.png",
+    "previousSelection": {
+      "sha256": "dea0fc08faa8538f88408ea17773e76ecff8b35f9e17923f8303429ac0c1cc3d",
+      "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-a00d3b0f-ed03-414e-ad4a-ee08b8363f75.png"
+    },
+    "authorRequestedReplacement": true
+  },
+  "Erisa Hanabusa": {
+    "file": "world-draft/npc portraits/Ardelis/Erisa Hanabusa.png",
+    "sha256": "6f44843679d3e9e1f39dbe0e467be66072360bba2da44f0119be2d4ff36aafce",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-20a1490d-1f5a-45f3-9658-ae7434b95292.png"
+  },
+  "Akito Kagetsu": {
+    "file": "world-draft/npc portraits/Ardelis/Akito Kagetsu.png",
+    "sha256": "8eb45317214622bcf30f69ddf24f6ef982cc6402b9cde04f623f25df17f4af29",
+    "generationPasses": 2,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-55753bf4-0e51-4fe0-a9b9-809f7237c44e.png",
+    "authorRequestedReplacement": true,
+    "replacementReason": "Author approved one fresh replacement after Voyage rejected the first image.",
+    "previousSelection": {
+      "file": "world-draft/npc portraits/Ardelis/Akito Kagetsu.png",
+      "sha256": "2d27eb523a44e07d4439e00934abd0ea105eb4de7a745078cace4961baacb2c0",
+      "generationPasses": 1,
+      "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-caa30731-2f35-45dc-918e-10b2e2e06787.png"
+    }
+  },
+  "Fumiko Sawatari": {
+    "file": "world-draft/npc portraits/Ardelis/Fumiko Sawatari.png",
+    "sha256": "836b2c6f6c551cf00ad14f3b97701c54468a6efac2d2032348d15b0f6fc18bd4",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-5848e4fe-3b58-4a5e-99b4-bd70201582a1.png"
+  },
+  "Harunobu Shirosaki": {
+    "file": "world-draft/npc portraits/Ardelis/Harunobu Shirosaki.png",
+    "sha256": "08669c9a65132d9c05d53df595f3133fb991aa3202c02a458415d5344e9b01a4",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-00d098cf-b90a-47f4-a6ce-3831a333dd31.png"
+  },
+  "Gavin Hallow": {
+    "file": "world-draft/npc portraits/Ardelis/Gavin Hallow.png",
+    "sha256": "f984ba207dc4146e4fc8b94d175e8cb66532311f95de1eeb330876599ea024f3",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-c415d581-ae31-410e-aee1-ed867a88a580.png"
+  },
+  "Izumi Morikawa": {
+    "file": "world-draft/npc portraits/Ardelis/Izumi Morikawa.png",
+    "sha256": "c74122314acb36698348ef48e260b54a56066c227efc3ce6858429a6995e4714",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-cdb26168-22ac-4322-964d-af1e3f01bb91.png"
+  },
+  "Fūma Someya": {
+    "file": "world-draft/npc portraits/Ardelis/Fūma Someya.png",
+    "sha256": "fda152b6a24e02c8f981b84aa3b3e2366448be373dd1622f5ba164504efc34b4",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-ee50f9bb-d624-4097-8cc1-d88524687013.png"
+  },
+  "Anzu Hanezaki": {
+    "file": "world-draft/npc portraits/Ardelis/Anzu Hanezaki.png",
+    "sha256": "3be8a91499eae5766b6d1c4fae445f46ecaf2eef39da6713c7a049cbb8bba0e8",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-8e95ea82-3179-45b8-a182-48c1eea5cc8a.png"
+  },
+  "Eiichi Sakuraba": {
+    "file": "world-draft/npc portraits/Ardelis/Eiichi Sakuraba.png",
+    "sha256": "b0cf6d1b46b1e4c55bb39e0e9ca5610cf880eae4038e5b5de40f43e65c1f4e77",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-4e024b4e-d626-4965-b605-3943e95b99c0.png"
+  },
+  "Nanami Kurebayashi": {
+    "file": "world-draft/npc portraits/Ardelis/Nanami Kurebayashi.png",
+    "sha256": "c31f5fa2b67aac8f475f2af882da43d7cacd5e7a785b81d44b9e4c3778806313",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-cbe02728-55e2-4e65-8dc4-8e44442ee41d.png"
+  },
+  "Tetsurō Kuranaga": {
+    "file": "world-draft/npc portraits/Ardelis/Tetsurō Kuranaga.png",
+    "sha256": "663372f7573f9edf95eef2defc7749f029e04a164d36b64f05705a1f972d373e",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-76bd68c2-d116-49d8-b6d9-bae82dbb9085.png"
+  },
+  "Harue Wada": {
+    "file": "world-draft/npc portraits/Ardelis/Harue Wada.png",
+    "sha256": "b1a14d66131a4a908157a0ee082063624bd5d68fe577fd1a25a994e5b60065dc",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-dfb08af1-a3d7-4f30-93b7-4e54f514024a.png"
+  },
+  "Kōhei Daitō": {
+    "file": "world-draft/npc portraits/Ardelis/Kōhei Daitō.png",
+    "sha256": "c9e788727901f3463bf209810ffaaab7436b86c2332a615467503c00a661bc5f",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-185997cb-f60b-452f-af5b-3294ebc4524a.png"
+  },
+  "Mirei Asahina": {
+    "file": "world-draft/npc portraits/Ardelis/Mirei Asahina.png",
+    "sha256": "cc6f9252cd7d99fbe381add4fcceaf86ac4c30a42e72c7ec6284c88f62b995f1",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-73ee0db2-75be-489e-994e-d16540f1ff67.png"
+  },
+  "Jōji Aramaki": {
+    "file": "world-draft/npc portraits/Ardelis/Jōji Aramaki.png",
+    "sha256": "cbded9baffcbfe1f8280550a12f45f6e0cd2bd92b46b794dfd57db0f8d657572",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-e6d241d3-4200-4e0f-bc2b-5e929e0c497b.png",
+    "authorRestoredPrevious": true,
+    "unusedReplacement": {
+      "file": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-f9182423-7fb0-487b-a5ba-a5db59f96fc3.png",
+      "reason": "Wrong NPC was targeted; author restored first selection."
+    }
+  },
+  "Kaede Hanamura": {
+    "file": "world-draft/npc portraits/Ardelis/Kaede Hanamura.png",
+    "sha256": "b8fae4a2343df06fbad0608955f89843b88101b939d2be80c02fe94e44ebb5db",
+    "generationPasses": 2,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-ac84a1a2-33bc-4f79-9376-3a03f05a5cc9.png",
+    "authorRequestedReplacement": true,
+    "replacementReason": "Author identified the white-haired Black rapier user and requested correction of the weapon and pose.",
+    "previousSelection": {
+      "file": "world-draft/npc portraits/Ardelis/Kaede Hanamura.png",
+      "sha256": "badd9ae0c7a0d20403ea2ef22da7f0382059ba8a4b848c21997d9935fcd70f43",
+      "generationPasses": 1,
+      "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-a871eff0-653c-4605-8a75-900c104ae475.png"
+    }
+  },
+  "Edmée Mott": {
+    "file": "world-draft/npc portraits/Ardelis/Edmée Mott.png",
+    "sha256": "d85e043a9495342b19b5d743d722d3a05d5d4c32bd6fc3b4bf92a49cc246609f",
+    "generationPasses": 2,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-7bc738ce-9ec2-436c-99e3-4bcfd4d713af.png",
+    "authorRequestedReplacement": true,
+    "replacementReason": "Author selected this exact elf portrait and requested a more interesting angled pose.",
+    "previousSelection": {
+      "file": "world-draft/npc portraits/Ardelis/Edmée Mott.png",
+      "sha256": "380f1dfc2386ec3130efcded5c0be6e710044cb5201d69a26201a6eb7629c609",
+      "generationPasses": 1,
+      "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-f451d7df-3928-4040-8919-c9007358c03b.png"
+    }
+  },
+  "Fuyuki Bannai": {
+    "file": "world-draft/npc portraits/Ardelis/Fuyuki Bannai.png",
+    "sha256": "3d82310bfae15df839c6cacd3745255e69f998614c4a2c798caf59f0716bf830",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-17383efd-6cb9-4dd8-b000-af2135caa991.png"
+  },
+  "Isaline Orselle": {
+    "file": "world-draft/npc portraits/Ardelis/Isaline Orselle.png",
+    "sha256": "e8f1acc9f588453f5f59ff52ff64c096d50c03d188c4df6fe7bf895c98807fad",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-e16d461d-d1a8-450a-b8ba-51f931e705dd.png"
+  },
+  "Risa Haneda": {
+    "file": "world-draft/npc portraits/Ardelis/Risa Haneda.png",
+    "sha256": "65b01bdbc2d4961fd196c315b60bb9a6cf28920c2476ad65a7bb7bb2cdcc2ac1",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-411e0434-c4f0-4795-8813-edba3b909b23.png"
+  },
+  "Kiyotaka Sasahara": {
+    "file": "world-draft/npc portraits/Ardelis/Kiyotaka Sasahara.png",
+    "sha256": "946ebbda89b748b5938aa87c20a32ebff8d339d5994df584dcbcebdb0053a500",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-feaba19e-c17d-48ce-ac87-a5492d7ea999.png"
+  },
+  "Sumire Senba": {
+    "file": "world-draft/npc portraits/Ardelis/Sumire Senba.png",
+    "sha256": "12932d6e2d4a3051ba53fe31a764a5155b2ad7de82a89e9a3e3124257294fc7c",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-d184968f-46bc-4926-b32b-096114bc576e.png"
+  },
+  "Emi Sunahara": {
+    "file": "world-draft/npc portraits/Ardelis/Emi Sunahara.png",
+    "sha256": "6e1b74e8153dc74006e4d934cd1ff5bd4476617d9066c5f5126d3c488a4688d7",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-5545c2c0-846a-4c7e-8579-080387013cb0.png"
+  },
+  "Fumihiro Yorita": {
+    "file": "world-draft/npc portraits/Ardelis/Fumihiro Yorita.png",
+    "sha256": "cb6866a1c431be796cfc2b725b447e1482cb344ea252615e17bd3db7e4e06ae7",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-4336d1c4-aad8-42bc-99cf-24806810aa25.png"
+  },
+  "Lachlan Ferrick": {
+    "file": "world-draft/npc portraits/Ardelis/Lachlan Ferrick.png",
+    "sha256": "e30a47d4bbf820c575dfbf8cb52b2ba3ad884ac7a0971bd3095228a2bd0fbb76",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-028cc2be-8535-40c4-8d22-b4130f23fea0.png"
+  },
+  "Aina Teraoka": {
+    "file": "world-draft/npc portraits/Ardelis/Aina Teraoka.png",
+    "sha256": "c05c29d9892eb7a74c0e95a99dc883e32be5555a50e30214c9bdb5282813ad77",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-54dce00c-9848-456d-86b8-968752faca83.png"
+  },
+  "Masaru Takamine": {
+    "file": "world-draft/npc portraits/Ardelis/Masaru Takamine.png",
+    "sha256": "58457a3d7cda357476b8a72667b6f30585be1b0bf5ef6f2aac5c0ed6208cc79d",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-0b0f80bf-8e68-4f29-acd4-72689dc23aab.png"
+  },
+  "Chihiro Shimizu": {
+    "file": "world-draft/npc portraits/Ardelis/Chihiro Shimizu.png",
+    "sha256": "c6488625030e6ffcba222757c9e48533be4a392d7cea1ce3e1a39adf2132a62e",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-67b1457a-5a7c-4a96-bd96-0e0917781113.png"
+  },
+  "Naoya Nakashima": {
+    "file": "world-draft/npc portraits/Ardelis/Naoya Nakashima.png",
+    "sha256": "2428897ef18c67982054e4a35872a56bac6259853e11436405057407323fac14",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-a32eb618-cd76-4559-b411-e08ef7ceab38.png"
+  },
+  "Rena Someya": {
+    "file": "world-draft/npc portraits/Ardelis/Rena Someya.png",
+    "sha256": "a956984adf841ed66980897b2794d937cebad6c85467c5e112f147dab2fdf39a",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-c16565a2-938f-40d8-9dd8-4682b3a227a5.png"
+  },
+  "Daisaku Hanekawa": {
+    "file": "world-draft/npc portraits/Ardelis/Daisaku Hanekawa.png",
+    "sha256": "a4f3304cb97d6affea4d52271c16e75775a0c24b08f78b8950de9a5ecdfc39f3",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-b667ab00-8d43-4c74-a087-88745c1aecb3.png"
+  },
+  "Genzō Kusunose": {
+    "file": "world-draft/npc portraits/Ardelis/Genzō Kusunose.png",
+    "sha256": "92c409d5fcd7733b77cea90eb06be9a26e9255f81cc612519f9c7ea6456aa7f9",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-8afe25d9-651c-4998-bfbc-ad89a5f67a67.png"
+  },
+  "Mitsue Sawada": {
+    "file": "world-draft/npc portraits/Ardelis/Mitsue Sawada.png",
+    "sha256": "b7cd2500348c7afacfcb36aabb6a0d76023ae6abe684b072236ad5360f87b8c2",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-7e33f889-262d-44ce-93b0-82cac8577c18.png"
+  },
+  "Otoya Suzukawa": {
+    "file": "world-draft/npc portraits/Ardelis/Otoya Suzukawa.png",
+    "sha256": "f2266ab087503846c7dbd6da0c7b1683257d1469642b50479e19c3cb43986b48",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-2fd98068-d07f-4a3b-ac44-b7dc3c151ca1.png",
+    "ledgerReconciled": true
+  },
+  "Ivor Briar": {
+    "file": "world-draft/npc portraits/Ardelis/Ivor Briar.png",
+    "sha256": "2bf9e57d988c7acbd10011e6165af80d2ac2fb394a0377240d6ae3ffcde745df",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-305fc6c9-9ff9-4795-a3e0-22b80a94cb98.png"
+  },
+  "Kanae Kazama": {
+    "file": "world-draft/npc portraits/Ardelis/Kanae Kazama.png",
+    "sha256": "9233459ac30e07392f35b5d19d00203fe4a74cbfcf0e82319d174cf36c00308f",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-8567c778-e214-42ce-98b5-2afe0f7f6122.png"
+  },
+  "Kiri Fuyuzono": {
+    "file": "world-draft/npc portraits/Ardelis/Kiri Fuyuzono.png",
+    "sha256": "110c180b5b7aec381fc376a34850f957e8947578afd0b7cf1163d3b8df961cb6",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-11ce8b31-23c0-4c80-955d-6c00601e01b6.png"
+  },
+  "Tadashi Morishita": {
+    "file": "world-draft/npc portraits/Ardelis/Tadashi Morishita.png",
+    "sha256": "73aa69d9956aac2f9364f0e272daad7e0cab2ff653406409ec51a115de2561db",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-55457669-17fd-4454-806b-4828b8318acc.png"
+  },
+  "Naoki Tachibana": {
+    "file": "world-draft/npc portraits/Ardelis/Naoki Tachibana.png",
+    "sha256": "a6fb6f7946904d1c89db56fc80f95165fd73d1f23d271dbef0b2f1a722c2592b",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-a45adb5a-4c73-4806-9695-9280b94f01fd.png"
+  },
+  "Yukie Maruyama": {
+    "file": "world-draft/npc portraits/Ardelis/Yukie Maruyama.png",
+    "sha256": "00b4a4713f5e442eb55915f99ecbd1403afabce670cc83381531ba618c401fac",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-14712f6a-2fdf-45df-b2b7-777137b4e043.png"
+  },
+  "Shizuka Uenohara": {
+    "file": "world-draft/npc portraits/Ardelis/Shizuka Uenohara.png",
+    "sha256": "5c1bae108b5b50831456dd15750333ba7d448ef37227470ea8a917857fefe1a0",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-3070e475-6195-43a9-a063-71b95be1b804.png"
+  },
+  "Reiji Yomikawa": {
+    "file": "world-draft/npc portraits/Ardelis/Reiji Yomikawa.png",
+    "sha256": "0a71e8dc7be80aa8e7d38793f6a82d174d8d8c0102fbfa19cefbb9d4eb8bb6f6",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-eacc9902-aa8b-4290-b090-c841b1ca5270.png"
+  },
+  "Takuma Kurose": {
+    "file": "world-draft/npc portraits/Ardelis/Takuma Kurose.png",
+    "sha256": "8f5cde926d3f6acbbb8b2bb29dcae5d3d8a65401f7f47b53fc529d1f866d480c",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-34c50e4a-1ea2-4165-8e56-449efc8f2b3c.png"
+  },
+  "Yūgo Kashiwagi": {
+    "file": "world-draft/npc portraits/Ardelis/Yūgo Kashiwagi.png",
+    "sha256": "9b7b58b9cd7d84b5e66291e681ee7afc65b73420ac2531fd9c0a20c0c45287e4",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-839e446b-b847-4ddc-857c-712bffc849eb.png"
+  },
+  "Arisa Harukawa": {
+    "file": "world-draft/npc portraits/Ardelis/Arisa Harukawa.png",
+    "sha256": "59ce068ff72b8c12114f6075b4a28903dee08f64b45830cad2895786e2e02295",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-71c6a099-069e-439a-ba5b-6efd5cbedd0f.png"
+  },
+  "Shimon Kanejima": {
+    "file": "world-draft/npc portraits/Ardelis/Shimon Kanejima.png",
+    "sha256": "29de8c4a10fde68e25ae9d54ccacb45de4ae9e41d7565f9b2ef4f4b86578a9ca",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-465c7eac-3e42-4cba-84fe-7842c8191019.png"
+  },
+  "Anri Minegishi": {
+    "file": "world-draft/npc portraits/Ardelis/Anri Minegishi.png",
+    "sha256": "7266ca62ad23302aa3702ea91be336782e9c2afbee9956b885a57ebd34314f42",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-2788b0be-97ad-4266-abe2-5b58c9f517d9.png"
+  },
+  "Bunzō Kasai": {
+    "file": "world-draft/npc portraits/Ardelis/Bunzō Kasai.png",
+    "sha256": "dff50a9421c1a728e69a3dfc1d27e0defdd75497d6f6aa2b5379289f0dcd42f1",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-fe387e9d-1afd-4e5d-b07b-9d55dd42476c.png"
+  },
+  "Chisato Akahoshi": {
+    "file": "world-draft/npc portraits/Ardelis/Chisato Akahoshi.png",
+    "sha256": "0c110ee526f9100919c8f3e0773d2d8763af917a11223bf073826a5c8ef4b7ac",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-91fc4f0b-705a-4c31-93fa-da6c89d74ab0.png"
+  },
+  "Hana Dōno": {
+    "file": "world-draft/npc portraits/Ardelis/Hana Dōno.png",
+    "sha256": "58c23aec0444248b162ed7a31deeef6ee7fc318c49abe52df180113c7a8cbd90",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-0101c7fe-e236-4afc-8192-0e6297f53660.png"
+  },
+  "Katsumi Hirano": {
+    "file": "world-draft/npc portraits/Ardelis/Katsumi Hirano.png",
+    "sha256": "52c4fb427a7d5c457eda0d58ed1636dc7197cbc41fdcb4b727f8452359d02cf2",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-683d9cc0-9107-47b3-bd98-b82becece165.png"
+  },
+  "Raizō Bessho": {
+    "file": "world-draft/npc portraits/Ardelis/Raizō Bessho.png",
+    "sha256": "368b4b3ac458eccf6fdd44d1dd50a7efc295bbe16f751428a1384cf3703128d6",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-81c0f0c4-6950-4adf-834d-0b002a7fefea.png"
+  },
+  "Akihisa Sakimori": {
+    "file": "world-draft/npc portraits/Ardelis/Akihisa Sakimori.png",
+    "sha256": "fc356d43246de9c7083e618e3d71aa29478c2524714e752c00069a0a1e47d325",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-3143c142-7344-47a1-86e2-1ba04e655e81.png"
+  },
+  "Juri Kokubu": {
+    "file": "world-draft/npc portraits/Ardelis/Juri Kokubu.png",
+    "sha256": "f8cf74f1b412c46356d3f140ecde47476d4a972dc83ebd3a8bf02aeed7db9c23",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-cf88c96c-1602-43e7-8573-0f140ba8db4d.png"
+  },
+  "Rie Yagami": {
+    "file": "world-draft/npc portraits/Ardelis/Rie Yagami.png",
+    "sha256": "8aad9982b638cec77d2fc45f6b35935d0de03fdffab5cddda9b8bd2e66a441b0",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-bdf1fca2-a460-4d33-8984-a2412cdcc47d.png"
+  },
+  "Hiroto Yagami": {
+    "file": "world-draft/npc portraits/Ardelis/Hiroto Yagami.png",
+    "sha256": "996d991580e252a89847cb8ae1d9cfeb05ca20d803e50321b9eaee37c0365fc8",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-aa6f6b88-5c00-46a1-a5e8-9f829a387b0d.png"
+  },
+  "Setsuko Aoyagi": {
+    "file": "world-draft/npc portraits/Ardelis/Setsuko Aoyagi.png",
+    "sha256": "09b3d57a036aeae8a082614fe0bf7a280c4dec6e1fe272f5cf77b9fc751744d0",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-b8436652-326e-430b-b463-8ee4f6d31210.png"
+  },
+  "Nina Suzuhara": {
+    "file": "world-draft/npc portraits/Ardelis/Nina Suzuhara.png",
+    "sha256": "81793995b4cf7103c360395db6650419635ce9ca1b801e1ff040c82af5a3fcc7",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-6b0f238d-33bc-4373-87fd-6730d19f5f88.png"
+  },
+  "Maki Fukase": {
+    "file": "world-draft/npc portraits/Ardelis/Maki Fukase.png",
+    "sha256": "3788c5fbb25c520158fdccb68f8df75261d27559143e46f1d23f35aa6cb06a96",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-64771193-552f-4bc6-9a6e-5742cd8da37f.png"
+  },
+  "Riku Matsukura": {
+    "file": "world-draft/npc portraits/Ardelis/Riku Matsukura.png",
+    "sha256": "99b1e47b61744fb1f7d11af00c75c90cd607b90a156ed14aa01eb0f8356e2c7e",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-9972c09a-9fda-43aa-b2aa-5465cd1a6ba5.png"
+  },
+  "Gareth Stone": {
+    "file": "world-draft/npc portraits/Ardelis/Gareth Stone.png",
+    "sha256": "485816958b77bd565ba663cba5a3d85d133e3886aed5454e3d96daddde497514",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-9c72a9ac-70d0-4852-9616-2c941d7484c3.png"
+  },
+  "Reina Togashi": {
+    "file": "world-draft/npc portraits/Ardelis/Reina Togashi.png",
+    "sha256": "4f56147b9469472ef77b6a154072491bbcc3c6d83543f651101b238cfaf7e78e",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-6ca6938f-14f9-475b-a955-ce89ae15d0c4.png"
+  },
+  "Yasuhiko Dōmoto": {
+    "file": "world-draft/npc portraits/Ardelis/Yasuhiko Dōmoto.png",
+    "sha256": "cc0ca1f7d1087546961f806e189a566ad4b7bf2e47888a7cf93f25a91abf077e",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-4cc562df-70d7-4b3d-8f62-773c372769b1.png"
+  },
+  "Otoha Karasawa": {
+    "file": "world-draft/npc portraits/Ardelis/Otoha Karasawa.png",
+    "sha256": "70518ad549f650c72d822ad18e18aa00a9b04591a3955909f336fcaaf3a5aeaf",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-3f78ed1a-d1a9-4372-9656-aae38d985714.png"
+  },
+  "Wataru Arakida": {
+    "file": "world-draft/npc portraits/Ardelis/Wataru Arakida.png",
+    "sha256": "5794b879ec52631ac969aee42291c002096733f23ba60f5eacce7bee25196b60",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-c7de4491-da4b-417a-8f45-8c7d42dd9bc9.png"
+  },
+  "Moira Bellrock": {
+    "file": "world-draft/npc portraits/Ardelis/Moira Bellrock.png",
+    "sha256": "3354053e90c0987c077d8e7bbcbf66132ff80c23e60bd23ddd8ff560e65e118f",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-de98aaeb-54fa-4e1d-bdb6-28c8815b9784.png"
+  },
+  "Fūta Wakatsuki": {
+    "file": "world-draft/npc portraits/Ardelis/Fūta Wakatsuki.png",
+    "sha256": "69d52b2f7e1990a1216aaa42a7623b5720fe184c79d206ba57fc7b50f2a1be3c",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-b66bafb8-ac7f-4143-bb1f-947c4f498542.png"
+  },
+  "Roka Makabe": {
+    "file": "world-draft/npc portraits/Ardelis/Roka Makabe.png",
+    "sha256": "cff6768e29551db17a65a33a15eefffd5da3743a22fabbd760069ec1dca5b497",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-bcdb7304-d15e-4e52-b5b4-7d885c4a0d40.png"
+  },
+  "Gaku Serizawa": {
+    "file": "world-draft/npc portraits/Ardelis/Gaku Serizawa.png",
+    "sha256": "7673e86865a5ce061aae030f3340f34fed74261bd9d88e64cf2f0657d647de41",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-e5570a35-7823-4fd5-b671-12c6ed94e825.png"
+  },
+  "Shiori Moritsuki": {
+    "file": "world-draft/npc portraits/Ardelis/Shiori Moritsuki.png",
+    "sha256": "a91a1498c1b9513ecbd0ca270a16a6132dc3f762fd595b011ebb22b4d261ee7f",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-692f6791-56bb-40ba-98ec-8ae44068cfc3.png"
+  },
+  "Kenta Hinohara": {
+    "file": "world-draft/npc portraits/Ardelis/Kenta Hinohara.png",
+    "sha256": "688e1dae16946c672cf0cdd6634eb299c292cf7c25f3da932219b93fa888c29c",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-e7b6ef23-a0d1-4973-b229-c5ee4231dcc8.png"
+  },
+  "Rumi Shirato": {
+    "file": "world-draft/npc portraits/Ardelis/Rumi Shirato.png",
+    "sha256": "5dad1351f5a608c4960c9c825e32032d75cb06e1566405dd07eb67fc615aa515",
+    "generationPasses": 2,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-564b76df-4ccd-4022-a31f-8e1a00b8077d.png",
+    "authorRequestedReplacement": true,
+    "replacementReason": "Author approved one fresh replacement after official studio_media_failed rejection.",
+    "previousSelection": {
+      "file": "world-draft/npc portraits/Ardelis/Rumi Shirato.png",
+      "sha256": "35d84282c4735f707b2828194e184324987d1c35a1fd16b4144266d0cc46c99c",
+      "generationPasses": 1,
+      "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-861e82b7-1625-46af-a2a4-1d7c5048d5bf.png"
+    }
+  },
+  "Akari Mikumo": {
+    "file": "world-draft/npc portraits/Ardelis/Akari Mikumo.png",
+    "sha256": "c3a0eb9c3dfe7c4c3bac1bd951fa2476aa572cd85fb6ddaf94e69b1f472c2a89",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-2a017a9a-a88b-470e-a393-9fd882951760.png"
+  },
+  "Tōru Koganei": {
+    "file": "world-draft/npc portraits/Ardelis/Tōru Koganei.png",
+    "sha256": "7e40dc80dd494fc8075e3b6f9d794c8dc432ddcb0ac0635dae98906e5a34fc52",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-58d42c75-0e60-460e-8ec6-004ffc7ea14b.png"
+  },
+  "Maho Takamizu": {
+    "file": "world-draft/npc portraits/Ardelis/Maho Takamizu.png",
+    "sha256": "a5937c64dcefd6ba3d8790778de1c28dbbe2138c71f9c856ff3268b1d7912484",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-e98fd7bd-5728-491b-a2b5-05b002ac6244.png"
+  },
+  "Ansei Kurumada": {
+    "file": "world-draft/npc portraits/Ardelis/Ansei Kurumada.png",
+    "sha256": "1f422c4ceb3196b03399c621e4d34bb357a886510d377887e4168cd6c4cc8631",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-64ca4656-2724-4512-9d48-924b4f4a2513.png"
+  }
+}

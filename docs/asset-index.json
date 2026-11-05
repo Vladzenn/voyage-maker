@@ -3756,26 +3756,6 @@
       "sha256": "37eb51d30e0d882dd02ed6df0147535ff07fb629394a457102931acca32999d4",
       "mtimeNs": 1793835670087505800
     },
-    "world-draft/npc portraits/Ardelis/Isabeau Aurevain.png": {
-      "size": 2768318,
-      "sha256": "fb6ad99de141e8ddbf6f19ad34f17111ce4345465a932e1f5030964d4022feec",
-      "mtimeNs": 1793836252536800000
-    },
-    "world-draft/npc portraits/Ardelis/Marielle Aurevain.png": {
-      "size": 2972369,
-      "sha256": "b9049d33951cb19a2227e054e4e846d5cab18d13a93d85ce2cdeb2bd730b8206",
-      "mtimeNs": 1793836574487463100
-    },
-    "world-draft/npc portraits/Ardelis/Céleste Aurevain.png": {
-      "size": 2828428,
-      "sha256": "cee9548ea50bf3ca6e9a4dc523d537e8e1981e4a654c41fa35afbde74d44777b",
-      "mtimeNs": 1793836639112302900
-    },
-    "world-draft/npc portraits/Ardelis/Lysandra Aurevain.png": {
-      "size": 2857239,
-      "sha256": "1c1108969842accb7105a4aabf77ff13e28862e2e5e228bb3130c46f37787aac",
-      "mtimeNs": 1793836510599504800
-    },
     "world-draft/npc portraits/Ardelis/Noelle Ashford.png": {
       "size": 2795440,
       "sha256": "acf1b8e0a0c4bbb81a1c0841717bbbdd08854028e26098c77a2d667a1baf7c39",
@@ -3786,90 +3766,10 @@
       "sha256": "89986d159f6aedda50ac85aa8347aa8233173a0fc7a319a5b0324967e8a05326",
       "mtimeNs": 1793836835117593300
     },
-    "world-draft/npc portraits/Ardelis/Severin Morcant.png": {
-      "size": 2922092,
-      "sha256": "735d7761ea7c7de97c7cd916ed9ef767e25401507f2b7d104c1c506e63bfbb7e",
-      "mtimeNs": 1793836903282508200
-    },
-    "world-draft/npc portraits/Ardelis/Hector Montrevel.png": {
-      "size": 2886127,
-      "sha256": "8e5a96e95bcbb273d11c0835dd1756a1c0c143767ff70f7caa69b77734a2e330",
-      "mtimeNs": 1793838552106990500
-    },
-    "world-draft/npc portraits/Ardelis/Julienne Dalcourt.png": {
-      "size": 2883925,
-      "sha256": "84c7279fe2ad2f041f29ce56fc35ed19a20961f91122a02ca462aaf9838eaf96",
-      "mtimeNs": 1793838620325431700
-    },
-    "world-draft/npc portraits/Ardelis/Armand Veymont.png": {
-      "size": 2739034,
-      "sha256": "69bad57a7ef150774c462f59da8df7e1046705ab1eab958e745ac2fc355765ef",
-      "mtimeNs": 1793838679616510500
-    },
     "world-draft/npc portraits/Ardelis/Mireille Orselle.png": {
       "size": 2905199,
       "sha256": "7bea8d7e33caebfa7e9a52e9e1274837dced4e215940f76c08ea209e9bc4b146",
       "mtimeNs": 1793839054488792400
-    },
-    "world-draft/npc portraits/Ardelis/Laurent Bellegarde.png": {
-      "size": 2845006,
-      "sha256": "fc3c17519809bf70314a4ec06f6ce14acbdb2face4e73d50a733afa071d199a2",
-      "mtimeNs": 1793839116404780100
-    },
-    "world-draft/npc portraits/Ardelis/Sabine Mauclerc.png": {
-      "size": 3111011,
-      "sha256": "903ea6232ddfdf36adab0673e80f09d4bc4d49ab978a558fac0c2efb996b992e",
-      "mtimeNs": 1793839181141901700
-    },
-    "world-draft/npc portraits/Ardelis/Lucan Voss.png": {
-      "size": 2619178,
-      "sha256": "00d72b2f52dbd92edf17d44a3ee77023e2bdddb430d3bac89fc25f951e2a4801",
-      "mtimeNs": 1793839243474263700
-    },
-    "world-draft/npc portraits/Ardelis/Aveline Marchand.png": {
-      "size": 2889153,
-      "sha256": "eeffbcc501820f685a016b91f8678e8dead79638e70d0907b80ea5e57069cf58",
-      "mtimeNs": 1793839418069334100
-    },
-    "world-draft/npc portraits/Ardelis/Bastien Rochefort.png": {
-      "size": 2741639,
-      "sha256": "7fcd56b112aaa12d419ca3cb5a8b0c357c16e00205909861b95553c2ac244d1f",
-      "mtimeNs": 1793839485187258500
-    },
-    "world-draft/npc portraits/Ardelis/Nerissa Vale.png": {
-      "size": 2999165,
-      "sha256": "acb4098d506bcd4246e1eb22c5f85a18904bb569a8da3cc4dcd4761373c6ca87",
-      "mtimeNs": 1793839555165701300
-    },
-    "world-draft/npc portraits/Ardelis/Coralie Brissot.png": {
-      "size": 2872769,
-      "sha256": "9fd2fef89c00c83c242dfdb4b6294142ac73af8609637f4c1f9c05c5778b3f3b",
-      "mtimeNs": 1793839623502215500
-    },
-    "world-draft/npc portraits/Ardelis/Corvin Hale.png": {
-      "size": 2785660,
-      "sha256": "2a8c27dcd0f2dbbb253e7556b4465696783227de115eeb2c7d854d132d0ac5d1",
-      "mtimeNs": 1793839890411076700
-    },
-    "world-draft/npc portraits/Ardelis/Aurélian Vauss.png": {
-      "size": 3229844,
-      "sha256": "8f114ef1f70e328c4ee9574685dd9167ccf18c82d34b7564c61bcf2390c9c00e",
-      "mtimeNs": 1793839956987109600
-    },
-    "world-draft/npc portraits/Ardelis/Séraphine Duvray.png": {
-      "size": 3120605,
-      "sha256": "ff4cf8f0a88ecdf224224f9a7a43e02924d5739809ebeeab6e58ceadbd02cf14",
-      "mtimeNs": 1793840022962157300
-    },
-    "world-draft/npc portraits/Ardelis/Osmond Verain.png": {
-      "size": 3237368,
-      "sha256": "0de8114d7a07980356daa73c6bf79c0f757f96761c0f1f14d44cd1f7dbf324ae",
-      "mtimeNs": 1793840091641709500
-    },
-    "world-draft/npc portraits/Ardelis/Cedran Aurevain.png": {
-      "size": 2904887,
-      "sha256": "1952336c8e4ec9cc8dba0e89767f1c3c830499eb47bc9c1eafbd56eb51b60c7b",
-      "mtimeNs": 1793836191138306900
     },
     "world-draft/location images/Ardelis/Opaline Arcade.png": {
       "size": 3673847,
@@ -3920,11 +3820,6 @@
       "size": 3319651,
       "sha256": "7a8459a56b8092ddf7d5d4e7ff4bd3b768a17076ec985c2aa551ecd5658cfe24",
       "mtimeNs": 1793842179427463700
-    },
-    "world-draft/location images/Ardelis/House Montrevel Estate.png": {
-      "size": 3687784,
-      "sha256": "d3c3235e46f4b8879f2a59530294c5c8b7018e80890f05616459a61e05c422f4",
-      "mtimeNs": 1793842259967376700
     },
     "world-draft/location images/Ardelis/The High Reservoir.png": {
       "size": 3548955,
@@ -3980,11 +3875,6 @@
       "size": 3449841,
       "sha256": "4552483834aaea528416c07e56d1cf80cdc102ed97d928ac88ccc20687ce5d91",
       "mtimeNs": 1793843359003946300
-    },
-    "world-draft/location images/Ardelis/House Veymont Residence.png": {
-      "size": 3454583,
-      "sha256": "cf583a6a8058e9e765a237186a67590731581ef2d0a79d356a336061d8c148a5",
-      "mtimeNs": 1793843440425839100
     },
     "world-draft/location images/Ardelis/Skyglass Observatory.png": {
       "size": 3361085,
@@ -4080,11 +3970,6 @@
       "size": 3113036,
       "sha256": "53c091159e19942efbe0462591765e7ef0373d6d77a2266c1c11584acb1a2dd1",
       "mtimeNs": 1793845790286640100
-    },
-    "world-draft/location images/Ardelis/House Dalcourt Counting House.png": {
-      "size": 3291669,
-      "sha256": "e329ab45a31fff9e79db4eb07af49fbc3b9587704d6baefde4b3670bc3c7896d",
-      "mtimeNs": 1793845838903526700
     },
     "world-draft/location images/Ardelis/High Star Square.png": {
       "size": 3246457,
@@ -4300,6 +4185,581 @@
       "size": 3071737,
       "sha256": "3c75c8d538c66aab096e296709741f596e22131969a9c6761664d1d53772f402",
       "mtimeNs": 1793849457484112200
+    },
+    "world-draft/npc portraits/Ardelis/Reiko Shirogane.png": {
+      "size": 2768318,
+      "sha256": "fb6ad99de141e8ddbf6f19ad34f17111ce4345465a932e1f5030964d4022feec",
+      "mtimeNs": 1793836252536800000
+    },
+    "world-draft/npc portraits/Ardelis/Yurika Shirogane.png": {
+      "size": 2972369,
+      "sha256": "b9049d33951cb19a2227e054e4e846d5cab18d13a93d85ce2cdeb2bd730b8206",
+      "mtimeNs": 1793836574487463100
+    },
+    "world-draft/npc portraits/Ardelis/Mio Shirogane.png": {
+      "size": 2828428,
+      "sha256": "cee9548ea50bf3ca6e9a4dc523d537e8e1981e4a654c41fa35afbde74d44777b",
+      "mtimeNs": 1793836639112302900
+    },
+    "world-draft/npc portraits/Ardelis/Ayame Shirogane.png": {
+      "size": 2857239,
+      "sha256": "1c1108969842accb7105a4aabf77ff13e28862e2e5e228bb3130c46f37787aac",
+      "mtimeNs": 1793836510599504800
+    },
+    "world-draft/npc portraits/Ardelis/Seijirō Kurotani.png": {
+      "size": 2922092,
+      "sha256": "735d7761ea7c7de97c7cd916ed9ef767e25401507f2b7d104c1c506e63bfbb7e",
+      "mtimeNs": 1793836903282508200
+    },
+    "world-draft/npc portraits/Ardelis/Hidetaka Minazuki.png": {
+      "size": 2886127,
+      "sha256": "8e5a96e95bcbb273d11c0835dd1756a1c0c143767ff70f7caa69b77734a2e330",
+      "mtimeNs": 1793838552106990500
+    },
+    "world-draft/npc portraits/Ardelis/Junko Takamine.png": {
+      "size": 2883925,
+      "sha256": "84c7279fe2ad2f041f29ce56fc35ed19a20961f91122a02ca462aaf9838eaf96",
+      "mtimeNs": 1793838620325431700
+    },
+    "world-draft/npc portraits/Ardelis/Arata Kagetsu.png": {
+      "size": 2739034,
+      "sha256": "69bad57a7ef150774c462f59da8df7e1046705ab1eab958e745ac2fc355765ef",
+      "mtimeNs": 1793838679616510500
+    },
+    "world-draft/npc portraits/Ardelis/Masafumi Hoshimi.png": {
+      "size": 2845006,
+      "sha256": "fc3c17519809bf70314a4ec06f6ce14acbdb2face4e73d50a733afa071d199a2",
+      "mtimeNs": 1793839116404780100
+    },
+    "world-draft/npc portraits/Ardelis/Saeko Murasame.png": {
+      "size": 3111011,
+      "sha256": "903ea6232ddfdf36adab0673e80f09d4bc4d49ab978a558fac0c2efb996b992e",
+      "mtimeNs": 1793839181141901700
+    },
+    "world-draft/npc portraits/Ardelis/Renji Tsukishiro.png": {
+      "size": 2619178,
+      "sha256": "00d72b2f52dbd92edf17d44a3ee77023e2bdddb430d3bac89fc25f951e2a4801",
+      "mtimeNs": 1793839243474263700
+    },
+    "world-draft/npc portraits/Ardelis/Aoi Matsukura.png": {
+      "size": 2889153,
+      "sha256": "eeffbcc501820f685a016b91f8678e8dead79638e70d0907b80ea5e57069cf58",
+      "mtimeNs": 1793839418069334100
+    },
+    "world-draft/npc portraits/Ardelis/Daigo Ishimine.png": {
+      "size": 2741639,
+      "sha256": "7fcd56b112aaa12d419ca3cb5a8b0c357c16e00205909861b95553c2ac244d1f",
+      "mtimeNs": 1793839485187258500
+    },
+    "world-draft/npc portraits/Ardelis/Natsume Kazahaya.png": {
+      "size": 2999165,
+      "sha256": "acb4098d506bcd4246e1eb22c5f85a18904bb569a8da3cc4dcd4761373c6ca87",
+      "mtimeNs": 1793839555165701300
+    },
+    "world-draft/npc portraits/Ardelis/Koharu Mizuse.png": {
+      "size": 2872769,
+      "sha256": "9fd2fef89c00c83c242dfdb4b6294142ac73af8609637f4c1f9c05c5778b3f3b",
+      "mtimeNs": 1793839623502215500
+    },
+    "world-draft/npc portraits/Ardelis/Shūgo Takashiro.png": {
+      "size": 2785660,
+      "sha256": "2a8c27dcd0f2dbbb253e7556b4465696783227de115eeb2c7d854d132d0ac5d1",
+      "mtimeNs": 1793839890411076700
+    },
+    "world-draft/npc portraits/Ardelis/Akihiro Kanzaki.png": {
+      "size": 3229844,
+      "sha256": "8f114ef1f70e328c4ee9574685dd9167ccf18c82d34b7564c61bcf2390c9c00e",
+      "mtimeNs": 1793839956987109600
+    },
+    "world-draft/npc portraits/Ardelis/Serika Tōgane.png": {
+      "size": 3120605,
+      "sha256": "ff4cf8f0a88ecdf224224f9a7a43e02924d5739809ebeeab6e58ceadbd02cf14",
+      "mtimeNs": 1793840022962157300
+    },
+    "world-draft/npc portraits/Ardelis/Osamu Narusawa.png": {
+      "size": 3237368,
+      "sha256": "0de8114d7a07980356daa73c6bf79c0f757f96761c0f1f14d44cd1f7dbf324ae",
+      "mtimeNs": 1793840091641709500
+    },
+    "world-draft/npc portraits/Ardelis/Kenzō Shirogane.png": {
+      "size": 2904887,
+      "sha256": "1952336c8e4ec9cc8dba0e89767f1c3c830499eb47bc9c1eafbd56eb51b60c7b",
+      "mtimeNs": 1793836191138306900
+    },
+    "world-draft/npc portraits/Ardelis/Sibylle Opal.png": {
+      "size": 2903831,
+      "sha256": "fea85dafdd75d682f146b6b76d6a603c7091930b24a63e3bce594866c3523168",
+      "mtimeNs": 1793857040575142100
+    },
+    "world-draft/npc portraits/Ardelis/Benika Nerikawa.png": {
+      "size": 2734339,
+      "sha256": "bfda65418de3461e80b80853cda78406c53a8b619930a1ffc2e89463099f0b68",
+      "mtimeNs": 1793857310012204000
+    },
+    "world-draft/npc portraits/Ardelis/Ryōta Utagawa.png": {
+      "size": 2821113,
+      "sha256": "1a4e79811fa21f935314803d659a9c298c318afbc54e8bba79fc1efc3c199810",
+      "mtimeNs": 1793857377707426700
+    },
+    "world-draft/npc portraits/Ardelis/Aguri Sunaga.png": {
+      "size": 2672256,
+      "sha256": "b76307b740cf5dc47b1cfd6e45c6759b5ae977818397d517f1d90bfb1c5e16c9",
+      "mtimeNs": 1793857442029427500
+    },
+    "world-draft/npc portraits/Ardelis/Otone Shiramine.png": {
+      "size": 2634848,
+      "sha256": "895329603d0258104d81f439c709845efcf6363c6fd80602511bf3ae89d739d8",
+      "mtimeNs": 1793857505748878600
+    },
+    "world-draft/npc portraits/Ardelis/Keisuke Fujisaki.png": {
+      "size": 2793633,
+      "sha256": "78fde49efd7964c21ece5e2f7fdd0afbeb3ab9d94062b9f680ced250a1fd51f4",
+      "mtimeNs": 1793857572064681000
+    },
+    "world-draft/npc portraits/Ardelis/Koyomi Makino.png": {
+      "size": 3074620,
+      "sha256": "a70e29029ff6cdfea8811f1609123b1118f8107e89032eacfd5e927768112473",
+      "mtimeNs": 1793857950063525000
+    },
+    "world-draft/npc portraits/Ardelis/Eita Akaba.png": {
+      "size": 2683211,
+      "sha256": "b90cf0d24eb6b95255bc243c5b8330b1d467467ebfbedcb9ed9ffabcd44f3921",
+      "mtimeNs": 1793858013565451700
+    },
+    "world-draft/npc portraits/Ardelis/Madelon Vire.png": {
+      "size": 2834630,
+      "sha256": "6158802960d227ae8178b038942e9afcc8b9af232ff908ffc0529cf01f8169a3",
+      "mtimeNs": 1793858081579514900
+    },
+    "world-draft/npc portraits/Ardelis/Suzune Arataki.png": {
+      "size": 2448733,
+      "sha256": "a104058defc718f814b9b83522dbc1b0b162ff68720b6ea0bf48c52a83e61b69",
+      "mtimeNs": 1793858149815329200
+    },
+    "world-draft/npc portraits/Ardelis/Masaki Fushimi.png": {
+      "size": 2616898,
+      "sha256": "3f96be20bf2c88ac060965250ca3076e8ce094b726a14f57a00d0e47f01092ba",
+      "mtimeNs": 1793858215396862600
+    },
+    "world-draft/npc portraits/Ardelis/Ruri Minazuki.png": {
+      "size": 2683325,
+      "sha256": "b6872f1ab83bb3d96ed6388735501d38120bb9d71d8f1c6ac432bf3f6663aa85",
+      "mtimeNs": 1793858282445720300
+    },
+    "world-draft/npc portraits/Ardelis/Ren Wakabayashi.png": {
+      "size": 2788768,
+      "sha256": "4874bdb1d7c8dc8edddfaeea174226b7d0bb8d34ecd81068d94640b056072ac5",
+      "mtimeNs": 1793858350216497000
+    },
+    "world-draft/npc portraits/Ardelis/Akiha Saegusa.png": {
+      "size": 2776990,
+      "sha256": "dc017b61bd94cd38f85756c12a1333bc07ab2f2ad2b7c752a56f2f097988e347",
+      "mtimeNs": 1793858422789066400
+    },
+    "world-draft/npc portraits/Ardelis/Brenna Blackwood.png": {
+      "size": 2825617,
+      "sha256": "e112e24a82988d4b440bbf0cd2d1a264627ac26e84f873aa21b08681489f1cce",
+      "mtimeNs": 1793858486012581500
+    },
+    "world-draft/npc portraits/Ardelis/Maiko Dōjima.png": {
+      "size": 2476569,
+      "sha256": "2397727218fa849fce97219b5af2c7a453ed6baed9c7948949d0ef0a110e979e",
+      "mtimeNs": 1793859208158381800
+    },
+    "world-draft/npc portraits/Ardelis/Erisa Hanabusa.png": {
+      "size": 2571061,
+      "sha256": "6f44843679d3e9e1f39dbe0e467be66072360bba2da44f0119be2d4ff36aafce",
+      "mtimeNs": 1793858595335258000
+    },
+    "world-draft/npc portraits/Ardelis/Akito Kagetsu.png": {
+      "size": 2630845,
+      "sha256": "8eb45317214622bcf30f69ddf24f6ef982cc6402b9cde04f623f25df17f4af29",
+      "mtimeNs": 1793859633449136100
+    },
+    "world-draft/npc portraits/Ardelis/Fumiko Sawatari.png": {
+      "size": 2685843,
+      "sha256": "836b2c6f6c551cf00ad14f3b97701c54468a6efac2d2032348d15b0f6fc18bd4",
+      "mtimeNs": 1793859701210186200
+    },
+    "world-draft/npc portraits/Ardelis/Harunobu Shirosaki.png": {
+      "size": 2730153,
+      "sha256": "08669c9a65132d9c05d53df595f3133fb991aa3202c02a458415d5344e9b01a4",
+      "mtimeNs": 1793859772426787900
+    },
+    "world-draft/npc portraits/Ardelis/Gavin Hallow.png": {
+      "size": 2507474,
+      "sha256": "f984ba207dc4146e4fc8b94d175e8cb66532311f95de1eeb330876599ea024f3",
+      "mtimeNs": 1793859841161781600
+    },
+    "world-draft/npc portraits/Ardelis/Izumi Morikawa.png": {
+      "size": 2714171,
+      "sha256": "c74122314acb36698348ef48e260b54a56066c227efc3ce6858429a6995e4714",
+      "mtimeNs": 1793859919990368700
+    },
+    "world-draft/npc portraits/Ardelis/Fūma Someya.png": {
+      "size": 2708663,
+      "sha256": "fda152b6a24e02c8f981b84aa3b3e2366448be373dd1622f5ba164504efc34b4",
+      "mtimeNs": 1793859990736770200
+    },
+    "world-draft/npc portraits/Ardelis/Anzu Hanezaki.png": {
+      "size": 2616935,
+      "sha256": "3be8a91499eae5766b6d1c4fae445f46ecaf2eef39da6713c7a049cbb8bba0e8",
+      "mtimeNs": 1793860058830960200
+    },
+    "world-draft/npc portraits/Ardelis/Eiichi Sakuraba.png": {
+      "size": 2603689,
+      "sha256": "b0cf6d1b46b1e4c55bb39e0e9ca5610cf880eae4038e5b5de40f43e65c1f4e77",
+      "mtimeNs": 1793860127023302600
+    },
+    "world-draft/npc portraits/Ardelis/Nanami Kurebayashi.png": {
+      "size": 2834824,
+      "sha256": "c31f5fa2b67aac8f475f2af882da43d7cacd5e7a785b81d44b9e4c3778806313",
+      "mtimeNs": 1793860197124799600
+    },
+    "world-draft/npc portraits/Ardelis/Tetsurō Kuranaga.png": {
+      "size": 2736253,
+      "sha256": "663372f7573f9edf95eef2defc7749f029e04a164d36b64f05705a1f972d373e",
+      "mtimeNs": 1793860268431254000
+    },
+    "world-draft/npc portraits/Ardelis/Harue Wada.png": {
+      "size": 2567358,
+      "sha256": "b1a14d66131a4a908157a0ee082063624bd5d68fe577fd1a25a994e5b60065dc",
+      "mtimeNs": 1793860336478503600
+    },
+    "world-draft/npc portraits/Ardelis/Kōhei Daitō.png": {
+      "size": 2693631,
+      "sha256": "c9e788727901f3463bf209810ffaaab7436b86c2332a615467503c00a661bc5f",
+      "mtimeNs": 1793860410308781300
+    },
+    "world-draft/npc portraits/Ardelis/Mirei Asahina.png": {
+      "size": 2397361,
+      "sha256": "cc6f9252cd7d99fbe381add4fcceaf86ac4c30a42e72c7ec6284c88f62b995f1",
+      "mtimeNs": 1793860452274944900
+    },
+    "world-draft/npc portraits/Ardelis/Jōji Aramaki.png": {
+      "size": 2521874,
+      "sha256": "cbded9baffcbfe1f8280550a12f45f6e0cd2bd92b46b794dfd57db0f8d657572",
+      "mtimeNs": 1793861672900236300
+    },
+    "world-draft/npc portraits/Ardelis/Kaede Hanamura.png": {
+      "size": 2436054,
+      "sha256": "b8fae4a2343df06fbad0608955f89843b88101b939d2be80c02fe94e44ebb5db",
+      "mtimeNs": 1793865112170639700
+    },
+    "world-draft/npc portraits/Ardelis/Edmée Mott.png": {
+      "size": 2711597,
+      "sha256": "d85e043a9495342b19b5d743d722d3a05d5d4c32bd6fc3b4bf92a49cc246609f",
+      "mtimeNs": 1793862546212888200
+    },
+    "world-draft/npc portraits/Ardelis/Fuyuki Bannai.png": {
+      "size": 2741910,
+      "sha256": "3d82310bfae15df839c6cacd3745255e69f998614c4a2c798caf59f0716bf830",
+      "mtimeNs": 1793861896506412400
+    },
+    "world-draft/npc portraits/Ardelis/Isaline Orselle.png": {
+      "size": 2690140,
+      "sha256": "e8f1acc9f588453f5f59ff52ff64c096d50c03d188c4df6fe7bf895c98807fad",
+      "mtimeNs": 1793861973996333100
+    },
+    "world-draft/npc portraits/Ardelis/Risa Haneda.png": {
+      "size": 2788182,
+      "sha256": "65b01bdbc2d4961fd196c315b60bb9a6cf28920c2476ad65a7bb7bb2cdcc2ac1",
+      "mtimeNs": 1793862113661330100
+    },
+    "world-draft/npc portraits/Ardelis/Kiyotaka Sasahara.png": {
+      "size": 2793822,
+      "sha256": "946ebbda89b748b5938aa87c20a32ebff8d339d5994df584dcbcebdb0053a500",
+      "mtimeNs": 1793862194074330100
+    },
+    "world-draft/npc portraits/Ardelis/Sumire Senba.png": {
+      "size": 2687514,
+      "sha256": "12932d6e2d4a3051ba53fe31a764a5155b2ad7de82a89e9a3e3124257294fc7c",
+      "mtimeNs": 1793862246957702000
+    },
+    "world-draft/npc portraits/Ardelis/Emi Sunahara.png": {
+      "size": 2666887,
+      "sha256": "6e1b74e8153dc74006e4d934cd1ff5bd4476617d9066c5f5126d3c488a4688d7",
+      "mtimeNs": 1793862405174421500
+    },
+    "world-draft/npc portraits/Ardelis/Fumihiro Yorita.png": {
+      "size": 2486226,
+      "sha256": "cb6866a1c431be796cfc2b725b447e1482cb344ea252615e17bd3db7e4e06ae7",
+      "mtimeNs": 1793862477638766400
+    },
+    "world-draft/npc portraits/Ardelis/Lachlan Ferrick.png": {
+      "size": 2830751,
+      "sha256": "e30a47d4bbf820c575dfbf8cb52b2ba3ad884ac7a0971bd3095228a2bd0fbb76",
+      "mtimeNs": 1793862638997957000
+    },
+    "world-draft/npc portraits/Ardelis/Aina Teraoka.png": {
+      "size": 2612053,
+      "sha256": "c05c29d9892eb7a74c0e95a99dc883e32be5555a50e30214c9bdb5282813ad77",
+      "mtimeNs": 1793862714660958800
+    },
+    "world-draft/npc portraits/Ardelis/Masaru Takamine.png": {
+      "size": 2443185,
+      "sha256": "58457a3d7cda357476b8a72667b6f30585be1b0bf5ef6f2aac5c0ed6208cc79d",
+      "mtimeNs": 1793862790715153400
+    },
+    "world-draft/npc portraits/Ardelis/Chihiro Shimizu.png": {
+      "size": 2636610,
+      "sha256": "c6488625030e6ffcba222757c9e48533be4a392d7cea1ce3e1a39adf2132a62e",
+      "mtimeNs": 1793862850383851600
+    },
+    "world-draft/npc portraits/Ardelis/Naoya Nakashima.png": {
+      "size": 2408221,
+      "sha256": "2428897ef18c67982054e4a35872a56bac6259853e11436405057407323fac14",
+      "mtimeNs": 1793862911674518000
+    },
+    "world-draft/npc portraits/Ardelis/Rena Someya.png": {
+      "size": 2631873,
+      "sha256": "a956984adf841ed66980897b2794d937cebad6c85467c5e112f147dab2fdf39a",
+      "mtimeNs": 1793862967475902800
+    },
+    "world-draft/npc portraits/Ardelis/Daisaku Hanekawa.png": {
+      "size": 2562367,
+      "sha256": "a4f3304cb97d6affea4d52271c16e75775a0c24b08f78b8950de9a5ecdfc39f3",
+      "mtimeNs": 1793863041365539300
+    },
+    "world-draft/npc portraits/Ardelis/Genzō Kusunose.png": {
+      "size": 2621456,
+      "sha256": "92c409d5fcd7733b77cea90eb06be9a26e9255f81cc612519f9c7ea6456aa7f9",
+      "mtimeNs": 1793863119353854500
+    },
+    "world-draft/npc portraits/Ardelis/Mitsue Sawada.png": {
+      "size": 2381105,
+      "sha256": "b7cd2500348c7afacfcb36aabb6a0d76023ae6abe684b072236ad5360f87b8c2",
+      "mtimeNs": 1793863203736014200
+    },
+    "world-draft/npc portraits/Ardelis/Otoya Suzukawa.png": {
+      "size": 2646408,
+      "sha256": "f2266ab087503846c7dbd6da0c7b1683257d1469642b50479e19c3cb43986b48",
+      "mtimeNs": 1793862328383981600
+    },
+    "world-draft/npc portraits/Ardelis/Ivor Briar.png": {
+      "size": 2616693,
+      "sha256": "2bf9e57d988c7acbd10011e6165af80d2ac2fb394a0377240d6ae3ffcde745df",
+      "mtimeNs": 1793865591062115100
+    },
+    "world-draft/npc portraits/Ardelis/Kanae Kazama.png": {
+      "size": 2777746,
+      "sha256": "9233459ac30e07392f35b5d19d00203fe4a74cbfcf0e82319d174cf36c00308f",
+      "mtimeNs": 1793865675948509000
+    },
+    "world-draft/npc portraits/Ardelis/Kiri Fuyuzono.png": {
+      "size": 2842376,
+      "sha256": "110c180b5b7aec381fc376a34850f957e8947578afd0b7cf1163d3b8df961cb6",
+      "mtimeNs": 1793865752808039100
+    },
+    "world-draft/npc portraits/Ardelis/Tadashi Morishita.png": {
+      "size": 2434283,
+      "sha256": "73aa69d9956aac2f9364f0e272daad7e0cab2ff653406409ec51a115de2561db",
+      "mtimeNs": 1793865832201343900
+    },
+    "world-draft/npc portraits/Ardelis/Naoki Tachibana.png": {
+      "size": 2427656,
+      "sha256": "a6fb6f7946904d1c89db56fc80f95165fd73d1f23d271dbef0b2f1a722c2592b",
+      "mtimeNs": 1793865885884100500
+    },
+    "world-draft/npc portraits/Ardelis/Yukie Maruyama.png": {
+      "size": 2556635,
+      "sha256": "00b4a4713f5e442eb55915f99ecbd1403afabce670cc83381531ba618c401fac",
+      "mtimeNs": 1793865974810466200
+    },
+    "world-draft/npc portraits/Ardelis/Shizuka Uenohara.png": {
+      "size": 2432595,
+      "sha256": "5c1bae108b5b50831456dd15750333ba7d448ef37227470ea8a917857fefe1a0",
+      "mtimeNs": 1793866048961018900
+    },
+    "world-draft/npc portraits/Ardelis/Reiji Yomikawa.png": {
+      "size": 2405719,
+      "sha256": "0a71e8dc7be80aa8e7d38793f6a82d174d8d8c0102fbfa19cefbb9d4eb8bb6f6",
+      "mtimeNs": 1793866128028206500
+    },
+    "world-draft/npc portraits/Ardelis/Takuma Kurose.png": {
+      "size": 2755380,
+      "sha256": "8f5cde926d3f6acbbb8b2bb29dcae5d3d8a65401f7f47b53fc529d1f866d480c",
+      "mtimeNs": 1793866201252589300
+    },
+    "world-draft/npc portraits/Ardelis/Yūgo Kashiwagi.png": {
+      "size": 3119321,
+      "sha256": "9b7b58b9cd7d84b5e66291e681ee7afc65b73420ac2531fd9c0a20c0c45287e4",
+      "mtimeNs": 1793866275858024400
+    },
+    "world-draft/npc portraits/Ardelis/Arisa Harukawa.png": {
+      "size": 2945101,
+      "sha256": "59ce068ff72b8c12114f6075b4a28903dee08f64b45830cad2895786e2e02295",
+      "mtimeNs": 1793866358417391700
+    },
+    "world-draft/npc portraits/Ardelis/Shimon Kanejima.png": {
+      "size": 2566033,
+      "sha256": "29de8c4a10fde68e25ae9d54ccacb45de4ae9e41d7565f9b2ef4f4b86578a9ca",
+      "mtimeNs": 1793866432674015800
+    },
+    "world-draft/npc portraits/Ardelis/Anri Minegishi.png": {
+      "size": 3006382,
+      "sha256": "7266ca62ad23302aa3702ea91be336782e9c2afbee9956b885a57ebd34314f42",
+      "mtimeNs": 1793866519145796900
+    },
+    "world-draft/npc portraits/Ardelis/Bunzō Kasai.png": {
+      "size": 2618322,
+      "sha256": "dff50a9421c1a728e69a3dfc1d27e0defdd75497d6f6aa2b5379289f0dcd42f1",
+      "mtimeNs": 1793866612741312000
+    },
+    "world-draft/npc portraits/Ardelis/Chisato Akahoshi.png": {
+      "size": 2548164,
+      "sha256": "0c110ee526f9100919c8f3e0773d2d8763af917a11223bf073826a5c8ef4b7ac",
+      "mtimeNs": 1793866721634155600
+    },
+    "world-draft/npc portraits/Ardelis/Hana Dōno.png": {
+      "size": 2618736,
+      "sha256": "58c23aec0444248b162ed7a31deeef6ee7fc318c49abe52df180113c7a8cbd90",
+      "mtimeNs": 1793866800761497900
+    },
+    "world-draft/npc portraits/Ardelis/Katsumi Hirano.png": {
+      "size": 2764429,
+      "sha256": "52c4fb427a7d5c457eda0d58ed1636dc7197cbc41fdcb4b727f8452359d02cf2",
+      "mtimeNs": 1793866865550485400
+    },
+    "world-draft/npc portraits/Ardelis/Raizō Bessho.png": {
+      "size": 3005312,
+      "sha256": "368b4b3ac458eccf6fdd44d1dd50a7efc295bbe16f751428a1384cf3703128d6",
+      "mtimeNs": 1793866922929365000
+    },
+    "world-draft/npc portraits/Ardelis/Akihisa Sakimori.png": {
+      "size": 2529004,
+      "sha256": "fc356d43246de9c7083e618e3d71aa29478c2524714e752c00069a0a1e47d325",
+      "mtimeNs": 1793867002118158400
+    },
+    "world-draft/npc portraits/Ardelis/Juri Kokubu.png": {
+      "size": 2687857,
+      "sha256": "f8cf74f1b412c46356d3f140ecde47476d4a972dc83ebd3a8bf02aeed7db9c23",
+      "mtimeNs": 1793867079673747400
+    },
+    "world-draft/npc portraits/Ardelis/Rie Yagami.png": {
+      "size": 2637845,
+      "sha256": "8aad9982b638cec77d2fc45f6b35935d0de03fdffab5cddda9b8bd2e66a441b0",
+      "mtimeNs": 1793867175130518800
+    },
+    "world-draft/npc portraits/Ardelis/Hiroto Yagami.png": {
+      "size": 2682385,
+      "sha256": "996d991580e252a89847cb8ae1d9cfeb05ca20d803e50321b9eaee37c0365fc8",
+      "mtimeNs": 1793867254958871600
+    },
+    "world-draft/npc portraits/Ardelis/Setsuko Aoyagi.png": {
+      "size": 2585337,
+      "sha256": "09b3d57a036aeae8a082614fe0bf7a280c4dec6e1fe272f5cf77b9fc751744d0",
+      "mtimeNs": 1793867331603568300
+    },
+    "world-draft/npc portraits/Ardelis/Nina Suzuhara.png": {
+      "size": 2916845,
+      "sha256": "81793995b4cf7103c360395db6650419635ce9ca1b801e1ff040c82af5a3fcc7",
+      "mtimeNs": 1793867409100682300
+    },
+    "world-draft/npc portraits/Ardelis/Maki Fukase.png": {
+      "size": 2699721,
+      "sha256": "3788c5fbb25c520158fdccb68f8df75261d27559143e46f1d23f35aa6cb06a96",
+      "mtimeNs": 1793867484139409200
+    },
+    "world-draft/npc portraits/Ardelis/Riku Matsukura.png": {
+      "size": 2763063,
+      "sha256": "99b1e47b61744fb1f7d11af00c75c90cd607b90a156ed14aa01eb0f8356e2c7e",
+      "mtimeNs": 1793867559177878700
+    },
+    "world-draft/npc portraits/Ardelis/Gareth Stone.png": {
+      "size": 2769534,
+      "sha256": "485816958b77bd565ba663cba5a3d85d133e3886aed5454e3d96daddde497514",
+      "mtimeNs": 1793867615173106800
+    },
+    "world-draft/npc portraits/Ardelis/Reina Togashi.png": {
+      "size": 2256602,
+      "sha256": "4f56147b9469472ef77b6a154072491bbcc3c6d83543f651101b238cfaf7e78e",
+      "mtimeNs": 1793867689015295900
+    },
+    "world-draft/npc portraits/Ardelis/Yasuhiko Dōmoto.png": {
+      "size": 2641368,
+      "sha256": "cc0ca1f7d1087546961f806e189a566ad4b7bf2e47888a7cf93f25a91abf077e",
+      "mtimeNs": 1793867749348248800
+    },
+    "world-draft/npc portraits/Ardelis/Otoha Karasawa.png": {
+      "size": 2765825,
+      "sha256": "70518ad549f650c72d822ad18e18aa00a9b04591a3955909f336fcaaf3a5aeaf",
+      "mtimeNs": 1793867819243916200
+    },
+    "world-draft/npc portraits/Ardelis/Wataru Arakida.png": {
+      "size": 2502339,
+      "sha256": "5794b879ec52631ac969aee42291c002096733f23ba60f5eacce7bee25196b60",
+      "mtimeNs": 1793867880643007600
+    },
+    "world-draft/npc portraits/Ardelis/Moira Bellrock.png": {
+      "size": 2869341,
+      "sha256": "3354053e90c0987c077d8e7bbcbf66132ff80c23e60bd23ddd8ff560e65e118f",
+      "mtimeNs": 1793867943121112000
+    },
+    "world-draft/npc portraits/Ardelis/Fūta Wakatsuki.png": {
+      "size": 2607567,
+      "sha256": "69d52b2f7e1990a1216aaa42a7623b5720fe184c79d206ba57fc7b50f2a1be3c",
+      "mtimeNs": 1793868211904359400
+    },
+    "world-draft/npc portraits/Ardelis/Roka Makabe.png": {
+      "size": 2583661,
+      "sha256": "cff6768e29551db17a65a33a15eefffd5da3743a22fabbd760069ec1dca5b497",
+      "mtimeNs": 1793868268402374100
+    },
+    "world-draft/npc portraits/Ardelis/Gaku Serizawa.png": {
+      "size": 2807745,
+      "sha256": "7673e86865a5ce061aae030f3340f34fed74261bd9d88e64cf2f0657d647de41",
+      "mtimeNs": 1793868326105646500
+    },
+    "world-draft/npc portraits/Ardelis/Shiori Moritsuki.png": {
+      "size": 2573688,
+      "sha256": "a91a1498c1b9513ecbd0ca270a16a6132dc3f762fd595b011ebb22b4d261ee7f",
+      "mtimeNs": 1793868388061923400
+    },
+    "world-draft/npc portraits/Ardelis/Kenta Hinohara.png": {
+      "size": 2843933,
+      "sha256": "688e1dae16946c672cf0cdd6634eb299c292cf7c25f3da932219b93fa888c29c",
+      "mtimeNs": 1793868449141914200
+    },
+    "world-draft/npc portraits/Ardelis/Rumi Shirato.png": {
+      "size": 2759483,
+      "sha256": "5dad1351f5a608c4960c9c825e32032d75cb06e1566405dd07eb67fc615aa515",
+      "mtimeNs": 1793869253836884700
+    },
+    "world-draft/npc portraits/Ardelis/Akari Mikumo.png": {
+      "size": 2418596,
+      "sha256": "c3a0eb9c3dfe7c4c3bac1bd951fa2476aa572cd85fb6ddaf94e69b1f472c2a89",
+      "mtimeNs": 1793868577342866900
+    },
+    "world-draft/npc portraits/Ardelis/Tōru Koganei.png": {
+      "size": 2634099,
+      "sha256": "7e40dc80dd494fc8075e3b6f9d794c8dc432ddcb0ac0635dae98906e5a34fc52",
+      "mtimeNs": 1793868640664419100
+    },
+    "world-draft/npc portraits/Ardelis/Maho Takamizu.png": {
+      "size": 2551819,
+      "sha256": "a5937c64dcefd6ba3d8790778de1c28dbbe2138c71f9c856ff3268b1d7912484",
+      "mtimeNs": 1793868698504238900
+    },
+    "world-draft/npc portraits/Ardelis/Ansei Kurumada.png": {
+      "size": 2696478,
+      "sha256": "1f422c4ceb3196b03399c621e4d34bb357a886510d377887e4168cd6c4cc8631",
+      "mtimeNs": 1793868754994285100
+    },
+    "world-draft/location images/Ardelis/House Minazuki Estate.png": {
+      "size": 3687784,
+      "sha256": "d3c3235e46f4b8879f2a59530294c5c8b7018e80890f05616459a61e05c422f4",
+      "mtimeNs": 1793842259967376700
+    },
+    "world-draft/location images/Ardelis/House Kagetsu Residence.png": {
+      "size": 3454583,
+      "sha256": "cf583a6a8058e9e765a237186a67590731581ef2d0a79d356a336061d8c148a5",
+      "mtimeNs": 1793843440425839100
+    },
+    "world-draft/location images/Ardelis/House Takamine Counting House.png": {
+      "size": 3291669,
+      "sha256": "e329ab45a31fff9e79db4eb07af49fbc3b9587704d6baefde4b3670bc3c7896d",
+      "mtimeNs": 1793845838903526700
     }
   }
 }

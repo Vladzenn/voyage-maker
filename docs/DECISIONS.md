@@ -382,3 +382,14 @@ Use a shared local shoal roll for simultaneous qualifying anglers, native player
 ## 4 November — fishing quest import correction
 
 The author reports Studio rejecting the three new fishing objective arrays. Treat the supplied Studio type as authoritative: `objectives` is a keyed map of records with string `id`, string `text` and status `hidden`, `active` or `completed`. Correct those three fields, their authoring source and the missing validator coverage. Preserve every other world value. Provide the corrected full world and a complete native Quests section for safe replacement; do not rebuild quests or rewards.
+
+
+## 5 November — Ardelis complete-cast follow-up
+
+The author approves Japanese-inspired human naming across Ardelis and Glowhaven, retaining Noelle Ashford, French Elven names and heritage-appropriate Dwarven names. Glowhaven began as an imperial-backed settlement; heavy taxation and forced mage war service led the four archmage founders to independence. Ardelis formally recognizes the new nation, while its crown remains resentful. Preserve western fantasy clothing and architecture.
+
+Merge the latest complete Locations/Regions exports exactly after approved aliases. Finish all supporting portraits and upload only each selected exact name/hash; preserve the approved majors. Explicit portrait corrections cover Maiko, Akito, Edmée, Kaede and Rumi. Jōji is restored to the original. The later Kaede screenshot is clarification, not another generation. No automatic rerolls.
+
+Repair the genuine peaceful-departure gap and guard duplicate investigation quest offers. Keep the Spider anomaly and party-wide diadem. Add recurring pursuit of the actually traced Summoned one, scaled to that bearer with finite opposition, at least 100 completed ticks after the last actual resolution, scene-aware deferral and a campaign conclusion stop. Semantic outcomes remain native; exact ownership and pacing remain script checks.
+
+The Gemini report is audit findings first, per explicit answer. Record real defects, incorrect schema claims and untested hypotheses separately. Do not apply its scroll, board, item-slot, placement or other proposed repairs, or change encounter rules/travel settings, in this update.

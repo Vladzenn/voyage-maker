@@ -1,0 +1,652 @@
+[
+  [
+    "The Seventh Counterstroke",
+    "a",
+    false
+  ],
+  [
+    "Foxfire Procession",
+    "p",
+    false
+  ],
+  [
+    "The River Wears Your Face",
+    "a",
+    false
+  ],
+  [
+    "The Mason's Last Word",
+    "a",
+    false
+  ],
+  [
+    "The Hundredth Feather",
+    "p",
+    false
+  ],
+  [
+    "Thunder's Second Name",
+    "a",
+    false
+  ],
+  [
+    "Winter's Borrowed Crown",
+    "a",
+    false
+  ],
+  [
+    "Noon Behind Closed Eyes",
+    "p",
+    false
+  ],
+  [
+    "The Blacksmith's White Lie",
+    "a",
+    false
+  ],
+  [
+    "A Garden Between Heartbeats",
+    "a",
+    false
+  ],
+  [
+    "The Bell That Answers Nothing",
+    "a",
+    false
+  ],
+  [
+    "Crownfall Waltz",
+    "a",
+    false
+  ],
+  [
+    "The Seam That Holds",
+    "p",
+    false
+  ],
+  [
+    "Mercy's Last Stitch",
+    "a",
+    false
+  ],
+  [
+    "A Guest Made of Rain",
+    "a",
+    false
+  ],
+  [
+    "The Applause Behind You",
+    "p",
+    false
+  ],
+  [
+    "Footprint of the Unchosen Road",
+    "a",
+    false
+  ],
+  [
+    "The Hole in the Chorus",
+    "a",
+    false
+  ],
+  [
+    "The Door Within Reach",
+    "a",
+    true
+  ],
+  [
+    "The Ferryman's Small Courtesy",
+    "p",
+    false
+  ],
+  [
+    "Paper Moon Phalanx",
+    "m",
+    false
+  ],
+  [
+    "Cathedral of Cinders",
+    "m",
+    false
+  ],
+  [
+    "Hollow-Lake Reversal",
+    "m",
+    false
+  ],
+  [
+    "Sleeping Dune Coffin",
+    "a",
+    false
+  ],
+  [
+    "The Uninvited Gale",
+    "a",
+    false
+  ],
+  [
+    "Lighthouse in Your Hand",
+    "a",
+    false
+  ],
+  [
+    "Borrowed Breath",
+    "a",
+    false
+  ],
+  [
+    "One More Chore",
+    "a",
+    false
+  ],
+  [
+    "The Coppersmith's Pet Dragon",
+    "a",
+    false
+  ],
+  [
+    "Invitation to an Empty Room",
+    "a",
+    false
+  ],
+  [
+    "The Porter's Invisible Palm",
+    "p",
+    false
+  ],
+  [
+    "Lanternwright's Spare Hand",
+    "p",
+    false
+  ],
+  [
+    "The Unbroken Chalk Circle",
+    "p",
+    false
+  ],
+  [
+    "Three Steps of Shelter",
+    "a",
+    false
+  ],
+  [
+    "Last Light in the Reservoir",
+    "m",
+    false
+  ],
+  [
+    "A Coal Kept Kindly",
+    "p",
+    false
+  ],
+  [
+    "The Baker's Even Hearth",
+    "p",
+    false
+  ],
+  [
+    "Red Thread across the Fuse",
+    "p",
+    false
+  ],
+  [
+    "Cinderstep Reversal",
+    "a",
+    false
+  ],
+  [
+    "The Kiln That Breathes Twice",
+    "a",
+    false
+  ],
+  [
+    "The Seamstress's Dry Cuff",
+    "p",
+    false
+  ],
+  [
+    "A Cup for the Last Traveler",
+    "p",
+    false
+  ],
+  [
+    "Millrace in Miniature",
+    "p",
+    false
+  ],
+  [
+    "The Ferryman's Sideways Wake",
+    "a",
+    false
+  ],
+  [
+    "Blue Ribbon Restraint",
+    "a",
+    false
+  ],
+  [
+    "The Mason's Patient Thumb",
+    "p",
+    false
+  ],
+  [
+    "Dust Drawn to the Door",
+    "p",
+    false
+  ],
+  [
+    "A Furrow Before Rain",
+    "p",
+    false
+  ],
+  [
+    "The Bank That Held",
+    "a",
+    false
+  ],
+  [
+    "Sandglass Interdict",
+    "a",
+    false
+  ],
+  [
+    "The Launderer's Borrowed Breeze",
+    "p",
+    false
+  ],
+  [
+    "A Whisper Kept Downstream",
+    "p",
+    false
+  ],
+  [
+    "The Sailmaker's Gentle Test",
+    "p",
+    false
+  ],
+  [
+    "Featherfall for a Friend",
+    "a",
+    false
+  ],
+  [
+    "The Storm's Narrow Shoulder",
+    "a",
+    false
+  ],
+  [
+    "The Clockmaker's Testing Spark",
+    "p",
+    false
+  ],
+  [
+    "A Bell without a Rope",
+    "p",
+    false
+  ],
+  [
+    "Blue Stitch across Broken Copper",
+    "p",
+    false
+  ],
+  [
+    "Thunder at the Wrong Foot",
+    "a",
+    false
+  ],
+  [
+    "The Storm Needle's Answer",
+    "a",
+    false
+  ],
+  [
+    "The Fishmonger's Cold Cloth",
+    "p",
+    false
+  ],
+  [
+    "A Frosted Window's Secret",
+    "p",
+    false
+  ],
+  [
+    "The Miller's Quiet Chill",
+    "p",
+    false
+  ],
+  [
+    "White Heel upon the Step",
+    "a",
+    false
+  ],
+  [
+    "Winter's Borrowed Splint",
+    "a",
+    false
+  ],
+  [
+    "The Scribe's Unshadowed Page",
+    "p",
+    false
+  ],
+  [
+    "A Harbor Lamp Answered",
+    "p",
+    false
+  ],
+  [
+    "The Glassworker's Revealing Edge",
+    "p",
+    false
+  ],
+  [
+    "Starlight Beneath the Door",
+    "a",
+    false
+  ],
+  [
+    "The Noon Lance's Mercy",
+    "a",
+    false
+  ],
+  [
+    "The Locksmith's Honest Witness",
+    "p",
+    false
+  ],
+  [
+    "Needles Gathered in a Bowl",
+    "p",
+    false
+  ],
+  [
+    "The Tinsmith's Gentle Seam",
+    "p",
+    false
+  ],
+  [
+    "The Coin That Stood on Edge",
+    "a",
+    false
+  ],
+  [
+    "Iron Petals at the Wrist",
+    "a",
+    false
+  ],
+  [
+    "The Gardener's Returning Tendril",
+    "p",
+    false
+  ],
+  [
+    "Thorns at the Orchard Gate",
+    "p",
+    false
+  ],
+  [
+    "A Leaf Turned toward Home",
+    "p",
+    false
+  ],
+  [
+    "Rootwork under the Barrow",
+    "a",
+    false
+  ],
+  [
+    "The Hedge That Bowed Aside",
+    "a",
+    false
+  ],
+  [
+    "The Musician's Unbroken Note",
+    "p",
+    false
+  ],
+  [
+    "A Knock through the Floorboards",
+    "p",
+    false
+  ],
+  [
+    "The Bellfounder's Hidden Crack",
+    "p",
+    false
+  ],
+  [
+    "Quiet around the Cradle",
+    "a",
+    false
+  ],
+  [
+    "The Empty Hall Replies",
+    "a",
+    false
+  ],
+  [
+    "The Potter's Centered Wheel",
+    "p",
+    false
+  ],
+  [
+    "A Ladder's Second Foot",
+    "p",
+    false
+  ],
+  [
+    "The Porter's Unburdening",
+    "p",
+    false
+  ],
+  [
+    "The Feather's Firm Descent",
+    "a",
+    false
+  ],
+  [
+    "The Courtyard's Heavy Hush",
+    "a",
+    false
+  ],
+  [
+    "The Candle's Missing Shadow",
+    "p",
+    false
+  ],
+  [
+    "A Spell's Loose Thread",
+    "p",
+    false
+  ],
+  [
+    "The Quiet between Two Wards",
+    "p",
+    false
+  ],
+  [
+    "Nightcloth across the Lens",
+    "a",
+    false
+  ],
+  [
+    "The Counterchord Unfinished",
+    "m",
+    false
+  ],
+  [
+    "The Medic's Steady Fingers",
+    "p",
+    false
+  ],
+  [
+    "A Breath Counted Kindly",
+    "p",
+    false
+  ],
+  [
+    "The Stitch That Held",
+    "p",
+    false
+  ],
+  [
+    "Warmth at the Broken Road",
+    "a",
+    false
+  ],
+  [
+    "The Nightwatcher's Second Hour",
+    "a",
+    false
+  ],
+  [
+    "The Apron's Unburnt Hem",
+    "p",
+    false
+  ],
+  [
+    "A Cup That Remembers Warmth",
+    "p",
+    false
+  ],
+  [
+    "The Hinge's Quiet Promise",
+    "p",
+    false
+  ],
+  [
+    "The Worker's True Measure",
+    "a",
+    false
+  ],
+  [
+    "The Shield's Borrowed Resolve",
+    "a",
+    false
+  ],
+  [
+    "The Errand Mote Returns",
+    "p",
+    false
+  ],
+  [
+    "A Clay Hand at the Bench",
+    "p",
+    false
+  ],
+  [
+    "The Lantern Beetle's Visit",
+    "p",
+    false
+  ],
+  [
+    "The Paper Warden's Stand",
+    "a",
+    false
+  ],
+  [
+    "The Last Decoy in the Lane",
+    "a",
+    false
+  ],
+  [
+    "The Tailor's Uncut Pattern",
+    "p",
+    false
+  ],
+  [
+    "A Map Drawn in the Air",
+    "p",
+    false
+  ],
+  [
+    "The Borrowed Crowd's Murmur",
+    "p",
+    false
+  ],
+  [
+    "The Wrong Door's Invitation",
+    "a",
+    false
+  ],
+  [
+    "Afterimage on the Stair",
+    "a",
+    false
+  ],
+  [
+    "The Cook's Unwelcome Hint",
+    "p",
+    false
+  ],
+  [
+    "A Footstep Noticed Twice",
+    "p",
+    false
+  ],
+  [
+    "The Missing Page's Neighbor",
+    "p",
+    false
+  ],
+  [
+    "The Fork in Tomorrow's Path",
+    "a",
+    false
+  ],
+  [
+    "An Echo at the Threshold",
+    "m",
+    false
+  ],
+  [
+    "The Fold between Two Cups",
+    "p",
+    true
+  ],
+  [
+    "A Thread through the Open Window",
+    "p",
+    true
+  ],
+  [
+    "The Surveyor's Shorter String",
+    "p",
+    true
+  ],
+  [
+    "The Step behind the Banner",
+    "a",
+    true
+  ],
+  [
+    "The Return Fold's Careful Knot",
+    "m",
+    true
+  ],
+  [
+    "The Hearthkeeper's Farewell",
+    "p",
+    false
+  ],
+  [
+    "The Grave Tender's Lantern",
+    "p",
+    false
+  ],
+  [
+    "A Bone Hand for the Lamp",
+    "p",
+    false
+  ],
+  [
+    "The Unborrowed Voice",
+    "a",
+    false
+  ],
+  [
+    "A Threshold Kept for the Living",
+    "m",
+    false
+  ]
+]

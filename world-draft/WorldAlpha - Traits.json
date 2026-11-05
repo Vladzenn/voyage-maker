@@ -6312,7 +6312,7 @@
     "attributes": [],
     "excludedBy": [],
     "unlockedBy": [],
-    "description": "Take half damage from the poisoning damage type. This is resistance, not immunity to poison or disease.",
+    "description": "Take half damage from the poison damage type. This is resistance, not immunity to poison or disease.",
     "requirements": [
       {
         "type": "characterLevel",
@@ -6320,9 +6320,9 @@
       }
     ],
     "startingItems": [],
-    "traitNarrativeEffects": "Native poisoning resistance halves damage explicitly typed poisoning. It does not cure poison, remove an existing disease, negate separate statuses, or guarantee safety from exposure.",
+    "traitNarrativeEffects": "Native poison resistance halves damage explicitly typed poison. It does not cure poison, remove an existing disease, negate separate statuses, or guarantee safety from exposure.",
     "resistances": [
-      "poisoning"
+      "poison"
     ]
   },
   "Arcane Ward": {
@@ -17292,6 +17292,420 @@
     "resources": [],
     "startingItems": [],
     "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Elemental Resonance": {
+    "name": "Elemental Resonance",
+    "description": "Different elements can answer one another, gathering echoes that build toward a resonant surge.",
+    "traitNarrativeEffects": "Elemental reactions can gather Resonance without teaching a new spell, affinity or skill. Actual learned methods and ordinary costs remain.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Gathered Resonance": {
+    "name": "Gathered Resonance",
+    "description": "The last elemental combination still hums through your mana.",
+    "traitNarrativeEffects": "One genuine elemental reaction has left one earned spark. This is energy from the completed combination, not a second attack or an additional gain.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Quiet Resonance": {
+    "name": "Quiet Resonance",
+    "description": "Your resonance is quiet.",
+    "traitNarrativeEffects": "Exactly 0 earned Resonance. No passive, rest, daily or level-up refill.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Resonance: 1": {
+    "name": "Resonance: 1",
+    "description": "You have gathered 1 of 20 points of Resonance through elemental reactions.",
+    "traitNarrativeEffects": "Exactly 1 earned Resonance. No passive, rest, daily or level-up refill.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Resonance: 2": {
+    "name": "Resonance: 2",
+    "description": "You have gathered 2 of 20 points of Resonance through elemental reactions.",
+    "traitNarrativeEffects": "Exactly 2 earned Resonance. No passive, rest, daily or level-up refill.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Resonance: 3": {
+    "name": "Resonance: 3",
+    "description": "You have gathered 3 of 20 points of Resonance through elemental reactions.",
+    "traitNarrativeEffects": "Exactly 3 earned Resonance. No passive, rest, daily or level-up refill.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Resonance: 4": {
+    "name": "Resonance: 4",
+    "description": "You have gathered 4 of 20 points of Resonance through elemental reactions.",
+    "traitNarrativeEffects": "Exactly 4 earned Resonance. No passive, rest, daily or level-up refill.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Resonance: 5": {
+    "name": "Resonance: 5",
+    "description": "You have gathered 5 of 20 points of Resonance through elemental reactions.",
+    "traitNarrativeEffects": "Exactly 5 earned Resonance. No passive, rest, daily or level-up refill.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Resonance: 6": {
+    "name": "Resonance: 6",
+    "description": "You have gathered 6 of 20 points of Resonance through elemental reactions.",
+    "traitNarrativeEffects": "Exactly 6 earned Resonance. No passive, rest, daily or level-up refill.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Resonance: 7": {
+    "name": "Resonance: 7",
+    "description": "You have gathered 7 of 20 points of Resonance through elemental reactions.",
+    "traitNarrativeEffects": "Exactly 7 earned Resonance. No passive, rest, daily or level-up refill.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Resonance: 8": {
+    "name": "Resonance: 8",
+    "description": "You have gathered 8 of 20 points of Resonance through elemental reactions.",
+    "traitNarrativeEffects": "Exactly 8 earned Resonance. No passive, rest, daily or level-up refill.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Resonance: 9": {
+    "name": "Resonance: 9",
+    "description": "You have gathered 9 of 20 points of Resonance through elemental reactions.",
+    "traitNarrativeEffects": "Exactly 9 earned Resonance. No passive, rest, daily or level-up refill.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Resonance: 10": {
+    "name": "Resonance: 10",
+    "description": "You have gathered 10 of 20 points of Resonance through elemental reactions.",
+    "traitNarrativeEffects": "Exactly 10 earned Resonance. No passive, rest, daily or level-up refill.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Resonance: 11": {
+    "name": "Resonance: 11",
+    "description": "You have gathered 11 of 20 points of Resonance through elemental reactions.",
+    "traitNarrativeEffects": "Exactly 11 earned Resonance. No passive, rest, daily or level-up refill.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Resonance: 12": {
+    "name": "Resonance: 12",
+    "description": "You have gathered 12 of 20 points of Resonance through elemental reactions.",
+    "traitNarrativeEffects": "Exactly 12 earned Resonance. No passive, rest, daily or level-up refill.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Resonance: 13": {
+    "name": "Resonance: 13",
+    "description": "You have gathered 13 of 20 points of Resonance through elemental reactions.",
+    "traitNarrativeEffects": "Exactly 13 earned Resonance. No passive, rest, daily or level-up refill.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Resonance: 14": {
+    "name": "Resonance: 14",
+    "description": "You have gathered 14 of 20 points of Resonance through elemental reactions.",
+    "traitNarrativeEffects": "Exactly 14 earned Resonance. No passive, rest, daily or level-up refill.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Resonance: 15": {
+    "name": "Resonance: 15",
+    "description": "You have gathered 15 of 20 points of Resonance through elemental reactions.",
+    "traitNarrativeEffects": "Exactly 15 earned Resonance. No passive, rest, daily or level-up refill.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Resonance: 16": {
+    "name": "Resonance: 16",
+    "description": "You have gathered 16 of 20 points of Resonance through elemental reactions.",
+    "traitNarrativeEffects": "Exactly 16 earned Resonance. No passive, rest, daily or level-up refill.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Resonance: 17": {
+    "name": "Resonance: 17",
+    "description": "You have gathered 17 of 20 points of Resonance through elemental reactions.",
+    "traitNarrativeEffects": "Exactly 17 earned Resonance. No passive, rest, daily or level-up refill.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Resonance: 18": {
+    "name": "Resonance: 18",
+    "description": "You have gathered 18 of 20 points of Resonance through elemental reactions.",
+    "traitNarrativeEffects": "Exactly 18 earned Resonance. No passive, rest, daily or level-up refill.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Resonance: 19": {
+    "name": "Resonance: 19",
+    "description": "You have gathered 19 of 20 points of Resonance through elemental reactions.",
+    "traitNarrativeEffects": "Exactly 19 earned Resonance. No passive, rest, daily or level-up refill.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 151
+      }
+    ]
+  },
+  "Resonant": {
+    "name": "Resonant",
+    "description": "Your resonance is full. The next landed damaging spell or combat technique can release the stored surge.",
+    "traitNarrativeEffects": "Exactly 20 earned Resonance. No passive, rest, daily or level-up refill. A damaging technique that begins with this readiness can gain 50% ordinary damage once on landing. A miss or nondamaging action retains readiness; no free hit or extra Mana. Newly reached readiness never enhances an already resolved action.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
     "unlockedBy": [],
     "excludedBy": [],
     "requirements": [

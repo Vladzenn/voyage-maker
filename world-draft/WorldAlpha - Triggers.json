@@ -12972,1392 +12972,6 @@
       }
     ]
   },
-  "item31_study_01": {
-    "name": "item31_study_01",
-    "recurring": true,
-    "scope": "player",
-    "conditions": [
-      {
-        "type": "player-item",
-        "item": "Teaching Scroll: The Seventh Counterstroke",
-        "operator": "greaterThan",
-        "value": 0
-      },
-      {
-        "type": "player-traits",
-        "operator": "notContains",
-        "value": "Formula: The Seventh Counterstroke"
-      },
-      {
-        "type": "story",
-        "query": "In the latest scene or immediately preceding scene, this player actually completed successful deliberate study of their genuine held Teaching Scroll: The Seventh Counterstroke, understanding the specific The Seventh Counterstroke blueprint for the first time. Study its structure, identify a genuine difficulty and complete a successful controlled test. Substantial research can compensate for low proficiency; a glance cannot. Honor the real successful final study result; failed attempts, a plan, a quotation, reading the inventory label, copying unread symbols, another person learning, or already knowing this formula are false. The scroll is still held and has not already been consumed."
-      }
-    ],
-    "effects": [
-      {
-        "type": "player-traits",
-        "operator": "add",
-        "value": "Formula: The Seventh Counterstroke",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "player-abilities",
-        "operator": "add",
-        "value": "The Seventh Counterstroke",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "item-remove",
-        "item": "Teaching Scroll: The Seventh Counterstroke",
-        "quantity": 1,
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "story",
-        "instruction": "The actual reader has learned The Seventh Counterstroke; the script fades and one teaching scroll is consumed. The supplied effects already grant the formula and ability. Describe that discovery without a second grant or removal. No ability point, affinity, discipline rank, character level, automatic cast or extra Mana is granted. An unused duplicate stays readable but cannot teach this same formula twice."
-      }
-    ]
-  },
-  "item31_study_02": {
-    "name": "item31_study_02",
-    "recurring": true,
-    "scope": "player",
-    "conditions": [
-      {
-        "type": "player-item",
-        "item": "Teaching Scroll: Foxfire Procession",
-        "operator": "greaterThan",
-        "value": 0
-      },
-      {
-        "type": "player-traits",
-        "operator": "notContains",
-        "value": "Formula: Foxfire Procession"
-      },
-      {
-        "type": "story",
-        "query": "In the latest scene or immediately preceding scene, this player actually completed successful deliberate study of their genuine held Teaching Scroll: Foxfire Procession, understanding the specific Foxfire Procession blueprint for the first time. A focused study and a real successful exercise can suffice; an unfamiliar formula may take another attempt. Honor the real successful final study result; failed attempts, a plan, a quotation, reading the inventory label, copying unread symbols, another person learning, or already knowing this formula are false. The scroll is still held and has not already been consumed."
-      }
-    ],
-    "effects": [
-      {
-        "type": "player-traits",
-        "operator": "add",
-        "value": "Formula: Foxfire Procession",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "player-abilities",
-        "operator": "add",
-        "value": "Foxfire Procession",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "item-remove",
-        "item": "Teaching Scroll: Foxfire Procession",
-        "quantity": 1,
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "story",
-        "instruction": "The actual reader has learned Foxfire Procession; the script fades and one teaching scroll is consumed. The supplied effects already grant the formula and ability. Describe that discovery without a second grant or removal. No ability point, affinity, discipline rank, character level, automatic cast or extra Mana is granted. An unused duplicate stays readable but cannot teach this same formula twice."
-      }
-    ]
-  },
-  "item31_study_03": {
-    "name": "item31_study_03",
-    "recurring": true,
-    "scope": "player",
-    "conditions": [
-      {
-        "type": "player-item",
-        "item": "Teaching Scroll: The River Wears Your Face",
-        "operator": "greaterThan",
-        "value": 0
-      },
-      {
-        "type": "player-traits",
-        "operator": "notContains",
-        "value": "Formula: The River Wears Your Face"
-      },
-      {
-        "type": "story",
-        "query": "In the latest scene or immediately preceding scene, this player actually completed successful deliberate study of their genuine held Teaching Scroll: The River Wears Your Face, understanding the specific The River Wears Your Face blueprint for the first time. Study its structure, identify a genuine difficulty and complete a successful controlled test. Substantial research can compensate for low proficiency; a glance cannot. Honor the real successful final study result; failed attempts, a plan, a quotation, reading the inventory label, copying unread symbols, another person learning, or already knowing this formula are false. The scroll is still held and has not already been consumed."
-      }
-    ],
-    "effects": [
-      {
-        "type": "player-traits",
-        "operator": "add",
-        "value": "Formula: The River Wears Your Face",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "player-abilities",
-        "operator": "add",
-        "value": "The River Wears Your Face",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "item-remove",
-        "item": "Teaching Scroll: The River Wears Your Face",
-        "quantity": 1,
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "story",
-        "instruction": "The actual reader has learned The River Wears Your Face; the script fades and one teaching scroll is consumed. The supplied effects already grant the formula and ability. Describe that discovery without a second grant or removal. No ability point, affinity, discipline rank, character level, automatic cast or extra Mana is granted. An unused duplicate stays readable but cannot teach this same formula twice."
-      }
-    ]
-  },
-  "item31_study_04": {
-    "name": "item31_study_04",
-    "recurring": true,
-    "scope": "player",
-    "conditions": [
-      {
-        "type": "player-item",
-        "item": "Teaching Scroll: The Mason's Last Word",
-        "operator": "greaterThan",
-        "value": 0
-      },
-      {
-        "type": "player-traits",
-        "operator": "notContains",
-        "value": "Formula: The Mason's Last Word"
-      },
-      {
-        "type": "story",
-        "query": "In the latest scene or immediately preceding scene, this player actually completed successful deliberate study of their genuine held Teaching Scroll: The Mason's Last Word, understanding the specific The Mason's Last Word blueprint for the first time. Study its structure, identify a genuine difficulty and complete a successful controlled test. Substantial research can compensate for low proficiency; a glance cannot. Honor the real successful final study result; failed attempts, a plan, a quotation, reading the inventory label, copying unread symbols, another person learning, or already knowing this formula are false. The scroll is still held and has not already been consumed."
-      }
-    ],
-    "effects": [
-      {
-        "type": "player-traits",
-        "operator": "add",
-        "value": "Formula: The Mason's Last Word",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "player-abilities",
-        "operator": "add",
-        "value": "The Mason's Last Word",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "item-remove",
-        "item": "Teaching Scroll: The Mason's Last Word",
-        "quantity": 1,
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "story",
-        "instruction": "The actual reader has learned The Mason's Last Word; the script fades and one teaching scroll is consumed. The supplied effects already grant the formula and ability. Describe that discovery without a second grant or removal. No ability point, affinity, discipline rank, character level, automatic cast or extra Mana is granted. An unused duplicate stays readable but cannot teach this same formula twice."
-      }
-    ]
-  },
-  "item31_study_05": {
-    "name": "item31_study_05",
-    "recurring": true,
-    "scope": "player",
-    "conditions": [
-      {
-        "type": "player-item",
-        "item": "Teaching Scroll: The Hundredth Feather",
-        "operator": "greaterThan",
-        "value": 0
-      },
-      {
-        "type": "player-traits",
-        "operator": "notContains",
-        "value": "Formula: The Hundredth Feather"
-      },
-      {
-        "type": "story",
-        "query": "In the latest scene or immediately preceding scene, this player actually completed successful deliberate study of their genuine held Teaching Scroll: The Hundredth Feather, understanding the specific The Hundredth Feather blueprint for the first time. A focused study and a real successful exercise can suffice; an unfamiliar formula may take another attempt. Honor the real successful final study result; failed attempts, a plan, a quotation, reading the inventory label, copying unread symbols, another person learning, or already knowing this formula are false. The scroll is still held and has not already been consumed."
-      }
-    ],
-    "effects": [
-      {
-        "type": "player-traits",
-        "operator": "add",
-        "value": "Formula: The Hundredth Feather",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "player-abilities",
-        "operator": "add",
-        "value": "The Hundredth Feather",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "item-remove",
-        "item": "Teaching Scroll: The Hundredth Feather",
-        "quantity": 1,
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "story",
-        "instruction": "The actual reader has learned The Hundredth Feather; the script fades and one teaching scroll is consumed. The supplied effects already grant the formula and ability. Describe that discovery without a second grant or removal. No ability point, affinity, discipline rank, character level, automatic cast or extra Mana is granted. An unused duplicate stays readable but cannot teach this same formula twice."
-      }
-    ]
-  },
-  "item31_study_06": {
-    "name": "item31_study_06",
-    "recurring": true,
-    "scope": "player",
-    "conditions": [
-      {
-        "type": "player-item",
-        "item": "Teaching Scroll: Thunder's Second Name",
-        "operator": "greaterThan",
-        "value": 0
-      },
-      {
-        "type": "player-traits",
-        "operator": "notContains",
-        "value": "Formula: Thunder's Second Name"
-      },
-      {
-        "type": "story",
-        "query": "In the latest scene or immediately preceding scene, this player actually completed successful deliberate study of their genuine held Teaching Scroll: Thunder's Second Name, understanding the specific Thunder's Second Name blueprint for the first time. Study its structure, identify a genuine difficulty and complete a successful controlled test. Substantial research can compensate for low proficiency; a glance cannot. Honor the real successful final study result; failed attempts, a plan, a quotation, reading the inventory label, copying unread symbols, another person learning, or already knowing this formula are false. The scroll is still held and has not already been consumed."
-      }
-    ],
-    "effects": [
-      {
-        "type": "player-traits",
-        "operator": "add",
-        "value": "Formula: Thunder's Second Name",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "player-abilities",
-        "operator": "add",
-        "value": "Thunder's Second Name",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "item-remove",
-        "item": "Teaching Scroll: Thunder's Second Name",
-        "quantity": 1,
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "story",
-        "instruction": "The actual reader has learned Thunder's Second Name; the script fades and one teaching scroll is consumed. The supplied effects already grant the formula and ability. Describe that discovery without a second grant or removal. No ability point, affinity, discipline rank, character level, automatic cast or extra Mana is granted. An unused duplicate stays readable but cannot teach this same formula twice."
-      }
-    ]
-  },
-  "item31_study_07": {
-    "name": "item31_study_07",
-    "recurring": true,
-    "scope": "player",
-    "conditions": [
-      {
-        "type": "player-item",
-        "item": "Teaching Scroll: Winter's Borrowed Crown",
-        "operator": "greaterThan",
-        "value": 0
-      },
-      {
-        "type": "player-traits",
-        "operator": "notContains",
-        "value": "Formula: Winter's Borrowed Crown"
-      },
-      {
-        "type": "story",
-        "query": "In the latest scene or immediately preceding scene, this player actually completed successful deliberate study of their genuine held Teaching Scroll: Winter's Borrowed Crown, understanding the specific Winter's Borrowed Crown blueprint for the first time. Study its structure, identify a genuine difficulty and complete a successful controlled test. Substantial research can compensate for low proficiency; a glance cannot. Honor the real successful final study result; failed attempts, a plan, a quotation, reading the inventory label, copying unread symbols, another person learning, or already knowing this formula are false. The scroll is still held and has not already been consumed."
-      }
-    ],
-    "effects": [
-      {
-        "type": "player-traits",
-        "operator": "add",
-        "value": "Formula: Winter's Borrowed Crown",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "player-abilities",
-        "operator": "add",
-        "value": "Winter's Borrowed Crown",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "item-remove",
-        "item": "Teaching Scroll: Winter's Borrowed Crown",
-        "quantity": 1,
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "story",
-        "instruction": "The actual reader has learned Winter's Borrowed Crown; the script fades and one teaching scroll is consumed. The supplied effects already grant the formula and ability. Describe that discovery without a second grant or removal. No ability point, affinity, discipline rank, character level, automatic cast or extra Mana is granted. An unused duplicate stays readable but cannot teach this same formula twice."
-      }
-    ]
-  },
-  "item31_study_08": {
-    "name": "item31_study_08",
-    "recurring": true,
-    "scope": "player",
-    "conditions": [
-      {
-        "type": "player-item",
-        "item": "Teaching Scroll: Noon Behind Closed Eyes",
-        "operator": "greaterThan",
-        "value": 0
-      },
-      {
-        "type": "player-traits",
-        "operator": "notContains",
-        "value": "Formula: Noon Behind Closed Eyes"
-      },
-      {
-        "type": "story",
-        "query": "In the latest scene or immediately preceding scene, this player actually completed successful deliberate study of their genuine held Teaching Scroll: Noon Behind Closed Eyes, understanding the specific Noon Behind Closed Eyes blueprint for the first time. A focused study and a real successful exercise can suffice; an unfamiliar formula may take another attempt. Honor the real successful final study result; failed attempts, a plan, a quotation, reading the inventory label, copying unread symbols, another person learning, or already knowing this formula are false. The scroll is still held and has not already been consumed."
-      }
-    ],
-    "effects": [
-      {
-        "type": "player-traits",
-        "operator": "add",
-        "value": "Formula: Noon Behind Closed Eyes",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "player-abilities",
-        "operator": "add",
-        "value": "Noon Behind Closed Eyes",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "item-remove",
-        "item": "Teaching Scroll: Noon Behind Closed Eyes",
-        "quantity": 1,
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "story",
-        "instruction": "The actual reader has learned Noon Behind Closed Eyes; the script fades and one teaching scroll is consumed. The supplied effects already grant the formula and ability. Describe that discovery without a second grant or removal. No ability point, affinity, discipline rank, character level, automatic cast or extra Mana is granted. An unused duplicate stays readable but cannot teach this same formula twice."
-      }
-    ]
-  },
-  "item31_study_09": {
-    "name": "item31_study_09",
-    "recurring": true,
-    "scope": "player",
-    "conditions": [
-      {
-        "type": "player-item",
-        "item": "Teaching Scroll: The Blacksmith's White Lie",
-        "operator": "greaterThan",
-        "value": 0
-      },
-      {
-        "type": "player-traits",
-        "operator": "notContains",
-        "value": "Formula: The Blacksmith's White Lie"
-      },
-      {
-        "type": "story",
-        "query": "In the latest scene or immediately preceding scene, this player actually completed successful deliberate study of their genuine held Teaching Scroll: The Blacksmith's White Lie, understanding the specific The Blacksmith's White Lie blueprint for the first time. Study its structure, identify a genuine difficulty and complete a successful controlled test. Substantial research can compensate for low proficiency; a glance cannot. Honor the real successful final study result; failed attempts, a plan, a quotation, reading the inventory label, copying unread symbols, another person learning, or already knowing this formula are false. The scroll is still held and has not already been consumed."
-      }
-    ],
-    "effects": [
-      {
-        "type": "player-traits",
-        "operator": "add",
-        "value": "Formula: The Blacksmith's White Lie",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "player-abilities",
-        "operator": "add",
-        "value": "The Blacksmith's White Lie",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "item-remove",
-        "item": "Teaching Scroll: The Blacksmith's White Lie",
-        "quantity": 1,
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "story",
-        "instruction": "The actual reader has learned The Blacksmith's White Lie; the script fades and one teaching scroll is consumed. The supplied effects already grant the formula and ability. Describe that discovery without a second grant or removal. No ability point, affinity, discipline rank, character level, automatic cast or extra Mana is granted. An unused duplicate stays readable but cannot teach this same formula twice."
-      }
-    ]
-  },
-  "item31_study_10": {
-    "name": "item31_study_10",
-    "recurring": true,
-    "scope": "player",
-    "conditions": [
-      {
-        "type": "player-item",
-        "item": "Teaching Scroll: A Garden Between Heartbeats",
-        "operator": "greaterThan",
-        "value": 0
-      },
-      {
-        "type": "player-traits",
-        "operator": "notContains",
-        "value": "Formula: A Garden Between Heartbeats"
-      },
-      {
-        "type": "story",
-        "query": "In the latest scene or immediately preceding scene, this player actually completed successful deliberate study of their genuine held Teaching Scroll: A Garden Between Heartbeats, understanding the specific A Garden Between Heartbeats blueprint for the first time. Study its structure, identify a genuine difficulty and complete a successful controlled test. Substantial research can compensate for low proficiency; a glance cannot. Honor the real successful final study result; failed attempts, a plan, a quotation, reading the inventory label, copying unread symbols, another person learning, or already knowing this formula are false. The scroll is still held and has not already been consumed."
-      }
-    ],
-    "effects": [
-      {
-        "type": "player-traits",
-        "operator": "add",
-        "value": "Formula: A Garden Between Heartbeats",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "player-abilities",
-        "operator": "add",
-        "value": "A Garden Between Heartbeats",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "item-remove",
-        "item": "Teaching Scroll: A Garden Between Heartbeats",
-        "quantity": 1,
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "story",
-        "instruction": "The actual reader has learned A Garden Between Heartbeats; the script fades and one teaching scroll is consumed. The supplied effects already grant the formula and ability. Describe that discovery without a second grant or removal. No ability point, affinity, discipline rank, character level, automatic cast or extra Mana is granted. An unused duplicate stays readable but cannot teach this same formula twice."
-      }
-    ]
-  },
-  "item31_study_11": {
-    "name": "item31_study_11",
-    "recurring": true,
-    "scope": "player",
-    "conditions": [
-      {
-        "type": "player-item",
-        "item": "Teaching Scroll: The Bell That Answers Nothing",
-        "operator": "greaterThan",
-        "value": 0
-      },
-      {
-        "type": "player-traits",
-        "operator": "notContains",
-        "value": "Formula: The Bell That Answers Nothing"
-      },
-      {
-        "type": "story",
-        "query": "In the latest scene or immediately preceding scene, this player actually completed successful deliberate study of their genuine held Teaching Scroll: The Bell That Answers Nothing, understanding the specific The Bell That Answers Nothing blueprint for the first time. Study its structure, identify a genuine difficulty and complete a successful controlled test. Substantial research can compensate for low proficiency; a glance cannot. Honor the real successful final study result; failed attempts, a plan, a quotation, reading the inventory label, copying unread symbols, another person learning, or already knowing this formula are false. The scroll is still held and has not already been consumed."
-      }
-    ],
-    "effects": [
-      {
-        "type": "player-traits",
-        "operator": "add",
-        "value": "Formula: The Bell That Answers Nothing",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "player-abilities",
-        "operator": "add",
-        "value": "The Bell That Answers Nothing",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "item-remove",
-        "item": "Teaching Scroll: The Bell That Answers Nothing",
-        "quantity": 1,
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "story",
-        "instruction": "The actual reader has learned The Bell That Answers Nothing; the script fades and one teaching scroll is consumed. The supplied effects already grant the formula and ability. Describe that discovery without a second grant or removal. No ability point, affinity, discipline rank, character level, automatic cast or extra Mana is granted. An unused duplicate stays readable but cannot teach this same formula twice."
-      }
-    ]
-  },
-  "item31_study_12": {
-    "name": "item31_study_12",
-    "recurring": true,
-    "scope": "player",
-    "conditions": [
-      {
-        "type": "player-item",
-        "item": "Teaching Scroll: Crownfall Waltz",
-        "operator": "greaterThan",
-        "value": 0
-      },
-      {
-        "type": "player-traits",
-        "operator": "notContains",
-        "value": "Formula: Crownfall Waltz"
-      },
-      {
-        "type": "story",
-        "query": "In the latest scene or immediately preceding scene, this player actually completed successful deliberate study of their genuine held Teaching Scroll: Crownfall Waltz, understanding the specific Crownfall Waltz blueprint for the first time. Study its structure, identify a genuine difficulty and complete a successful controlled test. Substantial research can compensate for low proficiency; a glance cannot. Honor the real successful final study result; failed attempts, a plan, a quotation, reading the inventory label, copying unread symbols, another person learning, or already knowing this formula are false. The scroll is still held and has not already been consumed."
-      }
-    ],
-    "effects": [
-      {
-        "type": "player-traits",
-        "operator": "add",
-        "value": "Formula: Crownfall Waltz",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "player-abilities",
-        "operator": "add",
-        "value": "Crownfall Waltz",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "item-remove",
-        "item": "Teaching Scroll: Crownfall Waltz",
-        "quantity": 1,
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "story",
-        "instruction": "The actual reader has learned Crownfall Waltz; the script fades and one teaching scroll is consumed. The supplied effects already grant the formula and ability. Describe that discovery without a second grant or removal. No ability point, affinity, discipline rank, character level, automatic cast or extra Mana is granted. An unused duplicate stays readable but cannot teach this same formula twice."
-      }
-    ]
-  },
-  "item31_study_13": {
-    "name": "item31_study_13",
-    "recurring": true,
-    "scope": "player",
-    "conditions": [
-      {
-        "type": "player-item",
-        "item": "Teaching Scroll: The Seam That Holds",
-        "operator": "greaterThan",
-        "value": 0
-      },
-      {
-        "type": "player-traits",
-        "operator": "notContains",
-        "value": "Formula: The Seam That Holds"
-      },
-      {
-        "type": "story",
-        "query": "In the latest scene or immediately preceding scene, this player actually completed successful deliberate study of their genuine held Teaching Scroll: The Seam That Holds, understanding the specific The Seam That Holds blueprint for the first time. A focused study and a real successful exercise can suffice; an unfamiliar formula may take another attempt. Honor the real successful final study result; failed attempts, a plan, a quotation, reading the inventory label, copying unread symbols, another person learning, or already knowing this formula are false. The scroll is still held and has not already been consumed."
-      }
-    ],
-    "effects": [
-      {
-        "type": "player-traits",
-        "operator": "add",
-        "value": "Formula: The Seam That Holds",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "player-abilities",
-        "operator": "add",
-        "value": "The Seam That Holds",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "item-remove",
-        "item": "Teaching Scroll: The Seam That Holds",
-        "quantity": 1,
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "story",
-        "instruction": "The actual reader has learned The Seam That Holds; the script fades and one teaching scroll is consumed. The supplied effects already grant the formula and ability. Describe that discovery without a second grant or removal. No ability point, affinity, discipline rank, character level, automatic cast or extra Mana is granted. An unused duplicate stays readable but cannot teach this same formula twice."
-      }
-    ]
-  },
-  "item31_study_14": {
-    "name": "item31_study_14",
-    "recurring": true,
-    "scope": "player",
-    "conditions": [
-      {
-        "type": "player-item",
-        "item": "Teaching Scroll: Mercy's Last Stitch",
-        "operator": "greaterThan",
-        "value": 0
-      },
-      {
-        "type": "player-traits",
-        "operator": "notContains",
-        "value": "Formula: Mercy's Last Stitch"
-      },
-      {
-        "type": "story",
-        "query": "In the latest scene or immediately preceding scene, this player actually completed successful deliberate study of their genuine held Teaching Scroll: Mercy's Last Stitch, understanding the specific Mercy's Last Stitch blueprint for the first time. Study its structure, identify a genuine difficulty and complete a successful controlled test. Substantial research can compensate for low proficiency; a glance cannot. Honor the real successful final study result; failed attempts, a plan, a quotation, reading the inventory label, copying unread symbols, another person learning, or already knowing this formula are false. The scroll is still held and has not already been consumed."
-      }
-    ],
-    "effects": [
-      {
-        "type": "player-traits",
-        "operator": "add",
-        "value": "Formula: Mercy's Last Stitch",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "player-abilities",
-        "operator": "add",
-        "value": "Mercy's Last Stitch",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "item-remove",
-        "item": "Teaching Scroll: Mercy's Last Stitch",
-        "quantity": 1,
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "story",
-        "instruction": "The actual reader has learned Mercy's Last Stitch; the script fades and one teaching scroll is consumed. The supplied effects already grant the formula and ability. Describe that discovery without a second grant or removal. No ability point, affinity, discipline rank, character level, automatic cast or extra Mana is granted. An unused duplicate stays readable but cannot teach this same formula twice."
-      }
-    ]
-  },
-  "item31_study_15": {
-    "name": "item31_study_15",
-    "recurring": true,
-    "scope": "player",
-    "conditions": [
-      {
-        "type": "player-item",
-        "item": "Teaching Scroll: A Guest Made of Rain",
-        "operator": "greaterThan",
-        "value": 0
-      },
-      {
-        "type": "player-traits",
-        "operator": "notContains",
-        "value": "Formula: A Guest Made of Rain"
-      },
-      {
-        "type": "story",
-        "query": "In the latest scene or immediately preceding scene, this player actually completed successful deliberate study of their genuine held Teaching Scroll: A Guest Made of Rain, understanding the specific A Guest Made of Rain blueprint for the first time. Study its structure, identify a genuine difficulty and complete a successful controlled test. Substantial research can compensate for low proficiency; a glance cannot. Honor the real successful final study result; failed attempts, a plan, a quotation, reading the inventory label, copying unread symbols, another person learning, or already knowing this formula are false. The scroll is still held and has not already been consumed."
-      }
-    ],
-    "effects": [
-      {
-        "type": "player-traits",
-        "operator": "add",
-        "value": "Formula: A Guest Made of Rain",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "player-abilities",
-        "operator": "add",
-        "value": "A Guest Made of Rain",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "item-remove",
-        "item": "Teaching Scroll: A Guest Made of Rain",
-        "quantity": 1,
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "story",
-        "instruction": "The actual reader has learned A Guest Made of Rain; the script fades and one teaching scroll is consumed. The supplied effects already grant the formula and ability. Describe that discovery without a second grant or removal. No ability point, affinity, discipline rank, character level, automatic cast or extra Mana is granted. An unused duplicate stays readable but cannot teach this same formula twice."
-      }
-    ]
-  },
-  "item31_study_16": {
-    "name": "item31_study_16",
-    "recurring": true,
-    "scope": "player",
-    "conditions": [
-      {
-        "type": "player-item",
-        "item": "Teaching Scroll: The Applause Behind You",
-        "operator": "greaterThan",
-        "value": 0
-      },
-      {
-        "type": "player-traits",
-        "operator": "notContains",
-        "value": "Formula: The Applause Behind You"
-      },
-      {
-        "type": "story",
-        "query": "In the latest scene or immediately preceding scene, this player actually completed successful deliberate study of their genuine held Teaching Scroll: The Applause Behind You, understanding the specific The Applause Behind You blueprint for the first time. A focused study and a real successful exercise can suffice; an unfamiliar formula may take another attempt. Honor the real successful final study result; failed attempts, a plan, a quotation, reading the inventory label, copying unread symbols, another person learning, or already knowing this formula are false. The scroll is still held and has not already been consumed."
-      }
-    ],
-    "effects": [
-      {
-        "type": "player-traits",
-        "operator": "add",
-        "value": "Formula: The Applause Behind You",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "player-abilities",
-        "operator": "add",
-        "value": "The Applause Behind You",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "item-remove",
-        "item": "Teaching Scroll: The Applause Behind You",
-        "quantity": 1,
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "story",
-        "instruction": "The actual reader has learned The Applause Behind You; the script fades and one teaching scroll is consumed. The supplied effects already grant the formula and ability. Describe that discovery without a second grant or removal. No ability point, affinity, discipline rank, character level, automatic cast or extra Mana is granted. An unused duplicate stays readable but cannot teach this same formula twice."
-      }
-    ]
-  },
-  "item31_study_17": {
-    "name": "item31_study_17",
-    "recurring": true,
-    "scope": "player",
-    "conditions": [
-      {
-        "type": "player-item",
-        "item": "Teaching Scroll: Footprint of the Unchosen Road",
-        "operator": "greaterThan",
-        "value": 0
-      },
-      {
-        "type": "player-traits",
-        "operator": "notContains",
-        "value": "Formula: Footprint of the Unchosen Road"
-      },
-      {
-        "type": "story",
-        "query": "In the latest scene or immediately preceding scene, this player actually completed successful deliberate study of their genuine held Teaching Scroll: Footprint of the Unchosen Road, understanding the specific Footprint of the Unchosen Road blueprint for the first time. Study its structure, identify a genuine difficulty and complete a successful controlled test. Substantial research can compensate for low proficiency; a glance cannot. Honor the real successful final study result; failed attempts, a plan, a quotation, reading the inventory label, copying unread symbols, another person learning, or already knowing this formula are false. The scroll is still held and has not already been consumed."
-      }
-    ],
-    "effects": [
-      {
-        "type": "player-traits",
-        "operator": "add",
-        "value": "Formula: Footprint of the Unchosen Road",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "player-abilities",
-        "operator": "add",
-        "value": "Footprint of the Unchosen Road",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "item-remove",
-        "item": "Teaching Scroll: Footprint of the Unchosen Road",
-        "quantity": 1,
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "story",
-        "instruction": "The actual reader has learned Footprint of the Unchosen Road; the script fades and one teaching scroll is consumed. The supplied effects already grant the formula and ability. Describe that discovery without a second grant or removal. No ability point, affinity, discipline rank, character level, automatic cast or extra Mana is granted. An unused duplicate stays readable but cannot teach this same formula twice."
-      }
-    ]
-  },
-  "item31_study_18": {
-    "name": "item31_study_18",
-    "recurring": true,
-    "scope": "player",
-    "conditions": [
-      {
-        "type": "player-item",
-        "item": "Teaching Scroll: The Hole in the Chorus",
-        "operator": "greaterThan",
-        "value": 0
-      },
-      {
-        "type": "player-traits",
-        "operator": "notContains",
-        "value": "Formula: The Hole in the Chorus"
-      },
-      {
-        "type": "story",
-        "query": "In the latest scene or immediately preceding scene, this player actually completed successful deliberate study of their genuine held Teaching Scroll: The Hole in the Chorus, understanding the specific The Hole in the Chorus blueprint for the first time. Study its structure, identify a genuine difficulty and complete a successful controlled test. Substantial research can compensate for low proficiency; a glance cannot. Honor the real successful final study result; failed attempts, a plan, a quotation, reading the inventory label, copying unread symbols, another person learning, or already knowing this formula are false. The scroll is still held and has not already been consumed."
-      }
-    ],
-    "effects": [
-      {
-        "type": "player-traits",
-        "operator": "add",
-        "value": "Formula: The Hole in the Chorus",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "player-abilities",
-        "operator": "add",
-        "value": "The Hole in the Chorus",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "item-remove",
-        "item": "Teaching Scroll: The Hole in the Chorus",
-        "quantity": 1,
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "story",
-        "instruction": "The actual reader has learned The Hole in the Chorus; the script fades and one teaching scroll is consumed. The supplied effects already grant the formula and ability. Describe that discovery without a second grant or removal. No ability point, affinity, discipline rank, character level, automatic cast or extra Mana is granted. An unused duplicate stays readable but cannot teach this same formula twice."
-      }
-    ]
-  },
-  "item31_study_19": {
-    "name": "item31_study_19",
-    "recurring": true,
-    "scope": "player",
-    "conditions": [
-      {
-        "type": "player-item",
-        "item": "Teaching Scroll: The Door Within Reach",
-        "operator": "greaterThan",
-        "value": 0
-      },
-      {
-        "type": "player-traits",
-        "operator": "notContains",
-        "value": "Formula: The Door Within Reach"
-      },
-      {
-        "type": "skill-value",
-        "skill": "Gravity Magic",
-        "operator": "greaterThanOrEqual",
-        "value": 25
-      },
-      {
-        "type": "story",
-        "query": "In the latest scene or immediately preceding scene, this player actually completed successful deliberate study of their genuine held Teaching Scroll: The Door Within Reach, understanding the specific The Door Within Reach blueprint for the first time. Study its structure, identify a genuine difficulty and complete a successful controlled test. Substantial research can compensate for low proficiency; a glance cannot. Honor the real successful final study result; failed attempts, a plan, a quotation, reading the inventory label, copying unread symbols, another person learning, or already knowing this formula are false. The scroll is still held and has not already been consumed."
-      }
-    ],
-    "effects": [
-      {
-        "type": "player-traits",
-        "operator": "add",
-        "value": "Formula: The Door Within Reach",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "player-abilities",
-        "operator": "add",
-        "value": "The Door Within Reach",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "item-remove",
-        "item": "Teaching Scroll: The Door Within Reach",
-        "quantity": 1,
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "story",
-        "instruction": "The actual reader has learned The Door Within Reach; the script fades and one teaching scroll is consumed. The supplied effects already grant the formula and ability. Describe that discovery without a second grant or removal. No ability point, affinity, discipline rank, character level, automatic cast or extra Mana is granted. An unused duplicate stays readable but cannot teach this same formula twice."
-      }
-    ]
-  },
-  "item31_study_20": {
-    "name": "item31_study_20",
-    "recurring": true,
-    "scope": "player",
-    "conditions": [
-      {
-        "type": "player-item",
-        "item": "Teaching Scroll: The Ferryman's Small Courtesy",
-        "operator": "greaterThan",
-        "value": 0
-      },
-      {
-        "type": "player-traits",
-        "operator": "notContains",
-        "value": "Formula: The Ferryman's Small Courtesy"
-      },
-      {
-        "type": "story",
-        "query": "In the latest scene or immediately preceding scene, this player actually completed successful deliberate study of their genuine held Teaching Scroll: The Ferryman's Small Courtesy, understanding the specific The Ferryman's Small Courtesy blueprint for the first time. A focused study and a real successful exercise can suffice; an unfamiliar formula may take another attempt. Honor the real successful final study result; failed attempts, a plan, a quotation, reading the inventory label, copying unread symbols, another person learning, or already knowing this formula are false. The scroll is still held and has not already been consumed."
-      }
-    ],
-    "effects": [
-      {
-        "type": "player-traits",
-        "operator": "add",
-        "value": "Formula: The Ferryman's Small Courtesy",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "player-abilities",
-        "operator": "add",
-        "value": "The Ferryman's Small Courtesy",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "item-remove",
-        "item": "Teaching Scroll: The Ferryman's Small Courtesy",
-        "quantity": 1,
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "story",
-        "instruction": "The actual reader has learned The Ferryman's Small Courtesy; the script fades and one teaching scroll is consumed. The supplied effects already grant the formula and ability. Describe that discovery without a second grant or removal. No ability point, affinity, discipline rank, character level, automatic cast or extra Mana is granted. An unused duplicate stays readable but cannot teach this same formula twice."
-      }
-    ]
-  },
-  "item31_study_21": {
-    "name": "item31_study_21",
-    "recurring": true,
-    "scope": "player",
-    "conditions": [
-      {
-        "type": "player-item",
-        "item": "Teaching Scroll: Paper Moon Phalanx",
-        "operator": "greaterThan",
-        "value": 0
-      },
-      {
-        "type": "player-traits",
-        "operator": "notContains",
-        "value": "Formula: Paper Moon Phalanx"
-      },
-      {
-        "type": "story",
-        "query": "In the latest scene or immediately preceding scene, this player actually completed successful deliberate study of their genuine held Teaching Scroll: Paper Moon Phalanx, understanding the specific Paper Moon Phalanx blueprint for the first time. Require a substantial research project with meaningful preparation, tested corrections and a genuinely successful final deciphering. A critical insight can shorten the work; mere possession or a single casual reading cannot replace it. Honor the real successful final study result; failed attempts, a plan, a quotation, reading the inventory label, copying unread symbols, another person learning, or already knowing this formula are false. The scroll is still held and has not already been consumed."
-      }
-    ],
-    "effects": [
-      {
-        "type": "player-traits",
-        "operator": "add",
-        "value": "Formula: Paper Moon Phalanx",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "player-abilities",
-        "operator": "add",
-        "value": "Paper Moon Phalanx",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "item-remove",
-        "item": "Teaching Scroll: Paper Moon Phalanx",
-        "quantity": 1,
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "story",
-        "instruction": "The actual reader has learned Paper Moon Phalanx; the script fades and one teaching scroll is consumed. The supplied effects already grant the formula and ability. Describe that discovery without a second grant or removal. No ability point, affinity, discipline rank, character level, automatic cast or extra Mana is granted. An unused duplicate stays readable but cannot teach this same formula twice."
-      }
-    ]
-  },
-  "item31_study_22": {
-    "name": "item31_study_22",
-    "recurring": true,
-    "scope": "player",
-    "conditions": [
-      {
-        "type": "player-item",
-        "item": "Teaching Scroll: Cathedral of Cinders",
-        "operator": "greaterThan",
-        "value": 0
-      },
-      {
-        "type": "player-traits",
-        "operator": "notContains",
-        "value": "Formula: Cathedral of Cinders"
-      },
-      {
-        "type": "story",
-        "query": "In the latest scene or immediately preceding scene, this player actually completed successful deliberate study of their genuine held Teaching Scroll: Cathedral of Cinders, understanding the specific Cathedral of Cinders blueprint for the first time. Require a substantial research project with meaningful preparation, tested corrections and a genuinely successful final deciphering. A critical insight can shorten the work; mere possession or a single casual reading cannot replace it. Honor the real successful final study result; failed attempts, a plan, a quotation, reading the inventory label, copying unread symbols, another person learning, or already knowing this formula are false. The scroll is still held and has not already been consumed."
-      }
-    ],
-    "effects": [
-      {
-        "type": "player-traits",
-        "operator": "add",
-        "value": "Formula: Cathedral of Cinders",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "player-abilities",
-        "operator": "add",
-        "value": "Cathedral of Cinders",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "item-remove",
-        "item": "Teaching Scroll: Cathedral of Cinders",
-        "quantity": 1,
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "story",
-        "instruction": "The actual reader has learned Cathedral of Cinders; the script fades and one teaching scroll is consumed. The supplied effects already grant the formula and ability. Describe that discovery without a second grant or removal. No ability point, affinity, discipline rank, character level, automatic cast or extra Mana is granted. An unused duplicate stays readable but cannot teach this same formula twice."
-      }
-    ]
-  },
-  "item31_study_23": {
-    "name": "item31_study_23",
-    "recurring": true,
-    "scope": "player",
-    "conditions": [
-      {
-        "type": "player-item",
-        "item": "Teaching Scroll: Hollow-Lake Reversal",
-        "operator": "greaterThan",
-        "value": 0
-      },
-      {
-        "type": "player-traits",
-        "operator": "notContains",
-        "value": "Formula: Hollow-Lake Reversal"
-      },
-      {
-        "type": "story",
-        "query": "In the latest scene or immediately preceding scene, this player actually completed successful deliberate study of their genuine held Teaching Scroll: Hollow-Lake Reversal, understanding the specific Hollow-Lake Reversal blueprint for the first time. Require a substantial research project with meaningful preparation, tested corrections and a genuinely successful final deciphering. A critical insight can shorten the work; mere possession or a single casual reading cannot replace it. Honor the real successful final study result; failed attempts, a plan, a quotation, reading the inventory label, copying unread symbols, another person learning, or already knowing this formula are false. The scroll is still held and has not already been consumed."
-      }
-    ],
-    "effects": [
-      {
-        "type": "player-traits",
-        "operator": "add",
-        "value": "Formula: Hollow-Lake Reversal",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "player-abilities",
-        "operator": "add",
-        "value": "Hollow-Lake Reversal",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "item-remove",
-        "item": "Teaching Scroll: Hollow-Lake Reversal",
-        "quantity": 1,
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "story",
-        "instruction": "The actual reader has learned Hollow-Lake Reversal; the script fades and one teaching scroll is consumed. The supplied effects already grant the formula and ability. Describe that discovery without a second grant or removal. No ability point, affinity, discipline rank, character level, automatic cast or extra Mana is granted. An unused duplicate stays readable but cannot teach this same formula twice."
-      }
-    ]
-  },
-  "item31_study_24": {
-    "name": "item31_study_24",
-    "recurring": true,
-    "scope": "player",
-    "conditions": [
-      {
-        "type": "player-item",
-        "item": "Teaching Scroll: Sleeping Dune Coffin",
-        "operator": "greaterThan",
-        "value": 0
-      },
-      {
-        "type": "player-traits",
-        "operator": "notContains",
-        "value": "Formula: Sleeping Dune Coffin"
-      },
-      {
-        "type": "story",
-        "query": "In the latest scene or immediately preceding scene, this player actually completed successful deliberate study of their genuine held Teaching Scroll: Sleeping Dune Coffin, understanding the specific Sleeping Dune Coffin blueprint for the first time. Study its structure, identify a genuine difficulty and complete a successful controlled test. Substantial research can compensate for low proficiency; a glance cannot. Honor the real successful final study result; failed attempts, a plan, a quotation, reading the inventory label, copying unread symbols, another person learning, or already knowing this formula are false. The scroll is still held and has not already been consumed."
-      }
-    ],
-    "effects": [
-      {
-        "type": "player-traits",
-        "operator": "add",
-        "value": "Formula: Sleeping Dune Coffin",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "player-abilities",
-        "operator": "add",
-        "value": "Sleeping Dune Coffin",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "item-remove",
-        "item": "Teaching Scroll: Sleeping Dune Coffin",
-        "quantity": 1,
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "story",
-        "instruction": "The actual reader has learned Sleeping Dune Coffin; the script fades and one teaching scroll is consumed. The supplied effects already grant the formula and ability. Describe that discovery without a second grant or removal. No ability point, affinity, discipline rank, character level, automatic cast or extra Mana is granted. An unused duplicate stays readable but cannot teach this same formula twice."
-      }
-    ]
-  },
-  "item31_study_25": {
-    "name": "item31_study_25",
-    "recurring": true,
-    "scope": "player",
-    "conditions": [
-      {
-        "type": "player-item",
-        "item": "Teaching Scroll: The Uninvited Gale",
-        "operator": "greaterThan",
-        "value": 0
-      },
-      {
-        "type": "player-traits",
-        "operator": "notContains",
-        "value": "Formula: The Uninvited Gale"
-      },
-      {
-        "type": "story",
-        "query": "In the latest scene or immediately preceding scene, this player actually completed successful deliberate study of their genuine held Teaching Scroll: The Uninvited Gale, understanding the specific The Uninvited Gale blueprint for the first time. Study its structure, identify a genuine difficulty and complete a successful controlled test. Substantial research can compensate for low proficiency; a glance cannot. Honor the real successful final study result; failed attempts, a plan, a quotation, reading the inventory label, copying unread symbols, another person learning, or already knowing this formula are false. The scroll is still held and has not already been consumed."
-      }
-    ],
-    "effects": [
-      {
-        "type": "player-traits",
-        "operator": "add",
-        "value": "Formula: The Uninvited Gale",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "player-abilities",
-        "operator": "add",
-        "value": "The Uninvited Gale",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "item-remove",
-        "item": "Teaching Scroll: The Uninvited Gale",
-        "quantity": 1,
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "story",
-        "instruction": "The actual reader has learned The Uninvited Gale; the script fades and one teaching scroll is consumed. The supplied effects already grant the formula and ability. Describe that discovery without a second grant or removal. No ability point, affinity, discipline rank, character level, automatic cast or extra Mana is granted. An unused duplicate stays readable but cannot teach this same formula twice."
-      }
-    ]
-  },
-  "item31_study_26": {
-    "name": "item31_study_26",
-    "recurring": true,
-    "scope": "player",
-    "conditions": [
-      {
-        "type": "player-item",
-        "item": "Teaching Scroll: Lighthouse in Your Hand",
-        "operator": "greaterThan",
-        "value": 0
-      },
-      {
-        "type": "player-traits",
-        "operator": "notContains",
-        "value": "Formula: Lighthouse in Your Hand"
-      },
-      {
-        "type": "story",
-        "query": "In the latest scene or immediately preceding scene, this player actually completed successful deliberate study of their genuine held Teaching Scroll: Lighthouse in Your Hand, understanding the specific Lighthouse in Your Hand blueprint for the first time. Study its structure, identify a genuine difficulty and complete a successful controlled test. Substantial research can compensate for low proficiency; a glance cannot. Honor the real successful final study result; failed attempts, a plan, a quotation, reading the inventory label, copying unread symbols, another person learning, or already knowing this formula are false. The scroll is still held and has not already been consumed."
-      }
-    ],
-    "effects": [
-      {
-        "type": "player-traits",
-        "operator": "add",
-        "value": "Formula: Lighthouse in Your Hand",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "player-abilities",
-        "operator": "add",
-        "value": "Lighthouse in Your Hand",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "item-remove",
-        "item": "Teaching Scroll: Lighthouse in Your Hand",
-        "quantity": 1,
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "story",
-        "instruction": "The actual reader has learned Lighthouse in Your Hand; the script fades and one teaching scroll is consumed. The supplied effects already grant the formula and ability. Describe that discovery without a second grant or removal. No ability point, affinity, discipline rank, character level, automatic cast or extra Mana is granted. An unused duplicate stays readable but cannot teach this same formula twice."
-      }
-    ]
-  },
-  "item31_study_27": {
-    "name": "item31_study_27",
-    "recurring": true,
-    "scope": "player",
-    "conditions": [
-      {
-        "type": "player-item",
-        "item": "Teaching Scroll: Borrowed Breath",
-        "operator": "greaterThan",
-        "value": 0
-      },
-      {
-        "type": "player-traits",
-        "operator": "notContains",
-        "value": "Formula: Borrowed Breath"
-      },
-      {
-        "type": "story",
-        "query": "In the latest scene or immediately preceding scene, this player actually completed successful deliberate study of their genuine held Teaching Scroll: Borrowed Breath, understanding the specific Borrowed Breath blueprint for the first time. Study its structure, identify a genuine difficulty and complete a successful controlled test. Substantial research can compensate for low proficiency; a glance cannot. Honor the real successful final study result; failed attempts, a plan, a quotation, reading the inventory label, copying unread symbols, another person learning, or already knowing this formula are false. The scroll is still held and has not already been consumed."
-      }
-    ],
-    "effects": [
-      {
-        "type": "player-traits",
-        "operator": "add",
-        "value": "Formula: Borrowed Breath",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "player-abilities",
-        "operator": "add",
-        "value": "Borrowed Breath",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "item-remove",
-        "item": "Teaching Scroll: Borrowed Breath",
-        "quantity": 1,
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "story",
-        "instruction": "The actual reader has learned Borrowed Breath; the script fades and one teaching scroll is consumed. The supplied effects already grant the formula and ability. Describe that discovery without a second grant or removal. No ability point, affinity, discipline rank, character level, automatic cast or extra Mana is granted. An unused duplicate stays readable but cannot teach this same formula twice."
-      }
-    ]
-  },
-  "item31_study_28": {
-    "name": "item31_study_28",
-    "recurring": true,
-    "scope": "player",
-    "conditions": [
-      {
-        "type": "player-item",
-        "item": "Teaching Scroll: One More Chore",
-        "operator": "greaterThan",
-        "value": 0
-      },
-      {
-        "type": "player-traits",
-        "operator": "notContains",
-        "value": "Formula: One More Chore"
-      },
-      {
-        "type": "story",
-        "query": "In the latest scene or immediately preceding scene, this player actually completed successful deliberate study of their genuine held Teaching Scroll: One More Chore, understanding the specific One More Chore blueprint for the first time. Study its structure, identify a genuine difficulty and complete a successful controlled test. Substantial research can compensate for low proficiency; a glance cannot. Honor the real successful final study result; failed attempts, a plan, a quotation, reading the inventory label, copying unread symbols, another person learning, or already knowing this formula are false. The scroll is still held and has not already been consumed."
-      }
-    ],
-    "effects": [
-      {
-        "type": "player-traits",
-        "operator": "add",
-        "value": "Formula: One More Chore",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "player-abilities",
-        "operator": "add",
-        "value": "One More Chore",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "item-remove",
-        "item": "Teaching Scroll: One More Chore",
-        "quantity": 1,
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "story",
-        "instruction": "The actual reader has learned One More Chore; the script fades and one teaching scroll is consumed. The supplied effects already grant the formula and ability. Describe that discovery without a second grant or removal. No ability point, affinity, discipline rank, character level, automatic cast or extra Mana is granted. An unused duplicate stays readable but cannot teach this same formula twice."
-      }
-    ]
-  },
-  "item31_study_29": {
-    "name": "item31_study_29",
-    "recurring": true,
-    "scope": "player",
-    "conditions": [
-      {
-        "type": "player-item",
-        "item": "Teaching Scroll: The Coppersmith's Pet Dragon",
-        "operator": "greaterThan",
-        "value": 0
-      },
-      {
-        "type": "player-traits",
-        "operator": "notContains",
-        "value": "Formula: The Coppersmith's Pet Dragon"
-      },
-      {
-        "type": "story",
-        "query": "In the latest scene or immediately preceding scene, this player actually completed successful deliberate study of their genuine held Teaching Scroll: The Coppersmith's Pet Dragon, understanding the specific The Coppersmith's Pet Dragon blueprint for the first time. Study its structure, identify a genuine difficulty and complete a successful controlled test. Substantial research can compensate for low proficiency; a glance cannot. Honor the real successful final study result; failed attempts, a plan, a quotation, reading the inventory label, copying unread symbols, another person learning, or already knowing this formula are false. The scroll is still held and has not already been consumed."
-      }
-    ],
-    "effects": [
-      {
-        "type": "player-traits",
-        "operator": "add",
-        "value": "Formula: The Coppersmith's Pet Dragon",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "player-abilities",
-        "operator": "add",
-        "value": "The Coppersmith's Pet Dragon",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "item-remove",
-        "item": "Teaching Scroll: The Coppersmith's Pet Dragon",
-        "quantity": 1,
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "story",
-        "instruction": "The actual reader has learned The Coppersmith's Pet Dragon; the script fades and one teaching scroll is consumed. The supplied effects already grant the formula and ability. Describe that discovery without a second grant or removal. No ability point, affinity, discipline rank, character level, automatic cast or extra Mana is granted. An unused duplicate stays readable but cannot teach this same formula twice."
-      }
-    ]
-  },
-  "item31_study_30": {
-    "name": "item31_study_30",
-    "recurring": true,
-    "scope": "player",
-    "conditions": [
-      {
-        "type": "player-item",
-        "item": "Teaching Scroll: Invitation to an Empty Room",
-        "operator": "greaterThan",
-        "value": 0
-      },
-      {
-        "type": "player-traits",
-        "operator": "notContains",
-        "value": "Formula: Invitation to an Empty Room"
-      },
-      {
-        "type": "story",
-        "query": "In the latest scene or immediately preceding scene, this player actually completed successful deliberate study of their genuine held Teaching Scroll: Invitation to an Empty Room, understanding the specific Invitation to an Empty Room blueprint for the first time. Study its structure, identify a genuine difficulty and complete a successful controlled test. Substantial research can compensate for low proficiency; a glance cannot. Honor the real successful final study result; failed attempts, a plan, a quotation, reading the inventory label, copying unread symbols, another person learning, or already knowing this formula are false. The scroll is still held and has not already been consumed."
-      }
-    ],
-    "effects": [
-      {
-        "type": "player-traits",
-        "operator": "add",
-        "value": "Formula: Invitation to an Empty Room",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "player-abilities",
-        "operator": "add",
-        "value": "Invitation to an Empty Room",
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "item-remove",
-        "item": "Teaching Scroll: Invitation to an Empty Room",
-        "quantity": 1,
-        "target": "satisfyingPlayers"
-      },
-      {
-        "type": "story",
-        "instruction": "The actual reader has learned Invitation to an Empty Room; the script fades and one teaching scroll is consumed. The supplied effects already grant the formula and ability. Describe that discovery without a second grant or removal. No ability point, affinity, discipline rank, character level, automatic cast or extra Mana is granted. An unused duplicate stays readable but cannot teach this same formula twice."
-      }
-    ]
-  },
   "ad34_property_roseberry": {
     "name": "ad34_property_roseberry",
     "conditions": [
@@ -17460,7 +16074,7 @@
       {
         "type": "action-success-level",
         "operator": "greaterThanOrEqual",
-        "value": "mixed results"
+        "value": "imperfect result"
       },
       {
         "type": "action",
@@ -17495,7 +16109,7 @@
       {
         "type": "action-success-level",
         "operator": "greaterThanOrEqual",
-        "value": "mixed results"
+        "value": "imperfect result"
       },
       {
         "type": "action",
@@ -17530,7 +16144,7 @@
       {
         "type": "action-success-level",
         "operator": "lessThan",
-        "value": "mixed results"
+        "value": "imperfect result"
       },
       {
         "type": "action",
@@ -17570,7 +16184,7 @@
       {
         "type": "action-success-level",
         "operator": "greaterThanOrEqual",
-        "value": "basic success"
+        "value": "little triumph"
       },
       {
         "type": "action",
@@ -17599,7 +16213,7 @@
       {
         "type": "action-success-level",
         "operator": "lessThan",
-        "value": "basic success"
+        "value": "little triumph"
       },
       {
         "type": "action",
@@ -18045,96 +16659,6 @@
       }
     ],
     "script": "const tick=Number(check({type:'game-tick'}))||0;if(storage.ghxOfferTick===tick){skip=true}else{storage.ghxOfferTick=tick}"
-  },
-  "rb_scroll_registry_01": {
-    "name": "rb_scroll_registry_01",
-    "conditions": [],
-    "effects": [],
-    "recurring": true,
-    "scope": "party",
-    "script": "// Candidate formulas use the same native settlement shape. Scripts select\n// eligibility only. The engine, not check(), judges the declared story query.\nconst catalogue = [{\"id\":\"rb_study_001\",\"item\":\"Teaching Scroll: The Porter's Invisible Palm\",\"trait\":\"Formula: The Porter's Invisible Palm\",\"ability\":\"The Porter's Invisible Palm\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_002\",\"item\":\"Teaching Scroll: Lanternwright's Spare Hand\",\"trait\":\"Formula: Lanternwright's Spare Hand\",\"ability\":\"Lanternwright's Spare Hand\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_003\",\"item\":\"Teaching Scroll: The Unbroken Chalk Circle\",\"trait\":\"Formula: The Unbroken Chalk Circle\",\"ability\":\"The Unbroken Chalk Circle\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_004\",\"item\":\"Teaching Scroll: Three Steps of Shelter\",\"trait\":\"Formula: Three Steps of Shelter\",\"ability\":\"Three Steps of Shelter\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_005\",\"item\":\"Teaching Scroll: Last Light in the Reservoir\",\"trait\":\"Formula: Last Light in the Reservoir\",\"ability\":\"Last Light in the Reservoir\",\"difficulty\":\"masterwork\",\"space\":false},{\"id\":\"rb_study_006\",\"item\":\"Teaching Scroll: A Coal Kept Kindly\",\"trait\":\"Formula: A Coal Kept Kindly\",\"ability\":\"A Coal Kept Kindly\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_007\",\"item\":\"Teaching Scroll: The Baker's Even Hearth\",\"trait\":\"Formula: The Baker's Even Hearth\",\"ability\":\"The Baker's Even Hearth\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_008\",\"item\":\"Teaching Scroll: Red Thread across the Fuse\",\"trait\":\"Formula: Red Thread across the Fuse\",\"ability\":\"Red Thread across the Fuse\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_009\",\"item\":\"Teaching Scroll: Cinderstep Reversal\",\"trait\":\"Formula: Cinderstep Reversal\",\"ability\":\"Cinderstep Reversal\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_010\",\"item\":\"Teaching Scroll: The Kiln That Breathes Twice\",\"trait\":\"Formula: The Kiln That Breathes Twice\",\"ability\":\"The Kiln That Breathes Twice\",\"difficulty\":\"advanced\",\"space\":false}];\nconst tick = Number(check({type:'game-tick'})) || 0;\nconst normalize = text => text.toLowerCase().replace(/[’‘]/g, \"'\");\nconst input = normalize(JSON.stringify(check({type:'action-text'}) || ''));\nconst story = normalize(String(check({type:'story-text'}) || ''));\nconst research = /stud|scroll|formula|research|decipher|practice|practise|experiment|rehears|understand|test|unroll|read/.test(input)\n    || (/try again|continue/.test(input) && /scroll|formula|study|research|diagram|ink|working/.test(story));\nconst recent = research ? input + ' ' + story : '';\nconst readerTraits = check({type:'player-traits'}) || {};\nconst continuation = /try again|continue|rehears|practice|practise|experiment|test/.test(input)\n    && /scroll|formula|study|research|diagram|ink|working/.test(story)\n    && !input.includes('teaching scroll:');\nstorage.rbScrollFocus = storage.rbScrollFocus || {};\nif (research || catalogue.some(row => storage.rbScrollFocus[row.id] !== undefined)) {\nfor (const row of catalogue) {\n    const quantities = check({type:'player-item', item:row.item});\n    const held = quantities && typeof quantities === 'object' && Object.entries(quantities).some(([name,n]) => Number(n) > 0 && !readerTraits[name]?.includes(row.trait));\n    const focused = storage.rbScrollFocus[row.id];\n    if (held && research && (recent.includes(row.ability.toLowerCase()) || (focused && continuation && tick - focused < 8))) {\n        if (!focused && Object.keys(storage.rbScrollFocus).length >= 8) continue;\n        storage.rbScrollFocus[row.id] = tick;\n        const active = Object.keys(storage.rbScrollFocus).length;\n        const semanticCount = Object.values(triggers).filter(t => t.conditions.some(c => c.type === 'story' || c.type === 'action')).length;\n        if (!triggers[row.id] && active <= 8 && semanticCount < 475) {\n            triggers[row.id] = {\n                name:row.id, scope:'player', recurring:true,\n                conditions:[\n                    {type:'player-item', item:row.item, operator:'greaterThan', value:0},\n                    {type:'player-traits', operator:'notContains', value:row.trait},\n                    ...(row.space ? [{type:'skill-value', skill:'Gravity Magic', operator:'greaterThanOrEqual', value:25}] : []),\n                    {type:'story', query:'This player has just completed successful deliberate study of their genuine held ' + row.item + ', has understood its ' + row.difficulty + ' working and carried out a successful controlled test. ' + (row.difficulty === 'masterwork' ? 'Several substantive research sessions and a safe prepared test are necessary. ' : row.difficulty === 'advanced' ? 'Resolve a real difficulty through focused research before the successful test. ' : 'A focused careful exercise can suffice. ') + 'A plan, a label, an unrelated spell, a failed test, another player learning or a formula already known is false. Confirm the exact reader, this formula and the still-held scroll. Substantial research may compensate for low discipline proficiency; study grants no discipline ranks.'}\n                ],\n                effects:[\n                    {type:'player-traits', operator:'add', value:row.trait, target:'satisfyingPlayers'},\n                    {type:'player-abilities', operator:'add', value:row.ability, target:'satisfyingPlayers'},\n                    {type:'item-remove', item:row.item, quantity:1, target:'satisfyingPlayers'},\n                    {type:'story', instruction:'The successful reader learns ' + row.ability + ' as the ink fades from one copy. These effects already settle learning and consumption. Preserve the other readers and unused copies. Casting is a later action using the real discipline and Mana.'}\n                ]\n            };\n        }\n    } else if (!held || !focused || tick - focused >= 8) {\n        delete triggers[row.id];\n        delete storage.rbScrollFocus[row.id];\n    }\n}\n}\n",
-    "phase": "planning"
-  },
-  "rb_scroll_registry_02": {
-    "name": "rb_scroll_registry_02",
-    "conditions": [],
-    "effects": [],
-    "recurring": true,
-    "scope": "party",
-    "script": "// Candidate formulas use the same native settlement shape. Scripts select\n// eligibility only. The engine, not check(), judges the declared story query.\nconst catalogue = [{\"id\":\"rb_study_011\",\"item\":\"Teaching Scroll: The Seamstress's Dry Cuff\",\"trait\":\"Formula: The Seamstress's Dry Cuff\",\"ability\":\"The Seamstress's Dry Cuff\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_012\",\"item\":\"Teaching Scroll: A Cup for the Last Traveler\",\"trait\":\"Formula: A Cup for the Last Traveler\",\"ability\":\"A Cup for the Last Traveler\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_013\",\"item\":\"Teaching Scroll: Millrace in Miniature\",\"trait\":\"Formula: Millrace in Miniature\",\"ability\":\"Millrace in Miniature\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_014\",\"item\":\"Teaching Scroll: The Ferryman's Sideways Wake\",\"trait\":\"Formula: The Ferryman's Sideways Wake\",\"ability\":\"The Ferryman's Sideways Wake\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_015\",\"item\":\"Teaching Scroll: Blue Ribbon Restraint\",\"trait\":\"Formula: Blue Ribbon Restraint\",\"ability\":\"Blue Ribbon Restraint\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_016\",\"item\":\"Teaching Scroll: The Mason's Patient Thumb\",\"trait\":\"Formula: The Mason's Patient Thumb\",\"ability\":\"The Mason's Patient Thumb\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_017\",\"item\":\"Teaching Scroll: Dust Drawn to the Door\",\"trait\":\"Formula: Dust Drawn to the Door\",\"ability\":\"Dust Drawn to the Door\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_018\",\"item\":\"Teaching Scroll: A Furrow Before Rain\",\"trait\":\"Formula: A Furrow Before Rain\",\"ability\":\"A Furrow Before Rain\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_019\",\"item\":\"Teaching Scroll: The Bank That Held\",\"trait\":\"Formula: The Bank That Held\",\"ability\":\"The Bank That Held\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_020\",\"item\":\"Teaching Scroll: Sandglass Interdict\",\"trait\":\"Formula: Sandglass Interdict\",\"ability\":\"Sandglass Interdict\",\"difficulty\":\"advanced\",\"space\":false}];\nconst tick = Number(check({type:'game-tick'})) || 0;\nconst normalize = text => text.toLowerCase().replace(/[’‘]/g, \"'\");\nconst input = normalize(JSON.stringify(check({type:'action-text'}) || ''));\nconst story = normalize(String(check({type:'story-text'}) || ''));\nconst research = /stud|scroll|formula|research|decipher|practice|practise|experiment|rehears|understand|test|unroll|read/.test(input)\n    || (/try again|continue/.test(input) && /scroll|formula|study|research|diagram|ink|working/.test(story));\nconst recent = research ? input + ' ' + story : '';\nconst readerTraits = check({type:'player-traits'}) || {};\nconst continuation = /try again|continue|rehears|practice|practise|experiment|test/.test(input)\n    && /scroll|formula|study|research|diagram|ink|working/.test(story)\n    && !input.includes('teaching scroll:');\nstorage.rbScrollFocus = storage.rbScrollFocus || {};\nif (research || catalogue.some(row => storage.rbScrollFocus[row.id] !== undefined)) {\nfor (const row of catalogue) {\n    const quantities = check({type:'player-item', item:row.item});\n    const held = quantities && typeof quantities === 'object' && Object.entries(quantities).some(([name,n]) => Number(n) > 0 && !readerTraits[name]?.includes(row.trait));\n    const focused = storage.rbScrollFocus[row.id];\n    if (held && research && (recent.includes(row.ability.toLowerCase()) || (focused && continuation && tick - focused < 8))) {\n        if (!focused && Object.keys(storage.rbScrollFocus).length >= 8) continue;\n        storage.rbScrollFocus[row.id] = tick;\n        const active = Object.keys(storage.rbScrollFocus).length;\n        const semanticCount = Object.values(triggers).filter(t => t.conditions.some(c => c.type === 'story' || c.type === 'action')).length;\n        if (!triggers[row.id] && active <= 8 && semanticCount < 475) {\n            triggers[row.id] = {\n                name:row.id, scope:'player', recurring:true,\n                conditions:[\n                    {type:'player-item', item:row.item, operator:'greaterThan', value:0},\n                    {type:'player-traits', operator:'notContains', value:row.trait},\n                    ...(row.space ? [{type:'skill-value', skill:'Gravity Magic', operator:'greaterThanOrEqual', value:25}] : []),\n                    {type:'story', query:'This player has just completed successful deliberate study of their genuine held ' + row.item + ', has understood its ' + row.difficulty + ' working and carried out a successful controlled test. ' + (row.difficulty === 'masterwork' ? 'Several substantive research sessions and a safe prepared test are necessary. ' : row.difficulty === 'advanced' ? 'Resolve a real difficulty through focused research before the successful test. ' : 'A focused careful exercise can suffice. ') + 'A plan, a label, an unrelated spell, a failed test, another player learning or a formula already known is false. Confirm the exact reader, this formula and the still-held scroll. Substantial research may compensate for low discipline proficiency; study grants no discipline ranks.'}\n                ],\n                effects:[\n                    {type:'player-traits', operator:'add', value:row.trait, target:'satisfyingPlayers'},\n                    {type:'player-abilities', operator:'add', value:row.ability, target:'satisfyingPlayers'},\n                    {type:'item-remove', item:row.item, quantity:1, target:'satisfyingPlayers'},\n                    {type:'story', instruction:'The successful reader learns ' + row.ability + ' as the ink fades from one copy. These effects already settle learning and consumption. Preserve the other readers and unused copies. Casting is a later action using the real discipline and Mana.'}\n                ]\n            };\n        }\n    } else if (!held || !focused || tick - focused >= 8) {\n        delete triggers[row.id];\n        delete storage.rbScrollFocus[row.id];\n    }\n}\n}\n",
-    "phase": "planning"
-  },
-  "rb_scroll_registry_03": {
-    "name": "rb_scroll_registry_03",
-    "conditions": [],
-    "effects": [],
-    "recurring": true,
-    "scope": "party",
-    "script": "// Candidate formulas use the same native settlement shape. Scripts select\n// eligibility only. The engine, not check(), judges the declared story query.\nconst catalogue = [{\"id\":\"rb_study_021\",\"item\":\"Teaching Scroll: The Launderer's Borrowed Breeze\",\"trait\":\"Formula: The Launderer's Borrowed Breeze\",\"ability\":\"The Launderer's Borrowed Breeze\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_022\",\"item\":\"Teaching Scroll: A Whisper Kept Downstream\",\"trait\":\"Formula: A Whisper Kept Downstream\",\"ability\":\"A Whisper Kept Downstream\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_023\",\"item\":\"Teaching Scroll: The Sailmaker's Gentle Test\",\"trait\":\"Formula: The Sailmaker's Gentle Test\",\"ability\":\"The Sailmaker's Gentle Test\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_024\",\"item\":\"Teaching Scroll: Featherfall for a Friend\",\"trait\":\"Formula: Featherfall for a Friend\",\"ability\":\"Featherfall for a Friend\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_025\",\"item\":\"Teaching Scroll: The Storm's Narrow Shoulder\",\"trait\":\"Formula: The Storm's Narrow Shoulder\",\"ability\":\"The Storm's Narrow Shoulder\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_026\",\"item\":\"Teaching Scroll: The Clockmaker's Testing Spark\",\"trait\":\"Formula: The Clockmaker's Testing Spark\",\"ability\":\"The Clockmaker's Testing Spark\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_027\",\"item\":\"Teaching Scroll: A Bell without a Rope\",\"trait\":\"Formula: A Bell without a Rope\",\"ability\":\"A Bell without a Rope\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_028\",\"item\":\"Teaching Scroll: Blue Stitch across Broken Copper\",\"trait\":\"Formula: Blue Stitch across Broken Copper\",\"ability\":\"Blue Stitch across Broken Copper\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_029\",\"item\":\"Teaching Scroll: Thunder at the Wrong Foot\",\"trait\":\"Formula: Thunder at the Wrong Foot\",\"ability\":\"Thunder at the Wrong Foot\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_030\",\"item\":\"Teaching Scroll: The Storm Needle's Answer\",\"trait\":\"Formula: The Storm Needle's Answer\",\"ability\":\"The Storm Needle's Answer\",\"difficulty\":\"advanced\",\"space\":false}];\nconst tick = Number(check({type:'game-tick'})) || 0;\nconst normalize = text => text.toLowerCase().replace(/[’‘]/g, \"'\");\nconst input = normalize(JSON.stringify(check({type:'action-text'}) || ''));\nconst story = normalize(String(check({type:'story-text'}) || ''));\nconst research = /stud|scroll|formula|research|decipher|practice|practise|experiment|rehears|understand|test|unroll|read/.test(input)\n    || (/try again|continue/.test(input) && /scroll|formula|study|research|diagram|ink|working/.test(story));\nconst recent = research ? input + ' ' + story : '';\nconst readerTraits = check({type:'player-traits'}) || {};\nconst continuation = /try again|continue|rehears|practice|practise|experiment|test/.test(input)\n    && /scroll|formula|study|research|diagram|ink|working/.test(story)\n    && !input.includes('teaching scroll:');\nstorage.rbScrollFocus = storage.rbScrollFocus || {};\nif (research || catalogue.some(row => storage.rbScrollFocus[row.id] !== undefined)) {\nfor (const row of catalogue) {\n    const quantities = check({type:'player-item', item:row.item});\n    const held = quantities && typeof quantities === 'object' && Object.entries(quantities).some(([name,n]) => Number(n) > 0 && !readerTraits[name]?.includes(row.trait));\n    const focused = storage.rbScrollFocus[row.id];\n    if (held && research && (recent.includes(row.ability.toLowerCase()) || (focused && continuation && tick - focused < 8))) {\n        if (!focused && Object.keys(storage.rbScrollFocus).length >= 8) continue;\n        storage.rbScrollFocus[row.id] = tick;\n        const active = Object.keys(storage.rbScrollFocus).length;\n        const semanticCount = Object.values(triggers).filter(t => t.conditions.some(c => c.type === 'story' || c.type === 'action')).length;\n        if (!triggers[row.id] && active <= 8 && semanticCount < 475) {\n            triggers[row.id] = {\n                name:row.id, scope:'player', recurring:true,\n                conditions:[\n                    {type:'player-item', item:row.item, operator:'greaterThan', value:0},\n                    {type:'player-traits', operator:'notContains', value:row.trait},\n                    ...(row.space ? [{type:'skill-value', skill:'Gravity Magic', operator:'greaterThanOrEqual', value:25}] : []),\n                    {type:'story', query:'This player has just completed successful deliberate study of their genuine held ' + row.item + ', has understood its ' + row.difficulty + ' working and carried out a successful controlled test. ' + (row.difficulty === 'masterwork' ? 'Several substantive research sessions and a safe prepared test are necessary. ' : row.difficulty === 'advanced' ? 'Resolve a real difficulty through focused research before the successful test. ' : 'A focused careful exercise can suffice. ') + 'A plan, a label, an unrelated spell, a failed test, another player learning or a formula already known is false. Confirm the exact reader, this formula and the still-held scroll. Substantial research may compensate for low discipline proficiency; study grants no discipline ranks.'}\n                ],\n                effects:[\n                    {type:'player-traits', operator:'add', value:row.trait, target:'satisfyingPlayers'},\n                    {type:'player-abilities', operator:'add', value:row.ability, target:'satisfyingPlayers'},\n                    {type:'item-remove', item:row.item, quantity:1, target:'satisfyingPlayers'},\n                    {type:'story', instruction:'The successful reader learns ' + row.ability + ' as the ink fades from one copy. These effects already settle learning and consumption. Preserve the other readers and unused copies. Casting is a later action using the real discipline and Mana.'}\n                ]\n            };\n        }\n    } else if (!held || !focused || tick - focused >= 8) {\n        delete triggers[row.id];\n        delete storage.rbScrollFocus[row.id];\n    }\n}\n}\n",
-    "phase": "planning"
-  },
-  "rb_scroll_registry_04": {
-    "name": "rb_scroll_registry_04",
-    "conditions": [],
-    "effects": [],
-    "recurring": true,
-    "scope": "party",
-    "script": "// Candidate formulas use the same native settlement shape. Scripts select\n// eligibility only. The engine, not check(), judges the declared story query.\nconst catalogue = [{\"id\":\"rb_study_031\",\"item\":\"Teaching Scroll: The Fishmonger's Cold Cloth\",\"trait\":\"Formula: The Fishmonger's Cold Cloth\",\"ability\":\"The Fishmonger's Cold Cloth\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_032\",\"item\":\"Teaching Scroll: A Frosted Window's Secret\",\"trait\":\"Formula: A Frosted Window's Secret\",\"ability\":\"A Frosted Window's Secret\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_033\",\"item\":\"Teaching Scroll: The Miller's Quiet Chill\",\"trait\":\"Formula: The Miller's Quiet Chill\",\"ability\":\"The Miller's Quiet Chill\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_034\",\"item\":\"Teaching Scroll: White Heel upon the Step\",\"trait\":\"Formula: White Heel upon the Step\",\"ability\":\"White Heel upon the Step\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_035\",\"item\":\"Teaching Scroll: Winter's Borrowed Splint\",\"trait\":\"Formula: Winter's Borrowed Splint\",\"ability\":\"Winter's Borrowed Splint\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_036\",\"item\":\"Teaching Scroll: The Scribe's Unshadowed Page\",\"trait\":\"Formula: The Scribe's Unshadowed Page\",\"ability\":\"The Scribe's Unshadowed Page\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_037\",\"item\":\"Teaching Scroll: A Harbor Lamp Answered\",\"trait\":\"Formula: A Harbor Lamp Answered\",\"ability\":\"A Harbor Lamp Answered\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_038\",\"item\":\"Teaching Scroll: The Glassworker's Revealing Edge\",\"trait\":\"Formula: The Glassworker's Revealing Edge\",\"ability\":\"The Glassworker's Revealing Edge\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_039\",\"item\":\"Teaching Scroll: Starlight Beneath the Door\",\"trait\":\"Formula: Starlight Beneath the Door\",\"ability\":\"Starlight Beneath the Door\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_040\",\"item\":\"Teaching Scroll: The Noon Lance's Mercy\",\"trait\":\"Formula: The Noon Lance's Mercy\",\"ability\":\"The Noon Lance's Mercy\",\"difficulty\":\"advanced\",\"space\":false}];\nconst tick = Number(check({type:'game-tick'})) || 0;\nconst normalize = text => text.toLowerCase().replace(/[’‘]/g, \"'\");\nconst input = normalize(JSON.stringify(check({type:'action-text'}) || ''));\nconst story = normalize(String(check({type:'story-text'}) || ''));\nconst research = /stud|scroll|formula|research|decipher|practice|practise|experiment|rehears|understand|test|unroll|read/.test(input)\n    || (/try again|continue/.test(input) && /scroll|formula|study|research|diagram|ink|working/.test(story));\nconst recent = research ? input + ' ' + story : '';\nconst readerTraits = check({type:'player-traits'}) || {};\nconst continuation = /try again|continue|rehears|practice|practise|experiment|test/.test(input)\n    && /scroll|formula|study|research|diagram|ink|working/.test(story)\n    && !input.includes('teaching scroll:');\nstorage.rbScrollFocus = storage.rbScrollFocus || {};\nif (research || catalogue.some(row => storage.rbScrollFocus[row.id] !== undefined)) {\nfor (const row of catalogue) {\n    const quantities = check({type:'player-item', item:row.item});\n    const held = quantities && typeof quantities === 'object' && Object.entries(quantities).some(([name,n]) => Number(n) > 0 && !readerTraits[name]?.includes(row.trait));\n    const focused = storage.rbScrollFocus[row.id];\n    if (held && research && (recent.includes(row.ability.toLowerCase()) || (focused && continuation && tick - focused < 8))) {\n        if (!focused && Object.keys(storage.rbScrollFocus).length >= 8) continue;\n        storage.rbScrollFocus[row.id] = tick;\n        const active = Object.keys(storage.rbScrollFocus).length;\n        const semanticCount = Object.values(triggers).filter(t => t.conditions.some(c => c.type === 'story' || c.type === 'action')).length;\n        if (!triggers[row.id] && active <= 8 && semanticCount < 475) {\n            triggers[row.id] = {\n                name:row.id, scope:'player', recurring:true,\n                conditions:[\n                    {type:'player-item', item:row.item, operator:'greaterThan', value:0},\n                    {type:'player-traits', operator:'notContains', value:row.trait},\n                    ...(row.space ? [{type:'skill-value', skill:'Gravity Magic', operator:'greaterThanOrEqual', value:25}] : []),\n                    {type:'story', query:'This player has just completed successful deliberate study of their genuine held ' + row.item + ', has understood its ' + row.difficulty + ' working and carried out a successful controlled test. ' + (row.difficulty === 'masterwork' ? 'Several substantive research sessions and a safe prepared test are necessary. ' : row.difficulty === 'advanced' ? 'Resolve a real difficulty through focused research before the successful test. ' : 'A focused careful exercise can suffice. ') + 'A plan, a label, an unrelated spell, a failed test, another player learning or a formula already known is false. Confirm the exact reader, this formula and the still-held scroll. Substantial research may compensate for low discipline proficiency; study grants no discipline ranks.'}\n                ],\n                effects:[\n                    {type:'player-traits', operator:'add', value:row.trait, target:'satisfyingPlayers'},\n                    {type:'player-abilities', operator:'add', value:row.ability, target:'satisfyingPlayers'},\n                    {type:'item-remove', item:row.item, quantity:1, target:'satisfyingPlayers'},\n                    {type:'story', instruction:'The successful reader learns ' + row.ability + ' as the ink fades from one copy. These effects already settle learning and consumption. Preserve the other readers and unused copies. Casting is a later action using the real discipline and Mana.'}\n                ]\n            };\n        }\n    } else if (!held || !focused || tick - focused >= 8) {\n        delete triggers[row.id];\n        delete storage.rbScrollFocus[row.id];\n    }\n}\n}\n",
-    "phase": "planning"
-  },
-  "rb_scroll_registry_05": {
-    "name": "rb_scroll_registry_05",
-    "conditions": [],
-    "effects": [],
-    "recurring": true,
-    "scope": "party",
-    "script": "// Candidate formulas use the same native settlement shape. Scripts select\n// eligibility only. The engine, not check(), judges the declared story query.\nconst catalogue = [{\"id\":\"rb_study_041\",\"item\":\"Teaching Scroll: The Locksmith's Honest Witness\",\"trait\":\"Formula: The Locksmith's Honest Witness\",\"ability\":\"The Locksmith's Honest Witness\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_042\",\"item\":\"Teaching Scroll: Needles Gathered in a Bowl\",\"trait\":\"Formula: Needles Gathered in a Bowl\",\"ability\":\"Needles Gathered in a Bowl\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_043\",\"item\":\"Teaching Scroll: The Tinsmith's Gentle Seam\",\"trait\":\"Formula: The Tinsmith's Gentle Seam\",\"ability\":\"The Tinsmith's Gentle Seam\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_044\",\"item\":\"Teaching Scroll: The Coin That Stood on Edge\",\"trait\":\"Formula: The Coin That Stood on Edge\",\"ability\":\"The Coin That Stood on Edge\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_045\",\"item\":\"Teaching Scroll: Iron Petals at the Wrist\",\"trait\":\"Formula: Iron Petals at the Wrist\",\"ability\":\"Iron Petals at the Wrist\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_046\",\"item\":\"Teaching Scroll: The Gardener's Returning Tendril\",\"trait\":\"Formula: The Gardener's Returning Tendril\",\"ability\":\"The Gardener's Returning Tendril\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_047\",\"item\":\"Teaching Scroll: Thorns at the Orchard Gate\",\"trait\":\"Formula: Thorns at the Orchard Gate\",\"ability\":\"Thorns at the Orchard Gate\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_048\",\"item\":\"Teaching Scroll: A Leaf Turned toward Home\",\"trait\":\"Formula: A Leaf Turned toward Home\",\"ability\":\"A Leaf Turned toward Home\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_049\",\"item\":\"Teaching Scroll: Rootwork under the Barrow\",\"trait\":\"Formula: Rootwork under the Barrow\",\"ability\":\"Rootwork under the Barrow\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_050\",\"item\":\"Teaching Scroll: The Hedge That Bowed Aside\",\"trait\":\"Formula: The Hedge That Bowed Aside\",\"ability\":\"The Hedge That Bowed Aside\",\"difficulty\":\"advanced\",\"space\":false}];\nconst tick = Number(check({type:'game-tick'})) || 0;\nconst normalize = text => text.toLowerCase().replace(/[’‘]/g, \"'\");\nconst input = normalize(JSON.stringify(check({type:'action-text'}) || ''));\nconst story = normalize(String(check({type:'story-text'}) || ''));\nconst research = /stud|scroll|formula|research|decipher|practice|practise|experiment|rehears|understand|test|unroll|read/.test(input)\n    || (/try again|continue/.test(input) && /scroll|formula|study|research|diagram|ink|working/.test(story));\nconst recent = research ? input + ' ' + story : '';\nconst readerTraits = check({type:'player-traits'}) || {};\nconst continuation = /try again|continue|rehears|practice|practise|experiment|test/.test(input)\n    && /scroll|formula|study|research|diagram|ink|working/.test(story)\n    && !input.includes('teaching scroll:');\nstorage.rbScrollFocus = storage.rbScrollFocus || {};\nif (research || catalogue.some(row => storage.rbScrollFocus[row.id] !== undefined)) {\nfor (const row of catalogue) {\n    const quantities = check({type:'player-item', item:row.item});\n    const held = quantities && typeof quantities === 'object' && Object.entries(quantities).some(([name,n]) => Number(n) > 0 && !readerTraits[name]?.includes(row.trait));\n    const focused = storage.rbScrollFocus[row.id];\n    if (held && research && (recent.includes(row.ability.toLowerCase()) || (focused && continuation && tick - focused < 8))) {\n        if (!focused && Object.keys(storage.rbScrollFocus).length >= 8) continue;\n        storage.rbScrollFocus[row.id] = tick;\n        const active = Object.keys(storage.rbScrollFocus).length;\n        const semanticCount = Object.values(triggers).filter(t => t.conditions.some(c => c.type === 'story' || c.type === 'action')).length;\n        if (!triggers[row.id] && active <= 8 && semanticCount < 475) {\n            triggers[row.id] = {\n                name:row.id, scope:'player', recurring:true,\n                conditions:[\n                    {type:'player-item', item:row.item, operator:'greaterThan', value:0},\n                    {type:'player-traits', operator:'notContains', value:row.trait},\n                    ...(row.space ? [{type:'skill-value', skill:'Gravity Magic', operator:'greaterThanOrEqual', value:25}] : []),\n                    {type:'story', query:'This player has just completed successful deliberate study of their genuine held ' + row.item + ', has understood its ' + row.difficulty + ' working and carried out a successful controlled test. ' + (row.difficulty === 'masterwork' ? 'Several substantive research sessions and a safe prepared test are necessary. ' : row.difficulty === 'advanced' ? 'Resolve a real difficulty through focused research before the successful test. ' : 'A focused careful exercise can suffice. ') + 'A plan, a label, an unrelated spell, a failed test, another player learning or a formula already known is false. Confirm the exact reader, this formula and the still-held scroll. Substantial research may compensate for low discipline proficiency; study grants no discipline ranks.'}\n                ],\n                effects:[\n                    {type:'player-traits', operator:'add', value:row.trait, target:'satisfyingPlayers'},\n                    {type:'player-abilities', operator:'add', value:row.ability, target:'satisfyingPlayers'},\n                    {type:'item-remove', item:row.item, quantity:1, target:'satisfyingPlayers'},\n                    {type:'story', instruction:'The successful reader learns ' + row.ability + ' as the ink fades from one copy. These effects already settle learning and consumption. Preserve the other readers and unused copies. Casting is a later action using the real discipline and Mana.'}\n                ]\n            };\n        }\n    } else if (!held || !focused || tick - focused >= 8) {\n        delete triggers[row.id];\n        delete storage.rbScrollFocus[row.id];\n    }\n}\n}\n",
-    "phase": "planning"
-  },
-  "rb_scroll_registry_06": {
-    "name": "rb_scroll_registry_06",
-    "conditions": [],
-    "effects": [],
-    "recurring": true,
-    "scope": "party",
-    "script": "// Candidate formulas use the same native settlement shape. Scripts select\n// eligibility only. The engine, not check(), judges the declared story query.\nconst catalogue = [{\"id\":\"rb_study_051\",\"item\":\"Teaching Scroll: The Musician's Unbroken Note\",\"trait\":\"Formula: The Musician's Unbroken Note\",\"ability\":\"The Musician's Unbroken Note\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_052\",\"item\":\"Teaching Scroll: A Knock through the Floorboards\",\"trait\":\"Formula: A Knock through the Floorboards\",\"ability\":\"A Knock through the Floorboards\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_053\",\"item\":\"Teaching Scroll: The Bellfounder's Hidden Crack\",\"trait\":\"Formula: The Bellfounder's Hidden Crack\",\"ability\":\"The Bellfounder's Hidden Crack\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_054\",\"item\":\"Teaching Scroll: Quiet around the Cradle\",\"trait\":\"Formula: Quiet around the Cradle\",\"ability\":\"Quiet around the Cradle\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_055\",\"item\":\"Teaching Scroll: The Empty Hall Replies\",\"trait\":\"Formula: The Empty Hall Replies\",\"ability\":\"The Empty Hall Replies\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_056\",\"item\":\"Teaching Scroll: The Potter's Centered Wheel\",\"trait\":\"Formula: The Potter's Centered Wheel\",\"ability\":\"The Potter's Centered Wheel\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_057\",\"item\":\"Teaching Scroll: A Ladder's Second Foot\",\"trait\":\"Formula: A Ladder's Second Foot\",\"ability\":\"A Ladder's Second Foot\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_058\",\"item\":\"Teaching Scroll: The Porter's Unburdening\",\"trait\":\"Formula: The Porter's Unburdening\",\"ability\":\"The Porter's Unburdening\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_059\",\"item\":\"Teaching Scroll: The Feather's Firm Descent\",\"trait\":\"Formula: The Feather's Firm Descent\",\"ability\":\"The Feather's Firm Descent\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_060\",\"item\":\"Teaching Scroll: The Courtyard's Heavy Hush\",\"trait\":\"Formula: The Courtyard's Heavy Hush\",\"ability\":\"The Courtyard's Heavy Hush\",\"difficulty\":\"advanced\",\"space\":false}];\nconst tick = Number(check({type:'game-tick'})) || 0;\nconst normalize = text => text.toLowerCase().replace(/[’‘]/g, \"'\");\nconst input = normalize(JSON.stringify(check({type:'action-text'}) || ''));\nconst story = normalize(String(check({type:'story-text'}) || ''));\nconst research = /stud|scroll|formula|research|decipher|practice|practise|experiment|rehears|understand|test|unroll|read/.test(input)\n    || (/try again|continue/.test(input) && /scroll|formula|study|research|diagram|ink|working/.test(story));\nconst recent = research ? input + ' ' + story : '';\nconst readerTraits = check({type:'player-traits'}) || {};\nconst continuation = /try again|continue|rehears|practice|practise|experiment|test/.test(input)\n    && /scroll|formula|study|research|diagram|ink|working/.test(story)\n    && !input.includes('teaching scroll:');\nstorage.rbScrollFocus = storage.rbScrollFocus || {};\nif (research || catalogue.some(row => storage.rbScrollFocus[row.id] !== undefined)) {\nfor (const row of catalogue) {\n    const quantities = check({type:'player-item', item:row.item});\n    const held = quantities && typeof quantities === 'object' && Object.entries(quantities).some(([name,n]) => Number(n) > 0 && !readerTraits[name]?.includes(row.trait));\n    const focused = storage.rbScrollFocus[row.id];\n    if (held && research && (recent.includes(row.ability.toLowerCase()) || (focused && continuation && tick - focused < 8))) {\n        if (!focused && Object.keys(storage.rbScrollFocus).length >= 8) continue;\n        storage.rbScrollFocus[row.id] = tick;\n        const active = Object.keys(storage.rbScrollFocus).length;\n        const semanticCount = Object.values(triggers).filter(t => t.conditions.some(c => c.type === 'story' || c.type === 'action')).length;\n        if (!triggers[row.id] && active <= 8 && semanticCount < 475) {\n            triggers[row.id] = {\n                name:row.id, scope:'player', recurring:true,\n                conditions:[\n                    {type:'player-item', item:row.item, operator:'greaterThan', value:0},\n                    {type:'player-traits', operator:'notContains', value:row.trait},\n                    ...(row.space ? [{type:'skill-value', skill:'Gravity Magic', operator:'greaterThanOrEqual', value:25}] : []),\n                    {type:'story', query:'This player has just completed successful deliberate study of their genuine held ' + row.item + ', has understood its ' + row.difficulty + ' working and carried out a successful controlled test. ' + (row.difficulty === 'masterwork' ? 'Several substantive research sessions and a safe prepared test are necessary. ' : row.difficulty === 'advanced' ? 'Resolve a real difficulty through focused research before the successful test. ' : 'A focused careful exercise can suffice. ') + 'A plan, a label, an unrelated spell, a failed test, another player learning or a formula already known is false. Confirm the exact reader, this formula and the still-held scroll. Substantial research may compensate for low discipline proficiency; study grants no discipline ranks.'}\n                ],\n                effects:[\n                    {type:'player-traits', operator:'add', value:row.trait, target:'satisfyingPlayers'},\n                    {type:'player-abilities', operator:'add', value:row.ability, target:'satisfyingPlayers'},\n                    {type:'item-remove', item:row.item, quantity:1, target:'satisfyingPlayers'},\n                    {type:'story', instruction:'The successful reader learns ' + row.ability + ' as the ink fades from one copy. These effects already settle learning and consumption. Preserve the other readers and unused copies. Casting is a later action using the real discipline and Mana.'}\n                ]\n            };\n        }\n    } else if (!held || !focused || tick - focused >= 8) {\n        delete triggers[row.id];\n        delete storage.rbScrollFocus[row.id];\n    }\n}\n}\n",
-    "phase": "planning"
-  },
-  "rb_scroll_registry_07": {
-    "name": "rb_scroll_registry_07",
-    "conditions": [],
-    "effects": [],
-    "recurring": true,
-    "scope": "party",
-    "script": "// Candidate formulas use the same native settlement shape. Scripts select\n// eligibility only. The engine, not check(), judges the declared story query.\nconst catalogue = [{\"id\":\"rb_study_061\",\"item\":\"Teaching Scroll: The Candle's Missing Shadow\",\"trait\":\"Formula: The Candle's Missing Shadow\",\"ability\":\"The Candle's Missing Shadow\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_062\",\"item\":\"Teaching Scroll: A Spell's Loose Thread\",\"trait\":\"Formula: A Spell's Loose Thread\",\"ability\":\"A Spell's Loose Thread\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_063\",\"item\":\"Teaching Scroll: The Quiet between Two Wards\",\"trait\":\"Formula: The Quiet between Two Wards\",\"ability\":\"The Quiet between Two Wards\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_064\",\"item\":\"Teaching Scroll: Nightcloth across the Lens\",\"trait\":\"Formula: Nightcloth across the Lens\",\"ability\":\"Nightcloth across the Lens\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_065\",\"item\":\"Teaching Scroll: The Counterchord Unfinished\",\"trait\":\"Formula: The Counterchord Unfinished\",\"ability\":\"The Counterchord Unfinished\",\"difficulty\":\"masterwork\",\"space\":false},{\"id\":\"rb_study_066\",\"item\":\"Teaching Scroll: The Medic's Steady Fingers\",\"trait\":\"Formula: The Medic's Steady Fingers\",\"ability\":\"The Medic's Steady Fingers\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_067\",\"item\":\"Teaching Scroll: A Breath Counted Kindly\",\"trait\":\"Formula: A Breath Counted Kindly\",\"ability\":\"A Breath Counted Kindly\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_068\",\"item\":\"Teaching Scroll: The Stitch That Held\",\"trait\":\"Formula: The Stitch That Held\",\"ability\":\"The Stitch That Held\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_069\",\"item\":\"Teaching Scroll: Warmth at the Broken Road\",\"trait\":\"Formula: Warmth at the Broken Road\",\"ability\":\"Warmth at the Broken Road\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_070\",\"item\":\"Teaching Scroll: The Nightwatcher's Second Hour\",\"trait\":\"Formula: The Nightwatcher's Second Hour\",\"ability\":\"The Nightwatcher's Second Hour\",\"difficulty\":\"advanced\",\"space\":false}];\nconst tick = Number(check({type:'game-tick'})) || 0;\nconst normalize = text => text.toLowerCase().replace(/[’‘]/g, \"'\");\nconst input = normalize(JSON.stringify(check({type:'action-text'}) || ''));\nconst story = normalize(String(check({type:'story-text'}) || ''));\nconst research = /stud|scroll|formula|research|decipher|practice|practise|experiment|rehears|understand|test|unroll|read/.test(input)\n    || (/try again|continue/.test(input) && /scroll|formula|study|research|diagram|ink|working/.test(story));\nconst recent = research ? input + ' ' + story : '';\nconst readerTraits = check({type:'player-traits'}) || {};\nconst continuation = /try again|continue|rehears|practice|practise|experiment|test/.test(input)\n    && /scroll|formula|study|research|diagram|ink|working/.test(story)\n    && !input.includes('teaching scroll:');\nstorage.rbScrollFocus = storage.rbScrollFocus || {};\nif (research || catalogue.some(row => storage.rbScrollFocus[row.id] !== undefined)) {\nfor (const row of catalogue) {\n    const quantities = check({type:'player-item', item:row.item});\n    const held = quantities && typeof quantities === 'object' && Object.entries(quantities).some(([name,n]) => Number(n) > 0 && !readerTraits[name]?.includes(row.trait));\n    const focused = storage.rbScrollFocus[row.id];\n    if (held && research && (recent.includes(row.ability.toLowerCase()) || (focused && continuation && tick - focused < 8))) {\n        if (!focused && Object.keys(storage.rbScrollFocus).length >= 8) continue;\n        storage.rbScrollFocus[row.id] = tick;\n        const active = Object.keys(storage.rbScrollFocus).length;\n        const semanticCount = Object.values(triggers).filter(t => t.conditions.some(c => c.type === 'story' || c.type === 'action')).length;\n        if (!triggers[row.id] && active <= 8 && semanticCount < 475) {\n            triggers[row.id] = {\n                name:row.id, scope:'player', recurring:true,\n                conditions:[\n                    {type:'player-item', item:row.item, operator:'greaterThan', value:0},\n                    {type:'player-traits', operator:'notContains', value:row.trait},\n                    ...(row.space ? [{type:'skill-value', skill:'Gravity Magic', operator:'greaterThanOrEqual', value:25}] : []),\n                    {type:'story', query:'This player has just completed successful deliberate study of their genuine held ' + row.item + ', has understood its ' + row.difficulty + ' working and carried out a successful controlled test. ' + (row.difficulty === 'masterwork' ? 'Several substantive research sessions and a safe prepared test are necessary. ' : row.difficulty === 'advanced' ? 'Resolve a real difficulty through focused research before the successful test. ' : 'A focused careful exercise can suffice. ') + 'A plan, a label, an unrelated spell, a failed test, another player learning or a formula already known is false. Confirm the exact reader, this formula and the still-held scroll. Substantial research may compensate for low discipline proficiency; study grants no discipline ranks.'}\n                ],\n                effects:[\n                    {type:'player-traits', operator:'add', value:row.trait, target:'satisfyingPlayers'},\n                    {type:'player-abilities', operator:'add', value:row.ability, target:'satisfyingPlayers'},\n                    {type:'item-remove', item:row.item, quantity:1, target:'satisfyingPlayers'},\n                    {type:'story', instruction:'The successful reader learns ' + row.ability + ' as the ink fades from one copy. These effects already settle learning and consumption. Preserve the other readers and unused copies. Casting is a later action using the real discipline and Mana.'}\n                ]\n            };\n        }\n    } else if (!held || !focused || tick - focused >= 8) {\n        delete triggers[row.id];\n        delete storage.rbScrollFocus[row.id];\n    }\n}\n}\n",
-    "phase": "planning"
-  },
-  "rb_scroll_registry_08": {
-    "name": "rb_scroll_registry_08",
-    "conditions": [],
-    "effects": [],
-    "recurring": true,
-    "scope": "party",
-    "script": "// Candidate formulas use the same native settlement shape. Scripts select\n// eligibility only. The engine, not check(), judges the declared story query.\nconst catalogue = [{\"id\":\"rb_study_071\",\"item\":\"Teaching Scroll: The Apron's Unburnt Hem\",\"trait\":\"Formula: The Apron's Unburnt Hem\",\"ability\":\"The Apron's Unburnt Hem\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_072\",\"item\":\"Teaching Scroll: A Cup That Remembers Warmth\",\"trait\":\"Formula: A Cup That Remembers Warmth\",\"ability\":\"A Cup That Remembers Warmth\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_073\",\"item\":\"Teaching Scroll: The Hinge's Quiet Promise\",\"trait\":\"Formula: The Hinge's Quiet Promise\",\"ability\":\"The Hinge's Quiet Promise\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_074\",\"item\":\"Teaching Scroll: The Worker's True Measure\",\"trait\":\"Formula: The Worker's True Measure\",\"ability\":\"The Worker's True Measure\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_075\",\"item\":\"Teaching Scroll: The Shield's Borrowed Resolve\",\"trait\":\"Formula: The Shield's Borrowed Resolve\",\"ability\":\"The Shield's Borrowed Resolve\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_076\",\"item\":\"Teaching Scroll: The Errand Mote Returns\",\"trait\":\"Formula: The Errand Mote Returns\",\"ability\":\"The Errand Mote Returns\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_077\",\"item\":\"Teaching Scroll: A Clay Hand at the Bench\",\"trait\":\"Formula: A Clay Hand at the Bench\",\"ability\":\"A Clay Hand at the Bench\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_078\",\"item\":\"Teaching Scroll: The Lantern Beetle's Visit\",\"trait\":\"Formula: The Lantern Beetle's Visit\",\"ability\":\"The Lantern Beetle's Visit\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_079\",\"item\":\"Teaching Scroll: The Paper Warden's Stand\",\"trait\":\"Formula: The Paper Warden's Stand\",\"ability\":\"The Paper Warden's Stand\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_080\",\"item\":\"Teaching Scroll: The Last Decoy in the Lane\",\"trait\":\"Formula: The Last Decoy in the Lane\",\"ability\":\"The Last Decoy in the Lane\",\"difficulty\":\"advanced\",\"space\":false}];\nconst tick = Number(check({type:'game-tick'})) || 0;\nconst normalize = text => text.toLowerCase().replace(/[’‘]/g, \"'\");\nconst input = normalize(JSON.stringify(check({type:'action-text'}) || ''));\nconst story = normalize(String(check({type:'story-text'}) || ''));\nconst research = /stud|scroll|formula|research|decipher|practice|practise|experiment|rehears|understand|test|unroll|read/.test(input)\n    || (/try again|continue/.test(input) && /scroll|formula|study|research|diagram|ink|working/.test(story));\nconst recent = research ? input + ' ' + story : '';\nconst readerTraits = check({type:'player-traits'}) || {};\nconst continuation = /try again|continue|rehears|practice|practise|experiment|test/.test(input)\n    && /scroll|formula|study|research|diagram|ink|working/.test(story)\n    && !input.includes('teaching scroll:');\nstorage.rbScrollFocus = storage.rbScrollFocus || {};\nif (research || catalogue.some(row => storage.rbScrollFocus[row.id] !== undefined)) {\nfor (const row of catalogue) {\n    const quantities = check({type:'player-item', item:row.item});\n    const held = quantities && typeof quantities === 'object' && Object.entries(quantities).some(([name,n]) => Number(n) > 0 && !readerTraits[name]?.includes(row.trait));\n    const focused = storage.rbScrollFocus[row.id];\n    if (held && research && (recent.includes(row.ability.toLowerCase()) || (focused && continuation && tick - focused < 8))) {\n        if (!focused && Object.keys(storage.rbScrollFocus).length >= 8) continue;\n        storage.rbScrollFocus[row.id] = tick;\n        const active = Object.keys(storage.rbScrollFocus).length;\n        const semanticCount = Object.values(triggers).filter(t => t.conditions.some(c => c.type === 'story' || c.type === 'action')).length;\n        if (!triggers[row.id] && active <= 8 && semanticCount < 475) {\n            triggers[row.id] = {\n                name:row.id, scope:'player', recurring:true,\n                conditions:[\n                    {type:'player-item', item:row.item, operator:'greaterThan', value:0},\n                    {type:'player-traits', operator:'notContains', value:row.trait},\n                    ...(row.space ? [{type:'skill-value', skill:'Gravity Magic', operator:'greaterThanOrEqual', value:25}] : []),\n                    {type:'story', query:'This player has just completed successful deliberate study of their genuine held ' + row.item + ', has understood its ' + row.difficulty + ' working and carried out a successful controlled test. ' + (row.difficulty === 'masterwork' ? 'Several substantive research sessions and a safe prepared test are necessary. ' : row.difficulty === 'advanced' ? 'Resolve a real difficulty through focused research before the successful test. ' : 'A focused careful exercise can suffice. ') + 'A plan, a label, an unrelated spell, a failed test, another player learning or a formula already known is false. Confirm the exact reader, this formula and the still-held scroll. Substantial research may compensate for low discipline proficiency; study grants no discipline ranks.'}\n                ],\n                effects:[\n                    {type:'player-traits', operator:'add', value:row.trait, target:'satisfyingPlayers'},\n                    {type:'player-abilities', operator:'add', value:row.ability, target:'satisfyingPlayers'},\n                    {type:'item-remove', item:row.item, quantity:1, target:'satisfyingPlayers'},\n                    {type:'story', instruction:'The successful reader learns ' + row.ability + ' as the ink fades from one copy. These effects already settle learning and consumption. Preserve the other readers and unused copies. Casting is a later action using the real discipline and Mana.'}\n                ]\n            };\n        }\n    } else if (!held || !focused || tick - focused >= 8) {\n        delete triggers[row.id];\n        delete storage.rbScrollFocus[row.id];\n    }\n}\n}\n",
-    "phase": "planning"
-  },
-  "rb_scroll_registry_09": {
-    "name": "rb_scroll_registry_09",
-    "conditions": [],
-    "effects": [],
-    "recurring": true,
-    "scope": "party",
-    "script": "// Candidate formulas use the same native settlement shape. Scripts select\n// eligibility only. The engine, not check(), judges the declared story query.\nconst catalogue = [{\"id\":\"rb_study_081\",\"item\":\"Teaching Scroll: The Tailor's Uncut Pattern\",\"trait\":\"Formula: The Tailor's Uncut Pattern\",\"ability\":\"The Tailor's Uncut Pattern\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_082\",\"item\":\"Teaching Scroll: A Map Drawn in the Air\",\"trait\":\"Formula: A Map Drawn in the Air\",\"ability\":\"A Map Drawn in the Air\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_083\",\"item\":\"Teaching Scroll: The Borrowed Crowd's Murmur\",\"trait\":\"Formula: The Borrowed Crowd's Murmur\",\"ability\":\"The Borrowed Crowd's Murmur\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_084\",\"item\":\"Teaching Scroll: The Wrong Door's Invitation\",\"trait\":\"Formula: The Wrong Door's Invitation\",\"ability\":\"The Wrong Door's Invitation\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_085\",\"item\":\"Teaching Scroll: Afterimage on the Stair\",\"trait\":\"Formula: Afterimage on the Stair\",\"ability\":\"Afterimage on the Stair\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_086\",\"item\":\"Teaching Scroll: The Cook's Unwelcome Hint\",\"trait\":\"Formula: The Cook's Unwelcome Hint\",\"ability\":\"The Cook's Unwelcome Hint\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_087\",\"item\":\"Teaching Scroll: A Footstep Noticed Twice\",\"trait\":\"Formula: A Footstep Noticed Twice\",\"ability\":\"A Footstep Noticed Twice\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_088\",\"item\":\"Teaching Scroll: The Missing Page's Neighbor\",\"trait\":\"Formula: The Missing Page's Neighbor\",\"ability\":\"The Missing Page's Neighbor\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_089\",\"item\":\"Teaching Scroll: The Fork in Tomorrow's Path\",\"trait\":\"Formula: The Fork in Tomorrow's Path\",\"ability\":\"The Fork in Tomorrow's Path\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_090\",\"item\":\"Teaching Scroll: An Echo at the Threshold\",\"trait\":\"Formula: An Echo at the Threshold\",\"ability\":\"An Echo at the Threshold\",\"difficulty\":\"masterwork\",\"space\":false}];\nconst tick = Number(check({type:'game-tick'})) || 0;\nconst normalize = text => text.toLowerCase().replace(/[’‘]/g, \"'\");\nconst input = normalize(JSON.stringify(check({type:'action-text'}) || ''));\nconst story = normalize(String(check({type:'story-text'}) || ''));\nconst research = /stud|scroll|formula|research|decipher|practice|practise|experiment|rehears|understand|test|unroll|read/.test(input)\n    || (/try again|continue/.test(input) && /scroll|formula|study|research|diagram|ink|working/.test(story));\nconst recent = research ? input + ' ' + story : '';\nconst readerTraits = check({type:'player-traits'}) || {};\nconst continuation = /try again|continue|rehears|practice|practise|experiment|test/.test(input)\n    && /scroll|formula|study|research|diagram|ink|working/.test(story)\n    && !input.includes('teaching scroll:');\nstorage.rbScrollFocus = storage.rbScrollFocus || {};\nif (research || catalogue.some(row => storage.rbScrollFocus[row.id] !== undefined)) {\nfor (const row of catalogue) {\n    const quantities = check({type:'player-item', item:row.item});\n    const held = quantities && typeof quantities === 'object' && Object.entries(quantities).some(([name,n]) => Number(n) > 0 && !readerTraits[name]?.includes(row.trait));\n    const focused = storage.rbScrollFocus[row.id];\n    if (held && research && (recent.includes(row.ability.toLowerCase()) || (focused && continuation && tick - focused < 8))) {\n        if (!focused && Object.keys(storage.rbScrollFocus).length >= 8) continue;\n        storage.rbScrollFocus[row.id] = tick;\n        const active = Object.keys(storage.rbScrollFocus).length;\n        const semanticCount = Object.values(triggers).filter(t => t.conditions.some(c => c.type === 'story' || c.type === 'action')).length;\n        if (!triggers[row.id] && active <= 8 && semanticCount < 475) {\n            triggers[row.id] = {\n                name:row.id, scope:'player', recurring:true,\n                conditions:[\n                    {type:'player-item', item:row.item, operator:'greaterThan', value:0},\n                    {type:'player-traits', operator:'notContains', value:row.trait},\n                    ...(row.space ? [{type:'skill-value', skill:'Gravity Magic', operator:'greaterThanOrEqual', value:25}] : []),\n                    {type:'story', query:'This player has just completed successful deliberate study of their genuine held ' + row.item + ', has understood its ' + row.difficulty + ' working and carried out a successful controlled test. ' + (row.difficulty === 'masterwork' ? 'Several substantive research sessions and a safe prepared test are necessary. ' : row.difficulty === 'advanced' ? 'Resolve a real difficulty through focused research before the successful test. ' : 'A focused careful exercise can suffice. ') + 'A plan, a label, an unrelated spell, a failed test, another player learning or a formula already known is false. Confirm the exact reader, this formula and the still-held scroll. Substantial research may compensate for low discipline proficiency; study grants no discipline ranks.'}\n                ],\n                effects:[\n                    {type:'player-traits', operator:'add', value:row.trait, target:'satisfyingPlayers'},\n                    {type:'player-abilities', operator:'add', value:row.ability, target:'satisfyingPlayers'},\n                    {type:'item-remove', item:row.item, quantity:1, target:'satisfyingPlayers'},\n                    {type:'story', instruction:'The successful reader learns ' + row.ability + ' as the ink fades from one copy. These effects already settle learning and consumption. Preserve the other readers and unused copies. Casting is a later action using the real discipline and Mana.'}\n                ]\n            };\n        }\n    } else if (!held || !focused || tick - focused >= 8) {\n        delete triggers[row.id];\n        delete storage.rbScrollFocus[row.id];\n    }\n}\n}\n",
-    "phase": "planning"
-  },
-  "rb_scroll_registry_10": {
-    "name": "rb_scroll_registry_10",
-    "conditions": [],
-    "effects": [],
-    "recurring": true,
-    "scope": "party",
-    "script": "// Candidate formulas use the same native settlement shape. Scripts select\n// eligibility only. The engine, not check(), judges the declared story query.\nconst catalogue = [{\"id\":\"rb_study_091\",\"item\":\"Teaching Scroll: The Fold between Two Cups\",\"trait\":\"Formula: The Fold between Two Cups\",\"ability\":\"The Fold between Two Cups\",\"difficulty\":\"practical\",\"space\":true},{\"id\":\"rb_study_092\",\"item\":\"Teaching Scroll: A Thread through the Open Window\",\"trait\":\"Formula: A Thread through the Open Window\",\"ability\":\"A Thread through the Open Window\",\"difficulty\":\"practical\",\"space\":true},{\"id\":\"rb_study_093\",\"item\":\"Teaching Scroll: The Surveyor's Shorter String\",\"trait\":\"Formula: The Surveyor's Shorter String\",\"ability\":\"The Surveyor's Shorter String\",\"difficulty\":\"practical\",\"space\":true},{\"id\":\"rb_study_094\",\"item\":\"Teaching Scroll: The Step behind the Banner\",\"trait\":\"Formula: The Step behind the Banner\",\"ability\":\"The Step behind the Banner\",\"difficulty\":\"advanced\",\"space\":true},{\"id\":\"rb_study_095\",\"item\":\"Teaching Scroll: The Return Fold's Careful Knot\",\"trait\":\"Formula: The Return Fold's Careful Knot\",\"ability\":\"The Return Fold's Careful Knot\",\"difficulty\":\"masterwork\",\"space\":true},{\"id\":\"rb_study_096\",\"item\":\"Teaching Scroll: The Hearthkeeper's Farewell\",\"trait\":\"Formula: The Hearthkeeper's Farewell\",\"ability\":\"The Hearthkeeper's Farewell\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_097\",\"item\":\"Teaching Scroll: The Grave Tender's Lantern\",\"trait\":\"Formula: The Grave Tender's Lantern\",\"ability\":\"The Grave Tender's Lantern\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_098\",\"item\":\"Teaching Scroll: A Bone Hand for the Lamp\",\"trait\":\"Formula: A Bone Hand for the Lamp\",\"ability\":\"A Bone Hand for the Lamp\",\"difficulty\":\"practical\",\"space\":false},{\"id\":\"rb_study_099\",\"item\":\"Teaching Scroll: The Unborrowed Voice\",\"trait\":\"Formula: The Unborrowed Voice\",\"ability\":\"The Unborrowed Voice\",\"difficulty\":\"advanced\",\"space\":false},{\"id\":\"rb_study_100\",\"item\":\"Teaching Scroll: A Threshold Kept for the Living\",\"trait\":\"Formula: A Threshold Kept for the Living\",\"ability\":\"A Threshold Kept for the Living\",\"difficulty\":\"masterwork\",\"space\":false}];\nconst tick = Number(check({type:'game-tick'})) || 0;\nconst normalize = text => text.toLowerCase().replace(/[’‘]/g, \"'\");\nconst input = normalize(JSON.stringify(check({type:'action-text'}) || ''));\nconst story = normalize(String(check({type:'story-text'}) || ''));\nconst research = /stud|scroll|formula|research|decipher|practice|practise|experiment|rehears|understand|test|unroll|read/.test(input)\n    || (/try again|continue/.test(input) && /scroll|formula|study|research|diagram|ink|working/.test(story));\nconst recent = research ? input + ' ' + story : '';\nconst readerTraits = check({type:'player-traits'}) || {};\nconst continuation = /try again|continue|rehears|practice|practise|experiment|test/.test(input)\n    && /scroll|formula|study|research|diagram|ink|working/.test(story)\n    && !input.includes('teaching scroll:');\nstorage.rbScrollFocus = storage.rbScrollFocus || {};\nif (research || catalogue.some(row => storage.rbScrollFocus[row.id] !== undefined)) {\nfor (const row of catalogue) {\n    const quantities = check({type:'player-item', item:row.item});\n    const held = quantities && typeof quantities === 'object' && Object.entries(quantities).some(([name,n]) => Number(n) > 0 && !readerTraits[name]?.includes(row.trait));\n    const focused = storage.rbScrollFocus[row.id];\n    if (held && research && (recent.includes(row.ability.toLowerCase()) || (focused && continuation && tick - focused < 8))) {\n        if (!focused && Object.keys(storage.rbScrollFocus).length >= 8) continue;\n        storage.rbScrollFocus[row.id] = tick;\n        const active = Object.keys(storage.rbScrollFocus).length;\n        const semanticCount = Object.values(triggers).filter(t => t.conditions.some(c => c.type === 'story' || c.type === 'action')).length;\n        if (!triggers[row.id] && active <= 8 && semanticCount < 475) {\n            triggers[row.id] = {\n                name:row.id, scope:'player', recurring:true,\n                conditions:[\n                    {type:'player-item', item:row.item, operator:'greaterThan', value:0},\n                    {type:'player-traits', operator:'notContains', value:row.trait},\n                    ...(row.space ? [{type:'skill-value', skill:'Gravity Magic', operator:'greaterThanOrEqual', value:25}] : []),\n                    {type:'story', query:'This player has just completed successful deliberate study of their genuine held ' + row.item + ', has understood its ' + row.difficulty + ' working and carried out a successful controlled test. ' + (row.difficulty === 'masterwork' ? 'Several substantive research sessions and a safe prepared test are necessary. ' : row.difficulty === 'advanced' ? 'Resolve a real difficulty through focused research before the successful test. ' : 'A focused careful exercise can suffice. ') + 'A plan, a label, an unrelated spell, a failed test, another player learning or a formula already known is false. Confirm the exact reader, this formula and the still-held scroll. Substantial research may compensate for low discipline proficiency; study grants no discipline ranks.'}\n                ],\n                effects:[\n                    {type:'player-traits', operator:'add', value:row.trait, target:'satisfyingPlayers'},\n                    {type:'player-abilities', operator:'add', value:row.ability, target:'satisfyingPlayers'},\n                    {type:'item-remove', item:row.item, quantity:1, target:'satisfyingPlayers'},\n                    {type:'story', instruction:'The successful reader learns ' + row.ability + ' as the ink fades from one copy. These effects already settle learning and consumption. Preserve the other readers and unused copies. Casting is a later action using the real discipline and Mana.'}\n                ]\n            };\n        }\n    } else if (!held || !focused || tick - focused >= 8) {\n        delete triggers[row.id];\n        delete storage.rbScrollFocus[row.id];\n    }\n}\n}\n",
-    "phase": "planning"
   },
   "rb_origin": {
     "name": "rb_origin",
@@ -21149,6 +19673,1809 @@
       {
         "type": "story",
         "instruction": "Akihisa checks the traveler’s established local connection or genuine sponsorship and hands over the one reusable key recorded by the item effect. Explain that this hall’s fixed arch reaches Glowhaven without a key, while this key permits the journey back from Evertree Base. There is no fee, palace clearance, extra item or automatic crossing."
+      }
+    ]
+  },
+  "mx_scroll_catalogue": {
+    "name": "mx_scroll_catalogue",
+    "recurring": true,
+    "scope": "party",
+    "phase": "state",
+    "conditions": [
+      {
+        "type": "read-number",
+        "operator": "notEquals",
+        "value": 1,
+        "key": "mxCatalogueVersion"
+      }
+    ],
+    "effects": [],
+    "script": "storage.mxScrollCatalogue=[[\"The Seventh Counterstroke\",\"a\",false],[\"Foxfire Procession\",\"p\",false],[\"The River Wears Your Face\",\"a\",false],[\"The Mason's Last Word\",\"a\",false],[\"The Hundredth Feather\",\"p\",false],[\"Thunder's Second Name\",\"a\",false],[\"Winter's Borrowed Crown\",\"a\",false],[\"Noon Behind Closed Eyes\",\"p\",false],[\"The Blacksmith's White Lie\",\"a\",false],[\"A Garden Between Heartbeats\",\"a\",false],[\"The Bell That Answers Nothing\",\"a\",false],[\"Crownfall Waltz\",\"a\",false],[\"The Seam That Holds\",\"p\",false],[\"Mercy's Last Stitch\",\"a\",false],[\"A Guest Made of Rain\",\"a\",false],[\"The Applause Behind You\",\"p\",false],[\"Footprint of the Unchosen Road\",\"a\",false],[\"The Hole in the Chorus\",\"a\",false],[\"The Door Within Reach\",\"a\",true],[\"The Ferryman's Small Courtesy\",\"p\",false],[\"Paper Moon Phalanx\",\"m\",false],[\"Cathedral of Cinders\",\"m\",false],[\"Hollow-Lake Reversal\",\"m\",false],[\"Sleeping Dune Coffin\",\"a\",false],[\"The Uninvited Gale\",\"a\",false],[\"Lighthouse in Your Hand\",\"a\",false],[\"Borrowed Breath\",\"a\",false],[\"One More Chore\",\"a\",false],[\"The Coppersmith's Pet Dragon\",\"a\",false],[\"Invitation to an Empty Room\",\"a\",false],[\"The Porter's Invisible Palm\",\"p\",false],[\"Lanternwright's Spare Hand\",\"p\",false],[\"The Unbroken Chalk Circle\",\"p\",false],[\"Three Steps of Shelter\",\"a\",false],[\"Last Light in the Reservoir\",\"m\",false],[\"A Coal Kept Kindly\",\"p\",false],[\"The Baker's Even Hearth\",\"p\",false],[\"Red Thread across the Fuse\",\"p\",false],[\"Cinderstep Reversal\",\"a\",false],[\"The Kiln That Breathes Twice\",\"a\",false],[\"The Seamstress's Dry Cuff\",\"p\",false],[\"A Cup for the Last Traveler\",\"p\",false],[\"Millrace in Miniature\",\"p\",false],[\"The Ferryman's Sideways Wake\",\"a\",false],[\"Blue Ribbon Restraint\",\"a\",false],[\"The Mason's Patient Thumb\",\"p\",false],[\"Dust Drawn to the Door\",\"p\",false],[\"A Furrow Before Rain\",\"p\",false],[\"The Bank That Held\",\"a\",false],[\"Sandglass Interdict\",\"a\",false],[\"The Launderer's Borrowed Breeze\",\"p\",false],[\"A Whisper Kept Downstream\",\"p\",false],[\"The Sailmaker's Gentle Test\",\"p\",false],[\"Featherfall for a Friend\",\"a\",false],[\"The Storm's Narrow Shoulder\",\"a\",false],[\"The Clockmaker's Testing Spark\",\"p\",false],[\"A Bell without a Rope\",\"p\",false],[\"Blue Stitch across Broken Copper\",\"p\",false],[\"Thunder at the Wrong Foot\",\"a\",false],[\"The Storm Needle's Answer\",\"a\",false],[\"The Fishmonger's Cold Cloth\",\"p\",false],[\"A Frosted Window's Secret\",\"p\",false],[\"The Miller's Quiet Chill\",\"p\",false],[\"White Heel upon the Step\",\"a\",false],[\"Winter's Borrowed Splint\",\"a\",false],[\"The Scribe's Unshadowed Page\",\"p\",false],[\"A Harbor Lamp Answered\",\"p\",false],[\"The Glassworker's Revealing Edge\",\"p\",false],[\"Starlight Beneath the Door\",\"a\",false],[\"The Noon Lance's Mercy\",\"a\",false],[\"The Locksmith's Honest Witness\",\"p\",false],[\"Needles Gathered in a Bowl\",\"p\",false],[\"The Tinsmith's Gentle Seam\",\"p\",false],[\"The Coin That Stood on Edge\",\"a\",false],[\"Iron Petals at the Wrist\",\"a\",false],[\"The Gardener's Returning Tendril\",\"p\",false],[\"Thorns at the Orchard Gate\",\"p\",false],[\"A Leaf Turned toward Home\",\"p\",false],[\"Rootwork under the Barrow\",\"a\",false],[\"The Hedge That Bowed Aside\",\"a\",false],[\"The Musician's Unbroken Note\",\"p\",false],[\"A Knock through the Floorboards\",\"p\",false],[\"The Bellfounder's Hidden Crack\",\"p\",false],[\"Quiet around the Cradle\",\"a\",false],[\"The Empty Hall Replies\",\"a\",false],[\"The Potter's Centered Wheel\",\"p\",false],[\"A Ladder's Second Foot\",\"p\",false],[\"The Porter's Unburdening\",\"p\",false],[\"The Feather's Firm Descent\",\"a\",false],[\"The Courtyard's Heavy Hush\",\"a\",false],[\"The Candle's Missing Shadow\",\"p\",false],[\"A Spell's Loose Thread\",\"p\",false],[\"The Quiet between Two Wards\",\"p\",false],[\"Nightcloth across the Lens\",\"a\",false],[\"The Counterchord Unfinished\",\"m\",false],[\"The Medic's Steady Fingers\",\"p\",false],[\"A Breath Counted Kindly\",\"p\",false],[\"The Stitch That Held\",\"p\",false],[\"Warmth at the Broken Road\",\"a\",false],[\"The Nightwatcher's Second Hour\",\"a\",false],[\"The Apron's Unburnt Hem\",\"p\",false],[\"A Cup That Remembers Warmth\",\"p\",false],[\"The Hinge's Quiet Promise\",\"p\",false],[\"The Worker's True Measure\",\"a\",false],[\"The Shield's Borrowed Resolve\",\"a\",false],[\"The Errand Mote Returns\",\"p\",false],[\"A Clay Hand at the Bench\",\"p\",false],[\"The Lantern Beetle's Visit\",\"p\",false],[\"The Paper Warden's Stand\",\"a\",false],[\"The Last Decoy in the Lane\",\"a\",false],[\"The Tailor's Uncut Pattern\",\"p\",false],[\"A Map Drawn in the Air\",\"p\",false],[\"The Borrowed Crowd's Murmur\",\"p\",false],[\"The Wrong Door's Invitation\",\"a\",false],[\"Afterimage on the Stair\",\"a\",false],[\"The Cook's Unwelcome Hint\",\"p\",false],[\"A Footstep Noticed Twice\",\"p\",false],[\"The Missing Page's Neighbor\",\"p\",false],[\"The Fork in Tomorrow's Path\",\"a\",false],[\"An Echo at the Threshold\",\"m\",false],[\"The Fold between Two Cups\",\"p\",true],[\"A Thread through the Open Window\",\"p\",true],[\"The Surveyor's Shorter String\",\"p\",true],[\"The Step behind the Banner\",\"a\",true],[\"The Return Fold's Careful Knot\",\"m\",true],[\"The Hearthkeeper's Farewell\",\"p\",false],[\"The Grave Tender's Lantern\",\"p\",false],[\"A Bone Hand for the Lamp\",\"p\",false],[\"The Unborrowed Voice\",\"a\",false],[\"A Threshold Kept for the Living\",\"m\",false]];\nstorage.mxCatalogueVersion=1;\nfor(const name of Object.keys(triggers)){if(/^item31_study_\\d+$|^rb_scroll_registry_\\d+$|^rb_study_\\d+$/.test(name))delete triggers[name];}"
+  },
+  "mx_scroll_learn": {
+    "name": "mx_scroll_learn",
+    "recurring": true,
+    "scope": "player",
+    "phase": "state",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "operator": "equals",
+        "value": true,
+        "key": "mxScrollReady"
+      },
+      {
+        "type": "player-item",
+        "item": "Teaching Scroll: The Seventh Counterstroke",
+        "operator": "greaterThan",
+        "value": 0
+      },
+      {
+        "type": "player-traits",
+        "operator": "notContains",
+        "value": "Formula: The Seventh Counterstroke"
+      },
+      {
+        "type": "story",
+        "query": "This player actually completes deliberate first-time study of their held teaching scroll and a successful controlled test. A label, intention, failed attempt or another reader does not qualify."
+      }
+    ],
+    "effects": []
+  },
+  "mx_scroll_schedule": {
+    "name": "mx_scroll_schedule",
+    "recurring": true,
+    "scope": "party",
+    "phase": "state",
+    "conditions": [
+      {
+        "type": "game-tick",
+        "operator": "greaterThan",
+        "value": 0
+      }
+    ],
+    "effects": [],
+    "script": "// Selection is lexical/contextual; successful learning is judged only by the\n// single declared player-scoped semantic condition, never by this script.\nconst rows = storage.mxScrollCatalogue;\nif (!Array.isArray(rows)) { skip = true; }\nelse {\n    const tick = Number(check({type:'game-tick'})) || 0;\n    const norm = s => String(s || '').normalize('NFKC').toLowerCase().replace(/[’‘]/g, \"'\");\n    const input = norm(JSON.stringify(check({type:'action-text'}) || []));\n    const story = norm(check({type:'story-text'}));\n    const traits = check({type:'player-traits'}) || {};\n    const studying = /scroll|formula|stud|read|decipher|research|unroll|pore|rehears|experiment|practi[cs]|try again|continu|test|diagram|working/.test(input);\n    const held = rows.filter(row => {\n        const quantities = check({type:'player-item',item:'Teaching Scroll: '+row[0]}) || {};\n        return Object.entries(quantities).some(([p,n]) => Number(n)>0 && !(traits[p] || []).includes('Formula: '+row[0]));\n    });\n    let queue = Array.isArray(storage.mxScrollQueue) ? storage.mxScrollQueue : [];\n    queue = queue.filter(q => tick-q.touched<=8 && held.some(r=>r[0]===q.name));\n    const mention = row => input.includes(norm(row[0])) || (studying && story.includes(norm(row[0])));\n    for (const row of held) {\n        if (!mention(row) && !(studying && held.length===1) && !(studying && queue.length===1 && queue[0].name===row[0])) continue;\n        let q = queue.find(q=>q.name===row[0]);\n        if (q) q.touched=tick;\n        else queue.push({name:row[0],touched:tick,served:-1});\n    }\n    storage.mxScrollQueue = queue;\n    if (!queue.length) storage.mxScrollReady = false;\n    else {\n        // Round-robin formulas, not arbitrary player IDs. Everyone learning the\n        // selected formula is independently filtered by native scope/ownership.\n        queue.sort((a,b)=>a.served-b.served || a.touched-b.touched);\n        const q=queue[0], row=rows.find(r=>r[0]===q.name);\n        const item='Teaching Scroll: '+row[0], formula='Formula: '+row[0];\n        const difficulty=row[1]==='m'\n            ? 'Several substantive research sessions, correction and a successful safe final test are required.'\n            : row[1]==='a'\n            ? 'Identify and solve a genuine difficulty, understand the formula and complete a successful controlled test.'\n            : 'A genuinely focused exercise and successful controlled test can suffice.';\n        const query='This player actually completed deliberate first-time study of their own held '+item+'. '+difficulty+' Verify the exact reader and formula from actual recent play, including a completed study awaiting this queued verification within the last eight turns. Mere possession, shopping, quotation, intent, opening a label, unread copying, a failed test, another person learning or an already known formula is false. Substantial research may compensate for low school proficiency; it grants no ranks. The reader still holds an unused copy.';\n        const conditions=[\n            {type:'read-boolean',key:'mxScrollReady',operator:'equals',value:true},\n            {type:'player-item',item,operator:'greaterThan',value:0},\n            {type:'player-traits',operator:'notContains',value:formula},\n            ...(row[2] ? [{type:'skill-value',skill:'Gravity Magic',operator:'greaterThanOrEqual',value:25}] : []),\n            {type:'story',query}\n        ];\n        const effects=[\n            {type:'player-traits',operator:'add',value:formula,target:'satisfyingPlayers'},\n            {type:'player-abilities',operator:'add',value:row[0],target:'satisfyingPlayers'},\n            {type:'item-remove',item,quantity:1,target:'satisfyingPlayers'},\n            {type:'story',instruction:'The successful reader learns '+row[0]+' as one scroll fades. Learning and consumption are already supplied once. Preserve other readers and unused duplicates; no ability point, rank, affinity, Mana or automatic cast is granted.'}\n        ];\n        const script='const tick=Number(check({type:\"game-tick\"}))||0; storage.mxScrollVerified=storage.mxScrollVerified||{}; storage.mxScrollVerified['+JSON.stringify(row[0])+']=tick;';\n        triggers.mx_scroll_learn={name:'mx_scroll_learn',scope:'player',recurring:true,phase:'state',conditions,effects,script};\n        storage.mxScrollReady=true;\n        q.served=tick;\n    }\n}\n"
+  },
+  "mx_resonance_init": {
+    "name": "mx_resonance_init",
+    "recurring": true,
+    "scope": "player",
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "notContains",
+        "value": "Elemental Resonance"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Elemental Resonance",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Quiet Resonance",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 0,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_earn_20": {
+    "name": "mx_resonance_earn_20",
+    "recurring": true,
+    "scope": "player",
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonant"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Gathered Resonance"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Gathered Resonance",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 20,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_mirror_20": {
+    "name": "mx_resonance_mirror_20",
+    "recurring": true,
+    "scope": "player",
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonant"
+      },
+      {
+        "type": "player-traits",
+        "operator": "notContains",
+        "value": "Gathered Resonance"
+      },
+      {
+        "type": "player-resource",
+        "operator": "notEquals",
+        "value": 20,
+        "resource": "Resonance"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 20,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_earn_19": {
+    "name": "mx_resonance_earn_19",
+    "recurring": true,
+    "scope": "player",
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonance: 19"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Gathered Resonance"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Gathered Resonance",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Resonance: 19",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Resonant",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 20,
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "story",
+        "instruction": "Earned Resonance reaches its full chorus. It is ready for the next landed damaging technique, not an action already resolved. Do not create an extra attack."
+      }
+    ]
+  },
+  "mx_resonance_mirror_19": {
+    "name": "mx_resonance_mirror_19",
+    "recurring": true,
+    "scope": "player",
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonance: 19"
+      },
+      {
+        "type": "player-traits",
+        "operator": "notContains",
+        "value": "Gathered Resonance"
+      },
+      {
+        "type": "player-resource",
+        "operator": "notEquals",
+        "value": 19,
+        "resource": "Resonance"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 19,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_earn_18": {
+    "name": "mx_resonance_earn_18",
+    "recurring": true,
+    "scope": "player",
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonance: 18"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Gathered Resonance"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Gathered Resonance",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Resonance: 18",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Resonance: 19",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 19,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_mirror_18": {
+    "name": "mx_resonance_mirror_18",
+    "recurring": true,
+    "scope": "player",
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonance: 18"
+      },
+      {
+        "type": "player-traits",
+        "operator": "notContains",
+        "value": "Gathered Resonance"
+      },
+      {
+        "type": "player-resource",
+        "operator": "notEquals",
+        "value": 18,
+        "resource": "Resonance"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 18,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_earn_17": {
+    "name": "mx_resonance_earn_17",
+    "recurring": true,
+    "scope": "player",
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonance: 17"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Gathered Resonance"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Gathered Resonance",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Resonance: 17",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Resonance: 18",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 18,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_mirror_17": {
+    "name": "mx_resonance_mirror_17",
+    "recurring": true,
+    "scope": "player",
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonance: 17"
+      },
+      {
+        "type": "player-traits",
+        "operator": "notContains",
+        "value": "Gathered Resonance"
+      },
+      {
+        "type": "player-resource",
+        "operator": "notEquals",
+        "value": 17,
+        "resource": "Resonance"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 17,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_earn_16": {
+    "name": "mx_resonance_earn_16",
+    "recurring": true,
+    "scope": "player",
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonance: 16"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Gathered Resonance"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Gathered Resonance",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Resonance: 16",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Resonance: 17",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 17,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_mirror_16": {
+    "name": "mx_resonance_mirror_16",
+    "recurring": true,
+    "scope": "player",
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonance: 16"
+      },
+      {
+        "type": "player-traits",
+        "operator": "notContains",
+        "value": "Gathered Resonance"
+      },
+      {
+        "type": "player-resource",
+        "operator": "notEquals",
+        "value": 16,
+        "resource": "Resonance"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 16,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_earn_15": {
+    "name": "mx_resonance_earn_15",
+    "recurring": true,
+    "scope": "player",
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonance: 15"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Gathered Resonance"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Gathered Resonance",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Resonance: 15",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Resonance: 16",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 16,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_mirror_15": {
+    "name": "mx_resonance_mirror_15",
+    "recurring": true,
+    "scope": "player",
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonance: 15"
+      },
+      {
+        "type": "player-traits",
+        "operator": "notContains",
+        "value": "Gathered Resonance"
+      },
+      {
+        "type": "player-resource",
+        "operator": "notEquals",
+        "value": 15,
+        "resource": "Resonance"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 15,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_earn_14": {
+    "name": "mx_resonance_earn_14",
+    "recurring": true,
+    "scope": "player",
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonance: 14"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Gathered Resonance"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Gathered Resonance",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Resonance: 14",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Resonance: 15",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 15,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_mirror_14": {
+    "name": "mx_resonance_mirror_14",
+    "recurring": true,
+    "scope": "player",
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonance: 14"
+      },
+      {
+        "type": "player-traits",
+        "operator": "notContains",
+        "value": "Gathered Resonance"
+      },
+      {
+        "type": "player-resource",
+        "operator": "notEquals",
+        "value": 14,
+        "resource": "Resonance"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 14,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_earn_13": {
+    "name": "mx_resonance_earn_13",
+    "recurring": true,
+    "scope": "player",
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonance: 13"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Gathered Resonance"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Gathered Resonance",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Resonance: 13",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Resonance: 14",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 14,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_mirror_13": {
+    "name": "mx_resonance_mirror_13",
+    "recurring": true,
+    "scope": "player",
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonance: 13"
+      },
+      {
+        "type": "player-traits",
+        "operator": "notContains",
+        "value": "Gathered Resonance"
+      },
+      {
+        "type": "player-resource",
+        "operator": "notEquals",
+        "value": 13,
+        "resource": "Resonance"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 13,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_earn_12": {
+    "name": "mx_resonance_earn_12",
+    "recurring": true,
+    "scope": "player",
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonance: 12"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Gathered Resonance"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Gathered Resonance",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Resonance: 12",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Resonance: 13",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 13,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_mirror_12": {
+    "name": "mx_resonance_mirror_12",
+    "recurring": true,
+    "scope": "player",
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonance: 12"
+      },
+      {
+        "type": "player-traits",
+        "operator": "notContains",
+        "value": "Gathered Resonance"
+      },
+      {
+        "type": "player-resource",
+        "operator": "notEquals",
+        "value": 12,
+        "resource": "Resonance"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 12,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_earn_11": {
+    "name": "mx_resonance_earn_11",
+    "recurring": true,
+    "scope": "player",
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonance: 11"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Gathered Resonance"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Gathered Resonance",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Resonance: 11",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Resonance: 12",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 12,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_mirror_11": {
+    "name": "mx_resonance_mirror_11",
+    "recurring": true,
+    "scope": "player",
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonance: 11"
+      },
+      {
+        "type": "player-traits",
+        "operator": "notContains",
+        "value": "Gathered Resonance"
+      },
+      {
+        "type": "player-resource",
+        "operator": "notEquals",
+        "value": 11,
+        "resource": "Resonance"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 11,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_earn_10": {
+    "name": "mx_resonance_earn_10",
+    "recurring": true,
+    "scope": "player",
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonance: 10"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Gathered Resonance"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Gathered Resonance",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Resonance: 10",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Resonance: 11",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 11,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_mirror_10": {
+    "name": "mx_resonance_mirror_10",
+    "recurring": true,
+    "scope": "player",
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonance: 10"
+      },
+      {
+        "type": "player-traits",
+        "operator": "notContains",
+        "value": "Gathered Resonance"
+      },
+      {
+        "type": "player-resource",
+        "operator": "notEquals",
+        "value": 10,
+        "resource": "Resonance"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 10,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_earn_09": {
+    "name": "mx_resonance_earn_09",
+    "recurring": true,
+    "scope": "player",
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonance: 9"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Gathered Resonance"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Gathered Resonance",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Resonance: 9",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Resonance: 10",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 10,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_mirror_09": {
+    "name": "mx_resonance_mirror_09",
+    "recurring": true,
+    "scope": "player",
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonance: 9"
+      },
+      {
+        "type": "player-traits",
+        "operator": "notContains",
+        "value": "Gathered Resonance"
+      },
+      {
+        "type": "player-resource",
+        "operator": "notEquals",
+        "value": 9,
+        "resource": "Resonance"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 9,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_earn_08": {
+    "name": "mx_resonance_earn_08",
+    "recurring": true,
+    "scope": "player",
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonance: 8"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Gathered Resonance"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Gathered Resonance",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Resonance: 8",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Resonance: 9",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 9,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_mirror_08": {
+    "name": "mx_resonance_mirror_08",
+    "recurring": true,
+    "scope": "player",
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonance: 8"
+      },
+      {
+        "type": "player-traits",
+        "operator": "notContains",
+        "value": "Gathered Resonance"
+      },
+      {
+        "type": "player-resource",
+        "operator": "notEquals",
+        "value": 8,
+        "resource": "Resonance"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 8,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_earn_07": {
+    "name": "mx_resonance_earn_07",
+    "recurring": true,
+    "scope": "player",
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonance: 7"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Gathered Resonance"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Gathered Resonance",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Resonance: 7",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Resonance: 8",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 8,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_mirror_07": {
+    "name": "mx_resonance_mirror_07",
+    "recurring": true,
+    "scope": "player",
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonance: 7"
+      },
+      {
+        "type": "player-traits",
+        "operator": "notContains",
+        "value": "Gathered Resonance"
+      },
+      {
+        "type": "player-resource",
+        "operator": "notEquals",
+        "value": 7,
+        "resource": "Resonance"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 7,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_earn_06": {
+    "name": "mx_resonance_earn_06",
+    "recurring": true,
+    "scope": "player",
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonance: 6"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Gathered Resonance"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Gathered Resonance",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Resonance: 6",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Resonance: 7",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 7,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_mirror_06": {
+    "name": "mx_resonance_mirror_06",
+    "recurring": true,
+    "scope": "player",
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonance: 6"
+      },
+      {
+        "type": "player-traits",
+        "operator": "notContains",
+        "value": "Gathered Resonance"
+      },
+      {
+        "type": "player-resource",
+        "operator": "notEquals",
+        "value": 6,
+        "resource": "Resonance"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 6,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_earn_05": {
+    "name": "mx_resonance_earn_05",
+    "recurring": true,
+    "scope": "player",
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonance: 5"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Gathered Resonance"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Gathered Resonance",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Resonance: 5",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Resonance: 6",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 6,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_mirror_05": {
+    "name": "mx_resonance_mirror_05",
+    "recurring": true,
+    "scope": "player",
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonance: 5"
+      },
+      {
+        "type": "player-traits",
+        "operator": "notContains",
+        "value": "Gathered Resonance"
+      },
+      {
+        "type": "player-resource",
+        "operator": "notEquals",
+        "value": 5,
+        "resource": "Resonance"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 5,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_earn_04": {
+    "name": "mx_resonance_earn_04",
+    "recurring": true,
+    "scope": "player",
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonance: 4"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Gathered Resonance"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Gathered Resonance",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Resonance: 4",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Resonance: 5",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 5,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_mirror_04": {
+    "name": "mx_resonance_mirror_04",
+    "recurring": true,
+    "scope": "player",
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonance: 4"
+      },
+      {
+        "type": "player-traits",
+        "operator": "notContains",
+        "value": "Gathered Resonance"
+      },
+      {
+        "type": "player-resource",
+        "operator": "notEquals",
+        "value": 4,
+        "resource": "Resonance"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 4,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_earn_03": {
+    "name": "mx_resonance_earn_03",
+    "recurring": true,
+    "scope": "player",
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonance: 3"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Gathered Resonance"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Gathered Resonance",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Resonance: 3",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Resonance: 4",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 4,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_mirror_03": {
+    "name": "mx_resonance_mirror_03",
+    "recurring": true,
+    "scope": "player",
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonance: 3"
+      },
+      {
+        "type": "player-traits",
+        "operator": "notContains",
+        "value": "Gathered Resonance"
+      },
+      {
+        "type": "player-resource",
+        "operator": "notEquals",
+        "value": 3,
+        "resource": "Resonance"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 3,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_earn_02": {
+    "name": "mx_resonance_earn_02",
+    "recurring": true,
+    "scope": "player",
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonance: 2"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Gathered Resonance"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Gathered Resonance",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Resonance: 2",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Resonance: 3",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 3,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_mirror_02": {
+    "name": "mx_resonance_mirror_02",
+    "recurring": true,
+    "scope": "player",
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonance: 2"
+      },
+      {
+        "type": "player-traits",
+        "operator": "notContains",
+        "value": "Gathered Resonance"
+      },
+      {
+        "type": "player-resource",
+        "operator": "notEquals",
+        "value": 2,
+        "resource": "Resonance"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 2,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_earn_01": {
+    "name": "mx_resonance_earn_01",
+    "recurring": true,
+    "scope": "player",
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonance: 1"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Gathered Resonance"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Gathered Resonance",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Resonance: 1",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Resonance: 2",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 2,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_mirror_01": {
+    "name": "mx_resonance_mirror_01",
+    "recurring": true,
+    "scope": "player",
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonance: 1"
+      },
+      {
+        "type": "player-traits",
+        "operator": "notContains",
+        "value": "Gathered Resonance"
+      },
+      {
+        "type": "player-resource",
+        "operator": "notEquals",
+        "value": 1,
+        "resource": "Resonance"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 1,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_earn_00": {
+    "name": "mx_resonance_earn_00",
+    "recurring": true,
+    "scope": "player",
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Quiet Resonance"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Gathered Resonance"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Gathered Resonance",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Quiet Resonance",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Resonance: 1",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 1,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_mirror_00": {
+    "name": "mx_resonance_mirror_00",
+    "recurring": true,
+    "scope": "player",
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Quiet Resonance"
+      },
+      {
+        "type": "player-traits",
+        "operator": "notContains",
+        "value": "Gathered Resonance"
+      },
+      {
+        "type": "player-resource",
+        "operator": "notEquals",
+        "value": 0,
+        "resource": "Resonance"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 0,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_gain": {
+    "name": "mx_resonance_gain",
+    "recurring": true,
+    "scope": "player",
+    "phase": "state",
+    "conditions": [
+      {
+        "type": "game-tick",
+        "operator": "greaterThan",
+        "value": 0
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Elemental Resonance"
+      },
+      {
+        "type": "player-traits",
+        "operator": "notContains",
+        "value": "Gathered Resonance"
+      },
+      {
+        "type": "story",
+        "query": "In the latest completed turn this player personally finished a genuine combat elemental reaction from the configured 24-pair table on an actual opposed target. A real prior eligible elemental hit on that exact target came from a separate action no earlier than the preceding party turn, and the compatible finisher actually landed despite defenses. Count at most one reaction for this player this turn. A miss, immunity, harmless display, training farm, same-action fusion, rain alone, merely naming a reaction, an old retelling or another character finishing is false. Respect actual supplied combat results."
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Gathered Resonance",
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "mx_resonance_spend": {
+    "name": "mx_resonance_spend",
+    "recurring": true,
+    "scope": "player",
+    "phase": "state",
+    "conditions": [
+      {
+        "type": "game-tick",
+        "operator": "greaterThan",
+        "value": 0
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Resonant"
+      },
+      {
+        "type": "story",
+        "query": "In the latest completed turn this player began an actual damaging spell or trained combat technique already Resonant, then landed that paid or ordinarily valid attack and released the ready surge. The readiness existed before this action; acquiring it after an already resolved action is false. A miss, fully immune hit, insufficient cost, healing, crafting, conversation, utility, hypothetical attack or another player's attack does not consume this player's surge."
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Resonant",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Quiet Resonance",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-resource",
+        "operator": "set",
+        "resource": "Resonance",
+        "value": 0,
+        "target": "satisfyingPlayers"
       }
     ]
   }

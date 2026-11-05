@@ -1,0 +1,194 @@
+[
+  [
+    "fire",
+    "ice",
+    "Thermal Shock",
+    20,
+    "",
+    "Frost cracks and bursts into luminous vapor."
+  ],
+  [
+    "water",
+    "lightning",
+    "Conduction",
+    20,
+    "",
+    "Blue-white filaments converge in one discharge."
+  ],
+  [
+    "earth",
+    "sound",
+    "Faultsong",
+    20,
+    "",
+    "A low chord fractures a stone-colored lattice."
+  ],
+  [
+    "wind",
+    "metal",
+    "Silver Shear",
+    20,
+    "",
+    "Metallic ribbons whistle along a cutting gust."
+  ],
+  [
+    "nature",
+    "poison",
+    "Bitterbloom",
+    20,
+    "",
+    "A dark green flower of motes opens and collapses."
+  ],
+  [
+    "arcane",
+    "void",
+    "Nullbloom",
+    20,
+    "",
+    "A violet mana knot folds into silence and snaps outward."
+  ],
+  [
+    "light",
+    "dark",
+    "Eclipse",
+    20,
+    "",
+    "A bright corona closes around a dark center."
+  ],
+  [
+    "gravity",
+    "psychic",
+    "Mindfall",
+    20,
+    "",
+    "A pressure note and inward mental ripple coincide."
+  ],
+  [
+    "fire",
+    "lightning",
+    "Flashburst",
+    10,
+    "-3 next footing-dependent defense",
+    "A hot report unsettles balance."
+  ],
+  [
+    "water",
+    "wind",
+    "Sprayveil",
+    10,
+    "-3 next visually aimed attack",
+    "Sparkling spray interrupts aim."
+  ],
+  [
+    "ice",
+    "nature",
+    "Frostflower",
+    10,
+    "-3 next movement-dependent check",
+    "Leaf-shaped frost catches at a joint."
+  ],
+  [
+    "earth",
+    "gravity",
+    "Burdenfall",
+    10,
+    "-5% next grounded physical attack damage",
+    "A heavy dust-ring settles."
+  ],
+  [
+    "metal",
+    "sound",
+    "Bellshock",
+    10,
+    "-5% next attack damage with the affected metal implement",
+    "A bright note vibrates the implement."
+  ],
+  [
+    "arcane",
+    "light",
+    "Prismwink",
+    10,
+    "-3 next visually aimed check",
+    "A prismatic afterimage offsets contact."
+  ],
+  [
+    "dark",
+    "poison",
+    "Nightshade",
+    10,
+    "-5% next physical attack damage in a susceptible living body",
+    "A numb dark tracery spreads briefly."
+  ],
+  [
+    "void",
+    "psychic",
+    "Hollow Echo",
+    10,
+    "-3 next concentration check of an actual mind",
+    "Uncanny silence jars focus."
+  ],
+  [
+    "fire",
+    "nature",
+    "Cinderbloom",
+    0,
+    "-10% next physical attack damage in a susceptible body",
+    "A bloom of warm ash saps exertion."
+  ],
+  [
+    "water",
+    "ice",
+    "Rimebind",
+    0,
+    "-5 next movement-dependent block/evade check",
+    "Frost tugs at joints or footing."
+  ],
+  [
+    "earth",
+    "metal",
+    "Ironburr",
+    0,
+    "-10% next attack damage with an existing metal weapon",
+    "Grit and metallic burrs foul the weapon."
+  ],
+  [
+    "lightning",
+    "arcane",
+    "Sparkstitch",
+    0,
+    "-10% next damaging spell output",
+    "The mana imprint crackles and sputters."
+  ],
+  [
+    "wind",
+    "poison",
+    "Bitterwake",
+    0,
+    "-5 next visually aimed attack if eyes are susceptible",
+    "A sharp draft of stinging motes spoils aim."
+  ],
+  [
+    "sound",
+    "psychic",
+    "Echochatter",
+    0,
+    "-5 next hearing/concentration-dependent check of a mind",
+    "A displaced echo troubles concentration."
+  ],
+  [
+    "gravity",
+    "dark",
+    "Nightweight",
+    0,
+    "-5 next movement-dependent check of a grounded target",
+    "A dark tether of weight drags at movement."
+  ],
+  [
+    "void",
+    "light",
+    "Afterglow",
+    0,
+    "-5 next concealment-dependent defense or hiding check",
+    "A pale outline lingers on an already perceived target."
+  ]
+]

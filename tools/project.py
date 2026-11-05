@@ -110,6 +110,19 @@ def validate(world=None):
             ck(location in w['locations'], f'NPC location: {key}/{location}')
         ck('known' not in npc, f'Deprecated known field: {key}')
 
+    damage_types = w['combatSettings']['damageTypes']
+    ck(isinstance(damage_types, list) and 0 < len(damage_types) <= 40,
+       'Damage type registration count')
+    ck(len(set(damage_types)) == len(damage_types), 'Duplicate damage type registration')
+    for section in ['npcs', 'npcTypes', 'traits']:
+        for name, record in w[section].items():
+            for field in ['immunities', 'resistances', 'vulnerabilities']:
+                for channel in record.get(field, []):
+                    ck(channel in damage_types, f'Damage type reference: {section}/{name}/{field}/{channel}')
+    for channel in w['combatSettings'].get('damageTypePresentation', {}):
+        ck(channel in damage_types, f'Damage presentation reference: {channel}')
+    success_names = {tier['name'].casefold().strip() for tier in w['successLevelSettings']['tiers']}
+    ck(len(success_names) == len(w['successLevelSettings']['tiers']), 'Duplicate success tier name')
     refs = {'resource': w['resourceSettings'], 'skill': w['skills'],
             'attribute': w['attributeSettings']['attributeNames'], 'stat': ['damage', 'armor']}
     ck(units(compact(w['traits'])) <= 1750000, 'Trait collection exceeds 1,750,000 characters')
@@ -166,6 +179,9 @@ def validate(world=None):
            f'Trigger condition/effect count: {name}')
         ck(units(compact(tr)) <= 10000, f'Trigger character cap: {name}')
         for c in tr.get('conditions', []):
+            if c.get('type') == 'action-success-level':
+                ck(str(c.get('value', '')).casefold().strip() in success_names | {'impossible'},
+                   f'Success level name reference: {name}/{c.get("value")}')
             if isinstance(c.get('value'), str):
                 # Studio counts the JSON string, including quotes and escaped backslashes.
                 ck(units(compact(c['value'])) <= 100, f'Trigger condition value cap: {name}')
@@ -309,6 +325,8 @@ def publish(message):
         subprocess.run(['node', str(ROOT / 'tools/test_ardelis_followup.cjs')], cwd=ROOT, check=True)
     if (ROOT / 'tools/test_ardelis_phantom.cjs').exists():
         subprocess.run(['node', str(ROOT / 'tools/test_ardelis_phantom.cjs')], cwd=ROOT, check=True)
+    if (ROOT / 'tools/test_magic_overhaul.cjs').exists():
+        subprocess.run(['node', str(ROOT / 'tools/test_magic_overhaul.cjs')], cwd=ROOT, check=True)
     changed, index = asset_changes()
     if changed:
         write_json(INDEX, index)

@@ -1,5 +1,7 @@
 # Magic Overhaul — implementation brainstorming
 
+**Implemented follow-up — 6 November:** the author requested implementation and selected hybrid reactions with mechanical bookkeeping. The [implementation record](../../../tools/magic-overhaul/README.md) supersedes this proposal's readiness/open-architecture status. It records exact preservation, the shared 130-scroll queue, earned Resonance state, approved success names, AI-guided numerical effects and remaining live checks. The original design discussion below is historical, not a claim that every proposed engine hook was verified.
+
 Planning only, 5 November 2026. Intended release classification: **minor update**, as requested by the author. No gameplay JSON or public patch notes changed.
 
 The supplied full Studio export is the planning reference: attachment `0e0a46a8-91ce-41db-bcf2-d041c45b9b1b`, raw SHA-256 `813f12485175d20fb4da47882bac8ffde207e7756af97360e81ef97d5434c9c3`. Relative to the current canonical world, it contains location edits at The Pearl and Thistle, Opaline Arcade, Caelrath Amphitheatre, The King's Lists and House Orselle Salon. Do not overwrite these when implementation begins. This document does not merge them or replace the canonical full world.

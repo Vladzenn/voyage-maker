@@ -19115,8 +19115,8 @@
   "The Pearl and Thistle": {
     "name": "The Pearl and Thistle",
     "basicInfo": "A tea parlor above the gate road serves visitors waiting on appointments and locals who value a quiet table. Conversation is a pleasure and sometimes a source of useful introductions.",
-    "x": -4,
-    "y": 48,
+    "x": -43,
+    "y": 43,
     "radius": 2,
     "region": "Kingsward Gate",
     "complexityType": "complex",
@@ -19666,8 +19666,8 @@
     }
   },
   "Opaline Arcade": {
-    "x": -34,
-    "y": -16,
+    "x": -32,
+    "y": -5,
     "radius": 2,
     "name": "Opaline Arcade",
     "region": "Violet Market Ward",
@@ -20947,11 +20947,11 @@
     }
   },
   "Caelrath Amphitheatre": {
-    "x": 14,
-    "y": -30,
+    "x": -3,
+    "y": 49,
     "radius": 2,
     "name": "Caelrath Amphitheatre",
-    "region": "Westbridge Ward",
+    "region": "Kingsward Gate",
     "basicInfo": "Tiered seats surround a compact public performance floor. The program includes music, debate and regulated bouts. Ordinary rehearsals and willing practice continue between announced events.",
     "areas": {
       "Caelrath Amphitheatre - Public Concourse": {
@@ -21052,8 +21052,8 @@
     }
   },
   "The King's Lists": {
-    "x": 6,
-    "y": -19,
+    "x": 8,
+    "y": -25,
     "radius": 2,
     "name": "The King's Lists",
     "region": "Westbridge Ward",
@@ -21213,7 +21213,7 @@
     }
   },
   "House Orselle Salon": {
-    "x": 38,
+    "x": 31,
     "y": -26,
     "radius": 2,
     "name": "House Orselle Salon",

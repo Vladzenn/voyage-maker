@@ -354,7 +354,7 @@
       "piercing"
     ],
     "immunities": [
-      "poisoning"
+      "poison"
     ],
     "description": "A deliberately animated stone body built for a task such as hauling, guarding or holding a dangerous structure. Its joints, core and instructions provide specific points to investigate. Stone resists cuts and punctures, while concentrated blunt force can break its body. It has no living circulation for poison. A simple golem follows an actual command system, not conversational persuasion; a sentient exception needs an individual record. Disabling a control or fulfilling an instruction can be more useful than smashing it."
   },
@@ -368,7 +368,7 @@
       "piercing"
     ],
     "immunities": [
-      "poisoning"
+      "poison"
     ],
     "description": "An articulated metal construct with an identifiable power and control system. It may be an enchanted worker, a guard or a true magitech device; establish which rather than treating all machinery as the same. Its casing resists cuts and punctures, but lightning can disrupt exposed channels. Poison does not affect its nonliving body. Maintenance faults, control access and limited orders create practical interaction. A disabled machine is not repaired by flattery or automatically claimed as salvage."
   },
@@ -382,7 +382,7 @@
       "piercing"
     ],
     "immunities": [
-      "poisoning"
+      "poison"
     ],
     "description": "An empty suit moved by an actual enchantment. It can guard a threshold, perform rehearsed work or respond to a command, with movement limited by the suit's construction. Blunt force can deform joints; blades have difficulty finding flesh that is not present. Poison has no biological target. Decide how its order can be recognized, suspended or fulfilled. It does not acquire the remembered personality of every person who once wore the armor."
   },
@@ -391,7 +391,7 @@
     "vulnerabilities": [],
     "resistances": [],
     "immunities": [
-      "poisoning"
+      "poison"
     ],
     "description": "An anchored constructed watcher tied to a defined ward and detection method. It reacts to what its sensors and instructions can actually perceive, not hidden character sheets or all criminal intent. Marks, lenses, a charged surface or a warning tone can reveal its coverage. It has no living body to poison. Bypassing a sensor, presenting valid authority or disabling the real power channel can change its response. It cannot pursue beyond its physical reach without an actual mobile form."
   },
@@ -402,7 +402,7 @@
     ],
     "resistances": [],
     "immunities": [
-      "poisoning"
+      "poison"
     ],
     "description": "An animal-shaped mechanism used for transport, workshop work, demonstration or security. Its design governs speed, load and attacks; resemblance to a beast supplies no natural instincts or inherited spells. Exposed workings are vulnerable to grit, damage and poorly controlled lightning. It has no living metabolism for poison. True integrated magitech is distinct from a simple enchanted toy. Skilled repair requires the real fault, suitable tools and materials, not a generic instant fix."
   },
@@ -416,7 +416,7 @@
       "piercing"
     ],
     "immunities": [
-      "poisoning"
+      "poison"
     ],
     "description": "Reanimated bones held together by a particular necromantic force. They may follow a command, guard a site or retain fragments of a former person only when the individual record supports it. Blunt force breaks the frame effectively, and light disrupts its animating pattern. Piercing attacks find little soft tissue; poison has no living circulation to affect. Who animated it and whether it can be released are investigation questions, not knowledge every passerby possesses."
   },
@@ -428,7 +428,7 @@
     ],
     "resistances": [],
     "immunities": [
-      "poisoning"
+      "poison"
     ],
     "description": "A dead body animated by an actual spell, binding or localized supernatural condition. Movement and awareness depend on that cause. Fire and light can damage the body and animating pattern; poison has no ordinary living metabolism to exploit. It is not automatically infectious or proof that a nearby living necromancer is guilty. Give a site credible signs and a way to investigate or avoid it. Returned remains are still somebody's remains, not routine trade loot."
   },
@@ -443,7 +443,7 @@
       "bludgeoning"
     ],
     "immunities": [
-      "poisoning"
+      "poison"
     ],
     "description": "An incorporeal presence with a particular origin, awareness and attachment. Some can communicate; others repeat a limited pattern. Light can disrupt the manifestation, while ordinary physical blows pass through much of it. Poison cannot harm a body that is absent. These damage rules do not imply immunity to compassion, deception or evidence. Discover what it actually perceives and wants before assuming it must be destroyed. Knowledge and memories remain as limited as its history allows."
   },
@@ -458,7 +458,7 @@
       "bludgeoning"
     ],
     "immunities": [
-      "poisoning"
+      "poison"
     ],
     "description": "A dangerous disembodied remnant sustained by a specific supernatural cause. Its chill, sound or effect on nearby life can warn of a manifestation. It may stalk, guard, hunger or pursue a binding; it is not automatically an intelligent schemer. Light threatens its form, ordinary physical blows are less effective, and poison has no biological target. Injuries it causes follow the actual attack and treatment rules rather than an invented unavoidable permanent curse. Wraith Island's name does not establish that these creatures patrol its prison."
   },
@@ -470,7 +470,7 @@
     "resistances": [],
     "immunities": [
       "fire",
-      "poisoning"
+      "poison"
     ],
     "description": "Living flame gathered around a sustaining mana pattern. Heat shimmer, scorched surfaces and an appetite for fuel make its presence observable. It can flow around an obstacle but needs a real route; an extinguished manifestation does not automatically respawn. Its heat is dangerous to nearby people and possessions according to actual contact, not limitless ambient damage. Establish its origin, persistence, awareness and individual abilities when encountered. Its type supplies the listed damage profile, not a free spell list, a guaranteed reward or automatic hostility."
   },
@@ -482,7 +482,7 @@
     "resistances": [],
     "immunities": [
       "water",
-      "poisoning"
+      "poison"
     ],
     "description": "A coherent moving volume of water held by a sustaining mana pattern. It uses flow, weight and its available surroundings. A basin, channel or dry interior changes its options. It does not have infinite water or automatic control of every liquid inside a person. Ripples moving against the current can signal its presence. Establish its origin, persistence, awareness and individual abilities when encountered. Its type supplies the listed damage profile, not a free spell list, a guaranteed reward or automatic hostility."
   },
@@ -494,7 +494,7 @@
     "resistances": [],
     "immunities": [
       "earth",
-      "poisoning"
+      "poison"
     ],
     "description": "A mana-bound body of soil and mineral. It uses mass, footing and available ground, with limited reach through actual material. Water can loosen its cohesion; this is a damage vulnerability, not an instant automatic victory. Crumbling edges and shifting ground can announce its movement. Tunnels, buildings and bystanders remain real constraints. Establish its origin, persistence, awareness and individual abilities when encountered. Its type supplies the listed damage profile, not a free spell list, a guaranteed reward or automatic hostility."
   },
@@ -506,7 +506,7 @@
     "resistances": [],
     "immunities": [
       "wind",
-      "poisoning"
+      "poison"
     ],
     "description": "A sustained circulating body of air. Dust, moving cloth and pressure changes can reveal it. It can buffet or obstruct but does not suffocate everyone nearby by existing. Confined geometry and rooted barriers affect its movement; earth magic is particularly effective at breaking its circulation. A harmless current is not automatically this creature. Establish its origin, persistence, awareness and individual abilities when encountered. Its type supplies the listed damage profile, not a free spell list, a guaranteed reward or automatic hostility."
   },
@@ -518,7 +518,7 @@
     "resistances": [],
     "immunities": [
       "ice",
-      "poisoning"
+      "poison"
     ],
     "description": "An articulated manifestation of frost and ice around a mana pattern. Cracking surfaces, spreading rime and disturbed meltwater reveal its movement. It can brace, break or reshape within its actual abilities, without freezing a whole settlement on arrival. Heat threatens its coherence. Destroyed fragments do not each become a new enemy. Establish its origin, persistence, awareness and individual abilities when encountered. Its type supplies the listed damage profile, not a free spell list, a guaranteed reward or automatic hostility."
   },
@@ -530,7 +530,7 @@
     "resistances": [],
     "immunities": [
       "lightning",
-      "poisoning"
+      "poison"
     ],
     "description": "A bounded electrical manifestation with a sustaining pattern. Charge noise, lifted hairs and light along conductive paths warn of it. It can exploit real conductors but does not teleport through any named metal object anywhere. Grounding and earth magic can disrupt it. A laboratory spark or routine storm is not proof that one exists. Establish its origin, persistence, awareness and individual abilities when encountered. Its type supplies the listed damage profile, not a free spell list, a guaranteed reward or automatic hostility."
   },
@@ -813,7 +813,7 @@
       "piercing"
     ],
     "immunities": [
-      "poisoning"
+      "poison"
     ],
     "description": "APPEARANCE: A person-height old construct made of nested pale ceramic plates marked with fine dark calibration lines. Four asymmetric arms fold around a lenslike central aperture above three short stone legs. There is no human face, robe or living torso beneath the plates.\nECOLOGY AND BEHAVIOR: Survives in old survey workrooms. Repeated flashes and movement near protected apparatus trigger bounded protective responses. It has no omniscient knowledge, universal speech or authority over living fae.\nCOUNTERPLAY: Learn its actual trigger pattern, occlude the aperture and interrupt a joint or power link. Permission records matter only if this real machine can read them.\nFIELD VALUE: An intact calibration component may be salvaged under actual permission; breaking it destroys some research value.\nGENERATION: Use the actual location band and establish this individual’s level, tier, disposition and bounded abilities. This type does not spawn itself or rescale an existing creature. Copy its diagnostic anatomy into the generated record and visual description; do not replace it with a generic humanoid or a familiar monster with the same color. Reuse a previously encountered individual. Recovered material requires actual acquisition; no guaranteed loot, instant crafting bonus, tame companion or universal consumable effect is granted."
   },
@@ -955,7 +955,7 @@
       "ice"
     ],
     "immunities": [
-      "poisoning"
+      "poison"
     ],
     "description": "An intelligent winter manifestation with a humanoid adult face, cold-pale skin and hair or garments formed from a coherent local legend. Has individual knowledge and motives; neither every snow spirit nor every grievance is Ysolenne. Use bounded Ice workings and local terrain, not effortless death by looking at it. Ordinary instances follow actual location level bands; Ysolenne remains the unique named individual with her own fixed power and relationships."
   },
@@ -1032,7 +1032,7 @@
       "piercing"
     ],
     "immunities": [
-      "poisoning"
+      "poison"
     ]
   },
   "Rootbound Pallbearer": {
@@ -1043,7 +1043,7 @@
     ],
     "resistances": [],
     "immunities": [
-      "poisoning"
+      "poison"
     ]
   },
   "Censer-Willow": {
@@ -1056,7 +1056,7 @@
       "nature"
     ],
     "immunities": [
-      "poisoning"
+      "poison"
     ]
   },
   "Hollowseed Swarm": {
@@ -1068,7 +1068,7 @@
     ],
     "resistances": [],
     "immunities": [
-      "poisoning"
+      "poison"
     ]
   },
   "Ossuary Trellis": {
@@ -1081,7 +1081,7 @@
       "piercing"
     ],
     "immunities": [
-      "poisoning"
+      "poison"
     ]
   },
   "Grafted Sentinel": {
@@ -1095,7 +1095,7 @@
       "nature"
     ],
     "immunities": [
-      "poisoning"
+      "poison"
     ]
   },
   "Rootbound Regent": {
@@ -1106,7 +1106,7 @@
       "nature"
     ],
     "immunities": [
-      "poisoning"
+      "poison"
     ]
   },
   "Cellar Rat": {

@@ -16,6 +16,7 @@ function qualifies(rule,p,semanticByName){return rule.conditions.every(c=>{
  if(c.type==='player-traits')return c.operator==='contains'?p.traits.has(c.value):!p.traits.has(c.value);
  if(c.type==='skill-value')return numeric(p.skills[c.skill]||0,c.operator,c.value);
  if(c.type==='story'||c.type==='action')return semanticByName[p.name]===true;
+ if(c.type==='read-boolean'&&c.key==='mxScrollReady')return c.value===true;
  throw Error('Unexpected fixture condition '+c.type);
 })}
 function fire(rule,players,semanticByName){
@@ -34,7 +35,17 @@ function fire(rule,players,semanticByName){
  return recipients;
 }
 for(const row of manifest.scrolls){
- const rule=world.triggerDefinitions[row.trigger];
+ let rule=world.triggerDefinitions[row.trigger];
+ if(!rule&&world.triggerDefinitions.mx_scroll_catalogue){
+  // Materialize the shipped shared rule. The full queue and timing are covered
+  // separately against current-world data by test_magic_overhaul.cjs.
+  const {fixture,player:makePlayer}=require('./magic-overhaul/runtime_fixture.cjs');
+  const f=fixture(world,{players:{Reader:makePlayer({[row.item]:1},[],{'Gravity Magic':25})}});
+  f.turn();f.turn({actions:['I study '+row.item]});
+  ck(f.s.storage.mxScrollReady===true,'Shared learner configured '+row.ability);
+  rule=f.s.rules.mx_scroll_learn;
+  ck(rule.conditions.some(c=>c.type==='player-item'&&c.item===row.item),'Exact selected shared formula '+row.ability);
+ }
  const skills={[row.skill]:5,'Gravity Magic':25};
  let a=player('Alice',{[row.item]:2},[],skills),b=player('Bob',{[row.item]:1},[],{...skills,[row.skill]:100});
  fire(rule,[a,b],{Alice:true,Bob:false});

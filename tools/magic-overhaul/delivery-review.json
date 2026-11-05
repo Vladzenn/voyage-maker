@@ -1,0 +1,850 @@
+{
+  "date": "2026-11-06",
+  "candidateSHA256": "660c50c1f5a720e18b4f601333596c519e3ca4d91b6ffbdd0798c017e1e57cd0",
+  "inputSHA256": "813f12485175d20fb4da47882bac8ffde207e7756af97360e81ef97d5434c9c3",
+  "counts": {
+    "aiInstructions": {
+      "changed": 5
+    },
+    "locations": {
+      "changed": 5
+    },
+    "traits": {
+      "changed": 1,
+      "added": 23
+    },
+    "npcTypes": {
+      "changed": 24
+    },
+    "resourceSettings": {
+      "added": 1
+    },
+    "triggerDefinitions": {
+      "removed": 40,
+      "changed": 5,
+      "added": 48
+    },
+    "successLevelSettings": {
+      "changed": 1
+    },
+    "combatSettings": {
+      "changed": 2
+    }
+  },
+  "initializedSemanticBudget": [
+    {
+      "scene": "Academy first day",
+      "ready": false,
+      "authoredChecks": 7,
+      "withEveryArc": 13,
+      "documentedBudget": 15,
+      "allArcUpperBoundExceeds": false,
+      "triggers": [
+        "gh_formula_offer",
+        "gh_footwork_offer",
+        "gh_lore_tournament_start",
+        "gh_lore_expedition_accept",
+        "cp_detect_heinous_crime",
+        "cp_first_spell_offer",
+        "mx_resonance_gain"
+      ]
+    },
+    {
+      "scene": "Academy first day",
+      "ready": true,
+      "authoredChecks": 8,
+      "withEveryArc": 14,
+      "documentedBudget": 15,
+      "allArcUpperBoundExceeds": false,
+      "triggers": [
+        "gh_formula_offer",
+        "gh_footwork_offer",
+        "gh_lore_tournament_start",
+        "gh_lore_expedition_accept",
+        "cp_detect_heinous_crime",
+        "cp_first_spell_offer",
+        "mx_resonance_gain",
+        "mx_resonance_spend"
+      ]
+    },
+    {
+      "scene": "Guild browsing",
+      "ready": false,
+      "authoredChecks": 8,
+      "withEveryArc": 14,
+      "documentedBudget": 15,
+      "allArcUpperBoundExceeds": false,
+      "triggers": [
+        "gh_lore_expedition_accept",
+        "gh_guild_exam_register",
+        "gh_guild_board",
+        "cp_detect_heinous_crime",
+        "cp_first_spell_offer",
+        "oni_glowhaven_expedition_notice",
+        "oni_guild_native_choice",
+        "mx_resonance_gain"
+      ]
+    },
+    {
+      "scene": "Guild browsing",
+      "ready": true,
+      "authoredChecks": 9,
+      "withEveryArc": 15,
+      "documentedBudget": 15,
+      "allArcUpperBoundExceeds": false,
+      "triggers": [
+        "gh_lore_expedition_accept",
+        "gh_guild_exam_register",
+        "gh_guild_board",
+        "cp_detect_heinous_crime",
+        "cp_first_spell_offer",
+        "oni_glowhaven_expedition_notice",
+        "oni_guild_native_choice",
+        "mx_resonance_gain",
+        "mx_resonance_spend"
+      ]
+    },
+    {
+      "scene": "Bazaar quiet",
+      "ready": false,
+      "authoredChecks": 5,
+      "withEveryArc": 11,
+      "documentedBudget": 15,
+      "allArcUpperBoundExceeds": false,
+      "triggers": [
+        "gh_measure_offer",
+        "gh_lore_expedition_accept",
+        "cp_detect_heinous_crime",
+        "cp_first_spell_offer",
+        "mx_resonance_gain"
+      ]
+    },
+    {
+      "scene": "Bazaar quiet",
+      "ready": true,
+      "authoredChecks": 6,
+      "withEveryArc": 12,
+      "documentedBudget": 15,
+      "allArcUpperBoundExceeds": false,
+      "triggers": [
+        "gh_measure_offer",
+        "gh_lore_expedition_accept",
+        "cp_detect_heinous_crime",
+        "cp_first_spell_offer",
+        "mx_resonance_gain",
+        "mx_resonance_spend"
+      ]
+    },
+    {
+      "scene": "Lodge arrival",
+      "ready": false,
+      "authoredChecks": 4,
+      "withEveryArc": 10,
+      "documentedBudget": 15,
+      "allArcUpperBoundExceeds": false,
+      "triggers": [
+        "gh_lore_expedition_accept",
+        "cp_first_spell_offer",
+        "ad34_property_whitepass",
+        "mx_resonance_gain"
+      ]
+    },
+    {
+      "scene": "Lodge arrival",
+      "ready": true,
+      "authoredChecks": 5,
+      "withEveryArc": 11,
+      "documentedBudget": 15,
+      "allArcUpperBoundExceeds": false,
+      "triggers": [
+        "gh_lore_expedition_accept",
+        "cp_first_spell_offer",
+        "ad34_property_whitepass",
+        "mx_resonance_gain",
+        "mx_resonance_spend"
+      ]
+    },
+    {
+      "scene": "Canopy fieldwork",
+      "ready": false,
+      "authoredChecks": 4,
+      "withEveryArc": 10,
+      "documentedBudget": 15,
+      "allArcUpperBoundExceeds": false,
+      "triggers": [
+        "gh_lore_expedition_accept",
+        "cp_first_spell_offer",
+        "ad34_property_canopy",
+        "mx_resonance_gain"
+      ]
+    },
+    {
+      "scene": "Canopy fieldwork",
+      "ready": true,
+      "authoredChecks": 5,
+      "withEveryArc": 11,
+      "documentedBudget": 15,
+      "allArcUpperBoundExceeds": false,
+      "triggers": [
+        "gh_lore_expedition_accept",
+        "cp_first_spell_offer",
+        "ad34_property_canopy",
+        "mx_resonance_gain",
+        "mx_resonance_spend"
+      ]
+    },
+    {
+      "scene": "Canopy specific offer",
+      "ready": false,
+      "authoredChecks": 5,
+      "withEveryArc": 11,
+      "documentedBudget": 15,
+      "allArcUpperBoundExceeds": false,
+      "triggers": [
+        "gh_lore_expedition_accept",
+        "q20_air_1_accept",
+        "cp_first_spell_offer",
+        "ad34_property_canopy",
+        "mx_resonance_gain"
+      ]
+    },
+    {
+      "scene": "Canopy specific offer",
+      "ready": true,
+      "authoredChecks": 6,
+      "withEveryArc": 12,
+      "documentedBudget": 15,
+      "allArcUpperBoundExceeds": false,
+      "triggers": [
+        "gh_lore_expedition_accept",
+        "q20_air_1_accept",
+        "cp_first_spell_offer",
+        "ad34_property_canopy",
+        "mx_resonance_gain",
+        "mx_resonance_spend"
+      ]
+    },
+    {
+      "scene": "Prison visit",
+      "ready": false,
+      "authoredChecks": 4,
+      "withEveryArc": 10,
+      "documentedBudget": 15,
+      "allArcUpperBoundExceeds": false,
+      "triggers": [
+        "gh_prison_authorized_work",
+        "gh_lore_expedition_accept",
+        "cp_first_spell_offer",
+        "mx_resonance_gain"
+      ]
+    },
+    {
+      "scene": "Prison visit",
+      "ready": true,
+      "authoredChecks": 5,
+      "withEveryArc": 11,
+      "documentedBudget": 15,
+      "allArcUpperBoundExceeds": false,
+      "triggers": [
+        "gh_prison_authorized_work",
+        "gh_lore_expedition_accept",
+        "cp_first_spell_offer",
+        "mx_resonance_gain",
+        "mx_resonance_spend"
+      ]
+    },
+    {
+      "scene": "Bronze job active",
+      "ready": false,
+      "authoredChecks": 4,
+      "withEveryArc": 11,
+      "documentedBudget": 20,
+      "allArcUpperBoundExceeds": false,
+      "triggers": [
+        "gh_lore_expedition_accept",
+        "cp_detect_heinous_crime",
+        "cp_first_spell_offer",
+        "mx_resonance_gain"
+      ]
+    },
+    {
+      "scene": "Bronze job active",
+      "ready": true,
+      "authoredChecks": 5,
+      "withEveryArc": 12,
+      "documentedBudget": 20,
+      "allArcUpperBoundExceeds": false,
+      "triggers": [
+        "gh_lore_expedition_accept",
+        "cp_detect_heinous_crime",
+        "cp_first_spell_offer",
+        "mx_resonance_gain",
+        "mx_resonance_spend"
+      ]
+    },
+    {
+      "scene": "Benitsuru guild browsing",
+      "ready": false,
+      "authoredChecks": 7,
+      "withEveryArc": 13,
+      "documentedBudget": 15,
+      "allArcUpperBoundExceeds": false,
+      "triggers": [
+        "gh_lore_expedition_accept",
+        "cp_first_spell_offer",
+        "oni_forest_rumor",
+        "oni_guild_exam_register",
+        "oni_guild_board",
+        "oni_guild_native_choice",
+        "mx_resonance_gain"
+      ]
+    },
+    {
+      "scene": "Benitsuru guild browsing",
+      "ready": true,
+      "authoredChecks": 8,
+      "withEveryArc": 14,
+      "documentedBudget": 15,
+      "allArcUpperBoundExceeds": false,
+      "triggers": [
+        "gh_lore_expedition_accept",
+        "cp_first_spell_offer",
+        "oni_forest_rumor",
+        "oni_guild_exam_register",
+        "oni_guild_board",
+        "oni_guild_native_choice",
+        "mx_resonance_gain",
+        "mx_resonance_spend"
+      ]
+    },
+    {
+      "scene": "Evertree travel desk",
+      "ready": false,
+      "authoredChecks": 7,
+      "withEveryArc": 13,
+      "documentedBudget": 15,
+      "allArcUpperBoundExceeds": false,
+      "triggers": [
+        "gh_lore_expedition_accept",
+        "gh_portal_key_issue_drakenspire",
+        "gh_portal_key_issue_asterveil",
+        "cp_detect_heinous_crime",
+        "cp_first_spell_offer",
+        "oni_portal_key_issue",
+        "mx_resonance_gain"
+      ]
+    },
+    {
+      "scene": "Evertree travel desk",
+      "ready": true,
+      "authoredChecks": 8,
+      "withEveryArc": 14,
+      "documentedBudget": 15,
+      "allArcUpperBoundExceeds": false,
+      "triggers": [
+        "gh_lore_expedition_accept",
+        "gh_portal_key_issue_drakenspire",
+        "gh_portal_key_issue_asterveil",
+        "cp_detect_heinous_crime",
+        "cp_first_spell_offer",
+        "oni_portal_key_issue",
+        "mx_resonance_gain",
+        "mx_resonance_spend"
+      ]
+    },
+    {
+      "scene": "Moonless Torii awakened",
+      "ready": false,
+      "authoredChecks": 4,
+      "withEveryArc": 10,
+      "documentedBudget": 15,
+      "allArcUpperBoundExceeds": false,
+      "triggers": [
+        "gh_lore_expedition_accept",
+        "cp_first_spell_offer",
+        "oni_soul_torii_cross",
+        "mx_resonance_gain"
+      ]
+    },
+    {
+      "scene": "Moonless Torii awakened",
+      "ready": true,
+      "authoredChecks": 5,
+      "withEveryArc": 11,
+      "documentedBudget": 15,
+      "allArcUpperBoundExceeds": false,
+      "triggers": [
+        "gh_lore_expedition_accept",
+        "cp_first_spell_offer",
+        "oni_soul_torii_cross",
+        "mx_resonance_gain",
+        "mx_resonance_spend"
+      ]
+    },
+    {
+      "scene": "Veiled threshold",
+      "ready": false,
+      "authoredChecks": 4,
+      "withEveryArc": 10,
+      "documentedBudget": 15,
+      "allArcUpperBoundExceeds": false,
+      "triggers": [
+        "gh_lore_expedition_accept",
+        "cp_first_spell_offer",
+        "oni_soul_torii_return",
+        "mx_resonance_gain"
+      ]
+    },
+    {
+      "scene": "Veiled threshold",
+      "ready": true,
+      "authoredChecks": 5,
+      "withEveryArc": 11,
+      "documentedBudget": 15,
+      "allArcUpperBoundExceeds": false,
+      "triggers": [
+        "gh_lore_expedition_accept",
+        "cp_first_spell_offer",
+        "oni_soul_torii_return",
+        "mx_resonance_gain",
+        "mx_resonance_spend"
+      ]
+    },
+    {
+      "scene": "Crucible registration",
+      "ready": false,
+      "authoredChecks": 9,
+      "withEveryArc": 15,
+      "documentedBudget": 15,
+      "allArcUpperBoundExceeds": false,
+      "triggers": [
+        "gh_arena_offer",
+        "gh_lore_tournament_start",
+        "gh_lore_expedition_accept",
+        "q20_festival_accept",
+        "cp_detect_heinous_crime",
+        "cp_first_spell_offer",
+        "cc1_register",
+        "cc1_exhibition",
+        "mx_resonance_gain"
+      ]
+    },
+    {
+      "scene": "Crucible registration",
+      "ready": true,
+      "authoredChecks": 10,
+      "withEveryArc": 16,
+      "documentedBudget": 15,
+      "allArcUpperBoundExceeds": true,
+      "triggers": [
+        "gh_arena_offer",
+        "gh_lore_tournament_start",
+        "gh_lore_expedition_accept",
+        "q20_festival_accept",
+        "cp_detect_heinous_crime",
+        "cp_first_spell_offer",
+        "cc1_register",
+        "cc1_exhibition",
+        "mx_resonance_gain",
+        "mx_resonance_spend"
+      ]
+    },
+    {
+      "scene": "Crucible live bout",
+      "ready": false,
+      "authoredChecks": 10,
+      "withEveryArc": 16,
+      "documentedBudget": 15,
+      "allArcUpperBoundExceeds": true,
+      "triggers": [
+        "gh_arena_offer",
+        "gh_lore_expedition_accept",
+        "q20_festival_accept",
+        "cp_detect_heinous_crime",
+        "cp_first_spell_offer",
+        "cc1_result_loss",
+        "cc1_result_win",
+        "cc1_withdraw",
+        "cc1_result_draw",
+        "mx_resonance_gain"
+      ]
+    },
+    {
+      "scene": "Crucible live bout",
+      "ready": true,
+      "authoredChecks": 11,
+      "withEveryArc": 17,
+      "documentedBudget": 15,
+      "allArcUpperBoundExceeds": true,
+      "triggers": [
+        "gh_arena_offer",
+        "gh_lore_expedition_accept",
+        "q20_festival_accept",
+        "cp_detect_heinous_crime",
+        "cp_first_spell_offer",
+        "cc1_result_loss",
+        "cc1_result_win",
+        "cc1_withdraw",
+        "cc1_result_draw",
+        "mx_resonance_gain",
+        "mx_resonance_spend"
+      ]
+    },
+    {
+      "scene": "Crucible between bouts",
+      "ready": false,
+      "authoredChecks": 9,
+      "withEveryArc": 15,
+      "documentedBudget": 15,
+      "allArcUpperBoundExceeds": false,
+      "triggers": [
+        "gh_arena_offer",
+        "gh_lore_expedition_accept",
+        "q20_festival_accept",
+        "cp_detect_heinous_crime",
+        "cp_first_spell_offer",
+        "cc1_ready",
+        "cc1_withdraw",
+        "cc1_care",
+        "mx_resonance_gain"
+      ]
+    },
+    {
+      "scene": "Crucible between bouts",
+      "ready": true,
+      "authoredChecks": 10,
+      "withEveryArc": 16,
+      "documentedBudget": 15,
+      "allArcUpperBoundExceeds": true,
+      "triggers": [
+        "gh_arena_offer",
+        "gh_lore_expedition_accept",
+        "q20_festival_accept",
+        "cp_detect_heinous_crime",
+        "cp_first_spell_offer",
+        "cc1_ready",
+        "cc1_withdraw",
+        "cc1_care",
+        "mx_resonance_gain",
+        "mx_resonance_spend"
+      ]
+    },
+    {
+      "scene": "Conservatory tending wing",
+      "ready": false,
+      "authoredChecks": 4,
+      "withEveryArc": 10,
+      "documentedBudget": 15,
+      "allArcUpperBoundExceeds": false,
+      "triggers": [
+        "gh_lore_expedition_accept",
+        "cp_first_spell_offer",
+        "cc1_grove_root",
+        "mx_resonance_gain"
+      ]
+    },
+    {
+      "scene": "Conservatory tending wing",
+      "ready": true,
+      "authoredChecks": 5,
+      "withEveryArc": 11,
+      "documentedBudget": 15,
+      "allArcUpperBoundExceeds": false,
+      "triggers": [
+        "gh_lore_expedition_accept",
+        "cp_first_spell_offer",
+        "cc1_grove_root",
+        "mx_resonance_gain",
+        "mx_resonance_spend"
+      ]
+    },
+    {
+      "scene": "Conservatory heart",
+      "ready": false,
+      "authoredChecks": 4,
+      "withEveryArc": 10,
+      "documentedBudget": 15,
+      "allArcUpperBoundExceeds": false,
+      "triggers": [
+        "gh_lore_expedition_accept",
+        "cp_first_spell_offer",
+        "cc1_grove_release",
+        "mx_resonance_gain"
+      ]
+    },
+    {
+      "scene": "Conservatory heart",
+      "ready": true,
+      "authoredChecks": 5,
+      "withEveryArc": 11,
+      "documentedBudget": 15,
+      "allArcUpperBoundExceeds": false,
+      "triggers": [
+        "gh_lore_expedition_accept",
+        "cp_first_spell_offer",
+        "cc1_grove_release",
+        "mx_resonance_gain",
+        "mx_resonance_spend"
+      ]
+    },
+    {
+      "scene": "River angler",
+      "ready": false,
+      "authoredChecks": 7,
+      "withEveryArc": 13,
+      "documentedBudget": 15,
+      "allArcUpperBoundExceeds": false,
+      "triggers": [
+        "gh_lore_expedition_accept",
+        "cp_detect_heinous_crime",
+        "cp_first_spell_offer",
+        "fsh_basics",
+        "fsh_cast_lure",
+        "fsh_cast_bait",
+        "mx_resonance_gain"
+      ]
+    },
+    {
+      "scene": "River angler",
+      "ready": true,
+      "authoredChecks": 8,
+      "withEveryArc": 14,
+      "documentedBudget": 15,
+      "allArcUpperBoundExceeds": false,
+      "triggers": [
+        "gh_lore_expedition_accept",
+        "cp_detect_heinous_crime",
+        "cp_first_spell_offer",
+        "fsh_basics",
+        "fsh_cast_lure",
+        "fsh_cast_bait",
+        "mx_resonance_gain",
+        "mx_resonance_spend"
+      ]
+    },
+    {
+      "scene": "Estuary angler",
+      "ready": false,
+      "authoredChecks": 9,
+      "withEveryArc": 15,
+      "documentedBudget": 15,
+      "allArcUpperBoundExceeds": false,
+      "triggers": [
+        "gh_lore_expedition_accept",
+        "cp_detect_heinous_crime",
+        "cp_first_spell_offer",
+        "fsh_basics",
+        "fsh_cast_lure",
+        "fsh_cast_bait",
+        "ghx_local_commissions_6",
+        "ghx_local_commissions_8",
+        "mx_resonance_gain"
+      ]
+    },
+    {
+      "scene": "Estuary angler",
+      "ready": true,
+      "authoredChecks": 10,
+      "withEveryArc": 16,
+      "documentedBudget": 15,
+      "allArcUpperBoundExceeds": true,
+      "triggers": [
+        "gh_lore_expedition_accept",
+        "cp_detect_heinous_crime",
+        "cp_first_spell_offer",
+        "fsh_basics",
+        "fsh_cast_lure",
+        "fsh_cast_bait",
+        "ghx_local_commissions_6",
+        "ghx_local_commissions_8",
+        "mx_resonance_gain",
+        "mx_resonance_spend"
+      ]
+    },
+    {
+      "scene": "Reef angler",
+      "ready": false,
+      "authoredChecks": 8,
+      "withEveryArc": 14,
+      "documentedBudget": 15,
+      "allArcUpperBoundExceeds": false,
+      "triggers": [
+        "gh_lore_expedition_accept",
+        "cp_detect_heinous_crime",
+        "cp_first_spell_offer",
+        "fsh_basics",
+        "fsh_cast_lure",
+        "fsh_cast_bait",
+        "fsh_offer_1",
+        "mx_resonance_gain"
+      ]
+    },
+    {
+      "scene": "Reef angler",
+      "ready": true,
+      "authoredChecks": 9,
+      "withEveryArc": 15,
+      "documentedBudget": 15,
+      "allArcUpperBoundExceeds": false,
+      "triggers": [
+        "gh_lore_expedition_accept",
+        "cp_detect_heinous_crime",
+        "cp_first_spell_offer",
+        "fsh_basics",
+        "fsh_cast_lure",
+        "fsh_cast_bait",
+        "fsh_offer_1",
+        "mx_resonance_gain",
+        "mx_resonance_spend"
+      ]
+    },
+    {
+      "scene": "Ship angler",
+      "ready": false,
+      "authoredChecks": 8,
+      "withEveryArc": 14,
+      "documentedBudget": 15,
+      "allArcUpperBoundExceeds": false,
+      "triggers": [
+        "gh_lore_expedition_accept",
+        "cp_detect_heinous_crime",
+        "cp_first_spell_offer",
+        "fsh_basics",
+        "fsh_cast_lure",
+        "fsh_cast_bait",
+        "fsh_offer_2",
+        "mx_resonance_gain"
+      ]
+    },
+    {
+      "scene": "Ship angler",
+      "ready": true,
+      "authoredChecks": 9,
+      "withEveryArc": 15,
+      "documentedBudget": 15,
+      "allArcUpperBoundExceeds": false,
+      "triggers": [
+        "gh_lore_expedition_accept",
+        "cp_detect_heinous_crime",
+        "cp_first_spell_offer",
+        "fsh_basics",
+        "fsh_cast_lure",
+        "fsh_cast_bait",
+        "fsh_offer_2",
+        "mx_resonance_gain",
+        "mx_resonance_spend"
+      ]
+    },
+    {
+      "scene": "Foreign lake angler",
+      "ready": false,
+      "authoredChecks": 6,
+      "withEveryArc": 12,
+      "documentedBudget": 15,
+      "allArcUpperBoundExceeds": false,
+      "triggers": [
+        "gh_lore_expedition_accept",
+        "cp_first_spell_offer",
+        "fsh_basics",
+        "fsh_cast_lure",
+        "fsh_cast_bait",
+        "mx_resonance_gain"
+      ]
+    },
+    {
+      "scene": "Foreign lake angler",
+      "ready": true,
+      "authoredChecks": 7,
+      "withEveryArc": 13,
+      "documentedBudget": 15,
+      "allArcUpperBoundExceeds": false,
+      "triggers": [
+        "gh_lore_expedition_accept",
+        "cp_first_spell_offer",
+        "fsh_basics",
+        "fsh_cast_lure",
+        "fsh_cast_bait",
+        "mx_resonance_gain",
+        "mx_resonance_spend"
+      ]
+    },
+    {
+      "scene": "Future realm angler",
+      "ready": false,
+      "authoredChecks": 6,
+      "withEveryArc": 12,
+      "documentedBudget": 15,
+      "allArcUpperBoundExceeds": false,
+      "triggers": [
+        "gh_lore_expedition_accept",
+        "cp_first_spell_offer",
+        "fsh_basics",
+        "fsh_cast_lure",
+        "fsh_cast_bait",
+        "mx_resonance_gain"
+      ]
+    },
+    {
+      "scene": "Future realm angler",
+      "ready": true,
+      "authoredChecks": 7,
+      "withEveryArc": 13,
+      "documentedBudget": 15,
+      "allArcUpperBoundExceeds": false,
+      "triggers": [
+        "gh_lore_expedition_accept",
+        "cp_first_spell_offer",
+        "fsh_basics",
+        "fsh_cast_lure",
+        "fsh_cast_bait",
+        "mx_resonance_gain",
+        "mx_resonance_spend"
+      ]
+    },
+    {
+      "scene": "Crucible with fishing tackle",
+      "ready": false,
+      "authoredChecks": 10,
+      "withEveryArc": 16,
+      "documentedBudget": 15,
+      "allArcUpperBoundExceeds": true,
+      "triggers": [
+        "gh_arena_offer",
+        "gh_lore_expedition_accept",
+        "q20_festival_accept",
+        "cp_detect_heinous_crime",
+        "cp_first_spell_offer",
+        "cc1_result_loss",
+        "cc1_result_win",
+        "cc1_withdraw",
+        "cc1_result_draw",
+        "mx_resonance_gain"
+      ]
+    },
+    {
+      "scene": "Crucible with fishing tackle",
+      "ready": true,
+      "authoredChecks": 11,
+      "withEveryArc": 17,
+      "documentedBudget": 15,
+      "allArcUpperBoundExceeds": true,
+      "triggers": [
+        "gh_arena_offer",
+        "gh_lore_expedition_accept",
+        "q20_festival_accept",
+        "cp_detect_heinous_crime",
+        "cp_first_spell_offer",
+        "cc1_result_loss",
+        "cc1_result_win",
+        "cc1_withdraw",
+        "cc1_result_draw",
+        "mx_resonance_gain",
+        "mx_resonance_spend"
+      ]
+    }
+  ],
+  "livePlaytest": false,
+  "officialDraftValidation": "blocked-before-execution-payload-approval-required",
+  "savedToStudio": false,
+  "publishedToStudio": false
+}

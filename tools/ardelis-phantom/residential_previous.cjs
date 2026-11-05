@@ -3,6 +3,7 @@ const fs=require('fs'),path=require('path'),crypto=require('crypto'),assert=requ
 const sort=v=>Array.isArray(v)?v.map(sort):v&&typeof v==='object'?Object.fromEntries(Object.keys(v).sort().map(k=>[k,sort(v[k])])):v;
 const hash=v=>crypto.createHash('sha256').update(JSON.stringify(sort(v))).digest('hex');
 module.exports=w=>{
+ w=require('../magic-overhaul/previous_world.cjs')(w);
  const r=JSON.parse(fs.readFileSync(path.join(__dirname,'residential-correction.json'),'utf8'));
  if(hash(w)===r.baseHash)return w;
  assert.strictEqual(hash(w),r.afterHash,'Only the exact reviewed residential correction enters old fixtures');

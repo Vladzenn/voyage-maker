@@ -6,6 +6,7 @@ Repository: [Vladzenn/voyage-maker](https://github.com/Vladzenn/voyage-maker) (p
 
 ## Current project
 
+- **Magic Overhaul — Minor Patch 5:** [copyable notes](world-draft/Magic%20Overhaul%20-%20Patch%20Notes.md), [implemented hybrid mechanics, tests and limits](tools/magic-overhaul/README.md). Reactions/debuffs use AI guidance; scoped Resonance and scroll transactions use native effects.
 - **Latest phantom patch:** [Ardelis local beginnings, fish and return-key access](tools/ardelis-phantom/README.md). Applied to the author's newest full export; no public patch notes.
 - **Comprehensive world overhaul - planning only:** [implementation handoff](world-draft/authoring/plans/Glowhaven%20-%20World%20Overhaul%20Implementation%20Handoff.md), [reading PDF](world-draft/authoring/plans/Glowhaven%20-%20World%20Overhaul%20Implementation%20Handoff.pdf), [complete coverage inventory](world-draft/authoring/plans/Glowhaven%20-%20World%20Overhaul%20Coverage.csv). No gameplay changes applied.
 - **Complete post-Fishing update:** [copyable major-update notes](world-draft/Rebirth%20-%20Complete%20Update%20Patch%20Notes.md), [Elsewhere manual-art workflow](tools/elsewhere-art/README.md).
@@ -50,6 +51,7 @@ node tools/test_fishing.cjs
 node tools/test_rebirth.cjs
 node tools/test_ardelis.cjs
 node tools/test_ardelis_followup.cjs
+node tools/test_magic_overhaul.cjs
 python tools/project.py publish -m "Describe the completed change"
 ```
 

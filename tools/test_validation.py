@@ -24,6 +24,20 @@ class StudioValidationRegression(unittest.TestCase):
     def test_fixed_world_passes(self):
         self.validate()
 
+    def test_damage_defense_must_name_registered_channel(self):
+        name = next(iter(self.world['npcTypes']))
+        self.world['npcTypes'][name]['resistances'] = ['retired-damage-channel']
+        with self.assertRaisesRegex(ValueError, 'Damage type reference: npcTypes/'):
+            self.validate()
+
+    def test_success_condition_must_follow_current_tier_name(self):
+        name, tr = next((name, tr) for name, tr in self.world['triggerDefinitions'].items()
+                        if any(c['type'] == 'action-success-level' for c in tr['conditions']))
+        c = next(c for c in tr['conditions'] if c['type'] == 'action-success-level')
+        c['value'] = 'A retired outcome label'
+        with self.assertRaisesRegex(ValueError, 'Success level name reference: ' + name):
+            self.validate()
+
     def test_area_paths_cannot_cross_parent_locations(self):
         locations = self.world['locations']
         parents = [name for name, location in locations.items() if location.get('areas')]

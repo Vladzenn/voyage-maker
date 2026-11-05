@@ -60,7 +60,12 @@ function context(overrides={}){
         c.npc==='anyPartyNPC'?Object.fromEntries(ctx.party.map(n=>[n,one(n)])):one(c.npc);
   }
   if(!c.operator)return raw;
-  if(c.type==='action-success-level'){const ranks=['impossible','critical failure','failure','mixed results','basic success','success','great success','critical success'];return Object.values(raw).some(v=>compare(ranks.indexOf(v),c.operator,ranks.indexOf(c.value)))}
+  if(c.type==='action-success-level'){
+   const old=['critical failure','failure','mixed results','basic success','success','great success','critical success'];
+   const names=world.successLevelSettings.tiers.map(t=>t.name.toLowerCase()),ranks=['impossible',...names];
+   const normalize=v=>old.includes(v)?names[old.indexOf(v)]:String(v).toLowerCase();
+   return Object.values(raw).some(v=>compare(ranks.indexOf(normalize(v)),c.operator,ranks.indexOf(String(c.value).toLowerCase())));
+  }
   if(c.type==='action-text')return ctx.actions.some(x=>compare(x,c.operator,c.value));
   if(raw && typeof raw==='object'&&!Array.isArray(raw))return Object.values(raw).some(v=>compare(v,c.operator,c.value));
   return compare(raw,c.operator,c.value);
@@ -226,4 +231,32 @@ for(const [name,opts] of scenarios){
  if(withGenerated>15+5*active)console.error(JSON.stringify(budget[budget.length-1],null,2));
  ck(withGenerated<=15+5*active,'Eligibility budget in '+name);
 }
-console.log(JSON.stringify({status:'passed',checks,budget,scope:'Mocked script reads, effects and static eligibility; no live semantic judging or Voyage playtest.'},null,2));
+// The original scenarios predate automatic Resonance initialization. Report
+// initialized characters too; do not hide their additional checks behind an
+// empty-trait fixture. All-arc surfacing is an upper bound, not observed runtime.
+const magicBudget=[];
+if(world.triggerDefinitions.mx_resonance_gain){
+ for(const [name,opts] of scenarios){
+  for(const ready of [false,true]){
+   const routed=run('ad34_scene_dispatch',opts);
+   const base=context(opts).ctx;
+   const players=Object.fromEntries(Object.entries(base.players).map(([key,p])=>[key,{
+    ...p,traits:[...p.traits,'Elemental Resonance',ready?'Resonant':'Quiet Resonance'],Resonance:ready?20:0
+   }]));
+   const {ctx,check}=context({...opts,players,storage:routed.storage});
+   const names=[];
+   for(const [key,t]of Object.entries(world.triggerDefinitions)){
+    const semantic=t.conditions.filter(c=>['story','action'].includes(c.type));
+    if(semantic.length&&t.conditions.filter(c=>!['story','action'].includes(c.type)).every(c=>check(c)))
+     names.push(...semantic.map(()=>key));
+   }
+   const active=Object.values(ctx.quests).filter(s=>s==='accepted').length;
+   const limit=15+5*active,withEveryArc=names.length+Object.keys(world.parties[''].arcs).length+active;
+   ck(names.length+active<=limit,'Root checks within budget for initialized '+name+'/'+ready);
+   magicBudget.push({scene:name,ready,authoredChecks:names.length,withEveryArc,
+    documentedBudget:limit,allArcUpperBoundExceeds:withEveryArc>limit,triggers:names});
+  }
+ }
+}
+console.log(JSON.stringify({status:'passed',checks,budget,magicBudget,
+ scope:'Mocked eligibility. magicBudget includes initialized charge; withEveryArc is an unverified surfacing upper bound. No live semantic judging or Voyage playtest.'},null,2));

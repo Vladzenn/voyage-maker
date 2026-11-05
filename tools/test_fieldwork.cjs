@@ -76,7 +76,9 @@ for(const [k,v]of Object.entries(m.preserved.untouchedSections)){
   ck(digest(section)===v,'Untouched section except approved currency description '+k);
  }else ck(digest(preserved[k])===v,'Untouched section '+k);
 }
-for(const [k,v]of Object.entries(m.preserved.originalTypes))ck(digest(w.npcTypes[k])===v,'Existing creature type '+k);
+// Historical fingerprints use the exact approved inverse; the current-world
+// Magic Overhaul suite independently checks every migrated damage defense.
+for(const [k,v]of Object.entries(m.preserved.originalTypes))ck(digest(preserved.npcTypes[k])===v,'Existing creature type '+k);
 const cellar=w.locations['Roseberry Inn'].areas[m.addedArea];
 ck(cellar.paths.includes('Roseberry Inn - Kitchen Passage')&&w.locations['Roseberry Inn'].areas['Roseberry Inn - Kitchen Passage'].paths.includes(m.addedArea),'Cellar supports normal entry/backtracking');
 console.log(JSON.stringify({status:'passed',checks,addedQuests:m.jobs.length,addedTypes:m.types.length,rootTriggers:Object.keys(w.triggerDefinitions).length,livePlaytest:false}));

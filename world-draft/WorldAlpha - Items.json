@@ -7988,7 +7988,7 @@
   "Ardelis Portal Key": {
     "name": "Ardelis Portal Key",
     "category": "Key",
-    "description": "Reusable permission for the Evertree–Caelrath route. Issued by the authorized transit officers after verified bilateral sponsorship. Fixed returns from Caelrath Portal Hall lead to the Evertree without a key.",
+    "description": "Reusable permission for the Evertree–Caelrath route. Transit officers issue it after verifying genuine bilateral sponsorship or an established Ardelis local connection. Caelrath Portal Hall’s fixed crossing to Glowhaven needs no key.",
     "bonuses": []
   },
   "Ardelis Transit Writ": {
@@ -8203,5 +8203,66 @@
     "bonuses": [],
     "tier": "mundane",
     "estimatedValue": 18
+  },
+  "Key and Deed to 14 Crownwater Row": {
+    "name": "Key and Deed to 14 Crownwater Row",
+    "category": "Key",
+    "bonuses": [],
+    "description": "A front-door key and completed deed for 14 Crownwater Row, Caelrath, Ardelis. The named owner has already bought and taken possession of the house; the papers record the holder’s household, address and ownership.",
+    "needsMediaGeneration": true
+  },
+  "Crownwater Dace": {
+    "name": "Crownwater Dace",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 3,
+    "description": "A silver dace with a violet gill mark, common in Caelrath’s open canals.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Violetfin Perch": {
+    "name": "Violetfin Perch",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 5,
+    "description": "A striped reservoir perch with violet fins and firm white flesh.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Terrace Trout": {
+    "name": "Terrace Trout",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 9,
+    "description": "A speckled trout from cool terrace channels; quick to dart beneath a sluice.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Goldscale Bream": {
+    "name": "Goldscale Bream",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 7,
+    "description": "A broad golden bream found in lower canals and sheltered brackish harbors.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Lanternbelly Smelt": {
+    "name": "Lanternbelly Smelt",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 4,
+    "description": "A small coastal fish whose translucent belly gleams softly after dusk.",
+    "bonuses": [],
+    "needsMediaGeneration": true
+  },
+  "Bellglass Carp": {
+    "name": "Bellglass Carp",
+    "category": "Consumable",
+    "tier": "mundane",
+    "estimatedValue": 30,
+    "description": "A scarce pale carp with translucent scales that briefly ring against a landing net.",
+    "bonuses": [],
+    "needsMediaGeneration": true
   }
 }

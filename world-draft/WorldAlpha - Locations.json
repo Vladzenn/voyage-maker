@@ -18179,8 +18179,8 @@
     "basicInfo": "Repeated cream arches ride on exposed tracks. A brass return lantern marks the arrival threshold; the private gate opens only to Shadowspire’s Cellar Gate. A sliding passage changes its view while named destinations keep their marked routes.",
     "hiddenInfo": "Copper lantern signs mark the walk back to Shifting Gallery. Moving corridors change scenery and optional shortcuts; they never remove the exit, relocate belongings, change known addresses or settle a quest. This is Vladimir’s home; ask before taking or altering property.",
     "region": "The Lantern Circuit",
-    "x": -27,
-    "y": -13,
+    "x": 25,
+    "y": -32,
     "radius": 2,
     "initialKnown": false,
     "complexityType": "complex",
@@ -18211,6 +18211,18 @@
           "Shifting Gallery - Sliding Junction"
         ]
       }
+    },
+    "images": {
+      "establishingShot": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/f3251234-b8a8-456d-a416-636f356a529a.png"
+      }
     }
   },
   "Glassroot Gardens": {
@@ -18218,8 +18230,8 @@
     "basicInfo": "Transparent roots frame lilac light above small pools, antlered hares and little rays swimming through air. Clipped paths protect the animals and leave room for quiet visitors.",
     "hiddenInfo": "Copper lantern signs mark the walk back to Shifting Gallery. Moving corridors change scenery and optional shortcuts; they never remove the exit, relocate belongings, change known addresses or settle a quest. This is Vladimir’s home; ask before taking or altering property.",
     "region": "The Lantern Circuit",
-    "x": -9,
-    "y": -13,
+    "x": -23,
+    "y": -24,
     "radius": 2,
     "initialKnown": false,
     "complexityType": "complex",
@@ -18250,6 +18262,18 @@
           "Glassroot Gardens - Root Walk"
         ]
       }
+    },
+    "images": {
+      "establishingShot": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/03157542-bec1-4263-83f3-f74c2981ea68.png"
+      }
     }
   },
   "Inverted Court": {
@@ -18257,8 +18281,8 @@
     "basicInfo": "Water rises into an overhead basin. Steps climb onto a wall while handrails and marked footing show where a person can actually walk. Curious guests can test one safe surface at a time.",
     "hiddenInfo": "Copper lantern signs mark the walk back to Shifting Gallery. Moving corridors change scenery and optional shortcuts; they never remove the exit, relocate belongings, change known addresses or settle a quest. This is Vladimir’s home; ask before taking or altering property.",
     "region": "The Lantern Circuit",
-    "x": 9,
-    "y": -13,
+    "x": 35,
+    "y": 28,
     "radius": 2,
     "initialKnown": false,
     "complexityType": "complex",
@@ -18289,6 +18313,18 @@
           "Inverted Court - Wall Stair"
         ]
       }
+    },
+    "images": {
+      "establishingShot": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/57312155-774a-4e91-9561-9e1a08c7989f.png"
+      }
     }
   },
   "Porcelain Workshops": {
@@ -18296,8 +18332,8 @@
     "basicInfo": "Copper lamps illuminate fitted ceramic frames, repair benches and labeled trays of hands. Some projects work; others wait beside Vladimir’s abandoned notes.",
     "hiddenInfo": "Copper lantern signs mark the walk back to Shifting Gallery. Moving corridors change scenery and optional shortcuts; they never remove the exit, relocate belongings, change known addresses or settle a quest. This is Vladimir’s home; ask before taking or altering property.",
     "region": "The Lantern Circuit",
-    "x": 27,
-    "y": -13,
+    "x": -32,
+    "y": 7,
     "radius": 2,
     "initialKnown": false,
     "complexityType": "complex",
@@ -18328,6 +18364,18 @@
           "Porcelain Workshops - Repair Benches"
         ]
       }
+    },
+    "images": {
+      "establishingShot": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/57b589f5-acd0-4ab4-9ad9-db370efa1532.png"
+      }
     }
   },
   "The Little Kingdom": {
@@ -18335,8 +18383,8 @@
     "basicInfo": "A clockwork valley fills a vast table. Tiny carriages halt at miniature bridges and painted villages. Games and repairs can occupy an afternoon without becoming a royal duty.",
     "hiddenInfo": "Copper lantern signs mark the walk back to Shifting Gallery. Moving corridors change scenery and optional shortcuts; they never remove the exit, relocate belongings, change known addresses or settle a quest. This is Vladimir’s home; ask before taking or altering property.",
     "region": "The Lantern Circuit",
-    "x": -27,
-    "y": 13,
+    "x": 28,
+    "y": -3,
     "radius": 2,
     "initialKnown": false,
     "complexityType": "complex",
@@ -18367,6 +18415,18 @@
           "The Little Kingdom - Games Table"
         ]
       }
+    },
+    "images": {
+      "establishingShot": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/b840a393-bc05-4363-920a-984016c37e9d.png"
+      }
     }
   },
   "Tilt Court": {
@@ -18374,8 +18434,8 @@
     "basicInfo": "An airy ringball court tilts between padded landings and brass hoops. Practice constructs wait for agreement on a game. No championship, reward or compulsory contest is assumed.",
     "hiddenInfo": "Copper lantern signs mark the walk back to Shifting Gallery. Moving corridors change scenery and optional shortcuts; they never remove the exit, relocate belongings, change known addresses or settle a quest. This is Vladimir’s home; ask before taking or altering property.",
     "region": "The Lantern Circuit",
-    "x": -9,
-    "y": 13,
+    "x": 9,
+    "y": 14,
     "radius": 2,
     "initialKnown": false,
     "complexityType": "complex",
@@ -18406,6 +18466,18 @@
           "Tilt Court - Tilting Floor"
         ]
       }
+    },
+    "images": {
+      "establishingShot": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/fa4e27d6-a83f-47f3-8664-d8c88410da92.png"
+      }
     }
   },
   "The Rainward Orchard": {
@@ -18413,8 +18485,8 @@
     "basicInfo": "Rain travels sideways across one orchard row and falls normally in the next. Covered benches, a potting shed and walking rails make the experiment hospitable. Real fruit belongs to its grower.",
     "hiddenInfo": "Copper lantern signs mark the walk back to Shifting Gallery. Moving corridors change scenery and optional shortcuts; they never remove the exit, relocate belongings, change known addresses or settle a quest. This is Vladimir’s home; ask before taking or altering property.",
     "region": "The Lantern Circuit",
-    "x": 9,
-    "y": 13,
+    "x": -26,
+    "y": 31,
     "radius": 2,
     "initialKnown": false,
     "complexityType": "complex",
@@ -18445,6 +18517,18 @@
           "The Rainward Orchard - Crossrain Rows"
         ]
       }
+    },
+    "images": {
+      "establishingShot": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/8232cdbe-846a-4a72-b565-60eeb04a58d2.png"
+      }
     }
   },
   "The Cabinet of Evenings": {
@@ -18452,8 +18536,8 @@
     "basicInfo": "Different windows hold different skies. Chairs, records of old observations and a narrow viewing balcony invite a guest to linger. The scenes show the instrument’s work, not perfect knowledge of every place.",
     "hiddenInfo": "Copper lantern signs mark the walk back to Shifting Gallery. Moving corridors change scenery and optional shortcuts; they never remove the exit, relocate belongings, change known addresses or settle a quest. This is Vladimir’s home; ask before taking or altering property.",
     "region": "The Lantern Circuit",
-    "x": 27,
-    "y": 13,
+    "x": 8,
+    "y": 35,
     "radius": 2,
     "initialKnown": false,
     "complexityType": "complex",
@@ -18483,6 +18567,18 @@
           "The Cabinet of Evenings - Window Hall",
           "The Cabinet of Evenings - Tea Nook"
         ]
+      }
+    },
+    "images": {
+      "establishingShot": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/24c4dd6c-9446-4843-aaa9-f9e436294ee4.png"
       }
     }
   },
@@ -22440,15 +22536,15 @@
     }
   },
   "Caelrath Portal Hall": {
-    "x": 35,
-    "y": 22,
+    "x": 48,
+    "y": 44,
     "radius": 2,
     "name": "Caelrath Portal Hall",
     "region": "Kingsward Gate",
-    "basicInfo": "A controlled reception hall contains the capital's fixed connection to Evertree Base. Real bilateral permission and an issued Ardelis Portal Key authorize the outward route from Glowhaven. The return arch leads directly to Evertree Base - Portal Room, with no landing choice or required return key.",
+    "basicInfo": "A staffed hall connects Caelrath with Evertree Base in Glowhaven. Its fixed arch leads to the Evertree Portal Room without a key. At the Visitor Desk, Akihisa Sakimori issues reusable Ardelis route keys to travelers with verified sponsorship or an established local home, household, institute place or service posting. The key permits the journey back from Glowhaven.",
     "areas": {
       "Caelrath Portal Hall - Visitor Desk": {
-        "description": "Visitor Desk forms part of Caelrath Portal Hall. Pale masonry and violet-painted wood enclose a compact, practical space. Its furnishings suit the establishment around it; the neighboring passage remains clear for people going about their work.",
+        "description": "An orderly visitor desk stands beneath a board reading “Glowhaven passage and return keys.” A transit officer checks local records and genuine invitations. The open waiting court and marked stairs lead to the fixed portal room.",
         "paths": [
           "Caelrath Portal Hall - Portal Room",
           "Caelrath Portal Hall - Waiting Court",
@@ -23253,6 +23349,46 @@
           },
           "zoom": 100
         }
+      }
+    }
+  },
+  "Crownwater Row": {
+    "name": "Crownwater Row",
+    "basicInfo": "A narrow residential lane follows an upper water terrace. Pale two-storey houses share violet shutters, small walled gardens and a view of the aqueduct. Number 14 has an iron gate, a ground-floor sitting room and a modest upper bedroom. Bakers’ deliveries and neighbors’ washing make this a lived-in street.",
+    "x": -4,
+    "y": -34,
+    "radius": 2,
+    "region": "Crownwater Terraces",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "initialKnown": false,
+    "hiddenInfo": "Number 14 is the home established by A Door of Your Own: its selected player already owns it and has the matching key and deed. In a shared start the household may be jointly owned. Other beginnings do not grant ownership. Keep residents’ private homes separate; access to this house is not access to the whole row. The purchase predates the opening, so charge no new purchase price or recurring rent.",
+    "areas": {
+      "Crownwater Row - Lane": {
+        "description": "Pale walls and violet shutters line a narrow paved lane. A shared drain runs beneath the aqueduct parapet; deliveries leave room for people to pass.",
+        "paths": [
+          "Crownwater Row - Number 14 Sitting Room"
+        ]
+      },
+      "Crownwater Row - Number 14 Sitting Room": {
+        "description": "A brass 14 marks the front door. Unpacked boxes stand beside a plain hearth, a sturdy table and a window overlooking the lane. A narrow stair leads up; a rear door opens into a small walled garden.",
+        "paths": [
+          "Crownwater Row - Lane",
+          "Crownwater Row - Number 14 Bedroom",
+          "Crownwater Row - Number 14 Garden"
+        ]
+      },
+      "Crownwater Row - Number 14 Bedroom": {
+        "description": "The upper room has a bed, empty shelves and a wardrobe with one squeaking hinge. A high window admits morning light and the sound of water passing along the terrace.",
+        "paths": [
+          "Crownwater Row - Number 14 Sitting Room"
+        ]
+      },
+      "Crownwater Row - Number 14 Garden": {
+        "description": "A small enclosed garden has a washing line, an unplanted bed and a rain barrel. The low rear wall looks toward the aqueduct but gives no public passage through the house.",
+        "paths": [
+          "Crownwater Row - Number 14 Sitting Room"
+        ]
       }
     }
   }

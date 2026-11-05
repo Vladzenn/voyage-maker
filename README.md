@@ -6,6 +6,7 @@ Repository: [Vladzenn/voyage-maker](https://github.com/Vladzenn/voyage-maker) (p
 
 ## Current project
 
+- **Latest phantom patch:** [Ardelis local beginnings, fish and return-key access](tools/ardelis-phantom/README.md). Applied to the author's newest full export; no public patch notes.
 - **Comprehensive world overhaul - planning only:** [implementation handoff](world-draft/authoring/plans/Glowhaven%20-%20World%20Overhaul%20Implementation%20Handoff.md), [reading PDF](world-draft/authoring/plans/Glowhaven%20-%20World%20Overhaul%20Implementation%20Handoff.pdf), [complete coverage inventory](world-draft/authoring/plans/Glowhaven%20-%20World%20Overhaul%20Coverage.csv). No gameplay changes applied.
 - **Complete post-Fishing update:** [copyable major-update notes](world-draft/Rebirth%20-%20Complete%20Update%20Patch%20Notes.md), [Elsewhere manual-art workflow](tools/elsewhere-art/README.md).
 - **Ardelis capital:** [public notes](world-draft/Ardelis%20-%20Patch%20Notes.md), [mechanics and live checklist](world-draft/Ardelis%20-%20Development%20Notes.md), [map placement handoff](world-draft/Ardelis%20-%20Map%20and%20Landmark%20Handoff.md). Delivery status is recorded in CURRENT_STATE.

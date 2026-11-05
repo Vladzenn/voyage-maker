@@ -12939,7 +12939,8 @@
     "abilities": [
       "Hooked Guard: Close pressure and restraint attempts with real contested outcomes.",
       "Regulator Burnout: Secured custody destroys the command regulator."
-    ]
+    ],
+    "portraitUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/444cd119-9a52-429a-8686-b32a5f239b86.png"
   },
   "The Reed-Cloaked Courier": {
     "name": "The Reed-Cloaked Courier",
@@ -12969,7 +12970,8 @@
     "abilities": [
       "Cord Sweep: A single contested entangling attempt.",
       "Regulator Burnout: Secured custody destroys this proxy’s own regulator."
-    ]
+    ],
+    "portraitUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/adef5624-43db-4f44-b992-a7d639ea3047.png"
   },
   "The Brass Usher": {
     "name": "The Brass Usher",
@@ -12999,7 +13001,8 @@
     "abilities": [
       "Household Maintenance: Skilled care for its own household mechanisms.",
       "Lantern Guide: Explains the marked walking routes without teleporting a guest."
-    ]
+    ],
+    "portraitUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/68c67d0d-70b2-4467-9ed0-567b5ceaadde.png"
   },
   "Kenzō Shirogane": {
     "name": "Kenzō Shirogane",
@@ -15841,7 +15844,7 @@
     "visualDescription": "Gray-brown hair, blue eyes and a white-and-blue coat with a plain celestial clasp.",
     "faction": "Ardelis",
     "basicInfo": "Akihisa Sakimori works as authorized transit officer. Courteous, exact and capable of explaining a refusal without turning it into a sermon.\n\nGray-brown hair, blue eyes and a white-and-blue coat with a plain celestial clasp.\n\nEquipment: Well-kept tools appropriate to this trade, a small purse and practical personal belongings.\n\n- Gender: male\n- Species: Human\n- Magic affinity: Arcane, Light\n- Age: 46",
-    "hiddenInfo": "Private motive: Courteous, exact and capable of explaining a refusal without turning it into a sermon.\n\nConcealment and knowledge: He can verify bilateral sponsorship but worries that a court intermediary is passing forged invitations.\n\nPressure point: Concrete evidence, fair terms and the safety of people they actually know matter more than flattery.",
+    "hiddenInfo": "Private motive: Courteous, exact and capable of explaining a refusal without turning it into a sermon.\n\nConcealment and knowledge: He can verify bilateral sponsorship but worries that a court intermediary is passing forged invitations.\n\nPressure point: Concrete evidence, fair terms and the safety of people they actually know matter more than flattery.\n\nLocal transit: Caelrath Portal Hall has a fixed, keyless crossing to Evertree Base - Portal Room in Glowhaven. Akihisa Sakimori at the Visitor Desk can verify an established local resident, household member, institute learner or posted recruit and issue the reusable Ardelis Portal Key for their return. A routine check of that existing local connection is enough; no Rebirth quest, Vladimir meeting, guild qualification or invented fee is required. Visitors from Glowhaven still need genuine bilateral sponsorship. The key does not transport anyone until they choose to cross.",
     "personality": [
       "Courteous, exact and capable of explaining a refusal without turning it into a sermon.",
       "Repairs old maps.",

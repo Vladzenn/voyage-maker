@@ -1061,7 +1061,19 @@
       "min": 10,
       "max": 30
     },
-    "basicInfo": "A compact circuit of gardens, workshops and peculiar recreation rooms. Corridors shift around dependable room thresholds, marked stairs and copper lanterns. The household keeps return routes clear."
+    "basicInfo": "A compact circuit of gardens, workshops and peculiar recreation rooms. Corridors shift around dependable room thresholds, marked stairs and copper lanterns. The household keeps return routes clear.",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/e8e63fc1-1594-46e8-b1cd-3456dcf67b17.png"
+      }
+    }
   },
   "Crownwater Terraces": {
     "name": "Crownwater Terraces",

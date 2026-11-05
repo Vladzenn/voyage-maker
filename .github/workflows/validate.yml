@@ -28,3 +28,4 @@ jobs:
       - run: node tools/test_rebirth.cjs
       - run: node tools/test_ardelis.cjs
       - run: node tools/test_ardelis_followup.cjs
+      - run: node tools/test_ardelis_phantom.cjs

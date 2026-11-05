@@ -3,7 +3,7 @@
 const fs=require('fs'),path=require('path'),assert=require('assert'),vm=require('vm'),crypto=require('crypto');
 const root=path.resolve(__dirname,'..'),dir=path.join(__dirname,'ardelis-followup');
 const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
-const w=read(process.argv[2]||path.join(root,'world-draft/WorldAlpha - World.json'));
+const w=require('./ardelis-phantom/previous_world.cjs')(read(process.argv[2]||path.join(root,'world-draft/WorldAlpha - World.json')));
 const review=read(path.join(dir,'review.json')),base=require('./ardelis-followup/previous_world.cjs')(w);
 let checks=0;const ck=(b,m)=>{checks++;assert.ok(b,m);};
 const sort=v=>Array.isArray(v)?v.map(sort):v&&typeof v==='object'?Object.fromEntries(Object.keys(v).sort().map(k=>[k,sort(v[k])])):v;

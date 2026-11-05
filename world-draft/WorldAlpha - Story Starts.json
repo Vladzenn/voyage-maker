@@ -422,7 +422,7 @@
     ],
     "startingPartyNPCs": [],
     "isDefault": false,
-    "questGenerationGuidance": "This is Caelrath in Ardelis, with its own local lives and institutions. Keep the opening opportunity optional. Only actual agreement begins a live job; the institute exercise is not an expedition. Restricted international travel follows a real authorization and crossing. Continue after the player’s chosen action."
+    "questGenerationGuidance": "This is Caelrath in Ardelis, with its own local lives and institutions. Keep the opening opportunity optional. Only actual agreement begins a live job; the institute exercise is not an expedition. Restricted international travel follows a real authorization and crossing. Continue after the player’s chosen action.\n\nCaelrath Portal Hall has a fixed, keyless crossing to Evertree Base - Portal Room in Glowhaven. Akihisa Sakimori at the Visitor Desk can verify an established local resident, household member, institute learner or posted recruit and issue the reusable Ardelis Portal Key for their return. A routine check of that existing local connection is enough; no Rebirth quest, Vladimir meeting, guild qualification or invented fee is required. Visitors from Glowhaven still need genuine bilateral sponsorship. The key does not transport anyone until they choose to cross."
   },
   "🏘️ Ardelis: A Place in Southbank": {
     "name": "🏘️ Ardelis: A Place in Southbank",
@@ -445,7 +445,7 @@
     ],
     "startingPartyNPCs": [],
     "isDefault": false,
-    "questGenerationGuidance": "This is Caelrath in Ardelis, with its own local lives and institutions. Keep the opening opportunity optional. Only actual agreement begins a live job; the institute exercise is not an expedition. Restricted international travel follows a real authorization and crossing. Continue after the player’s chosen action."
+    "questGenerationGuidance": "This is Caelrath in Ardelis, with its own local lives and institutions. Keep the opening opportunity optional. Only actual agreement begins a live job; the institute exercise is not an expedition. Restricted international travel follows a real authorization and crossing. Continue after the player’s chosen action.\n\nCaelrath Portal Hall has a fixed, keyless crossing to Evertree Base - Portal Room in Glowhaven. Akihisa Sakimori at the Visitor Desk can verify an established local resident, household member, institute learner or posted recruit and issue the reusable Ardelis Portal Key for their return. A routine check of that existing local connection is enough; no Rebirth quest, Vladimir meeting, guild qualification or invented fee is required. Visitors from Glowhaven still need genuine bilateral sponsorship. The key does not transport anyone until they choose to cross."
   },
   "🔬 Ardelis: An Institute Place": {
     "name": "🔬 Ardelis: An Institute Place",
@@ -468,7 +468,7 @@
     ],
     "startingPartyNPCs": [],
     "isDefault": false,
-    "questGenerationGuidance": "This is Caelrath in Ardelis, with its own local lives and institutions. Keep the opening opportunity optional. Only actual agreement begins a live job; the institute exercise is not an expedition. Restricted international travel follows a real authorization and crossing. Continue after the player’s chosen action."
+    "questGenerationGuidance": "This is Caelrath in Ardelis, with its own local lives and institutions. Keep the opening opportunity optional. Only actual agreement begins a live job; the institute exercise is not an expedition. Restricted international travel follows a real authorization and crossing. Continue after the player’s chosen action.\n\nCaelrath Portal Hall has a fixed, keyless crossing to Evertree Base - Portal Room in Glowhaven. Akihisa Sakimori at the Visitor Desk can verify an established local resident, household member, institute learner or posted recruit and issue the reusable Ardelis Portal Key for their return. A routine check of that existing local connection is enough; no Rebirth quest, Vladimir meeting, guild qualification or invented fee is required. Visitors from Glowhaven still need genuine bilateral sponsorship. The key does not transport anyone until they choose to cross."
   },
   "🎭 Ardelis: An Orselle Invitation": {
     "name": "🎭 Ardelis: An Orselle Invitation",
@@ -491,7 +491,74 @@
     ],
     "startingPartyNPCs": [],
     "isDefault": false,
-    "questGenerationGuidance": "This is Caelrath in Ardelis, with its own local lives and institutions. Keep the opening opportunity optional. Only actual agreement begins a live job; the institute exercise is not an expedition. Restricted international travel follows a real authorization and crossing. Continue after the player’s chosen action."
+    "questGenerationGuidance": "This is Caelrath in Ardelis, with its own local lives and institutions. Keep the opening opportunity optional. Only actual agreement begins a live job; the institute exercise is not an expedition. Restricted international travel follows a real authorization and crossing. Continue after the player’s chosen action.\n\nCaelrath Portal Hall has a fixed, keyless crossing to Evertree Base - Portal Room in Glowhaven. Akihisa Sakimori at the Visitor Desk can verify an established local resident, household member, institute learner or posted recruit and issue the reusable Ardelis Portal Key for their return. A routine check of that existing local connection is enough; no Rebirth quest, Vladimir meeting, guild qualification or invented fee is required. Visitors from Glowhaven still need genuine bilateral sponsorship. The key does not transport anyone until they choose to cross."
+  },
+  "👑 Ardelis: A Place at the Family Table": {
+    "name": "👑 Ardelis: A Place at the Family Table",
+    "description": "Begin in Caelrath, capital of Ardelis, as an adult junior noble with a place at the Minazuki table. A family supper, an inconvenient promise and two invitations compete for your attention. Your title opens doors; it does not settle the arguments inside.",
+    "storyStart": "The soup has gone cold while Hidetaka Minazuki finishes a story about a horse nobody else remembers fondly.\n\n“It bit the magistrate,” Ruri says, separating two letters from the supper tray.\n\n“An excellent judge of character.”\n\nThe dining-room windows overlook Caelrath’s upper terraces. Behind the glass, water pours beneath a bridge busy with servants, messengers and people who will never be invited to this table. Here a place has been set for you: an adult junior member of the lesser nobility, received under the Minazuki household’s roof. Your own family and your reasons for accepting their hospitality remain yours.\n\nOne letter invites the household’s younger relations to a music evening. The other asks for a representative at tomorrow’s hearing over a leased orchard. Neither has your name on the reply yet.\n\nRuri sets them between the bread and a dish of untouched pears. “I need someone at the hearing who will listen to the growers. My uncle seems to think listening is what happens while he prepares his answer.”\n\n“And I need someone at the evening who won’t insult our host,” Hidetaka says. “We must all make sacrifices.”\n\nA footman reaches for the soup tureen. Ruri stops him with a hand; she has barely eaten. Across the table, Hidetaka breaks the seal on his own correspondence. The two unanswered invitations remain within reach.",
+    "locations": [
+      "House Minazuki Estate"
+    ],
+    "locationAreas": [
+      "House Minazuki Estate - Family Dining Room"
+    ],
+    "startingQuests": [],
+    "startingItems": [
+      {
+        "item": "Mark",
+        "quantity": 1000
+      }
+    ],
+    "startingPartyNPCs": [],
+    "isDefault": false,
+    "questGenerationGuidance": "The player is an adult junior noble of a lesser house with genuine household ties, not a royal child or automatically a named Minazuki’s close relative. Let their selected background supply family details without rewriting the authored family. Hidetaka and Ruri are occupied with their own interests. Either invitation, both with a workable arrangement, or neither is possible. No task is already accepted, reward promised or conspiracy revealed. No rank, advanced skill, private palace access or new fortune follows from the title.\n\nCaelrath Portal Hall has a fixed, keyless crossing to Evertree Base - Portal Room in Glowhaven. Akihisa Sakimori at the Visitor Desk can verify an established local resident, household member, institute learner or posted recruit and issue the reusable Ardelis Portal Key for their return. A routine check of that existing local connection is enough; no Rebirth quest, Vladimir meeting, guild qualification or invented fee is required. Visitors from Glowhaven still need genuine bilateral sponsorship. The key does not transport anyone until they choose to cross."
+  },
+  "🛡️ Ardelis: Beneath the Starward Banner": {
+    "name": "🛡️ Ardelis: Beneath the Starward Banner",
+    "description": "Begin in Caelrath, Ardelis, as a newly admitted adult paladin recruit. Your first watch concerns ordinary people on a crowded stair. Veterans disagree about what good service looks like; your own training determines what you can do.",
+    "storyStart": "A practice shield rolls across the Starward Commandery’s court and strikes the boot of a woman in ivory plate.\n\nSerika Tōgane traps it under one heel. “Useful. Now the enemy has a seat.”\n\nThe recruit who dropped it goes scarlet. His partner, still wearing her cloak backward, looks desperately at the rack instead. Above them the violet banner lifts in the mountain wind. Beyond the parapet lie Caelrath’s white terraces, its crowded bridges and a palace much too distant to hear a dropped shield.\n\nToday is your first day with the order. Your admission is settled; the person beneath the new posting is the one you created, with that person’s actual training.\n\nOsamu Narusawa arrives carrying two medical rolls. Serika reaches for one. He keeps it.\n\n“The hospice stair this morning,” he says. “A delivery, market traffic and a broken handrail. Someone needs to keep the passage clear.”\n\n“And learn to give an instruction people can hear,” Serika adds.\n\n“Without mistaking volume for judgment.”\n\nFrom the gate, Akihiro Kanzaki calls Serika to a meeting. She retrieves her spear and points toward the two recruits before going. “You’re all expected back for practice. Bring the shields. Preferably in your hands.”\n\nOsamu lays a roll beside the gate and checks its ties. The recruits begin arguing in whispers about who should speak to the cart drivers. The stair is a short walk away; the chaplain has left room for a question before anyone sets off.",
+    "locations": [
+      "Starward Commandery"
+    ],
+    "locationAreas": [
+      "Starward Commandery - Practice Court"
+    ],
+    "startingQuests": [],
+    "startingItems": [
+      {
+        "item": "Mark",
+        "quantity": 1000
+      }
+    ],
+    "startingPartyNPCs": [],
+    "isDefault": false,
+    "questGenerationGuidance": "Establish an ordinary novice posting with the Starward Oath, distinct from the palace guard, city watch and cult. Do not require a second application or grant unearned levels, affinities, spells, combat skills or plate armor. Serika, Osamu and Akihiro are at their own commandery; the two unnamed fellow recruits are incidental peers, not new canonical principals or forced companions. The first responsibility is a manageable local watch, not a Rebirth mission or compulsory fight. The player can ask questions, raise an objection, request different work or leave. Actual agreement may establish an ordinary quest; do not mark duty done just for hearing it.\n\nCaelrath Portal Hall has a fixed, keyless crossing to Evertree Base - Portal Room in Glowhaven. Akihisa Sakimori at the Visitor Desk can verify an established local resident, household member, institute learner or posted recruit and issue the reusable Ardelis Portal Key for their return. A routine check of that existing local connection is enough; no Rebirth quest, Vladimir meeting, guild qualification or invented fee is required. Visitors from Glowhaven still need genuine bilateral sponsorship. The key does not transport anyone until they choose to cross."
+  },
+  "🏠 Ardelis: A Door of Your Own": {
+    "name": "🏠 Ardelis: A Door of Your Own",
+    "description": "Begin in Caelrath, Ardelis, inside the house you have just bought at 14 Crownwater Row. The deed is settled, the boxes are not, and your neighbors already have opinions. Make a home in the imperial capital on your own terms.",
+    "storyStart": "The front door opens properly on the third try. The trick, apparently, is lifting it slightly before turning the key.\n\nFourteen Crownwater Row is yours. The purchase is complete; the key and deed are already among your belongings. Inside, morning light crosses unopened boxes, a bare table and the clean rectangle where the previous owner’s rug used to lie. Upstairs a wardrobe hinge complains each time the breeze catches it.\n\nOutside, two neighbors are trying to carry a flowering shrub through a gate narrower than its pot.\n\n“Turn it,” the woman says.\n\n“I am turning it.”\n\n“The pot, not yourself.”\n\nA basket of bread rests on the low wall. Nina Suzuhara, the baker making her morning deliveries, is keeping a running count of how many times the shrub has come back out.\n\n“Five,” she says. Then she notices the open door. “Oh, good. Someone lives here now. I’m Nina, from Threadneedle. The previous owner ordered two loaves every fourth morning. You can tell me if that’s a habit worth keeping.”\n\nWater glints beyond the terrace parapet. Far below, a bell sounds in Kingsward, where the Portal Hall handles travel to Glowhaven. Here there is an empty house to arrange, a delivery to consider and a shrub that has once again reached the wrong side of the gate.",
+    "locations": [
+      "Crownwater Row"
+    ],
+    "locationAreas": [
+      "Crownwater Row - Number 14 Sitting Room"
+    ],
+    "startingQuests": [],
+    "startingItems": [
+      {
+        "item": "Mark",
+        "quantity": 1000
+      },
+      {
+        "item": "Key and Deed to 14 Crownwater Row",
+        "quantity": 1
+      }
+    ],
+    "startingPartyNPCs": [],
+    "isDefault": false,
+    "questGenerationGuidance": "The player already owns Number 14. Its exact key and deed are starting inventory, so neither the custom-property handover rule nor the narrator should create another key, sale, charge or rent. Use the selected player’s name when referring to the owner; in a shared household beginning establish co-ownership rather than rival deeds. Nina is visiting on a delivery round and returns to her bakery afterward; do not permanently move her card or recruit the neighbors. The shrub and bread are ordinary optional interactions, not automatic quests. Furnishings are modest; boxes contain ordinary selected personal belongings, not bonus wealth or equipment.\n\nCaelrath Portal Hall has a fixed, keyless crossing to Evertree Base - Portal Room in Glowhaven. Akihisa Sakimori at the Visitor Desk can verify an established local resident, household member, institute learner or posted recruit and issue the reusable Ardelis Portal Key for their return. A routine check of that existing local connection is enough; no Rebirth quest, Vladimir meeting, guild qualification or invented fee is required. Visitors from Glowhaven still need genuine bilateral sponsorship. The key does not transport anyone until they choose to cross."
   },
   "📚 First Day of Work: Phoenix Wing": {
     "name": "📚 First Day of Work: Phoenix Wing",

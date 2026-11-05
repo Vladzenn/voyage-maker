@@ -1,0 +1,65 @@
+{
+  "pages": 5,
+  "recipes": 24,
+  "elements": 16,
+  "visualReview": "passed-all-five-rendered-pages",
+  "sourceSHA256": "0e6ba3887940bda85a1f7d737f83a907ec6d447e791ca2821721ca7e8c9221dd",
+  "worldSHA256": "660c50c1f5a720e18b4f601333596c519e3ca4d91b6ffbdd0798c017e1e57cd0",
+  "outputs": {
+    "Elemental Reactions - Visual Reference.pdf": {
+      "bytes": 105059,
+      "sha256": "755537f02a12887d9b6c37f676539b18cd43170c6df9818440f85faf6080be03"
+    },
+    "01 - All Reactions.png": {
+      "bytes": 570247,
+      "sha256": "8e11396ab80a3e0d3b064817123e56eebb257dc1f696d9b892e0aca780e365f7"
+    },
+    "02 - Impact Reactions.png": {
+      "bytes": 387509,
+      "sha256": "f34806ed9ccffdae00def4579508de3d6ddae43252999a85bd43c7fce8eebb6c"
+    },
+    "03 - Damage and Disruption.png": {
+      "bytes": 391257,
+      "sha256": "9432acd19f1ebe0e540e91f4d569a675e645bd70c13fdca369717d71d921af79"
+    },
+    "04 - Control Reactions.png": {
+      "bytes": 396500,
+      "sha256": "46e171765d3101b1ef24590a6e1bf0c7f1f45c2c0ba11018874d5a61822fa0f3"
+    },
+    "05 - Timing and Resonance.png": {
+      "bytes": 338538,
+      "sha256": "ba90aed25a70bbebd71a41c7e0d5edcabb256c552500941d7675c2eaf74bd758"
+    },
+    "Elemental Reactions - PDF and PNGs.zip": {
+      "bytes": 2023762,
+      "sha256": "4c6e8d89de036a822c0e80ca4452e1a31fcedc5ba8fb6a35e64fcdb98b19d816"
+    }
+  },
+  "liveCombatVerified": false,
+  "pdfTextBounds": "passed",
+  "percentageExamples": "passed",
+  "pngDimensions": {
+    "01 - All Reactions.png": [
+      3638,
+      2573
+    ],
+    "02 - Impact Reactions.png": [
+      3638,
+      2573
+    ],
+    "03 - Damage and Disruption.png": [
+      3638,
+      2573
+    ],
+    "04 - Control Reactions.png": [
+      3638,
+      2573
+    ],
+    "05 - Timing and Resonance.png": [
+      3638,
+      2573
+    ]
+  },
+  "zipIntegrity": "passed",
+  "canonicalUnchanged": true
+}

@@ -439,3 +439,8 @@ Record local tests separately from live recognition, expiry, phase timing and da
 Automatic approval review rejected the authenticated official draft-validation POST because it would transmit the complete private candidate world to the official external endpoint without specific payload approval. Do not bypass that rejection. Finish local work and authorized GitHub synchronization; request payload approval for the remaining read-only API check once the concrete file is ready. No Studio world save/publication.
 
 The author then requests a fuller public explanation of elemental reactions in the patch notes. Explain the actual setup/follow-up window, same-target and separate-action requirements, examples with different tactical payoffs, temporary debuff behavior, both-side use and personal Resonance. This is a prose-only follow-up; do not change the implemented world or treat it as approval for the pending external validation request.
+
+
+## 6 November - elemental reaction diagrams
+
+The author requests a PDF with PNG diagrams of the actual reaction system. Create a complete visual reference from the implemented 24-pair catalogue, with grouped effects and timing/Resonance. They explicitly clarify that +20% means 1.20x normal damage and +0% retains the hit's ordinary damage. Label those multipliers directly and retain the AI-guided numerical-behavior boundary. This is artifact/documentation work; leave the canonical world unchanged. Save the PDF and PNGs in the shared project and a convenient local ZIP.

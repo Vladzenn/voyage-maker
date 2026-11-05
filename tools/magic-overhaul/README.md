@@ -117,3 +117,13 @@ node tools/test_magic_overhaul.cjs "output/magic-overhaul-2026-11-06/The Schools
 ```
 
 Use `--apply` only for this original complete merge base, after checking for newer Studio edits. The builder accepts the exact reviewed before/after canonical states and fails if unrelated edits have intervened. It does not reset a checkout or silently reconstruct from an old Alpha candidate.
+
+
+## Visual reference
+
+The five-page [diagram PDF](../../world-draft/authoring/plans/Elemental%20Reactions%20-%20Visual%20Reference/Elemental%20Reactions%20-%20Visual%20Reference.pdf) and adjacent PNG sheets cover the complete current table and timing. The author explicitly asked to distinguish extra damage from a replacement multiplier: +20% means 1.20x, +10% means 1.10x, and +0% means 1.00x ordinary attack damage, before mitigation. The diagrams make no new gameplay changes. Rebuild with `python tools/magic-overhaul/build_diagrams.py` using ReportLab, Pillow, pypdf and Poppler; review the rendered pages before delivery. Portable font fallbacks are supplied. Local exports and a ZIP live in `output/pdf/`. Exact source/output hashes and visual QA are in `diagram-review.json`.
+
+
+### Remaining legacy ability description audit
+
+The author asks whether this update individually typed every existing ability. It did not: all 868 ability records were deliberately preserved. The new guidance describes damage identity for created techniques and the resolver, without inventing a native ability `damageType` field. Existing clear descriptions can inform the resolver; ambiguous descriptions have not all been audited or rewritten. Complete that narrowly scoped audit if separately requested. The visual reference diagrams do not prove that every old ability is consistently classified in live combat.

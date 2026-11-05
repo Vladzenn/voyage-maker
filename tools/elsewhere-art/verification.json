@@ -1,0 +1,17 @@
+{
+  "selectedAssets": 12,
+  "counts": {
+    "map": 1,
+    "location": 8,
+    "portrait": 3
+  },
+  "allLocalHashesMatch": true,
+  "allReadablePNG": true,
+  "canonicalUnchangedSHA256": "49088ccf50e7f4df2f7e44295681bf0abce9a9e7e79b0877318c3c393a7e46d2",
+  "manualUploadOnly": true,
+  "noHostedURLsChanged": true,
+  "visualReview": "All twelve selected outputs reviewed: eight distinct sites and three intended NPCs; no named actor baked into scenery. The two couriers have tighter headroom than the guide. Still artwork cannot establish water-flow direction or exact route/coordinate registration.",
+  "scopeSinceCommit": "48445de",
+  "worldDataEdited": false,
+  "sourcesUnchanged": true
+}

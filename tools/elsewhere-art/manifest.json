@@ -1,0 +1,146 @@
+{
+  "map::The Lantern Circuit": {
+    "kind": "map",
+    "name": "The Lantern Circuit",
+    "file": "world-draft/region maps/Elsewhere/The Lantern Circuit.png",
+    "sha256": "22c47ff8ff8314f0da3810d67a7a6eef063bcda7bd0272b57c30c4766927ba92",
+    "width": 1254,
+    "height": 1254,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-5541e436-ff36-46f8-a410-3bac3d91c95a.png",
+    "generationPasses": 2,
+    "uploaded": false,
+    "authorRequestedRevision": "Current colorful map style, creative placement and direct imagegen only.",
+    "previousSelection": {
+      "kind": "map",
+      "name": "The Lantern Circuit",
+      "file": "world-draft/region maps/Elsewhere/The Lantern Circuit.png",
+      "sha256": "b6072abc5c18a47804efbd56d89a7dd2279d2a3532047c06ab289448e31d8f2a",
+      "width": 1254,
+      "height": 1254,
+      "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-336af550-d799-461e-b1c4-483a476a36ac.png",
+      "generationPasses": 1,
+      "uploaded": false
+    }
+  },
+  "location::Shifting Gallery": {
+    "kind": "location",
+    "name": "Shifting Gallery",
+    "file": "world-draft/location images/Elsewhere/Shifting Gallery.png",
+    "sha256": "3db204b5b0f11244a442c046d2e0f487503fa816eac47fd89472faaf3533dc41",
+    "width": 1254,
+    "height": 1254,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-5389a6f8-5562-484a-b253-1904cb090c3c.png",
+    "generationPasses": 1,
+    "uploaded": false
+  },
+  "location::Glassroot Gardens": {
+    "kind": "location",
+    "name": "Glassroot Gardens",
+    "file": "world-draft/location images/Elsewhere/Glassroot Gardens.png",
+    "sha256": "57ee781b0f1478f1183818e4b62fc03677bb9bacb47926f86e02f942fb000342",
+    "width": 1254,
+    "height": 1254,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-ac4ddafc-124c-4833-ad84-67610f282c70.png",
+    "generationPasses": 1,
+    "uploaded": false
+  },
+  "location::Inverted Court": {
+    "kind": "location",
+    "name": "Inverted Court",
+    "file": "world-draft/location images/Elsewhere/Inverted Court.png",
+    "sha256": "8435c471dbf128110a0f0fdab4fad2d5688244bff267581b03d4082345f7a389",
+    "width": 1254,
+    "height": 1254,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-46e0aa92-9516-4a62-b77c-460ce998ac57.png",
+    "generationPasses": 1,
+    "uploaded": false
+  },
+  "location::Porcelain Workshops": {
+    "kind": "location",
+    "name": "Porcelain Workshops",
+    "file": "world-draft/location images/Elsewhere/Porcelain Workshops.png",
+    "sha256": "71a67ef227d6c3af8ac220778018de172702d31e5fb2e38ee2081482f8c10f79",
+    "width": 1254,
+    "height": 1254,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-450bbaae-21f5-4fcd-aa7e-e7ac9710829e.png",
+    "generationPasses": 1,
+    "uploaded": false
+  },
+  "location::The Little Kingdom": {
+    "kind": "location",
+    "name": "The Little Kingdom",
+    "file": "world-draft/location images/Elsewhere/The Little Kingdom.png",
+    "sha256": "89f980cda8b8ab8ea71b00619727179cc12d532659b823192638140102d660ce",
+    "width": 1254,
+    "height": 1254,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-7c5b057d-d9e6-492c-9900-5018d619ebc8.png",
+    "generationPasses": 1,
+    "uploaded": false
+  },
+  "location::Tilt Court": {
+    "kind": "location",
+    "name": "Tilt Court",
+    "file": "world-draft/location images/Elsewhere/Tilt Court.png",
+    "sha256": "5cf209ba8e1a6e20833070491d323f56f123cb92f33138ac376e26763f8666f2",
+    "width": 1254,
+    "height": 1254,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-5c25222b-c901-41d2-9a7f-03072edb69af.png",
+    "generationPasses": 1,
+    "uploaded": false
+  },
+  "location::The Rainward Orchard": {
+    "kind": "location",
+    "name": "The Rainward Orchard",
+    "file": "world-draft/location images/Elsewhere/The Rainward Orchard.png",
+    "sha256": "1f51ab9e2302e0f476470e8d6a318c3fcb5ef042bf7b9996b673465a7d7d40eb",
+    "width": 1254,
+    "height": 1254,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-c953db0b-494a-4544-bd39-c72eb21b5a29.png",
+    "generationPasses": 1,
+    "uploaded": false
+  },
+  "location::The Cabinet of Evenings": {
+    "kind": "location",
+    "name": "The Cabinet of Evenings",
+    "file": "world-draft/location images/Elsewhere/The Cabinet of Evenings.png",
+    "sha256": "71735d05e443bf8779e8f7dcf78ba0c140a15f1e23ac0cca890122ea76c6f0c5",
+    "width": 1254,
+    "height": 1254,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-d21f17fd-c769-4049-9351-963358d2acea.png",
+    "generationPasses": 1,
+    "uploaded": false
+  },
+  "portrait::The Ash-Cloaked Courier": {
+    "kind": "portrait",
+    "name": "The Ash-Cloaked Courier",
+    "file": "world-draft/npc portraits/Rebirth/The Ash-Cloaked Courier.png",
+    "sha256": "ad7a67bd11963cc1e5d406a7e9a89648c954bddf237ab31cfd1fb4ddde4a3065",
+    "width": 1024,
+    "height": 1536,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-ed08dca2-ffed-409f-8062-3bf9b85871d0.png",
+    "generationPasses": 1,
+    "uploaded": false
+  },
+  "portrait::The Reed-Cloaked Courier": {
+    "kind": "portrait",
+    "name": "The Reed-Cloaked Courier",
+    "file": "world-draft/npc portraits/Rebirth/The Reed-Cloaked Courier.png",
+    "sha256": "2ed7b30141b24cbf637a570617ac3a6fc086b3c77294bfdecb180f4e37773e6f",
+    "width": 1024,
+    "height": 1536,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-0d412d4b-e8b2-4b3c-959b-d10eb119f2e4.png",
+    "generationPasses": 1,
+    "uploaded": false
+  },
+  "portrait::The Brass Usher": {
+    "kind": "portrait",
+    "name": "The Brass Usher",
+    "file": "world-draft/npc portraits/Rebirth/The Brass Usher.png",
+    "sha256": "220835bf56cd882b934b3bb5ecd84931a19ea178c3e18fade47cf3e6b34fb233",
+    "width": 1024,
+    "height": 1536,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-1838db43-c8ab-4239-bd4b-91e800ca9117.png",
+    "generationPasses": 1,
+    "uploaded": false
+  }
+}

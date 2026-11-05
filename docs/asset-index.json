@@ -4760,6 +4760,66 @@
       "size": 3291669,
       "sha256": "e329ab45a31fff9e79db4eb07af49fbc3b9587704d6baefde4b3670bc3c7896d",
       "mtimeNs": 1793845838903526700
+    },
+    "world-draft/region maps/Elsewhere/The Lantern Circuit.png": {
+      "size": 4741123,
+      "sha256": "22c47ff8ff8314f0da3810d67a7a6eef063bcda7bd0272b57c30c4766927ba92",
+      "mtimeNs": 1793873542674421900
+    },
+    "world-draft/location images/Elsewhere/Shifting Gallery.png": {
+      "size": 3747260,
+      "sha256": "3db204b5b0f11244a442c046d2e0f487503fa816eac47fd89472faaf3533dc41",
+      "mtimeNs": 1793874025572089300
+    },
+    "world-draft/location images/Elsewhere/Glassroot Gardens.png": {
+      "size": 3841402,
+      "sha256": "57ee781b0f1478f1183818e4b62fc03677bb9bacb47926f86e02f942fb000342",
+      "mtimeNs": 1793874074704623800
+    },
+    "world-draft/location images/Elsewhere/Inverted Court.png": {
+      "size": 3534673,
+      "sha256": "8435c471dbf128110a0f0fdab4fad2d5688244bff267581b03d4082345f7a389",
+      "mtimeNs": 1793874120315886200
+    },
+    "world-draft/location images/Elsewhere/Porcelain Workshops.png": {
+      "size": 3732286,
+      "sha256": "71a67ef227d6c3af8ac220778018de172702d31e5fb2e38ee2081482f8c10f79",
+      "mtimeNs": 1793874203448892500
+    },
+    "world-draft/location images/Elsewhere/The Little Kingdom.png": {
+      "size": 3844632,
+      "sha256": "89f980cda8b8ab8ea71b00619727179cc12d532659b823192638140102d660ce",
+      "mtimeNs": 1793874253042301300
+    },
+    "world-draft/location images/Elsewhere/Tilt Court.png": {
+      "size": 3611277,
+      "sha256": "5cf209ba8e1a6e20833070491d323f56f123cb92f33138ac376e26763f8666f2",
+      "mtimeNs": 1793874309951526000
+    },
+    "world-draft/location images/Elsewhere/The Rainward Orchard.png": {
+      "size": 4121653,
+      "sha256": "1f51ab9e2302e0f476470e8d6a318c3fcb5ef042bf7b9996b673465a7d7d40eb",
+      "mtimeNs": 1793874407193628700
+    },
+    "world-draft/location images/Elsewhere/The Cabinet of Evenings.png": {
+      "size": 3358796,
+      "sha256": "71735d05e443bf8779e8f7dcf78ba0c140a15f1e23ac0cca890122ea76c6f0c5",
+      "mtimeNs": 1793874453243320800
+    },
+    "world-draft/npc portraits/Rebirth/The Ash-Cloaked Courier.png": {
+      "size": 3050435,
+      "sha256": "ad7a67bd11963cc1e5d406a7e9a89648c954bddf237ab31cfd1fb4ddde4a3065",
+      "mtimeNs": 1793874520966050900
+    },
+    "world-draft/npc portraits/Rebirth/The Reed-Cloaked Courier.png": {
+      "size": 2574184,
+      "sha256": "2ed7b30141b24cbf637a570617ac3a6fc086b3c77294bfdecb180f4e37773e6f",
+      "mtimeNs": 1793874574013791300
+    },
+    "world-draft/npc portraits/Rebirth/The Brass Usher.png": {
+      "size": 3152516,
+      "sha256": "220835bf56cd882b934b3bb5ecd84931a19ea178c3e18fade47cf3e6b34fb233",
+      "mtimeNs": 1793874620931700200
     }
   }
 }

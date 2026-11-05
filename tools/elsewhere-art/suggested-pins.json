@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Shifting Gallery",
+    "region": "The Lantern Circuit",
+    "leftPercent": 64,
+    "topPercent": 82,
+    "suggestedX": 14,
+    "suggestedY": -32,
+    "status": "Optional visual estimate; not applied"
+  },
+  {
+    "name": "Glassroot Gardens",
+    "region": "The Lantern Circuit",
+    "leftPercent": 19,
+    "topPercent": 70,
+    "suggestedX": -31,
+    "suggestedY": -20,
+    "status": "Optional visual estimate; not applied"
+  },
+  {
+    "name": "Inverted Court",
+    "region": "The Lantern Circuit",
+    "leftPercent": 85,
+    "topPercent": 16,
+    "suggestedX": 35,
+    "suggestedY": 34,
+    "status": "Optional visual estimate; not applied"
+  },
+  {
+    "name": "Porcelain Workshops",
+    "region": "The Lantern Circuit",
+    "leftPercent": 18,
+    "topPercent": 37,
+    "suggestedX": -32,
+    "suggestedY": 13,
+    "status": "Optional visual estimate; not applied"
+  },
+  {
+    "name": "The Little Kingdom",
+    "region": "The Lantern Circuit",
+    "leftPercent": 79,
+    "topPercent": 51,
+    "suggestedX": 29,
+    "suggestedY": -1,
+    "status": "Optional visual estimate; not applied"
+  },
+  {
+    "name": "Tilt Court",
+    "region": "The Lantern Circuit",
+    "leftPercent": 59,
+    "topPercent": 37,
+    "suggestedX": 9,
+    "suggestedY": 13,
+    "status": "Optional visual estimate; not applied"
+  },
+  {
+    "name": "The Rainward Orchard",
+    "region": "The Lantern Circuit",
+    "leftPercent": 22,
+    "topPercent": 17,
+    "suggestedX": -28,
+    "suggestedY": 33,
+    "status": "Optional visual estimate; not applied"
+  },
+  {
+    "name": "The Cabinet of Evenings",
+    "region": "The Lantern Circuit",
+    "leftPercent": 55,
+    "topPercent": 14,
+    "suggestedX": 5,
+    "suggestedY": 36,
+    "status": "Optional visual estimate; not applied"
+  }
+]

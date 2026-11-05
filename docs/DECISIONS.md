@@ -393,3 +393,10 @@ Merge the latest complete Locations/Regions exports exactly after approved alias
 Repair the genuine peaceful-departure gap and guard duplicate investigation quest offers. Keep the Spider anomaly and party-wide diadem. Add recurring pursuit of the actually traced Summoned one, scaled to that bearer with finite opposition, at least 100 completed ticks after the last actual resolution, scene-aware deferral and a campaign conclusion stop. Semantic outcomes remain native; exact ownership and pacing remain script checks.
 
 The Gemini report is audit findings first, per explicit answer. Record real defects, incorrect schema claims and untested hypotheses separately. Do not apply its scroll, board, item-slot, placement or other proposed repairs, or change encounter rules/travel settings, in this update.
+
+
+## 5 November — Elsewhere art and unified post-Fishing announcement
+
+The author requests one map and one location image per existing Elsewhere destination plus the missing Ash-Cloaked Courier, Reed-Cloaked Courier and Brass Usher portraits. Prepare named local PNGs for manual installation; do not upload or alter world image URLs. Use built-in imagegen directly. The author explicitly rejects the map skill’s staged black-and-white sketch approach. After rejecting a rigid layout, they authorize creative geography in the existing colorful map style and will move Studio pins as needed. Preserve the eight destinations and a clear walking return; provide optional pin estimates without applying them. No additional main landmarks or permanent named actors in scene art.
+
+The public announcement covers everything implemented after Universal Fishing, including Rebirth, Shadowspire and Elsewhere, the 100 new scrolls, ancestry forms, Ardelis and the approved story/portrait follow-up. It should be a major-update announcement with more room for prose than minor patch notes. Exclude deferred content and the unapplied Gemini audit suggestions.

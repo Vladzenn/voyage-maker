@@ -6,6 +6,7 @@ Repository: [Vladzenn/voyage-maker](https://github.com/Vladzenn/voyage-maker) (p
 
 ## Current project
 
+- **Complete post-Fishing update:** [copyable major-update notes](world-draft/Rebirth%20-%20Complete%20Update%20Patch%20Notes.md), [Elsewhere manual-art workflow](tools/elsewhere-art/README.md).
 - **Ardelis capital:** [public notes](world-draft/Ardelis%20-%20Patch%20Notes.md), [mechanics and live checklist](world-draft/Ardelis%20-%20Development%20Notes.md), [map placement handoff](world-draft/Ardelis%20-%20Map%20and%20Landmark%20Handoff.md). Delivery status is recorded in CURRENT_STATE.
 - **Glowhaven fresh map brief:** [standalone PDF](world-draft/authoring/plans/Glowhaven%20-%20Fresh%20Map%20Brief.pdf), [editable text](world-draft/authoring/plans/Glowhaven%20-%20Fresh%20Map%20Brief.md), [exact position index](world-draft/authoring/plans/Glowhaven%20-%20Fresh%20Map%20Positions.csv); no old map artwork is supplied.
 - **Schools of magic, Rebirth!:** [public notes](world-draft/Schools%20of%20magic%2C%20Rebirth!%20-%20Patch%20Notes.md), [implementation, limits and live tests](world-draft/Schools%20of%20magic%2C%20Rebirth!%20-%20Development%20Notes.md)

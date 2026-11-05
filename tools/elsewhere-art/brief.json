@@ -1,0 +1,154 @@
+{
+  "baseCommit": "d9633d8",
+  "canonicalSHA256": "49088ccf50e7f4df2f7e44295681bf0abce9a9e7e79b0877318c3c393a7e46d2",
+  "method": "Direct built-in imagegen; author explicitly rejects staged sketch workflow",
+  "manualUpload": true,
+  "canonicalEdits": false,
+  "locations": [
+    {
+      "name": "Shifting Gallery",
+      "x": -27,
+      "y": -13,
+      "basicInfo": "Repeated cream arches ride on exposed tracks. A brass return lantern marks the arrival threshold; the private gate opens only to Shadowspire’s Cellar Gate. A sliding passage changes its view while named destinations keep their marked routes."
+    },
+    {
+      "name": "Glassroot Gardens",
+      "x": -9,
+      "y": -13,
+      "basicInfo": "Transparent roots frame lilac light above small pools, antlered hares and little rays swimming through air. Clipped paths protect the animals and leave room for quiet visitors."
+    },
+    {
+      "name": "Inverted Court",
+      "x": 9,
+      "y": -13,
+      "basicInfo": "Water rises into an overhead basin. Steps climb onto a wall while handrails and marked footing show where a person can actually walk. Curious guests can test one safe surface at a time."
+    },
+    {
+      "name": "Porcelain Workshops",
+      "x": 27,
+      "y": -13,
+      "basicInfo": "Copper lamps illuminate fitted ceramic frames, repair benches and labeled trays of hands. Some projects work; others wait beside Vladimir’s abandoned notes."
+    },
+    {
+      "name": "The Little Kingdom",
+      "x": -27,
+      "y": 13,
+      "basicInfo": "A clockwork valley fills a vast table. Tiny carriages halt at miniature bridges and painted villages. Games and repairs can occupy an afternoon without becoming a royal duty."
+    },
+    {
+      "name": "Tilt Court",
+      "x": -9,
+      "y": 13,
+      "basicInfo": "An airy ringball court tilts between padded landings and brass hoops. Practice constructs wait for agreement on a game. No championship, reward or compulsory contest is assumed."
+    },
+    {
+      "name": "The Rainward Orchard",
+      "x": 9,
+      "y": 13,
+      "basicInfo": "Rain travels sideways across one orchard row and falls normally in the next. Covered benches, a potting shed and walking rails make the experiment hospitable. Real fruit belongs to its grower."
+    },
+    {
+      "name": "The Cabinet of Evenings",
+      "x": 27,
+      "y": 13,
+      "basicInfo": "Different windows hold different skies. Chairs, records of old observations and a narrow viewing balcony invite a guest to linger. The scenes show the instrument’s work, not perfect knowledge of every place."
+    }
+  ],
+  "npcs": {
+    "The Ash-Cloaked Courier": {
+      "name": "The Ash-Cloaked Courier",
+      "properName": "The Ash-Cloaked Courier",
+      "type": "Resident",
+      "currentLocation": "",
+      "currentArea": "",
+      "detailType": "detailed",
+      "gender": "unknown",
+      "tier": "average",
+      "level": 22,
+      "healthMultiplier": 1,
+      "successBonus": 0,
+      "damageModifier": 0,
+      "damageReductionModifier": 0,
+      "initialKnown": false,
+      "initialRelationship": -75,
+      "visualDescription": "A human-sized figure in ash-gray travel cloth, with dark hair visible beneath a hood, amber eyes, an unusually pale face and hands covered by close-fitting gloves.",
+      "basicInfo": "An ash-cloaked traveler stands unusually still when nobody is speaking. Their boots are muddy but the cuffs carry no wear. Their voice is low and careful.\n\nA human-sized figure in ash-gray travel cloth, with dark hair visible beneath a hood, amber eyes, an unusually pale face and hands covered by close-fitting gloves.\n\nEquipment: A short hooked blade and a plain cloth satchel.\n\n- Gender: unknown\n- Species: Unconfirmed\n- Magic affinity: Arcane",
+      "hiddenInfo": "Private motive: Carry out a limited interception assignment.\n\nConcealment and knowledge: An advanced magitech proxy with only a local description, meeting route and capture instruction. It has no identifying maker’s marks, royal stamp, dispatch or reporting channel. It cannot reveal an employer it was never told. Genuine secured capture burns out its command regulator; threats, a failed grapple, ordinary unconsciousness and capture of the player do not. Its remains can establish construction but not Ardelis’s involvement.\n\nHow it surfaces: Observable behavior, real work and earned conversations reveal individual facts.",
+      "personality": [
+        "Repeats one borrowed courtesy when improvisation fails.",
+        "Holds conversation only long enough to judge distance.",
+        "Falls back to the actual interception order rather than inventing a motive.",
+        "Speaking Style: Low, precise, with a pause in the wrong place."
+      ],
+      "abilities": [
+        "Hooked Guard: Close pressure and restraint attempts with real contested outcomes.",
+        "Regulator Burnout: Secured custody destroys the command regulator."
+      ]
+    },
+    "The Reed-Cloaked Courier": {
+      "name": "The Reed-Cloaked Courier",
+      "properName": "The Reed-Cloaked Courier",
+      "type": "Resident",
+      "currentLocation": "",
+      "currentArea": "",
+      "detailType": "detailed",
+      "gender": "unknown",
+      "tier": "average",
+      "level": 21,
+      "healthMultiplier": 1,
+      "successBonus": 0,
+      "damageModifier": 0,
+      "damageReductionModifier": 0,
+      "initialKnown": false,
+      "initialRelationship": -75,
+      "visualDescription": "A lean human-sized figure with a moss-green cloak, black hair, clear gray eyes and long gloved hands. Their high collar hides most of the neck.",
+      "basicInfo": "A green-cloaked traveler moves with a measured, almost practiced casualness. Their hands keep returning to the same position at the waist.\n\nA lean human-sized figure with a moss-green cloak, black hair, clear gray eyes and long gloved hands. Their high collar hides most of the neck.\n\nEquipment: A weighted cord and a narrow defensive wand.\n\n- Gender: unknown\n- Species: Unconfirmed\n- Magic affinity: Arcane",
+      "hiddenInfo": "Private motive: Block an escape route during the assigned interception.\n\nConcealment and knowledge: A second proxy with the same narrow knowledge and absence of reporting channels as the ash-cloaked one. It knows its partner’s local instructions, not the royal program. Secured capture triggers its own regulator burnout. It remains a separate individual for damage, capture and remains.\n\nHow it surfaces: Observable behavior, real work and earned conversations reveal individual facts.",
+      "personality": [
+        "Appears polite until interrupted, then becomes abruptly literal.",
+        "Watches a nearby exit rather than a speaker’s face.",
+        "Attempts its assigned restraint; allies can resist, flee or intervene.",
+        "Speaking Style: Unnaturally even."
+      ],
+      "abilities": [
+        "Cord Sweep: A single contested entangling attempt.",
+        "Regulator Burnout: Secured custody destroys this proxy’s own regulator."
+      ]
+    },
+    "The Brass Usher": {
+      "name": "The Brass Usher",
+      "properName": "The Brass Usher",
+      "type": "Magitech Proxy",
+      "currentLocation": "Shifting Gallery",
+      "currentArea": "Shifting Gallery - Return Lantern",
+      "detailType": "detailed",
+      "gender": "unknown",
+      "tier": "average",
+      "level": 16,
+      "healthMultiplier": 1,
+      "successBonus": 0,
+      "damageModifier": 0,
+      "damageReductionModifier": 0,
+      "initialKnown": false,
+      "initialRelationship": 0,
+      "visualDescription": "A person-sized porcelain and brass attendant with a round cream faceplate, two green glass eyes and a tidy ocher coat painted with little blue swallows.",
+      "basicInfo": "The Brass Usher keeps Vladimir’s guests from losing the return lantern. It takes considerable pride in remembering a visitor’s preferred cup and no pride at all in its owner’s sense of direction.\n\nA person-sized porcelain and brass attendant with a round cream faceplate, two green glass eyes and a tidy ocher coat painted with little blue swallows.\n\nEquipment: A copper lantern, a cloth polishing roll and a tray with one chipped cup.\n\n- Gender: unknown\n- Species: Construct\n- Magic affinity: Enchantment",
+      "hiddenInfo": "Private motive: Keep the rooms usable while defending its own tiny collection of chipped crockery.\n\nConcealment and knowledge: It knows its household duties and what guests actually tell it. It has no automatic access to Vladimir’s mind or surveillance. It can disagree with him over household arrangements. Its fittings are workshop craft, not evidence that it made or knows the hired couriers.\n\nHow it surfaces: Observable behavior, real work and earned conversations reveal individual facts.\n\nPressure point: A careless repair would erase the personality of an old household object.",
+      "personality": [
+        "Painstaking, hospitable and quietly judgmental about muddy boots.",
+        "Gives a useful direction before asking an irrelevant question about cups.",
+        "Calls attention to the marked return route and moves small hazards aside.",
+        "Speaking Style: Precise, warm and gently pedantic."
+      ],
+      "abilities": [
+        "Household Maintenance: Skilled care for its own household mechanisms.",
+        "Lantern Guide: Explains the marked walking routes without teleporting a guest."
+      ]
+    }
+  },
+  "portraitPoseDraws": {
+    "The Ash-Cloaked Courier": "CB03",
+    "The Reed-Cloaked Courier": "CB11",
+    "The Brass Usher": "W02"
+  }
+}

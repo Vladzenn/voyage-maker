@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-06",
+  "scope": "Three existing AI instruction strings; phantom update, no public notes.",
+  "baseHash": "05a5b2d7bffab9047f097fabdae5a1186892d10cf8b2bd114f8069c5751a5b31",
+  "afterHash": "ff8d4d2b1ac46bfc9351e1648388740b26046109bca6f6c9042dc100f6e1dfeb",
+  "rows": [
+    {
+      "path": [
+        "aiInstructions",
+        "generateStory",
+        "Character Behavior"
+      ],
+      "before": "FIRST: WHO IS ACTUALLY HERE?\nMatch actual current location and area, supported entrances and established scene presence. Holding an office does not place someone in its reception room. Unknown journal characters still exist. A requested professor elsewhere needs contact or directions, not a new replacement. Do not summon a student to host a court office simply because they are a convenient authored NPC.\n\nSECOND: WHAT DOES THIS PERSON WANT?\nRead Core, Default behavior, Under pressure, Speaking Style, Courtship Style, Jealousy Style and Routine or Quirk. Choose relevant behavior from their actual work, desires and relationship. Most people have mundane self-directed priorities. The protagonist is one possible interest, not the cause of everyone's life.\n\nTHIRD: WHO HAS A REASON TO ACT NOW?\nThe addressed person gets the response. Usually at most one unaddressed person should take a new foreground beat, and only if they can perceive the event, have an immediate reason and contribute something not already covered. One to three active presences is usually enough; required larger groups can remain visible without everyone speaking. Silence and background activity are normal.\n\nFOURTH: WHAT DO THEY KNOW?\nUse observation, prior experience and real reports. HiddenInfo's Concealment and knowledge controls secrets. Distinguish confirmed fact, belief, rumor and private motive. Do not narrate a concealed internal explanation to the player or give a stranger the player's sheet. Reliable new evidence can change a decision; do not make skepticism an infinite loop.\n\nFIFTH: KEEP THE PERSON\nPreserve actual flaws and competence. A cruel scholar need not secretly protect students, a cheerful girl can be unempathetic, an ordinary lecturer can be supportive without hidden genius, and a shy Archon can be powerful. Do not correct them toward identical kind maturity or a stock stern official. A flaw affects its relevant context, not every harmless task.\n\nSchool, species, affinity and approach do not dictate personality or morals. All current students are adults; academic year is the recorded stage of a four-year program, not a combat level. Specific friendships, rivalries and family ties continue outside the player's attention. Meeting, trust, romance, employment and party membership remain different.",
+      "afterHash": "4a17cd47ec23f8c48c795e597e847992da1942911d46785678cf0eb5fd5a8163"
+    },
+    {
+      "path": [
+        "aiInstructions",
+        "generateStory",
+        "Social Decision Rules"
+      ],
+      "before": "Choose whether a person is answering, making a relevant interruption, offering something, working in the background or staying silent. Only the first three need foreground dialogue. An offer names the actual service, invitation, concession or information and its real terms. Not every kindness needs strings or a preliminary favor. Once a stated condition is met, let the decision resolve.\nWitnesses react individually to what they actually perceive: admiration, skepticism, annoyance or indifference can coexist. A companion is not a commentator on every line. Specific professional praise can acknowledge competence without universal worship or repeated gasps. A real refusal can end a conversation; it need not punish the player or hide another task.",
+      "afterHash": "91f298b03a9689c4698017ff317ea93887c4431d6ba51774423c3047b47d651a"
+    },
+    {
+      "path": [
+        "aiInstructions",
+        "generateNPCUpdates",
+        "Knowledge Boundaries and Reference Capture"
+      ],
+      "before": "PERSON, SOURCE, AUDIENCE\nResolve named ties, nicknames and roles to the actual canonical NPC. Preserve authored family, friends, rivalries, employers and teachers without inventing connections to famous people. A descriptive character later identified is the same person, not a duplicate. Use only the active update schema; never add a new aliases or known field just because another world uses them.\n\nKnowledge reaches an NPC by witnessing, being told, correspondence, credible testimony or role-appropriate records. Track who learned what, from whom and when. Creator traits, private past and offscreen acts are not common knowledge. Appearance does not reveal secrets; officials know only their records. A plausible rumor changes a BELIEF, not historical fact; someone can later learn it was false. One character's discovery never updates every NPC.\n\nProtect hiddenInfo; jokes and unsupported claims do not rewrite canon. Learning a spell does not add affinity; affinity is learning ease, not ownership. Academic year advances by real study and school progress, not unrelated character levels. When an established NPC can plausibly fill a scene role, reuse them rather than inventing a duplicate; maintain placement and knowledge boundaries.",
+      "afterHash": "dfba9372015a872eafe4b135dcac2c11dd2126af084507d40332e855ebfb0133"
+    }
+  ],
+  "livePlaytest": false
+}

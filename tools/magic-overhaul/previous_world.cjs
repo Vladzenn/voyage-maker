@@ -5,6 +5,7 @@ const sort=v=>Array.isArray(v)?v.map(sort):v&&typeof v==='object'?Object.fromEnt
 const hash=v=>crypto.createHash('sha256').update(JSON.stringify(sort(v))).digest('hex');
 module.exports=function previous(w){
     if(!w.triggerDefinitions?.mx_scroll_catalogue)return w;
+    w=require('../npc-conversations/previous_world.cjs')(w);
     const r=JSON.parse(fs.readFileSync(path.join(__dirname,'review.json'),'utf8'));
     assert.strictEqual(hash(w),r.afterHash,'Only the exact reviewed Magic Overhaul enters historical fixtures');
     const out=structuredClone(w);

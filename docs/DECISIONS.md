@@ -444,3 +444,12 @@ The author then requests a fuller public explanation of elemental reactions in t
 ## 6 November - elemental reaction diagrams
 
 The author requests a PDF with PNG diagrams of the actual reaction system. Create a complete visual reference from the implemented 24-pair catalogue, with grouped effects and timing/Resonance. They explicitly clarify that +20% means 1.20x normal damage and +0% retains the hit's ordinary damage. Label those multipliers directly and retain the AI-guided numerical-behavior boundary. This is artifact/documentation work; leave the canonical world unchanged. Save the PDF and PNGs in the shared project and a convenient local ZIP.
+
+
+## 6 November — independent NPC conversations, phantom update
+
+The author requests implementation of the worthwhile Chikara conversation ideas as a phantom update. Strengthen the existing narrative ensemble: nearby NPCs may talk to one another for their own reasons, with a brief exchange counting as one foreground beat. Preserve the player's chosen activity, manageable active groups, distinct personalities, ordinary conversations without quest hooks, and the absence of a compulsory exchange every turn.
+
+Overhearing depends on actual access, noise, language, sightlines and abilities. Partial or misleading information stays partial or uncertain. Risky deliberate listening can use existing action resolution; routine audible speech needs no check. Discovery of a listener needs a plausible tell. Preserve another credible route to essential clues, and record meaningful exchanges with source and audience without broadcasting private knowledge to absent NPCs.
+
+Modify only the three reviewed existing Story/NPC Updates instruction strings. Keep modern combat-only NPC intents, single-speaker direct chats, all gameplay records and Spider content intact. Do not copy the reference export's conflicting out-of-combat `other` intent rule or rely on its undocumented top-level AI `custom` task. No new trigger bank, hidden social simulation, public patch notes, Studio save or publication. Validate locally, synchronize section exports and completed project files to GitHub; distinguish structural checks from unperformed live behavior tests.

@@ -1,0 +1,112 @@
+{
+  "pdfPages": 18,
+  "sectionCount": 26,
+  "markdownWords": 7239,
+  "missingSections": [],
+  "sourceSHA256": "49088ccf50e7f4df2f7e44295681bf0abce9a9e7e79b0877318c3c393a7e46d2",
+  "inventoryRows": 7161,
+  "inventoryCounts": {
+    "realms": 10,
+    "regions": 55,
+    "locations": 391,
+    "npcs": 519,
+    "factions": 50,
+    "worldLore": 252,
+    "storyStarts": 32,
+    "itemTypes": 672,
+    "abilities": 868,
+    "skills": 46,
+    "traits": 969,
+    "traitCategories": 25,
+    "npcTypes": 216,
+    "triggerDefinitions": 547,
+    "gameModes": 13,
+    "authorSeeds": 16,
+    "encounterElements": 17,
+    "characterArchetypes": 18,
+    "locationArchetypes": 15,
+    "regionArchetypes": 8,
+    "worldVoices": 1,
+    "nameFilterSettings": 261,
+    "randomNames": 2,
+    "areas": 1514,
+    "quests": 315,
+    "arcs": 6,
+    "aiInstructions": 227,
+    "heroesVersion": 1,
+    "resourceSettings": 5,
+    "narratorStyle": 1,
+    "storySettings": 2,
+    "attributeSettings": 10,
+    "successLevelSettings": 2,
+    "skillSettings": 14,
+    "progressionSettings": 13,
+    "locationSettings": 9,
+    "itemSettings": 7,
+    "combatSettings": 7,
+    "tipSettings": 5,
+    "death": 2,
+    "endGame": 3,
+    "relationshipStages": 1,
+    "gameplayMusicSettings": 2,
+    "otherSettings": 3,
+    "imagePromptConfiguration": 5,
+    "characterCreationSettings": 2,
+    "premadeCharacters": 1,
+    "mods": 1
+  },
+  "worldChanged": false,
+  "files": [
+    {
+      "path": "world-draft\\authoring\\plans\\Glowhaven - World Overhaul Implementation Handoff.md",
+      "sha256": "305933049833b132791ff3c6103f52fd38c78f9ec7bad53f15fe08c0da3c0cab",
+      "bytes": 53488
+    },
+    {
+      "path": "world-draft\\authoring\\plans\\Glowhaven - World Overhaul Implementation Handoff.pdf",
+      "sha256": "3810b5a7315d99560a431a54fdf7114254a046c802b93bd26a1dfc3630b754e2",
+      "bytes": 162803
+    },
+    {
+      "path": "world-draft\\authoring\\plans\\Glowhaven - World Overhaul Coverage.csv",
+      "sha256": "d28847b91b66a1cb3d27f07db9f06089fdfc20e79517a96ee664e4da3268f212",
+      "bytes": 3458535
+    },
+    {
+      "path": "world-draft\\authoring\\plans\\Glowhaven - World Overhaul Live Checks.csv",
+      "sha256": "e9bd8e69b5fa406511833bbb53cd484c73e12491437f7733c826a3823cecf7a7",
+      "bytes": 3125
+    },
+    {
+      "path": "world-draft\\authoring\\plans\\Glowhaven - World Overhaul Relationships.csv",
+      "sha256": "0d83ece23a9e7f260a88eab0747031aa243bd51bcf01e501ad11efde8a0f3662",
+      "bytes": 2487
+    },
+    {
+      "path": "world-draft\\authoring\\plans\\Glowhaven - World Overhaul Retcons.csv",
+      "sha256": "907e17f2564776aeea80ac42ab685467fd63b92918b2bfb7ff74f011a3f7c364",
+      "bytes": 7582
+    },
+    {
+      "path": "world-draft\\authoring\\plans\\Glowhaven - World Overhaul Undertakings.csv",
+      "sha256": "0a2022863e4ba7883e65895c414c252bcefaf4519a9c063a2b4f81c9487294c1",
+      "bytes": 16382
+    },
+    {
+      "path": "world-draft\\authoring\\plans\\Glowhaven - World Overhaul Baseline.json",
+      "sha256": "f669f731b2cbda4cd83a70833e95bae2af8814c6104c8187dae83fd7c264f448",
+      "bytes": 1245152
+    }
+  ],
+  "visualQA": {
+    "pagesReviewed": 18,
+    "allPagesRendered": true,
+    "result": "passed",
+    "notes": "Reviewed all final page sheets after TOC and widow refinements; no clipping, overlaps or missing sections."
+  },
+  "inventoryQA": {
+    "uniquePointers": 7161,
+    "allSourceHashesMatch": true,
+    "allRowsPending": true
+  }
+}

@@ -1062,5 +1062,305 @@
       "max": 30
     },
     "basicInfo": "A compact circuit of gardens, workshops and peculiar recreation rooms. Corridors shift around dependable room thresholds, marked stairs and copper lanterns. The household keeps return routes clear."
+  },
+  "Crownwater Terraces": {
+    "name": "Crownwater Terraces",
+    "basicInfo": "Reservoirs, an aqueduct and cultivated terraces feed the capital's upper waterways. Archives, a noble estate and service households occupy separate plateaus joined by viaducts. Their foundations rest on connected mountain ground; clouds in the lower valleys do not make these floating islands.",
+    "x": -1,
+    "y": 1,
+    "hiddenInfo": "",
+    "initialKnown": false,
+    "realm": "Ardelis",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/6d6a6632-283f-49c2-837a-a27543754ec7.jpg"
+      }
+    },
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    }
+  },
+  "Starfall Heights": {
+    "name": "Starfall Heights",
+    "basicInfo": "The western sacred heights hold the cathedral, pilgrim beds, cloister gardens and old burial grounds. White walls, violet roofs and maintained stairs share the terrace with ordinary worshippers and workers. The cathedral is a living institution with internal disagreements, not proof that every citizen serves a secret sect.",
+    "x": -2,
+    "y": 1,
+    "hiddenInfo": "",
+    "initialKnown": false,
+    "realm": "Ardelis",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/5109784d-7a40-4f1a-8c29-5387360fe553.jpg"
+      }
+    },
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    }
+  },
+  "The Imperial Crown": {
+    "name": "The Imperial Crown",
+    "basicInfo": "The great palace occupies the central high terrace above the capital's waterfalls. Its public petition court, diplomatic houses, guard barracks, mint and ceremonial ballroom form related precincts within one royal complex. Private apartments and research cellars have actual guarded access.",
+    "x": 0,
+    "y": 1,
+    "hiddenInfo": "",
+    "initialKnown": false,
+    "realm": "Ardelis",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/4a8892e6-2845-4d4d-8dee-dc7dff1950ba.jpg"
+      }
+    },
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    }
+  },
+  "High Arcana Ward": {
+    "name": "High Arcana Ward",
+    "basicInfo": "Spire residences, a court research establishment, an astronomical observatory and mineral intake works step across the northeastern heights. Water and mana infrastructure require maintenance. Public roads and ordinary homes remain distinct from guarded laboratories and the old receiving station.",
+    "x": 1,
+    "y": 1,
+    "hiddenInfo": "",
+    "initialKnown": false,
+    "realm": "Ardelis",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/2156d8c6-6545-441e-a585-26c01f0f5755.jpg"
+      }
+    },
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    }
+  },
+  "Violet Market Ward": {
+    "name": "Violet Market Ward",
+    "basicInfo": "Violet cloth canopies, food stalls, counting rooms and specialist shops surround a working urban market. The queen's public gardens and a private oracle's oratory sit nearby. Commerce, evening company and ordinary household errands continue independently of court intrigues.",
+    "x": -1,
+    "y": 0,
+    "hiddenInfo": "",
+    "initialKnown": false,
+    "realm": "Ardelis",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/abeef8eb-edbe-4be8-86eb-2c990bd57edb.jpg"
+      }
+    },
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    }
+  },
+  "Westbridge Ward": {
+    "name": "Westbridge Ward",
+    "basicInfo": "Bridge approaches, a courthouse, baths, workshops and public sporting grounds fill the western middle terraces. Nobles, laborers, advocates and apprentices use the same streets for different purposes. The amphitheatre supports announced performances and bouts without turning every visitor into a contestant.",
+    "x": -2,
+    "y": 0,
+    "hiddenInfo": "",
+    "initialKnown": false,
+    "realm": "Ardelis",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/b7d6be77-ab05-42ee-bc54-ebace50dec3d.jpg"
+      }
+    },
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    }
+  },
+  "Celestial Ward": {
+    "name": "Celestial Ward",
+    "basicInfo": "A great celestial monument overlooks the central civic avenue. The capital's institute, city watch, public records, theatre and international Adventurer's Guild branch serve a dense inhabited district. Court affiliation is influential but does not make every official, scholar or guild worker privy to royal secrets.",
+    "x": 0,
+    "y": 0,
+    "hiddenInfo": "",
+    "initialKnown": false,
+    "realm": "Ardelis",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/e878b77a-02bf-465b-940c-2fa8cd5ce73e.jpg"
+      }
+    },
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    }
+  },
+  "Eastwater Ward": {
+    "name": "Eastwater Ward",
+    "basicInfo": "Lock gates, bonded storage, craft lanes and crowded homes follow the eastern waterways. Freight and pedestrian routes cross on arched bridges. Private clubs and workshops provide legitimate work alongside opportunities for smuggling and exploitation; the entire neighborhood is not a criminal camp.",
+    "x": 1,
+    "y": 0,
+    "hiddenInfo": "",
+    "initialKnown": false,
+    "realm": "Ardelis",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/e04efa05-f17f-48a8-b049-7fa92c118bb4.jpg"
+      }
+    },
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    }
+  },
+  "Windmill Escarpment": {
+    "name": "Windmill Escarpment",
+    "basicInfo": "Small windmills, granaries, orchards and a working hamlet occupy the outer southwestern terrace. Quarry paths and an old culvert lie away from the maintained road. Modest jobs and ordinary rural business are accessible before harder, deliberately chosen work below the cliffs.",
+    "x": -2,
+    "y": -1,
+    "hiddenInfo": "",
+    "initialKnown": false,
+    "realm": "Ardelis",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/2aba48e4-e6be-4762-a03a-ad13ba2b98cb.jpg"
+      }
+    },
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    }
+  },
+  "Kingsward Gate": {
+    "name": "Kingsward Gate",
+    "basicInfo": "The monumental land gate receives road travelers beneath the capital's southern walls. Hostels, tea rooms, caravan yards and a controlled portal hall support arrivals. Road admission, guild membership and permission to cross the Evertree network are separate matters.",
+    "x": -1,
+    "y": -1,
+    "hiddenInfo": "",
+    "initialKnown": false,
+    "realm": "Ardelis",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/ecc2bf79-9ad0-499a-9610-467260be4227.jpg"
+      }
+    },
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    }
+  },
+  "Southbank Ward": {
+    "name": "Southbank Ward",
+    "basicInfo": "Dense southern homes, a local school, bakery, common eating house and repair trades sit behind the lower walls. Small courts and shared stairs connect residents whose lives are not organized around the palace. A guarded remand house belongs to local law, not Glowhaven's Wraith Island system.",
+    "x": 0,
+    "y": -1,
+    "hiddenInfo": "",
+    "initialKnown": false,
+    "realm": "Ardelis",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/548fa450-1622-41b5-be22-21aa9b56cf79.jpg"
+      }
+    },
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    }
+  },
+  "Lantern Harbors": {
+    "name": "Lantern Harbors",
+    "basicInfo": "Deep lower harbors and island channels receive ships beneath the city terraces. Customs arcades, shipwrights, working docks and navigation lights serve coastal and imperial traffic. Skiffs reach a few offshore places; exposed water and a wreck support optional prepared work.",
+    "x": 1,
+    "y": -1,
+    "hiddenInfo": "",
+    "initialKnown": false,
+    "realm": "Ardelis",
+    "images": {
+      "map": {
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        },
+        "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/07d258e1-19d4-45b6-a811-66bcb6502521.jpg"
+      }
+    },
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    }
   }
 }

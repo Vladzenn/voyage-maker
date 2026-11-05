@@ -8419,7 +8419,7 @@
       "type": "story",
       "query": "The participant actually presents the checked relay findings to Reika or the Great Sage’s informed representative, with the evidence or a credible authenticated alternative, and learns that the second receiving station and next summoning preparations are in Ardelis. Owning a copy without a conversation is insufficient."
     },
-    "questDesignBrief": "Rebirth chapter. Its configured event or predecessor offers this undertaking; contact with the source alone is not permission to jump ahead. Conclude the Glowhaven investigation and preserve its actual local consequences. The remaining lead points to future travel in Ardelis. Do not invent an already accessible Ardelis realm, launch the controlled rival’s attack, claim that the foreign program has ended or leave this undertaking perpetually incomplete. The player can continue ordinary play while preparations beyond the border remain unresolved.",
+    "questDesignBrief": "Rebirth chapter. Its configured event or predecessor offers this undertaking; contact with the source alone is not permission to jump ahead. Conclude the Glowhaven investigation and preserve its actual local consequences. The next lead lies inside Caelrath, Ardelis’s capital. Close this local investigation honestly; it is not proof that the foreign program has ended. Further travel needs actual bilateral sponsorship, available through the independent court route or Vladimir. No immediate rival attack or automatic crossing follows.",
     "onCompleteEffects": [
       {
         "type": "write-number",
@@ -8438,6 +8438,11 @@
         "operator": "add",
         "value": 120,
         "target": "allPlayers"
+      },
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "Ardelis: Passage under Seal"
       }
     ]
   },
@@ -8498,5 +8503,2002 @@
         "target": "allPlayers"
       }
     ]
+  },
+  "The Jewel before the Setting": {
+    "name": "The Jewel before the Setting",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Sibylle Opal",
+    "questLocation": "Opaline Arcade",
+    "questStatement": "Two adults claim a valuable family gem, and a noble wants it reset before the dispute is settled.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Establish the actual gem's provenance sufficiently to carry out an agreed return, secure hold or accountable sale.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For The Jewel before the Setting, the participating party has actually done this: Establish the actual gem's provenance sufficiently to carry out an agreed return, secure hold or accountable sale. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "Keep the original gem and the disputed ownership specific. Sibylle likes profit but values her name. A copied setting mark and a dated gift can matter; no secret princess identity or automatic confiscation. The player may refuse to become an accomplice. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 65,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "A Scent Already Promised": {
+    "name": "A Scent Already Promised",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Béatrice Nerol",
+    "questLocation": "Opaline Arcade",
+    "questStatement": "A profitable order asks Béatrice to duplicate a blend she made privately for another patron.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Carry out an ethical or knowingly compromised actual commission or refusal that settles the immediate order.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For A Scent Already Promised, the participating party has actually done this: Carry out an ethical or knowingly compromised actual commission or refusal that settles the immediate order. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "A trade and confidentiality dispute can remain small and witty. Real materials and the actual agreed batch matter; a temporarily conjured flower does not become permanent ingredients. No need to expose a royal affair to finish a perfume order. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 50,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "The Song They Want to Hear": {
+    "name": "The Song They Want to Hear",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Raoul Chantrel",
+    "questLocation": "Velvet Lyre Hall",
+    "questStatement": "A sponsor has attached unwelcome conditions to the hall's next program.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Carry out an agreed performance, replacement funding, principled cancellation or consequential chosen compromise.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For The Song They Want to Hear, the participating party has actually done this: Carry out an agreed performance, replacement funding, principled cancellation or consequential chosen compromise. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "A bard has rent and wages to pay; courage does not make those costs disappear. A different patron may offer different strings. If the transfer-operation link is investigated, require evidence rather than treating a song as a confession. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 75,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "Below the Polished Streets": {
+    "name": "Below the Polished Streets",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Agathe Surn",
+    "questLocation": "Caelrath Sewers",
+    "questStatement": "A maintenance branch has been sealed before inspection, and the next high-water shift is approaching.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Inspect the actual obstruction and restore or establish a verified safe drainage arrangement for the crew.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For Below the Polished Streets, the participating party has actually done this: Inspect the actual obstruction and restore or establish a verified safe drainage arrangement for the crew. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "A bounded level-7–15 sewer job. Flood warnings and raised inspection walks precede the abandoned branch. One Drain Slime or a finite Copperback Rat nest can complicate the work; never an instant lethal swarm. Drinking water and sewage remain separate. Do not turn the outlet into a free secret entrance to the palace laboratory. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 85,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "Ardelis: Passage under Seal": {
+    "name": "Ardelis: Passage under Seal",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Reika Kurose",
+    "questLocation": "The Grand Sage's Court",
+    "questStatement": "A corroborated account of the receiving operation gives Glowhaven's court grounds to request a limited Ardelis inquiry.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Have Reika or the informed Glowhaven court representative authenticate a real bilateral Ardelis invitation and agree the named traveler’s purpose. Henri’s remote invitation may be verified by actual court correspondence; no prior Ardelis entry is needed.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "The informed Glowhaven court representative actually authenticates a genuine bilateral Ardelis invitation and grants this participating traveler a limited named sponsorship for a credible agreed purpose. Correspondence with Henri may establish the foreign authorization without prior Ardelis entry. The completed local relay case is sufficient grounds to request it, but merely owning evidence, status or an unverified letter is not issuance."
+    },
+    "questDesignBrief": "Available after A Second Receiving Station is completed, or on a separately credible diplomatic commission. Reika's independent investigation remains sufficient; visiting Vladimir is optional. No student expedition, forced recruitment or automatic crossing. Completion records permission, not proof against every royal. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "operator": "set",
+        "value": true,
+        "key": "arTransitAuthorized"
+      }
+    ]
+  },
+  "Ardelis: An Unhelpful Sponsor": {
+    "name": "Ardelis: An Unhelpful Sponsor",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Valkazathoth'dmir",
+    "questLocation": "Shadowspire",
+    "questStatement": "Vladimir can arrange a meeting with an Ardelis transit delegate, if he thinks the proposed journey warrants the bother.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Actually obtain Vladimir's agreement, then meet him and the authorized delegate at Evertree Base's Portal Room and receive verified sponsorship.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For Ardelis: An Unhelpful Sponsor, the participating party has actually done this: Actually obtain Vladimir's agreement, then meet him and the authorized delegate at Evertree Base's Portal Room and receive verified sponsorship. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "The wizard is independent. Agreement at Shadowspire arranges his own visit; it does not join him to the party. He may be impatient and fatherly without solving the investigation. This alternative need not be completed if the court route works. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "operator": "set",
+        "value": true,
+        "key": "arTransitAuthorized"
+      }
+    ]
+  },
+  "Rebirth: The Receiving Address": {
+    "name": "Rebirth: The Receiving Address",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Henri Valcour",
+    "questLocation": "Embassy Residences",
+    "questStatement": "The relay evidence names a receiving address in Caelrath. Henri can help establish what it actually receives.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Compare a genuine local delivery record with the relay evidence and identify the Old Receiving House's controlled patient transfers.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For Rebirth: The Receiving Address, the participating party has actually done this: Compare a genuine local delivery record with the relay evidence and identify the Old Receiving House's controlled patient transfers. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "Requires the completed A Second Receiving Station investigation. Noelle's location is learned through records or a real witness, not clairvoyant arrival. Pascal's weights, Nadine's account or a lawful records inquiry offer routes. No manufactured confession or automatic break-in. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 80,
+        "target": "allPlayers"
+      },
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "Rebirth: A Voice behind Glass"
+      },
+      {
+        "type": "item-add",
+        "item": "Receiving Transfer Record",
+        "quantity": 1,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "Rebirth: A Voice behind Glass": {
+    "name": "Rebirth: A Voice behind Glass",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Nadine Courbet",
+    "questLocation": "The Old Receiving House",
+    "questStatement": "A patient in the receiving house is being kept under a painful restraint. Her account may matter more than the court's description of her.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Establish Noelle's identity and communicate with her sufficiently to corroborate involuntary control, or recover equivalent direct medical evidence if contact is impossible.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For Rebirth: A Voice behind Glass, the participating party has actually done this: Establish Noelle's identity and communicate with her sufficiently to corroborate involuntary control, or recover equivalent direct medical evidence if contact is impossible. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "Noelle is an adult summoned woman from a nonmagical alternate Earth. She has twenty affinities but finite learned techniques. She can be frightened, angry or distrustful without being evil. Access needs permission, stealth or a real opening; do not spawn her in a public cafe. A failed rescue need not erase the evidence. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 100,
+        "target": "allPlayers"
+      },
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "Rebirth: The Command Circuit"
+      }
+    ]
+  },
+  "Rebirth: The Command Circuit": {
+    "name": "Rebirth: The Command Circuit",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Félicien Sorel",
+    "questLocation": "Court Wizard's Spire",
+    "questStatement": "The receiving apparatus has a command circuit. Its engineer may recognize a way to interrupt it without simply hurting its bearer.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Verify the clasp-to-relay relationship and acquire a feasible method for isolating or disabling the command link.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For Rebirth: The Command Circuit, the participating party has actually done this: Verify the clasp-to-relay relationship and acquire a feasible method for isolating or disabling the command link. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "Use a demonstrated instrument comparison, a genuine component, Félicien's testimony or a feasible alternative expert. Severin's tools do not give universal access. The clasp is not Noelle's soul. Do not make killing Noelle the default solution or let a persuasive line erase the machinery. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 120,
+        "target": "allPlayers"
+      },
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "Rebirth: When the Order Comes"
+      },
+      {
+        "type": "item-add",
+        "item": "Command Circuit Diagram",
+        "quantity": 1,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "Rebirth: When the Order Comes": {
+    "name": "Rebirth: When the Order Comes",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Noelle Ashford",
+    "questLocation": "The Old Receiving House",
+    "questStatement": "An armed deployment is being prepared. There may still be time to stop the order, release its unwilling subject or bring proof to someone able to intervene.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Resolve this actual deployment through disabling its command link, a carried-out protective intervention, escape with the subject, or another concrete prevention; preserve Noelle's fate.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For Rebirth: When the Order Comes, the participating party has actually done this: Resolve this actual deployment through disabling its command link, a carried-out protective intervention, escape with the subject, or another concrete prevention; preserve Noelle's fate. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "A confrontation is optional and dangerous, around levels 35-45. Commands do not erase her whole personality. If the player fights her, defeat can create an opening without requiring her death. Loss or retreat leaves the real situation unresolved, not secretly successful. Her later life belongs to her; rescue grants neither obedience nor romance. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 160,
+        "target": "allPlayers"
+      },
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "Rebirth: What the Crown Received"
+      },
+      {
+        "type": "write-boolean",
+        "operator": "set",
+        "value": true,
+        "key": "arDeploymentStopped"
+      }
+    ]
+  },
+  "Rebirth: What the Crown Received": {
+    "name": "Rebirth: What the Crown Received",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Hélène Vaudin",
+    "questLocation": "Caelrath Courthouse",
+    "questStatement": "The receiving operation needs an outcome beyond one broken device. Evidence can be delivered, suppressed, bargained over or made public.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Carry out a consequential disposition of corroborated receiving evidence and establish what becomes of the exposed operation.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For Rebirth: What the Crown Received, the participating party has actually done this: Carry out a consequential disposition of corroborated receiving evidence and establish what becomes of the exposed operation. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "The king authorized a war project, the queen concealed abuses, and Severin built control apparatus. Evidence supports particular claims, not omniscience. A lawful limited closure, protected disclosure, actual criminal bargain or knowingly compromised settlement can conclude with different consequences. Do not automatically overthrow the empire. Ardelis and the royal family remain playable afterward. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 200,
+        "target": "allPlayers"
+      },
+      {
+        "type": "write-boolean",
+        "operator": "set",
+        "value": true,
+        "key": "arReceivingConcluded"
+      }
+    ]
+  },
+  "Below the Crown: A Missing Assistant": {
+    "name": "Below the Crown: A Missing Assistant",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Léonie Sorel",
+    "questLocation": "Caelrath Institute of Magic",
+    "questStatement": "A laboratory assistant has missed work, and an institute instrument appears on a palace delivery list.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Trace the assistant's actual transfer and obtain a credible route to investigate the lower palace, or secure their release by an alternative intervention.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For Below the Crown: A Missing Assistant, the participating party has actually done this: Trace the assistant's actual transfer and obtain a credible route to investigate the lower palace, or secure their release by an alternative intervention. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "Independent of the Rebirth origin. Céleste, Thibaut and instrument records offer different partial facts. A royal invitation can authorize an inspection; stealth or a real service opening can work. No magic key drops from an unrelated rat. This opens a dangerous optional descent, not a mandatory royal audience. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 80,
+        "target": "allPlayers"
+      },
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "Below the Crown: The Cooling Galleries"
+      }
+    ]
+  },
+  "Below the Crown: The Cooling Galleries": {
+    "name": "Below the Crown: The Cooling Galleries",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Félicien Sorel",
+    "questLocation": "Caelrath Palace",
+    "questStatement": "The lower apparatus draws power through cooling conduits beneath the royal rooms.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Actually inspect and make the cooling feed and warded crossing safe enough for a feasible approach to the Resonance Cradle.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For Below the Crown: The Cooling Galleries, the participating party has actually done this: Actually inspect and make the cooling feed and warded crossing safe enough for a feasible approach to the Resonance Cradle. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "Receiving Cellar -> Calibration Gallery -> Cooling Vault -> Warded Crossing -> Resonance Cradle. Use physical inspection and technical work, lawful shutdown, stolen operating knowledge or a genuinely successful alternative. Two guards defeated do not repair a circuit. Retreat and earlier discoveries persist. The experimental boss is level 45; signs precede the last crossing. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 120,
+        "target": "allPlayers"
+      },
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "Below the Crown: The Unfinished Sovereign"
+      },
+      {
+        "type": "write-boolean",
+        "operator": "set",
+        "value": true,
+        "key": "arLowerReady"
+      }
+    ]
+  },
+  "Below the Crown: The Unfinished Sovereign": {
+    "name": "Below the Crown: The Unfinished Sovereign",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Félicien Sorel",
+    "questLocation": "Caelrath Palace",
+    "questStatement": "Something suspended in the Resonance Cradle is answering in several voices.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "End the active danger of Thaurivex through actual defeat or a workable containment and regulator shutdown, preserving its fate and those affected.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For Below the Crown: The Unfinished Sovereign, the participating party has actually done this: End the active danger of Thaurivex through actual defeat or a workable containment and regulator shutdown, preserving its fate and those affected. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "Thaurivex is one persistent experimental construct, not a deity or a respawning type. Its damaged diadem regulates bound war-spirit fragments. Technical containment can end danger without killing; the physical diadem is recovered only after safely disabling or defeating it. The separate typed recovery rule owns that one inventory award. No trophy is promised for leaving it active. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 180,
+        "target": "allPlayers"
+      },
+      {
+        "type": "write-boolean",
+        "operator": "set",
+        "value": true,
+        "key": "arCradleResolved"
+      }
+    ]
+  },
+  "The Star behind the Veil": {
+    "name": "The Star behind the Veil",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Laurent Bellegarde",
+    "questLocation": "Starfall Cathedral",
+    "questStatement": "A missing pilgrim's family has received a strange private invitation to a vigil.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Find corroborated evidence of where the private vigil leads and decide whom to warn.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For The Star behind the Veil, the participating party has actually done this: Find corroborated evidence of where the private vigil leads and decide whom to warn. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "Sabine's inner circle seeks physical communion with Astraeon. Ordinary church members are not collectively guilty. Odette's supplies and Étienne's rota provide clues, not the whole answer. The cult can be investigated without joining it. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 60,
+        "target": "allPlayers"
+      },
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Vessel's Consent"
+      }
+    ]
+  },
+  "The Vessel's Consent": {
+    "name": "The Vessel's Consent",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Sabine Mauclerc",
+    "questLocation": "Vesper Bell Cloister",
+    "questStatement": "A private devotional group offers an extraordinary rite to a willing visitor.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Investigate the actual rite and carry out an informed decision about its endangered participants, exposing, interrupting or deliberately assisting it.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For The Vessel's Consent, the participating party has actually done this: Investigate the actual rite and carry out an informed decision about its endangered participants, exposing, interrupting or deliberately assisting it. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "Ansel recruits vulnerable adults and misrepresents risks. Sabine sincerely believes coercion can prepare a divine vessel. No child sacrifice, gratuitous spectacle or automatic supernatural transformation. A public lecture is not admission to the inner rite. Joining can reveal culpability without making every cult member a combatant. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 110,
+        "target": "allPlayers"
+      },
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Shape of a Miracle"
+      }
+    ]
+  },
+  "The Shape of a Miracle": {
+    "name": "The Shape of a Miracle",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Laurent Bellegarde",
+    "questLocation": "Starwatch Isle",
+    "questStatement": "Unscheduled visitors have been landing at a closed shore shrine.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Resolve the active unlawful rite through a performed interruption, protective evacuation, negotiated dispersal backed by real leverage, or a consequential chosen alternative.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For The Shape of a Miracle, the participating party has actually done this: Resolve the active unlawful rite through a performed interruption, protective evacuation, negotiated dispersal backed by real leverage, or a consequential chosen alternative. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "The cult uses a diverted lens and a small spirit-binding apparatus. Astraeon's existence does not mean the rite can compel him. Record survivors, materials and promises; do not announce all religion fraudulent or make the criminal organization secretly responsible for everything. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 150,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "The Weight of Empty Sacks": {
+    "name": "The Weight of Empty Sacks",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Lucille Montrevel",
+    "questLocation": "House Montrevel Estate",
+    "questStatement": "Tenants' deliveries and the estate's grain totals do not agree.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Carry out a supported settlement of the grain discrepancy, with an actual correction, restitution, report or knowing private bargain.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For The Weight of Empty Sacks, the participating party has actually done this: Carry out a supported settlement of the grain discrepancy, with an actual correction, restitution, report or knowing private bargain. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "Hector double-pledged stored grain; not all shortfall is theft by workers. Arlette and Simon hold partial figures. Lucille can oppose her uncle without instantly inheriting the house. Failed persuasion does not delete the books. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 90,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "Water for the Lower Steps": {
+    "name": "Water for the Lower Steps",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Coralie Brissot",
+    "questLocation": "Eastwater Locks",
+    "questStatement": "Lower households are losing water while ornamental channels run clear.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Identify the physical diversion and establish an actual safe restoration or agreed workable supply plan.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For Water for the Lower Steps, the participating party has actually done this: Identify the physical diversion and establish an actual safe restoration or agreed workable supply plan. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "The reservoir closure began as a real safety decision; the later unequal allocation is political. René and Clément can disagree without either being an idiot. Do not open a damaged feeder recklessly or turn a public-works problem into a compulsory murder plot. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 85,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "A Daughter's Guarantee": {
+    "name": "A Daughter's Guarantee",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Marcel Dalcourt",
+    "questLocation": "House Dalcourt Counting House",
+    "questStatement": "Marcel's private guarantees may put other people's wages at risk.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Resolve the actual guarantees through disclosure, renegotiation, repayment, supported repudiation or another performed settlement.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For A Daughter's Guarantee, the participating party has actually done this: Resolve the actual guarantees through disclosure, renegotiation, repayment, supported repudiation or another performed settlement. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "Julienne values explicit terms, not sentimental forgiveness. Marcel acted from vanity and hope. Protecting him at someone else's cost is a real choice; no magical debt erasure or second invented currency. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 100,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "The Unpaid Uniforms": {
+    "name": "The Unpaid Uniforms",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Aimée Tern",
+    "questLocation": "Tern Thread Tailors",
+    "questStatement": "A noble household has accepted its uniforms without paying the workers.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Secure the actual agreed payment, recovery of goods, or a credible enforceable settlement.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For The Unpaid Uniforms, the participating party has actually done this: Secure the actual agreed payment, recovery of goods, or a credible enforceable settlement. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "A small practical dispute can stay small. A fitting error gives the debtor a real bargaining point. Preserve apprentices' wages and who accepts which compromise; no hidden cult required. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 40,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "The Borrowed Finale": {
+    "name": "The Borrowed Finale",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Cyrille Fable",
+    "questLocation": "Lantern House Theatre",
+    "questStatement": "Two performers are arguing over the same finishing illusion.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Help carry out a genuine credit, compensation or separate performance agreement.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For The Borrowed Finale, the participating party has actually done this: Help carry out a genuine credit, compensation or separate performance agreement. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "Cyrille stole part of the trick and still worked hard on the show. Let an apology be awkward. No requirement to humiliate either performer or force friendship. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 35,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "An Address That Never Was": {
+    "name": "An Address That Never Was",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Madeleine Sève",
+    "questLocation": "Civic Records Hall",
+    "questStatement": "A claim on a Southbank wash yard cites a street number that no longer exists.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Establish the valid boundary with actual evidence and carry out a settlement or proper challenge.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For An Address That Never Was, the participating party has actually done this: Establish the valid boundary with actual evidence and carry out a settlement or proper challenge. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "The obsolete number is a real clue, not a puzzle requiring six stamps. Lydie and her neighbors want use of the yard, not a title to the entire ward. Keep ownership records specific. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 55,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "The Price of a Quiet Table": {
+    "name": "The Price of a Quiet Table",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Estelle Vaul",
+    "questLocation": "Sable Ribbon Club",
+    "questStatement": "A trader would like a debt problem handled somewhere less public.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Resolve the agreed debt dispute through a carried-out payment, bargain, exposure or supported refusal.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For The Price of a Quiet Table, the participating party has actually done this: Resolve the agreed debt dispute through a carried-out payment, bargain, exposure or supported refusal. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "Glass Knives have their own ledger and leverage. Lucan may prefer a profitable settlement over violence; Rémy's unauthorized fees are a separate vulnerability. Criminal work is optional and may have victims. Do not recruit the whole club or reward threats without an actual result. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 75,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "Cargo with No Windows": {
+    "name": "Cargo with No Windows",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Pascal Reeve",
+    "questLocation": "Eastwater Bonded Warehouse",
+    "questStatement": "A sealed priority load weighs less than its new invoice claims.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Determine what was actually transported and carry out the agreed report, safe release or knowing concealment.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For Cargo with No Windows, the participating party has actually done this: Determine what was actually transported and carry out the agreed report, safe release or knowing concealment. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "The cargo is receiving equipment and a prior hidden passenger transfer, not an unlimited people crate. Real records and Hugo's landing observation can corroborate it. Refusal, bribery and lawful reporting have different costs. Protect witnesses rather than spawning an ambush on every question. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 100,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "A Knife in the Account": {
+    "name": "A Knife in the Account",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Lucan Voss",
+    "questLocation": "Sable Ribbon Club",
+    "questStatement": "Lucan wants to know why traders are paying fees his own books never received.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Resolve Rémy's unauthorized collection scheme with an actual accounting, restitution, exposure or consequential arrangement.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For A Knife in the Account, the participating party has actually done this: Resolve Rémy's unauthorized collection scheme with an actual accounting, restitution, exposure or consequential arrangement. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "Lucan is a criminal with selective loyalties. Helping him can make him stronger; he need not become benevolent. Rémy is a cowardly bully rather than a secret final boss. The player may inform the watch instead. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 95,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "The Closed Transfer": {
+    "name": "The Closed Transfer",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Régine Vossard",
+    "questLocation": "Crown Remand House",
+    "questStatement": "A remand prisoner has been requested by an office that will not sign for receipt.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Secure a real decision on the disputed transfer using evidence, an enforceable hold, actual release or another chosen intervention.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For The Closed Transfer, the participating party has actually done this: Secure a real decision on the disputed transfer using evidence, an enforceable hold, actual release or another chosen intervention. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "Régine has refused so far; she has not secretly freed everyone. Corvin and Hélène have limited powers and risks. Mere possession of a forged order is not legal authority. No automatic Wraith Island custody for Ardelis offenses; the existing Glowhaven system stays scoped. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 90,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "The Wrong Room at the Inn": {
+    "name": "The Wrong Room at the Inn",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Florent Bard",
+    "questLocation": "Ashwillow Inn",
+    "questStatement": "Two guests have claims on one trunk and neither is paying the bill.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Settle actual ownership and the agreed storage charge or another accepted arrangement.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For The Wrong Room at the Inn, the participating party has actually done this: Settle actual ownership and the agreed storage charge or another accepted arrangement. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "One claim is mistaken rather than malicious. Let testimony, contents and ordinary compromise work. Do not make every lost trunk a royal evidence chest. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 25,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "The Lens in the Fog": {
+    "name": "The Lens in the Fog",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Odile Caron",
+    "questLocation": "Crownlight Lighthouse",
+    "questStatement": "The lighthouse lens has a flaw, and a fog bank is gathering outside.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Get the lamp reliably working or arrange a real temporary signal adequate for the channel.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For The Lens in the Fog, the participating party has actually done this: Get the lamp reliably working or arrange a real temporary signal adequate for the channel. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "A technical and maritime job. Faulty supply, a replacement, or a supported temporary signal can work. Do not borrow Glowhaven's mechanical weather state; use Ardelis's actual conditions. A working lamp does not make all sea routes safe. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 65,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "A Share before the Dive": {
+    "name": "A Share before the Dive",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Roxane Marot",
+    "questLocation": "The Chainbreak Docks",
+    "questStatement": "A salvage crew needs a sound agreement and one more capable hand before entering a wreck.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Complete the agreed bounded salvage and actual division of recovered goods, or perform a consequential safe recovery of the endangered crew.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For A Share before the Dive, the participating party has actually done this: Complete the agreed bounded salvage and actual division of recovered goods, or perform a consequential safe recovery of the endangered crew. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "Agree shares before diving. The target is specific cargo, not the whole ocean. Sévérine's rival chart may help but remains someone else's property. A retreat after saving someone can merit agreed rescue pay without pretending the salvage succeeded. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 110,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "The Bell below the Hull": {
+    "name": "The Bell below the Hull",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Sévérine Morn",
+    "questLocation": "The Sunken Bell",
+    "questStatement": "A wreck's bell can be heard when the lower current turns.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Investigate the actual source and resolve the dangerous snag or spirit remnant within the agreed scope.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For The Bell below the Hull, the participating party has actually done this: Investigate the actual source and resolve the dangerous snag or spirit remnant within the agreed scope. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "A trapped bell frame and one frightened residual voice can coexist. Neither all ghosts nor every shipwreck needs a grand curse. Magical and practical approaches both work; safe partial findings can change the commission honestly. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 120,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "The Prince of Good Footwork": {
+    "name": "The Prince of Good Footwork",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Gabrielle Fane",
+    "questLocation": "The King's Lists",
+    "questStatement": "A boastful client wants a public demonstration that the training floor's rules apply to everyone.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Complete a consensual regulated demonstration, teaching exercise or agreed alternative resolution.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For The Prince of Good Footwork, the participating party has actually done this: Complete a consensual regulated demonstration, teaching exercise or agreed alternative resolution. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "The nickname is a joke about the client, not a new royal son. Friendly bouts are nonlethal even in Permadeath. No championship entry or Crucible state is created here. A real loss is a result, not a quest failure by default. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 35,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "An Experiment with Witnesses": {
+    "name": "An Experiment with Witnesses",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Olivier Nacre",
+    "questLocation": "Caelrath Institute of Magic",
+    "questStatement": "The institute has an open demonstration slot for a modest, testable question.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Actually conduct a feasible observed experiment and discuss the result honestly, including a genuine failed hypothesis.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For An Experiment with Witnesses, the participating party has actually done this: Actually conduct a feasible observed experiment and discuss the result honestly, including a genuine failed hypothesis. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "Use real learned abilities and available materials. Spell invention uses Spellcraft, casting uses its discipline. Denis and Léonie work on their own projects and may bicker; they do not orbit the visitor. No automatic graduation or free new spell. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 40,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "The Missing Lens": {
+    "name": "The Missing Lens",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Denis Ravel",
+    "questLocation": "Caelrath Institute of Magic",
+    "questStatement": "Denis borrowed a lens and cannot return it before the demonstration.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Recover or replace the actual lens and settle the borrowing honestly enough for its owner to agree.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For The Missing Lens, the participating party has actually done this: Recover or replace the actual lens and settle the borrowing honestly enough for its owner to agree. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "The lens is in a shared preparation cupboard under a different experiment tag. A short campus problem, not the cult lens. Do not conflate every optical instrument with the receiving project. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 25,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "The Copyist's Margin": {
+    "name": "The Copyist's Margin",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Émilie Sable",
+    "questLocation": "Palewick Bookshop",
+    "questStatement": "An enthusiastic buyer wants one damaged marginal note more than the book around it.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Determine the note's practical value and carry out an agreed sale, return or preservation decision.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For The Copyist's Margin, the participating party has actually done this: Determine the note's practical value and carry out an agreed sale, return or preservation decision. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "It records a historical water remedy, not a universal spell or royal confession. A careful local scholar can verify it. The bookseller retains a say over her stock. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 30,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "One Sound Bridge": {
+    "name": "One Sound Bridge",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Matthieu Fen",
+    "questLocation": "Crownwater Aqueduct",
+    "questStatement": "A survey sign-off was made before the underside was checked.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Complete a safe inspection and carry out a supported repair, closure or correction of the sign-off.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For One Sound Bridge, the participating party has actually done this: Complete a safe inspection and carry out a supported repair, closure or correction of the sign-off. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "The bridge remains standing; do not collapse it on arrival for drama. Workers have expertise. A limited closure can be the correct success even when a merchant complains. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 55,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "The Mews after Midnight": {
+    "name": "The Mews after Midnight",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Alix Perrault",
+    "questLocation": "Royal Hawk Mews",
+    "questStatement": "A messenger has been using the mews after its attendants leave.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Identify the unauthorized use and establish an actual safe arrangement or supported report.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For The Mews after Midnight, the participating party has actually done this: Identify the unauthorized use and establish an actual safe arrangement or supported report. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "The messenger is carrying private adult correspondence, not a child or disguised monster. Adrien's involvement can complicate discretion without revealing the whole queen conspiracy. Keep the birds out of violence. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 45,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "A Gardener's Petition": {
+    "name": "A Gardener's Petition",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Berthe Lenoir",
+    "questLocation": "Terrace Gardeners' Lodge",
+    "questStatement": "Rare rootstock keeps leaving the beds under a signature no gardener has verified.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Resolve the removal with the true authorized owner and a real return, replacement or accountable order.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For A Gardener's Petition, the participating party has actually done this: Resolve the removal with the true authorized owner and a real return, replacement or accountable order. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "The queen wants her roses at the expense of public beds. This is selfish court privilege, not necessarily the laboratory. Odette can dislike it without becoming a revolutionary. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 45,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "The Performance Must Be Paid": {
+    "name": "The Performance Must Be Paid",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Mirette Aurel",
+    "questLocation": "Caelrath Amphitheatre",
+    "questStatement": "A performance is due, but the promised wages have not arrived.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Secure the owed wages or an actual agreement the performers freely accept before the show proceeds or is canceled.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For The Performance Must Be Paid, the participating party has actually done this: Secure the owed wages or an actual agreement the performers freely accept before the show proceeds or is canceled. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "A cancellation can be a legitimate outcome. Do not make the player subsidize the rich patron by default. Elise may help but has her own rehearsal and reputation. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 50,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "The Doctor's Refusal": {
+    "name": "The Doctor's Refusal",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Edmée Mott",
+    "questLocation": "Mortar and Moss Apothecary",
+    "questStatement": "A well-dressed client asked for a mixture whose use sounded wrong.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Investigate the immediate risk and carry out a credible warning, report or safe refusal that protects the intended patient.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For The Doctor's Refusal, the participating party has actually done this: Investigate the immediate risk and carry out a credible warning, report or safe refusal that protects the intended patient. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "No recipe for real harmful substances. The client is seeking silence in a commercial dispute; tie to existing evidence only if actually established. The apothecary can refuse without demanding a vigilante execution. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 55,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "Guild: Beetles in the Orchard": {
+    "name": "Guild: Beetles in the Orchard",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Aveline Marchand",
+    "questLocation": "Adventurer's Guild - Caelrath Branch",
+    "questStatement": "Bronze work: Anaïs needs the orchard's young trees protected from a small pest outbreak. Posted reward: 35 marks.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Remove or redirect the actual orchard pests and confirm the agreed young trees are safe.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For Guild: Beetles in the Orchard, the participating party has actually done this: Remove or redirect the actual orchard pests and confirm the agreed young trees are safe. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "Suggested levels 1-4. Start with one Orchard Gnawer at weak tier, successBonus -20, damageModifier -45, healthMultiplier 0.65, no surprise swarm. Practical removal and noncombat solutions count. No taxes, guild cut or portal license. One native completion pays the posted reward and service credit. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 35,
+        "target": "allPlayers"
+      },
+      {
+        "type": "item-add",
+        "item": "Guild Service Credit",
+        "quantity": 1,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "Guild: A Cellar That Rustles": {
+    "name": "Guild: A Cellar That Rustles",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Aveline Marchand",
+    "questLocation": "Adventurer's Guild - Caelrath Branch",
+    "questStatement": "Bronze work: Threadneedle Bakery's storage cellar has a persistent scratching problem. Posted reward: 30 marks.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Clear the actual cellar infestation and make the agreed grain storage usable.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For Guild: A Cellar That Rustles, the participating party has actually done this: Clear the actual cellar infestation and make the agreed grain storage usable. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "Suggested levels 1-3. One Cellar Grain Rat initially; no hidden elite or lethal ambush. Blocking the entry and humane trapping can count. Client verification can be a brief real check, not another bureaucracy quest. Return travel optional unless agreed. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 30,
+        "target": "allPlayers"
+      },
+      {
+        "type": "item-add",
+        "item": "Guild Service Credit",
+        "quantity": 1,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "Guild: The Millrace Screen": {
+    "name": "Guild: The Millrace Screen",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Aveline Marchand",
+    "questLocation": "Adventurer's Guild - Caelrath Branch",
+    "questStatement": "Bronze work: Arlette's millrace screen is jammed, and she needs someone who can work safely around water. Posted reward: 40 marks.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Safely clear the screen and restore the agreed millrace operation.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For Guild: The Millrace Screen, the participating party has actually done this: Safely clear the screen and restore the agreed millrace operation. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "Suggested levels 1-5. Water and machinery are the problem; a fight is not required. Do not add an aquatic boss to make a beginner job interesting. Arlette closes the feed before hands go near the gear. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 40,
+        "target": "allPlayers"
+      },
+      {
+        "type": "item-add",
+        "item": "Guild Service Credit",
+        "quantity": 1,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "Guild: A Parcel over Westbridge": {
+    "name": "Guild: A Parcel over Westbridge",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Aveline Marchand",
+    "questLocation": "Adventurer's Guild - Caelrath Branch",
+    "questStatement": "Bronze work: Loïc has a fitted buckle to deliver to the hospice. Posted reward: 25 marks.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Deliver Loïc's correctly identified buckle to the hospice's actual recipient and establish receipt.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For Guild: A Parcel over Westbridge, the participating party has actually done this: Deliver Loïc's correctly identified buckle to the hospice's actual recipient and establish receipt. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "Suggested levels 1-4. An ordinary delivery can stay ordinary. A short route choice and an impatient customer provide texture without bandits. No mandatory report beyond proof actually agreed. No badge or key payout. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 25,
+        "target": "allPlayers"
+      },
+      {
+        "type": "item-add",
+        "item": "Guild Service Credit",
+        "quantity": 1,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "Guild: Loose Tile, Busy Steps": {
+    "name": "Guild: Loose Tile, Busy Steps",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Aveline Marchand",
+    "questLocation": "Adventurer's Guild - Caelrath Branch",
+    "questStatement": "Bronze work: a loose roof tile over Chapel Steps threatens the flower stalls. Posted reward: 45 marks.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Secure the hazard and complete the agreed repair or safe closure with the owner.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For Guild: Loose Tile, Busy Steps, the participating party has actually done this: Secure the hazard and complete the agreed repair or safe closure with the owner. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "Suggested levels 3-7. Work from a supported position and keep pedestrians clear. No free magical flying or automatic injury. A hired qualified helper is legitimate if shares are agreed. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 45,
+        "target": "allPlayers"
+      },
+      {
+        "type": "item-add",
+        "item": "Guild Service Credit",
+        "quantity": 1,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "Guild: Something in the Culvert": {
+    "name": "Guild: Something in the Culvert",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Aveline Marchand",
+    "questLocation": "Adventurer's Guild - Caelrath Branch",
+    "questStatement": "Bronze work: a culvert inspection stopped at fresh tracks and an unpleasant smell. Posted reward: 70 marks.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Complete the bounded inspection and resolve the blocked passage safely enough for the work crew.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For Guild: Something in the Culvert, the participating party has actually done this: Complete the bounded inspection and resolve the blocked passage safely enough for the work crew. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "Suggested levels 7-12. One Culvert Scavenger, with a visible warning and retreat. It is a territorial animal drawn by waste, not a secret experiment. Do not replace a withdrawing beginner's opponent with a level-30 guard. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 70,
+        "target": "allPlayers"
+      },
+      {
+        "type": "item-add",
+        "item": "Guild Service Credit",
+        "quantity": 1,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "Guild: The Quarry's Empty Face": {
+    "name": "Guild: The Quarry's Empty Face",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Aveline Marchand",
+    "questLocation": "Adventurer's Guild - Caelrath Branch",
+    "questStatement": "Bronze work: Bruno needs an old cut checked before any new anchors go in. Posted reward: 80 marks.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Survey the specified old quarry face and resolve the immediate danger or report a verified closure.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For Guild: The Quarry's Empty Face, the participating party has actually done this: Survey the specified old quarry face and resolve the immediate danger or report a verified closure. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "Suggested levels 8-15. One Quarry Skitter or unstable ledge; do not require both by default. An accurate no-go report is useful work, not a failure to fight. No forced royal investigation. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 80,
+        "target": "allPlayers"
+      },
+      {
+        "type": "item-add",
+        "item": "Guild Service Credit",
+        "quantity": 1,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "Guild: Ropes across Cold Water": {
+    "name": "Guild: Ropes across Cold Water",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Aveline Marchand",
+    "questLocation": "Adventurer's Guild - Caelrath Branch",
+    "questStatement": "Bronze work: a damaged service rope has left island supplies waiting on shore. Posted reward: 90 marks.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Restore a safe temporary supply crossing or actually deliver the agreed essential load by another sound means.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For Guild: Ropes across Cold Water, the participating party has actually done this: Restore a safe temporary supply crossing or actually deliver the agreed essential load by another sound means. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "Suggested levels 10-16. Real weather and tide apply. Hostile creatures are optional, not guaranteed on every crossing. The lighthouse keeper has her own boat knowledge and can disagree with a reckless plan. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 90,
+        "target": "allPlayers"
+      },
+      {
+        "type": "item-add",
+        "item": "Guild Service Credit",
+        "quantity": 1,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "Guild: Glass That Walks": {
+    "name": "Guild: Glass That Walks",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Aveline Marchand",
+    "questLocation": "Adventurer's Guild - Caelrath Branch",
+    "questStatement": "Silver work: animated waste from a damaged workshop is making an alley unsafe. Posted reward: 130 marks.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Disable or contain the actual Glass Shardlings and make the specified alley safe.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For Guild: Glass That Walks, the participating party has actually done this: Disable or contain the actual Glass Shardlings and make the specified alley safe. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "Suggested levels 15-22; Silver badge. A malfunctioning local enchantment has an owner and a shutoff. Do not turn broken glass into unlimited autonomous monsters. No civilian mob damage or extra attacks outside supplied outcomes. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 130,
+        "target": "allPlayers"
+      },
+      {
+        "type": "item-add",
+        "item": "Guild Service Credit",
+        "quantity": 1,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "Guild: A Sound from the Intake": {
+    "name": "Guild: A Sound from the Intake",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Aveline Marchand",
+    "questLocation": "Adventurer's Guild - Caelrath Branch",
+    "questStatement": "Silver work: an intake crew hears movement where nobody should be working. Posted reward: 160 marks.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Investigate the specified intake passage and resolve its immediate hazard or arrange a verified safe closure.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For Guild: A Sound from the Intake, the participating party has actually done this: Investigate the specified intake passage and resolve its immediate hazard or arrange a verified safe closure. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "Suggested levels 18-27; Silver badge. An Intake Crawler feeds on mineral buildup. Equipment is dangerous even after the animal leaves. Study, luring and actual containment can solve it without destroying civic waterworks. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 160,
+        "target": "allPlayers"
+      },
+      {
+        "type": "item-add",
+        "item": "Guild Service Credit",
+        "quantity": 1,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "Guild: The Drowned Cargo": {
+    "name": "Guild: The Drowned Cargo",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Aveline Marchand",
+    "questLocation": "Adventurer's Guild - Caelrath Branch",
+    "questStatement": "Silver work: an insured medical load rests in a documented wreck. Posted reward: 190 marks.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Recover the agreed medical cargo or complete a genuine rescue and separately agreed alternative settlement.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For Guild: The Drowned Cargo, the participating party has actually done this: Recover the agreed medical cargo or complete a genuine rescue and separately agreed alternative settlement. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "Suggested levels 22-32; Silver badge. Wreck access, salvage ownership and air matter. Drowned Harnesses can guard one inner compartment; never spawn Thaurivex in the sea. Do not promise a successful dive merely for accepting. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 190,
+        "target": "allPlayers"
+      },
+      {
+        "type": "item-add",
+        "item": "Guild Service Credit",
+        "quantity": 1,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "Guild: The Empty Escort Road": {
+    "name": "Guild: The Empty Escort Road",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Aveline Marchand",
+    "questLocation": "Adventurer's Guild - Caelrath Branch",
+    "questStatement": "Gold work: a recent escort vanished near the outer viaduct. Posted reward: 240 marks.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Establish the escort's actual fate and resolve the immediate threat to the commissioned road or a verified protective reroute.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For Guild: The Empty Escort Road, the participating party has actually done this: Establish the escort's actual fate and resolve the immediate threat to the commissioned road or a verified protective reroute. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "Suggested levels 28-38; Gold badge. Armed deserters have a finite camp and conflicting loyalties. The escort's disappearance need not be the receiving project. Negotiation with accountable terms, defeat or a sound reroute may work. Telegraph danger before engagement. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 240,
+        "target": "allPlayers"
+      },
+      {
+        "type": "item-add",
+        "item": "Guild Service Credit",
+        "quantity": 1,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "Guild: A Ward with Teeth": {
+    "name": "Guild: A Ward with Teeth",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Aveline Marchand",
+    "questLocation": "Adventurer's Guild - Caelrath Branch",
+    "questStatement": "Gold work: a decommissioned civic ward is resisting dismantling. Posted reward: 280 marks.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Actually disable or safely isolate the specified Crown Ward Sentinel so workers can finish their job.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For Guild: A Ward with Teeth, the participating party has actually done this: Actually disable or safely isolate the specified Crown Ward Sentinel so workers can finish their job. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "Suggested levels 32-42; Gold badge. An old guard construct has a bounded post and real control plate. It is not a royal assassination machine. Readable warnings and a retreat path precede its active range. Technical work and a willing specialist count. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 280,
+        "target": "allPlayers"
+      },
+      {
+        "type": "item-add",
+        "item": "Guild Service Credit",
+        "quantity": 1,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "Rumor: Work beneath the Stars": {
+    "name": "Rumor: Work beneath the Stars",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Jeanne Coeur",
+    "questLocation": "The Wayfarers' Hostel",
+    "questStatement": "Rumor has it the Caelrath guild takes local requests, and several neighbors need a capable pair of hands.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Follow up one suggested local opportunity in person, or choose a real alternative foothold in the capital.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For Rumor: Work beneath the Stars, the participating party has actually done this: Follow up one suggested local opportunity in person, or choose a real alternative foothold in the capital. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "An optional direction, not a forced guild visit or automatically accepted contract. No payment for hearing a rumor. Do not add multiple board quests just because a newcomer asked what work exists. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": []
+  },
+  "Rumor: A Room and a Living": {
+    "name": "Rumor: A Room and a Living",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Camille Vane",
+    "questLocation": "Valleygate Lodgings",
+    "questStatement": "There are rooms to rent and useful work in the lower wards, if you ask the people who live there.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Actually establish lodging, paid work, study or another recurring local arrangement of the player's choice.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For Rumor: A Room and a Living, the participating party has actually done this: Actually establish lodging, paid work, study or another recurring local arrangement of the player's choice. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "Suggestion only. Respect refusal and existing background. An agreement creates only its actual access and costs. Housing keys use the existing specific-address key convention, not a stack of authored generic deeds. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": []
+  },
+  "A Table for Everyone": {
+    "name": "A Table for Everyone",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Margot Fenn",
+    "questLocation": "The Common Table",
+    "questStatement": "The kitchen needs one ordinary meal brought together before supper.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Actually obtain, prepare or arrange the agreed practical contribution and serve the meal.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For A Table for Everyone, the participating party has actually done this: Actually obtain, prepare or arrange the agreed practical contribution and serve the meal. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "A short warm undertaking. Ingredients remain real inventory, one shared handover, no payment for conjured temporary food. The queen need not threaten a soup kitchen to make it matter. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 30,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "The Note in the Pocket": {
+    "name": "The Note in the Pocket",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Ninon Bell",
+    "questLocation": "Threadneedle Bakery",
+    "questStatement": "A delivery note was left in the wrong coat and a customer is waiting.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Get the real note to its owner and settle the immediate mistaken delivery.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For The Note in the Pocket, the participating party has actually done this: Get the real note to its owner and settle the immediate mistaken delivery. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "An everyday mistake, not a secret conspiracy. Let neighbors argue and laugh without orbiting the player. A brief errand can conclude in one actual exchange. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 20,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "An Honest Temper": {
+    "name": "An Honest Temper",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Gérald Stone",
+    "questLocation": "Stonehearth Smithy",
+    "questStatement": "Counterfeit blades are carrying Gérald's maker's mark.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Identify the actual copied mark and carry out a real correction, recovery, public warning or enforceable stop.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For An Honest Temper, the participating party has actually done this: Identify the actual copied mark and carry out a real correction, recovery, public warning or enforceable stop. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "There is a dishonest reseller, not an endless forged-weapon factory. Loïc can compare the work. A sound repair must change an actual item, never claim invented bonus upgrades outside native limits. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 70,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "A Roof before Rain": {
+    "name": "A Roof before Rain",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Camille Vane",
+    "questLocation": "Valleygate Lodgings",
+    "questStatement": "A landlord's agent says everyone must leave for repairs, but no repair crew has been booked.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Establish the real repair need and carry out a safe, agreed housing arrangement or supported challenge.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For A Roof before Rain, the participating party has actually done this: Establish the real repair need and carry out a safe, agreed housing arrangement or supported challenge. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "The roof really needs work; the emergency is exaggerated for eviction. Existing tenants have interests. No free property grant or invented ownership because the player mediated. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 60,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "The Fallen Practice Banner": {
+    "name": "The Fallen Practice Banner",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Yselle Mornay",
+    "questLocation": "Ivory Guard Barracks",
+    "questStatement": "A damaged practice banner has become an argument about whose training group is careless.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Resolve the actual equipment damage and agreed responsibility through inspection and repair or replacement.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For The Fallen Practice Banner, the participating party has actually done this: Resolve the actual equipment damage and agreed responsibility through inspection and repair or replacement. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "A small military-household scene. A genuine accident and a boastful recruit are enough. No stolen military secrets or lethal disciplinary duel. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 35,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "The Island Guest": {
+    "name": "The Island Guest",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Gaël Sere",
+    "questLocation": "Starwatch Isle",
+    "questStatement": "A frightened visitor has been sleeping in an unused shore shelter.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Establish what help or boundary is actually needed and carry out a humane settlement or safe supported handover.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For The Island Guest, the participating party has actually done this: Establish what help or boundary is actually needed and carry out a humane settlement or safe supported handover. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "The visitor is an adult debtor, not automatically a cultist. Gaël has limited shelter space and is not obliged to hide a dangerous person. Preserve consent, actual wrongdoing and local jurisdiction. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 45,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "The Price of Good Timber": {
+    "name": "The Price of Good Timber",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Maude Tellier",
+    "questLocation": "Saltgull Shipwrights",
+    "questStatement": "A rich patron wants a boat signed seaworthy before the work is finished.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Reach an actual safe outcome: finish sound repairs, postpone the launch or enforce a supported refusal.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For The Price of Good Timber, the participating party has actually done this: Reach an actual safe outcome: finish sound repairs, postpone the launch or enforce a supported refusal. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "No compulsory bribe or shipwreck. The patron wants a ceremony and may accept an honest alternative if it saves face. Equipment quality follows actual repairs, not dialogue alone. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 60,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "The Player of Small Parts": {
+    "name": "The Player of Small Parts",
+    "status": "planned",
+    "detailType": "detailed",
+    "conclusive": true,
+    "questSource": "Mireille Orselle",
+    "questLocation": "House Orselle Salon",
+    "questStatement": "A censored performer needs a venue, and a patron wants the evening to look effortless.",
+    "objectives": {
+      "task": {
+        "id": "task",
+        "text": "Carry out an actual performance arrangement or consequential refusal with the real participants' agreement.",
+        "status": "active"
+      }
+    },
+    "completionCondition": {
+      "type": "story",
+      "query": "For The Player of Small Parts, the participating party has actually done this: Carry out an actual performance arrangement or consequential refusal with the real participants' agreement. Plans, merely accepting, other people's unrelated work and hypothetical outcomes are false. Preserve an already verified result after travel."
+    },
+    "questDesignBrief": "Mireille is protective of taste and reputation, not a universal benefactor. Isaline may disagree with her. The performer can retain political anger after getting a stage. Offer only for an actual relevant inquiry or agreement; hearing gossip is not acceptance. Use real people, supplied outcomes and actual possessions. One native completion owns its configured payment; do not pay again in narration.",
+    "onCompleteEffects": [
+      {
+        "type": "item-add",
+        "item": "Mark",
+        "quantity": 70,
+        "target": "allPlayers"
+      }
+    ]
+  },
+  "Guild: Caelrath Licensure": {
+    "name": "Guild: Caelrath Licensure",
+    "questSource": "Aveline Marchand",
+    "questLocation": "Adventurer's Guild - Caelrath Branch",
+    "detailType": "detailed",
+    "status": "planned",
+    "questStatement": "The guild accepts martial and magical applicants. Registration opens an assessment; a real pass earns the first Bronze badge.",
+    "mainObjective": "Pass the judgment and practical portions, then receive certification at the counter.",
+    "questDesignBrief": "Offer on an actual application, not every first visit. Explain judgment, declared scope, retreat and practical control. Let the applicant use their real trained weapon, body technique, magic or mixed method in a bounded safe exercise; no universal Intelligence test or compulsory spell. A real check and the supplied outcome determine practical success. A capable newcomer may demonstrate competence promptly; failing is a reason to practice, not humiliation or arbitrary detention. Aveline Marchand handles the docket and certification; an appropriate duty assessor may supervise practical work. Personal pass records and the actual issuance trigger control the badge. No starting badge, free weapon, portal key or automatic pass from level. Registration/assessment adds no invented charge. Applicants can postpone or leave.\nThe certification trigger exclusively awards the existing Document Guild Badge: Bronze. Do not also put a badge in generated quest rewards or create a renamed Relic for the same licence.\n\nThe judgment review uses a clearly labeled sample scenario, not a live request from the board. Its fictional client, terms and place do not become a quest, appointment or map destination. State the short example fully and recognize a natural answer that shows scope, ownership and sensible withdrawal; do not demand a repeated three-part recitation after understanding has been demonstrated. The practical is an onsite controlled exercise, not a commissioned repair, delivery or monster hunt. Only the existing licensure quest tracks the exam. Offer real contracts separately after actual licensing or an actual later request. Existing genuine badges are recognized. A partially completed assessment from another branch can be resumed using its actual pass records, without re-awarding an old badge.",
+    "objectives": {
+      "judgment": {
+        "id": "judgment",
+        "text": "Pass the request-reading and practical-judgment review.",
+        "status": "active"
+      },
+      "practical": {
+        "id": "practical",
+        "text": "Complete a controlled practical demonstration with your trained method.",
+        "status": "active"
+      },
+      "certify": {
+        "id": "certify",
+        "text": "Have the completed results certified at reception.",
+        "status": "active"
+      }
+    },
+    "activeObjectiveId": "judgment",
+    "conclusive": true,
+    "onCompleteEffects": []
   }
 }

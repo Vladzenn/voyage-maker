@@ -2,6 +2,18 @@
 
 These notes carry context between desktop and web chats. They supplement the actual JSON and creation guides; newer explicit user instructions take precedence.
 
+## 5 November — Ardelis capital and Rebirth continuation
+
+Implement the capital now, superseding the earlier planning-only language and the Rebirth release boundary below. Use the approved local Rebirth world, the supplied eighteen unfinished location pins and twelve complete region records. Retain all supplied map images, crops and x/y values. The actual Ardelis grid is four columns by three rows. Name and populate the capital, with lore acknowledging other imperial cities; do not build the earlier Glowhaven port proposal.
+
+The capital is Caelrath, a wealthy connected mountain-terrace city above coastal water. It is not a floating sky realm. The author approved an aging ambitious king, an evil promiscuous queen and three distinct young-adult princesses. Add noble houses, a criminal organization with independent interests, a celestial splinter cult, ordinary public institutions and a more serious local adventuring community. A local guild uses the existing guild credentials. Glowhaven academies do not assign expeditions here. Names are delegated. The population recommendation was about 90–110 with principal portraits first; the later luxury, musical and sewer additions bring the authored cast to 115. Supporting portraits remain deferred under that principal-first scope.
+
+Continue Rebirth through the second summoned woman and her command apparatus. Preserve optional Vladimir help and the independent court route. A restricted bilateral portal uses actual issued route keys, the existing once-only anomaly behavior and a fixed keyless return; permission governs issuance rather than introducing a different travel system. Vladimir can arrange his own meeting at the Evertree and remains independent. A separate optional experimental monster inhabits the palace descent. Add a bounded sewer maintenance site, boutiques, nobles, bards and performers.
+
+The author subsequently requested **location images as well**. Generate one establishing image for each new site, plus the portal room and empty experimental chamber. Static scenes do not contain their changeable bosses. Upload authorized artwork through the official Creator API, retain exact-key/hash receipts and update local image URLs. Uploading assets is distinct from saving or publishing the Studio world.
+
+Three paladin leaders are major characters. The author explicitly authorized a new Vladimir portrait after the earlier keep-file decision: a well-aged ordinary-looking human in his mid-forties, brown hair and eyes, a big wizard hat and an extravagant ornate glass staff he will not let others touch. Preserve his existing level, immortality and psychic immunity. Noelle's final explicitly revised portrait keeps her ornate clothing and angled stance, with **hands down, no weapon, hand casting and direct camera gaze**. Her card should agree with that visual direction. These requested revisions supersede the initial full-affinity display and random pose; they do not authorize endless automatic rerolls.
+
 ## 5 November — Rebirth implementation and release boundary
 
 The author confirmed the current local Universal Fishing world with the 4 November Studio hotfix as the merge base. Implement the Rebirth opening, Glowhaven investigation, Shadowspire and eight pocket-realm destinations now. End the local investigation with checked relay evidence and a looming second summoning in Ardelis. The explorable Ardelis country, port layout and controlled rival's deployment remain for the later country stage. Preserve existing map pins, images, music, progression and Spider content.

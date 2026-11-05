@@ -1,0 +1,85 @@
+﻿source,name,sourceRegion,region,x,y,placement
+NEW,Opaline Arcade,market,Violet Market Ward,-34,-16,new approximate pin for author adjustment
+NEW,Velvet Lyre Hall,east,Eastwater Ward,30,5,new approximate pin for author adjustment
+NEW,Caelrath Sewers,east,Eastwater Ward,-8,-43,new approximate pin for author adjustment
+chapel,Starfall Cathedral,chapel,Starfall Heights,-7,-24,preserved Studio pin
+NEW,Pilgrim's Rest Hospice,chapel,Starfall Heights,-21,-2,new approximate pin for author adjustment
+NEW,Chapel Steps,chapel,Starfall Heights,25,-8,new approximate pin for author adjustment
+NEW,Vesper Bell Cloister,chapel,Starfall Heights,18,30,new approximate pin for author adjustment
+NEW,Starward Cemetery,chapel,Starfall Heights,-37,-39,new approximate pin for author adjustment
+NEW,Empyrean Archives,nnorth district,Crownwater Terraces,-26,26,new approximate pin for author adjustment
+NEW,Crownwater Aqueduct,nnorth district,Crownwater Terraces,-7,-22,new approximate pin for author adjustment
+NEW,House Montrevel Estate,nnorth district,Crownwater Terraces,25,1,new approximate pin for author adjustment
+NEW,The High Reservoir,nnorth district,Crownwater Terraces,32,37,new approximate pin for author adjustment
+NEW,Royal Hawk Mews,nnorth district,Crownwater Terraces,-42,8,new approximate pin for author adjustment
+NEW,Terrace Gardeners' Lodge,nnorth district,Crownwater Terraces,12,-36,new approximate pin for author adjustment
+Main palace,Caelrath Palace,main palace,The Imperial Crown,17,-15,preserved Studio pin
+ballroom,Hall of Mirrors,main palace,The Imperial Crown,-37,-44,preserved Studio pin
+NEW,Royal Petition Court,main palace,The Imperial Crown,-26,-20,new approximate pin for author adjustment
+NEW,Embassy Residences,main palace,The Imperial Crown,39,-37,new approximate pin for author adjustment
+NEW,The Crown Mint,main palace,The Imperial Crown,37,18,new approximate pin for author adjustment
+NEW,Ivory Guard Barracks,main palace,The Imperial Crown,-35,12,new approximate pin for author adjustment
+court wizard spire,Court Wizard's Spire,norhteast,High Arcana Ward,-45,-5,preserved Studio pin
+NEW,Amethyst Intake Works,norhteast,High Arcana Ward,26,8,new approximate pin for author adjustment
+NEW,House Veymont Residence,norhteast,High Arcana Ward,18,-33,new approximate pin for author adjustment
+NEW,Skyglass Observatory,norhteast,High Arcana Ward,-11,34,new approximate pin for author adjustment
+NEW,The Old Receiving House,norhteast,High Arcana Ward,31,-9,new approximate pin for author adjustment
+NEW,High Arcana Infirmary,norhteast,High Arcana Ward,-28,-28,new approximate pin for author adjustment
+courthouse,Caelrath Courthouse,west,Westbridge Ward,38,30,preserved Studio pin
+bathhouse,The Silver Baths,west,Westbridge Ward,36,-39,preserved Studio pin
+NEW,Caelrath Amphitheatre,west,Westbridge Ward,-30,-32,new approximate pin for author adjustment
+NEW,Westbridge Watchhouse,west,Westbridge Ward,-16,16,new approximate pin for author adjustment
+NEW,The King's Lists,west,Westbridge Ward,9,-4,new approximate pin for author adjustment
+NEW,Mortar and Moss Apothecary,west,Westbridge Ward,22,2,new approximate pin for author adjustment
+NEW,Ashwillow Inn,west,Westbridge Ward,-34,38,new approximate pin for author adjustment
+NEW,House Orselle Salon,west,Westbridge Ward,31,-18,new approximate pin for author adjustment
+marketplace,Violet Canopy Market,market,Violet Market Ward,-15,7,preserved Studio pin
+big ass garden,The Queen's Watergardens,market,Violet Market Ward,30,-43,preserved Studio pin
+oracle's place,The Veiled Oratory,market,Violet Market Ward,49,-33,preserved Studio pin
+NEW,The Gilt Measure Exchange,market,Violet Market Ward,14,29,new approximate pin for author adjustment
+NEW,Palewick Bookshop,market,Violet Market Ward,-34,24,new approximate pin for author adjustment
+NEW,Gilded Vessel Tavern,market,Violet Market Ward,-30,-22,new approximate pin for author adjustment
+NEW,Bastion and Buckle Armory,market,Violet Market Ward,26,8,new approximate pin for author adjustment
+NEW,Tern Thread Tailors,market,Violet Market Ward,36,-12,new approximate pin for author adjustment
+NEW,House Dalcourt Counting House,market,Violet Market Ward,-5,41,new approximate pin for author adjustment
+statue of a celestial,High Star Square,city center,Celestial Ward,-35,26,preserved Studio pin
+institute of magic,Caelrath Institute of Magic,city center,Celestial Ward,35,14,preserved Studio pin
+guardhouse,Crown Watch Headquarters,city center,Celestial Ward,44,-27,preserved Studio pin
+NEW,Adventurer's Guild - Caelrath Branch,city center,Celestial Ward,-21,-15,new approximate pin for author adjustment
+NEW,Civic Records Hall,city center,Celestial Ward,-23,4,new approximate pin for author adjustment
+NEW,The Brass Hearth Workshop,city center,Celestial Ward,9,-5,new approximate pin for author adjustment
+NEW,Valleygate Lodgings,city center,Celestial Ward,-34,-35,new approximate pin for author adjustment
+NEW,Lantern House Theatre,city center,Celestial Ward,27,38,new approximate pin for author adjustment
+warehouse,Eastwater Bonded Warehouse,east,Eastwater Ward,-27,-36,preserved Studio pin
+NEW,Eastwater Locks,east,Eastwater Ward,-22,26,new approximate pin for author adjustment
+NEW,Riveters' Lane,east,Eastwater Ward,3,7,new approximate pin for author adjustment
+NEW,Low Lantern Tenements,east,Eastwater Ward,21,-12,new approximate pin for author adjustment
+NEW,Sable Ribbon Club,east,Eastwater Ward,32,29,new approximate pin for author adjustment
+NEW,The Glassworks,east,Eastwater Ward,27,-35,new approximate pin for author adjustment
+NEW,Eelcatchers' Landing,east,Eastwater Ward,-42,-9,new approximate pin for author adjustment
+NEW,Windward Mills,outskirts,Windmill Escarpment,-21,14,new approximate pin for author adjustment
+NEW,Outer Granaries,outskirts,Windmill Escarpment,23,30,new approximate pin for author adjustment
+NEW,Orchardgate Hamlet,outskirts,Windmill Escarpment,12,-16,new approximate pin for author adjustment
+NEW,Cliffside Quarry,outskirts,Windmill Escarpment,-34,-29,new approximate pin for author adjustment
+NEW,The Old Culvert,outskirts,Windmill Escarpment,38,-32,new approximate pin for author adjustment
+gate,Kingsward Gate,gate,Kingsward Gate,17,7,preserved Studio pin
+a parlor? for tea,The Pearl and Thistle,gate,Kingsward Gate,-5,49,preserved Studio pin
+NEW,Caravan Licensing Yard,gate,Kingsward Gate,-28,-3,new approximate pin for author adjustment
+NEW,Caelrath Portal Hall,gate,Kingsward Gate,35,22,new approximate pin for author adjustment
+NEW,The Wayfarers' Hostel,gate,Kingsward Gate,-27,-32,new approximate pin for author adjustment
+residentials,Southbank Homes,south,Southbank Ward,-10,34,preserved Studio pin
+NEW,Southbank School,south,Southbank Ward,-35,14,new approximate pin for author adjustment
+NEW,Threadneedle Bakery,south,Southbank Ward,8,21,new approximate pin for author adjustment
+NEW,The Common Table,south,Southbank Ward,31,7,new approximate pin for author adjustment
+NEW,Ropewalk Court,south,Southbank Ward,-24,-25,new approximate pin for author adjustment
+NEW,Stonehearth Smithy,south,Southbank Ward,27,-30,new approximate pin for author adjustment
+NEW,Crown Remand House,south,Southbank Ward,-40,-8,new approximate pin for author adjustment
+harbor,Caelrath Harbor,harbor,Lantern Harbors,-28,7,preserved Studio pin
+lighthouse,Crownlight Lighthouse,harbor,Lantern Harbors,20,-16,preserved Studio pin
+NEW,The Harbormaster's Lodge,harbor,Lantern Harbors,-33,32,new approximate pin for author adjustment
+NEW,Saltgull Shipwrights,harbor,Lantern Harbors,-4,8,new approximate pin for author adjustment
+NEW,The Customs Arcade,harbor,Lantern Harbors,-21,-27,new approximate pin for author adjustment
+NEW,The Chainbreak Docks,harbor,Lantern Harbors,34,20,new approximate pin for author adjustment
+NEW,Starwatch Isle,harbor,Lantern Harbors,35,-35,new approximate pin for author adjustment
+NEW,The Sunken Bell,harbor,Lantern Harbors,-7,-42,new approximate pin for author adjustment
+NEW,Starward Commandery,chapel,Starfall Heights,32,16,new approximate pin for author adjustment

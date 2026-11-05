@@ -6,6 +6,7 @@ Repository: [Vladzenn/voyage-maker](https://github.com/Vladzenn/voyage-maker) (p
 
 ## Current project
 
+- **Ardelis capital:** [public notes](world-draft/Ardelis%20-%20Patch%20Notes.md), [mechanics and live checklist](world-draft/Ardelis%20-%20Development%20Notes.md), [map placement handoff](world-draft/Ardelis%20-%20Map%20and%20Landmark%20Handoff.md). Delivery status is recorded in CURRENT_STATE.
 - **Glowhaven fresh map brief:** [standalone PDF](world-draft/authoring/plans/Glowhaven%20-%20Fresh%20Map%20Brief.pdf), [editable text](world-draft/authoring/plans/Glowhaven%20-%20Fresh%20Map%20Brief.md), [exact position index](world-draft/authoring/plans/Glowhaven%20-%20Fresh%20Map%20Positions.csv); no old map artwork is supplied.
 - **Schools of magic, Rebirth!:** [public notes](world-draft/Schools%20of%20magic%2C%20Rebirth!%20-%20Patch%20Notes.md), [implementation, limits and live tests](world-draft/Schools%20of%20magic%2C%20Rebirth!%20-%20Development%20Notes.md)
 - **Fishing patch:** [public notes](world-draft/Fishing%20-%20Patch%20Notes.md), [mechanics, limits and live tests](world-draft/Fishing%20-%20Mechanics%20and%20Playtest.md)
@@ -44,6 +45,7 @@ node tools/test_oni.cjs
 node tools/test_glowhaven_expansion.cjs
 node tools/test_fishing.cjs
 node tools/test_rebirth.cjs
+node tools/test_ardelis.cjs
 python tools/project.py publish -m "Describe the completed change"
 ```
 

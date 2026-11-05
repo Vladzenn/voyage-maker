@@ -1,0 +1,1107 @@
+[
+  {
+    "name": "Cedran Aurevain",
+    "major": true,
+    "location": "Caelrath Palace",
+    "area": "Caelrath Palace - Council Chamber",
+    "affinities": [
+      "Enchantment"
+    ]
+  },
+  {
+    "name": "Isabeau Aurevain",
+    "major": true,
+    "location": "Caelrath Palace",
+    "area": "Caelrath Palace - Royal Apartments",
+    "affinities": [
+      "Light"
+    ]
+  },
+  {
+    "name": "Lysandra Aurevain",
+    "major": true,
+    "location": "Ivory Guard Barracks",
+    "area": "Ivory Guard Barracks - Officers' Room",
+    "affinities": [
+      "Light"
+    ]
+  },
+  {
+    "name": "Marielle Aurevain",
+    "major": true,
+    "location": "Hall of Mirrors",
+    "area": "Hall of Mirrors - Musicians' Gallery",
+    "affinities": [
+      "Wind"
+    ]
+  },
+  {
+    "name": "Céleste Aurevain",
+    "major": true,
+    "location": "Caelrath Institute of Magic",
+    "area": "Caelrath Institute of Magic - Reading Room",
+    "affinities": [
+      "Nature"
+    ]
+  },
+  {
+    "name": "Severin Morcant",
+    "major": true,
+    "location": "Court Wizard's Spire",
+    "area": "Court Wizard's Spire - Upper Study",
+    "affinities": [
+      "Arcane",
+      "Enchantment"
+    ]
+  },
+  {
+    "name": "Noelle Ashford",
+    "major": true,
+    "location": "The Old Receiving House",
+    "area": "The Old Receiving House - Quiet Room",
+    "affinities": [
+      "Arcane",
+      "Fire",
+      "Water",
+      "Earth",
+      "Wind",
+      "Lightning",
+      "Ice",
+      "Light",
+      "Metal",
+      "Nature",
+      "Sound",
+      "Gravity",
+      "Void",
+      "Healing",
+      "Enchantment",
+      "Summoning",
+      "Illusion",
+      "Divination",
+      "Space",
+      "Soul"
+    ]
+  },
+  {
+    "name": "Thaurivex",
+    "major": true,
+    "location": "Caelrath Palace",
+    "area": "Caelrath Palace - Resonance Cradle",
+    "affinities": [
+      "Soul",
+      "Arcane",
+      "Metal"
+    ]
+  },
+  {
+    "name": "Hector Montrevel",
+    "major": true,
+    "location": "House Montrevel Estate",
+    "area": "House Montrevel Estate - Receiving Salon",
+    "affinities": [
+      "Water"
+    ]
+  },
+  {
+    "name": "Julienne Dalcourt",
+    "major": true,
+    "location": "House Dalcourt Counting House",
+    "area": "House Dalcourt Counting House - Family Office",
+    "affinities": [
+      "Metal"
+    ]
+  },
+  {
+    "name": "Armand Veymont",
+    "major": true,
+    "location": "House Veymont Residence",
+    "area": "House Veymont Residence - Officers' Salon",
+    "affinities": [
+      "Earth",
+      "Light",
+      "Fire"
+    ]
+  },
+  {
+    "name": "Mireille Orselle",
+    "major": true,
+    "location": "House Orselle Salon",
+    "area": "House Orselle Salon - Reception Salon",
+    "affinities": [
+      "Illusion",
+      "Sound"
+    ]
+  },
+  {
+    "name": "Laurent Bellegarde",
+    "major": true,
+    "location": "Starfall Cathedral",
+    "area": "Starfall Cathedral - Chapter Vestry",
+    "affinities": [
+      "Healing",
+      "Soul"
+    ]
+  },
+  {
+    "name": "Sabine Mauclerc",
+    "major": true,
+    "location": "Vesper Bell Cloister",
+    "area": "Vesper Bell Cloister - Copying Room",
+    "affinities": [
+      "Summoning"
+    ]
+  },
+  {
+    "name": "Lucan Voss",
+    "major": true,
+    "location": "Sable Ribbon Club",
+    "area": "Sable Ribbon Club - Private Office",
+    "affinities": [
+      "Illusion",
+      "Void"
+    ]
+  },
+  {
+    "name": "Aveline Marchand",
+    "major": true,
+    "location": "Adventurer's Guild - Caelrath Branch",
+    "area": "Adventurer's Guild - Caelrath Branch - Reception Counter",
+    "affinities": [
+      "Healing"
+    ]
+  },
+  {
+    "name": "Bastien Rochefort",
+    "major": true,
+    "location": "Adventurer's Guild - Caelrath Branch",
+    "area": "Adventurer's Guild - Caelrath Branch - Branch Office",
+    "affinities": [
+      "Earth",
+      "Wind"
+    ]
+  },
+  {
+    "name": "Nerissa Vale",
+    "major": true,
+    "location": "The Wayfarers' Hostel",
+    "area": "The Wayfarers' Hostel - Common Room",
+    "affinities": [
+      "Gravity"
+    ]
+  },
+  {
+    "name": "Coralie Brissot",
+    "major": true,
+    "location": "Eastwater Locks",
+    "area": "Eastwater Locks - Gatehouse",
+    "affinities": [
+      "Metal",
+      "Enchantment",
+      "Water"
+    ]
+  },
+  {
+    "name": "Corvin Hale",
+    "major": true,
+    "location": "Ivory Guard Barracks",
+    "area": "Ivory Guard Barracks - Officers' Room",
+    "affinities": [
+      "Earth"
+    ]
+  },
+  {
+    "name": "Aurélian Vauss",
+    "major": true,
+    "location": "Starward Commandery",
+    "area": "Starward Commandery - Chapter Hall",
+    "affinities": [
+      "Enchantment"
+    ]
+  },
+  {
+    "name": "Séraphine Duvray",
+    "major": true,
+    "location": "Starward Commandery",
+    "area": "Starward Commandery - Practice Court",
+    "affinities": [
+      "Metal"
+    ]
+  },
+  {
+    "name": "Osmond Verain",
+    "major": true,
+    "location": "Starward Commandery",
+    "area": "Starward Commandery - Field Chapel",
+    "affinities": [
+      "Healing",
+      "Light",
+      "Soul"
+    ]
+  },
+  {
+    "name": "Sibylle Opal",
+    "major": false,
+    "location": "Opaline Arcade",
+    "area": "Opaline Arcade - Arcade Entrance",
+    "affinities": [
+      "Enchantment"
+    ]
+  },
+  {
+    "name": "Béatrice Nerol",
+    "major": false,
+    "location": "Opaline Arcade",
+    "area": "Opaline Arcade - Arcade Entrance",
+    "affinities": [
+      "Enchantment",
+      "Nature"
+    ]
+  },
+  {
+    "name": "Raoul Chantrel",
+    "major": false,
+    "location": "Velvet Lyre Hall",
+    "area": "Velvet Lyre Hall - Box Office",
+    "affinities": [
+      "Light",
+      "Sound",
+      "Illusion"
+    ]
+  },
+  {
+    "name": "Agathe Surn",
+    "major": false,
+    "location": "Caelrath Sewers",
+    "area": "Caelrath Sewers - Maintenance Stair",
+    "affinities": [
+      "Water"
+    ]
+  },
+  {
+    "name": "Odette Clairmont",
+    "major": false,
+    "location": "Starfall Cathedral",
+    "area": "Starfall Cathedral - Pilgrim Steps",
+    "affinities": [
+      "Earth"
+    ]
+  },
+  {
+    "name": "Perrin Fauche",
+    "major": false,
+    "location": "Pilgrim's Rest Hospice",
+    "area": "Pilgrim's Rest Hospice - Hospice Door",
+    "affinities": [
+      "Healing"
+    ]
+  },
+  {
+    "name": "Colette Marron",
+    "major": false,
+    "location": "Chapel Steps",
+    "area": "Chapel Steps - Upper Landing",
+    "affinities": [
+      "Water"
+    ]
+  },
+  {
+    "name": "Étienne Roux",
+    "major": false,
+    "location": "Vesper Bell Cloister",
+    "area": "Vesper Bell Cloister - Cloister Walk",
+    "affinities": [
+      "Wind"
+    ]
+  },
+  {
+    "name": "Madelon Vire",
+    "major": false,
+    "location": "Starward Cemetery",
+    "area": "Starward Cemetery - Cemetery Gate",
+    "affinities": [
+      "Soul"
+    ]
+  },
+  {
+    "name": "Solène Artaud",
+    "major": false,
+    "location": "Empyrean Archives",
+    "area": "Empyrean Archives - Reader's Entrance",
+    "affinities": [
+      "Divination"
+    ]
+  },
+  {
+    "name": "Matthieu Fen",
+    "major": false,
+    "location": "Crownwater Aqueduct",
+    "area": "Crownwater Aqueduct - Inspection Gate",
+    "affinities": [
+      "Water"
+    ]
+  },
+  {
+    "name": "Lucille Montrevel",
+    "major": false,
+    "location": "House Montrevel Estate",
+    "area": "House Montrevel Estate - Estate Forecourt",
+    "affinities": [
+      "Enchantment"
+    ]
+  },
+  {
+    "name": "René Vautrin",
+    "major": false,
+    "location": "The High Reservoir",
+    "area": "The High Reservoir - Bank Path",
+    "affinities": [
+      "Ice",
+      "Metal"
+    ]
+  },
+  {
+    "name": "Alix Perrault",
+    "major": false,
+    "location": "Royal Hawk Mews",
+    "area": "Royal Hawk Mews - Mews Yard",
+    "affinities": [
+      "Wind",
+      "Divination",
+      "Nature"
+    ]
+  },
+  {
+    "name": "Berthe Lenoir",
+    "major": false,
+    "location": "Terrace Gardeners' Lodge",
+    "area": "Terrace Gardeners' Lodge - Tool Porch",
+    "affinities": [
+      "Nature"
+    ]
+  },
+  {
+    "name": "Maëlle Duret",
+    "major": false,
+    "location": "Caelrath Palace",
+    "area": "Caelrath Palace - Outer Gallery",
+    "affinities": [
+      "Enchantment",
+      "Water"
+    ]
+  },
+  {
+    "name": "Elise Vaubert",
+    "major": false,
+    "location": "Hall of Mirrors",
+    "area": "Hall of Mirrors - Arrival Terrace",
+    "affinities": [
+      "Illusion"
+    ]
+  },
+  {
+    "name": "Adrien Veymont",
+    "major": false,
+    "location": "House Veymont Residence",
+    "area": "House Veymont Residence - Entry Court",
+    "affinities": [
+      "Wind",
+      "Light",
+      "Metal"
+    ]
+  },
+  {
+    "name": "Pauline Savat",
+    "major": false,
+    "location": "Royal Petition Court",
+    "area": "Royal Petition Court - Public Arcade",
+    "affinities": [
+      "Light"
+    ]
+  },
+  {
+    "name": "Henri Valcour",
+    "major": false,
+    "location": "Embassy Residences",
+    "area": "Embassy Residences - Diplomatic Walk",
+    "affinities": [
+      "Light"
+    ]
+  },
+  {
+    "name": "Gaspard Helot",
+    "major": false,
+    "location": "The Crown Mint",
+    "area": "The Crown Mint - Public Claims Desk",
+    "affinities": [
+      "Metal"
+    ]
+  },
+  {
+    "name": "Yselle Mornay",
+    "major": false,
+    "location": "Ivory Guard Barracks",
+    "area": "Ivory Guard Barracks - Gate Desk",
+    "affinities": [
+      "Earth",
+      "Metal"
+    ]
+  },
+  {
+    "name": "Félicien Sorel",
+    "major": false,
+    "location": "Court Wizard's Spire",
+    "area": "Court Wizard's Spire - Consultation Hall",
+    "affinities": [
+      "Sound"
+    ]
+  },
+  {
+    "name": "Anouk Vellin",
+    "major": false,
+    "location": "Amethyst Intake Works",
+    "area": "Amethyst Intake Works - Work Gate",
+    "affinities": [
+      "Metal"
+    ]
+  },
+  {
+    "name": "Éloi Sarce",
+    "major": false,
+    "location": "Skyglass Observatory",
+    "area": "Skyglass Observatory - Visitor Stair",
+    "affinities": [
+      "Light",
+      "Divination"
+    ]
+  },
+  {
+    "name": "Nadine Courbet",
+    "major": false,
+    "location": "The Old Receiving House",
+    "area": "The Old Receiving House - Outer Gate",
+    "affinities": [
+      "Water"
+    ]
+  },
+  {
+    "name": "Thibaut Grange",
+    "major": false,
+    "location": "High Arcana Infirmary",
+    "area": "High Arcana Infirmary - Reception",
+    "affinities": [
+      "Earth",
+      "Water"
+    ]
+  },
+  {
+    "name": "Hélène Vaudin",
+    "major": false,
+    "location": "Caelrath Courthouse",
+    "area": "Caelrath Courthouse - Public Vestibule",
+    "affinities": [
+      "Light"
+    ]
+  },
+  {
+    "name": "Corentin Delat",
+    "major": false,
+    "location": "The Silver Baths",
+    "area": "The Silver Baths - Reception",
+    "affinities": [
+      "Wind",
+      "Water"
+    ]
+  },
+  {
+    "name": "Mirette Aurel",
+    "major": false,
+    "location": "Caelrath Amphitheatre",
+    "area": "Caelrath Amphitheatre - Public Concourse",
+    "affinities": [
+      "Illusion"
+    ]
+  },
+  {
+    "name": "Jonas Brac",
+    "major": false,
+    "location": "Westbridge Watchhouse",
+    "area": "Westbridge Watchhouse - Reporting Desk",
+    "affinities": [
+      "Water"
+    ]
+  },
+  {
+    "name": "Gabrielle Fane",
+    "major": false,
+    "location": "The King's Lists",
+    "area": "The King's Lists - Spectator Rail",
+    "affinities": [
+      "Metal"
+    ]
+  },
+  {
+    "name": "Edmée Mott",
+    "major": false,
+    "location": "Mortar and Moss Apothecary",
+    "area": "Mortar and Moss Apothecary - Shop Counter",
+    "affinities": [
+      "Healing",
+      "Nature",
+      "Water"
+    ]
+  },
+  {
+    "name": "Florent Bard",
+    "major": false,
+    "location": "Ashwillow Inn",
+    "area": "Ashwillow Inn - Common Room",
+    "affinities": [
+      "Water",
+      "Fire"
+    ]
+  },
+  {
+    "name": "Isaline Orselle",
+    "major": false,
+    "location": "House Orselle Salon",
+    "area": "House Orselle Salon - Reception Salon",
+    "affinities": [
+      "Enchantment",
+      "Light"
+    ]
+  },
+  {
+    "name": "Rosalie Vernet",
+    "major": false,
+    "location": "Violet Canopy Market",
+    "area": "Violet Canopy Market - Canopy Circle",
+    "affinities": [
+      "Nature"
+    ]
+  },
+  {
+    "name": "Clément Saxe",
+    "major": false,
+    "location": "The Queen's Watergardens",
+    "area": "The Queen's Watergardens - Upper Walk",
+    "affinities": [
+      "Earth",
+      "Water"
+    ]
+  },
+  {
+    "name": "Violette Senn",
+    "major": false,
+    "location": "The Veiled Oratory",
+    "area": "The Veiled Oratory - Waiting Alcove",
+    "affinities": [
+      "Soul"
+    ]
+  },
+  {
+    "name": "Octave Bellin",
+    "major": false,
+    "location": "The Gilt Measure Exchange",
+    "area": "The Gilt Measure Exchange - Exchange Floor",
+    "affinities": [
+      "Light",
+      "Enchantment"
+    ]
+  },
+  {
+    "name": "Émilie Sable",
+    "major": false,
+    "location": "Palewick Bookshop",
+    "area": "Palewick Bookshop - Book Floor",
+    "affinities": [
+      "Divination"
+    ]
+  },
+  {
+    "name": "Fabrice Yorn",
+    "major": false,
+    "location": "Gilded Vessel Tavern",
+    "area": "Gilded Vessel Tavern - Taproom",
+    "affinities": [
+      "Fire"
+    ]
+  },
+  {
+    "name": "Loïc Ferrand",
+    "major": false,
+    "location": "Bastion and Buckle Armory",
+    "area": "Bastion and Buckle Armory - Display Floor",
+    "affinities": [
+      "Earth"
+    ]
+  },
+  {
+    "name": "Aimée Tern",
+    "major": false,
+    "location": "Tern Thread Tailors",
+    "area": "Tern Thread Tailors - Front Shop",
+    "affinities": [
+      "Enchantment"
+    ]
+  },
+  {
+    "name": "Marcel Dalcourt",
+    "major": false,
+    "location": "House Dalcourt Counting House",
+    "area": "House Dalcourt Counting House - Public Desk",
+    "affinities": [
+      "Light"
+    ]
+  },
+  {
+    "name": "Delphine Lys",
+    "major": false,
+    "location": "High Star Square",
+    "area": "High Star Square - Monument Steps",
+    "affinities": [
+      "Divination",
+      "Enchantment"
+    ]
+  },
+  {
+    "name": "Olivier Nacre",
+    "major": false,
+    "location": "Caelrath Institute of Magic",
+    "area": "Caelrath Institute of Magic - Arrival Hall",
+    "affinities": [
+      "Enchantment"
+    ]
+  },
+  {
+    "name": "Léonie Sorel",
+    "major": false,
+    "location": "Caelrath Institute of Magic",
+    "area": "Caelrath Institute of Magic - Arrival Hall",
+    "affinities": [
+      "Arcane",
+      "Divination"
+    ]
+  },
+  {
+    "name": "Denis Ravel",
+    "major": false,
+    "location": "Caelrath Institute of Magic",
+    "area": "Caelrath Institute of Magic - Arrival Hall",
+    "affinities": [
+      "Sound",
+      "Light",
+      "Metal"
+    ]
+  },
+  {
+    "name": "Guillaume Lest",
+    "major": false,
+    "location": "Crown Watch Headquarters",
+    "area": "Crown Watch Headquarters - Reporting Hall",
+    "affinities": [
+      "Divination",
+      "Earth"
+    ]
+  },
+  {
+    "name": "Madeleine Sève",
+    "major": false,
+    "location": "Civic Records Hall",
+    "area": "Civic Records Hall - Public Counter",
+    "affinities": [
+      "Enchantment"
+    ]
+  },
+  {
+    "name": "Isidore Brin",
+    "major": false,
+    "location": "The Brass Hearth Workshop",
+    "area": "The Brass Hearth Workshop - Public Workbench",
+    "affinities": [
+      "Fire"
+    ]
+  },
+  {
+    "name": "Camille Vane",
+    "major": false,
+    "location": "Valleygate Lodgings",
+    "area": "Valleygate Lodgings - Letting Desk",
+    "affinities": [
+      "Earth"
+    ]
+  },
+  {
+    "name": "Cyrille Fable",
+    "major": false,
+    "location": "Lantern House Theatre",
+    "area": "Lantern House Theatre - Lobby",
+    "affinities": [
+      "Illusion",
+      "Sound",
+      "Light"
+    ]
+  },
+  {
+    "name": "Pascal Reeve",
+    "major": false,
+    "location": "Eastwater Bonded Warehouse",
+    "area": "Eastwater Bonded Warehouse - Claims Desk",
+    "affinities": [
+      "Earth"
+    ]
+  },
+  {
+    "name": "Nicolas Tain",
+    "major": false,
+    "location": "Riveters' Lane",
+    "area": "Riveters' Lane - Craft Frontages",
+    "affinities": [
+      "Fire"
+    ]
+  },
+  {
+    "name": "Yvette Marn",
+    "major": false,
+    "location": "Low Lantern Tenements",
+    "area": "Low Lantern Tenements - Common Stair",
+    "affinities": [
+      "Water"
+    ]
+  },
+  {
+    "name": "Estelle Vaul",
+    "major": false,
+    "location": "Sable Ribbon Club",
+    "area": "Sable Ribbon Club - Entry Salon",
+    "affinities": [
+      "Enchantment",
+      "Illusion"
+    ]
+  },
+  {
+    "name": "Rémy Noct",
+    "major": false,
+    "location": "Sable Ribbon Club",
+    "area": "Sable Ribbon Club - Entry Salon",
+    "affinities": [
+      "Illusion"
+    ]
+  },
+  {
+    "name": "Dorian Pell",
+    "major": false,
+    "location": "The Glassworks",
+    "area": "The Glassworks - Office Door",
+    "affinities": [
+      "Metal"
+    ]
+  },
+  {
+    "name": "Hugo Castan",
+    "major": false,
+    "location": "Eelcatchers' Landing",
+    "area": "Eelcatchers' Landing - Landing Steps",
+    "affinities": [
+      "Water",
+      "Nature"
+    ]
+  },
+  {
+    "name": "Arlette Venn",
+    "major": false,
+    "location": "Windward Mills",
+    "area": "Windward Mills - Mill Track",
+    "affinities": [
+      "Water"
+    ]
+  },
+  {
+    "name": "Simon Belloc",
+    "major": false,
+    "location": "Outer Granaries",
+    "area": "Outer Granaries - Weighing Porch",
+    "affinities": [
+      "Earth"
+    ]
+  },
+  {
+    "name": "Anaïs Merville",
+    "major": false,
+    "location": "Orchardgate Hamlet",
+    "area": "Orchardgate Hamlet - Small Green",
+    "affinities": [
+      "Wind"
+    ]
+  },
+  {
+    "name": "Bruno Casse",
+    "major": false,
+    "location": "Cliffside Quarry",
+    "area": "Cliffside Quarry - Work Office",
+    "affinities": [
+      "Earth",
+      "Metal"
+    ]
+  },
+  {
+    "name": "Pascale Ardent",
+    "major": false,
+    "location": "The Old Culvert",
+    "area": "The Old Culvert - Dry Approach",
+    "affinities": [
+      "Light",
+      "Water",
+      "Earth"
+    ]
+  },
+  {
+    "name": "Fleur Davenant",
+    "major": false,
+    "location": "Kingsward Gate",
+    "area": "Kingsward Gate - Outer Road",
+    "affinities": [
+      "Light"
+    ]
+  },
+  {
+    "name": "Victoire Perrin",
+    "major": false,
+    "location": "The Pearl and Thistle",
+    "area": "The Pearl and Thistle - Public Parlor",
+    "affinities": [
+      "Fire"
+    ]
+  },
+  {
+    "name": "Lazare Besson",
+    "major": false,
+    "location": "Caravan Licensing Yard",
+    "area": "Caravan Licensing Yard - Arrival Yard",
+    "affinities": [
+      "Water"
+    ]
+  },
+  {
+    "name": "Alban Prévost",
+    "major": false,
+    "location": "Caelrath Portal Hall",
+    "area": "Caelrath Portal Hall - Visitor Desk",
+    "affinities": [
+      "Arcane",
+      "Light"
+    ]
+  },
+  {
+    "name": "Jeanne Coeur",
+    "major": false,
+    "location": "The Wayfarers' Hostel",
+    "area": "The Wayfarers' Hostel - Common Room",
+    "affinities": [
+      "Healing",
+      "Water",
+      "Light"
+    ]
+  },
+  {
+    "name": "Lydie Valette",
+    "major": false,
+    "location": "Southbank Homes",
+    "area": "Southbank Homes - Main Lane",
+    "affinities": [
+      "Earth"
+    ]
+  },
+  {
+    "name": "Hervé Valette",
+    "major": false,
+    "location": "Southbank Homes",
+    "area": "Southbank Homes - Main Lane",
+    "affinities": [
+      "Earth"
+    ]
+  },
+  {
+    "name": "Cécile Aubin",
+    "major": false,
+    "location": "Southbank School",
+    "area": "Southbank School - School Door",
+    "affinities": [
+      "Sound"
+    ]
+  },
+  {
+    "name": "Ninon Bell",
+    "major": false,
+    "location": "Threadneedle Bakery",
+    "area": "Threadneedle Bakery - Shop Counter",
+    "affinities": [
+      "Water"
+    ]
+  },
+  {
+    "name": "Margot Fenn",
+    "major": false,
+    "location": "The Common Table",
+    "area": "The Common Table - Eating Room",
+    "affinities": [
+      "Fire"
+    ]
+  },
+  {
+    "name": "Luc Marchand",
+    "major": false,
+    "location": "Ropewalk Court",
+    "area": "Ropewalk Court - Work Court",
+    "affinities": [
+      "Water"
+    ]
+  },
+  {
+    "name": "Gérald Stone",
+    "major": false,
+    "location": "Stonehearth Smithy",
+    "area": "Stonehearth Smithy - Counter",
+    "affinities": [
+      "Metal",
+      "Fire"
+    ]
+  },
+  {
+    "name": "Régine Vossard",
+    "major": false,
+    "location": "Crown Remand House",
+    "area": "Crown Remand House - Public Desk",
+    "affinities": [
+      "Earth"
+    ]
+  },
+  {
+    "name": "Yannick Dorne",
+    "major": false,
+    "location": "Caelrath Harbor",
+    "area": "Caelrath Harbor - Passenger Steps",
+    "affinities": [
+      "Water",
+      "Ice"
+    ]
+  },
+  {
+    "name": "Odile Caron",
+    "major": false,
+    "location": "Crownlight Lighthouse",
+    "area": "Crownlight Lighthouse - Supply Jetty",
+    "affinities": [
+      "Water"
+    ]
+  },
+  {
+    "name": "Valentin Arques",
+    "major": false,
+    "location": "The Harbormaster's Lodge",
+    "area": "The Harbormaster's Lodge - Public Desk",
+    "affinities": [
+      "Water"
+    ]
+  },
+  {
+    "name": "Maude Tellier",
+    "major": false,
+    "location": "Saltgull Shipwrights",
+    "area": "Saltgull Shipwrights - Estimates Desk",
+    "affinities": [
+      "Earth"
+    ]
+  },
+  {
+    "name": "Félix Vaune",
+    "major": false,
+    "location": "The Customs Arcade",
+    "area": "The Customs Arcade - Public Counters",
+    "affinities": [
+      "Divination"
+    ]
+  },
+  {
+    "name": "Roxane Marot",
+    "major": false,
+    "location": "The Chainbreak Docks",
+    "area": "The Chainbreak Docks - Working Pier",
+    "affinities": [
+      "Ice"
+    ]
+  },
+  {
+    "name": "Gaël Sere",
+    "major": false,
+    "location": "Starwatch Isle",
+    "area": "Starwatch Isle - Small Landing",
+    "affinities": [
+      "Light"
+    ]
+  },
+  {
+    "name": "Sévérine Morn",
+    "major": false,
+    "location": "The Sunken Bell",
+    "area": "The Sunken Bell - Outer Mooring",
+    "affinities": [
+      "Divination",
+      "Soul",
+      "Water"
+    ]
+  },
+  {
+    "name": "Quentin Virel",
+    "major": false,
+    "location": "Adventurer's Guild - Caelrath Branch",
+    "area": "Adventurer's Guild - Caelrath Branch - Reception Counter",
+    "affinities": [
+      "Light"
+    ]
+  },
+  {
+    "name": "Romane Clair",
+    "major": false,
+    "location": "Adventurer's Guild - Caelrath Branch",
+    "area": "Adventurer's Guild - Caelrath Branch - Reception Counter",
+    "affinities": [
+      "Wind"
+    ]
+  },
+  {
+    "name": "Adèle Mirot",
+    "major": false,
+    "location": "The Wayfarers' Hostel",
+    "area": "The Wayfarers' Hostel - Common Room",
+    "affinities": [
+      "Light"
+    ]
+  },
+  {
+    "name": "Tristan Vell",
+    "major": false,
+    "location": "The King's Lists",
+    "area": "The King's Lists - Spectator Rail",
+    "affinities": [
+      "Wind"
+    ]
+  },
+  {
+    "name": "Manon Valeur",
+    "major": false,
+    "location": "Gilded Vessel Tavern",
+    "area": "Gilded Vessel Tavern - Taproom",
+    "affinities": [
+      "Light"
+    ]
+  },
+  {
+    "name": "Ansel Carme",
+    "major": false,
+    "location": "Vesper Bell Cloister",
+    "area": "Vesper Bell Cloister - Cloister Walk",
+    "affinities": [
+      "Light"
+    ]
+  }
+]

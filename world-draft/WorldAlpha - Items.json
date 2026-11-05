@@ -7984,5 +7984,224 @@
     "category": "Document",
     "description": "A copy of the pump-house dispatch and its corroborating delivery record. The dates and recipient connect the hidden apparatus to an Ardelis field office. A final entry reserves a second receiving station beyond Glowhaven.",
     "bonuses": []
+  },
+  "Ardelis Portal Key": {
+    "name": "Ardelis Portal Key",
+    "category": "Key",
+    "description": "Reusable permission for the Evertree–Caelrath route. Issued by the authorized transit officers after verified bilateral sponsorship. Fixed returns from Caelrath Portal Hall lead to the Evertree without a key.",
+    "bonuses": []
+  },
+  "Ardelis Transit Writ": {
+    "name": "Ardelis Transit Writ",
+    "category": "Document",
+    "description": "A verified limited travel sponsorship naming its permitted bearer and purpose. It records permission to request the route key, not royal rank or unrestricted palace access.",
+    "bonuses": []
+  },
+  "Receiving Transfer Record": {
+    "name": "Receiving Transfer Record",
+    "category": "Document",
+    "description": "Authenticated copied dates, weights and signatures connecting a specific Caelrath patient transfer to the receiving house. It supports only what the entries actually show.",
+    "bonuses": []
+  },
+  "Command Circuit Diagram": {
+    "name": "Command Circuit Diagram",
+    "category": "Document",
+    "description": "A verified diagram of the clasp and relay actually examined. It explains a finite isolation procedure, not universal control over souls or foreign devices.",
+    "bonuses": []
+  },
+  "Thaurivex's Broken Diadem": {
+    "name": "Thaurivex's Broken Diadem",
+    "category": "Relic",
+    "description": "The fractured regulator recovered after Thaurivex was defeated or safely disabled beneath Caelrath Palace. Its inert fittings recall the end of that apparatus; no bound soul or new spell is stored in it.",
+    "bonuses": []
+  },
+  "Violet Court Saber": {
+    "name": "Violet Court Saber",
+    "category": "Weapon",
+    "description": "A balanced cavalry-style saber with a plain blue grip. Useful in narrow terrace streets.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 1
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 65,
+    "slot": "weapon"
+  },
+  "Starward Shield": {
+    "name": "Starward Shield",
+    "category": "Armor",
+    "description": "A service shield with a gold celestial device, strong straps and a replaceable inner pad.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 3
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 65
+  },
+  "Canal Hook": {
+    "name": "Canal Hook",
+    "category": "Tool",
+    "description": "A blunt working hook on one intact pole, for ropes and floating debris. It is not a grappling device that can lift any weight.",
+    "bonuses": [],
+    "tier": "mundane",
+    "estimatedValue": 18
+  },
+  "Caelrath Practice Foil": {
+    "name": "Caelrath Practice Foil",
+    "category": "Weapon",
+    "description": "A flexible guarded practice blade for controlled fencing. Its safety depends on actual restraint.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 1
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 65,
+    "slot": "weapon"
+  },
+  "Quarry Wedge Kit": {
+    "name": "Quarry Wedge Kit",
+    "category": "Tool",
+    "description": "Matched wedges and a small hammer for careful stonework, carried in oiled cloth.",
+    "bonuses": [],
+    "tier": "mundane",
+    "estimatedValue": 18
+  },
+  "Glasswright Lenses": {
+    "name": "Glasswright Lenses",
+    "category": "Tool",
+    "description": "Protective fitted lenses for ordinary workshop glare and flying fragments.",
+    "bonuses": [],
+    "tier": "mundane",
+    "estimatedValue": 18
+  },
+  "Violet Weather Cloak": {
+    "name": "Violet Weather Cloak",
+    "category": "Armor",
+    "description": "A sturdy wool cloak with a treated outer shoulder and a deep practical hood.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 3
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 65
+  },
+  "Crownwater Survey Cord": {
+    "name": "Crownwater Survey Cord",
+    "category": "Tool",
+    "description": "A marked cord and small plummet for short ordinary measurements.",
+    "bonuses": [],
+    "tier": "mundane",
+    "estimatedValue": 18
+  },
+  "Pilgrim Meal Parcel": {
+    "name": "Pilgrim Meal Parcel",
+    "category": "Consumable",
+    "description": "Bread, cheese and preserved fruit wrapped for one ordinary meal.",
+    "bonuses": [],
+    "tier": "mundane",
+    "estimatedValue": 18
+  },
+  "Starflower Salve": {
+    "name": "Starflower Salve",
+    "category": "Consumable",
+    "description": "A modest locally prepared salve for minor skin irritation. Proper treatment and actual item consumption still matter.",
+    "bonuses": [],
+    "tier": "mundane",
+    "estimatedValue": 18
+  },
+  "Palewick Field Notebook": {
+    "name": "Palewick Field Notebook",
+    "category": "Tool",
+    "description": "A tough small notebook with replaceable leaves and a waterproof cover.",
+    "bonuses": [],
+    "tier": "mundane",
+    "estimatedValue": 18
+  },
+  "Brass Clasp Probe": {
+    "name": "Brass Clasp Probe",
+    "category": "Tool",
+    "description": "A fine insulated probe for compatible small mana circuits. Identifying the circuit and using Magitech skill remain necessary.",
+    "bonuses": [],
+    "tier": "mundane",
+    "estimatedValue": 18
+  },
+  "Harbor Rescue Line": {
+    "name": "Harbor Rescue Line",
+    "category": "Tool",
+    "description": "A coiled sound rope with a throwing weight for reachable rescue work.",
+    "bonuses": [],
+    "tier": "mundane",
+    "estimatedValue": 18
+  },
+  "Dalcourt Travel Case": {
+    "name": "Dalcourt Travel Case",
+    "category": "Armor",
+    "description": "A robust close-fitting shoulder case that keeps papers dry during ordinary journeys.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 3
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 65
+  },
+  "Amethyst Ward Focus": {
+    "name": "Amethyst Ward Focus",
+    "category": "Tool",
+    "description": "A prepared focus for a learned defensive working. It supplies no spell or inexhaustible Mana.",
+    "bonuses": [],
+    "tier": "mundane",
+    "estimatedValue": 18
+  },
+  "Ivory Service Spear": {
+    "name": "Ivory Service Spear",
+    "category": "Weapon",
+    "description": "One continuous hardwood shaft with a securely attached steel head, built for a trained two-handed guard.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 1
+      }
+    ],
+    "tier": "mundane",
+    "estimatedValue": 65,
+    "slot": "weapon"
+  },
+  "Borrowed Institute Lens": {
+    "name": "Borrowed Institute Lens",
+    "category": "Document",
+    "description": "A particular borrowed laboratory lens in its labeled case. Return it to its actual owner; the label is a record, not ownership transfer.",
+    "bonuses": []
+  },
+  "Glassworks Color Rods": {
+    "name": "Glassworks Color Rods",
+    "category": "Consumable",
+    "description": "A small matched set of colored glass rods for a bounded workshop job.",
+    "bonuses": [],
+    "tier": "mundane",
+    "estimatedValue": 18
+  },
+  "Starward Field Roll": {
+    "name": "Starward Field Roll",
+    "category": "Tool",
+    "description": "Clean dressings and practical treatment tools for a trained medic. Ordinary contents do not instantly restore all resources.",
+    "bonuses": [],
+    "tier": "mundane",
+    "estimatedValue": 18
   }
 }

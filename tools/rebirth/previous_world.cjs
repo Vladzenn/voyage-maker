@@ -7,6 +7,7 @@ const assert = require('assert');
 const canonical = v => Array.isArray(v) ? v.map(canonical) : v && typeof v === 'object' ? Object.fromEntries(Object.keys(v).sort().map(k => [k, canonical(v[k])])) : v;
 const hash = v => crypto.createHash('sha256').update(JSON.stringify(canonical(v))).digest('hex');
 module.exports = function previousWorld(world) {
+    world = require('../ardelis/previous_world.cjs')(world);
     if (!world.traits?.['Summoned one']) return world;
     const review = JSON.parse(fs.readFileSync(path.join(__dirname, 'review.json'), 'utf8'));
     assert.strictEqual(hash(world), review.afterHash, 'Only the exact reviewed Rebirth revision can enter the historical fixture');

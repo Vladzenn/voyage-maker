@@ -1667,5 +1667,194 @@
     "vulnerabilities": [],
     "resistances": [],
     "immunities": []
+  },
+  "Cellar Grain Rat": {
+    "name": "Cellar Grain Rat",
+    "description": "A small grain-fed rat in a food cellar. Weak tier, level 1-2, successBonus -20, damageModifier -50, healthMultiplier 0.6. One initially, no sudden pack or lethal poison.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Orchard Gnawer": {
+    "name": "Orchard Gnawer",
+    "description": "A fist-sized hard-shelled beetle chewing young fruit trees. Weak tier, level 1-3, successBonus -20, damageModifier -45, healthMultiplier 0.65. Nets, trapping and removing spoiled fruit are useful.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Culvert Scavenger": {
+    "name": "Culvert Scavenger",
+    "description": "A low long-bodied territorial animal drawn to dumped food. Level 7-10. Tracks, smell and chewed waste warn before its cramped resting place; it can be lured away.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Quarry Skitter": {
+    "name": "Quarry Skitter",
+    "description": "A stone-colored six-legged lizard on warm quarry faces. Level 8-13; one adult or a visible pair. It guards a crevice rather than hunting the entire city.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Glass Shardling": {
+    "name": "Glass Shardling",
+    "description": "A finite cluster of animated workshop glass. Level 15-20. A damaged focus sustains it, with a physical shutoff and fragments that do not multiply infinitely.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Intake Crawler": {
+    "name": "Intake Crawler",
+    "description": "A plated mineral-feeding creature in neglected water intakes. Level 18-25. Its heavy body is visible before engagement; clearing its food can draw it away.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Drowned Harness": {
+    "name": "Drowned Harness",
+    "description": "A limited spirit remnant tangled in old wreck equipment. Level 22-28. It guards one compartment or repeats a past task; naming it does not automatically free it.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Crown Ward Sentinel": {
+    "name": "Crown Ward Sentinel",
+    "description": "A decommissioned civic guard construct at a bounded post. Level 30-38. Its control plate, warning light and activation range can be studied. It is not Thaurivex.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Receiving Attendant Construct": {
+    "name": "Receiving Attendant Construct",
+    "description": "A purpose-built wheeled restraint assistant in the palace laboratory, level 25-32. It follows a finite apparatus circuit and can be jammed or disabled; not a ubiquitous city patrol.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Cradle Ward Husk": {
+    "name": "Cradle Ward Husk",
+    "description": "An incomplete brass-and-ceramic laboratory guard, level 30-38. Telegraph its grounded cable and guarded line before a fight. A controlled shutdown can neutralize it.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Glass Knives Enforcer": {
+    "name": "Glass Knives Enforcer",
+    "description": "A mortal criminal who intimidates, steals and protects a limited local operation. Usually level 18-27. Individual motives, fear, witnesses and actual local law matter.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Glass Knives Lookout": {
+    "name": "Glass Knives Lookout",
+    "description": "A local adult paid to watch one approach, usually level 10-18. A lookout can flee, lie or bargain; not every hired watcher is a skilled assassin.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Imperial Deserter": {
+    "name": "Imperial Deserter",
+    "description": "An armed former soldier, usually level 20-30, avoiding or exploiting the crown. Finite camps and real supplies; some want escape, others prey on travelers.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Starward Paladin": {
+    "name": "Starward Paladin",
+    "description": "A trained celestial knight of the Starward Oath, normally level 28-35. A finite Light-supported sword, shield or spear style, with actual orders and individual judgment. Not automatically hostile or a cultist.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Unveiled Star Adept": {
+    "name": "Unveiled Star Adept",
+    "description": "An adult inner-circle cultist using practiced Light, Soul or Enchantment workings, usually level 22-30. Some knowingly coerce recruits; others can doubt. No infinite summons or compelled divine appearance.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Terrace Cliffcat": {
+    "name": "Terrace Cliffcat",
+    "description": "A wary mountain cat on uninhabited escarpments, level 5-10. It avoids busy streets and warns around its den. A hungry animal can remain an animal.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Harbor Snapper": {
+    "name": "Harbor Snapper",
+    "description": "A large aggressive fish near exposed pilings, level 4-8. It does not leap into a market to force combat; fishing and boat access still use actual water.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Lantern Gull": {
+    "name": "Lantern Gull",
+    "description": "An ordinary coastal gull with faintly luminous throat feathers. Usually nonhostile, level 1. It steals food, nests and flees; not a secret dungeon boss.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Caelrath Courtier": {
+    "name": "Caelrath Courtier",
+    "description": "An adult noble, retainer or well-connected visitor with an individual family, taste, obligations and limits. Usually level 12-24; rank is not combat mastery. An extravagant outfit does not prove villainy, wealth without limit or royal access.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Caelrath Boutique Artisan": {
+    "name": "Caelrath Boutique Artisan",
+    "description": "An adult jeweler, perfumer, milliner, embroiderer or luxury seller with actual goods, craft knowledge and prices in marks. Usually level 10-22. Distinguish the working maker from wealthy clients; clothing and patterns vary richly.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Caelrath Bard": {
+    "name": "Caelrath Bard",
+    "description": "A working adult singer, instrumentalist, composer or storyteller, usually level 12-25. Performances have their own audience, program and payment. Sound affinity is possible, not mandatory; a beautiful voice is not compelled affection.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Caelrath Street Performer": {
+    "name": "Caelrath Street Performer",
+    "description": "An adult acrobat, puppeteer, comic, dancer or small illusionist, usually level 8-20. They have a routine, a place to work and their own audience; do not make every act a quest or a theft.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Sewer Lamplighter": {
+    "name": "Sewer Lamplighter",
+    "description": "An adult civic maintenance worker with a lamp, sound boots and practical drain knowledge, usually level 12-22. They warn about water rises and distinguish a safe inspection walk from a closed branch. Not automatically a criminal or enemy.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Drain Slime": {
+    "name": "Drain Slime",
+    "description": "A small slime eating residue in a disused drain. Usually weak tier, level 7-12, damageModifier -25 and healthMultiplier 0.8. One visible body initially; no instant splitting swarm, acid death or hidden palace origin.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Copperback Rat": {
+    "name": "Copperback Rat",
+    "description": "A larger ordinary sewer rat with a copper-colored coat, level 4-8. Signs of nesting precede a finite group. It avoids bright busy inspection routes and is not a carrier of invented instant disease.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Cistern Eel": {
+    "name": "Cistern Eel",
+    "description": "A territorial eel in old flooded maintenance channels, level 10-16. It threatens someone who enters its actual water; it cannot attack through dry walls or teleport between drains.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Construct": {
+    "name": "Construct",
+    "description": "Use the individual’s actual anatomy, occupation, intentions and learned capabilities. This type alone grants no hostility, powers or political authority.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
   }
 }

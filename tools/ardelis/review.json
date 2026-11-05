@@ -1,0 +1,4118 @@
+{
+  "baseHash": "34a2147424b9c9d0e181f5a39b914c2c274f8f24bcb47a155602647193ef9521",
+  "afterHash": "a42ec35341fb687c8fe2b0a1575108a486572821e8158c8f8d6bc0a3efff4922",
+  "contents": {
+    "npcs": [
+      "Cedran Aurevain",
+      "Isabeau Aurevain",
+      "Lysandra Aurevain",
+      "Marielle Aurevain",
+      "Céleste Aurevain",
+      "Severin Morcant",
+      "Noelle Ashford",
+      "Thaurivex",
+      "Hector Montrevel",
+      "Julienne Dalcourt",
+      "Armand Veymont",
+      "Mireille Orselle",
+      "Laurent Bellegarde",
+      "Sabine Mauclerc",
+      "Lucan Voss",
+      "Aveline Marchand",
+      "Bastien Rochefort",
+      "Nerissa Vale",
+      "Coralie Brissot",
+      "Corvin Hale",
+      "Aurélian Vauss",
+      "Séraphine Duvray",
+      "Osmond Verain",
+      "Sibylle Opal",
+      "Béatrice Nerol",
+      "Raoul Chantrel",
+      "Agathe Surn",
+      "Odette Clairmont",
+      "Perrin Fauche",
+      "Colette Marron",
+      "Étienne Roux",
+      "Madelon Vire",
+      "Solène Artaud",
+      "Matthieu Fen",
+      "Lucille Montrevel",
+      "René Vautrin",
+      "Alix Perrault",
+      "Berthe Lenoir",
+      "Maëlle Duret",
+      "Elise Vaubert",
+      "Adrien Veymont",
+      "Pauline Savat",
+      "Henri Valcour",
+      "Gaspard Helot",
+      "Yselle Mornay",
+      "Félicien Sorel",
+      "Anouk Vellin",
+      "Éloi Sarce",
+      "Nadine Courbet",
+      "Thibaut Grange",
+      "Hélène Vaudin",
+      "Corentin Delat",
+      "Mirette Aurel",
+      "Jonas Brac",
+      "Gabrielle Fane",
+      "Edmée Mott",
+      "Florent Bard",
+      "Isaline Orselle",
+      "Rosalie Vernet",
+      "Clément Saxe",
+      "Violette Senn",
+      "Octave Bellin",
+      "Émilie Sable",
+      "Fabrice Yorn",
+      "Loïc Ferrand",
+      "Aimée Tern",
+      "Marcel Dalcourt",
+      "Delphine Lys",
+      "Olivier Nacre",
+      "Léonie Sorel",
+      "Denis Ravel",
+      "Guillaume Lest",
+      "Madeleine Sève",
+      "Isidore Brin",
+      "Camille Vane",
+      "Cyrille Fable",
+      "Pascal Reeve",
+      "Nicolas Tain",
+      "Yvette Marn",
+      "Estelle Vaul",
+      "Rémy Noct",
+      "Dorian Pell",
+      "Hugo Castan",
+      "Arlette Venn",
+      "Simon Belloc",
+      "Anaïs Merville",
+      "Bruno Casse",
+      "Pascale Ardent",
+      "Fleur Davenant",
+      "Victoire Perrin",
+      "Lazare Besson",
+      "Alban Prévost",
+      "Jeanne Coeur",
+      "Lydie Valette",
+      "Hervé Valette",
+      "Cécile Aubin",
+      "Ninon Bell",
+      "Margot Fenn",
+      "Luc Marchand",
+      "Gérald Stone",
+      "Régine Vossard",
+      "Yannick Dorne",
+      "Odile Caron",
+      "Valentin Arques",
+      "Maude Tellier",
+      "Félix Vaune",
+      "Roxane Marot",
+      "Gaël Sere",
+      "Sévérine Morn",
+      "Quentin Virel",
+      "Romane Clair",
+      "Adèle Mirot",
+      "Tristan Vell",
+      "Manon Valeur",
+      "Ansel Carme"
+    ],
+    "majorNPCs": [
+      "Cedran Aurevain",
+      "Isabeau Aurevain",
+      "Lysandra Aurevain",
+      "Marielle Aurevain",
+      "Céleste Aurevain",
+      "Severin Morcant",
+      "Noelle Ashford",
+      "Thaurivex",
+      "Hector Montrevel",
+      "Julienne Dalcourt",
+      "Armand Veymont",
+      "Mireille Orselle",
+      "Laurent Bellegarde",
+      "Sabine Mauclerc",
+      "Lucan Voss",
+      "Aveline Marchand",
+      "Bastien Rochefort",
+      "Nerissa Vale",
+      "Coralie Brissot",
+      "Corvin Hale",
+      "Aurélian Vauss",
+      "Séraphine Duvray",
+      "Osmond Verain"
+    ],
+    "quests": [
+      "The Jewel before the Setting",
+      "A Scent Already Promised",
+      "The Song They Want to Hear",
+      "Below the Polished Streets",
+      "Ardelis: Passage under Seal",
+      "Ardelis: An Unhelpful Sponsor",
+      "Rebirth: The Receiving Address",
+      "Rebirth: A Voice behind Glass",
+      "Rebirth: The Command Circuit",
+      "Rebirth: When the Order Comes",
+      "Rebirth: What the Crown Received",
+      "Below the Crown: A Missing Assistant",
+      "Below the Crown: The Cooling Galleries",
+      "Below the Crown: The Unfinished Sovereign",
+      "The Star behind the Veil",
+      "The Vessel's Consent",
+      "The Shape of a Miracle",
+      "The Weight of Empty Sacks",
+      "Water for the Lower Steps",
+      "A Daughter's Guarantee",
+      "The Unpaid Uniforms",
+      "The Borrowed Finale",
+      "An Address That Never Was",
+      "The Price of a Quiet Table",
+      "Cargo with No Windows",
+      "A Knife in the Account",
+      "The Closed Transfer",
+      "The Wrong Room at the Inn",
+      "The Lens in the Fog",
+      "A Share before the Dive",
+      "The Bell below the Hull",
+      "The Prince of Good Footwork",
+      "An Experiment with Witnesses",
+      "The Missing Lens",
+      "The Copyist's Margin",
+      "One Sound Bridge",
+      "The Mews after Midnight",
+      "A Gardener's Petition",
+      "The Performance Must Be Paid",
+      "The Doctor's Refusal",
+      "Guild: Beetles in the Orchard",
+      "Guild: A Cellar That Rustles",
+      "Guild: The Millrace Screen",
+      "Guild: A Parcel over Westbridge",
+      "Guild: Loose Tile, Busy Steps",
+      "Guild: Something in the Culvert",
+      "Guild: The Quarry's Empty Face",
+      "Guild: Ropes across Cold Water",
+      "Guild: Glass That Walks",
+      "Guild: A Sound from the Intake",
+      "Guild: The Drowned Cargo",
+      "Guild: The Empty Escort Road",
+      "Guild: A Ward with Teeth",
+      "Rumor: Work beneath the Stars",
+      "Rumor: A Room and a Living",
+      "A Table for Everyone",
+      "The Note in the Pocket",
+      "An Honest Temper",
+      "A Roof before Rain",
+      "The Fallen Practice Banner",
+      "The Island Guest",
+      "The Price of Good Timber",
+      "The Player of Small Parts",
+      "Guild: Caelrath Licensure"
+    ],
+    "locations": [
+      "Opaline Arcade",
+      "Velvet Lyre Hall",
+      "Caelrath Sewers",
+      "Starfall Cathedral",
+      "Pilgrim's Rest Hospice",
+      "Chapel Steps",
+      "Vesper Bell Cloister",
+      "Starward Cemetery",
+      "Empyrean Archives",
+      "Crownwater Aqueduct",
+      "House Montrevel Estate",
+      "The High Reservoir",
+      "Royal Hawk Mews",
+      "Terrace Gardeners' Lodge",
+      "Caelrath Palace",
+      "Hall of Mirrors",
+      "Royal Petition Court",
+      "Embassy Residences",
+      "The Crown Mint",
+      "Ivory Guard Barracks",
+      "Court Wizard's Spire",
+      "Amethyst Intake Works",
+      "House Veymont Residence",
+      "Skyglass Observatory",
+      "The Old Receiving House",
+      "High Arcana Infirmary",
+      "Caelrath Courthouse",
+      "The Silver Baths",
+      "Caelrath Amphitheatre",
+      "Westbridge Watchhouse",
+      "The King's Lists",
+      "Mortar and Moss Apothecary",
+      "Ashwillow Inn",
+      "House Orselle Salon",
+      "Violet Canopy Market",
+      "The Queen's Watergardens",
+      "The Veiled Oratory",
+      "The Gilt Measure Exchange",
+      "Palewick Bookshop",
+      "Gilded Vessel Tavern",
+      "Bastion and Buckle Armory",
+      "Tern Thread Tailors",
+      "House Dalcourt Counting House",
+      "High Star Square",
+      "Caelrath Institute of Magic",
+      "Crown Watch Headquarters",
+      "Adventurer's Guild - Caelrath Branch",
+      "Civic Records Hall",
+      "The Brass Hearth Workshop",
+      "Valleygate Lodgings",
+      "Lantern House Theatre",
+      "Eastwater Bonded Warehouse",
+      "Eastwater Locks",
+      "Riveters' Lane",
+      "Low Lantern Tenements",
+      "Sable Ribbon Club",
+      "The Glassworks",
+      "Eelcatchers' Landing",
+      "Windward Mills",
+      "Outer Granaries",
+      "Orchardgate Hamlet",
+      "Cliffside Quarry",
+      "The Old Culvert",
+      "Kingsward Gate",
+      "The Pearl and Thistle",
+      "Caravan Licensing Yard",
+      "Caelrath Portal Hall",
+      "The Wayfarers' Hostel",
+      "Southbank Homes",
+      "Southbank School",
+      "Threadneedle Bakery",
+      "The Common Table",
+      "Ropewalk Court",
+      "Stonehearth Smithy",
+      "Crown Remand House",
+      "Caelrath Harbor",
+      "Crownlight Lighthouse",
+      "The Harbormaster's Lodge",
+      "Saltgull Shipwrights",
+      "The Customs Arcade",
+      "The Chainbreak Docks",
+      "Starwatch Isle",
+      "The Sunken Bell",
+      "Starward Commandery"
+    ],
+    "regions": [
+      "Starfall Heights",
+      "Crownwater Terraces",
+      "The Imperial Crown",
+      "High Arcana Ward",
+      "Westbridge Ward",
+      "Violet Market Ward",
+      "Celestial Ward",
+      "Eastwater Ward",
+      "Windmill Escarpment",
+      "Kingsward Gate",
+      "Southbank Ward",
+      "Lantern Harbors"
+    ],
+    "newItems": [
+      "Ardelis Portal Key",
+      "Ardelis Transit Writ",
+      "Receiving Transfer Record",
+      "Command Circuit Diagram",
+      "Thaurivex's Broken Diadem",
+      "Violet Court Saber",
+      "Starward Shield",
+      "Canal Hook",
+      "Caelrath Practice Foil",
+      "Quarry Wedge Kit",
+      "Glasswright Lenses",
+      "Violet Weather Cloak",
+      "Crownwater Survey Cord",
+      "Pilgrim Meal Parcel",
+      "Starflower Salve",
+      "Palewick Field Notebook",
+      "Brass Clasp Probe",
+      "Harbor Rescue Line",
+      "Dalcourt Travel Case",
+      "Amethyst Ward Focus",
+      "Ivory Service Spear",
+      "Borrowed Institute Lens",
+      "Glassworks Color Rods",
+      "Starward Field Roll"
+    ],
+    "newAbilities": [
+      "Starward Catch",
+      "Terrace Step",
+      "Canal Brace",
+      "Lens Glimmer",
+      "Quiet Bell",
+      "Glass Thread Ward",
+      "Drowned Breath",
+      "Star Lantern",
+      "Chain of Measure",
+      "Waking Echo",
+      "Cradle Stillness",
+      "Crownlight Intercept",
+      "Silver Pivot",
+      "Gatekeeper Brace",
+      "Service Spear Line",
+      "Under the High Guard",
+      "Hold the Landing",
+      "Regulator Isolation",
+      "Measured Overload",
+      "Falling Star Cut"
+    ],
+    "newTypes": [
+      "Cellar Grain Rat",
+      "Orchard Gnawer",
+      "Culvert Scavenger",
+      "Quarry Skitter",
+      "Glass Shardling",
+      "Intake Crawler",
+      "Drowned Harness",
+      "Crown Ward Sentinel",
+      "Receiving Attendant Construct",
+      "Cradle Ward Husk",
+      "Glass Knives Enforcer",
+      "Glass Knives Lookout",
+      "Imperial Deserter",
+      "Starward Paladin",
+      "Unveiled Star Adept",
+      "Terrace Cliffcat",
+      "Harbor Snapper",
+      "Lantern Gull",
+      "Caelrath Courtier",
+      "Caelrath Boutique Artisan",
+      "Caelrath Bard",
+      "Caelrath Street Performer",
+      "Sewer Lamplighter",
+      "Drain Slime",
+      "Copperback Rat",
+      "Cistern Eel",
+      "Construct"
+    ]
+  },
+  "rows": [
+    {
+      "path": [
+        "abilities",
+        "Canal Brace"
+      ],
+      "kind": "added",
+      "afterHash": "732c1429ba502d12b6e95da6469866249e01eb21fa99ddfbb9a97f55290b9544"
+    },
+    {
+      "path": [
+        "abilities",
+        "Chain of Measure"
+      ],
+      "kind": "added",
+      "afterHash": "bc37a3d5781526eed7c35ceca2790550d4a3e00381bc62061d91c05ec2551fd7"
+    },
+    {
+      "path": [
+        "abilities",
+        "Cradle Stillness"
+      ],
+      "kind": "added",
+      "afterHash": "9ece51cab7f2b049fb480f34287448bcaac1d332afdfb8c53b8da7d690cad49b"
+    },
+    {
+      "path": [
+        "abilities",
+        "Crownlight Intercept"
+      ],
+      "kind": "added",
+      "afterHash": "8efe96ed970f4ca612b0e80fe5ae8cd275682a20c9f52572caae3af40b726b5e"
+    },
+    {
+      "path": [
+        "abilities",
+        "Drowned Breath"
+      ],
+      "kind": "added",
+      "afterHash": "725a391e3219622d16bc8f28d55edf51845425beefb5e071e2ed6f7cafd5b806"
+    },
+    {
+      "path": [
+        "abilities",
+        "Falling Star Cut"
+      ],
+      "kind": "added",
+      "afterHash": "760d66a9b4f63e7fc39cde3347f1d76d92f046e07474ef1e8ec6b0b6bd900300"
+    },
+    {
+      "path": [
+        "abilities",
+        "Gatekeeper Brace"
+      ],
+      "kind": "added",
+      "afterHash": "c99febe4f3db2c7191d7f282ca7327e92807abe060412aa2677367159f5034fe"
+    },
+    {
+      "path": [
+        "abilities",
+        "Glass Thread Ward"
+      ],
+      "kind": "added",
+      "afterHash": "fc16742209251115d59072099d888ae41b2394cdc3964aa2f405353197ef8e27"
+    },
+    {
+      "path": [
+        "abilities",
+        "Hold the Landing"
+      ],
+      "kind": "added",
+      "afterHash": "12e38f6c80ed1ed210cefb5ccc9342b63ca39a6ba98a5bb05cd84073174290b5"
+    },
+    {
+      "path": [
+        "abilities",
+        "Lens Glimmer"
+      ],
+      "kind": "added",
+      "afterHash": "8d8f7070ccedf8ed02f2cc778479caadd1cc389a0c03f526c071fc4af25a844e"
+    },
+    {
+      "path": [
+        "abilities",
+        "Measured Overload"
+      ],
+      "kind": "added",
+      "afterHash": "04f504dfc90c3e348a8c37c0ce9c7e09c8486ab2790feb0e35f3c5c94d09dc99"
+    },
+    {
+      "path": [
+        "abilities",
+        "Quiet Bell"
+      ],
+      "kind": "added",
+      "afterHash": "17d6ff8f323ff8bcd11707f2e5ceecb567e50caf53c59247bb0bc582142a3c76"
+    },
+    {
+      "path": [
+        "abilities",
+        "Regulator Isolation"
+      ],
+      "kind": "added",
+      "afterHash": "799f238dfd99d686af486d168bb417f37b6b3223e48dff7eeaf2db42e38b568e"
+    },
+    {
+      "path": [
+        "abilities",
+        "Service Spear Line"
+      ],
+      "kind": "added",
+      "afterHash": "48f47d5a27f867ac14104f77abf4ce95ae4d3bda3da89c83b01805e6ecead0ec"
+    },
+    {
+      "path": [
+        "abilities",
+        "Silver Pivot"
+      ],
+      "kind": "added",
+      "afterHash": "5d02b014671a4ead9143a76a32ead46657bfc52db3548818c85b5ac76be3f91e"
+    },
+    {
+      "path": [
+        "abilities",
+        "Star Lantern"
+      ],
+      "kind": "added",
+      "afterHash": "281dd11d7847fbd0774963236c61430a780f1af71475547788730fdc3c0e8171"
+    },
+    {
+      "path": [
+        "abilities",
+        "Starward Catch"
+      ],
+      "kind": "added",
+      "afterHash": "b137a75bf3c7c63833d9959e41575f0bc62f328738fbae4e2840888a4cb9f0d0"
+    },
+    {
+      "path": [
+        "abilities",
+        "Terrace Step"
+      ],
+      "kind": "added",
+      "afterHash": "a79edffce8d3c162895752a8b88c938f93cb88df721c76c041fefcf813cbde90"
+    },
+    {
+      "path": [
+        "abilities",
+        "Under the High Guard"
+      ],
+      "kind": "added",
+      "afterHash": "ded3b590f882f8b4e16caf9b0a59e95d58605371c690a695ed5737026164a5dd"
+    },
+    {
+      "path": [
+        "abilities",
+        "Waking Echo"
+      ],
+      "kind": "added",
+      "afterHash": "024cafe8ef5d0f4c005a9e6c152c268c8310cacdec9f161b3c88ce98c130a1c8"
+    },
+    {
+      "path": [
+        "encounterElements",
+        "Caelrath — Outer Works and Water"
+      ],
+      "kind": "added",
+      "afterHash": "eb9dfb233316aee6774f27ccf0b61ac822dc6fbc8027dc4175520b7ddf4afec7"
+    },
+    {
+      "path": [
+        "encounterElements",
+        "Caelrath — Streets and Terraces"
+      ],
+      "kind": "added",
+      "afterHash": "8650e1981d1012f3ada1719d5f160a1f9147f9a4013192c689af16e3e453920f"
+    },
+    {
+      "path": [
+        "factions",
+        "Ardelis"
+      ],
+      "kind": "added",
+      "afterHash": "567f4a97106f1e09c98bc746a4e6bc8e7adb6cc8f239bd0c8c145b53c8df2050"
+    },
+    {
+      "path": [
+        "factions",
+        "Church of the High Star"
+      ],
+      "kind": "added",
+      "afterHash": "bd32a693c4e4cf7e949b98396002fd24f3a13b8830bd2c726b7858cb286f6382"
+    },
+    {
+      "path": [
+        "factions",
+        "House Dalcourt"
+      ],
+      "kind": "added",
+      "afterHash": "d7e1c5747aa211c62623a2a5e3e2004b1cc95b68f5e53b2cadc1064ed42dcec0"
+    },
+    {
+      "path": [
+        "factions",
+        "House Montrevel"
+      ],
+      "kind": "added",
+      "afterHash": "463c24ebca41ac40c8efac91dc2071dd21779f0997a5e90136deb797b53e5cb0"
+    },
+    {
+      "path": [
+        "factions",
+        "House Orselle"
+      ],
+      "kind": "added",
+      "afterHash": "be34d1c6541fdf40425302ef6e2a3e2e827618d040df92e684509da8e6f69b70"
+    },
+    {
+      "path": [
+        "factions",
+        "House Veymont"
+      ],
+      "kind": "added",
+      "afterHash": "f7527b9bc4a698673f2d0e7de9012db4ea6fc80fc7f0e38f1fbca9f778bb3523"
+    },
+    {
+      "path": [
+        "factions",
+        "Imperial Court of Ardelis"
+      ],
+      "kind": "added",
+      "afterHash": "8c84bf7086409380d2c8cf8fca6d5e82a003b0e916c8d080e1d0641b73bfd0a0"
+    },
+    {
+      "path": [
+        "factions",
+        "Ivory Guard"
+      ],
+      "kind": "added",
+      "afterHash": "e029011c226b555543d2a2b5aaaa97907591f29923ea4feeceb65a8e71c5518c"
+    },
+    {
+      "path": [
+        "factions",
+        "Order of the Starward Oath"
+      ],
+      "kind": "added",
+      "afterHash": "d4b86ee175b2c6119219fa711c45e531b83d89138510264019c51495df26d6e3"
+    },
+    {
+      "path": [
+        "factions",
+        "The Glass Knives"
+      ],
+      "kind": "added",
+      "afterHash": "9967200cdf2c94e9351cee1c15629a4f8e01f99cc8cdb879d5fe9c6a76bbfe55"
+    },
+    {
+      "path": [
+        "factions",
+        "The Unveiled Star"
+      ],
+      "kind": "added",
+      "afterHash": "ecd66c2cc35cf061df8a79f7855a4a63d9a4243406725b06160a1c07045ddf7b"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Amethyst Ward Focus"
+      ],
+      "kind": "added",
+      "afterHash": "c1c051f07f0f11ef3a7bcc4b49bc1278b4ac124688140f54a0b33871a86e3df8"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Ardelis Portal Key"
+      ],
+      "kind": "added",
+      "afterHash": "1a9058b6585c56424cfca957a8f592e7d1c4f1d00e238d24fb60d98a6232502c"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Ardelis Transit Writ"
+      ],
+      "kind": "added",
+      "afterHash": "608021b094399c588354933ec726a51de934f96bdfe27e7d7d9d2640ba06f2ee"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Borrowed Institute Lens"
+      ],
+      "kind": "added",
+      "afterHash": "08203ab3103cd1118d612875078f85c3c1293bdd306bc70a0f6b479df175484c"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Brass Clasp Probe"
+      ],
+      "kind": "added",
+      "afterHash": "1d8ffc9ae3a70056b2bf0ab3767e57989d26d6e2e70493a35b3f7e907d1bb1dd"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Caelrath Practice Foil"
+      ],
+      "kind": "added",
+      "afterHash": "073d869852f5d3a1acce748fb4d6815c0b03f7401e93bbd7d485e94db7e20e6a"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Canal Hook"
+      ],
+      "kind": "added",
+      "afterHash": "8f647a9b9a6095b5e7220705c2a1ef15be49e6838d9e7fc20e5a845c25e47b0e"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Command Circuit Diagram"
+      ],
+      "kind": "added",
+      "afterHash": "5d91c366d4f3aa00d3561e56b17f5e28d209d826286aadbd225e164e338e7f5b"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Crownwater Survey Cord"
+      ],
+      "kind": "added",
+      "afterHash": "5f08f8d5ccd27575c4f8552c0e47f19dc1cbb6b6e0e40183f59252030f44bd4b"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Dalcourt Travel Case"
+      ],
+      "kind": "added",
+      "afterHash": "4e482c47b1f599e375cc9353345b48df0cabe6b5636dc018e62b4299beb2332c"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Glassworks Color Rods"
+      ],
+      "kind": "added",
+      "afterHash": "0abdace81d4b6a4a80050d91c9724c92edc27de453b096fb814929553f22afee"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Glasswright Lenses"
+      ],
+      "kind": "added",
+      "afterHash": "1e490b6e871bee2b0acdd68bf01c6059c42237d7e821ae9d3c0c966abc59f66b"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Harbor Rescue Line"
+      ],
+      "kind": "added",
+      "afterHash": "161730bc422b89727643128c171d4a9eac408b9fc3219dda4be0b761dca06823"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Ivory Service Spear"
+      ],
+      "kind": "added",
+      "afterHash": "c99e49e61b8871572bbce48b7a77e9cd045c0e408e4e10bc29ad6f6ef46884d8"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Palewick Field Notebook"
+      ],
+      "kind": "added",
+      "afterHash": "d95c91b34f556c0311b06f6ccfd0bd52256dbb970a3a04c27b0df107b4a19bc8"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Pilgrim Meal Parcel"
+      ],
+      "kind": "added",
+      "afterHash": "12e8fcfe9149e935827ee12b5b2b0aaae6513e433cdf8e1cf49beb113d0e19a9"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Quarry Wedge Kit"
+      ],
+      "kind": "added",
+      "afterHash": "321e2180b8a28858ba67e262e79a783f21b7fab27b10c227d74cd72991ef0f80"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Receiving Transfer Record"
+      ],
+      "kind": "added",
+      "afterHash": "75d3e2a6a87ce37c38c5b2b587a8ddbe444ead566a5d2d7083768b57daceb4c4"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Starflower Salve"
+      ],
+      "kind": "added",
+      "afterHash": "797abd10e8f50cec3f0d6971791adbf061650a8c080e73b3c8dca25b0e635340"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Starward Field Roll"
+      ],
+      "kind": "added",
+      "afterHash": "6c40a15a563016b35d87e6b7d7dba8981f5293a81f16ccbf21665a253689f065"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Starward Shield"
+      ],
+      "kind": "added",
+      "afterHash": "fc46813a65bdfddb6035b5ad7c5299b6d5c6d730fc1237010f1201f3860a42d4"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Thaurivex's Broken Diadem"
+      ],
+      "kind": "added",
+      "afterHash": "338f90c78e6b5101592056daf764812429ced4800c5d32e25999cbc65fd06965"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Violet Court Saber"
+      ],
+      "kind": "added",
+      "afterHash": "5a28b41fe579560e1bc97a59851a0548e08033a0b937de8b279a284ef8e36e0d"
+    },
+    {
+      "path": [
+        "itemTypes",
+        "Violet Weather Cloak"
+      ],
+      "kind": "added",
+      "afterHash": "2709fbce72a3b046945406cd5cf52531b829716b4756bc60f333dc54379a1d2d"
+    },
+    {
+      "path": [
+        "locations",
+        "Adventurer's Guild - Caelrath Branch"
+      ],
+      "kind": "added",
+      "afterHash": "9d461a5b8effcc7dc1939740883cac98093d1cc4747046c94c8a889ee3b665b3"
+    },
+    {
+      "path": [
+        "locations",
+        "Amethyst Intake Works"
+      ],
+      "kind": "added",
+      "afterHash": "eb83ddf071e46539ecc784013a105cc546eed6139b5535bbbb53fe6bf7898f6c"
+    },
+    {
+      "path": [
+        "locations",
+        "Ashwillow Inn"
+      ],
+      "kind": "added",
+      "afterHash": "7388d5b05ae52411400713277383474cba06316496fe528967c8a09f8e01da4b"
+    },
+    {
+      "path": [
+        "locations",
+        "Bastion and Buckle Armory"
+      ],
+      "kind": "added",
+      "afterHash": "a912763e67314f740f3eb6fe0b6a7fc20f4c343989a232dc762beec30f176520"
+    },
+    {
+      "path": [
+        "locations",
+        "Caelrath Amphitheatre"
+      ],
+      "kind": "added",
+      "afterHash": "665dcf43bb35a4700ef4637a3e43c2514c00baf27a9ace64dea72e7e5be805d4"
+    },
+    {
+      "path": [
+        "locations",
+        "Caelrath Courthouse"
+      ],
+      "kind": "added",
+      "afterHash": "c84a355f66384aae6aad9e5a6ce4a240408dac2b16c9e897475291caf4aace37"
+    },
+    {
+      "path": [
+        "locations",
+        "Caelrath Harbor"
+      ],
+      "kind": "added",
+      "afterHash": "1b0bcf73655947bcf08bbf5a0c3a5d2f084d8c0b480ae915724a7de3dacb9075"
+    },
+    {
+      "path": [
+        "locations",
+        "Caelrath Institute of Magic"
+      ],
+      "kind": "added",
+      "afterHash": "ad1c1636c17d329313364a0b5162659fb0f900ae4ee9f95711438999b792b223"
+    },
+    {
+      "path": [
+        "locations",
+        "Caelrath Palace"
+      ],
+      "kind": "added",
+      "afterHash": "29f1f6b836342fa54c56bbdf5cf29240c1775350861d6e096769d01f4530c73e"
+    },
+    {
+      "path": [
+        "locations",
+        "Caelrath Portal Hall"
+      ],
+      "kind": "added",
+      "afterHash": "977879597e037a93c92f9560fe7caf212ce1a0c126ba0d27a3f0ef10df633a8f"
+    },
+    {
+      "path": [
+        "locations",
+        "Caelrath Sewers"
+      ],
+      "kind": "added",
+      "afterHash": "687bebe93d1e9699960025ae17ca438d03e2f2a504ef38e0b073f42271e7a4b7"
+    },
+    {
+      "path": [
+        "locations",
+        "Caravan Licensing Yard"
+      ],
+      "kind": "added",
+      "afterHash": "66e623853a1a4c42b591d8d4285200d087842eb27856af61d9bbf512c2e3d430"
+    },
+    {
+      "path": [
+        "locations",
+        "Chapel Steps"
+      ],
+      "kind": "added",
+      "afterHash": "4037667c0dcd85de4608ec2480f3ef3c33667ea2a78d2a71f16869ef20fc1e82"
+    },
+    {
+      "path": [
+        "locations",
+        "Civic Records Hall"
+      ],
+      "kind": "added",
+      "afterHash": "c2b3abf48bf368688c54a7eca8dd7c6b4daa12a643ab4afc92ac9121812faf28"
+    },
+    {
+      "path": [
+        "locations",
+        "Cliffside Quarry"
+      ],
+      "kind": "added",
+      "afterHash": "f88c0c6d5c17426a723e94b0b80efce010b5d12053676a339c820fb0a7e4a187"
+    },
+    {
+      "path": [
+        "locations",
+        "Court Wizard's Spire"
+      ],
+      "kind": "added",
+      "afterHash": "c5db200f21451a3f678cc6c00c60d9bb7c017276858dfdf50b2b606f93787ac0"
+    },
+    {
+      "path": [
+        "locations",
+        "Crown Remand House"
+      ],
+      "kind": "added",
+      "afterHash": "08e5e0ba7a88222bfd6a7df5543591199b89d33737d69228d62f7cd11a00822a"
+    },
+    {
+      "path": [
+        "locations",
+        "Crown Watch Headquarters"
+      ],
+      "kind": "added",
+      "afterHash": "cc02170fc784a6d905c8aa5f1f71cd1df1c191fe097d059145d42317f8098890"
+    },
+    {
+      "path": [
+        "locations",
+        "Crownlight Lighthouse"
+      ],
+      "kind": "added",
+      "afterHash": "90210e916e7afaf01479791b65582ae86039102917b0ed63b44fb5040f09e2fd"
+    },
+    {
+      "path": [
+        "locations",
+        "Crownwater Aqueduct"
+      ],
+      "kind": "added",
+      "afterHash": "bb0ccb0297a1c95489bc960a1462128f82c6459a4d40c20e844178b866912506"
+    },
+    {
+      "path": [
+        "locations",
+        "Eastwater Bonded Warehouse"
+      ],
+      "kind": "added",
+      "afterHash": "4cce17e5b8b01893f661d9a907cff13c327a5a6a9e3c8737e0c3015ec564b2b9"
+    },
+    {
+      "path": [
+        "locations",
+        "Eastwater Locks"
+      ],
+      "kind": "added",
+      "afterHash": "dd0f9e6287fb3a21380564bc2e7a12fb948f2668173a4c1080ced00f8f40b313"
+    },
+    {
+      "path": [
+        "locations",
+        "Eelcatchers' Landing"
+      ],
+      "kind": "added",
+      "afterHash": "ad8da805f79131561b14a8be49d71176d1fe3da417dfc5c76b78c23a3b32147f"
+    },
+    {
+      "path": [
+        "locations",
+        "Embassy Residences"
+      ],
+      "kind": "added",
+      "afterHash": "9e39c19336cb5a8c4de4f3dd450e281cd49cacb365e3ad8a2e63ef51c082b6be"
+    },
+    {
+      "path": [
+        "locations",
+        "Empyrean Archives"
+      ],
+      "kind": "added",
+      "afterHash": "3629a55af1d16fdb89901a2e0008bac542c8945dabdb27460b0217f587d676ef"
+    },
+    {
+      "path": [
+        "locations",
+        "Evertree Base",
+        "areas",
+        "Evertree Base - Portal Room",
+        "description"
+      ],
+      "kind": "changed",
+      "before": "A vaulted transit chamber beneath the Evertree's rootward structures, reached through the controlled entrance from Rear Palace Walk. Stone-framed arches serve the Drakenspire and Asterveil routes. An issued route key opens its matching passage; permitted passengers need not cast. The room receives return traffic from both routes. Destination keys select the two ordinary outbound arches. Fixed return arches lead directly back to this room, with no second landing request. A Glowhaven Portal Key records that same home route; it does not create another portal. This is the only portal room in Glowhaven. External returns end on its floor; another city landing is never a route choice. An additional torii-marked arch serves Akitsuhara. Its Oni Nation Portal Key can be issued by an authorized transit delegate here for a legitimate journey, alongside the existing destination keys.",
+      "afterHash": "2a05f7ff902ead66ddbef1a22d2f2fc4212148afd6b24afde94def925766f382"
+    },
+    {
+      "path": [
+        "locations",
+        "Gilded Vessel Tavern"
+      ],
+      "kind": "added",
+      "afterHash": "44a0c37bda65d60d6bfc1e899ec856bc2a8ab5d0ddecc338a53bdb67c2dcbfc8"
+    },
+    {
+      "path": [
+        "locations",
+        "Hall of Mirrors"
+      ],
+      "kind": "added",
+      "afterHash": "b24c0525f43cffe9f2325da648faf7e69152cc0f7a7db7dd509a05d5c1abac03"
+    },
+    {
+      "path": [
+        "locations",
+        "High Arcana Infirmary"
+      ],
+      "kind": "added",
+      "afterHash": "6683f346b1f811f7fca4094567ff32cf8df70484afc21022e8c16f06ecc7396d"
+    },
+    {
+      "path": [
+        "locations",
+        "High Star Square"
+      ],
+      "kind": "added",
+      "afterHash": "cda0f2d40a8d1e368c39a7620f3df75ba6012900c738cc69c61882fcb83e3d56"
+    },
+    {
+      "path": [
+        "locations",
+        "House Dalcourt Counting House"
+      ],
+      "kind": "added",
+      "afterHash": "2ba6d9320566d4f903a31ae961a82286fa20278e7a717e8f6b8f54ddf70c3d68"
+    },
+    {
+      "path": [
+        "locations",
+        "House Montrevel Estate"
+      ],
+      "kind": "added",
+      "afterHash": "3b0c7c597a066497ffbe7891f35dd3e59d15d827c6e71a96ed08e4d1aef96ff6"
+    },
+    {
+      "path": [
+        "locations",
+        "House Orselle Salon"
+      ],
+      "kind": "added",
+      "afterHash": "f429ac25c46ae8d353da588eb226c42b2fcaf962c893cad1a2586030cc83c304"
+    },
+    {
+      "path": [
+        "locations",
+        "House Veymont Residence"
+      ],
+      "kind": "added",
+      "afterHash": "f49f562b0303403073502f4e30184751e587eb513f436437630729d0c33be651"
+    },
+    {
+      "path": [
+        "locations",
+        "Ivory Guard Barracks"
+      ],
+      "kind": "added",
+      "afterHash": "6faf0b4308707494cac0417e5dc676af8132e2792420467456eab03622ff86df"
+    },
+    {
+      "path": [
+        "locations",
+        "Kingsward Gate"
+      ],
+      "kind": "added",
+      "afterHash": "56fd59cd0b45c26809824d22528007aba94513c7cc7c98354036df5004c29f11"
+    },
+    {
+      "path": [
+        "locations",
+        "Lantern House Theatre"
+      ],
+      "kind": "added",
+      "afterHash": "dc9e4277e98b938772b3817b92a94103d9d85e442d54439ee56b92e7403b6fb3"
+    },
+    {
+      "path": [
+        "locations",
+        "Low Lantern Tenements"
+      ],
+      "kind": "added",
+      "afterHash": "d840dafc194f5f32f31fcf9f9fd82e91e22fb0a04d568bc20132c24eecb36fa9"
+    },
+    {
+      "path": [
+        "locations",
+        "Mortar and Moss Apothecary"
+      ],
+      "kind": "added",
+      "afterHash": "66b08f1038eb0094b97c3748801e0539334cba2b870c57cfb979080cd0996c3d"
+    },
+    {
+      "path": [
+        "locations",
+        "Opaline Arcade"
+      ],
+      "kind": "added",
+      "afterHash": "e0b396002bcd8a75d4f6f1dd54032aea3a523d36f4865f8774e2391a4aaf1944"
+    },
+    {
+      "path": [
+        "locations",
+        "Orchardgate Hamlet"
+      ],
+      "kind": "added",
+      "afterHash": "61897db53ac058047b002ccb913ab5fa7dc9b37f58354e9d48576fb7e7414e9a"
+    },
+    {
+      "path": [
+        "locations",
+        "Outer Granaries"
+      ],
+      "kind": "added",
+      "afterHash": "6f357b597733c20245f1ca4fbfc537df2c79e8d33bd399b6e91bfc000012161a"
+    },
+    {
+      "path": [
+        "locations",
+        "Palewick Bookshop"
+      ],
+      "kind": "added",
+      "afterHash": "57259bde66f010f520ed888543df65e55df8d3a7e5e5812d5f34876fba08fb47"
+    },
+    {
+      "path": [
+        "locations",
+        "Pilgrim's Rest Hospice"
+      ],
+      "kind": "added",
+      "afterHash": "927ebb46e9f897bf3761334a5982d13391ddf3612d02eb0a8d48181afd5900a0"
+    },
+    {
+      "path": [
+        "locations",
+        "Riveters' Lane"
+      ],
+      "kind": "added",
+      "afterHash": "fbd3824ed6ee3a037b336132a32d5366f6649ac6dda0a8089477353a64fd2249"
+    },
+    {
+      "path": [
+        "locations",
+        "Ropewalk Court"
+      ],
+      "kind": "added",
+      "afterHash": "3f113ef4046c5239e5e8bb3c5d8300f575a90dfcf5b309c8f2e41981668ff391"
+    },
+    {
+      "path": [
+        "locations",
+        "Royal Hawk Mews"
+      ],
+      "kind": "added",
+      "afterHash": "2d2ec7aca02b9cc0e10fe43fb3d94896a24a0d38c2f9152af42da21bd215ac57"
+    },
+    {
+      "path": [
+        "locations",
+        "Royal Petition Court"
+      ],
+      "kind": "added",
+      "afterHash": "73143c08cee109741c047f2445977556750429646c2ffab9103f4c04b0fcc4fe"
+    },
+    {
+      "path": [
+        "locations",
+        "Sable Ribbon Club"
+      ],
+      "kind": "added",
+      "afterHash": "1c4cbc178bef35ff83947f95704b6db88e6aa9e1638330d1f3250e18ad2caa6a"
+    },
+    {
+      "path": [
+        "locations",
+        "Saltgull Shipwrights"
+      ],
+      "kind": "added",
+      "afterHash": "6883adb4185d192298c4dae5091b5a78b30b2d368c7c1420ad7467430b16b69e"
+    },
+    {
+      "path": [
+        "locations",
+        "Skyglass Observatory"
+      ],
+      "kind": "added",
+      "afterHash": "7fbef9bfb65e750db1a7d462f3e427730e8765edece909a357ca6974415ad57a"
+    },
+    {
+      "path": [
+        "locations",
+        "Southbank Homes"
+      ],
+      "kind": "added",
+      "afterHash": "e9ff67d66af6e1cdb3f2d2b92879fa542f36523ccf1b9b90c82cb11ca42ca0fa"
+    },
+    {
+      "path": [
+        "locations",
+        "Southbank School"
+      ],
+      "kind": "added",
+      "afterHash": "87baa41282b878bb7dedc16281c348a696173d4b2cb546efecdec13d8b45849b"
+    },
+    {
+      "path": [
+        "locations",
+        "Starfall Cathedral"
+      ],
+      "kind": "added",
+      "afterHash": "520a68e14b2d687faeda2df5fd8b5dc33cb412f5284a184c26975810b9e59c40"
+    },
+    {
+      "path": [
+        "locations",
+        "Starward Cemetery"
+      ],
+      "kind": "added",
+      "afterHash": "64a388a6afbc52bb7876147e45a2e29e6f157d46634fd55139800488b7800fc1"
+    },
+    {
+      "path": [
+        "locations",
+        "Starward Commandery"
+      ],
+      "kind": "added",
+      "afterHash": "015311b03e06e41f26773469a0bf0a09b821d572b1a97b57d6c260e3e90dc881"
+    },
+    {
+      "path": [
+        "locations",
+        "Starwatch Isle"
+      ],
+      "kind": "added",
+      "afterHash": "3de416885632f7902b62140fa1be27190b7eb7683eb8ce117e864937a573608f"
+    },
+    {
+      "path": [
+        "locations",
+        "Stonehearth Smithy"
+      ],
+      "kind": "added",
+      "afterHash": "4652d00766929832b5be1fa1f7c161a6491747188b6a21cf2b45959570c4821b"
+    },
+    {
+      "path": [
+        "locations",
+        "Tern Thread Tailors"
+      ],
+      "kind": "added",
+      "afterHash": "40f2345883923647e9d5c9e25bd965b508d267783148efcd859f33dd33c39873"
+    },
+    {
+      "path": [
+        "locations",
+        "Terrace Gardeners' Lodge"
+      ],
+      "kind": "added",
+      "afterHash": "d7eb45ec3d894a7e02ece4ce88461aae1f94cb91944a90c9e5f63de3ae7980da"
+    },
+    {
+      "path": [
+        "locations",
+        "The Brass Hearth Workshop"
+      ],
+      "kind": "added",
+      "afterHash": "b126984497ef9efe2715417285d7763c4903d56a9cda6c4102fd99dfac5ec7e0"
+    },
+    {
+      "path": [
+        "locations",
+        "The Chainbreak Docks"
+      ],
+      "kind": "added",
+      "afterHash": "0590bf2b6ec10a61e86d1ddd2ad1f3d9540da4dc8151d8972f58b9b54a0f73ef"
+    },
+    {
+      "path": [
+        "locations",
+        "The Common Table"
+      ],
+      "kind": "added",
+      "afterHash": "915785b72b7380e047cfdc81459e9ca8ef9540d9f81e85d45eac87aa9825bc8f"
+    },
+    {
+      "path": [
+        "locations",
+        "The Crown Mint"
+      ],
+      "kind": "added",
+      "afterHash": "fb85b948475d5de74bf8978f80b8b53b8cf7e445e312d07d851206c48451a2d4"
+    },
+    {
+      "path": [
+        "locations",
+        "The Customs Arcade"
+      ],
+      "kind": "added",
+      "afterHash": "6a4487715e71073151a656f1991767786909ecac2e2dadf5f7a4aef7f29cf24f"
+    },
+    {
+      "path": [
+        "locations",
+        "The Gilt Measure Exchange"
+      ],
+      "kind": "added",
+      "afterHash": "41f7e2aef9c2650def8ece06d3f42e0dab733a09e4957641375899f985509f88"
+    },
+    {
+      "path": [
+        "locations",
+        "The Glassworks"
+      ],
+      "kind": "added",
+      "afterHash": "53d786fc43a7ce7ee2063362e4dfbf0b6aa1b1f394f01c60b2ac31d15773538b"
+    },
+    {
+      "path": [
+        "locations",
+        "The Harbormaster's Lodge"
+      ],
+      "kind": "added",
+      "afterHash": "3e32f6d82199da1a40cfe3f1e4b38f914d4fbeaedc3e4925da8cb9795ee2e419"
+    },
+    {
+      "path": [
+        "locations",
+        "The High Reservoir"
+      ],
+      "kind": "added",
+      "afterHash": "a2bf1fd67238587d2a4e1a91708b9149d87e1d21e70c05fa5c1702d53ec55738"
+    },
+    {
+      "path": [
+        "locations",
+        "The King's Lists"
+      ],
+      "kind": "added",
+      "afterHash": "4ed663449165d34af0310aaeae1f41f3ef793c85cb496780313b741a621b510f"
+    },
+    {
+      "path": [
+        "locations",
+        "The Old Culvert"
+      ],
+      "kind": "added",
+      "afterHash": "7d9757625183f7d1546fe074023992debe3981134d208f3bc748315f7420132f"
+    },
+    {
+      "path": [
+        "locations",
+        "The Old Receiving House"
+      ],
+      "kind": "added",
+      "afterHash": "9172d8a50f57329cab3378d68cff0b9b4949358a25692280133ccff8b6a50311"
+    },
+    {
+      "path": [
+        "locations",
+        "The Pearl and Thistle"
+      ],
+      "kind": "added",
+      "afterHash": "0316f0fbfca7e35d5a3e2f54e8412a97d7883f3ec82d613c4895188a91316a9f"
+    },
+    {
+      "path": [
+        "locations",
+        "The Queen's Watergardens"
+      ],
+      "kind": "added",
+      "afterHash": "dfb79e22c54d28a535db5bc803a938def7ef15729f6bab910b452131d0f1aed1"
+    },
+    {
+      "path": [
+        "locations",
+        "The Silver Baths"
+      ],
+      "kind": "added",
+      "afterHash": "482af30b93d821025c28d3d3c1b1f8a461a32bff11e2c86b157b38ebcd2f3765"
+    },
+    {
+      "path": [
+        "locations",
+        "The Sunken Bell"
+      ],
+      "kind": "added",
+      "afterHash": "d3c6741effc9b9bd0e3f29eb769145d02486568bfe92104ebc3f80a564bb2380"
+    },
+    {
+      "path": [
+        "locations",
+        "The Veiled Oratory"
+      ],
+      "kind": "added",
+      "afterHash": "7db95c8362f04eb17e0454158ab363cb3df1a55f47d0d539ea288dce85f60c7c"
+    },
+    {
+      "path": [
+        "locations",
+        "The Wayfarers' Hostel"
+      ],
+      "kind": "added",
+      "afterHash": "cabc7be799dd092a0121a58679b7a5b8aac69da2f8319c1b51a12c9523176635"
+    },
+    {
+      "path": [
+        "locations",
+        "Threadneedle Bakery"
+      ],
+      "kind": "added",
+      "afterHash": "0e24518536d55b053be1b6b9fc116625406c4b1ab063102e08cdb6f66c3633d2"
+    },
+    {
+      "path": [
+        "locations",
+        "Valleygate Lodgings"
+      ],
+      "kind": "added",
+      "afterHash": "f463d79fa26cd1ce2d7367a317cc07dcdb2e9666bd8a8030c48b3dc73a01ba7d"
+    },
+    {
+      "path": [
+        "locations",
+        "Velvet Lyre Hall"
+      ],
+      "kind": "added",
+      "afterHash": "2bc73ec45cdd53fdbe7a41de74b507a5446922c02a520d7d2d28bd09c5026146"
+    },
+    {
+      "path": [
+        "locations",
+        "Vesper Bell Cloister"
+      ],
+      "kind": "added",
+      "afterHash": "9fb774f8ad44d67e7d58722646fcac020c311b2f4cb914a6d61cf5b5b6cb80ea"
+    },
+    {
+      "path": [
+        "locations",
+        "Violet Canopy Market"
+      ],
+      "kind": "added",
+      "afterHash": "7dc74a1c662ca1bcbced7741f7fe28fd5a968287eb9cf5840a37e96d1158614c"
+    },
+    {
+      "path": [
+        "locations",
+        "Westbridge Watchhouse"
+      ],
+      "kind": "added",
+      "afterHash": "ef3fae12cb98c6072a15624a0a1dfe1db2217fe382f2b7109bd0c1c8aef8e3f8"
+    },
+    {
+      "path": [
+        "locations",
+        "Windward Mills"
+      ],
+      "kind": "added",
+      "afterHash": "ee6f08bb10804c6bc0fe9fd99e9188b34085b6c10da80be64589a342dc2afe2b"
+    },
+    {
+      "path": [
+        "npcTypes",
+        "Caelrath Bard"
+      ],
+      "kind": "added",
+      "afterHash": "cb7ceb4b7ec38752fc2147615459a3a0b514dfd8d176428bd93121b7d979d9ba"
+    },
+    {
+      "path": [
+        "npcTypes",
+        "Caelrath Boutique Artisan"
+      ],
+      "kind": "added",
+      "afterHash": "231808a07778c0d203f84be8bf2bf344207afe1f9d2edeb35278cd1ebcaf899f"
+    },
+    {
+      "path": [
+        "npcTypes",
+        "Caelrath Courtier"
+      ],
+      "kind": "added",
+      "afterHash": "98943510dc1f09d257f463f125eb0f988f2b75c4b95f6020043234b3a1837db9"
+    },
+    {
+      "path": [
+        "npcTypes",
+        "Caelrath Street Performer"
+      ],
+      "kind": "added",
+      "afterHash": "620eb905520ab4ce538762a5ba1760266d6250f2445ddbba16d66d4ac9b08678"
+    },
+    {
+      "path": [
+        "npcTypes",
+        "Cellar Grain Rat"
+      ],
+      "kind": "added",
+      "afterHash": "e771c14f990e7772a09db00abafcb60709b6f93d7010b663507c87b0ecf86101"
+    },
+    {
+      "path": [
+        "npcTypes",
+        "Cistern Eel"
+      ],
+      "kind": "added",
+      "afterHash": "ba6b80926f5c6a6df54cdca4c1ecaa90be8969c37227682fd7a6dcabffb1d9cb"
+    },
+    {
+      "path": [
+        "npcTypes",
+        "Construct"
+      ],
+      "kind": "added",
+      "afterHash": "038f9eec34d445fbaae9c4cca49fcde13e5028522cb5496064a6e8b6023f3b4f"
+    },
+    {
+      "path": [
+        "npcTypes",
+        "Copperback Rat"
+      ],
+      "kind": "added",
+      "afterHash": "98567136f3dea2f5e754bbd98f2b9a304d78cb8dcb405700bd7512b610e1796b"
+    },
+    {
+      "path": [
+        "npcTypes",
+        "Cradle Ward Husk"
+      ],
+      "kind": "added",
+      "afterHash": "fe5436d3d0508ed02cce0cdabb927ff0304700cd2a3afb85a8f7c0fe97827a5b"
+    },
+    {
+      "path": [
+        "npcTypes",
+        "Crown Ward Sentinel"
+      ],
+      "kind": "added",
+      "afterHash": "3e5fe75c6b7ce350d7abc18d352cca09481cd1827bce9248cab49106d189b98e"
+    },
+    {
+      "path": [
+        "npcTypes",
+        "Culvert Scavenger"
+      ],
+      "kind": "added",
+      "afterHash": "5bfe79c726df2081cbbda4da70837728b923a377bd12ef6a9c26682ccbe083ef"
+    },
+    {
+      "path": [
+        "npcTypes",
+        "Drain Slime"
+      ],
+      "kind": "added",
+      "afterHash": "3d7219f435bc0e28d197cb20b02e8e96d7f29615b6a6cc720ab3c243c5fe6ecb"
+    },
+    {
+      "path": [
+        "npcTypes",
+        "Drowned Harness"
+      ],
+      "kind": "added",
+      "afterHash": "14e7c9df1459e9c1e5142cedb47b5c11577c7857dc5483c745b7a3224656b6ac"
+    },
+    {
+      "path": [
+        "npcTypes",
+        "Glass Knives Enforcer"
+      ],
+      "kind": "added",
+      "afterHash": "08cb2bcb7adedb17bebcb44d16264cddb66ff664d7c4b5593c8da709926d6063"
+    },
+    {
+      "path": [
+        "npcTypes",
+        "Glass Knives Lookout"
+      ],
+      "kind": "added",
+      "afterHash": "c388735b762a4c797daa0ef088d19e4bc43996b24d441cf8c1aec66bbd17198d"
+    },
+    {
+      "path": [
+        "npcTypes",
+        "Glass Shardling"
+      ],
+      "kind": "added",
+      "afterHash": "11c8f3cc0ecee6d2dd9e98ce489026ba2b52aa95644d5248c79a440d4cecec3d"
+    },
+    {
+      "path": [
+        "npcTypes",
+        "Harbor Snapper"
+      ],
+      "kind": "added",
+      "afterHash": "34ef59482749e1c332df10ed02df09b3163ae603c622777867ccf232e6ea8d82"
+    },
+    {
+      "path": [
+        "npcTypes",
+        "Imperial Deserter"
+      ],
+      "kind": "added",
+      "afterHash": "55550a581c12cc69d22ee709b455fb7c4d5d61e52c2e1d621279e26e6483bc27"
+    },
+    {
+      "path": [
+        "npcTypes",
+        "Intake Crawler"
+      ],
+      "kind": "added",
+      "afterHash": "ac88650303d55ae92e8aab75d316b784b6bd8ba45f5e4108d94089d4c44cc84a"
+    },
+    {
+      "path": [
+        "npcTypes",
+        "Lantern Gull"
+      ],
+      "kind": "added",
+      "afterHash": "e3ae02e45a584930d514c5ba8afdb95117c20758842111dd168c8aea4659ba95"
+    },
+    {
+      "path": [
+        "npcTypes",
+        "Orchard Gnawer"
+      ],
+      "kind": "added",
+      "afterHash": "c404a0b232520df96b601c3df357a3926b4cb0f164a61743e9260dfe44c4ba01"
+    },
+    {
+      "path": [
+        "npcTypes",
+        "Quarry Skitter"
+      ],
+      "kind": "added",
+      "afterHash": "04dcf50f29472633416e2d4dde57191b7f373f4f9ec89fbf637baba379710f45"
+    },
+    {
+      "path": [
+        "npcTypes",
+        "Receiving Attendant Construct"
+      ],
+      "kind": "added",
+      "afterHash": "ba96c105942521e52638d4a9d523185ccde9af0d0a6588c856aae1c007c5e2da"
+    },
+    {
+      "path": [
+        "npcTypes",
+        "Sewer Lamplighter"
+      ],
+      "kind": "added",
+      "afterHash": "09dd57d17400538b21bbcaa9276e7ddc5c73814b372e4a70fbc55f324d5479d8"
+    },
+    {
+      "path": [
+        "npcTypes",
+        "Starward Paladin"
+      ],
+      "kind": "added",
+      "afterHash": "08a72c4f237c9e359b2132c23a7e176e81d0a0c6acfd2827d580283caa7e07a9"
+    },
+    {
+      "path": [
+        "npcTypes",
+        "Terrace Cliffcat"
+      ],
+      "kind": "added",
+      "afterHash": "ce5f7f7a421d2d84f7bdc3c717a13d720c5405f74ba1c46ec59cfba591a7576d"
+    },
+    {
+      "path": [
+        "npcTypes",
+        "Unveiled Star Adept"
+      ],
+      "kind": "added",
+      "afterHash": "e2abef40ee410b1cdac04016fdf24457547c5094b384245a9b178602cb870dc0"
+    },
+    {
+      "path": [
+        "npcs",
+        "Adrien Veymont"
+      ],
+      "kind": "added",
+      "afterHash": "1a22db86fd23a0d011e062f5da28e5a97e819178706234da7442198edeca0291"
+    },
+    {
+      "path": [
+        "npcs",
+        "Adèle Mirot"
+      ],
+      "kind": "added",
+      "afterHash": "339bc7c34986a79716fe24aee32c5a4680c7564c6cf74c8832632901940e0f24"
+    },
+    {
+      "path": [
+        "npcs",
+        "Agathe Surn"
+      ],
+      "kind": "added",
+      "afterHash": "4daa85bdb217b57ddf795185f8ac3cd28c75d5beddb5d4fb9ce9d5505fae44a9"
+    },
+    {
+      "path": [
+        "npcs",
+        "Aimée Tern"
+      ],
+      "kind": "added",
+      "afterHash": "18eaf18314164abff2fbc975fc62fdab6b58e5056acc8116a10ad7e075b49383"
+    },
+    {
+      "path": [
+        "npcs",
+        "Alban Prévost"
+      ],
+      "kind": "added",
+      "afterHash": "e119640932b7ae8bb42acbed6f00be2fffe529f45ddb83e30e9fa7b8b2d3339e"
+    },
+    {
+      "path": [
+        "npcs",
+        "Alix Perrault"
+      ],
+      "kind": "added",
+      "afterHash": "4d31a909799e3032b25588f8a8fb5167f5290ee353f0a468037ef0955ca3a7ac"
+    },
+    {
+      "path": [
+        "npcs",
+        "Anaïs Merville"
+      ],
+      "kind": "added",
+      "afterHash": "58b3669b28678af4020b071d4c8341395e920c92a8cbb6a30c22d167875f99ee"
+    },
+    {
+      "path": [
+        "npcs",
+        "Anouk Vellin"
+      ],
+      "kind": "added",
+      "afterHash": "ce222a39300dc97017e663667cb0be0da679025ce36d560eb7a8e052e2b0a700"
+    },
+    {
+      "path": [
+        "npcs",
+        "Ansel Carme"
+      ],
+      "kind": "added",
+      "afterHash": "37ce33fb28fec858e9b63f0fdd39aa07bc3841cb500713fe206341d50badf71e"
+    },
+    {
+      "path": [
+        "npcs",
+        "Arlette Venn"
+      ],
+      "kind": "added",
+      "afterHash": "3a59f865084b119bc93674a5298bcff94fc18f62dd03b349cb0475095b4066f3"
+    },
+    {
+      "path": [
+        "npcs",
+        "Armand Veymont"
+      ],
+      "kind": "added",
+      "afterHash": "8b06e7ea6cc742121971db74c40dd3d78f1a0c68673fa100a91a14a556c28350"
+    },
+    {
+      "path": [
+        "npcs",
+        "Aurélian Vauss"
+      ],
+      "kind": "added",
+      "afterHash": "09e956796aeeebbd2a744b0beb3badb8c25f4b87d9051e2e30d5dcbaba69cfde"
+    },
+    {
+      "path": [
+        "npcs",
+        "Aveline Marchand"
+      ],
+      "kind": "added",
+      "afterHash": "48943080964493d3bc335addb8814801e14db3d212844b303ce9c9e4e6bed468"
+    },
+    {
+      "path": [
+        "npcs",
+        "Bastien Rochefort"
+      ],
+      "kind": "added",
+      "afterHash": "655d6974454caa813f2355ab93f3bea54dae447e632cef6a6640aa16169f24ab"
+    },
+    {
+      "path": [
+        "npcs",
+        "Berthe Lenoir"
+      ],
+      "kind": "added",
+      "afterHash": "7edb37ba02b4c6d44e0040e539d9349d7f792ba8cbf646dbaea94d0ee7ee72b1"
+    },
+    {
+      "path": [
+        "npcs",
+        "Bruno Casse"
+      ],
+      "kind": "added",
+      "afterHash": "78ca0327aa258b72a7547e7d13b2de282e6949ec86d3d2cb020accd1af2c5c9d"
+    },
+    {
+      "path": [
+        "npcs",
+        "Béatrice Nerol"
+      ],
+      "kind": "added",
+      "afterHash": "065579c9bf47be4410a173250f72c29ed4e33d5f210709ddd40a334fc57a46bf"
+    },
+    {
+      "path": [
+        "npcs",
+        "Camille Vane"
+      ],
+      "kind": "added",
+      "afterHash": "1a718ebfb3a9fe5f56b560f2240c359dc3af7f6ce89476d03a2f78be7c04606b"
+    },
+    {
+      "path": [
+        "npcs",
+        "Cedran Aurevain"
+      ],
+      "kind": "added",
+      "afterHash": "d14e31ba07b8946852dc995180c63043ef5940b5f8f801ee753b216ca0aa6d8b"
+    },
+    {
+      "path": [
+        "npcs",
+        "Clément Saxe"
+      ],
+      "kind": "added",
+      "afterHash": "cca8932e3483ce8586f929822b97b642e00d77980a5781687c0149304ab8b8c3"
+    },
+    {
+      "path": [
+        "npcs",
+        "Colette Marron"
+      ],
+      "kind": "added",
+      "afterHash": "90262f5b5652bd29b1aa463e659847e37cc36808236e775ed9bd02cb9516739a"
+    },
+    {
+      "path": [
+        "npcs",
+        "Coralie Brissot"
+      ],
+      "kind": "added",
+      "afterHash": "c0091a0f9b65eb33f5e4f7b1119bb92693eade4d05c86f8880a62968953672ab"
+    },
+    {
+      "path": [
+        "npcs",
+        "Corentin Delat"
+      ],
+      "kind": "added",
+      "afterHash": "c7dea777ce1d0995d2b374c205dc87a134307da3c725bb105cc1e56e0430757b"
+    },
+    {
+      "path": [
+        "npcs",
+        "Corvin Hale"
+      ],
+      "kind": "added",
+      "afterHash": "ad6d66b8051983f26f29622065706a78fa48efab8c5872d20e566ac1271c40cb"
+    },
+    {
+      "path": [
+        "npcs",
+        "Cyrille Fable"
+      ],
+      "kind": "added",
+      "afterHash": "2d3fc0d5bf8d84cab5b8b311c71f8b8b8cd5bb9b4744d2c1fc2040e02b7644dd"
+    },
+    {
+      "path": [
+        "npcs",
+        "Cécile Aubin"
+      ],
+      "kind": "added",
+      "afterHash": "06f304ec4294ddfe8cd6266b2056eb0b8f4dd67b0e52414f1e99561ed433f6ce"
+    },
+    {
+      "path": [
+        "npcs",
+        "Céleste Aurevain"
+      ],
+      "kind": "added",
+      "afterHash": "4be668e7da30735cf005158b1093ceca81fbb4f9bdf380df590fbe66f3895a25"
+    },
+    {
+      "path": [
+        "npcs",
+        "Delphine Lys"
+      ],
+      "kind": "added",
+      "afterHash": "ef368567b91a5dc71d3cf404f1029c8b0a7fd17b2e4ed2814f43d80bf0aba640"
+    },
+    {
+      "path": [
+        "npcs",
+        "Denis Ravel"
+      ],
+      "kind": "added",
+      "afterHash": "cd6c36406ca49c5929c9511acf778fd26634d5b6f5f3e85ffe1ac5693e0774bb"
+    },
+    {
+      "path": [
+        "npcs",
+        "Dorian Pell"
+      ],
+      "kind": "added",
+      "afterHash": "99be458f6500777bfb21ca5f281be805d9611bca8900430f5c131b3bd039655b"
+    },
+    {
+      "path": [
+        "npcs",
+        "Edmée Mott"
+      ],
+      "kind": "added",
+      "afterHash": "e0caa2edfa67509c999c476168cce04a332af3e8d14198beed33af8654b28740"
+    },
+    {
+      "path": [
+        "npcs",
+        "Elise Vaubert"
+      ],
+      "kind": "added",
+      "afterHash": "6efbc5510d11d0e8a0c3b734321362b69cce137b843cc8823ea82d8582842b51"
+    },
+    {
+      "path": [
+        "npcs",
+        "Estelle Vaul"
+      ],
+      "kind": "added",
+      "afterHash": "59f4d693b565ced5f5357389c8a2eb78478fb2e21ee3455acd6a037b853e7fff"
+    },
+    {
+      "path": [
+        "npcs",
+        "Fabrice Yorn"
+      ],
+      "kind": "added",
+      "afterHash": "d023fbdbe6b68803958717e5d6f766ba29dcfd5538fbb73a28e59ade0e83e0a2"
+    },
+    {
+      "path": [
+        "npcs",
+        "Fleur Davenant"
+      ],
+      "kind": "added",
+      "afterHash": "ee5888e47b4b79a188e3bd15d88ba1781147e107fa7d59411018a4430859ad5b"
+    },
+    {
+      "path": [
+        "npcs",
+        "Florent Bard"
+      ],
+      "kind": "added",
+      "afterHash": "da8adc47837f72a7d36b08b8998ef4edfab5d8ceafd6a5f61da567d0f7f26c48"
+    },
+    {
+      "path": [
+        "npcs",
+        "Félicien Sorel"
+      ],
+      "kind": "added",
+      "afterHash": "5902b9feea6f190a707c236e8ceb669fca959b194365a54859b737fcb614255a"
+    },
+    {
+      "path": [
+        "npcs",
+        "Félix Vaune"
+      ],
+      "kind": "added",
+      "afterHash": "9dcccf4fcd84e70e860e1c3ff1c6cb80c97517ba735f37699d1b27d6d1bce127"
+    },
+    {
+      "path": [
+        "npcs",
+        "Gabrielle Fane"
+      ],
+      "kind": "added",
+      "afterHash": "3c11b7ab115b91a37d0c3d2720ebcff09effed57e896fd130fbfaf6cff6068c3"
+    },
+    {
+      "path": [
+        "npcs",
+        "Gaspard Helot"
+      ],
+      "kind": "added",
+      "afterHash": "683ab6cda8710911fdbaaf9ca43de11b3e0df63073bd309c452a87ac08e868a2"
+    },
+    {
+      "path": [
+        "npcs",
+        "Gaël Sere"
+      ],
+      "kind": "added",
+      "afterHash": "2025bac93755e8ba87e10ed0ee43f1a41f4b6c6c4eb62264418c20253896db2e"
+    },
+    {
+      "path": [
+        "npcs",
+        "Guillaume Lest"
+      ],
+      "kind": "added",
+      "afterHash": "3aebd2612a5c070094734d5d2d3db6c75a2e2748465ae16dd1446748e1fada77"
+    },
+    {
+      "path": [
+        "npcs",
+        "Gérald Stone"
+      ],
+      "kind": "added",
+      "afterHash": "d59573ef0f6854217aea6999fb3b5a40b6c6b552caeb91bd6d4a2c4e2dc7f324"
+    },
+    {
+      "path": [
+        "npcs",
+        "Hector Montrevel"
+      ],
+      "kind": "added",
+      "afterHash": "0aa46dea49c14af015af07898256c1a2baf41e32da01a69b44bb9887a32adecb"
+    },
+    {
+      "path": [
+        "npcs",
+        "Henri Valcour"
+      ],
+      "kind": "added",
+      "afterHash": "598b79514895825149440d7e66efb9d419255f898477ceff1ea6f14befbeb85e"
+    },
+    {
+      "path": [
+        "npcs",
+        "Hervé Valette"
+      ],
+      "kind": "added",
+      "afterHash": "54aba49e4743cc6aa308aa5b8344ba987aedf903d1b090b6e268cc25ef9e6f1e"
+    },
+    {
+      "path": [
+        "npcs",
+        "Hugo Castan"
+      ],
+      "kind": "added",
+      "afterHash": "549f657a14f83616b8da3ffa3e19b642362c4ae2f7a9afa547c22f14545797ca"
+    },
+    {
+      "path": [
+        "npcs",
+        "Hélène Vaudin"
+      ],
+      "kind": "added",
+      "afterHash": "7ac7a1c0923835d0c8c569de46082bbc3c13cce967de65c6952e17416c8fa2b1"
+    },
+    {
+      "path": [
+        "npcs",
+        "Isabeau Aurevain"
+      ],
+      "kind": "added",
+      "afterHash": "2e35b68f5f7543665dca64f34b8614812678300204cc0c0813fe3486ac9cc713"
+    },
+    {
+      "path": [
+        "npcs",
+        "Isaline Orselle"
+      ],
+      "kind": "added",
+      "afterHash": "f5fb0573b28ef097c7fcc256af6881bf6f4bbfa98391a4dbba208b24725c2558"
+    },
+    {
+      "path": [
+        "npcs",
+        "Isidore Brin"
+      ],
+      "kind": "added",
+      "afterHash": "fb8161b5d1c135fe9370721fe7e1a3825c9f4fcd1ee839a45c639ec5ea38df55"
+    },
+    {
+      "path": [
+        "npcs",
+        "Jeanne Coeur"
+      ],
+      "kind": "added",
+      "afterHash": "5738fecdb8b71f54db0d3b99017f55a798be92433e2e586b92810cfb03f05a2b"
+    },
+    {
+      "path": [
+        "npcs",
+        "Jonas Brac"
+      ],
+      "kind": "added",
+      "afterHash": "2784495767263b1eba4d07dcc798272ec6bd76b4b7b1ea9a4ef9f4a6f3627f6a"
+    },
+    {
+      "path": [
+        "npcs",
+        "Julienne Dalcourt"
+      ],
+      "kind": "added",
+      "afterHash": "6a13c3f0dc8a4afb4bebbab97a4c9ac814e25e89160949f2c7a1dfbcfb7a12ee"
+    },
+    {
+      "path": [
+        "npcs",
+        "Laurent Bellegarde"
+      ],
+      "kind": "added",
+      "afterHash": "a042e801d6005868ed34e710f969ac81ca9e9a8c885b9370d1950113b1dac7df"
+    },
+    {
+      "path": [
+        "npcs",
+        "Lazare Besson"
+      ],
+      "kind": "added",
+      "afterHash": "93246724df74af6d469b72270b16d5eae5eaff71c363f40db1da1497682617d2"
+    },
+    {
+      "path": [
+        "npcs",
+        "Loïc Ferrand"
+      ],
+      "kind": "added",
+      "afterHash": "086994e4683aad42f7969bd46ad36f8784890285ab588ce8423c4dc67fc41e71"
+    },
+    {
+      "path": [
+        "npcs",
+        "Luc Marchand"
+      ],
+      "kind": "added",
+      "afterHash": "e7c63619d1a1f252b64e4654848c1062ca269b5a48f05b6b23c22c59acd113f8"
+    },
+    {
+      "path": [
+        "npcs",
+        "Lucan Voss"
+      ],
+      "kind": "added",
+      "afterHash": "9f51bdab5845f293a95ca14f2b8a5b32038a78326e944948bc23910eeed9c498"
+    },
+    {
+      "path": [
+        "npcs",
+        "Lucille Montrevel"
+      ],
+      "kind": "added",
+      "afterHash": "2dd9731ef8ba5317bc505f2bd249084d98a9db105a34a7f48767d70d87efd7b6"
+    },
+    {
+      "path": [
+        "npcs",
+        "Lydie Valette"
+      ],
+      "kind": "added",
+      "afterHash": "b9373841a1a898cbfb5cdf553795802dd824fdf1564ee11db9d8a263845b029b"
+    },
+    {
+      "path": [
+        "npcs",
+        "Lysandra Aurevain"
+      ],
+      "kind": "added",
+      "afterHash": "17fec96849f25077918103e547702ab5627c27806ed42f83d9e74d57c9d81b7a"
+    },
+    {
+      "path": [
+        "npcs",
+        "Léonie Sorel"
+      ],
+      "kind": "added",
+      "afterHash": "5b4ee6574e7f283514ba44ce57472fe1a78f7dbdc3706001f441439752e62805"
+    },
+    {
+      "path": [
+        "npcs",
+        "Madeleine Sève"
+      ],
+      "kind": "added",
+      "afterHash": "afe6f998064c4a26f94ed177435ef149ebc73c246818e18ca75efadbeaf6dfd8"
+    },
+    {
+      "path": [
+        "npcs",
+        "Madelon Vire"
+      ],
+      "kind": "added",
+      "afterHash": "eac2ee8fb26d8c97c362f67fe5ec7fa7730abe505d713d837e486612af16d773"
+    },
+    {
+      "path": [
+        "npcs",
+        "Manon Valeur"
+      ],
+      "kind": "added",
+      "afterHash": "4b727be109d3a57375a17141e0f1b2c9ddc4b3d157da99de3be67f91c5fa9991"
+    },
+    {
+      "path": [
+        "npcs",
+        "Marcel Dalcourt"
+      ],
+      "kind": "added",
+      "afterHash": "a346fa504a72b0c53861a72d1fc8e7a8a2b9caee072e3d90f49c1a617859d984"
+    },
+    {
+      "path": [
+        "npcs",
+        "Margot Fenn"
+      ],
+      "kind": "added",
+      "afterHash": "58442200ea14a816d22f405353942623aaab701533568fa2e986cf48cb9faa14"
+    },
+    {
+      "path": [
+        "npcs",
+        "Marielle Aurevain"
+      ],
+      "kind": "added",
+      "afterHash": "fb0851f7137d1e262e9f4f9f14960c16f6ce0e0335d71272e76fa9c59f16854e"
+    },
+    {
+      "path": [
+        "npcs",
+        "Matthieu Fen"
+      ],
+      "kind": "added",
+      "afterHash": "cea4e7761645a2b9e952390bc52aa4729da113c337a1687a1238b6c895010097"
+    },
+    {
+      "path": [
+        "npcs",
+        "Maude Tellier"
+      ],
+      "kind": "added",
+      "afterHash": "e496dec96b5368164cef87f7072a5bf40a1e41c92e4e4af8ec2e4249cd6686e1"
+    },
+    {
+      "path": [
+        "npcs",
+        "Maëlle Duret"
+      ],
+      "kind": "added",
+      "afterHash": "2f53c9d1b60ff22e408c00d03a3e244ff954a6aaa1f7cfa1221741ed6b6258a3"
+    },
+    {
+      "path": [
+        "npcs",
+        "Mireille Orselle"
+      ],
+      "kind": "added",
+      "afterHash": "b8aa7769ee335c2f3d79a1372f87c6e5fd57e5c70972545440156d87b3ba1582"
+    },
+    {
+      "path": [
+        "npcs",
+        "Mirette Aurel"
+      ],
+      "kind": "added",
+      "afterHash": "38b89e3f400fb9920f47b8ddc9665bf833e0125aa691f1067467230c207f0d9b"
+    },
+    {
+      "path": [
+        "npcs",
+        "Nadine Courbet"
+      ],
+      "kind": "added",
+      "afterHash": "46e03cd894ac72f8071f5f6277b8bcf209d891faa24ec44c22f80de6e2c111b6"
+    },
+    {
+      "path": [
+        "npcs",
+        "Nerissa Vale"
+      ],
+      "kind": "added",
+      "afterHash": "a60324e21d38061f806227fe0297ce4c350ac759d1970f727c20aa9a2e15e3ba"
+    },
+    {
+      "path": [
+        "npcs",
+        "Nicolas Tain"
+      ],
+      "kind": "added",
+      "afterHash": "0b92382bf900db4e38f7f416e0280b174c50cbaf64430f4dbe9ae1fd8bbe6e61"
+    },
+    {
+      "path": [
+        "npcs",
+        "Ninon Bell"
+      ],
+      "kind": "added",
+      "afterHash": "074cc29ce156160c9ae2d3930fe61e09a12d6a00c26da64e6df3572bc58eb5f2"
+    },
+    {
+      "path": [
+        "npcs",
+        "Noelle Ashford"
+      ],
+      "kind": "added",
+      "afterHash": "8d76d9ffe2b194ef4d3f7273192fb49399479428c62ef88f33604d57b570626b"
+    },
+    {
+      "path": [
+        "npcs",
+        "Octave Bellin"
+      ],
+      "kind": "added",
+      "afterHash": "1f5323e0872455b656dee3b21de173fe845fc89af7659026b355a8d0339825e3"
+    },
+    {
+      "path": [
+        "npcs",
+        "Odette Clairmont"
+      ],
+      "kind": "added",
+      "afterHash": "4be9d78a871edf58107fc689d258eae4fbb382c8d0f4d35956b0d1f60ddf95a6"
+    },
+    {
+      "path": [
+        "npcs",
+        "Odile Caron"
+      ],
+      "kind": "added",
+      "afterHash": "6f86cf96976a66e5749354bdd21957003486ab2463c7ea766f100455c3eeece5"
+    },
+    {
+      "path": [
+        "npcs",
+        "Olivier Nacre"
+      ],
+      "kind": "added",
+      "afterHash": "109f68cbf5894265942c4822db9157811ce64d3529e3739cc68f4a7d5f0fe474"
+    },
+    {
+      "path": [
+        "npcs",
+        "Osmond Verain"
+      ],
+      "kind": "added",
+      "afterHash": "2e79790f5eb4fd0adf5983467d51fead85af54ef2510fa5199dcada20bdf0a78"
+    },
+    {
+      "path": [
+        "npcs",
+        "Pascal Reeve"
+      ],
+      "kind": "added",
+      "afterHash": "2fdf560a3d0fbc256717970d5250497fde1187c9c06e80274b2a9f708d4f0b4c"
+    },
+    {
+      "path": [
+        "npcs",
+        "Pascale Ardent"
+      ],
+      "kind": "added",
+      "afterHash": "c8db539aa6bb3c87e247959ce74e36dd4a7e7d4609962f27aa3eb7e76f1418e8"
+    },
+    {
+      "path": [
+        "npcs",
+        "Pauline Savat"
+      ],
+      "kind": "added",
+      "afterHash": "bffb6caf01cb3d0b256ec0f7f72438f96def89cdfecdde871ac763a2bd9e0bce"
+    },
+    {
+      "path": [
+        "npcs",
+        "Perrin Fauche"
+      ],
+      "kind": "added",
+      "afterHash": "0c76964c36621253ff0d4ed253064d0c1db44ed333fa97e900841e6b5a99f0fc"
+    },
+    {
+      "path": [
+        "npcs",
+        "Quentin Virel"
+      ],
+      "kind": "added",
+      "afterHash": "78546602e28b767beed6ba327f3ca34c29851571ce09837446f6f69b22f8dbb9"
+    },
+    {
+      "path": [
+        "npcs",
+        "Raoul Chantrel"
+      ],
+      "kind": "added",
+      "afterHash": "59dc5b67a8501583ec2fe8512966e0e27a515018a485f6d020106bd9baa14f11"
+    },
+    {
+      "path": [
+        "npcs",
+        "René Vautrin"
+      ],
+      "kind": "added",
+      "afterHash": "710cbfde0189cd1615dbc0afd98c02df2ea203273845eb3448ca6d79bb6de5ca"
+    },
+    {
+      "path": [
+        "npcs",
+        "Romane Clair"
+      ],
+      "kind": "added",
+      "afterHash": "bbc0d58e0a0e1027e57c233a2e86ca199dc9432870c4a85efc5bb0030a63346a"
+    },
+    {
+      "path": [
+        "npcs",
+        "Rosalie Vernet"
+      ],
+      "kind": "added",
+      "afterHash": "8ce27568f38b35712f6a7d380cc7a6d235410c4e31ec01a71a9eec2ffbf97e2c"
+    },
+    {
+      "path": [
+        "npcs",
+        "Roxane Marot"
+      ],
+      "kind": "added",
+      "afterHash": "fa9c0b9c0e79ac6cc3c932d78221b5c842b4eb0a2c51b4e8f4d051fd3d03e40d"
+    },
+    {
+      "path": [
+        "npcs",
+        "Régine Vossard"
+      ],
+      "kind": "added",
+      "afterHash": "2d244df08757a5205990063651827c00595c975d3a83fd99bf23a3fbc68e1a64"
+    },
+    {
+      "path": [
+        "npcs",
+        "Rémy Noct"
+      ],
+      "kind": "added",
+      "afterHash": "af7fd0a368b738268fc1fbbd0f3c262187417a44ca158ab28601e2791c48819f"
+    },
+    {
+      "path": [
+        "npcs",
+        "Sabine Mauclerc"
+      ],
+      "kind": "added",
+      "afterHash": "af23a92d3b3812341ee532aedf74840af17d8383b23308ad4e0eb2d1af58aa06"
+    },
+    {
+      "path": [
+        "npcs",
+        "Severin Morcant"
+      ],
+      "kind": "added",
+      "afterHash": "eae8077a41357636cf380927311524143bc162e0f3e139330f551c07b695f031"
+    },
+    {
+      "path": [
+        "npcs",
+        "Sibylle Opal"
+      ],
+      "kind": "added",
+      "afterHash": "e8c465672206253ae3ff1436a89f1a938dc925002f402567694bc0fd9ee919c2"
+    },
+    {
+      "path": [
+        "npcs",
+        "Simon Belloc"
+      ],
+      "kind": "added",
+      "afterHash": "6c73223e6d0b350751106bc094b9797afaa61d32047cb5b92b366739474f3d5f"
+    },
+    {
+      "path": [
+        "npcs",
+        "Solène Artaud"
+      ],
+      "kind": "added",
+      "afterHash": "e311e367c3baf090341a605518ae71c63062f4ffffe1d3fb72eb8f409c055699"
+    },
+    {
+      "path": [
+        "npcs",
+        "Séraphine Duvray"
+      ],
+      "kind": "added",
+      "afterHash": "9f7d981db479b9001a03e506c7996d8ab04bf1c47636ce0c4178261738965512"
+    },
+    {
+      "path": [
+        "npcs",
+        "Sévérine Morn"
+      ],
+      "kind": "added",
+      "afterHash": "fc9350a63a47176297ead7d89891ee7ff984067223217357be578194832378ac"
+    },
+    {
+      "path": [
+        "npcs",
+        "Thaurivex"
+      ],
+      "kind": "added",
+      "afterHash": "d90003ff5e3f98406066f2a2d2f4c13b1a095dd2d254b1249abc18160d313ad5"
+    },
+    {
+      "path": [
+        "npcs",
+        "Thibaut Grange"
+      ],
+      "kind": "added",
+      "afterHash": "53fa9a5d37151a6956886a68046a06cef379aad7030a40622d8d26c23c44d3d9"
+    },
+    {
+      "path": [
+        "npcs",
+        "Tristan Vell"
+      ],
+      "kind": "added",
+      "afterHash": "1bb15141dd2d2c970c4cd6a28ec828e55b17e1fe03348413fb0220964fc31e8d"
+    },
+    {
+      "path": [
+        "npcs",
+        "Valentin Arques"
+      ],
+      "kind": "added",
+      "afterHash": "16ea47fb70be2d6e2e78c622fcd1d688bae027d601229ab3b847b8f2be106ef8"
+    },
+    {
+      "path": [
+        "npcs",
+        "Valkazathoth'dmir",
+        "basicInfo"
+      ],
+      "kind": "changed",
+      "before": "Vladimir lives beyond Shadowspire’s wandering paths. He receives few guests and has a talent for making a brief, mild question feel difficult to avoid. When conversation turns to his collections, his dignity becomes surprisingly fragile.\n\nA tall ageless human man with long charcoal-black hair loosely tied back, warm amber eyes, a tired handsome face and a narrow silver streak at one temple. He wears a deep plum traveling coat with irregular brass fastenings and an old ink-blue scarf.\n\nEquipment: A plain ash staff, a ring of mismatched brass keys, an old notebook and a bag of carefully sorted river pebbles.\n\n- Gender: male\n- Species: Human\n- Magic affinity: Arcane, Space, Enchantment\n- Age: Immortal; apparent age around forty",
+      "afterHash": "13e99136343c9dd5317e299f98e13bdc20a6f2ecf4b9fd4efe12474a11bd3f66"
+    },
+    {
+      "path": [
+        "npcs",
+        "Valkazathoth'dmir",
+        "personality"
+      ],
+      "kind": "changed",
+      "before": [
+        "Fatherly and attentive during serious business; childish, indignant and absurdly proud in private.",
+        "Listens to the whole account, then asks one exact question.",
+        "Declines lessons, escorts, supplies and rescue requests. He never joins a traveling party, even at high trust.",
+        "Speaking Style: Quiet, economical and courteous in public; elaborate offended complaints about trivial hobbies in private."
+      ],
+      "afterHash": "a36715be51c06333cffd3f5aa3fee6f95ed5f641c23e9d89c7df219ffc5d16f4"
+    },
+    {
+      "path": [
+        "npcs",
+        "Valkazathoth'dmir",
+        "portraitUrl"
+      ],
+      "kind": "added",
+      "afterHash": "1344a8b098ad808774912f0d7777519bb167b9be28759bc2a1b0102ede8caa08"
+    },
+    {
+      "path": [
+        "npcs",
+        "Valkazathoth'dmir",
+        "visualDescription"
+      ],
+      "kind": "changed",
+      "before": "A tall ageless human man with long charcoal-black hair loosely tied back, warm amber eyes, a tired handsome face and a narrow silver streak at one temple. He wears a deep plum traveling coat with irregular brass fastenings and an old ink-blue scarf.",
+      "afterHash": "953d159a39ac89b8456c639ba4c83f7dfb687637453794adbf5948e85214440c"
+    },
+    {
+      "path": [
+        "npcs",
+        "Victoire Perrin"
+      ],
+      "kind": "added",
+      "afterHash": "9b84a20f184fa7d3e7a5a439e08e798e8281cfd5f1d76d67b4cad2a52a8f82c3"
+    },
+    {
+      "path": [
+        "npcs",
+        "Violette Senn"
+      ],
+      "kind": "added",
+      "afterHash": "3859e501883d1107354fc82d863ac6f697f69bc65041ce8ff0072638e0c9419a"
+    },
+    {
+      "path": [
+        "npcs",
+        "Yannick Dorne"
+      ],
+      "kind": "added",
+      "afterHash": "5348bf7806fc4ced85a07e91b173b36c9182b85b8f7340424b03b395a9ff4f52"
+    },
+    {
+      "path": [
+        "npcs",
+        "Yselle Mornay"
+      ],
+      "kind": "added",
+      "afterHash": "6fdababd0cd0376156eb10b0e6f8f679ebca34558b687afa0a0e01da1b18d9d6"
+    },
+    {
+      "path": [
+        "npcs",
+        "Yvette Marn"
+      ],
+      "kind": "added",
+      "afterHash": "edb4fa1b131f7144efa9c950e6dd65696c86e64b44241d697ef52864b391d240"
+    },
+    {
+      "path": [
+        "npcs",
+        "Éloi Sarce"
+      ],
+      "kind": "added",
+      "afterHash": "61f30a4082c743c885147f0e4d47d332f53b949a5e6be01ac07b73e40be13a4f"
+    },
+    {
+      "path": [
+        "npcs",
+        "Émilie Sable"
+      ],
+      "kind": "added",
+      "afterHash": "d1ddc9018ecde20144c2edacef978cd6accabca82e9fd303f6fb28c76076f8b1"
+    },
+    {
+      "path": [
+        "npcs",
+        "Étienne Roux"
+      ],
+      "kind": "added",
+      "afterHash": "97cb43c87e605cf963afa801c38d9f9b61e7aaf8d96933a74c660646ed2e5040"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "arcs",
+        "ar_civic_water"
+      ],
+      "kind": "added",
+      "afterHash": "2468bdf44d8c0c1f36bd966b9b1a17c1623ffb7de90f3918b13ededc45e6ff2d"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "A Daughter's Guarantee"
+      ],
+      "kind": "added",
+      "afterHash": "859eb2819427c2f916db6a0634b65131d7f93995fcd542eaa68fce4c25f6e6a2"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "A Gardener's Petition"
+      ],
+      "kind": "added",
+      "afterHash": "90cd230d23a40bb4176b163d4acaadc72c7eee435036695768c0991bab7fd16d"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "A Knife in the Account"
+      ],
+      "kind": "added",
+      "afterHash": "99857d029bca2b27b8b5be3d9b0e992fe18b2afeedf5fe7358e89f2558a70efd"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "A Roof before Rain"
+      ],
+      "kind": "added",
+      "afterHash": "3db145c30010c94a7844dd225995c10f16afedbbacb785481ded05ccad4e012c"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "A Scent Already Promised"
+      ],
+      "kind": "added",
+      "afterHash": "36416b549c873940bb69989a890e07e44666132868641953b827d3ac2dcf066b"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "A Second Receiving Station",
+        "onCompleteEffects"
+      ],
+      "kind": "changed",
+      "before": [
+        {
+          "type": "write-number",
+          "operator": "set",
+          "value": 7,
+          "key": "rbPhase"
+        },
+        {
+          "type": "write-boolean",
+          "operator": "set",
+          "value": true,
+          "key": "rbLocalConclusion"
+        },
+        {
+          "type": "player-experience",
+          "operator": "add",
+          "value": 120,
+          "target": "allPlayers"
+        }
+      ],
+      "afterHash": "70ea005565649c01739ab812aea925a9f51108104788e76a7bcf057b032f2163"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "A Second Receiving Station",
+        "questDesignBrief"
+      ],
+      "kind": "changed",
+      "before": "Rebirth chapter. Its configured event or predecessor offers this undertaking; contact with the source alone is not permission to jump ahead. Conclude the Glowhaven investigation and preserve its actual local consequences. The remaining lead points to future travel in Ardelis. Do not invent an already accessible Ardelis realm, launch the controlled rival’s attack, claim that the foreign program has ended or leave this undertaking perpetually incomplete. The player can continue ordinary play while preparations beyond the border remain unresolved.",
+      "afterHash": "986cee2e28a65c09a23376b648a952b51364fc5d79f2dc4a9a2d2d03ba377339"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "A Share before the Dive"
+      ],
+      "kind": "added",
+      "afterHash": "0fff1f92f0cc27defb1d4c5d8e933e43578c2da40d35c504203b4246aded91db"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "A Table for Everyone"
+      ],
+      "kind": "added",
+      "afterHash": "7e2bc00a793bbb30f1fc54c670a861cf875d661edbbfaf24eb20ee5762ba26b9"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "An Address That Never Was"
+      ],
+      "kind": "added",
+      "afterHash": "3a3097bb1480eb80deb62db3917babfcc1762f76b2ce0c45509c6f37002cab4a"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "An Experiment with Witnesses"
+      ],
+      "kind": "added",
+      "afterHash": "3cd6bf35872f7576e756cd21d6a56154da84dd56280ff4d1650bf2a20cdc7951"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "An Honest Temper"
+      ],
+      "kind": "added",
+      "afterHash": "91cf0cc3b0f3f6a8b47bba0e278144375f631730b75567fb919a68014e6bb437"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Ardelis: An Unhelpful Sponsor"
+      ],
+      "kind": "added",
+      "afterHash": "3ab25331d386f5c1c2ee8ed0ed554fc3501665f1b57a0f91e8c5484ed3cfa520"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Ardelis: Passage under Seal"
+      ],
+      "kind": "added",
+      "afterHash": "84799fef63eef5baa4d342810f492da5518134ff6ef802525e10d922cde22cba"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Below the Crown: A Missing Assistant"
+      ],
+      "kind": "added",
+      "afterHash": "67b68a409c8ac7784c87b6c6931cd311ba493d701444087b05ccfec05337bd99"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Below the Crown: The Cooling Galleries"
+      ],
+      "kind": "added",
+      "afterHash": "d7ac213385ad0a52ff5760c970f27300ee1b3604aa2f8bcde5007a5ae2de8dc5"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Below the Crown: The Unfinished Sovereign"
+      ],
+      "kind": "added",
+      "afterHash": "bdab5cd95be65bd67dbcf845d0d63b4d3baa2078173e882579453971a9de603c"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Below the Polished Streets"
+      ],
+      "kind": "added",
+      "afterHash": "765b9f00ec3f59a2b477e1f1e450afe5bb8a0aa3558d0cd51a984b0e69e545f7"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Cargo with No Windows"
+      ],
+      "kind": "added",
+      "afterHash": "e62cb101f096de678e33c53364c40e2c11239fb52266e3aaab85b9466338e2ec"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Guild: A Cellar That Rustles"
+      ],
+      "kind": "added",
+      "afterHash": "63544446b772158f1ab5a75d791f3ea5249ac6764833c39b89e4edc4fcc23220"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Guild: A Parcel over Westbridge"
+      ],
+      "kind": "added",
+      "afterHash": "e0f77f957af13e3dcc2a129194da8d8dfd4aa0a35573d42ab1488fe07eadedfa"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Guild: A Sound from the Intake"
+      ],
+      "kind": "added",
+      "afterHash": "42307d84a0ac5952150e8881130ef30f8bfcc1bf72d460624336fe89a301e677"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Guild: A Ward with Teeth"
+      ],
+      "kind": "added",
+      "afterHash": "93915ad6a0c8d28de25fedf2e2c327c481b1f82cb71e9dbaaeadd7d914961491"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Guild: Beetles in the Orchard"
+      ],
+      "kind": "added",
+      "afterHash": "2f8d8ea38a0c371bc064014e86359be62cbc0bdd543d27bda609f68e6b45ff54"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Guild: Caelrath Licensure"
+      ],
+      "kind": "added",
+      "afterHash": "3b51a803cc6f2135e6741bc4eb165bf6a168ef315372b9106badfe2cc8e45a76"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Guild: Glass That Walks"
+      ],
+      "kind": "added",
+      "afterHash": "a39016415c19174795cb34ba8467bd1b478921d39f71f46b45f77cbc2ee913b2"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Guild: Loose Tile, Busy Steps"
+      ],
+      "kind": "added",
+      "afterHash": "ea7ee30d7b495a10d28ef39bfe6476323869c181f5b10dc4f4f557a52332d411"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Guild: Ropes across Cold Water"
+      ],
+      "kind": "added",
+      "afterHash": "144312751c22cf621240a1eb7fbb1e96518cb2c3167abfbb18b285741c4cae04"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Guild: Something in the Culvert"
+      ],
+      "kind": "added",
+      "afterHash": "156d6e01b322f3448523a747c27aad4f112544d281fb6b41d1d29a0f211450b6"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Guild: The Drowned Cargo"
+      ],
+      "kind": "added",
+      "afterHash": "0b598423e381510c737d569c06b36c39bdb6e4ea537c5157c7558258cb9465c3"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Guild: The Empty Escort Road"
+      ],
+      "kind": "added",
+      "afterHash": "daebf13a884944473b17e8a924ba5cdd7b5e11b0742e8e571e63401871fd5e00"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Guild: The Millrace Screen"
+      ],
+      "kind": "added",
+      "afterHash": "d7b76a832889df282fa79a69f5bf63c49a144d3053b19382a82ca57b2bb8221a"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Guild: The Quarry's Empty Face"
+      ],
+      "kind": "added",
+      "afterHash": "fcee9e82fb5c2edcfde8b15efa911fcd7367459b82fd26a254453ff2261ea601"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "One Sound Bridge"
+      ],
+      "kind": "added",
+      "afterHash": "c99ac1a5301a3f8cef4833c84b0a930bfaa18e0cca75576fc272cb48abcd9b2c"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Rebirth: A Voice behind Glass"
+      ],
+      "kind": "added",
+      "afterHash": "c66a33a33e892f79ad1fad36c234e25f6e588016a2d71e5da6a74b8e53697978"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Rebirth: The Command Circuit"
+      ],
+      "kind": "added",
+      "afterHash": "af4f201ebd1135f0c893b4693c8e07528a9fb523a631b16bc77770f9d1695550"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Rebirth: The Receiving Address"
+      ],
+      "kind": "added",
+      "afterHash": "7ab3facfb1663d355e2fe0d815fe7911c519d647d9d8de75f0c98754e85f943b"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Rebirth: What the Crown Received"
+      ],
+      "kind": "added",
+      "afterHash": "8bab961622605e6f85cb77ef76b10df158ff4cc14ca28bd4123daff08bf9b087"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Rebirth: When the Order Comes"
+      ],
+      "kind": "added",
+      "afterHash": "59f76c5c9b4cee1314caa77bd66cb8ee30dca81522d5b64435b4391d7b2dcb4d"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Rumor: A Room and a Living"
+      ],
+      "kind": "added",
+      "afterHash": "9c59deb7dc1188b0630ae97a14baf59befc8f2404b477727fad9c44dd9f9aa85"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Rumor: Work beneath the Stars"
+      ],
+      "kind": "added",
+      "afterHash": "04aadd070fe9497dc738437c5a368f5ef8b388f28c23536d526d7e27ae287433"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "The Bell below the Hull"
+      ],
+      "kind": "added",
+      "afterHash": "87b5d6a3e6ff8c8a6005d217272b7bc98f4ea3699252d45726e8d468bf7b4205"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "The Borrowed Finale"
+      ],
+      "kind": "added",
+      "afterHash": "998b3e840613aebc1dc346e52a4eb589f6ba6419d4114e8247b5c1e1819dd9c4"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "The Closed Transfer"
+      ],
+      "kind": "added",
+      "afterHash": "429af668f19c228e96121d6d26b79c169bba15b2cc122aed2f02ea3f822bf101"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "The Copyist's Margin"
+      ],
+      "kind": "added",
+      "afterHash": "adfa36498585ef4cc7ea9634b196bd98741ffd2dba0c40075bc9f82fd85605e2"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "The Doctor's Refusal"
+      ],
+      "kind": "added",
+      "afterHash": "0b2ffb8ed289703e92d5891e620f05f2f065f96e58f69a7ea15063e276c04bdb"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "The Fallen Practice Banner"
+      ],
+      "kind": "added",
+      "afterHash": "5ec93a89a78f59964a8012f1267790378e2a12e62a233dc30beea52903546227"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "The Island Guest"
+      ],
+      "kind": "added",
+      "afterHash": "dccb8c636accafd2604b7813380e0ed0bfc86c51389f1a70475aada5f4ecab81"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "The Jewel before the Setting"
+      ],
+      "kind": "added",
+      "afterHash": "35c024d761f817bc266794a342906f446153dea5003e2656ed427e350826171f"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "The Lens in the Fog"
+      ],
+      "kind": "added",
+      "afterHash": "333ff6f8e6eb34674678bf9a020fefe3973d4d2f77068c98cfb5b428315e177f"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "The Mews after Midnight"
+      ],
+      "kind": "added",
+      "afterHash": "074371248dbc99fdfeb5874a8faba276d15fef652d49228132ad1b07d4e96f30"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "The Missing Lens"
+      ],
+      "kind": "added",
+      "afterHash": "236405ee5e0b38c66856deacde3de52734aab74d311ff058499eb179185714d4"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "The Note in the Pocket"
+      ],
+      "kind": "added",
+      "afterHash": "d857b0d81e27125a26c0b28e80c8d19eb56e30445f570b18a4276ae24eac4fec"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "The Performance Must Be Paid"
+      ],
+      "kind": "added",
+      "afterHash": "d7602eab0b9399ab474849d13387ea95df6a705bd26ba4852da2e755749adc77"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "The Player of Small Parts"
+      ],
+      "kind": "added",
+      "afterHash": "761d8e1d233b3a5cad6b40c18bc836fa4cbeaffec461485ffd1808ad1cc9e673"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "The Price of Good Timber"
+      ],
+      "kind": "added",
+      "afterHash": "0d76f983f89cd6e5e080ebdc27bfe1cb413f11e1cdb358fdb4cd23b6e6a5caf0"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "The Price of a Quiet Table"
+      ],
+      "kind": "added",
+      "afterHash": "cbbbd089918855db0de546663c1615ff657a6e42a6ce5848ec63e28dad7a1775"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "The Prince of Good Footwork"
+      ],
+      "kind": "added",
+      "afterHash": "56f1c253f984732fa1ec60adbf8ba9a8ee47c110d399d26108b393729e0a237e"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "The Shape of a Miracle"
+      ],
+      "kind": "added",
+      "afterHash": "625db218a240c7561844459f67ab234a39c3652b2a22f58abf6d2c768b31c3ba"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "The Song They Want to Hear"
+      ],
+      "kind": "added",
+      "afterHash": "f125fe5429c91e79f09da340bcdb0717eddbae4b97738e57e63c34dba07b6095"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "The Star behind the Veil"
+      ],
+      "kind": "added",
+      "afterHash": "cc4ae265814c3d0468aa6afe5203c7c424f096a20c88610a40eb09390ee632ab"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "The Unpaid Uniforms"
+      ],
+      "kind": "added",
+      "afterHash": "b12ce981c33f13ab49aa392a275b19b72cbb58737f479e3169b1786f94542f85"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "The Vessel's Consent"
+      ],
+      "kind": "added",
+      "afterHash": "b7916c2fa0d650e70b888bd4ef77e789237e8a7609c6f9e5e6b3baf4dcc78f59"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "The Weight of Empty Sacks"
+      ],
+      "kind": "added",
+      "afterHash": "72d626bdbcf008780f9d6da8cef13a4487c190ac1daff3f8fa5236d8dd04babf"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "The Wrong Room at the Inn"
+      ],
+      "kind": "added",
+      "afterHash": "5b696f13da949c4b9c06527e5391fc156ec29c48ff17d99b159175820c3cda89"
+    },
+    {
+      "path": [
+        "parties",
+        "",
+        "quests",
+        "Water for the Lower Steps"
+      ],
+      "kind": "added",
+      "afterHash": "5382bb3933544229550963d090558faa91aeadda0307b835d1c8586f136811cc"
+    },
+    {
+      "path": [
+        "realms",
+        "Ardelis"
+      ],
+      "kind": "added",
+      "afterHash": "490493a8d6bada40fcd949cf6d915896a306e135f0f76f2615d212c8f41d98ea"
+    },
+    {
+      "path": [
+        "regions",
+        "Celestial Ward"
+      ],
+      "kind": "added",
+      "afterHash": "1d0c12ff79950096644266f5af720ec9b21735678bbdcc5e62129f53825b82ee"
+    },
+    {
+      "path": [
+        "regions",
+        "Crownwater Terraces"
+      ],
+      "kind": "added",
+      "afterHash": "0771175646f1dddb6699b4ceca8d2484d19a88f713df524b275e9eeeb1282baa"
+    },
+    {
+      "path": [
+        "regions",
+        "Eastwater Ward"
+      ],
+      "kind": "added",
+      "afterHash": "5aa08e5155cc70f3c4f1ca6ffc57fcc6287efb2b1b07e329c9c0ceb12c2cb6eb"
+    },
+    {
+      "path": [
+        "regions",
+        "High Arcana Ward"
+      ],
+      "kind": "added",
+      "afterHash": "fad09e3a6c135dfde21436c5c40d751d9ef89fe2905a0a93503603d5b842f0e6"
+    },
+    {
+      "path": [
+        "regions",
+        "Kingsward Gate"
+      ],
+      "kind": "added",
+      "afterHash": "43dbd30687c99820c950c80b1418e8ba1d141157f7ce8f975fe42bfd8c0fc618"
+    },
+    {
+      "path": [
+        "regions",
+        "Lantern Harbors"
+      ],
+      "kind": "added",
+      "afterHash": "9befe6db8678e0802cd70d98d9d922c66962f1016644c6a9304ead076e85f06d"
+    },
+    {
+      "path": [
+        "regions",
+        "Southbank Ward"
+      ],
+      "kind": "added",
+      "afterHash": "9feb8412cb72536e1327495044bcbfea2de07cb62697a56169617b5e820c2354"
+    },
+    {
+      "path": [
+        "regions",
+        "Starfall Heights"
+      ],
+      "kind": "added",
+      "afterHash": "069c4aa7e5969d4794384b09d99cad8ca5fd484a16a24c1e8e5a57ae17dde4c7"
+    },
+    {
+      "path": [
+        "regions",
+        "The Imperial Crown"
+      ],
+      "kind": "added",
+      "afterHash": "a1dc11fb6fa80a900319045b7d23c724bf38d390dce4613e7022eafafb8f93b9"
+    },
+    {
+      "path": [
+        "regions",
+        "Violet Market Ward"
+      ],
+      "kind": "added",
+      "afterHash": "0defae3d96594ab609bb67555453e0279404e080d56b91d26fca616bed0c9ed9"
+    },
+    {
+      "path": [
+        "regions",
+        "Westbridge Ward"
+      ],
+      "kind": "added",
+      "afterHash": "f6432725876d4dc24c57b3281cdd77171075082d962d28297c99f8ec108c8bab"
+    },
+    {
+      "path": [
+        "regions",
+        "Windmill Escarpment"
+      ],
+      "kind": "added",
+      "afterHash": "9e1761e07acbadc8210e3d38803770d800730d87ce7fe58e3ecda758df25dfe0"
+    },
+    {
+      "path": [
+        "storyStarts",
+        "🎭 Ardelis: An Orselle Invitation"
+      ],
+      "kind": "added",
+      "afterHash": "da96a4315053907b68e5e7d7e7bd2e71031700b7fa4efb15760f3cfd9b126bf4"
+    },
+    {
+      "path": [
+        "storyStarts",
+        "🏘️ Ardelis: A Place in Southbank"
+      ],
+      "kind": "added",
+      "afterHash": "8a248649d8b7c6ab7a52f730389f8858d417095c096d9846753db8b383d438b5"
+    },
+    {
+      "path": [
+        "storyStarts",
+        "🔬 Ardelis: An Institute Place"
+      ],
+      "kind": "added",
+      "afterHash": "f24aa507e47a50bc3d201cfef154ccf5716a648827d5a047aace2da56cb45da4"
+    },
+    {
+      "path": [
+        "storyStarts",
+        "🛡️ Ardelis: The Caelrath Counter"
+      ],
+      "kind": "added",
+      "afterHash": "2248baf22663dd6fab6e6e54ff3e2e00e4304cb50577f4fb6b730d7ce7afd81d"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_cradle_backstop"
+      ],
+      "kind": "added",
+      "afterHash": "1dc6d985d0db6f80934b159888c62d4cf8bbbd926982bff8b11366f2b593911c"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_cradle_guard"
+      ],
+      "kind": "added",
+      "afterHash": "56751c7390019688481692cbd98a093413d22cc7d907c39e2c5d5929e73a28de"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_diadem_recovery"
+      ],
+      "kind": "added",
+      "afterHash": "deee719692a2a9f5366c065bf7b889f523219ddf4777ec418d646359df717715"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_existing_lead"
+      ],
+      "kind": "added",
+      "afterHash": "54dde7ad9b6aa61f96963e97ac6c254b9f53c1f51344af454935827e86526ccc"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_guild_board"
+      ],
+      "kind": "added",
+      "afterHash": "066ffab36adfb173e804640d8c751d7220c5fc098c6eb68d586ad289bc65fe8a"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_guild_exam_certify"
+      ],
+      "kind": "added",
+      "afterHash": "58fb6503e9efd668e61bdf548692649c0d19cb1946db0e608d65aad27391aeb9"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_guild_exam_judgment"
+      ],
+      "kind": "added",
+      "afterHash": "f6ef8a9bd570975617067aed9e0bcd6bb0b620b2984c5979e25c21a4df648efc"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_guild_exam_practical"
+      ],
+      "kind": "added",
+      "afterHash": "768b56e62b221cf902517a5784174e5853159eccf2635b63dfc9250027147acc"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_guild_exam_register"
+      ],
+      "kind": "added",
+      "afterHash": "f9e0efbeb6eb51a8fada157bac141c66993846047eab2c6479ab942b97173283"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_issue_key"
+      ],
+      "kind": "added",
+      "afterHash": "3c4d1fc96a77eeb828eb3497020fd9d4cdfd4097c1c4d934498505dedd56e4c6"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_offer_01"
+      ],
+      "kind": "added",
+      "afterHash": "b609d9b1c24a7c346c887537a900da3f4ee0221fd47ea5f532877c0887a65943"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_offer_02"
+      ],
+      "kind": "added",
+      "afterHash": "d38d9c30d5980f1fd2acc9eec5c76dd399919fe00f73f48b65bb4541e1c17e0b"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_offer_03"
+      ],
+      "kind": "added",
+      "afterHash": "41548a0c5e07ba1d52ebf02a7a36e9745edb43ed45f1c64b6da7810ef789a2fb"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_offer_04"
+      ],
+      "kind": "added",
+      "afterHash": "1a4316b0c2720fb78744c4fad8d58e8be50cba0f9187492aaec1476c528b0862"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_offer_06"
+      ],
+      "kind": "added",
+      "afterHash": "4fcb9288f3eec48710583aa027dd8fda10e77245429052c70839819360046e55"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_offer_07"
+      ],
+      "kind": "added",
+      "afterHash": "123cf4e6bd72bcead275fb1e849397067a29b5ffe028b8065236343c830ce3e5"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_offer_12"
+      ],
+      "kind": "added",
+      "afterHash": "cde497cc4282cce42f4d43f096762089889f4fbd4f04157e01d4ef6462bbbbee"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_offer_15"
+      ],
+      "kind": "added",
+      "afterHash": "284649942d1853f5d769a3cecf911ae00a42823435b74e970c038b474016315d"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_offer_18"
+      ],
+      "kind": "added",
+      "afterHash": "d84a618718fb162434939e1df830376d1c4ae33046404f1856c76064dddce486"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_offer_19"
+      ],
+      "kind": "added",
+      "afterHash": "ce63288ced62a0f5c8b87294556eaf186f3215c4bb847e53a498117ac9a5007f"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_offer_20"
+      ],
+      "kind": "added",
+      "afterHash": "0025123e1d74d7f42884a59e0b4d402a7d9cbc86b6caf7401fba440f57c72107"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_offer_21"
+      ],
+      "kind": "added",
+      "afterHash": "89ff164f51d1fd82353769577e41deda051e0e07179f17909324d95823ff5692"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_offer_22"
+      ],
+      "kind": "added",
+      "afterHash": "dd6fae19f431b64a8d3a499a32b5fca43145a0a9b8b609ac9e20177af11c49b3"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_offer_23"
+      ],
+      "kind": "added",
+      "afterHash": "af358e93a3f0edb6a2fb60f8a43aca222bf8ff7a1c24d52fc3ddb003f0922377"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_offer_24"
+      ],
+      "kind": "added",
+      "afterHash": "f06c910e80e0b1b719949bf78fccc0ba96b5afd1515d232b71a2713410d822da"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_offer_25"
+      ],
+      "kind": "added",
+      "afterHash": "ead9aba22f44a375ee24aa4c734f9d0ac2a36a4d15658b8dc29b653237b45e2e"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_offer_26"
+      ],
+      "kind": "added",
+      "afterHash": "ddb39871325f354c763fc6fd14cb2171924ea201bd3bb00bd6624c2e93281a46"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_offer_27"
+      ],
+      "kind": "added",
+      "afterHash": "702f75df206e87b6ff1d80e2e4bd0ceedc14eed93cc97efa091fbf14a0d7ab11"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_offer_28"
+      ],
+      "kind": "added",
+      "afterHash": "1d2a2a51274153a1c65e8b821385c8b929f97b6c139947e8b6c89af988310232"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_offer_29"
+      ],
+      "kind": "added",
+      "afterHash": "d0510291fe2e874d7e2e30ac0126115ef3589103c63dd93b94a3491f86cf18c8"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_offer_30"
+      ],
+      "kind": "added",
+      "afterHash": "47d04dc535bf69944140c9d82a626ce9dd1480a04469ed30987bdb5d2a9cb78b"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_offer_31"
+      ],
+      "kind": "added",
+      "afterHash": "7bb4320d0f0fac40461aee5cee9d5dd69620ddaef8220a7aebb622add9aae1ef"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_offer_32"
+      ],
+      "kind": "added",
+      "afterHash": "a28f163fc5ce7a66c0d59e2995c6c1a76b7fe2e18846f0be6b814d379883f6b6"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_offer_33"
+      ],
+      "kind": "added",
+      "afterHash": "363eab5e8babbb2c0fcb554dca2777e169c9e0e7639b0f67ce502696bf4c7820"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_offer_34"
+      ],
+      "kind": "added",
+      "afterHash": "915317d56fe8685c5734cad55922c2a38dbec4c861c94d345f3772dfefaa78c2"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_offer_35"
+      ],
+      "kind": "added",
+      "afterHash": "195d19fc33ebcaf3d942fe88a70dba3401d16c008c609c11791ec0c28d420214"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_offer_36"
+      ],
+      "kind": "added",
+      "afterHash": "3f22aff9d8ee28467c6321c093867539f5df9016f92efd1916614c8ad1b2b999"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_offer_37"
+      ],
+      "kind": "added",
+      "afterHash": "9b33b3dbd79b7a9a2bacede5323bf2cee1351ecc742cd5f0ff7f7ada055f57f5"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_offer_38"
+      ],
+      "kind": "added",
+      "afterHash": "abc860debc3ce80c4f85faabf36551ec4753e16f16b08022aad7d55b90b56b89"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_offer_39"
+      ],
+      "kind": "added",
+      "afterHash": "c0e98176ffc8616d4cd986f59798829f6d74a72cd7f77ebae1b3c7c30b676008"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_offer_40"
+      ],
+      "kind": "added",
+      "afterHash": "e8857ce1eae1cf1ab8e57422f785345cae18fbd08104215fd3730ac0cbbaa80f"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_offer_56"
+      ],
+      "kind": "added",
+      "afterHash": "e04d29b19fa3325e48d7eb014f837cb8ce54d51b395121b4237e6be368d6d5ed"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_offer_57"
+      ],
+      "kind": "added",
+      "afterHash": "1913aed74428ba3248bb41caf1cd357d7bd0c3511350eda6352bce2f9cb061fe"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_offer_58"
+      ],
+      "kind": "added",
+      "afterHash": "4c2d71e5a7b0af931d56a35ecc8736b1e08570277c6379bf6505426b6ecc568c"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_offer_59"
+      ],
+      "kind": "added",
+      "afterHash": "58564bfc880ffd781c795261503e6ee8f91384e6fff0b307fb68c0b6e3e6057d"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_offer_60"
+      ],
+      "kind": "added",
+      "afterHash": "1271f7c4f960686bb8a1d96c80f105b4faaed04406985842cf2d6e2393924de0"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_offer_61"
+      ],
+      "kind": "added",
+      "afterHash": "38fd4a32651c8b60d66b530bfc62c4cea3a51c70630aa6cea4335b974de92c4e"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_offer_62"
+      ],
+      "kind": "added",
+      "afterHash": "253e2b52d75f53bd9c372ba07f9a059c09fb310bfed867d21414af36d9a09e53"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_offer_63"
+      ],
+      "kind": "added",
+      "afterHash": "c7977f48e3fdcbd7b58cba4a4e51201b43936e345c452a17bb3109ac248d85aa"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_portal_from"
+      ],
+      "kind": "added",
+      "afterHash": "4c602ecf24ba6a2edb121082ec28c3b702315a497af13901fbad8fe8711243e2"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_portal_to"
+      ],
+      "kind": "added",
+      "afterHash": "105458ab4224472c3eb76b5a251f6724aaee2f1c76a6736435cab45f11edc114"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_vladimir_arrives"
+      ],
+      "kind": "added",
+      "afterHash": "2ce584f388244e6f5cc1773f2788884e036cfcadf671e066783c21d361ecc4b7"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_vladimir_departs"
+      ],
+      "kind": "added",
+      "afterHash": "6aef918e90fce05e71c22692e8082a6ac1c8dab38cd9d956799720012896172a"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_vladimir_meeting"
+      ],
+      "kind": "added",
+      "afterHash": "29b9c996e13fd904335d1ace6d0bca16265148c64c9a8430831c67d369da8325"
+    },
+    {
+      "path": [
+        "triggerDefinitions",
+        "ar_writ_record"
+      ],
+      "kind": "added",
+      "afterHash": "3fa0e8e5c08aa53e5d2a9775bbdc2ff5a74d88467395eda47e0850c87e2c5d50"
+    },
+    {
+      "path": [
+        "worldLore",
+        "Ardelis — Caelrath Geography"
+      ],
+      "kind": "added",
+      "afterHash": "5986b01e7af90f03ea937bbc8786651413c9de6455c9148532ecd70c889c95ab"
+    },
+    {
+      "path": [
+        "worldLore",
+        "Ardelis — Celestial Worship",
+        "text"
+      ],
+      "kind": "changed",
+      "before": "An ancient celestial deity holds a prominent place in Ardelis's religion. Temples, ceremonies and household observances connect worship with civic and private life. Royal ceremony draws on this tradition, while religious institutions have histories of patronage, teaching, assistance and political influence.\n\nThe deity is a real supernatural being. Accounts of its character, deeds and place in creation pass through sacred histories and interpretation. Faith varies between households and regions, as does trust in particular temples.\n\nPeople can share a religion while disagreeing about rulers, priests or teachings. Some find devotion comforting, others observe family custom, and others hold different beliefs.",
+      "afterHash": "d92cb2ef9731ec083bc7a2df039afe3851dca9e24185b3b856861e0cdcadfe51"
+    },
+    {
+      "path": [
+        "worldLore",
+        "Ardelis — Crown, Country and Provinces",
+        "text"
+      ],
+      "kind": "changed",
+      "before": "Ardelis is a large, predominantly human kingdom of agricultural provinces, old administrative cities, coastal ports and noble estates. Farmers, merchants, craftspeople, scholars, soldiers and households of other ancestries inhabit it. Provincial life varies with the land, history and access to wealth.\n\nThe crown, noble houses, municipal offices and religious institutions hold different kinds of influence. Roads, taxation, military service, commerce and land bring their interests together. A prosperous port may have priorities very different from those of an inland estate or royal capital.\n\nGlowhaven is independent. Its reputation and former connection interest the kingdom, but Ardelis's royalty neither founded nor governs the city.",
+      "afterHash": "8be83972becc65980af10abb0fd627e69687051eae9bb5e64f12a7c092948b8e"
+    },
+    {
+      "path": [
+        "worldLore",
+        "Ardelis — Everyday Access and Housing"
+      ],
+      "kind": "added",
+      "afterHash": "200eb4751b1b6d689b798f43333b6ecbeabe6ca9911a654acd3fb7ab535512fa"
+    },
+    {
+      "path": [
+        "worldLore",
+        "Ardelis — Glowhaven and the Former Connection",
+        "text"
+      ],
+      "kind": "changed",
+      "before": "Ardelis and Glowhaven have a former political relationship that no longer grants the kingdom authority over the city. Glowhaven's founders and institutions remain central to its own identity.\n\nPeople on either side view that history differently. A noble family may retain private connections; a trader may care chiefly about dependable passage; a scholar may value colleagues across the border. Present dealings rest on actual agreements and circumstances. Older associations are history rather than continuing royal jurisdiction.",
+      "afterHash": "20e6758971f6c2dfe7ef6728a13d89398243c459d3dbc09a7a21a458c5086a0d"
+    },
+    {
+      "path": [
+        "worldLore",
+        "Ardelis — Guild and Local Work"
+      ],
+      "kind": "added",
+      "afterHash": "82158b47f618c7968635a78f64758f92fa58bfc3ef905adfd4bf5f1cb44a6c05"
+    },
+    {
+      "path": [
+        "worldLore",
+        "Ardelis — Houses and Succession"
+      ],
+      "kind": "added",
+      "afterHash": "5b96794773e2c793f2304d18f76b849f85580ab8da9dc8c5038255f74db9461a"
+    },
+    {
+      "path": [
+        "worldLore",
+        "Ardelis — Lower Palace Expedition"
+      ],
+      "kind": "added",
+      "afterHash": "75ebb1b99bb399f3dbb091f937c6462f187057ce5cc689d598bbf050c8fe6fad"
+    },
+    {
+      "path": [
+        "worldLore",
+        "Ardelis — Luxury, Performance and the Underworks"
+      ],
+      "kind": "added",
+      "afterHash": "94d3feb72b38a18359f7be8f5d3bb764926018a4559f1b4811615c3274004f74"
+    },
+    {
+      "path": [
+        "worldLore",
+        "Ardelis — Passage and Jurisdiction"
+      ],
+      "kind": "added",
+      "afterHash": "56a2a193b9f0b9c4ce10775092beeb004f7661a6775ee19294dbb7b8110295bc"
+    },
+    {
+      "path": [
+        "worldLore",
+        "Ardelis — People and Relationships"
+      ],
+      "kind": "added",
+      "afterHash": "a4de85c3af51260477f117034d0a5c92543343275c3db515ad7a854c0752276d"
+    },
+    {
+      "path": [
+        "worldLore",
+        "Ardelis — Provinces and Ordinary Life",
+        "text"
+      ],
+      "kind": "changed",
+      "before": "The kingdom’s provinces supply grain, livestock, timber, ports and workshop labor. Their interests do not always match the court’s war policy. Temple service, provincial loyalties, family work and travel shape ordinary lives. An officer, artisan or worshipper has individual motives; nationality is no proof of complicity in a royal project.",
+      "afterHash": "e878a2204a4f172e0fbaeef1c4fa934c45b9b8a0a6ad112eb5b2217db21d9962"
+    },
+    {
+      "path": [
+        "worldLore",
+        "Ardelis — Public Opportunities"
+      ],
+      "kind": "added",
+      "afterHash": "a117213992d711c1e63f61150394514f6996cba1bda78c4f2026440669e8d76a"
+    },
+    {
+      "path": [
+        "worldLore",
+        "Ardelis — Receiving Program and Outcomes"
+      ],
+      "kind": "added",
+      "afterHash": "7ebfeb0f24da086420023b3f688075100d35d30f9dd2e3e883fd1b523c996abb"
+    },
+    {
+      "path": [
+        "worldLore",
+        "Ardelis — Schools and Visitors"
+      ],
+      "kind": "added",
+      "afterHash": "0279bb920cdcf8c71c883ceab46f74c9e16c0a7a26cd0f21a5b544824873a453"
+    },
+    {
+      "path": [
+        "worldLore",
+        "Ardelis — Starward Paladins"
+      ],
+      "kind": "added",
+      "afterHash": "7b48e4d820291f3d0ef316e9f695cd8aab4de845a5ce707b574046c25fc2e23c"
+    }
+  ]
+}

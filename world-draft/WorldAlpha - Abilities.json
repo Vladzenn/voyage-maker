@@ -11442,5 +11442,270 @@
     ],
     "bonus": 7,
     "cooldown": 5
+  },
+  "Starward Catch": {
+    "name": "Starward Catch",
+    "description": "A brief light ward catches one visible incoming line of attack; it does not cancel unrelated threats. Costs 6 Mana on commitment, including a failed attempt. No automatic second hit or invented damage total.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Light Magic",
+        "amount": 5
+      }
+    ],
+    "bonus": 1,
+    "cooldown": 2
+  },
+  "Terrace Step": {
+    "name": "Terrace Step",
+    "description": "A controlled gust assists a short deliberate step across sound reachable footing. It is not flight. Costs 5 Mana on commitment, including a failed attempt. No automatic second hit or invented damage total.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Wind Magic",
+        "amount": 5
+      }
+    ],
+    "bonus": 1,
+    "cooldown": 1
+  },
+  "Canal Brace": {
+    "name": "Canal Brace",
+    "description": "Brace a small existing bank or foothold for one practical crossing; respect loose ground and actual load. Costs 6 Mana on commitment, including a failed attempt. No automatic second hit or invented damage total.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Earth Magic",
+        "amount": 7
+      }
+    ],
+    "bonus": 1,
+    "cooldown": 2
+  },
+  "Lens Glimmer": {
+    "name": "Lens Glimmer",
+    "description": "Direct a compact glare through a prepared lens toward one visible opponent, allowing a resisted opening. Costs 8 Mana on commitment, including a failed attempt. No automatic second hit or invented damage total.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Light Magic",
+        "amount": 12
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 2
+  },
+  "Quiet Bell": {
+    "name": "Quiet Bell",
+    "description": "Dampen a small chosen sound source briefly without silencing a whole occupied building. Costs 7 Mana on commitment, including a failed attempt. No automatic second hit or invented damage total.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Sound Magic",
+        "amount": 10
+      }
+    ],
+    "bonus": 1,
+    "cooldown": 2
+  },
+  "Glass Thread Ward": {
+    "name": "Glass Thread Ward",
+    "description": "Anchor a fragile warning thread across one prepared doorway. Breaking it gives a local audible signal. Costs 9 Mana on commitment, including a failed attempt. No automatic second hit or invented damage total.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Enchantment Magic",
+        "amount": 15
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 3
+  },
+  "Drowned Breath": {
+    "name": "Drowned Breath",
+    "description": "Maintain a short-lived pocket of breathable air around the caster’s mouth in calm reachable water; no pressure immunity or unlimited dive. Costs 12 Mana on commitment, including a failed attempt. No automatic second hit or invented damage total.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Water Magic",
+        "amount": 20
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 3
+  },
+  "Star Lantern": {
+    "name": "Star Lantern",
+    "description": "Shape a small steady light beside a held focus, with controllable brightness and no truth detection. Costs 4 Mana on commitment, including a failed attempt. No automatic second hit or invented damage total.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Light Magic",
+        "amount": 5
+      }
+    ],
+    "bonus": 1,
+    "cooldown": 0
+  },
+  "Chain of Measure": {
+    "name": "Chain of Measure",
+    "description": "Tension an existing short chain into a temporary brace or binding; an actual target can resist or break it. Costs 10 Mana on commitment, including a failed attempt. No automatic second hit or invented damage total.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Metal Magic",
+        "amount": 18
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 2
+  },
+  "Waking Echo": {
+    "name": "Waking Echo",
+    "description": "Listen for a recent residual emotional impression at a specific examined site. This is fragmentary evidence, not a compelled confession. Costs 12 Mana on commitment, including a failed attempt. No automatic second hit or invented damage total.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Soul Magic",
+        "amount": 20
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 3
+  },
+  "Cradle Stillness": {
+    "name": "Cradle Stillness",
+    "description": "Briefly steady a damaged compatible spirit binding while someone performs actual containment work. It cannot enslave an unwilling person. Costs 18 Mana on commitment, including a failed attempt. No automatic second hit or invented damage total.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Soul Magic",
+        "amount": 30
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 4
+  },
+  "Crownlight Intercept": {
+    "name": "Crownlight Intercept",
+    "description": "Meet one visible hostile spell with a focused light screen. Opposed power and the supplied result decide how much it stops. Costs 20 Mana on commitment, including a failed attempt. No automatic second hit or invented damage total.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Light Magic",
+        "amount": 35
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 4
+  },
+  "Silver Pivot": {
+    "name": "Silver Pivot",
+    "description": "Turn a close weapon bind into one measured countering attack or escape, using actual reach and footing. Costs 4 Stamina on commitment, including a failed attempt. No automatic second hit or invented damage total.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "amount": 5
+      }
+    ],
+    "bonus": 1,
+    "cooldown": 1
+  },
+  "Gatekeeper Brace": {
+    "name": "Gatekeeper Brace",
+    "description": "Set a shield and supported stance against one approaching impact. It does not make the fighter immovable. Costs 5 Stamina on commitment, including a failed attempt. No automatic second hit or invented damage total.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Guarded Combat",
+        "amount": 7
+      }
+    ],
+    "bonus": 1,
+    "cooldown": 1
+  },
+  "Service Spear Line": {
+    "name": "Service Spear Line",
+    "description": "Present one intact long weapon on a compact intercepting line; resolve one committed attack. Costs 6 Stamina on commitment, including a failed attempt. No automatic second hit or invented damage total.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Force Combat",
+        "amount": 12
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 2
+  },
+  "Under the High Guard": {
+    "name": "Under the High Guard",
+    "description": "Change line beneath a high guard and make one close thrust. Awareness and supplied success determine the opening. Costs 8 Stamina on commitment, including a failed attempt. No automatic second hit or invented damage total.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Finesse Combat",
+        "amount": 18
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 2
+  },
+  "Hold the Landing": {
+    "name": "Hold the Landing",
+    "description": "Use a supported stance and shield to contest one narrow landing for a brief exchange, without taunting or controlling everyone nearby. Costs 10 Stamina on commitment, including a failed attempt. No automatic second hit or invented damage total.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Guarded Combat",
+        "amount": 23
+      }
+    ],
+    "bonus": 3,
+    "cooldown": 3
+  },
+  "Regulator Isolation": {
+    "name": "Regulator Isolation",
+    "description": "Isolate one identified compatible circuit with actual tools and a sound shutdown sequence. Unknown machines still require investigation. Costs 6 Stamina on commitment, including a failed attempt. No automatic second hit or invented damage total.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Magitech",
+        "amount": 15
+      }
+    ],
+    "bonus": 2,
+    "cooldown": 2
+  },
+  "Measured Overload": {
+    "name": "Measured Overload",
+    "description": "Use a prepared bounded discharge to disable one understood exposed circuit, risking the device itself on failure. Costs 12 Stamina on commitment, including a failed attempt. No automatic second hit or invented damage total.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Magitech",
+        "amount": 30
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 4
+  },
+  "Falling Star Cut": {
+    "name": "Falling Star Cut",
+    "description": "Infuse one committed descending weapon attack with a narrow light edge; the light is part of the same resolved hit. Costs 16 Mana on commitment, including a failed attempt. No automatic second hit or invented damage total.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Light Magic",
+        "amount": 28
+      },
+      {
+        "type": "skill",
+        "variable": "Force Combat",
+        "amount": 20
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 3
   }
 }

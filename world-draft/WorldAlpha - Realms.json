@@ -43,5 +43,10 @@
     "name": "Vladimir's Elsewhere",
     "initialKnown": false,
     "basicInfo": "Vladimir’s private collection of impossible rooms and living gardens. Moving arcades connect stable destinations. Brass lanterns mark the walking route to the arrival gallery and its one fixed gate back to Shadowspire’s cellar."
+  },
+  "Ardelis": {
+    "name": "Ardelis",
+    "initialKnown": false,
+    "basicInfo": "Caelrath, capital of the Empire of Ardelis: inhabited mountain terraces, pale towers, working waterways and deep lower harbors. The empire extends beyond this capital into other provinces and cities. Bridges, service stairs and canals connect these districts; the city is not floating in the sky."
   }
 }

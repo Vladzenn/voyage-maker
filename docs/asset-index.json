@@ -3750,6 +3750,556 @@
       "size": 120994,
       "sha256": "cbeb58dff04623dea5baac5bec01b650597e019ae09eb17a645f4a6ca4048859",
       "mtimeNs": 1793827999051185600
+    },
+    "world-draft/npc portraits/Ardelis/Valkazathoth'dmir.png": {
+      "size": 2912402,
+      "sha256": "37eb51d30e0d882dd02ed6df0147535ff07fb629394a457102931acca32999d4",
+      "mtimeNs": 1793835670087505800
+    },
+    "world-draft/npc portraits/Ardelis/Isabeau Aurevain.png": {
+      "size": 2768318,
+      "sha256": "fb6ad99de141e8ddbf6f19ad34f17111ce4345465a932e1f5030964d4022feec",
+      "mtimeNs": 1793836252536800000
+    },
+    "world-draft/npc portraits/Ardelis/Marielle Aurevain.png": {
+      "size": 2972369,
+      "sha256": "b9049d33951cb19a2227e054e4e846d5cab18d13a93d85ce2cdeb2bd730b8206",
+      "mtimeNs": 1793836574487463100
+    },
+    "world-draft/npc portraits/Ardelis/Céleste Aurevain.png": {
+      "size": 2828428,
+      "sha256": "cee9548ea50bf3ca6e9a4dc523d537e8e1981e4a654c41fa35afbde74d44777b",
+      "mtimeNs": 1793836639112302900
+    },
+    "world-draft/npc portraits/Ardelis/Lysandra Aurevain.png": {
+      "size": 2857239,
+      "sha256": "1c1108969842accb7105a4aabf77ff13e28862e2e5e228bb3130c46f37787aac",
+      "mtimeNs": 1793836510599504800
+    },
+    "world-draft/npc portraits/Ardelis/Noelle Ashford.png": {
+      "size": 2795440,
+      "sha256": "acf1b8e0a0c4bbb81a1c0841717bbbdd08854028e26098c77a2d667a1baf7c39",
+      "mtimeNs": 1793838198312929800
+    },
+    "world-draft/npc portraits/Ardelis/Thaurivex.png": {
+      "size": 3189651,
+      "sha256": "89986d159f6aedda50ac85aa8347aa8233173a0fc7a319a5b0324967e8a05326",
+      "mtimeNs": 1793836835117593300
+    },
+    "world-draft/npc portraits/Ardelis/Severin Morcant.png": {
+      "size": 2922092,
+      "sha256": "735d7761ea7c7de97c7cd916ed9ef767e25401507f2b7d104c1c506e63bfbb7e",
+      "mtimeNs": 1793836903282508200
+    },
+    "world-draft/npc portraits/Ardelis/Hector Montrevel.png": {
+      "size": 2886127,
+      "sha256": "8e5a96e95bcbb273d11c0835dd1756a1c0c143767ff70f7caa69b77734a2e330",
+      "mtimeNs": 1793838552106990500
+    },
+    "world-draft/npc portraits/Ardelis/Julienne Dalcourt.png": {
+      "size": 2883925,
+      "sha256": "84c7279fe2ad2f041f29ce56fc35ed19a20961f91122a02ca462aaf9838eaf96",
+      "mtimeNs": 1793838620325431700
+    },
+    "world-draft/npc portraits/Ardelis/Armand Veymont.png": {
+      "size": 2739034,
+      "sha256": "69bad57a7ef150774c462f59da8df7e1046705ab1eab958e745ac2fc355765ef",
+      "mtimeNs": 1793838679616510500
+    },
+    "world-draft/npc portraits/Ardelis/Mireille Orselle.png": {
+      "size": 2905199,
+      "sha256": "7bea8d7e33caebfa7e9a52e9e1274837dced4e215940f76c08ea209e9bc4b146",
+      "mtimeNs": 1793839054488792400
+    },
+    "world-draft/npc portraits/Ardelis/Laurent Bellegarde.png": {
+      "size": 2845006,
+      "sha256": "fc3c17519809bf70314a4ec06f6ce14acbdb2face4e73d50a733afa071d199a2",
+      "mtimeNs": 1793839116404780100
+    },
+    "world-draft/npc portraits/Ardelis/Sabine Mauclerc.png": {
+      "size": 3111011,
+      "sha256": "903ea6232ddfdf36adab0673e80f09d4bc4d49ab978a558fac0c2efb996b992e",
+      "mtimeNs": 1793839181141901700
+    },
+    "world-draft/npc portraits/Ardelis/Lucan Voss.png": {
+      "size": 2619178,
+      "sha256": "00d72b2f52dbd92edf17d44a3ee77023e2bdddb430d3bac89fc25f951e2a4801",
+      "mtimeNs": 1793839243474263700
+    },
+    "world-draft/npc portraits/Ardelis/Aveline Marchand.png": {
+      "size": 2889153,
+      "sha256": "eeffbcc501820f685a016b91f8678e8dead79638e70d0907b80ea5e57069cf58",
+      "mtimeNs": 1793839418069334100
+    },
+    "world-draft/npc portraits/Ardelis/Bastien Rochefort.png": {
+      "size": 2741639,
+      "sha256": "7fcd56b112aaa12d419ca3cb5a8b0c357c16e00205909861b95553c2ac244d1f",
+      "mtimeNs": 1793839485187258500
+    },
+    "world-draft/npc portraits/Ardelis/Nerissa Vale.png": {
+      "size": 2999165,
+      "sha256": "acb4098d506bcd4246e1eb22c5f85a18904bb569a8da3cc4dcd4761373c6ca87",
+      "mtimeNs": 1793839555165701300
+    },
+    "world-draft/npc portraits/Ardelis/Coralie Brissot.png": {
+      "size": 2872769,
+      "sha256": "9fd2fef89c00c83c242dfdb4b6294142ac73af8609637f4c1f9c05c5778b3f3b",
+      "mtimeNs": 1793839623502215500
+    },
+    "world-draft/npc portraits/Ardelis/Corvin Hale.png": {
+      "size": 2785660,
+      "sha256": "2a8c27dcd0f2dbbb253e7556b4465696783227de115eeb2c7d854d132d0ac5d1",
+      "mtimeNs": 1793839890411076700
+    },
+    "world-draft/npc portraits/Ardelis/Aurélian Vauss.png": {
+      "size": 3229844,
+      "sha256": "8f114ef1f70e328c4ee9574685dd9167ccf18c82d34b7564c61bcf2390c9c00e",
+      "mtimeNs": 1793839956987109600
+    },
+    "world-draft/npc portraits/Ardelis/Séraphine Duvray.png": {
+      "size": 3120605,
+      "sha256": "ff4cf8f0a88ecdf224224f9a7a43e02924d5739809ebeeab6e58ceadbd02cf14",
+      "mtimeNs": 1793840022962157300
+    },
+    "world-draft/npc portraits/Ardelis/Osmond Verain.png": {
+      "size": 3237368,
+      "sha256": "0de8114d7a07980356daa73c6bf79c0f757f96761c0f1f14d44cd1f7dbf324ae",
+      "mtimeNs": 1793840091641709500
+    },
+    "world-draft/npc portraits/Ardelis/Cedran Aurevain.png": {
+      "size": 2904887,
+      "sha256": "1952336c8e4ec9cc8dba0e89767f1c3c830499eb47bc9c1eafbd56eb51b60c7b",
+      "mtimeNs": 1793836191138306900
+    },
+    "world-draft/location images/Ardelis/Opaline Arcade.png": {
+      "size": 3673847,
+      "sha256": "acadae23bebe460c139cac044b9faeec0e15be9e46941b7f0e35f4881b908942",
+      "mtimeNs": 1793840293267159700
+    },
+    "world-draft/location images/Ardelis/Velvet Lyre Hall.png": {
+      "size": 3402332,
+      "sha256": "b0e0a26b18dc59cd6648bdac7a054be2ae58cc68ed4adbbd4e2562414850d0ae",
+      "mtimeNs": 1793840346337244900
+    },
+    "world-draft/location images/Ardelis/Caelrath Sewers.png": {
+      "size": 3263992,
+      "sha256": "27317c6d0452148e03cae2da33579df78e8595c13f1f23a1508f827dbb80eb7a",
+      "mtimeNs": 1793840433786289000
+    },
+    "world-draft/location images/Ardelis/Starfall Cathedral.png": {
+      "size": 3610990,
+      "sha256": "eef10516a7907d270ef43cf57fc5ca5bd33b140b34a1852f8dc4265b15a614c6",
+      "mtimeNs": 1793841019430067200
+    },
+    "world-draft/location images/Ardelis/Pilgrim's Rest Hospice.png": {
+      "size": 3461767,
+      "sha256": "f7b0de30b8805cb729bb44ab28d949562fb6029340526122a78695fb84f3ea06",
+      "mtimeNs": 1793841092896381100
+    },
+    "world-draft/location images/Ardelis/Chapel Steps.png": {
+      "size": 3344135,
+      "sha256": "1f16f5626c5a38ed8a4506c3ee9c361c4bf2b09ac3eb0c52ac12923d150ca790",
+      "mtimeNs": 1793841145904772800
+    },
+    "world-draft/location images/Ardelis/Vesper Bell Cloister.png": {
+      "size": 3431011,
+      "sha256": "8720805c34336410c478755be254aba40bfff910ebb36257fb415268a0d6e245",
+      "mtimeNs": 1793841204906660400
+    },
+    "world-draft/location images/Ardelis/Starward Cemetery.png": {
+      "size": 3692813,
+      "sha256": "dc54f83d75ff28e80aebeed50d78bcde0c68cad03a3ae58f76138986b42de52b",
+      "mtimeNs": 1793841283569321000
+    },
+    "world-draft/location images/Ardelis/Empyrean Archives.png": {
+      "size": 3371024,
+      "sha256": "5768b13f4678ffc7ae471e375f900dd66a25b92ddb493130ef97a7b628013338",
+      "mtimeNs": 1793841363030995800
+    },
+    "world-draft/location images/Ardelis/Crownwater Aqueduct.png": {
+      "size": 3319651,
+      "sha256": "7a8459a56b8092ddf7d5d4e7ff4bd3b768a17076ec985c2aa551ecd5658cfe24",
+      "mtimeNs": 1793842179427463700
+    },
+    "world-draft/location images/Ardelis/House Montrevel Estate.png": {
+      "size": 3687784,
+      "sha256": "d3c3235e46f4b8879f2a59530294c5c8b7018e80890f05616459a61e05c422f4",
+      "mtimeNs": 1793842259967376700
+    },
+    "world-draft/location images/Ardelis/The High Reservoir.png": {
+      "size": 3548955,
+      "sha256": "a7881af8300229674d6e5d97bd111b96f7e4effcbeb277afb1e056662d2405ed",
+      "mtimeNs": 1793842317542035300
+    },
+    "world-draft/location images/Ardelis/Royal Hawk Mews.png": {
+      "size": 3526389,
+      "sha256": "6f524b2777a97995304d3d0958a32de48d79e70f590e69be552f4ea50a6e1339",
+      "mtimeNs": 1793842401376427900
+    },
+    "world-draft/location images/Ardelis/Terrace Gardeners' Lodge.png": {
+      "size": 3682094,
+      "sha256": "ef2e8c14f8089dfd41ceeafbee07903bfe751811b5a297131f539347e01509ce",
+      "mtimeNs": 1793842481402947200
+    },
+    "world-draft/location images/Ardelis/Caelrath Palace.png": {
+      "size": 3531952,
+      "sha256": "1df5156ecd2c9189f64a3571cbbf23ef015a3515d9af8fdb1e4897af91c396f4",
+      "mtimeNs": 1793842564426446300
+    },
+    "world-draft/location images/Ardelis/Hall of Mirrors.png": {
+      "size": 3551537,
+      "sha256": "fc0c9853a3d3fe07a37eb75493ce9bd64046550ac44027a8504b04b398923d33",
+      "mtimeNs": 1793842904298321400
+    },
+    "world-draft/location images/Ardelis/Royal Petition Court.png": {
+      "size": 3448163,
+      "sha256": "0273d02da08ea15e2482cdc8b6110d257cbcd49a075fa845af9f3a5de5be77f5",
+      "mtimeNs": 1793842985815554800
+    },
+    "world-draft/location images/Ardelis/Embassy Residences.png": {
+      "size": 3376345,
+      "sha256": "2bbbe14c8661b70881bd355e06365d66c73c6a64df0a6c6fda2b31afeb66a1ff",
+      "mtimeNs": 1793843042917566100
+    },
+    "world-draft/location images/Ardelis/The Crown Mint.png": {
+      "size": 3569771,
+      "sha256": "d5439cb60cb932e5fa75f1d2c6654a1d40424977b7679c5b410e91cabccc480a",
+      "mtimeNs": 1793843123594381900
+    },
+    "world-draft/location images/Ardelis/Ivory Guard Barracks.png": {
+      "size": 3356938,
+      "sha256": "e2fbe149150ab6e3014bd8f3bb4d29b7dfbd8f0fa76254b389e7667c0699329f",
+      "mtimeNs": 1793843202160197300
+    },
+    "world-draft/location images/Ardelis/Court Wizard's Spire.png": {
+      "size": 3470780,
+      "sha256": "e1340835d208f1f4368cf03733a2fb7c855df38dd9b7555e266e7ad7c8621e5a",
+      "mtimeNs": 1793843279585502700
+    },
+    "world-draft/location images/Ardelis/Amethyst Intake Works.png": {
+      "size": 3449841,
+      "sha256": "4552483834aaea528416c07e56d1cf80cdc102ed97d928ac88ccc20687ce5d91",
+      "mtimeNs": 1793843359003946300
+    },
+    "world-draft/location images/Ardelis/House Veymont Residence.png": {
+      "size": 3454583,
+      "sha256": "cf583a6a8058e9e765a237186a67590731581ef2d0a79d356a336061d8c148a5",
+      "mtimeNs": 1793843440425839100
+    },
+    "world-draft/location images/Ardelis/Skyglass Observatory.png": {
+      "size": 3361085,
+      "sha256": "e79a7e8205b746be9ef00d0b1352944ac9b31fc78380ed27a513fc0523b1f975",
+      "mtimeNs": 1793843520080329700
+    },
+    "world-draft/location images/Ardelis/The Old Receiving House.png": {
+      "size": 3436431,
+      "sha256": "19ad3f2c3241ce92b9f1621d6ac32285777133202ef30ba1bf2dc640637ccc6d",
+      "mtimeNs": 1793843572939411700
+    },
+    "world-draft/location images/Ardelis/High Arcana Infirmary.png": {
+      "size": 3241617,
+      "sha256": "137704b0158a4854d5840930d4b1f3e60126ad92876f9f22d13b29622a60ceb9",
+      "mtimeNs": 1793843619336285200
+    },
+    "world-draft/location images/Ardelis/Caelrath Courthouse.png": {
+      "size": 3371965,
+      "sha256": "4528ec6d216eb14ce24af82e83a3922b6f0544526a9ee7eda8fc302a495d19ef",
+      "mtimeNs": 1793843691117014300
+    },
+    "world-draft/location images/Ardelis/The Silver Baths.png": {
+      "size": 3403821,
+      "sha256": "e7cc02584ed53cb1cf7fcf947da98ea1daf144a3cfff1f7b53ee9c7936f3a6a1",
+      "mtimeNs": 1793844629476623300
+    },
+    "world-draft/location images/Ardelis/Caelrath Amphitheatre.png": {
+      "size": 3252891,
+      "sha256": "d66b6fdacc3cd5511e651dfe2649e7cfc26f81623042ccfb4bfd4721d85cd37f",
+      "mtimeNs": 1793844696070683400
+    },
+    "world-draft/location images/Ardelis/Westbridge Watchhouse.png": {
+      "size": 3060861,
+      "sha256": "e4842da4abb3d6634b7fd12c50c1a15bc434b48643523fd9188661ff9ed9063b",
+      "mtimeNs": 1793844750525273600
+    },
+    "world-draft/location images/Ardelis/The King's Lists.png": {
+      "size": 3359399,
+      "sha256": "9e004b3e512ad39f9dd508194ab99edb9988fc903d38eb00f2cc9a8d700a4a74",
+      "mtimeNs": 1793844830978812900
+    },
+    "world-draft/location images/Ardelis/Mortar and Moss Apothecary.png": {
+      "size": 3160517,
+      "sha256": "9c19a40a39310dcd3db3154f684489ff4a65909b6c2f3d0414bc39046122ef05",
+      "mtimeNs": 1793844907354508800
+    },
+    "world-draft/location images/Ardelis/Ashwillow Inn.png": {
+      "size": 3169953,
+      "sha256": "859fe0c58ae7704e46146d8b627083f68e3cf6c3928fb4821b664629af81894f",
+      "mtimeNs": 1793844957858742000
+    },
+    "world-draft/location images/Ardelis/House Orselle Salon.png": {
+      "size": 2873809,
+      "sha256": "1239e34b2d4f9082e3aa02845a9e2bf702a669fc2516ab95cb5e704641cca54b",
+      "mtimeNs": 1793845007624301300
+    },
+    "world-draft/location images/Ardelis/Violet Canopy Market.png": {
+      "size": 3410928,
+      "sha256": "7942d8b42e2e526e0d2baef112c65a8f2d59787ed5b30b75c234fa384a418e46",
+      "mtimeNs": 1793845089529616500
+    },
+    "world-draft/location images/Ardelis/The Queen's Watergardens.png": {
+      "size": 3590975,
+      "sha256": "139bbd1f934802fbf8ae8b2ffcbf14c9add8b3f9f25364bb34a445d9cdcbeb62",
+      "mtimeNs": 1793845142782738100
+    },
+    "world-draft/location images/Ardelis/The Veiled Oratory.png": {
+      "size": 3180553,
+      "sha256": "5a0a3e4e8e538334aaa7d7f9180c751eaf6cebbbc2d2aee67f55c1e23433841c",
+      "mtimeNs": 1793845190877013000
+    },
+    "world-draft/location images/Ardelis/The Gilt Measure Exchange.png": {
+      "size": 3091016,
+      "sha256": "b67e5bf4dc2ae13b178b3bdfc57bc558c08e519e1f417f5e6181de56a117907d",
+      "mtimeNs": 1793845269276278600
+    },
+    "world-draft/location images/Ardelis/Palewick Bookshop.png": {
+      "size": 3088064,
+      "sha256": "ebe50bd7f7db7ca989edd0c1b9aabc58a7f8e5c622f3f834c5c7f6a28f65babd",
+      "mtimeNs": 1793845344123853400
+    },
+    "world-draft/location images/Ardelis/Gilded Vessel Tavern.png": {
+      "size": 2635278,
+      "sha256": "6cc4b862bc89552970e011e192c91377142650d92470a426813d903e159b5acf",
+      "mtimeNs": 1793845677639568400
+    },
+    "world-draft/location images/Ardelis/Bastion and Buckle Armory.png": {
+      "size": 3130424,
+      "sha256": "b19d87a432ee9ef9eb7ff36588901f24008c6c55e5328d463976a413afe388d9",
+      "mtimeNs": 1793845734844860800
+    },
+    "world-draft/location images/Ardelis/Tern Thread Tailors.png": {
+      "size": 3113036,
+      "sha256": "53c091159e19942efbe0462591765e7ef0373d6d77a2266c1c11584acb1a2dd1",
+      "mtimeNs": 1793845790286640100
+    },
+    "world-draft/location images/Ardelis/House Dalcourt Counting House.png": {
+      "size": 3291669,
+      "sha256": "e329ab45a31fff9e79db4eb07af49fbc3b9587704d6baefde4b3670bc3c7896d",
+      "mtimeNs": 1793845838903526700
+    },
+    "world-draft/location images/Ardelis/High Star Square.png": {
+      "size": 3246457,
+      "sha256": "b5387f0604a9d046ddcc627841bbd3a216606d38dac2dad7a3bfac9564d224bb",
+      "mtimeNs": 1793845887049490500
+    },
+    "world-draft/location images/Ardelis/Caelrath Institute of Magic.png": {
+      "size": 3578075,
+      "sha256": "18d417fcca8062b72d424afc2ea2c0a8acf9aefe18d1c613ed626a6d3ecfb8db",
+      "mtimeNs": 1793845964491440700
+    },
+    "world-draft/location images/Ardelis/Crown Watch Headquarters.png": {
+      "size": 3259268,
+      "sha256": "d263f7028cdeea4d91474567f64376b206eb676dc4ec415ed51fc76bbe502c95",
+      "mtimeNs": 1793846037920663500
+    },
+    "world-draft/location images/Ardelis/Adventurer's Guild - Caelrath Branch.png": {
+      "size": 3382454,
+      "sha256": "9ac1ecd925d856064f0c8bb14274a72e085fcb22d2dd5aaf48f117b84994ef49",
+      "mtimeNs": 1793846115261605700
+    },
+    "world-draft/location images/Ardelis/Civic Records Hall.png": {
+      "size": 3170334,
+      "sha256": "9075878efa1f66e32e3ff9f22e8db8dc2662e1d78ecb2f2b60fb0bba231331ba",
+      "mtimeNs": 1793846189918122700
+    },
+    "world-draft/location images/Ardelis/The Brass Hearth Workshop.png": {
+      "size": 3015201,
+      "sha256": "3f573de8d1aa62323f175cabd146f060f5eca6b21685a8cfe1f7d414130ec963",
+      "mtimeNs": 1793846246394237200
+    },
+    "world-draft/location images/Ardelis/Valleygate Lodgings.png": {
+      "size": 3213440,
+      "sha256": "a5defa0b44f859b0c1b22d4c0700a5085c81ce04a6146a7f1bf43a7b4b157f28",
+      "mtimeNs": 1793846289411235300
+    },
+    "world-draft/location images/Ardelis/Lantern House Theatre.png": {
+      "size": 3216840,
+      "sha256": "218ed10aa73765fb028450ef35ef4ec5b2a3f928eb8f321eed967cf4a5c2490d",
+      "mtimeNs": 1793846366694216600
+    },
+    "world-draft/location images/Ardelis/Eastwater Bonded Warehouse.png": {
+      "size": 3259755,
+      "sha256": "dcdbdd1553c971edba239ce4afe932add7985318724d578d0b9fba1f10bc45ac",
+      "mtimeNs": 1793847140487323400
+    },
+    "world-draft/location images/Ardelis/Eastwater Locks.png": {
+      "size": 3305973,
+      "sha256": "f8bcacf7395dd7e15032b0aa082512e2957ec7b5172478cdca71e9ebb2dddc42",
+      "mtimeNs": 1793847194052115300
+    },
+    "world-draft/location images/Ardelis/Riveters' Lane.png": {
+      "size": 3384527,
+      "sha256": "7113c430ea5cb18e413f66e7beb0862d2020b623873815acafbcc17949072ca2",
+      "mtimeNs": 1793847248491036100
+    },
+    "world-draft/location images/Ardelis/Low Lantern Tenements.png": {
+      "size": 3276680,
+      "sha256": "4d96d412b359060f705b88c779e420a3302bca7ea32b00b2c9d0c0762e342ddc",
+      "mtimeNs": 1793847293974703300
+    },
+    "world-draft/location images/Ardelis/Sable Ribbon Club.png": {
+      "size": 2873822,
+      "sha256": "3d59271310c00f92f3b78ffedde4b77cb39ad2e3d434b6e5f35b573a0c7e1ed0",
+      "mtimeNs": 1793847333905677700
+    },
+    "world-draft/location images/Ardelis/The Glassworks.png": {
+      "size": 2875481,
+      "sha256": "d3e1f1a89b98e9bfe0e364fe49b6f2bc3b41de60575dc3f4c30583480b9c8f28",
+      "mtimeNs": 1793847387913087500
+    },
+    "world-draft/location images/Ardelis/Eelcatchers' Landing.png": {
+      "size": 3818446,
+      "sha256": "34c1bc815183344a51e66a1d4312deef25c48c9102400cb4bd25796f7734f4e6",
+      "mtimeNs": 1793847449107059600
+    },
+    "world-draft/location images/Ardelis/Windward Mills.png": {
+      "size": 3627183,
+      "sha256": "10fa12c73cf21e093085b240f27ca6fa059df492e253df7147a354403b67219a",
+      "mtimeNs": 1793847530793599700
+    },
+    "world-draft/location images/Ardelis/Orchardgate Hamlet.png": {
+      "size": 3695716,
+      "sha256": "ae89b36c662c502084d82216972bef09e61afaaab358401eb16d5fdb8a4f2711",
+      "mtimeNs": 1793847585333222200
+    },
+    "world-draft/location images/Ardelis/Outer Granaries.png": {
+      "size": 3211915,
+      "sha256": "758e01333f886214f5a4d6db12dd361a10af8b5dc77c9af82cd6756b9df69a09",
+      "mtimeNs": 1793847636830305400
+    },
+    "world-draft/location images/Ardelis/Cliffside Quarry.png": {
+      "size": 3372453,
+      "sha256": "7559a72a64a6f1648889aded25bd10b9918f8f34f60596679c26fef2202c600f",
+      "mtimeNs": 1793847688471113900
+    },
+    "world-draft/location images/Ardelis/The Old Culvert.png": {
+      "size": 3054308,
+      "sha256": "04e387ab08037dd50d16d849bcb1d6c4b9a8f6febbc238f457f721d0466d73e6",
+      "mtimeNs": 1793847731013739600
+    },
+    "world-draft/location images/Ardelis/Kingsward Gate.png": {
+      "size": 3312312,
+      "sha256": "a39289153255a7301e87ce9bbf07aa6c5b9c7892624d73ad460e98a53938746e",
+      "mtimeNs": 1793848034943127300
+    },
+    "world-draft/location images/Ardelis/The Pearl and Thistle.png": {
+      "size": 3183582,
+      "sha256": "98144a36ac9c3a636e0b7b2bc94559bd69f44f16dd17af17e52ed2b074f41974",
+      "mtimeNs": 1793848093876006400
+    },
+    "world-draft/location images/Ardelis/Caravan Licensing Yard.png": {
+      "size": 3498210,
+      "sha256": "3b29e598a5a1b9f1481585a9c4fb6013f3658b18222d406e9da8884628f3c7eb",
+      "mtimeNs": 1793848152271933800
+    },
+    "world-draft/location images/Ardelis/Caelrath Portal Hall.png": {
+      "size": 2999193,
+      "sha256": "4d0488ee6721d480311dd38125ba1a9c71f803c4d01d8e5b366e40607d9cd3de",
+      "mtimeNs": 1793848200244461000
+    },
+    "world-draft/location images/Ardelis/The Wayfarers' Hostel.png": {
+      "size": 3181222,
+      "sha256": "627ed4d24904817fb051b52b5edbf625ceff163907cd0b636319846468bce66f",
+      "mtimeNs": 1793848252833196800
+    },
+    "world-draft/location images/Ardelis/Southbank Homes.png": {
+      "size": 3454891,
+      "sha256": "505465293a31661e755a09155ea4e1dbe2a755254b4bcf8b7985a73c8f6d2b61",
+      "mtimeNs": 1793848332307846100
+    },
+    "world-draft/location images/Ardelis/Southbank School.png": {
+      "size": 3197825,
+      "sha256": "26c7530a53537906eba82699c4f433b8ce87cc215bd25a2c32a76057c45f5f9d",
+      "mtimeNs": 1793848370151750300
+    },
+    "world-draft/location images/Ardelis/Threadneedle Bakery.png": {
+      "size": 2901260,
+      "sha256": "d447a03947baca5742940396daea97a611b06c6d96922d9d98b849181444c5ae",
+      "mtimeNs": 1793848421441329700
+    },
+    "world-draft/location images/Ardelis/The Common Table.png": {
+      "size": 2856943,
+      "sha256": "ad1c23798b2b1da4220e9eca833c0959c671e2d68e7cbc955b244158dd23a2d8",
+      "mtimeNs": 1793848461960596400
+    },
+    "world-draft/location images/Ardelis/Ropewalk Court.png": {
+      "size": 3316780,
+      "sha256": "c12e62e0c397b01248c0bfce8fc2b86bf21c808896ea58cb55926fea07622e27",
+      "mtimeNs": 1793848503429221000
+    },
+    "world-draft/location images/Ardelis/Crown Remand House.png": {
+      "size": 2941723,
+      "sha256": "15125e59b0b6853f63f07c7f05c99b241c43a5ace8ad3783528fb1999c932d7a",
+      "mtimeNs": 1793848543841650800
+    },
+    "world-draft/location images/Ardelis/Stonehearth Smithy.png": {
+      "size": 3252078,
+      "sha256": "7625112821f85e6fd2a50f0641f899ce70b4845a5acd2656eadf96a52787832c",
+      "mtimeNs": 1793848597164197800
+    },
+    "world-draft/location images/Ardelis/Caelrath Harbor.png": {
+      "size": 3461220,
+      "sha256": "620894ee77ea1318df4a835b680554d369beff6c302f7cb6ba1fdde45bc54ecd",
+      "mtimeNs": 1793848867981333700
+    },
+    "world-draft/location images/Ardelis/Crownlight Lighthouse.png": {
+      "size": 3164274,
+      "sha256": "9fcd04a48ba8bb37438c5b6714caa0d56332c291ad30f0c708ecdc11402d9c42",
+      "mtimeNs": 1793848943045135600
+    },
+    "world-draft/location images/Ardelis/The Harbormaster's Lodge.png": {
+      "size": 3093216,
+      "sha256": "0dc1bf00d7aa0d17cca0c8016968637358979aa77dfcdfdb0e72faa2be6b1bce",
+      "mtimeNs": 1793848993497515400
+    },
+    "world-draft/location images/Ardelis/Saltgull Shipwrights.png": {
+      "size": 3415943,
+      "sha256": "b88065e67327014d955fa37d2a4dee413559fd6261f812c1083cd5671cbd315b",
+      "mtimeNs": 1793849053182085800
+    },
+    "world-draft/location images/Ardelis/The Customs Arcade.png": {
+      "size": 3198438,
+      "sha256": "2b28da55b09721dc710b7df9aba28947965ecc89aea7fc06d15d41441cf731a7",
+      "mtimeNs": 1793849130848514100
+    },
+    "world-draft/location images/Ardelis/The Chainbreak Docks.png": {
+      "size": 3287313,
+      "sha256": "b2ea01c0ec020e0cc0ad743f7513df0f566043f352022a5820e0613a5d988e55",
+      "mtimeNs": 1793849182721207300
+    },
+    "world-draft/location images/Ardelis/Starwatch Isle.png": {
+      "size": 3381675,
+      "sha256": "6cb8ee2aeb86160c1276ee6b248d2bd8e70f572f400aa1f63d36f8239b9f2a36",
+      "mtimeNs": 1793849230750360700
+    },
+    "world-draft/location images/Ardelis/Starward Commandery.png": {
+      "size": 3339497,
+      "sha256": "2052371f6c24d2cb78906774a67c0bf786cdf9c547ba88349a7e792c08118ff2",
+      "mtimeNs": 1793849288174467400
+    },
+    "world-draft/location images/Ardelis/The Sunken Bell.png": {
+      "size": 3357104,
+      "sha256": "39bcf9d833e250000c0a8c2587313cef47441e868669a9b7c19fd14ffdb413b0",
+      "mtimeNs": 1793849341933024200
+    },
+    "world-draft/location images/Ardelis/Caelrath Portal Hall - Portal Room.png": {
+      "size": 2962453,
+      "sha256": "af2b0a95b619acb94d7fdb9c9ee1025b4cca9ab7a70046c25240895174ac8b63",
+      "mtimeNs": 1793849380815860700
+    },
+    "world-draft/location images/Ardelis/Caelrath Palace - Resonance Cradle.png": {
+      "size": 3071737,
+      "sha256": "3c75c8d538c66aab096e296709741f596e22131969a9c6761664d1d53772f402",
+      "mtimeNs": 1793849457484112200
     }
   }
 }

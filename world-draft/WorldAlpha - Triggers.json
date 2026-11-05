@@ -18927,5 +18927,2044 @@
     ],
     "recurring": false,
     "scope": "party"
+  },
+  "ar_offer_01": {
+    "name": "ar_offer_01",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Opaline Arcade"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "planned",
+        "questId": "The Jewel before the Setting"
+      },
+      {
+        "type": "action",
+        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: Two adults claim a valuable family gem, and a noble wants it reset before the dispute is settled. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Jewel before the Setting"
+      },
+      {
+        "type": "story",
+        "instruction": "Present the particular opportunity The Jewel before the Setting through the actual source and circumstances. The player may ask questions, refuse or accept. This offers only; no other contract, reward, companion or journey is committed."
+      }
+    ],
+    "script": "const t=check({type:'game-tick'});if(storage.arOfferTick===t)skip=true;else storage.arOfferTick=t;"
+  },
+  "ar_offer_02": {
+    "name": "ar_offer_02",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Opaline Arcade"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "planned",
+        "questId": "A Scent Already Promised"
+      },
+      {
+        "type": "action",
+        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: A profitable order asks Béatrice to duplicate a blend she made privately for another patron. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "A Scent Already Promised"
+      },
+      {
+        "type": "story",
+        "instruction": "Present the particular opportunity A Scent Already Promised through the actual source and circumstances. The player may ask questions, refuse or accept. This offers only; no other contract, reward, companion or journey is committed."
+      }
+    ],
+    "script": "const t=check({type:'game-tick'});if(storage.arOfferTick===t)skip=true;else storage.arOfferTick=t;"
+  },
+  "ar_offer_03": {
+    "name": "ar_offer_03",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Velvet Lyre Hall"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "planned",
+        "questId": "The Song They Want to Hear"
+      },
+      {
+        "type": "action",
+        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: A sponsor has attached unwelcome conditions to the hall's next program. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Song They Want to Hear"
+      },
+      {
+        "type": "story",
+        "instruction": "Present the particular opportunity The Song They Want to Hear through the actual source and circumstances. The player may ask questions, refuse or accept. This offers only; no other contract, reward, companion or journey is committed."
+      }
+    ],
+    "script": "const t=check({type:'game-tick'});if(storage.arOfferTick===t)skip=true;else storage.arOfferTick=t;"
+  },
+  "ar_offer_04": {
+    "name": "ar_offer_04",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Caelrath Sewers"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "planned",
+        "questId": "Below the Polished Streets"
+      },
+      {
+        "type": "action",
+        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: A maintenance branch has been sealed before inspection, and the next high-water shift is approaching. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "Below the Polished Streets"
+      },
+      {
+        "type": "story",
+        "instruction": "Present the particular opportunity Below the Polished Streets through the actual source and circumstances. The player may ask questions, refuse or accept. This offers only; no other contract, reward, companion or journey is committed."
+      }
+    ],
+    "script": "const t=check({type:'game-tick'});if(storage.arOfferTick===t)skip=true;else storage.arOfferTick=t;"
+  },
+  "ar_offer_06": {
+    "name": "ar_offer_06",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Shadowspire"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "planned",
+        "questId": "Ardelis: An Unhelpful Sponsor"
+      },
+      {
+        "type": "action",
+        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: Vladimir can arrange a meeting with an Ardelis transit delegate, if he thinks the proposed journey warrants the bother. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "Ardelis: An Unhelpful Sponsor"
+      },
+      {
+        "type": "story",
+        "instruction": "Present the particular opportunity Ardelis: An Unhelpful Sponsor through the actual source and circumstances. The player may ask questions, refuse or accept. This offers only; no other contract, reward, companion or journey is committed."
+      }
+    ],
+    "script": "const t=check({type:'game-tick'});if(storage.arOfferTick===t)skip=true;else storage.arOfferTick=t;"
+  },
+  "ar_offer_07": {
+    "name": "ar_offer_07",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Embassy Residences"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "planned",
+        "questId": "Rebirth: The Receiving Address"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "completed",
+        "questId": "A Second Receiving Station"
+      },
+      {
+        "type": "action",
+        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: The relay evidence names a receiving address in Caelrath. Henri can help establish what it actually receives. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "Rebirth: The Receiving Address"
+      },
+      {
+        "type": "story",
+        "instruction": "Present the particular opportunity Rebirth: The Receiving Address through the actual source and circumstances. The player may ask questions, refuse or accept. This offers only; no other contract, reward, companion or journey is committed."
+      }
+    ],
+    "script": "const t=check({type:'game-tick'});if(storage.arOfferTick===t)skip=true;else storage.arOfferTick=t;"
+  },
+  "ar_offer_12": {
+    "name": "ar_offer_12",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Caelrath Institute of Magic"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "planned",
+        "questId": "Below the Crown: A Missing Assistant"
+      },
+      {
+        "type": "action",
+        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: A laboratory assistant has missed work, and an institute instrument appears on a palace delivery list. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "Below the Crown: A Missing Assistant"
+      },
+      {
+        "type": "story",
+        "instruction": "Present the particular opportunity Below the Crown: A Missing Assistant through the actual source and circumstances. The player may ask questions, refuse or accept. This offers only; no other contract, reward, companion or journey is committed."
+      }
+    ],
+    "script": "const t=check({type:'game-tick'});if(storage.arOfferTick===t)skip=true;else storage.arOfferTick=t;"
+  },
+  "ar_offer_15": {
+    "name": "ar_offer_15",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Starfall Cathedral"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "planned",
+        "questId": "The Star behind the Veil"
+      },
+      {
+        "type": "action",
+        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: A missing pilgrim's family has received a strange private invitation to a vigil. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Star behind the Veil"
+      },
+      {
+        "type": "story",
+        "instruction": "Present the particular opportunity The Star behind the Veil through the actual source and circumstances. The player may ask questions, refuse or accept. This offers only; no other contract, reward, companion or journey is committed."
+      }
+    ],
+    "script": "const t=check({type:'game-tick'});if(storage.arOfferTick===t)skip=true;else storage.arOfferTick=t;"
+  },
+  "ar_offer_18": {
+    "name": "ar_offer_18",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "House Montrevel Estate"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "planned",
+        "questId": "The Weight of Empty Sacks"
+      },
+      {
+        "type": "action",
+        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: Tenants' deliveries and the estate's grain totals do not agree. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Weight of Empty Sacks"
+      },
+      {
+        "type": "story",
+        "instruction": "Present the particular opportunity The Weight of Empty Sacks through the actual source and circumstances. The player may ask questions, refuse or accept. This offers only; no other contract, reward, companion or journey is committed."
+      }
+    ],
+    "script": "const t=check({type:'game-tick'});if(storage.arOfferTick===t)skip=true;else storage.arOfferTick=t;"
+  },
+  "ar_offer_19": {
+    "name": "ar_offer_19",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Eastwater Locks"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "planned",
+        "questId": "Water for the Lower Steps"
+      },
+      {
+        "type": "action",
+        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: Lower households are losing water while ornamental channels run clear. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "Water for the Lower Steps"
+      },
+      {
+        "type": "story",
+        "instruction": "Present the particular opportunity Water for the Lower Steps through the actual source and circumstances. The player may ask questions, refuse or accept. This offers only; no other contract, reward, companion or journey is committed."
+      }
+    ],
+    "script": "const t=check({type:'game-tick'});if(storage.arOfferTick===t)skip=true;else storage.arOfferTick=t;"
+  },
+  "ar_offer_20": {
+    "name": "ar_offer_20",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "House Dalcourt Counting House"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "planned",
+        "questId": "A Daughter's Guarantee"
+      },
+      {
+        "type": "action",
+        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: Marcel's private guarantees may put other people's wages at risk. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "A Daughter's Guarantee"
+      },
+      {
+        "type": "story",
+        "instruction": "Present the particular opportunity A Daughter's Guarantee through the actual source and circumstances. The player may ask questions, refuse or accept. This offers only; no other contract, reward, companion or journey is committed."
+      }
+    ],
+    "script": "const t=check({type:'game-tick'});if(storage.arOfferTick===t)skip=true;else storage.arOfferTick=t;"
+  },
+  "ar_offer_21": {
+    "name": "ar_offer_21",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Tern Thread Tailors"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "planned",
+        "questId": "The Unpaid Uniforms"
+      },
+      {
+        "type": "action",
+        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: A noble household has accepted its uniforms without paying the workers. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Unpaid Uniforms"
+      },
+      {
+        "type": "story",
+        "instruction": "Present the particular opportunity The Unpaid Uniforms through the actual source and circumstances. The player may ask questions, refuse or accept. This offers only; no other contract, reward, companion or journey is committed."
+      }
+    ],
+    "script": "const t=check({type:'game-tick'});if(storage.arOfferTick===t)skip=true;else storage.arOfferTick=t;"
+  },
+  "ar_offer_22": {
+    "name": "ar_offer_22",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Lantern House Theatre"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "planned",
+        "questId": "The Borrowed Finale"
+      },
+      {
+        "type": "action",
+        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: Two performers are arguing over the same finishing illusion. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Borrowed Finale"
+      },
+      {
+        "type": "story",
+        "instruction": "Present the particular opportunity The Borrowed Finale through the actual source and circumstances. The player may ask questions, refuse or accept. This offers only; no other contract, reward, companion or journey is committed."
+      }
+    ],
+    "script": "const t=check({type:'game-tick'});if(storage.arOfferTick===t)skip=true;else storage.arOfferTick=t;"
+  },
+  "ar_offer_23": {
+    "name": "ar_offer_23",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Civic Records Hall"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "planned",
+        "questId": "An Address That Never Was"
+      },
+      {
+        "type": "action",
+        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: A claim on a Southbank wash yard cites a street number that no longer exists. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "An Address That Never Was"
+      },
+      {
+        "type": "story",
+        "instruction": "Present the particular opportunity An Address That Never Was through the actual source and circumstances. The player may ask questions, refuse or accept. This offers only; no other contract, reward, companion or journey is committed."
+      }
+    ],
+    "script": "const t=check({type:'game-tick'});if(storage.arOfferTick===t)skip=true;else storage.arOfferTick=t;"
+  },
+  "ar_offer_24": {
+    "name": "ar_offer_24",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Sable Ribbon Club"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "planned",
+        "questId": "The Price of a Quiet Table"
+      },
+      {
+        "type": "action",
+        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: A trader would like a debt problem handled somewhere less public. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Price of a Quiet Table"
+      },
+      {
+        "type": "story",
+        "instruction": "Present the particular opportunity The Price of a Quiet Table through the actual source and circumstances. The player may ask questions, refuse or accept. This offers only; no other contract, reward, companion or journey is committed."
+      }
+    ],
+    "script": "const t=check({type:'game-tick'});if(storage.arOfferTick===t)skip=true;else storage.arOfferTick=t;"
+  },
+  "ar_offer_25": {
+    "name": "ar_offer_25",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Eastwater Bonded Warehouse"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "planned",
+        "questId": "Cargo with No Windows"
+      },
+      {
+        "type": "action",
+        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: A sealed priority load weighs less than its new invoice claims. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "Cargo with No Windows"
+      },
+      {
+        "type": "story",
+        "instruction": "Present the particular opportunity Cargo with No Windows through the actual source and circumstances. The player may ask questions, refuse or accept. This offers only; no other contract, reward, companion or journey is committed."
+      }
+    ],
+    "script": "const t=check({type:'game-tick'});if(storage.arOfferTick===t)skip=true;else storage.arOfferTick=t;"
+  },
+  "ar_offer_26": {
+    "name": "ar_offer_26",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Sable Ribbon Club"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "planned",
+        "questId": "A Knife in the Account"
+      },
+      {
+        "type": "action",
+        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: Lucan wants to know why traders are paying fees his own books never received. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "A Knife in the Account"
+      },
+      {
+        "type": "story",
+        "instruction": "Present the particular opportunity A Knife in the Account through the actual source and circumstances. The player may ask questions, refuse or accept. This offers only; no other contract, reward, companion or journey is committed."
+      }
+    ],
+    "script": "const t=check({type:'game-tick'});if(storage.arOfferTick===t)skip=true;else storage.arOfferTick=t;"
+  },
+  "ar_offer_27": {
+    "name": "ar_offer_27",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Crown Remand House"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "planned",
+        "questId": "The Closed Transfer"
+      },
+      {
+        "type": "action",
+        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: A remand prisoner has been requested by an office that will not sign for receipt. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Closed Transfer"
+      },
+      {
+        "type": "story",
+        "instruction": "Present the particular opportunity The Closed Transfer through the actual source and circumstances. The player may ask questions, refuse or accept. This offers only; no other contract, reward, companion or journey is committed."
+      }
+    ],
+    "script": "const t=check({type:'game-tick'});if(storage.arOfferTick===t)skip=true;else storage.arOfferTick=t;"
+  },
+  "ar_offer_28": {
+    "name": "ar_offer_28",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Ashwillow Inn"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "planned",
+        "questId": "The Wrong Room at the Inn"
+      },
+      {
+        "type": "action",
+        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: Two guests have claims on one trunk and neither is paying the bill. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Wrong Room at the Inn"
+      },
+      {
+        "type": "story",
+        "instruction": "Present the particular opportunity The Wrong Room at the Inn through the actual source and circumstances. The player may ask questions, refuse or accept. This offers only; no other contract, reward, companion or journey is committed."
+      }
+    ],
+    "script": "const t=check({type:'game-tick'});if(storage.arOfferTick===t)skip=true;else storage.arOfferTick=t;"
+  },
+  "ar_offer_29": {
+    "name": "ar_offer_29",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Crownlight Lighthouse"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "planned",
+        "questId": "The Lens in the Fog"
+      },
+      {
+        "type": "action",
+        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: The lighthouse lens has a flaw, and a fog bank is gathering outside. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Lens in the Fog"
+      },
+      {
+        "type": "story",
+        "instruction": "Present the particular opportunity The Lens in the Fog through the actual source and circumstances. The player may ask questions, refuse or accept. This offers only; no other contract, reward, companion or journey is committed."
+      }
+    ],
+    "script": "const t=check({type:'game-tick'});if(storage.arOfferTick===t)skip=true;else storage.arOfferTick=t;"
+  },
+  "ar_offer_30": {
+    "name": "ar_offer_30",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "The Chainbreak Docks"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "planned",
+        "questId": "A Share before the Dive"
+      },
+      {
+        "type": "action",
+        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: A salvage crew needs a sound agreement and one more capable hand before entering a wreck. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "A Share before the Dive"
+      },
+      {
+        "type": "story",
+        "instruction": "Present the particular opportunity A Share before the Dive through the actual source and circumstances. The player may ask questions, refuse or accept. This offers only; no other contract, reward, companion or journey is committed."
+      }
+    ],
+    "script": "const t=check({type:'game-tick'});if(storage.arOfferTick===t)skip=true;else storage.arOfferTick=t;"
+  },
+  "ar_offer_31": {
+    "name": "ar_offer_31",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "The Sunken Bell"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "planned",
+        "questId": "The Bell below the Hull"
+      },
+      {
+        "type": "action",
+        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: A wreck's bell can be heard when the lower current turns. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Bell below the Hull"
+      },
+      {
+        "type": "story",
+        "instruction": "Present the particular opportunity The Bell below the Hull through the actual source and circumstances. The player may ask questions, refuse or accept. This offers only; no other contract, reward, companion or journey is committed."
+      }
+    ],
+    "script": "const t=check({type:'game-tick'});if(storage.arOfferTick===t)skip=true;else storage.arOfferTick=t;"
+  },
+  "ar_offer_32": {
+    "name": "ar_offer_32",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "The King's Lists"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "planned",
+        "questId": "The Prince of Good Footwork"
+      },
+      {
+        "type": "action",
+        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: A boastful client wants a public demonstration that the training floor's rules apply to everyone. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Prince of Good Footwork"
+      },
+      {
+        "type": "story",
+        "instruction": "Present the particular opportunity The Prince of Good Footwork through the actual source and circumstances. The player may ask questions, refuse or accept. This offers only; no other contract, reward, companion or journey is committed."
+      }
+    ],
+    "script": "const t=check({type:'game-tick'});if(storage.arOfferTick===t)skip=true;else storage.arOfferTick=t;"
+  },
+  "ar_offer_33": {
+    "name": "ar_offer_33",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Caelrath Institute of Magic"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "planned",
+        "questId": "An Experiment with Witnesses"
+      },
+      {
+        "type": "action",
+        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: The institute has an open demonstration slot for a modest, testable question. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "An Experiment with Witnesses"
+      },
+      {
+        "type": "story",
+        "instruction": "Present the particular opportunity An Experiment with Witnesses through the actual source and circumstances. The player may ask questions, refuse or accept. This offers only; no other contract, reward, companion or journey is committed."
+      }
+    ],
+    "script": "const t=check({type:'game-tick'});if(storage.arOfferTick===t)skip=true;else storage.arOfferTick=t;"
+  },
+  "ar_offer_34": {
+    "name": "ar_offer_34",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Caelrath Institute of Magic"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "planned",
+        "questId": "The Missing Lens"
+      },
+      {
+        "type": "action",
+        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: Denis borrowed a lens and cannot return it before the demonstration. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Missing Lens"
+      },
+      {
+        "type": "story",
+        "instruction": "Present the particular opportunity The Missing Lens through the actual source and circumstances. The player may ask questions, refuse or accept. This offers only; no other contract, reward, companion or journey is committed."
+      }
+    ],
+    "script": "const t=check({type:'game-tick'});if(storage.arOfferTick===t)skip=true;else storage.arOfferTick=t;"
+  },
+  "ar_offer_35": {
+    "name": "ar_offer_35",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Palewick Bookshop"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "planned",
+        "questId": "The Copyist's Margin"
+      },
+      {
+        "type": "action",
+        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: An enthusiastic buyer wants one damaged marginal note more than the book around it. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Copyist's Margin"
+      },
+      {
+        "type": "story",
+        "instruction": "Present the particular opportunity The Copyist's Margin through the actual source and circumstances. The player may ask questions, refuse or accept. This offers only; no other contract, reward, companion or journey is committed."
+      }
+    ],
+    "script": "const t=check({type:'game-tick'});if(storage.arOfferTick===t)skip=true;else storage.arOfferTick=t;"
+  },
+  "ar_offer_36": {
+    "name": "ar_offer_36",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Crownwater Aqueduct"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "planned",
+        "questId": "One Sound Bridge"
+      },
+      {
+        "type": "action",
+        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: A survey sign-off was made before the underside was checked. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "One Sound Bridge"
+      },
+      {
+        "type": "story",
+        "instruction": "Present the particular opportunity One Sound Bridge through the actual source and circumstances. The player may ask questions, refuse or accept. This offers only; no other contract, reward, companion or journey is committed."
+      }
+    ],
+    "script": "const t=check({type:'game-tick'});if(storage.arOfferTick===t)skip=true;else storage.arOfferTick=t;"
+  },
+  "ar_offer_37": {
+    "name": "ar_offer_37",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Royal Hawk Mews"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "planned",
+        "questId": "The Mews after Midnight"
+      },
+      {
+        "type": "action",
+        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: A messenger has been using the mews after its attendants leave. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Mews after Midnight"
+      },
+      {
+        "type": "story",
+        "instruction": "Present the particular opportunity The Mews after Midnight through the actual source and circumstances. The player may ask questions, refuse or accept. This offers only; no other contract, reward, companion or journey is committed."
+      }
+    ],
+    "script": "const t=check({type:'game-tick'});if(storage.arOfferTick===t)skip=true;else storage.arOfferTick=t;"
+  },
+  "ar_offer_38": {
+    "name": "ar_offer_38",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Terrace Gardeners' Lodge"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "planned",
+        "questId": "A Gardener's Petition"
+      },
+      {
+        "type": "action",
+        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: Rare rootstock keeps leaving the beds under a signature no gardener has verified. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "A Gardener's Petition"
+      },
+      {
+        "type": "story",
+        "instruction": "Present the particular opportunity A Gardener's Petition through the actual source and circumstances. The player may ask questions, refuse or accept. This offers only; no other contract, reward, companion or journey is committed."
+      }
+    ],
+    "script": "const t=check({type:'game-tick'});if(storage.arOfferTick===t)skip=true;else storage.arOfferTick=t;"
+  },
+  "ar_offer_39": {
+    "name": "ar_offer_39",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Caelrath Amphitheatre"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "planned",
+        "questId": "The Performance Must Be Paid"
+      },
+      {
+        "type": "action",
+        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: A performance is due, but the promised wages have not arrived. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Performance Must Be Paid"
+      },
+      {
+        "type": "story",
+        "instruction": "Present the particular opportunity The Performance Must Be Paid through the actual source and circumstances. The player may ask questions, refuse or accept. This offers only; no other contract, reward, companion or journey is committed."
+      }
+    ],
+    "script": "const t=check({type:'game-tick'});if(storage.arOfferTick===t)skip=true;else storage.arOfferTick=t;"
+  },
+  "ar_offer_40": {
+    "name": "ar_offer_40",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Mortar and Moss Apothecary"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "planned",
+        "questId": "The Doctor's Refusal"
+      },
+      {
+        "type": "action",
+        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: A well-dressed client asked for a mixture whose use sounded wrong. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Doctor's Refusal"
+      },
+      {
+        "type": "story",
+        "instruction": "Present the particular opportunity The Doctor's Refusal through the actual source and circumstances. The player may ask questions, refuse or accept. This offers only; no other contract, reward, companion or journey is committed."
+      }
+    ],
+    "script": "const t=check({type:'game-tick'});if(storage.arOfferTick===t)skip=true;else storage.arOfferTick=t;"
+  },
+  "ar_offer_56": {
+    "name": "ar_offer_56",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "The Common Table"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "planned",
+        "questId": "A Table for Everyone"
+      },
+      {
+        "type": "action",
+        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: The kitchen needs one ordinary meal brought together before supper. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "A Table for Everyone"
+      },
+      {
+        "type": "story",
+        "instruction": "Present the particular opportunity A Table for Everyone through the actual source and circumstances. The player may ask questions, refuse or accept. This offers only; no other contract, reward, companion or journey is committed."
+      }
+    ],
+    "script": "const t=check({type:'game-tick'});if(storage.arOfferTick===t)skip=true;else storage.arOfferTick=t;"
+  },
+  "ar_offer_57": {
+    "name": "ar_offer_57",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Threadneedle Bakery"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "planned",
+        "questId": "The Note in the Pocket"
+      },
+      {
+        "type": "action",
+        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: A delivery note was left in the wrong coat and a customer is waiting. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Note in the Pocket"
+      },
+      {
+        "type": "story",
+        "instruction": "Present the particular opportunity The Note in the Pocket through the actual source and circumstances. The player may ask questions, refuse or accept. This offers only; no other contract, reward, companion or journey is committed."
+      }
+    ],
+    "script": "const t=check({type:'game-tick'});if(storage.arOfferTick===t)skip=true;else storage.arOfferTick=t;"
+  },
+  "ar_offer_58": {
+    "name": "ar_offer_58",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Stonehearth Smithy"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "planned",
+        "questId": "An Honest Temper"
+      },
+      {
+        "type": "action",
+        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: Counterfeit blades are carrying Gérald's maker's mark. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "An Honest Temper"
+      },
+      {
+        "type": "story",
+        "instruction": "Present the particular opportunity An Honest Temper through the actual source and circumstances. The player may ask questions, refuse or accept. This offers only; no other contract, reward, companion or journey is committed."
+      }
+    ],
+    "script": "const t=check({type:'game-tick'});if(storage.arOfferTick===t)skip=true;else storage.arOfferTick=t;"
+  },
+  "ar_offer_59": {
+    "name": "ar_offer_59",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Valleygate Lodgings"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "planned",
+        "questId": "A Roof before Rain"
+      },
+      {
+        "type": "action",
+        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: A landlord's agent says everyone must leave for repairs, but no repair crew has been booked. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "A Roof before Rain"
+      },
+      {
+        "type": "story",
+        "instruction": "Present the particular opportunity A Roof before Rain through the actual source and circumstances. The player may ask questions, refuse or accept. This offers only; no other contract, reward, companion or journey is committed."
+      }
+    ],
+    "script": "const t=check({type:'game-tick'});if(storage.arOfferTick===t)skip=true;else storage.arOfferTick=t;"
+  },
+  "ar_offer_60": {
+    "name": "ar_offer_60",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Ivory Guard Barracks"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "planned",
+        "questId": "The Fallen Practice Banner"
+      },
+      {
+        "type": "action",
+        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: A damaged practice banner has become an argument about whose training group is careless. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Fallen Practice Banner"
+      },
+      {
+        "type": "story",
+        "instruction": "Present the particular opportunity The Fallen Practice Banner through the actual source and circumstances. The player may ask questions, refuse or accept. This offers only; no other contract, reward, companion or journey is committed."
+      }
+    ],
+    "script": "const t=check({type:'game-tick'});if(storage.arOfferTick===t)skip=true;else storage.arOfferTick=t;"
+  },
+  "ar_offer_61": {
+    "name": "ar_offer_61",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Starwatch Isle"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "planned",
+        "questId": "The Island Guest"
+      },
+      {
+        "type": "action",
+        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: A frightened visitor has been sleeping in an unused shore shelter. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Island Guest"
+      },
+      {
+        "type": "story",
+        "instruction": "Present the particular opportunity The Island Guest through the actual source and circumstances. The player may ask questions, refuse or accept. This offers only; no other contract, reward, companion or journey is committed."
+      }
+    ],
+    "script": "const t=check({type:'game-tick'});if(storage.arOfferTick===t)skip=true;else storage.arOfferTick=t;"
+  },
+  "ar_offer_62": {
+    "name": "ar_offer_62",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Saltgull Shipwrights"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "planned",
+        "questId": "The Price of Good Timber"
+      },
+      {
+        "type": "action",
+        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: A rich patron wants a boat signed seaworthy before the work is finished. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Price of Good Timber"
+      },
+      {
+        "type": "story",
+        "instruction": "Present the particular opportunity The Price of Good Timber through the actual source and circumstances. The player may ask questions, refuse or accept. This offers only; no other contract, reward, companion or journey is committed."
+      }
+    ],
+    "script": "const t=check({type:'game-tick'});if(storage.arOfferTick===t)skip=true;else storage.arOfferTick=t;"
+  },
+  "ar_offer_63": {
+    "name": "ar_offer_63",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "House Orselle Salon"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "planned",
+        "questId": "The Player of Small Parts"
+      },
+      {
+        "type": "action",
+        "query": "The party deliberately follows up this particular actual opportunity with its source or a credible local representative: A censored performer needs a venue, and a patron wants the evening to look effortless. Mere arrival, a greeting, incidental gossip or a request about another job is false. Offer at most one undertaking this turn; do not accept it for the player."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Player of Small Parts"
+      },
+      {
+        "type": "story",
+        "instruction": "Present the particular opportunity The Player of Small Parts through the actual source and circumstances. The player may ask questions, refuse or accept. This offers only; no other contract, reward, companion or journey is committed."
+      }
+    ],
+    "script": "const t=check({type:'game-tick'});if(storage.arOfferTick===t)skip=true;else storage.arOfferTick=t;"
+  },
+  "ar_guild_board": {
+    "name": "ar_guild_board",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Adventurer's Guild - Caelrath Branch"
+      },
+      {
+        "type": "action",
+        "query": "A genuinely licensed participant deliberately asks Aveline or the live board for actual available guild work, a further notice or a particular contract now. Greetings, an assessment sample, fictional client discussion, first-time registration, hypothetical plans, merely passing the board and a current job report do not qualify. The configured selection offers one eligible live contract, never accepts it. Respect the actual participating party and any explicit harder-work request."
+      }
+    ],
+    "effects": [],
+    "script": "const rows=[{\"name\":\"Guild: Beetles in the Orchard\",\"min\":1,\"max\":4,\"rank\":1,\"premise\":\"Bronze work: Anaïs needs the orchard's young trees protected from a small pest outbreak. Posted reward: 35 marks.\"},{\"name\":\"Guild: A Cellar That Rustles\",\"min\":1,\"max\":3,\"rank\":1,\"premise\":\"Bronze work: Threadneedle Bakery's storage cellar has a persistent scratching problem. Posted reward: 30 marks.\"},{\"name\":\"Guild: The Millrace Screen\",\"min\":1,\"max\":5,\"rank\":1,\"premise\":\"Bronze work: Arlette's millrace screen is jammed, and she needs someone who can work safely around water. Posted reward: 40 marks.\"},{\"name\":\"Guild: A Parcel over Westbridge\",\"min\":1,\"max\":4,\"rank\":1,\"premise\":\"Bronze work: Loïc has a fitted buckle to deliver to the hospice. Posted reward: 25 marks.\"},{\"name\":\"Guild: Loose Tile, Busy Steps\",\"min\":3,\"max\":7,\"rank\":1,\"premise\":\"Bronze work: a loose roof tile over Chapel Steps threatens the flower stalls. Posted reward: 45 marks.\"},{\"name\":\"Guild: Something in the Culvert\",\"min\":7,\"max\":12,\"rank\":1,\"premise\":\"Bronze work: a culvert inspection stopped at fresh tracks and an unpleasant smell. Posted reward: 70 marks.\"},{\"name\":\"Guild: The Quarry's Empty Face\",\"min\":8,\"max\":15,\"rank\":1,\"premise\":\"Bronze work: Bruno needs an old cut checked before any new anchors go in. Posted reward: 80 marks.\"},{\"name\":\"Guild: Ropes across Cold Water\",\"min\":10,\"max\":16,\"rank\":1,\"premise\":\"Bronze work: a damaged service rope has left island supplies waiting on shore. Posted reward: 90 marks.\"},{\"name\":\"Guild: Glass That Walks\",\"min\":15,\"max\":22,\"rank\":2,\"premise\":\"Silver work: animated waste from a damaged workshop is making an alley unsafe. Posted reward: 130 marks.\"},{\"name\":\"Guild: A Sound from the Intake\",\"min\":18,\"max\":27,\"rank\":2,\"premise\":\"Silver work: an intake crew hears movement where nobody should be working. Posted reward: 160 marks.\"},{\"name\":\"Guild: The Drowned Cargo\",\"min\":22,\"max\":32,\"rank\":2,\"premise\":\"Silver work: an insured medical load rests in a documented wreck. Posted reward: 190 marks.\"},{\"name\":\"Guild: The Empty Escort Road\",\"min\":28,\"max\":38,\"rank\":3,\"premise\":\"Gold work: a recent escort vanished near the outer viaduct. Posted reward: 240 marks.\"},{\"name\":\"Guild: A Ward with Teeth\",\"min\":32,\"max\":42,\"rank\":3,\"premise\":\"Gold work: a decommissioned civic ward is resisting dismantling. Posted reward: 280 marks.\"}],t=check({type:'game-tick'});\nif(storage.arOfferTick===t){skip=true;}else{\nconst vals=v=>typeof v==='number'?[v]:v&&typeof v==='object'?Object.values(v):[];\nconst levels=vals(check({type:'player-level'})).filter(v=>typeof v==='number'&&v>0),level=levels.length?Math.min(...levels):1;\nconst ranks=['Bronze','Silver','Gold','Platinum'];let rank=0;\nfor(let i=0;i<ranks.length;i++)if(vals(check({type:'player-item',item:'Guild Badge: '+ranks[i]})).some(v=>v>0))rank=i+1;\nconst raw=[].concat(check({type:'action-text'})||[]).filter(v=>typeof v==='string').join(' ').toLowerCase();\nconst status=n=>check({type:'quest-status',questId:n});\nconst available=rows.filter(r=>status(r.name)==='planned'&&rank>=r.rank);\nconst requested=available.find(r=>raw.includes(r.name.toLowerCase())||raw.includes(r.name.replace(/^Guild: /,'').toLowerCase()));\nconst harder=/harder|more dangerous|higher.level|challenging/.test(raw);\nconst suitable=available.filter(r=>level>=r.min&&(level<=r.max+5||r.rank===1));\nconst pool=suitable.length?suitable:harder?available:[];\nconst chosen=requested?requested:pool.sort((a,b)=>Math.abs((a.min+a.max)/2-level)-Math.abs((b.min+b.max)/2-level))[0];\nif(!chosen){skip=true;}else{storage.arOfferTick=t;effects.push({type:'quest-init',operator:'set',value:chosen.name},{type:'story',instruction:'Aveline presents one actual eligible notice: '+chosen.premise+' This is an offer only; no acceptance, journey or payment occurs. Answer questions and allow refusal. Do not add other jobs or present an assessment sample as a live contract.'});}\n}"
+  },
+  "ar_existing_lead": {
+    "name": "ar_existing_lead",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "completed",
+        "questId": "A Second Receiving Station"
+      },
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "planned",
+        "questId": "Ardelis: Passage under Seal"
+      },
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "The Grand Sage's Court"
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "Ardelis: Passage under Seal"
+      }
+    ]
+  },
+  "ar_guild_exam_register": {
+    "name": "ar_guild_exam_register",
+    "recurring": true,
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Adventurer's Guild - Caelrath Branch"
+      },
+      {
+        "type": "player-item",
+        "item": "Guild Exam Docket",
+        "operator": "equals",
+        "value": 0
+      },
+      {
+        "type": "action",
+        "query": "This player actually applies for first-time adventurer licensure or a legitimate unfinished-exam retake at the guild. They do not already hold a genuine guild rank; browsing, hypothetical dialogue and asking for a free badge are false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "item-add",
+        "item": "Guild Exam Docket",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "Guild: Caelrath Licensure"
+      },
+      {
+        "type": "quest-accept",
+        "operator": "set",
+        "value": "Guild: Caelrath Licensure"
+      },
+      {
+        "type": "story",
+        "instruction": "Record this actual applicant’s docket. Explain the judgment review and safe practical assessment, using their real martial, magical or mixed training. This is registration, not a pass, badge, equipment grant or portal permission. No fee or commission is deducted."
+      }
+    ]
+  },
+  "ar_guild_exam_judgment": {
+    "name": "ar_guild_exam_judgment",
+    "recurring": true,
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Adventurer's Guild - Caelrath Branch"
+      },
+      {
+        "type": "player-item",
+        "item": "Guild Exam Docket",
+        "operator": "greaterThan",
+        "value": 0
+      },
+      {
+        "type": "player-item",
+        "item": "Guild Judgment Pass",
+        "operator": "equals",
+        "value": 0
+      },
+      {
+        "type": "story",
+        "query": "The current applicant actually completes the guild judgment review successfully, addressing request scope, risk, ownership and when to withdraw. The assessor certifies that portion now; reciting a boast, merely reading a board or a proposed future test is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "item-add",
+        "item": "Guild Judgment Pass",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "quest-objective-complete",
+        "questId": "Guild: Caelrath Licensure",
+        "objectiveId": "judgment"
+      },
+      {
+        "type": "story",
+        "instruction": "Record the actual applicant’s judgment pass. It is one exam component, not a license or reward. Preserve the result; no repeat payment or another invented test is required."
+      }
+    ]
+  },
+  "ar_guild_exam_practical": {
+    "name": "ar_guild_exam_practical",
+    "recurring": true,
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Adventurer's Guild - Caelrath Branch"
+      },
+      {
+        "type": "player-item",
+        "item": "Guild Exam Docket",
+        "operator": "greaterThan",
+        "value": 0
+      },
+      {
+        "type": "player-item",
+        "item": "Guild Practical Pass",
+        "operator": "equals",
+        "value": 0
+      },
+      {
+        "type": "story",
+        "query": "The current applicant actually passes the controlled guild practical assessment using a real trained martial, magical or mixed method. Honor supplied attempts and success/failure; high level alone, an intended attack or unplayed offscreen test is false. The duty assessor certifies this actual result now."
+      }
+    ],
+    "effects": [
+      {
+        "type": "item-add",
+        "item": "Guild Practical Pass",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "quest-objective-complete",
+        "questId": "Guild: Caelrath Licensure",
+        "objectiveId": "practical"
+      },
+      {
+        "type": "story",
+        "instruction": "Record the actual applicant’s practical pass. It is one exam component, not a license or reward. Preserve the result; no repeat payment or another invented test is required."
+      }
+    ]
+  },
+  "ar_guild_exam_certify": {
+    "name": "ar_guild_exam_certify",
+    "recurring": true,
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Adventurer's Guild - Caelrath Branch"
+      },
+      {
+        "type": "player-item",
+        "item": "Guild Exam Docket",
+        "operator": "greaterThan",
+        "value": 0
+      },
+      {
+        "type": "player-item",
+        "item": "Guild Judgment Pass",
+        "operator": "greaterThan",
+        "value": 0
+      },
+      {
+        "type": "player-item",
+        "item": "Guild Practical Pass",
+        "operator": "greaterThan",
+        "value": 0
+      },
+      {
+        "type": "story",
+        "query": "At the guild counter, the duty clerk actually verifies this applicant’s completed judgment and practical results and certifies first licensure now. This is the real applicant’s new issuance, not another person’s result, a hypothetical, a request for a rank skip or a duplicate existing badge."
+      }
+    ],
+    "effects": [
+      {
+        "type": "item-remove",
+        "item": "Guild Exam Docket",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "item-remove",
+        "item": "Guild Judgment Pass",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "item-remove",
+        "item": "Guild Practical Pass",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "item-add",
+        "item": "Guild Badge: Bronze",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "quest-objective-complete",
+        "questId": "Guild: Caelrath Licensure",
+        "objectiveId": "certify"
+      },
+      {
+        "type": "quest-progress",
+        "questId": "Guild: Caelrath Licensure"
+      },
+      {
+        "type": "story",
+        "instruction": "Describe the clerk completing the actual licensure and handing over the already-granted Document Guild Badge: Bronze. The typed grant is the sole inventory award; no item-generation task should add a badge, redefine it as a Relic or create an alias. Bronze work is now available by its actual rules. No portal key, weapon, extra payment or automatic promotion accompanies the ceremony."
+      }
+    ]
+  },
+  "ar_portal_to": {
+    "name": "ar_portal_to",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Evertree Base"
+      },
+      {
+        "type": "party-area",
+        "operator": "equals",
+        "value": "Evertree Base - Portal Room"
+      },
+      {
+        "type": "player-item",
+        "operator": "greaterThan",
+        "value": 0,
+        "item": "Ardelis Portal Key"
+      },
+      {
+        "type": "action",
+        "query": "The player commits to crossing the Ardelis portal now. Entering the named portal is enough when its genuine Ardelis Portal Key is already held; no spoken key-use formula is required. A bare enter also qualifies if recent context uniquely selected this arch. Mere approach, inspection, discussion, future/conditional plans, forcing someone else or leaving a split player party do not qualify. The actual active party travels together; solo travel qualifies. Testing this named portal means one outbound crossing now, not an automatic return. A clear test command qualifies even without the word enter."
+      }
+    ],
+    "effects": [
+      {
+        "type": "known-entity",
+        "entity": "Ardelis",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "known-entity",
+        "entity": "Kingsward Gate",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "known-entity",
+        "entity": "Caelrath Portal Hall",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "party-location",
+        "operator": "set",
+        "value": "Caelrath Portal Hall"
+      },
+      {
+        "type": "party-area",
+        "operator": "set",
+        "value": "Caelrath Portal Hall - Portal Room"
+      },
+      {
+        "type": "npc-placement",
+        "npc": "allPartyNPCs",
+        "operation": "moveTo",
+        "location": "Caelrath Portal Hall",
+        "area": "Caelrath Portal Hall - Portal Room"
+      },
+      {
+        "type": "story",
+        "instruction": "Render the chosen portal crossing into Caelrath Portal Hall - Portal Room, preserving the traveling party, belongings, actual permission and ongoing obligations. This is a distant region of the same world. Arrival alone grants no fieldwork credit or new companion. Render only this one crossing and its fixed endpoint; do not add an unrequested return or journey."
+      }
+    ],
+    "script": "const tick=check({type:'game-tick'});\nif(storage.ghPortalTransitTick===tick){skip=true;}else{\nconst players=check({type:'player-level'})||{};\nif(Object.values(players).some(level=>level>=20)&&!check({type:'read-boolean',key:'gh_spider_entered'})){\n storage.gh_spider_entered=true;storage.gh_exam_postponed=true;\n storage.ghSpiderIncident={tick,intendedDestination:\"Ardelis\",key:\"Ardelis Portal Key\",players:Object.keys(players),companions:Object.keys(check({type:'npc-in-party',npc:'anyPartyNPC'})||{})};\n effects.length=0;effects.push(...[{\"type\":\"known-entity\",\"entity\":\"The Silken Descent\",\"operator\":\"set\",\"value\":true},{\"type\":\"known-entity\",\"entity\":\"Silken Chasm\",\"operator\":\"set\",\"value\":true},{\"type\":\"known-entity\",\"entity\":\"Silken Portal Room\",\"operator\":\"set\",\"value\":true},{\"type\":\"party-location\",\"operator\":\"set\",\"value\":\"Silken Portal Room\"},{\"type\":\"party-area\",\"operator\":\"set\",\"value\":\"Silken Portal Room - Return Arch\"},{\"type\":\"npc-placement\",\"npc\":\"allPartyNPCs\",\"operation\":\"moveTo\",\"location\":\"Silken Portal Room\",\"area\":\"Silken Portal Room - Return Arch\"},{\"type\":\"story\",\"instruction\":\"Interrupt the apparently normal crossing now: silver strands shear across the expected view and the actual party arrives together inside the ruined Silken Portal Room. Preserve companions and possessions. A silver-threaded key visibly condenses as the room is discovered; its one-time item effect records it. The stable return arch clearly leads home and is immediately usable without a key, descent or battle. Stop at arrival. No official predicted this event; do not descend or return for the player.\"}]);\n}\nstorage.ghPortalTransitTick=tick;storage.gh_evertree_transited=true;\n}"
+  },
+  "ar_portal_from": {
+    "name": "ar_portal_from",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Caelrath Portal Hall"
+      },
+      {
+        "type": "action",
+        "query": "The player actually enters or crosses this location’s sole fixed return portal now. Explicitly entering the portal qualifies from its local staging areas; a bare \"I enter\" qualifies when the current scene unambiguously refers to that arch, including the Silken arrival floor. The short approach is ordinary movement. The destination is always Evertree Base - Portal Room in Glowhaven, never a choice. Do not require a key or the exact arch sub-area. Entering an unrelated shop, stair or alcove, future discussion, negation, forcing another traveler or leaving part of a split player party is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "known-entity",
+        "entity": "Glowhaven",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "known-entity",
+        "entity": "Evertree Base",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "party-location",
+        "operator": "set",
+        "value": "Evertree Base"
+      },
+      {
+        "type": "party-area",
+        "operator": "set",
+        "value": "Evertree Base - Portal Room"
+      },
+      {
+        "type": "npc-placement",
+        "npc": "allPartyNPCs",
+        "operation": "moveTo",
+        "location": "Evertree Base",
+        "area": "Evertree Base - Portal Room"
+      },
+      {
+        "type": "story",
+        "instruction": "The completed return crossing lands the actual party at Evertree Base - Portal Room, Glowhaven’s sole portal hub. Apply that exact location and area; do not stop at generic Glowhaven, remain in the source realm, offer a landing choice or invent a second city portal. Preserve companions, possessions, reusable keys and completed progress. Stop inside the hub; walking out, reporting findings and another outward crossing are separate actions. No boss victory or educational credit is awarded merely for returning."
+      }
+    ],
+    "script": "const ghTick=check({type:'game-tick'});\nif(storage.ghPortalTransitTick===ghTick){skip=true;}else{\n\nif(!skip){storage.ghPortalTransitTick=ghTick;}\n}\nif(!skip){storage.ghLastPortalTransit={tick:check({type:'game-tick'}),route:'home',fromLocation:check({type:'party-location'}),fromArea:check({type:'party-area'}),semantic:true};}"
+  },
+  "ar_issue_key": {
+    "name": "ar_issue_key",
+    "recurring": true,
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Evertree Base"
+      },
+      {
+        "type": "party-area",
+        "operator": "equals",
+        "value": "Evertree Base - Portal Room"
+      },
+      {
+        "type": "player-item",
+        "operator": "equals",
+        "value": 0,
+        "item": "Ardelis Portal Key"
+      },
+      {
+        "type": "read-boolean",
+        "operator": "equals",
+        "value": true,
+        "key": "arTransitAuthorized"
+      },
+      {
+        "type": "story",
+        "query": "The authorized Evertree transit delegate actually verifies this traveler’s named bilateral Ardelis sponsorship and hands them the Ardelis Portal Key now. A sponsorship for someone else, merely asking, declaring oneself a noble or student, a forged invitation, or conversation about a future issue is false. Vladimir may vouch for the actual traveler at the agreed meeting; the independent court invitation is equally valid."
+      }
+    ],
+    "effects": [
+      {
+        "type": "item-add",
+        "item": "Ardelis Portal Key",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "story",
+        "instruction": "The authorized delegate hands over the reusable Ardelis route key already recorded by the item effect. It opens the matching Evertree arch for a permitted journey; it grants no palace access or automatic travel. Do not create a second key or a fee."
+      }
+    ]
+  },
+  "ar_vladimir_meeting": {
+    "name": "ar_vladimir_meeting",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "quest-status",
+        "operator": "equals",
+        "value": "accepted",
+        "questId": "Ardelis: An Unhelpful Sponsor"
+      },
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Shadowspire"
+      },
+      {
+        "type": "read-boolean",
+        "operator": "equals",
+        "value": false,
+        "key": "arVladMeeting"
+      },
+      {
+        "type": "story",
+        "query": "Vladimir has actually agreed to arrange an authorized Ardelis transit meeting and names the Evertree Portal Room as its place. A request he has declined or an imagined future agreement is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-boolean",
+        "operator": "set",
+        "value": true,
+        "key": "arVladMeeting"
+      },
+      {
+        "type": "story",
+        "instruction": "Vladimir arranges his own visit to the Evertree Portal Room with an authorized transit delegate. He does not join the party or teleport them there; their journey remains theirs."
+      }
+    ]
+  },
+  "ar_vladimir_arrives": {
+    "name": "ar_vladimir_arrives",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "operator": "equals",
+        "value": true,
+        "key": "arVladMeeting"
+      },
+      {
+        "type": "read-boolean",
+        "operator": "equals",
+        "value": false,
+        "key": "arVladPlaced"
+      },
+      {
+        "type": "party-area",
+        "operator": "equals",
+        "value": "Evertree Base - Portal Room"
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-boolean",
+        "operator": "set",
+        "value": true,
+        "key": "arVladPlaced"
+      },
+      {
+        "type": "npc-placement",
+        "npc": "Valkazathoth'dmir",
+        "operation": "moveTo",
+        "location": "Evertree Base",
+        "area": "Evertree Base - Portal Room"
+      },
+      {
+        "type": "story",
+        "instruction": "Vladimir arrives independently for the arranged meeting. The delegate can verify a genuine limited sponsorship after hearing the actual purpose; no one grants a key merely because the party entered the room."
+      }
+    ]
+  },
+  "ar_vladimir_departs": {
+    "name": "ar_vladimir_departs",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "operator": "equals",
+        "value": true,
+        "key": "arVladPlaced"
+      },
+      {
+        "type": "read-boolean",
+        "operator": "equals",
+        "value": false,
+        "key": "arVladDeparted"
+      },
+      {
+        "type": "player-item",
+        "operator": "greaterThan",
+        "value": 0,
+        "item": "Ardelis Portal Key"
+      },
+      {
+        "type": "story",
+        "query": "Vladimir’s actual arranged Evertree meeting has finished after the sponsored key handover, and he takes his own leave. Continuing an unfinished conversation or a key issued through the unrelated independent route is false."
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-boolean",
+        "operator": "set",
+        "value": true,
+        "key": "arVladDeparted"
+      },
+      {
+        "type": "npc-placement",
+        "npc": "Valkazathoth'dmir",
+        "operation": "moveTo",
+        "location": "Shadowspire",
+        "area": "Shadowspire - Upper Study"
+      },
+      {
+        "type": "story",
+        "instruction": "Vladimir returns independently to his own study, protecting his expensive glass staff from a too-helpful attendant. The party keeps its actual permission and chooses when to travel."
+      }
+    ]
+  },
+  "ar_writ_record": {
+    "name": "ar_writ_record",
+    "recurring": true,
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "operator": "equals",
+        "value": true,
+        "key": "arTransitAuthorized"
+      },
+      {
+        "type": "player-item",
+        "operator": "equals",
+        "value": 0,
+        "item": "Ardelis Transit Writ"
+      },
+      {
+        "type": "story",
+        "query": "This participant actually receives their verified limited Ardelis transit sponsorship from the relevant court or authorized delegate. It names their genuine purpose and bearer; permission for a different traveler does not qualify."
+      }
+    ],
+    "effects": [
+      {
+        "type": "item-add",
+        "item": "Ardelis Transit Writ",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "ar_cradle_guard": {
+    "name": "ar_cradle_guard",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Caelrath Palace"
+      },
+      {
+        "type": "read-boolean",
+        "operator": "equals",
+        "value": false,
+        "key": "arLowerReady"
+      }
+    ],
+    "effects": [
+      {
+        "type": "party-location",
+        "operator": "set",
+        "value": "Caelrath Palace"
+      },
+      {
+        "type": "party-area",
+        "operator": "set",
+        "value": "Caelrath Palace - Warded Crossing"
+      },
+      {
+        "type": "npc-placement",
+        "npc": "allPartyNPCs",
+        "operation": "moveTo",
+        "location": "Caelrath Palace",
+        "area": "Caelrath Palace - Warded Crossing"
+      },
+      {
+        "type": "story",
+        "instruction": "The cradle approach is still unsafe: the cooling feed and warded crossing have not actually been made passable. The party stays at the warded crossing, with a real route back up the service galleries. Describe the warning and obstacle, not a successful entry, boss attack or reward."
+      }
+    ],
+    "script": "const raw=[].concat(check({type:'action-text'})||[]).filter(v=>typeof v==='string').join(' ').trim();if(!/^(?:(?:i|we)\\s+)?(?:attempt to\\s+)?(?:go|head|walk|move|enter|descend|jump|teleport|cross)\\b/i.test(raw)||!/resonance cradle|thaurivex|cradle door|boss (?:room|chamber)/i.test(raw))skip=true;",
+    "phase": "planning"
+  },
+  "ar_cradle_backstop": {
+    "name": "ar_cradle_backstop",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-area",
+        "operator": "equals",
+        "value": "Caelrath Palace - Resonance Cradle"
+      },
+      {
+        "type": "read-boolean",
+        "operator": "equals",
+        "value": false,
+        "key": "arLowerReady"
+      }
+    ],
+    "effects": [
+      {
+        "type": "party-location",
+        "operator": "set",
+        "value": "Caelrath Palace"
+      },
+      {
+        "type": "party-area",
+        "operator": "set",
+        "value": "Caelrath Palace - Warded Crossing"
+      },
+      {
+        "type": "npc-placement",
+        "npc": "allPartyNPCs",
+        "operation": "moveTo",
+        "location": "Caelrath Palace",
+        "area": "Caelrath Palace - Warded Crossing"
+      },
+      {
+        "type": "story",
+        "instruction": "The cradle approach is still unsafe: the cooling feed and warded crossing have not actually been made passable. The party stays at the warded crossing, with a real route back up the service galleries. Describe the warning and obstacle, not a successful entry, boss attack or reward."
+      }
+    ],
+    "phase": "state"
+  },
+  "ar_diadem_recovery": {
+    "name": "ar_diadem_recovery",
+    "recurring": true,
+    "scope": "party",
+    "conditions": [
+      {
+        "type": "party-area",
+        "operator": "equals",
+        "value": "Caelrath Palace - Resonance Cradle"
+      },
+      {
+        "type": "read-boolean",
+        "operator": "equals",
+        "value": false,
+        "key": "arDiademRecovered"
+      },
+      {
+        "type": "story",
+        "query": "The actual party safely recovers Thaurivex’s detached broken diadem after its real defeat or a completed safe containment and regulator shutdown. It has been physically made inert and taken, not merely seen or promised. The construct remains one persistent individual. Do not recover it through an active hostile body or call a still-active vessel defeated."
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-boolean",
+        "operator": "set",
+        "value": true,
+        "key": "arDiademRecovered"
+      },
+      {
+        "type": "item-add",
+        "item": "Thaurivex's Broken Diadem",
+        "quantity": 1,
+        "target": "allPlayers"
+      },
+      {
+        "type": "story",
+        "instruction": "Record the inert broken regulator already granted. It is a physical reminder of this actual outcome, not a new bound soul or spell. Honor Thaurivex’s fate and any surviving fragments; do not respawn it or duplicate the relic through the quest reward."
+      }
+    ]
   }
 }

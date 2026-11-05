@@ -1,0 +1,779 @@
+{
+  "complete": true,
+  "worldSHA256": "a070c777f601061fcef36d65cf94f557e9f6ee86e564cc48282a7ce869bac924",
+  "portraits": 24,
+  "locationImages": 84,
+  "areaImages": 2,
+  "assignments": [
+    {
+      "target": "NPC_PORTRAIT",
+      "address": "Valkazathoth'dmir",
+      "file": "world-draft/npc portraits/Ardelis/Valkazathoth'dmir.png",
+      "sha256": "37eb51d30e0d882dd02ed6df0147535ff07fb629394a457102931acca32999d4",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/c0113da6-14ef-4cc0-b7a9-527b50f5d431.png"
+    },
+    {
+      "target": "NPC_PORTRAIT",
+      "address": "Isabeau Aurevain",
+      "file": "world-draft/npc portraits/Ardelis/Isabeau Aurevain.png",
+      "sha256": "fb6ad99de141e8ddbf6f19ad34f17111ce4345465a932e1f5030964d4022feec",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/f28783af-231c-40d6-83ac-6be67e37fac9.png"
+    },
+    {
+      "target": "NPC_PORTRAIT",
+      "address": "Marielle Aurevain",
+      "file": "world-draft/npc portraits/Ardelis/Marielle Aurevain.png",
+      "sha256": "b9049d33951cb19a2227e054e4e846d5cab18d13a93d85ce2cdeb2bd730b8206",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/395b44e7-ede9-4e2c-a36b-e68fe3ea111d.png"
+    },
+    {
+      "target": "NPC_PORTRAIT",
+      "address": "Céleste Aurevain",
+      "file": "world-draft/npc portraits/Ardelis/Céleste Aurevain.png",
+      "sha256": "cee9548ea50bf3ca6e9a4dc523d537e8e1981e4a654c41fa35afbde74d44777b",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/fef8cea3-f50c-4841-b951-8622ad57b6d8.png"
+    },
+    {
+      "target": "NPC_PORTRAIT",
+      "address": "Lysandra Aurevain",
+      "file": "world-draft/npc portraits/Ardelis/Lysandra Aurevain.png",
+      "sha256": "1c1108969842accb7105a4aabf77ff13e28862e2e5e228bb3130c46f37787aac",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/0d13403f-be45-4121-85ef-429458f0cf27.png"
+    },
+    {
+      "target": "NPC_PORTRAIT",
+      "address": "Noelle Ashford",
+      "file": "world-draft/npc portraits/Ardelis/Noelle Ashford.png",
+      "sha256": "acf1b8e0a0c4bbb81a1c0841717bbbdd08854028e26098c77a2d667a1baf7c39",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/47df15dc-3e04-4e74-96d4-b8afe64cd31a.png"
+    },
+    {
+      "target": "NPC_PORTRAIT",
+      "address": "Thaurivex",
+      "file": "world-draft/npc portraits/Ardelis/Thaurivex.png",
+      "sha256": "89986d159f6aedda50ac85aa8347aa8233173a0fc7a319a5b0324967e8a05326",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/f1566081-2081-47d7-a31f-5505525e233e.png"
+    },
+    {
+      "target": "NPC_PORTRAIT",
+      "address": "Severin Morcant",
+      "file": "world-draft/npc portraits/Ardelis/Severin Morcant.png",
+      "sha256": "735d7761ea7c7de97c7cd916ed9ef767e25401507f2b7d104c1c506e63bfbb7e",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/f72e6e0b-31c5-4272-9be4-3804b5bbfcc8.png"
+    },
+    {
+      "target": "NPC_PORTRAIT",
+      "address": "Hector Montrevel",
+      "file": "world-draft/npc portraits/Ardelis/Hector Montrevel.png",
+      "sha256": "8e5a96e95bcbb273d11c0835dd1756a1c0c143767ff70f7caa69b77734a2e330",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/46487657-7c3a-404d-99c8-b915b6db037b.png"
+    },
+    {
+      "target": "NPC_PORTRAIT",
+      "address": "Julienne Dalcourt",
+      "file": "world-draft/npc portraits/Ardelis/Julienne Dalcourt.png",
+      "sha256": "84c7279fe2ad2f041f29ce56fc35ed19a20961f91122a02ca462aaf9838eaf96",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/ae8209bf-4961-4946-91a6-251f3c785397.png"
+    },
+    {
+      "target": "NPC_PORTRAIT",
+      "address": "Armand Veymont",
+      "file": "world-draft/npc portraits/Ardelis/Armand Veymont.png",
+      "sha256": "69bad57a7ef150774c462f59da8df7e1046705ab1eab958e745ac2fc355765ef",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/dcde6b38-2873-43a5-9b9d-0670a4791eff.png"
+    },
+    {
+      "target": "NPC_PORTRAIT",
+      "address": "Mireille Orselle",
+      "file": "world-draft/npc portraits/Ardelis/Mireille Orselle.png",
+      "sha256": "7bea8d7e33caebfa7e9a52e9e1274837dced4e215940f76c08ea209e9bc4b146",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/d124ff45-7089-4477-a7ca-ebc8f37d33c9.png"
+    },
+    {
+      "target": "NPC_PORTRAIT",
+      "address": "Laurent Bellegarde",
+      "file": "world-draft/npc portraits/Ardelis/Laurent Bellegarde.png",
+      "sha256": "fc3c17519809bf70314a4ec06f6ce14acbdb2face4e73d50a733afa071d199a2",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/30aa6fc5-f3cb-4445-b52a-5c4b7f709f47.png"
+    },
+    {
+      "target": "NPC_PORTRAIT",
+      "address": "Sabine Mauclerc",
+      "file": "world-draft/npc portraits/Ardelis/Sabine Mauclerc.png",
+      "sha256": "903ea6232ddfdf36adab0673e80f09d4bc4d49ab978a558fac0c2efb996b992e",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/0a3e65b1-8153-499a-b889-a90df25b84cf.png"
+    },
+    {
+      "target": "NPC_PORTRAIT",
+      "address": "Lucan Voss",
+      "file": "world-draft/npc portraits/Ardelis/Lucan Voss.png",
+      "sha256": "00d72b2f52dbd92edf17d44a3ee77023e2bdddb430d3bac89fc25f951e2a4801",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/201790fc-bebe-47a6-8887-2e446762d6df.png"
+    },
+    {
+      "target": "NPC_PORTRAIT",
+      "address": "Aveline Marchand",
+      "file": "world-draft/npc portraits/Ardelis/Aveline Marchand.png",
+      "sha256": "eeffbcc501820f685a016b91f8678e8dead79638e70d0907b80ea5e57069cf58",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/3711bdac-3177-45b4-9c4c-a734b3a71e4e.png"
+    },
+    {
+      "target": "NPC_PORTRAIT",
+      "address": "Bastien Rochefort",
+      "file": "world-draft/npc portraits/Ardelis/Bastien Rochefort.png",
+      "sha256": "7fcd56b112aaa12d419ca3cb5a8b0c357c16e00205909861b95553c2ac244d1f",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/2d803100-d473-479c-8d7a-f54f13f1ff11.png"
+    },
+    {
+      "target": "NPC_PORTRAIT",
+      "address": "Nerissa Vale",
+      "file": "world-draft/npc portraits/Ardelis/Nerissa Vale.png",
+      "sha256": "acb4098d506bcd4246e1eb22c5f85a18904bb569a8da3cc4dcd4761373c6ca87",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/80df331e-a10b-4f85-9419-e455a57ab1f9.png"
+    },
+    {
+      "target": "NPC_PORTRAIT",
+      "address": "Coralie Brissot",
+      "file": "world-draft/npc portraits/Ardelis/Coralie Brissot.png",
+      "sha256": "9fd2fef89c00c83c242dfdb4b6294142ac73af8609637f4c1f9c05c5778b3f3b",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/cf617dff-9c47-4c15-88c2-8af2d79ef064.png"
+    },
+    {
+      "target": "NPC_PORTRAIT",
+      "address": "Corvin Hale",
+      "file": "world-draft/npc portraits/Ardelis/Corvin Hale.png",
+      "sha256": "2a8c27dcd0f2dbbb253e7556b4465696783227de115eeb2c7d854d132d0ac5d1",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/7b212a1e-1465-480d-88b1-e4da2edc14c3.png"
+    },
+    {
+      "target": "NPC_PORTRAIT",
+      "address": "Aurélian Vauss",
+      "file": "world-draft/npc portraits/Ardelis/Aurélian Vauss.png",
+      "sha256": "8f114ef1f70e328c4ee9574685dd9167ccf18c82d34b7564c61bcf2390c9c00e",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/b032c70e-0d59-4f2d-9bea-a02511e46eca.png"
+    },
+    {
+      "target": "NPC_PORTRAIT",
+      "address": "Séraphine Duvray",
+      "file": "world-draft/npc portraits/Ardelis/Séraphine Duvray.png",
+      "sha256": "ff4cf8f0a88ecdf224224f9a7a43e02924d5739809ebeeab6e58ceadbd02cf14",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/376abf01-2636-47cc-be83-43f731feb385.png"
+    },
+    {
+      "target": "NPC_PORTRAIT",
+      "address": "Osmond Verain",
+      "file": "world-draft/npc portraits/Ardelis/Osmond Verain.png",
+      "sha256": "0de8114d7a07980356daa73c6bf79c0f757f96761c0f1f14d44cd1f7dbf324ae",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/e51a7227-df25-4ef4-966d-bbb2218c7750.png"
+    },
+    {
+      "target": "NPC_PORTRAIT",
+      "address": "Cedran Aurevain",
+      "file": "world-draft/npc portraits/Ardelis/Cedran Aurevain.png",
+      "sha256": "1952336c8e4ec9cc8dba0e89767f1c3c830499eb47bc9c1eafbd56eb51b60c7b",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/02c8bfde-6f9a-48a1-8fe5-bea811ec1ac0.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Opaline Arcade",
+      "file": "world-draft/location images/Ardelis/Opaline Arcade.png",
+      "sha256": "acadae23bebe460c139cac044b9faeec0e15be9e46941b7f0e35f4881b908942",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/da0351a5-8202-4f50-ab7e-3df79203f582.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Velvet Lyre Hall",
+      "file": "world-draft/location images/Ardelis/Velvet Lyre Hall.png",
+      "sha256": "b0e0a26b18dc59cd6648bdac7a054be2ae58cc68ed4adbbd4e2562414850d0ae",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/cbdb8f0b-3243-492d-972e-8ee304a2f515.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Caelrath Sewers",
+      "file": "world-draft/location images/Ardelis/Caelrath Sewers.png",
+      "sha256": "27317c6d0452148e03cae2da33579df78e8595c13f1f23a1508f827dbb80eb7a",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/3555e96f-4d15-46a7-b688-a938a6d49d3e.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Starfall Cathedral",
+      "file": "world-draft/location images/Ardelis/Starfall Cathedral.png",
+      "sha256": "eef10516a7907d270ef43cf57fc5ca5bd33b140b34a1852f8dc4265b15a614c6",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/43e5d31e-6ef6-43c7-8e06-688f2c5606ec.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Pilgrim's Rest Hospice",
+      "file": "world-draft/location images/Ardelis/Pilgrim's Rest Hospice.png",
+      "sha256": "f7b0de30b8805cb729bb44ab28d949562fb6029340526122a78695fb84f3ea06",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/1a2493dd-20a6-4913-9128-4044c1e14e39.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Chapel Steps",
+      "file": "world-draft/location images/Ardelis/Chapel Steps.png",
+      "sha256": "1f16f5626c5a38ed8a4506c3ee9c361c4bf2b09ac3eb0c52ac12923d150ca790",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/5b1897e1-fcbf-4dd2-8bec-302b300538c3.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Vesper Bell Cloister",
+      "file": "world-draft/location images/Ardelis/Vesper Bell Cloister.png",
+      "sha256": "8720805c34336410c478755be254aba40bfff910ebb36257fb415268a0d6e245",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/6f16711e-3b83-4d70-9ef4-4f7bb9a14e47.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Starward Cemetery",
+      "file": "world-draft/location images/Ardelis/Starward Cemetery.png",
+      "sha256": "dc54f83d75ff28e80aebeed50d78bcde0c68cad03a3ae58f76138986b42de52b",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/10568da8-8c5a-474e-8a74-be041f6cc02d.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Empyrean Archives",
+      "file": "world-draft/location images/Ardelis/Empyrean Archives.png",
+      "sha256": "5768b13f4678ffc7ae471e375f900dd66a25b92ddb493130ef97a7b628013338",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/170a6f67-04e8-4380-82f3-cdefdf4a8f32.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Crownwater Aqueduct",
+      "file": "world-draft/location images/Ardelis/Crownwater Aqueduct.png",
+      "sha256": "7a8459a56b8092ddf7d5d4e7ff4bd3b768a17076ec985c2aa551ecd5658cfe24",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/6231ac76-e8bb-4d7b-b377-0edc04694e35.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "House Montrevel Estate",
+      "file": "world-draft/location images/Ardelis/House Montrevel Estate.png",
+      "sha256": "d3c3235e46f4b8879f2a59530294c5c8b7018e80890f05616459a61e05c422f4",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/3489dd69-66bc-4a74-9842-fd5248db8223.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "The High Reservoir",
+      "file": "world-draft/location images/Ardelis/The High Reservoir.png",
+      "sha256": "a7881af8300229674d6e5d97bd111b96f7e4effcbeb277afb1e056662d2405ed",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/0df6e539-15cb-4725-abf9-ce34a26991ff.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Royal Hawk Mews",
+      "file": "world-draft/location images/Ardelis/Royal Hawk Mews.png",
+      "sha256": "6f524b2777a97995304d3d0958a32de48d79e70f590e69be552f4ea50a6e1339",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/061a9199-8860-45ce-8821-9fa45191338d.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Terrace Gardeners' Lodge",
+      "file": "world-draft/location images/Ardelis/Terrace Gardeners' Lodge.png",
+      "sha256": "ef2e8c14f8089dfd41ceeafbee07903bfe751811b5a297131f539347e01509ce",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/676e77e5-bae3-4e48-847c-7b318e12351e.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Caelrath Palace",
+      "file": "world-draft/location images/Ardelis/Caelrath Palace.png",
+      "sha256": "1df5156ecd2c9189f64a3571cbbf23ef015a3515d9af8fdb1e4897af91c396f4",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/ccfc98fe-3fc7-4d2a-867d-fbda96be3d25.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Hall of Mirrors",
+      "file": "world-draft/location images/Ardelis/Hall of Mirrors.png",
+      "sha256": "fc0c9853a3d3fe07a37eb75493ce9bd64046550ac44027a8504b04b398923d33",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/8acd9449-3fab-43d2-bf5b-139a0a5bf032.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Royal Petition Court",
+      "file": "world-draft/location images/Ardelis/Royal Petition Court.png",
+      "sha256": "0273d02da08ea15e2482cdc8b6110d257cbcd49a075fa845af9f3a5de5be77f5",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/1c17ce11-2cb9-47cc-933f-e6020b59a027.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Embassy Residences",
+      "file": "world-draft/location images/Ardelis/Embassy Residences.png",
+      "sha256": "2bbbe14c8661b70881bd355e06365d66c73c6a64df0a6c6fda2b31afeb66a1ff",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/54ad9944-1551-420e-8f3c-52f79af1b33a.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "The Crown Mint",
+      "file": "world-draft/location images/Ardelis/The Crown Mint.png",
+      "sha256": "d5439cb60cb932e5fa75f1d2c6654a1d40424977b7679c5b410e91cabccc480a",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/b3322655-e000-4575-87e8-c72d3a91cff5.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Ivory Guard Barracks",
+      "file": "world-draft/location images/Ardelis/Ivory Guard Barracks.png",
+      "sha256": "e2fbe149150ab6e3014bd8f3bb4d29b7dfbd8f0fa76254b389e7667c0699329f",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/ff3bfb3c-ec0d-4145-8f8b-6837cab0a7f8.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Court Wizard's Spire",
+      "file": "world-draft/location images/Ardelis/Court Wizard's Spire.png",
+      "sha256": "e1340835d208f1f4368cf03733a2fb7c855df38dd9b7555e266e7ad7c8621e5a",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/dc32c9ad-686c-48f4-8563-83db4acc7877.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Amethyst Intake Works",
+      "file": "world-draft/location images/Ardelis/Amethyst Intake Works.png",
+      "sha256": "4552483834aaea528416c07e56d1cf80cdc102ed97d928ac88ccc20687ce5d91",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/a235f97c-49bd-4297-910f-a555bc5d362b.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "House Veymont Residence",
+      "file": "world-draft/location images/Ardelis/House Veymont Residence.png",
+      "sha256": "cf583a6a8058e9e765a237186a67590731581ef2d0a79d356a336061d8c148a5",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/4151fc9b-0d04-4bb9-8e9e-caea9096b1c8.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Skyglass Observatory",
+      "file": "world-draft/location images/Ardelis/Skyglass Observatory.png",
+      "sha256": "e79a7e8205b746be9ef00d0b1352944ac9b31fc78380ed27a513fc0523b1f975",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/72129ddb-e653-461d-8d28-19fef7c11fd5.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "The Old Receiving House",
+      "file": "world-draft/location images/Ardelis/The Old Receiving House.png",
+      "sha256": "19ad3f2c3241ce92b9f1621d6ac32285777133202ef30ba1bf2dc640637ccc6d",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/42842f31-dd7b-444c-bffa-ea2b57978650.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "High Arcana Infirmary",
+      "file": "world-draft/location images/Ardelis/High Arcana Infirmary.png",
+      "sha256": "137704b0158a4854d5840930d4b1f3e60126ad92876f9f22d13b29622a60ceb9",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/83659366-3996-4f72-adb8-d869f4105172.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Caelrath Courthouse",
+      "file": "world-draft/location images/Ardelis/Caelrath Courthouse.png",
+      "sha256": "4528ec6d216eb14ce24af82e83a3922b6f0544526a9ee7eda8fc302a495d19ef",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/3f9aec89-79de-441c-8962-1ef44d581935.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "The Silver Baths",
+      "file": "world-draft/location images/Ardelis/The Silver Baths.png",
+      "sha256": "e7cc02584ed53cb1cf7fcf947da98ea1daf144a3cfff1f7b53ee9c7936f3a6a1",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/7e147262-7d80-4d84-829c-46a5dde85543.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Caelrath Amphitheatre",
+      "file": "world-draft/location images/Ardelis/Caelrath Amphitheatre.png",
+      "sha256": "d66b6fdacc3cd5511e651dfe2649e7cfc26f81623042ccfb4bfd4721d85cd37f",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/64aea13c-4a3e-4a63-b44c-9193a9a8e1df.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Westbridge Watchhouse",
+      "file": "world-draft/location images/Ardelis/Westbridge Watchhouse.png",
+      "sha256": "e4842da4abb3d6634b7fd12c50c1a15bc434b48643523fd9188661ff9ed9063b",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/652c3ed1-1049-4441-8aea-0a3452042d7c.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "The King's Lists",
+      "file": "world-draft/location images/Ardelis/The King's Lists.png",
+      "sha256": "9e004b3e512ad39f9dd508194ab99edb9988fc903d38eb00f2cc9a8d700a4a74",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/260a617d-3efa-4086-a692-40ca3e370254.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Mortar and Moss Apothecary",
+      "file": "world-draft/location images/Ardelis/Mortar and Moss Apothecary.png",
+      "sha256": "9c19a40a39310dcd3db3154f684489ff4a65909b6c2f3d0414bc39046122ef05",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/50fdaec6-cbdf-43e1-af9f-fe7ee5bdec43.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Ashwillow Inn",
+      "file": "world-draft/location images/Ardelis/Ashwillow Inn.png",
+      "sha256": "859fe0c58ae7704e46146d8b627083f68e3cf6c3928fb4821b664629af81894f",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/40b0e6ca-0944-4347-8a6f-38c4bb1786f9.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "House Orselle Salon",
+      "file": "world-draft/location images/Ardelis/House Orselle Salon.png",
+      "sha256": "1239e34b2d4f9082e3aa02845a9e2bf702a669fc2516ab95cb5e704641cca54b",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/28982f4d-8781-43a8-a0f4-92c38f557e12.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Violet Canopy Market",
+      "file": "world-draft/location images/Ardelis/Violet Canopy Market.png",
+      "sha256": "7942d8b42e2e526e0d2baef112c65a8f2d59787ed5b30b75c234fa384a418e46",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/c6a55ca5-dbc6-4e48-8e29-f9443b2ab337.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "The Queen's Watergardens",
+      "file": "world-draft/location images/Ardelis/The Queen's Watergardens.png",
+      "sha256": "139bbd1f934802fbf8ae8b2ffcbf14c9add8b3f9f25364bb34a445d9cdcbeb62",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/3de99b47-817b-4477-a61e-935a4cb589cf.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "The Veiled Oratory",
+      "file": "world-draft/location images/Ardelis/The Veiled Oratory.png",
+      "sha256": "5a0a3e4e8e538334aaa7d7f9180c751eaf6cebbbc2d2aee67f55c1e23433841c",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/4674a99a-9bc2-4c86-a50d-aeb9186d0114.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "The Gilt Measure Exchange",
+      "file": "world-draft/location images/Ardelis/The Gilt Measure Exchange.png",
+      "sha256": "b67e5bf4dc2ae13b178b3bdfc57bc558c08e519e1f417f5e6181de56a117907d",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/8c86c1e8-d172-40b7-82e4-6e88f7a2931b.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Palewick Bookshop",
+      "file": "world-draft/location images/Ardelis/Palewick Bookshop.png",
+      "sha256": "ebe50bd7f7db7ca989edd0c1b9aabc58a7f8e5c622f3f834c5c7f6a28f65babd",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/fa456bd1-cd56-428d-8f14-bac9081c41c0.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Gilded Vessel Tavern",
+      "file": "world-draft/location images/Ardelis/Gilded Vessel Tavern.png",
+      "sha256": "6cc4b862bc89552970e011e192c91377142650d92470a426813d903e159b5acf",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/226814d8-e3e0-4d4c-928f-3aa3b9a02e4a.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Bastion and Buckle Armory",
+      "file": "world-draft/location images/Ardelis/Bastion and Buckle Armory.png",
+      "sha256": "b19d87a432ee9ef9eb7ff36588901f24008c6c55e5328d463976a413afe388d9",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/f73b2ed6-d57c-47a9-afdf-21391f6da534.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Tern Thread Tailors",
+      "file": "world-draft/location images/Ardelis/Tern Thread Tailors.png",
+      "sha256": "53c091159e19942efbe0462591765e7ef0373d6d77a2266c1c11584acb1a2dd1",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/a5ecf5ad-6b7f-4b72-be07-15c63594fe30.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "House Dalcourt Counting House",
+      "file": "world-draft/location images/Ardelis/House Dalcourt Counting House.png",
+      "sha256": "e329ab45a31fff9e79db4eb07af49fbc3b9587704d6baefde4b3670bc3c7896d",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/efe20dc3-9e4f-4786-b125-729f3eba12bf.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "High Star Square",
+      "file": "world-draft/location images/Ardelis/High Star Square.png",
+      "sha256": "b5387f0604a9d046ddcc627841bbd3a216606d38dac2dad7a3bfac9564d224bb",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/c8ee7ca3-6c8a-4cb2-a901-14f3552065b0.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Caelrath Institute of Magic",
+      "file": "world-draft/location images/Ardelis/Caelrath Institute of Magic.png",
+      "sha256": "18d417fcca8062b72d424afc2ea2c0a8acf9aefe18d1c613ed626a6d3ecfb8db",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/36f64fde-d04a-4967-9c3b-e617d3fcb25f.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Crown Watch Headquarters",
+      "file": "world-draft/location images/Ardelis/Crown Watch Headquarters.png",
+      "sha256": "d263f7028cdeea4d91474567f64376b206eb676dc4ec415ed51fc76bbe502c95",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/17783434-bf63-417f-80fb-d99286d68380.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Adventurer's Guild - Caelrath Branch",
+      "file": "world-draft/location images/Ardelis/Adventurer's Guild - Caelrath Branch.png",
+      "sha256": "9ac1ecd925d856064f0c8bb14274a72e085fcb22d2dd5aaf48f117b84994ef49",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/176a8026-83a4-4cf6-86ba-647e7767f129.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Civic Records Hall",
+      "file": "world-draft/location images/Ardelis/Civic Records Hall.png",
+      "sha256": "9075878efa1f66e32e3ff9f22e8db8dc2662e1d78ecb2f2b60fb0bba231331ba",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/fbf73b62-a8fb-4250-85ad-911f5773df05.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "The Brass Hearth Workshop",
+      "file": "world-draft/location images/Ardelis/The Brass Hearth Workshop.png",
+      "sha256": "3f573de8d1aa62323f175cabd146f060f5eca6b21685a8cfe1f7d414130ec963",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/59c0d818-7d4c-467b-a86b-4f7d62f5bd94.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Valleygate Lodgings",
+      "file": "world-draft/location images/Ardelis/Valleygate Lodgings.png",
+      "sha256": "a5defa0b44f859b0c1b22d4c0700a5085c81ce04a6146a7f1bf43a7b4b157f28",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/c4f6a28e-8a89-4a90-8020-9f6f96d0fae8.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Lantern House Theatre",
+      "file": "world-draft/location images/Ardelis/Lantern House Theatre.png",
+      "sha256": "218ed10aa73765fb028450ef35ef4ec5b2a3f928eb8f321eed967cf4a5c2490d",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/9b87caec-96be-4579-8cb9-a9838bd76d65.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Eastwater Bonded Warehouse",
+      "file": "world-draft/location images/Ardelis/Eastwater Bonded Warehouse.png",
+      "sha256": "dcdbdd1553c971edba239ce4afe932add7985318724d578d0b9fba1f10bc45ac",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/c166341a-a46c-4135-8ed1-beda250d7617.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Eastwater Locks",
+      "file": "world-draft/location images/Ardelis/Eastwater Locks.png",
+      "sha256": "f8bcacf7395dd7e15032b0aa082512e2957ec7b5172478cdca71e9ebb2dddc42",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/f6283b59-4015-42d3-8656-fb0351f00736.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Riveters' Lane",
+      "file": "world-draft/location images/Ardelis/Riveters' Lane.png",
+      "sha256": "7113c430ea5cb18e413f66e7beb0862d2020b623873815acafbcc17949072ca2",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/47cd09b6-96c4-46ed-8392-8564447a63a9.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Low Lantern Tenements",
+      "file": "world-draft/location images/Ardelis/Low Lantern Tenements.png",
+      "sha256": "4d96d412b359060f705b88c779e420a3302bca7ea32b00b2c9d0c0762e342ddc",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/9887a324-5187-44ce-9ae6-c87ed7c2a612.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Sable Ribbon Club",
+      "file": "world-draft/location images/Ardelis/Sable Ribbon Club.png",
+      "sha256": "3d59271310c00f92f3b78ffedde4b77cb39ad2e3d434b6e5f35b573a0c7e1ed0",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/13110462-c0cf-444c-b0cc-cc5758d098b2.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "The Glassworks",
+      "file": "world-draft/location images/Ardelis/The Glassworks.png",
+      "sha256": "d3e1f1a89b98e9bfe0e364fe49b6f2bc3b41de60575dc3f4c30583480b9c8f28",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/f4d4c848-3d98-45a9-b7a0-716156c6c6bf.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Eelcatchers' Landing",
+      "file": "world-draft/location images/Ardelis/Eelcatchers' Landing.png",
+      "sha256": "34c1bc815183344a51e66a1d4312deef25c48c9102400cb4bd25796f7734f4e6",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/bbeef913-198d-4b32-b9de-0599955b1f8e.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Windward Mills",
+      "file": "world-draft/location images/Ardelis/Windward Mills.png",
+      "sha256": "10fa12c73cf21e093085b240f27ca6fa059df492e253df7147a354403b67219a",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/35c9fc43-fb1b-423f-9bf7-945e37f7f02d.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Orchardgate Hamlet",
+      "file": "world-draft/location images/Ardelis/Orchardgate Hamlet.png",
+      "sha256": "ae89b36c662c502084d82216972bef09e61afaaab358401eb16d5fdb8a4f2711",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/d3b4cf97-cf60-486e-ad69-1fee77e64929.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Outer Granaries",
+      "file": "world-draft/location images/Ardelis/Outer Granaries.png",
+      "sha256": "758e01333f886214f5a4d6db12dd361a10af8b5dc77c9af82cd6756b9df69a09",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/1b9dce5e-716e-40f0-9d13-835166a88950.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Cliffside Quarry",
+      "file": "world-draft/location images/Ardelis/Cliffside Quarry.png",
+      "sha256": "7559a72a64a6f1648889aded25bd10b9918f8f34f60596679c26fef2202c600f",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/dd366b43-703f-4ebf-a877-ca78d57bccaf.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "The Old Culvert",
+      "file": "world-draft/location images/Ardelis/The Old Culvert.png",
+      "sha256": "04e387ab08037dd50d16d849bcb1d6c4b9a8f6febbc238f457f721d0466d73e6",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/04dc9282-3d0d-46bb-b2bc-29d05050beda.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Kingsward Gate",
+      "file": "world-draft/location images/Ardelis/Kingsward Gate.png",
+      "sha256": "a39289153255a7301e87ce9bbf07aa6c5b9c7892624d73ad460e98a53938746e",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/07dc2925-7287-4572-a803-b703d6a51be8.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "The Pearl and Thistle",
+      "file": "world-draft/location images/Ardelis/The Pearl and Thistle.png",
+      "sha256": "98144a36ac9c3a636e0b7b2bc94559bd69f44f16dd17af17e52ed2b074f41974",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/28a5f66f-12e7-4dfb-b422-3f399c5d7983.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Caravan Licensing Yard",
+      "file": "world-draft/location images/Ardelis/Caravan Licensing Yard.png",
+      "sha256": "3b29e598a5a1b9f1481585a9c4fb6013f3658b18222d406e9da8884628f3c7eb",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/e87d8c29-50d7-418d-a16f-35fac751ce08.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Caelrath Portal Hall",
+      "file": "world-draft/location images/Ardelis/Caelrath Portal Hall.png",
+      "sha256": "4d0488ee6721d480311dd38125ba1a9c71f803c4d01d8e5b366e40607d9cd3de",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/b9a5d098-38f9-4ae3-91ed-0651044a8655.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "The Wayfarers' Hostel",
+      "file": "world-draft/location images/Ardelis/The Wayfarers' Hostel.png",
+      "sha256": "627ed4d24904817fb051b52b5edbf625ceff163907cd0b636319846468bce66f",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/31343445-0638-4b40-8d1d-16f83859a0f3.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Southbank Homes",
+      "file": "world-draft/location images/Ardelis/Southbank Homes.png",
+      "sha256": "505465293a31661e755a09155ea4e1dbe2a755254b4bcf8b7985a73c8f6d2b61",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/70069394-66f2-46cc-822a-8017031a2789.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Southbank School",
+      "file": "world-draft/location images/Ardelis/Southbank School.png",
+      "sha256": "26c7530a53537906eba82699c4f433b8ce87cc215bd25a2c32a76057c45f5f9d",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/5600c24a-3bc1-4f8e-a7d9-85ac4ec3f06d.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Threadneedle Bakery",
+      "file": "world-draft/location images/Ardelis/Threadneedle Bakery.png",
+      "sha256": "d447a03947baca5742940396daea97a611b06c6d96922d9d98b849181444c5ae",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/0c7d0ab2-341e-4c14-93e2-a9506066bbdd.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "The Common Table",
+      "file": "world-draft/location images/Ardelis/The Common Table.png",
+      "sha256": "ad1c23798b2b1da4220e9eca833c0959c671e2d68e7cbc955b244158dd23a2d8",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/fba83d1d-0909-4252-8149-9607d1e12cf9.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Ropewalk Court",
+      "file": "world-draft/location images/Ardelis/Ropewalk Court.png",
+      "sha256": "c12e62e0c397b01248c0bfce8fc2b86bf21c808896ea58cb55926fea07622e27",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/50bed35d-479b-48b0-8ffd-3fe7d351eb4c.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Crown Remand House",
+      "file": "world-draft/location images/Ardelis/Crown Remand House.png",
+      "sha256": "15125e59b0b6853f63f07c7f05c99b241c43a5ace8ad3783528fb1999c932d7a",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/e5682a3e-7704-4440-bb0f-820479150c9a.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Stonehearth Smithy",
+      "file": "world-draft/location images/Ardelis/Stonehearth Smithy.png",
+      "sha256": "7625112821f85e6fd2a50f0641f899ce70b4845a5acd2656eadf96a52787832c",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/506f2502-d380-491b-b7d5-d0c30833fbc8.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Caelrath Harbor",
+      "file": "world-draft/location images/Ardelis/Caelrath Harbor.png",
+      "sha256": "620894ee77ea1318df4a835b680554d369beff6c302f7cb6ba1fdde45bc54ecd",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/23cf2555-2bee-4061-85bb-b660b51538b3.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Crownlight Lighthouse",
+      "file": "world-draft/location images/Ardelis/Crownlight Lighthouse.png",
+      "sha256": "9fcd04a48ba8bb37438c5b6714caa0d56332c291ad30f0c708ecdc11402d9c42",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/930b52c0-55f8-466a-9211-38ac2b979cdf.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "The Harbormaster's Lodge",
+      "file": "world-draft/location images/Ardelis/The Harbormaster's Lodge.png",
+      "sha256": "0dc1bf00d7aa0d17cca0c8016968637358979aa77dfcdfdb0e72faa2be6b1bce",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/b1f84fb4-7b19-4285-917e-59e8a6ae60d4.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Saltgull Shipwrights",
+      "file": "world-draft/location images/Ardelis/Saltgull Shipwrights.png",
+      "sha256": "b88065e67327014d955fa37d2a4dee413559fd6261f812c1083cd5671cbd315b",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/e63cd03d-a4cc-477c-a95a-455eb95c0f0a.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "The Customs Arcade",
+      "file": "world-draft/location images/Ardelis/The Customs Arcade.png",
+      "sha256": "2b28da55b09721dc710b7df9aba28947965ecc89aea7fc06d15d41441cf731a7",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/ceb2a81e-f15b-4ad5-939d-79a581ceaf50.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "The Chainbreak Docks",
+      "file": "world-draft/location images/Ardelis/The Chainbreak Docks.png",
+      "sha256": "b2ea01c0ec020e0cc0ad743f7513df0f566043f352022a5820e0613a5d988e55",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/e1d29983-27e0-4db9-b4d1-491ffa347abb.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Starwatch Isle",
+      "file": "world-draft/location images/Ardelis/Starwatch Isle.png",
+      "sha256": "6cb8ee2aeb86160c1276ee6b248d2bd8e70f572f400aa1f63d36f8239b9f2a36",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/c2bd790c-192b-4e42-b908-7e3e160a10ee.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "Starward Commandery",
+      "file": "world-draft/location images/Ardelis/Starward Commandery.png",
+      "sha256": "2052371f6c24d2cb78906774a67c0bf786cdf9c547ba88349a7e792c08118ff2",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/e58445ea-a054-4d69-9c78-95a4d57f99e0.png"
+    },
+    {
+      "target": "LOCATION_IMAGE",
+      "address": "The Sunken Bell",
+      "file": "world-draft/location images/Ardelis/The Sunken Bell.png",
+      "sha256": "39bcf9d833e250000c0a8c2587313cef47441e868669a9b7c19fd14ffdb413b0",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/5f9bc897-0602-4738-9fc9-571321dc5cea.png"
+    },
+    {
+      "target": "AREA_IMAGE",
+      "address": "Caelrath Portal Hall::Caelrath Portal Hall - Portal Room",
+      "file": "world-draft/location images/Ardelis/Caelrath Portal Hall - Portal Room.png",
+      "sha256": "af2b0a95b619acb94d7fdb9c9ee1025b4cca9ab7a70046c25240895174ac8b63",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/4ab03940-2dfd-4511-927c-0f8a98875293.png"
+    },
+    {
+      "target": "AREA_IMAGE",
+      "address": "Caelrath Palace::Caelrath Palace - Resonance Cradle",
+      "file": "world-draft/location images/Ardelis/Caelrath Palace - Resonance Cradle.png",
+      "sha256": "3c75c8d538c66aab096e296709741f596e22131969a9c6761664d1d53772f402",
+      "imageUrl": "https://images.aidungeon.com/user_content/15213280/images/uploads/7454ee4e-2c81-4ccb-b9e6-f5597fcdcb44.png"
+    }
+  ]
+}

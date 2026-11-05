@@ -1,0 +1,460 @@
+{
+  "baseWorldSHA256": "77d47b4384db822c6021fb5c9ef29bde3daabfb557bf948b62f2a3bd3ccf8b59",
+  "baseCommit": "eda234f",
+  "locationExportSHA256": "939a42e79be77fc9340d51307a975172bf0e13c1725abe1a168750f2eaede53a",
+  "locations": {
+    "statue of a celestial": {
+      "name": "statue of a celestial",
+      "basicInfo": "A description of this location that will appear in the journal.",
+      "x": -35,
+      "y": 26,
+      "radius": 2,
+      "region": "city center",
+      "complexityType": "simple",
+      "detailType": "basic",
+      "initialKnown": false
+    },
+    "institute of magic": {
+      "name": "institute of magic",
+      "basicInfo": "A description of this location that will appear in the journal.",
+      "x": 35,
+      "y": 14,
+      "radius": 2,
+      "region": "city center",
+      "complexityType": "simple",
+      "detailType": "basic",
+      "initialKnown": false
+    },
+    "Main palace": {
+      "name": "Main palace",
+      "basicInfo": "A description of this location that will appear in the journal.",
+      "x": 17,
+      "y": -15,
+      "radius": 2,
+      "region": "main palace",
+      "complexityType": "simple",
+      "detailType": "basic",
+      "initialKnown": false
+    },
+    "chapel": {
+      "name": "chapel",
+      "basicInfo": "A description of this location that will appear in the journal.",
+      "x": -7,
+      "y": -24,
+      "radius": 2,
+      "region": "chapel",
+      "complexityType": "simple",
+      "detailType": "basic",
+      "initialKnown": false
+    },
+    "courthouse": {
+      "name": "courthouse",
+      "basicInfo": "A description of this location that will appear in the journal.",
+      "x": 38,
+      "y": 30,
+      "radius": 2,
+      "region": "west",
+      "complexityType": "simple",
+      "detailType": "basic",
+      "initialKnown": false
+    },
+    "marketplace": {
+      "name": "marketplace",
+      "basicInfo": "A description of this location that will appear in the journal.",
+      "x": -15,
+      "y": 7,
+      "radius": 2,
+      "region": "market",
+      "complexityType": "simple",
+      "detailType": "basic",
+      "initialKnown": false
+    },
+    "bathhouse": {
+      "name": "bathhouse",
+      "basicInfo": "A description of this location that will appear in the journal.",
+      "x": 36,
+      "y": -39,
+      "radius": 2,
+      "region": "west",
+      "complexityType": "simple",
+      "detailType": "basic",
+      "initialKnown": false
+    },
+    "big ass garden": {
+      "name": "big ass garden",
+      "basicInfo": "A description of this location that will appear in the journal.",
+      "x": 30,
+      "y": -43,
+      "radius": 2,
+      "region": "market",
+      "complexityType": "simple",
+      "detailType": "basic",
+      "initialKnown": false
+    },
+    "a parlor? for tea": {
+      "name": "a parlor? for tea",
+      "basicInfo": "A description of this location that will appear in the journal.",
+      "x": -5,
+      "y": 49,
+      "radius": 2,
+      "region": "gate",
+      "complexityType": "simple",
+      "detailType": "basic",
+      "initialKnown": false
+    },
+    "oracle's place": {
+      "name": "oracle's place",
+      "basicInfo": "A description of this location that will appear in the journal.",
+      "x": 49,
+      "y": -33,
+      "radius": 2,
+      "region": "market",
+      "complexityType": "simple",
+      "detailType": "basic",
+      "initialKnown": false
+    },
+    "warehouse": {
+      "name": "warehouse",
+      "basicInfo": "A description of this location that will appear in the journal.",
+      "x": -27,
+      "y": -36,
+      "radius": 2,
+      "region": "east",
+      "complexityType": "simple",
+      "detailType": "basic",
+      "initialKnown": false
+    },
+    "guardhouse": {
+      "name": "guardhouse",
+      "basicInfo": "A description of this location that will appear in the journal.",
+      "x": 44,
+      "y": -27,
+      "radius": 2,
+      "region": "city center",
+      "complexityType": "simple",
+      "detailType": "basic",
+      "initialKnown": false
+    },
+    "harbor": {
+      "name": "harbor",
+      "basicInfo": "A description of this location that will appear in the journal.",
+      "x": -28,
+      "y": 7,
+      "radius": 2,
+      "region": "harbor",
+      "complexityType": "simple",
+      "detailType": "basic",
+      "initialKnown": false
+    },
+    "lighthouse": {
+      "name": "lighthouse",
+      "basicInfo": "A description of this location that will appear in the journal.",
+      "x": 20,
+      "y": -16,
+      "radius": 2,
+      "region": "harbor",
+      "complexityType": "simple",
+      "detailType": "basic",
+      "initialKnown": false
+    },
+    "gate": {
+      "name": "gate",
+      "basicInfo": "A description of this location that will appear in the journal.",
+      "x": 17,
+      "y": 7,
+      "radius": 2,
+      "region": "gate",
+      "complexityType": "simple",
+      "detailType": "basic",
+      "initialKnown": false
+    },
+    "residentials": {
+      "name": "residentials",
+      "basicInfo": "A description of this location that will appear in the journal.",
+      "x": -10,
+      "y": 34,
+      "radius": 2,
+      "region": "south",
+      "complexityType": "simple",
+      "detailType": "basic",
+      "initialKnown": false
+    },
+    "ballroom": {
+      "name": "ballroom",
+      "basicInfo": "A description of this location that will appear in the journal.",
+      "x": -37,
+      "y": -44,
+      "radius": 2,
+      "region": "main palace",
+      "complexityType": "simple",
+      "detailType": "basic",
+      "initialKnown": false
+    },
+    "court wizard spire": {
+      "name": "court wizard spire",
+      "basicInfo": "A description of this location that will appear in the journal.",
+      "x": -45,
+      "y": -5,
+      "radius": 2,
+      "region": "norhteast",
+      "complexityType": "simple",
+      "detailType": "basic",
+      "initialKnown": false
+    }
+  },
+  "regions": {
+    "nnorth district": {
+      "name": "nnorth district",
+      "basicInfo": "A newly created region.",
+      "x": -1,
+      "y": 1,
+      "hiddenInfo": "",
+      "initialKnown": false,
+      "realm": "Ardelis",
+      "images": {
+        "map": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/6d6a6632-283f-49c2-837a-a27543754ec7.jpg"
+        }
+      }
+    },
+    "chapel": {
+      "name": "chapel",
+      "basicInfo": "A newly created region.",
+      "x": -2,
+      "y": 1,
+      "hiddenInfo": "",
+      "initialKnown": false,
+      "realm": "Ardelis",
+      "images": {
+        "map": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/5109784d-7a40-4f1a-8c29-5387360fe553.jpg"
+        }
+      }
+    },
+    "main palace": {
+      "name": "main palace",
+      "basicInfo": "A newly created region.",
+      "x": 0,
+      "y": 1,
+      "hiddenInfo": "",
+      "initialKnown": false,
+      "realm": "Ardelis",
+      "images": {
+        "map": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/4a8892e6-2845-4d4d-8dee-dc7dff1950ba.jpg"
+        }
+      }
+    },
+    "norhteast": {
+      "name": "norhteast",
+      "basicInfo": "A newly created region.",
+      "x": 1,
+      "y": 1,
+      "hiddenInfo": "",
+      "initialKnown": false,
+      "realm": "Ardelis",
+      "images": {
+        "map": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/2156d8c6-6545-441e-a585-26c01f0f5755.jpg"
+        }
+      }
+    },
+    "market": {
+      "name": "market",
+      "basicInfo": "A newly created region.",
+      "x": -1,
+      "y": 0,
+      "hiddenInfo": "",
+      "initialKnown": false,
+      "realm": "Ardelis",
+      "images": {
+        "map": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/abeef8eb-edbe-4be8-86eb-2c990bd57edb.jpg"
+        }
+      }
+    },
+    "west": {
+      "name": "west",
+      "basicInfo": "A newly created region.",
+      "x": -2,
+      "y": 0,
+      "hiddenInfo": "",
+      "initialKnown": false,
+      "realm": "Ardelis",
+      "images": {
+        "map": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/b7d6be77-ab05-42ee-bc54-ebace50dec3d.jpg"
+        }
+      }
+    },
+    "city center": {
+      "name": "city center",
+      "basicInfo": "A newly created region.",
+      "x": 0,
+      "y": 0,
+      "hiddenInfo": "",
+      "initialKnown": false,
+      "realm": "Ardelis",
+      "images": {
+        "map": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/e878b77a-02bf-465b-940c-2fa8cd5ce73e.jpg"
+        }
+      }
+    },
+    "east": {
+      "name": "east",
+      "basicInfo": "A newly created region.",
+      "x": 1,
+      "y": 0,
+      "hiddenInfo": "",
+      "initialKnown": false,
+      "realm": "Ardelis",
+      "images": {
+        "map": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/e04efa05-f17f-48a8-b049-7fa92c118bb4.jpg"
+        }
+      }
+    },
+    "outskirts": {
+      "name": "outskirts",
+      "basicInfo": "A newly created region.",
+      "x": -2,
+      "y": -1,
+      "hiddenInfo": "",
+      "initialKnown": false,
+      "realm": "Ardelis",
+      "images": {
+        "map": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/2aba48e4-e6be-4762-a03a-ad13ba2b98cb.jpg"
+        }
+      }
+    },
+    "gate": {
+      "name": "gate",
+      "basicInfo": "A newly created region.",
+      "x": -1,
+      "y": -1,
+      "hiddenInfo": "",
+      "initialKnown": false,
+      "realm": "Ardelis",
+      "images": {
+        "map": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/ecc2bf79-9ad0-499a-9610-467260be4227.jpg"
+        }
+      }
+    },
+    "south": {
+      "name": "south",
+      "basicInfo": "A newly created region.",
+      "x": 0,
+      "y": -1,
+      "hiddenInfo": "",
+      "initialKnown": false,
+      "realm": "Ardelis",
+      "images": {
+        "map": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/548fa450-1622-41b5-be22-21aa9b56cf79.jpg"
+        }
+      }
+    },
+    "harbor": {
+      "name": "harbor",
+      "basicInfo": "A newly created region.",
+      "x": 1,
+      "y": -1,
+      "hiddenInfo": "",
+      "initialKnown": false,
+      "realm": "Ardelis",
+      "images": {
+        "map": {
+          "crop": {
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "zoom": 100
+          },
+          "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/user_content/15213280/images/uploads/07d258e1-19d4-45b6-a811-66bcb6502521.jpg"
+        }
+      }
+    }
+  },
+  "provenance": "Regions transcribed from the author reply; only the twelve new Ardelis entries. Existing non-Ardelis records are preserved from the canonical world."
+}

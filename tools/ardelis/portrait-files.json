@@ -1,0 +1,148 @@
+{
+  "Valkazathoth'dmir": {
+    "file": "world-draft/npc portraits/Ardelis/Valkazathoth'dmir.png",
+    "sha256": "37eb51d30e0d882dd02ed6df0147535ff07fb629394a457102931acca32999d4",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-2fd2ba0c-e0e5-41ab-9e43-f865249ff841.png"
+  },
+  "Isabeau Aurevain": {
+    "file": "world-draft/npc portraits/Ardelis/Isabeau Aurevain.png",
+    "sha256": "fb6ad99de141e8ddbf6f19ad34f17111ce4345465a932e1f5030964d4022feec",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-e7c25038-243c-458c-aaf8-b5ce02a72dfb.png"
+  },
+  "Marielle Aurevain": {
+    "file": "world-draft/npc portraits/Ardelis/Marielle Aurevain.png",
+    "sha256": "b9049d33951cb19a2227e054e4e846d5cab18d13a93d85ce2cdeb2bd730b8206",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-63ded558-c4d1-4945-9d17-d4a90486ec6b.png"
+  },
+  "Céleste Aurevain": {
+    "file": "world-draft/npc portraits/Ardelis/Céleste Aurevain.png",
+    "sha256": "cee9548ea50bf3ca6e9a4dc523d537e8e1981e4a654c41fa35afbde74d44777b",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-e660c5a5-f1aa-4ccb-ab5a-25060a0de62c.png"
+  },
+  "Lysandra Aurevain": {
+    "file": "world-draft/npc portraits/Ardelis/Lysandra Aurevain.png",
+    "sha256": "1c1108969842accb7105a4aabf77ff13e28862e2e5e228bb3130c46f37787aac",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-5d7aae63-e8c8-4b58-bb85-0243991cc0ac.png"
+  },
+  "Noelle Ashford": {
+    "file": "world-draft/npc portraits/Ardelis/Noelle Ashford.png",
+    "sha256": "acf1b8e0a0c4bbb81a1c0841717bbbdd08854028e26098c77a2d667a1baf7c39",
+    "generationPasses": 4,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-58256cb6-fefd-43fa-a847-47a42ca10108.png",
+    "revisionAuthority": "Three explicit author revisions in this chat; final: hands down, no weapons, hand caster, direct camera gaze.",
+    "supersededOriginal": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-b7cbce45-28f4-4eaa-a0f6-eea2f2775142.png"
+  },
+  "Thaurivex": {
+    "file": "world-draft/npc portraits/Ardelis/Thaurivex.png",
+    "sha256": "89986d159f6aedda50ac85aa8347aa8233173a0fc7a319a5b0324967e8a05326",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-9fbfbbab-621d-4d7b-9f54-c8988ef13cc8.png"
+  },
+  "Severin Morcant": {
+    "file": "world-draft/npc portraits/Ardelis/Severin Morcant.png",
+    "sha256": "735d7761ea7c7de97c7cd916ed9ef767e25401507f2b7d104c1c506e63bfbb7e",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-eea17e0e-aa22-4286-80fc-c13a159f4879.png"
+  },
+  "Hector Montrevel": {
+    "file": "world-draft/npc portraits/Ardelis/Hector Montrevel.png",
+    "sha256": "8e5a96e95bcbb273d11c0835dd1756a1c0c143767ff70f7caa69b77734a2e330",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-54ecb990-a1af-4be8-848a-70253a9a172f.png"
+  },
+  "Julienne Dalcourt": {
+    "file": "world-draft/npc portraits/Ardelis/Julienne Dalcourt.png",
+    "sha256": "84c7279fe2ad2f041f29ce56fc35ed19a20961f91122a02ca462aaf9838eaf96",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-0e65d55c-cea6-4543-be72-22f0aa3b56cd.png"
+  },
+  "Armand Veymont": {
+    "file": "world-draft/npc portraits/Ardelis/Armand Veymont.png",
+    "sha256": "69bad57a7ef150774c462f59da8df7e1046705ab1eab958e745ac2fc355765ef",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-cf55f78a-b0f9-44b9-a08b-5a0b83c7388a.png"
+  },
+  "Mireille Orselle": {
+    "file": "world-draft/npc portraits/Ardelis/Mireille Orselle.png",
+    "sha256": "7bea8d7e33caebfa7e9a52e9e1274837dced4e215940f76c08ea209e9bc4b146",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-f827f658-54e5-4642-9570-468ca328e515.png"
+  },
+  "Laurent Bellegarde": {
+    "file": "world-draft/npc portraits/Ardelis/Laurent Bellegarde.png",
+    "sha256": "fc3c17519809bf70314a4ec06f6ce14acbdb2face4e73d50a733afa071d199a2",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-938a1d9e-7929-48de-b380-a1aa4ca17bbf.png"
+  },
+  "Sabine Mauclerc": {
+    "file": "world-draft/npc portraits/Ardelis/Sabine Mauclerc.png",
+    "sha256": "903ea6232ddfdf36adab0673e80f09d4bc4d49ab978a558fac0c2efb996b992e",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-b9fa3a2f-ebd9-44ac-bf7a-68907a74a67e.png"
+  },
+  "Lucan Voss": {
+    "file": "world-draft/npc portraits/Ardelis/Lucan Voss.png",
+    "sha256": "00d72b2f52dbd92edf17d44a3ee77023e2bdddb430d3bac89fc25f951e2a4801",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-354d3ece-8b53-42c5-a193-0600f797904e.png"
+  },
+  "Aveline Marchand": {
+    "file": "world-draft/npc portraits/Ardelis/Aveline Marchand.png",
+    "sha256": "eeffbcc501820f685a016b91f8678e8dead79638e70d0907b80ea5e57069cf58",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-b7120c00-ad4f-499f-b911-47c2252568d4.png"
+  },
+  "Bastien Rochefort": {
+    "file": "world-draft/npc portraits/Ardelis/Bastien Rochefort.png",
+    "sha256": "7fcd56b112aaa12d419ca3cb5a8b0c357c16e00205909861b95553c2ac244d1f",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-4dfcf22c-cbba-43dc-b3d7-79e3dc8950f0.png"
+  },
+  "Nerissa Vale": {
+    "file": "world-draft/npc portraits/Ardelis/Nerissa Vale.png",
+    "sha256": "acb4098d506bcd4246e1eb22c5f85a18904bb569a8da3cc4dcd4761373c6ca87",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-93814d28-525e-4b0e-aec8-11457e930bea.png"
+  },
+  "Coralie Brissot": {
+    "file": "world-draft/npc portraits/Ardelis/Coralie Brissot.png",
+    "sha256": "9fd2fef89c00c83c242dfdb4b6294142ac73af8609637f4c1f9c05c5778b3f3b",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-4db052a8-841b-4834-96c4-d8c9975f5d3a.png"
+  },
+  "Corvin Hale": {
+    "file": "world-draft/npc portraits/Ardelis/Corvin Hale.png",
+    "sha256": "2a8c27dcd0f2dbbb253e7556b4465696783227de115eeb2c7d854d132d0ac5d1",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-049b6391-2e3d-43ae-b846-25f62a78a647.png"
+  },
+  "Aurélian Vauss": {
+    "file": "world-draft/npc portraits/Ardelis/Aurélian Vauss.png",
+    "sha256": "8f114ef1f70e328c4ee9574685dd9167ccf18c82d34b7564c61bcf2390c9c00e",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-57738be7-001b-4bbc-b56a-16b915a62555.png"
+  },
+  "Séraphine Duvray": {
+    "file": "world-draft/npc portraits/Ardelis/Séraphine Duvray.png",
+    "sha256": "ff4cf8f0a88ecdf224224f9a7a43e02924d5739809ebeeab6e58ceadbd02cf14",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-6c6aade6-6126-44a6-bb2c-0434e182d3af.png"
+  },
+  "Osmond Verain": {
+    "file": "world-draft/npc portraits/Ardelis/Osmond Verain.png",
+    "sha256": "0de8114d7a07980356daa73c6bf79c0f757f96761c0f1f14d44cd1f7dbf324ae",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-43e69b06-c015-4805-8426-7021e98a525b.png"
+  },
+  "Cedran Aurevain": {
+    "file": "world-draft/npc portraits/Ardelis/Cedran Aurevain.png",
+    "sha256": "1952336c8e4ec9cc8dba0e89767f1c3c830499eb47bc9c1eafbd56eb51b60c7b",
+    "generationPasses": 1,
+    "source": "C:\\Users\\VladCodes\\.codex\\generated_images\\01a17305-2d48-70b1-b79e-b29a5a6a2401\\exec-6dd4ea23-0c38-4b3f-b8ae-d47d9dcc8667.png"
+  }
+}

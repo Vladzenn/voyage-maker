@@ -1,0 +1,758 @@
+[
+  {
+    "source": "NEW",
+    "name": "Opaline Arcade",
+    "sourceRegion": "market",
+    "region": "Violet Market Ward",
+    "x": -34,
+    "y": -16,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "Velvet Lyre Hall",
+    "sourceRegion": "east",
+    "region": "Eastwater Ward",
+    "x": 30,
+    "y": 5,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "Caelrath Sewers",
+    "sourceRegion": "east",
+    "region": "Eastwater Ward",
+    "x": -8,
+    "y": -43,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "chapel",
+    "name": "Starfall Cathedral",
+    "sourceRegion": "chapel",
+    "region": "Starfall Heights",
+    "x": -7,
+    "y": -24,
+    "placement": "preserved Studio pin"
+  },
+  {
+    "source": "NEW",
+    "name": "Pilgrim's Rest Hospice",
+    "sourceRegion": "chapel",
+    "region": "Starfall Heights",
+    "x": -21,
+    "y": -2,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "Chapel Steps",
+    "sourceRegion": "chapel",
+    "region": "Starfall Heights",
+    "x": 25,
+    "y": -8,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "Vesper Bell Cloister",
+    "sourceRegion": "chapel",
+    "region": "Starfall Heights",
+    "x": 18,
+    "y": 30,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "Starward Cemetery",
+    "sourceRegion": "chapel",
+    "region": "Starfall Heights",
+    "x": -37,
+    "y": -39,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "Empyrean Archives",
+    "sourceRegion": "nnorth district",
+    "region": "Crownwater Terraces",
+    "x": -26,
+    "y": 26,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "Crownwater Aqueduct",
+    "sourceRegion": "nnorth district",
+    "region": "Crownwater Terraces",
+    "x": -7,
+    "y": -22,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "House Montrevel Estate",
+    "sourceRegion": "nnorth district",
+    "region": "Crownwater Terraces",
+    "x": 25,
+    "y": 1,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "The High Reservoir",
+    "sourceRegion": "nnorth district",
+    "region": "Crownwater Terraces",
+    "x": 32,
+    "y": 37,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "Royal Hawk Mews",
+    "sourceRegion": "nnorth district",
+    "region": "Crownwater Terraces",
+    "x": -42,
+    "y": 8,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "Terrace Gardeners' Lodge",
+    "sourceRegion": "nnorth district",
+    "region": "Crownwater Terraces",
+    "x": 12,
+    "y": -36,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "Main palace",
+    "name": "Caelrath Palace",
+    "sourceRegion": "main palace",
+    "region": "The Imperial Crown",
+    "x": 17,
+    "y": -15,
+    "placement": "preserved Studio pin"
+  },
+  {
+    "source": "ballroom",
+    "name": "Hall of Mirrors",
+    "sourceRegion": "main palace",
+    "region": "The Imperial Crown",
+    "x": -37,
+    "y": -44,
+    "placement": "preserved Studio pin"
+  },
+  {
+    "source": "NEW",
+    "name": "Royal Petition Court",
+    "sourceRegion": "main palace",
+    "region": "The Imperial Crown",
+    "x": -26,
+    "y": -20,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "Embassy Residences",
+    "sourceRegion": "main palace",
+    "region": "The Imperial Crown",
+    "x": 39,
+    "y": -37,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "The Crown Mint",
+    "sourceRegion": "main palace",
+    "region": "The Imperial Crown",
+    "x": 37,
+    "y": 18,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "Ivory Guard Barracks",
+    "sourceRegion": "main palace",
+    "region": "The Imperial Crown",
+    "x": -35,
+    "y": 12,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "court wizard spire",
+    "name": "Court Wizard's Spire",
+    "sourceRegion": "norhteast",
+    "region": "High Arcana Ward",
+    "x": -45,
+    "y": -5,
+    "placement": "preserved Studio pin"
+  },
+  {
+    "source": "NEW",
+    "name": "Amethyst Intake Works",
+    "sourceRegion": "norhteast",
+    "region": "High Arcana Ward",
+    "x": 26,
+    "y": 8,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "House Veymont Residence",
+    "sourceRegion": "norhteast",
+    "region": "High Arcana Ward",
+    "x": 18,
+    "y": -33,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "Skyglass Observatory",
+    "sourceRegion": "norhteast",
+    "region": "High Arcana Ward",
+    "x": -11,
+    "y": 34,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "The Old Receiving House",
+    "sourceRegion": "norhteast",
+    "region": "High Arcana Ward",
+    "x": 31,
+    "y": -9,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "High Arcana Infirmary",
+    "sourceRegion": "norhteast",
+    "region": "High Arcana Ward",
+    "x": -28,
+    "y": -28,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "courthouse",
+    "name": "Caelrath Courthouse",
+    "sourceRegion": "west",
+    "region": "Westbridge Ward",
+    "x": 38,
+    "y": 30,
+    "placement": "preserved Studio pin"
+  },
+  {
+    "source": "bathhouse",
+    "name": "The Silver Baths",
+    "sourceRegion": "west",
+    "region": "Westbridge Ward",
+    "x": 36,
+    "y": -39,
+    "placement": "preserved Studio pin"
+  },
+  {
+    "source": "NEW",
+    "name": "Caelrath Amphitheatre",
+    "sourceRegion": "west",
+    "region": "Westbridge Ward",
+    "x": -30,
+    "y": -32,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "Westbridge Watchhouse",
+    "sourceRegion": "west",
+    "region": "Westbridge Ward",
+    "x": -16,
+    "y": 16,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "The King's Lists",
+    "sourceRegion": "west",
+    "region": "Westbridge Ward",
+    "x": 9,
+    "y": -4,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "Mortar and Moss Apothecary",
+    "sourceRegion": "west",
+    "region": "Westbridge Ward",
+    "x": 22,
+    "y": 2,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "Ashwillow Inn",
+    "sourceRegion": "west",
+    "region": "Westbridge Ward",
+    "x": -34,
+    "y": 38,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "House Orselle Salon",
+    "sourceRegion": "west",
+    "region": "Westbridge Ward",
+    "x": 31,
+    "y": -18,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "marketplace",
+    "name": "Violet Canopy Market",
+    "sourceRegion": "market",
+    "region": "Violet Market Ward",
+    "x": -15,
+    "y": 7,
+    "placement": "preserved Studio pin"
+  },
+  {
+    "source": "big ass garden",
+    "name": "The Queen's Watergardens",
+    "sourceRegion": "market",
+    "region": "Violet Market Ward",
+    "x": 30,
+    "y": -43,
+    "placement": "preserved Studio pin"
+  },
+  {
+    "source": "oracle's place",
+    "name": "The Veiled Oratory",
+    "sourceRegion": "market",
+    "region": "Violet Market Ward",
+    "x": 49,
+    "y": -33,
+    "placement": "preserved Studio pin"
+  },
+  {
+    "source": "NEW",
+    "name": "The Gilt Measure Exchange",
+    "sourceRegion": "market",
+    "region": "Violet Market Ward",
+    "x": 14,
+    "y": 29,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "Palewick Bookshop",
+    "sourceRegion": "market",
+    "region": "Violet Market Ward",
+    "x": -34,
+    "y": 24,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "Gilded Vessel Tavern",
+    "sourceRegion": "market",
+    "region": "Violet Market Ward",
+    "x": -30,
+    "y": -22,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "Bastion and Buckle Armory",
+    "sourceRegion": "market",
+    "region": "Violet Market Ward",
+    "x": 26,
+    "y": 8,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "Tern Thread Tailors",
+    "sourceRegion": "market",
+    "region": "Violet Market Ward",
+    "x": 36,
+    "y": -12,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "House Dalcourt Counting House",
+    "sourceRegion": "market",
+    "region": "Violet Market Ward",
+    "x": -5,
+    "y": 41,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "statue of a celestial",
+    "name": "High Star Square",
+    "sourceRegion": "city center",
+    "region": "Celestial Ward",
+    "x": -35,
+    "y": 26,
+    "placement": "preserved Studio pin"
+  },
+  {
+    "source": "institute of magic",
+    "name": "Caelrath Institute of Magic",
+    "sourceRegion": "city center",
+    "region": "Celestial Ward",
+    "x": 35,
+    "y": 14,
+    "placement": "preserved Studio pin"
+  },
+  {
+    "source": "guardhouse",
+    "name": "Crown Watch Headquarters",
+    "sourceRegion": "city center",
+    "region": "Celestial Ward",
+    "x": 44,
+    "y": -27,
+    "placement": "preserved Studio pin"
+  },
+  {
+    "source": "NEW",
+    "name": "Adventurer's Guild - Caelrath Branch",
+    "sourceRegion": "city center",
+    "region": "Celestial Ward",
+    "x": -21,
+    "y": -15,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "Civic Records Hall",
+    "sourceRegion": "city center",
+    "region": "Celestial Ward",
+    "x": -23,
+    "y": 4,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "The Brass Hearth Workshop",
+    "sourceRegion": "city center",
+    "region": "Celestial Ward",
+    "x": 9,
+    "y": -5,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "Valleygate Lodgings",
+    "sourceRegion": "city center",
+    "region": "Celestial Ward",
+    "x": -34,
+    "y": -35,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "Lantern House Theatre",
+    "sourceRegion": "city center",
+    "region": "Celestial Ward",
+    "x": 27,
+    "y": 38,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "warehouse",
+    "name": "Eastwater Bonded Warehouse",
+    "sourceRegion": "east",
+    "region": "Eastwater Ward",
+    "x": -27,
+    "y": -36,
+    "placement": "preserved Studio pin"
+  },
+  {
+    "source": "NEW",
+    "name": "Eastwater Locks",
+    "sourceRegion": "east",
+    "region": "Eastwater Ward",
+    "x": -22,
+    "y": 26,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "Riveters' Lane",
+    "sourceRegion": "east",
+    "region": "Eastwater Ward",
+    "x": 3,
+    "y": 7,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "Low Lantern Tenements",
+    "sourceRegion": "east",
+    "region": "Eastwater Ward",
+    "x": 21,
+    "y": -12,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "Sable Ribbon Club",
+    "sourceRegion": "east",
+    "region": "Eastwater Ward",
+    "x": 32,
+    "y": 29,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "The Glassworks",
+    "sourceRegion": "east",
+    "region": "Eastwater Ward",
+    "x": 27,
+    "y": -35,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "Eelcatchers' Landing",
+    "sourceRegion": "east",
+    "region": "Eastwater Ward",
+    "x": -42,
+    "y": -9,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "Windward Mills",
+    "sourceRegion": "outskirts",
+    "region": "Windmill Escarpment",
+    "x": -21,
+    "y": 14,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "Outer Granaries",
+    "sourceRegion": "outskirts",
+    "region": "Windmill Escarpment",
+    "x": 23,
+    "y": 30,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "Orchardgate Hamlet",
+    "sourceRegion": "outskirts",
+    "region": "Windmill Escarpment",
+    "x": 12,
+    "y": -16,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "Cliffside Quarry",
+    "sourceRegion": "outskirts",
+    "region": "Windmill Escarpment",
+    "x": -34,
+    "y": -29,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "The Old Culvert",
+    "sourceRegion": "outskirts",
+    "region": "Windmill Escarpment",
+    "x": 38,
+    "y": -32,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "gate",
+    "name": "Kingsward Gate",
+    "sourceRegion": "gate",
+    "region": "Kingsward Gate",
+    "x": 17,
+    "y": 7,
+    "placement": "preserved Studio pin"
+  },
+  {
+    "source": "a parlor? for tea",
+    "name": "The Pearl and Thistle",
+    "sourceRegion": "gate",
+    "region": "Kingsward Gate",
+    "x": -5,
+    "y": 49,
+    "placement": "preserved Studio pin"
+  },
+  {
+    "source": "NEW",
+    "name": "Caravan Licensing Yard",
+    "sourceRegion": "gate",
+    "region": "Kingsward Gate",
+    "x": -28,
+    "y": -3,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "Caelrath Portal Hall",
+    "sourceRegion": "gate",
+    "region": "Kingsward Gate",
+    "x": 35,
+    "y": 22,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "The Wayfarers' Hostel",
+    "sourceRegion": "gate",
+    "region": "Kingsward Gate",
+    "x": -27,
+    "y": -32,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "residentials",
+    "name": "Southbank Homes",
+    "sourceRegion": "south",
+    "region": "Southbank Ward",
+    "x": -10,
+    "y": 34,
+    "placement": "preserved Studio pin"
+  },
+  {
+    "source": "NEW",
+    "name": "Southbank School",
+    "sourceRegion": "south",
+    "region": "Southbank Ward",
+    "x": -35,
+    "y": 14,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "Threadneedle Bakery",
+    "sourceRegion": "south",
+    "region": "Southbank Ward",
+    "x": 8,
+    "y": 21,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "The Common Table",
+    "sourceRegion": "south",
+    "region": "Southbank Ward",
+    "x": 31,
+    "y": 7,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "Ropewalk Court",
+    "sourceRegion": "south",
+    "region": "Southbank Ward",
+    "x": -24,
+    "y": -25,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "Stonehearth Smithy",
+    "sourceRegion": "south",
+    "region": "Southbank Ward",
+    "x": 27,
+    "y": -30,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "Crown Remand House",
+    "sourceRegion": "south",
+    "region": "Southbank Ward",
+    "x": -40,
+    "y": -8,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "harbor",
+    "name": "Caelrath Harbor",
+    "sourceRegion": "harbor",
+    "region": "Lantern Harbors",
+    "x": -28,
+    "y": 7,
+    "placement": "preserved Studio pin"
+  },
+  {
+    "source": "lighthouse",
+    "name": "Crownlight Lighthouse",
+    "sourceRegion": "harbor",
+    "region": "Lantern Harbors",
+    "x": 20,
+    "y": -16,
+    "placement": "preserved Studio pin"
+  },
+  {
+    "source": "NEW",
+    "name": "The Harbormaster's Lodge",
+    "sourceRegion": "harbor",
+    "region": "Lantern Harbors",
+    "x": -33,
+    "y": 32,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "Saltgull Shipwrights",
+    "sourceRegion": "harbor",
+    "region": "Lantern Harbors",
+    "x": -4,
+    "y": 8,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "The Customs Arcade",
+    "sourceRegion": "harbor",
+    "region": "Lantern Harbors",
+    "x": -21,
+    "y": -27,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "The Chainbreak Docks",
+    "sourceRegion": "harbor",
+    "region": "Lantern Harbors",
+    "x": 34,
+    "y": 20,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "Starwatch Isle",
+    "sourceRegion": "harbor",
+    "region": "Lantern Harbors",
+    "x": 35,
+    "y": -35,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "The Sunken Bell",
+    "sourceRegion": "harbor",
+    "region": "Lantern Harbors",
+    "x": -7,
+    "y": -42,
+    "placement": "new approximate pin for author adjustment"
+  },
+  {
+    "source": "NEW",
+    "name": "Starward Commandery",
+    "sourceRegion": "chapel",
+    "region": "Starfall Heights",
+    "x": 32,
+    "y": 16,
+    "placement": "new approximate pin for author adjustment"
+  }
+]

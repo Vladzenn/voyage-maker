@@ -1,0 +1,877 @@
+{
+  "Cedran Aurevain": {
+    "affinities": [
+      "Enchantment"
+    ],
+    "weightedDraw": 42,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Isabeau Aurevain": {
+    "affinities": [
+      "Light"
+    ],
+    "weightedDraw": 46,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Lysandra Aurevain": {
+    "affinities": [
+      "Light"
+    ],
+    "weightedDraw": 35,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Marielle Aurevain": {
+    "affinities": [
+      "Wind"
+    ],
+    "weightedDraw": 36,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Céleste Aurevain": {
+    "affinities": [
+      "Nature"
+    ],
+    "weightedDraw": 8,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Severin Morcant": {
+    "affinities": [
+      "Arcane",
+      "Enchantment"
+    ],
+    "weightedDraw": 70,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Noelle Ashford": {
+    "affinities": [
+      "Arcane",
+      "Fire",
+      "Water",
+      "Earth",
+      "Wind",
+      "Lightning",
+      "Ice",
+      "Light",
+      "Metal",
+      "Nature",
+      "Sound",
+      "Gravity",
+      "Void",
+      "Healing",
+      "Enchantment",
+      "Summoning",
+      "Illusion",
+      "Divination",
+      "Space",
+      "Soul"
+    ],
+    "weightedDraw": "authored exceptional all-public affinity; finite learned techniques",
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Thaurivex": {
+    "affinities": [
+      "Soul",
+      "Arcane",
+      "Metal"
+    ],
+    "weightedDraw": "authored special anatomy",
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Hector Montrevel": {
+    "affinities": [
+      "Water"
+    ],
+    "weightedDraw": 31,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Julienne Dalcourt": {
+    "affinities": [
+      "Metal"
+    ],
+    "weightedDraw": 56,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Armand Veymont": {
+    "affinities": [
+      "Earth",
+      "Light",
+      "Fire"
+    ],
+    "weightedDraw": 98,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Mireille Orselle": {
+    "affinities": [
+      "Illusion",
+      "Sound"
+    ],
+    "weightedDraw": 87,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Laurent Bellegarde": {
+    "affinities": [
+      "Healing",
+      "Soul"
+    ],
+    "weightedDraw": 73,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Sabine Mauclerc": {
+    "affinities": [
+      "Summoning"
+    ],
+    "weightedDraw": 33,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Lucan Voss": {
+    "affinities": [
+      "Illusion",
+      "Void"
+    ],
+    "weightedDraw": 82,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Aveline Marchand": {
+    "affinities": [
+      "Healing"
+    ],
+    "weightedDraw": 62,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Bastien Rochefort": {
+    "affinities": [
+      "Earth",
+      "Wind"
+    ],
+    "weightedDraw": 86,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Nerissa Vale": {
+    "affinities": [
+      "Gravity"
+    ],
+    "weightedDraw": 23,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Coralie Brissot": {
+    "affinities": [
+      "Metal",
+      "Enchantment",
+      "Water"
+    ],
+    "weightedDraw": 96,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Corvin Hale": {
+    "affinities": [
+      "Earth"
+    ],
+    "weightedDraw": 40,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Aurélian Vauss": {
+    "affinities": [
+      "Enchantment"
+    ],
+    "weightedDraw": 16,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Séraphine Duvray": {
+    "affinities": [
+      "Metal"
+    ],
+    "weightedDraw": 54,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Osmond Verain": {
+    "affinities": [
+      "Healing",
+      "Light",
+      "Soul"
+    ],
+    "weightedDraw": 94,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Odette Clairmont": {
+    "affinities": [
+      "Earth"
+    ],
+    "weightedDraw": 2,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Perrin Fauche": {
+    "affinities": [
+      "Healing"
+    ],
+    "weightedDraw": 39,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Colette Marron": {
+    "affinities": [
+      "Water"
+    ],
+    "weightedDraw": 28,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Étienne Roux": {
+    "affinities": [
+      "Wind"
+    ],
+    "weightedDraw": 5,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Madelon Vire": {
+    "affinities": [
+      "Soul"
+    ],
+    "weightedDraw": 57,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Solène Artaud": {
+    "affinities": [
+      "Divination"
+    ],
+    "weightedDraw": 40,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Matthieu Fen": {
+    "affinities": [
+      "Water"
+    ],
+    "weightedDraw": 41,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Lucille Montrevel": {
+    "affinities": [
+      "Enchantment"
+    ],
+    "weightedDraw": 32,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "René Vautrin": {
+    "affinities": [
+      "Ice",
+      "Metal"
+    ],
+    "weightedDraw": 67,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Alix Perrault": {
+    "affinities": [
+      "Wind",
+      "Divination",
+      "Nature"
+    ],
+    "weightedDraw": 99,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Berthe Lenoir": {
+    "affinities": [
+      "Nature"
+    ],
+    "weightedDraw": 46,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Maëlle Duret": {
+    "affinities": [
+      "Enchantment",
+      "Water"
+    ],
+    "weightedDraw": 68,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Elise Vaubert": {
+    "affinities": [
+      "Illusion"
+    ],
+    "weightedDraw": 12,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Adrien Veymont": {
+    "affinities": [
+      "Wind",
+      "Light",
+      "Metal"
+    ],
+    "weightedDraw": 97,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Pauline Savat": {
+    "affinities": [
+      "Light"
+    ],
+    "weightedDraw": 47,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Henri Valcour": {
+    "affinities": [
+      "Light"
+    ],
+    "weightedDraw": 44,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Gaspard Helot": {
+    "affinities": [
+      "Metal"
+    ],
+    "weightedDraw": 19,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Yselle Mornay": {
+    "affinities": [
+      "Earth",
+      "Metal"
+    ],
+    "weightedDraw": 88,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Félicien Sorel": {
+    "affinities": [
+      "Sound"
+    ],
+    "weightedDraw": 26,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Anouk Vellin": {
+    "affinities": [
+      "Metal"
+    ],
+    "weightedDraw": 29,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Éloi Sarce": {
+    "affinities": [
+      "Light",
+      "Divination"
+    ],
+    "weightedDraw": 85,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Nadine Courbet": {
+    "affinities": [
+      "Water"
+    ],
+    "weightedDraw": 4,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Thibaut Grange": {
+    "affinities": [
+      "Earth",
+      "Water"
+    ],
+    "weightedDraw": 76,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Hélène Vaudin": {
+    "affinities": [
+      "Light"
+    ],
+    "weightedDraw": 38,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Corentin Delat": {
+    "affinities": [
+      "Wind",
+      "Water"
+    ],
+    "weightedDraw": 76,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Mirette Aurel": {
+    "affinities": [
+      "Illusion"
+    ],
+    "weightedDraw": 16,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Jonas Brac": {
+    "affinities": [
+      "Water"
+    ],
+    "weightedDraw": 0,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Gabrielle Fane": {
+    "affinities": [
+      "Metal"
+    ],
+    "weightedDraw": 24,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Edmée Mott": {
+    "affinities": [
+      "Healing",
+      "Nature",
+      "Water"
+    ],
+    "weightedDraw": 92,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Florent Bard": {
+    "affinities": [
+      "Water",
+      "Fire"
+    ],
+    "weightedDraw": 86,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Isaline Orselle": {
+    "affinities": [
+      "Enchantment",
+      "Light"
+    ],
+    "weightedDraw": 83,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Rosalie Vernet": {
+    "affinities": [
+      "Nature"
+    ],
+    "weightedDraw": 19,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Clément Saxe": {
+    "affinities": [
+      "Earth",
+      "Water"
+    ],
+    "weightedDraw": 75,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Violette Senn": {
+    "affinities": [
+      "Soul"
+    ],
+    "weightedDraw": 60,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Octave Bellin": {
+    "affinities": [
+      "Light",
+      "Enchantment"
+    ],
+    "weightedDraw": 83,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Émilie Sable": {
+    "affinities": [
+      "Divination"
+    ],
+    "weightedDraw": 33,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Fabrice Yorn": {
+    "affinities": [
+      "Fire"
+    ],
+    "weightedDraw": 15,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Loïc Ferrand": {
+    "affinities": [
+      "Earth"
+    ],
+    "weightedDraw": 34,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Aimée Tern": {
+    "affinities": [
+      "Enchantment"
+    ],
+    "weightedDraw": 10,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Marcel Dalcourt": {
+    "affinities": [
+      "Light"
+    ],
+    "weightedDraw": 33,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Delphine Lys": {
+    "affinities": [
+      "Divination",
+      "Enchantment"
+    ],
+    "weightedDraw": 88,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Olivier Nacre": {
+    "affinities": [
+      "Enchantment"
+    ],
+    "weightedDraw": 34,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Léonie Sorel": {
+    "affinities": [
+      "Arcane",
+      "Divination"
+    ],
+    "weightedDraw": 73,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Denis Ravel": {
+    "affinities": [
+      "Sound",
+      "Light",
+      "Metal"
+    ],
+    "weightedDraw": 99,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Guillaume Lest": {
+    "affinities": [
+      "Divination",
+      "Earth"
+    ],
+    "weightedDraw": 84,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Madeleine Sève": {
+    "affinities": [
+      "Enchantment"
+    ],
+    "weightedDraw": 37,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Isidore Brin": {
+    "affinities": [
+      "Fire"
+    ],
+    "weightedDraw": 56,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Camille Vane": {
+    "affinities": [
+      "Earth"
+    ],
+    "weightedDraw": 61,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Cyrille Fable": {
+    "affinities": [
+      "Illusion",
+      "Sound",
+      "Light"
+    ],
+    "weightedDraw": 96,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Pascal Reeve": {
+    "affinities": [
+      "Earth"
+    ],
+    "weightedDraw": 15,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Nicolas Tain": {
+    "affinities": [
+      "Fire"
+    ],
+    "weightedDraw": 8,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Yvette Marn": {
+    "affinities": [
+      "Water"
+    ],
+    "weightedDraw": 64,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Estelle Vaul": {
+    "affinities": [
+      "Enchantment",
+      "Illusion"
+    ],
+    "weightedDraw": 81,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Rémy Noct": {
+    "affinities": [
+      "Illusion"
+    ],
+    "weightedDraw": 53,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Dorian Pell": {
+    "affinities": [
+      "Metal"
+    ],
+    "weightedDraw": 35,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Hugo Castan": {
+    "affinities": [
+      "Water",
+      "Nature"
+    ],
+    "weightedDraw": 89,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Arlette Venn": {
+    "affinities": [
+      "Water"
+    ],
+    "weightedDraw": 20,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Simon Belloc": {
+    "affinities": [
+      "Earth"
+    ],
+    "weightedDraw": 49,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Anaïs Merville": {
+    "affinities": [
+      "Wind"
+    ],
+    "weightedDraw": 20,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Bruno Casse": {
+    "affinities": [
+      "Earth",
+      "Metal"
+    ],
+    "weightedDraw": 81,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Pascale Ardent": {
+    "affinities": [
+      "Light",
+      "Water",
+      "Earth"
+    ],
+    "weightedDraw": 95,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Fleur Davenant": {
+    "affinities": [
+      "Light"
+    ],
+    "weightedDraw": 44,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Victoire Perrin": {
+    "affinities": [
+      "Fire"
+    ],
+    "weightedDraw": 5,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Lazare Besson": {
+    "affinities": [
+      "Water"
+    ],
+    "weightedDraw": 57,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Alban Prévost": {
+    "affinities": [
+      "Arcane",
+      "Light"
+    ],
+    "weightedDraw": 83,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Jeanne Coeur": {
+    "affinities": [
+      "Healing",
+      "Water",
+      "Light"
+    ],
+    "weightedDraw": 94,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Lydie Valette": {
+    "affinities": [
+      "Earth"
+    ],
+    "weightedDraw": 29,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Hervé Valette": {
+    "affinities": [
+      "Earth"
+    ],
+    "weightedDraw": 16,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Cécile Aubin": {
+    "affinities": [
+      "Sound"
+    ],
+    "weightedDraw": 22,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Ninon Bell": {
+    "affinities": [
+      "Water"
+    ],
+    "weightedDraw": 39,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Margot Fenn": {
+    "affinities": [
+      "Fire"
+    ],
+    "weightedDraw": 28,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Luc Marchand": {
+    "affinities": [
+      "Water"
+    ],
+    "weightedDraw": 37,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Gérald Stone": {
+    "affinities": [
+      "Metal",
+      "Fire"
+    ],
+    "weightedDraw": 70,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Régine Vossard": {
+    "affinities": [
+      "Earth"
+    ],
+    "weightedDraw": 6,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Yannick Dorne": {
+    "affinities": [
+      "Water",
+      "Ice"
+    ],
+    "weightedDraw": 79,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Odile Caron": {
+    "affinities": [
+      "Water"
+    ],
+    "weightedDraw": 61,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Valentin Arques": {
+    "affinities": [
+      "Water"
+    ],
+    "weightedDraw": 50,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Maude Tellier": {
+    "affinities": [
+      "Earth"
+    ],
+    "weightedDraw": 55,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Félix Vaune": {
+    "affinities": [
+      "Divination"
+    ],
+    "weightedDraw": 23,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Roxane Marot": {
+    "affinities": [
+      "Ice"
+    ],
+    "weightedDraw": 46,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Gaël Sere": {
+    "affinities": [
+      "Light"
+    ],
+    "weightedDraw": 20,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Sévérine Morn": {
+    "affinities": [
+      "Divination",
+      "Soul",
+      "Water"
+    ],
+    "weightedDraw": 97,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Quentin Virel": {
+    "affinities": [
+      "Light"
+    ],
+    "weightedDraw": 16,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Romane Clair": {
+    "affinities": [
+      "Wind"
+    ],
+    "weightedDraw": 23,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Adèle Mirot": {
+    "affinities": [
+      "Light"
+    ],
+    "weightedDraw": 26,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Tristan Vell": {
+    "affinities": [
+      "Wind"
+    ],
+    "weightedDraw": 30,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Manon Valeur": {
+    "affinities": [
+      "Light"
+    ],
+    "weightedDraw": 16,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Ansel Carme": {
+    "affinities": [
+      "Light"
+    ],
+    "weightedDraw": 30,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Sibylle Opal": {
+    "affinities": [
+      "Enchantment"
+    ],
+    "weightedDraw": 3,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Béatrice Nerol": {
+    "affinities": [
+      "Enchantment",
+      "Nature"
+    ],
+    "weightedDraw": 69,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Raoul Chantrel": {
+    "affinities": [
+      "Light",
+      "Sound",
+      "Illusion"
+    ],
+    "weightedDraw": 93,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  },
+  "Agathe Surn": {
+    "affinities": [
+      "Water"
+    ],
+    "weightedDraw": 5,
+    "source": "one saved SystemRandom draw; counts 65/25/10"
+  }
+}

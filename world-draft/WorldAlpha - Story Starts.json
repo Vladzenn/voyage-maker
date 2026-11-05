@@ -401,6 +401,98 @@
     "isDefault": false,
     "questGenerationGuidance": "Begin with the actual local scene and the player’s chosen interest. Use the established cast, ordinary services and existing optional undertakings before inventing replacements. The first useful action can be practical, social, martial or magical. Respect refusal, actual training, real payment and a completed outcome. Travel to another realm is an explicit choice with actual permission, not an automatic introduction."
   },
+  "🛡️ Ardelis: The Caelrath Counter": {
+    "name": "🛡️ Ardelis: The Caelrath Counter",
+    "description": "Begin in Caelrath, capital of the Empire of Ardelis. A returning company is arguing over its last job while you approach the local Adventurer’s Guild. Apply, bring an existing badge or ask about work.",
+    "storyStart": "[Begin in Ardelis, in the named existing room. Preserve the selected background, real badge or novice status and actual skills. These adults attend to their own business. End before the player answers or commits to a task. No free rank, key, royal access, main-story knowledge or automatic romance.]\n\nA shield hits the floor with a tired wooden knock. Its owner lowers himself onto a bench while the archer beside him shakes water from her coat.\n\n“You said the lower passage was dry,” Romane says.\n\n“It was,” Quentin replies. “When I asked.”\n\nA woman at the counter finishes counting a small payment into another adventurer’s hand. Behind her, real notices cover a board beneath a violet guild banner. She looks past the wet footprints, then toward you.\n\n“Aveline Marchand. Existing badge, first application, or a question?”\n\nThrough the open door, a cart clatters across the bridge between terraces. The city carries on around the queue.",
+    "locations": [
+      "Adventurer's Guild - Caelrath Branch"
+    ],
+    "locationAreas": [
+      "Adventurer's Guild - Caelrath Branch - Reception Counter"
+    ],
+    "startingQuests": [
+      "Rumor: Work beneath the Stars"
+    ],
+    "startingItems": [
+      {
+        "item": "Mark",
+        "quantity": 1000
+      }
+    ],
+    "startingPartyNPCs": [],
+    "isDefault": false,
+    "questGenerationGuidance": "This is Caelrath in Ardelis, with its own local lives and institutions. Keep the opening opportunity optional. Only actual agreement begins a live job; the institute exercise is not an expedition. Restricted international travel follows a real authorization and crossing. Continue after the player’s chosen action."
+  },
+  "🏘️ Ardelis: A Place in Southbank": {
+    "name": "🏘️ Ardelis: A Place in Southbank",
+    "description": "Begin among the households of Southbank in Caelrath, Ardelis’s capital. Potters, repairers and neighbors have work to finish and opinions about the water supply. Your reason for being here is yours.",
+    "storyStart": "[Begin in Ardelis, in the named existing room. Preserve the selected background, real badge or novice status and actual skills. These adults attend to their own business. End before the player answers or commits to a task. No free rank, key, royal access, main-story knowledge or automatic romance.]\n\nWater arrives at the shared tap in a reluctant cough. Lydie Valette holds a basin beneath it while her husband leans a repaired cart wheel against the wall.\n\n“If you tell me the upper fountains are running again,” she says, “I’m carrying this bucket uphill myself.”\n\nHervé opens his mouth, considers it, and begins checking the wheel instead.\n\nBeyond the little yard, white roofs climb toward a palace bright with gold. Here the morning smells of damp clay and somebody’s bread. Lydie notices you by the lane.\n\n“You looking for a particular door?”",
+    "locations": [
+      "Southbank Homes"
+    ],
+    "locationAreas": [
+      "Southbank Homes - Main Lane"
+    ],
+    "startingQuests": [
+      "Rumor: A Room and a Living"
+    ],
+    "startingItems": [
+      {
+        "item": "Mark",
+        "quantity": 1000
+      }
+    ],
+    "startingPartyNPCs": [],
+    "isDefault": false,
+    "questGenerationGuidance": "This is Caelrath in Ardelis, with its own local lives and institutions. Keep the opening opportunity optional. Only actual agreement begins a live job; the institute exercise is not an expedition. Restricted international travel follows a real authorization and crossing. Continue after the player’s chosen action."
+  },
+  "🔬 Ardelis: An Institute Place": {
+    "name": "🔬 Ardelis: An Institute Place",
+    "description": "Begin at Caelrath’s own magical institute in Ardelis, as an adult apprentice or visiting learner. A demonstration slot is open; you decide what question your actual training can answer.",
+    "storyStart": "[Begin in Ardelis, in the named existing room. Preserve the selected background, real badge or novice status and actual skills. These adults attend to their own business. End before the player answers or commits to a task. No free rank, key, royal access, main-story knowledge or automatic romance.]\n\nA small lens rolls across a table. Denis catches it before it reaches the edge, then sees Léonie watching him.\n\n“That one is mine,” she says.\n\n“I know.”\n\n“You put your name on the case.”\n\nOlivier Nacre places a kettle on the warmer and lets the silence do some work. Outside the reading-room windows, water spills from the next terrace in a steady silver sheet.\n\nHe turns to you. “You’ve arrived in time for the demonstration list. Tell me what you actually know how to do, and what you want to find out.”",
+    "locations": [
+      "Caelrath Institute of Magic"
+    ],
+    "locationAreas": [
+      "Caelrath Institute of Magic - Reading Room"
+    ],
+    "startingQuests": [
+      "An Experiment with Witnesses"
+    ],
+    "startingItems": [
+      {
+        "item": "Mark",
+        "quantity": 1000
+      }
+    ],
+    "startingPartyNPCs": [],
+    "isDefault": false,
+    "questGenerationGuidance": "This is Caelrath in Ardelis, with its own local lives and institutions. Keep the opening opportunity optional. Only actual agreement begins a live job; the institute exercise is not an expedition. Restricted international travel follows a real authorization and crossing. Continue after the player’s chosen action."
+  },
+  "🎭 Ardelis: An Orselle Invitation": {
+    "name": "🎭 Ardelis: An Orselle Invitation",
+    "description": "Begin in Caelrath, Ardelis’s capital, with an appointment at House Orselle. You might be a hired specialist, performer, guest or petitioner. The household has its own disputes before you arrive.",
+    "storyStart": "[Begin in Ardelis, in the named existing room. Preserve the selected background, real badge or novice status and actual skills. These adults attend to their own business. End before the player answers or commits to a task. No free rank, key, royal access, main-story knowledge or automatic romance.]\n\nA musician stops halfway through a phrase behind the salon doors.\n\n“Again,” says a woman inside.\n\n“The instrument needs tuning.”\n\n“Then we agree about the problem.”\n\nIsaline Orselle meets you beneath a painted garden screen, an appointment card in her hand. The room beyond is bright with violet cloth, pale wood and the unhurried expense of people who expect things to be ready.\n\n“Mireille is listening to the rehearsal,” she says. “Before I interrupt her—what name should I announce, and what have you come to discuss?”",
+    "locations": [
+      "House Orselle Salon"
+    ],
+    "locationAreas": [
+      "House Orselle Salon - Reception Salon"
+    ],
+    "startingQuests": [
+      "The Player of Small Parts"
+    ],
+    "startingItems": [
+      {
+        "item": "Mark",
+        "quantity": 1000
+      }
+    ],
+    "startingPartyNPCs": [],
+    "isDefault": false,
+    "questGenerationGuidance": "This is Caelrath in Ardelis, with its own local lives and institutions. Keep the opening opportunity optional. Only actual agreement begins a live job; the institute exercise is not an expedition. Restricted international travel follows a real authorization and crossing. Continue after the player’s chosen action."
+  },
   "📚 First Day of Work: Phoenix Wing": {
     "name": "📚 First Day of Work: Phoenix Wing",
     "description": "Join Phoenix Wing Academy in Glowhaven as a new instructor. Kōhei Sanada welcomes you to the faculty offices to discuss your subject, classroom and opening lesson.",

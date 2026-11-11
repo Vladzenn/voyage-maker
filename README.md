@@ -2,7 +2,7 @@
 
 Private shared workspace for authoring a Voyage world.
 
-Repository: [Vladzenn/voyage-maker](https://github.com/Vladzenn/voyage-maker) (private).
+Repository: [Vladzenn/voyage-maker](https://github.com/Vladzenn/voyage-maker).
 
 ## Current project
 

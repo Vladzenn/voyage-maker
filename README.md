@@ -1,6 +1,6 @@
 # Voyage Maker — The Schools of Magic, Arise!
 
-Private shared workspace for authoring a Voyage world.
+Private shared workspace for authoring a Voyage world with codex.
 
 Repository: [Vladzenn/voyage-maker](https://github.com/Vladzenn/voyage-maker).
 
